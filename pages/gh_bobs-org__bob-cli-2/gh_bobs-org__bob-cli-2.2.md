@@ -20,7 +20,7 @@ write: teach bob capture the @<route>^<block-id> marker plus -t/--task and hidde
 ## Dependencies
 
 - **Depends on:** [gh\_bobs-org\_\_bob-cli-2.1](gh_bobs-org__bob-cli-2.1.md) ✓
-- **Blocks:** [gh\_bobs-org\_\_bob-cli-2.3](gh_bobs-org__bob-cli-2.3.md) ◐
+- **Blocks:** [gh\_bobs-org\_\_bob-cli-2.3](gh_bobs-org__bob-cli-2.3.md) ✓
 
 ## Agents
 

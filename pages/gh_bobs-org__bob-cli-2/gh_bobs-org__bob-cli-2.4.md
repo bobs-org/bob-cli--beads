@@ -13,7 +13,7 @@ ui: extend the chezmoi Hammerspoon capture panel with the @<route>^<id> marker f
 
 ## Dependencies
 
-- **Depends on:** [gh\_bobs-org\_\_bob-cli-2.3](gh_bobs-org__bob-cli-2.3.md) ◐
+- **Depends on:** [gh\_bobs-org\_\_bob-cli-2.3](gh_bobs-org__bob-cli-2.3.md) ✓
 
 ## Agents
 
