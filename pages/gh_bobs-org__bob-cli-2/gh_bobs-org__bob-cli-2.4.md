@@ -19,10 +19,11 @@ ui: extend the chezmoi Hammerspoon capture panel with the @<route>^<id> marker f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-2.4/README.md) | [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) | 1 |
+| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-2.4/README.md) | [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@745988a`](https://github.com/bbugyi200/dotfiles/commit/745988aa95e77f04ba85f6206fff7b3a3dfa02e8) | feat(hammerspoon): add capture task picker | [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) | 2026-07-31 12:31:32 |
+| bob-cli | [`8831506`](https://github.com/bobs-org/bob-cli/commit/8831506cec0c420345947b45d40223bec5acf034) | docs(capture): document sub-bullet picker markers | [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) | 2026-07-31 12:32:02 |
