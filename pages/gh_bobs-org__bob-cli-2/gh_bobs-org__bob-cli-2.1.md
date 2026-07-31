@@ -19,7 +19,7 @@ scan: add src/native/note_tasks.rs, a pure scanner that turns one note's Markdow
 
 ## Dependencies
 
-- **Blocks:** [gh\_bobs-org\_\_bob-cli-2.2](gh_bobs-org__bob-cli-2.2.md) ◐
+- **Blocks:** [gh\_bobs-org\_\_bob-cli-2.2](gh_bobs-org__bob-cli-2.2.md) ✓
 
 ## Agents
 
