@@ -11,6 +11,10 @@
 
 ui: extend the chezmoi Hammerspoon capture panel with the @<route>^<id> marker family, a status-annotated task chooser backed by bob capture-tasks, sub-bullet success notifications, and busted coverage of the new request model.
 
+## Notes
+
+[2026-07-31T12:32:34Z · gh_bobs-org__bob-cli-2.4] Implemented and published the four-form Hammerspoon sub-bullet picker flow, status-annotated searchable task chooser, stale-safe --task-ref capture, success notifications, request-model tests, and bob-cli README documentation. Verified just fmt-lua and just test-hammerspoon (14 successes), bob-cli just all (all checks passed), clean pushed repos at chezmoi 745988aa and bob-cli 8831506, successful chezmoi update -a --force, and no deployed Hammerspoon drift via chezmoi diff.
+
 ## Dependencies
 
 - **Depends on:** [gh\_bobs-org\_\_bob-cli-2.3](gh_bobs-org__bob-cli-2.3.md) ✓
