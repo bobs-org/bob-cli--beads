@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-2.2/README.md) | [gh\_bobs-org\_\_bob-cli-2.2](gh_bobs-org__bob-cli-2.2.md) | 1 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-2.3/README.md) | [gh\_bobs-org\_\_bob-cli-2.3](gh_bobs-org__bob-cli-2.3.md) | 1 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-2.4/README.md) | [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) | 2 |
-| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.gh_bobs-org__bob-cli-2.land.md) | [gh\_bobs-org\_\_bob-cli-2](README.md) | 1 |
+| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.gh_bobs-org__bob-cli-2.land.md) | [gh\_bobs-org\_\_bob-cli-2](README.md) | 2 |
 
 ## Commits
 
@@ -73,3 +73,4 @@ flowchart TD
 | chezmoi | [`chezmoi@745988a`](https://github.com/bbugyi200/dotfiles/commit/745988aa95e77f04ba85f6206fff7b3a3dfa02e8) | feat(hammerspoon): add capture task picker | [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) | 2026-07-31 12:31:32 |
 | bob-cli | [`8831506`](https://github.com/bobs-org/bob-cli/commit/8831506cec0c420345947b45d40223bec5acf034) | docs(capture): document sub-bullet picker markers | [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) | 2026-07-31 12:32:02 |
 | bob-cli | [`fafb07e`](https://github.com/bobs-org/bob-cli/commit/fafb07e2c23ab00e1b649840496b5aa96645d8ba) | test(cli): add malformed sub-bullet capture validation cases | [gh\_bobs-org\_\_bob-cli-2](README.md) | 2026-07-31 12:41:20 |
+| bob-cli--plans | [`bob-cli--plans@b6dc784`](https://github.com/bobs-org/bob-cli--plans/commit/b6dc78429681c0ac3dd61b4618637b3d30e12957) | docs(plans): mark complete\_capture\_sub\_bullets epic as done | [gh\_bobs-org\_\_bob-cli-2](README.md) | 2026-07-31 12:42:29 |
