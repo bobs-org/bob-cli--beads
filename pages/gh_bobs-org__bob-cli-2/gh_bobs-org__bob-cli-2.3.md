@@ -20,7 +20,7 @@ list: add the read-only bob capture-tasks subcommand that lists a note's open ta
 ## Dependencies
 
 - **Depends on:** [gh\_bobs-org\_\_bob-cli-2.2](gh_bobs-org__bob-cli-2.2.md) ✓
-- **Blocks:** [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) ◐
+- **Blocks:** [gh\_bobs-org\_\_bob-cli-2.4](gh_bobs-org__bob-cli-2.4.md) ✓
 
 ## Agents
 
