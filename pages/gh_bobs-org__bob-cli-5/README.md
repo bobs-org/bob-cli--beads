@@ -19,7 +19,7 @@ The Ctrl+Shift+P bullet-property picker offers a `priority` property whose P2/P3
 | [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) | Priority value stage and single-task write | ✓ closed | medium | 1 | 1 |
 | [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) | Counted-session priority writes | ✓ closed | medium | 1 | 1 |
 | [gh\_bobs-org\_\_bob-cli-5.4](gh_bobs-org__bob-cli-5.4.md) | Priority-derived suggestion in the date picker | ✓ closed | medium | 1 | 1 |
-| [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | Docs, version bump, and vault deploy | ✓ closed | small | 1 | 1 |
+| [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | Docs, version bump, and vault deploy | ✓ closed | small | 1 | 2 |
 
 ## Lineage
 
@@ -51,7 +51,7 @@ flowchart TD
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.2/README.md) | [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) | 1 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.3/README.md) | [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) | 1 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.4/README.md) | [gh\_bobs-org\_\_bob-cli-5.4](gh_bobs-org__bob-cli-5.4.md) | 1 |
-| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.5/README.md) | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 1 |
+| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.5/README.md) | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 2 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.land/README.md) | [gh\_bobs-org\_\_bob-cli-5](README.md) | 0 |
 
 ## Commits
@@ -64,3 +64,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@11ccbd5`](https://github.com/bobs-org/bob-plugins/commit/11ccbd520fb0eb6e3ae507f4be3a2dfa97f8818e) | feat(navigation): roll schedules for counted priority writes | [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) | 2026-08-03 08:36:12 |
 | bob-plugins | [`bob-plugins@4a14aff`](https://github.com/bobs-org/bob-plugins/commit/4a14affc00d6c7e47561e5c822345b86b14ebfc1) | feat(navigation-hotkeys): suggest scheduled dates from priority | [gh\_bobs-org\_\_bob-cli-5.4](gh_bobs-org__bob-cli-5.4.md) | 2026-08-03 08:38:25 |
 | bob-cli | [`3ae9819`](https://github.com/bobs-org/bob-cli/commit/3ae98193b2406d99e7481f2767545c39cf6e6076) | docs: document priority task property rolls | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 2026-08-03 08:46:07 |
+| bob-plugins | [`bob-plugins@3670c17`](https://github.com/bobs-org/bob-plugins/commit/3670c173c524ecdb30ba021b6ffacac5306d6d95) | chore: release navigation hotkeys 1.14.0 | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 2026-08-03 08:46:45 |

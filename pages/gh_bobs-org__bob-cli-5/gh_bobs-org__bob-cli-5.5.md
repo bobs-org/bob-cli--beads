@@ -24,10 +24,11 @@ release: document the new property kind, bump the plugin manifest and README, an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.5/README.md) | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 1 |
+| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.5/README.md) | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | bob-cli | [`3ae9819`](https://github.com/bobs-org/bob-cli/commit/3ae98193b2406d99e7481f2767545c39cf6e6076) | docs: document priority task property rolls | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 2026-08-03 08:46:07 |
+| bob-plugins | [`bob-plugins@3670c17`](https://github.com/bobs-org/bob-plugins/commit/3670c173c524ecdb30ba021b6ffacac5306d6d95) | chore: release navigation hotkeys 1.14.0 | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 2026-08-03 08:46:45 |
