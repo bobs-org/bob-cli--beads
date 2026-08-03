@@ -16,7 +16,7 @@ The Ctrl+Shift+P bullet-property picker offers a `priority` property whose P2/P3
 | Bead | Title | Status | Size | Agents | Commits |
 |---|---|---|---|---:|---:|
 | [gh\_bobs-org\_\_bob-cli-5.1](gh_bobs-org__bob-cli-5.1.md) | Config schema for \`values: priority\` | ✓ closed | medium | 1 | 1 |
-| [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) | Priority value stage and single-task write | ◐ in_progress | medium | 1 | 0 |
+| [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) | Priority value stage and single-task write | ✓ closed | medium | 1 | 1 |
 | [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) | Counted-session priority writes | ◐ in_progress | medium | 1 | 0 |
 | [gh\_bobs-org\_\_bob-cli-5.4](gh_bobs-org__bob-cli-5.4.md) | Priority-derived suggestion in the date picker | ◐ in_progress | medium | 1 | 0 |
 | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | Docs, version bump, and vault deploy | ◐ in_progress | small | 1 | 0 |
@@ -27,7 +27,7 @@ The Ctrl+Shift+P bullet-property picker offers a `priority` property whose P2/P3
 flowchart TD
     n0["gh_bobs-org__bob-cli-5: Priority bullet property that rolls a scheduled date [in_progress]"]
     n1["gh_bobs-org__bob-cli-5.1: Config schema for `values: priority` [closed]"]
-    n2["gh_bobs-org__bob-cli-5.2: Priority value stage and single-task write [in_progress]"]
+    n2["gh_bobs-org__bob-cli-5.2: Priority value stage and single-task write [closed]"]
     n3["gh_bobs-org__bob-cli-5.3: Counted-session priority writes [in_progress]"]
     n4["gh_bobs-org__bob-cli-5.4: Priority-derived suggestion in the date picker [in_progress]"]
     n5["gh_bobs-org__bob-cli-5.5: Docs, version bump, and vault deploy [in_progress]"]
@@ -48,7 +48,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.1/README.md) | [gh\_bobs-org\_\_bob-cli-5.1](gh_bobs-org__bob-cli-5.1.md) | 1 |
-| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.2/README.md) | [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) | 0 |
+| [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.2/README.md) | [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) | 1 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.3/README.md) | [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) | 0 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.4/README.md) | [gh\_bobs-org\_\_bob-cli-5.4](gh_bobs-org__bob-cli-5.4.md) | 0 |
 | [bbugyi200.athena.gh\_bobs-org\_\_bob-cli-5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.gh_bobs-org__bob-cli-5.5/README.md) | [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) | 0 |
@@ -59,3 +59,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed (UTC) |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8669c7e`](https://github.com/bobs-org/bob-plugins/commit/8669c7eab8fcb6a3ceb3fcba47e317e6b88004ed) | feat(navigation): validate priority property configuration | [gh\_bobs-org\_\_bob-cli-5.1](gh_bobs-org__bob-cli-5.1.md) | 2026-08-03 08:15:53 |
+| bob-plugins | [`bob-plugins@ec7e0e4`](https://github.com/bobs-org/bob-plugins/commit/ec7e0e40e22e7599ea5199729fb03cc5dc41aeb7) | feat(navigation-hotkeys): add priority scheduling picker writes | [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) | 2026-08-03 08:28:12 |

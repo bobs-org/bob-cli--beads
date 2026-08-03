@@ -13,7 +13,7 @@ suggest: pin a visually distinct, re-rollable suggested date at the top of the `
 
 ## Dependencies
 
-- **Depends on:** [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) ◐
+- **Depends on:** [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) ✓
 - **Blocks:** [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) ◐
 
 ## Agents

@@ -17,7 +17,7 @@ config: teach the bullet-property config loader a `values: priority` kind with a
 
 ## Dependencies
 
-- **Blocks:** [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) ◐
+- **Blocks:** [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) ✓
 
 ## Agents
 
