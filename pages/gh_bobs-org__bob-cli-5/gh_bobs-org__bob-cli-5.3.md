@@ -18,7 +18,7 @@ counted: extend the counted batch planner so N<Ctrl+Shift+P> applies one priorit
 ## Dependencies
 
 - **Depends on:** [gh\_bobs-org\_\_bob-cli-5.2](gh_bobs-org__bob-cli-5.2.md) ✓
-- **Blocks:** [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) ◐
+- **Blocks:** [gh\_bobs-org\_\_bob-cli-5.5](gh_bobs-org__bob-cli-5.5.md) ✓
 
 ## Agents
 
