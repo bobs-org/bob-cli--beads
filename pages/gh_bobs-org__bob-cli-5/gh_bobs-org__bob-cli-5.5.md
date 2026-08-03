@@ -13,7 +13,7 @@ release: document the new property kind, bump the plugin manifest and README, an
 
 ## Dependencies
 
-- **Depends on:** [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) ◐
+- **Depends on:** [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) ✓
 - **Depends on:** [gh\_bobs-org\_\_bob-cli-5.4](gh_bobs-org__bob-cli-5.4.md) ◐
 
 ## Agents

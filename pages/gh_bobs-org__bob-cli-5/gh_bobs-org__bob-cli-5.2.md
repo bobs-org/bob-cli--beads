@@ -20,7 +20,7 @@ picker: render the P2/P3/P4 value stage, roll a random date from the chosen leve
 ## Dependencies
 
 - **Depends on:** [gh\_bobs-org\_\_bob-cli-5.1](gh_bobs-org__bob-cli-5.1.md) ✓
-- **Blocks:** [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) ◐
+- **Blocks:** [gh\_bobs-org\_\_bob-cli-5.3](gh_bobs-org__bob-cli-5.3.md) ✓
 - **Blocks:** [gh\_bobs-org\_\_bob-cli-5.4](gh_bobs-org__bob-cli-5.4.md) ◐
 
 ## Agents
