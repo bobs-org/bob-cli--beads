@@ -13,7 +13,7 @@ cutover: only after the hardening gate passes, remove the old Hammerspoon hotkey
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j.6](bob-cli-j.6.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [bob-cli-j.6](bob-cli-j.6.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 

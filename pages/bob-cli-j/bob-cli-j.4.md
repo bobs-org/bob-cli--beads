@@ -21,10 +21,12 @@ feedback: wire submit and explicit clipboard-resolving preview through bob captu
 
 [2026-08-14T02:12:55Z · bob-cli-j.4] Implemented feedback phase: CaptureCommandResponse/Success/Failure models fixed to match real bob capture --format json contract (no schema_version, removed nonexistent --open flag); CapturePanelModel.submit()/preview() wired through BobProcessClient with double-submit suppression, failure-preserving state, Retry/Copy Diagnostic, and accessibility focus on errors; added Obsidian open-URL helper verified against chezmoi Hammerspoon implementation; implemented UNUserNotificationCenter-backed NotificationService with nonisolated pure builders; added codesign-based signing-state diagnostic; updated docs/tests including fake-bob fixture JSON shape. Verified via two independent fresh-context agent reviews (no Swift toolchain available on this host) — first caught and fixed an actor-isolation bug, second confirmed the fix and found no further issues.
 
+[2026-08-14T02:26:22Z · bob-cli-j.4] PROPOSED FOLLOW-UP: sase_git_commit --resume for this phase's commit warned that the bob-mac-capture project already has 2 retired agent-hood publication requests in its outbox, suggesting 'sase agent sync --drop-retired' to clear them. Unrelated to capture/feedback work; did not run it myself since it's a cross-cutting SASE housekeeping action outside this phase's scope.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-j.3](bob-cli-j.3.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [bob-cli-j.6](bob-cli-j.6.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [bob-cli-j.6](bob-cli-j.6.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
