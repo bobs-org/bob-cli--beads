@@ -21,7 +21,7 @@ grammar: refactor bob-cli's existing capture parser into a span-aware reusable m
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j.2](bob-cli-j.2.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [bob-cli-j.2](bob-cli-j.2.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [bob-cli-j.3](bob-cli-j.3.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
