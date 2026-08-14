@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-n.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.1/README.md) | [bob-cli-n.1](bob-cli-n.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.2/README.md) | [bob-cli-n.2](bob-cli-n.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.3/README.md) | [bob-cli-n.3](bob-cli-n.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-n.land.md) | [bob-cli-n](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-n.land.md) | [bob-cli-n](README.md) | 2 |
 
 ## Commits
 
@@ -55,3 +55,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@3f9b70c`](https://github.com/bobs-org/bob-mac-capture/commit/3f9b70c7c9d8fa6d51a38bd309eab1ad9b23d8c5) | feat: support caret-aware wikilink completions | [bob-cli-n.2](bob-cli-n.2.md) | 2026-08-14 12:00:40 EDT |
 | bob-mac-capture | [`bob-mac-capture@2d98f19`](https://github.com/bobs-org/bob-mac-capture/commit/2d98f191a5402e00eef32dc2b3a27cf5e0c66021) | feat(capture): polish wikilink completion rows with adaptive palette | [bob-cli-n.3](bob-cli-n.3.md) | 2026-08-14 12:22:44 EDT |
 | bob-mac-capture | [`bob-mac-capture@1d859d9`](https://github.com/bobs-org/bob-mac-capture/commit/1d859d909571010c90ff16e487c08bb32272328c) | fix(capture): qualify panel test size scalars | [bob-cli-n](README.md) | 2026-08-14 12:30:37 EDT |
+| bob-mac-capture | [`bob-mac-capture@38b56dc`](https://github.com/bobs-org/bob-mac-capture/commit/38b56dcd7aac89d2bc19e0f83acdbba3a904e440) | test(capture): harden macOS release gate assumptions | [bob-cli-n](README.md) | 2026-08-14 12:34:43 EDT |
