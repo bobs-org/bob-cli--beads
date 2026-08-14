@@ -21,7 +21,7 @@ line-aware-capture: make bob-cli own a line-preserving capture model, line-termi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-m.2](bob-cli-m.2.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [bob-cli-m.2](bob-cli-m.2.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
