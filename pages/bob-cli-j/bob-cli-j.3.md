@@ -22,7 +22,7 @@ foundation: scaffold bobs-org/bob-mac-capture as a macOS 26 SwiftPM app with a p
 ## Dependencies
 
 - **Depends on:** [bob-cli-j.1](bob-cli-j.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [bob-cli-j.4](bob-cli-j.4.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [bob-cli-j.4](bob-cli-j.4.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [bob-cli-j.5](bob-cli-j.5.md) ✓ · ⧖ 2026-08-13
 
 ## Agents

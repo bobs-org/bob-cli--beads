@@ -26,10 +26,4 @@ completion: add bob capture-complete as the authoritative cursor-aware completio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j.2/README.md) | [bob-cli-j.2](bob-cli-j.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`f548183`](https://github.com/bobs-org/bob-cli/commit/f548183568474812b5e7c28b2f7bc5c0cb092364) | feat(capture): add capture-complete cursor-aware completion command | [bob-cli-j.2](bob-cli-j.2.md) | 2026-08-13 21:42:24 EDT |
+| [bbugyi200.athena.bob-cli-j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j.2/README.md) | [bob-cli-j.2](bob-cli-j.2.md) | 0 |
