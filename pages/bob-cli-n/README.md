@@ -47,7 +47,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-n.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.1/README.md) | [bob-cli-n.1](bob-cli-n.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.2/README.md) | [bob-cli-n.2](bob-cli-n.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.3/README.md) | [bob-cli-n.3](bob-cli-n.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-n.land.md) | [bob-cli-n](README.md) | 4 |
+| [bbugyi200.athena.bob-cli-n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-n.land.md) | [bob-cli-n](README.md) | 5 |
 
 ## Commits
 
@@ -60,3 +60,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@38b56dc`](https://github.com/bobs-org/bob-mac-capture/commit/38b56dcd7aac89d2bc19e0f83acdbba3a904e440) | test(capture): harden macOS release gate assumptions | [bob-cli-n](README.md) | 2026-08-14 12:34:43 EDT |
 | bob-mac-capture | [`bob-mac-capture@55687af`](https://github.com/bobs-org/bob-mac-capture/commit/55687af0595f1e4f8e9467cf97f19090327149ed) | test(capture): mirror screen fallback in metrics replay test | [bob-cli-n](README.md) | 2026-08-14 12:36:55 EDT |
 | bob-mac-capture | [`bob-mac-capture@912cbc4`](https://github.com/bobs-org/bob-mac-capture/commit/912cbc444dc39cc8227385a49cbf1df027e694b8) | test(capture): assert cached metrics replay from applied height | [bob-cli-n](README.md) | 2026-08-14 12:39:07 EDT |
+| bob-mac-capture | [`bob-mac-capture@bb7218f`](https://github.com/bobs-org/bob-mac-capture/commit/bb7218f68feabe0e0e2ee9e844c0f26e067209b4) | ci(capture): include signposts in launch smoke log query | [bob-cli-n](README.md) | 2026-08-14 12:44:03 EDT |
