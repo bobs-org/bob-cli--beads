@@ -21,7 +21,7 @@ link_protocol: extend bob-cli's editor-facing parse and completion contracts wit
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-n.2](bob-cli-n.2.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [bob-cli-n.2](bob-cli-n.2.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

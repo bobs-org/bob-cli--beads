@@ -13,7 +13,7 @@ visual_polish: refine the popup's wikilink palette and completion rows into an a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-n.2](bob-cli-n.2.md) ◐ · ⧖ 2026-08-14
+- **Depends on:** [bob-cli-n.2](bob-cli-n.2.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 

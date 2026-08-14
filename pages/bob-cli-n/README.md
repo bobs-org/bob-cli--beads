@@ -16,7 +16,7 @@ Typing an Obsidian wikilink in the Bob Mac Capture popup produces fast, accurate
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-n.1](bob-cli-n.1.md) | Authoritative Obsidian link protocol in bob-cli | ✓ closed | medium | 2026-08-14 | 1 | 1 |
-| [bob-cli-n.2](bob-cli-n.2.md) | Caret-correct link intelligence in Bob Mac Capture | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
+| [bob-cli-n.2](bob-cli-n.2.md) | Caret-correct link intelligence in Bob Mac Capture | ✓ closed | medium | 2026-08-14 | 1 | 1 |
 | [bob-cli-n.3](bob-cli-n.3.md) | Beautiful, accessible completion presentation and release gate | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ Typing an Obsidian wikilink in the Bob Mac Capture popup produces fast, accurate
 flowchart TD
     n0["bob-cli-n: Obsidian-aware completion and highlighting for Bob Mac Capture [in_progress]"]
     n1["bob-cli-n.1: Authoritative Obsidian link protocol in bob-cli [closed]"]
-    n2["bob-cli-n.2: Caret-correct link intelligence in Bob Mac Capture [in_progress]"]
+    n2["bob-cli-n.2: Caret-correct link intelligence in Bob Mac Capture [closed]"]
     n3["bob-cli-n.3: Beautiful, accessible completion presentation and release gate [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-n.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.1/README.md) | [bob-cli-n.1](bob-cli-n.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.2/README.md) | [bob-cli-n.2](bob-cli-n.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.2/README.md) | [bob-cli-n.2](bob-cli-n.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.3/README.md) | [bob-cli-n.3](bob-cli-n.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.land/README.md) | [bob-cli-n](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d5eaf97`](https://github.com/bobs-org/bob-cli/commit/d5eaf976403f6ef5eb5afe6f788303c530fba4a2) | feat(capture): add Obsidian wikilink editor protocol | [bob-cli-n.1](bob-cli-n.1.md) | 2026-08-14 11:35:50 EDT |
+| bob-mac-capture | [`bob-mac-capture@3f9b70c`](https://github.com/bobs-org/bob-mac-capture/commit/3f9b70c7c9d8fa6d51a38bd309eab1ad9b23d8c5) | feat: support caret-aware wikilink completions | [bob-cli-n.2](bob-cli-n.2.md) | 2026-08-14 12:00:40 EDT |
