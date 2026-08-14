@@ -14,7 +14,7 @@ intelligence: connect macOS 26 attributed editing to capture-parse spans, add an
 ## Dependencies
 
 - **Depends on:** [bob-cli-j.2](bob-cli-j.2.md) ◐ · ⧖ 2026-08-13
-- **Depends on:** [bob-cli-j.3](bob-cli-j.3.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [bob-cli-j.3](bob-cli-j.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [bob-cli-j.6](bob-cli-j.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

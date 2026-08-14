@@ -13,7 +13,7 @@ feedback: wire submit and explicit clipboard-resolving preview through bob captu
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j.3](bob-cli-j.3.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [bob-cli-j.3](bob-cli-j.3.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [bob-cli-j.6](bob-cli-j.6.md) ◐ · ⧖ 2026-08-13
 
 ## Agents
