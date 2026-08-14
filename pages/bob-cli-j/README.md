@@ -21,7 +21,7 @@ A signed native macOS 26 menu-bar app in bobs-org/bob-mac-capture replaces the H
 | [bob-cli-j.4](bob-cli-j.4.md) | Capture execution and reliable feedback | ✓ closed | medium | 2026-08-13 | 1 | 0 |
 | [bob-cli-j.5](bob-cli-j.5.md) | Highlighting, completion, and live preview | ✓ closed | medium | 2026-08-13 | 1 | 0 |
 | [bob-cli-j.6](bob-cli-j.6.md) | Integrated macOS validation and release hardening | ✓ closed | medium | 2026-08-13 | 1 | 0 |
-| [bob-cli-j.7](bob-cli-j.7.md) | Hammerspoon cutover and migration cleanup | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
+| [bob-cli-j.7](bob-cli-j.7.md) | Hammerspoon cutover and migration cleanup | ✓ closed | small | 2026-08-13 | 0 | 0 |
 
 ## Lineage
 
@@ -34,7 +34,7 @@ flowchart TD
     n4["bob-cli-j.4: Capture execution and reliable feedback [closed]"]
     n5["bob-cli-j.5: Highlighting, completion, and live preview [closed]"]
     n6["bob-cli-j.6: Integrated macOS validation and release hardening [closed]"]
-    n7["bob-cli-j.7: Hammerspoon cutover and migration cleanup [in_progress]"]
+    n7["bob-cli-j.7: Hammerspoon cutover and migration cleanup [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -62,7 +62,6 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-j.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j.4/README.md) | [bob-cli-j.4](bob-cli-j.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-j.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j.5/README.md) | [bob-cli-j.5](bob-cli-j.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-j.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j.6/README.md) | [bob-cli-j.6](bob-cli-j.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-j.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j.7/README.md) | [bob-cli-j.7](bob-cli-j.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j.land/README.md) | [bob-cli-j](README.md) | 0 |
 
 ## Commits
