@@ -11,13 +11,17 @@
 
 Typing an Obsidian wikilink in the Bob Mac Capture popup produces fast, accurate, keyboard-first suggestions and polished semantic highlighting without moving capture grammar or vault authority into Swift.
 
+## Notes
+
+[2026-08-14T16:12:21Z · bob-cli-m.land] DISCOVERED ISSUE: During bob-cli-m land verification, bob-mac-capture macOS CI run 31817794155 failed at commit 727b05d0be377490fd27b47d29a72613e449f4f9 before executing tests: Tests/BobMacCaptureTests/BobMacCaptureTests.swift:211-212 uses untyped .greatestFiniteMagnitude in NSSize, which is ambiguous between CGFloat and Double under the macOS 26 toolchain. git blame traces the defect to pre-epic autosizing commit a20055e96eea268ef0c52ee02cfad1e2fff14d16, not bob-cli-m. This directly blocks bob-cli-n.3's macOS release gate; qualify the values as CGFloat.greatestFiniteMagnitude, then rerun the full workflow.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-n.1](bob-cli-n.1.md) | Authoritative Obsidian link protocol in bob-cli | ✓ closed | medium | 2026-08-14 | 1 | 1 |
 | [bob-cli-n.2](bob-cli-n.2.md) | Caret-correct link intelligence in Bob Mac Capture | ✓ closed | medium | 2026-08-14 | 1 | 1 |
-| [bob-cli-n.3](bob-cli-n.3.md) | Beautiful, accessible completion presentation and release gate | ◐ in_progress | medium | 2026-08-14 | 1 | 0 |
+| [bob-cli-n.3](bob-cli-n.3.md) | Beautiful, accessible completion presentation and release gate | ✓ closed | medium | 2026-08-14 | 1 | 1 |
 
 ## Lineage
 
@@ -26,7 +30,7 @@ flowchart TD
     n0["bob-cli-n: Obsidian-aware completion and highlighting for Bob Mac Capture [in_progress]"]
     n1["bob-cli-n.1: Authoritative Obsidian link protocol in bob-cli [closed]"]
     n2["bob-cli-n.2: Caret-correct link intelligence in Bob Mac Capture [closed]"]
-    n3["bob-cli-n.3: Beautiful, accessible completion presentation and release gate [in_progress]"]
+    n3["bob-cli-n.3: Beautiful, accessible completion presentation and release gate [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-n.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.1/README.md) | [bob-cli-n.1](bob-cli-n.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.2/README.md) | [bob-cli-n.2](bob-cli-n.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.3/README.md) | [bob-cli-n.3](bob-cli-n.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.3/README.md) | [bob-cli-n.3](bob-cli-n.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n.land/README.md) | [bob-cli-n](README.md) | 0 |
 
 ## Commits
@@ -49,3 +53,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`d5eaf97`](https://github.com/bobs-org/bob-cli/commit/d5eaf976403f6ef5eb5afe6f788303c530fba4a2) | feat(capture): add Obsidian wikilink editor protocol | [bob-cli-n.1](bob-cli-n.1.md) | 2026-08-14 11:35:50 EDT |
 | bob-mac-capture | [`bob-mac-capture@3f9b70c`](https://github.com/bobs-org/bob-mac-capture/commit/3f9b70c7c9d8fa6d51a38bd309eab1ad9b23d8c5) | feat: support caret-aware wikilink completions | [bob-cli-n.2](bob-cli-n.2.md) | 2026-08-14 12:00:40 EDT |
+| bob-mac-capture | [`bob-mac-capture@2d98f19`](https://github.com/bobs-org/bob-mac-capture/commit/2d98f191a5402e00eef32dc2b3a27cf5e0c66021) | feat(capture): polish wikilink completion rows with adaptive palette | [bob-cli-n.3](bob-cli-n.3.md) | 2026-08-14 12:22:44 EDT |

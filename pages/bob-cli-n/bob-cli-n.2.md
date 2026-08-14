@@ -22,7 +22,7 @@ caret_integration: update the linked bob-mac-capture app to decode the additive 
 ## Dependencies
 
 - **Depends on:** [bob-cli-n.1](bob-cli-n.1.md) ✓ · ⧖ 2026-08-14
-- **Blocks:** [bob-cli-n.3](bob-cli-n.3.md) ◐ · ⧖ 2026-08-14
+- **Blocks:** [bob-cli-n.3](bob-cli-n.3.md) ✓ · ⧖ 2026-08-14
 
 ## Agents
 
