@@ -19,7 +19,7 @@ A signed native macOS 26 menu-bar app in bobs-org/bob-mac-capture replaces the H
 | [bob-cli-j.2](bob-cli-j.2.md) | Cursor-aware capture completion endpoint | ✓ closed | medium | 2026-08-13 | 1 | 1 |
 | [bob-cli-j.3](bob-cli-j.3.md) | Signed app foundation and macOS CI | ✓ closed | medium | 2026-08-13 | 1 | 0 |
 | [bob-cli-j.4](bob-cli-j.4.md) | Capture execution and reliable feedback | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
-| [bob-cli-j.5](bob-cli-j.5.md) | Highlighting, completion, and live preview | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
+| [bob-cli-j.5](bob-cli-j.5.md) | Highlighting, completion, and live preview | ✓ closed | medium | 2026-08-13 | 1 | 0 |
 | [bob-cli-j.6](bob-cli-j.6.md) | Integrated macOS validation and release hardening | ◐ in_progress | medium | 2026-08-13 | 1 | 0 |
 | [bob-cli-j.7](bob-cli-j.7.md) | Hammerspoon cutover and migration cleanup | ◐ in_progress | small | 2026-08-13 | 1 | 0 |
 
@@ -32,7 +32,7 @@ flowchart TD
     n2["bob-cli-j.2: Cursor-aware capture completion endpoint [closed]"]
     n3["bob-cli-j.3: Signed app foundation and macOS CI [closed]"]
     n4["bob-cli-j.4: Capture execution and reliable feedback [in_progress]"]
-    n5["bob-cli-j.5: Highlighting, completion, and live preview [in_progress]"]
+    n5["bob-cli-j.5: Highlighting, completion, and live preview [closed]"]
     n6["bob-cli-j.6: Integrated macOS validation and release hardening [in_progress]"]
     n7["bob-cli-j.7: Hammerspoon cutover and migration cleanup [in_progress]"]
     n0 --> n1

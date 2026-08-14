@@ -14,7 +14,7 @@ hardening: complete app accessibility, appearance, privacy, error, packaging, in
 ## Dependencies
 
 - **Depends on:** [bob-cli-j.4](bob-cli-j.4.md) ◐ · ⧖ 2026-08-13
-- **Depends on:** [bob-cli-j.5](bob-cli-j.5.md) ◐ · ⧖ 2026-08-13
+- **Depends on:** [bob-cli-j.5](bob-cli-j.5.md) ✓ · ⧖ 2026-08-13
 - **Blocks:** [bob-cli-j.7](bob-cli-j.7.md) ◐ · ⧖ 2026-08-13
 
 ## Agents

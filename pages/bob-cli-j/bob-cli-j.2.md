@@ -20,7 +20,7 @@ completion: add bob capture-complete as the authoritative cursor-aware completio
 ## Dependencies
 
 - **Depends on:** [bob-cli-j.1](bob-cli-j.1.md) ✓ · ⧖ 2026-08-13
-- **Blocks:** [bob-cli-j.5](bob-cli-j.5.md) ◐ · ⧖ 2026-08-13
+- **Blocks:** [bob-cli-j.5](bob-cli-j.5.md) ✓ · ⧖ 2026-08-13
 
 ## Agents
 
