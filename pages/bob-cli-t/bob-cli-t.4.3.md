@@ -14,7 +14,7 @@ validate_integrated_release: verify both repositories at their current tips, req
 ## Dependencies
 
 - **Depends on:** [bob-cli-t.4.1](bob-cli-t.4.1.md) ✓ · ⧖ 2026-08-15
-- **Depends on:** [bob-cli-t.4.2](bob-cli-t.4.2.md) ◐ · ⧖ 2026-08-15
+- **Depends on:** [bob-cli-t.4.2](bob-cli-t.4.2.md) ✓ · ⧖ 2026-08-15
 - **Blocks:** [bob-cli-t.4.4](bob-cli-t.4.4.md) ◐ · ⧖ 2026-08-15
 
 ## Agents

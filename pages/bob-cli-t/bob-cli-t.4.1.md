@@ -25,10 +25,4 @@ restore_macos_test_compilation: resolve bob-cli-x by making pure indentation hel
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-t.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.1/README.md) | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@fc1c16b`](https://github.com/bobs-org/bob-mac-capture/commit/fc1c16b1aa8ab0f47069eb6c8c5fe0e8398c15a4) | fix: expose pure indentation resolver off main actor | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 2026-08-15 11:37:29 EDT |
+| [bbugyi200.athena.bob-cli-t.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.1/README.md) | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 0 |
