@@ -21,7 +21,7 @@ bob_batch_protocol: implement shared item boundaries, cursor-aware parse and com
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-t.2](bob-cli-t.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [bob-cli-t.2](bob-cli-t.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 

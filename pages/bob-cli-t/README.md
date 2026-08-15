@@ -16,7 +16,7 @@ One Bob Mac Capture draft atomically captures every blank-line-separated task or
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-t.1](bob-cli-t.1.md) | Add Bob's batch grammar, protocol, and atomic transaction | ✓ closed | medium | 2026-08-15 | 1 | 1 |
-| [bob-cli-t.2](bob-cli-t.2.md) | Integrate batch results and native editor behavior in the mac app | ◐ in_progress | medium | 2026-08-15 | 1 | 0 |
+| [bob-cli-t.2](bob-cli-t.2.md) | Integrate batch results and native editor behavior in the mac app | ✓ closed | medium | 2026-08-15 | 1 | 1 |
 | [bob-cli-t.3](bob-cli-t.3.md) | Deliver complete, polished single and batch notifications | ◐ in_progress | small | 2026-08-15 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ One Bob Mac Capture draft atomically captures every blank-line-separated task or
 flowchart TD
     n0["bob-cli-t: Multi-item capture for Bob Mac Capture [in_progress]"]
     n1["bob-cli-t.1: Add Bob's batch grammar, protocol, and atomic transaction [closed]"]
-    n2["bob-cli-t.2: Integrate batch results and native editor behavior in the mac app [in_progress]"]
+    n2["bob-cli-t.2: Integrate batch results and native editor behavior in the mac app [closed]"]
     n3["bob-cli-t.3: Deliver complete, polished single and batch notifications [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-t.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.1/README.md) | [bob-cli-t.1](bob-cli-t.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-t.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.2/README.md) | [bob-cli-t.2](bob-cli-t.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-t.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.2/README.md) | [bob-cli-t.2](bob-cli-t.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.3/README.md) | [bob-cli-t.3](bob-cli-t.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-t.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.land/README.md) | [bob-cli-t](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a8c9ad8`](https://github.com/bobs-org/bob-cli/commit/a8c9ad8e8909008a64a1929e97fb831ce7339a69) | feat(capture)!: add atomic batch capture support | [bob-cli-t.1](bob-cli-t.1.md) | 2026-08-15 10:17:05 EDT |
+| bob-mac-capture | [`bob-mac-capture@4c22525`](https://github.com/bobs-org/bob-mac-capture/commit/4c2252578bc1c18b629ce369de8d71c2f32d0a5e) | feat: integrate batch capture results in mac app | [bob-cli-t.2](bob-cli-t.2.md) | 2026-08-15 10:44:23 EDT |
