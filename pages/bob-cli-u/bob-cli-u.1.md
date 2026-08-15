@@ -19,7 +19,7 @@ bob_task_identity_contract: define opt-in all-task discovery, safe ID assignment
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-u.2](bob-cli-u.2.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [bob-cli-u.2](bob-cli-u.2.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
