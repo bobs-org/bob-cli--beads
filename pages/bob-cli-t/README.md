@@ -58,8 +58,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-t.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.1/README.md) | [bob-cli-t.1](bob-cli-t.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.2/README.md) | [bob-cli-t.2](bob-cli-t.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.3/README.md) | [bob-cli-t.3](bob-cli-t.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-t.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.1/README.md) | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-t.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.2/README.md) | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-t.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.1/README.md) | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-t.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.2/README.md) | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-t.4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.3/README.md) | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-t.4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.4/README.md) | [bob-cli-t.4.4](bob-cli-t.4.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-t.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.land/README.md) | [bob-cli-t.4](bob-cli-t.4.md) | 0 |
@@ -72,4 +72,6 @@ flowchart TD
 | bob-cli | [`a8c9ad8`](https://github.com/bobs-org/bob-cli/commit/a8c9ad8e8909008a64a1929e97fb831ce7339a69) | feat(capture)!: add atomic batch capture support | [bob-cli-t.1](bob-cli-t.1.md) | 2026-08-15 10:17:05 EDT |
 | bob-mac-capture | [`bob-mac-capture@4c22525`](https://github.com/bobs-org/bob-mac-capture/commit/4c2252578bc1c18b629ce369de8d71c2f32d0a5e) | feat: integrate batch capture results in mac app | [bob-cli-t.2](bob-cli-t.2.md) | 2026-08-15 10:44:23 EDT |
 | bob-mac-capture | [`bob-mac-capture@c95ba0e`](https://github.com/bobs-org/bob-mac-capture/commit/c95ba0e34b4a63b8c5223f02a2d9983b8253c0ae) | feat: polish batch capture notifications | [bob-cli-t.3](bob-cli-t.3.md) | 2026-08-15 11:18:13 EDT |
+| bob-mac-capture | [`bob-mac-capture@fc1c16b`](https://github.com/bobs-org/bob-mac-capture/commit/fc1c16b1aa8ab0f47069eb6c8c5fe0e8398c15a4) | fix: expose pure indentation resolver off main actor | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 2026-08-15 11:37:29 EDT |
 | bob-cli | [`3beae5b`](https://github.com/bobs-org/bob-cli/commit/3beae5bf7ee67486d0c721e8beaf92f57847e5d8) | test: cover all-task completion ranges in later batch items | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2026-08-15 11:47:01 EDT |
+| bob-mac-capture | [`bob-mac-capture@49f0037`](https://github.com/bobs-org/bob-mac-capture/commit/49f0037c25038ec44641aab4d6de4229322fab83) | test: cover later batch task ID assignment | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2026-08-15 11:47:46 EDT |

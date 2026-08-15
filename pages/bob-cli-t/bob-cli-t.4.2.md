@@ -25,10 +25,11 @@ integrate_batch_task_id_flow: add cross-repository regression coverage for all-t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-t.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.2/README.md) | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-t.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.2/README.md) | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3beae5b`](https://github.com/bobs-org/bob-cli/commit/3beae5bf7ee67486d0c721e8beaf92f57847e5d8) | test: cover all-task completion ranges in later batch items | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2026-08-15 11:47:01 EDT |
+| bob-mac-capture | [`bob-mac-capture@49f0037`](https://github.com/bobs-org/bob-mac-capture/commit/49f0037c25038ec44641aab4d6de4229322fab83) | test: cover later batch task ID assignment | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2026-08-15 11:47:46 EDT |
