@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-t.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.3/README.md) | [bob-cli-t.3](bob-cli-t.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.1/README.md) | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.2/README.md) | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-t.4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.3/README.md) | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-t.4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.3/README.md) | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.4/README.md) | [bob-cli-t.4.4](bob-cli-t.4.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-t.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.land/README.md) | [bob-cli-t.4](bob-cli-t.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-t.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-t.land.md) | [bob-cli-t](README.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@fc1c16b`](https://github.com/bobs-org/bob-mac-capture/commit/fc1c16b1aa8ab0f47069eb6c8c5fe0e8398c15a4) | fix: expose pure indentation resolver off main actor | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 2026-08-15 11:37:29 EDT |
 | bob-cli | [`3beae5b`](https://github.com/bobs-org/bob-cli/commit/3beae5bf7ee67486d0c721e8beaf92f57847e5d8) | test: cover all-task completion ranges in later batch items | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2026-08-15 11:47:01 EDT |
 | bob-mac-capture | [`bob-mac-capture@49f0037`](https://github.com/bobs-org/bob-mac-capture/commit/49f0037c25038ec44641aab4d6de4229322fab83) | test: cover later batch task ID assignment | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2026-08-15 11:47:46 EDT |
+| bob-mac-capture | [`bob-mac-capture@181a644`](https://github.com/bobs-org/bob-mac-capture/commit/181a64459e96d0be332a58422ff724fa2710ad78) | test: stabilize later batch task completion fixture | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2026-08-15 11:55:29 EDT |
