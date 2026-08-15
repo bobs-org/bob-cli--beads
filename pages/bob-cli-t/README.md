@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-t.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.3/README.md) | [bob-cli-t.3](bob-cli-t.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.1/README.md) | [bob-cli-t.4.1](bob-cli-t.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-t.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.2/README.md) | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-t.4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.3/README.md) | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-t.4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.3/README.md) | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 3 |
 | [bbugyi200.athena.bob-cli-t.4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.4/README.md) | [bob-cli-t.4.4](bob-cli-t.4.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-t.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.land/README.md) | [bob-cli-t.4](bob-cli-t.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-t.land](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-t.land.md) | [bob-cli-t](README.md) | 0 |
@@ -77,3 +77,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@49f0037`](https://github.com/bobs-org/bob-mac-capture/commit/49f0037c25038ec44641aab4d6de4229322fab83) | test: cover later batch task ID assignment | [bob-cli-t.4.2](bob-cli-t.4.2.md) | 2026-08-15 11:47:46 EDT |
 | bob-mac-capture | [`bob-mac-capture@181a644`](https://github.com/bobs-org/bob-mac-capture/commit/181a64459e96d0be332a58422ff724fa2710ad78) | test: stabilize later batch task completion fixture | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2026-08-15 11:55:29 EDT |
 | bob-mac-capture | [`bob-mac-capture@db0460d`](https://github.com/bobs-org/bob-mac-capture/commit/db0460deb89b1b255c29304c045ac4321ad61d2f) | fix: keep task ID route completion cached | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2026-08-15 11:58:22 EDT |
+| bob-mac-capture | [`bob-mac-capture@d877624`](https://github.com/bobs-org/bob-mac-capture/commit/d877624ae2e31588600f0217afd1a9307b2b2490) | test: assert later batch live preview state | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2026-08-15 12:00:33 EDT |
