@@ -28,7 +28,7 @@ mac_batch_integration: decode and present aggregate results, add reliable indent
 ## Dependencies
 
 - **Depends on:** [bob-cli-t.1](bob-cli-t.1.md) ✓ · ⧖ 2026-08-15
-- **Blocks:** [bob-cli-t.3](bob-cli-t.3.md) ◐ · ⧖ 2026-08-15
+- **Blocks:** [bob-cli-t.3](bob-cli-t.3.md) ✓ · ⧖ 2026-08-15
 
 ## Agents
 
