@@ -21,10 +21,11 @@ validate_integrated_release: verify both repositories at their current tips, req
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-t.4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.3/README.md) | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-t.4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-t.4.3/README.md) | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@181a644`](https://github.com/bobs-org/bob-mac-capture/commit/181a64459e96d0be332a58422ff724fa2710ad78) | test: stabilize later batch task completion fixture | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2026-08-15 11:55:29 EDT |
+| bob-mac-capture | [`bob-mac-capture@db0460d`](https://github.com/bobs-org/bob-mac-capture/commit/db0460deb89b1b255c29304c045ac4321ad61d2f) | fix: keep task ID route completion cached | [bob-cli-t.4.3](bob-cli-t.4.3.md) | 2026-08-15 11:58:22 EDT |
