@@ -25,10 +25,4 @@ execution: teach `bob capture` to resolve the selected task section and append t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-10.3/README.md) | [bob-cli-10.3](bob-cli-10.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`3d5c59b`](https://github.com/bobs-org/bob-cli/commit/3d5c59b708e146ddaa71f08ff28ec83ccb203f7c) | feat(capture): insert captured bullets under a selected task section | [bob-cli-10.3](bob-cli-10.3.md) | 2026-08-19 17:48:04 EDT |
+| [bbugyi200.athena.bob-cli-10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-10.3/README.md) | [bob-cli-10.3](bob-cli-10.3.md) | 0 |

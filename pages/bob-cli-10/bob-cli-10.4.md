@@ -20,7 +20,7 @@ discovery: add the read-only `bob capture-task-sections` subcommand and the `tas
 ## Dependencies
 
 - **Depends on:** [bob-cli-10.2](bob-cli-10.2.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [bob-cli-10.5](bob-cli-10.5.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [bob-cli-10.5](bob-cli-10.5.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
