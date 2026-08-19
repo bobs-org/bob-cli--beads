@@ -15,6 +15,8 @@ execution: teach `bob capture` to resolve the selected task section and append t
 
 [2026-08-19T21:35:29Z · bob-cli-10.3] Taught bob capture to insert under a resolved task section: @route+id#section uses slug/prefix matching via capture_task_sections; -S/--task-section TITLE (requires --route and --task/--task-ref, conflicts with --section) matches the whole title exactly and case-insensitively. parent_section is reported in JSON and as a cyan · TITLE suffix; omitted for plain @route+id. No-match lists titles with a close-match suggestion; no-sections has its own message; parent lookup errors still win. CLI tests cover first/middle/last, empty vs existing children, prefix vs whole-slug, multi-word, managed-log geometry, tab/two-space/four-space/CRLF, authored children, s:/p:/%/--clip, dry-run parity, forced-option errors, and failure paths leaving the note unchanged. just fmt, just lint, just test, just install-smoke, and git diff --check passed. No leftover --epic-symbol entries.
 
+[2026-08-19T21:40:18Z · bob-cli-10.3] Taught bob capture to insert under a resolved task section: @route+id#section uses slug/prefix matching via capture_task_sections; -S/--task-section TITLE (requires --route and --task/--task-ref, conflicts with --section) matches the whole title exactly and case-insensitively. parent_section is reported in JSON and as a cyan · TITLE suffix; omitted for plain @route+id. No-match lists titles with a close-match suggestion; no-sections has its own message; parent lookup errors still win. CLI tests cover first/middle/last, empty vs existing children, prefix vs whole-slug, multi-word, managed-log geometry, tab/two-space/four-space/CRLF, authored children, s:/p:/%/--clip, dry-run parity, forced-option errors, and failure paths leaving the note unchanged. just fmt, just lint, just test, just install-smoke, and git diff --check passed. No leftover --epic-symbol entries.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-10.2](bob-cli-10.2.md) ✓ · ⧖ 2026-08-19
@@ -23,4 +25,10 @@ execution: teach `bob capture` to resolve the selected task section and append t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-10.3/README.md) | [bob-cli-10.3](bob-cli-10.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-10.3/README.md) | [bob-cli-10.3](bob-cli-10.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`3d5c59b`](https://github.com/bobs-org/bob-cli/commit/3d5c59b708e146ddaa71f08ff28ec83ccb203f7c) | feat(capture): insert captured bullets under a selected task section | [bob-cli-10.3](bob-cli-10.3.md) | 2026-08-19 17:48:04 EDT |
