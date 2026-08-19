@@ -20,8 +20,8 @@ grammar: extend bob-cli's capture grammar so a sub-bullet marker accepts a trail
 ## Dependencies
 
 - **Depends on:** [bob-cli-10.1](bob-cli-10.1.md) ✓ · ⧖ 2026-08-19
-- **Blocks:** [bob-cli-10.3](bob-cli-10.3.md) ◐ · ⧖ 2026-08-19
-- **Blocks:** [bob-cli-10.4](bob-cli-10.4.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [bob-cli-10.3](bob-cli-10.3.md) ✓ · ⧖ 2026-08-19
+- **Blocks:** [bob-cli-10.4](bob-cli-10.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

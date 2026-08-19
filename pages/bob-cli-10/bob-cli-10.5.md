@@ -13,7 +13,7 @@ mac_app: decode the additive `task_section` context and `sub_bullet_section` spa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-10.4](bob-cli-10.4.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [bob-cli-10.4](bob-cli-10.4.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
