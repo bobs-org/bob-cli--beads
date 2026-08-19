@@ -13,7 +13,7 @@ execution: teach `bob capture` to resolve the selected task section and append t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-10.2](bob-cli-10.2.md) ◐ · ⧖ 2026-08-19
+- **Depends on:** [bob-cli-10.2](bob-cli-10.2.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 

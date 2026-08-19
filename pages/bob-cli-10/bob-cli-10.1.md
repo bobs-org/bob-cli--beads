@@ -19,7 +19,7 @@ sections_core: add one authoritative bob-cli module that enumerates a task's ALL
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-10.2](bob-cli-10.2.md) ◐ · ⧖ 2026-08-19
+- **Blocks:** [bob-cli-10.2](bob-cli-10.2.md) ✓ · ⧖ 2026-08-19
 
 ## Agents
 
