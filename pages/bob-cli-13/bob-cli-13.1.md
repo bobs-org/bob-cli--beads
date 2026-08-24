@@ -17,7 +17,7 @@ grammar: make any `@@…` token a global destination declaration anywhere in a d
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-13.2](bob-cli-13.2.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [bob-cli-13.2](bob-cli-13.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

@@ -13,7 +13,7 @@ macapp: wire the bob-mac-capture panel to `bob capture-rewrite` so typing a bare
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-13.2](bob-cli-13.2.md) ◐ · ⧖ 2026-08-24
+- **Depends on:** [bob-cli-13.2](bob-cli-13.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

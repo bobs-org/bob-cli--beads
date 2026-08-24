@@ -16,7 +16,7 @@ A `@@route` / `@@route+block-id` global destination declaration can be typed on 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-13.1](bob-cli-13.1.md) | Position-free @@ declarations in the capture grammar | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [bob-cli-13.2](bob-cli-13.2.md) | bob capture-rewrite and the bare @@ absorption rule | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [bob-cli-13.2](bob-cli-13.2.md) | bob capture-rewrite and the bare @@ absorption rule | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 | [bob-cli-13.3](bob-cli-13.3.md) | Mac capture panel absorbs @@ as you type | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ A `@@route` / `@@route+block-id` global destination declaration can be typed on 
 flowchart TD
     n0["bob-cli-13: Free the @@ global destination from the header line and teach it to absorb [in_progress]"]
     n1["bob-cli-13.1: Position-free @@ declarations in the capture grammar [closed]"]
-    n2["bob-cli-13.2: bob capture-rewrite and the bare @@ absorption rule [in_progress]"]
+    n2["bob-cli-13.2: bob capture-rewrite and the bare @@ absorption rule [closed]"]
     n3["bob-cli-13.3: Mac capture panel absorbs @@ as you type [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-13.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-13.1/README.md) | [bob-cli-13.1](bob-cli-13.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-13.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-13.2/README.md) | [bob-cli-13.2](bob-cli-13.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-13.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-13.2/README.md) | [bob-cli-13.2](bob-cli-13.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-13.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-13.3/README.md) | [bob-cli-13.3](bob-cli-13.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-13.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-13.land/README.md) | [bob-cli-13](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5b15533`](https://github.com/bobs-org/bob-cli/commit/5b155336ff772fb1f9f3dae6b3579fb8ff7f1f39) | feat(capture): allow global destination declarations anywhere | [bob-cli-13.1](bob-cli-13.1.md) | 2026-08-24 15:25:14 EDT |
+| bob-cli | [`025dc06`](https://github.com/bobs-org/bob-cli/commit/025dc0610d2cb6cd7123165fe2db8a3a988bf3c7) | feat(capture): add capture-rewrite and the bare @@ absorption rule | [bob-cli-13.2](bob-cli-13.2.md) | 2026-08-24 15:49:41 EDT |
