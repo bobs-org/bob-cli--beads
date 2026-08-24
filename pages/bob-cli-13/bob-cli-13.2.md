@@ -20,7 +20,7 @@ rewrite: add the `bob capture-rewrite` subcommand that turns a bare `@@` into `@
 ## Dependencies
 
 - **Depends on:** [bob-cli-13.1](bob-cli-13.1.md) ✓ · ⧖ 2026-08-24
-- **Blocks:** [bob-cli-13.3](bob-cli-13.3.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [bob-cli-13.3](bob-cli-13.3.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 
