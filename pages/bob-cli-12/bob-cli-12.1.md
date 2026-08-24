@@ -17,7 +17,7 @@ global-destination-protocol: implement the shared draft envelope, inherited exec
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-12.2](bob-cli-12.2.md) ◐ · ⧖ 2026-08-24
+- **Blocks:** [bob-cli-12.2](bob-cli-12.2.md) ✓ · ⧖ 2026-08-24
 
 ## Agents
 

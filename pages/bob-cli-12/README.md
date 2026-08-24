@@ -16,7 +16,7 @@ Bob capture drafts can declare one shared task or parent-task destination with @
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-12.1](bob-cli-12.1.md) | Authoritative bob-cli grammar, execution, and protocol | ✓ closed | medium | 2026-08-24 | 1 | 1 |
-| [bob-cli-12.2](bob-cli-12.2.md) | Bob Mac Capture integration and global-aware presentation | ◐ in_progress | medium | 2026-08-24 | 1 | 0 |
+| [bob-cli-12.2](bob-cli-12.2.md) | Bob Mac Capture integration and global-aware presentation | ✓ closed | medium | 2026-08-24 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ Bob capture drafts can declare one shared task or parent-task destination with @
 flowchart TD
     n0["bob-cli-12: Global capture destination declarations [in_progress]"]
     n1["bob-cli-12.1: Authoritative bob-cli grammar, execution, and protocol [closed]"]
-    n2["bob-cli-12.2: Bob Mac Capture integration and global-aware presentation [in_progress]"]
+    n2["bob-cli-12.2: Bob Mac Capture integration and global-aware presentation [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -35,7 +35,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-12.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-12.1/README.md) | [bob-cli-12.1](bob-cli-12.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-12.2/README.md) | [bob-cli-12.2](bob-cli-12.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-12.2/README.md) | [bob-cli-12.2](bob-cli-12.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-12.land/README.md) | [bob-cli-12](README.md) | 0 |
 
 ## Commits
@@ -43,3 +43,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9258da9`](https://github.com/bobs-org/bob-cli/commit/9258da9c109916750ad2d7db36b24b1f66f66a9a) | feat(capture): add global @@ destination declarations | [bob-cli-12.1](bob-cli-12.1.md) | 2026-08-24 08:23:04 EDT |
+| bob-mac-capture | [`bob-mac-capture@e40f891`](https://github.com/bobs-org/bob-mac-capture/commit/e40f891e0bef1b1ed1e772f8a3255f033e259bf9) | feat(capture): support global destination headers in mac app | [bob-cli-12.2](bob-cli-12.2.md) | 2026-08-24 08:39:39 EDT |
