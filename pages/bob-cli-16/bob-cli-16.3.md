@@ -13,7 +13,7 @@ pomodoro-move-docs: bump the plugin manifest, extend the bob-plugins README, dep
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-16.2](bob-cli-16.2.md) ◐ · ⧖ 2026-08-26
+- **Depends on:** [bob-cli-16.2](bob-cli-16.2.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
