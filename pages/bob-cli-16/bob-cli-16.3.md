@@ -23,10 +23,11 @@ pomodoro-move-docs: bump the plugin manifest, extend the bob-plugins README, dep
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-16.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-16.3/README.md) | [bob-cli-16.3](bob-cli-16.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-16.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-16.3/README.md) | [bob-cli-16.3](bob-cli-16.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`78e219b`](https://github.com/bobs-org/bob-cli/commit/78e219b61e4b1482bcf500d26485705420478ff1) | docs(memory): update Pomodoro glossary | [bob-cli-16.3](bob-cli-16.3.md) | 2026-08-26 11:18:40 EDT |
+| bob-plugins | [`bob-plugins@9ba28c1`](https://github.com/bobs-org/bob-plugins/commit/9ba28c1dde56fe80533bc11d633720558836a46e) | feat(navigation-hotkeys): release Pomodoro bullet moves | [bob-cli-16.3](bob-cli-16.3.md) | 2026-08-26 11:19:10 EDT |
