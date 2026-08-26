@@ -18,7 +18,7 @@ pomodoro-move-ui: add the destination picker rows and modal with typed create-ne
 ## Dependencies
 
 - **Depends on:** [bob-cli-16.1](bob-cli-16.1.md) ✓ · ⧖ 2026-08-26
-- **Blocks:** [bob-cli-16.3](bob-cli-16.3.md) ◐ · ⧖ 2026-08-26
+- **Blocks:** [bob-cli-16.3](bob-cli-16.3.md) ✓ · ⧖ 2026-08-26
 
 ## Agents
 
