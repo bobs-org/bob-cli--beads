@@ -17,7 +17,7 @@ vaultsync: add the `bob vault-sync run|status` subcommand implementing the lock-
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1n.3](bob-cli-1n.3.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [bob-cli-1n.3](bob-cli-1n.3.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
