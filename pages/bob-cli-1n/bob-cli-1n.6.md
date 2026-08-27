@@ -33,11 +33,10 @@ cutover: run every acceptance test across both real machines, disable Obsidian S
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-1n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-1n.6.md) | [bob-cli-1n.6](bob-cli-1n.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-1n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-1n.6.md) | [bob-cli-1n.6](bob-cli-1n.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4c00ada`](https://github.com/bobs-org/bob-cli/commit/4c00adadd155660957544c32ac00ef0cf26e360e) | docs(vault-sync): add Bob vault Git sync runbook | [bob-cli-1n.6](bob-cli-1n.6.md) | 2026-08-27 17:23:25 EDT |
-| chezmoi | [`chezmoi@dafe5b9`](https://github.com/bbugyi200/dotfiles/commit/dafe5b968694c9472c10f16390a36af89404a635) | fix(bob): fall back to xhome for xlib pull | [bob-cli-1n.6](bob-cli-1n.6.md) | 2026-08-27 17:23:57 EDT |

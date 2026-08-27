@@ -28,10 +28,4 @@ machines: create a passphraseless deploy key for athena, add SSH ControlMaster, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-1n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1n.5/README.md) | [bob-cli-1n.5](bob-cli-1n.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@defc756`](https://github.com/bbugyi200/dotfiles/commit/defc756815cd03e8560f4dab5c072c0a5ad2bacf) | feat(chezmoi): provision bob vault sync machines | [bob-cli-1n.5](bob-cli-1n.5.md) | 2026-08-27 14:37:12 EDT |
+| [bbugyi200.athena.bob-cli-1n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1n.5/README.md) | [bob-cli-1n.5](bob-cli-1n.5.md) | 0 |
