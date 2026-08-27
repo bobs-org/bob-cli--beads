@@ -17,7 +17,7 @@ worklog-indent: replace block-id-prompt's fixed two-space CANONICAL_POMODORO_CHI
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1m.2](bob-cli-1m.2.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [bob-cli-1m.2](bob-cli-1m.2.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
