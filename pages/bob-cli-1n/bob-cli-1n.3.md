@@ -18,7 +18,7 @@ retire: delete the `bulk-git-commit` subcommand and its `bob_sync` script and bi
 ## Dependencies
 
 - **Depends on:** [bob-cli-1n.2](bob-cli-1n.2.md) ✓ · ⧖ 2026-08-27
-- **Blocks:** [bob-cli-1n.5](bob-cli-1n.5.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [bob-cli-1n.5](bob-cli-1n.5.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

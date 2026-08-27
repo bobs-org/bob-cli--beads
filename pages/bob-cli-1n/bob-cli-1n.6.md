@@ -13,7 +13,7 @@ cutover: run every acceptance test across both real machines, disable Obsidian S
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-1n.5](bob-cli-1n.5.md) ◐ · ⧖ 2026-08-27
+- **Depends on:** [bob-cli-1n.5](bob-cli-1n.5.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

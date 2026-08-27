@@ -17,7 +17,7 @@ highlights: teach `bob highlights scan` to run a configured command before it in
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1n.5](bob-cli-1n.5.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [bob-cli-1n.5](bob-cli-1n.5.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 
