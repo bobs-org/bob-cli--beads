@@ -22,7 +22,7 @@ machines: create a passphraseless deploy key for athena, add SSH ControlMaster, 
 - **Depends on:** [bob-cli-1n.1](bob-cli-1n.1.md) ✓ · ⧖ 2026-08-27
 - **Depends on:** [bob-cli-1n.3](bob-cli-1n.3.md) ✓ · ⧖ 2026-08-27
 - **Depends on:** [bob-cli-1n.4](bob-cli-1n.4.md) ✓ · ⧖ 2026-08-27
-- **Blocks:** [bob-cli-1n.6](bob-cli-1n.6.md) ◐ · ⧖ 2026-08-27
+- **Blocks:** [bob-cli-1n.6](bob-cli-1n.6.md) ✓ · ⧖ 2026-08-27
 
 ## Agents
 

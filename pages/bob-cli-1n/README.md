@@ -32,7 +32,7 @@ The Bob Obsidian vault stays converged between athena and the MacBook through gi
 | [bob-cli-1n.3](bob-cli-1n.3.md) | Retire \`bulk-git-commit\` and rewire \`bob nightly\` | ✓ closed | small | 2026-08-27 | 1 | 1 |
 | [bob-cli-1n.4](bob-cli-1n.4.md) | Add a configurable pre-scan command to \`bob highlights\` | ✓ closed | medium | 2026-08-27 | 1 | 1 |
 | [bob-cli-1n.5](bob-cli-1n.5.md) | Provision credentials, triggers, and the MacBook git clone | ✓ closed | medium | 2026-08-27 | 1 | 1 |
-| [bob-cli-1n.6](bob-cli-1n.6.md) | Prove the acceptance matrix end to end, then cut over | ◐ in_progress | medium | 2026-08-27 | 1 | 1 |
+| [bob-cli-1n.6](bob-cli-1n.6.md) | Prove the acceptance matrix end to end, then cut over | ✓ closed | medium | 2026-08-27 | 1 | 2 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["bob-cli-1n.3: Retire `bulk-git-commit` and rewire `bob nightly` [closed]"]
     n4["bob-cli-1n.4: Add a configurable pre-scan command to `bob highlights` [closed]"]
     n5["bob-cli-1n.5: Provision credentials, triggers, and the MacBook git clone [closed]"]
-    n6["bob-cli-1n.6: Prove the acceptance matrix end to end, then cut over [in_progress]"]
+    n6["bob-cli-1n.6: Prove the acceptance matrix end to end, then cut over [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-1n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1n.3/README.md) | [bob-cli-1n.3](bob-cli-1n.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-1n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1n.4/README.md) | [bob-cli-1n.4](bob-cli-1n.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-1n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1n.5/README.md) | [bob-cli-1n.5](bob-cli-1n.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-1n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-1n.6.md) | [bob-cli-1n.6](bob-cli-1n.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-1n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.bob-cli-1n.6.md) | [bob-cli-1n.6](bob-cli-1n.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-1n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1n.land/README.md) | [bob-cli-1n](README.md) | 0 |
 
 ## Commits
@@ -79,3 +79,4 @@ flowchart TD
 | bob-cli | [`4051bf5`](https://github.com/bobs-org/bob-cli/commit/4051bf520dc308eef50721187ae042952fab3d8e) | feat(cli): retire bulk git commit | [bob-cli-1n.3](bob-cli-1n.3.md) | 2026-08-27 13:31:35 EDT |
 | chezmoi | [`chezmoi@defc756`](https://github.com/bbugyi200/dotfiles/commit/defc756815cd03e8560f4dab5c072c0a5ad2bacf) | feat(chezmoi): provision bob vault sync machines | [bob-cli-1n.5](bob-cli-1n.5.md) | 2026-08-27 14:37:12 EDT |
 | bob-cli | [`4c00ada`](https://github.com/bobs-org/bob-cli/commit/4c00adadd155660957544c32ac00ef0cf26e360e) | docs(vault-sync): add Bob vault Git sync runbook | [bob-cli-1n.6](bob-cli-1n.6.md) | 2026-08-27 17:23:25 EDT |
+| chezmoi | [`chezmoi@dafe5b9`](https://github.com/bbugyi200/dotfiles/commit/dafe5b968694c9472c10f16390a36af89404a635) | fix(bob): fall back to xhome for xlib pull | [bob-cli-1n.6](bob-cli-1n.6.md) | 2026-08-27 17:23:57 EDT |
