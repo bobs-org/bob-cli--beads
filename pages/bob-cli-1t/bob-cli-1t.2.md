@@ -18,7 +18,7 @@ capture_named_marker: extend the capture grammar with the third Pomodoro-name co
 ## Dependencies
 
 - **Depends on:** [bob-cli-1t.1](bob-cli-1t.1.md) ✓ · ⧖ 2026-08-28
-- **Blocks:** [bob-cli-1t.4](bob-cli-1t.4.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [bob-cli-1t.4](bob-cli-1t.4.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 
