@@ -24,4 +24,10 @@ pomodoro_name_command: add the single-purpose command that canonicalizes a name 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-1t.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.3/README.md) | [bob-cli-1t.3](bob-cli-1t.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-1t.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.3/README.md) | [bob-cli-1t.3](bob-cli-1t.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`a03bd58`](https://github.com/bobs-org/bob-cli/commit/a03bd58070857ea56434a4cc042aa13a725354e8) | feat(capture): add bob capture-pomodoro-name write command | [bob-cli-1t.3](bob-cli-1t.3.md) | 2026-08-28 13:17:04 EDT |
