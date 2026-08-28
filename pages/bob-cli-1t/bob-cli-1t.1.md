@@ -17,8 +17,8 @@ pomodoro_ledger: add the shared named-Pomodoro scanner (name, slug, time range, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1t.2](bob-cli-1t.2.md) ◐ · ⧖ 2026-08-28
-- **Blocks:** [bob-cli-1t.3](bob-cli-1t.3.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [bob-cli-1t.2](bob-cli-1t.2.md) ✓ · ⧖ 2026-08-28
+- **Blocks:** [bob-cli-1t.3](bob-cli-1t.3.md) ✓ · ⧖ 2026-08-28
 - **Blocks:** [bob-cli-1t.4](bob-cli-1t.4.md) ◐ · ⧖ 2026-08-28
 
 ## Agents

@@ -14,7 +14,7 @@ complete_pomodoro_name: return ranked pomodoro_name candidates, collapse duplica
 ## Dependencies
 
 - **Depends on:** [bob-cli-1t.1](bob-cli-1t.1.md) ✓ · ⧖ 2026-08-28
-- **Depends on:** [bob-cli-1t.2](bob-cli-1t.2.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [bob-cli-1t.2](bob-cli-1t.2.md) ✓ · ⧖ 2026-08-28
 - **Blocks:** [bob-cli-1t.5](bob-cli-1t.5.md) ◐ · ⧖ 2026-08-28
 
 ## Agents

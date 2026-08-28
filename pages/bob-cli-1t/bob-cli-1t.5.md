@@ -13,7 +13,7 @@ mac_pomodoro_name_ui: decode the additive candidate fields, render the Pomodoro 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-1t.3](bob-cli-1t.3.md) ◐ · ⧖ 2026-08-28
+- **Depends on:** [bob-cli-1t.3](bob-cli-1t.3.md) ✓ · ⧖ 2026-08-28
 - **Depends on:** [bob-cli-1t.4](bob-cli-1t.4.md) ◐ · ⧖ 2026-08-28
 
 ## Agents
