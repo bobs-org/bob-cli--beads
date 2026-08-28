@@ -18,7 +18,7 @@ pomodoro_name_command: add the single-purpose command that canonicalizes a name 
 ## Dependencies
 
 - **Depends on:** [bob-cli-1t.1](bob-cli-1t.1.md) ✓ · ⧖ 2026-08-28
-- **Blocks:** [bob-cli-1t.5](bob-cli-1t.5.md) ◐ · ⧖ 2026-08-28
+- **Blocks:** [bob-cli-1t.5](bob-cli-1t.5.md) ✓ · ⧖ 2026-08-28
 
 ## Agents
 

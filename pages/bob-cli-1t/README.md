@@ -31,7 +31,7 @@ A capture can name exactly which Pomodoro in today's daily note receives its tas
 | [bob-cli-1t.2](bob-cli-1t.2.md) | \`@route:id#pomodoro\` grammar and capture execution | ✓ closed | medium | 2026-08-28 | 1 | 1 |
 | [bob-cli-1t.3](bob-cli-1t.3.md) | \`bob capture-pomodoro-name\` write command | ✓ closed | medium | 2026-08-28 | 1 | 1 |
 | [bob-cli-1t.4](bob-cli-1t.4.md) | \`capture-complete\` Pomodoro-name context | ✓ closed | medium | 2026-08-28 | 1 | 1 |
-| [bob-cli-1t.5](bob-cli-1t.5.md) | Bob Mac Capture Pomodoro-name completion and naming prompt | ◐ in_progress | medium | 2026-08-28 | 1 | 0 |
+| [bob-cli-1t.5](bob-cli-1t.5.md) | Bob Mac Capture Pomodoro-name completion and naming prompt | ✓ closed | medium | 2026-08-28 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n2["bob-cli-1t.2: `@route:id#pomodoro` grammar and capture execution [closed]"]
     n3["bob-cli-1t.3: `bob capture-pomodoro-name` write command [closed]"]
     n4["bob-cli-1t.4: `capture-complete` Pomodoro-name context [closed]"]
-    n5["bob-cli-1t.5: Bob Mac Capture Pomodoro-name completion and naming prompt [in_progress]"]
+    n5["bob-cli-1t.5: Bob Mac Capture Pomodoro-name completion and naming prompt [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-1t.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.2/README.md) | [bob-cli-1t.2](bob-cli-1t.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-1t.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.3/README.md) | [bob-cli-1t.3](bob-cli-1t.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-1t.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.4/README.md) | [bob-cli-1t.4](bob-cli-1t.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-1t.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.5/README.md) | [bob-cli-1t.5](bob-cli-1t.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-1t.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.5/README.md) | [bob-cli-1t.5](bob-cli-1t.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-1t.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1t.land/README.md) | [bob-cli-1t](README.md) | 0 |
 
 ## Commits
@@ -75,3 +75,4 @@ flowchart TD
 | bob-cli | [`9b7282d`](https://github.com/bobs-org/bob-cli/commit/9b7282d8b2bba90c798ce0143c55c988e615a841) | feat(capture): add @route:id#pomodoro named targeting | [bob-cli-1t.2](bob-cli-1t.2.md) | 2026-08-28 13:16:57 EDT |
 | bob-cli | [`a03bd58`](https://github.com/bobs-org/bob-cli/commit/a03bd58070857ea56434a4cc042aa13a725354e8) | feat(capture): add bob capture-pomodoro-name write command | [bob-cli-1t.3](bob-cli-1t.3.md) | 2026-08-28 13:17:04 EDT |
 | bob-cli | [`50a69c3`](https://github.com/bobs-org/bob-cli/commit/50a69c394da1ce479debd9e0e1bc2d5a42e4461c) | feat(capture): complete pomodoro-name completions | [bob-cli-1t.4](bob-cli-1t.4.md) | 2026-08-28 13:27:30 EDT |
+| bob-mac-capture | [`bob-mac-capture@c9f2e9f`](https://github.com/bobs-org/bob-mac-capture/commit/c9f2e9f6627315bb9148c3a81b457bf10389dd9b) | feat(capture): add Pomodoro-name completion and naming prompt | [bob-cli-1t.5](bob-cli-1t.5.md) | 2026-08-28 13:51:14 EDT |
