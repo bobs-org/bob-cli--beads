@@ -19,7 +19,7 @@ capture: execute `task_toggle` items inside the existing staged batch planner, e
 
 - **Depends on:** [bob-cli-1z.1](bob-cli-1z.1.md) ✓ · ⧖ 2026-09-10
 - **Depends on:** [bob-cli-1z.2](bob-cli-1z.2.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [bob-cli-1z.4](bob-cli-1z.4.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [bob-cli-1z.4](bob-cli-1z.4.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [bob-cli-1z.5](bob-cli-1z.5.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
