@@ -60,7 +60,7 @@ epic-symbols: none for this phase.
 ## Dependencies
 
 - **Depends on:** [bob-cli-1z.3](bob-cli-1z.3.md) ✓ · ⧖ 2026-09-10
-- **Blocks:** [bob-cli-1z.6](bob-cli-1z.6.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [bob-cli-1z.6](bob-cli-1z.6.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

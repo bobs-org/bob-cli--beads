@@ -30,9 +30,9 @@ Submitting a capture draft that is exactly `@route+block-id` (optionally `@route
 | [bob-cli-1z.1](bob-cli-1z.1.md) | Capture grammar and completion for the task-toggle item | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [bob-cli-1z.2](bob-cli-1z.2.md) | Pure toggle planners for the route note and the daily ledger | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [bob-cli-1z.3](bob-cli-1z.3.md) | Wire the toggle into bob capture, its JSON contract, and its human output | ✓ closed | medium | 2026-09-10 | 1 | 1 |
-| [bob-cli-1z.4](bob-cli-1z.4.md) | bob-cli documentation for the task-toggle marker | ✓ closed | small | 2026-09-10 | 1 | 0 |
+| [bob-cli-1z.4](bob-cli-1z.4.md) | bob-cli documentation for the task-toggle marker | ✓ closed | small | 2026-09-10 | 1 | 1 |
 | [bob-cli-1z.5](bob-cli-1z.5.md) | CaptureCore models, presentation model, and panel wiring | ✓ closed | medium | 2026-09-10 | 1 | 1 |
-| [bob-cli-1z.6](bob-cli-1z.6.md) | Bob Mac Capture toggle preview, highlighting, and documentation | ◐ in_progress | medium | 2026-09-10 | 1 | 0 |
+| [bob-cli-1z.6](bob-cli-1z.6.md) | Bob Mac Capture toggle preview, highlighting, and documentation | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["bob-cli-1z.3: Wire the toggle into bob capture, its JSON contract, and its human output [closed]"]
     n4["bob-cli-1z.4: bob-cli documentation for the task-toggle marker [closed]"]
     n5["bob-cli-1z.5: CaptureCore models, presentation model, and panel wiring [closed]"]
-    n6["bob-cli-1z.6: Bob Mac Capture toggle preview, highlighting, and documentation [in_progress]"]
+    n6["bob-cli-1z.6: Bob Mac Capture toggle preview, highlighting, and documentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -65,9 +65,9 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-1z.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.1/README.md) | [bob-cli-1z.1](bob-cli-1z.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-1z.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.2/README.md) | [bob-cli-1z.2](bob-cli-1z.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-1z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.3/README.md) | [bob-cli-1z.3](bob-cli-1z.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-1z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.4/README.md) | [bob-cli-1z.4](bob-cli-1z.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-1z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.4/README.md) | [bob-cli-1z.4](bob-cli-1z.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-1z.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.5/README.md) | [bob-cli-1z.5](bob-cli-1z.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-1z.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.6/README.md) | [bob-cli-1z.6](bob-cli-1z.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-1z.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.6/README.md) | [bob-cli-1z.6](bob-cli-1z.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-1z.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.land/README.md) | [bob-cli-1z](README.md) | 0 |
 
 ## Commits
@@ -77,4 +77,6 @@ flowchart TD
 | bob-cli | [`fda8627`](https://github.com/bobs-org/bob-cli/commit/fda8627d7181e20457ea5e299e2033d5c0a8744d) | feat(capture): add task\_toggle capture grammar phase | [bob-cli-1z.1](bob-cli-1z.1.md) | 2026-09-10 14:10:12 EDT |
 | bob-cli | [`ce9d984`](https://github.com/bobs-org/bob-cli/commit/ce9d98419a797eb5d03cfaa293667352b1ac6e70) | feat(capture-task-toggle): add pure route-note and Pomodoro-ledger toggle planners | [bob-cli-1z.2](bob-cli-1z.2.md) | 2026-09-10 14:47:02 EDT |
 | bob-cli | [`7d868fb`](https://github.com/bobs-org/bob-cli/commit/7d868fbc55ee5180beda21d96bb36d72154afca3) | feat(capture): wire task toggle execution | [bob-cli-1z.3](bob-cli-1z.3.md) | 2026-09-10 15:05:31 EDT |
+| bob-cli | [`be6eed6`](https://github.com/bobs-org/bob-cli/commit/be6eed6a18d19aca920684a7d9abfac7e44b8606) | docs(capture): document task toggle marker | [bob-cli-1z.4](bob-cli-1z.4.md) | 2026-09-10 15:13:58 EDT |
 | bob-mac-capture | [`bob-mac-capture@9cce339`](https://github.com/bobs-org/bob-mac-capture/commit/9cce339ab8608eada48447bca5d90f20efeeac5d) | feat(capture-core): decode task\_toggle fields, add CaptureTogglePresentation, wire panel/notification | [bob-cli-1z.5](bob-cli-1z.5.md) | 2026-09-10 15:31:24 EDT |
+| bob-mac-capture | [`bob-mac-capture@b979528`](https://github.com/bobs-org/bob-mac-capture/commit/b979528f2764d211ecd5c58c478ebb2110f6ed5e) | feat(capture): render task toggle previews | [bob-cli-1z.6](bob-cli-1z.6.md) | 2026-09-10 15:44:27 EDT |
