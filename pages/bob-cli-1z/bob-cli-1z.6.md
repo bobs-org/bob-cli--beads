@@ -13,7 +13,7 @@ mac-preview: render the before/after toggle preview and destination detail, colo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-1z.5](bob-cli-1z.5.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [bob-cli-1z.5](bob-cli-1z.5.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

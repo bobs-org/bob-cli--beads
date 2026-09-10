@@ -23,10 +23,4 @@ cli-docs: document the toggle marker, its semantics, its errors, and its JSON in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-1z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.4/README.md) | [bob-cli-1z.4](bob-cli-1z.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`be6eed6`](https://github.com/bobs-org/bob-cli/commit/be6eed6a18d19aca920684a7d9abfac7e44b8606) | docs(capture): document task toggle marker | [bob-cli-1z.4](bob-cli-1z.4.md) | 2026-09-10 15:13:58 EDT |
+| [bbugyi200.athena.bob-cli-1z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.4/README.md) | [bob-cli-1z.4](bob-cli-1z.4.md) | 0 |
