@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-1z](README.md) / bob-cli-1z.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0ir](https://github.com/bobs-org/bob-cli--agents/blob/main/families/bbugyi200.athena.0ir.md) · **Assignee:** `bob-cli-1z.3` · **Size:** medium
-**Created:** 2026-09-10 13:19:08 EDT
+**Created:** 2026-09-10 13:19:08 EDT · **Closed:** 2026-09-10 15:04:42 EDT
 **Plan:** [202609/capture\_task\_toggle.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/capture_task_toggle.md)
 
 ## Description
 
 capture: execute `task_toggle` items inside the existing staged batch planner, emit the additive JSON fields, render the human before/after output, and cover the whole surface with CLI integration tests.
+
+## Notes
+
+[2026-09-10T19:04:42Z · bob-cli-1z.3] Implemented capture task-toggle wiring and verified with cargo test --test cli capture_task_toggle -- --nocapture, cargo test capture_task_toggle -- --nocapture, cargo test --no-run, and just fmt lint test; epic-symbols reported no entries.
 
 ## Dependencies
 
@@ -22,4 +26,10 @@ capture: execute `task_toggle` items inside the existing staged batch planner, e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-1z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.3/README.md) | [bob-cli-1z.3](bob-cli-1z.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-1z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1z.3/README.md) | [bob-cli-1z.3](bob-cli-1z.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`7d868fb`](https://github.com/bobs-org/bob-cli/commit/7d868fbc55ee5180beda21d96bb36d72154afca3) | feat(capture): wire task toggle execution | [bob-cli-1z.3](bob-cli-1z.3.md) | 2026-09-10 15:05:31 EDT |

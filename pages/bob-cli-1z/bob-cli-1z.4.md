@@ -13,7 +13,7 @@ cli-docs: document the toggle marker, its semantics, its errors, and its JSON in
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-1z.3](bob-cli-1z.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [bob-cli-1z.3](bob-cli-1z.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

@@ -17,7 +17,7 @@ engine: add a new native module of pure, unit-tested planners that compute the r
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1z.3](bob-cli-1z.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [bob-cli-1z.3](bob-cli-1z.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

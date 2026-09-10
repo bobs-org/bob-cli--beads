@@ -27,7 +27,7 @@ grammar: add the `task_toggle` item mode to the shared capture grammar, re-point
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1z.3](bob-cli-1z.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [bob-cli-1z.3](bob-cli-1z.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

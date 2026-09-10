@@ -13,7 +13,7 @@ mac-core: decode the additive toggle fields in CaptureCore, add a Linux-testable
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-1z.3](bob-cli-1z.3.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [bob-cli-1z.3](bob-cli-1z.3.md) ✓ · ⧖ 2026-09-10
 - **Blocks:** [bob-cli-1z.6](bob-cli-1z.6.md) ◐ · ⧖ 2026-09-10
 
 ## Agents
