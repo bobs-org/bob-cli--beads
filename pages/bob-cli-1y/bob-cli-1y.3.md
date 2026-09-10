@@ -14,7 +14,7 @@ integrate_status_groups: compose grouping after final status derivation, enable 
 ## Dependencies
 
 - **Depends on:** [bob-cli-1y.1](bob-cli-1y.1.md) ✓ · ⧖ 2026-09-10
-- **Depends on:** [bob-cli-1y.2](bob-cli-1y.2.md) ◐ · ⧖ 2026-09-10
+- **Depends on:** [bob-cli-1y.2](bob-cli-1y.2.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
