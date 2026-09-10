@@ -17,7 +17,7 @@ status_group_transform: preserve task subtrees and authored topic context while 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1y.3](bob-cli-1y.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [bob-cli-1y.3](bob-cli-1y.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 

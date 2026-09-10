@@ -29,7 +29,7 @@ Group project and area Tasks sections by final task status while preserving auth
 |---|---|---|---|---|---:|---:|
 | [bob-cli-1y.1](bob-cli-1y.1.md) | Protect task-status-hooks writes against concurrent vault edits | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 | [bob-cli-1y.2](bob-cli-1y.2.md) | Implement a lossless Markdown status-group transformation | ✓ closed | medium | 2026-09-10 | 1 | 1 |
-| [bob-cli-1y.3](bob-cli-1y.3.md) | Integrate grouping, reporting, compatibility, and acceptance coverage | ◐ in_progress | medium | 2026-09-10 | 1 | 0 |
+| [bob-cli-1y.3](bob-cli-1y.3.md) | Integrate grouping, reporting, compatibility, and acceptance coverage | ✓ closed | medium | 2026-09-10 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n0["bob-cli-1y: Safe status sections for bob task-status-hooks [in_progress]"]
     n1["bob-cli-1y.1: Protect task-status-hooks writes against concurrent vault edits [closed]"]
     n2["bob-cli-1y.2: Implement a lossless Markdown status-group transformation [closed]"]
-    n3["bob-cli-1y.3: Integrate grouping, reporting, compatibility, and acceptance coverage [in_progress]"]
+    n3["bob-cli-1y.3: Integrate grouping, reporting, compatibility, and acceptance coverage [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -52,7 +52,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-1y.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.1/README.md) | [bob-cli-1y.1](bob-cli-1y.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-1y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.2/README.md) | [bob-cli-1y.2](bob-cli-1y.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-1y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.3/README.md) | [bob-cli-1y.3](bob-cli-1y.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-1y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.3/README.md) | [bob-cli-1y.3](bob-cli-1y.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-1y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.land/README.md) | [bob-cli-1y](README.md) | 0 |
 
 ## Commits
@@ -61,3 +61,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`3b07627`](https://github.com/bobs-org/bob-cli/commit/3b07627fb35c92e4440a77a985aa2b7528346054) | feat(task-status-hooks): guard live note writes against concurrent vault edits | [bob-cli-1y.1](bob-cli-1y.1.md) | 2026-09-10 12:08:46 EDT |
 | bob-cli | [`f7cf10f`](https://github.com/bobs-org/bob-cli/commit/f7cf10f0a5326f14c22cbda660c8ea33cf281717) | feat(task-status-hooks): add lossless Markdown status-group transform | [bob-cli-1y.2](bob-cli-1y.2.md) | 2026-09-10 12:12:36 EDT |
+| bob-cli | [`2744266`](https://github.com/bobs-org/bob-cli/commit/274426600558d1aa1d917f94b8137aae97657477) | feat(task-status-hooks): group task sections | [bob-cli-1y.3](bob-cli-1y.3.md) | 2026-09-10 12:41:22 EDT |

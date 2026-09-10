@@ -17,7 +17,7 @@ guarded_writes: route existing hook writes through snapshot validation, shared m
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-1y.3](bob-cli-1y.3.md) ◐ · ⧖ 2026-09-10
+- **Blocks:** [bob-cli-1y.3](bob-cli-1y.3.md) ✓ · ⧖ 2026-09-10
 
 ## Agents
 
