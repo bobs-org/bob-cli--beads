@@ -57,7 +57,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-1y.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.1/README.md) | [bob-cli-1y.1](bob-cli-1y.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-1y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.2/README.md) | [bob-cli-1y.2](bob-cli-1y.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-1y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.3/README.md) | [bob-cli-1y.3](bob-cli-1y.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-1y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.land/README.md) | [bob-cli-1y](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-1y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-1y.land/README.md) | [bob-cli-1y](README.md) | 2 |
 
 ## Commits
 
@@ -67,3 +67,4 @@ flowchart TD
 | bob-cli | [`f7cf10f`](https://github.com/bobs-org/bob-cli/commit/f7cf10f0a5326f14c22cbda660c8ea33cf281717) | feat(task-status-hooks): add lossless Markdown status-group transform | [bob-cli-1y.2](bob-cli-1y.2.md) | 2026-09-10 12:12:36 EDT |
 | bob-cli | [`2744266`](https://github.com/bobs-org/bob-cli/commit/274426600558d1aa1d917f94b8137aae97657477) | feat(task-status-hooks): group task sections | [bob-cli-1y.3](bob-cli-1y.3.md) | 2026-09-10 12:41:22 EDT |
 | bob-cli | [`86e6394`](https://github.com/bobs-org/bob-cli/commit/86e6394d60234227fe5e65a23e0101adbc968756) | refactor(task-status-hooks): retire status-group dead code | [bob-cli-1y](README.md) | 2026-09-10 12:58:25 EDT |
+| bob-cli--plans | [`bob-cli--plans@5fc9b3f`](https://github.com/bobs-org/bob-cli--plans/commit/5fc9b3fac6effb0737a3cd33bd3b7e9c29333d32) | docs(plans): mark task\_status\_groups done | [bob-cli-1y](README.md) | 2026-09-10 12:58:48 EDT |
