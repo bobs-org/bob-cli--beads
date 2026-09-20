@@ -15,7 +15,7 @@
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-25.1](bob-cli-25.1.md) | Project-note marker grammar | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
+| [bob-cli-25.1](bob-cli-25.1.md) | Project-note marker grammar | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [bob-cli-25.2](bob-cli-25.2.md) | Project-note content renderer | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [bob-cli-25.3](bob-cli-25.3.md) | Capture execution and JSON contract | ◐ in_progress | medium | 2026-09-20 | 1 | 0 |
 | [bob-cli-25.4](bob-cli-25.4.md) | Capture documentation and help text | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
@@ -26,7 +26,7 @@
 ```mermaid
 flowchart TD
     n0["bob-cli-25: Capture project notes with @route^id+ and @route:id+ [in_progress]"]
-    n1["bob-cli-25.1: Project-note marker grammar [in_progress]"]
+    n1["bob-cli-25.1: Project-note marker grammar [closed]"]
     n2["bob-cli-25.2: Project-note content renderer [closed]"]
     n3["bob-cli-25.3: Capture execution and JSON contract [in_progress]"]
     n4["bob-cli-25.4: Capture documentation and help text [in_progress]"]
@@ -47,7 +47,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-25.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.1/README.md) | [bob-cli-25.1](bob-cli-25.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-25.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.1/README.md) | [bob-cli-25.1](bob-cli-25.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-25.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.2/README.md) | [bob-cli-25.2](bob-cli-25.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-25.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.3/README.md) | [bob-cli-25.3](bob-cli-25.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-25.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.4/README.md) | [bob-cli-25.4](bob-cli-25.4.md) | 0 |
@@ -59,3 +59,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2393e8a`](https://github.com/bobs-org/bob-cli/commit/2393e8a65317167fd539e92bf1a3235654bac191) | feat(capture): add project-note content renderer | [bob-cli-25.2](bob-cli-25.2.md) | 2026-09-20 18:26:50 EDT |
+| bob-cli | [`4e738fd`](https://github.com/bobs-org/bob-cli/commit/4e738fd9ab1307ad131e3395bdc911a6217138c6) | feat(capture): add project-note marker grammar | [bob-cli-25.1](bob-cli-25.1.md) | 2026-09-20 18:44:47 EDT |
