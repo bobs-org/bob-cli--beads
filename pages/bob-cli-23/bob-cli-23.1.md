@@ -17,7 +17,7 @@ cli: rename `highlights.pre_scan_command` to `highlights.pre_scan_hook` (config 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-23.2](bob-cli-23.2.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [bob-cli-23.2](bob-cli-23.2.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
