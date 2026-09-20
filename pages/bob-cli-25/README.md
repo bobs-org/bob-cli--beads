@@ -18,7 +18,7 @@
 | [bob-cli-25.1](bob-cli-25.1.md) | Project-note marker grammar | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [bob-cli-25.2](bob-cli-25.2.md) | Project-note content renderer | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [bob-cli-25.3](bob-cli-25.3.md) | Capture execution and JSON contract | ✓ closed | medium | 2026-09-20 | 1 | 1 |
-| [bob-cli-25.4](bob-cli-25.4.md) | Capture documentation and help text | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
+| [bob-cli-25.4](bob-cli-25.4.md) | Capture documentation and help text | ✓ closed | small | 2026-09-20 | 1 | 1 |
 | [bob-cli-25.5](bob-cli-25.5.md) | Bob Mac Capture frontend support | ✓ closed | small | 2026-09-20 | 1 | 0 |
 
 ## Lineage
@@ -29,7 +29,7 @@ flowchart TD
     n1["bob-cli-25.1: Project-note marker grammar [closed]"]
     n2["bob-cli-25.2: Project-note content renderer [closed]"]
     n3["bob-cli-25.3: Capture execution and JSON contract [closed]"]
-    n4["bob-cli-25.4: Capture documentation and help text [in_progress]"]
+    n4["bob-cli-25.4: Capture documentation and help text [closed]"]
     n5["bob-cli-25.5: Bob Mac Capture frontend support [closed]"]
     n0 --> n1
     n0 --> n2
@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-25.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.1/README.md) | [bob-cli-25.1](bob-cli-25.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-25.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.2/README.md) | [bob-cli-25.2](bob-cli-25.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-25.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.3/README.md) | [bob-cli-25.3](bob-cli-25.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-25.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.4/README.md) | [bob-cli-25.4](bob-cli-25.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-25.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.4/README.md) | [bob-cli-25.4](bob-cli-25.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-25.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.5/README.md) | [bob-cli-25.5](bob-cli-25.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-25.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-25.land/README.md) | [bob-cli-25](README.md) | 0 |
 
@@ -61,3 +61,4 @@ flowchart TD
 | bob-cli | [`2393e8a`](https://github.com/bobs-org/bob-cli/commit/2393e8a65317167fd539e92bf1a3235654bac191) | feat(capture): add project-note content renderer | [bob-cli-25.2](bob-cli-25.2.md) | 2026-09-20 18:26:50 EDT |
 | bob-cli | [`4e738fd`](https://github.com/bobs-org/bob-cli/commit/4e738fd9ab1307ad131e3395bdc911a6217138c6) | feat(capture): add project-note marker grammar | [bob-cli-25.1](bob-cli-25.1.md) | 2026-09-20 18:44:47 EDT |
 | bob-cli | [`a702261`](https://github.com/bobs-org/bob-cli/commit/a702261918d69095f3b200f529ac8cfd30399f3e) | feat(capture): wire project-note execution and JSON contract | [bob-cli-25.3](bob-cli-25.3.md) | 2026-09-20 18:59:51 EDT |
+| bob-cli | [`984024a`](https://github.com/bobs-org/bob-cli/commit/984024acad345e505ffd3eea794bc50c0a64d8cf) | docs(capture): document @route^id+ project-note family | [bob-cli-25.4](bob-cli-25.4.md) | 2026-09-20 19:10:18 EDT |
