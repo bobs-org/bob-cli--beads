@@ -20,7 +20,7 @@ execute: wire project-note planning into the capture batch planner — parent-no
 - **Depends on:** [bob-cli-25.1](bob-cli-25.1.md) ✓ · ⧖ 2026-09-20
 - **Depends on:** [bob-cli-25.2](bob-cli-25.2.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [bob-cli-25.4](bob-cli-25.4.md) ◐ · ⧖ 2026-09-20
-- **Blocks:** [bob-cli-25.5](bob-cli-25.5.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [bob-cli-25.5](bob-cli-25.5.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

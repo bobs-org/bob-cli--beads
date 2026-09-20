@@ -19,7 +19,7 @@
 | [bob-cli-25.2](bob-cli-25.2.md) | Project-note content renderer | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [bob-cli-25.3](bob-cli-25.3.md) | Capture execution and JSON contract | ✓ closed | medium | 2026-09-20 | 1 | 1 |
 | [bob-cli-25.4](bob-cli-25.4.md) | Capture documentation and help text | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
-| [bob-cli-25.5](bob-cli-25.5.md) | Bob Mac Capture frontend support | ◐ in_progress | small | 2026-09-20 | 1 | 0 |
+| [bob-cli-25.5](bob-cli-25.5.md) | Bob Mac Capture frontend support | ✓ closed | small | 2026-09-20 | 1 | 0 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["bob-cli-25.2: Project-note content renderer [closed]"]
     n3["bob-cli-25.3: Capture execution and JSON contract [closed]"]
     n4["bob-cli-25.4: Capture documentation and help text [in_progress]"]
-    n5["bob-cli-25.5: Bob Mac Capture frontend support [in_progress]"]
+    n5["bob-cli-25.5: Bob Mac Capture frontend support [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
