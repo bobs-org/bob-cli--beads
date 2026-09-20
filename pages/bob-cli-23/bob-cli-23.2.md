@@ -23,10 +23,11 @@ dotfiles: update the managed bob config and `maybe_bob_highlights_sync` for the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-23.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-23.2/README.md) | [bob-cli-23.2](bob-cli-23.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-23.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-23.2/README.md) | [bob-cli-23.2](bob-cli-23.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`92042e9`](https://github.com/bobs-org/bob-cli/commit/92042e9c0cd74fa5aac9eab339b4d389b9e90109) | docs(highlights): describe bob\_xlib\_pull auto-scan | [bob-cli-23.2](bob-cli-23.2.md) | 2026-09-20 16:04:07 EDT |
+| chezmoi | [`chezmoi@475626a`](https://github.com/bbugyi200/dotfiles/commit/475626a5cce33485df5d4874db001049311de4ca) | feat(bob): auto-scan from bob\_xlib\_pull and follow pre\_scan\_hook rename | [bob-cli-23.2](bob-cli-23.2.md) | 2026-09-20 16:04:44 EDT |
