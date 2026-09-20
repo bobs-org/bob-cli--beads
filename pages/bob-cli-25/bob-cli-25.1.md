@@ -17,7 +17,7 @@ grammar: add the `+` project-note sigil to the `^` and `:` marker families in th
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-25.3](bob-cli-25.3.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [bob-cli-25.3](bob-cli-25.3.md) ✓ · ⧖ 2026-09-20
 - **Blocks:** [bob-cli-25.5](bob-cli-25.5.md) ◐ · ⧖ 2026-09-20
 
 ## Agents

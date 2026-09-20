@@ -14,7 +14,7 @@ mac: teach the macOS capture panel the new span kind and capture kind so the `+`
 ## Dependencies
 
 - **Depends on:** [bob-cli-25.1](bob-cli-25.1.md) ✓ · ⧖ 2026-09-20
-- **Depends on:** [bob-cli-25.3](bob-cli-25.3.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [bob-cli-25.3](bob-cli-25.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

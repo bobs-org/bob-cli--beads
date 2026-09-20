@@ -13,7 +13,7 @@ docs: document the new marker family in the capture guide, `bob capture --help`,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-25.3](bob-cli-25.3.md) ◐ · ⧖ 2026-09-20
+- **Depends on:** [bob-cli-25.3](bob-cli-25.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 

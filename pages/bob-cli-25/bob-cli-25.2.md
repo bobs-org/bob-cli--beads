@@ -17,7 +17,7 @@ render: add a pure module that derives the project-note basename and renders its
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-25.3](bob-cli-25.3.md) ◐ · ⧖ 2026-09-20
+- **Blocks:** [bob-cli-25.3](bob-cli-25.3.md) ✓ · ⧖ 2026-09-20
 
 ## Agents
 
