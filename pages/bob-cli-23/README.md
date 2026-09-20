@@ -109,7 +109,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-23.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-23.1/README.md) | [bob-cli-23.1](bob-cli-23.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-23.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-23.2/README.md) | [bob-cli-23.2](bob-cli-23.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-23.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-23.land/README.md) | [bob-cli-23](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-23.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-23.land/README.md) | [bob-cli-23](README.md) | 2 |
 
 ## Commits
 
@@ -119,3 +119,4 @@ flowchart TD
 | bob-cli | [`92042e9`](https://github.com/bobs-org/bob-cli/commit/92042e9c0cd74fa5aac9eab339b4d389b9e90109) | docs(highlights): describe bob\_xlib\_pull auto-scan | [bob-cli-23.2](bob-cli-23.2.md) | 2026-09-20 16:04:07 EDT |
 | chezmoi | [`chezmoi@475626a`](https://github.com/bbugyi200/dotfiles/commit/475626a5cce33485df5d4874db001049311de4ca) | feat(bob): auto-scan from bob\_xlib\_pull and follow pre\_scan\_hook rename | [bob-cli-23.2](bob-cli-23.2.md) | 2026-09-20 16:04:44 EDT |
 | bob-cli | [`d7ce1c3`](https://github.com/bobs-org/bob-cli/commit/d7ce1c34701744511b52d176e9364e4d6e30f2e6) | style(highlights): unwrap the legacy pre-scan-hook test's write\_file call | [bob-cli-23](README.md) | 2026-09-20 16:19:16 EDT |
+| bob-cli--plans | [`bob-cli--plans@a11bfc7`](https://github.com/bobs-org/bob-cli--plans/commit/a11bfc73f793348d28f8f1b1720d88bdb298fa27) | docs(plans): mark the highlights pre-scan hook epic plan done | [bob-cli-23](README.md) | 2026-09-20 16:19:42 EDT |
