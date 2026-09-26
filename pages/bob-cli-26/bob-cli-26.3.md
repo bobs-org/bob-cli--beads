@@ -13,7 +13,7 @@ mac-capture: decode Bob's additive start contract and present a polished, access
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-26.2](bob-cli-26.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [bob-cli-26.2](bob-cli-26.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

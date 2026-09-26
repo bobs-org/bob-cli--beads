@@ -17,7 +17,7 @@ capture-core: parse the se-compatible suffix and stage the task, link, and timed
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-26.2](bob-cli-26.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [bob-cli-26.2](bob-cli-26.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

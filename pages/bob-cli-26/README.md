@@ -16,7 +16,7 @@ New Pomodoro-linked capture tasks can atomically start a session with se-compati
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-26.1](bob-cli-26.1.md) | Capture grammar and atomic Pomodoro start | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [bob-cli-26.2](bob-cli-26.2.md) | Editor protocol, help, and documentation | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
+| [bob-cli-26.2](bob-cli-26.2.md) | Editor protocol, help, and documentation | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [bob-cli-26.3](bob-cli-26.3.md) | Bob Mac Capture start preview and submission | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ New Pomodoro-linked capture tasks can atomically start a session with se-compati
 flowchart TD
     n0["bob-cli-26: Start the next Pomodoro from Bob capture [in_progress]"]
     n1["bob-cli-26.1: Capture grammar and atomic Pomodoro start [closed]"]
-    n2["bob-cli-26.2: Editor protocol, help, and documentation [in_progress]"]
+    n2["bob-cli-26.2: Editor protocol, help, and documentation [closed]"]
     n3["bob-cli-26.3: Bob Mac Capture start preview and submission [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-26.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.1/README.md) | [bob-cli-26.1](bob-cli-26.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-26.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.2/README.md) | [bob-cli-26.2](bob-cli-26.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-26.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.2/README.md) | [bob-cli-26.2](bob-cli-26.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-26.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.3/README.md) | [bob-cli-26.3](bob-cli-26.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-26.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.land/README.md) | [bob-cli-26](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a9a3465`](https://github.com/bobs-org/bob-cli/commit/a9a3465326af6b5415a95cf1804081c404f4fdcc) | feat(capture): atomic Pomodoro start via se\<X\> suffix | [bob-cli-26.1](bob-cli-26.1.md) | 2026-09-26 17:08:17 EDT |
+| bob-cli | [`dd47456`](https://github.com/bobs-org/bob-cli/commit/dd474564c17bccee8f652c2d54706f3a4e0a935d) | feat(capture): expose atomic-start editor contract, help, and docs | [bob-cli-26.2](bob-cli-26.2.md) | 2026-09-26 17:26:00 EDT |
