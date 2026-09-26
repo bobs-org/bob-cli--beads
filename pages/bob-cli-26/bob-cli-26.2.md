@@ -20,7 +20,7 @@ capture-editor-contract: expose start metadata, parsing spans, completion-safe r
 ## Dependencies
 
 - **Depends on:** [bob-cli-26.1](bob-cli-26.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [bob-cli-26.3](bob-cli-26.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [bob-cli-26.3](bob-cli-26.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

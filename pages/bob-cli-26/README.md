@@ -17,7 +17,7 @@ New Pomodoro-linked capture tasks can atomically start a session with se-compati
 |---|---|---|---|---|---:|---:|
 | [bob-cli-26.1](bob-cli-26.1.md) | Capture grammar and atomic Pomodoro start | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [bob-cli-26.2](bob-cli-26.2.md) | Editor protocol, help, and documentation | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [bob-cli-26.3](bob-cli-26.3.md) | Bob Mac Capture start preview and submission | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
+| [bob-cli-26.3](bob-cli-26.3.md) | Bob Mac Capture start preview and submission | ✓ closed | medium | 2026-09-26 | 1 | 0 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["bob-cli-26: Start the next Pomodoro from Bob capture [in_progress]"]
     n1["bob-cli-26.1: Capture grammar and atomic Pomodoro start [closed]"]
     n2["bob-cli-26.2: Editor protocol, help, and documentation [closed]"]
-    n3["bob-cli-26.3: Bob Mac Capture start preview and submission [in_progress]"]
+    n3["bob-cli-26.3: Bob Mac Capture start preview and submission [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
