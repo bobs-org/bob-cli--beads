@@ -13,7 +13,7 @@ mac_presentation: decode Bob's additive adjustment result and present accurate d
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-27.2](bob-cli-27.2.md) ◐ · ⧖ 2026-09-26
+- **Depends on:** [bob-cli-27.2](bob-cli-27.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 

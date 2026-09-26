@@ -19,7 +19,7 @@ adjustment_core: add exact-item signed-count grammar and a staged daily-ledger e
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-27.2](bob-cli-27.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [bob-cli-27.2](bob-cli-27.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
