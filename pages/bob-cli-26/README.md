@@ -92,13 +92,17 @@ flowchart TD
     n3["bob-cli-26.3: Bob Mac Capture start preview and submission [closed]"]
     n4["bob-cli-26.4: Finish macOS verification of atomic Pomodoro capture [in_progress]"]
     n5["bob-cli-26.4.1: Repair Pomodoro diagnostic range decoding [closed]"]
-    n6["bob-cli-26.4.2: Run Mac capture suite and panel checks [in_progress]"]
+    n6["bob-cli-26.4.2: Run Mac capture suite and panel checks [closed]"]
+    n7["bob-cli-26.4.3: Fix global plus-commit capture-complete argv [in_progress]"]
+    n8["bob-cli-26.4.3.1: Fix global plus-commit capture-complete argv [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n4 --> n5
     n4 --> n6
+    n4 --> n7
+    n7 --> n8
     n1 -.-> n2
     n2 -.-> n3
     n5 -.-> n6
@@ -113,7 +117,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-26.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.3/README.md) | [bob-cli-26.3](bob-cli-26.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-26.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.4.1/README.md) | [bob-cli-26.4.1](bob-cli-26.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-26.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.4.2/README.md) | [bob-cli-26.4.2](bob-cli-26.4.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-26.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.4.land/README.md) | [bob-cli-26.4](bob-cli-26.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-26.4.3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.4.3.1/README.md) | [bob-cli-26.4.3.1](bob-cli-26.4.3.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-26.4.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-26.4.3.land/README.md) | [bob-cli-26.4.3](bob-cli-26.4.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-26.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-26.4.land.md) | [bob-cli-26.4](bob-cli-26.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-26.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-26.land.md) | [bob-cli-26](README.md) | 0 |
 
 ## Commits

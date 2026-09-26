@@ -17,7 +17,7 @@ fix-swift-decoder: make additive diagnostic ranges compile and decode safely on 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-26.4.2](bob-cli-26.4.2.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [bob-cli-26.4.2](bob-cli-26.4.2.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
