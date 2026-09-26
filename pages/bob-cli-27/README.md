@@ -17,7 +17,7 @@ Whole-item +N and -N captures adjust the current Pomodoro reliably in Bob CLI an
 |---|---|---|---|---|---:|---:|
 | [bob-cli-27.1](bob-cli-27.1.md) | Parse and atomically apply Pomodoro duration adjustments | ✓ closed | medium | 2026-09-26 | 1 | 1 |
 | [bob-cli-27.2](bob-cli-27.2.md) | Expose and document the adjustment contract | ✓ closed | medium | 2026-09-26 | 1 | 1 |
-| [bob-cli-27.3](bob-cli-27.3.md) | Show Pomodoro adjustments in Bob Mac Capture | ◐ in_progress | medium | 2026-09-26 | 1 | 0 |
+| [bob-cli-27.3](bob-cli-27.3.md) | Show Pomodoro adjustments in Bob Mac Capture | ✓ closed | medium | 2026-09-26 | 1 | 0 |
 
 ## Lineage
 
@@ -26,7 +26,7 @@ flowchart TD
     n0["bob-cli-27: Adjust the current Pomodoro from capture with +N and -N [in_progress]"]
     n1["bob-cli-27.1: Parse and atomically apply Pomodoro duration adjustments [closed]"]
     n2["bob-cli-27.2: Expose and document the adjustment contract [closed]"]
-    n3["bob-cli-27.3: Show Pomodoro adjustments in Bob Mac Capture [in_progress]"]
+    n3["bob-cli-27.3: Show Pomodoro adjustments in Bob Mac Capture [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3

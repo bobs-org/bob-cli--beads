@@ -18,7 +18,7 @@ editor_contract: expose additive parse and capture JSON semantics, clear human o
 ## Dependencies
 
 - **Depends on:** [bob-cli-27.1](bob-cli-27.1.md) ✓ · ⧖ 2026-09-26
-- **Blocks:** [bob-cli-27.3](bob-cli-27.3.md) ◐ · ⧖ 2026-09-26
+- **Blocks:** [bob-cli-27.3](bob-cli-27.3.md) ✓ · ⧖ 2026-09-26
 
 ## Agents
 
