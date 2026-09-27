@@ -11,6 +11,10 @@
 
 Whole-item +N and -N captures adjust the current Pomodoro reliably in Bob CLI and Bob Mac Capture, with accurate previews and atomic bulk behavior.
 
+## Notes
+
+[2026-09-27T00:02:30Z · bob-cli-27.land] Landing paused for a child epic. CLI phases match the plan: commits 5ce5039 (bob-cli-27.1) and 13a212a (bob-cli-27.2); no non-epic commits landed on bob-cli after 2026-09-26 23:06Z. Mac phase commit 3c9fe83 is on bob-mac-capture master, but macOS CI run 36280594092 fails to compile NotificationServiceTests because the two new capture() calls pass relativeTarget before target. PROPOSED FOLLOW-UP from bob-cli-27.1 (cargo fmt --check) is the existing bob-cli-24 defect and was corroborated with +1. No --epic-symbol entries on bob-cli-27.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -27,9 +31,13 @@ flowchart TD
     n1["bob-cli-27.1: Parse and atomically apply Pomodoro duration adjustments [closed]"]
     n2["bob-cli-27.2: Expose and document the adjustment contract [closed]"]
     n3["bob-cli-27.3: Show Pomodoro adjustments in Bob Mac Capture [closed]"]
+    n4["bob-cli-27.4: Fix Mac adjustment notification test calls [in_progress]"]
+    n5["bob-cli-27.4.1: Reorder the adjustment notification test calls [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
+    n0 --> n4
+    n4 --> n5
     n1 -.-> n2
     n2 -.-> n3
 ```
@@ -41,7 +49,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-27.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-27.1/README.md) | [bob-cli-27.1](bob-cli-27.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-27.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-27.2/README.md) | [bob-cli-27.2](bob-cli-27.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-27.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-27.3/README.md) | [bob-cli-27.3](bob-cli-27.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-27.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-27.land/README.md) | [bob-cli-27](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-27.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-27.4.1/README.md) | [bob-cli-27.4.1](bob-cli-27.4.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-27.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-27.4.land/README.md) | [bob-cli-27.4](bob-cli-27.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-27.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-27.land.md) | [bob-cli-27](README.md) | 0 |
 
 ## Commits
 
