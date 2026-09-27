@@ -17,7 +17,7 @@ link-core: add the shared `@`/`^` solo grammar, the keep/move/insert Task Link p
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-28.2](bob-cli-28.2.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [bob-cli-28.2](bob-cli-28.2.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

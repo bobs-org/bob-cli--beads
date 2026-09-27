@@ -13,7 +13,7 @@ editor-contract: expose the `pomodoro_link` mode, `^` spans, needs and diagnosti
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-28.2](bob-cli-28.2.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [bob-cli-28.2](bob-cli-28.2.md) ✓ · ⧖ 2026-09-27
 - **Blocks:** [bob-cli-28.4](bob-cli-28.4.md) ◐ · ⧖ 2026-09-27
 
 ## Agents
