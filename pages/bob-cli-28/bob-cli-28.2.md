@@ -18,7 +18,7 @@ active-task-discovery: build a read-only scanner that lists In Progress and Next
 ## Dependencies
 
 - **Depends on:** [bob-cli-28.1](bob-cli-28.1.md) ✓ · ⧖ 2026-09-27
-- **Blocks:** [bob-cli-28.3](bob-cli-28.3.md) ◐ · ⧖ 2026-09-27
+- **Blocks:** [bob-cli-28.3](bob-cli-28.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 

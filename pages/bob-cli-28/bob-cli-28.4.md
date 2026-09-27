@@ -13,7 +13,7 @@ mac-capture: decode the new context, candidates and kind in bob-mac-capture, ren
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-28.3](bob-cli-28.3.md) ◐ · ⧖ 2026-09-27
+- **Depends on:** [bob-cli-28.3](bob-cli-28.3.md) ✓ · ⧖ 2026-09-27
 
 ## Agents
 
