@@ -20,4 +20,10 @@ split-capture: turn the capture executor into a directory module (CLI, planning,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.2/README.md) | [bob-cli-2f.2](bob-cli-2f.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.2.md) | [bob-cli-2f.2](bob-cli-2f.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`e73e2e9`](https://github.com/bobs-org/bob-cli/commit/e73e2e985b855f451ed2c41e4581b3200c161674) | refactor(capture): split capture executor into directory modules | [bob-cli-2f.2](bob-cli-2f.2.md) | 2026-09-28 17:43:48 EDT |
