@@ -20,7 +20,7 @@ picker-flow: route `active_task` completion into a modal picker state. This cove
 ## Dependencies
 
 - **Depends on:** [bob-cli-2g.1](bob-cli-2g.1.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2g.3](bob-cli-2g.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2g.3](bob-cli-2g.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

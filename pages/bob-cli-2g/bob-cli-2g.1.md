@@ -20,7 +20,7 @@ core: add a pure, Foundation-only fuzzy matcher, the task display-text parser fo
 ## Dependencies
 
 - **Blocks:** [bob-cli-2g.2](bob-cli-2g.2.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2g.3](bob-cli-2g.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2g.3](bob-cli-2g.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
