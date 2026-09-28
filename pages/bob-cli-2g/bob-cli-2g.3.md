@@ -14,7 +14,7 @@ picker-design: replace the functional view with the final design, including the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-2g.1](bob-cli-2g.1.md) ✓ · ⧖ 2026-09-28
-- **Depends on:** [bob-cli-2g.2](bob-cli-2g.2.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2g.2](bob-cli-2g.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

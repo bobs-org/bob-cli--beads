@@ -16,7 +16,7 @@ Typing `^` as a capture item in Bob Mac Capture opens a large, keyboard-first Ac
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2g.1](bob-cli-2g.1.md) | Fuzzy matcher and picker presentation engine (CaptureCore) | ✓ closed | medium | 2026-09-28 | 1 | 0 |
-| [bob-cli-2g.2](bob-cli-2g.2.md) | Picker state machine, keyboard routing, focus, and a functional picker view | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [bob-cli-2g.2](bob-cli-2g.2.md) | Picker state machine, keyboard routing, focus, and a functional picker view | ✓ closed | medium | 2026-09-28 | 1 | 0 |
 | [bob-cli-2g.3](bob-cli-2g.3.md) | Beautiful picker card, sizing, accessibility, docs, and macOS verification | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ Typing `^` as a capture item in Bob Mac Capture opens a large, keyboard-first Ac
 flowchart TD
     n0["bob-cli-2g: Large fuzzy Active Task Picker for `^` in Bob Mac Capture [in_progress]"]
     n1["bob-cli-2g.1: Fuzzy matcher and picker presentation engine (CaptureCore) [closed]"]
-    n2["bob-cli-2g.2: Picker state machine, keyboard routing, focus, and a functional picker view [in_progress]"]
+    n2["bob-cli-2g.2: Picker state machine, keyboard routing, focus, and a functional picker view [closed]"]
     n3["bob-cli-2g.3: Beautiful picker card, sizing, accessibility, docs, and macOS verification [in_progress]"]
     n0 --> n1
     n0 --> n2
