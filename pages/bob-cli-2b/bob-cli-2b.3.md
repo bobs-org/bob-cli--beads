@@ -13,7 +13,7 @@ command: add the clap CLI and runner registration; orchestrate lock, pre-sync, p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2b.1](bob-cli-2b.1.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2b.1](bob-cli-2b.1.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [bob-cli-2b.2](bob-cli-2b.2.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [bob-cli-2b.4](bob-cli-2b.4.md) ◐ · ⧖ 2026-09-28
 
