@@ -20,7 +20,7 @@ start_lineup: list and read-only resolve the started entry's direct-child Task L
 ## Dependencies
 
 - **Depends on:** [bob-cli-2c.1](bob-cli-2c.1.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2c.3](bob-cli-2c.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2c.3](bob-cli-2c.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

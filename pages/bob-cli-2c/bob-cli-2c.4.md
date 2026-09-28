@@ -13,7 +13,7 @@ mac_start: tolerant start decoding, a play-glyph start card with queued tasks, t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2c.3](bob-cli-2c.3.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2c.3](bob-cli-2c.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
