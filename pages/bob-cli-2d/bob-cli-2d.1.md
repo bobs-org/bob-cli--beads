@@ -20,7 +20,7 @@ skeleton: register `bob gkeep` and pin the whole CLI surface, including help, ty
 ## Dependencies
 
 - **Blocks:** [bob-cli-2d.2](bob-cli-2d.2.md) ◐ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2d.3](bob-cli-2d.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2d.3](bob-cli-2d.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
