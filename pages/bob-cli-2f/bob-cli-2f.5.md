@@ -18,7 +18,7 @@ split-dataview: move the Obsidian engine, native evaluator, function library, le
 ## Dependencies
 
 - **Depends on:** [bob-cli-2f.4](bob-cli-2f.4.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2f.6](bob-cli-2f.6.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2f.6](bob-cli-2f.6.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

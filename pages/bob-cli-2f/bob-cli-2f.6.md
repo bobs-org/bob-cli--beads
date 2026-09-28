@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-2f](README.md) / bob-cli-2f.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.2u](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.2u.md) · **Assignee:** `bob-cli-2f.6` · **Size:** large
-**Created:** 2026-09-28 16:49:29 EDT
+**Created:** 2026-09-28 16:49:29 EDT · **Closed:** 2026-09-28 19:32:38 EDT
 **Plan:** [202609/split\_largest\_rust\_files.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/split_largest_rust_files.md)
 
 ## Description
@@ -14,6 +14,8 @@ split-task-status-hooks: turn the task status hook engine into a directory modul
 ## Notes
 
 [2026-09-28T23:30:03Z · bob-cli-2f.6] PROPOSED FOLLOW-UP: cargo clippy --all-targets --all-features fails on clean tree at tests/cli/capture/pomodoro_name.rs:808 (overly_complex_bool_expr with || true) plus pre-existing warnings in capture_language, plugins, projects, task_status_groups, vault_sync; reproduces on HEAD, unrelated to task_status_hooks split
+
+[2026-09-28T23:32:38Z · bob-cli-2f.6] Closed by explicit `sase stitch create -B close` after create_commit landed a89dff8 ("refactor(task-status-hooks): split engine into directory module under 1500 lines"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-2f.6` if more work remains.
 
 ## Dependencies
 
