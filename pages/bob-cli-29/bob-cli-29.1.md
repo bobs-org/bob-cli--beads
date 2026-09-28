@@ -19,7 +19,7 @@ close-ledger: add a pure module that finds the running Pomodoro and computes the
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-29.2](bob-cli-29.2.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-29.2](bob-cli-29.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
