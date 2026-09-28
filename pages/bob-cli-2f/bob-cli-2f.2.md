@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-2f](README.md) / bob-cli-2f.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.2u](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.2u.md) · **Assignee:** `bob-cli-2f.2` · **Size:** large
-**Created:** 2026-09-28 16:49:29 EDT
+**Created:** 2026-09-28 16:49:29 EDT · **Closed:** 2026-09-28 17:44:09 EDT
 **Plan:** [202609/split\_largest\_rust\_files.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/split_largest_rust_files.md)
 
 ## Description
 
 split-capture: turn the capture executor into a directory module (CLI, planning, Pomodoro operations, commit/staging, markdown placement, output, and split unit tests), each file at most 1500 lines.
+
+## Notes
+
+[2026-09-28T21:44:09Z · bob-cli-2f.2] Closed by explicit `sase stitch create -B close` after create_commit landed e73e2e9 ("refactor(capture): split capture executor into directory modules"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-2f.2` if more work remains.
 
 ## Dependencies
 

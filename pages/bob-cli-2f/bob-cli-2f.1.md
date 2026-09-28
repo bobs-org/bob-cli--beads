@@ -83,7 +83,7 @@ Files (lines, contents):
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2f.2](bob-cli-2f.2.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2f.2](bob-cli-2f.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

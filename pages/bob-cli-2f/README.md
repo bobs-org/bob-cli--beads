@@ -17,8 +17,8 @@ Each of the ten largest Rust source files in bob-cli is split into cohesive modu
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2f.1](bob-cli-2f.1.md) | Split tests/cli.rs | ✓ closed | large | 2026-09-28 | 1 | 1 |
 | [bob-cli-2f.10](bob-cli-2f.10.md) | Split src/native/capture\_pomodoro\_close.rs | ◐ in_progress | large | 2026-09-28 | 1 | 0 |
-| [bob-cli-2f.2](bob-cli-2f.2.md) | Split src/native/capture.rs | ◐ in_progress | large | 2026-09-28 | 1 | 1 |
-| [bob-cli-2f.3](bob-cli-2f.3.md) | Split src/native/capture\_language.rs | ◐ in_progress | large | 2026-09-28 | 1 | 0 |
+| [bob-cli-2f.2](bob-cli-2f.2.md) | Split src/native/capture.rs | ✓ closed | large | 2026-09-28 | 1 | 1 |
+| [bob-cli-2f.3](bob-cli-2f.3.md) | Split src/native/capture\_language.rs | ◐ in_progress | large | 2026-09-28 | 1 | 1 |
 | [bob-cli-2f.4](bob-cli-2f.4.md) | Split src/native/highlights\_ref/mod.rs | ◐ in_progress | large | 2026-09-28 | 1 | 0 |
 | [bob-cli-2f.5](bob-cli-2f.5.md) | Split src/native/dataview.rs | ◐ in_progress | large | 2026-09-28 | 1 | 0 |
 | [bob-cli-2f.6](bob-cli-2f.6.md) | Split src/native/task\_status\_hooks.rs | ◐ in_progress | large | 2026-09-28 | 1 | 0 |
@@ -33,7 +33,7 @@ flowchart TD
     n0["bob-cli-2f: Split the ten largest Rust files into modules of at most 1500 lines [in_progress]"]
     n1["bob-cli-2f.1: Split tests/cli.rs [closed]"]
     n2["bob-cli-2f.10: Split src/native/capture_pomodoro_close.rs [in_progress]"]
-    n3["bob-cli-2f.2: Split src/native/capture.rs [in_progress]"]
+    n3["bob-cli-2f.2: Split src/native/capture.rs [closed]"]
     n4["bob-cli-2f.3: Split src/native/capture_language.rs [in_progress]"]
     n5["bob-cli-2f.4: Split src/native/highlights_ref/mod.rs [in_progress]"]
     n6["bob-cli-2f.5: Split src/native/dataview.rs [in_progress]"]
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2f.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.1.md) | [bob-cli-2f.1](bob-cli-2f.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2f.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.10/README.md) | [bob-cli-2f.10](bob-cli-2f.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.2.md) | [bob-cli-2f.2](bob-cli-2f.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.3/README.md) | [bob-cli-2f.3](bob-cli-2f.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.3.md) | [bob-cli-2f.3](bob-cli-2f.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2f.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.4/README.md) | [bob-cli-2f.4](bob-cli-2f.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2f.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.5/README.md) | [bob-cli-2f.5](bob-cli-2f.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2f.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.6/README.md) | [bob-cli-2f.6](bob-cli-2f.6.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`7d1c8dd`](https://github.com/bobs-org/bob-cli/commit/7d1c8dd3054fd30f6e4f5a15e2dc61c42c3b2593) | refactor(tests): split tests/cli.rs into tests/cli/ target with support and per-command modules | [bob-cli-2f.1](bob-cli-2f.1.md) | 2026-09-28 17:22:16 EDT |
 | bob-cli | [`e73e2e9`](https://github.com/bobs-org/bob-cli/commit/e73e2e985b855f451ed2c41e4581b3200c161674) | refactor(capture): split capture executor into directory modules | [bob-cli-2f.2](bob-cli-2f.2.md) | 2026-09-28 17:43:48 EDT |
+| bob-cli | [`e73900e`](https://github.com/bobs-org/bob-cli/commit/e73900e386cdbf3235ac1f9ab9e1be147e13b09a) | refactor(capture): split capture\_language grammar into focused modules | [bob-cli-2f.3](bob-cli-2f.3.md) | 2026-09-28 18:04:43 EDT |
