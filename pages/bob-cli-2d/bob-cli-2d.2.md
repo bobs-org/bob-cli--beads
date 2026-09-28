@@ -21,8 +21,8 @@ adapter: write the pinned PEP 723 gkeepapi adapter (ping, snapshot, archive with
 
 - **Depends on:** [bob-cli-2d.1](bob-cli-2d.1.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [bob-cli-2d.4](bob-cli-2d.4.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2d.5](bob-cli-2d.5.md) ◐ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2d.6](bob-cli-2d.6.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2d.5](bob-cli-2d.5.md) ✓ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2d.6](bob-cli-2d.6.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

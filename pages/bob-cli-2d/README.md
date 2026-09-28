@@ -19,8 +19,8 @@
 | [bob-cli-2d.2](bob-cli-2d.2.md) | Embedded Python Keep adapter and Rust adapter client | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.3](bob-cli-2d.3.md) | Literal renderer, vault ledger, and planner | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.4](bob-cli-2d.4.md) | login and doctor subcommands | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [bob-cli-2d.5](bob-cli-2d.5.md) | list reconciliation view (default subcommand) | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
-| [bob-cli-2d.6](bob-cli-2d.6.md) | pull transaction with guarded archive | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [bob-cli-2d.5](bob-cli-2d.5.md) | list reconciliation view (default subcommand) | ✓ closed | medium | 2026-09-28 | 1 | 1 |
+| [bob-cli-2d.6](bob-cli-2d.6.md) | pull transaction with guarded archive | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.7](bob-cli-2d.7.md) | Documentation, config seed, and final polish | ◐ in_progress | small | 2026-09-28 | 1 | 0 |
 
 ## Lineage
@@ -32,8 +32,8 @@ flowchart TD
     n2["bob-cli-2d.2: Embedded Python Keep adapter and Rust adapter client [closed]"]
     n3["bob-cli-2d.3: Literal renderer, vault ledger, and planner [closed]"]
     n4["bob-cli-2d.4: login and doctor subcommands [closed]"]
-    n5["bob-cli-2d.5: list reconciliation view (default subcommand) [in_progress]"]
-    n6["bob-cli-2d.6: pull transaction with guarded archive [in_progress]"]
+    n5["bob-cli-2d.5: list reconciliation view (default subcommand) [closed]"]
+    n6["bob-cli-2d.6: pull transaction with guarded archive [closed]"]
     n7["bob-cli-2d.7: Documentation, config seed, and final polish [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -62,8 +62,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2d.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.2/README.md) | [bob-cli-2d.2](bob-cli-2d.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.3/README.md) | [bob-cli-2d.3](bob-cli-2d.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.4/README.md) | [bob-cli-2d.4](bob-cli-2d.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2d.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.5/README.md) | [bob-cli-2d.5](bob-cli-2d.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2d.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.6/README.md) | [bob-cli-2d.6](bob-cli-2d.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2d.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.5/README.md) | [bob-cli-2d.5](bob-cli-2d.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2d.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.6/README.md) | [bob-cli-2d.6](bob-cli-2d.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.7/README.md) | [bob-cli-2d.7](bob-cli-2d.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2d.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.land/README.md) | [bob-cli-2d](README.md) | 0 |
 
@@ -75,3 +75,5 @@ flowchart TD
 | bob-cli | [`72391b1`](https://github.com/bobs-org/bob-cli/commit/72391b15545ddba538fb05c7369bf820420e3825) | feat(gkeep): add literal renderer, vault ledger, and planner | [bob-cli-2d.3](bob-cli-2d.3.md) | 2026-09-28 14:17:06 EDT |
 | bob-cli | [`c742ab5`](https://github.com/bobs-org/bob-cli/commit/c742ab56764309af0a15736ed50fa5c8aee0d2c8) | feat(gkeep): add pinned gkeep adapter with native client and tests | [bob-cli-2d.2](bob-cli-2d.2.md) | 2026-09-28 14:18:48 EDT |
 | bob-cli | [`150b954`](https://github.com/bobs-org/bob-cli/commit/150b954251ddad1662945d98ba2e77ac4c993251) | feat(gkeep): add login and doctor subcommands with integration tests | [bob-cli-2d.4](bob-cli-2d.4.md) | 2026-09-28 14:36:45 EDT |
+| bob-cli | [`c2a3429`](https://github.com/bobs-org/bob-cli/commit/c2a3429ad1a372caa61a1fb86945ad6ef6ca1d05) | feat(gkeep): implement list reconciliation view (default subcommand) | [bob-cli-2d.5](bob-cli-2d.5.md) | 2026-09-28 14:39:14 EDT |
+| bob-cli | [`acefd9d`](https://github.com/bobs-org/bob-cli/commit/acefd9d39ff234cde82cc4300452d71a1a9d7255) | feat(gkeep): add pull transaction with guarded archive | [bob-cli-2d.6](bob-cli-2d.6.md) | 2026-09-28 14:42:27 EDT |
