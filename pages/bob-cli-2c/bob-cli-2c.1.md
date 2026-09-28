@@ -19,7 +19,7 @@ start_core: add the shared `=`-family lexer, CaptureKind::PomodoroStart, the sta
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2c.2](bob-cli-2c.2.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2c.2](bob-cli-2c.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
