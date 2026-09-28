@@ -20,7 +20,7 @@ split-highlights-ref: thin the existing highlights_ref directory root into sync,
 ## Dependencies
 
 - **Depends on:** [bob-cli-2f.3](bob-cli-2f.3.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2f.5](bob-cli-2f.5.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2f.5](bob-cli-2f.5.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

@@ -13,7 +13,7 @@ split-task-status-hooks: turn the task status hook engine into a directory modul
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2f.5](bob-cli-2f.5.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2f.5](bob-cli-2f.5.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [bob-cli-2f.7](bob-cli-2f.7.md) ◐ · ⧖ 2026-09-28
 
 ## Agents
