@@ -27,10 +27,11 @@ docs: write `docs/gkeep.md` (the full contract) and the README/doc index entries
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2d.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.7/README.md) | [bob-cli-2d.7](bob-cli-2d.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2d.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.7/README.md) | [bob-cli-2d.7](bob-cli-2d.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cad7c8e`](https://github.com/bobs-org/bob-cli/commit/cad7c8e79ec41d3e35c3672151a3965780e64a18) | docs(gkeep): add gkeep contract guide and index entries | [bob-cli-2d.7](bob-cli-2d.7.md) | 2026-09-28 14:53:37 EDT |
+| chezmoi | [`chezmoi@34c33aa`](https://github.com/bbugyi200/dotfiles/commit/34c33aae4dc7b48b00ea4318ae5fd5a1d6fbd47e) | chore(gkeep): seed gkeep config in chezmoi home config | [bob-cli-2d.7](bob-cli-2d.7.md) | 2026-09-28 14:54:09 EDT |

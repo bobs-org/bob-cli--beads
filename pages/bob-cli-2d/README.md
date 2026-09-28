@@ -21,7 +21,7 @@
 | [bob-cli-2d.4](bob-cli-2d.4.md) | login and doctor subcommands | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.5](bob-cli-2d.5.md) | list reconciliation view (default subcommand) | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.6](bob-cli-2d.6.md) | pull transaction with guarded archive | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [bob-cli-2d.7](bob-cli-2d.7.md) | Documentation, config seed, and final polish | ✓ closed | small | 2026-09-28 | 1 | 1 |
+| [bob-cli-2d.7](bob-cli-2d.7.md) | Documentation, config seed, and final polish | ✓ closed | small | 2026-09-28 | 1 | 2 |
 
 ## Lineage
 
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2d.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.4/README.md) | [bob-cli-2d.4](bob-cli-2d.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.5/README.md) | [bob-cli-2d.5](bob-cli-2d.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.6/README.md) | [bob-cli-2d.6](bob-cli-2d.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2d.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.7/README.md) | [bob-cli-2d.7](bob-cli-2d.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2d.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.7/README.md) | [bob-cli-2d.7](bob-cli-2d.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-2d.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.land/README.md) | [bob-cli-2d](README.md) | 0 |
 
 ## Commits
@@ -78,3 +78,4 @@ flowchart TD
 | bob-cli | [`c2a3429`](https://github.com/bobs-org/bob-cli/commit/c2a3429ad1a372caa61a1fb86945ad6ef6ca1d05) | feat(gkeep): implement list reconciliation view (default subcommand) | [bob-cli-2d.5](bob-cli-2d.5.md) | 2026-09-28 14:39:14 EDT |
 | bob-cli | [`acefd9d`](https://github.com/bobs-org/bob-cli/commit/acefd9d39ff234cde82cc4300452d71a1a9d7255) | feat(gkeep): add pull transaction with guarded archive | [bob-cli-2d.6](bob-cli-2d.6.md) | 2026-09-28 14:42:27 EDT |
 | bob-cli | [`cad7c8e`](https://github.com/bobs-org/bob-cli/commit/cad7c8e79ec41d3e35c3672151a3965780e64a18) | docs(gkeep): add gkeep contract guide and index entries | [bob-cli-2d.7](bob-cli-2d.7.md) | 2026-09-28 14:53:37 EDT |
+| chezmoi | [`chezmoi@34c33aa`](https://github.com/bbugyi200/dotfiles/commit/34c33aae4dc7b48b00ea4318ae5fd5a1d6fbd47e) | chore(gkeep): seed gkeep config in chezmoi home config | [bob-cli-2d.7](bob-cli-2d.7.md) | 2026-09-28 14:54:09 EDT |
