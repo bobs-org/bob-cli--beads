@@ -13,7 +13,7 @@ auth: implement `bob gkeep login` (hidden cookie prompt or stdin, exchange, stor
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2d.2](bob-cli-2d.2.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2d.2](bob-cli-2d.2.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [bob-cli-2d.7](bob-cli-2d.7.md) ◐ · ⧖ 2026-09-28
 
 ## Agents
