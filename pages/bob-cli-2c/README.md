@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-2c
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.2s](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.2s.md) · **Assignee:** `bob-cli-2c.land`
-**Created:** 2026-09-28 12:19:13 EDT
+**Created:** 2026-09-28 12:19:13 EDT · **Closed:** 2026-09-28 14:17:33 EDT
 **Plan:** [202609/pomodoro\_start\_next\_operator.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/pomodoro_start_next_operator.md)
 
 ## Description
@@ -21,6 +21,8 @@ FOLLOW-UP bob-cli-2c.1: capture_pomodoros missing-note test mutates process-glob
 
 No --epic-symbol entries for bob-cli-2c. No parent bead.
 
+[2026-09-28T18:17:33Z · bob-cli-2c.land--1] Verified phases bob-cli-2c.1/.2/.3 in commits 47a4b59, 193e9f9, and d223926: shared session_equals_token lexer, CaptureKind::PomodoroStart, next_future_pomodoro shared by the unnamed link start, the close next-up hint, and the whole-item start planner, POMODORO_CLOSE_INCOMPLETE_ERROR removed, pomodoro_start.tasks lineup, editor mode/spans/diagnostics, and zsh-quoted docs. Phase bob-cli-2c.4 is bob-mac-capture 147159e. The only bob-cli commit after the epic started, 55fdb18 (bob-cli-2d.1 gkeep), publishes format_task_line and does not parse or duplicate whole-item starts; no other mac commit landed during the epic. Mac CI 36461295564 failed because startLivePreview omitted session-start status and the failure error, and testQueuedTaskRowsMapStatusGlyphsAndLocators interpolated queuedTasksJSON without array brackets. Fixed both; macOS 26 SwiftPM run 36463489015 for d16808b73611b9c8c0903fe402b49475dbfdd082 passed. Follow-ups: the tests/cli.rs:31821 || true clippy deny stays on bob-cli-28 (no new task); the unlocked BOB_DAY_FILE mutation is bug bob-cli-2e, not epic work. No --epic-symbol entries. No parent bead. just symvision is not a recipe in this justfile.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -34,7 +36,7 @@ No --epic-symbol entries for bob-cli-2c. No parent bead.
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-2c: Start the next future Pomodoro from capture with =&lt;X&gt; [in_progress]"]
+    n0["bob-cli-2c: Start the next future Pomodoro from capture with =&lt;X&gt; [closed]"]
     n1["bob-cli-2c.1: Parse and atomically apply whole-item Pomodoro starts [closed]"]
     n2["bob-cli-2c.2: Report the started session's queued Task Links [closed]"]
     n3["bob-cli-2c.3: Expose and document the Pomodoro start editor contract [closed]"]
@@ -56,7 +58,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2c.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2c.2/README.md) | [bob-cli-2c.2](bob-cli-2c.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2c.3/README.md) | [bob-cli-2c.3](bob-cli-2c.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2c.4/README.md) | [bob-cli-2c.4](bob-cli-2c.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2c.land.md) | [bob-cli-2c](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2c.land.md) | [bob-cli-2c](README.md) | 1 |
 
 ## Commits
 
@@ -65,3 +67,4 @@ flowchart TD
 | bob-cli | [`47a4b59`](https://github.com/bobs-org/bob-cli/commit/47a4b59489a072cebcd3e73c6454063245dbc6df) | feat(capture): parse and atomically apply whole-item Pomodoro starts | [bob-cli-2c.1](bob-cli-2c.1.md) | 2026-09-28 12:41:45 EDT |
 | bob-cli | [`193e9f9`](https://github.com/bobs-org/bob-cli/commit/193e9f9b4b3759204a10ec6369d79972af1044ac) | feat(capture): report the started session's queued Task Links | [bob-cli-2c.2](bob-cli-2c.2.md) | 2026-09-28 12:58:15 EDT |
 | bob-cli | [`d223926`](https://github.com/bobs-org/bob-cli/commit/d22392671b5e92dadbafd2585cb797bbd017f459) | feat(capture): expose and document the Pomodoro start editor contract | [bob-cli-2c.3](bob-cli-2c.3.md) | 2026-09-28 13:14:29 EDT |
+| bob-cli--plans | [`bob-cli--plans@59a69ad`](https://github.com/bobs-org/bob-cli--plans/commit/59a69ad35030d393fef84eb55220cbac5e53493f) | chore(plans): mark pomodoro start plan done after green Mac CI | [bob-cli-2c](README.md) | 2026-09-28 14:19:10 EDT |
