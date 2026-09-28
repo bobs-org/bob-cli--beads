@@ -18,7 +18,7 @@
 | [bob-cli-2b.1](bob-cli-2b.1.md) | Pure randomize planner and shared task-field helpers | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2b.2](bob-cli-2b.2.md) | Lock wait, scoped commit, sync report, and writer reuse | ✓ closed | small | 2026-09-28 | 1 | 1 |
 | [bob-cli-2b.3](bob-cli-2b.3.md) | bob randomize command, output, and integration tests | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [bob-cli-2b.4](bob-cli-2b.4.md) | Documentation and cross-links | ◐ in_progress | small | 2026-09-28 | 1 | 0 |
+| [bob-cli-2b.4](bob-cli-2b.4.md) | Documentation and cross-links | ✓ closed | small | 2026-09-28 | 1 | 1 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["bob-cli-2b.1: Pure randomize planner and shared task-field helpers [closed]"]
     n2["bob-cli-2b.2: Lock wait, scoped commit, sync report, and writer reuse [closed]"]
     n3["bob-cli-2b.3: bob randomize command, output, and integration tests [closed]"]
-    n4["bob-cli-2b.4: Documentation and cross-links [in_progress]"]
+    n4["bob-cli-2b.4: Documentation and cross-links [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2b.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.1/README.md) | [bob-cli-2b.1](bob-cli-2b.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2b.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.2/README.md) | [bob-cli-2b.2](bob-cli-2b.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.3/README.md) | [bob-cli-2b.3](bob-cli-2b.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2b.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.4/README.md) | [bob-cli-2b.4](bob-cli-2b.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2b.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.4/README.md) | [bob-cli-2b.4](bob-cli-2b.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.land/README.md) | [bob-cli-2b](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | bob-cli | [`b4b51ea`](https://github.com/bobs-org/bob-cli/commit/b4b51eaa769cab6713e3b29047a37848d3298b95) | feat(randomize): add plumbing for lock wait, scoped commit, sync report, writer reuse | [bob-cli-2b.2](bob-cli-2b.2.md) | 2026-09-28 11:09:07 EDT |
 | bob-cli | [`f17339d`](https://github.com/bobs-org/bob-cli/commit/f17339d8117fb10a565f2b8ea9b8e700ee820ec2) | feat(randomize): pure planner phase with shared task-field helpers | [bob-cli-2b.1](bob-cli-2b.1.md) | 2026-09-28 11:14:31 EDT |
 | bob-cli | [`1e8484b`](https://github.com/bobs-org/bob-cli/commit/1e8484b8df228cc11041f9a3b9fc1a5b08392329) | feat(randomize): add bob randomize priority reshuffle command | [bob-cli-2b.3](bob-cli-2b.3.md) | 2026-09-28 11:56:10 EDT |
+| bob-cli | [`35c6ba4`](https://github.com/bobs-org/bob-cli/commit/35c6ba4a6c21cd684002342d11780a6abe92d189) | docs(randomize): add full contract guide and cross-links | [bob-cli-2b.4](bob-cli-2b.4.md) | 2026-09-28 12:05:56 EDT |
