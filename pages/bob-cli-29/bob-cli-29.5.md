@@ -13,7 +13,7 @@ mac-close-preview: in bob-mac-capture, decode the additive `pomodoro_close` cont
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-29.3](bob-cli-29.3.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-29.3](bob-cli-29.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

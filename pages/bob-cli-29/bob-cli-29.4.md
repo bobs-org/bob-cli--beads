@@ -13,7 +13,7 @@ close-editor-contract: add the capture-parse `pomodoro_close` mode, span, spec, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-29.3](bob-cli-29.3.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-29.3](bob-cli-29.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

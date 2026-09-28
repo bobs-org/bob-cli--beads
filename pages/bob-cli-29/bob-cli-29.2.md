@@ -20,7 +20,7 @@ close-tasks: share task-status-hooks' vault link resolver. Port the linked-task 
 ## Dependencies
 
 - **Depends on:** [bob-cli-29.1](bob-cli-29.1.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-29.3](bob-cli-29.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-29.3](bob-cli-29.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
