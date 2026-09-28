@@ -20,7 +20,7 @@ editor_contract: surface `pomodoro_shift` mode, span, spec, and diagnostics in c
 ## Dependencies
 
 - **Depends on:** [bob-cli-2a.1](bob-cli-2a.1.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2a.3](bob-cli-2a.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2a.3](bob-cli-2a.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
