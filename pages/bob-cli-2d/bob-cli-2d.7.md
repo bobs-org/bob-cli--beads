@@ -13,7 +13,7 @@ docs: write `docs/gkeep.md` (the full contract) and the README/doc index entries
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2d.4](bob-cli-2d.4.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2d.4](bob-cli-2d.4.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [bob-cli-2d.5](bob-cli-2d.5.md) ◐ · ⧖ 2026-09-28
 - **Depends on:** [bob-cli-2d.6](bob-cli-2d.6.md) ◐ · ⧖ 2026-09-28
 

@@ -18,7 +18,7 @@
 | [bob-cli-2d.1](bob-cli-2d.1.md) | Command skeleton, CLI contract, config, and model | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.2](bob-cli-2d.2.md) | Embedded Python Keep adapter and Rust adapter client | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.3](bob-cli-2d.3.md) | Literal renderer, vault ledger, and planner | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [bob-cli-2d.4](bob-cli-2d.4.md) | login and doctor subcommands | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [bob-cli-2d.4](bob-cli-2d.4.md) | login and doctor subcommands | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2d.5](bob-cli-2d.5.md) | list reconciliation view (default subcommand) | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [bob-cli-2d.6](bob-cli-2d.6.md) | pull transaction with guarded archive | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 | [bob-cli-2d.7](bob-cli-2d.7.md) | Documentation, config seed, and final polish | ◐ in_progress | small | 2026-09-28 | 1 | 0 |
@@ -31,7 +31,7 @@ flowchart TD
     n1["bob-cli-2d.1: Command skeleton, CLI contract, config, and model [closed]"]
     n2["bob-cli-2d.2: Embedded Python Keep adapter and Rust adapter client [closed]"]
     n3["bob-cli-2d.3: Literal renderer, vault ledger, and planner [closed]"]
-    n4["bob-cli-2d.4: login and doctor subcommands [in_progress]"]
+    n4["bob-cli-2d.4: login and doctor subcommands [closed]"]
     n5["bob-cli-2d.5: list reconciliation view (default subcommand) [in_progress]"]
     n6["bob-cli-2d.6: pull transaction with guarded archive [in_progress]"]
     n7["bob-cli-2d.7: Documentation, config seed, and final polish [in_progress]"]
@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2d.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.1/README.md) | [bob-cli-2d.1](bob-cli-2d.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.2/README.md) | [bob-cli-2d.2](bob-cli-2d.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.3/README.md) | [bob-cli-2d.3](bob-cli-2d.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2d.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.4/README.md) | [bob-cli-2d.4](bob-cli-2d.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2d.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.4/README.md) | [bob-cli-2d.4](bob-cli-2d.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2d.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.5/README.md) | [bob-cli-2d.5](bob-cli-2d.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2d.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.6/README.md) | [bob-cli-2d.6](bob-cli-2d.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2d.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2d.7/README.md) | [bob-cli-2d.7](bob-cli-2d.7.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | bob-cli | [`55fdb18`](https://github.com/bobs-org/bob-cli/commit/55fdb18d199f6d7d04ce20f4b8e26209f1b130f6) | feat(gkeep): add command skeleton, CLI contract, config, and model | [bob-cli-2d.1](bob-cli-2d.1.md) | 2026-09-28 13:53:12 EDT |
 | bob-cli | [`72391b1`](https://github.com/bobs-org/bob-cli/commit/72391b15545ddba538fb05c7369bf820420e3825) | feat(gkeep): add literal renderer, vault ledger, and planner | [bob-cli-2d.3](bob-cli-2d.3.md) | 2026-09-28 14:17:06 EDT |
 | bob-cli | [`c742ab5`](https://github.com/bobs-org/bob-cli/commit/c742ab56764309af0a15736ed50fa5c8aee0d2c8) | feat(gkeep): add pinned gkeep adapter with native client and tests | [bob-cli-2d.2](bob-cli-2d.2.md) | 2026-09-28 14:18:48 EDT |
+| bob-cli | [`150b954`](https://github.com/bobs-org/bob-cli/commit/150b954251ddad1662945d98ba2e77ac4c993251) | feat(gkeep): add login and doctor subcommands with integration tests | [bob-cli-2d.4](bob-cli-2d.4.md) | 2026-09-28 14:36:45 EDT |
