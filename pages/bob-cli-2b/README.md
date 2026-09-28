@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2b.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.2/README.md) | [bob-cli-2b.2](bob-cli-2b.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.3/README.md) | [bob-cli-2b.3](bob-cli-2b.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2b.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2b.4/README.md) | [bob-cli-2b.4](bob-cli-2b.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2b.land.md) | [bob-cli-2b](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2b.land.md) | [bob-cli-2b](README.md) | 2 |
 
 ## Commits
 
@@ -65,3 +65,4 @@ flowchart TD
 | bob-cli | [`1e8484b`](https://github.com/bobs-org/bob-cli/commit/1e8484b8df228cc11041f9a3b9fc1a5b08392329) | feat(randomize): add bob randomize priority reshuffle command | [bob-cli-2b.3](bob-cli-2b.3.md) | 2026-09-28 11:56:10 EDT |
 | bob-cli | [`35c6ba4`](https://github.com/bobs-org/bob-cli/commit/35c6ba4a6c21cd684002342d11780a6abe92d189) | docs(randomize): add full contract guide and cross-links | [bob-cli-2b.4](bob-cli-2b.4.md) | 2026-09-28 12:05:56 EDT |
 | bob-cli | [`8487fe2`](https://github.com/bobs-org/bob-cli/commit/8487fe28dba27ad396b135a87c172b4b54a41a39) | fix(randomize): reject unrepresentable until offsets and priority rolls without wrapping | [bob-cli-2b](README.md) | 2026-09-28 12:30:42 EDT |
+| bob-cli--plans | [`bob-cli--plans@dfcd446`](https://github.com/bobs-org/bob-cli--plans/commit/dfcd4462d0324cc32b357bd771cf43c9c65844f6) | docs(plans): mark bob\_randomize epic and date-bounds land complete | [bob-cli-2b](README.md) | 2026-09-28 12:31:04 EDT |
