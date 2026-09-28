@@ -21,7 +21,7 @@ render: pure, golden-tested note→Markdown rendering with strict escaping. Add 
 
 - **Depends on:** [bob-cli-2d.1](bob-cli-2d.1.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [bob-cli-2d.5](bob-cli-2d.5.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2d.6](bob-cli-2d.6.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2d.6](bob-cli-2d.6.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

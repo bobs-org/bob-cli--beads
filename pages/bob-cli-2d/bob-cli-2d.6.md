@@ -21,7 +21,7 @@ pull: implement the guarded transaction: snapshot, vault lock, plan, compare-and
 
 - **Depends on:** [bob-cli-2d.2](bob-cli-2d.2.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [bob-cli-2d.3](bob-cli-2d.3.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2d.7](bob-cli-2d.7.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2d.7](bob-cli-2d.7.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
