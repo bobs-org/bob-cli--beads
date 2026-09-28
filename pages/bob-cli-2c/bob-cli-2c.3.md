@@ -20,7 +20,7 @@ editor_contract: teach capture-parse, completion, and rewrite the whole-item sta
 ## Dependencies
 
 - **Depends on:** [bob-cli-2c.2](bob-cli-2c.2.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2c.4](bob-cli-2c.4.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2c.4](bob-cli-2c.4.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

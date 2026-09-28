@@ -18,7 +18,7 @@ A whole capture item `=<X>` starts today's next future Pomodoro with the same `s
 | [bob-cli-2c.1](bob-cli-2c.1.md) | Parse and atomically apply whole-item Pomodoro starts | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2c.2](bob-cli-2c.2.md) | Report the started session's queued Task Links | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2c.3](bob-cli-2c.3.md) | Expose and document the Pomodoro start editor contract | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [bob-cli-2c.4](bob-cli-2c.4.md) | Preview and submit Pomodoro starts in Bob Mac Capture | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [bob-cli-2c.4](bob-cli-2c.4.md) | Preview and submit Pomodoro starts in Bob Mac Capture | ✓ closed | medium | 2026-09-28 | 1 | 0 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["bob-cli-2c.1: Parse and atomically apply whole-item Pomodoro starts [closed]"]
     n2["bob-cli-2c.2: Report the started session's queued Task Links [closed]"]
     n3["bob-cli-2c.3: Expose and document the Pomodoro start editor contract [closed]"]
-    n4["bob-cli-2c.4: Preview and submit Pomodoro starts in Bob Mac Capture [in_progress]"]
+    n4["bob-cli-2c.4: Preview and submit Pomodoro starts in Bob Mac Capture [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
