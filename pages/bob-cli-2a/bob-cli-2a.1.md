@@ -19,7 +19,7 @@ shift_core: add the unified whole-item session-operator lexer (one sign resizes,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2a.2](bob-cli-2a.2.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2a.2](bob-cli-2a.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

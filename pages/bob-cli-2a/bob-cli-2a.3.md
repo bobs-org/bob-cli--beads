@@ -13,7 +13,7 @@ mac_shift: decode the shift spec/summary tolerantly, add a pure shift presentati
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2a.2](bob-cli-2a.2.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2a.2](bob-cli-2a.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

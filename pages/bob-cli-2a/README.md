@@ -16,7 +16,7 @@ A whole capture item `++[N]` / `--[N]` moves today's running Pomodoro N five-min
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2a.1](bob-cli-2a.1.md) | Parse and atomically apply Pomodoro session shifts | ✓ closed | medium | 2026-09-28 | 1 | 1 |
-| [bob-cli-2a.2](bob-cli-2a.2.md) | Expose and document the session-operator contract | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
+| [bob-cli-2a.2](bob-cli-2a.2.md) | Expose and document the session-operator contract | ✓ closed | medium | 2026-09-28 | 1 | 1 |
 | [bob-cli-2a.3](bob-cli-2a.3.md) | Preview and submit session shifts in Bob Mac Capture | ◐ in_progress | medium | 2026-09-28 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ A whole capture item `++[N]` / `--[N]` moves today's running Pomodoro N five-min
 flowchart TD
     n0["bob-cli-2a: Shift the running Pomodoro from capture with ++N and --N [in_progress]"]
     n1["bob-cli-2a.1: Parse and atomically apply Pomodoro session shifts [closed]"]
-    n2["bob-cli-2a.2: Expose and document the session-operator contract [in_progress]"]
+    n2["bob-cli-2a.2: Expose and document the session-operator contract [closed]"]
     n3["bob-cli-2a.3: Preview and submit session shifts in Bob Mac Capture [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-2a.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.1/README.md) | [bob-cli-2a.1](bob-cli-2a.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2a.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.2/README.md) | [bob-cli-2a.2](bob-cli-2a.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2a.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.2/README.md) | [bob-cli-2a.2](bob-cli-2a.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2a.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.3/README.md) | [bob-cli-2a.3](bob-cli-2a.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2a.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.land/README.md) | [bob-cli-2a](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fe2c0b8`](https://github.com/bobs-org/bob-cli/commit/fe2c0b81d29eb38ef92d8a3824980ae65738733b) | feat(capture): add pomodoro shift operator with staged planner | [bob-cli-2a.1](bob-cli-2a.1.md) | 2026-09-28 11:00:22 EDT |
+| bob-cli | [`0dfbc55`](https://github.com/bobs-org/bob-cli/commit/0dfbc55dad5a21faeb988e6d180fa007d312ddea) | feat(capture): expose and document the Pomodoro shift editor contract | [bob-cli-2a.2](bob-cli-2a.2.md) | 2026-09-28 11:19:35 EDT |
