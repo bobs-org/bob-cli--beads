@@ -59,7 +59,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2a.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.1/README.md) | [bob-cli-2a.1](bob-cli-2a.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2a.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.2/README.md) | [bob-cli-2a.2](bob-cli-2a.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2a.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2a.3/README.md) | [bob-cli-2a.3](bob-cli-2a.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2a.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2a.land.md) | [bob-cli-2a](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2a.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2a.land.md) | [bob-cli-2a](README.md) | 2 |
 
 ## Commits
 
@@ -68,3 +68,4 @@ flowchart TD
 | bob-cli | [`fe2c0b8`](https://github.com/bobs-org/bob-cli/commit/fe2c0b81d29eb38ef92d8a3824980ae65738733b) | feat(capture): add pomodoro shift operator with staged planner | [bob-cli-2a.1](bob-cli-2a.1.md) | 2026-09-28 11:00:22 EDT |
 | bob-cli | [`0dfbc55`](https://github.com/bobs-org/bob-cli/commit/0dfbc55dad5a21faeb988e6d180fa007d312ddea) | feat(capture): expose and document the Pomodoro shift editor contract | [bob-cli-2a.2](bob-cli-2a.2.md) | 2026-09-28 11:19:35 EDT |
 | bob-cli | [`b10b45e`](https://github.com/bobs-org/bob-cli/commit/b10b45ec8eb91e66d2d121d7a10f688bc6fb0954) | docs(capture): fix shift example bare -- to --1 | [bob-cli-2a](README.md) | 2026-09-28 12:03:36 EDT |
+| bob-cli--plans | [`bob-cli--plans@3b797f1`](https://github.com/bobs-org/bob-cli--plans/commit/3b797f1128943a2901f15e81d90db541f4abd6c8) | chore(plans): mark pomodoro\_shift\_operators done | [bob-cli-2a](README.md) | 2026-09-28 12:04:02 EDT |
