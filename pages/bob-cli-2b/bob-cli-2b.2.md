@@ -19,7 +19,7 @@ plumbing: add a bounded lock wait and a scoped path commit helper to ob.rs, a st
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2b.3](bob-cli-2b.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2b.3](bob-cli-2b.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

@@ -13,7 +13,7 @@ docs: write docs/randomize.md as the full contract, add README index, section, w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2b.3](bob-cli-2b.3.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2b.3](bob-cli-2b.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

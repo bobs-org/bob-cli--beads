@@ -19,7 +19,7 @@ planner: lift inline-field parsing into a shared task_fields module; add priorit
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2b.3](bob-cli-2b.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2b.3](bob-cli-2b.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
