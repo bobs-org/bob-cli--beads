@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-29
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.2i](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.2i.md) · **Assignee:** `bob-cli-29.land`
-**Created:** 2026-09-28 06:24:49 EDT
+**Created:** 2026-09-28 06:24:49 EDT · **Closed:** 2026-09-28 10:19:40 EDT
 **Plan:** [202609/capture\_pomodoro\_close.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/capture_pomodoro_close.md)
 
 ## Description
@@ -34,6 +34,8 @@ A capture item `=x` closes today's running Pomodoro exactly the way Obsidian's P
   - bob-cli-29.5 PROPOSED FOLLOW-UP 'run format-lint/build/test on macOS CI': caused by this epic, so it is absorbed into the child plan's mac phase rather than filed as a task.
 - sase bead epic-symbols bob-cli-29: none.
 
+[2026-09-28T14:19:40Z · bob-cli-29.6.land] Rechecked prior land audit, all five phase scopes/notes, child epic bob-cli-29.6 and both child phase notes, and both linked plans. Child 29.6 closed every remaining contract, test, docs, clippy-on-epic-lines, and Mac presentation/CI gap from the prior audit. bob-cli commits 6b22585/25b2bf1/1f640e1/24ba977/ec31329 and Mac commits 4351e1c/aa4e156/67e1498 match source and tests; no later unrelated commits need integration. cargo fmt --check and cargo test --quiet pass (967+498+27+31+1); macOS CI 36433589389 succeeded on 67e1498. The sole clippy error is the preexisting bob-cli-28 || true assertion, already triaged on bob-cli-28; older warnings are outside this epic. Parent proposals were resolved in prior land note: bob-cli-29.1/.2/.3 clippy report attached to bob-cli-28, and bob-cli-29.5 Mac CI request completed by child 29.6.2, so no new task is warranted. Descendants are all closed, both plan files validate with zero warnings, and epic-symbols has no entries. Global plan-link validation only reports older 202607 prompt archive errors, unrelated to these plans; just check and just symvision recipes are absent.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,15 +50,15 @@ A capture item `=x` closes today's running Pomodoro exactly the way Obsidian's P
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-29: Close the running Pomodoro with =x in bob capture and Bob Mac Capture [in_progress]"]
+    n0["bob-cli-29: Close the running Pomodoro with =x in bob capture and Bob Mac Capture [closed]"]
     n1["bob-cli-29.1: Pomodoro close engine, daily-note half [closed]"]
     n2["bob-cli-29.2: Pomodoro close engine, linked-task effects and Work Log [closed]"]
     n3["bob-cli-29.3: =x grammar, atomic capture transaction, and outputs [closed]"]
     n4["bob-cli-29.4: Editor contract, help, and docs for =x [closed]"]
     n5["bob-cli-29.5: Bob Mac Capture close preview, footer, and notifications [closed]"]
-    n6["bob-cli-29.6: Finish the =x Pomodoro close contract in bob-cli and Bob Mac Capture [in_progress]"]
+    n6["bob-cli-29.6: Finish the =x Pomodoro close contract in bob-cli and Bob Mac Capture [closed]"]
     n7["bob-cli-29.6.1: bob-cli close contract fixes, clippy cleanup, docs, and required tests [closed]"]
-    n8["bob-cli-29.6.2: Bob Mac Capture close preview to spec, real-bob fixtures, and green macOS CI [in_progress]"]
+    n8["bob-cli-29.6.2: Bob Mac Capture close preview to spec, real-bob fixtures, and green macOS CI [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -83,7 +85,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-29.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-29.5/README.md) | [bob-cli-29.5](bob-cli-29.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-29.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-29.6.1/README.md) | [bob-cli-29.6.1](bob-cli-29.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-29.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-29.6.2/README.md) | [bob-cli-29.6.2](bob-cli-29.6.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-29.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-29.6.land/README.md) | [bob-cli-29.6](bob-cli-29.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-29.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-29.6.land/README.md) | [bob-cli-29.6](bob-cli-29.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-29.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-29.land.md) | [bob-cli-29](README.md) | 0 |
 
 ## Commits
@@ -95,3 +97,4 @@ flowchart TD
 | bob-cli | [`1f640e1`](https://github.com/bobs-org/bob-cli/commit/1f640e13f2e6cef55f06b641f2aebe92bc2412ae) | feat(capture): close running Pomodoro with =x grammar and atomic transaction | [bob-cli-29.3](bob-cli-29.3.md) | 2026-09-28 08:09:11 EDT |
 | bob-cli | [`24ba977`](https://github.com/bobs-org/bob-cli/commit/24ba977d2d1198019e2af3543e6375ae2357cba2) | feat(capture): expose and document Pomodoro close editor contract | [bob-cli-29.4](bob-cli-29.4.md) | 2026-09-28 08:30:54 EDT |
 | bob-cli | [`ec31329`](https://github.com/bobs-org/bob-cli/commit/ec3132963f89f15aef1344f3bbef954793325c06) | fix(capture): close-contract fixes for =x Pomodoro close, clippy cleanup, docs, and required tests | [bob-cli-29.6.1](bob-cli-29.6.1.md) | 2026-09-28 09:40:15 EDT |
+| bob-cli--plans | [`bob-cli--plans@d5f9dd0`](https://github.com/bobs-org/bob-cli--plans/commit/d5f9dd094181919e279f40589d147d1c36163b52) | docs(plan): mark Pomodoro close epics done | [bob-cli-29.6](bob-cli-29.6.md) | 2026-09-28 10:20:42 EDT |

@@ -17,7 +17,7 @@ close-contract-fixes: in bob-cli, fix five things. (1) A relative `-b` path doub
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-29.6.2](bob-cli-29.6.2.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-29.6.2](bob-cli-29.6.2.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
