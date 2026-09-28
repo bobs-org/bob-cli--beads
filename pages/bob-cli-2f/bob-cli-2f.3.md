@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-2f](README.md) / bob-cli-2f.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.2u](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.2u.md) · **Assignee:** `bob-cli-2f.3` · **Size:** large
-**Created:** 2026-09-28 16:49:29 EDT
+**Created:** 2026-09-28 16:49:29 EDT · **Closed:** 2026-09-28 18:05:03 EDT
 **Plan:** [202609/split\_largest\_rust\_files.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/split_largest_rust_files.md)
 
 ## Description
@@ -15,10 +15,12 @@ split-capture-language: split the pure capture grammar into model, draft/item pa
 
 [2026-09-28T22:03:15Z · bob-cli-2f.3] @/tmp/bead_note.txt -r Record verification for split_capture_language implementation
 
+[2026-09-28T22:05:03Z · bob-cli-2f.3] Closed by explicit `sase stitch create -B close` after create_commit landed e73900e ("refactor(capture): split capture_language grammar into focused modules"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-2f.3` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-2f.2](bob-cli-2f.2.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2f.4](bob-cli-2f.4.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2f.4](bob-cli-2f.4.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

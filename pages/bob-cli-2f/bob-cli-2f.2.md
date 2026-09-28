@@ -18,7 +18,7 @@ split-capture: turn the capture executor into a directory module (CLI, planning,
 ## Dependencies
 
 - **Depends on:** [bob-cli-2f.1](bob-cli-2f.1.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2f.3](bob-cli-2f.3.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2f.3](bob-cli-2f.3.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
