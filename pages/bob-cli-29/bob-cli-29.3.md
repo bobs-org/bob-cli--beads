@@ -21,7 +21,7 @@ close-capture: recognize whole-item `=x` and the `=x` suffix on solo `@`/`^` lin
 
 - **Depends on:** [bob-cli-29.2](bob-cli-29.2.md) ✓ · ⧖ 2026-09-28
 - **Blocks:** [bob-cli-29.4](bob-cli-29.4.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-29.5](bob-cli-29.5.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-29.5](bob-cli-29.5.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

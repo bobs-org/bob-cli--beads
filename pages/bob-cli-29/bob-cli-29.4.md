@@ -23,10 +23,4 @@ close-editor-contract: add the capture-parse `pomodoro_close` mode, span, spec, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-29.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-29.4/README.md) | [bob-cli-29.4](bob-cli-29.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`24ba977`](https://github.com/bobs-org/bob-cli/commit/24ba977d2d1198019e2af3543e6375ae2357cba2) | feat(capture): expose and document Pomodoro close editor contract | [bob-cli-29.4](bob-cli-29.4.md) | 2026-09-28 08:30:54 EDT |
+| [bbugyi200.apollo.bob-cli-29.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-29.4/README.md) | [bob-cli-29.4](bob-cli-29.4.md) | 0 |
