@@ -23,7 +23,7 @@ plan-core: add the `plan:` config block, a pure ledger budget and lint engine, a
 - **Blocks:** [bob-cli-2o.3](bob-cli-2o.3.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.4](bob-cli-2o.4.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.5](bob-cli-2o.5.md) ◐ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2o.7](bob-cli-2o.7.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.7](bob-cli-2o.7.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

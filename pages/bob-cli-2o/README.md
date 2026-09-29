@@ -25,7 +25,7 @@ Today's Pomodoro plan is a visible, capped, closed list (GTD + 3 themes, about 1
 | [bob-cli-2o.4](bob-cli-2o.4.md) | bob-cli: capture plan-budget warnings, strict mode, and implicit destination | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.5](bob-cli-2o.5.md) | bob-cli: \`~\<K\>\` drop outcome for \`=x\` closes | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.6](bob-cli-2o.6.md) | bob-cli: first-class \`#now\` in capture | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
-| [bob-cli-2o.7](bob-cli-2o.7.md) | bob-plugins: Bob Ledger Tools plan view, \`bob-plan\` block, and public API | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [bob-cli-2o.7](bob-cli-2o.7.md) | bob-plugins: Bob Ledger Tools plan view, \`bob-plan\` block, and public API | ✓ closed | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.8](bob-cli-2o.8.md) | bob-plugins: Ctrl+Shift+P edits the task behind a Task Link | ✓ closed | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.9](bob-cli-2o.9.md) | bob-plugins: toggle #now from task lines and Task Links | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n8["bob-cli-2o.4: bob-cli: capture plan-budget warnings, strict mode, and implicit destination [in_progress]"]
     n9["bob-cli-2o.5: bob-cli: `~&lt;K&gt;` drop outcome for `=x` closes [in_progress]"]
     n10["bob-cli-2o.6: bob-cli: first-class `#now` in capture [in_progress]"]
-    n11["bob-cli-2o.7: bob-plugins: Bob Ledger Tools plan view, `bob-plan` block, and public API [in_progress]"]
+    n11["bob-cli-2o.7: bob-plugins: Bob Ledger Tools plan view, `bob-plan` block, and public API [closed]"]
     n12["bob-cli-2o.8: bob-plugins: Ctrl+Shift+P edits the task behind a Task Link [closed]"]
     n13["bob-cli-2o.9: bob-plugins: toggle #now from task lines and Task Links [in_progress]"]
     n0 --> n1

@@ -14,7 +14,7 @@ now-toggle: add a counted "Toggle #now" command (default Alt+N) and a `#now` row
 ## Dependencies
 
 - **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2o.7](bob-cli-2o.7.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.7](bob-cli-2o.7.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.8](bob-cli-2o.8.md) ✓ · ⧖ 2026-09-29
 
 ## Agents

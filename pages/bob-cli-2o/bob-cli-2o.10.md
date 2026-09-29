@@ -14,7 +14,7 @@ link-notice-budget: append `plan T/3 · L/10`, marked 🔴 when over, to block-i
 ## Dependencies
 
 - **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2o.7](bob-cli-2o.7.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.7](bob-cli-2o.7.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
