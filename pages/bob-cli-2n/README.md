@@ -19,7 +19,7 @@ A project-note capture (`@route^id+` or `@route^id+#pomodoro`) can name any of i
 | [bob-cli-2n.2](bob-cli-2n.2.md) | Project task IDs in the capture grammar and capture-parse | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [bob-cli-2n.3](bob-cli-2n.3.md) | Render named project tasks and write their Task Links | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [bob-cli-2n.4](bob-cli-2n.4.md) | Block-ID completion for project task IDs | ✓ closed | small | 2026-09-29 | 1 | 1 |
-| [bob-cli-2n.5](bob-cli-2n.5.md) | Capture docs for named and linked project tasks | ✓ closed | small | 2026-09-29 | 1 | 1 |
+| [bob-cli-2n.5](bob-cli-2n.5.md) | Capture docs for named and linked project tasks | ✓ closed | small | 2026-09-29 | 1 | 0 |
 | [bob-cli-2n.6](bob-cli-2n.6.md) | Bob Mac Capture support for project task links | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 
 ## Lineage
@@ -56,7 +56,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.2/README.md) | [bob-cli-2n.2](bob-cli-2n.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.3/README.md) | [bob-cli-2n.3](bob-cli-2n.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.4/README.md) | [bob-cli-2n.4](bob-cli-2n.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.5/README.md) | [bob-cli-2n.5](bob-cli-2n.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.5/README.md) | [bob-cli-2n.5](bob-cli-2n.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.6/README.md) | [bob-cli-2n.6](bob-cli-2n.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.land/README.md) | [bob-cli-2n](README.md) | 0 |
 
@@ -68,4 +68,3 @@ flowchart TD
 | bob-cli | [`e9c4dae`](https://github.com/bobs-org/bob-cli/commit/e9c4dae3274e09a8af0ec01762d2b35d9afd862e) | feat(capture): add project task-id grammar pass with shared lexer and editor spans | [bob-cli-2n.2](bob-cli-2n.2.md) | 2026-09-29 16:59:30 EDT |
 | bob-cli | [`5f6c761`](https://github.com/bobs-org/bob-cli/commit/5f6c761208a36eea54c6327185e3f419ea105a71) | feat(capture): render named project tasks and write their Task Links | [bob-cli-2n.3](bob-cli-2n.3.md) | 2026-09-29 17:13:21 EDT |
 | bob-cli | [`301e809`](https://github.com/bobs-org/bob-cli/commit/301e809053278768e46263d03f127b930acc4e41) | feat(capture): add project\_task\_block\_id capture-complete context | [bob-cli-2n.4](bob-cli-2n.4.md) | 2026-09-29 17:16:19 EDT |
-| bob-cli | [`42cd336`](https://github.com/bobs-org/bob-cli/commit/42cd3362d7b7cb0472df40a6267009b93add3b5a) | docs(capture): document named and linked project tasks | [bob-cli-2n.5](bob-cli-2n.5.md) | 2026-09-29 17:25:41 EDT |
