@@ -13,7 +13,7 @@ docs: rewrite the capture guide's grammar tables, Project notes section, JSON co
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2n.3](bob-cli-2n.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2n.3](bob-cli-2n.3.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2n.4](bob-cli-2n.4.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
