@@ -17,7 +17,7 @@ Typing `@route:` or `@route^` anywhere those markers are valid opens the same la
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2h.1](bob-cli-2h.1.md) | bob-cli: block-ID completion contract (intent, used IDs, suggestions, \`task\_block\_id\`) | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [bob-cli-2h.2](bob-cli-2h.2.md) | Mac: generalize the Active Task Picker into a source-agnostic capture picker | ✓ closed | medium | 2026-09-29 | 1 | 0 |
-| [bob-cli-2h.3](bob-cli-2h.3.md) | Mac CaptureCore: decode the block-ID contract and build the Block ID Picker engine | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [bob-cli-2h.3](bob-cli-2h.3.md) | Mac CaptureCore: decode the block-ID contract and build the Block ID Picker engine | ✓ closed | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2h.4](bob-cli-2h.4.md) | Mac app: Block ID Picker flow, type-through, quiet states, and routing | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2h.5](bob-cli-2h.5.md) | Mac app: Block ID Picker visuals, sizing, accessibility, docs, and macOS verification | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["bob-cli-2h: Block ID Picker for `@file:` and `@file^` in Bob Mac Capture [in_progress]"]
     n1["bob-cli-2h.1: bob-cli: block-ID completion contract (intent, used IDs, suggestions, `task_block_id`) [closed]"]
     n2["bob-cli-2h.2: Mac: generalize the Active Task Picker into a source-agnostic capture picker [closed]"]
-    n3["bob-cli-2h.3: Mac CaptureCore: decode the block-ID contract and build the Block ID Picker engine [in_progress]"]
+    n3["bob-cli-2h.3: Mac CaptureCore: decode the block-ID contract and build the Block ID Picker engine [closed]"]
     n4["bob-cli-2h.4: Mac app: Block ID Picker flow, type-through, quiet states, and routing [in_progress]"]
     n5["bob-cli-2h.5: Mac app: Block ID Picker visuals, sizing, accessibility, docs, and macOS verification [in_progress]"]
     n0 --> n1

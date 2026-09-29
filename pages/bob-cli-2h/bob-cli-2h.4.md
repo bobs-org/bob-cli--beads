@@ -13,7 +13,7 @@ block-id-flow: route `pomodoro_block_id`/`task_block_id` completions into the ge
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2h.3](bob-cli-2h.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2h.3](bob-cli-2h.3.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2h.5](bob-cli-2h.5.md) ◐ · ⧖ 2026-09-29
 
 ## Agents

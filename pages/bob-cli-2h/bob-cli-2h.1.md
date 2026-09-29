@@ -19,7 +19,7 @@ bob-contract: extend `bob capture-complete` with the `task_block_id` context, th
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2h.3](bob-cli-2h.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2h.3](bob-cli-2h.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
