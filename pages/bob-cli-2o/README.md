@@ -15,7 +15,7 @@ Today's Pomodoro plan is a visible, capped, closed list (GTD + 3 themes, about 1
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-2o.1](bob-cli-2o.1.md) | bob-cli: shared plan-budget core, config block, and \`bob plan\` | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [bob-cli-2o.1](bob-cli-2o.1.md) | bob-cli: shared plan-budget core, config block, and \`bob plan\` | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [bob-cli-2o.10](bob-cli-2o.10.md) | bob-plugins: plan budget in the Ctrl+Shift+Enter Notice | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.11](bob-cli-2o.11.md) | Bob Mac Capture: plan budget meter, destination row, and create-row cap badge | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.12](bob-cli-2o.12.md) | Bob Mac Capture: drop outcome, \`#now\` token, and NOW badges | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
@@ -34,7 +34,7 @@ Today's Pomodoro plan is a visible, capped, closed list (GTD + 3 themes, about 1
 ```mermaid
 flowchart TD
     n0["bob-cli-2o: Close the day, tag the week: plan budget, #now, and ledger guardrails [in_progress]"]
-    n1["bob-cli-2o.1: bob-cli: shared plan-budget core, config block, and `bob plan` [in_progress]"]
+    n1["bob-cli-2o.1: bob-cli: shared plan-budget core, config block, and `bob plan` [closed]"]
     n2["bob-cli-2o.10: bob-plugins: plan budget in the Ctrl+Shift+Enter Notice [in_progress]"]
     n3["bob-cli-2o.11: Bob Mac Capture: plan budget meter, destination row, and create-row cap badge [in_progress]"]
     n4["bob-cli-2o.12: Bob Mac Capture: drop outcome, `#now` token, and NOW badges [in_progress]"]
@@ -87,7 +87,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.1/README.md) | [bob-cli-2o.1](bob-cli-2o.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.1/README.md) | [bob-cli-2o.1](bob-cli-2o.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.10/README.md) | [bob-cli-2o.10](bob-cli-2o.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.11/README.md) | [bob-cli-2o.11](bob-cli-2o.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.12/README.md) | [bob-cli-2o.12](bob-cli-2o.12.md) | 0 |
@@ -101,3 +101,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2o.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.8/README.md) | [bob-cli-2o.8](bob-cli-2o.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.9/README.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.land/README.md) | [bob-cli-2o](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`db89ee8`](https://github.com/bobs-org/bob-cli/commit/db89ee8af0ea3f9830fe2d2b9511f76983daeca4) | feat(plan): add plan config, budget engine, and read-only bob plan command | [bob-cli-2o.1](bob-cli-2o.1.md) | 2026-09-29 18:44:26 EDT |

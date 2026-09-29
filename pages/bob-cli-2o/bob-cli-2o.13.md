@@ -13,7 +13,7 @@ rollout: switch the dash NOW chip to the API and add the PLAN chip; add the `bob
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.10](bob-cli-2o.10.md) ◐ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.12](bob-cli-2o.12.md) ◐ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.2](bob-cli-2o.2.md) ✓ · ⧖ 2026-09-29

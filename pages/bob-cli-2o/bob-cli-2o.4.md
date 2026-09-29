@@ -13,7 +13,7 @@ capture-budget: `bob capture` reports before/after `plan_budget` when a batch ch
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.11](bob-cli-2o.11.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.5](bob-cli-2o.5.md) ◐ · ⧖ 2026-09-29
 

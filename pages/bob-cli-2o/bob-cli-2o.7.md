@@ -13,7 +13,7 @@ ledger-plan-view: mirror the plan-budget definition in bob-ledger-tools; render 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.10](bob-cli-2o.10.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.9](bob-cli-2o.9.md) ◐ · ⧖ 2026-09-29
