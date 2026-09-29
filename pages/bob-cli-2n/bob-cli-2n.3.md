@@ -21,7 +21,7 @@ task-id-execution: render `^id` onto named tasks (`[*]` for `:` tasks), write on
 
 - **Depends on:** [bob-cli-2n.2](bob-cli-2n.2.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2n.5](bob-cli-2n.5.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2n.6](bob-cli-2n.6.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2n.6](bob-cli-2n.6.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
