@@ -20,7 +20,7 @@ task-id-completion: add the `project_task_block_id` capture-complete context wit
 ## Dependencies
 
 - **Depends on:** [bob-cli-2n.2](bob-cli-2n.2.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2n.5](bob-cli-2n.5.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2n.5](bob-cli-2n.5.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2n.6](bob-cli-2n.6.md) ◐ · ⧖ 2026-09-29
 
 ## Agents
