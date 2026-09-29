@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2f.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.7.md) | [bob-cli-2f.7](bob-cli-2f.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2f.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.8.md) | [bob-cli-2f.8](bob-cli-2f.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2f.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.9.md) | [bob-cli-2f.9](bob-cli-2f.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.land/README.md) | [bob-cli-2f](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.land/README.md) | [bob-cli-2f](README.md) | 2 |
 
 ## Commits
 
@@ -97,3 +97,4 @@ flowchart TD
 | bob-cli | [`410973b`](https://github.com/bobs-org/bob-cli/commit/410973bfb7449f2c01d3bcefd60927c4a42a4964) | feat(task-status): split task\_status\_groups.rs into four modules | [bob-cli-2f.9](bob-cli-2f.9.md) | 2026-09-28 20:48:37 EDT |
 | bob-cli | [`f8b03c2`](https://github.com/bobs-org/bob-cli/commit/f8b03c2bc696c6020a1d246cd29d555e54c6fa1b) | refactor(native): split capture\_pomodoro\_close into directory module | [bob-cli-2f.10](bob-cli-2f.10.md) | 2026-09-28 21:17:06 EDT |
 | bob-cli | [`6260300`](https://github.com/bobs-org/bob-cli/commit/626030001814e5b4f1cb6ea7e0cdc532c9446068) | fix(capture-pomodoro-close): narrow parent re-exports to used paths | [bob-cli-2f](README.md) | 2026-09-28 21:26:20 EDT |
+| bob-cli--plans | [`bob-cli--plans@33c191a`](https://github.com/bobs-org/bob-cli--plans/commit/33c191ad789280d4eeab90c6d93bd481a01eb619) | chore(plans): mark split\_largest\_rust\_files plan done after bob-cli-2f landing | [bob-cli-2f](README.md) | 2026-09-28 21:26:45 EDT |
