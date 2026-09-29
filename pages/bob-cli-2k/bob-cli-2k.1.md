@@ -24,7 +24,7 @@ by unit tests on the worked example.
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2k.3](bob-cli-2k.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2k.3](bob-cli-2k.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

@@ -19,7 +19,7 @@ macOS CI green.
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2k.3](bob-cli-2k.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2k.3](bob-cli-2k.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

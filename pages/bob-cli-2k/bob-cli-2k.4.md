@@ -16,7 +16,7 @@ the capture-parse, capture, and capture-complete contracts), and `README.md`.
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2k.3](bob-cli-2k.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2k.3](bob-cli-2k.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
