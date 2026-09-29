@@ -19,7 +19,7 @@ block-id-core: decode the `block_id` object and `task_block_id` context, add Bob
 
 - **Depends on:** [bob-cli-2h.1](bob-cli-2h.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2h.2](bob-cli-2h.2.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2h.4](bob-cli-2h.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2h.4](bob-cli-2h.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

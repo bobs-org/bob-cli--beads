@@ -13,7 +13,7 @@ block-id-design: finish the link and new-ID visuals (scope token, availability b
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2h.4](bob-cli-2h.4.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2h.4](bob-cli-2h.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
