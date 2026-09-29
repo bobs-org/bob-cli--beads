@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / bob-cli-2f
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.2u](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.2u.md) · **Assignee:** `bob-cli-2f.land`
-**Created:** 2026-09-28 16:49:29 EDT
+**Created:** 2026-09-28 16:49:29 EDT · **Closed:** 2026-09-28 21:25:13 EDT
 **Plan:** [202609/split\_largest\_rust\_files.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/split_largest_rust_files.md)
 
 ## Description
 
 Each of the ten largest Rust source files in bob-cli is split into cohesive modules in which every resulting file has at most 1500 lines. Behavior does not change, the test count stays the same, and `just all` stays green after every phase.
+
+## Notes
+
+[2026-09-29T01:25:13Z · bob-cli-2f.land] LAND VERIFICATION (bob-cli-2f.land). Step 1: read all 10 closed phase beads and their notes, and reviewed epic commits 7d1c8dd, e73e2e9, e73900e, 836e0a8, 2307179, a89dff8, 0abb2bd, 65a3917, 410973b and f8b03c2. None of the ten targets remains as one file: tests/cli.rs became tests/cli/ (53 files, max 1173); capture/ max 1269; capture_language/ max 1336; highlights_ref/ max 1369 (the untouched create.rs); dataview.rs root is 131 lines and every file the split added under dataview/ is <=1500 (the pre-existing dataview/tasks/parse.rs at 2043 is outside scope); task_status_hooks/ max 931; projects/ max 766; collect_done/ max 932; task_status_groups/ max 955; capture_pomodoro_close/ max 972. Tests preserved: the sorted #[test] fn-name list is byte-identical between pre-epic base c603111 and HEAD (1794 tests), assert!/assert_eq!/assert_ne!/assert_matches! counts are identical (9096), and include_str! counts are identical (13). No stale old-file references remain in src/tests/docs. Phase 3's verification note #1 was lost to a literal '@/tmp/bead_note.txt' argument, so I re-verified that phase by hand: module docs name capture/, 22 files, all <=1500. Epic-caused defect fixed while landing: bob-cli-2f.10 re-exported every pub(crate) item from capture_pomodoro_close/mod.rs, which left 3 new unused_imports warnings (10 names). Those broke the plan's no-new-warnings rule, so I narrowed the re-exports to the 16 names callers actually use; tests import through submodule paths. Clippy now matches base c603111 exactly (17 lib warnings, 1 pre-existing cli deny), cargo build emits 0 warnings, cargo fmt --check passes, cargo test passes 1794/1794 (1139 lib + 515 cli + the rest), and cargo package --list includes all 53 tests/cli files. Step 2 (integration): no non-epic commits have landed since the epic started (c603111 predates epic creation and only touched gkeep), and origin/master == HEAD, so nothing needed integrating. The one conflict is that bob-cli-28's never-committed closeout plan cites tests/cli.rs, which this epic removed; I recorded the new path on bob-cli-28. Step 3 (follow-ups): (a) the '|| true' overly_complex_bool_expr deny at tests/cli/capture/pomodoro_name.rs:808 (proposed by .1/.4/.5/.6/.7/.8/.9/.10) predates the epic (22abed4, bob-cli-28.1) and is causally owned by active epic bob-cli-28, so I added a DISCOVERED ISSUE note there and filed no task. (b) The 17 pre-existing clippy warnings (proposed by .6/.7) duplicate bob-cli-v, so I added a +1 with the post-split locations. (c) The capture_pomodoro_close unused re-exports (proposed by .10) were caused by the epic and are fixed in this landing, so no task was filed. The epic has no --epic-symbol entries, and this repo has no just check or just symvision recipe.
 
 ## Phases
 
@@ -30,7 +34,7 @@ Each of the ten largest Rust source files in bob-cli is split into cohesive modu
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-2f: Split the ten largest Rust files into modules of at most 1500 lines [in_progress]"]
+    n0["bob-cli-2f: Split the ten largest Rust files into modules of at most 1500 lines [closed]"]
     n1["bob-cli-2f.1: Split tests/cli.rs [closed]"]
     n2["bob-cli-2f.10: Split src/native/capture_pomodoro_close.rs [closed]"]
     n3["bob-cli-2f.2: Split src/native/capture.rs [closed]"]
@@ -76,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2f.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.7.md) | [bob-cli-2f.7](bob-cli-2f.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2f.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.8.md) | [bob-cli-2f.8](bob-cli-2f.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2f.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2f.9.md) | [bob-cli-2f.9](bob-cli-2f.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.land/README.md) | [bob-cli-2f](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2f.land/README.md) | [bob-cli-2f](README.md) | 1 |
 
 ## Commits
 
@@ -92,3 +96,4 @@ flowchart TD
 | bob-cli | [`65a3917`](https://github.com/bobs-org/bob-cli/commit/65a39179b278f4eee9d6cd8b0e44432e52dfbf13) | feat(collect-done): split collect\_done.rs into directory module | [bob-cli-2f.8](bob-cli-2f.8.md) | 2026-09-28 20:19:28 EDT |
 | bob-cli | [`410973b`](https://github.com/bobs-org/bob-cli/commit/410973bfb7449f2c01d3bcefd60927c4a42a4964) | feat(task-status): split task\_status\_groups.rs into four modules | [bob-cli-2f.9](bob-cli-2f.9.md) | 2026-09-28 20:48:37 EDT |
 | bob-cli | [`f8b03c2`](https://github.com/bobs-org/bob-cli/commit/f8b03c2bc696c6020a1d246cd29d555e54c6fa1b) | refactor(native): split capture\_pomodoro\_close into directory module | [bob-cli-2f.10](bob-cli-2f.10.md) | 2026-09-28 21:17:06 EDT |
+| bob-cli | [`6260300`](https://github.com/bobs-org/bob-cli/commit/626030001814e5b4f1cb6ea7e0cdc532c9446068) | fix(capture-pomodoro-close): narrow parent re-exports to used paths | [bob-cli-2f](README.md) | 2026-09-28 21:26:20 EDT |
