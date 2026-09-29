@@ -17,7 +17,7 @@ link-picker: on a dedicated Task Link bullet, the bullet-property picker targets
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2o.9](bob-cli-2o.9.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.9](bob-cli-2o.9.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

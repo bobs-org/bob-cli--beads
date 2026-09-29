@@ -27,10 +27,4 @@ capture-budget: `bob capture` reports before/after `plan_budget` when a batch ch
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.4/README.md) | [bob-cli-2o.4](bob-cli-2o.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`35b96b3`](https://github.com/bobs-org/bob-cli/commit/35b96b3d734e1d21b42905312233e54afbcfc482) | feat(capture): plan-budget warnings, strict mode, and destination roles | [bob-cli-2o.4](bob-cli-2o.4.md) | 2026-09-29 19:33:21 EDT |
+| [bbugyi200.apollo.bob-cli-2o.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.4/README.md) | [bob-cli-2o.4](bob-cli-2o.4.md) | 0 |
