@@ -19,7 +19,7 @@ split-task-status-groups: apply a light three-to-five-file split to the task sta
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2f.10](bob-cli-2f.10.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2f.10](bob-cli-2f.10.md) ✓ · ⧖ 2026-09-28
 - **Depends on:** [bob-cli-2f.8](bob-cli-2f.8.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
