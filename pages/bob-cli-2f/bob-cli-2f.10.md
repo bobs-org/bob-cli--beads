@@ -13,7 +13,7 @@ split-capture-pomodoro-close: separate the ledger close planner, link and marker
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2f.9](bob-cli-2f.9.md) ◐ · ⧖ 2026-09-28
+- **Depends on:** [bob-cli-2f.9](bob-cli-2f.9.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 

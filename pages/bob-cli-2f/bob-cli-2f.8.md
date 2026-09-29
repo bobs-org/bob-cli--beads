@@ -20,7 +20,7 @@ split-collect-done: turn move-done-tasks collection into a directory module (pla
 ## Dependencies
 
 - **Depends on:** [bob-cli-2f.7](bob-cli-2f.7.md) ✓ · ⧖ 2026-09-28
-- **Blocks:** [bob-cli-2f.9](bob-cli-2f.9.md) ◐ · ⧖ 2026-09-28
+- **Blocks:** [bob-cli-2f.9](bob-cli-2f.9.md) ✓ · ⧖ 2026-09-28
 
 ## Agents
 
