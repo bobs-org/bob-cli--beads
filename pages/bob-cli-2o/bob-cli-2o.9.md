@@ -21,4 +21,4 @@ now-toggle: add a counted "Toggle #now" command (default Alt+N) and a `#now` row
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.9/README.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.9.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 0 |

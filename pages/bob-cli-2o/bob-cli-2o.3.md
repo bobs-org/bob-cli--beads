@@ -26,4 +26,10 @@ hooks-tmux: add a read-only `plan_budget` to task-status-hooks JSON and human ou
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.3/README.md) | [bob-cli-2o.3](bob-cli-2o.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.3/README.md) | [bob-cli-2o.3](bob-cli-2o.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`f481c7a`](https://github.com/bobs-org/bob-cli/commit/f481c7a065f99806018167f6e712de543e5251ad) | feat(hooks-tmux): plan budget in task-status-hooks and the tmux segment | [bob-cli-2o.3](bob-cli-2o.3.md) | 2026-09-29 19:19:10 EDT |

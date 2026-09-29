@@ -14,7 +14,7 @@ mac-budget: decode `plan_budget`, the destination `role`, the create-row theme c
 ## Dependencies
 
 - **Blocks:** [bob-cli-2o.12](bob-cli-2o.12.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2o.4](bob-cli-2o.4.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.4](bob-cli-2o.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
