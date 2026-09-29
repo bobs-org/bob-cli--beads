@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-2k
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.34](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.34.md) · **Assignee:** `bob-cli-2k.land`
-**Created:** 2026-09-29 13:45:02 EDT
+**Created:** 2026-09-29 13:45:02 EDT · **Closed:** 2026-09-29 15:45:03 EDT
 **Plan:** [202609/close\_task\_selection.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/close_task_selection.md)
 
 ## Description
@@ -34,6 +34,8 @@ and the outcome each one will get, so choosing the numbers is easy.
 (9) Docs: the =x2/=x0 post-images are folded (wrong bytes), the help has a stray literal \n line, the help misattributes numbering to capture-parse, README wording is ambiguous, a code span is broken, and the Contents list and section structure are off.
 (10) Test gaps listed in the tale.
 
+[2026-09-29T19:45:03Z · bob-cli-2k.land] All five phases verified with their notes: bob-cli-2k.1 through bob-cli-2k.5 are CLOSED, citing bob-cli commits 6f45d38/1838779/2c32a91/b3405bd and bob-mac-capture 7e672cc/f6eae0b with green macOS CI run 36615238978. This tale fixed every land-review defect in bob-cli commit afb2e5c: task-identity row indices, per-row lowest-listed warnings decided by status type, tasks[].index-driven human column; caret-close incomplete handling, extra-text/empty-element ranges and messages, =x0, and =x00 handling, execution/editor conflict parity with in_progress/complete comparison, block-ID intent for incomplete closes, PomodoroCloseSpec raw doc; docs/help corrections with regenerated =x2/=x0 post-images; and the listed CLI/unit test coverage. No drift: no unrelated commits landed in either repo since the epic started. Follow-up triage already recorded on bob-cli-2k: clippy deny DISCOVERED ISSUE note on bob-cli-28, clippy warnings +1 on bob-cli-v, gkeep flake new task bob-cli-2m, folded post-images fixed here as epic work, ^route:id deferred-link duplicate DISCOVERED ISSUE note on bob-cli-28. Validation: cargo fmt --check clean, cargo test passes, cargo clippy shows no new warnings with the only error the known untouched pomodoro_name.rs:808 deny.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,7 +50,7 @@ and the outcome each one will get, so choosing the numbers is easy.
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-2k: Choose each Task Link's outcome while closing a Pomodoro with =x&lt;N&gt;!&lt;M&gt; [in_progress]"]
+    n0["bob-cli-2k: Choose each Task Link's outcome while closing a Pomodoro with =x&lt;N&gt;!&lt;M&gt; [closed]"]
     n1["bob-cli-2k.1: Numbered Task Links and outcome selection in the pure close planner [closed]"]
     n2["bob-cli-2k.2: =x&lt;N&gt;!&lt;M&gt; grammar, capture-parse contract, and editor states [closed]"]
     n3["bob-cli-2k.3: Wire the selection into all close forms, JSON, and human output [closed]"]
@@ -74,7 +76,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2k.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2k.3/README.md) | [bob-cli-2k.3](bob-cli-2k.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2k.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2k.4/README.md) | [bob-cli-2k.4](bob-cli-2k.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2k.5/README.md) | [bob-cli-2k.5](bob-cli-2k.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2k.land.md) | [bob-cli-2k](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2k.land.md) | [bob-cli-2k](README.md) | 2 |
 
 ## Commits
 
@@ -85,3 +87,4 @@ flowchart TD
 | bob-cli | [`2c32a91`](https://github.com/bobs-org/bob-cli/commit/2c32a91940b415e4c281910040c6cd415a5fe76f) | feat(capture): wire selection capture into pomodoro close | [bob-cli-2k.3](bob-cli-2k.3.md) | 2026-09-29 14:34:25 EDT |
 | bob-cli | [`b3405bd`](https://github.com/bobs-org/bob-cli/commit/b3405bd20909d5ba1efd0e72b0c65f5c8ab88506) | docs(capture): document task-link outcome specifiers =x\[\<N\>\]\[!\<M\>\] | [bob-cli-2k.4](bob-cli-2k.4.md) | 2026-09-29 14:46:45 EDT |
 | bob-cli | [`afb2e5c`](https://github.com/bobs-org/bob-cli/commit/afb2e5c19174b902f1d34ea6f03bf594e686b8cb) | fix(capture): land epic bob-cli-2k selection follow-ups | [bob-cli-2k](README.md) | 2026-09-29 15:43:59 EDT |
+| bob-cli--plans | [`bob-cli--plans@583d8ef`](https://github.com/bobs-org/bob-cli--plans/commit/583d8ef3539e3340286cbaf59531bedd605e65b3) | chore(plans): mark close\_task\_selection epic plan done | [bob-cli-2k](README.md) | 2026-09-29 15:45:54 EDT |
