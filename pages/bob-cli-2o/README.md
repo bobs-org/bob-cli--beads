@@ -21,7 +21,7 @@ Today's Pomodoro plan is a visible, capped, closed list (GTD + 3 themes, about 1
 | [bob-cli-2o.12](bob-cli-2o.12.md) | Bob Mac Capture: drop outcome, \`#now\` token, and NOW badges | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.13](bob-cli-2o.13.md) | Rollout: PLAN chip, daily template block, config knobs, install, and end-to-end check | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.2](bob-cli-2o.2.md) | Vault: NOW chip, NOW section, and the gtd\_daily chore swap | ✓ closed | small | 2026-09-29 | 1 | 0 |
-| [bob-cli-2o.3](bob-cli-2o.3.md) | bob-cli: plan budget in task-status-hooks and the tmux segment | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
+| [bob-cli-2o.3](bob-cli-2o.3.md) | bob-cli: plan budget in task-status-hooks and the tmux segment | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [bob-cli-2o.4](bob-cli-2o.4.md) | bob-cli: capture plan-budget warnings, strict mode, and implicit destination | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.5](bob-cli-2o.5.md) | bob-cli: \`~\<K\>\` drop outcome for \`=x\` closes | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.6](bob-cli-2o.6.md) | bob-cli: first-class \`#now\` in capture | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
@@ -40,7 +40,7 @@ flowchart TD
     n4["bob-cli-2o.12: Bob Mac Capture: drop outcome, `#now` token, and NOW badges [in_progress]"]
     n5["bob-cli-2o.13: Rollout: PLAN chip, daily template block, config knobs, install, and end-to-end check [in_progress]"]
     n6["bob-cli-2o.2: Vault: NOW chip, NOW section, and the gtd_daily chore swap [closed]"]
-    n7["bob-cli-2o.3: bob-cli: plan budget in task-status-hooks and the tmux segment [in_progress]"]
+    n7["bob-cli-2o.3: bob-cli: plan budget in task-status-hooks and the tmux segment [closed]"]
     n8["bob-cli-2o.4: bob-cli: capture plan-budget warnings, strict mode, and implicit destination [in_progress]"]
     n9["bob-cli-2o.5: bob-cli: `~&lt;K&gt;` drop outcome for `=x` closes [in_progress]"]
     n10["bob-cli-2o.6: bob-cli: first-class `#now` in capture [in_progress]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2o.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.12/README.md) | [bob-cli-2o.12](bob-cli-2o.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.13/README.md) | [bob-cli-2o.13](bob-cli-2o.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.2/README.md) | [bob-cli-2o.2](bob-cli-2o.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2o.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.3/README.md) | [bob-cli-2o.3](bob-cli-2o.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.3/README.md) | [bob-cli-2o.3](bob-cli-2o.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.4/README.md) | [bob-cli-2o.4](bob-cli-2o.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.5/README.md) | [bob-cli-2o.5](bob-cli-2o.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.6/README.md) | [bob-cli-2o.6](bob-cli-2o.6.md) | 0 |
@@ -107,3 +107,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`db89ee8`](https://github.com/bobs-org/bob-cli/commit/db89ee8af0ea3f9830fe2d2b9511f76983daeca4) | feat(plan): add plan config, budget engine, and read-only bob plan command | [bob-cli-2o.1](bob-cli-2o.1.md) | 2026-09-29 18:44:26 EDT |
+| bob-cli | [`f481c7a`](https://github.com/bobs-org/bob-cli/commit/f481c7a065f99806018167f6e712de543e5251ad) | feat(hooks-tmux): plan budget in task-status-hooks and the tmux segment | [bob-cli-2o.3](bob-cli-2o.3.md) | 2026-09-29 19:19:10 EDT |
