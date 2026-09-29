@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.4/README.md) | [bob-cli-2n.4](bob-cli-2n.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.5/README.md) | [bob-cli-2n.5](bob-cli-2n.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2n.6.md) | [bob-cli-2n.6](bob-cli-2n.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2n.land.md) | [bob-cli-2n](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2n.land.md) | [bob-cli-2n](README.md) | 2 |
 
 ## Commits
 
@@ -76,3 +76,4 @@ flowchart TD
 | bob-cli | [`301e809`](https://github.com/bobs-org/bob-cli/commit/301e809053278768e46263d03f127b930acc4e41) | feat(capture): add project\_task\_block\_id capture-complete context | [bob-cli-2n.4](bob-cli-2n.4.md) | 2026-09-29 17:16:19 EDT |
 | bob-cli | [`42cd336`](https://github.com/bobs-org/bob-cli/commit/42cd3362d7b7cb0472df40a6267009b93add3b5a) | docs(capture): document named and linked project tasks | [bob-cli-2n.5](bob-cli-2n.5.md) | 2026-09-29 17:25:41 EDT |
 | bob-cli | [`d9e85c2`](https://github.com/bobs-org/bob-cli/commit/d9e85c25bdc80cffe309d17b6b6c160ff7dced51) | fix(capture): land epic bob-cli-2n project task links follow-ups | [bob-cli-2n](README.md) | 2026-09-29 18:24:13 EDT |
+| bob-cli--plans | [`bob-cli--plans@fc386b2`](https://github.com/bobs-org/bob-cli--plans/commit/fc386b21b9c63df343c7ed3c9edca901fd329556) | docs(plans): mark 202609/project\_task\_links done for epic bob-cli-2n | [bob-cli-2n](README.md) | 2026-09-29 18:24:41 EDT |
