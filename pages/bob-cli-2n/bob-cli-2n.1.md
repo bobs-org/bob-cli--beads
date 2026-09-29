@@ -19,7 +19,7 @@ marker: move the Pomodoro name onto the `^` project-note marker (`@route^id+#pom
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2n.2](bob-cli-2n.2.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2n.2](bob-cli-2n.2.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

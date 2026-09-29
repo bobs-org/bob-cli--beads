@@ -16,7 +16,7 @@ A project-note capture (`@route^id+` or `@route^id+#pomodoro`) can name any of i
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2n.1](bob-cli-2n.1.md) | Project-note marker grammar: \`@route^id+#pomodoro\`, retire \`@route:id+\` | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [bob-cli-2n.2](bob-cli-2n.2.md) | Project task IDs in the capture grammar and capture-parse | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
+| [bob-cli-2n.2](bob-cli-2n.2.md) | Project task IDs in the capture grammar and capture-parse | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [bob-cli-2n.3](bob-cli-2n.3.md) | Render named project tasks and write their Task Links | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
 | [bob-cli-2n.4](bob-cli-2n.4.md) | Block-ID completion for project task IDs | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
 | [bob-cli-2n.5](bob-cli-2n.5.md) | Capture docs for named and linked project tasks | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
@@ -28,7 +28,7 @@ A project-note capture (`@route^id+` or `@route^id+#pomodoro`) can name any of i
 flowchart TD
     n0["bob-cli-2n: Named and linked project tasks with ` :id` in `bob capture` and Bob Mac Capture [in_progress]"]
     n1["bob-cli-2n.1: Project-note marker grammar: `@route^id+#pomodoro`, retire `@route:id+` [closed]"]
-    n2["bob-cli-2n.2: Project task IDs in the capture grammar and capture-parse [in_progress]"]
+    n2["bob-cli-2n.2: Project task IDs in the capture grammar and capture-parse [closed]"]
     n3["bob-cli-2n.3: Render named project tasks and write their Task Links [in_progress]"]
     n4["bob-cli-2n.4: Block-ID completion for project task IDs [in_progress]"]
     n5["bob-cli-2n.5: Capture docs for named and linked project tasks [in_progress]"]
@@ -53,7 +53,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-2n.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.1/README.md) | [bob-cli-2n.1](bob-cli-2n.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.2/README.md) | [bob-cli-2n.2](bob-cli-2n.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.2/README.md) | [bob-cli-2n.2](bob-cli-2n.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.3/README.md) | [bob-cli-2n.3](bob-cli-2n.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.4/README.md) | [bob-cli-2n.4](bob-cli-2n.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2n.5/README.md) | [bob-cli-2n.5](bob-cli-2n.5.md) | 0 |
@@ -65,3 +65,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`65f5b43`](https://github.com/bobs-org/bob-cli/commit/65f5b43acafb3eedcb922f402a5d305c841652a0) | feat(capture): project-note pomodoro marker phase (@route^id+#pomodoro) | [bob-cli-2n.1](bob-cli-2n.1.md) | 2026-09-29 16:37:01 EDT |
+| bob-cli | [`e9c4dae`](https://github.com/bobs-org/bob-cli/commit/e9c4dae3274e09a8af0ec01762d2b35d9afd862e) | feat(capture): add project task-id grammar pass with shared lexer and editor spans | [bob-cli-2n.2](bob-cli-2n.2.md) | 2026-09-29 16:59:30 EDT |
