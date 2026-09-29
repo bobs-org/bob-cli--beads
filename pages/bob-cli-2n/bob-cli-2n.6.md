@@ -14,7 +14,7 @@ mac: in bob-mac-capture, color the new spans, route `project_task_block_id` into
 ## Dependencies
 
 - **Depends on:** [bob-cli-2n.3](bob-cli-2n.3.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2n.4](bob-cli-2n.4.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2n.4](bob-cli-2n.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

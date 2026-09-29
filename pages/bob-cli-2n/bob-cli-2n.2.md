@@ -21,7 +21,7 @@ task-id-grammar: lex trailing ` :id` / ` ^id` tokens on project-note lines, enfo
 
 - **Depends on:** [bob-cli-2n.1](bob-cli-2n.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2n.3](bob-cli-2n.3.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2n.4](bob-cli-2n.4.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2n.4](bob-cli-2n.4.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
