@@ -19,7 +19,7 @@ example, including batches, link forms, dry-run parity, and every diagnostic.
 ## Dependencies
 
 - **Depends on:** [bob-cli-2k.1](bob-cli-2k.1.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2k.2](bob-cli-2k.2.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2k.2](bob-cli-2k.2.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2k.4](bob-cli-2k.4.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2k.5](bob-cli-2k.5.md) ◐ · ⧖ 2026-09-29
 
