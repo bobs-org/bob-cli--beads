@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.7/README.md) | [bob-cli-2y.7](bob-cli-2y.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.8/README.md) | [bob-cli-2y.8](bob-cli-2y.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-2y.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.9/README.md) | [bob-cli-2y.9](bob-cli-2y.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-2y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2y.land.md) | [bob-cli-2y](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2y.land.md) | [bob-cli-2y](README.md) | 2 |
 
 ## Commits
 
@@ -117,3 +117,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@053a076`](https://github.com/bobs-org/bob-plugins/commit/053a07640a26d2f44c71c0e0774efa8af25eacf5) | feat(nav-hotkeys): Alt+N commits or releases the lane; #now removed | [bob-cli-2y.9](bob-cli-2y.9.md) | 2026-09-30 18:07:37 EDT |
 | bob-cli | [`297ecb4`](https://github.com/bobs-org/bob-cli/commit/297ecb474445479390dba26e75eb7c52164d9441) | docs(plan): finalize Surfaces table for retired-#now rollout (bob-cli-2y.12) | [bob-cli-2y.12](bob-cli-2y.12.md) | 2026-09-30 18:59:06 EDT |
 | bob-cli | [`af0d17f`](https://github.com/bobs-org/bob-cli/commit/af0d17f211bd7980671a21d2415dc305c9b8e2ed) | chore(hooks): remove In Progress rollback leftovers, fix two stale doc lines (bob-cli-2y) | [bob-cli-2y](README.md) | 2026-09-30 19:23:36 EDT |
+| bob-cli--plans | [`bob-cli--plans@809664a`](https://github.com/bobs-org/bob-cli--plans/commit/809664ae0c37b9f6246c6f610025c6087f84c16f) | chore(plans): mark retire\_now\_sticky\_lanes plan done (bob-cli-2y) | [bob-cli-2y](README.md) | 2026-09-30 19:24:15 EDT |
