@@ -25,10 +25,4 @@ docs: document `=<X>#pomodoro` in `docs/capture.md` (grammar tables, lifecycle, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2p.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2p.4/README.md) | [bob-cli-2p.4](bob-cli-2p.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`8d79b1d`](https://github.com/bobs-org/bob-cli/commit/8d79b1dfa9b738dae1bc626edabae2cf58836e43) | docs(capture): document =\<X\>#pomodoro named starts | [bob-cli-2p.4](bob-cli-2p.4.md) | 2026-09-29 20:29:45 EDT |
+| [bbugyi200.apollo.bob-cli-2p.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2p.4/README.md) | [bob-cli-2p.4](bob-cli-2p.4.md) | 0 |
