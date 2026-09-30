@@ -27,4 +27,10 @@ today-core: Rust Today engine with conformance vectors in docs/plan.md, lane met
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2y.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.5/README.md) | [bob-cli-2y.5](bob-cli-2y.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2y.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.5/README.md) | [bob-cli-2y.5](bob-cli-2y.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d06102c`](https://github.com/bobs-org/bob-cli/commit/d06102c7429f55712516911c8a2d5004f038485c) | feat(plan): ledger-derived Today engine with NEXT/PENDING lanes (bob-cli-2y.5) | [bob-cli-2y.5](bob-cli-2y.5.md) | 2026-09-30 17:35:26 EDT |
