@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / bob-cli-2y
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.3n](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.3n.md) · **Assignee:** `bob-cli-2y.land`
-**Created:** 2026-09-30 16:41:59 EDT
+**Created:** 2026-09-30 16:41:59 EDT · **Closed:** 2026-09-30 19:19:54 EDT
 **Plan:** [202609/retire\_now\_sticky\_lanes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/retire_now_sticky_lanes.md)
 
 ## Description
 
 Linking a task makes it Next, working it makes it Pending, and no unlink path (hooks, keymap, capture drop, hand deletion) ever lowers it; only an explicit one-key release returns it to Ready. Today is read from the ledger when the dash renders, the dash shows mutually exclusive TODAY / PENDING / NEXT / READY sections with soft caps, and #now is gone from bob-cli, bob-plugins, Bob Mac Capture, the vault, and memory.
+
+## Notes
+
+[2026-09-30T23:12:00Z · bob-cli-2y.land] LAND TRIAGE (bob-cli-2y.land) of every PROPOSED FOLLOW-UP: (1) clippy deny '|| true' at tests/cli/capture/pomodoro_name.rs:808 (proposed by 2y.2, 2y.4, 2y.5, 2y.6): not caused by this epic (blame 7d1c8dd, owned by active epic bob-cli-28) -> corroborating DISCOVERED ISSUE note added on bob-cli-28, no new task. (2) clippy unnecessary_to_owned at tests/cli/capture/pomodoro_shift.rs:581 (proposed by 2y.12, which misread it as the lint failure; it is a warning): duplicate of bob-cli-v -> +1 recorded there. (3) crontab not writable over ssh + hand-install the paused tab (2y.1 #2): the pause itself is declined as superseded, because rollout installed the sticky build on the Mac at 18:50 EDT before any 2026-10-01 pass (land re-verified: Mac dry run cleared 0 / cleared_in_progress 0), so no pause is needed; the underlying doc drift (live tab */15 without --retry-timeout vs docs/vault-git-sync.md, and ssh crontab EPERM) is genuinely distinct and not epic-caused -> new task bob-cli-30 (bug, small, ready). (4) Mac install/dry-run/cron verify pending (2y.3 #1): declined, done by 2y.12; land re-verified ~/.cargo/bin/bob built 18:50 and dry run keeps lanes. (5) cron restore is a no-op (2y.3 #2): declined, the cron was never paused and land re-verified the hooks line is byte-identical to the original '*/15 * * * * ~/.cargo/bin/bob task-status-hooks >> /var/tmp/bob_task_status_hooks.log'.
+
+[2026-09-30T23:19:54Z · bob-cli-2y.land] Land verification: read the epic and all 12 phase beads and notes, the epic plan, and every epic commit (bob-cli 33d5622 63305f0 85f7901 d06102c e57d33d 473cca3 297ecb4; bob-plugins b9d9828 3297b25 053a076; bob-mac-capture fe5d1d5 ec4ad58). Hooks keep Next/In Progress outside daily notes (cleared_in_progress always []); @route+id! is a link-presence toggle that never lowers a lane; the Today engine, NEXT/PENDING lanes and bob plan schema 2 ship with T1-T9 vectors; #now is gone from the capture grammar, pickers and rows (rg leaves only intentional retired-tag tests and compat notes in bob-cli, bob-plugins and the Mac app). bob-plugins npm test 873/873 and validate 6/6; deployed ledger-tools 1.7.0, block-id-prompt 1.15.0 and nav-hotkeys 1.42.0 match the repo byte-for-byte. Mac Capture CI green on ec4ad58. Vault dash.md has TODAY/PENDING/NEXT/READY sections and chips, gtd_daily NOW chores are cancelled and the morning-review/weekly-prune chores added, hotkeys.json has no toggle-now-tag. chezmoi config has max_next 15 / max_pending 10; installed bob plan -f json is schema 2. The Mac runs the sticky build (dry run clears 0 / cleared_in_progress 0) with its original hooks cron line. No unrelated commits landed on bob-cli, bob-plugins or bob-mac-capture after the epic started, so no integration was needed. Follow-ups triaged in the LAND TRIAGE note (bob-cli-28 note, bob-cli-v +1, new bob-cli-30; the rest resolved by rollout). Closeout: removed reachable_identities and its cycle test, removed the write-only FileScan.note_kind field with its writes and initializers (no behavior change), and fixed the stale tasks[].now numbering in docs/capture.md plus the Obsidian Notices lane row in docs/plan.md. Verification: just fmt passed; cargo test 1340 lib + 655 CLI green with all integration suites green; lib/bins clippy shows no reachable_identities; all-targets clippy fails only on the pre-existing pomodoro_name.rs:808 deny owned by bob-cli-28; rg sweep for tasks[].now and NEXT 13/15 shows no new hits.
 
 ## Phases
 
@@ -32,7 +38,7 @@ Linking a task makes it Next, working it makes it Pending, and no unlink path (h
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-2y: Retire #now: sticky Next/Pending lanes and a ledger-derived Today [in_progress]"]
+    n0["bob-cli-2y: Retire #now: sticky Next/Pending lanes and a ledger-derived Today [closed]"]
     n1["bob-cli-2y.1: Pause the MacBook's hooks cron before the first 2026-10-01 pass [closed]"]
     n2["bob-cli-2y.10: Mutually exclusive dash sections, GTD chores, and lane caps config [closed]"]
     n3["bob-cli-2y.11: Bob Mac Capture drops #now and presents the link-presence toggle [closed]"]
@@ -94,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.7/README.md) | [bob-cli-2y.7](bob-cli-2y.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.8/README.md) | [bob-cli-2y.8](bob-cli-2y.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-2y.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.9/README.md) | [bob-cli-2y.9](bob-cli-2y.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-2y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.land/README.md) | [bob-cli-2y](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2y.land.md) | [bob-cli-2y](README.md) | 1 |
 
 ## Commits
 
@@ -110,3 +116,4 @@ flowchart TD
 | bob-cli | [`473cca3`](https://github.com/bobs-org/bob-cli/commit/473cca3e0882e0fd73156a45cfbd235f97b682d4) | docs(memory): Alt+N release prompts for the Work Log summary | [bob-cli-2y.9](bob-cli-2y.9.md) | 2026-09-30 18:07:05 EDT |
 | bob-plugins | [`bob-plugins@053a076`](https://github.com/bobs-org/bob-plugins/commit/053a07640a26d2f44c71c0e0774efa8af25eacf5) | feat(nav-hotkeys): Alt+N commits or releases the lane; #now removed | [bob-cli-2y.9](bob-cli-2y.9.md) | 2026-09-30 18:07:37 EDT |
 | bob-cli | [`297ecb4`](https://github.com/bobs-org/bob-cli/commit/297ecb474445479390dba26e75eb7c52164d9441) | docs(plan): finalize Surfaces table for retired-#now rollout (bob-cli-2y.12) | [bob-cli-2y.12](bob-cli-2y.12.md) | 2026-09-30 18:59:06 EDT |
+| bob-cli | [`af0d17f`](https://github.com/bobs-org/bob-cli/commit/af0d17f211bd7980671a21d2415dc305c9b8e2ed) | chore(hooks): remove In Progress rollback leftovers, fix two stale doc lines (bob-cli-2y) | [bob-cli-2y](README.md) | 2026-09-30 19:23:36 EDT |
