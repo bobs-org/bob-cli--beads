@@ -15,7 +15,7 @@ Typing `:` at the start of any capture item, including any item of a blank-line-
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-2v.1](bob-cli-2v.1.md) | Vault-wide linkable-task discovery and fuzzy ranking | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-2v.1](bob-cli-2v.1.md) | Vault-wide linkable-task discovery and fuzzy ranking | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2v.2](bob-cli-2v.2.md) | \`:\` picker-query grammar in capture, capture-parse, and completion fields | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2v.3](bob-cli-2v.3.md) | CaptureCore task-link picker index, source, and decoding | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [bob-cli-2v.4](bob-cli-2v.4.md) | \`task\_link\` completion candidates, round-trip tests, and docs | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -26,7 +26,7 @@ Typing `:` at the start of any capture item, including any item of a blank-line-
 ```mermaid
 flowchart TD
     n0["bob-cli-2v: `:` Task Link Picker for bob capture and Bob Mac Capture [in_progress]"]
-    n1["bob-cli-2v.1: Vault-wide linkable-task discovery and fuzzy ranking [in_progress]"]
+    n1["bob-cli-2v.1: Vault-wide linkable-task discovery and fuzzy ranking [closed]"]
     n2["bob-cli-2v.2: `:` picker-query grammar in capture, capture-parse, and completion fields [closed]"]
     n3["bob-cli-2v.3: CaptureCore task-link picker index, source, and decoding [in_progress]"]
     n4["bob-cli-2v.4: `task_link` completion candidates, round-trip tests, and docs [in_progress]"]
@@ -46,9 +46,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2v.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2v.1/README.md) | [bob-cli-2v.1](bob-cli-2v.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2v.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2v.1/README.md) | [bob-cli-2v.1](bob-cli-2v.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2v.2/README.md) | [bob-cli-2v.2](bob-cli-2v.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2v.3/README.md) | [bob-cli-2v.3](bob-cli-2v.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2v.3.md) | [bob-cli-2v.3](bob-cli-2v.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2v.4/README.md) | [bob-cli-2v.4](bob-cli-2v.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2v.5/README.md) | [bob-cli-2v.5](bob-cli-2v.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2v.land/README.md) | [bob-cli-2v](README.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5ef8eb7`](https://github.com/bobs-org/bob-cli/commit/5ef8eb724c44a1964c2d0a0c473587bea540fe41) | feat(capture): add task-link picker query grammar for colon items | [bob-cli-2v.2](bob-cli-2v.2.md) | 2026-09-30 13:18:07 EDT |
+| bob-cli | [`d67bbb0`](https://github.com/bobs-org/bob-cli/commit/d67bbb0e174f128225424f5ab9a92c2fc09fa612) | feat(capture): add read-only linkable-task discover scanner with tiered ranker | [bob-cli-2v.1](bob-cli-2v.1.md) | 2026-09-30 13:27:40 EDT |
