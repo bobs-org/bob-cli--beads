@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-2o
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.38](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.38.md) · **Assignee:** `bob-cli-2o.land`
-**Created:** 2026-09-29 18:09:56 EDT
+**Created:** 2026-09-29 18:09:56 EDT · **Closed:** 2026-09-29 23:28:12 EDT
 **Plan:** [202609/pomodoro\_plan\_budget\_now\_tag.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/pomodoro_plan_budget_now_tag.md)
 
 ## Description
@@ -14,6 +14,8 @@ Today's Pomodoro plan is a visible, capped, closed list (GTD + 3 themes, about 1
 ## Notes
 
 [2026-09-30T02:33:45Z · bob-cli-2o.land] FOLLOW-UP TRIAGE (bob-cli-2o.land): (1) clippy deny at tests/cli/capture/pomodoro_name.rs:808 ('|| true', overly_complex_bool_expr), proposed by .1/.3/.4/.5/.6/.9/.13: not caused by this epic (bob-cli-28.1 via 7d1c8dd); routed via /sase_new_task as a DISCOVERED ISSUE corroboration note on active epic bob-cli-28, whose closeout owns it; no task created. (2) Pre-existing clippy warnings (.9 cites pomodoro_shift.rs:581): +1 on bob-cli-v with the current count; exactly one warning comes from this epic (manual_contains, capture_complete.rs:1372, 35b96b3), and the closeout tale fixes it. (3) Vault missing bob-project-tasks/bob-vim-surround/task-status-cycler (.7): declined, already resolved: rollout's full bob plugins sync deployed all six bob-plugins; verified present in ~/bob/.obsidian/plugins. (4) System TZ Etc/UTC flips bob's day at 20:00 EDT (.13): not caused by this epic (env.rs current_datetime uses Local::now); new task bob-cli-2q (bug, medium). (5) Landing observation, not proposed by any phase: src/native/capture_complete.rs is 3790 lines, and it was already 2938 before this epic. Declined as a separate task; the tale splits the files this epic pushed past ~1500 lines (config.rs, tests/cli/capture/parse_pomodoro.rs).
+
+[2026-09-30T03:28:12Z · bob-cli-2o.land] Closed by explicit `sase stitch create -B close` after create_commit landed 25c1b2f ("feat(plan): land bob-cli-2o closeout - config isolation, ledger parity, capture guards, docs"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-2o` if more work remains.
 
 ## Phases
 
@@ -37,7 +39,7 @@ Today's Pomodoro plan is a visible, capped, closed list (GTD + 3 themes, about 1
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-2o: Close the day, tag the week: plan budget, #now, and ledger guardrails [in_progress]"]
+    n0["bob-cli-2o: Close the day, tag the week: plan budget, #now, and ledger guardrails [closed]"]
     n1["bob-cli-2o.1: bob-cli: shared plan-budget core, config block, and `bob plan` [closed]"]
     n2["bob-cli-2o.10: bob-plugins: plan budget in the Ctrl+Shift+Enter Notice [closed]"]
     n3["bob-cli-2o.11: Bob Mac Capture: plan budget meter, destination row, and create-row cap badge [closed]"]
@@ -104,7 +106,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2o.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.7/README.md) | [bob-cli-2o.7](bob-cli-2o.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.8/README.md) | [bob-cli-2o.8](bob-cli-2o.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.9.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2o.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.land.md) | [bob-cli-2o](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2o.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.land.md) | [bob-cli-2o](README.md) | 2 |
 
 ## Commits
 
@@ -120,3 +122,4 @@ flowchart TD
 | bob-cli | [`754d1f3`](https://github.com/bobs-org/bob-cli/commit/754d1f31fe7feffb81c85d4ed55c17888f15a65f) | feat(capture): \`~\<K\>\` drop outcome for \`=x\` closes | [bob-cli-2o.5](bob-cli-2o.5.md) | 2026-09-29 20:11:18 EDT |
 | bob-cli | [`d28f8cd`](https://github.com/bobs-org/bob-cli/commit/d28f8cd218bf0e85344a776746e07c23dcfd56be) | feat(capture): first-class #now tag for new tasks | [bob-cli-2o.6](bob-cli-2o.6.md) | 2026-09-29 20:53:49 EDT |
 | bob-cli | [`25c1b2f`](https://github.com/bobs-org/bob-cli/commit/25c1b2f2cc2f0af4753c7c52442ce4ebfaf4e920) | feat(plan): land bob-cli-2o closeout - config isolation, ledger parity, capture guards, docs | [bob-cli-2o](README.md) | 2026-09-29 23:27:51 EDT |
+| bob-plugins | [`bob-plugins@17fbc09`](https://github.com/bobs-org/bob-plugins/commit/17fbc097fb8599464f16ac635ed1240817e61e55) | feat(ledger): plan-budget closeout parity, render child, live re-render, notices | [bob-cli-2o](README.md) | 2026-09-29 23:28:23 EDT |
