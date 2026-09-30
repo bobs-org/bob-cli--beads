@@ -19,7 +19,7 @@ start-lineup: number every whole-item start's queued Task Links (`tasks[].index`
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2s.2](bob-cli-2s.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2s.2](bob-cli-2s.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
