@@ -26,7 +26,7 @@ Linking a task makes it Next, working it makes it Pending, and no unlink path (h
 | [bob-cli-2y.6](bob-cli-2y.6.md) | Remove | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2y.7](bob-cli-2y.7.md) | bob-ledger-tools api v2 with a synchronous Today, lane budgets, and query refresh | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2y.8](bob-cli-2y.8.md) | Ctrl+Shift+Enter toggles on link presence and never changes the lane | ✓ closed | medium | 2026-09-30 | 1 | 2 |
-| [bob-cli-2y.9](bob-cli-2y.9.md) | Alt+N commits or releases a lane; #now leaves Bob Navigation Hotkeys | ✓ closed | medium | 2026-09-30 | 1 | 1 |
+| [bob-cli-2y.9](bob-cli-2y.9.md) | Alt+N commits or releases a lane; #now leaves Bob Navigation Hotkeys | ✓ closed | medium | 2026-09-30 | 1 | 2 |
 
 ## Lineage
 
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2y.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.6/README.md) | [bob-cli-2y.6](bob-cli-2y.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.7/README.md) | [bob-cli-2y.7](bob-cli-2y.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.8/README.md) | [bob-cli-2y.8](bob-cli-2y.8.md) | 2 |
-| [bbugyi200.apollo.bob-cli-2y.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.9/README.md) | [bob-cli-2y.9](bob-cli-2y.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2y.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.9/README.md) | [bob-cli-2y.9](bob-cli-2y.9.md) | 2 |
 | [bbugyi200.apollo.bob-cli-2y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.land/README.md) | [bob-cli-2y](README.md) | 0 |
 
 ## Commits
@@ -108,3 +108,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@3297b25`](https://github.com/bobs-org/bob-plugins/commit/3297b2559f81402931abf7896d8978f3efd3b4ce) | feat(ledger): bob-ledger-tools api v2 with synchronous Today, lane budgets, and query refresh | [bob-cli-2y.7](bob-cli-2y.7.md) | 2026-09-30 17:48:37 EDT |
 | bob-cli | [`e57d33d`](https://github.com/bobs-org/bob-cli/commit/e57d33d6ef57da690aa1abf7d66506c16f63b0b7) | feat(capture): remove the #now grammar, pickers, rows, and docs (bob-cli-2y.6) | [bob-cli-2y.6](bob-cli-2y.6.md) | 2026-09-30 18:03:54 EDT |
 | bob-cli | [`473cca3`](https://github.com/bobs-org/bob-cli/commit/473cca3e0882e0fd73156a45cfbd235f97b682d4) | docs(memory): Alt+N release prompts for the Work Log summary | [bob-cli-2y.9](bob-cli-2y.9.md) | 2026-09-30 18:07:05 EDT |
+| bob-plugins | [`bob-plugins@053a076`](https://github.com/bobs-org/bob-plugins/commit/053a07640a26d2f44c71c0e0774efa8af25eacf5) | feat(nav-hotkeys): Alt+N commits or releases the lane; #now removed | [bob-cli-2y.9](bob-cli-2y.9.md) | 2026-09-30 18:07:37 EDT |
