@@ -15,7 +15,7 @@ dash-lanes: rebuild dash.md as TODAY / PENDING / NEXT / READY with matching chip
 
 - **Blocks:** [bob-cli-2y.12](bob-cli-2y.12.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.7](bob-cli-2y.7.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-2y.8](bob-cli-2y.8.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2y.8](bob-cli-2y.8.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.9](bob-cli-2y.9.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

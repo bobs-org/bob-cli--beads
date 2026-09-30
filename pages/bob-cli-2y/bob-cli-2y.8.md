@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-2y](README.md) / bob-cli-2y.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.3n](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.3n.md) · **Assignee:** `bob-cli-2y.8` · **Size:** medium
-**Created:** 2026-09-30 16:42:00 EDT
+**Created:** 2026-09-30 16:42:00 EDT · **Closed:** 2026-09-30 17:29:16 EDT
 **Plan:** [202609/retire\_now\_sticky\_lanes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/retire_now_sticky_lanes.md)
 
 ## Description
 
 link-toggle: block-id-prompt links or unlinks by link presence, never writes the checkbox on unlink, offers the Work Log prompt for In Progress, and never lowers In Progress when linking.
+
+## Notes
+
+[2026-09-30T21:29:16Z · bob-cli-2y.8] link-toggle done in bob-plugins block-id-prompt 1.15.0: toggle decides on link presence, unlink never writes checkbox, Work Log prompt retitled Unlink task, forceNext never lowers In Progress, link-mode keeps all lanes with target re-read guard. Verified: node --test block-id-prompt 158/158, npm test 854/854, npm run validate 6/6, bob plugins sync deployed, Work Log strand updated.
 
 ## Dependencies
 

@@ -21,7 +21,7 @@ cutover-pause: best-effort, backed-up pause of the Mac's task-status-hooks cront
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2y.3](bob-cli-2y.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.3](bob-cli-2y.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

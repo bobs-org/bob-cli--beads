@@ -19,10 +19,10 @@ hooks-sticky: stop the hooks lowering Next and In Progress when links disappear 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2y.3](bob-cli-2y.3.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2y.4](bob-cli-2y.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.3](bob-cli-2y.3.md) ✓ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.4](bob-cli-2y.4.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-2y.5](bob-cli-2y.5.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2y.8](bob-cli-2y.8.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.8](bob-cli-2y.8.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

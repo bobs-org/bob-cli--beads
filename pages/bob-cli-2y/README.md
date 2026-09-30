@@ -20,12 +20,12 @@ Linking a task makes it Next, working it makes it Pending, and no unlink path (h
 | [bob-cli-2y.11](bob-cli-2y.11.md) | Bob Mac Capture drops #now and presents the link-presence toggle | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [bob-cli-2y.12](bob-cli-2y.12.md) | Install, deploy, end-to-end check, and Bryan's checklist | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [bob-cli-2y.2](bob-cli-2y.2.md) | Sticky lanes in bob task-status-hooks, docs, and superseding decision records | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [bob-cli-2y.3](bob-cli-2y.3.md) | Install sticky hooks on the MacBook and restore the cron | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
-| [bob-cli-2y.4](bob-cli-2y.4.md) | No bob capture path lowers a lane | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-2y.3](bob-cli-2y.3.md) | Install sticky hooks on the MacBook and restore the cron | ✓ closed | small | 2026-09-30 | 1 | 0 |
+| [bob-cli-2y.4](bob-cli-2y.4.md) | No bob capture path lowers a lane | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2y.5](bob-cli-2y.5.md) | Define Today once; NEXT/PENDING lanes replace NOW in bob plan and the hooks | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [bob-cli-2y.6](bob-cli-2y.6.md) | Remove | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [bob-cli-2y.7](bob-cli-2y.7.md) | bob-ledger-tools api v2 with a synchronous Today, lane budgets, and query refresh | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
-| [bob-cli-2y.8](bob-cli-2y.8.md) | Ctrl+Shift+Enter toggles on link presence and never changes the lane | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-2y.8](bob-cli-2y.8.md) | Ctrl+Shift+Enter toggles on link presence and never changes the lane | ✓ closed | medium | 2026-09-30 | 1 | 0 |
 | [bob-cli-2y.9](bob-cli-2y.9.md) | Alt+N commits or releases a lane; #now leaves Bob Navigation Hotkeys | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 
 ## Lineage
@@ -38,12 +38,12 @@ flowchart TD
     n3["bob-cli-2y.11: Bob Mac Capture drops #now and presents the link-presence toggle [in_progress]"]
     n4["bob-cli-2y.12: Install, deploy, end-to-end check, and Bryan's checklist [in_progress]"]
     n5["bob-cli-2y.2: Sticky lanes in bob task-status-hooks, docs, and superseding decision records [closed]"]
-    n6["bob-cli-2y.3: Install sticky hooks on the MacBook and restore the cron [in_progress]"]
-    n7["bob-cli-2y.4: No bob capture path lowers a lane [in_progress]"]
+    n6["bob-cli-2y.3: Install sticky hooks on the MacBook and restore the cron [closed]"]
+    n7["bob-cli-2y.4: No bob capture path lowers a lane [closed]"]
     n8["bob-cli-2y.5: Define Today once; NEXT/PENDING lanes replace NOW in bob plan and the hooks [in_progress]"]
     n9["bob-cli-2y.6: Remove [in_progress]"]
     n10["bob-cli-2y.7: bob-ledger-tools api v2 with a synchronous Today, lane budgets, and query refresh [in_progress]"]
-    n11["bob-cli-2y.8: Ctrl+Shift+Enter toggles on link presence and never changes the lane [in_progress]"]
+    n11["bob-cli-2y.8: Ctrl+Shift+Enter toggles on link presence and never changes the lane [closed]"]
     n12["bob-cli-2y.9: Alt+N commits or releases a lane; #now leaves Bob Navigation Hotkeys [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2y.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.12/README.md) | [bob-cli-2y.12](bob-cli-2y.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.2/README.md) | [bob-cli-2y.2](bob-cli-2y.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.3/README.md) | [bob-cli-2y.3](bob-cli-2y.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2y.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.4/README.md) | [bob-cli-2y.4](bob-cli-2y.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2y.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.4/README.md) | [bob-cli-2y.4](bob-cli-2y.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.5/README.md) | [bob-cli-2y.5](bob-cli-2y.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2y.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.6/README.md) | [bob-cli-2y.6](bob-cli-2y.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.7/README.md) | [bob-cli-2y.7](bob-cli-2y.7.md) | 0 |
@@ -101,3 +101,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`33d5622`](https://github.com/bobs-org/bob-cli/commit/33d5622a466b72a0254f7b7866b3ebd6243fa11a) | feat(hooks): make Next/In-Progress lanes sticky outside daily notes | [bob-cli-2y.2](bob-cli-2y.2.md) | 2026-09-30 17:11:06 EDT |
+| bob-cli | [`63305f0`](https://github.com/bobs-org/bob-cli/commit/63305f02b7d437e7830f89d6ba919a43a9a15a6e) | feat(capture): make @route+id! a link-presence toggle that never lowers a lane | [bob-cli-2y.4](bob-cli-2y.4.md) | 2026-09-30 17:31:39 EDT |
