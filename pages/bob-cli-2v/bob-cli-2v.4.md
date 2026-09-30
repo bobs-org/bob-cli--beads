@@ -21,7 +21,7 @@ complete: wire discovery into the `task_link` context of `bob capture-complete`,
 
 - **Depends on:** [bob-cli-2v.1](bob-cli-2v.1.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2v.2](bob-cli-2v.2.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2v.5](bob-cli-2v.5.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2v.5](bob-cli-2v.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

@@ -21,7 +21,7 @@ mac_core: in bob-mac-capture's CaptureCore, decode the new candidate fields and 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2v.5](bob-cli-2v.5.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2v.5](bob-cli-2v.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

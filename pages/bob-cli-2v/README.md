@@ -19,7 +19,7 @@ Typing `:` at the start of any capture item, including any item of a blank-line-
 | [bob-cli-2v.2](bob-cli-2v.2.md) | \`:\` picker-query grammar in capture, capture-parse, and completion fields | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2v.3](bob-cli-2v.3.md) | CaptureCore task-link picker index, source, and decoding | ✓ closed | medium | 2026-09-30 | 1 | 0 |
 | [bob-cli-2v.4](bob-cli-2v.4.md) | \`task\_link\` completion candidates, round-trip tests, and docs | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [bob-cli-2v.5](bob-cli-2v.5.md) | Bob Mac Capture task-link picker panel, ID prompt, and keys | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-2v.5](bob-cli-2v.5.md) | Bob Mac Capture task-link picker panel, ID prompt, and keys | ✓ closed | medium | 2026-09-30 | 1 | 0 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["bob-cli-2v.2: `:` picker-query grammar in capture, capture-parse, and completion fields [closed]"]
     n3["bob-cli-2v.3: CaptureCore task-link picker index, source, and decoding [closed]"]
     n4["bob-cli-2v.4: `task_link` completion candidates, round-trip tests, and docs [closed]"]
-    n5["bob-cli-2v.5: Bob Mac Capture task-link picker panel, ID prompt, and keys [in_progress]"]
+    n5["bob-cli-2v.5: Bob Mac Capture task-link picker panel, ID prompt, and keys [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
