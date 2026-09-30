@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2p.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2p.3/README.md) | [bob-cli-2p.3](bob-cli-2p.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2p.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2p.4/README.md) | [bob-cli-2p.4](bob-cli-2p.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2p.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2p.5.md) | [bob-cli-2p.5](bob-cli-2p.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2p.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2p.land.md) | [bob-cli-2p](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2p.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2p.land.md) | [bob-cli-2p](README.md) | 2 |
 
 ## Commits
 
@@ -80,3 +80,4 @@ flowchart TD
 | bob-cli | [`f41ab05`](https://github.com/bobs-org/bob-cli/commit/f41ab0550a1fe9f4ed988a3186e6d5c454f01e00) | feat(capture): add pomodoro\_start\_name completion context for =\<X\>#name | [bob-cli-2p.3](bob-cli-2p.3.md) | 2026-09-29 20:15:51 EDT |
 | bob-cli | [`8d79b1d`](https://github.com/bobs-org/bob-cli/commit/8d79b1dfa9b738dae1bc626edabae2cf58836e43) | docs(capture): document =\<X\>#pomodoro named starts | [bob-cli-2p.4](bob-cli-2p.4.md) | 2026-09-29 20:29:45 EDT |
 | bob-cli | [`090e3eb`](https://github.com/bobs-org/bob-cli/commit/090e3eb49ae8248c6d9e5ac9b2169ccd742a9365) | fix(capture): preview plan budget on again rows, fix named-start help and docs | [bob-cli-2p](README.md) | 2026-09-29 21:32:24 EDT |
+| bob-cli--plans | [`bob-cli--plans@02fe09e`](https://github.com/bobs-org/bob-cli--plans/commit/02fe09e1e86153ee35804bd9c67dddde816b2c42) | docs(plans): mark named\_pomodoro\_start done | [bob-cli-2p](README.md) | 2026-09-29 21:32:51 EDT |
