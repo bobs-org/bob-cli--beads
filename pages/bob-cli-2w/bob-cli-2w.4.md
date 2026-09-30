@@ -13,7 +13,7 @@ cancel-docs: document the gesture, the written shape, and its side effects in do
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2w.3](bob-cli-2w.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2w.3](bob-cli-2w.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

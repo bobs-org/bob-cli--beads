@@ -17,7 +17,7 @@ tsc-recovery-api: expose `api.recoverBlockedDependents` (version 1) from task-st
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2w.3](bob-cli-2w.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2w.3](bob-cli-2w.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

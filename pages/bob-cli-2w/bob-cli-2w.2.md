@@ -17,7 +17,7 @@ cancel-planner: add the `❌ **CANCEL LOG**` marker/entry grammar, a `cancel` ma
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2w.3](bob-cli-2w.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2w.3](bob-cli-2w.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
