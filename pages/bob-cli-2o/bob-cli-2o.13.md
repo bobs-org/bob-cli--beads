@@ -36,10 +36,4 @@ rollout: switch the dash NOW chip to the API and add the PLAN chip; add the `bob
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.13/README.md) | [bob-cli-2o.13](bob-cli-2o.13.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@2d048c5`](https://github.com/bbugyi200/dotfiles/commit/2d048c58958271c67e47bea6f23e0479d28e3704) | feat(bob): add commented plan defaults to chezmoi bob config | [bob-cli-2o.13](bob-cli-2o.13.md) | 2026-09-29 22:02:38 EDT |
+| [bbugyi200.apollo.bob-cli-2o.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.13/README.md) | [bob-cli-2o.13](bob-cli-2o.13.md) | 0 |
