@@ -25,4 +25,10 @@ link-toggle: block-id-prompt links or unlinks by link presence, never writes the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.8/README.md) | [bob-cli-2y.8](bob-cli-2y.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.8/README.md) | [bob-cli-2y.8](bob-cli-2y.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`85f7901`](https://github.com/bobs-org/bob-cli/commit/85f79018ab2e47075c9123c3a03c8ef2f9805f85) | docs(memory): unlinking an In Progress task keeps its lane in the Work Log strand | [bob-cli-2y.8](bob-cli-2y.8.md) | 2026-09-30 17:32:20 EDT |
