@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2o.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.7/README.md) | [bob-cli-2o.7](bob-cli-2o.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.8/README.md) | [bob-cli-2o.8](bob-cli-2o.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.9.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2o.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.land.md) | [bob-cli-2o](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-2o.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.land.md) | [bob-cli-2o](README.md) | 3 |
 
 ## Commits
 
@@ -123,3 +123,4 @@ flowchart TD
 | bob-cli | [`d28f8cd`](https://github.com/bobs-org/bob-cli/commit/d28f8cd218bf0e85344a776746e07c23dcfd56be) | feat(capture): first-class #now tag for new tasks | [bob-cli-2o.6](bob-cli-2o.6.md) | 2026-09-29 20:53:49 EDT |
 | bob-cli | [`25c1b2f`](https://github.com/bobs-org/bob-cli/commit/25c1b2f2cc2f0af4753c7c52442ce4ebfaf4e920) | feat(plan): land bob-cli-2o closeout - config isolation, ledger parity, capture guards, docs | [bob-cli-2o](README.md) | 2026-09-29 23:27:51 EDT |
 | bob-plugins | [`bob-plugins@17fbc09`](https://github.com/bobs-org/bob-plugins/commit/17fbc097fb8599464f16ac635ed1240817e61e55) | feat(ledger): plan-budget closeout parity, render child, live re-render, notices | [bob-cli-2o](README.md) | 2026-09-29 23:28:23 EDT |
+| bob-cli--plans | [`bob-cli--plans@33bdf16`](https://github.com/bobs-org/bob-cli--plans/commit/33bdf167372ba47e0dedbf5de48ac9d6674dc878) | chore(plans): mark epic and closeout plans done | [bob-cli-2o](README.md) | 2026-09-29 23:29:06 EDT |
