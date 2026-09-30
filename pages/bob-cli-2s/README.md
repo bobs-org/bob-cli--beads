@@ -16,7 +16,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2s.1](bob-cli-2s.1.md) | bob-cli: numbered start lineup and the drop engine | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [bob-cli-2s.2](bob-cli-2s.2.md) | bob-cli: \`=\[\<X\>\]\[#name\]~\<K\>\` grammar, editor support, and docs | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-2s.2](bob-cli-2s.2.md) | bob-cli: \`=\[\<X\>\]\[#name\]~\<K\>\` grammar, editor support, and docs | ◐ in_progress | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2s.3](bob-cli-2s.3.md) | Bob Mac Capture: numbered, drop-aware start card | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-2s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2s.1/README.md) | [bob-cli-2s.1](bob-cli-2s.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2s.2/README.md) | [bob-cli-2s.2](bob-cli-2s.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2s.2/README.md) | [bob-cli-2s.2](bob-cli-2s.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2s.3/README.md) | [bob-cli-2s.3](bob-cli-2s.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2s.land/README.md) | [bob-cli-2s](README.md) | 0 |
 
@@ -48,3 +48,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0b50af3`](https://github.com/bobs-org/bob-cli/commit/0b50af3cff1c86fc3bc995585b5896ae27a6edf6) | feat(capture): number whole-item start lineup and add plan\_start\_drop engine | [bob-cli-2s.1](bob-cli-2s.1.md) | 2026-09-30 09:06:14 EDT |
+| bob-cli | [`1121e06`](https://github.com/bobs-org/bob-cli/commit/1121e06d77f6e8a18a771b4a1b172e36ff7bed83) | feat(capture): start-drop grammar for whole-item starts | [bob-cli-2s.2](bob-cli-2s.2.md) | 2026-09-30 09:44:41 EDT |
