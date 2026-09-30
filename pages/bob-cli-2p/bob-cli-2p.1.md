@@ -21,7 +21,7 @@ execution: extend the shared `=`-family lexer with an optional `#name` part, cla
 
 - **Blocks:** [bob-cli-2p.2](bob-cli-2p.2.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2p.4](bob-cli-2p.4.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2p.5](bob-cli-2p.5.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2p.5](bob-cli-2p.5.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
