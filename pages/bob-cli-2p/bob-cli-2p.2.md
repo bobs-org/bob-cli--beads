@@ -20,7 +20,7 @@ editor: mirror the named start in the live-editor parser. Report mode, `section`
 ## Dependencies
 
 - **Depends on:** [bob-cli-2p.1](bob-cli-2p.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2p.3](bob-cli-2p.3.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2p.3](bob-cli-2p.3.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2p.4](bob-cli-2p.4.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2p.5](bob-cli-2p.5.md) ◐ · ⧖ 2026-09-29
 

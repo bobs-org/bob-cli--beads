@@ -15,7 +15,7 @@ mac: add the `pomodoro_start_name` completion rows (planned, next up, new, again
 
 - **Depends on:** [bob-cli-2p.1](bob-cli-2p.1.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2p.2](bob-cli-2p.2.md) ✓ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2p.3](bob-cli-2p.3.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2p.3](bob-cli-2p.3.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
