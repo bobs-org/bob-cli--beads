@@ -21,7 +21,7 @@ today-core: Rust Today engine with conformance vectors in docs/plan.md, lane met
 
 - **Depends on:** [bob-cli-2y.2](bob-cli-2y.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-2y.6](bob-cli-2y.6.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2y.7](bob-cli-2y.7.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.7](bob-cli-2y.7.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
