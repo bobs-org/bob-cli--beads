@@ -18,7 +18,7 @@ mac_block_model: add tolerant `pomodoro_blocks` decoding, a pure block presentat
 ## Dependencies
 
 - **Depends on:** [bob-cli-2r.1](bob-cli-2r.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2r.4](bob-cli-2r.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2r.4](bob-cli-2r.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
