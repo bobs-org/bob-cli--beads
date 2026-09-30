@@ -13,9 +13,9 @@ mac-close-now: render the `dropped` close outcome and the `~` span, the `now_tag
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2o.11](bob-cli-2o.11.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.11](bob-cli-2o.11.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2o.5](bob-cli-2o.5.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.5](bob-cli-2o.5.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.6](bob-cli-2o.6.md) ◐ · ⧖ 2026-09-29
 
 ## Agents

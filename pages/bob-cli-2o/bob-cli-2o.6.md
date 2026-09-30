@@ -15,7 +15,7 @@ now-token: accept `#now` after the route marker, color it with a `now_tag` span,
 
 - **Blocks:** [bob-cli-2o.12](bob-cli-2o.12.md) ◐ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
-- **Depends on:** [bob-cli-2o.5](bob-cli-2o.5.md) ◐ · ⧖ 2026-09-29
+- **Depends on:** [bob-cli-2o.5](bob-cli-2o.5.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
