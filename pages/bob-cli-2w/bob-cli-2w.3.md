@@ -14,7 +14,7 @@ cancel-picker: wire the pinned Cancel row and the live-preview reason stage into
 ## Dependencies
 
 - **Depends on:** [bob-cli-2w.1](bob-cli-2w.1.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-2w.2](bob-cli-2w.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2w.2](bob-cli-2w.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-2w.4](bob-cli-2w.4.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
