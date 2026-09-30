@@ -13,8 +13,8 @@ mac_block_view: add PomodoroBlockView (status rail, diff gutter, indent guides, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2r.2](bob-cli-2r.2.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-2r.3](bob-cli-2r.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2r.2](bob-cli-2r.2.md) ✓ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2r.3](bob-cli-2r.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

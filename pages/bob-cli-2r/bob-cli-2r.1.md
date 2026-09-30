@@ -23,8 +23,8 @@ blocks_tracker: add the block-range and depth helpers, the per-item block-ref tr
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2r.2](bob-cli-2r.2.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2r.3](bob-cli-2r.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2r.2](bob-cli-2r.2.md) ✓ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2r.3](bob-cli-2r.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
