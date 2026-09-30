@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-2r.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2r.2/README.md) | [bob-cli-2r.2](bob-cli-2r.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2r.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2r.3.md) | [bob-cli-2r.3](bob-cli-2r.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2r.4/README.md) | [bob-cli-2r.4](bob-cli-2r.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2r.land.md) | [bob-cli-2r](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2r.land.md) | [bob-cli-2r](README.md) | 2 |
 
 ## Commits
 
@@ -72,3 +72,4 @@ flowchart TD
 | bob-cli | [`f32359f`](https://github.com/bobs-org/bob-cli/commit/f32359ff6a2cd7798a4fcf197240ef9781ad9e76) | feat(capture): add pomodoro blocks tracker with batch-level JSON | [bob-cli-2r.1](bob-cli-2r.1.md) | 2026-09-30 08:46:17 EDT |
 | bob-cli | [`a297a48`](https://github.com/bobs-org/bob-cli/commit/a297a48c4646f07a9f519bfcaad77d22045938a1) | feat(capture): report every remaining Pomodoro-touching capture in pomodoro\_blocks | [bob-cli-2r.2](bob-cli-2r.2.md) | 2026-09-30 09:39:18 EDT |
 | bob-cli | [`490e452`](https://github.com/bobs-org/bob-cli/commit/490e452eaf94a70b981a8a114758ae324e0ae0e2) | feat(capture): reinstate pomodoro block debug asserts and lock start-drop coverage | [bob-cli-2r](README.md) | 2026-09-30 10:58:20 EDT |
+| bob-cli--plans | [`bob-cli--plans@14521bf`](https://github.com/bobs-org/bob-cli--plans/commit/14521bfe5fed757146466be66b80e1d6dcea8c67) | chore(plans): mark pomodoro\_full\_block\_preview status done | [bob-cli-2r](README.md) | 2026-09-30 10:58:49 EDT |
