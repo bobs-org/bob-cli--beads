@@ -17,7 +17,7 @@ vault-now: add a NOW chip and a `### NOW Tasks` section to `dash.md`, and replac
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

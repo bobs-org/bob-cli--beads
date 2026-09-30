@@ -16,18 +16,18 @@ Today's Pomodoro plan is a visible, capped, closed list (GTD + 3 themes, about 1
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2o.1](bob-cli-2o.1.md) | bob-cli: shared plan-budget core, config block, and \`bob plan\` | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [bob-cli-2o.10](bob-cli-2o.10.md) | bob-plugins: plan budget in the Ctrl+Shift+Enter Notice | ✓ closed | small | 2026-09-29 | 1 | 0 |
+| [bob-cli-2o.10](bob-cli-2o.10.md) | bob-plugins: plan budget in the Ctrl+Shift+Enter Notice | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [bob-cli-2o.11](bob-cli-2o.11.md) | Bob Mac Capture: plan budget meter, destination row, and create-row cap badge | ✓ closed | medium | 2026-09-29 | 1 | 0 |
-| [bob-cli-2o.12](bob-cli-2o.12.md) | Bob Mac Capture: drop outcome, \`#now\` token, and NOW badges | ◐ in_progress | medium | 2026-09-29 | 1 | 0 |
-| [bob-cli-2o.13](bob-cli-2o.13.md) | Rollout: PLAN chip, daily template block, config knobs, install, and end-to-end check | ◐ in_progress | small | 2026-09-29 | 1 | 0 |
+| [bob-cli-2o.12](bob-cli-2o.12.md) | Bob Mac Capture: drop outcome, \`#now\` token, and NOW badges | ✓ closed | medium | 2026-09-29 | 1 | 0 |
+| [bob-cli-2o.13](bob-cli-2o.13.md) | Rollout: PLAN chip, daily template block, config knobs, install, and end-to-end check | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [bob-cli-2o.2](bob-cli-2o.2.md) | Vault: NOW chip, NOW section, and the gtd\_daily chore swap | ✓ closed | small | 2026-09-29 | 1 | 0 |
 | [bob-cli-2o.3](bob-cli-2o.3.md) | bob-cli: plan budget in task-status-hooks and the tmux segment | ✓ closed | small | 2026-09-29 | 1 | 1 |
 | [bob-cli-2o.4](bob-cli-2o.4.md) | bob-cli: capture plan-budget warnings, strict mode, and implicit destination | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [bob-cli-2o.5](bob-cli-2o.5.md) | bob-cli: \`~\<K\>\` drop outcome for \`=x\` closes | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 | [bob-cli-2o.6](bob-cli-2o.6.md) | bob-cli: first-class \`#now\` in capture | ✓ closed | medium | 2026-09-29 | 1 | 1 |
-| [bob-cli-2o.7](bob-cli-2o.7.md) | bob-plugins: Bob Ledger Tools plan view, \`bob-plan\` block, and public API | ✓ closed | medium | 2026-09-29 | 1 | 0 |
-| [bob-cli-2o.8](bob-cli-2o.8.md) | bob-plugins: Ctrl+Shift+P edits the task behind a Task Link | ✓ closed | medium | 2026-09-29 | 1 | 0 |
-| [bob-cli-2o.9](bob-cli-2o.9.md) | bob-plugins: toggle #now from task lines and Task Links | ✓ closed | medium | 2026-09-29 | 1 | 0 |
+| [bob-cli-2o.7](bob-cli-2o.7.md) | bob-plugins: Bob Ledger Tools plan view, \`bob-plan\` block, and public API | ✓ closed | medium | 2026-09-29 | 1 | 1 |
+| [bob-cli-2o.8](bob-cli-2o.8.md) | bob-plugins: Ctrl+Shift+P edits the task behind a Task Link | ✓ closed | medium | 2026-09-29 | 1 | 1 |
+| [bob-cli-2o.9](bob-cli-2o.9.md) | bob-plugins: toggle #now from task lines and Task Links | ✓ closed | medium | 2026-09-29 | 1 | 1 |
 
 ## Lineage
 
@@ -37,8 +37,8 @@ flowchart TD
     n1["bob-cli-2o.1: bob-cli: shared plan-budget core, config block, and `bob plan` [closed]"]
     n2["bob-cli-2o.10: bob-plugins: plan budget in the Ctrl+Shift+Enter Notice [closed]"]
     n3["bob-cli-2o.11: Bob Mac Capture: plan budget meter, destination row, and create-row cap badge [closed]"]
-    n4["bob-cli-2o.12: Bob Mac Capture: drop outcome, `#now` token, and NOW badges [in_progress]"]
-    n5["bob-cli-2o.13: Rollout: PLAN chip, daily template block, config knobs, install, and end-to-end check [in_progress]"]
+    n4["bob-cli-2o.12: Bob Mac Capture: drop outcome, `#now` token, and NOW badges [closed]"]
+    n5["bob-cli-2o.13: Rollout: PLAN chip, daily template block, config knobs, install, and end-to-end check [closed]"]
     n6["bob-cli-2o.2: Vault: NOW chip, NOW section, and the gtd_daily chore swap [closed]"]
     n7["bob-cli-2o.3: bob-cli: plan budget in task-status-hooks and the tmux segment [closed]"]
     n8["bob-cli-2o.4: bob-cli: capture plan-budget warnings, strict mode, and implicit destination [closed]"]
@@ -88,26 +88,31 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-2o.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.1/README.md) | [bob-cli-2o.1](bob-cli-2o.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2o.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.10/README.md) | [bob-cli-2o.10](bob-cli-2o.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.10/README.md) | [bob-cli-2o.10](bob-cli-2o.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.11.md) | [bob-cli-2o.11](bob-cli-2o.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.12/README.md) | [bob-cli-2o.12](bob-cli-2o.12.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2o.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.13/README.md) | [bob-cli-2o.13](bob-cli-2o.13.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.13/README.md) | [bob-cli-2o.13](bob-cli-2o.13.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.2/README.md) | [bob-cli-2o.2](bob-cli-2o.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2o.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.3/README.md) | [bob-cli-2o.3](bob-cli-2o.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.4/README.md) | [bob-cli-2o.4](bob-cli-2o.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.5/README.md) | [bob-cli-2o.5](bob-cli-2o.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.6/README.md) | [bob-cli-2o.6](bob-cli-2o.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-2o.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.7/README.md) | [bob-cli-2o.7](bob-cli-2o.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2o.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.8/README.md) | [bob-cli-2o.8](bob-cli-2o.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.9.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.7/README.md) | [bob-cli-2o.7](bob-cli-2o.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2o.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.8/README.md) | [bob-cli-2o.8](bob-cli-2o.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.9.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2o.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.land/README.md) | [bob-cli-2o](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e89f38f`](https://github.com/bobs-org/bob-plugins/commit/e89f38f699df3d31dce035df4c9f1a9926910746) | feat(bob-navigation-hotkeys): task-link property picker with counted batch planning | [bob-cli-2o.8](bob-cli-2o.8.md) | 2026-09-29 18:30:22 EDT |
 | bob-cli | [`db89ee8`](https://github.com/bobs-org/bob-cli/commit/db89ee8af0ea3f9830fe2d2b9511f76983daeca4) | feat(plan): add plan config, budget engine, and read-only bob plan command | [bob-cli-2o.1](bob-cli-2o.1.md) | 2026-09-29 18:44:26 EDT |
+| bob-plugins | [`bob-plugins@ddc01ac`](https://github.com/bobs-org/bob-plugins/commit/ddc01ac2a81f1b233e5dd6b6981bb52dbae01703) | feat(bob-ledger-tools): plan-budget mirror, live bob-plan block, and versioned api | [bob-cli-2o.7](bob-cli-2o.7.md) | 2026-09-29 19:15:43 EDT |
 | bob-cli | [`f481c7a`](https://github.com/bobs-org/bob-cli/commit/f481c7a065f99806018167f6e712de543e5251ad) | feat(hooks-tmux): plan budget in task-status-hooks and the tmux segment | [bob-cli-2o.3](bob-cli-2o.3.md) | 2026-09-29 19:19:10 EDT |
+| bob-plugins | [`bob-plugins@8557a63`](https://github.com/bobs-org/bob-plugins/commit/8557a63de5c9e664e526080fca6f8c786ad080ee) | feat(block-id-prompt): append plan budget meter to link, unlink, and Task Link Notices | [bob-cli-2o.10](bob-cli-2o.10.md) | 2026-09-29 19:24:05 EDT |
 | bob-cli | [`35b96b3`](https://github.com/bobs-org/bob-cli/commit/35b96b3d734e1d21b42905312233e54afbcfc482) | feat(capture): plan-budget warnings, strict mode, and destination roles | [bob-cli-2o.4](bob-cli-2o.4.md) | 2026-09-29 19:33:21 EDT |
+| bob-plugins | [`bob-plugins@b68618f`](https://github.com/bobs-org/bob-plugins/commit/b68618ff0347c34c4b58086c490278110ec52f35) | feat(bob-navigation-hotkeys): toggle #now from task lines and Task Links | [bob-cli-2o.9](bob-cli-2o.9.md) | 2026-09-29 19:38:01 EDT |
 | bob-cli | [`754d1f3`](https://github.com/bobs-org/bob-cli/commit/754d1f31fe7feffb81c85d4ed55c17888f15a65f) | feat(capture): \`~\<K\>\` drop outcome for \`=x\` closes | [bob-cli-2o.5](bob-cli-2o.5.md) | 2026-09-29 20:11:18 EDT |
 | bob-cli | [`d28f8cd`](https://github.com/bobs-org/bob-cli/commit/d28f8cd218bf0e85344a776746e07c23dcfd56be) | feat(capture): first-class #now tag for new tasks | [bob-cli-2o.6](bob-cli-2o.6.md) | 2026-09-29 20:53:49 EDT |
+| chezmoi | [`chezmoi@2d048c5`](https://github.com/bbugyi200/dotfiles/commit/2d048c58958271c67e47bea6f23e0479d28e3704) | feat(bob): add commented plan defaults to chezmoi bob config | [bob-cli-2o.13](bob-cli-2o.13.md) | 2026-09-29 22:02:38 EDT |

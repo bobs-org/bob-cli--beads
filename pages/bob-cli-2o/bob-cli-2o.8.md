@@ -23,4 +23,10 @@ link-picker: on a dedicated Task Link bullet, the bullet-property picker targets
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.8/README.md) | [bob-cli-2o.8](bob-cli-2o.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.8/README.md) | [bob-cli-2o.8](bob-cli-2o.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e89f38f`](https://github.com/bobs-org/bob-plugins/commit/e89f38f699df3d31dce035df4c9f1a9926910746) | feat(bob-navigation-hotkeys): task-link property picker with counted batch planning | [bob-cli-2o.8](bob-cli-2o.8.md) | 2026-09-29 18:30:22 EDT |

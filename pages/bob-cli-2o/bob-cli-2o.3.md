@@ -20,7 +20,7 @@ hooks-tmux: add a read-only `plan_budget` to task-status-hooks JSON and human ou
 ## Dependencies
 
 - **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 

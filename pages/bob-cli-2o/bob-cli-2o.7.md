@@ -21,11 +21,17 @@ ledger-plan-view: mirror the plan-budget definition in bob-ledger-tools; render 
 
 - **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.10](bob-cli-2o.10.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.9](bob-cli-2o.9.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.7/README.md) | [bob-cli-2o.7](bob-cli-2o.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.7/README.md) | [bob-cli-2o.7](bob-cli-2o.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@ddc01ac`](https://github.com/bobs-org/bob-plugins/commit/ddc01ac2a81f1b233e5dd6b6981bb52dbae01703) | feat(bob-ledger-tools): plan-budget mirror, live bob-plan block, and versioned api | [bob-cli-2o.7](bob-cli-2o.7.md) | 2026-09-29 19:15:43 EDT |

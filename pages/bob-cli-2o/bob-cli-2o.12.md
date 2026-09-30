@@ -2,19 +2,23 @@
 
 [Bead Pages](../README.md) / [bob-cli-2o](README.md) / bob-cli-2o.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.38](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.38.md) · **Assignee:** `bob-cli-2o.12` · **Size:** medium
-**Created:** 2026-09-29 18:09:57 EDT
+**Created:** 2026-09-29 18:09:57 EDT · **Closed:** 2026-09-29 21:47:10 EDT
 **Plan:** [202609/pomodoro\_plan\_budget\_now\_tag.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/pomodoro_plan_budget_now_tag.md)
 
 ## Description
 
 mac-close-now: render the `dropped` close outcome and the `~` span, the `now_tag` span color and completion row, and NOW badges on active-task and close rows, all decoded tolerantly and verified on macOS CI.
 
+## Notes
+
+[2026-09-30T01:47:10Z · bob-cli-2o.12] mac-close-now done in bob-mac-capture b020df7. Rendered dropped outcome/role (struck, dimmed, minus.circle, Dropped summary, ~N hint, 'drops from today' a11y), now_tag span (mint) + #now completion row with NOW badge, NOW badges + stays-in-NOW caption on close rows, NOW badges on active-task candidates. All 5 new fixtures byte-identical to real bob output (close/parse/complete, incl. plan_budget on the close); fake-bob branches added. Fixed inherited test bug (unlisted kept row is dimmed). macOS CI run 36656165665 success on b020df7; epic-symbols clean.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-2o.11](bob-cli-2o.11.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.5](bob-cli-2o.5.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.6](bob-cli-2o.6.md) ✓ · ⧖ 2026-09-29
 

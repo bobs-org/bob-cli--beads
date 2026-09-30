@@ -20,7 +20,7 @@ close-drop: extend the close grammar to `=x[<N>][!<M>][~<K>]`, where dropped lin
 ## Dependencies
 
 - **Depends on:** [bob-cli-2o.1](bob-cli-2o.1.md) ✓ · ⧖ 2026-09-29
-- **Blocks:** [bob-cli-2o.12](bob-cli-2o.12.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.12](bob-cli-2o.12.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.4](bob-cli-2o.4.md) ✓ · ⧖ 2026-09-29
 - **Blocks:** [bob-cli-2o.6](bob-cli-2o.6.md) ✓ · ⧖ 2026-09-29
 

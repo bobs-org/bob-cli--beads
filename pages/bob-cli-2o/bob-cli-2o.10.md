@@ -17,11 +17,17 @@ link-notice-budget: append `plan T/3 · L/10`, marked 🔴 when over, to block-i
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.7](bob-cli-2o.7.md) ✓ · ⧖ 2026-09-29
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.10/README.md) | [bob-cli-2o.10](bob-cli-2o.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2o.10/README.md) | [bob-cli-2o.10](bob-cli-2o.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@8557a63`](https://github.com/bobs-org/bob-plugins/commit/8557a63de5c9e664e526080fca6f8c786ad080ee) | feat(block-id-prompt): append plan budget meter to link, unlink, and Task Link Notices | [bob-cli-2o.10](bob-cli-2o.10.md) | 2026-09-29 19:24:05 EDT |

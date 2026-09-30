@@ -19,7 +19,7 @@ now-toggle: add a counted "Toggle #now" command (default Alt+N) and a `#now` row
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ◐ · ⧖ 2026-09-29
+- **Blocks:** [bob-cli-2o.13](bob-cli-2o.13.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.7](bob-cli-2o.7.md) ✓ · ⧖ 2026-09-29
 - **Depends on:** [bob-cli-2o.8](bob-cli-2o.8.md) ✓ · ⧖ 2026-09-29
 
@@ -27,4 +27,10 @@ now-toggle: add a counted "Toggle #now" command (default Alt+N) and a `#now` row
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.9.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2o.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2o.9.md) | [bob-cli-2o.9](bob-cli-2o.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b68618f`](https://github.com/bobs-org/bob-plugins/commit/b68618ff0347c34c4b58086c490278110ec52f35) | feat(bob-navigation-hotkeys): toggle #now from task lines and Task Links | [bob-cli-2o.9](bob-cli-2o.9.md) | 2026-09-29 19:38:01 EDT |
