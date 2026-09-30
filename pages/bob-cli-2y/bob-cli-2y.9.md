@@ -17,7 +17,7 @@ release-key: retarget Alt+N and the Ctrl+Shift+P pinned row from the #now toggle
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2y.10](bob-cli-2y.10.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.10](bob-cli-2y.10.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.7](bob-cli-2y.7.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.8](bob-cli-2y.8.md) ✓ · ⧖ 2026-09-30
 

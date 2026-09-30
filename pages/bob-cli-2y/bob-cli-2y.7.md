@@ -17,7 +17,7 @@ ledger-today-api: synchronous Today cache with midnight rollover and the Tasks r
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2y.10](bob-cli-2y.10.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.10](bob-cli-2y.10.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.5](bob-cli-2y.5.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-2y.9](bob-cli-2y.9.md) ✓ · ⧖ 2026-09-30
 

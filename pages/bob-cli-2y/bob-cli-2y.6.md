@@ -19,8 +19,8 @@ capture-now-removal: delete the #now grammar, spans, completion context, picker 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2y.11](bob-cli-2y.11.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2y.12](bob-cli-2y.12.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.11](bob-cli-2y.11.md) ✓ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.12](bob-cli-2y.12.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.4](bob-cli-2y.4.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.5](bob-cli-2y.5.md) ✓ · ⧖ 2026-09-30
 

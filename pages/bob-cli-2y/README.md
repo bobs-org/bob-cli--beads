@@ -16,9 +16,9 @@ Linking a task makes it Next, working it makes it Pending, and no unlink path (h
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2y.1](bob-cli-2y.1.md) | Pause the MacBook's hooks cron before the first 2026-10-01 pass | ✓ closed | small | 2026-09-30 | 1 | 0 |
-| [bob-cli-2y.10](bob-cli-2y.10.md) | Mutually exclusive dash sections, GTD chores, and lane caps config | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
-| [bob-cli-2y.11](bob-cli-2y.11.md) | Bob Mac Capture drops #now and presents the link-presence toggle | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
-| [bob-cli-2y.12](bob-cli-2y.12.md) | Install, deploy, end-to-end check, and Bryan's checklist | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
+| [bob-cli-2y.10](bob-cli-2y.10.md) | Mutually exclusive dash sections, GTD chores, and lane caps config | ✓ closed | small | 2026-09-30 | 1 | 0 |
+| [bob-cli-2y.11](bob-cli-2y.11.md) | Bob Mac Capture drops #now and presents the link-presence toggle | ✓ closed | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-2y.12](bob-cli-2y.12.md) | Install, deploy, end-to-end check, and Bryan's checklist | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [bob-cli-2y.2](bob-cli-2y.2.md) | Sticky lanes in bob task-status-hooks, docs, and superseding decision records | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2y.3](bob-cli-2y.3.md) | Install sticky hooks on the MacBook and restore the cron | ✓ closed | small | 2026-09-30 | 1 | 0 |
 | [bob-cli-2y.4](bob-cli-2y.4.md) | No bob capture path lowers a lane | ✓ closed | medium | 2026-09-30 | 1 | 1 |
@@ -34,9 +34,9 @@ Linking a task makes it Next, working it makes it Pending, and no unlink path (h
 flowchart TD
     n0["bob-cli-2y: Retire #now: sticky Next/Pending lanes and a ledger-derived Today [in_progress]"]
     n1["bob-cli-2y.1: Pause the MacBook's hooks cron before the first 2026-10-01 pass [closed]"]
-    n2["bob-cli-2y.10: Mutually exclusive dash sections, GTD chores, and lane caps config [in_progress]"]
-    n3["bob-cli-2y.11: Bob Mac Capture drops #now and presents the link-presence toggle [in_progress]"]
-    n4["bob-cli-2y.12: Install, deploy, end-to-end check, and Bryan's checklist [in_progress]"]
+    n2["bob-cli-2y.10: Mutually exclusive dash sections, GTD chores, and lane caps config [closed]"]
+    n3["bob-cli-2y.11: Bob Mac Capture drops #now and presents the link-presence toggle [closed]"]
+    n4["bob-cli-2y.12: Install, deploy, end-to-end check, and Bryan's checklist [closed]"]
     n5["bob-cli-2y.2: Sticky lanes in bob task-status-hooks, docs, and superseding decision records [closed]"]
     n6["bob-cli-2y.3: Install sticky hooks on the MacBook and restore the cron [closed]"]
     n7["bob-cli-2y.4: No bob capture path lowers a lane [closed]"]
@@ -84,8 +84,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-2y.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.1/README.md) | [bob-cli-2y.1](bob-cli-2y.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2y.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.10/README.md) | [bob-cli-2y.10](bob-cli-2y.10.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2y.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.11/README.md) | [bob-cli-2y.11](bob-cli-2y.11.md) | 0 |
-| [bbugyi200.apollo.bob-cli-2y.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.12/README.md) | [bob-cli-2y.12](bob-cli-2y.12.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2y.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-2y.11.md) | [bob-cli-2y.11](bob-cli-2y.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2y.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.12/README.md) | [bob-cli-2y.12](bob-cli-2y.12.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.2/README.md) | [bob-cli-2y.2](bob-cli-2y.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-2y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.3/README.md) | [bob-cli-2y.3](bob-cli-2y.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-2y.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.4/README.md) | [bob-cli-2y.4](bob-cli-2y.4.md) | 1 |
@@ -109,3 +109,4 @@ flowchart TD
 | bob-cli | [`e57d33d`](https://github.com/bobs-org/bob-cli/commit/e57d33d6ef57da690aa1abf7d66506c16f63b0b7) | feat(capture): remove the #now grammar, pickers, rows, and docs (bob-cli-2y.6) | [bob-cli-2y.6](bob-cli-2y.6.md) | 2026-09-30 18:03:54 EDT |
 | bob-cli | [`473cca3`](https://github.com/bobs-org/bob-cli/commit/473cca3e0882e0fd73156a45cfbd235f97b682d4) | docs(memory): Alt+N release prompts for the Work Log summary | [bob-cli-2y.9](bob-cli-2y.9.md) | 2026-09-30 18:07:05 EDT |
 | bob-plugins | [`bob-plugins@053a076`](https://github.com/bobs-org/bob-plugins/commit/053a07640a26d2f44c71c0e0774efa8af25eacf5) | feat(nav-hotkeys): Alt+N commits or releases the lane; #now removed | [bob-cli-2y.9](bob-cli-2y.9.md) | 2026-09-30 18:07:37 EDT |
+| bob-cli | [`297ecb4`](https://github.com/bobs-org/bob-cli/commit/297ecb474445479390dba26e75eb7c52164d9441) | docs(plan): finalize Surfaces table for retired-#now rollout (bob-cli-2y.12) | [bob-cli-2y.12](bob-cli-2y.12.md) | 2026-09-30 18:59:06 EDT |

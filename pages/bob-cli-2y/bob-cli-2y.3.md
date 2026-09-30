@@ -22,7 +22,7 @@ hooks-resume: reinstall bob on the Mac from master, confirm with a dry run that 
 ## Dependencies
 
 - **Depends on:** [bob-cli-2y.1](bob-cli-2y.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2y.12](bob-cli-2y.12.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.12](bob-cli-2y.12.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.2](bob-cli-2y.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
