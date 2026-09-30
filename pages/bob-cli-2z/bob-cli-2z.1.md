@@ -19,7 +19,7 @@ engine: add the `log` entries to the close spec and CloseSelection. Validate eac
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2z.2](bob-cli-2z.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2z.2](bob-cli-2z.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

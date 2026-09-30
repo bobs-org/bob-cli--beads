@@ -13,7 +13,7 @@ mac: decode `log` and `typed_work_log`, color index chips, and add a pending sta
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-2z.2](bob-cli-2z.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2z.2](bob-cli-2z.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-2z.4](bob-cli-2z.4.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
