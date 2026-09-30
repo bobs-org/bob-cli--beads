@@ -15,7 +15,7 @@ mac-lanes: remove now_tag, NOW badges, the now picker section, and 'stays in NOW
 
 - **Blocks:** [bob-cli-2y.12](bob-cli-2y.12.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.4](bob-cli-2y.4.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-2y.6](bob-cli-2y.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2y.6](bob-cli-2y.6.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

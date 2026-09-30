@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-2y](README.md) / bob-cli-2y.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.3n](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.3n.md) · **Assignee:** `bob-cli-2y.6` · **Size:** medium
-**Created:** 2026-09-30 16:42:00 EDT
+**Created:** 2026-09-30 16:42:00 EDT · **Closed:** 2026-09-30 18:04:22 EDT
 **Plan:** [202609/retire\_now\_sticky\_lanes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/retire_now_sticky_lanes.md)
 
 ## Description
@@ -14,6 +14,8 @@ capture-now-removal: delete the #now grammar, spans, completion context, picker 
 ## Notes
 
 [2026-09-30T21:59:33Z · bob-cli-2y.6] PROPOSED FOLLOW-UP: just lint fails on clean base too — clippy::overly_complex_bool_expr deny in tests/cli/capture/pomodoro_name.rs:808 (pre-existing `|| true` in undisclosed-dependency assertion), unrelated to #now removal
+
+[2026-09-30T22:04:22Z · bob-cli-2y.6] Closed by explicit `sase stitch create -B close` after create_commit landed e57d33d ("feat(capture): remove the #now grammar, pickers, rows, and docs (bob-cli-2y.6)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-2y.6` if more work remains.
 
 ## Dependencies
 

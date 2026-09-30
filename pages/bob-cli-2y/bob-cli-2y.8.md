@@ -19,16 +19,17 @@ link-toggle: block-id-prompt links or unlinks by link presence, never writes the
 
 - **Blocks:** [bob-cli-2y.10](bob-cli-2y.10.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.2](bob-cli-2y.2.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2y.9](bob-cli-2y.9.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.9](bob-cli-2y.9.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.8/README.md) | [bob-cli-2y.8](bob-cli-2y.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-2y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.8/README.md) | [bob-cli-2y.8](bob-cli-2y.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`85f7901`](https://github.com/bobs-org/bob-cli/commit/85f79018ab2e47075c9123c3a03c8ef2f9805f85) | docs(memory): unlinking an In Progress task keeps its lane in the Work Log strand | [bob-cli-2y.8](bob-cli-2y.8.md) | 2026-09-30 17:32:20 EDT |
+| bob-plugins | [`bob-plugins@b9d9828`](https://github.com/bobs-org/bob-plugins/commit/b9d98284f658666a0e11d82d42de612666b6ef72) | feat(block-id-prompt): lane-preserving Ctrl+Shift+Enter link toggle | [bob-cli-2y.8](bob-cli-2y.8.md) | 2026-09-30 17:32:54 EDT |

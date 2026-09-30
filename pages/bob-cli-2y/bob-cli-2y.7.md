@@ -19,10 +19,16 @@ ledger-today-api: synchronous Today cache with midnight rollover and the Tasks r
 
 - **Blocks:** [bob-cli-2y.10](bob-cli-2y.10.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.5](bob-cli-2y.5.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2y.9](bob-cli-2y.9.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2y.9](bob-cli-2y.9.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-2y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.7/README.md) | [bob-cli-2y.7](bob-cli-2y.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-2y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-2y.7/README.md) | [bob-cli-2y.7](bob-cli-2y.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3297b25`](https://github.com/bobs-org/bob-plugins/commit/3297b2559f81402931abf7896d8978f3efd3b4ce) | feat(ledger): bob-ledger-tools api v2 with synchronous Today, lane budgets, and query refresh | [bob-cli-2y.7](bob-cli-2y.7.md) | 2026-09-30 17:48:37 EDT |

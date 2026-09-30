@@ -16,7 +16,7 @@ rollout: install bob on apollo, sync every plugin, finish any Mac step hooks-res
 - **Depends on:** [bob-cli-2y.10](bob-cli-2y.10.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.11](bob-cli-2y.11.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-2y.3](bob-cli-2y.3.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-2y.6](bob-cli-2y.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-2y.6](bob-cli-2y.6.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
