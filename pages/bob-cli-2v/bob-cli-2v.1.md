@@ -19,7 +19,7 @@ discovery: add the read-only `capture_link_tasks` scanner. It collects Ready, Bl
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2v.4](bob-cli-2v.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2v.4](bob-cli-2v.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

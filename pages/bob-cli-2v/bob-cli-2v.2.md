@@ -19,7 +19,7 @@ grammar: add one claim predicate for single-token `:` items. Execution rejects t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-2v.4](bob-cli-2v.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2v.4](bob-cli-2v.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
