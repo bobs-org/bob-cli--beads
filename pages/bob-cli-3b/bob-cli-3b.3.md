@@ -27,10 +27,11 @@ vocab-rotten: rename freshness-specific machine state/count/config names in Rust
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.3/README.md) | [bob-cli-3b.3](bob-cli-3b.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-3b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.3/README.md) | [bob-cli-3b.3](bob-cli-3b.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e77bbe3`](https://github.com/bobs-org/bob-cli/commit/e77bbe387ae4a88521a86b962bbb7fb8ae75e469) | feat(freshness): finish rotten vocabulary and versioned contract migration | [bob-cli-3b.3](bob-cli-3b.3.md) | 2026-10-01 14:29:46 EDT |
+| bob-plugins | [`bob-plugins@3cb3016`](https://github.com/bobs-org/bob-plugins/commit/3cb301606491a1a111e5d99a8e85c8b217ba39be) | feat(ledger-tools): rename freshness state to rotten, namespace v3, one-release legacy budget key | [bob-cli-3b.3](bob-cli-3b.3.md) | 2026-10-01 14:30:15 EDT |
