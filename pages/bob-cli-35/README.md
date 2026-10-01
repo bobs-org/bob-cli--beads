@@ -16,7 +16,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-35.1](bob-cli-35.1.md) | Shared target, marker, and install helpers | ✓ closed | small | 2026-10-01 | 1 | 1 |
-| [bob-cli-35.2](bob-cli-35.2.md) | Web clip adapter capture and extraction | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [bob-cli-35.2](bob-cli-35.2.md) | Web clip adapter capture and extraction | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 | [bob-cli-35.3](bob-cli-35.3.md) | Reader print template and renderer | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [bob-cli-35.4](bob-cli-35.4.md) | bob highlights clip Rust command | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [bob-cli-35.5](bob-cli-35.5.md) | Live OpenAI capture verification and docs finish | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
@@ -27,7 +27,7 @@
 flowchart TD
     n0["bob-cli-35: bob highlights clip — web URL to Highlights reference PDF [in_progress]"]
     n1["bob-cli-35.1: Shared target, marker, and install helpers [closed]"]
-    n2["bob-cli-35.2: Web clip adapter capture and extraction [in_progress]"]
+    n2["bob-cli-35.2: Web clip adapter capture and extraction [closed]"]
     n3["bob-cli-35.3: Reader print template and renderer [in_progress]"]
     n4["bob-cli-35.4: bob highlights clip Rust command [in_progress]"]
     n5["bob-cli-35.5: Live OpenAI capture verification and docs finish [in_progress]"]
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-35.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.1/README.md) | [bob-cli-35.1](bob-cli-35.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-35.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.2/README.md) | [bob-cli-35.2](bob-cli-35.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-35.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.2/README.md) | [bob-cli-35.2](bob-cli-35.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-35.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.3/README.md) | [bob-cli-35.3](bob-cli-35.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-35.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.4/README.md) | [bob-cli-35.4](bob-cli-35.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-35.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.5/README.md) | [bob-cli-35.5](bob-cli-35.5.md) | 0 |
@@ -58,3 +58,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fd12809`](https://github.com/bobs-org/bob-cli/commit/fd128098dc311aeb02b03f0911829157e384459a) | feat(highlights-ref): add shared stamp-core module with marker extras and atomic install | [bob-cli-35.1](bob-cli-35.1.md) | 2026-10-01 02:23:38 EDT |
+| bob-cli | [`e355016`](https://github.com/bobs-org/bob-cli/commit/e355016e67882ea464ef10b30275f98517d81cee) | feat(web-clip): implement adapter-capture phase (bob-cli-35.2) | [bob-cli-35.2](bob-cli-35.2.md) | 2026-10-01 02:49:03 EDT |
