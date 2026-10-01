@@ -19,7 +19,7 @@ In the Ctrl+Shift+P picker, Ctrl+Enter on `scheduled` takes the recommended roll
 | [bob-cli-34.2](bob-cli-34.2.md) | Navigation Hotkeys: Ctrl+Enter recommended roll for single and ^prj tasks | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-34.3](bob-cli-34.3.md) | Navigation Hotkeys: recommended roll for counted N\<Ctrl+Shift+P\> sessions | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-34.4](bob-cli-34.4.md) | Navigation Hotkeys: recommended roll for Task Link sessions | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [bob-cli-34.5](bob-cli-34.5.md) | bob-cli docs, config guard test, and chezmoi config for roll decay | ◐ in_progress | small | 2026-09-30 | 1 | 1 |
+| [bob-cli-34.5](bob-cli-34.5.md) | bob-cli docs, config guard test, and chezmoi config for roll decay | ✓ closed | small | 2026-09-30 | 1 | 2 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["bob-cli-34.2: Navigation Hotkeys: Ctrl+Enter recommended roll for single and ^prj tasks [closed]"]
     n3["bob-cli-34.3: Navigation Hotkeys: recommended roll for counted N&lt;Ctrl+Shift+P&gt; sessions [closed]"]
     n4["bob-cli-34.4: Navigation Hotkeys: recommended roll for Task Link sessions [closed]"]
-    n5["bob-cli-34.5: bob-cli docs, config guard test, and chezmoi config for roll decay [in_progress]"]
+    n5["bob-cli-34.5: bob-cli docs, config guard test, and chezmoi config for roll decay [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-34.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.2/README.md) | [bob-cli-34.2](bob-cli-34.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-34.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.3/README.md) | [bob-cli-34.3](bob-cli-34.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-34.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.4/README.md) | [bob-cli-34.4](bob-cli-34.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-34.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.5/README.md) | [bob-cli-34.5](bob-cli-34.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-34.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.5/README.md) | [bob-cli-34.5](bob-cli-34.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-34.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.land/README.md) | [bob-cli-34](README.md) | 0 |
 
 ## Commits
@@ -62,3 +62,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d97f005`](https://github.com/bobs-org/bob-plugins/commit/d97f005f8c1aeaeec68bbce8dc9cbb1ba803b44c) | feat(nav): recommended roll for counted N\<Ctrl+Shift+P\> sessions | [bob-cli-34.3](bob-cli-34.3.md) | 2026-10-01 00:57:32 EDT |
 | bob-plugins | [`bob-plugins@427f79c`](https://github.com/bobs-org/bob-plugins/commit/427f79c2566ccea68c6a9e0feda4c8e7cbd6c1bb) | feat(picker-links): add recommended roll for task-link picker sessions | [bob-cli-34.4](bob-cli-34.4.md) | 2026-10-01 01:25:11 EDT |
 | chezmoi | [`chezmoi@0f31093`](https://github.com/bbugyi200/dotfiles/commit/0f31093073d6fb98e1164fa6d2cdeec365f831b4) | docs: document priority roll decay defaults in bob config | [bob-cli-34.5](bob-cli-34.5.md) | 2026-10-01 01:32:22 EDT |
+| bob-cli | [`849e9fe`](https://github.com/bobs-org/bob-cli/commit/849e9fee9dc44d16483e988919dc69ab87bf2ddc) | docs: recommended roll and priority decay docs with config guard test | [bob-cli-34.5](bob-cli-34.5.md) | 2026-10-01 01:39:45 EDT |

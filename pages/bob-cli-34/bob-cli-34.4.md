@@ -18,7 +18,7 @@ picker-links: read each linked task's streak from its own note and reuse the com
 ## Dependencies
 
 - **Depends on:** [bob-cli-34.3](bob-cli-34.3.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-34.5](bob-cli-34.5.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-34.5](bob-cli-34.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
