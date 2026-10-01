@@ -18,7 +18,7 @@ picker-single: add the roll preview line on the `scheduled` row, Ctrl+Enter in b
 ## Dependencies
 
 - **Depends on:** [bob-cli-34.1](bob-cli-34.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-34.3](bob-cli-34.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-34.3](bob-cli-34.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
