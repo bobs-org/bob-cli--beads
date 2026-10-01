@@ -19,7 +19,7 @@ ledger-bucket: add the shared read-time bucket contract in bob-ledger-tools and 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3b.2](bob-cli-3b.2.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3b.2](bob-cli-3b.2.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

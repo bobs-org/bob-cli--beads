@@ -16,8 +16,8 @@ The dashboard separates unconfirmed tasks into NEW, keeps confirmed and exempt t
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-3b.1](bob-cli-3b.1.md) | Add cached freshness buckets and matching dashboard models | ✓ closed | medium | 2026-10-01 | 1 | 2 |
-| [bob-cli-3b.2](bob-cli-3b.2.md) | Roll out NEW and ROTTEN views, badges, docs, and decisions | ◐ in_progress | medium | 2026-10-01 | 1 | 2 |
-| [bob-cli-3b.3](bob-cli-3b.3.md) | Finish the rotten vocabulary and versioned contract migration | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [bob-cli-3b.2](bob-cli-3b.2.md) | Roll out NEW and ROTTEN views, badges, docs, and decisions | ✓ closed | medium | 2026-10-01 | 1 | 2 |
+| [bob-cli-3b.3](bob-cli-3b.3.md) | Finish the rotten vocabulary and versioned contract migration | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 
 ## Lineage
 
@@ -25,8 +25,8 @@ The dashboard separates unconfirmed tasks into NEW, keeps confirmed and exempt t
 flowchart TD
     n0["bob-cli-3b: Freshness-gated READY with NEW and ROTTEN review views [in_progress]"]
     n1["bob-cli-3b.1: Add cached freshness buckets and matching dashboard models [closed]"]
-    n2["bob-cli-3b.2: Roll out NEW and ROTTEN views, badges, docs, and decisions [in_progress]"]
-    n3["bob-cli-3b.3: Finish the rotten vocabulary and versioned contract migration [in_progress]"]
+    n2["bob-cli-3b.2: Roll out NEW and ROTTEN views, badges, docs, and decisions [closed]"]
+    n3["bob-cli-3b.3: Finish the rotten vocabulary and versioned contract migration [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -40,7 +40,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-3b.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.1/README.md) | [bob-cli-3b.1](bob-cli-3b.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-3b.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.2/README.md) | [bob-cli-3b.2](bob-cli-3b.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-3b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.3/README.md) | [bob-cli-3b.3](bob-cli-3b.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-3b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.3/README.md) | [bob-cli-3b.3](bob-cli-3b.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-3b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.land/README.md) | [bob-cli-3b](README.md) | 0 |
 
 ## Commits
@@ -51,3 +51,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@570f40d`](https://github.com/bobs-org/bob-plugins/commit/570f40de1e795f329fefdce3fe890164f8db1c2c) | feat(ledger-tools): freshness namespace v2 with gated READY and NEW/ROTTEN models | [bob-cli-3b.1](bob-cli-3b.1.md) | 2026-10-01 13:46:23 EDT |
 | bob-cli | [`286ff35`](https://github.com/bobs-org/bob-cli/commit/286ff357189e6fbd40016eda5cd643df779f0beb) | docs(freshness,plan): land dash-gating rollout docs, trial, and decisions | [bob-cli-3b.2](bob-cli-3b.2.md) | 2026-10-01 14:02:14 EDT |
 | bob-plugins | [`bob-plugins@d5c1281`](https://github.com/bobs-org/bob-plugins/commit/d5c128188ee52ee240b4910b8d7d6429bac84f6b) | feat(ledger-tools): switch status-bar fallback to rotten for dash-gating | [bob-cli-3b.2](bob-cli-3b.2.md) | 2026-10-01 14:02:48 EDT |
+| bob-cli | [`e77bbe3`](https://github.com/bobs-org/bob-cli/commit/e77bbe387ae4a88521a86b962bbb7fb8ae75e469) | feat(freshness): finish rotten vocabulary and versioned contract migration | [bob-cli-3b.3](bob-cli-3b.3.md) | 2026-10-01 14:29:46 EDT |
