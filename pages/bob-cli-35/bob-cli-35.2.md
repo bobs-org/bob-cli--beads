@@ -19,7 +19,7 @@ adapter-capture: pinned uv/Playwright adapter (protocol v1) that launches Chrome
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-35.3](bob-cli-35.3.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-35.3](bob-cli-35.3.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
