@@ -20,4 +20,10 @@ mac: decode `log` and `typed_work_log`, color index chips, and add a pending sta
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-2z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.3/README.md) | [bob-cli-2z.3](bob-cli-2z.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-2z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.3/README.md) | [bob-cli-2z.3](bob-cli-2z.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@6a0263d`](https://github.com/bobs-org/bob-mac-capture/commit/6a0263d33e302408f6d4f4a0c874e560b01cb78c) | feat(capture): highlight, preview, and submit close Work Log entries | [bob-cli-2z.3](bob-cli-2z.3.md) | 2026-09-30 20:13:32 EDT |

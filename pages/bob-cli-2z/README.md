@@ -17,7 +17,7 @@
 |---|---|---|---|---|---:|---:|
 | [bob-cli-2z.1](bob-cli-2z.1.md) | Close planner inserts typed Work Log entries and reports them | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2z.2](bob-cli-2z.2.md) | Lex, parse, chain, and document the =x Work Log tail | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [bob-cli-2z.3](bob-cli-2z.3.md) | Bob Mac Capture highlights, previews, and submits close Work Log entries | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-2z.3](bob-cli-2z.3.md) | Bob Mac Capture highlights, previews, and submits close Work Log entries | ◐ in_progress | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-2z.4](bob-cli-2z.4.md) | Install bob, verify end to end with dry runs, and hand Bryan the Mac steps | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 
 ## Lineage
@@ -44,7 +44,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-2z.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.1/README.md) | [bob-cli-2z.1](bob-cli-2z.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-2z.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.2/README.md) | [bob-cli-2z.2](bob-cli-2z.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-2z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.3/README.md) | [bob-cli-2z.3](bob-cli-2z.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-2z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.3/README.md) | [bob-cli-2z.3](bob-cli-2z.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-2z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.4/README.md) | [bob-cli-2z.4](bob-cli-2z.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-2z.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-2z.land/README.md) | [bob-cli-2z](README.md) | 0 |
 
@@ -54,3 +54,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`8653c67`](https://github.com/bobs-org/bob-cli/commit/8653c676c6b3f9caa71bee206433b6c8dc61648f) | feat(capture): insert typed Work Log entries on the =x close and report them | [bob-cli-2z.1](bob-cli-2z.1.md) | 2026-09-30 19:17:47 EDT |
 | bob-cli | [`c7ce096`](https://github.com/bobs-org/bob-cli/commit/c7ce0964fadfd6a06b27d1d8210f58ee1f010f32) | feat(capture): implement =x Work Log tail grammar | [bob-cli-2z.2](bob-cli-2z.2.md) | 2026-09-30 19:52:44 EDT |
+| bob-mac-capture | [`bob-mac-capture@6a0263d`](https://github.com/bobs-org/bob-mac-capture/commit/6a0263d33e302408f6d4f4a0c874e560b01cb78c) | feat(capture): highlight, preview, and submit close Work Log entries | [bob-cli-2z.3](bob-cli-2z.3.md) | 2026-09-30 20:13:32 EDT |
