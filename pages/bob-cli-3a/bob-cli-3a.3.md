@@ -13,7 +13,7 @@ mark-rollout: bump bob-ledger-tools to 1.10.0, update both READMEs, the Surfaces
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3a.2](bob-cli-3a.2.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [bob-cli-3a.2](bob-cli-3a.2.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

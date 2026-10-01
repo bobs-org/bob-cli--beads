@@ -17,7 +17,7 @@ mark-core: write the freshness-mark display contract and its M/N/C conformance v
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3a.2](bob-cli-3a.2.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3a.2](bob-cli-3a.2.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
