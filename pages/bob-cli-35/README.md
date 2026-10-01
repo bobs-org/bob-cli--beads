@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-35.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.3/README.md) | [bob-cli-35.3](bob-cli-35.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-35.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.4/README.md) | [bob-cli-35.4](bob-cli-35.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-35.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.5/README.md) | [bob-cli-35.5](bob-cli-35.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-35.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.land/README.md) | [bob-cli-35](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-35.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.land/README.md) | [bob-cli-35](README.md) | 2 |
 
 ## Commits
 
@@ -67,3 +67,4 @@ flowchart TD
 | bob-cli | [`5c6e2ad`](https://github.com/bobs-org/bob-cli/commit/5c6e2ad64a8c6535eb67930adbad9b3bf378d1c5) | feat(web-clip): add Bob-owned reader print template and renderer | [bob-cli-35.3](bob-cli-35.3.md) | 2026-10-01 03:21:17 EDT |
 | bob-cli | [`a35b255`](https://github.com/bobs-org/bob-cli/commit/a35b255e872f4fa2cbe8d831644a7a64f68d0611) | docs(web-clip): record live-verify gate for bob highlights clip | [bob-cli-35.5](bob-cli-35.5.md) | 2026-10-01 04:05:33 EDT |
 | bob-cli | [`6b37d39`](https://github.com/bobs-org/bob-cli/commit/6b37d3977b18a77990e9ea5f44a7b32cde74c9e9) | chore(web-clip): land epic bob-cli-35 — doc integration, hermetic doctor tests, stale hint | [bob-cli-35](README.md) | 2026-10-01 04:22:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@15dedf0`](https://github.com/bobs-org/bob-cli--plans/commit/15dedf0513978206e9b6ac7b2423155f78d6619d) | chore(plans): mark web\_url\_highlights\_clip epic plan done (bob-cli-35) | [bob-cli-35](README.md) | 2026-10-01 04:22:53 EDT |
