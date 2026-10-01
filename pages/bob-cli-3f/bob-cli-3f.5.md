@@ -24,4 +24,10 @@ rollout: add the dash CROWDED chip and the new crowded.md page. Set ready_cap: o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3f.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.5/README.md) | [bob-cli-3f.5](bob-cli-3f.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-3f.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.5/README.md) | [bob-cli-3f.5](bob-cli-3f.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`447e97d`](https://github.com/bobs-org/bob-cli/commit/447e97da716eb06ed29147bb2a606ddcdd445e44) | docs: per-note Ready cap rollout surfaces, ritual, and trial log | [bob-cli-3f.5](bob-cli-3f.5.md) | 2026-10-01 19:37:33 EDT |
