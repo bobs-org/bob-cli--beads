@@ -13,7 +13,7 @@ dash-gating: add NEW between TODAY and PENDING, gate READY, rename freshness.md 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3b.1](bob-cli-3b.1.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [bob-cli-3b.1](bob-cli-3b.1.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [bob-cli-3b.3](bob-cli-3b.3.md) ◐ · ⧖ 2026-10-01
 
 ## Agents

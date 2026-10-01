@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-3b](README.md) / bob-cli-3b.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0uy](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.0uy.md) · **Assignee:** `bob-cli-3b.1` · **Size:** medium
-**Created:** 2026-10-01 13:09:36 EDT
+**Created:** 2026-10-01 13:09:36 EDT · **Closed:** 2026-10-01 13:46:15 EDT
 **Plan:** [202610/freshness\_gated\_ready.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/freshness_gated_ready.md)
 
 ## Description
@@ -15,6 +15,8 @@ ledger-bucket: add the shared read-time bucket contract in bob-ledger-tools and 
 
 [2026-10-01T17:44:16Z · bob-cli-3b.1] PROPOSED FOLLOW-UP: flaky capture_complete day-file-missing test fails under full-suite parallelism (passes in isolation and on re-run)
 
+[2026-10-01T17:46:15Z · bob-cli-3b.1] Closed by explicit `sase stitch create -B close` after create_commit landed 6d54e39 ("feat(freshness): add read-time buckets, JSON bucket field, and rotten wording"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-3b.1` if more work remains.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-3b.2](bob-cli-3b.2.md) ◐ · ⧖ 2026-10-01
@@ -23,10 +25,11 @@ ledger-bucket: add the shared read-time bucket contract in bob-ledger-tools and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3b.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.1/README.md) | [bob-cli-3b.1](bob-cli-3b.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-3b.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.1/README.md) | [bob-cli-3b.1](bob-cli-3b.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6d54e39`](https://github.com/bobs-org/bob-cli/commit/6d54e397bd3ac9acb354b5588748870c8b04d372) | feat(freshness): add read-time buckets, JSON bucket field, and rotten wording | [bob-cli-3b.1](bob-cli-3b.1.md) | 2026-10-01 13:45:47 EDT |
+| bob-plugins | [`bob-plugins@570f40d`](https://github.com/bobs-org/bob-plugins/commit/570f40de1e795f329fefdce3fe890164f8db1c2c) | feat(ledger-tools): freshness namespace v2 with gated READY and NEW/ROTTEN models | [bob-cli-3b.1](bob-cli-3b.1.md) | 2026-10-01 13:46:23 EDT |
