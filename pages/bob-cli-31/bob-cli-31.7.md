@@ -24,10 +24,11 @@ nav-stamps: Alt+N, the Ctrl+Shift+P property/lane rows, Ctrl+Shift+M moves, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-31.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.7/README.md) | [bob-cli-31.7](bob-cli-31.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-31.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.7/README.md) | [bob-cli-31.7](bob-cli-31.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`663a0bc`](https://github.com/bobs-org/bob-cli/commit/663a0bc1846d2e75a3d7854b83d9607246076357) | docs(freshness): mark nav-stamps surfaces landed | [bob-cli-31.7](bob-cli-31.7.md) | 2026-09-30 23:18:34 EDT |
+| bob-plugins | [`bob-plugins@566a3ef`](https://github.com/bobs-org/bob-plugins/commit/566a3ef8725ff1ec6396288566575f36b9c2849f) | feat(nav): stamp freshness on lane/property/move/dependency gestures and add refresh row (bob-cli-31.7) | [bob-cli-31.7](bob-cli-31.7.md) | 2026-09-30 23:19:11 EDT |

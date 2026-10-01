@@ -22,7 +22,7 @@ Every visible, non-recurring Ready task can carry a human-confirmed [fresh:: YYY
 | [bob-cli-31.4](bob-cli-31.4.md) | Seed the live vault and mute the fields | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [bob-cli-31.5](bob-cli-31.5.md) | bob-ledger-tools api v3 freshness namespace and status bar | ✓ closed | medium | 2026-09-30 | 1 | 2 |
 | [bob-cli-31.6](bob-cli-31.6.md) | Review keys in Bob Navigation Hotkeys | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [bob-cli-31.7](bob-cli-31.7.md) | Bob Navigation Hotkeys gestures stamp freshness; Ctrl+Shift+P refresh row | ✓ closed | medium | 2026-09-30 | 1 | 1 |
+| [bob-cli-31.7](bob-cli-31.7.md) | Bob Navigation Hotkeys gestures stamp freshness; Ctrl+Shift+P refresh row | ✓ closed | medium | 2026-09-30 | 1 | 2 |
 | [bob-cli-31.8](bob-cli-31.8.md) | Status cycling and Task Link gestures stamp freshness | ✓ closed | medium | 2026-09-30 | 1 | 2 |
 | [bob-cli-31.9](bob-cli-31.9.md) | Review note, dash chip, vim maps, chores, and config | ✓ closed | small | 2026-09-30 | 1 | 0 |
 
@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-31.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.4/README.md) | [bob-cli-31.4](bob-cli-31.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-31.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.5/README.md) | [bob-cli-31.5](bob-cli-31.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-31.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.6/README.md) | [bob-cli-31.6](bob-cli-31.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-31.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.7/README.md) | [bob-cli-31.7](bob-cli-31.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-31.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.7/README.md) | [bob-cli-31.7](bob-cli-31.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-31.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.8/README.md) | [bob-cli-31.8](bob-cli-31.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-31.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.9/README.md) | [bob-cli-31.9](bob-cli-31.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-31.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.land/README.md) | [bob-cli-31](README.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | bob-cli | [`779cc0c`](https://github.com/bobs-org/bob-cli/commit/779cc0caa8169f3d2799d5d6cb30f2e475d50c85) | docs(freshness): mark cycler-link-stamps surfaces landed | [bob-cli-31.8](bob-cli-31.8.md) | 2026-09-30 22:40:31 EDT |
 | bob-plugins | [`bob-plugins@7e13c02`](https://github.com/bobs-org/bob-plugins/commit/7e13c02285a4d4c5dc6e8b47f8cce6177ac89d3a) | feat(plugins): stamp freshness on cycler-link status transitions | [bob-cli-31.8](bob-cli-31.8.md) | 2026-09-30 22:41:08 EDT |
 | bob-cli | [`663a0bc`](https://github.com/bobs-org/bob-cli/commit/663a0bc1846d2e75a3d7854b83d9607246076357) | docs(freshness): mark nav-stamps surfaces landed | [bob-cli-31.7](bob-cli-31.7.md) | 2026-09-30 23:18:34 EDT |
+| bob-plugins | [`bob-plugins@566a3ef`](https://github.com/bobs-org/bob-plugins/commit/566a3ef8725ff1ec6396288566575f36b9c2849f) | feat(nav): stamp freshness on lane/property/move/dependency gestures and add refresh row (bob-cli-31.7) | [bob-cli-31.7](bob-cli-31.7.md) | 2026-09-30 23:19:11 EDT |
