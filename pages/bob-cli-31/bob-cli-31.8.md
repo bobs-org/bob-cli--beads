@@ -26,10 +26,11 @@ cycler-link-stamps: task-status-cycler (Alt+[ / Alt+] to an open status, leaving
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-31.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.8/README.md) | [bob-cli-31.8](bob-cli-31.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-31.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.8/README.md) | [bob-cli-31.8](bob-cli-31.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`779cc0c`](https://github.com/bobs-org/bob-cli/commit/779cc0caa8169f3d2799d5d6cb30f2e475d50c85) | docs(freshness): mark cycler-link-stamps surfaces landed | [bob-cli-31.8](bob-cli-31.8.md) | 2026-09-30 22:40:31 EDT |
+| bob-plugins | [`bob-plugins@7e13c02`](https://github.com/bobs-org/bob-plugins/commit/7e13c02285a4d4c5dc6e8b47f8cce6177ac89d3a) | feat(plugins): stamp freshness on cycler-link status transitions | [bob-cli-31.8](bob-cli-31.8.md) | 2026-09-30 22:41:08 EDT |
