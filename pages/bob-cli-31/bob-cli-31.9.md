@@ -15,7 +15,7 @@ vault-review: freshness.md review note, a REVIEW dash chip, ]s / [s vimrc maps, 
 
 - **Blocks:** [bob-cli-31.10](bob-cli-31.10.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-31.4](bob-cli-31.4.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-31.6](bob-cli-31.6.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-31.6](bob-cli-31.6.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
