@@ -16,7 +16,7 @@ Every visible, non-recurring Ready task can carry a human-confirmed [fresh:: YYY
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-31.1](bob-cli-31.1.md) | Freshness contract, placement helper, evaluator, and config in bob-cli | ✓ closed | medium | 2026-09-30 | 1 | 1 |
-| [bob-cli-31.10](bob-cli-31.10.md) | Install, end-to-end check, glossary term, and Bryan's checklist | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
+| [bob-cli-31.10](bob-cli-31.10.md) | Install, end-to-end check, glossary term, and Bryan's checklist | ✓ closed | small | 2026-09-30 | 1 | 1 |
 | [bob-cli-31.2](bob-cli-31.2.md) | bob freshness list and seed | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-31.3](bob-cli-31.3.md) | bob capture stamps the existing tasks it rewrites | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-31.4](bob-cli-31.4.md) | Seed the live vault and mute the fields | ✓ closed | small | 2026-09-30 | 1 | 1 |
@@ -32,7 +32,7 @@ Every visible, non-recurring Ready task can carry a human-confirmed [fresh:: YYY
 flowchart TD
     n0["bob-cli-31: Task freshness: a rolling review lease for Ready tasks [in_progress]"]
     n1["bob-cli-31.1: Freshness contract, placement helper, evaluator, and config in bob-cli [closed]"]
-    n2["bob-cli-31.10: Install, end-to-end check, glossary term, and Bryan's checklist [in_progress]"]
+    n2["bob-cli-31.10: Install, end-to-end check, glossary term, and Bryan's checklist [closed]"]
     n3["bob-cli-31.2: bob freshness list and seed [closed]"]
     n4["bob-cli-31.3: bob capture stamps the existing tasks it rewrites [closed]"]
     n5["bob-cli-31.4: Seed the live vault and mute the fields [closed]"]
@@ -72,7 +72,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-31.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.1/README.md) | [bob-cli-31.1](bob-cli-31.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-31.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.10/README.md) | [bob-cli-31.10](bob-cli-31.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-31.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.10/README.md) | [bob-cli-31.10](bob-cli-31.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-31.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.2/README.md) | [bob-cli-31.2](bob-cli-31.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-31.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.3/README.md) | [bob-cli-31.3](bob-cli-31.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-31.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.4/README.md) | [bob-cli-31.4](bob-cli-31.4.md) | 1 |
@@ -98,3 +98,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7e13c02`](https://github.com/bobs-org/bob-plugins/commit/7e13c02285a4d4c5dc6e8b47f8cce6177ac89d3a) | feat(plugins): stamp freshness on cycler-link status transitions | [bob-cli-31.8](bob-cli-31.8.md) | 2026-09-30 22:41:08 EDT |
 | bob-cli | [`663a0bc`](https://github.com/bobs-org/bob-cli/commit/663a0bc1846d2e75a3d7854b83d9607246076357) | docs(freshness): mark nav-stamps surfaces landed | [bob-cli-31.7](bob-cli-31.7.md) | 2026-09-30 23:18:34 EDT |
 | bob-plugins | [`bob-plugins@566a3ef`](https://github.com/bobs-org/bob-plugins/commit/566a3ef8725ff1ec6396288566575f36b9c2849f) | feat(nav): stamp freshness on lane/property/move/dependency gestures and add refresh row (bob-cli-31.7) | [bob-cli-31.7](bob-cli-31.7.md) | 2026-09-30 23:19:11 EDT |
+| bob-cli | [`52969e5`](https://github.com/bobs-org/bob-cli/commit/52969e50fa95a107aaaca16532717f81987b5957) | docs(freshness): rollout — glossary strand and finalized Surfaces table (bob-cli-31.10) | [bob-cli-31.10](bob-cli-31.10.md) | 2026-09-30 23:32:32 EDT |

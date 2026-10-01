@@ -22,7 +22,7 @@ capture-stamps: plan_task_link and the =x in-progress close stamp fresh in the s
 ## Dependencies
 
 - **Depends on:** [bob-cli-31.1](bob-cli-31.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-31.10](bob-cli-31.10.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-31.10](bob-cli-31.10.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

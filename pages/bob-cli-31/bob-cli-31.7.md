@@ -17,7 +17,7 @@ nav-stamps: Alt+N, the Ctrl+Shift+P property/lane rows, Ctrl+Shift+M moves, and 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-31.10](bob-cli-31.10.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-31.10](bob-cli-31.10.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-31.6](bob-cli-31.6.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
