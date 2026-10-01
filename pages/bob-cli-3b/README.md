@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3b.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.1/README.md) | [bob-cli-3b.1](bob-cli-3b.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-3b.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.2/README.md) | [bob-cli-3b.2](bob-cli-3b.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-3b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3b.3/README.md) | [bob-cli-3b.3](bob-cli-3b.3.md) | 2 |
-| [bbugyi200.athena.bob-cli-3b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3b.land.md) | [bob-cli-3b](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-3b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3b.land.md) | [bob-cli-3b](README.md) | 2 |
 
 ## Commits
 
@@ -80,3 +80,4 @@ flowchart TD
 | bob-cli | [`e77bbe3`](https://github.com/bobs-org/bob-cli/commit/e77bbe387ae4a88521a86b962bbb7fb8ae75e469) | feat(freshness): finish rotten vocabulary and versioned contract migration | [bob-cli-3b.3](bob-cli-3b.3.md) | 2026-10-01 14:29:46 EDT |
 | bob-plugins | [`bob-plugins@3cb3016`](https://github.com/bobs-org/bob-plugins/commit/3cb301606491a1a111e5d99a8e85c8b217ba39be) | feat(ledger-tools): rename freshness state to rotten, namespace v3, one-release legacy budget key | [bob-cli-3b.3](bob-cli-3b.3.md) | 2026-10-01 14:30:15 EDT |
 | bob-cli | [`8d9a229`](https://github.com/bobs-org/bob-cli/commit/8d9a2292f2f2c82e6b3a8a953780e8b31daf8d84) | docs(plan): correct daily bob-plan block to the four-chip contract | [bob-cli-3b](README.md) | 2026-10-01 15:14:23 EDT |
+| bob-plugins | [`bob-plugins@74d831d`](https://github.com/bobs-org/bob-plugins/commit/74d831d9892953c17ec8f2903c3804e54256a1b7) | fix(ledger-tools): per-row freshness identity, warm interval, daily READY lane tooltip (1.13.2) | [bob-cli-3b](README.md) | 2026-10-01 15:14:51 EDT |
