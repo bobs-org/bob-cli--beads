@@ -13,7 +13,7 @@ rollout: install bob and confirm plugin deploys, run the headless end-to-end che
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-31.3](bob-cli-31.3.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-31.3](bob-cli-31.3.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-31.7](bob-cli-31.7.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-31.8](bob-cli-31.8.md) ◐ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-31.9](bob-cli-31.9.md) ◐ · ⧖ 2026-09-30

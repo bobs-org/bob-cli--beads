@@ -20,7 +20,7 @@ fresh-core: docs/freshness.md (definition, placement and state rules, conformanc
 ## Dependencies
 
 - **Blocks:** [bob-cli-31.2](bob-cli-31.2.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-31.3](bob-cli-31.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-31.3](bob-cli-31.3.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-31.5](bob-cli-31.5.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
