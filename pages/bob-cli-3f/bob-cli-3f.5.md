@@ -11,6 +11,10 @@
 
 rollout: add the dash CROWDED chip and the new crowded.md page. Set ready_cap: off on the three inboxes, add CROWDED to the morning ritual and `bob ready -a` to the weekly prune, add a sase.md triage task, and log the trial. Updates the plan and freshness docs, cross-checks the CLI against the plugin, and records verification evidence.
 
+## Notes
+
+[2026-10-01T23:32:37Z · bob-cli-3f.5] PROPOSED FOLLOW-UP: flaky test native::capture_pomodoros::tests::missing_note_and_missing_section_are_warning_successes races on process-wide BOB_DAY_FILE set_var under parallel lib tests (fails ~1 in 2 full runs, passes in isolation); consider serializing env-mutating tests
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-3f.2](bob-cli-3f.2.md) ✓ · ⧖ 2026-10-01
