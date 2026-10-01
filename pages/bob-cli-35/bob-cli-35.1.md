@@ -19,7 +19,7 @@ stamp-core: factor create's target planning, collision guards, marker compositio
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-35.4](bob-cli-35.4.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-35.4](bob-cli-35.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

@@ -14,7 +14,7 @@ live-verify: build bob, capture the OpenAI Symphony URL on athena into a scratch
 ## Dependencies
 
 - **Depends on:** [bob-cli-35.3](bob-cli-35.3.md) ◐ · ⧖ 2026-10-01
-- **Depends on:** [bob-cli-35.4](bob-cli-35.4.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [bob-cli-35.4](bob-cli-35.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
