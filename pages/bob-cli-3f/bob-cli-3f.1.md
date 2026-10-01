@@ -17,8 +17,8 @@ core: add plan.max_ready_per_note and the ready_cap frontmatter. Extend the area
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3f.2](bob-cli-3f.2.md) ◐ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-3f.3](bob-cli-3f.3.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3f.2](bob-cli-3f.2.md) ✓ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3f.3](bob-cli-3f.3.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

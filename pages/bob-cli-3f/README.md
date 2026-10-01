@@ -16,8 +16,8 @@ Every area/project note has a soft cap on its Ready lane (plan.max_ready_per_not
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-3f.1](bob-cli-3f.1.md) | Ready-lane-per-note contract, config, and Rust evaluator | ✓ closed | medium | 2026-10-01 | 1 | 1 |
-| [bob-cli-3f.2](bob-cli-3f.2.md) | bob ready command | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
-| [bob-cli-3f.3](bob-cli-3f.3.md) | bob-ledger-tools noteReady API | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [bob-cli-3f.2](bob-cli-3f.2.md) | bob ready command | ✓ closed | medium | 2026-10-01 | 1 | 0 |
+| [bob-cli-3f.3](bob-cli-3f.3.md) | bob-ledger-tools noteReady API | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 | [bob-cli-3f.4](bob-cli-3f.4.md) | CROWDED chip, bob-ready-notes block, and Tasks heading chip | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 | [bob-cli-3f.5](bob-cli-3f.5.md) | Vault rollout, docs, and live verification | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
 
@@ -27,8 +27,8 @@ Every area/project note has a soft cap on its Ready lane (plan.max_ready_per_not
 flowchart TD
     n0["bob-cli-3f: Per-note Ready cap: crowded notes in the CLI, dash, and notes [in_progress]"]
     n1["bob-cli-3f.1: Ready-lane-per-note contract, config, and Rust evaluator [closed]"]
-    n2["bob-cli-3f.2: bob ready command [in_progress]"]
-    n3["bob-cli-3f.3: bob-ledger-tools noteReady API [in_progress]"]
+    n2["bob-cli-3f.2: bob ready command [closed]"]
+    n3["bob-cli-3f.3: bob-ledger-tools noteReady API [closed]"]
     n4["bob-cli-3f.4: CROWDED chip, bob-ready-notes block, and Tasks heading chip [in_progress]"]
     n5["bob-cli-3f.5: Vault rollout, docs, and live verification [in_progress]"]
     n0 --> n1
@@ -49,7 +49,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-3f.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.1/README.md) | [bob-cli-3f.1](bob-cli-3f.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-3f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.2/README.md) | [bob-cli-3f.2](bob-cli-3f.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-3f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.3/README.md) | [bob-cli-3f.3](bob-cli-3f.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-3f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.3/README.md) | [bob-cli-3f.3](bob-cli-3f.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-3f.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.4/README.md) | [bob-cli-3f.4](bob-cli-3f.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-3f.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.5/README.md) | [bob-cli-3f.5](bob-cli-3f.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-3f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.land/README.md) | [bob-cli-3f](README.md) | 0 |
@@ -59,3 +59,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6e04265`](https://github.com/bobs-org/bob-cli/commit/6e0426524aeed583632995fdc01ceae33f840c17) | feat(note-ready): per-note Ready cap contract, config, and Rust evaluator | [bob-cli-3f.1](bob-cli-3f.1.md) | 2026-10-01 18:17:15 EDT |
+| bob-plugins | [`bob-plugins@03fbd18`](https://github.com/bobs-org/bob-plugins/commit/03fbd18367f00fa6b2bdf997131588e0bd866d04) | feat(ledger-tools): per-note Ready cap api.noteReady v1 (1.15.0) | [bob-cli-3f.3](bob-cli-3f.3.md) | 2026-10-01 18:47:49 EDT |
