@@ -18,7 +18,7 @@ ledger-api: add api.noteReady v1 (snapshot, forNote, counted, inCrowdedNote, gro
 ## Dependencies
 
 - **Depends on:** [bob-cli-3f.1](bob-cli-3f.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-3f.4](bob-cli-3f.4.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3f.4](bob-cli-3f.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

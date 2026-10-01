@@ -14,7 +14,7 @@ rollout: add the dash CROWDED chip and the new crowded.md page. Set ready_cap: o
 ## Dependencies
 
 - **Depends on:** [bob-cli-3f.2](bob-cli-3f.2.md) ✓ · ⧖ 2026-10-01
-- **Depends on:** [bob-cli-3f.4](bob-cli-3f.4.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [bob-cli-3f.4](bob-cli-3f.4.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
