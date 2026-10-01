@@ -22,7 +22,7 @@ submits the new drafts, and the close card shows each entry with its details.
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-32.1](bob-cli-32.1.md) | Close planner writes Work Log details under typed entries and reports them | ✓ closed | small | 2026-09-30 | 1 | 1 |
-| [bob-cli-32.2](bob-cli-32.2.md) | Parse Work Log bullets under =x, retire the inline tail, and document it | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-32.2](bob-cli-32.2.md) | Parse Work Log bullets under =x, retire the inline tail, and document it | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-32.3](bob-cli-32.3.md) | Bob Mac Capture previews Work Log bullets and their details | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
 | [bob-cli-32.4](bob-cli-32.4.md) | Install bob, verify bullet drafts with dry runs, and hand Bryan the Mac steps | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 
@@ -32,7 +32,7 @@ submits the new drafts, and the close card shows each entry with its details.
 flowchart TD
     n0["bob-cli-32: Work Log entries as bullets under the =x close [in_progress]"]
     n1["bob-cli-32.1: Close planner writes Work Log details under typed entries and reports them [closed]"]
-    n2["bob-cli-32.2: Parse Work Log bullets under =x, retire the inline tail, and document it [in_progress]"]
+    n2["bob-cli-32.2: Parse Work Log bullets under =x, retire the inline tail, and document it [closed]"]
     n3["bob-cli-32.3: Bob Mac Capture previews Work Log bullets and their details [in_progress]"]
     n4["bob-cli-32.4: Install bob, verify bullet drafts with dry runs, and hand Bryan the Mac steps [in_progress]"]
     n0 --> n1
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-32.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.1/README.md) | [bob-cli-32.1](bob-cli-32.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-32.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.2/README.md) | [bob-cli-32.2](bob-cli-32.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-32.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.2/README.md) | [bob-cli-32.2](bob-cli-32.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-32.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.3/README.md) | [bob-cli-32.3](bob-cli-32.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-32.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.4/README.md) | [bob-cli-32.4](bob-cli-32.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-32.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.land/README.md) | [bob-cli-32](README.md) | 0 |
@@ -61,3 +61,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`15c6341`](https://github.com/bobs-org/bob-cli/commit/15c63418ddc0558b968694cc53f88f083190db7a) | feat(capture): close planner writes Work Log details under typed entries and reports them | [bob-cli-32.1](bob-cli-32.1.md) | 2026-09-30 21:51:25 EDT |
+| bob-cli | [`0ce41b9`](https://github.com/bobs-org/bob-cli/commit/0ce41b9df8470a93f6001fe4776b7b31d46e07c3) | feat(capture): use child bullets for =x Work Log entries | [bob-cli-32.2](bob-cli-32.2.md) | 2026-09-30 22:36:06 EDT |

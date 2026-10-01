@@ -18,7 +18,7 @@ and get macOS CI green.
 ## Dependencies
 
 - **Depends on:** [bob-cli-32.1](bob-cli-32.1.md) ✓ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-32.2](bob-cli-32.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-32.2](bob-cli-32.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-32.4](bob-cli-32.4.md) ◐ · ⧖ 2026-09-30
 
 ## Agents

@@ -16,7 +16,7 @@ app.
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-32.2](bob-cli-32.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-32.2](bob-cli-32.2.md) ✓ · ⧖ 2026-09-30
 - **Depends on:** [bob-cli-32.3](bob-cli-32.3.md) ◐ · ⧖ 2026-09-30
 
 ## Agents
