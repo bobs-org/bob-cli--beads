@@ -25,10 +25,11 @@ mark-rollout: bump bob-ledger-tools to 1.10.0, update both READMEs, the Surfaces
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-3a.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3a.3/README.md) | [bob-cli-3a.3](bob-cli-3a.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3a.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3a.3/README.md) | [bob-cli-3a.3](bob-cli-3a.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d2aae45`](https://github.com/bobs-org/bob-cli/commit/d2aae45e51949431d47b9a64dc29b94fc36ac3fa) | docs(freshness): land mark rollout surfaces and live-verification checklist | [bob-cli-3a.3](bob-cli-3a.3.md) | 2026-10-01 12:11:26 EDT |
+| bob-plugins | [`bob-plugins@0d018c7`](https://github.com/bobs-org/bob-plugins/commit/0d018c70156e7d9ed124e2103b8ba2b699982a77) | feat(ledger-tools): mark rollout v1.10.0 with docs and manifest | [bob-cli-3a.3](bob-cli-3a.3.md) | 2026-10-01 12:12:00 EDT |
