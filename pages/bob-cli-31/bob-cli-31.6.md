@@ -20,8 +20,8 @@ nav-review: vault-wide next/previous due-task jumps (Ctrl+Alt+J/K, and the comma
 ## Dependencies
 
 - **Depends on:** [bob-cli-31.5](bob-cli-31.5.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-31.7](bob-cli-31.7.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-31.9](bob-cli-31.9.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-31.7](bob-cli-31.7.md) ✓ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-31.9](bob-cli-31.9.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
