@@ -24,4 +24,10 @@ cli: add the read-only top-level `bob ready [NOTE]`: a colored CROWDED/FULL/ROOM
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.2/README.md) | [bob-cli-3f.2](bob-cli-3f.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-3f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3f.2/README.md) | [bob-cli-3f.2](bob-cli-3f.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`812c1b1`](https://github.com/bobs-org/bob-cli/commit/812c1b19ac8402dd92c6fd451405e6a853341c97) | feat(ready): add bob ready per-note Ready-cap view | [bob-cli-3f.2](bob-cli-3f.2.md) | 2026-10-01 18:48:02 EDT |
