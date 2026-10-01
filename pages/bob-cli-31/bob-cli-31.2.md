@@ -18,7 +18,7 @@ fresh-cli: headless review queue (bob freshness list, human and JSON) and a guar
 ## Dependencies
 
 - **Depends on:** [bob-cli-31.1](bob-cli-31.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-31.4](bob-cli-31.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-31.4](bob-cli-31.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
