@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-32.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.2/README.md) | [bob-cli-32.2](bob-cli-32.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-32.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.3/README.md) | [bob-cli-32.3](bob-cli-32.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-32.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.4/README.md) | [bob-cli-32.4](bob-cli-32.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-32.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.land/README.md) | [bob-cli-32](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-32.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-32.land/README.md) | [bob-cli-32](README.md) | 2 |
 
 ## Commits
 
@@ -75,3 +75,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@1c85058`](https://github.com/bobs-org/bob-mac-capture/commit/1c85058c4f9d2bc7c562d0a5a7e6d111d39e5bf5) | feat(capture): preview Work Log bullets and their details on the close card | [bob-cli-32.3](bob-cli-32.3.md) | 2026-09-30 22:59:05 EDT |
 | bob-mac-capture | [`bob-mac-capture@0ff0de9`](https://github.com/bobs-org/bob-mac-capture/commit/0ff0de999056040ab09297445b92a1faad25335b) | fix(capture): serve the trimmed bullet placeholder as a plain close in fake-bob | [bob-cli-32.3](bob-cli-32.3.md) | 2026-09-30 23:05:27 EDT |
 | bob-cli | [`f9eef4c`](https://github.com/bobs-org/bob-cli/commit/f9eef4c98d6f777b836b2389cbd95c426927dde9) | docs(capture): name bullet-line completion and use the close error | [bob-cli-32](README.md) | 2026-09-30 23:47:59 EDT |
+| bob-cli--plans | [`bob-cli--plans@9ba9406`](https://github.com/bobs-org/bob-cli--plans/commit/9ba9406859a687a0f0024bc638054a9d3b92df83) | docs(plan): mark close\_work\_log\_bullets done | [bob-cli-32](README.md) | 2026-09-30 23:48:31 EDT |
