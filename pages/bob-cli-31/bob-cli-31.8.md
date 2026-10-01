@@ -14,7 +14,7 @@ cycler-link-stamps: task-status-cycler (Alt+[ / Alt+] to an open status, leaving
 ## Dependencies
 
 - **Blocks:** [bob-cli-31.10](bob-cli-31.10.md) ◐ · ⧖ 2026-09-30
-- **Depends on:** [bob-cli-31.5](bob-cli-31.5.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-31.5](bob-cli-31.5.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

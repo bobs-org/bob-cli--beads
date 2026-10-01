@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-31](README.md) / bob-cli-31.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.v.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.v.linker.w0.md) · **Assignee:** `bob-cli-31.5` · **Size:** medium
-**Created:** 2026-09-30 19:32:06 EDT
+**Created:** 2026-09-30 19:32:06 EDT · **Closed:** 2026-09-30 22:18:10 EDT
 **Plan:** [202609/task\_freshness\_review.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202609/task_freshness_review.md)
 
 ## Description
 
 ledger-freshness: the JavaScript evaluator and placement helper on the shared vectors, api v3 (api.freshness with stampLine, state, isDue, tier, rank, queue, counts), the freshness: config, and a status bar counter that clicks through to the next due task.
+
+## Notes
+
+[2026-10-01T02:18:10Z · bob-cli-31.5] ledger-freshness landed: api v3 api.freshness (stampLine/setRefreshLine/state/isDue/tier/rank/intervalFor/queue/counts/lints/config) mirroring docs/freshness.md P+S vectors, freshness: config block, debounced status bar counter with click-through, manifest 1.8.0. Verified: npm test 894 pass/0 fail (21 new freshness tests), npm run validate 6/6, deployed via bob plugins sync -p bob-ledger-tools and vault copy matches, no epic-symbols remain.
 
 ## Dependencies
 
@@ -22,4 +26,10 @@ ledger-freshness: the JavaScript evaluator and placement helper on the shared ve
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-31.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.5/README.md) | [bob-cli-31.5](bob-cli-31.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-31.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.5/README.md) | [bob-cli-31.5](bob-cli-31.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`fcf1f6a`](https://github.com/bobs-org/bob-cli/commit/fcf1f6ab679869befac977f07ad13f0b6c2601ea) | docs(freshness): add ledger-freshness spec and phase Surfaces row | [bob-cli-31.5](bob-cli-31.5.md) | 2026-09-30 22:20:27 EDT |
