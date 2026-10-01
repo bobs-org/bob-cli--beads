@@ -27,10 +27,4 @@ nav-review: vault-wide next/previous due-task jumps (Ctrl+Alt+J/K, and the comma
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-31.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.6/README.md) | [bob-cli-31.6](bob-cli-31.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@3fc6a5f`](https://github.com/bobs-org/bob-plugins/commit/3fc6a5f85a837904de2a02d23bb01557fffa0121) | feat(nav): review keys for task freshness (bob-cli-31.6) | [bob-cli-31.6](bob-cli-31.6.md) | 2026-09-30 22:37:00 EDT |
+| [bbugyi200.apollo.bob-cli-31.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.6/README.md) | [bob-cli-31.6](bob-cli-31.6.md) | 0 |
