@@ -25,8 +25,8 @@ bullet lines, then update help, docs/capture.md, and tests.
 ## Dependencies
 
 - **Depends on:** [bob-cli-32.1](bob-cli-32.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-32.3](bob-cli-32.3.md) ◐ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-32.4](bob-cli-32.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-32.3](bob-cli-32.3.md) ✓ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-32.4](bob-cli-32.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
