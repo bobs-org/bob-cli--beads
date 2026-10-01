@@ -20,7 +20,7 @@ grammar: add one shared tail lexer for `bob capture` and `capture-parse` (index 
 ## Dependencies
 
 - **Depends on:** [bob-cli-2z.1](bob-cli-2z.1.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-2z.3](bob-cli-2z.3.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-2z.3](bob-cli-2z.3.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
