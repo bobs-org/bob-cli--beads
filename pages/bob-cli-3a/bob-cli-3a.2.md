@@ -18,7 +18,7 @@ mark-surfaces: wire the model into Obsidian. Add a Prec.highest CodeMirror ViewP
 ## Dependencies
 
 - **Depends on:** [bob-cli-3a.1](bob-cli-3a.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-3a.3](bob-cli-3a.3.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3a.3](bob-cli-3a.3.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
