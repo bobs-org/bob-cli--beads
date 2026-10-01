@@ -13,7 +13,7 @@ seed: install bob from master, dry-run then apply bob freshness seed to ~/bob, v
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-31.2](bob-cli-31.2.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-31.2](bob-cli-31.2.md) ✓ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-31.5](bob-cli-31.5.md) ◐ · ⧖ 2026-09-30
 - **Blocks:** [bob-cli-31.9](bob-cli-31.9.md) ◐ · ⧖ 2026-09-30
 

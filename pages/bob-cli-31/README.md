@@ -17,7 +17,7 @@ Every visible, non-recurring Ready task can carry a human-confirmed [fresh:: YYY
 |---|---|---|---|---|---:|---:|
 | [bob-cli-31.1](bob-cli-31.1.md) | Freshness contract, placement helper, evaluator, and config in bob-cli | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-31.10](bob-cli-31.10.md) | Install, end-to-end check, glossary term, and Bryan's checklist | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
-| [bob-cli-31.2](bob-cli-31.2.md) | bob freshness list and seed | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
+| [bob-cli-31.2](bob-cli-31.2.md) | bob freshness list and seed | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-31.3](bob-cli-31.3.md) | bob capture stamps the existing tasks it rewrites | ✓ closed | medium | 2026-09-30 | 1 | 1 |
 | [bob-cli-31.4](bob-cli-31.4.md) | Seed the live vault and mute the fields | ◐ in_progress | small | 2026-09-30 | 1 | 0 |
 | [bob-cli-31.5](bob-cli-31.5.md) | bob-ledger-tools api v3 freshness namespace and status bar | ◐ in_progress | medium | 2026-09-30 | 1 | 0 |
@@ -33,7 +33,7 @@ flowchart TD
     n0["bob-cli-31: Task freshness: a rolling review lease for Ready tasks [in_progress]"]
     n1["bob-cli-31.1: Freshness contract, placement helper, evaluator, and config in bob-cli [closed]"]
     n2["bob-cli-31.10: Install, end-to-end check, glossary term, and Bryan's checklist [in_progress]"]
-    n3["bob-cli-31.2: bob freshness list and seed [in_progress]"]
+    n3["bob-cli-31.2: bob freshness list and seed [closed]"]
     n4["bob-cli-31.3: bob capture stamps the existing tasks it rewrites [closed]"]
     n5["bob-cli-31.4: Seed the live vault and mute the fields [in_progress]"]
     n6["bob-cli-31.5: bob-ledger-tools api v3 freshness namespace and status bar [in_progress]"]
@@ -73,7 +73,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-31.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.1/README.md) | [bob-cli-31.1](bob-cli-31.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-31.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.10/README.md) | [bob-cli-31.10](bob-cli-31.10.md) | 0 |
-| [bbugyi200.apollo.bob-cli-31.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.2/README.md) | [bob-cli-31.2](bob-cli-31.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-31.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.2/README.md) | [bob-cli-31.2](bob-cli-31.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-31.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.3/README.md) | [bob-cli-31.3](bob-cli-31.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-31.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.4/README.md) | [bob-cli-31.4](bob-cli-31.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-31.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.5/README.md) | [bob-cli-31.5](bob-cli-31.5.md) | 0 |
@@ -89,3 +89,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`32d7007`](https://github.com/bobs-org/bob-cli/commit/32d700717c65ef691d6cb8cb457f948d56445686) | feat(freshness): implement fresh-core contract, placement, evaluator and config | [bob-cli-31.1](bob-cli-31.1.md) | 2026-09-30 19:56:49 EDT |
 | bob-cli | [`3cd4d44`](https://github.com/bobs-org/bob-cli/commit/3cd4d44290857815d6d6596ed307a54eca2456e7) | feat(capture): stamp freshness on rewritten tasks | [bob-cli-31.3](bob-cli-31.3.md) | 2026-09-30 20:23:52 EDT |
+| bob-cli | [`f103979`](https://github.com/bobs-org/bob-cli/commit/f103979594c7a1b471ddb6a9f291befce6c3db2a) | feat(freshness): add bob freshness list and seed review queue | [bob-cli-31.2](bob-cli-31.2.md) | 2026-09-30 20:41:17 EDT |
