@@ -19,7 +19,7 @@
 | [bob-cli-35.2](bob-cli-35.2.md) | Web clip adapter capture and extraction | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 | [bob-cli-35.3](bob-cli-35.3.md) | Reader print template and renderer | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 | [bob-cli-35.4](bob-cli-35.4.md) | bob highlights clip Rust command | ✓ closed | medium | 2026-10-01 | 1 | 1 |
-| [bob-cli-35.5](bob-cli-35.5.md) | Live OpenAI capture verification and docs finish | ◐ in_progress | medium | 2026-10-01 | 1 | 0 |
+| [bob-cli-35.5](bob-cli-35.5.md) | Live OpenAI capture verification and docs finish | ✓ closed | medium | 2026-10-01 | 1 | 1 |
 
 ## Lineage
 
@@ -30,7 +30,7 @@ flowchart TD
     n2["bob-cli-35.2: Web clip adapter capture and extraction [closed]"]
     n3["bob-cli-35.3: Reader print template and renderer [closed]"]
     n4["bob-cli-35.4: bob highlights clip Rust command [closed]"]
-    n5["bob-cli-35.5: Live OpenAI capture verification and docs finish [in_progress]"]
+    n5["bob-cli-35.5: Live OpenAI capture verification and docs finish [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -50,7 +50,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-35.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.2/README.md) | [bob-cli-35.2](bob-cli-35.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-35.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.3/README.md) | [bob-cli-35.3](bob-cli-35.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-35.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.4/README.md) | [bob-cli-35.4](bob-cli-35.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-35.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.5/README.md) | [bob-cli-35.5](bob-cli-35.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-35.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.5/README.md) | [bob-cli-35.5](bob-cli-35.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-35.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-35.land/README.md) | [bob-cli-35](README.md) | 0 |
 
 ## Commits
@@ -61,3 +61,4 @@ flowchart TD
 | bob-cli | [`e355016`](https://github.com/bobs-org/bob-cli/commit/e355016e67882ea464ef10b30275f98517d81cee) | feat(web-clip): implement adapter-capture phase (bob-cli-35.2) | [bob-cli-35.2](bob-cli-35.2.md) | 2026-10-01 02:49:03 EDT |
 | bob-cli | [`44bfe58`](https://github.com/bobs-org/bob-cli/commit/44bfe5898fa399eb2669b15d2525db69a0236b23) | feat(highlights): add bob highlights clip subcommand | [bob-cli-35.4](bob-cli-35.4.md) | 2026-10-01 02:55:23 EDT |
 | bob-cli | [`5c6e2ad`](https://github.com/bobs-org/bob-cli/commit/5c6e2ad64a8c6535eb67930adbad9b3bf378d1c5) | feat(web-clip): add Bob-owned reader print template and renderer | [bob-cli-35.3](bob-cli-35.3.md) | 2026-10-01 03:21:17 EDT |
+| bob-cli | [`a35b255`](https://github.com/bobs-org/bob-cli/commit/a35b255e872f4fa2cbe8d831644a7a64f68d0611) | docs(web-clip): record live-verify gate for bob highlights clip | [bob-cli-35.5](bob-cli-35.5.md) | 2026-10-01 04:05:33 EDT |

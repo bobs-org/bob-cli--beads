@@ -20,7 +20,7 @@ clip-command: clap subcommand, URL validation and slug rules, source_url dedupe,
 ## Dependencies
 
 - **Depends on:** [bob-cli-35.1](bob-cli-35.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-35.5](bob-cli-35.5.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-35.5](bob-cli-35.5.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

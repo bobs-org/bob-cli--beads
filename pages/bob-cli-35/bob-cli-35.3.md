@@ -20,7 +20,7 @@ reader-template: Bob-owned Chromium print template with bundled OFL fonts, masth
 ## Dependencies
 
 - **Depends on:** [bob-cli-35.2](bob-cli-35.2.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-35.5](bob-cli-35.5.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-35.5](bob-cli-35.5.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
