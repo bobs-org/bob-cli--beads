@@ -61,7 +61,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3a.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3a.1/README.md) | [bob-cli-3a.1](bob-cli-3a.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-3a.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3a.2/README.md) | [bob-cli-3a.2](bob-cli-3a.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3a.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3a.3/README.md) | [bob-cli-3a.3](bob-cli-3a.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-3a.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3a.land.md) | [bob-cli-3a](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3a.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3a.land.md) | [bob-cli-3a](README.md) | 2 |
 
 ## Commits
 
@@ -73,3 +73,4 @@ flowchart TD
 | bob-cli | [`d2aae45`](https://github.com/bobs-org/bob-cli/commit/d2aae45e51949431d47b9a64dc29b94fc36ac3fa) | docs(freshness): land mark rollout surfaces and live-verification checklist | [bob-cli-3a.3](bob-cli-3a.3.md) | 2026-10-01 12:11:26 EDT |
 | bob-plugins | [`bob-plugins@0d018c7`](https://github.com/bobs-org/bob-plugins/commit/0d018c70156e7d9ed124e2103b8ba2b699982a77) | feat(ledger-tools): mark rollout v1.10.0 with docs and manifest | [bob-cli-3a.3](bob-cli-3a.3.md) | 2026-10-01 12:12:00 EDT |
 | bob-plugins | [`bob-plugins@854bdbe`](https://github.com/bobs-org/bob-plugins/commit/854bdbe0495325b88ebe66e2566c7183c8b7facb) | fix(ledger-tools): restore READY badge text wiped by Obsidian text setter | [bob-cli-3a](README.md) | 2026-10-01 12:32:02 EDT |
+| bob-cli--plans | [`bob-cli--plans@36d4fd1`](https://github.com/bobs-org/bob-cli--plans/commit/36d4fd15b6bc9e7686cf8a595a93e6984ca50c08) | chore(plans): mark freshness-mark epic plan done | [bob-cli-3a](README.md) | 2026-10-01 12:32:29 EDT |
