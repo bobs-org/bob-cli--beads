@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-31.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.7/README.md) | [bob-cli-31.7](bob-cli-31.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-31.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.8/README.md) | [bob-cli-31.8](bob-cli-31.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-31.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-31.9/README.md) | [bob-cli-31.9](bob-cli-31.9.md) | 0 |
-| [bbugyi200.apollo.bob-cli-31.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-31.land.md) | [bob-cli-31](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-31.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-31.land.md) | [bob-cli-31](README.md) | 2 |
 
 ## Commits
 
@@ -108,3 +108,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@566a3ef`](https://github.com/bobs-org/bob-plugins/commit/566a3ef8725ff1ec6396288566575f36b9c2849f) | feat(nav): stamp freshness on lane/property/move/dependency gestures and add refresh row (bob-cli-31.7) | [bob-cli-31.7](bob-cli-31.7.md) | 2026-09-30 23:19:11 EDT |
 | bob-cli | [`52969e5`](https://github.com/bobs-org/bob-cli/commit/52969e50fa95a107aaaca16532717f81987b5957) | docs(freshness): rollout — glossary strand and finalized Surfaces table (bob-cli-31.10) | [bob-cli-31.10](bob-cli-31.10.md) | 2026-09-30 23:32:32 EDT |
 | bob-cli | [`6710c74`](https://github.com/bobs-org/bob-cli/commit/6710c748752969e82504bedbdfcb1956704bc317) | test(freshness): land epic bob-cli-31 — fix linked\_task\_tests stamps, clear epic clippy warnings | [bob-cli-31](README.md) | 2026-10-01 00:18:31 EDT |
+| bob-plugins | [`bob-plugins@eff561e`](https://github.com/bobs-org/bob-plugins/commit/eff561ecca07b5a8d30d2502f92b41b388a8505e) | feat(freshness): stamp only rewritten lines in block-id-prompt 1.17.0, guard cycler follow-up stamp 1.19.0 | [bob-cli-31](README.md) | 2026-10-01 00:19:08 EDT |
