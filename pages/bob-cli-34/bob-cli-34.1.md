@@ -17,7 +17,7 @@ decay-core: add the `decay`/`rolls` config grammar, the roll-streak reader with 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-34.2](bob-cli-34.2.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-34.2](bob-cli-34.2.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
