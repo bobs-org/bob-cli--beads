@@ -13,7 +13,7 @@ nav-walk: give bob-navigation-hotkeys tier-aware jump notices, a commitments-don
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3g.2](bob-cli-3g.2.md) ◐ · ⧖ 2026-10-01
+- **Depends on:** [bob-cli-3g.2](bob-cli-3g.2.md) ✓ · ⧖ 2026-10-01
 - **Blocks:** [bob-cli-3g.4](bob-cli-3g.4.md) ◐ · ⧖ 2026-10-01
 
 ## Agents

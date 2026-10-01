@@ -17,7 +17,7 @@ rust-walk: write the tier/lane-interval contract and conformance vectors into do
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3g.2](bob-cli-3g.2.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3g.2](bob-cli-3g.2.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
