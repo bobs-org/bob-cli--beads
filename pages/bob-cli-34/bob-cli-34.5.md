@@ -19,4 +19,10 @@ decay-docs: add the bob-cli docs/projects.md section, the reason-table rows, and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-34.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.5/README.md) | [bob-cli-34.5](bob-cli-34.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-34.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-34.5/README.md) | [bob-cli-34.5](bob-cli-34.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@0f31093`](https://github.com/bbugyi200/dotfiles/commit/0f31093073d6fb98e1164fa6d2cdeec365f831b4) | docs: document priority roll decay defaults in bob config | [bob-cli-34.5](bob-cli-34.5.md) | 2026-10-01 01:32:22 EDT |
