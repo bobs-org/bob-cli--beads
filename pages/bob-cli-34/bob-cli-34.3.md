@@ -18,7 +18,7 @@ picker-counted: plan a recommendation for each target, show a batch preview line
 ## Dependencies
 
 - **Depends on:** [bob-cli-34.2](bob-cli-34.2.md) ✓ · ⧖ 2026-09-30
-- **Blocks:** [bob-cli-34.4](bob-cli-34.4.md) ◐ · ⧖ 2026-09-30
+- **Blocks:** [bob-cli-34.4](bob-cli-34.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 

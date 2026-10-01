@@ -13,7 +13,7 @@ decay-docs: add the bob-cli docs/projects.md section, the reason-table rows, and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-34.4](bob-cli-34.4.md) ◐ · ⧖ 2026-09-30
+- **Depends on:** [bob-cli-34.4](bob-cli-34.4.md) ✓ · ⧖ 2026-09-30
 
 ## Agents
 
