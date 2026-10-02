@@ -17,6 +17,8 @@ Pressing TAB after `bob` in zsh (and bash) offers grouped, described, vault-awar
 
 [2026-10-02T18:25:54Z · bob-cli-3j.land] FOLLOW-UP TRIAGE: The only PROPOSED FOLLOW-UP, filed by bob-cli-3j.1/.2/.3/.5/.6/.7/.8, is the clippy deny overly_complex_bool_expr at tests/cli/capture/pomodoro_name.rs:808 ('|| true'). It predates this epic (7d1c8dd, 2026-09-28). /sase_new_task found that in-progress epic bob-cli-28 caused it and owns its closeout; bob-cli-v covers warnings only. Recorded as a DISCOVERED ISSUE corroboration note on bob-cli-28. No new task was created.
 
+[2026-10-02T19:39:31Z · bob-cli-3j.9.land] LANDING BLOCKER after bob-cli-3j.9 (do not close yet): completion::zsh_adapter::default_styles_use_green_headers fails when the runner exports NO_COLOR=1. Reproduced 2026-10-02 on master 712d277: cargo test --test cli completion::zsh_adapter::default_styles_use_green_headers exits failed and the stub prints `format '── %d ──'` with no %B%F{green}. env -u NO_COLOR makes that same test pass. no_color_uses_plain_header passed in the NO_COLOR=1 run. Cause: _bob.zsh sets the plain header when NO_COLOR is set, and run_stubbed inherits the process environment. Neither _bob.zsh nor default_styles_use_green_headers was changed by 8f01f33 or 712d277. Fix: in that test's pre script, unset NO_COLOR before _bob, then re-run the completion cli tests. The rest of the 3j.9 recheck is in the child close note. Eight phases are closed, there are no --epic-symbol entries, and there are no non-epic commits after 81b45eb besides the child epic's own two commits.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -43,7 +45,7 @@ flowchart TD
     n6["bob-cli-3j.6: Capture markers inside capture TEXT [closed]"]
     n7["bob-cli-3j.7: bash adapter and bash lifecycle support [closed]"]
     n8["bob-cli-3j.8: End-to-end polish, performance record, and docs finish [closed]"]
-    n9["bob-cli-3j.9: Finish shell completion — correct results, bash insertion, and an honest lifecycle [in_progress]"]
+    n9["bob-cli-3j.9: Finish shell completion — correct results, bash insertion, and an honest lifecycle [closed]"]
     n10["bob-cli-3j.9.1: Completion results, bash insertion, and capture-grammar integration [closed]"]
     n11["bob-cli-3j.9.2: Honest, fast bob completion lifecycle [closed]"]
     n0 --> n1
@@ -81,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3j.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.8/README.md) | [bob-cli-3j.8](bob-cli-3j.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.1/README.md) | [bob-cli-3j.9.1](bob-cli-3j.9.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.2/README.md) | [bob-cli-3j.9.2](bob-cli-3j.9.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-3j.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.land/README.md) | [bob-cli-3j.9](bob-cli-3j.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3j.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.land/README.md) | [bob-cli-3j.9](bob-cli-3j.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3j.land.md) | [bob-cli-3j](README.md) | 0 |
 
 ## Commits
@@ -98,3 +100,4 @@ flowchart TD
 | bob-cli | [`81b45eb`](https://github.com/bobs-org/bob-cli/commit/81b45eb9a1a653b9a217625603fb60919abfca7a) | docs(completion): finish live transcripts, performance section; fix subcommand order | [bob-cli-3j.8](bob-cli-3j.8.md) | 2026-10-02 14:02:48 EDT |
 | bob-cli | [`8f01f33`](https://github.com/bobs-org/bob-cli/commit/8f01f331c4f81d3f2c0a1866b82f9ed161a377ef) | feat(completion): bounded probes, probe-free status, and lifecycle polish | [bob-cli-3j.9.2](bob-cli-3j.9.2.md) | 2026-10-02 15:16:32 EDT |
 | bob-cli | [`712d277`](https://github.com/bobs-org/bob-cli/commit/712d27773fcb4b207887a3b7f332766d2e5f60e8) | feat(completion): body-bearing @route, TEXT hints, ValueHints, positional slots, bash adapter | [bob-cli-3j.9.1](bob-cli-3j.9.1.md) | 2026-10-02 15:25:26 EDT |
+| bob-cli--plans | [`bob-cli--plans@2517d71`](https://github.com/bobs-org/bob-cli--plans/commit/2517d712c79cacc372160cb3b8537d0606910c27) | docs(plan): mark shell completion landing fixes done | [bob-cli-3j.9](bob-cli-3j.9.md) | 2026-10-02 15:40:59 EDT |
