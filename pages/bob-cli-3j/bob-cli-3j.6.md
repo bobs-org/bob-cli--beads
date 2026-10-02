@@ -20,7 +20,7 @@ capture-text: complete capture markers at the end of the active TEXT word throug
 ## Dependencies
 
 - **Depends on:** [bob-cli-3j.5](bob-cli-3j.5.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3j.7](bob-cli-3j.7.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3j.7](bob-cli-3j.7.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
