@@ -13,10 +13,16 @@ mac_task_block_view: extract a shared BlockDiffCard from PomodoroBlockView, add 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3i.2](bob-cli-3i.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3i.2](bob-cli-3i.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3i.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3i.3/README.md) | [bob-cli-3i.3](bob-cli-3i.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-3i.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3i.3/README.md) | [bob-cli-3i.3](bob-cli-3i.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@b8b054f`](https://github.com/bobs-org/bob-mac-capture/commit/b8b054fe17acc94e5bb53f39d5a703d3b0ce2a65) | feat(capture): show the full parent task when capturing a sub-bullet | [bob-cli-3i.3](bob-cli-3i.3.md) | 2026-10-02 11:14:49 EDT |

@@ -19,7 +19,7 @@ task_blocks_contract: move the Pomodoro block diff helpers into a shared module,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3i.2](bob-cli-3i.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3i.2](bob-cli-3i.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
