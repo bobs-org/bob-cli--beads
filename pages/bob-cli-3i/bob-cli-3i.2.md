@@ -18,7 +18,7 @@ mac_task_block_model: in bob-mac-capture, add tolerant `task_blocks` decoding, a
 ## Dependencies
 
 - **Depends on:** [bob-cli-3i.1](bob-cli-3i.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3i.3](bob-cli-3i.3.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3i.3](bob-cli-3i.3.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
