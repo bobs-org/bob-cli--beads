@@ -15,7 +15,7 @@ nav-model: add the Depends-On grammar and pure planner, a writer that prepares t
 
 - **Depends on:** [bob-cli-3n.1](bob-cli-3n.1.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [bob-cli-3n.4](bob-cli-3n.4.md) ✓ · ⧖ 2026-10-02
-- **Depends on:** [bob-cli-3n.5](bob-cli-3n.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3n.5](bob-cli-3n.5.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.7](bob-cli-3n.7.md) ◐ · ⧖ 2026-10-02
 
 ## Agents

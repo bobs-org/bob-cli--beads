@@ -21,7 +21,7 @@ A task's prerequisites live as plain task dependency links on one managed `⛓�
 | [bob-cli-3n.2](bob-cli-3n.2.md) | Rust dependency-line parser, promotion edges, and parser guards | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [bob-cli-3n.3](bob-cli-3n.3.md) | R1-R10 reconciliation in bob task-status-hooks | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [bob-cli-3n.4](bob-cli-3n.4.md) | bob-ledger-tools live dependency chips | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [bob-cli-3n.5](bob-cli-3n.5.md) | task-status-cycler and block-id-prompt compatibility | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [bob-cli-3n.5](bob-cli-3n.5.md) | task-status-cycler and block-id-prompt compatibility | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.6](bob-cli-3n.6.md) | Navigation-hotkeys dependency model, single-transaction writer, and api v1 | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [bob-cli-3n.7](bob-cli-3n.7.md) | Vault-wide Ctrl+Shift+P Depends on stage | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [bob-cli-3n.8](bob-cli-3n.8.md) | Gesture cleanup, hand-edit mirror, and legacy writer removal | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
@@ -38,7 +38,7 @@ flowchart TD
     n4["bob-cli-3n.2: Rust dependency-line parser, promotion edges, and parser guards [in_progress]"]
     n5["bob-cli-3n.3: R1-R10 reconciliation in bob task-status-hooks [in_progress]"]
     n6["bob-cli-3n.4: bob-ledger-tools live dependency chips [closed]"]
-    n7["bob-cli-3n.5: task-status-cycler and block-id-prompt compatibility [in_progress]"]
+    n7["bob-cli-3n.5: task-status-cycler and block-id-prompt compatibility [closed]"]
     n8["bob-cli-3n.6: Navigation-hotkeys dependency model, single-transaction writer, and api v1 [in_progress]"]
     n9["bob-cli-3n.7: Vault-wide Ctrl+Shift+P Depends on stage [in_progress]"]
     n10["bob-cli-3n.8: Gesture cleanup, hand-edit mirror, and legacy writer removal [in_progress]"]
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.2/README.md) | [bob-cli-3n.2](bob-cli-3n.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.3/README.md) | [bob-cli-3n.3](bob-cli-3n.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.4/README.md) | [bob-cli-3n.4](bob-cli-3n.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.5/README.md) | [bob-cli-3n.5](bob-cli-3n.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.5/README.md) | [bob-cli-3n.5](bob-cli-3n.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.6/README.md) | [bob-cli-3n.6](bob-cli-3n.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.7/README.md) | [bob-cli-3n.7](bob-cli-3n.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.8/README.md) | [bob-cli-3n.8](bob-cli-3n.8.md) | 0 |
@@ -95,3 +95,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`f4b0d12`](https://github.com/bobs-org/bob-cli/commit/f4b0d12b447f43bdceb6844ed1229fda6e4fd20a) | docs(tasks): document task dependency contract with DK vector coverage | [bob-cli-3n.1](bob-cli-3n.1.md) | 2026-10-02 17:35:53 EDT |
 | bob-plugins | [`bob-plugins@1831db4`](https://github.com/bobs-org/bob-plugins/commit/1831db4b9d56eb71bc7b7a02d62799696e350170) | feat(bob-ledger-tools): live dependency chips 1.17.0 -\> 1.18.0 | [bob-cli-3n.4](bob-cli-3n.4.md) | 2026-10-02 19:06:53 EDT |
+| bob-plugins | [`bob-plugins@e7baeb5`](https://github.com/bobs-org/bob-plugins/commit/e7baeb5eb1da203941633a51ccf360bcfb74d9a5) | feat(deps): task-status-cycler and block-id-prompt Depends-On compatibility | [bob-cli-3n.5](bob-cli-3n.5.md) | 2026-10-02 19:16:07 EDT |

@@ -21,7 +21,7 @@ contract: write docs/task-dependencies.md (grammar, identity, R1-R10 reconciliat
 
 - **Blocks:** [bob-cli-3n.2](bob-cli-3n.2.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.4](bob-cli-3n.4.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3n.5](bob-cli-3n.5.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.5](bob-cli-3n.5.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.6](bob-cli-3n.6.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
