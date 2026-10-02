@@ -20,7 +20,7 @@ zsh-adapter: ship the embedded, protocol-stamped _bob zsh adapter that renders g
 ## Dependencies
 
 - **Depends on:** [bob-cli-3j.2](bob-cli-3j.2.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3j.4](bob-cli-3j.4.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3j.4](bob-cli-3j.4.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
