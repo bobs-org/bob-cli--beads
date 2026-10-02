@@ -15,16 +15,16 @@ Work Log bullets under a whole-item `=x` close need a leading task number only w
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-3l.1](bob-cli-3l.1.md) | Positional Work Log bullets in bob-cli | ◐ in_progress | medium | 2026-10-02 | 1 | 1 |
-| [bob-cli-3l.2](bob-cli-3l.2.md) | Bob Mac Capture decoding, fixtures, and docs | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [bob-cli-3l.1](bob-cli-3l.1.md) | Positional Work Log bullets in bob-cli | ✓ closed | medium | 2026-10-02 | 1 | 1 |
+| [bob-cli-3l.2](bob-cli-3l.2.md) | Bob Mac Capture decoding, fixtures, and docs | ✓ closed | small | 2026-10-02 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["bob-cli-3l: Unnumbered =x Work Log bullets [in_progress]"]
-    n1["bob-cli-3l.1: Positional Work Log bullets in bob-cli [in_progress]"]
-    n2["bob-cli-3l.2: Bob Mac Capture decoding, fixtures, and docs [in_progress]"]
+    n1["bob-cli-3l.1: Positional Work Log bullets in bob-cli [closed]"]
+    n2["bob-cli-3l.2: Bob Mac Capture decoding, fixtures, and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-3l](README.md) / bob-cli-3l.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.47](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.47.md) · **Assignee:** `bob-cli-3l.1` · **Size:** medium
-**Created:** 2026-10-02 15:17:48 EDT
+**Created:** 2026-10-02 15:17:48 EDT · **Closed:** 2026-10-02 15:47:21 EDT
 **Plan:** [202610/unnumbered\_close\_log\_bullets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/unnumbered_close_log_bullets.md)
 
 ## Description
@@ -15,9 +15,11 @@ bob-cli: lex unnumbered first-level bullets (all or none), assign them in order 
 
 [2026-10-02T19:43:42Z · bob-cli-3l.1] PROPOSED FOLLOW-UP: just lint fails on tests/cli/capture/pomodoro_name.rs:808 clippy::overly_complex_bool_expr (|| true) — reproduces identically on the clean base tree; see also bead bob-cli-v (Eliminate existing bob-cli clippy warnings)
 
+[2026-10-02T19:47:21Z · bob-cli-3l.1] Closed by explicit `sase stitch create -B close` after create_commit landed 923adb8 ("feat(capture): accept unnumbered =x Work Log bullets resolved positionally"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-3l.1` if more work remains.
+
 ## Dependencies
 
-- **Blocks:** [bob-cli-3l.2](bob-cli-3l.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3l.2](bob-cli-3l.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
