@@ -44,7 +44,7 @@ flowchart TD
     n7["bob-cli-3j.7: bash adapter and bash lifecycle support [closed]"]
     n8["bob-cli-3j.8: End-to-end polish, performance record, and docs finish [closed]"]
     n9["bob-cli-3j.9: Finish shell completion — correct results, bash insertion, and an honest lifecycle [in_progress]"]
-    n10["bob-cli-3j.9.1: Completion results, bash insertion, and capture-grammar integration [in_progress]"]
+    n10["bob-cli-3j.9.1: Completion results, bash insertion, and capture-grammar integration [closed]"]
     n11["bob-cli-3j.9.2: Honest, fast bob completion lifecycle [closed]"]
     n0 --> n1
     n0 --> n2
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3j.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.6/README.md) | [bob-cli-3j.6](bob-cli-3j.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.7/README.md) | [bob-cli-3j.7](bob-cli-3j.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.8/README.md) | [bob-cli-3j.8](bob-cli-3j.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-3j.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.1/README.md) | [bob-cli-3j.9.1](bob-cli-3j.9.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3j.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.1/README.md) | [bob-cli-3j.9.1](bob-cli-3j.9.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.2/README.md) | [bob-cli-3j.9.2](bob-cli-3j.9.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.land/README.md) | [bob-cli-3j.9](bob-cli-3j.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3j.land.md) | [bob-cli-3j](README.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | bob-cli | [`5a60bd8`](https://github.com/bobs-org/bob-cli/commit/5a60bd8f7e91c94838166f8823155b22e8deab27) | feat(completion): add bash adapter and bash lifecycle support | [bob-cli-3j.7](bob-cli-3j.7.md) | 2026-10-02 13:51:29 EDT |
 | bob-cli | [`81b45eb`](https://github.com/bobs-org/bob-cli/commit/81b45eb9a1a653b9a217625603fb60919abfca7a) | docs(completion): finish live transcripts, performance section; fix subcommand order | [bob-cli-3j.8](bob-cli-3j.8.md) | 2026-10-02 14:02:48 EDT |
 | bob-cli | [`8f01f33`](https://github.com/bobs-org/bob-cli/commit/8f01f331c4f81d3f2c0a1866b82f9ed161a377ef) | feat(completion): bounded probes, probe-free status, and lifecycle polish | [bob-cli-3j.9.2](bob-cli-3j.9.2.md) | 2026-10-02 15:16:32 EDT |
+| bob-cli | [`712d277`](https://github.com/bobs-org/bob-cli/commit/712d27773fcb4b207887a3b7f332766d2e5f60e8) | feat(completion): body-bearing @route, TEXT hints, ValueHints, positional slots, bash adapter | [bob-cli-3j.9.1](bob-cli-3j.9.1.md) | 2026-10-02 15:25:26 EDT |
