@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3g.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3g.2/README.md) | [bob-cli-3g.2](bob-cli-3g.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-3g.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3g.3/README.md) | [bob-cli-3g.3](bob-cli-3g.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-3g.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3g.4/README.md) | [bob-cli-3g.4](bob-cli-3g.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-3g.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3g.land.md) | [bob-cli-3g](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-3g.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3g.land.md) | [bob-cli-3g](README.md) | 2 |
 
 ## Commits
 
@@ -78,3 +78,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@cdadcde`](https://github.com/bobs-org/bob-plugins/commit/cdadcded6e5eccfac7cba8ac3db40001578a9167) | feat(ledger-tools): tiered morning review walk with daily lane review (1.17.0) | [bob-cli-3g.2](bob-cli-3g.2.md) | 2026-10-01 19:31:11 EDT |
 | bob-cli | [`9e548bb`](https://github.com/bobs-org/bob-cli/commit/9e548bba484fb76f951c067c21c593c689811cd8) | feat(freshness): land tiered review walk NEW PENDING NEXT RETURNED ROTTEN | [bob-cli-3g.4](bob-cli-3g.4.md) | 2026-10-01 20:07:42 EDT |
 | bob-cli | [`f11a9f8`](https://github.com/bobs-org/bob-cli/commit/f11a9f81256a10ee812e47c3a203797262e9c381) | docs(plan): update plan surfaces to freshness namespace v4 for tiered walk | [bob-cli-3g](README.md) | 2026-10-01 20:33:20 EDT |
+| bob-cli--plans | [`bob-cli--plans@3ce66be`](https://github.com/bobs-org/bob-cli--plans/commit/3ce66be6427efdb5d3988d56cbbdaa73709a620a) | chore(plans): mark tiered\_morning\_review\_walk done after bob-cli-3g landing | [bob-cli-3g](README.md) | 2026-10-01 20:34:18 EDT |
