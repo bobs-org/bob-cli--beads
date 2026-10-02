@@ -18,7 +18,7 @@ ledger-views: add the live renderCrowdedChip, the bob-ready-notes ranked-bar cod
 ## Dependencies
 
 - **Depends on:** [bob-cli-3f.3](bob-cli-3f.3.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-3f.5](bob-cli-3f.5.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3f.5](bob-cli-3f.5.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

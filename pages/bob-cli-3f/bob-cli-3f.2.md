@@ -18,7 +18,7 @@ cli: add the read-only top-level `bob ready [NOTE]`: a colored CROWDED/FULL/ROOM
 ## Dependencies
 
 - **Depends on:** [bob-cli-3f.1](bob-cli-3f.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-3f.5](bob-cli-3f.5.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3f.5](bob-cli-3f.5.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 

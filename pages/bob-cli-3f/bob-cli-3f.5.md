@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-3f](README.md) / bob-cli-3f.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.0v5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.0v5.md) · **Assignee:** `bob-cli-3f.5` · **Size:** medium
-**Created:** 2026-10-01 17:55:47 EDT
+**Created:** 2026-10-01 17:55:47 EDT · **Closed:** 2026-10-01 19:38:02 EDT
 **Plan:** [202610/per\_note\_ready\_cap.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/per_note_ready_cap.md)
 
 ## Description
@@ -14,6 +14,8 @@ rollout: add the dash CROWDED chip and the new crowded.md page. Set ready_cap: o
 ## Notes
 
 [2026-10-01T23:32:37Z · bob-cli-3f.5] PROPOSED FOLLOW-UP: flaky test native::capture_pomodoros::tests::missing_note_and_missing_section_are_warning_successes races on process-wide BOB_DAY_FILE set_var under parallel lib tests (fails ~1 in 2 full runs, passes in isolation); consider serializing env-mutating tests
+
+[2026-10-01T23:38:02Z · bob-cli-3f.5] Closed by explicit `sase stitch create -B close` after create_commit landed 447e97d ("docs: per-note Ready cap rollout surfaces, ritual, and trial log"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-3f.5` if more work remains.
 
 ## Dependencies
 
