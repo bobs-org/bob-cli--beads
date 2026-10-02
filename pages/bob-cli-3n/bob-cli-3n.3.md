@@ -13,7 +13,7 @@ hooks-reconcile: before Blocked derivation, project Depends-On lines into the de
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3n.2](bob-cli-3n.2.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3n.2](bob-cli-3n.2.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
