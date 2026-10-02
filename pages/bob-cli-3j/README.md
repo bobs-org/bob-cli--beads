@@ -22,7 +22,7 @@ Pressing TAB after `bob` in zsh (and bash) offers grouped, described, vault-awar
 | [bob-cli-3j.5](bob-cli-3j.5.md) | Vault-aware value kinds with partial-parse context | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3j.6](bob-cli-3j.6.md) | Capture markers inside capture TEXT | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3j.7](bob-cli-3j.7.md) | bash adapter and bash lifecycle support | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [bob-cli-3j.8](bob-cli-3j.8.md) | End-to-end polish, performance record, and docs finish | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
+| [bob-cli-3j.8](bob-cli-3j.8.md) | End-to-end polish, performance record, and docs finish | ✓ closed | small | 2026-10-02 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ flowchart TD
     n5["bob-cli-3j.5: Vault-aware value kinds with partial-parse context [closed]"]
     n6["bob-cli-3j.6: Capture markers inside capture TEXT [closed]"]
     n7["bob-cli-3j.7: bash adapter and bash lifecycle support [closed]"]
-    n8["bob-cli-3j.8: End-to-end polish, performance record, and docs finish [in_progress]"]
+    n8["bob-cli-3j.8: End-to-end polish, performance record, and docs finish [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3j.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.5/README.md) | [bob-cli-3j.5](bob-cli-3j.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.6/README.md) | [bob-cli-3j.6](bob-cli-3j.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.7/README.md) | [bob-cli-3j.7](bob-cli-3j.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-3j.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.8/README.md) | [bob-cli-3j.8](bob-cli-3j.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3j.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.8/README.md) | [bob-cli-3j.8](bob-cli-3j.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.land/README.md) | [bob-cli-3j](README.md) | 0 |
 
 ## Commits
@@ -80,3 +80,4 @@ flowchart TD
 | bob-cli | [`6b272e4`](https://github.com/bobs-org/bob-cli/commit/6b272e4af604242aa2dad2148ff20cf18a455b5b) | feat(completion): complete capture markers inside capture TEXT | [bob-cli-3j.6](bob-cli-3j.6.md) | 2026-10-02 13:09:58 EDT |
 | bob-cli | [`a9fc134`](https://github.com/bobs-org/bob-cli/commit/a9fc13454ce9a6bbe0644d3be79385e0a87a9939) | feat(completion): land bob completion command, adapter lifecycle, and just install | [bob-cli-3j.4](bob-cli-3j.4.md) | 2026-10-02 13:23:37 EDT |
 | bob-cli | [`5a60bd8`](https://github.com/bobs-org/bob-cli/commit/5a60bd8f7e91c94838166f8823155b22e8deab27) | feat(completion): add bash adapter and bash lifecycle support | [bob-cli-3j.7](bob-cli-3j.7.md) | 2026-10-02 13:51:29 EDT |
+| bob-cli | [`81b45eb`](https://github.com/bobs-org/bob-cli/commit/81b45eb9a1a653b9a217625603fb60919abfca7a) | docs(completion): finish live transcripts, performance section; fix subcommand order | [bob-cli-3j.8](bob-cli-3j.8.md) | 2026-10-02 14:02:48 EDT |

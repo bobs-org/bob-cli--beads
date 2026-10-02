@@ -21,7 +21,7 @@ bash: add the values-only bash adapter with COMP_LINE word reassembly and wordbr
 
 - **Depends on:** [bob-cli-3j.4](bob-cli-3j.4.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [bob-cli-3j.6](bob-cli-3j.6.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3j.8](bob-cli-3j.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3j.8](bob-cli-3j.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
