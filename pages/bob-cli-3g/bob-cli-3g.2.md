@@ -18,16 +18,10 @@ ledger-walk: mirror the tiered evaluator in bob-ledger-tools under freshness nam
 ## Dependencies
 
 - **Depends on:** [bob-cli-3g.1](bob-cli-3g.1.md) ✓ · ⧖ 2026-10-01
-- **Blocks:** [bob-cli-3g.3](bob-cli-3g.3.md) ◐ · ⧖ 2026-10-01
+- **Blocks:** [bob-cli-3g.3](bob-cli-3g.3.md) ✓ · ⧖ 2026-10-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3g.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3g.2/README.md) | [bob-cli-3g.2](bob-cli-3g.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@cdadcde`](https://github.com/bobs-org/bob-plugins/commit/cdadcded6e5eccfac7cba8ac3db40001578a9167) | feat(ledger-tools): tiered morning review walk with daily lane review (1.17.0) | [bob-cli-3g.2](bob-cli-3g.2.md) | 2026-10-01 19:31:11 EDT |
+| [bbugyi200.athena.bob-cli-3g.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3g.2/README.md) | [bob-cli-3g.2](bob-cli-3g.2.md) | 0 |
