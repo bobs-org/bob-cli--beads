@@ -19,7 +19,7 @@ one-tree: build an exhaustive, completion-only clap tree from the module builder
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3j.2](bob-cli-3j.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3j.2](bob-cli-3j.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

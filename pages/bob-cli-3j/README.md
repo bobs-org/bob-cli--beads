@@ -16,7 +16,7 @@ Pressing TAB after `bob` in zsh (and bash) offers grouped, described, vault-awar
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-3j.1](bob-cli-3j.1.md) | One composed clap command tree for completion | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [bob-cli-3j.2](bob-cli-3j.2.md) | Hidden \_\_complete endpoint, protocol 1, and static value kinds | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [bob-cli-3j.2](bob-cli-3j.2.md) | Hidden \_\_complete endpoint, protocol 1, and static value kinds | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3j.3](bob-cli-3j.3.md) | The bob-owned zsh adapter | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [bob-cli-3j.4](bob-cli-3j.4.md) | bob completion command, adapter lifecycle, and just install | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
 | [bob-cli-3j.5](bob-cli-3j.5.md) | Vault-aware value kinds with partial-parse context | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
@@ -30,7 +30,7 @@ Pressing TAB after `bob` in zsh (and bash) offers grouped, described, vault-awar
 flowchart TD
     n0["bob-cli-3j: Excellent shell completion for bob, plus just install [in_progress]"]
     n1["bob-cli-3j.1: One composed clap command tree for completion [closed]"]
-    n2["bob-cli-3j.2: Hidden __complete endpoint, protocol 1, and static value kinds [in_progress]"]
+    n2["bob-cli-3j.2: Hidden __complete endpoint, protocol 1, and static value kinds [closed]"]
     n3["bob-cli-3j.3: The bob-owned zsh adapter [in_progress]"]
     n4["bob-cli-3j.4: bob completion command, adapter lifecycle, and just install [in_progress]"]
     n5["bob-cli-3j.5: Vault-aware value kinds with partial-parse context [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-3j.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.1/README.md) | [bob-cli-3j.1](bob-cli-3j.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-3j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.2/README.md) | [bob-cli-3j.2](bob-cli-3j.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.2/README.md) | [bob-cli-3j.2](bob-cli-3j.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.3/README.md) | [bob-cli-3j.3](bob-cli-3j.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3j.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.4/README.md) | [bob-cli-3j.4](bob-cli-3j.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3j.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.5/README.md) | [bob-cli-3j.5](bob-cli-3j.5.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`71d57da`](https://github.com/bobs-org/bob-cli/commit/71d57da42a940afaa6c3fe26fb4c59cbe5b82c5c) | feat(completion): land one-tree composed clap command tree for completion | [bob-cli-3j.1](bob-cli-3j.1.md) | 2026-10-02 11:26:18 EDT |
+| bob-cli | [`b9a067d`](https://github.com/bobs-org/bob-cli/commit/b9a067da5c8a55ca5e153c6469df06fdc3c0efa2) | feat(completion): add native shell completion engine with protocol and presenter | [bob-cli-3j.2](bob-cli-3j.2.md) | 2026-10-02 11:59:11 EDT |
