@@ -47,7 +47,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3i.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3i.1/README.md) | [bob-cli-3i.1](bob-cli-3i.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-3i.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3i.2.md) | [bob-cli-3i.2](bob-cli-3i.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-3i.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3i.3.md) | [bob-cli-3i.3](bob-cli-3i.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-3i.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3i.land.md) | [bob-cli-3i](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-3i.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3i.land.md) | [bob-cli-3i](README.md) | 2 |
 
 ## Commits
 
@@ -57,3 +57,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@46c5614`](https://github.com/bobs-org/bob-mac-capture/commit/46c561497798c44e54406c7ee21b106d32aa895b) | feat(capture): decode and present sub-bullet task blocks | [bob-cli-3i.2](bob-cli-3i.2.md) | 2026-10-02 10:54:11 EDT |
 | bob-mac-capture | [`bob-mac-capture@b8b054f`](https://github.com/bobs-org/bob-mac-capture/commit/b8b054fe17acc94e5bb53f39d5a703d3b0ce2a65) | feat(capture): show the full parent task when capturing a sub-bullet | [bob-cli-3i.3](bob-cli-3i.3.md) | 2026-10-02 11:14:49 EDT |
 | bob-cli | [`0791fb6`](https://github.com/bobs-org/bob-cli/commit/0791fb6ae5d1767110854a9481c6501af8613246) | fix(capture): preserve first-touch order in task block output | [bob-cli-3i](README.md) | 2026-10-02 11:46:35 EDT |
+| bob-mac-capture | [`bob-mac-capture@15f930e`](https://github.com/bobs-org/bob-mac-capture/commit/15f930e3125a2fa855a1989ab87af9ea0f677fdf) | fix(capture): preserve strikethrough in task-row token splitting | [bob-cli-3i](README.md) | 2026-10-02 11:47:10 EDT |
