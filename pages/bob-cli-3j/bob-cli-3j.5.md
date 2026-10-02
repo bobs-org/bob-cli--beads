@@ -20,7 +20,7 @@ vault-kinds: add partial-parse context and read-only vault providers for routes,
 ## Dependencies
 
 - **Depends on:** [bob-cli-3j.2](bob-cli-3j.2.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3j.6](bob-cli-3j.6.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3j.6](bob-cli-3j.6.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
