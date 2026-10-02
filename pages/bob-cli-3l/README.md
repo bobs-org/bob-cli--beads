@@ -46,7 +46,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-3l.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3l.1/README.md) | [bob-cli-3l.1](bob-cli-3l.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3l.2/README.md) | [bob-cli-3l.2](bob-cli-3l.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-3l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3l.land.md) | [bob-cli-3l](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3l.land.md) | [bob-cli-3l](README.md) | 2 |
 
 ## Commits
 
@@ -54,3 +54,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`923adb8`](https://github.com/bobs-org/bob-cli/commit/923adb8a7e70a233d2910ef9658405fe5db064d9) | feat(capture): accept unnumbered =x Work Log bullets resolved positionally | [bob-cli-3l.1](bob-cli-3l.1.md) | 2026-10-02 15:46:58 EDT |
 | bob-cli | [`a5224a3`](https://github.com/bobs-org/bob-cli/commit/a5224a3a54ad7f491c7b49530d91355ca2117bbd) | fix(capture): preserve positional Work Log origins for selection-mode unnumbered bullets | [bob-cli-3l](README.md) | 2026-10-02 16:19:01 EDT |
+| bob-cli--plans | [`bob-cli--plans@da1e123`](https://github.com/bobs-org/bob-cli--plans/commit/da1e1231df2df6f311eb304a1e8a9367bafc9187) | docs(plans): mark unnumbered close log bullets plan done | [bob-cli-3l](README.md) | 2026-10-02 16:19:27 EDT |
