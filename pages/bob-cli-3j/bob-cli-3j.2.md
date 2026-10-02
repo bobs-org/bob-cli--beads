@@ -20,7 +20,7 @@ engine: pin clap_complete's dynamic engine behind one module, add the early-inte
 ## Dependencies
 
 - **Depends on:** [bob-cli-3j.1](bob-cli-3j.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3j.3](bob-cli-3j.3.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3j.3](bob-cli-3j.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3j.5](bob-cli-3j.5.md) ✓ · ⧖ 2026-10-02
 
 ## Agents

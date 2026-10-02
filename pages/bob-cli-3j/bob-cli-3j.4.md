@@ -13,7 +13,7 @@ lifecycle: add the public bob completion command (status default, install, unins
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3j.3](bob-cli-3j.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3j.3](bob-cli-3j.3.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3j.7](bob-cli-3j.7.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
