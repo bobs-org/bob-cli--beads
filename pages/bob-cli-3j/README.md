@@ -11,6 +11,12 @@
 
 Pressing TAB after `bob` in zsh (and bash) offers grouped, described, vault-aware completions computed live by the installed bob binary, so completion can never drift from the CLI; `bob completion` installs, inspects, and removes the shell adapter safely and honestly; and `just install` installs bob from source and keeps its shell completion current in one step.
 
+## Notes
+
+[2026-10-02T18:25:47Z · bob-cli-3j.land] LAND AUDIT (bob-cli-3j.land, master 81b45eb): Read all 8 closed phases and their notes, the plan, and the epic commits 71d57da b9a067d eafe65c ba48629 6b272e4 a9fc134 5a60bd8 81b45eb. cargo fmt --check is clean. cargo test is green (1522 lib + 810 cli + the integration binaries). clippy: the only error is the pre-existing pomodoro_name.rs:808 deny; the epic adds 1 warning (needless_option_as_deref, completion/verify.rs:257). No epic-symbol entries. INTEGRATION: the non-epic commits since the epic started are 74f47d4 (inline =x entry), 0791fb6 (task-block order) and f589d07 (=*/=! shorthands). Shell completion inherits 74f47d4 and f589d07 through the shared capture_language completion_field_at: '=x done @', '=*' and '=!' offer nothing, and '=x wired it =#' offers start names. 0791fb6 does not touch completion. The goldens and docs for these cases are planned. REMAINING EPIC WORK, all confirmed against the built binary, a real pty-driven interactive bash, and a sandboxed HOME: (1) body-bearing '<text> @route:' offers existing task IDs that then fail as duplicates, while capture-complete says intent new; (2) bash adapter: '=#' becomes '==#…', an open-quote word loses its text, values with spaces split, attached --opt= !files-in completes nothing; (3) ValueHints are ignored (completion install -t gets free text, completion zsh -o gets *.pdf), positional md-file slots are unreachable, stale capture-complete TEXT hint; (4) lifecycle: probes stall 8 s each under a controlling tty (status -v took 24 s, all timed out) because of process_group without setsid; status -v fails not-installed shells; $SHELL is ignored once any adapter is owned; a not-registered install shows ✓ and exits 0 against the plan; dry run prints 'Completion is live'; probe compinit -D hides stale dumps; unrecorded stamped files get adopted; plus missing plan-required tests. Planned as child epic plan shell_completion_landing_fixes (phases results, lifecycle). DECLINED as non-defects: the context.rs hand walker instead of ignore_errors (behaviour verified by the goldens); the docs transcripts being raw __complete output rather than zpty menus; the 89-line bash adapter versus the 40-70 guideline; engine Candidate having no tag field; vault.rs chmod scope; the ':' task-link group name.
+
+[2026-10-02T18:25:54Z · bob-cli-3j.land] FOLLOW-UP TRIAGE: The only PROPOSED FOLLOW-UP, filed by bob-cli-3j.1/.2/.3/.5/.6/.7/.8, is the clippy deny overly_complex_bool_expr at tests/cli/capture/pomodoro_name.rs:808 ('|| true'). It predates this epic (7d1c8dd, 2026-09-28). /sase_new_task found that in-progress epic bob-cli-28 caused it and owns its closeout; bob-cli-v covers warnings only. Recorded as a DISCOVERED ISSUE corroboration note on bob-cli-28. No new task was created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,6 +43,9 @@ flowchart TD
     n6["bob-cli-3j.6: Capture markers inside capture TEXT [closed]"]
     n7["bob-cli-3j.7: bash adapter and bash lifecycle support [closed]"]
     n8["bob-cli-3j.8: End-to-end polish, performance record, and docs finish [closed]"]
+    n9["bob-cli-3j.9: Finish shell completion — correct results, bash insertion, and an honest lifecycle [in_progress]"]
+    n10["bob-cli-3j.9.1: Completion results, bash insertion, and capture-grammar integration [in_progress]"]
+    n11["bob-cli-3j.9.2: Honest, fast bob completion lifecycle [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -45,6 +54,9 @@ flowchart TD
     n0 --> n6
     n0 --> n7
     n0 --> n8
+    n0 --> n9
+    n9 --> n10
+    n9 --> n11
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n5
@@ -67,7 +79,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3j.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.6/README.md) | [bob-cli-3j.6](bob-cli-3j.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.7/README.md) | [bob-cli-3j.7](bob-cli-3j.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3j.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.8/README.md) | [bob-cli-3j.8](bob-cli-3j.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-3j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.land/README.md) | [bob-cli-3j](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3j.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.1/README.md) | [bob-cli-3j.9.1](bob-cli-3j.9.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3j.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.2/README.md) | [bob-cli-3j.9.2](bob-cli-3j.9.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3j.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3j.9.land/README.md) | [bob-cli-3j.9](bob-cli-3j.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3j.land.md) | [bob-cli-3j](README.md) | 0 |
 
 ## Commits
 
@@ -81,3 +96,4 @@ flowchart TD
 | bob-cli | [`a9fc134`](https://github.com/bobs-org/bob-cli/commit/a9fc13454ce9a6bbe0644d3be79385e0a87a9939) | feat(completion): land bob completion command, adapter lifecycle, and just install | [bob-cli-3j.4](bob-cli-3j.4.md) | 2026-10-02 13:23:37 EDT |
 | bob-cli | [`5a60bd8`](https://github.com/bobs-org/bob-cli/commit/5a60bd8f7e91c94838166f8823155b22e8deab27) | feat(completion): add bash adapter and bash lifecycle support | [bob-cli-3j.7](bob-cli-3j.7.md) | 2026-10-02 13:51:29 EDT |
 | bob-cli | [`81b45eb`](https://github.com/bobs-org/bob-cli/commit/81b45eb9a1a653b9a217625603fb60919abfca7a) | docs(completion): finish live transcripts, performance section; fix subcommand order | [bob-cli-3j.8](bob-cli-3j.8.md) | 2026-10-02 14:02:48 EDT |
+| bob-cli | [`8f01f33`](https://github.com/bobs-org/bob-cli/commit/8f01f331c4f81d3f2c0a1866b82f9ed161a377ef) | feat(completion): bounded probes, probe-free status, and lifecycle polish | [bob-cli-3j.9.2](bob-cli-3j.9.2.md) | 2026-10-02 15:16:32 EDT |
