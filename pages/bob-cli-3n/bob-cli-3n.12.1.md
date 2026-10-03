@@ -17,7 +17,7 @@ hooks-correctness: fix the reconcile edit ordering that duplicates task lines, t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3n.12.2](bob-cli-3n.12.2.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.12.2](bob-cli-3n.12.2.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

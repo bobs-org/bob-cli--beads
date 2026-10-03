@@ -27,10 +27,4 @@ nav-stage: add the vault-wide candidate pool from the Tasks cache and open buffe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.7/README.md) | [bob-cli-3n.7](bob-cli-3n.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@08d1560`](https://github.com/bobs-org/bob-plugins/commit/08d15603d22aa11fc2df3f916bd71de4c461baf8) | feat(nav): vault-wide Ctrl+Shift+P Depends on stage (1.54.0) | [bob-cli-3n.7](bob-cli-3n.7.md) | 2026-10-02 20:57:49 EDT |
+| [bbugyi200.athena.bob-cli-3n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.7/README.md) | [bob-cli-3n.7](bob-cli-3n.7.md) | 0 |

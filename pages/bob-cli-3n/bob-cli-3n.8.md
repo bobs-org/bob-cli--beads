@@ -26,10 +26,4 @@ nav-gestures: ! becomes a pure transclusion toggle and is refused on the line; C
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.8/README.md) | [bob-cli-3n.8](bob-cli-3n.8.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@82aec34`](https://github.com/bobs-org/bob-plugins/commit/82aec3481a9a29fce57ba68fdda40a003fb195d8) | feat(nav): gesture cleanup, hand-edit mirror, and legacy writer removal (1.55.0) | [bob-cli-3n.8](bob-cli-3n.8.md) | 2026-10-02 21:36:20 EDT |
+| [bbugyi200.athena.bob-cli-3n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.8/README.md) | [bob-cli-3n.8](bob-cli-3n.8.md) | 0 |
