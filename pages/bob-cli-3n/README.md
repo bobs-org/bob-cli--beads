@@ -63,7 +63,7 @@ flowchart TD
     n21["bob-cli-3n.12.9.6.2: Fix the mirror owner lookup, the waits-on badge, and the remaining stale refusals [closed]"]
     n22["bob-cli-3n.12.9.6.3: Render chips on DP30, pick the right Reading-view row, and finish the DP tables [closed]"]
     n23["bob-cli-3n.12.9.6.4: Apply R9 to label-only lines in the hooks and bring the touched files under size [closed]"]
-    n24["bob-cli-3n.12.9.6.5: Reinstall bob and resync the plugins with the remaining fixes [in_progress]"]
+    n24["bob-cli-3n.12.9.6.5: Reinstall bob and resync the plugins with the remaining fixes [closed]"]
     n25["bob-cli-3n.2: Rust dependency-line parser, promotion edges, and parser guards [closed]"]
     n26["bob-cli-3n.3: R1-R10 reconciliation in bob task-status-hooks [closed]"]
     n27["bob-cli-3n.4: bob-ledger-tools live dependency chips [closed]"]
@@ -166,7 +166,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3n.12.9.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.3/README.md) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.4/README.md) | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.5/README.md) | [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.land/README.md) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.6.land.md) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.land.md) | [bob-cli-3n.12.9](bob-cli-3n.12.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.land.md) | [bob-cli-3n.12](bob-cli-3n.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.2/README.md) | [bob-cli-3n.2](bob-cli-3n.2.md) | 1 |
@@ -214,3 +214,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@72c823f`](https://github.com/bobs-org/bob-plugins/commit/72c823fe9d01964bc747e6152e368536b29a959d) | feat(plugins): DP30 chips, order-mapped Reading rows, DP31 guard (ledger-tools 1.22.0, cycler 1.23.0, block-id-prompt 1.21.0) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2026-10-03 03:11:43 EDT |
 | bob-cli | [`50350db`](https://github.com/bobs-org/bob-cli/commit/50350db0f442696acef0e1d198c2e9fd2ca48f45) | docs(task-deps): state the BLOCKED badge rule in stage S6 | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 2026-10-03 03:30:09 EDT |
 | bob-plugins | [`bob-plugins@6648a2c`](https://github.com/bobs-org/bob-plugins/commit/6648a2cdfdbe1d2f12b2bc06341e3af9c3f482c9) | fix(nav): mirror owner in baseline coords, waits-on badge, stale refusals (1.63.0) | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 2026-10-03 03:30:48 EDT |
+| bob-plugins | [`bob-plugins@5d6e769`](https://github.com/bobs-org/bob-plugins/commit/5d6e7690c05edc63c90bde4a9db283335c2fef8f) | fix(nav): single stale notice, counted snapshot gate, real-path stage tests (1.64.0) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 2026-10-03 04:52:23 EDT |

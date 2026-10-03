@@ -19,7 +19,7 @@ chips-dp30-reading: drop the ledger-tools "Work Log anywhere above" rule so DP30
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

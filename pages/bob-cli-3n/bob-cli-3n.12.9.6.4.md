@@ -17,7 +17,7 @@ hooks-r9-split: stop the hooks re-adopting a label-only Depends-On line (R9/DW5/
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
