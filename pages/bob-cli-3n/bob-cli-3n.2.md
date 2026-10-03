@@ -18,7 +18,7 @@ hooks-edges: add the bob-cli task_dependencies module (parse, canonical format, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-3n.1](bob-cli-3n.1.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3n.3](bob-cli-3n.3.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.3](bob-cli-3n.3.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
