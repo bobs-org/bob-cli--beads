@@ -24,10 +24,11 @@ ledger-marks: mirror the contract in freshness namespace v5, add the sole increm
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-3v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.2/README.md) | [bob-cli-3v.2](bob-cli-3v.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.2/README.md) | [bob-cli-3v.2](bob-cli-3v.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ca611d2`](https://github.com/bobs-org/bob-cli/commit/ca611d2884f00ff310e072c77ba3f25b4ea5cc0d) | feat(freshness): ledger keep helper and folded marks for bob-cli-3v.2 | [bob-cli-3v.2](bob-cli-3v.2.md) | 2026-10-03 11:10:34 EDT |
+| bob-plugins | [`bob-plugins@67e9409`](https://github.com/bobs-org/bob-plugins/commit/67e9409b7a3d4b0e6e1f0520b8a769eaa6999019) | feat(freshness): keep-streak namespace v5, keepLine, and folded pips for bob-cli-3v.2 | [bob-cli-3v.2](bob-cli-3v.2.md) | 2026-10-03 11:12:12 EDT |
