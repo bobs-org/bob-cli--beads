@@ -25,10 +25,11 @@ chips-dp30-reading: drop the ledger-tools "Work Log anywhere above" rule so DP30
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.3/README.md) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.3/README.md) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0fb58fd`](https://github.com/bobs-org/bob-cli/commit/0fb58fd589e665b488f2a08bb0947d996387572d) | docs(task-deps): add DP31 prose-only vector and pin it in the Rust parser tests | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2026-10-03 03:10:00 EDT |
+| bob-plugins | [`bob-plugins@72c823f`](https://github.com/bobs-org/bob-plugins/commit/72c823fe9d01964bc747e6152e368536b29a959d) | feat(plugins): DP30 chips, order-mapped Reading rows, DP31 guard (ledger-tools 1.22.0, cycler 1.23.0, block-id-prompt 1.21.0) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2026-10-03 03:11:43 EDT |

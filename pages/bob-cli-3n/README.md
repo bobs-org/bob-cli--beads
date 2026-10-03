@@ -61,7 +61,7 @@ flowchart TD
     n19["bob-cli-3n.12.9.6: Finish the task dependency landing fixes: nav regressions, mirror owner, stage badge, DP30 chips, Reading-view line, R9 hooks, rollout [in_progress]"]
     n20["bob-cli-3n.12.9.6.1: Fix the nav writer regressions and finish its missing tests [closed]"]
     n21["bob-cli-3n.12.9.6.2: Fix the mirror owner lookup, the waits-on badge, and the remaining stale refusals [in_progress]"]
-    n22["bob-cli-3n.12.9.6.3: Render chips on DP30, pick the right Reading-view row, and finish the DP tables [in_progress]"]
+    n22["bob-cli-3n.12.9.6.3: Render chips on DP30, pick the right Reading-view row, and finish the DP tables [closed]"]
     n23["bob-cli-3n.12.9.6.4: Apply R9 to label-only lines in the hooks and bring the touched files under size [closed]"]
     n24["bob-cli-3n.12.9.6.5: Reinstall bob and resync the plugins with the remaining fixes [in_progress]"]
     n25["bob-cli-3n.2: Rust dependency-line parser, promotion edges, and parser guards [closed]"]
@@ -163,8 +163,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3n.12.9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.5.md) | [bob-cli-3n.12.9.5](bob-cli-3n.12.9.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.1/README.md) | [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.2/README.md) | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.3/README.md) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.4/README.md) | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.3/README.md) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.4/README.md) | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.5/README.md) | [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.land/README.md) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.land.md) | [bob-cli-3n.12.9](bob-cli-3n.12.9.md) | 0 |
@@ -208,4 +208,7 @@ flowchart TD
 | bob-cli | [`72964be`](https://github.com/bobs-org/bob-cli/commit/72964be19e6ab52d3b5a5e567ceeb96acb7a8e93) | fix(hooks): close DW/DP Summary docs and per-run copy gaps (bob-cli-3n.12.9.4) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 2026-10-03 01:55:57 EDT |
 | bob-plugins | [`bob-plugins@b168458`](https://github.com/bobs-org/bob-plugins/commit/b168458b7e7e1985be922cc6b252c2bd0bd12410) | feat(plugins): sync ledger-tools 1.21.0, cycler 1.22.0, block-id-prompt 1.20.0 dep views | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2026-10-03 01:56:32 EDT |
 | bob-plugins | [`bob-plugins@2bd875d`](https://github.com/bobs-org/bob-plugins/commit/2bd875d035c2aa32c0d8f4391f7b3d80f2cd68cb) | fix(nav): seed hand-edit mirror baseline from CM6 start state, finish Depends on stage polish (1.61.0) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 2026-10-03 02:06:06 EDT |
+| bob-cli | [`94131c7`](https://github.com/bobs-org/bob-cli/commit/94131c7b044a635e53d992ce0fb4f71eb659da6c) | fix(task-status-hooks): R9 label-only Depends-On line deletes line and field | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 2026-10-03 03:07:44 EDT |
 | bob-plugins | [`bob-plugins@f905e10`](https://github.com/bobs-org/bob-plugins/commit/f905e1042727d09527fadd7bad3fddfa125f74db) | fix(nav): close writer regressions — recovery snapshot gate, counted single-transaction remove, blockquote refusals, DP30 (1.62.0) | [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) | 2026-10-03 03:09:26 EDT |
+| bob-cli | [`0fb58fd`](https://github.com/bobs-org/bob-cli/commit/0fb58fd589e665b488f2a08bb0947d996387572d) | docs(task-deps): add DP31 prose-only vector and pin it in the Rust parser tests | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2026-10-03 03:10:00 EDT |
+| bob-plugins | [`bob-plugins@72c823f`](https://github.com/bobs-org/bob-plugins/commit/72c823fe9d01964bc747e6152e368536b29a959d) | feat(plugins): DP30 chips, order-mapped Reading rows, DP31 guard (ledger-tools 1.22.0, cycler 1.23.0, block-id-prompt 1.21.0) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 2026-10-03 03:11:43 EDT |
