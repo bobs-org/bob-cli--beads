@@ -19,7 +19,7 @@ nav-writer-regressions: build the recovery snapshot for field-only clears and ga
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) ◐ · ⧖ 2026-10-03
 
 ## Agents

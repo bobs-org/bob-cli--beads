@@ -14,7 +14,7 @@ rollout: reinstall bob and sync the plugins on athena and apollo, update the Mac
 ## Dependencies
 
 - **Depends on:** [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) ✓ · ⧖ 2026-10-03
-- **Depends on:** [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) ✓ · ⧖ 2026-10-03
 - **Depends on:** [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) ✓ · ⧖ 2026-10-03
 - **Depends on:** [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) ✓ · ⧖ 2026-10-03
 
