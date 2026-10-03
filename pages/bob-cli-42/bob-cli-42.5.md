@@ -20,7 +20,7 @@ schedule-input: extend date input with bare day offsets, unsigned units, weekday
 ## Dependencies
 
 - **Depends on:** [bob-cli-42.4](bob-cli-42.4.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-42.6](bob-cli-42.6.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-42.6](bob-cli-42.6.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
