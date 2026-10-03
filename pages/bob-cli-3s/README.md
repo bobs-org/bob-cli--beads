@@ -17,7 +17,7 @@ Refactor the five Rust files identified in this plan, in sequence, into cohesive
 |---|---|---|---|---|---:|---:|
 | [bob-cli-3s.1](bob-cli-3s.1.md) | Split capture completion into focused modules | ✓ closed | large | 2026-10-03 | 1 | 1 |
 | [bob-cli-3s.2](bob-cli-3s.2.md) | Split task toggle and link planners into focused modules | ✓ closed | large | 2026-10-03 | 1 | 1 |
-| [bob-cli-3s.3](bob-cli-3s.3.md) | Split guarded task status writes into focused modules | ◐ in_progress | large | 2026-10-03 | 1 | 0 |
+| [bob-cli-3s.3](bob-cli-3s.3.md) | Split guarded task status writes into focused modules | ✓ closed | large | 2026-10-03 | 1 | 1 |
 | [bob-cli-3s.4](bob-cli-3s.4.md) | Split clipboard capture into focused modules | ◐ in_progress | large | 2026-10-03 | 1 | 0 |
 | [bob-cli-3s.5](bob-cli-3s.5.md) | Split plugin management into focused modules | ◐ in_progress | large | 2026-10-03 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["bob-cli-3s: Split the five largest Rust files into maintainable modules [in_progress]"]
     n1["bob-cli-3s.1: Split capture completion into focused modules [closed]"]
     n2["bob-cli-3s.2: Split task toggle and link planners into focused modules [closed]"]
-    n3["bob-cli-3s.3: Split guarded task status writes into focused modules [in_progress]"]
+    n3["bob-cli-3s.3: Split guarded task status writes into focused modules [closed]"]
     n4["bob-cli-3s.4: Split clipboard capture into focused modules [in_progress]"]
     n5["bob-cli-3s.5: Split plugin management into focused modules [in_progress]"]
     n0 --> n1
@@ -48,7 +48,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-3s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.1.md) | [bob-cli-3s.1](bob-cli-3s.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-3s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.2.md) | [bob-cli-3s.2](bob-cli-3s.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-3s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3s.3/README.md) | [bob-cli-3s.3](bob-cli-3s.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-3s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.3.md) | [bob-cli-3s.3](bob-cli-3s.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-3s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3s.4/README.md) | [bob-cli-3s.4](bob-cli-3s.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-3s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3s.5/README.md) | [bob-cli-3s.5](bob-cli-3s.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-3s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3s.land/README.md) | [bob-cli-3s](README.md) | 0 |
@@ -59,3 +59,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`fa71773`](https://github.com/bobs-org/bob-cli/commit/fa717730d2211f07c1d60253e897c87e3d3d03d2) | refactor(capture-complete): split 4656-line module into focused submodules | [bob-cli-3s.1](bob-cli-3s.1.md) | 2026-10-03 05:44:13 EDT |
 | bob-cli | [`c9a6f1b`](https://github.com/bobs-org/bob-cli/commit/c9a6f1b453b12730f1a64b4d2b16a2314e383c1d) | refactor(capture): split capture\_task\_toggle into focused modules | [bob-cli-3s.2](bob-cli-3s.2.md) | 2026-10-03 06:17:25 EDT |
+| bob-cli | [`b4a5022`](https://github.com/bobs-org/bob-cli/commit/b4a5022515e08c764299614c1c473a5199867608) | refactor(native): split task\_status\_hooks\_write into focused modules | [bob-cli-3s.3](bob-cli-3s.3.md) | 2026-10-03 06:40:14 EDT |

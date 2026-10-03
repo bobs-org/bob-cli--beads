@@ -20,7 +20,7 @@ split-capture-task-toggle: After split-capture-complete, reinspect src/native/ca
 ## Dependencies
 
 - **Depends on:** [bob-cli-3s.1](bob-cli-3s.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3s.3](bob-cli-3s.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3s.3](bob-cli-3s.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
