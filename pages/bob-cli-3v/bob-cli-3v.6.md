@@ -13,7 +13,7 @@ rollout: verify cross-repository reset and rendering behavior, publish the accep
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3v.5](bob-cli-3v.5.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-3v.5](bob-cli-3v.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
