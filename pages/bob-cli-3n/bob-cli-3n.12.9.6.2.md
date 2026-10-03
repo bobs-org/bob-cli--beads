@@ -13,7 +13,7 @@ nav-mirror-stage-fixes: resolve the hand-edit mirror owner in baseline coordinat
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) ◐ · ⧖ 2026-10-03
 
 ## Agents

@@ -23,10 +23,4 @@ hooks-r9-split: stop the hooks re-adopting a label-only Depends-On line (R9/DW5/
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.4/README.md) | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`94131c7`](https://github.com/bobs-org/bob-cli/commit/94131c7b044a635e53d992ce0fb4f71eb659da6c) | fix(task-status-hooks): R9 label-only Depends-On line deletes line and field | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 2026-10-03 03:07:44 EDT |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.4/README.md) | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 0 |

@@ -26,4 +26,10 @@ nav-writer-bugs: reject blockquoted Depends-On lines in nav (DP29), fix the kept
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.2.md) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.2.md) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e09b424`](https://github.com/bobs-org/bob-plugins/commit/e09b42470b07c22dbf1cf20af272827d08f99671) | fix(nav): dependency writer bugs — DP29 blockquote refusal, kept-link id lookup, one-transaction counted writes, gated snapshots, hand-edit vault-snapshot recovery (nav 1.60.0) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 2026-10-03 01:50:03 EDT |

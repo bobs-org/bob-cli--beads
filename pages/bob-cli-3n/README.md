@@ -24,15 +24,15 @@ A task's prerequisites live as plain task dependency links on one managed `⛓�
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-3n.1](bob-cli-3n.1.md) | Dependency-line contract doc and conformance vectors | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [bob-cli-3n.10](bob-cli-3n.10.md) | Migrate the vault to Depends-On lines | ✓ closed | medium | 2026-10-02 | 1 | 0 |
+| [bob-cli-3n.10](bob-cli-3n.10.md) | Migrate the vault to Depends-On lines | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.11](bob-cli-3n.11.md) | Publish glossary, decision record, and final docs | ✓ closed | small | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.2](bob-cli-3n.2.md) | Rust dependency-line parser, promotion edges, and parser guards | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.3](bob-cli-3n.3.md) | R1-R10 reconciliation in bob task-status-hooks | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [bob-cli-3n.4](bob-cli-3n.4.md) | bob-ledger-tools live dependency chips | ✓ closed | medium | 2026-10-02 | 1 | 0 |
-| [bob-cli-3n.5](bob-cli-3n.5.md) | task-status-cycler and block-id-prompt compatibility | ✓ closed | medium | 2026-10-02 | 1 | 0 |
-| [bob-cli-3n.6](bob-cli-3n.6.md) | Navigation-hotkeys dependency model, single-transaction writer, and api v1 | ✓ closed | medium | 2026-10-02 | 1 | 0 |
-| [bob-cli-3n.7](bob-cli-3n.7.md) | Vault-wide Ctrl+Shift+P Depends on stage | ✓ closed | medium | 2026-10-02 | 1 | 0 |
-| [bob-cli-3n.8](bob-cli-3n.8.md) | Gesture cleanup, hand-edit mirror, and legacy writer removal | ✓ closed | medium | 2026-10-02 | 1 | 0 |
+| [bob-cli-3n.4](bob-cli-3n.4.md) | bob-ledger-tools live dependency chips | ✓ closed | medium | 2026-10-02 | 1 | 1 |
+| [bob-cli-3n.5](bob-cli-3n.5.md) | task-status-cycler and block-id-prompt compatibility | ✓ closed | medium | 2026-10-02 | 1 | 1 |
+| [bob-cli-3n.6](bob-cli-3n.6.md) | Navigation-hotkeys dependency model, single-transaction writer, and api v1 | ✓ closed | medium | 2026-10-02 | 1 | 1 |
+| [bob-cli-3n.7](bob-cli-3n.7.md) | Vault-wide Ctrl+Shift+P Depends on stage | ✓ closed | medium | 2026-10-02 | 1 | 1 |
+| [bob-cli-3n.8](bob-cli-3n.8.md) | Gesture cleanup, hand-edit mirror, and legacy writer removal | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.9](bob-cli-3n.9.md) | Install bob and sync plugins on every machine | ✓ closed | small | 2026-10-02 | 1 | 0 |
 
 ## Lineage
@@ -59,7 +59,7 @@ flowchart TD
     n17["bob-cli-3n.12.9.4: Close the hooks DW, DP, Summary, docs, and per-run copy gaps [closed]"]
     n18["bob-cli-3n.12.9.5: Reinstall bob and resync plugins across the fleet with the landing fixes [closed]"]
     n19["bob-cli-3n.12.9.6: Finish the task dependency landing fixes: nav regressions, mirror owner, stage badge, DP30 chips, Reading-view line, R9 hooks, rollout [in_progress]"]
-    n20["bob-cli-3n.12.9.6.1: Fix the nav writer regressions and finish its missing tests [in_progress]"]
+    n20["bob-cli-3n.12.9.6.1: Fix the nav writer regressions and finish its missing tests [closed]"]
     n21["bob-cli-3n.12.9.6.2: Fix the mirror owner lookup, the waits-on badge, and the remaining stale refusals [in_progress]"]
     n22["bob-cli-3n.12.9.6.3: Render chips on DP30, pick the right Reading-view row, and finish the DP tables [in_progress]"]
     n23["bob-cli-3n.12.9.6.4: Apply R9 to label-only lines in the hooks and bring the touched files under size [closed]"]
@@ -146,36 +146,36 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-3n.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.1/README.md) | [bob-cli-3n.1](bob-cli-3n.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.10/README.md) | [bob-cli-3n.10](bob-cli-3n.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.10/README.md) | [bob-cli-3n.10](bob-cli-3n.10.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.11/README.md) | [bob-cli-3n.11](bob-cli-3n.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.1/README.md) | [bob-cli-3n.12.1](bob-cli-3n.12.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.2/README.md) | [bob-cli-3n.12.2](bob-cli-3n.12.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.12.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.3/README.md) | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.12.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.4/README.md) | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.12.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.5/README.md) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.6/README.md) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.3/README.md) | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.4/README.md) | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.5/README.md) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.6/README.md) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2 |
 | [bbugyi200.athena.bob-cli-3n.12.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.8/README.md) | [bob-cli-3n.12.8](bob-cli-3n.12.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.1/README.md) | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.12.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.2.md) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.3/README.md) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.1/README.md) | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.2.md) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.3/README.md) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.4/README.md) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.5.md) | [bob-cli-3n.12.9.5](bob-cli-3n.12.9.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.1/README.md) | [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.1/README.md) | [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.2/README.md) | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.3/README.md) | [bob-cli-3n.12.9.6.3](bob-cli-3n.12.9.6.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.4/README.md) | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.4/README.md) | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.5/README.md) | [bob-cli-3n.12.9.6.5](bob-cli-3n.12.9.6.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.land/README.md) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.land.md) | [bob-cli-3n.12.9](bob-cli-3n.12.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.land.md) | [bob-cli-3n.12](bob-cli-3n.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.2/README.md) | [bob-cli-3n.2](bob-cli-3n.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.3/README.md) | [bob-cli-3n.3](bob-cli-3n.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.4/README.md) | [bob-cli-3n.4](bob-cli-3n.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.5/README.md) | [bob-cli-3n.5](bob-cli-3n.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.6/README.md) | [bob-cli-3n.6](bob-cli-3n.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.7/README.md) | [bob-cli-3n.7](bob-cli-3n.7.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.8/README.md) | [bob-cli-3n.8](bob-cli-3n.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.4/README.md) | [bob-cli-3n.4](bob-cli-3n.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.5/README.md) | [bob-cli-3n.5](bob-cli-3n.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.6/README.md) | [bob-cli-3n.6](bob-cli-3n.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.7/README.md) | [bob-cli-3n.7](bob-cli-3n.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.8/README.md) | [bob-cli-3n.8](bob-cli-3n.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.9/README.md) | [bob-cli-3n.9](bob-cli-3n.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.land.md) | [bob-cli-3n](README.md) | 0 |
 
@@ -184,14 +184,28 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f4b0d12`](https://github.com/bobs-org/bob-cli/commit/f4b0d12b447f43bdceb6844ed1229fda6e4fd20a) | docs(tasks): document task dependency contract with DK vector coverage | [bob-cli-3n.1](bob-cli-3n.1.md) | 2026-10-02 17:35:53 EDT |
+| bob-plugins | [`bob-plugins@1831db4`](https://github.com/bobs-org/bob-plugins/commit/1831db4b9d56eb71bc7b7a02d62799696e350170) | feat(bob-ledger-tools): live dependency chips 1.17.0 -\> 1.18.0 | [bob-cli-3n.4](bob-cli-3n.4.md) | 2026-10-02 19:06:53 EDT |
+| bob-plugins | [`bob-plugins@e7baeb5`](https://github.com/bobs-org/bob-plugins/commit/e7baeb5eb1da203941633a51ccf360bcfb74d9a5) | feat(deps): task-status-cycler and block-id-prompt Depends-On compatibility | [bob-cli-3n.5](bob-cli-3n.5.md) | 2026-10-02 19:16:07 EDT |
 | bob-cli | [`2d4d508`](https://github.com/bobs-org/bob-cli/commit/2d4d50835ef449d971920c911903436fe78b0907) | feat(hooks): Rust dependency-line parser, promotion edges, and parser guards | [bob-cli-3n.2](bob-cli-3n.2.md) | 2026-10-02 19:27:39 EDT |
+| bob-plugins | [`bob-plugins@5194bc8`](https://github.com/bobs-org/bob-plugins/commit/5194bc80ac71f2d964a82311735f25cdb38fd0c1) | feat(nav): task dependency contract grammar, planner, and single-transaction writer | [bob-cli-3n.6](bob-cli-3n.6.md) | 2026-10-02 20:17:29 EDT |
 | bob-cli | [`043d9c5`](https://github.com/bobs-org/bob-cli/commit/043d9c54022b4146d66b29f36b73ee0adf41e635) | feat(hooks): R1-R10 Depends-On reconciliation in bob task-status-hooks | [bob-cli-3n.3](bob-cli-3n.3.md) | 2026-10-02 20:19:21 EDT |
+| bob-plugins | [`bob-plugins@08d1560`](https://github.com/bobs-org/bob-plugins/commit/08d15603d22aa11fc2df3f916bd71de4c461baf8) | feat(nav): vault-wide Ctrl+Shift+P Depends on stage (1.54.0) | [bob-cli-3n.7](bob-cli-3n.7.md) | 2026-10-02 20:57:49 EDT |
+| bob-plugins | [`bob-plugins@82aec34`](https://github.com/bobs-org/bob-plugins/commit/82aec3481a9a29fce57ba68fdda40a003fb195d8) | feat(nav): gesture cleanup, hand-edit mirror, and legacy writer removal (1.55.0) | [bob-cli-3n.8](bob-cli-3n.8.md) | 2026-10-02 21:36:20 EDT |
+| bob-plugins | [`bob-plugins@46ddd1e`](https://github.com/bobs-org/bob-plugins/commit/46ddd1eb52fccb516a2deb4b509590c3a9a37a48) | feat(nav): dry-run-first Depends-On line migration script | [bob-cli-3n.10](bob-cli-3n.10.md) | 2026-10-02 22:20:12 EDT |
 | bob-cli | [`f21e856`](https://github.com/bobs-org/bob-cli/commit/f21e856cae4893f482a9a8baeb0417b5ea1501d0) | docs(memory): publish task-deps-are-depends-on-links decision and glossary | [bob-cli-3n.11](bob-cli-3n.11.md) | 2026-10-02 22:35:21 EDT |
 | bob-cli | [`8d54b0e`](https://github.com/bobs-org/bob-cli/commit/8d54b0e6ad9dc9ae7d0412b9e2e29c4fb7a99d25) | fix(task-status-hooks): reconcile correctness for dependency lines | [bob-cli-3n.12.1](bob-cli-3n.12.1.md) | 2026-10-02 23:46:42 EDT |
 | bob-cli | [`b61727a`](https://github.com/bobs-org/bob-cli/commit/b61727abf00e5d64f9a4008cc779aa55b429dc5a) | docs(deps): pin removeDependency not-on-line refusal in contract S9 | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 2026-10-02 23:46:50 EDT |
+| bob-plugins | [`bob-plugins@3ffa187`](https://github.com/bobs-org/bob-plugins/commit/3ffa187b4e2f2d48c61ddcbb5c68ec6aa1ef0469) | fix(nav): cross-note dependency writer await, tolerance, recovery, and undo fixes (1.56.0) | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 2026-10-02 23:47:30 EDT |
 | bob-cli | [`a069239`](https://github.com/bobs-org/bob-cli/commit/a069239a5ec36929933b9bdbfa096e27a7d9ed58) | docs(deps): pin api v1 ref.line as 0-based and add DP24-DP29 recogniser vectors | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 2026-10-03 00:00:51 EDT |
+| bob-plugins | [`bob-plugins@330fc58`](https://github.com/bobs-org/bob-plugins/commit/330fc58b6f5ae549d412d9e13e81ee7ed86402d7) | fix(deps): 0-based chip refs, owned-line chips, Reading view, hover, memo-bound lookup, aligned recognisers | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 2026-10-03 00:03:29 EDT |
 | bob-cli | [`79e39af`](https://github.com/bobs-org/bob-cli/commit/79e39afe50a0bd2f65055e60d33fea31f51c25be) | docs(hooks): dependency docs, Summary counts, helper dedupe, reconcile split | [bob-cli-3n.12.2](bob-cli-3n.12.2.md) | 2026-10-03 00:07:15 EDT |
+| bob-plugins | [`bob-plugins@f78ffad`](https://github.com/bobs-org/bob-plugins/commit/f78ffad425ba528b4f2ecdc196ce9bc95eb6fe30) | fix(nav): rebuild hand-edit mirror on CM6 listener, fix gestures, remove legacy writers (1.57.0) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 2026-10-03 00:30:10 EDT |
+| bob-plugins | [`bob-plugins@40e2e3a`](https://github.com/bobs-org/bob-plugins/commit/40e2e3a57b6bb6539714f13a58445a20ee3c5b44) | fix(nav): bring Depends on stage to design (1.58.0) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 2026-10-03 00:49:50 EDT |
 | bob-cli | [`3b04a06`](https://github.com/bobs-org/bob-cli/commit/3b04a06559b7cd7c2402b3e793765bf73c4273a6) | docs(deps): correct decision record and sweep stale dependency docs | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:05 EDT |
+| bob-plugins | [`bob-plugins@0a7ee3d`](https://github.com/bobs-org/bob-plugins/commit/0a7ee3d77d693ddee20a796341b4bf6c4bcf74b3) | fix(deps): chip waiting counts open prerequisites only; archive links keep done/ path (ledger-tools 1.20.0, nav 1.59.0) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:36 EDT |
+| bob-plugins | [`bob-plugins@e09b424`](https://github.com/bobs-org/bob-plugins/commit/e09b42470b07c22dbf1cf20af272827d08f99671) | fix(nav): dependency writer bugs — DP29 blockquote refusal, kept-link id lookup, one-transaction counted writes, gated snapshots, hand-edit vault-snapshot recovery (nav 1.60.0) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 2026-10-03 01:50:03 EDT |
 | bob-cli | [`eb9d846`](https://github.com/bobs-org/bob-cli/commit/eb9d846b765f0c1172038ba147771a0d0e580836) | feat(task-deps): pin DP29 not-a-line, DP30 accept(1), cover DP24-DP30 vectors | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2026-10-03 01:54:55 EDT |
 | bob-cli | [`72964be`](https://github.com/bobs-org/bob-cli/commit/72964be19e6ab52d3b5a5e567ceeb96acb7a8e93) | fix(hooks): close DW/DP Summary docs and per-run copy gaps (bob-cli-3n.12.9.4) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 2026-10-03 01:55:57 EDT |
-| bob-cli | [`94131c7`](https://github.com/bobs-org/bob-cli/commit/94131c7b044a635e53d992ce0fb4f71eb659da6c) | fix(task-status-hooks): R9 label-only Depends-On line deletes line and field | [bob-cli-3n.12.9.6.4](bob-cli-3n.12.9.6.4.md) | 2026-10-03 03:07:44 EDT |
+| bob-plugins | [`bob-plugins@b168458`](https://github.com/bobs-org/bob-plugins/commit/b168458b7e7e1985be922cc6b252c2bd0bd12410) | feat(plugins): sync ledger-tools 1.21.0, cycler 1.22.0, block-id-prompt 1.20.0 dep views | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2026-10-03 01:56:32 EDT |
+| bob-plugins | [`bob-plugins@2bd875d`](https://github.com/bobs-org/bob-plugins/commit/2bd875d035c2aa32c0d8f4391f7b3d80f2cd68cb) | fix(nav): seed hand-edit mirror baseline from CM6 start state, finish Depends on stage polish (1.61.0) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 2026-10-03 02:06:06 EDT |
+| bob-plugins | [`bob-plugins@f905e10`](https://github.com/bobs-org/bob-plugins/commit/f905e1042727d09527fadd7bad3fddfa125f74db) | fix(nav): close writer regressions — recovery snapshot gate, counted single-transaction remove, blockquote refusals, DP30 (1.62.0) | [bob-cli-3n.12.9.6.1](bob-cli-3n.12.9.6.1.md) | 2026-10-03 03:09:26 EDT |
