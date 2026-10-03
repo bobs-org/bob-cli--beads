@@ -53,7 +53,7 @@ flowchart TD
     n11["bob-cli-3n.12.7: Correct the decision record and sweep stale dependency docs [closed]"]
     n12["bob-cli-3n.12.8: Reinstall bob and resync plugins across the fleet with the fixes [closed]"]
     n13["bob-cli-3n.12.9: Land task dependency link fixes: nav writer and mirror bugs, Reading-view chips, DP29, hooks test gaps, rollout [in_progress]"]
-    n14["bob-cli-3n.12.9.1: Reading-view chips, recogniser alignment, and the DP29/DP30 contract [in_progress]"]
+    n14["bob-cli-3n.12.9.1: Reading-view chips, recogniser alignment, and the DP29/DP30 contract [closed]"]
     n15["bob-cli-3n.12.9.2: Fix the nav dependency writer bugs the landing audit confirmed [closed]"]
     n16["bob-cli-3n.12.9.3: Finish the hand-edit mirror baseline and the Depends on stage [in_progress]"]
     n17["bob-cli-3n.12.9.4: Close the hooks DW, DP, Summary, docs, and per-run copy gaps [in_progress]"]
@@ -139,8 +139,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3n.12.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.6/README.md) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2 |
 | [bbugyi200.athena.bob-cli-3n.12.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.8/README.md) | [bob-cli-3n.12.8](bob-cli-3n.12.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.1/README.md) | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.2.md) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.1/README.md) | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.2.md) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.3/README.md) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.4/README.md) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.5/README.md) | [bob-cli-3n.12.9.5](bob-cli-3n.12.9.5.md) | 0 |
@@ -180,4 +180,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@40e2e3a`](https://github.com/bobs-org/bob-plugins/commit/40e2e3a57b6bb6539714f13a58445a20ee3c5b44) | fix(nav): bring Depends on stage to design (1.58.0) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 2026-10-03 00:49:50 EDT |
 | bob-cli | [`3b04a06`](https://github.com/bobs-org/bob-cli/commit/3b04a06559b7cd7c2402b3e793765bf73c4273a6) | docs(deps): correct decision record and sweep stale dependency docs | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:05 EDT |
 | bob-plugins | [`bob-plugins@0a7ee3d`](https://github.com/bobs-org/bob-plugins/commit/0a7ee3d77d693ddee20a796341b4bf6c4bcf74b3) | fix(deps): chip waiting counts open prerequisites only; archive links keep done/ path (ledger-tools 1.20.0, nav 1.59.0) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:36 EDT |
-| bob-plugins | [`bob-plugins@e09b424`](https://github.com/bobs-org/bob-plugins/commit/e09b42470b07c22dbf1cf20af272827d08f99671) | fix(nav): dependency writer bugs — DP29 blockquote refusal, kept-link id lookup, one-transaction counted writes, gated snapshots, hand-edit vault-snapshot recovery (nav 1.60.0) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 2026-10-03 01:50:03 EDT |
+| bob-cli | [`eb9d846`](https://github.com/bobs-org/bob-cli/commit/eb9d846b765f0c1172038ba147771a0d0e580836) | feat(task-deps): pin DP29 not-a-line, DP30 accept(1), cover DP24-DP30 vectors | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2026-10-03 01:54:55 EDT |
