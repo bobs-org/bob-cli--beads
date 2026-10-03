@@ -13,7 +13,7 @@ nav-mirror-gestures: move the hand-edit mirror to a CM6 update listener with cor
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3n.12.4](bob-cli-3n.12.4.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3n.12.4](bob-cli-3n.12.4.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.12.6](bob-cli-3n.12.6.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
