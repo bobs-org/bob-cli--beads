@@ -24,10 +24,11 @@ nav-counting: wire single, counted, and Task Link refreshes through exact pre-wr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-3v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.3/README.md) | [bob-cli-3v.3](bob-cli-3v.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.3/README.md) | [bob-cli-3v.3](bob-cli-3v.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d6b63e8`](https://github.com/bobs-org/bob-cli/commit/d6b63e864c3b29b15f89a98cd9859184bb53ced5) | docs(freshness): record keep-counting as trial-neutral first milestone | [bob-cli-3v.3](bob-cli-3v.3.md) | 2026-10-03 11:25:19 EDT |
+| bob-plugins | [`bob-plugins@9a86df4`](https://github.com/bobs-org/bob-plugins/commit/9a86df48e4537b4b3ac80682d8377f49f38573c1) | feat(nav-hotkeys): count eligible fresh stamps through keepLine with exact pre-write match | [bob-cli-3v.3](bob-cli-3v.3.md) | 2026-10-03 11:25:51 EDT |
