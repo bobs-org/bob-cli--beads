@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.4/README.md) | [bob-cli-3v.4](bob-cli-3v.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-3v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.5/README.md) | [bob-cli-3v.5](bob-cli-3v.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-3v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.6/README.md) | [bob-cli-3v.6](bob-cli-3v.6.md) | 2 |
-| [bbugyi200.apollo.bob-cli-3v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3v.land.md) | [bob-cli-3v](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-3v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-3v.land.md) | [bob-cli-3v](README.md) | 3 |
 
 ## Commits
 
@@ -81,3 +81,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9c271e1`](https://github.com/bobs-org/bob-plugins/commit/9c271e1a165d1e9d882f7b295413c7818dd7992a) | docs(readme): nav 1.69.0 version with keepLine counting and decay-card behavior | [bob-cli-3v.6](bob-cli-3v.6.md) | 2026-10-03 12:21:58 EDT |
 | bob-cli | [`b013618`](https://github.com/bobs-org/bob-cli/commit/b013618ed08ae8c8eb7efacf8872db151caaf58a) | docs(freshness): land rotten keep-streak decision card hardening and contract docs | [bob-cli-3v](README.md) | 2026-10-03 13:01:50 EDT |
 | bob-plugins | [`bob-plugins@a3d4df1`](https://github.com/bobs-org/bob-plugins/commit/a3d4df1588613cd7f20d1eb4d4a0275f46cfd238) | feat(nav): harden decay-card revalidation and add handler suite (1.70.0) | [bob-cli-3v](README.md) | 2026-10-03 13:02:23 EDT |
+| bob-cli--plans | [`bob-cli--plans@ee9063e`](https://github.com/bobs-org/bob-cli--plans/commit/ee9063e9d7b5bb8f65854f2ae1a8f561e2d72da1) | chore(plan): mark rotten\_keep\_streak done | [bob-cli-3v](README.md) | 2026-10-03 13:02:52 EDT |
