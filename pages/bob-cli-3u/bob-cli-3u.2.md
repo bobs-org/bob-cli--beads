@@ -22,7 +22,7 @@ dependency-discovery: add vault-wide prerequisite discovery, fuzzy ranking, exac
 ## Dependencies
 
 - **Depends on:** [bob-cli-3u.1](bob-cli-3u.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3u.3](bob-cli-3u.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3u.3](bob-cli-3u.3.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3u.4](bob-cli-3u.4.md) ◐ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3u.5](bob-cli-3u.5.md) ◐ · ⧖ 2026-10-03
 

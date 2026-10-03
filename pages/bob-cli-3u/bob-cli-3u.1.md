@@ -18,7 +18,7 @@ dependency-contract: implement shared lexical ownership, incomplete states, span
 ## Dependencies
 
 - **Blocks:** [bob-cli-3u.2](bob-cli-3u.2.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3u.3](bob-cli-3u.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3u.3](bob-cli-3u.3.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3u.4](bob-cli-3u.4.md) ◐ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3u.5](bob-cli-3u.5.md) ◐ · ⧖ 2026-10-03
 

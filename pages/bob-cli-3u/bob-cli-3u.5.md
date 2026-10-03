@@ -15,7 +15,7 @@ dependency-verification: exercise real CLI-to-app fixtures, inspect rendered pic
 
 - **Depends on:** [bob-cli-3u.1](bob-cli-3u.1.md) ✓ · ⧖ 2026-10-03
 - **Depends on:** [bob-cli-3u.2](bob-cli-3u.2.md) ✓ · ⧖ 2026-10-03
-- **Depends on:** [bob-cli-3u.3](bob-cli-3u.3.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-3u.3](bob-cli-3u.3.md) ✓ · ⧖ 2026-10-03
 - **Depends on:** [bob-cli-3u.4](bob-cli-3u.4.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
