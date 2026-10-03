@@ -19,7 +19,7 @@ Explicit due-Ready keeps have a trustworthy streak and a quiet freshness-mark di
 | [bob-cli-3v.2](bob-cli-3v.2.md) | Ledger keep helper and folded marks | ✓ closed | medium | 2026-10-03 | 1 | 2 |
 | [bob-cli-3v.3](bob-cli-3v.3.md) | Exact explicit-keep counting | ✓ closed | medium | 2026-10-03 | 1 | 2 |
 | [bob-cli-3v.4](bob-cli-3v.4.md) | Shared approved-decay action planner | ✓ closed | medium | 2026-10-03 | 1 | 2 |
-| [bob-cli-3v.5](bob-cli-3v.5.md) | Decision card and review-walk integration | ✓ closed | medium | 2026-10-03 | 1 | 1 |
+| [bob-cli-3v.5](bob-cli-3v.5.md) | Decision card and review-walk integration | ✓ closed | medium | 2026-10-03 | 1 | 2 |
 | [bob-cli-3v.6](bob-cli-3v.6.md) | Integrated verification, documentation, and rollout | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
 
 ## Lineage
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.2/README.md) | [bob-cli-3v.2](bob-cli-3v.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-3v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.3/README.md) | [bob-cli-3v.3](bob-cli-3v.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-3v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.4/README.md) | [bob-cli-3v.4](bob-cli-3v.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-3v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.5/README.md) | [bob-cli-3v.5](bob-cli-3v.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.5/README.md) | [bob-cli-3v.5](bob-cli-3v.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-3v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.6/README.md) | [bob-cli-3v.6](bob-cli-3v.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.land/README.md) | [bob-cli-3v](README.md) | 0 |
 
@@ -70,3 +70,4 @@ flowchart TD
 | bob-cli | [`cb7650e`](https://github.com/bobs-org/bob-cli/commit/cb7650e9723004a5593181cc401b1ba2a8ccdddf) | docs(decay-planner): document approved-decay action planner and kept-count tails | [bob-cli-3v.4](bob-cli-3v.4.md) | 2026-10-03 11:38:20 EDT |
 | bob-plugins | [`bob-plugins@995f734`](https://github.com/bobs-org/bob-plugins/commit/995f73423445109dbc116bd34677e66a025cdf9a) | feat(nav-hotkeys): add pure approved-decay action planner with D-vector tests | [bob-cli-3v.4](bob-cli-3v.4.md) | 2026-10-03 11:39:00 EDT |
 | bob-cli | [`d7744f3`](https://github.com/bobs-org/bob-cli/commit/d7744f3ee2480d1dcbc88e369de245bb3c851ee1) | docs(freshness): document decay decision card and review-walk integration | [bob-cli-3v.5](bob-cli-3v.5.md) | 2026-10-03 12:03:30 EDT |
+| bob-plugins | [`bob-plugins@3e99159`](https://github.com/bobs-org/bob-plugins/commit/3e991591487967d2d4e6a8e246c6de1734435fd3) | feat(decay-card): add FreshnessDecayCardModal consent interaction and leaf decide signal | [bob-cli-3v.5](bob-cli-3v.5.md) | 2026-10-03 12:04:08 EDT |

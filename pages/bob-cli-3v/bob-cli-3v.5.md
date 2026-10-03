@@ -28,10 +28,11 @@ decision-card: add the consent interaction, guarded action application, batch sk
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-3v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.5/README.md) | [bob-cli-3v.5](bob-cli-3v.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.5/README.md) | [bob-cli-3v.5](bob-cli-3v.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d7744f3`](https://github.com/bobs-org/bob-cli/commit/d7744f3ee2480d1dcbc88e369de245bb3c851ee1) | docs(freshness): document decay decision card and review-walk integration | [bob-cli-3v.5](bob-cli-3v.5.md) | 2026-10-03 12:03:30 EDT |
+| bob-plugins | [`bob-plugins@3e99159`](https://github.com/bobs-org/bob-plugins/commit/3e991591487967d2d4e6a8e246c6de1734435fd3) | feat(decay-card): add FreshnessDecayCardModal consent interaction and leaf decide signal | [bob-cli-3v.5](bob-cli-3v.5.md) | 2026-10-03 12:04:08 EDT |
