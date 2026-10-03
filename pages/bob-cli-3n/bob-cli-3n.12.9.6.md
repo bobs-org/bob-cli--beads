@@ -19,10 +19,11 @@ Every gap and regression the bob-cli-3n.12.9 landing audit confirmed is fixed an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.6.land.md) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.6.land.md) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5d6e769`](https://github.com/bobs-org/bob-plugins/commit/5d6e7690c05edc63c90bde4a9db283335c2fef8f) | fix(nav): single stale notice, counted snapshot gate, real-path stage tests (1.64.0) | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 2026-10-03 04:52:23 EDT |
+| bob-cli | [`6192017`](https://github.com/bobs-org/bob-cli/commit/619201720934e641db800d7d2e86a8f6ac714193) | docs(task-deps): DP30 Reading rows in 7.4; drop unreachable legacy branch | [bob-cli-3n.12.9.6](bob-cli-3n.12.9.6.md) | 2026-10-03 04:52:53 EDT |
