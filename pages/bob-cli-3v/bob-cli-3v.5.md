@@ -22,7 +22,7 @@ decision-card: add the consent interaction, guarded action application, batch sk
 ## Dependencies
 
 - **Depends on:** [bob-cli-3v.4](bob-cli-3v.4.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3v.6](bob-cli-3v.6.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3v.6](bob-cli-3v.6.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
