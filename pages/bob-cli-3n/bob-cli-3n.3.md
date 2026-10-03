@@ -11,6 +11,10 @@
 
 hooks-reconcile: before Blocked derivation, project Depends-On lines into the dependsOn/id fields and adopt, heal, canonicalize, and warn. Projection-only notes are written through the guarded pipeline and quiet interval. Add JSON and human output, docs, and tests, then verify with a read-only dry run against the vault.
 
+## Notes
+
+[2026-10-03T00:14:57Z · bob-cli-3n.3] PROPOSED FOLLOW-UP: lib test native::capture_pomodoros::tests::missing_note_and_missing_section_are_warning_successes flakes under default test parallelism (fails ~1/3 runs on the clean base tree too); test with_env helpers mutate process-global env vars with no lock, so parallel tests race (also seen once in note_ready::scan_excludes_r3_and_r7_paths)
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-3n.2](bob-cli-3n.2.md) ✓ · ⧖ 2026-10-02
