@@ -20,7 +20,7 @@ card-dispatch: route card gestures through existing stages and writers, guarante
 ## Dependencies
 
 - **Depends on:** [bob-cli-42.3](bob-cli-42.3.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-42.5](bob-cli-42.5.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-42.5](bob-cli-42.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
