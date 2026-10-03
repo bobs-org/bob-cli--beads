@@ -24,10 +24,11 @@ nav-mirror-stage-fixes: resolve the hand-edit mirror owner in baseline coordinat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.2/README.md) | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.6.2/README.md) | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`50350db`](https://github.com/bobs-org/bob-cli/commit/50350db0f442696acef0e1d198c2e9fd2ca48f45) | docs(task-deps): state the BLOCKED badge rule in stage S6 | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 2026-10-03 03:30:09 EDT |
+| bob-plugins | [`bob-plugins@6648a2c`](https://github.com/bobs-org/bob-plugins/commit/6648a2cdfdbe1d2f12b2bc06341e3af9c3f482c9) | fix(nav): mirror owner in baseline coords, waits-on badge, stale refusals (1.63.0) | [bob-cli-3n.12.9.6.2](bob-cli-3n.12.9.6.2.md) | 2026-10-03 03:30:48 EDT |
