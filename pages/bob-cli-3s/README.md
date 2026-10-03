@@ -57,7 +57,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.3.md) | [bob-cli-3s.3](bob-cli-3s.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-3s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.4.md) | [bob-cli-3s.4](bob-cli-3s.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-3s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.5.md) | [bob-cli-3s.5](bob-cli-3s.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-3s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.land.md) | [bob-cli-3s](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-3s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3s.land.md) | [bob-cli-3s](README.md) | 2 |
 
 ## Commits
 
@@ -69,3 +69,4 @@ flowchart TD
 | bob-cli | [`c2c54a4`](https://github.com/bobs-org/bob-cli/commit/c2c54a4b5da85a67555f5f7d085ad84d37630400) | refactor(capture-clip): split capture\_clip into focused modules | [bob-cli-3s.4](bob-cli-3s.4.md) | 2026-10-03 07:04:42 EDT |
 | bob-cli | [`bfa3ac9`](https://github.com/bobs-org/bob-cli/commit/bfa3ac904d194fc26e92c9c70706f510a552eccd) | refactor(plugins): split plugin management into focused modules | [bob-cli-3s.5](bob-cli-3s.5.md) | 2026-10-03 07:26:42 EDT |
 | bob-cli | [`1305af5`](https://github.com/bobs-org/bob-cli/commit/1305af5b48be78dbe0c7f5b5bc05657dac5483b4) | refactor(native): drop unused facade re-exports to land bob-cli-3s | [bob-cli-3s](README.md) | 2026-10-03 07:46:30 EDT |
+| bob-cli--plans | [`bob-cli--plans@6aa1403`](https://github.com/bobs-org/bob-cli--plans/commit/6aa140378efb4b4e63f7a456be306457c9a21b94) | chore(sdd): mark bob-cli-3s done | [bob-cli-3s](README.md) | 2026-10-03 07:47:02 EDT |
