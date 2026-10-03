@@ -20,7 +20,7 @@ split-capture-clip: After split-task-status-hooks-write, reinspect src/native/ca
 ## Dependencies
 
 - **Depends on:** [bob-cli-3s.3](bob-cli-3s.3.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3s.5](bob-cli-3s.5.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3s.5](bob-cli-3s.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
