@@ -26,11 +26,10 @@ chips-compat-fix: pin api v1 ref.line as 0-based and fix the chip off-by-one and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.3/README.md) | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.3/README.md) | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a069239`](https://github.com/bobs-org/bob-cli/commit/a069239a5ec36929933b9bdbfa096e27a7d9ed58) | docs(deps): pin api v1 ref.line as 0-based and add DP24-DP29 recogniser vectors | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 2026-10-03 00:00:51 EDT |
-| bob-plugins | [`bob-plugins@330fc58`](https://github.com/bobs-org/bob-plugins/commit/330fc58b6f5ae549d412d9e13e81ee7ed86402d7) | fix(deps): 0-based chip refs, owned-line chips, Reading view, hover, memo-bound lookup, aligned recognisers | [bob-cli-3n.12.3](bob-cli-3n.12.3.md) | 2026-10-03 00:03:29 EDT |

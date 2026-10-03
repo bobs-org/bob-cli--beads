@@ -18,16 +18,10 @@ nav-mirror-stage: seed the mirror from the CM6 start state and map the owner thr
 ## Dependencies
 
 - **Depends on:** [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3n.12.9.5](bob-cli-3n.12.9.5.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3n.12.9.5](bob-cli-3n.12.9.5.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.3/README.md) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@2bd875d`](https://github.com/bobs-org/bob-plugins/commit/2bd875d035c2aa32c0d8f4391f7b3d80f2cd68cb) | fix(nav): seed hand-edit mirror baseline from CM6 start state, finish Depends on stage polish (1.61.0) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 2026-10-03 02:06:06 EDT |
+| [bbugyi200.athena.bob-cli-3n.12.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.3/README.md) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 0 |

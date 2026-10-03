@@ -27,11 +27,10 @@ docs-memory-fix: add the missing rejected alternative, decided date, and plugin 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3b04a06`](https://github.com/bobs-org/bob-cli/commit/3b04a06559b7cd7c2402b3e793765bf73c4273a6) | docs(deps): correct decision record and sweep stale dependency docs | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:05 EDT |
-| bob-plugins | [`bob-plugins@0a7ee3d`](https://github.com/bobs-org/bob-plugins/commit/0a7ee3d77d693ddee20a796341b4bf6c4bcf74b3) | fix(deps): chip waiting counts open prerequisites only; archive links keep done/ path (ledger-tools 1.20.0, nav 1.59.0) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:36 EDT |

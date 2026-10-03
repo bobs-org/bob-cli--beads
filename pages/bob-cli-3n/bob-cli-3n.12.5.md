@@ -28,10 +28,4 @@ nav-mirror-gestures: move the hand-edit mirror to a CM6 update listener with cor
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.5/README.md) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@f78ffad`](https://github.com/bobs-org/bob-plugins/commit/f78ffad425ba528b4f2ecdc196ce9bc95eb6fe30) | fix(nav): rebuild hand-edit mirror on CM6 listener, fix gestures, remove legacy writers (1.57.0) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 2026-10-03 00:30:10 EDT |
+| [bbugyi200.athena.bob-cli-3n.12.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.5/README.md) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 0 |

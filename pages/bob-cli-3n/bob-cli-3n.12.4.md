@@ -23,11 +23,10 @@ nav-writer-fix: await cross-note preparation, load or tolerate every linked note
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.4/README.md) | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.4/README.md) | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b61727a`](https://github.com/bobs-org/bob-cli/commit/b61727abf00e5d64f9a4008cc779aa55b429dc5a) | docs(deps): pin removeDependency not-on-line refusal in contract S9 | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 2026-10-02 23:46:50 EDT |
-| bob-plugins | [`bob-plugins@3ffa187`](https://github.com/bobs-org/bob-plugins/commit/3ffa187b4e2f2d48c61ddcbb5c68ec6aa1ef0469) | fix(nav): cross-note dependency writer await, tolerance, recovery, and undo fixes (1.56.0) | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 2026-10-02 23:47:30 EDT |
