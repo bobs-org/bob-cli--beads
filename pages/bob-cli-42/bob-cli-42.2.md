@@ -18,7 +18,7 @@ card-model: add pure context-aware card and key models with independent per-targ
 ## Dependencies
 
 - **Depends on:** [bob-cli-42.1](bob-cli-42.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-42.3](bob-cli-42.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-42.3](bob-cli-42.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
