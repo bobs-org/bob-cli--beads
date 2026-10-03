@@ -17,7 +17,7 @@ repair-refresh: fix the confirmed malformed footer crash, verify the decay card'
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-42.2](bob-cli-42.2.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-42.2](bob-cli-42.2.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
