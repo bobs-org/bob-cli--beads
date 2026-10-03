@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.3/README.md) | [bob-cli-3u.3](bob-cli-3u.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3u.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.4/README.md) | [bob-cli-3u.4](bob-cli-3u.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3u.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.5/README.md) | [bob-cli-3u.5](bob-cli-3u.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-3u.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.land/README.md) | [bob-cli-3u](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3u.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.land/README.md) | [bob-cli-3u](README.md) | 2 |
 
 ## Commits
 
@@ -113,3 +113,4 @@ flowchart TD
 | bob-cli | [`cfe88fc`](https://github.com/bobs-org/bob-cli/commit/cfe88fcb26c11f332db06337cfa68e80df8ac747) | feat(capture): add vault-wide task dependency discovery for bob-cli-3u.2 | [bob-cli-3u.2](bob-cli-3u.2.md) | 2026-10-03 10:30:54 EDT |
 | bob-cli | [`6718111`](https://github.com/bobs-org/bob-cli/commit/67181114af85467c1e4d3ecaa3ee98484d5d39c4) | feat(capture): implement staged capture writer with dependency parsing | [bob-cli-3u.3](bob-cli-3u.3.md) | 2026-10-03 11:22:40 EDT |
 | bob-cli | [`e5a049c`](https://github.com/bobs-org/bob-cli/commit/e5a049c43b02e37d5ebd93c91b1c297d88711fed) | docs(capture): record the & dependency capture in freshness and dependency contracts | [bob-cli-3u](README.md) | 2026-10-03 13:05:00 EDT |
+| bob-cli--plans | [`bob-cli--plans@e2efa90`](https://github.com/bobs-org/bob-cli--plans/commit/e2efa902c8abd808b8f993db1dadbee087c93090) | chore(plans): mark capture\_task\_dependencies done after bob-cli-3u landing | [bob-cli-3u](README.md) | 2026-10-03 13:06:01 EDT |
