@@ -13,7 +13,7 @@ nav-stage-polish: fix ranker tie order, empty-query order, and the row cap hint;
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3n.12.5](bob-cli-3n.12.5.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3n.12.5](bob-cli-3n.12.5.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.12.7](bob-cli-3n.12.7.md) ◐ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.12.8](bob-cli-3n.12.8.md) ◐ · ⧖ 2026-10-02
 
