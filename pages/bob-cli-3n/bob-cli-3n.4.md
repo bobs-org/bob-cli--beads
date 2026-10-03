@@ -19,7 +19,7 @@ chips: render Depends-On lines as live status chips in Live Preview and Reading 
 
 - **Depends on:** [bob-cli-3n.1](bob-cli-3n.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.6](bob-cli-3n.6.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

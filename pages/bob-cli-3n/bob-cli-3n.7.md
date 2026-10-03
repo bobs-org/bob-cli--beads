@@ -21,7 +21,7 @@ nav-stage: add the vault-wide candidate pool from the Tasks cache and open buffe
 
 - **Depends on:** [bob-cli-3n.6](bob-cli-3n.6.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.8](bob-cli-3n.8.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

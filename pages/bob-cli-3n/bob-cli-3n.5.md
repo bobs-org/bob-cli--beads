@@ -19,7 +19,7 @@ compat: the cycler skips strike, restore, and tree close on Depends-On lines; Ct
 
 - **Depends on:** [bob-cli-3n.1](bob-cli-3n.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.6](bob-cli-3n.6.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 
