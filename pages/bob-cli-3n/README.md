@@ -52,14 +52,20 @@ flowchart TD
     n10["bob-cli-3n.12.6: Bring the Depends on stage to its design [closed]"]
     n11["bob-cli-3n.12.7: Correct the decision record and sweep stale dependency docs [closed]"]
     n12["bob-cli-3n.12.8: Reinstall bob and resync plugins across the fleet with the fixes [closed]"]
-    n13["bob-cli-3n.2: Rust dependency-line parser, promotion edges, and parser guards [closed]"]
-    n14["bob-cli-3n.3: R1-R10 reconciliation in bob task-status-hooks [closed]"]
-    n15["bob-cli-3n.4: bob-ledger-tools live dependency chips [closed]"]
-    n16["bob-cli-3n.5: task-status-cycler and block-id-prompt compatibility [closed]"]
-    n17["bob-cli-3n.6: Navigation-hotkeys dependency model, single-transaction writer, and api v1 [closed]"]
-    n18["bob-cli-3n.7: Vault-wide Ctrl+Shift+P Depends on stage [closed]"]
-    n19["bob-cli-3n.8: Gesture cleanup, hand-edit mirror, and legacy writer removal [closed]"]
-    n20["bob-cli-3n.9: Install bob and sync plugins on every machine [closed]"]
+    n13["bob-cli-3n.12.9: Land task dependency link fixes: nav writer and mirror bugs, Reading-view chips, DP29, hooks test gaps, rollout [in_progress]"]
+    n14["bob-cli-3n.12.9.1: Reading-view chips, recogniser alignment, and the DP29/DP30 contract [in_progress]"]
+    n15["bob-cli-3n.12.9.2: Fix the nav dependency writer bugs the landing audit confirmed [closed]"]
+    n16["bob-cli-3n.12.9.3: Finish the hand-edit mirror baseline and the Depends on stage [in_progress]"]
+    n17["bob-cli-3n.12.9.4: Close the hooks DW, DP, Summary, docs, and per-run copy gaps [in_progress]"]
+    n18["bob-cli-3n.12.9.5: Reinstall bob and resync plugins across the fleet with the landing fixes [in_progress]"]
+    n19["bob-cli-3n.2: Rust dependency-line parser, promotion edges, and parser guards [closed]"]
+    n20["bob-cli-3n.3: R1-R10 reconciliation in bob task-status-hooks [closed]"]
+    n21["bob-cli-3n.4: bob-ledger-tools live dependency chips [closed]"]
+    n22["bob-cli-3n.5: task-status-cycler and block-id-prompt compatibility [closed]"]
+    n23["bob-cli-3n.6: Navigation-hotkeys dependency model, single-transaction writer, and api v1 [closed]"]
+    n24["bob-cli-3n.7: Vault-wide Ctrl+Shift+P Depends on stage [closed]"]
+    n25["bob-cli-3n.8: Gesture cleanup, hand-edit mirror, and legacy writer removal [closed]"]
+    n26["bob-cli-3n.9: Install bob and sync plugins on every machine [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -72,18 +78,24 @@ flowchart TD
     n4 --> n10
     n4 --> n11
     n4 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
-    n0 --> n16
-    n0 --> n17
-    n0 --> n18
+    n4 --> n13
+    n13 --> n14
+    n13 --> n15
+    n13 --> n16
+    n13 --> n17
+    n13 --> n18
     n0 --> n19
     n0 --> n20
-    n1 -.-> n13
-    n1 -.-> n15
-    n1 -.-> n16
-    n1 -.-> n17
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
+    n0 --> n24
+    n0 --> n25
+    n0 --> n26
+    n1 -.-> n19
+    n1 -.-> n21
+    n1 -.-> n22
+    n1 -.-> n23
     n2 -.-> n3
     n5 -.-> n6
     n6 -.-> n11
@@ -94,17 +106,22 @@ flowchart TD
     n9 -.-> n10
     n10 -.-> n11
     n10 -.-> n12
-    n13 -.-> n14
-    n14 -.-> n20
-    n15 -.-> n17
-    n15 -.-> n20
-    n16 -.-> n17
-    n16 -.-> n20
+    n14 -.-> n18
+    n15 -.-> n16
+    n15 -.-> n18
+    n16 -.-> n18
     n17 -.-> n18
-    n18 -.-> n19
-    n18 -.-> n20
     n19 -.-> n20
-    n20 -.-> n2
+    n20 -.-> n26
+    n21 -.-> n23
+    n21 -.-> n26
+    n22 -.-> n23
+    n22 -.-> n26
+    n23 -.-> n24
+    n24 -.-> n25
+    n24 -.-> n26
+    n25 -.-> n26
+    n26 -.-> n2
 ```
 
 ## Agents
@@ -122,7 +139,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3n.12.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.6/README.md) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2 |
 | [bbugyi200.athena.bob-cli-3n.12.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.8/README.md) | [bob-cli-3n.12.8](bob-cli-3n.12.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-3n.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.land/README.md) | [bob-cli-3n.12](bob-cli-3n.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.1/README.md) | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.9.2.md) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.3/README.md) | [bob-cli-3n.12.9.3](bob-cli-3n.12.9.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.4/README.md) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.5/README.md) | [bob-cli-3n.12.9.5](bob-cli-3n.12.9.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.land/README.md) | [bob-cli-3n.12.9](bob-cli-3n.12.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.land.md) | [bob-cli-3n.12](bob-cli-3n.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.2/README.md) | [bob-cli-3n.2](bob-cli-3n.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.3/README.md) | [bob-cli-3n.3](bob-cli-3n.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.4/README.md) | [bob-cli-3n.4](bob-cli-3n.4.md) | 1 |
@@ -157,3 +180,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@40e2e3a`](https://github.com/bobs-org/bob-plugins/commit/40e2e3a57b6bb6539714f13a58445a20ee3c5b44) | fix(nav): bring Depends on stage to design (1.58.0) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 2026-10-03 00:49:50 EDT |
 | bob-cli | [`3b04a06`](https://github.com/bobs-org/bob-cli/commit/3b04a06559b7cd7c2402b3e793765bf73c4273a6) | docs(deps): correct decision record and sweep stale dependency docs | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:05 EDT |
 | bob-plugins | [`bob-plugins@0a7ee3d`](https://github.com/bobs-org/bob-plugins/commit/0a7ee3d77d693ddee20a796341b4bf6c4bcf74b3) | fix(deps): chip waiting counts open prerequisites only; archive links keep done/ path (ledger-tools 1.20.0, nav 1.59.0) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:36 EDT |
+| bob-plugins | [`bob-plugins@e09b424`](https://github.com/bobs-org/bob-plugins/commit/e09b42470b07c22dbf1cf20af272827d08f99671) | fix(nav): dependency writer bugs — DP29 blockquote refusal, kept-link id lookup, one-transaction counted writes, gated snapshots, hand-edit vault-snapshot recovery (nav 1.60.0) | [bob-cli-3n.12.9.2](bob-cli-3n.12.9.2.md) | 2026-10-03 01:50:03 EDT |
