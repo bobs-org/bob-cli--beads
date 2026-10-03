@@ -30,10 +30,4 @@ vault-migrate: preflight the fleet (ask Bryan only if the Mac is unverified), ad
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.10/README.md) | [bob-cli-3n.10](bob-cli-3n.10.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@46ddd1e`](https://github.com/bobs-org/bob-plugins/commit/46ddd1eb52fccb516a2deb4b509590c3a9a37a48) | feat(nav): dry-run-first Depends-On line migration script | [bob-cli-3n.10](bob-cli-3n.10.md) | 2026-10-02 22:20:12 EDT |
+| [bbugyi200.athena.bob-cli-3n.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.10/README.md) | [bob-cli-3n.10](bob-cli-3n.10.md) | 0 |
