@@ -20,4 +20,10 @@ decay-planner: compose existing priority and log planners into stable previewed 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-3v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.4/README.md) | [bob-cli-3v.4](bob-cli-3v.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.4/README.md) | [bob-cli-3v.4](bob-cli-3v.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`cb7650e`](https://github.com/bobs-org/bob-cli/commit/cb7650e9723004a5593181cc401b1ba2a8ccdddf) | docs(decay-planner): document approved-decay action planner and kept-count tails | [bob-cli-3v.4](bob-cli-3v.4.md) | 2026-10-03 11:38:20 EDT |

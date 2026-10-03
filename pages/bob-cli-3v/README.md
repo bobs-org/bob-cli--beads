@@ -18,7 +18,7 @@ Explicit due-Ready keeps have a trustworthy streak and a quiet freshness-mark di
 | [bob-cli-3v.1](bob-cli-3v.1.md) | Keep-streak contract and Rust support | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [bob-cli-3v.2](bob-cli-3v.2.md) | Ledger keep helper and folded marks | ✓ closed | medium | 2026-10-03 | 1 | 2 |
 | [bob-cli-3v.3](bob-cli-3v.3.md) | Exact explicit-keep counting | ✓ closed | medium | 2026-10-03 | 1 | 2 |
-| [bob-cli-3v.4](bob-cli-3v.4.md) | Shared approved-decay action planner | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
+| [bob-cli-3v.4](bob-cli-3v.4.md) | Shared approved-decay action planner | ◐ in_progress | medium | 2026-10-03 | 1 | 1 |
 | [bob-cli-3v.5](bob-cli-3v.5.md) | Decision card and review-walk integration | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
 | [bob-cli-3v.6](bob-cli-3v.6.md) | Integrated verification, documentation, and rollout | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
 
@@ -53,7 +53,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-3v.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.1/README.md) | [bob-cli-3v.1](bob-cli-3v.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.2/README.md) | [bob-cli-3v.2](bob-cli-3v.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-3v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.3/README.md) | [bob-cli-3v.3](bob-cli-3v.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-3v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.4/README.md) | [bob-cli-3v.4](bob-cli-3v.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.4/README.md) | [bob-cli-3v.4](bob-cli-3v.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.5/README.md) | [bob-cli-3v.5](bob-cli-3v.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.6/README.md) | [bob-cli-3v.6](bob-cli-3v.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.land/README.md) | [bob-cli-3v](README.md) | 0 |
@@ -67,3 +67,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@67e9409`](https://github.com/bobs-org/bob-plugins/commit/67e9409b7a3d4b0e6e1f0520b8a769eaa6999019) | feat(freshness): keep-streak namespace v5, keepLine, and folded pips for bob-cli-3v.2 | [bob-cli-3v.2](bob-cli-3v.2.md) | 2026-10-03 11:12:12 EDT |
 | bob-cli | [`d6b63e8`](https://github.com/bobs-org/bob-cli/commit/d6b63e864c3b29b15f89a98cd9859184bb53ced5) | docs(freshness): record keep-counting as trial-neutral first milestone | [bob-cli-3v.3](bob-cli-3v.3.md) | 2026-10-03 11:25:19 EDT |
 | bob-plugins | [`bob-plugins@9a86df4`](https://github.com/bobs-org/bob-plugins/commit/9a86df48e4537b4b3ac80682d8377f49f38573c1) | feat(nav-hotkeys): count eligible fresh stamps through keepLine with exact pre-write match | [bob-cli-3v.3](bob-cli-3v.3.md) | 2026-10-03 11:25:51 EDT |
+| bob-cli | [`cb7650e`](https://github.com/bobs-org/bob-cli/commit/cb7650e9723004a5593181cc401b1ba2a8ccdddf) | docs(decay-planner): document approved-decay action planner and kept-count tails | [bob-cli-3v.4](bob-cli-3v.4.md) | 2026-10-03 11:38:20 EDT |
