@@ -18,7 +18,7 @@ ledger-marks: mirror the contract in freshness namespace v5, add the sole increm
 ## Dependencies
 
 - **Depends on:** [bob-cli-3v.1](bob-cli-3v.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3v.3](bob-cli-3v.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3v.3](bob-cli-3v.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

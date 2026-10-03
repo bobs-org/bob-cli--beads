@@ -13,7 +13,7 @@ decay-planner: compose existing priority and log planners into stable previewed 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3v.3](bob-cli-3v.3.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-3v.3](bob-cli-3v.3.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3v.5](bob-cli-3v.5.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
