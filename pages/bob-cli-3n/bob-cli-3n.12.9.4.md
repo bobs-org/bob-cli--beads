@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-3n.12.9](bob-cli-3n.12.9.md) / bob-cli-3n.12.9.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-3n.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.12.land.md) · **Assignee:** `bob-cli-3n.12.9.4` · **Size:** medium
-**Created:** 2026-10-03 01:27:48 EDT
+**Created:** 2026-10-03 01:27:48 EDT · **Closed:** 2026-10-03 01:56:27 EDT
 **Plan:** [202610/task\_dep\_links\_landing\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_dep_links_landing_fixes.md)
 
 ## Description
@@ -17,6 +17,8 @@ hooks-gaps: replace the hollow DW1/DW2/DW3/DW5/DW6 tests, pin the Summary depend
 
 [2026-10-03T05:53:09Z · bob-cli-3n.12.9.4] PROPOSED FOLLOW-UP: completion::bash::bash_readline_inserts_what_bob_returned flakes under parallel cargo test (fails in full run, passes in isolation); needs quarantine or retry like the capture_pomodoros flake (bob-cli-2e)
 
+[2026-10-03T05:56:27Z · bob-cli-3n.12.9.4] Closed by explicit `sase stitch create -B close` after create_commit landed 72964be ("fix(hooks): close DW/DP Summary docs and per-run copy gaps (bob-cli-3n.12.9.4)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-3n.12.9.4` if more work remains.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-3n.12.9.5](bob-cli-3n.12.9.5.md) ◐ · ⧖ 2026-10-03
@@ -25,10 +27,4 @@ hooks-gaps: replace the hollow DW1/DW2/DW3/DW5/DW6 tests, pin the Summary depend
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.4/README.md) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`72964be`](https://github.com/bobs-org/bob-cli/commit/72964be19e6ab52d3b5a5e567ceeb96acb7a8e93) | fix(hooks): close DW/DP Summary docs and per-run copy gaps (bob-cli-3n.12.9.4) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 2026-10-03 01:55:57 EDT |
+| [bbugyi200.athena.bob-cli-3n.12.9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.4/README.md) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 0 |

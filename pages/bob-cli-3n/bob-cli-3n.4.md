@@ -25,4 +25,10 @@ chips: render Depends-On lines as live status chips in Live Preview and Reading 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.4/README.md) | [bob-cli-3n.4](bob-cli-3n.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.4/README.md) | [bob-cli-3n.4](bob-cli-3n.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@1831db4`](https://github.com/bobs-org/bob-plugins/commit/1831db4b9d56eb71bc7b7a02d62799696e350170) | feat(bob-ledger-tools): live dependency chips 1.17.0 -\> 1.18.0 | [bob-cli-3n.4](bob-cli-3n.4.md) | 2026-10-02 19:06:53 EDT |

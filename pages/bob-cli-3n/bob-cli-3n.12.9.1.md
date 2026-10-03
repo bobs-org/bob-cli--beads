@@ -25,11 +25,10 @@ chips-reading-align: settle DP29 (blockquote is not-a-line everywhere) and add D
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.1/README.md) | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-3n.12.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.1/README.md) | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`eb9d846`](https://github.com/bobs-org/bob-cli/commit/eb9d846b765f0c1172038ba147771a0d0e580836) | feat(task-deps): pin DP29 not-a-line, DP30 accept(1), cover DP24-DP30 vectors | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2026-10-03 01:54:55 EDT |
 | bob-plugins | [`bob-plugins@b168458`](https://github.com/bobs-org/bob-plugins/commit/b168458b7e7e1985be922cc6b252c2bd0bd12410) | feat(plugins): sync ledger-tools 1.21.0, cycler 1.22.0, block-id-prompt 1.20.0 dep views | [bob-cli-3n.12.9.1](bob-cli-3n.12.9.1.md) | 2026-10-03 01:56:32 EDT |
