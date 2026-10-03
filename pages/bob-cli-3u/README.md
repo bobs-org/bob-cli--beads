@@ -15,8 +15,8 @@ Bryan can add prerequisite links to new or explicitly selected existing tasks wi
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-3u.1](bob-cli-3u.1.md) | Define dependency capture grammar and the additive JSON contract | ◐ in_progress | medium | 2026-10-03 | 1 | 1 |
-| [bob-cli-3u.2](bob-cli-3u.2.md) | Discover prerequisite tasks throughout the vault | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
+| [bob-cli-3u.1](bob-cli-3u.1.md) | Define dependency capture grammar and the additive JSON contract | ✓ closed | medium | 2026-10-03 | 1 | 1 |
+| [bob-cli-3u.2](bob-cli-3u.2.md) | Discover prerequisite tasks throughout the vault | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [bob-cli-3u.3](bob-cli-3u.3.md) | Apply dependency captures with staged multi-note writes | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
 | [bob-cli-3u.4](bob-cli-3u.4.md) | Present the dependency picker and preview in Bob Mac Capture | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
 | [bob-cli-3u.5](bob-cli-3u.5.md) | Verify the integrated contract and finish the visual review | ◐ in_progress | small | 2026-10-03 | 1 | 0 |
@@ -26,8 +26,8 @@ Bryan can add prerequisite links to new or explicitly selected existing tasks wi
 ```mermaid
 flowchart TD
     n0["bob-cli-3u: Capture task dependencies with an ampersand picker [in_progress]"]
-    n1["bob-cli-3u.1: Define dependency capture grammar and the additive JSON contract [in_progress]"]
-    n2["bob-cli-3u.2: Discover prerequisite tasks throughout the vault [in_progress]"]
+    n1["bob-cli-3u.1: Define dependency capture grammar and the additive JSON contract [closed]"]
+    n2["bob-cli-3u.2: Discover prerequisite tasks throughout the vault [closed]"]
     n3["bob-cli-3u.3: Apply dependency captures with staged multi-note writes [in_progress]"]
     n4["bob-cli-3u.4: Present the dependency picker and preview in Bob Mac Capture [in_progress]"]
     n5["bob-cli-3u.5: Verify the integrated contract and finish the visual review [in_progress]"]
@@ -53,7 +53,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-3u.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.1/README.md) | [bob-cli-3u.1](bob-cli-3u.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-3u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.2/README.md) | [bob-cli-3u.2](bob-cli-3u.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-3u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.2/README.md) | [bob-cli-3u.2](bob-cli-3u.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-3u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.3/README.md) | [bob-cli-3u.3](bob-cli-3u.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3u.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.4/README.md) | [bob-cli-3u.4](bob-cli-3u.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-3u.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3u.5/README.md) | [bob-cli-3u.5](bob-cli-3u.5.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4b20af6`](https://github.com/bobs-org/bob-cli/commit/4b20af6cd7c878395d06589ebd4e0154175eef24) | feat(capture): define dependency capture grammar and additive JSON contract | [bob-cli-3u.1](bob-cli-3u.1.md) | 2026-10-03 09:59:30 EDT |
+| bob-cli | [`cfe88fc`](https://github.com/bobs-org/bob-cli/commit/cfe88fcb26c11f332db06337cfa68e80df8ac747) | feat(capture): add vault-wide task dependency discovery for bob-cli-3u.2 | [bob-cli-3u.2](bob-cli-3u.2.md) | 2026-10-03 10:30:54 EDT |
