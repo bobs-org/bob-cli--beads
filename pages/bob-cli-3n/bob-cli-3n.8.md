@@ -13,7 +13,7 @@ nav-gestures: ! becomes a pure transclusion toggle and is refused on the line; C
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3n.7](bob-cli-3n.7.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3n.7](bob-cli-3n.7.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.9](bob-cli-3n.9.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
