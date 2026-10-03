@@ -19,7 +19,7 @@ contract-rust: specify the shared behavior, implement reading and reset semantic
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3v.2](bob-cli-3v.2.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3v.2](bob-cli-3v.2.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

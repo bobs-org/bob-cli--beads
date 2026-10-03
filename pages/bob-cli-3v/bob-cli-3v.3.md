@@ -13,7 +13,7 @@ nav-counting: wire single, counted, and Task Link refreshes through exact pre-wr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3v.2](bob-cli-3v.2.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-3v.2](bob-cli-3v.2.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-3v.4](bob-cli-3v.4.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
