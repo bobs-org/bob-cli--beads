@@ -14,7 +14,7 @@ plus_picker_integration: exercise backend and app together in a fixture vault, v
 ## Dependencies
 
 - **Depends on:** [bob-cli-41.1](bob-cli-41.1.md) ✓ · ⧖ 2026-10-03
-- **Depends on:** [bob-cli-41.2](bob-cli-41.2.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-41.2](bob-cli-41.2.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

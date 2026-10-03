@@ -16,7 +16,7 @@ Scoped @file+ and leading or prose-terminal + gestures open the shared native fu
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-41.1](bob-cli-41.1.md) | Define plus task discovery and cursor contract in bob-cli | ✓ closed | medium | 2026-10-03 | 1 | 1 |
-| [bob-cli-41.2](bob-cli-41.2.md) | Present scoped and vault-wide plus task pickers in Bob Mac Capture | ◐ in_progress | medium | 2026-10-03 | 1 | 0 |
+| [bob-cli-41.2](bob-cli-41.2.md) | Present scoped and vault-wide plus task pickers in Bob Mac Capture | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [bob-cli-41.3](bob-cli-41.3.md) | Verify the combined feature and polish the picker on macOS | ◐ in_progress | small | 2026-10-03 | 1 | 0 |
 
 ## Lineage
@@ -25,7 +25,7 @@ Scoped @file+ and leading or prose-terminal + gestures open the shared native fu
 flowchart TD
     n0["bob-cli-41: Fuzzy task pickers for scoped and vault-wide plus capture [in_progress]"]
     n1["bob-cli-41.1: Define plus task discovery and cursor contract in bob-cli [closed]"]
-    n2["bob-cli-41.2: Present scoped and vault-wide plus task pickers in Bob Mac Capture [in_progress]"]
+    n2["bob-cli-41.2: Present scoped and vault-wide plus task pickers in Bob Mac Capture [closed]"]
     n3["bob-cli-41.3: Verify the combined feature and polish the picker on macOS [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -40,7 +40,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-41.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.1/README.md) | [bob-cli-41.1](bob-cli-41.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-41.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.2/README.md) | [bob-cli-41.2](bob-cli-41.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-41.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.2/README.md) | [bob-cli-41.2](bob-cli-41.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-41.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.3/README.md) | [bob-cli-41.3](bob-cli-41.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-41.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.land/README.md) | [bob-cli-41](README.md) | 0 |
 
@@ -49,3 +49,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0aa9b8a`](https://github.com/bobs-org/bob-cli/commit/0aa9b8a72163187de0c1c6c4796049ccd1ea9281) | feat(capture): add parent task picker | [bob-cli-41.1](bob-cli-41.1.md) | 2026-10-03 17:08:56 EDT |
+| bob-mac-capture | [`bob-mac-capture@e9b5f81`](https://github.com/bobs-org/bob-mac-capture/commit/e9b5f811e0bf09b3e5a3464c905f7816ee57b648) | feat(capture): present scoped and vault-wide plus task pickers | [bob-cli-41.2](bob-cli-41.2.md) | 2026-10-03 18:04:28 EDT |

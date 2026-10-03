@@ -19,7 +19,7 @@ plus_completion_contract: add the shared selector classifier, additive completio
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-41.2](bob-cli-41.2.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-41.2](bob-cli-41.2.md) ✓ · ⧖ 2026-10-03
 - **Blocks:** [bob-cli-41.3](bob-cli-41.3.md) ◐ · ⧖ 2026-10-03
 
 ## Agents
