@@ -14,7 +14,7 @@ rollout: reinstall bob from master and sync the plugins on athena and apollo, up
 ## Dependencies
 
 - **Depends on:** [bob-cli-3n.12.2](bob-cli-3n.12.2.md) ◐ · ⧖ 2026-10-02
-- **Depends on:** [bob-cli-3n.12.3](bob-cli-3n.12.3.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3n.12.3](bob-cli-3n.12.3.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [bob-cli-3n.12.6](bob-cli-3n.12.6.md) ◐ · ⧖ 2026-10-02
 
 ## Agents
