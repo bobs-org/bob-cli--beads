@@ -20,7 +20,7 @@ plus_picker_mac: connect both plus scopes to the shared picker lifecycle and fuz
 ## Dependencies
 
 - **Depends on:** [bob-cli-41.1](bob-cli-41.1.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-41.3](bob-cli-41.3.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-41.3](bob-cli-41.3.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
