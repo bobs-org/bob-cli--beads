@@ -17,7 +17,7 @@ split-capture-complete: Reinspect src/native/capture_complete.rs and plan its fi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-3s.2](bob-cli-3s.2.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3s.2](bob-cli-3s.2.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
