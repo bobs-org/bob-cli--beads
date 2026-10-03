@@ -26,10 +26,11 @@ plus_picker_integration: exercise backend and app together in a fixture vault, v
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-41.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.3/README.md) | [bob-cli-41.3](bob-cli-41.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-41.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.3/README.md) | [bob-cli-41.3](bob-cli-41.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a960232`](https://github.com/bobs-org/bob-cli/commit/a960232b2a757046319949f0ad17947af5ac0eec) | test(capture): cover plus-picker catalog and operator walks | [bob-cli-41.3](bob-cli-41.3.md) | 2026-10-03 18:29:50 EDT |
+| bob-mac-capture | [`bob-mac-capture@098e67e`](https://github.com/bobs-org/bob-mac-capture/commit/098e67e9861cd52a981d1f89a73a623b74d3bdd5) | test(capture): align plus-picker fixtures with backend refetch | [bob-cli-41.3](bob-cli-41.3.md) | 2026-10-03 18:30:29 EDT |

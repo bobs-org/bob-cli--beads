@@ -17,7 +17,7 @@ Scoped @file+ and leading or prose-terminal + gestures open the shared native fu
 |---|---|---|---|---|---:|---:|
 | [bob-cli-41.1](bob-cli-41.1.md) | Define plus task discovery and cursor contract in bob-cli | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [bob-cli-41.2](bob-cli-41.2.md) | Present scoped and vault-wide plus task pickers in Bob Mac Capture | ✓ closed | medium | 2026-10-03 | 1 | 1 |
-| [bob-cli-41.3](bob-cli-41.3.md) | Verify the combined feature and polish the picker on macOS | ✓ closed | small | 2026-10-03 | 1 | 1 |
+| [bob-cli-41.3](bob-cli-41.3.md) | Verify the combined feature and polish the picker on macOS | ✓ closed | small | 2026-10-03 | 1 | 2 |
 
 ## Lineage
 
@@ -41,7 +41,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-41.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.1/README.md) | [bob-cli-41.1](bob-cli-41.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-41.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.2/README.md) | [bob-cli-41.2](bob-cli-41.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-41.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.3/README.md) | [bob-cli-41.3](bob-cli-41.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-41.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.3/README.md) | [bob-cli-41.3](bob-cli-41.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-41.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-41.land/README.md) | [bob-cli-41](README.md) | 0 |
 
 ## Commits
@@ -51,3 +51,4 @@ flowchart TD
 | bob-cli | [`0aa9b8a`](https://github.com/bobs-org/bob-cli/commit/0aa9b8a72163187de0c1c6c4796049ccd1ea9281) | feat(capture): add parent task picker | [bob-cli-41.1](bob-cli-41.1.md) | 2026-10-03 17:08:56 EDT |
 | bob-mac-capture | [`bob-mac-capture@e9b5f81`](https://github.com/bobs-org/bob-mac-capture/commit/e9b5f811e0bf09b3e5a3464c905f7816ee57b648) | feat(capture): present scoped and vault-wide plus task pickers | [bob-cli-41.2](bob-cli-41.2.md) | 2026-10-03 18:04:28 EDT |
 | bob-cli | [`a960232`](https://github.com/bobs-org/bob-cli/commit/a960232b2a757046319949f0ad17947af5ac0eec) | test(capture): cover plus-picker catalog and operator walks | [bob-cli-41.3](bob-cli-41.3.md) | 2026-10-03 18:29:50 EDT |
+| bob-mac-capture | [`bob-mac-capture@098e67e`](https://github.com/bobs-org/bob-mac-capture/commit/098e67e9861cd52a981d1f89a73a623b74d3bdd5) | test(capture): align plus-picker fixtures with backend refetch | [bob-cli-41.3](bob-cli-41.3.md) | 2026-10-03 18:30:29 EDT |
