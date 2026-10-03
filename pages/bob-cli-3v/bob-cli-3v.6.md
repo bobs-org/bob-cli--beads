@@ -25,10 +25,11 @@ rollout: verify cross-repository reset and rendering behavior, publish the accep
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-3v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.6/README.md) | [bob-cli-3v.6](bob-cli-3v.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-3v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-3v.6/README.md) | [bob-cli-3v.6](bob-cli-3v.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`89acf06`](https://github.com/bobs-org/bob-cli/commit/89acf0685b1c038174c6e76b34aa9858bfcea3aa) | docs(freshness): keep-streak rollout notes, calibration, and memory publication | [bob-cli-3v.6](bob-cli-3v.6.md) | 2026-10-03 12:21:24 EDT |
+| bob-plugins | [`bob-plugins@9c271e1`](https://github.com/bobs-org/bob-plugins/commit/9c271e1a165d1e9d882f7b295413c7818dd7992a) | docs(readme): nav 1.69.0 version with keepLine counting and decay-card behavior | [bob-cli-3v.6](bob-cli-3v.6.md) | 2026-10-03 12:21:58 EDT |
