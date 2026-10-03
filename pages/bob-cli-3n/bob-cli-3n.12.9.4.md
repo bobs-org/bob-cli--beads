@@ -25,4 +25,10 @@ hooks-gaps: replace the hollow DW1/DW2/DW3/DW5/DW6 tests, pin the Summary depend
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-3n.12.9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.4/README.md) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.12.9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.9.4/README.md) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`72964be`](https://github.com/bobs-org/bob-cli/commit/72964be19e6ab52d3b5a5e567ceeb96acb7a8e93) | fix(hooks): close DW/DP Summary docs and per-run copy gaps (bob-cli-3n.12.9.4) | [bob-cli-3n.12.9.4](bob-cli-3n.12.9.4.md) | 2026-10-03 01:55:57 EDT |
