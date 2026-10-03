@@ -20,7 +20,7 @@ chips-compat-fix: pin api v1 ref.line as 0-based and fix the chip off-by-one and
 ## Dependencies
 
 - **Blocks:** [bob-cli-3n.12.7](bob-cli-3n.12.7.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3n.12.8](bob-cli-3n.12.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.12.8](bob-cli-3n.12.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

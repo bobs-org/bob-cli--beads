@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-3n.12](bob-cli-3n.12.md) / bob-cli-3n.12.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-3n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-3n.land.md) · **Assignee:** `bob-cli-3n.12.8` · **Size:** small
-**Created:** 2026-10-02 23:24:09 EDT
+**Created:** 2026-10-02 23:24:09 EDT · **Closed:** 2026-10-03 01:01:48 EDT
 **Plan:** [202610/task\_dep\_links\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_dep_links_fixes.md)
 
 ## Description
 
 rollout: reinstall bob from master and sync the plugins on athena and apollo, update the MacBook on a best-effort basis now that the hooks are safe, dry-run the fixed hooks against the real vault, and record versions and what is left for Bryan.
+
+## Notes
+
+[2026-10-03T05:01:48Z · bob-cli-3n.12.8] Rollout done on athena+apollo, MacBook left for Bryan. athena: cargo install from bob-cli master 79e39af, plugins synced 0 drift (nav 1.58.0, ledger-tools 1.19.0, cycler 1.21.0, block-id-prompt 1.19.0). apollo: git pull ff-only on both repos (was behind at bob-cli 043d9c5/plugins 82aec34), cargo install, plugins sync 9 copied, now 0 drift at same versions/commits. Real-vault dry run: ok=false, error='daily note does not exist: ~/bob/2026/20261003.md' (no ledger yet today, hooks correctly refuse pre-write; no dependency counts to report). MacBook unreachable over tailnet after 3 attempts (conn timed out) - left for Bryan. just all passes on athena.
 
 ## Dependencies
 

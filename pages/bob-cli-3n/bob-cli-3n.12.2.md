@@ -19,7 +19,7 @@ hooks-docs-cleanup: add the Dependency lines, guarded-write, and Output docs, RE
 
 - **Depends on:** [bob-cli-3n.12.1](bob-cli-3n.12.1.md) ✓ · ⧖ 2026-10-02
 - **Blocks:** [bob-cli-3n.12.7](bob-cli-3n.12.7.md) ✓ · ⧖ 2026-10-02
-- **Blocks:** [bob-cli-3n.12.8](bob-cli-3n.12.8.md) ◐ · ⧖ 2026-10-02
+- **Blocks:** [bob-cli-3n.12.8](bob-cli-3n.12.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

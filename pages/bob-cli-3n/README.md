@@ -51,7 +51,7 @@ flowchart TD
     n9["bob-cli-3n.12.5: Rebuild the hand-edit mirror and finish gesture cleanup and legacy removal [closed]"]
     n10["bob-cli-3n.12.6: Bring the Depends on stage to its design [closed]"]
     n11["bob-cli-3n.12.7: Correct the decision record and sweep stale dependency docs [closed]"]
-    n12["bob-cli-3n.12.8: Reinstall bob and resync plugins across the fleet with the fixes [in_progress]"]
+    n12["bob-cli-3n.12.8: Reinstall bob and resync plugins across the fleet with the fixes [closed]"]
     n13["bob-cli-3n.2: Rust dependency-line parser, promotion edges, and parser guards [closed]"]
     n14["bob-cli-3n.3: R1-R10 reconciliation in bob task-status-hooks [closed]"]
     n15["bob-cli-3n.4: bob-ledger-tools live dependency chips [closed]"]
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3n.12.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.4/README.md) | [bob-cli-3n.12.4](bob-cli-3n.12.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-3n.12.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.5/README.md) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.12.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.6/README.md) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-3n.12.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.7/README.md) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2 |
 | [bbugyi200.athena.bob-cli-3n.12.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.8/README.md) | [bob-cli-3n.12.8](bob-cli-3n.12.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.12.land/README.md) | [bob-cli-3n.12](bob-cli-3n.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.2/README.md) | [bob-cli-3n.2](bob-cli-3n.2.md) | 1 |
@@ -156,3 +156,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@f78ffad`](https://github.com/bobs-org/bob-plugins/commit/f78ffad425ba528b4f2ecdc196ce9bc95eb6fe30) | fix(nav): rebuild hand-edit mirror on CM6 listener, fix gestures, remove legacy writers (1.57.0) | [bob-cli-3n.12.5](bob-cli-3n.12.5.md) | 2026-10-03 00:30:10 EDT |
 | bob-plugins | [`bob-plugins@40e2e3a`](https://github.com/bobs-org/bob-plugins/commit/40e2e3a57b6bb6539714f13a58445a20ee3c5b44) | fix(nav): bring Depends on stage to design (1.58.0) | [bob-cli-3n.12.6](bob-cli-3n.12.6.md) | 2026-10-03 00:49:50 EDT |
 | bob-cli | [`3b04a06`](https://github.com/bobs-org/bob-cli/commit/3b04a06559b7cd7c2402b3e793765bf73c4273a6) | docs(deps): correct decision record and sweep stale dependency docs | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:05 EDT |
+| bob-plugins | [`bob-plugins@0a7ee3d`](https://github.com/bobs-org/bob-plugins/commit/0a7ee3d77d693ddee20a796341b4bf6c4bcf74b3) | fix(deps): chip waiting counts open prerequisites only; archive links keep done/ path (ledger-tools 1.20.0, nav 1.59.0) | [bob-cli-3n.12.7](bob-cli-3n.12.7.md) | 2026-10-03 01:02:36 EDT |
