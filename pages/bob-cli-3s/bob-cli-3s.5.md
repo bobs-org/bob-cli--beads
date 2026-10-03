@@ -13,7 +13,7 @@ split-plugins: After split-capture-clip, reinspect src/native/plugins.rs and pla
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-3s.4](bob-cli-3s.4.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-3s.4](bob-cli-3s.4.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

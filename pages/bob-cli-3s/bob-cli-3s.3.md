@@ -22,7 +22,7 @@ split-task-status-hooks-write: After split-capture-task-toggle, reinspect src/na
 ## Dependencies
 
 - **Depends on:** [bob-cli-3s.2](bob-cli-3s.2.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-3s.4](bob-cli-3s.4.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-3s.4](bob-cli-3s.4.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
