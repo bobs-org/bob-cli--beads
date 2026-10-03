@@ -18,7 +18,7 @@ fleet-rollout: install bob from master and sync the four plugins on this host, t
 - **Depends on:** [bob-cli-3n.4](bob-cli-3n.4.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [bob-cli-3n.5](bob-cli-3n.5.md) ✓ · ⧖ 2026-10-02
 - **Depends on:** [bob-cli-3n.7](bob-cli-3n.7.md) ✓ · ⧖ 2026-10-02
-- **Depends on:** [bob-cli-3n.8](bob-cli-3n.8.md) ◐ · ⧖ 2026-10-02
+- **Depends on:** [bob-cli-3n.8](bob-cli-3n.8.md) ✓ · ⧖ 2026-10-02
 
 ## Agents
 

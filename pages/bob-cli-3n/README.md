@@ -24,7 +24,7 @@ A task's prerequisites live as plain task dependency links on one managed `⛓�
 | [bob-cli-3n.5](bob-cli-3n.5.md) | task-status-cycler and block-id-prompt compatibility | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.6](bob-cli-3n.6.md) | Navigation-hotkeys dependency model, single-transaction writer, and api v1 | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.7](bob-cli-3n.7.md) | Vault-wide Ctrl+Shift+P Depends on stage | ✓ closed | medium | 2026-10-02 | 1 | 1 |
-| [bob-cli-3n.8](bob-cli-3n.8.md) | Gesture cleanup, hand-edit mirror, and legacy writer removal | ◐ in_progress | medium | 2026-10-02 | 1 | 0 |
+| [bob-cli-3n.8](bob-cli-3n.8.md) | Gesture cleanup, hand-edit mirror, and legacy writer removal | ✓ closed | medium | 2026-10-02 | 1 | 1 |
 | [bob-cli-3n.9](bob-cli-3n.9.md) | Install bob and sync plugins on every machine | ◐ in_progress | small | 2026-10-02 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n7["bob-cli-3n.5: task-status-cycler and block-id-prompt compatibility [closed]"]
     n8["bob-cli-3n.6: Navigation-hotkeys dependency model, single-transaction writer, and api v1 [closed]"]
     n9["bob-cli-3n.7: Vault-wide Ctrl+Shift+P Depends on stage [closed]"]
-    n10["bob-cli-3n.8: Gesture cleanup, hand-edit mirror, and legacy writer removal [in_progress]"]
+    n10["bob-cli-3n.8: Gesture cleanup, hand-edit mirror, and legacy writer removal [closed]"]
     n11["bob-cli-3n.9: Install bob and sync plugins on every machine [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-3n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.5/README.md) | [bob-cli-3n.5](bob-cli-3n.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.6/README.md) | [bob-cli-3n.6](bob-cli-3n.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.7/README.md) | [bob-cli-3n.7](bob-cli-3n.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-3n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.8/README.md) | [bob-cli-3n.8](bob-cli-3n.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-3n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.8/README.md) | [bob-cli-3n.8](bob-cli-3n.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-3n.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.9/README.md) | [bob-cli-3n.9](bob-cli-3n.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-3n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-3n.land/README.md) | [bob-cli-3n](README.md) | 0 |
 
@@ -100,3 +100,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5194bc8`](https://github.com/bobs-org/bob-plugins/commit/5194bc80ac71f2d964a82311735f25cdb38fd0c1) | feat(nav): task dependency contract grammar, planner, and single-transaction writer | [bob-cli-3n.6](bob-cli-3n.6.md) | 2026-10-02 20:17:29 EDT |
 | bob-cli | [`043d9c5`](https://github.com/bobs-org/bob-cli/commit/043d9c54022b4146d66b29f36b73ee0adf41e635) | feat(hooks): R1-R10 Depends-On reconciliation in bob task-status-hooks | [bob-cli-3n.3](bob-cli-3n.3.md) | 2026-10-02 20:19:21 EDT |
 | bob-plugins | [`bob-plugins@08d1560`](https://github.com/bobs-org/bob-plugins/commit/08d15603d22aa11fc2df3f916bd71de4c461baf8) | feat(nav): vault-wide Ctrl+Shift+P Depends on stage (1.54.0) | [bob-cli-3n.7](bob-cli-3n.7.md) | 2026-10-02 20:57:49 EDT |
+| bob-plugins | [`bob-plugins@82aec34`](https://github.com/bobs-org/bob-plugins/commit/82aec3481a9a29fce57ba68fdda40a003fb195d8) | feat(nav): gesture cleanup, hand-edit mirror, and legacy writer removal (1.55.0) | [bob-cli-3n.8](bob-cli-3n.8.md) | 2026-10-02 21:36:20 EDT |
