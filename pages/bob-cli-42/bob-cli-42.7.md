@@ -20,7 +20,7 @@ parity-rollout: complete interaction and writer regression coverage, validate pe
 ## Dependencies
 
 - **Depends on:** [bob-cli-42.6](bob-cli-42.6.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-42.8](bob-cli-42.8.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-42.8](bob-cli-42.8.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
