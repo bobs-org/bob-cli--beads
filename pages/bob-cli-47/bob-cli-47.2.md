@@ -24,7 +24,7 @@ split-ledger-tools: apply the established build contract to plugins/bob-ledger-t
 ## Dependencies
 
 - **Depends on:** [bob-cli-47.1](bob-cli-47.1.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [bob-cli-47.3](bob-cli-47.3.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-47.3](bob-cli-47.3.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

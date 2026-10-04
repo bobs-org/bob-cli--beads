@@ -17,7 +17,7 @@ The five largest JavaScript files in the bob-plugins linked repo are each split 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-47.1](bob-cli-47.1.md) | Split task-status-cycler main.js and establish the plugin source build | ✓ closed | large | 2026-10-04 | 1 | 1 |
 | [bob-cli-47.2](bob-cli-47.2.md) | Split bob-ledger-tools main.js | ✓ closed | large | 2026-10-04 | 1 | 1 |
-| [bob-cli-47.3](bob-cli-47.3.md) | Split bob-navigation-hotkeys main.js | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
+| [bob-cli-47.3](bob-cli-47.3.md) | Split bob-navigation-hotkeys main.js | ✓ closed | large | 2026-10-04 | 1 | 1 |
 | [bob-cli-47.4](bob-cli-47.4.md) | Split scripts/test-navigation-hotkeys.cjs | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
 | [bob-cli-47.5](bob-cli-47.5.md) | Split scripts/test-task-status-cycler.cjs | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["bob-cli-47: Split the five largest bob-plugins JavaScript files into files of at most 1000 lines [in_progress]"]
     n1["bob-cli-47.1: Split task-status-cycler main.js and establish the plugin source build [closed]"]
     n2["bob-cli-47.2: Split bob-ledger-tools main.js [closed]"]
-    n3["bob-cli-47.3: Split bob-navigation-hotkeys main.js [in_progress]"]
+    n3["bob-cli-47.3: Split bob-navigation-hotkeys main.js [closed]"]
     n4["bob-cli-47.4: Split scripts/test-navigation-hotkeys.cjs [in_progress]"]
     n5["bob-cli-47.5: Split scripts/test-task-status-cycler.cjs [in_progress]"]
     n0 --> n1
@@ -48,7 +48,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-47.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-47.1.md) | [bob-cli-47.1](bob-cli-47.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-47.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-47.2.md) | [bob-cli-47.2](bob-cli-47.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-47.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-47.3/README.md) | [bob-cli-47.3](bob-cli-47.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-47.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-47.3.md) | [bob-cli-47.3](bob-cli-47.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-47.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-47.4/README.md) | [bob-cli-47.4](bob-cli-47.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-47.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-47.5/README.md) | [bob-cli-47.5](bob-cli-47.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-47.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-47.land/README.md) | [bob-cli-47](README.md) | 0 |
@@ -59,3 +59,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6f8aca0`](https://github.com/bobs-org/bob-plugins/commit/6f8aca0beae21e66922ae61a6d865d642d056803) | feat(plugins): add deterministic fragment build and split task status cycler | [bob-cli-47.1](bob-cli-47.1.md) | 2026-10-04 07:43:42 EDT |
 | bob-plugins | [`bob-plugins@5680659`](https://github.com/bobs-org/bob-plugins/commit/56806594c212627956e06a5a7981c66ada7de4be) | feat(bob-ledger-tools): split main.js onto the fragment source build | [bob-cli-47.2](bob-cli-47.2.md) | 2026-10-04 08:13:32 EDT |
+| bob-plugins | [`bob-plugins@c1762af`](https://github.com/bobs-org/bob-plugins/commit/c1762af3b757579d700dceb010e63a36bf8537b0) | refactor(bob-navigation-hotkeys): split navigation source into fragments | [bob-cli-47.3](bob-cli-47.3.md) | 2026-10-04 09:08:16 EDT |

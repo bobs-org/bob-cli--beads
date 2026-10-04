@@ -13,7 +13,7 @@ split-navigation-hotkeys-tests: move the shared preamble and file-wide helpers i
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-47.3](bob-cli-47.3.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-47.3](bob-cli-47.3.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [bob-cli-47.5](bob-cli-47.5.md) ◐ · ⧖ 2026-10-04
 
 ## Agents
