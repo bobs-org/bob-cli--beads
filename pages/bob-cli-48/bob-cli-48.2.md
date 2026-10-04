@@ -26,4 +26,10 @@ cycler: add completeTaskAtCursor(editor) to the cycler's cross-plugin API (v2). 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-48.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.2/README.md) | [bob-cli-48.2](bob-cli-48.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-48.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.2/README.md) | [bob-cli-48.2](bob-cli-48.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c8ec83f`](https://github.com/bobs-org/bob-plugins/commit/c8ec83fae6a094a5c3762418200e2e5b91f4e0f3) | feat(task-status-cycler): add completeTaskAtCursor API v2 | [bob-cli-48.2](bob-cli-48.2.md) | 2026-10-04 09:21:55 EDT |

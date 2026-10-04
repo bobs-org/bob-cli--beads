@@ -16,9 +16,9 @@ The ]s walk opens with every open, actionable-today #gtd #pre task (the gtd_dail
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-48.1](bob-cli-48.1.md) | Remove the freshness trial and tag the gtd\_daily.md chores | ✓ closed | small | 2026-10-04 | 1 | 1 |
-| [bob-cli-48.2](bob-cli-48.2.md) | task-status-cycler completion API v2 | ✓ closed | small | 2026-10-04 | 1 | 0 |
+| [bob-cli-48.2](bob-cli-48.2.md) | task-status-cycler completion API v2 | ✓ closed | small | 2026-10-04 | 1 | 1 |
 | [bob-cli-48.3](bob-cli-48.3.md) | Checklist tier contract and the Rust evaluator (schema 9) | ✓ closed | medium | 2026-10-04 | 1 | 1 |
-| [bob-cli-48.4](bob-cli-48.4.md) | bob-ledger-tools checklist tiers (freshness namespace v7) | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
+| [bob-cli-48.4](bob-cli-48.4.md) | bob-ledger-tools checklist tiers (freshness namespace v7) | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 | [bob-cli-48.5](bob-cli-48.5.md) | Navigation walk support, complete-and-advance, and text-first cursor identity | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
 | [bob-cli-48.6](bob-cli-48.6.md) | Ritual rewrite, deploy, and live verification | ◐ in_progress | small | 2026-10-04 | 1 | 0 |
 
@@ -30,7 +30,7 @@ flowchart TD
     n1["bob-cli-48.1: Remove the freshness trial and tag the gtd_daily.md chores [closed]"]
     n2["bob-cli-48.2: task-status-cycler completion API v2 [closed]"]
     n3["bob-cli-48.3: Checklist tier contract and the Rust evaluator (schema 9) [closed]"]
-    n4["bob-cli-48.4: bob-ledger-tools checklist tiers (freshness namespace v7) [in_progress]"]
+    n4["bob-cli-48.4: bob-ledger-tools checklist tiers (freshness namespace v7) [closed]"]
     n5["bob-cli-48.5: Navigation walk support, complete-and-advance, and text-first cursor identity [in_progress]"]
     n6["bob-cli-48.6: Ritual rewrite, deploy, and live verification [in_progress]"]
     n0 --> n1
@@ -54,9 +54,9 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-48.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.1/README.md) | [bob-cli-48.1](bob-cli-48.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-48.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.2/README.md) | [bob-cli-48.2](bob-cli-48.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-48.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.2/README.md) | [bob-cli-48.2](bob-cli-48.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-48.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-48.3.md) | [bob-cli-48.3](bob-cli-48.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-48.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.4/README.md) | [bob-cli-48.4](bob-cli-48.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-48.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.4/README.md) | [bob-cli-48.4](bob-cli-48.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-48.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.5/README.md) | [bob-cli-48.5](bob-cli-48.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-48.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.6/README.md) | [bob-cli-48.6](bob-cli-48.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-48.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.land/README.md) | [bob-cli-48](README.md) | 0 |
@@ -65,5 +65,7 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c8ec83f`](https://github.com/bobs-org/bob-plugins/commit/c8ec83fae6a094a5c3762418200e2e5b91f4e0f3) | feat(task-status-cycler): add completeTaskAtCursor API v2 | [bob-cli-48.2](bob-cli-48.2.md) | 2026-10-04 09:21:55 EDT |
 | bob-cli | [`354b5ae`](https://github.com/bobs-org/bob-cli/commit/354b5ae5e57beeb1d68f52ca3508dc6f21a1c4c4) | docs(freshness): remove trial gates and tag daily checklist chores | [bob-cli-48.1](bob-cli-48.1.md) | 2026-10-04 09:22:47 EDT |
 | bob-cli | [`f873b7b`](https://github.com/bobs-org/bob-cli/commit/f873b7b6d6d3d6ee4f8bed8d698e4f7969ae589b) | feat(freshness): add PRE/POST checklist tiers (schema 9) | [bob-cli-48.3](bob-cli-48.3.md) | 2026-10-04 09:53:01 EDT |
+| bob-plugins | [`bob-plugins@d5584a0`](https://github.com/bobs-org/bob-plugins/commit/d5584a088cc6ae45228649cf185fab2b08822136) | feat(bob-ledger-tools): add PRE/POST checklist tiers | [bob-cli-48.4](bob-cli-48.4.md) | 2026-10-04 10:32:53 EDT |

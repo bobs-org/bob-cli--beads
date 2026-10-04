@@ -14,7 +14,7 @@ nav: teach navigation-hotkeys the PRE/POST tiers and notices, route Alt+F / Alt+
 ## Dependencies
 
 - **Depends on:** [bob-cli-48.2](bob-cli-48.2.md) ✓ · ⧖ 2026-10-04
-- **Depends on:** [bob-cli-48.4](bob-cli-48.4.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-48.4](bob-cli-48.4.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [bob-cli-48.6](bob-cli-48.6.md) ◐ · ⧖ 2026-10-04
 
 ## Agents
