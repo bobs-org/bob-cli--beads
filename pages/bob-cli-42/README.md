@@ -22,7 +22,7 @@ Replace the property picker's first screen with a beautiful, reliable Task Card 
 | [bob-cli-42.5](bob-cli-42.5.md) | Add concise date input and inline scheduling reasons | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [bob-cli-42.6](bob-cli-42.6.md) | Combine scheduling reason and Work Log review | ✓ closed | medium | 2026-10-03 | 1 | 1 |
 | [bob-cli-42.7](bob-cli-42.7.md) | Verify full parity and prepare the dated default rollout | ✓ closed | medium | 2026-10-03 | 1 | 1 |
-| [bob-cli-42.8](bob-cli-42.8.md) | Document the new actions, compatibility paths, and rollback | ✓ closed | small | 2026-10-03 | 1 | 1 |
+| [bob-cli-42.8](bob-cli-42.8.md) | Document the new actions, compatibility paths, and rollback | ✓ closed | small | 2026-10-03 | 1 | 2 |
 
 ## Lineage
 
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-42.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.5/README.md) | [bob-cli-42.5](bob-cli-42.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-42.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.6/README.md) | [bob-cli-42.6](bob-cli-42.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-42.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.7/README.md) | [bob-cli-42.7](bob-cli-42.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-42.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.8/README.md) | [bob-cli-42.8](bob-cli-42.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-42.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.8/README.md) | [bob-cli-42.8](bob-cli-42.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-42.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.land/README.md) | [bob-cli-42](README.md) | 0 |
 
 ## Commits
@@ -80,3 +80,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a0b788c`](https://github.com/bobs-org/bob-plugins/commit/a0b788c5b62aa1d02d239ae70ce505c74249ceea) | feat(navigation-hotkeys): combine schedule reason and Work Log review | [bob-cli-42.6](bob-cli-42.6.md) | 2026-10-03 19:22:35 EDT |
 | bob-plugins | [`bob-plugins@e872aee`](https://github.com/bobs-org/bob-plugins/commit/e872aeec61aec8748c98e66331d42262b666b98a) | feat(navigation-hotkeys): ship Task Card 2.0 rollout | [bob-cli-42.7](bob-cli-42.7.md) | 2026-10-03 20:05:02 EDT |
 | bob-cli | [`2b754c8`](https://github.com/bobs-org/bob-cli/commit/2b754c8181e3839fa7eedce959b5b3b2ba559c22) | docs(ready): advertise Task Card keys after October 19 | [bob-cli-42.8](bob-cli-42.8.md) | 2026-10-03 20:19:06 EDT |
+| bob-plugins | [`bob-plugins@dae2dd2`](https://github.com/bobs-org/bob-plugins/commit/dae2dd26b4dae9858dacd56a42c49aa76c4afe85) | docs(nav): document the Task Card and rename the palette command | [bob-cli-42.8](bob-cli-42.8.md) | 2026-10-03 20:19:39 EDT |

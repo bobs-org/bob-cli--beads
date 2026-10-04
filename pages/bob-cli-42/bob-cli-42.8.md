@@ -25,10 +25,11 @@ docs-hints: update plugin and CLI documentation, date-aware ready hints, and the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-42.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.8/README.md) | [bob-cli-42.8](bob-cli-42.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-42.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.8/README.md) | [bob-cli-42.8](bob-cli-42.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2b754c8`](https://github.com/bobs-org/bob-cli/commit/2b754c8181e3839fa7eedce959b5b3b2ba559c22) | docs(ready): advertise Task Card keys after October 19 | [bob-cli-42.8](bob-cli-42.8.md) | 2026-10-03 20:19:06 EDT |
+| bob-plugins | [`bob-plugins@dae2dd2`](https://github.com/bobs-org/bob-plugins/commit/dae2dd26b4dae9858dacd56a42c49aa76c4afe85) | docs(nav): document the Task Card and rename the palette command | [bob-cli-42.8](bob-cli-42.8.md) | 2026-10-03 20:19:39 EDT |
