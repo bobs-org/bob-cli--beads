@@ -25,11 +25,4 @@ downstream-callers: switch the chezmoi shims, tmux.conf, and obsidian memory not
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-46.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.4/README.md) | [bob-cli-46.4](bob-cli-46.4.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@0e6620a`](https://github.com/bobs-org/bob-plugins/commit/0e6620a2a58c5fbc82db786fe42f7155223a3673) | fix(plugins): use canonical task reconcile notice | [bob-cli-46.4](bob-cli-46.4.md) | 2026-10-04 09:09:08 EDT |
-| chezmoi | [`chezmoi@53960fc`](https://github.com/bbugyi200/dotfiles/commit/53960fc09b3aadf9da3c3932f269f140ceda9da8) | fix(chezmoi): use canonical bob command paths | [bob-cli-46.4](bob-cli-46.4.md) | 2026-10-04 09:09:54 EDT |
+| [bbugyi200.apollo.bob-cli-46.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.4/README.md) | [bob-cli-46.4](bob-cli-46.4.md) | 0 |

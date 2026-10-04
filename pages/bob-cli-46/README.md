@@ -17,8 +17,8 @@
 |---|---|---|---|---|---:|---:|
 | [bob-cli-46.1](bob-cli-46.1.md) | Sectioned help, help routing, and completion parity | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 | [bob-cli-46.2](bob-cli-46.2.md) | bob task and bob pomodoro groups with permanent aliases | ✓ closed | medium | 2026-10-04 | 1 | 1 |
-| [bob-cli-46.3](bob-cli-46.3.md) | README, docs, and tests teach the canonical names | ◐ in_progress | medium | 2026-10-04 | 1 | 0 |
-| [bob-cli-46.4](bob-cli-46.4.md) | chezmoi and bob-plugins callers move to canonical names | ✓ closed | small | 2026-10-04 | 1 | 2 |
+| [bob-cli-46.3](bob-cli-46.3.md) | README, docs, and tests teach the canonical names | ✓ closed | medium | 2026-10-04 | 1 | 1 |
+| [bob-cli-46.4](bob-cli-46.4.md) | chezmoi and bob-plugins callers move to canonical names | ✓ closed | small | 2026-10-04 | 1 | 0 |
 
 ## Lineage
 
@@ -27,7 +27,7 @@ flowchart TD
     n0["bob-cli-46: Reorganize bob's command tree with sectioned help, bob task, and bob pomodoro [in_progress]"]
     n1["bob-cli-46.1: Sectioned help, help routing, and completion parity [closed]"]
     n2["bob-cli-46.2: bob task and bob pomodoro groups with permanent aliases [closed]"]
-    n3["bob-cli-46.3: README, docs, and tests teach the canonical names [in_progress]"]
+    n3["bob-cli-46.3: README, docs, and tests teach the canonical names [closed]"]
     n4["bob-cli-46.4: chezmoi and bob-plugins callers move to canonical names [closed]"]
     n0 --> n1
     n0 --> n2
@@ -44,8 +44,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-46.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.1/README.md) | [bob-cli-46.1](bob-cli-46.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-46.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-46.2.md) | [bob-cli-46.2](bob-cli-46.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-46.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.3/README.md) | [bob-cli-46.3](bob-cli-46.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-46.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.4/README.md) | [bob-cli-46.4](bob-cli-46.4.md) | 2 |
+| [bbugyi200.apollo.bob-cli-46.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-46.3.md) | [bob-cli-46.3](bob-cli-46.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-46.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.4/README.md) | [bob-cli-46.4](bob-cli-46.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-46.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.land/README.md) | [bob-cli-46](README.md) | 0 |
 
 ## Commits
@@ -54,5 +54,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`660c171`](https://github.com/bobs-org/bob-cli/commit/660c171c6b281053d86907b3e908fce032f8f141) | feat(cli): add sectioned help and routing | [bob-cli-46.1](bob-cli-46.1.md) | 2026-10-04 07:44:26 EDT |
 | bob-cli | [`b13f96c`](https://github.com/bobs-org/bob-cli/commit/b13f96ccfbfdaac8c06e20c0b343f0f5cce7de60) | feat(cli): nest task and pomodoro command groups | [bob-cli-46.2](bob-cli-46.2.md) | 2026-10-04 08:56:02 EDT |
-| bob-plugins | [`bob-plugins@0e6620a`](https://github.com/bobs-org/bob-plugins/commit/0e6620a2a58c5fbc82db786fe42f7155223a3673) | fix(plugins): use canonical task reconcile notice | [bob-cli-46.4](bob-cli-46.4.md) | 2026-10-04 09:09:08 EDT |
-| chezmoi | [`chezmoi@53960fc`](https://github.com/bbugyi200/dotfiles/commit/53960fc09b3aadf9da3c3932f269f140ceda9da8) | fix(chezmoi): use canonical bob command paths | [bob-cli-46.4](bob-cli-46.4.md) | 2026-10-04 09:09:54 EDT |
+| bob-cli | [`192e8b5`](https://github.com/bobs-org/bob-cli/commit/192e8b51157a7616ddeecf4161667b0c538699e6) | docs(cli): teach canonical task and pomodoro names | [bob-cli-46.3](bob-cli-46.3.md) | 2026-10-04 09:35:22 EDT |
