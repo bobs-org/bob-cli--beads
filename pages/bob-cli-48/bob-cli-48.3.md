@@ -13,7 +13,7 @@ rust: land the checklist contract and CL vectors in docs/freshness.md, implement
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-48.1](bob-cli-48.1.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-48.1](bob-cli-48.1.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [bob-cli-48.4](bob-cli-48.4.md) ◐ · ⧖ 2026-10-04
 - **Blocks:** [bob-cli-48.6](bob-cli-48.6.md) ◐ · ⧖ 2026-10-04
 
