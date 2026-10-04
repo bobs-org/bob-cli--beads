@@ -13,7 +13,7 @@ split-navigation-hotkeys: apply the build contract to the 52k-line plugins/bob-n
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-47.2](bob-cli-47.2.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-47.2](bob-cli-47.2.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [bob-cli-47.4](bob-cli-47.4.md) ◐ · ⧖ 2026-10-04
 
 ## Agents

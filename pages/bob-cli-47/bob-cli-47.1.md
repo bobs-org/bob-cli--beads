@@ -19,7 +19,7 @@ split-task-status-cycler: pilot the src/ fragment build, staleness check, and pa
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-47.2](bob-cli-47.2.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-47.2](bob-cli-47.2.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
