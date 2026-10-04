@@ -20,7 +20,7 @@ cycler: add completeTaskAtCursor(editor) to the cycler's cross-plugin API (v2). 
 ## Dependencies
 
 - **Blocks:** [bob-cli-48.5](bob-cli-48.5.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [bob-cli-48.6](bob-cli-48.6.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-48.6](bob-cli-48.6.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

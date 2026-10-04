@@ -20,7 +20,7 @@ The ]s walk opens with every open, actionable-today #gtd #pre task (the gtd_dail
 | [bob-cli-48.3](bob-cli-48.3.md) | Checklist tier contract and the Rust evaluator (schema 9) | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 | [bob-cli-48.4](bob-cli-48.4.md) | bob-ledger-tools checklist tiers (freshness namespace v7) | ✓ closed | medium | 2026-10-04 | 1 | 1 |
 | [bob-cli-48.5](bob-cli-48.5.md) | Navigation walk support, complete-and-advance, and text-first cursor identity | ✓ closed | medium | 2026-10-04 | 1 | 1 |
-| [bob-cli-48.6](bob-cli-48.6.md) | Ritual rewrite, deploy, and live verification | ◐ in_progress | small | 2026-10-04 | 1 | 0 |
+| [bob-cli-48.6](bob-cli-48.6.md) | Ritual rewrite, deploy, and live verification | ✓ closed | small | 2026-10-04 | 1 | 1 |
 
 ## Lineage
 
@@ -32,7 +32,7 @@ flowchart TD
     n3["bob-cli-48.3: Checklist tier contract and the Rust evaluator (schema 9) [closed]"]
     n4["bob-cli-48.4: bob-ledger-tools checklist tiers (freshness namespace v7) [closed]"]
     n5["bob-cli-48.5: Navigation walk support, complete-and-advance, and text-first cursor identity [closed]"]
-    n6["bob-cli-48.6: Ritual rewrite, deploy, and live verification [in_progress]"]
+    n6["bob-cli-48.6: Ritual rewrite, deploy, and live verification [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -58,7 +58,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-48.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-48.3.md) | [bob-cli-48.3](bob-cli-48.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-48.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.4/README.md) | [bob-cli-48.4](bob-cli-48.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-48.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.5/README.md) | [bob-cli-48.5](bob-cli-48.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-48.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.6/README.md) | [bob-cli-48.6](bob-cli-48.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-48.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.6/README.md) | [bob-cli-48.6](bob-cli-48.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-48.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-48.land/README.md) | [bob-cli-48](README.md) | 0 |
 
 ## Commits
@@ -70,3 +70,4 @@ flowchart TD
 | bob-cli | [`f873b7b`](https://github.com/bobs-org/bob-cli/commit/f873b7b6d6d3d6ee4f8bed8d698e4f7969ae589b) | feat(freshness): add PRE/POST checklist tiers (schema 9) | [bob-cli-48.3](bob-cli-48.3.md) | 2026-10-04 09:53:01 EDT |
 | bob-plugins | [`bob-plugins@d5584a0`](https://github.com/bobs-org/bob-plugins/commit/d5584a088cc6ae45228649cf185fab2b08822136) | feat(bob-ledger-tools): add PRE/POST checklist tiers | [bob-cli-48.4](bob-cli-48.4.md) | 2026-10-04 10:32:53 EDT |
 | bob-plugins | [`bob-plugins@252ec0e`](https://github.com/bobs-org/bob-plugins/commit/252ec0ecbd59fd604cbfa0f76b88e60219d9cc91) | feat(navigation): teach PRE/POST review walk complete-and-advance | [bob-cli-48.5](bob-cli-48.5.md) | 2026-10-04 11:08:45 EDT |
+| bob-cli | [`b1e8d30`](https://github.com/bobs-org/bob-cli/commit/b1e8d30e92270986672b8e7e89055f56e1382eeb) | docs(freshness): rewrite morning ritual for PRE/POST closeout | [bob-cli-48.6](bob-cli-48.6.md) | 2026-10-04 11:30:38 EDT |
