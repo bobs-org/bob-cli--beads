@@ -13,7 +13,7 @@ downstream-callers: switch the chezmoi shims, tmux.conf, and obsidian memory not
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-46.2](bob-cli-46.2.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-46.2](bob-cli-46.2.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

@@ -13,7 +13,7 @@ canonical-docs: rewrite the README command reference, task and Pomodoro sections
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-46.2](bob-cli-46.2.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-46.2](bob-cli-46.2.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

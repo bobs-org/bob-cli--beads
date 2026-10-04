@@ -19,7 +19,7 @@ sectioned-help: replace CompletionTier with workflow Sections, render sectioned 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-46.2](bob-cli-46.2.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-46.2](bob-cli-46.2.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
