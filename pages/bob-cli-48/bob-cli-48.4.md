@@ -20,7 +20,7 @@ ledger: mirror the checklist contract in the ledger-tools fragments (evaluate, r
 ## Dependencies
 
 - **Depends on:** [bob-cli-48.3](bob-cli-48.3.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [bob-cli-48.5](bob-cli-48.5.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-48.5](bob-cli-48.5.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [bob-cli-48.6](bob-cli-48.6.md) ◐ · ⧖ 2026-10-04
 
 ## Agents
