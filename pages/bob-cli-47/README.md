@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-47.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-47.3.md) | [bob-cli-47.3](bob-cli-47.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-47.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-47.4.md) | [bob-cli-47.4](bob-cli-47.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-47.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-47.5.md) | [bob-cli-47.5](bob-cli-47.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-47.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-47.land/README.md) | [bob-cli-47](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-47.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-47.land/README.md) | [bob-cli-47](README.md) | 2 |
 
 ## Commits
 
@@ -67,3 +67,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5d074dc`](https://github.com/bobs-org/bob-plugins/commit/5d074dc340173f94cb9353f11a0241d9a8717af5) | refactor(test): split navigation hotkeys suite | [bob-cli-47.4](bob-cli-47.4.md) | 2026-10-04 09:47:50 EDT |
 | bob-plugins | [`bob-plugins@b854201`](https://github.com/bobs-org/bob-plugins/commit/b8542019284ca72e2dfe36b60c523edbe47b36ed) | refactor(test): split task-status-cycler suite | [bob-cli-47.5](bob-cli-47.5.md) | 2026-10-04 10:09:02 EDT |
 | bob-plugins | [`bob-plugins@cd89f31`](https://github.com/bobs-org/bob-plugins/commit/cd89f31ddad384b3cefce1e9cbe7884ad6c07e3e) | fix(parity): accept mixin-split helper classes in check-split-parity | [bob-cli-47](README.md) | 2026-10-04 10:19:49 EDT |
+| bob-cli--plans | [`bob-cli--plans@7c50cc1`](https://github.com/bobs-org/bob-cli--plans/commit/7c50cc1e1f52a3262cc8fdcfee5c7ed003716de2) | chore(plans): mark split\_largest\_bob\_plugins\_js\_files done | [bob-cli-47](README.md) | 2026-10-04 10:20:29 EDT |
