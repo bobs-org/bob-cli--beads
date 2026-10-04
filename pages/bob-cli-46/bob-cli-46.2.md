@@ -25,7 +25,7 @@ command-groups: add Leaf/Group targets to the runner table, route `bob task` and
 
 - **Depends on:** [bob-cli-46.1](bob-cli-46.1.md) ✓ · ⧖ 2026-10-04
 - **Blocks:** [bob-cli-46.3](bob-cli-46.3.md) ◐ · ⧖ 2026-10-04
-- **Blocks:** [bob-cli-46.4](bob-cli-46.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-46.4](bob-cli-46.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
