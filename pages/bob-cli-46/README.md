@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-46.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-46.2.md) | [bob-cli-46.2](bob-cli-46.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-46.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-46.3.md) | [bob-cli-46.3](bob-cli-46.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-46.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-46.4/README.md) | [bob-cli-46.4](bob-cli-46.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-46.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-46.land.md) | [bob-cli-46](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-46.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-46.land.md) | [bob-cli-46](README.md) | 2 |
 
 ## Commits
 
@@ -74,3 +74,4 @@ flowchart TD
 | chezmoi | [`chezmoi@53960fc`](https://github.com/bbugyi200/dotfiles/commit/53960fc09b3aadf9da3c3932f269f140ceda9da8) | fix(chezmoi): use canonical bob command paths | [bob-cli-46.4](bob-cli-46.4.md) | 2026-10-04 09:09:54 EDT |
 | bob-cli | [`192e8b5`](https://github.com/bobs-org/bob-cli/commit/192e8b51157a7616ddeecf4161667b0c538699e6) | docs(cli): teach canonical task and pomodoro names | [bob-cli-46.3](bob-cli-46.3.md) | 2026-10-04 09:35:22 EDT |
 | bob-cli | [`76df6b6`](https://github.com/bobs-org/bob-cli/commit/76df6b656a963e1defaaf1fa9c83caeb20ffb8aa) | docs(cli): correct nightly archive command and land bob-cli-46 | [bob-cli-46](README.md) | 2026-10-04 09:59:45 EDT |
+| bob-cli--plans | [`bob-cli--plans@4c10fc5`](https://github.com/bobs-org/bob-cli--plans/commit/4c10fc54e470ed795ffd7b99afa229ad1dcf1ce1) | docs(plan): mark command tree epic done | [bob-cli-46](README.md) | 2026-10-04 10:00:36 EDT |
