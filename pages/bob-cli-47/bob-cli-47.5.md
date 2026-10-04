@@ -13,7 +13,7 @@ split-task-status-cycler-tests: reuse the harness convention to split the 179 cy
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-47.4](bob-cli-47.4.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-47.4](bob-cli-47.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
