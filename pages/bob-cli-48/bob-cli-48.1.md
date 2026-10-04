@@ -19,7 +19,7 @@ prep: delete every trial gate, window, and keep rule from docs/freshness.md, rot
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-48.3](bob-cli-48.3.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-48.3](bob-cli-48.3.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

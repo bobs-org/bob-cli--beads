@@ -14,7 +14,7 @@ rollout: rewrite the Morning review chore as a closeout, update the ritual docs 
 ## Dependencies
 
 - **Depends on:** [bob-cli-48.2](bob-cli-48.2.md) ✓ · ⧖ 2026-10-04
-- **Depends on:** [bob-cli-48.3](bob-cli-48.3.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-48.3](bob-cli-48.3.md) ✓ · ⧖ 2026-10-04
 - **Depends on:** [bob-cli-48.4](bob-cli-48.4.md) ◐ · ⧖ 2026-10-04
 - **Depends on:** [bob-cli-48.5](bob-cli-48.5.md) ◐ · ⧖ 2026-10-04
 
