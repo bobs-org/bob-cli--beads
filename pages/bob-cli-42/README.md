@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-42.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.6/README.md) | [bob-cli-42.6](bob-cli-42.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-42.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.7/README.md) | [bob-cli-42.7](bob-cli-42.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-42.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-42.8/README.md) | [bob-cli-42.8](bob-cli-42.8.md) | 2 |
-| [bbugyi200.apollo.bob-cli-42.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-42.land.md) | [bob-cli-42](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-42.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-42.land.md) | [bob-cli-42](README.md) | 2 |
 
 ## Commits
 
@@ -88,3 +88,4 @@ flowchart TD
 | bob-cli | [`2b754c8`](https://github.com/bobs-org/bob-cli/commit/2b754c8181e3839fa7eedce959b5b3b2ba559c22) | docs(ready): advertise Task Card keys after October 19 | [bob-cli-42.8](bob-cli-42.8.md) | 2026-10-03 20:19:06 EDT |
 | bob-plugins | [`bob-plugins@dae2dd2`](https://github.com/bobs-org/bob-plugins/commit/dae2dd26b4dae9858dacd56a42c49aa76c4afe85) | docs(nav): document the Task Card and rename the palette command | [bob-cli-42.8](bob-cli-42.8.md) | 2026-10-03 20:19:39 EDT |
 | bob-cli | [`b39ef14`](https://github.com/bobs-org/bob-cli/commit/b39ef14f90d485b8245f7f1c70ce7208dca529c0) | docs(task-card): document the scheduling input grammar | [bob-cli-42](README.md) | 2026-10-03 20:42:03 EDT |
+| bob-plugins | [`bob-plugins@c2898cc`](https://github.com/bobs-org/bob-plugins/commit/c2898cca19f427185e2ab8b007c210a3ded87f21) | fix(navigation-hotkeys): land Task Card closeout fixes in 2.0.1 | [bob-cli-42](README.md) | 2026-10-03 20:42:34 EDT |
