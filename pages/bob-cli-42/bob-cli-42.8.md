@@ -13,7 +13,7 @@ docs-hints: update plugin and CLI documentation, date-aware ready hints, and the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-42.7](bob-cli-42.7.md) ◐ · ⧖ 2026-10-03
+- **Depends on:** [bob-cli-42.7](bob-cli-42.7.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 

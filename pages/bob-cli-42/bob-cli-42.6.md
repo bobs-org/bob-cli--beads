@@ -18,7 +18,7 @@ schedule-review: replace serial reason and work-summary prompts with one optiona
 ## Dependencies
 
 - **Depends on:** [bob-cli-42.5](bob-cli-42.5.md) ✓ · ⧖ 2026-10-03
-- **Blocks:** [bob-cli-42.7](bob-cli-42.7.md) ◐ · ⧖ 2026-10-03
+- **Blocks:** [bob-cli-42.7](bob-cli-42.7.md) ✓ · ⧖ 2026-10-03
 
 ## Agents
 
