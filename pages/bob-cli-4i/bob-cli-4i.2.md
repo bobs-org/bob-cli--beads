@@ -21,7 +21,7 @@ grammar: in bob-cli, generalize the `&` note-locator lexer and `replacement_for`
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4i.3](bob-cli-4i.3.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [bob-cli-4i.3](bob-cli-4i.3.md) ✓ · ⧖ 2026-10-05
 - **Blocks:** [bob-cli-4i.4](bob-cli-4i.4.md) ◐ · ⧖ 2026-10-05
 
 ## Agents
