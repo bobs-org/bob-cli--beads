@@ -13,7 +13,7 @@ ping-menubar: add the ping_indicator.lua runtime that owns the 2 s cadence, paus
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4h.1](bob-cli-4h.1.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [bob-cli-4h.1](bob-cli-4h.1.md) ✓ · ⧖ 2026-10-05
 - **Depends on:** [bob-cli-4h.2](bob-cli-4h.2.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
