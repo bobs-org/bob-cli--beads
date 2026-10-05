@@ -20,4 +20,4 @@ mac_followups: in bob-mac-capture, show the filtered Today / All open tasks head
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-4i.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.4/README.md) | [bob-cli-4i.7.4](bob-cli-4i.7.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4i.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.4.md) | [bob-cli-4i.7.4](bob-cli-4i.7.4.md) | 0 |

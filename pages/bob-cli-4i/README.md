@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-4i.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.1/README.md) | [bob-cli-4i.7.1](bob-cli-4i.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.2/README.md) | [bob-cli-4i.7.2](bob-cli-4i.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.3/README.md) | [bob-cli-4i.7.3](bob-cli-4i.7.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-4i.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.4/README.md) | [bob-cli-4i.7.4](bob-cli-4i.7.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4i.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.4.md) | [bob-cli-4i.7.4](bob-cli-4i.7.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4i.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.land/README.md) | [bob-cli-4i.7](bob-cli-4i.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4i.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.land.md) | [bob-cli-4i](README.md) | 0 |
 
