@@ -19,7 +19,7 @@ A capture item that is exactly `!note:block-id` marks that existing open task Do
 | [bob-cli-4i.2](bob-cli-4i.2.md) | Lex, claim, and parse whole-item \`!note:block-id\` | ✓ closed | medium | 2026-10-05 | 1 | 1 |
 | [bob-cli-4i.3](bob-cli-4i.3.md) | Serve the \`task\_complete\` picker from capture-complete | ✓ closed | medium | 2026-10-05 | 1 | 1 |
 | [bob-cli-4i.4](bob-cli-4i.4.md) | Execute \`!note:block-id\` through the engine with rich JSON and human output | ✓ closed | medium | 2026-10-05 | 1 | 1 |
-| [bob-cli-4i.5](bob-cli-4i.5.md) | Highlight \`!\` tokens and preview completions in Bob Mac Capture | ◐ in_progress | medium | 2026-10-05 | 1 | 0 |
+| [bob-cli-4i.5](bob-cli-4i.5.md) | Highlight \`!\` tokens and preview completions in Bob Mac Capture | ✓ closed | medium | 2026-10-05 | 1 | 0 |
 | [bob-cli-4i.6](bob-cli-4i.6.md) | Open the Complete picker on \`!\` with Today first | ◐ in_progress | medium | 2026-10-05 | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["bob-cli-4i.2: Lex, claim, and parse whole-item `!note:block-id` [closed]"]
     n3["bob-cli-4i.3: Serve the `task_complete` picker from capture-complete [closed]"]
     n4["bob-cli-4i.4: Execute `!note:block-id` through the engine with rich JSON and human output [closed]"]
-    n5["bob-cli-4i.5: Highlight `!` tokens and preview completions in Bob Mac Capture [in_progress]"]
+    n5["bob-cli-4i.5: Highlight `!` tokens and preview completions in Bob Mac Capture [closed]"]
     n6["bob-cli-4i.6: Open the Complete picker on `!` with Today first [in_progress]"]
     n0 --> n1
     n0 --> n2

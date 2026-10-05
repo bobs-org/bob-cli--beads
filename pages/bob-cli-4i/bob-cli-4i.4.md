@@ -25,7 +25,7 @@ execute: in bob-cli, plan `TaskComplete` items through the staged batch writer. 
 
 - **Depends on:** [bob-cli-4i.1](bob-cli-4i.1.md) ✓ · ⧖ 2026-10-05
 - **Depends on:** [bob-cli-4i.2](bob-cli-4i.2.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [bob-cli-4i.5](bob-cli-4i.5.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [bob-cli-4i.5](bob-cli-4i.5.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 

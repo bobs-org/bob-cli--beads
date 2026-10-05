@@ -14,7 +14,7 @@ mac_picker: in bob-mac-capture, add the `.taskComplete` picker source and need. 
 ## Dependencies
 
 - **Depends on:** [bob-cli-4i.3](bob-cli-4i.3.md) ✓ · ⧖ 2026-10-05
-- **Depends on:** [bob-cli-4i.5](bob-cli-4i.5.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [bob-cli-4i.5](bob-cli-4i.5.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
