@@ -23,7 +23,7 @@ engine: in bob-cli, add `src/native/task_complete/`. Extract the =x embedded tre
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4i.4](bob-cli-4i.4.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [bob-cli-4i.4](bob-cli-4i.4.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 

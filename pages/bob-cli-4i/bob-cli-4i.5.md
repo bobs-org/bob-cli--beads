@@ -13,7 +13,7 @@ mac_preview: in bob-mac-capture, map the `task_complete_*` spans to the shared c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4i.4](bob-cli-4i.4.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [bob-cli-4i.4](bob-cli-4i.4.md) ✓ · ⧖ 2026-10-05
 - **Blocks:** [bob-cli-4i.6](bob-cli-4i.6.md) ◐ · ⧖ 2026-10-05
 
 ## Agents
