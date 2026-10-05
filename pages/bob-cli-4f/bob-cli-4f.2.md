@@ -20,7 +20,7 @@ block-id-prompt-tests: split the 4945-line test-block-id-prompt.cjs into a share
 ## Dependencies
 
 - **Depends on:** [bob-cli-4f.1](bob-cli-4f.1.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [bob-cli-4f.3](bob-cli-4f.3.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-4f.3](bob-cli-4f.3.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 

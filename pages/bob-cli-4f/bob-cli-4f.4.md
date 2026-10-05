@@ -13,7 +13,7 @@ nav-deps-stage-tests: split the 2701-line test-navigation-dependencies-stage.cjs
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4f.3](bob-cli-4f.3.md) ◐ · ⧖ 2026-10-04
+- **Depends on:** [bob-cli-4f.3](bob-cli-4f.3.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
