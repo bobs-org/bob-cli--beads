@@ -17,7 +17,7 @@ tmux-ping-state: rewrite tmux_ping as a fast, bugyi-free reader of ~/tmp/tmux_pi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4h.3](bob-cli-4h.3.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [bob-cli-4h.3](bob-cli-4h.3.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
