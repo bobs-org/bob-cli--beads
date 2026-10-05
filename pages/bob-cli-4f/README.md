@@ -16,7 +16,7 @@ The four largest hand-edited JavaScript files in bob-plugins are each split into
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-4f.1](bob-cli-4f.1.md) | Split block-id-prompt main.js onto the fragment source build | ✓ closed | large | 2026-10-04 | 1 | 1 |
-| [bob-cli-4f.2](bob-cli-4f.2.md) | Split the block-id-prompt test suite | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
+| [bob-cli-4f.2](bob-cli-4f.2.md) | Split the block-id-prompt test suite | ✓ closed | large | 2026-10-04 | 1 | 1 |
 | [bob-cli-4f.3](bob-cli-4f.3.md) | Split the ledger-tools freshness test suite | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
 | [bob-cli-4f.4](bob-cli-4f.4.md) | Split the navigation dependencies-stage test suite | ◐ in_progress | large | 2026-10-04 | 1 | 0 |
 
@@ -26,7 +26,7 @@ The four largest hand-edited JavaScript files in bob-plugins are each split into
 flowchart TD
     n0["bob-cli-4f: Split the four largest hand-edited bob-plugins JavaScript files [in_progress]"]
     n1["bob-cli-4f.1: Split block-id-prompt main.js onto the fragment source build [closed]"]
-    n2["bob-cli-4f.2: Split the block-id-prompt test suite [in_progress]"]
+    n2["bob-cli-4f.2: Split the block-id-prompt test suite [closed]"]
     n3["bob-cli-4f.3: Split the ledger-tools freshness test suite [in_progress]"]
     n4["bob-cli-4f.4: Split the navigation dependencies-stage test suite [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-4f.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4f.1.md) | [bob-cli-4f.1](bob-cli-4f.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-4f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4f.2/README.md) | [bob-cli-4f.2](bob-cli-4f.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4f.2.md) | [bob-cli-4f.2](bob-cli-4f.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4f.3/README.md) | [bob-cli-4f.3](bob-cli-4f.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4f.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4f.4/README.md) | [bob-cli-4f.4](bob-cli-4f.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4f.land/README.md) | [bob-cli-4f](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@03f0c17`](https://github.com/bobs-org/bob-plugins/commit/03f0c177989871805561e84cd16f7310cdbed32f) | refactor(block-id-prompt): split main.js onto the fragment source build | [bob-cli-4f.1](bob-cli-4f.1.md) | 2026-10-04 22:03:15 EDT |
+| bob-plugins | [`bob-plugins@2486da9`](https://github.com/bobs-org/bob-plugins/commit/2486da9c17b3fdade1a954ecf31e2e88acef5751) | refactor(test): split block-id-prompt suite | [bob-cli-4f.2](bob-cli-4f.2.md) | 2026-10-04 22:26:13 EDT |

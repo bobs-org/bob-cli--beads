@@ -17,7 +17,7 @@ block-id-prompt-source: move the 6880-line hand-edited block-id-prompt plugin on
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4f.2](bob-cli-4f.2.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-4f.2](bob-cli-4f.2.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
