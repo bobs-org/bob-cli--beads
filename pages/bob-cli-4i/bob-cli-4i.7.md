@@ -25,10 +25,11 @@ Close the gaps the bob-cli-4i landing review found between the shipped `!note:bl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-4i.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.land.md) | [bob-cli-4i.7](bob-cli-4i.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-4i.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.land.md) | [bob-cli-4i.7](bob-cli-4i.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1d4d9fd`](https://github.com/bobs-org/bob-cli/commit/1d4d9fdc4bc28f3694358bbc39dadae781d8f170) | feat(capture): guard batch commits against stale disk preimages | [bob-cli-4i.7](bob-cli-4i.7.md) | 2026-10-05 19:52:27 EDT |
+| bob-cli--plans | [`bob-cli--plans@090e3cf`](https://github.com/bobs-org/bob-cli--plans/commit/090e3cf288bc7b76cbd82871aa45053e3e0f88b6) | chore(plans): mark bang\_task\_complete plans done | [bob-cli-4i.7](bob-cli-4i.7.md) | 2026-10-05 19:53:13 EDT |

@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-4i.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.2/README.md) | [bob-cli-4i.7.2](bob-cli-4i.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.3/README.md) | [bob-cli-4i.7.3](bob-cli-4i.7.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.4.md) | [bob-cli-4i.7.4](bob-cli-4i.7.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-4i.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.land.md) | [bob-cli-4i.7](bob-cli-4i.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-4i.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.land.md) | [bob-cli-4i.7](bob-cli-4i.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-4i.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.land.md) | [bob-cli-4i](README.md) | 0 |
 
 ## Commits
@@ -100,3 +100,4 @@ flowchart TD
 | bob-cli | [`e0df2ea`](https://github.com/bobs-org/bob-cli/commit/e0df2ea621555149e48e4c26cbe390952b376ceb) | feat(close): route the =x embedded-tree close through complete\_task\_tree | [bob-cli-4i.7.1](bob-cli-4i.7.1.md) | 2026-10-05 18:29:14 EDT |
 | bob-cli | [`db1da70`](https://github.com/bobs-org/bob-cli/commit/db1da70db505d18ff21cd042de583e358ee4e09c) | feat(capture): task-complete strike/move ledger output with struck\_in and dropped | [bob-cli-4i.7.3](bob-cli-4i.7.3.md) | 2026-10-05 18:47:34 EDT |
 | bob-cli | [`1d4d9fd`](https://github.com/bobs-org/bob-cli/commit/1d4d9fdc4bc28f3694358bbc39dadae781d8f170) | feat(capture): guard batch commits against stale disk preimages | [bob-cli-4i.7](bob-cli-4i.7.md) | 2026-10-05 19:52:27 EDT |
+| bob-cli--plans | [`bob-cli--plans@090e3cf`](https://github.com/bobs-org/bob-cli--plans/commit/090e3cf288bc7b76cbd82871aa45053e3e0f88b6) | chore(plans): mark bang\_task\_complete plans done | [bob-cli-4i.7](bob-cli-4i.7.md) | 2026-10-05 19:53:13 EDT |
