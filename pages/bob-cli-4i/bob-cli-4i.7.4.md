@@ -14,7 +14,7 @@ mac_followups: in bob-mac-capture, show the filtered Today / All open tasks head
 ## Dependencies
 
 - **Depends on:** [bob-cli-4i.7.2](bob-cli-4i.7.2.md) ✓ · ⧖ 2026-10-05
-- **Depends on:** [bob-cli-4i.7.3](bob-cli-4i.7.3.md) ◐ · ⧖ 2026-10-05
+- **Depends on:** [bob-cli-4i.7.3](bob-cli-4i.7.3.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 

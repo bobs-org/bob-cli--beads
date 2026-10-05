@@ -17,7 +17,7 @@ close_unify: in bob-cli, make `ClosePlanner::apply_embedded_tree` delegate its t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4i.7.3](bob-cli-4i.7.3.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [bob-cli-4i.7.3](bob-cli-4i.7.3.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 
