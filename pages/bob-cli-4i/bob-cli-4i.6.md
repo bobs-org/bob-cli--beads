@@ -20,4 +20,4 @@ mac_picker: in bob-mac-capture, add the `.taskComplete` picker source and need. 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-4i.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.6/README.md) | [bob-cli-4i.6](bob-cli-4i.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4i.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.6.md) | [bob-cli-4i.6](bob-cli-4i.6.md) | 0 |
