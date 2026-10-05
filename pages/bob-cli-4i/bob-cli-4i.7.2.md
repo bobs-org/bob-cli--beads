@@ -18,7 +18,7 @@ picker_parse: in bob-cli, limit the completable-task catalog to ` `/`?`/`*`/`/` 
 ## Dependencies
 
 - **Blocks:** [bob-cli-4i.7.3](bob-cli-4i.7.3.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [bob-cli-4i.7.4](bob-cli-4i.7.4.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [bob-cli-4i.7.4](bob-cli-4i.7.4.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 

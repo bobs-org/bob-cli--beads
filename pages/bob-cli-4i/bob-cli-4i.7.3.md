@@ -21,7 +21,7 @@ ledger_output: in bob-cli, report `struck_in` and `dropped` ledger entries plus 
 
 - **Depends on:** [bob-cli-4i.7.1](bob-cli-4i.7.1.md) ✓ · ⧖ 2026-10-05
 - **Depends on:** [bob-cli-4i.7.2](bob-cli-4i.7.2.md) ✓ · ⧖ 2026-10-05
-- **Blocks:** [bob-cli-4i.7.4](bob-cli-4i.7.4.md) ◐ · ⧖ 2026-10-05
+- **Blocks:** [bob-cli-4i.7.4](bob-cli-4i.7.4.md) ✓ · ⧖ 2026-10-05
 
 ## Agents
 

@@ -2,17 +2,33 @@
 
 [Bead Pages](../README.md) / [bob-cli-4i](README.md) / bob-cli-4i.7
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-4i.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.land.md) · **Assignee:** `bob-cli-4i.7.land`
-**Created:** 2026-10-05 18:10:31 EDT
+**Created:** 2026-10-05 18:10:31 EDT · **Closed:** 2026-10-05 19:50:32 EDT
 **Plan:** [202610/bang\_task\_complete\_finish.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bang_task_complete_finish.md)
 
 ## Description
 
 Close the gaps the bob-cli-4i landing review found between the shipped `!note:block-id` completion and its approved plan (plan:202610/bang_task_complete.md). The `=x` close and `!` share one embedded-tree traversal. `!` only differs from `=x` at the root. The Complete picker never offers a task capture refuses. `bob capture` prints the contract's ledger lines and reports the entry names behind them. Docs and tests match the shipped behavior. Bob Mac Capture shows the filtered Today and All open tasks headers, the full detail strip, the Done capsule, and Bob's clean task text and ledger names.
 
+## Notes
+
+[2026-10-05T23:42:16Z · bob-cli-4i.7.land] LAND FOLLOW-UP TRIAGE (completed before proposing remaining-work tale): All four child scopes and every note read; no child note is labeled PROPOSED FOLLOW-UP. The unrelated StartPending fail/pass mentioned in bob-cli-4i.7.4 #1 was independently verified on identical Mac SHA 4344a54 (CI 37387930052 attempts 1/2; 6.024s timeout then 0.219s pass), searched against all task statuses/recent tasks/active epics, and filed as ready flake task bob-cli-4k, size large because root cause is unknown, with evidence file:explicit:4195ee7aa7e7a8f71e05656e. Missing just check/symvision recipes reproduce on unchanged justfile: duplicate bob-cli-3c, +1 added. Parent proposals rechecked: bob-cli-4i.1 #1 reconcile dedupe belongs to bob-cli-2l, existing routing corroborated by note; 4i.1 #2/.2 #1/.3 #1/.4 #1 missing highlights --audio kinds decision remains bob-cli-4j, +1 added from 1716-pass/1-known-failure lib run; 4i.1 #3/.2 #2/.3 #2/.4 #2 clippy || true deny remains active epic bob-cli-28, DISCOVERED ISSUE corroboration added; 4i.4 #1 capture_pomodoros warning flake remains bob-cli-40/bob-cli-2e, prior +1 stands and it passed here, so no new report. No proposal discarded; duplicate task creation declined for the stated existing ownership. The missing commit-time preimage guard required by ledger_output is remaining epic work, not a follow-up task.
+
+[2026-10-05T23:42:21Z · bob-cli-4i.7.land] LAND VERIFICATION (db1da70; Mac 4344a54): read both approved plans, all four closed phases and notes, epic commit patches/source, and all six parent phases and notes. Verified shared =x/! tree traversal with unchanged close tests, descendant gates, picker status/sinking/claim/parse contracts, named ledger JSON/human lines and clean configured text, cached recovery walk, docs and Mac presentation/panel tests. cargo fmt clean; 1000 CLI tests pass; lib 1716 pass, only tracked bob-cli-4j fails; clippy only deny is tracked bob-cli-28, no task_complete warnings. Mac CI 37387930052 attempt 2 green on 4344a54. Fetched both base branches; no non-epic post-start commits/drift in either repo. Both linked epic plans validate; epic-symbols empty for .7 and parent .4i; check/symvision recipes absent (bob-cli-3c). BLOCKER: plan ledger_output explicitly requires confirming a commit-time preimage check before removing dead checks, but capture/commit.rs::write_staged_files never reads/revalidates disk preimages; the new task_complete.rs comments falsely claim rollback prevents external-edit overwrites. Finish a focused tale with guard, deterministic regression tests, and child/parent closeout before declaring complete.
+
+[2026-10-05T23:44:04Z · bob-cli-4i.7.land] REMAINING PLAN READY: sase_plan_task_complete_preimage_closeout.md is tier tale, size small, validated with --explain, edited, and revalidated with zero warnings. Its final step implements both epic closeouts in the coder turn without needing its own commit/SHA/push/CI. Current child/parent plan files strictly validate; global linked-plan validation has 59 unrelated errors and no issue matching bang_task_complete or bob-cli-4i. No remaining running test/lint commands. Follow-up triage completed before proposal.
+
+[2026-10-05T23:50:32Z · bob-cli-4i.7.land] CLOSEOUT (coder turn, tale 202610/task_complete_preimage_closeout.md): implemented the missing commit-time disk-preimage guard in src/native/capture/commit.rs (validate_disk_preimages: byte-for-byte preimage check over the full write set before staging, again after staging, plus per-target recheck before each rename; refusal is CaptureError::io naming the target; existing cleanup/rollback preserved, no new writer framework, optimistic checks documented as not locking). Corrected both task_complete.rs comments to cite the shared validation and distinguish it from rollback; dead staged-value comparisons stay removed. Added src/native/capture/tests/commit.rs with 5 deterministic tests (edited-second-note refusal preserving edit + first note, appeared-target refusal, deleted-target refusal without recreate, matching multi-file commit, cumulative multi-stage single-note commit; all assert refusal text and no bob-capture litter). Verification: cargo fmt --check clean; 5/5 new tests pass; cargo test --test cli 1000/1000 pass; cargo test --lib 1721 pass with only the known bob-cli-4j kinds failure (owned by bob-cli-4j); clippy has no warnings in changed files, sole deny is the known pomodoro_name.rs:808 owned by active epic bob-cli-28; just check/symvision still absent (bob-cli-3c). Mac CI 37387930052 attempt 2 green on 4344a54 stands (no Mac source change). No drift: workspace master == origin/master, plans repo clean; both linked plans validate with 0 warnings; epic-symbols empty for .7 and parent. Follow-up triage from land note #1 stands unchanged (bob-cli-3c, bob-cli-4j, bob-cli-28, bob-cli-2l, bob-cli-40/2e, bob-cli-4k); no proposal discarded, no duplicates filed.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-4i.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.land/README.md) | [bob-cli-4i.7](bob-cli-4i.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4i.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.7.land.md) | [bob-cli-4i.7](bob-cli-4i.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`1d4d9fd`](https://github.com/bobs-org/bob-cli/commit/1d4d9fdc4bc28f3694358bbc39dadae781d8f170) | feat(capture): guard batch commits against stale disk preimages | [bob-cli-4i.7](bob-cli-4i.7.md) | 2026-10-05 19:52:27 EDT |
