@@ -16,7 +16,7 @@ A capture item that is exactly `!note:block-id` marks that existing open task Do
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-4i.1](bob-cli-4i.1.md) | Extract a shared task-completion engine (no new syntax) | ✓ closed | medium | 2026-10-05 | 1 | 1 |
-| [bob-cli-4i.2](bob-cli-4i.2.md) | Lex, claim, and parse whole-item \`!note:block-id\` | ◐ in_progress | medium | 2026-10-05 | 1 | 0 |
+| [bob-cli-4i.2](bob-cli-4i.2.md) | Lex, claim, and parse whole-item \`!note:block-id\` | ✓ closed | medium | 2026-10-05 | 1 | 1 |
 | [bob-cli-4i.3](bob-cli-4i.3.md) | Serve the \`task\_complete\` picker from capture-complete | ◐ in_progress | medium | 2026-10-05 | 1 | 0 |
 | [bob-cli-4i.4](bob-cli-4i.4.md) | Execute \`!note:block-id\` through the engine with rich JSON and human output | ◐ in_progress | medium | 2026-10-05 | 1 | 0 |
 | [bob-cli-4i.5](bob-cli-4i.5.md) | Highlight \`!\` tokens and preview completions in Bob Mac Capture | ◐ in_progress | medium | 2026-10-05 | 1 | 0 |
@@ -28,7 +28,7 @@ A capture item that is exactly `!note:block-id` marks that existing open task Do
 flowchart TD
     n0["bob-cli-4i: Complete any open task from capture with a whole-item `!note:block-id` [in_progress]"]
     n1["bob-cli-4i.1: Extract a shared task-completion engine (no new syntax) [closed]"]
-    n2["bob-cli-4i.2: Lex, claim, and parse whole-item `!note:block-id` [in_progress]"]
+    n2["bob-cli-4i.2: Lex, claim, and parse whole-item `!note:block-id` [closed]"]
     n3["bob-cli-4i.3: Serve the `task_complete` picker from capture-complete [in_progress]"]
     n4["bob-cli-4i.4: Execute `!note:block-id` through the engine with rich JSON and human output [in_progress]"]
     n5["bob-cli-4i.5: Highlight `!` tokens and preview completions in Bob Mac Capture [in_progress]"]
@@ -52,7 +52,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-4i.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.1/README.md) | [bob-cli-4i.1](bob-cli-4i.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-4i.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.2/README.md) | [bob-cli-4i.2](bob-cli-4i.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4i.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.2/README.md) | [bob-cli-4i.2](bob-cli-4i.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.3/README.md) | [bob-cli-4i.3](bob-cli-4i.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4i.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.4/README.md) | [bob-cli-4i.4](bob-cli-4i.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4i.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.5/README.md) | [bob-cli-4i.5](bob-cli-4i.5.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7c8d854`](https://github.com/bobs-org/bob-cli/commit/7c8d854ec408a5afe9e8c6dd29d8e754fb754a06) | feat(task-complete): extract shared task-completion engine | [bob-cli-4i.1](bob-cli-4i.1.md) | 2026-10-05 15:35:46 EDT |
+| bob-cli | [`1b6f8bc`](https://github.com/bobs-org/bob-cli/commit/1b6f8bc4396c283e0bf66d95fc504e871bc52d3f) | feat(capture): implement whole-item !note:block-id grammar | [bob-cli-4i.2](bob-cli-4i.2.md) | 2026-10-05 15:38:40 EDT |
