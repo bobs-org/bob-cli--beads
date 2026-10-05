@@ -40,7 +40,7 @@ flowchart TD
     n5["bob-cli-4i.5: Highlight `!` tokens and preview completions in Bob Mac Capture [closed]"]
     n6["bob-cli-4i.6: Open the Complete picker on `!` with Today first [closed]"]
     n7["bob-cli-4i.7: Finish `!note:block-id` completion — one tree traversal, contract-exact output, and Mac picker polish [in_progress]"]
-    n8["bob-cli-4i.7.1: Route the `=x` embedded-tree close through `complete_task_tree` [in_progress]"]
+    n8["bob-cli-4i.7.1: Route the `=x` embedded-tree close through `complete_task_tree` [closed]"]
     n9["bob-cli-4i.7.2: Picker status filter, today-section sinking, and parse/claim consistency [closed]"]
     n10["bob-cli-4i.7.3: Contract-exact ledger lines, clean task text, one vault walk, and execute tests [in_progress]"]
     n11["bob-cli-4i.7.4: Mac Complete picker headers, detail strip, Done capsule, and Bob's text and ledger names [in_progress]"]
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-4i.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.4/README.md) | [bob-cli-4i.4](bob-cli-4i.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.5.md) | [bob-cli-4i.5](bob-cli-4i.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4i.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4i.6.md) | [bob-cli-4i.6](bob-cli-4i.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-4i.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.1/README.md) | [bob-cli-4i.7.1](bob-cli-4i.7.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4i.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.1/README.md) | [bob-cli-4i.7.1](bob-cli-4i.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.2/README.md) | [bob-cli-4i.7.2](bob-cli-4i.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4i.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.3/README.md) | [bob-cli-4i.7.3](bob-cli-4i.7.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4i.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4i.7.4/README.md) | [bob-cli-4i.7.4](bob-cli-4i.7.4.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | bob-cli | [`40e561f`](https://github.com/bobs-org/bob-cli/commit/40e561f850e17eb431570dff23b79b8015183f8b) | feat(capture): serve the task\_complete picker from capture-complete | [bob-cli-4i.3](bob-cli-4i.3.md) | 2026-10-05 16:06:03 EDT |
 | bob-cli | [`fbc4f43`](https://github.com/bobs-org/bob-cli/commit/fbc4f4399cf4aae1130218c9092d172dbf95b683) | feat(capture): execute whole-item !note:block-id completions | [bob-cli-4i.4](bob-cli-4i.4.md) | 2026-10-05 16:07:56 EDT |
 | bob-cli | [`3fbfb7b`](https://github.com/bobs-org/bob-cli/commit/3fbfb7b7e5a720b802fec36a9ce87037842f690a) | feat(capture): picker status filter, today sinking, and parse/claim consistency | [bob-cli-4i.7.2](bob-cli-4i.7.2.md) | 2026-10-05 18:23:16 EDT |
+| bob-cli | [`e0df2ea`](https://github.com/bobs-org/bob-cli/commit/e0df2ea621555149e48e4c26cbe390952b376ceb) | feat(close): route the =x embedded-tree close through complete\_task\_tree | [bob-cli-4i.7.1](bob-cli-4i.7.1.md) | 2026-10-05 18:29:14 EDT |
