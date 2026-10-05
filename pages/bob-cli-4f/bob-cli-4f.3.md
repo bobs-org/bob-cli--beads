@@ -20,7 +20,7 @@ ledger-freshness-tests: split the 2895-line test-ledger-tools-freshness.cjs into
 ## Dependencies
 
 - **Depends on:** [bob-cli-4f.2](bob-cli-4f.2.md) ✓ · ⧖ 2026-10-04
-- **Blocks:** [bob-cli-4f.4](bob-cli-4f.4.md) ◐ · ⧖ 2026-10-04
+- **Blocks:** [bob-cli-4f.4](bob-cli-4f.4.md) ✓ · ⧖ 2026-10-04
 
 ## Agents
 
