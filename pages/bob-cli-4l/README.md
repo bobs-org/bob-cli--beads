@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-4l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.3/README.md) | [bob-cli-4l.3](bob-cli-4l.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.4/README.md) | [bob-cli-4l.4](bob-cli-4l.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4l.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.5/README.md) | [bob-cli-4l.5](bob-cli-4l.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-4l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4l.land.md) | [bob-cli-4l](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-4l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-4l.land.md) | [bob-cli-4l](README.md) | 2 |
 
 ## Commits
 
@@ -76,3 +76,4 @@ flowchart TD
 | bob-cli | [`756c4fc`](https://github.com/bobs-org/bob-cli/commit/756c4fc74959a644d8b90edab8502aea342320fc) | docs(walk): publish answering-advances-the-walk decision and update review docs | [bob-cli-4l.5](bob-cli-4l.5.md) | 2026-10-06 07:52:22 EDT |
 | bob-plugins | [`bob-plugins@5d0a200`](https://github.com/bobs-org/bob-plugins/commit/5d0a200c1561aa3f8154ff78599f54dc976179b5) | fix(plugins): correct PRE/POST/lane action hints and nav fallback | [bob-cli-4l.5](bob-cli-4l.5.md) | 2026-10-06 07:53:03 EDT |
 | bob-plugins | [`bob-plugins@14fbfe5`](https://github.com/bobs-org/bob-plugins/commit/14fbfe5274dc37b731b6cf14539f998fa9600b33) | fix(nav): own pickerOpen flag instead of native Modal.isOpen (nav 2.6.2) | [bob-cli-4l](README.md) | 2026-10-06 08:33:32 EDT |
+| bob-cli--plans | [`bob-cli--plans@7828567`](https://github.com/bobs-org/bob-cli--plans/commit/78285670908896f18770e66ee5fe7cad986129c2) | chore(plan): mark review-walk auto-advance plan done for bob-cli-4l | [bob-cli-4l](README.md) | 2026-10-06 08:34:14 EDT |
