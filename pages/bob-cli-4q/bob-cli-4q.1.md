@@ -17,7 +17,7 @@ route-core: add the inbox-note classifier, the route picker modal, the preflight
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4q.2](bob-cli-4q.2.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4q.2](bob-cli-4q.2.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4q.3](bob-cli-4q.3.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
