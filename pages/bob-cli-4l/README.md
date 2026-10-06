@@ -17,7 +17,7 @@ During the `]s` morning review, every gesture that answers the row the walk just
 |---|---|---|---|---|---:|---:|
 | [bob-cli-4l.1](bob-cli-4l.1.md) | Nav review-advance core, shared advance tail, and nav api v3 | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [bob-cli-4l.2](bob-cli-4l.2.md) | Alt+N, Task Card, and Ctrl+Shift+M advance from a landing | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
-| [bob-cli-4l.3](bob-cli-4l.3.md) | Ctrl+Enter completes and advances on non-checklist landings | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
+| [bob-cli-4l.3](bob-cli-4l.3.md) | Ctrl+Enter completes and advances on non-checklist landings | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [bob-cli-4l.4](bob-cli-4l.4.md) | Ctrl+Shift+Enter link advances from a landing | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 | [bob-cli-4l.5](bob-cli-4l.5.md) | Hints, docs, README, decision record, and rollout | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 
@@ -28,7 +28,7 @@ flowchart TD
     n0["bob-cli-4l: Answer once, advance once: review-walk auto-advance [in_progress]"]
     n1["bob-cli-4l.1: Nav review-advance core, shared advance tail, and nav api v3 [closed]"]
     n2["bob-cli-4l.2: Alt+N, Task Card, and Ctrl+Shift+M advance from a landing [in_progress]"]
-    n3["bob-cli-4l.3: Ctrl+Enter completes and advances on non-checklist landings [in_progress]"]
+    n3["bob-cli-4l.3: Ctrl+Enter completes and advances on non-checklist landings [closed]"]
     n4["bob-cli-4l.4: Ctrl+Shift+Enter link advances from a landing [in_progress]"]
     n5["bob-cli-4l.5: Hints, docs, README, decision record, and rollout [in_progress]"]
     n0 --> n1
@@ -50,7 +50,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-4l.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.1/README.md) | [bob-cli-4l.1](bob-cli-4l.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.2/README.md) | [bob-cli-4l.2](bob-cli-4l.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-4l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.3/README.md) | [bob-cli-4l.3](bob-cli-4l.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-4l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.3/README.md) | [bob-cli-4l.3](bob-cli-4l.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-4l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.4/README.md) | [bob-cli-4l.4](bob-cli-4l.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4l.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.5/README.md) | [bob-cli-4l.5](bob-cli-4l.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-4l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.land/README.md) | [bob-cli-4l](README.md) | 0 |
@@ -60,3 +60,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@824ad2a`](https://github.com/bobs-org/bob-plugins/commit/824ad2a5bd514c710244319c75f0e46bda7c2463) | feat(review-walk): nav-core auto-advance, shared tail, nav api v3 (nav 2.5.0) | [bob-cli-4l.1](bob-cli-4l.1.md) | 2026-10-06 07:23:00 EDT |
+| bob-plugins | [`bob-plugins@7ff2459`](https://github.com/bobs-org/bob-plugins/commit/7ff24593892197f18b17603a9ae111013406dc5f) | feat(task-status-cycler): continue review walk silently after vim open/done toggle | [bob-cli-4l.3](bob-cli-4l.3.md) | 2026-10-06 07:31:11 EDT |
