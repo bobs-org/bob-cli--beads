@@ -55,7 +55,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-4q.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4q.2/README.md) | [bob-cli-4q.2](bob-cli-4q.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-4q.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4q.3/README.md) | [bob-cli-4q.3](bob-cli-4q.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-4q.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4q.4/README.md) | [bob-cli-4q.4](bob-cli-4q.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-4q.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-4q.land.md) | [bob-cli-4q](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-4q.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-4q.land.md) | [bob-cli-4q](README.md) | 3 |
 
 ## Commits
 
@@ -67,3 +67,4 @@ flowchart TD
 | bob-cli | [`ade4b8a`](https://github.com/bobs-org/bob-cli/commit/ade4b8af2580bad8bba18339180987be1a5c4849) | docs(inbox-routing): add canonical spec and rollout notes | [bob-cli-4q.4](bob-cli-4q.4.md) | 2026-10-06 15:41:38 EDT |
 | bob-cli | [`0ca5a13`](https://github.com/bobs-org/bob-cli/commit/0ca5a13a16282c3c93b858c5673db3bafc82c3d6) | docs(inbox-routing): say non-closing Task Card answers route last before writing | [bob-cli-4q](README.md) | 2026-10-06 16:18:16 EDT |
 | bob-plugins | [`bob-plugins@a46ce9b`](https://github.com/bobs-org/bob-plugins/commit/a46ce9b397e9ddd0de4fa148a6e3c368049d153e) | fix(inbox-routing): guard no-op moves, cancel pending routes, revalidate toggle source (nav 2.10.1, block-id-prompt 1.23.1) | [bob-cli-4q](README.md) | 2026-10-06 16:19:08 EDT |
+| bob-cli--plans | [`bob-cli--plans@a516c70`](https://github.com/bobs-org/bob-cli--plans/commit/a516c701b909ef79a4d04942d3315803a689491d) | docs(inbox-routing): mark epic plan done | [bob-cli-4q](README.md) | 2026-10-06 16:19:45 EDT |
