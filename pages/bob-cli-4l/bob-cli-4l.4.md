@@ -18,7 +18,7 @@ bip-link-today: in block-id-prompt, capture at the top of the Ctrl+Shift+Enter t
 ## Dependencies
 
 - **Depends on:** [bob-cli-4l.1](bob-cli-4l.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4l.5](bob-cli-4l.5.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4l.5](bob-cli-4l.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

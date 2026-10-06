@@ -18,7 +18,7 @@ nav-gestures: wire nav's own answering gestures through the core. This covers Al
 ## Dependencies
 
 - **Depends on:** [bob-cli-4l.1](bob-cli-4l.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4l.5](bob-cli-4l.5.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4l.5](bob-cli-4l.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
