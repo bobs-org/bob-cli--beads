@@ -13,7 +13,7 @@ article-targets: refactor clip into a callable engine and route create's HTML an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4s.3](bob-cli-4s.3.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4s.3](bob-cli-4s.3.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4s.5](bob-cli-4s.5.md) ◐ · ⧖ 2026-10-06
 
 ## Agents

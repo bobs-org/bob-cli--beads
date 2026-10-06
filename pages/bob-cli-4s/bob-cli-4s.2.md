@@ -21,7 +21,7 @@ fetch-arxiv: add a curl-based fetcher that validates every redirect hop, arXiv U
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4s.3](bob-cli-4s.3.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4s.3](bob-cli-4s.3.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
