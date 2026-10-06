@@ -14,7 +14,7 @@ docs-and-rollout: document inbox routing in bob-cli docs (projects, freshness ri
 ## Dependencies
 
 - **Depends on:** [bob-cli-4q.2](bob-cli-4q.2.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [bob-cli-4q.3](bob-cli-4q.3.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4q.3](bob-cli-4q.3.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
