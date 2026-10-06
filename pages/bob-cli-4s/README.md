@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-4s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.4/README.md) | [bob-cli-4s.4](bob-cli-4s.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-4s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.5/README.md) | [bob-cli-4s.5](bob-cli-4s.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-4s.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-4s.6.md) | [bob-cli-4s.6](bob-cli-4s.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-4s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-4s.land.md) | [bob-cli-4s](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-4s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-4s.land.md) | [bob-cli-4s](README.md) | 2 |
 
 ## Commits
 
@@ -91,3 +91,4 @@ flowchart TD
 | bob-cli | [`acceed2`](https://github.com/bobs-org/bob-cli/commit/acceed2b834b2253eb28e3688707c902f81fd0bc) | feat(highlights): add listen and attach modes for create and clip | [bob-cli-4s.5](bob-cli-4s.5.md) | 2026-10-06 17:30:04 EDT |
 | bob-cli | [`fe1c05f`](https://github.com/bobs-org/bob-cli/commit/fe1c05f067e8843863fd3ce164e572511063515c) | docs(highlights): record live-verify results for listen attach flow | [bob-cli-4s.6](bob-cli-4s.6.md) | 2026-10-06 18:54:20 EDT |
 | bob-cli | [`f5e7c78`](https://github.com/bobs-org/bob-cli/commit/f5e7c782ba6e9663867c59dbbba4612315ff82c7) | feat(highlights): finish bob-cli-4s listen landing fixes | [bob-cli-4s](README.md) | 2026-10-06 19:50:24 EDT |
+| bob-cli--plans | [`bob-cli--plans@fd2e070`](https://github.com/bobs-org/bob-cli--plans/commit/fd2e070965383457abefe241285615d7f4083a2d) | chore(plans): mark highlights\_create\_listen epic plan done | [bob-cli-4s](README.md) | 2026-10-06 19:51:09 EDT |
