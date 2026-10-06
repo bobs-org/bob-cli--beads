@@ -21,7 +21,7 @@ listen-command: add highlights.listen_command plus its env override, a template 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4s.5](bob-cli-4s.5.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4s.5](bob-cli-4s.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

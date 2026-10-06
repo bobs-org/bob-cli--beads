@@ -19,7 +19,7 @@
 | [bob-cli-4s.2](bob-cli-4s.2.md) | URL fetcher, arXiv identity and metadata, and shared dedupe | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [bob-cli-4s.3](bob-cli-4s.3.md) | create accepts local PDFs, PDF URLs, and arXiv papers | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [bob-cli-4s.4](bob-cli-4s.4.md) | create routes web article URLs through the clip engine | ✓ closed | small | 2026-10-06 | 1 | 1 |
-| [bob-cli-4s.5](bob-cli-4s.5.md) | Wire --listen into create and clip, with attach mode | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [bob-cli-4s.5](bob-cli-4s.5.md) | Wire --listen into create and clip, with attach mode | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [bob-cli-4s.6](bob-cli-4s.6.md) | Live end-to-end verification on athena | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 
 ## Lineage
@@ -31,7 +31,7 @@ flowchart TD
     n2["bob-cli-4s.2: URL fetcher, arXiv identity and metadata, and shared dedupe [closed]"]
     n3["bob-cli-4s.3: create accepts local PDFs, PDF URLs, and arXiv papers [closed]"]
     n4["bob-cli-4s.4: create routes web article URLs through the clip engine [closed]"]
-    n5["bob-cli-4s.5: Wire --listen into create and clip, with attach mode [in_progress]"]
+    n5["bob-cli-4s.5: Wire --listen into create and clip, with attach mode [closed]"]
     n6["bob-cli-4s.6: Live end-to-end verification on athena [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -54,7 +54,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-4s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.2/README.md) | [bob-cli-4s.2](bob-cli-4s.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-4s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.3/README.md) | [bob-cli-4s.3](bob-cli-4s.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-4s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.4/README.md) | [bob-cli-4s.4](bob-cli-4s.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-4s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.5/README.md) | [bob-cli-4s.5](bob-cli-4s.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-4s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.5/README.md) | [bob-cli-4s.5](bob-cli-4s.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-4s.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.6/README.md) | [bob-cli-4s.6](bob-cli-4s.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-4s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4s.land/README.md) | [bob-cli-4s](README.md) | 0 |
 
@@ -66,3 +66,4 @@ flowchart TD
 | bob-cli | [`fb77b56`](https://github.com/bobs-org/bob-cli/commit/fb77b56e3b6b20776787ab809631a7a64a777be2) | feat(highlights): add native highlights\_ref fetch, arxiv, clip, and dedupe | [bob-cli-4s.2](bob-cli-4s.2.md) | 2026-10-06 16:06:43 EDT |
 | bob-cli | [`fa7c7b0`](https://github.com/bobs-org/bob-cli/commit/fa7c7b002931cface784e19e85778d151754a37a) | feat(highlights): accept markdown, local PDF, PDF URL, and arXiv targets in create | [bob-cli-4s.3](bob-cli-4s.3.md) | 2026-10-06 16:47:07 EDT |
 | bob-cli | [`0779e7d`](https://github.com/bobs-org/bob-cli/commit/0779e7d069958c5227fd5fbf746e6b85909e4ac7) | feat(highlights): route create WebArticle targets through clip engine | [bob-cli-4s.4](bob-cli-4s.4.md) | 2026-10-06 17:03:33 EDT |
+| bob-cli | [`acceed2`](https://github.com/bobs-org/bob-cli/commit/acceed2b834b2253eb28e3688707c902f81fd0bc) | feat(highlights): add listen and attach modes for create and clip | [bob-cli-4s.5](bob-cli-4s.5.md) | 2026-10-06 17:30:04 EDT |
