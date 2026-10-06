@@ -15,7 +15,7 @@ copy-docs-record: fix the PRE/POST/lane action hints in ledger-tools and the nav
 
 - **Depends on:** [bob-cli-4l.2](bob-cli-4l.2.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4l.3](bob-cli-4l.3.md) ✓ · ⧖ 2026-10-06
-- **Depends on:** [bob-cli-4l.4](bob-cli-4l.4.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4l.4](bob-cli-4l.4.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
