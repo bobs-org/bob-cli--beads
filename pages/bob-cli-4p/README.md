@@ -16,7 +16,7 @@ In Obsidian, every canonical `[priority:: …]` task field (Live Preview, readin
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-4p.1](bob-cli-4p.1.md) | Priority marks in bob-ledger-tools | ✓ closed | medium | 2026-10-06 | 1 | 2 |
-| [bob-cli-4p.2](bob-cli-4p.2.md) | Task Card and priority notices reuse the glyph | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
+| [bob-cli-4p.2](bob-cli-4p.2.md) | Task Card and priority notices reuse the glyph | ✓ closed | small | 2026-10-06 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ In Obsidian, every canonical `[priority:: …]` task field (Live Preview, readin
 flowchart TD
     n0["bob-cli-4p: Priority marks - render the task priority field as a signal-bar icon [in_progress]"]
     n1["bob-cli-4p.1: Priority marks in bob-ledger-tools [closed]"]
-    n2["bob-cli-4p.2: Task Card and priority notices reuse the glyph [in_progress]"]
+    n2["bob-cli-4p.2: Task Card and priority notices reuse the glyph [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -35,7 +35,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-4p.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4p.1/README.md) | [bob-cli-4p.1](bob-cli-4p.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-4p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4p.2/README.md) | [bob-cli-4p.2](bob-cli-4p.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-4p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4p.2/README.md) | [bob-cli-4p.2](bob-cli-4p.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-4p.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4p.land/README.md) | [bob-cli-4p](README.md) | 0 |
 
 ## Commits
@@ -44,3 +44,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`c2aec57`](https://github.com/bobs-org/bob-cli/commit/c2aec5703ce28e437881b1ce4633e9a8e706e5c0) | docs(projects): add Priority marks contract with conformance vectors | [bob-cli-4p.1](bob-cli-4p.1.md) | 2026-10-06 14:09:27 EDT |
 | bob-plugins | [`bob-plugins@170353f`](https://github.com/bobs-org/bob-plugins/commit/170353fef4e7861e73cfb2524a0afe80a80c288b) | feat(ledger-tools): add priority marks rendering (1.29.3 -\> 1.30.0) | [bob-cli-4p.1](bob-cli-4p.1.md) | 2026-10-06 14:10:14 EDT |
+| bob-cli | [`ce54258`](https://github.com/bobs-org/bob-cli/commit/ce54258121bd567344f603311a4792299cd05185) | docs(projects): record Task Card and notice reuse of priority marks | [bob-cli-4p.2](bob-cli-4p.2.md) | 2026-10-06 14:24:41 EDT |

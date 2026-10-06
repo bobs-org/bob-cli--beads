@@ -17,7 +17,7 @@ ledger-marks: build the display-only priority mark in bob-ledger-tools. That cov
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4p.2](bob-cli-4p.2.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4p.2](bob-cli-4p.2.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
