@@ -18,7 +18,7 @@ link-toggle-gate: have block-id-prompt's link and unlink paths ask through nav `
 ## Dependencies
 
 - **Depends on:** [bob-cli-4q.1](bob-cli-4q.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4q.4](bob-cli-4q.4.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4q.4](bob-cli-4q.4.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
