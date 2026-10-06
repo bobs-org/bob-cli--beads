@@ -17,7 +17,7 @@ nav-core: add the landing-scoped capture/continue helper and its gesture lock, s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4l.2](bob-cli-4l.2.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4l.2](bob-cli-4l.2.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4l.3](bob-cli-4l.3.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4l.4](bob-cli-4l.4.md) ✓ · ⧖ 2026-10-06
 
