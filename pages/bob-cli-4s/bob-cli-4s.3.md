@@ -13,7 +13,7 @@ pdf-targets: add TARGET classification to create, a stamp-as-is PDF route with t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4s.2](bob-cli-4s.2.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4s.2](bob-cli-4s.2.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4s.4](bob-cli-4s.4.md) ◐ · ⧖ 2026-10-06
 
 ## Agents
