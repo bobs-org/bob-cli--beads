@@ -27,10 +27,11 @@ copy-docs-record: fix the PRE/POST/lane action hints in ledger-tools and the nav
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-4l.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.5/README.md) | [bob-cli-4l.5](bob-cli-4l.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-4l.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-4l.5/README.md) | [bob-cli-4l.5](bob-cli-4l.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`756c4fc`](https://github.com/bobs-org/bob-cli/commit/756c4fc74959a644d8b90edab8502aea342320fc) | docs(walk): publish answering-advances-the-walk decision and update review docs | [bob-cli-4l.5](bob-cli-4l.5.md) | 2026-10-06 07:52:22 EDT |
+| bob-plugins | [`bob-plugins@5d0a200`](https://github.com/bobs-org/bob-plugins/commit/5d0a200c1561aa3f8154ff78599f54dc976179b5) | fix(plugins): correct PRE/POST/lane action hints and nav fallback | [bob-cli-4l.5](bob-cli-4l.5.md) | 2026-10-06 07:53:03 EDT |
