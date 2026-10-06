@@ -21,7 +21,7 @@ create-listen: add -L/--listen to create and clip on every route with all-or-not
 
 - **Depends on:** [bob-cli-4s.1](bob-cli-4s.1.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4s.4](bob-cli-4s.4.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4s.6](bob-cli-4s.6.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4s.6](bob-cli-4s.6.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
