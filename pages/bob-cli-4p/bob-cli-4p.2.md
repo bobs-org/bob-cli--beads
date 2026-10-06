@@ -23,10 +23,11 @@ card-glyph: bob-navigation-hotkeys renders the shared mark through `api.priority
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-4p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4p.2/README.md) | [bob-cli-4p.2](bob-cli-4p.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-4p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4p.2/README.md) | [bob-cli-4p.2](bob-cli-4p.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ce54258`](https://github.com/bobs-org/bob-cli/commit/ce54258121bd567344f603311a4792299cd05185) | docs(projects): record Task Card and notice reuse of priority marks | [bob-cli-4p.2](bob-cli-4p.2.md) | 2026-10-06 14:24:41 EDT |
+| bob-plugins | [`bob-plugins@9e69a9d`](https://github.com/bobs-org/bob-plugins/commit/9e69a9d4242f30732755aeae2cf6c45c00e5aa75) | feat(nav): reuse shared priority mark in Task Card and notices (2.7.2 -\> 2.8.0) | [bob-cli-4p.2](bob-cli-4p.2.md) | 2026-10-06 14:25:17 EDT |
