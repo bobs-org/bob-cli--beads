@@ -52,7 +52,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-54.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-54.1/README.md) | [bob-cli-54.1](bob-cli-54.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-54.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-54.2/README.md) | [bob-cli-54.2](bob-cli-54.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-54.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-54.3/README.md) | [bob-cli-54.3](bob-cli-54.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-54.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-54.land.md) | [bob-cli-54](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-54.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-54.land.md) | [bob-cli-54](README.md) | 2 |
 
 ## Commits
 
@@ -63,3 +63,4 @@ flowchart TD
 | bob-cli | [`9c825ca`](https://github.com/bobs-org/bob-cli/commit/9c825cacdf8e4713fe6f40241504026df5dd8f46) | docs(plan): link-to-today picker docs for Ctrl+Shift+Enter | [bob-cli-54.3](bob-cli-54.3.md) | 2026-10-07 10:04:30 EDT |
 | bob-plugins | [`bob-plugins@d0680d1`](https://github.com/bobs-org/bob-plugins/commit/d0680d179a4cff1c1485f314c12dff82b42f108a) | feat(block-id-prompt): wire Link to today picker into Ctrl+Shift+Enter | [bob-cli-54.3](bob-cli-54.3.md) | 2026-10-07 10:05:17 EDT |
 | bob-plugins | [`bob-plugins@361996b`](https://github.com/bobs-org/bob-plugins/commit/361996b005815eeab4e2645bfac3cd16d368adb6) | fix(block-id-prompt): keep per-cap meter flags independent, match exact canonical names, bound #N positions | [bob-cli-54](README.md) | 2026-10-07 10:38:08 EDT |
+| bob-cli--plans | [`bob-cli--plans@1b09a2f`](https://github.com/bobs-org/bob-cli--plans/commit/1b09a2fa8c2bee72c39a4c6024a18df460e16eef) | docs(plans): mark pomodoro picker epic plan done | [bob-cli-54](README.md) | 2026-10-07 10:38:48 EDT |
