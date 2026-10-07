@@ -19,7 +19,7 @@ red-tests: give `ref create --audio` a completion decision (bob-cli-4j), confirm
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5k.3](bob-cli-5k.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-5k.3](bob-cli-5k.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

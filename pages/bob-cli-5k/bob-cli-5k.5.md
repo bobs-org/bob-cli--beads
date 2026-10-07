@@ -13,7 +13,7 @@ tasks-sandbox: construct the Tasks JavaScript sandbox lazily and give its initia
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5k.3](bob-cli-5k.3.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-5k.3](bob-cli-5k.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

@@ -19,7 +19,7 @@ env-isolation: replace every module-private env-mutating test helper with one sh
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5k.3](bob-cli-5k.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-5k.3](bob-cli-5k.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -32,3 +32,15 @@ env-isolation: replace every module-private env-mutating test helper with one sh
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c9b17c9`](https://github.com/bobs-org/bob-cli/commit/c9b17c96fb66af96e110b1d111f52380e1c8b601) | test(env): add crate-wide thread-local test-env facility | [bob-cli-5k.2](bob-cli-5k.2.md) | 2026-10-07 15:27:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5k.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.2/README.md
+
+<!-- sase:referenced-by:end -->
