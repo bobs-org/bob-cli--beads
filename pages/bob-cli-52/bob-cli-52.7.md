@@ -14,7 +14,7 @@ capture: turn routing on in `capture` and `capture-parse`. Plan reference items 
 ## Dependencies
 
 - **Depends on:** [bob-cli-52.4](bob-cli-52.4.md) ✓ · ⧖ 2026-10-07
-- **Depends on:** [bob-cli-52.5](bob-cli-52.5.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-52.5](bob-cli-52.5.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-52.8](bob-cli-52.8.md) ◐ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-52.9](bob-cli-52.9.md) ◐ · ⧖ 2026-10-07
 

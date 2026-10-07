@@ -19,7 +19,7 @@ ingest: extract a typed URL ingest API from `ref create`. It returns created, al
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-52.5](bob-cli-52.5.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-52.5](bob-cli-52.5.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-52.6](bob-cli-52.6.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
