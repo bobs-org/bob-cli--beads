@@ -13,7 +13,7 @@ mac: in the linked bob-mac-capture repo, tolerantly decode the `ref` object; add
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-52.7](bob-cli-52.7.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-52.7](bob-cli-52.7.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-52.9](bob-cli-52.9.md) ◐ · ⧖ 2026-10-07
 
 ## Agents

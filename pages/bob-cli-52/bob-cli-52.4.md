@@ -22,7 +22,7 @@ grammar: the whole-item bare-URL claim and `CaptureKind::Ref`, the lexical URL-l
 ## Dependencies
 
 - **Depends on:** [bob-cli-52.3](bob-cli-52.3.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-52.7](bob-cli-52.7.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-52.7](bob-cli-52.7.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

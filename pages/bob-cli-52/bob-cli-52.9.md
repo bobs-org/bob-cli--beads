@@ -15,7 +15,7 @@ verify: on athena, run the live article, PDF, arXiv, blocked, corporate link, li
 
 - **Depends on:** [bob-cli-52.2](bob-cli-52.2.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [bob-cli-52.6](bob-cli-52.6.md) ✓ · ⧖ 2026-10-07
-- **Depends on:** [bob-cli-52.7](bob-cli-52.7.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-52.7](bob-cli-52.7.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [bob-cli-52.8](bob-cli-52.8.md) ◐ · ⧖ 2026-10-07
 
 ## Agents
