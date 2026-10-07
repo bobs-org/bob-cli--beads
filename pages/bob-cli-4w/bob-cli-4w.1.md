@@ -11,6 +11,12 @@
 
 rename: make `ref` the canonical Vault command with permanent `highlights` and `highlights-ref` aliases, grouped help, canonical diagnostics, completion paths, fixtures, docs, and alias-equivalence tests.
 
+## Notes
+
+[2026-10-07T00:49:07Z · bob-cli-4w.1] PROPOSED FOLLOW-UP: lib test every_value_arg_has_a_decision still reports no kinds decision for create:audio (now ref create:audio); identical on clean base, known per epic plan as the bob-cli-4j failure
+
+[2026-10-07T00:49:12Z · bob-cli-4w.1] PROPOSED FOLLOW-UP: lib test listen_filter_renders_card_and_encoded_play_link fails identically on the clean base tree (no tracker known); unrelated to the ref rename
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-4w.4](bob-cli-4w.4.md) ◐ · ⧖ 2026-10-06
@@ -22,4 +28,10 @@ rename: make `ref` the canonical Vault command with permanent `highlights` and `
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-4w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.1/README.md) | [bob-cli-4w.1](bob-cli-4w.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-4w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.1/README.md) | [bob-cli-4w.1](bob-cli-4w.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`42a1792`](https://github.com/bobs-org/bob-cli/commit/42a17926a9ce700634a2ed2ce51228ef4f46e0fd) | feat(ref): promote bob ref to the canonical command | [bob-cli-4w.1](bob-cli-4w.1.md) | 2026-10-06 21:02:53 EDT |

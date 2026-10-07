@@ -15,7 +15,7 @@
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-4w.1](bob-cli-4w.1.md) | Promote bob ref to the canonical command | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [bob-cli-4w.1](bob-cli-4w.1.md) | Promote bob ref to the canonical command | ◐ in_progress | medium | 2026-10-06 | 1 | 1 |
 | [bob-cli-4w.10](bob-cli-4w.10.md) | The bob\_ref agent skill | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.11](bob-cli-4w.11.md) | Live verification, install, and skill deployment on athena | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.2](bob-cli-4w.2.md) | Managed-region and note-anatomy parser | ✓ closed | small | 2026-10-06 | 1 | 1 |
@@ -75,7 +75,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-4w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.1/README.md) | [bob-cli-4w.1](bob-cli-4w.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-4w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.1/README.md) | [bob-cli-4w.1](bob-cli-4w.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.10/README.md) | [bob-cli-4w.10](bob-cli-4w.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.11/README.md) | [bob-cli-4w.11](bob-cli-4w.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.2/README.md) | [bob-cli-4w.2](bob-cli-4w.2.md) | 1 |
@@ -93,3 +93,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ecabc33`](https://github.com/bobs-org/bob-cli/commit/ecabc336ac35611458ce98004a6ece415d7314f2) | feat(highlights\_ref): add read-only managed region parser | [bob-cli-4w.2](bob-cli-4w.2.md) | 2026-10-06 20:48:52 EDT |
+| bob-cli | [`42a1792`](https://github.com/bobs-org/bob-cli/commit/42a17926a9ce700634a2ed2ce51228ef4f46e0fd) | feat(ref): promote bob ref to the canonical command | [bob-cli-4w.1](bob-cli-4w.1.md) | 2026-10-06 21:02:53 EDT |

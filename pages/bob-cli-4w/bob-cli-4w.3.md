@@ -11,6 +11,12 @@
 
 index: a new `ref_library` module that builds one read-only row per ref note (status precedence, derived reading state, identity keys, dates, origin, supersession, diagnostics, coverage) plus query resolution and title scoring, over a mixed-corpus fixture vault.
 
+## Notes
+
+[2026-10-07T00:56:12Z · bob-cli-4w.3] PROPOSED FOLLOW-UP: placeholder to verify tool
+
+[2026-10-07T00:56:25Z · bob-cli-4w.3] Retract note #1 placeholder: not a follow-up, ignore it during triage
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-4w.2](bob-cli-4w.2.md) ✓ · ⧖ 2026-10-06
