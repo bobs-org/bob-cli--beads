@@ -46,7 +46,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-53.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.1/README.md) | [bob-cli-53.1](bob-cli-53.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-53.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.2/README.md) | [bob-cli-53.2](bob-cli-53.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-53.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-53.land.md) | [bob-cli-53](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-53.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-53.land.md) | [bob-cli-53](README.md) | 3 |
 
 ## Commits
 
@@ -58,3 +58,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ced2675`](https://github.com/bobs-org/bob-plugins/commit/ced2675a8d54d550952a28932544df83af4ca6ab) | feat(ledger-tools): decorate Tasks query results with date marks (1.32.0) | [bob-cli-53.2](bob-cli-53.2.md) | 2026-10-07 09:13:33 EDT |
 | bob-cli | [`bed1e5d`](https://github.com/bobs-org/bob-cli/commit/bed1e5d681897016405155098cfab7373468e1b3) | docs(date-marks): describe Tasks-result shutdown guarantee | [bob-cli-53](README.md) | 2026-10-07 09:37:31 EDT |
 | bob-plugins | [`bob-plugins@344bfca`](https://github.com/bobs-org/bob-plugins/commit/344bfcaea975f95c0d1bd073573990bdb6460ff2) | fix(ledger-tools): repair Tasks date-mark traversal and queued-frame shutdown | [bob-cli-53](README.md) | 2026-10-07 09:38:12 EDT |
+| bob-cli--plans | [`bob-cli--plans@01431e8`](https://github.com/bobs-org/bob-cli--plans/commit/01431e8c66867ee7f85aaa479f6fff1380ef9566) | docs(plans): mark task date marks plan done | [bob-cli-53](README.md) | 2026-10-07 09:38:47 EDT |
