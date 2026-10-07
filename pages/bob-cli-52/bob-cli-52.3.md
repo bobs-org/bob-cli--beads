@@ -11,6 +11,14 @@
 
 intent: a new `url_routing` module with the strict bare-URL classifier, display formatting, the `highlights.url_routing` config policy (per-entry-point toggles and `exclude_hosts`), an offline library verdict that agrees exactly with create's dedupe, and a doctor routing row.
 
+## Notes
+
+[2026-10-07T12:59:32Z · bob-cli-52.3] PROPOSED FOLLOW-UP: lib test native::completion::kinds::tests::every_value_arg_has_a_decision fails identically on clean base (ref create:audio missing kinds decision)
+
+[2026-10-07T12:59:37Z · bob-cli-52.3] PROPOSED FOLLOW-UP: lib test native::highlights_ref::create::tests::listen_filter_renders_card_and_encoded_play_link fails identically on clean base
+
+[2026-10-07T12:59:41Z · bob-cli-52.3] PROPOSED FOLLOW-UP: cli test highlights::create::ingest_characterizes_url_failure_modes fails identically on clean base
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-52.4](bob-cli-52.4.md) ◐ · ⧖ 2026-10-07
@@ -21,4 +29,10 @@ intent: a new `url_routing` module with the strict bare-URL classifier, display 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-52.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.3/README.md) | [bob-cli-52.3](bob-cli-52.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-52.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.3/README.md) | [bob-cli-52.3](bob-cli-52.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`df9d504`](https://github.com/bobs-org/bob-cli/commit/df9d504fb937a9ba80bf7ec51f6d8ead285fac62) | feat(url-routing): add intent classifier, routing policy, and offline library verdict | [bob-cli-52.3](bob-cli-52.3.md) | 2026-10-07 09:01:44 EDT |
