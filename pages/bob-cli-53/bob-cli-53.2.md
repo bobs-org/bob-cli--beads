@@ -23,10 +23,11 @@ tasks-results: in full-mode Tasks query results, add the same mark to each date 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-53.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.2/README.md) | [bob-cli-53.2](bob-cli-53.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-53.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.2/README.md) | [bob-cli-53.2](bob-cli-53.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b5a0258`](https://github.com/bobs-org/bob-cli/commit/b5a0258de16d872bb69eea968f50478f0f6909f6) | docs(date-marks): document Tasks query results date marks (T1-T9) | [bob-cli-53.2](bob-cli-53.2.md) | 2026-10-07 09:12:44 EDT |
+| bob-plugins | [`bob-plugins@ced2675`](https://github.com/bobs-org/bob-plugins/commit/ced2675a8d54d550952a28932544df83af4ca6ab) | feat(ledger-tools): decorate Tasks query results with date marks (1.32.0) | [bob-cli-53.2](bob-cli-53.2.md) | 2026-10-07 09:13:33 EDT |
