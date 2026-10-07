@@ -14,7 +14,7 @@ docs-verify: document the mark and toggle contract in bob-cli `docs/plan.md` (ve
 ## Dependencies
 
 - **Depends on:** [bob-cli-56.1](bob-cli-56.1.md) ✓ · ⧖ 2026-10-07
-- **Depends on:** [bob-cli-56.3](bob-cli-56.3.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-56.3](bob-cli-56.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

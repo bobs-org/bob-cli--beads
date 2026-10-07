@@ -19,7 +19,7 @@ link-lane-toggle: build the two-state Next <-> In Progress toggle for Pomodoro T
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-56.3](bob-cli-56.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-56.3](bob-cli-56.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
