@@ -23,7 +23,7 @@ render: add a second pandoc Lua filter plus TeX macros that resolve, tag, and pa
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5j.2](bob-cli-5j.2.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-5j.2](bob-cli-5j.2.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -36,3 +36,15 @@ render: add a second pandoc Lua filter plus TeX macros that resolve, tag, and pa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d4fab34`](https://github.com/bobs-org/bob-cli/commit/d4fab34ab6c4b2911624f849a95e9adfba48f101) | feat(highlights): render paired return links in Markdown PDFs | [bob-cli-5j.1](bob-cli-5j.1.md) | 2026-10-07 15:42:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5j.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.1/README.md
+
+<!-- sase:referenced-by:end -->

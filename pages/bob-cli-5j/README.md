@@ -28,7 +28,7 @@ Every same-document link in a Markdown PDF rendered by `bob ref create` carries 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5j.1](bob-cli-5j.1.md) | Render paired return links in Markdown PDFs | ✓ closed | medium | 2026-10-07 | 1 | 1 |
-| [bob-cli-5j.2](bob-cli-5j.2.md) | Keep return-link glyphs out of synced highlights | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
+| [bob-cli-5j.2](bob-cli-5j.2.md) | Keep return-link glyphs out of synced highlights | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ Every same-document link in a Markdown PDF rendered by `bob ref create` carries 
 flowchart TD
     n0["bob-cli-5j: Paired return links for bob ref create Markdown PDFs [in_progress]"]
     n1["bob-cli-5j.1: Render paired return links in Markdown PDFs [closed]"]
-    n2["bob-cli-5j.2: Keep return-link glyphs out of synced highlights [in_progress]"]
+    n2["bob-cli-5j.2: Keep return-link glyphs out of synced highlights [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-5j.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.1/README.md) | [bob-cli-5j.1](bob-cli-5j.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-5j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.2/README.md) | [bob-cli-5j.2](bob-cli-5j.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-5j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.2/README.md) | [bob-cli-5j.2](bob-cli-5j.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-5j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.land/README.md) | [bob-cli-5j](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d4fab34`](https://github.com/bobs-org/bob-cli/commit/d4fab34ab6c4b2911624f849a95e9adfba48f101) | feat(highlights): render paired return links in Markdown PDFs | [bob-cli-5j.1](bob-cli-5j.1.md) | 2026-10-07 15:42:33 EDT |
+| bob-cli | [`6fb936d`](https://github.com/bobs-org/bob-cli/commit/6fb936d71dc0a79e59f3566b1e23c60938b9d0db) | feat(highlights): keep return-link glyphs out of synced highlights | [bob-cli-5j.2](bob-cli-5j.2.md) | 2026-10-07 16:07:53 EDT |
