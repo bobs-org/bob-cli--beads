@@ -24,7 +24,7 @@ rename: make `ref` the canonical Vault command with permanent `highlights` and `
 - **Blocks:** [bob-cli-4w.4](bob-cli-4w.4.md) ◐ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.7](bob-cli-4w.7.md) ◐ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.8](bob-cli-4w.8.md) ◐ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4w.9](bob-cli-4w.9.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4w.9](bob-cli-4w.9.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 

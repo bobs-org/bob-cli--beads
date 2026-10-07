@@ -15,7 +15,7 @@ skill: author the `bob_ref` skill source in the linked chezmoi repo so reading-r
 
 - **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.6](bob-cli-4w.6.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [bob-cli-4w.9](bob-cli-4w.9.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4w.9](bob-cli-4w.9.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
 
