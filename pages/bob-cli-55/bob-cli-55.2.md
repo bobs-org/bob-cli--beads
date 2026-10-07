@@ -17,7 +17,7 @@ plugins-tickler-footer: in linked bob-plugins, rename the returned tier to tickl
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-55.3](bob-cli-55.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-55.3](bob-cli-55.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
