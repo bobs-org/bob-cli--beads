@@ -14,7 +14,7 @@ gesture: move the inbox-route helpers out of the full fragment, add the picker m
 ## Dependencies
 
 - **Depends on:** [bob-cli-54.1](bob-cli-54.1.md) ✓ · ⧖ 2026-10-07
-- **Depends on:** [bob-cli-54.2](bob-cli-54.2.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-54.2](bob-cli-54.2.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
