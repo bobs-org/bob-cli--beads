@@ -14,7 +14,7 @@ verify: run the acceptance exercise and the counts, performance, alias, and dry-
 ## Dependencies
 
 - **Depends on:** [bob-cli-4w.10](bob-cli-4w.10.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [bob-cli-4w.7](bob-cli-4w.7.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4w.7](bob-cli-4w.7.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.8](bob-cli-4w.8.md) ✓ · ⧖ 2026-10-06
 
 ## Agents

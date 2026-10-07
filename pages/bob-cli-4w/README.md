@@ -23,7 +23,7 @@
 | [bob-cli-4w.4](bob-cli-4w.4.md) | bob ref find and the library CLI plumbing | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.5](bob-cli-4w.5.md) | bob ref list | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.6](bob-cli-4w.6.md) | bob ref show | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
-| [bob-cli-4w.7](bob-cli-4w.7.md) | Library health and coverage rows in doctor | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
+| [bob-cli-4w.7](bob-cli-4w.7.md) | Library health and coverage rows in doctor | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [bob-cli-4w.8](bob-cli-4w.8.md) | Remove leaked marker mirrors and stamp completion dates | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [bob-cli-4w.9](bob-cli-4w.9.md) | Capture URLs that only a legacy note records | ✓ closed | small | 2026-10-06 | 1 | 1 |
 
@@ -40,7 +40,7 @@ flowchart TD
     n6["bob-cli-4w.4: bob ref find and the library CLI plumbing [in_progress]"]
     n7["bob-cli-4w.5: bob ref list [in_progress]"]
     n8["bob-cli-4w.6: bob ref show [in_progress]"]
-    n9["bob-cli-4w.7: Library health and coverage rows in doctor [in_progress]"]
+    n9["bob-cli-4w.7: Library health and coverage rows in doctor [closed]"]
     n10["bob-cli-4w.8: Remove leaked marker mirrors and stamp completion dates [closed]"]
     n11["bob-cli-4w.9: Capture URLs that only a legacy note records [closed]"]
     n0 --> n1
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-4w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.4/README.md) | [bob-cli-4w.4](bob-cli-4w.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.5/README.md) | [bob-cli-4w.5](bob-cli-4w.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.6/README.md) | [bob-cli-4w.6](bob-cli-4w.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-4w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.7/README.md) | [bob-cli-4w.7](bob-cli-4w.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-4w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.7/README.md) | [bob-cli-4w.7](bob-cli-4w.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.8/README.md) | [bob-cli-4w.8](bob-cli-4w.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.9/README.md) | [bob-cli-4w.9](bob-cli-4w.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.land/README.md) | [bob-cli-4w](README.md) | 0 |
@@ -97,3 +97,4 @@ flowchart TD
 | bob-cli | [`7b60ded`](https://github.com/bobs-org/bob-cli/commit/7b60ded9f056f240f7e0d3db1ae4707a4ab9aab3) | feat(ref-library): add read-only RefRow index module with fixture vault | [bob-cli-4w.3](bob-cli-4w.3.md) | 2026-10-06 21:21:22 EDT |
 | bob-cli | [`a34dc02`](https://github.com/bobs-org/bob-cli/commit/a34dc026c04ed47ae0119e6100bad774c5b2dc7d) | feat(ref): capture URLs recorded only by legacy notes with a warning | [bob-cli-4w.9](bob-cli-4w.9.md) | 2026-10-06 21:27:49 EDT |
 | bob-cli | [`eaca8b1`](https://github.com/bobs-org/bob-cli/commit/eaca8b14ef506bcc48a282218eb6944561a13efd) | feat(highlights-ref): sync fixes — discard leaked marker mirrors, stamp close dates | [bob-cli-4w.8](bob-cli-4w.8.md) | 2026-10-06 21:39:57 EDT |
+| bob-cli | [`e64b2df`](https://github.com/bobs-org/bob-cli/commit/e64b2df2eacf125a30b130266e4287903ce37b44) | feat(ref-doctor): add library health rows to bob ref doctor | [bob-cli-4w.7](bob-cli-4w.7.md) | 2026-10-06 22:07:39 EDT |
