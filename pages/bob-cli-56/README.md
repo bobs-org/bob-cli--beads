@@ -2,14 +2,24 @@
 
 [Bead Pages](../README.md) / bob-cli-56
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5j](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5j.md) · **Assignee:** `bob-cli-56.land`
-**Created:** 2026-10-07 10:18:28 EDT
+**Created:** 2026-10-07 10:18:28 EDT · **Closed:** 2026-10-07 11:15:22 EDT
 **Plan:** [202610/in\_progress\_task\_link\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/in_progress_task_link_marks.md)
 
 ## Description
 
 In today's daily note, every Task Link under an open Pomodoro whose task is In Progress `[/]` shows a rendered amber half-ring mark (Next shows none), and Alt+[ / Alt+] on any Pomodoro Task Link toggles its task between Next and In Progress, offering an optional Work Log entry when it goes back to Next. Nothing new is ever written into the daily note.
+
+## Notes
+
+[2026-10-07T15:15:22Z · bob-cli-56.land] Verified phases bob-cli-56.1 through bob-cli-56.4 are closed done and match the plan.
+
+Ledger-tools 1.34.0 renders display-only half-ring marks (137/268/269, api.progressMarks v1, CSS, toggle, refresh). Navigation-hotkeys 2.12.0 owns the Next/In Progress toggle (245/196/525, api.taskLinkLane v1, Move to Next prompt, progressMarks.expect). Task-status-cycler 1.27.0 delegates single and counted Alt+[ / Alt+] on Pomodoro Task Links and skips those lines in ranges that start elsewhere. docs/plan.md has the contract section, Surfaces and Notices rows, and the P and L vectors; task-status-hooks.md and getting-started.md have the one-line cross-refs; the three bob-plugins README rows match the shipped versions. npm run build:check passed. The three feature suites passed 63/63, including P1-P14 and L1-L15 (L13 is the cycler "keep today's behavior" test).
+
+Integration since the epic started, excluding its own commits: bob-plugins 361996b (bob-cli-54) only changes picker name matching and per-cap meter flags, not Task Link text, and the later epic commits already sit on it. bob-cli 84a8a31 edited getting-started.md before the docs commit; the Alt+[ keymap paragraph is still there. bob-cli c9b361b queues bare capture links for the reading queue and does not write Pomodoro Task Links. No feature code needed to change.
+
+Follow-ups: bob-cli-56.2's bare `bob plugins sync` footgun is bob-cli-59 (bug, small, ready). bob-cli-56.4's memory proposal is bob-cli-5a (memory, small, ready): new decisions/in-progress-marks-are-rendered.md plus the glossary/work-log.md Alt+[ trigger. Both descriptions name the proposing bead. `sase artifact link add` failed because the artifact-link event store rejected a reused operation_id, so no related link row was written. Declined a freshness.md "who stamps" task: planTaskLinkLaneBatch stamps and docs/plan.md records it; the docs phase did not include that file. Declined restyling Alt+N's release modal: the plan lists it as a non-goal, and no phase proposed it. No --epic-symbol entries. No parent bead.
 
 ## Phases
 
@@ -24,7 +34,7 @@ In today's daily note, every Task Link under an open Pomodoro whose task is In P
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-56: In Progress marks and the Alt+[ / Alt+] lane toggle for Pomodoro Task Links [in_progress]"]
+    n0["bob-cli-56: In Progress marks and the Alt+[ / Alt+] lane toggle for Pomodoro Task Links [closed]"]
     n1["bob-cli-56.1: bob-ledger-tools In Progress marks [closed]"]
     n2["bob-cli-56.2: bob-navigation-hotkeys Task Link lane toggle and api.taskLinkLane [closed]"]
     n3["bob-cli-56.3: task-status-cycler delegates Alt+[ / Alt+] on Task Links [closed]"]
@@ -46,7 +56,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-56.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.2/README.md) | [bob-cli-56.2](bob-cli-56.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-56.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.3/README.md) | [bob-cli-56.3](bob-cli-56.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-56.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.4/README.md) | [bob-cli-56.4](bob-cli-56.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-56.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.land/README.md) | [bob-cli-56](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-56.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.land/README.md) | [bob-cli-56](README.md) | 1 |
 
 ## Commits
 
@@ -56,3 +66,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@936fec4`](https://github.com/bobs-org/bob-plugins/commit/936fec4621fb6c2c846247be3fb3e23bb7cd2d45) | feat(nav): Pomodoro Task Link Next/In Progress lane toggle with api.taskLinkLane v1 | [bob-cli-56.2](bob-cli-56.2.md) | 2026-10-07 10:42:34 EDT |
 | bob-plugins | [`bob-plugins@c04ee02`](https://github.com/bobs-org/bob-plugins/commit/c04ee021005b82b76d7e5789580f89482e6ee7b0) | feat(task-status-cycler): delegate Task Link lane lines to nav toggle | [bob-cli-56.3](bob-cli-56.3.md) | 2026-10-07 10:52:51 EDT |
 | bob-cli | [`2d568fa`](https://github.com/bobs-org/bob-cli/commit/2d568fa1d942003491effa9ec0973ef7dfd84217) | docs(plan): document In Progress marks and the Task Link lane toggle | [bob-cli-56.4](bob-cli-56.4.md) | 2026-10-07 10:58:03 EDT |
+| bob-cli--plans | [`bob-cli--plans@1c209e2`](https://github.com/bobs-org/bob-cli--plans/commit/1c209e25a261dc99843a2ca0090a37569e2863b5) | docs(plan): mark the In Progress Task Link marks plan done | [bob-cli-56](README.md) | 2026-10-07 11:18:37 EDT |
