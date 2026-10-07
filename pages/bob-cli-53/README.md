@@ -16,7 +16,7 @@ In Obsidian, every canonical `created`, `scheduled`, `completion`, and `cancelle
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-53.1](bob-cli-53.1.md) | Date marks in bob-ledger-tools | ✓ closed | medium | 2026-10-07 | 1 | 2 |
-| [bob-cli-53.2](bob-cli-53.2.md) | Date marks in Tasks query results | ◐ in_progress | small | 2026-10-07 | 1 | 0 |
+| [bob-cli-53.2](bob-cli-53.2.md) | Date marks in Tasks query results | ✓ closed | small | 2026-10-07 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ In Obsidian, every canonical `created`, `scheduled`, `completion`, and `cancelle
 flowchart TD
     n0["bob-cli-53: Task date marks [in_progress]"]
     n1["bob-cli-53.1: Date marks in bob-ledger-tools [closed]"]
-    n2["bob-cli-53.2: Date marks in Tasks query results [in_progress]"]
+    n2["bob-cli-53.2: Date marks in Tasks query results [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -35,7 +35,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-53.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.1/README.md) | [bob-cli-53.1](bob-cli-53.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-53.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.2/README.md) | [bob-cli-53.2](bob-cli-53.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-53.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.2/README.md) | [bob-cli-53.2](bob-cli-53.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-53.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-53.land/README.md) | [bob-cli-53](README.md) | 0 |
 
 ## Commits
@@ -44,3 +44,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`67f0cbb`](https://github.com/bobs-org/bob-cli/commit/67f0cbb7b48505f2caa88976fd40ae30de1eda4f) | feat(docs): add task date marks display contract (bob-cli-53.1) | [bob-cli-53.1](bob-cli-53.1.md) | 2026-10-07 08:56:51 EDT |
 | bob-plugins | [`bob-plugins@d29034b`](https://github.com/bobs-org/bob-plugins/commit/d29034b42f5db394c05748ca0ffb21ae6ebfb58d) | feat(ledger-tools): render canonical task dates as compact date marks (bob-cli-53.1) | [bob-cli-53.1](bob-cli-53.1.md) | 2026-10-07 08:57:41 EDT |
+| bob-cli | [`b5a0258`](https://github.com/bobs-org/bob-cli/commit/b5a0258de16d872bb69eea968f50478f0f6909f6) | docs(date-marks): document Tasks query results date marks (T1-T9) | [bob-cli-53.2](bob-cli-53.2.md) | 2026-10-07 09:12:44 EDT |

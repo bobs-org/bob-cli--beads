@@ -17,7 +17,7 @@ date-marks: add the pure date-mark core (a parser for several canonical date fie
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-53.2](bob-cli-53.2.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-53.2](bob-cli-53.2.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
