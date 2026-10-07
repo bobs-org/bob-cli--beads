@@ -24,7 +24,7 @@ gkeep: the adapter emits shared-link annotations; the R5 URL-only rule becomes a
 - **Depends on:** [bob-cli-52.1](bob-cli-52.1.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [bob-cli-52.2](bob-cli-52.2.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [bob-cli-52.3](bob-cli-52.3.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-52.9](bob-cli-52.9.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-52.9](bob-cli-52.9.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
