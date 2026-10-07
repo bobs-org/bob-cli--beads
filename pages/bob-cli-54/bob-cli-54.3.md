@@ -24,10 +24,11 @@ gesture: move the inbox-route helpers out of the full fragment, add the picker m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-54.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-54.3/README.md) | [bob-cli-54.3](bob-cli-54.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-54.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-54.3/README.md) | [bob-cli-54.3](bob-cli-54.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9c825ca`](https://github.com/bobs-org/bob-cli/commit/9c825cacdf8e4713fe6f40241504026df5dd8f46) | docs(plan): link-to-today picker docs for Ctrl+Shift+Enter | [bob-cli-54.3](bob-cli-54.3.md) | 2026-10-07 10:04:30 EDT |
+| bob-plugins | [`bob-plugins@d0680d1`](https://github.com/bobs-org/bob-plugins/commit/d0680d179a4cff1c1485f314c12dff82b42f108a) | feat(block-id-prompt): wire Link to today picker into Ctrl+Shift+Enter | [bob-cli-54.3](bob-cli-54.3.md) | 2026-10-07 10:05:17 EDT |
