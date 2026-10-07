@@ -32,3 +32,15 @@ export: stamp a `return_links: true` marker key on PDFs that actually carry retu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6fb936d`](https://github.com/bobs-org/bob-cli/commit/6fb936d71dc0a79e59f3566b1e23c60938b9d0db) | feat(highlights): keep return-link glyphs out of synced highlights | [bob-cli-5j.2](bob-cli-5j.2.md) | 2026-10-07 16:07:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5j.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.2/README.md
+
+<!-- sase:referenced-by:end -->
