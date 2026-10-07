@@ -20,10 +20,11 @@ mac: in the linked bob-mac-capture repo, tolerantly decode the `ref` object; add
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-52.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.8/README.md) | [bob-cli-52.8](bob-cli-52.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-52.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.8/README.md) | [bob-cli-52.8](bob-cli-52.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@bf43ab2`](https://github.com/bobs-org/bob-mac-capture/commit/bf43ab24f3aeb47beb63cf7a64eb874e86013e78) | feat(capture): present reading-queue reference items | [bob-cli-52.8](bob-cli-52.8.md) | 2026-10-07 11:05:41 EDT |
+| bob-mac-capture | [`bob-mac-capture@b19c913`](https://github.com/bobs-org/bob-mac-capture/commit/b19c91306bb84ebf12a6c63c4ac70d4de4f55a5c) | fix(capture): restore ViewBuilder on the completion card | [bob-cli-52.8](bob-cli-52.8.md) | 2026-10-07 11:09:21 EDT |
