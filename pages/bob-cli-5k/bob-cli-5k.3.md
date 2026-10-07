@@ -19,7 +19,7 @@ check-gate: add `just check` (fmt, clippy, and every test binary with --no-fail-
 
 - **Depends on:** [bob-cli-5k.1](bob-cli-5k.1.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [bob-cli-5k.2](bob-cli-5k.2.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-5k.5](bob-cli-5k.5.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-5k.5](bob-cli-5k.5.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-5k.6](bob-cli-5k.6.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-5k.7](bob-cli-5k.7.md) ◐ · ⧖ 2026-10-07
 
