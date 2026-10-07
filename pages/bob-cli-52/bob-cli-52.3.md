@@ -25,7 +25,7 @@ intent: a new `url_routing` module with the strict bare-URL classifier, display 
 
 - **Blocks:** [bob-cli-52.4](bob-cli-52.4.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-52.5](bob-cli-52.5.md) ◐ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-52.6](bob-cli-52.6.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-52.6](bob-cli-52.6.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

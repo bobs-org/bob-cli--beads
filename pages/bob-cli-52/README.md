@@ -20,7 +20,7 @@ A bare public link lands in Bob's reading queue instead of becoming an inbox tas
 | [bob-cli-52.3](bob-cli-52.3.md) | URL-intent classifier, routing policy, and offline library verdict | ✓ closed | small | 2026-10-07 | 1 | 1 |
 | [bob-cli-52.4](bob-cli-52.4.md) | Capture grammar for reference items and URL lists | ✓ closed | small | 2026-10-07 | 1 | 1 |
 | [bob-cli-52.5](bob-cli-52.5.md) | Ref job spool, background worker, and bob ref jobs | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
-| [bob-cli-52.6](bob-cli-52.6.md) | bob gkeep pull clips URL-only Keep notes | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
+| [bob-cli-52.6](bob-cli-52.6.md) | bob gkeep pull clips URL-only Keep notes | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [bob-cli-52.7](bob-cli-52.7.md) | bob capture queues bare links for the reading queue | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
 | [bob-cli-52.8](bob-cli-52.8.md) | Bob Mac Capture presents reference items | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
 | [bob-cli-52.9](bob-cli-52.9.md) | Live verification, install, and follow-ups | ◐ in_progress | small | 2026-10-07 | 1 | 0 |
@@ -35,7 +35,7 @@ flowchart TD
     n3["bob-cli-52.3: URL-intent classifier, routing policy, and offline library verdict [closed]"]
     n4["bob-cli-52.4: Capture grammar for reference items and URL lists [closed]"]
     n5["bob-cli-52.5: Ref job spool, background worker, and bob ref jobs [in_progress]"]
-    n6["bob-cli-52.6: bob gkeep pull clips URL-only Keep notes [in_progress]"]
+    n6["bob-cli-52.6: bob gkeep pull clips URL-only Keep notes [closed]"]
     n7["bob-cli-52.7: bob capture queues bare links for the reading queue [in_progress]"]
     n8["bob-cli-52.8: Bob Mac Capture presents reference items [in_progress]"]
     n9["bob-cli-52.9: Live verification, install, and follow-ups [in_progress]"]
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-52.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.3/README.md) | [bob-cli-52.3](bob-cli-52.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-52.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.4/README.md) | [bob-cli-52.4](bob-cli-52.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-52.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.5/README.md) | [bob-cli-52.5](bob-cli-52.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-52.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.6/README.md) | [bob-cli-52.6](bob-cli-52.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-52.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.6/README.md) | [bob-cli-52.6](bob-cli-52.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-52.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.7/README.md) | [bob-cli-52.7](bob-cli-52.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-52.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.8/README.md) | [bob-cli-52.8](bob-cli-52.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-52.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.9/README.md) | [bob-cli-52.9](bob-cli-52.9.md) | 0 |
@@ -86,3 +86,4 @@ flowchart TD
 | bob-cli | [`2eafe60`](https://github.com/bobs-org/bob-cli/commit/2eafe60c505be3852633cb61e1f2cc29db409b17) | feat(ref): add typed non-printing URL ingest for reading queue | [bob-cli-52.1](bob-cli-52.1.md) | 2026-10-07 08:41:05 EDT |
 | bob-cli | [`df9d504`](https://github.com/bobs-org/bob-cli/commit/df9d504fb937a9ba80bf7ec51f6d8ead285fac62) | feat(url-routing): add intent classifier, routing policy, and offline library verdict | [bob-cli-52.3](bob-cli-52.3.md) | 2026-10-07 09:01:44 EDT |
 | bob-cli | [`98fd8ae`](https://github.com/bobs-org/bob-cli/commit/98fd8ae492c59ed08e843e713e023595246febea) | feat(capture): add reference item grammar with routing-gated Ref kind | [bob-cli-52.4](bob-cli-52.4.md) | 2026-10-07 09:29:14 EDT |
+| bob-cli | [`0a8c879`](https://github.com/bobs-org/bob-cli/commit/0a8c87907f55af9dcfce121a059615f848ef6ab9) | feat(gkeep): clip URL-only Keep notes into reading queue on pull | [bob-cli-52.6](bob-cli-52.6.md) | 2026-10-07 09:42:32 EDT |

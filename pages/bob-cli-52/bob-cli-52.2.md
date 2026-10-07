@@ -25,7 +25,7 @@ hardening: one shared `resolve_uv()` for the clip adapter, the Keep adapter, and
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-52.6](bob-cli-52.6.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-52.6](bob-cli-52.6.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-52.9](bob-cli-52.9.md) ◐ · ⧖ 2026-10-07
 
 ## Agents
