@@ -16,7 +16,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-4w.1](bob-cli-4w.1.md) | Promote bob ref to the canonical command | ✓ closed | medium | 2026-10-06 | 1 | 1 |
-| [bob-cli-4w.10](bob-cli-4w.10.md) | The bob\_ref agent skill | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
+| [bob-cli-4w.10](bob-cli-4w.10.md) | The bob\_ref agent skill | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [bob-cli-4w.11](bob-cli-4w.11.md) | Live verification, install, and skill deployment on athena | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.2](bob-cli-4w.2.md) | Managed-region and note-anatomy parser | ✓ closed | small | 2026-10-06 | 1 | 1 |
 | [bob-cli-4w.3](bob-cli-4w.3.md) | Read-only ref index, reading state, and identity | ✓ closed | medium | 2026-10-06 | 1 | 1 |
@@ -33,7 +33,7 @@
 flowchart TD
     n0["bob-cli-4w: bob ref: a reference library for agents and Bryan [in_progress]"]
     n1["bob-cli-4w.1: Promote bob ref to the canonical command [closed]"]
-    n2["bob-cli-4w.10: The bob_ref agent skill [in_progress]"]
+    n2["bob-cli-4w.10: The bob_ref agent skill [closed]"]
     n3["bob-cli-4w.11: Live verification, install, and skill deployment on athena [in_progress]"]
     n4["bob-cli-4w.2: Managed-region and note-anatomy parser [closed]"]
     n5["bob-cli-4w.3: Read-only ref index, reading state, and identity [closed]"]
@@ -76,7 +76,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-4w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.1/README.md) | [bob-cli-4w.1](bob-cli-4w.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-4w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.10/README.md) | [bob-cli-4w.10](bob-cli-4w.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-4w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.10/README.md) | [bob-cli-4w.10](bob-cli-4w.10.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.11/README.md) | [bob-cli-4w.11](bob-cli-4w.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.2/README.md) | [bob-cli-4w.2](bob-cli-4w.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.3/README.md) | [bob-cli-4w.3](bob-cli-4w.3.md) | 1 |
@@ -101,3 +101,4 @@ flowchart TD
 | bob-cli | [`87498c7`](https://github.com/bobs-org/bob-cli/commit/87498c7bd7b4da89e0a95c1a693e7aa209d4463c) | feat(ref-library): add bob ref find library-membership verdicts | [bob-cli-4w.4](bob-cli-4w.4.md) | 2026-10-06 22:20:45 EDT |
 | bob-cli | [`3642b4a`](https://github.com/bobs-org/bob-cli/commit/3642b4a5c10753bd2013e12eb804a6bd4b74b36d) | feat(ref): add bob ref list reading-queue and filtered library views | [bob-cli-4w.5](bob-cli-4w.5.md) | 2026-10-06 22:56:16 EDT |
 | bob-cli | [`e3e69df`](https://github.com/bobs-org/bob-cli/commit/e3e69dfd24c714ad8840ebcc3b806a3b10257848) | feat(ref): add bob ref show with exact resolution and rich row output | [bob-cli-4w.6](bob-cli-4w.6.md) | 2026-10-06 23:26:16 EDT |
+| chezmoi | [`chezmoi@59fc704`](https://github.com/bbugyi200/dotfiles/commit/59fc70473d7c6e7a14260f23d7460f231e792060) | feat(skills): add bob\_ref agent skill and update bob ref comment | [bob-cli-4w.10](bob-cli-4w.10.md) | 2026-10-06 23:39:59 EDT |

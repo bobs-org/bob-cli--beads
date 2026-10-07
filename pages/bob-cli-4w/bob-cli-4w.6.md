@@ -21,7 +21,7 @@ show: exact resolution of one or more references and their metadata, annotations
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4w.10](bob-cli-4w.10.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4w.10](bob-cli-4w.10.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.5](bob-cli-4w.5.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
