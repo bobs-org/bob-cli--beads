@@ -22,7 +22,7 @@ A bare public link lands in Bob's reading queue instead of becoming an inbox tas
 | [bob-cli-52.5](bob-cli-52.5.md) | Ref job spool, background worker, and bob ref jobs | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [bob-cli-52.6](bob-cli-52.6.md) | bob gkeep pull clips URL-only Keep notes | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [bob-cli-52.7](bob-cli-52.7.md) | bob capture queues bare links for the reading queue | ✓ closed | medium | 2026-10-07 | 1 | 1 |
-| [bob-cli-52.8](bob-cli-52.8.md) | Bob Mac Capture presents reference items | ◐ in_progress | medium | 2026-10-07 | 1 | 0 |
+| [bob-cli-52.8](bob-cli-52.8.md) | Bob Mac Capture presents reference items | ◐ in_progress | medium | 2026-10-07 | 1 | 1 |
 | [bob-cli-52.9](bob-cli-52.9.md) | Live verification, install, and follow-ups | ◐ in_progress | small | 2026-10-07 | 1 | 0 |
 
 ## Lineage
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-52.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.5/README.md) | [bob-cli-52.5](bob-cli-52.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-52.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.6/README.md) | [bob-cli-52.6](bob-cli-52.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-52.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.7/README.md) | [bob-cli-52.7](bob-cli-52.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-52.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.8/README.md) | [bob-cli-52.8](bob-cli-52.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-52.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.8/README.md) | [bob-cli-52.8](bob-cli-52.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-52.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.9/README.md) | [bob-cli-52.9](bob-cli-52.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-52.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-52.land/README.md) | [bob-cli-52](README.md) | 0 |
 
@@ -89,3 +89,4 @@ flowchart TD
 | bob-cli | [`0a8c879`](https://github.com/bobs-org/bob-cli/commit/0a8c87907f55af9dcfce121a059615f848ef6ab9) | feat(gkeep): clip URL-only Keep notes into reading queue on pull | [bob-cli-52.6](bob-cli-52.6.md) | 2026-10-07 09:42:32 EDT |
 | bob-cli | [`f4fb812`](https://github.com/bobs-org/bob-cli/commit/f4fb812ad58cb8748f7bfe73036f9ddbf6461e79) | feat(ref-jobs): background clip queue for reading-queue links | [bob-cli-52.5](bob-cli-52.5.md) | 2026-10-07 10:08:25 EDT |
 | bob-cli | [`c9b361b`](https://github.com/bobs-org/bob-cli/commit/c9b361b205cc8fc529187ab1418b20009f5ce671) | feat(capture): queue bare links for the reading queue | [bob-cli-52.7](bob-cli-52.7.md) | 2026-10-07 10:46:15 EDT |
+| bob-mac-capture | [`bob-mac-capture@bf43ab2`](https://github.com/bobs-org/bob-mac-capture/commit/bf43ab24f3aeb47beb63cf7a64eb874e86013e78) | feat(capture): present reading-queue reference items | [bob-cli-52.8](bob-cli-52.8.md) | 2026-10-07 11:05:41 EDT |
