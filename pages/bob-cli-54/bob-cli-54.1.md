@@ -18,7 +18,7 @@ core: add pure block-id-prompt helpers for capture-parity Pomodoro names, today'
 ## Dependencies
 
 - **Blocks:** [bob-cli-54.2](bob-cli-54.2.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-54.3](bob-cli-54.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-54.3](bob-cli-54.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

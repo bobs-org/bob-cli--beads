@@ -18,7 +18,7 @@ picker-ui: build the promise-based "Link to today" modal with timeline rows, pro
 ## Dependencies
 
 - **Depends on:** [bob-cli-54.1](bob-cli-54.1.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-54.3](bob-cli-54.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-54.3](bob-cli-54.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
