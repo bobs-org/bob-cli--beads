@@ -57,7 +57,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-5j.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.1/README.md) | [bob-cli-5j.1](bob-cli-5j.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-5j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5j.2/README.md) | [bob-cli-5j.2](bob-cli-5j.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-5j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5j.land.md) | [bob-cli-5j](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-5j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5j.land.md) | [bob-cli-5j](README.md) | 2 |
 
 ## Commits
 
@@ -66,3 +66,4 @@ flowchart TD
 | bob-cli | [`d4fab34`](https://github.com/bobs-org/bob-cli/commit/d4fab34ab6c4b2911624f849a95e9adfba48f101) | feat(highlights): render paired return links in Markdown PDFs | [bob-cli-5j.1](bob-cli-5j.1.md) | 2026-10-07 15:42:33 EDT |
 | bob-cli | [`6fb936d`](https://github.com/bobs-org/bob-cli/commit/6fb936d71dc0a79e59f3566b1e23c60938b9d0db) | feat(highlights): keep return-link glyphs out of synced highlights | [bob-cli-5j.2](bob-cli-5j.2.md) | 2026-10-07 16:07:53 EDT |
 | bob-cli | [`39915c5`](https://github.com/bobs-org/bob-cli/commit/39915c5c96cf1d640bd0feae2cffd6d4a18911c1) | feat(highlights): finish paired return links and land bob-cli-5j | [bob-cli-5j](README.md) | 2026-10-07 16:59:02 EDT |
+| bob-cli--plans | [`bob-cli--plans@7f8da15`](https://github.com/bobs-org/bob-cli--plans/commit/7f8da1544b612dba238ea7f06cd71bf032ee6a75) | docs(plans): mark ref\_create\_return\_links done | [bob-cli-5j](README.md) | 2026-10-07 16:59:53 EDT |
