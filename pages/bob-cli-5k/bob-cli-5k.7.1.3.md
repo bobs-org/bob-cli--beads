@@ -13,7 +13,7 @@ writer: add `-w/--write`. Under bob_sync.lock it pre-syncs, re-plans, and refuse
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5k.7.1.2](bob-cli-5k.7.1.2.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-5k.7.1.2](bob-cli-5k.7.1.2.md) ✓ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-5k.7.1.4](bob-cli-5k.7.1.4.md) ◐ · ⧖ 2026-10-07
 
 ## Agents
