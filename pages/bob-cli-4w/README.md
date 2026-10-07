@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-4w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.7/README.md) | [bob-cli-4w.7](bob-cli-4w.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.8/README.md) | [bob-cli-4w.8](bob-cli-4w.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.9/README.md) | [bob-cli-4w.9](bob-cli-4w.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-4w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-4w.land.md) | [bob-cli-4w](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-4w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-4w.land.md) | [bob-cli-4w](README.md) | 2 |
 
 ## Commits
 
@@ -108,3 +108,4 @@ flowchart TD
 | bob-cli | [`3642b4a`](https://github.com/bobs-org/bob-cli/commit/3642b4a5c10753bd2013e12eb804a6bd4b74b36d) | feat(ref): add bob ref list reading-queue and filtered library views | [bob-cli-4w.5](bob-cli-4w.5.md) | 2026-10-06 22:56:16 EDT |
 | bob-cli | [`e3e69df`](https://github.com/bobs-org/bob-cli/commit/e3e69dfd24c714ad8840ebcc3b806a3b10257848) | feat(ref): add bob ref show with exact resolution and rich row output | [bob-cli-4w.6](bob-cli-4w.6.md) | 2026-10-06 23:26:16 EDT |
 | bob-cli | [`6d2911c`](https://github.com/bobs-org/bob-cli/commit/6d2911ce416ad2898f5791ea2e602eb4c40aed54) | fix(ref): land bob-cli-4w with output, identity, hygiene, and docs fixes | [bob-cli-4w](README.md) | 2026-10-07 01:12:05 EDT |
+| bob-cli--plans | [`bob-cli--plans@3665857`](https://github.com/bobs-org/bob-cli--plans/commit/36658575fd29ef2a231e3bc327c1ba6d8a61a212) | chore(plans): mark bob\_ref\_reference\_library epic plan done | [bob-cli-4w](README.md) | 2026-10-07 01:12:47 EDT |
