@@ -17,7 +17,7 @@ skill: author the `bob_ref` skill source in the linked chezmoi repo so reading-r
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.6](bob-cli-4w.6.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.9](bob-cli-4w.9.md) ✓ · ⧖ 2026-10-06
 
@@ -25,10 +25,4 @@ skill: author the `bob_ref` skill source in the linked chezmoi repo so reading-r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-4w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.10/README.md) | [bob-cli-4w.10](bob-cli-4w.10.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@59fc704`](https://github.com/bbugyi200/dotfiles/commit/59fc70473d7c6e7a14260f23d7460f231e792060) | feat(skills): add bob\_ref agent skill and update bob ref comment | [bob-cli-4w.10](bob-cli-4w.10.md) | 2026-10-06 23:39:59 EDT |
+| [bbugyi200.athena.bob-cli-4w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.10/README.md) | [bob-cli-4w.10](bob-cli-4w.10.md) | 0 |

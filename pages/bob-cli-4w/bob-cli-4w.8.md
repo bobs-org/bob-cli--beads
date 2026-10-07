@@ -19,10 +19,12 @@ sync-fixes: fix bob-cli-4r so neither sidecar preambles nor marker mirrors rende
 
 [2026-10-07T01:38:38Z · bob-cli-4w.8] sync-fixes done. Mirror/preamble: sidecar preamble skipped at parse, content-based mirror skip in render+intake (region::is_marker_mirror_text), leaked mirror/preamble blocks drop without tombstones while genuine losses still tombstone and genuine IDs render byte-identical with/without preamble (unit: setext_preamble_*, leaked_mirror_and_preamble_blocks_drop_silently_*, region_round_trip update; CLI: highlights_ref_sync_drops_leaked_mirror_without_tombstone incl. dry-run/update/no-tombstone/settle). Dates: generated [x]/[-] lines stamped [completion::]/[cancelled::] before ^ref from BOB_NOW clock, existing/emoji dates preserved, user closes untouched, reopens keep dates, dirty guard compares stamp-free (unit: close_date_stamp_* + rewrite updates; CLI: stamps_completion/cancellation + reopen-test updates); docs/highlights-ref-sync.md updated. Gate: cargo fmt clean, clippy no errors, CLI 1047/1047 green, lib green except 2 failures verified pre-existing on clean base (recorded as PROPOSED FOLLOW-UP). Closed bob-cli-4r as resolved. No epic-symbol leftovers.
 
+[2026-10-07T04:32:19Z · bob-cli-4w.land] Bead hygiene (recorded by bob-cli-4w.land per the plan's sync-fixes step): the vault cleanup of the leaked marker mirrors happens on the next real bob ref scan (the Mac cron, which still runs bob highlights scan through the permanent alias). Phase bob-cli-4w.11's read-only dry run on athena counted 116 notes that would update = 114 mirror removals + 2 routine marker syncs, with no tombstones.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.2](bob-cli-4w.2.md) ✓ · ⧖ 2026-10-06
 
 ## Agents

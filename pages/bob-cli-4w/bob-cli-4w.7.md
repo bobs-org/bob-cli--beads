@@ -18,7 +18,7 @@ doctor: add warning-level library rows to `bob ref doctor`: index totals, diagno
 ## Dependencies
 
 - **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ✓ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.3](bob-cli-4w.3.md) ✓ · ⧖ 2026-10-06
 
 ## Agents
