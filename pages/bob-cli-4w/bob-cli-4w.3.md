@@ -28,7 +28,7 @@ index: a new `ref_library` module that builds one read-only row per ref note (st
 ## Dependencies
 
 - **Depends on:** [bob-cli-4w.2](bob-cli-4w.2.md) ✓ · ⧖ 2026-10-06
-- **Blocks:** [bob-cli-4w.4](bob-cli-4w.4.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4w.4](bob-cli-4w.4.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.7](bob-cli-4w.7.md) ✓ · ⧖ 2026-10-06
 
 ## Agents

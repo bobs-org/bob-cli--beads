@@ -13,7 +13,7 @@ list: the reading queue by default and filtered library views (reading state, st
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4w.4](bob-cli-4w.4.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4w.4](bob-cli-4w.4.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.6](bob-cli-4w.6.md) ◐ · ⧖ 2026-10-06
 
 ## Agents
