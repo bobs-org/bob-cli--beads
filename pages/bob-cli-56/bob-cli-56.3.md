@@ -18,7 +18,7 @@ cycler-keys: route single and counted Alt+[ / Alt+] presses on Pomodoro Task Lin
 ## Dependencies
 
 - **Depends on:** [bob-cli-56.2](bob-cli-56.2.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-56.4](bob-cli-56.4.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-56.4](bob-cli-56.4.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

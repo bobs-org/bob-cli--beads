@@ -18,7 +18,7 @@ In today's daily note, every Task Link under an open Pomodoro whose task is In P
 | [bob-cli-56.1](bob-cli-56.1.md) | bob-ledger-tools In Progress marks | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [bob-cli-56.2](bob-cli-56.2.md) | bob-navigation-hotkeys Task Link lane toggle and api.taskLinkLane | ✓ closed | medium | 2026-10-07 | 1 | 1 |
 | [bob-cli-56.3](bob-cli-56.3.md) | task-status-cycler delegates Alt+\[ / Alt+\] on Task Links | ✓ closed | small | 2026-10-07 | 1 | 1 |
-| [bob-cli-56.4](bob-cli-56.4.md) | Docs, end-to-end verification, and memory follow-up | ◐ in_progress | small | 2026-10-07 | 1 | 0 |
+| [bob-cli-56.4](bob-cli-56.4.md) | Docs, end-to-end verification, and memory follow-up | ✓ closed | small | 2026-10-07 | 1 | 1 |
 
 ## Lineage
 
@@ -28,7 +28,7 @@ flowchart TD
     n1["bob-cli-56.1: bob-ledger-tools In Progress marks [closed]"]
     n2["bob-cli-56.2: bob-navigation-hotkeys Task Link lane toggle and api.taskLinkLane [closed]"]
     n3["bob-cli-56.3: task-status-cycler delegates Alt+[ / Alt+] on Task Links [closed]"]
-    n4["bob-cli-56.4: Docs, end-to-end verification, and memory follow-up [in_progress]"]
+    n4["bob-cli-56.4: Docs, end-to-end verification, and memory follow-up [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -45,7 +45,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-56.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.1/README.md) | [bob-cli-56.1](bob-cli-56.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-56.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.2/README.md) | [bob-cli-56.2](bob-cli-56.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-56.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.3/README.md) | [bob-cli-56.3](bob-cli-56.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-56.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.4/README.md) | [bob-cli-56.4](bob-cli-56.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-56.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.4/README.md) | [bob-cli-56.4](bob-cli-56.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-56.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-56.land/README.md) | [bob-cli-56](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7ea2dc8`](https://github.com/bobs-org/bob-plugins/commit/7ea2dc8e8fc20284050832cd6993d64e382af735) | feat(ledger-tools): render In Progress half-ring marks on Pomodoro Task Links (bob-cli-56.1) | [bob-cli-56.1](bob-cli-56.1.md) | 2026-10-07 10:36:55 EDT |
 | bob-plugins | [`bob-plugins@936fec4`](https://github.com/bobs-org/bob-plugins/commit/936fec4621fb6c2c846247be3fb3e23bb7cd2d45) | feat(nav): Pomodoro Task Link Next/In Progress lane toggle with api.taskLinkLane v1 | [bob-cli-56.2](bob-cli-56.2.md) | 2026-10-07 10:42:34 EDT |
 | bob-plugins | [`bob-plugins@c04ee02`](https://github.com/bobs-org/bob-plugins/commit/c04ee021005b82b76d7e5789580f89482e6ee7b0) | feat(task-status-cycler): delegate Task Link lane lines to nav toggle | [bob-cli-56.3](bob-cli-56.3.md) | 2026-10-07 10:52:51 EDT |
+| bob-cli | [`2d568fa`](https://github.com/bobs-org/bob-cli/commit/2d568fa1d942003491effa9ec0973ef7dfd84217) | docs(plan): document In Progress marks and the Task Link lane toggle | [bob-cli-56.4](bob-cli-56.4.md) | 2026-10-07 10:58:03 EDT |

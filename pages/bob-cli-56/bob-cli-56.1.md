@@ -17,7 +17,7 @@ progress-marks: add a display-only half-ring mark before In Progress Task Links 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-56.4](bob-cli-56.4.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-56.4](bob-cli-56.4.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
