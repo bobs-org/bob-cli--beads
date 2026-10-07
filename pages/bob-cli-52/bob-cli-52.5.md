@@ -13,7 +13,7 @@ jobs: the durable job spool under the bob-cli state directory; a single-flight w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-52.1](bob-cli-52.1.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-52.1](bob-cli-52.1.md) ✓ · ⧖ 2026-10-07
 - **Depends on:** [bob-cli-52.3](bob-cli-52.3.md) ◐ · ⧖ 2026-10-07
 - **Blocks:** [bob-cli-52.7](bob-cli-52.7.md) ◐ · ⧖ 2026-10-07
 
