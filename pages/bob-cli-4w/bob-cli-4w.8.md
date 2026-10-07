@@ -13,7 +13,7 @@ sync-fixes: fix bob-cli-4r so neither sidecar preambles nor marker mirrors rende
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.11](bob-cli-4w.11.md) ◐ · ⧖ 2026-10-06
 - **Depends on:** [bob-cli-4w.2](bob-cli-4w.2.md) ✓ · ⧖ 2026-10-06
 

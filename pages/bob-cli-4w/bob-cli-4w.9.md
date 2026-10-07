@@ -13,7 +13,7 @@ legacy-capture: shared dedupe refuses only PDF-backed note hits, so a URL record
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.10](bob-cli-4w.10.md) ◐ · ⧖ 2026-10-06
 
 ## Agents

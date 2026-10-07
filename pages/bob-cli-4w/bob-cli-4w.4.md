@@ -13,8 +13,8 @@ find: add the Library help group, shared output plumbing and JSON envelope, `doc
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ◐ · ⧖ 2026-10-06
-- **Depends on:** [bob-cli-4w.3](bob-cli-4w.3.md) ◐ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4w.1](bob-cli-4w.1.md) ✓ · ⧖ 2026-10-06
+- **Depends on:** [bob-cli-4w.3](bob-cli-4w.3.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.5](bob-cli-4w.5.md) ◐ · ⧖ 2026-10-06
 
 ## Agents

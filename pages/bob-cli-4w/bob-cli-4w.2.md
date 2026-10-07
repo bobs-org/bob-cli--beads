@@ -21,7 +21,7 @@ region: a read-only parser for rendered ref-note bodies (annotation blocks with 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-4w.3](bob-cli-4w.3.md) ◐ · ⧖ 2026-10-06
+- **Blocks:** [bob-cli-4w.3](bob-cli-4w.3.md) ✓ · ⧖ 2026-10-06
 - **Blocks:** [bob-cli-4w.8](bob-cli-4w.8.md) ◐ · ⧖ 2026-10-06
 
 ## Agents

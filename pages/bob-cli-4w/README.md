@@ -15,11 +15,11 @@
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-4w.1](bob-cli-4w.1.md) | Promote bob ref to the canonical command | ◐ in_progress | medium | 2026-10-06 | 1 | 1 |
+| [bob-cli-4w.1](bob-cli-4w.1.md) | Promote bob ref to the canonical command | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [bob-cli-4w.10](bob-cli-4w.10.md) | The bob\_ref agent skill | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.11](bob-cli-4w.11.md) | Live verification, install, and skill deployment on athena | ◐ in_progress | small | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.2](bob-cli-4w.2.md) | Managed-region and note-anatomy parser | ✓ closed | small | 2026-10-06 | 1 | 1 |
-| [bob-cli-4w.3](bob-cli-4w.3.md) | Read-only ref index, reading state, and identity | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
+| [bob-cli-4w.3](bob-cli-4w.3.md) | Read-only ref index, reading state, and identity | ✓ closed | medium | 2026-10-06 | 1 | 1 |
 | [bob-cli-4w.4](bob-cli-4w.4.md) | bob ref find and the library CLI plumbing | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.5](bob-cli-4w.5.md) | bob ref list | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
 | [bob-cli-4w.6](bob-cli-4w.6.md) | bob ref show | ◐ in_progress | medium | 2026-10-06 | 1 | 0 |
@@ -32,11 +32,11 @@
 ```mermaid
 flowchart TD
     n0["bob-cli-4w: bob ref: a reference library for agents and Bryan [in_progress]"]
-    n1["bob-cli-4w.1: Promote bob ref to the canonical command [in_progress]"]
+    n1["bob-cli-4w.1: Promote bob ref to the canonical command [closed]"]
     n2["bob-cli-4w.10: The bob_ref agent skill [in_progress]"]
     n3["bob-cli-4w.11: Live verification, install, and skill deployment on athena [in_progress]"]
     n4["bob-cli-4w.2: Managed-region and note-anatomy parser [closed]"]
-    n5["bob-cli-4w.3: Read-only ref index, reading state, and identity [in_progress]"]
+    n5["bob-cli-4w.3: Read-only ref index, reading state, and identity [closed]"]
     n6["bob-cli-4w.4: bob ref find and the library CLI plumbing [in_progress]"]
     n7["bob-cli-4w.5: bob ref list [in_progress]"]
     n8["bob-cli-4w.6: bob ref show [in_progress]"]
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-4w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.10/README.md) | [bob-cli-4w.10](bob-cli-4w.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.11/README.md) | [bob-cli-4w.11](bob-cli-4w.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.2/README.md) | [bob-cli-4w.2](bob-cli-4w.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-4w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.3/README.md) | [bob-cli-4w.3](bob-cli-4w.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-4w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.3/README.md) | [bob-cli-4w.3](bob-cli-4w.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-4w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.4/README.md) | [bob-cli-4w.4](bob-cli-4w.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.5/README.md) | [bob-cli-4w.5](bob-cli-4w.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-4w.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-4w.6/README.md) | [bob-cli-4w.6](bob-cli-4w.6.md) | 0 |
@@ -94,3 +94,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`ecabc33`](https://github.com/bobs-org/bob-cli/commit/ecabc336ac35611458ce98004a6ece415d7314f2) | feat(highlights\_ref): add read-only managed region parser | [bob-cli-4w.2](bob-cli-4w.2.md) | 2026-10-06 20:48:52 EDT |
 | bob-cli | [`42a1792`](https://github.com/bobs-org/bob-cli/commit/42a17926a9ce700634a2ed2ce51228ef4f46e0fd) | feat(ref): promote bob ref to the canonical command | [bob-cli-4w.1](bob-cli-4w.1.md) | 2026-10-06 21:02:53 EDT |
+| bob-cli | [`7b60ded`](https://github.com/bobs-org/bob-cli/commit/7b60ded9f056f240f7e0d3db1ae4707a4ab9aab3) | feat(ref-library): add read-only RefRow index module with fixture vault | [bob-cli-4w.3](bob-cli-4w.3.md) | 2026-10-06 21:21:22 EDT |
