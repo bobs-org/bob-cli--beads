@@ -22,7 +22,7 @@ planner: add `bob ref migrate-zorg` (dry run by default). It plans one legacy no
 ## Dependencies
 
 - **Depends on:** [bob-cli-5k.7.1.1](bob-cli-5k.7.1.1.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -35,3 +35,15 @@ planner: add `bob ref migrate-zorg` (dry run by default). It plans one legacy no
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`937722b`](https://github.com/bobs-org/bob-cli/commit/937722b5506b4095737fa90b67ffbde04edf0178) | feat(ref-library): add bob ref migrate-zorg dry-run planner | [bob-cli-5k.7.1.2](bob-cli-5k.7.1.2.md) | 2026-10-07 18:47:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5k.7.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.2/README.md
+
+<!-- sase:referenced-by:end -->

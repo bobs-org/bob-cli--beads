@@ -13,7 +13,7 @@ live-run: build the landed master on athena and dry-run against ~/bob. Check eve
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) ◐ · ⧖ 2026-10-07
+- **Depends on:** [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 

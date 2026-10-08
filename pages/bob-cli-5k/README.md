@@ -54,7 +54,7 @@ flowchart TD
     n8["bob-cli-5k.7.1: Migrate zorg-era reading records into the reference library [in_progress]"]
     n9["bob-cli-5k.7.1.1: Shared zorg record parser, multi-block mirroring, and book reading state [closed]"]
     n10["bob-cli-5k.7.1.2: bob ref migrate-zorg dry-run planner and report [closed]"]
-    n11["bob-cli-5k.7.1.3: Reversible --write path, rollback runbook, and scope caveat [in_progress]"]
+    n11["bob-cli-5k.7.1.3: Reversible --write path, rollback runbook, and scope caveat [closed]"]
     n12["bob-cli-5k.7.1.4: Run the migration on athena and verify coverage [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-5k.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5k.7.md) | [bob-cli-5k.7](bob-cli-5k.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-5k.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.1/README.md) | [bob-cli-5k.7.1.1](bob-cli-5k.7.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-5k.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.2/README.md) | [bob-cli-5k.7.1.2](bob-cli-5k.7.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-5k.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.3/README.md) | [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-5k.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.3/README.md) | [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-5k.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.4/README.md) | [bob-cli-5k.7.1.4](bob-cli-5k.7.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-5k.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.land/README.md) | [bob-cli-5k.7.1](bob-cli-5k.7.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-5k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.land/README.md) | [bob-cli-5k](README.md) | 0 |
@@ -107,3 +107,4 @@ flowchart TD
 | bob-cli | [`db6bcdb`](https://github.com/bobs-org/bob-cli/commit/db6bcdb871e6179247ae3d34fed1d7d68290446c) | feat(ref-library): add ZorgRecord coverage parser with source-aware provenance mirroring | [bob-cli-5k.7.1.1](bob-cli-5k.7.1.1.md) | 2026-10-07 16:48:49 EDT |
 | bob-cli | [`577866d`](https://github.com/bobs-org/bob-cli/commit/577866d085ae7ea198a6745fca073154728c14dd) | feat(dataview): build Tasks JS sandbox only when query needs JavaScript | [bob-cli-5k.5](bob-cli-5k.5.md) | 2026-10-07 17:43:16 EDT |
 | bob-cli | [`937722b`](https://github.com/bobs-org/bob-cli/commit/937722b5506b4095737fa90b67ffbde04edf0178) | feat(ref-library): add bob ref migrate-zorg dry-run planner | [bob-cli-5k.7.1.2](bob-cli-5k.7.1.2.md) | 2026-10-07 18:47:04 EDT |
+| bob-cli | [`74c2afc`](https://github.com/bobs-org/bob-cli/commit/74c2afc82785b10a7a54a58ab36fb53cb128ee44) | feat(ref-library): add reversible bob ref migrate-zorg --write path | [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) | 2026-10-07 20:09:29 EDT |
