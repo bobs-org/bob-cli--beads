@@ -26,3 +26,15 @@ ref-migration: settle the migration design with Bryan, author and drive a nested
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-5k.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5k.7.md) | [bob-cli-5k.7](bob-cli-5k.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5k.7.1.land][1] | Need the auto-close resolution and whether a verification note was recorded | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.land/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/zorg_ref_migration.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/zorg_ref_migration.md
 
 <!-- sase:links:end -->
@@ -55,3 +57,15 @@ No --epic-symbol entries. Closed bob-cli-4x with the doctor row, migration sha, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli--plans | [`bob-cli--plans@174c6dc`](https://github.com/bobs-org/bob-cli--plans/commit/174c6dcc44e513ee3d74660e68cfa31281ea2e62) | docs(plans): mark zorg\_ref\_migration done | [bob-cli-5k.7.1](bob-cli-5k.7.1.md) | 2026-10-07 20:46:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5k.7.1.land][1] | Need the epic scope, children, and linked plan file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.land/README.md
+
+<!-- sase:referenced-by:end -->

@@ -44,8 +44,10 @@ planner: add `bob ref migrate-zorg` (dry run by default). It plans one legacy no
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5k.7.1.2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-5k.7.1.3][2] | Need planner phase evidence to build writer on | 1 |
+| read-by | [agent:bob-cli-5k.7.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -7,6 +7,20 @@
 **Created:** 2026-10-07 14:38:41 EDT · **Closed:** 2026-10-07 16:37:43 EDT
 **Plan:** [202610/close\_top\_ten\_impact\_beads.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/close_top_ten_impact_beads.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-5o][1] | proposed by bob-cli-5k.5--2 notes #2/#3 |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-5o/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 tasks-sandbox: construct the Tasks JavaScript sandbox lazily and give its initialization its own budget apart from the 2 s per-expression deadline, add regression tests, measure before/after latency on the live read path, and close bob-cli-33.

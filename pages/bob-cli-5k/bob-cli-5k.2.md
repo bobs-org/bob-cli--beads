@@ -7,6 +7,20 @@
 **Created:** 2026-10-07 14:38:40 EDT · **Closed:** 2026-10-07 15:26:17 EDT
 **Plan:** [202610/close\_top\_ten\_impact\_beads.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/close_top_ten_impact_beads.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-5l][1] | proposed by bob-cli-5k.2 note #1 during env-isolation stress runs |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-5l/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 env-isolation: replace every module-private env-mutating test helper with one shared isolation mechanism that never lets a test see another test's BOB_DAY_FILE or BOB_NOW, enforce it with clippy, stress-test it, and close bob-cli-2e, bob-cli-40 (superseded) and bob-cli-5c.
