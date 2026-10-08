@@ -16,7 +16,7 @@ Every open, visible, non-checklist recurring task whose occurrence date has arri
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5p.1](bob-cli-5p.1.md) | Contract, Rust evaluator, and bob freshness CLI | ✓ closed | medium | 2026-10-08 | 1 | 1 |
-| [bob-cli-5p.2](bob-cli-5p.2.md) | bob-ledger-tools evaluator, footer, and freshness namespace v9 | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5p.2](bob-cli-5p.2.md) | bob-ledger-tools evaluator, footer, and freshness namespace v9 | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [bob-cli-5p.3](bob-cli-5p.3.md) | Navigation Hotkeys tier handling and recurring answers | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5p.4](bob-cli-5p.4.md) | Install, deploy, vault closeout text, memory, and live check | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Every open, visible, non-checklist recurring task whose occurrence date has arri
 flowchart TD
     n0["bob-cli-5p: RECURRING walk tier so due recurring tasks reach the ]s morning review [in_progress]"]
     n1["bob-cli-5p.1: Contract, Rust evaluator, and bob freshness CLI [closed]"]
-    n2["bob-cli-5p.2: bob-ledger-tools evaluator, footer, and freshness namespace v9 [in_progress]"]
+    n2["bob-cli-5p.2: bob-ledger-tools evaluator, footer, and freshness namespace v9 [closed]"]
     n3["bob-cli-5p.3: Navigation Hotkeys tier handling and recurring answers [in_progress]"]
     n4["bob-cli-5p.4: Install, deploy, vault closeout text, memory, and live check [in_progress]"]
     n0 --> n1
@@ -45,7 +45,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-5p.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5p.1/README.md) | [bob-cli-5p.1](bob-cli-5p.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-5p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5p.2/README.md) | [bob-cli-5p.2](bob-cli-5p.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-5p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5p.2/README.md) | [bob-cli-5p.2](bob-cli-5p.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-5p.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5p.3/README.md) | [bob-cli-5p.3](bob-cli-5p.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-5p.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5p.4/README.md) | [bob-cli-5p.4](bob-cli-5p.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-5p.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5p.land/README.md) | [bob-cli-5p](README.md) | 0 |
@@ -55,3 +55,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`56a5e68`](https://github.com/bobs-org/bob-cli/commit/56a5e68811203a90e2b774fb9ad20dcdfd27ba07) | feat(freshness): add RECURRING walk tier for due recurring tasks | [bob-cli-5p.1](bob-cli-5p.1.md) | 2026-10-08 11:23:29 EDT |
+| bob-plugins | [`bob-plugins@9233b0c`](https://github.com/bobs-org/bob-plugins/commit/9233b0cb717b3d09ba2de3da60a1eeb4528e4a22) | feat(ledger-tools): add RECURRING freshness tier with overlay, queue and footer | [bob-cli-5p.2](bob-cli-5p.2.md) | 2026-10-08 11:39:17 EDT |

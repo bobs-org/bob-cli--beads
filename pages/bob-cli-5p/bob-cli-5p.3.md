@@ -13,7 +13,7 @@ nav: teach bob-navigation-hotkeys the recurring tier (labels, commitment set, no
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5p.2](bob-cli-5p.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [bob-cli-5p.2](bob-cli-5p.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [bob-cli-5p.4](bob-cli-5p.4.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

@@ -19,7 +19,7 @@ rust: write the RECURRING contract and RC vectors into docs/freshness.md, add du
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5p.2](bob-cli-5p.2.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [bob-cli-5p.2](bob-cli-5p.2.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [bob-cli-5p.4](bob-cli-5p.4.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
@@ -33,3 +33,15 @@ rust: write the RECURRING contract and RC vectors into docs/freshness.md, add du
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`56a5e68`](https://github.com/bobs-org/bob-cli/commit/56a5e68811203a90e2b774fb9ad20dcdfd27ba07) | feat(freshness): add RECURRING walk tier for due recurring tasks | [bob-cli-5p.1](bob-cli-5p.1.md) | 2026-10-08 11:23:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5p.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5p.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ rollout: install bob, sync plugins, verify the live vault's overdue recurring ro
 ## Dependencies
 
 - **Depends on:** [bob-cli-5p.1](bob-cli-5p.1.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [bob-cli-5p.2](bob-cli-5p.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [bob-cli-5p.2](bob-cli-5p.2.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [bob-cli-5p.3](bob-cli-5p.3.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
