@@ -22,7 +22,7 @@ writer: add `-w/--write`. Under bob_sync.lock it pre-syncs, re-plans, and refuse
 ## Dependencies
 
 - **Depends on:** [bob-cli-5k.7.1.2](bob-cli-5k.7.1.2.md) ✓ · ⧖ 2026-10-07
-- **Blocks:** [bob-cli-5k.7.1.4](bob-cli-5k.7.1.4.md) ◐ · ⧖ 2026-10-07
+- **Blocks:** [bob-cli-5k.7.1.4](bob-cli-5k.7.1.4.md) ✓ · ⧖ 2026-10-07
 
 ## Agents
 
@@ -35,3 +35,15 @@ writer: add `-w/--write`. Under bob_sync.lock it pre-syncs, re-plans, and refuse
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`74c2afc`](https://github.com/bobs-org/bob-cli/commit/74c2afc82785b10a7a54a58ab36fb53cb128ee44) | feat(ref-library): add reversible bob ref migrate-zorg --write path | [bob-cli-5k.7.1.3](bob-cli-5k.7.1.3.md) | 2026-10-07 20:09:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5k.7.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5k.7.1.3/README.md
+
+<!-- sase:referenced-by:end -->
