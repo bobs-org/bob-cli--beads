@@ -17,10 +17,22 @@ land-assist: cherry-pick PR #4 (3842ee9) without committing onto fresh master, r
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-60.2](bob-cli-60.2.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-60.2](bob-cli-60.2.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-60.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-60.1/README.md) | [bob-cli-60.1](bob-cli-60.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-60.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-60.1/README.md
+
+<!-- sase:referenced-by:end -->
