@@ -30,16 +30,16 @@ When a Bob close gesture completes a task planned in today's ledger, every direc
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5w.1](bob-cli-5w.1.md) | Lazy, shared, prefiltered vault snapshot for capture (bob-cli-5v) | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [bob-cli-5w.10](bob-cli-5w.10.md) | Reopen takes successors back; Alt+\] closes join the pass | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [bob-cli-5w.10](bob-cli-5w.10.md) | Reopen takes successors back; Alt+\] closes join the pass | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5w.11](bob-cli-5w.11.md) | End-to-end verification and memory | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 | [bob-cli-5w.2](bob-cli-5w.2.md) | Specify Successor Links once, in docs and vectors | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5w.3](bob-cli-5w.3.md) | Successor planner and \`!note:id\` wiring in bob capture | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5w.4](bob-cli-5w.4.md) | Recovery and successor links inside Pomodoro closes | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5w.5](bob-cli-5w.5.md) | Successor Links in Bob Mac Capture previews and notifications | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
-| [bob-cli-5w.6](bob-cli-5w.6.md) | The Unblocked notice card and nav \`api.notice\` | ✓ closed | medium | 2026-10-09 | 1 | 0 |
-| [bob-cli-5w.7](bob-cli-5w.7.md) | Pure successor helpers in task-status-cycler | ✓ closed | medium | 2026-10-09 | 1 | 0 |
-| [bob-cli-5w.8](bob-cli-5w.8.md) | Recover-and-link on every Ctrl+Enter close, with one notice | ✓ closed | medium | 2026-10-09 | 1 | 0 |
-| [bob-cli-5w.9](bob-cli-5w.9.md) | Read-time 🔓 hand-off glyph in today's ledger | ✓ closed | small | 2026-10-09 | 1 | 0 |
+| [bob-cli-5w.6](bob-cli-5w.6.md) | The Unblocked notice card and nav \`api.notice\` | ✓ closed | medium | 2026-10-09 | 1 | 1 |
+| [bob-cli-5w.7](bob-cli-5w.7.md) | Pure successor helpers in task-status-cycler | ✓ closed | medium | 2026-10-09 | 1 | 1 |
+| [bob-cli-5w.8](bob-cli-5w.8.md) | Recover-and-link on every Ctrl+Enter close, with one notice | ✓ closed | medium | 2026-10-09 | 1 | 1 |
+| [bob-cli-5w.9](bob-cli-5w.9.md) | Read-time 🔓 hand-off glyph in today's ledger | ✓ closed | small | 2026-10-09 | 1 | 1 |
 
 ## Lineage
 
@@ -47,7 +47,7 @@ When a Bob close gesture completes a task planned in today's ledger, every direc
 flowchart TD
     n0["bob-cli-5w: Successor Links: a closed planned task hands its slot to the tasks it unblocks [in_progress]"]
     n1["bob-cli-5w.1: Lazy, shared, prefiltered vault snapshot for capture (bob-cli-5v) [closed]"]
-    n2["bob-cli-5w.10: Reopen takes successors back; Alt+] closes join the pass [in_progress]"]
+    n2["bob-cli-5w.10: Reopen takes successors back; Alt+] closes join the pass [closed]"]
     n3["bob-cli-5w.11: End-to-end verification and memory [in_progress]"]
     n4["bob-cli-5w.2: Specify Successor Links once, in docs and vectors [closed]"]
     n5["bob-cli-5w.3: Successor planner and `!note:id` wiring in bob capture [closed]"]
@@ -88,16 +88,16 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-5w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.1/README.md) | [bob-cli-5w.1](bob-cli-5w.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-5w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.10/README.md) | [bob-cli-5w.10](bob-cli-5w.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.10/README.md) | [bob-cli-5w.10](bob-cli-5w.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5w.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.11/README.md) | [bob-cli-5w.11](bob-cli-5w.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.2/README.md) | [bob-cli-5w.2](bob-cli-5w.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.3/README.md) | [bob-cli-5w.3](bob-cli-5w.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.4/README.md) | [bob-cli-5w.4](bob-cli-5w.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.5/README.md) | [bob-cli-5w.5](bob-cli-5w.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5w.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.6/README.md) | [bob-cli-5w.6](bob-cli-5w.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.7/README.md) | [bob-cli-5w.7](bob-cli-5w.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5w.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.8/README.md) | [bob-cli-5w.8](bob-cli-5w.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5w.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.9/README.md) | [bob-cli-5w.9](bob-cli-5w.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5w.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.6/README.md) | [bob-cli-5w.6](bob-cli-5w.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.7/README.md) | [bob-cli-5w.7](bob-cli-5w.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5w.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.8/README.md) | [bob-cli-5w.8](bob-cli-5w.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5w.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.9/README.md) | [bob-cli-5w.9](bob-cli-5w.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.land/README.md) | [bob-cli-5w](README.md) | 0 |
 
 ## Commits
@@ -106,7 +106,12 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`16df9b6`](https://github.com/bobs-org/bob-cli/commit/16df9b6a63161023f1acb1a828fe8af4d1cfa886) | feat(deps): add Successor Links contract docs and vectors | [bob-cli-5w.2](bob-cli-5w.2.md) | 2026-10-09 12:21:19 EDT |
 | bob-cli | [`e190a7d`](https://github.com/bobs-org/bob-cli/commit/e190a7dc84e74ff2e58abae96405edc0be4727c9) | perf(capture): lazy vault snapshot for capture batches | [bob-cli-5w.1](bob-cli-5w.1.md) | 2026-10-09 12:24:26 EDT |
+| bob-plugins | [`bob-plugins@aff37aa`](https://github.com/bobs-org/bob-plugins/commit/aff37aabe48815166905723b9739a495aa4e1bb9) | feat(bob-navigation-hotkeys): add unblocked-notice fragment with api.notice v1 | [bob-cli-5w.6](bob-cli-5w.6.md) | 2026-10-09 12:34:26 EDT |
+| bob-plugins | [`bob-plugins@a06b403`](https://github.com/bobs-org/bob-plugins/commit/a06b403d80c0695bce9ed4a44b858916aea8a0b4) | feat(ledger-tools): read-time unblocked hand-off glyph in today's ledger | [bob-cli-5w.9](bob-cli-5w.9.md) | 2026-10-09 12:44:27 EDT |
+| bob-plugins | [`bob-plugins@fa0631f`](https://github.com/bobs-org/bob-plugins/commit/fa0631f56e1ab4e690d644ef8dac9ff1fafbd6d0) | feat(task-status-cycler): add pure successor-link helpers and vector tests | [bob-cli-5w.7](bob-cli-5w.7.md) | 2026-10-09 12:49:09 EDT |
+| bob-plugins | [`bob-plugins@e8b3584`](https://github.com/bobs-org/bob-plugins/commit/e8b3584bdb1144c82f84a6f0da74d96d9a8de6fb) | feat(task-status-cycler): recover-and-link successors on every Ctrl+Enter close with one notice | [bob-cli-5w.8](bob-cli-5w.8.md) | 2026-10-09 13:18:35 EDT |
 | bob-cli | [`eb6fa0d`](https://github.com/bobs-org/bob-cli/commit/eb6fa0d712475f350d44aa757d8b3092b66611c6) | feat(task-complete): add successor planner and wire into !note:id unblocking | [bob-cli-5w.3](bob-cli-5w.3.md) | 2026-10-09 13:32:35 EDT |
+| bob-cli | [`08da012`](https://github.com/bobs-org/bob-cli/commit/08da0125d9fca0d6f05f5598b35deed1a57de62e) | docs(hooks): option-bracket closes join the successor pass; same-day reopen takes links back | [bob-cli-5w.10](bob-cli-5w.10.md) | 2026-10-09 13:39:01 EDT |
 
 <!-- sase:referenced-by:start -->
 

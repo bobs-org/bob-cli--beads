@@ -27,7 +27,7 @@ cycler_wiring: in task-status-cycler, run the gated recover-and-link pass inside
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5w.10](bob-cli-5w.10.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5w.10](bob-cli-5w.10.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5w.6](bob-cli-5w.6.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5w.7](bob-cli-5w.7.md) ✓ · ⧖ 2026-10-09
 
@@ -35,7 +35,13 @@ cycler_wiring: in task-status-cycler, run the gated recover-and-link pass inside
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5w.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.8/README.md) | [bob-cli-5w.8](bob-cli-5w.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5w.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.8/README.md) | [bob-cli-5w.8](bob-cli-5w.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e8b3584`](https://github.com/bobs-org/bob-plugins/commit/e8b3584bdb1144c82f84a6f0da74d96d9a8de6fb) | feat(task-status-cycler): recover-and-link successors on every Ctrl+Enter close with one notice | [bob-cli-5w.8](bob-cli-5w.8.md) | 2026-10-09 13:18:35 EDT |
 
 <!-- sase:referenced-by:start -->
 

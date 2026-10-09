@@ -42,3 +42,15 @@ capture_complete: in bob-cli, add the pure successor planner (graph-transition e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`eb6fa0d`](https://github.com/bobs-org/bob-cli/commit/eb6fa0d712475f350d44aa757d8b3092b66611c6) | feat(task-complete): add successor planner and wire into !note:id unblocking | [bob-cli-5w.3](bob-cli-5w.3.md) | 2026-10-09 13:32:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5w.3][1] | Need remaining notes and epic symbols check | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.3/README.md
+
+<!-- sase:referenced-by:end -->

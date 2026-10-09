@@ -13,7 +13,7 @@ closeout: verify end to end across the repos: CLI sandbox, plugin harness, deplo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5w.10](bob-cli-5w.10.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5w.10](bob-cli-5w.10.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5w.5](bob-cli-5w.5.md) ◐ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5w.9](bob-cli-5w.9.md) ✓ · ⧖ 2026-10-09
 
