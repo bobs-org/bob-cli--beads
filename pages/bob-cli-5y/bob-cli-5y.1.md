@@ -23,7 +23,7 @@ sase-hook-env: the sase file-hook runner exports the producing project's name to
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5y.4](bob-cli-5y.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.4](bob-cli-5y.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

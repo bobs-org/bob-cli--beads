@@ -14,7 +14,7 @@ ref-create-parent: make -P required with no default, thread the resolved parent 
 ## Dependencies
 
 - **Blocks:** [bob-cli-5y.10](bob-cli-5y.10.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5y.4](bob-cli-5y.4.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5y.4](bob-cli-5y.4.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.7](bob-cli-5y.7.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
