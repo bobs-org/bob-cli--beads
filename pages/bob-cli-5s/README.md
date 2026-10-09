@@ -31,8 +31,8 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5s.1](bob-cli-5s.1.md) | bob-cli exposes Blocked on ref rows | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [bob-cli-5s.2](bob-cli-5s.2.md) | Hotkey registry and CI render artifacts in Bob Mac Capture | ✓ closed | small | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.3](bob-cli-5s.3.md) | RefsCore target — decoding, item model, fetcher, and stores | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.3](bob-cli-5s.3.md) | RefsCore target — decoding, item model, fetcher, and stores | ✓ closed | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.6](bob-cli-5s.6.md) | Refs panel window, list, basic inspector, and keyboard | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.7](bob-cli-5s.7.md) | Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -46,8 +46,8 @@ flowchart TD
     n0["bob-cli-5s: Bob Refs: a quick-open panel in Bob Mac Capture that opens reference PDFs in Highlights [in_progress]"]
     n1["bob-cli-5s.1: bob-cli exposes Blocked on ref rows [closed]"]
     n2["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [closed]"]
-    n3["bob-cli-5s.3: RefsCore target — decoding, item model, fetcher, and stores [in_progress]"]
-    n4["bob-cli-5s.4: RefsCore ranking — browse sections, search tiers, stability, explanations [in_progress]"]
+    n3["bob-cli-5s.3: RefsCore target — decoding, item model, fetcher, and stores [closed]"]
+    n4["bob-cli-5s.4: RefsCore ranking — browse sections, search tiers, stability, explanations [closed]"]
     n5["bob-cli-5s.5: Refs library service and panel model [in_progress]"]
     n6["bob-cli-5s.6: Refs panel window, list, basic inspector, and keyboard [in_progress]"]
     n7["bob-cli-5s.7: Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture [in_progress]"]
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.1/README.md) | [bob-cli-5s.1](bob-cli-5s.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.3.md) | [bob-cli-5s.3](bob-cli-5s.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md) | [bob-cli-5s.4](bob-cli-5s.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md) | [bob-cli-5s.4](bob-cli-5s.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.5/README.md) | [bob-cli-5s.5](bob-cli-5s.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.6/README.md) | [bob-cli-5s.6](bob-cli-5s.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md) | [bob-cli-5s.7](bob-cli-5s.7.md) | 0 |
@@ -95,6 +95,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4c9cdbe`](https://github.com/bobs-org/bob-cli/commit/4c9cdbe583770f6fa487be18af6615f259e3bf01) | feat(refs): expose Blocked as always-present boolean on ref rows | [bob-cli-5s.1](bob-cli-5s.1.md) | 2026-10-08 20:18:06 EDT |
+| bob-cli | [`a4c69ff`](https://github.com/bobs-org/bob-cli/commit/a4c69ff8964d85d4340682af9e4a11d8253eb049) | chore(build): record Swift build cache from RefsCore verification | [bob-cli-5s.4](bob-cli-5s.4.md) | 2026-10-09 01:19:19 EDT |
 
 <!-- sase:referenced-by:start -->
 

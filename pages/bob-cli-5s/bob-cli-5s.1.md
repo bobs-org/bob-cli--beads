@@ -21,7 +21,7 @@ cli-blocked: add an always-present `blocked` boolean to `bob ref list/show/find`
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5s.3](bob-cli-5s.3.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [bob-cli-5s.3](bob-cli-5s.3.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [bob-cli-5s.9](bob-cli-5s.9.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
