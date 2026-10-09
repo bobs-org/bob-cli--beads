@@ -19,7 +19,7 @@ cli-agenda: add the additive `-t/--tasks` flag to `bob capture-pomodoros`. It re
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-66.2](bob-cli-66.2.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-66.2](bob-cli-66.2.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

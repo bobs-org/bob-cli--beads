@@ -13,7 +13,7 @@ mac-agenda-store: add the pure refresh state machine and relevance filter in Cap
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-66.2](bob-cli-66.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-66.2](bob-cli-66.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-66.5](bob-cli-66.5.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

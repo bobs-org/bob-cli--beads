@@ -13,11 +13,17 @@ mac-agenda-planner: add the pure CaptureCore `CaptureAgendaPresentation` (groups
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-66.2](bob-cli-66.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-66.2](bob-cli-66.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-66.5](bob-cli-66.5.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-66.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.4/README.md) | [bob-cli-66.4](bob-cli-66.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-66.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.4/README.md) | [bob-cli-66.4](bob-cli-66.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@dc70507`](https://github.com/bobs-org/bob-mac-capture/commit/dc7050734e1f23402ee4dcdd412320abc743ec5b) | feat(agenda): presentation, inline text, layout, and fit planner | [bob-cli-66.4](bob-cli-66.4.md) | 2026-10-09 19:15:16 EDT |

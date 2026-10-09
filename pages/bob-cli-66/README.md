@@ -28,9 +28,9 @@ When the capture panel opens with an empty draft, it already shows today's agend
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-66.1](bob-cli-66.1.md) | bob capture-pomodoros --tasks returns the resolved agenda | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [bob-cli-66.2](bob-cli-66.2.md) | Agenda JSON models, client call, fake-bob branch, and fixtures | ◐ in_progress | small | 2026-10-09 | 1 | 1 |
+| [bob-cli-66.2](bob-cli-66.2.md) | Agenda JSON models, client call, fake-bob branch, and fixtures | ✓ closed | small | 2026-10-09 | 1 | 1 |
 | [bob-cli-66.3](bob-cli-66.3.md) | In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
-| [bob-cli-66.4](bob-cli-66.4.md) | Agenda presentation, inline text, and the focus-gradient fit planner | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [bob-cli-66.4](bob-cli-66.4.md) | Agenda presentation, inline text, and the focus-gradient fit planner | ◐ in_progress | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-66.5](bob-cli-66.5.md) | Agenda view, row measurer, panel integration, and fixed eye line | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-66.6](bob-cli-66.6.md) | Transitions, countdown, stale and error states, accessibility, signposts, README | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-66.7](bob-cli-66.7.md) | Decisions record, final verification, follow-ups, and Bryan's checklist | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
@@ -41,7 +41,7 @@ When the capture panel opens with an empty draft, it already shows today's agend
 flowchart TD
     n0["bob-cli-66: Idle Pomodoro agenda: an empty Bob Mac Capture panel shows the running Pomodoro and everything queued after it [in_progress]"]
     n1["bob-cli-66.1: bob capture-pomodoros --tasks returns the resolved agenda [closed]"]
-    n2["bob-cli-66.2: Agenda JSON models, client call, fake-bob branch, and fixtures [in_progress]"]
+    n2["bob-cli-66.2: Agenda JSON models, client call, fake-bob branch, and fixtures [closed]"]
     n3["bob-cli-66.3: In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot [in_progress]"]
     n4["bob-cli-66.4: Agenda presentation, inline text, and the focus-gradient fit planner [in_progress]"]
     n5["bob-cli-66.5: Agenda view, row measurer, panel integration, and fixed eye line [in_progress]"]
@@ -68,9 +68,9 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-66.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.1/README.md) | [bob-cli-66.1](bob-cli-66.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.2/README.md) | [bob-cli-66.2](bob-cli-66.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-66.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.2.md) | [bob-cli-66.2](bob-cli-66.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.3/README.md) | [bob-cli-66.3](bob-cli-66.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-66.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.4/README.md) | [bob-cli-66.4](bob-cli-66.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-66.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.4/README.md) | [bob-cli-66.4](bob-cli-66.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.5/README.md) | [bob-cli-66.5](bob-cli-66.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.6/README.md) | [bob-cli-66.6](bob-cli-66.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 0 |
@@ -82,3 +82,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`6562b71`](https://github.com/bobs-org/bob-cli/commit/6562b71410672b9a32c790cd8215152d3fbe7eec) | feat(agenda): add -t/--tasks resolved agenda to bob capture-pomodoros | [bob-cli-66.1](bob-cli-66.1.md) | 2026-10-09 18:23:54 EDT |
 | bob-mac-capture | [`bob-mac-capture@febd4dd`](https://github.com/bobs-org/bob-mac-capture/commit/febd4dde8c2956118e18dc3c35cd6c717fbd9583) | feat(agenda): JSON models, agenda client call, fake-bob branch, fixtures | [bob-cli-66.2](bob-cli-66.2.md) | 2026-10-09 18:36:55 EDT |
+| bob-mac-capture | [`bob-mac-capture@dc70507`](https://github.com/bobs-org/bob-mac-capture/commit/dc7050734e1f23402ee4dcdd412320abc743ec5b) | feat(agenda): presentation, inline text, layout, and fit planner | [bob-cli-66.4](bob-cli-66.4.md) | 2026-10-09 19:15:16 EDT |
