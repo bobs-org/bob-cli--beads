@@ -15,7 +15,7 @@ cycler_wiring: in task-status-cycler, run the gated recover-and-link pass inside
 
 - **Blocks:** [bob-cli-5w.10](bob-cli-5w.10.md) ◐ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5w.6](bob-cli-5w.6.md) ✓ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5w.7](bob-cli-5w.7.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5w.7](bob-cli-5w.7.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
