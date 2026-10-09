@@ -13,7 +13,7 @@ refs-inspector: upgrade the inspector with PDFKit thumbnails or outlines by kind
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5s.6](bob-cli-5s.6.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [bob-cli-5s.6](bob-cli-5s.6.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [bob-cli-5s.9](bob-cli-5s.9.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

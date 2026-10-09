@@ -24,7 +24,7 @@ refs-core-ranking: implement browse sections, tiered search scoring with named c
 ## Dependencies
 
 - **Depends on:** [bob-cli-5s.3](bob-cli-5s.3.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [bob-cli-5s.5](bob-cli-5s.5.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [bob-cli-5s.5](bob-cli-5s.5.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

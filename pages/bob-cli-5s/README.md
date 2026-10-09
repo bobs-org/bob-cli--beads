@@ -33,8 +33,8 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 | [bob-cli-5s.2](bob-cli-5s.2.md) | Hotkey registry and CI render artifacts in Bob Mac Capture | ✓ closed | small | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.3](bob-cli-5s.3.md) | RefsCore target — decoding, item model, fetcher, and stores | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ✓ closed | medium | 2026-10-08 | 1 | 1 |
-| [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.6](bob-cli-5s.6.md) | Refs panel window, list, basic inspector, and keyboard | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ✓ closed | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.6](bob-cli-5s.6.md) | Refs panel window, list, basic inspector, and keyboard | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.7](bob-cli-5s.7.md) | Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.8](bob-cli-5s.8.md) | Kind-adaptive inspector and actions menu | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.9](bob-cli-5s.9.md) | README coherence, optional memory record, final CI, and Bryan's checklist | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
@@ -48,8 +48,8 @@ flowchart TD
     n2["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [closed]"]
     n3["bob-cli-5s.3: RefsCore target — decoding, item model, fetcher, and stores [closed]"]
     n4["bob-cli-5s.4: RefsCore ranking — browse sections, search tiers, stability, explanations [closed]"]
-    n5["bob-cli-5s.5: Refs library service and panel model [in_progress]"]
-    n6["bob-cli-5s.6: Refs panel window, list, basic inspector, and keyboard [in_progress]"]
+    n5["bob-cli-5s.5: Refs library service and panel model [closed]"]
+    n6["bob-cli-5s.6: Refs panel window, list, basic inspector, and keyboard [closed]"]
     n7["bob-cli-5s.7: Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture [in_progress]"]
     n8["bob-cli-5s.8: Kind-adaptive inspector and actions menu [in_progress]"]
     n9["bob-cli-5s.9: README coherence, optional memory record, final CI, and Bryan's checklist [in_progress]"]

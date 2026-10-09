@@ -11,10 +11,14 @@
 
 refs-entry-points: wire the library and panel into AppDelegate, register the global ⌃⇧⌘R hotkey and the Highlights-frontmost takeover, add the References status-menu item and Settings section, keep only one Bob panel visible, refresh Today after captures, and test it all.
 
+## Notes
+
+[2026-10-09T10:05:19Z · bob-cli-5s.7] PROPOSED FOLLOW-UP: Add decisions strand refs-panel-is-a-thin-client (Bob Refs ranks bob reference index, opening never mutates vault); refs_decision_memory=%auto left it off
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-5s.2](bob-cli-5s.2.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [bob-cli-5s.6](bob-cli-5s.6.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [bob-cli-5s.6](bob-cli-5s.6.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [bob-cli-5s.9](bob-cli-5s.9.md) ◐ · ⧖ 2026-10-08
 
 ## Agents
