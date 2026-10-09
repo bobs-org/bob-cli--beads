@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / bob-cli-5s
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5z](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5z.md) · **Assignee:** `bob-cli-5s.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.5z` · **Assignee:** `bob-cli-5s.land`
 **Created:** 2026-10-08 19:32:40 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
@@ -36,13 +36,13 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5s.1](bob-cli-5s.1.md) | bob-cli exposes Blocked on ref rows | ✓ closed | small | 2026-10-08 | 1 | 1 |
-| [bob-cli-5s.2](bob-cli-5s.2.md) | Hotkey registry and CI render artifacts in Bob Mac Capture | ✓ closed | small | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.3](bob-cli-5s.3.md) | RefsCore target — decoding, item model, fetcher, and stores | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ✓ closed | medium | 2026-10-08 | 1 | 1 |
-| [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.6](bob-cli-5s.6.md) | Refs panel window, list, basic inspector, and keyboard | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.7](bob-cli-5s.7.md) | Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.8](bob-cli-5s.8.md) | Kind-adaptive inspector and actions menu | ✓ closed | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.2](bob-cli-5s.2.md) | Hotkey registry and CI render artifacts in Bob Mac Capture | ✓ closed | small | 2026-10-08 | 1 | 2 |
+| [bob-cli-5s.3](bob-cli-5s.3.md) | RefsCore target — decoding, item model, fetcher, and stores | ✓ closed | medium | 2026-10-08 | 1 | 2 |
+| [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ✓ closed | medium | 2026-10-08 | 1 | 2 |
+| [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ✓ closed | medium | 2026-10-08 | 1 | 6 |
+| [bob-cli-5s.6](bob-cli-5s.6.md) | Refs panel window, list, basic inspector, and keyboard | ✓ closed | medium | 2026-10-08 | 0 | 0 |
+| [bob-cli-5s.7](bob-cli-5s.7.md) | Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture | ✓ closed | medium | 2026-10-08 | 1 | 2 |
+| [bob-cli-5s.8](bob-cli-5s.8.md) | Kind-adaptive inspector and actions menu | ✓ closed | medium | 2026-10-08 | 1 | 5 |
 | [bob-cli-5s.9](bob-cli-5s.9.md) | README coherence, optional memory record, final CI, and Bryan's checklist | ✓ closed | small | 2026-10-08 | 1 | 1 |
 
 ## Lineage
@@ -99,27 +99,47 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-5s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.1/README.md) | [bob-cli-5s.1](bob-cli-5s.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-5s.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.1/README.md) | [bob-cli-5s.10.1](bob-cli-5s.10.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.2/README.md) | [bob-cli-5s.10.2](bob-cli-5s.10.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.land/README.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.3.md) | [bob-cli-5s.3](bob-cli-5s.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md) | [bob-cli-5s.4](bob-cli-5s.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-5s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.5.md) | [bob-cli-5s.5](bob-cli-5s.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.6/README.md) | [bob-cli-5s.6](bob-cli-5s.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md) | [bob-cli-5s.7](bob-cli-5s.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md) | [bob-cli-5s.8](bob-cli-5s.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.1/README.md) | [bob-cli-5s.10.1](bob-cli-5s.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5s.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.2/README.md) | [bob-cli-5s.10.2](bob-cli-5s.10.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.2/README.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 2 |
+| [bbugyi200.apollo.bob-cli-5s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.3/README.md) | [bob-cli-5s.3](bob-cli-5s.3.md) | 2 |
+| [bbugyi200.apollo.bob-cli-5s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md) | [bob-cli-5s.4](bob-cli-5s.4.md) | 2 |
+| [bbugyi200.apollo.bob-cli-5s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.5/README.md) | [bob-cli-5s.5](bob-cli-5s.5.md) | 6 |
+| [bbugyi200.apollo.bob-cli-5s.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md) | [bob-cli-5s.7](bob-cli-5s.7.md) | 2 |
+| [bbugyi200.apollo.bob-cli-5s.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md) | [bob-cli-5s.8](bob-cli-5s.8.md) | 5 |
 | [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-5s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.land.md) | [bob-cli-5s](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.land/README.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@65ab7ee`](https://github.com/bobs-org/bob-mac-capture/commit/65ab7ee77ad04a7d4dcd1d8bd211fd568c3b26c7) | refactor(hotkeys): route every hotkey through HotKeyRegistry | [bob-cli-5s.2](bob-cli-5s.2.md) | 2026-10-08 19:53:46 EDT |
+| bob-mac-capture | [`bob-mac-capture@eea838b`](https://github.com/bobs-org/bob-mac-capture/commit/eea838b27db37701e1a78144f4c5c62529153797) | fix(tests): isolate RenderFixtureWriter.write on the main actor | [bob-cli-5s.2](bob-cli-5s.2.md) | 2026-10-08 19:58:08 EDT |
 | bob-cli | [`4c9cdbe`](https://github.com/bobs-org/bob-cli/commit/4c9cdbe583770f6fa487be18af6615f259e3bf01) | feat(refs): expose Blocked as always-present boolean on ref rows | [bob-cli-5s.1](bob-cli-5s.1.md) | 2026-10-08 20:18:06 EDT |
+| bob-mac-capture | [`bob-mac-capture@e3f918d`](https://github.com/bobs-org/bob-mac-capture/commit/e3f918d757f39133a1e31781f153219615ee37d0) | feat(refs): add RefsCore decoding, model, fetcher, and stores | [bob-cli-5s.3](bob-cli-5s.3.md) | 2026-10-08 21:35:34 EDT |
+| bob-mac-capture | [`bob-mac-capture@3937b0f`](https://github.com/bobs-org/bob-mac-capture/commit/3937b0f4ce496e216b1abf1f30ec4699781a4156) | fix(refs): pin open-log append test clock so prune keeps fixtures | [bob-cli-5s.3](bob-cli-5s.3.md) | 2026-10-08 21:49:13 EDT |
 | bob-cli | [`a4c69ff`](https://github.com/bobs-org/bob-cli/commit/a4c69ff8964d85d4340682af9e4a11d8253eb049) | chore(build): record Swift build cache from RefsCore verification | [bob-cli-5s.4](bob-cli-5s.4.md) | 2026-10-09 01:19:19 EDT |
+| bob-mac-capture | [`bob-mac-capture@3e784b4`](https://github.com/bobs-org/bob-mac-capture/commit/3e784b45d9b871097477880f5cdc65353c347b7b) | feat(refs): add RefsCore ranking, captions, selection, refs-rank CLI and golden tests | [bob-cli-5s.4](bob-cli-5s.4.md) | 2026-10-09 01:21:12 EDT |
+| bob-mac-capture | [`bob-mac-capture@d013a7f`](https://github.com/bobs-org/bob-mac-capture/commit/d013a7f0a110502e8609e4c943d8cbc5606e8efa) | feat(refs): add RefsLibrary refresh service and RefsPanelModel | [bob-cli-5s.5](bob-cli-5s.5.md) | 2026-10-09 01:49:51 EDT |
+| bob-mac-capture | [`bob-mac-capture@f720ce3`](https://github.com/bobs-org/bob-mac-capture/commit/f720ce3a78e523623d5a5e18efbdf3de1683ea32) | fix(refs): correct Spotlight overlay use and missing imports | [bob-cli-5s.5](bob-cli-5s.5.md) | 2026-10-09 01:54:50 EDT |
+| bob-mac-capture | [`bob-mac-capture@f6af6db`](https://github.com/bobs-org/bob-mac-capture/commit/f6af6db45553116ec727869654c246babe699131) | fix(refs): widen test Harness to fileprivate so panel tests compile | [bob-cli-5s.5](bob-cli-5s.5.md) | 2026-10-09 02:03:41 EDT |
+| bob-mac-capture | [`bob-mac-capture@47ea15d`](https://github.com/bobs-org/bob-mac-capture/commit/47ea15d821eda5371c2968dfe33ca9b60f3cdc7a) | fix(refs): repair refs-panel-model tests that never triggered a refresh | [bob-cli-5s.5](bob-cli-5s.5.md) | 2026-10-09 02:50:21 EDT |
+| bob-mac-capture | [`bob-mac-capture@ebe2d56`](https://github.com/bobs-org/bob-mac-capture/commit/ebe2d56fd8a3cab1ab0a5cb79d2960e66c349a09) | fix(refs): keep vanished-row flags across publishes and harden lane races | [bob-cli-5s.5](bob-cli-5s.5.md) | 2026-10-09 03:03:45 EDT |
+| bob-mac-capture | [`bob-mac-capture@75770a0`](https://github.com/bobs-org/bob-mac-capture/commit/75770a09cfc5b88e4738c807f9216ced2579d98a) | fix(refs): relax ranking perf guard to 10s for debug CI builds | [bob-cli-5s.5](bob-cli-5s.5.md) | 2026-10-09 03:18:13 EDT |
+| bob-mac-capture | [`bob-mac-capture@3aabee1`](https://github.com/bobs-org/bob-mac-capture/commit/3aabee1c536d4fd7610d97422065674e0ed0c984) | feat(refs): wire entry points — hotkeys, Highlights takeover, menu, settings | [bob-cli-5s.7](bob-cli-5s.7.md) | 2026-10-09 06:06:36 EDT |
+| bob-mac-capture | [`bob-mac-capture@64c1333`](https://github.com/bobs-org/bob-mac-capture/commit/64c1333a8092c226d5c7ecf81623f8472024c5e3) | feat(refs): add kind-adaptive inspector and ⌘K actions menu | [bob-cli-5s.8](bob-cli-5s.8.md) | 2026-10-09 06:07:05 EDT |
+| bob-mac-capture | [`bob-mac-capture@e4934c9`](https://github.com/bobs-org/bob-mac-capture/commit/e4934c97a705ac669b93227fff2f65f8f8155217) | fix(refs): import CaptureCore in RefsInspector for SchemaVersioned | [bob-cli-5s.8](bob-cli-5s.8.md) | 2026-10-09 06:09:14 EDT |
+| bob-mac-capture | [`bob-mac-capture@e1d696e`](https://github.com/bobs-org/bob-mac-capture/commit/e1d696e3730a56a3e759c3880d5a7cb0febab68d) | fix(refs): repair entry-points build — coordinator names, Sendable path | [bob-cli-5s.7](bob-cli-5s.7.md) | 2026-10-09 06:12:57 EDT |
+| bob-mac-capture | [`bob-mac-capture@d1689b3`](https://github.com/bobs-org/bob-mac-capture/commit/d1689b310472ae2c59f3c05e63cecf046af300cb) | fix(refs): resolve loader shadowing and async-let use | [bob-cli-5s.8](bob-cli-5s.8.md) | 2026-10-09 06:21:30 EDT |
+| bob-mac-capture | [`bob-mac-capture@f5f6178`](https://github.com/bobs-org/bob-mac-capture/commit/f5f61785edffb9b49df8271688f9d6456b545100) | fix(refs): initialize listing through a local in panel model init | [bob-cli-5s.8](bob-cli-5s.8.md) | 2026-10-09 06:33:36 EDT |
+| bob-mac-capture | [`bob-mac-capture@2016864`](https://github.com/bobs-org/bob-mac-capture/commit/2016864dbf518f9f1d048bd16cc8972831bda8ba) | fix(refs): pin the inspector quote bar to the text height | [bob-cli-5s.8](bob-cli-5s.8.md) | 2026-10-09 06:48:48 EDT |
 | bob-cli | [`b6ba7c3`](https://github.com/bobs-org/bob-cli/commit/b6ba7c3387675e9723e416acbbc0c08543137ca0) | docs(readme): document blocked display-only overlay field | [bob-cli-5s.9](bob-cli-5s.9.md) | 2026-10-09 07:25:33 EDT |
+| bob-cli | [`b566ba4`](https://github.com/bobs-org/bob-cli/commit/b566ba4431b97df6405a75babe9d17899bae7eea) | fix(refs): polish blocked field, drop stray .build, finish ref.md contract | [bob-cli-5s.10.1](bob-cli-5s.10.1.md) | 2026-10-09 08:37:58 EDT |
+| bob-mac-capture | [`bob-mac-capture@3a5fd4a`](https://github.com/bobs-org/bob-mac-capture/commit/3a5fd4afa7c569157c5eab963e1c2a9209ebfff9) | fix(refs): ranking, captions, dates, and refs-rank core fixes | [bob-cli-5s.10.2](bob-cli-5s.10.2.md) | 2026-10-09 08:51:44 EDT |
+| bob-mac-capture | [`bob-mac-capture@85720a2`](https://github.com/bobs-org/bob-mac-capture/commit/85720a2810ceae383e413e13c366be822d422ec6) | fix(refs): search binding, error re-show, refresh lanes, live settings | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:19:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -134,11 +154,11 @@ flowchart TD
 | read-by | [agent:bob-cli-5s.8][5] | Need epic status and prior phase progress for inspector work | 1 |
 | read-by | [agent:bob-cli-5s.9][6] | epic scope for closeout | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.3.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.8/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.9/README.md
 
 <!-- sase:referenced-by:end -->

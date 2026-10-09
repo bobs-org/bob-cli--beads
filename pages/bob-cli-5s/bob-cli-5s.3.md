@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-5s](README.md) / bob-cli-5s.3
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5z](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5z.md) · **Assignee:** `bob-cli-5s.3` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.5z` · **Assignee:** `bob-cli-5s.3` · **Size:** medium
 **Created:** 2026-10-08 19:32:40 EDT · **Closed:** 2026-10-08 21:54:19 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
@@ -28,7 +28,14 @@ refs-core-model: add the Foundation-only RefsCore target with lossy decoding of 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.3.md) | [bob-cli-5s.3](bob-cli-5s.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.3/README.md) | [bob-cli-5s.3](bob-cli-5s.3.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@e3f918d`](https://github.com/bobs-org/bob-mac-capture/commit/e3f918d757f39133a1e31781f153219615ee37d0) | feat(refs): add RefsCore decoding, model, fetcher, and stores | [bob-cli-5s.3](bob-cli-5s.3.md) | 2026-10-08 21:35:34 EDT |
+| bob-mac-capture | [`bob-mac-capture@3937b0f`](https://github.com/bobs-org/bob-mac-capture/commit/3937b0f4ce496e216b1abf1f30ec4699781a4156) | fix(refs): pin open-log append test clock so prune keeps fixtures | [bob-cli-5s.3](bob-cli-5s.3.md) | 2026-10-08 21:49:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -37,8 +44,9 @@ refs-core-model: add the Foundation-only RefsCore target with lossy decoding of 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.3][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:bob-cli-5s.3--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-5s.3--1][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.3.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5s.3.md
 
 <!-- sase:referenced-by:end -->

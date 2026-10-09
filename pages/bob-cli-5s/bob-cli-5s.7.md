@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-5s](README.md) / bob-cli-5s.7
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5z](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5z.md) · **Assignee:** `bob-cli-5s.7` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.5z` · **Assignee:** `bob-cli-5s.7` · **Size:** medium
 **Created:** 2026-10-08 19:32:40 EDT · **Closed:** 2026-10-09 06:16:50 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
@@ -29,7 +29,14 @@ refs-entry-points: wire the library and panel into AppDelegate, register the glo
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5s.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md) | [bob-cli-5s.7](bob-cli-5s.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md) | [bob-cli-5s.7](bob-cli-5s.7.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@3aabee1`](https://github.com/bobs-org/bob-mac-capture/commit/3aabee1c536d4fd7610d97422065674e0ed0c984) | feat(refs): wire entry points — hotkeys, Highlights takeover, menu, settings | [bob-cli-5s.7](bob-cli-5s.7.md) | 2026-10-09 06:06:36 EDT |
+| bob-mac-capture | [`bob-mac-capture@e1d696e`](https://github.com/bobs-org/bob-mac-capture/commit/e1d696e3730a56a3e759c3880d5a7cb0febab68d) | fix(refs): repair entry-points build — coordinator names, Sendable path | [bob-cli-5s.7](bob-cli-5s.7.md) | 2026-10-09 06:12:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,6 +46,6 @@ refs-entry-points: wire the library and panel into AppDelegate, register the glo
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.7][1] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.7/README.md
 
 <!-- sase:referenced-by:end -->

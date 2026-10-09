@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-5s.10](bob-cli-5s.10.md) / bob-cli-5s.10.4
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-5s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.land.md) · **Assignee:** `bob-cli-5s.10.4` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.bob-cli-5s.land` · **Assignee:** `bob-cli-5s.10.4` · **Size:** medium
 **Created:** 2026-10-09 08:04:27 EDT
 **Plan:** [202610/bob\_refs\_land\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_land_fixes.md)
 
@@ -15,3 +15,9 @@ refs-ui-fixes: in bob-mac-capture, add the content well, Reduce Transparency bas
 
 - **Depends on:** [bob-cli-5s.10.1](bob-cli-5s.10.1.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5s.10.3](bob-cli-5s.10.3.md) ◐ · ⧖ 2026-10-09
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 0 |

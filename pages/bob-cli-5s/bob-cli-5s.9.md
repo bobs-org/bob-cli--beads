@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-5s](README.md) / bob-cli-5s.9
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5z](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5z.md) · **Assignee:** `bob-cli-5s.9` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.5z` · **Assignee:** `bob-cli-5s.9` · **Size:** small
 **Created:** 2026-10-08 19:32:40 EDT · **Closed:** 2026-10-09 07:23:35 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
@@ -50,7 +50,7 @@ refs-closeout: make the README's Bob Refs section coherent, apply or record the 
 | read-by | [agent:bob-cli-5s.8][1] | Need to avoid conflicting with closeout work | 1 |
 | read-by | [agent:bob-cli-5s.9][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.9/README.md
 
 <!-- sase:referenced-by:end -->

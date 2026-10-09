@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-5s](README.md) / bob-cli-5s.4
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5z](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5z.md) · **Assignee:** `bob-cli-5s.4` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.5z` · **Assignee:** `bob-cli-5s.4` · **Size:** medium
 **Created:** 2026-10-08 19:32:40 EDT · **Closed:** 2026-10-09 00:27:05 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
@@ -30,13 +30,14 @@ refs-core-ranking: implement browse sections, tiered search scoring with named c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md) | [bob-cli-5s.4](bob-cli-5s.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md) | [bob-cli-5s.4](bob-cli-5s.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a4c69ff`](https://github.com/bobs-org/bob-cli/commit/a4c69ff8964d85d4340682af9e4a11d8253eb049) | chore(build): record Swift build cache from RefsCore verification | [bob-cli-5s.4](bob-cli-5s.4.md) | 2026-10-09 01:19:19 EDT |
+| bob-mac-capture | [`bob-mac-capture@3e784b4`](https://github.com/bobs-org/bob-mac-capture/commit/3e784b45d9b871097477880f5cdc65353c347b7b) | feat(refs): add RefsCore ranking, captions, selection, refs-rank CLI and golden tests | [bob-cli-5s.4](bob-cli-5s.4.md) | 2026-10-09 01:21:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -46,6 +47,6 @@ refs-core-ranking: implement browse sections, tiered search scoring with named c
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.4][1] | Need the phase scope and design file | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.4/README.md
 
 <!-- sase:referenced-by:end -->

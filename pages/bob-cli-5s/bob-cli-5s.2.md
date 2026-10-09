@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-5s](README.md) / bob-cli-5s.2
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5z](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5z.md) · **Assignee:** `bob-cli-5s.2` · **Size:** small
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.5z` · **Assignee:** `bob-cli-5s.2` · **Size:** small
 **Created:** 2026-10-08 19:32:40 EDT · **Closed:** 2026-10-08 20:32:18 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
@@ -32,7 +32,14 @@ mac-groundwork: replace the single-key HotKeyManager with a HotKeyRegistry that 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.2/README.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@65ab7ee`](https://github.com/bobs-org/bob-mac-capture/commit/65ab7ee77ad04a7d4dcd1d8bd211fd568c3b26c7) | refactor(hotkeys): route every hotkey through HotKeyRegistry | [bob-cli-5s.2](bob-cli-5s.2.md) | 2026-10-08 19:53:46 EDT |
+| bob-mac-capture | [`bob-mac-capture@eea838b`](https://github.com/bobs-org/bob-mac-capture/commit/eea838b27db37701e1a78144f4c5c62529153797) | fix(tests): isolate RenderFixtureWriter.write on the main actor | [bob-cli-5s.2](bob-cli-5s.2.md) | 2026-10-08 19:58:08 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -42,6 +49,6 @@ mac-groundwork: replace the single-key HotKeyManager with a HotKeyRegistry that 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.2][1] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.2/README.md
 
 <!-- sase:referenced-by:end -->
