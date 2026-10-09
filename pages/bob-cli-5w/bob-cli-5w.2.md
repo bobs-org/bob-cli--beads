@@ -26,7 +26,7 @@ contract: in bob-cli docs, add task-dependencies §12 (rule, anchors, placement,
 - **Blocks:** [bob-cli-5w.3](bob-cli-5w.3.md) ◐ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5w.6](bob-cli-5w.6.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5w.7](bob-cli-5w.7.md) ◐ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5w.9](bob-cli-5w.9.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5w.9](bob-cli-5w.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -47,7 +47,9 @@ contract: in bob-cli docs, add task-dependencies §12 (rule, anchors, placement,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5w.2][1] | check notes and remaining work | 2 |
+| read-by | [agent:bob-cli-5w.6][2] | Need contract spec for nav api.notice | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.6/README.md
 
 <!-- sase:referenced-by:end -->
