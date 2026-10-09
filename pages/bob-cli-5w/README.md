@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.7/README.md) | [bob-cli-5w.7](bob-cli-5w.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5w.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.8/README.md) | [bob-cli-5w.8](bob-cli-5w.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5w.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.9/README.md) | [bob-cli-5w.9](bob-cli-5w.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-5w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5w.land.md) | [bob-cli-5w](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5w.land.md) | [bob-cli-5w](README.md) | 2 |
 
 ## Commits
 
@@ -121,6 +121,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@22e96a3`](https://github.com/bobs-org/bob-plugins/commit/22e96a32bae18560e259a734f2ebb3150ca78003) | feat(task-status-cycler): same-day reopen takes back successors; Alt+\]/Alt+\[ closes join the pass | [bob-cli-5w.10](bob-cli-5w.10.md) | 2026-10-09 13:43:52 EDT |
 | bob-cli | [`02029a7`](https://github.com/bobs-org/bob-cli/commit/02029a736a2cbc693bb9e7de3445a19562c06019) | feat(capture): run recovery and successor linking inside Pomodoro closes | [bob-cli-5w.4](bob-cli-5w.4.md) | 2026-10-09 14:25:54 EDT |
 | bob-cli | [`9b44dc6`](https://github.com/bobs-org/bob-cli/commit/9b44dc66b5887fef656969657335b85e7ff5549c) | fix(successors): repair landing blockers across capture engines | [bob-cli-5w](README.md) | 2026-10-09 17:00:10 EDT |
+| bob-plugins | [`bob-plugins@fa3d427`](https://github.com/bobs-org/bob-plugins/commit/fa3d427de52822c71508e37ac95bbae2e9b1e82a) | fix(task-status-cycler): single-pass finalize with rootKey anchors and parity | [bob-cli-5w](README.md) | 2026-10-09 17:00:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
