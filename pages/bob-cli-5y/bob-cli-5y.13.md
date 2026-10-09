@@ -14,7 +14,7 @@ live-migration: confirm the Mac runs the new bob, run migrate-tasks against the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-5y.10](bob-cli-5y.10.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5y.11](bob-cli-5y.11.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5y.11](bob-cli-5y.11.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.14](bob-cli-5y.14.md) ◐ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.3](bob-cli-5y.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.4](bob-cli-5y.4.md) ✓ · ⧖ 2026-10-09

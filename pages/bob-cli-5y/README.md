@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_tasks_live_with_parent.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_tasks_live_with_parent.md
 
@@ -37,7 +37,7 @@ Every open reference has exactly one ordinary reading task, `#task #ref` with a 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5y.1](bob-cli-5y.1.md) | sase: file hooks export SASE\_FILE\_HOOK\_PROJECT | ✓ closed | small | 2026-10-09 | 1 | 0 |
 | [bob-cli-5y.10](bob-cli-5y.10.md) | Capture URL @route and gkeep pull choose the parent | ◐ in_progress | large | 2026-10-09 | 1 | 0 |
-| [bob-cli-5y.11](bob-cli-5y.11.md) | bob ref migrate-tasks | ◐ in_progress | large | 2026-10-09 | 1 | 0 |
+| [bob-cli-5y.11](bob-cli-5y.11.md) | bob ref migrate-tasks | ✓ closed | large | 2026-10-09 | 1 | 1 |
 | [bob-cli-5y.12](bob-cli-5y.12.md) | Bob Mac Capture asks where a captured link belongs | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5y.13](bob-cli-5y.13.md) | Migrate the live vault | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5y.14](bob-cli-5y.14.md) | Retire the transitional bypass, docs coherence, memory, final report | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -57,7 +57,7 @@ flowchart TD
     n0["bob-cli-5y: Ref tasks live with the work they serve [in_progress]"]
     n1["bob-cli-5y.1: sase: file hooks export SASE_FILE_HOOK_PROJECT [closed]"]
     n2["bob-cli-5y.10: Capture URL @route and gkeep pull choose the parent [in_progress]"]
-    n3["bob-cli-5y.11: bob ref migrate-tasks [in_progress]"]
+    n3["bob-cli-5y.11: bob ref migrate-tasks [closed]"]
     n4["bob-cli-5y.12: Bob Mac Capture asks where a captured link belongs [in_progress]"]
     n5["bob-cli-5y.13: Migrate the live vault [in_progress]"]
     n6["bob-cli-5y.14: Retire the transitional bypass, docs coherence, memory, final report [in_progress]"]
@@ -110,8 +110,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-5y.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.1/README.md) | [bob-cli-5y.1](bob-cli-5y.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-5y.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.10/README.md) | [bob-cli-5y.10](bob-cli-5y.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-5y.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.11.md) | [bob-cli-5y.11](bob-cli-5y.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-5y.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.10.md) | [bob-cli-5y.10](bob-cli-5y.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-5y.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.11.md) | [bob-cli-5y.11](bob-cli-5y.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-5y.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.12/README.md) | [bob-cli-5y.12](bob-cli-5y.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-5y.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.13/README.md) | [bob-cli-5y.13](bob-cli-5y.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-5y.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.14/README.md) | [bob-cli-5y.14](bob-cli-5y.14.md) | 0 |
@@ -134,6 +134,7 @@ flowchart TD
 | bob-cli | [`5f845db`](https://github.com/bobs-org/bob-cli/commit/5f845dbb18e5c6b6fe91b669c9cbf96c37090f92) | docs(task-marks): specify the #task #ref open-book glyph and picker text | [bob-cli-5y.6](bob-cli-5y.6.md) | 2026-10-09 13:20:14 EDT |
 | bob-cli | [`4016229`](https://github.com/bobs-org/bob-cli/commit/40162297a54caf743a177d85266a41e8bfe1a838) | feat(ref-tasks): add shared v2 reading-task rendering and guarded insertion | [bob-cli-5y.7](bob-cli-5y.7.md) | 2026-10-09 15:19:22 EDT |
 | bob-cli | [`e6aa7a4`](https://github.com/bobs-org/bob-cli/commit/e6aa7a491c4fcf504e02edf774442d934a7f5494) | feat(ref): require -P parent for bob ref create end to end | [bob-cli-5y.9](bob-cli-5y.9.md) | 2026-10-09 19:40:19 EDT |
+| bob-cli | [`8905153`](https://github.com/bobs-org/bob-cli/commit/89051533fbf1820e8aa89c6355cac883d6621ded) | feat(ref): add bob ref migrate-tasks dry-run-first migration | [bob-cli-5y.11](bob-cli-5y.11.md) | 2026-10-09 19:55:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -143,12 +144,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5y.3][1] | epic context for phase | 1 |
 | read-by | [agent:bob-cli-5y.4][2] | Need epic plan details for hook-config phase | 1 |
-| read-by | [agent:bob-cli-5z.land][3] | Check whether the ref-tasks doctor CLI test failure from commit 9041927 is causally tied to this active epic | 2 |
-| read-by | [agent:bob-cli-62.land--1][4] | Confirm outer epic stays open per landing plan | 1 |
+| read-by | [agent:bob-cli-5y.9][3] | epic scope and decisions | 1 |
+| read-by | [agent:bob-cli-5z.land][4] | Check whether the ref-tasks doctor CLI test failure from commit 9041927 is causally tied to this active epic | 2 |
+| read-by | [agent:bob-cli-62.land--1][5] | Confirm outer epic stays open per landing plan | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.4/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5z.land/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.9/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5z.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.land.md
 
 <!-- sase:referenced-by:end -->

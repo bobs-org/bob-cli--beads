@@ -23,7 +23,7 @@ ref-sync-v2: births insert the v2 line into the parent's Tasks section, ref note
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5y.11](bob-cli-5y.11.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.11](bob-cli-5y.11.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.5](bob-cli-5y.5.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.9](bob-cli-5y.9.md) ✓ · ⧖ 2026-10-09
 

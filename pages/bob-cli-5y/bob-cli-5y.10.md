@@ -21,4 +21,4 @@ capture-gkeep-parent: a bare URL plus one @route becomes a ref filed there, prev
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5y.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.10/README.md) | [bob-cli-5y.10](bob-cli-5y.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-5y.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.10.md) | [bob-cli-5y.10](bob-cli-5y.10.md) | 0 |
