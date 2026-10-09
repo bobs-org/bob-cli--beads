@@ -17,7 +17,7 @@
 | related | file:explicit:1d014ee19d2c86caa490cd53 | attached via sase artifact create --bead |
 | related | file:explicit:c6560e48933887da529d30d2 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_scan_keymap.md
 
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-5x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md) | [bob-cli-5x.2](bob-cli-5x.2.md) | 3 |
 | [bbugyi200.athena.bob-cli-5x.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.3.md) | [bob-cli-5x.3](bob-cli-5x.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-5x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.4.md) | [bob-cli-5x.4](bob-cli-5x.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-5x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.land.md) | [bob-cli-5x](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-5x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.land.md) | [bob-cli-5x](README.md) | 3 |
 
 ## Commits
 
@@ -82,6 +82,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@d808c6d`](https://github.com/bobs-org/bob-mac-capture/commit/d808c6d50390c605359784a506197336145da0e1) | feat(refs): route ⌘S scan, footer status, banners, and hidden-panel notifications | [bob-cli-5x.4](bob-cli-5x.4.md) | 2026-10-09 14:12:35 EDT |
 | bob-cli | [`e9a0ee1`](https://github.com/bobs-org/bob-cli/commit/e9a0ee1e8b6a19832e6a30e298dcd9541e511999) | feat(refs): finish scan intake contract with PDF-only JSON and completed-move reporting | [bob-cli-5x](README.md) | 2026-10-09 15:03:49 EDT |
 | bob-mac-capture | [`bob-mac-capture@0f2f40c`](https://github.com/bobs-org/bob-mac-capture/commit/0f2f40ce2f0cff30afbc1495e49cb1b38a4f2214) | test(refs): reorder scan fixtures to wire key order | [bob-cli-5x](README.md) | 2026-10-09 15:04:45 EDT |
+| bob-cli--plans | [`bob-cli--plans@93432e4`](https://github.com/bobs-org/bob-cli--plans/commit/93432e4c03407fb70ea0e1ea0b4ab4d3d9cbad98) | chore(plan): mark bob\_refs\_scan\_keymap done | [bob-cli-5x](README.md) | 2026-10-09 15:05:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -93,10 +94,12 @@ flowchart TD
 | read-by | [agent:bob-cli-5x.2][2] | Need epic DECISIONS and scope | 1 |
 | read-by | [agent:bob-cli-5x.3][3] | Need epic decisions | 1 |
 | read-by | [agent:bob-cli-5x.4][4] | Need epic decisions for phase work | 1 |
+| read-by | [agent:bob-cli-5x.land--1][5] | Need landing audit and remaining scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.3.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.4.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.land.md
 
 <!-- sase:referenced-by:end -->
