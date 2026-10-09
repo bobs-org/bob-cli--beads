@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-5x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md) | [bob-cli-5x.2](bob-cli-5x.2.md) | 3 |
 | [bbugyi200.athena.bob-cli-5x.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.3.md) | [bob-cli-5x.3](bob-cli-5x.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-5x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.4.md) | [bob-cli-5x.4](bob-cli-5x.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-5x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.land.md) | [bob-cli-5x](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-5x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.land.md) | [bob-cli-5x](README.md) | 2 |
 
 ## Commits
 
@@ -81,6 +81,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@37b914c`](https://github.com/bobs-org/bob-mac-capture/commit/37b914c4b76a6e737e0fd52dced390f5578894d9) | feat(refs): add the scan lane and panel scan behavior | [bob-cli-5x.3](bob-cli-5x.3.md) | 2026-10-09 13:41:16 EDT |
 | bob-mac-capture | [`bob-mac-capture@d808c6d`](https://github.com/bobs-org/bob-mac-capture/commit/d808c6d50390c605359784a506197336145da0e1) | feat(refs): route ⌘S scan, footer status, banners, and hidden-panel notifications | [bob-cli-5x.4](bob-cli-5x.4.md) | 2026-10-09 14:12:35 EDT |
 | bob-cli | [`e9a0ee1`](https://github.com/bobs-org/bob-cli/commit/e9a0ee1e8b6a19832e6a30e298dcd9541e511999) | feat(refs): finish scan intake contract with PDF-only JSON and completed-move reporting | [bob-cli-5x](README.md) | 2026-10-09 15:03:49 EDT |
+| bob-mac-capture | [`bob-mac-capture@0f2f40c`](https://github.com/bobs-org/bob-mac-capture/commit/0f2f40ce2f0cff30afbc1495e49cb1b38a4f2214) | test(refs): reorder scan fixtures to wire key order | [bob-cli-5x](README.md) | 2026-10-09 15:04:45 EDT |
 
 <!-- sase:referenced-by:start -->
 
