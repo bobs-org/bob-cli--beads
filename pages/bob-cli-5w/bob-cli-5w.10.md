@@ -25,20 +25,21 @@ cycler_polish: in task-status-cycler, add an in-memory reopen receipt: reopening
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5w.11](bob-cli-5w.11.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5w.11](bob-cli-5w.11.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5w.8](bob-cli-5w.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.10/README.md) | [bob-cli-5w.10](bob-cli-5w.10.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.10/README.md) | [bob-cli-5w.10](bob-cli-5w.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`08da012`](https://github.com/bobs-org/bob-cli/commit/08da0125d9fca0d6f05f5598b35deed1a57de62e) | docs(hooks): option-bracket closes join the successor pass; same-day reopen takes links back | [bob-cli-5w.10](bob-cli-5w.10.md) | 2026-10-09 13:39:01 EDT |
+| bob-plugins | [`bob-plugins@22e96a3`](https://github.com/bobs-org/bob-plugins/commit/22e96a32bae18560e259a734f2ebb3150ca78003) | feat(task-status-cycler): same-day reopen takes back successors; Alt+\]/Alt+\[ closes join the pass | [bob-cli-5w.10](bob-cli-5w.10.md) | 2026-10-09 13:43:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
