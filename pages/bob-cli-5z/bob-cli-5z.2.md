@@ -20,7 +20,7 @@ override-restart: route override starts in the executor, run the idle fallback, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-5z.1](bob-cli-5z.1.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5z.3](bob-cli-5z.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5z.3](bob-cli-5z.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -33,3 +33,15 @@ override-restart: route override starts in the executor, run the idle fallback, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`36df8b8`](https://github.com/bobs-org/bob-cli/commit/36df8b8afed540db39962472d83a153e5c3dbfb9) | feat(capture): execute == restarts with idle fallback and override JSON contract | [bob-cli-5z.2](bob-cli-5z.2.md) | 2026-10-09 14:15:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5z.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.2/README.md
+
+<!-- sase:referenced-by:end -->

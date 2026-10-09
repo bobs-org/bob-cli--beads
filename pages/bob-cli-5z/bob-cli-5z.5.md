@@ -13,7 +13,7 @@ mac-override-card: decode the parse flag and `pomodoro_start.override`, extend t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5z.3](bob-cli-5z.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5z.3](bob-cli-5z.3.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5z.6](bob-cli-5z.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
