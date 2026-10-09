@@ -53,7 +53,7 @@ flowchart TD
     n1["bob-cli-5s.1: bob-cli exposes Blocked on ref rows [closed]"]
     n2["bob-cli-5s.10: Bob Refs landing fixes: make search, error recovery, refresh, ranking, and the inspector match the bob_refs_panel spec [in_progress]"]
     n3["bob-cli-5s.10.1: bob-cli blocked-field polish and stray .build cleanup [closed]"]
-    n4["bob-cli-5s.10.2: RefsCore ranking, captions, dates, and refs-rank fixes [in_progress]"]
+    n4["bob-cli-5s.10.2: RefsCore ranking, captions, dates, and refs-rank fixes [closed]"]
     n5["bob-cli-5s.10.3: Search binding, open-error re-show, unavailable rows, refresh triggers, and live settings [in_progress]"]
     n6["bob-cli-5s.10.4: Panel visuals, inspector honesty, ⌘K anchor, cleanup, README, and final CI [in_progress]"]
     n7["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [closed]"]
@@ -99,7 +99,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-5s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.1/README.md) | [bob-cli-5s.1](bob-cli-5s.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-5s.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.1/README.md) | [bob-cli-5s.10.1](bob-cli-5s.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5s.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.1/README.md) | [bob-cli-5s.10.1](bob-cli-5s.10.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.2/README.md) | [bob-cli-5s.10.2](bob-cli-5s.10.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.10.land/README.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 0 |
@@ -120,7 +120,6 @@ flowchart TD
 | bob-cli | [`4c9cdbe`](https://github.com/bobs-org/bob-cli/commit/4c9cdbe583770f6fa487be18af6615f259e3bf01) | feat(refs): expose Blocked as always-present boolean on ref rows | [bob-cli-5s.1](bob-cli-5s.1.md) | 2026-10-08 20:18:06 EDT |
 | bob-cli | [`a4c69ff`](https://github.com/bobs-org/bob-cli/commit/a4c69ff8964d85d4340682af9e4a11d8253eb049) | chore(build): record Swift build cache from RefsCore verification | [bob-cli-5s.4](bob-cli-5s.4.md) | 2026-10-09 01:19:19 EDT |
 | bob-cli | [`b6ba7c3`](https://github.com/bobs-org/bob-cli/commit/b6ba7c3387675e9723e416acbbc0c08543137ca0) | docs(readme): document blocked display-only overlay field | [bob-cli-5s.9](bob-cli-5s.9.md) | 2026-10-09 07:25:33 EDT |
-| bob-cli | [`b566ba4`](https://github.com/bobs-org/bob-cli/commit/b566ba4431b97df6405a75babe9d17899bae7eea) | fix(refs): polish blocked field, drop stray .build, finish ref.md contract | [bob-cli-5s.10.1](bob-cli-5s.10.1.md) | 2026-10-09 08:37:58 EDT |
 
 <!-- sase:referenced-by:start -->
 

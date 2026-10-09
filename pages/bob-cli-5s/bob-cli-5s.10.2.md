@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-5s.10](bob-cli-5s.10.md) / bob-cli-5s.10.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-5s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.land.md) · **Assignee:** `bob-cli-5s.10.2` · **Size:** medium
-**Created:** 2026-10-09 08:04:27 EDT
+**Created:** 2026-10-09 08:04:27 EDT · **Closed:** 2026-10-09 08:49:28 EDT
 **Plan:** [202610/bob\_refs\_land\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_land_fixes.md)
 
 ## Description
@@ -14,6 +14,10 @@ refs-core-fixes: in bob-mac-capture RefsCore, keep vanished ids in refreshingCon
 ## Notes
 
 [2026-10-09T12:20:31Z · bob-cli-5s.10.2] INTERFACE CHANGE for refs-model-fixes: RefsListing now carries unavailableIDs: Set<String> and unavailableItems: [String: RefItem] (last known titles); refreshingContent(availableIDs:lastKnownItems:) keeps vanished ids in orderedIDs/sections (defaults keep old call sites compiling; pass the library items dict for titles); fresh RefsRanker.listing drops them. Also available: RefsRanker.readyLane (Ready added-desc sort), RefsDates.ordinal(_:calendar:), RefsCaption.relativeCompact/relativeLong with defaulted calendar: param.
+
+[2026-10-09T12:39:10Z · bob-cli-5s.10.2] PROPOSED FOLLOW-UP: base just check stays red on return_links Pandoc failures tracked by task bob-cli-5t; tailored verify script used instead
+
+[2026-10-09T12:49:28Z · bob-cli-5s.10.2] refs-core-fixes verified: all 9 items implemented with tests (unavailableIDs/items + keep-index refresh, T1 2-char prefixes, calendar day counts, Ready added-desc, git approximate via -g path, weekday 2...6, frecencyHalfLifeDays wired, per-snapshot prepared cache, refs-rank --now/--tz + aligned columns); README Sorting/Tuning updated; tailored verify script PASS; just check red only on pre-existing base return_links failures (bob-cli-5t); no Swift toolchain on host so swift build/test and macOS CI remain for the pushed commit; epic-symbols clean
 
 ## Dependencies
 
