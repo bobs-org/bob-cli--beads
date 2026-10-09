@@ -20,7 +20,7 @@ override-complete: add the additive top-level `override` object (keeps_ledger pl
 ## Dependencies
 
 - **Depends on:** [bob-cli-5z.1](bob-cli-5z.1.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5z.6](bob-cli-5z.6.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5z.6](bob-cli-5z.6.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

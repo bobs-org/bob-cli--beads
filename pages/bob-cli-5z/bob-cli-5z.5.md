@@ -20,10 +20,22 @@ mac-override-card: decode the parse flag and `pomodoro_start.override`, extend t
 ## Dependencies
 
 - **Depends on:** [bob-cli-5z.3](bob-cli-5z.3.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5z.6](bob-cli-5z.6.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5z.6](bob-cli-5z.6.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-5z.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md) | [bob-cli-5z.5](bob-cli-5z.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5z.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md
+
+<!-- sase:referenced-by:end -->

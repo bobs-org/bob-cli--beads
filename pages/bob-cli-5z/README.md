@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_override.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_override.md
 
@@ -24,6 +24,14 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 `bob capture` and Bob Mac Capture accept `==`, the override twin of every whole-item `=` start: `==<X>` restarts the running Pomodoro with fresh `se<X>` timing, and `==[<X>]#name` swaps a different Pomodoro in as the running one (taking over the running session ledger unless a timing is given) while the old one returns, intact, to first future. Every path is atomic, dry-run exact, byte-preserving, and explained in both the CLI and the Mac preview.
+
+## Notes
+
+[2026-10-09T19:04:20Z · bryanbugyi34@gmail.com] The bob-mac-capture app is no longer building on my macbook (bob-cli-5z.5 caused this I think). See 🔒 bob\_mac\_capture\_install\_error.txt for context.
+
+## Attachments
+
+- 🔒 bob\_mac\_capture\_install\_error.txt · text/plain · 8.25293 KiB (private attachment)
 
 ## Phases
 
@@ -34,7 +42,7 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-5z.3](bob-cli-5z.3.md) | Execute swaps with ledger takeover and first-future demotion | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.4](bob-cli-5z.4.md) | Give the \`==#\` name picker its override context | ✓ closed | small | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.5](bob-cli-5z.5.md) | Bob Mac Capture restart and swap preview, footer, and notifications | ✓ closed | medium | 2026-10-09 | 1 | 0 |
-| [bob-cli-5z.6](bob-cli-5z.6.md) | Bob Mac Capture \`==#\` picker status and row hints | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
+| [bob-cli-5z.6](bob-cli-5z.6.md) | Bob Mac Capture \`==#\` picker status and row hints | ✓ closed | small | 2026-10-09 | 1 | 0 |
 
 ## Lineage
 
@@ -46,7 +54,7 @@ flowchart TD
     n3["bob-cli-5z.3: Execute swaps with ledger takeover and first-future demotion [closed]"]
     n4["bob-cli-5z.4: Give the `==#` name picker its override context [closed]"]
     n5["bob-cli-5z.5: Bob Mac Capture restart and swap preview, footer, and notifications [closed]"]
-    n6["bob-cli-5z.6: Bob Mac Capture `==#` picker status and row hints [in_progress]"]
+    n6["bob-cli-5z.6: Bob Mac Capture `==#` picker status and row hints [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -91,9 +99,11 @@ flowchart TD
 | read-by | [agent:bob-cli-5z.2][1] | Need epic context for restart phase | 1 |
 | read-by | [agent:bob-cli-5z.3][2] | epic scope decisions | 1 |
 | read-by | [agent:bob-cli-5z.4][3] | epic status for phase ordering | 1 |
+| read-by | [agent:bob-cli-5z.5][4] | Need epic DECISIONS and scope for phase 5z.5 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md
 
 <!-- sase:referenced-by:end -->
