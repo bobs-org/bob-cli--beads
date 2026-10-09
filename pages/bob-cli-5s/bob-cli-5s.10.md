@@ -53,13 +53,14 @@ Integration: no non-epic commits landed in bob-cli or bob-mac-capture after this
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5s.10.land.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 1 |
+| [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5s.10.land.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@a87859f`](https://github.com/bobs-org/bob-mac-capture/commit/a87859f251b10346b60051ff713291bd71cb8f78) | fix(refs): settle the git-date lane in testRefreshIfStale before the argv baseline | [bob-cli-5s.10](bob-cli-5s.10.md) | 2026-10-09 12:20:14 EDT |
+| bob-cli--plans | [`bob-cli--plans@a31d44f`](https://github.com/bobs-org/bob-cli--plans/commit/a31d44f0bf47dd85758baf7f33bc08be932a61f4) | docs(plans): mark bob-cli-5s, bob-cli-5s.10, and stale-race tale plans done | [bob-cli-5s.10](bob-cli-5s.10.md) | 2026-10-09 12:21:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

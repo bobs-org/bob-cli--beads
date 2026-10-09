@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 5 |
 | [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 3 |
-| [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5s.10.land.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 1 |
+| [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5s.10.land.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 2 |
 
 ## Commits
 
@@ -150,6 +150,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@649e0b9`](https://github.com/bobs-org/bob-mac-capture/commit/649e0b9bc733fbed365debe3ed773b14f00cb42e) | fix(refs): force the Reduce Transparency render through a view knob | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 2026-10-09 10:52:30 EDT |
 | bob-mac-capture | [`bob-mac-capture@d5fcac0`](https://github.com/bobs-org/bob-mac-capture/commit/d5fcac0d07b872dc633f5ebb201a6cc56a36d875) | fix(refs): race the intrinsics timeout on a continuation | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 2026-10-09 11:09:46 EDT |
 | bob-mac-capture | [`bob-mac-capture@a87859f`](https://github.com/bobs-org/bob-mac-capture/commit/a87859f251b10346b60051ff713291bd71cb8f78) | fix(refs): settle the git-date lane in testRefreshIfStale before the argv baseline | [bob-cli-5s.10](bob-cli-5s.10.md) | 2026-10-09 12:20:14 EDT |
+| bob-cli--plans | [`bob-cli--plans@a31d44f`](https://github.com/bobs-org/bob-cli--plans/commit/a31d44f0bf47dd85758baf7f33bc08be932a61f4) | docs(plans): mark bob-cli-5s, bob-cli-5s.10, and stale-race tale plans done | [bob-cli-5s.10](bob-cli-5s.10.md) | 2026-10-09 12:21:22 EDT |
 
 <!-- sase:referenced-by:start -->
 
