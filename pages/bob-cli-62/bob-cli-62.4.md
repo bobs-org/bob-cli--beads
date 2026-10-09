@@ -40,7 +40,9 @@ verify-ref-sync: complete human reports and docs, cover the full acceptance matr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-62.3--2][1] | check sibling scope for completion | 1 |
+| read-by | [agent:bob-cli-62.4--1][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.4.md
 
 <!-- sase:referenced-by:end -->
