@@ -64,7 +64,13 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-60.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-60.1/README.md) | [bob-cli-60.1](bob-cli-60.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-60.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-60.2.md) | [bob-cli-60.2](bob-cli-60.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-60.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-60.land.md) | [bob-cli-60](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-60.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-60.land.md) | [bob-cli-60](README.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli--plans | [`bob-cli--plans@da897cc`](https://github.com/bobs-org/bob-cli--plans/commit/da897cc1479467669941487daa3fc15b0cd30e9b) | chore(plans): mark mac\_capture\_auto\_comma\_land done | [bob-cli-60](README.md) | 2026-10-09 17:37:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
