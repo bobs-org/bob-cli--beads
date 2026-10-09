@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_override.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_override.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5z.1](bob-cli-5z.1.md) | Lex, parse, and describe the \`==\` token family | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [bob-cli-5z.2](bob-cli-5z.2.md) | Execute restarts and the idle fallback, with the override JSON contract | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [bob-cli-5z.2](bob-cli-5z.2.md) | Execute restarts and the idle fallback, with the override JSON contract | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.3](bob-cli-5z.3.md) | Execute swaps with ledger takeover and first-future demotion | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5z.4](bob-cli-5z.4.md) | Give the \`==#\` name picker its override context | ✓ closed | small | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.5](bob-cli-5z.5.md) | Bob Mac Capture restart and swap preview, footer, and notifications | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
@@ -40,7 +42,7 @@
 flowchart TD
     n0["bob-cli-5z: `==` Pomodoro override: restart the running session or swap another in [in_progress]"]
     n1["bob-cli-5z.1: Lex, parse, and describe the `==` token family [closed]"]
-    n2["bob-cli-5z.2: Execute restarts and the idle fallback, with the override JSON contract [in_progress]"]
+    n2["bob-cli-5z.2: Execute restarts and the idle fallback, with the override JSON contract [closed]"]
     n3["bob-cli-5z.3: Execute swaps with ledger takeover and first-future demotion [in_progress]"]
     n4["bob-cli-5z.4: Give the `==#` name picker its override context [closed]"]
     n5["bob-cli-5z.5: Bob Mac Capture restart and swap preview, footer, and notifications [in_progress]"]
@@ -64,7 +66,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-5z.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.1/README.md) | [bob-cli-5z.1](bob-cli-5z.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-5z.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.2/README.md) | [bob-cli-5z.2](bob-cli-5z.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5z.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.2/README.md) | [bob-cli-5z.2](bob-cli-5z.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.3/README.md) | [bob-cli-5z.3](bob-cli-5z.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md) | [bob-cli-5z.4](bob-cli-5z.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5z.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md) | [bob-cli-5z.5](bob-cli-5z.5.md) | 0 |
@@ -77,3 +79,16 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`90214f1`](https://github.com/bobs-org/bob-cli/commit/90214f13815ee31ec5f5e8418b1ef06373e3553d) | feat(capture): lex, parse, and describe the == Pomodoro override token family | [bob-cli-5z.1](bob-cli-5z.1.md) | 2026-10-09 13:51:27 EDT |
 | bob-cli | [`1a7914b`](https://github.com/bobs-org/bob-cli/commit/1a7914b9d5ca31d842195f2b2a56d7d1252a2370) | feat(complete): give the ==# name picker its override context | [bob-cli-5z.4](bob-cli-5z.4.md) | 2026-10-09 14:07:08 EDT |
+| bob-cli | [`36df8b8`](https://github.com/bobs-org/bob-cli/commit/36df8b8afed540db39962472d83a153e5c3dbfb9) | feat(capture): execute == restarts with idle fallback and override JSON contract | [bob-cli-5z.2](bob-cli-5z.2.md) | 2026-10-09 14:15:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5z.4][1] | epic status for phase ordering | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md
+
+<!-- sase:referenced-by:end -->

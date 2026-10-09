@@ -33,3 +33,15 @@ override-complete: add the additive top-level `override` object (keeps_ledger pl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1a7914b`](https://github.com/bobs-org/bob-cli/commit/1a7914b9d5ca31d842195f2b2a56d7d1252a2370) | feat(complete): give the ==# name picker its override context | [bob-cli-5z.4](bob-cli-5z.4.md) | 2026-10-09 14:07:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5z.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md
+
+<!-- sase:referenced-by:end -->

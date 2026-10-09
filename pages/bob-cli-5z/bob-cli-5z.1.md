@@ -19,7 +19,7 @@ override-grammar: teach the capture language the `==` family (`==`, `==<X>`, `==
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5z.2](bob-cli-5z.2.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5z.2](bob-cli-5z.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5z.4](bob-cli-5z.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
