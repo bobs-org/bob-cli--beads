@@ -23,7 +23,7 @@ refs-scan-core: decode the scan envelope, build a RefsScanOutcome and its exact 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5x.3](bob-cli-5x.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5x.3](bob-cli-5x.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -46,7 +46,9 @@ refs-scan-core: decode the scan envelope, build a RefsScanOutcome and its exact 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5x.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-5x.3][2] | Need core scan contract details for service phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.3.md
 
 <!-- sase:referenced-by:end -->

@@ -14,10 +14,28 @@ refs-scan-ui: route ⌘S and the ⌘K item, draw the footer scan status, the Jus
 ## Dependencies
 
 - **Depends on:** [bob-cli-5x.1](bob-cli-5x.1.md) ✓ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5x.3](bob-cli-5x.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5x.3](bob-cli-5x.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.4/README.md) | [bob-cli-5x.4](bob-cli-5x.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-5x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.4/README.md) | [bob-cli-5x.4](bob-cli-5x.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@d808c6d`](https://github.com/bobs-org/bob-mac-capture/commit/d808c6d50390c605359784a506197336145da0e1) | feat(refs): route ⌘S scan, footer status, banners, and hidden-panel notifications | [bob-cli-5x.4](bob-cli-5x.4.md) | 2026-10-09 14:12:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5x.3][1] | Check later phase scope to avoid overlap | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.3.md
+
+<!-- sase:referenced-by:end -->

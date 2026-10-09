@@ -42,7 +42,9 @@ Error envelope shape (dirty_targets case): {"ok":false,"schema_version":1,"comma
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5x.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-5x.3][2] | Need cli-scan-json interface sample and decisions for service phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.3.md
 
 <!-- sase:referenced-by:end -->
