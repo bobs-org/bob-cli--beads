@@ -15,7 +15,7 @@ capture-gkeep-parent: a bare URL plus one @route becomes a ref filed there, prev
 
 - **Blocks:** [bob-cli-5y.12](bob-cli-5y.12.md) ◐ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5y.9](bob-cli-5y.9.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5y.9](bob-cli-5y.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

@@ -26,7 +26,7 @@ ref-locator: build the read-only locator, derive status/parent/dates from the lo
 ## Dependencies
 
 - **Depends on:** [bob-cli-5y.2](bob-cli-5y.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5y.7](bob-cli-5y.7.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.7](bob-cli-5y.7.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.8](bob-cli-5y.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents

@@ -24,7 +24,7 @@ hook-config: install bob, add project_name_aliases to bob.md, confirm the live s
 - **Depends on:** [bob-cli-5y.1](bob-cli-5y.1.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ◐ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.2](bob-cli-5y.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5y.9](bob-cli-5y.9.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.9](bob-cli-5y.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
