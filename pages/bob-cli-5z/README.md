@@ -30,7 +30,7 @@
 | [bob-cli-5z.1](bob-cli-5z.1.md) | Lex, parse, and describe the \`==\` token family | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.2](bob-cli-5z.2.md) | Execute restarts and the idle fallback, with the override JSON contract | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5z.3](bob-cli-5z.3.md) | Execute swaps with ledger takeover and first-future demotion | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
-| [bob-cli-5z.4](bob-cli-5z.4.md) | Give the \`==#\` name picker its override context | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
+| [bob-cli-5z.4](bob-cli-5z.4.md) | Give the \`==#\` name picker its override context | ✓ closed | small | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.5](bob-cli-5z.5.md) | Bob Mac Capture restart and swap preview, footer, and notifications | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5z.6](bob-cli-5z.6.md) | Bob Mac Capture \`==#\` picker status and row hints | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 
@@ -42,7 +42,7 @@ flowchart TD
     n1["bob-cli-5z.1: Lex, parse, and describe the `==` token family [closed]"]
     n2["bob-cli-5z.2: Execute restarts and the idle fallback, with the override JSON contract [in_progress]"]
     n3["bob-cli-5z.3: Execute swaps with ledger takeover and first-future demotion [in_progress]"]
-    n4["bob-cli-5z.4: Give the `==#` name picker its override context [in_progress]"]
+    n4["bob-cli-5z.4: Give the `==#` name picker its override context [closed]"]
     n5["bob-cli-5z.5: Bob Mac Capture restart and swap preview, footer, and notifications [in_progress]"]
     n6["bob-cli-5z.6: Bob Mac Capture `==#` picker status and row hints [in_progress]"]
     n0 --> n1
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5z.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.1/README.md) | [bob-cli-5z.1](bob-cli-5z.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5z.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.2/README.md) | [bob-cli-5z.2](bob-cli-5z.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5z.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.3/README.md) | [bob-cli-5z.3](bob-cli-5z.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md) | [bob-cli-5z.4](bob-cli-5z.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md) | [bob-cli-5z.4](bob-cli-5z.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5z.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md) | [bob-cli-5z.5](bob-cli-5z.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5z.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.6/README.md) | [bob-cli-5z.6](bob-cli-5z.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5z.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.land/README.md) | [bob-cli-5z](README.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`90214f1`](https://github.com/bobs-org/bob-cli/commit/90214f13815ee31ec5f5e8418b1ef06373e3553d) | feat(capture): lex, parse, and describe the == Pomodoro override token family | [bob-cli-5z.1](bob-cli-5z.1.md) | 2026-10-09 13:51:27 EDT |
+| bob-cli | [`1a7914b`](https://github.com/bobs-org/bob-cli/commit/1a7914b9d5ca31d842195f2b2a56d7d1252a2370) | feat(complete): give the ==# name picker its override context | [bob-cli-5z.4](bob-cli-5z.4.md) | 2026-10-09 14:07:08 EDT |

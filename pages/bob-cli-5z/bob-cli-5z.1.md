@@ -20,7 +20,7 @@ override-grammar: teach the capture language the `==` family (`==`, `==<X>`, `==
 ## Dependencies
 
 - **Blocks:** [bob-cli-5z.2](bob-cli-5z.2.md) ◐ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5z.4](bob-cli-5z.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5z.4](bob-cli-5z.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -33,3 +33,15 @@ override-grammar: teach the capture language the `==` family (`==`, `==<X>`, `==
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`90214f1`](https://github.com/bobs-org/bob-cli/commit/90214f13815ee31ec5f5e8418b1ef06373e3553d) | feat(capture): lex, parse, and describe the == Pomodoro override token family | [bob-cli-5z.1](bob-cli-5z.1.md) | 2026-10-09 13:51:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5z.1][1] | Need phase scope notes history | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ mac-override-picker: decode the capture-complete `override` object and use it fo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5z.4](bob-cli-5z.4.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5z.4](bob-cli-5z.4.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5z.5](bob-cli-5z.5.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
