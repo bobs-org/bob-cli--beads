@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_refs_land_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_land_fixes.md
 
@@ -47,8 +47,10 @@ Finish epic bob-cli-5s. Close every gap its land audit found between the shipped
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.10.1][1] | epic decisions context | 1 |
 | read-by | [agent:bob-cli-5s.10.2][2] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:bob-cli-5s.10.3][3] | epic decisions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md
 
 <!-- sase:referenced-by:end -->

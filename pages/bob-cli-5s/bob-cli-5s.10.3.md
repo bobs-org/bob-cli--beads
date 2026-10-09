@@ -20,10 +20,23 @@ refs-model-fixes: in bob-mac-capture, send typed text to the model, re-show the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@85720a2`](https://github.com/bobs-org/bob-mac-capture/commit/85720a2810ceae383e413e13c366be822d422ec6) | fix(refs): search binding, error re-show, refresh lanes, live settings | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:19:28 EDT |
+| bob-mac-capture | [`bob-mac-capture@9c46702`](https://github.com/bobs-org/bob-mac-capture/commit/9c46702b0d6ed13a6ef3e9499396cdb64ca35442) | fix(refs): hoist multiline calls out of caption interpolations | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:32:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5s.10.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md
+
+<!-- sase:referenced-by:end -->
