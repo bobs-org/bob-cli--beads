@@ -13,7 +13,7 @@ refs-scan-ui: route ⌘S and the ⌘K item, draw the footer scan status, the Jus
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5x.1](bob-cli-5x.1.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5x.1](bob-cli-5x.1.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5x.3](bob-cli-5x.3.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

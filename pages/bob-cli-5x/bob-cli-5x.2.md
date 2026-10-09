@@ -11,6 +11,10 @@
 
 refs-scan-core: decode the scan envelope, build a RefsScanOutcome and its exact presentation strings, add BobProcessClient.decodeReport, add RefsFetching.scan, and add the time-windowed Just scanned browse section with its caption and why-here line, all Linux-testable.
 
+## Notes
+
+[2026-10-09T16:47:19Z · bob-cli-5x.2] Committed 6d98f23 feat(refs) to bob-mac-capture master; CI https://github.com/bobs-org/bob-mac-capture/actions/runs/37961496342 in progress. Linux: full suite 857 tests, 0 failures. No visuals changed, so no render-fixture review applies.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-5x.3](bob-cli-5x.3.md) ◐ · ⧖ 2026-10-09
@@ -19,10 +23,16 @@ refs-scan-core: decode the scan envelope, build a RefsScanOutcome and its exact 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.2/README.md) | [bob-cli-5x.2](bob-cli-5x.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-5x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md) | [bob-cli-5x.2](bob-cli-5x.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@6d98f23`](https://github.com/bobs-org/bob-mac-capture/commit/6d98f2303855dc97244560def21636792dcbe4c0) | feat(refs): add the scan report contract and Just scanned section | [bob-cli-5x.2](bob-cli-5x.2.md) | 2026-10-09 12:46:10 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5x.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md
+
+<!-- sase:referenced-by:end -->
