@@ -23,7 +23,14 @@ refs-scan-core: decode the scan envelope, build a RefsScanOutcome and its exact 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md) | [bob-cli-5x.2](bob-cli-5x.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-5x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.2.md) | [bob-cli-5x.2](bob-cli-5x.2.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@6d98f23`](https://github.com/bobs-org/bob-mac-capture/commit/6d98f2303855dc97244560def21636792dcbe4c0) | feat(refs): add the scan report contract and Just scanned section | [bob-cli-5x.2](bob-cli-5x.2.md) | 2026-10-09 12:46:10 EDT |
+| bob-mac-capture | [`bob-mac-capture@fec4293`](https://github.com/bobs-org/bob-mac-capture/commit/fec42932669bf6fac7f564371cab4009e2f8a93a) | fix(capture): break up primaryActionTitle chain for Swift type-checker | [bob-cli-5x.2](bob-cli-5x.2.md) | 2026-10-09 12:56:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
