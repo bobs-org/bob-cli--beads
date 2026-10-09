@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/successor_links.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/successor_links.md
 
 <!-- sase:links:end -->
@@ -27,7 +29,7 @@ When a Bob close gesture completes a task planned in today's ledger, every direc
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-5w.1](bob-cli-5w.1.md) | Lazy, shared, prefiltered vault snapshot for capture (bob-cli-5v) | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [bob-cli-5w.1](bob-cli-5w.1.md) | Lazy, shared, prefiltered vault snapshot for capture (bob-cli-5v) | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5w.10](bob-cli-5w.10.md) | Reopen takes successors back; Alt+\] closes join the pass | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5w.11](bob-cli-5w.11.md) | End-to-end verification and memory | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 | [bob-cli-5w.2](bob-cli-5w.2.md) | Specify Successor Links once, in docs and vectors | ✓ closed | medium | 2026-10-09 | 1 | 1 |
@@ -44,7 +46,7 @@ When a Bob close gesture completes a task planned in today's ledger, every direc
 ```mermaid
 flowchart TD
     n0["bob-cli-5w: Successor Links: a closed planned task hands its slot to the tasks it unblocks [in_progress]"]
-    n1["bob-cli-5w.1: Lazy, shared, prefiltered vault snapshot for capture (bob-cli-5v) [in_progress]"]
+    n1["bob-cli-5w.1: Lazy, shared, prefiltered vault snapshot for capture (bob-cli-5v) [closed]"]
     n2["bob-cli-5w.10: Reopen takes successors back; Alt+] closes join the pass [in_progress]"]
     n3["bob-cli-5w.11: End-to-end verification and memory [in_progress]"]
     n4["bob-cli-5w.2: Specify Successor Links once, in docs and vectors [closed]"]
@@ -85,7 +87,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.1/README.md) | [bob-cli-5w.1](bob-cli-5w.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.1/README.md) | [bob-cli-5w.1](bob-cli-5w.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5w.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.10/README.md) | [bob-cli-5w.10](bob-cli-5w.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5w.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.11/README.md) | [bob-cli-5w.11](bob-cli-5w.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.2/README.md) | [bob-cli-5w.2](bob-cli-5w.2.md) | 1 |
@@ -103,3 +105,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`16df9b6`](https://github.com/bobs-org/bob-cli/commit/16df9b6a63161023f1acb1a828fe8af4d1cfa886) | feat(deps): add Successor Links contract docs and vectors | [bob-cli-5w.2](bob-cli-5w.2.md) | 2026-10-09 12:21:19 EDT |
+| bob-cli | [`e190a7d`](https://github.com/bobs-org/bob-cli/commit/e190a7dc84e74ff2e58abae96405edc0be4727c9) | perf(capture): lazy vault snapshot for capture batches | [bob-cli-5w.1](bob-cli-5w.1.md) | 2026-10-09 12:24:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5w.2][1] | epic context for phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.2/README.md
+
+<!-- sase:referenced-by:end -->

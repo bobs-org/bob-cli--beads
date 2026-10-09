@@ -13,7 +13,7 @@ capture_complete: in bob-cli, add the pure successor planner (graph-transition e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5w.1](bob-cli-5w.1.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5w.1](bob-cli-5w.1.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5w.2](bob-cli-5w.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5w.4](bob-cli-5w.4.md) ◐ · ⧖ 2026-10-09
 
