@@ -13,11 +13,17 @@ refs-scan-service: run the scan on its own lane with a long timeout, defer watch
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5x.2](bob-cli-5x.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5x.2](bob-cli-5x.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5x.4](bob-cli-5x.4.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5x.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.3/README.md) | [bob-cli-5x.3](bob-cli-5x.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-5x.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.3/README.md) | [bob-cli-5x.3](bob-cli-5x.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@37b914c`](https://github.com/bobs-org/bob-mac-capture/commit/37b914c4b76a6e737e0fd52dced390f5578894d9) | feat(refs): add the scan lane and panel scan behavior | [bob-cli-5x.3](bob-cli-5x.3.md) | 2026-10-09 13:41:16 EDT |
