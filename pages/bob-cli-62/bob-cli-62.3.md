@@ -13,7 +13,7 @@ scan-integration: share one locator index across parallel planning, activate v2 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-62.2](bob-cli-62.2.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-62.2](bob-cli-62.2.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-62.4](bob-cli-62.4.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

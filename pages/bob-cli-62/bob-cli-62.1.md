@@ -21,7 +21,7 @@ v2-planning: add pure v1/v2/birth/reopen planning, parent-free sync snapshots, s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-62.2](bob-cli-62.2.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-62.2](bob-cli-62.2.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -34,3 +34,15 @@ v2-planning: add pure v1/v2/birth/reopen planning, parent-free sync snapshots, s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8c938cf`](https://github.com/bobs-org/bob-cli/commit/8c938cfb2a126e2bc92185f7d278153b2ef7dfab) | feat(highlights-ref): add vault-free v2 reading-plan seam | [bob-cli-62.1](bob-cli-62.1.md) | 2026-10-09 16:11:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-62.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-62.1/README.md
+
+<!-- sase:referenced-by:end -->
