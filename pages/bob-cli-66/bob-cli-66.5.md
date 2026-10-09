@@ -14,7 +14,7 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 ## Dependencies
 
 - **Depends on:** [bob-cli-66.3](bob-cli-66.3.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-66.4](bob-cli-66.4.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-66.4](bob-cli-66.4.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-66.6](bob-cli-66.6.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
@@ -22,3 +22,15 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.5/README.md) | [bob-cli-66.5](bob-cli-66.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-66.3][1] | Check blocked phase scope | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md
+
+<!-- sase:referenced-by:end -->

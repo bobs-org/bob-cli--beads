@@ -19,7 +19,7 @@ mac-agenda-models: add the CaptureCore `CaptureAgendaSnapshot` decoders (decodeI
 
 - **Depends on:** [bob-cli-66.1](bob-cli-66.1.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-66.3](bob-cli-66.3.md) ◐ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-66.4](bob-cli-66.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-66.4](bob-cli-66.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -40,7 +40,9 @@ mac-agenda-models: add the CaptureCore `CaptureAgendaSnapshot` decoders (decodeI
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-66.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-66.3][2] | Check dependency completion state | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md
 
 <!-- sase:referenced-by:end -->
