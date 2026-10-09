@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_refs_panel.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md
 
@@ -106,9 +106,11 @@ flowchart TD
 | read-by | [agent:bob-cli-5s.2][1] | Need epic scope for phase work | 1 |
 | read-by | [agent:bob-cli-5s.3][2] | epic context for phase worker | 1 |
 | read-by | [agent:bob-cli-5s.4][3] | Need epic scope for phase work | 2 |
+| read-by | [agent:bob-cli-5s.8][4] | Need epic status and prior phase progress for inspector work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.3.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md
 
 <!-- sase:referenced-by:end -->
