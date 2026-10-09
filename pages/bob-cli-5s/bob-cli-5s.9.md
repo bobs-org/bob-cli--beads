@@ -14,7 +14,7 @@ refs-closeout: make the README's Bob Refs section coherent, apply or record the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-5s.1](bob-cli-5s.1.md) ✓ · ⧖ 2026-10-08
-- **Depends on:** [bob-cli-5s.7](bob-cli-5s.7.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [bob-cli-5s.7](bob-cli-5s.7.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [bob-cli-5s.8](bob-cli-5s.8.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

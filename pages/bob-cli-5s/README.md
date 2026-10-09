@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_refs_panel.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md
 
@@ -35,7 +35,7 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 | [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ✓ closed | medium | 2026-10-08 | 1 | 1 |
 | [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.6](bob-cli-5s.6.md) | Refs panel window, list, basic inspector, and keyboard | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.7](bob-cli-5s.7.md) | Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.7](bob-cli-5s.7.md) | Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.8](bob-cli-5s.8.md) | Kind-adaptive inspector and actions menu | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.9](bob-cli-5s.9.md) | README coherence, optional memory record, final CI, and Bryan's checklist | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 
@@ -50,7 +50,7 @@ flowchart TD
     n4["bob-cli-5s.4: RefsCore ranking — browse sections, search tiers, stability, explanations [closed]"]
     n5["bob-cli-5s.5: Refs library service and panel model [closed]"]
     n6["bob-cli-5s.6: Refs panel window, list, basic inspector, and keyboard [closed]"]
-    n7["bob-cli-5s.7: Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture [in_progress]"]
+    n7["bob-cli-5s.7: Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture [closed]"]
     n8["bob-cli-5s.8: Kind-adaptive inspector and actions menu [in_progress]"]
     n9["bob-cli-5s.9: README coherence, optional memory record, final CI, and Bryan's checklist [in_progress]"]
     n0 --> n1
@@ -106,11 +106,13 @@ flowchart TD
 | read-by | [agent:bob-cli-5s.2][1] | Need epic scope for phase work | 1 |
 | read-by | [agent:bob-cli-5s.3][2] | epic context for phase worker | 1 |
 | read-by | [agent:bob-cli-5s.4][3] | Need epic scope for phase work | 2 |
-| read-by | [agent:bob-cli-5s.8][4] | Need epic status and prior phase progress for inspector work | 1 |
+| read-by | [agent:bob-cli-5s.7][4] | find inspector phase bead id for follow-up citation | 1 |
+| read-by | [agent:bob-cli-5s.8][5] | Need epic status and prior phase progress for inspector work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.3.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md
 
 <!-- sase:referenced-by:end -->

@@ -26,7 +26,7 @@ mac-groundwork: replace the single-key HotKeyManager with a HotKeyRegistry that 
 ## Dependencies
 
 - **Blocks:** [bob-cli-5s.6](bob-cli-5s.6.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [bob-cli-5s.7](bob-cli-5s.7.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [bob-cli-5s.7](bob-cli-5s.7.md) ✓ · ⧖ 2026-10-08
 
 ## Agents
 

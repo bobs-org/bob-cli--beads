@@ -25,7 +25,7 @@ refs-panel-ui: build the borderless non-activating glass panel, search bar, two-
 
 - **Depends on:** [bob-cli-5s.2](bob-cli-5s.2.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [bob-cli-5s.5](bob-cli-5s.5.md) ✓ · ⧖ 2026-10-08
-- **Blocks:** [bob-cli-5s.7](bob-cli-5s.7.md) ◐ · ⧖ 2026-10-08
+- **Blocks:** [bob-cli-5s.7](bob-cli-5s.7.md) ✓ · ⧖ 2026-10-08
 - **Blocks:** [bob-cli-5s.8](bob-cli-5s.8.md) ◐ · ⧖ 2026-10-08
 
 ## Agents

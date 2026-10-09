@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-5s](README.md) / bob-cli-5s.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.5z](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.5z.md) · **Assignee:** `bob-cli-5s.7` · **Size:** medium
-**Created:** 2026-10-08 19:32:40 EDT
+**Created:** 2026-10-08 19:32:40 EDT · **Closed:** 2026-10-09 06:16:50 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
 ## Description
@@ -14,6 +14,10 @@ refs-entry-points: wire the library and panel into AppDelegate, register the glo
 ## Notes
 
 [2026-10-09T10:05:19Z · bob-cli-5s.7] PROPOSED FOLLOW-UP: Add decisions strand refs-panel-is-a-thin-client (Bob Refs ranks bob reference index, opening never mutates vault); refs_decision_memory=%auto left it off
+
+[2026-10-09T10:16:34Z · bob-cli-5s.7] PROPOSED FOLLOW-UP: master CI red on sibling refs-inspector errors (bob-cli-5s.8): RefsInspectorLoader.swift:291 calls String? thumbSHA as function, :466 missing await on async openTasks, RefsPanelModel.swift:229 self-use-before-init from inspector init rewrite; CI run 37916221821. Entry-points sources compile clean; unblocks entry-points tests once fixed.
+
+[2026-10-09T10:16:50Z · bob-cli-5s.7] Entry points wired in bob-mac-capture (3aabee1, build fix e1d696e, pushed, tree clean): coordinator, takeover (cmdO default per decision), global hotkey, menu row, Settings References section, capture-success Today refresh, recheck re-point. CI 37916221821 shows zero errors in entry-points files; 16 new + 2 updated tests authored but unrun (no host Swift toolchain; test stage blocked by sibling inspector errors in bob-cli-5s.8, recorded as follow-up). No epic-symbols left.
 
 ## Dependencies
 
