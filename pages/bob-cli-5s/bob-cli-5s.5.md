@@ -30,6 +30,7 @@ refs-panel-model: build the RefsLibrary refresh service (cache, watcher, git-dat
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.5][1] | Need full bead including notes and remaining work | 2 |
 | read-by | [agent:bob-cli-5s.5--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-5s.5--2][1] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.5.md
 
