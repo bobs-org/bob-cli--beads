@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5s.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md) | [bob-cli-5s.7](bob-cli-5s.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-5s.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md) | [bob-cli-5s.8](bob-cli-5s.8.md) | 5 |
 | [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 3 |
 | [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.land/README.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 0 |
 
@@ -141,6 +141,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@3a5fd4a`](https://github.com/bobs-org/bob-mac-capture/commit/3a5fd4afa7c569157c5eab963e1c2a9209ebfff9) | fix(refs): ranking, captions, dates, and refs-rank core fixes | [bob-cli-5s.10.2](bob-cli-5s.10.2.md) | 2026-10-09 08:51:44 EDT |
 | bob-mac-capture | [`bob-mac-capture@85720a2`](https://github.com/bobs-org/bob-mac-capture/commit/85720a2810ceae383e413e13c366be822d422ec6) | fix(refs): search binding, error re-show, refresh lanes, live settings | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:19:28 EDT |
 | bob-mac-capture | [`bob-mac-capture@9c46702`](https://github.com/bobs-org/bob-mac-capture/commit/9c46702b0d6ed13a6ef3e9499396cdb64ca35442) | fix(refs): hoist multiline calls out of caption interpolations | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:32:47 EDT |
+| bob-mac-capture | [`bob-mac-capture@cf0c8b1`](https://github.com/bobs-org/bob-mac-capture/commit/cf0c8b16e11d7eab78205f333ea5a295c49aaac1) | fix(refs): last-known title cache and test compile fixes | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:36:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
