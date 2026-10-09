@@ -14,7 +14,7 @@ mac: in bob-mac-capture, decode the additive successor JSON defensively. Render 
 ## Dependencies
 
 - **Blocks:** [bob-cli-5w.11](bob-cli-5w.11.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5w.4](bob-cli-5w.4.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5w.4](bob-cli-5w.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
