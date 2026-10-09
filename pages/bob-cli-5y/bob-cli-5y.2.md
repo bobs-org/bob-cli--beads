@@ -22,7 +22,7 @@ parent-resolver: add the shared area/project/inbox resolver with project_name_al
 ## Dependencies
 
 - **Blocks:** [bob-cli-5y.4](bob-cli-5y.4.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5y.5](bob-cli-5y.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.5](bob-cli-5y.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

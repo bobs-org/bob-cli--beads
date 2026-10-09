@@ -11,14 +11,20 @@
 
 ref-sync-v2: births insert the v2 line into the parent's Tasks section, ref notes carry the managed embed, status syncs to the located line across files, and annotation follow-ups go to the parent.
 
+## Notes
+
+[2026-10-09T19:04:21Z · bob-cli-5y.7] PROPOSED FOLLOW-UP: Record the ref-tasks-live-with-their-parent decision after the epic lands — the final memory_ref_parent_decision=no decision forbids editing that memory strand in this phase.
+
+[2026-10-09T19:04:27Z · bob-cli-5y.7] PROPOSED FOLLOW-UP: Update reference-task, reference-note, and area-note glossary strands after the epic lands — their current definitions describe in-note ^ref trackers; memory_glossary_ref_terms=no forbids editing them in this phase.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-5y.11](bob-cli-5y.11.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5y.5](bob-cli-5y.5.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5y.5](bob-cli-5y.5.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.9](bob-cli-5y.9.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.7/README.md) | [bob-cli-5y.7](bob-cli-5y.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-5y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.7.md) | [bob-cli-5y.7](bob-cli-5y.7.md) | 0 |

@@ -36,12 +36,12 @@ Every open reference has exactly one ordinary reading task, `#task #ref` with a 
 | [bob-cli-5y.13](bob-cli-5y.13.md) | Migrate the live vault | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5y.14](bob-cli-5y.14.md) | Retire the transitional bypass, docs coherence, memory, final report | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5y.2](bob-cli-5y.2.md) | One strict parent resolver and project\_name\_aliases | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [bob-cli-5y.3](bob-cli-5y.3.md) | Freshness keys refs on the #ref tag, with the lane split | ✓ closed | medium | 2026-10-09 | 1 | 2 |
+| [bob-cli-5y.3](bob-cli-5y.3.md) | Freshness keys refs on the #ref tag, with the lane split | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5y.4](bob-cli-5y.4.md) | Live alias, install, and the hook passes -P | ✓ closed | small | 2026-10-09 | 1 | 0 |
-| [bob-cli-5y.5](bob-cli-5y.5.md) | The done/-aware ref-task locator and read-side contracts | ◐ in_progress | large | 2026-10-09 | 1 | 0 |
-| [bob-cli-5y.6](bob-cli-5y.6.md) | The open-book identity glyph and picker text | ✓ closed | medium | 2026-10-09 | 1 | 2 |
+| [bob-cli-5y.5](bob-cli-5y.5.md) | The done/-aware ref-task locator and read-side contracts | ✓ closed | large | 2026-10-09 | 1 | 0 |
+| [bob-cli-5y.6](bob-cli-5y.6.md) | The open-book identity glyph and picker text | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5y.7](bob-cli-5y.7.md) | Scan writes reading tasks into parent notes | ◐ in_progress | large | 2026-10-09 | 1 | 0 |
-| [bob-cli-5y.8](bob-cli-5y.8.md) | Bob Mac Capture reads located ref tasks | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [bob-cli-5y.8](bob-cli-5y.8.md) | Bob Mac Capture reads located ref tasks | ◐ in_progress | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5y.9](bob-cli-5y.9.md) | bob ref create requires -P; ingest, jobs, and fallbacks carry the parent | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 
 ## Lineage
@@ -58,7 +58,7 @@ flowchart TD
     n7["bob-cli-5y.2: One strict parent resolver and project_name_aliases [closed]"]
     n8["bob-cli-5y.3: Freshness keys refs on the #ref tag, with the lane split [closed]"]
     n9["bob-cli-5y.4: Live alias, install, and the hook passes -P [closed]"]
-    n10["bob-cli-5y.5: The done/-aware ref-task locator and read-side contracts [in_progress]"]
+    n10["bob-cli-5y.5: The done/-aware ref-task locator and read-side contracts [closed]"]
     n11["bob-cli-5y.6: The open-book identity glyph and picker text [closed]"]
     n12["bob-cli-5y.7: Scan writes reading tasks into parent notes [in_progress]"]
     n13["bob-cli-5y.8: Bob Mac Capture reads located ref tasks [in_progress]"]
@@ -110,12 +110,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-5y.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.13/README.md) | [bob-cli-5y.13](bob-cli-5y.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-5y.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.14/README.md) | [bob-cli-5y.14](bob-cli-5y.14.md) | 0 |
 | [bbugyi200.athena.bob-cli-5y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.2/README.md) | [bob-cli-5y.2](bob-cli-5y.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-5y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.3/README.md) | [bob-cli-5y.3](bob-cli-5y.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-5y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.3/README.md) | [bob-cli-5y.3](bob-cli-5y.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-5y.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.4/README.md) | [bob-cli-5y.4](bob-cli-5y.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-5y.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.5/README.md) | [bob-cli-5y.5](bob-cli-5y.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-5y.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.6/README.md) | [bob-cli-5y.6](bob-cli-5y.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-5y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.7/README.md) | [bob-cli-5y.7](bob-cli-5y.7.md) | 0 |
-| [bbugyi200.athena.bob-cli-5y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.8/README.md) | [bob-cli-5y.8](bob-cli-5y.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-5y.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.6/README.md) | [bob-cli-5y.6](bob-cli-5y.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-5y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.7.md) | [bob-cli-5y.7](bob-cli-5y.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-5y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.8/README.md) | [bob-cli-5y.8](bob-cli-5y.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-5y.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.9/README.md) | [bob-cli-5y.9](bob-cli-5y.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-5y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.land/README.md) | [bob-cli-5y](README.md) | 0 |
 
@@ -125,9 +125,8 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`e0ba61b`](https://github.com/bobs-org/bob-cli/commit/e0ba61b78306c8c98091555001a01c8502b75ef6) | feat(parent-notes): shared parent resolver with project aliases for capture targets and highlights-ref create | [bob-cli-5y.2](bob-cli-5y.2.md) | 2026-10-09 12:49:29 EDT |
 | bob-cli | [`e04c421`](https://github.com/bobs-org/bob-cli/commit/e04c42156c22ea8ed24091249176f3d124517b93) | feat(freshness): re-key ref review identity to the #ref tag with the lane split | [bob-cli-5y.3](bob-cli-5y.3.md) | 2026-10-09 12:57:31 EDT |
-| bob-plugins | [`bob-plugins@947615d`](https://github.com/bobs-org/bob-plugins/commit/947615d8e28871f7144dc859d1f740dcbcc10189) | feat(ledger-tools): mirror the #ref tag identity with the Ready/lane split | [bob-cli-5y.3](bob-cli-5y.3.md) | 2026-10-09 12:58:23 EDT |
 | bob-cli | [`5f845db`](https://github.com/bobs-org/bob-cli/commit/5f845dbb18e5c6b6fe91b669c9cbf96c37090f92) | docs(task-marks): specify the #task #ref open-book glyph and picker text | [bob-cli-5y.6](bob-cli-5y.6.md) | 2026-10-09 13:20:14 EDT |
-| bob-plugins | [`bob-plugins@a0a417a`](https://github.com/bobs-org/bob-plugins/commit/a0a417a0b44c769858a57db0f4b7325a9d89166b) | feat(ref-glyph): render #task #ref pairs as one open-book mark with book picker text | [bob-cli-5y.6](bob-cli-5y.6.md) | 2026-10-09 13:23:25 EDT |
+| bob-mac-capture | [`bob-mac-capture@aa47c1f`](https://github.com/bobs-org/bob-mac-capture/commit/aa47c1f3a9d15e84cab295a46a241816661409be) | feat(refs): read located ref tasks (mac-refs-v2) | [bob-cli-5y.8](bob-cli-5y.8.md) | 2026-10-09 15:14:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
