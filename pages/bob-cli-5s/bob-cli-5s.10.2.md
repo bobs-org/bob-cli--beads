@@ -43,8 +43,10 @@ refs-core-fixes: in bob-mac-capture RefsCore, keep vanished ids in refreshingCon
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.10.2][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-5s.10.3][2] | Need INTERFACE CHANGE entries from predecessor phase | 1 |
+| read-by | [agent:bob-cli-5s.10.4][3] | Need predecessor INTERFACE CHANGE notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md
 
 <!-- sase:referenced-by:end -->
