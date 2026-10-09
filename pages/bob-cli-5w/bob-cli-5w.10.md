@@ -14,7 +14,7 @@ cycler_polish: in task-status-cycler, add an in-memory reopen receipt: reopening
 ## Dependencies
 
 - **Blocks:** [bob-cli-5w.11](bob-cli-5w.11.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5w.8](bob-cli-5w.8.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5w.8](bob-cli-5w.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

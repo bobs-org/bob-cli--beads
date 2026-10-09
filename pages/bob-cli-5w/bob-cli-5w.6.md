@@ -24,7 +24,7 @@ nav_card: in bob-navigation-hotkeys, add the Unblocked notice card in a new frag
 ## Dependencies
 
 - **Depends on:** [bob-cli-5w.2](bob-cli-5w.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5w.8](bob-cli-5w.8.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5w.8](bob-cli-5w.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
