@@ -30,7 +30,7 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-5s.1](bob-cli-5s.1.md) | bob-cli exposes Blocked on ref rows | ✓ closed | small | 2026-10-08 | 1 | 1 |
-| [bob-cli-5s.2](bob-cli-5s.2.md) | Hotkey registry and CI render artifacts in Bob Mac Capture | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.2](bob-cli-5s.2.md) | Hotkey registry and CI render artifacts in Bob Mac Capture | ✓ closed | small | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.3](bob-cli-5s.3.md) | RefsCore target — decoding, item model, fetcher, and stores | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -45,7 +45,7 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 flowchart TD
     n0["bob-cli-5s: Bob Refs: a quick-open panel in Bob Mac Capture that opens reference PDFs in Highlights [in_progress]"]
     n1["bob-cli-5s.1: bob-cli exposes Blocked on ref rows [closed]"]
-    n2["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [in_progress]"]
+    n2["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [closed]"]
     n3["bob-cli-5s.3: RefsCore target — decoding, item model, fetcher, and stores [in_progress]"]
     n4["bob-cli-5s.4: RefsCore ranking — browse sections, search tiers, stability, explanations [in_progress]"]
     n5["bob-cli-5s.5: Refs library service and panel model [in_progress]"]

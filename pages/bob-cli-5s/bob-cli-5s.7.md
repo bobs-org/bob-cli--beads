@@ -13,7 +13,7 @@ refs-entry-points: wire the library and panel into AppDelegate, register the glo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5s.2](bob-cli-5s.2.md) ◐ · ⧖ 2026-10-08
+- **Depends on:** [bob-cli-5s.2](bob-cli-5s.2.md) ✓ · ⧖ 2026-10-08
 - **Depends on:** [bob-cli-5s.6](bob-cli-5s.6.md) ◐ · ⧖ 2026-10-08
 - **Blocks:** [bob-cli-5s.9](bob-cli-5s.9.md) ◐ · ⧖ 2026-10-08
 
