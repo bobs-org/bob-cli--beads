@@ -22,7 +22,7 @@ scan-integration: share one locator index across parallel planning, activate v2 
 ## Dependencies
 
 - **Depends on:** [bob-cli-62.2](bob-cli-62.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-62.4](bob-cli-62.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-62.4](bob-cli-62.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -35,3 +35,15 @@ scan-integration: share one locator index across parallel planning, activate v2 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b1512d6`](https://github.com/bobs-org/bob-cli/commit/b1512d64a76bd2a6bf9096afa0e080aef02a1e21) | feat(highlights-ref): connect scan entrypoints with shared locator index and residence follow-ups | [bob-cli-62.3](bob-cli-62.3.md) | 2026-10-09 17:41:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-62.3--2][1] | need scope to decide close vs keep for final declaration | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.3.md
+
+<!-- sase:referenced-by:end -->
