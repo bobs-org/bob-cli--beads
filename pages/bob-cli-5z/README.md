@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-5z
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.61.w1.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.61.w1.w0.md) · **Assignee:** `bob-cli-5z.land`
-**Created:** 2026-10-09 13:24:48 EDT
+**Created:** 2026-10-09 13:24:48 EDT · **Closed:** 2026-10-09 15:38:49 EDT
 **Plan:** [202610/pomodoro\_override.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_override.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_override.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_override.md
 
@@ -28,6 +28,8 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 ## Notes
 
 [2026-10-09T19:04:20Z · bryanbugyi34@gmail.com] The bob-mac-capture app is no longer building on my macbook (bob-cli-5z.5 caused this I think). See 🔒 bob\_mac\_capture\_install\_error.txt for context.
+
+[2026-10-09T19:38:49Z · bob-cli-5z.land] Land verified. Read all 6 phases + notes and the 6 epic commits (bob-cli 90214f1, 1a7914b, 36df8b8, 999816c; bob-mac-capture 6fc7b00, 0cebe63); idle_fallback=yes honored. Smoke-ran every worked-example row (==, ==3, ==-2, ==~2, ==#bugs, ==3#bugs, ==#plan, ==#capture refusal, ==3#capture, ==#bugs +2) plus idle fallback, prose protection, ==x and ==#bugs=3 teaching errors, and chains (=x ==, =x ==#bugs, ==#bugs --1, +2 ==#bugs) with BOB_NOW=2026-10-09 09:32:00: all match the plan byte-for-byte. Integration: 02029a7 (successor links in closes) composes with =x == chains; 9041927/e9a0ee1 and Mac f4a36e3/aa47c1f don't overlap. LANDING FIXES: (1) Bryan's note: Mac app build broken by 5z.5 (CapturePanelView.swift:2449, statement switch in @ViewBuilder startPreviewItem; every Mac CI run 6fc7b00..aa47c1f failed at Build). Moved the icon choice into a plain startIconName(for:) helper. Verified on the MacBook (Swift 6.3.2): app build clean; using an XCTest stand-in harness (CLT has no XCTest) compiled and ran every test target: CaptureCore 801/801, RefsCore 148/148, BobMacCapture 752 pass + 7 render skips + 1 failure (CaptureCloseTaskCommaTests.testKeyDrivenAssistParseServesCommaEdit, also failing in CI at f4a36e3, from bob-cli-60.1). This is the first compile/run of the 5z.5/5z.6 Swift tests; all pass. (2) Unnamed still-running teaching hint printed a literal ==<X>; it now spells the typed suffix (= -> ==, =3 -> ==3), with a new assertion in override_swap_teaching_errors. just check: fmt+clippy clean (no new warnings); only failures are the 9 highlights_ref::return_links tests (bob-cli-5t) and ref_library::tasks::doctor_reports_ref_tasks_and_parents_rows (fixture missing lib/xlib), neither touched by 5z. FOLLOW-UPS: return_links proposal from 5z.1/5z.2/5z.3/5z.4 is a duplicate of bob-cli-5t -> +1 with independent repro; doctor test -> DISCOVERED ISSUE note on active epic bob-cli-5y (from 5y.5, commit 9041927); Mac comma-assist test -> DISCOVERED ISSUE note on active epic bob-cli-60 (60.2 is driving that CI green; told it the build failure masked its runs). No epic-symbol entries.
 
 ## Attachments
 
@@ -48,7 +50,7 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-5z: `==` Pomodoro override: restart the running session or swap another in [in_progress]"]
+    n0["bob-cli-5z: `==` Pomodoro override: restart the running session or swap another in [closed]"]
     n1["bob-cli-5z.1: Lex, parse, and describe the `==` token family [closed]"]
     n2["bob-cli-5z.2: Execute restarts and the idle fallback, with the override JSON contract [closed]"]
     n3["bob-cli-5z.3: Execute swaps with ledger takeover and first-future demotion [closed]"]
@@ -79,7 +81,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5z.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md) | [bob-cli-5z.4](bob-cli-5z.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5z.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md) | [bob-cli-5z.5](bob-cli-5z.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5z.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.6/README.md) | [bob-cli-5z.6](bob-cli-5z.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5z.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.land/README.md) | [bob-cli-5z](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5z.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.land/README.md) | [bob-cli-5z](README.md) | 1 |
 
 ## Commits
 
@@ -89,6 +91,7 @@ flowchart TD
 | bob-cli | [`1a7914b`](https://github.com/bobs-org/bob-cli/commit/1a7914b9d5ca31d842195f2b2a56d7d1252a2370) | feat(complete): give the ==# name picker its override context | [bob-cli-5z.4](bob-cli-5z.4.md) | 2026-10-09 14:07:08 EDT |
 | bob-cli | [`36df8b8`](https://github.com/bobs-org/bob-cli/commit/36df8b8afed540db39962472d83a153e5c3dbfb9) | feat(capture): execute == restarts with idle fallback and override JSON contract | [bob-cli-5z.2](bob-cli-5z.2.md) | 2026-10-09 14:15:02 EDT |
 | bob-cli | [`999816c`](https://github.com/bobs-org/bob-cli/commit/999816cd77b1600fcefe961862cf3fccc878c9ce) | feat(capture): implement pomodoro swap execution with named override | [bob-cli-5z.3](bob-cli-5z.3.md) | 2026-10-09 14:43:16 EDT |
+| bob-cli | [`4cc1281`](https://github.com/bobs-org/bob-cli/commit/4cc1281af196b39d8029fbaa85a17412450462fe) | fix(capture): spell the concrete == restart in the unnamed still-running hint | [bob-cli-5z](README.md) | 2026-10-09 15:39:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -100,10 +103,12 @@ flowchart TD
 | read-by | [agent:bob-cli-5z.3][2] | epic scope decisions | 1 |
 | read-by | [agent:bob-cli-5z.4][3] | epic status for phase ordering | 1 |
 | read-by | [agent:bob-cli-5z.5][4] | Need epic DECISIONS and scope for phase 5z.5 | 1 |
+| read-by | [agent:bob-cli-5z.6][5] | epic context | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.6/README.md
 
 <!-- sase:referenced-by:end -->

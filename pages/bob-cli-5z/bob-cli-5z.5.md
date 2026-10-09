@@ -35,7 +35,9 @@ mac-override-card: decode the parse flag and `pomodoro_start.override`, extend t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5z.5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-5z.6][2] | Need prior mac phase evidence for 5z.6 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.6/README.md
 
 <!-- sase:referenced-by:end -->
