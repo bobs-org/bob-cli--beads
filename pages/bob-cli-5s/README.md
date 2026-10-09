@@ -29,7 +29,7 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-5s.1](bob-cli-5s.1.md) | bob-cli exposes Blocked on ref rows | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.1](bob-cli-5s.1.md) | bob-cli exposes Blocked on ref rows | ✓ closed | small | 2026-10-08 | 1 | 1 |
 | [bob-cli-5s.2](bob-cli-5s.2.md) | Hotkey registry and CI render artifacts in Bob Mac Capture | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.3](bob-cli-5s.3.md) | RefsCore target — decoding, item model, fetcher, and stores | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.4](bob-cli-5s.4.md) | RefsCore ranking — browse sections, search tiers, stability, explanations | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
@@ -44,7 +44,7 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 ```mermaid
 flowchart TD
     n0["bob-cli-5s: Bob Refs: a quick-open panel in Bob Mac Capture that opens reference PDFs in Highlights [in_progress]"]
-    n1["bob-cli-5s.1: bob-cli exposes Blocked on ref rows [in_progress]"]
+    n1["bob-cli-5s.1: bob-cli exposes Blocked on ref rows [closed]"]
     n2["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [in_progress]"]
     n3["bob-cli-5s.3: RefsCore target — decoding, item model, fetcher, and stores [in_progress]"]
     n4["bob-cli-5s.4: RefsCore ranking — browse sections, search tiers, stability, explanations [in_progress]"]
@@ -79,8 +79,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.1/README.md) | [bob-cli-5s.1](bob-cli-5s.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.2/README.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.1/README.md) | [bob-cli-5s.1](bob-cli-5s.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.3/README.md) | [bob-cli-5s.3](bob-cli-5s.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.4/README.md) | [bob-cli-5s.4](bob-cli-5s.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.5/README.md) | [bob-cli-5s.5](bob-cli-5s.5.md) | 0 |
@@ -90,6 +90,12 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.land/README.md) | [bob-cli-5s](README.md) | 0 |
 
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`4c9cdbe`](https://github.com/bobs-org/bob-cli/commit/4c9cdbe583770f6fa487be18af6615f259e3bf01) | feat(refs): expose Blocked as always-present boolean on ref rows | [bob-cli-5s.1](bob-cli-5s.1.md) | 2026-10-08 20:18:06 EDT |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
@@ -98,6 +104,6 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.2][1] | Need epic scope for phase work | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md
 
 <!-- sase:referenced-by:end -->

@@ -24,7 +24,7 @@ mac-groundwork: replace the single-key HotKeyManager with a HotKeyRegistry that 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.2/README.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md) | [bob-cli-5s.2](bob-cli-5s.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -34,6 +34,6 @@ mac-groundwork: replace the single-key HotKeyManager with a HotKeyRegistry that 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.2][1] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-5s.2.md
 
 <!-- sase:referenced-by:end -->
