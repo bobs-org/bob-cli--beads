@@ -28,13 +28,7 @@ cycler_engine: in task-status-cycler, add pure helpers that mirror the Rust plan
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-5w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.7/README.md) | [bob-cli-5w.7](bob-cli-5w.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@fa0631f`](https://github.com/bobs-org/bob-plugins/commit/fa0631f56e1ab4e690d644ef8dac9ff1fafbd6d0) | feat(task-status-cycler): add pure successor-link helpers and vector tests | [bob-cli-5w.7](bob-cli-5w.7.md) | 2026-10-09 12:49:09 EDT |
+| [bbugyi200.apollo.bob-cli-5w.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.7/README.md) | [bob-cli-5w.7](bob-cli-5w.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -43,7 +37,9 @@ cycler_engine: in task-status-cycler, add pure helpers that mirror the Rust plan
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5w.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-5w.8][2] | Need pure helper API from cycler_engine to wire in 5w.8 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5w.8/README.md
 
 <!-- sase:referenced-by:end -->

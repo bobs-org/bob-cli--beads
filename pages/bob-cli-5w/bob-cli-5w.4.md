@@ -13,7 +13,7 @@ capture_close: in bob-cli, run recovery and successor linking in every close tha
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5w.3](bob-cli-5w.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5w.3](bob-cli-5w.3.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5w.5](bob-cli-5w.5.md) ◐ · ⧖ 2026-10-09
 
 ## Agents

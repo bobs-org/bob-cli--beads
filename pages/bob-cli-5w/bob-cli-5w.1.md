@@ -25,7 +25,7 @@ snapshot: in bob-cli, fix bead bob-cli-5v. Make DependencyContext lazy and resol
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5w.3](bob-cli-5w.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5w.3](bob-cli-5w.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
