@@ -20,7 +20,7 @@ override-swap: implement `==[<X>]#name` (resolve exactly like `=#name`, transfer
 ## Dependencies
 
 - **Depends on:** [bob-cli-5z.2](bob-cli-5z.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5z.5](bob-cli-5z.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5z.5](bob-cli-5z.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -33,3 +33,15 @@ override-swap: implement `==[<X>]#name` (resolve exactly like `=#name`, transfer
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`999816c`](https://github.com/bobs-org/bob-cli/commit/999816cd77b1600fcefe961862cf3fccc878c9ce) | feat(capture): implement pomodoro swap execution with named override | [bob-cli-5z.3](bob-cli-5z.3.md) | 2026-10-09 14:43:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5z.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_override.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_override.md
 
@@ -33,7 +33,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-5z.2](bob-cli-5z.2.md) | Execute restarts and the idle fallback, with the override JSON contract | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.3](bob-cli-5z.3.md) | Execute swaps with ledger takeover and first-future demotion | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-5z.4](bob-cli-5z.4.md) | Give the \`==#\` name picker its override context | ✓ closed | small | 2026-10-09 | 1 | 1 |
-| [bob-cli-5z.5](bob-cli-5z.5.md) | Bob Mac Capture restart and swap preview, footer, and notifications | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [bob-cli-5z.5](bob-cli-5z.5.md) | Bob Mac Capture restart and swap preview, footer, and notifications | ✓ closed | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-5z.6](bob-cli-5z.6.md) | Bob Mac Capture \`==#\` picker status and row hints | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n2["bob-cli-5z.2: Execute restarts and the idle fallback, with the override JSON contract [closed]"]
     n3["bob-cli-5z.3: Execute swaps with ledger takeover and first-future demotion [closed]"]
     n4["bob-cli-5z.4: Give the `==#` name picker its override context [closed]"]
-    n5["bob-cli-5z.5: Bob Mac Capture restart and swap preview, footer, and notifications [in_progress]"]
+    n5["bob-cli-5z.5: Bob Mac Capture restart and swap preview, footer, and notifications [closed]"]
     n6["bob-cli-5z.6: Bob Mac Capture `==#` picker status and row hints [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -89,9 +89,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5z.2][1] | Need epic context for restart phase | 1 |
-| read-by | [agent:bob-cli-5z.4][2] | epic status for phase ordering | 1 |
+| read-by | [agent:bob-cli-5z.3][2] | epic scope decisions | 1 |
+| read-by | [agent:bob-cli-5z.4][3] | epic status for phase ordering | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5z.4/README.md
 
 <!-- sase:referenced-by:end -->
