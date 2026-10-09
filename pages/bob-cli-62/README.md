@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-62.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-62.2/README.md) | [bob-cli-62.2](bob-cli-62.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-62.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.3.md) | [bob-cli-62.3](bob-cli-62.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-62.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.4.md) | [bob-cli-62.4](bob-cli-62.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-62.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.land.md) | [bob-cli-62](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-62.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-62.land.md) | [bob-cli-62](README.md) | 2 |
 
 ## Commits
 
@@ -81,6 +81,7 @@ flowchart TD
 | bob-cli | [`b1512d6`](https://github.com/bobs-org/bob-cli/commit/b1512d64a76bd2a6bf9096afa0e080aef02a1e21) | feat(highlights-ref): connect scan entrypoints with shared locator index and residence follow-ups | [bob-cli-62.3](bob-cli-62.3.md) | 2026-10-09 17:41:43 EDT |
 | bob-cli | [`61e5c47`](https://github.com/bobs-org/bob-cli/commit/61e5c47e511192d91b5a424da904424cb1aadc84) | docs(ref-sync): finish reports, documentation, and acceptance verification | [bob-cli-62.4](bob-cli-62.4.md) | 2026-10-09 18:26:59 EDT |
 | bob-cli | [`7e838c8`](https://github.com/bobs-org/bob-cli/commit/7e838c80fe5761cc606a1a39280f90e20040b327) | fix(ref-sync): repair v2 acceptance seams and land bob-cli-62 | [bob-cli-62](README.md) | 2026-10-09 19:04:55 EDT |
+| bob-cli--plans | [`bob-cli--plans@4394c51`](https://github.com/bobs-org/bob-cli--plans/commit/4394c515f90c0c3876e212764adc00f5ea2754bd) | chore(plans): mark finish\_ref\_sync\_parent\_tasks.md done after bob-cli-62 landing | [bob-cli-62](README.md) | 2026-10-09 19:05:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
