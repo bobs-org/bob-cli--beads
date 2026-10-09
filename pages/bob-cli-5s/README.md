@@ -54,7 +54,7 @@ flowchart TD
     n2["bob-cli-5s.10: Bob Refs landing fixes: make search, error recovery, refresh, ranking, and the inspector match the bob_refs_panel spec [in_progress]"]
     n3["bob-cli-5s.10.1: bob-cli blocked-field polish and stray .build cleanup [closed]"]
     n4["bob-cli-5s.10.2: RefsCore ranking, captions, dates, and refs-rank fixes [closed]"]
-    n5["bob-cli-5s.10.3: Search binding, open-error re-show, unavailable rows, refresh triggers, and live settings [in_progress]"]
+    n5["bob-cli-5s.10.3: Search binding, open-error re-show, unavailable rows, refresh triggers, and live settings [closed]"]
     n6["bob-cli-5s.10.4: Panel visuals, inspector honesty, ⌘K anchor, cleanup, README, and final CI [in_progress]"]
     n7["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [closed]"]
     n8["bob-cli-5s.3: RefsCore target — decoding, item model, fetcher, and stores [closed]"]
@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5s.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md) | [bob-cli-5s.8](bob-cli-5s.8.md) | 5 |
 | [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 5 |
-| [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.land/README.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 0 |
 
 ## Commits
@@ -144,6 +144,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@cf0c8b1`](https://github.com/bobs-org/bob-mac-capture/commit/cf0c8b16e11d7eab78205f333ea5a295c49aaac1) | fix(refs): last-known title cache and test compile fixes | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:36:57 EDT |
 | bob-mac-capture | [`bob-mac-capture@4dcd5f0`](https://github.com/bobs-org/bob-mac-capture/commit/4dcd5f0bed0867abb0b27be108f04143e657e490) | fix(refs): settle the git lane before the wake-test baseline | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:43:30 EDT |
 | bob-mac-capture | [`bob-mac-capture@9979d36`](https://github.com/bobs-org/bob-mac-capture/commit/9979d36b37fa92c8d3402bc91a829e8b14fe10f0) | fix(refs): wait for the git-lane invocation in its test | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 2026-10-09 09:54:42 EDT |
+| bob-mac-capture | [`bob-mac-capture@3f66470`](https://github.com/bobs-org/bob-mac-capture/commit/3f66470cb95016826e35c91e79e4138cf6a94b7f) | fix(refs): panel visuals, inspector honesty, ⌘K anchor, and closeout | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 2026-10-09 10:49:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

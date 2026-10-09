@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-5s.10](bob-cli-5s.10.md) / bob-cli-5s.10.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.bob-cli-5s.land` · **Assignee:** `bob-cli-5s.10.3` · **Size:** medium
-**Created:** 2026-10-09 08:04:27 EDT
+**Created:** 2026-10-09 08:04:27 EDT · **Closed:** 2026-10-09 10:06:29 EDT
 **Plan:** [202610/bob\_refs\_land\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_land_fixes.md)
 
 ## Description
 
 refs-model-fixes: in bob-mac-capture, send typed text to the model, re-show the panel after an open error without resetting it and through BobPanelCoordinator, render unavailable rows per spec §5.5, refresh on wake, Today on every open, git dates in their own lane, ⌘R and Recheck Bob refreshes that re-rank, and live settings re-registration that reads the new value; with tests.
+
+## Notes
+
+[2026-10-09T14:06:29Z · bob-cli-5s.10.3] refs-model-fixes verified: all 9 items implemented with tests in bob-mac-capture (search binding via setQuery, error re-show through coordinator represent path for both open targets, unavailable rows with last-known titles and open refusal, wake on workspace center, Today on every open, -g on own lane after publish, deferred Rerank on R/Retry keeping selection, Recheck .recheck, labeled Today reasons, live settings from received values, Copy Diagnostic via injected pasteboard); README Updates/Opening updated; CI green on 9979d36 (run 37940264190, https://github.com/bobs-org/bob-mac-capture/actions/runs/37940264190); epic-symbols clean; no memory edits. Notes for 10.4: model.panelPresenter is now wired but uncalled in production (error paths use panelRepresenter); no unavailable-row render fixture exists so visual review of the inspector title+message stays with 10.4; the RefsCaption lint hoist repaired 10.2-originated parse errors that gated all CI verification.
 
 ## Dependencies
 

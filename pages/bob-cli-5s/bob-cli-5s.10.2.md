@@ -21,7 +21,7 @@ refs-core-fixes: in bob-mac-capture RefsCore, keep vanished ids in refreshingCon
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5s.10.3](bob-cli-5s.10.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5s.10.3](bob-cli-5s.10.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

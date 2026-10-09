@@ -14,10 +14,16 @@ refs-ui-fixes: in bob-mac-capture, add the content well, Reduce Transparency bas
 ## Dependencies
 
 - **Depends on:** [bob-cli-5s.10.1](bob-cli-5s.10.1.md) ✓ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5s.10.3](bob-cli-5s.10.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5s.10.3](bob-cli-5s.10.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@3f66470`](https://github.com/bobs-org/bob-mac-capture/commit/3f66470cb95016826e35c91e79e4138cf6a94b7f) | fix(refs): panel visuals, inspector honesty, ⌘K anchor, and closeout | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 2026-10-09 10:49:15 EDT |
