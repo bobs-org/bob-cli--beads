@@ -36,8 +36,8 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 | [bob-cli-5s.5](bob-cli-5s.5.md) | Refs library service and panel model | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.6](bob-cli-5s.6.md) | Refs panel window, list, basic inspector, and keyboard | ✓ closed | medium | 2026-10-08 | 1 | 0 |
 | [bob-cli-5s.7](bob-cli-5s.7.md) | Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture | ✓ closed | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.8](bob-cli-5s.8.md) | Kind-adaptive inspector and actions menu | ◐ in_progress | medium | 2026-10-08 | 1 | 0 |
-| [bob-cli-5s.9](bob-cli-5s.9.md) | README coherence, optional memory record, final CI, and Bryan's checklist | ◐ in_progress | small | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.8](bob-cli-5s.8.md) | Kind-adaptive inspector and actions menu | ✓ closed | medium | 2026-10-08 | 1 | 0 |
+| [bob-cli-5s.9](bob-cli-5s.9.md) | README coherence, optional memory record, final CI, and Bryan's checklist | ✓ closed | small | 2026-10-08 | 1 | 1 |
 
 ## Lineage
 
@@ -51,8 +51,8 @@ flowchart TD
     n5["bob-cli-5s.5: Refs library service and panel model [closed]"]
     n6["bob-cli-5s.6: Refs panel window, list, basic inspector, and keyboard [closed]"]
     n7["bob-cli-5s.7: Hotkeys, Highlights takeover, menu, settings, and coexistence with Capture [closed]"]
-    n8["bob-cli-5s.8: Kind-adaptive inspector and actions menu [in_progress]"]
-    n9["bob-cli-5s.9: README coherence, optional memory record, final CI, and Bryan's checklist [in_progress]"]
+    n8["bob-cli-5s.8: Kind-adaptive inspector and actions menu [closed]"]
+    n9["bob-cli-5s.9: README coherence, optional memory record, final CI, and Bryan's checklist [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5s.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.6/README.md) | [bob-cli-5s.6](bob-cli-5s.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.7/README.md) | [bob-cli-5s.7](bob-cli-5s.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-5s.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md) | [bob-cli-5s.8](bob-cli-5s.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-5s.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.land/README.md) | [bob-cli-5s](README.md) | 0 |
 
 ## Commits
@@ -96,6 +96,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`4c9cdbe`](https://github.com/bobs-org/bob-cli/commit/4c9cdbe583770f6fa487be18af6615f259e3bf01) | feat(refs): expose Blocked as always-present boolean on ref rows | [bob-cli-5s.1](bob-cli-5s.1.md) | 2026-10-08 20:18:06 EDT |
 | bob-cli | [`a4c69ff`](https://github.com/bobs-org/bob-cli/commit/a4c69ff8964d85d4340682af9e4a11d8253eb049) | chore(build): record Swift build cache from RefsCore verification | [bob-cli-5s.4](bob-cli-5s.4.md) | 2026-10-09 01:19:19 EDT |
+| bob-cli | [`b6ba7c3`](https://github.com/bobs-org/bob-cli/commit/b6ba7c3387675e9723e416acbbc0c08543137ca0) | docs(readme): document blocked display-only overlay field | [bob-cli-5s.9](bob-cli-5s.9.md) | 2026-10-09 07:25:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
