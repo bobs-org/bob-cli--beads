@@ -22,7 +22,7 @@ v2-execution: implement guarded insertion, adoption, line edits, and archive reo
 ## Dependencies
 
 - **Depends on:** [bob-cli-62.1](bob-cli-62.1.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-62.3](bob-cli-62.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-62.3](bob-cli-62.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -35,3 +35,15 @@ v2-execution: implement guarded insertion, adoption, line edits, and archive reo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4bfacc3`](https://github.com/bobs-org/bob-cli/commit/4bfacc320cab9995a09351a56ce2ab434da4d6a8) | feat(highlights-ref): execute v2 reading-task writes with guarded cross-file edits | [bob-cli-62.2](bob-cli-62.2.md) | 2026-10-09 16:33:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-62.2][1] | check phase notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-62.2/README.md
+
+<!-- sase:referenced-by:end -->

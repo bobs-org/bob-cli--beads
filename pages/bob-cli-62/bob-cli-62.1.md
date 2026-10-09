@@ -42,7 +42,9 @@ v2-planning: add pure v1/v2/birth/reopen planning, parent-free sync snapshots, s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-62.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-62.2][2] | prior phase interfaces for executor | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-62.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-62.2/README.md
 
 <!-- sase:referenced-by:end -->

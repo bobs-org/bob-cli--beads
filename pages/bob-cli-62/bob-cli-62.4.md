@@ -13,7 +13,7 @@ verify-ref-sync: complete human reports and docs, cover the full acceptance matr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-62.3](bob-cli-62.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-62.3](bob-cli-62.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
