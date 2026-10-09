@@ -21,7 +21,7 @@ Error envelope shape (dirty_targets case): {"ok":false,"schema_version":1,"comma
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5x.4](bob-cli-5x.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5x.4](bob-cli-5x.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
@@ -43,8 +43,10 @@ Error envelope shape (dirty_targets case): {"ok":false,"schema_version":1,"comma
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5x.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-5x.3][2] | Need cli-scan-json interface sample and decisions for service phase | 1 |
+| read-by | [agent:bob-cli-5x.4][3] | Need INTERFACE SAMPLE for fixture parity check | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5x.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.3.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5x.4.md
 
 <!-- sase:referenced-by:end -->

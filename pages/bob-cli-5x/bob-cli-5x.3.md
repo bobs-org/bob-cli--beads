@@ -20,7 +20,7 @@ refs-scan-service: run the scan on its own lane with a long timeout, defer watch
 ## Dependencies
 
 - **Depends on:** [bob-cli-5x.2](bob-cli-5x.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5x.4](bob-cli-5x.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5x.4](bob-cli-5x.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
