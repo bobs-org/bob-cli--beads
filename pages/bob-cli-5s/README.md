@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-5s
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.5z` · **Assignee:** `bob-cli-5s.land`
-**Created:** 2026-10-08 19:32:40 EDT
+**Created:** 2026-10-08 19:32:40 EDT · **Closed:** 2026-10-09 11:57:41 EDT
 **Plan:** [202610/bob\_refs\_panel.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_panel.md)
 
 <!-- sase:links:start -->
@@ -31,6 +31,8 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 
 [2026-10-09T11:59:12Z · bob-cli-5s.land] LAND AUDIT (bob-cli-5s.land, before child plan): Read all 9 closed phases and notes, the plan, and every epic commit (bob-cli 4c9cdbe, a4c69ff, b6ba7c3; bob-mac-capture 65ab7ee..2016864). macOS CI green at 2016864 (run 37919892089); no --epic-symbol entries. Drift: no non-epic commits landed in bob-cli or bob-mac-capture since the epic started, so nothing to integrate. Remaining epic-caused work, confirmed in source: (1) CRITICAL: RefsSearchBar onTextChange drops the typed string, so model.query stays empty and search does not work; (2) the open-error re-show calls show() -> prepareForPresentation(), wiping query and pendingOpen, so Try Again and Open in Default App do nothing, and it bypasses BobPanelCoordinator; (3) the wake observer is on NotificationCenter.default instead of NSWorkspace's center; (4) Today is not refreshed on every open; the -g pass runs inside refs-list, so a git failure discards the snapshot; (5) AppDelegate @Published sinks re-read the old value, so the ⌃⇧⌘R toggle is inverted; (6) section 5.5 unavailable rows are dropped instead of dimmed (README claims dimmed); (7) 2-char word prefixes never reach T1; ranker uses UTC days; Ready sorts by last-opened, not added desc; git dates not marked approximate; (8) the 3 s intrinsics timeout cannot fire; the Cmd-K menu is anchored at the mouse, not the selected row; content well, Reduce Transparency base, and per-show scale-in are missing; inspector honesty violations ('Unknown date', 'Added Added', '0 open'); (9) dead symbols, refs-piece debug renders, README gaps; (10) bob-cli: a4c69ff committed stray .build/ Swift cache files, blocked key order, missing several-trackers test, docs/ref.md client/additive notes. Planned as child epic sase_plan_bob_refs_land_fixes.md (phases cli-blocked-polish, refs-core-fixes, refs-model-fixes, refs-ui-fixes).
 
+[2026-10-09T15:57:41Z · bob-cli-5s.10.land] RECHECK after child bob-cli-5s.10. Phases 5s.1-5s.9 were already closed; their follow-ups were triaged in note #1 (bob-cli-5u, bob-cli-5t, bob-cli-4k +1, and the declined items). Note #2's ten spec gaps are the child epic, now closed, including the stale-refresh argv race its landing tale fixed by waiting for the git-date lane in testRefreshIfStale. highlights_open_key remains cmdO. refs_decision_memory=no stands; the memory record is task bob-cli-5u, not an edit made here. No --epic-symbol entries. No non-epic drift to integrate. Parent plan marked done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,13 +51,13 @@ One keystroke (⌃⇧⌘R anywhere, or the Open… key while Highlights is front
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-5s: Bob Refs: a quick-open panel in Bob Mac Capture that opens reference PDFs in Highlights [in_progress]"]
+    n0["bob-cli-5s: Bob Refs: a quick-open panel in Bob Mac Capture that opens reference PDFs in Highlights [closed]"]
     n1["bob-cli-5s.1: bob-cli exposes Blocked on ref rows [closed]"]
-    n2["bob-cli-5s.10: Bob Refs landing fixes: make search, error recovery, refresh, ranking, and the inspector match the bob_refs_panel spec [in_progress]"]
+    n2["bob-cli-5s.10: Bob Refs landing fixes: make search, error recovery, refresh, ranking, and the inspector match the bob_refs_panel spec [closed]"]
     n3["bob-cli-5s.10.1: bob-cli blocked-field polish and stray .build cleanup [closed]"]
     n4["bob-cli-5s.10.2: RefsCore ranking, captions, dates, and refs-rank fixes [closed]"]
     n5["bob-cli-5s.10.3: Search binding, open-error re-show, unavailable rows, refresh triggers, and live settings [closed]"]
-    n6["bob-cli-5s.10.4: Panel visuals, inspector honesty, ⌘K anchor, cleanup, README, and final CI [in_progress]"]
+    n6["bob-cli-5s.10.4: Panel visuals, inspector honesty, ⌘K anchor, cleanup, README, and final CI [closed]"]
     n7["bob-cli-5s.2: Hotkey registry and CI render artifacts in Bob Mac Capture [closed]"]
     n8["bob-cli-5s.3: RefsCore target — decoding, item model, fetcher, and stores [closed]"]
     n9["bob-cli-5s.4: RefsCore ranking — browse sections, search tiers, stability, explanations [closed]"]
@@ -110,7 +112,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-5s.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md) | [bob-cli-5s.9](bob-cli-5s.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-5s.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.3/README.md) | [bob-cli-5s.10.3](bob-cli-5s.10.3.md) | 5 |
 | [bbugyi200.athena.bob-cli-5s.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.4/README.md) | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 3 |
-| [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5s.10.land/README.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-5s.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5s.10.land.md) | [bob-cli-5s.10](bob-cli-5s.10.md) | 1 |
 
 ## Commits
 
@@ -147,6 +149,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@3f66470`](https://github.com/bobs-org/bob-mac-capture/commit/3f66470cb95016826e35c91e79e4138cf6a94b7f) | fix(refs): panel visuals, inspector honesty, ⌘K anchor, and closeout | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 2026-10-09 10:49:15 EDT |
 | bob-mac-capture | [`bob-mac-capture@649e0b9`](https://github.com/bobs-org/bob-mac-capture/commit/649e0b9bc733fbed365debe3ed773b14f00cb42e) | fix(refs): force the Reduce Transparency render through a view knob | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 2026-10-09 10:52:30 EDT |
 | bob-mac-capture | [`bob-mac-capture@d5fcac0`](https://github.com/bobs-org/bob-mac-capture/commit/d5fcac0d07b872dc633f5ebb201a6cc56a36d875) | fix(refs): race the intrinsics timeout on a continuation | [bob-cli-5s.10.4](bob-cli-5s.10.4.md) | 2026-10-09 11:09:46 EDT |
+| bob-mac-capture | [`bob-mac-capture@a87859f`](https://github.com/bobs-org/bob-mac-capture/commit/a87859f251b10346b60051ff713291bd71cb8f78) | fix(refs): settle the git-date lane in testRefreshIfStale before the argv baseline | [bob-cli-5s.10](bob-cli-5s.10.md) | 2026-10-09 12:20:14 EDT |
 
 <!-- sase:referenced-by:start -->
 

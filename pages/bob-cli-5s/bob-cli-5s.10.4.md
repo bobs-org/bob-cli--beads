@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-5s.10](bob-cli-5s.10.md) / bob-cli-5s.10.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.bob-cli-5s.land` · **Assignee:** `bob-cli-5s.10.4` · **Size:** medium
-**Created:** 2026-10-09 08:04:27 EDT
+**Created:** 2026-10-09 08:04:27 EDT · **Closed:** 2026-10-09 11:32:18 EDT
 **Plan:** [202610/bob\_refs\_land\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_refs_land_fixes.md)
 
 ## Description
 
 refs-ui-fixes: in bob-mac-capture, add the content well, Reduce Transparency base, and per-show scale-in; fix inspector honesty rules, the 3 s intrinsics timeout, and the ⌘K anchor; render stem/secondary caption ranges; fix row VoiceOver labels; remove dead symbols and debug renders; make the README's Bob Refs section coherent; confirm final CI and render fixtures.
+
+## Notes
+
+[2026-10-09T15:32:18Z · bob-cli-5s.10.4] refs-ui-fixes verified: all 10 items in bob-mac-capture, 3 commits (3f66470 scope, 649e0b9 transparency-knob compile fix, d5fcac0 continuation timeout race). CI green on final SHA d5fcac0 (run 37949647297, https://github.com/bobs-org/bob-mac-capture/actions/runs/37949647297, success on --failed rerun); swift-format lint + build green; RefsCoreTests 98/98 pass on Linux incl. new caption-range/no-repeat-author tests. Render-fixtures reviewed in light+dark: well, sections, rows, unavailable row (dimmed, keeps index, title+message inspector), stem-match caption (accent stem, unmarked title), inspector chat/paper/encrypted/missing-PDF (no Unknown date, no Added repeat, Tasks only when open, ABSTRACT papers-only, ↵ callout), banner, Reduce Transparency; no clipping/contrast issues. No --epic-symbol leftovers. No memory edits. FLAKE NOTE: RefsLibraryTests.testRefreshIfStale failed 4-vs-3 argv twice on first attempts (an untouched refresh path; my diff cannot add bob invocations) and passed on the sanctioned --failed rerun; treating as timing flake, no test changed. MAC CHECKLIST UPDATE (from bob-cli-5s.9 note 3): typing in the search field filters live; an open error re-shows the panel with query/selection/pending-open intact and Try Again re-dispatches; a deleted reference stays dimmed in place and never opens; toggling Ctrl-Shift-Cmd-R in Settings applies at once.
 
 ## Dependencies
 

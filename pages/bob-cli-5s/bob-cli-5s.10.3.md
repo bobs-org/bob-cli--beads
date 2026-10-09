@@ -18,7 +18,7 @@ refs-model-fixes: in bob-mac-capture, send typed text to the model, re-show the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-5s.10.2](bob-cli-5s.10.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5s.10.4](bob-cli-5s.10.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5s.10.4](bob-cli-5s.10.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

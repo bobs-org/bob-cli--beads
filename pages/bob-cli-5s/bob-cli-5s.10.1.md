@@ -19,7 +19,7 @@ cli-blocked-polish: untrack the stray `.build/` files and ignore `/.build/`, ser
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5s.10.4](bob-cli-5s.10.4.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5s.10.4](bob-cli-5s.10.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
