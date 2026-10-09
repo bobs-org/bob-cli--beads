@@ -24,7 +24,7 @@ contract: in bob-cli docs, add task-dependencies §12 (rule, anchors, placement,
 ## Dependencies
 
 - **Blocks:** [bob-cli-5w.3](bob-cli-5w.3.md) ◐ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5w.6](bob-cli-5w.6.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5w.6](bob-cli-5w.6.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5w.7](bob-cli-5w.7.md) ◐ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5w.9](bob-cli-5w.9.md) ◐ · ⧖ 2026-10-09
 
