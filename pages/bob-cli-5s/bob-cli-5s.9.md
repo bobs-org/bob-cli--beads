@@ -48,7 +48,9 @@ refs-closeout: make the README's Bob Refs section coherent, apply or record the 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-5s.8][1] | Need to avoid conflicting with closeout work | 1 |
+| read-by | [agent:bob-cli-5s.9][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-5s.9/README.md
 
 <!-- sase:referenced-by:end -->
