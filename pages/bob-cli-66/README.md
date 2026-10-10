@@ -31,7 +31,7 @@ When the capture panel opens with an empty draft, it already shows today's agend
 | [bob-cli-66.2](bob-cli-66.2.md) | Agenda JSON models, client call, fake-bob branch, and fixtures | ✓ closed | small | 2026-10-09 | 1 | 1 |
 | [bob-cli-66.3](bob-cli-66.3.md) | In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [bob-cli-66.4](bob-cli-66.4.md) | Agenda presentation, inline text, and the focus-gradient fit planner | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [bob-cli-66.5](bob-cli-66.5.md) | Agenda view, row measurer, panel integration, and fixed eye line | ◐ in_progress | medium | 2026-10-09 | 1 | 3 |
+| [bob-cli-66.5](bob-cli-66.5.md) | Agenda view, row measurer, panel integration, and fixed eye line | ◐ in_progress | medium | 2026-10-09 | 1 | 4 |
 | [bob-cli-66.6](bob-cli-66.6.md) | Transitions, countdown, stale and error states, accessibility, signposts, README | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-66.7](bob-cli-66.7.md) | Decisions record, final verification, follow-ups, and Bryan's checklist | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-66.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.2.md) | [bob-cli-66.2](bob-cli-66.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md) | [bob-cli-66.3](bob-cli-66.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-66.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.4/README.md) | [bob-cli-66.4](bob-cli-66.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md) | [bob-cli-66.5](bob-cli-66.5.md) | 3 |
+| [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md) | [bob-cli-66.5](bob-cli-66.5.md) | 4 |
 | [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.6/README.md) | [bob-cli-66.6](bob-cli-66.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.land/README.md) | [bob-cli-66](README.md) | 0 |
@@ -88,3 +88,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@27c0c2d`](https://github.com/bobs-org/bob-mac-capture/commit/27c0c2d15c721385b7f50805fca22ba75ff44dc9) | feat(agenda): agenda view, row measurer, panel integration, fixed eye line | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:03:55 EDT |
 | bob-mac-capture | [`bob-mac-capture@c71fe51`](https://github.com/bobs-org/bob-mac-capture/commit/c71fe512c8994dd9bd11e4e1f7483ba95f890c70) | fix(agenda): repair mac-agenda-view CI build errors | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:15:26 EDT |
 | bob-mac-capture | [`bob-mac-capture@c27359f`](https://github.com/bobs-org/bob-mac-capture/commit/c27359ff8e0da4dab3572f752937c08c0c5e20b6) | fix(agenda): repair mac-agenda-view CI test failures | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:34:32 EDT |
+| bob-mac-capture | [`bob-mac-capture@c4dc4b6`](https://github.com/bobs-org/bob-mac-capture/commit/c4dc4b63062733f73678e33f65c2dc7011a4a025) | fix(agenda): qualify width helper as Self.width in height resolver | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:43:40 EDT |
