@@ -25,7 +25,7 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 
 - **Depends on:** [bob-cli-66.3](bob-cli-66.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-66.4](bob-cli-66.4.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-66.6](bob-cli-66.6.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-66.6](bob-cli-66.6.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

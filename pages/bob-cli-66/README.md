@@ -32,8 +32,8 @@ When the capture panel opens with an empty draft, it already shows today's agend
 | [bob-cli-66.3](bob-cli-66.3.md) | In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [bob-cli-66.4](bob-cli-66.4.md) | Agenda presentation, inline text, and the focus-gradient fit planner | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-66.5](bob-cli-66.5.md) | Agenda view, row measurer, panel integration, and fixed eye line | ✓ closed | medium | 2026-10-09 | 1 | 4 |
-| [bob-cli-66.6](bob-cli-66.6.md) | Transitions, countdown, stale and error states, accessibility, signposts, README | ◐ in_progress | medium | 2026-10-09 | 1 | 1 |
-| [bob-cli-66.7](bob-cli-66.7.md) | Decisions record, final verification, follow-ups, and Bryan's checklist | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
+| [bob-cli-66.6](bob-cli-66.6.md) | Transitions, countdown, stale and error states, accessibility, signposts, README | ✓ closed | medium | 2026-10-09 | 1 | 1 |
+| [bob-cli-66.7](bob-cli-66.7.md) | Decisions record, final verification, follow-ups, and Bryan's checklist | ✓ closed | small | 2026-10-09 | 1 | 1 |
 
 ## Lineage
 
@@ -45,8 +45,8 @@ flowchart TD
     n3["bob-cli-66.3: In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot [closed]"]
     n4["bob-cli-66.4: Agenda presentation, inline text, and the focus-gradient fit planner [closed]"]
     n5["bob-cli-66.5: Agenda view, row measurer, panel integration, and fixed eye line [closed]"]
-    n6["bob-cli-66.6: Transitions, countdown, stale and error states, accessibility, signposts, README [in_progress]"]
-    n7["bob-cli-66.7: Decisions record, final verification, follow-ups, and Bryan's checklist [in_progress]"]
+    n6["bob-cli-66.6: Transitions, countdown, stale and error states, accessibility, signposts, README [closed]"]
+    n7["bob-cli-66.7: Decisions record, final verification, follow-ups, and Bryan's checklist [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -72,8 +72,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-66.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md) | [bob-cli-66.3](bob-cli-66.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-66.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.4/README.md) | [bob-cli-66.4](bob-cli-66.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md) | [bob-cli-66.5](bob-cli-66.5.md) | 4 |
-| [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.6/README.md) | [bob-cli-66.6](bob-cli-66.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.6.md) | [bob-cli-66.6](bob-cli-66.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.land/README.md) | [bob-cli-66](README.md) | 0 |
 
 ## Commits
@@ -90,3 +90,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@c27359f`](https://github.com/bobs-org/bob-mac-capture/commit/c27359ff8e0da4dab3572f752937c08c0c5e20b6) | fix(agenda): repair mac-agenda-view CI test failures | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:34:32 EDT |
 | bob-mac-capture | [`bob-mac-capture@c4dc4b6`](https://github.com/bobs-org/bob-mac-capture/commit/c4dc4b63062733f73678e33f65c2dc7011a4a025) | fix(agenda): qualify width helper as Self.width in height resolver | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:43:40 EDT |
 | bob-mac-capture | [`bob-mac-capture@f8c9c28`](https://github.com/bobs-org/bob-mac-capture/commit/f8c9c28ce4a7ac1d4b08ba2a07dfde4df4ab9e27) | feat(agenda): transitions, countdown, states, accessibility, signposts, README | [bob-cli-66.6](bob-cli-66.6.md) | 2026-10-09 21:17:12 EDT |
+| bob-cli | [`817fd2b`](https://github.com/bobs-org/bob-cli/commit/817fd2b47b1b8d7314ee8e9528193ef0f58b387d) | docs(decisions): record idle agenda caching, folding, and eye-line policy | [bob-cli-66.7](bob-cli-66.7.md) | 2026-10-09 21:38:35 EDT |
