@@ -53,8 +53,10 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 | read-by | [agent:bob-cli-66.5--1][2] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-66.5--2][2] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-66.5--3][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-66.7][3] | closeout collecting evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md
 
 <!-- sase:referenced-by:end -->

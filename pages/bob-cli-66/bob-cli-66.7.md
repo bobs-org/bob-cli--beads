@@ -40,3 +40,15 @@ closeout: write the accepted `decisions` record for the idle agenda (if the memo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`817fd2b`](https://github.com/bobs-org/bob-cli/commit/817fd2b47b1b8d7314ee8e9528193ef0f58b387d) | docs(decisions): record idle agenda caching, folding, and eye-line policy | [bob-cli-66.7](bob-cli-66.7.md) | 2026-10-09 21:38:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-66.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md
+
+<!-- sase:referenced-by:end -->

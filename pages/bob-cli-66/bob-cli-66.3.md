@@ -42,7 +42,9 @@ mac-agenda-store: add the pure refresh state machine and relevance filter in Cap
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-66.3][1] | Need phase notes and remaining work check | 2 |
+| read-by | [agent:bob-cli-66.7][2] | closeout collecting evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md
 
 <!-- sase:referenced-by:end -->

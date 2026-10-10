@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/idle_capture_pomodoro_agenda.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/idle_capture_pomodoro_agenda.md
 
 <!-- sase:links:end -->
@@ -22,6 +24,12 @@
 ## Description
 
 When the capture panel opens with an empty draft, it already shows today's agenda, painted from memory in the first frame: the running Pomodoro and every future Pomodoro, each with its linked tasks at the most detail that fits below a fixed eye line without scrolling. The `=x` and `=` numbers match the ones bob will use. Detail folds per Pomodoro, farthest first: logs, then one-line tasks, then one row per Pomodoro, then a name strip. bob owns every fact; the app owns caching, fitting, and pixels.
+
+## Notes
+
+[2026-10-10T02:08:50Z · bob-cli-66.land] LAND TRIAGE (bob-cli-66.land): PROPOSED FOLLOW-UP outcomes. bob-cli-66.5 #2 (macOS CI timing flakes): +1 on existing bob-cli-61 (RefsPanelModelTests refresh-reorder) and bob-cli-4k (StartPending preview timeout), using CI run 38010286522 same-SHA c4dc4b6 attempts; new flake task bob-cli-67 for RefsLibraryTests.testTriggersDuringRefreshRunExactlyOneFollowUp (attempt 1 failed 5!=4, attempts 2-3 passed). bob-cli-66.5 #3 (decisions record not written): declined, already addressed by bob-cli-66.7 (strand idle-capture-shows-ledger-agenda, commit 817fd2b). bob-cli-66.7 #1-#4: new feature tasks bob-cli-68 (row click opens Obsidian), bob-cli-69 (Option full-detail scroll), bob-cli-6a (Cmd+1..9 insert), bob-cli-6b (plan-budget capsules). bob-cli-66.7 #5 (sources[] stat fingerprints): declined, because the plan makes it conditional on Mac signposts showing that unfiltered refreshes cost something, no such evidence exists, and a speculative task would be wish-list work. No active epic was causally related to any proposal.
+
+[2026-10-10T02:10:35Z · bob-cli-66.land] LAND VERIFICATION (bob-cli-66.land): all 7 phases closed. Commits: bob-cli 6562b71 and 817fd2b; bob-mac-capture febd4dd..f8c9c28, CI 38012589878 green. bob-cli just check is green. epic-symbols is empty. Integration: bob-cli commits 61e5c47..091eda9 (ref-sync, ref create, migrate-tasks, gkeep @route) do not touch the agenda; 091eda9 edits docs/capture.md but not the --tasks section. bob-mac-capture f51cdc1 (bob-cli-5y.12 File-under picker) rides completionVisible, so it already hides the agenda and releases the dim-hold; only a rebase is needed. The source audit found epic-caused bugs that block close. Mac, high: the CapturePanelModel $snapshot sink re-plans from the store's old value (@Published emits in willSet), so the agenda renders the previous snapshot; status-only changes (stale, unsupported) never re-plan; placePanelAtEyeLine sets only y and keeps origin.x=0 from makePanel, so the panel opens at the left edge, and the eye line is not where center() puts it. Mac, medium: the count is not restored on an unchanged refresh after a failure; the Settings diagnostic lags one change behind (willSet); observeBobSettings uses combineLatest+dropFirst, so it needs both settings to change; the filter's directory rule uses OR'd batch flags, so .git dir events count; a '+0 lines' chip appears; headerWithNotesChip draws the time/countdown inside the notes chip. bob-cli: starts_at/ends_at are omitted instead of null; the human header is missing its second separator; a nested log marker inherits its parent's log kind; completed_summary ignores the pomodoro_adjust duration helper. Remaining work goes to a tale plan.
 
 ## Phases
 
@@ -74,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md) | [bob-cli-66.5](bob-cli-66.5.md) | 4 |
 | [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.6.md) | [bob-cli-66.6](bob-cli-66.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.land/README.md) | [bob-cli-66](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.land.md) | [bob-cli-66](README.md) | 1 |
 
 ## Commits
 
@@ -91,3 +99,16 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@c4dc4b6`](https://github.com/bobs-org/bob-mac-capture/commit/c4dc4b63062733f73678e33f65c2dc7011a4a025) | fix(agenda): qualify width helper as Self.width in height resolver | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:43:40 EDT |
 | bob-mac-capture | [`bob-mac-capture@f8c9c28`](https://github.com/bobs-org/bob-mac-capture/commit/f8c9c28ce4a7ac1d4b08ba2a07dfde4df4ab9e27) | feat(agenda): transitions, countdown, states, accessibility, signposts, README | [bob-cli-66.6](bob-cli-66.6.md) | 2026-10-09 21:17:12 EDT |
 | bob-cli | [`817fd2b`](https://github.com/bobs-org/bob-cli/commit/817fd2b47b1b8d7314ee8e9528193ef0f58b387d) | docs(decisions): record idle agenda caching, folding, and eye-line policy | [bob-cli-66.7](bob-cli-66.7.md) | 2026-10-09 21:38:35 EDT |
+| bob-mac-capture | [`bob-mac-capture@06b2bda`](https://github.com/bobs-org/bob-mac-capture/commit/06b2bda06be5670c74871b66ceabf42ed6415328) | fix(agenda): repair idle agenda landing bugs B1-B9 | [bob-cli-66](README.md) | 2026-10-09 22:32:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-66.7][1] | closeout needs epic context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md
+
+<!-- sase:referenced-by:end -->
