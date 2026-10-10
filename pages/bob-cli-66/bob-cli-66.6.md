@@ -13,11 +13,17 @@ mac-agenda-polish: add the first-keystroke dim-hold, the in-place cross-fade, th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-66.5](bob-cli-66.5.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-66.5](bob-cli-66.5.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-66.7](bob-cli-66.7.md) ◐ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.6/README.md) | [bob-cli-66.6](bob-cli-66.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.6/README.md) | [bob-cli-66.6](bob-cli-66.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@f8c9c28`](https://github.com/bobs-org/bob-mac-capture/commit/f8c9c28ce4a7ac1d4b08ba2a07dfde4df4ab9e27) | feat(agenda): transitions, countdown, states, accessibility, signposts, README | [bob-cli-66.6](bob-cli-66.6.md) | 2026-10-09 21:17:12 EDT |

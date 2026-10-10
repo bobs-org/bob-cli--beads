@@ -20,7 +20,7 @@ mac-agenda-planner: add the pure CaptureCore `CaptureAgendaPresentation` (groups
 ## Dependencies
 
 - **Depends on:** [bob-cli-66.2](bob-cli-66.2.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-66.5](bob-cli-66.5.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-66.5](bob-cli-66.5.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

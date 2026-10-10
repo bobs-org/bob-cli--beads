@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-66](README.md) / bob-cli-66.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.48.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.48.linker.w0.md) · **Assignee:** `bob-cli-66.5` · **Size:** medium
-**Created:** 2026-10-09 17:42:23 EDT
+**Created:** 2026-10-09 17:42:23 EDT · **Closed:** 2026-10-09 21:06:01 EDT
 **Plan:** [202610/idle\_capture\_pomodoro\_agenda.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/idle_capture_pomodoro_agenda.md)
 
 ## Description
@@ -14,6 +14,12 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 ## Notes
 
 [2026-10-10T00:05:43Z · bob-cli-66.5] Committed 27c0c2d to bob-mac-capture master (kept open): CaptureAgendaView + row views, CaptureAgendaRowMeasurer, model wiring, auxiliary integration with budget cap, CapturePanelPlacement eye line, agendaEnabled toggle. CI run https://github.com/bobs-org/bob-cli--beads/actions/runs/38007392441 pending; PNG review + fix-forward owned by monitor follow-up.
+
+[2026-10-10T01:05:49Z · bob-cli-66.5--4] PROPOSED FOLLOW-UP: macOS CI timing flakes on degraded arm64 runners (GitHub capacity-constraint annotation on every run) — RefsLibraryTests/testTriggersDuringRefreshRunExactlyOneFollowUp coalescing count, CapturePanelModelTests/testStartPendingListPreviewsTrimmedDraftWithStartDisabled preview waitUntil timeout, RefsPanelModelTests/testRefreshReordersFromNewDataKeepingSelection model timeout; three runs on identical SHA c4dc4b6 fail differently each time while all agenda suites pass; implicated code is byte-identical to green base 3d36a02. Consider bumping waitUntil timeouts or quarantining these tests.
+
+[2026-10-10T01:05:52Z · bob-cli-66.5--4] PROPOSED FOLLOW-UP: epic DECISIONS authorize one decisions-memory record for the idle agenda caching/folding/eye-line policy, but this session has no /sase_memory_write skill available, so the record was not written; land agent should add it via the proper skill.
+
+[2026-10-10T01:06:01Z · bob-cli-66.5--4] CI run https://github.com/bobs-org/bob-mac-capture/actions/runs/38010286522 @ c4dc4b6: Build+Lint green on all 3 attempts; every agenda suite green (Design, FitPlanner, HeightConsistency, InlineText, Model, Models, Presentation, RefreshFilter, RefreshState, Store, Visibility, EyeLine, Placement). Reviewed all agenda-*.png render-fixtures against plan section 6 (thinMaterial pane, title row, pink Now rail+wash, typography, chips, folding ladder, quiet states) — calm and deliberate, no fixes needed. Red only from timing flakes outside phase scope (recorded as PROPOSED FOLLOW-UPs): implicated code byte-identical to green base 3d36a02, failures vary across identical-SHA runs, GitHub flags degraded macOS arm64 capacity. epic-symbols empty.
 
 ## Dependencies
 
@@ -46,6 +52,7 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 | read-by | [agent:bob-cli-66.5][2] | Need phase notes and remaining work | 3 |
 | read-by | [agent:bob-cli-66.5--1][2] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-66.5--2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-66.5--3][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md
