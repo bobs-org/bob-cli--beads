@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md) | [bob-cli-66.5](bob-cli-66.5.md) | 4 |
 | [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.6.md) | [bob-cli-66.6](bob-cli-66.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.land.md) | [bob-cli-66](README.md) | 7 |
+| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.land.md) | [bob-cli-66](README.md) | 8 |
 
 ## Commits
 
@@ -108,6 +108,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@a78d044`](https://github.com/bobs-org/bob-mac-capture/commit/a78d0442d536520e47992b31c1eca6b31a5fb07b) | fix(agenda): derive eye line from fresh inset, guard probe resize | [bob-cli-66](README.md) | 2026-10-09 23:38:02 EDT |
 | bob-mac-capture | [`bob-mac-capture@f69723c`](https://github.com/bobs-org/bob-mac-capture/commit/f69723c0f104bb08b1faa553eb663b7e9392723b) | fix(agenda): re-derive eye line when titlebar inset settles | [bob-cli-66](README.md) | 2026-10-09 23:47:58 EDT |
 | bob-mac-capture | [`bob-mac-capture@131e377`](https://github.com/bobs-org/bob-mac-capture/commit/131e377e0d89af5d9fe8823b9fac0a2f94563250) | test(agenda): derive eye-line reference from observed footer | [bob-cli-66](README.md) | 2026-10-10 00:01:27 EDT |
+| bob-cli | [`0f8ff5a`](https://github.com/bobs-org/bob-cli/commit/0f8ff5ac74f246207bf1c27cafe043194948b33c) | feat(agenda): idle capture agenda Part A fixes A1-A6 with null-key goldens | [bob-cli-66](README.md) | 2026-10-10 00:24:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
