@@ -13,7 +13,7 @@ mac-file-under: open a File under picker for a bare URL, insert the chosen @rout
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5y.10](bob-cli-5y.10.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5y.10](bob-cli-5y.10.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.14](bob-cli-5y.14.md) ◐ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.8](bob-cli-5y.8.md) ✓ · ⧖ 2026-10-09
 
