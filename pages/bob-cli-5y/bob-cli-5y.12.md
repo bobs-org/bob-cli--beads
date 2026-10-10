@@ -22,17 +22,23 @@ mac-file-under: open a File under picker for a bare URL, insert the chosen @rout
 ## Dependencies
 
 - **Depends on:** [bob-cli-5y.10](bob-cli-5y.10.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5y.14](bob-cli-5y.14.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.14](bob-cli-5y.14.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.8](bob-cli-5y.8.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5y.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.12.md) | [bob-cli-5y.12](bob-cli-5y.12.md) | 1 |
+| [bbugyi200.athena.bob-cli-5y.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.12.md) | [bob-cli-5y.12](bob-cli-5y.12.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@f51cdc1`](https://github.com/bobs-org/bob-mac-capture/commit/f51cdc18dc35253ced7fa0542999e4544550eb35) | feat(capture-ref): ask where a captured link belongs with File under picker | [bob-cli-5y.12](bob-cli-5y.12.md) | 2026-10-09 21:57:55 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5y.12--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.12.md
+
+<!-- sase:referenced-by:end -->
