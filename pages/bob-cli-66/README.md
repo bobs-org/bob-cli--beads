@@ -31,6 +31,8 @@ When the capture panel opens with an empty draft, it already shows today's agend
 
 [2026-10-10T02:10:35Z · bob-cli-66.land] LAND VERIFICATION (bob-cli-66.land): all 7 phases closed. Commits: bob-cli 6562b71 and 817fd2b; bob-mac-capture febd4dd..f8c9c28, CI 38012589878 green. bob-cli just check is green. epic-symbols is empty. Integration: bob-cli commits 61e5c47..091eda9 (ref-sync, ref create, migrate-tasks, gkeep @route) do not touch the agenda; 091eda9 edits docs/capture.md but not the --tasks section. bob-mac-capture f51cdc1 (bob-cli-5y.12 File-under picker) rides completionVisible, so it already hides the agenda and releases the dim-hold; only a rebase is needed. The source audit found epic-caused bugs that block close. Mac, high: the CapturePanelModel $snapshot sink re-plans from the store's old value (@Published emits in willSet), so the agenda renders the previous snapshot; status-only changes (stale, unsupported) never re-plan; placePanelAtEyeLine sets only y and keeps origin.x=0 from makePanel, so the panel opens at the left edge, and the eye line is not where center() puts it. Mac, medium: the count is not restored on an unchanged refresh after a failure; the Settings diagnostic lags one change behind (willSet); observeBobSettings uses combineLatest+dropFirst, so it needs both settings to change; the filter's directory rule uses OR'd batch flags, so .git dir events count; a '+0 lines' chip appears; headerWithNotesChip draws the time/countdown inside the notes chip. bob-cli: starts_at/ends_at are omitted instead of null; the human header is missing its second separator; a nested log marker inherits its parent's log kind; completed_summary ignores the pomodoro_adjust duration helper. Remaining work goes to a tale plan.
 
+[2026-10-10T02:38:55Z · bob-cli-5y.land] DISCOVERED ISSUE (from bob-cli-5y.land integration review): the idle agenda drops reference-reading identity. Since bob-cli-5y moved every open ref task into root area/project notes as '#task #ref [[ref/...|Title]] ^ref-<slug>' lines (live vault: 32 in sase.md, bob.md, sase_memory.md, sase_goals.md, sase_blog_0.md, sase_agent_history.md), Bryan links them from Pomodoros, so they appear in 'bob capture-pomodoros --tasks'. src/native/capture_pomodoros_agenda.rs resolve_item builds AgendaItem from note_tasks::NoteTask, which already carries task_kind: Some("ref") (added 9041927, before 66.1's 6562b71), but AgendaItem never serializes it and its text comes from clean_description, which strips the #ref after #task. Result: agenda rows show the bare article title with no book glyph, while every other Mac picker draws SF Symbol book for task_kind == "ref" (bob-cli-5y §7, CompletionRowContent.swift). Suggested fix: additive optional task_kind on AgendaItem (skip when None; schema stays 1) plus a book symbol on Mac agenda task rows. Not a correctness bug; recorded here because 66 owns the agenda surface and is still landing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -82,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md) | [bob-cli-66.5](bob-cli-66.5.md) | 4 |
 | [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.6.md) | [bob-cli-66.6](bob-cli-66.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.land.md) | [bob-cli-66](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.land.md) | [bob-cli-66](README.md) | 2 |
 
 ## Commits
 
@@ -100,6 +102,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@f8c9c28`](https://github.com/bobs-org/bob-mac-capture/commit/f8c9c28ce4a7ac1d4b08ba2a07dfde4df4ab9e27) | feat(agenda): transitions, countdown, states, accessibility, signposts, README | [bob-cli-66.6](bob-cli-66.6.md) | 2026-10-09 21:17:12 EDT |
 | bob-cli | [`817fd2b`](https://github.com/bobs-org/bob-cli/commit/817fd2b47b1b8d7314ee8e9528193ef0f58b387d) | docs(decisions): record idle agenda caching, folding, and eye-line policy | [bob-cli-66.7](bob-cli-66.7.md) | 2026-10-09 21:38:35 EDT |
 | bob-mac-capture | [`bob-mac-capture@06b2bda`](https://github.com/bobs-org/bob-mac-capture/commit/06b2bda06be5670c74871b66ceabf42ed6415328) | fix(agenda): repair idle agenda landing bugs B1-B9 | [bob-cli-66](README.md) | 2026-10-09 22:32:43 EDT |
+| bob-mac-capture | [`bob-mac-capture@6a1b6ff`](https://github.com/bobs-org/bob-mac-capture/commit/6a1b6ffdd1ccee1fe397e4a8c074e6eb9ae2a689) | fix(agenda): repair store-driven model planning against CI failures | [bob-cli-66](README.md) | 2026-10-09 22:53:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
