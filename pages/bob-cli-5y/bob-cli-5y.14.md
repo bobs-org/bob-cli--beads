@@ -37,3 +37,15 @@ closeout: remove the transitional hidden ^ref review bypass, read the docs end t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f315c58`](https://github.com/bobs-org/bob-cli/commit/f315c58c70dfe16fadb6052457250e670efe3c28) | feat(freshness): remove hidden ^ref review bypass and close out post-closeout contract | [bob-cli-5y.14](bob-cli-5y.14.md) | 2026-10-09 22:16:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5y.14][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.14/README.md
+
+<!-- sase:referenced-by:end -->

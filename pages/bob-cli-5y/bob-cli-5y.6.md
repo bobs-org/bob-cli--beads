@@ -30,13 +30,14 @@ ref-glyph: specify and implement the #task #ref open-book glyph with conformance
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-5y.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.6/README.md) | [bob-cli-5y.6](bob-cli-5y.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-5y.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.6/README.md) | [bob-cli-5y.6](bob-cli-5y.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5f845db`](https://github.com/bobs-org/bob-cli/commit/5f845dbb18e5c6b6fe91b669c9cbf96c37090f92) | docs(task-marks): specify the #task #ref open-book glyph and picker text | [bob-cli-5y.6](bob-cli-5y.6.md) | 2026-10-09 13:20:14 EDT |
+| bob-plugins | [`bob-plugins@a0a417a`](https://github.com/bobs-org/bob-plugins/commit/a0a417a0b44c769858a57db0f4b7325a9d89166b) | feat(ref-glyph): render #task #ref pairs as one open-book mark with book picker text | [bob-cli-5y.6](bob-cli-5y.6.md) | 2026-10-09 13:23:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
