@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-5y.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.7.md) | [bob-cli-5y.7](bob-cli-5y.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-5y.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.8/README.md) | [bob-cli-5y.8](bob-cli-5y.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-5y.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-5y.9/README.md) | [bob-cli-5y.9](bob-cli-5y.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-5y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.land.md) | [bob-cli-5y](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-5y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.land.md) | [bob-cli-5y](README.md) | 2 |
 
 ## Commits
 
@@ -146,6 +146,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@f51cdc1`](https://github.com/bobs-org/bob-mac-capture/commit/f51cdc18dc35253ced7fa0542999e4544550eb35) | feat(capture-ref): ask where a captured link belongs with File under picker | [bob-cli-5y.12](bob-cli-5y.12.md) | 2026-10-09 21:57:55 EDT |
 | bob-cli | [`f315c58`](https://github.com/bobs-org/bob-cli/commit/f315c58c70dfe16fadb6052457250e670efe3c28) | feat(freshness): remove hidden ^ref review bypass and close out post-closeout contract | [bob-cli-5y.14](bob-cli-5y.14.md) | 2026-10-09 22:16:25 EDT |
 | bob-cli | [`57a2900`](https://github.com/bobs-org/bob-cli/commit/57a2900450418052ff8931cfc72e1afcd45891e0) | fix(ob): harden lock\_wait\_behavior against fork-inherited fd flake | [bob-cli-5y](README.md) | 2026-10-09 23:17:11 EDT |
+| bob-plugins | [`bob-plugins@8055832`](https://github.com/bobs-org/bob-plugins/commit/80558320f3be7a492a2d16ae4d64a7a617d382b4) | feat(ledger-tools): remove transitional hidden ^ref bypass, release 1.39.0 | [bob-cli-5y](README.md) | 2026-10-09 23:17:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
