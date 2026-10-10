@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.5.md) | [bob-cli-66.5](bob-cli-66.5.md) | 4 |
 | [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.6.md) | [bob-cli-66.6](bob-cli-66.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.land.md) | [bob-cli-66](README.md) | 3 |
+| [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.land.md) | [bob-cli-66](README.md) | 4 |
 
 ## Commits
 
@@ -104,6 +104,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@06b2bda`](https://github.com/bobs-org/bob-mac-capture/commit/06b2bda06be5670c74871b66ceabf42ed6415328) | fix(agenda): repair idle agenda landing bugs B1-B9 | [bob-cli-66](README.md) | 2026-10-09 22:32:43 EDT |
 | bob-mac-capture | [`bob-mac-capture@6a1b6ff`](https://github.com/bobs-org/bob-mac-capture/commit/6a1b6ffdd1ccee1fe397e4a8c074e6eb9ae2a689) | fix(agenda): repair store-driven model planning against CI failures | [bob-cli-66](README.md) | 2026-10-09 22:53:17 EDT |
 | bob-mac-capture | [`bob-mac-capture@ce42822`](https://github.com/bobs-org/bob-mac-capture/commit/ce42822bb056964f2820af6d3433bcd2a8503922) | test(agenda): repair settle-hook and eye-line tests against CI failures | [bob-cli-66](README.md) | 2026-10-09 23:13:58 EDT |
+| bob-mac-capture | [`bob-mac-capture@5a5681e`](https://github.com/bobs-org/bob-mac-capture/commit/5a5681e4339be24661eec4bc40de2fdde06570cf) | fix(agenda): measure eye line outside pinned content limits | [bob-cli-66](README.md) | 2026-10-09 23:24:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
