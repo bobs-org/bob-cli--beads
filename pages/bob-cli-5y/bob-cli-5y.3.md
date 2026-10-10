@@ -23,7 +23,7 @@ freshness-rekey: re-key ref review identity from the ^ref block ID to the #ref t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-5y.6](bob-cli-5y.6.md) ✓ · ⧖ 2026-10-09
 
 ## Agents

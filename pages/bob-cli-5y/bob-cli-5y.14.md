@@ -13,8 +13,8 @@ closeout: remove the transitional hidden ^ref review bypass, read the docs end t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-5y.12](bob-cli-5y.12.md) ◐ · ⧖ 2026-10-09
-- **Depends on:** [bob-cli-5y.13](bob-cli-5y.13.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5y.12](bob-cli-5y.12.md) ✓ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-5y.13](bob-cli-5y.13.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
 

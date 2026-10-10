@@ -27,8 +27,8 @@ capture-gkeep-parent: a bare URL plus one @route becomes a ref filed there, prev
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5y.12](bob-cli-5y.12.md) ◐ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.12](bob-cli-5y.12.md) ✓ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.9](bob-cli-5y.9.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
@@ -42,3 +42,15 @@ capture-gkeep-parent: a bare URL plus one @route becomes a ref filed there, prev
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`091eda9`](https://github.com/bobs-org/bob-cli/commit/091eda911b985e0c69e5d20982c9d7275fd61b2e) | feat(capture-gkeep): URL @route and gkeep pull choose the reference parent | [bob-cli-5y.10](bob-cli-5y.10.md) | 2026-10-09 21:07:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-5y.10--2][1] | finish capture-gkeep-parent phase after just check passed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-5y.10.md
+
+<!-- sase:referenced-by:end -->

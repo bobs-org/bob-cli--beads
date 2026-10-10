@@ -23,7 +23,7 @@ ref-glyph: specify and implement the #task #ref open-book glyph with conformance
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.3](bob-cli-5y.3.md) ✓ · ⧖ 2026-10-09
 
 ## Agents

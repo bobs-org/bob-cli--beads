@@ -21,7 +21,7 @@ migrate-tasks: add the dry-run-first, reversible command that moves open v1 ref 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-5y.13](bob-cli-5y.13.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-5y.7](bob-cli-5y.7.md) ✓ · ⧖ 2026-10-09
 
 ## Agents
