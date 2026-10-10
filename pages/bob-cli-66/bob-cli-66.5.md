@@ -13,7 +13,7 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-66.3](bob-cli-66.3.md) ◐ · ⧖ 2026-10-09
+- **Depends on:** [bob-cli-66.3](bob-cli-66.3.md) ✓ · ⧖ 2026-10-09
 - **Depends on:** [bob-cli-66.4](bob-cli-66.4.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-66.6](bob-cli-66.6.md) ◐ · ⧖ 2026-10-09
 
@@ -21,7 +21,13 @@ mac-agenda-view: build `CaptureAgendaView` and its row views, the offscreen `Cap
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.5/README.md) | [bob-cli-66.5](bob-cli-66.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.5/README.md) | [bob-cli-66.5](bob-cli-66.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@27c0c2d`](https://github.com/bobs-org/bob-mac-capture/commit/27c0c2d15c721385b7f50805fca22ba75ff44dc9) | feat(agenda): agenda view, row measurer, panel integration, fixed eye line | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:03:55 EDT |
 
 <!-- sase:referenced-by:start -->
 

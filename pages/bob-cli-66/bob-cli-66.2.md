@@ -18,7 +18,7 @@ mac-agenda-models: add the CaptureCore `CaptureAgendaSnapshot` decoders (decodeI
 ## Dependencies
 
 - **Depends on:** [bob-cli-66.1](bob-cli-66.1.md) ✓ · ⧖ 2026-10-09
-- **Blocks:** [bob-cli-66.3](bob-cli-66.3.md) ◐ · ⧖ 2026-10-09
+- **Blocks:** [bob-cli-66.3](bob-cli-66.3.md) ✓ · ⧖ 2026-10-09
 - **Blocks:** [bob-cli-66.4](bob-cli-66.4.md) ✓ · ⧖ 2026-10-09
 
 ## Agents

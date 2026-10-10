@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [bob-cli-66](README.md) / bob-cli-66.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.48.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.48.linker.w0.md) · **Assignee:** `bob-cli-66.3` · **Size:** medium
-**Created:** 2026-10-09 17:42:23 EDT
+**Created:** 2026-10-09 17:42:23 EDT · **Closed:** 2026-10-09 19:42:35 EDT
 **Plan:** [202610/idle\_capture\_pomodoro\_agenda.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/idle_capture_pomodoro_agenda.md)
 
 ## Description
 
 mac-agenda-store: add the pure refresh state machine and relevance filter in CaptureCore, and the @MainActor `CaptureAgendaStore` that refreshes on launch, filtered vault events, show, submit, wake, unlock, and midnight. It replaces the per-show capture-pomodoros spawn, derives the close-comma count from the snapshot, passes FSEvents paths through the watcher, and falls back for an old bob.
+
+## Notes
+
+[2026-10-09T23:42:19Z · bob-cli-66.3--2] CI run https://github.com/bobs-org/bob-mac-capture/actions/runs/38004444446 green at SHA 3d36a02 (plus Linux: swift test 972 tests pass, incl. CaptureAgendaRefreshFilter/State/Models tests)
+
+[2026-10-09T23:42:35Z · bob-cli-66.3--2] store/refresh/filter/watcher/count wired and verified: CI 38004444446 green at SHA 3d36a02 plus Linux swift test 972 pass incl. CaptureAgendaRefreshFilter/State/Models
 
 ## Dependencies
 

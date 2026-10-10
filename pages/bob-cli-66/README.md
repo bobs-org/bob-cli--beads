@@ -29,9 +29,9 @@ When the capture panel opens with an empty draft, it already shows today's agend
 |---|---|---|---|---|---:|---:|
 | [bob-cli-66.1](bob-cli-66.1.md) | bob capture-pomodoros --tasks returns the resolved agenda | ✓ closed | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-66.2](bob-cli-66.2.md) | Agenda JSON models, client call, fake-bob branch, and fixtures | ✓ closed | small | 2026-10-09 | 1 | 1 |
-| [bob-cli-66.3](bob-cli-66.3.md) | In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot | ◐ in_progress | medium | 2026-10-09 | 1 | 2 |
+| [bob-cli-66.3](bob-cli-66.3.md) | In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot | ✓ closed | medium | 2026-10-09 | 1 | 2 |
 | [bob-cli-66.4](bob-cli-66.4.md) | Agenda presentation, inline text, and the focus-gradient fit planner | ✓ closed | medium | 2026-10-09 | 1 | 1 |
-| [bob-cli-66.5](bob-cli-66.5.md) | Agenda view, row measurer, panel integration, and fixed eye line | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
+| [bob-cli-66.5](bob-cli-66.5.md) | Agenda view, row measurer, panel integration, and fixed eye line | ◐ in_progress | medium | 2026-10-09 | 1 | 1 |
 | [bob-cli-66.6](bob-cli-66.6.md) | Transitions, countdown, stale and error states, accessibility, signposts, README | ◐ in_progress | medium | 2026-10-09 | 1 | 0 |
 | [bob-cli-66.7](bob-cli-66.7.md) | Decisions record, final verification, follow-ups, and Bryan's checklist | ◐ in_progress | small | 2026-10-09 | 1 | 0 |
 
@@ -42,7 +42,7 @@ flowchart TD
     n0["bob-cli-66: Idle Pomodoro agenda: an empty Bob Mac Capture panel shows the running Pomodoro and everything queued after it [in_progress]"]
     n1["bob-cli-66.1: bob capture-pomodoros --tasks returns the resolved agenda [closed]"]
     n2["bob-cli-66.2: Agenda JSON models, client call, fake-bob branch, and fixtures [closed]"]
-    n3["bob-cli-66.3: In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot [in_progress]"]
+    n3["bob-cli-66.3: In-memory agenda store, refresh triggers, path-filtered watcher, count from snapshot [closed]"]
     n4["bob-cli-66.4: Agenda presentation, inline text, and the focus-gradient fit planner [closed]"]
     n5["bob-cli-66.5: Agenda view, row measurer, panel integration, and fixed eye line [in_progress]"]
     n6["bob-cli-66.6: Transitions, countdown, stale and error states, accessibility, signposts, README [in_progress]"]
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-66.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.2.md) | [bob-cli-66.2](bob-cli-66.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-66.3.md) | [bob-cli-66.3](bob-cli-66.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-66.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.4/README.md) | [bob-cli-66.4](bob-cli-66.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.5/README.md) | [bob-cli-66.5](bob-cli-66.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-66.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.5/README.md) | [bob-cli-66.5](bob-cli-66.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-66.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.6/README.md) | [bob-cli-66.6](bob-cli-66.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-66.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.7/README.md) | [bob-cli-66.7](bob-cli-66.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-66.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-66.land/README.md) | [bob-cli-66](README.md) | 0 |
@@ -85,3 +85,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@dc70507`](https://github.com/bobs-org/bob-mac-capture/commit/dc7050734e1f23402ee4dcdd412320abc743ec5b) | feat(agenda): presentation, inline text, layout, and fit planner | [bob-cli-66.4](bob-cli-66.4.md) | 2026-10-09 19:15:16 EDT |
 | bob-mac-capture | [`bob-mac-capture@aaa2d9b`](https://github.com/bobs-org/bob-mac-capture/commit/aaa2d9bba8164fd075c7d3ff958383afb862bfc4) | feat(agenda): in-memory store, refresh triggers, filtered watcher, count | [bob-cli-66.3](bob-cli-66.3.md) | 2026-10-09 19:15:41 EDT |
 | bob-mac-capture | [`bob-mac-capture@3d36a02`](https://github.com/bobs-org/bob-mac-capture/commit/3d36a023e0de319c5eea21ae206e71797eef975c) | fix(capture): avoid dynamic Self capture in FSEventStream callback | [bob-cli-66.3](bob-cli-66.3.md) | 2026-10-09 19:26:34 EDT |
+| bob-mac-capture | [`bob-mac-capture@27c0c2d`](https://github.com/bobs-org/bob-mac-capture/commit/27c0c2d15c721385b7f50805fca22ba75ff44dc9) | feat(agenda): agenda view, row measurer, panel integration, fixed eye line | [bob-cli-66.5](bob-cli-66.5.md) | 2026-10-09 20:03:55 EDT |
