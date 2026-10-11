@@ -14,7 +14,7 @@ integration: wire the completed components into compute(&StatsRequest), add the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.2.1.3](bob-cli-6l.2.1.3.md) ✓ · ⧖ 2026-10-11
-- **Depends on:** [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

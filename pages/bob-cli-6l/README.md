@@ -46,7 +46,7 @@ flowchart TD
     n5["bob-cli-6l.2.1.2: Build the single-pass vault and journal index [closed]"]
     n6["bob-cli-6l.2.1.3: Implement ranges, grouping, summaries, and display strings [closed]"]
     n7["bob-cli-6l.2.1.4: Evaluate Pomodoro, task, checklist, and field metrics [closed]"]
-    n8["bob-cli-6l.2.1.5: Evaluate review answers and formulas [in_progress]"]
+    n8["bob-cli-6l.2.1.5: Evaluate review answers and formulas [closed]"]
     n9["bob-cli-6l.2.1.6: Assemble compute, prove the schema, and document the engine [in_progress]"]
     n10["bob-cli-6l.3: The bob stats command [in_progress]"]
     n11["bob-cli-6l.4: Obsidian Stats page — data path, tiles, and table [in_progress]"]
@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6l.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.1.2.md) | [bob-cli-6l.2.1.2](bob-cli-6l.2.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.3/README.md) | [bob-cli-6l.2.1.3](bob-cli-6l.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.1.4.md) | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-6l.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.5/README.md) | [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6l.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.5/README.md) | [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.2.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.6/README.md) | [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.land/README.md) | [bob-cli-6l.2.1](bob-cli-6l.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.3/README.md) | [bob-cli-6l.3](bob-cli-6l.3.md) | 0 |
@@ -106,3 +106,4 @@ flowchart TD
 | bob-cli | [`e27fe70`](https://github.com/bobs-org/bob-cli/commit/e27fe7020e80c1856899cc757f4b0c1e0675076d) | feat(stats): build single-pass vault and journal index | [bob-cli-6l.2.1.2](bob-cli-6l.2.1.2.md) | 2026-10-11 08:58:30 EDT |
 | bob-cli | [`7f14f5f`](https://github.com/bobs-org/bob-cli/commit/7f14f5fd47d80227adc7c376d1523e2933e881af) | feat(stats): implement range and series reporting | [bob-cli-6l.2.1.3](bob-cli-6l.2.1.3.md) | 2026-10-11 09:08:21 EDT |
 | bob-cli | [`346d4bf`](https://github.com/bobs-org/bob-cli/commit/346d4bf3fe438bccb75c1953be9ac544e06d4d18) | feat(stats): evaluate vault-derived metrics | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 2026-10-11 09:28:02 EDT |
+| bob-cli | [`0d014c0`](https://github.com/bobs-org/bob-cli/commit/0d014c0299c25a5f13ca2947a155f0af8562e1c7) | feat(stats): evaluate review answers and checked formulas | [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) | 2026-10-11 09:48:07 EDT |

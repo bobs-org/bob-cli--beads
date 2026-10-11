@@ -18,7 +18,7 @@ vault_metrics: evaluate four derived metric kinds from the shared index, includi
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.2.1.2](bob-cli-6l.2.1.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -31,3 +31,15 @@ vault_metrics: evaluate four derived metric kinds from the shared index, includi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`346d4bf`](https://github.com/bobs-org/bob-cli/commit/346d4bf3fe438bccb75c1953be9ac544e06d4d18) | feat(stats): evaluate vault-derived metrics | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 2026-10-11 09:28:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.2.1.4--1][1] | Need the phase scope, design file, and existing notes before completing assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.1.4.md
+
+<!-- sase:referenced-by:end -->
