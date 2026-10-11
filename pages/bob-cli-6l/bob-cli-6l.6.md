@@ -40,3 +40,15 @@ rollout: verify end to end on the live vault and every installed surface, record
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f11ca41`](https://github.com/bobs-org/bob-cli/commit/f11ca415b6fefc329b776be081ee36fd041bcb1d) | docs(stats): cross-link CLI, Stats page, and review journal | [bob-cli-6l.6](bob-cli-6l.6.md) | 2026-10-11 17:13:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.6--1][1] | Need the phase scope, notes, and design after failed check | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.6.md
+
+<!-- sase:referenced-by:end -->
