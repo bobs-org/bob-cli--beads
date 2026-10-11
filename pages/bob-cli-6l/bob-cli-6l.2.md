@@ -18,7 +18,7 @@ engine: single-pass stats index, metric registry with built-ins written as confi
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.1](bob-cli-6l.1.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.3](bob-cli-6l.3.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.3](bob-cli-6l.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
