@@ -18,7 +18,7 @@ charts: hand-rolled SVG focus chart with rolling median, normal band, today/miss
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.4](bob-cli-6l.4.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.6](bob-cli-6l.6.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.6](bob-cli-6l.6.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -35,9 +35,11 @@ charts: hand-rolled SVG focus chart with rolling median, normal band, today/miss
 | read-by | [agent:bob-cli-6l.5.1.1][1] | Need parent phase DECISIONS and remaining work for 6l.5 | 1 |
 | read-by | [agent:bob-cli-6l.5.1.2][2] | Need chart scope, final decisions, and current notes | 1 |
 | read-by | [agent:bob-cli-6l.5.1.3][3] | Need chart scope, final decisions, and current notes | 1 |
+| read-by | [agent:bob-cli-6l.5.1.land][4] | Need close status, parent notes, and whether the containing epic stayed open | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

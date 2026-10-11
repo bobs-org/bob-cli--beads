@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/daily_stats.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/daily_stats.md
 
@@ -38,7 +38,7 @@ Bryan can open Stats (Obsidian) or run `bob stats` (terminal) during the weekly 
 | [bob-cli-6l.3](bob-cli-6l.3.md) | The bob stats command | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [bob-cli-6l.4](bob-cli-6l.4.md) | Obsidian Stats page — data path, tiles, and table | ✓ closed | medium | 2026-10-11 | 1 | 2 |
 | [bob-cli-6l.5](bob-cli-6l.5.md) | Obsidian Stats page — focus chart, context panels, and interaction | ✓ closed | large | 2026-10-11 | 1 | 0 |
-| [bob-cli-6l.6](bob-cli-6l.6.md) | Rollout — real-vault verification, docs, and memory | ◐ in_progress | small | 2026-10-11 | 1 | 0 |
+| [bob-cli-6l.6](bob-cli-6l.6.md) | Rollout — real-vault verification, docs, and memory | ✓ closed | small | 2026-10-11 | 1 | 1 |
 
 ## Lineage
 
@@ -62,7 +62,7 @@ flowchart TD
     n15["bob-cli-6l.5.1.2: Build the focus chart and accessible interactions [closed]"]
     n16["bob-cli-6l.5.1.3: Render metric-family context panels [closed]"]
     n17["bob-cli-6l.5.1.4: Verify the real renderer in light and dark [closed]"]
-    n18["bob-cli-6l.6: Rollout — real-vault verification, docs, and memory [in_progress]"]
+    n18["bob-cli-6l.6: Rollout — real-vault verification, docs, and memory [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6l.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.3/README.md) | [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.5.1.4.md) | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md) | [bob-cli-6l.5.1](bob-cli-6l.5.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-6l.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.6/README.md) | [bob-cli-6l.6](bob-cli-6l.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6l.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.6.md) | [bob-cli-6l.6](bob-cli-6l.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.land/README.md) | [bob-cli-6l](README.md) | 0 |
 
 ## Commits
@@ -144,6 +144,7 @@ flowchart TD
 | bob-cli | [`efc5593`](https://github.com/bobs-org/bob-cli/commit/efc55932f7b055437d270d5fea37f7186ce5fd73) | docs(stats): document charts and preview workflow | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2026-10-11 16:21:19 EDT |
 | bob-plugins | [`bob-plugins@fa7db2f`](https://github.com/bobs-org/bob-plugins/commit/fa7db2fe74ec800417df11268d1c45828a3775e2) | feat(stats): add renderer preview fixtures | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2026-10-11 16:22:26 EDT |
 | bob-cli--plans | [`bob-cli--plans@745c113`](https://github.com/bobs-org/bob-cli--plans/commit/745c1136250cadddf7a21e58adae8bb47c346943) | docs(plans): mark the Stats charts epic plan done | [bob-cli-6l.5.1](bob-cli-6l.5.1.md) | 2026-10-11 16:45:41 EDT |
+| bob-cli | [`f11ca41`](https://github.com/bobs-org/bob-cli/commit/f11ca415b6fefc329b776be081ee36fd041bcb1d) | docs(stats): cross-link CLI, Stats page, and review journal | [bob-cli-6l.6](bob-cli-6l.6.md) | 2026-10-11 17:13:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -153,8 +154,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.3][1] | Need parent epic plan and remaining phases | 1 |
 | read-by | [agent:bob-cli-6l.4][2] | Need epic scope for phase 6l.4 | 1 |
+| read-by | [agent:bob-cli-6l.5.1.land][3] | Need close status, parent notes, and whether the containing epic stayed open | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

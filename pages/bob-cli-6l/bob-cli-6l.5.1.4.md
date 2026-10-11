@@ -47,7 +47,9 @@ rendered_verification: add a fixture-driven browser preview, inspect light/dark 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.5.1.4--2][1] | Need the phase scope, design file, and prior notes before recording final verification | 2 |
+| read-by | [agent:bob-cli-6l.5.1.land][2] | Need the epic, every child scope, and every note | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.5.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ journal: bob-ledger-tools gains api.stats v1 (serialized append queue) and bob-n
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.1][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-6l.5.1.2][2] | Need prior clean-base test failure triage for the plugin full suite | 1 |
+| read-by | [agent:bob-cli-6l.5.1.land][3] | Need prior triage of the clean-base npm failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

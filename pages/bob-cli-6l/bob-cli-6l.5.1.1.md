@@ -40,7 +40,9 @@ chart_data: add schema-1 presentation metadata for grouped chart bands, daily dr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.5.1.1][1] | Need full phase notes, description, and remaining work | 2 |
+| read-by | [agent:bob-cli-6l.5.1.land][2] | Need the epic, every child scope, and every note | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -41,7 +41,9 @@ context_panels: add theme and task breakdowns, task flow, review counterweights,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.5.1.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-6l.5.1.land][2] | Need the epic, every child scope, and every note | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -43,7 +43,9 @@ focus_interaction: implement pure SVG geometry, focus chart marks, responsive li
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.5.1.2][1] | Confirm phase notes before verification and close | 2 |
+| read-by | [agent:bob-cli-6l.5.1.land][2] | Need the epic, every child scope, and every note | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->
