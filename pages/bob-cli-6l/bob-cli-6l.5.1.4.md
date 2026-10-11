@@ -13,7 +13,7 @@ rendered_verification: add a fixture-driven browser preview, inspect light/dark 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

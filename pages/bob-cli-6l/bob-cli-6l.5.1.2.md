@@ -22,7 +22,7 @@ focus_interaction: implement pure SVG geometry, focus chart marks, responsive li
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.5.1.1](bob-cli-6l.5.1.1.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -35,3 +35,15 @@ focus_interaction: implement pure SVG geometry, focus chart marks, responsive li
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@f3bc5e2`](https://github.com/bobs-org/bob-plugins/commit/f3bc5e27fc9699ebef58cb044525abbbea0fe4eb) | feat(bob-ledger-tools): add accessible stats charts | [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) | 2026-10-11 15:08:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.5.1.2][1] | Confirm phase notes before verification and close | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->

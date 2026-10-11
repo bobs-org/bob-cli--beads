@@ -29,7 +29,9 @@ charts: hand-rolled SVG focus chart with rolling median, normal band, today/miss
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.5.1.1][1] | Need parent phase DECISIONS and remaining work for 6l.5 | 1 |
+| read-by | [agent:bob-cli-6l.5.1.2][2] | Need chart scope, final decisions, and current notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md
 
 <!-- sase:referenced-by:end -->
