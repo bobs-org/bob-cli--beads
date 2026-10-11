@@ -19,7 +19,7 @@ chart_data: add schema-1 presentation metadata for grouped chart bands, daily dr
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -32,3 +32,15 @@ chart_data: add schema-1 presentation metadata for grouped chart bands, daily dr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ab314c0`](https://github.com/bobs-org/bob-cli/commit/ab314c061da8da06ed1d821c2afa03979c30cb4c) | feat(stats): add schema-1 chart, daily\_points, checklist, and chore metadata | [bob-cli-6l.5.1.1](bob-cli-6l.5.1.1.md) | 2026-10-11 14:45:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.5.1.1][1] | Need full phase notes, description, and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

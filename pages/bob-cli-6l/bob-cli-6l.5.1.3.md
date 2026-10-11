@@ -13,7 +13,7 @@ context_panels: add theme and task breakdowns, task flow, review counterweights,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) ◐ · ⧖ 2026-10-11
 
 ## Agents
