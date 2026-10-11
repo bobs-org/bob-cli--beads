@@ -13,7 +13,7 @@ charts: hand-rolled SVG focus chart with rolling median, normal band, today/miss
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6l.4](bob-cli-6l.4.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.4](bob-cli-6l.4.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [bob-cli-6l.6](bob-cli-6l.6.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

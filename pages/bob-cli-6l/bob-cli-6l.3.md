@@ -22,7 +22,7 @@ cli: register bob stats (overview default, show, metrics) in Daily workflow with
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.2](bob-cli-6l.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.4](bob-cli-6l.4.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.4](bob-cli-6l.4.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -35,3 +35,15 @@ cli: register bob stats (overview default, show, metrics) in Daily workflow with
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9be32d9`](https://github.com/bobs-org/bob-cli/commit/9be32d97e56a552d0ef1dc19f3b8eff94ce43638) | feat(stats): add the bob stats CLI (overview, show, metrics) | [bob-cli-6l.3](bob-cli-6l.3.md) | 2026-10-11 13:48:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.3][1] | Need notes, attachments, and remaining work before planning | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.3/README.md
+
+<!-- sase:referenced-by:end -->
