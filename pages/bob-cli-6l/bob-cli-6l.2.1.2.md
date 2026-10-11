@@ -18,7 +18,7 @@ inputs: reuse the Tasks per-file parser and Pomodoro scanner to read each Markdo
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.2.1.1](bob-cli-6l.2.1.1.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

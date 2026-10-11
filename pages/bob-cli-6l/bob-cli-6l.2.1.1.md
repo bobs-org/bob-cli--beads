@@ -41,7 +41,9 @@ contracts: implement the schema-1 report and request types, isolated stats confi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.2.1.1][1] | Need the phase scope and design file | 6 |
+| read-by | [agent:bob-cli-6l.2.1.3][2] | Check the existing note for the clean-base CLI percent-listen test failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

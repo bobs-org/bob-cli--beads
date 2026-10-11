@@ -13,7 +13,7 @@ journal_formulas: implement journal distinct-row and last-answer selectors, reco
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

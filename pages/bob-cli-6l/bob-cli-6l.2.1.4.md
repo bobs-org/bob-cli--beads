@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-6l.2.1](bob-cli-6l.2.1.md) / bob-cli-6l.2.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-6l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.md) · **Assignee:** `bob-cli-6l.2.1.4` · **Size:** medium
-**Created:** 2026-10-11 07:36:42 EDT
+**Created:** 2026-10-11 07:36:42 EDT · **Closed:** 2026-10-11 09:27:21 EDT
 **Plan:** [202610/daily\_stats\_engine.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/daily_stats_engine.md)
 
 ## Description
 
 vault_metrics: evaluate four derived metric kinds from the shared index, including since, quality, parts, archive-invariant task filters, checklist outstanding intervals, and typed daily fields. Add hand-calculated tests per kind.
+
+## Notes
+
+[2026-10-11T13:27:21Z · bob-cli-6l.2.1.4--1] Implemented Pomodoro, task, checklist, and typed-field metric evaluators with hand-calculated coverage. Verified cargo fmt --check, focused native::stats::metrics tests, cargo clippy --all-targets --all-features, git diff --check, and no remaining epic symbols.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ vault_metrics: evaluate four derived metric kinds from the shared index, includi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6l.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.4/README.md) | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6l.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.1.4.md) | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`346d4bf`](https://github.com/bobs-org/bob-cli/commit/346d4bf3fe438bccb75c1953be9ac544e06d4d18) | feat(stats): evaluate vault-derived metrics | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 2026-10-11 09:28:02 EDT |
