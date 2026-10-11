@@ -20,7 +20,7 @@ journal_formulas: implement journal distinct-row and last-answer selectors, reco
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ journal_formulas: implement journal distinct-row and last-answer selectors, reco
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0d014c0`](https://github.com/bobs-org/bob-cli/commit/0d014c0299c25a5f13ca2947a155f0af8562e1c7) | feat(stats): evaluate review answers and checked formulas | [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) | 2026-10-11 09:48:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.2.1.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ series: implement pure range and prior-window resolution, ISO/calendar grouping,
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.2.1.1](bob-cli-6l.2.1.1.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
