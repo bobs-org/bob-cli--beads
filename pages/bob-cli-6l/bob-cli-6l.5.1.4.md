@@ -39,3 +39,15 @@ rendered_verification: add a fixture-driven browser preview, inspect light/dark 
 |---|---|---|---|---|
 | bob-cli | [`efc5593`](https://github.com/bobs-org/bob-cli/commit/efc55932f7b055437d270d5fea37f7186ce5fd73) | docs(stats): document charts and preview workflow | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2026-10-11 16:21:19 EDT |
 | bob-plugins | [`bob-plugins@fa7db2f`](https://github.com/bobs-org/bob-plugins/commit/fa7db2fe74ec800417df11268d1c45828a3775e2) | feat(stats): add renderer preview fixtures | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2026-10-11 16:22:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.5.1.4--2][1] | Need the phase scope, design file, and prior notes before recording final verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.5.1.4.md
+
+<!-- sase:referenced-by:end -->

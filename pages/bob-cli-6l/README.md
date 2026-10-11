@@ -37,7 +37,7 @@ Bryan can open Stats (Obsidian) or run `bob stats` (terminal) during the weekly 
 | [bob-cli-6l.2](bob-cli-6l.2.md) | The stats engine in bob-cli | ✓ closed | large | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.3](bob-cli-6l.3.md) | The bob stats command | ✓ closed | medium | 2026-10-11 | 1 | 1 |
 | [bob-cli-6l.4](bob-cli-6l.4.md) | Obsidian Stats page — data path, tiles, and table | ✓ closed | medium | 2026-10-11 | 1 | 2 |
-| [bob-cli-6l.5](bob-cli-6l.5.md) | Obsidian Stats page — focus chart, context panels, and interaction | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
+| [bob-cli-6l.5](bob-cli-6l.5.md) | Obsidian Stats page — focus chart, context panels, and interaction | ✓ closed | large | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.6](bob-cli-6l.6.md) | Rollout — real-vault verification, docs, and memory | ◐ in_progress | small | 2026-10-11 | 1 | 0 |
 
 ## Lineage
@@ -56,8 +56,8 @@ flowchart TD
     n9["bob-cli-6l.2.1.6: Assemble compute, prove the schema, and document the engine [closed]"]
     n10["bob-cli-6l.3: The bob stats command [closed]"]
     n11["bob-cli-6l.4: Obsidian Stats page — data path, tiles, and table [closed]"]
-    n12["bob-cli-6l.5: Obsidian Stats page — focus chart, context panels, and interaction [in_progress]"]
-    n13["bob-cli-6l.5.1: Complete Daily Stats charts, context panels, and interaction [in_progress]"]
+    n12["bob-cli-6l.5: Obsidian Stats page — focus chart, context panels, and interaction [closed]"]
+    n13["bob-cli-6l.5.1: Complete Daily Stats charts, context panels, and interaction [closed]"]
     n14["bob-cli-6l.5.1.1: Supply chart and calendar presentation data [closed]"]
     n15["bob-cli-6l.5.1.2: Build the focus chart and accessible interactions [closed]"]
     n16["bob-cli-6l.5.1.3: Render metric-family context panels [closed]"]
@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6l.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md) | [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.3/README.md) | [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.5.1.4.md) | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-6l.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md) | [bob-cli-6l.5.1](bob-cli-6l.5.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6l.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md) | [bob-cli-6l.5.1](bob-cli-6l.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.6/README.md) | [bob-cli-6l.6](bob-cli-6l.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.land/README.md) | [bob-cli-6l](README.md) | 0 |
 
@@ -143,6 +143,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@2e7f3b0`](https://github.com/bobs-org/bob-plugins/commit/2e7f3b0ff365ad5696dc4ee0d61cfd11b84c8a8b) | feat(bob-ledger-tools): render Stats metric-family context panels | [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) | 2026-10-11 15:23:57 EDT |
 | bob-cli | [`efc5593`](https://github.com/bobs-org/bob-cli/commit/efc55932f7b055437d270d5fea37f7186ce5fd73) | docs(stats): document charts and preview workflow | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2026-10-11 16:21:19 EDT |
 | bob-plugins | [`bob-plugins@fa7db2f`](https://github.com/bobs-org/bob-plugins/commit/fa7db2fe74ec800417df11268d1c45828a3775e2) | feat(stats): add renderer preview fixtures | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2026-10-11 16:22:26 EDT |
+| bob-cli--plans | [`bob-cli--plans@745c113`](https://github.com/bobs-org/bob-cli--plans/commit/745c1136250cadddf7a21e58adae8bb47c346943) | docs(plans): mark the Stats charts epic plan done | [bob-cli-6l.5.1](bob-cli-6l.5.1.md) | 2026-10-11 16:45:41 EDT |
 
 <!-- sase:referenced-by:start -->
 

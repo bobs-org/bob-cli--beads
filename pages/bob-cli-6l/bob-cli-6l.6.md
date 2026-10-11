@@ -13,7 +13,7 @@ rollout: verify end to end on the live vault and every installed surface, record
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6l.5](bob-cli-6l.5.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.5](bob-cli-6l.5.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
