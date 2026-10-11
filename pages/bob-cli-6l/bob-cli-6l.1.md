@@ -19,7 +19,7 @@ journal: bob-ledger-tools gains api.stats v1 (serialized append queue) and bob-n
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6l.2](bob-cli-6l.2.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.2](bob-cli-6l.2.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 

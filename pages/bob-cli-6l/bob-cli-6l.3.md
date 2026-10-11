@@ -13,7 +13,7 @@ cli: register bob stats (overview default, show, metrics) in Daily workflow with
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6l.2](bob-cli-6l.2.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.2](bob-cli-6l.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [bob-cli-6l.4](bob-cli-6l.4.md) ◐ · ⧖ 2026-10-11
 
 ## Agents

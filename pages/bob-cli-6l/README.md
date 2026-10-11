@@ -23,12 +23,16 @@
 
 Bryan can open Stats (Obsidian) or run `bob stats` (terminal) during the weekly prune, understand how the last weeks went in about a minute, trust where every number came from, and add a new daily metric with a few lines of config — with no daily logging habit and no data written that the vault already keeps.
 
+## Notes
+
+[2026-10-11T15:27:10Z · bob-cli-6l.2.1.land] DISCOVERED ISSUE (from bob-cli-6l.2.1 landing review): docs/stats.md records ~2.4 s for stats compute on the live vault, but that came from a debug test build. Release-mode re-measurement by the bob-cli-6l.2.1 land agent (BOB_STATS_REAL_VAULT_PARITY=1 BOB_NOW='2026-10-11 12:00:00' cargo test --release --lib real_vault_parity_is_opt_in, master f9324da, apollo, ~/bob) gives 365-378 ms for the full read plus a 7-day five-metric report — still ~25% over the <=300 ms rollout target. The bob-cli-6l.2.1 remediation tale corrects the doc number; meeting or re-budgeting the target remains rollout (bob-cli-6l.6) / CLI (bob-cli-6l.3) acceptance as the engine plan assigned.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-6l.1](bob-cli-6l.1.md) | Start the clock — the review journal writer | ✓ closed | medium | 2026-10-11 | 1 | 1 |
-| [bob-cli-6l.2](bob-cli-6l.2.md) | The stats engine in bob-cli | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
+| [bob-cli-6l.2](bob-cli-6l.2.md) | The stats engine in bob-cli | ✓ closed | large | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.3](bob-cli-6l.3.md) | The bob stats command | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.4](bob-cli-6l.4.md) | Obsidian Stats page — data path, tiles, and table | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.5](bob-cli-6l.5.md) | Obsidian Stats page — focus chart, context panels, and interaction | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
@@ -40,8 +44,8 @@ Bryan can open Stats (Obsidian) or run `bob stats` (terminal) during the weekly 
 flowchart TD
     n0["bob-cli-6l: Daily Stats — derived daily metrics, a review journal, bob stats, and an Obsidian Stats page [in_progress]"]
     n1["bob-cli-6l.1: Start the clock — the review journal writer [closed]"]
-    n2["bob-cli-6l.2: The stats engine in bob-cli [in_progress]"]
-    n3["bob-cli-6l.2.1: Daily Stats engine for bob-cli-6l.2 [in_progress]"]
+    n2["bob-cli-6l.2: The stats engine in bob-cli [closed]"]
+    n3["bob-cli-6l.2.1: Daily Stats engine for bob-cli-6l.2 [closed]"]
     n4["bob-cli-6l.2.1.1: Define the stats model and configurable metric registry [closed]"]
     n5["bob-cli-6l.2.1.2: Build the single-pass vault and journal index [closed]"]
     n6["bob-cli-6l.2.1.3: Implement ranges, grouping, summaries, and display strings [closed]"]
@@ -90,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6l.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.1.4.md) | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.5/README.md) | [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.2.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.6/README.md) | [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-6l.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.land/README.md) | [bob-cli-6l.2.1](bob-cli-6l.2.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6l.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.1.land.md) | [bob-cli-6l.2.1](bob-cli-6l.2.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.3/README.md) | [bob-cli-6l.3](bob-cli-6l.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.4/README.md) | [bob-cli-6l.4](bob-cli-6l.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5/README.md) | [bob-cli-6l.5](bob-cli-6l.5.md) | 0 |
@@ -108,3 +112,4 @@ flowchart TD
 | bob-cli | [`346d4bf`](https://github.com/bobs-org/bob-cli/commit/346d4bf3fe438bccb75c1953be9ac544e06d4d18) | feat(stats): evaluate vault-derived metrics | [bob-cli-6l.2.1.4](bob-cli-6l.2.1.4.md) | 2026-10-11 09:28:02 EDT |
 | bob-cli | [`0d014c0`](https://github.com/bobs-org/bob-cli/commit/0d014c0299c25a5f13ca2947a155f0af8562e1c7) | feat(stats): evaluate review answers and checked formulas | [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) | 2026-10-11 09:48:07 EDT |
 | bob-cli | [`f9324da`](https://github.com/bobs-org/bob-cli/commit/f9324da87f989be6388c4db3650f9bfc15c6f48e) | feat(stats): assemble compute, prove the schema, and document the engine | [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) | 2026-10-11 11:03:23 EDT |
+| bob-cli | [`625e973`](https://github.com/bobs-org/bob-cli/commit/625e973c43de2bd51b33f562af6e3cc50c90b6db) | fix(stats): land Daily Stats engine correctness for bob-cli-6l.2.1 | [bob-cli-6l.2.1](bob-cli-6l.2.1.md) | 2026-10-11 12:52:17 EDT |
