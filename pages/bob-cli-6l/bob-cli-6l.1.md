@@ -33,3 +33,15 @@ journal: bob-ledger-tools gains api.stats v1 (serialized append queue) and bob-n
 |---|---|---|---|---|
 | bob-cli | [`1023e6c`](https://github.com/bobs-org/bob-cli/commit/1023e6cb14cfbf68d8a1ef43cf288e855d6ab6f7) | feat(stats): add review answer journal contract | [bob-cli-6l.1](bob-cli-6l.1.md) | 2026-10-11 07:21:27 EDT |
 | bob-plugins | [`bob-plugins@f4a2fe3`](https://github.com/bobs-org/bob-plugins/commit/f4a2fe345748b71b37b3b955f999671f8ea2d288) | feat(stats): journal review answers per host | [bob-cli-6l.1](bob-cli-6l.1.md) | 2026-10-11 07:22:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.1/README.md
+
+<!-- sase:referenced-by:end -->
