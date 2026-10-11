@@ -20,4 +20,4 @@ engine: single-pass stats index, metric registry with built-ins written as confi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2/README.md) | [bob-cli-6l.2](bob-cli-6l.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.md) | [bob-cli-6l.2](bob-cli-6l.2.md) | 0 |
