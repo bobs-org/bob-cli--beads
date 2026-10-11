@@ -125,7 +125,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6l.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.5.1.4.md) | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md) | [bob-cli-6l.5.1](bob-cli-6l.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.6.md) | [bob-cli-6l.6](bob-cli-6l.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-6l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.land.md) | [bob-cli-6l](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-6l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.land.md) | [bob-cli-6l](README.md) | 3 |
 
 ## Commits
 
@@ -153,6 +153,7 @@ flowchart TD
 | bob-cli | [`f11ca41`](https://github.com/bobs-org/bob-cli/commit/f11ca415b6fefc329b776be081ee36fd041bcb1d) | docs(stats): cross-link CLI, Stats page, and review journal | [bob-cli-6l.6](bob-cli-6l.6.md) | 2026-10-11 17:13:06 EDT |
 | bob-cli | [`a55a22e`](https://github.com/bobs-org/bob-cli/commit/a55a22e83b0361ea90795dc22f1148b4f9152066) | feat(stats): land review-journal writer vectors R20–R24 | [bob-cli-6l](README.md) | 2026-10-11 17:58:06 EDT |
 | bob-plugins | [`bob-plugins@7f6fdf9`](https://github.com/bobs-org/bob-plugins/commit/7f6fdf9d0aea35ddd8ed83b200c0ba4c3ec54c71) | feat(stats): land review-journal writer contract | [bob-cli-6l](README.md) | 2026-10-11 17:59:04 EDT |
+| bob-cli--plans | [`bob-cli--plans@3888525`](https://github.com/bobs-org/bob-cli--plans/commit/3888525eef3e04633b5ea76f0d0cac1d4b945431) | docs(daily-stats): mark parent plan done | [bob-cli-6l](README.md) | 2026-10-11 17:59:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
