@@ -28,10 +28,11 @@ page: bob-ledger-tools api.stats v2 spawns bob stats with stale-while-revalidate
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.4/README.md) | [bob-cli-6l.4](bob-cli-6l.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.4/README.md) | [bob-cli-6l.4](bob-cli-6l.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f74f3ad`](https://github.com/bobs-org/bob-cli/commit/f74f3ad305e5ecee85eef35312af918d60c6070b) | feat(stats): document the Stats child page and Browse chip | [bob-cli-6l.4](bob-cli-6l.4.md) | 2026-10-11 14:05:58 EDT |
+| bob-plugins | [`bob-plugins@db91d68`](https://github.com/bobs-org/bob-plugins/commit/db91d68a8d003689835001695d7c816303f8bcb6) | feat(stats): add the Stats page data path, tiles, and table block | [bob-cli-6l.4](bob-cli-6l.4.md) | 2026-10-11 14:07:01 EDT |

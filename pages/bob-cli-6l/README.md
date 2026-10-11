@@ -36,7 +36,7 @@ Bryan can open Stats (Obsidian) or run `bob stats` (terminal) during the weekly 
 | [bob-cli-6l.1](bob-cli-6l.1.md) | Start the clock — the review journal writer | ✓ closed | medium | 2026-10-11 | 1 | 2 |
 | [bob-cli-6l.2](bob-cli-6l.2.md) | The stats engine in bob-cli | ✓ closed | large | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.3](bob-cli-6l.3.md) | The bob stats command | ✓ closed | medium | 2026-10-11 | 1 | 1 |
-| [bob-cli-6l.4](bob-cli-6l.4.md) | Obsidian Stats page — data path, tiles, and table | ✓ closed | medium | 2026-10-11 | 1 | 1 |
+| [bob-cli-6l.4](bob-cli-6l.4.md) | Obsidian Stats page — data path, tiles, and table | ✓ closed | medium | 2026-10-11 | 1 | 2 |
 | [bob-cli-6l.5](bob-cli-6l.5.md) | Obsidian Stats page — focus chart, context panels, and interaction | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.6](bob-cli-6l.6.md) | Rollout — real-vault verification, docs, and memory | ◐ in_progress | small | 2026-10-11 | 1 | 0 |
 
@@ -98,7 +98,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6l.2.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.6/README.md) | [bob-cli-6l.2.1.6](bob-cli-6l.2.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.2.1.land.md) | [bob-cli-6l.2.1](bob-cli-6l.2.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.3/README.md) | [bob-cli-6l.3](bob-cli-6l.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-6l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.4/README.md) | [bob-cli-6l.4](bob-cli-6l.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.4/README.md) | [bob-cli-6l.4](bob-cli-6l.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6l.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5/README.md) | [bob-cli-6l.5](bob-cli-6l.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.6/README.md) | [bob-cli-6l.6](bob-cli-6l.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.land/README.md) | [bob-cli-6l](README.md) | 0 |
@@ -119,6 +119,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@6a0a600`](https://github.com/bobs-org/bob-cli--plans/commit/6a0a6005a454b53689f8de1d64aace8f858cf968) | docs(plans): mark Daily Stats engine epic and landing-fixes done | [bob-cli-6l.2.1](bob-cli-6l.2.1.md) | 2026-10-11 12:53:31 EDT |
 | bob-cli | [`9be32d9`](https://github.com/bobs-org/bob-cli/commit/9be32d97e56a552d0ef1dc19f3b8eff94ce43638) | feat(stats): add the bob stats CLI (overview, show, metrics) | [bob-cli-6l.3](bob-cli-6l.3.md) | 2026-10-11 13:48:19 EDT |
 | bob-cli | [`f74f3ad`](https://github.com/bobs-org/bob-cli/commit/f74f3ad305e5ecee85eef35312af918d60c6070b) | feat(stats): document the Stats child page and Browse chip | [bob-cli-6l.4](bob-cli-6l.4.md) | 2026-10-11 14:05:58 EDT |
+| bob-plugins | [`bob-plugins@db91d68`](https://github.com/bobs-org/bob-plugins/commit/db91d68a8d003689835001695d7c816303f8bcb6) | feat(stats): add the Stats page data path, tiles, and table block | [bob-cli-6l.4](bob-cli-6l.4.md) | 2026-10-11 14:07:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
