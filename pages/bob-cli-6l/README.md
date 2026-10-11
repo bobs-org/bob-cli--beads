@@ -15,7 +15,7 @@ Bryan can open Stats (Obsidian) or run `bob stats` (terminal) during the weekly 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-6l.1](bob-cli-6l.1.md) | Start the clock — the review journal writer | ✓ closed | medium | 2026-10-11 | 1 | 1 |
+| [bob-cli-6l.1](bob-cli-6l.1.md) | Start the clock — the review journal writer | ✓ closed | medium | 2026-10-11 | 1 | 2 |
 | [bob-cli-6l.2](bob-cli-6l.2.md) | The stats engine in bob-cli | ◐ in_progress | large | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.3](bob-cli-6l.3.md) | The bob stats command | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
 | [bob-cli-6l.4](bob-cli-6l.4.md) | Obsidian Stats page — data path, tiles, and table | ◐ in_progress | medium | 2026-10-11 | 1 | 0 |
@@ -50,7 +50,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6l.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.1/README.md) | [bob-cli-6l.1](bob-cli-6l.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6l.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.1/README.md) | [bob-cli-6l.1](bob-cli-6l.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2/README.md) | [bob-cli-6l.2](bob-cli-6l.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.3/README.md) | [bob-cli-6l.3](bob-cli-6l.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.4/README.md) | [bob-cli-6l.4](bob-cli-6l.4.md) | 0 |
@@ -63,3 +63,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1023e6c`](https://github.com/bobs-org/bob-cli/commit/1023e6cb14cfbf68d8a1ef43cf288e855d6ab6f7) | feat(stats): add review answer journal contract | [bob-cli-6l.1](bob-cli-6l.1.md) | 2026-10-11 07:21:27 EDT |
+| bob-plugins | [`bob-plugins@f4a2fe3`](https://github.com/bobs-org/bob-plugins/commit/f4a2fe345748b71b37b3b955f999671f8ea2d288) | feat(stats): journal review answers per host | [bob-cli-6l.1](bob-cli-6l.1.md) | 2026-10-11 07:22:37 EDT |
