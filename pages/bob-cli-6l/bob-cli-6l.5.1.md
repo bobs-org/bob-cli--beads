@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/stats_charts.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/stats_charts.md
 
@@ -39,8 +39,10 @@ Ship and visually verify the remaining Stats page work, then close bob-cli-6l.5 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-6l.5.1.1][1] | Need parent epic DECISIONS and phase list for chart_data | 1 |
 | read-by | [agent:bob-cli-6l.5.1.2][2] | Need the epic decisions and phase context | 1 |
+| read-by | [agent:bob-cli-6l.5.1.3][3] | epic decisions | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -61,7 +61,7 @@ flowchart TD
     n14["bob-cli-6l.5.1.1: Supply chart and calendar presentation data [closed]"]
     n15["bob-cli-6l.5.1.2: Build the focus chart and accessible interactions [closed]"]
     n16["bob-cli-6l.5.1.3: Render metric-family context panels [closed]"]
-    n17["bob-cli-6l.5.1.4: Verify the real renderer in light and dark [in_progress]"]
+    n17["bob-cli-6l.5.1.4: Verify the real renderer in light and dark [closed]"]
     n18["bob-cli-6l.6: Rollout — real-vault verification, docs, and memory [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6l.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.1/README.md) | [bob-cli-6l.5.1.1](bob-cli-6l.5.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.2/README.md) | [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.3/README.md) | [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-6l.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.4/README.md) | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6l.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6l.5.1.4.md) | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6l.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.land/README.md) | [bob-cli-6l.5.1](bob-cli-6l.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.6/README.md) | [bob-cli-6l.6](bob-cli-6l.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.land/README.md) | [bob-cli-6l](README.md) | 0 |
@@ -141,6 +141,7 @@ flowchart TD
 | bob-cli | [`ab314c0`](https://github.com/bobs-org/bob-cli/commit/ab314c061da8da06ed1d821c2afa03979c30cb4c) | feat(stats): add schema-1 chart, daily\_points, checklist, and chore metadata | [bob-cli-6l.5.1.1](bob-cli-6l.5.1.1.md) | 2026-10-11 14:45:40 EDT |
 | bob-plugins | [`bob-plugins@f3bc5e2`](https://github.com/bobs-org/bob-plugins/commit/f3bc5e27fc9699ebef58cb044525abbbea0fe4eb) | feat(bob-ledger-tools): add accessible stats charts | [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) | 2026-10-11 15:08:27 EDT |
 | bob-plugins | [`bob-plugins@2e7f3b0`](https://github.com/bobs-org/bob-plugins/commit/2e7f3b0ff365ad5696dc4ee0d61cfd11b84c8a8b) | feat(bob-ledger-tools): render Stats metric-family context panels | [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) | 2026-10-11 15:23:57 EDT |
+| bob-cli | [`efc5593`](https://github.com/bobs-org/bob-cli/commit/efc55932f7b055437d270d5fea37f7186ce5fd73) | docs(stats): document charts and preview workflow | [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) | 2026-10-11 16:21:19 EDT |
 
 <!-- sase:referenced-by:start -->
 

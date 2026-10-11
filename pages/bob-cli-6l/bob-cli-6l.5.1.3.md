@@ -20,7 +20,7 @@ context_panels: add theme and task breakdowns, task flow, review counterweights,
 ## Dependencies
 
 - **Depends on:** [bob-cli-6l.5.1.2](bob-cli-6l.5.1.2.md) ✓ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.5.1.4](bob-cli-6l.5.1.4.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ context_panels: add theme and task breakdowns, task flow, review counterweights,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2e7f3b0`](https://github.com/bobs-org/bob-plugins/commit/2e7f3b0ff365ad5696dc4ee0d61cfd11b84c8a8b) | feat(bob-ledger-tools): render Stats metric-family context panels | [bob-cli-6l.5.1.3](bob-cli-6l.5.1.3.md) | 2026-10-11 15:23:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.5.1.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->
