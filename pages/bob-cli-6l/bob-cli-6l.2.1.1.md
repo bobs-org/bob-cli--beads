@@ -19,8 +19,8 @@ contracts: implement the schema-1 report and request types, isolated stats confi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6l.2.1.2](bob-cli-6l.2.1.2.md) ◐ · ⧖ 2026-10-11
-- **Blocks:** [bob-cli-6l.2.1.3](bob-cli-6l.2.1.3.md) ◐ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.2.1.2](bob-cli-6l.2.1.2.md) ✓ · ⧖ 2026-10-11
+- **Blocks:** [bob-cli-6l.2.1.3](bob-cli-6l.2.1.3.md) ✓ · ⧖ 2026-10-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ contracts: implement the schema-1 report and request types, isolated stats confi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d513f01`](https://github.com/bobs-org/bob-cli/commit/d513f013bb713434f631f488c00bd531487b1a36) | feat(stats): define engine types, isolated config, and metric registry | [bob-cli-6l.2.1.1](bob-cli-6l.2.1.1.md) | 2026-10-11 08:29:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6l.2.1.1][1] | Need the phase scope and design file | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6l.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

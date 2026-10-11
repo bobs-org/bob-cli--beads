@@ -13,7 +13,7 @@ vault_metrics: evaluate four derived metric kinds from the shared index, includi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6l.2.1.2](bob-cli-6l.2.1.2.md) ◐ · ⧖ 2026-10-11
+- **Depends on:** [bob-cli-6l.2.1.2](bob-cli-6l.2.1.2.md) ✓ · ⧖ 2026-10-11
 - **Blocks:** [bob-cli-6l.2.1.5](bob-cli-6l.2.1.5.md) ◐ · ⧖ 2026-10-11
 
 ## Agents
