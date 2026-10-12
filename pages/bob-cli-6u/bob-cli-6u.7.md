@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-6u](README.md) / bob-cli-6u.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.70](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.70.md) · **Assignee:** `bob-cli-6u.7` · **Size:** medium
-**Created:** 2026-10-12 10:25:59 EDT
+**Created:** 2026-10-12 10:25:59 EDT · **Closed:** 2026-10-12 11:49:03 EDT
 **Plan:** [202610/prj\_line\_project\_blocking.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/prj_line_project_blocking.md)
 
 ## Description
@@ -20,6 +20,10 @@ cli-close: StillBlockedProject verdict, residents recover with their ^prj (tag s
 (4) successors.rs is 1488 lines and both plans say to put new logic in new modules.
 See research:202610/bob_cli_6t_6u_epic_conflict.md.
 
+[2026-10-12T15:48:49Z · bob-cli-6u.7] PROPOSED FOLLOW-UP: cli capture::r#ref listen-worker tests fail on clean base too (missing listen fixture dir) — failed_percent_listen_worker_keeps_listen_retry_guidance, percent_listen_reference_runs_existing_worker_and_installs_audio
+
+[2026-10-12T15:49:03Z · bob-cli-6u.7] cli-close done: StillBlockedProject verdict + project_member cascade (outside breaker) in successors.rs via new task_complete/project_close module, parity in recovery.rs, [unblocked::] on Ready recoveries with tag strip, project path in still_blocked JSON/human output. Verified: cargo fmt/clippy clean, lib 2406 passed, new PDC1-3 + UB1-4/UB6 successor tests, recovery PDC tests, CLI project_close tests, prefilter line-model case all pass; 2 r#ref listen failures reproduce on clean base (noted as follow-up)
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
@@ -31,7 +35,13 @@ See research:202610/bob_cli_6t_6u_epic_conflict.md.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.7/README.md) | [bob-cli-6u.7](bob-cli-6u.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.7/README.md) | [bob-cli-6u.7](bob-cli-6u.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`13d183f`](https://github.com/bobs-org/bob-cli/commit/13d183ff74594ae691034c83ce43d2d5b21d3f80) | feat(task-complete): respect project blocking in close paths | [bob-cli-6u.7](bob-cli-6u.7.md) | 2026-10-12 11:50:31 EDT |
 
 <!-- sase:referenced-by:start -->
 

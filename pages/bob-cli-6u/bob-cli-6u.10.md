@@ -28,13 +28,7 @@ ledger-freshness: JS evaluator mirror, placement and stamp helpers clear the fie
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.10/README.md) | [bob-cli-6u.10](bob-cli-6u.10.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@f47be84`](https://github.com/bobs-org/bob-plugins/commit/f47be84eb62cfb2a1ac6f9ce282727a6797e5954) | feat(freshness): add unblocked ledger returns | [bob-cli-6u.10](bob-cli-6u.10.md) | 2026-10-12 11:41:33 EDT |
+| [bbugyi200.apollo.bob-cli-6u.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.10/README.md) | [bob-cli-6u.10](bob-cli-6u.10.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -43,7 +37,9 @@ ledger-freshness: JS evaluator mirror, placement and stamp helpers clear the fie
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
+| read-by | [agent:bob-cli-6u.10][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.10/README.md
 
 <!-- sase:referenced-by:end -->

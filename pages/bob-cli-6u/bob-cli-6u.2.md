@@ -24,7 +24,7 @@ cli-model: delete 54a54bf's frontmatter reader, depends_on parse/splice, and tar
 - **Depends on:** [bob-cli-6u.1](bob-cli-6u.1.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.4](bob-cli-6u.4.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.5](bob-cli-6u.5.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.7](bob-cli-6u.7.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.7](bob-cli-6u.7.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.8](bob-cli-6u.8.md) ◐ · ⧖ 2026-10-12
 
 ## Agents

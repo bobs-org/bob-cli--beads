@@ -24,7 +24,7 @@ cli-freshness: placement (run-extending key, mark/clear/prune helpers, stamps cl
 - **Depends on:** [bob-cli-6u.1](bob-cli-6u.1.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.10](bob-cli-6u.10.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.5](bob-cli-6u.5.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.7](bob-cli-6u.7.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.7](bob-cli-6u.7.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
