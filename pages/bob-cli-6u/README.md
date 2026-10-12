@@ -48,7 +48,7 @@ I asked 6t.2/6t.3 not to land against the YAML model. Bryan decides whether to s
 | [bob-cli-6u.16](bob-cli-6u.16.md) | Install bob on the MacBook before plugins, verify, and update the vault | ◐ in_progress | small | 2026-10-12 | 1 | 0 |
 | [bob-cli-6u.17](bob-cli-6u.17.md) | Decision records, supersession marks, glossary, and docs sweep | ◐ in_progress | small | 2026-10-12 | 1 | 0 |
 | [bob-cli-6u.2](bob-cli-6u.2.md) | Remove the YAML model and rebuild project reasons from the ^prj line | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
-| [bob-cli-6u.3](bob-cli-6u.3.md) | Rust freshness reads and writes \[unblocked::\] | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
+| [bob-cli-6u.3](bob-cli-6u.3.md) | Rust freshness reads and writes \[unblocked::\] | ✓ closed | medium | 2026-10-12 | 1 | 1 |
 | [bob-cli-6u.4](bob-cli-6u.4.md) | Projects sync and capture + use the inline ^prj date | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
 | [bob-cli-6u.5](bob-cli-6u.5.md) | Reconcile derives project blocking, maintains the tag, and writes \[unblocked::\] | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
 | [bob-cli-6u.6](bob-cli-6u.6.md) | Reconcile consumes Task Links to Blocked tasks | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
@@ -71,7 +71,7 @@ flowchart TD
     n8["bob-cli-6u.16: Install bob on the MacBook before plugins, verify, and update the vault [in_progress]"]
     n9["bob-cli-6u.17: Decision records, supersession marks, glossary, and docs sweep [in_progress]"]
     n10["bob-cli-6u.2: Remove the YAML model and rebuild project reasons from the ^prj line [in_progress]"]
-    n11["bob-cli-6u.3: Rust freshness reads and writes [unblocked::] [in_progress]"]
+    n11["bob-cli-6u.3: Rust freshness reads and writes [unblocked::] [closed]"]
     n12["bob-cli-6u.4: Projects sync and capture + use the inline ^prj date [in_progress]"]
     n13["bob-cli-6u.5: Reconcile derives project blocking, maintains the tag, and writes [unblocked::] [in_progress]"]
     n14["bob-cli-6u.6: Reconcile consumes Task Links to Blocked tasks [in_progress]"]
@@ -142,8 +142,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.15/README.md) | [bob-cli-6u.15](bob-cli-6u.15.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.16](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.16/README.md) | [bob-cli-6u.16](bob-cli-6u.16.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.17](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.17/README.md) | [bob-cli-6u.17](bob-cli-6u.17.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.2/README.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.3/README.md) | [bob-cli-6u.3](bob-cli-6u.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.2.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.3/README.md) | [bob-cli-6u.3](bob-cli-6u.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.4/README.md) | [bob-cli-6u.4](bob-cli-6u.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.5/README.md) | [bob-cli-6u.5](bob-cli-6u.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.6/README.md) | [bob-cli-6u.6](bob-cli-6u.6.md) | 0 |
@@ -157,6 +157,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`37c100f`](https://github.com/bobs-org/bob-cli/commit/37c100fa50d94c3038eec1e4f966dc48caab1616) | docs(task-deps): rewrite §13 for the ^prj line-model contract | [bob-cli-6u.1](bob-cli-6u.1.md) | 2026-10-12 10:52:02 EDT |
+| bob-cli | [`f51ba28`](https://github.com/bobs-org/bob-cli/commit/f51ba2890392ccf32e84dc0d9751c12bb4177912) | feat(freshness): read and write \[unblocked::\] with RESURFACED evaluation | [bob-cli-6u.3](bob-cli-6u.3.md) | 2026-10-12 11:22:28 EDT |
 
 <!-- sase:referenced-by:start -->
 

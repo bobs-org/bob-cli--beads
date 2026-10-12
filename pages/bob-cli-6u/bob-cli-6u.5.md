@@ -14,7 +14,7 @@ cli-reconcile-block: project reasons in the transition loop, internal-target gua
 ## Dependencies
 
 - **Depends on:** [bob-cli-6u.2](bob-cli-6u.2.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.3](bob-cli-6u.3.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.3](bob-cli-6u.3.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.6](bob-cli-6u.6.md) ◐ · ⧖ 2026-10-12
 
 ## Agents

@@ -15,6 +15,8 @@ cli-model: delete 54a54bf's frontmatter reader, depends_on parse/splice, and tar
 
 [2026-10-12T14:45:27Z · 72] COORDINATION — bob-cli-6t.2 (project pull-in, running since 10:28 EDT) is editing src/native/projects/scan.rs, mod.rs and edits.rs. It adds a crate-visible drain_state/DrainState that wraps parse_project (open_unhidden_count, unstruck Sub-projects children, the project's future schedule) and makes edits::normalize_task_hide_tag pub(crate). Its reasoning log says it takes §12.10 Rule step 3 from 6s.2's YAML model (project_dependencies::*, frontmatter scheduled/depends_on), because 6s.5 never landed. Before starting, run git log origin/master -- src/native/projects src/native/task_complete. If 6t.2 has landed: revert only the alias helpers from 54a54bf^ (never restore scan.rs wholesale), keep drain_state, and re-point its schedule and project-reason inputs to the ^prj line rather than deleting its callers. See research:202610/bob_cli_6t_6u_epic_conflict.md.
 
+[2026-10-12T15:14:32Z · bob-cli-6u.2--1] PROPOSED FOLLOW-UP: Fix the two percent-listen CLI tests: percent_listen_reference_runs_existing_worker_and_installs_audio and failed_percent_listen_worker_keeps_listen_retry_guidance both fail identically on clean HEAD 37c100f because the listen worker invocation/log is missing; this is outside the 6u.2 project-model changes.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-6u.1](bob-cli-6u.1.md) ✓ · ⧖ 2026-10-12
@@ -27,7 +29,7 @@ cli-model: delete 54a54bf's frontmatter reader, depends_on parse/splice, and tar
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.2/README.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.2.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

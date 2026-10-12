@@ -25,7 +25,7 @@ See research:202610/bob_cli_6t_6u_epic_conflict.md.
 - **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ◐ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.2](bob-cli-6u.2.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.3](bob-cli-6u.3.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.3](bob-cli-6u.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

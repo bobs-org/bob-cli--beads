@@ -16,7 +16,7 @@ ledger-freshness: JS evaluator mirror, placement and stamp helpers clear the fie
 - **Depends on:** [bob-cli-6u.1](bob-cli-6u.1.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.11](bob-cli-6u.11.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.15](bob-cli-6u.15.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.3](bob-cli-6u.3.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.3](bob-cli-6u.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

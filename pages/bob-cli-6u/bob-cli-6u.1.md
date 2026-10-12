@@ -35,7 +35,7 @@ If this is out of scope, record a PROPOSED FOLLOW-UP so 6u.17 picks it up. See r
 - **Blocks:** [bob-cli-6u.11](bob-cli-6u.11.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.15](bob-cli-6u.15.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.2](bob-cli-6u.2.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.3](bob-cli-6u.3.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.3](bob-cli-6u.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -56,7 +56,9 @@ If this is out of scope, record a PROPOSED FOLLOW-UP so 6u.17 picks it up. See r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
+| read-by | [agent:bob-cli-6u.1][2] | Need notes, design path, and remaining work details | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.1/README.md
 
 <!-- sase:referenced-by:end -->
