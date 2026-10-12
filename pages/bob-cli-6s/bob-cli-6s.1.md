@@ -20,7 +20,7 @@ contract: add docs/task-dependencies.md §13 (storage, R0 hoist, ^prj R-rules, i
 ## Dependencies
 
 - **Blocks:** [bob-cli-6s.11](bob-cli-6s.11.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6s.2](bob-cli-6s.2.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6s.2](bob-cli-6s.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6s.8](bob-cli-6s.8.md) ◐ · ⧖ 2026-10-12
 
 ## Agents

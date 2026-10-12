@@ -15,7 +15,7 @@ cli-close: successors keep residents of a still-blocked project Blocked and reco
 
 - **Blocks:** [bob-cli-6s.12](bob-cli-6s.12.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6s.13](bob-cli-6s.13.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6s.2](bob-cli-6s.2.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6s.2](bob-cli-6s.2.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

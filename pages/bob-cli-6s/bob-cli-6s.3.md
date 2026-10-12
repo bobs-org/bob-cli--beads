@@ -13,7 +13,7 @@ cli-reconcile-deps: R0 hoist of ^prj Depends-On lines, ^prj R-rules driven by th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6s.2](bob-cli-6s.2.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6s.2](bob-cli-6s.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6s.4](bob-cli-6s.4.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
