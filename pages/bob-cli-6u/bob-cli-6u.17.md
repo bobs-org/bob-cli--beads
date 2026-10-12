@@ -35,6 +35,8 @@ publish: write the project-blocking and unblocked-ticklers decision records, mar
 
 [2026-10-12T21:08:39Z · bob-cli-6u.17] Verified: wrote projects-block-from-prj-line and unblocked-tasks-resurface-as-ticklers; marked task-status-is-derived, task-lanes-are-sticky, ready-is-freshness-gated, rotten-keeps-use-priority-decay superseded-in-part; updated glossary task-dependency-link, project-task, task-freshness, keep-streak; sase memory init roster shows both new records and the marks, glossary roster unchanged; docs sweep kept §12.10/§12.11/§13.4 and recover-rank writes [unblocked::]; leftover YAML-model wording is hoist-only; epic-symbols empty.
 
+[2026-10-12T21:18:49Z · bob-cli-6u.17--1] PROPOSED FOLLOW-UP: just check 4 failures reproduce on committed HEAD (docs/memory dirty files do not affect cli tests): capture::r#ref percent-listen worker tests (listen runner invoked / missing invocation file) tracked by bob-cli-6m; task_status_hooks_reconciles_future_schedules_and_combined_blocking_reasons (blocked.rs:173, 11 vs 7) and projects_sync_then_task_status_hooks_blocks_and_recovers_propagated_tasks (schedule.rs:131) wall-clock-rotted July 2026 fixtures, also noted on bob-cli-6u.9 and bob-cli-6u.13
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-6u.14](bob-cli-6u.14.md) ✓ · ⧖ 2026-10-12
@@ -48,7 +50,13 @@ publish: write the project-blocking and unblocked-ticklers decision records, mar
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.17](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.17.md) | [bob-cli-6u.17](bob-cli-6u.17.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.17](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.17.md) | [bob-cli-6u.17](bob-cli-6u.17.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`7a44aa7`](https://github.com/bobs-org/bob-cli/commit/7a44aa79a470f16b694aab65d08b8cb0c4c295a3) | docs(memory): publish ^prj blocking and unblocked-tickler records | [bob-cli-6u.17](bob-cli-6u.17.md) | 2026-10-12 17:20:04 EDT |
 
 <!-- sase:referenced-by:start -->
 

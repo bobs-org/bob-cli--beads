@@ -23,7 +23,7 @@ plugins-compat: 3208e8c follow-up: read ^prj inline scheduled, use the resident 
 
 - **Depends on:** [bob-cli-6u.1](bob-cli-6u.1.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.10](bob-cli-6u.10.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ✓ · ⧖ 2026-10-12
 
 ## Agents

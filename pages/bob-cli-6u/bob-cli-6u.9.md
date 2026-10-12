@@ -21,7 +21,7 @@ cli-capture-links: link-toggle consumption at every plan_task_link caller, the g
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.4](bob-cli-6u.4.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.8](bob-cli-6u.8.md) ✓ · ⧖ 2026-10-12
