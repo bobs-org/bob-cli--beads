@@ -24,7 +24,7 @@ cli-projects: sync hoists frontmatter scheduled onto ^prj, stops deleting inline
 ## Dependencies
 
 - **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.2](bob-cli-6u.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.9](bob-cli-6u.9.md) ✓ · ⧖ 2026-10-12
 

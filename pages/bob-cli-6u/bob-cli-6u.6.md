@@ -20,7 +20,7 @@ cli-reconcile-consume: remove live links to effectively Blocked tasks under toda
 ## Dependencies
 
 - **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.5](bob-cli-6u.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents

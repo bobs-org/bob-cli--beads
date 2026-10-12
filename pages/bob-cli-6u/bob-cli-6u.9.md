@@ -22,7 +22,7 @@ cli-capture-links: link-toggle consumption at every plan_task_link caller, the g
 ## Dependencies
 
 - **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.4](bob-cli-6u.4.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.8](bob-cli-6u.8.md) ✓ · ⧖ 2026-10-12
 
@@ -46,8 +46,10 @@ cli-capture-links: link-toggle consumption at every plan_task_link caller, the g
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
 | read-by | [agent:bob-cli-6u.8][2] | Need epic and children status | 1 |
+| read-by | [agent:bob-cli-6u.9][3] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.9.md
 
 <!-- sase:referenced-by:end -->
