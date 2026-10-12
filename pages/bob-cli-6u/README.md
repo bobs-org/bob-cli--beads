@@ -34,6 +34,40 @@ A project's prerequisites live on its `^prj` task's ordinary Depends-On line and
 4. 6t.4 would reach the MacBook early because 6s.12 reads closed. A note on 6t.4 redirects it to 6u.16.
 I asked 6t.2/6t.3 not to land against the YAML model. Bryan decides whether to stop or re-sequence 6t. See research:202610/bob_cli_6t_6u_epic_conflict.md.
 
+[2026-10-12T22:03:16Z · bob-cli-6u.land] LAND TRIAGE (bob-cli-6u.land, 2026-10-12): PROPOSED FOLLOW-UP outcomes
+- percent-listen CLI failures (6u.1-6u.9, 6u.17): duplicate. +1 on bob-cli-6m, reproduced at 7a44aa7.
+- highlights_ref listen ETXTBSY flake (6u.3 #2): duplicate. +1 on bob-cli-5l (same in-place stub-writer race).
+- stage-ranker timing flake (6u.10/6u.11/6u.12 #6): duplicate. +1 on bob-cli-3w.
+- bob-plugins clean-base failures (6u.10/6u.11/6u.12 #4-#5/6u.13/6u.14/6u.15/6u.17 #8): 5 still fail at 1abde2f and all 5 reproduce at the pre-epic base 4193a19. New beads: bob-cli-6v (unblocked-glyph x4; wall-clock DAILY vs frozen TODAY) and bob-cli-6w (decision-card Keep notice). Declined the rest: the picker-single cases are already bob-cli-5r, and the successor-polish/wiring and scheduled-roll cases no longer fail (2511/2516 pass).
+- "wall-clock-rotted" CLI fixtures (6u.9 #1, 6u.13 #1, 6u.17 #12): DECLINED as follow-ups because the epic caused them. Repro: reconcile now adds #prj_is_blocked to the resident (schedule.rs:131), and the inline ^prj date blocks the residents of tasks.md (blocked.rs:173, 11 vs 7). This is the 6u.4 x 6u.5 integration, so it is remaining epic work.
+- 6u.17 #2 ledger pill: bob-cli-6y. #3 PRE-tier reconcile-staleness notice: bob-cli-6z. #4 projects list column: bob-cli-70. #5 dash_projects query: bob-cli-71. #6 retire ADJ-8 propagation: bob-cli-72 (needs Bryan's decision).
+- 6u.17 #7 sub-project cascade / re-linking on unblock: DECLINED. Both are rejected alternatives in decisions:projects-block-from-prj-line, which reopens only if Bryan asks.
+- 6u.17 #9 a future 6t decision record should link projects-block-from-prj-line: DECLINED. 6t is canceled and there is no record to act on; noted on bob-cli-6x context.
+- New, not epic-caused: the canceled 6t pull-in is documented as shipped. Filed bob-cli-6x.
+- New Mac follow-up per cli-capture-links step 6: bob-cli-73 (Bob Mac Capture renders link_guard).
+
+[2026-10-12T22:06:33Z · bob-cli-6u.land] LAND VERIFICATION (bob-cli-6u.land, 2026-10-12)
+- Scope: read all 17 phase beads and their notes, and audited every phase commit against the plan. bob-cli: 37c100f, f51ba28, f6fbd7d, 13d183f, 66c4ddb, 34d4ab6, 23f2fd9, 2340689, 36f997b, 7a44aa7. bob-plugins: f47be84, 744247c, c9938d8, a42f45d, 046028c, 1abde2f.
+- Drift: none. Every commit since the epic started, in both repos, belongs to 6u. 6t was canceled; its code never landed, and its only commit is the ec7251e docs. Nothing needs integrating.
+- Rollout: verified in ~/bob. The 10 hoists landed (vault commit 1fe1fb35; sase_message_boards ^prj is [?] with an inline 2026-10-16 date). Terminal projects keep their frontmatter as designed. The Databricks residents recovered with [unblocked:: 2026-10-12] after LinkedIn closed. blocked.md and the CSS are in 3ac0b3be.
+- Epic-symbols: none.
+- Remaining epic-caused work, which blocks the close:
+  - bob-cli just check fails 2 CLI tests caused by the 6u.4 x 6u.5 integration (schedule.rs:131 now has #prj_is_blocked; blocked.rs:173 now has 11 vs 7 because the ^prj inline date blocks residents), besides bob-cli-6m.
+  - Audit defects, among them:
+    - HIGH capture regression: link_guard.rs:209 consumes a resident of an UNBLOCKED project with only its own future date instead of pulling it forward;
+    - capture JSON claims links in existing fields;
+    - PDC3 tag strip missing on the close path (Rust and cycler);
+    - internal-target guard skipped on R2/legacy;
+    - every status flip is now structural;
+    - hoist with no ^prj breaks sync;
+    - Sub-projects insertion splits the Cancel Log;
+    - nav resident recovery from an unblocked ^prj;
+    - resident cycle edges missing in capture & and nav;
+    - tag drift in nav schedule and move;
+    - counted/batch paths skip [unblocked::];
+    - link guard reads the whole vault (regresses bob-cli-5v).
+- Planned as a child epic (plan sase_plan_prj_line_blocking_landing_fixes.md) with phases cli-reconcile-close, cli-projects-sync, cli-capture, nav-fixes, cycler-blockid, rollout. Its land agent resumes this landing: close bob-cli-6u, then mark plan:202610/prj_line_project_blocking.md done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -70,14 +104,21 @@ flowchart TD
     n7["bob-cli-6u.15: Fix the cycler and block-id-prompt for the line model [closed]"]
     n8["bob-cli-6u.16: Install bob on the MacBook before plugins, verify, and update the vault [closed]"]
     n9["bob-cli-6u.17: Decision records, supersession marks, glossary, and docs sweep [closed]"]
-    n10["bob-cli-6u.2: Remove the YAML model and rebuild project reasons from the ^prj line [closed]"]
-    n11["bob-cli-6u.3: Rust freshness reads and writes [unblocked::] [closed]"]
-    n12["bob-cli-6u.4: Projects sync and capture + use the inline ^prj date [closed]"]
-    n13["bob-cli-6u.5: Reconcile derives project blocking, maintains the tag, and writes [unblocked::] [closed]"]
-    n14["bob-cli-6u.6: Reconcile consumes Task Links to Blocked tasks [closed]"]
-    n15["bob-cli-6u.7: Close and recovery paths respect project blocking and write [unblocked::] [closed]"]
-    n16["bob-cli-6u.8: Capture & on ^prj blocks residents; project graph edges and promotion guards [closed]"]
-    n17["bob-cli-6u.9: Capture never links a Blocked task [closed]"]
+    n10["bob-cli-6u.18: Finish landing ^prj project blocking — fix the defects the land audit found [in_progress]"]
+    n11["bob-cli-6u.18.1: Reconcile and close-path fixes plus the two epic-caused CLI test failures [in_progress]"]
+    n12["bob-cli-6u.18.2: Projects sync hoist, Sub-projects placement, and inline ^prj schedule issues [in_progress]"]
+    n13["bob-cli-6u.18.3: Capture link-guard, & on ^prj, and output-compatibility fixes [in_progress]"]
+    n14["bob-cli-6u.18.4: Navigation-hotkeys project-blocking fixes [in_progress]"]
+    n15["bob-cli-6u.18.5: Task-status-cycler and block-id-prompt project-blocking fixes [closed]"]
+    n16["bob-cli-6u.18.6: Install the fixed bob and plugins on the MacBook, then this host [in_progress]"]
+    n17["bob-cli-6u.2: Remove the YAML model and rebuild project reasons from the ^prj line [closed]"]
+    n18["bob-cli-6u.3: Rust freshness reads and writes [unblocked::] [closed]"]
+    n19["bob-cli-6u.4: Projects sync and capture + use the inline ^prj date [closed]"]
+    n20["bob-cli-6u.5: Reconcile derives project blocking, maintains the tag, and writes [unblocked::] [closed]"]
+    n21["bob-cli-6u.6: Reconcile consumes Task Links to Blocked tasks [closed]"]
+    n22["bob-cli-6u.7: Close and recovery paths respect project blocking and write [unblocked::] [closed]"]
+    n23["bob-cli-6u.8: Capture & on ^prj blocks residents; project graph edges and promotion guards [closed]"]
+    n24["bob-cli-6u.9: Capture never links a Blocked task [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -88,18 +129,25 @@ flowchart TD
     n0 --> n8
     n0 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
-    n0 --> n16
+    n10 --> n11
+    n10 --> n12
+    n10 --> n13
+    n10 --> n14
+    n10 --> n15
+    n10 --> n16
     n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
+    n0 --> n24
     n1 -.-> n2
     n1 -.-> n3
     n1 -.-> n7
-    n1 -.-> n10
-    n1 -.-> n11
+    n1 -.-> n17
+    n1 -.-> n18
     n2 -.-> n3
     n2 -.-> n7
     n3 -.-> n4
@@ -109,24 +157,30 @@ flowchart TD
     n6 -.-> n9
     n7 -.-> n8
     n7 -.-> n9
-    n10 -.-> n12
-    n10 -.-> n13
-    n10 -.-> n15
-    n10 -.-> n16
-    n11 -.-> n2
-    n11 -.-> n13
-    n11 -.-> n15
-    n12 -.-> n8
-    n12 -.-> n9
-    n12 -.-> n17
-    n13 -.-> n14
-    n14 -.-> n8
-    n14 -.-> n9
-    n15 -.-> n8
-    n15 -.-> n9
-    n16 -.-> n17
-    n17 -.-> n8
-    n17 -.-> n9
+    n11 -.-> n12
+    n11 -.-> n16
+    n12 -.-> n16
+    n13 -.-> n16
+    n14 -.-> n16
+    n15 -.-> n16
+    n17 -.-> n19
+    n17 -.-> n20
+    n17 -.-> n22
+    n17 -.-> n23
+    n18 -.-> n2
+    n18 -.-> n20
+    n18 -.-> n22
+    n19 -.-> n8
+    n19 -.-> n9
+    n19 -.-> n24
+    n20 -.-> n21
+    n21 -.-> n8
+    n21 -.-> n9
+    n22 -.-> n8
+    n22 -.-> n9
+    n23 -.-> n24
+    n24 -.-> n8
+    n24 -.-> n9
 ```
 
 ## Agents
@@ -142,6 +196,13 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.15/README.md) | [bob-cli-6u.15](bob-cli-6u.15.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.16](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.16.md) | [bob-cli-6u.16](bob-cli-6u.16.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.17](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.17.md) | [bob-cli-6u.17](bob-cli-6u.17.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.1/README.md) | [bob-cli-6u.18.1](bob-cli-6u.18.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.2/README.md) | [bob-cli-6u.18.2](bob-cli-6u.18.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.3/README.md) | [bob-cli-6u.18.3](bob-cli-6u.18.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.4/README.md) | [bob-cli-6u.18.4](bob-cli-6u.18.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.5/README.md) | [bob-cli-6u.18.5](bob-cli-6u.18.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.6/README.md) | [bob-cli-6u.18.6](bob-cli-6u.18.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.land/README.md) | [bob-cli-6u.18](bob-cli-6u.18.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.2.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.3/README.md) | [bob-cli-6u.3](bob-cli-6u.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.4/README.md) | [bob-cli-6u.4](bob-cli-6u.4.md) | 1 |
@@ -150,7 +211,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.7/README.md) | [bob-cli-6u.7](bob-cli-6u.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md) | [bob-cli-6u.8](bob-cli-6u.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.9/README.md) | [bob-cli-6u.9](bob-cli-6u.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-6u.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.land/README.md) | [bob-cli-6u](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.land.md) | [bob-cli-6u](README.md) | 0 |
 
 ## Commits
 
@@ -175,6 +236,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@1abde2f`](https://github.com/bobs-org/bob-plugins/commit/1abde2f639ff709dea6db6e36a90ee5c6a4962c2) | feat(navigation): preserve project state across conversion and moves | [bob-cli-6u.14](bob-cli-6u.14.md) | 2026-10-12 16:05:32 EDT |
 | bob-cli | [`36f997b`](https://github.com/bobs-org/bob-cli/commit/36f997b1aad6d0757b83de36aff75f584718237d) | feat(capture): never link a Blocked task | [bob-cli-6u.9](bob-cli-6u.9.md) | 2026-10-12 16:52:38 EDT |
 | bob-cli | [`7a44aa7`](https://github.com/bobs-org/bob-cli/commit/7a44aa79a470f16b694aab65d08b8cb0c4c295a3) | docs(memory): publish ^prj blocking and unblocked-tickler records | [bob-cli-6u.17](bob-cli-6u.17.md) | 2026-10-12 17:20:04 EDT |
+| bob-cli | [`414b802`](https://github.com/bobs-org/bob-cli/commit/414b802b915c9ec7e89f6cfbdded0cced5a84422) | docs(task-dependencies): clarify direct project task links | [bob-cli-6u.18.5](bob-cli-6u.18.5.md) | 2026-10-12 18:18:56 EDT |
 
 <!-- sase:referenced-by:start -->
 

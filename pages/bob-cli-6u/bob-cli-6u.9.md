@@ -45,11 +45,13 @@ cli-capture-links: link-toggle consumption at every plan_task_link caller, the g
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
-| read-by | [agent:bob-cli-6u.8][2] | Need epic and children status | 1 |
-| read-by | [agent:bob-cli-6u.9][3] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-6u.17--1][2] | Need proposed follow-up language for the two reconcile test failures | 1 |
+| read-by | [agent:bob-cli-6u.8][3] | Need epic and children status | 1 |
+| read-by | [agent:bob-cli-6u.9][4] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.9.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.17.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.9.md
 
 <!-- sase:referenced-by:end -->
