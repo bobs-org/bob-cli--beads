@@ -13,7 +13,7 @@ nav-convert-move: create-project-note-from-task keeps the Depends-On line and in
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6u.13](bob-cli-6u.13.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.13](bob-cli-6u.13.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.16](bob-cli-6u.16.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.17](bob-cli-6u.17.md) ◐ · ⧖ 2026-10-12
 
