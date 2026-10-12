@@ -27,14 +27,13 @@ nav-convert-move: create-project-note-from-task keeps the Depends-On line and in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.14/README.md) | [bob-cli-6u.14](bob-cli-6u.14.md) | 2 |
+| [bbugyi200.apollo.bob-cli-6u.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.14/README.md) | [bob-cli-6u.14](bob-cli-6u.14.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e9acfdf`](https://github.com/bobs-org/bob-cli/commit/e9acfdf7264098425e6176ecb6b65afeeda7487a) | docs(projects): document line-based conversion behavior | [bob-cli-6u.14](bob-cli-6u.14.md) | 2026-10-12 16:04:13 EDT |
-| bob-plugins | [`bob-plugins@1abde2f`](https://github.com/bobs-org/bob-plugins/commit/1abde2f639ff709dea6db6e36a90ee5c6a4962c2) | feat(navigation): preserve project state across conversion and moves | [bob-cli-6u.14](bob-cli-6u.14.md) | 2026-10-12 16:05:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -43,9 +42,11 @@ nav-convert-move: create-project-note-from-task keeps the Depends-On line and in
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
-| read-by | [agent:bob-cli-6u.8][2] | Need epic and children status | 1 |
+| read-by | [agent:bob-cli-6u.14][2] | Check whether earlier work left remaining phase notes | 2 |
+| read-by | [agent:bob-cli-6u.8][3] | Need epic and children status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.14/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
 
 <!-- sase:referenced-by:end -->

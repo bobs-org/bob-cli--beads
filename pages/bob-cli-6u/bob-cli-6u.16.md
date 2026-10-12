@@ -22,7 +22,7 @@ rollout: bob on the MacBook first, verify the hoist and reconcile, then this hos
 - **Depends on:** [bob-cli-6u.4](bob-cli-6u.4.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.6](bob-cli-6u.6.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.7](bob-cli-6u.7.md) ✓ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.9](bob-cli-6u.9.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.9](bob-cli-6u.9.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

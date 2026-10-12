@@ -22,7 +22,7 @@ publish: write the project-blocking and unblocked-ticklers decision records, mar
 - **Depends on:** [bob-cli-6u.4](bob-cli-6u.4.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.6](bob-cli-6u.6.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.7](bob-cli-6u.7.md) ✓ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.9](bob-cli-6u.9.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.9](bob-cli-6u.9.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

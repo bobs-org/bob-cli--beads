@@ -20,7 +20,7 @@ cli-capture-deps: & with a ^prj dependent refuses same-note targets and blocks, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-6u.2](bob-cli-6u.2.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.9](bob-cli-6u.9.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.9](bob-cli-6u.9.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
