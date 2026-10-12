@@ -51,8 +51,10 @@ See research:202610/bob_cli_6t_6u_epic_conflict.md.
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
 | read-by | [agent:bob-cli-6u.7][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-6u.8][3] | Need epic and children status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
 
 <!-- sase:referenced-by:end -->

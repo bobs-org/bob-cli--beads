@@ -34,7 +34,9 @@ nav-model: port the reusable parts of the uncommitted bob-cli-6s.8 bundle (proje
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
+| read-by | [agent:bob-cli-6u.8][2] | Need epic and children status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
 
 <!-- sase:referenced-by:end -->

@@ -23,7 +23,7 @@ cli-freshness: placement (run-extending key, mark/clear/prune helpers, stamps cl
 
 - **Depends on:** [bob-cli-6u.1](bob-cli-6u.1.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.10](bob-cli-6u.10.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.5](bob-cli-6u.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.5](bob-cli-6u.5.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.7](bob-cli-6u.7.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
@@ -46,8 +46,10 @@ cli-freshness: placement (run-extending key, mark/clear/prune helpers, stamps cl
 | --- | --- | --- | ---: |
 | read-by | [agent:72][1] | Assess 6u phase state and deps for conflict analysis with 6t | 1 |
 | read-by | [agent:bob-cli-6u.3][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-6u.8][3] | Need epic and children status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.72/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.8/README.md
 
 <!-- sase:referenced-by:end -->
