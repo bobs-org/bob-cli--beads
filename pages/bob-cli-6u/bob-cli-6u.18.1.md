@@ -21,7 +21,7 @@ cli-reconcile-close: fix the two failing CLI fixtures, strip #prj_is_blocked fro
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.18.2](bob-cli-6u.18.2.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.2](bob-cli-6u.18.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
@@ -35,3 +35,17 @@ cli-reconcile-close: fix the two failing CLI fixtures, strip #prj_is_blocked fro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`54ac68b`](https://github.com/bobs-org/bob-cli/commit/54ac68b25bbb3aef070c817f55dfbe56e620f4bf) | fix(tasks): land prj-line reconcile and close-path defects | [bob-cli-6u.18.1](bob-cli-6u.18.1.md) | 2026-10-12 19:22:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-6u.18.3][2] | Need to confirm the existing bead tracking the two clean-base percent-listen check failures before citing it | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -32,3 +32,15 @@ cli-capture: restore pull-forward for residents of unblocked projects, stop clai
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`53af9cb`](https://github.com/bobs-org/bob-cli/commit/53af9cbba2a5b99a8a0e18e9262170b72ebeac84) | fix(capture): honor project blocking in link gestures | [bob-cli-6u.18.3](bob-cli-6u.18.3.md) | 2026-10-12 19:00:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.3][1] | Check whether prior phase notes record remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.3/README.md
+
+<!-- sase:referenced-by:end -->
