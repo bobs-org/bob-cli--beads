@@ -18,7 +18,7 @@ nav-model: port the reusable parts of the uncommitted bob-cli-6s.8 bundle (proje
 ## Dependencies
 
 - **Depends on:** [bob-cli-6u.1](bob-cli-6u.1.md) ✓ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.10](bob-cli-6u.10.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.10](bob-cli-6u.10.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.12](bob-cli-6u.12.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
