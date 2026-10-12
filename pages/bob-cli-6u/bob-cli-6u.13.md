@@ -13,7 +13,7 @@ nav-deps-stage: on ^prj the ordinary Depends on writer also blocks, tags, and un
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6u.12](bob-cli-6u.12.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.12](bob-cli-6u.12.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.14](bob-cli-6u.14.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
