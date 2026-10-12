@@ -19,7 +19,7 @@ contract: add docs/task-dependencies.md §13 (storage, R0 hoist, ^prj R-rules, i
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6s.11](bob-cli-6s.11.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6s.11](bob-cli-6s.11.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6s.2](bob-cli-6s.2.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6s.8](bob-cli-6s.8.md) ◐ · ⧖ 2026-10-12
 
@@ -34,3 +34,15 @@ contract: add docs/task-dependencies.md §13 (storage, R0 hoist, ^prj R-rules, i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`75e323b`](https://github.com/bobs-org/bob-cli/commit/75e323b2d6c59899a0b739b8079e2087fbfbb90e) | docs(task-deps): add §13 project-dependency contract and PD vectors | [bob-cli-6s.1](bob-cli-6s.1.md) | 2026-10-12 08:54:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6s.1][1] | Need full description, notes, and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.1/README.md
+
+<!-- sase:referenced-by:end -->

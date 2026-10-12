@@ -14,7 +14,7 @@ rollout: install bob on this host and the MacBook before syncing plugins there, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-6s.10](bob-cli-6s.10.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6s.11](bob-cli-6s.11.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6s.11](bob-cli-6s.11.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6s.4](bob-cli-6s.4.md) ◐ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6s.5](bob-cli-6s.5.md) ◐ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6s.7](bob-cli-6s.7.md) ◐ · ⧖ 2026-10-12

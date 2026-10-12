@@ -31,7 +31,7 @@ A project's (`^prj`) dependency links live in its note's `depends_on` frontmatte
 |---|---|---|---|---|---:|---:|
 | [bob-cli-6s.1](bob-cli-6s.1.md) | Project-dependency contract and PD vectors | ✓ closed | medium | 2026-10-12 | 1 | 1 |
 | [bob-cli-6s.10](bob-cli-6s.10.md) | Project conversion, project schedules, and task moves | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
-| [bob-cli-6s.11](bob-cli-6s.11.md) | task-status-cycler and block-id-prompt | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
+| [bob-cli-6s.11](bob-cli-6s.11.md) | task-status-cycler and block-id-prompt | ✓ closed | medium | 2026-10-12 | 1 | 1 |
 | [bob-cli-6s.12](bob-cli-6s.12.md) | Install bob before plugins, verify the auto-fix, and blocked.md | ◐ in_progress | small | 2026-10-12 | 1 | 0 |
 | [bob-cli-6s.13](bob-cli-6s.13.md) | Glossary, decision record, supersession marks, and docs sweep | ◐ in_progress | small | 2026-10-12 | 1 | 0 |
 | [bob-cli-6s.2](bob-cli-6s.2.md) | Shared Rust project-dependency model | ◐ in_progress | medium | 2026-10-12 | 1 | 0 |
@@ -50,7 +50,7 @@ flowchart TD
     n0["bob-cli-6s: Project task dependency links, project-inherited Blocked, and blocked-link consumption [in_progress]"]
     n1["bob-cli-6s.1: Project-dependency contract and PD vectors [closed]"]
     n2["bob-cli-6s.10: Project conversion, project schedules, and task moves [in_progress]"]
-    n3["bob-cli-6s.11: task-status-cycler and block-id-prompt [in_progress]"]
+    n3["bob-cli-6s.11: task-status-cycler and block-id-prompt [closed]"]
     n4["bob-cli-6s.12: Install bob before plugins, verify the auto-fix, and blocked.md [in_progress]"]
     n5["bob-cli-6s.13: Glossary, decision record, supersession marks, and docs sweep [in_progress]"]
     n6["bob-cli-6s.2: Shared Rust project-dependency model [in_progress]"]
@@ -102,7 +102,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-6s.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.1/README.md) | [bob-cli-6s.1](bob-cli-6s.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6s.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.10/README.md) | [bob-cli-6s.10](bob-cli-6s.10.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6s.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.11/README.md) | [bob-cli-6s.11](bob-cli-6s.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6s.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.11/README.md) | [bob-cli-6s.11](bob-cli-6s.11.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6s.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.12/README.md) | [bob-cli-6s.12](bob-cli-6s.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6s.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.13/README.md) | [bob-cli-6s.13](bob-cli-6s.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6s.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.2/README.md) | [bob-cli-6s.2](bob-cli-6s.2.md) | 0 |
@@ -120,6 +120,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`75e323b`](https://github.com/bobs-org/bob-cli/commit/75e323b2d6c59899a0b739b8079e2087fbfbb90e) | docs(task-deps): add §13 project-dependency contract and PD vectors | [bob-cli-6s.1](bob-cli-6s.1.md) | 2026-10-12 08:54:38 EDT |
+| bob-plugins | [`bob-plugins@3208e8c`](https://github.com/bobs-org/bob-plugins/commit/3208e8c44ac1a56f4c113b0230371f3cd6ca8a73) | feat(plugins): honor project blockers across task gestures | [bob-cli-6s.11](bob-cli-6s.11.md) | 2026-10-12 09:15:12 EDT |
 
 <!-- sase:referenced-by:start -->
 

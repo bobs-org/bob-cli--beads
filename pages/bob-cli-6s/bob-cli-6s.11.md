@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [bob-cli-6s](README.md) / bob-cli-6s.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.0z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.0z.linker.w0.md) · **Assignee:** `bob-cli-6s.11` · **Size:** medium
-**Created:** 2026-10-12 08:34:40 EDT
+**Created:** 2026-10-12 08:34:40 EDT · **Closed:** 2026-10-12 09:13:56 EDT
 **Plan:** [202610/prj\_task\_dep\_links.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/prj_task_dep_links.md)
 
 ## Description
 
 plugins-compat: cycler member recovery and refusal to hand-unblock project-blocked tasks; block-id-prompt consumes instead of force-linking dependency- or project-blocked targets.
+
+## Notes
+
+[2026-10-12T13:13:14Z · bob-cli-6s.11] PROPOSED FOLLOW-UP: Fix the 19 existing bob-plugins npm test failures in the clean base suite — the same failures reproduced before and after this phase changes (unblocked-glyph 4, keep-count 1, picker-single 2, successor-polish/wiring 12).
+
+[2026-10-12T13:13:56Z · bob-cli-6s.11] Implemented project-blocked resident recovery and blocked-target gesture consumption. Verified npm run build, npm run validate, focused tests (147/147), git diff --check, plugin sync, and no remaining epic symbols. Full npm test has 19 failures reproduced identically on clean base; recorded as a proposed follow-up.
 
 ## Dependencies
 
@@ -21,4 +27,10 @@ plugins-compat: cycler member recovery and refusal to hand-unblock project-block
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6s.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.11/README.md) | [bob-cli-6s.11](bob-cli-6s.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6s.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6s.11/README.md) | [bob-cli-6s.11](bob-cli-6s.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3208e8c`](https://github.com/bobs-org/bob-plugins/commit/3208e8c44ac1a56f4c113b0230371f3cd6ca8a73) | feat(plugins): honor project blockers across task gestures | [bob-cli-6s.11](bob-cli-6s.11.md) | 2026-10-12 09:15:12 EDT |
