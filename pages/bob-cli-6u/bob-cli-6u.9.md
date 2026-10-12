@@ -22,7 +22,7 @@ cli-capture-links: link-toggle consumption at every plan_task_link caller, the g
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.9/README.md) | [bob-cli-6u.9](bob-cli-6u.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.9.md) | [bob-cli-6u.9](bob-cli-6u.9.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
