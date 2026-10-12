@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-6u](README.md) / bob-cli-6u.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.70](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.70.md) · **Assignee:** `bob-cli-6u.11` · **Size:** medium
-**Created:** 2026-10-12 10:26:02 EDT
+**Created:** 2026-10-12 10:26:02 EDT · **Closed:** 2026-10-12 12:17:01 EDT
 **Plan:** [202610/prj\_line\_project\_blocking.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/prj_line_project_blocking.md)
 
 ## Description
@@ -14,6 +14,10 @@ nav-model: port the reusable parts of the uncommitted bob-cli-6s.8 bundle (proje
 ## Notes
 
 [2026-10-12T14:45:43Z · 72] COORDINATION — bob-cli-6t.3 (project pull-in plugins phase, running) edits nav 285-unblocked-notice.js: project rows, a "Project empty" title, a project_member label, and "blocked by project" copy. Its plan bumps the nav manifest "from the latest master version" (2.19.0) and deploys nav on this host. A note on 6t.3 asks it to skip 2.20.0 and to leave the deploy until after your salvage. As of 10:45 EDT the deployed ~/bob/.obsidian/plugins/bob-navigation-hotkeys/manifest.json still says 2.20.0. Re-check before you start. If it was replaced, use the newest ~/.local/state/bob-cli/plugin-backups/<ts>/bob-navigation-hotkeys copy whose manifest says 2.20.0. If 6t.3's nav commit landed, rebase on it, merge 285 and the README/package.json rows, and bump from the higher version. See research:202610/bob_cli_6t_6u_epic_conflict.md.
+
+[2026-10-12T16:16:53Z · bob-cli-6u.11] PROPOSED FOLLOW-UP: Triage the 20 bob-plugins npm test failures that also reproduce on the clean base (unblocked-glyph 4, keep-count 1, picker-single 2, successor-polish/wiring 12, stage-ranker flake 1; already recorded by bob-cli-6u.10 #1 citing bob-cli-6s.11 #1 and task bob-cli-3w).
+
+[2026-10-12T16:17:01Z · bob-cli-6u.11] Ported 6s.8 nav project-blocking onto the ^prj line model as bob-navigation-hotkeys 2.21.0 (215 fragment, ADJ-11 walk-through, recovery gate, #prj_is_blocked/[unblocked::] writers, TICKLER unblocked copy, emptied-Pomodoro cleanup). YAML parseProjectDependsOn/planProjectDependsOnSplice gone from plugins/. New suite 18/18; related schedule-recovery/dependencies/deferred-pomodoro/freshness/unblocked-notice/plugin-build passed; npm run validate 6/6. Deployed to this host vault (manifest 2.21.0, setProjectBlockedTag present). epic-symbols empty. Full npm test still has the same 20 clean-base failures (19 date-frozen + stage-ranker flake); recorded follow-up citing bob-cli-6u.10 #1 / bob-cli-6s.11 #1 / bob-cli-3w.
 
 ## Dependencies
 
@@ -25,7 +29,13 @@ nav-model: port the reusable parts of the uncommitted bob-cli-6s.8 bundle (proje
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.11/README.md) | [bob-cli-6u.11](bob-cli-6u.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.11/README.md) | [bob-cli-6u.11](bob-cli-6u.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c9938d8`](https://github.com/bobs-org/bob-plugins/commit/c9938d8cb18c1f08acbd54cb43a030aa75bb2c54) | feat(navigation-hotkeys): port project blocking onto the ^prj line model | [bob-cli-6u.11](bob-cli-6u.11.md) | 2026-10-12 12:18:36 EDT |
 
 <!-- sase:referenced-by:start -->
 

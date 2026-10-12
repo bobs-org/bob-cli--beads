@@ -32,7 +32,7 @@ If this is out of scope, record a PROPOSED FOLLOW-UP so 6u.17 picks it up. See r
 ## Dependencies
 
 - **Blocks:** [bob-cli-6u.10](bob-cli-6u.10.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.11](bob-cli-6u.11.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.11](bob-cli-6u.11.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.15](bob-cli-6u.15.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.2](bob-cli-6u.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.3](bob-cli-6u.3.md) ✓ · ⧖ 2026-10-12

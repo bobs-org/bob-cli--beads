@@ -13,7 +13,7 @@ nav-schedule: retire project-frontmatter routing for scheduled, stop stripping i
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6u.11](bob-cli-6u.11.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.11](bob-cli-6u.11.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.13](bob-cli-6u.13.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
