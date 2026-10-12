@@ -21,7 +21,7 @@ cli-reconcile-block: project reasons in the transition loop, internal-target gua
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.5/README.md) | [bob-cli-6u.5](bob-cli-6u.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.5.md) | [bob-cli-6u.5](bob-cli-6u.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
