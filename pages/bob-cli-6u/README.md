@@ -108,7 +108,7 @@ flowchart TD
     n11["bob-cli-6u.18.1: Reconcile and close-path fixes plus the two epic-caused CLI test failures [in_progress]"]
     n12["bob-cli-6u.18.2: Projects sync hoist, Sub-projects placement, and inline ^prj schedule issues [in_progress]"]
     n13["bob-cli-6u.18.3: Capture link-guard, & on ^prj, and output-compatibility fixes [in_progress]"]
-    n14["bob-cli-6u.18.4: Navigation-hotkeys project-blocking fixes [in_progress]"]
+    n14["bob-cli-6u.18.4: Navigation-hotkeys project-blocking fixes [closed]"]
     n15["bob-cli-6u.18.5: Task-status-cycler and block-id-prompt project-blocking fixes [closed]"]
     n16["bob-cli-6u.18.6: Install the fixed bob and plugins on the MacBook, then this host [in_progress]"]
     n17["bob-cli-6u.2: Remove the YAML model and rebuild project reasons from the ^prj line [closed]"]
@@ -199,8 +199,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.18.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.1/README.md) | [bob-cli-6u.18.1](bob-cli-6u.18.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.2/README.md) | [bob-cli-6u.18.2](bob-cli-6u.18.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.3/README.md) | [bob-cli-6u.18.3](bob-cli-6u.18.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.18.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.4/README.md) | [bob-cli-6u.18.4](bob-cli-6u.18.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.18.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.5/README.md) | [bob-cli-6u.18.5](bob-cli-6u.18.5.md) | 2 |
+| [bbugyi200.apollo.bob-cli-6u.18.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.4/README.md) | [bob-cli-6u.18.4](bob-cli-6u.18.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.5/README.md) | [bob-cli-6u.18.5](bob-cli-6u.18.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.18.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.6/README.md) | [bob-cli-6u.18.6](bob-cli-6u.18.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.land/README.md) | [bob-cli-6u.18](bob-cli-6u.18.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.2.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 1 |
@@ -237,7 +237,7 @@ flowchart TD
 | bob-cli | [`36f997b`](https://github.com/bobs-org/bob-cli/commit/36f997b1aad6d0757b83de36aff75f584718237d) | feat(capture): never link a Blocked task | [bob-cli-6u.9](bob-cli-6u.9.md) | 2026-10-12 16:52:38 EDT |
 | bob-cli | [`7a44aa7`](https://github.com/bobs-org/bob-cli/commit/7a44aa79a470f16b694aab65d08b8cb0c4c295a3) | docs(memory): publish ^prj blocking and unblocked-tickler records | [bob-cli-6u.17](bob-cli-6u.17.md) | 2026-10-12 17:20:04 EDT |
 | bob-cli | [`414b802`](https://github.com/bobs-org/bob-cli/commit/414b802b915c9ec7e89f6cfbdded0cced5a84422) | docs(task-dependencies): clarify direct project task links | [bob-cli-6u.18.5](bob-cli-6u.18.5.md) | 2026-10-12 18:18:56 EDT |
-| bob-plugins | [`bob-plugins@f1d5a4e`](https://github.com/bobs-org/bob-plugins/commit/f1d5a4e05ff9cbd64cbe66b8651efeb8c3b5ef9e) | fix(project-blocking): repair cycler and block id prompt | [bob-cli-6u.18.5](bob-cli-6u.18.5.md) | 2026-10-12 18:20:17 EDT |
+| bob-cli | [`524073e`](https://github.com/bobs-org/bob-cli/commit/524073e5775d9f4e851c40c0a0e572d1111dee63) | docs(task-deps): record nav-fixes ^prj blocking corrections | [bob-cli-6u.18.4](bob-cli-6u.18.4.md) | 2026-10-12 18:44:33 EDT |
 
 <!-- sase:referenced-by:start -->
 

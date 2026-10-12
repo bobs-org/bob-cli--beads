@@ -7,6 +7,18 @@
 **Created:** 2026-10-12 18:07:06 EDT
 **Plan:** [202610/prj\_line\_blocking\_landing\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/prj_line_blocking_landing_fixes.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/prj_line_blocking_landing_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/prj_line_blocking_landing_fixes.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every defect that bob-cli-6u (project blocking from the ^prj line, #prj_is_blocked, and [unblocked::]) introduced is fixed in bob-cli and bob-plugins. bob-cli `just check` fails only the bob-cli-6m percent-listen tests. bob-plugins `npm test` fails only the known pre-epic failures (bob-cli-6v, bob-cli-6w, plus the bob-cli-3w timing flake). The fixed bob and plugins are installed on the MacBook and on this host.

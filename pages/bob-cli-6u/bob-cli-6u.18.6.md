@@ -16,7 +16,7 @@ rollout: bob on the MacBook first, then this host, then plugins on both; dry-run
 - **Depends on:** [bob-cli-6u.18.1](bob-cli-6u.18.1.md) ◐ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.18.2](bob-cli-6u.18.2.md) ◐ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.18.3](bob-cli-6u.18.3.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.18.4](bob-cli-6u.18.4.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.18.4](bob-cli-6u.18.4.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.18.5](bob-cli-6u.18.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
