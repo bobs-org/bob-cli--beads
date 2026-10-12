@@ -13,7 +13,7 @@ cli-projects-sync: gate the hoist on an open ^prj, insert Sub-projects after the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-6u.18.1](bob-cli-6u.18.1.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.18.1](bob-cli-6u.18.1.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
