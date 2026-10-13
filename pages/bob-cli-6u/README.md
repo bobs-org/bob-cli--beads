@@ -242,7 +242,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.18.7.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.2/README.md) | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md) | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.4/README.md) | [bob-cli-6u.18.7.6.4](bob-cli-6u.18.7.6.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.18.7.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.6.land.md) | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.6.land.md) | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.land.md) | [bob-cli-6u.18.7](bob-cli-6u.18.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.land.md) | [bob-cli-6u.18](bob-cli-6u.18.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.2.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 1 |
@@ -297,6 +297,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5d8975b`](https://github.com/bobs-org/bob-plugins/commit/5d8975bcab2d39e7ed57305a9ee3dbc21e1e9968) | fix(nav-hotkeys): project move, reversal, and schedule-write nav fixes with tests | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 2026-10-12 22:34:13 EDT |
 | bob-cli | [`2fcf41a`](https://github.com/bobs-org/bob-cli/commit/2fcf41a2c0bc144ce2f752d154b01f32a4cfb7e9) | fix(project-blocking): reconcile capture and close edge cases | [bob-cli-6u.18.7.6.1](bob-cli-6u.18.7.6.1.md) | 2026-10-12 22:37:03 EDT |
 | bob-cli | [`08d9e1f`](https://github.com/bobs-org/bob-cli/commit/08d9e1f054db96f2351e483d61547d6e36af395a) | test(capture): insert Depends-On after ^prj in fenced-index fixture | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 2026-10-12 23:24:15 EDT |
+| bob-cli--plans | [`bob-cli--plans@2fb610c`](https://github.com/bobs-org/bob-cli--plans/commit/2fb610c8afd6ebf971e8362f042217424b73a532) | docs(plans): mark project-blocking landing chain done | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 2026-10-12 23:25:14 EDT |
 
 <!-- sase:referenced-by:start -->
 

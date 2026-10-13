@@ -47,13 +47,14 @@ Follow-up: phase `.1` note #1 remains a duplicate of bob-cli-6m; independent +1 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.18.7.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.6.land.md) | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.6.land.md) | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`08d9e1f`](https://github.com/bobs-org/bob-cli/commit/08d9e1f054db96f2351e483d61547d6e36af395a) | test(capture): insert Depends-On after ^prj in fenced-index fixture | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 2026-10-12 23:24:15 EDT |
+| bob-cli--plans | [`bob-cli--plans@2fb610c`](https://github.com/bobs-org/bob-cli--plans/commit/2fb610c8afd6ebf971e8362f042217424b73a532) | docs(plans): mark project-blocking landing chain done | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 2026-10-12 23:25:14 EDT |
 
 <!-- sase:referenced-by:start -->
 
