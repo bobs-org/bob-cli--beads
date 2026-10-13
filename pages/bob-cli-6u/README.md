@@ -238,7 +238,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.18.7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.5/README.md) | [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.1/README.md) | [bob-cli-6u.18.7.6.1](bob-cli-6u.18.7.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.2/README.md) | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.18.7.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md) | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md) | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.4/README.md) | [bob-cli-6u.18.7.6.4](bob-cli-6u.18.7.6.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.land/README.md) | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.land.md) | [bob-cli-6u.18.7](bob-cli-6u.18.7.md) | 0 |
@@ -290,6 +290,7 @@ flowchart TD
 | bob-cli | [`12abfd7`](https://github.com/bobs-org/bob-cli/commit/12abfd7a1888ed3c67c05e8bc19729359b086730) | docs(projects): document ^prj schedule tag and conversion seeding | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 2026-10-12 21:20:15 EDT |
 | bob-plugins | [`bob-plugins@d34e078`](https://github.com/bobs-org/bob-plugins/commit/d34e078eafab8a1dbf31d7ac0a1d8e09868cd17d) | fix(nav): restore parent-write-first reversal and ADJ-11 walk-through | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 2026-10-12 21:21:31 EDT |
 | bob-cli | [`332e507`](https://github.com/bobs-org/bob-cli/commit/332e507b13576df7d0a7b521dae01776f703791d) | docs(task-dependencies): document cycler ^prj resident recovery | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2026-10-12 22:28:46 EDT |
+| bob-plugins | [`bob-plugins@7303ff4`](https://github.com/bobs-org/bob-plugins/commit/7303ff464ed3b3d1d103d942e8448b603759f8d5) | fix(task-status-cycler): resolve cross-note ^prj reasons before recovery | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2026-10-12 22:30:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
