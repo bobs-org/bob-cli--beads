@@ -41,7 +41,9 @@ cli-core: write the §13.5 dependency-drop contract and PDG18–PDG27 vectors fi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7b.1--3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-7b.4][2] | Need cli-core commit for decision evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7b.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.4/README.md
 
 <!-- sase:referenced-by:end -->

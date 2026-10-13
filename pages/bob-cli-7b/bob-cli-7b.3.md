@@ -41,9 +41,11 @@ mac: decode `dropped_dependencies` and `link_guard`, add the dropped-dependency 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7b.3][1] | Need the phase scope and design file | 2 |
-| read-by | [agent:bob-cli-7d.3][2] | Check whether the existing task records the clean-base Swift compile failures found while implementing Go To | 1 |
+| read-by | [agent:bob-cli-7b.4][2] | Need mac phase close note for evidence commits | 1 |
+| read-by | [agent:bob-cli-7d.3][3] | Check whether the existing task records the clean-base Swift compile failures found while implementing Go To | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.3/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7d.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7d.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ cli-gestures: route `@route+id!`, `@route+id[#name]`, and `@route:id=x…` throu
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7b.2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-7b.3][2] | Check whether cli-gestures landed so close/toggle JSON fixtures can be generated | 1 |
+| read-by | [agent:bob-cli-7b.4][3] | Need cli-gestures close note for evidence commits | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.4/README.md
 
 <!-- sase:referenced-by:end -->

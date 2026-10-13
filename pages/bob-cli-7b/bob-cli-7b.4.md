@@ -35,3 +35,15 @@ publish: sweep the docs for stale consumption wording and, under memory_supersed
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c80cbde`](https://github.com/bobs-org/bob-cli/commit/c80cbdeaf4c2bdf53d74b903e6a108c8d7a1a72f) | docs(memory): record capture dropping own blocking deps | [bob-cli-7b.4](bob-cli-7b.4.md) | 2026-10-13 10:37:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7b.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.4/README.md
+
+<!-- sase:referenced-by:end -->
