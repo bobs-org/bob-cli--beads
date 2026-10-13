@@ -21,7 +21,7 @@ contract: rewrite task-dependencies §12 as Successor Offers (offer ladder, proj
 
 - **Blocks:** [bob-cli-7c.2](bob-cli-7c.2.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7c.4](bob-cli-7c.4.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7c.5](bob-cli-7c.5.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7c.5](bob-cli-7c.5.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

@@ -35,7 +35,7 @@ Closing a task that unblocks other tasks (in Obsidian, bob capture, or Bob Mac C
 | [bob-cli-7c.2](bob-cli-7c.2.md) | Rust planner emits offers and applies a selection | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.3](bob-cli-7c.3.md) | bob capture --pull-in, offer JSON, and the Mac guard | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.4](bob-cli-7c.4.md) | task-status-cycler plans offers, awaits the picker, then applies | ✓ closed | large | 2026-10-13 | 1 | 1 |
-| [bob-cli-7c.5](bob-cli-7c.5.md) | Navigation hotkeys successor picker modal and walk integration | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
+| [bob-cli-7c.5](bob-cli-7c.5.md) | Navigation hotkeys successor picker modal and walk integration | ✓ closed | large | 2026-10-13 | 1 | 1 |
 | [bob-cli-7c.6](bob-cli-7c.6.md) | Per-row destination override in the Obsidian picker | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.7](bob-cli-7c.7.md) | Bob Mac Capture in-panel pull-in choice step | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.8](bob-cli-7c.8.md) | Decision record, supersession marks, and epic acceptance | ◐ in_progress | small | 2026-10-13 | 1 | 0 |
@@ -49,7 +49,7 @@ flowchart TD
     n2["bob-cli-7c.2: Rust planner emits offers and applies a selection [in_progress]"]
     n3["bob-cli-7c.3: bob capture --pull-in, offer JSON, and the Mac guard [in_progress]"]
     n4["bob-cli-7c.4: task-status-cycler plans offers, awaits the picker, then applies [closed]"]
-    n5["bob-cli-7c.5: Navigation hotkeys successor picker modal and walk integration [in_progress]"]
+    n5["bob-cli-7c.5: Navigation hotkeys successor picker modal and walk integration [closed]"]
     n6["bob-cli-7c.6: Per-row destination override in the Obsidian picker [in_progress]"]
     n7["bob-cli-7c.7: Bob Mac Capture in-panel pull-in choice step [in_progress]"]
     n8["bob-cli-7c.8: Decision record, supersession marks, and epic acceptance [in_progress]"]
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7c.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.2.md) | [bob-cli-7c.2](bob-cli-7c.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.3/README.md) | [bob-cli-7c.3](bob-cli-7c.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.4.md) | [bob-cli-7c.4](bob-cli-7c.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.5.md) | [bob-cli-7c.5](bob-cli-7c.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.5.md) | [bob-cli-7c.5](bob-cli-7c.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md) | [bob-cli-7c.6](bob-cli-7c.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.7/README.md) | [bob-cli-7c.7](bob-cli-7c.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.8/README.md) | [bob-cli-7c.8](bob-cli-7c.8.md) | 0 |
@@ -95,6 +95,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`2d1adfa`](https://github.com/bobs-org/bob-cli/commit/2d1adfa7d7c794929e8e198a013379f059e7f8fb) | docs(tasks): rewrite successor links as Successor Offers | [bob-cli-7c.1](bob-cli-7c.1.md) | 2026-10-13 10:35:14 EDT |
 | bob-plugins | [`bob-plugins@310739d`](https://github.com/bobs-org/bob-plugins/commit/310739dd72d70856d89a7fc1a3eb0c03d24ca048) | feat(cycler): offer successors and await picker before applying (bob-cli-7c.4) | [bob-cli-7c.4](bob-cli-7c.4.md) | 2026-10-13 11:28:18 EDT |
+| bob-plugins | [`bob-plugins@0d69a20`](https://github.com/bobs-org/bob-plugins/commit/0d69a20b0363a4b4a4e0ada18753f8d7aa1e373e) | feat(nav): grouped successor offer picker with review-walk hold | [bob-cli-7c.5](bob-cli-7c.5.md) | 2026-10-13 11:32:45 EDT |
 
 <!-- sase:referenced-by:start -->
 

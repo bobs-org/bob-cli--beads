@@ -15,7 +15,7 @@ decision_record: record the accepted Successor Offers decision, mark the records
 
 - **Depends on:** [bob-cli-7c.3](bob-cli-7c.3.md) ◐ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7c.4](bob-cli-7c.4.md) ✓ · ⧖ 2026-10-13
-- **Depends on:** [bob-cli-7c.5](bob-cli-7c.5.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7c.5](bob-cli-7c.5.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7c.6](bob-cli-7c.6.md) ◐ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7c.7](bob-cli-7c.7.md) ◐ · ⧖ 2026-10-13
 
