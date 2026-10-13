@@ -116,15 +116,20 @@ flowchart TD
     n19["bob-cli-6u.18.7.2: Capture struck-link insert, closed-status, and consumed-link output fixes [closed]"]
     n20["bob-cli-6u.18.7.3: Navigation-hotkeys reversal order, schedule tag, and move promotion fixes [closed]"]
     n21["bob-cli-6u.18.7.4: Task-status-cycler and block-id-prompt residual project-blocking fixes [closed]"]
-    n22["bob-cli-6u.18.7.5: Install the fixed bob and plugins on this host and the MacBook [in_progress]"]
-    n23["bob-cli-6u.2: Remove the YAML model and rebuild project reasons from the ^prj line [closed]"]
-    n24["bob-cli-6u.3: Rust freshness reads and writes [unblocked::] [closed]"]
-    n25["bob-cli-6u.4: Projects sync and capture + use the inline ^prj date [closed]"]
-    n26["bob-cli-6u.5: Reconcile derives project blocking, maintains the tag, and writes [unblocked::] [closed]"]
-    n27["bob-cli-6u.6: Reconcile consumes Task Links to Blocked tasks [closed]"]
-    n28["bob-cli-6u.7: Close and recovery paths respect project blocking and write [unblocked::] [closed]"]
-    n29["bob-cli-6u.8: Capture & on ^prj blocks residents; project graph edges and promotion guards [closed]"]
-    n30["bob-cli-6u.9: Capture never links a Blocked task [closed]"]
+    n22["bob-cli-6u.18.7.5: Install the fixed bob and plugins on this host and the MacBook [closed]"]
+    n23["bob-cli-6u.18.7.6: Finish ^prj project blocking — fix what the bob-cli-6u.18.7 land audit found [in_progress]"]
+    n24["bob-cli-6u.18.7.6.1: Reconcile PDR7 warning, exact close-path ^prj, capture output and docs fixes [in_progress]"]
+    n25["bob-cli-6u.18.7.6.2: Navigation-hotkeys move walk-through, reversal rewrite failures, and wiring tests [in_progress]"]
+    n26["bob-cli-6u.18.7.6.3: Task-status-cycler cross-note project reasons, Alt+[ and transcluded ^prj recovery [closed]"]
+    n27["bob-cli-6u.18.7.6.4: Install the fixed bob and plugins on this host and the MacBook [in_progress]"]
+    n28["bob-cli-6u.2: Remove the YAML model and rebuild project reasons from the ^prj line [closed]"]
+    n29["bob-cli-6u.3: Rust freshness reads and writes [unblocked::] [closed]"]
+    n30["bob-cli-6u.4: Projects sync and capture + use the inline ^prj date [closed]"]
+    n31["bob-cli-6u.5: Reconcile derives project blocking, maintains the tag, and writes [unblocked::] [closed]"]
+    n32["bob-cli-6u.6: Reconcile consumes Task Links to Blocked tasks [closed]"]
+    n33["bob-cli-6u.7: Close and recovery paths respect project blocking and write [unblocked::] [closed]"]
+    n34["bob-cli-6u.8: Capture & on ^prj blocks residents; project graph edges and promotion guards [closed]"]
+    n35["bob-cli-6u.9: Capture never links a Blocked task [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -147,19 +152,24 @@ flowchart TD
     n17 --> n20
     n17 --> n21
     n17 --> n22
-    n0 --> n23
-    n0 --> n24
-    n0 --> n25
-    n0 --> n26
-    n0 --> n27
+    n17 --> n23
+    n23 --> n24
+    n23 --> n25
+    n23 --> n26
+    n23 --> n27
     n0 --> n28
     n0 --> n29
     n0 --> n30
+    n0 --> n31
+    n0 --> n32
+    n0 --> n33
+    n0 --> n34
+    n0 --> n35
     n1 -.-> n2
     n1 -.-> n3
     n1 -.-> n7
-    n1 -.-> n23
-    n1 -.-> n24
+    n1 -.-> n28
+    n1 -.-> n29
     n2 -.-> n3
     n2 -.-> n7
     n3 -.-> n4
@@ -179,24 +189,27 @@ flowchart TD
     n19 -.-> n22
     n20 -.-> n22
     n21 -.-> n22
-    n23 -.-> n25
-    n23 -.-> n26
-    n23 -.-> n28
-    n23 -.-> n29
-    n24 -.-> n2
-    n24 -.-> n26
-    n24 -.-> n28
-    n25 -.-> n8
-    n25 -.-> n9
-    n25 -.-> n30
+    n24 -.-> n27
+    n25 -.-> n27
     n26 -.-> n27
-    n27 -.-> n8
-    n27 -.-> n9
-    n28 -.-> n8
-    n28 -.-> n9
-    n29 -.-> n30
+    n28 -.-> n30
+    n28 -.-> n31
+    n28 -.-> n33
+    n28 -.-> n34
+    n29 -.-> n2
+    n29 -.-> n31
+    n29 -.-> n33
     n30 -.-> n8
     n30 -.-> n9
+    n30 -.-> n35
+    n31 -.-> n32
+    n32 -.-> n8
+    n32 -.-> n9
+    n33 -.-> n8
+    n33 -.-> n9
+    n34 -.-> n35
+    n35 -.-> n8
+    n35 -.-> n9
 ```
 
 ## Agents
@@ -223,7 +236,12 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.18.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.3/README.md) | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.4/README.md) | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.5/README.md) | [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.18.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.land/README.md) | [bob-cli-6u.18.7](bob-cli-6u.18.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.1/README.md) | [bob-cli-6u.18.7.6.1](bob-cli-6u.18.7.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.2/README.md) | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md) | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.4/README.md) | [bob-cli-6u.18.7.6.4](bob-cli-6u.18.7.6.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.land/README.md) | [bob-cli-6u.18.7.6](bob-cli-6u.18.7.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.land.md) | [bob-cli-6u.18.7](bob-cli-6u.18.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.land.md) | [bob-cli-6u.18](bob-cli-6u.18.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.2.md) | [bob-cli-6u.2](bob-cli-6u.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.3/README.md) | [bob-cli-6u.3](bob-cli-6u.3.md) | 1 |
@@ -271,6 +289,7 @@ flowchart TD
 | bob-cli | [`d2836e0`](https://github.com/bobs-org/bob-cli/commit/d2836e0ed1a24be033ffb29772a6d4053390283f) | fix(projects): correct ^prj reconcile and sync behavior | [bob-cli-6u.18.7.1](bob-cli-6u.18.7.1.md) | 2026-10-12 21:18:03 EDT |
 | bob-cli | [`12abfd7`](https://github.com/bobs-org/bob-cli/commit/12abfd7a1888ed3c67c05e8bc19729359b086730) | docs(projects): document ^prj schedule tag and conversion seeding | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 2026-10-12 21:20:15 EDT |
 | bob-plugins | [`bob-plugins@d34e078`](https://github.com/bobs-org/bob-plugins/commit/d34e078eafab8a1dbf31d7ac0a1d8e09868cd17d) | fix(nav): restore parent-write-first reversal and ADJ-11 walk-through | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 2026-10-12 21:21:31 EDT |
+| bob-cli | [`332e507`](https://github.com/bobs-org/bob-cli/commit/332e507b13576df7d0a7b521dae01776f703791d) | docs(task-dependencies): document cycler ^prj resident recovery | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2026-10-12 22:28:46 EDT |
 
 <!-- sase:referenced-by:start -->
 

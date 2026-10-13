@@ -21,7 +21,7 @@ cli-capture: the toggle insert ignores struck links, + rendering uses configured
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

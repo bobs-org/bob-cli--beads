@@ -26,7 +26,7 @@ npm test: 2533 pass, 6 fail = allowed bob-cli-6v (4 unblocked-glyph), bob-cli-6w
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

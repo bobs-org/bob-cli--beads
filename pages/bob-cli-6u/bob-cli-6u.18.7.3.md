@@ -19,7 +19,7 @@ nav-fixes: write nothing before the reversal parent write, make the schedule tag
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ nav-fixes: write nothing before the reversal parent write, make the schedule tag
 |---|---|---|---|---|
 | bob-cli | [`12abfd7`](https://github.com/bobs-org/bob-cli/commit/12abfd7a1888ed3c67c05e8bc19729359b086730) | docs(projects): document ^prj schedule tag and conversion seeding | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 2026-10-12 21:20:15 EDT |
 | bob-plugins | [`bob-plugins@d34e078`](https://github.com/bobs-org/bob-plugins/commit/d34e078eafab8a1dbf31d7ac0a1d8e09868cd17d) | fix(nav): restore parent-write-first reversal and ADJ-11 walk-through | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 2026-10-12 21:21:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.7.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.3/README.md
+
+<!-- sase:referenced-by:end -->
