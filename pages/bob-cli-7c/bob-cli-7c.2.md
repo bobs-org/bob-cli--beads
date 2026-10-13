@@ -20,7 +20,7 @@ rust_offers: change plan_successors, project_close, and project_pull_in so every
 ## Dependencies
 
 - **Depends on:** [bob-cli-7c.1](bob-cli-7c.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7c.3](bob-cli-7c.3.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7c.3](bob-cli-7c.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -33,3 +33,15 @@ rust_offers: change plan_successors, project_close, and project_pull_in so every
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f5c82d6`](https://github.com/bobs-org/bob-cli/commit/f5c82d63aaa66fc32fc9baf0dfdea66c5359856c) | feat(task-complete): emit successor offers and apply a selection | [bob-cli-7c.2](bob-cli-7c.2.md) | 2026-10-13 12:07:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7c.2--2][1] | Need phase status, notes, and close-out requirements before finishing rust_offers | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.2.md
+
+<!-- sase:referenced-by:end -->
