@@ -23,7 +23,7 @@ contract: rewrite §13's residence-only rule into the cascade (parent, ancestors
 
 - **Blocks:** [bob-cli-78.2](bob-cli-78.2.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.5](bob-cli-78.5.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-78.7](bob-cli-78.7.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-78.7](bob-cli-78.7.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -36,3 +36,15 @@ contract: rewrite §13's residence-only rule into the cascade (parent, ancestors
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a2e92bc`](https://github.com/bobs-org/bob-cli/commit/a2e92bcb8f11c9a0d209bfa5d5afb65d13595375) | docs(tasks): cascade contract for parent/ancestors/descendants | [bob-cli-78.1](bob-cli-78.1.md) | 2026-10-13 03:25:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-78.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.1/README.md
+
+<!-- sase:referenced-by:end -->
