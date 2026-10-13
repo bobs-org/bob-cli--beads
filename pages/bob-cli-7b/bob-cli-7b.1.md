@@ -19,7 +19,7 @@ cli-core: write the §13.5 dependency-drop contract and PDG18–PDG27 vectors fi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7b.2](bob-cli-7b.2.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7b.2](bob-cli-7b.2.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7b.3](bob-cli-7b.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
