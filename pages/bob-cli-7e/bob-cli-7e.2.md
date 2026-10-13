@@ -22,7 +22,7 @@ cli-core: add task_dependencies::blocks (parser, formatter, canonical sort, slot
 ## Dependencies
 
 - **Depends on:** [bob-cli-7e.1](bob-cli-7e.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7e.5](bob-cli-7e.5.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7e.5](bob-cli-7e.5.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.6](bob-cli-7e.6.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
@@ -36,3 +36,15 @@ cli-core: add task_dependencies::blocks (parser, formatter, canonical sort, slot
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8e575c7`](https://github.com/bobs-org/bob-cli/commit/8e575c73570b68f991806f6b890a9a9440cc1f9b) | feat(task-dependencies): add BLOCKS parsing and managed-line guards | [bob-cli-7e.2](bob-cli-7e.2.md) | 2026-10-13 12:22:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7e.2--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.2.md
+
+<!-- sase:referenced-by:end -->

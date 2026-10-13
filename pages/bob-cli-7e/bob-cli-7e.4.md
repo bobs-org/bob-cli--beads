@@ -20,7 +20,7 @@ chips: render BLOCKS lines in Live Preview and Reading view from a live reverse 
 ## Dependencies
 
 - **Depends on:** [bob-cli-7e.1](bob-cli-7e.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7e.5](bob-cli-7e.5.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7e.5](bob-cli-7e.5.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
