@@ -13,7 +13,7 @@ rust_capture: add -p/--pull-in and the hidden --require-pull-in-choice to bob ca
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7c.2](bob-cli-7c.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7c.2](bob-cli-7c.2.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7c.7](bob-cli-7c.7.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7c.8](bob-cli-7c.8.md) ◐ · ⧖ 2026-10-13
 
