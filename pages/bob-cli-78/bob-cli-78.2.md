@@ -25,7 +25,7 @@ PROPOSED FOLLOW-UP: Update glossary:project-task to describe inherited sub-proje
 ## Dependencies
 
 - **Depends on:** [bob-cli-78.1](bob-cli-78.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-78.3](bob-cli-78.3.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-78.3](bob-cli-78.3.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.4](bob-cli-78.4.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.8](bob-cli-78.8.md) ◐ · ⧖ 2026-10-13
 

@@ -31,7 +31,7 @@ A blocked project's sub-projects (project notes whose `parent:` names it, recurs
 |---|---|---|---|---|---:|---:|
 | [bob-cli-78.1](bob-cli-78.1.md) | Sub-project cascade contract and vectors | ✓ closed | small | 2026-10-13 | 1 | 1 |
 | [bob-cli-78.2](bob-cli-78.2.md) | Reconcile derives, tags, and reverses the cascade | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [bob-cli-78.3](bob-cli-78.3.md) | Close paths honour the tag proxy and pull in parents | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [bob-cli-78.3](bob-cli-78.3.md) | Close paths honour the tag proxy and pull in parents | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [bob-cli-78.4](bob-cli-78.4.md) | Capture link guard, destinations, and & refuse cascade-blocked targets | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [bob-cli-78.5](bob-cli-78.5.md) | Navigation sub-project discovery, tag proxy, and subtree planner | ✓ closed | medium | 2026-10-13 | 1 | 0 |
 | [bob-cli-78.6](bob-cli-78.6.md) | Task Card Depends on and Schedule apply and reverse the cascade | ✓ closed | medium | 2026-10-13 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n0["bob-cli-78: Sub-project cascade for project blocking and the project pull-in [in_progress]"]
     n1["bob-cli-78.1: Sub-project cascade contract and vectors [closed]"]
     n2["bob-cli-78.2: Reconcile derives, tags, and reverses the cascade [closed]"]
-    n3["bob-cli-78.3: Close paths honour the tag proxy and pull in parents [in_progress]"]
+    n3["bob-cli-78.3: Close paths honour the tag proxy and pull in parents [closed]"]
     n4["bob-cli-78.4: Capture link guard, destinations, and & refuse cascade-blocked targets [closed]"]
     n5["bob-cli-78.5: Navigation sub-project discovery, tag proxy, and subtree planner [closed]"]
     n6["bob-cli-78.6: Task Card Depends on and Schedule apply and reverse the cascade [closed]"]
@@ -78,7 +78,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-78.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.1/README.md) | [bob-cli-78.1](bob-cli-78.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-78.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-78.2.md) | [bob-cli-78.2](bob-cli-78.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-78.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.3/README.md) | [bob-cli-78.3](bob-cli-78.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-78.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.3/README.md) | [bob-cli-78.3](bob-cli-78.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-78.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.4/README.md) | [bob-cli-78.4](bob-cli-78.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-78.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.5/README.md) | [bob-cli-78.5](bob-cli-78.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-78.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.6/README.md) | [bob-cli-78.6](bob-cli-78.6.md) | 0 |
@@ -94,6 +94,7 @@ flowchart TD
 | bob-cli | [`23dbefe`](https://github.com/bobs-org/bob-cli/commit/23dbefe507eac92896f660512733b1040371a8f9) | docs(memory): record subproject blocking cascade | [bob-cli-78.7](bob-cli-78.7.md) | 2026-10-13 03:52:50 EDT |
 | bob-cli | [`96bf514`](https://github.com/bobs-org/bob-cli/commit/96bf514e6dc1d4535704bde59c4159ca9b50aa9d) | feat(projects): reconcile inherited sub-project blocking | [bob-cli-78.2](bob-cli-78.2.md) | 2026-10-13 04:53:27 EDT |
 | bob-cli | [`693a71b`](https://github.com/bobs-org/bob-cli/commit/693a71bff36d1890aceb2dead0884ae4fc6be2b6) | feat(capture): honour cascade tag proxy in link guard and & | [bob-cli-78.4](bob-cli-78.4.md) | 2026-10-13 05:38:40 EDT |
+| bob-cli | [`6eceb00`](https://github.com/bobs-org/bob-cli/commit/6eceb00b76e1b4b93647451b3febdae07723d8dc) | feat(task-complete): honor project close cascade with tag proxy and pull-in | [bob-cli-78.3](bob-cli-78.3.md) | 2026-10-13 05:54:32 EDT |
 
 <!-- sase:referenced-by:start -->
 

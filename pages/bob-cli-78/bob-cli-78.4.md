@@ -35,3 +35,15 @@ cli-guards: make the capture link guard, new-task destinations, and & on ^prj ho
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`693a71b`](https://github.com/bobs-org/bob-cli/commit/693a71bff36d1890aceb2dead0884ae4fc6be2b6) | feat(capture): honour cascade tag proxy in link guard and & | [bob-cli-78.4](bob-cli-78.4.md) | 2026-10-13 05:38:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-78.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.4/README.md
+
+<!-- sase:referenced-by:end -->
