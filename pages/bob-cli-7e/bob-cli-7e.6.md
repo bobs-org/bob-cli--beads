@@ -25,10 +25,16 @@ cli-capture: stage each added prerequisite's BLOCKS entry (and the dependent's m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7e.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.6/README.md) | [bob-cli-7e.6](bob-cli-7e.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-7e.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.6/README.md) | [bob-cli-7e.6](bob-cli-7e.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`bfdff70`](https://github.com/bobs-org/bob-cli/commit/bfdff70467affebfe212b83d949d790a5a443b1b) | feat(capture): stage BLOCKS mirror on & adds and dependency drops | [bob-cli-7e.6](bob-cli-7e.6.md) | 2026-10-13 14:36:23 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7e.6][1] | Need full JSON including notes history | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.6/README.md
+
+<!-- sase:referenced-by:end -->

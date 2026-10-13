@@ -14,7 +14,7 @@ rollout: install bob on this host, review the live dry-run, verify the pilot scr
 ## Dependencies
 
 - **Depends on:** [bob-cli-7e.6](bob-cli-7e.6.md) ✓ · ⧖ 2026-10-13
-- **Depends on:** [bob-cli-7e.8](bob-cli-7e.8.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7e.8](bob-cli-7e.8.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

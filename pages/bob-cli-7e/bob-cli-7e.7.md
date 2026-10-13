@@ -21,13 +21,19 @@ nav-writer: add the JS twin of the shared planner and the SB mint, make planDepe
 
 - **Depends on:** [bob-cli-7e.3](bob-cli-7e.3.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7e.5](bob-cli-7e.5.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7e.8](bob-cli-7e.8.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7e.8](bob-cli-7e.8.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7e.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.7/README.md) | [bob-cli-7e.7](bob-cli-7e.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-7e.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.7/README.md) | [bob-cli-7e.7](bob-cli-7e.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@108bedf`](https://github.com/bobs-org/bob-plugins/commit/108bedfc1350e8c2ac441623a064cd536584e8ec) | feat(navigation): mirror dependency edges in BLOCKS lines | [bob-cli-7e.7](bob-cli-7e.7.md) | 2026-10-13 14:21:09 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -44,7 +44,9 @@ cli-core: add task_dependencies::blocks (parser, formatter, canonical sort, slot
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7e.2--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-7e.6][2] | need cli-core scope for capture deps | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.6/README.md
 
 <!-- sase:referenced-by:end -->
