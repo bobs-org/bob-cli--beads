@@ -20,7 +20,7 @@ contract: rewrite task-dependencies §12 as Successor Offers (offer ladder, proj
 ## Dependencies
 
 - **Blocks:** [bob-cli-7c.2](bob-cli-7c.2.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7c.4](bob-cli-7c.4.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7c.4](bob-cli-7c.4.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7c.5](bob-cli-7c.5.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
@@ -34,3 +34,15 @@ contract: rewrite task-dependencies §12 as Successor Offers (offer ladder, proj
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2d1adfa`](https://github.com/bobs-org/bob-cli/commit/2d1adfa7d7c794929e8e198a013379f059e7f8fb) | docs(tasks): rewrite successor links as Successor Offers | [bob-cli-7c.1](bob-cli-7c.1.md) | 2026-10-13 10:35:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7c.1--1][1] | Need the phase scope, notes, and design file after failed just check | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.1.md
+
+<!-- sase:referenced-by:end -->

@@ -16,6 +16,8 @@
 | implemented-by | [plan:202610/slash_task_goto.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | implemented-by | [plan:202610/successor_offers.md][2] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/slash_task_goto.md
 [2]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/successor_offers.md
 
@@ -32,7 +34,7 @@ Closing a task that unblocks other tasks (in Obsidian, bob capture, or Bob Mac C
 | [bob-cli-7c.1](bob-cli-7c.1.md) | Successor Offers contract, vectors, and docs | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [bob-cli-7c.2](bob-cli-7c.2.md) | Rust planner emits offers and applies a selection | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.3](bob-cli-7c.3.md) | bob capture --pull-in, offer JSON, and the Mac guard | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
-| [bob-cli-7c.4](bob-cli-7c.4.md) | task-status-cycler plans offers, awaits the picker, then applies | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
+| [bob-cli-7c.4](bob-cli-7c.4.md) | task-status-cycler plans offers, awaits the picker, then applies | ✓ closed | large | 2026-10-13 | 1 | 1 |
 | [bob-cli-7c.5](bob-cli-7c.5.md) | Navigation hotkeys successor picker modal and walk integration | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.6](bob-cli-7c.6.md) | Per-row destination override in the Obsidian picker | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.7](bob-cli-7c.7.md) | Bob Mac Capture in-panel pull-in choice step | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
@@ -46,7 +48,7 @@ flowchart TD
     n1["bob-cli-7c.1: Successor Offers contract, vectors, and docs [closed]"]
     n2["bob-cli-7c.2: Rust planner emits offers and applies a selection [in_progress]"]
     n3["bob-cli-7c.3: bob capture --pull-in, offer JSON, and the Mac guard [in_progress]"]
-    n4["bob-cli-7c.4: task-status-cycler plans offers, awaits the picker, then applies [in_progress]"]
+    n4["bob-cli-7c.4: task-status-cycler plans offers, awaits the picker, then applies [closed]"]
     n5["bob-cli-7c.5: Navigation hotkeys successor picker modal and walk integration [in_progress]"]
     n6["bob-cli-7c.6: Per-row destination override in the Obsidian picker [in_progress]"]
     n7["bob-cli-7c.7: Bob Mac Capture in-panel pull-in choice step [in_progress]"]
@@ -78,10 +80,10 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-7c.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.1.md) | [bob-cli-7c.1](bob-cli-7c.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7c.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.2/README.md) | [bob-cli-7c.2](bob-cli-7c.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7c.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.2.md) | [bob-cli-7c.2](bob-cli-7c.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.3/README.md) | [bob-cli-7c.3](bob-cli-7c.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-7c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.4/README.md) | [bob-cli-7c.4](bob-cli-7c.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-7c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.5/README.md) | [bob-cli-7c.5](bob-cli-7c.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.4.md) | [bob-cli-7c.4](bob-cli-7c.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-7c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.5.md) | [bob-cli-7c.5](bob-cli-7c.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md) | [bob-cli-7c.6](bob-cli-7c.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.7/README.md) | [bob-cli-7c.7](bob-cli-7c.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.8/README.md) | [bob-cli-7c.8](bob-cli-7c.8.md) | 0 |
@@ -92,3 +94,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2d1adfa`](https://github.com/bobs-org/bob-cli/commit/2d1adfa7d7c794929e8e198a013379f059e7f8fb) | docs(tasks): rewrite successor links as Successor Offers | [bob-cli-7c.1](bob-cli-7c.1.md) | 2026-10-13 10:35:14 EDT |
+| bob-plugins | [`bob-plugins@310739d`](https://github.com/bobs-org/bob-plugins/commit/310739dd72d70856d89a7fc1a3eb0c03d24ca048) | feat(cycler): offer successors and await picker before applying (bob-cli-7c.4) | [bob-cli-7c.4](bob-cli-7c.4.md) | 2026-10-13 11:28:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7c.1--1][1] | Need epic phase split and memory assignment | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.1.md
+
+<!-- sase:referenced-by:end -->
