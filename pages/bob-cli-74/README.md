@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-74.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.4/README.md) | [bob-cli-74.4](bob-cli-74.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-74.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.5/README.md) | [bob-cli-74.5](bob-cli-74.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-74.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.6/README.md) | [bob-cli-74.6](bob-cli-74.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-74.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-74.land.md) | [bob-cli-74](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-74.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-74.land.md) | [bob-cli-74](README.md) | 2 |
 
 ## Commits
 
@@ -94,6 +94,7 @@ flowchart TD
 | bob-cli | [`5fc27f0`](https://github.com/bobs-org/bob-cli/commit/5fc27f0818e7b677b3da3bff23253b0f0c5a8387) | feat(pull-in): shared sync surface predicate and Rust pull-in planner | [bob-cli-74.2](bob-cli-74.2.md) | 2026-10-13 00:34:48 EDT |
 | bob-cli | [`309e98a`](https://github.com/bobs-org/bob-cli/commit/309e98a92ed290f3893b4fcf4c9e58bb857d94b4) | feat(capture): surface project pull-ins on close | [bob-cli-74.3](bob-cli-74.3.md) | 2026-10-13 01:09:19 EDT |
 | bob-cli | [`db03ce6`](https://github.com/bobs-org/bob-cli/commit/db03ce6d2f008a85b9bd72d899792e99a0be5ffd) | fix(pull-in): land project pull-in repairs R1-R4 with tests | [bob-cli-74](README.md) | 2026-10-13 02:48:13 EDT |
+| bob-plugins | [`bob-plugins@ace5733`](https://github.com/bobs-org/bob-plugins/commit/ace5733ee1502f4893d2c45922620592612e9438) | fix(pull-in): land cycler/nav repairs P1-P7 with tests, bump 1.36.0/2.29.0 | [bob-cli-74](README.md) | 2026-10-13 02:49:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
