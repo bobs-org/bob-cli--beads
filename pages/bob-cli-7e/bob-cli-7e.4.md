@@ -26,14 +26,13 @@ chips: render BLOCKS lines in Live Preview and Reading view from a live reverse 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7e.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.4.md) | [bob-cli-7e.4](bob-cli-7e.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-7e.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.4.md) | [bob-cli-7e.4](bob-cli-7e.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f287417`](https://github.com/bobs-org/bob-cli/commit/f287417934042f349541dc70fcb8e87e9deb4da7) | docs(memory): document task dependency BLOCKS mirrors | [bob-cli-7e.4](bob-cli-7e.4.md) | 2026-10-13 12:19:15 EDT |
-| bob-plugins | [`bob-plugins@4fad819`](https://github.com/bobs-org/bob-plugins/commit/4fad8196862783513ce66aaff1dc44c150f75d5d) | feat(ledger-tools): render BLOCKS dependency chips | [bob-cli-7e.4](bob-cli-7e.4.md) | 2026-10-13 12:26:12 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -27,10 +27,16 @@ nav-writer: add the JS twin of the shared planner and the SB mint, make planDepe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7e.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.7/README.md) | [bob-cli-7e.7](bob-cli-7e.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-7e.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.7/README.md) | [bob-cli-7e.7](bob-cli-7e.7.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@108bedf`](https://github.com/bobs-org/bob-plugins/commit/108bedfc1350e8c2ac441623a064cd536584e8ec) | feat(navigation): mirror dependency edges in BLOCKS lines | [bob-cli-7e.7](bob-cli-7e.7.md) | 2026-10-13 14:21:09 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7e.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.7/README.md
+
+<!-- sase:referenced-by:end -->
