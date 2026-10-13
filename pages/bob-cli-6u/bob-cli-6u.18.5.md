@@ -21,7 +21,7 @@ cycler-blockid: strip the tag from every resident when the project recovers, rec
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

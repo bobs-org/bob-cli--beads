@@ -17,7 +17,7 @@ nav-fixes: resident recovery only from a blocked ^prj, resident cycle edges when
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

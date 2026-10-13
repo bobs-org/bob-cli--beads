@@ -22,7 +22,7 @@ cli-reconcile-close: fix the two failing CLI fixtures, strip #prj_is_blocked fro
 ## Dependencies
 
 - **Blocks:** [bob-cli-6u.18.2](bob-cli-6u.18.2.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 

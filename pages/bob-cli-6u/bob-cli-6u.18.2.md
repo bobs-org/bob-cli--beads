@@ -22,7 +22,7 @@ cli-projects-sync: gate the hoist on an open ^prj, insert Sub-projects after the
 ## Dependencies
 
 - **Depends on:** [bob-cli-6u.18.1](bob-cli-6u.18.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.6](bob-cli-6u.18.6.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -35,3 +35,15 @@ cli-projects-sync: gate the hoist on an open ^prj, insert Sub-projects after the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b09612e`](https://github.com/bobs-org/bob-cli/commit/b09612ee99c0f977417da4bcab9c52c1518cc161) | fix(projects): gate hoist and Sub-projects placement | [bob-cli-6u.18.2](bob-cli-6u.18.2.md) | 2026-10-12 19:49:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.2/README.md
+
+<!-- sase:referenced-by:end -->
