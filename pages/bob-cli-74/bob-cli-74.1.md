@@ -21,7 +21,7 @@ contract: make §12.10 EMPTY exactly bob projects sync's surface predicate (date
 
 - **Blocks:** [bob-cli-74.2](bob-cli-74.2.md) ◐ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-74.4](bob-cli-74.4.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-74.5](bob-cli-74.5.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-74.5](bob-cli-74.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -34,3 +34,15 @@ contract: make §12.10 EMPTY exactly bob projects sync's surface predicate (date
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`eb03584`](https://github.com/bobs-org/bob-cli/commit/eb0358440bc6e1a2fe013343bde719ab19d72d18) | docs(contracts): reconcile task-dependency, project, capture, and status-hooks docs with sync surface predicate | [bob-cli-74.1](bob-cli-74.1.md) | 2026-10-12 23:49:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-74.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.1/README.md
+
+<!-- sase:referenced-by:end -->
