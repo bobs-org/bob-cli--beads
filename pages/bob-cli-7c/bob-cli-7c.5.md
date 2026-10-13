@@ -20,7 +20,7 @@ nav_picker: add the api.successors v1 multi-select picker (groups, muted rows, f
 ## Dependencies
 
 - **Depends on:** [bob-cli-7c.1](bob-cli-7c.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7c.6](bob-cli-7c.6.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7c.6](bob-cli-7c.6.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7c.8](bob-cli-7c.8.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
@@ -34,3 +34,15 @@ nav_picker: add the api.successors v1 multi-select picker (groups, muted rows, f
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@0d69a20`](https://github.com/bobs-org/bob-plugins/commit/0d69a20b0363a4b4a4e0ada18753f8d7aa1e373e) | feat(nav): grouped successor offer picker with review-walk hold | [bob-cli-7c.5](bob-cli-7c.5.md) | 2026-10-13 11:32:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7c.5--1][1] | implement approved successor picker plan; review monitor failures | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.5.md
+
+<!-- sase:referenced-by:end -->

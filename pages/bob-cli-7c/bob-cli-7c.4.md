@@ -18,7 +18,7 @@ cycler_offers: port the offer rule to the cycler, delete SUCCESSOR_BREAKER_LIMIT
 ## Dependencies
 
 - **Depends on:** [bob-cli-7c.1](bob-cli-7c.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7c.6](bob-cli-7c.6.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7c.6](bob-cli-7c.6.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7c.8](bob-cli-7c.8.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
