@@ -19,7 +19,7 @@ cli-goto: add the whole-draft `/query` claim (parse need `task_goto`, capture re
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7d.3](bob-cli-7d.3.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7d.3](bob-cli-7d.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
