@@ -13,7 +13,7 @@ nav-paths: route counted, marked, and batch Depends-On writers, counted Ctrl+D, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7e.7](bob-cli-7e.7.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7e.7](bob-cli-7e.7.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.9](bob-cli-7e.9.md) ◐ · ⧖ 2026-10-13
 
 ## Agents

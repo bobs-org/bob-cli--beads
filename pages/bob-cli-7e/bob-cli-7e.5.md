@@ -23,7 +23,7 @@ cli-reconcile: export the accepted explicit edges from R1–R10, add the BLOCKS 
 - **Depends on:** [bob-cli-7e.3](bob-cli-7e.3.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7e.4](bob-cli-7e.4.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.6](bob-cli-7e.6.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7e.7](bob-cli-7e.7.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7e.7](bob-cli-7e.7.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -36,3 +36,15 @@ cli-reconcile: export the accepted explicit edges from R1–R10, add the BLOCKS 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cce650e`](https://github.com/bobs-org/bob-cli/commit/cce650e8e15d3e5de172dea101b38be6b03b3f50) | feat(task-status-hooks): reconcile BLOCKS lines from explicit edges | [bob-cli-7e.5](bob-cli-7e.5.md) | 2026-10-13 13:53:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7e.5][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.5/README.md
+
+<!-- sase:referenced-by:end -->
