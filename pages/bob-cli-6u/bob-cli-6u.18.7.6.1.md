@@ -19,7 +19,7 @@ cli-fixes: restore the PDR7 warning for internal Depends-On line links, match ^p
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-6u.18.7.6.4](bob-cli-6u.18.7.6.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-6u.18.7.6.4](bob-cli-6u.18.7.6.4.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -32,3 +32,15 @@ cli-fixes: restore the PDR7 warning for internal Depends-On line links, match ^p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2fcf41a`](https://github.com/bobs-org/bob-cli/commit/2fcf41a2c0bc144ce2f752d154b01f32a4cfb7e9) | fix(project-blocking): reconcile capture and close edge cases | [bob-cli-6u.18.7.6.1](bob-cli-6u.18.7.6.1.md) | 2026-10-12 22:37:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.7.6.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.1/README.md
+
+<!-- sase:referenced-by:end -->

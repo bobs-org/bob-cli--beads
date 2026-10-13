@@ -32,13 +32,14 @@ npm test: 2533 pass, 6 fail = allowed bob-cli-6v (4 unblocked-glyph), bob-cli-6w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.18.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.4/README.md) | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.4/README.md) | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1851d77`](https://github.com/bobs-org/bob-cli/commit/1851d77eb31bb7a5830b8af29904d66c22b7d4e2) | docs(projects): document Alt+\] ^prj resident recovery | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2026-10-12 21:01:15 EDT |
+| bob-plugins | [`bob-plugins@39fd9b1`](https://github.com/bobs-org/bob-plugins/commit/39fd9b151b643bb188da9e13b72e85bc40b8fd20) | fix(task-status-cycler): recover residents without stripping closed tags | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2026-10-12 21:02:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
