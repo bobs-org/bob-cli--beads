@@ -20,7 +20,7 @@ mac-goto-core: add `.taskGoto` source/need strings, decode `target`, give `TaskL
 ## Dependencies
 
 - **Depends on:** [bob-cli-7d.1](bob-cli-7d.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7d.4](bob-cli-7d.4.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7d.4](bob-cli-7d.4.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 

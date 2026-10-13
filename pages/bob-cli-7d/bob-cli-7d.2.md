@@ -21,13 +21,19 @@ plugin-goto-uri: register the read-only `bob-goto-task` protocol handler that ma
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7d.4](bob-cli-7d.4.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7d.4](bob-cli-7d.4.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7d.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7d.2/README.md) | [bob-cli-7d.2](bob-cli-7d.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-7d.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7d.2/README.md) | [bob-cli-7d.2](bob-cli-7d.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@76924cc`](https://github.com/bobs-org/bob-plugins/commit/76924ccbf011c8bd1c542e7b66b6fd027a359c24) | feat(nav): register read-only obsidian://bob-goto-task handler | [bob-cli-7d.2](bob-cli-7d.2.md) | 2026-10-13 10:12:43 EDT |
 
 <!-- sase:referenced-by:start -->
 
