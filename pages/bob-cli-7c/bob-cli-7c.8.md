@@ -38,3 +38,15 @@ decision_record: record the accepted Successor Offers decision, mark the records
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`19075ee`](https://github.com/bobs-org/bob-cli/commit/19075ee673e0dd8a187676204575dced50d2f3dd) | feat(memory): record successor offers decision | [bob-cli-7c.8](bob-cli-7c.8.md) | 2026-10-13 17:11:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7c.8--1][1] | Inspect phase scope, notes, and CI evidence before final close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.8.md
+
+<!-- sase:referenced-by:end -->
