@@ -22,16 +22,22 @@ nav-model: add bob-navigation-hotkeys sub-project discovery and a pure top-down 
 ## Dependencies
 
 - **Depends on:** [bob-cli-78.1](bob-cli-78.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-78.6](bob-cli-78.6.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-78.6](bob-cli-78.6.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-78.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.5/README.md) | [bob-cli-78.5](bob-cli-78.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-78.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.5/README.md) | [bob-cli-78.5](bob-cli-78.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@5d6392e`](https://github.com/bobs-org/bob-plugins/commit/5d6392e9b9d70e22bd42f084baca4873718cf5bc) | feat(nav): cascade project blocking through sub-projects | [bob-cli-78.5](bob-cli-78.5.md) | 2026-10-13 03:58:34 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-78.5][1] | Need full notes, description, and remaining work from earlier agents | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.5/README.md
+
+<!-- sase:referenced-by:end -->

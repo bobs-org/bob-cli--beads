@@ -13,7 +13,7 @@ cli-close: make capture ! and =x closes read a tagged ^prj as an inherited reaso
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-78.2](bob-cli-78.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-78.2](bob-cli-78.2.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.8](bob-cli-78.8.md) ◐ · ⧖ 2026-10-13
 
 ## Agents

@@ -21,7 +21,7 @@ contract: rewrite §13's residence-only rule into the cascade (parent, ancestors
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-78.2](bob-cli-78.2.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-78.2](bob-cli-78.2.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.5](bob-cli-78.5.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.7](bob-cli-78.7.md) ✓ · ⧖ 2026-10-13
 

@@ -13,10 +13,10 @@ rollout: install bob and the plugins here, verify the cascade and trigger (c) en
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-78.2](bob-cli-78.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-78.2](bob-cli-78.2.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-78.3](bob-cli-78.3.md) ◐ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-78.4](bob-cli-78.4.md) ◐ · ⧖ 2026-10-13
-- **Depends on:** [bob-cli-78.6](bob-cli-78.6.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-78.6](bob-cli-78.6.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-78.7](bob-cli-78.7.md) ✓ · ⧖ 2026-10-13
 
 ## Agents

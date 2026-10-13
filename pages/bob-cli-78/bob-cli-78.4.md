@@ -13,7 +13,7 @@ cli-guards: make the capture link guard, new-task destinations, and & on ^prj ho
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-78.2](bob-cli-78.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-78.2](bob-cli-78.2.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.8](bob-cli-78.8.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
