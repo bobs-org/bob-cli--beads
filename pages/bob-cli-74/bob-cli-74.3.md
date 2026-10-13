@@ -13,7 +13,7 @@ cli-capture: keep id-less C in the ! and =x close paths, feed staged project-not
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-74.2](bob-cli-74.2.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-74.2](bob-cli-74.2.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-74.6](bob-cli-74.6.md) ◐ · ⧖ 2026-10-12
 
 ## Agents
