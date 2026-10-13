@@ -20,13 +20,19 @@ mac: decode `dropped_dependencies` and `link_guard`, add the dropped-dependency 
 ## Dependencies
 
 - **Depends on:** [bob-cli-7b.1](bob-cli-7b.1.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7b.4](bob-cli-7b.4.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7b.4](bob-cli-7b.4.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-7b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.3/README.md) | [bob-cli-7b.3](bob-cli-7b.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.3/README.md) | [bob-cli-7b.3](bob-cli-7b.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@8f89423`](https://github.com/bobs-org/bob-mac-capture/commit/8f89423d5f7b1303ca5b591c2f378e091cea5542) | feat(capture): present dropped and refused prerequisites | [bob-cli-7b.3](bob-cli-7b.3.md) | 2026-10-13 09:50:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -35,7 +41,9 @@ mac: decode `dropped_dependencies` and `link_guard`, add the dropped-dependency 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7b.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-7d.3][2] | Check whether the existing task records the clean-base Swift compile failures found while implementing Go To | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7b.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7d.3/README.md
 
 <!-- sase:referenced-by:end -->
