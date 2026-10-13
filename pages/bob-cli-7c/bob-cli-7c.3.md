@@ -32,3 +32,15 @@ rust_capture: add -p/--pull-in and the hidden --require-pull-in-choice to bob ca
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e7a0c7b`](https://github.com/bobs-org/bob-cli/commit/e7a0c7b588494bd46a67a5a9cdd73dd87906416c) | feat(capture): select successor offers with --pull-in | [bob-cli-7c.3](bob-cli-7c.3.md) | 2026-10-13 13:57:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7c.3--2][1] | Need assigned bead scope to decide close vs keep after verification recovery | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.3.md
+
+<!-- sase:referenced-by:end -->

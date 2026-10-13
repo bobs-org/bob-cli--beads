@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/slash_task_goto.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | implemented-by | [plan:202610/successor_offers.md][2] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/slash_task_goto.md
 [2]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/successor_offers.md
@@ -26,6 +26,10 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Closing a task that unblocks other tasks (in Obsidian, bob capture, or Bob Mac Capture) still recovers everything immediately, but no successor Task Link is created automatically. Instead one grouped picker per gesture offers the direct dependents, every available task of a project whose ^prj the close unblocked (the sase.md ^bar → sase_foo.md case), and the emptied-project / parent-project ^prj pull-ins, with no 5-successor limit. Only the picked tasks are linked, raised to Next, and stamped fresh.
+
+## Notes
+
+[2026-10-13T19:35:02Z · bob-cli-7e.land] DISCOVERED ISSUE: scripts/test-task-status-cycler-successor-wiring.cjs 'Pomodoro-line close appends the successor to the created continuation' (test line 490) fails deterministically on bob-plugins 8406ebb, both in the full file and alone via --test-name-pattern: the continuation and successor link are written, but assert.equal(row.link.entry_created, true) at line 529 gets false. The test file was last changed by 310739d (bob-cli-7c.4), whose own note recorded a suite-vs-standalone divergence on this test. bob-cli-7e.3, 7e.4, and 7e.7 each reproduced it on clean base (0d69a20 / 4fad819) before their BLOCKS changes, so it predates bob-cli-7e and belongs to the Successor Offers cycler wiring. Surfaced by the bob-cli-7e land agent.
 
 ## Phases
 
@@ -37,7 +41,7 @@ Closing a task that unblocks other tasks (in Obsidian, bob capture, or Bob Mac C
 | [bob-cli-7c.4](bob-cli-7c.4.md) | task-status-cycler plans offers, awaits the picker, then applies | ✓ closed | large | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.5](bob-cli-7c.5.md) | Navigation hotkeys successor picker modal and walk integration | ✓ closed | large | 2026-10-13 | 1 | 0 |
 | [bob-cli-7c.6](bob-cli-7c.6.md) | Per-row destination override in the Obsidian picker | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [bob-cli-7c.7](bob-cli-7c.7.md) | Bob Mac Capture in-panel pull-in choice step | ◐ in_progress | large | 2026-10-13 | 1 | 0 |
+| [bob-cli-7c.7](bob-cli-7c.7.md) | Bob Mac Capture in-panel pull-in choice step | ◐ in_progress | large | 2026-10-13 | 1 | 1 |
 | [bob-cli-7c.8](bob-cli-7c.8.md) | Decision record, supersession marks, and epic acceptance | ◐ in_progress | small | 2026-10-13 | 1 | 0 |
 
 ## Lineage
@@ -85,7 +89,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.4.md) | [bob-cli-7c.4](bob-cli-7c.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.5.md) | [bob-cli-7c.5](bob-cli-7c.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md) | [bob-cli-7c.6](bob-cli-7c.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7c.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.7/README.md) | [bob-cli-7c.7](bob-cli-7c.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7c.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.7.md) | [bob-cli-7c.7](bob-cli-7c.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7c.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.8/README.md) | [bob-cli-7c.8](bob-cli-7c.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md) | [bob-cli-7c](README.md) | 0 |
 
@@ -97,6 +101,7 @@ flowchart TD
 | bob-cli | [`3f29da1`](https://github.com/bobs-org/bob-cli/commit/3f29da1c3b0fa8b42b40f442afaebaf184e43b0a) | docs(tasks): document per-row successor destination override (bob-cli-7c.6) | [bob-cli-7c.6](bob-cli-7c.6.md) | 2026-10-13 11:51:13 EDT |
 | bob-cli | [`f5c82d6`](https://github.com/bobs-org/bob-cli/commit/f5c82d63aaa66fc32fc9baf0dfdea66c5359856c) | feat(task-complete): emit successor offers and apply a selection | [bob-cli-7c.2](bob-cli-7c.2.md) | 2026-10-13 12:07:25 EDT |
 | bob-cli | [`e7a0c7b`](https://github.com/bobs-org/bob-cli/commit/e7a0c7b588494bd46a67a5a9cdd73dd87906416c) | feat(capture): select successor offers with --pull-in | [bob-cli-7c.3](bob-cli-7c.3.md) | 2026-10-13 13:57:52 EDT |
+| bob-mac-capture | [`bob-mac-capture@395c521`](https://github.com/bobs-org/bob-mac-capture/commit/395c5217523aaf28e81f38c8ef5d471d0e9725e7) | feat(capture): add in-panel successor pull-in choice | [bob-cli-7c.7](bob-cli-7c.7.md) | 2026-10-13 15:43:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -106,8 +111,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7c.1--1][1] | Need epic phase split and memory assignment | 1 |
 | read-by | [agent:bob-cli-7c.6][2] | Need epic DECISIONS and plan context | 1 |
+| read-by | [agent:bob-cli-7e.land][3] | Triage bob-cli-7e follow-ups against related beads | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7e.land/README.md
 
 <!-- sase:referenced-by:end -->
