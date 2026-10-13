@@ -22,7 +22,7 @@ cli-capture: keep id-less C in the ! and =x close paths, feed staged project-not
 ## Dependencies
 
 - **Depends on:** [bob-cli-74.2](bob-cli-74.2.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-74.6](bob-cli-74.6.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-74.6](bob-cli-74.6.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -35,3 +35,15 @@ cli-capture: keep id-less C in the ! and =x close paths, feed staged project-not
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`309e98a`](https://github.com/bobs-org/bob-cli/commit/309e98a92ed290f3893b4fcf4c9e58bb857d94b4) | feat(capture): surface project pull-ins on close | [bob-cli-74.3](bob-cli-74.3.md) | 2026-10-13 01:09:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-74.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.3/README.md
+
+<!-- sase:referenced-by:end -->

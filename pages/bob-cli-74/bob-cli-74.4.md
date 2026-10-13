@@ -20,13 +20,19 @@ cycler: add 089-successor-project.js (surface predicate, #hide strip, pull-in pl
 ## Dependencies
 
 - **Depends on:** [bob-cli-74.1](bob-cli-74.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-74.6](bob-cli-74.6.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-74.6](bob-cli-74.6.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-74.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.4/README.md) | [bob-cli-74.4](bob-cli-74.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-74.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.4/README.md) | [bob-cli-74.4](bob-cli-74.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@9e05379`](https://github.com/bobs-org/bob-plugins/commit/9e0537911d8eaf7c8f7f262b28b552f101c6cb31) | feat(task-status-cycler): pull in an emptied project's ^prj as a successor | [bob-cli-74.4](bob-cli-74.4.md) | 2026-10-13 00:27:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
