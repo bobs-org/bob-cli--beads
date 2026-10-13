@@ -13,7 +13,7 @@ cli-reconcile: export the accepted explicit edges from R1–R10, add the BLOCKS 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7e.2](bob-cli-7e.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7e.2](bob-cli-7e.2.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7e.3](bob-cli-7e.3.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7e.4](bob-cli-7e.4.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.6](bob-cli-7e.6.md) ◐ · ⧖ 2026-10-13

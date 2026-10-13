@@ -13,7 +13,7 @@ cli-capture: stage each added prerequisite's BLOCKS entry (and the dependent's m
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7e.2](bob-cli-7e.2.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7e.2](bob-cli-7e.2.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7e.5](bob-cli-7e.5.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.9](bob-cli-7e.9.md) ◐ · ⧖ 2026-10-13
 

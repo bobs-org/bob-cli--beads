@@ -19,7 +19,7 @@ contract: write docs/task-dependencies.md §14 (grammar, membership, minting, or
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7e.2](bob-cli-7e.2.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7e.2](bob-cli-7e.2.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.3](bob-cli-7e.3.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.4](bob-cli-7e.4.md) ✓ · ⧖ 2026-10-13
 
