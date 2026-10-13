@@ -35,11 +35,22 @@ npm test: 2554 pass, 6 fail — the allowed bob-cli-6v (4 unblocked-glyph), bob-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.18.7.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md) | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md) | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`332e507`](https://github.com/bobs-org/bob-cli/commit/332e507b13576df7d0a7b521dae01776f703791d) | docs(task-dependencies): document cycler ^prj resident recovery | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2026-10-12 22:28:46 EDT |
-| bob-plugins | [`bob-plugins@7303ff4`](https://github.com/bobs-org/bob-plugins/commit/7303ff464ed3b3d1d103d942e8448b603759f8d5) | fix(task-status-cycler): resolve cross-note ^prj reasons before recovery | [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) | 2026-10-12 22:30:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.7.6.3][1] | Need full notes, DECISIONS, and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md
+
+<!-- sase:referenced-by:end -->

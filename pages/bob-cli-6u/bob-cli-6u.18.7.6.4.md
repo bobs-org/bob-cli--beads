@@ -14,7 +14,7 @@ rollout: bob then plugins on this host, then best-effort on the MacBook with a d
 ## Dependencies
 
 - **Depends on:** [bob-cli-6u.18.7.6.1](bob-cli-6u.18.7.6.1.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-6u.18.7.6.3](bob-cli-6u.18.7.6.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
