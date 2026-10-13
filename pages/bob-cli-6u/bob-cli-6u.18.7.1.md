@@ -34,3 +34,15 @@ cli-reconcile-projects: filter same-note ids from inherited resident edges, warn
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d2836e0`](https://github.com/bobs-org/bob-cli/commit/d2836e0ed1a24be033ffb29772a6d4053390283f) | fix(projects): correct ^prj reconcile and sync behavior | [bob-cli-6u.18.7.1](bob-cli-6u.18.7.1.md) | 2026-10-12 21:18:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.7.1--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.1.md
+
+<!-- sase:referenced-by:end -->
