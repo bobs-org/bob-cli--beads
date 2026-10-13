@@ -29,8 +29,8 @@ Every open task that other open tasks depend on carries one machine-owned `🧱 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-7e.1](bob-cli-7e.1.md) | The BLOCKS-line contract, managed-line registry, and vectors | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [bob-cli-7e.2](bob-cli-7e.2.md) | Rust grammar, shared planner, guards, projects-sync anchor, and config | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
-| [bob-cli-7e.3](bob-cli-7e.3.md) | Recognisers and gesture guards in nav, cycler, and block-id-prompt | ✓ closed | medium | 2026-10-13 | 1 | 1 |
-| [bob-cli-7e.4](bob-cli-7e.4.md) | bob-ledger-tools BLOCKS chips with the 🔑 last-blocker badge | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
+| [bob-cli-7e.3](bob-cli-7e.3.md) | Recognisers and gesture guards in nav, cycler, and block-id-prompt | ✓ closed | medium | 2026-10-13 | 1 | 0 |
+| [bob-cli-7e.4](bob-cli-7e.4.md) | bob-ledger-tools BLOCKS chips with the 🔑 last-blocker badge | ✓ closed | medium | 2026-10-13 | 1 | 1 |
 | [bob-cli-7e.5](bob-cli-7e.5.md) | bob task reconcile owns the BLOCKS projection | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [bob-cli-7e.6](bob-cli-7e.6.md) | Capture \`&\` and dependency drops keep the mirror current | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
 | [bob-cli-7e.7](bob-cli-7e.7.md) | Nav planner seam, minting, and cross-note follow-ups | ◐ in_progress | medium | 2026-10-13 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n1["bob-cli-7e.1: The BLOCKS-line contract, managed-line registry, and vectors [closed]"]
     n2["bob-cli-7e.2: Rust grammar, shared planner, guards, projects-sync anchor, and config [in_progress]"]
     n3["bob-cli-7e.3: Recognisers and gesture guards in nav, cycler, and block-id-prompt [closed]"]
-    n4["bob-cli-7e.4: bob-ledger-tools BLOCKS chips with the 🔑 last-blocker badge [in_progress]"]
+    n4["bob-cli-7e.4: bob-ledger-tools BLOCKS chips with the 🔑 last-blocker badge [closed]"]
     n5["bob-cli-7e.5: bob task reconcile owns the BLOCKS projection [in_progress]"]
     n6["bob-cli-7e.6: Capture `&` and dependency drops keep the mirror current [in_progress]"]
     n7["bob-cli-7e.7: Nav planner seam, minting, and cross-note follow-ups [in_progress]"]
@@ -81,8 +81,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-7e.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.1.md) | [bob-cli-7e.1](bob-cli-7e.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-7e.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.2.md) | [bob-cli-7e.2](bob-cli-7e.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-7e.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.3/README.md) | [bob-cli-7e.3](bob-cli-7e.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-7e.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.4.md) | [bob-cli-7e.4](bob-cli-7e.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-7e.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.3/README.md) | [bob-cli-7e.3](bob-cli-7e.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-7e.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.4.md) | [bob-cli-7e.4](bob-cli-7e.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-7e.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.5/README.md) | [bob-cli-7e.5](bob-cli-7e.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-7e.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.6/README.md) | [bob-cli-7e.6](bob-cli-7e.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-7e.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.7/README.md) | [bob-cli-7e.7](bob-cli-7e.7.md) | 0 |
@@ -95,4 +95,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4f72e5c`](https://github.com/bobs-org/bob-cli/commit/4f72e5c513317708f098b35e2dfd4beab82b5748) | docs(tasks): contract BLOCKS lines, managed-child registry, and vectors | [bob-cli-7e.1](bob-cli-7e.1.md) | 2026-10-13 11:39:06 EDT |
-| bob-plugins | [`bob-plugins@6aef3b6`](https://github.com/bobs-org/bob-plugins/commit/6aef3b6942ae3be0d12fa4513bee213544e8b845) | feat(blocks): add BLOCKS recognisers and gesture guards to nav, cycler, bip | [bob-cli-7e.3](bob-cli-7e.3.md) | 2026-10-13 12:07:51 EDT |
+| bob-cli | [`f287417`](https://github.com/bobs-org/bob-cli/commit/f287417934042f349541dc70fcb8e87e9deb4da7) | docs(memory): document task dependency BLOCKS mirrors | [bob-cli-7e.4](bob-cli-7e.4.md) | 2026-10-13 12:19:15 EDT |
