@@ -42,7 +42,9 @@ contract: make §12.10 EMPTY exactly bob projects sync's surface predicate (date
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-74.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-74.2][2] | Check prior phase completion state | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.2/README.md
 
 <!-- sase:referenced-by:end -->

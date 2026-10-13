@@ -20,7 +20,7 @@ cli-model: factor sync's surface predicate into one crate-visible projects helpe
 ## Dependencies
 
 - **Depends on:** [bob-cli-74.1](bob-cli-74.1.md) ✓ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-74.3](bob-cli-74.3.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-74.3](bob-cli-74.3.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ cli-model: factor sync's surface predicate into one crate-visible projects helpe
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5fc27f0`](https://github.com/bobs-org/bob-cli/commit/5fc27f0818e7b677b3da3bff23253b0f0c5a8387) | feat(pull-in): shared sync surface predicate and Rust pull-in planner | [bob-cli-74.2](bob-cli-74.2.md) | 2026-10-13 00:34:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-74.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-74.2/README.md
+
+<!-- sase:referenced-by:end -->
