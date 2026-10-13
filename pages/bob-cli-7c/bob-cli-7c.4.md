@@ -19,13 +19,19 @@ cycler_offers: port the offer rule to the cycler, delete SUCCESSOR_BREAKER_LIMIT
 
 - **Depends on:** [bob-cli-7c.1](bob-cli-7c.1.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7c.6](bob-cli-7c.6.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7c.8](bob-cli-7c.8.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7c.8](bob-cli-7c.8.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-7c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.4.md) | [bob-cli-7c.4](bob-cli-7c.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.4.md) | [bob-cli-7c.4](bob-cli-7c.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@310739d`](https://github.com/bobs-org/bob-plugins/commit/310739dd72d70856d89a7fc1a3eb0c03d24ca048) | feat(cycler): offer successors and await picker before applying (bob-cli-7c.4) | [bob-cli-7c.4](bob-cli-7c.4.md) | 2026-10-13 11:28:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
