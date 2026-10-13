@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md) | [bob-cli-7c.6](bob-cli-7c.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-7c.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.7.md) | [bob-cli-7c.7](bob-cli-7c.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7c.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.8.md) | [bob-cli-7c.8](bob-cli-7c.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md) | [bob-cli-7c](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-7c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md) | [bob-cli-7c](README.md) | 2 |
 
 ## Commits
 
@@ -132,6 +132,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@395c521`](https://github.com/bobs-org/bob-mac-capture/commit/395c5217523aaf28e81f38c8ef5d471d0e9725e7) | feat(capture): add in-panel successor pull-in choice | [bob-cli-7c.7](bob-cli-7c.7.md) | 2026-10-13 15:43:32 EDT |
 | bob-cli | [`19075ee`](https://github.com/bobs-org/bob-cli/commit/19075ee673e0dd8a187676204575dced50d2f3dd) | feat(memory): record successor offers decision | [bob-cli-7c.8](bob-cli-7c.8.md) | 2026-10-13 17:11:07 EDT |
 | bob-cli | [`f24d5e7`](https://github.com/bobs-org/bob-cli/commit/f24d5e7daf3e8349dd03505da413317934f2cf41) | chore(successors): land Successor Offers epic cleanup | [bob-cli-7c](README.md) | 2026-10-13 17:35:57 EDT |
+| bob-plugins | [`bob-plugins@0833789`](https://github.com/bobs-org/bob-plugins/commit/083378939d613d9dd2870bf3faf2005363615a3e) | fix(task-status-cycler): keep the closing anchor in the post-picker re-plan | [bob-cli-7c](README.md) | 2026-10-13 17:36:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
