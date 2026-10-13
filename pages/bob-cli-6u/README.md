@@ -221,7 +221,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-6u.18.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.1.md) | [bob-cli-6u.18.7.1](bob-cli-6u.18.7.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.2.md) | [bob-cli-6u.18.7.2](bob-cli-6u.18.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.3/README.md) | [bob-cli-6u.18.7.3](bob-cli-6u.18.7.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-6u.18.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.4/README.md) | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.4/README.md) | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.5/README.md) | [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.land/README.md) | [bob-cli-6u.18.7](bob-cli-6u.18.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-6u.18.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.land.md) | [bob-cli-6u.18](bob-cli-6u.18.md) | 0 |
@@ -267,6 +267,7 @@ flowchart TD
 | bob-cli | [`b09612e`](https://github.com/bobs-org/bob-cli/commit/b09612ee99c0f977417da4bcab9c52c1518cc161) | fix(projects): gate hoist and Sub-projects placement | [bob-cli-6u.18.2](bob-cli-6u.18.2.md) | 2026-10-12 19:49:58 EDT |
 | bob-cli | [`e45c3ab`](https://github.com/bobs-org/bob-cli/commit/e45c3ab0290d91e3358ebad5194f55b2d0d04782) | fix(capture): correct consumed link reporting and status handling | [bob-cli-6u.18.7.2](bob-cli-6u.18.7.2.md) | 2026-10-12 20:58:50 EDT |
 | bob-cli | [`1851d77`](https://github.com/bobs-org/bob-cli/commit/1851d77eb31bb7a5830b8af29904d66c22b7d4e2) | docs(projects): document Alt+\] ^prj resident recovery | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2026-10-12 21:01:15 EDT |
+| bob-plugins | [`bob-plugins@39fd9b1`](https://github.com/bobs-org/bob-plugins/commit/39fd9b151b643bb188da9e13b72e85bc40b8fd20) | fix(task-status-cycler): recover residents without stripping closed tags | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2026-10-12 21:02:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
