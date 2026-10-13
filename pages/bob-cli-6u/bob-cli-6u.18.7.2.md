@@ -34,3 +34,15 @@ cli-capture: the toggle insert ignores struck links, + rendering uses configured
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e45c3ab`](https://github.com/bobs-org/bob-cli/commit/e45c3ab0290d91e3358ebad5194f55b2d0d04782) | fix(capture): correct consumed link reporting and status handling | [bob-cli-6u.18.7.2](bob-cli-6u.18.7.2.md) | 2026-10-12 20:58:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.7.2--1][1] | Need phase scope, design file, and prior phase notes for verification and closure | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.7.2.md
+
+<!-- sase:referenced-by:end -->

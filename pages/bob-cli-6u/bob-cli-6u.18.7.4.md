@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-6u.18.7](bob-cli-6u.18.7.md) / bob-cli-6u.18.7.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-6u.18.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-6u.18.land.md) · **Assignee:** `bob-cli-6u.18.7.4` · **Size:** small
-**Created:** 2026-10-12 20:32:25 EDT
+**Created:** 2026-10-12 20:32:25 EDT · **Closed:** 2026-10-12 20:58:00 EDT
 **Plan:** [202610/prj\_line\_blocking\_land\_audit\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/prj_line_blocking_land_audit_fixes.md)
 
 ## Description
@@ -22,6 +22,8 @@ cycler-blockid: never strip the tag from closed lines on recovery, recover witho
 Deployed on this host: bob plugins sync -n -r <opened bob-plugins> -p task-status-cycler and -p block-id-prompt.
 npm test: 2533 pass, 6 fail = allowed bob-cli-6v (4 unblocked-glyph), bob-cli-6w (Keep counts once), bob-cli-3w (ranker 17.26ms). just check: only the two bob-cli-6m percent-listen failures.
 
+[2026-10-13T00:58:00Z · bob-cli-6u.18.7.4] Verified PDT7 closed-line tag keep, successor recover-without-v12 (fails on old drop-edits guard), Alt+] ^prj resident recovery, restored block-id resident + notice-order tests, cycler 1.33.0 and block-id-prompt 1.29.0 deployed on this host. npm test only the allowed 6v/6w/3w failures; just check only bob-cli-6m percent-listen.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-6u.18.7.5](bob-cli-6u.18.7.5.md) ◐ · ⧖ 2026-10-12
@@ -30,4 +32,10 @@ npm test: 2533 pass, 6 fail = allowed bob-cli-6v (4 unblocked-glyph), bob-cli-6w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.18.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.4/README.md) | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.4/README.md) | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`1851d77`](https://github.com/bobs-org/bob-cli/commit/1851d77eb31bb7a5830b8af29904d66c22b7d4e2) | docs(projects): document Alt+\] ^prj resident recovery | [bob-cli-6u.18.7.4](bob-cli-6u.18.7.4.md) | 2026-10-12 21:01:15 EDT |
