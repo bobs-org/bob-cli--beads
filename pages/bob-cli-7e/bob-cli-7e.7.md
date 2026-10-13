@@ -13,7 +13,7 @@ nav-writer: add the JS twin of the shared planner and the SB mint, make planDepe
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7e.3](bob-cli-7e.3.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7e.3](bob-cli-7e.3.md) ✓ · ⧖ 2026-10-13
 - **Depends on:** [bob-cli-7e.5](bob-cli-7e.5.md) ◐ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.8](bob-cli-7e.8.md) ◐ · ⧖ 2026-10-13
 

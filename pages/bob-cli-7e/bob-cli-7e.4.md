@@ -20,4 +20,4 @@ chips: render BLOCKS lines in Live Preview and Reading view from a live reverse 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7e.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.4/README.md) | [bob-cli-7e.4](bob-cli-7e.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-7e.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.4.md) | [bob-cli-7e.4](bob-cli-7e.4.md) | 0 |

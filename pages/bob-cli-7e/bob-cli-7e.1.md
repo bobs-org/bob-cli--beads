@@ -20,7 +20,7 @@ contract: write docs/task-dependencies.md §14 (grammar, membership, minting, or
 ## Dependencies
 
 - **Blocks:** [bob-cli-7e.2](bob-cli-7e.2.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7e.3](bob-cli-7e.3.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7e.3](bob-cli-7e.3.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-7e.4](bob-cli-7e.4.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
@@ -34,3 +34,15 @@ contract: write docs/task-dependencies.md §14 (grammar, membership, minting, or
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4f72e5c`](https://github.com/bobs-org/bob-cli/commit/4f72e5c513317708f098b35e2dfd4beab82b5748) | docs(tasks): contract BLOCKS lines, managed-child registry, and vectors | [bob-cli-7e.1](bob-cli-7e.1.md) | 2026-10-13 11:39:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7e.1--1][1] | Need the phase scope, design file, notes, and remaining work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7e.1.md
+
+<!-- sase:referenced-by:end -->
