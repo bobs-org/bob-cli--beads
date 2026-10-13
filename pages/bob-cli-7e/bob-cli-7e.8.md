@@ -18,7 +18,7 @@ nav-paths: route counted, marked, and batch Depends-On writers, counted Ctrl+D, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-7e.7](bob-cli-7e.7.md) ✓ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7e.9](bob-cli-7e.9.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7e.9](bob-cli-7e.9.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -31,3 +31,15 @@ nav-paths: route counted, marked, and batch Depends-On writers, counted Ctrl+D, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8406ebb`](https://github.com/bobs-org/bob-plugins/commit/8406ebb2864502aa67277e1d7a3130470d37c11f) | feat(bob-navigation-hotkeys): mirror remaining Depends-On writers onto BLOCKS | [bob-cli-7e.8](bob-cli-7e.8.md) | 2026-10-13 15:00:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7e.8][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.8/README.md
+
+<!-- sase:referenced-by:end -->

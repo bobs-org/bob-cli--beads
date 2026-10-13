@@ -42,7 +42,9 @@ nav-writer: add the JS twin of the shared planner and the SB mint, make planDepe
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7e.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-7e.8][2] | Need nav-writer completion notes to know remaining nav-paths work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7e.8/README.md
 
 <!-- sase:referenced-by:end -->
