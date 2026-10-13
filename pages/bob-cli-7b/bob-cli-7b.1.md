@@ -20,7 +20,7 @@ cli-core: write the §13.5 dependency-drop contract and PDG18–PDG27 vectors fi
 ## Dependencies
 
 - **Blocks:** [bob-cli-7b.2](bob-cli-7b.2.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-7b.3](bob-cli-7b.3.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-7b.3](bob-cli-7b.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
@@ -33,3 +33,15 @@ cli-core: write the §13.5 dependency-drop contract and PDG18–PDG27 vectors fi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`92515f1`](https://github.com/bobs-org/bob-cli/commit/92515f1bb8565fa7d6116e4581911b9f45e880bb) | feat(capture): support dependency-drop link gestures | [bob-cli-7b.1](bob-cli-7b.1.md) | 2026-10-13 09:24:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7b.1--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7b.1.md
+
+<!-- sase:referenced-by:end -->

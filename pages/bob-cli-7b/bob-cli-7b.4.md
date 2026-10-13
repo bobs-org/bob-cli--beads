@@ -14,7 +14,7 @@ publish: sweep the docs for stale consumption wording and, under memory_supersed
 ## Dependencies
 
 - **Depends on:** [bob-cli-7b.2](bob-cli-7b.2.md) ◐ · ⧖ 2026-10-13
-- **Depends on:** [bob-cli-7b.3](bob-cli-7b.3.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-7b.3](bob-cli-7b.3.md) ✓ · ⧖ 2026-10-13
 
 ## Agents
 
