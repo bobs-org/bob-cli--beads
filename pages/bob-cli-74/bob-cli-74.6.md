@@ -14,7 +14,7 @@ rollout: install bob and sync plugins on this host, verify a pull-in on a tempor
 ## Dependencies
 
 - **Depends on:** [bob-cli-74.3](bob-cli-74.3.md) ◐ · ⧖ 2026-10-12
-- **Depends on:** [bob-cli-74.4](bob-cli-74.4.md) ◐ · ⧖ 2026-10-12
+- **Depends on:** [bob-cli-74.4](bob-cli-74.4.md) ✓ · ⧖ 2026-10-12
 - **Depends on:** [bob-cli-74.5](bob-cli-74.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents

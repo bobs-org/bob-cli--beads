@@ -20,7 +20,7 @@ contract: make §12.10 EMPTY exactly bob projects sync's surface predicate (date
 ## Dependencies
 
 - **Blocks:** [bob-cli-74.2](bob-cli-74.2.md) ◐ · ⧖ 2026-10-12
-- **Blocks:** [bob-cli-74.4](bob-cli-74.4.md) ◐ · ⧖ 2026-10-12
+- **Blocks:** [bob-cli-74.4](bob-cli-74.4.md) ✓ · ⧖ 2026-10-12
 - **Blocks:** [bob-cli-74.5](bob-cli-74.5.md) ✓ · ⧖ 2026-10-12
 
 ## Agents
