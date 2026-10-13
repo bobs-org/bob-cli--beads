@@ -46,7 +46,9 @@ decision_record: record the accepted Successor Offers decision, mark the records
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7c.8--1][1] | Inspect phase scope, notes, and CI evidence before final close | 1 |
+| read-by | [agent:bob-cli-7c.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.8.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,9 +42,11 @@ nav_picker: add the api.successors v1 multi-select picker (groups, muted rows, f
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7c.5--1][1] | implement approved successor picker plan; review monitor failures | 1 |
-| read-by | [agent:bob-cli-7e.land][2] | Check whether 7c phases already recorded the successor-wiring continuation test failure | 1 |
+| read-by | [agent:bob-cli-7c.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-7e.land][3] | Check whether 7c phases already recorded the successor-wiring continuation test failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.5.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7e.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7e.land/README.md
 
 <!-- sase:referenced-by:end -->

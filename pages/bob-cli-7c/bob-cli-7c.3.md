@@ -40,7 +40,9 @@ rust_capture: add -p/--pull-in and the hidden --require-pull-in-choice to bob ca
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7c.3--2][1] | Need assigned bead scope to decide close vs keep after verification recovery | 1 |
+| read-by | [agent:bob-cli-7c.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
 
 <!-- sase:referenced-by:end -->

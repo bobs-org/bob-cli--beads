@@ -39,8 +39,10 @@ cycler_offers: port the offer rule to the cycler, delete SUCCESSOR_BREAKER_LIMIT
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-7e.land][1] | Check whether 7c phases already recorded the successor-wiring continuation test failure | 1 |
+| read-by | [agent:bob-cli-7c.land][1] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-7e.land][2] | Check whether 7c phases already recorded the successor-wiring continuation test failure | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7e.land/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7e.land/README.md
 
 <!-- sase:referenced-by:end -->

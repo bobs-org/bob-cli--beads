@@ -42,7 +42,9 @@ contract: rewrite task-dependencies §12 as Successor Offers (offer ladder, proj
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7c.1--1][1] | Need the phase scope, notes, and design file after failed just check | 1 |
+| read-by | [agent:bob-cli-7c.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
 
 <!-- sase:referenced-by:end -->

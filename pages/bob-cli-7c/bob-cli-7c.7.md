@@ -76,8 +76,10 @@ bob-mac-capture master is clean and not ahead of origin/master at 6c4209b.
 | --- | --- | --- | ---: |
 | read-by | [agent:7f--1][1] | Need current bead notes and close criteria before classifying CI failures | 1 |
 | read-by | [agent:bob-cli-7c.7--6][2] | Confirm note text after shell expansion on the proposed follow-up | 3 |
+| read-by | [agent:bob-cli-7c.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.7f.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.7.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
 
 <!-- sase:referenced-by:end -->

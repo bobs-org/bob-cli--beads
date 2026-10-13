@@ -43,7 +43,9 @@ obsidian_destination: expose block-id-prompt's Pomodoro link picker as a version
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7c.6][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-7c.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -17,7 +17,7 @@
 | implemented-by | [plan:202610/successor_offers.md][2] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-7j][3] | Successor Offers epic that shipped the offer/pick contract and the Obsidian-only destination override this extends |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/slash_task_goto.md
 [2]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/successor_offers.md
@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md) | [bob-cli-7c.6](bob-cli-7c.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-7c.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.7.md) | [bob-cli-7c.7](bob-cli-7c.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7c.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.8.md) | [bob-cli-7c.8](bob-cli-7c.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md) | [bob-cli-7c](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-7c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md) | [bob-cli-7c](README.md) | 3 |
 
 ## Commits
 
@@ -133,6 +133,7 @@ flowchart TD
 | bob-cli | [`19075ee`](https://github.com/bobs-org/bob-cli/commit/19075ee673e0dd8a187676204575dced50d2f3dd) | feat(memory): record successor offers decision | [bob-cli-7c.8](bob-cli-7c.8.md) | 2026-10-13 17:11:07 EDT |
 | bob-cli | [`f24d5e7`](https://github.com/bobs-org/bob-cli/commit/f24d5e7daf3e8349dd03505da413317934f2cf41) | chore(successors): land Successor Offers epic cleanup | [bob-cli-7c](README.md) | 2026-10-13 17:35:57 EDT |
 | bob-plugins | [`bob-plugins@0833789`](https://github.com/bobs-org/bob-plugins/commit/083378939d613d9dd2870bf3faf2005363615a3e) | fix(task-status-cycler): keep the closing anchor in the post-picker re-plan | [bob-cli-7c](README.md) | 2026-10-13 17:36:48 EDT |
+| bob-cli--plans | [`bob-cli--plans@4fadac4`](https://github.com/bobs-org/bob-cli--plans/commit/4fadac40c62d7dbbd6d52cf29c9a998ac14af99b) | docs(plan): mark successor offers plan done | [bob-cli-7c](README.md) | 2026-10-13 17:37:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -143,11 +144,13 @@ flowchart TD
 | read-by | [agent:bob-cli-7c.1--1][1] | Need epic phase split and memory assignment | 1 |
 | read-by | [agent:bob-cli-7c.6][2] | Need epic DECISIONS and plan context | 1 |
 | read-by | [agent:bob-cli-7c.8--1][3] | Check whether clean-base plugin failures are already tracked | 1 |
-| read-by | [agent:bob-cli-7e.land][4] | Triage bob-cli-7e follow-ups against related beads | 2 |
+| read-by | [agent:bob-cli-7c.land][4] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:bob-cli-7e.land][5] | Triage bob-cli-7e follow-ups against related beads | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.6/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7c.8.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7e.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7c.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7e.land/README.md
 
 <!-- sase:referenced-by:end -->
