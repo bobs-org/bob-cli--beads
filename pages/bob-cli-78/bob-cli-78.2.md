@@ -26,7 +26,7 @@ PROPOSED FOLLOW-UP: Update glossary:project-task to describe inherited sub-proje
 
 - **Depends on:** [bob-cli-78.1](bob-cli-78.1.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.3](bob-cli-78.3.md) ◐ · ⧖ 2026-10-13
-- **Blocks:** [bob-cli-78.4](bob-cli-78.4.md) ◐ · ⧖ 2026-10-13
+- **Blocks:** [bob-cli-78.4](bob-cli-78.4.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.8](bob-cli-78.8.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
@@ -40,3 +40,15 @@ PROPOSED FOLLOW-UP: Update glossary:project-task to describe inherited sub-proje
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`96bf514`](https://github.com/bobs-org/bob-cli/commit/96bf514e6dc1d4535704bde59c4159ca9b50aa9d) | feat(projects): reconcile inherited sub-project blocking | [bob-cli-78.2](bob-cli-78.2.md) | 2026-10-13 04:53:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-78.2--1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-78.2.md
+
+<!-- sase:referenced-by:end -->
