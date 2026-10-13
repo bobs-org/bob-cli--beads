@@ -28,11 +28,22 @@ cycler: make task-status-cycler and block-id-prompt read a tagged ^prj as an inh
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-78.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.7/README.md) | [bob-cli-78.7](bob-cli-78.7.md) | 2 |
+| [bbugyi200.apollo.bob-cli-78.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.7/README.md) | [bob-cli-78.7](bob-cli-78.7.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`23dbefe`](https://github.com/bobs-org/bob-cli/commit/23dbefe507eac92896f660512733b1040371a8f9) | docs(memory): record subproject blocking cascade | [bob-cli-78.7](bob-cli-78.7.md) | 2026-10-13 03:52:50 EDT |
 | bob-plugins | [`bob-plugins@53ec2eb`](https://github.com/bobs-org/bob-plugins/commit/53ec2eb1c8cc12413c757c06d4a2d6b4ef5ac85d) | feat(plugins): honor inherited project blocking | [bob-cli-78.7](bob-cli-78.7.md) | 2026-10-13 03:53:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-78.7][1] | Resolve PP33 cancellation versus PP10 no-anchor precedence from the phase acceptance criteria | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-78.7/README.md
+
+<!-- sase:referenced-by:end -->

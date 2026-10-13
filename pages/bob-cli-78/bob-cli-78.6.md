@@ -13,7 +13,7 @@ nav-gestures: wire the subtree pass into every Task Card Depends on writer and, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-78.5](bob-cli-78.5.md) ◐ · ⧖ 2026-10-13
+- **Depends on:** [bob-cli-78.5](bob-cli-78.5.md) ✓ · ⧖ 2026-10-13
 - **Blocks:** [bob-cli-78.8](bob-cli-78.8.md) ◐ · ⧖ 2026-10-13
 
 ## Agents
