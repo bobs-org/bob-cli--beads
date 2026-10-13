@@ -23,11 +23,22 @@ nav-fixes: walk through a [?] ^prj on move promotion, report post-write reversal
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-6u.18.7.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.2/README.md) | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 2 |
+| [bbugyi200.apollo.bob-cli-6u.18.7.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.2/README.md) | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`178dc21`](https://github.com/bobs-org/bob-cli/commit/178dc21ce51e562f11a42d5e816b121d158a818e) | docs(task-deps): document nav-fixes for project blocking, reversal, and schedule writes | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 2026-10-12 22:32:51 EDT |
-| bob-plugins | [`bob-plugins@5d8975b`](https://github.com/bobs-org/bob-plugins/commit/5d8975bcab2d39e7ed57305a9ee3dbc21e1e9968) | fix(nav-hotkeys): project move, reversal, and schedule-write nav fixes with tests | [bob-cli-6u.18.7.6.2](bob-cli-6u.18.7.6.2.md) | 2026-10-12 22:34:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-6u.18.7.6.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.2/README.md
+
+<!-- sase:referenced-by:end -->

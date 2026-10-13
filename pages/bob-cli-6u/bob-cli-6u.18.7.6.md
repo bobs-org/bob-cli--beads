@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/prj_line_blocking_final_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/prj_line_blocking_final_audit_fixes.md
 
@@ -37,8 +37,10 @@ Every defect the bob-cli-6u.18.7 land audit found in the ^prj project-blocking f
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-6u.18.7.6.3][1] | Need parent epic DECISIONS for cycler-fixes | 1 |
+| read-by | [agent:bob-cli-6u.18.7.6.2][1] | need epic decisions and design | 1 |
+| read-by | [agent:bob-cli-6u.18.7.6.3][2] | Need parent epic DECISIONS for cycler-fixes | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-6u.18.7.6.3/README.md
 
 <!-- sase:referenced-by:end -->
