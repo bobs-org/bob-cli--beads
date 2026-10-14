@@ -21,7 +21,7 @@ refs-copy-integration: route ⌃Y and every card key, own the card lifecycle in 
 
 - **Depends on:** [bob-cli-7k.1](bob-cli-7k.1.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [bob-cli-7k.3](bob-cli-7k.3.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7k.5](bob-cli-7k.5.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7k.5](bob-cli-7k.5.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -34,3 +34,15 @@ refs-copy-integration: route ⌃Y and every card key, own the card lifecycle in 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@c4b1a25`](https://github.com/bobs-org/bob-mac-capture/commit/c4b1a257db3bdde636697d7f22aee6aab7285417) | feat(refs): wire copy card interactions and footer | [bob-cli-7k.4](bob-cli-7k.4.md) | 2026-10-14 11:02:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7k.4--6][1] | Review phase scope, design, prior notes, and current follow-up before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.4.md
+
+<!-- sase:referenced-by:end -->

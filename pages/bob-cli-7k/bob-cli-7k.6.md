@@ -13,7 +13,7 @@ refs-copy-alternates: holding ⌥ swaps previews in place for alternate payloads
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7k.5](bob-cli-7k.5.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7k.5](bob-cli-7k.5.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 

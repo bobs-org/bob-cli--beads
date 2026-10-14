@@ -31,7 +31,7 @@ In Bob Mac Capture's Refs panel, ⌃Y turns the inspector column into a Copy car
 | [bob-cli-7k.2](bob-cli-7k.2.md) | RefsCore decoding, copy catalog, formats, key map, and card state machine | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7k.3](bob-cli-7k.3.md) | App building blocks for the Copy card and HUD (not yet wired) | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7k.4](bob-cli-7k.4.md) | Wire ⌃Y, the card lifecycle, hide-on-copy, ⌘K, footer, and README | ✓ closed | medium | 2026-10-14 | 1 | 1 |
-| [bob-cli-7k.5](bob-cli-7k.5.md) | H highlight picker layer | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
+| [bob-cli-7k.5](bob-cli-7k.5.md) | H highlight picker layer | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7k.6](bob-cli-7k.6.md) | ⌥ alternates and the Obsidian link row | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
 
 ## Lineage
@@ -43,7 +43,7 @@ flowchart TD
     n2["bob-cli-7k.2: RefsCore decoding, copy catalog, formats, key map, and card state machine [closed]"]
     n3["bob-cli-7k.3: App building blocks for the Copy card and HUD (not yet wired) [closed]"]
     n4["bob-cli-7k.4: Wire ⌃Y, the card lifecycle, hide-on-copy, ⌘K, footer, and README [closed]"]
-    n5["bob-cli-7k.5: H highlight picker layer [in_progress]"]
+    n5["bob-cli-7k.5: H highlight picker layer [closed]"]
     n6["bob-cli-7k.6: ⌥ alternates and the Obsidian link row [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7k.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.2/README.md) | [bob-cli-7k.2](bob-cli-7k.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.3/README.md) | [bob-cli-7k.3](bob-cli-7k.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.4.md) | [bob-cli-7k.4](bob-cli-7k.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md) | [bob-cli-7k.5](bob-cli-7k.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md) | [bob-cli-7k.5](bob-cli-7k.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.6/README.md) | [bob-cli-7k.6](bob-cli-7k.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.land/README.md) | [bob-cli-7k](README.md) | 0 |
 
@@ -78,3 +78,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@060d77b`](https://github.com/bobs-org/bob-mac-capture/commit/060d77b41a79df7b529c9085f184b76928c0cbbb) | feat(refs-core): implement copy catalog and card state machine | [bob-cli-7k.2](bob-cli-7k.2.md) | 2026-10-14 09:50:04 EDT |
 | bob-mac-capture | [`bob-mac-capture@7e7d8d6`](https://github.com/bobs-org/bob-mac-capture/commit/7e7d8d628446cda13fa2a903ef2570c5010aa5d1) | feat(refs): add Copy card view, glass HUD, and checked pasteboard | [bob-cli-7k.3](bob-cli-7k.3.md) | 2026-10-14 10:20:24 EDT |
 | bob-mac-capture | [`bob-mac-capture@c4b1a25`](https://github.com/bobs-org/bob-mac-capture/commit/c4b1a257db3bdde636697d7f22aee6aab7285417) | feat(refs): wire copy card interactions and footer | [bob-cli-7k.4](bob-cli-7k.4.md) | 2026-10-14 11:02:14 EDT |
+| bob-mac-capture | [`bob-mac-capture@9b70c62`](https://github.com/bobs-org/bob-mac-capture/commit/9b70c629cea5a8d138f768bbbf3e5a92ef5cd574) | feat(refs): add H highlight picker layer | [bob-cli-7k.5](bob-cli-7k.5.md) | 2026-10-14 11:24:01 EDT |
