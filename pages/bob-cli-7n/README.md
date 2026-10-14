@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-7n
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.4g.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.4g.linker.w1.md) · **Assignee:** `bob-cli-7n.land`
-**Created:** 2026-10-14 11:27:20 EDT
+**Created:** 2026-10-14 11:27:20 EDT · **Closed:** 2026-10-14 15:54:27 EDT
 **Plan:** [202610/capture\_star\_blocks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_star_blocks.md)
 
 <!-- sase:links:start -->
@@ -25,6 +25,30 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 `bob capture` and Bob Mac Capture accept `*note:block-id`, which makes the captured (or explicitly selected) task a prerequisite of an existing open task. The edge is written to the blocked task's Depends-On line. That task's live Task Links under today's open Pomodoros are consumed by identity, with any notes under them kept. A Pomodoro entry is deleted only when this capture emptied it, and every removal is visible in the preview before submit.
 
+## Notes
+
+[2026-10-14T19:20:56Z · bob-cli-7n.land] LANDING TRIAGE (bob-cli-7n.land). Follow-ups not caused by the epic:
+(1) bob-cli-7n.7 PROPOSED FOLLOW-UP (typecheck-tests.sh needs an explicit macOS SDK path) duplicates bob-cli-7o; +1 recorded with the 7n.7 evidence.
+(2) The flaky lib test native::highlights_ref::fetch::tests::curl_passes_q_as_first_argument (ETXTBSY under the full just check; 3/3 isolated reruns pass) duplicates bob-cli-5l; +1 recorded.
+(3) bob-mac-capture CI is red at f2a5cb5 only in Refs tests. RefsInspectorScrollTests duplicates bob-cli-7h (+1 recorded). The RefsPanelModelTests.testQueuedDigitCopiesWhenTheShowLoaderReturns failure, followed by an xctest 'Index out of range' crash that started at bob-cli-7k's 24e4bc5, is new: filed as bob-cli-7p (ci, large).
+(4) Plan §8 deferred reconcile/task_complete-retirement/bob-plugins consumption parity: filed as bob-cli-7q (feature, large), linked to bob-cli-7l.
+Declined: the §8 items auto-linking N into T's slot (design choice; decisions:unblocked-tasks-are-offered), a picker key that flips &↔* (an unrequested wish with no evidence of need), and keeping the soft-block drop on later link gestures (intended per decisions:capture-link-drops-blocking-deps). The Obsidian reverse Blocks… stage is already bob-cli-3p. The prerequisite status_symbol in dependency_update showing the pre-transfer lane is existing & behaviour, not caused by this epic, and the human line shows N's final lane.
+Absorbed beads: bob-cli-7l and bob-cli-7m were never closed by their phases; the land agent verified both fixes (1a074c6, 8774e89) and closed them.
+
+[2026-10-14T19:54:27Z · bob-cli-7n.land] Landing repairs closed epic bob-cli-7n.
+
+Phases verified against plan:202610/capture_star_blocks.md and their commits: contract 04a6e84, parse 8774e89, consume 1a074c6, complete 78f1a69, writer 158d6de, execute 1b9d35f, publish 908b3ef, mac bob-mac-capture f2a5cb5.
+
+Absorbed bugs bob-cli-7l and bob-cli-7m were verified and closed by the land agent.
+
+This tale shipped landing repairs 1–9: refuse body-bearing close+*; relocate task_blocks by block ID; emit dependency_updates[] whenever the singular field is set; strip tags/fields/ids from PDL8 kept-notes (flatten only block links); dedupe * targets by identity and print already-blocks with no status arrow; refuse fenced targets only when no unfenced task exists; human-output variants (would-block residents, existing-owner/sub-bullet forms, *-only owner header); forced --task-ref rejections name the typed sigil; * picker treats a missing day file as an empty ledger. Docs (capture.md, completion.md, task-dependencies.md §13.5) and ST/STP tests updated. Decision evidence SHA 158f6de → 158d6de. just check is green (fmt, clippy, full cargo test; no ETXTBSY flake this run).
+
+Integration: since the epic started, the only non-epic bob-cli commit is 0ee788d (docs/ref.md, unrelated); bob-plugins has no commits; bob-mac-capture Refs commits are unrelated.
+
+Mac: just portable-check and the scratch typecheck from bob-cli-7n.7 passed. Mac CI is red only on Refs tests owned by bob-cli-7h and bob-cli-7p.
+
+Follow-up triage is already recorded on this epic (bob-cli-7o/5l/7h +1; bob-cli-7p and bob-cli-7q filed; plan §8 items declined). Epic-symbol list was empty. bob-cli justfile has no symvision recipe; skipped.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -42,7 +66,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-7n: Capture `*` makes the new task block an existing task [in_progress]"]
+    n0["bob-cli-7n: Capture `*` makes the new task block an existing task [closed]"]
     n1["bob-cli-7n.1: Docs contract, grammar, wire names, and vectors [closed]"]
     n2["bob-cli-7n.2: Shared capture consumption by identity, keeping notes, and reported [closed]"]
     n3["bob-cli-7n.3: Two-direction lexer, Markdown guards, and capture-parse wire [closed]"]
@@ -82,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-7n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.6/README.md) | [bob-cli-7n.6](bob-cli-7n.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-7n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.7/README.md) | [bob-cli-7n.7](bob-cli-7n.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-7n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.8/README.md) | [bob-cli-7n.8](bob-cli-7n.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-7n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.land/README.md) | [bob-cli-7n](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-7n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7n.land.md) | [bob-cli-7n](README.md) | 1 |
 
 ## Commits
 
@@ -96,6 +120,7 @@ flowchart TD
 | bob-cli | [`1b9d35f`](https://github.com/bobs-org/bob-cli/commit/1b9d35f206f84c03ca4499d9f78dc69a8b170d78) | feat(capture): execute \* blocked-task captures and report them | [bob-cli-7n.6](bob-cli-7n.6.md) | 2026-10-14 14:06:34 EDT |
 | bob-mac-capture | [`bob-mac-capture@f2a5cb5`](https://github.com/bobs-org/bob-mac-capture/commit/f2a5cb59782f13e5ac3c6deed6bf3bba4e19058d) | feat(capture): add direction-aware Blocks picker to Mac Capture | [bob-cli-7n.7](bob-cli-7n.7.md) | 2026-10-14 14:43:40 EDT |
 | bob-cli | [`908b3ef`](https://github.com/bobs-org/bob-cli/commit/908b3ef544b48f4f9575f9c3b5735c555142cee8) | docs(capture): publish star-blocks decision and examples | [bob-cli-7n.8](bob-cli-7n.8.md) | 2026-10-14 14:55:25 EDT |
+| bob-cli | [`498e5ab`](https://github.com/bobs-org/bob-cli/commit/498e5ab27f07e5dab7675a2cfae095a36e44dbae) | fix(capture): land star-blocks repairs and close the epic | [bob-cli-7n](README.md) | 2026-10-14 15:55:44 EDT |
 
 <!-- sase:referenced-by:start -->
 

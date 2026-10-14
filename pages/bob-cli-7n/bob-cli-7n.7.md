@@ -44,7 +44,9 @@ mac: parameterize the dependency picker by direction for `*`, add span kinds, Ba
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7n.7][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:bob-cli-7n.8][2] | Need the completed Mac phase commit evidence for the decision record | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.8/README.md
 
 <!-- sase:referenced-by:end -->

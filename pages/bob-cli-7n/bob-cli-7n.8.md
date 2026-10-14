@@ -30,3 +30,15 @@ publish: write the capture `*` decision record citing the epic's commits, republ
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`908b3ef`](https://github.com/bobs-org/bob-cli/commit/908b3ef544b48f4f9575f9c3b5735c555142cee8) | docs(capture): publish star-blocks decision and examples | [bob-cli-7n.8](bob-cli-7n.8.md) | 2026-10-14 14:55:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7n.8][1] | Confirm the assigned publish phase closed with verification recorded | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.8/README.md
+
+<!-- sase:referenced-by:end -->
