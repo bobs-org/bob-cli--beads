@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/refs_ctrl_y_copy_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/refs_ctrl_y_copy_card.md
 
 <!-- sase:links:end -->
@@ -32,7 +34,7 @@ In Bob Mac Capture's Refs panel, ⌃Y turns the inspector column into a Copy car
 | [bob-cli-7k.3](bob-cli-7k.3.md) | App building blocks for the Copy card and HUD (not yet wired) | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7k.4](bob-cli-7k.4.md) | Wire ⌃Y, the card lifecycle, hide-on-copy, ⌘K, footer, and README | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7k.5](bob-cli-7k.5.md) | H highlight picker layer | ✓ closed | medium | 2026-10-14 | 1 | 1 |
-| [bob-cli-7k.6](bob-cli-7k.6.md) | ⌥ alternates and the Obsidian link row | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
+| [bob-cli-7k.6](bob-cli-7k.6.md) | ⌥ alternates and the Obsidian link row | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +46,7 @@ flowchart TD
     n3["bob-cli-7k.3: App building blocks for the Copy card and HUD (not yet wired) [closed]"]
     n4["bob-cli-7k.4: Wire ⌃Y, the card lifecycle, hide-on-copy, ⌘K, footer, and README [closed]"]
     n5["bob-cli-7k.5: H highlight picker layer [closed]"]
-    n6["bob-cli-7k.6: ⌥ alternates and the Obsidian link row [in_progress]"]
+    n6["bob-cli-7k.6: ⌥ alternates and the Obsidian link row [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7k.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.3/README.md) | [bob-cli-7k.3](bob-cli-7k.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.4.md) | [bob-cli-7k.4](bob-cli-7k.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md) | [bob-cli-7k.5](bob-cli-7k.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.6/README.md) | [bob-cli-7k.6](bob-cli-7k.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.6.md) | [bob-cli-7k.6](bob-cli-7k.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.land/README.md) | [bob-cli-7k](README.md) | 0 |
 
 ## Commits
@@ -79,3 +81,16 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@7e7d8d6`](https://github.com/bobs-org/bob-mac-capture/commit/7e7d8d628446cda13fa2a903ef2570c5010aa5d1) | feat(refs): add Copy card view, glass HUD, and checked pasteboard | [bob-cli-7k.3](bob-cli-7k.3.md) | 2026-10-14 10:20:24 EDT |
 | bob-mac-capture | [`bob-mac-capture@c4b1a25`](https://github.com/bobs-org/bob-mac-capture/commit/c4b1a257db3bdde636697d7f22aee6aab7285417) | feat(refs): wire copy card interactions and footer | [bob-cli-7k.4](bob-cli-7k.4.md) | 2026-10-14 11:02:14 EDT |
 | bob-mac-capture | [`bob-mac-capture@9b70c62`](https://github.com/bobs-org/bob-mac-capture/commit/9b70c629cea5a8d138f768bbbf3e5a92ef5cd574) | feat(refs): add H highlight picker layer | [bob-cli-7k.5](bob-cli-7k.5.md) | 2026-10-14 11:24:01 EDT |
+| bob-mac-capture | [`bob-mac-capture@2b7b330`](https://github.com/bobs-org/bob-mac-capture/commit/2b7b330e31ddd612a55365e563869891c282a71e) | feat(refs): add Option copy alternates and Obsidian links | [bob-cli-7k.6](bob-cli-7k.6.md) | 2026-10-14 12:53:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7k.5][1] | Need the epic design and remaining phase context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ refs-copy-highlight-picker: drop `-c` from the inspector's ref-show fetch and ad
 ## Dependencies
 
 - **Depends on:** [bob-cli-7k.4](bob-cli-7k.4.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7k.6](bob-cli-7k.6.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7k.6](bob-cli-7k.6.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -33,3 +33,15 @@ refs-copy-highlight-picker: drop `-c` from the inspector's ref-show fetch and ad
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@9b70c62`](https://github.com/bobs-org/bob-mac-capture/commit/9b70c629cea5a8d138f768bbbf3e5a92ef5cd574) | feat(refs): add H highlight picker layer | [bob-cli-7k.5](bob-cli-7k.5.md) | 2026-10-14 11:24:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7k.5][1] | Check whether an earlier agent left remaining work on this phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md
+
+<!-- sase:referenced-by:end -->
