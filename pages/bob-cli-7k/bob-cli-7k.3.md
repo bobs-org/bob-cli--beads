@@ -13,7 +13,7 @@ refs-copy-components: in the app target, add the checked pasteboard write, the s
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7k.2](bob-cli-7k.2.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7k.2](bob-cli-7k.2.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7k.4](bob-cli-7k.4.md) ◐ · ⧖ 2026-10-14
 
 ## Agents
