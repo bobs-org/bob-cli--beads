@@ -21,4 +21,4 @@ complete: add `text`, `note_path`, and status fields to capture-complete's `owne
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.4/README.md) | [bob-cli-7r.4](bob-cli-7r.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-7r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7r.4.md) | [bob-cli-7r.4](bob-cli-7r.4.md) | 0 |

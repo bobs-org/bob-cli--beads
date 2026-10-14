@@ -20,7 +20,7 @@ grammar: in capture_language, accept bare `^route:id` as an owner alias in the l
 ## Dependencies
 
 - **Depends on:** [bob-cli-7r.1](bob-cli-7r.1.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7r.3](bob-cli-7r.3.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7r.3](bob-cli-7r.3.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7r.4](bob-cli-7r.4.md) ◐ · ⧖ 2026-10-14
 
 ## Agents
@@ -34,3 +34,15 @@ grammar: in capture_language, accept bare `^route:id` as an owner alias in the l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`785d4ea`](https://github.com/bobs-org/bob-cli/commit/785d4ea17d7ded1218ca26602bc333f2fce24d5e) | feat(capture): accept ^route:id owners and + selectors beside &/\* | [bob-cli-7r.2](bob-cli-7r.2.md) | 2026-10-14 17:12:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7r.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.2/README.md
+
+<!-- sase:referenced-by:end -->

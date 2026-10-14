@@ -13,7 +13,7 @@ mac_preview: give `task_dependency` items an owner header. Render one `⛓`/`�
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7r.3](bob-cli-7r.3.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7r.3](bob-cli-7r.3.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [bob-cli-7r.5](bob-cli-7r.5.md) ◐ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7r.7](bob-cli-7r.7.md) ◐ · ⧖ 2026-10-14
 
