@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7k.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.4.md) | [bob-cli-7k.4](bob-cli-7k.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md) | [bob-cli-7k.5](bob-cli-7k.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.6.md) | [bob-cli-7k.6](bob-cli-7k.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.land.md) | [bob-cli-7k](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-7k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.land.md) | [bob-cli-7k](README.md) | 2 |
 
 ## Commits
 
@@ -91,6 +91,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@9b70c62`](https://github.com/bobs-org/bob-mac-capture/commit/9b70c629cea5a8d138f768bbbf3e5a92ef5cd574) | feat(refs): add H highlight picker layer | [bob-cli-7k.5](bob-cli-7k.5.md) | 2026-10-14 11:24:01 EDT |
 | bob-mac-capture | [`bob-mac-capture@2b7b330`](https://github.com/bobs-org/bob-mac-capture/commit/2b7b330e31ddd612a55365e563869891c282a71e) | feat(refs): add Option copy alternates and Obsidian links | [bob-cli-7k.6](bob-cli-7k.6.md) | 2026-10-14 12:53:23 EDT |
 | bob-cli | [`0ee788d`](https://github.com/bobs-org/bob-cli/commit/0ee788d09ac5ee1670a31e8942035e3b08265052) | docs(refs): clarify copied card marker IDs | [bob-cli-7k](README.md) | 2026-10-14 13:43:58 EDT |
+| bob-mac-capture | [`bob-mac-capture@24e4bc5`](https://github.com/bobs-org/bob-mac-capture/commit/24e4bc5f62c0b1b9453b53bed9afa716e6ec4d6b) | fix(refs): repair copy card landing behavior | [bob-cli-7k](README.md) | 2026-10-14 13:44:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
