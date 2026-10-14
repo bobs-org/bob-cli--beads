@@ -19,7 +19,7 @@ contract: write the docs/capture.md section for relating existing tasks. It cove
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7r.2](bob-cli-7r.2.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7r.2](bob-cli-7r.2.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -32,3 +32,15 @@ contract: write the docs/capture.md section for relating existing tasks. It cove
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2f67276`](https://github.com/bobs-org/bob-cli/commit/2f67276206ad70015380e7cadcb86cc020a76fd7) | docs(capture): document existing task relationships | [bob-cli-7r.1](bob-cli-7r.1.md) | 2026-10-14 16:31:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7r.1][1] | Check for prior phase work and recorded remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.1/README.md
+
+<!-- sase:referenced-by:end -->

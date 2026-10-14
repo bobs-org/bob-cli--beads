@@ -13,7 +13,7 @@ complete: add `text`, `note_path`, and status fields to capture-complete's `owne
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7r.2](bob-cli-7r.2.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7r.2](bob-cli-7r.2.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7r.5](bob-cli-7r.5.md) ◐ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7r.7](bob-cli-7r.7.md) ◐ · ⧖ 2026-10-14
 
