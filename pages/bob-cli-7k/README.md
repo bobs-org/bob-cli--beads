@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/refs_ctrl_y_copy_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/refs_ctrl_y_copy_card.md
 
@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7k.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.4.md) | [bob-cli-7k.4](bob-cli-7k.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md) | [bob-cli-7k.5](bob-cli-7k.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.6.md) | [bob-cli-7k.6](bob-cli-7k.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.land.md) | [bob-cli-7k](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-7k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.land.md) | [bob-cli-7k](README.md) | 3 |
 
 ## Commits
 
@@ -92,6 +92,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@2b7b330`](https://github.com/bobs-org/bob-mac-capture/commit/2b7b330e31ddd612a55365e563869891c282a71e) | feat(refs): add Option copy alternates and Obsidian links | [bob-cli-7k.6](bob-cli-7k.6.md) | 2026-10-14 12:53:23 EDT |
 | bob-cli | [`0ee788d`](https://github.com/bobs-org/bob-cli/commit/0ee788d09ac5ee1670a31e8942035e3b08265052) | docs(refs): clarify copied card marker IDs | [bob-cli-7k](README.md) | 2026-10-14 13:43:58 EDT |
 | bob-mac-capture | [`bob-mac-capture@24e4bc5`](https://github.com/bobs-org/bob-mac-capture/commit/24e4bc5f62c0b1b9453b53bed9afa716e6ec4d6b) | fix(refs): repair copy card landing behavior | [bob-cli-7k](README.md) | 2026-10-14 13:44:52 EDT |
+| bob-cli--plans | [`bob-cli--plans@4264de6`](https://github.com/bobs-org/bob-cli--plans/commit/4264de663dbc71f1bc157a5b8d162eacb572a486) | docs(plans): mark refs copy card fixes complete | [bob-cli-7k](README.md) | 2026-10-14 13:45:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -100,7 +101,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-7k.5][1] | Need the epic design and remaining phase context | 1 |
+| read-by | [agent:bob-cli-7k.land--1][2] | Confirm the completed closeout and recorded verification before final reporting | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7k.land.md
 
 <!-- sase:referenced-by:end -->
