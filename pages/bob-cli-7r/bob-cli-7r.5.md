@@ -13,7 +13,7 @@ mac_pickers: give the `&`/`*` picker headers the owner's name and direction, fix
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7r.4](bob-cli-7r.4.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7r.4](bob-cli-7r.4.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7r.6](bob-cli-7r.6.md) ◐ · ⧖ 2026-10-14
 
 ## Agents

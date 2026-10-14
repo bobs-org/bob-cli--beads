@@ -34,3 +34,15 @@ execute: route inherited `@@route+id` relationship-only items through the depend
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2b884f5`](https://github.com/bobs-org/bob-cli/commit/2b884f5d82807fd2cc80a4994e8f54145943433e) | feat(capture): execute existing-owner relationships and CLI layout | [bob-cli-7r.3](bob-cli-7r.3.md) | 2026-10-14 17:46:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7r.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.3/README.md
+
+<!-- sase:referenced-by:end -->

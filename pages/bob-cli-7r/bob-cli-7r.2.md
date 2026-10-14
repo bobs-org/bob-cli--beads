@@ -21,7 +21,7 @@ grammar: in capture_language, accept bare `^route:id` as an owner alias in the l
 
 - **Depends on:** [bob-cli-7r.1](bob-cli-7r.1.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7r.3](bob-cli-7r.3.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7r.4](bob-cli-7r.4.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7r.4](bob-cli-7r.4.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
