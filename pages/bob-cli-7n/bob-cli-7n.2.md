@@ -20,4 +20,4 @@ consume: make every capture consumption path match Task Links by identity, keep 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-7n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.2/README.md) | [bob-cli-7n.2](bob-cli-7n.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-7n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7n.2.md) | [bob-cli-7n.2](bob-cli-7n.2.md) | 0 |

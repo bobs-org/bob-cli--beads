@@ -18,7 +18,7 @@ contract: write the `*` grammar, consumption amendments (PDL8–PDL11), wire fie
 ## Dependencies
 
 - **Blocks:** [bob-cli-7n.2](bob-cli-7n.2.md) ◐ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7n.3](bob-cli-7n.3.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7n.3](bob-cli-7n.3.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -31,3 +31,15 @@ contract: write the `*` grammar, consumption amendments (PDL8–PDL11), wire fie
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`04a6e84`](https://github.com/bobs-org/bob-cli/commit/04a6e84a38fcdd0811eda86258e78cef7781ff99) | docs(capture): contract star-blocks existing-task grammar | [bob-cli-7n.1](bob-cli-7n.1.md) | 2026-10-14 11:50:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7n.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.1/README.md
+
+<!-- sase:referenced-by:end -->

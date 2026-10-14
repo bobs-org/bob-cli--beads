@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/capture_star_blocks.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_star_blocks.md
 
 <!-- sase:links:end -->
@@ -29,7 +31,7 @@
 |---|---|---|---|---|---:|---:|
 | [bob-cli-7n.1](bob-cli-7n.1.md) | Docs contract, grammar, wire names, and vectors | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7n.2](bob-cli-7n.2.md) | Shared capture consumption by identity, keeping notes, and reported | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
-| [bob-cli-7n.3](bob-cli-7n.3.md) | Two-direction lexer, Markdown guards, and capture-parse wire | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
+| [bob-cli-7n.3](bob-cli-7n.3.md) | Two-direction lexer, Markdown guards, and capture-parse wire | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7n.4](bob-cli-7n.4.md) | Path-addressed existing-dependent writer with star guards | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
 | [bob-cli-7n.5](bob-cli-7n.5.md) | Blocked-task completion pool and capture-task-id replacement | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
 | [bob-cli-7n.6](bob-cli-7n.6.md) | Execute \`\*\` captures and report them | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
@@ -43,7 +45,7 @@ flowchart TD
     n0["bob-cli-7n: Capture `*` makes the new task block an existing task [in_progress]"]
     n1["bob-cli-7n.1: Docs contract, grammar, wire names, and vectors [closed]"]
     n2["bob-cli-7n.2: Shared capture consumption by identity, keeping notes, and reported [in_progress]"]
-    n3["bob-cli-7n.3: Two-direction lexer, Markdown guards, and capture-parse wire [in_progress]"]
+    n3["bob-cli-7n.3: Two-direction lexer, Markdown guards, and capture-parse wire [closed]"]
     n4["bob-cli-7n.4: Path-addressed existing-dependent writer with star guards [in_progress]"]
     n5["bob-cli-7n.5: Blocked-task completion pool and capture-task-id replacement [in_progress]"]
     n6["bob-cli-7n.6: Execute `*` captures and report them [in_progress]"]
@@ -73,8 +75,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-7n.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.1/README.md) | [bob-cli-7n.1](bob-cli-7n.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-7n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.2/README.md) | [bob-cli-7n.2](bob-cli-7n.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-7n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.3/README.md) | [bob-cli-7n.3](bob-cli-7n.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-7n.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7n.2.md) | [bob-cli-7n.2](bob-cli-7n.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-7n.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7n.3.md) | [bob-cli-7n.3](bob-cli-7n.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-7n.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.4/README.md) | [bob-cli-7n.4](bob-cli-7n.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-7n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.5/README.md) | [bob-cli-7n.5](bob-cli-7n.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-7n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.6/README.md) | [bob-cli-7n.6](bob-cli-7n.6.md) | 0 |
@@ -87,3 +89,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`04a6e84`](https://github.com/bobs-org/bob-cli/commit/04a6e84a38fcdd0811eda86258e78cef7781ff99) | docs(capture): contract star-blocks existing-task grammar | [bob-cli-7n.1](bob-cli-7n.1.md) | 2026-10-14 11:50:51 EDT |
+| bob-cli | [`8774e89`](https://github.com/bobs-org/bob-cli/commit/8774e89f0e4fd0d77793699711b57c7f0c38befe) | feat(capture): parse blocked task capture links | [bob-cli-7n.3](bob-cli-7n.3.md) | 2026-10-14 12:23:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7n.1][1] | Need epic scope, remaining notes, and full DECISIONS | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.1/README.md
+
+<!-- sase:referenced-by:end -->

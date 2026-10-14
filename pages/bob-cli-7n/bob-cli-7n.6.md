@@ -13,7 +13,7 @@ execute: wire parsed blocked_tasks into new-task, sub-bullet, dependency-only, a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7n.3](bob-cli-7n.3.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7n.3](bob-cli-7n.3.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [bob-cli-7n.4](bob-cli-7n.4.md) ◐ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7n.7](bob-cli-7n.7.md) ◐ · ⧖ 2026-10-14
 

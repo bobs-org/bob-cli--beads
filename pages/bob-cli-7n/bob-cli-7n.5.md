@@ -13,7 +13,7 @@ complete: add the blocked_task completion context with an open-editable pool ran
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7n.3](bob-cli-7n.3.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7n.3](bob-cli-7n.3.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7n.7](bob-cli-7n.7.md) ◐ · ⧖ 2026-10-14
 
 ## Agents
