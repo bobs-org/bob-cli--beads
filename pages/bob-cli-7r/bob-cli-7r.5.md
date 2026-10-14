@@ -20,7 +20,7 @@ mac_pickers: give the `&`/`*` picker headers the owner's name and direction, fix
 ## Dependencies
 
 - **Depends on:** [bob-cli-7r.4](bob-cli-7r.4.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7r.6](bob-cli-7r.6.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7r.6](bob-cli-7r.6.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -33,3 +33,15 @@ mac_pickers: give the `&`/`*` picker headers the owner's name and direction, fix
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e41dee2`](https://github.com/bobs-org/bob-mac-capture/commit/e41dee2dc25b6048449edacaaf92250d15aca98e) | feat(capture): add owner-aware pickers and a calm dependency hint | [bob-cli-7r.5](bob-cli-7r.5.md) | 2026-10-14 18:23:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7r.5][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.5/README.md
+
+<!-- sase:referenced-by:end -->
