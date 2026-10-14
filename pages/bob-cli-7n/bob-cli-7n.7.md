@@ -23,7 +23,7 @@ mac: parameterize the dependency picker by direction for `*`, add span kinds, Ba
 
 - **Depends on:** [bob-cli-7n.5](bob-cli-7n.5.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [bob-cli-7n.6](bob-cli-7n.6.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7n.8](bob-cli-7n.8.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7n.8](bob-cli-7n.8.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -36,3 +36,15 @@ mac: parameterize the dependency picker by direction for `*`, add span kinds, Ba
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@f2a5cb5`](https://github.com/bobs-org/bob-mac-capture/commit/f2a5cb59782f13e5ac3c6deed6bf3bba4e19058d) | feat(capture): add direction-aware Blocks picker to Mac Capture | [bob-cli-7n.7](bob-cli-7n.7.md) | 2026-10-14 14:43:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7n.7][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.7/README.md
+
+<!-- sase:referenced-by:end -->

@@ -36,7 +36,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-7n.5](bob-cli-7n.5.md) | Blocked-task completion pool and capture-task-id replacement | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7n.6](bob-cli-7n.6.md) | Execute \`\*\` captures and report them | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7n.7](bob-cli-7n.7.md) | Bob Mac Capture direction-aware picker and blocks preview | ✓ closed | medium | 2026-10-14 | 1 | 1 |
-| [bob-cli-7n.8](bob-cli-7n.8.md) | Decision record and final docs sweep | ◐ in_progress | small | 2026-10-14 | 1 | 0 |
+| [bob-cli-7n.8](bob-cli-7n.8.md) | Decision record and final docs sweep | ✓ closed | small | 2026-10-14 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n5["bob-cli-7n.5: Blocked-task completion pool and capture-task-id replacement [closed]"]
     n6["bob-cli-7n.6: Execute `*` captures and report them [closed]"]
     n7["bob-cli-7n.7: Bob Mac Capture direction-aware picker and blocks preview [closed]"]
-    n8["bob-cli-7n.8: Decision record and final docs sweep [in_progress]"]
+    n8["bob-cli-7n.8: Decision record and final docs sweep [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-7n.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7n.5.md) | [bob-cli-7n.5](bob-cli-7n.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-7n.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.6/README.md) | [bob-cli-7n.6](bob-cli-7n.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-7n.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.7/README.md) | [bob-cli-7n.7](bob-cli-7n.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-7n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.8/README.md) | [bob-cli-7n.8](bob-cli-7n.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-7n.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.8/README.md) | [bob-cli-7n.8](bob-cli-7n.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-7n.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.land/README.md) | [bob-cli-7n](README.md) | 0 |
 
 ## Commits
@@ -95,6 +95,7 @@ flowchart TD
 | bob-cli | [`158d6de`](https://github.com/bobs-org/bob-cli/commit/158d6dec448d7b6c5f63b00986a315012fd0742e) | feat(capture): add path-addressed star dependent writer | [bob-cli-7n.4](bob-cli-7n.4.md) | 2026-10-14 13:24:15 EDT |
 | bob-cli | [`1b9d35f`](https://github.com/bobs-org/bob-cli/commit/1b9d35f206f84c03ca4499d9f78dc69a8b170d78) | feat(capture): execute \* blocked-task captures and report them | [bob-cli-7n.6](bob-cli-7n.6.md) | 2026-10-14 14:06:34 EDT |
 | bob-mac-capture | [`bob-mac-capture@f2a5cb5`](https://github.com/bobs-org/bob-mac-capture/commit/f2a5cb59782f13e5ac3c6deed6bf3bba4e19058d) | feat(capture): add direction-aware Blocks picker to Mac Capture | [bob-cli-7n.7](bob-cli-7n.7.md) | 2026-10-14 14:43:40 EDT |
+| bob-cli | [`908b3ef`](https://github.com/bobs-org/bob-cli/commit/908b3ef544b48f4f9575f9c3b5735c555142cee8) | docs(capture): publish star-blocks decision and examples | [bob-cli-7n.8](bob-cli-7n.8.md) | 2026-10-14 14:55:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
