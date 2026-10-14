@@ -17,7 +17,7 @@ contract: write the `*` grammar, consumption amendments (PDL8–PDL11), wire fie
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7n.2](bob-cli-7n.2.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7n.2](bob-cli-7n.2.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7n.3](bob-cli-7n.3.md) ✓ · ⧖ 2026-10-14
 
 ## Agents

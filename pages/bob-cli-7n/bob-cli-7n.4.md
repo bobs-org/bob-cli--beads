@@ -13,7 +13,7 @@ writer: address the existing-dependent writer by vault path plus block ID, add t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7n.2](bob-cli-7n.2.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7n.2](bob-cli-7n.2.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7n.6](bob-cli-7n.6.md) ◐ · ⧖ 2026-10-14
 
 ## Agents
