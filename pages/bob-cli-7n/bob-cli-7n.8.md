@@ -13,7 +13,7 @@ publish: write the capture `*` decision record citing the epic's commits, republ
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7n.7](bob-cli-7n.7.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7n.7](bob-cli-7n.7.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 

@@ -19,7 +19,7 @@ execute: wire parsed blocked_tasks into new-task, sub-bullet, dependency-only, a
 
 - **Depends on:** [bob-cli-7n.3](bob-cli-7n.3.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [bob-cli-7n.4](bob-cli-7n.4.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7n.7](bob-cli-7n.7.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7n.7](bob-cli-7n.7.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -32,3 +32,15 @@ execute: wire parsed blocked_tasks into new-task, sub-bullet, dependency-only, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1b9d35f`](https://github.com/bobs-org/bob-cli/commit/1b9d35f206f84c03ca4499d9f78dc69a8b170d78) | feat(capture): execute \* blocked-task captures and report them | [bob-cli-7n.6](bob-cli-7n.6.md) | 2026-10-14 14:06:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7n.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7n.6/README.md
+
+<!-- sase:referenced-by:end -->
