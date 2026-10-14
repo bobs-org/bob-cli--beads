@@ -31,7 +31,7 @@ In `bob capture` and Bob Mac Capture, an existing task named with `@route+block-
 | [bob-cli-7r.2](bob-cli-7r.2.md) | Owner grammar, \`^route:id\` alias, \`+\` selector with modifiers, agreeing refusals | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7r.3](bob-cli-7r.3.md) | Reliable existing-owner execution and the relationship CLI layout | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7r.4](bob-cli-7r.4.md) | Owner-aware completion wire and guarded owner pickers | ✓ closed | medium | 2026-10-14 | 1 | 1 |
-| [bob-cli-7r.5](bob-cli-7r.5.md) | Bob Mac Capture owner-aware pickers and the calm owner hint | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
+| [bob-cli-7r.5](bob-cli-7r.5.md) | Bob Mac Capture owner-aware pickers and the calm owner hint | ✓ closed | medium | 2026-10-14 | 1 | 1 |
 | [bob-cli-7r.6](bob-cli-7r.6.md) | Bob Mac Capture relationship preview rows, owner header, and notifications | ◐ in_progress | medium | 2026-10-14 | 1 | 0 |
 | [bob-cli-7r.7](bob-cli-7r.7.md) | Final docs sweep, end-to-end verification, optional decision record | ◐ in_progress | small | 2026-10-14 | 1 | 0 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["bob-cli-7r.2: Owner grammar, `^route:id` alias, `+` selector with modifiers, agreeing refusals [closed]"]
     n3["bob-cli-7r.3: Reliable existing-owner execution and the relationship CLI layout [closed]"]
     n4["bob-cli-7r.4: Owner-aware completion wire and guarded owner pickers [closed]"]
-    n5["bob-cli-7r.5: Bob Mac Capture owner-aware pickers and the calm owner hint [in_progress]"]
+    n5["bob-cli-7r.5: Bob Mac Capture owner-aware pickers and the calm owner hint [closed]"]
     n6["bob-cli-7r.6: Bob Mac Capture relationship preview rows, owner header, and notifications [in_progress]"]
     n7["bob-cli-7r.7: Final docs sweep, end-to-end verification, optional decision record [in_progress]"]
     n0 --> n1
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-7r.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.2/README.md) | [bob-cli-7r.2](bob-cli-7r.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-7r.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.3/README.md) | [bob-cli-7r.3](bob-cli-7r.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-7r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7r.4.md) | [bob-cli-7r.4](bob-cli-7r.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-7r.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.5/README.md) | [bob-cli-7r.5](bob-cli-7r.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-7r.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.5/README.md) | [bob-cli-7r.5](bob-cli-7r.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-7r.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.6/README.md) | [bob-cli-7r.6](bob-cli-7r.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-7r.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.7/README.md) | [bob-cli-7r.7](bob-cli-7r.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-7r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.land/README.md) | [bob-cli-7r](README.md) | 0 |
@@ -86,3 +86,4 @@ flowchart TD
 | bob-cli | [`785d4ea`](https://github.com/bobs-org/bob-cli/commit/785d4ea17d7ded1218ca26602bc333f2fce24d5e) | feat(capture): accept ^route:id owners and + selectors beside &/\* | [bob-cli-7r.2](bob-cli-7r.2.md) | 2026-10-14 17:12:54 EDT |
 | bob-cli | [`2b884f5`](https://github.com/bobs-org/bob-cli/commit/2b884f5d82807fd2cc80a4994e8f54145943433e) | feat(capture): execute existing-owner relationships and CLI layout | [bob-cli-7r.3](bob-cli-7r.3.md) | 2026-10-14 17:46:16 EDT |
 | bob-cli | [`5a31133`](https://github.com/bobs-org/bob-cli/commit/5a3113354bd86b4e9e1b73512547d2d1db4bb7ed) | feat(capture): add owner-aware completion and guarded pickers | [bob-cli-7r.4](bob-cli-7r.4.md) | 2026-10-14 17:51:25 EDT |
+| bob-mac-capture | [`bob-mac-capture@e41dee2`](https://github.com/bobs-org/bob-mac-capture/commit/e41dee2dc25b6048449edacaaf92250d15aca98e) | feat(capture): add owner-aware pickers and a calm dependency hint | [bob-cli-7r.5](bob-cli-7r.5.md) | 2026-10-14 18:23:46 EDT |
