@@ -13,7 +13,7 @@ refs-copy-highlight-picker: drop `-c` from the inspector's ref-show fetch and ad
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7k.4](bob-cli-7k.4.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7k.4](bob-cli-7k.4.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7k.6](bob-cli-7k.6.md) ◐ · ⧖ 2026-10-14
 
 ## Agents

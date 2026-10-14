@@ -20,7 +20,7 @@ refs-copy-components: in the app target, add the checked pasteboard write, the s
 ## Dependencies
 
 - **Depends on:** [bob-cli-7k.2](bob-cli-7k.2.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7k.4](bob-cli-7k.4.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7k.4](bob-cli-7k.4.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -33,3 +33,15 @@ refs-copy-components: in the app target, add the checked pasteboard write, the s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@7e7d8d6`](https://github.com/bobs-org/bob-mac-capture/commit/7e7d8d628446cda13fa2a903ef2570c5010aa5d1) | feat(refs): add Copy card view, glass HUD, and checked pasteboard | [bob-cli-7k.3](bob-cli-7k.3.md) | 2026-10-14 10:20:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7k.3][1] | Need notes, remaining work, and close-out evidence | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -17,7 +17,7 @@ bob-marker-id: make `bob ref list/show/find` JSON rows carry the frontmatter `id
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7k.4](bob-cli-7k.4.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7k.4](bob-cli-7k.4.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
