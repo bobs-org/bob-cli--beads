@@ -31,3 +31,15 @@ consume: make every capture consumption path match Task Links by identity, keep 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1a074c6`](https://github.com/bobs-org/bob-cli/commit/1a074c6f6aa742b9cead32d8088af477c559bfd8) | fix(capture): consume blocked task links by identity | [bob-cli-7n.2](bob-cli-7n.2.md) | 2026-10-14 12:29:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7n.2--1][1] | Need the phase scope, recorded notes, and epic decisions before completing and closing it | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7n.2.md
+
+<!-- sase:referenced-by:end -->
