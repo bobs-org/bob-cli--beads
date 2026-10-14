@@ -14,7 +14,7 @@ refs-copy-integration: route ⌃Y and every card key, own the card lifecycle in 
 ## Dependencies
 
 - **Depends on:** [bob-cli-7k.1](bob-cli-7k.1.md) ✓ · ⧖ 2026-10-14
-- **Depends on:** [bob-cli-7k.3](bob-cli-7k.3.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7k.3](bob-cli-7k.3.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7k.5](bob-cli-7k.5.md) ◐ · ⧖ 2026-10-14
 
 ## Agents

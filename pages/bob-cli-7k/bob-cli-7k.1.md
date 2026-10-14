@@ -23,7 +23,13 @@ bob-marker-id: make `bob ref list/show/find` JSON rows carry the frontmatter `id
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-7k.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.1/README.md) | [bob-cli-7k.1](bob-cli-7k.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7k.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.1/README.md) | [bob-cli-7k.1](bob-cli-7k.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`e7e98d2`](https://github.com/bobs-org/bob-cli/commit/e7e98d2e49e6c9b034e864dbbc263ffa0dbabf48) | feat(ref): expose marker ids in JSON | [bob-cli-7k.1](bob-cli-7k.1.md) | 2026-10-14 09:39:35 EDT |
 
 <!-- sase:referenced-by:start -->
 

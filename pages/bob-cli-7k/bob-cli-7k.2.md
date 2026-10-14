@@ -17,7 +17,7 @@ refs-copy-core: in bob-mac-capture's portable RefsCore, decode marker_id, resear
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7k.3](bob-cli-7k.3.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7k.3](bob-cli-7k.3.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -30,3 +30,15 @@ refs-copy-core: in bob-mac-capture's portable RefsCore, decode marker_id, resear
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@060d77b`](https://github.com/bobs-org/bob-mac-capture/commit/060d77b41a79df7b529c9085f184b76928c0cbbb) | feat(refs-core): implement copy catalog and card state machine | [bob-cli-7k.2](bob-cli-7k.2.md) | 2026-10-14 09:50:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7k.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7k.2/README.md
+
+<!-- sase:referenced-by:end -->
