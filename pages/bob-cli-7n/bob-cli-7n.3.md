@@ -19,7 +19,7 @@ parse: generalize the `&` scanner to a Blocks direction with the `*` Markdown gu
 
 - **Depends on:** [bob-cli-7n.1](bob-cli-7n.1.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7n.5](bob-cli-7n.5.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7n.6](bob-cli-7n.6.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7n.6](bob-cli-7n.6.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 

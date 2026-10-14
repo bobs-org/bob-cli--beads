@@ -14,7 +14,7 @@ mac: parameterize the dependency picker by direction for `*`, add span kinds, Ba
 ## Dependencies
 
 - **Depends on:** [bob-cli-7n.5](bob-cli-7n.5.md) ✓ · ⧖ 2026-10-14
-- **Depends on:** [bob-cli-7n.6](bob-cli-7n.6.md) ◐ · ⧖ 2026-10-14
+- **Depends on:** [bob-cli-7n.6](bob-cli-7n.6.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7n.8](bob-cli-7n.8.md) ◐ · ⧖ 2026-10-14
 
 ## Agents
