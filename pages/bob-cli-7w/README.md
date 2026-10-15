@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.3/README.md) | [bob-cli-7w.3](bob-cli-7w.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.4.md) | [bob-cli-7w.4](bob-cli-7w.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.5.md) | [bob-cli-7w.5](bob-cli-7w.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.land.md) | [bob-cli-7w](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-7w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.land.md) | [bob-cli-7w](README.md) | 2 |
 
 ## Commits
 
@@ -91,3 +91,4 @@ flowchart TD
 | bob-cli | [`3f2b775`](https://github.com/bobs-org/bob-cli/commit/3f2b775a1d52eba29c2300ea96e6ae2ab9c33db0) | feat(capture-complete): gate template drafts in completion and rewrite | [bob-cli-7w.4](bob-cli-7w.4.md) | 2026-10-15 16:24:58 EDT |
 | bob-mac-capture | [`bob-mac-capture@e959476`](https://github.com/bobs-org/bob-mac-capture/commit/e959476fba87df548c3734f0c94311cd419fa5a9) | feat(capture): present bulk templates in Mac Capture | [bob-cli-7w.5](bob-cli-7w.5.md) | 2026-10-15 17:07:35 EDT |
 | bob-cli | [`0b1bc54`](https://github.com/bobs-org/bob-cli/commit/0b1bc5416a866f8c234022117c2747d1312c6b1b) | feat(capture): finish bulk template landing gaps A1-A8 | [bob-cli-7w](README.md) | 2026-10-15 18:21:34 EDT |
+| bob-mac-capture | [`bob-mac-capture@de43948`](https://github.com/bobs-org/bob-mac-capture/commit/de43948cbc3f3c48774ecfd3735674f11ab82102) | feat(mac-capture): template landing B1-B6 | [bob-cli-7w](README.md) | 2026-10-15 18:22:10 EDT |
