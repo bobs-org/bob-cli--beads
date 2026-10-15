@@ -17,7 +17,7 @@ dedupe: record one dedupe source per item of a list-valued source_url/url in ref
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7v.4](bob-cli-7v.4.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7v.4](bob-cli-7v.4.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

@@ -17,7 +17,7 @@ naming: add a network-free module implementing the slug-word naming rule with it
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7v.4](bob-cli-7v.4.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7v.4](bob-cli-7v.4.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -30,3 +30,15 @@ naming: add a network-free module implementing the slug-word naming rule with it
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`63ec1ca`](https://github.com/bobs-org/bob-cli/commit/63ec1ca5f138da48c3e244a4745006ad272ecf6f) | feat(ref): add collection naming and metadata rules | [bob-cli-7v.2](bob-cli-7v.2.md) | 2026-10-15 12:57:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7v.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.2.md
+
+<!-- sase:referenced-by:end -->

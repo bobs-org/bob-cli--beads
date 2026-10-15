@@ -30,3 +30,15 @@ adapter: let capture skip printing, add a compose op that typesets ordered artic
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e104962`](https://github.com/bobs-org/bob-cli/commit/e10496251059137f53dece8f98543e24d5fae283) | feat(web-clip): add render:false capture and collection compose | [bob-cli-7v.3](bob-cli-7v.3.md) | 2026-10-15 12:58:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7v.3][1] | Need notes, remaining work, and design file path | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.3/README.md
+
+<!-- sase:referenced-by:end -->
