@@ -20,7 +20,7 @@ parse: teach `capture-parse` template drafts through the masked copy, with place
 ## Dependencies
 
 - **Depends on:** [bob-cli-7w.2](bob-cli-7w.2.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7w.4](bob-cli-7w.4.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7w.4](bob-cli-7w.4.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
@@ -34,3 +34,15 @@ parse: teach `capture-parse` template drafts through the masked copy, with place
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8408562`](https://github.com/bobs-org/bob-cli/commit/840856213a7eca8b6e64443eabf8159cc22d0899) | feat(capture-parse): support template drafts | [bob-cli-7w.3](bob-cli-7w.3.md) | 2026-10-15 15:57:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7w.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.3/README.md
+
+<!-- sase:referenced-by:end -->
