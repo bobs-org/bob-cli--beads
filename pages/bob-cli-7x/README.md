@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7x.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.6.md) | [bob-cli-7x.6](bob-cli-7x.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7x.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.7.md) | [bob-cli-7x.7](bob-cli-7x.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-7x.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.8.md) | [bob-cli-7x.8](bob-cli-7x.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.land.md) | [bob-cli-7x](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-7x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.land.md) | [bob-cli-7x](README.md) | 2 |
 
 ## Commits
 
@@ -105,6 +105,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@da2d0ef`](https://github.com/bobs-org/bob-mac-capture/commit/da2d0efdaa4b6c2c357b8ca8a6030163ca406b9a) | feat(refs): add Bob Refs rename support | [bob-cli-7x.7](bob-cli-7x.7.md) | 2026-10-15 17:55:55 EDT |
 | bob-mac-capture | [`bob-mac-capture@9ac536c`](https://github.com/bobs-org/bob-mac-capture/commit/9ac536c8a968bb0d5aa8a56687929c3ff8b52bf0) | feat(refs): add the Bob Refs rename card | [bob-cli-7x.8](bob-cli-7x.8.md) | 2026-10-15 18:49:18 EDT |
 | bob-cli | [`a041abd`](https://github.com/bobs-org/bob-cli/commit/a041abdb1bb2f19f7f69d304922c12c7005e1765) | fix(ref-rename): land bob-cli-7x follow-ups, title stems, help, clippy | [bob-cli-7x](README.md) | 2026-10-15 19:41:26 EDT |
+| bob-mac-capture | [`bob-mac-capture@e095347`](https://github.com/bobs-org/bob-mac-capture/commit/e095347eb0c336511813bd2a3f369dd16fbccd45) | fix(refs): rename-card landing fixes, one-shot invalidation, fixtures | [bob-cli-7x](README.md) | 2026-10-15 19:42:03 EDT |
 
 <!-- sase:referenced-by:start -->
 
