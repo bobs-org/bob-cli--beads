@@ -13,7 +13,7 @@ rename-write: in bob-cli, take bob_sync.lock then the scan lock, pre-sync, re-pl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7x.3](bob-cli-7x.3.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7x.3](bob-cli-7x.3.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7x.5](bob-cli-7x.5.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7x.6](bob-cli-7x.6.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7x.8](bob-cli-7x.8.md) ◐ · ⧖ 2026-10-15

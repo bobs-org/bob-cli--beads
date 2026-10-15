@@ -17,7 +17,7 @@ rename-links: in bob-cli, a pure module that, given old→new vault paths for a 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7x.3](bob-cli-7x.3.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7x.3](bob-cli-7x.3.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -30,3 +30,15 @@ rename-links: in bob-cli, a pure module that, given old→new vault paths for a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`66c0dcd`](https://github.com/bobs-org/bob-cli/commit/66c0dcdc9e85ba01f808da6edb7b1508f2e9ffd6) | feat(ref-rename): plan inbound vault link rewrites | [bob-cli-7x.2](bob-cli-7x.2.md) | 2026-10-15 15:56:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7x.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.2.md
+
+<!-- sase:referenced-by:end -->
