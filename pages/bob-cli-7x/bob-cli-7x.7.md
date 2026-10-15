@@ -20,4 +20,4 @@ mac-rename-core: in bob-mac-capture RefsCore, decode the ref rename report, add 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-7x.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.7/README.md) | [bob-cli-7x.7](bob-cli-7x.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7x.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.7.md) | [bob-cli-7x.7](bob-cli-7x.7.md) | 0 |

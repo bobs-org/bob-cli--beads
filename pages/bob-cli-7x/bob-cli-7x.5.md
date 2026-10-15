@@ -13,7 +13,7 @@ obsidian-guard: in bob-plugins bob-navigation-hotkeys, refuse rename-current-fil
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7x.4](bob-cli-7x.4.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7x.4](bob-cli-7x.4.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

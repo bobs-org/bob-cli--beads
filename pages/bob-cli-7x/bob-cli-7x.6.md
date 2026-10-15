@@ -13,7 +13,7 @@ acceptance: prepare a scratch-vault script that renames a PDF while it is open i
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7x.4](bob-cli-7x.4.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7x.4](bob-cli-7x.4.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7x.8](bob-cli-7x.8.md) ◐ · ⧖ 2026-10-15
 
 ## Agents

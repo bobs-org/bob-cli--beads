@@ -13,7 +13,7 @@ mac-rename-card: in bob-mac-capture, route ⌘⇧R and a ⌘K Rename… item to 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7x.4](bob-cli-7x.4.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7x.4](bob-cli-7x.4.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-7x.6](bob-cli-7x.6.md) ◐ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-7x.7](bob-cli-7x.7.md) ◐ · ⧖ 2026-10-15
 

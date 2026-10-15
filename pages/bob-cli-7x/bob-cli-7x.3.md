@@ -18,7 +18,7 @@ rename-plan: in bob-cli, register `bob ref rename` in the Library help group wit
 ## Dependencies
 
 - **Depends on:** [bob-cli-7x.2](bob-cli-7x.2.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7x.4](bob-cli-7x.4.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7x.4](bob-cli-7x.4.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7x.7](bob-cli-7x.7.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
@@ -32,3 +32,15 @@ rename-plan: in bob-cli, register `bob ref rename` in the Library help group wit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f732097`](https://github.com/bobs-org/bob-cli/commit/f732097c99668cc009294a76d1fa89cd6ea92ae9) | feat(ref): add reference rename planning | [bob-cli-7x.3](bob-cli-7x.3.md) | 2026-10-15 16:48:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7x.3--3][1] | Need the phase scope and design file before closing after verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.3.md
+
+<!-- sase:referenced-by:end -->
