@@ -32,3 +32,15 @@ mac-rename-card: in bob-mac-capture, route ⌘⇧R and a ⌘K Rename… item to 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@9ac536c`](https://github.com/bobs-org/bob-mac-capture/commit/9ac536c8a968bb0d5aa8a56687929c3ff8b52bf0) | feat(refs): add the Bob Refs rename card | [bob-cli-7x.8](bob-cli-7x.8.md) | 2026-10-15 18:49:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7x.8--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.8.md
+
+<!-- sase:referenced-by:end -->
