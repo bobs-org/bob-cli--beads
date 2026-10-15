@@ -7,6 +7,20 @@
 **Created:** 2026-10-15 12:30:28 EDT · **Closed:** 2026-10-15 15:06:41 EDT
 **Plan:** [202610/ref\_create\_multi\_url\_collections.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_multi_url_collections.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-7y][1] | bob-cli-7v.7's live Squarespace collection verification timed out in the browser with no -H replay fallback |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-7y/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 docs: document several-URL collections in the create, clip, and ref docs, run a live end-to-end check in a scratch vault on athena, and record follow-ups (plus the optional decisions strand).
@@ -32,3 +46,15 @@ docs: document several-URL collections in the create, clip, and ref docs, run a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dad02a2`](https://github.com/bobs-org/bob-cli/commit/dad02a2f6e308ca8492759a967e17658d140f6b4) | docs(ref): document multi-url collections | [bob-cli-7v.7](bob-cli-7v.7.md) | 2026-10-15 15:07:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7v.7--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.7.md
+
+<!-- sase:referenced-by:end -->
