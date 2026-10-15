@@ -36,3 +36,15 @@ mac: decode the additive template fields and present them in Bob Mac Capture: sl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e959476`](https://github.com/bobs-org/bob-mac-capture/commit/e959476fba87df548c3734f0c94311cd419fa5a9) | feat(capture): present bulk templates in Mac Capture | [bob-cli-7w.5](bob-cli-7w.5.md) | 2026-10-15 17:07:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7w.5--4][1] | Need the phase scope, design file, and prior notes before final review | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.5.md
+
+<!-- sase:referenced-by:end -->
