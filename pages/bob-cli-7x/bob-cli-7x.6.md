@@ -20,4 +20,4 @@ acceptance: prepare a scratch-vault script that renames a PDF while it is open i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-7x.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.6/README.md) | [bob-cli-7x.6](bob-cli-7x.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7x.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.6.md) | [bob-cli-7x.6](bob-cli-7x.6.md) | 0 |
