@@ -13,7 +13,7 @@ parse: teach `capture-parse` template drafts through the masked copy, with place
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7w.2](bob-cli-7w.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7w.2](bob-cli-7w.2.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7w.4](bob-cli-7w.4.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ◐ · ⧖ 2026-10-15
 

@@ -32,7 +32,7 @@ A draft that starts with `@@template:` captures one item per row from a `{0}`-st
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-7w.1](bob-cli-7w.1.md) | Template language core and bob capture -E | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [bob-cli-7w.2](bob-cli-7w.2.md) | Template execution in bob capture | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [bob-cli-7w.2](bob-cli-7w.2.md) | Template execution in bob capture | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7w.3](bob-cli-7w.3.md) | Template-aware capture-parse | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [bob-cli-7w.4](bob-cli-7w.4.md) | Template-aware completion and rewrite | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
 | [bob-cli-7w.5](bob-cli-7w.5.md) | Bob Mac Capture template presentation | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
@@ -43,7 +43,7 @@ A draft that starts with `@@template:` captures one item per row from a `{0}`-st
 flowchart TD
     n0["bob-cli-7w: Bulk capture templates (@@template:) [in_progress]"]
     n1["bob-cli-7w.1: Template language core and bob capture -E [closed]"]
-    n2["bob-cli-7w.2: Template execution in bob capture [in_progress]"]
+    n2["bob-cli-7w.2: Template execution in bob capture [closed]"]
     n3["bob-cli-7w.3: Template-aware capture-parse [in_progress]"]
     n4["bob-cli-7w.4: Template-aware completion and rewrite [in_progress]"]
     n5["bob-cli-7w.5: Bob Mac Capture template presentation [in_progress]"]
@@ -65,7 +65,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-7w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.1.md) | [bob-cli-7w.1](bob-cli-7w.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.2/README.md) | [bob-cli-7w.2](bob-cli-7w.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.2.md) | [bob-cli-7w.2](bob-cli-7w.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.3/README.md) | [bob-cli-7w.3](bob-cli-7w.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.4/README.md) | [bob-cli-7w.4](bob-cli-7w.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.5/README.md) | [bob-cli-7w.5](bob-cli-7w.5.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`946c9b7`](https://github.com/bobs-org/bob-cli/commit/946c9b7d166a16a24868b9929a8e552563d5ed78) | feat(capture): add template language and expansion CLI | [bob-cli-7w.1](bob-cli-7w.1.md) | 2026-10-15 14:45:00 EDT |
+| bob-cli | [`8f0baa7`](https://github.com/bobs-org/bob-cli/commit/8f0baa7653714d71ed34f0399efd8a654e0cfc96) | feat(capture): execute bulk templates through planner | [bob-cli-7w.2](bob-cli-7w.2.md) | 2026-10-15 15:26:50 EDT |

@@ -13,7 +13,7 @@ mac: decode the additive template fields and present them in Bob Mac Capture: sl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7w.2](bob-cli-7w.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7w.2](bob-cli-7w.2.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-7w.3](bob-cli-7w.3.md) ◐ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-7w.4](bob-cli-7w.4.md) ◐ · ⧖ 2026-10-15
 

@@ -19,7 +19,7 @@ language: add the pure template module (framing, placeholders, row lexer, expans
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7w.2](bob-cli-7w.2.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7w.2](bob-cli-7w.2.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -32,3 +32,15 @@ language: add the pure template module (framing, placeholders, row lexer, expans
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`946c9b7`](https://github.com/bobs-org/bob-cli/commit/946c9b7d166a16a24868b9929a8e552563d5ed78) | feat(capture): add template language and expansion CLI | [bob-cli-7w.1](bob-cli-7w.1.md) | 2026-10-15 14:45:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7w.1--1][1] | Confirm the assigned phase bead closed after verification | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.1.md
+
+<!-- sase:referenced-by:end -->
