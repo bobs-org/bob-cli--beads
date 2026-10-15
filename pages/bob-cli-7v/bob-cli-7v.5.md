@@ -13,7 +13,7 @@ route: replace the stub with the all-or-nothing pipeline (per-part classificatio
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7v.3](bob-cli-7v.3.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7v.3](bob-cli-7v.3.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-7v.4](bob-cli-7v.4.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7v.6](bob-cli-7v.6.md) ◐ · ⧖ 2026-10-15
 

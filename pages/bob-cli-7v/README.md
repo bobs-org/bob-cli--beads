@@ -29,7 +29,7 @@
 |---|---|---|---|---|---:|---:|
 | [bob-cli-7v.1](bob-cli-7v.1.md) | List-aware import dedupe for source\_url and url lists | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [bob-cli-7v.2](bob-cli-7v.2.md) | Pure collection naming and metadata rules | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [bob-cli-7v.3](bob-cli-7v.3.md) | Adapter render:false capture, compose op, and the collection layout | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [bob-cli-7v.3](bob-cli-7v.3.md) | Adapter render:false capture, compose op, and the collection layout | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7v.4](bob-cli-7v.4.md) | Variadic TARGET, fail-fast validation, and collection overlap policy | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [bob-cli-7v.5](bob-cli-7v.5.md) | Collection route - classify, capture, compose, stamp, install, report | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [bob-cli-7v.6](bob-cli-7v.6.md) | Narrate and attach collections with --listen | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
@@ -42,7 +42,7 @@ flowchart TD
     n0["bob-cli-7v: Several URLs, one reference: multi-URL bob ref create collections [in_progress]"]
     n1["bob-cli-7v.1: List-aware import dedupe for source_url and url lists [closed]"]
     n2["bob-cli-7v.2: Pure collection naming and metadata rules [closed]"]
-    n3["bob-cli-7v.3: Adapter render:false capture, compose op, and the collection layout [in_progress]"]
+    n3["bob-cli-7v.3: Adapter render:false capture, compose op, and the collection layout [closed]"]
     n4["bob-cli-7v.4: Variadic TARGET, fail-fast validation, and collection overlap policy [in_progress]"]
     n5["bob-cli-7v.5: Collection route - classify, capture, compose, stamp, install, report [in_progress]"]
     n6["bob-cli-7v.6: Narrate and attach collections with --listen [in_progress]"]
@@ -68,7 +68,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-7v.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.1/README.md) | [bob-cli-7v.1](bob-cli-7v.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.2.md) | [bob-cli-7v.2](bob-cli-7v.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-7v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.3/README.md) | [bob-cli-7v.3](bob-cli-7v.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-7v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.3/README.md) | [bob-cli-7v.3](bob-cli-7v.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.4/README.md) | [bob-cli-7v.4](bob-cli-7v.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-7v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.5/README.md) | [bob-cli-7v.5](bob-cli-7v.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-7v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.6/README.md) | [bob-cli-7v.6](bob-cli-7v.6.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`47e85f6`](https://github.com/bobs-org/bob-cli/commit/47e85f65e00dc953c25416b475b21fe0ee4bea92) | feat(ref): dedupe list-valued source URLs | [bob-cli-7v.1](bob-cli-7v.1.md) | 2026-10-15 12:39:19 EDT |
 | bob-cli | [`63ec1ca`](https://github.com/bobs-org/bob-cli/commit/63ec1ca5f138da48c3e244a4745006ad272ecf6f) | feat(ref): add collection naming and metadata rules | [bob-cli-7v.2](bob-cli-7v.2.md) | 2026-10-15 12:57:34 EDT |
+| bob-cli | [`e104962`](https://github.com/bobs-org/bob-cli/commit/e10496251059137f53dece8f98543e24d5fae283) | feat(web-clip): add render:false capture and collection compose | [bob-cli-7v.3](bob-cli-7v.3.md) | 2026-10-15 12:58:59 EDT |
