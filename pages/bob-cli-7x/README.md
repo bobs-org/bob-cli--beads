@@ -36,7 +36,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-7x.5](bob-cli-7x.5.md) | Guard Obsidian rename-current-file for managed ref notes | ✓ closed | small | 2026-10-15 | 1 | 0 |
 | [bob-cli-7x.6](bob-cli-7x.6.md) | Highlights-open acceptance test and the gist rename | ✓ closed | small | 2026-10-15 | 1 | 1 |
 | [bob-cli-7x.7](bob-cli-7x.7.md) | RefsCore rename contract, fetcher, stores, and card state | ✓ closed | medium | 2026-10-15 | 1 | 2 |
-| [bob-cli-7x.8](bob-cli-7x.8.md) | Bob Refs ⌘⇧R rename card | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [bob-cli-7x.8](bob-cli-7x.8.md) | Bob Refs ⌘⇧R rename card | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n5["bob-cli-7x.5: Guard Obsidian rename-current-file for managed ref notes [closed]"]
     n6["bob-cli-7x.6: Highlights-open acceptance test and the gist rename [closed]"]
     n7["bob-cli-7x.7: RefsCore rename contract, fetcher, stores, and card state [closed]"]
-    n8["bob-cli-7x.8: Bob Refs ⌘⇧R rename card [in_progress]"]
+    n8["bob-cli-7x.8: Bob Refs ⌘⇧R rename card [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.5/README.md) | [bob-cli-7x.5](bob-cli-7x.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7x.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.6.md) | [bob-cli-7x.6](bob-cli-7x.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7x.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.7.md) | [bob-cli-7x.7](bob-cli-7x.7.md) | 2 |
-| [bbugyi200.apollo.bob-cli-7x.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.8/README.md) | [bob-cli-7x.8](bob-cli-7x.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7x.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.8.md) | [bob-cli-7x.8](bob-cli-7x.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.land/README.md) | [bob-cli-7x](README.md) | 0 |
 
 ## Commits
@@ -94,6 +94,7 @@ flowchart TD
 | bob-cli | [`eb0dca8`](https://github.com/bobs-org/bob-cli/commit/eb0dca8e2b911c2a7b030b7a68342916772e8215) | docs(ref): record Highlights-open acceptance PASS for bob ref rename | [bob-cli-7x.6](bob-cli-7x.6.md) | 2026-10-15 17:37:17 EDT |
 | bob-cli | [`8a3c561`](https://github.com/bobs-org/bob-cli/commit/8a3c5613393c5ec253c3f6ae3d5f0bec51ab3948) | docs(refs): record rename identity decision | [bob-cli-7x.7](bob-cli-7x.7.md) | 2026-10-15 17:45:59 EDT |
 | bob-mac-capture | [`bob-mac-capture@da2d0ef`](https://github.com/bobs-org/bob-mac-capture/commit/da2d0efdaa4b6c2c357b8ca8a6030163ca406b9a) | feat(refs): add Bob Refs rename support | [bob-cli-7x.7](bob-cli-7x.7.md) | 2026-10-15 17:55:55 EDT |
+| bob-mac-capture | [`bob-mac-capture@9ac536c`](https://github.com/bobs-org/bob-mac-capture/commit/9ac536c8a968bb0d5aa8a56687929c3ff8b52bf0) | feat(refs): add the Bob Refs rename card | [bob-cli-7x.8](bob-cli-7x.8.md) | 2026-10-15 18:49:18 EDT |
 
 <!-- sase:referenced-by:start -->
 

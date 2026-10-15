@@ -18,7 +18,7 @@ mac-rename-core: in bob-mac-capture RefsCore, decode the ref rename report, add 
 ## Dependencies
 
 - **Depends on:** [bob-cli-7x.3](bob-cli-7x.3.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7x.8](bob-cli-7x.8.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7x.8](bob-cli-7x.8.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
