@@ -20,7 +20,7 @@ complete: gate `capture-complete` and `capture-rewrite` for template drafts, off
 ## Dependencies
 
 - **Depends on:** [bob-cli-7w.3](bob-cli-7w.3.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -33,3 +33,15 @@ complete: gate `capture-complete` and `capture-rewrite` for template drafts, off
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3f2b775`](https://github.com/bobs-org/bob-cli/commit/3f2b775a1d52eba29c2300ea96e6ae2ab9c33db0) | feat(capture-complete): gate template drafts in completion and rewrite | [bob-cli-7w.4](bob-cli-7w.4.md) | 2026-10-15 16:24:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7w.4--2][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.4.md
+
+<!-- sase:referenced-by:end -->

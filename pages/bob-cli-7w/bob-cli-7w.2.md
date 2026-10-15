@@ -21,7 +21,7 @@ execution: run template drafts through the unchanged planner as N instances, wit
 
 - **Depends on:** [bob-cli-7w.1](bob-cli-7w.1.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7w.3](bob-cli-7w.3.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

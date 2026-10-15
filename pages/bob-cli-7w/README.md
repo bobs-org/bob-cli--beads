@@ -35,7 +35,7 @@ A draft that starts with `@@template:` captures one item per row from a `{0}`-st
 | [bob-cli-7w.2](bob-cli-7w.2.md) | Template execution in bob capture | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7w.3](bob-cli-7w.3.md) | Template-aware capture-parse | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7w.4](bob-cli-7w.4.md) | Template-aware completion and rewrite | ✓ closed | small | 2026-10-15 | 1 | 1 |
-| [bob-cli-7w.5](bob-cli-7w.5.md) | Bob Mac Capture template presentation | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [bob-cli-7w.5](bob-cli-7w.5.md) | Bob Mac Capture template presentation | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n2["bob-cli-7w.2: Template execution in bob capture [closed]"]
     n3["bob-cli-7w.3: Template-aware capture-parse [closed]"]
     n4["bob-cli-7w.4: Template-aware completion and rewrite [closed]"]
-    n5["bob-cli-7w.5: Bob Mac Capture template presentation [in_progress]"]
+    n5["bob-cli-7w.5: Bob Mac Capture template presentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-7w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.2.md) | [bob-cli-7w.2](bob-cli-7w.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.3/README.md) | [bob-cli-7w.3](bob-cli-7w.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.4.md) | [bob-cli-7w.4](bob-cli-7w.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.5/README.md) | [bob-cli-7w.5](bob-cli-7w.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.5.md) | [bob-cli-7w.5](bob-cli-7w.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7w.land/README.md) | [bob-cli-7w](README.md) | 0 |
 
 ## Commits
@@ -79,3 +79,4 @@ flowchart TD
 | bob-cli | [`8f0baa7`](https://github.com/bobs-org/bob-cli/commit/8f0baa7653714d71ed34f0399efd8a654e0cfc96) | feat(capture): execute bulk templates through planner | [bob-cli-7w.2](bob-cli-7w.2.md) | 2026-10-15 15:26:50 EDT |
 | bob-cli | [`8408562`](https://github.com/bobs-org/bob-cli/commit/840856213a7eca8b6e64443eabf8159cc22d0899) | feat(capture-parse): support template drafts | [bob-cli-7w.3](bob-cli-7w.3.md) | 2026-10-15 15:57:59 EDT |
 | bob-cli | [`3f2b775`](https://github.com/bobs-org/bob-cli/commit/3f2b775a1d52eba29c2300ea96e6ae2ab9c33db0) | feat(capture-complete): gate template drafts in completion and rewrite | [bob-cli-7w.4](bob-cli-7w.4.md) | 2026-10-15 16:24:58 EDT |
+| bob-mac-capture | [`bob-mac-capture@e959476`](https://github.com/bobs-org/bob-mac-capture/commit/e959476fba87df548c3734f0c94311cd419fa5a9) | feat(capture): present bulk templates in Mac Capture | [bob-cli-7w.5](bob-cli-7w.5.md) | 2026-10-15 17:07:35 EDT |
