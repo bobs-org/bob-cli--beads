@@ -23,10 +23,16 @@ obsidian-guard: in bob-plugins bob-navigation-hotkeys, refuse rename-current-fil
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-7x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.5/README.md) | [bob-cli-7x.5](bob-cli-7x.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-7x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.5/README.md) | [bob-cli-7x.5](bob-cli-7x.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@13dbb3d`](https://github.com/bobs-org/bob-plugins/commit/13dbb3d7c5f5e014d9e8286ab12cce767ff79b2b) | feat(bob-navigation-hotkeys): guard managed reference renames | [bob-cli-7x.5](bob-cli-7x.5.md) | 2026-10-15 17:29:43 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7x.5][1] | Check prior phase notes before planning implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.5/README.md
+
+<!-- sase:referenced-by:end -->
