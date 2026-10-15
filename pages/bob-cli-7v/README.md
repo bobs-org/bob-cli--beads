@@ -33,7 +33,7 @@
 | [bob-cli-7v.4](bob-cli-7v.4.md) | Variadic TARGET, fail-fast validation, and collection overlap policy | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7v.5](bob-cli-7v.5.md) | Collection route - classify, capture, compose, stamp, install, report | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7v.6](bob-cli-7v.6.md) | Narrate and attach collections with --listen | ✓ closed | small | 2026-10-15 | 1 | 1 |
-| [bob-cli-7v.7](bob-cli-7v.7.md) | Docs, live verification, and follow-ups | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
+| [bob-cli-7v.7](bob-cli-7v.7.md) | Docs, live verification, and follow-ups | ✓ closed | small | 2026-10-15 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n4["bob-cli-7v.4: Variadic TARGET, fail-fast validation, and collection overlap policy [closed]"]
     n5["bob-cli-7v.5: Collection route - classify, capture, compose, stamp, install, report [closed]"]
     n6["bob-cli-7v.6: Narrate and attach collections with --listen [closed]"]
-    n7["bob-cli-7v.7: Docs, live verification, and follow-ups [in_progress]"]
+    n7["bob-cli-7v.7: Docs, live verification, and follow-ups [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-7v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.4/README.md) | [bob-cli-7v.4](bob-cli-7v.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.5.md) | [bob-cli-7v.5](bob-cli-7v.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.6.md) | [bob-cli-7v.6](bob-cli-7v.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-7v.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.7/README.md) | [bob-cli-7v.7](bob-cli-7v.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-7v.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.7.md) | [bob-cli-7v.7](bob-cli-7v.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.land/README.md) | [bob-cli-7v](README.md) | 0 |
 
 ## Commits
@@ -85,3 +85,4 @@ flowchart TD
 | bob-cli | [`5feaaac`](https://github.com/bobs-org/bob-cli/commit/5feaaac1a322b5756d3469464d866ca85a89bcae) | feat(highlights-ref): add multi-url collection gate | [bob-cli-7v.4](bob-cli-7v.4.md) | 2026-10-15 13:22:20 EDT |
 | bob-cli | [`9bdb0bd`](https://github.com/bobs-org/bob-cli/commit/9bdb0bd9eadbb0382f06f5815ebc51019e94ae9a) | feat(highlights-ref): wire the multi-url collection capture pipeline | [bob-cli-7v.5](bob-cli-7v.5.md) | 2026-10-15 13:57:29 EDT |
 | bob-cli | [`f596bf3`](https://github.com/bobs-org/bob-cli/commit/f596bf33154e1c0440820aab46c91b92357799a7) | feat(ref): add collection listen and attach support | [bob-cli-7v.6](bob-cli-7v.6.md) | 2026-10-15 14:41:57 EDT |
+| bob-cli | [`dad02a2`](https://github.com/bobs-org/bob-cli/commit/dad02a2f6e308ca8492759a967e17658d140f6b4) | docs(ref): document multi-url collections | [bob-cli-7v.7](bob-cli-7v.7.md) | 2026-10-15 15:07:15 EDT |

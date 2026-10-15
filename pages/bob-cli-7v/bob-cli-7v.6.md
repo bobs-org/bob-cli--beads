@@ -18,7 +18,7 @@ listen: support -L for collections by narrating the staged collection PDF before
 ## Dependencies
 
 - **Depends on:** [bob-cli-7v.5](bob-cli-7v.5.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7v.7](bob-cli-7v.7.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7v.7](bob-cli-7v.7.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -31,3 +31,15 @@ listen: support -L for collections by narrating the staged collection PDF before
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f596bf3`](https://github.com/bobs-org/bob-cli/commit/f596bf33154e1c0440820aab46c91b92357799a7) | feat(ref): add collection listen and attach support | [bob-cli-7v.6](bob-cli-7v.6.md) | 2026-10-15 14:41:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7v.6--4][1] | Need the phase scope, design file, and prior work notes before finalizing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.6.md
+
+<!-- sase:referenced-by:end -->
