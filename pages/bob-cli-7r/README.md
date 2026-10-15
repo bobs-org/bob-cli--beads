@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-7r.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7r.5/README.md) | [bob-cli-7r.5](bob-cli-7r.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-7r.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7r.6.md) | [bob-cli-7r.6](bob-cli-7r.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-7r.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7r.7.md) | [bob-cli-7r.7](bob-cli-7r.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-7r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7r.land.md) | [bob-cli-7r](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-7r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7r.land.md) | [bob-cli-7r](README.md) | 2 |
 
 ## Commits
 
@@ -118,6 +118,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@e5b2ef3`](https://github.com/bobs-org/bob-mac-capture/commit/e5b2ef309916d09ab9967853a94982fc8b2853d5) | feat(mac-capture): add relationship-aware task previews | [bob-cli-7r.6](bob-cli-7r.6.md) | 2026-10-14 19:54:30 EDT |
 | bob-cli | [`75a1809`](https://github.com/bobs-org/bob-cli/commit/75a180967746f23fcf22f40b5da0b8c43d2b1aad) | docs(capture): align RXC1 owner JSON and cover RX8 execute | [bob-cli-7r.7](bob-cli-7r.7.md) | 2026-10-14 20:18:31 EDT |
 | bob-cli | [`14505e5`](https://github.com/bobs-org/bob-cli/commit/14505e5751dc4fea1c15e8ed87add9c89ceb574b) | fix(capture): land remaining existing-owner relationship defects (A1-A7) | [bob-cli-7r](README.md) | 2026-10-14 21:24:13 EDT |
+| bob-mac-capture | [`bob-mac-capture@ac0172e`](https://github.com/bobs-org/bob-mac-capture/commit/ac0172e89a5ba5e7be98f7584be1002054be906c) | fix(capture): align relationship preview with per-prereq already/status (B1-B4) | [bob-cli-7r](README.md) | 2026-10-14 21:25:10 EDT |
 
 <!-- sase:referenced-by:start -->
 
