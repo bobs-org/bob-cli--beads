@@ -19,7 +19,7 @@ route: replace the stub with the all-or-nothing pipeline (per-part classificatio
 
 - **Depends on:** [bob-cli-7v.3](bob-cli-7v.3.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-7v.4](bob-cli-7v.4.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7v.6](bob-cli-7v.6.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7v.6](bob-cli-7v.6.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -32,3 +32,15 @@ route: replace the stub with the all-or-nothing pipeline (per-part classificatio
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9bdb0bd`](https://github.com/bobs-org/bob-cli/commit/9bdb0bd9eadbb0382f06f5815ebc51019e94ae9a) | feat(highlights-ref): wire the multi-url collection capture pipeline | [bob-cli-7v.5](bob-cli-7v.5.md) | 2026-10-15 13:57:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7v.5--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.5.md
+
+<!-- sase:referenced-by:end -->

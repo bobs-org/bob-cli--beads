@@ -13,7 +13,7 @@ docs: document several-URL collections in the create, clip, and ref docs, run a 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7v.6](bob-cli-7v.6.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7v.6](bob-cli-7v.6.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
