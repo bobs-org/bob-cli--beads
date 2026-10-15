@@ -14,7 +14,7 @@ gate: make TARGET variadic, route two or more targets into a new collection modu
 ## Dependencies
 
 - **Depends on:** [bob-cli-7v.1](bob-cli-7v.1.md) ✓ · ⧖ 2026-10-15
-- **Depends on:** [bob-cli-7v.2](bob-cli-7v.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7v.2](bob-cli-7v.2.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7v.5](bob-cli-7v.5.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
