@@ -24,4 +24,10 @@ mac-rename-core: in bob-mac-capture RefsCore, decode the ref rename report, add 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-7x.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.7.md) | [bob-cli-7x.7](bob-cli-7x.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7x.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.7.md) | [bob-cli-7x.7](bob-cli-7x.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`8a3c561`](https://github.com/bobs-org/bob-cli/commit/8a3c5613393c5ec253c3f6ae3d5f0bec51ab3948) | docs(refs): record rename identity decision | [bob-cli-7x.7](bob-cli-7x.7.md) | 2026-10-15 17:45:59 EDT |
