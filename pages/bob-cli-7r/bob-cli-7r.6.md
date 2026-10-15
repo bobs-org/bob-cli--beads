@@ -21,7 +21,7 @@ mac_preview: give `task_dependency` items an owner header. Render one `⛓`/`�
 
 - **Depends on:** [bob-cli-7r.3](bob-cli-7r.3.md) ✓ · ⧖ 2026-10-14
 - **Depends on:** [bob-cli-7r.5](bob-cli-7r.5.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7r.7](bob-cli-7r.7.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7r.7](bob-cli-7r.7.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
@@ -34,3 +34,15 @@ mac_preview: give `task_dependency` items an owner header. Render one `⛓`/`�
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e5b2ef3`](https://github.com/bobs-org/bob-mac-capture/commit/e5b2ef309916d09ab9967853a94982fc8b2853d5) | feat(mac-capture): add relationship-aware task previews | [bob-cli-7r.6](bob-cli-7r.6.md) | 2026-10-14 19:54:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7r.6--8][1] | Verify phase closure and recorded follow-up note | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7r.6.md
+
+<!-- sase:referenced-by:end -->

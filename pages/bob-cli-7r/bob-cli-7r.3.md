@@ -21,7 +21,7 @@ execute: route inherited `@@route+id` relationship-only items through the depend
 
 - **Depends on:** [bob-cli-7r.2](bob-cli-7r.2.md) ✓ · ⧖ 2026-10-14
 - **Blocks:** [bob-cli-7r.6](bob-cli-7r.6.md) ✓ · ⧖ 2026-10-14
-- **Blocks:** [bob-cli-7r.7](bob-cli-7r.7.md) ◐ · ⧖ 2026-10-14
+- **Blocks:** [bob-cli-7r.7](bob-cli-7r.7.md) ✓ · ⧖ 2026-10-14
 
 ## Agents
 
