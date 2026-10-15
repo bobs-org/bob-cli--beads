@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-7v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.5.md) | [bob-cli-7v.5](bob-cli-7v.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.6.md) | [bob-cli-7v.6](bob-cli-7v.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.7.md) | [bob-cli-7v.7](bob-cli-7v.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-7v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.land.md) | [bob-cli-7v](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-7v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.land.md) | [bob-cli-7v](README.md) | 2 |
 
 ## Commits
 
@@ -110,3 +110,4 @@ flowchart TD
 | bob-cli | [`f596bf3`](https://github.com/bobs-org/bob-cli/commit/f596bf33154e1c0440820aab46c91b92357799a7) | feat(ref): add collection listen and attach support | [bob-cli-7v.6](bob-cli-7v.6.md) | 2026-10-15 14:41:57 EDT |
 | bob-cli | [`dad02a2`](https://github.com/bobs-org/bob-cli/commit/dad02a2f6e308ca8492759a967e17658d140f6b4) | docs(ref): document multi-url collections | [bob-cli-7v.7](bob-cli-7v.7.md) | 2026-10-15 15:07:15 EDT |
 | bob-cli | [`ade85d3`](https://github.com/bobs-org/bob-cli/commit/ade85d3c7f8f9fc5e7a35731ec7afba54cd79e65) | feat(ref): land multi-URL collections for bob-cli-7v | [bob-cli-7v](README.md) | 2026-10-15 16:39:03 EDT |
+| bob-cli--plans | [`bob-cli--plans@5a3b4e7`](https://github.com/bobs-org/bob-cli--plans/commit/5a3b4e70672995243c2c54b04a04009b67cbd8f1) | docs(plans): add multi-URL collections creation plan | [bob-cli-7v](README.md) | 2026-10-15 16:40:46 EDT |
