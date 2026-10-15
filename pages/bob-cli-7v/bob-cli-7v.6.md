@@ -13,7 +13,7 @@ listen: support -L for collections by narrating the staged collection PDF before
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7v.5](bob-cli-7v.5.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7v.5](bob-cli-7v.5.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7v.7](bob-cli-7v.7.md) ◐ · ⧖ 2026-10-15
 
 ## Agents

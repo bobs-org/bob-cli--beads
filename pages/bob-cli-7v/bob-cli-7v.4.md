@@ -19,7 +19,7 @@ gate: make TARGET variadic, route two or more targets into a new collection modu
 
 - **Depends on:** [bob-cli-7v.1](bob-cli-7v.1.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-7v.2](bob-cli-7v.2.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7v.5](bob-cli-7v.5.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7v.5](bob-cli-7v.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -32,3 +32,15 @@ gate: make TARGET variadic, route two or more targets into a new collection modu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5feaaac`](https://github.com/bobs-org/bob-cli/commit/5feaaac1a322b5756d3469464d866ca85a89bcae) | feat(highlights-ref): add multi-url collection gate | [bob-cli-7v.4](bob-cli-7v.4.md) | 2026-10-15 13:22:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7v.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.4/README.md
+
+<!-- sase:referenced-by:end -->

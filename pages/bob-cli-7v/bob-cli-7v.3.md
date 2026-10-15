@@ -17,7 +17,7 @@ adapter: let capture skip printing, add a compose op that typesets ordered artic
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-7v.5](bob-cli-7v.5.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7v.5](bob-cli-7v.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

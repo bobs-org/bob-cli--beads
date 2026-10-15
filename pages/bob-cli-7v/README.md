@@ -31,7 +31,7 @@
 | [bob-cli-7v.2](bob-cli-7v.2.md) | Pure collection naming and metadata rules | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7v.3](bob-cli-7v.3.md) | Adapter render:false capture, compose op, and the collection layout | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7v.4](bob-cli-7v.4.md) | Variadic TARGET, fail-fast validation, and collection overlap policy | ✓ closed | medium | 2026-10-15 | 1 | 1 |
-| [bob-cli-7v.5](bob-cli-7v.5.md) | Collection route - classify, capture, compose, stamp, install, report | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [bob-cli-7v.5](bob-cli-7v.5.md) | Collection route - classify, capture, compose, stamp, install, report | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7v.6](bob-cli-7v.6.md) | Narrate and attach collections with --listen | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
 | [bob-cli-7v.7](bob-cli-7v.7.md) | Docs, live verification, and follow-ups | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["bob-cli-7v.2: Pure collection naming and metadata rules [closed]"]
     n3["bob-cli-7v.3: Adapter render:false capture, compose op, and the collection layout [closed]"]
     n4["bob-cli-7v.4: Variadic TARGET, fail-fast validation, and collection overlap policy [closed]"]
-    n5["bob-cli-7v.5: Collection route - classify, capture, compose, stamp, install, report [in_progress]"]
+    n5["bob-cli-7v.5: Collection route - classify, capture, compose, stamp, install, report [closed]"]
     n6["bob-cli-7v.6: Narrate and attach collections with --listen [in_progress]"]
     n7["bob-cli-7v.7: Docs, live verification, and follow-ups [in_progress]"]
     n0 --> n1
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-7v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.2.md) | [bob-cli-7v.2](bob-cli-7v.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.3/README.md) | [bob-cli-7v.3](bob-cli-7v.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.4/README.md) | [bob-cli-7v.4](bob-cli-7v.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-7v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.5/README.md) | [bob-cli-7v.5](bob-cli-7v.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-7v.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-7v.5.md) | [bob-cli-7v.5](bob-cli-7v.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-7v.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.6/README.md) | [bob-cli-7v.6](bob-cli-7v.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-7v.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.7/README.md) | [bob-cli-7v.7](bob-cli-7v.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-7v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-7v.land/README.md) | [bob-cli-7v](README.md) | 0 |
@@ -83,3 +83,4 @@ flowchart TD
 | bob-cli | [`63ec1ca`](https://github.com/bobs-org/bob-cli/commit/63ec1ca5f138da48c3e244a4745006ad272ecf6f) | feat(ref): add collection naming and metadata rules | [bob-cli-7v.2](bob-cli-7v.2.md) | 2026-10-15 12:57:34 EDT |
 | bob-cli | [`e104962`](https://github.com/bobs-org/bob-cli/commit/e10496251059137f53dece8f98543e24d5fae283) | feat(web-clip): add render:false capture and collection compose | [bob-cli-7v.3](bob-cli-7v.3.md) | 2026-10-15 12:58:59 EDT |
 | bob-cli | [`5feaaac`](https://github.com/bobs-org/bob-cli/commit/5feaaac1a322b5756d3469464d866ca85a89bcae) | feat(highlights-ref): add multi-url collection gate | [bob-cli-7v.4](bob-cli-7v.4.md) | 2026-10-15 13:22:20 EDT |
+| bob-cli | [`9bdb0bd`](https://github.com/bobs-org/bob-cli/commit/9bdb0bd9eadbb0382f06f5815ebc51019e94ae9a) | feat(highlights-ref): wire the multi-url collection capture pipeline | [bob-cli-7v.5](bob-cli-7v.5.md) | 2026-10-15 13:57:29 EDT |
