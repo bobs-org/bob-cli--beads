@@ -13,7 +13,7 @@ rename-plan: in bob-cli, register `bob ref rename` in the Library help group wit
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7x.2](bob-cli-7x.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7x.2](bob-cli-7x.2.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7x.4](bob-cli-7x.4.md) ◐ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7x.7](bob-cli-7x.7.md) ◐ · ⧖ 2026-10-15
 

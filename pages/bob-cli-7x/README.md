@@ -7,6 +7,18 @@
 **Created:** 2026-10-15 15:25:59 EDT
 **Plan:** [202610/bob\_ref\_rename.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_ref_rename.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/bob_ref_rename.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_ref_rename.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 `bob ref rename <REF> <NAME>` renames the file stem of a modern, PDF-backed, unannotated reference (note, PDF, sidecar, audio) and rewrites every inbound link in one verified, scoped commit, while keeping its id, ^ref block ID, title, and PDF bytes. Bob Refs gets a ⌘⇧R / ⌘K → Rename… card that calls it. The URL namer stops minting opaque hex stems, and Obsidian's rename-current-file command refuses managed ref notes. The misnamed 442a6bf555914893e9891c11519de94f gist ends up as karpathy_llm_wiki.
@@ -16,7 +28,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-7x.1](bob-cli-7x.1.md) | Stop minting opaque URL stems | ✓ closed | small | 2026-10-15 | 1 | 1 |
-| [bob-cli-7x.2](bob-cli-7x.2.md) | Vault link rewrite engine for a renamed bundle | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
+| [bob-cli-7x.2](bob-cli-7x.2.md) | Vault link rewrite engine for a renamed bundle | ✓ closed | medium | 2026-10-15 | 1 | 1 |
 | [bob-cli-7x.3](bob-cli-7x.3.md) | bob ref rename command, refusals, and dry run | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [bob-cli-7x.4](bob-cli-7x.4.md) | bob ref rename live write flow | ◐ in_progress | medium | 2026-10-15 | 1 | 0 |
 | [bob-cli-7x.5](bob-cli-7x.5.md) | Guard Obsidian rename-current-file for managed ref notes | ◐ in_progress | small | 2026-10-15 | 1 | 0 |
@@ -30,7 +42,7 @@
 flowchart TD
     n0["bob-cli-7x: bob ref rename — rename a reference's files safely, plus a Bob Refs rename card [in_progress]"]
     n1["bob-cli-7x.1: Stop minting opaque URL stems [closed]"]
-    n2["bob-cli-7x.2: Vault link rewrite engine for a renamed bundle [in_progress]"]
+    n2["bob-cli-7x.2: Vault link rewrite engine for a renamed bundle [closed]"]
     n3["bob-cli-7x.3: bob ref rename command, refusals, and dry run [in_progress]"]
     n4["bob-cli-7x.4: bob ref rename live write flow [in_progress]"]
     n5["bob-cli-7x.5: Guard Obsidian rename-current-file for managed ref notes [in_progress]"]
@@ -60,7 +72,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-7x.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.1/README.md) | [bob-cli-7x.1](bob-cli-7x.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-7x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.2/README.md) | [bob-cli-7x.2](bob-cli-7x.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-7x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7x.2.md) | [bob-cli-7x.2](bob-cli-7x.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-7x.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.3/README.md) | [bob-cli-7x.3](bob-cli-7x.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.4/README.md) | [bob-cli-7x.4](bob-cli-7x.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-7x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-7x.5/README.md) | [bob-cli-7x.5](bob-cli-7x.5.md) | 0 |
@@ -74,3 +86,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`04905b3`](https://github.com/bobs-org/bob-cli/commit/04905b3999eaf0fb347cf3126fae645bbb356908) | fix(refs): avoid opaque URL stems | [bob-cli-7x.1](bob-cli-7x.1.md) | 2026-10-15 15:32:03 EDT |
+| bob-cli | [`66c0dcd`](https://github.com/bobs-org/bob-cli/commit/66c0dcdc9e85ba01f808da6edb7b1508f2e9ffd6) | feat(ref-rename): plan inbound vault link rewrites | [bob-cli-7x.2](bob-cli-7x.2.md) | 2026-10-15 15:56:09 EDT |
