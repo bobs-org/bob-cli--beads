@@ -20,7 +20,7 @@ execution: run template drafts through the unchanged planner as N instances, wit
 ## Dependencies
 
 - **Depends on:** [bob-cli-7w.1](bob-cli-7w.1.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-7w.3](bob-cli-7w.3.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-7w.3](bob-cli-7w.3.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
@@ -34,3 +34,15 @@ execution: run template drafts through the unchanged planner as N instances, wit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8f0baa7`](https://github.com/bobs-org/bob-cli/commit/8f0baa7653714d71ed34f0399efd8a654e0cfc96) | feat(capture): execute bulk templates through planner | [bob-cli-7w.2](bob-cli-7w.2.md) | 2026-10-15 15:26:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-7w.2--2][1] | Need the phase scope, design file, and current notes before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-7w.2.md
+
+<!-- sase:referenced-by:end -->

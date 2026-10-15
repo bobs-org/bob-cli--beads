@@ -13,7 +13,7 @@ complete: gate `capture-complete` and `capture-rewrite` for template drafts, off
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-7w.3](bob-cli-7w.3.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-7w.3](bob-cli-7w.3.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-7w.5](bob-cli-7w.5.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
