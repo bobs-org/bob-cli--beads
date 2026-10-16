@@ -20,7 +20,7 @@ plugin: new bob-plugins bob-articles plugin: runtime article class, format on sa
 ## Dependencies
 
 - **Depends on:** [bob-cli-8g.6](bob-cli-8g.6.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8g.9](bob-cli-8g.9.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8g.9](bob-cli-8g.9.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ plugin: new bob-plugins bob-articles plugin: runtime article class, format on sa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7f9d496`](https://github.com/bobs-org/bob-plugins/commit/7f9d496754991b135f374c7cf0d5e571212fc766) | feat(bob-articles): add article formatting plugin | [bob-cli-8g.8](bob-cli-8g.8.md) | 2026-10-16 15:39:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.8--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.8.md
+
+<!-- sase:referenced-by:end -->
