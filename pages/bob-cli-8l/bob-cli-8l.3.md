@@ -18,7 +18,7 @@ close-model: RefsPanelModel gains ⌃D close commands. A close removes the row o
 ## Dependencies
 
 - **Depends on:** [bob-cli-8l.1](bob-cli-8l.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8l.4](bob-cli-8l.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8l.4](bob-cli-8l.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -31,3 +31,15 @@ close-model: RefsPanelModel gains ⌃D close commands. A close removes the row o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@7954c28`](https://github.com/bobs-org/bob-mac-capture/commit/7954c28aec7d25e5a5ba42633a1b2436a3b2f74e) | feat(refs): close Highlights tabs with ⌃D from the panel | [bob-cli-8l.3](bob-cli-8l.3.md) | 2026-10-16 15:18:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8l.3--4][1] | Need phase scope, notes, and close criteria | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8l.3.md
+
+<!-- sase:referenced-by:end -->

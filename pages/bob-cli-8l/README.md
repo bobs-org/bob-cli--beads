@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 In Bob Mac Capture's Bob Refs panel, ⌃D on a Tabs row closes that Highlights tab without leaving the panel. The row folds away, the selection moves to the row that took its place, and a glass toast confirms the close, so ⌃D ⌃D ⌃D clears several tabs in a row. Closing the last open document also quits Highlights. Every close is verified against a fresh Accessibility read, and a failed close puts the row back with a banner.
 
+## Notes
+
+[2026-10-16T19:20:00Z · bryanbugyi34@gmail.com] This keymap should actually be <ctrl+x> instead of <ctrl+d> (which would conflict with the keymap that scrolls down). The epic lander agent should fix this before closing this bead.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,7 +36,7 @@ In Bob Mac Capture's Bob Refs panel, ⌃D on a Tabs row closes that Highlights t
 | [bob-cli-8l.1](bob-cli-8l.1.md) | RefsCore close contracts, session close, and copy | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8l.2](bob-cli-8l.2.md) | Accessibility close ladder and graceful quit | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8l.3](bob-cli-8l.3.md) | Panel close commands, queue, outcomes, keys, and toasts | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [bob-cli-8l.4](bob-cli-8l.4.md) | Row close button, footer, inspector hint, motion, design tests, and README | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-8l.4](bob-cli-8l.4.md) | Row close button, footer, inspector hint, motion, design tests, and README | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +46,7 @@ flowchart TD
     n1["bob-cli-8l.1: RefsCore close contracts, session close, and copy [closed]"]
     n2["bob-cli-8l.2: Accessibility close ladder and graceful quit [closed]"]
     n3["bob-cli-8l.3: Panel close commands, queue, outcomes, keys, and toasts [closed]"]
-    n4["bob-cli-8l.4: Row close button, footer, inspector hint, motion, design tests, and README [in_progress]"]
+    n4["bob-cli-8l.4: Row close button, footer, inspector hint, motion, design tests, and README [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -59,7 +63,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8l.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.1/README.md) | [bob-cli-8l.1](bob-cli-8l.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.2/README.md) | [bob-cli-8l.2](bob-cli-8l.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8l.3.md) | [bob-cli-8l.3](bob-cli-8l.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.4/README.md) | [bob-cli-8l.4](bob-cli-8l.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.4/README.md) | [bob-cli-8l.4](bob-cli-8l.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.land/README.md) | [bob-cli-8l](README.md) | 0 |
 
 ## Commits
@@ -69,6 +73,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@7fd75c8`](https://github.com/bobs-org/bob-mac-capture/commit/7fd75c8835289f92465aaf01c505e932cb4201ab) | feat(refs): add tab-close contracts, session close, and copy | [bob-cli-8l.1](bob-cli-8l.1.md) | 2026-10-16 14:20:54 EDT |
 | bob-mac-capture | [`bob-mac-capture@211c699`](https://github.com/bobs-org/bob-mac-capture/commit/211c6998de6aade5764bd5db1da364fa077cfd38) | feat(refs): add Highlights tab close ladder and graceful quit | [bob-cli-8l.2](bob-cli-8l.2.md) | 2026-10-16 14:49:45 EDT |
 | bob-mac-capture | [`bob-mac-capture@7954c28`](https://github.com/bobs-org/bob-mac-capture/commit/7954c28aec7d25e5a5ba42633a1b2436a3b2f74e) | feat(refs): close Highlights tabs with ⌃D from the panel | [bob-cli-8l.3](bob-cli-8l.3.md) | 2026-10-16 15:18:42 EDT |
+| bob-mac-capture | [`bob-mac-capture@7ee2499`](https://github.com/bobs-org/bob-mac-capture/commit/7ee2499aa77d358f05b5e4a00a91937c925e076c) | feat(refs): add Tabs close button, fold-out, and close copy | [bob-cli-8l.4](bob-cli-8l.4.md) | 2026-10-16 15:39:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
