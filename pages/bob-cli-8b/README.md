@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8b.3.md) | [bob-cli-8b.3](bob-cli-8b.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8b.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8b.4/README.md) | [bob-cli-8b.4](bob-cli-8b.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8b.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8b.5/README.md) | [bob-cli-8b.5](bob-cli-8b.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8b.land.md) | [bob-cli-8b](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-8b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8b.land.md) | [bob-cli-8b](README.md) | 2 |
 
 ## Commits
 
@@ -85,6 +85,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@ee08ca7`](https://github.com/bobs-org/bob-mac-capture/commit/ee08ca7a4f8d7fc88fcd21067b2deab9f97b8b46) | feat(mac-capture): add Control-T saved-template shelf | [bob-cli-8b.4](bob-cli-8b.4.md) | 2026-10-16 11:01:15 EDT |
 | bob-mac-capture | [`bob-mac-capture@6a7046e`](https://github.com/bobs-org/bob-mac-capture/commit/6a7046e226d3a995ffd06b2f6e873678e36a6cde) | feat(saved-templates): implement Mac Capture template checkout | [bob-cli-8b.5](bob-cli-8b.5.md) | 2026-10-16 11:25:25 EDT |
 | bob-cli | [`f2ced0c`](https://github.com/bobs-org/bob-cli/commit/f2ced0c5ae842eb1dc010574d71bef3427e3b73a) | fix(capture-templates): land saved-templates repairs Part A | [bob-cli-8b](README.md) | 2026-10-16 12:26:12 EDT |
+| bob-mac-capture | [`bob-mac-capture@4034e19`](https://github.com/bobs-org/bob-mac-capture/commit/4034e19d6fd411bed6f6ce57b395463d0168e0da) | fix(saved-templates): shelf height expectation and undo window hosting | [bob-cli-8b](README.md) | 2026-10-16 12:26:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
