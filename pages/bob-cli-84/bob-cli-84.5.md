@@ -35,3 +35,15 @@ tabs-views: the Tabs token and "9 tabs" count in the search bar, the In Highligh
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@1b7ead4`](https://github.com/bobs-org/bob-mac-capture/commit/1b7ead440634f9dc67ed7a1be0bfb5469d8b9243) | feat(refs): add Highlights Tabs rendering, keys, and design tests | [bob-cli-84.5](bob-cli-84.5.md) | 2026-10-16 07:43:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-84.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-84.5/README.md
+
+<!-- sase:referenced-by:end -->
