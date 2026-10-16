@@ -13,7 +13,7 @@ inbound: rewrite links from other notes when an article's headings change (CLI w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8g.5](bob-cli-8g.5.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8g.5](bob-cli-8g.5.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8g.7](bob-cli-8g.7.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8g.8](bob-cli-8g.8.md) ◐ · ⧖ 2026-10-16
 

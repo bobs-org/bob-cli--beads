@@ -20,7 +20,7 @@ cli: register the `bob articles` Vault group (bare = list) with format (check, d
 ## Dependencies
 
 - **Depends on:** [bob-cli-8g.2](bob-cli-8g.2.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8g.5](bob-cli-8g.5.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8g.5](bob-cli-8g.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ cli: register the `bob articles` Vault group (bare = list) with format (check, d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ff97c62`](https://github.com/bobs-org/bob-cli/commit/ff97c620d6a15f6a64c46de5e85ae29075a74afb) | feat(articles): add articles vault CLI | [bob-cli-8g.4](bob-cli-8g.4.md) | 2026-10-16 13:28:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.4--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.4.md
+
+<!-- sase:referenced-by:end -->
