@@ -13,7 +13,7 @@ mac-core: decode the shelf protocol in CaptureCore, add BobProcessClient list/sa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8b.2](bob-cli-8b.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8b.2](bob-cli-8b.2.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8b.4](bob-cli-8b.4.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

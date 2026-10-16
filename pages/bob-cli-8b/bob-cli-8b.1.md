@@ -17,7 +17,7 @@ store: add the bob-owned template shelf (canonical block text, content-hash ids,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8b.2](bob-cli-8b.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8b.2](bob-cli-8b.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -30,3 +30,15 @@ store: add the bob-owned template shelf (canonical block text, content-hash ids,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c1b1cef`](https://github.com/bobs-org/bob-cli/commit/c1b1cef9f2749c8a94b0290c4d728fc1797e7e4e) | feat(capture): add bob-owned template shelf with auto-save | [bob-cli-8b.1](bob-cli-8b.1.md) | 2026-10-16 08:48:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8b.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8b.1/README.md
+
+<!-- sase:referenced-by:end -->
