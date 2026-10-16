@@ -32,3 +32,15 @@ close-reader: `AXHighlightsTabsReader` implements `close` and `quitIfNoDocuments
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@211c699`](https://github.com/bobs-org/bob-mac-capture/commit/211c6998de6aade5764bd5db1da364fa077cfd38) | feat(refs): add Highlights tab close ladder and graceful quit | [bob-cli-8l.2](bob-cli-8l.2.md) | 2026-10-16 14:49:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8l.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -18,7 +18,7 @@ close-core: pure Foundation additions to RefsCore. They add the close result and
 ## Dependencies
 
 - **Blocks:** [bob-cli-8l.2](bob-cli-8l.2.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8l.3](bob-cli-8l.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8l.3](bob-cli-8l.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

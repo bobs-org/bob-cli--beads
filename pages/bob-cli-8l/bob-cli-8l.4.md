@@ -13,7 +13,7 @@ close-views: Tabs rows show a quiet close button on hover and selection in a res
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8l.3](bob-cli-8l.3.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8l.3](bob-cli-8l.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
