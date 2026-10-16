@@ -32,3 +32,15 @@ look: scoped article typography, muted tabular section numbers in Live Preview a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5bc2d9d`](https://github.com/bobs-org/bob-plugins/commit/5bc2d9d1676237f2185a90d4e578e4838ca0578d) | feat(bob-articles): add reading look and live section signals | [bob-cli-8g.9](bob-cli-8g.9.md) | 2026-10-16 16:01:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.9][1] | Need phase notes and remaining work from earlier agents | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.9/README.md
+
+<!-- sase:referenced-by:end -->
