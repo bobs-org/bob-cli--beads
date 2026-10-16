@@ -41,7 +41,9 @@ cli: register the `bob articles` Vault group (bare = list) with format (check, d
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-8g.4--2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-8g.5--1][2] | Need the titlesec follow-up wording from the previous phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.5.md
 
 <!-- sase:referenced-by:end -->

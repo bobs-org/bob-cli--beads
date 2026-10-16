@@ -32,7 +32,7 @@ Vault notes typed `[[article]]` get house-style section numbers (1. / 1.1 / 1.1.
 | [bob-cli-8g.3](bob-cli-8g.3.md) | Number-aware capture section selectors in articles | ✓ closed | small | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.4](bob-cli-8g.4.md) | bob articles group with format, list, and outline | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.5](bob-cli-8g.5.md) | bob articles adopt with preview | ✓ closed | small | 2026-10-16 | 1 | 1 |
-| [bob-cli-8g.6](bob-cli-8g.6.md) | Inbound heading links, nightly check, and memory | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-8g.6](bob-cli-8g.6.md) | Inbound heading links, nightly check, and memory | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.7](bob-cli-8g.7.md) | Vault type note, template, base, and first adoption | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
 | [bob-cli-8g.8](bob-cli-8g.8.md) | bob-articles plugin that formats on save and leave | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-8g.9](bob-cli-8g.9.md) | Article reading look and live section signals | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
@@ -47,7 +47,7 @@ flowchart TD
     n3["bob-cli-8g.3: Number-aware capture section selectors in articles [closed]"]
     n4["bob-cli-8g.4: bob articles group with format, list, and outline [closed]"]
     n5["bob-cli-8g.5: bob articles adopt with preview [closed]"]
-    n6["bob-cli-8g.6: Inbound heading links, nightly check, and memory [in_progress]"]
+    n6["bob-cli-8g.6: Inbound heading links, nightly check, and memory [closed]"]
     n7["bob-cli-8g.7: Vault type note, template, base, and first adoption [in_progress]"]
     n8["bob-cli-8g.8: bob-articles plugin that formats on save and leave [in_progress]"]
     n9["bob-cli-8g.9: Article reading look and live section signals [in_progress]"]
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8g.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.3.md) | [bob-cli-8g.3](bob-cli-8g.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.4.md) | [bob-cli-8g.4](bob-cli-8g.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.5.md) | [bob-cli-8g.5](bob-cli-8g.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8g.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.6/README.md) | [bob-cli-8g.6](bob-cli-8g.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8g.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.6/README.md) | [bob-cli-8g.6](bob-cli-8g.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.7/README.md) | [bob-cli-8g.7](bob-cli-8g.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8g.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.8/README.md) | [bob-cli-8g.8](bob-cli-8g.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8g.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.9/README.md) | [bob-cli-8g.9](bob-cli-8g.9.md) | 0 |
@@ -94,3 +94,4 @@ flowchart TD
 | bob-cli | [`280321a`](https://github.com/bobs-org/bob-cli/commit/280321a33eb0c3a4c791e0ec70b74e61eb8e2b7d) | feat(articles): add structured outline and link planning | [bob-cli-8g.2](bob-cli-8g.2.md) | 2026-10-16 12:48:29 EDT |
 | bob-cli | [`ff97c62`](https://github.com/bobs-org/bob-cli/commit/ff97c620d6a15f6a64c46de5e85ae29075a74afb) | feat(articles): add articles vault CLI | [bob-cli-8g.4](bob-cli-8g.4.md) | 2026-10-16 13:28:16 EDT |
 | bob-cli | [`e646cbd`](https://github.com/bobs-org/bob-cli/commit/e646cbd898f54ec99a590ce1ca9eb6ac283148f1) | feat(articles): add adopt with preview and stdin JSON | [bob-cli-8g.5](bob-cli-8g.5.md) | 2026-10-16 14:13:42 EDT |
+| bob-cli | [`93a76ed`](https://github.com/bobs-org/bob-cli/commit/93a76ed3876b4a9221ad258def1cca3ed450e321) | feat(articles): repair inbound heading links and add nightly check | [bob-cli-8g.6](bob-cli-8g.6.md) | 2026-10-16 15:10:35 EDT |

@@ -22,7 +22,7 @@ adopt: `bob articles adopt NOTE` inserts `type: "[[article]]"` plus the first fo
 ## Dependencies
 
 - **Depends on:** [bob-cli-8g.4](bob-cli-8g.4.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8g.6](bob-cli-8g.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8g.6](bob-cli-8g.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -35,3 +35,15 @@ adopt: `bob articles adopt NOTE` inserts `type: "[[article]]"` plus the first fo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e646cbd`](https://github.com/bobs-org/bob-cli/commit/e646cbd898f54ec99a590ce1ca9eb6ac283148f1) | feat(articles): add adopt with preview and stdin JSON | [bob-cli-8g.5](bob-cli-8g.5.md) | 2026-10-16 14:13:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.5--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.5.md
+
+<!-- sase:referenced-by:end -->

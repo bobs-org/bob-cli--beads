@@ -13,7 +13,7 @@ plugin: new bob-plugins bob-articles plugin: runtime article class, format on sa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8g.6](bob-cli-8g.6.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8g.6](bob-cli-8g.6.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8g.9](bob-cli-8g.9.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

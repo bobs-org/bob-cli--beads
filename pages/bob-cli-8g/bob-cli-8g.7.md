@@ -13,7 +13,7 @@ vault: add article.md, articles.base, the type.md block, the new_article templat
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8g.6](bob-cli-8g.6.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8g.6](bob-cli-8g.6.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
