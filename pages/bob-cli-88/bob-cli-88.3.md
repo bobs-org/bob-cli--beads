@@ -19,7 +19,7 @@ cycler: delete every entry the same-day successor take-back empties, and (per cl
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-88.4](bob-cli-88.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-88.4](bob-cli-88.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

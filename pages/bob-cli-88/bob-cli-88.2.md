@@ -21,7 +21,7 @@ bip: add an emptied-entry pass to the block-id-prompt cleanup planner and the Ct
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-88.4](bob-cli-88.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-88.4](bob-cli-88.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

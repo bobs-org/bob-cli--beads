@@ -35,7 +35,7 @@ nav: make planDeferredPomodoroLinkCleanup always delete emptied open entries, re
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-88.4](bob-cli-88.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-88.4](bob-cli-88.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -48,3 +48,15 @@ nav: make planDeferredPomodoroLinkCleanup always delete emptied open entries, re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@86cebc9`](https://github.com/bobs-org/bob-plugins/commit/86cebc9c4dcf83a238b387127b5eedf8c68f9725) | feat(bob-navigation-hotkeys): delete Pomodoros emptied by every cleanup | [bob-cli-88.1](bob-cli-88.1.md) | 2026-10-16 08:14:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-88.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-88.1/README.md
+
+<!-- sase:referenced-by:end -->
