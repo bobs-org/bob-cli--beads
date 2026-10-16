@@ -18,7 +18,7 @@ logs-visibility: condense managed logs, support full logs and a compact closed-t
 ## Dependencies
 
 - **Depends on:** [bob-cli-87.3.1.1](bob-cli-87.3.1.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-87.3.1.3](bob-cli-87.3.1.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.3.1.3](bob-cli-87.3.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -31,3 +31,15 @@ logs-visibility: condense managed logs, support full logs and a compact closed-t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`87bc784`](https://github.com/bobs-org/bob-cli/commit/87bc78442fe71c511797751289c84f03ed67b8de) | feat(note-snapshot): condense logs, omit closed tasks, filter self-snapshots | [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) | 2026-10-16 12:48:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.3.1.2][1] | Need full phase notes, remaining work, and epic DECISIONS | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->
