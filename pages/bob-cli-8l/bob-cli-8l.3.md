@@ -20,4 +20,4 @@ close-model: RefsPanelModel gains ⌃D close commands. A close removes the row o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-8l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.3/README.md) | [bob-cli-8l.3](bob-cli-8l.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8l.3.md) | [bob-cli-8l.3](bob-cli-8l.3.md) | 0 |

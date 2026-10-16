@@ -17,7 +17,7 @@ close-core: pure Foundation additions to RefsCore. They add the close result and
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8l.2](bob-cli-8l.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8l.2](bob-cli-8l.2.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8l.3](bob-cli-8l.3.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
@@ -31,3 +31,15 @@ close-core: pure Foundation additions to RefsCore. They add the close result and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@7fd75c8`](https://github.com/bobs-org/bob-mac-capture/commit/7fd75c8835289f92465aaf01c505e932cb4201ab) | feat(refs): add tab-close contracts, session close, and copy | [bob-cli-8l.1](bob-cli-8l.1.md) | 2026-10-16 14:20:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8l.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.1/README.md
+
+<!-- sase:referenced-by:end -->
