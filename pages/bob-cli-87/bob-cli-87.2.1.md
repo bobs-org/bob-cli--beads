@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/snapshot_view_core.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/snapshot_view_core.md
 
@@ -38,7 +38,9 @@ Vault notes project into a tested engine-neutral view and the agreed Markdown co
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-87.2.1.1--4][1] | Need governing epic decisions for the model-contract phase | 1 |
+| read-by | [agent:bob-cli-87.2.1.2][2] | parent epic scope | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->

@@ -18,7 +18,7 @@ resolution: implement vault membership and target classification, cached source 
 ## Dependencies
 
 - **Depends on:** [bob-cli-87.2.1.1](bob-cli-87.2.1.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-87.2.1.3](bob-cli-87.2.1.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.2.1.3](bob-cli-87.2.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -31,3 +31,15 @@ resolution: implement vault membership and target classification, cached source 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`29f5f4e`](https://github.com/bobs-org/bob-cli/commit/29f5f4efa0bf32f7a86fbbbce778845fed7864fa) | feat(snapshot): add classification and cached vault resolution | [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) | 2026-10-16 08:54:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.2.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->

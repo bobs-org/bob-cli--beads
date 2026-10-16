@@ -13,7 +13,7 @@ transclusions: assemble one-level full-note, heading, and block transclusions; e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-87.2.1.3](bob-cli-87.2.1.3.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.2.1.3](bob-cli-87.2.1.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
