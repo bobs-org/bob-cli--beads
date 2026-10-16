@@ -31,7 +31,7 @@ In Bob Mac Capture's Refs panel, ⌘N opens a Link to Today card with the curren
 |---|---|---|---|---|---:|---:|
 | [bob-cli-8f.1](bob-cli-8f.1.md) | bob ref today | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8f.2](bob-cli-8f.2.md) | RefsCore decoding, fetcher, card state machine, and copy | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [bob-cli-8f.3](bob-cli-8f.3.md) | Refs panel card, ⌘N routing, toast, and docs | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-8f.3](bob-cli-8f.3.md) | Refs panel card, ⌘N routing, toast, and docs | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["bob-cli-8f: Link a reference to today from the Bob Refs panel (⌘N) [in_progress]"]
     n1["bob-cli-8f.1: bob ref today [closed]"]
     n2["bob-cli-8f.2: RefsCore decoding, fetcher, card state machine, and copy [closed]"]
-    n3["bob-cli-8f.3: Refs panel card, ⌘N routing, toast, and docs [in_progress]"]
+    n3["bob-cli-8f.3: Refs panel card, ⌘N routing, toast, and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,7 +54,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-8f.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.1/README.md) | [bob-cli-8f.1](bob-cli-8f.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.2/README.md) | [bob-cli-8f.2](bob-cli-8f.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.3/README.md) | [bob-cli-8f.3](bob-cli-8f.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.3.md) | [bob-cli-8f.3](bob-cli-8f.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.land/README.md) | [bob-cli-8f](README.md) | 0 |
 
 ## Commits
@@ -63,6 +63,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`a3c2721`](https://github.com/bobs-org/bob-cli/commit/a3c27210555bfaea7a309cf3772ff39a1fcdfd7d) | feat(ref): add bob ref today to link a reading task under today's Pomodoro | [bob-cli-8f.1](bob-cli-8f.1.md) | 2026-10-16 11:17:13 EDT |
 | bob-mac-capture | [`bob-mac-capture@ef6522b`](https://github.com/bobs-org/bob-mac-capture/commit/ef6522bb4142b2ac5b755e81f6d4671fba7b3d54) | feat(refs): add portable Link to Today card core | [bob-cli-8f.2](bob-cli-8f.2.md) | 2026-10-16 12:31:27 EDT |
+| bob-mac-capture | [`bob-mac-capture@3a6db2b`](https://github.com/bobs-org/bob-mac-capture/commit/3a6db2bd120d51a212e5dc0cdf04486b60a2bec1) | feat(refs): wire Link to Today card, toast, and ⌘N routing | [bob-cli-8f.3](bob-cli-8f.3.md) | 2026-10-16 13:18:16 EDT |
 
 <!-- sase:referenced-by:start -->
 

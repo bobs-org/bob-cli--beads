@@ -20,7 +20,7 @@ mac_core: in bob-mac-capture's portable RefsCore/CaptureCore targets, decode the
 ## Dependencies
 
 - **Depends on:** [bob-cli-8f.1](bob-cli-8f.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8f.3](bob-cli-8f.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8f.3](bob-cli-8f.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ mac_core: in bob-mac-capture's portable RefsCore/CaptureCore targets, decode the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@ef6522b`](https://github.com/bobs-org/bob-mac-capture/commit/ef6522bb4142b2ac5b755e81f6d4671fba7b3d54) | feat(refs): add portable Link to Today card core | [bob-cli-8f.2](bob-cli-8f.2.md) | 2026-10-16 12:31:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8f.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.2/README.md
+
+<!-- sase:referenced-by:end -->
