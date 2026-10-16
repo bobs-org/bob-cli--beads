@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8l.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.2/README.md) | [bob-cli-8l.2](bob-cli-8l.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8l.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8l.3.md) | [bob-cli-8l.3](bob-cli-8l.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8l.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.4/README.md) | [bob-cli-8l.4](bob-cli-8l.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8l.land.md) | [bob-cli-8l](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-8l.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8l.land.md) | [bob-cli-8l](README.md) | 2 |
 
 ## Commits
 
@@ -80,6 +80,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@7954c28`](https://github.com/bobs-org/bob-mac-capture/commit/7954c28aec7d25e5a5ba42633a1b2436a3b2f74e) | feat(refs): close Highlights tabs with ⌃D from the panel | [bob-cli-8l.3](bob-cli-8l.3.md) | 2026-10-16 15:18:42 EDT |
 | bob-mac-capture | [`bob-mac-capture@7ee2499`](https://github.com/bobs-org/bob-mac-capture/commit/7ee2499aa77d358f05b5e4a00a91937c925e076c) | feat(refs): add Tabs close button, fold-out, and close copy | [bob-cli-8l.4](bob-cli-8l.4.md) | 2026-10-16 15:39:34 EDT |
 | bob-mac-capture | [`bob-mac-capture@175153c`](https://github.com/bobs-org/bob-mac-capture/commit/175153c8e7f5913a53f03d710c6f3b0c01f5ce74) | feat(refs): close Highlights tabs with Ctrl-X, repair worker/sheet/guards | [bob-cli-8l](README.md) | 2026-10-16 16:19:54 EDT |
+| bob-cli--plans | [`bob-cli--plans@8ca51de`](https://github.com/bobs-org/bob-cli--plans/commit/8ca51de3113cc5c36d6ed9b2b52f71085906e7b3) | docs(plans): mark highlights\_tab\_close done for bob-cli-8l landing | [bob-cli-8l](README.md) | 2026-10-16 16:20:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
