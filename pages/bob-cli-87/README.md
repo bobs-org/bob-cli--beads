@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/note_snapshots.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/note_snapshots.md
 
@@ -31,6 +31,8 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-10-16T17:26:45Z · bob-cli-8f.land] DISCOVERED ISSUE: Triaged bob-cli-8f.1 PROPOSED FOLLOW-UP note #4 during bob-cli-8f landing. Its real-render test failure (native::highlights_ref::note_snapshot::profile::tests::renders_contract_with_clean_text_layer_and_metadata: titlesec.sty missing) is owned by this active epic, specifically bob-cli-87.4. On the reviewed bob-cli tree 280321a3, profile.rs still gates only pandoc and xelatex executable availability before rendering, while note.tex requires titlesec; kpsewhich titlesec.sty returns no path on apollo. This corroborates this epic note #1 and the phase report; the lander did not rerun the render test. No duplicate task created after the sase_new_task search and recent-task sweep.
 
+[2026-10-16T18:31:31Z · bob-cli-8f.land--2] DISCOVERED ISSUE: On the current checkout fast-forwarded to 6c53e138,  (ToolRun 5be9000c6502d8c8762e4b76c1652fc1) reproduced both failures already recorded in this epic's note #1: pandoc_maps_every_contract_construct_to_tex panics at profile.rs:864 because the emitted TeX lacks the expected lifted link, and renders_contract_with_clean_text_layer_and_metadata fails because titlesec.sty is unavailable. The same-type task search and one-week bug sweep found no task duplicate; the active note-snapshot epic already owns both failures, so no new task was created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -42,7 +44,7 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-87.2](bob-cli-87.2.md) | Snapshot view model and Obsidian layer | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.3](bob-cli-87.3.md) | Bob layer for area and project notes | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.4](bob-cli-87.4.md) | Note print profile and two-step xelatex render | ✓ closed | large | 2026-10-16 | 1 | 1 |
-| [bob-cli-87.5](bob-cli-87.5.md) | bob ref create integration, provenance, help, and docs | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
+| [bob-cli-87.5](bob-cli-87.5.md) | bob ref create integration, provenance, help, and docs | ✓ closed | large | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.6](bob-cli-87.6.md) | Image embeds that print well | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.7](bob-cli-87.7.md) | Waiting-on and Scheduled lanes for tickler-heavy notes | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.8](bob-cli-87.8.md) | Section filter and earlier-snapshot hints | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
@@ -69,7 +71,7 @@ flowchart TD
     n14["bob-cli-87.3.1.2: Managed logs, closed appendix, and self-snapshot filtering [closed]"]
     n15["bob-cli-87.3.1.3: Bob masthead, document assembly, and synthetic golden coverage [closed]"]
     n16["bob-cli-87.4: Note print profile and two-step xelatex render [closed]"]
-    n17["bob-cli-87.5: bob ref create integration, provenance, help, and docs [in_progress]"]
+    n17["bob-cli-87.5: bob ref create integration, provenance, help, and docs [closed]"]
     n18["bob-cli-87.6: Image embeds that print well [in_progress]"]
     n19["bob-cli-87.7: Waiting-on and Scheduled lanes for tickler-heavy notes [in_progress]"]
     n20["bob-cli-87.8: Section filter and earlier-snapshot hints [in_progress]"]
@@ -136,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.3.1.3.md) | [bob-cli-87.3.1.3](bob-cli-87.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.3.1.land.md) | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-87.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.4.md) | [bob-cli-87.4](bob-cli-87.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.5/README.md) | [bob-cli-87.5](bob-cli-87.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.5.md) | [bob-cli-87.5](bob-cli-87.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.6/README.md) | [bob-cli-87.6](bob-cli-87.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.7/README.md) | [bob-cli-87.7](bob-cli-87.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.8/README.md) | [bob-cli-87.8](bob-cli-87.8.md) | 0 |
@@ -161,6 +163,7 @@ flowchart TD
 | bob-cli | [`6c53e13`](https://github.com/bobs-org/bob-cli/commit/6c53e13866b9d4d1336d5a9f147a44c54659f89b) | feat(note-snapshot): compose Bob mastheads and deterministic goldens | [bob-cli-87.3.1.3](bob-cli-87.3.1.3.md) | 2026-10-16 13:41:27 EDT |
 | bob-cli | [`16c4640`](https://github.com/bobs-org/bob-cli/commit/16c4640a6135e193de504b83532b12ad1a933d00) | fix(snapshot): finish Bob projection landing repairs | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 2026-10-16 14:29:15 EDT |
 | bob-cli--plans | [`bob-cli--plans@145ecf8`](https://github.com/bobs-org/bob-cli--plans/commit/145ecf832b575d7f9640e5a62a0001c5bbc70f18) | docs(plans): mark snapshot\_bob\_layer done after landing repairs | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 2026-10-16 14:30:14 EDT |
+| bob-cli | [`07fef5f`](https://github.com/bobs-org/bob-cli/commit/07fef5f02c9a572b02ea1a9d7bb1a4f265a2b6eb) | feat(ref): wire note snapshot creation | [bob-cli-87.5](bob-cli-87.5.md) | 2026-10-16 15:40:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -171,9 +174,11 @@ flowchart TD
 | read-by | [agent:bob-cli-87.2.1.1--4][1] | Need governing epic decisions for this implementation phase | 1 |
 | read-by | [agent:bob-cli-87.2.1.land--1][2] | Review the parent epic requirements and record its progress | 2 |
 | read-by | [agent:bob-cli-87.3.1.1][3] | Need top epic decisions | 1 |
+| read-by | [agent:bob-cli-8f.land--2][4] | Inspect the note-snapshot epic after the attempted corroboration write and confirm its stored note | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.land.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8f.land.md
 
 <!-- sase:referenced-by:end -->

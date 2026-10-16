@@ -20,7 +20,7 @@ print-profile: implement note.tex (the design system), note.lua (contract to TeX
 ## Dependencies
 
 - **Depends on:** [bob-cli-87.1](bob-cli-87.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-87.5](bob-cli-87.5.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.5](bob-cli-87.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

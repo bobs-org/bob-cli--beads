@@ -38,7 +38,9 @@ masthead-goldens: compose area/project mastheads, preserve intro prose, style an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-87.3.1.3--2][1] | Need the epic's own verification checklist and status before correcting the focused snapshot failures | 2 |
+| read-by | [agent:bob-cli-8f.land--2][2] | Need the active note-snapshot epic and commit phase scope for the newly observed failing output contract test | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.3.1.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8f.land.md
 
 <!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ scheduled-lane: split the Blocked lane into dependency-blocked 'Waiting on' rows
 ## Dependencies
 
 - **Blocks:** [bob-cli-87.11](bob-cli-87.11.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [bob-cli-87.5](bob-cli-87.5.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.5](bob-cli-87.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

@@ -14,7 +14,7 @@ snapshot-options: add repeatable -S/--section and list earlier snapshots of the 
 ## Dependencies
 
 - **Blocks:** [bob-cli-87.12](bob-cli-87.12.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [bob-cli-87.5](bob-cli-87.5.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.5](bob-cli-87.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
