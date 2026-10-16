@@ -13,7 +13,7 @@ mac-checkout: track the checked-out origin, release it on every abandon path, pa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8b.4](bob-cli-8b.4.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8b.4](bob-cli-8b.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

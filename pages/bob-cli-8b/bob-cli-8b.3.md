@@ -22,7 +22,7 @@ mac-core: decode the shelf protocol in CaptureCore, add BobProcessClient list/sa
 ## Dependencies
 
 - **Depends on:** [bob-cli-8b.2](bob-cli-8b.2.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8b.4](bob-cli-8b.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8b.4](bob-cli-8b.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -35,3 +35,15 @@ mac-core: decode the shelf protocol in CaptureCore, add BobProcessClient list/sa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@cb4c01e`](https://github.com/bobs-org/bob-mac-capture/commit/cb4c01e0dd40165959a8bb39111d68248a44cfac) | feat(mac-capture): add saved-template protocol client and models | [bob-cli-8b.3](bob-cli-8b.3.md) | 2026-10-16 10:21:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8b.3--7][1] | Need the phase scope, design file, and current notes before close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8b.3.md
+
+<!-- sase:referenced-by:end -->
