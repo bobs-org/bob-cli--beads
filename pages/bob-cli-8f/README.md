@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8f.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.1/README.md) | [bob-cli-8f.1](bob-cli-8f.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.2/README.md) | [bob-cli-8f.2](bob-cli-8f.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.3.md) | [bob-cli-8f.3](bob-cli-8f.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md) | [bob-cli-8f](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-8f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md) | [bob-cli-8f](README.md) | 2 |
 
 ## Commits
 
@@ -75,6 +75,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@ef6522b`](https://github.com/bobs-org/bob-mac-capture/commit/ef6522bb4142b2ac5b755e81f6d4671fba7b3d54) | feat(refs): add portable Link to Today card core | [bob-cli-8f.2](bob-cli-8f.2.md) | 2026-10-16 12:31:27 EDT |
 | bob-mac-capture | [`bob-mac-capture@3a6db2b`](https://github.com/bobs-org/bob-mac-capture/commit/3a6db2bd120d51a212e5dc0cdf04486b60a2bec1) | feat(refs): wire Link to Today card, toast, and ⌘N routing | [bob-cli-8f.3](bob-cli-8f.3.md) | 2026-10-16 13:18:16 EDT |
 | bob-cli | [`eeeeab0`](https://github.com/bobs-org/bob-cli/commit/eeeeab0f91dd6b600737fc2ef71487c82ac058d4) | fix(refs): track duplicate pomodoro destinations after moves | [bob-cli-8f](README.md) | 2026-10-16 14:34:17 EDT |
+| bob-mac-capture | [`bob-mac-capture@936f232`](https://github.com/bobs-org/bob-mac-capture/commit/936f232fd6e18f30daa0164544fac58f33614266) | fix(refs): harden Link to Today panel flow | [bob-cli-8f](README.md) | 2026-10-16 14:35:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
