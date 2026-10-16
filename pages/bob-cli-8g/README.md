@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8g.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.7/README.md) | [bob-cli-8g.7](bob-cli-8g.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8g.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.8.md) | [bob-cli-8g.8](bob-cli-8g.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.9/README.md) | [bob-cli-8g.9](bob-cli-8g.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8g.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.land.md) | [bob-cli-8g](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-8g.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.land.md) | [bob-cli-8g](README.md) | 3 |
 
 ## Commits
 
@@ -107,3 +107,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5bc2d9d`](https://github.com/bobs-org/bob-plugins/commit/5bc2d9d1676237f2185a90d4e578e4838ca0578d) | feat(bob-articles): add reading look and live section signals | [bob-cli-8g.9](bob-cli-8g.9.md) | 2026-10-16 16:01:10 EDT |
 | bob-cli | [`f1b37e5`](https://github.com/bobs-org/bob-cli/commit/f1b37e50f53c96d65f88fb5fd31b82b47a043939) | fix(articles): complete formatting and capture corrections | [bob-cli-8g](README.md) | 2026-10-16 17:09:53 EDT |
 | bob-plugins | [`bob-plugins@553a4e3`](https://github.com/bobs-org/bob-plugins/commit/553a4e3877fc5d64b0d648a9b47e3c2edfc1b295) | fix(bob-articles): harden edit and rendering paths | [bob-cli-8g](README.md) | 2026-10-16 17:10:39 EDT |
+| bob-cli--plans | [`bob-cli--plans@cf7a0bd`](https://github.com/bobs-org/bob-cli--plans/commit/cf7a0bdc691edf394e9430be9c275ead4b5685fc) | docs(plans): mark article notes epic complete | [bob-cli-8g](README.md) | 2026-10-16 17:11:15 EDT |
