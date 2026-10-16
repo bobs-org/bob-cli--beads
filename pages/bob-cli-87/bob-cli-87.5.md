@@ -15,7 +15,7 @@ create-wiring: wire everything into create. Covers vault-note and route TARGETs,
 
 - **Blocks:** [bob-cli-87.10](bob-cli-87.10.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.3](bob-cli-87.3.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [bob-cli-87.4](bob-cli-87.4.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.4](bob-cli-87.4.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-87.6](bob-cli-87.6.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-87.7](bob-cli-87.7.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-87.8](bob-cli-87.8.md) ◐ · ⧖ 2026-10-16

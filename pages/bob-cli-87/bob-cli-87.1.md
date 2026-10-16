@@ -19,7 +19,7 @@ fonts: vendor pinned static Source Serif 4, Inter, JetBrains Mono, and monochrom
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.4](bob-cli-87.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.4](bob-cli-87.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
