@@ -38,14 +38,14 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-87.1](bob-cli-87.1.md) | Bundled print fonts and glyph coverage | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [bob-cli-87.10](bob-cli-87.10.md) | Obsidian command to snapshot the open note | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-87.10](bob-cli-87.10.md) | Obsidian command to snapshot the open note | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.11](bob-cli-87.11.md) | Corpus gate on athena and long-tail fixes | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.12](bob-cli-87.12.md) | Mac acceptance and the real Highlights round trip | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.2](bob-cli-87.2.md) | Snapshot view model and Obsidian layer | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.3](bob-cli-87.3.md) | Bob layer for area and project notes | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.4](bob-cli-87.4.md) | Note print profile and two-step xelatex render | ✓ closed | large | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.5](bob-cli-87.5.md) | bob ref create integration, provenance, help, and docs | ✓ closed | large | 2026-10-16 | 1 | 1 |
-| [bob-cli-87.6](bob-cli-87.6.md) | Image embeds that print well | ✓ closed | small | 2026-10-16 | 1 | 1 |
+| [bob-cli-87.6](bob-cli-87.6.md) | Image embeds that print well | ✓ closed | small | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.7](bob-cli-87.7.md) | Waiting-on and Scheduled lanes for tickler-heavy notes | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.8](bob-cli-87.8.md) | Section filter and earlier-snapshot hints | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.9](bob-cli-87.9.md) | Text-layer rule for the default Markdown profile | ✓ closed | small | 2026-10-16 | 1 | 1 |
@@ -56,7 +56,7 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 flowchart TD
     n0["bob-cli-87: Beautiful note snapshots in bob ref create [in_progress]"]
     n1["bob-cli-87.1: Bundled print fonts and glyph coverage [closed]"]
-    n2["bob-cli-87.10: Obsidian command to snapshot the open note [in_progress]"]
+    n2["bob-cli-87.10: Obsidian command to snapshot the open note [closed]"]
     n3["bob-cli-87.11: Corpus gate on athena and long-tail fixes [in_progress]"]
     n4["bob-cli-87.12: Mac acceptance and the real Highlights round trip [in_progress]"]
     n5["bob-cli-87.2: Snapshot view model and Obsidian layer [closed]"]
@@ -123,7 +123,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-87.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.1/README.md) | [bob-cli-87.1](bob-cli-87.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.10/README.md) | [bob-cli-87.10](bob-cli-87.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.10/README.md) | [bob-cli-87.10](bob-cli-87.10.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.11/README.md) | [bob-cli-87.11](bob-cli-87.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.12/README.md) | [bob-cli-87.12](bob-cli-87.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.md) | [bob-cli-87.2](bob-cli-87.2.md) | 0 |
@@ -139,7 +139,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.3.1.land.md) | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-87.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.4.md) | [bob-cli-87.4](bob-cli-87.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.5.md) | [bob-cli-87.5](bob-cli-87.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.6/README.md) | [bob-cli-87.6](bob-cli-87.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-87.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.6/README.md) | [bob-cli-87.6](bob-cli-87.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.7/README.md) | [bob-cli-87.7](bob-cli-87.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.8/README.md) | [bob-cli-87.8](bob-cli-87.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.9/README.md) | [bob-cli-87.9](bob-cli-87.9.md) | 1 |
@@ -164,7 +164,7 @@ flowchart TD
 | bob-cli | [`16c4640`](https://github.com/bobs-org/bob-cli/commit/16c4640a6135e193de504b83532b12ad1a933d00) | fix(snapshot): finish Bob projection landing repairs | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 2026-10-16 14:29:15 EDT |
 | bob-cli--plans | [`bob-cli--plans@145ecf8`](https://github.com/bobs-org/bob-cli--plans/commit/145ecf832b575d7f9640e5a62a0001c5bbc70f18) | docs(plans): mark snapshot\_bob\_layer done after landing repairs | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 2026-10-16 14:30:14 EDT |
 | bob-cli | [`07fef5f`](https://github.com/bobs-org/bob-cli/commit/07fef5f02c9a572b02ea1a9d7bb1a4f265a2b6eb) | feat(ref): wire note snapshot creation | [bob-cli-87.5](bob-cli-87.5.md) | 2026-10-16 15:40:04 EDT |
-| bob-cli | [`a4c9ecf`](https://github.com/bobs-org/bob-cli/commit/a4c9ecf511a4e5ef5cfa29ac1868c00f2579a839) | feat(highlights): prepare note snapshot images for print | [bob-cli-87.6](bob-cli-87.6.md) | 2026-10-16 15:56:34 EDT |
+| bob-plugins | [`bob-plugins@3631c17`](https://github.com/bobs-org/bob-plugins/commit/3631c17b46f332ee248bf78b51079ff463c40b84) | feat(bob-project-tasks): add Highlights snapshot commands | [bob-cli-87.10](bob-cli-87.10.md) | 2026-10-16 15:57:44 EDT |
 
 <!-- sase:referenced-by:start -->
 

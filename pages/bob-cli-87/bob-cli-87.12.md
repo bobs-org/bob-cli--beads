@@ -13,7 +13,7 @@ mac-acceptance: deploy to the Mac and run the corpus gate under BasicTeX and the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-87.10](bob-cli-87.10.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.10](bob-cli-87.10.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.11](bob-cli-87.11.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.8](bob-cli-87.8.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.9](bob-cli-87.9.md) ✓ · ⧖ 2026-10-16
