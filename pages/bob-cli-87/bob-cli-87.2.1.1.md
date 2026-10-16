@@ -17,7 +17,7 @@ model-contract: define the engine-neutral snapshot model, lossless source metada
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

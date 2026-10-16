@@ -13,7 +13,7 @@ syntax: implement protected-code-aware inline and block projection, resolved lin
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-87.2.1.4](bob-cli-87.2.1.4.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
