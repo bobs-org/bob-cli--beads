@@ -19,7 +19,7 @@ task-rows: add the Bob projection context and source attribution through the exi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -32,3 +32,15 @@ task-rows: add the Bob projection context and source attribution through the exi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`57c3df2`](https://github.com/bobs-org/bob-cli/commit/57c3df2a87a5b8da8b29bc146e0fb2699a5241f2) | feat(snapshot): add source-aware Bob task rows and relationship metadata | [bob-cli-87.3.1.1](bob-cli-87.3.1.1.md) | 2026-10-16 12:17:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.3.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

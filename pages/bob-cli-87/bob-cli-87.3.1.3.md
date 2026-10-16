@@ -13,7 +13,7 @@ masthead-goldens: compose area/project mastheads, preserve intro prose, style an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
