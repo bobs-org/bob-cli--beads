@@ -18,7 +18,7 @@ syntax: implement protected-code-aware inline and block projection, resolved lin
 ## Dependencies
 
 - **Depends on:** [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-87.2.1.4](bob-cli-87.2.1.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.2.1.4](bob-cli-87.2.1.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -31,3 +31,15 @@ syntax: implement protected-code-aware inline and block projection, resolved lin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8da6615`](https://github.com/bobs-org/bob-cli/commit/8da66156b8395c93a2d50ab3b415959db6bb1dee) | feat(note-snapshot): implement protected-code-aware obsidian syntax projection | [bob-cli-87.2.1.3](bob-cli-87.2.1.3.md) | 2026-10-16 09:33:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.2.1.3][1] | check phase notes for prior work remainder | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->
