@@ -13,7 +13,7 @@ resolution: implement vault membership and target classification, cached source 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-87.2.1.1](bob-cli-87.2.1.1.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.2.1.1](bob-cli-87.2.1.1.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-87.2.1.3](bob-cli-87.2.1.3.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

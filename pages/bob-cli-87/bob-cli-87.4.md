@@ -20,4 +20,4 @@ print-profile: implement note.tex (the design system), note.lua (contract to TeX
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-87.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.4/README.md) | [bob-cli-87.4](bob-cli-87.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.4.md) | [bob-cli-87.4](bob-cli-87.4.md) | 0 |

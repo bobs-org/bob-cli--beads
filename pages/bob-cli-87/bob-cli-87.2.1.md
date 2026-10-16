@@ -7,6 +7,18 @@
 **Created:** 2026-10-16 07:26:12 EDT
 **Plan:** [202610/snapshot\_view\_core.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/snapshot_view_core.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/snapshot_view_core.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/snapshot_view_core.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Vault notes project into a tested engine-neutral view and the agreed Markdown contract, with Obsidian resolution, bounded embeds, and consistent source reads.
