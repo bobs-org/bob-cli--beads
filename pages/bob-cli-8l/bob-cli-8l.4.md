@@ -30,3 +30,15 @@ close-views: Tabs rows show a quiet close button on hover and selection in a res
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@7ee2499`](https://github.com/bobs-org/bob-mac-capture/commit/7ee2499aa77d358f05b5e4a00a91937c925e076c) | feat(refs): add Tabs close button, fold-out, and close copy | [bob-cli-8l.4](bob-cli-8l.4.md) | 2026-10-16 15:39:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8l.4][1] | Need notes, remaining work, and full bead details before planning | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8l.4/README.md
+
+<!-- sase:referenced-by:end -->
