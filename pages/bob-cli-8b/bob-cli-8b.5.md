@@ -34,3 +34,15 @@ mac-checkout: track the checked-out origin, release it on every abandon path, pa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@6a7046e`](https://github.com/bobs-org/bob-mac-capture/commit/6a7046e226d3a995ffd06b2f6e873678e36a6cde) | feat(saved-templates): implement Mac Capture template checkout | [bob-cli-8b.5](bob-cli-8b.5.md) | 2026-10-16 11:25:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8b.5][1] | Check for earlier phase work and recorded remaining work before planning | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8b.5/README.md
+
+<!-- sase:referenced-by:end -->
