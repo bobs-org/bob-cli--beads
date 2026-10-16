@@ -21,7 +21,7 @@ engine: bob-cli src/native/articles/ pure core: article marker and refusals, blo
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8g.2](bob-cli-8g.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8g.2](bob-cli-8g.2.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8g.3](bob-cli-8g.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
@@ -43,7 +43,9 @@ engine: bob-cli src/native/articles/ pure core: article marker and refusals, blo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-8g.1][1] | Need the phase scope and design file for number-replaced finding contract | 3 |
+| read-by | [agent:bob-cli-8g.3--1][2] | Need 8g.1 follow-up wording for the same just-check failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.3.md
 
 <!-- sase:referenced-by:end -->

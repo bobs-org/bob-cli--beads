@@ -34,3 +34,15 @@ capture: in article notes, `@route#prefix` and `--section` match headings by de-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a3e45a3`](https://github.com/bobs-org/bob-cli/commit/a3e45a3b530163829087975f234d1f08d004dee5) | feat(capture): match article section selectors on de-numbered identity | [bob-cli-8g.3](bob-cli-8g.3.md) | 2026-10-16 12:43:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.3.md
+
+<!-- sase:referenced-by:end -->

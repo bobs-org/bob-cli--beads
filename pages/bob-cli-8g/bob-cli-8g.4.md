@@ -13,7 +13,7 @@ cli: register the `bob articles` Vault group (bare = list) with format (check, d
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8g.2](bob-cli-8g.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8g.2](bob-cli-8g.2.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8g.5](bob-cli-8g.5.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

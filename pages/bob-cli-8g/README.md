@@ -28,7 +28,7 @@ Vault notes typed `[[article]]` get house-style section numbers (1. / 1.1 / 1.1.
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-8g.1](bob-cli-8g.1.md) | Pure article formatter core | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [bob-cli-8g.2](bob-cli-8g.2.md) | In-note links, findings, outline, and the plan contract | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-8g.2](bob-cli-8g.2.md) | In-note links, findings, outline, and the plan contract | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.3](bob-cli-8g.3.md) | Number-aware capture section selectors in articles | ✓ closed | small | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.4](bob-cli-8g.4.md) | bob articles group with format, list, and outline | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-8g.5](bob-cli-8g.5.md) | bob articles adopt with preview | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
@@ -43,7 +43,7 @@ Vault notes typed `[[article]]` get house-style section numbers (1. / 1.1 / 1.1.
 flowchart TD
     n0["bob-cli-8g: Article notes: bob-owned section numbers and calm layout [in_progress]"]
     n1["bob-cli-8g.1: Pure article formatter core [closed]"]
-    n2["bob-cli-8g.2: In-note links, findings, outline, and the plan contract [in_progress]"]
+    n2["bob-cli-8g.2: In-note links, findings, outline, and the plan contract [closed]"]
     n3["bob-cli-8g.3: Number-aware capture section selectors in articles [closed]"]
     n4["bob-cli-8g.4: bob articles group with format, list, and outline [in_progress]"]
     n5["bob-cli-8g.5: bob articles adopt with preview [in_progress]"]
@@ -75,7 +75,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-8g.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.1/README.md) | [bob-cli-8g.1](bob-cli-8g.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8g.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.2/README.md) | [bob-cli-8g.2](bob-cli-8g.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8g.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.2/README.md) | [bob-cli-8g.2](bob-cli-8g.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.3.md) | [bob-cli-8g.3](bob-cli-8g.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.4/README.md) | [bob-cli-8g.4](bob-cli-8g.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8g.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.5/README.md) | [bob-cli-8g.5](bob-cli-8g.5.md) | 0 |
@@ -91,3 +91,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`8e96375`](https://github.com/bobs-org/bob-cli/commit/8e9637538ecee897cb0bbc5809c0e056cf311d7f) | feat(articles): add pure article formatter core | [bob-cli-8g.1](bob-cli-8g.1.md) | 2026-10-16 12:04:49 EDT |
 | bob-cli | [`a3e45a3`](https://github.com/bobs-org/bob-cli/commit/a3e45a3b530163829087975f234d1f08d004dee5) | feat(capture): match article section selectors on de-numbered identity | [bob-cli-8g.3](bob-cli-8g.3.md) | 2026-10-16 12:43:32 EDT |
+| bob-cli | [`280321a`](https://github.com/bobs-org/bob-cli/commit/280321a33eb0c3a4c791e0ec70b74e61eb8e2b7d) | feat(articles): add structured outline and link planning | [bob-cli-8g.2](bob-cli-8g.2.md) | 2026-10-16 12:48:29 EDT |
