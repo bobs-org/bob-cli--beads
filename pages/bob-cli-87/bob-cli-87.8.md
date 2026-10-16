@@ -24,4 +24,10 @@ snapshot-options: add repeatable -S/--section and list earlier snapshots of the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-87.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.8.md) | [bob-cli-87.8](bob-cli-87.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.8.md) | [bob-cli-87.8](bob-cli-87.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`130a5fd`](https://github.com/bobs-org/bob-cli/commit/130a5fd8311a19fe59accb5ff6545a9ad1db2348) | feat(highlights): add section filters and snapshot hints | [bob-cli-87.8](bob-cli-87.8.md) | 2026-10-16 16:38:36 EDT |

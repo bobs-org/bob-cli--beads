@@ -19,7 +19,7 @@ scheduled-lane: split the Blocked lane into dependency-blocked 'Waiting on' rows
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.11](bob-cli-87.11.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.11](bob-cli-87.11.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.5](bob-cli-87.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
@@ -33,3 +33,15 @@ scheduled-lane: split the Blocked lane into dependency-blocked 'Waiting on' rows
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c7367ee`](https://github.com/bobs-org/bob-cli/commit/c7367ee183e5d9b9bbb3a92b9a1657a8592de10f) | feat(snapshot): split blocked tasks into Waiting on and Scheduled lanes | [bob-cli-87.7](bob-cli-87.7.md) | 2026-10-16 16:30:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.7--1][1] | Need phase notes and remaining work from earlier agent | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.7.md
+
+<!-- sase:referenced-by:end -->

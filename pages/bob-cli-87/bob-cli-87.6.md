@@ -17,7 +17,7 @@ images: copy embedded images into scratch, downscaled to at most 1600 px on the 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.11](bob-cli-87.11.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.11](bob-cli-87.11.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.5](bob-cli-87.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents

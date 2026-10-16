@@ -33,13 +33,15 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-10-16T18:31:31Z · bob-cli-8f.land--2] DISCOVERED ISSUE: On the current checkout fast-forwarded to 6c53e138,  (ToolRun 5be9000c6502d8c8762e4b76c1652fc1) reproduced both failures already recorded in this epic's note #1: pandoc_maps_every_contract_construct_to_tex panics at profile.rs:864 because the emitted TeX lacks the expected lifted link, and renders_contract_with_clean_text_layer_and_metadata fails because titlesec.sty is unavailable. The same-type task search and one-week bug sweep found no task duplicate; the active note-snapshot epic already owns both failures, so no new task was created.
 
+[2026-10-16T20:33:17Z · bob-cli-8g.land] DISCOVERED ISSUE: bob-cli-8g.land just check at bob-cli HEAD a4c9ecf5 (after 07fef5f0/a4c9ecf5) still fails only these two lib tests: note_snapshot::profile::tests::pandoc_maps_every_contract_construct_to_tex (profile.rs:864 'lifted link') and renders_contract_with_clean_text_layer_and_metadata (profile.rs:943, xelatex: titlesec.sty not found on apollo). 2848 lib + 1715 CLI tests pass otherwise. Proposed by bob-cli-8g.1/.3/.4/.5/.6; corroborates notes already on this epic, so no new task was filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-87.1](bob-cli-87.1.md) | Bundled print fonts and glyph coverage | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.10](bob-cli-87.10.md) | Obsidian command to snapshot the open note | ✓ closed | medium | 2026-10-16 | 1 | 0 |
-| [bob-cli-87.11](bob-cli-87.11.md) | Corpus gate on athena and long-tail fixes | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-87.11](bob-cli-87.11.md) | Corpus gate on athena and long-tail fixes | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.12](bob-cli-87.12.md) | Mac acceptance and the real Highlights round trip | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.2](bob-cli-87.2.md) | Snapshot view model and Obsidian layer | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.3](bob-cli-87.3.md) | Bob layer for area and project notes | ✓ closed | large | 2026-10-16 | 1 | 0 |
@@ -47,7 +49,7 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-87.5](bob-cli-87.5.md) | bob ref create integration, provenance, help, and docs | ✓ closed | large | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.6](bob-cli-87.6.md) | Image embeds that print well | ✓ closed | small | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.7](bob-cli-87.7.md) | Waiting-on and Scheduled lanes for tickler-heavy notes | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [bob-cli-87.8](bob-cli-87.8.md) | Section filter and earlier-snapshot hints | ✓ closed | small | 2026-10-16 | 1 | 0 |
+| [bob-cli-87.8](bob-cli-87.8.md) | Section filter and earlier-snapshot hints | ✓ closed | small | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.9](bob-cli-87.9.md) | Text-layer rule for the default Markdown profile | ✓ closed | small | 2026-10-16 | 1 | 1 |
 
 ## Lineage
@@ -57,7 +59,7 @@ flowchart TD
     n0["bob-cli-87: Beautiful note snapshots in bob ref create [in_progress]"]
     n1["bob-cli-87.1: Bundled print fonts and glyph coverage [closed]"]
     n2["bob-cli-87.10: Obsidian command to snapshot the open note [closed]"]
-    n3["bob-cli-87.11: Corpus gate on athena and long-tail fixes [in_progress]"]
+    n3["bob-cli-87.11: Corpus gate on athena and long-tail fixes [closed]"]
     n4["bob-cli-87.12: Mac acceptance and the real Highlights round trip [in_progress]"]
     n5["bob-cli-87.2: Snapshot view model and Obsidian layer [closed]"]
     n6["bob-cli-87.2.1: Obsidian snapshot view core [closed]"]
@@ -124,7 +126,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-87.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.1/README.md) | [bob-cli-87.1](bob-cli-87.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.10/README.md) | [bob-cli-87.10](bob-cli-87.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-87.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.11/README.md) | [bob-cli-87.11](bob-cli-87.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.11.md) | [bob-cli-87.11](bob-cli-87.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.12/README.md) | [bob-cli-87.12](bob-cli-87.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.md) | [bob-cli-87.2](bob-cli-87.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.1.md) | [bob-cli-87.2.1.1](bob-cli-87.2.1.1.md) | 1 |
@@ -141,7 +143,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.5.md) | [bob-cli-87.5](bob-cli-87.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.6/README.md) | [bob-cli-87.6](bob-cli-87.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.7.md) | [bob-cli-87.7](bob-cli-87.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.8.md) | [bob-cli-87.8](bob-cli-87.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.8.md) | [bob-cli-87.8](bob-cli-87.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.9/README.md) | [bob-cli-87.9](bob-cli-87.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.land/README.md) | [bob-cli-87](README.md) | 0 |
 
@@ -166,6 +168,8 @@ flowchart TD
 | bob-cli | [`07fef5f`](https://github.com/bobs-org/bob-cli/commit/07fef5f02c9a572b02ea1a9d7bb1a4f265a2b6eb) | feat(ref): wire note snapshot creation | [bob-cli-87.5](bob-cli-87.5.md) | 2026-10-16 15:40:04 EDT |
 | bob-cli | [`a4c9ecf`](https://github.com/bobs-org/bob-cli/commit/a4c9ecf511a4e5ef5cfa29ac1868c00f2579a839) | feat(highlights): prepare note snapshot images for print | [bob-cli-87.6](bob-cli-87.6.md) | 2026-10-16 15:56:34 EDT |
 | bob-cli | [`c7367ee`](https://github.com/bobs-org/bob-cli/commit/c7367ee183e5d9b9bbb3a92b9a1657a8592de10f) | feat(snapshot): split blocked tasks into Waiting on and Scheduled lanes | [bob-cli-87.7](bob-cli-87.7.md) | 2026-10-16 16:30:42 EDT |
+| bob-cli | [`130a5fd`](https://github.com/bobs-org/bob-cli/commit/130a5fd8311a19fe59accb5ff6545a9ad1db2348) | feat(highlights): add section filters and snapshot hints | [bob-cli-87.8](bob-cli-87.8.md) | 2026-10-16 16:38:36 EDT |
+| bob-cli | [`d114c56`](https://github.com/bobs-org/bob-cli/commit/d114c56288be765a2010de755ea9f4d966192847) | fix(note-snapshot): harden corpus rendering edge cases | [bob-cli-87.11](bob-cli-87.11.md) | 2026-10-16 18:51:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
