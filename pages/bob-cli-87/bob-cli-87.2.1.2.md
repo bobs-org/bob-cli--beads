@@ -39,7 +39,9 @@ resolution: implement vault membership and target classification, cached source 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-87.2.1.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-87.2.1.land--1][2] | Review the second completed child scope and notes for landing completeness | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.land.md
 
 <!-- sase:referenced-by:end -->

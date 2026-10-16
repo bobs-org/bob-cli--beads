@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/note_snapshots.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/note_snapshots.md
 
@@ -24,6 +24,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 `bob ref create sase_blog` turns any Bob vault note, and area/project notes especially, into a calm, beautiful, Highlights-safe PDF: a dated reading snapshot of the note's open work and prose, with resolved links, embeds, and images. It renders the same on athena and the Mac, and every Highlights quote taken from it stays byte-clean.
+
+## Notes
+
+[2026-10-16T15:54:54Z · bob-cli-8b.land] DISCOVERED ISSUE: From bob-cli-8b.land while running just check on clean master 71be24ae (apollo). (1) cargo fmt --check fails only in note_snapshot files written by bob-cli-87.2.1 children (a086cd9b, 71be24ae): obsidian.rs:1217,3481,3495,3534,3542; resolve.rs:1533; serialize.rs:558,649; tests.rs:95,138,145,163,174,184,929,963; transclusion.rs:103,927,954,1066,1097,1502,1627,1642,1653,1823,1830,1867,1879,1987 — so just check stops at its first recipe line for every agent. (2) cargo test --lib: native::highlights_ref::note_snapshot::profile::tests::pandoc_maps_every_contract_construct_to_tex panics at profile.rs:864 'lifted link' (the \\hyperref[t-next]{visible link\\BobTag{ᵇ}} expectation is not in the emitted TeX). (3) profile::tests::renders_contract_with_clean_text_layer_and_metadata panics at profile.rs:943: xelatex pass 1 'File titlesec.sty not found' on apollo — the test needs a TeX package the host lacks; either gate it on package availability like other render tests or document the dependency. Fix: run cargo fmt on note_snapshot, repair the lifted-link projection or its expectation, and make the real-render test skip cleanly without titlesec. Not caused by bob-cli-8b; no new task filed because these are causally owned by this active epic.
 
 ## Phases
 
@@ -58,12 +62,16 @@ flowchart TD
     n9["bob-cli-87.2.1.3: Obsidian syntax and checkbox projection [closed]"]
     n10["bob-cli-87.2.1.4: Bounded transclusions and complete projection verification [closed]"]
     n11["bob-cli-87.3: Bob layer for area and project notes [in_progress]"]
-    n12["bob-cli-87.4: Note print profile and two-step xelatex render [closed]"]
-    n13["bob-cli-87.5: bob ref create integration, provenance, help, and docs [in_progress]"]
-    n14["bob-cli-87.6: Image embeds that print well [in_progress]"]
-    n15["bob-cli-87.7: Waiting-on and Scheduled lanes for tickler-heavy notes [in_progress]"]
-    n16["bob-cli-87.8: Section filter and earlier-snapshot hints [in_progress]"]
-    n17["bob-cli-87.9: Text-layer rule for the default Markdown profile [closed]"]
+    n12["bob-cli-87.3.1: Bob area and project snapshot projection [in_progress]"]
+    n13["bob-cli-87.3.1.1: Source-aware Bob task rows and relationship metadata [closed]"]
+    n14["bob-cli-87.3.1.2: Managed logs, closed appendix, and self-snapshot filtering [in_progress]"]
+    n15["bob-cli-87.3.1.3: Bob masthead, document assembly, and synthetic golden coverage [in_progress]"]
+    n16["bob-cli-87.4: Note print profile and two-step xelatex render [closed]"]
+    n17["bob-cli-87.5: bob ref create integration, provenance, help, and docs [in_progress]"]
+    n18["bob-cli-87.6: Image embeds that print well [in_progress]"]
+    n19["bob-cli-87.7: Waiting-on and Scheduled lanes for tickler-heavy notes [in_progress]"]
+    n20["bob-cli-87.8: Section filter and earlier-snapshot hints [in_progress]"]
+    n21["bob-cli-87.9: Text-layer rule for the default Markdown profile [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -75,29 +83,35 @@ flowchart TD
     n6 --> n9
     n6 --> n10
     n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
+    n11 --> n12
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
     n0 --> n16
     n0 --> n17
-    n1 -.-> n12
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
+    n1 -.-> n16
     n2 -.-> n4
     n3 -.-> n4
     n5 -.-> n11
     n7 -.-> n8
     n8 -.-> n9
     n9 -.-> n10
-    n11 -.-> n13
-    n12 -.-> n13
-    n13 -.-> n2
+    n11 -.-> n17
     n13 -.-> n14
-    n13 -.-> n15
-    n13 -.-> n16
-    n14 -.-> n3
-    n15 -.-> n3
-    n16 -.-> n4
-    n17 -.-> n4
+    n14 -.-> n15
+    n16 -.-> n17
+    n17 -.-> n2
+    n17 -.-> n18
+    n17 -.-> n19
+    n17 -.-> n20
+    n18 -.-> n3
+    n19 -.-> n3
+    n20 -.-> n4
+    n21 -.-> n4
 ```
 
 ## Agents
@@ -114,7 +128,11 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.3/README.md) | [bob-cli-87.2.1.3](bob-cli-87.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.4.md) | [bob-cli-87.2.1.4](bob-cli-87.2.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.land.md) | [bob-cli-87.2.1](bob-cli-87.2.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-87.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3/README.md) | [bob-cli-87.3](bob-cli-87.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.3.md) | [bob-cli-87.3](bob-cli-87.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.1/README.md) | [bob-cli-87.3.1.1](bob-cli-87.3.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-87.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.2/README.md) | [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.3/README.md) | [bob-cli-87.3.1.3](bob-cli-87.3.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.land/README.md) | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.4.md) | [bob-cli-87.4](bob-cli-87.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.5/README.md) | [bob-cli-87.5](bob-cli-87.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.6/README.md) | [bob-cli-87.6](bob-cli-87.6.md) | 0 |
@@ -136,6 +154,7 @@ flowchart TD
 | bob-cli | [`a086cd9`](https://github.com/bobs-org/bob-cli/commit/a086cd9b405cb7ede559163c8625f09aa2605ecd) | feat(note-snapshot): complete bounded transclusions | [bob-cli-87.2.1.4](bob-cli-87.2.1.4.md) | 2026-10-16 10:32:21 EDT |
 | bob-cli | [`71be24a`](https://github.com/bobs-org/bob-cli/commit/71be24aec573ff43d07235fdd4180b781af31d4e) | fix(snapshot): complete view landing repairs | [bob-cli-87.2.1](bob-cli-87.2.1.md) | 2026-10-16 11:29:38 EDT |
 | bob-cli--plans | [`bob-cli--plans@f55b439`](https://github.com/bobs-org/bob-cli--plans/commit/f55b439bfc4dc0dac70d23b46ec5eed1d32e8af7) | docs(snapshot): mark view core plan done | [bob-cli-87.2.1](bob-cli-87.2.1.md) | 2026-10-16 11:31:52 EDT |
+| bob-cli | [`57c3df2`](https://github.com/bobs-org/bob-cli/commit/57c3df2a87a5b8da8b29bc146e0fb2699a5241f2) | feat(snapshot): add source-aware Bob task rows and relationship metadata | [bob-cli-87.3.1.1](bob-cli-87.3.1.1.md) | 2026-10-16 12:17:45 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -144,7 +163,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-87.2.1.1--4][1] | Need governing epic decisions for this implementation phase | 1 |
+| read-by | [agent:bob-cli-87.2.1.land--1][2] | Review the parent epic requirements and record its progress | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.land.md
 
 <!-- sase:referenced-by:end -->

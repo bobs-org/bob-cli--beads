@@ -17,7 +17,7 @@
 | related | file:explicit:015da024c10eb8fd59ecb5fc | attached via sase artifact create --bead |
 | related | file:explicit:28b089609636028ae170391f | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/snapshot_view_core.md
 
@@ -57,9 +57,11 @@ Vault notes project into a tested engine-neutral view and the agreed Markdown co
 | read-by | [agent:bob-cli-87.2.1.1--4][1] | Need governing epic decisions for the model-contract phase | 1 |
 | read-by | [agent:bob-cli-87.2.1.2][2] | parent epic scope | 2 |
 | read-by | [agent:bob-cli-87.2.1.3][3] | need epic DECISIONS for phase work | 1 |
+| read-by | [agent:bob-cli-87.2.1.land--1][4] | Confirm the child epic's direct parent and recorded landing close | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.land.md
 
 <!-- sase:referenced-by:end -->

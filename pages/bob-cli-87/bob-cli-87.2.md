@@ -32,7 +32,9 @@ view-core: build the note_snapshot module. It classifies vault notes, resolves n
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-87.2.1.3][1] | need outer epic DECISIONS | 1 |
+| read-by | [agent:bob-cli-87.2.1.land--1][2] | Verify the enclosing phase lifecycle after closing its child epic | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.land.md
 
 <!-- sase:referenced-by:end -->

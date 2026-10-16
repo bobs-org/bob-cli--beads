@@ -39,7 +39,9 @@ syntax: implement protected-code-aware inline and block projection, resolved lin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-87.2.1.3][1] | check phase notes for prior work remainder | 2 |
+| read-by | [agent:bob-cli-87.2.1.land--1][2] | Review the third completed child scope and notes for landing completeness | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.land.md
 
 <!-- sase:referenced-by:end -->
