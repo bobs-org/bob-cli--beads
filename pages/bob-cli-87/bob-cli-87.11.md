@@ -15,7 +15,7 @@ corpus-gate: add a dev script that renders every area/project note to scratch wi
 
 - **Blocks:** [bob-cli-87.12](bob-cli-87.12.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.6](bob-cli-87.6.md) ✓ · ⧖ 2026-10-16
-- **Depends on:** [bob-cli-87.7](bob-cli-87.7.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-87.7](bob-cli-87.7.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
