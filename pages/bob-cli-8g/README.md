@@ -33,8 +33,8 @@ Vault notes typed `[[article]]` get house-style section numbers (1. / 1.1 / 1.1.
 | [bob-cli-8g.4](bob-cli-8g.4.md) | bob articles group with format, list, and outline | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.5](bob-cli-8g.5.md) | bob articles adopt with preview | ✓ closed | small | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.6](bob-cli-8g.6.md) | Inbound heading links, nightly check, and memory | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [bob-cli-8g.7](bob-cli-8g.7.md) | Vault type note, template, base, and first adoption | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
-| [bob-cli-8g.8](bob-cli-8g.8.md) | bob-articles plugin that formats on save and leave | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-8g.7](bob-cli-8g.7.md) | Vault type note, template, base, and first adoption | ✓ closed | small | 2026-10-16 | 1 | 0 |
+| [bob-cli-8g.8](bob-cli-8g.8.md) | bob-articles plugin that formats on save and leave | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-8g.9](bob-cli-8g.9.md) | Article reading look and live section signals | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 
 ## Lineage
@@ -48,8 +48,8 @@ flowchart TD
     n4["bob-cli-8g.4: bob articles group with format, list, and outline [closed]"]
     n5["bob-cli-8g.5: bob articles adopt with preview [closed]"]
     n6["bob-cli-8g.6: Inbound heading links, nightly check, and memory [closed]"]
-    n7["bob-cli-8g.7: Vault type note, template, base, and first adoption [in_progress]"]
-    n8["bob-cli-8g.8: bob-articles plugin that formats on save and leave [in_progress]"]
+    n7["bob-cli-8g.7: Vault type note, template, base, and first adoption [closed]"]
+    n8["bob-cli-8g.8: bob-articles plugin that formats on save and leave [closed]"]
     n9["bob-cli-8g.9: Article reading look and live section signals [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8g.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.5.md) | [bob-cli-8g.5](bob-cli-8g.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.6/README.md) | [bob-cli-8g.6](bob-cli-8g.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.7/README.md) | [bob-cli-8g.7](bob-cli-8g.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-8g.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.8/README.md) | [bob-cli-8g.8](bob-cli-8g.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8g.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8g.8.md) | [bob-cli-8g.8](bob-cli-8g.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8g.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.9/README.md) | [bob-cli-8g.9](bob-cli-8g.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8g.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.land/README.md) | [bob-cli-8g](README.md) | 0 |
 
@@ -95,3 +95,4 @@ flowchart TD
 | bob-cli | [`ff97c62`](https://github.com/bobs-org/bob-cli/commit/ff97c620d6a15f6a64c46de5e85ae29075a74afb) | feat(articles): add articles vault CLI | [bob-cli-8g.4](bob-cli-8g.4.md) | 2026-10-16 13:28:16 EDT |
 | bob-cli | [`e646cbd`](https://github.com/bobs-org/bob-cli/commit/e646cbd898f54ec99a590ce1ca9eb6ac283148f1) | feat(articles): add adopt with preview and stdin JSON | [bob-cli-8g.5](bob-cli-8g.5.md) | 2026-10-16 14:13:42 EDT |
 | bob-cli | [`93a76ed`](https://github.com/bobs-org/bob-cli/commit/93a76ed3876b4a9221ad258def1cca3ed450e321) | feat(articles): repair inbound heading links and add nightly check | [bob-cli-8g.6](bob-cli-8g.6.md) | 2026-10-16 15:10:35 EDT |
+| bob-plugins | [`bob-plugins@7f9d496`](https://github.com/bobs-org/bob-plugins/commit/7f9d496754991b135f374c7cf0d5e571212fc766) | feat(bob-articles): add article formatting plugin | [bob-cli-8g.8](bob-cli-8g.8.md) | 2026-10-16 15:39:07 EDT |

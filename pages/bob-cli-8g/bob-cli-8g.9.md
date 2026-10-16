@@ -13,7 +13,7 @@ look: scoped article typography, muted tabular section numbers in Live Preview a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8g.8](bob-cli-8g.8.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8g.8](bob-cli-8g.8.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
