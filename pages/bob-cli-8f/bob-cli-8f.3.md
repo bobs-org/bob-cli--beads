@@ -13,7 +13,7 @@ mac_ui: wire ⌘N through RefsKeyRouter, RefsPanelModel, and RefsPanelController
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8f.2](bob-cli-8f.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8f.2](bob-cli-8f.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 

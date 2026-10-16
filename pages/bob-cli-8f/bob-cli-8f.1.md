@@ -69,7 +69,7 @@ cli: add `bob ref today <REF>` to bob-cli. It resolves a reference and its v2 re
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8f.2](bob-cli-8f.2.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8f.2](bob-cli-8f.2.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -82,3 +82,15 @@ cli: add `bob ref today <REF>` to bob-cli. It resolves a reference and its v2 re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a3c2721`](https://github.com/bobs-org/bob-cli/commit/a3c27210555bfaea7a309cf3772ff39a1fcdfd7d) | feat(ref): add bob ref today to link a reading task under today's Pomodoro | [bob-cli-8f.1](bob-cli-8f.1.md) | 2026-10-16 11:17:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8f.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.1/README.md
+
+<!-- sase:referenced-by:end -->
