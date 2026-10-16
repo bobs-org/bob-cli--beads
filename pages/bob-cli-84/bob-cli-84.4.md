@@ -22,7 +22,7 @@ tabs-model: RefsPanelModel gains the presentation source, the `tabsFilter` flag,
 ## Dependencies
 
 - **Depends on:** [bob-cli-84.2](bob-cli-84.2.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-84.5](bob-cli-84.5.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-84.5](bob-cli-84.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -35,3 +35,15 @@ tabs-model: RefsPanelModel gains the presentation source, the `tabsFilter` flag,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@a4009a4`](https://github.com/bobs-org/bob-mac-capture/commit/a4009a44760cfe0085e9beb4c174388a73d45261) | feat(refs): add Highlights tabs model and actions | [bob-cli-84.4](bob-cli-84.4.md) | 2026-10-16 07:23:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-84.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-84.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@ tabs-entry: adds `HotKeyAction.refsHighlightsTabs = 4` with a configurable ⇧�
 
 - **Depends on:** [bob-cli-84.1](bob-cli-84.1.md) ✓ · ⧖ 2026-10-15
 - **Depends on:** [bob-cli-84.3](bob-cli-84.3.md) ✓ · ⧖ 2026-10-15
-- **Depends on:** [bob-cli-84.5](bob-cli-84.5.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-84.5](bob-cli-84.5.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
