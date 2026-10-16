@@ -91,8 +91,10 @@ cli: add `bob ref today <REF>` to bob-cli. It resolves a reference and its v2 re
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-8f.1][1] | Need the phase scope and design file | 3 |
 | read-by | [agent:bob-cli-8f.2][2] | Need real CLI ref-today JSON fixtures and completed contract details | 2 |
+| read-by | [agent:bob-cli-8f.land--2][3] | Need each closed phase's outcomes and follow-up notes before closing the epic | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md
 
 <!-- sase:referenced-by:end -->

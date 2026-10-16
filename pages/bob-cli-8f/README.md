@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/refs_link_to_today.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/refs_link_to_today.md
 
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8f.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.1/README.md) | [bob-cli-8f.1](bob-cli-8f.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8f.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.2/README.md) | [bob-cli-8f.2](bob-cli-8f.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8f.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.3.md) | [bob-cli-8f.3](bob-cli-8f.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md) | [bob-cli-8f](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-8f.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md) | [bob-cli-8f](README.md) | 3 |
 
 ## Commits
 
@@ -76,6 +76,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@3a6db2b`](https://github.com/bobs-org/bob-mac-capture/commit/3a6db2bd120d51a212e5dc0cdf04486b60a2bec1) | feat(refs): wire Link to Today card, toast, and ⌘N routing | [bob-cli-8f.3](bob-cli-8f.3.md) | 2026-10-16 13:18:16 EDT |
 | bob-cli | [`eeeeab0`](https://github.com/bobs-org/bob-cli/commit/eeeeab0f91dd6b600737fc2ef71487c82ac058d4) | fix(refs): track duplicate pomodoro destinations after moves | [bob-cli-8f](README.md) | 2026-10-16 14:34:17 EDT |
 | bob-mac-capture | [`bob-mac-capture@936f232`](https://github.com/bobs-org/bob-mac-capture/commit/936f232fd6e18f30daa0164544fac58f33614266) | fix(refs): harden Link to Today panel flow | [bob-cli-8f](README.md) | 2026-10-16 14:35:27 EDT |
+| bob-cli--plans | [`bob-cli--plans@2c66bcf`](https://github.com/bobs-org/bob-cli--plans/commit/2c66bcfbf70e964e72a35c00322038c53522b5bd) | docs(plan): mark refs today epic done | [bob-cli-8f](README.md) | 2026-10-16 14:36:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -84,7 +85,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-8f.1][1] | Need parent epic scope and remaining phases | 1 |
+| read-by | [agent:bob-cli-8f.land--2][2] | Need the assigned epic scope, child links, and parent status for landing | 5 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md
 
 <!-- sase:referenced-by:end -->

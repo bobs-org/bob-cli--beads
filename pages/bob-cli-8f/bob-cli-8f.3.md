@@ -40,7 +40,9 @@ mac_ui: wire ⌘N through RefsKeyRouter, RefsPanelModel, and RefsPanelController
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-8f.3--2][1] | Need the phase scope, design file, notes, and current status after prior monitor failures | 1 |
+| read-by | [agent:bob-cli-8f.land--2][2] | Need refreshed child status and prior follow-up outcomes before normal epic closure | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md
 
 <!-- sase:referenced-by:end -->

@@ -41,7 +41,9 @@ mac_core: in bob-mac-capture's portable RefsCore/CaptureCore targets, decode the
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-8f.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-8f.land--2][2] | Confirm epic and child outcomes before normal close | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8f.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.land.md
 
 <!-- sase:referenced-by:end -->
