@@ -13,8 +13,8 @@ docs: document the plugin-side emptied-entry rule in bob-cli docs, write the dec
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-88.1](bob-cli-88.1.md) ◐ · ⧖ 2026-10-16
-- **Depends on:** [bob-cli-88.2](bob-cli-88.2.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-88.1](bob-cli-88.1.md) ✓ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-88.2](bob-cli-88.2.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-88.3](bob-cli-88.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
