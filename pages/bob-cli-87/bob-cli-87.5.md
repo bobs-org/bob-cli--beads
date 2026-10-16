@@ -20,7 +20,7 @@ create-wiring: wire everything into create. Covers vault-note and route TARGETs,
 - **Blocks:** [bob-cli-87.10](bob-cli-87.10.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.3](bob-cli-87.3.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.4](bob-cli-87.4.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-87.6](bob-cli-87.6.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.6](bob-cli-87.6.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-87.7](bob-cli-87.7.md) ◐ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-87.8](bob-cli-87.8.md) ◐ · ⧖ 2026-10-16
 
@@ -35,3 +35,15 @@ create-wiring: wire everything into create. Covers vault-note and route TARGETs,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`07fef5f`](https://github.com/bobs-org/bob-cli/commit/07fef5f02c9a572b02ea1a9d7bb1a4f265a2b6eb) | feat(ref): wire note snapshot creation | [bob-cli-87.5](bob-cli-87.5.md) | 2026-10-16 15:40:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.5--2][1] | Need the phase scope and current status before recording completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.5.md
+
+<!-- sase:referenced-by:end -->
