@@ -34,3 +34,15 @@ inbound: rewrite links from other notes when an article's headings change (CLI w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`93a76ed`](https://github.com/bobs-org/bob-cli/commit/93a76ed3876b4a9221ad258def1cca3ed450e321) | feat(articles): repair inbound heading links and add nightly check | [bob-cli-8g.6](bob-cli-8g.6.md) | 2026-10-16 15:10:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.6][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.6/README.md
+
+<!-- sase:referenced-by:end -->
