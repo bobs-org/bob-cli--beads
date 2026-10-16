@@ -21,8 +21,8 @@ tabs-core: pure Foundation types in RefsCore. They cover the snapshot, the reade
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-84.3](bob-cli-84.3.md) ◐ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-84.4](bob-cli-84.4.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-84.3](bob-cli-84.3.md) ✓ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-84.4](bob-cli-84.4.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
@@ -35,3 +35,15 @@ tabs-core: pure Foundation types in RefsCore. They cover the snapshot, the reade
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@94a4e58`](https://github.com/bobs-org/bob-mac-capture/commit/94a4e589b12d45fec7d10347d0bc6931623bf568) | feat(refs): add Highlights tabs snapshot, matcher, ranking, and session | [bob-cli-84.2](bob-cli-84.2.md) | 2026-10-16 06:59:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-84.2--2][1] | Check phase notes for remaining work and follow-ups before verifying | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-84.2.md
+
+<!-- sase:referenced-by:end -->
