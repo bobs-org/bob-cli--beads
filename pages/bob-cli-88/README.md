@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-88.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-88.2/README.md) | [bob-cli-88.2](bob-cli-88.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-88.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-88.3/README.md) | [bob-cli-88.3](bob-cli-88.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-88.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-88.4.md) | [bob-cli-88.4](bob-cli-88.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-88.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-88.land.md) | [bob-cli-88](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-88.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-88.land.md) | [bob-cli-88](README.md) | 2 |
 
 ## Commits
 
@@ -84,6 +84,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@86cebc9`](https://github.com/bobs-org/bob-plugins/commit/86cebc9c4dcf83a238b387127b5eedf8c68f9725) | feat(bob-navigation-hotkeys): delete Pomodoros emptied by every cleanup | [bob-cli-88.1](bob-cli-88.1.md) | 2026-10-16 08:14:53 EDT |
 | bob-cli | [`298ebdf`](https://github.com/bobs-org/bob-cli/commit/298ebdf41b05000189bba7d5af8e64a1a717685e) | docs(task-cleanup): document emptied entry cleanup | [bob-cli-88.4](bob-cli-88.4.md) | 2026-10-16 08:56:10 EDT |
 | bob-plugins | [`bob-plugins@e90c260`](https://github.com/bobs-org/bob-plugins/commit/e90c2603382af8bea8563ef380c6b3db08a24670) | fix(block-id-prompt,task-status-cycler): delete whole emptied Pomodoro blocks with EOF and cursor mapping | [bob-cli-88](README.md) | 2026-10-16 09:38:08 EDT |
+| bob-cli--plans | [`bob-cli--plans@d5d122c`](https://github.com/bobs-org/bob-cli--plans/commit/d5d122c0388ef444423625e2a434c8caf5d5e6c5) | docs(plans): mark emptied\_pomodoro\_cleanup done | [bob-cli-88](README.md) | 2026-10-16 09:39:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
