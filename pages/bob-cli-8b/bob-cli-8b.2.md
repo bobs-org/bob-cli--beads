@@ -22,7 +22,7 @@ protocol: add the `bob capture-templates` group (list default, show, save, delet
 ## Dependencies
 
 - **Depends on:** [bob-cli-8b.1](bob-cli-8b.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8b.3](bob-cli-8b.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8b.3](bob-cli-8b.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -35,3 +35,15 @@ protocol: add the `bob capture-templates` group (list default, show, save, delet
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`31528a1`](https://github.com/bobs-org/bob-cli/commit/31528a11bc3162e80f4e40011af4de4cad64c995) | feat(capture-templates): add saved template protocol | [bob-cli-8b.2](bob-cli-8b.2.md) | 2026-10-16 09:16:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8b.2][1] | Check recorded phase notes before planning | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8b.2/README.md
+
+<!-- sase:referenced-by:end -->

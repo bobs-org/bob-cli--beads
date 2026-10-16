@@ -13,7 +13,7 @@ mac-shelf: the Control-T shelf itself: cache, opening rules, keys, syntax-colore
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8b.3](bob-cli-8b.3.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8b.3](bob-cli-8b.3.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8b.5](bob-cli-8b.5.md) ◐ · ⧖ 2026-10-16
 
 ## Agents
