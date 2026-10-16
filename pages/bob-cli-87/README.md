@@ -40,7 +40,7 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-87.11](bob-cli-87.11.md) | Corpus gate on athena and long-tail fixes | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.12](bob-cli-87.12.md) | Mac acceptance and the real Highlights round trip | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.2](bob-cli-87.2.md) | Snapshot view model and Obsidian layer | ✓ closed | large | 2026-10-16 | 1 | 0 |
-| [bob-cli-87.3](bob-cli-87.3.md) | Bob layer for area and project notes | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
+| [bob-cli-87.3](bob-cli-87.3.md) | Bob layer for area and project notes | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.4](bob-cli-87.4.md) | Note print profile and two-step xelatex render | ✓ closed | large | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.5](bob-cli-87.5.md) | bob ref create integration, provenance, help, and docs | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.6](bob-cli-87.6.md) | Image embeds that print well | ◐ in_progress | small | 2026-10-16 | 1 | 0 |
@@ -63,8 +63,8 @@ flowchart TD
     n8["bob-cli-87.2.1.2: Snapshot classification and cached vault resolution [closed]"]
     n9["bob-cli-87.2.1.3: Obsidian syntax and checkbox projection [closed]"]
     n10["bob-cli-87.2.1.4: Bounded transclusions and complete projection verification [closed]"]
-    n11["bob-cli-87.3: Bob layer for area and project notes [in_progress]"]
-    n12["bob-cli-87.3.1: Bob area and project snapshot projection [in_progress]"]
+    n11["bob-cli-87.3: Bob layer for area and project notes [closed]"]
+    n12["bob-cli-87.3.1: Bob area and project snapshot projection [closed]"]
     n13["bob-cli-87.3.1.1: Source-aware Bob task rows and relationship metadata [closed]"]
     n14["bob-cli-87.3.1.2: Managed logs, closed appendix, and self-snapshot filtering [closed]"]
     n15["bob-cli-87.3.1.3: Bob masthead, document assembly, and synthetic golden coverage [closed]"]
@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.1/README.md) | [bob-cli-87.3.1.1](bob-cli-87.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.2/README.md) | [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.3.1.3.md) | [bob-cli-87.3.1.3](bob-cli-87.3.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.3.1.land/README.md) | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.3.1.land.md) | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.4.md) | [bob-cli-87.4](bob-cli-87.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.5/README.md) | [bob-cli-87.5](bob-cli-87.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.6/README.md) | [bob-cli-87.6](bob-cli-87.6.md) | 0 |
@@ -159,6 +159,7 @@ flowchart TD
 | bob-cli | [`57c3df2`](https://github.com/bobs-org/bob-cli/commit/57c3df2a87a5b8da8b29bc146e0fb2699a5241f2) | feat(snapshot): add source-aware Bob task rows and relationship metadata | [bob-cli-87.3.1.1](bob-cli-87.3.1.1.md) | 2026-10-16 12:17:45 EDT |
 | bob-cli | [`87bc784`](https://github.com/bobs-org/bob-cli/commit/87bc78442fe71c511797751289c84f03ed67b8de) | feat(note-snapshot): condense logs, omit closed tasks, filter self-snapshots | [bob-cli-87.3.1.2](bob-cli-87.3.1.2.md) | 2026-10-16 12:48:25 EDT |
 | bob-cli | [`6c53e13`](https://github.com/bobs-org/bob-cli/commit/6c53e13866b9d4d1336d5a9f147a44c54659f89b) | feat(note-snapshot): compose Bob mastheads and deterministic goldens | [bob-cli-87.3.1.3](bob-cli-87.3.1.3.md) | 2026-10-16 13:41:27 EDT |
+| bob-cli | [`16c4640`](https://github.com/bobs-org/bob-cli/commit/16c4640a6135e193de504b83532b12ad1a933d00) | fix(snapshot): finish Bob projection landing repairs | [bob-cli-87.3.1](bob-cli-87.3.1.md) | 2026-10-16 14:29:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

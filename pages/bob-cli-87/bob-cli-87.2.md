@@ -17,7 +17,7 @@ view-core: build the note_snapshot module. It classifies vault notes, resolves n
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.3](bob-cli-87.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.3](bob-cli-87.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
