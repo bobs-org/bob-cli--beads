@@ -14,7 +14,7 @@ ax-reader: `AXHighlightsTabsReader` in BobMacCapture implements the RefsCore rea
 ## Dependencies
 
 - **Depends on:** [bob-cli-84.1](bob-cli-84.1.md) ✓ · ⧖ 2026-10-15
-- **Depends on:** [bob-cli-84.2](bob-cli-84.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-84.2](bob-cli-84.2.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-84.6](bob-cli-84.6.md) ◐ · ⧖ 2026-10-15
 
 ## Agents

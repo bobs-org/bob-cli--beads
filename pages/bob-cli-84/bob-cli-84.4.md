@@ -13,7 +13,7 @@ tabs-model: RefsPanelModel gains the presentation source, the `tabsFilter` flag,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-84.2](bob-cli-84.2.md) ◐ · ⧖ 2026-10-15
+- **Depends on:** [bob-cli-84.2](bob-cli-84.2.md) ✓ · ⧖ 2026-10-15
 - **Blocks:** [bob-cli-84.5](bob-cli-84.5.md) ◐ · ⧖ 2026-10-15
 
 ## Agents
