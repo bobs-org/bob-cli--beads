@@ -18,7 +18,7 @@ mac-shelf: the Control-T shelf itself: cache, opening rules, keys, syntax-colore
 ## Dependencies
 
 - **Depends on:** [bob-cli-8b.3](bob-cli-8b.3.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8b.5](bob-cli-8b.5.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8b.5](bob-cli-8b.5.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -31,3 +31,15 @@ mac-shelf: the Control-T shelf itself: cache, opening rules, keys, syntax-colore
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@ee08ca7`](https://github.com/bobs-org/bob-mac-capture/commit/ee08ca7a4f8d7fc88fcd21067b2deab9f97b8b46) | feat(mac-capture): add Control-T saved-template shelf | [bob-cli-8b.4](bob-cli-8b.4.md) | 2026-10-16 11:01:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8b.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8b.4/README.md
+
+<!-- sase:referenced-by:end -->
