@@ -22,7 +22,7 @@ engine: bob-cli src/native/articles/ pure core: article marker and refusals, blo
 ## Dependencies
 
 - **Blocks:** [bob-cli-8g.2](bob-cli-8g.2.md) ◐ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8g.3](bob-cli-8g.3.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8g.3](bob-cli-8g.3.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -35,3 +35,15 @@ engine: bob-cli src/native/articles/ pure core: article marker and refusals, blo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8e96375`](https://github.com/bobs-org/bob-cli/commit/8e9637538ecee897cb0bbc5809c0e056cf311d7f) | feat(articles): add pure article formatter core | [bob-cli-8g.1](bob-cli-8g.1.md) | 2026-10-16 12:04:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.1][1] | Need the phase scope and design file for number-replaced finding contract | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.1/README.md
+
+<!-- sase:referenced-by:end -->
