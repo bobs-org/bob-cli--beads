@@ -32,3 +32,15 @@ mac_ui: wire ⌘N through RefsKeyRouter, RefsPanelModel, and RefsPanelController
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@3a6db2b`](https://github.com/bobs-org/bob-mac-capture/commit/3a6db2bd120d51a212e5dc0cdf04486b60a2bec1) | feat(refs): wire Link to Today card, toast, and ⌘N routing | [bob-cli-8f.3](bob-cli-8f.3.md) | 2026-10-16 13:18:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8f.3--2][1] | Need the phase scope, design file, notes, and current status after prior monitor failures | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8f.3.md
+
+<!-- sase:referenced-by:end -->
