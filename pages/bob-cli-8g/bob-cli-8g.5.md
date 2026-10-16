@@ -13,7 +13,7 @@ adopt: `bob articles adopt NOTE` inserts `type: "[[article]]"` plus the first fo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8g.4](bob-cli-8g.4.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [bob-cli-8g.4](bob-cli-8g.4.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [bob-cli-8g.6](bob-cli-8g.6.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

@@ -20,7 +20,7 @@ links: heading identity and in-note link refresh, the report-only findings, the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-8g.1](bob-cli-8g.1.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [bob-cli-8g.4](bob-cli-8g.4.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-8g.4](bob-cli-8g.4.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ links: heading identity and in-note link refresh, the report-only findings, the 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`280321a`](https://github.com/bobs-org/bob-cli/commit/280321a33eb0c3a4c791e0ec70b74e61eb8e2b7d) | feat(articles): add structured outline and link planning | [bob-cli-8g.2](bob-cli-8g.2.md) | 2026-10-16 12:48:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8g.2][1] | Check existing phase notes before planning the remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8g.2/README.md
+
+<!-- sase:referenced-by:end -->
