@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-84](README.md) / bob-cli-84.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.7w](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.7w.md) · **Assignee:** `bob-cli-84.6` · **Size:** medium
-**Created:** 2026-10-15 17:50:48 EDT
+**Created:** 2026-10-15 17:50:48 EDT · **Closed:** 2026-10-16 08:14:31 EDT
 **Plan:** [202610/highlights\_tabs\_switcher.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/highlights_tabs_switcher.md)
 
 ## Description
@@ -14,6 +14,8 @@ tabs-entry: adds `HotKeyAction.refsHighlightsTabs = 4` with a configurable ⇧�
 ## Notes
 
 [2026-10-16T12:13:22Z · bob-cli-84.6--2] PROPOSED FOLLOW-UP: Add a decisions record for the Highlights-only Accessibility tab reader — the epic plan explicitly selected decision_record=no, so document the approved scope in a future authorized memory change.
+
+[2026-10-16T12:14:31Z · bob-cli-84.6--2] Committed Tabs entry wiring, settings, and docs (1e2a9bd); Athena just portable-check passed lint, build, and 1,236 tests, and git diff --check was clean. Mac bundle/typecheck and Mac swift-format remain unverified because SSH to mac timed out.
 
 ## Dependencies
 
@@ -32,3 +34,15 @@ tabs-entry: adds `HotKeyAction.refsHighlightsTabs = 4` with a configurable ⇧�
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@1e2a9bd`](https://github.com/bobs-org/bob-mac-capture/commit/1e2a9bd1c3766368b651bc8bf9032e7c8ece13f9) | feat(refs): wire Highlights Tabs entry point and settings | [bob-cli-84.6](bob-cli-84.6.md) | 2026-10-16 08:13:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-84.6--2][1] | Need the phase scope, design file, and prior notes before continuing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-84.6.md
+
+<!-- sase:referenced-by:end -->

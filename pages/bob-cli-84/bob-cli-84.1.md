@@ -22,7 +22,7 @@ signing: `just install` signs with a stable self-signed "Bob Mac Capture Local" 
 ## Dependencies
 
 - **Blocks:** [bob-cli-84.3](bob-cli-84.3.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-84.6](bob-cli-84.6.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-84.6](bob-cli-84.6.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 

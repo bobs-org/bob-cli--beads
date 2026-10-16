@@ -22,7 +22,7 @@ tabs-views: the Tabs token and "9 tabs" count in the search bar, the In Highligh
 ## Dependencies
 
 - **Depends on:** [bob-cli-84.4](bob-cli-84.4.md) ✓ · ⧖ 2026-10-15
-- **Blocks:** [bob-cli-84.6](bob-cli-84.6.md) ◐ · ⧖ 2026-10-15
+- **Blocks:** [bob-cli-84.6](bob-cli-84.6.md) ✓ · ⧖ 2026-10-15
 
 ## Agents
 
