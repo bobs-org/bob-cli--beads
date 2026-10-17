@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ctrl_enter_capture_and_open.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ctrl_enter_capture_and_open.md
 
 <!-- sase:links:end -->
@@ -29,7 +31,7 @@ In Bob Mac Capture, Control-Return captures the draft, then brings Obsidian forw
 |---|---|---|---|---|---:|---:|
 | [bob-cli-8w.1](bob-cli-8w.1.md) | bob reports which notes a capture should open | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 | [bob-cli-8w.2](bob-cli-8w.2.md) | Obsidian handler that opens several notes and lands on each | ✓ closed | medium | 2026-10-17 | 1 | 0 |
-| [bob-cli-8w.3](bob-cli-8w.3.md) | Portable open plan and URL builder in CaptureCore | ◐ in_progress | small | 2026-10-17 | 1 | 0 |
+| [bob-cli-8w.3](bob-cli-8w.3.md) | Portable open plan and URL builder in CaptureCore | ✓ closed | small | 2026-10-17 | 1 | 1 |
 | [bob-cli-8w.4](bob-cli-8w.4.md) | Control-Return gesture and the open pipeline | ◐ in_progress | medium | 2026-10-17 | 1 | 0 |
 | [bob-cli-8w.5](bob-cli-8w.5.md) | Footer hint, hold-to-reveal destinations, and picker hints | ◐ in_progress | medium | 2026-10-17 | 1 | 0 |
 
@@ -40,7 +42,7 @@ flowchart TD
     n0["bob-cli-8w: Bob Mac Capture Control-Return: capture, then land on it in Obsidian [in_progress]"]
     n1["bob-cli-8w.1: bob reports which notes a capture should open [closed]"]
     n2["bob-cli-8w.2: Obsidian handler that opens several notes and lands on each [closed]"]
-    n3["bob-cli-8w.3: Portable open plan and URL builder in CaptureCore [in_progress]"]
+    n3["bob-cli-8w.3: Portable open plan and URL builder in CaptureCore [closed]"]
     n4["bob-cli-8w.4: Control-Return gesture and the open pipeline [in_progress]"]
     n5["bob-cli-8w.5: Footer hint, hold-to-reveal destinations, and picker hints [in_progress]"]
     n0 --> n1
@@ -60,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-8w.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.1/README.md) | [bob-cli-8w.1](bob-cli-8w.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.2.md) | [bob-cli-8w.2](bob-cli-8w.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-8w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.3/README.md) | [bob-cli-8w.3](bob-cli-8w.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.3/README.md) | [bob-cli-8w.3](bob-cli-8w.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.4/README.md) | [bob-cli-8w.4](bob-cli-8w.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.5/README.md) | [bob-cli-8w.5](bob-cli-8w.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.land/README.md) | [bob-cli-8w](README.md) | 0 |
@@ -70,3 +72,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8b6ca21`](https://github.com/bobs-org/bob-cli/commit/8b6ca217377c327843e28285bce7d7b93a360005) | feat(capture): emit batch-level open\_notes in JSON | [bob-cli-8w.1](bob-cli-8w.1.md) | 2026-10-17 16:34:30 EDT |
+| bob-mac-capture | [`bob-mac-capture@a924620`](https://github.com/bobs-org/bob-mac-capture/commit/a924620ae097ab3ce4865cf2c54c16fbc505a9dc) | feat(capture): add portable open plan and URI builder | [bob-cli-8w.3](bob-cli-8w.3.md) | 2026-10-17 16:45:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8w.1][1] | Need parent epic DECISIONS and full plan context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -21,7 +21,7 @@ bob-open-notes: add the always-present, batch-level `open_notes` array to `bob c
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8w.3](bob-cli-8w.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8w.3](bob-cli-8w.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -34,3 +34,15 @@ bob-open-notes: add the always-present, batch-level `open_notes` array to `bob c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8b6ca21`](https://github.com/bobs-org/bob-cli/commit/8b6ca217377c327843e28285bce7d7b93a360005) | feat(capture): emit batch-level open\_notes in JSON | [bob-cli-8w.1](bob-cli-8w.1.md) | 2026-10-17 16:34:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8w.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.1/README.md
+
+<!-- sase:referenced-by:end -->

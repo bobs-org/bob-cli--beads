@@ -19,7 +19,7 @@ obsidian-open-uri: in bob-plugins, register a read-only `obsidian://bob-open-not
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8w.3](bob-cli-8w.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8w.3](bob-cli-8w.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 

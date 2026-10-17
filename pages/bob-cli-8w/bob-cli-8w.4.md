@@ -13,7 +13,7 @@ mac-ctrl-return: handle Control-Return (with Command-Return as an alias in the e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8w.3](bob-cli-8w.3.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-8w.3](bob-cli-8w.3.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [bob-cli-8w.5](bob-cli-8w.5.md) ◐ · ⧖ 2026-10-17
 
 ## Agents
