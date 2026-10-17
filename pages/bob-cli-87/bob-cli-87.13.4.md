@@ -13,7 +13,7 @@ regate-docs: teach the corpus gate to fail on badge-row, raw-block-id, task-row-
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-87.13.1](bob-cli-87.13.1.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-87.13.1](bob-cli-87.13.1.md) ✓ · ⧖ 2026-10-17
 - **Depends on:** [bob-cli-87.13.2](bob-cli-87.13.2.md) ◐ · ⧖ 2026-10-17
 - **Depends on:** [bob-cli-87.13.3](bob-cli-87.13.3.md) ✓ · ⧖ 2026-10-17
 

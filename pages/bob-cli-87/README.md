@@ -68,7 +68,7 @@ flowchart TD
     n3["bob-cli-87.11: Corpus gate on athena and long-tail fixes [closed]"]
     n4["bob-cli-87.12: Mac acceptance and the real Highlights round trip [closed]"]
     n5["bob-cli-87.13: Finish note snapshots so real area and project notes match the spec [in_progress]"]
-    n6["bob-cli-87.13.1: Projection fixes for badge rows, block-ref labels, file links, and kickers [in_progress]"]
+    n6["bob-cli-87.13.1: Projection fixes for badge rows, block-ref labels, file links, and kickers [closed]"]
     n7["bob-cli-87.13.2: Print profile fixes for task-row layout and image frames [in_progress]"]
     n8["bob-cli-87.13.3: Earlier-snapshot hints and Markdown text-layer leftovers [closed]"]
     n9["bob-cli-87.13.4: Corpus re-gate with residue checks, visual review, and docs [in_progress]"]
@@ -147,7 +147,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.10/README.md) | [bob-cli-87.10](bob-cli-87.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.11.md) | [bob-cli-87.11](bob-cli-87.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.12.md) | [bob-cli-87.12](bob-cli-87.12.md) | 0 |
-| [bbugyi200.athena.bob-cli-87.13.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.13.1/README.md) | [bob-cli-87.13.1](bob-cli-87.13.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.13.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.1.md) | [bob-cli-87.13.1](bob-cli-87.13.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.13.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.2.md) | [bob-cli-87.13.2](bob-cli-87.13.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.13.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.3.md) | [bob-cli-87.13.3](bob-cli-87.13.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.13.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.13.4/README.md) | [bob-cli-87.13.4](bob-cli-87.13.4.md) | 0 |
@@ -195,6 +195,7 @@ flowchart TD
 | bob-cli | [`130a5fd`](https://github.com/bobs-org/bob-cli/commit/130a5fd8311a19fe59accb5ff6545a9ad1db2348) | feat(highlights): add section filters and snapshot hints | [bob-cli-87.8](bob-cli-87.8.md) | 2026-10-16 16:38:36 EDT |
 | bob-cli | [`d114c56`](https://github.com/bobs-org/bob-cli/commit/d114c56288be765a2010de755ea9f4d966192847) | fix(note-snapshot): harden corpus rendering edge cases | [bob-cli-87.11](bob-cli-87.11.md) | 2026-10-16 18:51:18 EDT |
 | bob-cli | [`726fd48`](https://github.com/bobs-org/bob-cli/commit/726fd484c357e35c07a9d9db235ad8f7db935c22) | feat(highlights): polish earlier-snapshot hints and Markdown text layer | [bob-cli-87.13.3](bob-cli-87.13.3.md) | 2026-10-17 10:40:15 EDT |
+| bob-cli | [`9ef336c`](https://github.com/bobs-org/bob-cli/commit/9ef336cccbb9e11a0809ef9669406818df18acfc) | fix(note-snapshot): drop badge rows and resolve vault file links | [bob-cli-87.13.1](bob-cli-87.13.1.md) | 2026-10-17 10:52:16 EDT |
 
 <!-- sase:referenced-by:start -->
 

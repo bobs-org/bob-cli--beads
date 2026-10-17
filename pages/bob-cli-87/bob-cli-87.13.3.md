@@ -30,3 +30,15 @@ create-polish: print earlier snapshots with status and highlight counts, hint pe
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`726fd48`](https://github.com/bobs-org/bob-cli/commit/726fd484c357e35c07a9d9db235ad8f7db935c22) | feat(highlights): polish earlier-snapshot hints and Markdown text layer | [bob-cli-87.13.3](bob-cli-87.13.3.md) | 2026-10-17 10:40:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.13.3--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.3.md
+
+<!-- sase:referenced-by:end -->
