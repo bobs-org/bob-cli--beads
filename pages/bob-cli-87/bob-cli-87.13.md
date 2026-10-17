@@ -7,6 +7,18 @@
 **Created:** 2026-10-17 10:11:18 EDT
 **Plan:** [202610/note\_snapshot\_landing\_repairs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/note_snapshot_landing_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/note_snapshot_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/note_snapshot_landing_repairs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every `bob ref create <area or project note>` snapshot matches the bob-cli-87 visual spec and content policy on the real vault: status glyphs sit on the first line of their task text, no stale status-chip row or raw `^block-id` labels appear, links to existing vault files resolve, images are framed, earlier-snapshot hints follow the plan, and the docs record what was verified on athena and the Mac.
