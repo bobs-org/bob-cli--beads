@@ -13,7 +13,7 @@ mac-open-core: in bob-mac-capture's CaptureCore, decode `open_notes` and add `Ca
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8w.1](bob-cli-8w.1.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-8w.1](bob-cli-8w.1.md) ✓ · ⧖ 2026-10-17
 - **Depends on:** [bob-cli-8w.2](bob-cli-8w.2.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [bob-cli-8w.4](bob-cli-8w.4.md) ◐ · ⧖ 2026-10-17
 
