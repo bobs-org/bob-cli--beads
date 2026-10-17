@@ -17,7 +17,7 @@ contract: write the Blocks… stage contract as docs/task-dependencies.md §15 (
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8x.2](bob-cli-8x.2.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8x.2](bob-cli-8x.2.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -30,3 +30,15 @@ contract: write the Blocks… stage contract as docs/task-dependencies.md §15 (
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`30bdfb8`](https://github.com/bobs-org/bob-cli/commit/30bdfb8900be9cc7a24dc534e73f9e0712a2b5c7) | docs(task-dependencies): document reverse Blocks stage contract | [bob-cli-8x.1](bob-cli-8x.1.md) | 2026-10-17 17:26:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8x.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.1/README.md
+
+<!-- sase:referenced-by:end -->

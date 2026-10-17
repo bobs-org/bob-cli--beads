@@ -13,7 +13,7 @@ stage: add showBlocksStage to the property picker. It reuses the vault pool and 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8x.2](bob-cli-8x.2.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-8x.2](bob-cli-8x.2.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [bob-cli-8x.4](bob-cli-8x.4.md) ◐ · ⧖ 2026-10-17
 
 ## Agents
