@@ -20,7 +20,7 @@ writer: add a nav writer that puts sources N onto many dependents T across notes
 ## Dependencies
 
 - **Depends on:** [bob-cli-8x.1](bob-cli-8x.1.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8x.3](bob-cli-8x.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8x.3](bob-cli-8x.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
