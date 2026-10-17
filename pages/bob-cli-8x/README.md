@@ -30,7 +30,7 @@ In Obsidian, Ctrl+Shift+Alt+B on task N (Task Card ⇧B) opens a Blocks… stage
 | [bob-cli-8x.1](bob-cli-8x.1.md) | Blocks stage contract and RB vectors in the bob-cli docs | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 | [bob-cli-8x.2](bob-cli-8x.2.md) | Reverse dependency writer with forward-parity tests | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 | [bob-cli-8x.3](bob-cli-8x.3.md) | The Blocks… stage modal | ✓ closed | medium | 2026-10-17 | 1 | 1 |
-| [bob-cli-8x.4](bob-cli-8x.4.md) | Task Card ⇧B row, Ctrl+Shift+Alt+B, and every other entry point | ◐ in_progress | medium | 2026-10-17 | 1 | 0 |
+| [bob-cli-8x.4](bob-cli-8x.4.md) | Task Card ⇧B row, Ctrl+Shift+Alt+B, and every other entry point | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 | [bob-cli-8x.5](bob-cli-8x.5.md) | BLOCKS chip ＋ / × through api.blocks | ◐ in_progress | small | 2026-10-17 | 1 | 0 |
 | [bob-cli-8x.6](bob-cli-8x.6.md) | README, manifests, glossary, and the final sweep | ◐ in_progress | small | 2026-10-17 | 1 | 0 |
 
@@ -42,7 +42,7 @@ flowchart TD
     n1["bob-cli-8x.1: Blocks stage contract and RB vectors in the bob-cli docs [closed]"]
     n2["bob-cli-8x.2: Reverse dependency writer with forward-parity tests [closed]"]
     n3["bob-cli-8x.3: The Blocks… stage modal [closed]"]
-    n4["bob-cli-8x.4: Task Card ⇧B row, Ctrl+Shift+Alt+B, and every other entry point [in_progress]"]
+    n4["bob-cli-8x.4: Task Card ⇧B row, Ctrl+Shift+Alt+B, and every other entry point [closed]"]
     n5["bob-cli-8x.5: BLOCKS chip ＋ / × through api.blocks [in_progress]"]
     n6["bob-cli-8x.6: README, manifests, glossary, and the final sweep [in_progress]"]
     n0 --> n1
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-8x.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.1/README.md) | [bob-cli-8x.1](bob-cli-8x.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.2/README.md) | [bob-cli-8x.2](bob-cli-8x.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.3/README.md) | [bob-cli-8x.3](bob-cli-8x.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-8x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.4/README.md) | [bob-cli-8x.4](bob-cli-8x.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-8x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.4/README.md) | [bob-cli-8x.4](bob-cli-8x.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.5/README.md) | [bob-cli-8x.5](bob-cli-8x.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-8x.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.6/README.md) | [bob-cli-8x.6](bob-cli-8x.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-8x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.land/README.md) | [bob-cli-8x](README.md) | 0 |
@@ -78,3 +78,4 @@ flowchart TD
 | bob-cli | [`30bdfb8`](https://github.com/bobs-org/bob-cli/commit/30bdfb8900be9cc7a24dc534e73f9e0712a2b5c7) | docs(task-dependencies): document reverse Blocks stage contract | [bob-cli-8x.1](bob-cli-8x.1.md) | 2026-10-17 17:26:11 EDT |
 | bob-plugins | [`bob-plugins@8ca6a65`](https://github.com/bobs-org/bob-plugins/commit/8ca6a65eeca6b6f34403ae2e9840896e42a8cf1a) | feat(nav): add reverse Blocks writer with forward-parity tests | [bob-cli-8x.2](bob-cli-8x.2.md) | 2026-10-17 18:22:11 EDT |
 | bob-plugins | [`bob-plugins@e3f3329`](https://github.com/bobs-org/bob-plugins/commit/e3f3329d9843cb6dbc2200652cf24754191720ca) | feat(nav): add reverse Blocks stage modal | [bob-cli-8x.3](bob-cli-8x.3.md) | 2026-10-17 19:04:26 EDT |
+| bob-plugins | [`bob-plugins@10d12f4`](https://github.com/bobs-org/bob-plugins/commit/10d12f42aeb3944fe0ed54fa7c3c3da5c501486c) | feat(navigation): add Task Card Blocks entry points | [bob-cli-8x.4](bob-cli-8x.4.md) | 2026-10-17 19:28:45 EDT |

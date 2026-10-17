@@ -13,7 +13,7 @@ chips: in bob-ledger-tools, give open-owner BLOCKS chip rows a ＋ that calls ap
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8x.4](bob-cli-8x.4.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-8x.4](bob-cli-8x.4.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [bob-cli-8x.6](bob-cli-8x.6.md) ◐ · ⧖ 2026-10-17
 
 ## Agents

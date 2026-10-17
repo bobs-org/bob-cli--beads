@@ -20,7 +20,7 @@ stage: add showBlocksStage to the property picker. It reuses the vault pool and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-8x.2](bob-cli-8x.2.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8x.4](bob-cli-8x.4.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8x.4](bob-cli-8x.4.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -33,3 +33,15 @@ stage: add showBlocksStage to the property picker. It reuses the vault pool and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@e3f3329`](https://github.com/bobs-org/bob-plugins/commit/e3f3329d9843cb6dbc2200652cf24754191720ca) | feat(nav): add reverse Blocks stage modal | [bob-cli-8x.3](bob-cli-8x.3.md) | 2026-10-17 19:04:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8x.3][1] | Need the phase scope, design file, notes, and DECISIONS before close-out | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.3/README.md
+
+<!-- sase:referenced-by:end -->
