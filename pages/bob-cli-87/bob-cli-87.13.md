@@ -23,6 +23,10 @@
 
 Every `bob ref create <area or project note>` snapshot matches the bob-cli-87 visual spec and content policy on the real vault: status glyphs sit on the first line of their task text, no stale status-chip row or raw `^block-id` labels appear, links to existing vault files resolve, images are framed, earlier-snapshot hints follow the plan, and the docs record what was verified on athena and the Mac.
 
+## Notes
+
+[2026-10-17T22:00:05Z · bob-cli-8w.land] DISCOVERED ISSUE (from bob-cli-8w.land, triaging bob-cli-8w.1 PROPOSED FOLLOW-UP #1/#2): cargo test --lib pandoc_maps_every_contract_construct_to_tex fails on bob-cli master 30bdfb89 — panic 'lifted link' at src/native/highlights_ref/note_snapshot/profile.rs:946 (the expected \hyperref[t-next]{visible link\BobTag{ᵇ}} is missing from the emitted TeX). bob-cli-87.land note #5 recorded this test passing at 5af6521; the only note_snapshot commits since are 9ef336cc (bob-cli-87.13.1) and 2ae12515 (bob-cli-87.13.2, hang-indent task rows), so this child epic's work most likely changed the emitted TeX and the expectation or projection now needs repair. Impact: just check fails for every agent at the lib-test step. Not caused by bob-cli-8w; no new task filed because it belongs to this active epic.
+
 ## Agents
 
 | Agent | Bead | Commits |

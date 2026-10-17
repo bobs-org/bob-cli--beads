@@ -17,7 +17,7 @@ create-polish: print earlier snapshots with status and highlight counts, hint pe
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.13.4](bob-cli-87.13.4.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-87.13.4](bob-cli-87.13.4.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 

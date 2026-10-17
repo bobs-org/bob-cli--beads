@@ -21,7 +21,7 @@ profile-fixes: put each status glyph on the first line of its task text with a h
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.13.4](bob-cli-87.13.4.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-87.13.4](bob-cli-87.13.4.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -34,3 +34,15 @@ profile-fixes: put each status glyph on the first line of its task text with a h
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2ae1251`](https://github.com/bobs-org/bob-cli/commit/2ae1251512e06db6fb0a2c9a1360ac48ec80aa5e) | fix(note-snapshot): hang-indent task rows and hairline image frames | [bob-cli-87.13.2](bob-cli-87.13.2.md) | 2026-10-17 11:29:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.13.2--4][1] | Need phase status, notes, and whether close already landed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.2.md
+
+<!-- sase:referenced-by:end -->

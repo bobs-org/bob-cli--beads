@@ -17,7 +17,7 @@ projection-fixes: drop generated status-chip rows from real notes, label same-no
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.13.4](bob-cli-87.13.4.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-87.13.4](bob-cli-87.13.4.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
