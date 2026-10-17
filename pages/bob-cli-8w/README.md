@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.3/README.md) | [bob-cli-8w.3](bob-cli-8w.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.4.md) | [bob-cli-8w.4](bob-cli-8w.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.5/README.md) | [bob-cli-8w.5](bob-cli-8w.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.land.md) | [bob-cli-8w](README.md) | 3 |
+| [bbugyi200.apollo.bob-cli-8w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.land.md) | [bob-cli-8w](README.md) | 4 |
 
 ## Commits
 
@@ -108,6 +108,7 @@ flowchart TD
 | bob-cli | [`4052bd7`](https://github.com/bobs-org/bob-cli/commit/4052bd7779b1867e6c48e7f70748de3b75021055) | fix(capture): land open\_notes on the written task and day file | [bob-cli-8w](README.md) | 2026-10-17 18:47:01 EDT |
 | bob-mac-capture | [`bob-mac-capture@46342ab`](https://github.com/bobs-org/bob-mac-capture/commit/46342ab86c987c0021f1fdc29ad8bff4927ad4df) | fix(capture): Control-Return open intent, modifiers, and decode | [bob-cli-8w](README.md) | 2026-10-17 18:47:43 EDT |
 | bob-plugins | [`bob-plugins@1b74d6c`](https://github.com/bobs-org/bob-plugins/commit/1b74d6c4b7635c348afe758d22b3b00511678bc9) | fix(bob-navigation-hotkeys): reuse empty tabs and share Go To helpers | [bob-cli-8w](README.md) | 2026-10-17 18:48:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@2f18e05`](https://github.com/bobs-org/bob-cli--plans/commit/2f18e05893d5fe6ce94572d4f71473534b9e5714) | docs(plans): mark bob-cli-8w epic and landing tale done | [bob-cli-8w](README.md) | 2026-10-17 18:48:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
