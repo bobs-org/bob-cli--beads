@@ -19,7 +19,7 @@ mac-open-core: in bob-mac-capture's CaptureCore, decode `open_notes` and add `Ca
 
 - **Depends on:** [bob-cli-8w.1](bob-cli-8w.1.md) ✓ · ⧖ 2026-10-17
 - **Depends on:** [bob-cli-8w.2](bob-cli-8w.2.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8w.4](bob-cli-8w.4.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8w.4](bob-cli-8w.4.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -32,3 +32,15 @@ mac-open-core: in bob-mac-capture's CaptureCore, decode `open_notes` and add `Ca
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@a924620`](https://github.com/bobs-org/bob-mac-capture/commit/a924620ae097ab3ce4865cf2c54c16fbc505a9dc) | feat(capture): add portable open plan and URI builder | [bob-cli-8w.3](bob-cli-8w.3.md) | 2026-10-17 16:45:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8w.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.3/README.md
+
+<!-- sase:referenced-by:end -->

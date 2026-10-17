@@ -13,7 +13,7 @@ mac-open-affordances: add the footer `⌃↩ Open` chip and a destinations capsu
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8w.4](bob-cli-8w.4.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-8w.4](bob-cli-8w.4.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
