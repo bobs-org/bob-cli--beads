@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.3/README.md) | [bob-cli-8w.3](bob-cli-8w.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.4.md) | [bob-cli-8w.4](bob-cli-8w.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.5/README.md) | [bob-cli-8w.5](bob-cli-8w.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.land.md) | [bob-cli-8w](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-8w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.land.md) | [bob-cli-8w](README.md) | 2 |
 
 ## Commits
 
@@ -106,6 +106,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@57406f8`](https://github.com/bobs-org/bob-mac-capture/commit/57406f81d47b52cb5e22b9675a01aae98e0cf446) | feat(capture): add Control-Return open pipeline | [bob-cli-8w.4](bob-cli-8w.4.md) | 2026-10-17 17:06:24 EDT |
 | bob-mac-capture | [`bob-mac-capture@04a9d62`](https://github.com/bobs-org/bob-mac-capture/commit/04a9d627e770cb4f3e5489d8c6e985c6d5d94097) | feat(mac-capture): add Control-Return open chip and destination hints | [bob-cli-8w.5](bob-cli-8w.5.md) | 2026-10-17 17:37:51 EDT |
 | bob-cli | [`4052bd7`](https://github.com/bobs-org/bob-cli/commit/4052bd7779b1867e6c48e7f70748de3b75021055) | fix(capture): land open\_notes on the written task and day file | [bob-cli-8w](README.md) | 2026-10-17 18:47:01 EDT |
+| bob-mac-capture | [`bob-mac-capture@46342ab`](https://github.com/bobs-org/bob-mac-capture/commit/46342ab86c987c0021f1fdc29ad8bff4927ad4df) | fix(capture): Control-Return open intent, modifiers, and decode | [bob-cli-8w](README.md) | 2026-10-17 18:47:43 EDT |
 
 <!-- sase:referenced-by:start -->
 
