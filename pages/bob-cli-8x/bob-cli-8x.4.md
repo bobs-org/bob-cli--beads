@@ -20,7 +20,7 @@ entry: add the Task Card Blocks… row (key ⇧B), the task-card-blocks command 
 ## Dependencies
 
 - **Depends on:** [bob-cli-8x.3](bob-cli-8x.3.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8x.5](bob-cli-8x.5.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8x.5](bob-cli-8x.5.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [bob-cli-8x.6](bob-cli-8x.6.md) ◐ · ⧖ 2026-10-17
 
 ## Agents
@@ -34,3 +34,15 @@ entry: add the Task Card Blocks… row (key ⇧B), the task-card-blocks command 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@10d12f4`](https://github.com/bobs-org/bob-plugins/commit/10d12f42aeb3944fe0ed54fa7c3c3da5c501486c) | feat(navigation): add Task Card Blocks entry points | [bob-cli-8x.4](bob-cli-8x.4.md) | 2026-10-17 19:28:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8x.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.4/README.md
+
+<!-- sase:referenced-by:end -->

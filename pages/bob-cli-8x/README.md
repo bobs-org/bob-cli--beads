@@ -31,7 +31,7 @@ In Obsidian, Ctrl+Shift+Alt+B on task N (Task Card ⇧B) opens a Blocks… stage
 | [bob-cli-8x.2](bob-cli-8x.2.md) | Reverse dependency writer with forward-parity tests | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 | [bob-cli-8x.3](bob-cli-8x.3.md) | The Blocks… stage modal | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 | [bob-cli-8x.4](bob-cli-8x.4.md) | Task Card ⇧B row, Ctrl+Shift+Alt+B, and every other entry point | ✓ closed | medium | 2026-10-17 | 1 | 1 |
-| [bob-cli-8x.5](bob-cli-8x.5.md) | BLOCKS chip ＋ / × through api.blocks | ◐ in_progress | small | 2026-10-17 | 1 | 0 |
+| [bob-cli-8x.5](bob-cli-8x.5.md) | BLOCKS chip ＋ / × through api.blocks | ✓ closed | small | 2026-10-17 | 1 | 1 |
 | [bob-cli-8x.6](bob-cli-8x.6.md) | README, manifests, glossary, and the final sweep | ◐ in_progress | small | 2026-10-17 | 1 | 0 |
 
 ## Lineage
@@ -43,7 +43,7 @@ flowchart TD
     n2["bob-cli-8x.2: Reverse dependency writer with forward-parity tests [closed]"]
     n3["bob-cli-8x.3: The Blocks… stage modal [closed]"]
     n4["bob-cli-8x.4: Task Card ⇧B row, Ctrl+Shift+Alt+B, and every other entry point [closed]"]
-    n5["bob-cli-8x.5: BLOCKS chip ＋ / × through api.blocks [in_progress]"]
+    n5["bob-cli-8x.5: BLOCKS chip ＋ / × through api.blocks [closed]"]
     n6["bob-cli-8x.6: README, manifests, glossary, and the final sweep [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-8x.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.2/README.md) | [bob-cli-8x.2](bob-cli-8x.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.3/README.md) | [bob-cli-8x.3](bob-cli-8x.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.4/README.md) | [bob-cli-8x.4](bob-cli-8x.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-8x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.5/README.md) | [bob-cli-8x.5](bob-cli-8x.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-8x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.5/README.md) | [bob-cli-8x.5](bob-cli-8x.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.6/README.md) | [bob-cli-8x.6](bob-cli-8x.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-8x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.land/README.md) | [bob-cli-8x](README.md) | 0 |
 
@@ -79,3 +79,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8ca6a65`](https://github.com/bobs-org/bob-plugins/commit/8ca6a65eeca6b6f34403ae2e9840896e42a8cf1a) | feat(nav): add reverse Blocks writer with forward-parity tests | [bob-cli-8x.2](bob-cli-8x.2.md) | 2026-10-17 18:22:11 EDT |
 | bob-plugins | [`bob-plugins@e3f3329`](https://github.com/bobs-org/bob-plugins/commit/e3f3329d9843cb6dbc2200652cf24754191720ca) | feat(nav): add reverse Blocks stage modal | [bob-cli-8x.3](bob-cli-8x.3.md) | 2026-10-17 19:04:26 EDT |
 | bob-plugins | [`bob-plugins@10d12f4`](https://github.com/bobs-org/bob-plugins/commit/10d12f42aeb3944fe0ed54fa7c3c3da5c501486c) | feat(navigation): add Task Card Blocks entry points | [bob-cli-8x.4](bob-cli-8x.4.md) | 2026-10-17 19:28:45 EDT |
+| bob-plugins | [`bob-plugins@254b32b`](https://github.com/bobs-org/bob-plugins/commit/254b32ba0ee7e54fc0a922de9fbf501701ae9540) | feat(ledger-tools): add BLOCKS chip ＋ / × through api.blocks | [bob-cli-8x.5](bob-cli-8x.5.md) | 2026-10-17 19:54:07 EDT |

@@ -14,7 +14,7 @@ publish: document Ctrl+Shift+Alt+B and ⇧B in the bob-plugins README, deduplica
 ## Dependencies
 
 - **Depends on:** [bob-cli-8x.4](bob-cli-8x.4.md) ✓ · ⧖ 2026-10-17
-- **Depends on:** [bob-cli-8x.5](bob-cli-8x.5.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-8x.5](bob-cli-8x.5.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
