@@ -18,7 +18,7 @@ mac-ctrl-return: handle Control-Return (with Command-Return as an alias in the e
 ## Dependencies
 
 - **Depends on:** [bob-cli-8w.3](bob-cli-8w.3.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8w.5](bob-cli-8w.5.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8w.5](bob-cli-8w.5.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -31,3 +31,15 @@ mac-ctrl-return: handle Control-Return (with Command-Return as an alias in the e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@57406f8`](https://github.com/bobs-org/bob-mac-capture/commit/57406f81d47b52cb5e22b9675a01aae98e0cf446) | feat(capture): add Control-Return open pipeline | [bob-cli-8w.4](bob-cli-8w.4.md) | 2026-10-17 17:06:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8w.4--1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.4.md
+
+<!-- sase:referenced-by:end -->

@@ -37,7 +37,7 @@ In Bob Mac Capture, Control-Return captures the draft, then brings Obsidian forw
 | [bob-cli-8w.2](bob-cli-8w.2.md) | Obsidian handler that opens several notes and lands on each | ✓ closed | medium | 2026-10-17 | 1 | 0 |
 | [bob-cli-8w.3](bob-cli-8w.3.md) | Portable open plan and URL builder in CaptureCore | ✓ closed | small | 2026-10-17 | 1 | 1 |
 | [bob-cli-8w.4](bob-cli-8w.4.md) | Control-Return gesture and the open pipeline | ✓ closed | medium | 2026-10-17 | 1 | 1 |
-| [bob-cli-8w.5](bob-cli-8w.5.md) | Footer hint, hold-to-reveal destinations, and picker hints | ◐ in_progress | medium | 2026-10-17 | 1 | 0 |
+| [bob-cli-8w.5](bob-cli-8w.5.md) | Footer hint, hold-to-reveal destinations, and picker hints | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 
 ## Lineage
 
@@ -48,7 +48,7 @@ flowchart TD
     n2["bob-cli-8w.2: Obsidian handler that opens several notes and lands on each [closed]"]
     n3["bob-cli-8w.3: Portable open plan and URL builder in CaptureCore [closed]"]
     n4["bob-cli-8w.4: Control-Return gesture and the open pipeline [closed]"]
-    n5["bob-cli-8w.5: Footer hint, hold-to-reveal destinations, and picker hints [in_progress]"]
+    n5["bob-cli-8w.5: Footer hint, hold-to-reveal destinations, and picker hints [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-8w.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.2.md) | [bob-cli-8w.2](bob-cli-8w.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-8w.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.3/README.md) | [bob-cli-8w.3](bob-cli-8w.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.4.md) | [bob-cli-8w.4](bob-cli-8w.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-8w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.5/README.md) | [bob-cli-8w.5](bob-cli-8w.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-8w.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.5/README.md) | [bob-cli-8w.5](bob-cli-8w.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-8w.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.land/README.md) | [bob-cli-8w](README.md) | 0 |
 
 ## Commits
@@ -78,6 +78,7 @@ flowchart TD
 | bob-cli | [`8b6ca21`](https://github.com/bobs-org/bob-cli/commit/8b6ca217377c327843e28285bce7d7b93a360005) | feat(capture): emit batch-level open\_notes in JSON | [bob-cli-8w.1](bob-cli-8w.1.md) | 2026-10-17 16:34:30 EDT |
 | bob-mac-capture | [`bob-mac-capture@a924620`](https://github.com/bobs-org/bob-mac-capture/commit/a924620ae097ab3ce4865cf2c54c16fbc505a9dc) | feat(capture): add portable open plan and URI builder | [bob-cli-8w.3](bob-cli-8w.3.md) | 2026-10-17 16:45:03 EDT |
 | bob-mac-capture | [`bob-mac-capture@57406f8`](https://github.com/bobs-org/bob-mac-capture/commit/57406f81d47b52cb5e22b9675a01aae98e0cf446) | feat(capture): add Control-Return open pipeline | [bob-cli-8w.4](bob-cli-8w.4.md) | 2026-10-17 17:06:24 EDT |
+| bob-mac-capture | [`bob-mac-capture@04a9d62`](https://github.com/bobs-org/bob-mac-capture/commit/04a9d627e770cb4f3e5489d8c6e985c6d5d94097) | feat(mac-capture): add Control-Return open chip and destination hints | [bob-cli-8w.5](bob-cli-8w.5.md) | 2026-10-17 17:37:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
