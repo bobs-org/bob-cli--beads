@@ -17,7 +17,7 @@ corpus-gate: add a dev script that renders every area/project note to scratch wi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.12](bob-cli-87.12.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.12](bob-cli-87.12.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.6](bob-cli-87.6.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [bob-cli-87.7](bob-cli-87.7.md) ✓ · ⧖ 2026-10-16
 
@@ -32,3 +32,15 @@ corpus-gate: add a dev script that renders every area/project note to scratch wi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d114c56`](https://github.com/bobs-org/bob-cli/commit/d114c56288be765a2010de755ea9f4d966192847) | fix(note-snapshot): harden corpus rendering edge cases | [bob-cli-87.11](bob-cli-87.11.md) | 2026-10-16 18:51:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.11--3][1] | Check whether prior phase work left notes or unresolved work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.11.md
+
+<!-- sase:referenced-by:end -->

@@ -35,6 +35,12 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-10-16T20:33:17Z · bob-cli-8g.land] DISCOVERED ISSUE: bob-cli-8g.land just check at bob-cli HEAD a4c9ecf5 (after 07fef5f0/a4c9ecf5) still fails only these two lib tests: note_snapshot::profile::tests::pandoc_maps_every_contract_construct_to_tex (profile.rs:864 'lifted link') and renders_contract_with_clean_text_layer_and_metadata (profile.rs:943, xelatex: titlesec.sty not found on apollo). 2848 lib + 1715 CLI tests pass otherwise. Proposed by bob-cli-8g.1/.3/.4/.5/.6; corroborates notes already on this epic, so no new task was filed.
 
+[2026-10-17T14:05:52Z · bob-cli-87.land] LAND FOLLOW-UP TRIAGE (bob-cli-87.land): Reviewed every child and grandchild note. Outcomes: (1) bob-cli-87.1 #1 web-clip static fonts: corroborates existing bob-cli-85 (same remediation), so I added a supplementary note there naming assets/print_fonts; no new task. (2) bob-cli-87.4 #1 image hairline frame: caused by this epic (visual spec), so it stays epic work in the remaining-work plan; no task. (3) bob-cli-87.7 #1 flakes: curl_passes_q ETXTBSY was already +1'd on bob-cli-5l by bob-cli-87.7--1, so declined a duplicate; bash_readline_inserts_what_bob_returned PTY flake had no prior report, filed as bob-cli-8q (task(flake), large, related to bob-cli-5l). (4) bob-cli-87.10 #1 bob-plugins npm failures: +1 recorded on bob-cli-6v, bob-cli-6w, bob-cli-7i with that phase's clean-base repro; no new task. (5) bob-cli-87.12 #19 decisions-web strand annotated-pdfs-render-on-xelatex: the reviewer chose decision_record = no for this epic, so I filed it for Bryan's separate decision as bob-cli-8p (task(memory), small, ready), following the bob-cli-75/7t/82 precedent. (6) bob-cli-87.2.1.4 #1 and bob-cli-87.3.1.1 #1 capture-templates metadata failures: declined, already resolved by f2ced0c; just check at 5af6521 passes. (7) Epic notes #1-#4 (fmt, lifted-link expectation, titlesec): fmt and the lifted-link test pass at 5af6521; making the real-render tests skip cleanly without titlesec is still open and goes into the remaining-work plan.
+
+[2026-10-17T14:09:55Z · bob-cli-87.land] LAND AUDIT at 5af6521 (bob-cli-87.land): I read the epic, all 12 phases, both nested child epics (87.2.1, 87.3.1) and their phases, every note, the plan and DECISIONS, the epic commits (9ce50ee through d114c56; 87.12 has no commit), and the source. just check passes: fmt, clippy, 2878 lib, 1733 CLI. The bob-plugins snapshot commands (3631c17) match the deployed vault copy. DECISIONS honored: default_text_layer and obsidian_command branches landed, no memory edited. Integration review of non-epic commits: 5af6521 ref rename re-key keeps source_note through marker sync; f8a1260 annotation intake from ready refs benefits snapshots; df4e120 leaves vault output unchanged; a3c2721, articles (8g), templates (8b), and refs fixes need no snapshot changes. Live athena checks (-d and -o to /tmp; vault git status unchanged) found epic-caused defects that break acceptance item 1 and that the 87.11 corpus gate missed: (1) the generated status-chip row survives with stale counts in every snapshot (90 notes), because transclusion.rs badge_row ignores Url('#Tasks') links, and it causes 3-4 dead local-link warnings per note; (2) every task row puts its glyph on its own line (note.lua emits \BobTask as a separate RawBlock); (3) same-note BLOCKS/WAITS ON rows print raw ^ids; (4) excerpts drop intraword underscores; (5) 15 of 30 unresolved-link warnings name existing lib/, _templates/, img/, and .base files; (6) the cash kicker reads 'AREA · area'; (7) images have no hairline frame (87.4 follow-up); (8) earlier-snapshot hints are dry-run-only and lack status and highlight counts; (9) the Markdown text layer lacks the sans/mono options, the pdftotext test, and docs; (10) real-render tests fail without titlesec; (11) docs are missing the legend, text-layer, Chromium, and same-day items and the Mac verification record. The Mac acceptance evidence is real: gate PASS (101/5062), PDFKit 0 unexplained, and a round-trip highlight byte-clean with source_note [[sase_blog]]; the #task comment path was not exercised live. Proposing child epic sase_plan_note_snapshot_landing_repairs.md (parent_bead bob-cli-87; phases projection-fixes, profile-fixes, create-polish, regate-docs). epic-symbols for bob-cli-87 to be retired at closeout.
+
+[2026-10-17T14:10:04Z · bob-cli-87.land] Correction to the preceding LAND AUDIT note: sase bead epic-symbols bob-cli-87 reports no --epic-symbol entries, so there is nothing to retire at closeout; the justfile has no symvision recipe.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -42,7 +48,7 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-87.1](bob-cli-87.1.md) | Bundled print fonts and glyph coverage | ✓ closed | medium | 2026-10-16 | 1 | 1 |
 | [bob-cli-87.10](bob-cli-87.10.md) | Obsidian command to snapshot the open note | ✓ closed | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.11](bob-cli-87.11.md) | Corpus gate on athena and long-tail fixes | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [bob-cli-87.12](bob-cli-87.12.md) | Mac acceptance and the real Highlights round trip | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
+| [bob-cli-87.12](bob-cli-87.12.md) | Mac acceptance and the real Highlights round trip | ✓ closed | medium | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.2](bob-cli-87.2.md) | Snapshot view model and Obsidian layer | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.3](bob-cli-87.3.md) | Bob layer for area and project notes | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [bob-cli-87.4](bob-cli-87.4.md) | Note print profile and two-step xelatex render | ✓ closed | large | 2026-10-16 | 1 | 1 |
@@ -60,64 +66,77 @@ flowchart TD
     n1["bob-cli-87.1: Bundled print fonts and glyph coverage [closed]"]
     n2["bob-cli-87.10: Obsidian command to snapshot the open note [closed]"]
     n3["bob-cli-87.11: Corpus gate on athena and long-tail fixes [closed]"]
-    n4["bob-cli-87.12: Mac acceptance and the real Highlights round trip [in_progress]"]
-    n5["bob-cli-87.2: Snapshot view model and Obsidian layer [closed]"]
-    n6["bob-cli-87.2.1: Obsidian snapshot view core [closed]"]
-    n7["bob-cli-87.2.1.1: Snapshot model and projected Markdown contract [closed]"]
-    n8["bob-cli-87.2.1.2: Snapshot classification and cached vault resolution [closed]"]
-    n9["bob-cli-87.2.1.3: Obsidian syntax and checkbox projection [closed]"]
-    n10["bob-cli-87.2.1.4: Bounded transclusions and complete projection verification [closed]"]
-    n11["bob-cli-87.3: Bob layer for area and project notes [closed]"]
-    n12["bob-cli-87.3.1: Bob area and project snapshot projection [closed]"]
-    n13["bob-cli-87.3.1.1: Source-aware Bob task rows and relationship metadata [closed]"]
-    n14["bob-cli-87.3.1.2: Managed logs, closed appendix, and self-snapshot filtering [closed]"]
-    n15["bob-cli-87.3.1.3: Bob masthead, document assembly, and synthetic golden coverage [closed]"]
-    n16["bob-cli-87.4: Note print profile and two-step xelatex render [closed]"]
-    n17["bob-cli-87.5: bob ref create integration, provenance, help, and docs [closed]"]
-    n18["bob-cli-87.6: Image embeds that print well [closed]"]
-    n19["bob-cli-87.7: Waiting-on and Scheduled lanes for tickler-heavy notes [closed]"]
-    n20["bob-cli-87.8: Section filter and earlier-snapshot hints [closed]"]
-    n21["bob-cli-87.9: Text-layer rule for the default Markdown profile [closed]"]
+    n4["bob-cli-87.12: Mac acceptance and the real Highlights round trip [closed]"]
+    n5["bob-cli-87.13: Finish note snapshots so real area and project notes match the spec [in_progress]"]
+    n6["bob-cli-87.13.1: Projection fixes for badge rows, block-ref labels, file links, and kickers [in_progress]"]
+    n7["bob-cli-87.13.2: Print profile fixes for task-row layout and image frames [in_progress]"]
+    n8["bob-cli-87.13.3: Earlier-snapshot hints and Markdown text-layer leftovers [closed]"]
+    n9["bob-cli-87.13.4: Corpus re-gate with residue checks, visual review, and docs [in_progress]"]
+    n10["bob-cli-87.2: Snapshot view model and Obsidian layer [closed]"]
+    n11["bob-cli-87.2.1: Obsidian snapshot view core [closed]"]
+    n12["bob-cli-87.2.1.1: Snapshot model and projected Markdown contract [closed]"]
+    n13["bob-cli-87.2.1.2: Snapshot classification and cached vault resolution [closed]"]
+    n14["bob-cli-87.2.1.3: Obsidian syntax and checkbox projection [closed]"]
+    n15["bob-cli-87.2.1.4: Bounded transclusions and complete projection verification [closed]"]
+    n16["bob-cli-87.3: Bob layer for area and project notes [closed]"]
+    n17["bob-cli-87.3.1: Bob area and project snapshot projection [closed]"]
+    n18["bob-cli-87.3.1.1: Source-aware Bob task rows and relationship metadata [closed]"]
+    n19["bob-cli-87.3.1.2: Managed logs, closed appendix, and self-snapshot filtering [closed]"]
+    n20["bob-cli-87.3.1.3: Bob masthead, document assembly, and synthetic golden coverage [closed]"]
+    n21["bob-cli-87.4: Note print profile and two-step xelatex render [closed]"]
+    n22["bob-cli-87.5: bob ref create integration, provenance, help, and docs [closed]"]
+    n23["bob-cli-87.6: Image embeds that print well [closed]"]
+    n24["bob-cli-87.7: Waiting-on and Scheduled lanes for tickler-heavy notes [closed]"]
+    n25["bob-cli-87.8: Section filter and earlier-snapshot hints [closed]"]
+    n26["bob-cli-87.9: Text-layer rule for the default Markdown profile [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n5 --> n6
-    n6 --> n7
-    n6 --> n8
-    n6 --> n9
-    n6 --> n10
-    n0 --> n11
+    n5 --> n7
+    n5 --> n8
+    n5 --> n9
+    n0 --> n10
+    n10 --> n11
     n11 --> n12
-    n12 --> n13
-    n12 --> n14
-    n12 --> n15
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
     n0 --> n16
-    n0 --> n17
-    n0 --> n18
-    n0 --> n19
-    n0 --> n20
+    n16 --> n17
+    n17 --> n18
+    n17 --> n19
+    n17 --> n20
     n0 --> n21
-    n1 -.-> n16
+    n0 --> n22
+    n0 --> n23
+    n0 --> n24
+    n0 --> n25
+    n0 --> n26
+    n1 -.-> n21
     n2 -.-> n4
     n3 -.-> n4
-    n5 -.-> n11
-    n7 -.-> n8
+    n6 -.-> n9
+    n7 -.-> n9
     n8 -.-> n9
-    n9 -.-> n10
-    n11 -.-> n17
+    n10 -.-> n16
+    n12 -.-> n13
     n13 -.-> n14
     n14 -.-> n15
-    n16 -.-> n17
-    n17 -.-> n2
-    n17 -.-> n18
-    n17 -.-> n19
-    n17 -.-> n20
-    n18 -.-> n3
-    n19 -.-> n3
-    n20 -.-> n4
-    n21 -.-> n4
+    n16 -.-> n22
+    n18 -.-> n19
+    n19 -.-> n20
+    n21 -.-> n22
+    n22 -.-> n2
+    n22 -.-> n23
+    n22 -.-> n24
+    n22 -.-> n25
+    n23 -.-> n3
+    n24 -.-> n3
+    n25 -.-> n4
+    n26 -.-> n4
 ```
 
 ## Agents
@@ -127,7 +146,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.1/README.md) | [bob-cli-87.1](bob-cli-87.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.10/README.md) | [bob-cli-87.10](bob-cli-87.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.11.md) | [bob-cli-87.11](bob-cli-87.11.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.12/README.md) | [bob-cli-87.12](bob-cli-87.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.12.md) | [bob-cli-87.12](bob-cli-87.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.13.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.13.1/README.md) | [bob-cli-87.13.1](bob-cli-87.13.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.13.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.2.md) | [bob-cli-87.13.2](bob-cli-87.13.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.13.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.3.md) | [bob-cli-87.13.3](bob-cli-87.13.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-87.13.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.13.4/README.md) | [bob-cli-87.13.4](bob-cli-87.13.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.13.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.13.land/README.md) | [bob-cli-87.13](bob-cli-87.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.md) | [bob-cli-87.2](bob-cli-87.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.1.md) | [bob-cli-87.2.1.1](bob-cli-87.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.2/README.md) | [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) | 1 |
@@ -145,7 +169,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.7.md) | [bob-cli-87.7](bob-cli-87.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.8.md) | [bob-cli-87.8](bob-cli-87.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.9/README.md) | [bob-cli-87.9](bob-cli-87.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.land/README.md) | [bob-cli-87](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.land.md) | [bob-cli-87](README.md) | 0 |
 
 ## Commits
 
@@ -170,6 +194,7 @@ flowchart TD
 | bob-cli | [`c7367ee`](https://github.com/bobs-org/bob-cli/commit/c7367ee183e5d9b9bbb3a92b9a1657a8592de10f) | feat(snapshot): split blocked tasks into Waiting on and Scheduled lanes | [bob-cli-87.7](bob-cli-87.7.md) | 2026-10-16 16:30:42 EDT |
 | bob-cli | [`130a5fd`](https://github.com/bobs-org/bob-cli/commit/130a5fd8311a19fe59accb5ff6545a9ad1db2348) | feat(highlights): add section filters and snapshot hints | [bob-cli-87.8](bob-cli-87.8.md) | 2026-10-16 16:38:36 EDT |
 | bob-cli | [`d114c56`](https://github.com/bobs-org/bob-cli/commit/d114c56288be765a2010de755ea9f4d966192847) | fix(note-snapshot): harden corpus rendering edge cases | [bob-cli-87.11](bob-cli-87.11.md) | 2026-10-16 18:51:18 EDT |
+| bob-cli | [`726fd48`](https://github.com/bobs-org/bob-cli/commit/726fd484c357e35c07a9d9db235ad8f7db935c22) | feat(highlights): polish earlier-snapshot hints and Markdown text layer | [bob-cli-87.13.3](bob-cli-87.13.3.md) | 2026-10-17 10:40:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

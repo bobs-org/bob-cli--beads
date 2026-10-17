@@ -17,7 +17,7 @@ markdown-text-layer: gated on default_text_layer. Make the research-report route
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-87.12](bob-cli-87.12.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [bob-cli-87.12](bob-cli-87.12.md) ✓ · ⧖ 2026-10-16
 
 ## Agents
 
