@@ -30,3 +30,15 @@ mac-open-affordances: add the footer `⌃↩ Open` chip and a destinations capsu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@04a9d62`](https://github.com/bobs-org/bob-mac-capture/commit/04a9d627e770cb4f3e5489d8c6e985c6d5d94097) | feat(mac-capture): add Control-Return open chip and destination hints | [bob-cli-8w.5](bob-cli-8w.5.md) | 2026-10-17 17:37:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8w.5][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.5/README.md
+
+<!-- sase:referenced-by:end -->

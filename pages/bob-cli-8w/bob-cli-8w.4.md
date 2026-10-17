@@ -39,7 +39,9 @@ mac-ctrl-return: handle Control-Return (with Command-Return as an alias in the e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-8w.4--1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-8w.5][2] | Need what the previous Mac gesture phase landed so this affordances phase can build on it | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-8w.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-8w.5/README.md
 
 <!-- sase:referenced-by:end -->
