@@ -13,7 +13,7 @@ ledger-chips: add a bob-ledger-tools JavaScript mirror of the resolver that runs
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.6](bob-cli-9k.6.md) ◐ · ⧖ 2026-10-18
 
 ## Agents

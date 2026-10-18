@@ -13,7 +13,7 @@ stats-parts: index closed-session links in the stats pass and add area and proje
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.3](bob-cli-9k.3.md) ◐ · ⧖ 2026-10-18
 
 ## Agents

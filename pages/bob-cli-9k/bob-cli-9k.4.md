@@ -13,7 +13,7 @@ live-surfaces: add an additive `homes` object to capture-pomodoros --tasks entri
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.7](bob-cli-9k.7.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
