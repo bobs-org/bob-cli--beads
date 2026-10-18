@@ -19,10 +19,16 @@ bob-added-at: add the additive `added_at` row field, make `-g` date every modern
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9d.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.1.md) | [bob-cli-9d.1](bob-cli-9d.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-9d.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.1.md) | [bob-cli-9d.1](bob-cli-9d.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`de78e98`](https://github.com/bobs-org/bob-cli/commit/de78e982011b3424aa3d18f62aeb797daa0ba643) | feat(ref): add reliable added\_at timestamps | [bob-cli-9d.1](bob-cli-9d.1.md) | 2026-10-18 16:23:07 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9d.1--3][1] | Final phase notes and status check before closing after verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.1.md
+
+<!-- sase:referenced-by:end -->

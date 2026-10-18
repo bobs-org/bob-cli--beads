@@ -27,9 +27,9 @@ In the Bob Refs panel, ⌘0 toggles a Newest mode: every reference in a date-gro
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-9d.1](bob-cli-9d.1.md) | bob: reliable added\_at timestamps in ref rows | ✓ closed | medium | 2026-10-18 | 1 | 1 |
-| [bob-cli-9d.2](bob-cli-9d.2.md) | RefsCore: Newest ordering, date groups, captions, refs-rank | ✓ closed | medium | 2026-10-18 | 1 | 0 |
-| [bob-cli-9d.3](bob-cli-9d.3.md) | Panel: ⌘0 toggle, Newest token, headers, footer, README | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9d.1](bob-cli-9d.1.md) | bob: reliable added\_at timestamps in ref rows | ✓ closed | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9d.2](bob-cli-9d.2.md) | RefsCore: Newest ordering, date groups, captions, refs-rank | ✓ closed | medium | 2026-10-18 | 1 | 1 |
+| [bob-cli-9d.3](bob-cli-9d.3.md) | Panel: ⌘0 toggle, Newest token, headers, footer, README | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n0["bob-cli-9d: Bob Refs ⌘0 Newest: browse references by capture date [in_progress]"]
     n1["bob-cli-9d.1: bob: reliable added_at timestamps in ref rows [closed]"]
     n2["bob-cli-9d.2: RefsCore: Newest ordering, date groups, captions, refs-rank [closed]"]
-    n3["bob-cli-9d.3: Panel: ⌘0 toggle, Newest token, headers, footer, README [in_progress]"]
+    n3["bob-cli-9d.3: Panel: ⌘0 toggle, Newest token, headers, footer, README [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -49,13 +49,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9d.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.1.md) | [bob-cli-9d.1](bob-cli-9d.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-9d.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.2/README.md) | [bob-cli-9d.2](bob-cli-9d.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-9d.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.3/README.md) | [bob-cli-9d.3](bob-cli-9d.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-9d.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.1.md) | [bob-cli-9d.1](bob-cli-9d.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-9d.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.2/README.md) | [bob-cli-9d.2](bob-cli-9d.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-9d.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.3/README.md) | [bob-cli-9d.3](bob-cli-9d.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9d.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.land/README.md) | [bob-cli-9d](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`de78e98`](https://github.com/bobs-org/bob-cli/commit/de78e982011b3424aa3d18f62aeb797daa0ba643) | feat(ref): add reliable added\_at timestamps | [bob-cli-9d.1](bob-cli-9d.1.md) | 2026-10-18 16:23:07 EDT |
+| bob-mac-capture | [`bob-mac-capture@5a0bff5`](https://github.com/bobs-org/bob-mac-capture/commit/5a0bff53388edce1c3f12908bfd7f1f9565b6ea3) | feat(refs): add Newest ordering, date groups, and refs-rank --newest | [bob-cli-9d.2](bob-cli-9d.2.md) | 2026-10-18 15:58:15 EDT |
+| bob-mac-capture | [`bob-mac-capture@7d6063a`](https://github.com/bobs-org/bob-mac-capture/commit/7d6063a66a38e289644ef3a69a3abcad173af9a4) | feat(refs): add ⌘0 Newest mode to the Bob Refs panel | [bob-cli-9d.3](bob-cli-9d.3.md) | 2026-10-18 16:38:35 EDT |
