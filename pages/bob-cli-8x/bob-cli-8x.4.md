@@ -21,7 +21,7 @@ entry: add the Task Card Blocks… row (key ⇧B), the task-card-blocks command 
 
 - **Depends on:** [bob-cli-8x.3](bob-cli-8x.3.md) ✓ · ⧖ 2026-10-17
 - **Blocks:** [bob-cli-8x.5](bob-cli-8x.5.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8x.6](bob-cli-8x.6.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8x.6](bob-cli-8x.6.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 

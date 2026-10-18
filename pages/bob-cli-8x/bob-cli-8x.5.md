@@ -20,7 +20,7 @@ chips: in bob-ledger-tools, give open-owner BLOCKS chip rows a ＋ that calls ap
 ## Dependencies
 
 - **Depends on:** [bob-cli-8x.4](bob-cli-8x.4.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8x.6](bob-cli-8x.6.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8x.6](bob-cli-8x.6.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -33,3 +33,15 @@ chips: in bob-ledger-tools, give open-owner BLOCKS chip rows a ＋ that calls ap
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@254b32b`](https://github.com/bobs-org/bob-plugins/commit/254b32ba0ee7e54fc0a922de9fbf501701ae9540) | feat(ledger-tools): add BLOCKS chip ＋ / × through api.blocks | [bob-cli-8x.5](bob-cli-8x.5.md) | 2026-10-17 19:54:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8x.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.5/README.md
+
+<!-- sase:referenced-by:end -->
