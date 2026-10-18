@@ -24,7 +24,7 @@ board-data: in bob-ledger-tools, share the stats spawn core, fetch and cache `bo
 ## Dependencies
 
 - **Depends on:** [bob-cli-99.1](bob-cli-99.1.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-99.3](bob-cli-99.3.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-99.3](bob-cli-99.3.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -37,3 +37,15 @@ board-data: in bob-ledger-tools, share the stats spawn core, fetch and cache `bo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8a0be74`](https://github.com/bobs-org/bob-plugins/commit/8a0be74b5d590a5b3fcbb953b5b4e6fcd4086adb) | feat(reading-board): add board data and lane models | [bob-cli-99.2](bob-cli-99.2.md) | 2026-10-18 14:45:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-99.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.2.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ rollout: add the board above the existing table on dash_references, document it 
 ## Dependencies
 
 - **Depends on:** [bob-cli-99.1](bob-cli-99.1.md) ✓ · ⧖ 2026-10-18
-- **Depends on:** [bob-cli-99.3](bob-cli-99.3.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-99.3](bob-cli-99.3.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
