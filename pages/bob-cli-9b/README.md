@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9b.3.md) | [bob-cli-9b.3](bob-cli-9b.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9b.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.4/README.md) | [bob-cli-9b.4](bob-cli-9b.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-9b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9b.land.md) | [bob-cli-9b](README.md) | 0 |
-| [bbugyi200.athena.bob-cli-9b.land--1--code](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.land--1--code/README.md) | [bob-cli-9b](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-9b.land--1--code](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.land--1--code/README.md) | [bob-cli-9b](README.md) | 2 |
 
 ## Commits
 
@@ -80,6 +80,7 @@ flowchart TD
 | bob-cli | [`0f47802`](https://github.com/bobs-org/bob-cli/commit/0f47802b20a6b9c1b2e4469d3ba58cd6a6e997e1) | docs(capture): teach the bare x Pomodoro close | [bob-cli-9b.3](bob-cli-9b.3.md) | 2026-10-18 16:26:27 EDT |
 | bob-mac-capture | [`bob-mac-capture@2c007c7`](https://github.com/bobs-org/bob-mac-capture/commit/2c007c74c086223718fe55a61b5cdc230af890f3) | feat(capture): teach Mac Capture the bare x close | [bob-cli-9b.4](bob-cli-9b.4.md) | 2026-10-18 16:40:12 EDT |
 | bob-mac-capture | [`bob-mac-capture@6166ec1`](https://github.com/bobs-org/bob-mac-capture/commit/6166ec100bee4b0923e5ea4912342e63643f991b) | test(capture): correct bare-x chain fixtures | [bob-cli-9b](README.md) | 2026-10-18 17:30:26 EDT |
+| bob-cli--plans | [`bob-cli--plans@0f12e2b`](https://github.com/bobs-org/bob-cli--plans/commit/0f12e2bc8aeb408fc5c1b060b98847cf9f5bd6a0) | docs(plan): mark bare-x closeout complete | [bob-cli-9b](README.md) | 2026-10-18 17:31:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
