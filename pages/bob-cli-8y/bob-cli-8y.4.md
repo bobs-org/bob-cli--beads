@@ -13,7 +13,7 @@ finish: add the browser-free dry-run count, the warn-only doctor row, the docs, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-8y.3](bob-cli-8y.3.md) ◐ · ⧖ 2026-10-17
+- **Depends on:** [bob-cli-8y.3](bob-cli-8y.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 

@@ -19,7 +19,7 @@ adapter: vendor a pinned Mermaid 12.x bundle and a static DejaVu Sans TTF, add a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8y.3](bob-cli-8y.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8y.3](bob-cli-8y.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 

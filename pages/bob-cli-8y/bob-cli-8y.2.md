@@ -21,7 +21,7 @@ ast: add the Rust diagrams module with the kill switch, the fence pre-scan, the 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-8y.3](bob-cli-8y.3.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8y.3](bob-cli-8y.3.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -34,3 +34,15 @@ ast: add the Rust diagrams module with the kill switch, the fence pre-scan, the 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ad036f9`](https://github.com/bobs-org/bob-cli/commit/ad036f9b530b0d735f0d1079e59e718233b437b8) | feat(highlights-ref): add mermaid diagram collect and swap filters | [bob-cli-8y.2](bob-cli-8y.2.md) | 2026-10-17 21:01:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8y.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.2.md
+
+<!-- sase:referenced-by:end -->
