@@ -17,7 +17,7 @@ bare-x: teach the shared capture grammar a bare `x…` whole-item close (plain, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9b.2](bob-cli-9b.2.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9b.2](bob-cli-9b.2.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -30,3 +30,15 @@ bare-x: teach the shared capture grammar a bare `x…` whole-item close (plain, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c166ed2`](https://github.com/bobs-org/bob-cli/commit/c166ed26326dd8b8c76428bbcf04158d920ee95f) | feat(capture): add bare x Pomodoro close | [bob-cli-9b.1](bob-cli-9b.1.md) | 2026-10-18 15:07:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9b.1--1][1] | Need the phase scope, design file, prior notes, and recorded remainder before finishing the assigned parser phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9b.1.md
+
+<!-- sase:referenced-by:end -->

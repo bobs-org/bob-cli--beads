@@ -13,7 +13,7 @@ docs: respell the whole-item close as `x` across docs/capture.md, README.md, and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9b.2](bob-cli-9b.2.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9b.2](bob-cli-9b.2.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

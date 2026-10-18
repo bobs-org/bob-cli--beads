@@ -13,7 +13,7 @@ mac: update Bob Mac Capture's hint text, teaching strings, fake-bob drafts, rege
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9b.2](bob-cli-9b.2.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9b.2](bob-cli-9b.2.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
