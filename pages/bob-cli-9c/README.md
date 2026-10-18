@@ -33,8 +33,8 @@ A successful `bob ref create` on athena, apollo, or the Mac leaves the reference
 | [bob-cli-9c.2](bob-cli-9c.2.md) | Shared intake session and create wiring | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9c.3](bob-cli-9c.3.md) | Ingest for listen-attach, ref jobs, and gkeep pull | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9c.4](bob-cli-9c.4.md) | bob ref scan --intake-only drain | ✓ closed | medium | 2026-10-18 | 1 | 1 |
-| [bob-cli-9c.5](bob-cli-9c.5.md) | Intake health in bob ref doctor | ◐ in_progress | small | 2026-10-18 | 1 | 1 |
-| [bob-cli-9c.6](bob-cli-9c.6.md) | Per-host drains, bridge retirement, docs, and rollout | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9c.5](bob-cli-9c.5.md) | Intake health in bob ref doctor | ✓ closed | small | 2026-10-18 | 1 | 1 |
+| [bob-cli-9c.6](bob-cli-9c.6.md) | Per-host drains, bridge retirement, docs, and rollout | ◐ in_progress | medium | 2026-10-18 | 1 | 1 |
 
 ## Lineage
 
@@ -45,7 +45,7 @@ flowchart TD
     n2["bob-cli-9c.2: Shared intake session and create wiring [closed]"]
     n3["bob-cli-9c.3: Ingest for listen-attach, ref jobs, and gkeep pull [closed]"]
     n4["bob-cli-9c.4: bob ref scan --intake-only drain [closed]"]
-    n5["bob-cli-9c.5: Intake health in bob ref doctor [in_progress]"]
+    n5["bob-cli-9c.5: Intake health in bob ref doctor [closed]"]
     n6["bob-cli-9c.6: Per-host drains, bridge retirement, docs, and rollout [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.3/README.md) | [bob-cli-9c.3](bob-cli-9c.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.4/README.md) | [bob-cli-9c.4](bob-cli-9c.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-9c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.5/README.md) | [bob-cli-9c.5](bob-cli-9c.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-9c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.6/README.md) | [bob-cli-9c.6](bob-cli-9c.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-9c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9c.6.md) | [bob-cli-9c.6](bob-cli-9c.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-9c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.land/README.md) | [bob-cli-9c](README.md) | 0 |
 
 ## Commits
@@ -85,6 +85,7 @@ flowchart TD
 | bob-cli | [`fa7745f`](https://github.com/bobs-org/bob-cli/commit/fa7745fc71c0fe0cb2fafe4c78270e3b5d890837) | feat(ref): add scan --intake-only xlib drain | [bob-cli-9c.4](bob-cli-9c.4.md) | 2026-10-18 15:39:40 EDT |
 | bob-cli | [`5848c39`](https://github.com/bobs-org/bob-cli/commit/5848c39d367eedf354e3276f493541ce66c40bb2) | feat(ref): ingest listen-attach, jobs, and gkeep clips at birth | [bob-cli-9c.3](bob-cli-9c.3.md) | 2026-10-18 15:48:43 EDT |
 | bob-cli | [`4703619`](https://github.com/bobs-org/bob-cli/commit/47036193185db067bce5f55690eaf0ed832466b7) | feat(ref): show intake health in bob ref doctor | [bob-cli-9c.5](bob-cli-9c.5.md) | 2026-10-18 15:54:24 EDT |
+| chezmoi | [`chezmoi@9ee5fd2`](https://github.com/bbugyi200/dotfiles/commit/9ee5fd2aa664f6986d0921b5bc15e3c3ae200253) | feat(chezmoi)!: retire cross-host highlights intake bridge | [bob-cli-9c.6](bob-cli-9c.6.md) | 2026-10-18 16:22:07 EDT |
 
 <!-- sase:referenced-by:start -->
 

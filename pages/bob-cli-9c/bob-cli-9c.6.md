@@ -17,10 +17,16 @@ tailnet-rollout: in chezmoi, add the Linux bob-ref-intake systemd timer, retire 
 - **Depends on:** [bob-cli-9c.2](bob-cli-9c.2.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [bob-cli-9c.3](bob-cli-9c.3.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [bob-cli-9c.4](bob-cli-9c.4.md) ✓ · ⧖ 2026-10-18
-- **Depends on:** [bob-cli-9c.5](bob-cli-9c.5.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9c.5](bob-cli-9c.5.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.6/README.md) | [bob-cli-9c.6](bob-cli-9c.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-9c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9c.6.md) | [bob-cli-9c.6](bob-cli-9c.6.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@9ee5fd2`](https://github.com/bbugyi200/dotfiles/commit/9ee5fd2aa664f6986d0921b5bc15e3c3ae200253) | feat(chezmoi)!: retire cross-host highlights intake bridge | [bob-cli-9c.6](bob-cli-9c.6.md) | 2026-10-18 16:22:07 EDT |
