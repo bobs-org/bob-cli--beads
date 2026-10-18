@@ -23,7 +23,7 @@ wire: add the adapter client call, orchestration that never fails the import, th
 
 - **Depends on:** [bob-cli-8y.1](bob-cli-8y.1.md) ✓ · ⧖ 2026-10-17
 - **Depends on:** [bob-cli-8y.2](bob-cli-8y.2.md) ✓ · ⧖ 2026-10-17
-- **Blocks:** [bob-cli-8y.4](bob-cli-8y.4.md) ◐ · ⧖ 2026-10-17
+- **Blocks:** [bob-cli-8y.4](bob-cli-8y.4.md) ✓ · ⧖ 2026-10-17
 
 ## Agents
 
@@ -36,3 +36,15 @@ wire: add the adapter client call, orchestration that never fails the import, th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`58c9614`](https://github.com/bobs-org/bob-cli/commit/58c9614401350666609e9dbc67d5b95f8aa5b0d9) | feat(highlights-ref): render mermaid diagrams through the clip adapter | [bob-cli-8y.3](bob-cli-8y.3.md) | 2026-10-17 21:56:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8y.3--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.3.md
+
+<!-- sase:referenced-by:end -->
