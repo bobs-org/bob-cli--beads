@@ -22,7 +22,7 @@ scan-intake-only: add `bob ref scan -i/--intake-only`. It drains the local xlib/
 - **Depends on:** [bob-cli-9c.1](bob-cli-9c.1.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [bob-cli-9c.2](bob-cli-9c.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9c.5](bob-cli-9c.5.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9c.6](bob-cli-9c.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9c.6](bob-cli-9c.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

@@ -19,7 +19,7 @@ create-ingest: build the shared locked intake session in a new highlights_ref in
 
 - **Blocks:** [bob-cli-9c.3](bob-cli-9c.3.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9c.4](bob-cli-9c.4.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9c.6](bob-cli-9c.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9c.6](bob-cli-9c.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
