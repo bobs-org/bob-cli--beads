@@ -13,7 +13,7 @@ mac-warning: add the override banner to the start card, tint the Return button o
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9j.2](bob-cli-9j.2.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9j.2](bob-cli-9j.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9j.5](bob-cli-9j.5.md) ◐ · ⧖ 2026-10-18
 
 ## Agents

@@ -21,7 +21,7 @@ eq-overrides: route every whole-item `=` start with one running session through 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9j.2](bob-cli-9j.2.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9j.2](bob-cli-9j.2.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

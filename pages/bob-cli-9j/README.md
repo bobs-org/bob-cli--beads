@@ -28,8 +28,8 @@ A whole-item `=` start restarts or swaps the running Pomodoro by itself, `==` be
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-9j.1](bob-cli-9j.1.md) | bob: \`=\` restarts or swaps the running session | ✓ closed | medium | 2026-10-18 | 1 | 1 |
-| [bob-cli-9j.2](bob-cli-9j.2.md) | bob: retire \`==\` | ◐ in_progress | medium | 2026-10-18 | 1 | 1 |
-| [bob-cli-9j.3](bob-cli-9j.3.md) | docs: teach the \`=\` override | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9j.2](bob-cli-9j.2.md) | bob: retire \`==\` | ✓ closed | medium | 2026-10-18 | 1 | 1 |
+| [bob-cli-9j.3](bob-cli-9j.3.md) | docs: teach the \`=\` override | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9j.4](bob-cli-9j.4.md) | Mac: override banner and orange Return | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
 | [bob-cli-9j.5](bob-cli-9j.5.md) | Mac: commit an override only after its warning was shown | ◐ in_progress | small | 2026-10-18 | 1 | 0 |
 
@@ -39,8 +39,8 @@ A whole-item `=` start restarts or swaps the running Pomodoro by itself, `==` be
 flowchart TD
     n0["bob-cli-9j: `=` overrides the running Pomodoro; `==` retires [in_progress]"]
     n1["bob-cli-9j.1: bob: `=` restarts or swaps the running session [closed]"]
-    n2["bob-cli-9j.2: bob: retire `==` [in_progress]"]
-    n3["bob-cli-9j.3: docs: teach the `=` override [in_progress]"]
+    n2["bob-cli-9j.2: bob: retire `==` [closed]"]
+    n3["bob-cli-9j.3: docs: teach the `=` override [closed]"]
     n4["bob-cli-9j.4: Mac: override banner and orange Return [in_progress]"]
     n5["bob-cli-9j.5: Mac: commit an override only after its warning was shown [in_progress]"]
     n0 --> n1
@@ -60,7 +60,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-9j.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.1/README.md) | [bob-cli-9j.1](bob-cli-9j.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-9j.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.2.md) | [bob-cli-9j.2](bob-cli-9j.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-9j.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.3/README.md) | [bob-cli-9j.3](bob-cli-9j.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-9j.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.3/README.md) | [bob-cli-9j.3](bob-cli-9j.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-9j.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.4/README.md) | [bob-cli-9j.4](bob-cli-9j.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-9j.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.5/README.md) | [bob-cli-9j.5](bob-cli-9j.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-9j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.land/README.md) | [bob-cli-9j](README.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`5ec1390`](https://github.com/bobs-org/bob-cli/commit/5ec1390ee52ea1bddb1194e0ba3a29565efac77a) | feat(capture): let \`=\` restart or swap the running Pomodoro | [bob-cli-9j.1](bob-cli-9j.1.md) | 2026-10-18 17:07:14 EDT |
 | bob-cli | [`b9788c4`](https://github.com/bobs-org/bob-cli/commit/b9788c45cc163aef693dda6ea7bc540c5849f73b) | fix(capture): retire double-equals Pomodoro syntax | [bob-cli-9j.2](bob-cli-9j.2.md) | 2026-10-18 18:28:24 EDT |
+| bob-cli | [`ec9009f`](https://github.com/bobs-org/bob-cli/commit/ec9009fdb20eab43ac891b94ef2ddb2880afa19d) | docs(capture): document Pomodoro overrides | [bob-cli-9j.3](bob-cli-9j.3.md) | 2026-10-18 18:42:02 EDT |
