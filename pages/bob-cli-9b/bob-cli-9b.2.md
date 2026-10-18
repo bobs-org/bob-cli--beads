@@ -21,7 +21,7 @@ retire: turn the whole-item `=x…`/`=*…`/`=!…` shapes and the link `=*`/`=!
 
 - **Depends on:** [bob-cli-9b.1](bob-cli-9b.1.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9b.3](bob-cli-9b.3.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9b.4](bob-cli-9b.4.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9b.4](bob-cli-9b.4.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
