@@ -37,3 +37,15 @@ tailnet-rollout: in chezmoi, add the Linux bob-ref-intake systemd timer, retire 
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@9ee5fd2`](https://github.com/bbugyi200/dotfiles/commit/9ee5fd2aa664f6986d0921b5bc15e3c3ae200253) | feat(chezmoi)!: retire cross-host highlights intake bridge | [bob-cli-9c.6](bob-cli-9c.6.md) | 2026-10-18 16:22:07 EDT |
 | bob-cli | [`2a11d05`](https://github.com/bobs-org/bob-cli/commit/2a11d0514103a08ef5c29b4100196c5543e2028e) | feat(ref): roll out per-host intake drains | [bob-cli-9c.6](bob-cli-9c.6.md) | 2026-10-18 16:58:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9c.6--3][1] | Continuing the assigned phase; confirm scope, prior notes, decisions, and verification requirements | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9c.6.md
+
+<!-- sase:referenced-by:end -->
