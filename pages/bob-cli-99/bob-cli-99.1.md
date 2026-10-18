@@ -21,7 +21,7 @@ ref-json: add task priority and scheduled date plus a typed `blocked_by` reason 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-99.2](bob-cli-99.2.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-99.2](bob-cli-99.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-99.4](bob-cli-99.4.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
@@ -35,3 +35,15 @@ ref-json: add task priority and scheduled date plus a typed `blocked_by` reason 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b88195e`](https://github.com/bobs-org/bob-cli/commit/b88195e7d5b1f40ecca031260dd32922edfc0721) | feat(ref): add blocked\_by reasons and task priority/scheduled | [bob-cli-99.1](bob-cli-99.1.md) | 2026-10-18 14:06:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-99.1][1] | Need notes, remaining work, and whether earlier agent left remainder | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.1/README.md
+
+<!-- sase:referenced-by:end -->

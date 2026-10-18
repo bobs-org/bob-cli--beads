@@ -13,7 +13,7 @@ board-ui: render the board (lanes, cards, Snoozed rows, honest states), keyboard
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-99.2](bob-cli-99.2.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-99.2](bob-cli-99.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-99.4](bob-cli-99.4.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
