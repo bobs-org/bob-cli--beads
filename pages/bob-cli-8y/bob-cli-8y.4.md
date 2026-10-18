@@ -75,3 +75,15 @@ page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-pp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`99b2ac4`](https://github.com/bobs-org/bob-cli/commit/99b2ac4085705d021d332bee440d52897364cd17) | feat(highlights): finish Mermaid diagram acceptance | [bob-cli-8y.4](bob-cli-8y.4.md) | 2026-10-17 22:19:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8y.4][1] | Verify all required phase notes, acceptance evidence, and follow-ups before closure | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8y.4/README.md
+
+<!-- sase:referenced-by:end -->
