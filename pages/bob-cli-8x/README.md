@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-8x.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.4/README.md) | [bob-cli-8x.4](bob-cli-8x.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.5/README.md) | [bob-cli-8x.5](bob-cli-8x.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-8x.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.6/README.md) | [bob-cli-8x.6](bob-cli-8x.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-8x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8x.land.md) | [bob-cli-8x](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-8x.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8x.land.md) | [bob-cli-8x](README.md) | 2 |
 
 ## Commits
 
@@ -111,3 +111,4 @@ flowchart TD
 | bob-cli | [`3ec4d0d`](https://github.com/bobs-org/bob-cli/commit/3ec4d0d232dbb178e01d0b4fe0761a66323f547f) | docs(dependencies): clarify editing from both ends | [bob-cli-8x.6](bob-cli-8x.6.md) | 2026-10-17 20:08:44 EDT |
 | bob-plugins | [`bob-plugins@96a42c5`](https://github.com/bobs-org/bob-plugins/commit/96a42c56e9d338c0fd013cce4c1187bcba8b2b04) | docs(plugins): publish reverse Blocks stage gestures | [bob-cli-8x.6](bob-cli-8x.6.md) | 2026-10-17 20:09:51 EDT |
 | bob-cli | [`30eafe2`](https://github.com/bobs-org/bob-cli/commit/30eafe28067dc98d3acfc1dded118471051e9201) | docs(task-dependencies): document Blocks stage apply-time guards and writer contract | [bob-cli-8x](README.md) | 2026-10-17 21:18:16 EDT |
+| bob-plugins | [`bob-plugins@07c446b`](https://github.com/bobs-org/bob-plugins/commit/07c446b36703aded00d0d5a3cfdc6811ff3834c8) | fix(nav): land the Blocks stage writer, guard, and entry fixes | [bob-cli-8x](README.md) | 2026-10-17 21:19:05 EDT |
