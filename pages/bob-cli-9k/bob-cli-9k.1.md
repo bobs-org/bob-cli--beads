@@ -19,7 +19,7 @@ homes-core: build the one Rust resolver for task homes, session links, review se
 
 - **Blocks:** [bob-cli-9k.2](bob-cli-9k.2.md) ◐ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.4](bob-cli-9k.4.md) ◐ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9k.5](bob-cli-9k.5.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.5](bob-cli-9k.5.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -40,6 +40,7 @@ homes-core: build the one Rust resolver for task homes, session links, review se
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.1][1] | Confirm remaining phase requirements before final verification | 2 |
+| read-by | [agent:bob-cli-9k.1--1][1] | Need the phase scope, notes, and design file after just check passed | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.1.md
 

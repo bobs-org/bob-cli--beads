@@ -11,6 +11,10 @@
 
 stats-parts: index closed-session links in the stats pass and add area and project parts to the pomodoro and task metrics, with buckets, a homes catalog, apportioned minutes, and health. Print every parts dimension in the CLI. Add an H-vector fixture vault and update docs/stats.md.
 
+## Notes
+
+[2026-10-18T21:34:30Z · bob-cli-9k.2] --list
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ✓ · ⧖ 2026-10-18

@@ -31,7 +31,7 @@ Every Pomodoro is labeled, on every surface, by the areas and projects of the ta
 | [bob-cli-9k.2](bob-cli-9k.2.md) | Area and project parts in bob stats | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
 | [bob-cli-9k.3](bob-cli-9k.3.md) | Pomodoro in/review filters and session drill-down data | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
 | [bob-cli-9k.4](bob-cli-9k.4.md) | Homes on capture-pomodoros, bob plan, and bob pomodoro | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
-| [bob-cli-9k.5](bob-cli-9k.5.md) | Obsidian ledger home chips | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9k.5](bob-cli-9k.5.md) | Obsidian ledger home chips | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9k.6](bob-cli-9k.6.md) | Where the time went panel on dash\_stats.md | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
 | [bob-cli-9k.7](bob-cli-9k.7.md) | Bob Mac Capture agenda shows homes | ◐ in_progress | small | 2026-10-18 | 1 | 0 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["bob-cli-9k.2: Area and project parts in bob stats [in_progress]"]
     n3["bob-cli-9k.3: Pomodoro in/review filters and session drill-down data [in_progress]"]
     n4["bob-cli-9k.4: Homes on capture-pomodoros, bob plan, and bob pomodoro [in_progress]"]
-    n5["bob-cli-9k.5: Obsidian ledger home chips [in_progress]"]
+    n5["bob-cli-9k.5: Obsidian ledger home chips [closed]"]
     n6["bob-cli-9k.6: Where the time went panel on dash_stats.md [in_progress]"]
     n7["bob-cli-9k.7: Bob Mac Capture agenda shows homes [in_progress]"]
     n0 --> n1
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9k.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.2/README.md) | [bob-cli-9k.2](bob-cli-9k.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.3/README.md) | [bob-cli-9k.3](bob-cli-9k.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.4/README.md) | [bob-cli-9k.4](bob-cli-9k.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-9k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.5/README.md) | [bob-cli-9k.5](bob-cli-9k.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-9k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.5/README.md) | [bob-cli-9k.5](bob-cli-9k.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.6/README.md) | [bob-cli-9k.6](bob-cli-9k.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.7/README.md) | [bob-cli-9k.7](bob-cli-9k.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.land/README.md) | [bob-cli-9k](README.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9ec332c`](https://github.com/bobs-org/bob-cli/commit/9ec332c81def3014a559e088124ef93e3bb15ae7) | feat(homes): add shared Pomodoro home resolver and rollup contract | [bob-cli-9k.1](bob-cli-9k.1.md) | 2026-10-18 17:23:52 EDT |
+| bob-plugins | [`bob-plugins@0ffb3e0`](https://github.com/bobs-org/bob-plugins/commit/0ffb3e075d48d63796391e3e89dde831f0dc7bc0) | feat(bob-ledger-tools): add pomodoro home chips | [bob-cli-9k.5](bob-cli-9k.5.md) | 2026-10-18 17:51:32 EDT |
