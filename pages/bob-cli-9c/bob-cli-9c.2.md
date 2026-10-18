@@ -40,9 +40,11 @@ create-ingest: build the shared locked intake session in a new highlights_ref in
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9c.2][1] | Confirm phase scope and remaining notes before closure | 2 |
-| read-by | [agent:bob-cli-9c.4][2] | see what create-ingest left | 1 |
+| read-by | [agent:bob-cli-9c.3][2] | Need what create-ingest already shipped so producer-ingest can reuse it | 1 |
+| read-by | [agent:bob-cli-9c.4][3] | see what create-ingest left | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.4/README.md
 
 <!-- sase:referenced-by:end -->
