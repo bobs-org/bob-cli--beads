@@ -41,6 +41,16 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-10-17T14:10:04Z · bob-cli-87.land] Correction to the preceding LAND AUDIT note: sase bead epic-symbols bob-cli-87 reports no --epic-symbol entries, so there is nothing to retire at closeout; the justfile has no symvision recipe.
 
+[2026-10-17T23:47:10Z · bob-cli-87.13.land] PARENT READINESS AMBIGUITY found during bob-cli-87.13 landing review at 860f0be: parent plan acceptance #4 explicitly requires the live Highlights #task follow-up to land, and mac-acceptance step 5 asks for task/prose/image highlights plus a #task comment. Current docs/highlights-create.md lines 739-743 and parent LAND AUDIT #6 say the live #task-comment and image paths were not exercised; bob-cli-87.12 notes #20-#24 still describe empty attempts and contain no later completion/waiver note. The successful byte-clean task/child quote and source_note evidence is recorded, but does not prove a live follow-up task landed. Child mac_rerun=no forbids a fresh Mac contact and does not explicitly waive parent acceptance #4. After .13 closes, recheck all descendants, linked plans, and any newer evidence; leave bob-cli-87 open unless completion or an explicit waiver resolves this ambiguity. No unrelated task filed: this is the parent epic acceptance, not scope for the gate repair.
+
+[2026-10-18T01:43:07Z · bob-cli-87.13.land--1] BLOCKER after bob-cli-87.13 close: leave this epic open. Rechecked every descendant — all 12 original phases and child epic bob-cli-87.13 (and its four phases) are closed. Linked plan 202610/note_snapshot_landing_repairs.md is status: done; parent plan 202610/note_snapshots.md stays wip. DECISIONS still apply (default_text_layer=yes, obsidian_command=yes, decision_record=no). epic-symbols: none.
+
+Athena corpus gate 2026-10-17 (monitor 8zx7tjb24tz7, BOB_BIN=target/release/bob from CARGO_TARGET_DIR) passed: 103 renders, 5,081 dry-runs, 0 render/dry-run/glyph/overfull/Type3/false-file/raw-block-ID residue, vault git unchanged. Mac verification remains df4e120 pre-fix (mac_rerun=no).
+
+Acceptance #4 is still unmet. Parent plan requires Bryan's Highlights round trip: byte-clean quotes, the follow-up task lands, and source_note links back. mac-acceptance step 5 asks for a task line, a prose quote, an image highlight, and one #task comment. docs/highlights-create.md still records that a live #task-comment follow-up and image highlight were not exercised (CLI annotation-task tests cover that path). bob-cli-87.12 notes #20–#24 still describe empty round-trip attempts (highlights_count 0, no annotation follow-up on sase_blog.md) with no later completion or waiver. The recorded byte-clean task/child quote and source_note [[sase_blog]] do not prove a live follow-up task landed. Child mac_rerun=no forbids a fresh Mac contact and does not waive this parent requirement.
+
+No new task filed: this is unfinished parent acceptance, not a separate defect. Do not close bob-cli-87 until a live #task follow-up and image highlight are exercised or an explicit waiver is recorded.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -67,7 +77,7 @@ flowchart TD
     n2["bob-cli-87.10: Obsidian command to snapshot the open note [closed]"]
     n3["bob-cli-87.11: Corpus gate on athena and long-tail fixes [closed]"]
     n4["bob-cli-87.12: Mac acceptance and the real Highlights round trip [closed]"]
-    n5["bob-cli-87.13: Finish note snapshots so real area and project notes match the spec [in_progress]"]
+    n5["bob-cli-87.13: Finish note snapshots so real area and project notes match the spec [closed]"]
     n6["bob-cli-87.13.1: Projection fixes for badge rows, block-ref labels, file links, and kickers [closed]"]
     n7["bob-cli-87.13.2: Print profile fixes for task-row layout and image frames [closed]"]
     n8["bob-cli-87.13.3: Earlier-snapshot hints and Markdown text-layer leftovers [closed]"]
@@ -151,7 +161,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-87.13.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.2.md) | [bob-cli-87.13.2](bob-cli-87.13.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.13.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.3.md) | [bob-cli-87.13.3](bob-cli-87.13.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.13.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.4.md) | [bob-cli-87.13.4](bob-cli-87.13.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-87.13.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.13.land/README.md) | [bob-cli-87.13](bob-cli-87.13.md) | 0 |
+| [bbugyi200.athena.bob-cli-87.13.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.land.md) | [bob-cli-87.13](bob-cli-87.13.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.md) | [bob-cli-87.2](bob-cli-87.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-87.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.2.1.1.md) | [bob-cli-87.2.1.1](bob-cli-87.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-87.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-87.2.1.2/README.md) | [bob-cli-87.2.1.2](bob-cli-87.2.1.2.md) | 1 |
@@ -198,6 +208,7 @@ flowchart TD
 | bob-cli | [`9ef336c`](https://github.com/bobs-org/bob-cli/commit/9ef336cccbb9e11a0809ef9669406818df18acfc) | fix(note-snapshot): drop badge rows and resolve vault file links | [bob-cli-87.13.1](bob-cli-87.13.1.md) | 2026-10-17 10:52:16 EDT |
 | bob-cli | [`2ae1251`](https://github.com/bobs-org/bob-cli/commit/2ae1251512e06db6fb0a2c9a1360ac48ec80aa5e) | fix(note-snapshot): hang-indent task rows and hairline image frames | [bob-cli-87.13.2](bob-cli-87.13.2.md) | 2026-10-17 11:29:49 EDT |
 | bob-cli | [`860f0be`](https://github.com/bobs-org/bob-cli/commit/860f0be726a73b264e9d7b3d307f4679a8d73f79) | fix(note-snapshot): residue-gate corpus, resolve file links, and record verification | [bob-cli-87.13.4](bob-cli-87.13.4.md) | 2026-10-17 19:32:50 EDT |
+| bob-cli | [`724333f`](https://github.com/bobs-org/bob-cli/commit/724333f86981290f705c19a29ac723ed96e064d4) | fix(note-snapshot): resolve snapshot files and repair the corpus gate | [bob-cli-87.13](bob-cli-87.13.md) | 2026-10-17 21:46:18 EDT |
 
 <!-- sase:referenced-by:start -->
 

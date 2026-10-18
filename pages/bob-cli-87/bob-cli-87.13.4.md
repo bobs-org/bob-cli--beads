@@ -40,3 +40,15 @@ docs/highlights-create.md records athena 2026-10-17 numbers from parent 2ae1251 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`860f0be`](https://github.com/bobs-org/bob-cli/commit/860f0be726a73b264e9d7b3d307f4679a8d73f79) | fix(note-snapshot): residue-gate corpus, resolve file links, and record verification | [bob-cli-87.13.4](bob-cli-87.13.4.md) | 2026-10-17 19:32:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-87.13.4--i][1] | Need notes for visual review status | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.4.md
+
+<!-- sase:referenced-by:end -->
