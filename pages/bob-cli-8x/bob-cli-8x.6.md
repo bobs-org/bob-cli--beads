@@ -34,3 +34,15 @@ publish: document Ctrl+Shift+Alt+B and ⇧B in the bob-plugins README, deduplica
 |---|---|---|---|---|
 | bob-cli | [`3ec4d0d`](https://github.com/bobs-org/bob-cli/commit/3ec4d0d232dbb178e01d0b4fe0761a66323f547f) | docs(dependencies): clarify editing from both ends | [bob-cli-8x.6](bob-cli-8x.6.md) | 2026-10-17 20:08:44 EDT |
 | bob-plugins | [`bob-plugins@96a42c5`](https://github.com/bobs-org/bob-plugins/commit/96a42c56e9d338c0fd013cce4c1187bcba8b2b04) | docs(plugins): publish reverse Blocks stage gestures | [bob-cli-8x.6](bob-cli-8x.6.md) | 2026-10-17 20:09:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-8x.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8x.6/README.md
+
+<!-- sase:referenced-by:end -->
