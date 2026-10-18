@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-99.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.2.md) | [bob-cli-99.2](bob-cli-99.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-99.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md) | [bob-cli-99.3](bob-cli-99.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-99.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.4/README.md) | [bob-cli-99.4](bob-cli-99.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-99.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md) | [bob-cli-99](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-99.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md) | [bob-cli-99](README.md) | 2 |
 
 ## Commits
 
@@ -111,6 +111,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@74e3d9b`](https://github.com/bobs-org/bob-plugins/commit/74e3d9bcfc913e3964c058319effc3e976e2239a) | feat(reading-board): add the bob-reading-board block, keyboard and mouse routing, and Highlights hand-off | [bob-cli-99.3](bob-cli-99.3.md) | 2026-10-18 15:23:22 EDT |
 | bob-cli | [`b291f23`](https://github.com/bobs-org/bob-cli/commit/b291f23fe6e91252f8ff0a00ae0a4af2ca07bea0) | docs(ref): document the Obsidian Reading Board on dash\_references | [bob-cli-99.4](bob-cli-99.4.md) | 2026-10-18 15:52:16 EDT |
 | bob-cli | [`0511bee`](https://github.com/bobs-org/bob-cli/commit/0511beed45faf25ada30186d573a4cce800f9e45) | docs(ref): clarify Reading Board consumers | [bob-cli-99](README.md) | 2026-10-18 16:55:16 EDT |
+| bob-plugins | [`bob-plugins@60148ab`](https://github.com/bobs-org/bob-plugins/commit/60148ab5f7765651121c92802bf381f9adeddb91) | fix(ledger-tools): repair Reading Board decoding and refresh | [bob-cli-99](README.md) | 2026-10-18 16:56:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
