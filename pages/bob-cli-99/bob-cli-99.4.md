@@ -41,3 +41,15 @@ rollout: add the board above the existing table on dash_references, document it 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b291f23`](https://github.com/bobs-org/bob-cli/commit/b291f23fe6e91252f8ff0a00ae0a4af2ca07bea0) | docs(ref): document the Obsidian Reading Board on dash\_references | [bob-cli-99.4](bob-cli-99.4.md) | 2026-10-18 15:52:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-99.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.4/README.md
+
+<!-- sase:referenced-by:end -->
