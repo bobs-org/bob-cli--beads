@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-8y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.2.md) | [bob-cli-8y.2](bob-cli-8y.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-8y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.3.md) | [bob-cli-8y.3](bob-cli-8y.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-8y.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8y.4/README.md) | [bob-cli-8y.4](bob-cli-8y.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-8y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.land.md) | [bob-cli-8y](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-8y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.land.md) | [bob-cli-8y](README.md) | 2 |
 
 ## Commits
 
@@ -79,3 +79,4 @@ flowchart TD
 | bob-cli | [`58c9614`](https://github.com/bobs-org/bob-cli/commit/58c9614401350666609e9dbc67d5b95f8aa5b0d9) | feat(highlights-ref): render mermaid diagrams through the clip adapter | [bob-cli-8y.3](bob-cli-8y.3.md) | 2026-10-17 21:56:04 EDT |
 | bob-cli | [`99b2ac4`](https://github.com/bobs-org/bob-cli/commit/99b2ac4085705d021d332bee440d52897364cd17) | feat(highlights): finish Mermaid diagram acceptance | [bob-cli-8y.4](bob-cli-8y.4.md) | 2026-10-17 22:19:05 EDT |
 | bob-cli | [`fd3f400`](https://github.com/bobs-org/bob-cli/commit/fd3f400b142ab667ca4ba885ebe5a8d2ea9976c1) | fix(highlights): repair Mermaid landing edge cases | [bob-cli-8y](README.md) | 2026-10-17 23:01:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@cbf4447`](https://github.com/bobs-org/bob-cli--plans/commit/cbf444746d46a00cb4c426e93fc6119630054559) | docs(plan): mark Mermaid figures epic complete | [bob-cli-8y](README.md) | 2026-10-17 23:02:25 EDT |
