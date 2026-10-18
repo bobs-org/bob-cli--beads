@@ -30,3 +30,15 @@ refs-panel-newest: route ⌘0, hold the mode in the panel model (exclusive with 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@7d6063a`](https://github.com/bobs-org/bob-mac-capture/commit/7d6063a66a38e289644ef3a69a3abcad173af9a4) | feat(refs): add ⌘0 Newest mode to the Bob Refs panel | [bob-cli-9d.3](bob-cli-9d.3.md) | 2026-10-18 16:38:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9d.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.3/README.md
+
+<!-- sase:referenced-by:end -->
