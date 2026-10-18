@@ -42,7 +42,9 @@ retire: turn the whole-item `=x…`/`=*…`/`=!…` shapes and the link `=*`/`=!
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9b.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-9b.4][2] | Validate the completed parser phase prerequisite before generating Mac fixtures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.4/README.md
 
 <!-- sase:referenced-by:end -->
