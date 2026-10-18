@@ -20,7 +20,7 @@ stats-drilldown: add the pomodoro `in:`, `exclude_in`, and `review:` filters, pu
 ## Dependencies
 
 - **Depends on:** [bob-cli-9k.2](bob-cli-9k.2.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9k.6](bob-cli-9k.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.6](bob-cli-9k.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -33,3 +33,15 @@ stats-drilldown: add the pomodoro `in:`, `exclude_in`, and `review:` filters, pu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`930b349`](https://github.com/bobs-org/bob-cli/commit/930b3495c01e1bd151ce9bdab36bcf4ad9d0dda5) | feat(stats): add pomodoro in/review filters and session drill-down | [bob-cli-9k.3](bob-cli-9k.3.md) | 2026-10-18 19:17:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9k.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.3.md
+
+<!-- sase:referenced-by:end -->

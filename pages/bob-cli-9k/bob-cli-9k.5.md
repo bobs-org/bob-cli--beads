@@ -20,13 +20,19 @@ ledger-chips: add a bob-ledger-tools JavaScript mirror of the resolver that runs
 ## Dependencies
 
 - **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9k.6](bob-cli-9k.6.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.6](bob-cli-9k.6.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.5/README.md) | [bob-cli-9k.5](bob-cli-9k.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-9k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.5/README.md) | [bob-cli-9k.5](bob-cli-9k.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@0ffb3e0`](https://github.com/bobs-org/bob-plugins/commit/0ffb3e075d48d63796391e3e89dde831f0dc7bc0) | feat(bob-ledger-tools): add pomodoro home chips | [bob-cli-9k.5](bob-cli-9k.5.md) | 2026-10-18 17:51:32 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_homes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_homes.md
 
@@ -33,8 +33,8 @@ Every Pomodoro is labeled, on every surface, by the areas and projects of the ta
 | [bob-cli-9k.2](bob-cli-9k.2.md) | Area and project parts in bob stats | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9k.3](bob-cli-9k.3.md) | Pomodoro in/review filters and session drill-down data | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9k.4](bob-cli-9k.4.md) | Homes on capture-pomodoros, bob plan, and bob pomodoro | ✓ closed | medium | 2026-10-18 | 1 | 1 |
-| [bob-cli-9k.5](bob-cli-9k.5.md) | Obsidian ledger home chips | ✓ closed | medium | 2026-10-18 | 1 | 0 |
-| [bob-cli-9k.6](bob-cli-9k.6.md) | Where the time went panel on dash\_stats.md | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9k.5](bob-cli-9k.5.md) | Obsidian ledger home chips | ✓ closed | medium | 2026-10-18 | 1 | 1 |
+| [bob-cli-9k.6](bob-cli-9k.6.md) | Where the time went panel on dash\_stats.md | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9k.7](bob-cli-9k.7.md) | Bob Mac Capture agenda shows homes | ✓ closed | small | 2026-10-18 | 1 | 0 |
 
 ## Lineage
@@ -47,7 +47,7 @@ flowchart TD
     n3["bob-cli-9k.3: Pomodoro in/review filters and session drill-down data [closed]"]
     n4["bob-cli-9k.4: Homes on capture-pomodoros, bob plan, and bob pomodoro [closed]"]
     n5["bob-cli-9k.5: Obsidian ledger home chips [closed]"]
-    n6["bob-cli-9k.6: Where the time went panel on dash_stats.md [in_progress]"]
+    n6["bob-cli-9k.6: Where the time went panel on dash_stats.md [closed]"]
     n7["bob-cli-9k.7: Bob Mac Capture agenda shows homes [closed]"]
     n0 --> n1
     n0 --> n2
@@ -73,8 +73,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9k.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.2/README.md) | [bob-cli-9k.2](bob-cli-9k.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.3.md) | [bob-cli-9k.3](bob-cli-9k.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.4/README.md) | [bob-cli-9k.4](bob-cli-9k.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-9k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.5/README.md) | [bob-cli-9k.5](bob-cli-9k.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-9k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.6/README.md) | [bob-cli-9k.6](bob-cli-9k.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-9k.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.5/README.md) | [bob-cli-9k.5](bob-cli-9k.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-9k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.6/README.md) | [bob-cli-9k.6](bob-cli-9k.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.7/README.md) | [bob-cli-9k.7](bob-cli-9k.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.land/README.md) | [bob-cli-9k](README.md) | 0 |
 
@@ -83,9 +83,11 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9ec332c`](https://github.com/bobs-org/bob-cli/commit/9ec332c81def3014a559e088124ef93e3bb15ae7) | feat(homes): add shared Pomodoro home resolver and rollup contract | [bob-cli-9k.1](bob-cli-9k.1.md) | 2026-10-18 17:23:52 EDT |
+| bob-plugins | [`bob-plugins@0ffb3e0`](https://github.com/bobs-org/bob-plugins/commit/0ffb3e075d48d63796391e3e89dde831f0dc7bc0) | feat(bob-ledger-tools): add pomodoro home chips | [bob-cli-9k.5](bob-cli-9k.5.md) | 2026-10-18 17:51:32 EDT |
 | bob-cli | [`196af9b`](https://github.com/bobs-org/bob-cli/commit/196af9b38d9bac93e7055c599a7640e0f9eac95a) | feat(pomodoro-homes): expose derived homes on live CLI surfaces | [bob-cli-9k.4](bob-cli-9k.4.md) | 2026-10-18 17:52:36 EDT |
 | bob-cli | [`81103c2`](https://github.com/bobs-org/bob-cli/commit/81103c2e2b053e6107473b81f8952966e599023c) | feat(stats): add area and project parts to bob stats | [bob-cli-9k.2](bob-cli-9k.2.md) | 2026-10-18 18:29:50 EDT |
 | bob-cli | [`930b349`](https://github.com/bobs-org/bob-cli/commit/930b3495c01e1bd151ce9bdab36bcf4ad9d0dda5) | feat(stats): add pomodoro in/review filters and session drill-down | [bob-cli-9k.3](bob-cli-9k.3.md) | 2026-10-18 19:17:42 EDT |
+| bob-cli | [`1933d54`](https://github.com/bobs-org/bob-cli/commit/1933d544e224e92e05ca8a94b60c9e8e08538cdb) | docs(stats): document area and project attribution | [bob-cli-9k.6](bob-cli-9k.6.md) | 2026-10-18 19:45:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -94,9 +96,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.2][1] | Need epic DECISIONS, sibling phases, and overall scope for stats-parts | 1 |
-| read-by | [agent:bob-cli-9k.4][2] | Need parent epic decisions and remaining phases | 1 |
+| read-by | [agent:bob-cli-9k.3--1][2] | Need parent epic decisions and remaining phases | 1 |
+| read-by | [agent:bob-cli-9k.4][3] | Need parent epic decisions and remaining phases | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.3.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.4/README.md
 
 <!-- sase:referenced-by:end -->
