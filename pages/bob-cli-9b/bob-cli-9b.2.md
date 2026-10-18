@@ -20,7 +20,7 @@ retire: turn the whole-item `=x…`/`=*…`/`=!…` shapes and the link `=*`/`=!
 ## Dependencies
 
 - **Depends on:** [bob-cli-9b.1](bob-cli-9b.1.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9b.3](bob-cli-9b.3.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9b.3](bob-cli-9b.3.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9b.4](bob-cli-9b.4.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
@@ -34,3 +34,15 @@ retire: turn the whole-item `=x…`/`=*…`/`=!…` shapes and the link `=*`/`=!
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6bc432b`](https://github.com/bobs-org/bob-cli/commit/6bc432b297045b3f8b5dc4e866999a18848a35d9) | feat(capture)!: retire =x and the =\*/=! shorthands | [bob-cli-9b.2](bob-cli-9b.2.md) | 2026-10-18 15:51:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9b.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.2/README.md
+
+<!-- sase:referenced-by:end -->
