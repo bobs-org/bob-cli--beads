@@ -13,7 +13,7 @@ producer-ingest: route the remaining PDF producers through the intake session. T
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9c.2](bob-cli-9c.2.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9c.2](bob-cli-9c.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9c.6](bob-cli-9c.6.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
