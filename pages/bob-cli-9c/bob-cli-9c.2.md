@@ -18,7 +18,7 @@ create-ingest: build the shared locked intake session in a new highlights_ref in
 ## Dependencies
 
 - **Blocks:** [bob-cli-9c.3](bob-cli-9c.3.md) ◐ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9c.4](bob-cli-9c.4.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9c.4](bob-cli-9c.4.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9c.6](bob-cli-9c.6.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
@@ -32,3 +32,15 @@ create-ingest: build the shared locked intake session in a new highlights_ref in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c4ac06f`](https://github.com/bobs-org/bob-cli/commit/c4ac06fb47633fcf1b26e592031a6c32c0087a8e) | feat(highlights): ingest references during create | [bob-cli-9c.2](bob-cli-9c.2.md) | 2026-10-18 15:15:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9c.2][1] | Confirm phase scope and remaining notes before closure | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.2/README.md
+
+<!-- sase:referenced-by:end -->

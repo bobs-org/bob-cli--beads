@@ -17,7 +17,7 @@ scan-sync-lock: make every writing `bob ref scan` (human and JSON) take bob_sync
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9c.4](bob-cli-9c.4.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9c.4](bob-cli-9c.4.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9c.6](bob-cli-9c.6.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
