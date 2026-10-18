@@ -1,0 +1,55 @@
+# Bead: bob-cli-9b — Bare x Pomodoro close replaces =x
+
+[Bead Pages](../README.md) / bob-cli-9b
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.11i](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.11i.md) · **Assignee:** `bob-cli-9b.land`
+**Created:** 2026-10-18 14:36:55 EDT
+**Plan:** [202610/bare\_x\_close.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bare_x_close.md)
+
+## Description
+
+Closing today's running Pomodoro takes a bare `x` token with the same selection grammar as today's `=x` (`=x2!1*3` becomes `x2!1*3`). The `=*`/`=!` shorthands are gone. bob, its docs, and Bob Mac Capture teach only the new spelling.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-9b.1](bob-cli-9b.1.md) | Bare x close in both parsers | ✓ closed | medium | 2026-10-18 | 1 | 1 |
+| [bob-cli-9b.2](bob-cli-9b.2.md) | Retire =x and the =\*/=! shorthands | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9b.3](bob-cli-9b.3.md) | Docs and memory teach x | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9b.4](bob-cli-9b.4.md) | Bob Mac Capture teaches x | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-9b: Bare x Pomodoro close replaces =x [in_progress]"]
+    n1["bob-cli-9b.1: Bare x close in both parsers [closed]"]
+    n2["bob-cli-9b.2: Retire =x and the =*/=! shorthands [in_progress]"]
+    n3["bob-cli-9b.3: Docs and memory teach x [in_progress]"]
+    n4["bob-cli-9b.4: Bob Mac Capture teaches x [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n1 -.-> n2
+    n2 -.-> n3
+    n2 -.-> n4
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-9b.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9b.1.md) | [bob-cli-9b.1](bob-cli-9b.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-9b.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.2/README.md) | [bob-cli-9b.2](bob-cli-9b.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-9b.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.3/README.md) | [bob-cli-9b.3](bob-cli-9b.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-9b.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.4/README.md) | [bob-cli-9b.4](bob-cli-9b.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-9b.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9b.land/README.md) | [bob-cli-9b](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`c166ed2`](https://github.com/bobs-org/bob-cli/commit/c166ed26326dd8b8c76428bbcf04158d920ee95f) | feat(capture): add bare x Pomodoro close | [bob-cli-9b.1](bob-cli-9b.1.md) | 2026-10-18 15:07:05 EDT |
