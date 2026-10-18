@@ -13,7 +13,7 @@ stats-drilldown: add the pomodoro `in:`, `exclude_in`, and `review:` filters, pu
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9k.2](bob-cli-9k.2.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9k.2](bob-cli-9k.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.6](bob-cli-9k.6.md) ◐ · ⧖ 2026-10-18
 
 ## Agents

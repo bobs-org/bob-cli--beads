@@ -17,7 +17,7 @@ homes-core: build the one Rust resolver for task homes, session links, review se
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9k.2](bob-cli-9k.2.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.2](bob-cli-9k.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.4](bob-cli-9k.4.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.5](bob-cli-9k.5.md) ✓ · ⧖ 2026-10-18
 
