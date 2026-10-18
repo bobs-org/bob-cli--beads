@@ -13,7 +13,7 @@ mac-agenda: decode the additive `homes` object. Unnamed agenda and Refs Today en
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9k.4](bob-cli-9k.4.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9k.4](bob-cli-9k.4.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
