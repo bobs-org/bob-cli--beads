@@ -17,6 +17,8 @@ ast: add the Rust diagrams module with the kill switch, the fence pre-scan, the 
 
 [2026-10-18T00:11:22Z · bob-cli-8y.2--1] Verified diagrams collect/swap: kill switch, fence pre-scan, pandoc collect on both readers, results.json writer, collect/swap Lua filters first on both Markdown PDF routes via RenderFilters. Production callers pass diagrams: None. just check passed (exit 0) including diagrams unit tests and render_temp_pdf/render_note_pdf swap tests. No leftover --epic-symbol entries.
 
+[2026-10-18T00:36:30Z · bob-cli-8y.2--1] PROPOSED FOLLOW-UP: prepared host completion recovers with missing_required_stage:formatting because bob-cli just check emits no CHECK_STAGES (formatting/ruff/mypy/validation/scoped_tests) — add a named check catalog or rust-native stage mapping (14 similar failures on this project).
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-8y.3](bob-cli-8y.3.md) ◐ · ⧖ 2026-10-17
@@ -25,4 +27,10 @@ ast: add the Rust diagrams module with the kill switch, the fence pre-scan, the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-8y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.2.md) | [bob-cli-8y.2](bob-cli-8y.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-8y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.2.md) | [bob-cli-8y.2](bob-cli-8y.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ad036f9`](https://github.com/bobs-org/bob-cli/commit/ad036f9b530b0d735f0d1079e59e718233b437b8) | feat(highlights-ref): add mermaid diagram collect and swap filters | [bob-cli-8y.2](bob-cli-8y.2.md) | 2026-10-17 21:01:59 EDT |

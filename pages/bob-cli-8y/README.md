@@ -28,7 +28,7 @@ Explicit Mermaid code blocks in Markdown and vault-note imports print as fitted,
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-8y.1](bob-cli-8y.1.md) | Mermaid \`diagrams\` op in the web-clip adapter | ✓ closed | medium | 2026-10-17 | 1 | 1 |
-| [bob-cli-8y.2](bob-cli-8y.2.md) | Diagram collect and swap filters, wired behind an off-by-default hook | ✓ closed | medium | 2026-10-17 | 1 | 0 |
+| [bob-cli-8y.2](bob-cli-8y.2.md) | Diagram collect and swap filters, wired behind an off-by-default hook | ✓ closed | medium | 2026-10-17 | 1 | 1 |
 | [bob-cli-8y.3](bob-cli-8y.3.md) | Render through the adapter on both routes | ◐ in_progress | medium | 2026-10-17 | 1 | 0 |
 | [bob-cli-8y.4](bob-cli-8y.4.md) | Dry-run, doctor, docs, live test, and acceptance | ◐ in_progress | medium | 2026-10-17 | 1 | 0 |
 
@@ -55,7 +55,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-8y.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.1.md) | [bob-cli-8y.1](bob-cli-8y.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-8y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.2.md) | [bob-cli-8y.2](bob-cli-8y.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-8y.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-8y.2.md) | [bob-cli-8y.2](bob-cli-8y.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-8y.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8y.3/README.md) | [bob-cli-8y.3](bob-cli-8y.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-8y.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8y.4/README.md) | [bob-cli-8y.4](bob-cli-8y.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-8y.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-8y.land/README.md) | [bob-cli-8y](README.md) | 0 |
@@ -65,3 +65,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`54670b4`](https://github.com/bobs-org/bob-cli/commit/54670b4535e3328f5ec1e54c574ff4e7ac8925de) | feat(web-clip): add offline Mermaid diagram rendering | [bob-cli-8y.1](bob-cli-8y.1.md) | 2026-10-17 20:34:41 EDT |
+| bob-cli | [`ad036f9`](https://github.com/bobs-org/bob-cli/commit/ad036f9b530b0d735f0d1079e59e718233b437b8) | feat(highlights-ref): add mermaid diagram collect and swap filters | [bob-cli-8y.2](bob-cli-8y.2.md) | 2026-10-17 21:01:59 EDT |
