@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-9c](README.md) / bob-cli-9c.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.4s.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.4s.linker.w0.md) · **Assignee:** `bob-cli-9c.3` · **Size:** medium
-**Created:** 2026-10-18 14:40:03 EDT
+**Created:** 2026-10-18 14:40:03 EDT · **Closed:** 2026-10-18 15:47:41 EDT
 **Plan:** [202610/ref\_ingest\_at\_birth.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_ingest_at_birth.md)
 
 ## Description
 
 producer-ingest: route the remaining PDF producers through the intake session. These are the `--listen` attach path (audio-only units), `ingest_url` (the capture ref-jobs worker and `bob gkeep pull`), and their outcome types. Add ingested/queued states to `bob ref jobs` and to gkeep output.
+
+## Notes
+
+[2026-10-18T19:47:41Z · bob-cli-9c.3] Producer-ingest routes --listen attach (Audio for lib PDFs, Pdf+companion for queued), ingest_url (bob ref jobs run / bob gkeep pull) through finish_intake. Jobs list/run show filed vs clipped/queued; JSON summary adds ingested; old created records stay clipped. Gkeep human/JSON add intake/note/queue_reason. just check passed; attach ingest, jobs ingest/lock/old-records, and gkeep pull tests passed.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ producer-ingest: route the remaining PDF producers through the intake session. T
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.3/README.md) | [bob-cli-9c.3](bob-cli-9c.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-9c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.3/README.md) | [bob-cli-9c.3](bob-cli-9c.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`5848c39`](https://github.com/bobs-org/bob-cli/commit/5848c39d367eedf354e3276f493541ce66c40bb2) | feat(ref): ingest listen-attach, jobs, and gkeep clips at birth | [bob-cli-9c.3](bob-cli-9c.3.md) | 2026-10-18 15:48:43 EDT |

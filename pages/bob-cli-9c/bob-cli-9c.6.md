@@ -15,7 +15,7 @@ tailnet-rollout: in chezmoi, add the Linux bob-ref-intake systemd timer, retire 
 
 - **Depends on:** [bob-cli-9c.1](bob-cli-9c.1.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [bob-cli-9c.2](bob-cli-9c.2.md) ✓ · ⧖ 2026-10-18
-- **Depends on:** [bob-cli-9c.3](bob-cli-9c.3.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9c.3](bob-cli-9c.3.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [bob-cli-9c.4](bob-cli-9c.4.md) ✓ · ⧖ 2026-10-18
 - **Depends on:** [bob-cli-9c.5](bob-cli-9c.5.md) ◐ · ⧖ 2026-10-18
 

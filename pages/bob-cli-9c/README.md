@@ -17,7 +17,7 @@ A successful `bob ref create` on athena, apollo, or the Mac leaves the reference
 |---|---|---|---|---|---:|---:|
 | [bob-cli-9c.1](bob-cli-9c.1.md) | Writing scans hold the vault-maintenance lock | ✓ closed | small | 2026-10-18 | 1 | 1 |
 | [bob-cli-9c.2](bob-cli-9c.2.md) | Shared intake session and create wiring | ✓ closed | medium | 2026-10-18 | 1 | 1 |
-| [bob-cli-9c.3](bob-cli-9c.3.md) | Ingest for listen-attach, ref jobs, and gkeep pull | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
+| [bob-cli-9c.3](bob-cli-9c.3.md) | Ingest for listen-attach, ref jobs, and gkeep pull | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9c.4](bob-cli-9c.4.md) | bob ref scan --intake-only drain | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-9c.5](bob-cli-9c.5.md) | Intake health in bob ref doctor | ◐ in_progress | small | 2026-10-18 | 1 | 0 |
 | [bob-cli-9c.6](bob-cli-9c.6.md) | Per-host drains, bridge retirement, docs, and rollout | ◐ in_progress | medium | 2026-10-18 | 1 | 0 |
@@ -29,7 +29,7 @@ flowchart TD
     n0["bob-cli-9c: bob ref create files its own references (ingest at birth) [in_progress]"]
     n1["bob-cli-9c.1: Writing scans hold the vault-maintenance lock [closed]"]
     n2["bob-cli-9c.2: Shared intake session and create wiring [closed]"]
-    n3["bob-cli-9c.3: Ingest for listen-attach, ref jobs, and gkeep pull [in_progress]"]
+    n3["bob-cli-9c.3: Ingest for listen-attach, ref jobs, and gkeep pull [closed]"]
     n4["bob-cli-9c.4: bob ref scan --intake-only drain [closed]"]
     n5["bob-cli-9c.5: Intake health in bob ref doctor [in_progress]"]
     n6["bob-cli-9c.6: Per-host drains, bridge retirement, docs, and rollout [in_progress]"]
@@ -56,7 +56,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-9c.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9c.1.md) | [bob-cli-9c.1](bob-cli-9c.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-9c.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.2/README.md) | [bob-cli-9c.2](bob-cli-9c.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-9c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.3/README.md) | [bob-cli-9c.3](bob-cli-9c.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-9c.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.3/README.md) | [bob-cli-9c.3](bob-cli-9c.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.4/README.md) | [bob-cli-9c.4](bob-cli-9c.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-9c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.5/README.md) | [bob-cli-9c.5](bob-cli-9c.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-9c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.6/README.md) | [bob-cli-9c.6](bob-cli-9c.6.md) | 0 |
@@ -69,3 +69,16 @@ flowchart TD
 | bob-cli | [`85eac25`](https://github.com/bobs-org/bob-cli/commit/85eac25aa112e0888ec09955ef0bc587e3c514ea) | feat(ref): hold vault-maintenance lock during writing scans | [bob-cli-9c.1](bob-cli-9c.1.md) | 2026-10-18 14:58:58 EDT |
 | bob-cli | [`c4ac06f`](https://github.com/bobs-org/bob-cli/commit/c4ac06fb47633fcf1b26e592031a6c32c0087a8e) | feat(highlights): ingest references during create | [bob-cli-9c.2](bob-cli-9c.2.md) | 2026-10-18 15:15:47 EDT |
 | bob-cli | [`fa7745f`](https://github.com/bobs-org/bob-cli/commit/fa7745fc71c0fe0cb2fafe4c78270e3b5d890837) | feat(ref): add scan --intake-only xlib drain | [bob-cli-9c.4](bob-cli-9c.4.md) | 2026-10-18 15:39:40 EDT |
+| bob-cli | [`5848c39`](https://github.com/bobs-org/bob-cli/commit/5848c39d367eedf354e3276f493541ce66c40bb2) | feat(ref): ingest listen-attach, jobs, and gkeep clips at birth | [bob-cli-9c.3](bob-cli-9c.3.md) | 2026-10-18 15:48:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9c.4][1] | epic context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.4/README.md
+
+<!-- sase:referenced-by:end -->
