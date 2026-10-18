@@ -49,7 +49,9 @@ rollout: add the board above the existing table on dash_references, document it 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-99.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-99.land--2][2] | Reread child scope and all completion/triage notes before closing the Reading Board epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md
 
 <!-- sase:referenced-by:end -->

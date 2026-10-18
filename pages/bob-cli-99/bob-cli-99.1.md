@@ -43,7 +43,9 @@ ref-json: add task priority and scheduled date plus a typed `blocked_by` reason 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-99.1][1] | Need notes, remaining work, and whether earlier agent left remainder | 3 |
+| read-by | [agent:bob-cli-99.land--2][2] | Reread child scope and all completion/triage notes before closing the Reading Board epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md
 
 <!-- sase:referenced-by:end -->

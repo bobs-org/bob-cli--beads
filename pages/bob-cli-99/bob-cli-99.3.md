@@ -30,7 +30,7 @@
 | related | file:explicit:eac7f077d746360050eb8e75 | attached via sase artifact create --bead |
 | related | file:explicit:eef322a5aef43cd0beacf98a | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -69,8 +69,10 @@ board-ui: render the board (lanes, cards, Snoozed rows, honest states), keyboard
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-99.3][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-99.4][2] | Need what board-ui delivered | 1 |
+| read-by | [agent:bob-cli-99.land--2][3] | Reread child scope and all completion/triage notes before closing the Reading Board epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md
 
 <!-- sase:referenced-by:end -->

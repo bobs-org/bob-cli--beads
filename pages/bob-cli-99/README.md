@@ -17,7 +17,7 @@
 | related | file:explicit:2ad4163e19db21052bd615c2 | attached via sase artifact create --bead |
 | related | file:explicit:fcf6e006c27bd0600d8b345a | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/reading_board.md
 
@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-99.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.2.md) | [bob-cli-99.2](bob-cli-99.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-99.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md) | [bob-cli-99.3](bob-cli-99.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-99.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.4/README.md) | [bob-cli-99.4](bob-cli-99.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-99.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md) | [bob-cli-99](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-99.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md) | [bob-cli-99](README.md) | 3 |
 
 ## Commits
 
@@ -112,6 +112,7 @@ flowchart TD
 | bob-cli | [`b291f23`](https://github.com/bobs-org/bob-cli/commit/b291f23fe6e91252f8ff0a00ae0a4af2ca07bea0) | docs(ref): document the Obsidian Reading Board on dash\_references | [bob-cli-99.4](bob-cli-99.4.md) | 2026-10-18 15:52:16 EDT |
 | bob-cli | [`0511bee`](https://github.com/bobs-org/bob-cli/commit/0511beed45faf25ada30186d573a4cce800f9e45) | docs(ref): clarify Reading Board consumers | [bob-cli-99](README.md) | 2026-10-18 16:55:16 EDT |
 | bob-plugins | [`bob-plugins@60148ab`](https://github.com/bobs-org/bob-plugins/commit/60148ab5f7765651121c92802bf381f9adeddb91) | fix(ledger-tools): repair Reading Board decoding and refresh | [bob-cli-99](README.md) | 2026-10-18 16:56:13 EDT |
+| bob-cli--plans | [`bob-cli--plans@3cf125f`](https://github.com/bobs-org/bob-cli--plans/commit/3cf125fa79d9099ee2f8909cf0263fb02c957d35) | docs(plan): mark Reading Board plan complete | [bob-cli-99](README.md) | 2026-10-18 16:56:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -120,7 +121,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-99.3][1] | Check epic notes | 1 |
+| read-by | [agent:bob-cli-99.land--2][2] | Inspect the epic parent link before closeout, as required by the approved landing tale | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.land.md
 
 <!-- sase:referenced-by:end -->
