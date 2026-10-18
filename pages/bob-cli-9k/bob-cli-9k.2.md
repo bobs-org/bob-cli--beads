@@ -22,7 +22,7 @@ stats-parts: index closed-session links in the stats pass and add area and proje
 ## Dependencies
 
 - **Depends on:** [bob-cli-9k.1](bob-cli-9k.1.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9k.3](bob-cli-9k.3.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.3](bob-cli-9k.3.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -35,3 +35,15 @@ stats-parts: index closed-session links in the stats pass and add area and proje
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`81103c2`](https://github.com/bobs-org/bob-cli/commit/81103c2e2b053e6107473b81f8952966e599023c) | feat(stats): add area and project parts to bob stats | [bob-cli-9k.2](bob-cli-9k.2.md) | 2026-10-18 18:29:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9k.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.2/README.md
+
+<!-- sase:referenced-by:end -->
