@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/refs_newest_mode.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/refs_newest_mode.md
 
@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9d.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.1.md) | [bob-cli-9d.1](bob-cli-9d.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-9d.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.2/README.md) | [bob-cli-9d.2](bob-cli-9d.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9d.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.3/README.md) | [bob-cli-9d.3](bob-cli-9d.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-9d.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.land.md) | [bob-cli-9d](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-9d.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.land.md) | [bob-cli-9d](README.md) | 2 |
 
 ## Commits
 
@@ -72,6 +72,7 @@ flowchart TD
 | bob-cli | [`de78e98`](https://github.com/bobs-org/bob-cli/commit/de78e982011b3424aa3d18f62aeb797daa0ba643) | feat(ref): add reliable added\_at timestamps | [bob-cli-9d.1](bob-cli-9d.1.md) | 2026-10-18 16:23:07 EDT |
 | bob-mac-capture | [`bob-mac-capture@7d6063a`](https://github.com/bobs-org/bob-mac-capture/commit/7d6063a66a38e289644ef3a69a3abcad173af9a4) | feat(refs): add ⌘0 Newest mode to the Bob Refs panel | [bob-cli-9d.3](bob-cli-9d.3.md) | 2026-10-18 16:38:35 EDT |
 | bob-mac-capture | [`bob-mac-capture@cbd4e42`](https://github.com/bobs-org/bob-mac-capture/commit/cbd4e423533abc734e139ade0f6b8d9ea73e9720) | test(refs): complete Newest git instant fixture coverage | [bob-cli-9d](README.md) | 2026-10-18 17:18:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@fec33fa`](https://github.com/bobs-org/bob-cli--plans/commit/fec33fa93ac4d47d729371db880a1bcdbd73cea2) | docs(refs): mark Newest plan complete | [bob-cli-9d](README.md) | 2026-10-18 17:20:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -80,7 +81,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9d.3][1] | Need parent epic scope and sibling phases | 1 |
+| read-by | [agent:bob-cli-9d.land--1][2] | Need current epic scope, notes, and status to close approved work | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.land.md
 
 <!-- sase:referenced-by:end -->

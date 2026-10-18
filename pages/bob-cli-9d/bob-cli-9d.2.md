@@ -41,8 +41,10 @@ refs-core-newest: decode `added_at`, keep git instants in the snapshot, and add 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9d.2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-9d.3][2] | Need prior phase scope and what landed in RefsCore | 1 |
+| read-by | [agent:bob-cli-9d.land--1][3] | Need phase evidence for fixture repair and follow-up disposition | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9d.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9d.land.md
 
 <!-- sase:referenced-by:end -->
