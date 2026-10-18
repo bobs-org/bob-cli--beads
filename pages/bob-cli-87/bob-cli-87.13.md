@@ -49,10 +49,11 @@ epic-symbols bob-cli-87.13: none. Parent bob-cli-87 left open: acceptance #4 liv
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-87.13.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.land.md) | [bob-cli-87.13](bob-cli-87.13.md) | 1 |
+| [bbugyi200.athena.bob-cli-87.13.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-87.13.land.md) | [bob-cli-87.13](bob-cli-87.13.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`724333f`](https://github.com/bobs-org/bob-cli/commit/724333f86981290f705c19a29ac723ed96e064d4) | fix(note-snapshot): resolve snapshot files and repair the corpus gate | [bob-cli-87.13](bob-cli-87.13.md) | 2026-10-17 21:46:18 EDT |
+| bob-cli--plans | [`bob-cli--plans@6ca727a`](https://github.com/bobs-org/bob-cli--plans/commit/6ca727a5f5953c14e5620925f99b30fc17efb34c) | docs(plans): mark note-snapshot landing repairs done | [bob-cli-87.13](bob-cli-87.13.md) | 2026-10-17 21:47:28 EDT |
