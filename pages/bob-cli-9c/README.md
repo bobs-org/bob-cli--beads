@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9c.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.4/README.md) | [bob-cli-9c.4](bob-cli-9c.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-9c.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9c.5/README.md) | [bob-cli-9c.5](bob-cli-9c.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-9c.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9c.6.md) | [bob-cli-9c.6](bob-cli-9c.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-9c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9c.land.md) | [bob-cli-9c](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-9c.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9c.land.md) | [bob-cli-9c](README.md) | 2 |
 
 ## Commits
 
@@ -102,6 +102,7 @@ flowchart TD
 | chezmoi | [`chezmoi@9ee5fd2`](https://github.com/bbugyi200/dotfiles/commit/9ee5fd2aa664f6986d0921b5bc15e3c3ae200253) | feat(chezmoi)!: retire cross-host highlights intake bridge | [bob-cli-9c.6](bob-cli-9c.6.md) | 2026-10-18 16:22:07 EDT |
 | bob-cli | [`2a11d05`](https://github.com/bobs-org/bob-cli/commit/2a11d0514103a08ef5c29b4100196c5543e2028e) | feat(ref): roll out per-host intake drains | [bob-cli-9c.6](bob-cli-9c.6.md) | 2026-10-18 16:58:03 EDT |
 | bob-cli | [`f4cdf0b`](https://github.com/bobs-org/bob-cli/commit/f4cdf0bd31876a0b2b0f5183711090c22bae3ab8) | feat(highlights): land ingest-at-birth silent intake and kill-switch | [bob-cli-9c](README.md) | 2026-10-18 18:05:25 EDT |
+| bob-cli--plans | [`bob-cli--plans@d37ab64`](https://github.com/bobs-org/bob-cli--plans/commit/d37ab64f69be59b89d3ee6288d3ec87cfd58e36b) | docs(plan): mark ref\_ingest\_at\_birth done after landing | [bob-cli-9c](README.md) | 2026-10-18 18:06:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
