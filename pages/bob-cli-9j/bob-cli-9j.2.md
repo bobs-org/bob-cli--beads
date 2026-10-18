@@ -21,7 +21,7 @@ retire-double: make every claimed `==` token a teaching error that names its `=`
 
 - **Depends on:** [bob-cli-9j.1](bob-cli-9j.1.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9j.3](bob-cli-9j.3.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9j.4](bob-cli-9j.4.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9j.4](bob-cli-9j.4.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

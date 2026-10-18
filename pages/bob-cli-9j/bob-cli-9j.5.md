@@ -13,7 +13,7 @@ mac-guard: pass `--refuse-override` on every submit whose on-screen preview did 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9j.4](bob-cli-9j.4.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9j.4](bob-cli-9j.4.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
