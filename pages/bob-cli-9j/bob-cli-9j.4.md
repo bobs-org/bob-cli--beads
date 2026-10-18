@@ -22,7 +22,7 @@ mac-warning: add the override banner to the start card, tint the Return button o
 ## Dependencies
 
 - **Depends on:** [bob-cli-9j.2](bob-cli-9j.2.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9j.5](bob-cli-9j.5.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9j.5](bob-cli-9j.5.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -35,3 +35,15 @@ mac-warning: add the override banner to the start card, tint the Return button o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@4c391eb`](https://github.com/bobs-org/bob-mac-capture/commit/4c391eb3263e4a407459b4acffca439a91bab9d2) | feat(capture): show orange override banner when \`=\` restarts or swaps | [bob-cli-9j.4](bob-cli-9j.4.md) | 2026-10-18 19:08:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9j.4][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.4/README.md
+
+<!-- sase:referenced-by:end -->
