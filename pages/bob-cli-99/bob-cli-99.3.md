@@ -30,6 +30,8 @@
 | related | file:explicit:eac7f077d746360050eb8e75 | attached via sase artifact create --bead |
 | related | file:explicit:eef322a5aef43cd0beacf98a | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -45,7 +47,7 @@ board-ui: render the board (lanes, cards, Snoozed rows, honest states), keyboard
 ## Dependencies
 
 - **Depends on:** [bob-cli-99.2](bob-cli-99.2.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-99.4](bob-cli-99.4.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-99.4](bob-cli-99.4.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
@@ -58,3 +60,15 @@ board-ui: render the board (lanes, cards, Snoozed rows, honest states), keyboard
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@74e3d9b`](https://github.com/bobs-org/bob-plugins/commit/74e3d9bcfc913e3964c058319effc3e976e2239a) | feat(reading-board): add the bob-reading-board block, keyboard and mouse routing, and Highlights hand-off | [bob-cli-99.3](bob-cli-99.3.md) | 2026-10-18 15:23:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-99.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md
+
+<!-- sase:referenced-by:end -->

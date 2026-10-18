@@ -22,7 +22,7 @@ ref-json: add task priority and scheduled date plus a typed `blocked_by` reason 
 ## Dependencies
 
 - **Blocks:** [bob-cli-99.2](bob-cli-99.2.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-99.4](bob-cli-99.4.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-99.4](bob-cli-99.4.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

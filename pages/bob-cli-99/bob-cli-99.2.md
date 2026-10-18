@@ -45,7 +45,9 @@ board-data: in bob-ledger-tools, share the stats spawn core, fetch and cache `bo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-99.2--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-99.3][2] | Check phase 2 notes and what landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md
 
 <!-- sase:referenced-by:end -->

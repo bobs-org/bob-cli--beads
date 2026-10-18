@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/reading_board.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/reading_board.md
 
 <!-- sase:links:end -->
@@ -30,7 +32,7 @@ dash_references opens on a calm, read-only Reading Board (📖 Reading · ⭐ Ne
 | [bob-cli-99.1](bob-cli-99.1.md) | Reading-task facts and blocked reasons in bob ref JSON | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-99.2](bob-cli-99.2.md) | Board data path and pure lane models | ✓ closed | medium | 2026-10-18 | 1 | 1 |
 | [bob-cli-99.3](bob-cli-99.3.md) | The bob-reading-board block, interaction, and look | ✓ closed | medium | 2026-10-18 | 1 | 1 |
-| [bob-cli-99.4](bob-cli-99.4.md) | Put it on dash\_references, document, verify live | ◐ in_progress | small | 2026-10-18 | 1 | 0 |
+| [bob-cli-99.4](bob-cli-99.4.md) | Put it on dash\_references, document, verify live | ✓ closed | small | 2026-10-18 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +42,7 @@ flowchart TD
     n1["bob-cli-99.1: Reading-task facts and blocked reasons in bob ref JSON [closed]"]
     n2["bob-cli-99.2: Board data path and pure lane models [closed]"]
     n3["bob-cli-99.3: The bob-reading-board block, interaction, and look [closed]"]
-    n4["bob-cli-99.4: Put it on dash_references, document, verify live [in_progress]"]
+    n4["bob-cli-99.4: Put it on dash_references, document, verify live [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -58,7 +60,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-99.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.1/README.md) | [bob-cli-99.1](bob-cli-99.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-99.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-99.2.md) | [bob-cli-99.2](bob-cli-99.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-99.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md) | [bob-cli-99.3](bob-cli-99.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-99.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.4/README.md) | [bob-cli-99.4](bob-cli-99.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-99.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.4/README.md) | [bob-cli-99.4](bob-cli-99.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-99.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.land/README.md) | [bob-cli-99](README.md) | 0 |
 
 ## Commits
@@ -68,3 +70,16 @@ flowchart TD
 | bob-cli | [`b88195e`](https://github.com/bobs-org/bob-cli/commit/b88195e7d5b1f40ecca031260dd32922edfc0721) | feat(ref): add blocked\_by reasons and task priority/scheduled | [bob-cli-99.1](bob-cli-99.1.md) | 2026-10-18 14:06:48 EDT |
 | bob-plugins | [`bob-plugins@8a0be74`](https://github.com/bobs-org/bob-plugins/commit/8a0be74b5d590a5b3fcbb953b5b4e6fcd4086adb) | feat(reading-board): add board data and lane models | [bob-cli-99.2](bob-cli-99.2.md) | 2026-10-18 14:45:32 EDT |
 | bob-plugins | [`bob-plugins@74e3d9b`](https://github.com/bobs-org/bob-plugins/commit/74e3d9bcfc913e3964c058319effc3e976e2239a) | feat(reading-board): add the bob-reading-board block, keyboard and mouse routing, and Highlights hand-off | [bob-cli-99.3](bob-cli-99.3.md) | 2026-10-18 15:23:22 EDT |
+| bob-cli | [`b291f23`](https://github.com/bobs-org/bob-cli/commit/b291f23fe6e91252f8ff0a00ae0a4af2ca07bea0) | docs(ref): document the Obsidian Reading Board on dash\_references | [bob-cli-99.4](bob-cli-99.4.md) | 2026-10-18 15:52:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-99.3][1] | Check epic notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-99.3/README.md
+
+<!-- sase:referenced-by:end -->
