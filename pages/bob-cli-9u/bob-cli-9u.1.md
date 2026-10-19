@@ -17,7 +17,7 @@ fold-render: add underline.rs (classifier, match key, host predicate, word-snapp
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9u.2](bob-cli-9u.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9u.2](bob-cli-9u.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -30,3 +30,15 @@ fold-render: add underline.rs (classifier, match key, host predicate, word-snapp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a2638aa`](https://github.com/bobs-org/bob-cli/commit/a2638aa92e4da62e6733af86fcc01708df7da1ef) | feat(highlights): fold underlines into highlight quotes | [bob-cli-9u.1](bob-cli-9u.1.md) | 2026-10-19 12:25:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9u.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9u.1/README.md
+
+<!-- sase:referenced-by:end -->
