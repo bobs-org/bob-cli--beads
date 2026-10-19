@@ -17,7 +17,7 @@ render-fold: add `page_index` to sidecar annotations, a pure `continuation.rs` p
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9p.2](bob-cli-9p.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9p.2](bob-cli-9p.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -30,3 +30,15 @@ render-fold: add `page_index` to sidecar annotations, a pure `continuation.rs` p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3924abc`](https://github.com/bobs-org/bob-cli/commit/3924abc88db68f64353544440dda57687c719782) | feat(highlights): fold continuation highlights at render time | [bob-cli-9p.1](bob-cli-9p.1.md) | 2026-10-19 08:37:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9p.1][1] | Need remaining notes, design, and close criteria before verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.1/README.md
+
+<!-- sase:referenced-by:end -->

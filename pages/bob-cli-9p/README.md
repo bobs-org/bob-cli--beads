@@ -28,7 +28,7 @@ A Highlights note that starts with `<` makes `bob ref` render that highlight and
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-9p.1](bob-cli-9p.1.md) | Parse, plan, and render continuation groups | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [bob-cli-9p.2](bob-cli-9p.2.md) | Continuation counters, scan output, and docs | ◐ in_progress | small | 2026-10-19 | 1 | 0 |
+| [bob-cli-9p.2](bob-cli-9p.2.md) | Continuation counters, scan output, and docs | ✓ closed | small | 2026-10-19 | 1 | 1 |
 | [bob-cli-9p.3](bob-cli-9p.3.md) | Plural page labels in Bob Mac Capture | ✓ closed | xsmall | 2026-10-19 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ A Highlights note that starts with `<` makes `bob ref` render that highlight and
 flowchart TD
     n0["bob-cli-9p: Continuation highlights: a `&lt;` note folds a highlight into the one before it [in_progress]"]
     n1["bob-cli-9p.1: Parse, plan, and render continuation groups [closed]"]
-    n2["bob-cli-9p.2: Continuation counters, scan output, and docs [in_progress]"]
+    n2["bob-cli-9p.2: Continuation counters, scan output, and docs [closed]"]
     n3["bob-cli-9p.3: Plural page labels in Bob Mac Capture [closed]"]
     n0 --> n1
     n0 --> n2
@@ -50,7 +50,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-9p.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.1/README.md) | [bob-cli-9p.1](bob-cli-9p.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-9p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.2/README.md) | [bob-cli-9p.2](bob-cli-9p.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-9p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9p.2.md) | [bob-cli-9p.2](bob-cli-9p.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9p.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.3/README.md) | [bob-cli-9p.3](bob-cli-9p.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-9p.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.land/README.md) | [bob-cli-9p](README.md) | 0 |
 
@@ -59,3 +59,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3924abc`](https://github.com/bobs-org/bob-cli/commit/3924abc88db68f64353544440dda57687c719782) | feat(highlights): fold continuation highlights at render time | [bob-cli-9p.1](bob-cli-9p.1.md) | 2026-10-19 08:37:12 EDT |
+| bob-cli | [`0bed62a`](https://github.com/bobs-org/bob-cli/commit/0bed62a142a24be36795d88d9db1d559cf4a04b7) | feat(highlights): report continuation counts in scan output and docs | [bob-cli-9p.2](bob-cli-9p.2.md) | 2026-10-19 09:00:15 EDT |

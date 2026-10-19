@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-9p](README.md) / bob-cli-9p.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.4u.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.4u.linker.w0.md) · **Assignee:** `bob-cli-9p.2` · **Size:** small
-**Created:** 2026-10-19 07:59:12 EDT
+**Created:** 2026-10-19 07:59:12 EDT · **Closed:** 2026-10-19 08:51:44 EDT
 **Plan:** [202610/highlight\_continuations.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/highlight_continuations.md)
 
 ## Description
 
 scan-visibility-docs: surface merged and dangling continuations in the verbose plan, write report, per-PDF scan line, and scan JSON. Document the gesture, seam rule, identity rules, and stubs in docs/highlights-ref-sync.md and the README. Record the decisions strand if accepted.
+
+## Notes
+
+[2026-10-19T12:51:44Z · bob-cli-9p.2] Verified continuation counters, scan output, and docs: continuations: 1 and continuation_dangling lines on bob ref sync --dry-run; skip-serialized notes[].continuations / continuations_dangling JSON; highlights_count counts a group once; unit + CLI continuation tests pass; docs/highlights-ref-sync.md and README cover the gesture, grammar, identity, and stubs. decision_record declined (no memory edit). No leftover --epic-symbol entries.
 
 ## Dependencies
 
@@ -19,4 +23,10 @@ scan-visibility-docs: surface merged and dangling continuations in the verbose p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.2/README.md) | [bob-cli-9p.2](bob-cli-9p.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-9p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9p.2.md) | [bob-cli-9p.2](bob-cli-9p.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`0bed62a`](https://github.com/bobs-org/bob-cli/commit/0bed62a142a24be36795d88d9db1d559cf4a04b7) | feat(highlights): report continuation counts in scan output and docs | [bob-cli-9p.2](bob-cli-9p.2.md) | 2026-10-19 09:00:15 EDT |
