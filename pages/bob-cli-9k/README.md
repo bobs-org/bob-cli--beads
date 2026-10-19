@@ -57,7 +57,7 @@ flowchart TD
     n7["bob-cli-9k.7: Bob Mac Capture agenda shows homes [closed]"]
     n8["bob-cli-9k.8: Finish Pomodoro homes — contract parity, review time, override labels, and panel fixes [in_progress]"]
     n9["bob-cli-9k.8.1: bob-cli: homes contract parity, review time, and Stats fixes [closed]"]
-    n10["bob-cli-9k.8.2: bob-cli: homes on bob ref today, human bob plan, and the = override surfaces [in_progress]"]
+    n10["bob-cli-9k.8.2: bob-cli: homes on bob ref today, human bob plan, and the = override surfaces [closed]"]
     n11["bob-cli-9k.8.3: bob-plugins: JS mirror parity and Stats panel fixes [in_progress]"]
     n12["bob-cli-9k.8.4: Bob Mac Capture and chezmoi: no derived routing, hollow forecast dots, override labels [in_progress]"]
     n0 --> n1
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9k.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.6/README.md) | [bob-cli-9k.6](bob-cli-9k.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.7/README.md) | [bob-cli-9k.7](bob-cli-9k.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.1.md) | [bob-cli-9k.8.1](bob-cli-9k.8.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-9k.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md) | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-9k.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md) | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md) | [bob-cli-9k.8.3](bob-cli-9k.8.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.4/README.md) | [bob-cli-9k.8.4](bob-cli-9k.8.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.land/README.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 0 |
@@ -112,6 +112,7 @@ flowchart TD
 | bob-cli | [`930b349`](https://github.com/bobs-org/bob-cli/commit/930b3495c01e1bd151ce9bdab36bcf4ad9d0dda5) | feat(stats): add pomodoro in/review filters and session drill-down | [bob-cli-9k.3](bob-cli-9k.3.md) | 2026-10-18 19:17:42 EDT |
 | bob-cli | [`1933d54`](https://github.com/bobs-org/bob-cli/commit/1933d544e224e92e05ca8a94b60c9e8e08538cdb) | docs(stats): document area and project attribution | [bob-cli-9k.6](bob-cli-9k.6.md) | 2026-10-18 19:45:02 EDT |
 | bob-cli | [`77c7741`](https://github.com/bobs-org/bob-cli/commit/77c77410e32b52010ad8f0d539f466202deb30d5) | feat(stats): complete pomodoro homes parity and stats fixes | [bob-cli-9k.8.1](bob-cli-9k.8.1.md) | 2026-10-18 20:54:36 EDT |
+| bob-cli | [`c2c9f5c`](https://github.com/bobs-org/bob-cli/commit/c2c9f5c1a0f1f96659e47949d0f53a84e69dbc62) | feat(unnamed-sessions): label unnamed sessions by derived homes | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 2026-10-18 21:22:04 EDT |
 
 <!-- sase:referenced-by:start -->
 

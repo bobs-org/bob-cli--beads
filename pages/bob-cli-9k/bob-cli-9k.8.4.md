@@ -13,7 +13,7 @@ mac: stop Refs Today Link from selecting or routing by `homes.label`, name the d
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9k.8.2](bob-cli-9k.8.2.md) ◐ · ⧖ 2026-10-18
+- **Depends on:** [bob-cli-9k.8.2](bob-cli-9k.8.2.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

@@ -17,7 +17,7 @@ contract: give the R5 remainder to the first task, mark every closed entry attri
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9k.8.2](bob-cli-9k.8.2.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.8.2](bob-cli-9k.8.2.md) ✓ · ⧖ 2026-10-18
 - **Blocks:** [bob-cli-9k.8.3](bob-cli-9k.8.3.md) ◐ · ⧖ 2026-10-18
 
 ## Agents
@@ -31,3 +31,15 @@ contract: give the R5 remainder to the first task, mark every closed entry attri
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`77c7741`](https://github.com/bobs-org/bob-cli/commit/77c77410e32b52010ad8f0d539f466202deb30d5) | feat(stats): complete pomodoro homes parity and stats fixes | [bob-cli-9k.8.1](bob-cli-9k.8.1.md) | 2026-10-18 20:54:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9k.8.1--1][1] | Confirm the assigned phase close and recorded verification note | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.1.md
+
+<!-- sase:referenced-by:end -->
