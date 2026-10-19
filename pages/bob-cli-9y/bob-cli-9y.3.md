@@ -13,7 +13,7 @@ split-hub: install the new bob, create the child notes, resolve the report's rou
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9y.1](bob-cli-9y.1.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-9y.1](bob-cli-9y.1.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-9y.2](bob-cli-9y.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
