@@ -18,7 +18,7 @@ contract: give the R5 remainder to the first task, mark every closed entry attri
 ## Dependencies
 
 - **Blocks:** [bob-cli-9k.8.2](bob-cli-9k.8.2.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9k.8.3](bob-cli-9k.8.3.md) ◐ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.8.3](bob-cli-9k.8.3.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_homes_landing.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_homes_landing.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Close the gaps the bob-cli-9k landing review found between the shipped Pomodoro 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.land/README.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9k.8.2][1] | need epic notes and prior phase state | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md
+
+<!-- sase:referenced-by:end -->
