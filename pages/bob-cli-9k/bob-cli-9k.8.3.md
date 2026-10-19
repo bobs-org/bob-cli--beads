@@ -25,10 +25,16 @@ plugins: copy the updated vectors, bring the bob-ledger-tools homes mirror to pa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9k.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md) | [bob-cli-9k.8.3](bob-cli-9k.8.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-9k.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md) | [bob-cli-9k.8.3](bob-cli-9k.8.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@ed72a42`](https://github.com/bobs-org/bob-plugins/commit/ed72a4201560e53221198b503c3945b9e9606e98) | feat(ledger-tools): bring pomodoro homes JS mirror to Rust parity | [bob-cli-9k.8.3](bob-cli-9k.8.3.md) | 2026-10-18 21:32:14 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9k.8.3][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md
+
+<!-- sase:referenced-by:end -->

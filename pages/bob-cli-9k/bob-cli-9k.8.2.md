@@ -18,13 +18,19 @@ surfaces: add the R9 `homes` object to `bob ref today -f json` Pomodoro rows and
 ## Dependencies
 
 - **Depends on:** [bob-cli-9k.8.1](bob-cli-9k.8.1.md) ✓ · ⧖ 2026-10-18
-- **Blocks:** [bob-cli-9k.8.4](bob-cli-9k.8.4.md) ○ · ⧖ 2026-10-18
+- **Blocks:** [bob-cli-9k.8.4](bob-cli-9k.8.4.md) ✓ · ⧖ 2026-10-18
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9k.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md) | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-9k.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md) | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`c2c9f5c`](https://github.com/bobs-org/bob-cli/commit/c2c9f5c1a0f1f96659e47949d0f53a84e69dbc62) | feat(unnamed-sessions): label unnamed sessions by derived homes | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 2026-10-18 21:22:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
