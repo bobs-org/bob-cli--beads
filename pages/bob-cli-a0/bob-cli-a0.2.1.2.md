@@ -19,7 +19,7 @@ mounts: implement sibling discovery, safe copying, mount nav expansion, provenan
 
 - **Depends on:** [bob-cli-a0.2.1.1](bob-cli-a0.2.1.1.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) ◐ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.2.1.4](bob-cli-a0.2.1.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.2.1.4](bob-cli-a0.2.1.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -32,3 +32,15 @@ mounts: implement sibling discovery, safe copying, mount nav expansion, provenan
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b0f3817`](https://github.com/bobs-org/bob-cli/commit/b0f38175748f6f6965adc52017f1793a949214bf) | feat(docs): implement mounts with production sources verification | [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) | 2026-10-19 19:37:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.2.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->

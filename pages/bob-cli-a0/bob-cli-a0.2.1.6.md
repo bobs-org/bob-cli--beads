@@ -14,7 +14,7 @@ integration: add search smoke, compose docs-check including production mode, pro
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-a0.2.1.4](bob-cli-a0.2.1.4.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.2.1.4](bob-cli-a0.2.1.4.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.2.1.5](bob-cli-a0.2.1.5.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
