@@ -19,7 +19,7 @@ foundation: create the locked uv package, tagged-YAML/config support, strict bui
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -32,3 +32,15 @@ foundation: create the locked uv package, tagged-YAML/config support, strict bui
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f0f6e0c`](https://github.com/bobs-org/bob-cli/commit/f0f6e0c533571e73adff866a0283ab2b3b7459d1) | feat(docs): build locked docs package and contract site foundation | [bob-cli-a0.2.1.1](bob-cli-a0.2.1.1.md) | 2026-10-19 19:20:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.2.1.1][1] | Confirm the phase bead closure completed | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->
