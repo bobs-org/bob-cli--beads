@@ -19,7 +19,13 @@ mac-pp-label: in the linked bob-mac-capture repo, make `RefsCopyFormat.shortPage
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9p.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.3/README.md) | [bob-cli-9p.3](bob-cli-9p.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-9p.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.3/README.md) | [bob-cli-9p.3](bob-cli-9p.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@1968cc3`](https://github.com/bobs-org/bob-mac-capture/commit/1968cc36aa244455e2fadecb208966ee31fd91ab) | feat(refs): shorten plural page labels to pp. form | [bob-cli-9p.3](bob-cli-9p.3.md) | 2026-10-19 08:06:43 EDT |
 
 <!-- sase:referenced-by:start -->
 
