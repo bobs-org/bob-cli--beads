@@ -23,7 +23,7 @@ live_preview: add the src/275-plugin-today-marks.js mixin (ViewPlugin decoration
 
 - **Depends on:** [bob-cli-9r.1](bob-cli-9r.1.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-9r.3](bob-cli-9r.3.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-9r.5](bob-cli-9r.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9r.5](bob-cli-9r.5.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -36,3 +36,15 @@ live_preview: add the src/275-plugin-today-marks.js mixin (ViewPlugin decoration
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@e4c71bc`](https://github.com/bobs-org/bob-plugins/commit/e4c71bc4a548bbe1e10261b3aa489100bae87283) | feat(ledger-tools): add Today marks to Live Preview | [bob-cli-9r.4](bob-cli-9r.4.md) | 2026-10-19 10:46:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9r.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.4/README.md
+
+<!-- sase:referenced-by:end -->
