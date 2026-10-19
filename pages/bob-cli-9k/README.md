@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9k.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md) | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md) | [bob-cli-9k.8.3](bob-cli-9k.8.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.4/README.md) | [bob-cli-9k.8.4](bob-cli-9k.8.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 2 |
 | [bbugyi200.athena.bob-cli-9k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.land.md) | [bob-cli-9k](README.md) | 0 |
 
 ## Commits
@@ -125,6 +125,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@3a67176`](https://github.com/bobs-org/bob-mac-capture/commit/3a671761fe574eba68d290feb9f9b7af62207da1) | feat(capture): no derived routing in Refs Today Link, hollow forecast dots, override labels | [bob-cli-9k.8.4](bob-cli-9k.8.4.md) | 2026-10-18 21:42:38 EDT |
 | chezmoi | [`chezmoi@d908496`](https://github.com/bbugyi200/dotfiles/commit/d90849608e4c4dc83286f08008cce541c4b119c2) | test(tmux): cover unnamed derived-label pomodoro status sample | [bob-cli-9k.8.4](bob-cli-9k.8.4.md) | 2026-10-18 21:43:37 EDT |
 | bob-cli | [`9217a47`](https://github.com/bobs-org/bob-cli/commit/9217a475779fe0a7368f8ac99428fbca0bfbc100) | fix(pomodoro-homes): add scalar-parent vectors | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:53:08 EDT |
+| bob-mac-capture | [`bob-mac-capture@1df3411`](https://github.com/bobs-org/bob-mac-capture/commit/1df3411f46d965ff8f05de97daceba4927d0e652) | fix(capture): align homes fixtures and tests | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:54:07 EDT |
 
 <!-- sase:referenced-by:start -->
 
