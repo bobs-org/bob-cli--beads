@@ -22,7 +22,7 @@ mark_core: add src/143-today-marks.js (line candidate, insert offset, duplicate 
 ## Dependencies
 
 - **Depends on:** [bob-cli-9r.2](bob-cli-9r.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-9r.4](bob-cli-9r.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9r.4](bob-cli-9r.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -35,3 +35,15 @@ mark_core: add src/143-today-marks.js (line candidate, insert offset, duplicate 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@66a9597`](https://github.com/bobs-org/bob-plugins/commit/66a95978033fc0837943ad2cdec5255b91588493) | feat(ledger-tools): add today-marks fragment with element, widget and styles | [bob-cli-9r.3](bob-cli-9r.3.md) | 2026-10-19 10:19:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9r.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.3/README.md
+
+<!-- sase:referenced-by:end -->

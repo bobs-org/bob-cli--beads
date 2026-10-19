@@ -13,7 +13,7 @@ reading: add src/276-plugin-today-marks-reading.js. Rendered rows get marks only
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9r.4](bob-cli-9r.4.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-9r.4](bob-cli-9r.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

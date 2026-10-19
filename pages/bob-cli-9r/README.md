@@ -7,6 +7,20 @@
 **Created:** 2026-10-19 09:47:17 EDT
 **Plan:** [202610/today\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/today_marks.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/today_marks.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/today_marks.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every open #task line whose task is on today's plan (it has a dedicated Task Link under one of today's open Pomodoros) shows a display-only 🍅 Today mark right after its identity glyph. The mark appears in Live Preview, and in rendered views wherever the line's identity is exact. Its tooltip names the Pomodoro and whether it is running or queued. Mod+click and a keyboard command jump to the Task Link, and a session toggle hides every mark. The mark is truthful or neutral: it never guesses, never goes stale, and is never written.
@@ -18,7 +32,7 @@ Every open #task line whose task is on today's plan (it has a dedicated Task Lin
 | [bob-cli-9r.1](bob-cli-9r.1.md) | Today marks display contract in bob-cli docs | ✓ closed | small | 2026-10-19 | 1 | 1 |
 | [bob-cli-9r.2](bob-cli-9r.2.md) | Today cache details, generation guard, and revalidation | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [bob-cli-9r.3](bob-cli-9r.3.md) | Today mark pure core, widget, and styles | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [bob-cli-9r.4](bob-cli-9r.4.md) | Today marks in Live Preview with toggle and jump | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
+| [bob-cli-9r.4](bob-cli-9r.4.md) | Today marks in Live Preview with toggle and jump | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [bob-cli-9r.5](bob-cli-9r.5.md) | Today marks in rendered views | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 
 ## Lineage
@@ -29,7 +43,7 @@ flowchart TD
     n1["bob-cli-9r.1: Today marks display contract in bob-cli docs [closed]"]
     n2["bob-cli-9r.2: Today cache details, generation guard, and revalidation [closed]"]
     n3["bob-cli-9r.3: Today mark pure core, widget, and styles [closed]"]
-    n4["bob-cli-9r.4: Today marks in Live Preview with toggle and jump [in_progress]"]
+    n4["bob-cli-9r.4: Today marks in Live Preview with toggle and jump [closed]"]
     n5["bob-cli-9r.5: Today marks in rendered views [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -49,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9r.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.1/README.md) | [bob-cli-9r.1](bob-cli-9r.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-9r.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.2/README.md) | [bob-cli-9r.2](bob-cli-9r.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9r.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.3/README.md) | [bob-cli-9r.3](bob-cli-9r.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-9r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.4/README.md) | [bob-cli-9r.4](bob-cli-9r.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-9r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.4/README.md) | [bob-cli-9r.4](bob-cli-9r.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-9r.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.5/README.md) | [bob-cli-9r.5](bob-cli-9r.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-9r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.land/README.md) | [bob-cli-9r](README.md) | 0 |
 
@@ -60,6 +74,7 @@ flowchart TD
 | bob-cli | [`1b158e6`](https://github.com/bobs-org/bob-cli/commit/1b158e662364485fbc591aa8def3cceeb8951ea7) | docs(today-marks): document the display contract | [bob-cli-9r.1](bob-cli-9r.1.md) | 2026-10-19 09:54:40 EDT |
 | bob-plugins | [`bob-plugins@ee9d7e6`](https://github.com/bobs-org/bob-plugins/commit/ee9d7e6b4a7eecd744f47a0269bdcb443efbf161) | feat(ledger-tools): cache Today Pomodoro details with a generation guard | [bob-cli-9r.2](bob-cli-9r.2.md) | 2026-10-19 10:06:22 EDT |
 | bob-plugins | [`bob-plugins@66a9597`](https://github.com/bobs-org/bob-plugins/commit/66a95978033fc0837943ad2cdec5255b91588493) | feat(ledger-tools): add today-marks fragment with element, widget and styles | [bob-cli-9r.3](bob-cli-9r.3.md) | 2026-10-19 10:19:36 EDT |
+| bob-plugins | [`bob-plugins@e4c71bc`](https://github.com/bobs-org/bob-plugins/commit/e4c71bc4a548bbe1e10261b3aa489100bae87283) | feat(ledger-tools): add Today marks to Live Preview | [bob-cli-9r.4](bob-cli-9r.4.md) | 2026-10-19 10:46:08 EDT |
 
 <!-- sase:referenced-by:start -->
 

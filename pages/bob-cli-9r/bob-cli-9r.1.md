@@ -19,7 +19,7 @@ contract: write the authoritative docs/today-marks.md display contract with conf
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9r.4](bob-cli-9r.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9r.4](bob-cli-9r.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
