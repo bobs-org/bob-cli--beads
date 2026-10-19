@@ -13,7 +13,7 @@ scan-visibility-docs: surface merged and dangling continuations in the verbose p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9p.1](bob-cli-9p.1.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-9p.1](bob-cli-9p.1.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
