@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9u.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9u.1/README.md) | [bob-cli-9u.1](bob-cli-9u.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-9u.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9u.2.md) | [bob-cli-9u.2](bob-cli-9u.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9u.3/README.md) | [bob-cli-9u.3](bob-cli-9u.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-9u.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9u.land.md) | [bob-cli-9u](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-9u.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9u.land.md) | [bob-cli-9u](README.md) | 2 |
 
 ## Commits
 
@@ -78,3 +78,4 @@ flowchart TD
 | bob-cli | [`a2638aa`](https://github.com/bobs-org/bob-cli/commit/a2638aa92e4da62e6733af86fcc01708df7da1ef) | feat(highlights): fold underlines into highlight quotes | [bob-cli-9u.1](bob-cli-9u.1.md) | 2026-10-19 12:25:38 EDT |
 | bob-cli | [`1dc6fe0`](https://github.com/bobs-org/bob-cli/commit/1dc6fe0606948c8741bf0dcd217a51155a1d6726) | feat(ref): report and render underline emphasis | [bob-cli-9u.2](bob-cli-9u.2.md) | 2026-10-19 12:50:11 EDT |
 | bob-cli | [`435e9c1`](https://github.com/bobs-org/bob-cli/commit/435e9c1473d55e52c3de40e56c1f6c5e7f389499) | fix(ref): preserve underline host occurrence and wrap pairing | [bob-cli-9u](README.md) | 2026-10-19 13:37:46 EDT |
+| bob-cli--plans | [`bob-cli--plans@2eae442`](https://github.com/bobs-org/bob-cli--plans/commit/2eae442e3b033e3d94e765ebe568040e8501cb7f) | docs(plans): mark underline emphasis epic done | [bob-cli-9u](README.md) | 2026-10-19 13:38:32 EDT |
