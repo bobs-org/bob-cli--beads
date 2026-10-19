@@ -29,7 +29,7 @@ The Bob Refs panel in Bob Mac Capture opens nearly full screen (1344 × 798 pt o
 |---|---|---|---|---|---:|---:|
 | [bob-cli-9v.1](bob-cli-9v.1.md) | Portable RefsCore model, geometry, and 5-per-page default | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [bob-cli-9v.2](bob-cli-9v.2.md) | Near-full-screen panel, wide inspector, larger thumbnail | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [bob-cli-9v.3](bob-cli-9v.3.md) | Inline images and standalone notes in the preview feed | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
+| [bob-cli-9v.3](bob-cli-9v.3.md) | Inline images and standalone notes in the preview feed | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n0["bob-cli-9v: Bob Refs reading room: near-full-screen panel, 5-per-page previews, inline images [in_progress]"]
     n1["bob-cli-9v.1: Portable RefsCore model, geometry, and 5-per-page default [closed]"]
     n2["bob-cli-9v.2: Near-full-screen panel, wide inspector, larger thumbnail [closed]"]
-    n3["bob-cli-9v.3: Inline images and standalone notes in the preview feed [in_progress]"]
+    n3["bob-cli-9v.3: Inline images and standalone notes in the preview feed [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -53,7 +53,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-9v.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9v.1/README.md) | [bob-cli-9v.1](bob-cli-9v.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-9v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9v.2.md) | [bob-cli-9v.2](bob-cli-9v.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-9v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9v.3/README.md) | [bob-cli-9v.3](bob-cli-9v.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-9v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9v.3/README.md) | [bob-cli-9v.3](bob-cli-9v.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9v.land/README.md) | [bob-cli-9v](README.md) | 0 |
 
 ## Commits
@@ -62,3 +62,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@c424756`](https://github.com/bobs-org/bob-mac-capture/commit/c4247566fb4e8c5f796ff3e8ef109b3d2760b982) | feat(refs): add portable image and panel models | [bob-cli-9v.1](bob-cli-9v.1.md) | 2026-10-19 12:55:03 EDT |
 | bob-mac-capture | [`bob-mac-capture@1d7242a`](https://github.com/bobs-org/bob-mac-capture/commit/1d7242a7295d3d0e792e69994b992ec795d029da) | feat(refs): near-full-screen panel, wide inspector, larger thumbnails | [bob-cli-9v.2](bob-cli-9v.2.md) | 2026-10-19 13:57:37 EDT |
+| bob-mac-capture | [`bob-mac-capture@73d1106`](https://github.com/bobs-org/bob-mac-capture/commit/73d110625d60f5d2a5460a834098e5c7acdfa03d) | feat(refs): inline inspector images and standalone notes | [bob-cli-9v.3](bob-cli-9v.3.md) | 2026-10-19 14:42:40 EDT |

@@ -18,7 +18,7 @@ refs-core-model: decode image fields from ref show, define the generalized previ
 ## Dependencies
 
 - **Blocks:** [bob-cli-9v.2](bob-cli-9v.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-9v.3](bob-cli-9v.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9v.3](bob-cli-9v.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

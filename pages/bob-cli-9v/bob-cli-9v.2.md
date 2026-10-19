@@ -18,7 +18,7 @@ big-panel: wire the new geometry into the panel and column split, add the wide i
 ## Dependencies
 
 - **Depends on:** [bob-cli-9v.1](bob-cli-9v.1.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-9v.3](bob-cli-9v.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9v.3](bob-cli-9v.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
