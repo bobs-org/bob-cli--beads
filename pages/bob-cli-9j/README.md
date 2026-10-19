@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-9j.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.3/README.md) | [bob-cli-9j.3](bob-cli-9j.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-9j.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.4/README.md) | [bob-cli-9j.4](bob-cli-9j.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-9j.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.5/README.md) | [bob-cli-9j.5](bob-cli-9j.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-9j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md) | [bob-cli-9j](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-9j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md) | [bob-cli-9j](README.md) | 2 |
 
 ## Commits
 
@@ -85,6 +85,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@4c391eb`](https://github.com/bobs-org/bob-mac-capture/commit/4c391eb3263e4a407459b4acffca439a91bab9d2) | feat(capture): show orange override banner when \`=\` restarts or swaps | [bob-cli-9j.4](bob-cli-9j.4.md) | 2026-10-18 19:08:57 EDT |
 | bob-mac-capture | [`bob-mac-capture@12219ef`](https://github.com/bobs-org/bob-mac-capture/commit/12219ef6ce4f0e3a21e1cb85f2c1efcfc36b9e13) | feat(capture): guard Mac submits until override warning is on screen | [bob-cli-9j.5](bob-cli-9j.5.md) | 2026-10-18 19:31:43 EDT |
 | bob-cli | [`af3b4bb`](https://github.com/bobs-org/bob-cli/commit/af3b4bb354f0ec6c8e0213aaa14170d2eae23390) | fix(capture): expose override state in empty name picker | [bob-cli-9j](README.md) | 2026-10-18 20:21:45 EDT |
+| bob-mac-capture | [`bob-mac-capture@9288244`](https://github.com/bobs-org/bob-mac-capture/commit/928824422e62ea78bd15de81f00bdb97c6c89524) | fix(capture): preview overrides before a name is entered | [bob-cli-9j](README.md) | 2026-10-18 20:22:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
