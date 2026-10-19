@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9v.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9v.1/README.md) | [bob-cli-9v.1](bob-cli-9v.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-9v.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9v.2.md) | [bob-cli-9v.2](bob-cli-9v.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9v.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9v.3/README.md) | [bob-cli-9v.3](bob-cli-9v.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-9v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9v.land.md) | [bob-cli-9v](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-9v.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9v.land.md) | [bob-cli-9v](README.md) | 2 |
 
 ## Commits
 
@@ -83,3 +83,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@1d7242a`](https://github.com/bobs-org/bob-mac-capture/commit/1d7242a7295d3d0e792e69994b992ec795d029da) | feat(refs): near-full-screen panel, wide inspector, larger thumbnails | [bob-cli-9v.2](bob-cli-9v.2.md) | 2026-10-19 13:57:37 EDT |
 | bob-mac-capture | [`bob-mac-capture@73d1106`](https://github.com/bobs-org/bob-mac-capture/commit/73d110625d60f5d2a5460a834098e5c7acdfa03d) | feat(refs): inline inspector images and standalone notes | [bob-cli-9v.3](bob-cli-9v.3.md) | 2026-10-19 14:42:40 EDT |
 | bob-mac-capture | [`bob-mac-capture@bd52675`](https://github.com/bobs-org/bob-mac-capture/commit/bd52675f6866002c88191df0986ec894a8bb5961) | fix(refs): bound inspector image cache and finish reading-room landing | [bob-cli-9v](README.md) | 2026-10-19 15:40:50 EDT |
+| bob-cli--plans | [`bob-cli--plans@9600429`](https://github.com/bobs-org/bob-cli--plans/commit/9600429a5086a36879ae5d545e7cff4fd1d16c90) | docs(plan): mark refs reading room epic done | [bob-cli-9v](README.md) | 2026-10-19 15:41:36 EDT |
