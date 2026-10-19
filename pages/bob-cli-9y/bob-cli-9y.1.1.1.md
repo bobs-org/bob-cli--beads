@@ -17,7 +17,7 @@ move-planner: implement and test snapshot-only selection, task-block movement, i
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9y.1.1.2](bob-cli-9y.1.1.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9y.1.1.2](bob-cli-9y.1.1.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -30,3 +30,15 @@ move-planner: implement and test snapshot-only selection, task-block movement, i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bfca341`](https://github.com/bobs-org/bob-cli/commit/bfca3419c3f5c4caa9a609c6e4f64a2dc6a86111) | feat(task-move): add snapshot-only task-move planner | [bob-cli-9y.1.1.1](bob-cli-9y.1.1.1.md) | 2026-10-19 17:10:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9y.1.1.1][1] | Need remaining DECISIONS, notes, and close-out constraints | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9y.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->
