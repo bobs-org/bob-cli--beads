@@ -21,7 +21,7 @@ cache: extend the bob-ledger-tools Today cache with per-key Pomodoro details, a 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9r.3](bob-cli-9r.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9r.3](bob-cli-9r.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -34,3 +34,15 @@ cache: extend the bob-ledger-tools Today cache with per-key Pomodoro details, a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@ee9d7e6`](https://github.com/bobs-org/bob-plugins/commit/ee9d7e6b4a7eecd744f47a0269bdcb443efbf161) | feat(ledger-tools): cache Today Pomodoro details with a generation guard | [bob-cli-9r.2](bob-cli-9r.2.md) | 2026-10-19 10:06:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9r.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.2/README.md
+
+<!-- sase:referenced-by:end -->

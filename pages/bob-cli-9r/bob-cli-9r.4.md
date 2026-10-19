@@ -14,7 +14,7 @@ live_preview: add the src/275-plugin-today-marks.js mixin (ViewPlugin decoration
 ## Dependencies
 
 - **Depends on:** [bob-cli-9r.1](bob-cli-9r.1.md) ✓ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-9r.3](bob-cli-9r.3.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-9r.3](bob-cli-9r.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-9r.5](bob-cli-9r.5.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
