@@ -17,7 +17,7 @@
 | related | file:explicit:0f1409dbf3236065be038cb1 | attached via sase artifact create --bead |
 | related | file:explicit:d590262a37f7c98de4bfc541 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_homes_landing.md
 
@@ -41,7 +41,7 @@ Close the gaps the bob-cli-9k landing review found between the shipped Pomodoro 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 2 |
+| [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 3 |
 
 ## Commits
 
@@ -49,6 +49,7 @@ Close the gaps the bob-cli-9k landing review found between the shipped Pomodoro 
 |---|---|---|---|---|
 | bob-cli | [`9217a47`](https://github.com/bobs-org/bob-cli/commit/9217a475779fe0a7368f8ac99428fbca0bfbc100) | fix(pomodoro-homes): add scalar-parent vectors | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:53:08 EDT |
 | bob-mac-capture | [`bob-mac-capture@1df3411`](https://github.com/bobs-org/bob-mac-capture/commit/1df3411f46d965ff8f05de97daceba4927d0e652) | fix(capture): align homes fixtures and tests | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:54:07 EDT |
+| bob-plugins | [`bob-plugins@5ef8cbe`](https://github.com/bobs-org/bob-plugins/commit/5ef8cbe4eb29c9a27a72623ec1ca5c7d9f639604) | fix(ledger-tools): correct homes runtime handling | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:54:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -57,7 +58,9 @@ Close the gaps the bob-cli-9k landing review found between the shipped Pomodoro 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.8.2][1] | need epic notes and prior phase state | 1 |
+| read-by | [agent:bob-cli-9k.8.land--1][2] | Need the current child epic scope, descendants, and notes before recording final verification | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md
 
 <!-- sase:referenced-by:end -->

@@ -40,8 +40,10 @@ contract: give the R5 remainder to the first task, mark every closed entry attri
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.8.1--1][1] | Confirm the assigned phase close and recorded verification note | 2 |
 | read-by | [agent:bob-cli-9k.8.3][2] | Need contract phase landing details so plugins can copy vectors and match Rust | 1 |
+| read-by | [agent:bob-cli-9k.8.land--1][3] | Need phase evidence and all notes before recording the remaining epic gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md
 
 <!-- sase:referenced-by:end -->

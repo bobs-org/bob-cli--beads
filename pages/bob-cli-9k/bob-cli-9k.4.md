@@ -40,7 +40,9 @@ live-surfaces: add an additive `homes` object to capture-pomodoros --tasks entri
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.4][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-9k.8.land--1][2] | Need prior phase evidence and dispositions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md
 
 <!-- sase:referenced-by:end -->

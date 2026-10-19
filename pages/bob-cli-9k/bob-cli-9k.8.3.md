@@ -40,7 +40,9 @@ plugins: copy the updated vectors, bring the bob-ledger-tools homes mirror to pa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.8.3][1] | Need the phase scope and design file | 5 |
+| read-by | [agent:bob-cli-9k.8.land--1][2] | Need phase evidence and all notes before recording the remaining epic gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:b50fabd7793647c91cc93653 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -54,7 +54,9 @@ stats-panel: replace the "by theme" pomodoro context panel with an Areas & proje
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.6][1] | Need phase notes before deciding whether this phase can be completed by one agent | 2 |
+| read-by | [agent:bob-cli-9k.8.land--1][2] | Need prior phase evidence and dispositions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md
 
 <!-- sase:referenced-by:end -->

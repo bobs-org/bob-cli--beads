@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/pomodoro_homes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-9n][2] | Source epic: Pomodoro homes resolver, R9 homes object, and the live-surface pattern this task extends |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_homes.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-9n/README.md
@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9k.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.2/README.md) | [bob-cli-9k.8.2](bob-cli-9k.8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.3/README.md) | [bob-cli-9k.8.3](bob-cli-9k.8.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9k.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.8.4/README.md) | [bob-cli-9k.8.4](bob-cli-9k.8.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 2 |
+| [bbugyi200.athena.bob-cli-9k.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md) | [bob-cli-9k.8](bob-cli-9k.8.md) | 3 |
 | [bbugyi200.athena.bob-cli-9k.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.land.md) | [bob-cli-9k](README.md) | 0 |
 
 ## Commits
@@ -126,6 +126,7 @@ flowchart TD
 | chezmoi | [`chezmoi@d908496`](https://github.com/bbugyi200/dotfiles/commit/d90849608e4c4dc83286f08008cce541c4b119c2) | test(tmux): cover unnamed derived-label pomodoro status sample | [bob-cli-9k.8.4](bob-cli-9k.8.4.md) | 2026-10-18 21:43:37 EDT |
 | bob-cli | [`9217a47`](https://github.com/bobs-org/bob-cli/commit/9217a475779fe0a7368f8ac99428fbca0bfbc100) | fix(pomodoro-homes): add scalar-parent vectors | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:53:08 EDT |
 | bob-mac-capture | [`bob-mac-capture@1df3411`](https://github.com/bobs-org/bob-mac-capture/commit/1df3411f46d965ff8f05de97daceba4927d0e652) | fix(capture): align homes fixtures and tests | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:54:07 EDT |
+| bob-plugins | [`bob-plugins@5ef8cbe`](https://github.com/bobs-org/bob-plugins/commit/5ef8cbe4eb29c9a27a72623ec1ca5c7d9f639604) | fix(ledger-tools): correct homes runtime handling | [bob-cli-9k.8](bob-cli-9k.8.md) | 2026-10-18 22:54:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -136,9 +137,11 @@ flowchart TD
 | read-by | [agent:bob-cli-9k.2][1] | Need epic DECISIONS, sibling phases, and overall scope for stats-parts | 1 |
 | read-by | [agent:bob-cli-9k.3--1][2] | Need parent epic decisions and remaining phases | 1 |
 | read-by | [agent:bob-cli-9k.4][3] | Need parent epic decisions and remaining phases | 1 |
+| read-by | [agent:bob-cli-9k.8.land--1][4] | Need parent epic scope and prior notes for the closeout update | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.3.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md
 
 <!-- sase:referenced-by:end -->

@@ -40,7 +40,9 @@ mac-agenda: decode the additive `homes` object. Unnamed agenda and Refs Today en
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9k.7][1] | Need remaining notes, epic-symbols, and live-surfaces contract for mac-agenda | 2 |
+| read-by | [agent:bob-cli-9k.8.land--1][2] | Need prior phase evidence and dispositions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9k.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9k.8.land.md
 
 <!-- sase:referenced-by:end -->
