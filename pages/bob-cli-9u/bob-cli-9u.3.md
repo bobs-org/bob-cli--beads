@@ -19,7 +19,13 @@ mac-preview: a pure RefsCore excerpt that keeps late emphasis inside the 4-line 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9u.3/README.md) | [bob-cli-9u.3](bob-cli-9u.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-9u.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9u.3/README.md) | [bob-cli-9u.3](bob-cli-9u.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@f5c5a5b`](https://github.com/bobs-org/bob-mac-capture/commit/f5c5a5bcf1362faac0089d6c439123ceb19e8d69) | feat(refs): emphasis-aware quote preview in inspector and Copy picker | [bob-cli-9u.3](bob-cli-9u.3.md) | 2026-10-19 11:59:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
