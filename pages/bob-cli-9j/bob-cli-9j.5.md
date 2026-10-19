@@ -42,3 +42,15 @@ mac-guard: pass `--refuse-override` on every submit whose on-screen preview did 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@12219ef`](https://github.com/bobs-org/bob-mac-capture/commit/12219ef6ce4f0e3a21e1cb85f2c1efcfc36b9e13) | feat(capture): guard Mac submits until override warning is on screen | [bob-cli-9j.5](bob-cli-9j.5.md) | 2026-10-18 19:31:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9j.5][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.5/README.md
+
+<!-- sase:referenced-by:end -->
