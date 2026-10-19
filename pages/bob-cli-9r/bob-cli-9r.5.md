@@ -34,3 +34,15 @@ reading: add src/276-plugin-today-marks-reading.js. Rendered rows get marks only
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@035296a`](https://github.com/bobs-org/bob-plugins/commit/035296a26ae8826766857e2bec7c005d55a8e5c0) | feat(ledger-tools): show Today marks in rendered views | [bob-cli-9r.5](bob-cli-9r.5.md) | 2026-10-19 11:09:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9r.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.5/README.md
+
+<!-- sase:referenced-by:end -->
