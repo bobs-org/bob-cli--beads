@@ -42,7 +42,9 @@ retire-double: make every claimed `==` token a teaching error that names its `=`
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9j.2--6][1] | Need verify this epic's status, scope, descendants, and closure requirements after the passing just check | 1 |
+| read-by | [agent:bob-cli-9j.land--1][2] | Need unchanged phase verification notes and prior commit references for final epic closure. | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md
 
 <!-- sase:referenced-by:end -->

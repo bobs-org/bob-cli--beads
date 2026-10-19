@@ -42,7 +42,9 @@ eq-overrides: route every whole-item `=` start with one running session through 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9j.1][1] | Need the phase scope, DECISIONS, notes, and design file before close | 3 |
+| read-by | [agent:bob-cli-9j.land--1][2] | Need unchanged phase verification notes and prior commit references for final epic closure. | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md
 
 <!-- sase:referenced-by:end -->

@@ -43,7 +43,9 @@ mac-warning: add the override banner to the start card, tint the Return button o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9j.4][1] | Need the phase scope and design file | 5 |
+| read-by | [agent:bob-cli-9j.land--1][2] | Need unchanged phase verification notes and prior commit references for final epic closure. | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md
 
 <!-- sase:referenced-by:end -->

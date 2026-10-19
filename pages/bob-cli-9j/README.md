@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/eq_overrides_running_pomodoro.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-9n][2] | Its = override surfaces and capture-complete override context get homes in bob-cli-9k's remaining work; avoid colliding with 9j's landing tale |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/eq_overrides_running_pomodoro.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-9n/README.md
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-9j.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.3/README.md) | [bob-cli-9j.3](bob-cli-9j.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-9j.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.4/README.md) | [bob-cli-9j.4](bob-cli-9j.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-9j.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.5/README.md) | [bob-cli-9j.5](bob-cli-9j.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-9j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md) | [bob-cli-9j](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-9j.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md) | [bob-cli-9j](README.md) | 3 |
 
 ## Commits
 
@@ -86,6 +86,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@12219ef`](https://github.com/bobs-org/bob-mac-capture/commit/12219ef6ce4f0e3a21e1cb85f2c1efcfc36b9e13) | feat(capture): guard Mac submits until override warning is on screen | [bob-cli-9j.5](bob-cli-9j.5.md) | 2026-10-18 19:31:43 EDT |
 | bob-cli | [`af3b4bb`](https://github.com/bobs-org/bob-cli/commit/af3b4bb354f0ec6c8e0213aaa14170d2eae23390) | fix(capture): expose override state in empty name picker | [bob-cli-9j](README.md) | 2026-10-18 20:21:45 EDT |
 | bob-mac-capture | [`bob-mac-capture@9288244`](https://github.com/bobs-org/bob-mac-capture/commit/928824422e62ea78bd15de81f00bdb97c6c89524) | fix(capture): preview overrides before a name is entered | [bob-cli-9j](README.md) | 2026-10-18 20:22:44 EDT |
+| bob-cli--plans | [`bob-cli--plans@371f70d`](https://github.com/bobs-org/bob-cli--plans/commit/371f70d83ecad098cfc4f0b4ee1491c121f7bdee) | docs(plan): mark Pomodoro override epic done | [bob-cli-9j](README.md) | 2026-10-18 20:23:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -94,7 +95,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9j.5][1] | Need epic scope and remaining phases | 1 |
+| read-by | [agent:bob-cli-9j.land--1][2] | Need task history, linked epic plan, and prior verification context before closure. | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md
 
 <!-- sase:referenced-by:end -->

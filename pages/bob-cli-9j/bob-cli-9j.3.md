@@ -67,7 +67,9 @@ docs/capture.md:6157:`=#NAME~K` drops by those same lineup numbers; `==#NAME~K` 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-9j.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-9j.land--1][2] | Need unchanged phase verification notes and prior commit references for final epic closure. | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-9j.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-9j.land.md
 
 <!-- sase:referenced-by:end -->
