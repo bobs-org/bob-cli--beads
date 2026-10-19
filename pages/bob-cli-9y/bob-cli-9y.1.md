@@ -17,7 +17,7 @@ move-cli: add a sync-sandwiched, dry-runnable `bob task move` that moves open to
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9y.3](bob-cli-9y.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9y.3](bob-cli-9y.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

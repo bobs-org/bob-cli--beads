@@ -44,7 +44,7 @@ Deleted-anchor inbound leftovers (historical, left in place): done/sase_done.md 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9y.3](bob-cli-9y.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9y.3](bob-cli-9y.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
