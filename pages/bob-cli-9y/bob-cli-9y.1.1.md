@@ -51,13 +51,14 @@ Verification: cargo test --lib task_move 47 passed; cargo test --lib collect_don
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9y.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9y.1.1.land.md) | [bob-cli-9y.1.1](bob-cli-9y.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-9y.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9y.1.1.land.md) | [bob-cli-9y.1.1](bob-cli-9y.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`24f4395`](https://github.com/bobs-org/bob-cli/commit/24f43958e8b9ba5d05b5210298a8ac8ad2bf26f5) | fix(task-move): repair landing gaps for selectors, identities, and sync | [bob-cli-9y.1.1](bob-cli-9y.1.1.md) | 2026-10-19 19:26:33 EDT |
+| bob-cli--plans | [`bob-cli--plans@c6e71a5`](https://github.com/bobs-org/bob-cli--plans/commit/c6e71a525e55759f4f54892698942e91c76d8ce4) | docs(task-move): mark guarded task-move epic plan done | [bob-cli-9y.1.1](bob-cli-9y.1.1.md) | 2026-10-19 19:27:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
