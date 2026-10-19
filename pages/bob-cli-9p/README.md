@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9p.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.1/README.md) | [bob-cli-9p.1](bob-cli-9p.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-9p.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9p.2.md) | [bob-cli-9p.2](bob-cli-9p.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9p.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9p.3/README.md) | [bob-cli-9p.3](bob-cli-9p.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-9p.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9p.land.md) | [bob-cli-9p](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-9p.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9p.land.md) | [bob-cli-9p](README.md) | 3 |
 
 ## Commits
 
@@ -71,3 +71,4 @@ flowchart TD
 | bob-cli | [`0bed62a`](https://github.com/bobs-org/bob-cli/commit/0bed62a142a24be36795d88d9db1d559cf4a04b7) | feat(highlights): report continuation counts in scan output and docs | [bob-cli-9p.2](bob-cli-9p.2.md) | 2026-10-19 09:00:15 EDT |
 | bob-cli | [`1097ae9`](https://github.com/bobs-org/bob-cli/commit/1097ae90654c7d2d60c43ac0fab62d15d5266309) | fix(highlights): use checked page adjacency with overflow regression coverage | [bob-cli-9p](README.md) | 2026-10-19 09:23:59 EDT |
 | bob-mac-capture | [`bob-mac-capture@6a6c0c0`](https://github.com/bobs-org/bob-mac-capture/commit/6a6c0c0b402605fbdd979e4c1dea9e530e2ab4dc) | fix(refs): preserve pp. continuation labels in display and picker | [bob-cli-9p](README.md) | 2026-10-19 09:24:46 EDT |
+| bob-cli--plans | [`bob-cli--plans@feb4b66`](https://github.com/bobs-org/bob-cli--plans/commit/feb4b664f0e8c84eed9eb1f777f767804248540b) | chore(plan): mark highlight\_continuations done | [bob-cli-9p](README.md) | 2026-10-19 09:25:29 EDT |
