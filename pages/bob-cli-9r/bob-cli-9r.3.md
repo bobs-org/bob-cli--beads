@@ -13,7 +13,7 @@ mark_core: add src/143-today-marks.js (line candidate, insert offset, duplicate 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9r.2](bob-cli-9r.2.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-9r.2](bob-cli-9r.2.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-9r.4](bob-cli-9r.4.md) ◐ · ⧖ 2026-10-19
 
 ## Agents

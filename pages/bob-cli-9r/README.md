@@ -15,8 +15,8 @@ Every open #task line whose task is on today's plan (it has a dedicated Task Lin
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-9r.1](bob-cli-9r.1.md) | Today marks display contract in bob-cli docs | ✓ closed | small | 2026-10-19 | 1 | 1 |
-| [bob-cli-9r.2](bob-cli-9r.2.md) | Today cache details, generation guard, and revalidation | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
+| [bob-cli-9r.1](bob-cli-9r.1.md) | Today marks display contract in bob-cli docs | ✓ closed | small | 2026-10-19 | 1 | 0 |
+| [bob-cli-9r.2](bob-cli-9r.2.md) | Today cache details, generation guard, and revalidation | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [bob-cli-9r.3](bob-cli-9r.3.md) | Today mark pure core, widget, and styles | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-9r.4](bob-cli-9r.4.md) | Today marks in Live Preview with toggle and jump | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-9r.5](bob-cli-9r.5.md) | Today marks in rendered views | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
@@ -27,7 +27,7 @@ Every open #task line whose task is on today's plan (it has a dedicated Task Lin
 flowchart TD
     n0["bob-cli-9r: Today marks: a 🍅 on task lines that are on today's plan [in_progress]"]
     n1["bob-cli-9r.1: Today marks display contract in bob-cli docs [closed]"]
-    n2["bob-cli-9r.2: Today cache details, generation guard, and revalidation [in_progress]"]
+    n2["bob-cli-9r.2: Today cache details, generation guard, and revalidation [closed]"]
     n3["bob-cli-9r.3: Today mark pure core, widget, and styles [in_progress]"]
     n4["bob-cli-9r.4: Today marks in Live Preview with toggle and jump [in_progress]"]
     n5["bob-cli-9r.5: Today marks in rendered views [in_progress]"]
@@ -46,8 +46,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-9r.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.1/README.md) | [bob-cli-9r.1](bob-cli-9r.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-9r.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.2/README.md) | [bob-cli-9r.2](bob-cli-9r.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-9r.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.1/README.md) | [bob-cli-9r.1](bob-cli-9r.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-9r.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.2/README.md) | [bob-cli-9r.2](bob-cli-9r.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-9r.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.3/README.md) | [bob-cli-9r.3](bob-cli-9r.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-9r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.4/README.md) | [bob-cli-9r.4](bob-cli-9r.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-9r.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.5/README.md) | [bob-cli-9r.5](bob-cli-9r.5.md) | 0 |
@@ -57,4 +57,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`1b158e6`](https://github.com/bobs-org/bob-cli/commit/1b158e662364485fbc591aa8def3cceeb8951ea7) | docs(today-marks): document the display contract | [bob-cli-9r.1](bob-cli-9r.1.md) | 2026-10-19 09:54:40 EDT |
+| bob-plugins | [`bob-plugins@ee9d7e6`](https://github.com/bobs-org/bob-plugins/commit/ee9d7e6b4a7eecd744f47a0269bdcb443efbf161) | feat(ledger-tools): cache Today Pomodoro details with a generation guard | [bob-cli-9r.2](bob-cli-9r.2.md) | 2026-10-19 10:06:22 EDT |
