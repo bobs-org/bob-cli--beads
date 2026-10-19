@@ -14,7 +14,7 @@ inspector-images: add an ImageIO-backed image loader with metadata prefetch so e
 ## Dependencies
 
 - **Depends on:** [bob-cli-9v.1](bob-cli-9v.1.md) ✓ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-9v.2](bob-cli-9v.2.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-9v.2](bob-cli-9v.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

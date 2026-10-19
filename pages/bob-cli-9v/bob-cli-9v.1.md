@@ -17,7 +17,7 @@ refs-core-model: decode image fields from ref show, define the generalized previ
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-9v.2](bob-cli-9v.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-9v.2](bob-cli-9v.2.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-9v.3](bob-cli-9v.3.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
@@ -31,3 +31,15 @@ refs-core-model: decode image fields from ref show, define the generalized previ
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@c424756`](https://github.com/bobs-org/bob-mac-capture/commit/c4247566fb4e8c5f796ff3e8ef109b3d2760b982) | feat(refs): add portable image and panel models | [bob-cli-9v.1](bob-cli-9v.1.md) | 2026-10-19 12:55:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-9v.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9v.1/README.md
+
+<!-- sase:referenced-by:end -->
