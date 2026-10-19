@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-9r.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.3/README.md) | [bob-cli-9r.3](bob-cli-9r.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-9r.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.4/README.md) | [bob-cli-9r.4](bob-cli-9r.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-9r.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-9r.5/README.md) | [bob-cli-9r.5](bob-cli-9r.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-9r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9r.land.md) | [bob-cli-9r](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-9r.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-9r.land.md) | [bob-cli-9r](README.md) | 2 |
 
 ## Commits
 
@@ -85,6 +85,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e4c71bc`](https://github.com/bobs-org/bob-plugins/commit/e4c71bc4a548bbe1e10261b3aa489100bae87283) | feat(ledger-tools): add Today marks to Live Preview | [bob-cli-9r.4](bob-cli-9r.4.md) | 2026-10-19 10:46:08 EDT |
 | bob-plugins | [`bob-plugins@035296a`](https://github.com/bobs-org/bob-plugins/commit/035296a26ae8826766857e2bec7c005d55a8e5c0) | feat(ledger-tools): show Today marks in rendered views | [bob-cli-9r.5](bob-cli-9r.5.md) | 2026-10-19 11:09:30 EDT |
 | bob-plugins | [`bob-plugins@ef1a63c`](https://github.com/bobs-org/bob-plugins/commit/ef1a63c23a6c4f9861db37ad33d1c546899b5c83) | fix(ledger-tools): land Today marks review fixes in 1.59.1 | [bob-cli-9r](README.md) | 2026-10-19 11:57:30 EDT |
+| bob-cli--plans | [`bob-cli--plans@f455991`](https://github.com/bobs-org/bob-cli--plans/commit/f455991013fe6a599de1cb2aad1ebe4afbd5b7e1) | docs(plans): mark today\_marks epic plan done | [bob-cli-9r](README.md) | 2026-10-19 11:58:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
