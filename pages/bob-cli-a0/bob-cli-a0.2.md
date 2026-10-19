@@ -11,6 +11,10 @@
 
 toolchain: create the tools/docs uv project, mkdocs.yml, assembler, lint, URL contract, search smoke, and just recipes; publish the 26 contracts in place under Develop; add the docs memory note.
 
+## Notes
+
+[2026-10-19T23:04:48Z · bob-cli-a0.2] Planning: prepared a six-phase child epic for foundation, mounts, lint, URL/link checks, authoring guidance, and integration. The scope spans separate subsystems and exceeds a single bounded coder assignment. Current docs/README.md contains 27 contracts including task-move.md; the plan preserves all current contracts despite the earlier 26-count. Validation and revalidation passed; two local validator warnings concern docs.md authorization already inherited from bob-cli-a0. The nested land agent is responsible for completing and closing bob-cli-a0.2 after verification; bob-cli-a0 remains open.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.3](bob-cli-a0.3.md) ◐ · ⧖ 2026-10-19
@@ -21,4 +25,4 @@ toolchain: create the tools/docs uv project, mkdocs.yml, assembler, lint, URL co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2/README.md) | [bob-cli-a0.2](bob-cli-a0.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.md) | [bob-cli-a0.2](bob-cli-a0.2.md) | 0 |
