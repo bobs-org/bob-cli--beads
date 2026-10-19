@@ -13,7 +13,7 @@ visibility-docs: report merged and standalone underlines (with reasons) in dry-r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-9u.1](bob-cli-9u.1.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-9u.1](bob-cli-9u.1.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
