@@ -13,7 +13,7 @@ application-reference: Extract the remaining application reference into install,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

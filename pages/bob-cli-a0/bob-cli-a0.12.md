@@ -34,3 +34,15 @@ front-door: give every remaining bob-cli README section a site home, then rewrit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f896652`](https://github.com/bobs-org/bob-cli/commit/f8966523c4f689914318bb0596bed975c3d7118c) | docs(readme): rewrite the GitHub README as a short site front door | [bob-cli-a0.12](bob-cli-a0.12.md) | 2026-10-20 03:24:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.12--1][1] | Need the phase scope, design file, notes, and DECISIONS after monitor completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.12.md
+
+<!-- sase:referenced-by:end -->

@@ -41,13 +41,14 @@ The approved plan `202610/plugin_reference.md` is now marked `status: done`. `ju
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`417291e`](https://github.com/bobs-org/bob-cli/commit/417291eb618476ced319a510ee9a2bc38ed004c5) | docs(reference): fix plugin links and validate published docs | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2026-10-20 02:07:09 EDT |
+| bob-plugins | [`bob-plugins@ff36987`](https://github.com/bobs-org/bob-plugins/commit/ff369873dab5b34c853b4201c6816ef1f362d6b8) | feat(docs): expand plugin reference and inventory checks | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2026-10-20 02:20:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
