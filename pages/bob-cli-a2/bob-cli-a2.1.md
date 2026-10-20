@@ -21,7 +21,7 @@ contract: write docs/task-relations.md (grammar, slot, identity, projection, ine
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a2.2](bob-cli-a2.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.2](bob-cli-a2.2.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.3](bob-cli-a2.3.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
@@ -35,3 +35,15 @@ contract: write docs/task-relations.md (grammar, slot, identity, projection, ine
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ae9629e`](https://github.com/bobs-org/bob-cli/commit/ae9629ecd69c9227c314cb9d0e6c5d65a892efd9) | docs(task-relations): add task-relations contract page and wire relation lines | [bob-cli-a2.1](bob-cli-a2.1.md) | 2026-10-20 09:23:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a2.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.1/README.md
+
+<!-- sase:referenced-by:end -->

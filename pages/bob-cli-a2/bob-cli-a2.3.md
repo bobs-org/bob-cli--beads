@@ -11,6 +11,10 @@
 
 plugin-guards: add LK recognisers to nav, the cycler, block-id-prompt, and the ledger plan budget. Keep relation lines out of Task Link, Pomodoro, tree-close, strike, `!`, and Ctrl+Shift+Enter paths. Give Ctrl+Enter and Alt+] parity with dependency lines. Add the LINKED FROM hand-edit notice and keep relation lines intact through project conversion. Deploy before any writer.
 
+## Notes
+
+[2026-10-20T13:58:06Z · bob-cli-a2.3--1] PROPOSED FOLLOW-UP: Fix the six npm test failures that reproduce unchanged on clean base 5e21b03: four unblocked-glyph tests (Live Preview glyph placement, widget mousedown, rebuild triggers, Reading view glyphs), Keep counts once and saturates at 999 without reset, and forward conversion carries a Depends-On line and reverse restores it. The assigned phase’s relation tests passed in the working tree.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-a2.1](bob-cli-a2.1.md) ✓ · ⧖ 2026-10-20
@@ -23,4 +27,4 @@ plugin-guards: add LK recognisers to nav, the cycler, block-id-prompt, and the l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.3/README.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.3.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 0 |
