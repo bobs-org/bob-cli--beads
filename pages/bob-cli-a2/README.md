@@ -145,7 +145,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-a2.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.7/README.md) | [bob-cli-a2.7](bob-cli-a2.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-a2.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.8.md) | [bob-cli-a2.8](bob-cli-a2.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-a2.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.9/README.md) | [bob-cli-a2.9](bob-cli-a2.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-a2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.land.md) | [bob-cli-a2](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-a2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.land.md) | [bob-cli-a2](README.md) | 3 |
 
 ## Commits
 
@@ -167,6 +167,7 @@ flowchart TD
 | bob-cli | [`eefdeb4`](https://github.com/bobs-org/bob-cli/commit/eefdeb4717c003aeb23e09c9288f66fa36ee6203) | docs(relations): document relation usage and rollout | [bob-cli-a2.15](bob-cli-a2.15.md) | 2026-10-20 13:17:35 EDT |
 | bob-cli | [`4907f00`](https://github.com/bobs-org/bob-cli/commit/4907f00ddd02635fe4f6698efcae21eb17b8554a) | docs(capture): quote multi-word relation labels and fix capture-parse help | [bob-cli-a2](README.md) | 2026-10-20 14:18:59 EDT |
 | bob-mac-capture | [`bob-mac-capture@a85b1f8`](https://github.com/bobs-org/bob-mac-capture/commit/a85b1f8684615bb69c85ac4e8dfa0e7d04cadd9f) | feat(capture): add ~ relation card, preview rows, and capability warning | [bob-cli-a2](README.md) | 2026-10-20 14:20:09 EDT |
+| bob-cli--plans | [`bob-cli--plans@3f32cb9`](https://github.com/bobs-org/bob-cli--plans/commit/3f32cb969f9dcdfa0714bdff59070215a3c7a612) | docs(plans): mark task\_relations epic plan done | [bob-cli-a2](README.md) | 2026-10-20 14:20:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
