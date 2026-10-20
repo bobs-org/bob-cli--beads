@@ -37,13 +37,13 @@ Bryan can relate any task to any other task with an optional label, from Bob Mac
 | [bob-cli-a2.14](bob-cli-a2.14.md) | Bob Mac Capture relation card, preview rows, and capability warning | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [bob-cli-a2.15](bob-cli-a2.15.md) | Install, pilot on a vault copy, reach the MacBook, guide, and memory | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [bob-cli-a2.2](bob-cli-a2.2.md) | Rust relation grammar, planners, label rules, registry guards, and config | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-a2.3](bob-cli-a2.3.md) | Plugin recognisers and gesture guards for relation lines | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-a2.4](bob-cli-a2.4.md) | Reconcile owns the LINKED FROM projection | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-a2.5](bob-cli-a2.5.md) | Capture \`~\` / \`~~\` lexer, guards, and capture-parse wire | ✓ closed | medium | 2026-10-20 | 1 | 1 |
+| [bob-cli-a2.3](bob-cli-a2.3.md) | Plugin recognisers and gesture guards for relation lines | ✓ closed | medium | 2026-10-20 | 1 | 2 |
+| [bob-cli-a2.4](bob-cli-a2.4.md) | Reconcile owns the LINKED FROM projection | ✓ closed | medium | 2026-10-20 | 1 | 0 |
+| [bob-cli-a2.5](bob-cli-a2.5.md) | Capture \`~\` / \`~~\` lexer, guards, and capture-parse wire | ✓ closed | medium | 2026-10-20 | 1 | 0 |
 | [bob-cli-a2.6](bob-cli-a2.6.md) | Relation completion pools, label suggestions, and task-id replacements | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [bob-cli-a2.7](bob-cli-a2.7.md) | Execute \`~\` / \`~~\` captures with a same-batch mirror | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
-| [bob-cli-a2.8](bob-cli-a2.8.md) | bob-ledger-tools live relation index and api.relationIndex | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
-| [bob-cli-a2.9](bob-cli-a2.9.md) | nav relation grammar twin, planner, mint, writer, and api.relations | ✓ closed | medium | 2026-10-20 | 1 | 0 |
+| [bob-cli-a2.8](bob-cli-a2.8.md) | bob-ledger-tools live relation index and api.relationIndex | ✓ closed | medium | 2026-10-20 | 1 | 1 |
+| [bob-cli-a2.9](bob-cli-a2.9.md) | nav relation grammar twin, planner, mint, writer, and api.relations | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 
 ## Lineage
 
@@ -63,7 +63,7 @@ flowchart TD
     n11["bob-cli-a2.5: Capture `~` / `~~` lexer, guards, and capture-parse wire [closed]"]
     n12["bob-cli-a2.6: Relation completion pools, label suggestions, and task-id replacements [in_progress]"]
     n13["bob-cli-a2.7: Execute `~` / `~~` captures with a same-batch mirror [in_progress]"]
-    n14["bob-cli-a2.8: bob-ledger-tools live relation index and api.relationIndex [in_progress]"]
+    n14["bob-cli-a2.8: bob-ledger-tools live relation index and api.relationIndex [closed]"]
     n15["bob-cli-a2.9: nav relation grammar twin, planner, mint, writer, and api.relations [closed]"]
     n0 --> n1
     n0 --> n2
@@ -116,13 +116,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-a2.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.14/README.md) | [bob-cli-a2.14](bob-cli-a2.14.md) | 0 |
 | [bbugyi200.athena.bob-cli-a2.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.15/README.md) | [bob-cli-a2.15](bob-cli-a2.15.md) | 0 |
 | [bbugyi200.athena.bob-cli-a2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.2/README.md) | [bob-cli-a2.2](bob-cli-a2.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.3.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-a2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.4/README.md) | [bob-cli-a2.4](bob-cli-a2.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-a2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.5/README.md) | [bob-cli-a2.5](bob-cli-a2.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.3.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-a2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.4/README.md) | [bob-cli-a2.4](bob-cli-a2.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.5/README.md) | [bob-cli-a2.5](bob-cli-a2.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-a2.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.6/README.md) | [bob-cli-a2.6](bob-cli-a2.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-a2.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.7/README.md) | [bob-cli-a2.7](bob-cli-a2.7.md) | 0 |
-| [bbugyi200.athena.bob-cli-a2.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.8.md) | [bob-cli-a2.8](bob-cli-a2.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-a2.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.9/README.md) | [bob-cli-a2.9](bob-cli-a2.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.8.md) | [bob-cli-a2.8](bob-cli-a2.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-a2.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.9/README.md) | [bob-cli-a2.9](bob-cli-a2.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-a2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.land/README.md) | [bob-cli-a2](README.md) | 0 |
 
 ## Commits
@@ -132,8 +132,9 @@ flowchart TD
 | bob-cli | [`ae9629e`](https://github.com/bobs-org/bob-cli/commit/ae9629ecd69c9227c314cb9d0e6c5d65a892efd9) | docs(task-relations): add task-relations contract page and wire relation lines | [bob-cli-a2.1](bob-cli-a2.1.md) | 2026-10-20 09:23:41 EDT |
 | bob-cli | [`6d1f0a9`](https://github.com/bobs-org/bob-cli/commit/6d1f0a9c110ab8cf3a3a5d3751f15692b8485252) | feat(task-relations): add parsers, planners, and managed-link guards | [bob-cli-a2.2](bob-cli-a2.2.md) | 2026-10-20 09:59:55 EDT |
 | bob-cli | [`b88a70e`](https://github.com/bobs-org/bob-cli/commit/b88a70e6dcbe80bd129bf83651d343736a254d33) | feat(glossary): add task relation terminology | [bob-cli-a2.3](bob-cli-a2.3.md) | 2026-10-20 10:02:57 EDT |
-| bob-cli | [`1e1d982`](https://github.com/bobs-org/bob-cli/commit/1e1d982693423d59946fad75d383f01028571451) | feat(capture): add ~ / ~~ lexer, guards, and capture-parse wire | [bob-cli-a2.5](bob-cli-a2.5.md) | 2026-10-20 10:37:53 EDT |
-| bob-cli | [`a02f9b3`](https://github.com/bobs-org/bob-cli/commit/a02f9b33b3636298706fdc06865e5b7c500899b7) | feat(task-status-hooks): project LINKED FROM lines from authored LINKS | [bob-cli-a2.4](bob-cli-a2.4.md) | 2026-10-20 10:50:54 EDT |
+| bob-plugins | [`bob-plugins@524bf72`](https://github.com/bobs-org/bob-plugins/commit/524bf72cdea5db90db62ca08898e00332fa3514b) | feat(plugins): guard task relation lines | [bob-cli-a2.3](bob-cli-a2.3.md) | 2026-10-20 10:18:06 EDT |
+| bob-plugins | [`bob-plugins@1497854`](https://github.com/bobs-org/bob-plugins/commit/1497854c7d20ed503eae4231ff9d50ec679cee97) | feat(bob-navigation-hotkeys): add relation planner, writer, and api.relations v0 | [bob-cli-a2.9](bob-cli-a2.9.md) | 2026-10-20 10:44:47 EDT |
+| bob-plugins | [`bob-plugins@8d33457`](https://github.com/bobs-org/bob-plugins/commit/8d334570f89eec68978464a3126f4ff911621f19) | feat(ledger-tools): add live task relation index | [bob-cli-a2.8](bob-cli-a2.8.md) | 2026-10-20 11:10:12 EDT |
 
 <!-- sase:referenced-by:start -->
 

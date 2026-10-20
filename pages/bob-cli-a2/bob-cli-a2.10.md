@@ -14,7 +14,7 @@ chips: render live chips for both relation rows in Live Preview and Reading view
 ## Dependencies
 
 - **Blocks:** [bob-cli-a2.15](bob-cli-a2.15.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.8](bob-cli-a2.8.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.8](bob-cli-a2.8.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
