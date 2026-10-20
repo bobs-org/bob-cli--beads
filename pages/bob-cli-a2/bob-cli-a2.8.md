@@ -21,4 +21,4 @@ relation-index: build a raw-text relation index in bob-ledger-tools. It does a p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.8/README.md) | [bob-cli-a2.8](bob-cli-a2.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.8.md) | [bob-cli-a2.8](bob-cli-a2.8.md) | 0 |

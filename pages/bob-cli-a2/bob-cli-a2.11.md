@@ -15,7 +15,7 @@ nav-links-stage: add the Task Card row `l` and Ctrl+Shift+L, the Links stage (op
 
 - **Blocks:** [bob-cli-a2.12](bob-cli-a2.12.md) ◐ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.8](bob-cli-a2.8.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.9](bob-cli-a2.9.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.9](bob-cli-a2.9.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
