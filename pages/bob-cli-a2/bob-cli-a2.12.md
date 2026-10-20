@@ -20,13 +20,19 @@ nav-linked-from: add the reverse stage (⇧L, Ctrl+Shift+Alt+L, and Ctrl+Shift+P
 ## Dependencies
 
 - **Depends on:** [bob-cli-a2.11](bob-cli-a2.11.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a2.15](bob-cli-a2.15.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.15](bob-cli-a2.15.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.12/README.md) | [bob-cli-a2.12](bob-cli-a2.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.12/README.md) | [bob-cli-a2.12](bob-cli-a2.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3ba8bf9`](https://github.com/bobs-org/bob-plugins/commit/3ba8bf9a5c10db5eba871d186bf9818132e31414) | feat(navigation): add linked-from relation stage | [bob-cli-a2.12](bob-cli-a2.12.md) | 2026-10-20 12:13:16 EDT |
 
 <!-- sase:referenced-by:start -->
 

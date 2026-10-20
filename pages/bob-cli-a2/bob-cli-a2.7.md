@@ -17,8 +17,8 @@ capture-execute: plan relations for new and existing owners in the staged batch.
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a2.14](bob-cli-a2.14.md) ◐ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a2.15](bob-cli-a2.15.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.14](bob-cli-a2.14.md) ✓ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.15](bob-cli-a2.15.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.5](bob-cli-a2.5.md) ✓ · ⧖ 2026-10-20
 

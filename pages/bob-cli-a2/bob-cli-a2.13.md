@@ -19,7 +19,7 @@ mac-picker: give the direction-aware picker String sigils (& * ~ ~~), add the re
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a2.14](bob-cli-a2.14.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.14](bob-cli-a2.14.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.6](bob-cli-a2.6.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
@@ -33,3 +33,15 @@ mac-picker: give the direction-aware picker String sigils (& * ~ ~~), add the re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@bb7127a`](https://github.com/bobs-org/bob-mac-capture/commit/bb7127a20cc01cdac5674ff5184be50c8b39335e) | feat(capture): add ~ and ~~ relation pickers with live flip | [bob-cli-a2.13](bob-cli-a2.13.md) | 2026-10-20 12:17:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a2.13][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.13/README.md
+
+<!-- sase:referenced-by:end -->
