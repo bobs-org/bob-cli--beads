@@ -28,3 +28,15 @@ links-authoring: enable offline lychee fragment checking, scan every text source
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5cbfea1`](https://github.com/bobs-org/bob-cli/commit/5cbfea1f38d605e840f8dad69551b9b9e71ac52d) | fix(docs): check fragments offline and finish authoring templates | [bob-cli-a0.2.1.7.3](bob-cli-a0.2.1.7.3.md) | 2026-10-19 21:25:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.2.1.7.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.3/README.md
+
+<!-- sase:referenced-by:end -->

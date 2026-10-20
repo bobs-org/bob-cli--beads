@@ -17,7 +17,7 @@ mount-safety: fix front-matter stamping, destination symlink and gitignore valid
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.2.1.7.2](bob-cli-a0.2.1.7.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.2.1.7.2](bob-cli-a0.2.1.7.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

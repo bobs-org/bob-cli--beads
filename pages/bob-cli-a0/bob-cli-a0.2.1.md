@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/docs_toolchain.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_toolchain.md
 
@@ -58,11 +58,13 @@ epic-symbols: none for bob-cli-a0.2.1 or bob-cli-a0.2; no symvision recipe in th
 | read-by | [agent:bob-cli-a0.2.1.3][3] | Need inherited epic DECISIONS for lint phase | 1 |
 | read-by | [agent:bob-cli-a0.2.1.5][4] | Need epic decisions governing authoring and approved memory edit | 1 |
 | read-by | [agent:bob-cli-a0.2.1.6][5] | Need final epic decisions governing integration phase work | 1 |
+| read-by | [agent:bob-cli-a0.2.1.7.3][6] | Need the toolchain epic scope, decisions, and landing notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.3/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.5/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.6/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.3/README.md
 
 <!-- sase:referenced-by:end -->
