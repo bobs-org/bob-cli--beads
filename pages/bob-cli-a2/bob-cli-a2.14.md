@@ -15,7 +15,7 @@ mac-preview: add the ⇧↩ relation card (field, suggestion chips with counts, 
 
 - **Depends on:** [bob-cli-a2.13](bob-cli-a2.13.md) ◐ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.15](bob-cli-a2.15.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.7](bob-cli-a2.7.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.7](bob-cli-a2.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

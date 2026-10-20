@@ -21,7 +21,7 @@ plugin-guards: add LK recognisers to nav, the cycler, block-id-prompt, and the l
 
 - **Depends on:** [bob-cli-a2.1](bob-cli-a2.1.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.4](bob-cli-a2.4.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a2.7](bob-cli-a2.7.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.7](bob-cli-a2.7.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.8](bob-cli-a2.8.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.9](bob-cli-a2.9.md) ✓ · ⧖ 2026-10-20
 

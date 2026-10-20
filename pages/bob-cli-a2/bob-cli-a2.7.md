@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-a2](README.md) / bob-cli-a2.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.53.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.53.linker.w0.md) · **Assignee:** `bob-cli-a2.7` · **Size:** medium
-**Created:** 2026-10-20 09:08:22 EDT
+**Created:** 2026-10-20 09:08:22 EDT · **Closed:** 2026-10-20 11:21:08 EDT
 **Plan:** [202610/task\_relations.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_relations.md)
 
 ## Description
 
 capture-execute: plan relations for new and existing owners in the staged batch. Append or relabel the source's LINKS line, mint the ids the edge needs, and stage the target's LINKED FROM through the cli-core delta planner. Add refusals, inertness, relation_updates, linked_from_line_updates, task blocks, human output, and dry-run parity. Remove the parse-phase refusal. Pinned by LX vectors.
+
+## Notes
+
+[2026-10-20T15:21:08Z · bob-cli-a2.7] Executed ~ / ~~ in the same capture batch: LINKS plus courtesy LINKED FROM, mint-on-mirror, refusals, inertness, additive JSON/human/dry-run. Removed the parse-phase guard. Pinned LX1–LX16 (plus previous-daily skip). just check passed. docs/capture.md human example matches real output. No leftover --epic-symbol entries.
 
 ## Dependencies
 

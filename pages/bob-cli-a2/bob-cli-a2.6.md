@@ -11,6 +11,10 @@
 
 capture-complete: add contexts relation_to, relation_from, and relation_label; reuse the `&` catalog (open, closed, archived) with direction-specific eligibility, ranking, and badges. Label suggestions come from every LINKS line, and a typed-label row returns bob's canonical spelling. Add the relation_to_replacement and relation_from_replacement task-id fields, the owner-picker relations[], and shell groups.
 
+## Notes
+
+[2026-10-20T15:19:20Z · bob-cli-a2.6] PROPOSED FOLLOW-UP: Restore the optional github-callouts dependency for Material docs tests — docs-check fails both test_templates.py Material cases with ModuleNotFoundError, reproducing the clean-tree failure already recorded by bob-cli-a2.1.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-a2.13](bob-cli-a2.13.md) ◐ · ⧖ 2026-10-20
