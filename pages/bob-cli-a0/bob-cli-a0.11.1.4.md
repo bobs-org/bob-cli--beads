@@ -27,14 +27,13 @@ guides-front-door: Move both troubleshooting sections into goal-titled bob-cli F
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8ced873`](https://github.com/bobs-org/bob-cli/commit/8ced873d7c2f6d1550168dcc17c4cfb7d116fa89) | docs: add Mac Capture Fix problems guides and retarget site links | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2026-10-20 07:30:27 EDT |
-| bob-mac-capture | [`bob-mac-capture@48c871a`](https://github.com/bobs-org/bob-mac-capture/commit/48c871af062c3f77fc2a639fff9b2f820a01a036) | docs: replace README with a front door and link recovery guides | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2026-10-20 07:31:50 EDT |
 
 <!-- sase:referenced-by:start -->
 

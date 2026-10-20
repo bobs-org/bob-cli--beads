@@ -21,7 +21,7 @@ generated: add the golden-tested CLI reference, generate glossary and design-dec
 
 - **Blocks:** [bob-cli-a0.10](bob-cli-a0.10.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.2](bob-cli-a0.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.5](bob-cli-a0.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.5](bob-cli-a0.5.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.6](bob-cli-a0.6.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.7](bob-cli-a0.7.md) ✓ · ⧖ 2026-10-19
 

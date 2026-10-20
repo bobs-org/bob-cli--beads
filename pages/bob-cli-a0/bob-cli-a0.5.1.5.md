@@ -2,10 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-a0.5.1](bob-cli-a0.5.1.md) / bob-cli-a0.5.1.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-a0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.5.md) · **Assignee:** `bob-cli-a0.5.1.5` · **Size:** medium
-**Created:** 2026-10-19 23:18:37 EDT
+**Created:** 2026-10-19 23:18:37 EDT · **Closed:** 2026-10-20 09:26:41 EDT
 **Plan:** [202610/docs\_gated\_publication.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_gated_publication.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:95d246b4df6302904b85c55e | attached via sase artifact create --bead |
+
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+
+<!-- sase:links:end -->
 
 ## Description
 
@@ -56,6 +68,10 @@ Host README correction was applied with authorized bootstrap; pushed host commit
 
 [2026-10-20T12:03:41Z · 98--1] PROGRESS (2026-10-20): Following the answered launch-commit gate, committed and pushed the six-file handoff/command fix as 8783d49822ea546261cfbc8f0862878e5854c600 with sase_git_commit (exit 0). Checkout is clean and HEAD equals origin/master; default-branch publish/weekly runners and corrected handoff paths are confirmed. Prior full docs-check ToolRun 0f898214edb24c9d84035fd3e282ab61 is succeeded/exit 0; focused workflow tests passed again, 26 passed, and git diff --check passed. Host bootstrap preview remains a no-op at host commit 4b3036187b852d46470aac0e2cbe53cd1da43b93; both callers are active, no published.json or live build.json exists yet, and there are no managed issues. Next is the first actual publish under a SASE monitor, then live provenance/URLs, unchanged no-op, drill, ordinary recovery, weekly, final status, consolidated evidence on bob-cli-a0.5, and close only bob-cli-a0.5.1.5. User authorization explicitly covers additional verified intermediate commits; do not ask again. SASE separately reported deferred/quarantined prompt-archive publication from a pre-existing agents-sidecar rebase conflict; the source commit itself completed and pushed successfully.
 
+[2026-10-20T12:16:15Z · 98--2] PROGRESS (2026-10-20): Inspected exact first dispatch https://github.com/bobs-org/bobs-org.github.io/actions/runs/39419509246 from monitor v4j52s9mgnzq. It failed before gates because publish-plan ran from GITHUB_WORKSPACE instead of the tooling checkout (no origin remote). The failure reporter also failed with HTTP 403 because gh targeted the tooling repo rather than the caller host; no site, manifest, or managed issue was created. Fixed planner cwd and set GH_REPO to github.repository in publication and weekly open/close reporting. Also request state in gh issue list and normalize uppercase values so closed managed issues reopen, and emit plan/gates stage before execution for accurate failures. Regression tests reproduced five failures on prior source and now pass; focused workflow/issue checks: 51 passed. Full docs-check ToolRun c4b2bf43cb79ca5754cdb30431a32110 succeeded: 146 pages, 411 URL mentions, 8 curated links, 105 search cases, tutorial/media, 430 tests passed. All five changed files committed/pushed with authorized sase_git_commit as 1b1758fdd907cbb824b7f8f54271668f689ca58d; clean HEAD equals origin/master. Existing prompt-archive sync/quarantine warnings did not prevent source commit success. Next: retry first publication under monitor, then live provenance/URL checks, unchanged no-op, drill preserving live hashes and manifest with one blocked issue, ordinary
+
+… and 11480 more characters
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) ✓ · ⧖ 2026-10-19
@@ -64,14 +80,13 @@ Host README correction was applied with authorized bootstrap; pushed host commit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`110624b`](https://github.com/bobs-org/bob-cli/commit/110624b8df65bd81853b0a55660f9a3da233e9da) | fix(docs): run reusable publish jobs on ubuntu-latest | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:28:11 EDT |
-| bob-mac-capture | [`bob-mac-capture@ddea5df`](https://github.com/bobs-org/bob-mac-capture/commit/ddea5dfdf6f510a80fad044b82f1d077194adbfd) | docs(readme): add public site Get started, Reference, and Develop links | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:29:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -81,6 +96,9 @@ Host README correction was applied with authorized bootstrap; pushed host commit
 | --- | --- | --- | ---: |
 | read-by | [agent:12a][1] | Host bootstrap phase status; diagnosing why site 404s | 1 |
 | read-by | [agent:98--1][2] | Recover remaining live launch checks and closure requirements | 1 |
+| read-by | [agent:98--2][2] | Resume failed first publication and verify remaining launch acceptance | 1 |
+| read-by | [agent:98--3][2] | Recover launch evidence | 2 |
+| read-by | [agent:98--4][2] | Inspect remaining launch scope and earlier verification | 1 |
 | read-by | [agent:bob-cli-a0.5.1.5][3] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12a/README.md

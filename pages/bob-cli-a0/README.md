@@ -35,11 +35,15 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 
 [2026-10-20T05:19:14Z · bob-cli-a0.6.1.land] DISCOVERED ISSUE: Learn landing triage of bob-cli-a0.6.1.3 note #2 corroborates bob-cli-a0.3 note #2: Zensical header/search aria-prohibited-attr, Material search aria-dialog-name, Pygments code contrast, scrollable contract regions, and 200% reflow overflow remain shared-theme accessibility work. The Learn phase additionally reports first-bob-day code contrast/zoom exposure; its CLI SVG is not the overflow source. The earlier theme report predates the Learn commits. Reproduce with just docs-build / just docs-build-material followed by just docs-a11y; inspect target/docs/a11y/<builder>/report.json and screenshots. Current lander reviewed the source and both phase notes; this is not a claim of a new browser run. All-status task search and one-week sweep found no task duplicate. No standalone task: the active public-docs epic created these surfaces and bob-cli-a0.13 owns the final accessibility sweep. Fix shared defects there and retain evidence in the handoff; Learn-specific regressions remain bob-cli-a0.6.1 work.
 
+[2026-10-20T13:46:23Z · bob-cli-a0.5.1.land] DISCOVERED ISSUE: (from bob-cli-a0.5.1.land; proposed by phase bob-cli-a0.5.1.5 notes #9 and #11) The weekly online external-link check is permanently red on one upstream license URL: http://www.adobe.com/ at docs/assets/fonts/OFL.txt:2:30 returns HTTP 403 to lychee. Weekly runs https://github.com/bobs-org/bobs-org.github.io/actions/runs/39424193019 and 39427654125 both passed the strict Material build and failed only that URL (30343 total, 1899 unique, 30300 OK, 1 Error, 42 Unsupported). The phase reproduced it on isolated untouched base d51c160e with 'lychee --no-progress --timeout 20 --max-retries 0 docs/assets/fonts/OFL.txt' (exit 2). Managed issue https://github.com/bobs-org/bobs-org.github.io/issues/2 (label docs-weekly) is open and must stay open until a weekly run passes. Remediation needs a policy choice: keep the upstream OFL text verbatim and add a narrowly scoped, commented lychee exclusion for that boilerplate URL or for the third-party license file, or another documented approach. The approved plan forbids broad exclusions. Then rerun 'gh workflow run weekly.yml --repo bobs-org/bobs-org.github.io --ref main' and watch that exact run; a pass closes issue #2. All-status task searches (adobe|OFL.txt|docs-weekly|lychee|external link) and the one-week task sweep found no duplicate. No task was filed, because this active epic created both the font assets (a0.3) and the weekly check (a0.5); bob-cli-a0.13's final sweep is the natural owner.
+
+[2026-10-20T13:46:28Z · bob-cli-a0.5.1.land] DISCOVERED ISSUE: (from bob-cli-a0.5.1.land) The hourly scheduled publish on bobs-org/bobs-org.github.io almost never fires. The caller .github/workflows/publish.yml with cron '17 * * * *' has been on main since host commit ebd952f at 2026-10-20T05:03Z. As of 13:43Z, GET repos/bobs-org/bobs-org.github.io/actions/runs?event=schedule returns exactly one scheduled run: 39405915133 at 10:09:26Z. That run failed with zero jobs on the then-missing runs-on, which was fixed in bob-cli 110624b8. No scheduled run appears for 11:17, 12:17, or 13:17, not even as a cancelled run, even though the reusable workflow has been valid since 11:28Z and both workflows report state=active. Every publication so far came from manual dispatch. bob-cli master has since advanced past the live d51c160e (for example ae9629ec, which adds docs/task-relations.md), and those pages are not live. Nothing in bob-docs runs at those times, so the likely cause is GitHub's best-effort schedule, which delays or drops runs under load. A brand-new public repository may also make this worse. Next: after a few more hours, recheck 'gh api "repos/bobs-org/bobs-org.github.io/actions/runs?event=schedule" --jq ".workflow_runs[] | [.id,.created_at,.conclusion]"'. If scheduled runs still do not appear, pick a mitigation and document it in tools/docs/host/README.md and docs/develop/build.md. Options include a different cron minute, re-saving the workflow file, or an operator 'just docs-publish' cadence. Until then, 'just docs-publish' publishes current master. All-status task search (schedule|cron|hourly) and the one-week sweep found no duplicate. No task was filed, because this active epic owns the publish deliverable.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-a0.1](bob-cli-a0.1.md) | Licenses and stale public claims | ✓ closed | small | 2026-10-19 | 1 | 2 |
+| [bob-cli-a0.1](bob-cli-a0.1.md) | Licenses and stale public claims | ✓ closed | small | 2026-10-19 | 1 | 1 |
 | [bob-cli-a0.10](bob-cli-a0.10.md) | Obsidian plugin reference in bob-plugins | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.11](bob-cli-a0.11.md) | Mac Capture reference in bob-mac-capture | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.12](bob-cli-a0.12.md) | bob-cli README becomes a front door | ✓ closed | medium | 2026-10-19 | 1 | 1 |
@@ -47,7 +51,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 | [bob-cli-a0.2](bob-cli-a0.2.md) | Docs toolchain, contracts in place, and gates | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.3](bob-cli-a0.3.md) | Bob visual identity and homepage | ✓ closed | large | 2026-10-19 | 1 | 1 |
 | [bob-cli-a0.4](bob-cli-a0.4.md) | Generated CLI reference, glossary, and decisions | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [bob-cli-a0.5](bob-cli-a0.5.md) | Deploy repo, hourly gated publish, and launch | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
+| [bob-cli-a0.5](bob-cli-a0.5.md) | Deploy repo, hourly gated publish, and launch | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.6](bob-cli-a0.6.md) | Demo vault, tested tutorial, and the Learn path | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.7](bob-cli-a0.7.md) | Hand-written product reference | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.8](bob-cli-a0.8.md) | Goal-titled guides and component tags | ✓ closed | large | 2026-10-19 | 1 | 1 |
@@ -88,13 +92,13 @@ flowchart TD
     n28["bob-cli-a0.2.1.7.3: Check fragments offline, widen mention scans, and finish templates [closed]"]
     n29["bob-cli-a0.3: Bob visual identity and homepage [closed]"]
     n30["bob-cli-a0.4: Generated CLI reference, glossary, and decisions [closed]"]
-    n31["bob-cli-a0.5: Deploy repo, hourly gated publish, and launch [in_progress]"]
-    n32["bob-cli-a0.5.1: Launch Bob documentation with gated hourly GitHub Pages publishing [in_progress]"]
+    n31["bob-cli-a0.5: Deploy repo, hourly gated publish, and launch [closed]"]
+    n32["bob-cli-a0.5.1: Launch Bob documentation with gated hourly GitHub Pages publishing [closed]"]
     n33["bob-cli-a0.5.1.1: Publication source selection and manifest contracts [closed]"]
     n34["bob-cli-a0.5.1.2: Gated reusable publication and recovery [closed]"]
     n35["bob-cli-a0.5.1.3: Deploy repository templates and operator commands [closed]"]
     n36["bob-cli-a0.5.1.4: Weekly fallback build and external link checks [closed]"]
-    n37["bob-cli-a0.5.1.5: Bootstrap the public host and prove publication safety [in_progress]"]
+    n37["bob-cli-a0.5.1.5: Bootstrap the public host and prove publication safety [closed]"]
     n38["bob-cli-a0.6: Demo vault, tested tutorial, and the Learn path [closed]"]
     n39["bob-cli-a0.6.1: Complete the Bob Learn path [closed]"]
     n40["bob-cli-a0.6.1.1: Synthetic demo vault and executable first-day tutorial [closed]"]
@@ -209,7 +213,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.1/README.md) | [bob-cli-a0.1](bob-cli-a0.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-a0.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.1/README.md) | [bob-cli-a0.1](bob-cli-a0.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.md) | [bob-cli-a0.10](bob-cli-a0.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.1/README.md) | [bob-cli-a0.10.1.1](bob-cli-a0.10.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md) | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 0 |
@@ -218,11 +222,11 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.5/README.md) | [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.md) | [bob-cli-a0.11](bob-cli-a0.11.md) | 0 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md) | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md) | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.3.md) | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.land.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 3 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md) | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md) | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.3.md) | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.land.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.12.md) | [bob-cli-a0.12](bob-cli-a0.12.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.13/README.md) | [bob-cli-a0.13](bob-cli-a0.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.md) | [bob-cli-a0.2](bob-cli-a0.2.md) | 0 |
@@ -244,8 +248,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md) | [bob-cli-a0.5.1.2](bob-cli-a0.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.3/README.md) | [bob-cli-a0.5.1.3](bob-cli-a0.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md) | [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.land/README.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.5.1.land.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.1.1.md) | [bob-cli-a0.6.1.1](bob-cli-a0.6.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6.1.2/README.md) | [bob-cli-a0.6.1.2](bob-cli-a0.6.1.2.md) | 1 |
@@ -265,7 +269,6 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c7df845`](https://github.com/bobs-org/bob-cli/commit/c7df845f34b8301434ebb616516da0578dd80073) | docs(license): adopt MIT license for public docs site | [bob-cli-a0.1](bob-cli-a0.1.md) | 2026-10-19 19:02:17 EDT |
-| bob-mac-capture | [`bob-mac-capture@065908f`](https://github.com/bobs-org/bob-mac-capture/commit/065908f89c1646dcbf77dad90e4de0f4cbdb4607) | docs(license): adopt MIT license | [bob-cli-a0.1](bob-cli-a0.1.md) | 2026-10-19 19:03:17 EDT |
 | bob-cli | [`f0f6e0c`](https://github.com/bobs-org/bob-cli/commit/f0f6e0c533571e73adff866a0283ab2b3b7459d1) | feat(docs): build locked docs package and contract site foundation | [bob-cli-a0.2.1.1](bob-cli-a0.2.1.1.md) | 2026-10-19 19:20:48 EDT |
 | bob-cli | [`b0f3817`](https://github.com/bobs-org/bob-cli/commit/b0f38175748f6f6965adc52017f1793a949214bf) | feat(docs): implement mounts with production sources verification | [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) | 2026-10-19 19:37:09 EDT |
 | bob-cli | [`88fcca6`](https://github.com/bobs-org/bob-cli/commit/88fcca648a7c43064513a31cbdde09718da1134e) | feat(docs): protect published URLs and verify built links (bob-cli-a0.2.1.4) | [bob-cli-a0.2.1.4](bob-cli-a0.2.1.4.md) | 2026-10-19 19:49:21 EDT |
@@ -300,18 +303,13 @@ flowchart TD
 | bob-cli | [`bae9468`](https://github.com/bobs-org/bob-cli/commit/bae9468d692c5c4e9a14ab73558b1d6c50b8787b) | feat(docs): add goal-titled guides and component tags | [bob-cli-a0.8](bob-cli-a0.8.md) | 2026-10-20 02:52:17 EDT |
 | bob-cli | [`f896652`](https://github.com/bobs-org/bob-cli/commit/f8966523c4f689914318bb0596bed975c3d7118c) | docs(readme): rewrite the GitHub README as a short site front door | [bob-cli-a0.12](bob-cli-a0.12.md) | 2026-10-20 03:24:34 EDT |
 | bob-cli | [`1f3b90e`](https://github.com/bobs-org/bob-cli/commit/1f3b90e5e90ab1891e42d52de8b6c4786e5ddbee) | docs(bob-cli): mount mac-capture reference pages and add hub landings | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:27:18 EDT |
-| bob-mac-capture | [`bob-mac-capture@1fff6aa`](https://github.com/bobs-org/bob-mac-capture/commit/1fff6aae33dc9add0812636185f54279d86cc6ee) | docs(mac-capture): extract reference pages from README baseline | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:28:32 EDT |
 | bob-cli | [`8ba2995`](https://github.com/bobs-org/bob-cli/commit/8ba29959d4aab047bff060c2bc082bbb92213803) | docs(mac-capture): wire application-reference hubs and search smoke | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2026-10-20 03:48:27 EDT |
-| bob-mac-capture | [`bob-mac-capture@3b944d8`](https://github.com/bobs-org/bob-mac-capture/commit/3b944d877a7a0890b29c2d8d5d93d2c677d4b9d5) | docs: extract install, settings, permissions, and Bob Refs reference | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2026-10-20 03:49:51 EDT |
 | bob-cli | [`d4b1ab3`](https://github.com/bobs-org/bob-cli/commit/d4b1ab31c3b24a97577ab2d0758a2000dbc00374) | docs(mac-capture): show mounted panel images and fix media lint | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2026-10-20 07:00:20 EDT |
-| bob-mac-capture | [`bob-mac-capture@bd9b1e2`](https://github.com/bobs-org/bob-mac-capture/commit/bd9b1e23374868b92b75f3d8a040c7a59308bd46) | docs: import synthetic CI panel renders and add preview tooling | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2026-10-20 07:02:17 EDT |
 | bob-cli | [`110624b`](https://github.com/bobs-org/bob-cli/commit/110624b8df65bd81853b0a55660f9a3da233e9da) | fix(docs): run reusable publish jobs on ubuntu-latest | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:28:11 EDT |
-| bob-mac-capture | [`bob-mac-capture@ddea5df`](https://github.com/bobs-org/bob-mac-capture/commit/ddea5dfdf6f510a80fad044b82f1d077194adbfd) | docs(readme): add public site Get started, Reference, and Develop links | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:29:31 EDT |
 | bob-cli | [`8ced873`](https://github.com/bobs-org/bob-cli/commit/8ced873d7c2f6d1550168dcc17c4cfb7d116fa89) | docs: add Mac Capture Fix problems guides and retarget site links | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2026-10-20 07:30:27 EDT |
-| bob-mac-capture | [`bob-mac-capture@48c871a`](https://github.com/bobs-org/bob-mac-capture/commit/48c871af062c3f77fc2a639fff9b2f820a01a036) | docs: replace README with a front door and link recovery guides | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2026-10-20 07:31:50 EDT |
 | bob-cli | [`3f0b4a8`](https://github.com/bobs-org/bob-cli/commit/3f0b4a879cb1688f049a757c2c8b446bf51bc8ad) | docs(mac-capture): correct recovery claims and durable develop-hub guidance | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:13:10 EDT |
-| bob-mac-capture | [`bob-mac-capture@532c376`](https://github.com/bobs-org/bob-mac-capture/commit/532c376c7e1844909315732f68b96d68cf72207d) | docs(mac-capture): consolidate README front door, repair stale refs, correct retention and privacy | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:14:23 EDT |
 | bob-cli--plans | [`bob-cli--plans@b9859d9`](https://github.com/bobs-org/bob-cli--plans/commit/b9859d96d0109d66e13def962c1df57bff396781) | chore(plans): mark mac\_capture\_reference done | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:15:52 EDT |
+| bob-cli | [`10019f6`](https://github.com/bobs-org/bob-cli/commit/10019f635d6b79ecaff5033c464dc7de0bf1a3ad) | fix(docs): close gated publication with rollback, record CAS, and runbook fixes | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2026-10-20 10:15:36 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -21,7 +21,7 @@ toolchain: create the tools/docs uv project, mkdocs.yml, assembler, lint, URL co
 
 - **Blocks:** [bob-cli-a0.3](bob-cli-a0.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.4](bob-cli-a0.4.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.5](bob-cli-a0.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.5](bob-cli-a0.5.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

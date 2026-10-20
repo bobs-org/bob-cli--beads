@@ -18,7 +18,7 @@ weekly-checks: add the workflow_call-only weekly Material build and online lyche
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.5.1.3](bob-cli-a0.5.1.3.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
