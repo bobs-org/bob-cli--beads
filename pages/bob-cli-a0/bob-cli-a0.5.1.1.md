@@ -113,7 +113,9 @@ docs-check: all implemented gates passed (228 passed, 3 skipped); epic-symbol ch
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.5.1.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-a0.5.1.2][2] | Need prior phase implementation details | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md
 
 <!-- sase:referenced-by:end -->

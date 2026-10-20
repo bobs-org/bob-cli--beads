@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-a0.7](bob-cli-a0.7.md) / bob-cli-a0.7.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-a0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.md) · **Assignee:** `bob-cli-a0.7.1.land`
-**Created:** 2026-10-19 23:14:29 EDT
+**Created:** 2026-10-19 23:14:29 EDT · **Closed:** 2026-10-20 00:29:30 EDT
 **Plan:** [202610/product\_reference.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/product_reference.md)
 
 <!-- sase:links:start -->
@@ -31,11 +31,19 @@ Readers can look up capture syntax, vault structure, configuration, and machine 
 
 [2026-10-20T03:59:47Z · bob-cli-a0.7.1.land] INTEGRATION AND FOLLOW-UP TRIAGE: Every child note was reviewed; there are zero PROPOSED FOLLOW-UP entries on bob-cli-a0.7.1.1, .2, or .3, so no new-task triage, duplicate corroboration, or declined proposal is outstanding. All newly found issues were introduced by this epic and stay in its remaining-work tale; none is deferred as a separate task. Since this epic started, non-epic commits f3678291 (source-owned mounted hubs), d18b45de (publication source planner), and 7751f505 (executable tutorial/demo/sandbox) landed. Their nav and lint/check additions coexist, mounts remain empty, and the Rust-only environment guard intentionally does not inventory Python docs-tool variables. Reuse the new sandbox/demo for reference verification and cross-link the tutorial and reference pages. Fetch confirmed HEAD equals origin/master. Final MIT/indexable/published-decisions choices are preserved; no memory or product behavior changes. epic-symbols checks for bob-cli-a0.7.1 and bob-cli-a0.7 both report none; no symvision recipe exists in the current justfile. Epic and parent phase intentionally remain open pending the tale.
 
+[2026-10-20T04:29:30Z · bob-cli-a0.7.1.land] Landing tale complete at working tree (host will commit). Children .1/.2/.3 remain closed with one note each and zero PROPOSED FOLLOW-UP entries; no new triage, duplicates, or unrelated tasks. Scanner now requires punctuation tokens for delimiters (string/char `{`/`}`/`(`/`[`/`#`/`;`/`,` cannot hide production names or leak tests); 8 environment tests pass. JSON catalog adds ref scan (success vs hard-error envelopes, --intake-only), corrects ref today as a Pomodoro link (not a listing), names capture-task-id/capture-pomodoro-name writes plus -d, scopes ok/schema_version per family (vault-sync status is a direct StatusRecord), and lists ref show -f markdown / -f table. Plugin install uses --repo "$PWD" with resolution order and foreign-checkout refusal. Capture index examples filled; token coverage requires literal queries at headings; search_smoke grouped spellings added; tutorial related/next links added. mounts.yml still empty so Mac hotkey links stay on the public README. Word budgets: hub 87, capture 5095, vault 2348, config 3117, json 1870. Gates: focused env/token/lint 67 passed; just check 1861 lib tests + integration suites passed; just docs-check all gates (268 pytest passed, 2 skipped, 71 search smoke, tutorial, lychee); just docs-build-material ok. Built HTML has the four reference URLs, named token anchors, #pending/#next, and task-line anatomy. Isolated dry-runs: capture-parse schema 1; ref scan --dry-run hard-error envelope; --intake-only dry-run success with intake_only true; ref today is a link command; plan schema 2. sase bead epic-symbols bob-cli-a0.7.1: none. justfile still has no symvision recipe (none added). MIT/indexable/published-decisions preserved; no memory, Rust product, CLI, docs-move, or sibling edits. Original plan:202610/product_reference.md status set to done. Leave bob-cli-a0 open.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.1.land.md) | [bob-cli-a0.7.1](bob-cli-a0.7.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.1.land.md) | [bob-cli-a0.7.1](bob-cli-a0.7.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`cf7a9e9`](https://github.com/bobs-org/bob-cli/commit/cf7a9e98497c65a98969022616431aefb19c1ee8) | docs(reference): finish product reference landing repairs | [bob-cli-a0.7.1](bob-cli-a0.7.1.md) | 2026-10-20 00:31:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
