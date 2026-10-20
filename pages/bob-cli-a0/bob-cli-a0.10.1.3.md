@@ -28,10 +28,16 @@ plugin-pages: move the plugin-specific README details into seven usable referenc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md) | [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md) | [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@7e74901`](https://github.com/bobs-org/bob-plugins/commit/7e749018b39a96d9d1a8972a74144cc27034fe48) | docs(plugins): write the seven plugin reference pages | [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) | 2026-10-19 23:43:26 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.10.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md
+
+<!-- sase:referenced-by:end -->
