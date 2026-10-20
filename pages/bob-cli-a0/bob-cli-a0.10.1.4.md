@@ -13,7 +13,7 @@ topic-migration: migrate the remaining README topics and development material, a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
