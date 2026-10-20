@@ -33,3 +33,15 @@ capture-execute: plan relations for new and existing owners in the staged batch.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8755ffc`](https://github.com/bobs-org/bob-cli/commit/8755ffc86d1d972a01dd46a54323b40f1b988576) | feat(capture): execute ~ / ~~ relations with a same-batch mirror | [bob-cli-a2.7](bob-cli-a2.7.md) | 2026-10-20 11:30:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a2.7][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.7/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ mac-picker: give the direction-aware picker String sigils (& * ~ ~~), add the re
 ## Dependencies
 
 - **Blocks:** [bob-cli-a2.14](bob-cli-a2.14.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.6](bob-cli-a2.6.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.6](bob-cli-a2.6.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

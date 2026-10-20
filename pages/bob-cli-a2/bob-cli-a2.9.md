@@ -21,14 +21,20 @@ nav-writer: add the JS twin of the LINKS / LINKED FROM planners (LW and LM bytes
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a2.11](bob-cli-a2.11.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.11](bob-cli-a2.11.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.9/README.md) | [bob-cli-a2.9](bob-cli-a2.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.9/README.md) | [bob-cli-a2.9](bob-cli-a2.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@1497854`](https://github.com/bobs-org/bob-plugins/commit/1497854c7d20ed503eae4231ff9d50ec679cee97) | feat(bob-navigation-hotkeys): add relation planner, writer, and api.relations v0 | [bob-cli-a2.9](bob-cli-a2.9.md) | 2026-10-20 10:44:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

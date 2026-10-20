@@ -25,15 +25,21 @@ PROPOSED FOLLOW-UP: Make docs:check provide the Material theme or skip the two M
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a2.10](bob-cli-a2.10.md) ○ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a2.11](bob-cli-a2.11.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.10](bob-cli-a2.10.md) ✓ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.11](bob-cli-a2.11.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.8.md) | [bob-cli-a2.8](bob-cli-a2.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.8.md) | [bob-cli-a2.8](bob-cli-a2.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@8d33457`](https://github.com/bobs-org/bob-plugins/commit/8d334570f89eec68978464a3126f4ff911621f19) | feat(ledger-tools): add live task relation index | [bob-cli-a2.8](bob-cli-a2.8.md) | 2026-10-20 11:10:12 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -43,7 +43,9 @@ contract: write docs/task-relations.md (grammar, slot, identity, projection, ine
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a2.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-a2.6][2] | Check whether the existing github-callouts docs-check failure already tracks this environment issue | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.6/README.md
 
 <!-- sase:referenced-by:end -->

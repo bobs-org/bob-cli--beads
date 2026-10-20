@@ -18,7 +18,7 @@ capture-parse: add a relation scanner in the `&` / `*` modifier runs with the di
 ## Dependencies
 
 - **Depends on:** [bob-cli-a2.2](bob-cli-a2.2.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a2.6](bob-cli-a2.6.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.6](bob-cli-a2.6.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.7](bob-cli-a2.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents

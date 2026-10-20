@@ -13,8 +13,8 @@ rollout: install bob and the plugins on athena, then check that the live reconci
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a2.10](bob-cli-a2.10.md) ○ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.12](bob-cli-a2.12.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.10](bob-cli-a2.10.md) ✓ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.12](bob-cli-a2.12.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.14](bob-cli-a2.14.md) ◐ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.4](bob-cli-a2.4.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.7](bob-cli-a2.7.md) ✓ · ⧖ 2026-10-20
