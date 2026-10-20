@@ -21,7 +21,7 @@ target: add the bob-navigation-hotkeys image-zoom mixin fragment that finds embe
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a1.3](bob-cli-a1.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a1.3](bob-cli-a1.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -42,7 +42,9 @@ target: add the bob-navigation-hotkeys image-zoom mixin fragment that finds embe
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a1.1][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:bob-cli-a1.2][2] | See how target phase recorded the skipped memory follow-up | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a1.2/README.md
 
 <!-- sase:referenced-by:end -->

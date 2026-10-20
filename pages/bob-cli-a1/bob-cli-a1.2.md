@@ -21,7 +21,7 @@ viewer: add a public-API Modal fragment plus CSS that opens an image fitted to t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a1.3](bob-cli-a1.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a1.3](bob-cli-a1.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -34,3 +34,15 @@ viewer: add a public-API Modal fragment plus CSS that opens an image fitted to t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5e21b03`](https://github.com/bobs-org/bob-plugins/commit/5e21b03cb5152b3407da61e44111e0568cb3405e) | feat(navigation-hotkeys): add owned ImageZoomModal viewer for Z zoom | [bob-cli-a1.2](bob-cli-a1.2.md) | 2026-10-20 09:29:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a1.2/README.md
+
+<!-- sase:referenced-by:end -->
