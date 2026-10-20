@@ -40,7 +40,9 @@ prereqs: add LICENSE files to bob-cli and bob-mac-capture and correct the bob-pl
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-a2.8--1][2] | Need any existing beads tracking the clean-base failures before documenting this phase gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a2.8.md
 
 <!-- sase:referenced-by:end -->

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-a0
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.95](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.95.md) · **Assignee:** `bob-cli-a0.land`
-**Created:** 2026-10-19 18:55:41 EDT
+**Created:** 2026-10-19 18:55:41 EDT · **Closed:** 2026-10-20 18:02:49 EDT
 **Plan:** [202610/bob\_public\_docs\_site.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_public_docs_site.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_public_docs_site.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_public_docs_site.md
 
@@ -39,6 +39,22 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 
 [2026-10-20T13:46:28Z · bob-cli-a0.5.1.land] DISCOVERED ISSUE: (from bob-cli-a0.5.1.land) The hourly scheduled publish on bobs-org/bobs-org.github.io almost never fires. The caller .github/workflows/publish.yml with cron '17 * * * *' has been on main since host commit ebd952f at 2026-10-20T05:03Z. As of 13:43Z, GET repos/bobs-org/bobs-org.github.io/actions/runs?event=schedule returns exactly one scheduled run: 39405915133 at 10:09:26Z. That run failed with zero jobs on the then-missing runs-on, which was fixed in bob-cli 110624b8. No scheduled run appears for 11:17, 12:17, or 13:17, not even as a cancelled run, even though the reusable workflow has been valid since 11:28Z and both workflows report state=active. Every publication so far came from manual dispatch. bob-cli master has since advanced past the live d51c160e (for example ae9629ec, which adds docs/task-relations.md), and those pages are not live. Nothing in bob-docs runs at those times, so the likely cause is GitHub's best-effort schedule, which delays or drops runs under load. A brand-new public repository may also make this worse. Next: after a few more hours, recheck 'gh api "repos/bobs-org/bobs-org.github.io/actions/runs?event=schedule" --jq ".workflow_runs[] | [.id,.created_at,.conclusion]"'. If scheduled runs still do not appear, pick a mitigation and document it in tools/docs/host/README.md and docs/develop/build.md. Options include a different cron minute, re-saving the workflow file, or an operator 'just docs-publish' cadence. Until then, 'just docs-publish' publishes current master. All-status task search (schedule|cron|hourly) and the one-week sweep found no duplicate. No task was filed, because this active epic owns the publish deliverable.
 
+[2026-10-20T17:53:51Z · bob-cli-a2.land] DISCOVERED ISSUE: (from bob-cli-a2.land; proposed by bob-cli-a2 phases a2.1 #1, a2.6 #1, a2.8 #1, a2.11 #1, a2.12 #1, a2.13 #1, a2.14 #1, a2.15 #4) just docs-check fails its two Material template unit tests on athena: tools/docs/tests/test_templates.py::test_templates_in_material and ::test_component_chips_in_material (2 failed, 3 passed via 'uv run --project tools/docs pytest tools/docs/tests/test_templates.py' on bob-cli master eefdeb47) with 'Failed to load extension github-callouts / ModuleNotFoundError'. Root cause: _build() shells out to a bare 'mkdocs' found on PATH (~/.pyenv/shims/mkdocs, also ~/.local/bin/mkdocs: a global Material install without markdown-callouts) instead of the project env, whose default uv groups (dev) do not install the optional 'material' group at all. Fix candidates: run the project env's mkdocs (sys.executable -m mkdocs) and skip with pytest.importorskip('material') when the material group is absent, or have docs-check sync the material group. The tests were added by this epic (bae9468d bob-cli-a0.8, f8ef1628 bob-cli-a0.3), so no standalone task was filed; all-status task search and the one-week task sweep found no duplicate.
+
+[2026-10-20T21:33:30Z · bob-cli-a7.land] DISCOVERED ISSUE: Corroboration from bob-cli-a7.land of a0 note #7, proposed by bob-cli-a7.3 note #2. On unchanged a0ac8451, uv run --project tools/docs pytest tools/docs/tests/test_templates.py -q reproduces exactly 2 failed / 3 passed: test_templates_in_material and test_component_chips_in_material fail loading github-callouts. _build invokes PATH mkdocs while the uv default dev group omits material. The source and prior ownership were reviewed; no separate task is filed because the docs epic introduced these tests. This is independent of the bare-Pomodoro feature.
+
+[2026-10-20T21:41:03Z · bob-cli-a0.land] LAND TRIAGE (bob-cli-a0.land, 2026-10-20). Every PROPOSED FOLLOW-UP / DISCOVERED ISSUE on the epic, its 13 phases, and its nested child epics, with its outcome:
+
+FIXED BY THE EPIC (verified): epic #1/#2 PDFKit citation (1513a385, highlights-create.md:116 is plain prose); epic #4 + a0.3 #2 shared-theme a11y (1513a385; 0 violations on both builders per handoff section 8); epic #5 + a0.5 #4/#5 Adobe 403 (1513a385, ADOBE_OFL_URL_EXCLUDE in links.py; weekly runs 39475174066 and 39499697687 show zero Adobe errors); epic #6 sparse hourly schedule (documented as GitHub best-effort in tools/docs/host/README.md and docs/develop/build.md; scheduled successes at 15:10Z and 19:21Z). Nested-epic items were all triaged by their landers (a52e214b audit): fixed, declined, or corroborated to bob-cli-6v/6w/7i/3w.
+
+REMAINING EPIC WORK (caused by this epic; planned as a lander tale):
+(a) epic #7: Material template tests run a bare PATH mkdocs;
+(b) a0.13 #2: weekly link check is still red. My re-dispatched run 39499697687 (21:21Z) failed again on four different GitHub edit-link 429s, so this is systematic, not transient. Issue bobs-org/bobs-org.github.io#2 stays open;
+(c) a0.13 #3: garbled copy at fix-mac-capture-bob-resolution.md:49;
+(d) a0.4 #1: writing-docs needs a rule that a fen
+
+… and 5174 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,7 +63,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 | [bob-cli-a0.10](bob-cli-a0.10.md) | Obsidian plugin reference in bob-plugins | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.11](bob-cli-a0.11.md) | Mac Capture reference in bob-mac-capture | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.12](bob-cli-a0.12.md) | bob-cli README becomes a front door | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [bob-cli-a0.13](bob-cli-a0.13.md) | llms.txt, reader tests, final sweep, and handoff | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
+| [bob-cli-a0.13](bob-cli-a0.13.md) | llms.txt, reader tests, final sweep, and handoff | ✓ closed | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.2](bob-cli-a0.2.md) | Docs toolchain, contracts in place, and gates | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.3](bob-cli-a0.3.md) | Bob visual identity and homepage | ✓ closed | large | 2026-10-19 | 1 | 1 |
 | [bob-cli-a0.4](bob-cli-a0.4.md) | Generated CLI reference, glossary, and decisions | ✓ closed | medium | 2026-10-19 | 1 | 1 |
@@ -61,7 +77,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-a0: Bob public docs site on GitHub Pages [in_progress]"]
+    n0["bob-cli-a0: Bob public docs site on GitHub Pages [closed]"]
     n1["bob-cli-a0.1: Licenses and stale public claims [closed]"]
     n2["bob-cli-a0.10: Obsidian plugin reference in bob-plugins [closed]"]
     n3["bob-cli-a0.10.1: Publish the generated Obsidian plugin reference [closed]"]
@@ -77,7 +93,7 @@ flowchart TD
     n13["bob-cli-a0.11.1.3: Import CI panel images and add Mac documentation preview tooling [closed]"]
     n14["bob-cli-a0.11.1.4: Migrate troubleshooting, finish the README front door, and verify coverage [closed]"]
     n15["bob-cli-a0.12: bob-cli README becomes a front door [closed]"]
-    n16["bob-cli-a0.13: llms.txt, reader tests, final sweep, and handoff [in_progress]"]
+    n16["bob-cli-a0.13: llms.txt, reader tests, final sweep, and handoff [closed]"]
     n17["bob-cli-a0.2: Docs toolchain, contracts in place, and gates [closed]"]
     n18["bob-cli-a0.2.1: Complete the Bob documentation toolchain and contract site [closed]"]
     n19["bob-cli-a0.2.1.1: Build the docs package and contract site foundation [closed]"]
@@ -228,7 +244,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.land.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.12.md) | [bob-cli-a0.12](bob-cli-a0.12.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.13/README.md) | [bob-cli-a0.13](bob-cli-a0.13.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.13](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.13.md) | [bob-cli-a0.13](bob-cli-a0.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.md) | [bob-cli-a0.2](bob-cli-a0.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.1/README.md) | [bob-cli-a0.2.1.1](bob-cli-a0.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.2/README.md) | [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) | 1 |
@@ -262,7 +278,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.1.land.md) | [bob-cli-a0.7.1](bob-cli-a0.7.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.8.md) | [bob-cli-a0.8](bob-cli-a0.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.9.md) | [bob-cli-a0.9](bob-cli-a0.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.land/README.md) | [bob-cli-a0](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.land.md) | [bob-cli-a0](README.md) | 1 |
 
 ## Commits
 
@@ -311,6 +327,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@b9859d9`](https://github.com/bobs-org/bob-cli--plans/commit/b9859d96d0109d66e13def962c1df57bff396781) | chore(plans): mark mac\_capture\_reference done | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:15:52 EDT |
 | bob-cli | [`10019f6`](https://github.com/bobs-org/bob-cli/commit/10019f635d6b79ecaff5033c464dc7de0bf1a3ad) | fix(docs): close gated publication with rollback, record CAS, and runbook fixes | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2026-10-20 10:15:36 EDT |
 | bob-cli--plans | [`bob-cli--plans@1c1765b`](https://github.com/bobs-org/bob-cli--plans/commit/1c1765bc6e72de7d2df39b90038489bac4f03f07) | chore(docs): mark gated publication epic plan done | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2026-10-20 10:16:50 EDT |
+| bob-cli | [`4f6e475`](https://github.com/bobs-org/bob-cli/commit/4f6e4753920008e3344697a15defd327575f82b5) | feat(docs): land bob public docs site with offline edit-link gate | [bob-cli-a0](README.md) | 2026-10-20 18:05:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -320,10 +337,12 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:12a][1] | Context for why the docs site 404s and what deployment work was done | 1 |
 | read-by | [agent:12c][2] | Find Zensical-related decisions or follow-ups for the Zensical research report | 1 |
-| read-by | [agent:bob-cli-a0.10.1.land--1][3] | Final verification that outer epic remains open | 2 |
+| read-by | [agent:9m--1][3] | Need epic and phase notes for handoff step 6 | 1 |
+| read-by | [agent:bob-cli-a0.10.1.land--1][4] | Final verification that outer epic remains open | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12a/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12c/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.9m.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md
 
 <!-- sase:referenced-by:end -->

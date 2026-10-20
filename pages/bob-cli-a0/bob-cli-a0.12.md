@@ -17,7 +17,7 @@ front-door: give every remaining bob-cli README section a site home, then rewrit
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.13](bob-cli-a0.13.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.13](bob-cli-a0.13.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.6](bob-cli-a0.6.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.7](bob-cli-a0.7.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.8](bob-cli-a0.8.md) ✓ · ⧖ 2026-10-19
