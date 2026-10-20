@@ -14,7 +14,7 @@ docs: teach `=name` as the primary spelling in the capture contract, syntax refe
 ## Dependencies
 
 - **Depends on:** [bob-cli-a7.1](bob-cli-a7.1.md) ✓ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a7.2](bob-cli-a7.2.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a7.2](bob-cli-a7.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

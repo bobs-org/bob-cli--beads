@@ -17,7 +17,7 @@ standalone: lex `=name` as the `=#name` named start (shared bare-name predicate,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a7.2](bob-cli-a7.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a7.2](bob-cli-a7.2.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a7.3](bob-cli-a7.3.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
@@ -31,3 +31,15 @@ standalone: lex `=name` as the `=#name` named start (shared bare-name predicate,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`18c16f3`](https://github.com/bobs-org/bob-cli/commit/18c16f3dae2b64fdc2bbabdd71ee83c68da381af) | feat(capture): lex =name as the named pomodoro start | [bob-cli-a7.1](bob-cli-a7.1.md) | 2026-10-20 16:09:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a7.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a7.1/README.md
+
+<!-- sase:referenced-by:end -->
