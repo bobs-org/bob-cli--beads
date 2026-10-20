@@ -13,7 +13,7 @@ cli-media: reuse the isolated tutorial environment for real PTY captures, render
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a0.6.1.2](bob-cli-a0.6.1.2.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.6.1.2](bob-cli-a0.6.1.2.md) ○ · ⧖ 2026-10-19
 
 ## Agents
 

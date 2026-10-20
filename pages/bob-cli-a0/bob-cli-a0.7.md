@@ -11,6 +11,10 @@
 
 reference-pages: write Capture syntax with a token index, Vault format, Configuration and environment, and JSON outputs, plus env-var drift and search smoke coverage.
 
+## Notes
+
+[2026-10-20T04:01:58Z · bob-cli-a0.7.1.land] Child-epic landing audit at f30389c7: all three product-reference phases are closed and their notes reviewed, with zero PROPOSED FOLLOW-UP entries. The four pages and nav exist, 65 focused environment/token/lint tests pass, and both child/parent epic-symbol scans are empty. Completion is blocked by epic-caused scanner delimiter bugs (string braces hide production names or leak test names), inaccurate/incomplete JSON command descriptions, missing per-operation capture examples/literal-query enforcement, and plugin checkout selection wording. A validated medium remaining-work tale is being proposed; it must repair these gaps, integrate the newer tutorial/demo/sandbox, run just check and docs gates, close bob-cli-a0.7.1, mark product_reference.md done, and then close only this phase normally. bob-cli-a0 remains for its waiting land agent. No unrelated follow-up task is needed.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.12](bob-cli-a0.12.md) ◐ · ⧖ 2026-10-19

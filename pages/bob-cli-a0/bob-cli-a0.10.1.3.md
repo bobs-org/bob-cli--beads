@@ -22,7 +22,7 @@ plugin-pages: move the plugin-specific README details into seven usable referenc
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.10.1.4](bob-cli-a0.10.1.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.10.1.4](bob-cli-a0.10.1.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

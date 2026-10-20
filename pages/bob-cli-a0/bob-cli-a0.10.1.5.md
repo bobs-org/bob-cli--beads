@@ -14,7 +14,7 @@ site-integration: add the two mounts, site entry links, generated-content gate i
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.10.1.1](bob-cli-a0.10.1.1.md) ✓ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-a0.10.1.4](bob-cli-a0.10.1.4.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.10.1.4](bob-cli-a0.10.1.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
