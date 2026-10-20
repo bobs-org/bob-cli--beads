@@ -14,7 +14,7 @@ ci: add .github/workflows/ci.yml (push, ci/** branches, dispatch, workflow_call 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ac.1](bob-cli-ac.1.md) ✓ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-ac.2](bob-cli-ac.2.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ac.2](bob-cli-ac.2.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ac.4](bob-cli-ac.4.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

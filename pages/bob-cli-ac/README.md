@@ -16,7 +16,7 @@ bob-cli has hermetic per-push CI on Linux and macOS and a renamed, trimmed packa
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ac.1](bob-cli-ac.1.md) | Hermetic test suite and pinned toolchain | ✓ closed | small | 2026-10-20 | 1 | 1 |
-| [bob-cli-ac.2](bob-cli-ac.2.md) | Package rename, metadata, trim, size budget, and install migration | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [bob-cli-ac.2](bob-cli-ac.2.md) | Package rename, metadata, trim, size budget, and install migration | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.3](bob-cli-ac.3.md) | Reusable per-push CI workflow brought green on GitHub | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [bob-cli-ac.4](bob-cli-ac.4.md) | release-plz train in git\_only rehearsal mode | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [bob-cli-ac.5](bob-cli-ac.5.md) | GitHub setup and first rehearsal release | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
@@ -30,7 +30,7 @@ bob-cli has hermetic per-push CI on Linux and macOS and a renamed, trimmed packa
 flowchart TD
     n0["bob-cli-ac: Daily release train for bob-cli (CI, package hygiene, release-plz rehearsal, docs) [in_progress]"]
     n1["bob-cli-ac.1: Hermetic test suite and pinned toolchain [closed]"]
-    n2["bob-cli-ac.2: Package rename, metadata, trim, size budget, and install migration [in_progress]"]
+    n2["bob-cli-ac.2: Package rename, metadata, trim, size budget, and install migration [closed]"]
     n3["bob-cli-ac.3: Reusable per-push CI workflow brought green on GitHub [in_progress]"]
     n4["bob-cli-ac.4: release-plz train in git_only rehearsal mode [in_progress]"]
     n5["bob-cli-ac.5: GitHub setup and first rehearsal release [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ac.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.1/README.md) | [bob-cli-ac.1](bob-cli-ac.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ac.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.2.md) | [bob-cli-ac.2](bob-cli-ac.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ac.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.2.md) | [bob-cli-ac.2](bob-cli-ac.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.3/README.md) | [bob-cli-ac.3](bob-cli-ac.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ac.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md) | [bob-cli-ac.4](bob-cli-ac.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ac.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.5/README.md) | [bob-cli-ac.5](bob-cli-ac.5.md) | 0 |
@@ -74,3 +74,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9a0fb95`](https://github.com/bobs-org/bob-cli/commit/9a0fb957a810b314d8a9ef11ca67d95632651f48) | build: pin Rust toolchain and hermeticize tests | [bob-cli-ac.1](bob-cli-ac.1.md) | 2026-10-20 19:17:21 EDT |
+| bob-cli | [`eabd291`](https://github.com/bobs-org/bob-cli/commit/eabd291506814b5b8591c7dd211201b455e73ef5) | feat(package): prepare bob-obsidian 0.2.0 release package | [bob-cli-ac.2](bob-cli-ac.2.md) | 2026-10-20 19:23:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ac.1][1] | Need epic decisions and phase notes to implement hermetic test scope | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.1/README.md
+
+<!-- sase:referenced-by:end -->
