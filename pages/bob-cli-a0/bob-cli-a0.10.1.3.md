@@ -43,7 +43,9 @@ plugin-pages: move the plugin-specific README details into seven usable referenc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.10.1.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-a0.10.1.land--1][2] | Need plugin-page phase verification evidence for the child epic close note | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md
 
 <!-- sase:referenced-by:end -->

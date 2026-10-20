@@ -44,7 +44,9 @@ site-integration: add the two mounts, site entry links, generated-content gate i
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.10.1.5][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-a0.10.1.land--1][2] | Need integration phase verification evidence for the child epic close note | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md
 
 <!-- sase:referenced-by:end -->

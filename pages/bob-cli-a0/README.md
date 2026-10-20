@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_public_docs_site.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_public_docs_site.md
 
 <!-- sase:links:end -->
@@ -49,7 +51,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 | [bob-cli-a0.6](bob-cli-a0.6.md) | Demo vault, tested tutorial, and the Learn path | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.7](bob-cli-a0.7.md) | Hand-written product reference | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.8](bob-cli-a0.8.md) | Goal-titled guides and component tags | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
-| [bob-cli-a0.9](bob-cli-a0.9.md) | Concept pages | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
+| [bob-cli-a0.9](bob-cli-a0.9.md) | Concept pages | ✓ closed | large | 2026-10-19 | 1 | 0 |
 
 ## Lineage
 
@@ -99,7 +101,7 @@ flowchart TD
     n41["bob-cli-a0.7.1.2: Configuration reference and environment drift guard [closed]"]
     n42["bob-cli-a0.7.1.3: JSON output catalog and reference integration [closed]"]
     n43["bob-cli-a0.8: Goal-titled guides and component tags [in_progress]"]
-    n44["bob-cli-a0.9: Concept pages [in_progress]"]
+    n44["bob-cli-a0.9: Concept pages [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -201,7 +203,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md) | [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.4/README.md) | [bob-cli-a0.10.1.4](bob-cli-a0.10.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.5/README.md) | [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11/README.md) | [bob-cli-a0.11](bob-cli-a0.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.12/README.md) | [bob-cli-a0.12](bob-cli-a0.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.13/README.md) | [bob-cli-a0.13](bob-cli-a0.13.md) | 0 |
@@ -280,3 +282,16 @@ flowchart TD
 | bob-cli | [`928c195`](https://github.com/bobs-org/bob-cli/commit/928c1955e1f3f63a579cddd25162298e60e25c6b) | feat(docs): repair Learn sandbox, PTY, reader, and compatibility gaps | [bob-cli-a0.6.1](bob-cli-a0.6.1.md) | 2026-10-20 01:44:17 EDT |
 | bob-cli--plans | [`bob-cli--plans@14e367e`](https://github.com/bobs-org/bob-cli--plans/commit/14e367efc3dafdd7e4e4dd682f8b893e31f31296) | chore(plans): mark 202610/learn\_path.md done | [bob-cli-a0.6.1](bob-cli-a0.6.1.md) | 2026-10-20 01:45:41 EDT |
 | bob-cli | [`417291e`](https://github.com/bobs-org/bob-cli/commit/417291eb618476ced319a510ee9a2bc38ed004c5) | docs(reference): fix plugin links and validate published docs | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2026-10-20 02:07:09 EDT |
+| bob-plugins | [`bob-plugins@ff36987`](https://github.com/bobs-org/bob-plugins/commit/ff369873dab5b34c853b4201c6816ef1f362d6b8) | feat(docs): expand plugin reference and inventory checks | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2026-10-20 02:20:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.10.1.land--1][1] | Final verification that outer epic remains open | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md
+
+<!-- sase:referenced-by:end -->

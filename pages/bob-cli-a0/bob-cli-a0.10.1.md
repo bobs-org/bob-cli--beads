@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/plugin_reference.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/plugin_reference.md
 
@@ -41,13 +41,14 @@ The approved plan `202610/plugin_reference.md` is now marked `status: done`. `ju
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`417291e`](https://github.com/bobs-org/bob-cli/commit/417291eb618476ced319a510ee9a2bc38ed004c5) | docs(reference): fix plugin links and validate published docs | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2026-10-20 02:07:09 EDT |
+| bob-plugins | [`bob-plugins@ff36987`](https://github.com/bobs-org/bob-plugins/commit/ff369873dab5b34c853b4201c6816ef1f362d6b8) | feat(docs): expand plugin reference and inventory checks | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2026-10-20 02:20:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -58,9 +59,11 @@ The approved plan `202610/plugin_reference.md` is now marked `status: done`. `ju
 | read-by | [agent:bob-cli-a0.10.1.1][1] | Need epic DECISIONS that this phase must honor | 2 |
 | read-by | [agent:bob-cli-a0.10.1.2][2] | Review the epic decisions governing this implementation | 1 |
 | read-by | [agent:bob-cli-a0.10.1.3][3] | Need parent epic DECISIONS and phase scope | 1 |
+| read-by | [agent:bob-cli-a0.10.1.land--1][4] | Need assigned phase scope and children before closing the approved land phase | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md
 
 <!-- sase:referenced-by:end -->
