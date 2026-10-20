@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/docs_gated_publication.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_gated_publication.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Complete the publish scope of bob-cli-a0.5: ship reusable publication and weekly
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.land/README.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.5.1.1][1] | Need binding decisions and prior phase notes for this implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

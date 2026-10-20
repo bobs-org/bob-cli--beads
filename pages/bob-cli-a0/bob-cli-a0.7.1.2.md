@@ -17,7 +17,7 @@ configuration-guard: document configuration keys and public environment variable
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.7.1.3](bob-cli-a0.7.1.3.md) ○ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.7.1.3](bob-cli-a0.7.1.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
