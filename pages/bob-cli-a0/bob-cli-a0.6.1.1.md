@@ -19,7 +19,7 @@ tutorial: build the date-independent demo vault and isolated Bash-fence runner, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.6.1.2](bob-cli-a0.6.1.2.md) ○ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.6.1.2](bob-cli-a0.6.1.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
