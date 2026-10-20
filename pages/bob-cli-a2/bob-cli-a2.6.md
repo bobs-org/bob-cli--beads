@@ -24,4 +24,10 @@ capture-complete: add contexts relation_to, relation_from, and relation_label; r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.6/README.md) | [bob-cli-a2.6](bob-cli-a2.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.6/README.md) | [bob-cli-a2.6](bob-cli-a2.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`fa9669d`](https://github.com/bobs-org/bob-cli/commit/fa9669dd2a09caf4077ebdf9ef8bc7c39cc95a33) | feat(capture): implement task relation completion | [bob-cli-a2.6](bob-cli-a2.6.md) | 2026-10-20 11:26:44 EDT |
