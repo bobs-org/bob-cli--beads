@@ -92,13 +92,19 @@ docs-check: all implemented gates passed (228 passed, 3 skipped); epic-symbol ch
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.5.1.2](bob-cli-a0.5.1.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.5.1.2](bob-cli-a0.5.1.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.1/README.md) | [bob-cli-a0.5.1.1](bob-cli-a0.5.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.1/README.md) | [bob-cli-a0.5.1.1](bob-cli-a0.5.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d18b45d`](https://github.com/bobs-org/bob-cli/commit/d18b45de847928e326b73bba2b7846a154d521e9) | feat(docs): add publication source planner | [bob-cli-a0.5.1.1](bob-cli-a0.5.1.1.md) | 2026-10-19 23:46:59 EDT |
 
 <!-- sase:referenced-by:start -->
 
