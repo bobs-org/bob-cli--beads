@@ -19,7 +19,7 @@ panel_switch: add the coordinator switch, Ctrl+Tab routing in both panels with a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a8.2](bob-cli-a8.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a8.2](bob-cli-a8.2.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a8.3](bob-cli-a8.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents

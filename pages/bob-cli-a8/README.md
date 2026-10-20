@@ -28,7 +28,7 @@ Ctrl+Tab (and Ctrl+Shift+Tab) in either Bob Mac Capture panel switches to the ot
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-a8.1](bob-cli-a8.1.md) | Ctrl+Tab panel switch with preserved state | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-a8.2](bob-cli-a8.2.md) | Capture show, keystroke, and refresh optimizations | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [bob-cli-a8.2](bob-cli-a8.2.md) | Capture show, keystroke, and refresh optimizations | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-a8.3](bob-cli-a8.3.md) | Refs show, keystroke, ranking, and refresh optimizations | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 
 ## Lineage
@@ -37,7 +37,7 @@ Ctrl+Tab (and Ctrl+Shift+Tab) in either Bob Mac Capture panel switches to the ot
 flowchart TD
     n0["bob-cli-a8: Bob Mac Capture Ctrl+Tab panel switch and show-path performance [in_progress]"]
     n1["bob-cli-a8.1: Ctrl+Tab panel switch with preserved state [closed]"]
-    n2["bob-cli-a8.2: Capture show, keystroke, and refresh optimizations [in_progress]"]
+    n2["bob-cli-a8.2: Capture show, keystroke, and refresh optimizations [closed]"]
     n3["bob-cli-a8.3: Refs show, keystroke, ranking, and refresh optimizations [closed]"]
     n0 --> n1
     n0 --> n2
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-a8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.1/README.md) | [bob-cli-a8.1](bob-cli-a8.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-a8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.2/README.md) | [bob-cli-a8.2](bob-cli-a8.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-a8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.2/README.md) | [bob-cli-a8.2](bob-cli-a8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-a8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a8.3.md) | [bob-cli-a8.3](bob-cli-a8.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-a8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.land/README.md) | [bob-cli-a8](README.md) | 0 |
 
@@ -61,3 +61,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e99cec6`](https://github.com/bobs-org/bob-mac-capture/commit/e99cec6f7d35e78d07bad679b607aea54b3e6bd9) | feat(capture): add Ctrl+Tab panel switch with preserved state | [bob-cli-a8.1](bob-cli-a8.1.md) | 2026-10-20 18:04:17 EDT |
 | bob-mac-capture | [`bob-mac-capture@554c69e`](https://github.com/bobs-org/bob-mac-capture/commit/554c69eee19b5be1d0a7ce687dac04b40227d0f3) | perf(refs): optimize ranking and refresh paths | [bob-cli-a8.3](bob-cli-a8.3.md) | 2026-10-20 18:35:32 EDT |
+| bob-mac-capture | [`bob-mac-capture@1d5735a`](https://github.com/bobs-org/bob-mac-capture/commit/1d5735a67444ceb8a41ca3d81b9dfc7fa3634339) | perf(capture): coalesce show refresh and skip no-op publishes | [bob-cli-a8.2](bob-cli-a8.2.md) | 2026-10-20 18:51:08 EDT |

@@ -30,3 +30,15 @@ refs_perf: drop the unread published row rect, cache the filter field, coalesce 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@554c69e`](https://github.com/bobs-org/bob-mac-capture/commit/554c69eee19b5be1d0a7ce687dac04b40227d0f3) | perf(refs): optimize ranking and refresh paths | [bob-cli-a8.3](bob-cli-a8.3.md) | 2026-10-20 18:35:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a8.3--1][1] | Need the complete phase design reference and notes before closure | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a8.3.md
+
+<!-- sase:referenced-by:end -->
