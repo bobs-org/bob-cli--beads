@@ -40,7 +40,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 | [bob-cli-a0.13](bob-cli-a0.13.md) | llms.txt, reader tests, final sweep, and handoff | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.2](bob-cli-a0.2.md) | Docs toolchain, contracts in place, and gates | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.3](bob-cli-a0.3.md) | Bob visual identity and homepage | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
-| [bob-cli-a0.4](bob-cli-a0.4.md) | Generated CLI reference, glossary, and decisions | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
+| [bob-cli-a0.4](bob-cli-a0.4.md) | Generated CLI reference, glossary, and decisions | ○ open | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.5](bob-cli-a0.5.md) | Deploy repo, hourly gated publish, and launch | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.6](bob-cli-a0.6.md) | Demo vault, tested tutorial, and the Learn path | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.7](bob-cli-a0.7.md) | Hand-written product reference | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
@@ -70,7 +70,7 @@ flowchart TD
     n16["bob-cli-a0.2.1.7.2: Lint the assembled site, not the authored approximation [closed]"]
     n17["bob-cli-a0.2.1.7.3: Check fragments offline, widen mention scans, and finish templates [closed]"]
     n18["bob-cli-a0.3: Bob visual identity and homepage [in_progress]"]
-    n19["bob-cli-a0.4: Generated CLI reference, glossary, and decisions [in_progress]"]
+    n19["bob-cli-a0.4: Generated CLI reference, glossary, and decisions [open]"]
     n20["bob-cli-a0.5: Deploy repo, hourly gated publish, and launch [in_progress]"]
     n21["bob-cli-a0.6: Demo vault, tested tutorial, and the Learn path [in_progress]"]
     n22["bob-cli-a0.7: Hand-written product reference [in_progress]"]
@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.2.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.1/README.md) | [bob-cli-a0.2.1.7.1](bob-cli-a0.2.1.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.2/README.md) | [bob-cli-a0.2.1.7.2](bob-cli-a0.2.1.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.3/README.md) | [bob-cli-a0.2.1.7.3](bob-cli-a0.2.1.7.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.2.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.1.7.land.md) | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.2.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.1.7.land.md) | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.1.land.md) | [bob-cli-a0.2.1](bob-cli-a0.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.3/README.md) | [bob-cli-a0.3](bob-cli-a0.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.4/README.md) | [bob-cli-a0.4](bob-cli-a0.4.md) | 0 |
@@ -179,3 +179,4 @@ flowchart TD
 | bob-cli | [`5cbfea1`](https://github.com/bobs-org/bob-cli/commit/5cbfea1f38d605e840f8dad69551b9b9e71ac52d) | fix(docs): check fragments offline and finish authoring templates | [bob-cli-a0.2.1.7.3](bob-cli-a0.2.1.7.3.md) | 2026-10-19 21:25:17 EDT |
 | bob-cli | [`d5c98a2`](https://github.com/bobs-org/bob-cli/commit/d5c98a2a15e71f5ce814c98c7b10d8a19c6d3813) | fix(docs): lint the assembled documentation site | [bob-cli-a0.2.1.7.2](bob-cli-a0.2.1.7.2.md) | 2026-10-19 21:29:14 EDT |
 | bob-cli | [`701dd78`](https://github.com/bobs-org/bob-cli/commit/701dd78302657dc41d807331b809977608802738) | fix(docs): validate mount sources, ignores, cache, and live mirroring | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 2026-10-19 22:19:54 EDT |
+| bob-cli--plans | [`bob-cli--plans@94ca506`](https://github.com/bobs-org/bob-cli--plans/commit/94ca506b06b9263878c4691426b67f53e76c542b) | chore(plans): mark docs toolchain landing plans done | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 2026-10-19 22:20:46 EDT |
