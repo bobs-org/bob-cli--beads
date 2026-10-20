@@ -13,7 +13,7 @@ polish: enable llms.txt, run the agent reader test, fix label misses, do a final
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a0.10](bob-cli-a0.10.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.10](bob-cli-a0.10.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.11](bob-cli-a0.11.md) ◐ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.12](bob-cli-a0.12.md) ◐ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.5](bob-cli-a0.5.md) ◐ · ⧖ 2026-10-19

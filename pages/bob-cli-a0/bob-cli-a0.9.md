@@ -11,6 +11,10 @@
 
 concepts: write the remaining concept pages from the contracts and decision records, and point the homepage's Bob day strip at them.
 
+## Notes
+
+[2026-10-20T05:46:51Z · bob-cli-a0.9] PROPOSED FOLLOW-UP: Freshness decision context still lists an obsolete review roster — already tracked by bob-cli-5q and bob-cli-3y. During concept-page planning, docs/freshness.md sections 2/4 and src/native/freshness/state.rs Tier confirmed PRE → NEW → PROJECTS → PENDING → NEXT → RECURRING → TICKLER → ROTTEN → POST, with references using ordinary task freshness; decisions:review-walk-is-tiered still lists REFERENCES and omits RECURRING. tests/cli/freshness.rs covers recurring rows and ordinary references. Concept pages will describe the current contract and use the decision for its structural-tier rationale only; no memory edits are part of this phase.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.12](bob-cli-a0.12.md) ◐ · ⧖ 2026-10-19
@@ -20,4 +24,4 @@ concepts: write the remaining concept pages from the contracts and decision reco
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.9/README.md) | [bob-cli-a0.9](bob-cli-a0.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.9.md) | [bob-cli-a0.9](bob-cli-a0.9.md) | 0 |

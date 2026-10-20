@@ -11,6 +11,10 @@
 
 guides: harvest 10-15 goal-titled how-to guides from the README and contracts, add component tags, and generate the By component index.
 
+## Notes
+
+[2026-10-20T05:49:16Z · bob-cli-a0.8] PROPOSED FOLLOW-UP: Review-walk documentation sources disagree — glossary:task-freshness still lists a REFERENCES tier, while docs/freshness.md describes schema 14 with RECURRING and explicitly no separate reference tier. The guides plan calls for checking current behavior and avoiding a copied tier table. The epic land agent should triage reconciliation of the stale source; this phase does not authorize glossary or decision-memory edits.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.11](bob-cli-a0.11.md) ◐ · ⧖ 2026-10-19
@@ -22,4 +26,4 @@ guides: harvest 10-15 goal-titled how-to guides from the README and contracts, a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.8/README.md) | [bob-cli-a0.8](bob-cli-a0.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.8.md) | [bob-cli-a0.8](bob-cli-a0.8.md) | 0 |
