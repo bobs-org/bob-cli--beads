@@ -35,3 +35,15 @@ wire: register "Zoom image on cursor line", open the viewer from the resolver, r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@049f466`](https://github.com/bobs-org/bob-plugins/commit/049f4663d777a764cacbd69ae66a9503b8b7832f) | feat(bob-navigation-hotkeys): add read-only image zoom command | [bob-cli-a1.3](bob-cli-a1.3.md) | 2026-10-20 09:49:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a1.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a1.3/README.md
+
+<!-- sase:referenced-by:end -->
