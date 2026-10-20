@@ -23,4 +23,4 @@ learn: create the synthetic demo vault, tutorial runner, and CLI media; write th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6/README.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |

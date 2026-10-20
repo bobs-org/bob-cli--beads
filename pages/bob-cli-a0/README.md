@@ -33,7 +33,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-a0.1](bob-cli-a0.1.md) | Licenses and stale public claims | ✓ closed | small | 2026-10-19 | 1 | 1 |
+| [bob-cli-a0.1](bob-cli-a0.1.md) | Licenses and stale public claims | ✓ closed | small | 2026-10-19 | 1 | 2 |
 | [bob-cli-a0.10](bob-cli-a0.10.md) | Obsidian plugin reference in bob-plugins | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.11](bob-cli-a0.11.md) | Mac Capture reference in bob-mac-capture | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.12](bob-cli-a0.12.md) | bob-cli README becomes a front door | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
@@ -54,92 +54,150 @@ flowchart TD
     n0["bob-cli-a0: Bob public docs site on GitHub Pages [in_progress]"]
     n1["bob-cli-a0.1: Licenses and stale public claims [closed]"]
     n2["bob-cli-a0.10: Obsidian plugin reference in bob-plugins [in_progress]"]
-    n3["bob-cli-a0.11: Mac Capture reference in bob-mac-capture [in_progress]"]
-    n4["bob-cli-a0.12: bob-cli README becomes a front door [in_progress]"]
-    n5["bob-cli-a0.13: llms.txt, reader tests, final sweep, and handoff [in_progress]"]
-    n6["bob-cli-a0.2: Docs toolchain, contracts in place, and gates [closed]"]
-    n7["bob-cli-a0.2.1: Complete the Bob documentation toolchain and contract site [closed]"]
-    n8["bob-cli-a0.2.1.1: Build the docs package and contract site foundation [closed]"]
-    n9["bob-cli-a0.2.1.2: Assemble mounted sources with verified provenance [closed]"]
-    n10["bob-cli-a0.2.1.3: Enforce Bob's documentation contract [closed]"]
-    n11["bob-cli-a0.2.1.4: Protect published URLs and verify built links [closed]"]
-    n12["bob-cli-a0.2.1.5: Document authoring and add the approved memory note [closed]"]
-    n13["bob-cli-a0.2.1.6: Wire search and prove the complete docs gate [closed]"]
-    n14["bob-cli-a0.2.1.7: Finish the Bob docs toolchain landing fixes [closed]"]
-    n15["bob-cli-a0.2.1.7.1: Make mount assembly and serve safe and complete [closed]"]
-    n16["bob-cli-a0.2.1.7.2: Lint the assembled site, not the authored approximation [closed]"]
-    n17["bob-cli-a0.2.1.7.3: Check fragments offline, widen mention scans, and finish templates [closed]"]
-    n18["bob-cli-a0.3: Bob visual identity and homepage [closed]"]
-    n19["bob-cli-a0.4: Generated CLI reference, glossary, and decisions [closed]"]
-    n20["bob-cli-a0.5: Deploy repo, hourly gated publish, and launch [in_progress]"]
-    n21["bob-cli-a0.6: Demo vault, tested tutorial, and the Learn path [in_progress]"]
-    n22["bob-cli-a0.7: Hand-written product reference [in_progress]"]
-    n23["bob-cli-a0.8: Goal-titled guides and component tags [in_progress]"]
-    n24["bob-cli-a0.9: Concept pages [in_progress]"]
+    n3["bob-cli-a0.10.1: Publish the generated Obsidian plugin reference [in_progress]"]
+    n4["bob-cli-a0.10.1.1: Support source-owned mounted documentation hubs [in_progress]"]
+    n5["bob-cli-a0.10.1.2: Generate plugin facts and registered commands [closed]"]
+    n6["bob-cli-a0.10.1.3: Write the seven plugin reference pages [in_progress]"]
+    n7["bob-cli-a0.10.1.4: Preserve README topics and create the plugin front door [in_progress]"]
+    n8["bob-cli-a0.10.1.5: Mount the plugin reference and verify its complete workflow [in_progress]"]
+    n9["bob-cli-a0.11: Mac Capture reference in bob-mac-capture [in_progress]"]
+    n10["bob-cli-a0.12: bob-cli README becomes a front door [in_progress]"]
+    n11["bob-cli-a0.13: llms.txt, reader tests, final sweep, and handoff [in_progress]"]
+    n12["bob-cli-a0.2: Docs toolchain, contracts in place, and gates [closed]"]
+    n13["bob-cli-a0.2.1: Complete the Bob documentation toolchain and contract site [closed]"]
+    n14["bob-cli-a0.2.1.1: Build the docs package and contract site foundation [closed]"]
+    n15["bob-cli-a0.2.1.2: Assemble mounted sources with verified provenance [closed]"]
+    n16["bob-cli-a0.2.1.3: Enforce Bob's documentation contract [closed]"]
+    n17["bob-cli-a0.2.1.4: Protect published URLs and verify built links [closed]"]
+    n18["bob-cli-a0.2.1.5: Document authoring and add the approved memory note [closed]"]
+    n19["bob-cli-a0.2.1.6: Wire search and prove the complete docs gate [closed]"]
+    n20["bob-cli-a0.2.1.7: Finish the Bob docs toolchain landing fixes [closed]"]
+    n21["bob-cli-a0.2.1.7.1: Make mount assembly and serve safe and complete [closed]"]
+    n22["bob-cli-a0.2.1.7.2: Lint the assembled site, not the authored approximation [closed]"]
+    n23["bob-cli-a0.2.1.7.3: Check fragments offline, widen mention scans, and finish templates [closed]"]
+    n24["bob-cli-a0.3: Bob visual identity and homepage [closed]"]
+    n25["bob-cli-a0.4: Generated CLI reference, glossary, and decisions [closed]"]
+    n26["bob-cli-a0.5: Deploy repo, hourly gated publish, and launch [in_progress]"]
+    n27["bob-cli-a0.5.1: Launch Bob documentation with gated hourly GitHub Pages publishing [in_progress]"]
+    n28["bob-cli-a0.5.1.1: Publication source selection and manifest contracts [in_progress]"]
+    n29["bob-cli-a0.5.1.2: Gated reusable publication and recovery [in_progress]"]
+    n30["bob-cli-a0.5.1.3: Deploy repository templates and operator commands [in_progress]"]
+    n31["bob-cli-a0.5.1.4: Weekly fallback build and external link checks [in_progress]"]
+    n32["bob-cli-a0.5.1.5: Bootstrap the public host and prove publication safety [in_progress]"]
+    n33["bob-cli-a0.6: Demo vault, tested tutorial, and the Learn path [in_progress]"]
+    n34["bob-cli-a0.6.1: Complete the Bob Learn path [in_progress]"]
+    n35["bob-cli-a0.6.1.1: Synthetic demo vault and executable first-day tutorial [in_progress]"]
+    n36["bob-cli-a0.6.1.2: Learn continuations, system concept, and compatibility [in_progress]"]
+    n37["bob-cli-a0.6.1.3: Deterministic CLI media and Learn visual verification [in_progress]"]
+    n38["bob-cli-a0.7: Hand-written product reference [in_progress]"]
+    n39["bob-cli-a0.7.1: Bob hand-written product reference [in_progress]"]
+    n40["bob-cli-a0.7.1.1: Capture syntax and vault format reference [in_progress]"]
+    n41["bob-cli-a0.7.1.2: Configuration reference and environment drift guard [in_progress]"]
+    n42["bob-cli-a0.7.1.3: JSON output catalog and reference integration [in_progress]"]
+    n43["bob-cli-a0.8: Goal-titled guides and component tags [in_progress]"]
+    n44["bob-cli-a0.9: Concept pages [in_progress]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n6 --> n7
-    n7 --> n8
-    n7 --> n9
-    n7 --> n10
-    n7 --> n11
-    n7 --> n12
-    n7 --> n13
-    n7 --> n14
-    n14 --> n15
-    n14 --> n16
-    n14 --> n17
-    n0 --> n18
-    n0 --> n19
-    n0 --> n20
-    n0 --> n21
-    n0 --> n22
-    n0 --> n23
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n3 --> n8
+    n0 --> n9
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n12 --> n13
+    n13 --> n14
+    n13 --> n15
+    n13 --> n16
+    n13 --> n17
+    n13 --> n18
+    n13 --> n19
+    n13 --> n20
+    n20 --> n21
+    n20 --> n22
+    n20 --> n23
     n0 --> n24
-    n1 -.-> n20
-    n2 -.-> n5
-    n3 -.-> n5
-    n4 -.-> n5
-    n6 -.-> n18
-    n6 -.-> n19
-    n6 -.-> n20
-    n8 -.-> n9
-    n9 -.-> n10
+    n0 --> n25
+    n0 --> n26
+    n26 --> n27
+    n27 --> n28
+    n27 --> n29
+    n27 --> n30
+    n27 --> n31
+    n27 --> n32
+    n0 --> n33
+    n33 --> n34
+    n34 --> n35
+    n34 --> n36
+    n34 --> n37
+    n0 --> n38
+    n38 --> n39
+    n39 --> n40
+    n39 --> n41
+    n39 --> n42
+    n0 --> n43
+    n0 --> n44
+    n1 -.-> n26
+    n2 -.-> n11
+    n4 -.-> n8
+    n5 -.-> n6
+    n6 -.-> n7
+    n7 -.-> n8
     n9 -.-> n11
-    n10 -.-> n12
-    n10 -.-> n13
-    n11 -.-> n13
-    n12 -.-> n13
+    n10 -.-> n11
+    n12 -.-> n24
+    n12 -.-> n25
+    n12 -.-> n26
+    n14 -.-> n15
     n15 -.-> n16
-    n18 -.-> n2
-    n18 -.-> n20
-    n18 -.-> n21
-    n18 -.-> n22
-    n19 -.-> n2
-    n19 -.-> n20
-    n19 -.-> n21
-    n19 -.-> n22
-    n20 -.-> n5
-    n21 -.-> n4
-    n21 -.-> n23
-    n21 -.-> n24
-    n22 -.-> n4
-    n22 -.-> n23
-    n23 -.-> n3
-    n23 -.-> n4
-    n24 -.-> n4
+    n15 -.-> n17
+    n16 -.-> n18
+    n16 -.-> n19
+    n17 -.-> n19
+    n18 -.-> n19
+    n21 -.-> n22
+    n24 -.-> n2
+    n24 -.-> n26
+    n24 -.-> n33
+    n24 -.-> n38
+    n25 -.-> n2
+    n25 -.-> n26
+    n25 -.-> n33
+    n25 -.-> n38
+    n26 -.-> n11
+    n28 -.-> n29
+    n29 -.-> n30
+    n30 -.-> n31
+    n31 -.-> n32
+    n33 -.-> n10
+    n33 -.-> n43
+    n33 -.-> n44
+    n35 -.-> n36
+    n36 -.-> n37
+    n38 -.-> n10
+    n38 -.-> n43
+    n40 -.-> n42
+    n41 -.-> n42
+    n43 -.-> n9
+    n43 -.-> n10
+    n44 -.-> n10
 ```
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.1/README.md) | [bob-cli-a0.1](bob-cli-a0.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10/README.md) | [bob-cli-a0.10](bob-cli-a0.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.1/README.md) | [bob-cli-a0.1](bob-cli-a0.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-a0.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.md) | [bob-cli-a0.10](bob-cli-a0.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.1/README.md) | [bob-cli-a0.10.1.1](bob-cli-a0.10.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md) | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md) | [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.4/README.md) | [bob-cli-a0.10.1.4](bob-cli-a0.10.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.5/README.md) | [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.land/README.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11/README.md) | [bob-cli-a0.11](bob-cli-a0.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.12/README.md) | [bob-cli-a0.12](bob-cli-a0.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.13/README.md) | [bob-cli-a0.13](bob-cli-a0.13.md) | 0 |
@@ -157,9 +215,23 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.1.land.md) | [bob-cli-a0.2.1](bob-cli-a0.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.3.md) | [bob-cli-a0.3](bob-cli-a0.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.4/README.md) | [bob-cli-a0.4](bob-cli-a0.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5/README.md) | [bob-cli-a0.5](bob-cli-a0.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6/README.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-a0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7/README.md) | [bob-cli-a0.7](bob-cli-a0.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.5.md) | [bob-cli-a0.5](bob-cli-a0.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.1/README.md) | [bob-cli-a0.5.1.1](bob-cli-a0.5.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md) | [bob-cli-a0.5.1.2](bob-cli-a0.5.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.3/README.md) | [bob-cli-a0.5.1.3](bob-cli-a0.5.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md) | [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.land/README.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.1.1.md) | [bob-cli-a0.6.1.1](bob-cli-a0.6.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6.1.2/README.md) | [bob-cli-a0.6.1.2](bob-cli-a0.6.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6.1.3/README.md) | [bob-cli-a0.6.1.3](bob-cli-a0.6.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6.1.land/README.md) | [bob-cli-a0.6.1](bob-cli-a0.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.md) | [bob-cli-a0.7](bob-cli-a0.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.1/README.md) | [bob-cli-a0.7.1.1](bob-cli-a0.7.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.1.2.md) | [bob-cli-a0.7.1.2](bob-cli-a0.7.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.3/README.md) | [bob-cli-a0.7.1.3](bob-cli-a0.7.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.land/README.md) | [bob-cli-a0.7.1](bob-cli-a0.7.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.8/README.md) | [bob-cli-a0.8](bob-cli-a0.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.9/README.md) | [bob-cli-a0.9](bob-cli-a0.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.land/README.md) | [bob-cli-a0](README.md) | 0 |
@@ -169,6 +241,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c7df845`](https://github.com/bobs-org/bob-cli/commit/c7df845f34b8301434ebb616516da0578dd80073) | docs(license): adopt MIT license for public docs site | [bob-cli-a0.1](bob-cli-a0.1.md) | 2026-10-19 19:02:17 EDT |
+| bob-plugins | [`bob-plugins@bd6ff0a`](https://github.com/bobs-org/bob-plugins/commit/bd6ff0aeb9f05e87980138d1fa460e3ce5a57579) | docs(readme): correct stale public claims for seven-plugin public monorepo | [bob-cli-a0.1](bob-cli-a0.1.md) | 2026-10-19 19:03:51 EDT |
 | bob-cli | [`f0f6e0c`](https://github.com/bobs-org/bob-cli/commit/f0f6e0c533571e73adff866a0283ab2b3b7459d1) | feat(docs): build locked docs package and contract site foundation | [bob-cli-a0.2.1.1](bob-cli-a0.2.1.1.md) | 2026-10-19 19:20:48 EDT |
 | bob-cli | [`b0f3817`](https://github.com/bobs-org/bob-cli/commit/b0f38175748f6f6965adc52017f1793a949214bf) | feat(docs): implement mounts with production sources verification | [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) | 2026-10-19 19:37:09 EDT |
 | bob-cli | [`88fcca6`](https://github.com/bobs-org/bob-cli/commit/88fcca648a7c43064513a31cbdde09718da1134e) | feat(docs): protect published URLs and verify built links (bob-cli-a0.2.1.4) | [bob-cli-a0.2.1.4](bob-cli-a0.2.1.4.md) | 2026-10-19 19:49:21 EDT |
@@ -182,3 +255,4 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@94ca506`](https://github.com/bobs-org/bob-cli--plans/commit/94ca506b06b9263878c4691426b67f53e76c542b) | chore(plans): mark docs toolchain landing plans done | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 2026-10-19 22:20:46 EDT |
 | bob-cli | [`95db823`](https://github.com/bobs-org/bob-cli/commit/95db82308f2f04c876323aa2122035a93a120e34) | feat(docs): add golden CLI reference, glossary, and decisions pages | [bob-cli-a0.4](bob-cli-a0.4.md) | 2026-10-19 22:57:01 EDT |
 | bob-cli | [`f8ef162`](https://github.com/bobs-org/bob-cli/commit/f8ef1628621b8be6c8188eeb0e8ea0046bd007d9) | feat(docs): complete Bob visual identity and homepage | [bob-cli-a0.3](bob-cli-a0.3.md) | 2026-10-19 23:04:00 EDT |
+| bob-plugins | [`bob-plugins@be09382`](https://github.com/bobs-org/bob-plugins/commit/be093823dbcfe55346bbe0762b125593d420cbf1) | feat(docs): generate Obsidian plugin inventory and command references | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 2026-10-19 23:30:56 EDT |
