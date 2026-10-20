@@ -20,7 +20,7 @@ reader-path: complete the Get started pages, concepts hub and system diagram, co
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.6.1.1](bob-cli-a0.6.1.1.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.6.1.3](bob-cli-a0.6.1.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.6.1.3](bob-cli-a0.6.1.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
