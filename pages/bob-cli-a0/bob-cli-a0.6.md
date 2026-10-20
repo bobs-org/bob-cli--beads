@@ -21,7 +21,7 @@ learn: create the synthetic demo vault, tutorial runner, and CLI media; write th
 - **Depends on:** [bob-cli-a0.3](bob-cli-a0.3.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.4](bob-cli-a0.4.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.8](bob-cli-a0.8.md) ◐ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.9](bob-cli-a0.9.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.9](bob-cli-a0.9.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
