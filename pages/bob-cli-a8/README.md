@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-a8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.1/README.md) | [bob-cli-a8.1](bob-cli-a8.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-a8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.2/README.md) | [bob-cli-a8.2](bob-cli-a8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-a8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a8.3.md) | [bob-cli-a8.3](bob-cli-a8.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-a8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a8.land.md) | [bob-cli-a8](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-a8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a8.land.md) | [bob-cli-a8](README.md) | 2 |
 
 ## Commits
 
@@ -77,3 +77,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@554c69e`](https://github.com/bobs-org/bob-mac-capture/commit/554c69eee19b5be1d0a7ce687dac04b40227d0f3) | perf(refs): optimize ranking and refresh paths | [bob-cli-a8.3](bob-cli-a8.3.md) | 2026-10-20 18:35:32 EDT |
 | bob-mac-capture | [`bob-mac-capture@1d5735a`](https://github.com/bobs-org/bob-mac-capture/commit/1d5735a67444ceb8a41ca3d81b9dfc7fa3634339) | perf(capture): coalesce show refresh and skip no-op publishes | [bob-cli-a8.2](bob-cli-a8.2.md) | 2026-10-20 18:51:08 EDT |
 | bob-mac-capture | [`bob-mac-capture@b47f28b`](https://github.com/bobs-org/bob-mac-capture/commit/b47f28bfddeefa1347471ada0c116b1423b04c8b) | test(mac-capture): close out panel-switch verification with clock-driven refresh coverage | [bob-cli-a8](README.md) | 2026-10-20 19:28:50 EDT |
+| bob-cli--plans | [`bob-cli--plans@edd5be9`](https://github.com/bobs-org/bob-cli--plans/commit/edd5be99dfd5c8e9ea6148423872ac74349e393c) | docs(plans): mark mac\_capture\_panel\_switch\_and\_perf done | [bob-cli-a8](README.md) | 2026-10-20 19:30:04 EDT |
