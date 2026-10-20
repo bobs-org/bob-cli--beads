@@ -21,7 +21,7 @@ cli-core: add src/native/task_relations/ (LINKS and LINKED FROM parsers, label n
 
 - **Depends on:** [bob-cli-a2.1](bob-cli-a2.1.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.4](bob-cli-a2.4.md) ◐ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a2.5](bob-cli-a2.5.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.5](bob-cli-a2.5.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

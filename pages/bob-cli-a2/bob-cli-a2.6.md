@@ -14,7 +14,7 @@ capture-complete: add contexts relation_to, relation_from, and relation_label; r
 ## Dependencies
 
 - **Blocks:** [bob-cli-a2.13](bob-cli-a2.13.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.5](bob-cli-a2.5.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.5](bob-cli-a2.5.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
