@@ -218,7 +218,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.5/README.md) | [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.md) | [bob-cli-a0.11](bob-cli-a0.11.md) | 0 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md) | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md) | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md) | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.3/README.md) | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 0 |
@@ -306,6 +306,7 @@ flowchart TD
 | bob-cli | [`bae9468`](https://github.com/bobs-org/bob-cli/commit/bae9468d692c5c4e9a14ab73558b1d6c50b8787b) | feat(docs): add goal-titled guides and component tags | [bob-cli-a0.8](bob-cli-a0.8.md) | 2026-10-20 02:52:17 EDT |
 | bob-cli | [`f896652`](https://github.com/bobs-org/bob-cli/commit/f8966523c4f689914318bb0596bed975c3d7118c) | docs(readme): rewrite the GitHub README as a short site front door | [bob-cli-a0.12](bob-cli-a0.12.md) | 2026-10-20 03:24:34 EDT |
 | bob-cli | [`1f3b90e`](https://github.com/bobs-org/bob-cli/commit/1f3b90e5e90ab1891e42d52de8b6c4786e5ddbee) | docs(bob-cli): mount mac-capture reference pages and add hub landings | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:27:18 EDT |
+| bob-mac-capture | [`bob-mac-capture@1fff6aa`](https://github.com/bobs-org/bob-mac-capture/commit/1fff6aae33dc9add0812636185f54279d86cc6ee) | docs(mac-capture): extract reference pages from README baseline | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:28:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
