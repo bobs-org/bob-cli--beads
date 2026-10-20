@@ -41,7 +41,7 @@ Additional bounded documentation completion: remove the public develop/mac-captu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.land.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.land.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 3 |
 
 ## Commits
 
@@ -49,6 +49,7 @@ Additional bounded documentation completion: remove the public develop/mac-captu
 |---|---|---|---|---|
 | bob-cli | [`3f0b4a8`](https://github.com/bobs-org/bob-cli/commit/3f0b4a879cb1688f049a757c2c8b446bf51bc8ad) | docs(mac-capture): correct recovery claims and durable develop-hub guidance | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:13:10 EDT |
 | bob-mac-capture | [`bob-mac-capture@532c376`](https://github.com/bobs-org/bob-mac-capture/commit/532c376c7e1844909315732f68b96d68cf72207d) | docs(mac-capture): consolidate README front door, repair stale refs, correct retention and privacy | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:14:23 EDT |
+| bob-cli--plans | [`bob-cli--plans@b9859d9`](https://github.com/bobs-org/bob-cli--plans/commit/b9859d96d0109d66e13def962c1df57bff396781) | chore(plans): mark mac\_capture\_reference done | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:15:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
