@@ -18,7 +18,7 @@ lint: port the editorial checks and add root registration, nav completeness, por
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.2.1.5](bob-cli-a0.2.1.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.2.1.5](bob-cli-a0.2.1.5.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.2.1.6](bob-cli-a0.2.1.6.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
@@ -32,3 +32,15 @@ lint: port the editorial checks and add root registration, nav completeness, por
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e37cd4a`](https://github.com/bobs-org/bob-cli/commit/e37cd4a5c849e3922b830cf5fbe36926bb6ffddd) | feat(docs): add bob-docs lint for the documentation contract | [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) | 2026-10-19 20:12:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.2.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->
