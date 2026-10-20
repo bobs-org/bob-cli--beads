@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-a0.7.1](bob-cli-a0.7.1.md) / bob-cli-a0.7.1.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-a0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.md) · **Assignee:** `bob-cli-a0.7.1.1` · **Size:** medium
-**Created:** 2026-10-19 23:14:29 EDT
+**Created:** 2026-10-19 23:14:29 EDT · **Closed:** 2026-10-19 23:36:47 EDT
 **Plan:** [202610/product\_reference.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/product_reference.md)
 
 ## Description
 
 capture-vault: write the capture token index and vault-format reference, add their navigation and token/lane search cases, and verify examples in a synthetic vault.
+
+## Notes
+
+[2026-10-20T03:36:47Z · bob-cli-a0.7.1.1] Wrote docs/reference/capture-syntax.md (token index + per-token headings with explicit anchors) and docs/reference/vault-format.md (task-line anatomy, lane/field tables, Pending/Next headings, note types, directory tree). Added both pages to mkdocs.yml Reference nav and the Reference hub. search_smoke.yml covers every indexed capture token plus Pending/Next (57 cases). Verified representative bob capture examples in an isolated HOME/XDG synthetic vault with BOB_NOW=2026-10-20 12:00:00, TZ=UTC, BOB_REF_JOBS_KICK=off. just docs-check passed (lint, Zensical build, lychee, search smoke, 206 pytest). Built HTML shows bob-task anatomy, named token anchors, and #pending/#next. sase bead epic-symbols reported no leftovers.
 
 ## Dependencies
 
@@ -19,4 +23,10 @@ capture-vault: write the capture token index and vault-format reference, add the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.1/README.md) | [bob-cli-a0.7.1.1](bob-cli-a0.7.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.1/README.md) | [bob-cli-a0.7.1.1](bob-cli-a0.7.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`6f6841b`](https://github.com/bobs-org/bob-cli/commit/6f6841b523440c60b71c458adf851b08cd549c81) | docs(reference): add capture syntax and vault format pages | [bob-cli-a0.7.1.1](bob-cli-a0.7.1.1.md) | 2026-10-19 23:38:11 EDT |

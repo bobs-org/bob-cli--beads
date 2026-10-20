@@ -7,6 +7,18 @@
 **Created:** 2026-10-19 23:18:30 EDT
 **Plan:** [202610/docs\_gated\_publication.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_gated_publication.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/docs_gated_publication.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_gated_publication.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete the publish scope of bob-cli-a0.5: ship reusable publication and weekly workflows, bootstrap bobs-org/bobs-org.github.io, verify the live site, and demonstrate a broken-link drill followed by recovery without replacing the last good site. Record the run evidence for the assigned phase's land agent.
