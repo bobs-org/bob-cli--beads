@@ -278,7 +278,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.1.land.md) | [bob-cli-a0.7.1](bob-cli-a0.7.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.8.md) | [bob-cli-a0.8](bob-cli-a0.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.9.md) | [bob-cli-a0.9](bob-cli-a0.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.land.md) | [bob-cli-a0](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.land.md) | [bob-cli-a0](README.md) | 2 |
 
 ## Commits
 
@@ -328,6 +328,7 @@ flowchart TD
 | bob-cli | [`10019f6`](https://github.com/bobs-org/bob-cli/commit/10019f635d6b79ecaff5033c464dc7de0bf1a3ad) | fix(docs): close gated publication with rollback, record CAS, and runbook fixes | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2026-10-20 10:15:36 EDT |
 | bob-cli--plans | [`bob-cli--plans@1c1765b`](https://github.com/bobs-org/bob-cli--plans/commit/1c1765bc6e72de7d2df39b90038489bac4f03f07) | chore(docs): mark gated publication epic plan done | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2026-10-20 10:16:50 EDT |
 | bob-cli | [`4f6e475`](https://github.com/bobs-org/bob-cli/commit/4f6e4753920008e3344697a15defd327575f82b5) | feat(docs): land bob public docs site with offline edit-link gate | [bob-cli-a0](README.md) | 2026-10-20 18:05:31 EDT |
+| bob-cli--plans | [`bob-cli--plans@8f4e6e0`](https://github.com/bobs-org/bob-cli--plans/commit/8f4e6e0029f965ea36e66899934f7fed04fc9b73) | chore(plans): mark bob\_public\_docs\_site done | [bob-cli-a0](README.md) | 2026-10-20 18:06:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
