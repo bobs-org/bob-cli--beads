@@ -14,7 +14,7 @@ json-integration: catalog every public machine-readable command output, finish t
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.7.1.1](bob-cli-a0.7.1.1.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-a0.7.1.2](bob-cli-a0.7.1.2.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.7.1.2](bob-cli-a0.7.1.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

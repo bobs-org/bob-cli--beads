@@ -92,7 +92,7 @@ flowchart TD
     n38["bob-cli-a0.7: Hand-written product reference [in_progress]"]
     n39["bob-cli-a0.7.1: Bob hand-written product reference [in_progress]"]
     n40["bob-cli-a0.7.1.1: Capture syntax and vault format reference [in_progress]"]
-    n41["bob-cli-a0.7.1.2: Configuration reference and environment drift guard [in_progress]"]
+    n41["bob-cli-a0.7.1.2: Configuration reference and environment drift guard [closed]"]
     n42["bob-cli-a0.7.1.3: JSON output catalog and reference integration [in_progress]"]
     n43["bob-cli-a0.8: Goal-titled guides and component tags [in_progress]"]
     n44["bob-cli-a0.9: Concept pages [in_progress]"]
@@ -193,7 +193,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.1/README.md) | [bob-cli-a0.1](bob-cli-a0.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.md) | [bob-cli-a0.10](bob-cli-a0.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.1/README.md) | [bob-cli-a0.10.1.1](bob-cli-a0.10.1.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-a0.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md) | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md) | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.3/README.md) | [bob-cli-a0.10.1.3](bob-cli-a0.10.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.4/README.md) | [bob-cli-a0.10.1.4](bob-cli-a0.10.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.5/README.md) | [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) | 0 |
@@ -229,7 +229,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6.1.land/README.md) | [bob-cli-a0.6.1](bob-cli-a0.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.md) | [bob-cli-a0.7](bob-cli-a0.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.1/README.md) | [bob-cli-a0.7.1.1](bob-cli-a0.7.1.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-a0.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.1.2.md) | [bob-cli-a0.7.1.2](bob-cli-a0.7.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.7.1.2.md) | [bob-cli-a0.7.1.2](bob-cli-a0.7.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.3/README.md) | [bob-cli-a0.7.1.3](bob-cli-a0.7.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.7.1.land/README.md) | [bob-cli-a0.7.1](bob-cli-a0.7.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.8/README.md) | [bob-cli-a0.8](bob-cli-a0.8.md) | 0 |
@@ -255,4 +255,4 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@94ca506`](https://github.com/bobs-org/bob-cli--plans/commit/94ca506b06b9263878c4691426b67f53e76c542b) | chore(plans): mark docs toolchain landing plans done | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 2026-10-19 22:20:46 EDT |
 | bob-cli | [`95db823`](https://github.com/bobs-org/bob-cli/commit/95db82308f2f04c876323aa2122035a93a120e34) | feat(docs): add golden CLI reference, glossary, and decisions pages | [bob-cli-a0.4](bob-cli-a0.4.md) | 2026-10-19 22:57:01 EDT |
 | bob-cli | [`f8ef162`](https://github.com/bobs-org/bob-cli/commit/f8ef1628621b8be6c8188eeb0e8ea0046bd007d9) | feat(docs): complete Bob visual identity and homepage | [bob-cli-a0.3](bob-cli-a0.3.md) | 2026-10-19 23:04:00 EDT |
-| bob-plugins | [`bob-plugins@be09382`](https://github.com/bobs-org/bob-plugins/commit/be093823dbcfe55346bbe0762b125593d420cbf1) | feat(docs): generate Obsidian plugin inventory and command references | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 2026-10-19 23:30:56 EDT |
+| bob-cli | [`5d3ad7d`](https://github.com/bobs-org/bob-cli/commit/5d3ad7d0adcb32a128839eafe2f3dde10421ab00) | feat(docs): document configuration and guard environment drift | [bob-cli-a0.7.1.2](bob-cli-a0.7.1.2.md) | 2026-10-19 23:34:00 EDT |

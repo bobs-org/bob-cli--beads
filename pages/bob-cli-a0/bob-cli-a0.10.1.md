@@ -16,3 +16,15 @@ Complete bob-cli-a0.10 with source-owned documentation for all seven plugins, ge
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.land/README.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.10.1.2][1] | Review the epic decisions governing this implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md
+
+<!-- sase:referenced-by:end -->

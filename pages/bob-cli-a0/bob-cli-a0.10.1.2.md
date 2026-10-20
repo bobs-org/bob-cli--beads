@@ -25,10 +25,16 @@ inventory: implement the dependency-free static inventory scanner, generated doc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md) | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md) | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@be09382`](https://github.com/bobs-org/bob-plugins/commit/be093823dbcfe55346bbe0762b125593d420cbf1) | feat(docs): generate Obsidian plugin inventory and command references | [bob-cli-a0.10.1.2](bob-cli-a0.10.1.2.md) | 2026-10-19 23:30:56 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.10.1.2][1] | Review phase verification and follow-up before closure | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.10.1.2/README.md
+
+<!-- sase:referenced-by:end -->
