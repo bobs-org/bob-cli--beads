@@ -32,7 +32,7 @@ No README deletions, no Rust/JS/Swift behavior changes, no memory edits, no task
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.11](bob-cli-a0.11.md) ◐ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.12](bob-cli-a0.12.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.12](bob-cli-a0.12.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.6](bob-cli-a0.6.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.7](bob-cli-a0.7.md) ✓ · ⧖ 2026-10-19
 
