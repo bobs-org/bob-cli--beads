@@ -18,7 +18,7 @@ authoring: finish Writing docs and Build each repo, port five authoring template
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.2.1.6](bob-cli-a0.2.1.6.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.2.1.6](bob-cli-a0.2.1.6.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -31,3 +31,15 @@ authoring: finish Writing docs and Build each repo, port five authoring template
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`23f6b93`](https://github.com/bobs-org/bob-cli/commit/23f6b93c14277732fb9fa30e362add975d2a0045) | docs(authoring): add Bob documentation guidance and templates | [bob-cli-a0.2.1.5](bob-cli-a0.2.1.5.md) | 2026-10-19 20:21:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.2.1.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -19,7 +19,7 @@ lint: port the editorial checks and add root registration, nav completeness, por
 
 - **Depends on:** [bob-cli-a0.2.1.2](bob-cli-a0.2.1.2.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.2.1.5](bob-cli-a0.2.1.5.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.2.1.6](bob-cli-a0.2.1.6.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.2.1.6](bob-cli-a0.2.1.6.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
