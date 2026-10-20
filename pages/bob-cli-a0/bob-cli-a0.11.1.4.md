@@ -13,7 +13,7 @@ guides-front-door: Move both troubleshooting sections into goal-titled bob-cli F
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

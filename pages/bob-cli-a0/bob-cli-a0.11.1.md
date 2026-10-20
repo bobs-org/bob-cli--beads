@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/mac_capture_reference.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/mac_capture_reference.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-a0.11 with preserved Mac Capture reference, actionable recovery
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.11.1.1][1] | Need epic DECISIONS | 1 |
+| read-by | [agent:bob-cli-a0.11.1.2][2] | Need epic DECISIONS that this phase must honor | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md
 
 <!-- sase:referenced-by:end -->

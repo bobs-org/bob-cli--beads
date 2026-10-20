@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/docs_gated_publication.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_gated_publication.md
 
@@ -41,12 +41,14 @@ Complete the publish scope of bob-cli-a0.5: ship reusable publication and weekly
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-a0.5.1.1][1] | Need binding decisions and prior phase notes for this implementation | 1 |
-| read-by | [agent:bob-cli-a0.5.1.2][2] | need epic plan and decisions | 1 |
-| read-by | [agent:bob-cli-a0.5.1.4][3] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:12a][1] | Child epic status for docs launch; diagnosing 404 | 1 |
+| read-by | [agent:bob-cli-a0.5.1.1][2] | Need binding decisions and prior phase notes for this implementation | 1 |
+| read-by | [agent:bob-cli-a0.5.1.2][3] | need epic plan and decisions | 1 |
+| read-by | [agent:bob-cli-a0.5.1.4][4] | Need parent epic scope and decisions | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12a/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md
 
 <!-- sase:referenced-by:end -->

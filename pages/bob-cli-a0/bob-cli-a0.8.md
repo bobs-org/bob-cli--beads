@@ -47,3 +47,15 @@ No README deletions, no Rust/JS/Swift behavior changes, no memory edits, no task
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bae9468`](https://github.com/bobs-org/bob-cli/commit/bae9468d692c5c4e9a14ab73558b1d6c50b8787b) | feat(docs): add goal-titled guides and component tags | [bob-cli-a0.8](bob-cli-a0.8.md) | 2026-10-20 02:52:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:12c][1] | Find Zensical-related decisions or follow-ups for the Zensical research report | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12c/README.md
+
+<!-- sase:referenced-by:end -->

@@ -39,8 +39,10 @@ mounts: implement sibling discovery, safe copying, mount nav expansion, provenan
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-a0.2.1.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:12c][1] | Find Zensical-related decisions or follow-ups for the Zensical research report | 1 |
+| read-by | [agent:bob-cli-a0.2.1.2][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12c/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->
