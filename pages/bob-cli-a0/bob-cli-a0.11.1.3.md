@@ -22,7 +22,7 @@ rendered-media: Add Scripts/docs-media.sh to import a curated set of real synthe
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
