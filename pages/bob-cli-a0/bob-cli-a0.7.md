@@ -14,7 +14,7 @@ reference-pages: write Capture syntax with a token index, Vault format, Configur
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.12](bob-cli-a0.12.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-a0.3](bob-cli-a0.3.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.3](bob-cli-a0.3.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.4](bob-cli-a0.4.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.8](bob-cli-a0.8.md) ◐ · ⧖ 2026-10-19
 
