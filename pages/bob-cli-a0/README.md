@@ -27,6 +27,8 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 
 [2026-10-20T00:57:49Z · bob-cli-a0.2.1.land] DISCOVERED ISSUE: (from bob-cli-a0.2.1.land; proposed by phase bob-cli-a0.2.1.1 note #1) docs/highlights-create.md:117 now ends 'see the PDFKit and text-layer research.' as plain text. Foundation commit f0f6e0c5 removed its private link target research:202610/area_project_note_reading_pdfs/area_project_note_reading_pdfs.md, which is unpublishable and failed the strict public link gate. The page builds and passes docs-check, but the sentence points readers at nothing. Remediation needs Bryan's choice: cite a public source, summarize the finding inline, or drop the 'see' clause. A candidate public target is the decisions record proposed by ready task bob-cli-8p (annotated-pdfs-render-on-xelatex), once it is accepted and the outer epic publishes develop/decisions.md. No task bead was filed, because this epic owns the published-docs follow-through.
 
+[2026-10-20T01:38:34Z · bob-cli-a0.2.1.7.land] DISCOVERED ISSUE: corroboration from bob-cli-a0.2.1.7.land of bob-cli-a0.2.1.1 note #1. On master d5c98a2a, docs/highlights-create.md:117 still says see the PDFKit and text-layer research without a public target. just docs-check passes (168 tests), so this is publication follow-through already owned by your note #1, not a toolchain gate failure. Rechecked all-status task searches, the one-week task sweep, and active epics through /sase_new_task. No semantic duplicate: bob-cli-85 concerns PDF rendering defects; bob-cli-8p concerns recording the decision and is related but does not repair this public citation. No new task or memory edit; retain the outer epic ownership.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -36,7 +38,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 | [bob-cli-a0.11](bob-cli-a0.11.md) | Mac Capture reference in bob-mac-capture | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.12](bob-cli-a0.12.md) | bob-cli README becomes a front door | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.13](bob-cli-a0.13.md) | llms.txt, reader tests, final sweep, and handoff | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
-| [bob-cli-a0.2](bob-cli-a0.2.md) | Docs toolchain, contracts in place, and gates | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
+| [bob-cli-a0.2](bob-cli-a0.2.md) | Docs toolchain, contracts in place, and gates | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.3](bob-cli-a0.3.md) | Bob visual identity and homepage | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.4](bob-cli-a0.4.md) | Generated CLI reference, glossary, and decisions | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.5](bob-cli-a0.5.md) | Deploy repo, hourly gated publish, and launch | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
@@ -55,15 +57,15 @@ flowchart TD
     n3["bob-cli-a0.11: Mac Capture reference in bob-mac-capture [in_progress]"]
     n4["bob-cli-a0.12: bob-cli README becomes a front door [in_progress]"]
     n5["bob-cli-a0.13: llms.txt, reader tests, final sweep, and handoff [in_progress]"]
-    n6["bob-cli-a0.2: Docs toolchain, contracts in place, and gates [in_progress]"]
-    n7["bob-cli-a0.2.1: Complete the Bob documentation toolchain and contract site [in_progress]"]
+    n6["bob-cli-a0.2: Docs toolchain, contracts in place, and gates [closed]"]
+    n7["bob-cli-a0.2.1: Complete the Bob documentation toolchain and contract site [closed]"]
     n8["bob-cli-a0.2.1.1: Build the docs package and contract site foundation [closed]"]
     n9["bob-cli-a0.2.1.2: Assemble mounted sources with verified provenance [closed]"]
     n10["bob-cli-a0.2.1.3: Enforce Bob's documentation contract [closed]"]
     n11["bob-cli-a0.2.1.4: Protect published URLs and verify built links [closed]"]
     n12["bob-cli-a0.2.1.5: Document authoring and add the approved memory note [closed]"]
     n13["bob-cli-a0.2.1.6: Wire search and prove the complete docs gate [closed]"]
-    n14["bob-cli-a0.2.1.7: Finish the Bob docs toolchain landing fixes [in_progress]"]
+    n14["bob-cli-a0.2.1.7: Finish the Bob docs toolchain landing fixes [closed]"]
     n15["bob-cli-a0.2.1.7.1: Make mount assembly and serve safe and complete [closed]"]
     n16["bob-cli-a0.2.1.7.2: Lint the assembled site, not the authored approximation [closed]"]
     n17["bob-cli-a0.2.1.7.3: Check fragments offline, widen mention scans, and finish templates [closed]"]
@@ -151,7 +153,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.2.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.1/README.md) | [bob-cli-a0.2.1.7.1](bob-cli-a0.2.1.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.2/README.md) | [bob-cli-a0.2.1.7.2](bob-cli-a0.2.1.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.3/README.md) | [bob-cli-a0.2.1.7.3](bob-cli-a0.2.1.7.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.2.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.land/README.md) | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.2.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.1.7.land.md) | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.1.land.md) | [bob-cli-a0.2.1](bob-cli-a0.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.3/README.md) | [bob-cli-a0.3](bob-cli-a0.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.4/README.md) | [bob-cli-a0.4](bob-cli-a0.4.md) | 0 |
@@ -176,3 +178,4 @@ flowchart TD
 | bob-cli | [`2c50df5`](https://github.com/bobs-org/bob-cli/commit/2c50df5594a392e36b999be0968a0d14cce70d10) | feat(docs): make mount assembly and serve safe and complete | [bob-cli-a0.2.1.7.1](bob-cli-a0.2.1.7.1.md) | 2026-10-19 21:14:58 EDT |
 | bob-cli | [`5cbfea1`](https://github.com/bobs-org/bob-cli/commit/5cbfea1f38d605e840f8dad69551b9b9e71ac52d) | fix(docs): check fragments offline and finish authoring templates | [bob-cli-a0.2.1.7.3](bob-cli-a0.2.1.7.3.md) | 2026-10-19 21:25:17 EDT |
 | bob-cli | [`d5c98a2`](https://github.com/bobs-org/bob-cli/commit/d5c98a2a15e71f5ce814c98c7b10d8a19c6d3813) | fix(docs): lint the assembled documentation site | [bob-cli-a0.2.1.7.2](bob-cli-a0.2.1.7.2.md) | 2026-10-19 21:29:14 EDT |
+| bob-cli | [`701dd78`](https://github.com/bobs-org/bob-cli/commit/701dd78302657dc41d807331b809977608802738) | fix(docs): validate mount sources, ignores, cache, and live mirroring | [bob-cli-a0.2.1.7](bob-cli-a0.2.1.7.md) | 2026-10-19 22:19:54 EDT |

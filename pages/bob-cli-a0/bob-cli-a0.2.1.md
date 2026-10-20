@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-a0.2](bob-cli-a0.2.md) / bob-cli-a0.2.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-a0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.md) · **Assignee:** `bob-cli-a0.2.1.land`
-**Created:** 2026-10-19 19:05:37 EDT
+**Created:** 2026-10-19 19:05:37 EDT · **Closed:** 2026-10-19 22:17:14 EDT
 **Plan:** [202610/docs\_toolchain.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_toolchain.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/docs_toolchain.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/docs_toolchain.md
 
@@ -41,6 +41,8 @@ Planned as child epic sase_plan_docs_toolchain_landing_fixes.md (parent_bead bob
 - docs.md's decision-record row with no [[decisions]] link is a nit; no memory edit is authorized beyond the existing note.
 epic-symbols: none for bob-cli-a0.2.1 or bob-cli-a0.2; no symvision recipe in this repo.
 
+[2026-10-20T02:17:14Z · bob-cli-a0.2.1.7.land] Rechecked the previous landing audit, all descendant notes and linked plans (.1–.6 closed; child epic .7 closed after the four mount/serve fixes), completed landing fixes, post-child drift (none; origin/master still d5c98a2a), both strict builders, docs gates (185 tests), and unchanged Rust just check. All required descendants are complete and follow-up outcomes are recorded (PDFKit citation remains on bob-cli-a0; HTTP-only fragment follow-up declined). epic-symbols empty; no just symvision recipe.
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -58,13 +60,15 @@ epic-symbols: none for bob-cli-a0.2.1 or bob-cli-a0.2; no symvision recipe in th
 | read-by | [agent:bob-cli-a0.2.1.3][3] | Need inherited epic DECISIONS for lint phase | 1 |
 | read-by | [agent:bob-cli-a0.2.1.5][4] | Need epic decisions governing authoring and approved memory edit | 1 |
 | read-by | [agent:bob-cli-a0.2.1.6][5] | Need final epic decisions governing integration phase work | 1 |
-| read-by | [agent:bob-cli-a0.2.1.7.3][6] | Need the toolchain epic scope, decisions, and landing notes | 1 |
+| read-by | [agent:bob-cli-a0.2.1.7.2][6] | Need governing docs toolchain decisions | 2 |
+| read-by | [agent:bob-cli-a0.2.1.7.3][7] | Need the toolchain epic scope, decisions, and landing notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.3/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.5/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.6/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.2/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.3/README.md
 
 <!-- sase:referenced-by:end -->

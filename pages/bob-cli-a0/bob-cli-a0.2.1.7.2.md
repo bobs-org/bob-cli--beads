@@ -30,3 +30,15 @@ lint-contract: lint the expanded nav and verified mount provenance from the asse
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d5c98a2`](https://github.com/bobs-org/bob-cli/commit/d5c98a2a15e71f5ce814c98c7b10d8a19c6d3813) | fix(docs): lint the assembled documentation site | [bob-cli-a0.2.1.7.2](bob-cli-a0.2.1.7.2.md) | 2026-10-19 21:29:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.2.1.7.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.2.1.7.2/README.md
+
+<!-- sase:referenced-by:end -->
