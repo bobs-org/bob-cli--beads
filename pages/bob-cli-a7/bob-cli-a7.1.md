@@ -18,7 +18,7 @@ standalone: lex `=name` as the `=#name` named start (shared bare-name predicate,
 ## Dependencies
 
 - **Blocks:** [bob-cli-a7.2](bob-cli-a7.2.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a7.3](bob-cli-a7.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a7.3](bob-cli-a7.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

@@ -18,7 +18,7 @@ links: accept `=name` (and, under the shared answer, the full start token) in li
 ## Dependencies
 
 - **Depends on:** [bob-cli-a7.1](bob-cli-a7.1.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a7.3](bob-cli-a7.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a7.3](bob-cli-a7.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -31,3 +31,15 @@ links: accept `=name` (and, under the shared answer, the full start token) in li
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c300239`](https://github.com/bobs-org/bob-cli/commit/c300239ca3101aeac774664a64dee8f433ea4f00) | feat(capture): support bare Pomodoro names in links | [bob-cli-a7.2](bob-cli-a7.2.md) | 2026-10-20 16:58:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a7.2--2][1] | Need the phase scope, design file, and prior work notes before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a7.2.md
+
+<!-- sase:referenced-by:end -->
