@@ -19,7 +19,7 @@ capture-reference: Create the Mac reference and developer hubs, extract the capt
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -33,3 +33,15 @@ capture-reference: Create the Mac reference and developer hubs, extract the capt
 |---|---|---|---|---|
 | bob-cli | [`1f3b90e`](https://github.com/bobs-org/bob-cli/commit/1f3b90e5e90ab1891e42d52de8b6c4786e5ddbee) | docs(bob-cli): mount mac-capture reference pages and add hub landings | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:27:18 EDT |
 | bob-mac-capture | [`bob-mac-capture@1fff6aa`](https://github.com/bobs-org/bob-mac-capture/commit/1fff6aae33dc9add0812636185f54279d86cc6ee) | docs(mac-capture): extract reference pages from README baseline | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:28:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.11.1.1][1] | Need phase scope and design | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md
+
+<!-- sase:referenced-by:end -->
