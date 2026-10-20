@@ -26,10 +26,16 @@ nav-linked-from: add the reverse stage (⇧L, Ctrl+Shift+Alt+L, and Ctrl+Shift+P
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.12/README.md) | [bob-cli-a2.12](bob-cli-a2.12.md) | 1 |
+| [bbugyi200.athena.bob-cli-a2.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.12/README.md) | [bob-cli-a2.12](bob-cli-a2.12.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@3ba8bf9`](https://github.com/bobs-org/bob-plugins/commit/3ba8bf9a5c10db5eba871d186bf9818132e31414) | feat(navigation): add linked-from relation stage | [bob-cli-a2.12](bob-cli-a2.12.md) | 2026-10-20 12:13:16 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a2.12][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.12/README.md
+
+<!-- sase:referenced-by:end -->

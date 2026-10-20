@@ -26,13 +26,7 @@ chips: render live chips for both relation rows in Live Preview and Reading view
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.10/README.md) | [bob-cli-a2.10](bob-cli-a2.10.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@03bb94b`](https://github.com/bobs-org/bob-plugins/commit/03bb94b4b6a394a395588b6e92e8795514432af7) | feat(ledger-tools): render live LINKS and LINKED FROM chips | [bob-cli-a2.10](bob-cli-a2.10.md) | 2026-10-20 11:25:38 EDT |
+| [bbugyi200.athena.bob-cli-a2.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.10/README.md) | [bob-cli-a2.10](bob-cli-a2.10.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

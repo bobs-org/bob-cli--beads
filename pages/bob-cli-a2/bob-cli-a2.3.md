@@ -29,14 +29,13 @@ plugin-guards: add LK recognisers to nav, the cycler, block-id-prompt, and the l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.3.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.3.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b88a70e`](https://github.com/bobs-org/bob-cli/commit/b88a70e6dcbe80bd129bf83651d343736a254d33) | feat(glossary): add task relation terminology | [bob-cli-a2.3](bob-cli-a2.3.md) | 2026-10-20 10:02:57 EDT |
-| bob-plugins | [`bob-plugins@524bf72`](https://github.com/bobs-org/bob-plugins/commit/524bf72cdea5db90db62ca08898e00332fa3514b) | feat(plugins): guard task relation lines | [bob-cli-a2.3](bob-cli-a2.3.md) | 2026-10-20 10:18:06 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -30,3 +30,15 @@ nav-links-stage: add the Task Card row `l` and Ctrl+Shift+L, the Links stage (op
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-a2.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.11/README.md) | [bob-cli-a2.11](bob-cli-a2.11.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a2.12][1] | Check the closed prerequisite's deliverables before building the reverse stage | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.12/README.md
+
+<!-- sase:referenced-by:end -->
