@@ -219,7 +219,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.10.1.land.md) | [bob-cli-a0.10.1](bob-cli-a0.10.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.md) | [bob-cli-a0.11](bob-cli-a0.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md) | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md) | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md) | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.3/README.md) | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.land/README.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 0 |
@@ -302,6 +302,7 @@ flowchart TD
 | bob-cli | [`1f3b90e`](https://github.com/bobs-org/bob-cli/commit/1f3b90e5e90ab1891e42d52de8b6c4786e5ddbee) | docs(bob-cli): mount mac-capture reference pages and add hub landings | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:27:18 EDT |
 | bob-mac-capture | [`bob-mac-capture@1fff6aa`](https://github.com/bobs-org/bob-mac-capture/commit/1fff6aae33dc9add0812636185f54279d86cc6ee) | docs(mac-capture): extract reference pages from README baseline | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2026-10-20 03:28:32 EDT |
 | bob-cli | [`8ba2995`](https://github.com/bobs-org/bob-cli/commit/8ba29959d4aab047bff060c2bc082bbb92213803) | docs(mac-capture): wire application-reference hubs and search smoke | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2026-10-20 03:48:27 EDT |
+| bob-mac-capture | [`bob-mac-capture@3b944d8`](https://github.com/bobs-org/bob-mac-capture/commit/3b944d877a7a0890b29c2d8d5d93d2c677d4b9d5) | docs: extract install, settings, permissions, and Bob Refs reference | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2026-10-20 03:49:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
