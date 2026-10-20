@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a1.1/README.md) | [bob-cli-a1.1](bob-cli-a1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a1.2/README.md) | [bob-cli-a1.2](bob-cli-a1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a1.3/README.md) | [bob-cli-a1.3](bob-cli-a1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a1.land.md) | [bob-cli-a1](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a1.land.md) | [bob-cli-a1](README.md) | 2 |
 
 ## Commits
 
@@ -73,6 +73,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5e21b03`](https://github.com/bobs-org/bob-plugins/commit/5e21b03cb5152b3407da61e44111e0568cb3405e) | feat(navigation-hotkeys): add owned ImageZoomModal viewer for Z zoom | [bob-cli-a1.2](bob-cli-a1.2.md) | 2026-10-20 09:29:09 EDT |
 | bob-plugins | [`bob-plugins@049f466`](https://github.com/bobs-org/bob-plugins/commit/049f4663d777a764cacbd69ae66a9503b8b7832f) | feat(bob-navigation-hotkeys): add read-only image zoom command | [bob-cli-a1.3](bob-cli-a1.3.md) | 2026-10-20 09:49:11 EDT |
 | bob-plugins | [`bob-plugins@de66c7a`](https://github.com/bobs-org/bob-plugins/commit/de66c7aae06fc73a3407efdcc547abda35056391) | fix(nav-hotkeys): repair image-zoom resolver decoding, titles, and extensionless rule | [bob-cli-a1](README.md) | 2026-10-20 10:28:02 EDT |
+| bob-cli--plans | [`bob-cli--plans@e00b446`](https://github.com/bobs-org/bob-cli--plans/commit/e00b4461c056597c75d0983fcd64477759d59b85) | chore(plans): mark z\_image\_zoom done after resolver closeout | [bob-cli-a1](README.md) | 2026-10-20 10:28:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
