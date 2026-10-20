@@ -15,7 +15,7 @@ relation-index: build a raw-text relation index in bob-ledger-tools. It does a p
 
 - **Blocks:** [bob-cli-a2.10](bob-cli-a2.10.md) ◐ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-a2.11](bob-cli-a2.11.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

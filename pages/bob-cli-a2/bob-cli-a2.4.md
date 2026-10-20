@@ -15,7 +15,7 @@ cli-reconcile: collect relation edges from active notes, plus read-only previous
 
 - **Blocks:** [bob-cli-a2.15](bob-cli-a2.15.md) ◐ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-a2.2](bob-cli-a2.2.md) ✓ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

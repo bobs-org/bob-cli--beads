@@ -22,7 +22,7 @@ contract: write docs/task-relations.md (grammar, slot, identity, projection, ine
 ## Dependencies
 
 - **Blocks:** [bob-cli-a2.2](bob-cli-a2.2.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a2.3](bob-cli-a2.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a2.3](bob-cli-a2.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

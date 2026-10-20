@@ -14,7 +14,7 @@ nav-writer: add the JS twin of the LINKS / LINKED FROM planners (LW and LM bytes
 ## Dependencies
 
 - **Blocks:** [bob-cli-a2.11](bob-cli-a2.11.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a2.3](bob-cli-a2.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-a2](README.md) / bob-cli-a2.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.53.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.53.linker.w0.md) · **Assignee:** `bob-cli-a2.3` · **Size:** medium
-**Created:** 2026-10-20 09:08:22 EDT
+**Created:** 2026-10-20 09:08:22 EDT · **Closed:** 2026-10-20 10:02:10 EDT
 **Plan:** [202610/task\_relations.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_relations.md)
 
 ## Description
@@ -14,6 +14,8 @@ plugin-guards: add LK recognisers to nav, the cycler, block-id-prompt, and the l
 ## Notes
 
 [2026-10-20T13:58:06Z · bob-cli-a2.3--1] PROPOSED FOLLOW-UP: Fix the six npm test failures that reproduce unchanged on clean base 5e21b03: four unblocked-glyph tests (Live Preview glyph placement, widget mousedown, rebuild triggers, Reading view glyphs), Keep counts once and saturates at 999 without reset, and forward conversion carries a Depends-On line and reverse restores it. The assigned phase’s relation tests passed in the working tree.
+
+[2026-10-20T14:02:10Z · bob-cli-a2.3--1] Verified relation-line guards in the full plugin suite; six unrelated failures reproduce unchanged on clean base 5e21b03 and were recorded as a proposed follow-up. npm run validate passed; npm run docs:check passed with the completed docs environment; just docs-check passed (434 passed, 1 optional skip). Synced all four plugins. epic-symbols reported none.
 
 ## Dependencies
 
@@ -27,4 +29,10 @@ plugin-guards: add LK recognisers to nav, the cycler, block-id-prompt, and the l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.3.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-a2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a2.3.md) | [bob-cli-a2.3](bob-cli-a2.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`b88a70e`](https://github.com/bobs-org/bob-cli/commit/b88a70e6dcbe80bd129bf83651d343736a254d33) | feat(glossary): add task relation terminology | [bob-cli-a2.3](bob-cli-a2.3.md) | 2026-10-20 10:02:57 EDT |
