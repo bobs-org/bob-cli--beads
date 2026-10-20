@@ -42,7 +42,9 @@ application-reference: Extract the remaining application reference into install,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.11.1.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-a0.11.1.4][2] | Need prior phase notes, DECISIONS, and README-section mappings | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md
 
 <!-- sase:referenced-by:end -->

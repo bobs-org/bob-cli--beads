@@ -43,6 +43,19 @@ NEXT after this source lands on bob-cli origin/master AND bob-mac-capture origin
 8. Bootstrap preview remains a no-op; status matches live provenance.
 9. `sase bead epic-symbols bob-cli-a0.5.1.5` then close only this phase.
 
+[2026-10-20T11:48:56Z · 98] PROGRESS (2026-10-20): Existing runner/color fixes and all three repository README links have landed on source default branches. bob-cli base is 8ced873d7c2f6d1550168dcc17c4cfb7d116fa89. All four repository homepages are https://bobs-org.github.io/; host Pages uses workflow builds and both callers are active.
+
+Found and fixed further launch defects in the current worktree:
+- Verification and failure reporting referenced handoff/next-publication.json, but the uploaded handoff only contains published.json and urls.txt. Both now read the produced published.json.
+- Handoff staging used a dot directory excluded by upload-artifact v4 defaults; it now uses publish-handoff. Confirmed against actions/upload-artifact v4 source and documentation through an audited external checkout.
+- Documented just commands placed -- after the recipe, forwarding an invalid separator to bob-docs. Examples now put it before the recipe: just -- docs-publish --drill. Regression checks execute the handoff producer/consumer scripts and dry-run/parse all documented host commands. The new tests failed on the prior source and pass with these corrections.
+
+Verification: just docs-check ToolRun 0f898214edb24c9d84035fd3e282ab61 succeeded (146 pages, 411 URL mentions, 8 curated links, 105 search cases, tutorial/media, 425 tests passed). Focused workflow/command checks passed again after the final handoff adjustment: 26 passed. git diff --check passed. No epic-symbol entries.
+
+Host README correction was applied with authorized bootstrap; pushed host commit 4b3036187b852d46470aac0e2cbe53cd1da43b93. Repeat preview is a no-op and still preserves absent published.json. No successful publish exists yet. The six-file source fix must land before dispatch. Remaining acceptance is first publish/live provenance, unchanged no-op, drill preserving page/manifest hashes and opening one issue, ordinary recovery closing it, weekly success, and final status. Keep this phase and all ancestors open until those checks succeed.
+
+[2026-10-20T12:03:41Z · 98--1] PROGRESS (2026-10-20): Following the answered launch-commit gate, committed and pushed the six-file handoff/command fix as 8783d49822ea546261cfbc8f0862878e5854c600 with sase_git_commit (exit 0). Checkout is clean and HEAD equals origin/master; default-branch publish/weekly runners and corrected handoff paths are confirmed. Prior full docs-check ToolRun 0f898214edb24c9d84035fd3e282ab61 is succeeded/exit 0; focused workflow tests passed again, 26 passed, and git diff --check passed. Host bootstrap preview remains a no-op at host commit 4b3036187b852d46470aac0e2cbe53cd1da43b93; both callers are active, no published.json or live build.json exists yet, and there are no managed issues. Next is the first actual publish under a SASE monitor, then live provenance/URLs, unchanged no-op, drill, ordinary recovery, weekly, final status, consolidated evidence on bob-cli-a0.5, and close only bob-cli-a0.5.1.5. User authorization explicitly covers additional verified intermediate commits; do not ask again. SASE separately reported deferred/quarantined prompt-archive publication from a pre-existing agents-sidecar rebase conflict; the source commit itself completed and pushed successfully.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) ✓ · ⧖ 2026-10-19
@@ -67,9 +80,11 @@ NEXT after this source lands on bob-cli origin/master AND bob-mac-capture origin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:12a][1] | Host bootstrap phase status; diagnosing why site 404s | 1 |
-| read-by | [agent:bob-cli-a0.5.1.5][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:98--1][2] | Recover remaining live launch checks and closure requirements | 1 |
+| read-by | [agent:bob-cli-a0.5.1.5][3] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12a/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.98.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md
 
 <!-- sase:referenced-by:end -->

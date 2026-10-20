@@ -41,7 +41,7 @@ https://bobs-org.github.io/ serves one beautiful, Diátaxis-organized documentat
 |---|---|---|---|---|---:|---:|
 | [bob-cli-a0.1](bob-cli-a0.1.md) | Licenses and stale public claims | ✓ closed | small | 2026-10-19 | 1 | 2 |
 | [bob-cli-a0.10](bob-cli-a0.10.md) | Obsidian plugin reference in bob-plugins | ✓ closed | large | 2026-10-19 | 1 | 0 |
-| [bob-cli-a0.11](bob-cli-a0.11.md) | Mac Capture reference in bob-mac-capture | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
+| [bob-cli-a0.11](bob-cli-a0.11.md) | Mac Capture reference in bob-mac-capture | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.12](bob-cli-a0.12.md) | bob-cli README becomes a front door | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [bob-cli-a0.13](bob-cli-a0.13.md) | llms.txt, reader tests, final sweep, and handoff | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [bob-cli-a0.2](bob-cli-a0.2.md) | Docs toolchain, contracts in place, and gates | ✓ closed | large | 2026-10-19 | 1 | 0 |
@@ -66,8 +66,8 @@ flowchart TD
     n6["bob-cli-a0.10.1.3: Write the seven plugin reference pages [closed]"]
     n7["bob-cli-a0.10.1.4: Preserve README topics and create the plugin front door [closed]"]
     n8["bob-cli-a0.10.1.5: Mount the plugin reference and verify its complete workflow [closed]"]
-    n9["bob-cli-a0.11: Mac Capture reference in bob-mac-capture [in_progress]"]
-    n10["bob-cli-a0.11.1: Mac Capture reference, media, and documentation front door [in_progress]"]
+    n9["bob-cli-a0.11: Mac Capture reference in bob-mac-capture [closed]"]
+    n10["bob-cli-a0.11.1: Mac Capture reference, media, and documentation front door [closed]"]
     n11["bob-cli-a0.11.1.1: Extract capture, keyboard, and protocol reference and mount it [closed]"]
     n12["bob-cli-a0.11.1.2: Extract installation, settings, permissions, and Bob Refs reference [closed]"]
     n13["bob-cli-a0.11.1.3: Import CI panel images and add Mac documentation preview tooling [closed]"]
@@ -222,7 +222,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md) | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.3.md) | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.land/README.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.land.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.12.md) | [bob-cli-a0.12](bob-cli-a0.12.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.13/README.md) | [bob-cli-a0.13](bob-cli-a0.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.2.md) | [bob-cli-a0.2](bob-cli-a0.2.md) | 0 |
@@ -309,6 +309,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@ddea5df`](https://github.com/bobs-org/bob-mac-capture/commit/ddea5dfdf6f510a80fad044b82f1d077194adbfd) | docs(readme): add public site Get started, Reference, and Develop links | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:29:31 EDT |
 | bob-cli | [`8ced873`](https://github.com/bobs-org/bob-cli/commit/8ced873d7c2f6d1550168dcc17c4cfb7d116fa89) | docs: add Mac Capture Fix problems guides and retarget site links | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2026-10-20 07:30:27 EDT |
 | bob-mac-capture | [`bob-mac-capture@48c871a`](https://github.com/bobs-org/bob-mac-capture/commit/48c871af062c3f77fc2a639fff9b2f820a01a036) | docs: replace README with a front door and link recovery guides | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 2026-10-20 07:31:50 EDT |
+| bob-cli | [`3f0b4a8`](https://github.com/bobs-org/bob-cli/commit/3f0b4a879cb1688f049a757c2c8b446bf51bc8ad) | docs(mac-capture): correct recovery claims and durable develop-hub guidance | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:13:10 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -42,8 +42,10 @@ capture-reference: Create the Mac reference and developer hubs, extract the capt
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.11.1.1][1] | Need phase scope and design | 2 |
 | read-by | [agent:bob-cli-a0.11.1.2][2] | Need capture-reference mapping notes and what phase 1 already extracted | 1 |
+| read-by | [agent:bob-cli-a0.11.1.4][3] | Need prior phase notes, DECISIONS, and README-section mappings | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md
 
 <!-- sase:referenced-by:end -->
