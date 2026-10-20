@@ -39,7 +39,9 @@ publish-workflow: implement the workflow_call-only Pages publisher, staged broke
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-a0.5.1.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-a0.5.1.3][2] | Need what gated publication already landed for host-controls to call | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

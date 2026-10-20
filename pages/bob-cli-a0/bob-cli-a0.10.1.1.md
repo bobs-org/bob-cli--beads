@@ -17,7 +17,7 @@ mount-hubs: add compatible support for a mounted repository's index.md while pre
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.10.1.5](bob-cli-a0.10.1.5.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
