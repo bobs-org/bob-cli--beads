@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-a7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a7.1/README.md) | [bob-cli-a7.1](bob-cli-a7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-a7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a7.2.md) | [bob-cli-a7.2](bob-cli-a7.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-a7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a7.3/README.md) | [bob-cli-a7.3](bob-cli-a7.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-a7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a7.land.md) | [bob-cli-a7](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-a7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-a7.land.md) | [bob-cli-a7](README.md) | 2 |
 
 ## Commits
 
@@ -76,6 +76,7 @@ flowchart TD
 | bob-cli | [`c300239`](https://github.com/bobs-org/bob-cli/commit/c300239ca3101aeac774664a64dee8f433ea4f00) | feat(capture): support bare Pomodoro names in links | [bob-cli-a7.2](bob-cli-a7.2.md) | 2026-10-20 16:58:30 EDT |
 | bob-cli | [`a0ac845`](https://github.com/bobs-org/bob-cli/commit/a0ac8451643ba867ce105627a8e346734ade961f) | docs(capture): teach =name primary start-token spelling | [bob-cli-a7.3](bob-cli-a7.3.md) | 2026-10-20 17:22:17 EDT |
 | bob-cli | [`7a7c1bc`](https://github.com/bobs-org/bob-cli/commit/7a7c1bca60135fbf3c78696b3dd296f481f3c3b7) | feat(capture): finish bare Pomodoro link suffix validation and landing | [bob-cli-a7](README.md) | 2026-10-20 18:10:05 EDT |
+| bob-cli--plans | [`bob-cli--plans@dab7a27`](https://github.com/bobs-org/bob-cli--plans/commit/dab7a27d8c295e4451a521160012659dff068bb8) | docs(plans): mark bare Pomodoro names plan done after bob-cli-a7 landing | [bob-cli-a7](README.md) | 2026-10-20 18:11:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
