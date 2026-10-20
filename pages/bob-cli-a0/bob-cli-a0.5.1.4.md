@@ -31,3 +31,15 @@ weekly-checks: add the workflow_call-only weekly Material build and online lyche
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dadf073`](https://github.com/bobs-org/bob-cli/commit/dadf073491d7ad11a3b3e91e4134aafeb3a05857) | feat(docs): add weekly fallback build and online external link checks | [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) | 2026-10-20 00:57:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a0.5.1.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md
+
+<!-- sase:referenced-by:end -->

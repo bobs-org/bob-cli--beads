@@ -11,6 +11,10 @@
 
 launch: add the three README docs links, configure the authorized public host and homepages, run first publish, broken-link drill, normal recovery and weekly checks, and record live URL and provenance evidence.
 
+## Notes
+
+[2026-10-20T05:26:43Z · bob-cli-a0.5.1.5--3] Verification: monitor p00gkv9h54xj ran `just docs-check` to exit 0 on 2026-10-20, including strict Zensical build, published URL checks, offline fragment checks, search smoke, tutorial, media determinism, and documentation tests. The first `just docs-publish` attempt (monitor gq2v1b4t1rve) failed before a workflow run was accepted: GitHub HTTP 422 rejected the reusable `docs-publish.yml` because its five jobs lacked `runs-on`. Added `runs-on: ubuntu-latest` to all five publish jobs and both weekly jobs; the exact updated source passes docs-check. Changes are pending SASE finalization before the first actual publish.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) ✓ · ⧖ 2026-10-19

@@ -14,7 +14,7 @@ concepts: write the remaining concept pages from the contracts and decision reco
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.12](bob-cli-a0.12.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-a0.6](bob-cli-a0.6.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.6](bob-cli-a0.6.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
