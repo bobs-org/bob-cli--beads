@@ -44,3 +44,15 @@ rollout: install bob and the plugins on athena, then check that the live reconci
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`eefdeb4`](https://github.com/bobs-org/bob-cli/commit/eefdeb4717c003aeb23e09c9288f66fa36ee6203) | docs(relations): document relation usage and rollout | [bob-cli-a2.15](bob-cli-a2.15.md) | 2026-10-20 13:17:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a2.15][1] | Confirm whether this phase has prior notes before planning | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a2.15/README.md
+
+<!-- sase:referenced-by:end -->
