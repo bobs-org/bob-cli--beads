@@ -67,7 +67,9 @@ NEXT after this source lands on bob-cli origin/master AND bob-mac-capture origin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:12a][1] | Host bootstrap phase status; diagnosing why site 404s | 1 |
+| read-by | [agent:bob-cli-a0.5.1.5][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.12a/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md
 
 <!-- sase:referenced-by:end -->
