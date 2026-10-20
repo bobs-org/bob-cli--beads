@@ -13,7 +13,7 @@ launch: add the three README docs links, configure the authorized public host an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

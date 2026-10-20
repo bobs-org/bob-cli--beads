@@ -18,7 +18,7 @@ host-controls: implement thin caller templates, idempotent preview/apply host bo
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.5.1.2](bob-cli-a0.5.1.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
