@@ -244,7 +244,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md) | [bob-cli-a0.5.1.2](bob-cli-a0.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.3/README.md) | [bob-cli-a0.5.1.3](bob-cli-a0.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md) | [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.land/README.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.1.1.md) | [bob-cli-a0.6.1.1](bob-cli-a0.6.1.1.md) | 1 |
@@ -312,6 +312,7 @@ flowchart TD
 | bob-cli | [`d4b1ab3`](https://github.com/bobs-org/bob-cli/commit/d4b1ab31c3b24a97577ab2d0758a2000dbc00374) | docs(mac-capture): show mounted panel images and fix media lint | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2026-10-20 07:00:20 EDT |
 | bob-mac-capture | [`bob-mac-capture@bd9b1e2`](https://github.com/bobs-org/bob-mac-capture/commit/bd9b1e23374868b92b75f3d8a040c7a59308bd46) | docs: import synthetic CI panel renders and add preview tooling | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2026-10-20 07:02:17 EDT |
 | bob-cli | [`110624b`](https://github.com/bobs-org/bob-cli/commit/110624b8df65bd81853b0a55660f9a3da233e9da) | fix(docs): run reusable publish jobs on ubuntu-latest | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:28:11 EDT |
+| bob-mac-capture | [`bob-mac-capture@ddea5df`](https://github.com/bobs-org/bob-mac-capture/commit/ddea5dfdf6f510a80fad044b82f1d077194adbfd) | docs(readme): add public site Get started, Reference, and Develop links | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:29:31 EDT |
 
 <!-- sase:referenced-by:start -->
 

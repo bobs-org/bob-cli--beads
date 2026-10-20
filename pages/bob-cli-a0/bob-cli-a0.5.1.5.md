@@ -51,13 +51,14 @@ NEXT after this source lands on bob-cli origin/master AND bob-mac-capture origin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`110624b`](https://github.com/bobs-org/bob-cli/commit/110624b8df65bd81853b0a55660f9a3da233e9da) | fix(docs): run reusable publish jobs on ubuntu-latest | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:28:11 EDT |
+| bob-mac-capture | [`bob-mac-capture@ddea5df`](https://github.com/bobs-org/bob-mac-capture/commit/ddea5dfdf6f510a80fad044b82f1d077194adbfd) | docs(readme): add public site Get started, Reference, and Develop links | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 2026-10-20 07:29:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
