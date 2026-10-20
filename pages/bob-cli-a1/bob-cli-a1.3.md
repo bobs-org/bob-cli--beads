@@ -14,7 +14,7 @@ wire: register "Zoom image on cursor line", open the viewer from the resolver, r
 ## Dependencies
 
 - **Depends on:** [bob-cli-a1.1](bob-cli-a1.1.md) ✓ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-a1.2](bob-cli-a1.2.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-a1.2](bob-cli-a1.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
