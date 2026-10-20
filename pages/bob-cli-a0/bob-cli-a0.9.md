@@ -28,4 +28,10 @@ concepts: write the remaining concept pages from the contracts and decision reco
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-a0.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.9.md) | [bob-cli-a0.9](bob-cli-a0.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.9.md) | [bob-cli-a0.9](bob-cli-a0.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d6795bd`](https://github.com/bobs-org/bob-cli/commit/d6795bdec2fd0ad1defbc16bedf2c9550e2cd578) | feat(docs): complete Bob concept pages and reader routing | [bob-cli-a0.9](bob-cli-a0.9.md) | 2026-10-20 02:08:48 EDT |

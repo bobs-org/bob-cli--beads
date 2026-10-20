@@ -14,7 +14,7 @@ mac-ref: split the Mac Capture README into docs pages and Fix-problems guides, a
 ## Dependencies
 
 - **Blocks:** [bob-cli-a0.13](bob-cli-a0.13.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-a0.8](bob-cli-a0.8.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.8](bob-cli-a0.8.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
