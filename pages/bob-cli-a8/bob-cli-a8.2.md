@@ -30,3 +30,15 @@ capture_perf: remove no-op republishes, the per-render executable stat, and repe
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@1d5735a`](https://github.com/bobs-org/bob-mac-capture/commit/1d5735a67444ceb8a41ca3d81b9dfc7fa3634339) | perf(capture): coalesce show refresh and skip no-op publishes | [bob-cli-a8.2](bob-cli-a8.2.md) | 2026-10-20 18:51:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a8.2][1] | Need the full phase notes, remaining work, and design file path | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.2/README.md
+
+<!-- sase:referenced-by:end -->
