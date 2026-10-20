@@ -15,7 +15,7 @@ plugins-ref: create bob-plugins docs with generated inventory and command tables
 
 - **Blocks:** [bob-cli-a0.13](bob-cli-a0.13.md) ◐ · ⧖ 2026-10-19
 - **Depends on:** [bob-cli-a0.3](bob-cli-a0.3.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [bob-cli-a0.4](bob-cli-a0.4.md) ○ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.4](bob-cli-a0.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
