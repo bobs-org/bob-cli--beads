@@ -249,7 +249,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.3/README.md) | [bob-cli-a0.5.1.3](bob-cli-a0.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md) | [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.5.1.land.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.5.1.land.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.1.1.md) | [bob-cli-a0.6.1.1](bob-cli-a0.6.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.6.1.2/README.md) | [bob-cli-a0.6.1.2](bob-cli-a0.6.1.2.md) | 1 |
@@ -310,6 +310,7 @@ flowchart TD
 | bob-cli | [`3f0b4a8`](https://github.com/bobs-org/bob-cli/commit/3f0b4a879cb1688f049a757c2c8b446bf51bc8ad) | docs(mac-capture): correct recovery claims and durable develop-hub guidance | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:13:10 EDT |
 | bob-cli--plans | [`bob-cli--plans@b9859d9`](https://github.com/bobs-org/bob-cli--plans/commit/b9859d96d0109d66e13def962c1df57bff396781) | chore(plans): mark mac\_capture\_reference done | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 2026-10-20 08:15:52 EDT |
 | bob-cli | [`10019f6`](https://github.com/bobs-org/bob-cli/commit/10019f635d6b79ecaff5033c464dc7de0bf1a3ad) | fix(docs): close gated publication with rollback, record CAS, and runbook fixes | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2026-10-20 10:15:36 EDT |
+| bob-cli--plans | [`bob-cli--plans@1c1765b`](https://github.com/bobs-org/bob-cli--plans/commit/1c1765bc6e72de7d2df39b90038489bac4f03f07) | chore(docs): mark gated publication epic plan done | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 2026-10-20 10:16:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
