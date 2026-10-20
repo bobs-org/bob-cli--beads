@@ -220,7 +220,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.md) | [bob-cli-a0.11](bob-cli-a0.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.1/README.md) | [bob-cli-a0.11.1.1](bob-cli-a0.11.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.2/README.md) | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-a0.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.3.md) | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-a0.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.11.1.3.md) | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.4/README.md) | [bob-cli-a0.11.1.4](bob-cli-a0.11.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.11.1.land/README.md) | [bob-cli-a0.11.1](bob-cli-a0.11.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.12.md) | [bob-cli-a0.12](bob-cli-a0.12.md) | 1 |
@@ -244,7 +244,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-a0.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.2/README.md) | [bob-cli-a0.5.1.2](bob-cli-a0.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.3/README.md) | [bob-cli-a0.5.1.3](bob-cli-a0.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.4/README.md) | [bob-cli-a0.5.1.4](bob-cli-a0.5.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.5.1.5.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-a0.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.5/README.md) | [bob-cli-a0.5.1.5](bob-cli-a0.5.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-a0.5.1.land/README.md) | [bob-cli-a0.5.1](bob-cli-a0.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.md) | [bob-cli-a0.6](bob-cli-a0.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-a0.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-a0.6.1.1.md) | [bob-cli-a0.6.1.1](bob-cli-a0.6.1.1.md) | 1 |
@@ -310,6 +310,7 @@ flowchart TD
 | bob-cli | [`8ba2995`](https://github.com/bobs-org/bob-cli/commit/8ba29959d4aab047bff060c2bc082bbb92213803) | docs(mac-capture): wire application-reference hubs and search smoke | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2026-10-20 03:48:27 EDT |
 | bob-mac-capture | [`bob-mac-capture@3b944d8`](https://github.com/bobs-org/bob-mac-capture/commit/3b944d877a7a0890b29c2d8d5d93d2c677d4b9d5) | docs: extract install, settings, permissions, and Bob Refs reference | [bob-cli-a0.11.1.2](bob-cli-a0.11.1.2.md) | 2026-10-20 03:49:51 EDT |
 | bob-cli | [`d4b1ab3`](https://github.com/bobs-org/bob-cli/commit/d4b1ab31c3b24a97577ab2d0758a2000dbc00374) | docs(mac-capture): show mounted panel images and fix media lint | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2026-10-20 07:00:20 EDT |
+| bob-mac-capture | [`bob-mac-capture@bd9b1e2`](https://github.com/bobs-org/bob-mac-capture/commit/bd9b1e23374868b92b75f3d8a040c7a59308bd46) | docs: import synthetic CI panel renders and add preview tooling | [bob-cli-a0.11.1.3](bob-cli-a0.11.1.3.md) | 2026-10-20 07:02:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
