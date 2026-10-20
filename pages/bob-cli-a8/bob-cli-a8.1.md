@@ -20,7 +20,7 @@ panel_switch: add the coordinator switch, Ctrl+Tab routing in both panels with a
 ## Dependencies
 
 - **Blocks:** [bob-cli-a8.2](bob-cli-a8.2.md) ◐ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-a8.3](bob-cli-a8.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-a8.3](bob-cli-a8.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -33,3 +33,15 @@ panel_switch: add the coordinator switch, Ctrl+Tab routing in both panels with a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e99cec6`](https://github.com/bobs-org/bob-mac-capture/commit/e99cec6f7d35e78d07bad679b607aea54b3e6bd9) | feat(capture): add Ctrl+Tab panel switch with preserved state | [bob-cli-a8.1](bob-cli-a8.1.md) | 2026-10-20 18:04:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-a8.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-a8.1/README.md
+
+<!-- sase:referenced-by:end -->
