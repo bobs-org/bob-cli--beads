@@ -18,7 +18,7 @@ mounts: implement sibling discovery, safe copying, mount nav expansion, provenan
 ## Dependencies
 
 - **Depends on:** [bob-cli-a0.2.1.1](bob-cli-a0.2.1.1.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.2.1.4](bob-cli-a0.2.1.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents

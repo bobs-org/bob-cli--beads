@@ -13,7 +13,7 @@ authoring: finish Writing docs and Build each repo, port five authoring template
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [bob-cli-a0.2.1.3](bob-cli-a0.2.1.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [bob-cli-a0.2.1.6](bob-cli-a0.2.1.6.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
