@@ -17,7 +17,7 @@ package: rename the package, pin the lib name, seed 0.2.0 and CHANGELOG.md, trim
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ac.3](bob-cli-ac.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.3](bob-cli-ac.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -30,3 +30,15 @@ package: rename the package, pin the lib name, seed 0.2.0 and CHANGELOG.md, trim
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`eabd291`](https://github.com/bobs-org/bob-cli/commit/eabd291506814b5b8591c7dd211201b455e73ef5) | feat(package): prepare bob-obsidian 0.2.0 release package | [bob-cli-ac.2](bob-cli-ac.2.md) | 2026-10-20 19:23:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ac.2--2][1] | Recheck phase notes and linked design before closing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.2.md
+
+<!-- sase:referenced-by:end -->

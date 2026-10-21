@@ -19,7 +19,7 @@ hermetic: fix the three tests that fail in a clean environment and add rust-tool
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ac.3](bob-cli-ac.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.3](bob-cli-ac.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

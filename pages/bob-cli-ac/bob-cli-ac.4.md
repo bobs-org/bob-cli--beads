@@ -13,7 +13,7 @@ train: add release-plz.toml, the tested daily guard, release.yml (plan, CI, rele
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ac.3](bob-cli-ac.3.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ac.3](bob-cli-ac.3.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ac.5](bob-cli-ac.5.md) ◐ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ac.6](bob-cli-ac.6.md) ◐ · ⧖ 2026-10-20
 
