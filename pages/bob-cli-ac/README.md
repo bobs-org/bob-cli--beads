@@ -98,7 +98,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ac.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md) | [bob-cli-ac.6](bob-cli-ac.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.7/README.md) | [bob-cli-ac.7](bob-cli-ac.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.8.md) | [bob-cli-ac.8](bob-cli-ac.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ac.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.land.md) | [bob-cli-ac](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ac.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.land.md) | [bob-cli-ac](README.md) | 2 |
 
 ## Commits
 
@@ -113,6 +113,7 @@ flowchart TD
 | bob-cli | [`ea7f5f0`](https://github.com/bobs-org/bob-cli/commit/ea7f5f0b7aaa371c98dd6d3ea368edb4d583d808) | fix(release): authenticate the train guard's GitHub Release lookup | [bob-cli-ac.5](bob-cli-ac.5.md) | 2026-10-20 23:43:35 EDT |
 | bob-cli | [`1257c2e`](https://github.com/bobs-org/bob-cli/commit/1257c2e8d90cfaec4e8d6ad14edc457637685dac) | ci(release): upload binaries via ref instead of unsupported tag input | [bob-cli-ac.8](bob-cli-ac.8.md) | 2026-10-21 00:18:44 EDT |
 | bob-cli | [`5d212ef`](https://github.com/bobs-org/bob-cli/commit/5d212ef964b862fb9675dbe76dbd9281b87bf77d) | ci(release): fix archive names and recover v0.2.0 binaries | [bob-cli-ac](README.md) | 2026-10-21 01:23:23 EDT |
+| bob-cli--plans | [`bob-cli--plans@9c1f9c6`](https://github.com/bobs-org/bob-cli--plans/commit/9c1f9c6286fdec33d682f0e8cc35fea39afc2802) | docs(plan): mark crates\_io\_release\_train epic as done | [bob-cli-ac](README.md) | 2026-10-21 01:24:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
