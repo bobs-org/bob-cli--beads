@@ -18,7 +18,7 @@ contract: accept a capture draft, gate task-creating items, exclude and report d
 ## Dependencies
 
 - **Depends on:** [bob-cli-ab.1](bob-cli-ab.1.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ab.3](bob-cli-ab.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ab.3](bob-cli-ab.3.md) ○ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ab.4](bob-cli-ab.4.md) ✓ · ⧖ 2026-10-20
 
 ## Agents

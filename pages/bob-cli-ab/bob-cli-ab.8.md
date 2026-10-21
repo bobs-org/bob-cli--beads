@@ -13,7 +13,7 @@ record: write the accepted decisions record through /sase_memory_write, citing t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ab.3](bob-cli-ab.3.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ab.3](bob-cli-ab.3.md) ○ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-ab.7](bob-cli-ab.7.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

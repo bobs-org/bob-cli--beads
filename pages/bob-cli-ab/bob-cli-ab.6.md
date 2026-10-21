@@ -13,7 +13,7 @@ mac_actions: add ⌘1–⌘5 focus, the sigil action strip, key routing, click h
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ab.5](bob-cli-ab.5.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ab.5](bob-cli-ab.5.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ab.7](bob-cli-ab.7.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
