@@ -11,6 +11,10 @@
 
 calibrate: build the leave-one-out sampling script, collect Bryan's labels, set the bars from them, time a release build on the Mac against the 50 ms gate, and file a calibration report in the research sidecar.
 
+## Notes
+
+[2026-10-21T00:40:27Z · bob-cli-ab.3] PROPOSED FOLLOW-UP: Time release bob capture-related on the Mac when it is online (30 qualifying + 30 non-qualifying runs); if p95 exceeds 50 ms, file the in-app index-escalation task bead from the research and do not block
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ab.2](bob-cli-ab.2.md) ✓ · ⧖ 2026-10-20
@@ -20,4 +24,4 @@ calibrate: build the leave-one-out sampling script, collect Bryan's labels, set 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ab.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.3/README.md) | [bob-cli-ab.3](bob-cli-ab.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ab.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.3.md) | [bob-cli-ab.3](bob-cli-ab.3.md) | 0 |

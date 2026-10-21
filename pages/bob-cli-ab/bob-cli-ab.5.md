@@ -13,7 +13,7 @@ mac_band: render the band at the foot of each task-creating card (header, rows, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ab.4](bob-cli-ab.4.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ab.4](bob-cli-ab.4.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ab.6](bob-cli-ab.6.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

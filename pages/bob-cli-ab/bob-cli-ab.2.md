@@ -19,7 +19,7 @@ contract: accept a capture draft, gate task-creating items, exclude and report d
 
 - **Depends on:** [bob-cli-ab.1](bob-cli-ab.1.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ab.3](bob-cli-ab.3.md) ◐ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ab.4](bob-cli-ab.4.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ab.4](bob-cli-ab.4.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -32,3 +32,15 @@ contract: accept a capture draft, gate task-creating items, exclude and report d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`062fc3d`](https://github.com/bobs-org/bob-cli/commit/062fc3da24646166a752f264bd3acec0dd75b4c1) | feat(capture-related): add draft JSON contract | [bob-cli-ab.2](bob-cli-ab.2.md) | 2026-10-20 20:18:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ab.2--2][1] | Confirm the assigned phase was closed after verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.2.md
+
+<!-- sase:referenced-by:end -->
