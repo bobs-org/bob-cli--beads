@@ -62,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-aj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aj.1/README.md) | [bob-cli-aj.1](bob-cli-aj.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-aj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aj.2.md) | [bob-cli-aj.2](bob-cli-aj.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-aj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aj.land.md) | [bob-cli-aj](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-aj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aj.land.md) | [bob-cli-aj](README.md) | 2 |
 
 ## Commits
 
@@ -71,6 +71,7 @@ flowchart TD
 | bob-cli | [`bcc201f`](https://github.com/bobs-org/bob-cli/commit/bcc201feebc262f2b4f16569e959bd03cedecce4) | feat(capture): attach relation labels on typed pipe and expose relation in completions | [bob-cli-aj.1](bob-cli-aj.1.md) | 2026-10-21 08:28:52 EDT |
 | bob-mac-capture | [`bob-mac-capture@bf40f48`](https://github.com/bobs-org/bob-mac-capture/commit/bf40f48c465378ad175fdc8817f6a95f8c0f54da) | feat(capture): open relation label cards from typed pipe | [bob-cli-aj.2](bob-cli-aj.2.md) | 2026-10-21 09:46:45 EDT |
 | bob-cli | [`8bcc3e2`](https://github.com/bobs-org/bob-cli/commit/8bcc3e2b6d1512bb1b526729591a9356f8fe6737) | test(capture-complete): cover leading and dependency-tail relation-label ranges | [bob-cli-aj](README.md) | 2026-10-21 10:30:12 EDT |
+| bob-mac-capture | [`bob-mac-capture@d73d943`](https://github.com/bobs-org/bob-mac-capture/commit/d73d943effd16bf81623981c4119af01c11cf0ce) | fix(capture): truthful relation-card fixtures, caret, and missing-path regressions | [bob-cli-aj](README.md) | 2026-10-21 10:30:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
