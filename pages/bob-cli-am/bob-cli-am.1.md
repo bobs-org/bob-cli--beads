@@ -17,7 +17,7 @@ contract: rewrite docs/task-relations.md around the pair model (vocabulary, pair
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-am.2](bob-cli-am.2.md) ◐ · ⧖ 2026-10-21
+- **Blocks:** [bob-cli-am.2](bob-cli-am.2.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [bob-cli-am.6](bob-cli-am.6.md) ✓ · ⧖ 2026-10-21
 
 ## Agents

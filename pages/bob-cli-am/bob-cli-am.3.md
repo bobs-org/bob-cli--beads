@@ -13,7 +13,7 @@ capture-grammar: make a bare `~~` an incomplete draft that submit refuses, add `
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-am.2](bob-cli-am.2.md) ◐ · ⧖ 2026-10-21
+- **Depends on:** [bob-cli-am.2](bob-cli-am.2.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [bob-cli-am.4](bob-cli-am.4.md) ◐ · ⧖ 2026-10-21
 - **Blocks:** [bob-cli-am.8](bob-cli-am.8.md) ◐ · ⧖ 2026-10-21
 

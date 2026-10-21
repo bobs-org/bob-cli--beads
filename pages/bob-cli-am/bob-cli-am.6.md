@@ -26,10 +26,16 @@ ledger-chips: add the additive `related()` per-task view to `api.relationIndex` 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-am.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.6/README.md) | [bob-cli-am.6](bob-cli-am.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-am.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.6/README.md) | [bob-cli-am.6](bob-cli-am.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@0bfae66`](https://github.com/bobs-org/bob-plugins/commit/0bfae664b9d3eebaf4ea6013cc71386ae2590dc6) | feat(ledger-tools): one aggregated links block per task | [bob-cli-am.6](bob-cli-am.6.md) | 2026-10-21 11:26:50 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-am.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.6/README.md
+
+<!-- sase:referenced-by:end -->

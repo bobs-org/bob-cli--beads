@@ -13,7 +13,7 @@ nav-writer: port the pair planner to bob-navigation-hotkeys with shared vectors,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-am.2](bob-cli-am.2.md) ◐ · ⧖ 2026-10-21
+- **Depends on:** [bob-cli-am.2](bob-cli-am.2.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [bob-cli-am.7](bob-cli-am.7.md) ◐ · ⧖ 2026-10-21
 
 ## Agents

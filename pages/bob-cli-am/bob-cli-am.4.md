@@ -13,7 +13,7 @@ capture-writes: route `~` / `~~` writes through the pair planner in one all-or-n
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-am.2](bob-cli-am.2.md) ◐ · ⧖ 2026-10-21
+- **Depends on:** [bob-cli-am.2](bob-cli-am.2.md) ✓ · ⧖ 2026-10-21
 - **Depends on:** [bob-cli-am.3](bob-cli-am.3.md) ◐ · ⧖ 2026-10-21
 - **Blocks:** [bob-cli-am.8](bob-cli-am.8.md) ◐ · ⧖ 2026-10-21
 
