@@ -76,7 +76,9 @@ Scratch branches origin/ci/ci and origin/ci/full-ci deleted. No leftover --epic-
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ac.3--6][1] | Need the phase scope, design, notes, and DECISIONS before closing | 1 |
+| read-by | [agent:bob-cli-ac.6][2] | Document the landed CI workflow and measured jobs | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
 
 <!-- sase:referenced-by:end -->

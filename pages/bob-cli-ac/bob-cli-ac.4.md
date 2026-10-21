@@ -18,7 +18,7 @@ train: add release-plz.toml, the tested daily guard, release.yml (plan, CI, rele
 ## Dependencies
 
 - **Depends on:** [bob-cli-ac.3](bob-cli-ac.3.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ac.5](bob-cli-ac.5.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.5](bob-cli-ac.5.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ac.6](bob-cli-ac.6.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
@@ -40,7 +40,9 @@ train: add release-plz.toml, the tested daily guard, release.yml (plan, CI, rele
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ac.4][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-ac.6][2] | Document the landed release train behavior and rehearsal evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
 
 <!-- sase:referenced-by:end -->

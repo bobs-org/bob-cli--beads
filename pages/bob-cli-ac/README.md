@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/crates_io_release_train.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/crates_io_release_train.md
 
@@ -33,9 +33,9 @@ bob-cli has hermetic per-push CI on Linux and macOS and a renamed, trimmed packa
 | [bob-cli-ac.2](bob-cli-ac.2.md) | Package rename, metadata, trim, size budget, and install migration | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.3](bob-cli-ac.3.md) | Reusable per-push CI workflow brought green on GitHub | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.4](bob-cli-ac.4.md) | release-plz train in git\_only rehearsal mode | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-ac.5](bob-cli-ac.5.md) | GitHub setup and first rehearsal release | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
+| [bob-cli-ac.5](bob-cli-ac.5.md) | GitHub setup and first rehearsal release | ✓ closed | small | 2026-10-20 | 1 | 0 |
 | [bob-cli-ac.6](bob-cli-ac.6.md) | Maintainer release documentation and decision record | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-ac.7](bob-cli-ac.7.md) | Reader-facing release documentation and site integration | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [bob-cli-ac.7](bob-cli-ac.7.md) | Reader-facing release documentation and site integration | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.8](bob-cli-ac.8.md) | End-state verification and Bryan's go-live report | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
 
 ## Lineage
@@ -47,9 +47,9 @@ flowchart TD
     n2["bob-cli-ac.2: Package rename, metadata, trim, size budget, and install migration [closed]"]
     n3["bob-cli-ac.3: Reusable per-push CI workflow brought green on GitHub [closed]"]
     n4["bob-cli-ac.4: release-plz train in git_only rehearsal mode [closed]"]
-    n5["bob-cli-ac.5: GitHub setup and first rehearsal release [in_progress]"]
+    n5["bob-cli-ac.5: GitHub setup and first rehearsal release [closed]"]
     n6["bob-cli-ac.6: Maintainer release documentation and decision record [closed]"]
-    n7["bob-cli-ac.7: Reader-facing release documentation and site integration [in_progress]"]
+    n7["bob-cli-ac.7: Reader-facing release documentation and site integration [closed]"]
     n8["bob-cli-ac.8: End-state verification and Bryan's go-live report [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ac.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md) | [bob-cli-ac.4](bob-cli-ac.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.5/README.md) | [bob-cli-ac.5](bob-cli-ac.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ac.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md) | [bob-cli-ac.6](bob-cli-ac.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ac.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.7/README.md) | [bob-cli-ac.7](bob-cli-ac.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ac.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.7/README.md) | [bob-cli-ac.7](bob-cli-ac.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.8/README.md) | [bob-cli-ac.8](bob-cli-ac.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ac.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.land/README.md) | [bob-cli-ac](README.md) | 0 |
 
@@ -92,6 +92,7 @@ flowchart TD
 | bob-cli | [`1d1b8fe`](https://github.com/bobs-org/bob-cli/commit/1d1b8fec66676da163cee0180f58985f83cb99eb) | ci: add GitHub Actions workflow and fix macOS test portability | [bob-cli-ac.3](bob-cli-ac.3.md) | 2026-10-20 22:28:14 EDT |
 | bob-cli | [`104cee9`](https://github.com/bobs-org/bob-cli/commit/104cee99cdbc8471e854b2c610413f5b941185d8) | feat(train): release-plz rehearsal train with daily guard | [bob-cli-ac.4](bob-cli-ac.4.md) | 2026-10-20 22:55:29 EDT |
 | bob-cli | [`fc6ffdc`](https://github.com/bobs-org/bob-cli/commit/fc6ffdc3324d671833fa63000fa3287ef636a771) | docs(release): document the bob-cli release train | [bob-cli-ac.6](bob-cli-ac.6.md) | 2026-10-20 23:18:35 EDT |
+| bob-cli | [`8789c12`](https://github.com/bobs-org/bob-cli/commit/8789c12dafcd189ddccb375ab0c79fe880c4aef2) | docs(release): add versions reference and tagged-install guide | [bob-cli-ac.7](bob-cli-ac.7.md) | 2026-10-20 23:42:14 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -100,7 +101,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ac.1][1] | Need epic decisions and phase notes to implement hermetic test scope | 1 |
+| read-by | [agent:bob-cli-ac.6][2] | Identify the CI, train, and GitHub implementation phase beads whose notes ground the docs | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
 
 <!-- sase:referenced-by:end -->

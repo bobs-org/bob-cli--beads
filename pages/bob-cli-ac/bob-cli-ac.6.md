@@ -18,7 +18,7 @@ docs-dev: write the Develop > Releases section (hub, tutorial, explanation, how-
 ## Dependencies
 
 - **Depends on:** [bob-cli-ac.4](bob-cli-ac.4.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ac.7](bob-cli-ac.7.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.7](bob-cli-ac.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -31,3 +31,15 @@ docs-dev: write the Develop > Releases section (hub, tutorial, explanation, how-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fc6ffdc`](https://github.com/bobs-org/bob-cli/commit/fc6ffdc3324d671833fa63000fa3287ef636a771) | docs(release): document the bob-cli release train | [bob-cli-ac.6](bob-cli-ac.6.md) | 2026-10-20 23:18:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ac.6][1] | Check prior phase notes for recorded remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
+
+<!-- sase:referenced-by:end -->

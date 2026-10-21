@@ -13,8 +13,8 @@ handoff: verify CI, the train, and the docs against what landed, finish any pend
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ac.5](bob-cli-ac.5.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [bob-cli-ac.7](bob-cli-ac.7.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ac.5](bob-cli-ac.5.md) ✓ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ac.7](bob-cli-ac.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
