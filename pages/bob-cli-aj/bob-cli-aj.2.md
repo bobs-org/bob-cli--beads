@@ -30,3 +30,15 @@ mac: forward a typed `|` to the rewrite lane and request completion afterwards, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@bf40f48`](https://github.com/bobs-org/bob-mac-capture/commit/bf40f48c465378ad175fdc8817f6a95f8c0f54da) | feat(capture): open relation label cards from typed pipe | [bob-cli-aj.2](bob-cli-aj.2.md) | 2026-10-21 09:46:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-aj.2--5][1] | Need the phase scope, design file, and prior notes before finishing assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aj.2.md
+
+<!-- sase:referenced-by:end -->
