@@ -17,7 +17,7 @@ bob: add the `attach_relation_label` capture-rewrite rule, add the `relation` ob
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-aj.2](bob-cli-aj.2.md) ◐ · ⧖ 2026-10-21
+- **Blocks:** [bob-cli-aj.2](bob-cli-aj.2.md) ✓ · ⧖ 2026-10-21
 
 ## Agents
 
@@ -30,3 +30,15 @@ bob: add the `attach_relation_label` capture-rewrite rule, add the `relation` ob
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bcc201f`](https://github.com/bobs-org/bob-cli/commit/bcc201feebc262f2b4f16569e959bd03cedecce4) | feat(capture): attach relation labels on typed pipe and expose relation in completions | [bob-cli-aj.1](bob-cli-aj.1.md) | 2026-10-21 08:28:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-aj.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aj.1/README.md
+
+<!-- sase:referenced-by:end -->
