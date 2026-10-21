@@ -32,7 +32,7 @@ An unlabelled task relation is one undirected link, shown everywhere as `🪢 li
 | [bob-cli-am.3](bob-cli-am.3.md) | Capture grammar, completion, and the label-required reverse link | ◐ in_progress | medium | 2026-10-21 | 1 | 0 |
 | [bob-cli-am.4](bob-cli-am.4.md) | Pair-aware capture writers and sentence-shaped output | ◐ in_progress | medium | 2026-10-21 | 1 | 0 |
 | [bob-cli-am.5](bob-cli-am.5.md) | Obsidian pair planner twin, writers, and relations API v2 | ◐ in_progress | medium | 2026-10-21 | 1 | 0 |
-| [bob-cli-am.6](bob-cli-am.6.md) | One aggregated links block per task in bob-ledger-tools | ◐ in_progress | medium | 2026-10-21 | 1 | 0 |
+| [bob-cli-am.6](bob-cli-am.6.md) | One aggregated links block per task in bob-ledger-tools | ✓ closed | medium | 2026-10-21 | 1 | 1 |
 | [bob-cli-am.7](bob-cli-am.7.md) | One Links row and one Links stage with a live label sentence | ◐ in_progress | medium | 2026-10-21 | 1 | 0 |
 | [bob-cli-am.8](bob-cli-am.8.md) | Bob Mac Capture pickers, label card, and previews | ◐ in_progress | medium | 2026-10-21 | 1 | 0 |
 
@@ -46,7 +46,7 @@ flowchart TD
     n3["bob-cli-am.3: Capture grammar, completion, and the label-required reverse link [in_progress]"]
     n4["bob-cli-am.4: Pair-aware capture writers and sentence-shaped output [in_progress]"]
     n5["bob-cli-am.5: Obsidian pair planner twin, writers, and relations API v2 [in_progress]"]
-    n6["bob-cli-am.6: One aggregated links block per task in bob-ledger-tools [in_progress]"]
+    n6["bob-cli-am.6: One aggregated links block per task in bob-ledger-tools [closed]"]
     n7["bob-cli-am.7: One Links row and one Links stage with a live label sentence [in_progress]"]
     n8["bob-cli-am.8: Bob Mac Capture pickers, label card, and previews [in_progress]"]
     n0 --> n1
@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-am.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.3/README.md) | [bob-cli-am.3](bob-cli-am.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-am.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.4/README.md) | [bob-cli-am.4](bob-cli-am.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-am.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.5/README.md) | [bob-cli-am.5](bob-cli-am.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-am.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.6/README.md) | [bob-cli-am.6](bob-cli-am.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-am.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.6/README.md) | [bob-cli-am.6](bob-cli-am.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-am.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.7/README.md) | [bob-cli-am.7](bob-cli-am.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-am.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.8/README.md) | [bob-cli-am.8](bob-cli-am.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-am.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-am.land/README.md) | [bob-cli-am](README.md) | 0 |
@@ -88,3 +88,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`39e1d48`](https://github.com/bobs-org/bob-cli/commit/39e1d48aa312ce14cc6016abebb83be48a525034) | docs(relations): define pair contract and glossary | [bob-cli-am.1](bob-cli-am.1.md) | 2026-10-21 10:55:36 EDT |
+| bob-plugins | [`bob-plugins@0bfae66`](https://github.com/bobs-org/bob-plugins/commit/0bfae664b9d3eebaf4ea6013cc71386ae2590dc6) | feat(ledger-tools): one aggregated links block per task | [bob-cli-am.6](bob-cli-am.6.md) | 2026-10-21 11:26:50 EDT |

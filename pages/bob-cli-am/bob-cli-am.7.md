@@ -14,7 +14,7 @@ nav-stage: merge the Task Card rows and the two relation stages into one Links r
 ## Dependencies
 
 - **Depends on:** [bob-cli-am.5](bob-cli-am.5.md) ◐ · ⧖ 2026-10-21
-- **Depends on:** [bob-cli-am.6](bob-cli-am.6.md) ◐ · ⧖ 2026-10-21
+- **Depends on:** [bob-cli-am.6](bob-cli-am.6.md) ✓ · ⧖ 2026-10-21
 
 ## Agents
 
