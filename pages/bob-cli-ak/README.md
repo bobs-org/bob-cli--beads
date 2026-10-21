@@ -27,7 +27,7 @@ In Obsidian, a canonical `#task #gtd #pre` / `#task #gtd #post` run renders as o
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ak.1](bob-cli-ak.1.md) | PRE/POST checklist identity glyphs | ✓ closed | medium | 2026-10-21 | 1 | 1 |
+| [bob-cli-ak.1](bob-cli-ak.1.md) | PRE/POST checklist identity glyphs | ✓ closed | medium | 2026-10-21 | 1 | 2 |
 | [bob-cli-ak.2](bob-cli-ak.2.md) | Recurrence marks in Live Preview and rendered views | ◐ in_progress | medium | 2026-10-21 | 1 | 0 |
 | [bob-cli-ak.3](bob-cli-ak.3.md) | Recurrence marks in Tasks query results | ◐ in_progress | small | 2026-10-21 | 1 | 0 |
 
@@ -50,7 +50,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ak.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.1.md) | [bob-cli-ak.1](bob-cli-ak.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ak.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.1.md) | [bob-cli-ak.1](bob-cli-ak.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ak.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ak.2/README.md) | [bob-cli-ak.2](bob-cli-ak.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ak.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ak.3/README.md) | [bob-cli-ak.3](bob-cli-ak.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ak.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ak.land/README.md) | [bob-cli-ak](README.md) | 0 |
@@ -60,3 +60,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8a4936f`](https://github.com/bobs-org/bob-cli/commit/8a4936f4879a326034aae934c392c6e332d3c067) | docs(task-tag-marks): specify PRE and POST glyph behavior | [bob-cli-ak.1](bob-cli-ak.1.md) | 2026-10-21 09:20:29 EDT |
+| bob-plugins | [`bob-plugins@328d212`](https://github.com/bobs-org/bob-plugins/commit/328d212f03acb44bd23d5a14bd592c8de7f5bdca) | feat(ledger-tools): add PRE and POST checklist glyphs | [bob-cli-ak.1](bob-cli-ak.1.md) | 2026-10-21 09:21:40 EDT |
