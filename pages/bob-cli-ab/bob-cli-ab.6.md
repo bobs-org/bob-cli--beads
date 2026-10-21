@@ -24,13 +24,7 @@ mac_actions: add ⌘1–⌘5 focus, the sigil action strip, key routing, click h
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ab.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.6/README.md) | [bob-cli-ab.6](bob-cli-ab.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@01cc470`](https://github.com/bobs-org/bob-mac-capture/commit/01cc470ec0d59402d13aa5d3430ff0f80e1d2b39) | feat(mac-capture): add similar-tasks focus, action strip, and draft-edit actions | [bob-cli-ab.6](bob-cli-ab.6.md) | 2026-10-20 21:35:00 EDT |
+| [bbugyi200.apollo.bob-cli-ab.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.6/README.md) | [bob-cli-ab.6](bob-cli-ab.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
