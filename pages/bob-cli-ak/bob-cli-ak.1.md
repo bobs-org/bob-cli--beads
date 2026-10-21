@@ -19,7 +19,7 @@ checklist-glyphs: render a canonical, conflict-free `#task #gtd #pre|#post` run 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ak.2](bob-cli-ak.2.md) ◐ · ⧖ 2026-10-21
+- **Blocks:** [bob-cli-ak.2](bob-cli-ak.2.md) ✓ · ⧖ 2026-10-21
 
 ## Agents
 
@@ -33,3 +33,15 @@ checklist-glyphs: render a canonical, conflict-free `#task #gtd #pre|#post` run 
 |---|---|---|---|---|
 | bob-cli | [`8a4936f`](https://github.com/bobs-org/bob-cli/commit/8a4936f4879a326034aae934c392c6e332d3c067) | docs(task-tag-marks): specify PRE and POST glyph behavior | [bob-cli-ak.1](bob-cli-ak.1.md) | 2026-10-21 09:20:29 EDT |
 | bob-plugins | [`bob-plugins@328d212`](https://github.com/bobs-org/bob-plugins/commit/328d212f03acb44bd23d5a14bd592c8de7f5bdca) | feat(ledger-tools): add PRE and POST checklist glyphs | [bob-cli-ak.1](bob-cli-ak.1.md) | 2026-10-21 09:21:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ak.1--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.1.md
+
+<!-- sase:referenced-by:end -->

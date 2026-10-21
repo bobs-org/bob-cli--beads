@@ -13,7 +13,7 @@ recurrence-tasks: extend the full-mode Tasks frame pass to `span.task-recurring`
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ak.2](bob-cli-ak.2.md) ◐ · ⧖ 2026-10-21
+- **Depends on:** [bob-cli-ak.2](bob-cli-ak.2.md) ✓ · ⧖ 2026-10-21
 
 ## Agents
 
