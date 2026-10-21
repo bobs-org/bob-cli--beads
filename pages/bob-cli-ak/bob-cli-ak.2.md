@@ -26,10 +26,11 @@ recurrence-marks: render each canonical, Tasks-readable `[repeat:: …]` as a qu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ak.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ak.2/README.md) | [bob-cli-ak.2](bob-cli-ak.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ak.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ak.2/README.md) | [bob-cli-ak.2](bob-cli-ak.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6e34d50`](https://github.com/bobs-org/bob-cli/commit/6e34d5076b16e718a1f750fb769cba4bdc1bc5df) | docs(date-marks): specify recurrence-mark display contract and vault repeat row | [bob-cli-ak.2](bob-cli-ak.2.md) | 2026-10-21 09:50:08 EDT |
+| bob-plugins | [`bob-plugins@f98f97e`](https://github.com/bobs-org/bob-plugins/commit/f98f97eeff030dcae9f66eb9e0b582631b1f9897) | feat(ledger-tools): render recurrence marks in Live Preview and rendered views | [bob-cli-ak.2](bob-cli-ak.2.md) | 2026-10-21 09:51:11 EDT |
