@@ -40,9 +40,11 @@ train: add release-plz.toml, the tested daily guard, release.yml (plan, CI, rele
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ac.4][1] | Need the phase scope and design file | 3 |
-| read-by | [agent:bob-cli-ac.6][2] | Document the landed release train behavior and rehearsal evidence | 1 |
+| read-by | [agent:bob-cli-ac.5][2] | Need train phase notes and observed results before GitHub setup | 1 |
+| read-by | [agent:bob-cli-ac.6][3] | Document the landed release train behavior and rehearsal evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
 
 <!-- sase:referenced-by:end -->

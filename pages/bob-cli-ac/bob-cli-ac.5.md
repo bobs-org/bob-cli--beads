@@ -32,7 +32,7 @@ PENDING REDISPATCH: after this guard-token fix lands on master, re-run github ph
 ## Dependencies
 
 - **Depends on:** [bob-cli-ac.4](bob-cli-ac.4.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ac.8](bob-cli-ac.8.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.8](bob-cli-ac.8.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -52,8 +52,10 @@ PENDING REDISPATCH: after this guard-token fix lands on master, re-run github ph
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ac.6][1] | Check whether the GitHub phase recorded setup details needed for current maintainer documentation | 2 |
+| read-by | [agent:bob-cli-ac.5][1] | Need full notes, history, and remaining work for github phase | 2 |
+| read-by | [agent:bob-cli-ac.6][2] | Check whether the GitHub phase recorded setup details needed for current maintainer documentation | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md
 
 <!-- sase:referenced-by:end -->

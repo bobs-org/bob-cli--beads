@@ -18,7 +18,7 @@ docs-user: add the Releases and versions reference and the tagged-release instal
 ## Dependencies
 
 - **Depends on:** [bob-cli-ac.6](bob-cli-ac.6.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ac.8](bob-cli-ac.8.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.8](bob-cli-ac.8.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
