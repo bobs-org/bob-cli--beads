@@ -13,7 +13,7 @@ github: dry-run the train on master, then (per github_apply) create the release 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ac.4](bob-cli-ac.4.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ac.4](bob-cli-ac.4.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ac.8](bob-cli-ac.8.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

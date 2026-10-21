@@ -13,7 +13,7 @@ docs-dev: write the Develop > Releases section (hub, tutorial, explanation, how-
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ac.4](bob-cli-ac.4.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ac.4](bob-cli-ac.4.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ac.7](bob-cli-ac.7.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

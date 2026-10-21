@@ -55,7 +55,7 @@ Scratch branches origin/ci/ci and origin/ci/full-ci deleted. No leftover --epic-
 
 - **Depends on:** [bob-cli-ac.1](bob-cli-ac.1.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [bob-cli-ac.2](bob-cli-ac.2.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ac.4](bob-cli-ac.4.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.4](bob-cli-ac.4.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -68,3 +68,15 @@ Scratch branches origin/ci/ci and origin/ci/full-ci deleted. No leftover --epic-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1d1b8fe`](https://github.com/bobs-org/bob-cli/commit/1d1b8fec66676da163cee0180f58985f83cb99eb) | ci: add GitHub Actions workflow and fix macOS test portability | [bob-cli-ac.3](bob-cli-ac.3.md) | 2026-10-20 22:28:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ac.3--6][1] | Need the phase scope, design, notes, and DECISIONS before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.3.md
+
+<!-- sase:referenced-by:end -->

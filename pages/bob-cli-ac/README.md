@@ -32,7 +32,7 @@ bob-cli has hermetic per-push CI on Linux and macOS and a renamed, trimmed packa
 | [bob-cli-ac.1](bob-cli-ac.1.md) | Hermetic test suite and pinned toolchain | ✓ closed | small | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.2](bob-cli-ac.2.md) | Package rename, metadata, trim, size budget, and install migration | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.3](bob-cli-ac.3.md) | Reusable per-push CI workflow brought green on GitHub | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-ac.4](bob-cli-ac.4.md) | release-plz train in git\_only rehearsal mode | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [bob-cli-ac.4](bob-cli-ac.4.md) | release-plz train in git\_only rehearsal mode | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.5](bob-cli-ac.5.md) | GitHub setup and first rehearsal release | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
 | [bob-cli-ac.6](bob-cli-ac.6.md) | Maintainer release documentation and decision record | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [bob-cli-ac.7](bob-cli-ac.7.md) | Reader-facing release documentation and site integration | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
@@ -46,7 +46,7 @@ flowchart TD
     n1["bob-cli-ac.1: Hermetic test suite and pinned toolchain [closed]"]
     n2["bob-cli-ac.2: Package rename, metadata, trim, size budget, and install migration [closed]"]
     n3["bob-cli-ac.3: Reusable per-push CI workflow brought green on GitHub [closed]"]
-    n4["bob-cli-ac.4: release-plz train in git_only rehearsal mode [in_progress]"]
+    n4["bob-cli-ac.4: release-plz train in git_only rehearsal mode [closed]"]
     n5["bob-cli-ac.5: GitHub setup and first rehearsal release [in_progress]"]
     n6["bob-cli-ac.6: Maintainer release documentation and decision record [in_progress]"]
     n7["bob-cli-ac.7: Reader-facing release documentation and site integration [in_progress]"]
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ac.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.1/README.md) | [bob-cli-ac.1](bob-cli-ac.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.2.md) | [bob-cli-ac.2](bob-cli-ac.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.3.md) | [bob-cli-ac.3](bob-cli-ac.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ac.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md) | [bob-cli-ac.4](bob-cli-ac.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ac.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md) | [bob-cli-ac.4](bob-cli-ac.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.5/README.md) | [bob-cli-ac.5](bob-cli-ac.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ac.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md) | [bob-cli-ac.6](bob-cli-ac.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ac.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.7/README.md) | [bob-cli-ac.7](bob-cli-ac.7.md) | 0 |
@@ -90,6 +90,7 @@ flowchart TD
 | bob-cli | [`9a0fb95`](https://github.com/bobs-org/bob-cli/commit/9a0fb957a810b314d8a9ef11ca67d95632651f48) | build: pin Rust toolchain and hermeticize tests | [bob-cli-ac.1](bob-cli-ac.1.md) | 2026-10-20 19:17:21 EDT |
 | bob-cli | [`eabd291`](https://github.com/bobs-org/bob-cli/commit/eabd291506814b5b8591c7dd211201b455e73ef5) | feat(package): prepare bob-obsidian 0.2.0 release package | [bob-cli-ac.2](bob-cli-ac.2.md) | 2026-10-20 19:23:49 EDT |
 | bob-cli | [`1d1b8fe`](https://github.com/bobs-org/bob-cli/commit/1d1b8fec66676da163cee0180f58985f83cb99eb) | ci: add GitHub Actions workflow and fix macOS test portability | [bob-cli-ac.3](bob-cli-ac.3.md) | 2026-10-20 22:28:14 EDT |
+| bob-cli | [`104cee9`](https://github.com/bobs-org/bob-cli/commit/104cee99cdbc8471e854b2c610413f5b941185d8) | feat(train): release-plz rehearsal train with daily guard | [bob-cli-ac.4](bob-cli-ac.4.md) | 2026-10-20 22:55:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
