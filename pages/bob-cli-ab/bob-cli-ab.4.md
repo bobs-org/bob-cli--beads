@@ -45,7 +45,9 @@ mac_lane: decode the contract, add the cancellable related lane with old-bob fal
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ab.4--1][1] | Need the phase scope, design file, and prior notes to finish this reserved phase | 1 |
+| read-by | [agent:bob-cli-ab.5][2] | Need mac_lane deliverables and notes to continue from | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.5/README.md
 
 <!-- sase:referenced-by:end -->

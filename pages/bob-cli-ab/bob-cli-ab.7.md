@@ -13,7 +13,7 @@ mac_idless: route link actions on ID-less rows through the existing Add block ID
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ab.6](bob-cli-ab.6.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ab.6](bob-cli-ab.6.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ab.8](bob-cli-ab.8.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
