@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ab.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.6/README.md) | [bob-cli-ab.6](bob-cli-ab.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ab.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.7/README.md) | [bob-cli-ab.7](bob-cli-ab.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ab.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md) | [bob-cli-ab.8](bob-cli-ab.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ab.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.land.md) | [bob-cli-ab](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ab.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.land.md) | [bob-cli-ab](README.md) | 2 |
 
 ## Commits
 
@@ -111,6 +111,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@3653661`](https://github.com/bobs-org/bob-mac-capture/commit/365366127c0c8295f604488c6850511f453c7083) | feat(mac-capture): route ID-less similar-tasks rows through Add block ID and add +N reveal | [bob-cli-ab.7](bob-cli-ab.7.md) | 2026-10-20 21:59:46 EDT |
 | bob-cli | [`906ffe9`](https://github.com/bobs-org/bob-cli/commit/906ffe98fb216f1cbddf45bdd04ffee49a07e9b0) | docs(decisions): record Similar tasks band as a settled heads-up | [bob-cli-ab.8](bob-cli-ab.8.md) | 2026-10-21 13:54:44 EDT |
 | bob-cli | [`a065472`](https://github.com/bobs-org/bob-cli/commit/a0654724452cbb4b14a15d1fd2413fd8f155c2f0) | feat(capture-related): restore --exclude calibration pieces and regen docs | [bob-cli-ab](README.md) | 2026-10-21 14:50:55 EDT |
+| bob-mac-capture | [`bob-mac-capture@6b2d542`](https://github.com/bobs-org/bob-mac-capture/commit/6b2d542c38bfa6f8eaac30ebd4092275c70e2fab) | feat(mac-lane): finish settle gate, signposts, and gate tests | [bob-cli-ab](README.md) | 2026-10-21 14:51:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
