@@ -41,6 +41,7 @@ recurrence-tasks: extend the full-mode Tasks frame pass to `span.task-recurring`
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ak.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-ak.3--1][1] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.3.md
 
