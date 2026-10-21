@@ -19,7 +19,7 @@ train: add release-plz.toml, the tested daily guard, release.yml (plan, CI, rele
 
 - **Depends on:** [bob-cli-ac.3](bob-cli-ac.3.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ac.5](bob-cli-ac.5.md) ◐ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ac.6](bob-cli-ac.6.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ac.6](bob-cli-ac.6.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -32,3 +32,15 @@ train: add release-plz.toml, the tested daily guard, release.yml (plan, CI, rele
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`104cee9`](https://github.com/bobs-org/bob-cli/commit/104cee99cdbc8471e854b2c610413f5b941185d8) | feat(train): release-plz rehearsal train with daily guard | [bob-cli-ac.4](bob-cli-ac.4.md) | 2026-10-20 22:55:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ac.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md
+
+<!-- sase:referenced-by:end -->
