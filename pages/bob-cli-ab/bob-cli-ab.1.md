@@ -38,7 +38,9 @@ engine: add bob capture-related with the Bob-aware tokenizer, the per-call TF-ID
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ab.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-ab.8][2] | Need phase commits and measurements for decisions record | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md
 
 <!-- sase:referenced-by:end -->

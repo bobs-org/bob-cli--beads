@@ -31,3 +31,15 @@ record: write the accepted decisions record through /sase_memory_write, citing t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`906ffe9`](https://github.com/bobs-org/bob-cli/commit/906ffe98fb216f1cbddf45bdd04ffee49a07e9b0) | docs(decisions): record Similar tasks band as a settled heads-up | [bob-cli-ab.8](bob-cli-ab.8.md) | 2026-10-21 13:54:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ab.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md
+
+<!-- sase:referenced-by:end -->

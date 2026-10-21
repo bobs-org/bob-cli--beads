@@ -26,7 +26,13 @@ mac_band: render the band at the foot of each task-creating card (header, rows, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ab.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.5/README.md) | [bob-cli-ab.5](bob-cli-ab.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ab.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.5/README.md) | [bob-cli-ab.5](bob-cli-ab.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@59068d3`](https://github.com/bobs-org/bob-mac-capture/commit/59068d31390349a8529e59b90360dc9ab55be903) | feat(capture): add similar-tasks band at the foot of preview cards | [bob-cli-ab.5](bob-cli-ab.5.md) | 2026-10-20 21:10:47 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -35,7 +41,9 @@ mac_band: render the band at the foot of each task-creating card (header, rows, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ab.5][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:bob-cli-ab.8][2] | Need phase commits and measurements for decisions record | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md
 
 <!-- sase:referenced-by:end -->

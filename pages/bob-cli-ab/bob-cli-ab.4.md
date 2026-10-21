@@ -30,7 +30,13 @@ mac_lane: decode the contract, add the cancellable related lane with old-bob fal
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ab.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.4.md) | [bob-cli-ab.4](bob-cli-ab.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ab.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.4.md) | [bob-cli-ab.4](bob-cli-ab.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@7a03751`](https://github.com/bobs-org/bob-mac-capture/commit/7a03751a447a95cde4a02657216f8b942196ad89) | feat(capture): add settled similar-task lane | [bob-cli-ab.4](bob-cli-ab.4.md) | 2026-10-20 20:45:09 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -40,8 +46,10 @@ mac_lane: decode the contract, add the cancellable related lane with old-bob fal
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ab.4--1][1] | Need the phase scope, design file, and prior notes to finish this reserved phase | 1 |
 | read-by | [agent:bob-cli-ab.5][2] | Need mac_lane deliverables and notes to continue from | 1 |
+| read-by | [agent:bob-cli-ab.8][3] | Need phase commits and measurements for decisions record | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.4.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md
 
 <!-- sase:referenced-by:end -->

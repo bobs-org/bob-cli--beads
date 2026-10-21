@@ -24,7 +24,13 @@ mac_idless: route link actions on ID-less rows through the existing Add block ID
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ab.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.7/README.md) | [bob-cli-ab.7](bob-cli-ab.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ab.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.7/README.md) | [bob-cli-ab.7](bob-cli-ab.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@3653661`](https://github.com/bobs-org/bob-mac-capture/commit/365366127c0c8295f604488c6850511f453c7083) | feat(mac-capture): route ID-less similar-tasks rows through Add block ID and add +N reveal | [bob-cli-ab.7](bob-cli-ab.7.md) | 2026-10-20 21:59:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -33,7 +39,9 @@ mac_idless: route link actions on ID-less rows through the existing Add block ID
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ab.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-ab.8][2] | Need phase commits and measurements for decisions record | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md
 
 <!-- sase:referenced-by:end -->

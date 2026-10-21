@@ -40,7 +40,9 @@ contract: accept a capture draft, gate task-creating items, exclude and report d
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ab.2--2][1] | Confirm the assigned phase was closed after verification | 2 |
+| read-by | [agent:bob-cli-ab.8][2] | Need phase commits and measurements for decisions record | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md
 
 <!-- sase:referenced-by:end -->
