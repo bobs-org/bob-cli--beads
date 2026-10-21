@@ -13,7 +13,7 @@ calibrate: build the leave-one-out sampling script, collect Bryan's labels, set 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ab.2](bob-cli-ab.2.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ab.2](bob-cli-ab.2.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ab.8](bob-cli-ab.8.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

@@ -17,7 +17,7 @@ engine: add bob capture-related with the Bob-aware tokenizer, the per-call TF-ID
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ab.2](bob-cli-ab.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ab.2](bob-cli-ab.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -30,3 +30,15 @@ engine: add bob capture-related with the Bob-aware tokenizer, the per-call TF-ID
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`787d62c`](https://github.com/bobs-org/bob-cli/commit/787d62cbad07597023f0f005ad9285ec3cc84529) | feat(capture-related): add matching engine and --query harness | [bob-cli-ab.1](bob-cli-ab.1.md) | 2026-10-20 18:52:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ab.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.1/README.md
+
+<!-- sase:referenced-by:end -->

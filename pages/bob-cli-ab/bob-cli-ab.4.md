@@ -13,7 +13,7 @@ mac_lane: decode the contract, add the cancellable related lane with old-bob fal
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ab.2](bob-cli-ab.2.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [bob-cli-ab.2](bob-cli-ab.2.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [bob-cli-ab.5](bob-cli-ab.5.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
