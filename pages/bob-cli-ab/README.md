@@ -35,7 +35,7 @@ When a capture draft will create new tasks, Bob Mac Capture quietly shows the fe
 | [bob-cli-ab.4](bob-cli-ab.4.md) | Mac related lane, settle policy, and setting | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ab.5](bob-cli-ab.5.md) | Band view inside the preview card | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ab.6](bob-cli-ab.6.md) | Row focus, action strip, and draft-edit actions | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-ab.7](bob-cli-ab.7.md) | ID-less rows and the +N reveal | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
+| [bob-cli-ab.7](bob-cli-ab.7.md) | ID-less rows and the +N reveal | ✓ closed | small | 2026-10-20 | 1 | 1 |
 | [bob-cli-ab.8](bob-cli-ab.8.md) | Decisions record for the band | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
 
 ## Lineage
@@ -49,7 +49,7 @@ flowchart TD
     n4["bob-cli-ab.4: Mac related lane, settle policy, and setting [closed]"]
     n5["bob-cli-ab.5: Band view inside the preview card [closed]"]
     n6["bob-cli-ab.6: Row focus, action strip, and draft-edit actions [closed]"]
-    n7["bob-cli-ab.7: ID-less rows and the +N reveal [in_progress]"]
+    n7["bob-cli-ab.7: ID-less rows and the +N reveal [closed]"]
     n8["bob-cli-ab.8: Decisions record for the band [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ab.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ab.4.md) | [bob-cli-ab.4](bob-cli-ab.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ab.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.5/README.md) | [bob-cli-ab.5](bob-cli-ab.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ab.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.6/README.md) | [bob-cli-ab.6](bob-cli-ab.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ab.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.7/README.md) | [bob-cli-ab.7](bob-cli-ab.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ab.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.7/README.md) | [bob-cli-ab.7](bob-cli-ab.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ab.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.8/README.md) | [bob-cli-ab.8](bob-cli-ab.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ab.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.land/README.md) | [bob-cli-ab](README.md) | 0 |
 
@@ -92,6 +92,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@7a03751`](https://github.com/bobs-org/bob-mac-capture/commit/7a03751a447a95cde4a02657216f8b942196ad89) | feat(capture): add settled similar-task lane | [bob-cli-ab.4](bob-cli-ab.4.md) | 2026-10-20 20:45:09 EDT |
 | bob-mac-capture | [`bob-mac-capture@59068d3`](https://github.com/bobs-org/bob-mac-capture/commit/59068d31390349a8529e59b90360dc9ab55be903) | feat(capture): add similar-tasks band at the foot of preview cards | [bob-cli-ab.5](bob-cli-ab.5.md) | 2026-10-20 21:10:47 EDT |
 | bob-mac-capture | [`bob-mac-capture@01cc470`](https://github.com/bobs-org/bob-mac-capture/commit/01cc470ec0d59402d13aa5d3430ff0f80e1d2b39) | feat(mac-capture): add similar-tasks focus, action strip, and draft-edit actions | [bob-cli-ab.6](bob-cli-ab.6.md) | 2026-10-20 21:35:00 EDT |
+| bob-mac-capture | [`bob-mac-capture@3653661`](https://github.com/bobs-org/bob-mac-capture/commit/365366127c0c8295f604488c6850511f453c7083) | feat(mac-capture): route ID-less similar-tasks rows through Add block ID and add +N reveal | [bob-cli-ab.7](bob-cli-ab.7.md) | 2026-10-20 21:59:46 EDT |
 
 <!-- sase:referenced-by:start -->
 

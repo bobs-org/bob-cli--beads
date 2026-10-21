@@ -18,7 +18,7 @@ mac_actions: add ⌘1–⌘5 focus, the sigil action strip, key routing, click h
 ## Dependencies
 
 - **Depends on:** [bob-cli-ab.5](bob-cli-ab.5.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [bob-cli-ab.7](bob-cli-ab.7.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [bob-cli-ab.7](bob-cli-ab.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -31,3 +31,15 @@ mac_actions: add ⌘1–⌘5 focus, the sigil action strip, key routing, click h
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@01cc470`](https://github.com/bobs-org/bob-mac-capture/commit/01cc470ec0d59402d13aa5d3430ff0f80e1d2b39) | feat(mac-capture): add similar-tasks focus, action strip, and draft-edit actions | [bob-cli-ab.6](bob-cli-ab.6.md) | 2026-10-20 21:35:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ab.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ab.6/README.md
+
+<!-- sase:referenced-by:end -->
