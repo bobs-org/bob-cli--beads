@@ -33,7 +33,7 @@ bob-cli has hermetic per-push CI on Linux and macOS and a renamed, trimmed packa
 | [bob-cli-ac.2](bob-cli-ac.2.md) | Package rename, metadata, trim, size budget, and install migration | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.3](bob-cli-ac.3.md) | Reusable per-push CI workflow brought green on GitHub | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.4](bob-cli-ac.4.md) | release-plz train in git\_only rehearsal mode | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [bob-cli-ac.5](bob-cli-ac.5.md) | GitHub setup and first rehearsal release | ✓ closed | small | 2026-10-20 | 1 | 0 |
+| [bob-cli-ac.5](bob-cli-ac.5.md) | GitHub setup and first rehearsal release | ✓ closed | small | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.6](bob-cli-ac.6.md) | Maintainer release documentation and decision record | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.7](bob-cli-ac.7.md) | Reader-facing release documentation and site integration | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [bob-cli-ac.8](bob-cli-ac.8.md) | End-state verification and Bryan's go-live report | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ac.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.2.md) | [bob-cli-ac.2](bob-cli-ac.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.3.md) | [bob-cli-ac.3](bob-cli-ac.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.4/README.md) | [bob-cli-ac.4](bob-cli-ac.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ac.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.5/README.md) | [bob-cli-ac.5](bob-cli-ac.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ac.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.5/README.md) | [bob-cli-ac.5](bob-cli-ac.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.6/README.md) | [bob-cli-ac.6](bob-cli-ac.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.7/README.md) | [bob-cli-ac.7](bob-cli-ac.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ac.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ac.8/README.md) | [bob-cli-ac.8](bob-cli-ac.8.md) | 0 |
@@ -93,6 +93,7 @@ flowchart TD
 | bob-cli | [`104cee9`](https://github.com/bobs-org/bob-cli/commit/104cee99cdbc8471e854b2c610413f5b941185d8) | feat(train): release-plz rehearsal train with daily guard | [bob-cli-ac.4](bob-cli-ac.4.md) | 2026-10-20 22:55:29 EDT |
 | bob-cli | [`fc6ffdc`](https://github.com/bobs-org/bob-cli/commit/fc6ffdc3324d671833fa63000fa3287ef636a771) | docs(release): document the bob-cli release train | [bob-cli-ac.6](bob-cli-ac.6.md) | 2026-10-20 23:18:35 EDT |
 | bob-cli | [`8789c12`](https://github.com/bobs-org/bob-cli/commit/8789c12dafcd189ddccb375ab0c79fe880c4aef2) | docs(release): add versions reference and tagged-install guide | [bob-cli-ac.7](bob-cli-ac.7.md) | 2026-10-20 23:42:14 EDT |
+| bob-cli | [`ea7f5f0`](https://github.com/bobs-org/bob-cli/commit/ea7f5f0b7aaa371c98dd6d3ea368edb4d583d808) | fix(release): authenticate the train guard's GitHub Release lookup | [bob-cli-ac.5](bob-cli-ac.5.md) | 2026-10-20 23:43:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
