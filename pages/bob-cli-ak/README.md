@@ -31,7 +31,7 @@ In Obsidian, a canonical `#task #gtd #pre` / `#task #gtd #post` run renders as o
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ak.1](bob-cli-ak.1.md) | PRE/POST checklist identity glyphs | ✓ closed | medium | 2026-10-21 | 1 | 2 |
 | [bob-cli-ak.2](bob-cli-ak.2.md) | Recurrence marks in Live Preview and rendered views | ✓ closed | medium | 2026-10-21 | 1 | 2 |
-| [bob-cli-ak.3](bob-cli-ak.3.md) | Recurrence marks in Tasks query results | ✓ closed | small | 2026-10-21 | 1 | 1 |
+| [bob-cli-ak.3](bob-cli-ak.3.md) | Recurrence marks in Tasks query results | ✓ closed | small | 2026-10-21 | 1 | 2 |
 
 ## Lineage
 
@@ -54,7 +54,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ak.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.1.md) | [bob-cli-ak.1](bob-cli-ak.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ak.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ak.2/README.md) | [bob-cli-ak.2](bob-cli-ak.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ak.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.3.md) | [bob-cli-ak.3](bob-cli-ak.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ak.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.3.md) | [bob-cli-ak.3](bob-cli-ak.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ak.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ak.land/README.md) | [bob-cli-ak](README.md) | 0 |
 
 ## Commits
@@ -66,6 +66,7 @@ flowchart TD
 | bob-cli | [`6e34d50`](https://github.com/bobs-org/bob-cli/commit/6e34d5076b16e718a1f750fb769cba4bdc1bc5df) | docs(date-marks): specify recurrence-mark display contract and vault repeat row | [bob-cli-ak.2](bob-cli-ak.2.md) | 2026-10-21 09:50:08 EDT |
 | bob-plugins | [`bob-plugins@f98f97e`](https://github.com/bobs-org/bob-plugins/commit/f98f97eeff030dcae9f66eb9e0b582631b1f9897) | feat(ledger-tools): render recurrence marks in Live Preview and rendered views | [bob-cli-ak.2](bob-cli-ak.2.md) | 2026-10-21 09:51:11 EDT |
 | bob-cli | [`8e81f3c`](https://github.com/bobs-org/bob-cli/commit/8e81f3ccd61f20cd35ac9ed569f1ba4c474dac36) | docs(date-marks): specify Tasks recurrence-mark host, guard, and RT vectors | [bob-cli-ak.3](bob-cli-ak.3.md) | 2026-10-21 10:23:14 EDT |
+| bob-plugins | [`bob-plugins@3e014b9`](https://github.com/bobs-org/bob-plugins/commit/3e014b9942f3de917c671a0f5b927f32927b4d84) | feat(ledger-tools): render recurrence marks in Tasks query results | [bob-cli-ak.3](bob-cli-ak.3.md) | 2026-10-21 10:24:21 EDT |
 
 <!-- sase:referenced-by:start -->
 

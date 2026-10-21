@@ -25,13 +25,14 @@ recurrence-tasks: extend the full-mode Tasks frame pass to `span.task-recurring`
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ak.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.3.md) | [bob-cli-ak.3](bob-cli-ak.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ak.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ak.3.md) | [bob-cli-ak.3](bob-cli-ak.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8e81f3c`](https://github.com/bobs-org/bob-cli/commit/8e81f3ccd61f20cd35ac9ed569f1ba4c474dac36) | docs(date-marks): specify Tasks recurrence-mark host, guard, and RT vectors | [bob-cli-ak.3](bob-cli-ak.3.md) | 2026-10-21 10:23:14 EDT |
+| bob-plugins | [`bob-plugins@3e014b9`](https://github.com/bobs-org/bob-plugins/commit/3e014b9942f3de917c671a0f5b927f32927b4d84) | feat(ledger-tools): render recurrence marks in Tasks query results | [bob-cli-ak.3](bob-cli-ak.3.md) | 2026-10-21 10:24:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
