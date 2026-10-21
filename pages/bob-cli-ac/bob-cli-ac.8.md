@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:69aedc409000fc76103efc6e | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -47,3 +49,15 @@ handoff: verify CI, the train, and the docs against what landed, finish any pend
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1257c2e`](https://github.com/bobs-org/bob-cli/commit/1257c2e8d90cfaec4e8d6ad14edc457637685dac) | ci(release): upload binaries via ref instead of unsupported tag input | [bob-cli-ac.8](bob-cli-ac.8.md) | 2026-10-21 00:18:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ac.8--1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ac.8.md
+
+<!-- sase:referenced-by:end -->
