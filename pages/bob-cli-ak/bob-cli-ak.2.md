@@ -20,7 +20,7 @@ recurrence-marks: render each canonical, Tasks-readable `[repeat:: …]` as a qu
 ## Dependencies
 
 - **Depends on:** [bob-cli-ak.1](bob-cli-ak.1.md) ✓ · ⧖ 2026-10-21
-- **Blocks:** [bob-cli-ak.3](bob-cli-ak.3.md) ◐ · ⧖ 2026-10-21
+- **Blocks:** [bob-cli-ak.3](bob-cli-ak.3.md) ✓ · ⧖ 2026-10-21
 
 ## Agents
 
