@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-aq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.2/README.md) | [bob-cli-aq.2](bob-cli-aq.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-aq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.3/README.md) | [bob-cli-aq.3](bob-cli-aq.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-aq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.4/README.md) | [bob-cli-aq.4](bob-cli-aq.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-aq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aq.land.md) | [bob-cli-aq](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-aq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aq.land.md) | [bob-cli-aq](README.md) | 2 |
 
 ## Commits
 
@@ -82,6 +82,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@060395d`](https://github.com/bobs-org/bob-plugins/commit/060395d72fca04391411c33ad8ec2f607234f97e) | feat(ledger-tools): show Alt+P roll preview in the review footer | [bob-cli-aq.3](bob-cli-aq.3.md) | 2026-10-23 07:42:13 EDT |
 | bob-cli | [`8da0c84`](https://github.com/bobs-org/bob-cli/commit/8da0c843ca52dafb88dc34c4e49b2de25ddd916f) | docs(freshness): document Alt+P review roll preview | [bob-cli-aq.4](bob-cli-aq.4.md) | 2026-10-23 07:53:14 EDT |
 | bob-plugins | [`bob-plugins@ceb311b`](https://github.com/bobs-org/bob-plugins/commit/ceb311bb4d8819eb8fa74850479e3a7d1a067602) | fix(navigation): complete quick-roll landing repairs | [bob-cli-aq](README.md) | 2026-10-23 08:35:21 EDT |
+| bob-cli--plans | [`bob-cli--plans@353b4b2`](https://github.com/bobs-org/bob-cli--plans/commit/353b4b2208ad4c6f8df04b3c531f6c6721d0f30a) | docs(plan): mark Alt+P plan done | [bob-cli-aq](README.md) | 2026-10-23 08:36:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
