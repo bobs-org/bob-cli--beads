@@ -26,7 +26,13 @@ footer-preview: bob-ledger-tools shows the compact preview in the footer's hint 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-aq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.3/README.md) | [bob-cli-aq.3](bob-cli-aq.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-aq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.3/README.md) | [bob-cli-aq.3](bob-cli-aq.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@060395d`](https://github.com/bobs-org/bob-plugins/commit/060395d72fca04391411c33ad8ec2f607234f97e) | feat(ledger-tools): show Alt+P roll preview in the review footer | [bob-cli-aq.3](bob-cli-aq.3.md) | 2026-10-23 07:42:13 EDT |
 
 <!-- sase:referenced-by:start -->
 

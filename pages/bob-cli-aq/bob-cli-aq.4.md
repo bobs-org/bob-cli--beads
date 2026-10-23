@@ -32,3 +32,15 @@ review-docs: update the freshness review ritual and the nav API contract in bob-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8da0c84`](https://github.com/bobs-org/bob-cli/commit/8da0c843ca52dafb88dc34c4e49b2de25ddd916f) | docs(freshness): document Alt+P review roll preview | [bob-cli-aq.4](bob-cli-aq.4.md) | 2026-10-23 07:53:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-aq.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.4/README.md
+
+<!-- sase:referenced-by:end -->
