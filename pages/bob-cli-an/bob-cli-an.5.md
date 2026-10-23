@@ -33,8 +33,10 @@ highlight-identity: resolve bob-cli-9o by preserving existing annotation identit
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-an.5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-an.4][1] | Need highlight phase pattern | 1 |
+| read-by | [agent:bob-cli-an.5][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.5/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.5/README.md
 
 <!-- sase:referenced-by:end -->
