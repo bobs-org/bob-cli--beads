@@ -24,7 +24,7 @@ keep-single: build the shared keep-reason stage and prompt model, the counted-ke
 ## Dependencies
 
 - **Depends on:** [bob-cli-as.3](bob-cli-as.3.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.5](bob-cli-as.5.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.5](bob-cli-as.5.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -37,3 +37,15 @@ keep-single: build the shared keep-reason stage and prompt model, the counted-ke
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@22ec6b2`](https://github.com/bobs-org/bob-plugins/commit/22ec6b2f338700f96d25388ef24d81e950bea90f) | feat(navigation): log reasons for single-task rotten keeps | [bob-cli-as.4](bob-cli-as.4.md) | 2026-10-23 10:03:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-as.4--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-as.4.md
+
+<!-- sase:referenced-by:end -->

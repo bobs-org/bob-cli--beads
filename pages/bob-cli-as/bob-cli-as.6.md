@@ -13,7 +13,7 @@ keep-batches: give counted N<Alt+F> and Task Link sessions one prompt that shows
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-as.5](bob-cli-as.5.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-as.5](bob-cli-as.5.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.7](bob-cli-as.7.md) ◐ · ⧖ 2026-10-23
 
 ## Agents

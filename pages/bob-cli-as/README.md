@@ -33,7 +33,7 @@ Every counted keep of a rotten task (Alt+F or Ctrl+Alt+F on an exact due Ready R
 | [bob-cli-as.2](bob-cli-as.2.md) | bob-cli managed-log registry, agenda JSON, and note snapshots | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [bob-cli-as.3](bob-cli-as.3.md) | Navigation plugin Rotten Log grammar, reader, and inserter | ✓ closed | small | 2026-10-23 | 1 | 1 |
 | [bob-cli-as.4](bob-cli-as.4.md) | Keep-reason prompt and combined write for a single keep | ✓ closed | medium | 2026-10-23 | 1 | 1 |
-| [bob-cli-as.5](bob-cli-as.5.md) | Decay card Keep asks why and logs | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
+| [bob-cli-as.5](bob-cli-as.5.md) | Decay card Keep asks why and logs | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [bob-cli-as.6](bob-cli-as.6.md) | Counted and Task Link keep sessions with one combined prompt | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
 | [bob-cli-as.7](bob-cli-as.7.md) | Freshness mark tooltip shows the logged keeps | ◐ in_progress | small | 2026-10-23 | 1 | 0 |
 | [bob-cli-as.8](bob-cli-as.8.md) | Mac agenda renders Rotten Logs with a 🥀 chip | ✓ closed | small | 2026-10-23 | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
     n2["bob-cli-as.2: bob-cli managed-log registry, agenda JSON, and note snapshots [closed]"]
     n3["bob-cli-as.3: Navigation plugin Rotten Log grammar, reader, and inserter [closed]"]
     n4["bob-cli-as.4: Keep-reason prompt and combined write for a single keep [closed]"]
-    n5["bob-cli-as.5: Decay card Keep asks why and logs [in_progress]"]
+    n5["bob-cli-as.5: Decay card Keep asks why and logs [closed]"]
     n6["bob-cli-as.6: Counted and Task Link keep sessions with one combined prompt [in_progress]"]
     n7["bob-cli-as.7: Freshness mark tooltip shows the logged keeps [in_progress]"]
     n8["bob-cli-as.8: Mac agenda renders Rotten Logs with a 🥀 chip [closed]"]
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-as.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.2/README.md) | [bob-cli-as.2](bob-cli-as.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.3/README.md) | [bob-cli-as.3](bob-cli-as.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-as.4.md) | [bob-cli-as.4](bob-cli-as.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-as.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.5/README.md) | [bob-cli-as.5](bob-cli-as.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-as.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.5/README.md) | [bob-cli-as.5](bob-cli-as.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.6/README.md) | [bob-cli-as.6](bob-cli-as.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-as.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.7/README.md) | [bob-cli-as.7](bob-cli-as.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 0 |
@@ -97,6 +97,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@1b1a5ba`](https://github.com/bobs-org/bob-plugins/commit/1b1a5ba7e9da03f7ffe522560ab032d21872c9b5) | feat(navigation): add Rotten Log grammar and reader | [bob-cli-as.3](bob-cli-as.3.md) | 2026-10-23 08:46:13 EDT |
 | bob-cli | [`5eed7df`](https://github.com/bobs-org/bob-cli/commit/5eed7df96a7ce1ca2d07d13c9859e434c34a73ec) | feat(managed-log): register Rotten Log kind with agenda and snapshot support | [bob-cli-as.2](bob-cli-as.2.md) | 2026-10-23 08:50:36 EDT |
 | bob-plugins | [`bob-plugins@22ec6b2`](https://github.com/bobs-org/bob-plugins/commit/22ec6b2f338700f96d25388ef24d81e950bea90f) | feat(navigation): log reasons for single-task rotten keeps | [bob-cli-as.4](bob-cli-as.4.md) | 2026-10-23 10:03:51 EDT |
+| bob-plugins | [`bob-plugins@973acea`](https://github.com/bobs-org/bob-plugins/commit/973aceafeb9c61c1ca1a61792787aa908b89b3de) | feat(navigation): decay card Keep asks why and logs Rotten Log entry | [bob-cli-as.5](bob-cli-as.5.md) | 2026-10-23 10:24:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
