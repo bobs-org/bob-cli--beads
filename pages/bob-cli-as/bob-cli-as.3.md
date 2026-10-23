@@ -30,10 +30,16 @@ nav-grammar: teach bob-navigation-hotkeys the rotten managed-log kind, a history
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-as.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.3/README.md) | [bob-cli-as.3](bob-cli-as.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-as.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.3/README.md) | [bob-cli-as.3](bob-cli-as.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@1b1a5ba`](https://github.com/bobs-org/bob-plugins/commit/1b1a5ba7e9da03f7ffe522560ab032d21872c9b5) | feat(navigation): add Rotten Log grammar and reader | [bob-cli-as.3](bob-cli-as.3.md) | 2026-10-23 08:46:13 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-as.3][1] | Confirm the completed phase is closed after symbol check | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.3/README.md
+
+<!-- sase:referenced-by:end -->

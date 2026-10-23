@@ -17,7 +17,7 @@ record: write decisions:rotten-keeps-are-logged, mark rotten-keeps-use-priority-
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-as.2](bob-cli-as.2.md) ○ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.2](bob-cli-as.2.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.3](bob-cli-as.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
