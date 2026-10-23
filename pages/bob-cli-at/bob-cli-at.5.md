@@ -24,7 +24,13 @@ mac-core: in the linked bob-mac-capture repo, RefsCore decodes the new scan fiel
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-at.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.5.md) | [bob-cli-at.5](bob-cli-at.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-at.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.5.md) | [bob-cli-at.5](bob-cli-at.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@9fb67f3`](https://github.com/bobs-org/bob-mac-capture/commit/9fb67f324f7500a63a184add96b4b03f4254f74f) | feat(refs): decode scan receipts and present PDF updates | [bob-cli-at.5](bob-cli-at.5.md) | 2026-10-23 15:28:44 EDT |
 
 <!-- sase:referenced-by:start -->
 

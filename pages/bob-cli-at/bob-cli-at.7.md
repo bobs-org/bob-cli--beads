@@ -47,3 +47,15 @@ accept: add `scripts/dev/highlights_coordination_acceptance`, a guided, colored,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`134016c`](https://github.com/bobs-org/bob-cli/commit/134016cec23b93c2191c404a812d050f50653833) | feat(highlights): add coordinated PDF writes acceptance kit and docs | [bob-cli-at.7](bob-cli-at.7.md) | 2026-10-23 16:18:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-at.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.7/README.md
+
+<!-- sase:referenced-by:end -->
