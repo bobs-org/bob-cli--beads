@@ -13,7 +13,7 @@ executor: when the policy is on, wrap each marker-write PDF's whole v1/v2 write 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-at.1](bob-cli-at.1.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-at.1](bob-cli-at.1.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [bob-cli-at.2](bob-cli-at.2.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-at.4](bob-cli-at.4.md) ◐ · ⧖ 2026-10-23
 
