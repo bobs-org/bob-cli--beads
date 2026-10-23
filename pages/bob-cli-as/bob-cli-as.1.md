@@ -17,8 +17,8 @@ record: write decisions:rotten-keeps-are-logged, mark rotten-keeps-use-priority-
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-as.2](bob-cli-as.2.md) ◐ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.3](bob-cli-as.3.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.2](bob-cli-as.2.md) ○ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.3](bob-cli-as.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -31,3 +31,15 @@ record: write decisions:rotten-keeps-are-logged, mark rotten-keeps-use-priority-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9c0a19a`](https://github.com/bobs-org/bob-cli/commit/9c0a19a4de9e6d3594c279b14706a8efa8cb0806) | feat(memory): record rotten-keeps-are-logged decision and Rotten Log glossary | [bob-cli-as.1](bob-cli-as.1.md) | 2026-10-23 08:32:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-as.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ keep-single: build the shared keep-reason stage and prompt model, the counted-ke
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-as.3](bob-cli-as.3.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-as.3](bob-cli-as.3.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.5](bob-cli-as.5.md) ◐ · ⧖ 2026-10-23
 
 ## Agents

@@ -13,7 +13,7 @@ mac-agenda: decode the agenda "rotten" log kind in Bob Mac Capture, render its h
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-as.2](bob-cli-as.2.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-as.2](bob-cli-as.2.md) ○ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.9](bob-cli-as.9.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
