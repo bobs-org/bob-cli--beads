@@ -20,7 +20,7 @@ keep-batches: give counted N<Alt+F> and Task Link sessions one prompt that shows
 ## Dependencies
 
 - **Depends on:** [bob-cli-as.5](bob-cli-as.5.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.7](bob-cli-as.7.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.7](bob-cli-as.7.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -33,3 +33,15 @@ keep-batches: give counted N<Alt+F> and Task Link sessions one prompt that shows
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b8ef471`](https://github.com/bobs-org/bob-plugins/commit/b8ef4710a70910a4183a8bceffbea65bd4b0d269) | feat(navigation): log counted keeps across task batches | [bob-cli-as.6](bob-cli-as.6.md) | 2026-10-23 10:50:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-as.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.6/README.md
+
+<!-- sase:referenced-by:end -->
