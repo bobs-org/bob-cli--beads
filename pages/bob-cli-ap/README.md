@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ap.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ap.1.md) | [bob-cli-ap.1](bob-cli-ap.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ap.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ap.2/README.md) | [bob-cli-ap.2](bob-cli-ap.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ap.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ap.3/README.md) | [bob-cli-ap.3](bob-cli-ap.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-ap.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ap.land.md) | [bob-cli-ap](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-ap.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ap.land.md) | [bob-cli-ap](README.md) | 3 |
 
 ## Commits
 
@@ -74,6 +74,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@da5faa8`](https://github.com/bobs-org/bob-mac-capture/commit/da5faa8c54daa19444577564f36f068a1690e01b) | feat(refs): render tucked group pieces in the Refs inspector | [bob-cli-ap.3](bob-cli-ap.3.md) | 2026-10-23 06:37:17 EDT |
 | bob-cli | [`510c8a4`](https://github.com/bobs-org/bob-cli/commit/510c8a4425ca8ff267f3852133f86e1cf64c5cec) | fix(highlights-ref): harden legacy migration coverage and grouping docs | [bob-cli-ap](README.md) | 2026-10-23 07:19:04 EDT |
 | bob-mac-capture | [`bob-mac-capture@69abe98`](https://github.com/bobs-org/bob-mac-capture/commit/69abe987ab73ff32549143abe62153acbfd842da) | fix(refs): count hidden noted entries and name note cards in header | [bob-cli-ap](README.md) | 2026-10-23 07:19:36 EDT |
+| bob-cli--plans | [`bob-cli--plans@4589929`](https://github.com/bobs-org/bob-cli--plans/commit/4589929a5a2409078aa4869c10221df2564aecb2) | chore(plans): mark tucked continuation groups done | [bob-cli-ap](README.md) | 2026-10-23 07:20:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
