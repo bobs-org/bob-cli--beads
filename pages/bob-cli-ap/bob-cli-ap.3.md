@@ -13,7 +13,7 @@ mac-inspector-pieces: in bob-mac-capture, decode the optional `pieces` array and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ap.2](bob-cli-ap.2.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-ap.2](bob-cli-ap.2.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

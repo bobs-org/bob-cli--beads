@@ -19,7 +19,7 @@ tucked-groups: replace the fused group quote with a head quote callout that tuck
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ap.2](bob-cli-ap.2.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-ap.2](bob-cli-ap.2.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -32,3 +32,15 @@ tucked-groups: replace the fused group quote with a head quote callout that tuck
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5376dc6`](https://github.com/bobs-org/bob-cli/commit/5376dc6e7bf2511f7239820fa7e4f55e93772faf) | feat(highlights-ref): render continuation pieces as tucked groups | [bob-cli-ap.1](bob-cli-ap.1.md) | 2026-10-23 06:02:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ap.1--1][1] | Need the phase scope, design file, and prior notes before completing the bead | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ap.1.md
+
+<!-- sase:referenced-by:end -->
