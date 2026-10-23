@@ -13,7 +13,7 @@ footer-preview: bob-ledger-tools shows the compact preview in the footer's hint 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-aq.2](bob-cli-aq.2.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-aq.2](bob-cli-aq.2.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-aq.4](bob-cli-aq.4.md) ◐ · ⧖ 2026-10-23
 
 ## Agents

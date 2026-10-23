@@ -19,7 +19,7 @@ quick-roll-key: add the Task card roll-by-recommendation command on the chosen k
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-aq.2](bob-cli-aq.2.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-aq.2](bob-cli-aq.2.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-aq.4](bob-cli-aq.4.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
@@ -33,3 +33,15 @@ quick-roll-key: add the Task card roll-by-recommendation command on the chosen k
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@92d5809`](https://github.com/bobs-org/bob-plugins/commit/92d5809aa0d12c1d1c00ee1ad1d1302619fe48d2) | feat(nav): add Alt+P quick roll command | [bob-cli-aq.1](bob-cli-aq.1.md) | 2026-10-23 07:14:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-aq.1--1][1] | Need the phase scope, design file, DECISIONS, and existing notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aq.1.md
+
+<!-- sase:referenced-by:end -->
