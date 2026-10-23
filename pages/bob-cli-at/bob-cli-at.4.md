@@ -18,7 +18,7 @@ report: add the additive scan JSON fields (schema stays 1): `summary.held`, `not
 ## Dependencies
 
 - **Depends on:** [bob-cli-at.3](bob-cli-at.3.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-at.5](bob-cli-at.5.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-at.5](bob-cli-at.5.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-at.7](bob-cli-at.7.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
@@ -32,3 +32,15 @@ report: add the additive scan JSON fields (schema stays 1): `summary.held`, `not
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`faa9a75`](https://github.com/bobs-org/bob-cli/commit/faa9a7579d681a4ccbfe47c39155b183df1ec13a) | feat(highlights-ref): add scan JSON held fields, scan receipt, and Darwin notification | [bob-cli-at.4](bob-cli-at.4.md) | 2026-10-23 14:32:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-at.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.4/README.md
+
+<!-- sase:referenced-by:end -->

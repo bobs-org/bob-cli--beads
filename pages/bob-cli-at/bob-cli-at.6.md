@@ -13,7 +13,7 @@ mac-app: in bob-mac-capture, observe `org.bobs.bob.ref.scan-finished` with `noti
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-at.5](bob-cli-at.5.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-at.5](bob-cli-at.5.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-at.7](bob-cli-at.7.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
