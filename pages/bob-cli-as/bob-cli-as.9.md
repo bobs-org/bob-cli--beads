@@ -15,7 +15,7 @@ docs: update docs/freshness.md, docs/projects.md, the morning-review guide, and 
 
 - **Depends on:** [bob-cli-as.2](bob-cli-as.2.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [bob-cli-as.7](bob-cli-as.7.md) ◐ · ⧖ 2026-10-23
-- **Depends on:** [bob-cli-as.8](bob-cli-as.8.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-as.8](bob-cli-as.8.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

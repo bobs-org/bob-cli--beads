@@ -18,7 +18,7 @@ registry: add ManagedTaskLogKind::Rotten with the 🥀 marker grammar, fix the S
 ## Dependencies
 
 - **Depends on:** [bob-cli-as.1](bob-cli-as.1.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.8](bob-cli-as.8.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.8](bob-cli-as.8.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.9](bob-cli-as.9.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
@@ -32,3 +32,15 @@ registry: add ManagedTaskLogKind::Rotten with the 🥀 marker grammar, fix the S
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5eed7df`](https://github.com/bobs-org/bob-cli/commit/5eed7df96a7ce1ca2d07d13c9859e434c34a73ec) | feat(managed-log): register Rotten Log kind with agenda and snapshot support | [bob-cli-as.2](bob-cli-as.2.md) | 2026-10-23 08:50:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-as.2][1] | Need full description plus notes to check remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.2/README.md
+
+<!-- sase:referenced-by:end -->

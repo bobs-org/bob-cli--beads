@@ -22,7 +22,7 @@ Every counted keep of a rotten task (Alt+F or Ctrl+Alt+F on an exact due Ready R
 | [bob-cli-as.5](bob-cli-as.5.md) | Decay card Keep asks why and logs | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
 | [bob-cli-as.6](bob-cli-as.6.md) | Counted and Task Link keep sessions with one combined prompt | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
 | [bob-cli-as.7](bob-cli-as.7.md) | Freshness mark tooltip shows the logged keeps | ◐ in_progress | small | 2026-10-23 | 1 | 0 |
-| [bob-cli-as.8](bob-cli-as.8.md) | Mac agenda renders Rotten Logs with a 🥀 chip | ◐ in_progress | small | 2026-10-23 | 1 | 0 |
+| [bob-cli-as.8](bob-cli-as.8.md) | Mac agenda renders Rotten Logs with a 🥀 chip | ✓ closed | small | 2026-10-23 | 1 | 1 |
 | [bob-cli-as.9](bob-cli-as.9.md) | Behavior contracts, guide, and rollout record in bob-cli docs | ◐ in_progress | small | 2026-10-23 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +37,7 @@ flowchart TD
     n5["bob-cli-as.5: Decay card Keep asks why and logs [in_progress]"]
     n6["bob-cli-as.6: Counted and Task Link keep sessions with one combined prompt [in_progress]"]
     n7["bob-cli-as.7: Freshness mark tooltip shows the logged keeps [in_progress]"]
-    n8["bob-cli-as.8: Mac agenda renders Rotten Logs with a 🥀 chip [in_progress]"]
+    n8["bob-cli-as.8: Mac agenda renders Rotten Logs with a 🥀 chip [closed]"]
     n9["bob-cli-as.9: Behavior contracts, guide, and rollout record in bob-cli docs [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-as.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.5/README.md) | [bob-cli-as.5](bob-cli-as.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-as.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.6/README.md) | [bob-cli-as.6](bob-cli-as.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-as.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.7/README.md) | [bob-cli-as.7](bob-cli-as.7.md) | 0 |
-| [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.9/README.md) | [bob-cli-as.9](bob-cli-as.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-as.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.land/README.md) | [bob-cli-as](README.md) | 0 |
 
@@ -81,6 +81,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`9c0a19a`](https://github.com/bobs-org/bob-cli/commit/9c0a19a4de9e6d3594c279b14706a8efa8cb0806) | feat(memory): record rotten-keeps-are-logged decision and Rotten Log glossary | [bob-cli-as.1](bob-cli-as.1.md) | 2026-10-23 08:32:30 EDT |
 | bob-cli | [`5eed7df`](https://github.com/bobs-org/bob-cli/commit/5eed7df96a7ce1ca2d07d13c9859e434c34a73ec) | feat(managed-log): register Rotten Log kind with agenda and snapshot support | [bob-cli-as.2](bob-cli-as.2.md) | 2026-10-23 08:50:36 EDT |
+| bob-mac-capture | [`bob-mac-capture@73202c8`](https://github.com/bobs-org/bob-mac-capture/commit/73202c8142ca2fd4b3335d524df6153bc9ed3ef0) | feat(agenda): render Rotten Logs with a rotten chip | [bob-cli-as.8](bob-cli-as.8.md) | 2026-10-23 09:01:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -89,7 +90,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-as.1][1] | Need epic DECISIONS and plan context | 1 |
+| read-by | [agent:bob-cli-as.2][2] | Need epic DECISIONS and scope for phase 2 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.2/README.md
 
 <!-- sase:referenced-by:end -->
