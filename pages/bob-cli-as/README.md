@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-as.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.7/README.md) | [bob-cli-as.7](bob-cli-as.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.9/README.md) | [bob-cli-as.9](bob-cli-as.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-as.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-as.land.md) | [bob-cli-as](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-as.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-as.land.md) | [bob-cli-as](README.md) | 3 |
 
 ## Commits
 
@@ -112,6 +112,7 @@ flowchart TD
 | bob-cli | [`dd9bdb8`](https://github.com/bobs-org/bob-cli/commit/dd9bdb86daee393cb4b7da9fa1c39daca7c7ba6c) | docs(freshness): document Rotten Log keep flow | [bob-cli-as.9](bob-cli-as.9.md) | 2026-10-23 11:15:55 EDT |
 | bob-cli | [`c07a65c`](https://github.com/bobs-org/bob-cli/commit/c07a65cc704bc33a31cda61a918e310fabe5d2f9) | feat(rotten-log): land Rotten Log consequence tests and docs | [bob-cli-as](README.md) | 2026-10-23 11:59:45 EDT |
 | bob-plugins | [`bob-plugins@c9364b0`](https://github.com/bobs-org/bob-plugins/commit/c9364b02ba04ad6e9c20382891e8a79c24f46e22) | feat(rotten-log): land tooltip contract, grammar tests and card fixes | [bob-cli-as](README.md) | 2026-10-23 12:00:23 EDT |
+| bob-cli--plans | [`bob-cli--plans@82c1c6a`](https://github.com/bobs-org/bob-cli--plans/commit/82c1c6ad8ab532adc3dee30251058d6be0eefe3b) | chore(rotten-log): mark landing plan done | [bob-cli-as](README.md) | 2026-10-23 12:00:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
