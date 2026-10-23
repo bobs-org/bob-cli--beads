@@ -19,7 +19,7 @@ coordinate: add `native::file_coordination`, a bounded `.forMerging` coordinated
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-at.3](bob-cli-at.3.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-at.3](bob-cli-at.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -32,3 +32,15 @@ coordinate: add `native::file_coordination`, a bounded `.forMerging` coordinated
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0aec807`](https://github.com/bobs-org/bob-cli/commit/0aec807c422c4a1d3d1be6ba5daa078473242071) | feat(native): add bounded macOS file coordination | [bob-cli-at.1](bob-cli-at.1.md) | 2026-10-23 12:44:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-at.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.1.md
+
+<!-- sase:referenced-by:end -->

@@ -31,7 +31,7 @@ When `bob ref scan` or `bob ref sync -w` on the Mac updates a ref PDF's page-1 m
 |---|---|---|---|---|---:|---:|
 | [bob-cli-at.1](bob-cli-at.1.md) | macOS file-coordination primitive | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [bob-cli-at.2](bob-cli-at.2.md) | Coordination config, reading-activity probe, and budgets | ✓ closed | small | 2026-10-23 | 1 | 1 |
-| [bob-cli-at.3](bob-cli-at.3.md) | Coordinated marker writes, holds, and human reporting | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
+| [bob-cli-at.3](bob-cli-at.3.md) | Coordinated marker writes, holds, and human reporting | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [bob-cli-at.4](bob-cli-at.4.md) | Scan JSON fields, scan receipt, and the Darwin notification | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
 | [bob-cli-at.5](bob-cli-at.5.md) | Bob Mac Capture core decoding and open-PDF presentation | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
 | [bob-cli-at.6](bob-cli-at.6.md) | Bob Mac Capture receipt observer, notifications, and settings | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
@@ -44,7 +44,7 @@ flowchart TD
     n0["bob-cli-at: Open PDFs stay in step with bob (Highlights saves first, then reloads in place) [in_progress]"]
     n1["bob-cli-at.1: macOS file-coordination primitive [closed]"]
     n2["bob-cli-at.2: Coordination config, reading-activity probe, and budgets [closed]"]
-    n3["bob-cli-at.3: Coordinated marker writes, holds, and human reporting [in_progress]"]
+    n3["bob-cli-at.3: Coordinated marker writes, holds, and human reporting [closed]"]
     n4["bob-cli-at.4: Scan JSON fields, scan receipt, and the Darwin notification [in_progress]"]
     n5["bob-cli-at.5: Bob Mac Capture core decoding and open-PDF presentation [in_progress]"]
     n6["bob-cli-at.6: Bob Mac Capture receipt observer, notifications, and settings [in_progress]"]
@@ -71,7 +71,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-at.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.1.md) | [bob-cli-at.1](bob-cli-at.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-at.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.2.md) | [bob-cli-at.2](bob-cli-at.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-at.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.3/README.md) | [bob-cli-at.3](bob-cli-at.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-at.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.3/README.md) | [bob-cli-at.3](bob-cli-at.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-at.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.4/README.md) | [bob-cli-at.4](bob-cli-at.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-at.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.5/README.md) | [bob-cli-at.5](bob-cli-at.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-at.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md) | [bob-cli-at.6](bob-cli-at.6.md) | 0 |
@@ -84,6 +84,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`6480e7c`](https://github.com/bobs-org/bob-cli/commit/6480e7cc7c84d168559cad6b4d3ec9c5831af3d6) | feat(highlights-ref): stage PDF write policy and reading-activity probe | [bob-cli-at.2](bob-cli-at.2.md) | 2026-10-23 12:21:55 EDT |
 | bob-cli | [`0aec807`](https://github.com/bobs-org/bob-cli/commit/0aec807c422c4a1d3d1be6ba5daa078473242071) | feat(native): add bounded macOS file coordination | [bob-cli-at.1](bob-cli-at.1.md) | 2026-10-23 12:44:36 EDT |
+| bob-cli | [`cd4bc7a`](https://github.com/bobs-org/bob-cli/commit/cd4bc7a0cb23cb6d1eb13fc2c66da7d17d6a9eb7) | feat(highlights): coordinate PDF marker writes with holds and human reporting | [bob-cli-at.3](bob-cli-at.3.md) | 2026-10-23 13:49:27 EDT |
 
 <!-- sase:referenced-by:start -->
 

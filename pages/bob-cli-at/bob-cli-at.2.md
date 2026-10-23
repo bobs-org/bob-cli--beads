@@ -17,7 +17,7 @@ policy: parse `highlights.coordinate_pdf_writes` (bool, default false) into `Hig
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-at.3](bob-cli-at.3.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-at.3](bob-cli-at.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
