@@ -40,7 +40,9 @@ tucked-groups: replace the fused group quote with a head quote callout that tuck
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ap.1--1][1] | Need the phase scope, design file, and prior notes before completing the bead | 4 |
+| read-by | [agent:bob-cli-ap.2][2] | Need dependency status for ap.2 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ap.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ap.2/README.md
 
 <!-- sase:referenced-by:end -->

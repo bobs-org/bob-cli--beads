@@ -18,7 +18,7 @@ show-pieces: add an additive `pieces` array to `bob ref show` JSON for groups, k
 ## Dependencies
 
 - **Depends on:** [bob-cli-ap.1](bob-cli-ap.1.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-ap.3](bob-cli-ap.3.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-ap.3](bob-cli-ap.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -31,3 +31,15 @@ show-pieces: add an additive `pieces` array to `bob ref show` JSON for groups, k
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f2c2453`](https://github.com/bobs-org/bob-cli/commit/f2c24531b5796878af1bff47d984bccababec6bf) | feat(ref): expose annotation group pieces with seams in show | [bob-cli-ap.2](bob-cli-ap.2.md) | 2026-10-23 06:16:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ap.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ap.2/README.md
+
+<!-- sase:referenced-by:end -->
