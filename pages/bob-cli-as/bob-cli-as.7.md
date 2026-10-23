@@ -13,7 +13,7 @@ mark-tooltip: add a "🥀 N keeps logged · last <date> — <reason>" line to th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-as.6](bob-cli-as.6.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-as.6](bob-cli-as.6.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.9](bob-cli-as.9.md) ◐ · ⧖ 2026-10-23
 
 ## Agents

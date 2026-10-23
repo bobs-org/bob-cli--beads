@@ -45,7 +45,9 @@ keep-single: build the shared keep-reason stage and prompt model, the counted-ke
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-as.4--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-as.5][2] | Need keep-single implementation context for card-keep | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-as.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.5/README.md
 
 <!-- sase:referenced-by:end -->

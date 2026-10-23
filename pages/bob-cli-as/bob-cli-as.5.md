@@ -26,7 +26,7 @@ card-keep: turn the approved-decay card's Keep into an in-card reason stage that
 ## Dependencies
 
 - **Depends on:** [bob-cli-as.4](bob-cli-as.4.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.6](bob-cli-as.6.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.6](bob-cli-as.6.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -39,3 +39,15 @@ card-keep: turn the approved-decay card's Keep into an in-card reason stage that
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@973acea`](https://github.com/bobs-org/bob-plugins/commit/973aceafeb9c61c1ca1a61792787aa908b89b3de) | feat(navigation): decay card Keep asks why and logs Rotten Log entry | [bob-cli-as.5](bob-cli-as.5.md) | 2026-10-23 10:24:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-as.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.5/README.md
+
+<!-- sase:referenced-by:end -->
