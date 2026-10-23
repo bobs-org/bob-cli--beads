@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-at.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.5.md) | [bob-cli-at.5](bob-cli-at.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-at.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md) | [bob-cli-at.6](bob-cli-at.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-at.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.7/README.md) | [bob-cli-at.7](bob-cli-at.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-at.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md) | [bob-cli-at](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-at.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md) | [bob-cli-at](README.md) | 2 |
 
 ## Commits
 
@@ -102,6 +102,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@6dc2c12`](https://github.com/bobs-org/bob-mac-capture/commit/6dc2c126ea4c1c7de683c672c714f48828690171) | feat(refs): observe scan receipts and notify for open PDF updates | [bob-cli-at.6](bob-cli-at.6.md) | 2026-10-23 15:56:42 EDT |
 | bob-cli | [`134016c`](https://github.com/bobs-org/bob-cli/commit/134016cec23b93c2191c404a812d050f50653833) | feat(highlights): add coordinated PDF writes acceptance kit and docs | [bob-cli-at.7](bob-cli-at.7.md) | 2026-10-23 16:18:23 EDT |
 | bob-cli | [`7e3bdb2`](https://github.com/bobs-org/bob-cli/commit/7e3bdb2e25285d788d82975dcf7958ffabb17ae7) | fix(highlights): make the coordination acceptance self-test run without pandoc | [bob-cli-at](README.md) | 2026-10-23 16:52:13 EDT |
+| bob-mac-capture | [`bob-mac-capture@6e1f84c`](https://github.com/bobs-org/bob-mac-capture/commit/6e1f84c10748598cdf862469aeec2baa136103a7) | fix(refs): compile the scan receipt observer on macOS | [bob-cli-at](README.md) | 2026-10-23 16:52:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
