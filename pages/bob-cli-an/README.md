@@ -59,6 +59,12 @@ flowchart TD
     n9["bob-cli-an.6.3: Restrict Bryan's user Supervisor bridge and the Multivisor web UI [closed]"]
     n10["bob-cli-an.6.4: Decide and enforce rfserver's function-port boundary [closed]"]
     n11["bob-cli-an.6.5: Make new reference IDs follow stems and stay unique across ref/ [closed]"]
+    n12["bob-cli-an.6.6: Backlog batch 3: rfserver suspension, backup tier freshness, Eastern day boundary, web-clip quote fidelity, and relative ref paths [in_progress]"]
+    n13["bob-cli-an.6.6.1: Stop rfserver trusting X-Forwarded-For for token suspension [closed]"]
+    n14["bob-cli-an.6.6.2: Prove daily, weekly, and monthly backup rotations advance [open]"]
+    n15["bob-cli-an.6.6.3: Make bob's today follow Bryan's Eastern day on every host [in_progress]"]
+    n16["bob-cli-an.6.6.4: Render web clips with static fonts so Highlights quotes keep whole words [in_progress]"]
+    n17["bob-cli-an.6.6.5: Map relative PDF paths to their real reference notes [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -70,6 +76,12 @@ flowchart TD
     n6 --> n9
     n6 --> n10
     n6 --> n11
+    n6 --> n12
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
+    n12 --> n16
+    n12 --> n17
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n4
@@ -91,7 +103,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-an.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.3.md) | [bob-cli-an.6.3](bob-cli-an.6.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.4.md) | [bob-cli-an.6.4](bob-cli-an.6.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.5.md) | [bob-cli-an.6.5](bob-cli-an.6.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.land/README.md) | [bob-cli-an.6](bob-cli-an.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.1/README.md) | [bob-cli-an.6.6.1](bob-cli-an.6.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.2/README.md) | [bob-cli-an.6.6.2](bob-cli-an.6.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.3/README.md) | [bob-cli-an.6.6.3](bob-cli-an.6.6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.4/README.md) | [bob-cli-an.6.6.4](bob-cli-an.6.6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.5/README.md) | [bob-cli-an.6.6.5](bob-cli-an.6.6.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.land/README.md) | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md) | [bob-cli-an.6](bob-cli-an.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.land.md) | [bob-cli-an](README.md) | 2 |
 
 ## Commits
@@ -120,7 +138,7 @@ flowchart TD
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.5/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.land.md
 
 <!-- sase:referenced-by:end -->
