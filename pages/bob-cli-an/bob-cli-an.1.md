@@ -35,8 +35,10 @@ supervisor: resolve bob-cli-8u with restricted authenticated control, protected 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.1--3][1] | Need the phase scope, design file, prior work, and accepted decisions before continuing verification | 2 |
 | read-by | [agent:bob-cli-an.4][2] | Need prior phase pattern for host work | 1 |
+| read-by | [agent:bob-cli-an.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.land.md
 
 <!-- sase:referenced-by:end -->
