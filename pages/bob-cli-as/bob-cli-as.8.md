@@ -18,13 +18,19 @@ mac-agenda: decode the agenda "rotten" log kind in Bob Mac Capture, render its h
 ## Dependencies
 
 - **Depends on:** [bob-cli-as.2](bob-cli-as.2.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.9](bob-cli-as.9.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.9](bob-cli-as.9.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@73202c8`](https://github.com/bobs-org/bob-mac-capture/commit/73202c8142ca2fd4b3335d524df6153bc9ed3ef0) | feat(agenda): render Rotten Logs with a rotten chip | [bob-cli-as.8](bob-cli-as.8.md) | 2026-10-23 09:01:31 EDT |
 
 <!-- sase:referenced-by:start -->
 

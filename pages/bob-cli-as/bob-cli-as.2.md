@@ -19,7 +19,7 @@ registry: add ManagedTaskLogKind::Rotten with the 🥀 marker grammar, fix the S
 
 - **Depends on:** [bob-cli-as.1](bob-cli-as.1.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.8](bob-cli-as.8.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.9](bob-cli-as.9.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.9](bob-cli-as.9.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

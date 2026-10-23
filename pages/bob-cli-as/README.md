@@ -36,8 +36,8 @@ Every counted keep of a rotten task (Alt+F or Ctrl+Alt+F on an exact due Ready R
 | [bob-cli-as.5](bob-cli-as.5.md) | Decay card Keep asks why and logs | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [bob-cli-as.6](bob-cli-as.6.md) | Counted and Task Link keep sessions with one combined prompt | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [bob-cli-as.7](bob-cli-as.7.md) | Freshness mark tooltip shows the logged keeps | ✓ closed | small | 2026-10-23 | 1 | 1 |
-| [bob-cli-as.8](bob-cli-as.8.md) | Mac agenda renders Rotten Logs with a 🥀 chip | ✓ closed | small | 2026-10-23 | 1 | 0 |
-| [bob-cli-as.9](bob-cli-as.9.md) | Behavior contracts, guide, and rollout record in bob-cli docs | ◐ in_progress | small | 2026-10-23 | 1 | 0 |
+| [bob-cli-as.8](bob-cli-as.8.md) | Mac agenda renders Rotten Logs with a 🥀 chip | ✓ closed | small | 2026-10-23 | 1 | 1 |
+| [bob-cli-as.9](bob-cli-as.9.md) | Behavior contracts, guide, and rollout record in bob-cli docs | ✓ closed | small | 2026-10-23 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +52,7 @@ flowchart TD
     n6["bob-cli-as.6: Counted and Task Link keep sessions with one combined prompt [closed]"]
     n7["bob-cli-as.7: Freshness mark tooltip shows the logged keeps [closed]"]
     n8["bob-cli-as.8: Mac agenda renders Rotten Logs with a 🥀 chip [closed]"]
-    n9["bob-cli-as.9: Behavior contracts, guide, and rollout record in bob-cli docs [in_progress]"]
+    n9["bob-cli-as.9: Behavior contracts, guide, and rollout record in bob-cli docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -85,8 +85,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-as.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.5/README.md) | [bob-cli-as.5](bob-cli-as.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.6/README.md) | [bob-cli-as.6](bob-cli-as.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.7/README.md) | [bob-cli-as.7](bob-cli-as.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-as.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.9/README.md) | [bob-cli-as.9](bob-cli-as.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-as.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.8/README.md) | [bob-cli-as.8](bob-cli-as.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-as.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.9/README.md) | [bob-cli-as.9](bob-cli-as.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-as.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.land/README.md) | [bob-cli-as](README.md) | 0 |
 
 ## Commits
@@ -96,10 +96,12 @@ flowchart TD
 | bob-cli | [`9c0a19a`](https://github.com/bobs-org/bob-cli/commit/9c0a19a4de9e6d3594c279b14706a8efa8cb0806) | feat(memory): record rotten-keeps-are-logged decision and Rotten Log glossary | [bob-cli-as.1](bob-cli-as.1.md) | 2026-10-23 08:32:30 EDT |
 | bob-plugins | [`bob-plugins@1b1a5ba`](https://github.com/bobs-org/bob-plugins/commit/1b1a5ba7e9da03f7ffe522560ab032d21872c9b5) | feat(navigation): add Rotten Log grammar and reader | [bob-cli-as.3](bob-cli-as.3.md) | 2026-10-23 08:46:13 EDT |
 | bob-cli | [`5eed7df`](https://github.com/bobs-org/bob-cli/commit/5eed7df96a7ce1ca2d07d13c9859e434c34a73ec) | feat(managed-log): register Rotten Log kind with agenda and snapshot support | [bob-cli-as.2](bob-cli-as.2.md) | 2026-10-23 08:50:36 EDT |
+| bob-mac-capture | [`bob-mac-capture@73202c8`](https://github.com/bobs-org/bob-mac-capture/commit/73202c8142ca2fd4b3335d524df6153bc9ed3ef0) | feat(agenda): render Rotten Logs with a rotten chip | [bob-cli-as.8](bob-cli-as.8.md) | 2026-10-23 09:01:31 EDT |
 | bob-plugins | [`bob-plugins@22ec6b2`](https://github.com/bobs-org/bob-plugins/commit/22ec6b2f338700f96d25388ef24d81e950bea90f) | feat(navigation): log reasons for single-task rotten keeps | [bob-cli-as.4](bob-cli-as.4.md) | 2026-10-23 10:03:51 EDT |
 | bob-plugins | [`bob-plugins@973acea`](https://github.com/bobs-org/bob-plugins/commit/973aceafeb9c61c1ca1a61792787aa908b89b3de) | feat(navigation): decay card Keep asks why and logs Rotten Log entry | [bob-cli-as.5](bob-cli-as.5.md) | 2026-10-23 10:24:42 EDT |
 | bob-plugins | [`bob-plugins@b8ef471`](https://github.com/bobs-org/bob-plugins/commit/b8ef4710a70910a4183a8bceffbea65bd4b0d269) | feat(navigation): log counted keeps across task batches | [bob-cli-as.6](bob-cli-as.6.md) | 2026-10-23 10:50:44 EDT |
 | bob-plugins | [`bob-plugins@f5557ec`](https://github.com/bobs-org/bob-plugins/commit/f5557ecc4b0a1fd4e2bed05d049d6cabbc7ee089) | feat(freshness): show rotten keeps in mark tooltips | [bob-cli-as.7](bob-cli-as.7.md) | 2026-10-23 11:04:07 EDT |
+| bob-cli | [`dd9bdb8`](https://github.com/bobs-org/bob-cli/commit/dd9bdb86daee393cb4b7da9fa1c39daca7c7ba6c) | docs(freshness): document Rotten Log keep flow | [bob-cli-as.9](bob-cli-as.9.md) | 2026-10-23 11:15:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
