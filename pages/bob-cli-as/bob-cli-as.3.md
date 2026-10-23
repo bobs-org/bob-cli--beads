@@ -24,13 +24,19 @@ nav-grammar: teach bob-navigation-hotkeys the rotten managed-log kind, a history
 ## Dependencies
 
 - **Depends on:** [bob-cli-as.1](bob-cli-as.1.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-as.4](bob-cli-as.4.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-as.4](bob-cli-as.4.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-as.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.3/README.md) | [bob-cli-as.3](bob-cli-as.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-as.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.3/README.md) | [bob-cli-as.3](bob-cli-as.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@1b1a5ba`](https://github.com/bobs-org/bob-plugins/commit/1b1a5ba7e9da03f7ffe522560ab032d21872c9b5) | feat(navigation): add Rotten Log grammar and reader | [bob-cli-as.3](bob-cli-as.3.md) | 2026-10-23 08:46:13 EDT |
 
 <!-- sase:referenced-by:start -->
 

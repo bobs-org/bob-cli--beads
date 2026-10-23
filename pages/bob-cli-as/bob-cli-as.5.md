@@ -13,7 +13,7 @@ card-keep: turn the approved-decay card's Keep into an in-card reason stage that
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-as.4](bob-cli-as.4.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-as.4](bob-cli-as.4.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-as.6](bob-cli-as.6.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
