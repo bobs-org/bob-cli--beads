@@ -14,7 +14,7 @@ accept: add `scripts/dev/highlights_coordination_acceptance`, a guided, colored,
 ## Dependencies
 
 - **Depends on:** [bob-cli-at.4](bob-cli-at.4.md) ✓ · ⧖ 2026-10-23
-- **Depends on:** [bob-cli-at.6](bob-cli-at.6.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-at.6](bob-cli-at.6.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

@@ -18,7 +18,7 @@ mac-core: in the linked bob-mac-capture repo, RefsCore decodes the new scan fiel
 ## Dependencies
 
 - **Depends on:** [bob-cli-at.4](bob-cli-at.4.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-at.6](bob-cli-at.6.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-at.6](bob-cli-at.6.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -31,3 +31,15 @@ mac-core: in the linked bob-mac-capture repo, RefsCore decodes the new scan fiel
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@9fb67f3`](https://github.com/bobs-org/bob-mac-capture/commit/9fb67f324f7500a63a184add96b4b03f4254f74f) | feat(refs): decode scan receipts and present PDF updates | [bob-cli-at.5](bob-cli-at.5.md) | 2026-10-23 15:28:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-at.5--5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.5.md
+
+<!-- sase:referenced-by:end -->
