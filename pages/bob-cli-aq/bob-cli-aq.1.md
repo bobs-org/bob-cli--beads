@@ -41,7 +41,9 @@ quick-roll-key: add the Task card roll-by-recommendation command on the chosen k
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-aq.1--1][1] | Need the phase scope, design file, DECISIONS, and existing notes | 1 |
+| read-by | [agent:bob-cli-aq.2][2] | Need phase 1 scope to build phase 2 on top | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-aq.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.2/README.md
 
 <!-- sase:referenced-by:end -->

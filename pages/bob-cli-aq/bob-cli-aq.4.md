@@ -15,7 +15,7 @@ review-docs: update the freshness review ritual and the nav API contract in bob-
 
 - **Depends on:** [bob-cli-aq.1](bob-cli-aq.1.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [bob-cli-aq.2](bob-cli-aq.2.md) ✓ · ⧖ 2026-10-23
-- **Depends on:** [bob-cli-aq.3](bob-cli-aq.3.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-aq.3](bob-cli-aq.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
