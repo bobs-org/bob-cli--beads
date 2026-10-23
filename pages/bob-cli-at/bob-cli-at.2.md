@@ -38,7 +38,9 @@ policy: parse `highlights.coordinate_pdf_writes` (bool, default false) into `Hig
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-at.2--2][1] | Confirm close landed after unpublished-push warning | 3 |
+| read-by | [agent:bob-cli-at.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -40,7 +40,9 @@ executor: when the policy is on, wrap each marker-write PDF's whole v1/v2 write 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-at.3][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:bob-cli-at.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md
 
 <!-- sase:referenced-by:end -->

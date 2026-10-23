@@ -19,7 +19,7 @@
 | related | [bead:bob-cli-b0][4] | Follow-up proposed by bob-cli-at.7; builds on the coordinated marker-write executor, hold vocabulary, and decisions:open-pdf-writes-are-coordinated |
 | related | [bead:bob-cli-b1][5] | Follow-up proposed by bob-cli-at.7; builds on the coordinated marker-write executor, hold vocabulary, and decisions:open-pdf-writes-are-coordinated |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/highlights_coordinated_marker_writes.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ay/README.md
@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-at.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.5.md) | [bob-cli-at.5](bob-cli-at.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-at.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md) | [bob-cli-at.6](bob-cli-at.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-at.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.7/README.md) | [bob-cli-at.7](bob-cli-at.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-at.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md) | [bob-cli-at](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-at.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md) | [bob-cli-at](README.md) | 3 |
 
 ## Commits
 
@@ -103,6 +103,7 @@ flowchart TD
 | bob-cli | [`134016c`](https://github.com/bobs-org/bob-cli/commit/134016cec23b93c2191c404a812d050f50653833) | feat(highlights): add coordinated PDF writes acceptance kit and docs | [bob-cli-at.7](bob-cli-at.7.md) | 2026-10-23 16:18:23 EDT |
 | bob-cli | [`7e3bdb2`](https://github.com/bobs-org/bob-cli/commit/7e3bdb2e25285d788d82975dcf7958ffabb17ae7) | fix(highlights): make the coordination acceptance self-test run without pandoc | [bob-cli-at](README.md) | 2026-10-23 16:52:13 EDT |
 | bob-mac-capture | [`bob-mac-capture@6e1f84c`](https://github.com/bobs-org/bob-mac-capture/commit/6e1f84c10748598cdf862469aeec2baa136103a7) | fix(refs): compile the scan receipt observer on macOS | [bob-cli-at](README.md) | 2026-10-23 16:52:56 EDT |
+| bob-cli--plans | [`bob-cli--plans@9dc4891`](https://github.com/bobs-org/bob-cli--plans/commit/9dc4891be1a4f7f0f9b6ff341ede7cf66464f14f) | chore(plans): mark highlights\_coordinated\_marker\_writes done | [bob-cli-at](README.md) | 2026-10-23 16:53:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -115,11 +116,13 @@ flowchart TD
 | read-by | [agent:bob-cli-at.4][3] | epic context for phase 4 | 1 |
 | read-by | [agent:bob-cli-at.6][4] | Need epic-level DECISIONS, phase list, and remaining work context | 1 |
 | read-by | [agent:bob-cli-at.7][5] | epic context | 1 |
+| read-by | [agent:bob-cli-at.land][6] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.2.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.4/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.7/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md
 
 <!-- sase:referenced-by:end -->

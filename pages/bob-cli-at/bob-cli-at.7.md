@@ -55,7 +55,9 @@ accept: add `scripts/dev/highlights_coordination_acceptance`, a guided, colored,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-at.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-at.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md
 
 <!-- sase:referenced-by:end -->

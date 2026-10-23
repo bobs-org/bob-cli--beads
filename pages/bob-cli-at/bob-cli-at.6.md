@@ -39,7 +39,9 @@ mac-app: in bob-mac-capture, observe `org.bobs.bob.ref.scan-finished` with `noti
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-at.6][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-at.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md
 
 <!-- sase:referenced-by:end -->

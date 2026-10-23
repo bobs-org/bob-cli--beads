@@ -39,7 +39,9 @@ mac-core: in the linked bob-mac-capture repo, RefsCore decodes the new scan fiel
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-at.5--5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-at.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-at.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.land/README.md
 
 <!-- sase:referenced-by:end -->
