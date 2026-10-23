@@ -32,3 +32,15 @@ docs: update docs/freshness.md, docs/projects.md, the morning-review guide, and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dd9bdb8`](https://github.com/bobs-org/bob-cli/commit/dd9bdb86daee393cb4b7da9fa1c39daca7c7ba6c) | docs(freshness): document Rotten Log keep flow | [bob-cli-as.9](bob-cli-as.9.md) | 2026-10-23 11:15:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-as.9][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-as.9/README.md
+
+<!-- sase:referenced-by:end -->
