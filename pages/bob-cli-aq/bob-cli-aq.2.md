@@ -21,19 +21,13 @@ review-preview: extract one shared recommendation planner, format the concise ro
 
 - **Depends on:** [bob-cli-aq.1](bob-cli-aq.1.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-aq.3](bob-cli-aq.3.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-aq.4](bob-cli-aq.4.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-aq.4](bob-cli-aq.4.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-aq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.2/README.md) | [bob-cli-aq.2](bob-cli-aq.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@391277f`](https://github.com/bobs-org/bob-plugins/commit/391277f74655c7bb5195790c113c6147e5b4fd8f) | feat(nav): add roll preview to review-walk landings and api.quickRoll | [bob-cli-aq.2](bob-cli-aq.2.md) | 2026-10-23 07:30:36 EDT |
+| [bbugyi200.athena.bob-cli-aq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-aq.2/README.md) | [bob-cli-aq.2](bob-cli-aq.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
