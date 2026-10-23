@@ -52,7 +52,7 @@ Close five prioritized task beads by removing the remaining Bryan-to-root cron c
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.1--1][1] | need epic scope for 6.1 vs 6.2 split | 1 |
-| read-by | [agent:bob-cli-an.6.land][2] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-an.6.land][2] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md

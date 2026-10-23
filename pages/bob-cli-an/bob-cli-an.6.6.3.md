@@ -11,8 +11,12 @@
 
 day-timezone: resolve bob-cli-2q by applying the day_timezone decision so evening commands on apollo target the correct daily note and date stamps.
 
+## Notes
+
+[2026-10-23T21:47:29Z · bob-cli-an.6.6.3] PROPOSED FOLLOW-UP: Regenerate docs/develop/decisions.md — just docs-check reports this generated drift identically on the clean base; existing task bob-cli-b6 tracks it.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.3/README.md) | [bob-cli-an.6.6.3](bob-cli-an.6.6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.3.md) | [bob-cli-an.6.6.3](bob-cli-an.6.6.3.md) | 0 |
