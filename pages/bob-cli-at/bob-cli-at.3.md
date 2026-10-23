@@ -19,7 +19,7 @@ executor: when the policy is on, wrap each marker-write PDF's whole v1/v2 write 
 
 - **Depends on:** [bob-cli-at.1](bob-cli-at.1.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [bob-cli-at.2](bob-cli-at.2.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-at.4](bob-cli-at.4.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-at.4](bob-cli-at.4.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -32,3 +32,15 @@ executor: when the policy is on, wrap each marker-write PDF's whole v1/v2 write 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cd4bc7a`](https://github.com/bobs-org/bob-cli/commit/cd4bc7a0cb23cb6d1eb13fc2c66da7d17d6a9eb7) | feat(highlights): coordinate PDF marker writes with holds and human reporting | [bob-cli-at.3](bob-cli-at.3.md) | 2026-10-23 13:49:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-at.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.3/README.md
+
+<!-- sase:referenced-by:end -->

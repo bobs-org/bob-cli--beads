@@ -13,7 +13,7 @@ mac-core: in the linked bob-mac-capture repo, RefsCore decodes the new scan fiel
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-at.4](bob-cli-at.4.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [bob-cli-at.4](bob-cli-at.4.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-at.6](bob-cli-at.6.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
