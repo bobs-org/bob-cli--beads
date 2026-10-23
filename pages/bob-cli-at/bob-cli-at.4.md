@@ -19,7 +19,7 @@ report: add the additive scan JSON fields (schema stays 1): `summary.held`, `not
 
 - **Depends on:** [bob-cli-at.3](bob-cli-at.3.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [bob-cli-at.5](bob-cli-at.5.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-at.7](bob-cli-at.7.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-at.7](bob-cli-at.7.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

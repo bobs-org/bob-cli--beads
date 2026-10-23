@@ -18,16 +18,22 @@ mac-app: in bob-mac-capture, observe `org.bobs.bob.ref.scan-finished` with `noti
 ## Dependencies
 
 - **Depends on:** [bob-cli-at.5](bob-cli-at.5.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [bob-cli-at.7](bob-cli-at.7.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [bob-cli-at.7](bob-cli-at.7.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-at.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md) | [bob-cli-at.6](bob-cli-at.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-at.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md) | [bob-cli-at.6](bob-cli-at.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@6dc2c12`](https://github.com/bobs-org/bob-mac-capture/commit/6dc2c126ea4c1c7de683c672c714f48828690171) | feat(refs): observe scan receipts and notify for open PDF updates | [bob-cli-at.6](bob-cli-at.6.md) | 2026-10-23 15:56:42 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-at.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-at.6/README.md
+
+<!-- sase:referenced-by:end -->
