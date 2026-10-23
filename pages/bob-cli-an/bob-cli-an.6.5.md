@@ -28,3 +28,15 @@ ref-id-allocation: resolve bob-cli-8o so created references record their actual 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9885bde`](https://github.com/bobs-org/bob-cli/commit/9885bde15100fcf41d5dcc99053c443a184d04d6) | fix(ref): allocate unique IDs from output stems | [bob-cli-an.6.5](bob-cli-an.6.5.md) | 2026-10-23 13:32:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.5--1][1] | Need the phase scope, design file, and prior work notes before completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.5.md
+
+<!-- sase:referenced-by:end -->
