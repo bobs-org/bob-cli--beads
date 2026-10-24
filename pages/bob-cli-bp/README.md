@@ -7,6 +7,20 @@
 **Created:** 2026-10-24 16:30:44 EDT
 **Plan:** [202610/daily\_note\_day\_strip.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/daily_note_day_strip.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/daily_note_day_strip.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/daily_note_day_strip.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every canonical daily note (`YYYY/YYYYMMDD.md`) ends with a quiet, beautiful Day strip of that day's own facts (Worked, Reviewed, Done, Created, Review closed, and the area time mix). It is painted from cache in the first frame, re-runs `bob stats` only while it is on screen and the data has changed and aged, and is never written into the note.
@@ -15,9 +29,9 @@ Every canonical daily note (`YYYY/YYYYMMDD.md`) ends with a quiet, beautiful Day
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-bp.1](bob-cli-bp.1.md) | bob stats reads "not yet" for an unmet provisional boolean | ✓ closed | small | 2026-10-24 | 1 | 0 |
+| [bob-cli-bp.1](bob-cli-bp.1.md) | bob stats reads "not yet" for an unmet provisional boolean | ✓ closed | small | 2026-10-24 | 1 | 1 |
 | [bob-cli-bp.2](bob-cli-bp.2.md) | Stats fetch service fixes for the Stats page and the strip | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bp.3](bob-cli-bp.3.md) | Day strip model, painter, styles, and preview matrix | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bp.3](bob-cli-bp.3.md) | Day strip model, painter, styles, and preview matrix | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bp.4](bob-cli-bp.4.md) | Day strip data selection, refresh policy, fence, and Stats hand-off | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bp.5](bob-cli-bp.5.md) | Virtual Live Preview mount, controls, and plugin docs | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bp.6](bob-cli-bp.6.md) | Day strip contract in bob-cli docs and memory | ◐ in_progress | small | 2026-10-24 | 1 | 0 |
@@ -29,7 +43,7 @@ flowchart TD
     n0["bob-cli-bp: Day strip — a compact daily-stats receipt at the bottom of Bob daily notes [in_progress]"]
     n1["bob-cli-bp.1: bob stats reads \"not yet\" for an unmet provisional boolean [closed]"]
     n2["bob-cli-bp.2: Stats fetch service fixes for the Stats page and the strip [closed]"]
-    n3["bob-cli-bp.3: Day strip model, painter, styles, and preview matrix [in_progress]"]
+    n3["bob-cli-bp.3: Day strip model, painter, styles, and preview matrix [closed]"]
     n4["bob-cli-bp.4: Day strip data selection, refresh policy, fence, and Stats hand-off [in_progress]"]
     n5["bob-cli-bp.5: Virtual Live Preview mount, controls, and plugin docs [in_progress]"]
     n6["bob-cli-bp.6: Day strip contract in bob-cli docs and memory [in_progress]"]
@@ -51,9 +65,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bp.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.1/README.md) | [bob-cli-bp.1](bob-cli-bp.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.1/README.md) | [bob-cli-bp.1](bob-cli-bp.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bp.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md) | [bob-cli-bp.2](bob-cli-bp.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.3/README.md) | [bob-cli-bp.3](bob-cli-bp.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.3.md) | [bob-cli-bp.3](bob-cli-bp.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md) | [bob-cli-bp.4](bob-cli-bp.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.5/README.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.6/README.md) | [bob-cli-bp.6](bob-cli-bp.6.md) | 0 |
@@ -63,4 +77,18 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-cli | [`0fc6ebf`](https://github.com/bobs-org/bob-cli/commit/0fc6ebfaccaca03e00dab4f0ee6552db2c92834c) | fix(stats): mark unmet provisional booleans not yet | [bob-cli-bp.1](bob-cli-bp.1.md) | 2026-10-24 16:51:15 EDT |
 | bob-plugins | [`bob-plugins@6ce2e17`](https://github.com/bobs-org/bob-plugins/commit/6ce2e17b63f645295a5f5c0e20d47bbff2418d85) | feat(ledger-tools): per-key FIFO fetch queue with stats cache, peek and grouping | [bob-cli-bp.2](bob-cli-bp.2.md) | 2026-10-24 16:57:37 EDT |
+| bob-plugins | [`bob-plugins@38b6b1b`](https://github.com/bobs-org/bob-plugins/commit/38b6b1b91aeebdfd4fa51ea85441803a36038183) | feat(stats): add Day strip model, painter, and preview matrix | [bob-cli-bp.3](bob-cli-bp.3.md) | 2026-10-24 17:36:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bp.2][1] | epic context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md
+
+<!-- sase:referenced-by:end -->

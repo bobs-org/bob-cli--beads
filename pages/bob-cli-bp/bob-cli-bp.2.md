@@ -23,7 +23,7 @@ fetch-service: in bob-plugins' bob-ledger-tools, give each key its own in-flight
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bp.3](bob-cli-bp.3.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bp.3](bob-cli-bp.3.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bp.4](bob-cli-bp.4.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
@@ -37,3 +37,15 @@ fetch-service: in bob-plugins' bob-ledger-tools, give each key its own in-flight
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6ce2e17`](https://github.com/bobs-org/bob-plugins/commit/6ce2e17b63f645295a5f5c0e20d47bbff2418d85) | feat(ledger-tools): per-key FIFO fetch queue with stats cache, peek and grouping | [bob-cli-bp.2](bob-cli-bp.2.md) | 2026-10-24 16:57:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bp.2][1] | full read | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md
+
+<!-- sase:referenced-by:end -->
