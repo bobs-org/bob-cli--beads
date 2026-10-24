@@ -92,7 +92,7 @@ flowchart TD
     n34["bob-cli-an.6.6.6.5.6.5: Backlog batch 7: URL identity, Gist metadata, close summaries, and Mac CI [in_progress]"]
     n35["bob-cli-an.6.6.6.5.6.5.1: Normalize equivalent URL path spellings without merging distinct resources [closed]"]
     n36["bob-cli-an.6.6.6.5.6.5.2: Give Gist clips a real author and a readable content title [closed]"]
-    n37["bob-cli-an.6.6.6.5.6.5.3: Resolve close-summary headlines after Work Log edits shift the ledger [in_progress]"]
+    n37["bob-cli-an.6.6.6.5.6.5.3: Resolve close-summary headlines after Work Log edits shift the ledger [closed]"]
     n38["bob-cli-an.6.6.6.5.6.5.4: Restore Mac save-key test compilation and the mounted Refs docs gate [closed]"]
     n0 --> n1
     n0 --> n2
@@ -175,7 +175,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.4.md) | [bob-cli-an.6.6.6.5.6.4](bob-cli-an.6.6.6.5.6.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.1/README.md) | [bob-cli-an.6.6.6.5.6.5.1](bob-cli-an.6.6.6.5.6.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.2/README.md) | [bob-cli-an.6.6.6.5.6.5.2](bob-cli-an.6.6.6.5.6.5.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.3.md) | [bob-cli-an.6.6.6.5.6.5.3](bob-cli-an.6.6.6.5.6.5.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.3.md) | [bob-cli-an.6.6.6.5.6.5.3](bob-cli-an.6.6.6.5.6.5.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.4/README.md) | [bob-cli-an.6.6.6.5.6.5.4](bob-cli-an.6.6.6.5.6.5.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land/README.md) | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md) | [bob-cli-an.6.6.6.5.6](bob-cli-an.6.6.6.5.6.md) | 1 |
@@ -216,6 +216,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@200c7ac`](https://github.com/bobs-org/bob-cli--plans/commit/200c7ac89799b193acaa73da6e4e0c550f37ab29) | docs(plans): mark backlog batch 6 complete | [bob-cli-an.6.6.6.5.6](bob-cli-an.6.6.6.5.6.md) | 2026-10-24 12:28:47 EDT |
 | bob-cli | [`e3754c0`](https://github.com/bobs-org/bob-cli/commit/e3754c0ddbb8531265668fbfcedab227e6ae4884) | feat(web-clip): improve Gist author and title metadata | [bob-cli-an.6.6.6.5.6.5.2](bob-cli-an.6.6.6.5.6.5.2.md) | 2026-10-24 12:50:17 EDT |
 | bob-cli | [`f2524e8`](https://github.com/bobs-org/bob-cli/commit/f2524e8053471e73421aaf75430a03bd0cd485e9) | fix(highlights-ref): normalize URL identity escapes for shared dedupe key | [bob-cli-an.6.6.6.5.6.5.1](bob-cli-an.6.6.6.5.6.5.1.md) | 2026-10-24 12:55:53 EDT |
+| bob-cli | [`ae993b5`](https://github.com/bobs-org/bob-cli/commit/ae993b5bbcd4c2b00b153b8ff96303b4efa9d67e) | fix(capture): resolve close headline after ledger edits | [bob-cli-an.6.6.6.5.6.5.3](bob-cli-an.6.6.6.5.6.5.3.md) | 2026-10-24 13:12:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
