@@ -13,7 +13,7 @@ mac: in bob-mac-capture, decode sections, project section headers into the inspe
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bd.5](bob-cli-bd.5.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bd.5](bob-cli-bd.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

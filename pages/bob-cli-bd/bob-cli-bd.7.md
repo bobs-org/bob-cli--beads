@@ -13,7 +13,7 @@ docs: write the user-facing Sections guide in docs/highlights-ref-sync.md, add t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bd.5](bob-cli-bd.5.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bd.5](bob-cli-bd.5.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bd.6](bob-cli-bd.6.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
