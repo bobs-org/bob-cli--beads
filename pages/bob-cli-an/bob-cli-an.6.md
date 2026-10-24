@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch2_athena_hardening_and_ref_ids.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch2_athena_hardening_and_ref_ids.md
 
@@ -52,9 +52,11 @@ Close five prioritized task beads by removing the remaining Bryan-to-root cron c
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.1--1][1] | need epic scope for 6.1 vs 6.2 split | 1 |
-| read-by | [agent:bob-cli-an.6.land][2] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:bob-cli-an.6.6.land][2] | Need the parent landing notes | 2 |
+| read-by | [agent:bob-cli-an.6.land][3] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.1.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
 
 <!-- sase:referenced-by:end -->
