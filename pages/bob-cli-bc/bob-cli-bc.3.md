@@ -21,7 +21,7 @@ prefs: add the journal writers, collision hints, the vault allowlist and union-m
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bc.10](bob-cli-bc.10.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.10](bob-cli-bc.10.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.2](bob-cli-bc.2.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.6](bob-cli-bc.6.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.7](bob-cli-bc.7.md) ◐ · ⧖ 2026-10-24

@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-bc](README.md) / bob-cli-bc.10
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2c.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2c.linker.w1.md) · **Assignee:** `bob-cli-bc.10` · **Size:** medium
-**Created:** 2026-10-24 07:52:22 EDT
+**Created:** 2026-10-24 07:52:22 EDT · **Closed:** 2026-10-24 13:47:58 EDT
 **Plan:** [202610/pomodoro\_themes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_themes.md)
 
 ## Description
 
 obsidian-pickers: compose recent rows, swatches, near-duplicate badges, and Ctrl+D hide in the link picker and nav Pomodoro pickers.
+
+## Notes
+
+[2026-10-24T17:47:58Z · bob-cli-bc.10] Implemented recent Pomodoro themes in the Link to today and navigation pickers, including swatches, near-duplicate hints, spelling preservation, and reversible Ctrl+D hide. Verified npm run validate, 81 focused tests, git diff --check, docs lint/generated drift, and bob plugins sync. The strict docs site-build process exited but its final status was not captured.
 
 ## Dependencies
 
@@ -22,7 +26,13 @@ obsidian-pickers: compose recent rows, swatches, near-duplicate badges, and Ctrl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3825f19`](https://github.com/bobs-org/bob-plugins/commit/3825f19b832da75064f6684c7b1256f33bc9cd4b) | feat(plugins): add recent theme suggestions to Obsidian pickers | [bob-cli-bc.10](bob-cli-bc.10.md) | 2026-10-24 13:55:34 EDT |
 
 <!-- sase:referenced-by:start -->
 

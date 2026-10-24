@@ -21,7 +21,7 @@ mac-menus: render Today/Recent rows with swatches, hide and undo with Ctrl+D, an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.7/README.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
