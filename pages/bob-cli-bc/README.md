@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-bc
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2c.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2c.linker.w1.md) · **Assignee:** `bob-cli-bc.land`
-**Created:** 2026-10-24 07:52:22 EDT
+**Created:** 2026-10-24 07:52:22 EDT · **Closed:** 2026-10-24 16:56:44 EDT
 **Plan:** [202610/pomodoro\_themes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_themes.md)
 
 <!-- sase:links:start -->
@@ -35,6 +35,10 @@ Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists 
 
 [2026-10-24T18:02:29Z · bob-cli-an.6.6.6.5.6.5.land--1] DISCOVERED ISSUE from batch-7 canonical check (2026-10-24): on current HEAD 2da7bbef, tests/cli/help_options.rs::capture_complete_help_lists_options_alphabetically fails even when run alone. The assertion has required `creates the named placeholder later` since 7d1c8dd30 (2026-09-28). The captured `bob capture-complete --help` output contains the other asserted strings but omits this required phrase; 2da7bbef changed the corresponding Pomodoro-start-name help paragraph, replacing the placeholder/create-row description with `A planned placeholder that a bare = would start carries next_up`. The change is in the active themes completion work, not batch 7; route the help-contract repair through this epic. The batch-7 work did not change capture-complete help.
 
+[2026-10-24T20:11:54Z · bob-cli-bc.land] LAND TRIAGE of child PROPOSED FOLLOW-UPs (bob-cli-bc.land): (1) bc.4 #8 again-row ordering (A,B,A offers B first; pre-existing since fa717730d) -> new task bob-cli-bn (bug, small, ready). (2) capture-related debug perf gate (bc.3 #2, bc.4 #4 related part, bc.7 #1, bc.13 #1) -> new task bob-cli-bo (flake, small, ready); capture-related never loads the theme catalog. (3) bc.8 #1 Mac CaptureRelationPanelTests.swift:227 'hidden must precede count' -> DISCOVERED ISSUE note on active epic bob-cli-bj (bj.1 7dc96cf authored the test after bc.7 a49a08b added hidden); no task. DECLINED: highlights continuation scan failures (bc.4 #1/#9, bc.5 #2, bc.6 #1) pass at master 7e41788c (fixed by 8a7b02e1); refs.md word budget (bc.4 #3, bc.5 #3) fixed by bob-mac-capture c5d560c and already tracked by bob-cli-bh; bc.1 #1 docs URL obligations resolved when bc.2 shipped docs/pomodoro-themes.md and docs/reference/cli/themes.md. EPIC-CAUSED, kept as remaining epic work (tale): kinds decisions for themes rename old/new (epic notes #1-#3, bc.4 #7); capture-complete help phrase dropped by 2da7bbef (epic note #4); completion tests bash_strips_every_wordbreak_not_just_colon, named_start_completes_after_hash, named_start_after_inline_close_keeps_prefix (plus load-only caret_completes_active_tasks / solo_route_colon_lists_existing_tasks) time out at the 150 ms deadline because the shared ~/.cache/bob-cli/themes catalog-v1.json (974 KB) and known-keys-v1.json (621 KB) accumulate every test vault forever and CLI tests do not isolate XDG_CACHE_HOME; cold debug completion is 388 ms against the polluted cache versus 28 ms isolated.
+
+[2026-10-24T20:56:44Z · bob-cli-bc.land--2] Verified all 13 phases closed with code on origin/master (bob-cli 5c9cfda1 32e0e8fa f6f79099 4a6f4494 8628ce2f 2da7bbef 7e41788c; bob-plugins d2699df 3825f19 1202c6a d3ea6bb; bob-mac-capture a49a08b a306745 fbea724; chezmoi a0787598) and the epic DECISIONS (area hues, bob themes noun, seeded pins, glossary + four decision records). Integration: relations 57d77612 already rebased the theme journal on pref_journal; no other post-start commit needed changes. Land fixes: themes rename old/new completion kinds; capture-complete help create-row sentence restored (CLI reference regenerated); theme cache prunes vanished vaults, orphaned completion views, and stale temp files; CLI test harnesses isolate XDG_CACHE_HOME. just check: passed on retry after the isolated listen test passed following an ETXTBSY run; just docs-check, targeted suites, cargo fmt --check, and git diff --check: passed; cold =# completion: 20 ms; themes cache: 5715 to 20 entries. Follow-ups: bob-cli-bn (again-row ordering), bob-cli-bo (capture-related perf flake), DISCOVERED ISSUE on bob-cli-bj (Mac CaptureRelationPanelTests hidden/count order); declined items recorded in the epic's LAND TRIAGE note.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -57,7 +61,7 @@ Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-bc: Pomodoro themes — remembered, hideable, renameable, and colored everywhere [in_progress]"]
+    n0["bob-cli-bc: Pomodoro themes — remembered, hideable, renameable, and colored everywhere [closed]"]
     n1["bob-cli-bc.1: Lossless name reuse and the exact-name literal [closed]"]
     n2["bob-cli-bc.10: Recent themes and Ctrl+D in the Obsidian pickers [closed]"]
     n3["bob-cli-bc.11: Obsidian Pomodoro themes manager [closed]"]
@@ -123,7 +127,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.8/README.md) | [bob-cli-bc.8](bob-cli-bc.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md) | [bob-cli-bc.9](bob-cli-bc.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.land/README.md) | [bob-cli-bc](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.land.md) | [bob-cli-bc](README.md) | 1 |
 
 ## Commits
 
@@ -144,6 +148,7 @@ flowchart TD
 | bob-cli | [`7e41788`](https://github.com/bobs-org/bob-cli/commit/7e41788c090b8321ef914b7f245edfa6a9503fa5) | docs(themes): reconcile Pomodoro theme contract and glossary | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:36:18 EDT |
 | bob-mac-capture | [`bob-mac-capture@fbea724`](https://github.com/bobs-org/bob-mac-capture/commit/fbea724ff3733153e6e76b6c6731dc949c6d4783) | docs(mac-capture): link Pomodoro themes contract | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:37:59 EDT |
 | bob-plugins | [`bob-plugins@d3ea6bb`](https://github.com/bobs-org/bob-plugins/commit/d3ea6bb8e4c8937a42ff93bbda580d9f9192085c) | test(themes): sync plugin vectors with bob-cli | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:38:49 EDT |
+| bob-cli | [`09b2695`](https://github.com/bobs-org/bob-cli/commit/09b269571c34708a944bdfa7b86ecdb641df5d1b) | fix(pomodoro-themes): bound cache and restore completion contracts | [bob-cli-bc](README.md) | 2026-10-24 16:57:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
