@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md
 
@@ -56,10 +56,12 @@ Close five prioritized task beads. Stop Highlights from dropping quoted lines th
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.4][1] | Need parent epic plan and design | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.5--2][2] | Confirm the phase ancestor was left unclosed | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.land][3] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][3] | Recheck direct parent previous landing notes and linked-plan readiness after batch 6 | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.land][4] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
 
 <!-- sase:referenced-by:end -->

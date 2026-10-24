@@ -33,8 +33,10 @@ rfserver-port: resolve bob-cli-aw by inventorying port 23401 clients, choosing t
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-an.6.land][1] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][1] | Review every ancestor phase note for unresolved follow-ups and completion | 1 |
+| read-by | [agent:bob-cli-an.6.land][2] | Need the child scope and notes | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
 
 <!-- sase:referenced-by:end -->

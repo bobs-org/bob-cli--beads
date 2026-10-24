@@ -34,7 +34,9 @@ ci-scripts-identity: resolve bob-cli-b5 by persisting the scratch vault's git id
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][2] | Review every ancestor phase note for unresolved follow-ups and completion | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
 
 <!-- sase:referenced-by:end -->

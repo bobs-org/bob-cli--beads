@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch3_rfserver_backups_day_zone_webclip_fonts_ref_paths.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch3_rfserver_backups_day_zone_webclip_fonts_ref_paths.md
 
@@ -65,13 +65,15 @@ Close five prioritized task beads by hardening rfserver's token suspension, prov
 | read-by | [agent:bob-cli-an.6.6.1][1] | Need epic decisions and handoffs | 1 |
 | read-by | [agent:bob-cli-an.6.6.4][2] | Need parent epic plan and sibling phases | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.5--2][3] | Confirm the phase ancestor was left unclosed | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.land][4] | Recheck closed plan ancestors of bob-cli-an.6.6.6.5 after landing | 1 |
-| read-by | [agent:bob-cli-an.6.6.land][5] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][4] | Recheck batch 3 prior landing and linked plan before parent traversal | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.land][5] | Recheck closed plan ancestors of bob-cli-an.6.6.6.5 after landing | 1 |
+| read-by | [agent:bob-cli-an.6.6.land][6] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.land.md
 
 <!-- sase:referenced-by:end -->

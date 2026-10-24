@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch6_color_quote_walk_blocks_shift_promotion_race_mac_panel_ci.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch6_color_quote_walk_blocks_shift_promotion_race_mac_panel_ci.md
 
 <!-- sase:links:end -->
@@ -39,6 +41,10 @@ Close five prioritized task beads. Stop color-grouped Highlights sidecars from r
 
 [2026-10-24T16:28:16Z · bob-cli-an.6.6.6.5.6.land--2] CONTINUATION READY (2026-10-24): independent scratch audit ga15at6gw4qq passed; bf and epic closed normally. Parent readiness traversed an.6.6.6.5 -> an.6.6.6 -> an.6.6 -> an.6 -> an: all 33 campaign descendants closed, named phase counts match, linked plans schema-valid/done, no epic-symbols; no symvision recipe. Parent notes record drift and prior follow-up dispositions. Fresh complete unresolved enumeration is 124 (120 ready, four snoozed 3o/6q/aa/ah; zero open/claimed/in_progress). Existing tasks 7u,86,2t,bg,bh remain unclaimed and not owned by another active plan. Successor sase_plan_backlog_batch7_url_identity_gist_metadata_close_summary_mac_ci.md validated with --explain then without, zero warnings, four independent medium phases, parent this epic, full continuation contract retained. Committing archived batch-6 plan status then proposing this bounded successor; successful handoff will archive it as plan:202610/backlog_batch7_url_identity_gist_metadata_close_summary_mac_ci.md. No product source changes in this landing turn.
 
+[2026-10-24T16:30:13Z · bob-cli-an.6.6.6.5.6.land--2] REPOSITORY OBLIGATIONS COMPLETE: plans status-done commit 200c7ac pushed; plans and primary worktrees clean and not ahead of upstream. Other opened source repositories unchanged. Archived batch-6 status done and schema rechecked; successor preserves the full mandatory continuation contract exactly. SASE commit wrapper exited 0; it reported deferred prompt/agent archive publication via its existing outbox, with pri
+
+… and 67 more characters
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -50,3 +56,15 @@ Close five prioritized task beads. Stop color-grouped Highlights sidecars from r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli--plans | [`bob-cli--plans@200c7ac`](https://github.com/bobs-org/bob-cli--plans/commit/200c7ac89799b193acaa73da6e4e0c550f37ab29) | docs(plans): mark backlog batch 6 complete | [bob-cli-an.6.6.6.5.6](bob-cli-an.6.6.6.5.6.md) | 2026-10-24 12:28:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][1] | Need the epic scope, children, linked plan, and resume checkpoint | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
+
+<!-- sase:referenced-by:end -->
