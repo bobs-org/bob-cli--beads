@@ -39,18 +39,19 @@ Audit incident: one diagnostic accidentally used the stale binary without BOB_DI
 
 [2026-10-24T11:28:26Z · bob-cli-an.6.6.6.land] Landing closeout (bob-cli-an.6.6.6.land / finish_batch4 tale, 2026-10-24). All four original phases remain closed with no PROPOSED FOLLOW-UP. b5, 6v, and 7i stay closed from the prior land audit. This tale finished the three audit remainders: (1) capture_flag_guard now walks mixed short clusters through their value-taking option, then rejects unknown alphabetic longs; clap-declaration consistency test added; capture::flag_guard 9/9; isolated vault/inbox/template shelf unchanged; capture_flag_guard=refuse honored. (2) relationLabelAuthoredReplacement removed; pending Return waits for a fresh bob capture-complete typed row (generation + exact authoredLabel); disabledReason consulted even on empty replacement; no Swift quoting. CaptureRelationPanelTests cover delayed/out-of-order/immediate Return/edit-after-Return/dismiss-reopen/repeated Return plus realistic refusals. Thin-client decision honored. (3) Mac model tests omit --require-pull-in-choice without positive pull_in.supported; guard-refusal obtains a capability-bearing no-offer preview then a write-only refusal via FAKE_BOB_CAPTURE_WRITE_STDOUT. Verification: just check green on bob-cli; just portable-check 1555/0 in bob-mac-capture; AppKit scratch typecheck on mac (rsync without .build/.git, bundle.sh --identity '-', just typecheck-tests) PASS BobMacCaptureTests. Known b7 RefsLibraryTests remain preexisting. Follow-up dispositions unchanged: b7 +1 already recorded; capture::related debug-perf overrun in CI 40085996699 still a single observation, not filed. epic-symbols empty; justfile has no symvision recipe. 8a and al closed with the notes above. Post-start integration: this tale's uncommitted source is the remainder; no later unrelated master commits were integrated. Parent bob-cli-an.6.6 is already closed; rechecked and noted. Backlog campaign continues: 132 unresolved at start of this closeout (128 ready, 4 snoozed).
 
+[2026-10-24T11:35:33Z · bob-cli-an.6.6.6.land] CONTINUATION (2026-10-24): fresh enumeration after 8a/al close is 130 unresolved (126 ready, 4 snoozed: 3o, 6q, aa, ah). Successor epic scratch sase_plan_backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md validated with 0 warnings. Owns ba (highlight-quote-heading), 4r (highlight-marker-mirror, after ba), bb (pomodoro-name-reuse), 2l (completed-link-dedupe), b7 (mac-refs-scan-ci). One decision highlight_id_on_quote_fix default remint. Commits: bob-cli 3d62fb54, bob-mac-capture 54131b1, plans status done. Proposing next.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.land.md) | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 3 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.land.md) | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3d62fb5`](https://github.com/bobs-org/bob-cli/commit/3d62fb548fde190cddad0e8d5b2b80a23bde1e0c) | fix(capture): walk mixed short clusters before unknown-flag refusal | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:33:27 EDT |
-| bob-mac-capture | [`bob-mac-capture@54131b1`](https://github.com/bobs-org/bob-mac-capture/commit/54131b189da279d6e5b5b2c21b5b4f0e76400848) | fix(capture): take relation labels from bob and omit ungated pull-in | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:34:13 EDT |
 | bob-cli--plans | [`bob-cli--plans@0a8ca46`](https://github.com/bobs-org/bob-cli--plans/commit/0a8ca4610cc97eacdda6b71b01867d9c78035aca) | chore(plans): mark backlog batch 4 epic plan done | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:34:52 EDT |
 
 <!-- sase:referenced-by:start -->
