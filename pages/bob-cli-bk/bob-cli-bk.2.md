@@ -26,7 +26,7 @@ route-apply: `-i/--inbox-route` answers move candidates through the task-move en
 ## Dependencies
 
 - **Depends on:** [bob-cli-bk.1](bob-cli-bk.1.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bk.3](bob-cli-bk.3.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bk.3](bob-cli-bk.3.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -39,3 +39,15 @@ route-apply: `-i/--inbox-route` answers move candidates through the task-move en
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4f13e97`](https://github.com/bobs-org/bob-cli/commit/4f13e979eb3dba1a69c840bfb2c34a9d0ff7ecd6) | feat(capture): route inbox answers through task-move engine | [bob-cli-bk.2](bob-cli-bk.2.md) | 2026-10-24 16:34:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bk.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.2/README.md
+
+<!-- sase:referenced-by:end -->

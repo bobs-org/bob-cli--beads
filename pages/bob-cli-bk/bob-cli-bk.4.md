@@ -13,7 +13,7 @@ mac-route-card: the panel shows the route card on Return after any pull-in card,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bk.3](bob-cli-bk.3.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bk.3](bob-cli-bk.3.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
