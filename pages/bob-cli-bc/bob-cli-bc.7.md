@@ -21,13 +21,19 @@ mac-menus: render Today/Recent rows with swatches, hide and undo with Ctrl+D, an
 
 - **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.4](bob-cli-bc.4.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.8](bob-cli-bc.8.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.8](bob-cli-bc.8.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@a49a08b`](https://github.com/bobs-org/bob-mac-capture/commit/a49a08b0c5bfb8ed50baec9424388188583c12e3) | feat(capture): add recent theme menus and name suggestions | [bob-cli-bc.7](bob-cli-bc.7.md) | 2026-10-24 14:11:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -40,8 +40,8 @@ Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-bc.1](bob-cli-bc.1.md) | Lossless name reuse and the exact-name literal | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bc.10](bob-cli-bc.10.md) | Recent themes and Ctrl+D in the Obsidian pickers | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bc.11](bob-cli-bc.11.md) | Obsidian Pomodoro themes manager | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bc.10](bob-cli-bc.10.md) | Recent themes and Ctrl+D in the Obsidian pickers | ✓ closed | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bc.11](bob-cli-bc.11.md) | Obsidian Pomodoro themes manager | ✓ closed | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.12](bob-cli-bc.12.md) | Menu-bar theme swatch | ✓ closed | small | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.13](bob-cli-bc.13.md) | Decision records, glossary, and end-to-end acceptance | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.2](bob-cli-bc.2.md) | Theme catalog engine, \`bob themes list\`, and the contract | ✓ closed | medium | 2026-10-24 | 1 | 1 |
@@ -49,9 +49,9 @@ Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists 
 | [bob-cli-bc.4](bob-cli-bc.4.md) | Recent themes in capture-complete | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.5](bob-cli-bc.5.md) | Theme hues across bob JSON and terminal output | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.6](bob-cli-bc.6.md) | Global theme rename transaction | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bc.7](bob-cli-bc.7.md) | Mac Capture recent rows, Ctrl+D hide, and Name it suggestions | ✓ closed | medium | 2026-10-24 | 1 | 0 |
-| [bob-cli-bc.8](bob-cli-bc.8.md) | Mac Capture theme tints, agenda pills, and preview swatches | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
-| [bob-cli-bc.9](bob-cli-bc.9.md) | Obsidian api.themes and theme pills | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bc.7](bob-cli-bc.7.md) | Mac Capture recent rows, Ctrl+D hide, and Name it suggestions | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bc.8](bob-cli-bc.8.md) | Mac Capture theme tints, agenda pills, and preview swatches | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bc.9](bob-cli-bc.9.md) | Obsidian api.themes and theme pills | ✓ closed | medium | 2026-10-24 | 1 | 0 |
 
 ## Lineage
 
@@ -69,7 +69,7 @@ flowchart TD
     n9["bob-cli-bc.5: Theme hues across bob JSON and terminal output [closed]"]
     n10["bob-cli-bc.6: Global theme rename transaction [closed]"]
     n11["bob-cli-bc.7: Mac Capture recent rows, Ctrl+D hide, and Name it suggestions [closed]"]
-    n12["bob-cli-bc.8: Mac Capture theme tints, agenda pills, and preview swatches [in_progress]"]
+    n12["bob-cli-bc.8: Mac Capture theme tints, agenda pills, and preview swatches [closed]"]
     n13["bob-cli-bc.9: Obsidian api.themes and theme pills [closed]"]
     n0 --> n1
     n0 --> n2
@@ -111,8 +111,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-bc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.1/README.md) | [bob-cli-bc.1](bob-cli-bc.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.11/README.md) | [bob-cli-bc.11](bob-cli-bc.11.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.11/README.md) | [bob-cli-bc.11](bob-cli-bc.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.12/README.md) | [bob-cli-bc.12](bob-cli-bc.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.2/README.md) | [bob-cli-bc.2](bob-cli-bc.2.md) | 1 |
@@ -120,9 +120,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.4/README.md) | [bob-cli-bc.4](bob-cli-bc.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.5.md) | [bob-cli-bc.5](bob-cli-bc.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.6/README.md) | [bob-cli-bc.6](bob-cli-bc.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.8/README.md) | [bob-cli-bc.8](bob-cli-bc.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md) | [bob-cli-bc.9](bob-cli-bc.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.8/README.md) | [bob-cli-bc.8](bob-cli-bc.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md) | [bob-cli-bc.9](bob-cli-bc.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.land/README.md) | [bob-cli-bc](README.md) | 0 |
 
 ## Commits
@@ -130,14 +130,13 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5c9cfda`](https://github.com/bobs-org/bob-cli/commit/5c9cfda1271438107bac7f1fd8e47849181e4454) | feat(themes): add derived catalog and bob themes list | [bob-cli-bc.2](bob-cli-bc.2.md) | 2026-10-24 08:41:17 EDT |
-| bob-plugins | [`bob-plugins@d2699df`](https://github.com/bobs-org/bob-plugins/commit/d2699df8c5a6bcba72f45a58661cafc9991f3860) | feat(ledger-tools): add api.themes v1 and theme pills rendering | [bob-cli-bc.9](bob-cli-bc.9.md) | 2026-10-24 09:17:01 EDT |
 | bob-cli | [`32e0e8f`](https://github.com/bobs-org/bob-cli/commit/32e0e8fa6b679793c7cc27b844f26fe285a3a254) | feat(capture): support exact-name literals with docs and regression tests | [bob-cli-bc.1](bob-cli-bc.1.md) | 2026-10-24 09:36:57 EDT |
 | bob-cli | [`f6f7909`](https://github.com/bobs-org/bob-cli/commit/f6f79099a6ca7a5c9f94b30c7e5280825a6331b8) | feat(themes): add hide, unhide, and color journal writers | [bob-cli-bc.3](bob-cli-bc.3.md) | 2026-10-24 09:41:48 EDT |
 | bob-cli | [`4a6f449`](https://github.com/bobs-org/bob-cli/commit/4a6f4494fdfb8a40c2d7c0e002040b52f37b2014) | feat(themes): add global theme rename transaction | [bob-cli-bc.6](bob-cli-bc.6.md) | 2026-10-24 10:21:49 EDT |
 | bob-cli | [`8628ce2`](https://github.com/bobs-org/bob-cli/commit/8628ce2f7acdf9a27f4d8ba1c6117638afe34371) | feat(themes): add theme refs to capture-parse spans, agenda, plan, stats and capture output plus CLI and tmux swatches | [bob-cli-bc.5](bob-cli-bc.5.md) | 2026-10-24 11:56:30 EDT |
 | bob-cli | [`2da7bbe`](https://github.com/bobs-org/bob-cli/commit/2da7bbef2ee00e27c0dba4420fc6d2b4a2c61b3a) | feat(capture): suggest recent themes with lossless names | [bob-cli-bc.4](bob-cli-bc.4.md) | 2026-10-24 13:16:00 EDT |
-| bob-plugins | [`bob-plugins@3825f19`](https://github.com/bobs-org/bob-plugins/commit/3825f19b832da75064f6684c7b1256f33bc9cd4b) | feat(plugins): add recent theme suggestions to Obsidian pickers | [bob-cli-bc.10](bob-cli-bc.10.md) | 2026-10-24 13:55:34 EDT |
-| bob-plugins | [`bob-plugins@1202c6a`](https://github.com/bobs-org/bob-plugins/commit/1202c6a0b1b47cdd973eb5d97d19ff3407bfb596) | feat(navigation): add Obsidian Pomodoro themes manager | [bob-cli-bc.11](bob-cli-bc.11.md) | 2026-10-24 14:26:00 EDT |
+| bob-mac-capture | [`bob-mac-capture@a49a08b`](https://github.com/bobs-org/bob-mac-capture/commit/a49a08b0c5bfb8ed50baec9424388188583c12e3) | feat(capture): add recent theme menus and name suggestions | [bob-cli-bc.7](bob-cli-bc.7.md) | 2026-10-24 14:11:37 EDT |
+| bob-mac-capture | [`bob-mac-capture@a306745`](https://github.com/bobs-org/bob-mac-capture/commit/a3067457c12a016607582b699b68e643fd72ef61) | feat(mac-capture): theme tints, agenda pills, and preview swatches | [bob-cli-bc.8](bob-cli-bc.8.md) | 2026-10-24 14:52:45 EDT |
 
 <!-- sase:referenced-by:start -->
 

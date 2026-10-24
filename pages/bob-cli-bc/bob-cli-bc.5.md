@@ -25,7 +25,7 @@ theme-json: add theme refs to capture-parse spans, the agenda, plan, stats, and 
 
 - **Depends on:** [bob-cli-bc.1](bob-cli-bc.1.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.2](bob-cli-bc.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.8](bob-cli-bc.8.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.8](bob-cli-bc.8.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
