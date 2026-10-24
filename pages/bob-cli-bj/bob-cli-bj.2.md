@@ -20,8 +20,8 @@ label-catalog: extract the theme journal into a namespaced shared module, add th
 ## Dependencies
 
 - **Blocks:** [bob-cli-bj.3](bob-cli-bj.3.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bj.4](bob-cli-bj.4.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bj.8](bob-cli-bj.8.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.4](bob-cli-bj.4.md) ○ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.8](bob-cli-bj.8.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -34,3 +34,15 @@ label-catalog: extract the theme journal into a namespaced shared module, add th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`57d7761`](https://github.com/bobs-org/bob-cli/commit/57d77612109f72c1f51aecbcb43c6be106e7398b) | feat(relations): shared preference journal, label catalog, and bob relations list/hide/unhide | [bob-cli-bj.2](bob-cli-bj.2.md) | 2026-10-24 15:08:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.2/README.md
+
+<!-- sase:referenced-by:end -->

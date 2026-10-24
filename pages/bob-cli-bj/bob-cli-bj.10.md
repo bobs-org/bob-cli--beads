@@ -15,7 +15,7 @@ obsidian-rename: Ctrl+R rename mode in the relation-label stage with the bob dry
 
 - **Blocks:** [bob-cli-bj.11](bob-cli-bj.11.md) ◐ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.6](bob-cli-bj.6.md) ◐ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bj.8](bob-cli-bj.8.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bj.8](bob-cli-bj.8.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
