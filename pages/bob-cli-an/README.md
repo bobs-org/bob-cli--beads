@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-an.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.3.md) | [bob-cli-an.6.6.3](bob-cli-an.6.6.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-an.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.4/README.md) | [bob-cli-an.6.6.4](bob-cli-an.6.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.5/README.md) | [bob-cli-an.6.6.5](bob-cli-an.6.6.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.land/README.md) | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 3 |
+| [bbugyi200.athena.bob-cli-an.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.land/README.md) | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 4 |
 | [bbugyi200.athena.bob-cli-an.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md) | [bob-cli-an.6](bob-cli-an.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.land.md) | [bob-cli-an](README.md) | 2 |
 
@@ -129,6 +129,7 @@ flowchart TD
 | bob-cli | [`339578c`](https://github.com/bobs-org/bob-cli/commit/339578cbe833e0a62f53cfa70fc4e2f4d7fc4d08) | fix(time): date ref captures and Keep notes in the configured day timezone | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 2026-10-24 04:28:14 EDT |
 | bob-cli | [`0544315`](https://github.com/bobs-org/bob-cli/commit/05443159b9198948e253b0f3d21c7817ea067591) | fix(time): run a DATE clock command in the configured timezone | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 2026-10-24 04:39:12 EDT |
 | bob-cli | [`c7e0dab`](https://github.com/bobs-org/bob-cli/commit/c7e0dab6903008ef80a979980446503761bb38cb) | fix(ref): keep the library spelling for PDFs reached through a symlink | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 2026-10-24 05:24:47 EDT |
+| bob-cli--plans | [`bob-cli--plans@8a7199e`](https://github.com/bobs-org/bob-cli--plans/commit/8a7199e5b45ca43b763af8df3e369aee9bad07a4) | chore(plans): mark backlog batch 3 done | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 2026-10-24 05:34:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
