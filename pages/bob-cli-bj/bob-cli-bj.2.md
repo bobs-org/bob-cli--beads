@@ -20,7 +20,7 @@ label-catalog: extract the theme journal into a namespaced shared module, add th
 ## Dependencies
 
 - **Blocks:** [bob-cli-bj.3](bob-cli-bj.3.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bj.4](bob-cli-bj.4.md) ○ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.4](bob-cli-bj.4.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bj.8](bob-cli-bj.8.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
