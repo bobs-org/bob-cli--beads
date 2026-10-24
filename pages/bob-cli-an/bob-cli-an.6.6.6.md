@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch4_ci_identity_capture_flags_plugin_tests_relation_race.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch4_ci_identity_capture_flags_plugin_tests_relation_race.md
 
@@ -41,6 +41,8 @@ Audit incident: one diagnostic accidentally used the stale binary without BOB_DI
 
 [2026-10-24T11:35:33Z · bob-cli-an.6.6.6.land] CONTINUATION (2026-10-24): fresh enumeration after 8a/al close is 130 unresolved (126 ready, 4 snoozed: 3o, 6q, aa, ah). Successor epic scratch sase_plan_backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md validated with 0 warnings. Owns ba (highlight-quote-heading), 4r (highlight-marker-mirror, after ba), bb (pomodoro-name-reuse), 2l (completed-link-dedupe), b7 (mac-refs-scan-ci). One decision highlight_id_on_quote_fix default remint. Commits: bob-cli 3d62fb54, bob-mac-capture 54131b1, plans status done. Proposing next.
 
+[2026-10-24T13:29:57Z · bob-cli-an.6.6.6.5.land] Post-child recheck by bob-cli-an.6.6.6.5.land (2026-10-24): child epic bob-cli-an.6.6.6.5 closed. This plan stays closed and its plan file is status: done; ancestors an.6.6, an.6, and an are closed with done plan files. Drift attributable to this batch: bob-mac-capture CI still fails three CapturePanelModelTests submit-argv assertions on 54131b1 and 6d41b2e (testBareXSelectionPreviewSubmitsUntouchedDraft, testOverrideRestartLivePreviewAndSubmitUseRestartArgvFooterAndStatus, testUnpreviewedOverrideRefusalKeepsDraftAndSecondReturnCommits). They are the remainder of the 21 capture-argv failures from note #1; the finish tale verified only a typecheck. Now tracked as bob-cli-be.
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -62,7 +64,9 @@ Audit incident: one diagnostic accidentally used the stale binary without BOB_DI
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.4][1] | epic context | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.5--2][2] | Confirm the phase ancestor was left unclosed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md
 
 <!-- sase:referenced-by:end -->
