@@ -27,13 +27,14 @@ records: write the glossary strand and decision records from what shipped, recon
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7e41788`](https://github.com/bobs-org/bob-cli/commit/7e41788c090b8321ef914b7f245edfa6a9503fa5) | docs(themes): reconcile Pomodoro theme contract and glossary | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:36:18 EDT |
+| bob-mac-capture | [`bob-mac-capture@fbea724`](https://github.com/bobs-org/bob-mac-capture/commit/fbea724ff3733153e6e76b6c6731dc949c6d4783) | docs(mac-capture): link Pomodoro themes contract | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:37:59 EDT |
 
 <!-- sase:referenced-by:start -->
 
