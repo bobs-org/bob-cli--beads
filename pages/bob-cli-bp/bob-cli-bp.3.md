@@ -21,7 +21,7 @@
 | related | file:explicit:b8bf48bc6fec94fe208996dc | attached via sase artifact create --bead |
 | related | file:explicit:d821cd4f91b6944d55bf6abc | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -63,7 +63,9 @@ strip-view: add the pure `dayStripModel` and DOM `paintDayStrip`, the `.bob-day-
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-bp.3--3][1] | Verify the recorded baseline failure and artifact notes before close | 2 |
+| read-by | [agent:bob-cli-bp.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md
 
 <!-- sase:referenced-by:end -->

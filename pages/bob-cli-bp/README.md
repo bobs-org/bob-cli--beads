@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/daily_note_day_strip.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/daily_note_day_strip.md
 
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md) | [bob-cli-bp.4](bob-cli-bp.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.6/README.md) | [bob-cli-bp.6](bob-cli-bp.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md) | [bob-cli-bp](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-bp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md) | [bob-cli-bp](README.md) | 3 |
 
 ## Commits
 
@@ -97,6 +97,7 @@ flowchart TD
 | bob-cli | [`41afa14`](https://github.com/bobs-org/bob-cli/commit/41afa14b74ac7fc6bc4b05cd80366acbc3f08511) | docs(stats): document the shipped Day strip contract | [bob-cli-bp.6](bob-cli-bp.6.md) | 2026-10-24 18:32:20 EDT |
 | bob-cli | [`cf68d60`](https://github.com/bobs-org/bob-cli/commit/cf68d608998b758ef46d4d16d27a6a13d09939cb) | test(stats): pin the not-yet display rule and note plugin-only day\_strip | [bob-cli-bp](README.md) | 2026-10-24 19:12:40 EDT |
 | bob-plugins | [`bob-plugins@631c5d4`](https://github.com/bobs-org/bob-plugins/commit/631c5d4c8e6324cfd6fd0ebb73b1ef571f307c34) | fix(bob-ledger-tools): stop the Day strip mount from breaking every editor | [bob-cli-bp](README.md) | 2026-10-24 19:13:35 EDT |
+| bob-cli--plans | [`bob-cli--plans@9e5e7b5`](https://github.com/bobs-org/bob-cli--plans/commit/9e5e7b59d7aa8d0dc94a26df539c04f39757fec9) | chore(plans): mark daily\_note\_day\_strip done | [bob-cli-bp](README.md) | 2026-10-24 19:14:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -107,9 +108,11 @@ flowchart TD
 | read-by | [agent:bob-cli-bp.2][1] | epic context | 1 |
 | read-by | [agent:bob-cli-bp.4][2] | Need epic context for strip-hosts phase | 1 |
 | read-by | [agent:bob-cli-bp.6][3] | epic context | 1 |
+| read-by | [agent:bob-cli-bp.land][4] | Need the parent link | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.6/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -44,7 +44,9 @@ strip-hosts: add the day-identity and report-selection rules, the strip registry
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-bp.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-bp.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md
 
 <!-- sase:referenced-by:end -->

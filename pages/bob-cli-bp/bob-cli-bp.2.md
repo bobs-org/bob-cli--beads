@@ -45,7 +45,9 @@ fetch-service: in bob-plugins' bob-ledger-tools, give each key its own in-flight
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-bp.2][1] | full read | 3 |
+| read-by | [agent:bob-cli-bp.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md
 
 <!-- sase:referenced-by:end -->

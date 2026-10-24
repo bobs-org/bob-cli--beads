@@ -47,7 +47,9 @@ strip-mount: mount the strip as a CodeMirror StateField block widget after the l
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-bp.5--1][1] | Confirm the required follow-up and manual Mac-check notes before closing | 3 |
+| read-by | [agent:bob-cli-bp.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md
 
 <!-- sase:referenced-by:end -->
