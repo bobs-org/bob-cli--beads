@@ -46,9 +46,11 @@ theme-json: add theme refs to capture-parse spans, the agenda, plan, stats, and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
-| read-by | [agent:bob-cli-bc.5--6][2] | Need full scope design notes | 4 |
+| read-by | [agent:bob-cli-bc.13][2] | Find the theme JSON phase's capture-parse PT3 measurements | 1 |
+| read-by | [agent:bob-cli-bc.5--6][3] | Need full scope design notes | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.5.md
 
 <!-- sase:referenced-by:end -->

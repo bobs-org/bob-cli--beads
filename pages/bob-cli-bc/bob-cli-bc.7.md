@@ -42,9 +42,11 @@ mac-menus: render Today/Recent rows with swatches, hide and undo with Ctrl+D, an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
-| read-by | [agent:bob-cli-bc.7--1][2] | Review the assigned phase and record the clean-base gate result | 2 |
+| read-by | [agent:bob-cli-bc.13][2] | Find existing follow-up notes for the reproduced full-check completion failures | 1 |
+| read-by | [agent:bob-cli-bc.7--1][3] | Review the assigned phase and record the clean-base gate result | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_themes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_themes.md
 
@@ -43,7 +43,7 @@ Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists 
 | [bob-cli-bc.10](bob-cli-bc.10.md) | Recent themes and Ctrl+D in the Obsidian pickers | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.11](bob-cli-bc.11.md) | Obsidian Pomodoro themes manager | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.12](bob-cli-bc.12.md) | Menu-bar theme swatch | ✓ closed | small | 2026-10-24 | 1 | 1 |
-| [bob-cli-bc.13](bob-cli-bc.13.md) | Decision records, glossary, and end-to-end acceptance | ✓ closed | medium | 2026-10-24 | 1 | 2 |
+| [bob-cli-bc.13](bob-cli-bc.13.md) | Decision records, glossary, and end-to-end acceptance | ✓ closed | medium | 2026-10-24 | 1 | 3 |
 | [bob-cli-bc.2](bob-cli-bc.2.md) | Theme catalog engine, \`bob themes list\`, and the contract | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.3](bob-cli-bc.3.md) | Hide, unhide, and color writers plus the vault journal rollout | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.4](bob-cli-bc.4.md) | Recent themes in capture-complete | ✓ closed | medium | 2026-10-24 | 1 | 1 |
@@ -114,7 +114,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.11/README.md) | [bob-cli-bc.11](bob-cli-bc.11.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.12/README.md) | [bob-cli-bc.12](bob-cli-bc.12.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 2 |
+| [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 3 |
 | [bbugyi200.apollo.bob-cli-bc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.2/README.md) | [bob-cli-bc.2](bob-cli-bc.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.3/README.md) | [bob-cli-bc.3](bob-cli-bc.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.4/README.md) | [bob-cli-bc.4](bob-cli-bc.4.md) | 1 |
@@ -143,6 +143,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@a306745`](https://github.com/bobs-org/bob-mac-capture/commit/a3067457c12a016607582b699b68e643fd72ef61) | feat(mac-capture): theme tints, agenda pills, and preview swatches | [bob-cli-bc.8](bob-cli-bc.8.md) | 2026-10-24 14:52:45 EDT |
 | bob-cli | [`7e41788`](https://github.com/bobs-org/bob-cli/commit/7e41788c090b8321ef914b7f245edfa6a9503fa5) | docs(themes): reconcile Pomodoro theme contract and glossary | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:36:18 EDT |
 | bob-mac-capture | [`bob-mac-capture@fbea724`](https://github.com/bobs-org/bob-mac-capture/commit/fbea724ff3733153e6e76b6c6731dc949c6d4783) | docs(mac-capture): link Pomodoro themes contract | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:37:59 EDT |
+| bob-plugins | [`bob-plugins@d3ea6bb`](https://github.com/bobs-org/bob-plugins/commit/d3ea6bb8e4c8937a42ff93bbda580d9f9192085c) | test(themes): sync plugin vectors with bob-cli | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:38:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -151,11 +152,13 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
-| read-by | [agent:bob-cli-bc.5--6][2] | Need epic DECISIONS and phase list for theme-json close | 1 |
-| read-by | [agent:bob-cli-bc.9][3] | epic context for phase | 1 |
+| read-by | [agent:bob-cli-bc.13][2] | Confirm whether every theme-contract phase is shipped before removing planned markers | 1 |
+| read-by | [agent:bob-cli-bc.5--6][3] | Need epic DECISIONS and phase list for theme-json close | 1 |
+| read-by | [agent:bob-cli-bc.9][4] | epic context for phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.5.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.5.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md
 
 <!-- sase:referenced-by:end -->

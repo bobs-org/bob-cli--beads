@@ -61,9 +61,11 @@ suggest: compose today rows, recent themes, and the create row in both Pomodoro-
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
-| read-by | [agent:bob-cli-bc.4][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-bc.13][2] | Find the capture completion phase's PT3 measurements | 1 |
+| read-by | [agent:bob-cli-bc.4][3] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.4/README.md
 
 <!-- sase:referenced-by:end -->

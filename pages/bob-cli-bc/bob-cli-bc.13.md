@@ -27,7 +27,7 @@ records: write the glossary strand and decision records from what shipped, recon
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 2 |
+| [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 3 |
 
 ## Commits
 
@@ -35,6 +35,7 @@ records: write the glossary strand and decision records from what shipped, recon
 |---|---|---|---|---|
 | bob-cli | [`7e41788`](https://github.com/bobs-org/bob-cli/commit/7e41788c090b8321ef914b7f245edfa6a9503fa5) | docs(themes): reconcile Pomodoro theme contract and glossary | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:36:18 EDT |
 | bob-mac-capture | [`bob-mac-capture@fbea724`](https://github.com/bobs-org/bob-mac-capture/commit/fbea724ff3733153e6e76b6c6731dc949c6d4783) | docs(mac-capture): link Pomodoro themes contract | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:37:59 EDT |
+| bob-plugins | [`bob-plugins@d3ea6bb`](https://github.com/bobs-org/bob-plugins/commit/d3ea6bb8e4c8937a42ff93bbda580d9f9192085c) | test(themes): sync plugin vectors with bob-cli | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:38:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -43,7 +44,9 @@ records: write the glossary strand and decision records from what shipped, recon
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+| read-by | [agent:bob-cli-bc.13][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md
 
 <!-- sase:referenced-by:end -->
