@@ -19,7 +19,7 @@ route-detect: bob capture finds existing inbox tasks whose checkbox the batch ch
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bk.2](bob-cli-bk.2.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bk.2](bob-cli-bk.2.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -32,3 +32,15 @@ route-detect: bob capture finds existing inbox tasks whose checkbox the batch ch
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bb52dd0`](https://github.com/bobs-org/bob-cli/commit/bb52dd0ab1c5d947a84b2c98f6e29620c7a3e7ff) | feat(capture): detect inbox route choices | [bob-cli-bk.1](bob-cli-bk.1.md) | 2026-10-24 14:58:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bk.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.1/README.md
+
+<!-- sase:referenced-by:end -->

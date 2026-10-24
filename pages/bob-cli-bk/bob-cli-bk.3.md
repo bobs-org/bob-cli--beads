@@ -13,7 +13,7 @@ mac-route-client: CaptureCore decodes `inbox_route`, sends answers and the guard
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bk.2](bob-cli-bk.2.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bk.2](bob-cli-bk.2.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bk.4](bob-cli-bk.4.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
