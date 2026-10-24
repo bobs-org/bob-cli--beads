@@ -21,7 +21,7 @@ region: teach parse_managed_region to read sectioned regions (section H3 + summa
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bd.4](bob-cli-bd.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bd.4](bob-cli-bd.4.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bd.5](bob-cli-bd.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents

@@ -34,13 +34,13 @@ A Highlights sticky note whose first line is `# Name` declares a section, and ev
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-bd.1](bob-cli-bd.1.md) | Sidecar parser gates | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bd.2](bob-cli-bd.2.md) | Section grammar and pure planner | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bd.2](bob-cli-bd.2.md) | Section grammar and pure planner | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.3](bob-cli-bd.3.md) | Sectioned managed-region parser | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bd.4](bob-cli-bd.4.md) | Sectioned rendering and identity | ◐ in_progress | large | 2026-10-24 | 1 | 0 |
+| [bob-cli-bd.4](bob-cli-bd.4.md) | Sectioned rendering and identity | ✓ closed | large | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.5](bob-cli-bd.5.md) | Sections in bob ref show | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.6](bob-cli-bd.6.md) | Section stubs, diagnostics, and route hints | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bd.7](bob-cli-bd.7.md) | Docs, Obsidian styling, and cross-surface checks | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
-| [bob-cli-bd.8](bob-cli-bd.8.md) | Section headers in the Bob Mac Capture Refs panel | ✓ closed | large | 2026-10-24 | 1 | 1 |
+| [bob-cli-bd.8](bob-cli-bd.8.md) | Section headers in the Bob Mac Capture Refs panel | ✓ closed | large | 2026-10-24 | 1 | 0 |
 
 ## Lineage
 
@@ -48,9 +48,9 @@ A Highlights sticky note whose first line is `# Name` declares a section, and ev
 flowchart TD
     n0["bob-cli-bd: Annotation sections for ref notes (`# Name` + `@name`) [in_progress]"]
     n1["bob-cli-bd.1: Sidecar parser gates [closed]"]
-    n2["bob-cli-bd.2: Section grammar and pure planner [in_progress]"]
+    n2["bob-cli-bd.2: Section grammar and pure planner [closed]"]
     n3["bob-cli-bd.3: Sectioned managed-region parser [closed]"]
-    n4["bob-cli-bd.4: Sectioned rendering and identity [in_progress]"]
+    n4["bob-cli-bd.4: Sectioned rendering and identity [closed]"]
     n5["bob-cli-bd.5: Sections in bob ref show [closed]"]
     n6["bob-cli-bd.6: Section stubs, diagnostics, and route hints [in_progress]"]
     n7["bob-cli-bd.7: Docs, Obsidian styling, and cross-surface checks [in_progress]"]
@@ -78,13 +78,13 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-bd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.1/README.md) | [bob-cli-bd.1](bob-cli-bd.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.2.md) | [bob-cli-bd.2](bob-cli-bd.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.2.md) | [bob-cli-bd.2](bob-cli-bd.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.3/README.md) | [bob-cli-bd.3](bob-cli-bd.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.4/README.md) | [bob-cli-bd.4](bob-cli-bd.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.4.md) | [bob-cli-bd.4](bob-cli-bd.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.5/README.md) | [bob-cli-bd.5](bob-cli-bd.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.6/README.md) | [bob-cli-bd.6](bob-cli-bd.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.7/README.md) | [bob-cli-bd.7](bob-cli-bd.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.8.md) | [bob-cli-bd.8](bob-cli-bd.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.8.md) | [bob-cli-bd.8](bob-cli-bd.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.land/README.md) | [bob-cli-bd](README.md) | 0 |
 
 ## Commits
@@ -94,7 +94,8 @@ flowchart TD
 | bob-cli | [`b7645d1`](https://github.com/bobs-org/bob-cli/commit/b7645d17ba1a98caf43b8607e863e16c03bb5fc1) | feat(highlights-ref): parse sectioned managed regions | [bob-cli-bd.3](bob-cli-bd.3.md) | 2026-10-24 08:22:20 EDT |
 | bob-cli | [`6ec2f16`](https://github.com/bobs-org/bob-cli/commit/6ec2f16a564fe99b5582b15daa52dfdb9e785e64) | feat(highlights): keep hard-wrapped hash lines in quotes and scope page headings by level | [bob-cli-bd.1](bob-cli-bd.1.md) | 2026-10-24 08:48:27 EDT |
 | bob-cli | [`94591ea`](https://github.com/bobs-org/bob-cli/commit/94591ea66d48c89fba305344c40d0df5bfceecc6) | feat(ref): group bob ref show output by annotation sections | [bob-cli-bd.5](bob-cli-bd.5.md) | 2026-10-24 08:51:41 EDT |
-| bob-mac-capture | [`bob-mac-capture@f9cd88a`](https://github.com/bobs-org/bob-mac-capture/commit/f9cd88add5f2b4bdb8ca5a0dffde9b42617b7253) | feat(refs): present annotation sections in the inspector and Copy card | [bob-cli-bd.8](bob-cli-bd.8.md) | 2026-10-24 09:48:43 EDT |
+| bob-cli | [`453b07e`](https://github.com/bobs-org/bob-cli/commit/453b07e74ea1aafce753b9a8de69db680079cfe9) | feat(highlights): parse reference sections | [bob-cli-bd.2](bob-cli-bd.2.md) | 2026-10-24 09:49:33 EDT |
+| bob-cli | [`9398c5b`](https://github.com/bobs-org/bob-cli/commit/9398c5bbcca27fce050e67e029bd5a02bc60fbeb) | feat(highlights): sectioned annotation rendering with stable IDs | [bob-cli-bd.4](bob-cli-bd.4.md) | 2026-10-24 10:43:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

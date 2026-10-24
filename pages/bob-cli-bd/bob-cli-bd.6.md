@@ -13,7 +13,7 @@ edges: add redirect stubs for a published declaring sticky and for a vanished bu
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bd.4](bob-cli-bd.4.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bd.4](bob-cli-bd.4.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bd.7](bob-cli-bd.7.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
