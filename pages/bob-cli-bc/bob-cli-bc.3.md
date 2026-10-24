@@ -23,7 +23,7 @@ prefs: add the journal writers, collision hints, the vault allowlist and union-m
 
 - **Blocks:** [bob-cli-bc.10](bob-cli-bc.10.md) ◐ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.2](bob-cli-bc.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.6](bob-cli-bc.6.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.6](bob-cli-bc.6.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.7](bob-cli-bc.7.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
@@ -37,3 +37,15 @@ prefs: add the journal writers, collision hints, the vault allowlist and union-m
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f6f7909`](https://github.com/bobs-org/bob-cli/commit/f6f79099a6ca7a5c9f94b30c7e5280825a6331b8) | feat(themes): add hide, unhide, and color journal writers | [bob-cli-bc.3](bob-cli-bc.3.md) | 2026-10-24 09:41:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bc.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.3/README.md
+
+<!-- sase:referenced-by:end -->

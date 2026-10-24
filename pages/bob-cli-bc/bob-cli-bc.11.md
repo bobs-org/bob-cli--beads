@@ -15,7 +15,7 @@ obsidian-manager: add the Bob Pomodoro themes command to browse, hide, pin, insp
 
 - **Depends on:** [bob-cli-bc.10](bob-cli-bc.10.md) ◐ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.13](bob-cli-bc.13.md) ◐ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bc.6](bob-cli-bc.6.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bc.6](bob-cli-bc.6.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
