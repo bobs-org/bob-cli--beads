@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.6/README.md) | [bob-cli-bd.6](bob-cli-bd.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.7.md) | [bob-cli-bd.7](bob-cli-bd.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.8.md) | [bob-cli-bd.8](bob-cli-bd.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.land.md) | [bob-cli-bd](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.land.md) | [bob-cli-bd](README.md) | 2 |
 
 ## Commits
 
@@ -124,6 +124,7 @@ flowchart TD
 | bob-cli | [`be18197`](https://github.com/bobs-org/bob-cli/commit/be1819783e6285882bb05d66e38d5d6b0a139056) | feat(highlights): section stubs, diagnostics, and route hints | [bob-cli-bd.6](bob-cli-bd.6.md) | 2026-10-24 11:34:25 EDT |
 | bob-cli | [`2eb9812`](https://github.com/bobs-org/bob-cli/commit/2eb98129f0416b17b0a181b6d212d79c6a321474) | docs(highlights): document annotation sections and add cross-surface checks | [bob-cli-bd.7](bob-cli-bd.7.md) | 2026-10-24 12:35:52 EDT |
 | bob-cli | [`8a7b02e`](https://github.com/bobs-org/bob-cli/commit/8a7b02e1b9a61b79bf8f3ced17a02d2e605ba1a8) | feat(highlights-ref): land annotation sections comment declarations with CI fix | [bob-cli-bd](README.md) | 2026-10-24 14:40:08 EDT |
+| bob-cli--plans | [`bob-cli--plans@be98c24`](https://github.com/bobs-org/bob-cli--plans/commit/be98c24cac11f756a4857bce3362db7f9943dc55) | chore(plans): mark bob-cli-bd annotation sections done | [bob-cli-bd](README.md) | 2026-10-24 14:40:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
