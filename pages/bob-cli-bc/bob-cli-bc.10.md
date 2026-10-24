@@ -17,7 +17,7 @@ obsidian-pickers: compose recent rows, swatches, near-duplicate badges, and Ctrl
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bc.11](bob-cli-bc.11.md) ○ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.11](bob-cli-bc.11.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.4](bob-cli-bc.4.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.9](bob-cli-bc.9.md) ✓ · ⧖ 2026-10-24
@@ -26,7 +26,13 @@ obsidian-pickers: compose recent rows, swatches, near-duplicate badges, and Ctrl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3825f19`](https://github.com/bobs-org/bob-plugins/commit/3825f19b832da75064f6684c7b1256f33bc9cd4b) | feat(plugins): add recent theme suggestions to Obsidian pickers | [bob-cli-bc.10](bob-cli-bc.10.md) | 2026-10-24 13:55:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
