@@ -35,7 +35,7 @@ Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists 
 | [bob-cli-bc.12](bob-cli-bc.12.md) | Menu-bar theme swatch | ✓ closed | small | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.13](bob-cli-bc.13.md) | Decision records, glossary, and end-to-end acceptance | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.2](bob-cli-bc.2.md) | Theme catalog engine, \`bob themes list\`, and the contract | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bc.3](bob-cli-bc.3.md) | Hide, unhide, and color writers plus the vault journal rollout | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bc.3](bob-cli-bc.3.md) | Hide, unhide, and color writers plus the vault journal rollout | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.4](bob-cli-bc.4.md) | Recent themes in capture-complete | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.5](bob-cli-bc.5.md) | Theme hues across bob JSON and terminal output | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.6](bob-cli-bc.6.md) | Global theme rename transaction | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
@@ -54,7 +54,7 @@ flowchart TD
     n4["bob-cli-bc.12: Menu-bar theme swatch [closed]"]
     n5["bob-cli-bc.13: Decision records, glossary, and end-to-end acceptance [in_progress]"]
     n6["bob-cli-bc.2: Theme catalog engine, `bob themes list`, and the contract [closed]"]
-    n7["bob-cli-bc.3: Hide, unhide, and color writers plus the vault journal rollout [in_progress]"]
+    n7["bob-cli-bc.3: Hide, unhide, and color writers plus the vault journal rollout [closed]"]
     n8["bob-cli-bc.4: Recent themes in capture-complete [in_progress]"]
     n9["bob-cli-bc.5: Theme hues across bob JSON and terminal output [in_progress]"]
     n10["bob-cli-bc.6: Global theme rename transaction [in_progress]"]
@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bc.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.12/README.md) | [bob-cli-bc.12](bob-cli-bc.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.2/README.md) | [bob-cli-bc.2](bob-cli-bc.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.3/README.md) | [bob-cli-bc.3](bob-cli-bc.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.3/README.md) | [bob-cli-bc.3](bob-cli-bc.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.4/README.md) | [bob-cli-bc.4](bob-cli-bc.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.5/README.md) | [bob-cli-bc.5](bob-cli-bc.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.6/README.md) | [bob-cli-bc.6](bob-cli-bc.6.md) | 0 |
@@ -121,6 +121,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`5c9cfda`](https://github.com/bobs-org/bob-cli/commit/5c9cfda1271438107bac7f1fd8e47849181e4454) | feat(themes): add derived catalog and bob themes list | [bob-cli-bc.2](bob-cli-bc.2.md) | 2026-10-24 08:41:17 EDT |
 | bob-cli | [`32e0e8f`](https://github.com/bobs-org/bob-cli/commit/32e0e8fa6b679793c7cc27b844f26fe285a3a254) | feat(capture): support exact-name literals with docs and regression tests | [bob-cli-bc.1](bob-cli-bc.1.md) | 2026-10-24 09:36:57 EDT |
+| bob-cli | [`f6f7909`](https://github.com/bobs-org/bob-cli/commit/f6f79099a6ca7a5c9f94b30c7e5280825a6331b8) | feat(themes): add hide, unhide, and color journal writers | [bob-cli-bc.3](bob-cli-bc.3.md) | 2026-10-24 09:41:48 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ mac-menus: render Today/Recent rows with swatches, hide and undo with Ctrl+D, an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.4](bob-cli-bc.4.md) ◐ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.8](bob-cli-bc.8.md) ◐ · ⧖ 2026-10-24
 

@@ -14,7 +14,7 @@ rename: implement the previewed, verified, single-commit rename modeled on `bob 
 ## Dependencies
 
 - **Blocks:** [bob-cli-bc.11](bob-cli-bc.11.md) ◐ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

@@ -14,7 +14,7 @@ obsidian-pickers: compose recent rows, swatches, near-duplicate badges, and Ctrl
 ## Dependencies
 
 - **Blocks:** [bob-cli-bc.11](bob-cli-bc.11.md) ◐ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.4](bob-cli-bc.4.md) ◐ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.9](bob-cli-bc.9.md) ✓ · ⧖ 2026-10-24
 
