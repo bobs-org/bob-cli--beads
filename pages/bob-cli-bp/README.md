@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md) | [bob-cli-bp.4](bob-cli-bp.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.6/README.md) | [bob-cli-bp.6](bob-cli-bp.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md) | [bob-cli-bp](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md) | [bob-cli-bp](README.md) | 2 |
 
 ## Commits
 
@@ -96,6 +96,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@af1e691`](https://github.com/bobs-org/bob-plugins/commit/af1e691a33b90373e8652cbb4680a72f3b1b8628) | feat(bob-ledger-tools): mount Day strip in Live Preview | [bob-cli-bp.5](bob-cli-bp.5.md) | 2026-10-24 18:22:23 EDT |
 | bob-cli | [`41afa14`](https://github.com/bobs-org/bob-cli/commit/41afa14b74ac7fc6bc4b05cd80366acbc3f08511) | docs(stats): document the shipped Day strip contract | [bob-cli-bp.6](bob-cli-bp.6.md) | 2026-10-24 18:32:20 EDT |
 | bob-cli | [`cf68d60`](https://github.com/bobs-org/bob-cli/commit/cf68d608998b758ef46d4d16d27a6a13d09939cb) | test(stats): pin the not-yet display rule and note plugin-only day\_strip | [bob-cli-bp](README.md) | 2026-10-24 19:12:40 EDT |
+| bob-plugins | [`bob-plugins@631c5d4`](https://github.com/bobs-org/bob-plugins/commit/631c5d4c8e6324cfd6fd0ebb73b1ef571f307c34) | fix(bob-ledger-tools): stop the Day strip mount from breaking every editor | [bob-cli-bp](README.md) | 2026-10-24 19:13:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
