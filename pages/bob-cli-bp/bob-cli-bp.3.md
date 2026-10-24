@@ -48,13 +48,7 @@ strip-view: add the pure `dayStripModel` and DOM `paintDayStrip`, the `.bob-day-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.3.md) | [bob-cli-bp.3](bob-cli-bp.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@38b6b1b`](https://github.com/bobs-org/bob-plugins/commit/38b6b1b91aeebdfd4fa51ea85441803a36038183) | feat(stats): add Day strip model, painter, and preview matrix | [bob-cli-bp.3](bob-cli-bp.3.md) | 2026-10-24 17:36:52 EDT |
+| [bbugyi200.apollo.bob-cli-bp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.3.md) | [bob-cli-bp.3](bob-cli-bp.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

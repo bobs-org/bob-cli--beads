@@ -19,7 +19,7 @@ stats-not-yet: in bob-cli, make an unmet provisional (today) boolean point displ
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bp.6](bob-cli-bp.6.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bp.6](bob-cli-bp.6.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

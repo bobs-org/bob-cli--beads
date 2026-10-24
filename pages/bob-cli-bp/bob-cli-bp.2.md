@@ -30,13 +30,7 @@ fetch-service: in bob-plugins' bob-ledger-tools, give each key its own in-flight
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bp.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md) | [bob-cli-bp.2](bob-cli-bp.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@6ce2e17`](https://github.com/bobs-org/bob-plugins/commit/6ce2e17b63f645295a5f5c0e20d47bbff2418d85) | feat(ledger-tools): per-key FIFO fetch queue with stats cache, peek and grouping | [bob-cli-bp.2](bob-cli-bp.2.md) | 2026-10-24 16:57:37 EDT |
+| [bbugyi200.apollo.bob-cli-bp.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md) | [bob-cli-bp.2](bob-cli-bp.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

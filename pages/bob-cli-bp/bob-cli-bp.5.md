@@ -26,16 +26,22 @@ strip-mount: mount the strip as a CodeMirror StateField block widget after the l
 ## Dependencies
 
 - **Depends on:** [bob-cli-bp.4](bob-cli-bp.4.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bp.6](bob-cli-bp.6.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bp.6](bob-cli-bp.6.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@af1e691`](https://github.com/bobs-org/bob-plugins/commit/af1e691a33b90373e8652cbb4680a72f3b1b8628) | feat(bob-ledger-tools): mount Day strip in Live Preview | [bob-cli-bp.5](bob-cli-bp.5.md) | 2026-10-24 18:22:23 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bp.5--1][1] | Confirm the required follow-up and manual Mac-check notes before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md
+
+<!-- sase:referenced-by:end -->

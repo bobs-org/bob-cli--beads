@@ -30,11 +30,11 @@ Every canonical daily note (`YYYY/YYYYMMDD.md`) ends with a quiet, beautiful Day
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-bp.1](bob-cli-bp.1.md) | bob stats reads "not yet" for an unmet provisional boolean | ✓ closed | small | 2026-10-24 | 1 | 1 |
-| [bob-cli-bp.2](bob-cli-bp.2.md) | Stats fetch service fixes for the Stats page and the strip | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bp.3](bob-cli-bp.3.md) | Day strip model, painter, styles, and preview matrix | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bp.4](bob-cli-bp.4.md) | Day strip data selection, refresh policy, fence, and Stats hand-off | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bp.5](bob-cli-bp.5.md) | Virtual Live Preview mount, controls, and plugin docs | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bp.6](bob-cli-bp.6.md) | Day strip contract in bob-cli docs and memory | ◐ in_progress | small | 2026-10-24 | 1 | 0 |
+| [bob-cli-bp.2](bob-cli-bp.2.md) | Stats fetch service fixes for the Stats page and the strip | ✓ closed | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bp.3](bob-cli-bp.3.md) | Day strip model, painter, styles, and preview matrix | ✓ closed | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bp.4](bob-cli-bp.4.md) | Day strip data selection, refresh policy, fence, and Stats hand-off | ✓ closed | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bp.5](bob-cli-bp.5.md) | Virtual Live Preview mount, controls, and plugin docs | ✓ closed | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bp.6](bob-cli-bp.6.md) | Day strip contract in bob-cli docs and memory | ✓ closed | small | 2026-10-24 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n3["bob-cli-bp.3: Day strip model, painter, styles, and preview matrix [closed]"]
     n4["bob-cli-bp.4: Day strip data selection, refresh policy, fence, and Stats hand-off [closed]"]
     n5["bob-cli-bp.5: Virtual Live Preview mount, controls, and plugin docs [closed]"]
-    n6["bob-cli-bp.6: Day strip contract in bob-cli docs and memory [in_progress]"]
+    n6["bob-cli-bp.6: Day strip contract in bob-cli docs and memory [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -66,11 +66,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-bp.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.1/README.md) | [bob-cli-bp.1](bob-cli-bp.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md) | [bob-cli-bp.2](bob-cli-bp.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.3.md) | [bob-cli-bp.3](bob-cli-bp.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md) | [bob-cli-bp.4](bob-cli-bp.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.6/README.md) | [bob-cli-bp.6](bob-cli-bp.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.2/README.md) | [bob-cli-bp.2](bob-cli-bp.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.3.md) | [bob-cli-bp.3](bob-cli-bp.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md) | [bob-cli-bp.4](bob-cli-bp.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.6/README.md) | [bob-cli-bp.6](bob-cli-bp.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.land/README.md) | [bob-cli-bp](README.md) | 0 |
 
 ## Commits
@@ -78,10 +78,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0fc6ebf`](https://github.com/bobs-org/bob-cli/commit/0fc6ebfaccaca03e00dab4f0ee6552db2c92834c) | fix(stats): mark unmet provisional booleans not yet | [bob-cli-bp.1](bob-cli-bp.1.md) | 2026-10-24 16:51:15 EDT |
-| bob-plugins | [`bob-plugins@6ce2e17`](https://github.com/bobs-org/bob-plugins/commit/6ce2e17b63f645295a5f5c0e20d47bbff2418d85) | feat(ledger-tools): per-key FIFO fetch queue with stats cache, peek and grouping | [bob-cli-bp.2](bob-cli-bp.2.md) | 2026-10-24 16:57:37 EDT |
-| bob-plugins | [`bob-plugins@38b6b1b`](https://github.com/bobs-org/bob-plugins/commit/38b6b1b91aeebdfd4fa51ea85441803a36038183) | feat(stats): add Day strip model, painter, and preview matrix | [bob-cli-bp.3](bob-cli-bp.3.md) | 2026-10-24 17:36:52 EDT |
-| bob-plugins | [`bob-plugins@5f1df8b`](https://github.com/bobs-org/bob-plugins/commit/5f1df8b57e307052b2e4edc5dd437b912e813d5d) | feat(ledger-tools): day strip data selection, refresh policy, fence, and Stats hand-off | [bob-cli-bp.4](bob-cli-bp.4.md) | 2026-10-24 17:57:57 EDT |
-| bob-plugins | [`bob-plugins@af1e691`](https://github.com/bobs-org/bob-plugins/commit/af1e691a33b90373e8652cbb4680a72f3b1b8628) | feat(bob-ledger-tools): mount Day strip in Live Preview | [bob-cli-bp.5](bob-cli-bp.5.md) | 2026-10-24 18:22:23 EDT |
+| bob-cli | [`41afa14`](https://github.com/bobs-org/bob-cli/commit/41afa14b74ac7fc6bc4b05cd80366acbc3f08511) | docs(stats): document the shipped Day strip contract | [bob-cli-bp.6](bob-cli-bp.6.md) | 2026-10-24 18:32:20 EDT |
 
 <!-- sase:referenced-by:start -->
 
