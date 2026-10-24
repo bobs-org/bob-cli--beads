@@ -11,6 +11,12 @@
 
 suggest: compose today rows, recent themes, and the create row in both Pomodoro-name completion contexts, with lossless replacements and additive JSON.
 
+## Notes
+
+[2026-10-24T14:54:09Z · bob-cli-bc.4--3] PROPOSED FOLLOW-UP: Repair unrelated Highlights continuation scanner behavior — confirmed on clean HEAD f6f79099a6ca7a5c9f94b30c7e5280825a6331b8; both continuation_scan_reports_dangling_marker and continuation_scan_tucks_two_pages_and_is_idempotent fail identically.
+
+[2026-10-24T15:09:29Z · bob-cli-bc.4--5] PT3 warm live-vault benchmarks (50 runs each): capture-complete p95 clean HEAD 74.287 ms, current 67.974 ms (−6.313 ms); capture-parse p95 clean HEAD 18.778 ms, current 19.118 ms (+0.341 ms).
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-bc.1](bob-cli-bc.1.md) ✓ · ⧖ 2026-10-24

@@ -20,7 +20,7 @@ catalog: build the bob-cli theme catalog (scan, cache, journal fold, hue rule), 
 - **Blocks:** [bob-cli-bc.12](bob-cli-bc.12.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.4](bob-cli-bc.4.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.5](bob-cli-bc.5.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.5](bob-cli-bc.5.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.9](bob-cli-bc.9.md) ✓ · ⧖ 2026-10-24
 
 ## Agents

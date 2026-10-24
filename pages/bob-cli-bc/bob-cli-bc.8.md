@@ -14,7 +14,7 @@ mac-colors: tint known names in the editor, wear pills in the agenda and preview
 ## Dependencies
 
 - **Blocks:** [bob-cli-bc.13](bob-cli-bc.13.md) ◐ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bc.5](bob-cli-bc.5.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bc.5](bob-cli-bc.5.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.7](bob-cli-bc.7.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

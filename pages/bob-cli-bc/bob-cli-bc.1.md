@@ -20,7 +20,7 @@ lossless: fix bob-cli-bb so reusing a completed name keeps its spelling, and add
 ## Dependencies
 
 - **Blocks:** [bob-cli-bc.4](bob-cli-bc.4.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.5](bob-cli-bc.5.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.5](bob-cli-bc.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
