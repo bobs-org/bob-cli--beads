@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/pomodoro_themes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_themes.md
 
@@ -24,6 +24,12 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists today's names first and then previously used themes, and accepting a row submits exactly the name it shows. Ctrl+D hides a stale theme from suggestions in place, with undo. One bob transaction renames a theme across every daily note in a single revertable commit. Each theme wears a stable, learnable hue — in Obsidian Live Preview and Reading view, the plan block, Stats, Mac Capture, the CLI, tmux, and the menu bar — from one rule owned by bob.
+
+## Notes
+
+[2026-10-24T16:04:36Z · bob-cli-an.6.6.6.5.6.land--1] DISCOVERED ISSUE: batch-6 lander canonical just check at ae3a432b (monitor k6801vdb6tkm, tool run 2f76e99b9e130bffae47a70bab134ae6) fails native::completion::kinds::tests::every_value_arg_has_a_decision: value-taking args without a kinds decision [themes rename:old, themes rename:new]. Root cause: bc.6 commit 4a6f4494 added the two rename positionals without the completion registry decisions in src/native/completion/kinds.rs. All theme behavior tests passed; fmt/clippy pass. This is unrelated to batch 6. All-status task search plus recent CI sweep found only closed 4j (audio argument, distinct cause); no new task because this active epic owns rename integration.
+
+[2026-10-24T17:09:05Z · bob-cli-bd.land] DISCOVERED ISSUE corroboration from bob-cli-bd.land (proposed by bob-cli-bd.6 note #1 and bob-cli-bd.7--1 note #2): just check on master 2eb98129 (plus bd landing's sidecar-only diff) still fails exactly one node, native::completion::kinds::tests::every_value_arg_has_a_decision — value-taking args without a kinds decision: [themes rename:old, themes rename:new]. All 2005 CLI tests and every other lib test pass. Root cause is bc.6 commit 4a6f4494, as note #1 says; no task created because this active epic owns it.
 
 ## Phases
 
@@ -36,7 +42,7 @@ Every Pomodoro-name menu (Bob Mac Capture, zsh, and the Obsidian pickers) lists 
 | [bob-cli-bc.13](bob-cli-bc.13.md) | Decision records, glossary, and end-to-end acceptance | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bc.2](bob-cli-bc.2.md) | Theme catalog engine, \`bob themes list\`, and the contract | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.3](bob-cli-bc.3.md) | Hide, unhide, and color writers plus the vault journal rollout | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bc.4](bob-cli-bc.4.md) | Recent themes in capture-complete | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bc.4](bob-cli-bc.4.md) | Recent themes in capture-complete | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.5](bob-cli-bc.5.md) | Theme hues across bob JSON and terminal output | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.6](bob-cli-bc.6.md) | Global theme rename transaction | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bc.7](bob-cli-bc.7.md) | Mac Capture recent rows, Ctrl+D hide, and Name it suggestions | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
@@ -55,7 +61,7 @@ flowchart TD
     n5["bob-cli-bc.13: Decision records, glossary, and end-to-end acceptance [in_progress]"]
     n6["bob-cli-bc.2: Theme catalog engine, `bob themes list`, and the contract [closed]"]
     n7["bob-cli-bc.3: Hide, unhide, and color writers plus the vault journal rollout [closed]"]
-    n8["bob-cli-bc.4: Recent themes in capture-complete [in_progress]"]
+    n8["bob-cli-bc.4: Recent themes in capture-complete [closed]"]
     n9["bob-cli-bc.5: Theme hues across bob JSON and terminal output [closed]"]
     n10["bob-cli-bc.6: Global theme rename transaction [closed]"]
     n11["bob-cli-bc.7: Mac Capture recent rows, Ctrl+D hide, and Name it suggestions [in_progress]"]
@@ -107,7 +113,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bc.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md) | [bob-cli-bc.13](bob-cli-bc.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.2/README.md) | [bob-cli-bc.2](bob-cli-bc.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.3/README.md) | [bob-cli-bc.3](bob-cli-bc.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.4.md) | [bob-cli-bc.4](bob-cli-bc.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.4/README.md) | [bob-cli-bc.4](bob-cli-bc.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.5.md) | [bob-cli-bc.5](bob-cli-bc.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.6/README.md) | [bob-cli-bc.6](bob-cli-bc.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.7/README.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 0 |
@@ -124,6 +130,7 @@ flowchart TD
 | bob-cli | [`f6f7909`](https://github.com/bobs-org/bob-cli/commit/f6f79099a6ca7a5c9f94b30c7e5280825a6331b8) | feat(themes): add hide, unhide, and color journal writers | [bob-cli-bc.3](bob-cli-bc.3.md) | 2026-10-24 09:41:48 EDT |
 | bob-cli | [`4a6f449`](https://github.com/bobs-org/bob-cli/commit/4a6f4494fdfb8a40c2d7c0e002040b52f37b2014) | feat(themes): add global theme rename transaction | [bob-cli-bc.6](bob-cli-bc.6.md) | 2026-10-24 10:21:49 EDT |
 | bob-cli | [`8628ce2`](https://github.com/bobs-org/bob-cli/commit/8628ce2f7acdf9a27f4d8ba1c6117638afe34371) | feat(themes): add theme refs to capture-parse spans, agenda, plan, stats and capture output plus CLI and tmux swatches | [bob-cli-bc.5](bob-cli-bc.5.md) | 2026-10-24 11:56:30 EDT |
+| bob-cli | [`2da7bbe`](https://github.com/bobs-org/bob-cli/commit/2da7bbef2ee00e27c0dba4420fc6d2b4a2c61b3a) | feat(capture): suggest recent themes with lossless names | [bob-cli-bc.4](bob-cli-bc.4.md) | 2026-10-24 13:16:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -131,8 +138,12 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-bc.9][1] | epic context for phase | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+| read-by | [agent:bob-cli-bc.5--6][2] | Need epic DECISIONS and phase list for theme-json close | 1 |
+| read-by | [agent:bob-cli-bc.9][3] | epic context for phase | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.5.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md
 
 <!-- sase:referenced-by:end -->

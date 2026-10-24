@@ -19,7 +19,7 @@ catalog: build the bob-cli theme catalog (scan, cache, journal fold, hue rule), 
 
 - **Blocks:** [bob-cli-bc.12](bob-cli-bc.12.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.4](bob-cli-bc.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.4](bob-cli-bc.4.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.5](bob-cli-bc.5.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.9](bob-cli-bc.9.md) ✓ · ⧖ 2026-10-24
 
@@ -41,8 +41,10 @@ catalog: build the bob-cli theme catalog (scan, cache, journal fold, hue rule), 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-bc.2][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+| read-by | [agent:bob-cli-bc.2][2] | Need the phase scope and design file | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.2/README.md
 
 <!-- sase:referenced-by:end -->

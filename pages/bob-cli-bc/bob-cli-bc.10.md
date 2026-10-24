@@ -15,7 +15,7 @@ obsidian-pickers: compose recent rows, swatches, near-duplicate badges, and Ctrl
 
 - **Blocks:** [bob-cli-bc.11](bob-cli-bc.11.md) ◐ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.3](bob-cli-bc.3.md) ✓ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bc.4](bob-cli-bc.4.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bc.4](bob-cli-bc.4.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.9](bob-cli-bc.9.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
@@ -23,3 +23,15 @@ obsidian-pickers: compose recent rows, swatches, near-duplicate badges, and Ctrl
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-bc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.10/README.md) | [bob-cli-bc.10](bob-cli-bc.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+
+<!-- sase:referenced-by:end -->
