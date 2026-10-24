@@ -11,6 +11,12 @@
 
 grammar: teach the sidecar parser to keep `# Name` sticky declarations, and add sections.rs with the declaration and tag scanners and a pure plan_sections over displayed blocks (homes, consumed text, diagnostics). Unit tests only; no rendering change.
 
+## Notes
+
+[2026-10-24T13:23:47Z · bob-cli-bd.2] PROPOSED FOLLOW-UP: record annotation-sections design as decisions:annotation-sections-are-name-keyed-folds strand (epic auto-decision decision_record=no; skipped for this phase, needs land-agent triage)
+
+[2026-10-24T13:23:54Z · bob-cli-bd.2] PROPOSED FOLLOW-UP: add the Annotation Section glossary term (epic auto-decision glossary_term=no; skipped for this phase, needs land-agent triage)
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-bd.1](bob-cli-bd.1.md) ✓ · ⧖ 2026-10-24
@@ -20,4 +26,4 @@ grammar: teach the sidecar parser to keep `# Name` sticky declarations, and add 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.2/README.md) | [bob-cli-bd.2](bob-cli-bd.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.2.md) | [bob-cli-bd.2](bob-cli-bd.2.md) | 0 |

@@ -23,7 +23,7 @@ show: add the additive sections list and per-annotation section key to bob ref s
 
 - **Depends on:** [bob-cli-bd.3](bob-cli-bd.3.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bd.7](bob-cli-bd.7.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bd.8](bob-cli-bd.8.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bd.8](bob-cli-bd.8.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -36,3 +36,15 @@ show: add the additive sections list and per-annotation section key to bob ref s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`94591ea`](https://github.com/bobs-org/bob-cli/commit/94591ea66d48c89fba305344c40d0df5bfceecc6) | feat(ref): group bob ref show output by annotation sections | [bob-cli-bd.5](bob-cli-bd.5.md) | 2026-10-24 08:51:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bd.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.5/README.md
+
+<!-- sase:referenced-by:end -->

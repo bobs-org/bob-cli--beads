@@ -43,8 +43,10 @@ gates: fix bob-cli-ba so hard-wrapped quote lines starting with `# ` stay quote 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-bd.1][1] | need full detail incl notes | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.land][1] | Concurrent commit 6ec2f16a overlaps epic bob-cli-an.6.6.6.5 phase 1 quote-heading fix; need its scope | 1 |
+| read-by | [agent:bob-cli-bd.1][2] | need full detail incl notes | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.1/README.md
 
 <!-- sase:referenced-by:end -->
