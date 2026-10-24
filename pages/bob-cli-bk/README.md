@@ -1,0 +1,67 @@
+# Bead: bob-cli-bk — Capture asks where inbox tasks go
+
+[Bead Pages](../README.md) / bob-cli-bk
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.a9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.a9.md) · **Assignee:** `bob-cli-bk.land`
+**Created:** 2026-10-24 14:00:26 EDT
+**Plan:** [202610/capture\_inbox\_routing.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_inbox_routing.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/capture_inbox_routing.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_inbox_routing.md
+
+<!-- sase:links:end -->
+
+## Description
+
+Every capture that changes the status of an existing inbox task makes Bob Mac Capture ask which area or open project the task belongs in, and bob applies the capture and the move in one atomic batch.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-bk.1](bob-cli-bk.1.md) | Detect inbox route candidates and refuse without a choice | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bk.2](bob-cli-bk.2.md) | Apply inbox route answers inside the capture batch | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bk.3](bob-cli-bk.3.md) | Decode inbox routes and send route answers in CaptureCore | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bk.4](bob-cli-bk.4.md) | Route card in the Bob Mac Capture panel | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-bk: Capture asks where inbox tasks go [in_progress]"]
+    n1["bob-cli-bk.1: Detect inbox route candidates and refuse without a choice [closed]"]
+    n2["bob-cli-bk.2: Apply inbox route answers inside the capture batch [in_progress]"]
+    n3["bob-cli-bk.3: Decode inbox routes and send route answers in CaptureCore [in_progress]"]
+    n4["bob-cli-bk.4: Route card in the Bob Mac Capture panel [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n1 -.-> n2
+    n2 -.-> n3
+    n3 -.-> n4
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-bk.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.1/README.md) | [bob-cli-bk.1](bob-cli-bk.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bk.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.2/README.md) | [bob-cli-bk.2](bob-cli-bk.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.3/README.md) | [bob-cli-bk.3](bob-cli-bk.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.4/README.md) | [bob-cli-bk.4](bob-cli-bk.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.land/README.md) | [bob-cli-bk](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`bb52dd0`](https://github.com/bobs-org/bob-cli/commit/bb52dd0ab1c5d947a84b2c98f6e29620c7a3e7ff) | feat(capture): detect inbox route choices | [bob-cli-bk.1](bob-cli-bk.1.md) | 2026-10-24 14:58:27 EDT |
