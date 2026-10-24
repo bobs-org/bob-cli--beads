@@ -13,7 +13,7 @@ double-pipe: parse, rewrite glue, completion, dry-run hide fields and the hides_
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bj.3](bob-cli-bj.3.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bj.3](bob-cli-bj.3.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bj.7](bob-cli-bj.7.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
