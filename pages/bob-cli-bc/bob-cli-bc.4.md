@@ -40,7 +40,7 @@ suggest: compose today rows, recent themes, and the create row in both Pomodoro-
 - **Depends on:** [bob-cli-bc.1](bob-cli-bc.1.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.10](bob-cli-bc.10.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.2](bob-cli-bc.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.7](bob-cli-bc.7.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.7](bob-cli-bc.7.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

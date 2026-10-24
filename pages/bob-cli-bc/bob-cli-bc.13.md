@@ -13,7 +13,7 @@ records: write the glossary strand and decision records from what shipped, recon
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bc.11](bob-cli-bc.11.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bc.11](bob-cli-bc.11.md) ○ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.12](bob-cli-bc.12.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.8](bob-cli-bc.8.md) ◐ · ⧖ 2026-10-24
 
