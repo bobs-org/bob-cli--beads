@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bk.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.2/README.md) | [bob-cli-bk.2](bob-cli-bk.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.3/README.md) | [bob-cli-bk.3](bob-cli-bk.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bk.4.md) | [bob-cli-bk.4](bob-cli-bk.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-bk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bk.land.md) | [bob-cli-bk](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bk.land.md) | [bob-cli-bk](README.md) | 2 |
 
 ## Commits
 
@@ -78,3 +78,4 @@ flowchart TD
 | bob-cli | [`e70f9ea`](https://github.com/bobs-org/bob-cli/commit/e70f9ea40a7be87ffc761b851eda2613d288e9c8) | docs(memory): explain capture inbox routing | [bob-cli-bk.4](bob-cli-bk.4.md) | 2026-10-24 18:10:17 EDT |
 | bob-mac-capture | [`bob-mac-capture@7bfa312`](https://github.com/bobs-org/bob-mac-capture/commit/7bfa31275b3dccbb72e15f664065bddd8363a39d) | feat(capture): add inbox route card | [bob-cli-bk.4](bob-cli-bk.4.md) | 2026-10-24 18:11:20 EDT |
 | bob-cli | [`e5c7d0f`](https://github.com/bobs-org/bob-cli/commit/e5c7d0fcab0d256ae6a4ebe00e92092b73ffe179) | feat(capture): finish inbox routing with atomic snapshot and exact task identity | [bob-cli-bk](README.md) | 2026-10-24 19:04:51 EDT |
+| bob-cli--plans | [`bob-cli--plans@3398dd4`](https://github.com/bobs-org/bob-cli--plans/commit/3398dd471d81a6aadc05c6086f7c4c9dd774a0dc) | docs(plans): mark capture inbox routing and finish tale done | [bob-cli-bk](README.md) | 2026-10-24 19:05:31 EDT |
