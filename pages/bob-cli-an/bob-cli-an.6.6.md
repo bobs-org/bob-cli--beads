@@ -31,11 +31,13 @@ Close five prioritized task beads by hardening rfserver's token suspension, prov
 
 [2026-10-24T09:34:15Z · bob-cli-an.6.6.land] POST-CLOSE LANDER ADDENDUM (same turn): a CI review after closing found an epic-caused macOS regression. fb535ef6's relative-path test failed on macos-latest at every commit from fb535ef6 to 339578cb, hidden because master CI was already red on b5. Cause: the physical cwd (/private/var) missed the configured lib/ spelling (/var), so sync planned a flat ref note; any symlinked vault would hit the same path. Fixed in c7e0dab6 (rebase onto the lib/xlib spelling when only a symlinked directory differs, plus a Linux symlinked-vault regression that fails without the fix). CI run 40081848753 on c7e0dab6: test (macos-latest), test (ubuntu-latest), and package all succeed; lint fails only on the pre-existing bob-cli-b5 git-identity node. Both hosts were reinstalled at c7e0dab6. Other triage: created bob-cli-b9 (large flake) for the unrelated, intermittent macOS aliases::completion_offers_group_members_status_flags_and_alias_options failure (2/7 runs, linked to bob-cli-3j); +1'd bob-cli-5l for an ETXTBSY repro in highlights_ref fetch tests. The epic stays closed: reopening would also reopen closed ancestors bob-cli-an.6 and bob-cli-an.
 
+[2026-10-24T09:38:02Z · bob-cli-an.6.6.land] CONTINUATION (bob-cli-an.6.6.land, 2026-10-24): after landing, a fresh enumeration found 133 unresolved tasks: 129 ready and 4 snoozed (3o, 6q, aa, ah). None are claimed or in progress. The successor epic 'Backlog batch 4: green bob-cli CI, capture flag guard, bob-plugins red tests, and relation-label race' was authored, validated, and is being submitted through sase plan propose (scratch sase_plan_backlog_batch4_ci_identity_capture_flags_plugin_tests_relation_race.md). It owns exactly bob-cli-b5 (ci-scripts-identity), bob-cli-8a (capture-flag-guard), bob-cli-6v and bob-cli-7i (plugins-red-tests), and bob-cli-al (relation-label-race). All four phases are independent. It carries one reviewer decision (capture_flag_guard, default refuse) and the continuation contract, with item 3 re-ranked. Ranking: no actionable security or content-loss task; silent corruption first (8a, al), then 7i (dangling BLOCKS write plus deterministic test, +19), then CI blockers b5 (master lint red since 134016ce, blocking the release train and masking regressions) and 6v (+24). Deferred with reasons: b7 ties 6v but loses on corroboration and age; 79 fails loudly; b8 needs a reviewed live-vault mutation; 4r affects 2 notes; 7q is a design change. Next candidates: 2l, 94, 95, 4r, 79, b8; CI b7; flakes 3w, 5l, b9, 4k, 8q; Athena b4, ax, 8r, 9x. The backlog campaign is not complete.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.land/README.md) | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 4 |
+| [bbugyi200.athena.bob-cli-an.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.land.md) | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 4 |
 
 ## Commits
 
@@ -58,6 +60,6 @@ Close five prioritized task beads by hardening rfserver's token suspension, prov
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.4/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.land.md
 
 <!-- sase:referenced-by:end -->
