@@ -27,10 +27,10 @@ The Bob Mac Capture relation card is a reliable, beautiful chooser: Ctrl+N/P mov
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-bj.1](bob-cli-bj.1.md) | Mac relation card as a navigate-then-accept chooser | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bj.1](bob-cli-bj.1.md) | Mac relation card as a navigate-then-accept chooser | ✓ closed | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bj.10](bob-cli-bj.10.md) | Obsidian rename mode and the relation labels command | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bj.11](bob-cli-bj.11.md) | Decision records, docs sweep, and end-to-end acceptance | ◐ in_progress | small | 2026-10-24 | 1 | 0 |
-| [bob-cli-bj.2](bob-cli-bj.2.md) | Shared preference journal, relation label catalog, and bob relations list/hide/unhide | ○ open | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bj.2](bob-cli-bj.2.md) | Shared preference journal, relation label catalog, and bob relations list/hide/unhide | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bj.3](bob-cli-bj.3.md) | capture-complete relation\_label rows from the catalog | ◐ in_progress | small | 2026-10-24 | 1 | 0 |
 | [bob-cli-bj.4](bob-cli-bj.4.md) | Shared vault-rewrite transaction extracted from bob themes rename | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bj.5](bob-cli-bj.5.md) | The \`\|\|\` one-off relation label capture syntax | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
@@ -47,7 +47,7 @@ flowchart TD
     n1["bob-cli-bj.1: Mac relation card as a navigate-then-accept chooser [closed]"]
     n2["bob-cli-bj.10: Obsidian rename mode and the relation labels command [in_progress]"]
     n3["bob-cli-bj.11: Decision records, docs sweep, and end-to-end acceptance [in_progress]"]
-    n4["bob-cli-bj.2: Shared preference journal, relation label catalog, and bob relations list/hide/unhide [open]"]
+    n4["bob-cli-bj.2: Shared preference journal, relation label catalog, and bob relations list/hide/unhide [closed]"]
     n5["bob-cli-bj.3: capture-complete relation_label rows from the catalog [in_progress]"]
     n6["bob-cli-bj.4: Shared vault-rewrite transaction extracted from bob themes rename [in_progress]"]
     n7["bob-cli-bj.5: The `||` one-off relation label capture syntax [in_progress]"]
@@ -85,10 +85,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.1.md) | [bob-cli-bj.1](bob-cli-bj.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.1.md) | [bob-cli-bj.1](bob-cli-bj.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.10/README.md) | [bob-cli-bj.10](bob-cli-bj.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.11/README.md) | [bob-cli-bj.11](bob-cli-bj.11.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.2/README.md) | [bob-cli-bj.2](bob-cli-bj.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.2/README.md) | [bob-cli-bj.2](bob-cli-bj.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.3/README.md) | [bob-cli-bj.3](bob-cli-bj.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.4/README.md) | [bob-cli-bj.4](bob-cli-bj.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.5/README.md) | [bob-cli-bj.5](bob-cli-bj.5.md) | 0 |
@@ -102,4 +102,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@7dc96cf`](https://github.com/bobs-org/bob-mac-capture/commit/7dc96cf1c975fb18e3a14df27cbf1b9db9b2ecfd) | feat(mac-capture): add relation chooser | [bob-cli-bj.1](bob-cli-bj.1.md) | 2026-10-24 14:25:23 EDT |
+| bob-cli | [`57d7761`](https://github.com/bobs-org/bob-cli/commit/57d77612109f72c1f51aecbcb43c6be106e7398b) | feat(relations): shared preference journal, label catalog, and bob relations list/hide/unhide | [bob-cli-bj.2](bob-cli-bj.2.md) | 2026-10-24 15:08:39 EDT |

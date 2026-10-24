@@ -13,7 +13,7 @@ label-complete: switch relation_label suggestions to the fast catalog, add key/i
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bj.2](bob-cli-bj.2.md) ○ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bj.2](bob-cli-bj.2.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bj.5](bob-cli-bj.5.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

@@ -13,7 +13,7 @@ rewrite-txn: extract lock, pre-sync, snapshot and stale check, dirty-path rules,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bj.2](bob-cli-bj.2.md) ○ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bj.2](bob-cli-bj.2.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bj.6](bob-cli-bj.6.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

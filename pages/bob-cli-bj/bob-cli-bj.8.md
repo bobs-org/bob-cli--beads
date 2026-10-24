@@ -14,7 +14,7 @@ obsidian-vocab: copy the shared vectors, align the JS key, rank, and display spe
 ## Dependencies
 
 - **Blocks:** [bob-cli-bj.10](bob-cli-bj.10.md) ◐ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bj.2](bob-cli-bj.2.md) ○ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bj.2](bob-cli-bj.2.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

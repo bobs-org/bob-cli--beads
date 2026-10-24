@@ -27,10 +27,16 @@ mac-chooser: fix the Tab collapse by separating query from selection (selection 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.1.md) | [bob-cli-bj.1](bob-cli-bj.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.1.md) | [bob-cli-bj.1](bob-cli-bj.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@7dc96cf`](https://github.com/bobs-org/bob-mac-capture/commit/7dc96cf1c975fb18e3a14df27cbf1b9db9b2ecfd) | feat(mac-capture): add relation chooser | [bob-cli-bj.1](bob-cli-bj.1.md) | 2026-10-24 14:25:23 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.1--1][1] | Review the assigned relation chooser phase, verification evidence, and close criteria | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.1.md
+
+<!-- sase:referenced-by:end -->
