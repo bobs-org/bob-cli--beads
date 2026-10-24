@@ -13,7 +13,7 @@ strip-view: add the pure `dayStripModel` and DOM `paintDayStrip`, the `.bob-day-
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bp.2](bob-cli-bp.2.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bp.2](bob-cli-bp.2.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bp.4](bob-cli-bp.4.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

@@ -13,7 +13,7 @@ strip-hosts: add the day-identity and report-selection rules, the strip registry
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bp.2](bob-cli-bp.2.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bp.2](bob-cli-bp.2.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bp.3](bob-cli-bp.3.md) ◐ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bp.5](bob-cli-bp.5.md) ◐ · ⧖ 2026-10-24
 
