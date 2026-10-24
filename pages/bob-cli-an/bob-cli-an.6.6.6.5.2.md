@@ -13,7 +13,7 @@ highlight-marker-mirror: resolve bob-cli-4r by skipping the real page-1 marker m
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-an.6.6.6.5.1](bob-cli-an.6.6.6.5.1.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-an.6.6.6.5.1](bob-cli-an.6.6.6.5.1.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

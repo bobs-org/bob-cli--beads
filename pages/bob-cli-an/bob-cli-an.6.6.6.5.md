@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Close five prioritized task beads. Stop Highlights from dropping quoted lines th
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.land/README.md) | [bob-cli-an.6.6.6.5](bob-cli-an.6.6.6.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.4][1] | Need parent epic plan and design | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.4/README.md
+
+<!-- sase:referenced-by:end -->
