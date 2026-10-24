@@ -35,3 +35,15 @@ grammar: teach the sidecar parser to keep `# Name` sticky declarations, and add 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`453b07e`](https://github.com/bobs-org/bob-cli/commit/453b07e74ea1aafce753b9a8de69db680079cfe9) | feat(highlights): parse reference sections | [bob-cli-bd.2](bob-cli-bd.2.md) | 2026-10-24 09:49:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -38,3 +38,15 @@ render: restructure render_sidecar_highlights into collect-then-assemble, emit t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9398c5b`](https://github.com/bobs-org/bob-cli/commit/9398c5bbcca27fce050e67e029bd5a02bc60fbeb) | feat(highlights): sectioned annotation rendering with stable IDs | [bob-cli-bd.4](bob-cli-bd.4.md) | 2026-10-24 10:43:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+
+<!-- sase:referenced-by:end -->

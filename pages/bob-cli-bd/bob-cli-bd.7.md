@@ -37,3 +37,17 @@ docs: write the user-facing Sections guide in docs/highlights-ref-sync.md, add t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2eb9812`](https://github.com/bobs-org/bob-cli/commit/2eb98129f0416b17b0a181b6d212d79c6a321474) | docs(highlights): document annotation sections and add cross-surface checks | [bob-cli-bd.7](bob-cli-bd.7.md) | 2026-10-24 12:35:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+| read-by | [agent:bob-cli-bd.7--3][2] | Confirm no remaining epic-symbol entries and the recorded skipped-memory follow-up before closing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.7.md
+
+<!-- sase:referenced-by:end -->
