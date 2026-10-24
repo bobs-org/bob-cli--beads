@@ -33,6 +33,10 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 
 [2026-10-23T16:37:30Z · bob-cli-an.land] CONTINUATION (bob-cli-an.land, 2026-10-23): fresh enumeration after this landing found 155 unresolved tasks (151 ready, 4 snoozed: 3o, 6q, aa, ah; none claimed or in progress). Successor epic 'Backlog batch 2: Athena root, listener, and backup hardening plus reference ID allocation' was authored and submitted through sase plan propose (scratch sase_plan_backlog_batch2_athena_hardening_and_ref_ids.md). It owns exactly bob-cli-au (periodic-cron), bob-cli-1a (backup-rotation, after periodic-cron), bob-cli-av (user-supervisor), bob-cli-aw (rfserver-port, after user-supervisor), and bob-cli-8o (ref-id-allocation), with one reviewer decision (multivisor_web_access, default tailnet) and the verbatim continuation contract. Ranking: security first (au, av, aw), backup content loss next (1a), then the top silent identity defect (8o, chosen over 9a on age and live-vault impact). Next candidates: 9a, 8a, 79, al, 2q, ax; heavily corroborated 6m, 6v, 6w, 7i; detection 8r, 9x. The backlog campaign is not complete.
 
+[2026-10-24T11:29:39Z · bob-cli-an.6.6.6.land] RECHECK after descendant bob-cli-an.6.6.6 closed (2026-10-24). Chain an.6 -> an.6.6 -> an.6.6.6 is closed; epic-symbols empty; linked plan 202610/backlog_security_and_durability.md already status: done. No unfinished descendants. Parent stays closed. Backlog campaign continues.
+
+[2026-10-24T11:29:50Z · bob-cli-an.6.6.6.land] Rechecked after descendant an.6.6.6 closed; already done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -65,7 +69,7 @@ flowchart TD
     n15["bob-cli-an.6.6.3: Make bob's today follow Bryan's Eastern day on every host [closed]"]
     n16["bob-cli-an.6.6.4: Render web clips with static fonts so Highlights quotes keep whole words [closed]"]
     n17["bob-cli-an.6.6.5: Map relative PDF paths to their real reference notes [closed]"]
-    n18["bob-cli-an.6.6.6: Backlog batch 4: green bob-cli CI, capture flag guard, bob-plugins red tests, and relation-label race [in_progress]"]
+    n18["bob-cli-an.6.6.6: Backlog batch 4: green bob-cli CI, capture flag guard, bob-plugins red tests, and relation-label race [closed]"]
     n19["bob-cli-an.6.6.6.1: Give the coordination acceptance self-test its own git identity [closed]"]
     n20["bob-cli-an.6.6.6.2: Stop bob capture filing unknown flags as task text [closed]"]
     n21["bob-cli-an.6.6.6.3: Fix bob-plugins' frozen-clock glyph tests and the reverse-conversion BLOCKS link [closed]"]
@@ -120,9 +124,9 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-an.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.5/README.md) | [bob-cli-an.6.6.5](bob-cli-an.6.6.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.1.md) | [bob-cli-an.6.6.6.1](bob-cli-an.6.6.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.2.md) | [bob-cli-an.6.6.6.2](bob-cli-an.6.6.6.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.3.md) | [bob-cli-an.6.6.6.3](bob-cli-an.6.6.6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.3.md) | [bob-cli-an.6.6.6.3](bob-cli-an.6.6.6.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.4/README.md) | [bob-cli-an.6.6.6.4](bob-cli-an.6.6.6.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.land/README.md) | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.land.md) | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.land.md) | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 4 |
 | [bbugyi200.athena.bob-cli-an.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md) | [bob-cli-an.6](bob-cli-an.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.land.md) | [bob-cli-an](README.md) | 2 |
@@ -146,8 +150,10 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@8a7199e`](https://github.com/bobs-org/bob-cli--plans/commit/8a7199e5b45ca43b763af8df3e369aee9bad07a4) | chore(plans): mark backlog batch 3 done | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 2026-10-24 05:34:27 EDT |
 | bob-cli | [`30f10f1`](https://github.com/bobs-org/bob-cli/commit/30f10f154afb119a51a5ebf27264538342973c88) | fix(ci): persist scratch vault git identity | [bob-cli-an.6.6.6.1](bob-cli-an.6.6.6.1.md) | 2026-10-24 06:04:06 EDT |
 | bob-mac-capture | [`bob-mac-capture@22598dc`](https://github.com/bobs-org/bob-mac-capture/commit/22598dc09f6b4b937259e716eab29a8c263e0ca7) | fix(capture): tie relation-label suggestions to the authored label | [bob-cli-an.6.6.6.4](bob-cli-an.6.6.6.4.md) | 2026-10-24 06:09:14 EDT |
+| bob-plugins | [`bob-plugins@e6b2ec2`](https://github.com/bobs-org/bob-plugins/commit/e6b2ec2dba4c4a6b865faccbc2e3cad59fef4f10) | fix(plugins): repair frozen-clock tests and reverse BLOCKS links | [bob-cli-an.6.6.6.3](bob-cli-an.6.6.6.3.md) | 2026-10-24 06:13:05 EDT |
 | bob-cli | [`0afeb2f`](https://github.com/bobs-org/bob-cli/commit/0afeb2f3e744ee2ee775172d5c161eadd45e247b) | feat(capture)!: refuse unknown flags via capture\_flag\_guard | [bob-cli-an.6.6.6.2](bob-cli-an.6.6.6.2.md) | 2026-10-24 06:27:36 EDT |
 | bob-mac-capture | [`bob-mac-capture@8400bd3`](https://github.com/bobs-org/bob-mac-capture/commit/8400bd3e1cd4afd0a29ad4a7ea83f33b7557311a) | feat(capture): gate pull-in flag on preview support | [bob-cli-an.6.6.6.2](bob-cli-an.6.6.6.2.md) | 2026-10-24 06:28:16 EDT |
+| bob-cli | [`3d62fb5`](https://github.com/bobs-org/bob-cli/commit/3d62fb548fde190cddad0e8d5b2b80a23bde1e0c) | fix(capture): walk mixed short clusters before unknown-flag refusal | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:33:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
