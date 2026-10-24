@@ -20,7 +20,7 @@ mac-route-client: CaptureCore decodes `inbox_route`, sends answers and the guard
 ## Dependencies
 
 - **Depends on:** [bob-cli-bk.2](bob-cli-bk.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bk.4](bob-cli-bk.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bk.4](bob-cli-bk.4.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -33,3 +33,15 @@ mac-route-client: CaptureCore decodes `inbox_route`, sends answers and the guard
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@2968311`](https://github.com/bobs-org/bob-mac-capture/commit/2968311e5fa7924ed99bf83e52df865ee6e114c1) | feat(mac-capture): decode inbox routes and send route answers in CaptureCore | [bob-cli-bk.3](bob-cli-bk.3.md) | 2026-10-24 17:16:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bk.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bk.3/README.md
+
+<!-- sase:referenced-by:end -->
