@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch2_athena_hardening_and_ref_ids.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch2_athena_hardening_and_ref_ids.md
 
@@ -57,12 +57,14 @@ Close five prioritized task beads by removing the remaining Bryan-to-root cron c
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.1--1][1] | need epic scope for 6.1 vs 6.2 split | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.5--2][2] | Confirm the phase ancestor was left unclosed | 1 |
-| read-by | [agent:bob-cli-an.6.6.land][3] | Need the parent landing notes | 2 |
-| read-by | [agent:bob-cli-an.6.land][4] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.land][3] | Recheck closed plan ancestors of bob-cli-an.6.6.6.5 after landing | 1 |
+| read-by | [agent:bob-cli-an.6.6.land][4] | Need the parent landing notes | 2 |
+| read-by | [agent:bob-cli-an.6.land][5] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.land.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
 
 <!-- sase:referenced-by:end -->

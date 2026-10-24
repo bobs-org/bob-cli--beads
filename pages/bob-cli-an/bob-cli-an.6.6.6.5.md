@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch5_highlights_render_pomodoro_name_duplicate_link_mac_ci.md
 
@@ -29,11 +29,13 @@ Close five prioritized task beads. Stop Highlights from dropping quoted lines th
 
 [2026-10-24T13:29:22Z · bob-cli-an.6.6.6.5.land] LANDING (bob-cli-an.6.6.6.5.land, 2026-10-24). VERIFIED: read the epic and plan, all 5 phases and their notes (zero PROPOSED FOLLOW-UP entries), the commits (bob-cli 215d93c7, bff7bc72, adb9c324, ae025fd0; bob-plugins 0dbd767; bob-mac-capture 6d41b2e), and the source. Decision highlight_id_on_quote_fix=remint honored: live vault commit deae6fd9 reminted both quote ids and tombstoned the old ones. Per-task evidence: ba (closed earlier by bob-cli-bd.1; lander note added): both live quotes keep the '# ' line with no Comment. 4r closed: fresh-build live dry-run gives note_action=update for the only two leaking color-grouped notes (2->1, 1->0); a scratch real sync drops the phantoms with no tombstone, keeps genuine h-e2d9e4fa6422, and resyncs as a no-op; page-marker leak recount is 0 of 86. bb (closed earlier by bob-cli-bc.1; lander note added): the exact isolated link-form repro creates 'DEEP WORK'. 2l closed: isolated reconcile repro leaves one marked struck link, the flag-reverted build duplicates it, and the plugin cycler test passes 24/24. b7 closed: CI 40095658827 on 6d41b2e runs 2938 tests and the three RefsLibraryTests pass. Caveat: earlier diagnostics used a stale workspace target/debug/bob (Oct 18); every result above comes from the CARGO_TARGET_DIR build. INTEGRATION: non-epic commits since start are 6ec2f16a (bd.1 level-aware page headings, absorbed ba), b7645d17 and 94591ea6 (bd sections), and 5c9cfda1 (bc themes). No duplicate quote logic: bd.1 built on 215d93c7, and ref show sections keep mirror exclusion. Lander changes: removed 215d93c7's non-hermetic test live_vault_heading_shaped_quotes_stay_in_quote_when_present (hard-coded /home/bryan/bob, would break on vault edits; bd.1 fixtures cover both repros); added CLI regression task_status_hooks_drops_carried_link_already_in_completed_fallback, because the phase's unit test exercised only capture retirement (proven to fail with the reconcile flag reverted). Considered and declined: making is_quote_continuation_line level-aware after bd.1 (vault scan shows 0 mixed-level sidecars; theoretical). CHECKS: just check fmt+clippy pass; 5445 tests pass, 2 fail: tests/cli/highlights/continuations.rs::continuation_scan_tucks_two_pages_and_is_idempotent and ::continuation_scan_reports_dangling_marker. Bisected to bd.1 6ec2f16a (pass at bff7bc72, fail at 6ec2f16a); master CI 40095684849 is red on exactly these. Recorded as a DISCOVERED ISSUE on active epic bob-cli-bd, which owns it; not caused by this epic. FOLLOW-UPS: created bob-cli-be (ci, large): three CapturePanelModelTests submit-argv failures on bob-mac-capture CI, present since 54131b1 (closed batch 4), unowned. Created bob-cli-bf (bug, medium): color-grouped sidecars cut hard-wrapped quotes (linked_page_style gate); live repro remote_sase_agents_consolidated. The bd.1 PROPOSED FOLLOW-UPs (decision strand, glossary term) belong to bob-cli-bd's lander and were not triaged here. epic-symbols: none; no symvision recipe.
 
+[2026-10-24T13:34:38Z · bob-cli-an.6.6.6.5.land] CONTINUATION (2026-10-24): commits bob-cli 8ba5f8d7 (reconcile dedupe CLI regression; non-hermetic live-vault test removed) and plans 2b31408 (batch 5 status done), both pushed. bob-plugins and bob-mac-capture unchanged by the lander. Fresh enumeration: 127 unresolved (123 ready; 4 snoozed: 3o, 6q, aa, ah). Successor epic scratch sase_plan_backlog_batch6_color_quote_walk_blocks_shift_promotion_race_mac_panel_ci.md validated with 0 warnings, parent_bead bob-cli-an.6.6.6.5. It owns bf (color-quote-wrap), 94+95 (blocks-shift-indexes), 79 (promotion-anchor-race, after blocks-shift-indexes), and be (mac-panel-argv-ci). One decision: color_grouped_quote_id, default remint. The plan copies the continuation contract. Proposing next.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.land/README.md) | [bob-cli-an.6.6.6.5](bob-cli-an.6.6.6.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md) | [bob-cli-an.6.6.6.5](bob-cli-an.6.6.6.5.md) | 2 |
 
 ## Commits
 
@@ -50,8 +52,10 @@ Close five prioritized task beads. Stop Highlights from dropping quoted lines th
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.4][1] | Need parent epic plan and design | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.5--2][2] | Confirm the phase ancestor was left unclosed | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
 
 <!-- sase:referenced-by:end -->
