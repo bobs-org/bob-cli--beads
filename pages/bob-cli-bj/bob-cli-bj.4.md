@@ -22,7 +22,7 @@ rewrite-txn: extract lock, pre-sync, snapshot and stale check, dirty-path rules,
 ## Dependencies
 
 - **Depends on:** [bob-cli-bj.2](bob-cli-bj.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bj.6](bob-cli-bj.6.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.6](bob-cli-bj.6.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -35,3 +35,15 @@ rewrite-txn: extract lock, pre-sync, snapshot and stale check, dirty-path rules,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fd9380c`](https://github.com/bobs-org/bob-cli/commit/fd9380cbaefb8ceb481a914ca6490b6f70e54143) | refactor(themes): extract rename transaction into vault\_rewrite module | [bob-cli-bj.4](bob-cli-bj.4.md) | 2026-10-24 16:07:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.4/README.md
+
+<!-- sase:referenced-by:end -->

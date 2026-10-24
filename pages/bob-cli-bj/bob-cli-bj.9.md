@@ -14,7 +14,7 @@ mac-rename: Ctrl+R rename mode with a live dry-run preview, merge confirmation, 
 ## Dependencies
 
 - **Blocks:** [bob-cli-bj.11](bob-cli-bj.11.md) ◐ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bj.6](bob-cli-bj.6.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bj.6](bob-cli-bj.6.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.7](bob-cli-bj.7.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
