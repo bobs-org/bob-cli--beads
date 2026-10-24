@@ -23,7 +23,7 @@ strip-hosts: add the day-identity and report-selection rules, the strip registry
 
 - **Depends on:** [bob-cli-bp.2](bob-cli-bp.2.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bp.3](bob-cli-bp.3.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bp.5](bob-cli-bp.5.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bp.5](bob-cli-bp.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -36,3 +36,15 @@ strip-hosts: add the day-identity and report-selection rules, the strip registry
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5f1df8b`](https://github.com/bobs-org/bob-plugins/commit/5f1df8b57e307052b2e4edc5dd437b912e813d5d) | feat(ledger-tools): day strip data selection, refresh policy, fence, and Stats hand-off | [bob-cli-bp.4](bob-cli-bp.4.md) | 2026-10-24 17:57:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bp.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.4/README.md
+
+<!-- sase:referenced-by:end -->

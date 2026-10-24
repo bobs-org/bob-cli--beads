@@ -14,7 +14,7 @@ strip-docs: document the shipped Day strip in docs/stats.md (what it shows, hone
 ## Dependencies
 
 - **Depends on:** [bob-cli-bp.1](bob-cli-bp.1.md) ✓ · ⧖ 2026-10-24
-- **Depends on:** [bob-cli-bp.5](bob-cli-bp.5.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bp.5](bob-cli-bp.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
