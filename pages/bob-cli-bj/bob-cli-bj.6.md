@@ -21,7 +21,7 @@ label-rename: the strict, previewed relation label rename on the shared transact
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bj.10](bob-cli-bj.10.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.10](bob-cli-bj.10.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.4](bob-cli-bj.4.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bj.9](bob-cli-bj.9.md) ◐ · ⧖ 2026-10-24
 
@@ -36,3 +36,15 @@ label-rename: the strict, previewed relation label rename on the shared transact
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4c46dad`](https://github.com/bobs-org/bob-cli/commit/4c46dadd118a28c0c5255941419a77efc01c870b) | feat(relations): add verified label rename command | [bob-cli-bj.6](bob-cli-bj.6.md) | 2026-10-24 16:56:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.6/README.md
+
+<!-- sase:referenced-by:end -->
