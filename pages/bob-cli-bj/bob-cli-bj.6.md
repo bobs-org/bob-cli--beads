@@ -23,7 +23,7 @@ label-rename: the strict, previewed relation label rename on the shared transact
 
 - **Blocks:** [bob-cli-bj.10](bob-cli-bj.10.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.4](bob-cli-bj.4.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bj.9](bob-cli-bj.9.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.9](bob-cli-bj.9.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

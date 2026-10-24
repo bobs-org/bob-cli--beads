@@ -21,7 +21,7 @@ mac-vocab: decode the new fields, Ctrl+D ghost-row hide/unhide on a serial lane,
 
 - **Depends on:** [bob-cli-bj.1](bob-cli-bj.1.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.5](bob-cli-bj.5.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bj.9](bob-cli-bj.9.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.9](bob-cli-bj.9.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -34,3 +34,15 @@ mac-vocab: decode the new fields, Ctrl+D ghost-row hide/unhide on a serial lane,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@556bb67`](https://github.com/bobs-org/bob-mac-capture/commit/556bb6720136d711e81f057cee32ad21d4795c30) | feat(relation-card): hide, one-off, Hidden section, and warnings | [bob-cli-bj.7](bob-cli-bj.7.md) | 2026-10-24 18:33:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.7/README.md
+
+<!-- sase:referenced-by:end -->

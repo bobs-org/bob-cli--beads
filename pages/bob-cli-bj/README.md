@@ -45,7 +45,7 @@ The Bob Mac Capture relation card is a reliable, beautiful chooser: Ctrl+N/P mov
 | [bob-cli-bj.6](bob-cli-bj.6.md) | bob relations rename across every note, done/ included | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bj.7](bob-cli-bj.7.md) | Mac card hide, one-off, Hidden section, and warnings | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bj.8](bob-cli-bj.8.md) | Obsidian label stage parity, JS mirrors, and api.relationLabels | ✓ closed | medium | 2026-10-24 | 1 | 0 |
-| [bob-cli-bj.9](bob-cli-bj.9.md) | Mac card rename mode | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bj.9](bob-cli-bj.9.md) | Mac card rename mode | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 
 ## Lineage
 
@@ -62,7 +62,7 @@ flowchart TD
     n8["bob-cli-bj.6: bob relations rename across every note, done/ included [closed]"]
     n9["bob-cli-bj.7: Mac card hide, one-off, Hidden section, and warnings [closed]"]
     n10["bob-cli-bj.8: Obsidian label stage parity, JS mirrors, and api.relationLabels [closed]"]
-    n11["bob-cli-bj.9: Mac card rename mode [in_progress]"]
+    n11["bob-cli-bj.9: Mac card rename mode [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.6/README.md) | [bob-cli-bj.6](bob-cli-bj.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.7/README.md) | [bob-cli-bj.7](bob-cli-bj.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.8/README.md) | [bob-cli-bj.8](bob-cli-bj.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.land/README.md) | [bob-cli-bj](README.md) | 0 |
 
 ## Commits
@@ -117,6 +117,7 @@ flowchart TD
 | bob-cli | [`4c46dad`](https://github.com/bobs-org/bob-cli/commit/4c46dadd118a28c0c5255941419a77efc01c870b) | feat(relations): add verified label rename command | [bob-cli-bj.6](bob-cli-bj.6.md) | 2026-10-24 16:56:34 EDT |
 | bob-cli | [`895b9ba`](https://github.com/bobs-org/bob-cli/commit/895b9ba7608b5c215334132d6d0ae0747e8c0210) | feat(capture): add \|\| one-off relation label syntax with hide-on-commit | [bob-cli-bj.5](bob-cli-bj.5.md) | 2026-10-24 17:51:32 EDT |
 | bob-mac-capture | [`bob-mac-capture@556bb67`](https://github.com/bobs-org/bob-mac-capture/commit/556bb6720136d711e81f057cee32ad21d4795c30) | feat(relation-card): hide, one-off, Hidden section, and warnings | [bob-cli-bj.7](bob-cli-bj.7.md) | 2026-10-24 18:33:16 EDT |
+| bob-mac-capture | [`bob-mac-capture@1001627`](https://github.com/bobs-org/bob-mac-capture/commit/1001627311646b2211167b906c1a65d4b610fa53) | feat(relation-card): Ctrl+R rename mode with live dry-run preview and merge confirm | [bob-cli-bj.9](bob-cli-bj.9.md) | 2026-10-24 19:09:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
