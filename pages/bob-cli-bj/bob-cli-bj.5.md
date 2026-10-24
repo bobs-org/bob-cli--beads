@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-bj](README.md) / bob-cli-bj.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2e.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2e.linker.w0.md) · **Assignee:** `bob-cli-bj.5` · **Size:** medium
-**Created:** 2026-10-24 13:34:46 EDT
+**Created:** 2026-10-24 13:34:46 EDT · **Closed:** 2026-10-24 17:52:38 EDT
 **Plan:** [202610/relation\_label\_vocabulary.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/relation_label_vocabulary.md)
 
 ## Description
@@ -19,10 +19,12 @@ double-pipe: parse, rewrite glue, completion, dry-run hide fields and the hides_
 
 [2026-10-24T21:49:59Z · bob-cli-bj.5] PROPOSED FOLLOW-UP: pre-existing CLI failure help_options::capture_complete_help_lists_options_alphabetically (long-help golden vs concurrent help-text changes) reproduces on clean base; unrelated to double-pipe, left for its owning phase
 
+[2026-10-24T21:52:38Z · bob-cli-bj.5] Closed by explicit `sase stitch create -B close` after create_commit landed 895b9ba7 ("feat(capture): add || one-off relation label syntax with hide-on-commit"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-bj.5` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-bj.3](bob-cli-bj.3.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bj.7](bob-cli-bj.7.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.7](bob-cli-bj.7.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -35,3 +37,15 @@ double-pipe: parse, rewrite glue, completion, dry-run hide fields and the hides_
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`895b9ba`](https://github.com/bobs-org/bob-cli/commit/895b9ba7608b5c215334132d6d0ae0747e8c0210) | feat(capture): add \|\| one-off relation label syntax with hide-on-commit | [bob-cli-bj.5](bob-cli-bj.5.md) | 2026-10-24 17:51:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.5/README.md
+
+<!-- sase:referenced-by:end -->
