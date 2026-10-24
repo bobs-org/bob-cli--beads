@@ -19,7 +19,7 @@ mac-rename: Ctrl+R rename mode with a live dry-run preview, merge confirmation, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bj.11](bob-cli-bj.11.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.11](bob-cli-bj.11.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.6](bob-cli-bj.6.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.7](bob-cli-bj.7.md) ✓ · ⧖ 2026-10-24
 
@@ -27,10 +27,16 @@ mac-rename: Ctrl+R rename mode with a live dry-run preview, merge confirmation, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@1001627`](https://github.com/bobs-org/bob-mac-capture/commit/1001627311646b2211167b906c1a65d4b610fa53) | feat(relation-card): Ctrl+R rename mode with live dry-run preview and merge confirm | [bob-cli-bj.9](bob-cli-bj.9.md) | 2026-10-24 19:09:37 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.9][1] | full read | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md
+
+<!-- sase:referenced-by:end -->

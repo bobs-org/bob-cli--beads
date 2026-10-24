@@ -19,7 +19,7 @@ obsidian-rename: Ctrl+R rename mode in the relation-label stage with the bob dry
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bj.11](bob-cli-bj.11.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.11](bob-cli-bj.11.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.6](bob-cli-bj.6.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bj.8](bob-cli-bj.8.md) ✓ · ⧖ 2026-10-24
 
@@ -27,7 +27,13 @@ obsidian-rename: Ctrl+R rename mode in the relation-label stage with the bob dry
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.10/README.md) | [bob-cli-bj.10](bob-cli-bj.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bj.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.10/README.md) | [bob-cli-bj.10](bob-cli-bj.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e368e38`](https://github.com/bobs-org/bob-plugins/commit/e368e38d836db83b44b8d09d92b83396b0f0f6c0) | feat(relation-labels): add Obsidian rename workflow | [bob-cli-bj.10](bob-cli-bj.10.md) | 2026-10-24 17:21:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
