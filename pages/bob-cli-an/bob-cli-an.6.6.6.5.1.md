@@ -25,7 +25,7 @@ Remaining: bob-cli-ba left open for the lander. Recovery is the next bob ref sca
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-an.6.6.6.5.2](bob-cli-an.6.6.6.5.2.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-an.6.6.6.5.2](bob-cli-an.6.6.6.5.2.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -38,3 +38,15 @@ Remaining: bob-cli-ba left open for the lander. Recovery is the next bob ref sca
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`215d93c`](https://github.com/bobs-org/bob-cli/commit/215d93c7eb806e033b084951eea38db3dd8906c0) | fix(highlights-ref): keep heading-shaped wrap lines inside quotes | [bob-cli-an.6.6.6.5.1](bob-cli-an.6.6.6.5.1.md) | 2026-10-24 08:05:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.1/README.md
+
+<!-- sase:referenced-by:end -->
