@@ -2,14 +2,31 @@
 
 [Bead Pages](../README.md) / [bob-cli-bc](README.md) / bob-cli-bc.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2c.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2c.linker.w1.md) · **Assignee:** `bob-cli-bc.12` · **Size:** small
-**Created:** 2026-10-24 07:52:22 EDT
+**Created:** 2026-10-24 07:52:22 EDT · **Closed:** 2026-10-24 08:57:32 EDT
 **Plan:** [202610/pomodoro\_themes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/pomodoro_themes.md)
 
 ## Description
 
 menubar: show the running session's theme swatch before the mac pom title in the chezmoi Hammerspoon indicator.
+
+## Notes
+
+[2026-10-24T12:57:19Z · bob-cli-bc.12] Verified: chezmoi Hammerspoon prepends catalog hue swatches before the mac pom title.
+
+Automated: busted ./tests/hammerspoon — 192 successes (countdown split/hue/swatch policy; init fetch of `bob themes list -a -f json` on the existing re-sync command, light/dark hex, composite/exempt/unknown/failed fallbacks, name stays labelColor).
+
+Mac (reachable 2026-10-24): live `bob` does not yet have `themes` (`unrecognized subcommand`); current session is overdue GTD. The new script still exits 0 on pomodoro success (`bob themes list … || true`), so a missing command leaves the title unchanged. Visual check needs a Mac `bob` that has `themes` plus chezmoi apply / Hammerspoon reload.
+
+Manual check after apply:
+1. `chezmoi apply ~/.hammerspoon` then Hammerspoon Reload Config (or full apply so the restart hook runs).
+2. Confirm `bob themes list -a -f json` works on the Mac.
+3. Running named non-exempt theme (e.g. BOB): colored ■ before the name; name/duration/tomato stay ordinary foreground; overdue red only on the status.
+4. Composite (BOB + DECKS): two squares; GTD or unknown name: no square; idle worked total: no square.
+5. Refresh / vault edit still re-syncs; failed `bob themes` keeps the pomodoro title.
+
+[2026-10-24T12:57:32Z · bob-cli-bc.12] Chezmoi mac pom prepends catalog ■ swatches from bob themes list -a -f json on existing re-syncs; title text stays untinted; exempt/unknown/failed themes leave the title unchanged. busted tests/hammerspoon 192 ok. Mac live bob lacks themes yet so visual check is after apply (steps in the phase note).
 
 ## Dependencies
 
@@ -20,4 +37,10 @@ menubar: show the running session's theme swatch before the mac pom title in the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.12/README.md) | [bob-cli-bc.12](bob-cli-bc.12.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.12/README.md) | [bob-cli-bc.12](bob-cli-bc.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@a078759`](https://github.com/bbugyi200/dotfiles/commit/a07875989fa4f67eed4c491fc8c26329c2c369b1) | feat(hammerspoon): prepend Pomodoro theme swatches in the menu bar | [bob-cli-bc.12](bob-cli-bc.12.md) | 2026-10-24 08:59:05 EDT |

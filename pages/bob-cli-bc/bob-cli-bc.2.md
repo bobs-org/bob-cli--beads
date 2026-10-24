@@ -17,11 +17,11 @@ catalog: build the bob-cli theme catalog (scan, cache, journal fold, hue rule), 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bc.12](bob-cli-bc.12.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.12](bob-cli-bc.12.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.3](bob-cli-bc.3.md) ◐ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.4](bob-cli-bc.4.md) ◐ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bc.5](bob-cli-bc.5.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.9](bob-cli-bc.9.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.9](bob-cli-bc.9.md) ○ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -34,3 +34,15 @@ catalog: build the bob-cli theme catalog (scan, cache, journal fold, hue rule), 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5c9cfda`](https://github.com/bobs-org/bob-cli/commit/5c9cfda1271438107bac7f1fd8e47849181e4454) | feat(themes): add derived catalog and bob themes list | [bob-cli-bc.2](bob-cli-bc.2.md) | 2026-10-24 08:41:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bc.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.2/README.md
+
+<!-- sase:referenced-by:end -->
