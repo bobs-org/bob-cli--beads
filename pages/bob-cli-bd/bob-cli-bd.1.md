@@ -23,7 +23,7 @@ gates: fix bob-cli-ba so hard-wrapped quote lines starting with `# ` stay quote 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bd.2](bob-cli-bd.2.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bd.2](bob-cli-bd.2.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

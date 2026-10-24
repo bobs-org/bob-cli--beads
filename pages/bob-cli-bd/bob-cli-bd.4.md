@@ -13,7 +13,7 @@ render: restructure render_sidecar_highlights into collect-then-assemble, emit t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bd.2](bob-cli-bd.2.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bd.2](bob-cli-bd.2.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bd.3](bob-cli-bd.3.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bd.6](bob-cli-bd.6.md) ◐ · ⧖ 2026-10-24
 
