@@ -29,6 +29,13 @@ A Highlights sticky note whose first line is `# Name` declares a section, and ev
 
 [2026-10-24T13:25:53Z · bob-cli-an.6.6.6.5.land] DISCOVERED ISSUE (from bob-cli-an.6.6.6.5 lander, 2026-10-24): bob-cli master CI is red on both test jobs because of bd.1 commit 6ec2f16a (level-aware sidecar page headings). Failing nodes: tests/cli/highlights/continuations.rs::continuation_scan_tucks_two_pages_and_is_idempotent (line 218) and ::continuation_scan_reports_dangling_marker (line 313). CI run 40095684849 on 94591ea6: test (ubuntu-latest) and test (macos-latest) fail exactly these two (1992/2 and 1990/2); lint and package pass. Bisect on athena: cargo test --test cli highlights::continuations passes 3/3 at bff7bc72 (6ec2f16a^) and fails 2/3 at 6ec2f16a. Root cause: parse_sidecar_markdown now takes page_heading_level from the FIRST page-shaped heading. These fixtures start with a simple-style marker page '## Page 1' and then use linked '#### [Page 11](highlights://...)' headings, so level=2 and the #### page headings no longer split the stream; every highlight renders under '### Page 1', continuations=0, and the dangling line names Page 1. bd.1 validated only lib highlights_ref tests (631), not the CLI suite. Read-only vault scan: 0 of the live sidecars mix page-heading levels, so live impact is nil today, but the first-heading rule is fragile (a level-1 '# P values' sticky before the first real page heading would disable all page splits). The fix belongs to this epic (choose the level from linked-style or most-common page headings, or accept any level for linked [Page N](highlights://) headings), then rerun cargo test --test cli highlights::. Not caused by bob-cli-an.6.6.6.5; no task created because this active epic owns the causal commit.
 
+[2026-10-24T14:54:24Z · bryanbugyi34@gmail.com] I don't think this worked. See the 🔒 the\_ai\_native\_sdlc\_playbook.md ref note and 🔒 20261024\_105206.png screenshot context. The Epic Lander should look into this and fix it if it's really an issue.
+
+## Attachments
+
+- 🔒 20261024\_105206.png · image/png · 2854×1686 · 2.66297 MiB (private attachment)
+- 🔒 the\_ai\_native\_sdlc\_playbook.md · text/markdown · 2.2832 KiB (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -38,7 +45,7 @@ A Highlights sticky note whose first line is `# Name` declares a section, and ev
 | [bob-cli-bd.3](bob-cli-bd.3.md) | Sectioned managed-region parser | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.4](bob-cli-bd.4.md) | Sectioned rendering and identity | ✓ closed | large | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.5](bob-cli-bd.5.md) | Sections in bob ref show | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bd.6](bob-cli-bd.6.md) | Section stubs, diagnostics, and route hints | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bd.6](bob-cli-bd.6.md) | Section stubs, diagnostics, and route hints | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.7](bob-cli-bd.7.md) | Docs, Obsidian styling, and cross-surface checks | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bd.8](bob-cli-bd.8.md) | Section headers in the Bob Mac Capture Refs panel | ✓ closed | large | 2026-10-24 | 1 | 0 |
 
@@ -52,7 +59,7 @@ flowchart TD
     n3["bob-cli-bd.3: Sectioned managed-region parser [closed]"]
     n4["bob-cli-bd.4: Sectioned rendering and identity [closed]"]
     n5["bob-cli-bd.5: Sections in bob ref show [closed]"]
-    n6["bob-cli-bd.6: Section stubs, diagnostics, and route hints [in_progress]"]
+    n6["bob-cli-bd.6: Section stubs, diagnostics, and route hints [closed]"]
     n7["bob-cli-bd.7: Docs, Obsidian styling, and cross-surface checks [in_progress]"]
     n8["bob-cli-bd.8: Section headers in the Bob Mac Capture Refs panel [closed]"]
     n0 --> n1
@@ -82,7 +89,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.3/README.md) | [bob-cli-bd.3](bob-cli-bd.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.4.md) | [bob-cli-bd.4](bob-cli-bd.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.5/README.md) | [bob-cli-bd.5](bob-cli-bd.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.6/README.md) | [bob-cli-bd.6](bob-cli-bd.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.6/README.md) | [bob-cli-bd.6](bob-cli-bd.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.7/README.md) | [bob-cli-bd.7](bob-cli-bd.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.8.md) | [bob-cli-bd.8](bob-cli-bd.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.land/README.md) | [bob-cli-bd](README.md) | 0 |
@@ -96,6 +103,7 @@ flowchart TD
 | bob-cli | [`94591ea`](https://github.com/bobs-org/bob-cli/commit/94591ea66d48c89fba305344c40d0df5bfceecc6) | feat(ref): group bob ref show output by annotation sections | [bob-cli-bd.5](bob-cli-bd.5.md) | 2026-10-24 08:51:41 EDT |
 | bob-cli | [`453b07e`](https://github.com/bobs-org/bob-cli/commit/453b07e74ea1aafce753b9a8de69db680079cfe9) | feat(highlights): parse reference sections | [bob-cli-bd.2](bob-cli-bd.2.md) | 2026-10-24 09:49:33 EDT |
 | bob-cli | [`9398c5b`](https://github.com/bobs-org/bob-cli/commit/9398c5bbcca27fce050e67e029bd5a02bc60fbeb) | feat(highlights): sectioned annotation rendering with stable IDs | [bob-cli-bd.4](bob-cli-bd.4.md) | 2026-10-24 10:43:22 EDT |
+| bob-cli | [`be18197`](https://github.com/bobs-org/bob-cli/commit/be1819783e6285882bb05d66e38d5d6b0a139056) | feat(highlights): section stubs, diagnostics, and route hints | [bob-cli-bd.6](bob-cli-bd.6.md) | 2026-10-24 11:34:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
