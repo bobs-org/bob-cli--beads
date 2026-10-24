@@ -31,6 +31,8 @@ A Highlights sticky note whose first line is `# Name` declares a section, and ev
 
 [2026-10-24T14:54:24Z · bryanbugyi34@gmail.com] I don't think this worked. See the 🔒 the\_ai\_native\_sdlc\_playbook.md ref note and 🔒 20261024\_105206.png screenshot context. The Epic Lander should look into this and fix it if it's really an issue.
 
+[2026-10-24T15:45:04Z · bob-cli-an.6.6.6.5.6.land] DISCOVERED ISSUE corroboration from bob-cli-an.6.6.6.5.6.land: phase bob-cli-an.6.6.6.5.6.1 note #1 proposed the two continuation_scan failures (reports_dangling_marker and tucks_two_pages_and_is_idempotent). That phase reproduced both on its clean base. Current source still selects page_heading_level from the first heading; the mixed simple marker page/linked page fixture mismatch described in note #1 remains. SASE new-task all-status searches (CI then all types) and recent-task sweep found no separate task. Routed here because bd.1/6ec2f16a is the causal change; no duplicate task created. Final integrated check is pending and any changed result will be recorded.
+
 ## Attachments
 
 - 🔒 20261024\_105206.png · image/png · 2854×1686 · 2.66297 MiB (private attachment)
@@ -46,7 +48,7 @@ A Highlights sticky note whose first line is `# Name` declares a section, and ev
 | [bob-cli-bd.4](bob-cli-bd.4.md) | Sectioned rendering and identity | ✓ closed | large | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.5](bob-cli-bd.5.md) | Sections in bob ref show | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.6](bob-cli-bd.6.md) | Section stubs, diagnostics, and route hints | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bd.7](bob-cli-bd.7.md) | Docs, Obsidian styling, and cross-surface checks | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [bob-cli-bd.7](bob-cli-bd.7.md) | Docs, Obsidian styling, and cross-surface checks | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bd.8](bob-cli-bd.8.md) | Section headers in the Bob Mac Capture Refs panel | ✓ closed | large | 2026-10-24 | 1 | 0 |
 
 ## Lineage
@@ -60,7 +62,7 @@ flowchart TD
     n4["bob-cli-bd.4: Sectioned rendering and identity [closed]"]
     n5["bob-cli-bd.5: Sections in bob ref show [closed]"]
     n6["bob-cli-bd.6: Section stubs, diagnostics, and route hints [closed]"]
-    n7["bob-cli-bd.7: Docs, Obsidian styling, and cross-surface checks [in_progress]"]
+    n7["bob-cli-bd.7: Docs, Obsidian styling, and cross-surface checks [closed]"]
     n8["bob-cli-bd.8: Section headers in the Bob Mac Capture Refs panel [closed]"]
     n0 --> n1
     n0 --> n2
@@ -90,7 +92,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.4.md) | [bob-cli-bd.4](bob-cli-bd.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.5/README.md) | [bob-cli-bd.5](bob-cli-bd.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.6/README.md) | [bob-cli-bd.6](bob-cli-bd.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.7/README.md) | [bob-cli-bd.7](bob-cli-bd.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.7.md) | [bob-cli-bd.7](bob-cli-bd.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bd.8.md) | [bob-cli-bd.8](bob-cli-bd.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.land/README.md) | [bob-cli-bd](README.md) | 0 |
 
@@ -104,6 +106,7 @@ flowchart TD
 | bob-cli | [`453b07e`](https://github.com/bobs-org/bob-cli/commit/453b07e74ea1aafce753b9a8de69db680079cfe9) | feat(highlights): parse reference sections | [bob-cli-bd.2](bob-cli-bd.2.md) | 2026-10-24 09:49:33 EDT |
 | bob-cli | [`9398c5b`](https://github.com/bobs-org/bob-cli/commit/9398c5bbcca27fce050e67e029bd5a02bc60fbeb) | feat(highlights): sectioned annotation rendering with stable IDs | [bob-cli-bd.4](bob-cli-bd.4.md) | 2026-10-24 10:43:22 EDT |
 | bob-cli | [`be18197`](https://github.com/bobs-org/bob-cli/commit/be1819783e6285882bb05d66e38d5d6b0a139056) | feat(highlights): section stubs, diagnostics, and route hints | [bob-cli-bd.6](bob-cli-bd.6.md) | 2026-10-24 11:34:25 EDT |
+| bob-cli | [`2eb9812`](https://github.com/bobs-org/bob-cli/commit/2eb98129f0416b17b0a181b6d212d79c6a321474) | docs(highlights): document annotation sections and add cross-surface checks | [bob-cli-bd.7](bob-cli-bd.7.md) | 2026-10-24 12:35:52 EDT |
 
 <!-- sase:referenced-by:start -->
 

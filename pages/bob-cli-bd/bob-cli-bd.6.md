@@ -26,7 +26,7 @@ edges: add redirect stubs for a published declaring sticky and for a vanished bu
 ## Dependencies
 
 - **Depends on:** [bob-cli-bd.4](bob-cli-bd.4.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bd.7](bob-cli-bd.7.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bd.7](bob-cli-bd.7.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -39,3 +39,15 @@ edges: add redirect stubs for a published declaring sticky and for a vanished bu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`be18197`](https://github.com/bobs-org/bob-cli/commit/be1819783e6285882bb05d66e38d5d6b0a139056) | feat(highlights): section stubs, diagnostics, and route hints | [bob-cli-bd.6](bob-cli-bd.6.md) | 2026-10-24 11:34:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bd.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bd.6/README.md
+
+<!-- sase:referenced-by:end -->

@@ -22,7 +22,7 @@ show: add the additive sections list and per-annotation section key to bob ref s
 ## Dependencies
 
 - **Depends on:** [bob-cli-bd.3](bob-cli-bd.3.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bd.7](bob-cli-bd.7.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bd.7](bob-cli-bd.7.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bd.8](bob-cli-bd.8.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
