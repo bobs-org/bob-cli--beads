@@ -21,6 +21,8 @@
 | related | file:explicit:b8bf48bc6fec94fe208996dc | attached via sase artifact create --bead |
 | related | file:explicit:d821cd4f91b6944d55bf6abc | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -40,7 +42,7 @@ strip-view: add the pure `dayStripModel` and DOM `paintDayStrip`, the `.bob-day-
 ## Dependencies
 
 - **Depends on:** [bob-cli-bp.2](bob-cli-bp.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bp.4](bob-cli-bp.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bp.4](bob-cli-bp.4.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -53,3 +55,15 @@ strip-view: add the pure `dayStripModel` and DOM `paintDayStrip`, the `.bob-day-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@38b6b1b`](https://github.com/bobs-org/bob-plugins/commit/38b6b1b91aeebdfd4fa51ea85441803a36038183) | feat(stats): add Day strip model, painter, and preview matrix | [bob-cli-bp.3](bob-cli-bp.3.md) | 2026-10-24 17:36:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bp.3--3][1] | Verify the recorded baseline failure and artifact notes before close | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.3.md
+
+<!-- sase:referenced-by:end -->

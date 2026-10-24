@@ -24,7 +24,7 @@ fetch-service: in bob-plugins' bob-ledger-tools, give each key its own in-flight
 ## Dependencies
 
 - **Blocks:** [bob-cli-bp.3](bob-cli-bp.3.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bp.4](bob-cli-bp.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bp.4](bob-cli-bp.4.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

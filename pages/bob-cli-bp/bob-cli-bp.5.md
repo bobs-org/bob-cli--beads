@@ -13,7 +13,7 @@ strip-mount: mount the strip as a CodeMirror StateField block widget after the l
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bp.4](bob-cli-bp.4.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bp.4](bob-cli-bp.4.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bp.6](bob-cli-bp.6.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
