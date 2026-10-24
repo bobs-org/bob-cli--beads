@@ -45,8 +45,10 @@ records: write the glossary strand and decision records from what shipped, recon
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
 | read-by | [agent:bob-cli-bc.13][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-bj.6][3] | Identify clean-base failures from the canonical check | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.13/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.6/README.md
 
 <!-- sase:referenced-by:end -->

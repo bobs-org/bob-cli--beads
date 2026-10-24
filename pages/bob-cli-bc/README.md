@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.7.md) | [bob-cli-bc.7](bob-cli-bc.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.8/README.md) | [bob-cli-bc.8](bob-cli-bc.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.9/README.md) | [bob-cli-bc.9](bob-cli-bc.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.land.md) | [bob-cli-bc](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bc.land.md) | [bob-cli-bc](README.md) | 2 |
 
 ## Commits
 
@@ -149,6 +149,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@fbea724`](https://github.com/bobs-org/bob-mac-capture/commit/fbea724ff3733153e6e76b6c6731dc949c6d4783) | docs(mac-capture): link Pomodoro themes contract | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:37:59 EDT |
 | bob-plugins | [`bob-plugins@d3ea6bb`](https://github.com/bobs-org/bob-plugins/commit/d3ea6bb8e4c8937a42ff93bbda580d9f9192085c) | test(themes): sync plugin vectors with bob-cli | [bob-cli-bc.13](bob-cli-bc.13.md) | 2026-10-24 15:38:49 EDT |
 | bob-cli | [`09b2695`](https://github.com/bobs-org/bob-cli/commit/09b269571c34708a944bdfa7b86ecdb641df5d1b) | fix(pomodoro-themes): bound cache and restore completion contracts | [bob-cli-bc](README.md) | 2026-10-24 16:57:51 EDT |
+| bob-cli--plans | [`bob-cli--plans@1332c57`](https://github.com/bobs-org/bob-cli--plans/commit/1332c572ad4c827f5774d8d483df8d1ff42c9588) | docs(plan): mark Pomodoro themes epic complete | [bob-cli-bc](README.md) | 2026-10-24 16:59:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
