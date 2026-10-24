@@ -35,3 +35,15 @@ strip-docs: document the shipped Day strip in docs/stats.md (what it shows, hone
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`41afa14`](https://github.com/bobs-org/bob-cli/commit/41afa14b74ac7fc6bc4b05cd80366acbc3f08511) | docs(stats): document the shipped Day strip contract | [bob-cli-bp.6](bob-cli-bp.6.md) | 2026-10-24 18:32:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bp.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bp.6/README.md
+
+<!-- sase:referenced-by:end -->

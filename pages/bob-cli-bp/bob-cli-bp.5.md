@@ -32,7 +32,13 @@ strip-mount: mount the strip as a CodeMirror StateField block widget after the l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bp.5.md) | [bob-cli-bp.5](bob-cli-bp.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@af1e691`](https://github.com/bobs-org/bob-plugins/commit/af1e691a33b90373e8652cbb4680a72f3b1b8628) | feat(bob-ledger-tools): mount Day strip in Live Preview | [bob-cli-bp.5](bob-cli-bp.5.md) | 2026-10-24 18:22:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
