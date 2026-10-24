@@ -37,6 +37,10 @@ Close five prioritized task beads by hardening rfserver's token suspension, prov
 
 [2026-10-24T11:29:43Z · bob-cli-an.6.6.6.land] Rechecked after child an.6.6.6 closed; already done, no unfinished descendants.
 
+[2026-10-24T16:27:57Z · bob-cli-an.6.6.6.5.6.land--2] POST-BATCH-6 READINESS RECHECK (2026-10-24): 21 descendants; accepted rfserver/backup scheduled-run evidence and timezone/font/path regressions reviewed. Post-close CLI drift does not alter env/date, path rebasing, or static-font paths; tailnet origin remains 724837f. Monthly acceptance remains the explicitly permitted shared-path proof, next due November 21. All descendants closed, linked-plan schema valid, named phase count matches closed phases, plan already status done, and no epic-symbol entries. Fresh global links validation has 64 legacy errors, none affecting campaign plans. No remaining batch-scope blocker found. Preserve closed/done normally; no force. Campaign remains ongoing with 124 unresolved tasks and bounded batch 7 being proposed from an.6.6.6.5.6. No symvision recipe is available.
+
+[2026-10-24T16:28:01Z · bob-cli-an.6.6.6.5.6.land--2] POST-BATCH-6 READINESS RECHECK (2026-10-24): 21 descendants; accepted rfserver/backup scheduled-run evidence and timezone/font/path regressions reviewed. Post-close CLI drift does not alter env/date, path rebasing, or static-font paths; tailnet origin remains 724837f. Monthly acceptance remains the explicitly permitted shared-path proof, next due November 21. All descendants closed, linked-plan schema valid, named phase count matches closed phases, plan already status done, and no epic-symbol entries. Fresh global links validation has 64 legacy errors, none affecting campaign plans. No remaining batch-scope blocker found. Preserve closed/done normally; no force. Campaign remains ongoing with 124 unresolved tasks and bounded batch 7 being proposed from an.6.6.6.5.6. No symvision recipe is available.
+
 ## Agents
 
 | Agent | Bead | Commits |

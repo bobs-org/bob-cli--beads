@@ -37,6 +37,10 @@ Close five prioritized task beads by removing the remaining Bryan-to-root cron c
 
 [2026-10-24T11:29:47Z · bob-cli-an.6.6.6.land] Rechecked after descendant an.6.6.6 closed; already done.
 
+[2026-10-24T16:28:05Z · bob-cli-an.6.6.6.5.6.land--2] POST-BATCH-6 READINESS RECHECK (2026-10-24): 27 descendants; prior root-cron, exit-24, listener, reference allocation evidence and all follow-up dispositions reviewed. Tailnet origin remains 724837f; chezmoi changes since the timezone commit add PDF coordination, SSH identity and UI shortcuts without changing the timezone. The previously deferred b2,b3,b5,b6,b7 are closed; b4,b8 remain independent backlog tasks. All descendants closed, linked-plan schema valid, named phase count matches closed phases, plan already status done, and no epic-symbol entries. Fresh global links validation has 64 legacy errors, none affecting campaign plans. No remaining batch-scope blocker found. Preserve closed/done normally; no force. Campaign remains ongoing with 124 unresolved tasks and bounded batch 7 being proposed from an.6.6.6.5.6. No symvision recipe is available.
+
+[2026-10-24T16:28:09Z · bob-cli-an.6.6.6.5.6.land--2] POST-BATCH-6 READINESS RECHECK (2026-10-24): 27 descendants; prior root-cron, exit-24, listener, reference allocation evidence and all follow-up dispositions reviewed. Tailnet origin remains 724837f; chezmoi changes since the timezone commit add PDF coordination, SSH identity and UI shortcuts without changing the timezone. The previously deferred b2,b3,b5,b6,b7 are closed; b4,b8 remain independent backlog tasks. All descendants closed, linked-plan schema valid, named phase count matches closed phases, plan already status done, and no epic-symbol entries. Fresh global links validation has 64 legacy errors, none affecting campaign plans. No remaining batch-scope blocker found. Preserve closed/done normally; no force. Campaign remains ongoing with 124 unresolved tasks and bounded batch 7 being proposed from an.6.6.6.5.6. No symvision recipe is available.
+
 ## Agents
 
 | Agent | Bead | Commits |
