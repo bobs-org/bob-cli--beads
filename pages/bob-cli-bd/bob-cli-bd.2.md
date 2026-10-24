@@ -13,7 +13,7 @@ grammar: teach the sidecar parser to keep `# Name` sticky declarations, and add 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bd.1](bob-cli-bd.1.md) ○ · ⧖ 2026-10-24
+- **Depends on:** [bob-cli-bd.1](bob-cli-bd.1.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [bob-cli-bd.4](bob-cli-bd.4.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
