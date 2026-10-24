@@ -19,7 +19,7 @@ mac-colors: tint known names in the editor, wear pills in the agenda and preview
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bc.13](bob-cli-bc.13.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.13](bob-cli-bc.13.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.5](bob-cli-bc.5.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.7](bob-cli-bc.7.md) ✓ · ⧖ 2026-10-24
 
@@ -42,7 +42,9 @@ mac-colors: tint known names in the editor, wear pills in the agenda and preview
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][1] | Identify the existing owner and task evidence for clean-base just check failures | 1 |
+| read-by | [agent:bob-cli-bc.8][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-an.6.6.6.5.6.5.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.8/README.md
 
 <!-- sase:referenced-by:end -->

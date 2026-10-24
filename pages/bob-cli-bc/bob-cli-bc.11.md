@@ -18,14 +18,20 @@ obsidian-manager: add the Bob Pomodoro themes command to browse, hide, pin, insp
 ## Dependencies
 
 - **Depends on:** [bob-cli-bc.10](bob-cli-bc.10.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [bob-cli-bc.13](bob-cli-bc.13.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bc.13](bob-cli-bc.13.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [bob-cli-bc.6](bob-cli-bc.6.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bc.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.11/README.md) | [bob-cli-bc.11](bob-cli-bc.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bc.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bc.11/README.md) | [bob-cli-bc.11](bob-cli-bc.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@1202c6a`](https://github.com/bobs-org/bob-plugins/commit/1202c6a0b1b47cdd973eb5d97d19ff3407bfb596) | feat(navigation): add Obsidian Pomodoro themes manager | [bob-cli-bc.11](bob-cli-bc.11.md) | 2026-10-24 14:26:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
