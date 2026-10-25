@@ -18,7 +18,7 @@ family_planning: add shared capture-family classification, whole-bundle __vN all
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.3.1.1](bob-cli-c9.3.1.1.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.3.1.3](bob-cli-c9.3.1.3.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3.1.3](bob-cli-c9.3.1.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ family_planning: add shared capture-family classification, whole-bundle __vN all
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`347c36b`](https://github.com/bobs-org/bob-cli/commit/347c36b1c7add475a8a3a739dc1f024db7d7aebd) | feat(highlights): read-only family planning recapture with no reread writes | [bob-cli-c9.3.1.2](bob-cli-c9.3.1.2.md) | 2026-10-25 17:00:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->

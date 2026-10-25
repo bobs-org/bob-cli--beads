@@ -13,7 +13,7 @@ single_sources: wire the shared reread plan into every single-source route with 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.3.1.3](bob-cli-c9.3.1.3.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.3.1.3](bob-cli-c9.3.1.3.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c9.3.1.5](bob-cli-c9.3.1.5.md) ◐ · ⧖ 2026-10-25
 
 ## Agents
