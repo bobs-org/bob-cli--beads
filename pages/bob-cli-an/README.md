@@ -87,7 +87,7 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.3](bob-cli-an.6.6.6.5.6.5.5.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.4](bob-cli-an.6.6.6.5.6.5.5.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.5](bob-cli-an.6.6.6.5.6.5.5.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.1](bob-cli-an.6.6.6.5.6.5.5.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.1](bob-cli-an.6.6.6.5.6.5.5.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.2](bob-cli-an.6.6.6.5.6.5.5.6.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.3](bob-cli-an.6.6.6.5.6.5.5.6.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.4](bob-cli-an.6.6.6.5.6.5.5.6.4.md) | 1 |
@@ -140,6 +140,7 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | bob-cli--plans | [`bob-cli--plans@1fd04a0`](https://github.com/bobs-org/bob-cli--plans/commit/1fd04a079b3b88d14acb0201086d54c715686c9e) | chore(plans): mark backlog batch 8 epic plan done | [bob-cli-an.6.6.6.5.6.5.5](bob-cli-an.6.6.6.5.6.5.5.md) | 2026-10-25 08:41:59 EDT |
 | bob-cli | [`f255819`](https://github.com/bobs-org/bob-cli/commit/f255819acae8185061c0c3bd4300f74aa9f11f8a) | fix(ref-library): prune .git during snapshot traversal | [bob-cli-an.6.6.6.5.6.5.5.6.5](bob-cli-an.6.6.6.5.6.5.5.6.5.md) | 2026-10-25 08:58:14 EDT |
 | bob-cli | [`0e75ca5`](https://github.com/bobs-org/bob-cli/commit/0e75ca56901ff6f023416eb0b119d348d8aaf860) | test(capture): make related perf gate tolerate parallel load | [bob-cli-an.6.6.6.5.6.5.5.6.4](bob-cli-an.6.6.6.5.6.5.5.6.4.md) | 2026-10-25 09:05:07 EDT |
+| bob-cli | [`6292c35`](https://github.com/bobs-org/bob-cli/commit/6292c35b61aa230b24b070523341b85576eeae54) | fix(cli): exit 0 quietly on EPIPE instead of panicking | [bob-cli-an.6.6.6.5.6.5.5.6.1](bob-cli-an.6.6.6.5.6.5.5.6.1.md) | 2026-10-25 09:10:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
