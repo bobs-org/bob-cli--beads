@@ -13,9 +13,13 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
-| related | [bead:bob-cli-c6][1] | Active Day strip epic whose phase c5.4 edits openStatsForDay's hand-off (homesView); coordinate to avoid a collision, but c5 did not cause this newLeaf defect |
+| implemented-by | [plan:202610/day_strip_above_badges_root_parents.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-c6][2] | Active Day strip epic whose phase c5.4 edits openStatsForDay's hand-off (homesView); coordinate to avoid a collision, but c5 did not cause this newLeaf defect |
 
-[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-c6/README.md
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/day_strip_above_badges_root_parents.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-c6/README.md
 
 <!-- sase:links:end -->
 
@@ -27,9 +31,9 @@ On every canonical daily note the Day strip sits above the bob-plan badges, and 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-c5.1](bob-cli-c5.1.md) | Retire rollup frontmatter in bob-cli | ✓ closed | medium | 2026-10-25 | 1 | 1 |
-| [bob-cli-c5.2](bob-cli-c5.2.md) | The root\_parent dimension in bob stats | ◐ in_progress | medium | 2026-10-25 | 1 | 0 |
-| [bob-cli-c5.3](bob-cli-c5.3.md) | Day strip above the badges with a full-width root-parent bar | ○ open | medium | 2026-10-25 | 1 | 0 |
+| [bob-cli-c5.1](bob-cli-c5.1.md) | Retire rollup frontmatter in bob-cli | ✓ closed | medium | 2026-10-25 | 1 | 0 |
+| [bob-cli-c5.2](bob-cli-c5.2.md) | The root\_parent dimension in bob stats | ○ open | medium | 2026-10-25 | 1 | 0 |
+| [bob-cli-c5.3](bob-cli-c5.3.md) | Day strip above the badges with a full-width root-parent bar | ✓ closed | medium | 2026-10-25 | 1 | 1 |
 | [bob-cli-c5.4](bob-cli-c5.4.md) | Stats dash Root parents view and plugin rollup removal | ◐ in_progress | medium | 2026-10-25 | 1 | 0 |
 | [bob-cli-c5.5](bob-cli-c5.5.md) | Contract docs, heading total cleanup, glossary strands | ◐ in_progress | small | 2026-10-25 | 1 | 0 |
 
@@ -39,8 +43,8 @@ On every canonical daily note the Day strip sits above the bob-plan badges, and 
 flowchart TD
     n0["bob-cli-c5: Day strip above the badges, with working time grouped by root parent [in_progress]"]
     n1["bob-cli-c5.1: Retire rollup frontmatter in bob-cli [closed]"]
-    n2["bob-cli-c5.2: The root_parent dimension in bob stats [in_progress]"]
-    n3["bob-cli-c5.3: Day strip above the badges with a full-width root-parent bar [open]"]
+    n2["bob-cli-c5.2: The root_parent dimension in bob stats [open]"]
+    n3["bob-cli-c5.3: Day strip above the badges with a full-width root-parent bar [closed]"]
     n4["bob-cli-c5.4: Stats dash Root parents view and plugin rollup removal [in_progress]"]
     n5["bob-cli-c5.5: Contract docs, heading total cleanup, glossary strands [in_progress]"]
     n0 --> n1
@@ -58,9 +62,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-c5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.1/README.md) | [bob-cli-c5.1](bob-cli-c5.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-c5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.1/README.md) | [bob-cli-c5.1](bob-cli-c5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.2/README.md) | [bob-cli-c5.2](bob-cli-c5.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-c5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.3/README.md) | [bob-cli-c5.3](bob-cli-c5.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-c5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.3/README.md) | [bob-cli-c5.3](bob-cli-c5.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-c5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.4/README.md) | [bob-cli-c5.4](bob-cli-c5.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-c5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.5/README.md) | [bob-cli-c5.5](bob-cli-c5.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-c5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.land/README.md) | [bob-cli-c5](README.md) | 0 |
@@ -69,4 +73,18 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`0cf45b8`](https://github.com/bobs-org/bob-cli/commit/0cf45b8ccfcfcd981085d004a8d2a875d1b7c198) | feat(homes)!: retire project rollup frontmatter | [bob-cli-c5.1](bob-cli-c5.1.md) | 2026-10-25 10:58:53 EDT |
+| bob-plugins | [`bob-plugins@998a7f9`](https://github.com/bobs-org/bob-plugins/commit/998a7f99e865ff481262c003c14a72f64eb64211) | feat(ledger-tools): day strip above badges with full-width root-parent bar | [bob-cli-c5.3](bob-cli-c5.3.md) | 2026-10-25 11:25:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][1] | Check whether the active Day strip epic causally owns the openStatsForDay newLeaf defect | 1 |
+| read-by | [agent:bob-cli-c5.1][2] | epic scope for c5.1 | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.1/README.md
+
+<!-- sase:referenced-by:end -->

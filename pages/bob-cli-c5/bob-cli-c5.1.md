@@ -17,16 +17,22 @@ retire-rollup: delete rollup parsing, selection, lints, catalog counts, and the 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-c5.2](bob-cli-c5.2.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c5.2](bob-cli-c5.2.md) ○ · ⧖ 2026-10-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-c5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.1/README.md) | [bob-cli-c5.1](bob-cli-c5.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-c5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.1/README.md) | [bob-cli-c5.1](bob-cli-c5.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`0cf45b8`](https://github.com/bobs-org/bob-cli/commit/0cf45b8ccfcfcd981085d004a8d2a875d1b7c198) | feat(homes)!: retire project rollup frontmatter | [bob-cli-c5.1](bob-cli-c5.1.md) | 2026-10-25 10:58:53 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c5.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.1/README.md
+
+<!-- sase:referenced-by:end -->

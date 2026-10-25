@@ -13,8 +13,8 @@ stats-roots: replace Areas & projects with a Root parents view grouped by area w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c5.2](bob-cli-c5.2.md) ◐ · ⧖ 2026-10-25
-- **Depends on:** [bob-cli-c5.3](bob-cli-c5.3.md) ○ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c5.2](bob-cli-c5.2.md) ○ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c5.3](bob-cli-c5.3.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c5.5](bob-cli-c5.5.md) ◐ · ⧖ 2026-10-25
 
 ## Agents
