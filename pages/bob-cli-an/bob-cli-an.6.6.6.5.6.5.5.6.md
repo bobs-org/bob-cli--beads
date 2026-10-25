@@ -36,6 +36,8 @@ FOLLOW-UP TRIAGE: no phase recorded a PROPOSED FOLLOW-UP. From post-start drift 
 
 [2026-10-25T13:57:47Z · bob-cli-an.6.6.6.5.6.5.5.6.land] Lander verified and closed c1 (sase-listen 9d69f50, 129 tests), c0 (bob-mac-capture 461f46c, macOS CI 3087/0), bo (0e75ca56, 3x loaded cli 2053/2053), c2 (f255819a, 4x ref_library 132/132); bob-cli CI 40196386071 on 6292c35b passed. Triage created c3 (port-dedupe) and c4 (capture TEXT help) via /sase_new_task; declined phase-2 auto-publish warning wording as accepted limitation; epic-symbols none. This tale fixed the two epic-caused defects from 6292c35b in src/runner.rs (delegating run_with_quiet_epipe hook; BrokenPipe usage errors keep clap exit_code in route_help, run_bob_with_args, and all native print_clap_error including stats) with 3 re-exec guard unit tests + 2 closed-pipe CLI regressions; lib runner 10/10, epipe CLI 3/3, just check green. Hand checks: stats|head 0 empty stderr, --help|head 0 empty stderr, bogus-subcommand closed pipe 2, stats --bogus-flag closed pipe 2. No symvision recipe (just --list has none), epic-symbols clean.
 
+[2026-10-25T14:03:00Z · bob-cli-an.6.6.6.5.6.5.5.6.land] CONTINUATION: batch 10 epic scratch sase_plan_backlog_batch10_port_help_doctor_mermaid_startpending.md proposes c3 (port-dedupe), c4 (capture help), b8 (ref doctor implement/decline), 9i (pdftotext Mermaid), 4k (StartPending recheck for closeable non-reproduction). Parent_bead bob-cli-an.6.6.6.5.6.5.5.6. Fresh unresolved count 126 (122 ready + 4 snoozed 3o/6q/aa/ah; 126 once bl closed, now closed). Ownership to batch-10 lander on propose.
+
 ## Agents
 
 | Agent | Bead | Commits |
