@@ -55,13 +55,14 @@ Batch acceptance review: all six focused Rust tests passed; just check-web-clip-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land/README.md) | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land/README.md) | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a75c55f`](https://github.com/bobs-org/bob-cli/commit/a75c55f990ece7b12521c22f0c61f4bc1e45b38c) | fix(highlights-ref): limit the %40 URL identity alias to Medium author paths | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2026-10-25 07:44:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@63eb788`](https://github.com/bobs-org/bob-cli--plans/commit/63eb788c0ec26db11a5abe1eaf1255d5adea3dd5) | chore(plans): mark backlog batch 7 and its landing tale done | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2026-10-25 07:45:23 EDT |
 
 <!-- sase:referenced-by:start -->
 

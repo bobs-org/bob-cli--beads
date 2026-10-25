@@ -172,7 +172,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.2/README.md) | [bob-cli-an.6.6.6.5.6.5.2](bob-cli-an.6.6.6.5.6.5.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.3.md) | [bob-cli-an.6.6.6.5.6.5.3](bob-cli-an.6.6.6.5.6.5.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.4/README.md) | [bob-cli-an.6.6.6.5.6.5.4](bob-cli-an.6.6.6.5.6.5.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land/README.md) | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land/README.md) | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md) | [bob-cli-an.6.6.6.5.6](bob-cli-an.6.6.6.5.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md) | [bob-cli-an.6.6.6.5](bob-cli-an.6.6.6.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.land.md) | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 3 |
@@ -220,6 +220,7 @@ flowchart TD
 | bob-cli | [`f2524e8`](https://github.com/bobs-org/bob-cli/commit/f2524e8053471e73421aaf75430a03bd0cd485e9) | fix(highlights-ref): normalize URL identity escapes for shared dedupe key | [bob-cli-an.6.6.6.5.6.5.1](bob-cli-an.6.6.6.5.6.5.1.md) | 2026-10-24 12:55:53 EDT |
 | bob-cli | [`ae993b5`](https://github.com/bobs-org/bob-cli/commit/ae993b5bbcd4c2b00b153b8ff96303b4efa9d67e) | fix(capture): resolve close headline after ledger edits | [bob-cli-an.6.6.6.5.6.5.3](bob-cli-an.6.6.6.5.6.5.3.md) | 2026-10-24 13:12:24 EDT |
 | bob-cli | [`a75c55f`](https://github.com/bobs-org/bob-cli/commit/a75c55f990ece7b12521c22f0c61f4bc1e45b38c) | fix(highlights-ref): limit the %40 URL identity alias to Medium author paths | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2026-10-25 07:44:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@63eb788`](https://github.com/bobs-org/bob-cli--plans/commit/63eb788c0ec26db11a5abe1eaf1255d5adea3dd5) | chore(plans): mark backlog batch 7 and its landing tale done | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2026-10-25 07:45:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
