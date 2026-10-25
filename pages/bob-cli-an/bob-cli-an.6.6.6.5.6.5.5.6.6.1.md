@@ -36,7 +36,9 @@ port-dedupe-ports: resolve bob-cli-c3 by keeping url.port() in dedupe_key_for an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.1][1] | check full description notes decisions | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md
 
 <!-- sase:referenced-by:end -->

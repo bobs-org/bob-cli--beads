@@ -34,7 +34,9 @@ mermaid-pdf-pdftotext: resolve bob-cli-9i by handling the missing pdftotext path
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md
 
 <!-- sase:referenced-by:end -->

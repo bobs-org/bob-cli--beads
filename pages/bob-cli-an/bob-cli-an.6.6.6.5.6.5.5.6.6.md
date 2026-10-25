@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-an.6.6.6.5.6.5.5.6](bob-cli-an.6.6.6.5.6.5.5.6.md) / bob-cli-an.6.6.6.5.6.5.5.6.6
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.land.md) · **Assignee:** `bob-cli-an.6.6.6.5.6.5.5.6.6.land`
-**Created:** 2026-10-25 10:04:06 EDT
+**Created:** 2026-10-25 10:04:06 EDT · **Closed:** 2026-10-25 11:02:20 EDT
 **Plan:** [202610/backlog\_batch10\_port\_help\_doctor\_mermaid\_startpending.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch10_port_help_doctor_mermaid_startpending.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch10_port_help_doctor_mermaid_startpending.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch10_port_help_doctor_mermaid_startpending.md
 
@@ -25,17 +25,22 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 Close five backlog tasks by keeping explicit non-default ports in URL identity, correcting capture help, deciding ref doctor scope, making Mermaid PDF tests pass without pdftotext, and rechecking the StartPending flake for closeable non-reproduction.
 
+## Notes
+
+[2026-10-25T15:02:20Z · bob-cli-an.6.6.6.5.6.5.5.6.6.land] LANDER VERIFY (bob-cli-an.6.6.6.5.6.5.5.6.6.land). All 5 phases were reviewed against their notes and source; no phase recorded a PROPOSED FOLLOW-UP. Phase .1, 7e8ffedd: dedupe_key_for and display_url keep url.port(), with tests; closed c3. Phase .2, 633bc3f6: TEXT help corrected in 5 commands and CLI docs regenerated; closed c4. Phase .4, 3eebe47f: raw-PDF fallback removed and pdftotext gated; closed 9i. Phase .5: 4k was already closed done by the phase with a 4-pass macOS CI evidence chain, re-confirmed via gh (461f46c run 40195734261 success, still the newest master run). Phase .3, 89945148: the ref doctor reference-ids row, decided IMPLEMENT. EPIC-CAUSED DEFECT FIXED: the new repair test needed pandoc, and CI run 40202985199 on 89945148 failed on ubuntu and macOS. Fixed in ba523746 with a marker-PDF plus ref sync setup; doctor_library is 15/15 with and without pandoc. INTEGRATION, also in ba523746: duplicate-id folding switched to ASCII to match the docs and resolve.rs; the CLI Mermaid render-only tests are no longer pdftotext-gated (lib 19/19 and CLI 12/12 with pdftotext hidden); the redundant pdftotext check was dropped; docs/capture.md saved_templates_unknown_flag wording was fixed. Gates: just check 18 suites, 5657 passed, 0 failed; just docs-check passed. Release run 40202947018 failed only on a non-fast-forward push race (master advanced mid-run); the next scheduled train retries. b8 stays OPEN: the code half is done, but the live-vault repair is forbidden by the working rules and goes to batch 11 behind a Bryan-approved /sase_gate (see the b8 note). DRIFT: fd0fc2e5 (docs refresh) reported 3 source follow-ups. The port and capture-help ones are fixed by this epic. The Day strip openStatsForDay newLeaf defect was confirmed in bob-plugins 3bac436 and filed via /sase_new_task as bob-cli-c6 (bug, small), with no duplicate and related, not caused, to active epic bob-cli-c5. 0cf45b8c (homes rollup retirement) does not overlap this epic. epic-symbols: none. No symvision recipe exists.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ba52374`](https://github.com/bobs-org/bob-cli/commit/ba523746df6fd21308193bbc14f7b59a76ba9529) | fix(ref-doctor): fold reference ids ASCII-only and drop pandoc from the repair test | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 2026-10-25 11:00:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@2d0fa85`](https://github.com/bobs-org/bob-cli--plans/commit/2d0fa854ce4865da83ebf775b6f936b28cd07e43) | chore(plans): mark backlog batch 10 plan done | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 2026-10-25 11:02:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -45,8 +50,10 @@ Close five backlog tasks by keeping explicit non-default ports in URL identity, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.1][1] | epic decisions and scope | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.3][2] | Need epic DECISIONS | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md
 
 <!-- sase:referenced-by:end -->
