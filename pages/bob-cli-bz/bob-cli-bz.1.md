@@ -20,6 +20,8 @@
 | related | file:explicit:b882f6dde57f606f63265cd2 | attached via sase artifact create --bead |
 | related | file:explicit:cd075d163c52bd9b50e3c6c7 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -34,7 +36,7 @@ strip-look: in bob-plugins' bob-ledger-tools, redesign the Day strip model, pain
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bz.2](bob-cli-bz.2.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-bz.2](bob-cli-bz.2.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -47,3 +49,15 @@ strip-look: in bob-plugins' bob-ledger-tools, redesign the Day strip model, pain
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d77503c`](https://github.com/bobs-org/bob-plugins/commit/d77503c4ebd350cec00e73b26800249ae3369b75) | feat(ledger-tools): simplify day strip to two calm label-value lines | [bob-cli-bz.1](bob-cli-bz.1.md) | 2026-10-25 08:19:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bz.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-bz.1/README.md
+
+<!-- sase:referenced-by:end -->

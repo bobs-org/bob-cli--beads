@@ -13,7 +13,7 @@ strip-docs: in bob-cli, rewrite the docs/stats.md "Day strip" section for the sh
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-bz.2](bob-cli-bz.2.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-bz.2](bob-cli-bz.2.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
