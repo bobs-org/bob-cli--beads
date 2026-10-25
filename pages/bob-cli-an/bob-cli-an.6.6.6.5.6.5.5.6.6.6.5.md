@@ -13,7 +13,7 @@ start-name-again-order: resolve bob-cli-bn by making today_start_rows order agai
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
