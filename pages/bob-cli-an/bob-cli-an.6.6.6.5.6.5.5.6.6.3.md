@@ -34,3 +34,15 @@ ref-doctor-identity: resolve bob-cli-b8 by making a local implement or decline d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8994514`](https://github.com/bobs-org/bob-cli/commit/89945148d2ed4f051e6d969cfc0f4bd6d66ed40d) | feat(ref-doctor): flag id/stem mismatches and duplicate ids with rename repair | [bob-cli-an.6.6.6.5.6.5.5.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.3.md) | 2026-10-25 10:35:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.3][1] | Need phase scope and design | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.3/README.md
+
+<!-- sase:referenced-by:end -->
