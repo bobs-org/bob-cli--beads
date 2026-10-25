@@ -24,7 +24,11 @@ Close five backlog tasks by repairing the live vault's reference ids only throug
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.2][1] | parent epic scope | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.3][2] | epic decisions | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.4][3] | parent epic DECISIONS and scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.4/README.md
 
 <!-- sase:referenced-by:end -->

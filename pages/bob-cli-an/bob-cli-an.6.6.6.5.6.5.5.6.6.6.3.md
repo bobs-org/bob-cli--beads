@@ -22,7 +22,7 @@ popout-mark-gates: resolve bob-cli-9q by making the bob-ledger-tools progress-ma
 ## Dependencies
 
 - **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.2.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.5.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.5.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -35,3 +35,15 @@ popout-mark-gates: resolve bob-cli-9q by making the bob-ledger-tools progress-ma
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4e54e2f`](https://github.com/bobs-org/bob-plugins/commit/4e54e2f202c085a92c05ddfe8d81c49eb65ab297) | fix(ledger-tools): mirror mark gate body classes into Obsidian popout windows | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) | 2026-10-25 11:50:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.3][1] | Need phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md
+
+<!-- sase:referenced-by:end -->
