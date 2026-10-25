@@ -13,7 +13,7 @@ collections_acceptance: enable exact URL-set collection rereads, complete help a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.3.1.4](bob-cli-c9.3.1.4.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.3.1.4](bob-cli-c9.3.1.4.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 

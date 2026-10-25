@@ -20,7 +20,7 @@ reading_birth: derive earlier at birth, preserve reading task suffixes and alias
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.3.1.2](bob-cli-c9.3.1.2.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.3.1.4](bob-cli-c9.3.1.4.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3.1.4](bob-cli-c9.3.1.4.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -33,3 +33,15 @@ reading_birth: derive earlier at birth, preserve reading task suffixes and alias
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`291efa6`](https://github.com/bobs-org/bob-cli/commit/291efa6b374695cace353fab593504d5c0cc6600) | feat(highlights): derive birth earlier lineage and reading-aware ref task IDs | [bob-cli-c9.3.1.3](bob-cli-c9.3.1.3.md) | 2026-10-25 17:53:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.3/README.md
+
+<!-- sase:referenced-by:end -->
