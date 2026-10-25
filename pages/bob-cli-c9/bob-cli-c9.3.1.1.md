@@ -17,7 +17,7 @@ force_parser: implement the force-mode parser, option plumbing, completion, and 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-c9.3.1.2](bob-cli-c9.3.1.2.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3.1.2](bob-cli-c9.3.1.2.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -30,3 +30,15 @@ force_parser: implement the force-mode parser, option plumbing, completion, and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2e08351`](https://github.com/bobs-org/bob-cli/commit/2e08351e893b59f79aa6de7f3c663db1000f640f) | feat(highlights): add force parser with reread/overwrite modes | [bob-cli-c9.3.1.1](bob-cli-c9.3.1.1.md) | 2026-10-25 16:22:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ reading_birth: derive earlier at birth, preserve reading task suffixes and alias
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.3.1.2](bob-cli-c9.3.1.2.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.3.1.2](bob-cli-c9.3.1.2.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c9.3.1.4](bob-cli-c9.3.1.4.md) ◐ · ⧖ 2026-10-25
 
 ## Agents
