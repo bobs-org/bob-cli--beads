@@ -18,7 +18,7 @@ strip-home: in bob-plugins' bob-ledger-tools, host the Day strip inside the rend
 ## Dependencies
 
 - **Depends on:** [bob-cli-bz.1](bob-cli-bz.1.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-bz.3](bob-cli-bz.3.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-bz.3](bob-cli-bz.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ strip-home: in bob-plugins' bob-ledger-tools, host the Day strip inside the rend
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8388ef2`](https://github.com/bobs-org/bob-plugins/commit/8388ef20bd96e984668f969eef95b69ef5005f8f) | feat(ledger-tools): host Day strip under bob-plan badges | [bob-cli-bz.2](bob-cli-bz.2.md) | 2026-10-25 08:37:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bz.2][1] | Check phase notes before closing strip-home work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-bz.2/README.md
+
+<!-- sase:referenced-by:end -->
