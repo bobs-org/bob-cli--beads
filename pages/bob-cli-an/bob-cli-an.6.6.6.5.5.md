@@ -21,7 +21,13 @@ mac-refs-scan-ci: resolve bob-cli-b7 by restoring a single recorded ref scan in 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md) | [bob-cli-an.6.6.6.5.5](bob-cli-an.6.6.6.5.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md) | [bob-cli-an.6.6.6.5.5](bob-cli-an.6.6.6.5.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@6d41b2e`](https://github.com/bobs-org/bob-mac-capture/commit/6d41b2e8cf2ee363fd6390c0ce576caa14666ab1) | test(refs): assert attended scan argv | [bob-cli-an.6.6.6.5.5](bob-cli-an.6.6.6.5.5.md) | 2026-10-24 08:51:16 EDT |
 
 <!-- sase:referenced-by:start -->
 
