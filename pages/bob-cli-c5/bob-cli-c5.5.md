@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-c5](README.md) / bob-cli-c5.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.145](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.145.md) · **Assignee:** `bob-cli-c5.5` · **Size:** small
-**Created:** 2026-10-25 10:27:23 EDT
+**Created:** 2026-10-25 10:27:23 EDT · **Closed:** 2026-10-25 12:16:49 EDT
 **Plan:** [202610/day\_strip\_above\_badges\_root\_parents.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/day_strip_above_badges_root_parents.md)
 
 ## Description
 
 closeout: rewrite the Day strip and Stats block contract in docs/stats.md, remove the heading total per the decision, add the four glossary strands, and settle memory beads bob-cli-bt and bob-cli-bs.
+
+## Notes
+
+[2026-10-25T16:16:49Z · bob-cli-c5.5] docs/stats.md rewritten to shipped contract (strip above badges, 3 lines, root-parent grouping with area fallback, narrow-legend rule; Root parents dash default); 28 vault notes stripped to bare ## Pomodoros, synced at 57a9d772; 4 glossary strands added (c2ef18c6); bt closed, bs noted; just check and just docs-check pass
 
 ## Dependencies
 

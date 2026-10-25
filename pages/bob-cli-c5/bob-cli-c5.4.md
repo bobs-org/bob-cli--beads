@@ -18,6 +18,8 @@
 | related | file:explicit:845458523ab6dca13425c847 | attached via sase artifact create --bead |
 | related | file:explicit:9709579771c9b3bb20a3e200 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -32,7 +34,7 @@ stats-roots: replace Areas & projects with a Root parents view grouped by area w
 
 - **Depends on:** [bob-cli-c5.2](bob-cli-c5.2.md) ✓ · ⧖ 2026-10-25
 - **Depends on:** [bob-cli-c5.3](bob-cli-c5.3.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c5.5](bob-cli-c5.5.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c5.5](bob-cli-c5.5.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -45,3 +47,15 @@ stats-roots: replace Areas & projects with a Root parents view grouped by area w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4150279`](https://github.com/bobs-org/bob-plugins/commit/41502791c5ab350415ac91a75c5adbfb3d23013e) | feat(ledger-tools): stats Root parents view with sub-project disclosure | [bob-cli-c5.4](bob-cli-c5.4.md) | 2026-10-25 12:02:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c5.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.4/README.md
+
+<!-- sase:referenced-by:end -->
