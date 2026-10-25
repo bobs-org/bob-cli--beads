@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch6_color_quote_walk_blocks_shift_promotion_race_mac_panel_ci.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch6_color_quote_walk_blocks_shift_promotion_race_mac_panel_ci.md
 
@@ -63,8 +63,10 @@ Close five prioritized task beads. Stop color-grouped Highlights sidecars from r
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][1] | Need the epic scope, children, linked plan, and resume checkpoint | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.land][1] | Parent traversal: review batch-6 descendants and landing state after batch-7 close | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][2] | Need the epic scope, children, linked plan, and resume checkpoint | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
 
 <!-- sase:referenced-by:end -->

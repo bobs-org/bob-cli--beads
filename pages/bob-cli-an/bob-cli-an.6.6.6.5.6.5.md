@@ -17,7 +17,7 @@
 | related | [bead:bob-cli-bv][2] | Active backlog epic whose Mac acceptance waits on a fully green macOS CI run that this failure blocks |
 | related | [bead:bob-cli-bw][3] | Active backlog epic whose Mac acceptance waits on a fully green macOS CI run that this failure blocks |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch7_url_identity_gist_metadata_close_summary_mac_ci.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-bv/README.md
@@ -55,7 +55,7 @@ Batch acceptance review: all six focused Rust tests passed; just check-web-clip-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land/README.md) | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land.md) | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2 |
 
 ## Commits
 
@@ -72,8 +72,10 @@ Batch acceptance review: all six focused Rust tests passed; just check-web-clip-
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.1][1] | Need epic decisions | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.2][2] | Need epic decisions governing the Gist metadata phase | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land.md
 
 <!-- sase:referenced-by:end -->

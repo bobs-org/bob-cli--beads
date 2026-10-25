@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch4_ci_identity_capture_flags_plugin_tests_relation_race.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch4_ci_identity_capture_flags_plugin_tests_relation_race.md
 
@@ -51,14 +51,13 @@ Audit incident: one diagnostic accidentally used the stale binary without BOB_DI
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.land.md) | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 3 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.land.md) | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3d62fb5`](https://github.com/bobs-org/bob-cli/commit/3d62fb548fde190cddad0e8d5b2b80a23bde1e0c) | fix(capture): walk mixed short clusters before unknown-flag refusal | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:33:27 EDT |
-| bob-mac-capture | [`bob-mac-capture@54131b1`](https://github.com/bobs-org/bob-mac-capture/commit/54131b189da279d6e5b5b2c21b5b4f0e76400848) | fix(capture): take relation labels from bob and omit ungated pull-in | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:34:13 EDT |
 | bob-cli--plans | [`bob-cli--plans@0a8ca46`](https://github.com/bobs-org/bob-cli--plans/commit/0a8ca4610cc97eacdda6b71b01867d9c78035aca) | chore(plans): mark backlog batch 4 epic plan done | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:34:52 EDT |
 
 <!-- sase:referenced-by:start -->
@@ -69,12 +68,14 @@ Audit incident: one diagnostic accidentally used the stale binary without BOB_DI
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.4][1] | epic context | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.5--2][2] | Confirm the phase ancestor was left unclosed | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][3] | Recheck batch 4 prior landing and linked plan before parent traversal | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.land][4] | Parent plan of bob-cli-an.6.6.6.5: need its landing note, Mac CI owner records, and parent link | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.land][3] | Parent traversal after batch-7 landing: confirm status, plan, and parent link | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][4] | Recheck batch 4 prior landing and linked plan before parent traversal | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.land][5] | Parent plan of bob-cli-an.6.6.6.5: need its landing note, Mac CI owner records, and parent link | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
 
 <!-- sase:referenced-by:end -->
