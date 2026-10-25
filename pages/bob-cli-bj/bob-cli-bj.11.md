@@ -26,13 +26,14 @@ records: write the accepted memory changes, drop planned markers and check cross
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.11/README.md) | [bob-cli-bj.11](bob-cli-bj.11.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.11/README.md) | [bob-cli-bj.11](bob-cli-bj.11.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8f50b30`](https://github.com/bobs-org/bob-cli/commit/8f50b304b97bcf2e28a98cf4bd60020f0b8df58c) | docs(records): add relation-label decisions, drop planned markers, record acceptance | [bob-cli-bj.11](bob-cli-bj.11.md) | 2026-10-24 19:34:36 EDT |
+| bob-plugins | [`bob-plugins@21e9923`](https://github.com/bobs-org/bob-plugins/commit/21e99230f819184c8b6b14d4a1c62fe960520dcd) | fix(relation-labels): refresh shared vectors and match Rust rename fold rule | [bob-cli-bj.11](bob-cli-bj.11.md) | 2026-10-24 19:35:34 EDT |
 
 <!-- sase:referenced-by:start -->
 

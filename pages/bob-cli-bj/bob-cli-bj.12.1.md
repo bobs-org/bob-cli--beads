@@ -26,3 +26,15 @@ relation-cache-bound: prune relation catalog cache files whose vault no longer e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d8a8f1f`](https://github.com/bobs-org/bob-cli/commit/d8a8f1f8a4ba10c80583c9f638fdf7355678137f) | fix(relations): bound catalog cache and isolate its tests | [bob-cli-bj.12.1](bob-cli-bj.12.1.md) | 2026-10-24 20:21:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.12.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.1/README.md
+
+<!-- sase:referenced-by:end -->

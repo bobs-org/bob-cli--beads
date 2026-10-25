@@ -19,13 +19,19 @@ mac-relation-repair: fix the five bj.9 compile errors in CapturePanelModel.swift
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-bj.12.3](bob-cli-bj.12.3.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [bob-cli-bj.12.3](bob-cli-bj.12.3.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md) | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bj.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md) | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@a2e230e`](https://github.com/bobs-org/bob-mac-capture/commit/a2e230e1c7e65dfe776d27db6e84f6f137b424cf) | fix(relation-card): repair rename build errors and failing relation XCTests | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 2026-10-24 20:16:10 EDT |
 
 <!-- sase:referenced-by:start -->
 
