@@ -61,6 +61,6 @@ FOLLOW-UP TRIAGE: no phase recorded a PROPOSED FOLLOW-UP. From post-start drift 
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][2] | Need the parent link and landing notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land.md
 
 <!-- sase:referenced-by:end -->
