@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.3/README.md) | [bob-cli-c5.3](bob-cli-c5.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-c5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.4/README.md) | [bob-cli-c5.4](bob-cli-c5.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-c5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.5/README.md) | [bob-cli-c5.5](bob-cli-c5.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-c5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c5.land.md) | [bob-cli-c5](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-c5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c5.land.md) | [bob-cli-c5](README.md) | 2 |
 
 ## Commits
 
@@ -94,6 +94,7 @@ flowchart TD
 | bob-cli | [`5078e8f`](https://github.com/bobs-org/bob-cli/commit/5078e8f821652dd66d7b61ce131a61232d08a415) | feat(stats): add root\_parent dimension to pomodoro homes and stats | [bob-cli-c5.2](bob-cli-c5.2.md) | 2026-10-25 11:34:38 EDT |
 | bob-plugins | [`bob-plugins@4150279`](https://github.com/bobs-org/bob-plugins/commit/41502791c5ab350415ac91a75c5adbfb3d23013e) | feat(ledger-tools): stats Root parents view with sub-project disclosure | [bob-cli-c5.4](bob-cli-c5.4.md) | 2026-10-25 12:02:50 EDT |
 | bob-cli | [`4e3a391`](https://github.com/bobs-org/bob-cli/commit/4e3a39150c37f83a0134baf6a61035992af42430) | docs(stats): distinct colours per root parent in Day strip and dash | [bob-cli-c5](README.md) | 2026-10-25 12:54:48 EDT |
+| bob-plugins | [`bob-plugins@a61d907`](https://github.com/bobs-org/bob-plugins/commit/a61d9072250cdab402fbf4c494e22248199d3cd6) | feat(ledger-tools): distinct hues per root parent, retire rollup stub | [bob-cli-c5](README.md) | 2026-10-25 12:55:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
