@@ -46,8 +46,10 @@ label-complete: switch relation_label suggestions to the fast catalog, add key/i
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-bj.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-bj.11][1] | Need label-complete latency baseline numbers | 2 |
+| read-by | [agent:bob-cli-bj.3][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.11/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.3/README.md
 
 <!-- sase:referenced-by:end -->

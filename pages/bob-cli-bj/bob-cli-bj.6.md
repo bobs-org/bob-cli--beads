@@ -43,8 +43,10 @@ label-rename: the strict, previewed relation label rename on the shared transact
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-bj.6][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-bj.11][1] | Check rename phase notes on cache invalidation and acceptance | 1 |
+| read-by | [agent:bob-cli-bj.6][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.6/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.11/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.6/README.md
 
 <!-- sase:referenced-by:end -->

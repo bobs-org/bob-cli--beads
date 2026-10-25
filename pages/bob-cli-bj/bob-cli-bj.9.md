@@ -27,7 +27,13 @@ mac-rename: Ctrl+R rename mode with a live dry-run preview, merge confirmation, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@1001627`](https://github.com/bobs-org/bob-mac-capture/commit/1001627311646b2211167b906c1a65d4b610fa53) | feat(relation-card): Ctrl+R rename mode with live dry-run preview and merge confirm | [bob-cli-bj.9](bob-cli-bj.9.md) | 2026-10-24 19:09:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
