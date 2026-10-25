@@ -23,12 +23,6 @@ user-supervisor: resolve bob-cli-av by moving the unauthenticated user multiviso
 
 - **Blocks:** [bob-cli-an.6.4](bob-cli-an.6.4.md) ✓ · ⧖ 2026-10-23
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.3.md) | [bob-cli-an.6.3](bob-cli-an.6.3.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

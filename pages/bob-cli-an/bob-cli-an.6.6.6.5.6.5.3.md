@@ -28,3 +28,17 @@ close-summary: resolve bob-cli-2t so pomodoro_close.entry_line and task_line nam
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ae993b5`](https://github.com/bobs-org/bob-cli/commit/ae993b5bbcd4c2b00b153b8ff96303b4efa9d67e) | fix(capture): resolve close headline after ledger edits | [bob-cli-an.6.6.6.5.6.5.3](bob-cli-an.6.6.6.5.6.5.3.md) | 2026-10-24 13:12:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.3--2][1] | Need assigned phase state and existing notes before recording verification and closing | 1 |
+| read-by | [agent:bob-cli-bj.6][2] | Check whether the clean-base completion-kind gap is already tracked | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-bj.6/README.md
+
+<!-- sase:referenced-by:end -->

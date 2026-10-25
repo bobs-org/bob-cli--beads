@@ -31,12 +31,6 @@ backup-rotation: resolve bob-cli-1a in the root-owned backup.sh that every tier 
 
 - **Depends on:** [bob-cli-an.6.1](bob-cli-an.6.1.md) ✓ · ⧖ 2026-10-23
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.2.md) | [bob-cli-an.6.2](bob-cli-an.6.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

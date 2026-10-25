@@ -43,7 +43,7 @@ Close five prioritized task beads. Stop color-grouped Highlights sidecars from r
 
 [2026-10-24T16:30:13Z · bob-cli-an.6.6.6.5.6.land--2] REPOSITORY OBLIGATIONS COMPLETE: plans status-done commit 200c7ac pushed; plans and primary worktrees clean and not ahead of upstream. Other opened source repositories unchanged. Archived batch-6 status done and schema rechecked; successor preserves the full mandatory continuation contract exactly. SASE commit wrapper exited 0; it reported deferred prompt/agent archive publication via its existing outbox, with pri
 
-… and 67 more characters
+… and 754 more characters
 
 ## Agents
 

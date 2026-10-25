@@ -25,12 +25,6 @@ monitoring: resolve bob-cli-97 after inventorying scrapes, pushers, dashboards, 
 
 - **Depends on:** [bob-cli-an.2](bob-cli-an.2.md) ✓ · ⧖ 2026-10-21
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.3.md) | [bob-cli-an.3](bob-cli-an.3.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

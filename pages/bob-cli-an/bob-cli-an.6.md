@@ -45,7 +45,7 @@ Close five prioritized task beads by removing the remaining Bryan-to-root cron c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md) | [bob-cli-an.6](bob-cli-an.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.land/README.md) | [bob-cli-an.6](bob-cli-an.6.md) | 1 |
 
 ## Commits
 

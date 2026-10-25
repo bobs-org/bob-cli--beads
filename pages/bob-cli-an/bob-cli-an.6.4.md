@@ -21,12 +21,6 @@ rfserver-port: resolve bob-cli-aw by inventorying port 23401 clients, choosing t
 
 - **Depends on:** [bob-cli-an.6.3](bob-cli-an.6.3.md) ✓ · ⧖ 2026-10-23
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.4.md) | [bob-cli-an.6.4](bob-cli-an.6.4.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

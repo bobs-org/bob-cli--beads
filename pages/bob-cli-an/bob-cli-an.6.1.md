@@ -31,12 +31,6 @@ periodic-cron: resolve bob-cli-au by extending the reviewed tailnet root-cron in
 
 - **Blocks:** [bob-cli-an.6.2](bob-cli-an.6.2.md) ✓ · ⧖ 2026-10-23
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.1.md) | [bob-cli-an.6.1](bob-cli-an.6.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
