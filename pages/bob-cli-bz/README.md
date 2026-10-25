@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-bz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-bz.1/README.md) | [bob-cli-bz.1](bob-cli-bz.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-bz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-bz.2/README.md) | [bob-cli-bz.2](bob-cli-bz.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-bz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-bz.3/README.md) | [bob-cli-bz.3](bob-cli-bz.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-bz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-bz.land.md) | [bob-cli-bz](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-bz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-bz.land.md) | [bob-cli-bz](README.md) | 2 |
 
 ## Commits
 
@@ -74,6 +74,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d77503c`](https://github.com/bobs-org/bob-plugins/commit/d77503c4ebd350cec00e73b26800249ae3369b75) | feat(ledger-tools): simplify day strip to two calm label-value lines | [bob-cli-bz.1](bob-cli-bz.1.md) | 2026-10-25 08:19:42 EDT |
 | bob-plugins | [`bob-plugins@8388ef2`](https://github.com/bobs-org/bob-plugins/commit/8388ef20bd96e984668f969eef95b69ef5005f8f) | feat(ledger-tools): host Day strip under bob-plan badges | [bob-cli-bz.2](bob-cli-bz.2.md) | 2026-10-25 08:37:41 EDT |
 | bob-cli | [`269e597`](https://github.com/bobs-org/bob-cli/commit/269e597305d802f00e914b8429dd8b48a96b0192) | docs(stats): document Day strip under plan badges | [bob-cli-bz](README.md) | 2026-10-25 09:22:28 EDT |
+| bob-plugins | [`bob-plugins@efaaaa0`](https://github.com/bobs-org/bob-plugins/commit/efaaaa08d48cd6286396f7d173b51b62a67bdd66) | fix(ledger-tools): gate plan-host fetches on visibility and repaint fences on rollover | [bob-cli-bz](README.md) | 2026-10-25 09:22:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
