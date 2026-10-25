@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch8_listen_manifest_mac_ci_flakes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch8_listen_manifest_mac_ci_flakes.md
 
@@ -42,11 +42,13 @@ Limitation: Athena's three stale listen manifests need the manual one-shot repai
 
 [2026-10-25T12:37:31Z · bob-cli-an.6.6.6.5.6.5.5.land] POST-CLOSE TRIAGE ADDENDUM (lander): base-branch CI review found bob-cli macOS CI run 40190123972 on a75c55f9 (pre-epic) failing ref_library::migrate_tasks::unmapped_refuses_write_and_map_wins with a NotFound in worktree_snapshot. It passed on epic SHA f4f6a9ca (run 40191854741). Not caused by this epic. Routed via /sase_new_task: no duplicate and no causal active epic, so created bob-cli-c2 (flake, small). Final follow-up outcomes: c0, c1, c2 created; no phase proposals existed; bw guard tradeoff not filed (accepted design, recorded on bw).
 
+[2026-10-25T12:43:04Z · bob-cli-an.6.6.6.5.6.5.5.land] CONTINUATION (lander): fresh enumeration after landing shows 129 unresolved tasks (125 ready, 4 snoozed: 3o, 6q, aa, ah). Proposing successor epic 'Backlog batch 9' (scratch sase_plan_backlog_batch9_epipe_listen_publish_refresh_flakes.md, parent_bead bob-cli-an.6.6.6.5.6.5.5). It owns bob-cli-bl (EPIPE quiet exit; decision epipe_status, default exit 0, no SIGPIPE disposition change), bob-cli-c1 (explicit listen publish marks manifest), bob-cli-c0 (Mac hidden-refresh flake), bob-cli-bo (capture-related perf gate), and bob-cli-c2 (ref_library .git snapshot race). 8q was excluded because active epic bob-cli-3j owns the PTY drivers. The plan validated clean, and the continuation contract is copied verbatim with refreshed candidate guidance. Plans sidecar status:done committed before the proposal.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5](bob-cli-an.6.6.6.5.6.5.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land.md) | [bob-cli-an.6.6.6.5.6.5.5](bob-cli-an.6.6.6.5.6.5.5.md) | 1 |
 
 ## Commits
 
@@ -62,8 +64,10 @@ Limitation: Athena's three stale listen manifests need the manual one-shot repai
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.2][1] | parent epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.3][2] | parent epic context | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land.md
 
 <!-- sase:referenced-by:end -->

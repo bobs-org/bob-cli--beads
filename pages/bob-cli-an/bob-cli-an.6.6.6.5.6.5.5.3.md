@@ -27,13 +27,7 @@ Watch: bob-mac-capture base 569cb36 plus this one-line fix; lander should monito
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.3](bob-cli-an.6.6.6.5.6.5.5.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@8fda38d`](https://github.com/bobs-org/bob-mac-capture/commit/8fda38d261bcc007a0e344ea64add1c5842c3114) | fix(capture): omit pull-in guard on inbox-route confirms | [bob-cli-an.6.6.6.5.6.5.5.3](bob-cli-an.6.6.6.5.6.5.5.3.md) | 2026-10-25 08:09:14 EDT |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.3](bob-cli-an.6.6.6.5.6.5.5.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -42,7 +36,9 @@ Watch: bob-mac-capture base 569cb36 plus this one-line fix; lander should monito
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.3][1] | Need full phase scope including DECISIONS | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land.md
 
 <!-- sase:referenced-by:end -->
