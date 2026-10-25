@@ -18,7 +18,7 @@ root-dimension: derive each home's root parent in the resolver and report an add
 ## Dependencies
 
 - **Depends on:** [bob-cli-c5.1](bob-cli-c5.1.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c5.4](bob-cli-c5.4.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c5.4](bob-cli-c5.4.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ root-dimension: derive each home's root parent in the resolver and report an add
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5078e8f`](https://github.com/bobs-org/bob-cli/commit/5078e8f821652dd66d7b61ce131a61232d08a415) | feat(stats): add root\_parent dimension to pomodoro homes and stats | [bob-cli-c5.2](bob-cli-c5.2.md) | 2026-10-25 11:34:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c5.2][1] | final verify before close | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c5.2/README.md
+
+<!-- sase:referenced-by:end -->

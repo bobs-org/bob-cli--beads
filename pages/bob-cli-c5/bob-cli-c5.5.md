@@ -13,7 +13,7 @@ closeout: rewrite the Day strip and Stats block contract in docs/stats.md, remov
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c5.4](bob-cli-c5.4.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c5.4](bob-cli-c5.4.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
