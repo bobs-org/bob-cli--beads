@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/relation_label_vocabulary.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-bu][2] | Source epic; decision memory_glossary=no deferred this glossary change |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/relation_label_vocabulary.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-bu/README.md
@@ -39,7 +39,7 @@ The Bob Mac Capture relation card is a reliable, beautiful chooser: Ctrl+N/P mov
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-bj.1](bob-cli-bj.1.md) | Mac relation card as a navigate-then-accept chooser | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bj.1](bob-cli-bj.1.md) | Mac relation card as a navigate-then-accept chooser | ✓ closed | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bj.10](bob-cli-bj.10.md) | Obsidian rename mode and the relation labels command | ✓ closed | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bj.11](bob-cli-bj.11.md) | Decision records, docs sweep, and end-to-end acceptance | ✓ closed | small | 2026-10-24 | 1 | 1 |
 | [bob-cli-bj.2](bob-cli-bj.2.md) | Shared preference journal, relation label catalog, and bob relations list/hide/unhide | ✓ closed | medium | 2026-10-24 | 1 | 1 |
@@ -47,9 +47,9 @@ The Bob Mac Capture relation card is a reliable, beautiful chooser: Ctrl+N/P mov
 | [bob-cli-bj.4](bob-cli-bj.4.md) | Shared vault-rewrite transaction extracted from bob themes rename | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bj.5](bob-cli-bj.5.md) | The \`\|\|\` one-off relation label capture syntax | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [bob-cli-bj.6](bob-cli-bj.6.md) | bob relations rename across every note, done/ included | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [bob-cli-bj.7](bob-cli-bj.7.md) | Mac card hide, one-off, Hidden section, and warnings | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bj.7](bob-cli-bj.7.md) | Mac card hide, one-off, Hidden section, and warnings | ✓ closed | medium | 2026-10-24 | 1 | 0 |
 | [bob-cli-bj.8](bob-cli-bj.8.md) | Obsidian label stage parity, JS mirrors, and api.relationLabels | ✓ closed | medium | 2026-10-24 | 1 | 0 |
-| [bob-cli-bj.9](bob-cli-bj.9.md) | Mac card rename mode | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [bob-cli-bj.9](bob-cli-bj.9.md) | Mac card rename mode | ✓ closed | medium | 2026-10-24 | 1 | 0 |
 
 ## Lineage
 
@@ -60,7 +60,7 @@ flowchart TD
     n2["bob-cli-bj.10: Obsidian rename mode and the relation labels command [closed]"]
     n3["bob-cli-bj.11: Decision records, docs sweep, and end-to-end acceptance [closed]"]
     n4["bob-cli-bj.12: Relation label vocabulary landing repairs — green Mac build and tests, bounded catalog cache [in_progress]"]
-    n5["bob-cli-bj.12.1: Bound the relation-label catalog cache and isolate its tests [in_progress]"]
+    n5["bob-cli-bj.12.1: Bound the relation-label catalog cache and isolate its tests [closed]"]
     n6["bob-cli-bj.12.2: Repair the relation-card Mac build and failing relation XCTests [closed]"]
     n7["bob-cli-bj.12.3: Confirm macOS CI on the repair commit and fix any remaining epic-caused failures [in_progress]"]
     n8["bob-cli-bj.2: Shared preference journal, relation label catalog, and bob relations list/hide/unhide [closed]"]
@@ -106,11 +106,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.1.md) | [bob-cli-bj.1](bob-cli-bj.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.1.md) | [bob-cli-bj.1](bob-cli-bj.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.10/README.md) | [bob-cli-bj.10](bob-cli-bj.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.11/README.md) | [bob-cli-bj.11](bob-cli-bj.11.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bj.12.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.1/README.md) | [bob-cli-bj.12.1](bob-cli-bj.12.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bj.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md) | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.12.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.1/README.md) | [bob-cli-bj.12.1](bob-cli-bj.12.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md) | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.12.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.3/README.md) | [bob-cli-bj.12.3](bob-cli-bj.12.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.land/README.md) | [bob-cli-bj.12](bob-cli-bj.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.2/README.md) | [bob-cli-bj.2](bob-cli-bj.2.md) | 1 |
@@ -118,25 +118,22 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.4/README.md) | [bob-cli-bj.4](bob-cli-bj.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.5/README.md) | [bob-cli-bj.5](bob-cli-bj.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.6/README.md) | [bob-cli-bj.6](bob-cli-bj.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-bj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.7/README.md) | [bob-cli-bj.7](bob-cli-bj.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.7/README.md) | [bob-cli-bj.7](bob-cli-bj.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.8/README.md) | [bob-cli-bj.8](bob-cli-bj.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.9/README.md) | [bob-cli-bj.9](bob-cli-bj.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-bj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.land.md) | [bob-cli-bj](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@7dc96cf`](https://github.com/bobs-org/bob-mac-capture/commit/7dc96cf1c975fb18e3a14df27cbf1b9db9b2ecfd) | feat(mac-capture): add relation chooser | [bob-cli-bj.1](bob-cli-bj.1.md) | 2026-10-24 14:25:23 EDT |
 | bob-cli | [`57d7761`](https://github.com/bobs-org/bob-cli/commit/57d77612109f72c1f51aecbcb43c6be106e7398b) | feat(relations): shared preference journal, label catalog, and bob relations list/hide/unhide | [bob-cli-bj.2](bob-cli-bj.2.md) | 2026-10-24 15:08:39 EDT |
 | bob-cli | [`fd9380c`](https://github.com/bobs-org/bob-cli/commit/fd9380cbaefb8ceb481a914ca6490b6f70e54143) | refactor(themes): extract rename transaction into vault\_rewrite module | [bob-cli-bj.4](bob-cli-bj.4.md) | 2026-10-24 16:07:40 EDT |
 | bob-cli | [`6def3ac`](https://github.com/bobs-org/bob-cli/commit/6def3ac88179c25ff6b54b4119c13c2875601ec8) | feat(capture-complete): use cached relation-label catalog | [bob-cli-bj.3](bob-cli-bj.3.md) | 2026-10-24 16:08:31 EDT |
 | bob-cli | [`4c46dad`](https://github.com/bobs-org/bob-cli/commit/4c46dadd118a28c0c5255941419a77efc01c870b) | feat(relations): add verified label rename command | [bob-cli-bj.6](bob-cli-bj.6.md) | 2026-10-24 16:56:34 EDT |
 | bob-cli | [`895b9ba`](https://github.com/bobs-org/bob-cli/commit/895b9ba7608b5c215334132d6d0ae0747e8c0210) | feat(capture): add \|\| one-off relation label syntax with hide-on-commit | [bob-cli-bj.5](bob-cli-bj.5.md) | 2026-10-24 17:51:32 EDT |
-| bob-mac-capture | [`bob-mac-capture@556bb67`](https://github.com/bobs-org/bob-mac-capture/commit/556bb6720136d711e81f057cee32ad21d4795c30) | feat(relation-card): hide, one-off, Hidden section, and warnings | [bob-cli-bj.7](bob-cli-bj.7.md) | 2026-10-24 18:33:16 EDT |
-| bob-mac-capture | [`bob-mac-capture@1001627`](https://github.com/bobs-org/bob-mac-capture/commit/1001627311646b2211167b906c1a65d4b610fa53) | feat(relation-card): Ctrl+R rename mode with live dry-run preview and merge confirm | [bob-cli-bj.9](bob-cli-bj.9.md) | 2026-10-24 19:09:37 EDT |
 | bob-cli | [`8f50b30`](https://github.com/bobs-org/bob-cli/commit/8f50b304b97bcf2e28a98cf4bd60020f0b8df58c) | docs(records): add relation-label decisions, drop planned markers, record acceptance | [bob-cli-bj.11](bob-cli-bj.11.md) | 2026-10-24 19:34:36 EDT |
-| bob-mac-capture | [`bob-mac-capture@a2e230e`](https://github.com/bobs-org/bob-mac-capture/commit/a2e230e1c7e65dfe776d27db6e84f6f137b424cf) | fix(relation-card): repair rename build errors and failing relation XCTests | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 2026-10-24 20:16:10 EDT |
+| bob-cli | [`d8a8f1f`](https://github.com/bobs-org/bob-cli/commit/d8a8f1f8a4ba10c80583c9f638fdf7355678137f) | fix(relations): bound catalog cache and isolate its tests | [bob-cli-bj.12.1](bob-cli-bj.12.1.md) | 2026-10-24 20:21:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -144,8 +141,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-bj.2][1] | epic context for phase | 1 |
+| read-by | [agent:bob-cli-bj.12.2][1] | Need parent DECISIONS and land note triage | 1 |
+| read-by | [agent:bob-cli-bj.2][2] | epic context for phase | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.2/README.md
 
 <!-- sase:referenced-by:end -->

@@ -16,3 +16,15 @@ Finish the remaining work that epic bob-cli-bj caused. The bob-mac-capture app t
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-bj.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.land/README.md) | [bob-cli-bj.12](bob-cli-bj.12.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.12.2][1] | Need epic DECISIONS and scope for phase 12.2 | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md
+
+<!-- sase:referenced-by:end -->

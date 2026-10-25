@@ -25,10 +25,16 @@ mac-relation-repair: fix the five bj.9 compile errors in CapturePanelModel.swift
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md) | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md) | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@a2e230e`](https://github.com/bobs-org/bob-mac-capture/commit/a2e230e1c7e65dfe776d27db6e84f6f137b424cf) | fix(relation-card): repair rename build errors and failing relation XCTests | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 2026-10-24 20:16:10 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-bj.12.2][1] | Need phase notes and remaining work check | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md
+
+<!-- sase:referenced-by:end -->
