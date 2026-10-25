@@ -28,3 +28,15 @@ port-dedupe-ports: resolve bob-cli-c3 by keeping url.port() in dedupe_key_for an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7e8ffed`](https://github.com/bobs-org/bob-cli/commit/7e8ffedd292dc901ba7d14f57fcd72a0b09a6bcf) | fix(url-routing): keep explicit non-default ports in dedupe and display URLs | [bob-cli-an.6.6.6.5.6.5.5.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.1.md) | 2026-10-25 10:16:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.1][1] | check full description notes decisions | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.1/README.md
+
+<!-- sase:referenced-by:end -->

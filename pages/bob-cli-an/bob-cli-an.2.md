@@ -35,12 +35,6 @@ root-cron: resolve bob-cli-96 while preserving hourly jobs and backups and verif
 - **Blocks:** [bob-cli-an.3](bob-cli-an.3.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [bob-cli-an.4](bob-cli-an.4.md) ✓ · ⧖ 2026-10-21
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.2.md) | [bob-cli-an.2](bob-cli-an.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
