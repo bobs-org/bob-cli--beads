@@ -26,3 +26,15 @@ lib-stub-etxtbsy: resolve bob-cli-5l by routing every lib-test executable stub t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f4f6a9c`](https://github.com/bobs-org/bob-cli/commit/f4f6a9caa3968a1dc2751baa4cfb2faca804f670) | test(native): route lib-test executable stubs through fork-safe shared writer | [bob-cli-an.6.6.6.5.6.5.5.5](bob-cli-an.6.6.6.5.6.5.5.5.md) | 2026-10-25 08:09:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.5/README.md
+
+<!-- sase:referenced-by:end -->
