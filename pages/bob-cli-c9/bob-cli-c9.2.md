@@ -37,8 +37,10 @@ refusal: route every duplicate site (URL dedupe, same-reference stem walk, libra
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-c9.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-c9.1][1] | sibling scope | 1 |
+| read-by | [agent:bob-cli-c9.2][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.2/README.md
 
 <!-- sase:referenced-by:end -->
