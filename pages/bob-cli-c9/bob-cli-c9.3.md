@@ -13,8 +13,8 @@ reread: turn -f into --force[=MODE], with adjacent-mode adoption and a stray-mod
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.1](bob-cli-c9.1.md) ◐ · ⧖ 2026-10-25
-- **Depends on:** [bob-cli-c9.2](bob-cli-c9.2.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.1](bob-cli-c9.1.md) ✓ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.2](bob-cli-c9.2.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c9.4](bob-cli-c9.4.md) ◐ · ⧖ 2026-10-25
 
 ## Agents
