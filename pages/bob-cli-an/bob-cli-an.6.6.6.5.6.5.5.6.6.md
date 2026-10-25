@@ -33,7 +33,7 @@ Close five backlog tasks by keeping explicit non-default ports in URL identity, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 3 |
 
 ## Commits
 
@@ -41,6 +41,7 @@ Close five backlog tasks by keeping explicit non-default ports in URL identity, 
 |---|---|---|---|---|
 | bob-cli | [`ba52374`](https://github.com/bobs-org/bob-cli/commit/ba523746df6fd21308193bbc14f7b59a76ba9529) | fix(ref-doctor): fold reference ids ASCII-only and drop pandoc from the repair test | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 2026-10-25 11:00:19 EDT |
 | bob-cli--plans | [`bob-cli--plans@2d0fa85`](https://github.com/bobs-org/bob-cli--plans/commit/2d0fa854ce4865da83ebf775b6f936b28cd07e43) | chore(plans): mark backlog batch 10 plan done | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 2026-10-25 11:02:33 EDT |
+| bob-cli | [`41cd374`](https://github.com/bobs-org/bob-cli/commit/41cd37487779a54187675445531557d3ab26879d) | fix(ref-doctor): accept the duplicate-avoiding \_N id suffix | [bob-cli-an.6.6.6.5.6.5.5.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.md) | 2026-10-25 11:25:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
