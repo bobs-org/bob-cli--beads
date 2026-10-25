@@ -49,13 +49,14 @@ epic-symbols clean for bob-cli-bj.12 and bob-cli-bj; bob-cli justfile has no sym
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-bj.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.12.land.md) | [bob-cli-bj.12](bob-cli-bj.12.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.12.land.md) | [bob-cli-bj.12](bob-cli-bj.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`303d8d2`](https://github.com/bobs-org/bob-cli/commit/303d8d248aae658feff47d7be9415b0e26c2929a) | fix(relations): constrain catalog sweep to owned files and older versions | [bob-cli-bj.12](bob-cli-bj.12.md) | 2026-10-24 20:56:48 EDT |
+| bob-cli--plans | [`bob-cli--plans@f61d5a2`](https://github.com/bobs-org/bob-cli--plans/commit/f61d5a20cfa6638adbe8c8d031205b2972b23646) | docs(plans): mark relation repair plan done for bob-cli-bj.12 closeout | [bob-cli-bj.12](bob-cli-bj.12.md) | 2026-10-24 20:57:31 EDT |
 
 <!-- sase:referenced-by:start -->
 

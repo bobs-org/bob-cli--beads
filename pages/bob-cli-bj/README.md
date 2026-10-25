@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-bj.12.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.1/README.md) | [bob-cli-bj.12.1](bob-cli-bj.12.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.12.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.2/README.md) | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.12.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.12.3/README.md) | [bob-cli-bj.12.3](bob-cli-bj.12.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-bj.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.12.land.md) | [bob-cli-bj.12](bob-cli-bj.12.md) | 1 |
+| [bbugyi200.apollo.bob-cli-bj.12.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-bj.12.land.md) | [bob-cli-bj.12](bob-cli-bj.12.md) | 2 |
 | [bbugyi200.apollo.bob-cli-bj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.2/README.md) | [bob-cli-bj.2](bob-cli-bj.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.3/README.md) | [bob-cli-bj.3](bob-cli-bj.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-bj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-bj.4/README.md) | [bob-cli-bj.4](bob-cli-bj.4.md) | 1 |
@@ -146,6 +146,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@a2e230e`](https://github.com/bobs-org/bob-mac-capture/commit/a2e230e1c7e65dfe776d27db6e84f6f137b424cf) | fix(relation-card): repair rename build errors and failing relation XCTests | [bob-cli-bj.12.2](bob-cli-bj.12.2.md) | 2026-10-24 20:16:10 EDT |
 | bob-cli | [`d8a8f1f`](https://github.com/bobs-org/bob-cli/commit/d8a8f1f8a4ba10c80583c9f638fdf7355678137f) | fix(relations): bound catalog cache and isolate its tests | [bob-cli-bj.12.1](bob-cli-bj.12.1.md) | 2026-10-24 20:21:41 EDT |
 | bob-cli | [`303d8d2`](https://github.com/bobs-org/bob-cli/commit/303d8d248aae658feff47d7be9415b0e26c2929a) | fix(relations): constrain catalog sweep to owned files and older versions | [bob-cli-bj.12](bob-cli-bj.12.md) | 2026-10-24 20:56:48 EDT |
+| bob-cli--plans | [`bob-cli--plans@f61d5a2`](https://github.com/bobs-org/bob-cli--plans/commit/f61d5a20cfa6638adbe8c8d031205b2972b23646) | docs(plans): mark relation repair plan done for bob-cli-bj.12 closeout | [bob-cli-bj.12](bob-cli-bj.12.md) | 2026-10-24 20:57:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
