@@ -18,7 +18,7 @@ single_sources: wire the shared reread plan into every single-source route with 
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.3.1.3](bob-cli-c9.3.1.3.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.3.1.5](bob-cli-c9.3.1.5.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3.1.5](bob-cli-c9.3.1.5.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ single_sources: wire the shared reread plan into every single-source route with 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`499294b`](https://github.com/bobs-org/bob-cli/commit/499294b3fa35a2a01a4b4173ed8bc9fea9764ae9) | feat(ref)!: enable rereads for single files, URLs, and note snapshots | [bob-cli-c9.3.1.4](bob-cli-c9.3.1.4.md) | 2026-10-25 18:45:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.4/README.md
+
+<!-- sase:referenced-by:end -->
