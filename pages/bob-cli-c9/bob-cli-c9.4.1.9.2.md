@@ -22,7 +22,7 @@ output: rewrite the task alias only on a real title change, report the final tas
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.4.1.9.1](bob-cli-c9.4.1.9.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -35,3 +35,15 @@ output: rewrite the task alias only on a real title change, report the final tas
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`43f8aff`](https://github.com/bobs-org/bob-cli/commit/43f8aff5d0a39b8c982fe7048e6839d86406c0fe) | feat(highlights): overwrite local and web routes with alias preservation | [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) | 2026-10-26 05:26:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.9.2][1] | check full detail with notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.2/README.md
+
+<!-- sase:referenced-by:end -->
