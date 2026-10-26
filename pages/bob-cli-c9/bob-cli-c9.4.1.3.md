@@ -20,7 +20,7 @@ recovery: implement durable overwrite intents and scoped HEAD recovery before cr
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.4.1.1](bob-cli-c9.4.1.1.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.4.1.4](bob-cli-c9.4.1.4.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.4.1.4](bob-cli-c9.4.1.4.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 

@@ -60,7 +60,7 @@ flowchart TD
     n17["bob-cli-c9.4.1.1: Share reference mutation safety primitives with rename [closed]"]
     n18["bob-cli-c9.4.1.2: Plan overwrite selection and inert prose archives [closed]"]
     n19["bob-cli-c9.4.1.3: Recover interrupted overwrites from host-local intents [closed]"]
-    n20["bob-cli-c9.4.1.4: Apply and verify a staged overwrite in one scoped commit [in_progress]"]
+    n20["bob-cli-c9.4.1.4: Apply and verify a staged overwrite in one scoped commit [closed]"]
     n21["bob-cli-c9.4.1.5: Enable local-file and vault-snapshot overwrite [in_progress]"]
     n22["bob-cli-c9.4.1.6: Enable single-URL overwrite across web capture routes [in_progress]"]
     n23["bob-cli-c9.4.1.7: Enable exact-set collection overwrite and complete remedies [in_progress]"]
@@ -137,7 +137,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.1/README.md) | [bob-cli-c9.4.1.1](bob-cli-c9.4.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.2.md) | [bob-cli-c9.4.1.2](bob-cli-c9.4.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.3/README.md) | [bob-cli-c9.4.1.3](bob-cli-c9.4.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.4/README.md) | [bob-cli-c9.4.1.4](bob-cli-c9.4.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.4/README.md) | [bob-cli-c9.4.1.4](bob-cli-c9.4.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.5/README.md) | [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.6/README.md) | [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.4.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.7/README.md) | [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) | 0 |
@@ -167,6 +167,7 @@ flowchart TD
 | bob-cli | [`6196cea`](https://github.com/bobs-org/bob-cli/commit/6196cea7b90f6648a80a9c5099611c1598b3cd40) | refactor(ref): extract shared reference mutation safety primitives | [bob-cli-c9.4.1.1](bob-cli-c9.4.1.1.md) | 2026-10-25 22:59:23 EDT |
 | bob-cli | [`07d5a18`](https://github.com/bobs-org/bob-cli/commit/07d5a18d1057e337a969e71741bc756a964c519f) | feat(highlights-ref): durable overwrite-intent lifecycle with recovery | [bob-cli-c9.4.1.3](bob-cli-c9.4.1.3.md) | 2026-10-25 23:29:51 EDT |
 | bob-cli | [`419e84f`](https://github.com/bobs-org/bob-cli/commit/419e84f31ab6519eed507dc04bbb33a086842450) | feat(ref): prepare safe in-place overwrite preflight | [bob-cli-c9.4.1.2](bob-cli-c9.4.1.2.md) | 2026-10-25 23:52:53 EDT |
+| bob-cli | [`8e35872`](https://github.com/bobs-org/bob-cli/commit/8e35872b95c965abf2f45cef45fa3201c509435d) | feat(ref): apply staged overwrite in scoped transaction | [bob-cli-c9.4.1.4](bob-cli-c9.4.1.4.md) | 2026-10-26 00:29:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
