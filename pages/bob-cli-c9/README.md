@@ -199,7 +199,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 2 |
 
 ## Commits
 
@@ -240,6 +240,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@90cb827`](https://github.com/bobs-org/bob-cli--plans/commit/90cb8277caac8adcc7a12c5b0c03e43803ff5064) | docs(plan): mark annotated overwrite complete | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 12:00:17 EDT |
 | bob-cli | [`94cd2d9`](https://github.com/bobs-org/bob-cli/commit/94cd2d9528997aa490f6c984c92e26faf18486a4) | docs(ref): record-phase glossary correction and recapture docs pass | [bob-cli-c9.6](bob-cli-c9.6.md) | 2026-10-26 12:12:45 EDT |
 | bob-cli | [`6f2f193`](https://github.com/bobs-org/bob-cli/commit/6f2f19324083835fdd36f34c25dd4f3fef8d5a6d) | fix(ref): land recapture epic with host-independent overwrite guards | [bob-cli-c9](README.md) | 2026-10-26 12:56:49 EDT |
+| bob-cli--plans | [`bob-cli--plans@ebc125f`](https://github.com/bobs-org/bob-cli--plans/commit/ebc125f8198d446f57133160d342a2e05db5b753) | chore(plans): mark ref\_create\_force\_recapture plan done after bob-cli-c9 landed | [bob-cli-c9](README.md) | 2026-10-26 12:57:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
