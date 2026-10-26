@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) / bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md) · **Assignee:** `bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1` · **Size:** small
-**Created:** 2026-10-26 08:32:07 EDT
+**Created:** 2026-10-26 08:32:07 EDT · **Closed:** 2026-10-26 08:47:41 EDT
 **Plan:** [202610/backlog\_batch12\_perf\_baseline\_fakenode\_daystrip\_blocks\_notice.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch12_perf_baseline_fakenode_daystrip_blocks_notice.md)
 
 ## Description
@@ -21,8 +21,22 @@ Tests: (1) Temporary 600 ms sleep in the big timed path (not committed) failed b
 
 Limitations: the 500 ms paired floor still matches the old isolated budget; a slowdown smaller than scheduling noise can still hide. Gross 2000 ms bound is for order-of-magnitude regressions only.
 
+[2026-10-26T12:47:41Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1] Paired-baseline gates for both capture_related lib tests (warmup + 7 paired runs vs tiny vault; min_diff < 500 ms, min_big < 2000 ms). Uncommitted 600 ms sleep failed both (query 704 ms, draft 716 ms). 8/8 passes under concurrent cargo test --lib at loadavg 20. just check passed; bob-cli-ca left open for the lander.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ day-strip-new-tab: resolve bob-cli-c6 by making openStatsForDay skip the reuse b
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5.md) ◐ · ⧖ 2026-10-26
 

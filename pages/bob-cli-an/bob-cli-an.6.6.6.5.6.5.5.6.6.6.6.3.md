@@ -32,3 +32,15 @@ fakenode-inspect: resolve bob-cli-c7 by giving every bob-plugins ledger-tools te
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@0ccb3ac`](https://github.com/bobs-org/bob-plugins/commit/0ccb3ac0f04b127bc595a9f8f357340e1eba8a0b) | test(ledger-tools): short FakeNode descriptors and bounded failing-assert regression | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3.md) | 2026-10-26 08:48:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3/README.md
+
+<!-- sase:referenced-by:end -->

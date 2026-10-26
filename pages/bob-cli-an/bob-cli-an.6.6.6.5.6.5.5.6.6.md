@@ -55,7 +55,7 @@ Close five backlog tasks by keeping explicit non-default ports in URL identity, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.1][1] | epic decisions and scope | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.3][2] | Need epic DECISIONS | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.land][3] | Need the parent link and parent epic status | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.land][3] | Need the parent link and parent epic status | 2 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][4] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.1/README.md
