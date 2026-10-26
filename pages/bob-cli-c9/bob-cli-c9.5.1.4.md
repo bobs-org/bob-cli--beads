@@ -42,8 +42,10 @@ execute: Replace the annotated interim refusal with the Mac/config gate and cons
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.5.1.4][1] | Check this phase's notes for earlier work or recorded remainder before planning | 2 |
 | read-by | [agent:bob-cli-c9.5.1.5][2] | Need execute-phase closeout evidence so acceptance knows what landed | 1 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][3] | Review all five closed phase notes and evidence before closing their parent epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
 
 <!-- sase:referenced-by:end -->

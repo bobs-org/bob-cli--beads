@@ -41,7 +41,9 @@ recovery: Extend the host-local overwrite intent and recovery to describe no-clo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.5.1.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][2] | Review all five closed phase notes and evidence before closing their parent epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
 
 <!-- sase:referenced-by:end -->

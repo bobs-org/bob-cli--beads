@@ -38,7 +38,9 @@ acceptance: Add cross-cutting recapture regressions, pin processed annotation id
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.5.1.5][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][2] | Review all five closed phase notes and evidence before closing their parent epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
 
 <!-- sase:referenced-by:end -->

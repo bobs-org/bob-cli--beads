@@ -42,7 +42,9 @@ archive: Extend the existing read-only overwrite plan with an annotated archive 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.5.1.1][1] | Need status, notes, and whether already closed | 2 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][2] | Review all five closed phase notes and evidence before closing their parent epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
 
 <!-- sase:referenced-by:end -->

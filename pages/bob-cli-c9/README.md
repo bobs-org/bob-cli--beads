@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_create_force_recapture.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_force_recapture.md
 
@@ -38,7 +38,7 @@ A source that is already a reference can be captured again on purpose. Bare -f a
 | [bob-cli-c9.3](bob-cli-c9.3.md) | The --force\[=MODE\] parser and bare -f reread | ✓ closed | large | 2026-10-25 | 1 | 0 |
 | [bob-cli-c9.4](bob-cli-c9.4.md) | In-place overwrite of unannotated references | ✓ closed | large | 2026-10-25 | 1 | 0 |
 | [bob-cli-c9.5](bob-cli-c9.5.md) | Annotated overwrite on the Mac | ✓ closed | large | 2026-10-25 | 1 | 0 |
-| [bob-cli-c9.6](bob-cli-c9.6.md) | Decision record, glossary correction, and final docs pass | ◐ in_progress | small | 2026-10-25 | 1 | 0 |
+| [bob-cli-c9.6](bob-cli-c9.6.md) | Decision record, glossary correction, and final docs pass | ✓ closed | small | 2026-10-25 | 1 | 1 |
 
 ## Lineage
 
@@ -80,7 +80,7 @@ flowchart TD
     n33["bob-cli-c9.5.1.3: Recover transactions that renamed annotated bundles [closed]"]
     n34["bob-cli-c9.5.1.4: Enable coordinated annotated overwrite [closed]"]
     n35["bob-cli-c9.5.1.5: Verify user behavior and extend Mac acceptance documentation [closed]"]
-    n36["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
+    n36["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -186,7 +186,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md) | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
 
 ## Commits
@@ -226,6 +226,7 @@ flowchart TD
 | bob-cli | [`8a1679e`](https://github.com/bobs-org/bob-cli/commit/8a1679e553009b4c939995dc231144ae92fc6ac7) | test(highlights): cover annotated overwrite refusals and Mac kit | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 2026-10-26 10:38:11 EDT |
 | bob-cli | [`38a02d7`](https://github.com/bobs-org/bob-cli/commit/38a02d7bd6342d7a431b4cebf108df53b44b12f1) | fix(highlights): resolve annotated overwrite landing findings | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 11:59:10 EDT |
 | bob-cli--plans | [`bob-cli--plans@90cb827`](https://github.com/bobs-org/bob-cli--plans/commit/90cb8277caac8adcc7a12c5b0c03e43803ff5064) | docs(plan): mark annotated overwrite complete | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 12:00:17 EDT |
+| bob-cli | [`94cd2d9`](https://github.com/bobs-org/bob-cli/commit/94cd2d9528997aa490f6c984c92e26faf18486a4) | docs(ref): record-phase glossary correction and recapture docs pass | [bob-cli-c9.6](bob-cli-c9.6.md) | 2026-10-26 12:12:45 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -238,11 +239,13 @@ flowchart TD
 | read-by | [agent:bob-cli-c9.2][3] | parent epic scope | 1 |
 | read-by | [agent:bob-cli-c9.3.1.6.land--1][4] | Confirm parent epic stays open and later phases remain in progress | 1 |
 | read-by | [agent:bob-cli-c9.5.1.3][5] | Need outer epic decisions | 1 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][6] | Confirm the outer epic remains open and unchanged after delegated phase closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.1/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.2/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
 
 <!-- sase:referenced-by:end -->

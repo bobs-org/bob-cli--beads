@@ -20,7 +20,7 @@ annotated: overwrite references that carry highlights, image selections, or .ass
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.4](bob-cli-c9.4.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.6](bob-cli-c9.6.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.6](bob-cli-c9.6.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -37,9 +37,11 @@ annotated: overwrite references that carry highlights, image selections, or .ass
 | read-by | [agent:bob-cli-c9.5.1.2--1][1] | Check for sibling coordination notes before closing its child phase | 1 |
 | read-by | [agent:bob-cli-c9.5.1.3][2] | Need parent phase decisions | 1 |
 | read-by | [agent:bob-cli-c9.5.1.4][3] | Confirm parent-phase closure requirements and remaining decision context | 1 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][4] | Verify the completed child epic and delegated phase close records, including preservation of phase note one | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.2.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/annotated_reference_overwrite.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/annotated_reference_overwrite.md
 
@@ -62,6 +62,7 @@ Linux verified the symlinked-temp regression and platform-aware refusal/cfg beha
 | read-by | [agent:bob-cli-c9.5.1.3][4] | Need parent epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-c9.5.1.4][5] | Need the epic decisions governing the annotated reference overwrite phase | 1 |
 | read-by | [agent:bob-cli-c9.5.1.5][6] | Need epic DECISIONS and remaining work for acceptance phase | 1 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][7] | Verify the landing bead scope, phase set, and prior triage before closeout | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.1/README.md
@@ -69,5 +70,6 @@ Linux verified the symlinked-temp regression and platform-aware refusal/cfg beha
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
 
 <!-- sase:referenced-by:end -->
