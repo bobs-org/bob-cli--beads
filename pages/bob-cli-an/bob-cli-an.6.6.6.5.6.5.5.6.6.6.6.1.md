@@ -27,7 +27,13 @@ Limitations: the 500 ms paired floor still matches the old isolated budget; a sl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`7b8c5dd`](https://github.com/bobs-org/bob-cli/commit/7b8c5ddb0145ef950c824e4f5d199e268abcbe35) | test(capture): make capture\_related lib perf gates load-tolerant | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1.md) | 2026-10-26 08:48:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

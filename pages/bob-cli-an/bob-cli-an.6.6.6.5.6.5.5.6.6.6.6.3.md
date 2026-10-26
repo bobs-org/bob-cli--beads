@@ -19,7 +19,7 @@ fakenode-inspect: resolve bob-cli-c7 by giving every bob-plugins ledger-tools te
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

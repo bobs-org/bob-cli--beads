@@ -17,7 +17,7 @@ blocks-line-bang-notice: resolve bob-cli-8z by making the bob-navigation-hotkeys
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -30,3 +30,15 @@ blocks-line-bang-notice: resolve bob-cli-8z by making the bob-navigation-hotkeys
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d9823d1`](https://github.com/bobs-org/bob-plugins/commit/d9823d13179828cb2ea035b5e1bbb333de6e6288) | feat(bob-navigation-hotkeys): refuse generated BLOCKS transclusion | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md) | 2026-10-26 09:00:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2--1][1] | Need the phase scope, design file, and prior work notes before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md
+
+<!-- sase:referenced-by:end -->
