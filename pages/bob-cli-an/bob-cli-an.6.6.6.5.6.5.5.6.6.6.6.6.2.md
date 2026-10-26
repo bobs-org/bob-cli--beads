@@ -30,3 +30,15 @@ popout-mark-gates: resolve bob-cli-cb by routing priority, task-tag, freshness, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@756a368`](https://github.com/bobs-org/bob-plugins/commit/756a3683fc3724d56c3e976a6c221f7daab280d9) | feat(ledger-tools): mirror priority, task-tag, freshness, and today-off mark gates into popout windows | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2.md) | 2026-10-26 12:21:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2/README.md
+
+<!-- sase:referenced-by:end -->
