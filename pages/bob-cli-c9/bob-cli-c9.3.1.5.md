@@ -30,3 +30,15 @@ collections_acceptance: enable exact URL-set collection rereads, complete help a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9923063`](https://github.com/bobs-org/bob-cli/commit/9923063e3288b15380c6da99f3d877911d6b7944) | feat(highlights): collection rereads use shared recapture preflight | [bob-cli-c9.3.1.5](bob-cli-c9.3.1.5.md) | 2026-10-25 19:16:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.5/README.md
+
+<!-- sase:referenced-by:end -->
