@@ -54,7 +54,7 @@ flowchart TD
     n11["bob-cli-c9.3.1.6.1: Locked reread recheck for audio units, full scan, and previews [closed]"]
     n12["bob-cli-c9.3.1.6.2: Identity-correct family matching and attach targets [closed]"]
     n13["bob-cli-c9.3.1.6.3: Route guards, audio, vault ordering, redirects, and parser edges [closed]"]
-    n14["bob-cli-c9.3.1.6.4: Docs, cleanup, test hardening, and acceptance evidence [in_progress]"]
+    n14["bob-cli-c9.3.1.6.4: Docs, cleanup, test hardening, and acceptance evidence [closed]"]
     n15["bob-cli-c9.4: In-place overwrite of unannotated references [in_progress]"]
     n16["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
     n17["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.3.1.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.1/README.md) | [bob-cli-c9.3.1.6.1](bob-cli-c9.3.1.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.3.1.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.2.md) | [bob-cli-c9.3.1.6.2](bob-cli-c9.3.1.6.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.3.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.3/README.md) | [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.3.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.4/README.md) | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.3.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.4/README.md) | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.3.1.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.land/README.md) | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.land.md) | [bob-cli-c9.3.1](bob-cli-c9.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4/README.md) | [bob-cli-c9.4](bob-cli-c9.4.md) | 0 |
@@ -126,6 +126,7 @@ flowchart TD
 | bob-cli | [`c192014`](https://github.com/bobs-org/bob-cli/commit/c192014eeede15b4a87079787ade257372ec575c) | fix(ref): recheck locked reread intake occupancy | [bob-cli-c9.3.1.6.1](bob-cli-c9.3.1.6.1.md) | 2026-10-25 20:00:58 EDT |
 | bob-cli | [`e35773e`](https://github.com/bobs-org/bob-cli/commit/e35773e533dc567a5f45a6bc12bb01b96b21e0d0) | fix(ref): preserve family identity for rereads | [bob-cli-c9.3.1.6.2](bob-cli-c9.3.1.6.2.md) | 2026-10-25 20:30:46 EDT |
 | bob-cli | [`d96ed41`](https://github.com/bobs-org/bob-cli/commit/d96ed412085581c4b49456c6672bd26db4fc9592) | feat(highlights-ref): add route guards for create/clip overwrite, redirect, and narrated hints | [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) | 2026-10-25 21:12:26 EDT |
+| bob-cli | [`516d7b9`](https://github.com/bobs-org/bob-cli/commit/516d7b98fe31311470d6cce1bd61dc3d81ce0665) | fix(ref): contract docs, cleanup, and reread test hardening | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 2026-10-25 21:39:53 EDT |
 
 <!-- sase:referenced-by:start -->
 

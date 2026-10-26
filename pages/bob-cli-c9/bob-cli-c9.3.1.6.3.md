@@ -18,7 +18,7 @@ route_guards: overwrite exact-output permission, narrated-reading hint, no audio
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.3.1.6.2](bob-cli-c9.3.1.6.2.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ route_guards: overwrite exact-output permission, narrated-reading hint, no audio
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d96ed41`](https://github.com/bobs-org/bob-cli/commit/d96ed412085581c4b49456c6672bd26db4fc9592) | feat(highlights-ref): add route guards for create/clip overwrite, redirect, and narrated hints | [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) | 2026-10-25 21:12:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.6.3][1] | Need full scope notes and epic symbols | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.3/README.md
+
+<!-- sase:referenced-by:end -->
