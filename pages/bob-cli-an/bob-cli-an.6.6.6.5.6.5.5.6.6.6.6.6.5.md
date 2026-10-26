@@ -30,3 +30,15 @@ tasks-query-cost: resolve bob-cli-6k by profiling the native Tasks query path, f
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f73f926`](https://github.com/bobs-org/bob-cli/commit/f73f926d72451cbaad4f5b22553c1860d3c8f490) | perf(query): avoid unused Dataview index in native Tasks queries | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.5.md) | 2026-10-26 11:30:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land.md
+
+<!-- sase:referenced-by:end -->

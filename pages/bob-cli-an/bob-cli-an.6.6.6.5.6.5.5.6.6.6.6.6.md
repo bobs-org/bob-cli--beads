@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch13_vault_integrity_and_perf_1.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch13_vault_integrity_and_perf_1.md
 
@@ -43,11 +43,13 @@ FOLLOW-UP TRIAGE: .1 note #2 (plugins sync should enforce vault ignore rules) be
 
 Epic symbols: none. No just symvision recipe. BACKLOG after this audit: 115 unresolved tasks (111 ready, including new bob-cli-ch and bob-cli-ci; 4 snoozed: 3o, 6q, aa, ah). 3o's wake time has passed and its prerequisite is re-verified: Mac hooks log shows 936 reports, all 0 legacy children, the latest at 12:45 today. 3o is actionable.
 
+[2026-10-26T16:57:08Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land] CONTINUATION: the successor batch-14 epic plan, scratch sase_plan_backlog_batch14_ledger_integrity_mac_ci_and_cleanup.md (expected archive plan:202610/backlog_batch14_ledger_integrity_mac_ci_and_cleanup.md, parent_bead this epic), is authored, validated (--explain then plain, 0 warnings), and submitted through sase plan propose right after this note. Ownership transfers to the batch-14 lander on approval. It assigns existing beads cf (fresh stamp on a Pomodoro ledger line, large), ci (red bob-mac-capture master CI since 1311536, large), 91 (named run_silent check tool, medium), 3o (retire R8 legacy-child readers; gate re-verified with 936 zero-legacy Mac hooks reports, medium), and a5 (coalesce relation-index publishes, medium). Decisions: theme_field_strip (default writers) and legacy_key (default pin). Landing commits: bob-cli 993f177a (render_frozen_note compile fix plus stray final_manifest.json removal) and plans 6e123a4 (batch-13 status done). Fresh no-limit enumeration: 115 unresolved (111 ready, 4 snoozed: 3o, 6q, aa, ah). 8r and 9x remain separate large launches.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.md) | 2 |
 
 ## Commits
 
@@ -63,7 +65,9 @@ Epic symbols: none. No just symvision recipe. BACKLOG after this audit: 115 unre
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2][1] | parent epic plan and decisions | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land][2] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land.md
 
 <!-- sase:referenced-by:end -->
