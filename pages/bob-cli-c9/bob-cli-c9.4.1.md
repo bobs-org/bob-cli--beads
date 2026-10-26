@@ -7,6 +7,20 @@
 **Created:** 2026-10-25 22:34:43 EDT
 **Plan:** [202610/unannotated\_reference\_overwrite.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/unannotated_reference_overwrite.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/unannotated_reference_overwrite.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/unannotated_reference_overwrite.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-c9.4 with task-preserving overwrite on every capture route, inert prose archives, durable crash recovery, and verified code and documentation gates.

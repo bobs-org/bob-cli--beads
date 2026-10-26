@@ -17,7 +17,7 @@ shared: extract the narrow lock, precondition, scoped-git, and rollback helpers 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-c9.4.1.2](bob-cli-c9.4.1.2.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.4.1.2](bob-cli-c9.4.1.2.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c9.4.1.3](bob-cli-c9.4.1.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents

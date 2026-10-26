@@ -33,3 +33,15 @@ recovery: implement durable overwrite intents and scoped HEAD recovery before cr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`07d5a18`](https://github.com/bobs-org/bob-cli/commit/07d5a18d1057e337a969e71741bc756a964c519f) | feat(highlights-ref): durable overwrite-intent lifecycle with recovery | [bob-cli-c9.4.1.3](bob-cli-c9.4.1.3.md) | 2026-10-25 23:29:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->
