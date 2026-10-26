@@ -13,7 +13,7 @@ code-cmd: add the read-only bob ref code command (human, json, markdown, raw, pa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-cc.3](bob-cli-cc.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-cc.3](bob-cli-cc.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-cc.6](bob-cli-cc.6.md) ◐ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-cc.8](bob-cli-cc.8.md) ◐ · ⧖ 2026-10-26
 

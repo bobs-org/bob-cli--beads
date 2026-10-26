@@ -30,7 +30,7 @@ While reading a bob-rendered reference in Highlights, Command-Y C Return puts th
 | [bob-cli-cc.1](bob-cli-cc.1.md) | Keep bob's note walkers out of .bob | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-cc.10](bob-cli-cc.10.md) | Decision records | ◐ in_progress | xsmall | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.2](bob-cli-cc.2.md) | Render-time code catalog on both pandoc routes | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-cc.3](bob-cli-cc.3.md) | Write-once source store and the source\_markdown pointer | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-cc.3](bob-cli-cc.3.md) | Write-once source store and the source\_markdown pointer | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-cc.4](bob-cli-cc.4.md) | bob ref code read surface | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.5](bob-cli-cc.5.md) | Overwrite repointing and the doctor sources check | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.6](bob-cli-cc.6.md) | Verified attach of existing references' sources | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
@@ -46,7 +46,7 @@ flowchart TD
     n1["bob-cli-cc.1: Keep bob's note walkers out of .bob [closed]"]
     n2["bob-cli-cc.10: Decision records [in_progress]"]
     n3["bob-cli-cc.2: Render-time code catalog on both pandoc routes [closed]"]
-    n4["bob-cli-cc.3: Write-once source store and the source_markdown pointer [in_progress]"]
+    n4["bob-cli-cc.3: Write-once source store and the source_markdown pointer [closed]"]
     n5["bob-cli-cc.4: bob ref code read surface [in_progress]"]
     n6["bob-cli-cc.5: Overwrite repointing and the doctor sources check [in_progress]"]
     n7["bob-cli-cc.6: Verified attach of existing references' sources [in_progress]"]
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-cc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.1/README.md) | [bob-cli-cc.1](bob-cli-cc.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.10/README.md) | [bob-cli-cc.10](bob-cli-cc.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.2.md) | [bob-cli-cc.2](bob-cli-cc.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-cc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md) | [bob-cli-cc.3](bob-cli-cc.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md) | [bob-cli-cc.3](bob-cli-cc.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.4/README.md) | [bob-cli-cc.4](bob-cli-cc.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md) | [bob-cli-cc.5](bob-cli-cc.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.6/README.md) | [bob-cli-cc.6](bob-cli-cc.6.md) | 0 |
@@ -98,3 +98,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`01f7ec9`](https://github.com/bobs-org/bob-cli/commit/01f7ec972ccbe499ca46dc1e377023c0c32bdf92) | fix(vault): keep note walkers out of .bob | [bob-cli-cc.1](bob-cli-cc.1.md) | 2026-10-26 09:20:31 EDT |
 | bob-cli | [`c7ced49`](https://github.com/bobs-org/bob-cli/commit/c7ced497d875f5c569d1a324ca9ac5a59a6e49eb) | feat(highlights-ref): build render-time code catalog | [bob-cli-cc.2](bob-cli-cc.2.md) | 2026-10-26 10:32:44 EDT |
+| bob-cli | [`009060f`](https://github.com/bobs-org/bob-cli/commit/009060f9b4b2b09f67c1d7754a23c9c64923a412) | feat(highlights-ref): write-once source store and source\_markdown pointer | [bob-cli-cc.3](bob-cli-cc.3.md) | 2026-10-26 11:18:37 EDT |

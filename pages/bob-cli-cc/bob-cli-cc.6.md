@@ -13,7 +13,7 @@ attach: add bob ref attach-source, which finds same-stem Markdown candidates, ve
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-cc.3](bob-cli-cc.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-cc.3](bob-cli-cc.3.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-cc.4](bob-cli-cc.4.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

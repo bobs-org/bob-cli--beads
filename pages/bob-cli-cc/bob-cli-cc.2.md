@@ -17,7 +17,7 @@ catalog: add the two-pass code-catalog Lua filter, invisible per-block PDF ancho
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-cc.3](bob-cli-cc.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cc.3](bob-cli-cc.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -30,3 +30,15 @@ catalog: add the two-pass code-catalog Lua filter, invisible per-block PDF ancho
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c7ced49`](https://github.com/bobs-org/bob-cli/commit/c7ced497d875f5c569d1a324ca9ac5a59a6e49eb) | feat(highlights-ref): build render-time code catalog | [bob-cli-cc.2](bob-cli-cc.2.md) | 2026-10-26 10:32:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-cc.2--4][1] | Confirm the assigned phase closed before final declaration | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.2.md
+
+<!-- sase:referenced-by:end -->

@@ -17,7 +17,7 @@ walkers: add .bob to the always-excluded note directories so task archive, link 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-cc.3](bob-cli-cc.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cc.3](bob-cli-cc.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
