@@ -47,13 +47,14 @@ Epic symbols: none. No just symvision recipe. BACKLOG after this audit: 115 unre
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`993f177`](https://github.com/bobs-org/bob-cli/commit/993f177aa7637ae13d6f5955b5013d797a958729) | fix(highlights-ref): drop stale render\_frozen\_note args from source pointer test | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.md) | 2026-10-26 12:54:43 EDT |
+| bob-cli--plans | [`bob-cli--plans@6e123a4`](https://github.com/bobs-org/bob-cli--plans/commit/6e123a4cad7bd26a8c6a6fcd490b33ea1a9be671) | chore(plans): mark backlog batch 13 epic plan done | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.md) | 2026-10-26 12:56:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
