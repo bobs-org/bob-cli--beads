@@ -13,7 +13,7 @@ mac-ui: fetch links beside code when the Copy card opens, draw the L row, the li
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ct.4](bob-cli-ct.4.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ct.4](bob-cli-ct.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

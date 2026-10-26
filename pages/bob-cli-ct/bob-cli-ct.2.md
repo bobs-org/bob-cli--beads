@@ -21,7 +21,7 @@ links-cmd: add the read-only `bob ref links <REF> [N]` command (human, json, mar
 
 - **Depends on:** [bob-cli-ct.1](bob-cli-ct.1.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ct.3](bob-cli-ct.3.md) ◐ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ct.4](bob-cli-ct.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ct.4](bob-cli-ct.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -34,3 +34,15 @@ links-cmd: add the read-only `bob ref links <REF> [N]` command (human, json, mar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`82716a6`](https://github.com/bobs-org/bob-cli/commit/82716a6444e15457cbf432fd08636e2dcce0ea86) | feat(ref): add bob ref links read surface | [bob-cli-ct.2](bob-cli-ct.2.md) | 2026-10-26 16:53:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ct.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ct.2.md
+
+<!-- sase:referenced-by:end -->
