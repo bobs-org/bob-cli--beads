@@ -21,7 +21,7 @@ store: persist source.md plus code.json under .bob/ref-sources at create time, r
 - **Depends on:** [bob-cli-cc.2](bob-cli-cc.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-cc.4](bob-cli-cc.4.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-cc.5](bob-cli-cc.5.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-cc.6](bob-cli-cc.6.md) ○ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cc.6](bob-cli-cc.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

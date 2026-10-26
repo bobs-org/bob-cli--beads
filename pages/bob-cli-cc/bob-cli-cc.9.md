@@ -34,13 +34,7 @@ Not verified: live Highlights ⌘Y C ↵ vs bob ref code paste (no GUI session).
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@c7a5f37`](https://github.com/bobs-org/bob-mac-capture/commit/c7a5f372f104e3252e47d65d605d1d297aebbdc7) | feat(refs): wire Copy card code picker and preview well | [bob-cli-cc.9](bob-cli-cc.9.md) | 2026-10-26 13:05:19 EDT |
+| [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -49,7 +43,9 @@ Not verified: live Highlights ⌘Y C ↵ vs bob ref code paste (no GUI session).
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land][1] | Check whether ref code/source_store test failures are already recorded | 1 |
+| read-by | [agent:bob-cli-cc.9][2] | Need the phase scope and design file | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md
 
 <!-- sase:referenced-by:end -->

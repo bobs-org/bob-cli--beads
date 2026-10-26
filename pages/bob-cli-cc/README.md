@@ -46,6 +46,8 @@ Totals: lib 3617 passed / 3 failed / 1 ignored; cli 2227 passed / 1 failed; all 
 
 [2026-10-26T16:53:15Z · bob-cli-c9.land] DISCOVERED ISSUE (from bob-cli-c9.land; includes bob-cli-c9.6 PROPOSED FOLLOW-UP note 1): master just check and docs-check are red from this epic's phases, reproduced on 5e8c6ecd on athena and in CI runs 40351653996/40356912584 (ubuntu+macOS). (1) cc.4 fb28faa1 'bob ref code': native::completion::kinds::tests::every_value_arg_has_a_decision ('value-taking args without a kinds decision: ["ref code:number", "ref code:page"]'), native::catalog::tests::public_leaves_are_entries_or_excluded ('public leaf ["ref", "code"] is neither an entry nor excluded'), and tests/cli help::ref_help_matches_grouped_snapshot (the grouped bob ref help now lists 'code' and a 'bob ref code ea_graph 2 | pbcopy' example; snapshot not updated). (2) cc.5 a6d3ecbf: source_store::tests::inspect_reports_dangling_mismatch_missing_orphan_and_history fails deterministically in isolation (health.saved 1 vs expected 2, 'saved + missing-catalog source.md'). (3) cc.3 009060f9: just docs-check lint fails 'src/native/highlights_ref/source_store.rs:185: undocumented production environment name BOB_TEST_FIXTURE_PDF; document it in docs/reference/configuration.md or add a reasoned exact exception' (lint stops docs-check before later gates). Also FYI, already fixed by bob-cli-c9.land in its landing commit: a6d3ecbf's new overwrite.rs unit test called render_frozen_note with the old 10-argument signature (bob-cli-c9.5.1 landing 38a02d7b cut it to 8), so lib tests and clippy --all-targets did not compile; the call now drops the ref_type/stem arguments.
 
+[2026-10-26T17:07:57Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2] Coordination from mac-refs-ci-red phase bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2: planning a bounded fix for bob-cli-ci in RefsPanelModel and its tests. Read cc.7-cc.9 status and fetched c7a5f37; those changes do not fix the two identified model defects (content sink rereads old @Published storage; libraryDidPublish drops RefsTabsListing.currentID). Your Copy restore test at d8a828f has the same invalid setup as the Tabs restore test: query keep + scope papers excludes ref/chat/small_reading.md, so select returns false before session capture. Our phase will fix the Tabs fixture, leave Copy-specific edits to cc, and preserve the new code picker paths. Please repair the Copy fixture using a matching nonempty query/scope and retain exact restored-selection assertions; no timeout or selection-guard relaxation is needed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -56,10 +58,10 @@ Totals: lib 3617 passed / 3 failed / 1 ignored; cli 2227 passed / 1 failed; all 
 | [bob-cli-cc.3](bob-cli-cc.3.md) | Write-once source store and the source\_markdown pointer | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-cc.4](bob-cli-cc.4.md) | bob ref code read surface | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-cc.5](bob-cli-cc.5.md) | Overwrite repointing and the doctor sources check | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-cc.6](bob-cli-cc.6.md) | Verified attach of existing references' sources | ○ open | medium | 2026-10-26 | 1 | 0 |
-| [bob-cli-cc.7](bob-cli-cc.7.md) | Command-Y takeover in Highlights and type-ahead | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-cc.8](bob-cli-cc.8.md) | RefsCore code catalog, C and M rows, and the code picker model | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-cc.9](bob-cli-cc.9.md) | Code picker, preview well, and panel wiring | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [bob-cli-cc.6](bob-cli-cc.6.md) | Verified attach of existing references' sources | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [bob-cli-cc.7](bob-cli-cc.7.md) | Command-Y takeover in Highlights and type-ahead | ✓ closed | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-cc.8](bob-cli-cc.8.md) | RefsCore code catalog, C and M rows, and the code picker model | ✓ closed | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-cc.9](bob-cli-cc.9.md) | Code picker, preview well, and panel wiring | ✓ closed | medium | 2026-10-26 | 1 | 0 |
 
 ## Lineage
 
@@ -72,7 +74,7 @@ flowchart TD
     n4["bob-cli-cc.3: Write-once source store and the source_markdown pointer [closed]"]
     n5["bob-cli-cc.4: bob ref code read surface [closed]"]
     n6["bob-cli-cc.5: Overwrite repointing and the doctor sources check [closed]"]
-    n7["bob-cli-cc.6: Verified attach of existing references' sources [open]"]
+    n7["bob-cli-cc.6: Verified attach of existing references' sources [closed]"]
     n8["bob-cli-cc.7: Command-Y takeover in Highlights and type-ahead [closed]"]
     n9["bob-cli-cc.8: RefsCore code catalog, C and M rows, and the code picker model [closed]"]
     n10["bob-cli-cc.9: Code picker, preview well, and panel wiring [closed]"]
@@ -109,10 +111,10 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-cc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md) | [bob-cli-cc.3](bob-cli-cc.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.4/README.md) | [bob-cli-cc.4](bob-cli-cc.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md) | [bob-cli-cc.5](bob-cli-cc.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-cc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.6/README.md) | [bob-cli-cc.6](bob-cli-cc.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-cc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.7/README.md) | [bob-cli-cc.7](bob-cli-cc.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-cc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.8.md) | [bob-cli-cc.8](bob-cli-cc.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 1 |
+| [bbugyi200.athena.bob-cli-cc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.6/README.md) | [bob-cli-cc.6](bob-cli-cc.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-cc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.7/README.md) | [bob-cli-cc.7](bob-cli-cc.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.8.md) | [bob-cli-cc.8](bob-cli-cc.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.land/README.md) | [bob-cli-cc](README.md) | 0 |
 
 ## Commits
@@ -120,13 +122,11 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`01f7ec9`](https://github.com/bobs-org/bob-cli/commit/01f7ec972ccbe499ca46dc1e377023c0c32bdf92) | fix(vault): keep note walkers out of .bob | [bob-cli-cc.1](bob-cli-cc.1.md) | 2026-10-26 09:20:31 EDT |
-| bob-mac-capture | [`bob-mac-capture@7b9bbdd`](https://github.com/bobs-org/bob-mac-capture/commit/7b9bbddabfd2b3368bb77287842e045f677cabb7) | feat(refs): Command-Y takeover opens the Copy card from Highlights | [bob-cli-cc.7](bob-cli-cc.7.md) | 2026-10-26 09:53:32 EDT |
 | bob-cli | [`c7ced49`](https://github.com/bobs-org/bob-cli/commit/c7ced497d875f5c569d1a324ca9ac5a59a6e49eb) | feat(highlights-ref): build render-time code catalog | [bob-cli-cc.2](bob-cli-cc.2.md) | 2026-10-26 10:32:44 EDT |
 | bob-cli | [`009060f`](https://github.com/bobs-org/bob-cli/commit/009060f9b4b2b09f67c1d7754a23c9c64923a412) | feat(highlights-ref): write-once source store and source\_markdown pointer | [bob-cli-cc.3](bob-cli-cc.3.md) | 2026-10-26 11:18:37 EDT |
 | bob-cli | [`fb28faa`](https://github.com/bobs-org/bob-cli/commit/fb28faa1af7094601f2762a03ff681301a836d50) | feat(ref): add saved code catalog read command | [bob-cli-cc.4](bob-cli-cc.4.md) | 2026-10-26 11:40:34 EDT |
-| bob-mac-capture | [`bob-mac-capture@d8a828f`](https://github.com/bobs-org/bob-mac-capture/commit/d8a828f173182f7084a1bc40ec276434287873b1) | feat(refs): add code picker and catalog models | [bob-cli-cc.8](bob-cli-cc.8.md) | 2026-10-26 12:20:36 EDT |
 | bob-cli | [`a6d3ecb`](https://github.com/bobs-org/bob-cli/commit/a6d3ecbfd4743f2aa9e44e49e9b5bba282f41fec) | feat(highlights-ref): overwrite source store and doctor ref sources | [bob-cli-cc.5](bob-cli-cc.5.md) | 2026-10-26 12:21:15 EDT |
-| bob-mac-capture | [`bob-mac-capture@c7a5f37`](https://github.com/bobs-org/bob-mac-capture/commit/c7a5f372f104e3252e47d65d605d1d297aebbdc7) | feat(refs): wire Copy card code picker and preview well | [bob-cli-cc.9](bob-cli-cc.9.md) | 2026-10-26 13:05:19 EDT |
+| bob-cli | [`36ae0ef`](https://github.com/bobs-org/bob-cli/commit/36ae0ef0ae4fe4fd49b6916eb04431a2738f4eab) | feat(ref): add bob ref attach-source with text-verified sources | [bob-cli-cc.6](bob-cli-cc.6.md) | 2026-10-26 13:14:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
