@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/unannotated_reference_overwrite.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/unannotated_reference_overwrite.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-c9.4 with task-preserving overwrite on every capture route, ine
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.4.1.1][1] | Need parent epic DECISIONS and phase list for shared primitives work | 1 |
+| read-by | [agent:bob-cli-c9.4.1.4][2] | Need the child epic decisions governing the transaction phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->

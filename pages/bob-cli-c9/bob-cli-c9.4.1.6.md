@@ -13,7 +13,7 @@ web: connect article, saved-HTML, PDF-URL, and arXiv capture to the same staged 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) ◐ · ⧖ 2026-10-25
 
 ## Agents
