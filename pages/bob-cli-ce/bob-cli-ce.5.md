@@ -21,7 +21,7 @@ runner: create the desktop-only bob-command-mode plugin with a bob resolver, chi
 
 - **Depends on:** [bob-cli-ce.2](bob-cli-ce.2.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-ce.3](bob-cli-ce.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.6](bob-cli-ce.6.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.6](bob-cli-ce.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -34,3 +34,15 @@ runner: create the desktop-only bob-command-mode plugin with a bob resolver, chi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7d005fb`](https://github.com/bobs-org/bob-plugins/commit/7d005fb6373987fbda4368093e58adb840c1e190) | feat(command-mode): add bob-command-mode run engine, catalog, runner and docs | [bob-cli-ce.5](bob-cli-ce.5.md) | 2026-10-26 12:04:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.5][1] | check remaining work and notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.5/README.md
+
+<!-- sase:referenced-by:end -->

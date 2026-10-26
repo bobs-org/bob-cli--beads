@@ -34,7 +34,7 @@ Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command s
 | [bob-cli-ce.3](bob-cli-ce.3.md) | Color, progress, and exit receipts for non-TTY runs | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.4](bob-cli-ce.4.md) | Theme-name and relation-label completion providers | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.5](bob-cli-ce.5.md) | bob-command-mode plugin scaffold and run engine | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-ce.6](bob-cli-ce.6.md) | Toasts, status chip, outcome adapters, and OS notifications | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-ce.6](bob-cli-ce.6.md) | Toasts, status chip, outcome adapters, and OS notifications | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.7](bob-cli-ce.7.md) | Output pager and run history | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.8](bob-cli-ce.8.md) | The bottom command sheet | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.9](bob-cli-ce.9.md) | Argument mode, typed runs, Vim routing, and binding the colon key | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
@@ -51,7 +51,7 @@ flowchart TD
     n5["bob-cli-ce.3: Color, progress, and exit receipts for non-TTY runs [closed]"]
     n6["bob-cli-ce.4: Theme-name and relation-label completion providers [closed]"]
     n7["bob-cli-ce.5: bob-command-mode plugin scaffold and run engine [closed]"]
-    n8["bob-cli-ce.6: Toasts, status chip, outcome adapters, and OS notifications [in_progress]"]
+    n8["bob-cli-ce.6: Toasts, status chip, outcome adapters, and OS notifications [closed]"]
     n9["bob-cli-ce.7: Output pager and run history [in_progress]"]
     n10["bob-cli-ce.8: The bottom command sheet [in_progress]"]
     n11["bob-cli-ce.9: Argument mode, typed runs, Vim routing, and binding the colon key [in_progress]"]
@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ce.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.3/README.md) | [bob-cli-ce.3](bob-cli-ce.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.4/README.md) | [bob-cli-ce.4](bob-cli-ce.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.5/README.md) | [bob-cli-ce.5](bob-cli-ce.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-ce.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.6/README.md) | [bob-cli-ce.6](bob-cli-ce.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-ce.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.6/README.md) | [bob-cli-ce.6](bob-cli-ce.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.7/README.md) | [bob-cli-ce.7](bob-cli-ce.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.8/README.md) | [bob-cli-ce.8](bob-cli-ce.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.9/README.md) | [bob-cli-ce.9](bob-cli-ce.9.md) | 0 |
@@ -105,3 +105,4 @@ flowchart TD
 | bob-cli | [`0bec19d`](https://github.com/bobs-org/bob-cli/commit/0bec19d89ec994ac957c22f024aeefc09eeb36f9) | feat(catalog): add hidden bob \_\_catalog --protocol 1 handshake | [bob-cli-ce.2](bob-cli-ce.2.md) | 2026-10-26 11:12:33 EDT |
 | bob-cli | [`b5ba95c`](https://github.com/bobs-org/bob-cli/commit/b5ba95c96ec51418ad312e5e1b4e1fa71bb2753c) | feat(cli): honor color, progress, and exit receipts without a TTY | [bob-cli-ce.3](bob-cli-ce.3.md) | 2026-10-26 11:35:54 EDT |
 | bob-plugins | [`bob-plugins@7d005fb`](https://github.com/bobs-org/bob-plugins/commit/7d005fb6373987fbda4368093e58adb840c1e190) | feat(command-mode): add bob-command-mode run engine, catalog, runner and docs | [bob-cli-ce.5](bob-cli-ce.5.md) | 2026-10-26 12:04:45 EDT |
+| bob-plugins | [`bob-plugins@90eb3c0`](https://github.com/bobs-org/bob-plugins/commit/90eb3c076039f867e679394d3aa88b5a31fd3fa1) | feat(bob-command-mode): add run feedback and rerun controls | [bob-cli-ce.6](bob-cli-ce.6.md) | 2026-10-26 12:31:35 EDT |
