@@ -70,7 +70,13 @@ flowchart TD
     n27["bob-cli-c9.4.1.9.2: Preserve task alias, user fields, and audio; align output and docs [closed]"]
     n28["bob-cli-c9.4.1.9.3: Harden the overwrite transaction and prove it with failpoints [closed]"]
     n29["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
-    n30["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
+    n30["bob-cli-c9.5.1: Annotated reference overwrite on the Mac [in_progress]"]
+    n31["bob-cli-c9.5.1.1: Plan annotated archives and selective highlight links [closed]"]
+    n32["bob-cli-c9.5.1.2: Hold scans that encounter a replaced annotated PDF [in_progress]"]
+    n33["bob-cli-c9.5.1.3: Recover transactions that renamed annotated bundles [in_progress]"]
+    n34["bob-cli-c9.5.1.4: Enable coordinated annotated overwrite [in_progress]"]
+    n35["bob-cli-c9.5.1.5: Verify user behavior and extend Mac acceptance documentation [in_progress]"]
+    n36["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -100,7 +106,13 @@ flowchart TD
     n25 --> n27
     n25 --> n28
     n0 --> n29
-    n0 --> n30
+    n29 --> n30
+    n30 --> n31
+    n30 --> n32
+    n30 --> n33
+    n30 --> n34
+    n30 --> n35
+    n0 --> n36
     n1 -.-> n3
     n2 -.-> n3
     n3 -.-> n15
@@ -122,7 +134,13 @@ flowchart TD
     n23 -.-> n24
     n26 -.-> n27
     n27 -.-> n28
-    n29 -.-> n30
+    n29 -.-> n36
+    n31 -.-> n32
+    n31 -.-> n33
+    n31 -.-> n34
+    n32 -.-> n34
+    n33 -.-> n34
+    n34 -.-> n35
 ```
 
 ## Agents
@@ -157,7 +175,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.4.1.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.3/README.md) | [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.9.land.md) | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 2 |
 | [bbugyi200.athena.bob-cli-c9.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.land.md) | [bob-cli-c9.4.1](bob-cli-c9.4.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-c9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5/README.md) | [bob-cli-c9.5](bob-cli-c9.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.md) | [bob-cli-c9.5](bob-cli-c9.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.1/README.md) | [bob-cli-c9.5.1.1](bob-cli-c9.5.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.2/README.md) | [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md) | [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md) | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.land/README.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
 
@@ -191,6 +215,7 @@ flowchart TD
 | bob-cli | [`66f9d67`](https://github.com/bobs-org/bob-cli/commit/66f9d67f6573048b76a1d34274a95e7fc4b438c2) | fix(highlights): harden overwrite recovery, selection recheck, and failpoints | [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) | 2026-10-26 06:26:32 EDT |
 | bob-cli | [`4ee76d1`](https://github.com/bobs-org/bob-cli/commit/4ee76d114ab76a912350cf62bbe2acea29d87fd7) | fix(highlights): repair overwrite identity, narration, selection, and rollback proof | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 2026-10-26 07:27:34 EDT |
 | bob-cli--plans | [`bob-cli--plans@f749cce`](https://github.com/bobs-org/bob-cli--plans/commit/f749cce3c55cf2fdaa7e2b87d1396b2be628a783) | docs(plans): mark overwrite landing and unannotated plans done | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 2026-10-26 07:28:17 EDT |
+| bob-cli | [`e482520`](https://github.com/bobs-org/bob-cli/commit/e482520841bdc4939290066569d0972f41538287) | feat(ref): plan annotated overwrite archives and highlight links | [bob-cli-c9.5.1.1](bob-cli-c9.5.1.1.md) | 2026-10-26 08:11:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
