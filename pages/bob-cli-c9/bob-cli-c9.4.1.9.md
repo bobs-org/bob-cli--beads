@@ -37,10 +37,11 @@ Close the contract gaps and transaction-safety gaps the bob-cli-c9.4.1 land revi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-c9.4.1.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.9.land.md) | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.4.1.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.9.land.md) | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4ee76d1`](https://github.com/bobs-org/bob-cli/commit/4ee76d114ab76a912350cf62bbe2acea29d87fd7) | fix(highlights): repair overwrite identity, narration, selection, and rollback proof | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 2026-10-26 07:27:34 EDT |
+| bob-cli--plans | [`bob-cli--plans@f749cce`](https://github.com/bobs-org/bob-cli--plans/commit/f749cce3c55cf2fdaa7e2b87d1396b2be628a783) | docs(plans): mark overwrite landing and unannotated plans done | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 2026-10-26 07:28:17 EDT |
