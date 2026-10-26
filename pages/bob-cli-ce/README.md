@@ -35,7 +35,7 @@ Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command s
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ce.1](bob-cli-ce.1.md) | Make the colon key safe and keep the new plugin out of vault git | ✓ closed | small | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.10](bob-cli-ce.10.md) | Move Snapshot to Highlights onto the runner and refresh ledger caches | ✓ closed | small | 2026-10-26 | 1 | 1 |
-| [bob-cli-ce.11](bob-cli-ce.11.md) | Guide, reference polish, and end-to-end verification | ✓ closed | small | 2026-10-26 | 1 | 1 |
+| [bob-cli-ce.11](bob-cli-ce.11.md) | Guide, reference polish, and end-to-end verification | ✓ closed | small | 2026-10-26 | 1 | 2 |
 | [bob-cli-ce.2](bob-cli-ce.2.md) | bob \_\_catalog --protocol 1 | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.3](bob-cli-ce.3.md) | Color, progress, and exit receipts for non-TTY runs | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.4](bob-cli-ce.4.md) | Theme-name and relation-label completion providers | ✓ closed | small | 2026-10-26 | 1 | 1 |
@@ -92,7 +92,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ce.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.1/README.md) | [bob-cli-ce.1](bob-cli-ce.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.10/README.md) | [bob-cli-ce.10](bob-cli-ce.10.md) | 1 |
-| [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 1 |
+| [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 2 |
 | [bbugyi200.athena.bob-cli-ce.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.2/README.md) | [bob-cli-ce.2](bob-cli-ce.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.3/README.md) | [bob-cli-ce.3](bob-cli-ce.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.4/README.md) | [bob-cli-ce.4](bob-cli-ce.4.md) | 1 |
@@ -117,6 +117,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5790364`](https://github.com/bobs-org/bob-plugins/commit/5790364b047a5133634682d0e5aed45443715357) | feat(command-mode): add the bottom command sheet | [bob-cli-ce.8](bob-cli-ce.8.md) | 2026-10-26 13:21:24 EDT |
 | bob-plugins | [`bob-plugins@6f8f1c5`](https://github.com/bobs-org/bob-plugins/commit/6f8f1c5c93edec5c2d82d41b3bc6d49760aff302) | feat(command-mode): add argument and Vim routing | [bob-cli-ce.9](bob-cli-ce.9.md) | 2026-10-26 14:06:09 EDT |
 | bob-cli | [`60eb781`](https://github.com/bobs-org/bob-cli/commit/60eb781228f9c5be0053213f4be3e90cd9505c4f) | docs(command-mode): add Obsidian usage guide | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:26:38 EDT |
+| bob-plugins | [`bob-plugins@6b1b6ec`](https://github.com/bobs-org/bob-plugins/commit/6b1b6ec9ebdd1013408692325fbe0a742d30acac) | docs(command-mode): complete plugin reference and API | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:27:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

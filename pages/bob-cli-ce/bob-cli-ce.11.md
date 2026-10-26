@@ -26,10 +26,11 @@ docs-land: write the "Run bob from Obsidian" guide, finish the plugin reference 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 1 |
+| [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`60eb781`](https://github.com/bobs-org/bob-cli/commit/60eb781228f9c5be0053213f4be3e90cd9505c4f) | docs(command-mode): add Obsidian usage guide | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:26:38 EDT |
+| bob-plugins | [`bob-plugins@6b1b6ec`](https://github.com/bobs-org/bob-plugins/commit/6b1b6ec9ebdd1013408692325fbe0a742d30acac) | docs(command-mode): complete plugin reference and API | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:27:43 EDT |
