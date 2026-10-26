@@ -28,7 +28,7 @@ Under Worked, Reviewed, Done, and Created, every Day strip shows one quiet line 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-cn.1](bob-cli-cn.1.md) | bob stats — additive \`typical\` object on day-grouped count and minutes points | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-cn.2](bob-cli-cn.2.md) | Day strip — paint bob's typical line under the four numeric facts | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [bob-cli-cn.2](bob-cli-cn.2.md) | Day strip — paint bob's typical line under the four numeric facts | ✓ closed | medium | 2026-10-26 | 1 | 2 |
 | [bob-cli-cn.3](bob-cli-cn.3.md) | Decision record, Day Strip glossary strand, bead bob-cli-bs, three-week check | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +51,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-cn.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.1/README.md) | [bob-cli-cn.1](bob-cli-cn.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-cn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.2/README.md) | [bob-cli-cn.2](bob-cli-cn.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-cn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.2/README.md) | [bob-cli-cn.2](bob-cli-cn.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-cn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.3/README.md) | [bob-cli-cn.3](bob-cli-cn.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-cn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.land/README.md) | [bob-cli-cn](README.md) | 0 |
 
@@ -61,3 +61,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`3f41764`](https://github.com/bobs-org/bob-cli/commit/3f417646f1c65db71ea86106906a0184b5908b03) | feat(stats): add typical day to daily points | [bob-cli-cn.1](bob-cli-cn.1.md) | 2026-10-26 14:00:55 EDT |
 | bob-cli | [`bd9c7a8`](https://github.com/bobs-org/bob-cli/commit/bd9c7a8c5b061c64b2f14d1f601f7c4d64358cf4) | docs(stats): describe the Day strip typical line | [bob-cli-cn.2](bob-cli-cn.2.md) | 2026-10-26 14:32:15 EDT |
+| bob-plugins | [`bob-plugins@cc5d045`](https://github.com/bobs-org/bob-plugins/commit/cc5d045b350edad0cd6d7dec47bb3df7096919c0) | feat(day-strip): show each fact's typical day | [bob-cli-cn.2](bob-cli-cn.2.md) | 2026-10-26 14:33:08 EDT |
