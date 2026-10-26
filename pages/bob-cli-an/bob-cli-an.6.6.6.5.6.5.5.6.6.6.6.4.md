@@ -25,10 +25,11 @@ day-strip-new-tab: resolve bob-cli-c6 by making openStatsForDay skip the reuse b
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3633a10`](https://github.com/bobs-org/bob-cli/commit/3633a10a51dbaa0c5d05f2509ec3f9806b98b045) | docs(stats): clarify Day strip new-tab behavior | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) | 2026-10-26 09:15:40 EDT |
+| bob-plugins | [`bob-plugins@8866540`](https://github.com/bobs-org/bob-plugins/commit/886654034dd7a32f6553706dc8b6f2b94f25e950) | feat(day-strip): honor modified clicks for new Stats tabs | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) | 2026-10-26 09:17:06 EDT |
