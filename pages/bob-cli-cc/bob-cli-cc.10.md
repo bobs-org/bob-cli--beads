@@ -33,3 +33,17 @@ records: author the two decisions-web records for the write-once source store an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a170b1b`](https://github.com/bobs-org/bob-cli/commit/a170b1b363d5357a68ea257331cde27ef547c33b) | docs(memory): record reference source and code catalog decisions | [bob-cli-cc.10](bob-cli-cc.10.md) | 2026-10-26 13:32:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2--4][1] | Confirm the existing owner note for the clean-base StoreWriteParams verified-field compile failure | 1 |
+| read-by | [agent:bob-cli-cc.10][2] | Verify the phase close and final note | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.10/README.md
+
+<!-- sase:referenced-by:end -->

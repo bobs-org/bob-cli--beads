@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-cc
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5b.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.5b.linker.w0.md) · **Assignee:** `bob-cli-cc.land`
-**Created:** 2026-10-26 09:00:55 EDT
+**Created:** 2026-10-26 09:00:55 EDT · **Closed:** 2026-10-26 15:10:32 EDT
 **Plan:** [202610/ref\_code\_block\_copy.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_code_block_copy.md)
 
 <!-- sase:links:start -->
@@ -15,11 +15,13 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_code_block_copy.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-ci][2] | Active epic cc's Mac phases (cc.7-cc.9) touch the same RefsPanelModel Highlights paths; cc.7's new Copy test also fails |
+| related | [bead:bob-cli-co][3] | Epic that shipped bob ref attach-source and ran the first backfill pass (phase bob-cli-cc.6) |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_code_block_copy.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ci/README.md
+[3]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-co/README.md
 
 <!-- sase:links:end -->
 
@@ -48,6 +50,16 @@ Totals: lib 3617 passed / 3 failed / 1 ignored; cli 2227 passed / 1 failed; all 
 
 [2026-10-26T17:07:57Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2] Coordination from mac-refs-ci-red phase bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2: planning a bounded fix for bob-cli-ci in RefsPanelModel and its tests. Read cc.7-cc.9 status and fetched c7a5f37; those changes do not fix the two identified model defects (content sink rereads old @Published storage; libraryDidPublish drops RefsTabsListing.currentID). Your Copy restore test at d8a828f has the same invalid setup as the Tabs restore test: query keep + scope papers excludes ref/chat/small_reading.md, so select returns false before session capture. Our phase will fix the Tabs fixture, leave Copy-specific edits to cc, and preserve the new code picker paths. Please repair the Copy fixture using a matching nonempty query/scope and retain exact restored-selection assertions; no timeout or selection-guard relaxation is needed.
 
+[2026-10-26T18:10:00Z · bob-cli-cc.land] LANDER FOLLOW-UP TRIAGE (bob-cli-cc.land): (1) BOB_TEST_FIXTURE_PDF docs lint, proposed by cc.5 #2, cc.6 #3, cc.9 #1: caused by this epic (cc.3). Fixed in the landing with a reasoned exact exception in docs/_meta/environment_ignore.yml, so no task was filed. (2) completion-kinds and catalog lib-test gaps, proposed by cc.6 #2: caused by this epic (cc.4, cc.6). Fixed in the landing with kinds entries for ref code number/page, a catalog ref-code report entry, and an attach-source exclusion for the concurrent bob-cli-ce __catalog contract. No task filed. (3) StoreWriteParams missing 'verified' compile break, proposed by cc.10 #1: caused by this epic (the cc.5 and cc.6 phases raced). Fixed in the landing, no task filed. (4) Copy-card word budget at 5998/6000, from cc.9 #1: declined. The budget is not exceeded, and the budget gate exists to stop the next overrun. (5) 47 ambiguous and 35 title-mismatch attach-source skips, proposed by cc.6 #4: a distinct follow-up that is new scope, filed as bob-cli-co (feature, medium). (6) Epic notes #1 and #3: fixed in the landing, and the help snapshot was already green. Epic notes #2 and #4 (the cc.7 Copy restore XCTest fixture): this is epic work, planned in the landing tale.
+
+[2026-10-26T18:56:28Z · bob-cli-cn.land] DISCOVERED ISSUE / cn landing follow-up triage: bob-cli-cn.1 #3, cn.2 #2, and cn.3 #3 independently proposed the same BOB_TEST_FIXTURE_PDF docs lint. Reproduced by this lander on clean master c4922e66: just docs-check exits 1 at src/native/highlights_ref/source_store.rs:194, undocumented production environment name. This originates in cc.3/009060f9, so no separate task was filed. Your landing note #5 says an exact environment_ignore.yml exception is planned/fixed locally; it is not present on master yet. Also reviewed cn.1 #2 (StoreWriteParams.verified) and #4 (catalog/completion/source_store lib tests): e9a955f9 already contains the verified=None initializers, ref-code catalog row/attach-source exclusion, code number/page completion kinds, and corrected content-hash test fixture. No new task for those resolved defects.
+
+[2026-10-26T19:05:55Z · bob-cli-ce.land] DISCOVERED ISSUE corroboration (from bob-cli-ce.land): the BOB_TEST_FIXTURE_PDF docs lint is still red on master c4922e66 (just docs-check: src/native/highlights_ref/source_store.rs:194 undocumented production environment name), even though landing note #5 says an exact exception was added. bob-cli-ce.5, .6, .8, .9, .10, and .11 each proposed it independently; it also fails bob-plugins npm run docs:check. No task bead filed because cc.3/009060f9 is the cause and this epic's landing owns the fix.
+
+[2026-10-26T19:10:32Z · bob-cli-cc.land] Landed. Verified all 10 phases against plan:202610/ref_code_block_copy.md and the epic commits (01f7ec97 walkers, c7ced497 catalog, 009060f9 store, fb28faa1 ref code, a6d3ecbf lifecycle, 36ae0ef0 attach-source + athena backfill of 235 refs in vault commits fdd325a2/63ab5a58/86f99f12, a170b1b3 decision records; Mac 7b9bbdd/d8a828f/c7a5f37). Landing fixes: StoreWriteParams verified field (cc.5 and cc.6 raced; master did not compile), BOB_TEST_FIXTURE_PDF docs exception, completion kinds for ref code N/-p, __catalog ref-code entry and attach-source exclusion (integration with bob-cli-ce), source_store inspect fixture hash, gkeep check-ignore probe now uses the shared vault_git helper, dead store/vault_git helpers removed, regenerated decisions/glossary docs. Added bob ref code integration tests 9/9 pass (tests/cli/ref_library/code.rs: JSON golden with Mac key-set parity, raw bytes, 4-backtick fenced form, page filter incl. spanning blocks, source bytes + conflict exits, all six statuses, non-JSON exits incl. no-code/no-block/unknown/ambiguous envelopes, human grouping + hint, mermaid/noise summaries), store-route/rename/dry-run/-o/ignored/failure tests 9/9 pass (tests/cli/highlights/store_gaps.rs: markdown + note_snapshot + plain_note routes with source_note digests, reread new dir + history, rename keeps pointer verbatim without moving the store, dry-run planned pointer + writes:none, -o outside prints source_markdown none with no store, ignored-catalog warning files the ref, store-write failure warns and files pointerless), human metadata line (<path> N blocks <size> captured <date>, bold numbers, dim pages, plain off-TTY). Fixed cc.7 Copy restore XCTest fixture (query reading + scope .chats keeps ref/chat/small_reading.md; exact selectedID restore kept; Tabs model/test untouched for bob-cli-ci). Mac compile: portable-check 1672 tests pass; scratch copy on mac typecheck-tests PASS and bundle.sh ad-hoc sign PASS, scratch deleted. just check: fmt pass; clippy gate pass; lib 3636 pass + 1 pre-existing failure (task_status_hooks fenced_column_zero, identical on untouched base); cli 2251 pass (incl. 18 new); all other binaries pass. just docs-check: lint pass; strict Zensical build pass; published-URLs gate fails on 1 broken obligation from bob-plugins@master 6b1b6ec (docs/develop/plug
+
+… and 444 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -67,7 +79,7 @@ Totals: lib 3617 passed / 3 failed / 1 ignored; cli 2227 passed / 1 failed; all 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-cc: Exact code-block copy from Bob Refs, and Command-Y in Highlights [in_progress]"]
+    n0["bob-cli-cc: Exact code-block copy from Bob Refs, and Command-Y in Highlights [closed]"]
     n1["bob-cli-cc.1: Keep bob's note walkers out of .bob [closed]"]
     n2["bob-cli-cc.10: Decision records [closed]"]
     n3["bob-cli-cc.2: Render-time code catalog on both pandoc routes [closed]"]
@@ -115,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-cc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.7/README.md) | [bob-cli-cc.7](bob-cli-cc.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.8.md) | [bob-cli-cc.8](bob-cli-cc.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-cc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.land/README.md) | [bob-cli-cc](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.land.md) | [bob-cli-cc](README.md) | 1 |
 
 ## Commits
 
@@ -131,6 +143,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@c7a5f37`](https://github.com/bobs-org/bob-mac-capture/commit/c7a5f372f104e3252e47d65d605d1d297aebbdc7) | feat(refs): wire Copy card code picker and preview well | [bob-cli-cc.9](bob-cli-cc.9.md) | 2026-10-26 13:05:19 EDT |
 | bob-cli | [`36ae0ef`](https://github.com/bobs-org/bob-cli/commit/36ae0ef0ae4fe4fd49b6916eb04431a2738f4eab) | feat(ref): add bob ref attach-source with text-verified sources | [bob-cli-cc.6](bob-cli-cc.6.md) | 2026-10-26 13:14:49 EDT |
 | bob-cli | [`a170b1b`](https://github.com/bobs-org/bob-cli/commit/a170b1b363d5357a68ea257331cde27ef547c33b) | docs(memory): record reference source and code catalog decisions | [bob-cli-cc.10](bob-cli-cc.10.md) | 2026-10-26 13:32:11 EDT |
+| bob-cli | [`534138d`](https://github.com/bobs-org/bob-cli/commit/534138ddeb98a76b90cd79bc61402d997fc666a5) | feat(ref): land bob-cli-cc with code tests, store gaps, and human metadata | [bob-cli-cc](README.md) | 2026-10-26 15:13:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -138,14 +151,18 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land][1] | Need the epic scope to attach ref code catalog and source_store test failures | 2 |
-| read-by | [agent:bob-cli-c9.land][2] | Check whether active epic cc owns the ref code help/catalog CI failures and overwrite source-store integration | 1 |
-| read-by | [agent:bob-cli-cc.3][3] | Need parent epic plan and design | 1 |
-| read-by | [agent:bob-cli-cc.5][4] | Need parent epic scope and sibling phases | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.1--5][1] | Cite the owning task for unchanged-base catalog/completion/help and source_store just-check failures | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land][2] | Check ownership of cc-owned Mac CI and just-check failures at batch-14 landing | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land][3] | Need the epic scope to attach ref code catalog and source_store test failures | 2 |
+| read-by | [agent:bob-cli-c9.land][4] | Check whether active epic cc owns the ref code help/catalog CI failures and overwrite source-store integration | 1 |
+| read-by | [agent:bob-cli-cc.3][5] | Need parent epic plan and design | 1 |
+| read-by | [agent:bob-cli-cc.5][6] | Need parent epic scope and sibling phases | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md
 
 <!-- sase:referenced-by:end -->
