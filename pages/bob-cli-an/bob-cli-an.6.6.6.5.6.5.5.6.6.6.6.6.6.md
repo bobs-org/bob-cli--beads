@@ -43,17 +43,18 @@ FOLLOW-UP TRIAGE: .1 #3 (BOB_TEST_FIXTURE_PDF docs lint) and .4 #1 (same): cause
 
 [2026-10-26T19:39:06Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land] Verified all 5 phases against source and commits; decisions theme_field_strip=writers and legacy_key=pin honored. Fixed the epic-caused regressions in the landing, which also covers DISCOVERED ISSUE notes #1 (bob-cli-ce.land) and #2 (bob-cli-cn.land): bob-plugins 35bda67 (migration script retired, snapshot test updated; npm test 3814/3814), bob-cli d7cfa05c (fenced-scan lib test on a managed line), bob-mac-capture d05f5a5 (Highlights-key focus fired once; CI 40383389151 passes all bob-cli-ci tests). Re-synced plugins from master: 0 drift, with guards present in the vault. just check green on master d7cfa05c. Target tasks cf, ci, 91, 3o, a5 closed done. Follow-ups: cq (legacy-key removal, snoozed), cr (cc.9 code-key XCTest), cs (docs URL gate); the others were declined as resolved or not proposals (see note #3). No epic symbols.
 
+[2026-10-26T19:46:06Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land] CONTINUATION: the successor batch-15 epic plan (scratch sase_plan_backlog_batch15_vault_safety_pdf_moves_and_red_gates.md, expected archive plan:202610/backlog_batch15_vault_safety_pdf_moves_and_red_gates.md, parent_bead this epic) is authored, validated (--explain then plain, 0 warnings), and submitted through sase plan propose right after this note. Ownership transfers to the batch-15 lander on approval. It assigns existing beads cj (-b pre-syncs the default vault, medium), az (coordinate rename/move, id stamp, create --force PDF writes; c9 has landed, large, after cj), cu (plugin sync overwrites another agent's uncommitted deploy, large; filed by this lander from the batch-13 cb and batch-14 cf recurrences), cr (last red Mac XCTest, large), and cs (docs URL gate, small). Decision: deploy_guard (default refuse). Additional follow-up filed during the audit: bob-cli-cu (bug, large; no duplicate, no causal active epic). Landing commits: bob-cli d7cfa05c, bob-plugins 35bda67, bob-mac-capture d05f5a5, plans b844ad5 (batch-14 status done). Fresh no-limit enumeration: 120 unresolved (115 ready, 5 snoozed: 6q, aa, ah, cp, cq). 8r and 9x remain separate large launches; 8q/b9 stay with 3j (no open phases, unlanded); 58 waits for 87's land.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 4 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 3 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@d05f5a5`](https://github.com/bobs-org/bob-mac-capture/commit/d05f5a561d94f68b9ab70fd0630a0d9eb08eb5a0) | fix(refs): deliver the Highlights-key focus once when content is cached | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2026-10-26 15:04:08 EDT |
 | bob-plugins | [`bob-plugins@35bda67`](https://github.com/bobs-org/bob-plugins/commit/35bda672fce16740517a5b8b3352bdb540603f47) | test(navigation): retire the legacy dependency-line migration with the R8 readers | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2026-10-26 15:12:24 EDT |
 | bob-cli | [`d7cfa05`](https://github.com/bobs-org/bob-cli/commit/d7cfa05c16c4e760df0c885f845cd55260c2edfe) | test(task-deps): scan fenced dependents through the managed line | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2026-10-26 15:26:25 EDT |
 | bob-cli--plans | [`bob-cli--plans@b844ad5`](https://github.com/bobs-org/bob-cli--plans/commit/b844ad56d7006eaf0b524dd2db2fc8ed0b986f65) | chore(plans): mark backlog batch 14 done | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2026-10-26 15:39:23 EDT |
@@ -65,9 +66,9 @@ FOLLOW-UP TRIAGE: .1 #3 (BOB_TEST_FIXTURE_PDF docs lint) and .4 #1 (same): cause
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2--4][1] | Verify the assigned phase parent epic remains open after closing only its phase | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land][2] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land][2] | Need the epic scope, children, and linked plan file | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.2.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land.md
 
 <!-- sase:referenced-by:end -->

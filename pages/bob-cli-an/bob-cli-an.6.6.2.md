@@ -19,12 +19,6 @@ backup-tier-freshness: resolve bob-cli-b2 by verifying the first post-fix daily 
 
 [2026-10-24T07:53:41Z · bob-cli-an.6.6.2--1] Verified first post-fix anacron rotations 2026-10-24: daily marker 1792816971 (00:42 EDT, ~3h old, newer than daily-2 1792298910) and weekly marker 1792819164 (01:19 EDT, ~2.4h old, newer than weekly-2 1790399942); restore samples md5-identical to live ~/.bashrc; rotation content differs (weekly symlink target, daily entry counts/mtimes); shared backup.sh exit-24 commit path confirmed + scratch rotation/TOO_SOON exercise passed; monthly unchanged as expected (next due ~2026-11-21) accepted on shared-path evidence; no epic-symbol leftovers; parent epic untouched
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.2.md) | [bob-cli-an.6.6.2](bob-cli-an.6.6.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
