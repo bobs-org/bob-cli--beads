@@ -13,7 +13,7 @@ contract_docs: correct help and docs, remove stale interim markers, add producer
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 

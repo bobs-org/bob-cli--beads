@@ -20,7 +20,7 @@ family_matching: title identity on title routes, exact-only URL family candidate
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.3.1.6.1](bob-cli-c9.3.1.6.1.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -33,3 +33,15 @@ family_matching: title identity on title routes, exact-only URL family candidate
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e35773e`](https://github.com/bobs-org/bob-cli/commit/e35773e533dc567a5f45a6bc12bb01b96b21e0d0) | fix(ref): preserve family identity for rereads | [bob-cli-c9.3.1.6.2](bob-cli-c9.3.1.6.2.md) | 2026-10-25 20:30:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.6.2--1][1] | Need the phase scope and design file before recording completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.2.md
+
+<!-- sase:referenced-by:end -->
