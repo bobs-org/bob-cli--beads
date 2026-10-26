@@ -14,7 +14,7 @@ mac-ui: fetch the catalog when the card opens, draw the C and M rows, the code p
 ## Dependencies
 
 - **Blocks:** [bob-cli-cc.10](bob-cli-cc.10.md) ◐ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-cc.8](bob-cli-cc.8.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-cc.8](bob-cli-cc.8.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
