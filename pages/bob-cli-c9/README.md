@@ -185,7 +185,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md) | [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md) | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
 
@@ -225,6 +225,7 @@ flowchart TD
 | bob-cli | [`ca6065a`](https://github.com/bobs-org/bob-cli/commit/ca6065af5ac55b802793952d95459b0d29cbe622) | feat(highlights): support coordinated annotated overwrite | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 2026-10-26 09:46:15 EDT |
 | bob-cli | [`8a1679e`](https://github.com/bobs-org/bob-cli/commit/8a1679e553009b4c939995dc231144ae92fc6ac7) | test(highlights): cover annotated overwrite refusals and Mac kit | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 2026-10-26 10:38:11 EDT |
 | bob-cli | [`38a02d7`](https://github.com/bobs-org/bob-cli/commit/38a02d7bd6342d7a431b4cebf108df53b44b12f1) | fix(highlights): resolve annotated overwrite landing findings | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 11:59:10 EDT |
+| bob-cli--plans | [`bob-cli--plans@90cb827`](https://github.com/bobs-org/bob-cli--plans/commit/90cb8277caac8adcc7a12c5b0c03e43803ff5064) | docs(plan): mark annotated overwrite complete | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 12:00:17 EDT |
 
 <!-- sase:referenced-by:start -->
 

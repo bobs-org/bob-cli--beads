@@ -41,13 +41,14 @@ Linux verified the symlinked-temp regression and platform-aware refusal/cfg beha
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`38a02d7`](https://github.com/bobs-org/bob-cli/commit/38a02d7bd6342d7a431b4cebf108df53b44b12f1) | fix(highlights): resolve annotated overwrite landing findings | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 11:59:10 EDT |
+| bob-cli--plans | [`bob-cli--plans@90cb827`](https://github.com/bobs-org/bob-cli--plans/commit/90cb8277caac8adcc7a12c5b0c03e43803ff5064) | docs(plan): mark annotated overwrite complete | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 12:00:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
