@@ -22,7 +22,7 @@ strip-line: in bob-plugins bob-ledger-tools, build a pure `ref` model from `poin
 ## Dependencies
 
 - **Depends on:** [bob-cli-cn.1](bob-cli-cn.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-cn.3](bob-cli-cn.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cn.3](bob-cli-cn.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -36,3 +36,15 @@ strip-line: in bob-plugins bob-ledger-tools, build a pure `ref` model from `poin
 |---|---|---|---|---|
 | bob-cli | [`bd9c7a8`](https://github.com/bobs-org/bob-cli/commit/bd9c7a8c5b061c64b2f14d1f601f7c4d64358cf4) | docs(stats): describe the Day strip typical line | [bob-cli-cn.2](bob-cli-cn.2.md) | 2026-10-26 14:32:15 EDT |
 | bob-plugins | [`bob-plugins@cc5d045`](https://github.com/bobs-org/bob-plugins/commit/cc5d045b350edad0cd6d7dec47bb3df7096919c0) | feat(day-strip): show each fact's typical day | [bob-cli-cn.2](bob-cli-cn.2.md) | 2026-10-26 14:33:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-cn.2][1] | Need full phase notes and remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.2/README.md
+
+<!-- sase:referenced-by:end -->
