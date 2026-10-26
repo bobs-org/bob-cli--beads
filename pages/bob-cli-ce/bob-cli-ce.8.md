@@ -13,7 +13,7 @@ sheet: build the `Bob: Command mode` bottom sheet. It has fuzzy ranking with key
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ce.7](bob-cli-ce.7.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ce.7](bob-cli-ce.7.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ce.9](bob-cli-ce.9.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

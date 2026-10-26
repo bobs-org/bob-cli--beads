@@ -20,7 +20,7 @@ feedback: replace the runner's plain notices with the three-class toast cards an
 ## Dependencies
 
 - **Depends on:** [bob-cli-ce.5](bob-cli-ce.5.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.7](bob-cli-ce.7.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.7](bob-cli-ce.7.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -33,3 +33,15 @@ feedback: replace the runner's plain notices with the three-class toast cards an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@90eb3c0`](https://github.com/bobs-org/bob-plugins/commit/90eb3c076039f867e679394d3aa88b5a31fd3fa1) | feat(bob-command-mode): add run feedback and rerun controls | [bob-cli-ce.6](bob-cli-ce.6.md) | 2026-10-26 12:31:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.6/README.md
+
+<!-- sase:referenced-by:end -->

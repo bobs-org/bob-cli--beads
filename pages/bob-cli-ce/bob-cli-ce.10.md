@@ -14,7 +14,7 @@ integrations: bob-project-tasks' Snapshot note to Highlights runs through api.co
 ## Dependencies
 
 - **Blocks:** [bob-cli-ce.11](bob-cli-ce.11.md) ◐ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-ce.7](bob-cli-ce.7.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ce.7](bob-cli-ce.7.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
