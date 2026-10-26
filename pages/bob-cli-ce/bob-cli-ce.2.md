@@ -18,7 +18,7 @@ catalog: add the hidden, versioned JSON command catalog to bob-cli. A static tab
 ## Dependencies
 
 - **Blocks:** [bob-cli-ce.3](bob-cli-ce.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.5](bob-cli-ce.5.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.5](bob-cli-ce.5.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

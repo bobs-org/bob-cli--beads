@@ -18,7 +18,7 @@ run-env: bob honors CLICOLOR_FORCE, BOB_PROGRESS, and BOB_RUN_RECEIPT without a 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ce.2](bob-cli-ce.2.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.5](bob-cli-ce.5.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.5](bob-cli-ce.5.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -31,3 +31,15 @@ run-env: bob honors CLICOLOR_FORCE, BOB_PROGRESS, and BOB_RUN_RECEIPT without a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b5ba95c`](https://github.com/bobs-org/bob-cli/commit/b5ba95c96ec51418ad312e5e1b4e1fa71bb2753c) | feat(cli): honor color, progress, and exit receipts without a TTY | [bob-cli-ce.3](bob-cli-ce.3.md) | 2026-10-26 11:35:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.3][1] | Need remaining notes, design details, and earlier agent remainder | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.3/README.md
+
+<!-- sase:referenced-by:end -->
