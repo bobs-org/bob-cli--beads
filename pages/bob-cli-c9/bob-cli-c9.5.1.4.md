@@ -20,7 +20,7 @@ execute: Replace the annotated interim refusal with the Mac/config gate and cons
 - **Depends on:** [bob-cli-c9.5.1.1](bob-cli-c9.5.1.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -33,3 +33,15 @@ execute: Replace the annotated interim refusal with the Mac/config gate and cons
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ca6065a`](https://github.com/bobs-org/bob-cli/commit/ca6065af5ac55b802793952d95459b0d29cbe622) | feat(highlights): support coordinated annotated overwrite | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 2026-10-26 09:46:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.5.1.4][1] | Check this phase's notes for earlier work or recorded remainder before planning | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -75,7 +75,7 @@ flowchart TD
     n32["bob-cli-c9.5.1.2: Hold scans that encounter a replaced annotated PDF [closed]"]
     n33["bob-cli-c9.5.1.3: Recover transactions that renamed annotated bundles [closed]"]
     n34["bob-cli-c9.5.1.4: Enable coordinated annotated overwrite [closed]"]
-    n35["bob-cli-c9.5.1.5: Verify user behavior and extend Mac acceptance documentation [in_progress]"]
+    n35["bob-cli-c9.5.1.5: Verify user behavior and extend Mac acceptance documentation [closed]"]
     n36["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -180,7 +180,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.2.md) | [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md) | [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md) | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.land/README.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
@@ -219,6 +219,7 @@ flowchart TD
 | bob-cli | [`564168f`](https://github.com/bobs-org/bob-cli/commit/564168f3a8c29d7bb55a5009d0906a27bf1a497c) | feat(ref): recover annotated overwrite transactions that renamed bundles | [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) | 2026-10-26 08:55:40 EDT |
 | bob-cli | [`af41608`](https://github.com/bobs-org/bob-cli/commit/af416080dc14480e6ad9cf1a19e3b043fd8dd22b) | fix(highlights): hold replaced annotated captures | [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) | 2026-10-26 09:00:39 EDT |
 | bob-cli | [`ca6065a`](https://github.com/bobs-org/bob-cli/commit/ca6065af5ac55b802793952d95459b0d29cbe622) | feat(highlights): support coordinated annotated overwrite | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 2026-10-26 09:46:15 EDT |
+| bob-cli | [`8a1679e`](https://github.com/bobs-org/bob-cli/commit/8a1679e553009b4c939995dc231144ae92fc6ac7) | test(highlights): cover annotated overwrite refusals and Mac kit | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 2026-10-26 10:38:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
