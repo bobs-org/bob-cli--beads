@@ -34,3 +34,15 @@ docs-land: write the "Run bob from Obsidian" guide, finish the plugin reference 
 |---|---|---|---|---|
 | bob-cli | [`60eb781`](https://github.com/bobs-org/bob-cli/commit/60eb781228f9c5be0053213f4be3e90cd9505c4f) | docs(command-mode): add Obsidian usage guide | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:26:38 EDT |
 | bob-plugins | [`bob-plugins@6b1b6ec`](https://github.com/bobs-org/bob-plugins/commit/6b1b6ec9ebdd1013408692325fbe0a742d30acac) | docs(command-mode): complete plugin reference and API | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:27:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.11][1] | Need earlier phase notes and remaining work before implementation | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md
+
+<!-- sase:referenced-by:end -->
