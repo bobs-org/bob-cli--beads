@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-cc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.7/README.md) | [bob-cli-cc.7](bob-cli-cc.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.8.md) | [bob-cli-cc.8](bob-cli-cc.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-cc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.land.md) | [bob-cli-cc](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-cc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.land.md) | [bob-cli-cc](README.md) | 3 |
 
 ## Commits
 
@@ -145,6 +145,7 @@ flowchart TD
 | bob-cli | [`a170b1b`](https://github.com/bobs-org/bob-cli/commit/a170b1b363d5357a68ea257331cde27ef547c33b) | docs(memory): record reference source and code catalog decisions | [bob-cli-cc.10](bob-cli-cc.10.md) | 2026-10-26 13:32:11 EDT |
 | bob-cli | [`534138d`](https://github.com/bobs-org/bob-cli/commit/534138ddeb98a76b90cd79bc61402d997fc666a5) | feat(ref): land bob-cli-cc with code tests, store gaps, and human metadata | [bob-cli-cc](README.md) | 2026-10-26 15:13:01 EDT |
 | bob-mac-capture | [`bob-mac-capture@591e4fe`](https://github.com/bobs-org/bob-mac-capture/commit/591e4fe75784b6cba4aa48c1d7f2b0a71bc7c6b7) | test(refs): fix Copy restore fixture query and scope | [bob-cli-cc](README.md) | 2026-10-26 15:13:50 EDT |
+| bob-cli--plans | [`bob-cli--plans@4914e13`](https://github.com/bobs-org/bob-cli--plans/commit/4914e13c781c2032a0eb646070d2cbce8b6fa768) | docs(plans): mark cc landing tale and epic plan done | [bob-cli-cc](README.md) | 2026-10-26 15:14:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
