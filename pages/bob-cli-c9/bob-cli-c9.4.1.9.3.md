@@ -13,7 +13,7 @@ safety: recheck selection after the locked pre-sync, refuse ignored or untracked
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

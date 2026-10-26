@@ -17,7 +17,7 @@ selection: honor -N on URL and collection overwrite, refuse disabled ingest, arc
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -30,3 +30,15 @@ selection: honor -N on URL and collection overwrite, refuse disabled ingest, arc
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3e9da7c`](https://github.com/bobs-org/bob-cli/commit/3e9da7cc63731672dbe04794a2520b72ca7feb94) | fix(highlights): honor overwrite selection and refusal contracts | [bob-cli-c9.4.1.9.1](bob-cli-c9.4.1.9.1.md) | 2026-10-26 04:30:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.9.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.1/README.md
+
+<!-- sase:referenced-by:end -->
