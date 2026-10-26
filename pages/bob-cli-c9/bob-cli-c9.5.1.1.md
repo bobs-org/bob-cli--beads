@@ -20,7 +20,7 @@ archive: Extend the existing read-only overwrite plan with an annotated archive 
 ## Dependencies
 
 - **Blocks:** [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) ◐ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
@@ -34,3 +34,15 @@ archive: Extend the existing read-only overwrite plan with an annotated archive 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e482520`](https://github.com/bobs-org/bob-cli/commit/e482520841bdc4939290066569d0972f41538287) | feat(ref): plan annotated overwrite archives and highlight links | [bob-cli-c9.5.1.1](bob-cli-c9.5.1.1.md) | 2026-10-26 08:11:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.5.1.1][1] | Need status, notes, and whether already closed | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

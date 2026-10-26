@@ -20,4 +20,4 @@ guard: Use the archived PDF evidence to hold a restored old PDF before sync can 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-c9.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.2/README.md) | [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.2.md) | [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) | 0 |
