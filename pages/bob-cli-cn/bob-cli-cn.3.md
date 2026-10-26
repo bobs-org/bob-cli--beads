@@ -13,7 +13,7 @@ record: in bob-cli, add the decisions strand for the typical-day comparison and 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-cn.2](bob-cli-cn.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-cn.2](bob-cli-cn.2.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
