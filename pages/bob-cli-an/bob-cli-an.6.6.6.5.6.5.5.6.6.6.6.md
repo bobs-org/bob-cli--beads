@@ -42,17 +42,18 @@ BACKLOG at this audit: 117 unresolved tasks (113 ready, 4 snoozed: 3o, 6q, aa, a
 
 [2026-10-26T14:22:33Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land] All five phases and target tasks are verified. The prior lander closed ca, 8z, c6, and c8 after paired perf gates and BLOCKS notice tests passed, the Day strip tests/docs matched, just check passed on master 01f7ec97 under load, vault plugins matched master, integration review found no conflicts, the .3 follow-up was declined, and epic-symbols was empty. This landing closed c7 after hiding FakeNode back-references/logs and restoring assert.equal/notEqual plan-host checks: with fields enumerable the Node 22.14 regression aborted at 7,964 ms (exit 134); hidden fields made equal/deepEqual report both nodes in 68/65 ms, and a deliberately broken plan-host assert reported in 469 ms. Touched suites 201/201, npm test 3,693/3,693, npm run validate, and docs:check (447 passed, 1 skipped) passed; bob plugins list reports 0 drift. No just symvision recipe exists. Batch 11 and batch 10 ancestors were rechecked closed.
 
+[2026-10-26T14:41:22Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land] CONTINUATION: successor plan plan:202610/backlog_batch13_vault_integrity_and_perf.md is authored, validated, and committed. Ownership transfers to the batch-13 lander after proposal approval. Fresh no-limit enumeration after batch-12 closure: 117 unresolved tasks (113 ready, 4 snoozed: 3o, 6q, aa, ah; zero open/claimed/in_progress). Batch 13 assigns existing beads cd, cb, 5o, 67, and 6k. The higher-priority 8r hostile-process and 9x vault-sync alerts remain separate large planned launches per the continuation contract.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@24bfdb2`](https://github.com/bobs-org/bob-plugins/commit/24bfdb2a1a7cfd44964b42b23976bb4a686e8237) | test(ledger-tools): bound failing FakeNode assert diffs | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 2026-10-26 10:38:41 EDT |
 | bob-cli--plans | [`bob-cli--plans@74eb763`](https://github.com/bobs-org/bob-cli--plans/commit/74eb763d63c8736e36b40d1cdf136d737bac7ab6) | docs(plan): mark batch 12 done and author batch 13 | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 2026-10-26 10:39:54 EDT |
 
 <!-- sase:referenced-by:start -->
