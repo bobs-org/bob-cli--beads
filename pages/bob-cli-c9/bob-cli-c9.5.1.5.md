@@ -30,3 +30,15 @@ acceptance: Add cross-cutting recapture regressions, pin processed annotation id
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8a1679e`](https://github.com/bobs-org/bob-cli/commit/8a1679e553009b4c939995dc231144ae92fc6ac7) | test(highlights): cover annotated overwrite refusals and Mac kit | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 2026-10-26 10:38:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.5.1.5][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md
+
+<!-- sase:referenced-by:end -->

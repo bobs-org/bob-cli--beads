@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-c9](README.md) / bob-cli-c9.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.14a](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.14a.md) · **Assignee:** `bob-cli-c9.5` · **Size:** large
-**Created:** 2026-10-25 14:15:32 EDT
+**Created:** 2026-10-25 14:15:32 EDT · **Closed:** 2026-10-26 11:57:13 EDT
 **Plan:** [202610/ref\_create\_force\_recapture.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_force_recapture.md)
 
 ## Description
@@ -14,6 +14,8 @@ annotated: overwrite references that carry highlights, image selections, or .ass
 ## Notes
 
 [2026-10-26T11:40:36Z · bob-cli-c9.5] PROPOSED FOLLOW-UP: Repair missing recapture research reference — The accepted epic plan cites research:202610/ref_create_recapture_modes/ref_create_recapture_modes.md, but an audited sase artifact read returned status missing on 2026-10-26. The annotated-overwrite child plan uses the explicit accepted parent design; restore or correct the research reference for future rationale reads.
+
+[2026-10-26T15:57:54Z · bob-cli-c9.5.1.land--1] DELEGATED PHASE CLOSEOUT: The annotated overwrite scope is delivered through bob-cli-c9.5.1: Mac/config-gated coordinated overwrite, archived PDF and assets, frozen note and inbound highlight-link migration, replaced-capture scan guard, recovery protections, off-Mac refusal guidance, and the extended acceptance runbook. All five child phases and their notes were reviewed; the integrated verification gates passed as recorded on bob-cli-c9.5.1. Linux symlink/cfg checks passed, while real macOS execution and Bryan manual Highlights acceptance remain pending. Parent note #1, the missing recapture research reference follow-up, is preserved for the bob-cli-c9 land agent.
 
 ## Dependencies
 

@@ -13,7 +13,7 @@ record: write the accepted recapture decision record and correct the Reference T
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.5](bob-cli-c9.5.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.5](bob-cli-c9.5.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 

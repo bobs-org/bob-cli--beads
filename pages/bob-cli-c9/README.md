@@ -25,6 +25,10 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 A source that is already a reference can be captured again on purpose. Bare -f adds a new <root>__vN reading linked to the earlier ones. -f overwrite recaptures a reference in place and keeps its path, id, and reading task. Before that, anything you made in the old note is frozen into ref_history/. Without -f, a duplicate is refused before any fetch, with one clear message that names the existing copies and the exact fix.
 
+## Notes
+
+[2026-10-26T15:09:00Z · bob-cli-c9.5.1.land] DISCOVERED ISSUE (from bob-cli-c9.5.1.land; not caused by c9.5.1): master CI test jobs have failed on every push since the c9.4 overwrite work (e.g. 4ee76d11 run 40320586313, ca6065af run 40333521246) on ubuntu-latest and macos-latest. (1) tests/cli/highlights/create.rs::highlights_create_collection_overwrites_exact_set_with_listen (added c8a255b4, bob-cli-c9.4.1.7) fails with 'bob ref create: error: pre-sync failed: Bob directory does not exist: /home/runner/bob' — the collection-overwrite pre-sync resolves the default ~/bob instead of the test vault, so on athena (where /home/bryan/bob exists) it passes and may pre-sync Bryan's real vault. (2) highlights_create_force_adopted_empty_target_matches_missing_target_usage (create.rs:7623, from 2e08351e, bob-cli-c9.3.1.1) exits 1 instead of 2 on CI only, likely the same host-state dependency. The macOS-only overwrite execute failures (crash_without_rollback..., failpoints_that_abort..., unrelated_staged_and_dirty..., local_pdf_overwrite_listen_failure_after_narration_keeps_scratch) share a /var -> /private/var canonicalization root cause with c9.5.1's new annotated tests and are being fixed by c9.5.1's landing tale. Related closed precedent: bob-cli-9z (other tests depending on host state). Local just check passes on athena because of the host ~/bob.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -33,7 +37,7 @@ A source that is already a reference can be captured again on purpose. Bare -f a
 | [bob-cli-c9.2](bob-cli-c9.2.md) | One already-captured refusal, before parent resolution | ✓ closed | medium | 2026-10-25 | 1 | 1 |
 | [bob-cli-c9.3](bob-cli-c9.3.md) | The --force\[=MODE\] parser and bare -f reread | ✓ closed | large | 2026-10-25 | 1 | 0 |
 | [bob-cli-c9.4](bob-cli-c9.4.md) | In-place overwrite of unannotated references | ✓ closed | large | 2026-10-25 | 1 | 0 |
-| [bob-cli-c9.5](bob-cli-c9.5.md) | Annotated overwrite on the Mac | ◐ in_progress | large | 2026-10-25 | 1 | 0 |
+| [bob-cli-c9.5](bob-cli-c9.5.md) | Annotated overwrite on the Mac | ✓ closed | large | 2026-10-25 | 1 | 0 |
 | [bob-cli-c9.6](bob-cli-c9.6.md) | Decision record, glossary correction, and final docs pass | ◐ in_progress | small | 2026-10-25 | 1 | 0 |
 
 ## Lineage
@@ -69,8 +73,8 @@ flowchart TD
     n26["bob-cli-c9.4.1.9.1: Fix overwrite selection, refusals, and refusal coverage [closed]"]
     n27["bob-cli-c9.4.1.9.2: Preserve task alias, user fields, and audio; align output and docs [closed]"]
     n28["bob-cli-c9.4.1.9.3: Harden the overwrite transaction and prove it with failpoints [closed]"]
-    n29["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
-    n30["bob-cli-c9.5.1: Annotated reference overwrite on the Mac [in_progress]"]
+    n29["bob-cli-c9.5: Annotated overwrite on the Mac [closed]"]
+    n30["bob-cli-c9.5.1: Annotated reference overwrite on the Mac [closed]"]
     n31["bob-cli-c9.5.1.1: Plan annotated archives and selective highlight links [closed]"]
     n32["bob-cli-c9.5.1.2: Hold scans that encounter a replaced annotated PDF [closed]"]
     n33["bob-cli-c9.5.1.3: Recover transactions that renamed annotated bundles [closed]"]
@@ -181,7 +185,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md) | [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.4/README.md) | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.land/README.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
 
@@ -220,6 +224,7 @@ flowchart TD
 | bob-cli | [`af41608`](https://github.com/bobs-org/bob-cli/commit/af416080dc14480e6ad9cf1a19e3b043fd8dd22b) | fix(highlights): hold replaced annotated captures | [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) | 2026-10-26 09:00:39 EDT |
 | bob-cli | [`ca6065a`](https://github.com/bobs-org/bob-cli/commit/ca6065af5ac55b802793952d95459b0d29cbe622) | feat(highlights): support coordinated annotated overwrite | [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) | 2026-10-26 09:46:15 EDT |
 | bob-cli | [`8a1679e`](https://github.com/bobs-org/bob-cli/commit/8a1679e553009b4c939995dc231144ae92fc6ac7) | test(highlights): cover annotated overwrite refusals and Mac kit | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 2026-10-26 10:38:11 EDT |
+| bob-cli | [`38a02d7`](https://github.com/bobs-org/bob-cli/commit/38a02d7bd6342d7a431b4cebf108df53b44b12f1) | fix(highlights): resolve annotated overwrite landing findings | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 11:59:10 EDT |
 
 <!-- sase:referenced-by:start -->
 
