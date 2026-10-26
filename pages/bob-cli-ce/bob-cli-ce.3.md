@@ -13,7 +13,7 @@ run-env: bob honors CLICOLOR_FORCE, BOB_PROGRESS, and BOB_RUN_RECEIPT without a 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ce.2](bob-cli-ce.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ce.2](bob-cli-ce.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ce.5](bob-cli-ce.5.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

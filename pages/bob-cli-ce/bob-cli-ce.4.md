@@ -30,3 +30,15 @@ completion-names: complete theme names for `themes hide|unhide|color|rename OLD`
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`92706cb`](https://github.com/bobs-org/bob-cli/commit/92706cb456ecb16286430ff7e859b698d920b261) | feat(completion): add theme and relation label providers | [bob-cli-ce.4](bob-cli-ce.4.md) | 2026-10-26 10:46:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.4/README.md
+
+<!-- sase:referenced-by:end -->

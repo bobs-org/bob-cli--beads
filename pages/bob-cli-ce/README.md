@@ -7,6 +7,18 @@
 **Created:** 2026-10-26 10:35:52 EDT
 **Plan:** [202610/bob\_colon\_command\_mode.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_colon_command_mode.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/bob_colon_command_mode.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_colon_command_mode.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command sheet. The user filters a bob-owned catalog of every useful bob command, runs one with context-aware arguments and safe-write guards, and is notified when it finishes, with three honest outcome classes (completed, needs attention, failed). The full output is always one key away in a pager that doubles as run history. Vim's own ex line stays reachable through `::`, Vim-shaped input, and `g:`.
@@ -18,7 +30,7 @@ Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command s
 | [bob-cli-ce.1](bob-cli-ce.1.md) | Make the colon key safe and keep the new plugin out of vault git | ✓ closed | small | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.10](bob-cli-ce.10.md) | Move Snapshot to Highlights onto the runner and refresh ledger caches | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.11](bob-cli-ce.11.md) | Guide, reference polish, and end-to-end verification | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
-| [bob-cli-ce.2](bob-cli-ce.2.md) | bob \_\_catalog --protocol 1 | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-ce.2](bob-cli-ce.2.md) | bob \_\_catalog --protocol 1 | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.3](bob-cli-ce.3.md) | Color, progress, and exit receipts for non-TTY runs | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.4](bob-cli-ce.4.md) | Theme-name and relation-label completion providers | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.5](bob-cli-ce.5.md) | bob-command-mode plugin scaffold and run engine | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
@@ -35,7 +47,7 @@ flowchart TD
     n1["bob-cli-ce.1: Make the colon key safe and keep the new plugin out of vault git [closed]"]
     n2["bob-cli-ce.10: Move Snapshot to Highlights onto the runner and refresh ledger caches [in_progress]"]
     n3["bob-cli-ce.11: Guide, reference polish, and end-to-end verification [in_progress]"]
-    n4["bob-cli-ce.2: bob __catalog --protocol 1 [in_progress]"]
+    n4["bob-cli-ce.2: bob __catalog --protocol 1 [closed]"]
     n5["bob-cli-ce.3: Color, progress, and exit receipts for non-TTY runs [in_progress]"]
     n6["bob-cli-ce.4: Theme-name and relation-label completion providers [closed]"]
     n7["bob-cli-ce.5: bob-command-mode plugin scaffold and run engine [in_progress]"]
@@ -75,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ce.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.1/README.md) | [bob-cli-ce.1](bob-cli-ce.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.10/README.md) | [bob-cli-ce.10](bob-cli-ce.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 0 |
-| [bbugyi200.athena.bob-cli-ce.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.2/README.md) | [bob-cli-ce.2](bob-cli-ce.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ce.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.2/README.md) | [bob-cli-ce.2](bob-cli-ce.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.3/README.md) | [bob-cli-ce.3](bob-cli-ce.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.4/README.md) | [bob-cli-ce.4](bob-cli-ce.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.5/README.md) | [bob-cli-ce.5](bob-cli-ce.5.md) | 0 |
@@ -90,3 +102,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`92706cb`](https://github.com/bobs-org/bob-cli/commit/92706cb456ecb16286430ff7e859b698d920b261) | feat(completion): add theme and relation label providers | [bob-cli-ce.4](bob-cli-ce.4.md) | 2026-10-26 10:46:38 EDT |
+| bob-cli | [`0bec19d`](https://github.com/bobs-org/bob-cli/commit/0bec19d89ec994ac957c22f024aeefc09eeb36f9) | feat(catalog): add hidden bob \_\_catalog --protocol 1 handshake | [bob-cli-ce.2](bob-cli-ce.2.md) | 2026-10-26 11:12:33 EDT |
