@@ -39,7 +39,9 @@ collections: integrate exact-URL-set collection overwrite, collection narration,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.4.1.7--1][1] | Confirm the assigned phase is closed with the verification note | 2 |
+| read-by | [agent:bob-cli-c9.4.1.8][2] | Need prior phase notes and remaining work for acceptance | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.7.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.8/README.md
 
 <!-- sase:referenced-by:end -->

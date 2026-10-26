@@ -65,8 +65,12 @@ flowchart TD
     n22["bob-cli-c9.4.1.6: Enable single-URL overwrite across web capture routes [closed]"]
     n23["bob-cli-c9.4.1.7: Enable exact-set collection overwrite and complete remedies [closed]"]
     n24["bob-cli-c9.4.1.8: Verify overwrite preservation and crash recovery end to end [closed]"]
-    n25["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
-    n26["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
+    n25["bob-cli-c9.4.1.9: Finish unannotated overwrite - contract fixes and transaction hardening [in_progress]"]
+    n26["bob-cli-c9.4.1.9.1: Fix overwrite selection, refusals, and refusal coverage [closed]"]
+    n27["bob-cli-c9.4.1.9.2: Preserve task alias, user fields, and audio; align output and docs [in_progress]"]
+    n28["bob-cli-c9.4.1.9.3: Harden the overwrite transaction and prove it with failpoints [in_progress]"]
+    n29["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
+    n30["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -91,8 +95,12 @@ flowchart TD
     n16 --> n22
     n16 --> n23
     n16 --> n24
-    n0 --> n25
-    n0 --> n26
+    n16 --> n25
+    n25 --> n26
+    n25 --> n27
+    n25 --> n28
+    n0 --> n29
+    n0 --> n30
     n1 -.-> n3
     n2 -.-> n3
     n3 -.-> n15
@@ -103,7 +111,7 @@ flowchart TD
     n11 -.-> n12
     n12 -.-> n13
     n13 -.-> n14
-    n15 -.-> n25
+    n15 -.-> n29
     n17 -.-> n18
     n17 -.-> n19
     n18 -.-> n20
@@ -112,7 +120,9 @@ flowchart TD
     n21 -.-> n22
     n22 -.-> n23
     n23 -.-> n24
-    n25 -.-> n26
+    n26 -.-> n27
+    n27 -.-> n28
+    n29 -.-> n30
 ```
 
 ## Agents
@@ -142,7 +152,11 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.6/README.md) | [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.7.md) | [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.8/README.md) | [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.land/README.md) | [bob-cli-c9.4.1](bob-cli-c9.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.1/README.md) | [bob-cli-c9.4.1.9.1](bob-cli-c9.4.1.9.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.4.1.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.2/README.md) | [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.3/README.md) | [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.land/README.md) | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.land.md) | [bob-cli-c9.4.1](bob-cli-c9.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5/README.md) | [bob-cli-c9.5](bob-cli-c9.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
@@ -172,6 +186,7 @@ flowchart TD
 | bob-cli | [`57e74dc`](https://github.com/bobs-org/bob-cli/commit/57e74dcab9aa1432aea4bb0322d65fa270935148) | feat(highlights): enable single-URL overwrite across web capture routes | [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) | 2026-10-26 01:50:59 EDT |
 | bob-cli | [`c8a255b`](https://github.com/bobs-org/bob-cli/commit/c8a255b48d55d32f892e2a7f8ceb25fa7df626a1) | feat(highlights): enable collection overwrite | [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) | 2026-10-26 02:27:17 EDT |
 | bob-cli | [`94abe3d`](https://github.com/bobs-org/bob-cli/commit/94abe3d98061c8642c7b91d9975999afeeed269e) | test(highlights): verify overwrite preservation and crash recovery | [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) | 2026-10-26 03:01:15 EDT |
+| bob-cli | [`3e9da7c`](https://github.com/bobs-org/bob-cli/commit/3e9da7cc63731672dbe04794a2520b72ca7feb94) | fix(highlights): honor overwrite selection and refusal contracts | [bob-cli-c9.4.1.9.1](bob-cli-c9.4.1.9.1.md) | 2026-10-26 04:30:31 EDT |
 
 <!-- sase:referenced-by:start -->
 

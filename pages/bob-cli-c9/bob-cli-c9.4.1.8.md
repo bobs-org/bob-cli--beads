@@ -32,3 +32,15 @@ acceptance: close cross-route acceptance gaps, prove archive inertness and recov
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`94abe3d`](https://github.com/bobs-org/bob-cli/commit/94abe3d98061c8642c7b91d9975999afeeed269e) | test(highlights): verify overwrite preservation and crash recovery | [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) | 2026-10-26 03:01:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.8][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.8/README.md
+
+<!-- sase:referenced-by:end -->
