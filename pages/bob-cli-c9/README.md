@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.3.1.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.2.md) | [bob-cli-c9.3.1.6.2](bob-cli-c9.3.1.6.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.3.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.3/README.md) | [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.3.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.4/README.md) | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.3.1.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md) | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.3.1.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md) | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-c9.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.land.md) | [bob-cli-c9.3.1](bob-cli-c9.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4/README.md) | [bob-cli-c9.4](bob-cli-c9.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5/README.md) | [bob-cli-c9.5](bob-cli-c9.5.md) | 0 |
@@ -128,6 +128,7 @@ flowchart TD
 | bob-cli | [`d96ed41`](https://github.com/bobs-org/bob-cli/commit/d96ed412085581c4b49456c6672bd26db4fc9592) | feat(highlights-ref): add route guards for create/clip overwrite, redirect, and narrated hints | [bob-cli-c9.3.1.6.3](bob-cli-c9.3.1.6.3.md) | 2026-10-25 21:12:26 EDT |
 | bob-cli | [`516d7b9`](https://github.com/bobs-org/bob-cli/commit/516d7b98fe31311470d6cce1bd61dc3d81ce0665) | fix(ref): contract docs, cleanup, and reread test hardening | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 2026-10-25 21:39:53 EDT |
 | bob-cli | [`b48bd93`](https://github.com/bobs-org/bob-cli/commit/b48bd939cb33a5c5a6e9afea690bc4bed06fc3f4) | fix(ref): name newest narrated reading and resolve exact-output overwrite paths | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 2026-10-25 22:22:43 EDT |
+| bob-cli--plans | [`bob-cli--plans@3afa34a`](https://github.com/bobs-org/bob-cli--plans/commit/3afa34ac5cfd9e7f1855199c272b51e99e4ddcad) | chore(plans): mark reread landing and create-reread plans done | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 2026-10-25 22:23:40 EDT |
 
 <!-- sase:referenced-by:start -->
 
