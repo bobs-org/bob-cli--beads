@@ -19,7 +19,7 @@ mac-core: decode source_markdown and the bob ref code JSON, add the C and M rows
 
 - **Depends on:** [bob-cli-cc.4](bob-cli-cc.4.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-cc.7](bob-cli-cc.7.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-cc.9](bob-cli-cc.9.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cc.9](bob-cli-cc.9.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -32,3 +32,15 @@ mac-core: decode source_markdown and the bob ref code JSON, add the C and M rows
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@d8a828f`](https://github.com/bobs-org/bob-mac-capture/commit/d8a828f173182f7084a1bc40ec276434287873b1) | feat(refs): add code picker and catalog models | [bob-cli-cc.8](bob-cli-cc.8.md) | 2026-10-26 12:20:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-cc.8--1][1] | Need the phase scope, design file, and prior work notes before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.8.md
+
+<!-- sase:referenced-by:end -->

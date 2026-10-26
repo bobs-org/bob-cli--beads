@@ -28,7 +28,13 @@ lifecycle: make -f overwrite stage, install, repoint, and roll back the store in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-cc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md) | [bob-cli-cc.5](bob-cli-cc.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md) | [bob-cli-cc.5](bob-cli-cc.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`a6d3ecb`](https://github.com/bobs-org/bob-cli/commit/a6d3ecbfd4743f2aa9e44e49e9b5bba282f41fec) | feat(highlights-ref): overwrite source store and doctor ref sources | [bob-cli-cc.5](bob-cli-cc.5.md) | 2026-10-26 12:21:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -36,8 +42,12 @@ lifecycle: make -f overwrite stage, install, repoint, and roll back the store in
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-c9.5.1.land--1][1] | Verify source-store overwrite integration ownership and coordination note | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land][1] | Check whether ref code/source_store test failures are already recorded | 2 |
+| read-by | [agent:bob-cli-c9.5.1.land--1][2] | Verify source-store overwrite integration ownership and coordination note | 1 |
+| read-by | [agent:bob-cli-cc.5][3] | Need the phase scope, design file, notes, and DECISIONS before verifying remaining work | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md
 
 <!-- sase:referenced-by:end -->

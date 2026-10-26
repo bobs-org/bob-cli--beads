@@ -42,7 +42,9 @@ store: persist source.md plus code.json under .bob/ref-sources at create time, r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-cc.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-cc.5][2] | Need store phase outcomes that lifecycle depends on | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md
 
 <!-- sase:referenced-by:end -->

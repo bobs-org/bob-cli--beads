@@ -14,7 +14,7 @@ records: author the two decisions-web records for the write-once source store an
 ## Dependencies
 
 - **Depends on:** [bob-cli-cc.5](bob-cli-cc.5.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-cc.9](bob-cli-cc.9.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-cc.9](bob-cli-cc.9.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
