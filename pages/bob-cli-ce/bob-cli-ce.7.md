@@ -19,7 +19,7 @@ pager: build the streaming output pager. It renders ANSI color, marks stderr, pr
 
 - **Blocks:** [bob-cli-ce.10](bob-cli-ce.10.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-ce.6](bob-cli-ce.6.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.8](bob-cli-ce.8.md) ○ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.8](bob-cli-ce.8.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

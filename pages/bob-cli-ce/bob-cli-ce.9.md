@@ -16,7 +16,7 @@ args-vim: add argument mode backed by `bob __complete`, a quote-aware tokenizer 
 - **Depends on:** [bob-cli-ce.1](bob-cli-ce.1.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ce.11](bob-cli-ce.11.md) ◐ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-ce.4](bob-cli-ce.4.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-ce.8](bob-cli-ce.8.md) ○ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ce.8](bob-cli-ce.8.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
