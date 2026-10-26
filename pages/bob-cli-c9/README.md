@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_create_force_recapture.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_force_recapture.md
 
@@ -56,8 +56,17 @@ flowchart TD
     n13["bob-cli-c9.3.1.6.3: Route guards, audio, vault ordering, redirects, and parser edges [closed]"]
     n14["bob-cli-c9.3.1.6.4: Docs, cleanup, test hardening, and acceptance evidence [closed]"]
     n15["bob-cli-c9.4: In-place overwrite of unannotated references [in_progress]"]
-    n16["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
-    n17["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
+    n16["bob-cli-c9.4.1: In-place overwrite of unannotated references [in_progress]"]
+    n17["bob-cli-c9.4.1.1: Share reference mutation safety primitives with rename [closed]"]
+    n18["bob-cli-c9.4.1.2: Plan overwrite selection and inert prose archives [in_progress]"]
+    n19["bob-cli-c9.4.1.3: Recover interrupted overwrites from host-local intents [in_progress]"]
+    n20["bob-cli-c9.4.1.4: Apply and verify a staged overwrite in one scoped commit [in_progress]"]
+    n21["bob-cli-c9.4.1.5: Enable local-file and vault-snapshot overwrite [in_progress]"]
+    n22["bob-cli-c9.4.1.6: Enable single-URL overwrite across web capture routes [in_progress]"]
+    n23["bob-cli-c9.4.1.7: Enable exact-set collection overwrite and complete remedies [in_progress]"]
+    n24["bob-cli-c9.4.1.8: Verify overwrite preservation and crash recovery end to end [in_progress]"]
+    n25["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
+    n26["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -73,8 +82,17 @@ flowchart TD
     n10 --> n13
     n10 --> n14
     n0 --> n15
-    n0 --> n16
-    n0 --> n17
+    n15 --> n16
+    n16 --> n17
+    n16 --> n18
+    n16 --> n19
+    n16 --> n20
+    n16 --> n21
+    n16 --> n22
+    n16 --> n23
+    n16 --> n24
+    n0 --> n25
+    n0 --> n26
     n1 -.-> n3
     n2 -.-> n3
     n3 -.-> n15
@@ -85,8 +103,16 @@ flowchart TD
     n11 -.-> n12
     n12 -.-> n13
     n13 -.-> n14
-    n15 -.-> n16
-    n16 -.-> n17
+    n15 -.-> n25
+    n17 -.-> n18
+    n17 -.-> n19
+    n18 -.-> n20
+    n19 -.-> n20
+    n20 -.-> n21
+    n21 -.-> n22
+    n22 -.-> n23
+    n23 -.-> n24
+    n25 -.-> n26
 ```
 
 ## Agents
@@ -107,7 +133,16 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.3.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.4/README.md) | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.3.1.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md) | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-c9.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.land.md) | [bob-cli-c9.3.1](bob-cli-c9.3.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-c9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4/README.md) | [bob-cli-c9.4](bob-cli-c9.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.md) | [bob-cli-c9.4](bob-cli-c9.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.1/README.md) | [bob-cli-c9.4.1.1](bob-cli-c9.4.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-c9.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.2/README.md) | [bob-cli-c9.4.1.2](bob-cli-c9.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.3/README.md) | [bob-cli-c9.4.1.3](bob-cli-c9.4.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.4/README.md) | [bob-cli-c9.4.1.4](bob-cli-c9.4.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.5/README.md) | [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.6/README.md) | [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.7/README.md) | [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.8/README.md) | [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.land/README.md) | [bob-cli-c9.4.1](bob-cli-c9.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5/README.md) | [bob-cli-c9.5](bob-cli-c9.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
@@ -129,6 +164,7 @@ flowchart TD
 | bob-cli | [`516d7b9`](https://github.com/bobs-org/bob-cli/commit/516d7b98fe31311470d6cce1bd61dc3d81ce0665) | fix(ref): contract docs, cleanup, and reread test hardening | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 2026-10-25 21:39:53 EDT |
 | bob-cli | [`b48bd93`](https://github.com/bobs-org/bob-cli/commit/b48bd939cb33a5c5a6e9afea690bc4bed06fc3f4) | fix(ref): name newest narrated reading and resolve exact-output overwrite paths | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 2026-10-25 22:22:43 EDT |
 | bob-cli--plans | [`bob-cli--plans@3afa34a`](https://github.com/bobs-org/bob-cli--plans/commit/3afa34ac5cfd9e7f1855199c272b51e99e4ddcad) | chore(plans): mark reread landing and create-reread plans done | [bob-cli-c9.3.1.6](bob-cli-c9.3.1.6.md) | 2026-10-25 22:23:40 EDT |
+| bob-cli | [`6196cea`](https://github.com/bobs-org/bob-cli/commit/6196cea7b90f6648a80a9c5099611c1598b3cd40) | refactor(ref): extract shared reference mutation safety primitives | [bob-cli-c9.4.1.1](bob-cli-c9.4.1.1.md) | 2026-10-25 22:59:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -138,8 +174,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.1][1] | Need epic scope for family phase | 1 |
 | read-by | [agent:bob-cli-c9.2][2] | parent epic scope | 1 |
+| read-by | [agent:bob-cli-c9.3.1.6.land--1][3] | Confirm parent epic stays open and later phases remain in progress | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md
 
 <!-- sase:referenced-by:end -->

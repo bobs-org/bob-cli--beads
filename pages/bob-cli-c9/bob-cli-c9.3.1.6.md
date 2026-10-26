@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_reread_landing_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_reread_landing_fixes.md
 
@@ -65,7 +65,9 @@ Follow-up dispositions: full-scan occupancy proposal (bob-cli-c9.3.1.3 note 1) a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.3.1.6.3][1] | Need parent epic scope | 1 |
+| read-by | [agent:bob-cli-c9.3.1.6.land--1][2] | Need landing epic status, children, notes, and closeout evidence before closing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md
 
 <!-- sase:referenced-by:end -->

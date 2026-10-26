@@ -41,7 +41,9 @@ reading_birth: derive earlier at birth, preserve reading task suffixes and alias
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.3.1.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-c9.3.1.6.land--1][2] | Need descendant status, notes, and remaining follow-ups before closing bob-cli-c9.3.1 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md
 
 <!-- sase:referenced-by:end -->

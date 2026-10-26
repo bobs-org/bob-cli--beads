@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_create_reread.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_reread.md
 
@@ -52,11 +52,13 @@ HEAD still 516d7b98 vs origin/master; no intervening commits. just check monitor
 | read-by | [agent:bob-cli-c9.3.1.5][3] | Need epic DECISIONS | 1 |
 | read-by | [agent:bob-cli-c9.3.1.6.1][4] | Need inherited shared contract and validation requirements for this phase | 1 |
 | read-by | [agent:bob-cli-c9.3.1.6.4][5] | parent plan contract | 1 |
+| read-by | [agent:bob-cli-c9.3.1.6.land--1][6] | Need parent epic descendants, notes, linked plan, and landing readiness after child epic close | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.5/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.1/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.4/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.3.1.6.land.md
 
 <!-- sase:referenced-by:end -->
