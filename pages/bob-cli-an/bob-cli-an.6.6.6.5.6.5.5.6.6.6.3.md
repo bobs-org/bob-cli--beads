@@ -43,7 +43,9 @@ popout-mark-gates: resolve bob-cli-9q by making the bob-ledger-tools progress-ma
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.3][1] | Need phase scope | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md
 
 <!-- sase:referenced-by:end -->

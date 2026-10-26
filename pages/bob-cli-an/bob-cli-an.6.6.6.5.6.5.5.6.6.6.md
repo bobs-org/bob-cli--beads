@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch11_ref_repair_taskcard_popout_gkeep_again.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch11_ref_repair_taskcard_popout_gkeep_again.md
 
@@ -45,11 +45,13 @@ FOLLOW-UPS:
 - .3 note #2 (priority marks in popouts): created bob-cli-cb (small bug), widened after a source audit to the four remaining main-window-only body-class gates (priority, task-tag, fresh, today-off).
 Epic symbols: none.
 
+[2026-10-26T12:30:50Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.land] CONTINUATION (batch-11 lander): fresh enumeration after landing = 121 unresolved tasks (117 ready, 4 snoozed: 3o, 6q, aa, ah), so the lander proposes the batch-12 epic scratch plan sase_plan_backlog_batch12_perf_baseline_fakenode_daystrip_blocks_notice.md (parent_bead bob-cli-an.6.6.6.5.6.5.5.6.6.6). It assigns bob-cli-ca (capture_related perf baseline), bob-cli-8z (BLOCKS-line ! notice), bob-cli-c7 (FakeNode assert OOM), bob-cli-c6 (Day strip new tab), and bob-cli-c8 (Day strip legend overflow) in 5 phases. Deploying bob-plugins phases are serialized. It carries the mandatory continuation contract and the batch-9 working rules. Deferred with reasons: 8r and 9x (large, each needs its own planned launch), az (overlaps active c9), cb (next candidate), b4 (needs Bryan's choice), 8q (owned by 3j), 5m and 5n (sase tool), v (needs resizing), 5o, b9, and 67 (no root cause). The plan validated with --explain and again without it. Ownership passes to the batch-12 lander on approval. The plans sidecar status: done edit was committed and pushed before proposing.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.md) | 1 |
 
 ## Commits
 
@@ -66,9 +68,11 @@ Epic symbols: none.
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.2][1] | parent epic scope | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.3][2] | epic decisions | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.4][3] | parent epic DECISIONS and scope | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.land][4] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md
 
 <!-- sase:referenced-by:end -->

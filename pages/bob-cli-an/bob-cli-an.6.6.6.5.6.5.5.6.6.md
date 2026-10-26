@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch10_port_help_doctor_mermaid_startpending.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch10_port_help_doctor_mermaid_startpending.md
 
@@ -55,10 +55,12 @@ Close five backlog tasks by keeping explicit non-default ports in URL identity, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.1][1] | epic decisions and scope | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.3][2] | Need epic DECISIONS | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][3] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.land][3] | Need the parent link and parent epic status | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.land][4] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.3/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.land.md
 
 <!-- sase:referenced-by:end -->

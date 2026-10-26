@@ -16,6 +16,8 @@
 | related | file:explicit:ae15f0921118b08295672d5a | attached via sase artifact create --bead |
 | related | file:explicit:baf8ec102b5c1238584319c2 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -79,3 +81,15 @@ Never fall back to a non-turn gate. If gate-turn creation still fails, record th
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.1.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md
+
+<!-- sase:referenced-by:end -->
