@@ -48,12 +48,13 @@ BACKLOG at this audit: 117 unresolved tasks (113 ready, 4 snoozed: 3o, 6q, aa, a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@24bfdb2`](https://github.com/bobs-org/bob-plugins/commit/24bfdb2a1a7cfd44964b42b23976bb4a686e8237) | test(ledger-tools): bound failing FakeNode assert diffs | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 2026-10-26 10:38:41 EDT |
 | bob-cli--plans | [`bob-cli--plans@74eb763`](https://github.com/bobs-org/bob-cli--plans/commit/74eb763d63c8736e36b40d1cdf136d737bac7ab6) | docs(plan): mark batch 12 done and author batch 13 | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 2026-10-26 10:39:54 EDT |
 
 <!-- sase:referenced-by:start -->

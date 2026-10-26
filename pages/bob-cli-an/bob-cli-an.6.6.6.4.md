@@ -17,12 +17,6 @@ relation-label-race: resolve bob-cli-al by tying Bob Mac Capture relation label 
 
 [2026-10-24T10:08:24Z · bob-cli-an.6.6.6.4] Verified: mac just typecheck-tests exit 0 on the patched tree; Linux swift build --build-tests + swift test 1554/1554 pass; new fake-bob probe branches return typed-old/typed-new relation_label JSON; authored-replacement helper executed 6/6 incl. parity with bob normalize_relation_label; 9 new race regressions added (sync submit/gate/spelling + delayed/out-of-order async). XCTest execution itself not possible here (no XCTest on mac CLT, no AppKit on Linux) — CI/lander to run. Task bob-cli-al left open for the lander; no epic-symbol leftovers.
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.4/README.md) | [bob-cli-an.6.6.6.4](bob-cli-an.6.6.6.4.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

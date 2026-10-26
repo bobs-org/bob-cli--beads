@@ -40,3 +40,15 @@ The monitor scripts captured full per-command logs under their printed temporary
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6a470eb`](https://github.com/bobs-org/bob-cli/commit/6a470ebe96ee31547264db373434042dc545e02e) | test(capture): deduplicate claimed ref jobs in kick test | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3.md) | 2026-10-26 11:35:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3--2][1] | Confirm the final verification evidence was appended before checking close readiness | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3.md
+
+<!-- sase:referenced-by:end -->
