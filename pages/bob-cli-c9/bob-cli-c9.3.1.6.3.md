@@ -39,7 +39,9 @@ route_guards: overwrite exact-output permission, narrated-reading hint, no audio
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.3.1.6.3][1] | Need full scope notes and epic symbols | 2 |
+| read-by | [agent:bob-cli-c9.3.1.6.4][2] | check prior phase completion | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.4/README.md
 
 <!-- sase:referenced-by:end -->

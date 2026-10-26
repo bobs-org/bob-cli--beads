@@ -17,7 +17,7 @@ refusal: route every duplicate site (URL dedupe, same-reference stem walk, libra
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-c9.3](bob-cli-c9.3.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3](bob-cli-c9.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 

@@ -30,3 +30,15 @@ contract_docs: correct help and docs, remove stale interim markers, add producer
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`516d7b9`](https://github.com/bobs-org/bob-cli/commit/516d7b98fe31311470d6cce1bd61dc3d81ce0665) | fix(ref): contract docs, cleanup, and reread test hardening | [bob-cli-c9.3.1.6.4](bob-cli-c9.3.1.6.4.md) | 2026-10-25 21:39:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.6.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.4/README.md
+
+<!-- sase:referenced-by:end -->

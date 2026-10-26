@@ -17,7 +17,7 @@ family: teach ref_library the note-local earlier: list, reading numbers, and fam
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-c9.3](bob-cli-c9.3.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3](bob-cli-c9.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
