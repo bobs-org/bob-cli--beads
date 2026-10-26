@@ -14,7 +14,7 @@ runner: create the desktop-only bob-command-mode plugin with a bob resolver, chi
 ## Dependencies
 
 - **Depends on:** [bob-cli-ce.2](bob-cli-ce.2.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-ce.3](bob-cli-ce.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ce.3](bob-cli-ce.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ce.6](bob-cli-ce.6.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

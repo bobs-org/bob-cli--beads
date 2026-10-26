@@ -17,7 +17,7 @@ catalog: add the hidden, versioned JSON command catalog to bob-cli. A static tab
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ce.3](bob-cli-ce.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.3](bob-cli-ce.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ce.5](bob-cli-ce.5.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
@@ -31,3 +31,15 @@ catalog: add the hidden, versioned JSON command catalog to bob-cli. A static tab
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0bec19d`](https://github.com/bobs-org/bob-cli/commit/0bec19d89ec994ac957c22f024aeefc09eeb36f9) | feat(catalog): add hidden bob \_\_catalog --protocol 1 handshake | [bob-cli-ce.2](bob-cli-ce.2.md) | 2026-10-26 11:12:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.2/README.md
+
+<!-- sase:referenced-by:end -->
