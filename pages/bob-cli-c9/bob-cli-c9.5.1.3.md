@@ -20,7 +20,7 @@ recovery: Extend the host-local overwrite intent and recovery to describe no-clo
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.5.1.1](bob-cli-c9.5.1.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

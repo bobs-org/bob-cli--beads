@@ -13,7 +13,7 @@ acceptance: Add cross-cutting recapture regressions, pin processed annotation id
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

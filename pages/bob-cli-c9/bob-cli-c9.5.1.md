@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/annotated_reference_overwrite.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/annotated_reference_overwrite.md
 
@@ -39,10 +39,12 @@ Annotated reference overwrite preserves old PDFs, assets, anchors, and reading-t
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.land][1] | Check plan ownership overlap with batch-12 candidates | 3 |
 | read-by | [agent:bob-cli-c9.5.1.1][2] | Need parent epic DECISIONS and child phase context | 1 |
-| read-by | [agent:bob-cli-c9.5.1.3][3] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:bob-cli-c9.5.1.2--1][3] | Need the parent epic DECISIONS and sibling phase coordination before implementing this phase | 1 |
+| read-by | [agent:bob-cli-c9.5.1.3][4] | Need parent epic scope and decisions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.1/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.2.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

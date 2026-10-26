@@ -32,8 +32,10 @@ annotated: overwrite references that carry highlights, image selections, or .ass
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-c9.5.1.3][1] | Need parent phase decisions | 1 |
+| read-by | [agent:bob-cli-c9.5.1.2--1][1] | Check for sibling coordination notes before closing its child phase | 1 |
+| read-by | [agent:bob-cli-c9.5.1.3][2] | Need parent phase decisions | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -18,7 +18,7 @@ guard: Use the archived PDF evidence to hold a restored old PDF before sync can 
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.5.1.1](bob-cli-c9.5.1.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-c9.5.1.4](bob-cli-c9.5.1.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -31,3 +31,15 @@ guard: Use the archived PDF evidence to hold a restored old PDF before sync can 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`af41608`](https://github.com/bobs-org/bob-cli/commit/af416080dc14480e6ad9cf1a19e3b043fd8dd22b) | fix(highlights): hold replaced annotated captures | [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) | 2026-10-26 09:00:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.5.1.2--1][1] | Check this phase for prior progress notes and recorded remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.2.md
+
+<!-- sase:referenced-by:end -->
