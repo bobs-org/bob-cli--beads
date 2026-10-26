@@ -21,7 +21,14 @@ retire-legacy-dep-readers: resolve bob-cli-3o by re-verifying zero live legacy c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`0f76d55`](https://github.com/bobs-org/bob-cli/commit/0f76d558b108754eec3db75b0837ae70380be550) | feat(task-deps): retire legacy child dependency readers | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4.md) | 2026-10-26 13:58:36 EDT |
+| bob-plugins | [`bob-plugins@241ca2d`](https://github.com/bobs-org/bob-plugins/commit/241ca2d818eb8381d0c672c877f0415b0b1546f6) | feat(navigation): read dependencies from managed lines only | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.4.md) | 2026-10-26 13:59:59 EDT |
 
 <!-- sase:referenced-by:start -->
 
