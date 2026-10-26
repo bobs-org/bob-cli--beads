@@ -32,7 +32,7 @@ A source that is already a reference can be captured again on purpose. Bare -f a
 | [bob-cli-c9.1](bob-cli-c9.1.md) | Reading families in the library read model | ✓ closed | medium | 2026-10-25 | 1 | 1 |
 | [bob-cli-c9.2](bob-cli-c9.2.md) | One already-captured refusal, before parent resolution | ✓ closed | medium | 2026-10-25 | 1 | 1 |
 | [bob-cli-c9.3](bob-cli-c9.3.md) | The --force\[=MODE\] parser and bare -f reread | ✓ closed | large | 2026-10-25 | 1 | 0 |
-| [bob-cli-c9.4](bob-cli-c9.4.md) | In-place overwrite of unannotated references | ◐ in_progress | large | 2026-10-25 | 1 | 0 |
+| [bob-cli-c9.4](bob-cli-c9.4.md) | In-place overwrite of unannotated references | ✓ closed | large | 2026-10-25 | 1 | 0 |
 | [bob-cli-c9.5](bob-cli-c9.5.md) | Annotated overwrite on the Mac | ◐ in_progress | large | 2026-10-25 | 1 | 0 |
 | [bob-cli-c9.6](bob-cli-c9.6.md) | Decision record, glossary correction, and final docs pass | ◐ in_progress | small | 2026-10-25 | 1 | 0 |
 
@@ -55,8 +55,8 @@ flowchart TD
     n12["bob-cli-c9.3.1.6.2: Identity-correct family matching and attach targets [closed]"]
     n13["bob-cli-c9.3.1.6.3: Route guards, audio, vault ordering, redirects, and parser edges [closed]"]
     n14["bob-cli-c9.3.1.6.4: Docs, cleanup, test hardening, and acceptance evidence [closed]"]
-    n15["bob-cli-c9.4: In-place overwrite of unannotated references [in_progress]"]
-    n16["bob-cli-c9.4.1: In-place overwrite of unannotated references [in_progress]"]
+    n15["bob-cli-c9.4: In-place overwrite of unannotated references [closed]"]
+    n16["bob-cli-c9.4.1: In-place overwrite of unannotated references [closed]"]
     n17["bob-cli-c9.4.1.1: Share reference mutation safety primitives with rename [closed]"]
     n18["bob-cli-c9.4.1.2: Plan overwrite selection and inert prose archives [closed]"]
     n19["bob-cli-c9.4.1.3: Recover interrupted overwrites from host-local intents [closed]"]
@@ -65,7 +65,7 @@ flowchart TD
     n22["bob-cli-c9.4.1.6: Enable single-URL overwrite across web capture routes [closed]"]
     n23["bob-cli-c9.4.1.7: Enable exact-set collection overwrite and complete remedies [closed]"]
     n24["bob-cli-c9.4.1.8: Verify overwrite preservation and crash recovery end to end [closed]"]
-    n25["bob-cli-c9.4.1.9: Finish unannotated overwrite - contract fixes and transaction hardening [in_progress]"]
+    n25["bob-cli-c9.4.1.9: Finish unannotated overwrite - contract fixes and transaction hardening [closed]"]
     n26["bob-cli-c9.4.1.9.1: Fix overwrite selection, refusals, and refusal coverage [closed]"]
     n27["bob-cli-c9.4.1.9.2: Preserve task alias, user fields, and audio; align output and docs [closed]"]
     n28["bob-cli-c9.4.1.9.3: Harden the overwrite transaction and prove it with failpoints [closed]"]
@@ -155,7 +155,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.4.1.9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.1/README.md) | [bob-cli-c9.4.1.9.1](bob-cli-c9.4.1.9.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.2/README.md) | [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.3/README.md) | [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.4.1.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.land/README.md) | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.9.land.md) | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.land.md) | [bob-cli-c9.4.1](bob-cli-c9.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5/README.md) | [bob-cli-c9.5](bob-cli-c9.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
@@ -189,6 +189,7 @@ flowchart TD
 | bob-cli | [`3e9da7c`](https://github.com/bobs-org/bob-cli/commit/3e9da7cc63731672dbe04794a2520b72ca7feb94) | fix(highlights): honor overwrite selection and refusal contracts | [bob-cli-c9.4.1.9.1](bob-cli-c9.4.1.9.1.md) | 2026-10-26 04:30:31 EDT |
 | bob-cli | [`43f8aff`](https://github.com/bobs-org/bob-cli/commit/43f8aff5d0a39b8c982fe7048e6839d86406c0fe) | feat(highlights): overwrite local and web routes with alias preservation | [bob-cli-c9.4.1.9.2](bob-cli-c9.4.1.9.2.md) | 2026-10-26 05:26:32 EDT |
 | bob-cli | [`66f9d67`](https://github.com/bobs-org/bob-cli/commit/66f9d67f6573048b76a1d34274a95e7fc4b438c2) | fix(highlights): harden overwrite recovery, selection recheck, and failpoints | [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) | 2026-10-26 06:26:32 EDT |
+| bob-cli | [`4ee76d1`](https://github.com/bobs-org/bob-cli/commit/4ee76d114ab76a912350cf62bbe2acea29d87fd7) | fix(highlights): repair overwrite identity, narration, selection, and rollback proof | [bob-cli-c9.4.1.9](bob-cli-c9.4.1.9.md) | 2026-10-26 07:27:34 EDT |
 
 <!-- sase:referenced-by:start -->
 

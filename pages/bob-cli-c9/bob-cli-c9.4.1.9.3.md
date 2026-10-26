@@ -32,3 +32,15 @@ safety: recheck selection after the locked pre-sync, refuse ignored or untracked
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`66f9d67`](https://github.com/bobs-org/bob-cli/commit/66f9d67f6573048b76a1d34274a95e7fc4b438c2) | fix(highlights): harden overwrite recovery, selection recheck, and failpoints | [bob-cli-c9.4.1.9.3](bob-cli-c9.4.1.9.3.md) | 2026-10-26 06:26:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.9.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.9.3/README.md
+
+<!-- sase:referenced-by:end -->

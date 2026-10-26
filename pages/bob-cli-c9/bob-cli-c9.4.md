@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-c9](README.md) / bob-cli-c9.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.14a](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.14a.md) · **Assignee:** `bob-cli-c9.4` · **Size:** large
-**Created:** 2026-10-25 14:15:32 EDT
+**Created:** 2026-10-25 14:15:32 EDT · **Closed:** 2026-10-26 07:25:24 EDT
 **Plan:** [202610/ref\_create\_force\_recapture.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_force_recapture.md)
 
 ## Description
 
 overwrite: -f overwrite on any host, for references with no PDF annotations. Includes rename-style preconditions, -N member selection, a render-first locked transaction with a host-local intent marker and HEAD rollback, sidecar removal, and a frozen inert note in ref_history/ when there is authored prose. Also earlier: carry-forward, recaptured:, success output, the overwrite refusal hints, and docs.
+
+## Notes
+
+[2026-10-26T11:26:07Z · bob-cli-c9.4.1.9.land] Phase closeout: verified unannotated overwrite implementation and completed child plans. All 8 phases plus repair epic .9 closed. Integration: only 17f3881c root-true grouping plus epic commits, no overwrite integration needed. Checks: fmt/clippy clean, docs-gen/check pass, lib 3547 pass with only bob-cli-ca flake (isolated pass), cli 2194 pass. Stopping at phase boundary; outer epic bob-cli-c9 with annotated phase .5 remains with land agent. --note
 
 ## Dependencies
 

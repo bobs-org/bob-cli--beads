@@ -13,7 +13,7 @@ annotated: overwrite references that carry highlights, image selections, or .ass
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.4](bob-cli-c9.4.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.4](bob-cli-c9.4.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c9.6](bob-cli-c9.6.md) ◐ · ⧖ 2026-10-25
 
 ## Agents
