@@ -15,14 +15,14 @@ While reading a bob-rendered reference in Highlights, Command-Y C Return puts th
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-cc.1](bob-cli-cc.1.md) | Keep bob's note walkers out of .bob | ✓ closed | small | 2026-10-26 | 1 | 1 |
+| [bob-cli-cc.1](bob-cli-cc.1.md) | Keep bob's note walkers out of .bob | ✓ closed | small | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.10](bob-cli-cc.10.md) | Decision records | ◐ in_progress | xsmall | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.2](bob-cli-cc.2.md) | Render-time code catalog on both pandoc routes | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.3](bob-cli-cc.3.md) | Write-once source store and the source\_markdown pointer | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.4](bob-cli-cc.4.md) | bob ref code read surface | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.5](bob-cli-cc.5.md) | Overwrite repointing and the doctor sources check | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.6](bob-cli-cc.6.md) | Verified attach of existing references' sources | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
-| [bob-cli-cc.7](bob-cli-cc.7.md) | Command-Y takeover in Highlights and type-ahead | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-cc.7](bob-cli-cc.7.md) | Command-Y takeover in Highlights and type-ahead | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-cc.8](bob-cli-cc.8.md) | RefsCore code catalog, C and M rows, and the code picker model | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.9](bob-cli-cc.9.md) | Code picker, preview well, and panel wiring | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 
@@ -38,7 +38,7 @@ flowchart TD
     n5["bob-cli-cc.4: bob ref code read surface [in_progress]"]
     n6["bob-cli-cc.5: Overwrite repointing and the doctor sources check [in_progress]"]
     n7["bob-cli-cc.6: Verified attach of existing references' sources [in_progress]"]
-    n8["bob-cli-cc.7: Command-Y takeover in Highlights and type-ahead [in_progress]"]
+    n8["bob-cli-cc.7: Command-Y takeover in Highlights and type-ahead [closed]"]
     n9["bob-cli-cc.8: RefsCore code catalog, C and M rows, and the code picker model [in_progress]"]
     n10["bob-cli-cc.9: Code picker, preview well, and panel wiring [in_progress]"]
     n0 --> n1
@@ -68,14 +68,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-cc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.1/README.md) | [bob-cli-cc.1](bob-cli-cc.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-cc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.1/README.md) | [bob-cli-cc.1](bob-cli-cc.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.10/README.md) | [bob-cli-cc.10](bob-cli-cc.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-cc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.2/README.md) | [bob-cli-cc.2](bob-cli-cc.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.2.md) | [bob-cli-cc.2](bob-cli-cc.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md) | [bob-cli-cc.3](bob-cli-cc.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.4/README.md) | [bob-cli-cc.4](bob-cli-cc.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md) | [bob-cli-cc.5](bob-cli-cc.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.6/README.md) | [bob-cli-cc.6](bob-cli-cc.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-cc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.7/README.md) | [bob-cli-cc.7](bob-cli-cc.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.7/README.md) | [bob-cli-cc.7](bob-cli-cc.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.8/README.md) | [bob-cli-cc.8](bob-cli-cc.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.land/README.md) | [bob-cli-cc](README.md) | 0 |
@@ -84,4 +84,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`01f7ec9`](https://github.com/bobs-org/bob-cli/commit/01f7ec972ccbe499ca46dc1e377023c0c32bdf92) | fix(vault): keep note walkers out of .bob | [bob-cli-cc.1](bob-cli-cc.1.md) | 2026-10-26 09:20:31 EDT |
+| bob-mac-capture | [`bob-mac-capture@7b9bbdd`](https://github.com/bobs-org/bob-mac-capture/commit/7b9bbddabfd2b3368bb77287842e045f677cabb7) | feat(refs): Command-Y takeover opens the Copy card from Highlights | [bob-cli-cc.7](bob-cli-cc.7.md) | 2026-10-26 09:53:32 EDT |
