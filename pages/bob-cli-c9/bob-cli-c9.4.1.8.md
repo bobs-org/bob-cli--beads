@@ -13,7 +13,7 @@ acceptance: close cross-route acceptance gaps, prove archive inertness and recov
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 

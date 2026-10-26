@@ -20,7 +20,7 @@ web: connect article, saved-HTML, PDF-URL, and arXiv capture to the same staged 
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -33,3 +33,15 @@ web: connect article, saved-HTML, PDF-URL, and arXiv capture to the same staged 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`57e74dc`](https://github.com/bobs-org/bob-cli/commit/57e74dcab9aa1432aea4bb0322d65fa270935148) | feat(highlights): enable single-URL overwrite across web capture routes | [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) | 2026-10-26 01:50:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.6/README.md
+
+<!-- sase:referenced-by:end -->
