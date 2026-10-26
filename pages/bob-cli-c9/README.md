@@ -64,7 +64,7 @@ flowchart TD
     n21["bob-cli-c9.4.1.5: Enable local-file and vault-snapshot overwrite [closed]"]
     n22["bob-cli-c9.4.1.6: Enable single-URL overwrite across web capture routes [closed]"]
     n23["bob-cli-c9.4.1.7: Enable exact-set collection overwrite and complete remedies [closed]"]
-    n24["bob-cli-c9.4.1.8: Verify overwrite preservation and crash recovery end to end [in_progress]"]
+    n24["bob-cli-c9.4.1.8: Verify overwrite preservation and crash recovery end to end [closed]"]
     n25["bob-cli-c9.5: Annotated overwrite on the Mac [in_progress]"]
     n26["bob-cli-c9.6: Decision record, glossary correction, and final docs pass [in_progress]"]
     n0 --> n1
@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.5/README.md) | [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.6/README.md) | [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.7.md) | [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.4.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.8/README.md) | [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.4.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.8/README.md) | [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.land/README.md) | [bob-cli-c9.4.1](bob-cli-c9.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5/README.md) | [bob-cli-c9.5](bob-cli-c9.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 0 |
@@ -171,6 +171,7 @@ flowchart TD
 | bob-cli | [`00200a9`](https://github.com/bobs-org/bob-cli/commit/00200a967fa818fc0f2c40135bc7cc49d2ce927c) | feat(highlights): enable local-file and vault-snapshot overwrite | [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) | 2026-10-26 01:21:22 EDT |
 | bob-cli | [`57e74dc`](https://github.com/bobs-org/bob-cli/commit/57e74dcab9aa1432aea4bb0322d65fa270935148) | feat(highlights): enable single-URL overwrite across web capture routes | [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) | 2026-10-26 01:50:59 EDT |
 | bob-cli | [`c8a255b`](https://github.com/bobs-org/bob-cli/commit/c8a255b48d55d32f892e2a7f8ceb25fa7df626a1) | feat(highlights): enable collection overwrite | [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) | 2026-10-26 02:27:17 EDT |
+| bob-cli | [`94abe3d`](https://github.com/bobs-org/bob-cli/commit/94abe3d98061c8642c7b91d9975999afeeed269e) | test(highlights): verify overwrite preservation and crash recovery | [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) | 2026-10-26 03:01:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

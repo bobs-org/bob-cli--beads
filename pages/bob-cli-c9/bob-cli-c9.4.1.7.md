@@ -18,7 +18,7 @@ collections: integrate exact-URL-set collection overwrite, collection narration,
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ collections: integrate exact-URL-set collection overwrite, collection narration,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c8a255b`](https://github.com/bobs-org/bob-cli/commit/c8a255b48d55d32f892e2a7f8ceb25fa7df626a1) | feat(highlights): enable collection overwrite | [bob-cli-c9.4.1.7](bob-cli-c9.4.1.7.md) | 2026-10-26 02:27:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.7--1][1] | Confirm the assigned phase is closed with the verification note | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.4.1.7.md
+
+<!-- sase:referenced-by:end -->
