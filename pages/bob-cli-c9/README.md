@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-c9
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.14a](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.14a.md) · **Assignee:** `bob-cli-c9.land`
-**Created:** 2026-10-25 14:15:31 EDT
+**Created:** 2026-10-25 14:15:31 EDT · **Closed:** 2026-10-26 12:55:56 EDT
 **Plan:** [202610/ref\_create\_force\_recapture.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_force_recapture.md)
 
 <!-- sase:links:start -->
@@ -29,6 +29,18 @@ A source that is already a reference can be captured again on purpose. Bare -f a
 
 [2026-10-26T15:09:00Z · bob-cli-c9.5.1.land] DISCOVERED ISSUE (from bob-cli-c9.5.1.land; not caused by c9.5.1): master CI test jobs have failed on every push since the c9.4 overwrite work (e.g. 4ee76d11 run 40320586313, ca6065af run 40333521246) on ubuntu-latest and macos-latest. (1) tests/cli/highlights/create.rs::highlights_create_collection_overwrites_exact_set_with_listen (added c8a255b4, bob-cli-c9.4.1.7) fails with 'bob ref create: error: pre-sync failed: Bob directory does not exist: /home/runner/bob' — the collection-overwrite pre-sync resolves the default ~/bob instead of the test vault, so on athena (where /home/bryan/bob exists) it passes and may pre-sync Bryan's real vault. (2) highlights_create_force_adopted_empty_target_matches_missing_target_usage (create.rs:7623, from 2e08351e, bob-cli-c9.3.1.1) exits 1 instead of 2 on CI only, likely the same host-state dependency. The macOS-only overwrite execute failures (crash_without_rollback..., failpoints_that_abort..., unrelated_staged_and_dirty..., local_pdf_overwrite_listen_failure_after_narration_keeps_scratch) share a /var -> /private/var canonicalization root cause with c9.5.1's new annotated tests and are being fixed by c9.5.1's landing tale. Related closed precedent: bob-cli-9z (other tests depending on host state). Local just check passes on athena because of the host ~/bob.
 
+[2026-10-26T16:55:56Z · bob-cli-c9.land] LANDING (bob-cli-c9.land) on 5e8c6ecd plus this landing's working tree.
+
+VERIFY: Read the epic, plan:202610/ref_create_force_recapture.md and every descendant's notes (phases .1-.6; nested epics .3.1 with .3.1.1-.5 and .3.1.6.1-.4; .4.1 with .4.1.1-.8 and .4.1.9.1-.3; .5.1 with .5.1.1-.5); all closed, and each nested landing was audited by its own land agent. Reviewed the shipped force/recapture/duplicate/overwrite/recovery code and the commits e852198d..94cd2d95. Decisions are honored: legacy_force=no (a legacy-only match warns and captures fresh, -f changes nothing); keep_created=yes (created kept, recaptured: written); memory_decision_record=no (no decisions strand added); memory_glossary_ref_task=yes (glossary:reference-task rewritten in 94cd2d95, the only memory edit). macOS CI on 94cd2d95 confirms c9.5.1's /var→/private/var fix: the annotated overwrite execute lib tests now pass on macos-latest. The macOS CLI step was cancelled by a later push, and Bryan's manual Mac Highlights acceptance (runbook steps 11-15) is still pending.
+
+EPIC WORK FINISHED HERE (epic note #1): (1) `bob ref create -f overwrite` with no TARGET exited 1, not 2: overwrite-intent recovery ran before --force decoding and failed on a missing ~/bob. --force is now decoded first, and a missing vault reports no pending intent (new unit test missing_vault_has_no_pending_intent). (2) The overwrite transaction pre/post-synced BOB_DIR (~/bob) while locking and committing the -b vault. On athena, the collection-overwrite test therefore pre-synced Bryan's real vault; in CI it failed. Overwrite now refuses with intake_unavailable when the -b vault differs from BOB_DIR, using intake's own identity check, and does so before any fetch or narration. Docs and after_help are updated. The tests pin BOB_DIR, a new assertion covers the refusal, and the adopted-empty-target test uses a missing BOB_DIR so it no longer depends on the host. (3) docs/reference/glossary.md regenerated: c9.6 had not run docs-gen after its glossary edit.
+
+INTEGRATION: These outside commits since e852198d were reviewed: 55334b09, 17f3881c, 7b8c5ddb, 69dfd7e8, 3633a10a, 01f7ec97, c7ced497, 92706cb4, 0bec19d8 (all reviewed by nested landers), and newer 009060f9, cbd2ee05, f73f926d, 6a470ebe, b5ba95c9, fb28faa1, a6d3ecbf, 5e8c6ecd. `bob ref code` (fb28faa1) resolves through resolve_show, so it already collapses families to the newest reading. The source store keys by final stem, so rereads get their own store. Semantic conflict fixed: a6d3ecbf's new overwrite.rs test called render_frozen_note with the pre-38a02d7b 10-argument signature, so lib tests and clippy --all-targets did not compile on master. The call now matches the 8-argument signature.
+
+CHECKS: cargo fmt --check and clippy pass. In just check, the lib suite passes 3618 tests and the CLI suite 2227; the only failures are 4 tests owned by bob-cli-cc: completion kinds and catalog leaves for `ref code`, the ref help snapshot (all from cc.4 fb28faa1), and source_store inspect (cc.5 a6d3ecbf). These are recorded as a DISCOVERED ISSUE on bob-cli-cc. The CLI suite under a CI-like fake HOME passes 2227 tests; its only failure is the same cc.4 help snapshot. just docs-gen is clean. just docs-check fails only at the cc.3 BOB_TEST_FIXTURE_PDF lint. With that one line masked temporarily, every other gate passes (447 doc unit tests, tutorial, media, links). Epic symbols: none. No symvision recipe exists.
+
+FOLLOW-UP TRIAGE: c9.6 #1 (BOB_TEST_FIXTURE_PDF lint) is caused by active epic bob-cli-cc, so it went into the DISCOVERED ISSUE note on bob-cli-cc with the cc.4/cc.5 test breakages. c9.6 #2 (research hook hash-suffixed stems dodge dedupe) was filed as new task bob-cli-cm (feature, large). c9.6 #3 (Mac Capture Refs vN chip) was filed as bob-cli-ck (feature, medium). c9.6 #4 (bob-plugins reading board vN chip) was filed as bob-cli-cl (feature, medium), linked to ck. c9.5 #1 (missing recapture research reference) is DECLINED: the report exists in the research sidecar, which was simply not cloned in that worker's workspace. After `sase repo open research`, `sase artifact read research:202610/ref_create_recapture_modes/ref_create_recapture_modes.md` resolves. Discovered while landing: `bob ref rename -b` has the same pre-existing wrong-vault pre-sync (not caused by this epic), filed as bob-cli-cj (bug, medium), related to bob-cli-bx. The glossary:reference-note strand still says `^ref` (pre-existing, outside c9's memory authorization), so bob-cli-6c got a +1 narrowing its remaining scope. Earlier dispositions stand: capture_related timing flakes are bob-cli-ca (fixed by 7b8c5ddb); full-scan occupancy was absorbed and fixed in c192014e; c9.4.1.9.2 #1 was fixed in 4ee76d11.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -44,7 +56,7 @@ A source that is already a reference can be captured again on purpose. Bare -f a
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-c9: bob ref create -f|--force[=reread|overwrite]: recapture a source you already have [in_progress]"]
+    n0["bob-cli-c9: bob ref create -f|--force[=reread|overwrite]: recapture a source you already have [closed]"]
     n1["bob-cli-c9.1: Reading families in the library read model [closed]"]
     n2["bob-cli-c9.2: One already-captured refusal, before parent resolution [closed]"]
     n3["bob-cli-c9.3: The --force[=MODE] parser and bare -f reread [closed]"]
@@ -187,7 +199,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-c9.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.5/README.md) | [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-c9.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-c9.5.1.land.md) | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-c9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md) | [bob-cli-c9.6](bob-cli-c9.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-c9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.land/README.md) | [bob-cli-c9](README.md) | 1 |
 
 ## Commits
 
@@ -227,6 +239,7 @@ flowchart TD
 | bob-cli | [`38a02d7`](https://github.com/bobs-org/bob-cli/commit/38a02d7bd6342d7a431b4cebf108df53b44b12f1) | fix(highlights): resolve annotated overwrite landing findings | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 11:59:10 EDT |
 | bob-cli--plans | [`bob-cli--plans@90cb827`](https://github.com/bobs-org/bob-cli--plans/commit/90cb8277caac8adcc7a12c5b0c03e43803ff5064) | docs(plan): mark annotated overwrite complete | [bob-cli-c9.5.1](bob-cli-c9.5.1.md) | 2026-10-26 12:00:17 EDT |
 | bob-cli | [`94cd2d9`](https://github.com/bobs-org/bob-cli/commit/94cd2d9528997aa490f6c984c92e26faf18486a4) | docs(ref): record-phase glossary correction and recapture docs pass | [bob-cli-c9.6](bob-cli-c9.6.md) | 2026-10-26 12:12:45 EDT |
+| bob-cli | [`6f2f193`](https://github.com/bobs-org/bob-cli/commit/6f2f19324083835fdd36f34c25dd4f3fef8d5a6d) | fix(ref): land recapture epic with host-independent overwrite guards | [bob-cli-c9](README.md) | 2026-10-26 12:56:49 EDT |
 
 <!-- sase:referenced-by:start -->
 

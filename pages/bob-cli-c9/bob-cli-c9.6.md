@@ -38,3 +38,17 @@ record: write the accepted recapture decision record and correct the Reference T
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`94cd2d9`](https://github.com/bobs-org/bob-cli/commit/94cd2d9528997aa490f6c984c92e26faf18486a4) | docs(ref): record-phase glossary correction and recapture docs pass | [bob-cli-c9.6](bob-cli-c9.6.md) | 2026-10-26 12:12:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.6][1] | Need phase scope and design file | 2 |
+| read-by | [agent:bob-cli-ce.6][2] | Check whether the docs-lint failure already has follow-up ownership | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.6/README.md
+
+<!-- sase:referenced-by:end -->
