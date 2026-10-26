@@ -14,7 +14,7 @@ execute: Replace the annotated interim refusal with the Mac/config gate and cons
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.5.1.1](bob-cli-c9.5.1.1.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-c9.5.1.2](bob-cli-c9.5.1.2.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-c9.5.1.5](bob-cli-c9.5.1.5.md) ◐ · ⧖ 2026-10-26
 

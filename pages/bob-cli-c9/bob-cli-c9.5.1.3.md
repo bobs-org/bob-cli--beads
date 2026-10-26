@@ -33,3 +33,15 @@ recovery: Extend the host-local overwrite intent and recovery to describe no-clo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`564168f`](https://github.com/bobs-org/bob-cli/commit/564168f3a8c29d7bb55a5009d0906a27bf1a497c) | feat(ref): recover annotated overwrite transactions that renamed bundles | [bob-cli-c9.5.1.3](bob-cli-c9.5.1.3.md) | 2026-10-26 08:55:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.5.1.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->
