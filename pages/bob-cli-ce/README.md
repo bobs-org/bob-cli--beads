@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ce.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.7/README.md) | [bob-cli-ce.7](bob-cli-ce.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.8/README.md) | [bob-cli-ce.8](bob-cli-ce.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.9/README.md) | [bob-cli-ce.9](bob-cli-ce.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-ce.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ce.land.md) | [bob-cli-ce](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-ce.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ce.land.md) | [bob-cli-ce](README.md) | 2 |
 
 ## Commits
 
@@ -123,6 +123,7 @@ flowchart TD
 | bob-cli | [`60eb781`](https://github.com/bobs-org/bob-cli/commit/60eb781228f9c5be0053213f4be3e90cd9505c4f) | docs(command-mode): add Obsidian usage guide | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:26:38 EDT |
 | bob-plugins | [`bob-plugins@6b1b6ec`](https://github.com/bobs-org/bob-plugins/commit/6b1b6ec9ebdd1013408692325fbe0a742d30acac) | docs(command-mode): complete plugin reference and API | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:27:43 EDT |
 | bob-cli | [`97edc43`](https://github.com/bobs-org/bob-cli/commit/97edc43825aed9ab0e9db630f54a15bfe779f535) | docs(run-obsidian): add \`:\` troubleshooting and refresh generated docs | [bob-cli-ce](README.md) | 2026-10-26 15:20:03 EDT |
+| bob-plugins | [`bob-plugins@86f9e61`](https://github.com/bobs-org/bob-plugins/commit/86f9e613ff235c8f8890419dca080e209a946117) | fix(command-mode): drop inherited NO\_COLOR in test runner, add \`:\` troubleshooting | [bob-cli-ce](README.md) | 2026-10-26 15:20:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
