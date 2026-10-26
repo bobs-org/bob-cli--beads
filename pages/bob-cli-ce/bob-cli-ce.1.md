@@ -17,7 +17,7 @@ vault-prep: turn all 16 recursive `nmap … :bob_*<CR>` lines in the vault vimrc
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ce.9](bob-cli-ce.9.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.9](bob-cli-ce.9.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

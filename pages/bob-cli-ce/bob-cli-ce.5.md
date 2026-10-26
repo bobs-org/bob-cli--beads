@@ -43,8 +43,10 @@ runner: create the desktop-only bob-command-mode plugin with a bob resolver, chi
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ce.5][1] | check remaining work and notes | 2 |
 | read-by | [agent:bob-cli-ce.6][2] | Check whether the existing docs-lint finding is already tracked | 1 |
+| read-by | [agent:bob-cli-ce.8][3] | Need runner phase scope to find where plugin files landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.8/README.md
 
 <!-- sase:referenced-by:end -->

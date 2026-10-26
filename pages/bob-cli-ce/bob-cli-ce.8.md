@@ -20,7 +20,7 @@ sheet: build the `Bob: Command mode` bottom sheet. It has fuzzy ranking with key
 ## Dependencies
 
 - **Depends on:** [bob-cli-ce.7](bob-cli-ce.7.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.9](bob-cli-ce.9.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.9](bob-cli-ce.9.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -33,3 +33,15 @@ sheet: build the `Bob: Command mode` bottom sheet. It has fuzzy ranking with key
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5790364`](https://github.com/bobs-org/bob-plugins/commit/5790364b047a5133634682d0e5aed45443715357) | feat(command-mode): add the bottom command sheet | [bob-cli-ce.8](bob-cli-ce.8.md) | 2026-10-26 13:21:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.8/README.md
+
+<!-- sase:referenced-by:end -->

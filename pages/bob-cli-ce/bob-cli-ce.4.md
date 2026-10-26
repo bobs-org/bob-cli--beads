@@ -17,7 +17,7 @@ completion-names: complete theme names for `themes hide|unhide|color|rename OLD`
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ce.9](bob-cli-ce.9.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.9](bob-cli-ce.9.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

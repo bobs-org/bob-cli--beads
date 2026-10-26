@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_colon_command_mode.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_colon_command_mode.md
 
@@ -39,7 +39,7 @@ Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command s
 | [bob-cli-ce.6](bob-cli-ce.6.md) | Toasts, status chip, outcome adapters, and OS notifications | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.7](bob-cli-ce.7.md) | Output pager and run history | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.8](bob-cli-ce.8.md) | The bottom command sheet | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-ce.9](bob-cli-ce.9.md) | Argument mode, typed runs, Vim routing, and binding the colon key | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-ce.9](bob-cli-ce.9.md) | Argument mode, typed runs, Vim routing, and binding the colon key | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 
 ## Lineage
 
@@ -56,7 +56,7 @@ flowchart TD
     n8["bob-cli-ce.6: Toasts, status chip, outcome adapters, and OS notifications [closed]"]
     n9["bob-cli-ce.7: Output pager and run history [closed]"]
     n10["bob-cli-ce.8: The bottom command sheet [closed]"]
-    n11["bob-cli-ce.9: Argument mode, typed runs, Vim routing, and binding the colon key [in_progress]"]
+    n11["bob-cli-ce.9: Argument mode, typed runs, Vim routing, and binding the colon key [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ce.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.6/README.md) | [bob-cli-ce.6](bob-cli-ce.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.7/README.md) | [bob-cli-ce.7](bob-cli-ce.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.8/README.md) | [bob-cli-ce.8](bob-cli-ce.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-ce.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.9/README.md) | [bob-cli-ce.9](bob-cli-ce.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-ce.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.9/README.md) | [bob-cli-ce.9](bob-cli-ce.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.land/README.md) | [bob-cli-ce](README.md) | 0 |
 
 ## Commits
@@ -111,6 +111,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c036597`](https://github.com/bobs-org/bob-plugins/commit/c036597c5f05d92a1ee79f821c392c01cfbb5bf0) | feat(command-mode): add streaming output pager and run history | [bob-cli-ce.7](bob-cli-ce.7.md) | 2026-10-26 12:56:43 EDT |
 | bob-plugins | [`bob-plugins@e3b2763`](https://github.com/bobs-org/bob-plugins/commit/e3b276313de3a5f58887444a2771b5ca13ecde4f) | feat(plugins): route snapshot through command-mode runner and refresh caches on run-finished | [bob-cli-ce.10](bob-cli-ce.10.md) | 2026-10-26 13:13:39 EDT |
 | bob-plugins | [`bob-plugins@5790364`](https://github.com/bobs-org/bob-plugins/commit/5790364b047a5133634682d0e5aed45443715357) | feat(command-mode): add the bottom command sheet | [bob-cli-ce.8](bob-cli-ce.8.md) | 2026-10-26 13:21:24 EDT |
+| bob-plugins | [`bob-plugins@6f8f1c5`](https://github.com/bobs-org/bob-plugins/commit/6f8f1c5c93edec5c2d82d41b3bc6d49760aff302) | feat(command-mode): add argument and Vim routing | [bob-cli-ce.9](bob-cli-ce.9.md) | 2026-10-26 14:06:09 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -119,7 +120,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ce.7][1] | Need parent epic notes and remaining pager work | 1 |
+| read-by | [agent:bob-cli-ce.8][2] | epic context for sheet phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.8/README.md
 
 <!-- sase:referenced-by:end -->
