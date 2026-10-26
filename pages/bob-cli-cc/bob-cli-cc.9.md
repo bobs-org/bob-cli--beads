@@ -27,14 +27,20 @@ Not verified: live Highlights ⌘Y C ↵ vs bob ref code paste (no GUI session).
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-cc.10](bob-cli-cc.10.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cc.10](bob-cli-cc.10.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-cc.8](bob-cli-cc.8.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.9/README.md) | [bob-cli-cc.9](bob-cli-cc.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@c7a5f37`](https://github.com/bobs-org/bob-mac-capture/commit/c7a5f372f104e3252e47d65d605d1d297aebbdc7) | feat(refs): wire Copy card code picker and preview well | [bob-cli-cc.9](bob-cli-cc.9.md) | 2026-10-26 13:05:19 EDT |
 
 <!-- sase:referenced-by:start -->
 

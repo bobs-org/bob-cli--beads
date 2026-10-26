@@ -21,7 +21,7 @@ lifecycle: make -f overwrite stage, install, repoint, and roll back the store in
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-cc.10](bob-cli-cc.10.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cc.10](bob-cli-cc.10.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-cc.3](bob-cli-cc.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
