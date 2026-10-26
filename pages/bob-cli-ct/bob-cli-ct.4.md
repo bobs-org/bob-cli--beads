@@ -18,7 +18,7 @@ mac-core: decode `bob ref links`, add the L row, its key resolution, loading que
 ## Dependencies
 
 - **Depends on:** [bob-cli-ct.2](bob-cli-ct.2.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ct.5](bob-cli-ct.5.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ct.5](bob-cli-ct.5.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -31,3 +31,15 @@ mac-core: decode `bob ref links`, add the L row, its key resolution, loading que
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@6c3b1d4`](https://github.com/bobs-org/bob-mac-capture/commit/6c3b1d47f27e4b4d0087d2600817e9af1d6e513b) | feat(refs): add link catalog, L row, and picker model | [bob-cli-ct.4](bob-cli-ct.4.md) | 2026-10-26 17:17:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ct.4][1] | Need full phase description, notes, and design file path | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.4/README.md
+
+<!-- sase:referenced-by:end -->

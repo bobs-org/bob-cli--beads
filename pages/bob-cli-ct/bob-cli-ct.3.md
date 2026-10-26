@@ -20,4 +20,4 @@ recatalog: map links to pages from an existing PDF's link annotations, record li
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ct.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.3/README.md) | [bob-cli-ct.3](bob-cli-ct.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ct.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ct.3.md) | [bob-cli-ct.3](bob-cli-ct.3.md) | 0 |
