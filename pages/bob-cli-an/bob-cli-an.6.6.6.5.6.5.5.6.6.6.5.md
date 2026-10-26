@@ -32,3 +32,15 @@ start-name-again-order: resolve bob-cli-bn by making today_start_rows order agai
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a8ef171`](https://github.com/bobs-org/bob-cli/commit/a8ef17181eaaa6b1ab31773fc55eaf79a8d0eff1) | fix(capture-complete): order repeated completed start names newest-first | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.5.md) | 2026-10-25 12:05:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.5/README.md
+
+<!-- sase:referenced-by:end -->
