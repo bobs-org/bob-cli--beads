@@ -30,3 +30,15 @@ day-strip-legend-overflow: resolve bob-cli-c8 by keeping each Day strip legend i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@abb6ea6`](https://github.com/bobs-org/bob-plugins/commit/abb6ea648c2ec40006cfa07c974151fd64eb382c) | test(ledger-tools): add item-level legend overflow check to day-strip preview harness | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5.md) | 2026-10-26 09:36:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5/README.md
+
+<!-- sase:referenced-by:end -->
