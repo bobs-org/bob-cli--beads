@@ -13,7 +13,7 @@ mac-core: decode source_markdown and the bob ref code JSON, add the C and M rows
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-cc.4](bob-cli-cc.4.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-cc.4](bob-cli-cc.4.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-cc.7](bob-cli-cc.7.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-cc.9](bob-cli-cc.9.md) ◐ · ⧖ 2026-10-26
 

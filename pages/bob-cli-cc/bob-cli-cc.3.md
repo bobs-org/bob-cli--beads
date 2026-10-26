@@ -19,7 +19,7 @@ store: persist source.md plus code.json under .bob/ref-sources at create time, r
 
 - **Depends on:** [bob-cli-cc.1](bob-cli-cc.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-cc.2](bob-cli-cc.2.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-cc.4](bob-cli-cc.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-cc.4](bob-cli-cc.4.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-cc.5](bob-cli-cc.5.md) ◐ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-cc.6](bob-cli-cc.6.md) ◐ · ⧖ 2026-10-26
 
@@ -34,3 +34,15 @@ store: persist source.md plus code.json under .bob/ref-sources at create time, r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`009060f`](https://github.com/bobs-org/bob-cli/commit/009060f9b4b2b09f67c1d7754a23c9c64923a412) | feat(highlights-ref): write-once source store and source\_markdown pointer | [bob-cli-cc.3](bob-cli-cc.3.md) | 2026-10-26 11:18:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-cc.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md
+
+<!-- sase:referenced-by:end -->

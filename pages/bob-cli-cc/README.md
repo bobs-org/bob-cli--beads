@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_code_block_copy.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_code_block_copy.md
 
 <!-- sase:links:end -->
@@ -31,7 +33,7 @@ While reading a bob-rendered reference in Highlights, Command-Y C Return puts th
 | [bob-cli-cc.10](bob-cli-cc.10.md) | Decision records | ◐ in_progress | xsmall | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.2](bob-cli-cc.2.md) | Render-time code catalog on both pandoc routes | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-cc.3](bob-cli-cc.3.md) | Write-once source store and the source\_markdown pointer | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-cc.4](bob-cli-cc.4.md) | bob ref code read surface | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-cc.4](bob-cli-cc.4.md) | bob ref code read surface | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-cc.5](bob-cli-cc.5.md) | Overwrite repointing and the doctor sources check | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.6](bob-cli-cc.6.md) | Verified attach of existing references' sources | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-cc.7](bob-cli-cc.7.md) | Command-Y takeover in Highlights and type-ahead | ✓ closed | medium | 2026-10-26 | 1 | 0 |
@@ -47,7 +49,7 @@ flowchart TD
     n2["bob-cli-cc.10: Decision records [in_progress]"]
     n3["bob-cli-cc.2: Render-time code catalog on both pandoc routes [closed]"]
     n4["bob-cli-cc.3: Write-once source store and the source_markdown pointer [closed]"]
-    n5["bob-cli-cc.4: bob ref code read surface [in_progress]"]
+    n5["bob-cli-cc.4: bob ref code read surface [closed]"]
     n6["bob-cli-cc.5: Overwrite repointing and the doctor sources check [in_progress]"]
     n7["bob-cli-cc.6: Verified attach of existing references' sources [in_progress]"]
     n8["bob-cli-cc.7: Command-Y takeover in Highlights and type-ahead [closed]"]
@@ -84,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-cc.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.10/README.md) | [bob-cli-cc.10](bob-cli-cc.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cc.2.md) | [bob-cli-cc.2](bob-cli-cc.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md) | [bob-cli-cc.3](bob-cli-cc.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-cc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.4/README.md) | [bob-cli-cc.4](bob-cli-cc.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-cc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.4/README.md) | [bob-cli-cc.4](bob-cli-cc.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-cc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.5/README.md) | [bob-cli-cc.5](bob-cli-cc.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.6/README.md) | [bob-cli-cc.6](bob-cli-cc.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-cc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.7/README.md) | [bob-cli-cc.7](bob-cli-cc.7.md) | 0 |
@@ -99,3 +101,16 @@ flowchart TD
 | bob-cli | [`01f7ec9`](https://github.com/bobs-org/bob-cli/commit/01f7ec972ccbe499ca46dc1e377023c0c32bdf92) | fix(vault): keep note walkers out of .bob | [bob-cli-cc.1](bob-cli-cc.1.md) | 2026-10-26 09:20:31 EDT |
 | bob-cli | [`c7ced49`](https://github.com/bobs-org/bob-cli/commit/c7ced497d875f5c569d1a324ca9ac5a59a6e49eb) | feat(highlights-ref): build render-time code catalog | [bob-cli-cc.2](bob-cli-cc.2.md) | 2026-10-26 10:32:44 EDT |
 | bob-cli | [`009060f`](https://github.com/bobs-org/bob-cli/commit/009060f9b4b2b09f67c1d7754a23c9c64923a412) | feat(highlights-ref): write-once source store and source\_markdown pointer | [bob-cli-cc.3](bob-cli-cc.3.md) | 2026-10-26 11:18:37 EDT |
+| bob-cli | [`fb28faa`](https://github.com/bobs-org/bob-cli/commit/fb28faa1af7094601f2762a03ff681301a836d50) | feat(ref): add saved code catalog read command | [bob-cli-cc.4](bob-cli-cc.4.md) | 2026-10-26 11:40:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-cc.3][1] | Need parent epic plan and design | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cc.3/README.md
+
+<!-- sase:referenced-by:end -->
