@@ -20,7 +20,7 @@ args-vim: add argument mode backed by `bob __complete`, a quote-aware tokenizer 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ce.1](bob-cli-ce.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.11](bob-cli-ce.11.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.11](bob-cli-ce.11.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-ce.4](bob-cli-ce.4.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-ce.8](bob-cli-ce.8.md) ✓ · ⧖ 2026-10-26
 
@@ -35,3 +35,15 @@ args-vim: add argument mode backed by `bob __complete`, a quote-aware tokenizer 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6f8f1c5`](https://github.com/bobs-org/bob-plugins/commit/6f8f1c5c93edec5c2d82d41b3bc6d49760aff302) | feat(command-mode): add argument and Vim routing | [bob-cli-ce.9](bob-cli-ce.9.md) | 2026-10-26 14:06:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.9][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.9/README.md
+
+<!-- sase:referenced-by:end -->

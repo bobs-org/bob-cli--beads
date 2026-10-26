@@ -25,13 +25,17 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command sheet. The user filters a bob-owned catalog of every useful bob command, runs one with context-aware arguments and safe-write guards, and is notified when it finishes, with three honest outcome classes (completed, needs attention, failed). The full output is always one key away in a pager that doubles as run history. Vim's own ex line stays reachable through `::`, Vim-shaped input, and `g:`.
 
+## Notes
+
+[2026-10-26T18:10:26Z · bryanbugyi34@gmail.com] Nothing seems to happen when I press the ':' key on my macbook in Obsidian currently. The Epic Lander agent should look into this and resolve it before closing the epic.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ce.1](bob-cli-ce.1.md) | Make the colon key safe and keep the new plugin out of vault git | ✓ closed | small | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.10](bob-cli-ce.10.md) | Move Snapshot to Highlights onto the runner and refresh ledger caches | ✓ closed | small | 2026-10-26 | 1 | 1 |
-| [bob-cli-ce.11](bob-cli-ce.11.md) | Guide, reference polish, and end-to-end verification | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
+| [bob-cli-ce.11](bob-cli-ce.11.md) | Guide, reference polish, and end-to-end verification | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.2](bob-cli-ce.2.md) | bob \_\_catalog --protocol 1 | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.3](bob-cli-ce.3.md) | Color, progress, and exit receipts for non-TTY runs | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.4](bob-cli-ce.4.md) | Theme-name and relation-label completion providers | ✓ closed | small | 2026-10-26 | 1 | 1 |
@@ -48,7 +52,7 @@ flowchart TD
     n0["bob-cli-ce: Bob command mode: press : in Obsidian to run bob [in_progress]"]
     n1["bob-cli-ce.1: Make the colon key safe and keep the new plugin out of vault git [closed]"]
     n2["bob-cli-ce.10: Move Snapshot to Highlights onto the runner and refresh ledger caches [closed]"]
-    n3["bob-cli-ce.11: Guide, reference polish, and end-to-end verification [in_progress]"]
+    n3["bob-cli-ce.11: Guide, reference polish, and end-to-end verification [closed]"]
     n4["bob-cli-ce.2: bob __catalog --protocol 1 [closed]"]
     n5["bob-cli-ce.3: Color, progress, and exit receipts for non-TTY runs [closed]"]
     n6["bob-cli-ce.4: Theme-name and relation-label completion providers [closed]"]
@@ -88,7 +92,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ce.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.1/README.md) | [bob-cli-ce.1](bob-cli-ce.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.10/README.md) | [bob-cli-ce.10](bob-cli-ce.10.md) | 1 |
-| [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.2/README.md) | [bob-cli-ce.2](bob-cli-ce.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.3/README.md) | [bob-cli-ce.3](bob-cli-ce.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.4/README.md) | [bob-cli-ce.4](bob-cli-ce.4.md) | 1 |
@@ -112,6 +116,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e3b2763`](https://github.com/bobs-org/bob-plugins/commit/e3b276313de3a5f58887444a2771b5ca13ecde4f) | feat(plugins): route snapshot through command-mode runner and refresh caches on run-finished | [bob-cli-ce.10](bob-cli-ce.10.md) | 2026-10-26 13:13:39 EDT |
 | bob-plugins | [`bob-plugins@5790364`](https://github.com/bobs-org/bob-plugins/commit/5790364b047a5133634682d0e5aed45443715357) | feat(command-mode): add the bottom command sheet | [bob-cli-ce.8](bob-cli-ce.8.md) | 2026-10-26 13:21:24 EDT |
 | bob-plugins | [`bob-plugins@6f8f1c5`](https://github.com/bobs-org/bob-plugins/commit/6f8f1c5c93edec5c2d82d41b3bc6d49760aff302) | feat(command-mode): add argument and Vim routing | [bob-cli-ce.9](bob-cli-ce.9.md) | 2026-10-26 14:06:09 EDT |
+| bob-cli | [`60eb781`](https://github.com/bobs-org/bob-cli/commit/60eb781228f9c5be0053213f4be3e90cd9505c4f) | docs(command-mode): add Obsidian usage guide | [bob-cli-ce.11](bob-cli-ce.11.md) | 2026-10-26 14:26:38 EDT |
 
 <!-- sase:referenced-by:start -->
 
