@@ -18,7 +18,7 @@ shared: extract the narrow lock, precondition, scoped-git, and rollback helpers 
 ## Dependencies
 
 - **Blocks:** [bob-cli-c9.4.1.2](bob-cli-c9.4.1.2.md) ◐ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.4.1.3](bob-cli-c9.4.1.3.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.4.1.3](bob-cli-c9.4.1.3.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ shared: extract the narrow lock, precondition, scoped-git, and rollback helpers 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6196cea`](https://github.com/bobs-org/bob-cli/commit/6196cea7b90f6648a80a9c5099611c1598b3cd40) | refactor(ref): extract shared reference mutation safety primitives | [bob-cli-c9.4.1.1](bob-cli-c9.4.1.1.md) | 2026-10-25 22:59:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.1][1] | Need full phase notes, DECISIONS, and design file path | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
