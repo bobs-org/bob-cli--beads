@@ -19,7 +19,7 @@ links-catalog: extend the render-time catalog filter to record every URI link (e
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ct.2](bob-cli-ct.2.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ct.2](bob-cli-ct.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ct.3](bob-cli-ct.3.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
@@ -33,3 +33,15 @@ links-catalog: extend the render-time catalog filter to record every URI link (e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`96793fd`](https://github.com/bobs-org/bob-cli/commit/96793fdac1309f1fc8c0cada42211222eef6d8b7) | feat(highlights-ref): record URI link catalog with anchor pages in code.json | [bob-cli-ct.1](bob-cli-ct.1.md) | 2026-10-26 16:03:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ct.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ mac-core: decode `bob ref links`, add the L row, its key resolution, loading que
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ct.2](bob-cli-ct.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ct.2](bob-cli-ct.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ct.5](bob-cli-ct.5.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

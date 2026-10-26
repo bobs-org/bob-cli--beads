@@ -14,7 +14,7 @@ recatalog: map links to pages from an existing PDF's link annotations, record li
 ## Dependencies
 
 - **Depends on:** [bob-cli-ct.1](bob-cli-ct.1.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-ct.2](bob-cli-ct.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ct.2](bob-cli-ct.2.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
