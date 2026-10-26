@@ -7,6 +7,18 @@
 **Created:** 2026-10-25 19:48:33 EDT
 **Plan:** [202610/ref\_reread\_landing\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_reread_landing_fixes.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/ref_reread_landing_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_reread_landing_fixes.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every gap the bob-cli-c9.3.1 land review found is fixed: rereads join only the reference they really repeat, attach and intake keep working on later readings, partial overlaps never reread, every route honours the reread contract, and the docs and tests match the shipped behavior, so the bob-cli-c9.3.1 landing can resume and close.

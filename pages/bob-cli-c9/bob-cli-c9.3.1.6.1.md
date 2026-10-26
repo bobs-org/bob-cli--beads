@@ -19,7 +19,7 @@ intake_recheck: stop the locked recheck from refusing audio attach onto __vN rea
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-c9.3.1.6.2](bob-cli-c9.3.1.6.2.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.3.1.6.2](bob-cli-c9.3.1.6.2.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -32,3 +32,15 @@ intake_recheck: stop the locked recheck from refusing audio attach onto __vN rea
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c192014`](https://github.com/bobs-org/bob-cli/commit/c192014eeede15b4a87079787ade257372ec575c) | fix(ref): recheck locked reread intake occupancy | [bob-cli-c9.3.1.6.1](bob-cli-c9.3.1.6.1.md) | 2026-10-25 20:00:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.3.1.6.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.1/README.md
+
+<!-- sase:referenced-by:end -->

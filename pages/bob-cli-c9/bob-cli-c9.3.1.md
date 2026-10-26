@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_create_reread.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_create_reread.md
 
@@ -44,9 +44,11 @@ Complete bob-cli-c9.3 so an explicit reread creates a separate reading with dura
 | read-by | [agent:bob-cli-c9.3.1.1][1] | parent epic scope | 1 |
 | read-by | [agent:bob-cli-c9.3.1.4][2] | Need parent epic status | 1 |
 | read-by | [agent:bob-cli-c9.3.1.5][3] | Need epic DECISIONS | 1 |
+| read-by | [agent:bob-cli-c9.3.1.6.1][4] | Need inherited shared contract and validation requirements for this phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.3.1.6.1/README.md
 
 <!-- sase:referenced-by:end -->
