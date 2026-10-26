@@ -40,7 +40,9 @@ transaction: consume the prepared overwrite and private staged bundle under both
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-c9.4.1.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-c9.4.1.5][2] | Need what transaction phase landed before connecting local routes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.5/README.md
 
 <!-- sase:referenced-by:end -->

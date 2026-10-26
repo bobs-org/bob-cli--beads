@@ -18,7 +18,7 @@ local: connect local PDF, Markdown, and vault-note rendering to the overwrite tr
 ## Dependencies
 
 - **Depends on:** [bob-cli-c9.4.1.4](bob-cli-c9.4.1.4.md) ✓ · ⧖ 2026-10-25
-- **Blocks:** [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -31,3 +31,15 @@ local: connect local PDF, Markdown, and vault-note rendering to the overwrite tr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`00200a9`](https://github.com/bobs-org/bob-cli/commit/00200a967fa818fc0f2c40135bc7cc49d2ce927c) | feat(highlights): enable local-file and vault-snapshot overwrite | [bob-cli-c9.4.1.5](bob-cli-c9.4.1.5.md) | 2026-10-26 01:21:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-c9.4.1.5][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-c9.4.1.5/README.md
+
+<!-- sase:referenced-by:end -->

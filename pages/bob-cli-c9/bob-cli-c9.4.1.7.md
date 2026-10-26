@@ -13,7 +13,7 @@ collections: integrate exact-URL-set collection overwrite, collection narration,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) ◐ · ⧖ 2026-10-25
+- **Depends on:** [bob-cli-c9.4.1.6](bob-cli-c9.4.1.6.md) ✓ · ⧖ 2026-10-25
 - **Blocks:** [bob-cli-c9.4.1.8](bob-cli-c9.4.1.8.md) ◐ · ⧖ 2026-10-25
 
 ## Agents
