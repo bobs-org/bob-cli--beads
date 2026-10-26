@@ -13,7 +13,7 @@ docs-land: write the "Run bob from Obsidian" guide, finish the plugin reference 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ce.10](bob-cli-ce.10.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-ce.10](bob-cli-ce.10.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-ce.9](bob-cli-ce.9.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

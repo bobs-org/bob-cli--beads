@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_colon_command_mode.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_colon_command_mode.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@ Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command s
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ce.1](bob-cli-ce.1.md) | Make the colon key safe and keep the new plugin out of vault git | ✓ closed | small | 2026-10-26 | 1 | 0 |
-| [bob-cli-ce.10](bob-cli-ce.10.md) | Move Snapshot to Highlights onto the runner and refresh ledger caches | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
+| [bob-cli-ce.10](bob-cli-ce.10.md) | Move Snapshot to Highlights onto the runner and refresh ledger caches | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.11](bob-cli-ce.11.md) | Guide, reference polish, and end-to-end verification | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.2](bob-cli-ce.2.md) | bob \_\_catalog --protocol 1 | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.3](bob-cli-ce.3.md) | Color, progress, and exit receipts for non-TTY runs | ✓ closed | small | 2026-10-26 | 1 | 1 |
@@ -36,7 +38,7 @@ Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command s
 | [bob-cli-ce.5](bob-cli-ce.5.md) | bob-command-mode plugin scaffold and run engine | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.6](bob-cli-ce.6.md) | Toasts, status chip, outcome adapters, and OS notifications | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ce.7](bob-cli-ce.7.md) | Output pager and run history | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-ce.8](bob-cli-ce.8.md) | The bottom command sheet | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-ce.8](bob-cli-ce.8.md) | The bottom command sheet | ○ open | medium | 2026-10-26 | 1 | 0 |
 | [bob-cli-ce.9](bob-cli-ce.9.md) | Argument mode, typed runs, Vim routing, and binding the colon key | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +47,7 @@ Pressing `:` in Obsidian's Vim normal mode opens a fast, beautiful bob command s
 flowchart TD
     n0["bob-cli-ce: Bob command mode: press : in Obsidian to run bob [in_progress]"]
     n1["bob-cli-ce.1: Make the colon key safe and keep the new plugin out of vault git [closed]"]
-    n2["bob-cli-ce.10: Move Snapshot to Highlights onto the runner and refresh ledger caches [in_progress]"]
+    n2["bob-cli-ce.10: Move Snapshot to Highlights onto the runner and refresh ledger caches [closed]"]
     n3["bob-cli-ce.11: Guide, reference polish, and end-to-end verification [in_progress]"]
     n4["bob-cli-ce.2: bob __catalog --protocol 1 [closed]"]
     n5["bob-cli-ce.3: Color, progress, and exit receipts for non-TTY runs [closed]"]
@@ -53,7 +55,7 @@ flowchart TD
     n7["bob-cli-ce.5: bob-command-mode plugin scaffold and run engine [closed]"]
     n8["bob-cli-ce.6: Toasts, status chip, outcome adapters, and OS notifications [closed]"]
     n9["bob-cli-ce.7: Output pager and run history [closed]"]
-    n10["bob-cli-ce.8: The bottom command sheet [in_progress]"]
+    n10["bob-cli-ce.8: The bottom command sheet [open]"]
     n11["bob-cli-ce.9: Argument mode, typed runs, Vim routing, and binding the colon key [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -85,7 +87,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ce.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.1/README.md) | [bob-cli-ce.1](bob-cli-ce.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-ce.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.10/README.md) | [bob-cli-ce.10](bob-cli-ce.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-ce.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.10/README.md) | [bob-cli-ce.10](bob-cli-ce.10.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.11/README.md) | [bob-cli-ce.11](bob-cli-ce.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-ce.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.2/README.md) | [bob-cli-ce.2](bob-cli-ce.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ce.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.3/README.md) | [bob-cli-ce.3](bob-cli-ce.3.md) | 1 |
@@ -107,3 +109,16 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7d005fb`](https://github.com/bobs-org/bob-plugins/commit/7d005fb6373987fbda4368093e58adb840c1e190) | feat(command-mode): add bob-command-mode run engine, catalog, runner and docs | [bob-cli-ce.5](bob-cli-ce.5.md) | 2026-10-26 12:04:45 EDT |
 | bob-plugins | [`bob-plugins@90eb3c0`](https://github.com/bobs-org/bob-plugins/commit/90eb3c076039f867e679394d3aa88b5a31fd3fa1) | feat(bob-command-mode): add run feedback and rerun controls | [bob-cli-ce.6](bob-cli-ce.6.md) | 2026-10-26 12:31:35 EDT |
 | bob-plugins | [`bob-plugins@c036597`](https://github.com/bobs-org/bob-plugins/commit/c036597c5f05d92a1ee79f821c392c01cfbb5bf0) | feat(command-mode): add streaming output pager and run history | [bob-cli-ce.7](bob-cli-ce.7.md) | 2026-10-26 12:56:43 EDT |
+| bob-plugins | [`bob-plugins@e3b2763`](https://github.com/bobs-org/bob-plugins/commit/e3b276313de3a5f58887444a2771b5ca13ecde4f) | feat(plugins): route snapshot through command-mode runner and refresh caches on run-finished | [bob-cli-ce.10](bob-cli-ce.10.md) | 2026-10-26 13:13:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.7][1] | Need parent epic notes and remaining pager work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.7/README.md
+
+<!-- sase:referenced-by:end -->

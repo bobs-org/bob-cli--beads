@@ -17,9 +17,9 @@ pager: build the streaming output pager. It renders ANSI color, marks stderr, pr
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ce.10](bob-cli-ce.10.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.10](bob-cli-ce.10.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [bob-cli-ce.6](bob-cli-ce.6.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ce.8](bob-cli-ce.8.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ce.8](bob-cli-ce.8.md) ○ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -32,3 +32,15 @@ pager: build the streaming output pager. It renders ANSI color, marks stderr, pr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@c036597`](https://github.com/bobs-org/bob-plugins/commit/c036597c5f05d92a1ee79f821c392c01cfbb5bf0) | feat(command-mode): add streaming output pager and run history | [bob-cli-ce.7](bob-cli-ce.7.md) | 2026-10-26 12:56:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ce.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ce.7/README.md
+
+<!-- sase:referenced-by:end -->
