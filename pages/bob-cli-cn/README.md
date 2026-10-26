@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-cn.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.1/README.md) | [bob-cli-cn.1](bob-cli-cn.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-cn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.2/README.md) | [bob-cli-cn.2](bob-cli-cn.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-cn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-cn.3/README.md) | [bob-cli-cn.3](bob-cli-cn.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-cn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cn.land.md) | [bob-cli-cn](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-cn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-cn.land.md) | [bob-cli-cn](README.md) | 2 |
 
 ## Commits
 
@@ -73,3 +73,4 @@ flowchart TD
 | bob-cli | [`bd9c7a8`](https://github.com/bobs-org/bob-cli/commit/bd9c7a8c5b061c64b2f14d1f601f7c4d64358cf4) | docs(stats): describe the Day strip typical line | [bob-cli-cn.2](bob-cli-cn.2.md) | 2026-10-26 14:32:15 EDT |
 | bob-plugins | [`bob-plugins@cc5d045`](https://github.com/bobs-org/bob-plugins/commit/cc5d045b350edad0cd6d7dec47bb3df7096919c0) | feat(day-strip): show each fact's typical day | [bob-cli-cn.2](bob-cli-cn.2.md) | 2026-10-26 14:33:08 EDT |
 | bob-cli | [`777df22`](https://github.com/bobs-org/bob-cli/commit/777df22f5b8f02e59a53e0d705e794e29a96decd) | fix(stats): share the usable-day rule with typical day | [bob-cli-cn](README.md) | 2026-10-26 15:32:03 EDT |
+| bob-cli--plans | [`bob-cli--plans@29b3884`](https://github.com/bobs-org/bob-cli--plans/commit/29b3884db3bc673d71ed728039e2b7f0d4fedb72) | chore(plans): mark day strip typical-day plans done | [bob-cli-cn](README.md) | 2026-10-26 15:35:05 EDT |
