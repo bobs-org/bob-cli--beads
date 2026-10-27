@@ -11,8 +11,12 @@
 
 ref-pointer-orphans: resolve bob-cli-cy by finding the create path that wrote the muse_commentary store but no pointer, making store and pointer land together, and routing the one live orphan's repair through a gate.
 
+## Notes
+
+[2026-10-27T07:19:50Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2] PLANNING EVIDENCE: On bob-cli 2f004d77, both sync execution branches rebuild pipeline_metadata and drop stable_metadata.source_markdown; the omission exists in 009060f9. The isolated bobs-org/bob checkout confirms 6beb2dad7 saved the source and d679d5151 created the only note revision without its pointer; source and PDF hashes still match the catalog exactly. A named attach-source dry run using the existing saved source verified 1 reference, skipped 0, writes none. No implementation or live-vault changes were made. A validated medium tale, sase_plan_ref_source_birth_pointer.md, covers pointer transfer, an intake invariant, regressions, doctor guidance, and the epic-required human repair gate; it is being submitted through sase plan propose.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.2.md) | 0 |

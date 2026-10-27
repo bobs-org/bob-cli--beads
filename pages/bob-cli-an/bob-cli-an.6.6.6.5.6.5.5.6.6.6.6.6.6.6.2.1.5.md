@@ -24,14 +24,13 @@ presentation-acceptance: remove the Bob Refs close-the-PDF rename hint, verify r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0e6b040`](https://github.com/bobs-org/bob-cli/commit/0e6b04000d88dec42eab0988b57b37269ef2a063) | test(refs): expand PDF coordination acceptance coverage | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) | 2026-10-27 01:43:09 EDT |
-| bob-mac-capture | [`bob-mac-capture@9db33a6`](https://github.com/bobs-org/bob-mac-capture/commit/9db33a6393f7f34cb5dc2f81abffa9f335451814) | fix(refs): preserve retryable rename feedback | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) | 2026-10-27 01:45:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
