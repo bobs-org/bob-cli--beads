@@ -11,6 +11,12 @@
 
 open-pdf-move-coordination: resolve bob-cli-az by routing rename/move, the id stamp, and create --force through bounded Highlights file coordination, then retiring the Bob Refs rename card's close-the-PDF hint.
 
+## Notes
+
+[2026-10-27T02:50:04Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2] Planning audit at dc040b02: no prior-worker notes and no phase epic-symbol entries; wrong-vault prerequisite has landed. Rename still moves and rewrites its id without coordination, while filed overwrite already owns an outer coordinated transaction. Private pdf_target scratch stamping is safe; remaining public stamp/copy and early audio publication paths need the guard. Prepared a five-phase child epic (move coordinator, rename transaction, guarded install, remaining capture writers, Mac UI/docs/acceptance), validated and revalidated with zero warnings. No product or memory files changed. The child lander is instructed to verify and close this phase only; bob-cli-az and batch-15 ancestor closure remain with the batch lander.
+
+[2026-10-27T02:50:09Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2] PROPOSED FOLLOW-UP: Verify annotated-overwrite archive move presenter tracking — overwrite/execute.rs archive_pdf uses rename_no_replace inside merging access, and overwrite/recovery.rs PlatformReverseCoordinator uses coordinate_merging_write for the inverse; neither path currently issues didMoveToURL. This is a separate existing archive transaction from ref rename. The batch lander should check native presenter behavior and existing ownership before expanding bob-cli-az or filing follow-up work; no live or native reproduction was attempted during planning.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1.md) ✓ · ⧖ 2026-10-26
@@ -19,4 +25,4 @@ open-pdf-move-coordination: resolve bob-cli-az by routing rename/move, the id st
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.md) | 0 |

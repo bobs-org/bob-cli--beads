@@ -34,3 +34,15 @@ vault-flag-presync: resolve bob-cli-cj by making bob ref rename and every other 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dc040b0`](https://github.com/bobs-org/bob-cli/commit/dc040b02c8bd2dfc7b60f5999b2a2f9fce0251d2) | fix(vault-sync)!: refuse online writes to a different vault | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1.md) | 2026-10-26 22:39:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1.md
+
+<!-- sase:referenced-by:end -->

@@ -49,13 +49,12 @@ FOLLOW-UP TRIAGE: .1 #3 (BOB_TEST_FIXTURE_PDF docs lint) and .4 #1 (same): cause
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 3 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@35bda67`](https://github.com/bobs-org/bob-plugins/commit/35bda672fce16740517a5b8b3352bdb540603f47) | test(navigation): retire the legacy dependency-line migration with the R8 readers | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2026-10-26 15:12:24 EDT |
 | bob-cli | [`d7cfa05`](https://github.com/bobs-org/bob-cli/commit/d7cfa05c16c4e760df0c885f845cd55260c2edfe) | test(task-deps): scan fenced dependents through the managed line | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2026-10-26 15:26:25 EDT |
 | bob-cli--plans | [`bob-cli--plans@b844ad5`](https://github.com/bobs-org/bob-cli--plans/commit/b844ad56d7006eaf0b524dd2db2fc8ed0b986f65) | chore(plans): mark backlog batch 14 done | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.md) | 2026-10-26 15:39:23 EDT |
 
