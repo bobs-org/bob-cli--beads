@@ -28,13 +28,7 @@ popout-mark-gates: resolve bob-cli-9q by making the bob-ledger-tools progress-ma
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@4e54e2f`](https://github.com/bobs-org/bob-plugins/commit/4e54e2f202c085a92c05ddfe8d81c49eb65ab297) | fix(ledger-tools): mirror mark gate body classes into Obsidian popout windows | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) | 2026-10-25 11:50:41 EDT |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

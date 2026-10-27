@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_security_and_durability.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_security_and_durability.md
 
@@ -63,16 +63,14 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | [bbugyi200.athena.bob-cli-an.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.5/README.md) | [bob-cli-an.6.6.5](bob-cli-an.6.6.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.1.md) | [bob-cli-an.6.6.6.1](bob-cli-an.6.6.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.2.md) | [bob-cli-an.6.6.6.2](bob-cli-an.6.6.6.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.3.md) | [bob-cli-an.6.6.6.3](bob-cli-an.6.6.6.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.4/README.md) | [bob-cli-an.6.6.6.4](bob-cli-an.6.6.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.1/README.md) | [bob-cli-an.6.6.6.5.1](bob-cli-an.6.6.6.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.2.md) | [bob-cli-an.6.6.6.5.2](bob-cli-an.6.6.6.5.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.3/README.md) | [bob-cli-an.6.6.6.5.3](bob-cli-an.6.6.6.5.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.4/README.md) | [bob-cli-an.6.6.6.5.4](bob-cli-an.6.6.6.5.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.4/README.md) | [bob-cli-an.6.6.6.5.4](bob-cli-an.6.6.6.5.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md) | [bob-cli-an.6.6.6.5.5](bob-cli-an.6.6.6.5.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.1/README.md) | [bob-cli-an.6.6.6.5.6.1](bob-cli-an.6.6.6.5.6.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.2.md) | [bob-cli-an.6.6.6.5.6.2](bob-cli-an.6.6.6.5.6.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.3/README.md) | [bob-cli-an.6.6.6.5.6.3](bob-cli-an.6.6.6.5.6.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.2.md) | [bob-cli-an.6.6.6.5.6.2](bob-cli-an.6.6.6.5.6.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.4.md) | [bob-cli-an.6.6.6.5.6.4](bob-cli-an.6.6.6.5.6.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.1/README.md) | [bob-cli-an.6.6.6.5.6.5.1](bob-cli-an.6.6.6.5.6.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.2/README.md) | [bob-cli-an.6.6.6.5.6.5.2](bob-cli-an.6.6.6.5.6.5.2.md) | 1 |
@@ -81,7 +79,7 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.1](bob-cli-an.6.6.6.5.6.5.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.2](bob-cli-an.6.6.6.5.6.5.5.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.3](bob-cli-an.6.6.6.5.6.5.5.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.4](bob-cli-an.6.6.6.5.6.5.5.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.4](bob-cli-an.6.6.6.5.6.5.5.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.5](bob-cli-an.6.6.6.5.6.5.5.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.1](bob-cli-an.6.6.6.5.6.5.5.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.2](bob-cli-an.6.6.6.5.6.5.5.6.2.md) | 0 |
@@ -94,19 +92,21 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.1.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.1.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.4.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.4.md) | 0 |
 
-… and 34 more agents
+… and 38 more agents
 
 ## Commits
 
@@ -127,24 +127,20 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | bob-cli--plans | [`bob-cli--plans@8a7199e`](https://github.com/bobs-org/bob-cli--plans/commit/8a7199e5b45ca43b763af8df3e369aee9bad07a4) | chore(plans): mark backlog batch 3 done | [bob-cli-an.6.6](bob-cli-an.6.6.md) | 2026-10-24 05:34:27 EDT |
 | bob-cli | [`30f10f1`](https://github.com/bobs-org/bob-cli/commit/30f10f154afb119a51a5ebf27264538342973c88) | fix(ci): persist scratch vault git identity | [bob-cli-an.6.6.6.1](bob-cli-an.6.6.6.1.md) | 2026-10-24 06:04:06 EDT |
 | bob-mac-capture | [`bob-mac-capture@22598dc`](https://github.com/bobs-org/bob-mac-capture/commit/22598dc09f6b4b937259e716eab29a8c263e0ca7) | fix(capture): tie relation-label suggestions to the authored label | [bob-cli-an.6.6.6.4](bob-cli-an.6.6.6.4.md) | 2026-10-24 06:09:14 EDT |
-| bob-plugins | [`bob-plugins@e6b2ec2`](https://github.com/bobs-org/bob-plugins/commit/e6b2ec2dba4c4a6b865faccbc2e3cad59fef4f10) | fix(plugins): repair frozen-clock tests and reverse BLOCKS links | [bob-cli-an.6.6.6.3](bob-cli-an.6.6.6.3.md) | 2026-10-24 06:13:05 EDT |
 | bob-cli | [`0afeb2f`](https://github.com/bobs-org/bob-cli/commit/0afeb2f3e744ee2ee775172d5c161eadd45e247b) | feat(capture)!: refuse unknown flags via capture\_flag\_guard | [bob-cli-an.6.6.6.2](bob-cli-an.6.6.6.2.md) | 2026-10-24 06:27:36 EDT |
 | bob-mac-capture | [`bob-mac-capture@8400bd3`](https://github.com/bobs-org/bob-mac-capture/commit/8400bd3e1cd4afd0a29ad4a7ea83f33b7557311a) | feat(capture): gate pull-in flag on preview support | [bob-cli-an.6.6.6.2](bob-cli-an.6.6.6.2.md) | 2026-10-24 06:28:16 EDT |
 | bob-cli | [`3d62fb5`](https://github.com/bobs-org/bob-cli/commit/3d62fb548fde190cddad0e8d5b2b80a23bde1e0c) | fix(capture): walk mixed short clusters before unknown-flag refusal | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:33:27 EDT |
 | bob-mac-capture | [`bob-mac-capture@54131b1`](https://github.com/bobs-org/bob-mac-capture/commit/54131b189da279d6e5b5b2c21b5b4f0e76400848) | fix(capture): take relation labels from bob and omit ungated pull-in | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:34:13 EDT |
 | bob-cli--plans | [`bob-cli--plans@0a8ca46`](https://github.com/bobs-org/bob-cli--plans/commit/0a8ca4610cc97eacdda6b71b01867d9c78035aca) | chore(plans): mark backlog batch 4 epic plan done | [bob-cli-an.6.6.6](bob-cli-an.6.6.6.md) | 2026-10-24 07:34:52 EDT |
 | bob-cli | [`ae025fd`](https://github.com/bobs-org/bob-cli/commit/ae025fd0f374225350ac8edbf74bca0ad89bd05a) | fix(task-status-hooks): dedupe completed Task Link into occupied Pomodoro | [bob-cli-an.6.6.6.5.4](bob-cli-an.6.6.6.5.4.md) | 2026-10-24 08:01:57 EDT |
-| bob-plugins | [`bob-plugins@0dbd767`](https://github.com/bobs-org/bob-plugins/commit/0dbd767123e8b6d2decb722a18bf2ea43afd1192) | test(task-status-cycler): no duplicate daily Task Link into completed fallback | [bob-cli-an.6.6.6.5.4](bob-cli-an.6.6.6.5.4.md) | 2026-10-24 08:03:42 EDT |
 | bob-cli | [`215d93c`](https://github.com/bobs-org/bob-cli/commit/215d93c7eb806e033b084951eea38db3dd8906c0) | fix(highlights-ref): keep heading-shaped wrap lines inside quotes | [bob-cli-an.6.6.6.5.1](bob-cli-an.6.6.6.5.1.md) | 2026-10-24 08:05:05 EDT |
 | bob-cli | [`adb9c32`](https://github.com/bobs-org/bob-cli/commit/adb9c324364b0a383d4f71bb25f5b3c86c4dfaab) | fix(capture): reuse completed multi-word pomodoro names without forking spelling | [bob-cli-an.6.6.6.5.3](bob-cli-an.6.6.6.5.3.md) | 2026-10-24 08:05:23 EDT |
 | bob-cli | [`bff7bc7`](https://github.com/bobs-org/bob-cli/commit/bff7bc724b5ac854c554ed916a13f5802dede634) | fix(highlights): exclude color-grouped setext title-prefixed marker mirrors | [bob-cli-an.6.6.6.5.2](bob-cli-an.6.6.6.5.2.md) | 2026-10-24 08:41:38 EDT |
 | bob-mac-capture | [`bob-mac-capture@6d41b2e`](https://github.com/bobs-org/bob-mac-capture/commit/6d41b2e8cf2ee363fd6390c0ce576caa14666ab1) | test(refs): assert attended scan argv | [bob-cli-an.6.6.6.5.5](bob-cli-an.6.6.6.5.5.md) | 2026-10-24 08:51:16 EDT |
 | bob-cli | [`8ba5f8d`](https://github.com/bobs-org/bob-cli/commit/8ba5f8d78347698df9667ac9dfd186ace1275a05) | test: cover reconcile completed-fallback dedupe and drop live-vault sidecar test | [bob-cli-an.6.6.6.5](bob-cli-an.6.6.6.5.md) | 2026-10-24 09:30:10 EDT |
 | bob-cli--plans | [`bob-cli--plans@2b31408`](https://github.com/bobs-org/bob-cli--plans/commit/2b31408a05bef2949a1f5e80cef0de23e309eb35) | chore(plans): mark backlog batch 5 epic done | [bob-cli-an.6.6.6.5](bob-cli-an.6.6.6.5.md) | 2026-10-24 09:31:07 EDT |
-| bob-plugins | [`bob-plugins@42f86c8`](https://github.com/bobs-org/bob-plugins/commit/42f86c8381c4bdf21d51e1ee7d915314285749e2) | fix(navigation): follow task positions through generated BLOCKS edits | [bob-cli-an.6.6.6.5.6.2](bob-cli-an.6.6.6.5.6.2.md) | 2026-10-24 10:18:14 EDT |
 | bob-cli | [`5d1f8ec`](https://github.com/bobs-org/bob-cli/commit/5d1f8ecca3a389332348fd8e3d637eb9c9d466a5) | fix(highlights-ref): keep hard-wrapped quote lines inside color-grouped highlights | [bob-cli-an.6.6.6.5.6.1](bob-cli-an.6.6.6.5.6.1.md) | 2026-10-24 10:20:34 EDT |
 | bob-mac-capture | [`bob-mac-capture@833e582`](https://github.com/bobs-org/bob-mac-capture/commit/833e58259f69bb365e13ada87ebd80de83ea23c4) | test(capture): assert capability-aware submit argv | [bob-cli-an.6.6.6.5.6.4](bob-cli-an.6.6.6.5.6.4.md) | 2026-10-24 10:22:27 EDT |
-| bob-plugins | [`bob-plugins@3a7368a`](https://github.com/bobs-org/bob-plugins/commit/3a7368a1c8cc94bfde9fe6c5ac217c16f5bf6e49) | fix(navigation): preserve project promotion anchors across frontmatter writes | [bob-cli-an.6.6.6.5.6.3](bob-cli-an.6.6.6.5.6.3.md) | 2026-10-24 10:47:21 EDT |
 | bob-mac-capture | [`bob-mac-capture@9759771`](https://github.com/bobs-org/bob-mac-capture/commit/97597714441a3394c2b22284cbbc96f1308c561a) | test(capture): correct absent capability expectation | [bob-cli-an.6.6.6.5.6.4](bob-cli-an.6.6.6.5.6.4.md) | 2026-10-24 11:08:36 EDT |
 | bob-cli--plans | [`bob-cli--plans@200c7ac`](https://github.com/bobs-org/bob-cli--plans/commit/200c7ac89799b193acaa73da6e4e0c550f37ab29) | docs(plans): mark backlog batch 6 complete | [bob-cli-an.6.6.6.5.6](bob-cli-an.6.6.6.5.6.md) | 2026-10-24 12:28:47 EDT |
 | bob-mac-capture | [`bob-mac-capture@c5d560c`](https://github.com/bobs-org/bob-mac-capture/commit/c5d560c5492bf41215bf33213c5b6b51ffeabefa) | fix(refs): restore save-key memberwise init and trim refs docs under word cap | [bob-cli-an.6.6.6.5.6.5.4](bob-cli-an.6.6.6.5.6.5.4.md) | 2026-10-24 12:49:41 EDT |
@@ -153,7 +149,6 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | bob-cli | [`ae993b5`](https://github.com/bobs-org/bob-cli/commit/ae993b5bbcd4c2b00b153b8ff96303b4efa9d67e) | fix(capture): resolve close headline after ledger edits | [bob-cli-an.6.6.6.5.6.5.3](bob-cli-an.6.6.6.5.6.5.3.md) | 2026-10-24 13:12:24 EDT |
 | bob-cli | [`a75c55f`](https://github.com/bobs-org/bob-cli/commit/a75c55f990ece7b12521c22f0c61f4bc1e45b38c) | fix(highlights-ref): limit the %40 URL identity alias to Medium author paths | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2026-10-25 07:44:19 EDT |
 | bob-cli--plans | [`bob-cli--plans@63eb788`](https://github.com/bobs-org/bob-cli--plans/commit/63eb788c0ec26db11a5abe1eaf1255d5adea3dd5) | chore(plans): mark backlog batch 7 and its landing tale done | [bob-cli-an.6.6.6.5.6.5](bob-cli-an.6.6.6.5.6.5.md) | 2026-10-25 07:45:23 EDT |
-| bob-plugins | [`bob-plugins@ab71502`](https://github.com/bobs-org/bob-plugins/commit/ab7150284f726e54a4442d455ba0c11d81433d56) | test(nav): de-flake 1000-task stage-ranker 16ms budget with warmed best-of-7 timing | [bob-cli-an.6.6.6.5.6.5.5.4](bob-cli-an.6.6.6.5.6.5.5.4.md) | 2026-10-25 08:00:14 EDT |
 | bob-mac-capture | [`bob-mac-capture@2b20d89`](https://github.com/bobs-org/bob-mac-capture/commit/2b20d89ec7a8a6debf6bd8b71681ee623c5d5862) | fix(refs): give Highlights save-scan test a receipt that yields footer clauses | [bob-cli-an.6.6.6.5.6.5.5.2](bob-cli-an.6.6.6.5.6.5.5.2.md) | 2026-10-25 08:06:31 EDT |
 | bob-cli | [`f4f6a9c`](https://github.com/bobs-org/bob-cli/commit/f4f6a9caa3968a1dc2751baa4cfb2faca804f670) | test(native): route lib-test executable stubs through fork-safe shared writer | [bob-cli-an.6.6.6.5.6.5.5.5](bob-cli-an.6.6.6.5.6.5.5.5.md) | 2026-10-25 08:09:00 EDT |
 | bob-mac-capture | [`bob-mac-capture@8fda38d`](https://github.com/bobs-org/bob-mac-capture/commit/8fda38d261bcc007a0e344ea64add1c5842c3114) | fix(capture): omit pull-in guard on inbox-route confirms | [bob-cli-an.6.6.6.5.6.5.5.3](bob-cli-an.6.6.6.5.6.5.5.3.md) | 2026-10-25 08:09:14 EDT |
@@ -162,8 +157,13 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | bob-mac-capture | [`bob-mac-capture@461f46c`](https://github.com/bobs-org/bob-mac-capture/commit/461f46c285745e9ec2fbe3324cfae1123de1f057) | fix(refs): gate hidden-panel inspector hydration on visibility at fire time | [bob-cli-an.6.6.6.5.6.5.5.6.3](bob-cli-an.6.6.6.5.6.5.5.6.3.md) | 2026-10-25 09:01:30 EDT |
 | bob-cli | [`0e75ca5`](https://github.com/bobs-org/bob-cli/commit/0e75ca56901ff6f023416eb0b119d348d8aaf860) | test(capture): make related perf gate tolerate parallel load | [bob-cli-an.6.6.6.5.6.5.5.6.4](bob-cli-an.6.6.6.5.6.5.5.6.4.md) | 2026-10-25 09:05:07 EDT |
 | bob-cli | [`6292c35`](https://github.com/bobs-org/bob-cli/commit/6292c35b61aa230b24b070523341b85576eeae54) | fix(cli): exit 0 quietly on EPIPE instead of panicking | [bob-cli-an.6.6.6.5.6.5.5.6.1](bob-cli-an.6.6.6.5.6.5.5.6.1.md) | 2026-10-25 09:10:13 EDT |
+| bob-cli | [`f1ab0df`](https://github.com/bobs-org/bob-cli/commit/f1ab0df9d37759b330f628aee343024577b99140) | fix(cli): quiet EPIPE guard keeps usage-error exit 2 and panic output | [bob-cli-an.6.6.6.5.6.5.5.6](bob-cli-an.6.6.6.5.6.5.5.6.md) | 2026-10-25 09:58:47 EDT |
+| bob-cli--plans | [`bob-cli--plans@af3b30c`](https://github.com/bobs-org/bob-cli--plans/commit/af3b30c5c2d6b941b95a4f684e4420d2c813db23) | chore(plans): mark batch 9 plan done after EPIPE hook closeout | [bob-cli-an.6.6.6.5.6.5.5.6](bob-cli-an.6.6.6.5.6.5.5.6.md) | 2026-10-25 09:59:38 EDT |
+| bob-cli | [`7e8ffed`](https://github.com/bobs-org/bob-cli/commit/7e8ffedd292dc901ba7d14f57fcd72a0b09a6bcf) | fix(url-routing): keep explicit non-default ports in dedupe and display URLs | [bob-cli-an.6.6.6.5.6.5.5.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.1.md) | 2026-10-25 10:16:07 EDT |
+| bob-cli | [`633bc3f`](https://github.com/bobs-org/bob-cli/commit/633bc3f6045b5d80e252c7d1f31780d2f438030d) | docs(capture): clarify unknown-flag guard in TEXT help | [bob-cli-an.6.6.6.5.6.5.5.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.2.md) | 2026-10-25 10:16:59 EDT |
+| bob-cli | [`3eebe47`](https://github.com/bobs-org/bob-cli/commit/3eebe47f459207d61d05801347a90dde41b0a909) | fix(highlights): require pdftotext for diagram PDF assertions | [bob-cli-an.6.6.6.5.6.5.5.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.4.md) | 2026-10-25 10:24:19 EDT |
 
-… and 53 more commits
+… and 36 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -175,20 +175,22 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | read-by | [agent:bob-cli-an.4][2] | Need epic context for phase an.4 | 2 |
 | read-by | [agent:bob-cli-an.5][3] | Need parent epic context and decisions | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.5--2][4] | Confirm the phase ancestor was left unclosed | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.5.land][5] | Parent traversal after batch-7 landing: confirm status, plan, and parent link | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][6] | Recheck campaign root prior landing and descendant readiness | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.land][7] | Recheck closed plan ancestors of bob-cli-an.6.6.6.5 after landing | 1 |
-| read-by | [agent:bob-cli-an.6.land][8] | Need the parent link, previous landing note, and campaign context | 1 |
-| read-by | [agent:bob-cli-an.land][9] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.land][5] | Landing: check plan-ancestor closure status | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.land][6] | Parent traversal after batch-7 landing: confirm status, plan, and parent link | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.land--2][7] | Recheck campaign root prior landing and descendant readiness | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.land][8] | Recheck closed plan ancestors of bob-cli-an.6.6.6.5 after landing | 1 |
+| read-by | [agent:bob-cli-an.6.land][9] | Need the parent link, previous landing note, and campaign context | 1 |
+| read-by | [agent:bob-cli-an.land][10] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.5/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.5.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.land.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.land.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.land.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.land.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.land.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.land.md
 
 <!-- sase:referenced-by:end -->

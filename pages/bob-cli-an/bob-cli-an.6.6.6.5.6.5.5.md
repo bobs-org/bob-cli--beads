@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch8_listen_manifest_mac_ci_flakes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch8_listen_manifest_mac_ci_flakes.md
 
@@ -64,10 +64,12 @@ Limitation: Athena's three stale listen manifests need the manual one-shot repai
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.2][1] | parent epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.3][2] | parent epic context | 1 |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.land][3] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.land][3] | Landing: check plan-ancestor closure status | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.land][4] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.3/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.land.md
 
 <!-- sase:referenced-by:end -->

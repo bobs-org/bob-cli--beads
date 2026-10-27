@@ -23,13 +23,7 @@ task-card-close-cleanup: resolve bob-cli-4e by folding the dead Task Card class 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@c07b125`](https://github.com/bobs-org/bob-plugins/commit/c07b1257178e76034ee668e4a4d040e1cbb5d0ed) | fix(nav-hotkeys): restore Task Card close cleanup in onClose | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.2.md) | 2026-10-25 11:42:01 EDT |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
