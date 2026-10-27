@@ -21,13 +21,14 @@ plugin-ignore-guard: resolve bob-cli-ch per the plugin_ignore decision, reusing 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`49f6131`](https://github.com/bobs-org/bob-cli/commit/49f6131d9b98496458629572b5102eab76c3262d) | feat(plugins): warn when a deployed plugin folder is not git-ignored or is tracked | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4.md) | 2026-10-27 03:32:58 EDT |
+| bob-plugins | [`bob-plugins@3886e69`](https://github.com/bobs-org/bob-plugins/commit/3886e698af1f7320b377a3372f39a5fc72f8adcf) | docs(deployment): document the vault-ignore warning for deployed plugin folders | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.4.md) | 2026-10-27 03:34:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
