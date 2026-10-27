@@ -20,7 +20,7 @@ web-article-store: read Chrome catalog /Dests, convert the source view to GFM, c
 ## Dependencies
 
 - **Depends on:** [bob-cli-d3.1](bob-cli-d3.1.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-d3.3](bob-cli-d3.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-d3.3](bob-cli-d3.3.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [bob-cli-d3.5](bob-cli-d3.5.md) ✓ · ⧖ 2026-10-27
 
 ## Agents

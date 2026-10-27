@@ -13,7 +13,7 @@ web-overwrite-store: stage the new web store inside the overwrite transaction af
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-d3.3](bob-cli-d3.3.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [bob-cli-d3.3](bob-cli-d3.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

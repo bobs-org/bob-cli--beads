@@ -29,9 +29,9 @@ References that bob ref create captures from web-article URLs (single URL, -H sa
 |---|---|---|---|---|---:|---:|
 | [bob-cli-d3.1](bob-cli-d3.1.md) | Renderer emits the source view and code anchors | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [bob-cli-d3.2](bob-cli-d3.2.md) | Single web articles save source.md and a catalog | ✓ closed | medium | 2026-10-27 | 1 | 1 |
-| [bob-cli-d3.3](bob-cli-d3.3.md) | Multi-URL collections save one source and catalog | ◐ in_progress | small | 2026-10-27 | 1 | 0 |
+| [bob-cli-d3.3](bob-cli-d3.3.md) | Multi-URL collections save one source and catalog | ✓ closed | small | 2026-10-27 | 1 | 1 |
 | [bob-cli-d3.4](bob-cli-d3.4.md) | Web overwrites repoint instead of clearing | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
-| [bob-cli-d3.5](bob-cli-d3.5.md) | Hidden-row reasons name web pages | ✓ closed | small | 2026-10-27 | 1 | 1 |
+| [bob-cli-d3.5](bob-cli-d3.5.md) | Hidden-row reasons name web pages | ✓ closed | small | 2026-10-27 | 1 | 0 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["bob-cli-d3: Saved Markdown, code, and link catalogs for web-article references [in_progress]"]
     n1["bob-cli-d3.1: Renderer emits the source view and code anchors [closed]"]
     n2["bob-cli-d3.2: Single web articles save source.md and a catalog [closed]"]
-    n3["bob-cli-d3.3: Multi-URL collections save one source and catalog [in_progress]"]
+    n3["bob-cli-d3.3: Multi-URL collections save one source and catalog [closed]"]
     n4["bob-cli-d3.4: Web overwrites repoint instead of clearing [in_progress]"]
     n5["bob-cli-d3.5: Hidden-row reasons name web pages [closed]"]
     n0 --> n1
@@ -60,9 +60,9 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-d3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.1/README.md) | [bob-cli-d3.1](bob-cli-d3.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-d3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.2/README.md) | [bob-cli-d3.2](bob-cli-d3.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-d3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.3/README.md) | [bob-cli-d3.3](bob-cli-d3.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-d3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.3/README.md) | [bob-cli-d3.3](bob-cli-d3.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-d3.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.4/README.md) | [bob-cli-d3.4](bob-cli-d3.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-d3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.5/README.md) | [bob-cli-d3.5](bob-cli-d3.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-d3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.5/README.md) | [bob-cli-d3.5](bob-cli-d3.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-d3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.land/README.md) | [bob-cli-d3](README.md) | 0 |
 
 ## Commits
@@ -71,4 +71,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`f8dc405`](https://github.com/bobs-org/bob-cli/commit/f8dc405b9a318496dab8c8f3e0f7e91226ecff7b) | feat(web-clip): emit saved source views and code anchors | [bob-cli-d3.1](bob-cli-d3.1.md) | 2026-10-27 11:41:00 EDT |
 | bob-cli | [`4fda80b`](https://github.com/bobs-org/bob-cli/commit/4fda80b13d65e59383e847073622145f3c72acd8) | feat(web-ref): single web articles save source.md and a catalog | [bob-cli-d3.2](bob-cli-d3.2.md) | 2026-10-27 12:41:16 EDT |
-| bob-mac-capture | [`bob-mac-capture@de57e2b`](https://github.com/bobs-org/bob-mac-capture/commit/de57e2b7ef06e4421d6e0f07fbacffaf776f2f39) | fix(refs): mention web pages in source hints | [bob-cli-d3.5](bob-cli-d3.5.md) | 2026-10-27 12:56:13 EDT |
+| bob-cli | [`6dea005`](https://github.com/bobs-org/bob-cli/commit/6dea005804abd61702ea5355d5999571dbd644aa) | feat(web-ref): multi-URL collections save one source and catalog | [bob-cli-d3.3](bob-cli-d3.3.md) | 2026-10-27 13:04:50 EDT |
