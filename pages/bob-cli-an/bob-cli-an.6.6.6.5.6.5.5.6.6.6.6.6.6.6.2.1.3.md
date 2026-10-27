@@ -26,4 +26,10 @@ staged-install: separate private PDF stamping from public installation and add o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`22882a7`](https://github.com/bobs-org/bob-cli/commit/22882a7d6557a3d2a97e12736c4d114f6bc6da50) | feat(ref): add guarded stamped-PDF publication helper | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) | 2026-10-27 00:01:32 EDT |
