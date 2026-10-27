@@ -15,8 +15,8 @@ Resolve the four most important remaining bob-cli beads after batch A1: re-check
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-da.1](bob-cli-da.1.md) | Re-check the macOS aliases completion flake after the deadline pin | ◐ in_progress | large | 2026-10-27 | 1 | 0 |
-| [bob-cli-da.2](bob-cli-da.2.md) | Keep language-mermaid through web-clip extraction | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
+| [bob-cli-da.1](bob-cli-da.1.md) | Re-check the macOS aliases completion flake after the deadline pin | ✓ closed | large | 2026-10-27 | 1 | 0 |
+| [bob-cli-da.2](bob-cli-da.2.md) | Keep language-mermaid through web-clip extraction | ✓ closed | medium | 2026-10-27 | 1 | 0 |
 | [bob-cli-da.3](bob-cli-da.3.md) | Correct the vault-format walk order and check the page | ✓ closed | small | 2026-10-27 | 1 | 1 |
 | [bob-cli-da.4](bob-cli-da.4.md) | Split embedded assets before the package breaches its cap | ◐ in_progress | large | 2026-10-27 | 1 | 0 |
 
@@ -25,14 +25,21 @@ Resolve the four most important remaining bob-cli beads after batch A1: re-check
 ```mermaid
 flowchart TD
     n0["bob-cli-da: Backlog batch B2: macOS completion flake, Mermaid class, vault-format docs, and assets split [in_progress]"]
-    n1["bob-cli-da.1: Re-check the macOS aliases completion flake after the deadline pin [in_progress]"]
-    n2["bob-cli-da.2: Keep language-mermaid through web-clip extraction [in_progress]"]
+    n1["bob-cli-da.1: Re-check the macOS aliases completion flake after the deadline pin [closed]"]
+    n2["bob-cli-da.2: Keep language-mermaid through web-clip extraction [closed]"]
     n3["bob-cli-da.3: Correct the vault-format walk order and check the page [closed]"]
     n4["bob-cli-da.4: Split embedded assets before the package breaches its cap [in_progress]"]
+    n5["bob-cli-da.4.1: Split embedded assets into a release-managed workspace crate [in_progress]"]
+    n6["bob-cli-da.4.1.1: Move embedded payloads and verify both Cargo packages [closed]"]
+    n7["bob-cli-da.4.1.2: Integrate the assets crate with the daily release train [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
+    n4 --> n5
+    n5 --> n6
+    n5 --> n7
+    n6 -.-> n7
 ```
 
 ## Agents
@@ -42,7 +49,10 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-da.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.1.md) | [bob-cli-da.1](bob-cli-da.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-da.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.2.md) | [bob-cli-da.2](bob-cli-da.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-da.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.3/README.md) | [bob-cli-da.3](bob-cli-da.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-da.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4/README.md) | [bob-cli-da.4](bob-cli-da.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-da.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.md) | [bob-cli-da.4](bob-cli-da.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-da.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.1/README.md) | [bob-cli-da.4.1.1](bob-cli-da.4.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-da.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.2/README.md) | [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.land/README.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-da.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.land/README.md) | [bob-cli-da](README.md) | 0 |
 
 ## Commits
@@ -50,3 +60,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4fd8291`](https://github.com/bobs-org/bob-cli/commit/4fd82919009fa061ced90434f8033528c9eb6f85) | docs(freshness): correct vault walk order | [bob-cli-da.3](bob-cli-da.3.md) | 2026-10-27 16:40:02 EDT |
+| bob-cli | [`b63e5a0`](https://github.com/bobs-org/bob-cli/commit/b63e5a046f4d03de6aa38ce080b015447ad305c5) | feat(assets)!: split embedded payloads into bob-obsidian-assets crate | [bob-cli-da.4.1.1](bob-cli-da.4.1.1.md) | 2026-10-27 17:12:31 EDT |

@@ -26,3 +26,15 @@ vault-format-docs: read bob-cli-d8, fix docs/reference/vault-format.md lines 171
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4fd8291`](https://github.com/bobs-org/bob-cli/commit/4fd82919009fa061ced90434f8033528c9eb6f85) | docs(freshness): correct vault walk order | [bob-cli-da.3](bob-cli-da.3.md) | 2026-10-27 16:40:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-da.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.3/README.md
+
+<!-- sase:referenced-by:end -->
