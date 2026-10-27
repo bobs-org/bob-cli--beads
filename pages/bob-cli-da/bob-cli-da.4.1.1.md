@@ -17,7 +17,7 @@ assets-and-packages: create the bob-obsidian-assets workspace crate, move the ex
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

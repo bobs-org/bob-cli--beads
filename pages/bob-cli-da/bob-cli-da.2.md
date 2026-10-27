@@ -26,3 +26,15 @@ mermaid-class: read bob-cli-d5, fix scripts/web_clip/web_clip_adapter.py so Defu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6b0a30b`](https://github.com/bobs-org/bob-cli/commit/6b0a30bf7b6d18d568f8006088041848d046f976) | fix(web-ref): keep language-mermaid through Defuddle extraction | [bob-cli-da.2](bob-cli-da.2.md) | 2026-10-27 17:20:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-da.2--3][1] | Need phase status, notes, and whether work already closed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.2.md
+
+<!-- sase:referenced-by:end -->
