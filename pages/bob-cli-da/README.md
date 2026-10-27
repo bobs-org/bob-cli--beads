@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-da.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.md) | [bob-cli-da.4](bob-cli-da.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-da.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.1/README.md) | [bob-cli-da.4.1.1](bob-cli-da.4.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-da.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.2.md) | [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.land.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.land.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-da.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.land/README.md) | [bob-cli-da](README.md) | 0 |
 
 ## Commits
@@ -78,6 +78,7 @@ flowchart TD
 | bob-cli | [`6b0a30b`](https://github.com/bobs-org/bob-cli/commit/6b0a30bf7b6d18d568f8006088041848d046f976) | fix(web-ref): keep language-mermaid through Defuddle extraction | [bob-cli-da.2](bob-cli-da.2.md) | 2026-10-27 17:20:52 EDT |
 | bob-cli | [`3cc6351`](https://github.com/bobs-org/bob-cli/commit/3cc6351158e074791330ad539761ad9dbcadd2f6) | feat(release): integrate bob-obsidian-assets with the daily train | [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) | 2026-10-27 17:59:20 EDT |
 | bob-cli | [`232d68c`](https://github.com/bobs-org/bob-cli/commit/232d68c0058bed3d83af0f714901bd2067ad039f) | test(release): cover split package checks and clarify release docs | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 2026-10-27 18:42:58 EDT |
+| bob-cli--plans | [`bob-cli--plans@9218b93`](https://github.com/bobs-org/bob-cli--plans/commit/9218b9388e9c47fc2d143531bed0023de06a71b1) | docs(plan): mark embedded assets split complete | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 2026-10-27 18:44:02 EDT |
 
 <!-- sase:referenced-by:start -->
 

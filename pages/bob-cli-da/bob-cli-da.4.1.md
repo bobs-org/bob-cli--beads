@@ -37,13 +37,14 @@ Complete bob-cli-da.4 with byte-identical embedded assets in a separate crate, b
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.land.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.land.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`232d68c`](https://github.com/bobs-org/bob-cli/commit/232d68c0058bed3d83af0f714901bd2067ad039f) | test(release): cover split package checks and clarify release docs | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 2026-10-27 18:42:58 EDT |
+| bob-cli--plans | [`bob-cli--plans@9218b93`](https://github.com/bobs-org/bob-cli--plans/commit/9218b9388e9c47fc2d143531bed0023de06a71b1) | docs(plan): mark embedded assets split complete | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 2026-10-27 18:44:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
