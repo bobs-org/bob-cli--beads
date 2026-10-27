@@ -37,10 +37,11 @@ Close five existing tasks by removing the released legacy_dependency_children ke
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9457260`](https://github.com/bobs-org/bob-cli/commit/9457260f2fdc0e123a96cfee1cf6bb1027aba806) | perf(stats): parallelize the index parse and reuse session scans | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 14:20:32 EDT |
+| bob-mac-capture | [`bob-mac-capture@0554c09`](https://github.com/bobs-org/bob-mac-capture/commit/0554c09e254d644d31e9cf3e535f8f6b4db9af8c) | docs(refs): import browse images from post-Copy green master | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 14:22:51 EDT |
