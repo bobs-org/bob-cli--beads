@@ -40,7 +40,9 @@ adapter-source-view: web-clip adapter keeps image origins, writes render/source.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-d3.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-d3.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.land/README.md
 
 <!-- sase:referenced-by:end -->

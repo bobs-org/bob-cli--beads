@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/web_ref_saved_sources.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-d5][2] | Epic whose saved web-article catalog this Mermaid classification feeds |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/web_ref_saved_sources.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-d5/README.md
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-d3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.3/README.md) | [bob-cli-d3.3](bob-cli-d3.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-d3.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.4/README.md) | [bob-cli-d3.4](bob-cli-d3.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-d3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.5/README.md) | [bob-cli-d3.5](bob-cli-d3.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-d3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.land/README.md) | [bob-cli-d3](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-d3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.land/README.md) | [bob-cli-d3](README.md) | 2 |
 
 ## Commits
 
@@ -83,6 +83,7 @@ flowchart TD
 | bob-cli | [`6dea005`](https://github.com/bobs-org/bob-cli/commit/6dea005804abd61702ea5355d5999571dbd644aa) | feat(web-ref): multi-URL collections save one source and catalog | [bob-cli-d3.3](bob-cli-d3.3.md) | 2026-10-27 13:04:50 EDT |
 | bob-cli | [`bab568f`](https://github.com/bobs-org/bob-cli/commit/bab568fc200aec3785acab3021f55942dcb8d1f5) | feat(ref): stage web overwrite sources instead of clearing | [bob-cli-d3.4](bob-cli-d3.4.md) | 2026-10-27 13:39:03 EDT |
 | bob-cli | [`5bb53ca`](https://github.com/bobs-org/bob-cli/commit/5bb53caa73e6c40623d887b358f28f0d1b2f865f) | fix(web-ref): catalog figure-wrapped code and keep anchor pages after a mismatch | [bob-cli-d3](README.md) | 2026-10-27 14:33:25 EDT |
+| bob-cli--plans | [`bob-cli--plans@e52f2f0`](https://github.com/bobs-org/bob-cli--plans/commit/e52f2f0a49facf78d566bc26c82b88d4e81c04b5) | chore(plans): mark web\_ref\_saved\_sources done after bob-cli-d3 landed | [bob-cli-d3](README.md) | 2026-10-27 14:36:16 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -91,7 +92,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-d3.3][1] | parent epic scope | 1 |
+| read-by | [agent:bob-cli-d3.land][2] | Need the parent link | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.land/README.md
 
 <!-- sase:referenced-by:end -->
