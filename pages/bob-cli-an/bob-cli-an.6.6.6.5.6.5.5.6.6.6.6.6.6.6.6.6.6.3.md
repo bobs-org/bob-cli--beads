@@ -78,3 +78,15 @@ VERIFICATION:
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a1dc020`](https://github.com/bobs-org/bob-cli/commit/a1dc02069f9178b4ecde129bb79bac99559d3780) | refactor(lint): fix and deny 48 mechanical clippy classes | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.3.md) | 2026-10-27 12:43:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.3--1][1] | Read phase notes and status before closing clippy-gate | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.3.md
+
+<!-- sase:referenced-by:end -->
