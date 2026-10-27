@@ -20,7 +20,7 @@ web-collection-store: persist a web_collection store from the compose response b
 ## Dependencies
 
 - **Depends on:** [bob-cli-d3.2](bob-cli-d3.2.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-d3.4](bob-cli-d3.4.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-d3.4](bob-cli-d3.4.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ web-collection-store: persist a web_collection store from the compose response b
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6dea005`](https://github.com/bobs-org/bob-cli/commit/6dea005804abd61702ea5355d5999571dbd644aa) | feat(web-ref): multi-URL collections save one source and catalog | [bob-cli-d3.3](bob-cli-d3.3.md) | 2026-10-27 13:04:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d3.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.3/README.md
+
+<!-- sase:referenced-by:end -->
