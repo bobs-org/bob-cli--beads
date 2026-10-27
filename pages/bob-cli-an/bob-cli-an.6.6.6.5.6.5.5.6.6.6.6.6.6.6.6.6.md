@@ -69,11 +69,24 @@ Epic symbols: none. No just symvision recipe.
 
 [2026-10-27T15:02:26Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land] Verified all 5 phases against source and decisions. Fixed three epic-caused defects in the landing: e6296bc re-indents f8a258f's 2-space lines; b4a5850d/3f70d49 add the macos-ci-check job-status settle, with a live exit 0 on 40519931954; the d2 tale's 4cc0ef7d makes write-mode attach-source JSON pure. just check passes (6206 tests). CI is green on every landed SHA in bob-cli and bob-mac-capture. Plugins re-synced from b13d634 (8 synced, 0 drift), and the smoke gate passed. Closed by, b1, and 8k; co and cm stay open with notes, pending gated live writes. Follow-ups: .1 → +1 on bob-cli-1x; .5 done in ed8f3d3; no new tasks. Full detail in the preceding note.
 
+[2026-10-27T15:11:12Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land] CONTINUATION: I authored the successor batch-18 epic plan. The scratch file is sase_plan_backlog_batch18_hooks_legacy_key_stats_perf_clippy_gate_refs_copy_docs.md, the expected archive is plan:202610/backlog_batch18_hooks_legacy_key_stats_perf_clippy_gate_refs_copy_docs.md, and its parent_bead is this epic. It validated with --explain and then plain, with 0 warnings. I submit it through sase plan propose right after this note; ownership transfers to the batch-18 lander on approval. It assigns five existing beads in four phases:
+- cq: hooks-legacy-key, small. I woke cq because v0.4.0 contains 0f76d558.
+- 6n: stats-perf, large; decision stats_perf, default implement.
+- v: clippy-gate, large; decision clippy_scope, default gate_mechanical. 435 unique sites on b4a5850d.
+- cw + a4: mac-refs-polish, medium.
+Landing commits: bob-cli b4a5850d; bob-mac-capture e6296bc, 3f70d49, ed8f3d3; plans 9ec75a2 (batch-17 status done). A fresh no-limit enumeration after closing: 114 unresolved, 109 ready and 5 snoozed (6q, aa, ah, cp, cq); with cq woken, 110 ready and 4 snoozed. Deferred:
+- co waits for bob-cli-d2's land plus a Bryan write gate; cm needs gates, Mac scans, and Bryan's annotation decision; 8n needs a gated live-vault edit.
+- 8r and 9x stay separate large launches.
+- cv, 5m, and 5n are sase-repo fixes.
+- 8q and b9 stay with 3j (relaunch with 'sase bead work bob-cli-3j').
+- 58 waits for 87's land; b4 and ax wait for Bryan; ay, cx, and 30 need the Mac.
+- 1x, d1, and the other memory tasks need Bryan's authorization.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 5 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 5 |
 
 ## Commits
 
@@ -91,10 +104,10 @@ Epic symbols: none. No just symvision recipe.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land][1] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land][1] | Need the epic scope, children, and linked plan file | 2 |
 | read-by | [agent:bob-cli-d2.land--1][2] | Confirm the named JSON repair epic after note append | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d2.land.md
 
 <!-- sase:referenced-by:end -->
