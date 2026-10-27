@@ -21,4 +21,10 @@ memory-corrections: per the accepted memory decisions, add a decisions strand pa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-d7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d7.4.md) | [bob-cli-d7.4](bob-cli-d7.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-d7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d7.4.md) | [bob-cli-d7.4](bob-cli-d7.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`afaacab`](https://github.com/bobs-org/bob-cli/commit/afaacab0416a7c7cd2aa2f5bd9e0a5667fe7cf02) | docs(memory): record the nine-tier walk and parent-residence refs | [bob-cli-d7.4](bob-cli-d7.4.md) | 2026-10-27 15:31:37 EDT |

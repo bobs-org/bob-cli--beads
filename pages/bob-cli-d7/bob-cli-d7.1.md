@@ -26,3 +26,15 @@ snapshot-test-gate: move the note-profile package skip helper into shared test s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d208c59`](https://github.com/bobs-org/bob-cli/commit/d208c595c7483acb43a4407018a0171fd21df8fc) | fix(tests): gate note-profile snapshot renders by package availability | [bob-cli-d7.1](bob-cli-d7.1.md) | 2026-10-27 15:18:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d7.1--1][1] | Need phase scope and design file before close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d7.1.md
+
+<!-- sase:referenced-by:end -->
