@@ -13,7 +13,7 @@ capture-writers: migrate stamp_and_install and remaining direct public PDF copie
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

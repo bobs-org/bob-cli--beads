@@ -163,7 +163,7 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | bob-cli | [`3633a10`](https://github.com/bobs-org/bob-cli/commit/3633a10a51dbaa0c5d05f2509ec3f9806b98b045) | docs(stats): clarify Day strip new-tab behavior | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.4.md) | 2026-10-26 09:15:40 EDT |
 | bob-cli--plans | [`bob-cli--plans@74eb763`](https://github.com/bobs-org/bob-cli--plans/commit/74eb763d63c8736e36b40d1cdf136d737bac7ab6) | docs(plan): mark batch 12 done and author batch 13 | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.md) | 2026-10-26 10:39:54 EDT |
 
-… and 12 more commits
+… and 13 more commits
 
 <!-- sase:referenced-by:start -->
 

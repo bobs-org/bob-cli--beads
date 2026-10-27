@@ -19,8 +19,8 @@ move-coordinator: add a move-capable coordination scope with save-before-write, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.2.md) ◐ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.2.md) ✓ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -33,3 +33,15 @@ move-coordinator: add a move-capable coordination scope with save-before-write, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f00ae66`](https://github.com/bobs-org/bob-cli/commit/f00ae66ec3345f5fa5c45f7c624bbabb389e20f3) | feat(native): add bounded save-and-move coordination | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.1.md) | 2026-10-26 23:18:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.1.md
+
+<!-- sase:referenced-by:end -->
