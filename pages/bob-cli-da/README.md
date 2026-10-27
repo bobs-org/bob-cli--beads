@@ -16,7 +16,7 @@ Resolve the four most important remaining bob-cli beads after batch A1: re-check
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-da.1](bob-cli-da.1.md) | Re-check the macOS aliases completion flake after the deadline pin | ✓ closed | large | 2026-10-27 | 1 | 0 |
-| [bob-cli-da.2](bob-cli-da.2.md) | Keep language-mermaid through web-clip extraction | ✓ closed | medium | 2026-10-27 | 1 | 0 |
+| [bob-cli-da.2](bob-cli-da.2.md) | Keep language-mermaid through web-clip extraction | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [bob-cli-da.3](bob-cli-da.3.md) | Correct the vault-format walk order and check the page | ✓ closed | small | 2026-10-27 | 1 | 1 |
 | [bob-cli-da.4](bob-cli-da.4.md) | Split embedded assets before the package breaches its cap | ◐ in_progress | large | 2026-10-27 | 1 | 0 |
 
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-da.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.1.md) | [bob-cli-da.1](bob-cli-da.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-da.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.2.md) | [bob-cli-da.2](bob-cli-da.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-da.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.2.md) | [bob-cli-da.2](bob-cli-da.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-da.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.3/README.md) | [bob-cli-da.3](bob-cli-da.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-da.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.md) | [bob-cli-da.4](bob-cli-da.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-da.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.1/README.md) | [bob-cli-da.4.1.1](bob-cli-da.4.1.1.md) | 1 |
@@ -61,3 +61,16 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`4fd8291`](https://github.com/bobs-org/bob-cli/commit/4fd82919009fa061ced90434f8033528c9eb6f85) | docs(freshness): correct vault walk order | [bob-cli-da.3](bob-cli-da.3.md) | 2026-10-27 16:40:02 EDT |
 | bob-cli | [`b63e5a0`](https://github.com/bobs-org/bob-cli/commit/b63e5a046f4d03de6aa38ce080b015447ad305c5) | feat(assets)!: split embedded payloads into bob-obsidian-assets crate | [bob-cli-da.4.1.1](bob-cli-da.4.1.1.md) | 2026-10-27 17:12:31 EDT |
+| bob-cli | [`6b0a30b`](https://github.com/bobs-org/bob-cli/commit/6b0a30bf7b6d18d568f8006088041848d046f976) | fix(web-ref): keep language-mermaid through Defuddle extraction | [bob-cli-da.2](bob-cli-da.2.md) | 2026-10-27 17:20:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-da.4.1.1][1] | Check epic DECISIONS before closing phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

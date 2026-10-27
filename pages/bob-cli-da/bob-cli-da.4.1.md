@@ -16,3 +16,15 @@ Complete bob-cli-da.4 with byte-identical embedded assets in a separate crate, b
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.land/README.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-da.4.1.1][1] | Check parent epic decisions before closing phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
