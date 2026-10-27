@@ -17,6 +17,8 @@
 | related | file:explicit:a6b747946294df16b787c942 | attached via sase artifact create --bead |
 | related | file:explicit:f20b1594f834db3006f4bb8c | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -65,3 +67,15 @@ sase bead epic-symbols bob-cli-d2.3: no entries.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@62806ca`](https://github.com/bbugyi200/dotfiles/commit/62806ca3cb5992df2261bc11b53a37bbee3e6712) | feat(sase): raise research-highlights file-hook timeout to 300s | [bob-cli-d2.3](bob-cli-d2.3.md) | 2026-10-27 09:00:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d2.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d2.3/README.md
+
+<!-- sase:referenced-by:end -->
