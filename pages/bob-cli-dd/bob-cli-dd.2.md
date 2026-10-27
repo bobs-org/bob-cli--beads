@@ -19,10 +19,16 @@ command-runner-flake: resolve bob-cli-d9 in bob-plugins with bounded event-based
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-dd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dd.2/README.md) | [bob-cli-dd.2](bob-cli-dd.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-dd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dd.2/README.md) | [bob-cli-dd.2](bob-cli-dd.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@8baf763`](https://github.com/bobs-org/bob-plugins/commit/8baf76398048612cc0ed1c7b7b03537c87056b3b) | test(command-mode): prove writer FIFO and overlapping reads without wall-clock | [bob-cli-dd.2](bob-cli-dd.2.md) | 2026-10-27 19:07:15 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dd.2][1] | Need full phase notes, decisions, and remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dd.2/README.md
+
+<!-- sase:referenced-by:end -->
