@@ -30,3 +30,15 @@ web-overwrite-store: stage the new web store inside the overwrite transaction af
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bab568f`](https://github.com/bobs-org/bob-cli/commit/bab568fc200aec3785acab3021f55942dcb8d1f5) | feat(ref): stage web overwrite sources instead of clearing | [bob-cli-d3.4](bob-cli-d3.4.md) | 2026-10-27 13:39:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d3.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.4/README.md
+
+<!-- sase:referenced-by:end -->
