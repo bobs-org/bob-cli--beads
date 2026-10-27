@@ -34,3 +34,15 @@ release-integration: verify independent assets versioning and unique tags under 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3cc6351`](https://github.com/bobs-org/bob-cli/commit/3cc6351158e074791330ad539761ad9dbcadd2f6) | feat(release): integrate bob-obsidian-assets with the daily train | [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) | 2026-10-27 17:59:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-da.4.1.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.2.md
+
+<!-- sase:referenced-by:end -->

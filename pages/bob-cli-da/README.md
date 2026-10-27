@@ -32,7 +32,7 @@ Resolve the four most important remaining bob-cli beads after batch A1: re-check
 | [bob-cli-da.1](bob-cli-da.1.md) | Re-check the macOS aliases completion flake after the deadline pin | ✓ closed | large | 2026-10-27 | 1 | 0 |
 | [bob-cli-da.2](bob-cli-da.2.md) | Keep language-mermaid through web-clip extraction | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [bob-cli-da.3](bob-cli-da.3.md) | Correct the vault-format walk order and check the page | ✓ closed | small | 2026-10-27 | 1 | 1 |
-| [bob-cli-da.4](bob-cli-da.4.md) | Split embedded assets before the package breaches its cap | ◐ in_progress | large | 2026-10-27 | 1 | 0 |
+| [bob-cli-da.4](bob-cli-da.4.md) | Split embedded assets before the package breaches its cap | ✓ closed | large | 2026-10-27 | 1 | 0 |
 
 ## Lineage
 
@@ -42,8 +42,8 @@ flowchart TD
     n1["bob-cli-da.1: Re-check the macOS aliases completion flake after the deadline pin [closed]"]
     n2["bob-cli-da.2: Keep language-mermaid through web-clip extraction [closed]"]
     n3["bob-cli-da.3: Correct the vault-format walk order and check the page [closed]"]
-    n4["bob-cli-da.4: Split embedded assets before the package breaches its cap [in_progress]"]
-    n5["bob-cli-da.4.1: Split embedded assets into a release-managed workspace crate [in_progress]"]
+    n4["bob-cli-da.4: Split embedded assets before the package breaches its cap [closed]"]
+    n5["bob-cli-da.4.1: Split embedded assets into a release-managed workspace crate [closed]"]
     n6["bob-cli-da.4.1.1: Move embedded payloads and verify both Cargo packages [closed]"]
     n7["bob-cli-da.4.1.2: Integrate the assets crate with the daily release train [closed]"]
     n0 --> n1
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-da.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.md) | [bob-cli-da.4](bob-cli-da.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-da.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.1/README.md) | [bob-cli-da.4.1.1](bob-cli-da.4.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-da.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.2.md) | [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.4.1.land/README.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-da.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-da.4.1.land.md) | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-da.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-da.land/README.md) | [bob-cli-da](README.md) | 0 |
 
 ## Commits
@@ -77,6 +77,7 @@ flowchart TD
 | bob-cli | [`b63e5a0`](https://github.com/bobs-org/bob-cli/commit/b63e5a046f4d03de6aa38ce080b015447ad305c5) | feat(assets)!: split embedded payloads into bob-obsidian-assets crate | [bob-cli-da.4.1.1](bob-cli-da.4.1.1.md) | 2026-10-27 17:12:31 EDT |
 | bob-cli | [`6b0a30b`](https://github.com/bobs-org/bob-cli/commit/6b0a30bf7b6d18d568f8006088041848d046f976) | fix(web-ref): keep language-mermaid through Defuddle extraction | [bob-cli-da.2](bob-cli-da.2.md) | 2026-10-27 17:20:52 EDT |
 | bob-cli | [`3cc6351`](https://github.com/bobs-org/bob-cli/commit/3cc6351158e074791330ad539761ad9dbcadd2f6) | feat(release): integrate bob-obsidian-assets with the daily train | [bob-cli-da.4.1.2](bob-cli-da.4.1.2.md) | 2026-10-27 17:59:20 EDT |
+| bob-cli | [`232d68c`](https://github.com/bobs-org/bob-cli/commit/232d68c0058bed3d83af0f714901bd2067ad039f) | test(release): cover split package checks and clarify release docs | [bob-cli-da.4.1](bob-cli-da.4.1.md) | 2026-10-27 18:42:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
