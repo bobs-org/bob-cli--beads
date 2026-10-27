@@ -14,7 +14,7 @@ presentation-acceptance: remove the Bob Refs close-the-PDF rename hint, verify r
 ## Dependencies
 
 - **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.2.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
