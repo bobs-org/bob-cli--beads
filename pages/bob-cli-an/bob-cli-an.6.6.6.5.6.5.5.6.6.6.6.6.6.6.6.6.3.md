@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:19e2c6c00fdc72a47b88c967 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -57,3 +59,15 @@ Leaves bob-cli-cm and all ancestors open for the parent lander.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@10e9f1d`](https://github.com/bbugyi200/dotfiles/commit/10e9f1d2877d08c2d2e4a651e97c78dff7202b77) | feat(sase): stable research-file hook with deliberate recapture modes | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.3.md) | 2026-10-27 06:57:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land/README.md
+
+<!-- sase:referenced-by:end -->
