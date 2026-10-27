@@ -19,7 +19,14 @@ mac-build-repair: resolve bob-cli-cz by fixing the RefsCopyEntry scope and publi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@d055e4f`](https://github.com/bobs-org/bob-mac-capture/commit/d055e4f57f668c534729e5707090a38a7b63d507) | fix(refs): restore macOS build after copy-key additions | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1.md) | 2026-10-27 03:16:48 EDT |
+| bob-mac-capture | [`bob-mac-capture@d433166`](https://github.com/bobs-org/bob-mac-capture/commit/d4331661a0a7cd1dba85a6354b47a4d39346690e) | fix(refs): keep internal toast style API internal | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.1.md) | 2026-10-27 03:37:54 EDT |
 
 <!-- sase:referenced-by:start -->
 

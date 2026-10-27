@@ -15,6 +15,18 @@ plugins-red-tests: resolve bob-cli-6v and bob-cli-7i by deriving the ledger-tool
 
 [2026-10-24T10:12:21Z · bob-cli-an.6.6.6.3--1] Fixed the frozen-clock glyph tests and reverse-conversion BLOCKS mirror. Focused bob-plugins suites pass (19/19 and 10/10); monitored npm test exited 0. Synced bob-navigation-hotkeys 2.56.1 and confirmed all 7 plugins synced with zero drift. Appended full baseline, fix, validation, sync, and remaining-constraint evidence to bob-cli-6v and bob-cli-7i. epic-symbols reported no leftovers.
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-an.6.6.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.3.md) | [bob-cli-an.6.6.6.3](bob-cli-an.6.6.6.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e6b2ec2`](https://github.com/bobs-org/bob-plugins/commit/e6b2ec2dba4c4a6b865faccbc2e3cad59fef4f10) | fix(plugins): repair frozen-clock tests and reverse BLOCKS links | [bob-cli-an.6.6.6.3](bob-cli-an.6.6.6.3.md) | 2026-10-24 06:13:05 EDT |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

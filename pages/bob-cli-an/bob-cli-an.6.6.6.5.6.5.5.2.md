@@ -17,6 +17,18 @@ mac-save-scan-test: resolve bob-cli-bv by finding why the held-receipt PDF updat
 
 [2026-10-25T12:04:59Z · bob-cli-an.6.6.6.5.6.5.5.2] Fixture fix in bob-mac-capture Tests/RefsPanelModelTests.swift (busy-only receipt gained a savedFirst refreshed note so the surface yields a footer clause; assertions unchanged). Verified: just portable-check exit=0 (1648 tests, 0 failures); mac scratch bundle.sh and just typecheck-tests exit=0 with all test targets PASS; scratch removed. Change left uncommitted for the lander; macOS CI must execute the test on the landed SHA.
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.2](bob-cli-an.6.6.6.5.6.5.5.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@2b20d89`](https://github.com/bobs-org/bob-mac-capture/commit/2b20d89ec7a8a6debf6bd8b71681ee623c5d5862) | fix(refs): give Highlights save-scan test a receipt that yields footer clauses | [bob-cli-an.6.6.6.5.6.5.5.2](bob-cli-an.6.6.6.5.6.5.5.2.md) | 2026-10-25 08:06:31 EDT |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

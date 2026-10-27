@@ -36,3 +36,15 @@ Verification passed: `cargo test --lib native::stats::` (176); `cargo test --tes
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4a43170`](https://github.com/bobs-org/bob-cli/commit/4a43170b8103f2065a59b72fc25785abf96c60ca) | perf(stats): record current index measurements and parity | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.2.md) | 2026-10-27 13:04:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.2--4][1] | Need the assigned stats performance phase status and phase-specific closure criteria | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.2.md
+
+<!-- sase:referenced-by:end -->

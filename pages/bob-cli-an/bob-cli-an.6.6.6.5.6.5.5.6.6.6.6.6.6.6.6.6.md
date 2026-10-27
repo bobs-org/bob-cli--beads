@@ -82,16 +82,21 @@ Landing commits: bob-cli b4a5850d; bob-mac-capture e6296bc, 3f70d49, ed8f3d3; pl
 - 58 waits for 87's land; b4 and ax wait for Bryan; ay, cx, and 30 need the Mac.
 - 1x, d1, and the other memory tasks need Bryan's authorization.
 
+[2026-10-27T18:18:59Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land] Batch 18 (`bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6`) closed normally after 6n/a4 acceptance. Rechecked this already-closed parent: bob-cli-co remains READY (attach-source write pass still needs a Bryan-approved /sase_gate after d2) and bob-cli-cm remains READY (hash-suffixed duplicate fold still needs a gated Mac scan). Per the landing prompt, ancestor closeout stops here. No parent was forced or recertified. just symvision has no recipe; epic-symbols on batch 18 were empty.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 5 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@e6296bc`](https://github.com/bobs-org/bob-mac-capture/commit/e6296bc9727a0f5e2533049b36212e6ea2e6d40b) | style(refs): re-indent per-PDF dirty-hold lines to the pinned 4-space format | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 10:43:29 EDT |
+| bob-mac-capture | [`bob-mac-capture@3f70d49`](https://github.com/bobs-org/bob-mac-capture/commit/3f70d498e156506599f67606defd1c014d9edeb0) | fix(ci): wait for lagging job status before judging a completed run | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 10:45:31 EDT |
+| bob-mac-capture | [`bob-mac-capture@ed8f3d3`](https://github.com/bobs-org/bob-mac-capture/commit/ed8f3d3a17b599ed6d3c81ed58a43a075f7fb529) | docs(agents): point Swift formatting at the pinned .swift-format | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 10:47:03 EDT |
 | bob-cli | [`b4a5850`](https://github.com/bobs-org/bob-cli/commit/b4a5850d32508eeb1133deab68444599d268e9db) | fix(ci): wait for lagging job status before judging a completed run | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 10:48:41 EDT |
 | bob-cli--plans | [`bob-cli--plans@9ec75a2`](https://github.com/bobs-org/bob-cli--plans/commit/9ec75a28aa785fef2e8022238ff55f982df5db45) | chore(plans): mark backlog batch 17 done | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 11:02:37 EDT |
 
