@@ -163,7 +163,7 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | bob-mac-capture | [`bob-mac-capture@461f46c`](https://github.com/bobs-org/bob-mac-capture/commit/461f46c285745e9ec2fbe3324cfae1123de1f057) | fix(refs): gate hidden-panel inspector hydration on visibility at fire time | [bob-cli-an.6.6.6.5.6.5.5.6.3](bob-cli-an.6.6.6.5.6.5.5.6.3.md) | 2026-10-25 09:01:30 EDT |
 | bob-cli | [`0e75ca5`](https://github.com/bobs-org/bob-cli/commit/0e75ca56901ff6f023416eb0b119d348d8aaf860) | test(capture): make related perf gate tolerate parallel load | [bob-cli-an.6.6.6.5.6.5.5.6.4](bob-cli-an.6.6.6.5.6.5.5.6.4.md) | 2026-10-25 09:05:07 EDT |
 
-… and 81 more commits
+… and 82 more commits
 
 <!-- sase:referenced-by:start -->
 

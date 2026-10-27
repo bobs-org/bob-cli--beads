@@ -37,7 +37,7 @@ Close five existing tasks by removing the released legacy_dependency_children ke
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 3 |
 
 ## Commits
 
@@ -45,3 +45,4 @@ Close five existing tasks by removing the released legacy_dependency_children ke
 |---|---|---|---|---|
 | bob-cli | [`9457260`](https://github.com/bobs-org/bob-cli/commit/9457260f2fdc0e123a96cfee1cf6bb1027aba806) | perf(stats): parallelize the index parse and reuse session scans | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 14:20:32 EDT |
 | bob-mac-capture | [`bob-mac-capture@0554c09`](https://github.com/bobs-org/bob-mac-capture/commit/0554c09e254d644d31e9cf3e535f8f6b4db9af8c) | docs(refs): import browse images from post-Copy green master | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 14:22:51 EDT |
+| bob-cli--plans | [`bob-cli--plans@8c83a3a`](https://github.com/bobs-org/bob-cli--plans/commit/8c83a3a81e02ddcb48fcf808a6642253b92631ed) | chore(plans): mark batch 18 and its stats closeout tale done | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 14:24:22 EDT |
