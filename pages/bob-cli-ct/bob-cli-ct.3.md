@@ -21,8 +21,13 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| related | [bead:bob-cli-cv][1] | phase whose verified work was lost by the failed finalization |
 | related | file:explicit:68a06d5d2a81c40e1cc9c3e1 | attached via sase artifact create --bead |
 | related | file:explicit:f5d0dfc8eb958481428715dc | attached via sase artifact create --bead |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-cv/README.md
 
 <!-- sase:links:end -->
 
@@ -108,3 +113,15 @@ Prior close: 2026-10-27T00:28:07Z · done.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`42abfa7`](https://github.com/bobs-org/bob-cli/commit/42abfa705a445647395fedea1691d885f53722b5) | feat(ref): add annotation-backed link recataloging (bob-cli-ct.3) | [bob-cli-ct.3](bob-cli-ct.3.md) | 2026-10-26 21:36:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ct.3--2][1] | Confirm recovered phase scope and existing evidence before closing after final verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ct.3.md
+
+<!-- sase:referenced-by:end -->

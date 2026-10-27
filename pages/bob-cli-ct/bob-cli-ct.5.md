@@ -27,7 +27,13 @@ mac-ui: fetch links beside code when the Copy card opens, draw the L row, the li
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ct.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.5/README.md) | [bob-cli-ct.5](bob-cli-ct.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-ct.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.5/README.md) | [bob-cli-ct.5](bob-cli-ct.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@2764ec5`](https://github.com/bobs-org/bob-mac-capture/commit/2764ec5f4a8fe2574bb6e466bc451a13df5dc8f3) | feat(refs): wire Copy card link picker, link well, and panel loads | [bob-cli-ct.5](bob-cli-ct.5.md) | 2026-10-26 17:46:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
