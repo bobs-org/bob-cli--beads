@@ -21,7 +21,7 @@ vault-flag-presync: resolve bob-cli-cj by making bob ref rename and every other 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
