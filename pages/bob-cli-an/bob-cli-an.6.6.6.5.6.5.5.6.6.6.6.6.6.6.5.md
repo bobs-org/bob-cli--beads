@@ -19,14 +19,13 @@ command-mode-doc-links: resolve bob-cli-cs by pointing both command-mode links a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b65bff1`](https://github.com/bobs-org/bob-cli/commit/b65bff1bd5a11c29b99c0e7263035de44520a089) | docs(guides): fix Bob Command Mode reference link | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5.md) | 2026-10-26 16:12:57 EDT |
-| bob-plugins | [`bob-plugins@1621bd6`](https://github.com/bobs-org/bob-plugins/commit/1621bd6b3c84ed5f5ea8bc404d4b740073aa484f) | docs(plugins): fix Bob Command Mode reference link | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.5.md) | 2026-10-26 16:14:21 EDT |
 
 <!-- sase:referenced-by:start -->
 
