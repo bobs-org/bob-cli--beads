@@ -31,7 +31,7 @@ Every research report the SASE research-highlights file hook turns into a refere
 |---|---|---|---|---|---:|---:|
 | [bob-cli-d2.1](bob-cli-d2.1.md) | Newborn reference notes keep their birth source\_markdown pointer | ✓ closed | small | 2026-10-27 | 1 | 1 |
 | [bob-cli-d2.2](bob-cli-d2.2.md) | bob ref attach-source adopts orphan saved-source stores | ✓ closed | medium | 2026-10-27 | 1 | 1 |
-| [bob-cli-d2.3](bob-cli-d2.3.md) | Deploy, verify the hook on both hosts, and backfill two weeks of research references | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
+| [bob-cli-d2.3](bob-cli-d2.3.md) | Deploy, verify the hook on both hosts, and backfill two weeks of research references | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["bob-cli-d2: Saved Markdown for every research reference (birth pointer fix and two-week backfill) [in_progress]"]
     n1["bob-cli-d2.1: Newborn reference notes keep their birth source_markdown pointer [closed]"]
     n2["bob-cli-d2.2: bob ref attach-source adopts orphan saved-source stores [closed]"]
-    n3["bob-cli-d2.3: Deploy, verify the hook on both hosts, and backfill two weeks of research references [in_progress]"]
+    n3["bob-cli-d2.3: Deploy, verify the hook on both hosts, and backfill two weeks of research references [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,7 +54,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-d2.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d2.1/README.md) | [bob-cli-d2.1](bob-cli-d2.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-d2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d2.2.md) | [bob-cli-d2.2](bob-cli-d2.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-d2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d2.3/README.md) | [bob-cli-d2.3](bob-cli-d2.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-d2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d2.3/README.md) | [bob-cli-d2.3](bob-cli-d2.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-d2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d2.land/README.md) | [bob-cli-d2](README.md) | 0 |
 
 ## Commits
@@ -63,6 +63,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`3a13ec6`](https://github.com/bobs-org/bob-cli/commit/3a13ec6f53ec78382dc225207bf822da5567df3a) | fix(ref): keep birth source\_markdown pointer on newborn notes | [bob-cli-d2.1](bob-cli-d2.1.md) | 2026-10-27 08:04:53 EDT |
 | bob-cli | [`d38bef5`](https://github.com/bobs-org/bob-cli/commit/d38bef590c065b2bfef67745b0e83ce350707498) | feat(ref): adopt orphan saved source stores | [bob-cli-d2.2](bob-cli-d2.2.md) | 2026-10-27 08:32:19 EDT |
+| chezmoi | [`chezmoi@62806ca`](https://github.com/bbugyi200/dotfiles/commit/62806ca3cb5992df2261bc11b53a37bbee3e6712) | feat(sase): raise research-highlights file-hook timeout to 300s | [bob-cli-d2.3](bob-cli-d2.3.md) | 2026-10-27 09:00:50 EDT |
 
 <!-- sase:referenced-by:start -->
 

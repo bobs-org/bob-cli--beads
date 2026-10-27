@@ -17,7 +17,7 @@ pointer-fix: make both PDF-sync executors carry the planned birth-only source_ma
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-d2.3](bob-cli-d2.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-d2.3](bob-cli-d2.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

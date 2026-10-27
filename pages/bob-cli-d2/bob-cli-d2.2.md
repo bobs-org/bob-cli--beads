@@ -17,7 +17,7 @@ adopt: let `bob ref attach-source` point a reference at its own unreferenced ren
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-d2.3](bob-cli-d2.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-d2.3](bob-cli-d2.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -30,3 +30,15 @@ adopt: let `bob ref attach-source` point a reference at its own unreferenced ren
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d38bef5`](https://github.com/bobs-org/bob-cli/commit/d38bef590c065b2bfef67745b0e83ce350707498) | feat(ref): adopt orphan saved source stores | [bob-cli-d2.2](bob-cli-d2.2.md) | 2026-10-27 08:32:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d2.2--2][1] | Need the phase scope, design file, and earlier work notes before completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d2.2.md
+
+<!-- sase:referenced-by:end -->
