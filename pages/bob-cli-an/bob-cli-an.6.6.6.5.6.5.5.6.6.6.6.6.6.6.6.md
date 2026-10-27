@@ -62,11 +62,19 @@ Epic symbols: none. No just symvision recipe.
 
 [2026-10-27T10:20:17Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land] Verified all 5 phases against source and commits; plugin_ignore=warn and startup_smoke=implement honored. Fixed one epic-caused defect in the landing: e557b021's native rollback presenter test was red on macOS CI for 29d6105b and 017b6927, because it edited before NSDocument's post-move re-read. c2b69089 waits for the re-read, and master CI 40485333363 is green on ubuntu and macOS. bob-mac-capture master 0e7eba4 CI 40469875355 is green through install. Integration: no non-epic commits landed in bob-cli, bob-plugins, or bob-mac-capture during the epic. Plugins re-synced from master 88f0cdd with the stamp-aware bob: 8 synced, 0 drift, no vault-ignore findings. The packaged Obsidian smoke gate passed against the deployment. just check passed with 6183 tests. Targets cz, cy, d0, ch, and a6 closed done. Follow-ups: no phase proposals; evidence routed to bob-cli-ay and bob-cli-d1; no new tasks. No epic symbols. Details in the preceding note.
 
+[2026-10-27T10:22:50Z · bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land] CONTINUATION: I authored the successor batch-17 epic plan. The scratch file is sase_plan_backlog_batch17_macos_gate_source_backfill_hook_dedupe_dirty_scans_swift_format.md, the expected archive is plan:202610/backlog_batch17_macos_gate_source_backfill_hook_dedupe_dirty_scans_swift_format.md, and its parent_bead is this epic. It validated with --explain (10 decision-length errors fixed) and then plain, with 0 warnings. I submit it through sase plan propose right after this note; ownership transfers to the batch-17 lander on approval. It assigns five existing beads, all ready and unassigned:
+- by: precommit macOS CI gate (large; decision macos_gate, default scratch_ci).
+- co: attach-source ambiguous and title-mismatch skips (medium; attach_disambiguation, default verify; writes only via a Bryan gate).
+- cm: research-hook hash-suffixed duplicate references (large; hook_dedupe, default implement).
+- b1: per-PDF dirty ref-scan refusal (large; dirty_pdf, default hold).
+- 8k: bob-mac-capture .swift-format (small).
+Landing commits: bob-cli c2b69089 and plans dc50837 (batch-16 status done); no bob-plugins or bob-mac-capture changes. A fresh no-limit enumeration after closing finds 117 unresolved tasks: 112 ready and 5 snoozed (6q, aa, ah, cp, cq; no tag contains 0f76d558 yet). Deferred: 8r and 9x stay separate large launches; cv, 5m, and 5n are sase-repo fixes; 8q and b9 stay with 3j, whose lander has not run since 2026-10-02 ('sase bead work bob-cli-3j'); 58 waits for 87's land; b4 and ax wait for Bryan; ay, cx, and 30 need Bryan's Mac session; d1, 1x, and the other memory tasks need Bryan's authorization.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.md) | 2 |
 
 ## Commits
 
@@ -83,6 +91,6 @@ Epic symbols: none. No just symvision recipe.
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land][1] | Need the epic scope, children, and linked plan file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land.md
 
 <!-- sase:referenced-by:end -->
