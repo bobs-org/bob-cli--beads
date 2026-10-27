@@ -14,7 +14,7 @@ backfill: install the fixed bob on athena and apollo, apply the hook_timeout dec
 ## Dependencies
 
 - **Depends on:** [bob-cli-d2.1](bob-cli-d2.1.md) ✓ · ⧖ 2026-10-27
-- **Depends on:** [bob-cli-d2.2](bob-cli-d2.2.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [bob-cli-d2.2](bob-cli-d2.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
