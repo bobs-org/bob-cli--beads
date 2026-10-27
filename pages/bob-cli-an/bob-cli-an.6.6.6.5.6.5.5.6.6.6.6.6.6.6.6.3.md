@@ -34,3 +34,15 @@ aarch64-apple-darwin clippy with stub CC/AR and CRATE_CC_NO_DEFAULTS=1 finished 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e557b02`](https://github.com/bobs-org/bob-cli/commit/e557b021244a5aef656cbef0fcb14f6aea71aa53) | feat(ref): coordinate annotated-overwrite archive moves under open PDFs | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.3.md) | 2026-10-27 03:59:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land/README.md
+
+<!-- sase:referenced-by:end -->

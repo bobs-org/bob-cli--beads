@@ -29,3 +29,15 @@ plugin-startup-smoke: resolve bob-cli-a6 per the startup_smoke decision by packa
 |---|---|---|---|---|
 | bob-cli | [`29d6105`](https://github.com/bobs-org/bob-cli/commit/29d6105b09856a70d7a9ff4359a44e3e76d79572) | docs(plugins): add Obsidian rollout smoke gate to deploy guide | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.5.md) | 2026-10-27 04:01:17 EDT |
 | bob-plugins | [`bob-plugins@88f0cdd`](https://github.com/bobs-org/bob-plugins/commit/88f0cddaec4907623b2d4498183d1884be1b58a5) | feat(plugins): package the real-Obsidian startup smoke check | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.5.md) | 2026-10-27 04:02:45 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.land/README.md
+
+<!-- sase:referenced-by:end -->
