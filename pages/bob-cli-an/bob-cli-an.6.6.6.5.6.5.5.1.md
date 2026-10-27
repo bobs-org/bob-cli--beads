@@ -17,12 +17,6 @@ listen-manifest: resolve bob-cli-bq in sase-listen flush_pending so a successful
 
 [2026-10-25T11:57:39Z · bob-cli-an.6.6.6.5.6.5.5.1] flush_pending now marks the source manifest published on successful retry (library threaded through push+mark; mark failures stay queued and reported). 4 new tests in tests/test_feedhost.py; sase tool run check green. bq left open for lander verification; no reconcile command exists so the three stale Athena manifests need the manual one-shot repair recorded in the phase note.
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.1/README.md) | [bob-cli-an.6.6.6.5.6.5.5.1](bob-cli-an.6.6.6.5.6.5.5.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

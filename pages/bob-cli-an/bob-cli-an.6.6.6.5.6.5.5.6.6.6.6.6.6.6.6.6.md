@@ -7,6 +7,18 @@
 **Created:** 2026-10-27 06:23:58 EDT
 **Plan:** [202610/backlog\_batch17\_macos\_gate\_source\_backfill\_hook\_dedupe\_dirty\_scans\_swift\_format.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch17_macos_gate_source_backfill_hook_dedupe_dirty_scans_swift_format.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/backlog_batch17_macos_gate_source_backfill_hook_dedupe_dirty_scans_swift_format.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch17_macos_gate_source_backfill_hook_dedupe_dirty_scans_swift_format.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Close five existing tasks by giving Linux-launched agents a bounded precommit macOS check, attaching saved sources to the skipped agent-report references, stopping the research hook from creating duplicate references, refusing dirty ref-scan targets per PDF, and pinning bob-mac-capture's Swift format.
