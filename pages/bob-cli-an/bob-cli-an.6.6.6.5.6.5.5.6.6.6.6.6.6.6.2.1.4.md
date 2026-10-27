@@ -18,7 +18,7 @@ capture-writers: migrate stamp_and_install and remaining direct public PDF copie
 ## Dependencies
 
 - **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -31,3 +31,15 @@ capture-writers: migrate stamp_and_install and remaining direct public PDF copie
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0971ad5`](https://github.com/bobs-org/bob-cli/commit/0971ad564b7661e2a79a076626fbbc20fad48b5a) | feat(highlights-ref): route capture replacement writers through guarded publish boundary | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4.md) | 2026-10-27 00:34:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.4/README.md
+
+<!-- sase:referenced-by:end -->

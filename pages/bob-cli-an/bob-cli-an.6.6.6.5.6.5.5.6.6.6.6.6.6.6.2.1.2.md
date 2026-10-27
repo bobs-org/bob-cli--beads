@@ -18,7 +18,7 @@ rename-transaction: put ref rename, same-stem id repair, verification, scoped co
 ## Dependencies
 
 - **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.5.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
