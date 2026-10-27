@@ -26,3 +26,15 @@ manual-heading-numbers: teach the number_from_top_level Lua pass to leave self-n
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f771b19`](https://github.com/bobs-org/bob-cli/commit/f771b196562ae6b6f60e4c12a086e4cecc2f02de) | fix(ref): stop pandoc numbering self-numbered Markdown headings | [bob-cli-d7.2](bob-cli-d7.2.md) | 2026-10-27 15:15:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d7.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d7.2/README.md
+
+<!-- sase:referenced-by:end -->

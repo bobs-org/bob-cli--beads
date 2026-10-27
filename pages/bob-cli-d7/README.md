@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch_a1.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch_a1.md
 
 <!-- sase:links:end -->
@@ -27,7 +29,7 @@ The five most important open task beads are resolved: just check is green on apo
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-d7.1](bob-cli-d7.1.md) | Skip the snapshot store test when note-profile LaTeX packages are missing | ◐ in_progress | small | 2026-10-27 | 1 | 0 |
+| [bob-cli-d7.1](bob-cli-d7.1.md) | Skip the snapshot store test when note-profile LaTeX packages are missing | ✓ closed | small | 2026-10-27 | 1 | 1 |
 | [bob-cli-d7.2](bob-cli-d7.2.md) | Stop pandoc numbering headings the author already numbered | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [bob-cli-d7.3](bob-cli-d7.3.md) | Make the completion PTY and zpty tests load-tolerant | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [bob-cli-d7.4](bob-cli-d7.4.md) | Correct the stale review-walk and reference-task memory | ✓ closed | small | 2026-10-27 | 1 | 0 |
@@ -37,7 +39,7 @@ The five most important open task beads are resolved: just check is green on apo
 ```mermaid
 flowchart TD
     n0["bob-cli-d7: Backlog batch A1: red test gates, double-numbered headings, and stale walk/ref memory [in_progress]"]
-    n1["bob-cli-d7.1: Skip the snapshot store test when note-profile LaTeX packages are missing [in_progress]"]
+    n1["bob-cli-d7.1: Skip the snapshot store test when note-profile LaTeX packages are missing [closed]"]
     n2["bob-cli-d7.2: Stop pandoc numbering headings the author already numbered [closed]"]
     n3["bob-cli-d7.3: Make the completion PTY and zpty tests load-tolerant [in_progress]"]
     n4["bob-cli-d7.4: Correct the stale review-walk and reference-task memory [closed]"]
@@ -51,7 +53,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-d7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d7.1.md) | [bob-cli-d7.1](bob-cli-d7.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-d7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d7.1.md) | [bob-cli-d7.1](bob-cli-d7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-d7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d7.2/README.md) | [bob-cli-d7.2](bob-cli-d7.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-d7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d7.3/README.md) | [bob-cli-d7.3](bob-cli-d7.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-d7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d7.4.md) | [bob-cli-d7.4](bob-cli-d7.4.md) | 0 |
@@ -62,3 +64,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f771b19`](https://github.com/bobs-org/bob-cli/commit/f771b196562ae6b6f60e4c12a086e4cecc2f02de) | fix(ref): stop pandoc numbering self-numbered Markdown headings | [bob-cli-d7.2](bob-cli-d7.2.md) | 2026-10-27 15:15:23 EDT |
+| bob-cli | [`d208c59`](https://github.com/bobs-org/bob-cli/commit/d208c595c7483acb43a4407018a0171fd21df8fc) | fix(tests): gate note-profile snapshot renders by package availability | [bob-cli-d7.1](bob-cli-d7.1.md) | 2026-10-27 15:18:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d7.2][1] | epic context for d7.2 | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-d7.2/README.md
+
+<!-- sase:referenced-by:end -->
