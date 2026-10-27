@@ -43,13 +43,14 @@ Native limitations: the Mac was offline (ssh mac timed out), so the macOS NSDocu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.land.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`da3fa75`](https://github.com/bobs-org/bob-cli/commit/da3fa75106d90b7e00fd8be1fe2e2ab4c8731118) | refactor(rename): remove dead uncoordinated legacy write path | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.md) | 2026-10-27 02:20:59 EDT |
+| bob-cli--plans | [`bob-cli--plans@0c50d77`](https://github.com/bobs-org/bob-cli--plans/commit/0c50d7768628f5ed5724d3d5472c1c522f1b088b) | docs(plans): mark PDF coordination epic plan done | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.2.1.md) | 2026-10-27 02:22:47 EDT |
 
 <!-- sase:referenced-by:start -->
 
