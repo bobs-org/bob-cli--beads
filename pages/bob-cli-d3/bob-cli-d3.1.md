@@ -19,7 +19,7 @@ adapter-source-view: web-clip adapter keeps image origins, writes render/source.
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-d3.2](bob-cli-d3.2.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-d3.2](bob-cli-d3.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ adapter-source-view: web-clip adapter keeps image origins, writes render/source.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f8dc405`](https://github.com/bobs-org/bob-cli/commit/f8dc405b9a318496dab8c8f3e0f7e91226ecff7b) | feat(web-clip): emit saved source views and code anchors | [bob-cli-d3.1](bob-cli-d3.1.md) | 2026-10-27 11:41:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d3.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.1/README.md
+
+<!-- sase:referenced-by:end -->

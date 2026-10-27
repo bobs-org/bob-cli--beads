@@ -13,7 +13,7 @@ mac-hint-copy: in bob-mac-capture, reword the no-saved-Markdown code and link re
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-d3.2](bob-cli-d3.2.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [bob-cli-d3.2](bob-cli-d3.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

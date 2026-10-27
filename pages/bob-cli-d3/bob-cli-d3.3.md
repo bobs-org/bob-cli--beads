@@ -13,7 +13,7 @@ web-collection-store: persist a web_collection store from the compose response b
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-d3.2](bob-cli-d3.2.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [bob-cli-d3.2](bob-cli-d3.2.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [bob-cli-d3.4](bob-cli-d3.4.md) ◐ · ⧖ 2026-10-27
 
 ## Agents
