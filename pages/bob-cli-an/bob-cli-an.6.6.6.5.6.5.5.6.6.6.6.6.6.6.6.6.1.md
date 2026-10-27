@@ -52,14 +52,13 @@ PROPOSED FOLLOW-UP already on this phase cites existing memory task bob-cli-1x t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`79b2859`](https://github.com/bobs-org/bob-cli/commit/79b2859d6fcb4b3efee5a908d048377e58f3eba9) | feat(ci): add macos-ci-check scratch-branch precommit gate | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1.md) | 2026-10-27 08:30:41 EDT |
-| bob-mac-capture | [`bob-mac-capture@b8ca374`](https://github.com/bobs-org/bob-mac-capture/commit/b8ca3744b0e2122008821ed4d7ea5ad289e844e1) | feat(ci): add macos-ci-check scratch-branch precommit gate | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.1.md) | 2026-10-27 08:32:39 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -17,18 +17,6 @@ mac-hidden-refresh-flake: resolve bob-cli-c0 by finding which code path spawns r
 
 [2026-10-25T13:00:04Z · bob-cli-an.6.6.6.5.6.5.5.6.3] Fixed hidden-panel inspector guard: RefsInspectorLoader.shouldHydrate wired to panelIsVisible, checked at fire time. Verified: just portable-check exit 0 (1648 tests), mac bundle.sh + just typecheck-tests PASS. No test changes; target task bob-cli-c0 left open for lander. Watch macOS CI for testHiddenLibraryRefreshDoesNotHydrateInspector on landed SHA.
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.3/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.3](bob-cli-an.6.6.6.5.6.5.5.6.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@461f46c`](https://github.com/bobs-org/bob-mac-capture/commit/461f46c285745e9ec2fbe3324cfae1123de1f057) | fix(refs): gate hidden-panel inspector hydration on visibility at fire time | [bob-cli-an.6.6.6.5.6.5.5.6.3](bob-cli-an.6.6.6.5.6.5.5.6.3.md) | 2026-10-25 09:01:30 EDT |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

@@ -29,13 +29,7 @@ LIMITATIONS: Lint still warns on 4-space files (Package.swift #if indent, line l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@aab0211`](https://github.com/bobs-org/bob-mac-capture/commit/aab0211a6e87721fa89659606fcadd6b56c1891f) | style: pin 4-space Swift format and re-indent minority files | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5.md) | 2026-10-27 06:43:57 EDT |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
