@@ -21,7 +21,7 @@ web-article-store: read Chrome catalog /Dests, convert the source view to GFM, c
 
 - **Depends on:** [bob-cli-d3.1](bob-cli-d3.1.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [bob-cli-d3.3](bob-cli-d3.3.md) ◐ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-d3.5](bob-cli-d3.5.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-d3.5](bob-cli-d3.5.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -34,3 +34,15 @@ web-article-store: read Chrome catalog /Dests, convert the source view to GFM, c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4fda80b`](https://github.com/bobs-org/bob-cli/commit/4fda80b13d65e59383e847073622145f3c72acd8) | feat(web-ref): single web articles save source.md and a catalog | [bob-cli-d3.2](bob-cli-d3.2.md) | 2026-10-27 12:41:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d3.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-d3.2/README.md
+
+<!-- sase:referenced-by:end -->
