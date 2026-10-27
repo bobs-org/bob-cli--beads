@@ -23,6 +23,10 @@
 
 Close five existing tasks by giving Linux-launched agents a bounded precommit macOS check, attaching saved sources to the skipped agent-report references, stopping the research hook from creating duplicate references, refusing dirty ref-scan targets per PDF, and pinning bob-mac-capture's Swift format.
 
+## Notes
+
+[2026-10-27T13:19:50Z · bob-cli-d2.land] DISCOVERED ISSUE / d2 landing integration: your attach-source-skips phase .2 added JSON in 69b7d962, but commit_batch still prints committed <sha> (N references) to stdout. Reproduced on d38bef59 in an isolated Git vault: successful bob ref attach-source report -f json adoption exits 0 but json.loads(stdout) fails at line 1. Existing tests only cover dry-run JSON. bob-cli-d2 will include the shared commit-output repair and write-mode adoption/search JSON regressions in its remaining-work tale, avoiding duplicate edits. Also recorded bob-cli-d2.3 proposed overlap #2 on bob-cli-co: 17 hook-time attachments independently confirmed, historical membership in the old ambiguous/title-mismatch sets unproven; co stays open. Evidence: file:explicit:c61a26370b705cae1446a6ed.
+
 ## Agents
 
 | Agent | Bead | Commits |

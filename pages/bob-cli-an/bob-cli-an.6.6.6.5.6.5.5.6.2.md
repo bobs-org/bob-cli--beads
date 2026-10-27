@@ -17,12 +17,6 @@ listen-explicit-publish: resolve bob-cli-c1 in sase-listen so an explicit publis
 
 [2026-10-25T12:55:52Z · bob-cli-an.6.6.6.5.6.5.5.6.2] Verified: new tests failed before the fix (6 failed) and pass after; tests/test_feedhost.py, test_feed.py, test_cli.py (73 passed) and test_pipeline.py, test_buildinfo.py (72 passed) green; sase tool run check (lint+full suite) succeeded. Explicit publish now marks the source manifest published:true in both roles; delivery failure leaves it false; mark failure exits 1 with human+JSON error and a repair path (queued --pending retry remotely, rerun locally).
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.2/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.2](bob-cli-an.6.6.6.5.6.5.5.6.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
