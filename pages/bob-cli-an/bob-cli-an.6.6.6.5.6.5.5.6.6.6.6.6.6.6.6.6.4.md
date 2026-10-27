@@ -29,3 +29,15 @@ per-pdf-dirty-refusal: resolve bob-cli-b1 per the dirty_pdf decision so one auto
 |---|---|---|---|---|
 | bob-cli | [`af3a8fd`](https://github.com/bobs-org/bob-cli/commit/af3a8fd4b5594d56a78d39312f2e36158be4d108) | feat(highlights-ref)!: report dirty scan targets as per-PDF holds | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.4.md) | 2026-10-27 09:40:32 EDT |
 | bob-mac-capture | [`bob-mac-capture@f8a258f`](https://github.com/bobs-org/bob-mac-capture/commit/f8a258f411f48471026bffc859ac7b78c5c206db) | feat(refs): surface per-PDF dirty scan holds | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.4](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.4.md) | 2026-10-27 09:42:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.4--f][1] | Reconfirm the assigned dirty-scan phase in the workspace SDD bead store before closing | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.4.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_batch17_macos_gate_source_backfill_hook_dedupe_dirty_scans_swift_format.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch17_macos_gate_source_backfill_hook_dedupe_dirty_scans_swift_format.md
 
 <!-- sase:links:end -->
@@ -27,8 +29,30 @@ Close five existing tasks by giving Linux-launched agents a bounded precommit ma
 
 [2026-10-27T13:19:50Z · bob-cli-d2.land] DISCOVERED ISSUE / d2 landing integration: your attach-source-skips phase .2 added JSON in 69b7d962, but commit_batch still prints committed <sha> (N references) to stdout. Reproduced on d38bef59 in an isolated Git vault: successful bob ref attach-source report -f json adoption exits 0 but json.loads(stdout) fails at line 1. Existing tests only cover dry-run JSON. bob-cli-d2 will include the shared commit-output repair and write-mode adoption/search JSON regressions in its remaining-work tale, avoiding duplicate edits. Also recorded bob-cli-d2.3 proposed overlap #2 on bob-cli-co: 17 hook-time attachments independently confirmed, historical membership in the old ambiguous/title-mismatch sets unproven; co stays open. Evidence: file:explicit:c61a26370b705cae1446a6ed.
 
+[2026-10-27T14:18:28Z · bob-cli-d2.land--1] The shared attach-source JSON write-mode repair is implemented in this working diff: commit diagnostics go to stderr in JSON mode so stdout stays one parseable envelope across batch and final commits. Verified by focused attach (25 passed) and full CLI checks (2,291 CLI tests passed; just check and just docs-check passed). Verification evidence: file:explicit:65cf00f6aef47b5c575e10e2 and file:explicit:0b7f8779ba750441f4469595. The broader saved-Markdown landing remains open on bob-cli-d2 because its approved attachment stop gate failed.
+
+[2026-10-27T14:21:17Z · bob-cli-d2.land--1] Updated landing summary after the live vault fast-forward is file:explicit:a56b38495295a784e55ac0a0; it supersedes the earlier summary snapshot while preserving the JSON repair verification and stop-gate record.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.land/README.md) | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@e6296bc`](https://github.com/bobs-org/bob-mac-capture/commit/e6296bc9727a0f5e2533049b36212e6ea2e6d40b) | style(refs): re-indent per-PDF dirty-hold lines to the pinned 4-space format | [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.6.6.md) | 2026-10-27 10:43:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-d2.land--1][1] | Confirm the named JSON repair epic after note append | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-d2.land.md
+
+<!-- sase:referenced-by:end -->
