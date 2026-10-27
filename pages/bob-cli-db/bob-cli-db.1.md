@@ -19,7 +19,7 @@ split_cmd: add the template and map-driven per-entry theme split on the shared v
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-db.2](bob-cli-db.2.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-db.2](bob-cli-db.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ split_cmd: add the template and map-driven per-entry theme split on the shared v
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a6a359b`](https://github.com/bobs-org/bob-cli/commit/a6a359b8c62c318cb82a98286cdfc72cd35c47c8) | feat(themes): add per-entry split and skip re-adopted rename reports | [bob-cli-db.1](bob-cli-db.1.md) | 2026-10-27 17:48:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-db.1][1] | Need remaining notes and DECISIONS before finishing phase | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-db.1/README.md
+
+<!-- sase:referenced-by:end -->
