@@ -163,7 +163,7 @@ Close five prioritized task beads by removing Athena privilege-boundary exposure
 | bob-cli | [`0e75ca5`](https://github.com/bobs-org/bob-cli/commit/0e75ca56901ff6f023416eb0b119d348d8aaf860) | test(capture): make related perf gate tolerate parallel load | [bob-cli-an.6.6.6.5.6.5.5.6.4](bob-cli-an.6.6.6.5.6.5.5.6.4.md) | 2026-10-25 09:05:07 EDT |
 | bob-cli | [`6292c35`](https://github.com/bobs-org/bob-cli/commit/6292c35b61aa230b24b070523341b85576eeae54) | fix(cli): exit 0 quietly on EPIPE instead of panicking | [bob-cli-an.6.6.6.5.6.5.5.6.1](bob-cli-an.6.6.6.5.6.5.5.6.1.md) | 2026-10-25 09:10:13 EDT |
 
-… and 51 more commits
+… and 52 more commits
 
 <!-- sase:referenced-by:start -->
 
