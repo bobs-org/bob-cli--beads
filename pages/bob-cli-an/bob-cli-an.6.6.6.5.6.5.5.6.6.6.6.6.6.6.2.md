@@ -13,7 +13,7 @@ open-pdf-move-coordination: resolve bob-cli-az by routing rename/move, the id st
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1](bob-cli-an.6.6.6.5.6.5.5.6.6.6.6.6.6.6.1.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

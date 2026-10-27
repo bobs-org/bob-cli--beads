@@ -15,12 +15,6 @@ rfserver-suspension: resolve bob-cli-b3 by keying rfserver auth suspension on RE
 
 [2026-10-23T21:32:45Z · bob-cli-an.6.6.1] bob-cli-b3 fixed: _get_client_address returns REMOTE_ADDR only (XFF branch deleted). Verified: scratch probe showed varying XFF never SUSPENDED pre-fix; 3 live regressions pass (loopback bind + 2 suspension tests); tailnet hosts/athena/rfserver updated (server-suspension.patch reverse-applies clean, test copy identical, README verify/rollback/residual-risk updated); tools:rfserver restarted via user Supervisor (RUNNING); ss shows 127.0.0.1:23401 only; single loopback bad-token form POST returned 401. No epic symbols remain. Task bead bob-cli-b3 left open for lander.
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-an.6.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-an.6.6.1/README.md) | [bob-cli-an.6.6.1](bob-cli-an.6.6.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
