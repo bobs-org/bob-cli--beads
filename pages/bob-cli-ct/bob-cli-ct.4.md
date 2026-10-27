@@ -24,13 +24,7 @@ mac-core: decode `bob ref links`, add the L row, its key resolution, loading que
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ct.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.4/README.md) | [bob-cli-ct.4](bob-cli-ct.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@6c3b1d4`](https://github.com/bobs-org/bob-mac-capture/commit/6c3b1d47f27e4b4d0087d2600817e9af1d6e513b) | feat(refs): add link catalog, L row, and picker model | [bob-cli-ct.4](bob-cli-ct.4.md) | 2026-10-26 17:17:51 EDT |
+| [bbugyi200.athena.bob-cli-ct.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.4/README.md) | [bob-cli-ct.4](bob-cli-ct.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

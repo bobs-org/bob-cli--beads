@@ -20,7 +20,7 @@ links-catalog: extend the render-time catalog filter to record every URI link (e
 ## Dependencies
 
 - **Blocks:** [bob-cli-ct.2](bob-cli-ct.2.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ct.3](bob-cli-ct.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ct.3](bob-cli-ct.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

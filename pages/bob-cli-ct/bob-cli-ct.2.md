@@ -20,7 +20,7 @@ links-cmd: add the read-only `bob ref links <REF> [N]` command (human, json, mar
 ## Dependencies
 
 - **Depends on:** [bob-cli-ct.1](bob-cli-ct.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [bob-cli-ct.3](bob-cli-ct.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [bob-cli-ct.3](bob-cli-ct.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [bob-cli-ct.4](bob-cli-ct.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents

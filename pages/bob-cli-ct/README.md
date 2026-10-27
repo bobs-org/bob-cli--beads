@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/ref_link_copy.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ref_link_copy.md
 
@@ -31,9 +31,9 @@ While reading a bob-rendered report in Highlights, Command-Y L Return puts the U
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ct.1](bob-cli-ct.1.md) | Render-time link records in the code catalog | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [bob-cli-ct.2](bob-cli-ct.2.md) | bob ref links read surface | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-ct.3](bob-cli-ct.3.md) | Annotation pages, attach-source links, and bob ref recatalog | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
-| [bob-cli-ct.4](bob-cli-ct.4.md) | RefsCore link catalog, L row, and the link picker model | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [bob-cli-ct.5](bob-cli-ct.5.md) | Link picker, link well, and panel wiring | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [bob-cli-ct.3](bob-cli-ct.3.md) | Annotation pages, attach-source links, and bob ref recatalog | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [bob-cli-ct.4](bob-cli-ct.4.md) | RefsCore link catalog, L row, and the link picker model | ✓ closed | medium | 2026-10-26 | 1 | 0 |
+| [bob-cli-ct.5](bob-cli-ct.5.md) | Link picker, link well, and panel wiring | ✓ closed | medium | 2026-10-26 | 1 | 0 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n0["bob-cli-ct: Copy any link from a Markdown-born reference (Copy card L) [in_progress]"]
     n1["bob-cli-ct.1: Render-time link records in the code catalog [closed]"]
     n2["bob-cli-ct.2: bob ref links read surface [closed]"]
-    n3["bob-cli-ct.3: Annotation pages, attach-source links, and bob ref recatalog [in_progress]"]
+    n3["bob-cli-ct.3: Annotation pages, attach-source links, and bob ref recatalog [closed]"]
     n4["bob-cli-ct.4: RefsCore link catalog, L row, and the link picker model [closed]"]
     n5["bob-cli-ct.5: Link picker, link well, and panel wiring [closed]"]
     n0 --> n1
@@ -63,9 +63,9 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ct.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.1/README.md) | [bob-cli-ct.1](bob-cli-ct.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ct.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ct.2.md) | [bob-cli-ct.2](bob-cli-ct.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-ct.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ct.3.md) | [bob-cli-ct.3](bob-cli-ct.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-ct.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.4/README.md) | [bob-cli-ct.4](bob-cli-ct.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-ct.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.5/README.md) | [bob-cli-ct.5](bob-cli-ct.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-ct.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ct.3.md) | [bob-cli-ct.3](bob-cli-ct.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-ct.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.4/README.md) | [bob-cli-ct.4](bob-cli-ct.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ct.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.5/README.md) | [bob-cli-ct.5](bob-cli-ct.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-ct.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.land/README.md) | [bob-cli-ct](README.md) | 0 |
 
 ## Commits
@@ -74,8 +74,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`96793fd`](https://github.com/bobs-org/bob-cli/commit/96793fdac1309f1fc8c0cada42211222eef6d8b7) | feat(highlights-ref): record URI link catalog with anchor pages in code.json | [bob-cli-ct.1](bob-cli-ct.1.md) | 2026-10-26 16:03:47 EDT |
 | bob-cli | [`82716a6`](https://github.com/bobs-org/bob-cli/commit/82716a6444e15457cbf432fd08636e2dcce0ea86) | feat(ref): add bob ref links read surface | [bob-cli-ct.2](bob-cli-ct.2.md) | 2026-10-26 16:53:14 EDT |
-| bob-mac-capture | [`bob-mac-capture@6c3b1d4`](https://github.com/bobs-org/bob-mac-capture/commit/6c3b1d47f27e4b4d0087d2600817e9af1d6e513b) | feat(refs): add link catalog, L row, and picker model | [bob-cli-ct.4](bob-cli-ct.4.md) | 2026-10-26 17:17:51 EDT |
-| bob-mac-capture | [`bob-mac-capture@2764ec5`](https://github.com/bobs-org/bob-mac-capture/commit/2764ec5f4a8fe2574bb6e466bc451a13df5dc8f3) | feat(refs): wire Copy card link picker, link well, and panel loads | [bob-cli-ct.5](bob-cli-ct.5.md) | 2026-10-26 17:46:50 EDT |
+| bob-cli | [`42abfa7`](https://github.com/bobs-org/bob-cli/commit/42abfa705a445647395fedea1691d885f53722b5) | feat(ref): add annotation-backed link recataloging (bob-cli-ct.3) | [bob-cli-ct.3](bob-cli-ct.3.md) | 2026-10-26 21:36:08 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -84,7 +83,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ct.1][1] | Need epic DECISIONS and plan context | 1 |
+| read-by | [agent:bob-cli-ct.5][2] | Need epic DECISIONS and parent scope for phase ct.5 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ct.5/README.md
 
 <!-- sase:referenced-by:end -->
