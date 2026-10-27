@@ -62,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-db.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-db.1/README.md) | [bob-cli-db.1](bob-cli-db.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-db.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-db.2/README.md) | [bob-cli-db.2](bob-cli-db.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-db.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-db.land.md) | [bob-cli-db](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-db.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-db.land.md) | [bob-cli-db](README.md) | 2 |
 
 ## Commits
 
@@ -70,6 +70,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`a6a359b`](https://github.com/bobs-org/bob-cli/commit/a6a359b8c62c318cb82a98286cdfc72cd35c47c8) | feat(themes): add per-entry split and skip re-adopted rename reports | [bob-cli-db.1](bob-cli-db.1.md) | 2026-10-27 17:48:27 EDT |
 | bob-cli | [`0a896a4`](https://github.com/bobs-org/bob-cli/commit/0a896a45c6df23ab048c144a56a342e47276c45d) | fix(themes): preserve split bytes, complete completion, and order journal re-adoption | [bob-cli-db](README.md) | 2026-10-27 18:56:33 EDT |
+| bob-cli--plans | [`bob-cli--plans@d62c8bd`](https://github.com/bobs-org/bob-cli--plans/commit/d62c8bd4f54127238da71799b52e06ecc5c43401) | chore(plans): mark write\_theme\_and\_job\_split done | [bob-cli-db](README.md) | 2026-10-27 18:57:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
