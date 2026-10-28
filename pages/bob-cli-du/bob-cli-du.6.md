@@ -20,7 +20,7 @@ nav-complete-writer: load closing labels with the both-lists rule, add planRelat
 ## Dependencies
 
 - **Depends on:** [bob-cli-du.5](bob-cli-du.5.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.7](bob-cli-du.7.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.7](bob-cli-du.7.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -33,3 +33,15 @@ nav-complete-writer: load closing labels with the both-lists rule, add planRelat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7c088a5`](https://github.com/bobs-org/bob-plugins/commit/7c088a54a2127a922048fbddb7964dd9d55cc561) | feat(navigation): complete relation writer effects | [bob-cli-du.6](bob-cli-du.6.md) | 2026-10-28 16:37:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-du.6--1][1] | Review the assigned implementation epic before recording validation evidence and closing it | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.6.md
+
+<!-- sase:referenced-by:end -->

@@ -35,7 +35,7 @@ Committing a relation whose label is listed in `relations.complete_labels` (star
 | [bob-cli-du.4](bob-cli-du.4.md) | bob relations rename --reverse moves each edge to its other end | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-du.5](bob-cli-du.5.md) | task-status-cycler API v3 exposes its Done line rewrite and post-Done pass | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-du.6](bob-cli-du.6.md) | Obsidian relation writer folds the Done into the source write | ✓ closed | large | 2026-10-28 | 1 | 1 |
-| [bob-cli-du.7](bob-cli-du.7.md) | Obsidian Links stage ✓ indication, mixed batch confirm, hints, and inverse chips | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+| [bob-cli-du.7](bob-cli-du.7.md) | Obsidian Links stage ✓ indication, mixed batch confirm, hints, and inverse chips | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-du.8](bob-cli-du.8.md) | Bob Mac Capture renders bob's complete consequences and offers | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-du.9](bob-cli-du.9.md) | Migrate implements, turn it on in chezmoi, record memory, and run acceptance | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 
@@ -55,7 +55,7 @@ flowchart TD
     n9["bob-cli-du.4: bob relations rename --reverse moves each edge to its other end [in_progress]"]
     n10["bob-cli-du.5: task-status-cycler API v3 exposes its Done line rewrite and post-Done pass [closed]"]
     n11["bob-cli-du.6: Obsidian relation writer folds the Done into the source write [closed]"]
-    n12["bob-cli-du.7: Obsidian Links stage ✓ indication, mixed batch confirm, hints, and inverse chips [in_progress]"]
+    n12["bob-cli-du.7: Obsidian Links stage ✓ indication, mixed batch confirm, hints, and inverse chips [closed]"]
     n13["bob-cli-du.8: Bob Mac Capture renders bob's complete consequences and offers [in_progress]"]
     n14["bob-cli-du.9: Migrate implements, turn it on in chezmoi, record memory, and run acceptance [in_progress]"]
     n0 --> n1
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-du.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.1/README.md) | [bob-cli-du.1](bob-cli-du.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.2.md) | [bob-cli-du.2](bob-cli-du.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.1/README.md) | [bob-cli-du.2.1.1](bob-cli-du.2.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-du.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.2/README.md) | [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-du.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.2/README.md) | [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.3/README.md) | [bob-cli-du.2.1.3](bob-cli-du.2.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.4/README.md) | [bob-cli-du.2.1.4](bob-cli-du.2.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.land/README.md) | [bob-cli-du.2.1](bob-cli-du.2.1.md) | 0 |
@@ -102,7 +102,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-du.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.4/README.md) | [bob-cli-du.4](bob-cli-du.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.5/README.md) | [bob-cli-du.5](bob-cli-du.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.6.md) | [bob-cli-du.6](bob-cli-du.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-du.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.7/README.md) | [bob-cli-du.7](bob-cli-du.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-du.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.7/README.md) | [bob-cli-du.7](bob-cli-du.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.8/README.md) | [bob-cli-du.8](bob-cli-du.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.9/README.md) | [bob-cli-du.9](bob-cli-du.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.land/README.md) | [bob-cli-du](README.md) | 0 |
@@ -114,7 +114,9 @@ flowchart TD
 | bob-cli | [`847a3c5`](https://github.com/bobs-org/bob-cli/commit/847a3c5341ea70f00b4ca6f85c0d405cee8836fe) | feat(relations): add complete-label contract, reverse-rename, and shared vectors | [bob-cli-du.1](bob-cli-du.1.md) | 2026-10-28 15:13:07 EDT |
 | bob-plugins | [`bob-plugins@3c84ee3`](https://github.com/bobs-org/bob-plugins/commit/3c84ee3a2cb6cfcbc5dd2ba4a41e71a99dde21e7) | feat(task-status-cycler): expose Done line rewrite and post-Done pass as api v3 | [bob-cli-du.5](bob-cli-du.5.md) | 2026-10-28 15:39:19 EDT |
 | bob-cli | [`a32a32f`](https://github.com/bobs-org/bob-cli/commit/a32a32fbe081506316174cb45333531055dffc50) | feat(relations): add complete-label policy and verdicts | [bob-cli-du.2.1.1](bob-cli-du.2.1.1.md) | 2026-10-28 15:49:37 EDT |
+| bob-cli | [`4c55a59`](https://github.com/bobs-org/bob-cli/commit/4c55a595bfd6e6b025c4e053e3a16628a29e1d3b) | refactor(capture): extract shared task-complete completion path | [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) | 2026-10-28 16:24:52 EDT |
 | bob-plugins | [`bob-plugins@7c088a5`](https://github.com/bobs-org/bob-plugins/commit/7c088a54a2127a922048fbddb7964dd9d55cc561) | feat(navigation): complete relation writer effects | [bob-cli-du.6](bob-cli-du.6.md) | 2026-10-28 16:37:37 EDT |
+| bob-plugins | [`bob-plugins@7f42bb8`](https://github.com/bobs-org/bob-plugins/commit/7f42bb8234fd53e7da609a80cb3b73f67b94a0b0) | feat(navigation): show complete-label cues on the Links stage | [bob-cli-du.7](bob-cli-du.7.md) | 2026-10-28 17:12:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

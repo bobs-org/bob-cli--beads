@@ -14,7 +14,7 @@ rollout: reverse Bryan's 14 implements links with the new rename, add complete_l
 ## Dependencies
 
 - **Depends on:** [bob-cli-du.4](bob-cli-du.4.md) ◐ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-du.7](bob-cli-du.7.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-du.7](bob-cli-du.7.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-du.8](bob-cli-du.8.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
