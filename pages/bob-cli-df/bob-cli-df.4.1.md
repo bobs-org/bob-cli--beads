@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/preserve_failed_close_worktrees.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/preserve_failed_close_worktrees.md
 
@@ -38,7 +38,9 @@ Failed finalization and subsequent workspace preparation retain recoverable trac
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-df.4.1.1--1][1] | Need DECISIONS from parent epic | 1 |
+| read-by | [agent:bob-cli-df.4.1.3][2] | Need epic DECISIONS and plan context for phase 4.1.3 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->

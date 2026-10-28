@@ -36,7 +36,7 @@ Keep rescue_git_repo for existing best-effort callers until those phases migrate
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-df.4.1.2](bob-cli-df.4.1.2.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-df.4.1.2](bob-cli-df.4.1.2.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [bob-cli-df.4.1.3](bob-cli-df.4.1.3.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ◐ · ⧖ 2026-10-27
 
@@ -53,7 +53,9 @@ Keep rescue_git_repo for existing best-effort callers until those phases migrate
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-df.4.1.1--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-df.4.1.3][2] | Check sibling phase completion and contract for relaunch-cleanup | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->

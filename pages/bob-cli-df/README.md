@@ -49,7 +49,7 @@ flowchart TD
     n8["bob-cli-df.4: Preserve tracked and untracked edits across a failed-close relaunch reset [in_progress]"]
     n9["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [in_progress]"]
     n10["bob-cli-df.4.1.1: Verified durable checkout snapshots [closed]"]
-    n11["bob-cli-df.4.1.2: Protect reset-and-replay operations [in_progress]"]
+    n11["bob-cli-df.4.1.2: Protect reset-and-replay operations [closed]"]
     n12["bob-cli-df.4.1.3: Protect workspace preparation and cleanup fallbacks [closed]"]
     n13["bob-cli-df.4.1.4: Connect failed-close evidence and prove relaunch recovery [in_progress]"]
     n0 --> n1
