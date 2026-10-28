@@ -19,10 +19,22 @@ ordering-policy: preserve earliest evidence, compare actual instants, and respec
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-df.2.1.4.2](bob-cli-df.2.1.4.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-df.2.1.4.2](bob-cli-df.2.1.4.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-df.2.1.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.1.md) | [bob-cli-df.2.1.4.1](bob-cli-df.2.1.4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-df.2.1.4.1--5][1] | Need the phase scope, notes, and design file before finishing the assigned work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.1.md
+
+<!-- sase:referenced-by:end -->
