@@ -43,3 +43,15 @@ Monitor continuation evidence from `tests/test_monitor_continuation_finalizer_ob
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-dp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dp.4.md) | [bob-cli-dp.4](bob-cli-dp.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dp.4--2][1] | Verify the assigned phase is closed and parent beads remain open | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dp.4.md
+
+<!-- sase:referenced-by:end -->
