@@ -14,16 +14,22 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/relation_cancel_labels.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-dq][2] | Cancel-label capture commits on an in-section source are one trigger of this guard |
 
 _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/relation_cancel_labels.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-dq/README.md
 
 <!-- sase:links:end -->
 
 ## Description
 
 Committing a relation whose label is listed in `relations.cancel_labels` (starting with `duplicate of` and `superseded by`, configured in chezmoi) cancels the relation's source task in the same gesture, exactly as Task Card Cancel would: `[-]` plus `[cancelled:: today]`, its links removed from today's open Pomodoros, and blocked dependents recovered. Every surface names the task before you commit (⊘ plus words, `↵ link & cancel`), and nothing else ever cancels or reopens because of a label.
+
+## Notes
+
+[2026-10-28T17:47:03Z · bob-cli-dl.land] LAND FOLLOW-UP TRIAGE (bob-cli-dl.land): (1) bob-cli-dl.2 #1 stale decision successor metadata for theme-hue-is-pin-exempt-area-hash: declined, already fixed by 084a2852 (bob-cli-dk.2); just docs-check passes on 03493169. (2) bob-cli-dl.3 #1 and bob-cli-dl.4 #1 Catalog::for_suggest missing config_warning: declined, fixed by 8852f7bf (bob-cli-dk.land) and 16f3da48. (3) bob-cli-dl.3 #2 PomodoroBlockTracker vanished-entry guard on in-section task rewrites: reproduced on master (debug panic pomodoro_blocks.rs:859, release drops pomodoro_blocks), filed task bob-cli-dq (bug, medium). (4) bob-cli-dl.3 #3 || one-off hides dropped on @owner items: causally from bob-cli-bj.5 (895b9ba7), recorded as DISCOVERED ISSUE on active epic bob-cli-bj, no task. (5) bob-cli-dl.7 #1 glossary.md docs-check drift: declined, regenerated in 03493169, docs-check green. (6) bob-cli-dl.7 #2 Mac typecheck unverified: resolved, macOS CI run 40729693701 on e5f6604 built BobMacCapture and passed CaptureRelationCancelTests. Its only 4 failures are two unconfigured-theme caret tests red since 8b57693 (not this epic), filed task bob-cli-dr (ci, large). (7) bob-cli-dl.8 #1 Task Card Cancel-stage door: declined, the reviewer chose cancel_stage_door=no for this plan ('ship one door first'), so a bead would only restate a declined wish; Bryan can reopen it. (8) bob-cli-dl.8 #2 Mac Similar Tasks 'Replace it': filed task bob-cli-ds (feature, medium).
 
 ## Phases
 
@@ -84,7 +90,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.6.md) | [bob-cli-dl.6](bob-cli-dl.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-dl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.7/README.md) | [bob-cli-dl.7](bob-cli-dl.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md) | [bob-cli-dl.8](bob-cli-dl.8.md) | 3 |
-| [bbugyi200.apollo.bob-cli-dl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.land/README.md) | [bob-cli-dl](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.land.md) | [bob-cli-dl](README.md) | 1 |
 
 ## Commits
 
@@ -101,6 +107,7 @@ flowchart TD
 | bob-cli | [`0349316`](https://github.com/bobs-org/bob-cli/commit/03493169b696813136e6d484d21e27aea60a7e2e) | docs(relations): drop cancel-label planned markers for rollout | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:19:22 EDT |
 | bob-plugins | [`bob-plugins@ff1a24c`](https://github.com/bobs-org/bob-plugins/commit/ff1a24cc49e6e5862d33d0d18b0518cc7ca9354d) | chore(nav): resync task\_cancel vectors from bob-cli | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:21:13 EDT |
 | chezmoi | [`chezmoi@b33aa49`](https://github.com/bbugyi200/dotfiles/commit/b33aa49d022d5a27fabb801e0b332177e184bc73) | feat(bob): turn on relation cancel labels | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:22:04 EDT |
+| bob-plugins | [`bob-plugins@62ccc99`](https://github.com/bobs-org/bob-plugins/commit/62ccc9927e53df02c384b5ebf94166121fdfeb7a) | fix(nav): use singular copy for one open ^prj resident | [bob-cli-dl](README.md) | 2026-10-28 14:18:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
