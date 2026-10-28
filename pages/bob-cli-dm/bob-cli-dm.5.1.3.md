@@ -13,7 +13,7 @@ task-theme-rendered: reuse the mark model in Reading view, Tasks, and Dataview r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.5.1.2](bob-cli-dm.5.1.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.5.1.2](bob-cli-dm.5.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
