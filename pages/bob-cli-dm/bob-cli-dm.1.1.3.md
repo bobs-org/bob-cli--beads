@@ -13,7 +13,7 @@ preservation-contract: test existing task writers, fix field loss, publish the t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

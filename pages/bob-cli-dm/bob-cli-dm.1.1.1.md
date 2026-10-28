@@ -17,7 +17,7 @@ suggestion-model: add validated note defaults and reading config, the pure resol
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -30,3 +30,15 @@ suggestion-model: add validated note defaults and reading config, the pure resol
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a1b8766`](https://github.com/bobs-org/bob-cli/commit/a1b8766bbf6afd54c80c3aba73d496861288e11f) | feat(themes): add task theme suggestion model and field helpers | [bob-cli-dm.1.1.1](bob-cli-dm.1.1.1.md) | 2026-10-28 10:16:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.1.1.1--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.1.md
+
+<!-- sase:referenced-by:end -->

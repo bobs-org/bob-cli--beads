@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_theme_suggestions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_theme_suggestions.md
 
 <!-- sase:links:end -->
@@ -45,7 +47,7 @@ flowchart TD
     n1["bob-cli-dm.1: bob-cli suggestion rule, task field, and `bob themes suggest` [in_progress]"]
     n2["bob-cli-dm.1.1: Rust task theme suggestions and canonical task fields [in_progress]"]
     n3["bob-cli-dm.1.1.1: Implement task theme rules and shared vectors [closed]"]
-    n4["bob-cli-dm.1.1.2: Expose suggestions and unknown note defaults [in_progress]"]
+    n4["bob-cli-dm.1.1.2: Expose suggestions and unknown note defaults [closed]"]
     n5["bob-cli-dm.1.1.3: Verify field preservation and publish the contract [in_progress]"]
     n6["bob-cli-dm.2: Suggestions in capture completion and `bob ref today` [in_progress]"]
     n7["bob-cli-dm.3: Theme rename covers note defaults and task fields [in_progress]"]
@@ -92,7 +94,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-dm.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.md) | [bob-cli-dm.1](bob-cli-dm.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.1.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.1.md) | [bob-cli-dm.1.1.1](bob-cli-dm.1.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dm.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.1.1.2/README.md) | [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.2.md) | [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.1.1.3/README.md) | [bob-cli-dm.1.1.3](bob-cli-dm.1.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.1.1.land/README.md) | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.2/README.md) | [bob-cli-dm.2](bob-cli-dm.2.md) | 0 |
@@ -110,3 +112,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a1b8766`](https://github.com/bobs-org/bob-cli/commit/a1b8766bbf6afd54c80c3aba73d496861288e11f) | feat(themes): add task theme suggestion model and field helpers | [bob-cli-dm.1.1.1](bob-cli-dm.1.1.1.md) | 2026-10-28 10:16:59 EDT |
+| bob-cli | [`9409bfa`](https://github.com/bobs-org/bob-cli/commit/9409bfa58011ed66aeb1ccf3c0a7125a332748d3) | feat(themes): explain task suggestions and cache unknown note defaults | [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) | 2026-10-28 16:01:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dk.land][1] | Check whether the later task-theme epic depends on or overlaps configured themes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dk.land/README.md
+
+<!-- sase:referenced-by:end -->
