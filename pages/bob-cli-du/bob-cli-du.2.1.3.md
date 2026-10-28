@@ -18,7 +18,7 @@ relation-composition: share closing-edge collection with cancel, enforce same-so
 ## Dependencies
 
 - **Depends on:** [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.2.1.4](bob-cli-du.2.1.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.2.1.4](bob-cli-du.2.1.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -31,3 +31,15 @@ relation-composition: share closing-edge collection with cancel, enforce same-so
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4be0224`](https://github.com/bobs-org/bob-cli/commit/4be022419b9c07a62c9be7bb88f36bc5d120b4b5) | feat(capture): complete relation sources in the staged transaction | [bob-cli-du.2.1.3](bob-cli-du.2.1.3.md) | 2026-10-28 17:31:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-du.2.1.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.2.1.3.md
+
+<!-- sase:referenced-by:end -->

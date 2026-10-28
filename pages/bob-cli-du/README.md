@@ -50,7 +50,7 @@ flowchart TD
     n4["bob-cli-du.2.1.1: Parse closing-label policy and expose complete verdicts [closed]"]
     n5["bob-cli-du.2.1.2: Extract reusable capture completion and aggregate nested outcomes [closed]"]
     n6["bob-cli-du.2.1.3: Complete relation sources in the staged capture transaction [closed]"]
-    n7["bob-cli-du.2.1.4: Verify capture edge cases and update implemented contract markers [in_progress]"]
+    n7["bob-cli-du.2.1.4: Verify capture edge cases and update implemented contract markers [closed]"]
     n8["bob-cli-du.3: Completion, parse, relations list, rename warnings, and zsh show complete labels [in_progress]"]
     n9["bob-cli-du.4: bob relations rename --reverse moves each edge to its other end [in_progress]"]
     n10["bob-cli-du.5: task-status-cycler API v3 exposes its Done line rewrite and post-Done pass [closed]"]
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-du.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.1/README.md) | [bob-cli-du.2.1.1](bob-cli-du.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.2/README.md) | [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.2.1.3.md) | [bob-cli-du.2.1.3](bob-cli-du.2.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-du.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.4/README.md) | [bob-cli-du.2.1.4](bob-cli-du.2.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-du.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.4/README.md) | [bob-cli-du.2.1.4](bob-cli-du.2.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.land/README.md) | [bob-cli-du.2.1](bob-cli-du.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.3/README.md) | [bob-cli-du.3](bob-cli-du.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-du.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.4/README.md) | [bob-cli-du.4](bob-cli-du.4.md) | 0 |
@@ -115,6 +115,7 @@ flowchart TD
 | bob-cli | [`a32a32f`](https://github.com/bobs-org/bob-cli/commit/a32a32fbe081506316174cb45333531055dffc50) | feat(relations): add complete-label policy and verdicts | [bob-cli-du.2.1.1](bob-cli-du.2.1.1.md) | 2026-10-28 15:49:37 EDT |
 | bob-cli | [`4c55a59`](https://github.com/bobs-org/bob-cli/commit/4c55a595bfd6e6b025c4e053e3a16628a29e1d3b) | refactor(capture): extract shared task-complete completion path | [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) | 2026-10-28 16:24:52 EDT |
 | bob-cli | [`4be0224`](https://github.com/bobs-org/bob-cli/commit/4be022419b9c07a62c9be7bb88f36bc5d120b4b5) | feat(capture): complete relation sources in the staged transaction | [bob-cli-du.2.1.3](bob-cli-du.2.1.3.md) | 2026-10-28 17:31:56 EDT |
+| bob-cli | [`87b6e60`](https://github.com/bobs-org/bob-cli/commit/87b6e608912bdf1c9b37e9fdbe411e9ca3974d46) | feat(capture): add relations\_complete acceptance tests and update docs | [bob-cli-du.2.1.4](bob-cli-du.2.1.4.md) | 2026-10-28 18:02:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
