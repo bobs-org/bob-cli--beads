@@ -15,8 +15,18 @@ cancel-reconcile-docs: resolve bob-cli-dj in bob-cli docs/task-status-hooks.md C
 
 [2026-10-28T19:46:44Z · bob-cli-dw.5] Verified docs/task-status-hooks.md Canceled Task References already states both behaviors (52bff016): Cancel-row/cancel-label uses dedicated-bullet/token prune and keeps struck links; reconcile deletes the complete list item including struck forms and mixed-prose bullets. Corrected the leftover 'same rule' claim in docs/projects.md Cancelling a task so reconcile is later healing, not the same cleanup. just docs-check passed (lint, build, links, search, tutorial, unit tests). No --epic-symbol leftovers. Did not change cancel or reconcile code.
 
+[2026-10-28T20:02:31Z · bob-cli-dw.5--1] PROPOSED FOLLOW-UP: capture_related draft perf gate still flakes under just check — native::capture_related::tests::synthetic_vault_draft_contract_is_under_250ms failed in monitor zndntxgbe4rb / tool run 854fbcbc4c109b6280e38b6626bc5017 with paired excess 569ms against the 500ms bound still in this tree; 3831 other lib tests passed. Same flake as ready task bob-cli-ca; sibling phase bob-cli-dw.4 already closed claiming a 750ms retune in another workspace. Docs-only phase did not touch capture_related.
+
+[2026-10-28T20:05:20Z · bob-cli-dw.5--1] Verified docs/projects.md Cancelling a task states both behaviors: Cancel-row uses dedicated-bullet/token prune and keeps struck links; reconcile deletes the complete list item including struck forms and mixed-prose bullets. just docs-check passed. just check failed only on known flake bob-cli-ca (synthetic_vault_draft_contract_is_under_250ms, 569ms vs 500ms). No --epic-symbol leftovers. Did not change cancel or reconcile code.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-dw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dw.5.md) | [bob-cli-dw.5](bob-cli-dw.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-dw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dw.5.md) | [bob-cli-dw.5](bob-cli-dw.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`e998ee4`](https://github.com/bobs-org/bob-cli/commit/e998ee4e649b7673c47f57fd599113ead51e583c) | docs(projects): distinguish cancel-row prune from reconcile cleanup | [bob-cli-dw.5](bob-cli-dw.5.md) | 2026-10-28 16:06:15 EDT |
