@@ -41,7 +41,9 @@ complete-contract: write docs/task-relations.md §18 and RV10, amend §§1/2/8/1
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-du.1][1] | Need notes, remaining work, and whether earlier work landed | 2 |
+| read-by | [agent:bob-cli-du.5][2] | check dependency landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.5/README.md
 
 <!-- sase:referenced-by:end -->

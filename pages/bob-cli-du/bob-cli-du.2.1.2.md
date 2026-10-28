@@ -13,7 +13,7 @@ shared-completion: extract complete_existing_task from the whole-item ! adapter,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-du.2.1.1](bob-cli-du.2.1.1.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-du.2.1.1](bob-cli-du.2.1.1.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.2.1.3](bob-cli-du.2.1.3.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
