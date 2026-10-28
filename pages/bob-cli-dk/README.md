@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-dk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.3/README.md) | [bob-cli-dk.3](bob-cli-dk.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-dk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.4/README.md) | [bob-cli-dk.4](bob-cli-dk.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-dk.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.5/README.md) | [bob-cli-dk.5](bob-cli-dk.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-dk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.land/README.md) | [bob-cli-dk](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-dk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.land/README.md) | [bob-cli-dk](README.md) | 2 |
 
 ## Commits
 
@@ -85,6 +85,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@233d060`](https://github.com/bobs-org/bob-plugins/commit/233d060b08ac9c791d445b2cd81847d9e345537a) | feat(plugins): render configured Pomodoro themes | [bob-cli-dk.3](bob-cli-dk.3.md) | 2026-10-28 10:17:50 EDT |
 | bob-mac-capture | [`bob-mac-capture@2497c41`](https://github.com/bobs-org/bob-mac-capture/commit/2497c412f20060bb90ec324daf8e41badcc44819) | feat(themes): render unconfigured Pomodoro themes with dashed treatment | [bob-cli-dk.4](bob-cli-dk.4.md) | 2026-10-28 10:33:48 EDT |
 | bob-cli | [`8852f7b`](https://github.com/bobs-org/bob-cli/commit/8852f7bfa1394b001152e477bfa16a1ea7de5b11) | fix(themes): set config\_warning in the test-only Catalog::for\_suggest | [bob-cli-dk](README.md) | 2026-10-28 10:57:52 EDT |
+| bob-cli--plans | [`bob-cli--plans@c618f85`](https://github.com/bobs-org/bob-cli--plans/commit/c618f85fddef358fe25e5b6e2f438d128010b6b3) | chore(plans): mark configured Pomodoro themes plan done | [bob-cli-dk](README.md) | 2026-10-28 10:59:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
