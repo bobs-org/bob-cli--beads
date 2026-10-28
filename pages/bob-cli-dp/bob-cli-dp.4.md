@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-dp](README.md) / bob-cli-dp.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-df.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.land.md) · **Assignee:** `bob-cli-dp.4` · **Size:** large
-**Created:** 2026-10-28 11:23:29 EDT
+**Created:** 2026-10-28 11:23:29 EDT · **Closed:** 2026-10-28 12:45:18 EDT
 **Plan:** [202610/backlog\_batch\_b5.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/backlog_batch_b5.md)
 
 ## Description
@@ -33,6 +33,10 @@ Monitor continuation evidence from `tests/test_monitor_continuation_finalizer_ob
 - `finalizer_baseline.json`: canonical `external:widget`, scope `opened_repo`, baseline HEAD `265327130d63cf1f6f0f3f28070d0d96be8e6b30`; pre-existing `protected.txt` fingerprint `??` / `abbb449dee7190417768c781e5d3cf23a4fa2cc6`. The test verifies the child inherited this baseline.
 - The accepted pre-commit context in `final_submission.json` has context digest `1a0ff75afad82dbb076be1f7b414a01251a9591ecbf42d1b437587f248cf2f17`, obligation `repo-375e72b569c6` (`external:widget`), paths `README.md` and `created-by-predecessor.txt`, and an accepted commit action. `final_context.json` is refreshed after commit, so the accepted context snapshot is the retained pre-commit evidence.
 - `commit_results.json`: success in the widget checkout, commit/result SHA `28bf780181d77f0e3df3dc128a9a65a66edd698d`, tree `aecc16010ed690cda51eac490161d160ececc044`. The test verifies the remote head matches, only pre-existing `protected.txt` remains dirty, and the workspace root is clean.
+
+[2026-10-28T16:45:05Z · bob-cli-dp.4--2] Verification follow-up, 2026-10-28: ToolRun 88406b4303664e94cd00fb2f3320e4ae ran `just check` and settled signaled/143 after 4m56s. Triage is infrastructure/undetermined because the follower received SIGTERM; completed stages include Python/Markdown/generated-doc formatting, model policy, keep-sorted, ruff, mypy, feature flags, pyscripts, test waits, changelog, patch/stitch terminology, and docs contract. Symvision reported only KNOWN `_RecoveryAssessment` with witness 13ea2a464abef73b3eab4bfee9e624d7 and no owner; SASE validation remained incomplete. The earlier recorded focused suite passed 65 tests, and the retained baseline, pre-commit context, and commit-results evidence is documented in note #1. Re-ran `sase bead epic-symbols bob-cli-dp.4`: no --epic-symbol entries. Re-read found only note #1 before this follow-up and no malformed supplemental note to retract.
+
+[2026-10-28T16:45:18Z · bob-cli-dp.4--2] Closed after confirming focused pytest passed 65 tests; monitor evidence shows inherited opened_repo baseline, the accepted external-repo obligation with the predecessor-created diff, and successful commit SHA 28bf780181d77f0e3df3dc128a9a65a66edd698d while preserving pre-existing protected.txt. ToolRun 88406b4303664e94cd00fb2f3320e4ae was confirmed signaled/143, with KNOWN Symvision witness 13ea2a464abef73b3eab4bfee9e624d7 and SASE validation incomplete. Epic-symbol scan reports no entries. Only bob-cli-dp.4 is closed.
 
 ## Agents
 

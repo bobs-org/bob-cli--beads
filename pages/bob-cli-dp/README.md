@@ -32,7 +32,7 @@ Resolve bob-cli-dg, bob-cli-dh, bob-cli-di, and bob-cli-dn with reproducible ver
 | [bob-cli-dp.1](bob-cli-dp.1.md) | Provision the isolated plans sidecar for external SASE validation | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dp.2](bob-cli-dp.2.md) | Clear the 27 pre-existing Clippy errors on the collision-policy base | ✓ closed | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-dp.3](bob-cli-dp.3.md) | Forward Justfile overrides through the editable reinstall | ✓ closed | medium | 2026-10-28 | 1 | 0 |
-| [bob-cli-dp.4](bob-cli-dp.4.md) | Carry opened-repo obligations across monitor continuations | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [bob-cli-dp.4](bob-cli-dp.4.md) | Carry opened-repo obligations across monitor continuations | ✓ closed | large | 2026-10-28 | 1 | 0 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n1["bob-cli-dp.1: Provision the isolated plans sidecar for external SASE validation [in_progress]"]
     n2["bob-cli-dp.2: Clear the 27 pre-existing Clippy errors on the collision-policy base [closed]"]
     n3["bob-cli-dp.3: Forward Justfile overrides through the editable reinstall [closed]"]
-    n4["bob-cli-dp.4: Carry opened-repo obligations across monitor continuations [in_progress]"]
+    n4["bob-cli-dp.4: Carry opened-repo obligations across monitor continuations [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
