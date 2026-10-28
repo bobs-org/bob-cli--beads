@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/complete_label_capture.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/complete_label_capture.md
 
@@ -38,7 +38,9 @@ Finish bob-cli-du.2 by composing complete-label relation commits with existing t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-du.2.1.1][1] | Read parent epic decisions governing this phase | 1 |
+| read-by | [agent:bob-cli-du.2.1.2][2] | Need epic DECISIONS | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->

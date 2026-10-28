@@ -18,13 +18,19 @@ cycler-done-api: expose completeTaskLineText and finalizeClosedTasks on the cycl
 ## Dependencies
 
 - **Depends on:** [bob-cli-du.1](bob-cli-du.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.6](bob-cli-du.6.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.6](bob-cli-du.6.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-du.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.5/README.md) | [bob-cli-du.5](bob-cli-du.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-du.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.5/README.md) | [bob-cli-du.5](bob-cli-du.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3c84ee3`](https://github.com/bobs-org/bob-plugins/commit/3c84ee3a2cb6cfcbc5dd2ba4a41e71a99dde21e7) | feat(task-status-cycler): expose Done line rewrite and post-Done pass as api v3 | [bob-cli-du.5](bob-cli-du.5.md) | 2026-10-28 15:39:19 EDT |
 
 <!-- sase:referenced-by:start -->
 

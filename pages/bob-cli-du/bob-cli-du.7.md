@@ -13,7 +13,7 @@ nav-complete-cue: render the ✓ completes row meta, live sentence, consequence 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-du.6](bob-cli-du.6.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-du.6](bob-cli-du.6.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.9](bob-cli-du.9.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
