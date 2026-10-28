@@ -36,7 +36,9 @@ failed-close-evidence: attach durable snapshots to existing terminal failure evi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-df.4.1.3][1] | Check downstream phase expectations for relaunch-cleanup outputs | 1 |
+| read-by | [agent:bob-cli-df.4.1.4--1][2] | Confirm assigned phase closure and preserved follow-up note | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.4.md
 
 <!-- sase:referenced-by:end -->
