@@ -19,7 +19,7 @@ complete-contract: write docs/task-relations.md §18 and RV10, amend §§1/2/8/1
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-du.2](bob-cli-du.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.2](bob-cli-du.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.5](bob-cli-du.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
