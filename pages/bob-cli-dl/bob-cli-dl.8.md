@@ -30,7 +30,7 @@ rollout: add relations.cancel_labels [duplicate of, superseded by] to chezmoi ho
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md) | [bob-cli-dl.8](bob-cli-dl.8.md) | 2 |
+| [bbugyi200.apollo.bob-cli-dl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md) | [bob-cli-dl.8](bob-cli-dl.8.md) | 3 |
 
 ## Commits
 
@@ -38,6 +38,7 @@ rollout: add relations.cancel_labels [duplicate of, superseded by] to chezmoi ho
 |---|---|---|---|---|
 | bob-cli | [`0349316`](https://github.com/bobs-org/bob-cli/commit/03493169b696813136e6d484d21e27aea60a7e2e) | docs(relations): drop cancel-label planned markers for rollout | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:19:22 EDT |
 | bob-plugins | [`bob-plugins@ff1a24c`](https://github.com/bobs-org/bob-plugins/commit/ff1a24cc49e6e5862d33d0d18b0518cc7ca9354d) | chore(nav): resync task\_cancel vectors from bob-cli | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:21:13 EDT |
+| chezmoi | [`chezmoi@b33aa49`](https://github.com/bbugyi200/dotfiles/commit/b33aa49d022d5a27fabb801e0b332177e184bc73) | feat(bob): turn on relation cancel labels | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:22:04 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -46,7 +47,9 @@ rollout: add relations.cancel_labels [duplicate of, superseded by] to chezmoi ho
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dl.4][1] | Need sibling phase status | 1 |
+| read-by | [agent:bob-cli-dl.8][2] | Need the phase scope and design file | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md
 
 <!-- sase:referenced-by:end -->
