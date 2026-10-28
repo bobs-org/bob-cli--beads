@@ -18,19 +18,20 @@ nav-cancel-cue: add ⊘ cancels row meta and a configured-label overlay, a ⊘-p
 ## Dependencies
 
 - **Depends on:** [bob-cli-dl.5](bob-cli-dl.5.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.6.md) | [bob-cli-dl.6](bob-cli-dl.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.6.md) | [bob-cli-dl.6](bob-cli-dl.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8f311da`](https://github.com/bobs-org/bob-cli/commit/8f311dabaf225ae9638cdbfd6a933fed90cb7350) | docs(memory): clarify task relation cancel-label exception | [bob-cli-dl.6](bob-cli-dl.6.md) | 2026-10-28 11:07:44 EDT |
+| bob-plugins | [`bob-plugins@6c73e84`](https://github.com/bobs-org/bob-plugins/commit/6c73e84e5bd0339757a15095a3b753fdaf9c5540) | feat(navigation-hotkeys): add relation cancel cues | [bob-cli-dl.6](bob-cli-dl.6.md) | 2026-10-28 11:09:55 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -23,7 +23,7 @@ mac-cancel-cue: decode the new additive fields, then render the relation card �
 
 - **Depends on:** [bob-cli-dl.3](bob-cli-dl.3.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dl.4](bob-cli-dl.4.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -44,7 +44,9 @@ mac-cancel-cue: decode the new additive fields, then render the relation card �
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dl.4][1] | Need sibling phase status | 1 |
+| read-by | [agent:bob-cli-dl.7][2] | Need the phase scope and design file | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.7/README.md
 
 <!-- sase:referenced-by:end -->

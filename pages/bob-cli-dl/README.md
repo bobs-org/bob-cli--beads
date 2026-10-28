@@ -33,10 +33,10 @@ Committing a relation whose label is listed in `relations.cancel_labels` (starti
 | [bob-cli-dl.2](bob-cli-dl.2.md) | relations.cancel\_labels config and the Rust task\_cancel engine | ✓ closed | large | 2026-10-28 | 1 | 1 |
 | [bob-cli-dl.3](bob-cli-dl.3.md) | Capture ~ / ~~ cancels the source in the same staged batch | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dl.4](bob-cli-dl.4.md) | Completion, parse, relations list, rename, and zsh show cancel labels | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-dl.5](bob-cli-dl.5.md) | Obsidian relation writer folds Task Card Cancel into the source write | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [bob-cli-dl.6](bob-cli-dl.6.md) | Obsidian Links stage ⊘ indication, batch confirm, and hints | ✓ closed | medium | 2026-10-28 | 1 | 1 |
+| [bob-cli-dl.5](bob-cli-dl.5.md) | Obsidian relation writer folds Task Card Cancel into the source write | ✓ closed | large | 2026-10-28 | 1 | 1 |
+| [bob-cli-dl.6](bob-cli-dl.6.md) | Obsidian Links stage ⊘ indication, batch confirm, and hints | ✓ closed | medium | 2026-10-28 | 1 | 2 |
 | [bob-cli-dl.7](bob-cli-dl.7.md) | Bob Mac Capture renders bob's cancel consequences | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-dl.8](bob-cli-dl.8.md) | Turn it on in chezmoi, write the records, and run end-to-end acceptance | ◐ in_progress | small | 2026-10-28 | 1 | 0 |
+| [bob-cli-dl.8](bob-cli-dl.8.md) | Turn it on in chezmoi, write the records, and run end-to-end acceptance | ✓ closed | small | 2026-10-28 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n5["bob-cli-dl.5: Obsidian relation writer folds Task Card Cancel into the source write [closed]"]
     n6["bob-cli-dl.6: Obsidian Links stage ⊘ indication, batch confirm, and hints [closed]"]
     n7["bob-cli-dl.7: Bob Mac Capture renders bob's cancel consequences [closed]"]
-    n8["bob-cli-dl.8: Turn it on in chezmoi, write the records, and run end-to-end acceptance [in_progress]"]
+    n8["bob-cli-dl.8: Turn it on in chezmoi, write the records, and run end-to-end acceptance [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -80,10 +80,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.2.md) | [bob-cli-dl.2](bob-cli-dl.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.3/README.md) | [bob-cli-dl.3](bob-cli-dl.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md) | [bob-cli-dl.4](bob-cli-dl.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.5.md) | [bob-cli-dl.5](bob-cli-dl.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-dl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.6.md) | [bob-cli-dl.6](bob-cli-dl.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.5.md) | [bob-cli-dl.5](bob-cli-dl.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.6.md) | [bob-cli-dl.6](bob-cli-dl.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-dl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.7/README.md) | [bob-cli-dl.7](bob-cli-dl.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md) | [bob-cli-dl.8](bob-cli-dl.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md) | [bob-cli-dl.8](bob-cli-dl.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.land/README.md) | [bob-cli-dl](README.md) | 0 |
 
 ## Commits
@@ -91,11 +91,14 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`52bff01`](https://github.com/bobs-org/bob-cli/commit/52bff0161befe3ce9656117547920caaf3129644) | feat(relations): add cancel-label contract, config docs, and shared vectors | [bob-cli-dl.1](bob-cli-dl.1.md) | 2026-10-28 09:03:56 EDT |
+| bob-plugins | [`bob-plugins@768fac8`](https://github.com/bobs-org/bob-plugins/commit/768fac86d256f6e7abd5c38fdff9a65c7fc4ed23) | feat(nav): cancel sources when linking a configured cancel label | [bob-cli-dl.5](bob-cli-dl.5.md) | 2026-10-28 10:14:57 EDT |
 | bob-cli | [`50eb75d`](https://github.com/bobs-org/bob-cli/commit/50eb75d21dfe60754e3e0419b524a32f846e4955) | feat(relations): add cancel-label config parser and task\_cancel engine | [bob-cli-dl.2](bob-cli-dl.2.md) | 2026-10-28 10:17:06 EDT |
 | bob-cli | [`8f311da`](https://github.com/bobs-org/bob-cli/commit/8f311dabaf225ae9638cdbfd6a933fed90cb7350) | docs(memory): clarify task relation cancel-label exception | [bob-cli-dl.6](bob-cli-dl.6.md) | 2026-10-28 11:07:44 EDT |
+| bob-plugins | [`bob-plugins@6c73e84`](https://github.com/bobs-org/bob-plugins/commit/6c73e84e5bd0339757a15095a3b753fdaf9c5540) | feat(navigation-hotkeys): add relation cancel cues | [bob-cli-dl.6](bob-cli-dl.6.md) | 2026-10-28 11:09:55 EDT |
 | bob-cli | [`0a5f41b`](https://github.com/bobs-org/bob-cli/commit/0a5f41b8781a643071707a7534f667df6b932c6e) | feat(capture): cancel-label commits retire the source in the staged batch | [bob-cli-dl.3](bob-cli-dl.3.md) | 2026-10-28 11:27:23 EDT |
 | bob-cli | [`b8df2f4`](https://github.com/bobs-org/bob-cli/commit/b8df2f48b6c0a8dfda4a494c15f56088d3f37417) | feat(relations): add cancel-source surfaces for capture-complete and relations list | [bob-cli-dl.4](bob-cli-dl.4.md) | 2026-10-28 12:03:28 EDT |
 | bob-mac-capture | [`bob-mac-capture@e5f6604`](https://github.com/bobs-org/bob-mac-capture/commit/e5f66043e4a704e6a19d4d83b331e6b5a2aaa7af) | feat(relation-picker): render bob's cancel-label ⊘ cue | [bob-cli-dl.7](bob-cli-dl.7.md) | 2026-10-28 12:49:05 EDT |
+| bob-cli | [`0349316`](https://github.com/bobs-org/bob-cli/commit/03493169b696813136e6d484d21e27aea60a7e2e) | docs(relations): drop cancel-label planned markers for rollout | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:19:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

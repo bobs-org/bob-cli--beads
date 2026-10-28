@@ -25,7 +25,7 @@ capture-cancel: on an Added or Relabeled relation with a cancel label, stage the
 
 - **Depends on:** [bob-cli-dl.2](bob-cli-dl.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.7](bob-cli-dl.7.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
