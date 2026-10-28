@@ -13,7 +13,7 @@ capture-write: apply the write rule when a capture names a Pomodoro for a new or
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.2](bob-cli-dm.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.2](bob-cli-dm.2.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dm.3](bob-cli-dm.3.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.8](bob-cli-dm.8.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.9](bob-cli-dm.9.md) ◐ · ⧖ 2026-10-28
