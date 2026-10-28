@@ -46,7 +46,13 @@ Verification: isolated `.venv` via `just install-venv`, then `just rust-install`
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-df.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.land.md) | [bob-cli-df.4.1](bob-cli-df.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.land.md) | [bob-cli-df.4.1](bob-cli-df.4.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli--plans | [`bob-cli--plans@4e3ffdd`](https://github.com/bobs-org/bob-cli--plans/commit/4e3ffdda70b43f850834604816ba89ab449f2906) | docs(plan): mark failed-close preservation epic and tale done | [bob-cli-df.4.1](bob-cli-df.4.1.md) | 2026-10-28 00:41:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
