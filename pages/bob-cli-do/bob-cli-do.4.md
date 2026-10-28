@@ -13,7 +13,7 @@ ref-scan-copy-hint: make multiple_open_ref_tasks say when the claimants are copi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-do.3](bob-cli-do.3.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-do.3](bob-cli-do.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
