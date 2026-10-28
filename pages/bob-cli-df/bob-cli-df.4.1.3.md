@@ -22,7 +22,7 @@ relaunch-cleanup: require verified preservation before preparation, stash-failur
 ## Dependencies
 
 - **Depends on:** [bob-cli-df.4.1.1](bob-cli-df.4.1.1.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

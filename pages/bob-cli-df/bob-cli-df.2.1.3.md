@@ -13,7 +13,7 @@ publication-quarantine: support sidecar and local installation, mixed publicatio
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-df.2.1.2](bob-cli-df.2.1.2.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [bob-cli-df.2.1.2](bob-cli-df.2.1.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

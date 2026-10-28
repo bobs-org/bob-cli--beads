@@ -19,7 +19,7 @@ collision-policy: add canonical selection from durability evidence, typed quaran
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-df.2.1.2](bob-cli-df.2.1.2.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-df.2.1.2](bob-cli-df.2.1.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

@@ -38,7 +38,7 @@ Keep rescue_git_repo for existing best-effort callers until those phases migrate
 
 - **Blocks:** [bob-cli-df.4.1.2](bob-cli-df.4.1.2.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [bob-cli-df.4.1.3](bob-cli-df.4.1.3.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

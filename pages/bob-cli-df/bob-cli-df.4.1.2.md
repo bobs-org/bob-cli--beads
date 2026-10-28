@@ -20,7 +20,7 @@ reset-replay: snapshot before abort/reset, preserve recovery locations through s
 ## Dependencies
 
 - **Depends on:** [bob-cli-df.4.1.1](bob-cli-df.4.1.1.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -34,8 +34,10 @@ reset-replay: snapshot before abort/reset, preserve recovery locations through s
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-df.4.1.3][1] | Check sibling phase status to avoid duplicating reset-replay work | 1 |
+| read-by | [agent:bob-cli-df.4.1.2--1][1] | Need the phase scope, design file, and recorded remaining work | 2 |
+| read-by | [agent:bob-cli-df.4.1.3][2] | Check sibling phase status to avoid duplicating reset-replay work | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->
