@@ -21,10 +21,16 @@ theme-rename-bytes: resolve bob-cli-dc in bob-cli by preserving CRLF, mixed term
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-dd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dd.3/README.md) | [bob-cli-dd.3](bob-cli-dd.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-dd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dd.3/README.md) | [bob-cli-dd.3](bob-cli-dd.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`0421192`](https://github.com/bobs-org/bob-cli/commit/0421192684d525f556f44aa35a6e5ff61ef3660b) | fix(themes): preserve every byte outside renamed theme spans | [bob-cli-dd.3](bob-cli-dd.3.md) | 2026-10-27 19:12:02 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dd.3][1] | Need phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dd.3/README.md
+
+<!-- sase:referenced-by:end -->
