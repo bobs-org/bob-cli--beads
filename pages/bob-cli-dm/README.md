@@ -53,10 +53,14 @@ flowchart TD
     n7["bob-cli-dm.3: Theme rename covers note defaults and task fields [in_progress]"]
     n8["bob-cli-dm.4: Capture remembers deliberate `#NAME` choices [in_progress]"]
     n9["bob-cli-dm.5: Ledger Tools mirror, field writer, and task-theme pill [in_progress]"]
-    n10["bob-cli-dm.6: Link to today preselects, explains, and remembers [in_progress]"]
-    n11["bob-cli-dm.7: Task Card theme stage and successor retarget [in_progress]"]
-    n12["bob-cli-dm.8: Bob Mac Capture renders suggestions and theme changes [in_progress]"]
-    n13["bob-cli-dm.9: Seed the first note defaults in the vault [in_progress]"]
+    n10["bob-cli-dm.5.1: Ledger task-theme mirror and pills [in_progress]"]
+    n11["bob-cli-dm.5.1.1: Mirror the task-theme rule and expose the synchronous API [closed]"]
+    n12["bob-cli-dm.5.1.2: Render task-theme pills in Live Preview and activate PT6 colors [in_progress]"]
+    n13["bob-cli-dm.5.1.3: Render task-theme pills in Reading view and query rows [in_progress]"]
+    n14["bob-cli-dm.6: Link to today preselects, explains, and remembers [in_progress]"]
+    n15["bob-cli-dm.7: Task Card theme stage and successor retarget [in_progress]"]
+    n16["bob-cli-dm.8: Bob Mac Capture renders suggestions and theme changes [in_progress]"]
+    n17["bob-cli-dm.9: Seed the first note defaults in the vault [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -66,26 +70,32 @@ flowchart TD
     n0 --> n7
     n0 --> n8
     n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
+    n9 --> n10
+    n10 --> n11
+    n10 --> n12
+    n10 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
     n1 -.-> n6
     n1 -.-> n7
     n1 -.-> n9
     n3 -.-> n4
     n4 -.-> n5
     n6 -.-> n8
-    n6 -.-> n10
-    n6 -.-> n12
+    n6 -.-> n14
+    n6 -.-> n16
     n7 -.-> n8
-    n7 -.-> n10
-    n8 -.-> n12
-    n8 -.-> n13
-    n9 -.-> n10
-    n10 -.-> n11
-    n10 -.-> n13
+    n7 -.-> n14
+    n8 -.-> n16
+    n8 -.-> n17
+    n9 -.-> n14
+    n11 -.-> n12
     n12 -.-> n13
+    n14 -.-> n15
+    n14 -.-> n17
+    n16 -.-> n17
 ```
 
 ## Agents
@@ -100,7 +110,11 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.2/README.md) | [bob-cli-dm.2](bob-cli-dm.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.3/README.md) | [bob-cli-dm.3](bob-cli-dm.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.4/README.md) | [bob-cli-dm.4](bob-cli-dm.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-dm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5/README.md) | [bob-cli-dm.5](bob-cli-dm.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.5.md) | [bob-cli-dm.5](bob-cli-dm.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.1/README.md) | [bob-cli-dm.5.1.1](bob-cli-dm.5.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dm.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.2/README.md) | [bob-cli-dm.5.1.2](bob-cli-dm.5.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.3/README.md) | [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.land/README.md) | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6/README.md) | [bob-cli-dm.6](bob-cli-dm.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7/README.md) | [bob-cli-dm.7](bob-cli-dm.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 0 |
@@ -116,6 +130,7 @@ flowchart TD
 | bob-cli | [`c624347`](https://github.com/bobs-org/bob-cli/commit/c6243477c4cbc7778cfe4749bb9c6d24a40f2b9e) | feat(themes): publish PT13 pomodoro-theme contract and preservation regressions | [bob-cli-dm.1.1.3](bob-cli-dm.1.1.3.md) | 2026-10-28 16:52:22 EDT |
 | bob-cli | [`fc59428`](https://github.com/bobs-org/bob-cli/commit/fc594281b1f623738b6ee0f71c8ff86df0285246) | fix(themes): repair task-theme scalars, placement, and unused-code gates | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 2026-10-28 17:41:19 EDT |
 | bob-cli--plans | [`bob-cli--plans@7020103`](https://github.com/bobs-org/bob-cli--plans/commit/702010391ff5580edf863bb4f88c763acbf5eb6d) | docs(plan): mark task\_theme\_core done after bob-cli-dm.1.1 landing | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 2026-10-28 17:42:16 EDT |
+| bob-plugins | [`bob-plugins@25d864e`](https://github.com/bobs-org/bob-plugins/commit/25d864e2af1e5039e4644f1f4b260d3fe0767e6c) | feat(plugins): add task-theme API and picker support | [bob-cli-dm.5.1.1](bob-cli-dm.5.1.1.md) | 2026-10-28 18:11:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
