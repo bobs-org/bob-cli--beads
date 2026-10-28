@@ -19,7 +19,7 @@ sync-clobber-guard: detect displaced-plus-foreign-identity rewrites of tracked n
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-do.4](bob-cli-do.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-do.4](bob-cli-do.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -32,3 +32,15 @@ sync-clobber-guard: detect displaced-plus-foreign-identity rewrites of tracked n
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`16f3da4`](https://github.com/bobs-org/bob-cli/commit/16f3da48ac167002d29c7b0e1119fc4b0a97a125) | feat(vault-sync): quarantine displaced-plus-foreign-identity note clobbers | [bob-cli-do.3](bob-cli-do.3.md) | 2026-10-28 11:38:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-do.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-do.3.md
+
+<!-- sase:referenced-by:end -->
