@@ -22,7 +22,7 @@ cancel-engine: parse relations.cancel_labels so that errors only ever reduce can
 ## Dependencies
 
 - **Depends on:** [bob-cli-dl.1](bob-cli-dl.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.3](bob-cli-dl.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.3](bob-cli-dl.3.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.4](bob-cli-dl.4.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
