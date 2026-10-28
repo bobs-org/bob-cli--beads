@@ -34,3 +34,15 @@ ref-scan-copy-hint: make multiple_open_ref_tasks say when the claimants are copi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0f1898e`](https://github.com/bobs-org/bob-cli/commit/0f1898ee7b98a663ded6c0684af7ea6910248c86) | fix(ref): explain copied reading tasks in scan failures | [bob-cli-do.4](bob-cli-do.4.md) | 2026-10-28 13:30:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-do.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-do.4/README.md
+
+<!-- sase:referenced-by:end -->
