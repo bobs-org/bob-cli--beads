@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-dw.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dw.3.md) | [bob-cli-dw.3](bob-cli-dw.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-dw.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dw.4/README.md) | [bob-cli-dw.4](bob-cli-dw.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-dw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dw.5.md) | [bob-cli-dw.5](bob-cli-dw.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-dw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dw.land/README.md) | [bob-cli-dw](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-dw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dw.land/README.md) | [bob-cli-dw](README.md) | 1 |
 
 ## Commits
 
@@ -77,6 +77,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`3281de1`](https://github.com/bobs-org/bob-cli/commit/3281de1fc2efe47dc987db741772e7436e959805) | test(capture-related): relax paired perf ceiling | [bob-cli-dw.4](bob-cli-dw.4.md) | 2026-10-28 15:50:07 EDT |
 | bob-cli | [`e998ee4`](https://github.com/bobs-org/bob-cli/commit/e998ee4e649b7673c47f57fd599113ead51e583c) | docs(projects): distinguish cancel-row prune from reconcile cleanup | [bob-cli-dw.5](bob-cli-dw.5.md) | 2026-10-28 16:06:15 EDT |
+| bob-cli--plans | [`bob-cli--plans@98fc47f`](https://github.com/bobs-org/bob-cli--plans/commit/98fc47fb487b47f7478ae87fbf420c1357a6a135) | chore(plans): mark landed backlog-batch plans done and drop duplicate status keys | [bob-cli-dw](README.md) | 2026-10-28 16:54:17 EDT |
 
 <!-- sase:referenced-by:start -->
 
