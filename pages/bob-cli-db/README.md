@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / bob-cli-db
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.ar.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.ar.w0.md) · **Assignee:** `bob-cli-db.land`
-**Created:** 2026-10-27 17:11:11 EDT · **Closed:** 2026-10-27 18:54:53 EDT
+**Created:** 2026-10-27 17:11:11 EDT · **Closed:** 2026-10-28 06:47:55 EDT
 **Plan:** [202610/write\_theme\_and\_job\_split.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/write_theme_and_job_split.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-10-27T22:54:53Z · done
+>
+> (none)
+>
+> Reopened 2026-10-28T10:30:43Z by `sase bead open`
 
 <!-- sase:links:start -->
 
@@ -15,11 +23,13 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/write_theme_and_job_split.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-dc][2] | Landing found the same byte-loss pattern in the older rename path; db repair owns split only |
+| related | [bead:bob-cli-de][3] | Catalog row added by closed db landing commit 0a896a45; CLI assertion missed |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/write_theme_and_job_split.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-dc/README.md
+[3]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-de/README.md
 
 <!-- sase:links:end -->
 
@@ -36,6 +46,12 @@ Every past and open JOB Pomodoro carries the work-kind theme its content support
 [2026-10-27T22:27:01Z · bob-cli-da.4.1.land] DISCOVERED ISSUE: The closeout ToolRun 4cb40f0989e9f203cd9e4c99fc4b6dfc ran just check at commit 3cc63511 with only closeout docs and package-check test changes, and exited 101: 3,759 lib tests passed, 2 failed, 1 was ignored. Failures: native::catalog::tests::public_leaves_are_entries_or_excluded reports public leaf themes/split missing from the catalog; native::completion::kinds::tests::every_value_arg_has_a_decision reports themes split:map and themes split:old missing kinds decisions. These source and test files are unchanged by this closeout. Both failures originate in a6a359b8, which added the themes split command. Phase bob-cli-db.1 already records this exact missing completion-kind work as owned by active epic bob-cli-db. This is corroborating evidence, not a new task or an assets regression.
 
 [2026-10-27T22:54:53Z · bob-cli-db.land] Landing complete at bob-cli 3cc63511 (epic impl a6a359b8; intervening b63e5a04, 6b0a30bf, 3cc63511, no theme conflict; HEAD still 3cc63511, no drift). Vault migration verified: 89 tail-only changes in 20 notes (READ 37, CHORE 23, WRITE 17, PLAN 10, BUILD 2; only Oct27 L64->L68 moved; no added/dropped). JOB hide 675348d8; pins 4e5f16a5 (WRITE magenta, BUILD yellow, READ green, FIX blue, CHORE aqua). Decisions planning_blocks=plan, pin_standing=yes kept. Live (fresh debug bob): JOB absent, WRITE pinned/magenta 17, PLAN exempt, renamed_reappeared empty, hints empty, worked total 6720 (2026-10-01..27), sync clean local=remote=3e8f7ca0 (ref ingests only). Repairs: (1) split splice preserves LF/CRLF/mixed, blanks, trailing space, final newline; verify compares raw unchanged spans + terminators and rejects malformed after-image; unit + offline CRLF vault test (exact bytes, one commit, no journal). (2) kinds registers themes split old->ThemeName (incl hidden) and map->Files(None), keeps -m - stdin; protocol coverage for theme + !files after -m/--map; kinds coverage passes. (3) writer_order is (ts,host,path,line) matching fold; docs tuple fixed to (ts,host,path,line); tests cover path tiebreak (equal/inverted lines), color auto/unpin + unhide + rename-to adopting, hide non-adopting, later rename-away restoring warning. Checks: focused split 7, rename 10, completion 129, kinds 3, catalog 14, lib 3769, cli 2318, fmt/clippy clean, docs-check 447 passed. Follow-ups (from lander triage, unchanged): db.1 relation reappearance routed as DISCOVERED ISSUE on active bob-cli-bj (bj.6/4c46dadd1; relations have no color, corrected to rename-to/unhide only); pre-existing rename CRLF is ready small bob-cli-dc linked to db/bc; no duplicates, none declined, none block db.
+
+[2026-10-28T10:28:49Z · bob-cli-db.land] CLOSED-BEAD LAUNCH: agent bob-cli-db.land launched against this closed bead; status left closed.
+Launch submitted 2026-10-28T10:27:18.834984Z; run 20261028062720.
+Prior close: 2026-10-27T22:54:53Z · done.
+
+[2026-10-28T10:47:55Z · bob-cli-db.land] RELAUNCH LANDING (closed-bead relaunch, reopened for integration only). Verified at bob-cli e7263d55: epic impl a6a359b8 and repair 0a896a45 on master; kinds registers themes split old->ThemeName, map->Files(None); rename writer_order is (ts,host,path,line) matching pref_journal::sort_by_writer_order; plan status: done; db.1/db.2 notes addressed (vault 542b61da/4e5f16a5 evidence from prior landing unchanged). Post-close drift: 04211926 (bob-cli-dd.3 lossless rename) copied this epic's split raw_lines_preserving + split_body_ending and the ~50-line raw-byte verify verbatim into rename.rs; 035aad56 (bob-cli-df.1) fixed the stale CLI catalog count (bob-cli-de, owned by active epic bob-cli-df); e7263d55 docs only. INTEGRATION: deduplicated - rename.rs now owns pub(super) raw_lines_preserving (split_inclusive) and verify_raw_tail_splice(path,before,planned,reread,lines,action); both rename and split use it and the pre-existing markdown::split_line_ending instead of two private copies; error strings unchanged. Added unit tests raw_lines_round_trip_every_terminator and raw_tail_splice_names_the_racing_action. Checks: lib pomodoro_themes 32 pass, cli themes 38 pass, just check exit 0 (lib 3776, cli 2319), clippy warning count unchanged at 154 baseline, fmt clean. Follow-ups: db.1 PROPOSED FOLLOW-UP (relation-label renamed_reappeared) remains routed to in-progress bob-cli-bj per prior triage; bob-cli-dc closed; bob-cli-de owned by bob-cli-df; no new follow-ups, none declined. epic-symbols empty; no just symvision recipe; no parent_bead.
 
 ## Phases
 
@@ -62,7 +78,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-db.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-db.1/README.md) | [bob-cli-db.1](bob-cli-db.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-db.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-db.2/README.md) | [bob-cli-db.2](bob-cli-db.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-db.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-db.land.md) | [bob-cli-db](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-db.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-db.land/README.md) | [bob-cli-db](README.md) | 3 |
 
 ## Commits
 
@@ -71,6 +87,7 @@ flowchart TD
 | bob-cli | [`a6a359b`](https://github.com/bobs-org/bob-cli/commit/a6a359b8c62c318cb82a98286cdfc72cd35c47c8) | feat(themes): add per-entry split and skip re-adopted rename reports | [bob-cli-db.1](bob-cli-db.1.md) | 2026-10-27 17:48:27 EDT |
 | bob-cli | [`0a896a4`](https://github.com/bobs-org/bob-cli/commit/0a896a45c6df23ab048c144a56a342e47276c45d) | fix(themes): preserve split bytes, complete completion, and order journal re-adoption | [bob-cli-db](README.md) | 2026-10-27 18:56:33 EDT |
 | bob-cli--plans | [`bob-cli--plans@d62c8bd`](https://github.com/bobs-org/bob-cli--plans/commit/d62c8bd4f54127238da71799b52e06ecc5c43401) | chore(plans): mark write\_theme\_and\_job\_split done | [bob-cli-db](README.md) | 2026-10-27 18:57:33 EDT |
+| bob-cli | [`50f6c91`](https://github.com/bobs-org/bob-cli/commit/50f6c91bc03029dc8cf0e449d8380c107d2183ff) | refactor(themes): share raw-line splice verification between rename and split | [bob-cli-db](README.md) | 2026-10-28 06:49:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -79,7 +96,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-da.4.1.land--1][1] | Preserve the existing unrelated just check failure and confirm it is tracked on bob-cli-db without duplicating it | 1 |
+| read-by | [agent:bob-cli-dd.3][2] | Need db split repair scope to avoid overlap | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-da.4.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dd.3/README.md
 
 <!-- sase:referenced-by:end -->
