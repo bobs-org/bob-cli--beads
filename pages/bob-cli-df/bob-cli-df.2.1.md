@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/artifact_link_collision_quarantine.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/artifact_link_collision_quarantine.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Preserve the earliest durable artifact-link payload, retain conflicting replays 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-df.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.land/README.md) | [bob-cli-df.2.1](bob-cli-df.2.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-df.2.1.1][1] | Need epic decisions and landing scope | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

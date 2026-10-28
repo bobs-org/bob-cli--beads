@@ -37,7 +37,7 @@ Keep rescue_git_repo for existing best-effort callers until those phases migrate
 ## Dependencies
 
 - **Blocks:** [bob-cli-df.4.1.2](bob-cli-df.4.1.2.md) ◐ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-df.4.1.3](bob-cli-df.4.1.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-df.4.1.3](bob-cli-df.4.1.3.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) ◐ · ⧖ 2026-10-27
 
 ## Agents
@@ -45,3 +45,15 @@ Keep rescue_git_repo for existing best-effort callers until those phases migrate
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-df.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.1.md) | [bob-cli-df.4.1.1](bob-cli-df.4.1.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-df.4.1.1--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.1.md
+
+<!-- sase:referenced-by:end -->

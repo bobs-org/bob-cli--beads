@@ -50,7 +50,7 @@ flowchart TD
     n9["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [in_progress]"]
     n10["bob-cli-df.4.1.1: Verified durable checkout snapshots [closed]"]
     n11["bob-cli-df.4.1.2: Protect reset-and-replay operations [in_progress]"]
-    n12["bob-cli-df.4.1.3: Protect workspace preparation and cleanup fallbacks [in_progress]"]
+    n12["bob-cli-df.4.1.3: Protect workspace preparation and cleanup fallbacks [closed]"]
     n13["bob-cli-df.4.1.4: Connect failed-close evidence and prove relaunch recovery [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-df.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.3/README.md) | [bob-cli-df.3](bob-cli-df.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.md) | [bob-cli-df.4](bob-cli-df.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.1.md) | [bob-cli-df.4.1.1](bob-cli-df.4.1.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-df.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.2/README.md) | [bob-cli-df.4.1.2](bob-cli-df.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.1.2.md) | [bob-cli-df.4.1.2](bob-cli-df.4.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.3/README.md) | [bob-cli-df.4.1.3](bob-cli-df.4.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.4/README.md) | [bob-cli-df.4.1.4](bob-cli-df.4.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.4.1.land/README.md) | [bob-cli-df.4.1](bob-cli-df.4.1.md) | 0 |

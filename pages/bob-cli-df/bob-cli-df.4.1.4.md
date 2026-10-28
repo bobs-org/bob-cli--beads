@@ -15,7 +15,7 @@ failed-close-evidence: attach durable snapshots to existing terminal failure evi
 
 - **Depends on:** [bob-cli-df.4.1.1](bob-cli-df.4.1.1.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [bob-cli-df.4.1.2](bob-cli-df.4.1.2.md) ◐ · ⧖ 2026-10-27
-- **Depends on:** [bob-cli-df.4.1.3](bob-cli-df.4.1.3.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [bob-cli-df.4.1.3](bob-cli-df.4.1.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
