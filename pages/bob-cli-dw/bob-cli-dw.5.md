@@ -30,3 +30,15 @@ cancel-reconcile-docs: resolve bob-cli-dj in bob-cli docs/task-status-hooks.md C
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e998ee4`](https://github.com/bobs-org/bob-cli/commit/e998ee4e649b7673c47f57fd599113ead51e583c) | docs(projects): distinguish cancel-row prune from reconcile cleanup | [bob-cli-dw.5](bob-cli-dw.5.md) | 2026-10-28 16:06:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dw.5--1][1] | Need the phase scope, design file, notes, and epic DECISIONS | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dw.5.md
+
+<!-- sase:referenced-by:end -->

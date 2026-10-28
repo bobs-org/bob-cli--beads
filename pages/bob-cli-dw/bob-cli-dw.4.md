@@ -34,7 +34,9 @@ capture-related-perf-flake: resolve bob-cli-ca in bob-cli src/native/capture_rel
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dw.4][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-dw.5--1][2] | Need whether capture_related flake was already retuned and if this is recurrence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dw.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dw.5.md
 
 <!-- sase:referenced-by:end -->
