@@ -22,4 +22,4 @@ complete-suggest: make `pomodoro_name` completion task-aware (top-level `theme_s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.2/README.md) | [bob-cli-dm.2](bob-cli-dm.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.2.md) | [bob-cli-dm.2](bob-cli-dm.2.md) | 0 |

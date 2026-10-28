@@ -37,14 +37,13 @@ Complete bob-cli-dm.1 with pure suggestion and field rules, a read-only explanat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.land.md) | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-dm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.land.md) | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fc59428`](https://github.com/bobs-org/bob-cli/commit/fc594281b1f623738b6ee0f71c8ff86df0285246) | fix(themes): repair task-theme scalars, placement, and unused-code gates | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 2026-10-28 17:41:19 EDT |
-| bob-cli--plans | [`bob-cli--plans@7020103`](https://github.com/bobs-org/bob-cli--plans/commit/702010391ff5580edf863bb4f88c763acbf5eb6d) | docs(plan): mark task\_theme\_core done after bob-cli-dm.1.1 landing | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 2026-10-28 17:42:16 EDT |
 
 <!-- sase:referenced-by:start -->
 

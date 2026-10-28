@@ -16,3 +16,15 @@ Complete bob-cli-dm.5 with Rust-equivalent task-theme suggestion and field APIs,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-dm.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.land/README.md) | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.5.1.1][1] | Need the parent epic's final decisions and phase coordination rules | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->
