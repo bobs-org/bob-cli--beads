@@ -13,7 +13,7 @@ cancel-surfaces: capture-complete relation_label rows gain cancels_source, a con
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dl.2](bob-cli-dl.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dl.2](bob-cli-dl.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.7](bob-cli-dl.7.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
 
