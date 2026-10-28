@@ -56,7 +56,7 @@ flowchart TD
     n9["bob-cli-df.2.1.4.2: Integrate the repaired core and finish quarantine recovery [closed]"]
     n10["bob-cli-df.2.1.4.3: Finish collision provenance and quarantine path safety [in_progress]"]
     n11["bob-cli-df.2.1.4.3.1: Preserve earliest history when a later identical copy descends from a competitor [closed]"]
-    n12["bob-cli-df.2.1.4.3.2: Gather cross-root ancestry and finish safe quarantine recovery coverage [in_progress]"]
+    n12["bob-cli-df.2.1.4.3.2: Gather cross-root ancestry and finish safe quarantine recovery coverage [closed]"]
     n13["bob-cli-df.3: Keep a failed links inlet from consuming the scratch plan [closed]"]
     n14["bob-cli-df.4: Preserve tracked and untracked edits across a failed-close relaunch reset [closed]"]
     n15["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [closed]"]
@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-df.2.1.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.1.md) | [bob-cli-df.2.1.4.1](bob-cli-df.2.1.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.2.md) | [bob-cli-df.2.1.4.2](bob-cli-df.2.1.4.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.3.1/README.md) | [bob-cli-df.2.1.4.3.1](bob-cli-df.2.1.4.3.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-df.2.1.4.3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.3.2/README.md) | [bob-cli-df.2.1.4.3.2](bob-cli-df.2.1.4.3.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.4.3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.2.md) | [bob-cli-df.2.1.4.3.2](bob-cli-df.2.1.4.3.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.3.land/README.md) | [bob-cli-df.2.1.4.3](bob-cli-df.2.1.4.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.land.md) | [bob-cli-df.2.1.4](bob-cli-df.2.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.land.md) | [bob-cli-df.2.1](bob-cli-df.2.1.md) | 0 |
