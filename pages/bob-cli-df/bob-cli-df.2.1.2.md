@@ -20,7 +20,7 @@ store-quarantine: add historical durability evidence, accepted-event snapshots, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-df.2.1.1](bob-cli-df.2.1.1.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [bob-cli-df.2.1.3](bob-cli-df.2.1.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [bob-cli-df.2.1.3](bob-cli-df.2.1.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

@@ -44,7 +44,7 @@ flowchart TD
     n3["bob-cli-df.2.1: Quarantine artifact-link collisions and keep unrelated writes available [in_progress]"]
     n4["bob-cli-df.2.1.1: Add the Rust collision partition and quarantine contracts [closed]"]
     n5["bob-cli-df.2.1.2: Read colliding stores safely and expose quarantine in doctor [closed]"]
-    n6["bob-cli-df.2.1.3: Quarantine publication replays without losing outbox payloads [in_progress]"]
+    n6["bob-cli-df.2.1.3: Quarantine publication replays without losing outbox payloads [closed]"]
     n7["bob-cli-df.3: Keep a failed links inlet from consuming the scratch plan [closed]"]
     n8["bob-cli-df.4: Preserve tracked and untracked edits across a failed-close relaunch reset [closed]"]
     n9["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [closed]"]
