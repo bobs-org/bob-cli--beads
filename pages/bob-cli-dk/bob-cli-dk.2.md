@@ -19,7 +19,7 @@ warnings: limit Recent suggestions to configured themes and emit `theme_not_conf
 
 - **Depends on:** [bob-cli-dk.1](bob-cli-dk.1.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dk.3](bob-cli-dk.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dk.4](bob-cli-dk.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dk.4](bob-cli-dk.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

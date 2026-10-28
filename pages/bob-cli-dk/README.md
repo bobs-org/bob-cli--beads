@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/configured_pomodoro_themes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/configured_pomodoro_themes.md
 
@@ -35,8 +35,8 @@ A `themes:` block in bob's config.yml declares Bryan's Pomodoro theme vocabulary
 |---|---|---|---|---|---:|---:|
 | [bob-cli-dk.1](bob-cli-dk.1.md) | bob-cli themes config, hue rule, and catalog reports | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dk.2](bob-cli-dk.2.md) | bob-cli suggestions and warnings for unconfigured themes | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-dk.3](bob-cli-dk.3.md) | bob-plugins configured-theme rendering, pickers, and lints | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-dk.4](bob-cli-dk.4.md) | Bob Mac Capture configured-theme rendering and warnings | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+| [bob-cli-dk.3](bob-cli-dk.3.md) | bob-plugins configured-theme rendering, pickers, and lints | ✓ closed | medium | 2026-10-28 | 1 | 0 |
+| [bob-cli-dk.4](bob-cli-dk.4.md) | Bob Mac Capture configured-theme rendering and warnings | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dk.5](bob-cli-dk.5.md) | Bryan's six configured themes in chezmoi | ✓ closed | xsmall | 2026-10-28 | 1 | 0 |
 
 ## Lineage
@@ -47,7 +47,7 @@ flowchart TD
     n1["bob-cli-dk.1: bob-cli themes config, hue rule, and catalog reports [closed]"]
     n2["bob-cli-dk.2: bob-cli suggestions and warnings for unconfigured themes [closed]"]
     n3["bob-cli-dk.3: bob-plugins configured-theme rendering, pickers, and lints [closed]"]
-    n4["bob-cli-dk.4: Bob Mac Capture configured-theme rendering and warnings [in_progress]"]
+    n4["bob-cli-dk.4: Bob Mac Capture configured-theme rendering and warnings [closed]"]
     n5["bob-cli-dk.5: Bryan's six configured themes in chezmoi [closed]"]
     n0 --> n1
     n0 --> n2
@@ -68,8 +68,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-dk.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.1/README.md) | [bob-cli-dk.1](bob-cli-dk.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-dk.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dk.2.md) | [bob-cli-dk.2](bob-cli-dk.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-dk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.3/README.md) | [bob-cli-dk.3](bob-cli-dk.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-dk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.4/README.md) | [bob-cli-dk.4](bob-cli-dk.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-dk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.3/README.md) | [bob-cli-dk.3](bob-cli-dk.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-dk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.4/README.md) | [bob-cli-dk.4](bob-cli-dk.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-dk.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.5/README.md) | [bob-cli-dk.5](bob-cli-dk.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-dk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.land/README.md) | [bob-cli-dk](README.md) | 0 |
 
@@ -79,7 +79,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`ec018a5`](https://github.com/bobs-org/bob-cli/commit/ec018a5bcf5f7f9e48a52f81a40de7050145be70) | feat(themes): configured themes vocabulary, config-first hue rule, and catalog reports | [bob-cli-dk.1](bob-cli-dk.1.md) | 2026-10-28 08:19:13 EDT |
 | bob-cli | [`084a285`](https://github.com/bobs-org/bob-cli/commit/084a2852b121a153852a5c045b3b5ac5385ea89c) | feat(themes): scope Recent to configured themes and warn on unconfigured names | [bob-cli-dk.2](bob-cli-dk.2.md) | 2026-10-28 09:49:09 EDT |
-| bob-plugins | [`bob-plugins@233d060`](https://github.com/bobs-org/bob-plugins/commit/233d060b08ac9c791d445b2cd81847d9e345537a) | feat(plugins): render configured Pomodoro themes | [bob-cli-dk.3](bob-cli-dk.3.md) | 2026-10-28 10:17:50 EDT |
+| bob-mac-capture | [`bob-mac-capture@2497c41`](https://github.com/bobs-org/bob-mac-capture/commit/2497c412f20060bb90ec324daf8e41badcc44819) | feat(themes): render unconfigured Pomodoro themes with dashed treatment | [bob-cli-dk.4](bob-cli-dk.4.md) | 2026-10-28 10:33:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -88,7 +88,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dk.1][1] | Need epic DECISIONS and scope for phase work | 1 |
+| read-by | [agent:bob-cli-dk.3][2] | Need epic decisions and the phase plan before implementing bob-cli-dk.3 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.3/README.md
 
 <!-- sase:referenced-by:end -->

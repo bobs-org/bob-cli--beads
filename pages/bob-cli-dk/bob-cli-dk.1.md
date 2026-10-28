@@ -21,7 +21,7 @@ config: parse and validate the `themes:` block, put config colors first in the h
 
 - **Blocks:** [bob-cli-dk.2](bob-cli-dk.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dk.3](bob-cli-dk.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dk.4](bob-cli-dk.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dk.4](bob-cli-dk.4.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dk.5](bob-cli-dk.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
