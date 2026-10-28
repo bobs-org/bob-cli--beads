@@ -20,7 +20,7 @@ complete-contract: write docs/task-relations.md §18 and RV10, amend §§1/2/8/1
 ## Dependencies
 
 - **Blocks:** [bob-cli-du.2](bob-cli-du.2.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.5](bob-cli-du.5.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.5](bob-cli-du.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -33,3 +33,15 @@ complete-contract: write docs/task-relations.md §18 and RV10, amend §§1/2/8/1
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`847a3c5`](https://github.com/bobs-org/bob-cli/commit/847a3c5341ea70f00b4ca6f85c0d405cee8836fe) | feat(relations): add complete-label contract, reverse-rename, and shared vectors | [bob-cli-du.1](bob-cli-du.1.md) | 2026-10-28 15:13:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-du.1][1] | Need notes, remaining work, and whether earlier work landed | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.1/README.md
+
+<!-- sase:referenced-by:end -->

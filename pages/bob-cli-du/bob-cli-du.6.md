@@ -13,7 +13,7 @@ nav-complete-writer: load closing labels with the both-lists rule, add planRelat
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-du.5](bob-cli-du.5.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-du.5](bob-cli-du.5.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.7](bob-cli-du.7.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
