@@ -39,7 +39,13 @@ Preserve earliest provable history across skewed copies and reject unsafe quaran
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-df.2.1.4.3.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.land.md) | [bob-cli-df.2.1.4.3.3](bob-cli-df.2.1.4.3.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.4.3.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.land.md) | [bob-cli-df.2.1.4.3.3](bob-cli-df.2.1.4.3.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli--plans | [`bob-cli--plans@ac23ca1`](https://github.com/bobs-org/bob-cli--plans/commit/ac23ca1d38e6035d26f677706fb4118f17c74ef8) | docs(plans): mark quarantine landing plans done | [bob-cli-df.2.1.4.3.3](bob-cli-df.2.1.4.3.3.md) | 2026-10-28 10:40:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

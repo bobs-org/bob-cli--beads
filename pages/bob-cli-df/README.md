@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-df.2.1.4.3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.2.md) | [bob-cli-df.2.1.4.3.2](bob-cli-df.2.1.4.3.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.3.3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.1.md) | [bob-cli-df.2.1.4.3.3.1](bob-cli-df.2.1.4.3.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.3.3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.2.md) | [bob-cli-df.2.1.4.3.3.2](bob-cli-df.2.1.4.3.3.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-df.2.1.4.3.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.land.md) | [bob-cli-df.2.1.4.3.3](bob-cli-df.2.1.4.3.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.4.3.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.land.md) | [bob-cli-df.2.1.4.3.3](bob-cli-df.2.1.4.3.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.3.land/README.md) | [bob-cli-df.2.1.4.3](bob-cli-df.2.1.4.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.land.md) | [bob-cli-df.2.1.4](bob-cli-df.2.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.land.md) | [bob-cli-df.2.1](bob-cli-df.2.1.md) | 0 |
@@ -139,6 +139,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`035aad5`](https://github.com/bobs-org/bob-cli/commit/035aad56c0b5819ee8ab3bb7cf718f7df72e0307) | test(catalog): align protocol entry count with themes split | [bob-cli-df.1](bob-cli-df.1.md) | 2026-10-27 21:38:58 EDT |
 | bob-cli--plans | [`bob-cli--plans@4e3ffdd`](https://github.com/bobs-org/bob-cli--plans/commit/4e3ffdda70b43f850834604816ba89ab449f2906) | docs(plan): mark failed-close preservation epic and tale done | [bob-cli-df.4.1](bob-cli-df.4.1.md) | 2026-10-28 00:41:25 EDT |
+| bob-cli--plans | [`bob-cli--plans@ac23ca1`](https://github.com/bobs-org/bob-cli--plans/commit/ac23ca1d38e6035d26f677706fb4118f17c74ef8) | docs(plans): mark quarantine landing plans done | [bob-cli-df.2.1.4.3.3](bob-cli-df.2.1.4.3.3.md) | 2026-10-28 10:40:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
