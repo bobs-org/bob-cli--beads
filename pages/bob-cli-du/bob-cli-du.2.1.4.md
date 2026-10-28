@@ -13,7 +13,7 @@ capture-acceptance: finish the scratch-vault acceptance matrix, prove no-config 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-du.2.1.3](bob-cli-du.2.1.3.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-du.2.1.3](bob-cli-du.2.1.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
