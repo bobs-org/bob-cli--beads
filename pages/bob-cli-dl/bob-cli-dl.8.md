@@ -15,7 +15,7 @@ rollout: add relations.cancel_labels [duplicate of, superseded by] to chezmoi ho
 
 - **Depends on:** [bob-cli-dl.3](bob-cli-dl.3.md) ◐ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dl.4](bob-cli-dl.4.md) ◐ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-dl.6](bob-cli-dl.6.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dl.6](bob-cli-dl.6.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dl.7](bob-cli-dl.7.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

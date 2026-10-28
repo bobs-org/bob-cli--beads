@@ -29,7 +29,7 @@ Preview/commit contract for bob-cli-dl.6:
 ## Dependencies
 
 - **Depends on:** [bob-cli-dl.1](bob-cli-dl.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.6](bob-cli-dl.6.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.6](bob-cli-dl.6.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

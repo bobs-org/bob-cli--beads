@@ -17,7 +17,7 @@ cancel-contract: write docs/task-relations.md §17 Cancel labels (rule, config, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-dl.2](bob-cli-dl.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.2](bob-cli-dl.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.5](bob-cli-dl.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
