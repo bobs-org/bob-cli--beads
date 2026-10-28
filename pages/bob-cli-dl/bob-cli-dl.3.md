@@ -38,3 +38,15 @@ capture-cancel: on an Added or Relabeled relation with a cancel label, stage the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0a5f41b`](https://github.com/bobs-org/bob-cli/commit/0a5f41b8781a643071707a7534f667df6b932c6e) | feat(capture): cancel-label commits retire the source in the staged batch | [bob-cli-dl.3](bob-cli-dl.3.md) | 2026-10-28 11:27:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dl.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.3/README.md
+
+<!-- sase:referenced-by:end -->

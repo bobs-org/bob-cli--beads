@@ -14,7 +14,7 @@ mac-cancel-cue: decode the new additive fields, then render the relation card �
 ## Dependencies
 
 - **Depends on:** [bob-cli-dl.3](bob-cli-dl.3.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-dl.4](bob-cli-dl.4.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dl.4](bob-cli-dl.4.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

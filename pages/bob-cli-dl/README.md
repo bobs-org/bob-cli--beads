@@ -30,7 +30,7 @@ Committing a relation whose label is listed in `relations.cancel_labels` (starti
 | [bob-cli-dl.1](bob-cli-dl.1.md) | Cancel-label contract (§17), config reference, and shared cancel vectors | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dl.2](bob-cli-dl.2.md) | relations.cancel\_labels config and the Rust task\_cancel engine | ✓ closed | large | 2026-10-28 | 1 | 1 |
 | [bob-cli-dl.3](bob-cli-dl.3.md) | Capture ~ / ~~ cancels the source in the same staged batch | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-dl.4](bob-cli-dl.4.md) | Completion, parse, relations list, rename, and zsh show cancel labels | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+| [bob-cli-dl.4](bob-cli-dl.4.md) | Completion, parse, relations list, rename, and zsh show cancel labels | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dl.5](bob-cli-dl.5.md) | Obsidian relation writer folds Task Card Cancel into the source write | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dl.6](bob-cli-dl.6.md) | Obsidian Links stage ⊘ indication, batch confirm, and hints | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dl.7](bob-cli-dl.7.md) | Bob Mac Capture renders bob's cancel consequences | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
@@ -44,7 +44,7 @@ flowchart TD
     n1["bob-cli-dl.1: Cancel-label contract (§17), config reference, and shared cancel vectors [closed]"]
     n2["bob-cli-dl.2: relations.cancel_labels config and the Rust task_cancel engine [closed]"]
     n3["bob-cli-dl.3: Capture ~ / ~~ cancels the source in the same staged batch [closed]"]
-    n4["bob-cli-dl.4: Completion, parse, relations list, rename, and zsh show cancel labels [in_progress]"]
+    n4["bob-cli-dl.4: Completion, parse, relations list, rename, and zsh show cancel labels [closed]"]
     n5["bob-cli-dl.5: Obsidian relation writer folds Task Card Cancel into the source write [closed]"]
     n6["bob-cli-dl.6: Obsidian Links stage ⊘ indication, batch confirm, and hints [closed]"]
     n7["bob-cli-dl.7: Bob Mac Capture renders bob's cancel consequences [in_progress]"]
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dl.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.1.md) | [bob-cli-dl.1](bob-cli-dl.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.2.md) | [bob-cli-dl.2](bob-cli-dl.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.3/README.md) | [bob-cli-dl.3](bob-cli-dl.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md) | [bob-cli-dl.4](bob-cli-dl.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md) | [bob-cli-dl.4](bob-cli-dl.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.5.md) | [bob-cli-dl.5](bob-cli-dl.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.6.md) | [bob-cli-dl.6](bob-cli-dl.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.7/README.md) | [bob-cli-dl.7](bob-cli-dl.7.md) | 0 |
@@ -92,3 +92,4 @@ flowchart TD
 | bob-cli | [`50eb75d`](https://github.com/bobs-org/bob-cli/commit/50eb75d21dfe60754e3e0419b524a32f846e4955) | feat(relations): add cancel-label config parser and task\_cancel engine | [bob-cli-dl.2](bob-cli-dl.2.md) | 2026-10-28 10:17:06 EDT |
 | bob-cli | [`8f311da`](https://github.com/bobs-org/bob-cli/commit/8f311dabaf225ae9638cdbfd6a933fed90cb7350) | docs(memory): clarify task relation cancel-label exception | [bob-cli-dl.6](bob-cli-dl.6.md) | 2026-10-28 11:07:44 EDT |
 | bob-cli | [`0a5f41b`](https://github.com/bobs-org/bob-cli/commit/0a5f41b8781a643071707a7534f667df6b932c6e) | feat(capture): cancel-label commits retire the source in the staged batch | [bob-cli-dl.3](bob-cli-dl.3.md) | 2026-10-28 11:27:23 EDT |
+| bob-cli | [`b8df2f4`](https://github.com/bobs-org/bob-cli/commit/b8df2f48b6c0a8dfda4a494c15f56088d3f37417) | feat(relations): add cancel-source surfaces for capture-complete and relations list | [bob-cli-dl.4](bob-cli-dl.4.md) | 2026-10-28 12:03:28 EDT |
