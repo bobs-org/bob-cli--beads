@@ -29,7 +29,7 @@ Every task-aware Pomodoro menu preselects the theme a task most likely belongs t
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-dm.1](bob-cli-dm.1.md) | bob-cli suggestion rule, task field, and \`bob themes suggest\` | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [bob-cli-dm.1](bob-cli-dm.1.md) | bob-cli suggestion rule, task field, and \`bob themes suggest\` | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.2](bob-cli-dm.2.md) | Suggestions in capture completion and \`bob ref today\` | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.3](bob-cli-dm.3.md) | Theme rename covers note defaults and task fields | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.4](bob-cli-dm.4.md) | Capture remembers deliberate \`#NAME\` choices | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
@@ -44,8 +44,8 @@ Every task-aware Pomodoro menu preselects the theme a task most likely belongs t
 ```mermaid
 flowchart TD
     n0["bob-cli-dm: Task theme suggestions: suggest, explain, remember [in_progress]"]
-    n1["bob-cli-dm.1: bob-cli suggestion rule, task field, and `bob themes suggest` [in_progress]"]
-    n2["bob-cli-dm.1.1: Rust task theme suggestions and canonical task fields [in_progress]"]
+    n1["bob-cli-dm.1: bob-cli suggestion rule, task field, and `bob themes suggest` [closed]"]
+    n2["bob-cli-dm.1.1: Rust task theme suggestions and canonical task fields [closed]"]
     n3["bob-cli-dm.1.1.1: Implement task theme rules and shared vectors [closed]"]
     n4["bob-cli-dm.1.1.2: Expose suggestions and unknown note defaults [closed]"]
     n5["bob-cli-dm.1.1.3: Verify field preservation and publish the contract [closed]"]
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.1.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.1.md) | [bob-cli-dm.1.1.1](bob-cli-dm.1.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.2.md) | [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.1.1.3/README.md) | [bob-cli-dm.1.1.3](bob-cli-dm.1.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.1.1.land/README.md) | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.land.md) | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.2/README.md) | [bob-cli-dm.2](bob-cli-dm.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.3/README.md) | [bob-cli-dm.3](bob-cli-dm.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.4/README.md) | [bob-cli-dm.4](bob-cli-dm.4.md) | 0 |
@@ -114,6 +114,7 @@ flowchart TD
 | bob-cli | [`a1b8766`](https://github.com/bobs-org/bob-cli/commit/a1b8766bbf6afd54c80c3aba73d496861288e11f) | feat(themes): add task theme suggestion model and field helpers | [bob-cli-dm.1.1.1](bob-cli-dm.1.1.1.md) | 2026-10-28 10:16:59 EDT |
 | bob-cli | [`9409bfa`](https://github.com/bobs-org/bob-cli/commit/9409bfa58011ed66aeb1ccf3c0a7125a332748d3) | feat(themes): explain task suggestions and cache unknown note defaults | [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) | 2026-10-28 16:01:52 EDT |
 | bob-cli | [`c624347`](https://github.com/bobs-org/bob-cli/commit/c6243477c4cbc7778cfe4749bb9c6d24a40f2b9e) | feat(themes): publish PT13 pomodoro-theme contract and preservation regressions | [bob-cli-dm.1.1.3](bob-cli-dm.1.1.3.md) | 2026-10-28 16:52:22 EDT |
+| bob-cli | [`fc59428`](https://github.com/bobs-org/bob-cli/commit/fc594281b1f623738b6ee0f71c8ff86df0285246) | fix(themes): repair task-theme scalars, placement, and unused-code gates | [bob-cli-dm.1.1](bob-cli-dm.1.1.md) | 2026-10-28 17:41:19 EDT |
 
 <!-- sase:referenced-by:start -->
 

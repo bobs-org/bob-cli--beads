@@ -13,7 +13,7 @@ ledger-mirror: move `api.themes` out of the full lifecycle fragment, add the JS 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.1](bob-cli-dm.1.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.1](bob-cli-dm.1.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.6](bob-cli-dm.6.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

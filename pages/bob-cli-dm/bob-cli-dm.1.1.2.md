@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:babfd9c7f9ecf3f6fe7fddcf | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -63,7 +63,9 @@ Durable raw samples, earlier valid comparisons, build artifacts, and final statu
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dm.1.1.2--3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-dm.1.1.3][2] | Need prior phase evidence for timing and completion | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.1.1.3/README.md
 
 <!-- sase:referenced-by:end -->
