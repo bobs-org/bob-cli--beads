@@ -18,7 +18,7 @@ rename-coverage: `bob themes rename` also rewrites `theme:` frontmatter and `[th
 ## Dependencies
 
 - **Depends on:** [bob-cli-dm.1](bob-cli-dm.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.4](bob-cli-dm.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.4](bob-cli-dm.4.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.6](bob-cli-dm.6.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

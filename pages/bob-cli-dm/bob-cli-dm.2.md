@@ -18,7 +18,7 @@ complete-suggest: make `pomodoro_name` completion task-aware (top-level `theme_s
 ## Dependencies
 
 - **Depends on:** [bob-cli-dm.1](bob-cli-dm.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.4](bob-cli-dm.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.4](bob-cli-dm.4.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.6](bob-cli-dm.6.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.8](bob-cli-dm.8.md) ◐ · ⧖ 2026-10-28
 
