@@ -13,7 +13,7 @@ relation-composition: share closing-edge collection with cancel, enforce same-so
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.2.1.4](bob-cli-du.2.1.4.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

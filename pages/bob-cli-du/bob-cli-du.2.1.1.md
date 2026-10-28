@@ -17,7 +17,7 @@ close-policy: share the cancel/complete label parser, drop overlapping keys from
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.2.1.2](bob-cli-du.2.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -30,3 +30,15 @@ close-policy: share the cancel/complete label parser, drop overlapping keys from
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a32a32f`](https://github.com/bobs-org/bob-cli/commit/a32a32fbe081506316174cb45333531055dffc50) | feat(relations): add complete-label policy and verdicts | [bob-cli-du.2.1.1](bob-cli-du.2.1.1.md) | 2026-10-28 15:49:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-du.2.1.1][1] | Confirm explicit closure of the assigned phase after checks | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->
