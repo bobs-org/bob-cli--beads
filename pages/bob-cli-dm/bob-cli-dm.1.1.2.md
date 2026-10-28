@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:babfd9c7f9ecf3f6fe7fddcf | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -40,7 +42,7 @@ Durable raw samples, earlier valid comparisons, build artifacts, and final statu
 ## Dependencies
 
 - **Depends on:** [bob-cli-dm.1.1.1](bob-cli-dm.1.1.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.1.1.3](bob-cli-dm.1.1.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.1.1.3](bob-cli-dm.1.1.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -53,3 +55,15 @@ Durable raw samples, earlier valid comparisons, build artifacts, and final statu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9409bfa`](https://github.com/bobs-org/bob-cli/commit/9409bfa58011ed66aeb1ccf3c0a7125a332748d3) | feat(themes): explain task suggestions and cache unknown note defaults | [bob-cli-dm.1.1.2](bob-cli-dm.1.1.2.md) | 2026-10-28 16:01:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.1.1.2--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.1.1.2.md
+
+<!-- sase:referenced-by:end -->
