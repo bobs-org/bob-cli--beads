@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-do.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-do.2/README.md) | [bob-cli-do.2](bob-cli-do.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-do.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-do.3.md) | [bob-cli-do.3](bob-cli-do.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-do.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-do.4/README.md) | [bob-cli-do.4](bob-cli-do.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-do.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-do.land.md) | [bob-cli-do](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-do.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-do.land.md) | [bob-cli-do](README.md) | 2 |
 
 ## Commits
 
@@ -77,3 +77,4 @@ flowchart TD
 | bob-cli | [`16f3da4`](https://github.com/bobs-org/bob-cli/commit/16f3da48ac167002d29c7b0e1119fc4b0a97a125) | feat(vault-sync): quarantine displaced-plus-foreign-identity note clobbers | [bob-cli-do.3](bob-cli-do.3.md) | 2026-10-28 11:38:07 EDT |
 | bob-cli | [`0f1898e`](https://github.com/bobs-org/bob-cli/commit/0f1898ee7b98a663ded6c0684af7ea6910248c86) | fix(ref): explain copied reading tasks in scan failures | [bob-cli-do.4](bob-cli-do.4.md) | 2026-10-28 13:30:25 EDT |
 | bob-cli | [`792cc24`](https://github.com/bobs-org/bob-cli/commit/792cc2436f43136a228d53cb8ddb4b7110178d92) | fix(vault-sync): complete clobber-guard closeout quarantine | [bob-cli-do](README.md) | 2026-10-28 14:11:17 EDT |
+| bob-cli--plans | [`bob-cli--plans@6bb99f2`](https://github.com/bobs-org/bob-cli--plans/commit/6bb99f2c613ef6c0ab344877b164f2607f5a3c84) | docs(plans): mark clobbered-note repair plan done | [bob-cli-do](README.md) | 2026-10-28 14:12:00 EDT |
