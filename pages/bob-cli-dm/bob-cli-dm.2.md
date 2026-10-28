@@ -26,7 +26,13 @@ complete-suggest: make `pomodoro_name` completion task-aware (top-level `theme_s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.2.md) | [bob-cli-dm.2](bob-cli-dm.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.2.md) | [bob-cli-dm.2](bob-cli-dm.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ac13ab5`](https://github.com/bobs-org/bob-cli/commit/ac13ab543347f173aa729744bd08b98d637fc804) | feat(capture): suggest task themes in completion and ref today | [bob-cli-dm.2](bob-cli-dm.2.md) | 2026-10-28 18:35:38 EDT |
 
 <!-- sase:referenced-by:start -->
 

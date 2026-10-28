@@ -18,7 +18,7 @@ task-theme-editor: build the canonical explicit-field mark model, safe selection
 ## Dependencies
 
 - **Depends on:** [bob-cli-dm.5.1.1](bob-cli-dm.5.1.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -31,3 +31,15 @@ task-theme-editor: build the canonical explicit-field mark model, safe selection
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4721a74`](https://github.com/bobs-org/bob-plugins/commit/4721a74dee66a36279cc6032bf6f5fa708650064) | feat(ledger-tools): live preview task theme marks with editor decorations | [bob-cli-dm.5.1.2](bob-cli-dm.5.1.2.md) | 2026-10-28 18:40:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.5.1.2][1] | Need full JSON including notes and decisions | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -38,7 +38,9 @@ theme-api: extract the themes API factory, mirror task field parsing and byte-pr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dm.5.1.1][1] | Need the phase scope, design file, and notes before assessing existing work | 2 |
+| read-by | [agent:bob-cli-dm.5.1.2][2] | Need dependency scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.2/README.md
 
 <!-- sase:referenced-by:end -->
