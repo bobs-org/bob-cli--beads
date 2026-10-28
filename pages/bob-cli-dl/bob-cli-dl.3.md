@@ -24,7 +24,7 @@ capture-cancel: on an Added or Relabeled relation with a cancel label, stage the
 ## Dependencies
 
 - **Depends on:** [bob-cli-dl.2](bob-cli-dl.2.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.7](bob-cli-dl.7.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.7](bob-cli-dl.7.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
@@ -46,7 +46,9 @@ capture-cancel: on an Added or Relabeled relation with a cancel label, stage the
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dl.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-dl.4][2] | Need sibling phase status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md
 
 <!-- sase:referenced-by:end -->

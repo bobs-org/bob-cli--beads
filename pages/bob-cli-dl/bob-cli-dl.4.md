@@ -22,7 +22,7 @@ cancel-surfaces: capture-complete relation_label rows gain cancels_source, a con
 ## Dependencies
 
 - **Depends on:** [bob-cli-dl.2](bob-cli-dl.2.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.7](bob-cli-dl.7.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.7](bob-cli-dl.7.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
@@ -36,3 +36,15 @@ cancel-surfaces: capture-complete relation_label rows gain cancels_source, a con
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b8df2f4`](https://github.com/bobs-org/bob-cli/commit/b8df2f48b6c0a8dfda4a494c15f56088d3f37417) | feat(relations): add cancel-source surfaces for capture-complete and relations list | [bob-cli-dl.4](bob-cli-dl.4.md) | 2026-10-28 12:03:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dl.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md
+
+<!-- sase:referenced-by:end -->

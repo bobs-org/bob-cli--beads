@@ -16,10 +16,22 @@ rollout: add relations.cancel_labels [duplicate of, superseded by] to chezmoi ho
 - **Depends on:** [bob-cli-dl.3](bob-cli-dl.3.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dl.4](bob-cli-dl.4.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dl.6](bob-cli-dl.6.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-dl.7](bob-cli-dl.7.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dl.7](bob-cli-dl.7.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-dl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md) | [bob-cli-dl.8](bob-cli-dl.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dl.4][1] | Need sibling phase status | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.4/README.md
+
+<!-- sase:referenced-by:end -->
