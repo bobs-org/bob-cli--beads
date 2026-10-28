@@ -18,7 +18,7 @@ warnings: limit Recent suggestions to configured themes and emit `theme_not_conf
 ## Dependencies
 
 - **Depends on:** [bob-cli-dk.1](bob-cli-dk.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dk.3](bob-cli-dk.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dk.3](bob-cli-dk.3.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dk.4](bob-cli-dk.4.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
@@ -32,3 +32,15 @@ warnings: limit Recent suggestions to configured themes and emit `theme_not_conf
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`084a285`](https://github.com/bobs-org/bob-cli/commit/084a2852b121a153852a5c045b3b5ac5385ea89c) | feat(themes): scope Recent to configured themes and warn on unconfigured names | [bob-cli-dk.2](bob-cli-dk.2.md) | 2026-10-28 09:49:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dk.2--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dk.2.md
+
+<!-- sase:referenced-by:end -->

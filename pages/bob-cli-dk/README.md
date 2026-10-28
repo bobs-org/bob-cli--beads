@@ -25,13 +25,17 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 A `themes:` block in bob's config.yml declares Bryan's Pomodoro theme vocabulary and each theme's palette color. Every bob surface shows the configured colors, the menus suggest the configured themes, and using a name outside the vocabulary always works but produces a clear warning wherever a theme gets authored. Bryan's six themes ship configured with distinct colors.
 
+## Notes
+
+[2026-10-28T13:53:42Z · 155--code] DISCOVERED ISSUE: just docs-check fails at generated drift with 'decisions:theme-hue-is-pin-exempt-area-hash is superseded with no successors'. Reproduced on master a314b6ad with a clean tree (stash-on-quit docs changes reverted). Lint passed. decisions:theme-hue-is-config-pin-exempt-area-hash already says it supersedes the old record; docs/develop/decisions.md still publishes the old heading and the gate wants a successor. This is from this epic's memory_hue_record = yes work.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-dk.1](bob-cli-dk.1.md) | bob-cli themes config, hue rule, and catalog reports | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dk.2](bob-cli-dk.2.md) | bob-cli suggestions and warnings for unconfigured themes | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-dk.3](bob-cli-dk.3.md) | bob-plugins configured-theme rendering, pickers, and lints | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+| [bob-cli-dk.3](bob-cli-dk.3.md) | bob-plugins configured-theme rendering, pickers, and lints | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dk.4](bob-cli-dk.4.md) | Bob Mac Capture configured-theme rendering and warnings | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-dk.5](bob-cli-dk.5.md) | Bryan's six configured themes in chezmoi | ✓ closed | xsmall | 2026-10-28 | 1 | 0 |
 
@@ -42,7 +46,7 @@ flowchart TD
     n0["bob-cli-dk: Configured Pomodoro themes: a vocabulary with colors and gentle warnings [in_progress]"]
     n1["bob-cli-dk.1: bob-cli themes config, hue rule, and catalog reports [closed]"]
     n2["bob-cli-dk.2: bob-cli suggestions and warnings for unconfigured themes [closed]"]
-    n3["bob-cli-dk.3: bob-plugins configured-theme rendering, pickers, and lints [in_progress]"]
+    n3["bob-cli-dk.3: bob-plugins configured-theme rendering, pickers, and lints [closed]"]
     n4["bob-cli-dk.4: Bob Mac Capture configured-theme rendering and warnings [in_progress]"]
     n5["bob-cli-dk.5: Bryan's six configured themes in chezmoi [closed]"]
     n0 --> n1
@@ -64,7 +68,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-dk.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.1/README.md) | [bob-cli-dk.1](bob-cli-dk.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-dk.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-dk.2.md) | [bob-cli-dk.2](bob-cli-dk.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-dk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.3/README.md) | [bob-cli-dk.3](bob-cli-dk.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-dk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.3/README.md) | [bob-cli-dk.3](bob-cli-dk.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-dk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.4/README.md) | [bob-cli-dk.4](bob-cli-dk.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-dk.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.5/README.md) | [bob-cli-dk.5](bob-cli-dk.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-dk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.land/README.md) | [bob-cli-dk](README.md) | 0 |
@@ -75,6 +79,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`ec018a5`](https://github.com/bobs-org/bob-cli/commit/ec018a5bcf5f7f9e48a52f81a40de7050145be70) | feat(themes): configured themes vocabulary, config-first hue rule, and catalog reports | [bob-cli-dk.1](bob-cli-dk.1.md) | 2026-10-28 08:19:13 EDT |
 | bob-cli | [`084a285`](https://github.com/bobs-org/bob-cli/commit/084a2852b121a153852a5c045b3b5ac5385ea89c) | feat(themes): scope Recent to configured themes and warn on unconfigured names | [bob-cli-dk.2](bob-cli-dk.2.md) | 2026-10-28 09:49:09 EDT |
+| bob-plugins | [`bob-plugins@233d060`](https://github.com/bobs-org/bob-plugins/commit/233d060b08ac9c791d445b2cd81847d9e345537a) | feat(plugins): render configured Pomodoro themes | [bob-cli-dk.3](bob-cli-dk.3.md) | 2026-10-28 10:17:50 EDT |
 
 <!-- sase:referenced-by:start -->
 
