@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.6.md) | [bob-cli-dl.6](bob-cli-dl.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-dl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.7/README.md) | [bob-cli-dl.7](bob-cli-dl.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dl.8/README.md) | [bob-cli-dl.8](bob-cli-dl.8.md) | 3 |
-| [bbugyi200.apollo.bob-cli-dl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.land.md) | [bob-cli-dl](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-dl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.land.md) | [bob-cli-dl](README.md) | 3 |
 
 ## Commits
 
@@ -111,6 +111,7 @@ flowchart TD
 | chezmoi | [`chezmoi@b33aa49`](https://github.com/bbugyi200/dotfiles/commit/b33aa49d022d5a27fabb801e0b332177e184bc73) | feat(bob): turn on relation cancel labels | [bob-cli-dl.8](bob-cli-dl.8.md) | 2026-10-28 13:22:04 EDT |
 | bob-plugins | [`bob-plugins@62ccc99`](https://github.com/bobs-org/bob-plugins/commit/62ccc9927e53df02c384b5ebf94166121fdfeb7a) | fix(nav): use singular copy for one open ^prj resident | [bob-cli-dl](README.md) | 2026-10-28 14:18:49 EDT |
 | bob-cli | [`b8d5529`](https://github.com/bobs-org/bob-cli/commit/b8d5529742330811a412d1364ea47eda1be8d5ef) | fix(capture): align cancel-label output with §17 CL6/CL7 | [bob-cli-dl](README.md) | 2026-10-28 14:25:21 EDT |
+| bob-cli--plans | [`bob-cli--plans@0e162a2`](https://github.com/bobs-org/bob-cli--plans/commit/0e162a28c9ad6c5d76828e55f789b1a9a13fd2ef) | chore(plan): mark relation\_cancel\_labels done | [bob-cli-dl](README.md) | 2026-10-28 14:26:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
