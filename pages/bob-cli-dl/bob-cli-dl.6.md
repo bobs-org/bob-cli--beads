@@ -13,7 +13,7 @@ nav-cancel-cue: add ⊘ cancels row meta and a configured-label overlay, a ⊘-p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dl.5](bob-cli-dl.5.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dl.5](bob-cli-dl.5.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dl.8](bob-cli-dl.8.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

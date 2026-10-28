@@ -18,7 +18,7 @@ cancel-contract: write docs/task-relations.md §17 Cancel labels (rule, config, 
 ## Dependencies
 
 - **Blocks:** [bob-cli-dl.2](bob-cli-dl.2.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dl.5](bob-cli-dl.5.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dl.5](bob-cli-dl.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -31,3 +31,15 @@ cancel-contract: write docs/task-relations.md §17 Cancel labels (rule, config, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`52bff01`](https://github.com/bobs-org/bob-cli/commit/52bff0161befe3ce9656117547920caaf3129644) | feat(relations): add cancel-label contract, config docs, and shared vectors | [bob-cli-dl.1](bob-cli-dl.1.md) | 2026-10-28 09:03:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dl.1--1][1] | Need the phase scope, design file, notes, and DECISIONS | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dl.1.md
+
+<!-- sase:referenced-by:end -->
