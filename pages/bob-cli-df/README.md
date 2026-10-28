@@ -32,7 +32,7 @@ Resolve bob-cli-de, bob-cli-5m, bob-cli-5n, and the remaining bob-cli-cv dirty-t
 | [bob-cli-df.1](bob-cli-df.1.md) | Align the protocol-1 catalog CLI count with the themes-split row | ✓ closed | small | 2026-10-27 | 1 | 1 |
 | [bob-cli-df.2](bob-cli-df.2.md) | Quarantine colliding artifact-link operation IDs without blocking later writes | ◐ in_progress | large | 2026-10-27 | 1 | 0 |
 | [bob-cli-df.3](bob-cli-df.3.md) | Keep a failed links inlet from consuming the scratch plan | ✓ closed | medium | 2026-10-27 | 1 | 0 |
-| [bob-cli-df.4](bob-cli-df.4.md) | Preserve tracked and untracked edits across a failed-close relaunch reset | ◐ in_progress | large | 2026-10-27 | 1 | 0 |
+| [bob-cli-df.4](bob-cli-df.4.md) | Preserve tracked and untracked edits across a failed-close relaunch reset | ✓ closed | large | 2026-10-27 | 1 | 0 |
 
 ## Lineage
 
@@ -46,8 +46,8 @@ flowchart TD
     n5["bob-cli-df.2.1.2: Read colliding stores safely and expose quarantine in doctor [closed]"]
     n6["bob-cli-df.2.1.3: Quarantine publication replays without losing outbox payloads [in_progress]"]
     n7["bob-cli-df.3: Keep a failed links inlet from consuming the scratch plan [closed]"]
-    n8["bob-cli-df.4: Preserve tracked and untracked edits across a failed-close relaunch reset [in_progress]"]
-    n9["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [in_progress]"]
+    n8["bob-cli-df.4: Preserve tracked and untracked edits across a failed-close relaunch reset [closed]"]
+    n9["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [closed]"]
     n10["bob-cli-df.4.1.1: Verified durable checkout snapshots [closed]"]
     n11["bob-cli-df.4.1.2: Protect reset-and-replay operations [closed]"]
     n12["bob-cli-df.4.1.3: Protect workspace preparation and cleanup fallbacks [closed]"]
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-df.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.md) | [bob-cli-df.2](bob-cli-df.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.1/README.md) | [bob-cli-df.2.1.1](bob-cli-df.2.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.2/README.md) | [bob-cli-df.2.1.2](bob-cli-df.2.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-df.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.3/README.md) | [bob-cli-df.2.1.3](bob-cli-df.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.3.md) | [bob-cli-df.2.1.3](bob-cli-df.2.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.land/README.md) | [bob-cli-df.2.1](bob-cli-df.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.3/README.md) | [bob-cli-df.3](bob-cli-df.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.md) | [bob-cli-df.4](bob-cli-df.4.md) | 0 |
