@@ -19,10 +19,22 @@ same-payload-ancestry: repair surviving-history selection and prove the public p
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-df.2.1.4.3.3.2](bob-cli-df.2.1.4.3.3.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-df.2.1.4.3.3.2](bob-cli-df.2.1.4.3.3.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-df.2.1.4.3.3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.1.md) | [bob-cli-df.2.1.4.3.3.1](bob-cli-df.2.1.4.3.3.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-df.2.1.4.3.3.1--3][1] | Check phase notes before recording remaining verification evidence | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.3.3.1.md
+
+<!-- sase:referenced-by:end -->
