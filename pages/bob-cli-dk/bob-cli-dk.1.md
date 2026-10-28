@@ -22,7 +22,7 @@ config: parse and validate the `themes:` block, put config colors first in the h
 - **Blocks:** [bob-cli-dk.2](bob-cli-dk.2.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dk.3](bob-cli-dk.3.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dk.4](bob-cli-dk.4.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dk.5](bob-cli-dk.5.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dk.5](bob-cli-dk.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -35,3 +35,15 @@ config: parse and validate the `themes:` block, put config colors first in the h
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ec018a5`](https://github.com/bobs-org/bob-cli/commit/ec018a5bcf5f7f9e48a52f81a40de7050145be70) | feat(themes): configured themes vocabulary, config-first hue rule, and catalog reports | [bob-cli-dk.1](bob-cli-dk.1.md) | 2026-10-28 08:19:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dk.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dk.1/README.md
+
+<!-- sase:referenced-by:end -->
