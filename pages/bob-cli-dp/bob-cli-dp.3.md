@@ -24,3 +24,15 @@ editable-reinstall-overrides: resolve bob-cli-di in sase Justfile _install-venv/
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-dp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dp.3/README.md) | [bob-cli-dp.3](bob-cli-dp.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dp.3][1] | Need full notes, DECISIONS, and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dp.3/README.md
+
+<!-- sase:referenced-by:end -->
