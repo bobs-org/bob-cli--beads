@@ -33,6 +33,8 @@ Preserve the earliest provable durable payload and make quarantined replays sett
 
 [2026-10-28T08:33:50Z · bob-cli-df.2.1.4.land] Detailed landing audit and all follow-up dispositions: file:explicit:4ea0ec4a426fca44ad0e64e8; bounded reproduction source: file:explicit:93c39bb2954df550e568ab38. Authored remaining-work child epic Finish collision provenance and quarantine path safety, parent_bead=bob-cli-df.2.1.4, with two medium sequential phases (copy chronology/import cleanup, then consumer pin/cross-root history/path safety/recovery tests). Validated with --explain and revalidated without it, both zero warnings. This needs a committed core SHA before Python verification, so a single tale cannot complete the dependency. Child land resumes df.2.1.4, then rechecks/closes df.2.1 and only phase df.2 when ready; B4 and 5m remain outer-land responsibilities. No parent closure, plan done status, or fresh just check pass claimed.
 
+[2026-10-28T10:58:03Z · bob-cli-df.2.1.4.3.land] Nested landing remains blocked on child bob-cli-df.2.1.4.3: current audit found same-payload descendant clock skew reintroduced by surviving-history selection and incomplete quarantine path handling (operation file/broken symlink ignored; unchecked staging symlink writes temporary bytes outside root). Evidence and scope: file:explicit:65cfd4bea965ad1e3eef0b63. Remaining-work child plan will return its lander through .3 to this epic; no force-close or done status applied.
+
 ## Agents
 
 | Agent | Bead | Commits |
