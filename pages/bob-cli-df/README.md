@@ -29,6 +29,8 @@ Resolve bob-cli-de, bob-cli-5m, bob-cli-5n, and the remaining bob-cli-cv dirty-t
 
 [2026-10-28T06:01:00Z · bob-cli-df.2.1.land] DISCOVERED ISSUE from bob-cli-df.2.1.land, based on df.2.1.3 close note and current source at SASE a9abdd5c97: sibling recovery commit dcb7d2a6e7 added src/sase/finalizers/_failed_close_recovery_snapshots.py:11 importing private _RecoveryAssessment from _failed_close_recovery_assess.py. Phase df.2.1.3 reports just check rejecting that exact cross-file private import, and it remains in current source. This belongs to the still-active B4 epic via df.4, not artifact-link collision quarantine; resolve visibility/import ownership and verify Symvision during B4 landing. No new task and no code fix in the quarantine audit.
 
+[2026-10-28T08:24:42Z · bob-cli-df.2.1.4.land] DISCOVERED ISSUE corroboration from bob-cli-df.2.1.4.land: proposing phase bob-cli-df.2.1.4.2 note #2 again reports Symvision private _RecoveryAssessment import, KNOWN witness 13ea2a464abef73b3eab4bfee9e624d7. Current SASE ac23f63ee4 still has the sibling recovery import from dcb7d2a6e7. Existing B4 note #1 is the causal owner; do not charge it to quarantine repairs. No duplicate task.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -52,13 +54,16 @@ flowchart TD
     n7["bob-cli-df.2.1.4: Repair artifact-link durability ordering and quarantine replay [in_progress]"]
     n8["bob-cli-df.2.1.4.1: Repair Rust collision ordering across history and duplicate roots [closed]"]
     n9["bob-cli-df.2.1.4.2: Integrate the repaired core and finish quarantine recovery [closed]"]
-    n10["bob-cli-df.3: Keep a failed links inlet from consuming the scratch plan [closed]"]
-    n11["bob-cli-df.4: Preserve tracked and untracked edits across a failed-close relaunch reset [closed]"]
-    n12["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [closed]"]
-    n13["bob-cli-df.4.1.1: Verified durable checkout snapshots [closed]"]
-    n14["bob-cli-df.4.1.2: Protect reset-and-replay operations [closed]"]
-    n15["bob-cli-df.4.1.3: Protect workspace preparation and cleanup fallbacks [closed]"]
-    n16["bob-cli-df.4.1.4: Connect failed-close evidence and prove relaunch recovery [closed]"]
+    n10["bob-cli-df.2.1.4.3: Finish collision provenance and quarantine path safety [in_progress]"]
+    n11["bob-cli-df.2.1.4.3.1: Preserve earliest history when a later identical copy descends from a competitor [closed]"]
+    n12["bob-cli-df.2.1.4.3.2: Gather cross-root ancestry and finish safe quarantine recovery coverage [in_progress]"]
+    n13["bob-cli-df.3: Keep a failed links inlet from consuming the scratch plan [closed]"]
+    n14["bob-cli-df.4: Preserve tracked and untracked edits across a failed-close relaunch reset [closed]"]
+    n15["bob-cli-df.4.1: Preserve full worktrees across failed-close relaunches [closed]"]
+    n16["bob-cli-df.4.1.1: Verified durable checkout snapshots [closed]"]
+    n17["bob-cli-df.4.1.2: Protect reset-and-replay operations [closed]"]
+    n18["bob-cli-df.4.1.3: Protect workspace preparation and cleanup fallbacks [closed]"]
+    n19["bob-cli-df.4.1.4: Connect failed-close evidence and prove relaunch recovery [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -68,21 +73,25 @@ flowchart TD
     n3 --> n7
     n7 --> n8
     n7 --> n9
-    n0 --> n10
-    n0 --> n11
-    n11 --> n12
-    n12 --> n13
-    n12 --> n14
-    n12 --> n15
-    n12 --> n16
+    n7 --> n10
+    n10 --> n11
+    n10 --> n12
+    n0 --> n13
+    n0 --> n14
+    n14 --> n15
+    n15 --> n16
+    n15 --> n17
+    n15 --> n18
+    n15 --> n19
     n4 -.-> n5
     n5 -.-> n6
     n8 -.-> n9
-    n13 -.-> n14
-    n13 -.-> n15
-    n13 -.-> n16
-    n14 -.-> n16
-    n15 -.-> n16
+    n11 -.-> n12
+    n16 -.-> n17
+    n16 -.-> n18
+    n16 -.-> n19
+    n17 -.-> n19
+    n18 -.-> n19
 ```
 
 ## Agents
@@ -96,7 +105,10 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-df.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.3.md) | [bob-cli-df.2.1.3](bob-cli-df.2.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.1.md) | [bob-cli-df.2.1.4.1](bob-cli-df.2.1.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.2.md) | [bob-cli-df.2.1.4.2](bob-cli-df.2.1.4.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-df.2.1.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.land/README.md) | [bob-cli-df.2.1.4](bob-cli-df.2.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.4.3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.3.1/README.md) | [bob-cli-df.2.1.4.3.1](bob-cli-df.2.1.4.3.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.4.3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.3.2/README.md) | [bob-cli-df.2.1.4.3.2](bob-cli-df.2.1.4.3.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.4.3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.2.1.4.3.land/README.md) | [bob-cli-df.2.1.4.3](bob-cli-df.2.1.4.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-df.2.1.4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.4.land.md) | [bob-cli-df.2.1.4](bob-cli-df.2.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.2.1.land.md) | [bob-cli-df.2.1](bob-cli-df.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-df.3/README.md) | [bob-cli-df.3](bob-cli-df.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-df.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-df.4.md) | [bob-cli-df.4](bob-cli-df.4.md) | 0 |
