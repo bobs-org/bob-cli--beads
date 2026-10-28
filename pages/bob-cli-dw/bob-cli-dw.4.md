@@ -19,10 +19,16 @@ capture-related-perf-flake: resolve bob-cli-ca in bob-cli src/native/capture_rel
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-dw.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dw.4/README.md) | [bob-cli-dw.4](bob-cli-dw.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-dw.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dw.4/README.md) | [bob-cli-dw.4](bob-cli-dw.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`3281de1`](https://github.com/bobs-org/bob-cli/commit/3281de1fc2efe47dc987db741772e7436e959805) | test(capture-related): relax paired perf ceiling | [bob-cli-dw.4](bob-cli-dw.4.md) | 2026-10-28 15:50:07 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dw.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-dw.4/README.md
+
+<!-- sase:referenced-by:end -->
