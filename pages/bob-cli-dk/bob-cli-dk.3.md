@@ -14,7 +14,7 @@ obsidian: decode the new report fields, mirror the hue rule and menu scoping in 
 ## Dependencies
 
 - **Depends on:** [bob-cli-dk.1](bob-cli-dk.1.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-dk.2](bob-cli-dk.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dk.2](bob-cli-dk.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

@@ -14,7 +14,7 @@ mac: render `configured: false` themes with the dashed treatment, badge unconfig
 ## Dependencies
 
 - **Depends on:** [bob-cli-dk.1](bob-cli-dk.1.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-dk.2](bob-cli-dk.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dk.2](bob-cli-dk.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
