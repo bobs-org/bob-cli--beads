@@ -23,13 +23,7 @@ theme-api: extract the themes API factory, mirror task field parsing and byte-pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.1/README.md) | [bob-cli-dm.5.1.1](bob-cli-dm.5.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@25d864e`](https://github.com/bobs-org/bob-plugins/commit/25d864e2af1e5039e4644f1f4b260d3fe0767e6c) | feat(plugins): add task-theme API and picker support | [bob-cli-dm.5.1.1](bob-cli-dm.5.1.1.md) | 2026-10-28 18:11:32 EDT |
+| [bbugyi200.apollo.bob-cli-dm.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.1/README.md) | [bob-cli-dm.5.1.1](bob-cli-dm.5.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
