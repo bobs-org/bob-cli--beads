@@ -11,6 +11,10 @@
 
 migrate: add a previewed, single-commit vault rewrite that moves open-task [theme::] fields and area/project theme: defaults to the canonical type spellings.
 
+## Notes
+
+[2026-10-29T22:26:51Z · bob-cli-e6.3] Verified: cargo test --lib pomodoro_themes::migrate (8), CLI themes_migrate + catalog/help/completion, clippy project gates, just docs-gen. epic-symbols none. Prepared just check for host close.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ◐ · ⧖ 2026-10-29
@@ -20,4 +24,4 @@ migrate: add a previewed, single-commit vault rewrite that moves open-task [them
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-e6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.3/README.md) | [bob-cli-e6.3](bob-cli-e6.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.3.md) | [bob-cli-e6.3](bob-cli-e6.3.md) | 0 |

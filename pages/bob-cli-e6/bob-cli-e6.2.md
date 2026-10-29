@@ -19,7 +19,7 @@ storage: read [type::] and task_type: as canonical and the theme spellings as le
 
 - **Depends on:** [bob-cli-e6.1](bob-cli-e6.1.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.3](bob-cli-e6.3.md) ◐ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.4](bob-cli-e6.4.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.4](bob-cli-e6.4.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -32,3 +32,15 @@ storage: read [type::] and task_type: as canonical and the theme spellings as le
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8d7309f`](https://github.com/bobs-org/bob-cli/commit/8d7309ffb8e104fd550ee7bc5665105de4538b7a) | feat(types): store task types as \[type::\] and task\_type: with legacy theme reads | [bob-cli-e6.2](bob-cli-e6.2.md) | 2026-10-29 17:52:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e6.2][1] | Need full phase scope and notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md
+
+<!-- sase:referenced-by:end -->
