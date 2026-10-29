@@ -35,7 +35,7 @@ A task can name its root parent with `[root:: NOTE]`, rendered in Obsidian as a 
 | [bob-cli-e2.2](bob-cli-e2.2.md) | Obsidian root mark | ✓ closed | medium | 2026-10-28 | 1 | 2 |
 | [bob-cli-e2.3](bob-cli-e2.3.md) | Vault template and ^gtd backfill | ✓ closed | small | 2026-10-28 | 1 | 0 |
 | [bob-cli-e2.4](bob-cli-e2.4.md) | Retire review buckets in Rust, docs, and memory | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-e2.5](bob-cli-e2.5.md) | Obsidian homes mirror and Stats cleanup | ✓ closed | medium | 2026-10-28 | 1 | 1 |
+| [bob-cli-e2.5](bob-cli-e2.5.md) | Obsidian homes mirror and Stats cleanup | ✓ closed | medium | 2026-10-28 | 1 | 2 |
 
 ## Lineage
 
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-e2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.2/README.md) | [bob-cli-e2.2](bob-cli-e2.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-e2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.3/README.md) | [bob-cli-e2.3](bob-cli-e2.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-e2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.4/README.md) | [bob-cli-e2.4](bob-cli-e2.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-e2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-e2.5.md) | [bob-cli-e2.5](bob-cli-e2.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-e2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-e2.5.md) | [bob-cli-e2.5](bob-cli-e2.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-e2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.land/README.md) | [bob-cli-e2](README.md) | 0 |
 
 ## Commits
@@ -80,3 +80,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@0fb4b92`](https://github.com/bobs-org/bob-plugins/commit/0fb4b92330bf136f3ec8fc36dde683fbcf242974) | feat(ledger-tools): render task root marks across views | [bob-cli-e2.2](bob-cli-e2.2.md) | 2026-10-28 23:53:01 EDT |
 | bob-cli | [`511c7ad`](https://github.com/bobs-org/bob-cli/commit/511c7ad7b9e2a9d418b15ba5522d483c948a46f1) | feat!: retire GTD review buckets | [bob-cli-e2.4](bob-cli-e2.4.md) | 2026-10-29 00:37:34 EDT |
 | bob-cli | [`48da763`](https://github.com/bobs-org/bob-cli/commit/48da7636e7eed1f32161fa039aa99b80b614b015) | docs: regenerate root parent glossary | [bob-cli-e2.5](bob-cli-e2.5.md) | 2026-10-29 01:28:29 EDT |
+| bob-plugins | [`bob-plugins@06cda80`](https://github.com/bobs-org/bob-plugins/commit/06cda805dd71310c46f047ad50c514ede221b51b) | feat(plugins)!: mirror root fields and retire review buckets | [bob-cli-e2.5](bob-cli-e2.5.md) | 2026-10-29 01:30:00 EDT |
