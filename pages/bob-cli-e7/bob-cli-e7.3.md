@@ -19,7 +19,7 @@ mac-picker: in bob-mac-capture, add the `.wikilinkTask` picker source that decod
 
 - **Depends on:** [bob-cli-e7.1](bob-cli-e7.1.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e7.2](bob-cli-e7.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e7.4](bob-cli-e7.4.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e7.4](bob-cli-e7.4.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -32,3 +32,15 @@ mac-picker: in bob-mac-capture, add the `.wikilinkTask` picker source that decod
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@031f100`](https://github.com/bobs-org/bob-mac-capture/commit/031f100f52fbb2bfc758d28b5334886e4a9d02e0) | feat(mac-capture): add (( task wikilink picker | [bob-cli-e7.3](bob-cli-e7.3.md) | 2026-10-29 19:03:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e7.3][1] | check full description and notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e7.3/README.md
+
+<!-- sase:referenced-by:end -->
