@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-du.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.7/README.md) | [bob-cli-du.7](bob-cli-du.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.8/README.md) | [bob-cli-du.8](bob-cli-du.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.9.md) | [bob-cli-du.9](bob-cli-du.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-du.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.land.md) | [bob-cli-du](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-du.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.land.md) | [bob-cli-du](README.md) | 2 |
 
 ## Commits
 
@@ -132,6 +132,7 @@ flowchart TD
 | bob-cli | [`cba7c47`](https://github.com/bobs-org/bob-cli/commit/cba7c47dada6b0f409fc2b9c6ad72ecf05e97bb2) | feat(relations): reverse relation-label renames with previewed edge reversal | [bob-cli-du.4](bob-cli-du.4.md) | 2026-10-28 21:28:05 EDT |
 | bob-cli | [`7d3ce70`](https://github.com/bobs-org/bob-cli/commit/7d3ce705618cb9be501abda82db15f30dc14e2c0) | docs(relations): mark complete-label nav support shipped | [bob-cli-du.9](bob-cli-du.9.md) | 2026-10-28 22:25:51 EDT |
 | bob-cli | [`ce9f9e7`](https://github.com/bobs-org/bob-cli/commit/ce9f9e789877cc409a17bf8d0938841677e76155) | docs(relations): mark complete-label rollout shipped | [bob-cli-du](README.md) | 2026-10-28 22:57:38 EDT |
+| bob-plugins | [`bob-plugins@68f0443`](https://github.com/bobs-org/bob-plugins/commit/68f0443af3c11dd0588e99234bfb625e8647240b) | fix(task-status-cycler): guard complete-line api results | [bob-cli-du](README.md) | 2026-10-28 22:58:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
