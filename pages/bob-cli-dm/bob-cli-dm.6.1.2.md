@@ -18,7 +18,7 @@ picker-intent: preserve selection by key across asynchronous refreshes, render s
 ## Dependencies
 
 - **Depends on:** [bob-cli-dm.6.1.1](bob-cli-dm.6.1.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.6.1.3](bob-cli-dm.6.1.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.6.1.3](bob-cli-dm.6.1.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -31,3 +31,15 @@ picker-intent: preserve selection by key across asynchronous refreshes, render s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@ea583df`](https://github.com/bobs-org/bob-plugins/commit/ea583df02f832d4ea149ed9ad77fc1945ebf4c68) | feat(block-id-prompt): add stable selection, suggestion reasons, and link-once intent | [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) | 2026-10-28 20:59:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.6.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->

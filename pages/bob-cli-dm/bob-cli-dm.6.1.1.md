@@ -38,7 +38,9 @@ suggestion-model: add task context and the synchronous suggestion snapshot to bo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dm.6.1.1][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:bob-cli-dm.6.1.2][2] | check phase 1 completion | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.2/README.md
 
 <!-- sase:referenced-by:end -->
