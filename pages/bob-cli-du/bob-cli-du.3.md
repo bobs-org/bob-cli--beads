@@ -18,7 +18,7 @@ complete-surfaces: add completes_source flags, the configured overlay, relation_
 ## Dependencies
 
 - **Depends on:** [bob-cli-du.2](bob-cli-du.2.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.4](bob-cli-du.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.4](bob-cli-du.4.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.8](bob-cli-du.8.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
