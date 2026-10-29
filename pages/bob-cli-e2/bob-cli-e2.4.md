@@ -21,7 +21,7 @@ retire-review: delete @daily, @review buckets, review sessions, the review metri
 
 - **Depends on:** [bob-cli-e2.1](bob-cli-e2.1.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-e2.3](bob-cli-e2.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-e2.5](bob-cli-e2.5.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-e2.5](bob-cli-e2.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -34,3 +34,15 @@ retire-review: delete @daily, @review buckets, review sessions, the review metri
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`511c7ad`](https://github.com/bobs-org/bob-cli/commit/511c7ad7b9e2a9d418b15ba5522d483c948a46f1) | feat!: retire GTD review buckets | [bob-cli-e2.4](bob-cli-e2.4.md) | 2026-10-29 00:37:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e2.4][1] | check full bead including notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.4/README.md
+
+<!-- sase:referenced-by:end -->

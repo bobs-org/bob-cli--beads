@@ -18,19 +18,20 @@ root-mark: render each root field as a hue-dot place mark in Live Preview, Readi
 ## Dependencies
 
 - **Depends on:** [bob-cli-e2.1](bob-cli-e2.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-e2.5](bob-cli-e2.5.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-e2.5](bob-cli-e2.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-e2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.2/README.md) | [bob-cli-e2.2](bob-cli-e2.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-e2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.2/README.md) | [bob-cli-e2.2](bob-cli-e2.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8b4d1b8`](https://github.com/bobs-org/bob-cli/commit/8b4d1b89a3141d1abd92baa2530af5ea93f9685b) | docs(memory): update root parent glossary for root fields | [bob-cli-e2.2](bob-cli-e2.2.md) | 2026-10-28 23:45:36 EDT |
+| bob-plugins | [`bob-plugins@0fb4b92`](https://github.com/bobs-org/bob-plugins/commit/0fb4b92330bf136f3ec8fc36dde683fbcf242974) | feat(ledger-tools): render task root marks across views | [bob-cli-e2.2](bob-cli-e2.2.md) | 2026-10-28 23:53:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
