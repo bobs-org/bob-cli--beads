@@ -22,7 +22,7 @@ Verified: npm run build; node --test successor picker, cycler offers, wiring, po
 ## Dependencies
 
 - **Depends on:** [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -35,3 +35,15 @@ Verified: npm run build; node --test successor picker, cycler offers, wiring, po
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@acd96d4`](https://github.com/bobs-org/bob-plugins/commit/acd96d453e023ea8a83fa74aaebf26f936a34034) | feat(plugins): carry successor task context and theme intent | [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) | 2026-10-28 23:56:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.7.1.3][1] | Need notes and remaining work | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.3/README.md
+
+<!-- sase:referenced-by:end -->
