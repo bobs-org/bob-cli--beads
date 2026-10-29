@@ -2,7 +2,7 @@
 
 [Bead Pages](../README.md) / [bob-cli-e8](README.md) / bob-cli-e8.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ○ open · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2v.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2v.linker.w0.md) · **Assignee:** `bob-cli-e8.7` · **Size:** medium
 **Created:** 2026-10-29 17:20:22 EDT
 **Plan:** [202610/inline\_task\_mentions.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/inline_task_mentions.md)

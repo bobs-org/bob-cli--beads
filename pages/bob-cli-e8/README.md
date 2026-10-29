@@ -35,8 +35,8 @@ When one task's own text links another task (`[[note#^id]]`, embedded or struck 
 | [bob-cli-e8.4](bob-cli-e8.4.md) | Capture stages mention mirrors in its batch | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e8.5](bob-cli-e8.5.md) | Live mention index and relationIndex v2 | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.6](bob-cli-e8.6.md) | Mention rows, pills, quotes, and jump-to-mention | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e8.7](bob-cli-e8.7.md) | Mention context card and embed-echo suppression | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
-| [bob-cli-e8.8](bob-cli-e8.8.md) | Nav courtesy writes, stage rows, refusals, and counts | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-e8.7](bob-cli-e8.7.md) | Mention context card and embed-echo suppression | ○ open | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-e8.8](bob-cli-e8.8.md) | Nav courtesy writes, stage rows, refusals, and counts | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.9](bob-cli-e8.9.md) | Vault-copy pilot and switch-on | ◐ in_progress | small | 2026-10-29 | 1 | 0 |
 
 ## Lineage
@@ -50,8 +50,8 @@ flowchart TD
     n4["bob-cli-e8.4: Capture stages mention mirrors in its batch [in_progress]"]
     n5["bob-cli-e8.5: Live mention index and relationIndex v2 [closed]"]
     n6["bob-cli-e8.6: Mention rows, pills, quotes, and jump-to-mention [closed]"]
-    n7["bob-cli-e8.7: Mention context card and embed-echo suppression [in_progress]"]
-    n8["bob-cli-e8.8: Nav courtesy writes, stage rows, refusals, and counts [in_progress]"]
+    n7["bob-cli-e8.7: Mention context card and embed-echo suppression [open]"]
+    n8["bob-cli-e8.8: Nav courtesy writes, stage rows, refusals, and counts [closed]"]
     n9["bob-cli-e8.9: Vault-copy pilot and switch-on [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md) | [bob-cli-e8.5](bob-cli-e8.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.6/README.md) | [bob-cli-e8.6](bob-cli-e8.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.7/README.md) | [bob-cli-e8.7](bob-cli-e8.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-e8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md) | [bob-cli-e8.8](bob-cli-e8.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md) | [bob-cli-e8.8](bob-cli-e8.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.9/README.md) | [bob-cli-e8.9](bob-cli-e8.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.land/README.md) | [bob-cli-e8](README.md) | 0 |
 
@@ -97,6 +97,7 @@ flowchart TD
 | bob-cli | [`fe56228`](https://github.com/bobs-org/bob-cli/commit/fe56228f3b15f51867d2fd0a99ea13dd7fe99b2a) | docs(relations): add inert text-mention contract, shared MN vectors, and glossary | [bob-cli-e8.1](bob-cli-e8.1.md) | 2026-10-29 18:09:12 EDT |
 | bob-plugins | [`bob-plugins@13ac4dc`](https://github.com/bobs-org/bob-plugins/commit/13ac4dcc70e66cbf80d7e8c1aa1532e6d37350b3) | feat(ledger-tools): live mention index and relationIndex v2 | [bob-cli-e8.5](bob-cli-e8.5.md) | 2026-10-29 18:41:59 EDT |
 | bob-plugins | [`bob-plugins@d096507`](https://github.com/bobs-org/bob-plugins/commit/d0965076319fadb8d5ab826710e915c54ab99e1d) | feat(ledger-tools): render task mention rows | [bob-cli-e8.6](bob-cli-e8.6.md) | 2026-10-29 19:17:29 EDT |
+| bob-plugins | [`bob-plugins@7366cfd`](https://github.com/bobs-org/bob-plugins/commit/7366cfdd33029d5a6017a70845ed9e096bf0de3b) | feat(navigation): inline task-mention courtesy writes, stage rows, and unlink downgrade | [bob-cli-e8.8](bob-cli-e8.8.md) | 2026-10-29 19:43:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

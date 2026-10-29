@@ -23,7 +23,7 @@ plugin-index: teach bob-ledger-tools' live index the mention rules from the copi
 
 - **Depends on:** [bob-cli-e8.1](bob-cli-e8.1.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.6](bob-cli-e8.6.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e8.8](bob-cli-e8.8.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.8](bob-cli-e8.8.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -44,7 +44,9 @@ plugin-index: teach bob-ledger-tools' live index the mention rules from the copi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e8.5][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-e8.6][2] | Check whether the full-suite theme failures were already reproduced and tracked | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.6/README.md
 
 <!-- sase:referenced-by:end -->
