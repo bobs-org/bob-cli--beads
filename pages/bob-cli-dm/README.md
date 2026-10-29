@@ -65,7 +65,7 @@ flowchart TD
     n19["bob-cli-dm.7: Task Card theme stage and successor retarget [in_progress]"]
     n20["bob-cli-dm.7.1: Task Card theme editing and successor retargeting [in_progress]"]
     n21["bob-cli-dm.7.1.1: Model and display Task Card themes [closed]"]
-    n22["bob-cli-dm.7.1.2: Edit task themes through the Task Card [in_progress]"]
+    n22["bob-cli-dm.7.1.2: Edit task themes through the Task Card [closed]"]
     n23["bob-cli-dm.7.1.3: Carry each successor's context and retarget intent [in_progress]"]
     n24["bob-cli-dm.7.1.4: Remember guarded successor retarget choices [in_progress]"]
     n25["bob-cli-dm.8: Bob Mac Capture renders suggestions and theme changes [closed]"]
@@ -145,7 +145,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md) | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-dm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.7.md) | [bob-cli-dm.7](bob-cli-dm.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.1/README.md) | [bob-cli-dm.7.1.1](bob-cli-dm.7.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dm.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.2/README.md) | [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.2/README.md) | [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.3/README.md) | [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.4/README.md) | [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.land/README.md) | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 0 |
@@ -176,6 +176,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c59819c`](https://github.com/bobs-org/bob-plugins/commit/c59819c573c5a52d97c57d0383ca57771db141c4) | fix(block-id-prompt): refresh catalog knowledge, keep typed Recent, skip unavailable caps | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2026-10-28 22:45:46 EDT |
 | bob-cli--plans | [`bob-cli--plans@f36de39`](https://github.com/bobs-org/bob-cli--plans/commit/f36de3992a232cfe0d698fe3f2b729b5913bd4bd) | chore(plans): mark task-theme picker epic and landing tale done | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2026-10-28 22:48:06 EDT |
 | bob-plugins | [`bob-plugins@14b4fda`](https://github.com/bobs-org/bob-plugins/commit/14b4fdad264afe66a29b3eeddc9b28a1a426fa91) | feat(navigation): project and display Task Card themes | [bob-cli-dm.7.1.1](bob-cli-dm.7.1.1.md) | 2026-10-28 23:06:13 EDT |
+| bob-plugins | [`bob-plugins@1c9e0e1`](https://github.com/bobs-org/bob-plugins/commit/1c9e0e13750457248f1ce282c77b34db348e0283) | feat(navigation): edit task themes through the Task Card | [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) | 2026-10-28 23:32:38 EDT |
 
 <!-- sase:referenced-by:start -->
 

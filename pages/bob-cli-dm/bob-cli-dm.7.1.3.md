@@ -13,7 +13,7 @@ successor-theme-context: carry task identity and full note context into each suc
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

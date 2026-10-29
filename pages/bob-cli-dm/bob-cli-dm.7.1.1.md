@@ -17,7 +17,7 @@ card-theme-model: extract crowded Task Card helpers, add the theme projection an
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -30,3 +30,15 @@ card-theme-model: extract crowded Task Card helpers, add the theme projection an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@14b4fda`](https://github.com/bobs-org/bob-plugins/commit/14b4fdad264afe66a29b3eeddc9b28a1a426fa91) | feat(navigation): project and display Task Card themes | [bob-cli-dm.7.1.1](bob-cli-dm.7.1.1.md) | 2026-10-28 23:06:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.7.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->
