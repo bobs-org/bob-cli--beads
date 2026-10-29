@@ -22,7 +22,7 @@ link-picker: the Ctrl+Shift+Enter picker gets the task, preselects the suggested
 - **Depends on:** [bob-cli-dm.2](bob-cli-dm.2.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dm.3](bob-cli-dm.3.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dm.5](bob-cli-dm.5.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.7](bob-cli-dm.7.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.7](bob-cli-dm.7.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.9](bob-cli-dm.9.md) ✓ · ⧖ 2026-10-28
 
 ## Agents

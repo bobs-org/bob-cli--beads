@@ -35,7 +35,7 @@ Every task-aware Pomodoro menu preselects the theme a task most likely belongs t
 | [bob-cli-dm.4](bob-cli-dm.4.md) | Capture remembers deliberate \`#NAME\` choices | ✓ closed | large | 2026-10-28 | 1 | 1 |
 | [bob-cli-dm.5](bob-cli-dm.5.md) | Ledger Tools mirror, field writer, and task-theme pill | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.6](bob-cli-dm.6.md) | Link to today preselects, explains, and remembers | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [bob-cli-dm.7](bob-cli-dm.7.md) | Task Card theme stage and successor retarget | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [bob-cli-dm.7](bob-cli-dm.7.md) | Task Card theme stage and successor retarget | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.8](bob-cli-dm.8.md) | Bob Mac Capture renders suggestions and theme changes | ✓ closed | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.9](bob-cli-dm.9.md) | Seed the first note defaults in the vault | ✓ closed | xsmall | 2026-10-28 | 1 | 0 |
 
@@ -62,8 +62,8 @@ flowchart TD
     n16["bob-cli-dm.6.1.1: Task-aware picker inputs and shared theme preselection [closed]"]
     n17["bob-cli-dm.6.1.2: Stable selection, explanation, and link-once intent [closed]"]
     n18["bob-cli-dm.6.1.3: Remember deliberate choices in the guarded task edit [closed]"]
-    n19["bob-cli-dm.7: Task Card theme stage and successor retarget [in_progress]"]
-    n20["bob-cli-dm.7.1: Task Card theme editing and successor retargeting [in_progress]"]
+    n19["bob-cli-dm.7: Task Card theme stage and successor retarget [closed]"]
+    n20["bob-cli-dm.7.1: Task Card theme editing and successor retargeting [closed]"]
     n21["bob-cli-dm.7.1.1: Model and display Task Card themes [closed]"]
     n22["bob-cli-dm.7.1.2: Edit task themes through the Task Card [closed]"]
     n23["bob-cli-dm.7.1.3: Carry each successor's context and retarget intent [closed]"]
@@ -148,7 +148,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.2/README.md) | [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.3/README.md) | [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.4/README.md) | [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dm.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.land/README.md) | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.7.1.land.md) | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.9/README.md) | [bob-cli-dm.9](bob-cli-dm.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.land/README.md) | [bob-cli-dm](README.md) | 0 |
@@ -179,6 +179,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@1c9e0e1`](https://github.com/bobs-org/bob-plugins/commit/1c9e0e13750457248f1ce282c77b34db348e0283) | feat(navigation): edit task themes through the Task Card | [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) | 2026-10-28 23:32:38 EDT |
 | bob-plugins | [`bob-plugins@acd96d4`](https://github.com/bobs-org/bob-plugins/commit/acd96d453e023ea8a83fa74aaebf26f936a34034) | feat(plugins): carry successor task context and theme intent | [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) | 2026-10-28 23:56:43 EDT |
 | bob-plugins | [`bob-plugins@21f2a0e`](https://github.com/bobs-org/bob-plugins/commit/21f2a0eb8479cd7fa78673c90acf5144c4891740) | feat(plugins): remember guarded successor retarget themes | [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) | 2026-10-29 00:18:43 EDT |
+| bob-plugins | [`bob-plugins@2e1e881`](https://github.com/bobs-org/bob-plugins/commit/2e1e881d6e03edf33f85b030cccd7016aebb85ae) | feat(navigation): harden Task Card theme editing and successor writes | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 2026-10-29 01:09:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
