@@ -21,7 +21,7 @@ suggest-core: Rust owns the rule. Parse `theme:` note defaults and `[theme:: X]`
 
 - **Blocks:** [bob-cli-dm.2](bob-cli-dm.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.3](bob-cli-dm.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.5](bob-cli-dm.5.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.5](bob-cli-dm.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

@@ -23,7 +23,13 @@ task-theme-rendered: reuse the mark model in Reading view, Tasks, and Dataview r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.3/README.md) | [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.3/README.md) | [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@ae40495`](https://github.com/bobs-org/bob-plugins/commit/ae40495ab5f98a458358dcfb62dffb5be51ccf98) | feat(ledger-tools): render task-theme pills in Reading view and query rows | [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) | 2026-10-28 19:09:07 EDT |
 
 <!-- sase:referenced-by:start -->
 

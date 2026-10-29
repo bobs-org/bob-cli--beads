@@ -19,17 +19,23 @@ capture-write: apply the write rule when a capture names a Pomodoro for a new or
 
 - **Depends on:** [bob-cli-dm.2](bob-cli-dm.2.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dm.3](bob-cli-dm.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.8](bob-cli-dm.8.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.8](bob-cli-dm.8.md) ○ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.9](bob-cli-dm.9.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.4.md) | [bob-cli-dm.4](bob-cli-dm.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.4.md) | [bob-cli-dm.4](bob-cli-dm.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`41cc4ac`](https://github.com/bobs-org/bob-cli/commit/41cc4accb121dbed65747c020f573292d2b50634) | feat(capture): add task-theme capture writes | [bob-cli-dm.4](bob-cli-dm.4.md) | 2026-10-28 19:45:54 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.4--1][1] | Need the approved capture task-theme plan and completion criteria | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.4.md
+
+<!-- sase:referenced-by:end -->

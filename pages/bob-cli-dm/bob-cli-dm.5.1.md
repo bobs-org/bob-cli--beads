@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-dm.5](bob-cli-dm.5.md) / bob-cli-dm.5.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-dm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.5.md) · **Assignee:** `bob-cli-dm.5.1.land`
-**Created:** 2026-10-28 17:46:54 EDT
+**Created:** 2026-10-28 17:46:54 EDT · **Closed:** 2026-10-28 19:57:55 EDT
 **Plan:** [202610/ledger\_task\_theme\_mirror.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/ledger_task_theme_mirror.md)
 
 <!-- sase:links:start -->
@@ -34,11 +34,27 @@ Verification so far: six focused suites (theme API/config/editor/rendered/ref di
 
 [2026-10-28T23:24:52Z · bob-cli-dm.5.1.land] LANDING VERIFICATION UPDATE: The six focused theme/config/editor/rendered/ref-display suites passed, npm run build:check passed, and npm run docs:check completed successfully through all implemented gates (documentation tests: 447 passed, 1 optional font-dependency skip). No production files changed during this audit. No Obsidian executable was found, and no manual app surfaces were inspected. The bounded repair tale passed validation with zero warnings; it includes this epic and dm.5 phase closeout in its coder turn. No just check-full was run.
 
+[2026-10-28T23:57:55Z · bob-cli-dm.5.1.land] Landing repaired the remaining PT13/editor/rendered contract gaps in bob-plugins and closed this child epic plus parent phase bob-cli-dm.5.
+
+Children .1.1–.1.3 were already closed. This landing: valueStart for [theme:: theme] locates the value from ::; canonical daily paths require matching directory/filename years; Live Preview scans every explicit field including spaced/tab delimiters and duplicate repairs; repair tooltips use the raw value; PT13 phrases are `reading tasks suggest READ`, `daily review suggests PLAN`, and `no default here`; exempt/unconfigured hues reuse PT6 muted classes; query pills require origin.path; missing data-line is absent rather than line 1; duplicate native/raw fields share one repair; hover supplies source text via a 32-entry LRU cache and does not cache missing text as `no default here`; themesNotifyChanged and metadata/Today events refresh marks; widget eq includes generation; editor/rendered hover listeners are tracked and removed on destroy/unload; native wrappers drop aria-hidden when the marks gate is off.
+
+Follow-up disposition: no child PROPOSED FOLLOW-UP entries; the historical dm.5.1.2 full-suite freshness timing failure was not independently reproduced (this landing's npm test is 4075/4075). No new task or +1.
+
+Integration: copied bob-cli 74874cb5 tests/fixtures/pomodoro_themes/vectors.json byte-for-byte (includes 8 preselect cases; picker implementation is a later phase). epic-symbols empty for dm.5.1 and dm.5. just symvision recipe unavailable.
+
+Verified: npm run build; npm run docs:gen; npm run build:check; npm test 4075/4075; BOB_CLI_DIR=<this bob-cli checkout> npm run docs:check passed all implemented gates (447 docs tests + 1 optional font skip); bob plugins sync --repo <opened bob-plugins> copied bob-ledger-tools manifest.json, main.js, and styles.css (git pull warning: unstaged landing work, used existing checkout). No manual Obsidian source/Live Preview/Reading/Tasks/Dataview/popout inspection: no Obsidian instance was available.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.5.1.land.md) | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.5.1.land.md) | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@bc245fc`](https://github.com/bobs-org/bob-plugins/commit/bc245fc054c99bfcc0d67f2aa978f9c01a01999b) | fix(ledger-tools): land PT13 task-theme pills across editor and rendered views | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2026-10-28 20:00:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
