@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-e2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.3/README.md) | [bob-cli-e2.3](bob-cli-e2.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-e2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.4/README.md) | [bob-cli-e2.4](bob-cli-e2.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-e2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-e2.5.md) | [bob-cli-e2.5](bob-cli-e2.5.md) | 2 |
-| [bbugyi200.athena.bob-cli-e2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-e2.land.md) | [bob-cli-e2](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-e2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-e2.land.md) | [bob-cli-e2](README.md) | 2 |
 
 ## Commits
 
@@ -96,6 +96,7 @@ flowchart TD
 | bob-cli | [`48da763`](https://github.com/bobs-org/bob-cli/commit/48da7636e7eed1f32161fa039aa99b80b614b015) | docs: regenerate root parent glossary | [bob-cli-e2.5](bob-cli-e2.5.md) | 2026-10-29 01:28:29 EDT |
 | bob-plugins | [`bob-plugins@06cda80`](https://github.com/bobs-org/bob-plugins/commit/06cda805dd71310c46f047ad50c514ede221b51b) | feat(plugins)!: mirror root fields and retire review buckets | [bob-cli-e2.5](bob-cli-e2.5.md) | 2026-10-29 01:30:00 EDT |
 | bob-cli | [`808189c`](https://github.com/bobs-org/bob-cli/commit/808189caa8b338a25dd36dc38ae458fdc026a9c8) | fix(homes): accept spaced root names and keys per R11 | [bob-cli-e2](README.md) | 2026-10-29 02:36:00 EDT |
+| bob-cli--plans | [`bob-cli--plans@e2bc881`](https://github.com/bobs-org/bob-cli--plans/commit/e2bc881d4cc7ea526f666a347ea295f3347e1e2c) | chore(plans): mark task\_root\_fields epic done | [bob-cli-e2](README.md) | 2026-10-29 02:37:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
