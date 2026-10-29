@@ -24,7 +24,13 @@ nav-complete-cue: render the ✓ completes row meta, live sentence, consequence 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-du.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.7/README.md) | [bob-cli-du.7](bob-cli-du.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-du.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.7/README.md) | [bob-cli-du.7](bob-cli-du.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@7f42bb8`](https://github.com/bobs-org/bob-plugins/commit/7f42bb8234fd53e7da609a80cb3b73f67b94a0b0) | feat(navigation): show complete-label cues on the Links stage | [bob-cli-du.7](bob-cli-du.7.md) | 2026-10-28 17:12:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

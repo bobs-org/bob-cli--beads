@@ -21,4 +21,10 @@ rollout: reverse Bryan's 14 implements links with the new rename, add complete_l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.9/README.md) | [bob-cli-du.9](bob-cli-du.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.9.md) | [bob-cli-du.9](bob-cli-du.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@6a7ba18`](https://github.com/bbugyi200/dotfiles/commit/6a7ba1839d82c44a829635d83fab09a5a0f90b6a) | feat(bob): configure complete relation labels | [bob-cli-du.9](bob-cli-du.9.md) | 2026-10-28 21:59:40 EDT |

@@ -24,7 +24,13 @@ mac-complete-cue: generalize the cancel cue into one close-effect presentation, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-du.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.8/README.md) | [bob-cli-du.8](bob-cli-du.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-du.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.8/README.md) | [bob-cli-du.8](bob-cli-du.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@072055d`](https://github.com/bobs-org/bob-mac-capture/commit/072055d01fea3f6e5e212b177f42f540d32f995b) | feat(mac-capture): render bob's complete-label consequences and offers | [bob-cli-du.8](bob-cli-du.8.md) | 2026-10-28 20:48:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
