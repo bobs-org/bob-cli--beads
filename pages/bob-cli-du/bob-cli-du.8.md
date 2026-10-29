@@ -18,7 +18,7 @@ mac-complete-cue: generalize the cancel cue into one close-effect presentation, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-du.3](bob-cli-du.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.9](bob-cli-du.9.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.9](bob-cli-du.9.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

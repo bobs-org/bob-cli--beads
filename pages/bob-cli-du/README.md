@@ -37,7 +37,7 @@ Committing a relation whose label is listed in `relations.complete_labels` (star
 | [bob-cli-du.6](bob-cli-du.6.md) | Obsidian relation writer folds the Done into the source write | ✓ closed | large | 2026-10-28 | 1 | 1 |
 | [bob-cli-du.7](bob-cli-du.7.md) | Obsidian Links stage ✓ indication, mixed batch confirm, hints, and inverse chips | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-du.8](bob-cli-du.8.md) | Bob Mac Capture renders bob's complete consequences and offers | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-du.9](bob-cli-du.9.md) | Migrate implements, turn it on in chezmoi, record memory, and run acceptance | ◐ in_progress | medium | 2026-10-28 | 1 | 1 |
+| [bob-cli-du.9](bob-cli-du.9.md) | Migrate implements, turn it on in chezmoi, record memory, and run acceptance | ✓ closed | medium | 2026-10-28 | 1 | 2 |
 
 ## Lineage
 
@@ -57,7 +57,7 @@ flowchart TD
     n11["bob-cli-du.6: Obsidian relation writer folds the Done into the source write [closed]"]
     n12["bob-cli-du.7: Obsidian Links stage ✓ indication, mixed batch confirm, hints, and inverse chips [closed]"]
     n13["bob-cli-du.8: Bob Mac Capture renders bob's complete consequences and offers [closed]"]
-    n14["bob-cli-du.9: Migrate implements, turn it on in chezmoi, record memory, and run acceptance [in_progress]"]
+    n14["bob-cli-du.9: Migrate implements, turn it on in chezmoi, record memory, and run acceptance [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-du.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.6.md) | [bob-cli-du.6](bob-cli-du.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.7/README.md) | [bob-cli-du.7](bob-cli-du.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-du.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.8/README.md) | [bob-cli-du.8](bob-cli-du.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.9.md) | [bob-cli-du.9](bob-cli-du.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.9.md) | [bob-cli-du.9](bob-cli-du.9.md) | 2 |
 | [bbugyi200.apollo.bob-cli-du.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.land/README.md) | [bob-cli-du](README.md) | 0 |
 
 ## Commits
@@ -125,6 +125,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@072055d`](https://github.com/bobs-org/bob-mac-capture/commit/072055d01fea3f6e5e212b177f42f540d32f995b) | feat(mac-capture): render bob's complete-label consequences and offers | [bob-cli-du.8](bob-cli-du.8.md) | 2026-10-28 20:48:58 EDT |
 | bob-cli | [`cba7c47`](https://github.com/bobs-org/bob-cli/commit/cba7c47dada6b0f409fc2b9c6ad72ecf05e97bb2) | feat(relations): reverse relation-label renames with previewed edge reversal | [bob-cli-du.4](bob-cli-du.4.md) | 2026-10-28 21:28:05 EDT |
 | chezmoi | [`chezmoi@6a7ba18`](https://github.com/bbugyi200/dotfiles/commit/6a7ba1839d82c44a829635d83fab09a5a0f90b6a) | feat(bob): configure complete relation labels | [bob-cli-du.9](bob-cli-du.9.md) | 2026-10-28 21:59:40 EDT |
+| bob-cli | [`7d3ce70`](https://github.com/bobs-org/bob-cli/commit/7d3ce705618cb9be501abda82db15f30dc14e2c0) | docs(relations): mark complete-label nav support shipped | [bob-cli-du.9](bob-cli-du.9.md) | 2026-10-28 22:25:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
