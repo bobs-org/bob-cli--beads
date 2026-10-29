@@ -19,7 +19,7 @@ complete-surfaces: add completes_source flags, the configured overlay, relation_
 
 - **Depends on:** [bob-cli-du.2](bob-cli-du.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.4](bob-cli-du.4.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.8](bob-cli-du.8.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.8](bob-cli-du.8.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -32,3 +32,15 @@ complete-surfaces: add completes_source flags, the configured overlay, relation_
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`387a4fc`](https://github.com/bobs-org/bob-cli/commit/387a4fc2fad35d330754f4fca53dce08a78d7f67) | feat(relations): add complete-label CLI surfaces | [bob-cli-du.3](bob-cli-du.3.md) | 2026-10-28 20:03:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-du.3][1] | Need phase notes and remaining-work evidence before deciding to resume | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-du.3/README.md
+
+<!-- sase:referenced-by:end -->
