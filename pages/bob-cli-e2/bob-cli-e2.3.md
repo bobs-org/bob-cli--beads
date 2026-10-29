@@ -20,7 +20,7 @@ vault-backfill: add [root:: gtd_daily] to the daily template and, per the backfi
 ## Dependencies
 
 - **Depends on:** [bob-cli-e2.1](bob-cli-e2.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-e2.4](bob-cli-e2.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-e2.4](bob-cli-e2.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

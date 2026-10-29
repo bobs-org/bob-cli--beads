@@ -19,7 +19,7 @@ root-field: add the [root:: NOTE] parser, per-block root facts, as-if-residence 
 
 - **Blocks:** [bob-cli-e2.2](bob-cli-e2.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-e2.3](bob-cli-e2.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-e2.4](bob-cli-e2.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-e2.4](bob-cli-e2.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

@@ -14,7 +14,7 @@ plugin-mirror: bring the JS homes mirror and theme suggester to the new contract
 ## Dependencies
 
 - **Depends on:** [bob-cli-e2.2](bob-cli-e2.2.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-e2.4](bob-cli-e2.4.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-e2.4](bob-cli-e2.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
