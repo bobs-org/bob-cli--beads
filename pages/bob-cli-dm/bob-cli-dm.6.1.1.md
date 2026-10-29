@@ -17,7 +17,7 @@ suggestion-model: add task context and the synchronous suggestion snapshot to bo
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -30,3 +30,15 @@ suggestion-model: add task context and the synchronous suggestion snapshot to bo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@97341c4`](https://github.com/bobs-org/bob-plugins/commit/97341c476226586a27c3cf4fa0cf7af12491cd82) | feat(block-id-prompt): add task-aware theme preselection | [bob-cli-dm.6.1.1](bob-cli-dm.6.1.1.md) | 2026-10-28 20:24:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.6.1.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->

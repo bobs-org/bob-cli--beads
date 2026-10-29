@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_theme_suggestions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_theme_suggestions.md
 
@@ -36,7 +36,7 @@ Every task-aware Pomodoro menu preselects the theme a task most likely belongs t
 | [bob-cli-dm.5](bob-cli-dm.5.md) | Ledger Tools mirror, field writer, and task-theme pill | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.6](bob-cli-dm.6.md) | Link to today preselects, explains, and remembers | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.7](bob-cli-dm.7.md) | Task Card theme stage and successor retarget | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
-| [bob-cli-dm.8](bob-cli-dm.8.md) | Bob Mac Capture renders suggestions and theme changes | ○ open | medium | 2026-10-28 | 1 | 0 |
+| [bob-cli-dm.8](bob-cli-dm.8.md) | Bob Mac Capture renders suggestions and theme changes | ✓ closed | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.9](bob-cli-dm.9.md) | Seed the first note defaults in the vault | ◐ in_progress | xsmall | 2026-10-28 | 1 | 0 |
 
 ## Lineage
@@ -60,10 +60,10 @@ flowchart TD
     n14["bob-cli-dm.6: Link to today preselects, explains, and remembers [in_progress]"]
     n15["bob-cli-dm.6.1: Task-aware Link to today picker [in_progress]"]
     n16["bob-cli-dm.6.1.1: Task-aware picker inputs and shared theme preselection [closed]"]
-    n17["bob-cli-dm.6.1.2: Stable selection, explanation, and link-once intent [in_progress]"]
+    n17["bob-cli-dm.6.1.2: Stable selection, explanation, and link-once intent [closed]"]
     n18["bob-cli-dm.6.1.3: Remember deliberate choices in the guarded task edit [in_progress]"]
     n19["bob-cli-dm.7: Task Card theme stage and successor retarget [in_progress]"]
-    n20["bob-cli-dm.8: Bob Mac Capture renders suggestions and theme changes [open]"]
+    n20["bob-cli-dm.8: Bob Mac Capture renders suggestions and theme changes [closed]"]
     n21["bob-cli-dm.9: Seed the first note defaults in the vault [in_progress]"]
     n0 --> n1
     n1 --> n2
@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.5.1.land.md) | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-dm.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.md) | [bob-cli-dm.6](bob-cli-dm.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.1/README.md) | [bob-cli-dm.6.1.1](bob-cli-dm.6.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dm.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.2/README.md) | [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.2/README.md) | [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.3/README.md) | [bob-cli-dm.6.1.3](bob-cli-dm.6.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.land/README.md) | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7/README.md) | [bob-cli-dm.7](bob-cli-dm.7.md) | 0 |
@@ -153,6 +153,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@bc245fc`](https://github.com/bobs-org/bob-plugins/commit/bc245fc054c99bfcc0d67f2aa978f9c01a01999b) | fix(ledger-tools): land PT13 task-theme pills across editor and rendered views | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2026-10-28 20:00:06 EDT |
 | bob-cli--plans | [`bob-cli--plans@236ca9c`](https://github.com/bobs-org/bob-cli--plans/commit/236ca9c3260f970042e05c03569494d4c03ad3b7) | docs(plan): mark ledger task-theme mirror epic done | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2026-10-28 20:01:07 EDT |
 | bob-plugins | [`bob-plugins@97341c4`](https://github.com/bobs-org/bob-plugins/commit/97341c476226586a27c3cf4fa0cf7af12491cd82) | feat(block-id-prompt): add task-aware theme preselection | [bob-cli-dm.6.1.1](bob-cli-dm.6.1.1.md) | 2026-10-28 20:24:34 EDT |
+| bob-plugins | [`bob-plugins@ea583df`](https://github.com/bobs-org/bob-plugins/commit/ea583df02f832d4ea149ed9ad77fc1945ebf4c68) | feat(block-id-prompt): add stable selection, suggestion reasons, and link-once intent | [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) | 2026-10-28 20:59:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -161,7 +162,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dk.land][1] | Check whether the later task-theme epic depends on or overlaps configured themes | 1 |
+| read-by | [agent:bob-cli-dm.8][2] | Need epic DECISIONS and plan context for phase dm.8 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dk.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md
 
 <!-- sase:referenced-by:end -->

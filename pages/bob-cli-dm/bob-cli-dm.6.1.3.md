@@ -13,7 +13,7 @@ guarded-theme-write: revalidate the shown suggestion, apply the shared field wri
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
