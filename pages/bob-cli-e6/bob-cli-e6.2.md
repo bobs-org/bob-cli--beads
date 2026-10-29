@@ -18,7 +18,7 @@ storage: read [type::] and task_type: as canonical and the theme spellings as le
 ## Dependencies
 
 - **Depends on:** [bob-cli-e6.1](bob-cli-e6.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.3](bob-cli-e6.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.3](bob-cli-e6.3.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.4](bob-cli-e6.4.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
