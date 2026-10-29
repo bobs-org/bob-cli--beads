@@ -17,7 +17,7 @@ vocab: move the themes contract to docs/task-types.md with a redirect, make bob 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e6.2](bob-cli-e6.2.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.2](bob-cli-e6.2.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -30,3 +30,15 @@ vocab: move the themes contract to docs/task-types.md with a redirect, make bob 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d0603a5`](https://github.com/bobs-org/bob-cli/commit/d0603a5d5180ff7e1fdbc5bddbef180c89647ed5) | feat(types): rename bob themes to bob types and adopt task-type words | [bob-cli-e6.1](bob-cli-e6.1.md) | 2026-10-29 17:01:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e6.1--2][1] | Verify the vocabulary phase closed after successful checks | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.1.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_types.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md
 
 <!-- sase:links:end -->
@@ -22,6 +24,10 @@
 ## Description
 
 Every open task has one computed task type (field, reading rule, note default, then plan.default_type, CHORE for Bryan). Every live Task Link agrees with its task's type: type edits move links, link moves and named captures retype tasks, and Bob places new links by type. Explicit types render as a colored #TYPE in place of the #task glyph. The words "theme" and "Pomodoro theme" become "task type" everywhere a person reads them.
+
+## Notes
+
+[2026-10-29T21:36:54Z · bob-cli-e7.1--1] DISCOVERED ISSUE: HEAD d0603a5d (bob-cli-e6.1 types wording) leaves 7 bob-obsidian CLI tests expecting "themes" / catalog path ["themes","split"]: capture::plan_budget::{capture_plan_budget_human_reports_meter_and_destination,capture_plan_budget_warns_when_new_theme_grows_past_cap,capture_strict_mode_refuses_new_theme_past_cap_atomically}, capture::pomodoro_close_selection::capture_pomodoro_close_selection_human_output, capture::task_complete::exact_human_output_for_strike_move_dedupe_and_done, catalog::protocol_1_parses_with_schema_version_one (id themes-split still asserted at path ["themes","split"] while table.rs path is ["types","split"]), plan::plan_reports_human_budget_without_ansi_when_piped. Reproduced identically on clean HEAD with capture_plan_budget_human_reports_meter_and_destination: actual "plan 4/3 types · 4/10 links  (+1 type: NEWT)". just check then fails `-p bob-obsidian --test cli` exit 101. Later e6.16 vectors cleanup is the likely owner.
 
 ## Phases
 
@@ -35,7 +41,7 @@ Every open task has one computed task type (field, reading rule, note default, t
 | [bob-cli-e6.14](bob-cli-e6.14.md) | Note moves and Pomodoro renames keep agreement | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.15](bob-cli-e6.15.md) | Bob Mac Capture type copy | ◐ in_progress | small | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.16](bob-cli-e6.16.md) | Memory, config spelling, vectors cleanup, and acceptance | ◐ in_progress | small | 2026-10-29 | 1 | 0 |
-| [bob-cli-e6.2](bob-cli-e6.2.md) | \[type::\] task fields and task\_type: note defaults | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-e6.2](bob-cli-e6.2.md) | \[type::\] task fields and task\_type: note defaults | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.3](bob-cli-e6.3.md) | bob types migrate | ◐ in_progress | small | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.4](bob-cli-e6.4.md) | plan.default\_type and canonical types config | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.5](bob-cli-e6.5.md) | Rust routing planners and the type\_mismatch lint | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
@@ -57,7 +63,7 @@ flowchart TD
     n6["bob-cli-e6.14: Note moves and Pomodoro renames keep agreement [in_progress]"]
     n7["bob-cli-e6.15: Bob Mac Capture type copy [in_progress]"]
     n8["bob-cli-e6.16: Memory, config spelling, vectors cleanup, and acceptance [in_progress]"]
-    n9["bob-cli-e6.2: [type::] task fields and task_type: note defaults [in_progress]"]
+    n9["bob-cli-e6.2: [type::] task fields and task_type: note defaults [closed]"]
     n10["bob-cli-e6.3: bob types migrate [in_progress]"]
     n11["bob-cli-e6.4: plan.default_type and canonical types config [in_progress]"]
     n12["bob-cli-e6.5: Rust routing planners and the type_mismatch lint [in_progress]"]
@@ -118,7 +124,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e6.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md) | [bob-cli-e6.14](bob-cli-e6.14.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.15/README.md) | [bob-cli-e6.15](bob-cli-e6.15.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.16](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.16/README.md) | [bob-cli-e6.16](bob-cli-e6.16.md) | 0 |
-| [bbugyi200.apollo.bob-cli-e6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md) | [bob-cli-e6.2](bob-cli-e6.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md) | [bob-cli-e6.2](bob-cli-e6.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.3/README.md) | [bob-cli-e6.3](bob-cli-e6.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.4/README.md) | [bob-cli-e6.4](bob-cli-e6.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.5/README.md) | [bob-cli-e6.5](bob-cli-e6.5.md) | 0 |
@@ -133,3 +139,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d0603a5`](https://github.com/bobs-org/bob-cli/commit/d0603a5d5180ff7e1fdbc5bddbef180c89647ed5) | feat(types): rename bob themes to bob types and adopt task-type words | [bob-cli-e6.1](bob-cli-e6.1.md) | 2026-10-29 17:01:18 EDT |
+| bob-cli | [`8d7309f`](https://github.com/bobs-org/bob-cli/commit/8d7309ffb8e104fd550ee7bc5665105de4538b7a) | feat(types): store task types as \[type::\] and task\_type: with legacy theme reads | [bob-cli-e6.2](bob-cli-e6.2.md) | 2026-10-29 17:52:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e7.1--1][1] | Need the epic scope for themes-to-types CLI test drift | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.1.md
+
+<!-- sase:referenced-by:end -->
