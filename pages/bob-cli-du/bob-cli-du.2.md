@@ -18,7 +18,7 @@ complete-capture: parse complete_labels with the both-lists rule, add the comple
 ## Dependencies
 
 - **Depends on:** [bob-cli-du.1](bob-cli-du.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-du.3](bob-cli-du.3.md) ○ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-du.3](bob-cli-du.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

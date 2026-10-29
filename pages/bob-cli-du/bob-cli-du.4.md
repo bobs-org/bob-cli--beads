@@ -13,7 +13,7 @@ reverse-rename: add -r/--reverse to bob relations rename so S OLD T becomes T NE
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-du.3](bob-cli-du.3.md) ○ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-du.3](bob-cli-du.3.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-du.9](bob-cli-du.9.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
