@@ -13,7 +13,7 @@ plugin-rows: render mention entries in Live Preview and Reading view with groupi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-e8.5](bob-cli-e8.5.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e8.5](bob-cli-e8.5.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.7](bob-cli-e8.7.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

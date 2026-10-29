@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/inline_task_mentions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/inline_task_mentions.md
 
 <!-- sase:links:end -->
@@ -31,7 +33,7 @@ When one task's own text links another task (`[[note#^id]]`, embedded or struck 
 | [bob-cli-e8.2](bob-cli-e8.2.md) | Rust mention scanner, reserved label, and writer guards | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e8.3](bob-cli-e8.3.md) | Reconcile projects mentions onto LINKED FROM | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e8.4](bob-cli-e8.4.md) | Capture stages mention mirrors in its batch | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
-| [bob-cli-e8.5](bob-cli-e8.5.md) | Live mention index and relationIndex v2 | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-e8.5](bob-cli-e8.5.md) | Live mention index and relationIndex v2 | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.6](bob-cli-e8.6.md) | Mention rows, pills, quotes, and jump-to-mention | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e8.7](bob-cli-e8.7.md) | Mention context card and embed-echo suppression | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e8.8](bob-cli-e8.8.md) | Nav courtesy writes, stage rows, refusals, and counts | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
@@ -46,7 +48,7 @@ flowchart TD
     n2["bob-cli-e8.2: Rust mention scanner, reserved label, and writer guards [in_progress]"]
     n3["bob-cli-e8.3: Reconcile projects mentions onto LINKED FROM [in_progress]"]
     n4["bob-cli-e8.4: Capture stages mention mirrors in its batch [in_progress]"]
-    n5["bob-cli-e8.5: Live mention index and relationIndex v2 [in_progress]"]
+    n5["bob-cli-e8.5: Live mention index and relationIndex v2 [closed]"]
     n6["bob-cli-e8.6: Mention rows, pills, quotes, and jump-to-mention [in_progress]"]
     n7["bob-cli-e8.7: Mention context card and embed-echo suppression [in_progress]"]
     n8["bob-cli-e8.8: Nav courtesy writes, stage rows, refusals, and counts [in_progress]"]
@@ -78,10 +80,10 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-e8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.1/README.md) | [bob-cli-e8.1](bob-cli-e8.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.2/README.md) | [bob-cli-e8.2](bob-cli-e8.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.2.md) | [bob-cli-e8.2](bob-cli-e8.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.3/README.md) | [bob-cli-e8.3](bob-cli-e8.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.4/README.md) | [bob-cli-e8.4](bob-cli-e8.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-e8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md) | [bob-cli-e8.5](bob-cli-e8.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md) | [bob-cli-e8.5](bob-cli-e8.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.6/README.md) | [bob-cli-e8.6](bob-cli-e8.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.7/README.md) | [bob-cli-e8.7](bob-cli-e8.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md) | [bob-cli-e8.8](bob-cli-e8.8.md) | 0 |
@@ -93,3 +95,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fe56228`](https://github.com/bobs-org/bob-cli/commit/fe56228f3b15f51867d2fd0a99ea13dd7fe99b2a) | docs(relations): add inert text-mention contract, shared MN vectors, and glossary | [bob-cli-e8.1](bob-cli-e8.1.md) | 2026-10-29 18:09:12 EDT |
+| bob-plugins | [`bob-plugins@13ac4dc`](https://github.com/bobs-org/bob-plugins/commit/13ac4dcc70e66cbf80d7e8c1aa1532e6d37350b3) | feat(ledger-tools): live mention index and relationIndex v2 | [bob-cli-e8.5](bob-cli-e8.5.md) | 2026-10-29 18:41:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e8.1][1] | Need parent epic scope, notes, and remaining work from earlier agents | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.1/README.md
+
+<!-- sase:referenced-by:end -->

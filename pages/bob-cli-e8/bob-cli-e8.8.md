@@ -13,7 +13,7 @@ plugin-nav: write mention mirrors when the cursor leaves an edited line, show me
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-e8.5](bob-cli-e8.5.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e8.5](bob-cli-e8.5.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

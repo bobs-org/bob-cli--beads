@@ -20,4 +20,4 @@ cli-core: add task_relations/mentions.rs driven by the shared vectors, reserve ð
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-e8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.2/README.md) | [bob-cli-e8.2](bob-cli-e8.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.2.md) | [bob-cli-e8.2](bob-cli-e8.2.md) | 0 |
