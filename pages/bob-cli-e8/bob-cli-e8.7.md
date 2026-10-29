@@ -13,7 +13,7 @@ plugin-card: add the accessible why-is-this-here card on each mention pill and h
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-e8.6](bob-cli-e8.6.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e8.6](bob-cli-e8.6.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

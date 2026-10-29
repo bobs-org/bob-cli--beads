@@ -39,7 +39,9 @@ contract: write task-relations §19 plus the amended sections, the shared MN vec
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e8.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-e8.5][2] | Check contract phase outputs | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md
 
 <!-- sase:referenced-by:end -->

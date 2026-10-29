@@ -22,7 +22,7 @@ plugin-index: teach bob-ledger-tools' live index the mention rules from the copi
 ## Dependencies
 
 - **Depends on:** [bob-cli-e8.1](bob-cli-e8.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e8.6](bob-cli-e8.6.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.6](bob-cli-e8.6.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.8](bob-cli-e8.8.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
@@ -36,3 +36,15 @@ plugin-index: teach bob-ledger-tools' live index the mention rules from the copi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@13ac4dc`](https://github.com/bobs-org/bob-plugins/commit/13ac4dcc70e66cbf80d7e8c1aa1532e6d37350b3) | feat(ledger-tools): live mention index and relationIndex v2 | [bob-cli-e8.5](bob-cli-e8.5.md) | 2026-10-29 18:41:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e8.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md
+
+<!-- sase:referenced-by:end -->
