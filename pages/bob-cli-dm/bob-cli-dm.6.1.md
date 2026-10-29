@@ -35,13 +35,14 @@ Complete bob-cli-dm.6 so the picker preselects and explains a suggested theme, r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md) | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dm.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md) | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@c59819c`](https://github.com/bobs-org/bob-plugins/commit/c59819c573c5a52d97c57d0383ca57771db141c4) | fix(block-id-prompt): refresh catalog knowledge, keep typed Recent, skip unavailable caps | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2026-10-28 22:45:46 EDT |
+| bob-cli--plans | [`bob-cli--plans@f36de39`](https://github.com/bobs-org/bob-cli--plans/commit/f36de3992a232cfe0d698fe3f2b729b5913bd4bd) | chore(plans): mark task-theme picker epic and landing tale done | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2026-10-28 22:48:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
