@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-dm
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2s.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2s.linker.w0.md) · **Assignee:** `bob-cli-dm.land`
-**Created:** 2026-10-28 08:45:53 EDT
+**Created:** 2026-10-28 08:45:53 EDT · **Closed:** 2026-10-29 01:33:44 EDT
 **Plan:** [202610/task\_theme\_suggestions.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_theme_suggestions.md)
 
 <!-- sase:links:start -->
@@ -14,16 +14,73 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_theme_suggestions.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-e3][2] | Epic that shipped the PT13 suggestion rule and seeded the defaults this task retunes |
 
 _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_theme_suggestions.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-e3/README.md
 
 <!-- sase:links:end -->
 
 ## Description
 
 Every task-aware Pomodoro menu preselects the theme a task most likely belongs to, says why in the same words on every surface, and remembers deliberate exceptions as a `[theme:: X]` field on the task line. One Rust-owned rule drives bob-cli, the Obsidian plugins mirror it under shared vectors, and Bob Mac Capture renders bob's JSON.
+
+## Notes
+
+[2026-10-29T05:33:13Z · bob-cli-dm.land] FOLLOW-UP TRIAGE (land): (1) dm.9 #1 PROPOSED FOLLOW-UP (two-week task-theme ledger replay/retune, theme_default_drift hint) had no duplicate and no causal active epic. Filed feature task bob-cli-e3 (large; related links to dm and e2), marked ready and snoozed until 2026-11-12. (2) dm.7.1.3 #1 and dm.7.1.4 #1 (generated glossary.md drift) were already routed by dm.7.1.land to active epic bob-cli-e2. Re-verified that it still reproduces at 511c7ad7 and is the only failing docs-check gate, then appended corroboration to that e2 note. No new task. (3) Discovered: bob-mac-capture macOS CI still fails CaptureRelationPanelTests.testRefusedCancelRowsUseLabelKeysAndKeepTheReasonVisible on 5726b4f and 072055d, which is not epic-caused (introduced by c8c4366). That duplicates bob-cli-dz, so recorded a +1. (4) Discovered: e2.4's retire-review left 'daily review' consumer branches and copy that dm phases added in nav 313, block-id-prompt 077/085 and docs, ledger marks/suggest, and Mac presentation. Caused by and owned by active epic bob-cli-e2 (e2.5 plugin-mirror), so recorded a DISCOVERED ISSUE note on bob-cli-e2. No new task. No proposal was declined.
+
+[2026-10-29T05:33:44Z · bob-cli-dm.land] LANDED bob-cli-dm.
+
+VERIFY. Re-read the epic, its 9 phases, the nested epics dm.1.1, dm.5.1, dm.6.1, and dm.7.1, all
+13 grandchild phases, and every note. Audited the source:
+- bob-cli commits a1b8766b, 9409bfa5, c6243477, fc594281, 13b24303, ac13ab54, 41cc4acc;
+- bob-plugins commits 25d864e through 2e1e881;
+- bob-mac-capture commit 5726b4f.
+
+All commits are committed and pushed, and every tree matches its origin.
+
+Decisions honored:
+- ledger_theme_pills=yes: setupPomodoroThemeChips() runs from onload.
+- seed_plex_chore=yes: the vault has theme: frontmatter on dev BUILD, love CHORE, job WRITE,
+  sase_blog WRITE, job_2026 CHORE, and dev_plex_hack_patch CHORE. fun.md is untouched.
+- memory_decision_record=no and memory_glossary_term=no: no epic commit touched sase/memory,
+  Cargo.toml, or CHANGELOG.
+
+Checks on bob-cli 511c7ad7:
+- just check exited 0: 6506 passed, 0 failed, 1 ignored.
+- bob-plugins npm test passed 4203/4203, and build:check is clean.
+- Live read-only smoke: `bob themes suggest bob` gives BUILD from dev; sase_blog gives WRITE;
+  `bob themes list` shows no theme_default_unknown hint.
+- capture-complete @sase_blog:# marks WRITE as suggested ('from sase_blog').
+- capture --dry-run with #FIX would set [theme:: FIX] before [created::]; #WRITE would write
+  no field. The vault stayed clean.
+- Mac CI on 5726b4f ran 3282 macOS tests with one failure, the pre-existing c8c4366
+  relation-cancel assertion (bob-cli-dz). This covers dm.8's earlier unverified macOS-only
+  targets.
+- just docs-check fails only on generated glossary.md drift from e2.2's 8b4d1b89. With it
+  temporarily regenerated, every gate passed (447 passed, 1 skipped); the change was reverted
+  and routed to bob-cli-e2.
+
+INTEGRATE:
+- The [root::] commit 818b8755 already walks theme defaults from the root note, and its
+  vectors and preservation are covered.
+- The retire-review commit 511c7ad7 removed the Rust review step. The plugin and Mac consumer
+  leftovers belong to e2.5 and were recorded on bob-cli-e2.
+- a9066b8's exempt gray pill reuses the PT6 muted class, so the task-theme pill inherits it.
+- 687375eb, 0fb4b92, and 74874cb5 need no change.
+
+Repaired one deploy gap. bob-navigation-hotkeys was stuck on dm.7.1.1's dirty interim build
+from bob-cli_14 at c59819c. That checkout is now clean at 14b4fda, an ancestor of 2e1e881, so
+the deploy was synced with -F from clean 2e1e881 (backup 20261029-012603) and now reports
+synced. bob-ledger-tools drift comes from e2.2's root marks and is left to e2.5.
+
+Follow-ups: dm.9's retune became bob-cli-e3 (snoozed until 2026-11-12); bob-cli-dz got a +1;
+two DISCOVERED ISSUE notes went to bob-cli-e2.
+
+epic-symbols: none. The justfile has no symvision recipe. Obsidian desktop UI was not manually
+checked; no desktop session was available.
 
 ## Phases
 
@@ -36,14 +93,14 @@ Every task-aware Pomodoro menu preselects the theme a task most likely belongs t
 | [bob-cli-dm.5](bob-cli-dm.5.md) | Ledger Tools mirror, field writer, and task-theme pill | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.6](bob-cli-dm.6.md) | Link to today preselects, explains, and remembers | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.7](bob-cli-dm.7.md) | Task Card theme stage and successor retarget | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [bob-cli-dm.8](bob-cli-dm.8.md) | Bob Mac Capture renders suggestions and theme changes | ✓ closed | medium | 2026-10-28 | 1 | 0 |
+| [bob-cli-dm.8](bob-cli-dm.8.md) | Bob Mac Capture renders suggestions and theme changes | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dm.9](bob-cli-dm.9.md) | Seed the first note defaults in the vault | ✓ closed | xsmall | 2026-10-28 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-dm: Task theme suggestions: suggest, explain, remember [in_progress]"]
+    n0["bob-cli-dm: Task theme suggestions: suggest, explain, remember [closed]"]
     n1["bob-cli-dm.1: bob-cli suggestion rule, task field, and `bob themes suggest` [closed]"]
     n2["bob-cli-dm.1.1: Rust task theme suggestions and canonical task fields [closed]"]
     n3["bob-cli-dm.1.1.1: Implement task theme rules and shared vectors [closed]"]
@@ -149,9 +206,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.3/README.md) | [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.4/README.md) | [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.7.1.land.md) | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.9/README.md) | [bob-cli-dm.9](bob-cli-dm.9.md) | 0 |
-| [bbugyi200.apollo.bob-cli-dm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.land/README.md) | [bob-cli-dm](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.land/README.md) | [bob-cli-dm](README.md) | 1 |
 
 ## Commits
 
@@ -171,6 +228,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@bc245fc`](https://github.com/bobs-org/bob-plugins/commit/bc245fc054c99bfcc0d67f2aa978f9c01a01999b) | fix(ledger-tools): land PT13 task-theme pills across editor and rendered views | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2026-10-28 20:00:06 EDT |
 | bob-cli--plans | [`bob-cli--plans@236ca9c`](https://github.com/bobs-org/bob-cli--plans/commit/236ca9c3260f970042e05c03569494d4c03ad3b7) | docs(plan): mark ledger task-theme mirror epic done | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2026-10-28 20:01:07 EDT |
 | bob-plugins | [`bob-plugins@97341c4`](https://github.com/bobs-org/bob-plugins/commit/97341c476226586a27c3cf4fa0cf7af12491cd82) | feat(block-id-prompt): add task-aware theme preselection | [bob-cli-dm.6.1.1](bob-cli-dm.6.1.1.md) | 2026-10-28 20:24:34 EDT |
+| bob-mac-capture | [`bob-mac-capture@5726b4f`](https://github.com/bobs-org/bob-mac-capture/commit/5726b4f04e3c4035fb48aa91170ffff043cba389) | feat(mac-capture): render task-theme suggestions and theme changes | [bob-cli-dm.8](bob-cli-dm.8.md) | 2026-10-28 20:25:24 EDT |
 | bob-plugins | [`bob-plugins@ea583df`](https://github.com/bobs-org/bob-plugins/commit/ea583df02f832d4ea149ed9ad77fc1945ebf4c68) | feat(block-id-prompt): add stable selection, suggestion reasons, and link-once intent | [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) | 2026-10-28 20:59:35 EDT |
 | bob-plugins | [`bob-plugins@0f74920`](https://github.com/bobs-org/bob-plugins/commit/0f74920a8f00cd0bd1f140b5a5697ccab03cc0bb) | feat(block-id-prompt): remember deliberate theme choices on guarded task edit | [bob-cli-dm.6.1.3](bob-cli-dm.6.1.3.md) | 2026-10-28 21:27:26 EDT |
 | bob-plugins | [`bob-plugins@c59819c`](https://github.com/bobs-org/bob-plugins/commit/c59819c573c5a52d97c57d0383ca57771db141c4) | fix(block-id-prompt): refresh catalog knowledge, keep typed Recent, skip unavailable caps | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2026-10-28 22:45:46 EDT |
@@ -181,6 +239,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@21f2a0e`](https://github.com/bobs-org/bob-plugins/commit/21f2a0eb8479cd7fa78673c90acf5144c4891740) | feat(plugins): remember guarded successor retarget themes | [bob-cli-dm.7.1.4](bob-cli-dm.7.1.4.md) | 2026-10-29 00:18:43 EDT |
 | bob-plugins | [`bob-plugins@2e1e881`](https://github.com/bobs-org/bob-plugins/commit/2e1e881d6e03edf33f85b030cccd7016aebb85ae) | feat(navigation): harden Task Card theme editing and successor writes | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 2026-10-29 01:09:11 EDT |
 | bob-cli--plans | [`bob-cli--plans@3fa1625`](https://github.com/bobs-org/bob-cli--plans/commit/3fa16255a1e2995fc8eac38a51c7e4e9321cd51b) | docs(plans): mark completed Task Card theme plan done | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 2026-10-29 01:10:08 EDT |
+| bob-cli--plans | [`bob-cli--plans@116e454`](https://github.com/bobs-org/bob-cli--plans/commit/116e454db782e1935f7e0d3e3f71cdbb90877a25) | chore(plans): mark task theme suggestions epic plan done | [bob-cli-dm](README.md) | 2026-10-29 01:34:39 EDT |
 
 <!-- sase:referenced-by:start -->
 

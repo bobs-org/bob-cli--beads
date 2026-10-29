@@ -25,7 +25,13 @@ mac-capture: decode the additive fields, preselect the suggested Pomodoro-name r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@5726b4f`](https://github.com/bobs-org/bob-mac-capture/commit/5726b4f04e3c4035fb48aa91170ffff043cba389) | feat(mac-capture): render task-theme suggestions and theme changes | [bob-cli-dm.8](bob-cli-dm.8.md) | 2026-10-28 20:25:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
