@@ -19,7 +19,7 @@ bob-contract: in bob-cli, detect the `((query` field, serve the vault-wide `wiki
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e7.3](bob-cli-e7.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e7.3](bob-cli-e7.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -32,3 +32,15 @@ bob-contract: in bob-cli, detect the `((query` field, serve the vault-wide `wiki
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`53bf3df`](https://github.com/bobs-org/bob-cli/commit/53bf3dfaddc8d30aec4a0dd539dd1d3d281d2e9d) | feat(capture): add wikilink\_task (( completion contract | [bob-cli-e7.2](bob-cli-e7.2.md) | 2026-10-29 18:09:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e7.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.2.md
+
+<!-- sase:referenced-by:end -->

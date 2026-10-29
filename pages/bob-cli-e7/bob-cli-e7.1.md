@@ -19,7 +19,7 @@ id-suggestions: in bob-cli, make the shared block-ID suggestion generator ignore
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e7.3](bob-cli-e7.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e7.3](bob-cli-e7.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

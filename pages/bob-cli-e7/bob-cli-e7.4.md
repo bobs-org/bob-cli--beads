@@ -13,7 +13,7 @@ mac-design-docs: in bob-mac-capture, render light/dark design fixtures of the ca
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-e7.3](bob-cli-e7.3.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e7.3](bob-cli-e7.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
