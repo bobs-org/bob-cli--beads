@@ -37,13 +37,14 @@ Task Cards explain and edit task themes, and deliberate successor retargets reme
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.7.1.land.md) | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dm.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.7.1.land.md) | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2e1e881`](https://github.com/bobs-org/bob-plugins/commit/2e1e881d6e03edf33f85b030cccd7016aebb85ae) | feat(navigation): harden Task Card theme editing and successor writes | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 2026-10-29 01:09:11 EDT |
+| bob-cli--plans | [`bob-cli--plans@3fa1625`](https://github.com/bobs-org/bob-cli--plans/commit/3fa16255a1e2995fc8eac38a51c7e4e9321cd51b) | docs(plans): mark completed Task Card theme plan done | [bob-cli-dm.7.1](bob-cli-dm.7.1.md) | 2026-10-29 01:10:08 EDT |
 
 <!-- sase:referenced-by:start -->
 
