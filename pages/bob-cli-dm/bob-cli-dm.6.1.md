@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_theme_link_picker.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_theme_link_picker.md
 
@@ -52,8 +52,10 @@ Complete bob-cli-dm.6 so the picker preselects and explains a suggested theme, r
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dm.6.1.2][1] | Need epic decisions | 1 |
 | read-by | [agent:bob-cli-dm.6.1.3][2] | Need epic DECISIONS and full phase list for 6.1 | 1 |
+| read-by | [agent:bob-cli-dm.6.1.land--3][3] | Need the parent link after child epic close | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md
 
 <!-- sase:referenced-by:end -->

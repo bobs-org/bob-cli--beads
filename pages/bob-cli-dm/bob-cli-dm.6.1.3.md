@@ -38,7 +38,9 @@ guarded-theme-write: revalidate the shown suggestion, apply the shared field wri
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dm.6.1.3][1] | Need full phase details, notes, and design | 3 |
+| read-by | [agent:bob-cli-dm.6.1.land--3][2] | Need child phase 3 notes and close state before dm.6.1 closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md
 
 <!-- sase:referenced-by:end -->

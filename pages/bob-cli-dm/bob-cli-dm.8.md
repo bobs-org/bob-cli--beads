@@ -19,7 +19,7 @@ mac-capture: decode the additive fields, preselect the suggested Pomodoro-name r
 
 - **Depends on:** [bob-cli-dm.2](bob-cli-dm.2.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dm.4](bob-cli-dm.4.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.9](bob-cli-dm.9.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.9](bob-cli-dm.9.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

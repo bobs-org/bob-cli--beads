@@ -39,7 +39,9 @@ picker-intent: preserve selection by key across asynchronous refreshes, render s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dm.6.1.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-dm.6.1.land--3][2] | Need child phase 2 notes and close state before dm.6.1 closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md
 
 <!-- sase:referenced-by:end -->

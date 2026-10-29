@@ -23,7 +23,7 @@ link-picker: the Ctrl+Shift+Enter picker gets the task, preselects the suggested
 - **Depends on:** [bob-cli-dm.3](bob-cli-dm.3.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [bob-cli-dm.5](bob-cli-dm.5.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-dm.7](bob-cli-dm.7.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.9](bob-cli-dm.9.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.9](bob-cli-dm.9.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -39,8 +39,10 @@ link-picker: the Ctrl+Shift+Enter picker gets the task, preselects the suggested
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-dm.6.1.1][1] | Need phase scope and final decisions | 1 |
 | read-by | [agent:bob-cli-dm.6.1.3][2] | Need phase scope and final decisions | 1 |
+| read-by | [agent:bob-cli-dm.6.1.land--3][3] | Need parent notes and descendant completeness immediately before close | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md
 
 <!-- sase:referenced-by:end -->
