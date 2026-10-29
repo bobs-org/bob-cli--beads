@@ -14,7 +14,7 @@ mac-picker: in bob-mac-capture, add the `.wikilinkTask` picker source that decod
 ## Dependencies
 
 - **Depends on:** [bob-cli-e7.1](bob-cli-e7.1.md) ✓ · ⧖ 2026-10-29
-- **Depends on:** [bob-cli-e7.2](bob-cli-e7.2.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e7.2](bob-cli-e7.2.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e7.4](bob-cli-e7.4.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

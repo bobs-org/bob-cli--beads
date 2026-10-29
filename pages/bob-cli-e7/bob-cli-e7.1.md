@@ -32,3 +32,15 @@ id-suggestions: in bob-cli, make the shared block-ID suggestion generator ignore
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`30e093a`](https://github.com/bobs-org/bob-cli/commit/30e093ac9f8742c39575de476a7a9cf23b927602) | fix(capture): skip URLs in block-ID suggestions | [bob-cli-e7.1](bob-cli-e7.1.md) | 2026-10-29 17:41:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e7.1--1][1] | Need notes for remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.1.md
+
+<!-- sase:referenced-by:end -->
