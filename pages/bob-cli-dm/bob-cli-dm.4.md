@@ -26,7 +26,13 @@ capture-write: apply the write rule when a capture names a Pomodoro for a new or
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-dm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.4.md) | [bob-cli-dm.4](bob-cli-dm.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.4.md) | [bob-cli-dm.4](bob-cli-dm.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`41cc4ac`](https://github.com/bobs-org/bob-cli/commit/41cc4accb121dbed65747c020f573292d2b50634) | feat(capture): add task-theme capture writes | [bob-cli-dm.4](bob-cli-dm.4.md) | 2026-10-28 19:45:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
