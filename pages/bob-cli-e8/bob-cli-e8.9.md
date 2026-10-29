@@ -15,7 +15,7 @@ enable: pilot the full feature on a copy of the vault, then flip linked_from_men
 
 - **Depends on:** [bob-cli-e8.3](bob-cli-e8.3.md) ◐ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e8.4](bob-cli-e8.4.md) ◐ · ⧖ 2026-10-29
-- **Depends on:** [bob-cli-e8.7](bob-cli-e8.7.md) ○ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e8.7](bob-cli-e8.7.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e8.8](bob-cli-e8.8.md) ✓ · ⧖ 2026-10-29
 
 ## Agents

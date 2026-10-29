@@ -24,7 +24,7 @@ Reading view equivalent is covered by test "Reading view groups mention rows, re
 ## Dependencies
 
 - **Depends on:** [bob-cli-e8.5](bob-cli-e8.5.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e8.7](bob-cli-e8.7.md) ○ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.7](bob-cli-e8.7.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

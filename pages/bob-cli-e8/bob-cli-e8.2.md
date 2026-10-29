@@ -11,6 +11,10 @@
 
 cli-core: add task_relations/mentions.rs driven by the shared vectors, reserve 💬 labels in every parser and authored writer, and stop relations reverse from dropping mention entries.
 
+## Notes
+
+[2026-10-29T23:49:41Z · bob-cli-e8.2--5] PROPOSED FOLLOW-UP: Clean base commit 53bf3dfa reproduces the same 12 unrelated cargo test --test cli failures seen in just check: capture plan-budget (3), pomodoro close selection, task-complete human output, task-theme writes (4), catalog protocol 1, plan human budget, and ref-library today. Keep this phase scoped to mention work; repair those baseline failures separately.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-e8.1](bob-cli-e8.1.md) ✓ · ⧖ 2026-10-29
