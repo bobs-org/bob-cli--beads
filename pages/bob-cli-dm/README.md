@@ -114,7 +114,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.1/README.md) | [bob-cli-dm.5.1.1](bob-cli-dm.5.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.2/README.md) | [bob-cli-dm.5.1.2](bob-cli-dm.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.5.1.3/README.md) | [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dm.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.5.1.land.md) | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-dm.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.5.1.land.md) | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-dm.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6/README.md) | [bob-cli-dm.6](bob-cli-dm.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7/README.md) | [bob-cli-dm.7](bob-cli-dm.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 0 |
@@ -136,6 +136,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@4721a74`](https://github.com/bobs-org/bob-plugins/commit/4721a74dee66a36279cc6032bf6f5fa708650064) | feat(ledger-tools): live preview task theme marks with editor decorations | [bob-cli-dm.5.1.2](bob-cli-dm.5.1.2.md) | 2026-10-28 18:40:03 EDT |
 | bob-plugins | [`bob-plugins@ae40495`](https://github.com/bobs-org/bob-plugins/commit/ae40495ab5f98a458358dcfb62dffb5be51ccf98) | feat(ledger-tools): render task-theme pills in Reading view and query rows | [bob-cli-dm.5.1.3](bob-cli-dm.5.1.3.md) | 2026-10-28 19:09:07 EDT |
 | bob-plugins | [`bob-plugins@bc245fc`](https://github.com/bobs-org/bob-plugins/commit/bc245fc054c99bfcc0d67f2aa978f9c01a01999b) | fix(ledger-tools): land PT13 task-theme pills across editor and rendered views | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2026-10-28 20:00:06 EDT |
+| bob-cli--plans | [`bob-cli--plans@236ca9c`](https://github.com/bobs-org/bob-cli--plans/commit/236ca9c3260f970042e05c03569494d4c03ad3b7) | docs(plan): mark ledger task-theme mirror epic done | [bob-cli-dm.5.1](bob-cli-dm.5.1.md) | 2026-10-28 20:01:07 EDT |
 
 <!-- sase:referenced-by:start -->
 
