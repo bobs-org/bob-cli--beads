@@ -18,7 +18,7 @@ card-theme-edit: add the t stage and Ctrl+D use-default with API-backed field se
 ## Dependencies
 
 - **Depends on:** [bob-cli-dm.7.1.1](bob-cli-dm.7.1.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -31,3 +31,15 @@ card-theme-edit: add the t stage and Ctrl+D use-default with API-backed field se
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1c9e0e1`](https://github.com/bobs-org/bob-plugins/commit/1c9e0e13750457248f1ce282c77b34db348e0283) | feat(navigation): edit task themes through the Task Card | [bob-cli-dm.7.1.2](bob-cli-dm.7.1.2.md) | 2026-10-28 23:32:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-dm.7.1.2][1] | full read | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7.1.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ successor-theme-write: apply eligible retarget theme changes inside the successo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.7.1.3](bob-cli-dm.7.1.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
