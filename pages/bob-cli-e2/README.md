@@ -28,8 +28,8 @@ A task can name its root parent with `[root:: NOTE]`, rendered in Obsidian as a 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-e2.1](bob-cli-e2.1.md) | Rust root field contract and attribution | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [bob-cli-e2.2](bob-cli-e2.2.md) | Obsidian root mark | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
-| [bob-cli-e2.3](bob-cli-e2.3.md) | Vault template and ^gtd backfill | ◐ in_progress | small | 2026-10-28 | 1 | 0 |
+| [bob-cli-e2.2](bob-cli-e2.2.md) | Obsidian root mark | ✓ closed | medium | 2026-10-28 | 1 | 1 |
+| [bob-cli-e2.3](bob-cli-e2.3.md) | Vault template and ^gtd backfill | ✓ closed | small | 2026-10-28 | 1 | 0 |
 | [bob-cli-e2.4](bob-cli-e2.4.md) | Retire review buckets in Rust, docs, and memory | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-e2.5](bob-cli-e2.5.md) | Obsidian homes mirror and Stats cleanup | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 
@@ -39,8 +39,8 @@ A task can name its root parent with `[root:: NOTE]`, rendered in Obsidian as a 
 flowchart TD
     n0["bob-cli-e2: Task root fields replace the GTD review buckets [in_progress]"]
     n1["bob-cli-e2.1: Rust root field contract and attribution [closed]"]
-    n2["bob-cli-e2.2: Obsidian root mark [in_progress]"]
-    n3["bob-cli-e2.3: Vault template and ^gtd backfill [in_progress]"]
+    n2["bob-cli-e2.2: Obsidian root mark [closed]"]
+    n3["bob-cli-e2.3: Vault template and ^gtd backfill [closed]"]
     n4["bob-cli-e2.4: Retire review buckets in Rust, docs, and memory [in_progress]"]
     n5["bob-cli-e2.5: Obsidian homes mirror and Stats cleanup [in_progress]"]
     n0 --> n1
@@ -61,7 +61,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-e2.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.1/README.md) | [bob-cli-e2.1](bob-cli-e2.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-e2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.2/README.md) | [bob-cli-e2.2](bob-cli-e2.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-e2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.2/README.md) | [bob-cli-e2.2](bob-cli-e2.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-e2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.3/README.md) | [bob-cli-e2.3](bob-cli-e2.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-e2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.4/README.md) | [bob-cli-e2.4](bob-cli-e2.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-e2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.5/README.md) | [bob-cli-e2.5](bob-cli-e2.5.md) | 0 |
@@ -72,3 +72,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`818b875`](https://github.com/bobs-org/bob-cli/commit/818b875556cd20643a319cae39070611d073f7c4) | feat(homes): add \[root::\] field for as-if-residence attribution | [bob-cli-e2.1](bob-cli-e2.1.md) | 2026-10-28 23:12:54 EDT |
+| bob-cli | [`8b4d1b8`](https://github.com/bobs-org/bob-cli/commit/8b4d1b89a3141d1abd92baa2530af5ea93f9685b) | docs(memory): update root parent glossary for root fields | [bob-cli-e2.2](bob-cli-e2.2.md) | 2026-10-28 23:45:36 EDT |

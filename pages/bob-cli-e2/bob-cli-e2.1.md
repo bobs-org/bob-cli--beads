@@ -17,8 +17,8 @@ root-field: add the [root:: NOTE] parser, per-block root facts, as-if-residence 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e2.2](bob-cli-e2.2.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [bob-cli-e2.3](bob-cli-e2.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-e2.2](bob-cli-e2.2.md) ✓ · ⧖ 2026-10-28
+- **Blocks:** [bob-cli-e2.3](bob-cli-e2.3.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-e2.4](bob-cli-e2.4.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
@@ -32,3 +32,15 @@ root-field: add the [root:: NOTE] parser, per-block root facts, as-if-residence 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`818b875`](https://github.com/bobs-org/bob-cli/commit/818b875556cd20643a319cae39070611d073f7c4) | feat(homes): add \[root::\] field for as-if-residence attribution | [bob-cli-e2.1](bob-cli-e2.1.md) | 2026-10-28 23:12:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e2.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-e2.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ retire-review: delete @daily, @review buckets, review sessions, the review metri
 ## Dependencies
 
 - **Depends on:** [bob-cli-e2.1](bob-cli-e2.1.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [bob-cli-e2.3](bob-cli-e2.3.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-e2.3](bob-cli-e2.3.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [bob-cli-e2.5](bob-cli-e2.5.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
