@@ -13,7 +13,7 @@ card-successor: the Task Card shows the task theme line, gains a `t` stage and C
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-dm.6](bob-cli-dm.6.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [bob-cli-dm.6](bob-cli-dm.6.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 

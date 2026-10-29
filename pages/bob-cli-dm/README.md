@@ -34,7 +34,7 @@ Every task-aware Pomodoro menu preselects the theme a task most likely belongs t
 | [bob-cli-dm.3](bob-cli-dm.3.md) | Theme rename covers note defaults and task fields | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [bob-cli-dm.4](bob-cli-dm.4.md) | Capture remembers deliberate \`#NAME\` choices | ✓ closed | large | 2026-10-28 | 1 | 1 |
 | [bob-cli-dm.5](bob-cli-dm.5.md) | Ledger Tools mirror, field writer, and task-theme pill | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [bob-cli-dm.6](bob-cli-dm.6.md) | Link to today preselects, explains, and remembers | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [bob-cli-dm.6](bob-cli-dm.6.md) | Link to today preselects, explains, and remembers | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.7](bob-cli-dm.7.md) | Task Card theme stage and successor retarget | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.8](bob-cli-dm.8.md) | Bob Mac Capture renders suggestions and theme changes | ✓ closed | medium | 2026-10-28 | 1 | 0 |
 | [bob-cli-dm.9](bob-cli-dm.9.md) | Seed the first note defaults in the vault | ◐ in_progress | xsmall | 2026-10-28 | 1 | 0 |
@@ -57,8 +57,8 @@ flowchart TD
     n11["bob-cli-dm.5.1.1: Mirror the task-theme rule and expose the synchronous API [closed]"]
     n12["bob-cli-dm.5.1.2: Render task-theme pills in Live Preview and activate PT6 colors [closed]"]
     n13["bob-cli-dm.5.1.3: Render task-theme pills in Reading view and query rows [closed]"]
-    n14["bob-cli-dm.6: Link to today preselects, explains, and remembers [in_progress]"]
-    n15["bob-cli-dm.6.1: Task-aware Link to today picker [in_progress]"]
+    n14["bob-cli-dm.6: Link to today preselects, explains, and remembers [closed]"]
+    n15["bob-cli-dm.6.1: Task-aware Link to today picker [closed]"]
     n16["bob-cli-dm.6.1.1: Task-aware picker inputs and shared theme preselection [closed]"]
     n17["bob-cli-dm.6.1.2: Stable selection, explanation, and link-once intent [closed]"]
     n18["bob-cli-dm.6.1.3: Remember deliberate choices in the guarded task edit [closed]"]
@@ -129,7 +129,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-dm.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.1/README.md) | [bob-cli-dm.6.1.1](bob-cli-dm.6.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.2/README.md) | [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.3/README.md) | [bob-cli-dm.6.1.3](bob-cli-dm.6.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-dm.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.6.1.land/README.md) | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-dm.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-dm.6.1.land.md) | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-dm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.7/README.md) | [bob-cli-dm.7](bob-cli-dm.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.8/README.md) | [bob-cli-dm.8](bob-cli-dm.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-dm.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-dm.9/README.md) | [bob-cli-dm.9](bob-cli-dm.9.md) | 0 |
@@ -155,6 +155,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@97341c4`](https://github.com/bobs-org/bob-plugins/commit/97341c476226586a27c3cf4fa0cf7af12491cd82) | feat(block-id-prompt): add task-aware theme preselection | [bob-cli-dm.6.1.1](bob-cli-dm.6.1.1.md) | 2026-10-28 20:24:34 EDT |
 | bob-plugins | [`bob-plugins@ea583df`](https://github.com/bobs-org/bob-plugins/commit/ea583df02f832d4ea149ed9ad77fc1945ebf4c68) | feat(block-id-prompt): add stable selection, suggestion reasons, and link-once intent | [bob-cli-dm.6.1.2](bob-cli-dm.6.1.2.md) | 2026-10-28 20:59:35 EDT |
 | bob-plugins | [`bob-plugins@0f74920`](https://github.com/bobs-org/bob-plugins/commit/0f74920a8f00cd0bd1f140b5a5697ccab03cc0bb) | feat(block-id-prompt): remember deliberate theme choices on guarded task edit | [bob-cli-dm.6.1.3](bob-cli-dm.6.1.3.md) | 2026-10-28 21:27:26 EDT |
+| bob-plugins | [`bob-plugins@c59819c`](https://github.com/bobs-org/bob-plugins/commit/c59819c573c5a52d97c57d0383ca57771db141c4) | fix(block-id-prompt): refresh catalog knowledge, keep typed Recent, skip unavailable caps | [bob-cli-dm.6.1](bob-cli-dm.6.1.md) | 2026-10-28 22:45:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
