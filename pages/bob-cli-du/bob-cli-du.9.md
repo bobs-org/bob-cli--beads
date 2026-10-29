@@ -36,13 +36,12 @@ rollout: reverse Bryan's 14 implements links with the new rename, add complete_l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.9.md) | [bob-cli-du.9](bob-cli-du.9.md) | 2 |
+| [bbugyi200.apollo.bob-cli-du.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.9.md) | [bob-cli-du.9](bob-cli-du.9.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| chezmoi | [`chezmoi@6a7ba18`](https://github.com/bbugyi200/dotfiles/commit/6a7ba1839d82c44a829635d83fab09a5a0f90b6a) | feat(bob): configure complete relation labels | [bob-cli-du.9](bob-cli-du.9.md) | 2026-10-28 21:59:40 EDT |
 | bob-cli | [`7d3ce70`](https://github.com/bobs-org/bob-cli/commit/7d3ce705618cb9be501abda82db15f30dc14e2c0) | docs(relations): mark complete-label nav support shipped | [bob-cli-du.9](bob-cli-du.9.md) | 2026-10-28 22:25:51 EDT |
 
 <!-- sase:referenced-by:start -->
@@ -52,6 +51,7 @@ rollout: reverse Bryan's 14 implements links with the new rename, add complete_l
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-du.9--2][1] | Need the phase scope, notes, and design file before continuing the authorized migration work | 1 |
+| read-by | [agent:bob-cli-du.9--3][1] | Need the phase scope and design file | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-du.9.md
 
