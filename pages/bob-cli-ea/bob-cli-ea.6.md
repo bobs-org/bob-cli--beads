@@ -15,7 +15,7 @@ gcal-sync: render Event Task and context rows, keep the per-host journal, plan i
 
 - **Depends on:** [bob-cli-ea.1](bob-cli-ea.1.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-ea.2](bob-cli-ea.2.md) ✓ · ⧖ 2026-10-29
-- **Depends on:** [bob-cli-ea.5](bob-cli-ea.5.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-ea.5](bob-cli-ea.5.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-ea.7](bob-cli-ea.7.md) ◐ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-ea.8](bob-cli-ea.8.md) ◐ · ⧖ 2026-10-29
 
