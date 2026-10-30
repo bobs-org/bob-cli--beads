@@ -23,7 +23,7 @@ model: pin bob's wikilink_task pool, order, link-target, and guard rules as shar
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-eq.3](bob-cli-eq.3.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eq.3](bob-cli-eq.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -37,3 +37,15 @@ model: pin bob's wikilink_task pool, order, link-target, and guard rules as shar
 |---|---|---|---|---|
 | bob-cli | [`ebd74b7`](https://github.com/bobs-org/bob-cli/commit/ebd74b7b7a21b3888623651a54997fbe9cea2550) | feat(capture): add task-wikilink ranker vectors and candidates tests | [bob-cli-eq.1](bob-cli-eq.1.md) | 2026-10-30 16:51:08 EDT |
 | bob-plugins | [`bob-plugins@9dd0374`](https://github.com/bobs-org/bob-plugins/commit/9dd0374e2d19dd5397a9887d2e7b07561d146bdc) | feat(block-id-prompt): mirror task-wikilink rank model with vectors and tests | [bob-cli-eq.1](bob-cli-eq.1.md) | 2026-10-30 17:04:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eq.1][1] | Need full phase detail including notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.1/README.md
+
+<!-- sase:referenced-by:end -->

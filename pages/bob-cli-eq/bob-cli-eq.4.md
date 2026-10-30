@@ -14,7 +14,7 @@ picker: wire the trigger to the new card, render it beautifully, and insert link
 ## Dependencies
 
 - **Depends on:** [bob-cli-eq.2](bob-cli-eq.2.md) ✓ · ⧖ 2026-10-30
-- **Depends on:** [bob-cli-eq.3](bob-cli-eq.3.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-eq.3](bob-cli-eq.3.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-eq.5](bob-cli-eq.5.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
