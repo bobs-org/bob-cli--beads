@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-eg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.2.md) | [bob-cli-eg.2](bob-cli-eg.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-eg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.3.md) | [bob-cli-eg.3](bob-cli-eg.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-eg.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-eg.4/README.md) | [bob-cli-eg.4](bob-cli-eg.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-eg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.land.md) | [bob-cli-eg](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-eg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.land.md) | [bob-cli-eg](README.md) | 2 |
 
 ## Commits
 
@@ -107,6 +107,7 @@ flowchart TD
 | bob-cli | [`18d3f97`](https://github.com/bobs-org/bob-cli/commit/18d3f97a36059ae331d4529f380c847e3dcab5d1) | feat(gcal): guide Calendar login setup and recovery | [bob-cli-eg.3](bob-cli-eg.3.md) | 2026-10-30 12:15:22 EDT |
 | bob-cli | [`7254e10`](https://github.com/bobs-org/bob-cli/commit/7254e106795ee56425456f07a95c7756aca284bd) | docs(gcal): update login guidance and help | [bob-cli-eg.4](bob-cli-eg.4.md) | 2026-10-30 12:31:26 EDT |
 | bob-cli | [`f7642c7`](https://github.com/bobs-org/bob-cli/commit/f7642c7a5bad190d7e2d94fb6a9a426c84e96d99) | feat(gcal): match real gog OAuth and finish guided login | [bob-cli-eg](README.md) | 2026-10-30 13:41:38 EDT |
+| bob-cli--plans | [`bob-cli--plans@e1d29be`](https://github.com/bobs-org/bob-cli--plans/commit/e1d29be49dfe67c194387f06ea620c76937c535e) | docs(plans): mark gcal login redesign and landing repairs done | [bob-cli-eg](README.md) | 2026-10-30 13:42:02 EDT |
 
 <!-- sase:referenced-by:start -->
 
