@@ -41,7 +41,9 @@ capture-retype: replace the old theme write rule with the retype planner for eve
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e6.6][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-e6.7][2] | Need prior phase work to build on | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md
 
 <!-- sase:referenced-by:end -->

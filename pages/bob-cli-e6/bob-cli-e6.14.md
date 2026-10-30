@@ -13,7 +13,7 @@ gesture-retype: relocate the live link when a note move changes an inherited typ
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-e6.13](bob-cli-e6.13.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e6.13](bob-cli-e6.13.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ◐ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.7](bob-cli-e6.7.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.9](bob-cli-e6.9.md) ✓ · ⧖ 2026-10-29
