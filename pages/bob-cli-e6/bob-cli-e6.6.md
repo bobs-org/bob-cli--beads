@@ -20,7 +20,7 @@ capture-retype: replace the old theme write rule with the retype planner for eve
 ## Dependencies
 
 - **Depends on:** [bob-cli-e6.5](bob-cli-e6.5.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.7](bob-cli-e6.7.md) ○ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.7](bob-cli-e6.7.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

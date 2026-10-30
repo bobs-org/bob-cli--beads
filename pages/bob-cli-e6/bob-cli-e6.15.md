@@ -14,7 +14,7 @@ mac-copy: render bob's type words and the additive type placement label in Mac c
 ## Dependencies
 
 - **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ◐ · ⧖ 2026-10-29
-- **Depends on:** [bob-cli-e6.7](bob-cli-e6.7.md) ○ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e6.7](bob-cli-e6.7.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

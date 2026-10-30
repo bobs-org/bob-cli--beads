@@ -31,13 +31,19 @@ Every open task has one computed task type (field, reading rule, note default, t
 
 [2026-10-30T00:15:10Z · bob-cli-e7.land] DISCOVERED ISSUE follow-up audit from bob-cli-e7.land: proposals in bob-cli-e7.1 note #2 and bob-cli-e7.2 note #2 report the same seven stale themes/types CLI assertions already in this epic note #1. Source review on bob-cli 41338bcf shows c0f94390 (e6.3) repairs those seven assertions, including the themes-split ID at path [types,split]; e6.3 note #2 confirms the wider 11-assertion cleanup. No new task or +1 on bob-cli-de: de was the earlier 55-vs-54 catalog-count bug, not this vocabulary/path drift. Keep final e6 acceptance responsible for regression verification.
 
+[2026-10-30T03:21:19Z · bryanbugyi34@gmail.com] If possible, we should align the type value text (e.g. 'FIX') with the '#' character and leave no whitespace between the '#' and the type value text. See the 🔒 20261029\_232010.png screenshot for context.
+
+## Attachments
+
+- 🔒 20261029\_232010.png · image/png · 2854×1686 · 442.023 KiB (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-e6.1](bob-cli-e6.1.md) | Task-type words, docs/task-types.md, and the bob types command | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e6.10](bob-cli-e6.10.md) | Ctrl+Shift+M Pomodoro bullet moves retype tasks | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e6.11](bob-cli-e6.11.md) | Link to today retypes and Alt+Enter keeps the type | ✓ closed | medium | 2026-10-29 | 1 | 1 |
+| [bob-cli-e6.10](bob-cli-e6.10.md) | Ctrl+Shift+M Pomodoro bullet moves retype tasks | ✓ closed | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-e6.11](bob-cli-e6.11.md) | Link to today retypes and Alt+Enter keeps the type | ✓ closed | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.12](bob-cli-e6.12.md) | bob ref today and successor offers place by type | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.13](bob-cli-e6.13.md) | Task Card type edits relocate the live Task Link | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.14](bob-cli-e6.14.md) | Note moves and Pomodoro renames keep agreement | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
@@ -48,9 +54,9 @@ Every open task has one computed task type (field, reading rule, note default, t
 | [bob-cli-e6.4](bob-cli-e6.4.md) | plan.default\_type and canonical types config | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.5](bob-cli-e6.5.md) | Rust routing planners and the type\_mismatch lint | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.6](bob-cli-e6.6.md) | Named captures keep the task type in agreement | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e6.7](bob-cli-e6.7.md) | Bare captures place links by task type | ○ open | medium | 2026-10-29 | 1 | 0 |
-| [bob-cli-e6.8](bob-cli-e6.8.md) | Ledger Tools type model and routing mirror | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e6.9](bob-cli-e6.9.md) | #TYPE identity, ledger agreement marks, and Ledger Tools words | ✓ closed | medium | 2026-10-29 | 1 | 2 |
+| [bob-cli-e6.7](bob-cli-e6.7.md) | Bare captures place links by task type | ✓ closed | medium | 2026-10-29 | 1 | 1 |
+| [bob-cli-e6.8](bob-cli-e6.8.md) | Ledger Tools type model and routing mirror | ✓ closed | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-e6.9](bob-cli-e6.9.md) | #TYPE identity, ledger agreement marks, and Ledger Tools words | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 
 ## Lineage
 
@@ -70,7 +76,7 @@ flowchart TD
     n11["bob-cli-e6.4: plan.default_type and canonical types config [closed]"]
     n12["bob-cli-e6.5: Rust routing planners and the type_mismatch lint [closed]"]
     n13["bob-cli-e6.6: Named captures keep the task type in agreement [closed]"]
-    n14["bob-cli-e6.7: Bare captures place links by task type [open]"]
+    n14["bob-cli-e6.7: Bare captures place links by task type [closed]"]
     n15["bob-cli-e6.8: Ledger Tools type model and routing mirror [closed]"]
     n16["bob-cli-e6.9: #TYPE identity, ledger agreement marks, and Ledger Tools words [closed]"]
     n0 --> n1
@@ -119,8 +125,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-e6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.1.md) | [bob-cli-e6.1](bob-cli-e6.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e6.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.10/README.md) | [bob-cli-e6.10](bob-cli-e6.10.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e6.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.11/README.md) | [bob-cli-e6.11](bob-cli-e6.11.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.10/README.md) | [bob-cli-e6.10](bob-cli-e6.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.11/README.md) | [bob-cli-e6.11](bob-cli-e6.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.12/README.md) | [bob-cli-e6.12](bob-cli-e6.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md) | [bob-cli-e6.13](bob-cli-e6.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md) | [bob-cli-e6.14](bob-cli-e6.14.md) | 0 |
@@ -131,9 +137,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.4.md) | [bob-cli-e6.4](bob-cli-e6.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.5/README.md) | [bob-cli-e6.5](bob-cli-e6.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.6/README.md) | [bob-cli-e6.6](bob-cli-e6.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-e6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md) | [bob-cli-e6.8](bob-cli-e6.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e6.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.9/README.md) | [bob-cli-e6.9](bob-cli-e6.9.md) | 2 |
+| [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md) | [bob-cli-e6.8](bob-cli-e6.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.9/README.md) | [bob-cli-e6.9](bob-cli-e6.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.land/README.md) | [bob-cli-e6](README.md) | 0 |
 
 ## Commits
@@ -146,11 +152,8 @@ flowchart TD
 | bob-cli | [`c0f9439`](https://github.com/bobs-org/bob-cli/commit/c0f94390168e23f37da4a186f0b160ec591358b5) | feat(types): add bob types migrate for legacy theme spellings | [bob-cli-e6.3](bob-cli-e6.3.md) | 2026-10-29 19:48:39 EDT |
 | bob-cli | [`1750474`](https://github.com/bobs-org/bob-cli/commit/17504745c584e7e0bffc25342ce3791e3857560c) | feat(types): add task-type routing planners and type\_mismatch lint | [bob-cli-e6.5](bob-cli-e6.5.md) | 2026-10-29 20:09:50 EDT |
 | bob-cli | [`b5c7ef0`](https://github.com/bobs-org/bob-cli/commit/b5c7ef0f3a20a397f1affd1515b55e5e68c15338) | feat(capture)!: named Pomodoro captures keep the task type in agreement | [bob-cli-e6.6](bob-cli-e6.6.md) | 2026-10-29 21:28:29 EDT |
-| bob-plugins | [`bob-plugins@d3a8ff4`](https://github.com/bobs-org/bob-plugins/commit/d3a8ff40b1b2aebce3adb1addd5a8cadae59df70) | feat(ledger-tools): mirror task types, default type, and routing planners | [bob-cli-e6.8](bob-cli-e6.8.md) | 2026-10-29 21:51:34 EDT |
-| bob-plugins | [`bob-plugins@75e8191`](https://github.com/bobs-org/bob-plugins/commit/75e819164166ab1828ca56a723e7c4ff083d078f) | feat(block-id-prompt)!: Link to today keeps task types in agreement | [bob-cli-e6.11](bob-cli-e6.11.md) | 2026-10-29 22:38:18 EDT |
-| bob-plugins | [`bob-plugins@a42de4d`](https://github.com/bobs-org/bob-plugins/commit/a42de4d4fc49891d43700bcefad6f2c6479ec522) | feat(navigation): retype moved Pomodoro tasks | [bob-cli-e6.10](bob-cli-e6.10.md) | 2026-10-29 22:44:02 EDT |
 | bob-cli | [`dfc08c1`](https://github.com/bobs-org/bob-cli/commit/dfc08c19d08a94581cba5e5070498b2f3fdac738) | docs(task-tag-marks): #TYPE identity contract | [bob-cli-e6.9](bob-cli-e6.9.md) | 2026-10-29 22:59:42 EDT |
-| bob-plugins | [`bob-plugins@eb71f95`](https://github.com/bobs-org/bob-plugins/commit/eb71f95aa8ab038091e799252f02be8dcb90e624) | feat(ledger-tools): render explicit task types as colored #TYPE | [bob-cli-e6.9](bob-cli-e6.9.md) | 2026-10-29 23:11:21 EDT |
+| bob-cli | [`1ba6437`](https://github.com/bobs-org/bob-cli/commit/1ba6437a8e813ca2f0fbbf9245237d97f384622b) | feat(capture): bare captures place links by task type | [bob-cli-e6.7](bob-cli-e6.7.md) | 2026-10-29 23:29:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
