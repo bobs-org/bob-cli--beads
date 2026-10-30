@@ -17,7 +17,7 @@ link-picker-retype: replace the block-id-prompt theme write guards with the rety
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.8](bob-cli-e6.8.md) ✓ · ⧖ 2026-10-29
 
 ## Agents

@@ -19,7 +19,7 @@ migrate: add a previewed, single-commit vault rewrite that moves open-task [them
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.2](bob-cli-e6.2.md) ✓ · ⧖ 2026-10-29
 
 ## Agents

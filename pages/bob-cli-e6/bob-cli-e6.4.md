@@ -26,13 +26,14 @@ default-type: add plan.default_type as the last cascade step, accept types: and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-e6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.4.md) | [bob-cli-e6.4](bob-cli-e6.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.4.md) | [bob-cli-e6.4](bob-cli-e6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`66ddba9`](https://github.com/bobs-org/bob-cli/commit/66ddba93b03804bc07abd581ef7cb22ccd35d984) | feat(config): add global default task type | [bob-cli-e6.4](bob-cli-e6.4.md) | 2026-10-29 19:01:21 EDT |
+| chezmoi | [`chezmoi@5389ff9`](https://github.com/bbugyi200/dotfiles/commit/5389ff9f34e4eb035c8d32a730e73fb90bc39cf8) | feat(bob-config): set CHORE as default task type | [bob-cli-e6.4](bob-cli-e6.4.md) | 2026-10-29 19:03:36 EDT |
 
 <!-- sase:referenced-by:start -->
 

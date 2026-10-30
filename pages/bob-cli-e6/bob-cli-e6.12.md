@@ -19,7 +19,7 @@ ref-today-successors: place reading-task links and successor links by their own 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.7](bob-cli-e6.7.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.8](bob-cli-e6.8.md) ✓ · ⧖ 2026-10-29
 
