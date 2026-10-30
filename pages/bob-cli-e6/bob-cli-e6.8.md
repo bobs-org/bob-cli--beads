@@ -23,7 +23,7 @@ js-mirror: mirror storage, config, the cascade, and the four routing planners in
 - **Blocks:** [bob-cli-e6.11](bob-cli-e6.11.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.12](bob-cli-e6.12.md) ◐ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.5](bob-cli-e6.5.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.9](bob-cli-e6.9.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.9](bob-cli-e6.9.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
