@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_types.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md
 
@@ -44,9 +44,9 @@ Every open task has one computed task type (field, reading rule, note default, t
 | [bob-cli-e6.1](bob-cli-e6.1.md) | Task-type words, docs/task-types.md, and the bob types command | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.10](bob-cli-e6.10.md) | Ctrl+Shift+M Pomodoro bullet moves retype tasks | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.11](bob-cli-e6.11.md) | Link to today retypes and Alt+Enter keeps the type | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e6.12](bob-cli-e6.12.md) | bob ref today and successor offers place by type | ✓ closed | medium | 2026-10-29 | 1 | 1 |
+| [bob-cli-e6.12](bob-cli-e6.12.md) | bob ref today and successor offers place by type | ✓ closed | medium | 2026-10-29 | 1 | 2 |
 | [bob-cli-e6.13](bob-cli-e6.13.md) | Task Card type edits relocate the live Task Link | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e6.14](bob-cli-e6.14.md) | Note moves and Pomodoro renames keep agreement | ✓ closed | medium | 2026-10-29 | 1 | 1 |
+| [bob-cli-e6.14](bob-cli-e6.14.md) | Note moves and Pomodoro renames keep agreement | ✓ closed | medium | 2026-10-29 | 1 | 2 |
 | [bob-cli-e6.15](bob-cli-e6.15.md) | Bob Mac Capture type copy | ✓ closed | small | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.16](bob-cli-e6.16.md) | Memory, config spelling, vectors cleanup, and acceptance | ◐ in_progress | small | 2026-10-29 | 1 | 0 |
 | [bob-cli-e6.2](bob-cli-e6.2.md) | \[type::\] task fields and task\_type: note defaults | ✓ closed | medium | 2026-10-29 | 1 | 1 |
@@ -127,9 +127,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.1.md) | [bob-cli-e6.1](bob-cli-e6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.10/README.md) | [bob-cli-e6.10](bob-cli-e6.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.11/README.md) | [bob-cli-e6.11](bob-cli-e6.11.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e6.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.12/README.md) | [bob-cli-e6.12](bob-cli-e6.12.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.12/README.md) | [bob-cli-e6.12](bob-cli-e6.12.md) | 2 |
 | [bbugyi200.apollo.bob-cli-e6.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md) | [bob-cli-e6.13](bob-cli-e6.13.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e6.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md) | [bob-cli-e6.14](bob-cli-e6.14.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md) | [bob-cli-e6.14](bob-cli-e6.14.md) | 2 |
 | [bbugyi200.apollo.bob-cli-e6.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.15/README.md) | [bob-cli-e6.15](bob-cli-e6.15.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.16](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.16/README.md) | [bob-cli-e6.16](bob-cli-e6.16.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md) | [bob-cli-e6.2](bob-cli-e6.2.md) | 1 |
@@ -160,7 +160,9 @@ flowchart TD
 | bob-cli | [`1ba6437`](https://github.com/bobs-org/bob-cli/commit/1ba6437a8e813ca2f0fbbf9245237d97f384622b) | feat(capture): bare captures place links by task type | [bob-cli-e6.7](bob-cli-e6.7.md) | 2026-10-29 23:29:46 EDT |
 | bob-plugins | [`bob-plugins@74d6da2`](https://github.com/bobs-org/bob-plugins/commit/74d6da21efb222fd52d7a364776f071aa3b02947) | feat(navigation-hotkeys): Task Card type edits move the live Task Link | [bob-cli-e6.13](bob-cli-e6.13.md) | 2026-10-29 23:43:49 EDT |
 | bob-cli | [`175b749`](https://github.com/bobs-org/bob-cli/commit/175b7498a1471308de85f9736284ee97477d0358) | feat(ref)!: bob ref today places reading tasks by type | [bob-cli-e6.12](bob-cli-e6.12.md) | 2026-10-30 00:19:18 EDT |
+| bob-plugins | [`bob-plugins@6562b63`](https://github.com/bobs-org/bob-plugins/commit/6562b63522c8c1d333c2f3c426db7e005cb0a592) | feat(task-status-cycler): successor offers place by task type | [bob-cli-e6.12](bob-cli-e6.12.md) | 2026-10-30 00:21:38 EDT |
 | bob-cli | [`785c1ae`](https://github.com/bobs-org/bob-cli/commit/785c1aecbf62b999fdc4b3797df971eee91d3e26) | feat(task-move,capture): gesture-retype keeps agreement on note moves and Pomodoro renames | [bob-cli-e6.14](bob-cli-e6.14.md) | 2026-10-30 01:19:19 EDT |
+| bob-plugins | [`bob-plugins@8b262bb`](https://github.com/bobs-org/bob-plugins/commit/8b262bb92c16e5b886c32ab7b5adb0430e1a82a8) | feat(navigation-hotkeys): relocate live Task Link on note moves, retype on Pomodoro renames | [bob-cli-e6.14](bob-cli-e6.14.md) | 2026-10-30 01:24:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -169,15 +171,17 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e6.13][1] | Need epic scope for phase e6.13 | 1 |
-| read-by | [agent:bob-cli-e6.2][2] | Need epic scope and plan | 1 |
-| read-by | [agent:bob-cli-e6.7][3] | Need epic scope | 1 |
-| read-by | [agent:bob-cli-e7.1--1][4] | Need the epic scope for themes-to-types CLI test drift | 1 |
-| read-by | [agent:bob-cli-e7.2--1][5] | Need the epic scope to see if leftover themes CLI test failures belong here | 1 |
+| read-by | [agent:bob-cli-e6.14][2] | need epic context for phase | 1 |
+| read-by | [agent:bob-cli-e6.2][3] | Need epic scope and plan | 1 |
+| read-by | [agent:bob-cli-e6.7][4] | Need epic scope | 1 |
+| read-by | [agent:bob-cli-e7.1--1][5] | Need the epic scope for themes-to-types CLI test drift | 1 |
+| read-by | [agent:bob-cli-e7.2--1][6] | Need the epic scope to see if leftover themes CLI test failures belong here | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.1.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.1.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.2.md
 
 <!-- sase:referenced-by:end -->

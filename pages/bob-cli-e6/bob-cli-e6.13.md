@@ -45,7 +45,9 @@ task-card-relocate: rename the Task Card stage to Type, allow every type includi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e6.13][1] | Need full bead including notes for implementation | 3 |
+| read-by | [agent:bob-cli-e6.14][2] | check prior phase scope for pattern | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md
 
 <!-- sase:referenced-by:end -->

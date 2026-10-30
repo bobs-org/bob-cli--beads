@@ -32,10 +32,23 @@ gesture-retype: relocate the live link when a note move changes an inherited typ
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-e6.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md) | [bob-cli-e6.14](bob-cli-e6.14.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md) | [bob-cli-e6.14](bob-cli-e6.14.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`785c1ae`](https://github.com/bobs-org/bob-cli/commit/785c1aecbf62b999fdc4b3797df971eee91d3e26) | feat(task-move,capture): gesture-retype keeps agreement on note moves and Pomodoro renames | [bob-cli-e6.14](bob-cli-e6.14.md) | 2026-10-30 01:19:19 EDT |
+| bob-plugins | [`bob-plugins@8b262bb`](https://github.com/bobs-org/bob-plugins/commit/8b262bb92c16e5b886c32ab7b5adb0430e1a82a8) | feat(navigation-hotkeys): relocate live Task Link on note moves, retype on Pomodoro renames | [bob-cli-e6.14](bob-cli-e6.14.md) | 2026-10-30 01:24:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e6.14][1] | check full scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md
+
+<!-- sase:referenced-by:end -->
