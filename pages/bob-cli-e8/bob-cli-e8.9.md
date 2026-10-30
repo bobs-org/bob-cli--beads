@@ -50,3 +50,15 @@ enable: pilot the full feature on a copy of the vault, then flip linked_from_men
 |---|---|---|---|---|
 | bob-cli | [`b081097`](https://github.com/bobs-org/bob-cli/commit/b081097cbcd7b914d7299f8db4767d4e497ba952) | feat(task-mentions): enable linked-from mentions by default | [bob-cli-e8.9](bob-cli-e8.9.md) | 2026-10-30 10:28:00 EDT |
 | bob-plugins | [`bob-plugins@8dbcbea`](https://github.com/bobs-org/bob-plugins/commit/8dbcbead6ec550b874d046f7190ae64b26efd9cb) | feat(task-mentions): enable mention mirrors by default | [bob-cli-e8.9](bob-cli-e8.9.md) | 2026-10-30 10:28:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e8.9--3][1] | Inspect latest sync conflict note before publishing and closing | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.9.md
+
+<!-- sase:referenced-by:end -->

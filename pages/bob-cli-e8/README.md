@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-e8
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2v.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2v.linker.w0.md) · **Assignee:** `bob-cli-e8.land`
-**Created:** 2026-10-29 17:20:21 EDT
+**Created:** 2026-10-29 17:20:21 EDT · **Closed:** 2026-10-30 11:16:02 EDT
 **Plan:** [202610/inline\_task\_mentions.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/inline_task_mentions.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,18 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/inline_task_mentions.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-ek][2] | Follow-up from the inline task mentions epic (plan 202610/inline_task_mentions.md Follow-ups section) |
+| related | [bead:bob-cli-el][3] | Follow-up from the inline task mentions epic (plan 202610/inline_task_mentions.md Follow-ups section) |
+| related | [bead:bob-cli-em][4] | Follow-up from the inline task mentions epic (plan 202610/inline_task_mentions.md Follow-ups section) |
+| related | [bead:bob-cli-en][5] | Follow-up from the inline task mentions epic (plan 202610/inline_task_mentions.md Follow-ups section) |
 
 _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/inline_task_mentions.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ek/README.md
+[3]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-el/README.md
+[4]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-em/README.md
+[5]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-en/README.md
 
 <!-- sase:links:end -->
 
@@ -30,6 +38,11 @@ When one task's own text links another task (`[[note#^id]]`, embedded or struck 
 [2026-10-30T06:29:19Z · bob-cli-e6.land] DISCOVERED ISSUE: bob-plugins scripts/test-navigation-task-card-view.cjs test 'theme menu stays grey when hueFor is missing or throws, and header matches null hues' fails (header pill lacks is-muted). Bisected on bob-plugins: passes at 68db3fb (84/0), fails from 13ac4dc (bob-cli-e8.5, 'live mention index and relationIndex v2') onward (83/1), still failing on master 957f741. Reported as pre-existing by bob-cli-e8.8 #1 and bob-cli-e6.8/e6.10/e6.13/e6.14 proposals; triaged by bob-cli-e6 land agent as caused by e8.5.
 
 [2026-10-30T08:27:22Z · bob-cli-e6.land--4] DISCOVERED ISSUE: Fresh npm test reproduction in bob-plugins on the dirty task-type integration tree: scripts/test-navigation-task-card-view.cjs test theme menu stays grey when hueFor is missing or throws, and header matches null hues failed at line 3014 because the option pill lacked is-muted. 4,372 tests passed and this one failed. This matches existing bob-cli-e8 note #1; the current diff in 313-task-card-theme-projection.js changes wording only around task-card theme/type projection. No new task filed.
+
+[2026-10-30T15:16:02Z · bob-cli-e8.land] VERIFIED (steps 1-2): Read the epic, all 9 phase beads, every note, and the plan. Checked source against the plan: Rust task_relations/mentions.rs + fixture tests, LabelError::ReservedMention refusals, reverse.rs should_preserve_mention (MN24), reconcile projection/JSON (mention_edges, mentions_added/removed, reason), capture/relations_mentions.rs + 13 tests/cli/capture/mentions.rs cases (e8.4's lost f47c639f was correctly restored as 22a8c84f), config default true with invalid-value fallback in Rust, ledger-tools, and nav; relationIndex v2 linkedFrom/scanMentions; fixture copied byte-for-byte; verify-only cycler and block-id-prompt tests; docs §19, configuration, see-task-mentions guide, nav and index. Decisions honored: rollout=enable (b081097c, 8dbcbea); memory_record=no (no decision strand exists); memory_glossary edited only task-mention, task-relation, task-link.
+LANDING FIXES: (1) bob-plugins test 'theme menu stays grey…header matches null hues' (e8 notes #1/#2) was caused by e8.5 13ac4dc. Its nav rebuild from src dropped 68db3fb's main.js-only " is-muted" header-pill fallback. Restored it in src/330-task-card-view.js and rebuilt; that file is now 84/0. (2) docs/reference/glossary.md had not been regenerated after e8.9's glossary strand edits, so just docs-check failed; ran just docs-gen. (3) Integration: documented in docs/capture.md that e7's (( wikilink_task link produces a §19 text mention through capture. No other post-epic commit (types, gcal, ref, highlights) touches a LINKED FROM writer or relation code; gcal block links are Pomodoro Task Links (excluded by M1). (4) Deployed: bob plugins sync refused ledger-tools/nav because of stale stamps. The vault bytes differed from the repo only by e8.9's default-on flip plus fix (1); the earlier local edits had since landed in 81a75b8. Force-synced those two with backups, then a full sync showed 22 unchanged. This resolves e8.9 PROPOSED FOLLOW-UP #8.
+CHECKS: just check passed (4077 lib, 2526 CLI, all suites). just docs-check passed (447 passed, 1 expected skip). bob-plugins npm test: 4384 tests, 4382 passed; the only 2 failures are the gcal harness bug below, which reproduces at 1295e52 without any e8 code.
+FOLLOW-UP TRIAGE: e8.2 #1 (12 CLI failures) and e8.3 #1 (archive_closed_window_respects_mtime) declined: both now pass on master. e8.5 #1, e8.6 #2, e8.7 #1, and e8.8 #1 (nav theme tests): 4 already fixed on master, the 5th fixed above. The perf-flake part of e8.5 #1 was filed as bob-cli-ej (flake). e8.9 #2 became bob-cli-ek, #3 bob-cli-el, #4 bob-cli-em, #5 bob-cli-en (features, linked to e8). e8.9 #8 was resolved by the deploy above. Discovered: note-ready and relation-index onLayoutReady single-slot harness failures from bob-cli-ea.8 1295e52, a duplicate of bob-cli-eh; +1 recorded there. No epic-symbol entries.
 
 ## Phases
 
@@ -49,7 +62,7 @@ When one task's own text links another task (`[[note#^id]]`, embedded or struck 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-e8: Inline task mentions on 🪢 LINKED FROM [in_progress]"]
+    n0["bob-cli-e8: Inline task mentions on 🪢 LINKED FROM [closed]"]
     n1["bob-cli-e8.1: Mention contract, shared vectors, decision record, and glossary [closed]"]
     n2["bob-cli-e8.2: Rust mention scanner, reserved label, and writer guards [closed]"]
     n3["bob-cli-e8.3: Reconcile projects mentions onto LINKED FROM [closed]"]
@@ -94,7 +107,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.7/README.md) | [bob-cli-e8.7](bob-cli-e8.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md) | [bob-cli-e8.8](bob-cli-e8.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.9.md) | [bob-cli-e8.9](bob-cli-e8.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-e8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.land/README.md) | [bob-cli-e8](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.land/README.md) | [bob-cli-e8](README.md) | 1 |
 
 ## Commits
 
@@ -110,6 +123,7 @@ flowchart TD
 | bob-cli | [`22a8c84`](https://github.com/bobs-org/bob-cli/commit/22a8c84fb3d6853d537ba663d0c10b371f1a5769) | feat(capture): stage task mention mirrors atomically | [bob-cli-e8.4](bob-cli-e8.4.md) | 2026-10-30 09:42:42 EDT |
 | bob-cli | [`b081097`](https://github.com/bobs-org/bob-cli/commit/b081097cbcd7b914d7299f8db4767d4e497ba952) | feat(task-mentions): enable linked-from mentions by default | [bob-cli-e8.9](bob-cli-e8.9.md) | 2026-10-30 10:28:00 EDT |
 | bob-plugins | [`bob-plugins@8dbcbea`](https://github.com/bobs-org/bob-plugins/commit/8dbcbead6ec550b874d046f7190ae64b26efd9cb) | feat(task-mentions): enable mention mirrors by default | [bob-cli-e8.9](bob-cli-e8.9.md) | 2026-10-30 10:28:41 EDT |
+| bob-cli | [`3c9536a`](https://github.com/bobs-org/bob-cli/commit/3c9536a7bc6c3a256f51d2d51ab085547d8aca36) | docs(task-mentions): link (( capture links to text mentions and regenerate the glossary | [bob-cli-e8](README.md) | 2026-10-30 11:17:38 EDT |
 
 <!-- sase:referenced-by:start -->
 
