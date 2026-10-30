@@ -35,3 +35,15 @@ data-grid: give every table that stays a grid content-aware column widths and ro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`66bdd21`](https://github.com/bobs-org/bob-cli/commit/66bdd211e8e8c366b4b53af9828ce2e2e594d029) | feat(highlights): improve grid table widths and row spacing | [bob-cli-eb.3](bob-cli-eb.3.md) | 2026-10-30 00:22:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eb.3--1][1] | Verify the phase close completed with the pre-existing test failure recorded | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.3.md
+
+<!-- sase:referenced-by:end -->

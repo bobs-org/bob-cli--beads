@@ -21,7 +21,7 @@ pandoc-wiring: add highlights.table_layout and highlights.table_prose_words, run
 
 - **Depends on:** [bob-cli-eb.1](bob-cli-eb.1.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-eb.3](bob-cli-eb.3.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-eb.4](bob-cli-eb.4.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-eb.4](bob-cli-eb.4.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
