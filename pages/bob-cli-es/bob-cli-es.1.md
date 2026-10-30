@@ -19,7 +19,7 @@ cli-stamp: add the stamp module (render, recognize, parse, refresh rule), run it
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-es.2](bob-cli-es.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-es.2](bob-cli-es.2.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -32,3 +32,15 @@ cli-stamp: add the stamp module (render, recognize, parse, refresh rule), run it
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4f29a82`](https://github.com/bobs-org/bob-cli/commit/4f29a8246e737d0ca39d9455e749943a13f4646c) | feat(gcal): stamp each Events section with account and last change | [bob-cli-es.1](bob-cli-es.1.md) | 2026-10-30 19:34:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-es.1--1][1] | Need the phase scope, design file, notes, and DECISIONS | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-es.1.md
+
+<!-- sase:referenced-by:end -->
