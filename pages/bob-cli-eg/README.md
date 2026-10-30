@@ -40,7 +40,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-eg.1](bob-cli-eg.1.md) | Fix client reuse and make the OAuth client step robust | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [bob-cli-eg.2](bob-cli-eg.2.md) | Bob-owned sign-in through gog's two-step remote flow | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [bob-cli-eg.3](bob-cli-eg.3.md) | Guided setup, account choice, self-healing check, and summary | ✓ closed | medium | 2026-10-30 | 1 | 1 |
-| [bob-cli-eg.4](bob-cli-eg.4.md) | Help text, docs, and the final gate | ◐ in_progress | small | 2026-10-30 | 1 | 0 |
+| [bob-cli-eg.4](bob-cli-eg.4.md) | Help text, docs, and the final gate | ✓ closed | small | 2026-10-30 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n1["bob-cli-eg.1: Fix client reuse and make the OAuth client step robust [closed]"]
     n2["bob-cli-eg.2: Bob-owned sign-in through gog's two-step remote flow [closed]"]
     n3["bob-cli-eg.3: Guided setup, account choice, self-healing check, and summary [closed]"]
-    n4["bob-cli-eg.4: Help text, docs, and the final gate [in_progress]"]
+    n4["bob-cli-eg.4: Help text, docs, and the final gate [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-eg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-eg.1/README.md) | [bob-cli-eg.1](bob-cli-eg.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-eg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.2.md) | [bob-cli-eg.2](bob-cli-eg.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-eg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.3.md) | [bob-cli-eg.3](bob-cli-eg.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-eg.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-eg.4/README.md) | [bob-cli-eg.4](bob-cli-eg.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-eg.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-eg.4/README.md) | [bob-cli-eg.4](bob-cli-eg.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-eg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-eg.land/README.md) | [bob-cli-eg](README.md) | 0 |
 
 ## Commits
@@ -77,6 +77,7 @@ flowchart TD
 | bob-cli | [`2ca76ca`](https://github.com/bobs-org/bob-cli/commit/2ca76ca05a1bc544f16a3686774ac4a6538a9550) | fix(gcal): reuse gog clients by piping normalized client JSON | [bob-cli-eg.1](bob-cli-eg.1.md) | 2026-10-30 10:13:17 EDT |
 | bob-cli | [`00c44ab`](https://github.com/bobs-org/bob-cli/commit/00c44ab4b481ecc00f4a882ae873a6fc6d28fde6) | feat(gcal): bob-owned login sign-in with browser and paste flows | [bob-cli-eg.2](bob-cli-eg.2.md) | 2026-10-30 11:17:32 EDT |
 | bob-cli | [`18d3f97`](https://github.com/bobs-org/bob-cli/commit/18d3f97a36059ae331d4529f380c847e3dcab5d1) | feat(gcal): guide Calendar login setup and recovery | [bob-cli-eg.3](bob-cli-eg.3.md) | 2026-10-30 12:15:22 EDT |
+| bob-cli | [`7254e10`](https://github.com/bobs-org/bob-cli/commit/7254e106795ee56425456f07a95c7756aca284bd) | docs(gcal): update login guidance and help | [bob-cli-eg.4](bob-cli-eg.4.md) | 2026-10-30 12:31:26 EDT |
 
 <!-- sase:referenced-by:start -->
 

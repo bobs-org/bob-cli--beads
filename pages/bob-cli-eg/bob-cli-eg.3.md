@@ -20,7 +20,7 @@ experience: guided client setup with ~/Downloads discovery, the account picker a
 ## Dependencies
 
 - **Depends on:** [bob-cli-eg.2](bob-cli-eg.2.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-eg.4](bob-cli-eg.4.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eg.4](bob-cli-eg.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ experience: guided client setup with ~/Downloads discovery, the account picker a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`18d3f97`](https://github.com/bobs-org/bob-cli/commit/18d3f97a36059ae331d4529f380c847e3dcab5d1) | feat(gcal): guide Calendar login setup and recovery | [bob-cli-eg.3](bob-cli-eg.3.md) | 2026-10-30 12:15:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eg.3--1][1] | Confirm the phase close result after the close-triggered check settled | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.3.md
+
+<!-- sase:referenced-by:end -->
