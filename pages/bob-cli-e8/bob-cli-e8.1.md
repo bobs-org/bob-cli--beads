@@ -17,7 +17,7 @@ contract: write task-relations §19 plus the amended sections, the shared MN vec
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e8.2](bob-cli-e8.2.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.2](bob-cli-e8.2.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.5](bob-cli-e8.5.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
