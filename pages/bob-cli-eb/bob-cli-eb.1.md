@@ -21,7 +21,7 @@ records-filter: build the embedded table_layout.lua pass (classification, overri
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-eb.2](bob-cli-eb.2.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-eb.2](bob-cli-eb.2.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -34,3 +34,15 @@ records-filter: build the embedded table_layout.lua pass (classification, overri
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b47617d`](https://github.com/bobs-org/bob-cli/commit/b47617dc9e066a9bb0c53ddf724f01f81b7007f0) | feat(ref): embed table-layout Lua pass for prose-table records | [bob-cli-eb.1](bob-cli-eb.1.md) | 2026-10-29 21:53:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eb.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.1.md
+
+<!-- sase:referenced-by:end -->

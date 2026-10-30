@@ -13,7 +13,7 @@ web-clip: carry the table settings in the adapter request, rewrite prose tables 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-eb.2](bob-cli-eb.2.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-eb.2](bob-cli-eb.2.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-eb.6](bob-cli-eb.6.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
