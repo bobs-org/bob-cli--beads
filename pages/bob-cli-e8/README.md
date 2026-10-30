@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.7/README.md) | [bob-cli-e8.7](bob-cli-e8.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md) | [bob-cli-e8.8](bob-cli-e8.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.9.md) | [bob-cli-e8.9](bob-cli-e8.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-e8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.land/README.md) | [bob-cli-e8](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-e8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.land/README.md) | [bob-cli-e8](README.md) | 3 |
 
 ## Commits
 
@@ -125,6 +125,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8dbcbea`](https://github.com/bobs-org/bob-plugins/commit/8dbcbead6ec550b874d046f7190ae64b26efd9cb) | feat(task-mentions): enable mention mirrors by default | [bob-cli-e8.9](bob-cli-e8.9.md) | 2026-10-30 10:28:41 EDT |
 | bob-cli | [`3c9536a`](https://github.com/bobs-org/bob-cli/commit/3c9536a7bc6c3a256f51d2d51ab085547d8aca36) | docs(task-mentions): link (( capture links to text mentions and regenerate the glossary | [bob-cli-e8](README.md) | 2026-10-30 11:17:38 EDT |
 | bob-plugins | [`bob-plugins@aad2915`](https://github.com/bobs-org/bob-plugins/commit/aad29157edd94010d29715c7e7525835156f736a) | fix(navigation): keep null-hue Task Card type header pills muted | [bob-cli-e8](README.md) | 2026-10-30 11:18:07 EDT |
+| bob-cli--plans | [`bob-cli--plans@907314e`](https://github.com/bobs-org/bob-cli--plans/commit/907314e63e0b0f70ca4e7cfe372d5c47236a820a) | chore(plans): mark inline task mentions plan done | [bob-cli-e8](README.md) | 2026-10-30 11:18:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
