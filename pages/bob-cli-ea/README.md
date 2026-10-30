@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ea.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.7/README.md) | [bob-cli-ea.7](bob-cli-ea.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ea.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md) | [bob-cli-ea.8](bob-cli-ea.8.md) | 3 |
 | [bbugyi200.apollo.bob-cli-ea.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.9/README.md) | [bob-cli-ea.9](bob-cli-ea.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ea.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md) | [bob-cli-ea](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ea.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md) | [bob-cli-ea](README.md) | 2 |
 
 ## Commits
 
@@ -126,6 +126,7 @@ flowchart TD
 | bob-cli | [`1a8e784`](https://github.com/bobs-org/bob-cli/commit/1a8e784fa4302ba83b9174c2cc3ade5b421b2c22) | feat(gcal): three-way span updates, cancels, RSVP, series learning, list and doctor | [bob-cli-ea.7](bob-cli-ea.7.md) | 2026-10-30 03:39:55 EDT |
 | chezmoi | [`chezmoi@1374445`](https://github.com/bbugyi200/dotfiles/commit/13744456df8e16ada7c30b7166dd3a6d72c4cce0) | feat(gcal): add chezmoi gcal config block and Mac sync LaunchAgent | [bob-cli-ea.9](bob-cli-ea.9.md) | 2026-10-30 03:51:09 EDT |
 | bob-cli | [`a0a6b49`](https://github.com/bobs-org/bob-cli/commit/a0a6b497467c4411076f8526407c1b801a0be739) | fix(gcal): land bob gcal with clippy fixes and integration docs | [bob-cli-ea](README.md) | 2026-10-30 04:38:35 EDT |
+| bob-plugins | [`bob-plugins@5ba4683`](https://github.com/bobs-org/bob-plugins/commit/5ba4683d997ee62a3434b30d4e47074e144044a6) | test: drop duplicate gcal test entries from npm test list | [bob-cli-ea](README.md) | 2026-10-30 04:40:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
