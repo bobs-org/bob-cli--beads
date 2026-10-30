@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-e6
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2t.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2t.linker.w0.md) · **Assignee:** `bob-cli-e6.land`
-**Created:** 2026-10-29 16:16:33 EDT
+**Created:** 2026-10-29 16:16:33 EDT · **Closed:** 2026-10-30 03:57:41 EDT
 **Plan:** [202610/task\_types.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_types.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-ec][2] | Deferred closeout steps of the task-types epic (phase closeout, bob-cli-e6.16 note #1) |
 
 _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ec/README.md
 
 <!-- sase:links:end -->
 
@@ -33,6 +35,17 @@ Every open task has one computed task type (field, reading rule, note default, t
 
 [2026-10-30T03:21:19Z · bryanbugyi34@gmail.com] If possible, we should align the type value text (e.g. 'FIX') with the '#' character and leave no whitespace between the '#' and the type value text. See the 🔒 20261029\_232010.png screenshot for context.
 
+[2026-10-30T06:32:25Z · bob-cli-e6.land] LAND TRIAGE (bob-cli-e6.land, bob-cli a3735b91, bob-plugins 957f741, bob-mac-capture 2609650) — every PROPOSED FOLLOW-UP:
+RESOLVED, declined: e6.4 #1 / e6.5 #2 / epic #1-#2 stale theme CLI assertions (fixed by c0f94390; not in today's cargo test failures); e6.5 #1 fmt drift in config/themes.rs (no longer in the fmt diff); e6.7 #1 ref-today parity (passes; fixed by e6.12); e6.8 #1 task-card-theme-edit TypeErrors (suite passes after e6.13); e6.12 #1, e6.13 #2, e6.15 #1 generated glossary.md/decisions.md drift (just docs-check and bob-plugins npm run docs:check both pass); e6.13 #3 ledger-tools deploy (now synced/unchanged).
+NOT REPRODUCED, declined: e6.6 #1 / e6.7 #2 capture_related archive_closed_window_respects_mtime (passes in today's full cargo test); e6.5 #2 stats/completion parallel-load flakes (not seen; capture_related perf flakes are already tracked by bob-cli-ca/bo).
+OTHER EPICS: e6.8/e6.10/e6.13/e6.14 grey-pill card-view test → bisected to bob-cli-e8.5 13ac4dc, recorded as a DISCOVERED ISSUE on bob-cli-e8. The gcal gate failures I found (fmt tests/gcal_list.rs, clippy gcal/classify.rs:75, catalog count 59/58, completion gcal:day) come from bob-cli-ea.5 44058f67 and are recorded as a DISCOVERED ISSUE on bob-cli-ea.
+DUPLICATE: e6.14 #1 nav-hotkeys deploy blocked by a dirty bob-cli_16 build → +1 on bob-cli-e4. The deployed build is a strict subset of master 74d6da2; the landing tale force-syncs.
+NEW TASK: e6.16 #1 chezmoi themes:→types: plus the live-vault bob types migrate -d preview, which need a released bob with `bob types` (installed 0.4.0 lacks it) → bob-cli-ec (small).
+EPIC WORK (landing tale): e6.16 #3 successor-wiring test failures (bisected to e6.12 6562b63: the harness fakes the old api.themes without effectiveTypeFor/planRetype); e6.14 #3 rename picker count preview and Node tests; e6.15 #2 Mac theme copy; e6.16 #4 remaining plugin theme copy; e6.16 #2 planThemeChange wrapper (no plugin calls api.themes.planThemeChange; only block-id-prompt 077 has an opts fallback, so remove it per the closeout plan); epic note #3 (Bryan) #TYPE glyph/name alignment, unaddressed. Also found by the land agent: cargo fmt drift in e6.14 files; clippy gate errors at capture/pomodoro_link.rs:671 (needless_option_as_deref) and task_complete/successors.rs:2193 (collapsible_if) from e6.12; stale cli test ref_library::today::ledger_and_resolution_refusals (typed READ placement now creates a placeholder instead of no_open_pomodoro).
+INTEGRATION: concurrent commits reviewed (event-task close 4f2828e3/9c63d95 already write [type:: MEET]; text mentions, wikilink_task, templates, gcal, highlights, web-clip, and the Mac (( picker have no theme/type overlap). Glossary has no stale [[pomodoro-theme]] links. Shared vectors are byte-identical in all 3 copies. epic-symbols: none.
+
+[2026-10-30T07:57:41Z · bob-cli-e6.land--4] Land verification reviewed all 16 phases against D1–D12, confirmed shared contract vectors byte-identical across bob-cli, bob-plugins, and Bob Mac Capture, integrated concurrent commits, and triaged phase proposals in LAND TRIAGE; epic-symbols is empty. This landing completed the remaining CLI gates and stale test update, successor wiring, Pomodoro rename preview/tests, text-hash #TYPE geometry, remaining user-facing type copy, and planThemeChange retirement. Final gates: focused ref-today CLI test passed; just check is blocked only by the tracked bob-cli-ea gcal clone_on_copy finding; root docs generation/check, plugin build/build:check, plugin docs check, Mac portable-check, and Mac docs check passed. npm test has only the pre-existing grey-pill card-view failure bisected to bob-cli-e8.5. Deployed all five changed plugins from workspace 16; bob plugins list against that checkout reports 8/8 synced, with force used only for bob-navigation-hotkeys. bob-cli-e4 closed.
+
 ## Attachments
 
 - 🔒 20261029\_232010.png · image/png · 2854×1686 · 442.023 KiB (private attachment)
@@ -47,11 +60,11 @@ Every open task has one computed task type (field, reading rule, note default, t
 | [bob-cli-e6.12](bob-cli-e6.12.md) | bob ref today and successor offers place by type | ✓ closed | medium | 2026-10-29 | 1 | 2 |
 | [bob-cli-e6.13](bob-cli-e6.13.md) | Task Card type edits relocate the live Task Link | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.14](bob-cli-e6.14.md) | Note moves and Pomodoro renames keep agreement | ✓ closed | medium | 2026-10-29 | 1 | 2 |
-| [bob-cli-e6.15](bob-cli-e6.15.md) | Bob Mac Capture type copy | ✓ closed | small | 2026-10-29 | 1 | 0 |
+| [bob-cli-e6.15](bob-cli-e6.15.md) | Bob Mac Capture type copy | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.16](bob-cli-e6.16.md) | Memory, config spelling, vectors cleanup, and acceptance | ✓ closed | small | 2026-10-29 | 1 | 2 |
 | [bob-cli-e6.2](bob-cli-e6.2.md) | \[type::\] task fields and task\_type: note defaults | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.3](bob-cli-e6.3.md) | bob types migrate | ✓ closed | small | 2026-10-29 | 1 | 1 |
-| [bob-cli-e6.4](bob-cli-e6.4.md) | plan.default\_type and canonical types config | ✓ closed | medium | 2026-10-29 | 1 | 2 |
+| [bob-cli-e6.4](bob-cli-e6.4.md) | plan.default\_type and canonical types config | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.5](bob-cli-e6.5.md) | Rust routing planners and the type\_mismatch lint | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.6](bob-cli-e6.6.md) | Named captures keep the task type in agreement | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e6.7](bob-cli-e6.7.md) | Bare captures place links by task type | ✓ closed | medium | 2026-10-29 | 1 | 1 |
@@ -62,7 +75,7 @@ Every open task has one computed task type (field, reading rule, note default, t
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-e6: Task types: Pomodoro themes become per-task types that always agree with their Task Links [in_progress]"]
+    n0["bob-cli-e6: Task types: Pomodoro themes become per-task types that always agree with their Task Links [closed]"]
     n1["bob-cli-e6.1: Task-type words, docs/task-types.md, and the bob types command [closed]"]
     n2["bob-cli-e6.10: Ctrl+Shift+M Pomodoro bullet moves retype tasks [closed]"]
     n3["bob-cli-e6.11: Link to today retypes and Alt+Enter keeps the type [closed]"]
@@ -130,17 +143,17 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e6.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.12/README.md) | [bob-cli-e6.12](bob-cli-e6.12.md) | 2 |
 | [bbugyi200.apollo.bob-cli-e6.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md) | [bob-cli-e6.13](bob-cli-e6.13.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md) | [bob-cli-e6.14](bob-cli-e6.14.md) | 2 |
-| [bbugyi200.apollo.bob-cli-e6.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.15/README.md) | [bob-cli-e6.15](bob-cli-e6.15.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.15/README.md) | [bob-cli-e6.15](bob-cli-e6.15.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.16](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.16/README.md) | [bob-cli-e6.16](bob-cli-e6.16.md) | 2 |
 | [bbugyi200.apollo.bob-cli-e6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md) | [bob-cli-e6.2](bob-cli-e6.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.3.md) | [bob-cli-e6.3](bob-cli-e6.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.4.md) | [bob-cli-e6.4](bob-cli-e6.4.md) | 2 |
+| [bbugyi200.apollo.bob-cli-e6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.4.md) | [bob-cli-e6.4](bob-cli-e6.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.5/README.md) | [bob-cli-e6.5](bob-cli-e6.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.6/README.md) | [bob-cli-e6.6](bob-cli-e6.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md) | [bob-cli-e6.8](bob-cli-e6.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.9/README.md) | [bob-cli-e6.9](bob-cli-e6.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.land/README.md) | [bob-cli-e6](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md) | [bob-cli-e6](README.md) | 1 |
 
 ## Commits
 
@@ -149,7 +162,6 @@ flowchart TD
 | bob-cli | [`d0603a5`](https://github.com/bobs-org/bob-cli/commit/d0603a5d5180ff7e1fdbc5bddbef180c89647ed5) | feat(types): rename bob themes to bob types and adopt task-type words | [bob-cli-e6.1](bob-cli-e6.1.md) | 2026-10-29 17:01:18 EDT |
 | bob-cli | [`8d7309f`](https://github.com/bobs-org/bob-cli/commit/8d7309ffb8e104fd550ee7bc5665105de4538b7a) | feat(types): store task types as \[type::\] and task\_type: with legacy theme reads | [bob-cli-e6.2](bob-cli-e6.2.md) | 2026-10-29 17:52:12 EDT |
 | bob-cli | [`66ddba9`](https://github.com/bobs-org/bob-cli/commit/66ddba93b03804bc07abd581ef7cb22ccd35d984) | feat(config): add global default task type | [bob-cli-e6.4](bob-cli-e6.4.md) | 2026-10-29 19:01:21 EDT |
-| chezmoi | [`chezmoi@5389ff9`](https://github.com/bbugyi200/dotfiles/commit/5389ff9f34e4eb035c8d32a730e73fb90bc39cf8) | feat(bob-config): set CHORE as default task type | [bob-cli-e6.4](bob-cli-e6.4.md) | 2026-10-29 19:03:36 EDT |
 | bob-cli | [`c0f9439`](https://github.com/bobs-org/bob-cli/commit/c0f94390168e23f37da4a186f0b160ec591358b5) | feat(types): add bob types migrate for legacy theme spellings | [bob-cli-e6.3](bob-cli-e6.3.md) | 2026-10-29 19:48:39 EDT |
 | bob-cli | [`1750474`](https://github.com/bobs-org/bob-cli/commit/17504745c584e7e0bffc25342ce3791e3857560c) | feat(types): add task-type routing planners and type\_mismatch lint | [bob-cli-e6.5](bob-cli-e6.5.md) | 2026-10-29 20:09:50 EDT |
 | bob-cli | [`b5c7ef0`](https://github.com/bobs-org/bob-cli/commit/b5c7ef0f3a20a397f1affd1515b55e5e68c15338) | feat(capture)!: named Pomodoro captures keep the task type in agreement | [bob-cli-e6.6](bob-cli-e6.6.md) | 2026-10-29 21:28:29 EDT |
@@ -160,12 +172,14 @@ flowchart TD
 | bob-plugins | [`bob-plugins@eb71f95`](https://github.com/bobs-org/bob-plugins/commit/eb71f95aa8ab038091e799252f02be8dcb90e624) | feat(ledger-tools): render explicit task types as colored #TYPE | [bob-cli-e6.9](bob-cli-e6.9.md) | 2026-10-29 23:11:21 EDT |
 | bob-cli | [`1ba6437`](https://github.com/bobs-org/bob-cli/commit/1ba6437a8e813ca2f0fbbf9245237d97f384622b) | feat(capture): bare captures place links by task type | [bob-cli-e6.7](bob-cli-e6.7.md) | 2026-10-29 23:29:46 EDT |
 | bob-plugins | [`bob-plugins@74d6da2`](https://github.com/bobs-org/bob-plugins/commit/74d6da21efb222fd52d7a364776f071aa3b02947) | feat(navigation-hotkeys): Task Card type edits move the live Task Link | [bob-cli-e6.13](bob-cli-e6.13.md) | 2026-10-29 23:43:49 EDT |
+| bob-mac-capture | [`bob-mac-capture@7ac2bd9`](https://github.com/bobs-org/bob-mac-capture/commit/7ac2bd9dfb885cb0269468c4e2f83fd627da7345) | feat(capture): show task-type placement and type copy | [bob-cli-e6.15](bob-cli-e6.15.md) | 2026-10-29 23:57:58 EDT |
 | bob-cli | [`175b749`](https://github.com/bobs-org/bob-cli/commit/175b7498a1471308de85f9736284ee97477d0358) | feat(ref)!: bob ref today places reading tasks by type | [bob-cli-e6.12](bob-cli-e6.12.md) | 2026-10-30 00:19:18 EDT |
 | bob-plugins | [`bob-plugins@6562b63`](https://github.com/bobs-org/bob-plugins/commit/6562b63522c8c1d333c2f3c426db7e005cb0a592) | feat(task-status-cycler): successor offers place by task type | [bob-cli-e6.12](bob-cli-e6.12.md) | 2026-10-30 00:21:38 EDT |
 | bob-cli | [`785c1ae`](https://github.com/bobs-org/bob-cli/commit/785c1aecbf62b999fdc4b3797df971eee91d3e26) | feat(task-move,capture): gesture-retype keeps agreement on note moves and Pomodoro renames | [bob-cli-e6.14](bob-cli-e6.14.md) | 2026-10-30 01:19:19 EDT |
 | bob-plugins | [`bob-plugins@8b262bb`](https://github.com/bobs-org/bob-plugins/commit/8b262bb92c16e5b886c32ab7b5adb0430e1a82a8) | feat(navigation-hotkeys): relocate live Task Link on note moves, retype on Pomodoro renames | [bob-cli-e6.14](bob-cli-e6.14.md) | 2026-10-30 01:24:26 EDT |
 | bob-cli | [`3aa31b3`](https://github.com/bobs-org/bob-cli/commit/3aa31b349ab2dd1e290bb7f26e2c43c74f9657df) | chore(types): close out glossary docs and vectors | [bob-cli-e6.16](bob-cli-e6.16.md) | 2026-10-30 01:55:16 EDT |
 | bob-plugins | [`bob-plugins@957f741`](https://github.com/bobs-org/bob-plugins/commit/957f74120580d12cc9f03164c97cde82469e902a) | test(types): remove retired write-rule vectors | [bob-cli-e6.16](bob-cli-e6.16.md) | 2026-10-30 01:57:06 EDT |
+| bob-cli | [`3b0ffa0`](https://github.com/bobs-org/bob-cli/commit/3b0ffa0a360a1df70a185cc864c641b2e9489c9f) | feat: complete task type workflow integration | [bob-cli-e6](README.md) | 2026-10-30 04:20:42 EDT |
 
 <!-- sase:referenced-by:start -->
 

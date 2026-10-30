@@ -44,3 +44,15 @@ closeout: rename the glossary strand, add the two decision records, switch chezm
 |---|---|---|---|---|
 | bob-cli | [`3aa31b3`](https://github.com/bobs-org/bob-cli/commit/3aa31b349ab2dd1e290bb7f26e2c43c74f9657df) | chore(types): close out glossary docs and vectors | [bob-cli-e6.16](bob-cli-e6.16.md) | 2026-10-30 01:55:16 EDT |
 | bob-plugins | [`bob-plugins@957f741`](https://github.com/bobs-org/bob-plugins/commit/957f74120580d12cc9f03164c97cde82469e902a) | test(types): remove retired write-rule vectors | [bob-cli-e6.16](bob-cli-e6.16.md) | 2026-10-30 01:57:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e6.16][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.16/README.md
+
+<!-- sase:referenced-by:end -->
