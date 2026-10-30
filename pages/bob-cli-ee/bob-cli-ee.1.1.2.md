@@ -18,7 +18,7 @@ editor: consume the shared masked view before editor claims and existing complet
 ## Dependencies
 
 - **Depends on:** [bob-cli-ee.1.1.1](bob-cli-ee.1.1.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-ee.1.1.3](bob-cli-ee.1.1.3.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-ee.1.1.3](bob-cli-ee.1.1.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -31,3 +31,15 @@ editor: consume the shared masked view before editor claims and existing complet
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`23ba480`](https://github.com/bobs-org/bob-cli/commit/23ba4805ecbdd6741b4e47d2e3a01b0317849640) | feat(capture): editor spans and transparent completion parsing | [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) | 2026-10-30 06:50:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ee.1.1.2][1] | Check phase notes for earlier work | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->
