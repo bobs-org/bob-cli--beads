@@ -15,7 +15,7 @@ type-tag-rendering: render explicit types as a colored #TYPE in the #task slot, 
 
 - **Blocks:** [bob-cli-e6.14](bob-cli-e6.14.md) ◐ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.16](bob-cli-e6.16.md) ◐ · ⧖ 2026-10-29
-- **Depends on:** [bob-cli-e6.8](bob-cli-e6.8.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e6.8](bob-cli-e6.8.md) ○ · ⧖ 2026-10-29
 
 ## Agents
 

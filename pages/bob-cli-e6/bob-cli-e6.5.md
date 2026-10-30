@@ -22,8 +22,8 @@ routing-core: add the pure agreement, retype, placement, and relocation planners
 ## Dependencies
 
 - **Depends on:** [bob-cli-e6.4](bob-cli-e6.4.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.6](bob-cli-e6.6.md) ◐ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.8](bob-cli-e6.8.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.6](bob-cli-e6.6.md) ✓ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.8](bob-cli-e6.8.md) ○ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -36,3 +36,15 @@ routing-core: add the pure agreement, retype, placement, and relocation planners
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1750474`](https://github.com/bobs-org/bob-cli/commit/17504745c584e7e0bffc25342ce3791e3857560c) | feat(types): add task-type routing planners and type\_mismatch lint | [bob-cli-e6.5](bob-cli-e6.5.md) | 2026-10-29 20:09:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e6.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.5/README.md
+
+<!-- sase:referenced-by:end -->

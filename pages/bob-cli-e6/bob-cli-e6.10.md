@@ -14,7 +14,7 @@ move-retype: make the Pomodoro bullet move picker apply the retype rule with Ent
 ## Dependencies
 
 - **Blocks:** [bob-cli-e6.13](bob-cli-e6.13.md) ◐ · ⧖ 2026-10-29
-- **Depends on:** [bob-cli-e6.8](bob-cli-e6.8.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e6.8](bob-cli-e6.8.md) ○ · ⧖ 2026-10-29
 
 ## Agents
 
