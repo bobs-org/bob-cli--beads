@@ -19,6 +19,8 @@ gcal-auth: extract gkeep's hardened subprocess runner, add the gcal module, conf
 
 [2026-10-30T01:38:35Z · bob-cli-ea.4--1] Registered bob gcal (login, logout, doctor, calendars) with gog transport and BOB_GCAL_GOG. Verified gcal_auth (23) and gcal_cli (5) FakeGog tests, catalog count 58, Integrations alphabetical order (gcal before gkeep), root help snapshots, fmt, clippy deny gates, and no leftover --epic-symbol entries. Pinned capture-related archive mtime test to BOB_NOW so the 30-day window does not drift with wall-clock.
 
+[2026-10-30T02:04:58Z · bob-cli-ea.4--2] Regenerated CLI reference via just docs-gen so gcal sorts before gkeep in docs/reference/cli/index.md and mkdocs.yml Integrations nav; docs_reference::cli_reference_is_current now passes.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-ea.5](bob-cli-ea.5.md) ◐ · ⧖ 2026-10-29

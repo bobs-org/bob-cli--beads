@@ -28,7 +28,7 @@ Every day, the Google Calendar events Bryan said yes to appear as Event Tasks in
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ea.1](bob-cli-ea.1.md) | Modernize meet.md and prepare the vault | ✓ closed | small | 2026-10-29 | 1 | 1 |
-| [bob-cli-ea.2](bob-cli-ea.2.md) | Event Task grammar and the clock-aware MEET close (Rust) | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-ea.2](bob-cli-ea.2.md) | Event Task grammar and the clock-aware MEET close (Rust) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-ea.3](bob-cli-ea.3.md) | Clock-aware Ctrl+Enter close in Obsidian | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-ea.4](bob-cli-ea.4.md) | bob gcal skeleton, gog transport, login, logout, doctor, calendars | ✓ closed | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-ea.5](bob-cli-ea.5.md) | Event fetch, inclusion rule, root precedence, and bob gcal list | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
@@ -43,7 +43,7 @@ Every day, the Google Calendar events Bryan said yes to appear as Event Tasks in
 flowchart TD
     n0["bob-cli-ea: bob gcal: Google Calendar events as daily-note Event Tasks [in_progress]"]
     n1["bob-cli-ea.1: Modernize meet.md and prepare the vault [closed]"]
-    n2["bob-cli-ea.2: Event Task grammar and the clock-aware MEET close (Rust) [in_progress]"]
+    n2["bob-cli-ea.2: Event Task grammar and the clock-aware MEET close (Rust) [closed]"]
     n3["bob-cli-ea.3: Clock-aware Ctrl+Enter close in Obsidian [in_progress]"]
     n4["bob-cli-ea.4: bob gcal skeleton, gog transport, login, logout, doctor, calendars [closed]"]
     n5["bob-cli-ea.5: Event fetch, inclusion rule, root precedence, and bob gcal list [in_progress]"]
@@ -78,7 +78,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ea.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.1.md) | [bob-cli-ea.1](bob-cli-ea.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ea.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.2.md) | [bob-cli-ea.2](bob-cli-ea.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ea.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.2.md) | [bob-cli-ea.2](bob-cli-ea.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ea.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.3/README.md) | [bob-cli-ea.3](bob-cli-ea.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ea.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.4.md) | [bob-cli-ea.4](bob-cli-ea.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ea.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.5/README.md) | [bob-cli-ea.5](bob-cli-ea.5.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1dc5fa4`](https://github.com/bobs-org/bob-cli/commit/1dc5fa427d63cb6382859f7cf1bf4cd58fcda808) | docs(homes): record meet as a top-level violet area | [bob-cli-ea.1](bob-cli-ea.1.md) | 2026-10-29 22:02:24 EDT |
+| bob-cli | [`4f2828e`](https://github.com/bobs-org/bob-cli/commit/4f2828e3b28390b6ddfe0694c46ef85c9778b8ce) | feat(capture): close event tasks by meeting clock | [bob-cli-ea.2](bob-cli-ea.2.md) | 2026-10-29 22:50:50 EDT |
