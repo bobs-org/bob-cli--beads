@@ -29,4 +29,10 @@ gcal-auth: extract gkeep's hardened subprocess runner, add the gcal module, conf
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ea.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.4.md) | [bob-cli-ea.4](bob-cli-ea.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ea.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.4.md) | [bob-cli-ea.4](bob-cli-ea.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`26e6b1d`](https://github.com/bobs-org/bob-cli/commit/26e6b1d1e50b0c9c70daa497214e7f5420c60283) | feat(gcal): add bob gcal login, logout, doctor, and calendars | [bob-cli-ea.4](bob-cli-ea.4.md) | 2026-10-29 23:27:30 EDT |
