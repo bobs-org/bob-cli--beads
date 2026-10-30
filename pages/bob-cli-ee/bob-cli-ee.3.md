@@ -22,7 +22,7 @@ complete: add the `task_type` capture-complete context with configured-type cand
 ## Dependencies
 
 - **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-ee.4](bob-cli-ee.4.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-ee.4](bob-cli-ee.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -35,3 +35,15 @@ complete: add the `task_type` capture-complete context with configured-type cand
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`03a3497`](https://github.com/bobs-org/bob-cli/commit/03a3497fe26a6b2c5c1f0ae09bdb026b1e19f839) | feat(capture): add task type completion context | [bob-cli-ee.3](bob-cli-ee.3.md) | 2026-10-30 11:34:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ee.3--6][1] | Need phase scope, design file, and recorded follow-up notes before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.3.md
+
+<!-- sase:referenced-by:end -->
