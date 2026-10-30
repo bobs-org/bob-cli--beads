@@ -13,7 +13,7 @@ existing: let `t:` retype the existing task an item targets (whole-item links, E
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-ee.4](bob-cli-ee.4.md) ◐ · ⧖ 2026-10-30
 
 ## Agents

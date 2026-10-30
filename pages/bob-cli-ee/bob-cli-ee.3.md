@@ -13,7 +13,7 @@ complete: add the `task_type` capture-complete context with configured-type cand
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-ee.4](bob-cli-ee.4.md) ◐ · ⧖ 2026-10-30
 
 ## Agents

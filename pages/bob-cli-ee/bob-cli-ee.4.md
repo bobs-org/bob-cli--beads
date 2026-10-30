@@ -13,7 +13,7 @@ mac: decode the new contract, paint `t:` markers as type pills, open a compact t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [bob-cli-ee.2](bob-cli-ee.2.md) ◐ · ⧖ 2026-10-30
 - **Depends on:** [bob-cli-ee.3](bob-cli-ee.3.md) ◐ · ⧖ 2026-10-30
 
