@@ -14,7 +14,7 @@ sheet: add Ctrl+M marking in list and argument stages, the numbered sequence tra
 ## Dependencies
 
 - **Depends on:** [bob-cli-er.1](bob-cli-er.1.md) ✓ · ⧖ 2026-10-30
-- **Depends on:** [bob-cli-er.2](bob-cli-er.2.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-er.2](bob-cli-er.2.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-er.4](bob-cli-er.4.md) ◐ · ⧖ 2026-10-30
 
 ## Agents

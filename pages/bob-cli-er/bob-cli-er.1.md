@@ -19,7 +19,7 @@ engine: add the pure step and history model, stamp step run records, add the in-
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-er.2](bob-cli-er.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-er.2](bob-cli-er.2.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-er.3](bob-cli-er.3.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
@@ -33,3 +33,15 @@ engine: add the pure step and history model, stamp step run records, add the in-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@cdd61a4`](https://github.com/bobs-org/bob-plugins/commit/cdd61a4cb32bb9e9ec7ac2269d77716fe2d30483) | feat(command-mode): add sequence engine, stamps, and plugin wiring | [bob-cli-er.1](bob-cli-er.1.md) | 2026-10-30 17:50:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-er.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-er.1/README.md
+
+<!-- sase:referenced-by:end -->
