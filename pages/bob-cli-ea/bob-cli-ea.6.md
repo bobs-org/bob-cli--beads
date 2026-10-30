@@ -42,7 +42,9 @@ gcal-sync: render Event Task and context rows, keep the per-host journal, plan i
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ea.6][1] | Need full phase description, notes, and remaining work | 2 |
+| read-by | [agent:bob-cli-ea.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md
 
 <!-- sase:referenced-by:end -->

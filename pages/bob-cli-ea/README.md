@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/bob_gcal_daily_events.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_gcal_daily_events.md
 
@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ea.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.7/README.md) | [bob-cli-ea.7](bob-cli-ea.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ea.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md) | [bob-cli-ea.8](bob-cli-ea.8.md) | 3 |
 | [bbugyi200.apollo.bob-cli-ea.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.9/README.md) | [bob-cli-ea.9](bob-cli-ea.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ea.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md) | [bob-cli-ea](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ea.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md) | [bob-cli-ea](README.md) | 3 |
 
 ## Commits
 
@@ -127,6 +127,7 @@ flowchart TD
 | chezmoi | [`chezmoi@1374445`](https://github.com/bbugyi200/dotfiles/commit/13744456df8e16ada7c30b7166dd3a6d72c4cce0) | feat(gcal): add chezmoi gcal config block and Mac sync LaunchAgent | [bob-cli-ea.9](bob-cli-ea.9.md) | 2026-10-30 03:51:09 EDT |
 | bob-cli | [`a0a6b49`](https://github.com/bobs-org/bob-cli/commit/a0a6b497467c4411076f8526407c1b801a0be739) | fix(gcal): land bob gcal with clippy fixes and integration docs | [bob-cli-ea](README.md) | 2026-10-30 04:38:35 EDT |
 | bob-plugins | [`bob-plugins@5ba4683`](https://github.com/bobs-org/bob-plugins/commit/5ba4683d997ee62a3434b30d4e47074e144044a6) | test: drop duplicate gcal test entries from npm test list | [bob-cli-ea](README.md) | 2026-10-30 04:40:13 EDT |
+| bob-cli--plans | [`bob-cli--plans@47274fe`](https://github.com/bobs-org/bob-cli--plans/commit/47274fef6977ea53c82ea9206af613b9b04b4b41) | chore(plans): mark bob\_gcal\_daily\_events done after bob-cli-ea landed | [bob-cli-ea](README.md) | 2026-10-30 04:41:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -138,10 +139,12 @@ flowchart TD
 | read-by | [agent:bob-cli-ea.3][2] | Need epic DECISIONS and plan context for phase work | 1 |
 | read-by | [agent:bob-cli-ea.6][3] | epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-ea.9][4] | epic context | 1 |
+| read-by | [agent:bob-cli-ea.land][5] | Need the parent link after close | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.6/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.9/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -44,8 +44,10 @@ event-close-js: mirror the clock rule in task-status-cycler's Pomodoro completio
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e6.12][1] | Check whether the prior clean-base generated-doc drift follow-up already has an active task | 1 |
 | read-by | [agent:bob-cli-ea.3][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-ea.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.12/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md
 
 <!-- sase:referenced-by:end -->

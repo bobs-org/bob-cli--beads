@@ -40,8 +40,10 @@ gcal-list: fetch one DST-safe local day per calendar as a complete snapshot, nor
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e6.land--4][1] | Verify the source phase for src/native/gcal/classify.rs and whether its Clippy failure needs corroboration | 1 |
 | read-by | [agent:bob-cli-ea.5--1][2] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-ea.land][3] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.5.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md
 
 <!-- sase:referenced-by:end -->

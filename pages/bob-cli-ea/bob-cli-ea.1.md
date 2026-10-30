@@ -39,7 +39,9 @@ meet-area: turn ~/bob/meet.md into a top-level violet area with task_type MEET a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ea.1--3][1] | Need the phase scope, notes, and remaining work after monitor pass | 1 |
+| read-by | [agent:bob-cli-ea.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md
 
 <!-- sase:referenced-by:end -->

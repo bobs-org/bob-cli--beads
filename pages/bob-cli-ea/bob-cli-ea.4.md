@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-ef][1] | Phase that extracted gkeep's runner into subprocess_runner and proposed this follow-up (note #1) |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ef/README.md
 
@@ -58,7 +58,9 @@ gcal-auth: extract gkeep's hardened subprocess runner, add the gcal module, conf
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ea.4--3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-ea.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md
 
 <!-- sase:referenced-by:end -->
