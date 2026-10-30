@@ -19,7 +19,7 @@ js-mirror: mirror storage, config, the cascade, and the four routing planners in
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e6.10](bob-cli-e6.10.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.10](bob-cli-e6.10.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.11](bob-cli-e6.11.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.12](bob-cli-e6.12.md) ◐ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.5](bob-cli-e6.5.md) ✓ · ⧖ 2026-10-29
@@ -43,8 +43,10 @@ js-mirror: mirror storage, config, the cascade, and the four routing planners in
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-e6.8][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-e6.11][1] | Need js-mirror landing so link-picker-retype can reuse the routing API | 1 |
+| read-by | [agent:bob-cli-e6.8][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.11/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md
 
 <!-- sase:referenced-by:end -->
