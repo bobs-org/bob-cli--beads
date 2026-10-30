@@ -22,7 +22,7 @@ capture-placement: route every bare link-creating capture form to the Pomodoro c
 ## Dependencies
 
 - **Blocks:** [bob-cli-e6.12](bob-cli-e6.12.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.14](bob-cli-e6.14.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.14](bob-cli-e6.14.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.15](bob-cli-e6.15.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.6](bob-cli-e6.6.md) ✓ · ⧖ 2026-10-29
 
@@ -45,7 +45,9 @@ capture-placement: route every bare link-creating capture form to the Pomodoro c
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-e6.7][1] | Verify follow-up notes landed before final verification | 3 |
+| read-by | [agent:bob-cli-eb.3--1][2] | Check whether the clean-base CLI failure is already tracked before recording the phase follow-up | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.3.md
 
 <!-- sase:referenced-by:end -->

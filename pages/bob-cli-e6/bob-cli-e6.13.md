@@ -24,7 +24,7 @@ task-card-relocate: rename the Task Card stage to Type, allow every type includi
 ## Dependencies
 
 - **Depends on:** [bob-cli-e6.10](bob-cli-e6.10.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.14](bob-cli-e6.14.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.14](bob-cli-e6.14.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
