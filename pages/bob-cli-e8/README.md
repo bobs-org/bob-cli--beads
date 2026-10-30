@@ -43,7 +43,7 @@ When one task's own text links another task (`[[note#^id]]`, embedded or struck 
 | [bob-cli-e8.6](bob-cli-e8.6.md) | Mention rows, pills, quotes, and jump-to-mention | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.7](bob-cli-e8.7.md) | Mention context card and embed-echo suppression | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.8](bob-cli-e8.8.md) | Nav courtesy writes, stage rows, refusals, and counts | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e8.9](bob-cli-e8.9.md) | Vault-copy pilot and switch-on | ✓ closed | small | 2026-10-29 | 1 | 1 |
+| [bob-cli-e8.9](bob-cli-e8.9.md) | Vault-copy pilot and switch-on | ✓ closed | small | 2026-10-29 | 1 | 2 |
 
 ## Lineage
 
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.6/README.md) | [bob-cli-e8.6](bob-cli-e8.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.7/README.md) | [bob-cli-e8.7](bob-cli-e8.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md) | [bob-cli-e8.8](bob-cli-e8.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.9.md) | [bob-cli-e8.9](bob-cli-e8.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.9.md) | [bob-cli-e8.9](bob-cli-e8.9.md) | 2 |
 | [bbugyi200.apollo.bob-cli-e8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.land/README.md) | [bob-cli-e8](README.md) | 0 |
 
 ## Commits
@@ -109,6 +109,7 @@ flowchart TD
 | bob-cli | [`b8bcc78`](https://github.com/bobs-org/bob-cli/commit/b8bcc78a6a5218d5075b6efeef892685fdb79fbf) | feat(task-relations): project text mentions onto LINKED FROM | [bob-cli-e8.3](bob-cli-e8.3.md) | 2026-10-29 21:44:01 EDT |
 | bob-cli | [`22a8c84`](https://github.com/bobs-org/bob-cli/commit/22a8c84fb3d6853d537ba663d0c10b371f1a5769) | feat(capture): stage task mention mirrors atomically | [bob-cli-e8.4](bob-cli-e8.4.md) | 2026-10-30 09:42:42 EDT |
 | bob-cli | [`b081097`](https://github.com/bobs-org/bob-cli/commit/b081097cbcd7b914d7299f8db4767d4e497ba952) | feat(task-mentions): enable linked-from mentions by default | [bob-cli-e8.9](bob-cli-e8.9.md) | 2026-10-30 10:28:00 EDT |
+| bob-plugins | [`bob-plugins@8dbcbea`](https://github.com/bobs-org/bob-plugins/commit/8dbcbead6ec550b874d046f7190ae64b26efd9cb) | feat(task-mentions): enable mention mirrors by default | [bob-cli-e8.9](bob-cli-e8.9.md) | 2026-10-30 10:28:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
