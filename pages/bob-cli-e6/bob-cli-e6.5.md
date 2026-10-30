@@ -23,7 +23,7 @@ routing-core: add the pure agreement, retype, placement, and relocation planners
 
 - **Depends on:** [bob-cli-e6.4](bob-cli-e6.4.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.6](bob-cli-e6.6.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.8](bob-cli-e6.8.md) ○ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.8](bob-cli-e6.8.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
