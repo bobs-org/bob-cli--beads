@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ee.1.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.1/README.md) | [bob-cli-ee.1.1.1](bob-cli-ee.1.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ee.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md) | [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ee.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.3/README.md) | [bob-cli-ee.1.1.3](bob-cli-ee.1.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ee.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md) | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ee.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md) | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ee.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.2/README.md) | [bob-cli-ee.2](bob-cli-ee.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ee.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.3/README.md) | [bob-cli-ee.3](bob-cli-ee.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ee.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.4/README.md) | [bob-cli-ee.4](bob-cli-ee.4.md) | 0 |
@@ -86,6 +86,7 @@ flowchart TD
 | bob-cli | [`23ba480`](https://github.com/bobs-org/bob-cli/commit/23ba4805ecbdd6741b4e47d2e3a01b0317849640) | feat(capture): editor spans and transparent completion parsing | [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) | 2026-10-30 06:50:59 EDT |
 | bob-cli | [`f40a625`](https://github.com/bobs-org/bob-cli/commit/f40a625aa776f6291a34ffe229eede07bc384b55) | feat(capture): enable t: type-marker writes for new tasks | [bob-cli-ee.1.1.3](bob-cli-ee.1.1.3.md) | 2026-10-30 07:59:32 EDT |
 | bob-cli | [`41e8959`](https://github.com/bobs-org/bob-cli/commit/41e89597a70755763e27ce74138b05baa00e1c54) | feat(capture): complete type-marker grammar and writers | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2026-10-30 09:40:00 EDT |
+| bob-cli--plans | [`bob-cli--plans@2aae7dc`](https://github.com/bobs-org/bob-cli--plans/commit/2aae7dcd9bbb870c7ec126e0356ff9c372d98d03) | docs(plans): mark capture type grammar complete | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2026-10-30 09:40:44 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -40,13 +40,14 @@ REMAINING EPIC WORK, reproduced against freshly built f40a625a in scratch vaults
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ee.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md) | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ee.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md) | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`41e8959`](https://github.com/bobs-org/bob-cli/commit/41e89597a70755763e27ce74138b05baa00e1c54) | feat(capture): complete type-marker grammar and writers | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2026-10-30 09:40:00 EDT |
+| bob-cli--plans | [`bob-cli--plans@2aae7dc`](https://github.com/bobs-org/bob-cli--plans/commit/2aae7dcd9bbb870c7ec126e0356ff9c372d98d03) | docs(plans): mark capture type grammar complete | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2026-10-30 09:40:44 EDT |
 
 <!-- sase:referenced-by:start -->
 
