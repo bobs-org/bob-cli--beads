@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ee.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.2/README.md) | [bob-cli-ee.2](bob-cli-ee.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ee.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.3.md) | [bob-cli-ee.3](bob-cli-ee.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ee.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.4.md) | [bob-cli-ee.4](bob-cli-ee.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ee.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.land.md) | [bob-cli-ee](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ee.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.land.md) | [bob-cli-ee](README.md) | 3 |
 
 ## Commits
 
@@ -111,6 +111,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@68aa63a`](https://github.com/bobs-org/bob-mac-capture/commit/68aa63a1536b677f4ed57d8492864665a3bb73f8) | feat(capture): present t:\<type\> menu, pills, and relocation preview | [bob-cli-ee.4](bob-cli-ee.4.md) | 2026-10-30 13:23:23 EDT |
 | bob-cli | [`6990e89`](https://github.com/bobs-org/bob-cli/commit/6990e89b1ad1b9d1984f37adc29bfb5129a6d2d3) | fix(capture): pin D8 relocation identity and named type-marker agreement | [bob-cli-ee](README.md) | 2026-10-30 14:32:23 EDT |
 | bob-mac-capture | [`bob-mac-capture@f6a2e73`](https://github.com/bobs-org/bob-mac-capture/commit/f6a2e732ef0a8136885488d5bb9b068303614a8a) | test(capture): refresh t:type fixtures for truthful relocation previews | [bob-cli-ee](README.md) | 2026-10-30 14:33:19 EDT |
+| bob-cli--plans | [`bob-cli--plans@97580b9`](https://github.com/bobs-org/bob-cli--plans/commit/97580b9f420eeee3f9cf1f37bf810aefaaa1ee96) | chore(plans): mark capture type-marker epic and landing tale done | [bob-cli-ee](README.md) | 2026-10-30 14:33:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
