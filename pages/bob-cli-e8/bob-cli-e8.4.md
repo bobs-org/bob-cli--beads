@@ -38,7 +38,7 @@ Prior close: 2026-10-30T02:57:48Z · done.
 ## Dependencies
 
 - **Depends on:** [bob-cli-e8.3](bob-cli-e8.3.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -51,3 +51,15 @@ Prior close: 2026-10-30T02:57:48Z · done.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`22a8c84`](https://github.com/bobs-org/bob-cli/commit/22a8c84fb3d6853d537ba663d0c10b371f1a5769) | feat(capture): stage task mention mirrors atomically | [bob-cli-e8.4](bob-cli-e8.4.md) | 2026-10-30 09:42:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e8.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.4/README.md
+
+<!-- sase:referenced-by:end -->

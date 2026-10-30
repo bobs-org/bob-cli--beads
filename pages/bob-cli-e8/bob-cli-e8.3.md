@@ -21,7 +21,7 @@ cli-reconcile: fold mention pairs into reconcile_relation_lines with precedence,
 
 - **Depends on:** [bob-cli-e8.2](bob-cli-e8.2.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.4](bob-cli-e8.4.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
