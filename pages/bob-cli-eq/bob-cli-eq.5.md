@@ -13,7 +13,7 @@ naming: the Block ID prompt's wikilink mode, its back-to-picker lifecycle, close
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-eq.4](bob-cli-eq.4.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-eq.4](bob-cli-eq.4.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-eq.6](bob-cli-eq.6.md) ◐ · ⧖ 2026-10-30
 
 ## Agents

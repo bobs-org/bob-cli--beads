@@ -18,7 +18,7 @@ index: an incrementally maintained, mtime-validated vault task index with live-e
 ## Dependencies
 
 - **Depends on:** [bob-cli-eq.1](bob-cli-eq.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-eq.4](bob-cli-eq.4.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eq.4](bob-cli-eq.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -31,3 +31,15 @@ index: an incrementally maintained, mtime-validated vault task index with live-e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4ef761a`](https://github.com/bobs-org/bob-plugins/commit/4ef761a6ec491e607c405ee4d7bf0a1867c1a145) | feat(block-id-prompt): warm vault task index for the (( picker | [bob-cli-eq.3](bob-cli-eq.3.md) | 2026-10-30 17:40:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eq.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.3/README.md
+
+<!-- sase:referenced-by:end -->

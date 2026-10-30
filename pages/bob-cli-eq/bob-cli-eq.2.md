@@ -21,7 +21,7 @@ trigger: pure (( token detection for Markdown notes, its note-only exclusions, a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-eq.4](bob-cli-eq.4.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eq.4](bob-cli-eq.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
