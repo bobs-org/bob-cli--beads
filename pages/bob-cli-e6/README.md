@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/task_types.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-ec][2] | Deferred closeout steps of the task-types epic (phase closeout, bob-cli-e6.16 note #1) |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ec/README.md
@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md) | [bob-cli-e6.8](bob-cli-e6.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.9/README.md) | [bob-cli-e6.9](bob-cli-e6.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md) | [bob-cli-e6](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md) | [bob-cli-e6](README.md) | 2 |
 
 ## Commits
 
@@ -180,6 +180,7 @@ flowchart TD
 | bob-cli | [`3aa31b3`](https://github.com/bobs-org/bob-cli/commit/3aa31b349ab2dd1e290bb7f26e2c43c74f9657df) | chore(types): close out glossary docs and vectors | [bob-cli-e6.16](bob-cli-e6.16.md) | 2026-10-30 01:55:16 EDT |
 | bob-plugins | [`bob-plugins@957f741`](https://github.com/bobs-org/bob-plugins/commit/957f74120580d12cc9f03164c97cde82469e902a) | test(types): remove retired write-rule vectors | [bob-cli-e6.16](bob-cli-e6.16.md) | 2026-10-30 01:57:06 EDT |
 | bob-cli | [`3b0ffa0`](https://github.com/bobs-org/bob-cli/commit/3b0ffa0a360a1df70a185cc864c641b2e9489c9f) | feat: complete task type workflow integration | [bob-cli-e6](README.md) | 2026-10-30 04:20:42 EDT |
+| bob-mac-capture | [`bob-mac-capture@2f9a70a`](https://github.com/bobs-org/bob-mac-capture/commit/2f9a70a7a6417858b0ac6fc469a7b73042d823b7) | feat(capture): present task-type labels and budgets | [bob-cli-e6](README.md) | 2026-10-30 04:35:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -191,14 +192,16 @@ flowchart TD
 | read-by | [agent:bob-cli-e6.14][2] | need epic context for phase | 1 |
 | read-by | [agent:bob-cli-e6.2][3] | Need epic scope and plan | 1 |
 | read-by | [agent:bob-cli-e6.7][4] | Need epic scope | 1 |
-| read-by | [agent:bob-cli-e7.1--1][5] | Need the epic scope for themes-to-types CLI test drift | 1 |
-| read-by | [agent:bob-cli-e7.2--1][6] | Need the epic scope to see if leftover themes CLI test failures belong here | 1 |
+| read-by | [agent:bob-cli-e6.land--4][5] | Verify epic closeout criteria, plugin deploy dependency, and the documented test owner | 1 |
+| read-by | [agent:bob-cli-e7.1--1][6] | Need the epic scope for themes-to-types CLI test drift | 1 |
+| read-by | [agent:bob-cli-e7.2--1][7] | Need the epic scope to see if leftover themes CLI test failures belong here | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.2/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.1.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.2.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.1.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.2.md
 
 <!-- sase:referenced-by:end -->
