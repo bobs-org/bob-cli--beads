@@ -7,6 +7,20 @@
 **Created:** 2026-10-30 16:10:20 EDT
 **Plan:** [202610/obsidian\_task\_wikilinks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/obsidian_task_wikilinks.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/obsidian_task_wikilinks.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/obsidian_task_wikilinks.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Typing (( anywhere prose is allowed in an Obsidian note opens a fast, calm, keyboard-first picker over every task in the vault. Choosing a task replaces the token with the same [[note#^id]] block link Bob Mac Capture would insert, naming an ID-less task first. Under an open Pomodoro the link obeys Task Link rules. Nothing else ever changes by surprise.
@@ -15,8 +29,8 @@ Typing (( anywhere prose is allowed in an Obsidian note opens a fast, calm, keyb
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-eq.1](bob-cli-eq.1.md) | Shared task wikilink rules and parity vectors | ○ open | medium | 2026-10-30 | 1 | 0 |
-| [bob-cli-eq.2](bob-cli-eq.2.md) | Note grammar for the (( trigger | ✓ closed | small | 2026-10-30 | 1 | 1 |
+| [bob-cli-eq.1](bob-cli-eq.1.md) | Shared task wikilink rules and parity vectors | ✓ closed | medium | 2026-10-30 | 1 | 1 |
+| [bob-cli-eq.2](bob-cli-eq.2.md) | Note grammar for the (( trigger | ✓ closed | small | 2026-10-30 | 1 | 0 |
 | [bob-cli-eq.3](bob-cli-eq.3.md) | Warm vault task index | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [bob-cli-eq.4](bob-cli-eq.4.md) | Task Wikilink Picker card and identified-link insert | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [bob-cli-eq.5](bob-cli-eq.5.md) | Name-then-link for ID-less tasks | ◐ in_progress | small | 2026-10-30 | 1 | 0 |
@@ -28,7 +42,7 @@ Typing (( anywhere prose is allowed in an Obsidian note opens a fast, calm, keyb
 ```mermaid
 flowchart TD
     n0["bob-cli-eq: (( task wikilink picker in Obsidian [in_progress]"]
-    n1["bob-cli-eq.1: Shared task wikilink rules and parity vectors [open]"]
+    n1["bob-cli-eq.1: Shared task wikilink rules and parity vectors [closed]"]
     n2["bob-cli-eq.2: Note grammar for the (( trigger [closed]"]
     n3["bob-cli-eq.3: Warm vault task index [in_progress]"]
     n4["bob-cli-eq.4: Task Wikilink Picker card and identified-link insert [in_progress]"]
@@ -54,8 +68,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-eq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.1/README.md) | [bob-cli-eq.1](bob-cli-eq.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-eq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.2/README.md) | [bob-cli-eq.2](bob-cli-eq.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-eq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.1/README.md) | [bob-cli-eq.1](bob-cli-eq.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-eq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.2/README.md) | [bob-cli-eq.2](bob-cli-eq.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-eq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.3/README.md) | [bob-cli-eq.3](bob-cli-eq.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-eq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.4/README.md) | [bob-cli-eq.4](bob-cli-eq.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-eq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.5/README.md) | [bob-cli-eq.5](bob-cli-eq.5.md) | 0 |
@@ -67,4 +81,16 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@27acd61`](https://github.com/bobs-org/bob-plugins/commit/27acd61630e576e9964ab9639fe09b5c96762fc3) | feat(block-id-prompt): pure (( trigger grammar with vectors and tests | [bob-cli-eq.2](bob-cli-eq.2.md) | 2026-10-30 16:27:23 EDT |
+| bob-cli | [`ebd74b7`](https://github.com/bobs-org/bob-cli/commit/ebd74b7b7a21b3888623651a54997fbe9cea2550) | feat(capture): add task-wikilink ranker vectors and candidates tests | [bob-cli-eq.1](bob-cli-eq.1.md) | 2026-10-30 16:51:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eq.2][1] | epic scope and decisions | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.2/README.md
+
+<!-- sase:referenced-by:end -->

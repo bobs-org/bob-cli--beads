@@ -13,7 +13,7 @@ index: an incrementally maintained, mtime-validated vault task index with live-e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-eq.1](bob-cli-eq.1.md) ○ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-eq.1](bob-cli-eq.1.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-eq.4](bob-cli-eq.4.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
