@@ -20,7 +20,7 @@ gcal-sync: render Event Task and context rows, keep the per-host journal, plan i
 - **Depends on:** [bob-cli-ea.1](bob-cli-ea.1.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-ea.2](bob-cli-ea.2.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-ea.5](bob-cli-ea.5.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-ea.7](bob-cli-ea.7.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.7](bob-cli-ea.7.md) ○ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-ea.8](bob-cli-ea.8.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
@@ -34,3 +34,15 @@ gcal-sync: render Event Task and context rows, keep the per-host journal, plan i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`98f9a23`](https://github.com/bobs-org/bob-cli/commit/98f9a23ad26f92df23ca9c6fc6b789353a3bd3a4) | feat(gcal): add bob gcal sync | [bob-cli-ea.6](bob-cli-ea.6.md) | 2026-10-30 02:24:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ea.6][1] | Need full phase description, notes, and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.6/README.md
+
+<!-- sase:referenced-by:end -->

@@ -11,6 +11,12 @@
 
 obsidian-events: run bob gcal sync when today's note is created, add a gcal-sync toast adapter, stop the section-move gesture from dropping task rows into the ledger, paint Events rows when chosen, test, document, and deploy.
 
+## Notes
+
+[2026-10-30T06:39:33Z · bob-cli-ea.8] PROPOSED FOLLOW-UP: Regenerate bob-cli generated docs after the Calendar decision records (already tracked by bob-cli-b6); docs-check fails on the clean 98f9a23 base because docs/develop/decisions.md is stale, outside this plugin phase.
+
+[2026-10-30T06:47:24Z · bob-cli-ea.8] PROPOSED FOLLOW-UP: Fix the four successor-theme wiring failures that remain on clean bob-plugins base 957f741 (related prior work: bob-cli-dm.7.1.4); the same four assertions fail in the current tree, outside this phase scope.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ea.6](bob-cli-ea.6.md) ✓ · ⧖ 2026-10-29
@@ -20,4 +26,10 @@ obsidian-events: run bob gcal sync when today's note is created, add a gcal-sync
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ea.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md) | [bob-cli-ea.8](bob-cli-ea.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ea.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md) | [bob-cli-ea.8](bob-cli-ea.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@cd214ff`](https://github.com/bobs-org/bob-plugins/commit/cd214ff67db0a6f78199275854446f4d2d3bcb9c) | fix(task-status-cycler): keep task rows out of Pomodoros | [bob-cli-ea.8](bob-cli-ea.8.md) | 2026-10-30 02:49:15 EDT |
