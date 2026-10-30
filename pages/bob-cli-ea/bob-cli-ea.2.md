@@ -18,7 +18,7 @@ event-close: add the shared Event Task parser and clock classifier, make bob's x
 ## Dependencies
 
 - **Blocks:** [bob-cli-ea.3](bob-cli-ea.3.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-ea.6](bob-cli-ea.6.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.6](bob-cli-ea.6.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

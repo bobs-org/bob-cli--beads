@@ -13,7 +13,7 @@ gcal-lifecycle: three-way update of untouched managed spans, cancel untouched ta
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ea.6](bob-cli-ea.6.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-ea.6](bob-cli-ea.6.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

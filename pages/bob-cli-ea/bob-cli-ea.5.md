@@ -18,7 +18,7 @@ gcal-list: fetch one DST-safe local day per calendar as a complete snapshot, nor
 ## Dependencies
 
 - **Depends on:** [bob-cli-ea.4](bob-cli-ea.4.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-ea.6](bob-cli-ea.6.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.6](bob-cli-ea.6.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -31,3 +31,15 @@ gcal-list: fetch one DST-safe local day per calendar as a complete snapshot, nor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`44058f6`](https://github.com/bobs-org/bob-cli/commit/44058f67ee227e3de850e5294edc44da21b0b349) | feat(gcal): add calendar list command | [bob-cli-ea.5](bob-cli-ea.5.md) | 2026-10-30 00:25:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ea.5--1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.5.md
+
+<!-- sase:referenced-by:end -->
