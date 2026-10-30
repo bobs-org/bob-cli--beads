@@ -21,7 +21,7 @@ capture-placement: route every bare link-creating capture form to the Pomodoro c
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-e6.12](bob-cli-e6.12.md) ○ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.12](bob-cli-e6.12.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.14](bob-cli-e6.14.md) ◐ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.15](bob-cli-e6.15.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.6](bob-cli-e6.6.md) ✓ · ⧖ 2026-10-29
