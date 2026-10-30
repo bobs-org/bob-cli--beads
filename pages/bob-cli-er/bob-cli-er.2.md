@@ -20,7 +20,7 @@ feedback: teach the status-bar chip to show step N/M and the running command, re
 ## Dependencies
 
 - **Depends on:** [bob-cli-er.1](bob-cli-er.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-er.3](bob-cli-er.3.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-er.3](bob-cli-er.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ feedback: teach the status-bar chip to show step N/M and the running command, re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a8f33a2`](https://github.com/bobs-org/bob-plugins/commit/a8f33a2f27a06b3d29ffb76518ba0eea0abbffa0) | feat(command-mode): status chip sequence step, summary toast, and pager step label | [bob-cli-er.2](bob-cli-er.2.md) | 2026-10-30 18:36:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-er.2--3][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.2.md
+
+<!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ engine: add the pure step and history model, stamp step run records, add the in-
 ## Dependencies
 
 - **Blocks:** [bob-cli-er.2](bob-cli-er.2.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-er.3](bob-cli-er.3.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-er.3](bob-cli-er.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

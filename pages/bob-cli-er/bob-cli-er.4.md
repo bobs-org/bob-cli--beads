@@ -13,7 +13,7 @@ docs: document sequences in the bob-plugins plugin reference and the bob-cli gui
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-er.3](bob-cli-er.3.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-er.3](bob-cli-er.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
