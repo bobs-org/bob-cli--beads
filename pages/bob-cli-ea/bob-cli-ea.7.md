@@ -22,7 +22,7 @@ gcal-lifecycle: three-way update of untouched managed spans, cancel untouched ta
 ## Dependencies
 
 - **Depends on:** [bob-cli-ea.6](bob-cli-ea.6.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -35,3 +35,15 @@ gcal-lifecycle: three-way update of untouched managed spans, cancel untouched ta
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1a8e784`](https://github.com/bobs-org/bob-cli/commit/1a8e784fa4302ba83b9174c2cc3ade5b421b2c22) | feat(gcal): three-way span updates, cancels, RSVP, series learning, list and doctor | [bob-cli-ea.7](bob-cli-ea.7.md) | 2026-10-30 03:39:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ea.7][1] | full read | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.7/README.md
+
+<!-- sase:referenced-by:end -->

@@ -41,7 +41,7 @@ Every day, the Google Calendar events Bryan said yes to appear as Event Tasks in
 | [bob-cli-ea.6](bob-cli-ea.6.md) | bob gcal sync writes Events rows and MEET links | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-ea.7](bob-cli-ea.7.md) | Reconcile Google-side changes and learn series roots | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-ea.8](bob-cli-ea.8.md) | Obsidian trigger, ledger guard, and Events painting | ✓ closed | medium | 2026-10-29 | 1 | 0 |
-| [bob-cli-ea.9](bob-cli-ea.9.md) | Mac rollout, config, and handoff | ◐ in_progress | small | 2026-10-29 | 1 | 0 |
+| [bob-cli-ea.9](bob-cli-ea.9.md) | Mac rollout, config, and handoff | ✓ closed | small | 2026-10-29 | 1 | 1 |
 
 ## Lineage
 
@@ -56,7 +56,7 @@ flowchart TD
     n6["bob-cli-ea.6: bob gcal sync writes Events rows and MEET links [closed]"]
     n7["bob-cli-ea.7: Reconcile Google-side changes and learn series roots [closed]"]
     n8["bob-cli-ea.8: Obsidian trigger, ledger guard, and Events painting [closed]"]
-    n9["bob-cli-ea.9: Mac rollout, config, and handoff [in_progress]"]
+    n9["bob-cli-ea.9: Mac rollout, config, and handoff [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ea.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.6/README.md) | [bob-cli-ea.6](bob-cli-ea.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ea.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.7/README.md) | [bob-cli-ea.7](bob-cli-ea.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ea.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md) | [bob-cli-ea.8](bob-cli-ea.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ea.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.9/README.md) | [bob-cli-ea.9](bob-cli-ea.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ea.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.9/README.md) | [bob-cli-ea.9](bob-cli-ea.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ea.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md) | [bob-cli-ea](README.md) | 0 |
 
 ## Commits
@@ -104,6 +104,7 @@ flowchart TD
 | bob-cli | [`44058f6`](https://github.com/bobs-org/bob-cli/commit/44058f67ee227e3de850e5294edc44da21b0b349) | feat(gcal): add calendar list command | [bob-cli-ea.5](bob-cli-ea.5.md) | 2026-10-30 00:25:23 EDT |
 | bob-cli | [`98f9a23`](https://github.com/bobs-org/bob-cli/commit/98f9a23ad26f92df23ca9c6fc6b789353a3bd3a4) | feat(gcal): add bob gcal sync | [bob-cli-ea.6](bob-cli-ea.6.md) | 2026-10-30 02:24:20 EDT |
 | bob-cli | [`1a8e784`](https://github.com/bobs-org/bob-cli/commit/1a8e784fa4302ba83b9174c2cc3ade5b421b2c22) | feat(gcal): three-way span updates, cancels, RSVP, series learning, list and doctor | [bob-cli-ea.7](bob-cli-ea.7.md) | 2026-10-30 03:39:55 EDT |
+| chezmoi | [`chezmoi@1374445`](https://github.com/bbugyi200/dotfiles/commit/13744456df8e16ada7c30b7166dd3a6d72c4cce0) | feat(gcal): add chezmoi gcal config block and Mac sync LaunchAgent | [bob-cli-ea.9](bob-cli-ea.9.md) | 2026-10-30 03:51:09 EDT |
 
 <!-- sase:referenced-by:start -->
 

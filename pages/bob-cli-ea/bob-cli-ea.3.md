@@ -22,7 +22,7 @@ event-close-js: mirror the clock rule in task-status-cycler's Pomodoro completio
 ## Dependencies
 
 - **Depends on:** [bob-cli-ea.2](bob-cli-ea.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

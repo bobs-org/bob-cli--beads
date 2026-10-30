@@ -18,7 +18,7 @@ meet-area: turn ~/bob/meet.md into a top-level violet area with task_type MEET a
 ## Dependencies
 
 - **Blocks:** [bob-cli-ea.6](bob-cli-ea.6.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

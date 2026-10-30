@@ -22,7 +22,7 @@ obsidian-events: run bob gcal sync when today's note is created, add a gcal-sync
 ## Dependencies
 
 - **Depends on:** [bob-cli-ea.6](bob-cli-ea.6.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.9](bob-cli-ea.9.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -36,7 +36,7 @@ obsidian-events: run bob gcal sync when today's note is created, add a gcal-sync
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ea.8][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-ea.8][1] | Need the phase scope, existing notes, design file, and epic decisions before continuing implementation | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md
 
