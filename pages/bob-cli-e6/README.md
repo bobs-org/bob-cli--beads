@@ -170,7 +170,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md) | [bob-cli-e6.8](bob-cli-e6.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.9/README.md) | [bob-cli-e6.9](bob-cli-e6.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.land/README.md) | [bob-cli-e6](README.md) | 3 |
+| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.land/README.md) | [bob-cli-e6](README.md) | 4 |
 
 ## Commits
 
@@ -199,6 +199,7 @@ flowchart TD
 | bob-cli | [`3b0ffa0`](https://github.com/bobs-org/bob-cli/commit/3b0ffa0a360a1df70a185cc864c641b2e9489c9f) | feat: complete task type workflow integration | [bob-cli-e6](README.md) | 2026-10-30 04:20:42 EDT |
 | bob-mac-capture | [`bob-mac-capture@2f9a70a`](https://github.com/bobs-org/bob-mac-capture/commit/2f9a70a7a6417858b0ac6fc469a7b73042d823b7) | feat(capture): present task-type labels and budgets | [bob-cli-e6](README.md) | 2026-10-30 04:35:00 EDT |
 | bob-plugins | [`bob-plugins@81a75b8`](https://github.com/bobs-org/bob-plugins/commit/81a75b8a10e33fa84af36898e2f333aecaf16b12) | feat: finish task-type plugin closeout | [bob-cli-e6](README.md) | 2026-10-30 09:58:58 EDT |
+| bob-cli--plans | [`bob-cli--plans@afaedf3`](https://github.com/bobs-org/bob-cli--plans/commit/afaedf32b0f73793baba1ef7684af42cd3f4865b) | chore(plans): mark task\_types epic plan done | [bob-cli-e6](README.md) | 2026-10-30 09:59:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
