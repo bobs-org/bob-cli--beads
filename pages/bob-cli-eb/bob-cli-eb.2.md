@@ -20,7 +20,7 @@ pandoc-wiring: add highlights.table_layout and highlights.table_prose_words, run
 ## Dependencies
 
 - **Depends on:** [bob-cli-eb.1](bob-cli-eb.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-eb.3](bob-cli-eb.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-eb.3](bob-cli-eb.3.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-eb.4](bob-cli-eb.4.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
@@ -34,3 +34,15 @@ pandoc-wiring: add highlights.table_layout and highlights.table_prose_words, run
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7d765b8`](https://github.com/bobs-org/bob-cli/commit/7d765b80e89549700ea4f88a0633c4181f0bb338) | feat(highlights): add configurable table layout for reference renders | [bob-cli-eb.2](bob-cli-eb.2.md) | 2026-10-29 23:38:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eb.2][1] | phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eb.2/README.md
+
+<!-- sase:referenced-by:end -->
