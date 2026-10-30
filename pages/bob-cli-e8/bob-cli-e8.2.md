@@ -20,7 +20,7 @@ cli-core: add task_relations/mentions.rs driven by the shared vectors, reserve �
 ## Dependencies
 
 - **Depends on:** [bob-cli-e8.1](bob-cli-e8.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e8.3](bob-cli-e8.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.3](bob-cli-e8.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -33,3 +33,15 @@ cli-core: add task_relations/mentions.rs driven by the shared vectors, reserve �
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`41338bc`](https://github.com/bobs-org/bob-cli/commit/41338bcfdf28959528b3f94471e2f16928ae53b6) | feat(task-relations): parse and preserve text mentions | [bob-cli-e8.2](bob-cli-e8.2.md) | 2026-10-29 20:03:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e8.2--7][1] | Need the phase scope, design file, and earlier notes before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.2.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ cli-capture: diff the mention pairs of every note a capture writes and stage the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-e8.3](bob-cli-e8.3.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e8.3](bob-cli-e8.3.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
