@@ -19,7 +19,7 @@ client: normalize gog's stored client JSON and pipe it to `gog auth credentials 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-eg.2](bob-cli-eg.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eg.2](bob-cli-eg.2.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -32,3 +32,15 @@ client: normalize gog's stored client JSON and pipe it to `gog auth credentials 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2ca76ca`](https://github.com/bobs-org/bob-cli/commit/2ca76ca05a1bc544f16a3686774ac4a6538a9550) | fix(gcal): reuse gog clients by piping normalized client JSON | [bob-cli-eg.1](bob-cli-eg.1.md) | 2026-10-30 10:13:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eg.1][1] | Check remaining work and notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-eg.1/README.md
+
+<!-- sase:referenced-by:end -->

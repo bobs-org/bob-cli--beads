@@ -13,7 +13,7 @@ experience: guided client setup with ~/Downloads discovery, the account picker a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-eg.2](bob-cli-eg.2.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-eg.2](bob-cli-eg.2.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-eg.4](bob-cli-eg.4.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
