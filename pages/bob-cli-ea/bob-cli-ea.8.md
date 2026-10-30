@@ -26,10 +26,11 @@ obsidian-events: run bob gcal sync when today's note is created, add a gcal-sync
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ea.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md) | [bob-cli-ea.8](bob-cli-ea.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ea.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.8/README.md) | [bob-cli-ea.8](bob-cli-ea.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@cd214ff`](https://github.com/bobs-org/bob-plugins/commit/cd214ff67db0a6f78199275854446f4d2d3bcb9c) | fix(task-status-cycler): keep task rows out of Pomodoros | [bob-cli-ea.8](bob-cli-ea.8.md) | 2026-10-30 02:49:15 EDT |
+| bob-plugins | [`bob-plugins@116ad00`](https://github.com/bobs-org/bob-plugins/commit/116ad007e2b23449f74a55c9748aa36837ebd1cb) | feat(command-mode): summarize Calendar sync outcomes | [bob-cli-ea.8](bob-cli-ea.8.md) | 2026-10-30 02:51:00 EDT |
