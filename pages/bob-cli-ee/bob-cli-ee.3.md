@@ -11,6 +11,12 @@
 
 complete: add the `task_type` capture-complete context with configured-type candidates, current, inherited, and effect annotations, a typed-name row, lossless replacements, and zsh completion rows.
 
+## Notes
+
+[2026-10-30T14:25:03Z · bob-cli-ee.3--2] PROPOSED FOLLOW-UP: Add decisions:type-marker-is-orthogonal for the t: orthogonality and named-Pomodoro agreement rules — the epic selected memory_record=no.
+
+[2026-10-30T14:25:17Z · bob-cli-ee.3--2] PROPOSED FOLLOW-UP: Reduce task-type zsh completion latency on apollo — 107.4 ms p95 on 2026-10-30 exceeds the 75 ms vault target while staying under the 150 ms deadline.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ee.1](bob-cli-ee.1.md) ✓ · ⧖ 2026-10-30
@@ -20,4 +26,4 @@ complete: add the `task_type` capture-complete context with configured-type cand
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ee.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.3/README.md) | [bob-cli-ee.3](bob-cli-ee.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ee.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.3.md) | [bob-cli-ee.3](bob-cli-ee.3.md) | 0 |

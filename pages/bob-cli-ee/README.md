@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/capture_type_marker.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_type_marker.md
 
@@ -30,7 +30,7 @@ Typing `t:` at either edge of any capture line opens a fast, beautiful menu of y
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ee.1](bob-cli-ee.1.md) | bob-cli t:\<type\> grammar, parse spans, and new-task typing | ✓ closed | large | 2026-10-30 | 1 | 0 |
-| [bob-cli-ee.2](bob-cli-ee.2.md) | bob-cli retyping of targeted existing tasks with D8 relocation | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
+| [bob-cli-ee.2](bob-cli-ee.2.md) | bob-cli retyping of targeted existing tasks with D8 relocation | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [bob-cli-ee.3](bob-cli-ee.3.md) | bob-cli task\_type completion context and zsh rows | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [bob-cli-ee.4](bob-cli-ee.4.md) | Bob Mac Capture t:\<type\> painting, type menu, and preview | ◐ in_progress | large | 2026-10-30 | 1 | 0 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["bob-cli-ee.1.1.1: Shared type-marker lexer and execution grammar [closed]"]
     n4["bob-cli-ee.1.1.2: Editor spans and transparent completion parsing [closed]"]
     n5["bob-cli-ee.1.1.3: New-task type writes, agreement, output and documentation [closed]"]
-    n6["bob-cli-ee.2: bob-cli retyping of targeted existing tasks with D8 relocation [in_progress]"]
+    n6["bob-cli-ee.2: bob-cli retyping of targeted existing tasks with D8 relocation [closed]"]
     n7["bob-cli-ee.3: bob-cli task_type completion context and zsh rows [in_progress]"]
     n8["bob-cli-ee.4: Bob Mac Capture t:&lt;type&gt; painting, type menu, and preview [in_progress]"]
     n0 --> n1
@@ -73,8 +73,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ee.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md) | [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ee.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.3/README.md) | [bob-cli-ee.1.1.3](bob-cli-ee.1.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ee.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md) | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ee.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.2/README.md) | [bob-cli-ee.2](bob-cli-ee.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ee.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.3/README.md) | [bob-cli-ee.3](bob-cli-ee.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ee.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.2/README.md) | [bob-cli-ee.2](bob-cli-ee.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ee.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.3.md) | [bob-cli-ee.3](bob-cli-ee.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ee.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.4/README.md) | [bob-cli-ee.4](bob-cli-ee.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ee.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.land/README.md) | [bob-cli-ee](README.md) | 0 |
 
@@ -87,6 +87,7 @@ flowchart TD
 | bob-cli | [`f40a625`](https://github.com/bobs-org/bob-cli/commit/f40a625aa776f6291a34ffe229eede07bc384b55) | feat(capture): enable t: type-marker writes for new tasks | [bob-cli-ee.1.1.3](bob-cli-ee.1.1.3.md) | 2026-10-30 07:59:32 EDT |
 | bob-cli | [`41e8959`](https://github.com/bobs-org/bob-cli/commit/41e89597a70755763e27ce74138b05baa00e1c54) | feat(capture): complete type-marker grammar and writers | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2026-10-30 09:40:00 EDT |
 | bob-cli--plans | [`bob-cli--plans@2aae7dc`](https://github.com/bobs-org/bob-cli--plans/commit/2aae7dcd9bbb870c7ec126e0356ff9c372d98d03) | docs(plans): mark capture type grammar complete | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 2026-10-30 09:40:44 EDT |
+| bob-cli | [`0e17806`](https://github.com/bobs-org/bob-cli/commit/0e17806152599506b963ac64c1f466943f8a782b) | feat(capture): retype existing tasks with t: and D8 relocation | [bob-cli-ee.2](bob-cli-ee.2.md) | 2026-10-30 10:56:56 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -95,7 +96,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ee.1.1.2][1] | Need epic DECISIONS final | 1 |
+| read-by | [agent:bob-cli-ee.1.1.land--1][2] | Verify the outer epic remains open after grammar phase closeout | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/capture_type_grammar.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_type_grammar.md
 
@@ -57,8 +57,10 @@ REMAINING EPIC WORK, reproduced against freshly built f40a625a in scratch vaults
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ee.1.1.2][1] | Need parent epic plan and DECISIONS | 1 |
 | read-by | [agent:bob-cli-ee.1.1.3][2] | parent epic scope and decisions | 1 |
+| read-by | [agent:bob-cli-ee.1.1.land--1][3] | Need the landing audit and child state | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md
 
 <!-- sase:referenced-by:end -->

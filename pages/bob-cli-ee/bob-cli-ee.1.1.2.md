@@ -39,7 +39,9 @@ editor: consume the shared masked view before editor claims and existing complet
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ee.1.1.2][1] | Check phase notes for earlier work | 4 |
+| read-by | [agent:bob-cli-ee.1.1.land--1][2] | Verify the editor parsing child phase and its notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md
 
 <!-- sase:referenced-by:end -->

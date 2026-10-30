@@ -27,7 +27,7 @@ grammar: lex `t:<type>` at line edges with one shared lexer, mask it out of the 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ee.2](bob-cli-ee.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-ee.2](bob-cli-ee.2.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-ee.3](bob-cli-ee.3.md) ◐ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-ee.4](bob-cli-ee.4.md) ◐ · ⧖ 2026-10-30
 
@@ -44,7 +44,9 @@ grammar: lex `t:<type>` at line edges with one shared lexer, mask it out of the 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ee.1.1.3][1] | grandparent phase decisions | 1 |
+| read-by | [agent:bob-cli-ee.1.1.land--1][2] | Inspect the parent phase status after the child epic close command | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md
 
 <!-- sase:referenced-by:end -->

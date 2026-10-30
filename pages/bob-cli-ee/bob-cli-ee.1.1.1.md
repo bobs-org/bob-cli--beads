@@ -41,8 +41,10 @@ language: implement the shared t: lexer, offset-preserving item views, original-
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ee.1.1.1][1] | Need the phase scope, notes, design file, and epic decisions before implementing this reserved phase | 3 |
 | read-by | [agent:bob-cli-ee.1.1.2][2] | Check language phase output for shared seam | 1 |
+| read-by | [agent:bob-cli-ee.1.1.land--1][3] | Verify the shared grammar child phase and its notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md
 
 <!-- sase:referenced-by:end -->

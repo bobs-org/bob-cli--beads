@@ -38,7 +38,9 @@ writes: enable type markers for newly created tasks, stage the resolved field be
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ee.1.1.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-ee.1.1.land--1][2] | Verify the writer and documentation child phase and its notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.1.land.md
 
 <!-- sase:referenced-by:end -->
