@@ -13,7 +13,7 @@ closeout: rename the glossary strand, add the two decision records, switch chezm
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-e6.11](bob-cli-e6.11.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-e6.11](bob-cli-e6.11.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.12](bob-cli-e6.12.md) ◐ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.14](bob-cli-e6.14.md) ◐ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.15](bob-cli-e6.15.md) ◐ · ⧖ 2026-10-29
