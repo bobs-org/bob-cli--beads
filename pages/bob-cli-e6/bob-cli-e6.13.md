@@ -30,10 +30,16 @@ task-card-relocate: rename the Task Card stage to Type, allow every type includi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-e6.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md) | [bob-cli-e6.13](bob-cli-e6.13.md) | 1 |
+| [bbugyi200.apollo.bob-cli-e6.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md) | [bob-cli-e6.13](bob-cli-e6.13.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@74d6da2`](https://github.com/bobs-org/bob-plugins/commit/74d6da21efb222fd52d7a364776f071aa3b02947) | feat(navigation-hotkeys): Task Card type edits move the live Task Link | [bob-cli-e6.13](bob-cli-e6.13.md) | 2026-10-29 23:43:49 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e6.13][1] | Need full bead including notes for implementation | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md
+
+<!-- sase:referenced-by:end -->

@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-e6](README.md) / bob-cli-e6.15
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2t.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2t.linker.w0.md) · **Assignee:** `bob-cli-e6.15` · **Size:** small
-**Created:** 2026-10-29 16:16:34 EDT
+**Created:** 2026-10-29 16:16:34 EDT · **Closed:** 2026-10-29 23:56:29 EDT
 **Plan:** [202610/task\_types.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md)
 
 ## Description
 
 mac-copy: render bob's type words and the additive type placement label in Mac capture previews, completions, and toasts without adding any capture logic.
+
+## Notes
+
+[2026-10-30T03:56:07Z · bob-cli-e6.15] PROPOSED FOLLOW-UP: just docs-check fails on clean base tree with generated drift in docs/reference/glossary.md and docs/develop/decisions.md (run just docs-gen); unrelated to mac-copy
+
+[2026-10-30T03:56:16Z · bob-cli-e6.15] PROPOSED FOLLOW-UP: remaining Mac user-facing theme words outside mac-copy scope (plan-budget meter Themes 3/3 capsule, idle-agenda theme copy) still to be retitled to type
+
+[2026-10-30T03:56:29Z · bob-cli-e6.15] mac-copy done in bob-mac-capture: type copy in previews/completions/toasts (type line, Type hidden from Recent, your type never used, Not in your types, type label copy), additive destination type object decoded and rendered as label suffix with older-Bob fallback, docs updated; just portable-check on athena green (1780 tests, 0 failures); docs-check drift is pre-existing base-tree drift, recorded as follow-up
 
 ## Dependencies
 
@@ -20,4 +28,10 @@ mac-copy: render bob's type words and the additive type placement label in Mac c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-e6.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.15/README.md) | [bob-cli-e6.15](bob-cli-e6.15.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.15/README.md) | [bob-cli-e6.15](bob-cli-e6.15.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@7ac2bd9`](https://github.com/bobs-org/bob-mac-capture/commit/7ac2bd9dfb885cb0269468c4e2f83fd627da7345) | feat(capture): show task-type placement and type copy | [bob-cli-e6.15](bob-cli-e6.15.md) | 2026-10-29 23:57:58 EDT |

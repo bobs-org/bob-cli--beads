@@ -23,14 +23,20 @@ capture-placement: route every bare link-creating capture form to the Pomodoro c
 
 - **Blocks:** [bob-cli-e6.12](bob-cli-e6.12.md) ○ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e6.14](bob-cli-e6.14.md) ◐ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.15](bob-cli-e6.15.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.15](bob-cli-e6.15.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-e6.6](bob-cli-e6.6.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`1ba6437`](https://github.com/bobs-org/bob-cli/commit/1ba6437a8e813ca2f0fbbf9245237d97f384622b) | feat(capture): bare captures place links by task type | [bob-cli-e6.7](bob-cli-e6.7.md) | 2026-10-29 23:29:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
