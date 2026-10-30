@@ -44,3 +44,15 @@ Landed this phase: commented `gcal:` block in chezmoi home/dot_config/bob/config
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@1374445`](https://github.com/bbugyi200/dotfiles/commit/13744456df8e16ada7c30b7166dd3a6d72c4cce0) | feat(gcal): add chezmoi gcal config block and Mac sync LaunchAgent | [bob-cli-ea.9](bob-cli-ea.9.md) | 2026-10-30 03:51:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ea.9][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.9/README.md
+
+<!-- sase:referenced-by:end -->

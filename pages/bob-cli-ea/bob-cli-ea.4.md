@@ -7,6 +7,20 @@
 **Created:** 2026-10-29 19:40:04 EDT · **Closed:** 2026-10-29 21:38:35 EDT
 **Plan:** [202610/bob\_gcal\_daily\_events.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_gcal_daily_events.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-ef][1] | Phase that extracted gkeep's runner into subprocess_runner and proposed this follow-up (note #1) |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ef/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 gcal-auth: extract gkeep's hardened subprocess runner, add the gcal module, config block, and gog transport with the BOB_GCAL_GOG test seam, ship login, logout, doctor, and calendars with beautiful output, register the command, and write the setup contract and guide.
