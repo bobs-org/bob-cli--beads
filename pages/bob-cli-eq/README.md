@@ -33,7 +33,7 @@ Typing (( anywhere prose is allowed in an Obsidian note opens a fast, calm, keyb
 | [bob-cli-eq.2](bob-cli-eq.2.md) | Note grammar for the (( trigger | ✓ closed | small | 2026-10-30 | 1 | 1 |
 | [bob-cli-eq.3](bob-cli-eq.3.md) | Warm vault task index | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [bob-cli-eq.4](bob-cli-eq.4.md) | Task Wikilink Picker card and identified-link insert | ✓ closed | medium | 2026-10-30 | 1 | 1 |
-| [bob-cli-eq.5](bob-cli-eq.5.md) | Name-then-link for ID-less tasks | ◐ in_progress | small | 2026-10-30 | 1 | 0 |
+| [bob-cli-eq.5](bob-cli-eq.5.md) | Name-then-link for ID-less tasks | ✓ closed | small | 2026-10-30 | 1 | 1 |
 | [bob-cli-eq.6](bob-cli-eq.6.md) | Task Link rules under an open Pomodoro | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [bob-cli-eq.7](bob-cli-eq.7.md) | Real-Obsidian verification, visual polish, and docs | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 
@@ -46,7 +46,7 @@ flowchart TD
     n2["bob-cli-eq.2: Note grammar for the (( trigger [closed]"]
     n3["bob-cli-eq.3: Warm vault task index [closed]"]
     n4["bob-cli-eq.4: Task Wikilink Picker card and identified-link insert [closed]"]
-    n5["bob-cli-eq.5: Name-then-link for ID-less tasks [in_progress]"]
+    n5["bob-cli-eq.5: Name-then-link for ID-less tasks [closed]"]
     n6["bob-cli-eq.6: Task Link rules under an open Pomodoro [in_progress]"]
     n7["bob-cli-eq.7: Real-Obsidian verification, visual polish, and docs [in_progress]"]
     n0 --> n1
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-eq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.2/README.md) | [bob-cli-eq.2](bob-cli-eq.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.3/README.md) | [bob-cli-eq.3](bob-cli-eq.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.4/README.md) | [bob-cli-eq.4](bob-cli-eq.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-eq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.5/README.md) | [bob-cli-eq.5](bob-cli-eq.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-eq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.5/README.md) | [bob-cli-eq.5](bob-cli-eq.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.6/README.md) | [bob-cli-eq.6](bob-cli-eq.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-eq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.7/README.md) | [bob-cli-eq.7](bob-cli-eq.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-eq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.land/README.md) | [bob-cli-eq](README.md) | 0 |
@@ -86,6 +86,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9dd0374`](https://github.com/bobs-org/bob-plugins/commit/9dd0374e2d19dd5397a9887d2e7b07561d146bdc) | feat(block-id-prompt): mirror task-wikilink rank model with vectors and tests | [bob-cli-eq.1](bob-cli-eq.1.md) | 2026-10-30 17:04:25 EDT |
 | bob-plugins | [`bob-plugins@4ef761a`](https://github.com/bobs-org/bob-plugins/commit/4ef761a6ec491e607c405ee4d7bf0a1867c1a145) | feat(block-id-prompt): warm vault task index for the (( picker | [bob-cli-eq.3](bob-cli-eq.3.md) | 2026-10-30 17:40:44 EDT |
 | bob-plugins | [`bob-plugins@145ea37`](https://github.com/bobs-org/bob-plugins/commit/145ea37d4abec37d017affc4dc6c490667c389f8) | feat(block-id-prompt): Task Wikilink Picker card and identified (( insert | [bob-cli-eq.4](bob-cli-eq.4.md) | 2026-10-30 18:23:25 EDT |
+| bob-plugins | [`bob-plugins@458907b`](https://github.com/bobs-org/bob-plugins/commit/458907b3aa6f8030503fa4d70dbd2693da513c0b) | feat(block-id-prompt): name-then-link for ID-less tasks | [bob-cli-eq.5](bob-cli-eq.5.md) | 2026-10-30 18:43:07 EDT |
 
 <!-- sase:referenced-by:start -->
 

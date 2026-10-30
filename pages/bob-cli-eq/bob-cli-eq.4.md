@@ -25,7 +25,7 @@ picker: wire the trigger to the new card, render it beautifully, and insert link
 
 - **Depends on:** [bob-cli-eq.2](bob-cli-eq.2.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [bob-cli-eq.3](bob-cli-eq.3.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-eq.5](bob-cli-eq.5.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eq.5](bob-cli-eq.5.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -38,3 +38,15 @@ picker: wire the trigger to the new card, render it beautifully, and insert link
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@145ea37`](https://github.com/bobs-org/bob-plugins/commit/145ea37d4abec37d017affc4dc6c490667c389f8) | feat(block-id-prompt): Task Wikilink Picker card and identified (( insert | [bob-cli-eq.4](bob-cli-eq.4.md) | 2026-10-30 18:23:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eq.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.4/README.md
+
+<!-- sase:referenced-by:end -->

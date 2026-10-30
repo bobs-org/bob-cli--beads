@@ -13,7 +13,7 @@ pomodoro: Pomodoro mode (no history, lane/schedule/type consequences, blocked ha
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-eq.5](bob-cli-eq.5.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-eq.5](bob-cli-eq.5.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-eq.7](bob-cli-eq.7.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
