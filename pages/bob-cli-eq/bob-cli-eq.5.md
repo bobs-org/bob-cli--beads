@@ -20,7 +20,7 @@ naming: the Block ID prompt's wikilink mode, its back-to-picker lifecycle, close
 ## Dependencies
 
 - **Depends on:** [bob-cli-eq.4](bob-cli-eq.4.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-eq.6](bob-cli-eq.6.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eq.6](bob-cli-eq.6.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ naming: the Block ID prompt's wikilink mode, its back-to-picker lifecycle, close
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@458907b`](https://github.com/bobs-org/bob-plugins/commit/458907b3aa6f8030503fa4d70dbd2693da513c0b) | feat(block-id-prompt): name-then-link for ID-less tasks | [bob-cli-eq.5](bob-cli-eq.5.md) | 2026-10-30 18:43:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eq.5][1] | Need phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.5/README.md
+
+<!-- sase:referenced-by:end -->

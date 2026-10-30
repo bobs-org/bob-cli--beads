@@ -13,7 +13,7 @@ review: Chromium previews and a real-Obsidian e2e on athena, polish driven by th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-eq.6](bob-cli-eq.6.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-eq.6](bob-cli-eq.6.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
