@@ -1,0 +1,30 @@
+# Bead: bob-cli-ea.4 — bob gcal skeleton, gog transport, login, logout, doctor, calendars
+
+[Bead Pages](../README.md) / [bob-cli-ea](README.md) / bob-cli-ea.4
+
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2w.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2w.linker.w0.md) · **Assignee:** `bob-cli-ea.4` · **Size:** medium
+**Created:** 2026-10-29 19:40:04 EDT · **Closed:** 2026-10-29 21:38:35 EDT
+**Plan:** [202610/bob\_gcal\_daily\_events.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_gcal_daily_events.md)
+
+## Description
+
+gcal-auth: extract gkeep's hardened subprocess runner, add the gcal module, config block, and gog transport with the BOB_GCAL_GOG test seam, ship login, logout, doctor, and calendars with beautiful output, register the command, and write the setup contract and guide.
+
+## Notes
+
+[2026-10-30T01:09:28Z · bob-cli-ea.4] PROPOSED FOLLOW-UP: Extract highlights_ref/clip_adapter.rs onto shared subprocess_runner — clip_adapter still has its own process_group/ETXTBSY/drain_pipe copy after gkeep was extracted for gcal.
+
+[2026-10-30T01:12:34Z · bob-cli-ea.4] Verified docs-gen, docs-check, gcal_auth+gcal_cli FakeGog tests, clippy deny gates, and no leftover --epic-symbol entries. just check is the remaining host verification gate.
+
+[2026-10-30T01:38:35Z · bob-cli-ea.4--1] Registered bob gcal (login, logout, doctor, calendars) with gog transport and BOB_GCAL_GOG. Verified gcal_auth (23) and gcal_cli (5) FakeGog tests, catalog count 58, Integrations alphabetical order (gcal before gkeep), root help snapshots, fmt, clippy deny gates, and no leftover --epic-symbol entries. Pinned capture-related archive mtime test to BOB_NOW so the 30-day window does not drift with wall-clock.
+
+## Dependencies
+
+- **Blocks:** [bob-cli-ea.5](bob-cli-ea.5.md) ◐ · ⧖ 2026-10-29
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-ea.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.4.md) | [bob-cli-ea.4](bob-cli-ea.4.md) | 0 |
