@@ -22,7 +22,7 @@ web-clip: carry the table settings in the adapter request, rewrite prose tables 
 ## Dependencies
 
 - **Depends on:** [bob-cli-eb.2](bob-cli-eb.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-eb.6](bob-cli-eb.6.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-eb.6](bob-cli-eb.6.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -35,3 +35,15 @@ web-clip: carry the table settings in the adapter request, rewrite prose tables 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a984ec5`](https://github.com/bobs-org/bob-cli/commit/a984ec5755138c678842aa2fd39ce6c38c8863e7) | feat(web-clip): records and grid cleanup on print route | [bob-cli-eb.4](bob-cli-eb.4.md) | 2026-10-30 00:59:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eb.4--4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.4.md
+
+<!-- sase:referenced-by:end -->

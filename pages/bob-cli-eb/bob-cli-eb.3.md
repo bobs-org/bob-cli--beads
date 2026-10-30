@@ -22,7 +22,7 @@ data-grid: give every table that stays a grid content-aware column widths and ro
 ## Dependencies
 
 - **Depends on:** [bob-cli-eb.2](bob-cli-eb.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-eb.6](bob-cli-eb.6.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-eb.6](bob-cli-eb.6.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
