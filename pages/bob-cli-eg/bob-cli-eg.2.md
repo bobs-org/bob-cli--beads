@@ -20,7 +20,7 @@ signin: replace the inherited-stdio `gog auth add` with gog's remote step 1/2, a
 ## Dependencies
 
 - **Depends on:** [bob-cli-eg.1](bob-cli-eg.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-eg.3](bob-cli-eg.3.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eg.3](bob-cli-eg.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ signin: replace the inherited-stdio `gog auth add` with gog's remote step 1/2, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`00c44ab`](https://github.com/bobs-org/bob-cli/commit/00c44ab4b481ecc00f4a882ae873a6fc6d28fde6) | feat(gcal): bob-owned login sign-in with browser and paste flows | [bob-cli-eg.2](bob-cli-eg.2.md) | 2026-10-30 11:17:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eg.2--1][1] | Need notes, remaining work, and attachments | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-eg.2.md
+
+<!-- sase:referenced-by:end -->

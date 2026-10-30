@@ -13,7 +13,7 @@ docs: rewrite login help and environment text, regenerate CLI references, update
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-eg.3](bob-cli-eg.3.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-eg.3](bob-cli-eg.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
