@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / bob-cli-e6
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2t.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2t.linker.w0.md) · **Assignee:** `bob-cli-e6.land`
-**Created:** 2026-10-29 16:16:33 EDT · **Closed:** 2026-10-30 03:57:41 EDT
+**Created:** 2026-10-29 16:16:33 EDT · **Closed:** 2026-10-30 09:57:55 EDT
 **Plan:** [202610/task\_types.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-10-30T07:57:41Z · done
+>
+> (none)
+>
+> Reopened 2026-10-30T13:45:42Z by `sase bead open`
 
 <!-- sase:links:start -->
 
@@ -16,7 +24,7 @@
 | implemented-by | [plan:202610/task_types.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-ec][2] | Deferred closeout steps of the task-types epic (phase closeout, bob-cli-e6.16 note #1) |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/task_types.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ec/README.md
@@ -45,6 +53,15 @@ EPIC WORK (landing tale): e6.16 #3 successor-wiring test failures (bisected to e
 INTEGRATION: concurrent commits reviewed (event-task close 4f2828e3/9c63d95 already write [type:: MEET]; text mentions, wikilink_task, templates, gcal, highlights, web-clip, and the Mac (( picker have no theme/type overlap). Glossary has no stale [[pomodoro-theme]] links. Shared vectors are byte-identical in all 3 copies. epic-symbols: none.
 
 [2026-10-30T07:57:41Z · bob-cli-e6.land--4] Land verification reviewed all 16 phases against D1–D12, confirmed shared contract vectors byte-identical across bob-cli, bob-plugins, and Bob Mac Capture, integrated concurrent commits, and triaged phase proposals in LAND TRIAGE; epic-symbols is empty. This landing completed the remaining CLI gates and stale test update, successor wiring, Pomodoro rename preview/tests, text-hash #TYPE geometry, remaining user-facing type copy, and planThemeChange retirement. Final gates: focused ref-today CLI test passed; just check is blocked only by the tracked bob-cli-ea gcal clone_on_copy finding; root docs generation/check, plugin build/build:check, plugin docs check, Mac portable-check, and Mac docs check passed. npm test has only the pre-existing grey-pill card-view failure bisected to bob-cli-e8.5. Deployed all five changed plugins from workspace 16; bob plugins list against that checkout reports 8/8 synced, with force used only for bob-navigation-hotkeys. bob-cli-e4 closed.
+
+[2026-10-30T13:18:00Z · bob-cli-e6.land] CLOSED-BEAD LAUNCH: agent bob-cli-e6.land launched against this closed bead; status left closed.
+Launch submitted 2026-10-30T13:07:17.368241Z; run 20261030090721.
+Prior close: 2026-10-30T07:57:41Z · done.
+
+[2026-10-30T13:57:55Z · bob-cli-e6.land] RELAUNCH LANDING (bob-cli-e6.land, run 20261030090721). The 07:57Z close was incomplete. Prior close note #5 said the bob-plugins work had landed, but no bob-plugins commit carried it: bob-plugins origin/master had only 957f741 plus later gcal commits. The plan was also still status: wip. The vault was running five plugins (block-id-prompt, bob-command-mode, bob-ledger-tools, bob-navigation-hotkeys, task-status-cycler) built from uncommitted files in bob-cli_16. I reopened the bead and recovered that diff (`git diff HEAD --binary`, 50 files, +570/-484) minutes before bob-cli_16 was recycled. I applied it cleanly on bob-plugins 5ba4683 and committed it through this turn's finalizer.
+VERIFIED: the recovered diff covers every note-#5 claim. Successor-wiring harness on effectiveTypeFor/planRetype (fixes e6.16 #3). Pomodoro rename preview plus Node tests (e6.14 #3). #TYPE drawn as "#" attr(data-bob-type) with no glyph gap (Bryan's epic note #3). Remaining user-facing "task type" copy (e6.16 #4). planThemeChange fully retired: zero references in src, scripts, or docs (e6.16 #2). npm run build is a no-op, build:check passes, and every rebuilt main.js, styles.css, and manifest.json is byte-identical to the vault. bob plugins list against this checkout shows 8/8 synced, and sync is a no-op (22 unchanged). Five stamps still say "deploy stamp does not match vault bytes" because the prior deploy wrote unstamped files. The deploy guard rewrites stamps on the next sync from a clean checkout at the new HEAD, because the bytes match exactly. npm run docs:check passes. npm test fails four tests. Three also fail on clean master in isolation: the grey-pill card-view test (bob-cli-e8.5, on bob-cli-e8) and the two below that 1295e52 caused. The fourth, Live Preview perf, passes in isolation. The e6 patch causes no regressions. bob-cli master f40a625a: just check and just docs-check pass, including the gcal clippy item the prior close was blocked on. bob-mac-capture 2f9a70a (e6) is on origin. All 16 phases closed; DECISIONS honored per notes #4/#5. epic-symbols: none.
+INTEGRATION since 3b0ffa0a: a0a6b497 gcal has no type overlap. 59d5a093, 23ba4805, and f40a625a (active epic bob-cli-ee, capture t: markers) reuse e6's type catalog and routing rather than duplicating them. No conflicts.
+FOLLOW-UPS: NEW bob-cli-eh (task(ci), small, ready): ledger-tools note-ready and relation-index startup tests fail since bob-cli-ea.8 1295e52, because the single-slot onLayoutReady fakes are overwritten by setupGcalEvents. Not e6. NEW bob-cli-ei (task(bug), large, ready; related dn, e0, cv): land--4's finalizer surfaced dirty bob-plugins and plans yet committed only bob-cli and bob-mac-capture. That is SASE infra, not e6 product work. All earlier proposal outcomes stand as recorded in note #4. Plan file marked status: done.
 
 ## Attachments
 
@@ -153,7 +170,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.7/README.md) | [bob-cli-e6.7](bob-cli-e6.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.8/README.md) | [bob-cli-e6.8](bob-cli-e6.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e6.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.9/README.md) | [bob-cli-e6.9](bob-cli-e6.9.md) | 2 |
-| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md) | [bob-cli-e6](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-e6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.land/README.md) | [bob-cli-e6](README.md) | 3 |
 
 ## Commits
 
@@ -181,6 +198,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@957f741`](https://github.com/bobs-org/bob-plugins/commit/957f74120580d12cc9f03164c97cde82469e902a) | test(types): remove retired write-rule vectors | [bob-cli-e6.16](bob-cli-e6.16.md) | 2026-10-30 01:57:06 EDT |
 | bob-cli | [`3b0ffa0`](https://github.com/bobs-org/bob-cli/commit/3b0ffa0a360a1df70a185cc864c641b2e9489c9f) | feat: complete task type workflow integration | [bob-cli-e6](README.md) | 2026-10-30 04:20:42 EDT |
 | bob-mac-capture | [`bob-mac-capture@2f9a70a`](https://github.com/bobs-org/bob-mac-capture/commit/2f9a70a7a6417858b0ac6fc469a7b73042d823b7) | feat(capture): present task-type labels and budgets | [bob-cli-e6](README.md) | 2026-10-30 04:35:00 EDT |
+| bob-plugins | [`bob-plugins@81a75b8`](https://github.com/bobs-org/bob-plugins/commit/81a75b8a10e33fa84af36898e2f333aecaf16b12) | feat: finish task-type plugin closeout | [bob-cli-e6](README.md) | 2026-10-30 09:58:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -195,6 +213,7 @@ flowchart TD
 | read-by | [agent:bob-cli-e6.land--4][5] | Verify epic closeout criteria, plugin deploy dependency, and the documented test owner | 1 |
 | read-by | [agent:bob-cli-e7.1--1][6] | Need the epic scope for themes-to-types CLI test drift | 1 |
 | read-by | [agent:bob-cli-e7.2--1][7] | Need the epic scope to see if leftover themes CLI test failures belong here | 1 |
+| read-by | [agent:bob-cli-ea.land][8] | Check how e6's close handled the bob-plugins successor-wiring test failures | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.13/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.14/README.md
@@ -203,5 +222,6 @@ flowchart TD
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.1.md
 [7]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e7.2.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.land/README.md
 
 <!-- sase:referenced-by:end -->
