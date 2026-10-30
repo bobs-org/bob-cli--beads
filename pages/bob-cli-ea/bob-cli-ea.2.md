@@ -17,7 +17,7 @@ event-close: add the shared Event Task parser and clock classifier, make bob's x
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ea.3](bob-cli-ea.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-ea.3](bob-cli-ea.3.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-ea.6](bob-cli-ea.6.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
@@ -31,3 +31,15 @@ event-close: add the shared Event Task parser and clock classifier, make bob's x
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4f2828e`](https://github.com/bobs-org/bob-cli/commit/4f2828e3b28390b6ddfe0694c46ef85c9778b8ce) | feat(capture): close event tasks by meeting clock | [bob-cli-ea.2](bob-cli-ea.2.md) | 2026-10-29 22:50:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ea.2--4][1] | Need the phase scope, design file, and recorded notes before completing this reserved phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ea.2.md
+
+<!-- sase:referenced-by:end -->

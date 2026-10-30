@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-ea](README.md) / bob-cli-ea.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2w.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2w.linker.w0.md) · **Assignee:** `bob-cli-ea.3` · **Size:** medium
-**Created:** 2026-10-29 19:40:03 EDT
+**Created:** 2026-10-29 19:40:03 EDT · **Closed:** 2026-10-29 23:23:42 EDT
 **Plan:** [202610/bob\_gcal\_daily\_events.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/bob_gcal_daily_events.md)
 
 ## Description
 
 event-close-js: mirror the clock rule in task-status-cycler's Pomodoro completion using a copy of the shared vectors, test it, document it, and deploy with bob plugins sync.
+
+## Notes
+
+[2026-10-30T03:23:21Z · bob-cli-ea.3] PROPOSED FOLLOW-UP: 5 pre-existing bob-plugins failures (test-navigation-task-card-theme-edit 4/14, test-navigation-task-card-view 1/84) reproduce identically on the clean base tree; unrelated to event-close-js
+
+[2026-10-30T03:23:28Z · bob-cli-ea.3] PROPOSED FOLLOW-UP: bob-cli docs-check generated drift in docs/reference/glossary.md and docs/develop/decisions.md left by ea.2 (commit 4f2828e3 added memory without running just docs-gen); needs regen by land agent
+
+[2026-10-30T03:23:42Z · bob-cli-ea.3] Mirrored clock rule in task-status-cycler via 061-event-task-clock.js pre-pass (ended_inside->![[]], not_started/ended_before->#, running untouched); shared vectors copied byte-identical; new test file 5/5 pass, 114 related cycler tests pass, build:check+inventory clean; deployed with bob plugins sync (task-status-cycler main.js +428). 5 nav theme failures + bob-cli docs drift reproduce on clean base, recorded as follow-ups.
 
 ## Dependencies
 
@@ -20,4 +28,10 @@ event-close-js: mirror the clock rule in task-status-cycler's Pomodoro completio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ea.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.3/README.md) | [bob-cli-ea.3](bob-cli-ea.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ea.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ea.3/README.md) | [bob-cli-ea.3](bob-cli-ea.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@9c63d95`](https://github.com/bobs-org/bob-plugins/commit/9c63d95e0e568ae36a4b738d6a22f9a99d355738) | feat(task-status-cycler): close Event Task links by the meeting clock | [bob-cli-ea.3](bob-cli-ea.3.md) | 2026-10-29 23:25:26 EDT |

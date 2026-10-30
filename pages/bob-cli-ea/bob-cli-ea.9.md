@@ -14,7 +14,7 @@ rollout: add the gcal config block and (when chosen) the Mac LaunchAgent in chez
 ## Dependencies
 
 - **Depends on:** [bob-cli-ea.1](bob-cli-ea.1.md) ✓ · ⧖ 2026-10-29
-- **Depends on:** [bob-cli-ea.3](bob-cli-ea.3.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [bob-cli-ea.3](bob-cli-ea.3.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-ea.7](bob-cli-ea.7.md) ◐ · ⧖ 2026-10-29
 - **Depends on:** [bob-cli-ea.8](bob-cli-ea.8.md) ◐ · ⧖ 2026-10-29
 
