@@ -20,7 +20,7 @@ default-type: add plan.default_type as the last cascade step, accept types: and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-e6.2](bob-cli-e6.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e6.5](bob-cli-e6.5.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e6.5](bob-cli-e6.5.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
