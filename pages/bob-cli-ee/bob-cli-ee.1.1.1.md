@@ -19,7 +19,7 @@ language: implement the shared t: lexer, offset-preserving item views, original-
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -32,3 +32,15 @@ language: implement the shared t: lexer, offset-preserving item views, original-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`59d5a09`](https://github.com/bobs-org/bob-cli/commit/59d5a09380248882dc8ebba850af671ac6b7e0b1) | feat(capture): parse task type markers | [bob-cli-ee.1.1.1](bob-cli-ee.1.1.1.md) | 2026-10-30 05:15:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ee.1.1.1][1] | Need the phase scope, notes, design file, and epic decisions before implementing this reserved phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->

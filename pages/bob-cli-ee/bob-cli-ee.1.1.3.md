@@ -13,7 +13,7 @@ writes: enable type markers for newly created tasks, stage the resolved field be
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

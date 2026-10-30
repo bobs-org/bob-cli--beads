@@ -40,7 +40,7 @@ flowchart TD
     n1["bob-cli-ee.1: bob-cli t:&lt;type&gt; grammar, parse spans, and new-task typing [in_progress]"]
     n2["bob-cli-ee.1.1: Capture type-marker grammar and new-task typing [in_progress]"]
     n3["bob-cli-ee.1.1.1: Shared type-marker lexer and execution grammar [closed]"]
-    n4["bob-cli-ee.1.1.2: Editor spans and transparent completion parsing [in_progress]"]
+    n4["bob-cli-ee.1.1.2: Editor spans and transparent completion parsing [closed]"]
     n5["bob-cli-ee.1.1.3: New-task type writes, agreement, output and documentation [in_progress]"]
     n6["bob-cli-ee.2: bob-cli retyping of targeted existing tasks with D8 relocation [in_progress]"]
     n7["bob-cli-ee.3: bob-cli task_type completion context and zsh rows [in_progress]"]
@@ -68,7 +68,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ee.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ee.1.md) | [bob-cli-ee.1](bob-cli-ee.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ee.1.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.1/README.md) | [bob-cli-ee.1.1.1](bob-cli-ee.1.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ee.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md) | [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ee.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.2/README.md) | [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ee.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.3/README.md) | [bob-cli-ee.1.1.3](bob-cli-ee.1.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ee.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.1.1.land/README.md) | [bob-cli-ee.1.1](bob-cli-ee.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ee.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.2/README.md) | [bob-cli-ee.2](bob-cli-ee.2.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`59d5a09`](https://github.com/bobs-org/bob-cli/commit/59d5a09380248882dc8ebba850af671ac6b7e0b1) | feat(capture): parse task type markers | [bob-cli-ee.1.1.1](bob-cli-ee.1.1.1.md) | 2026-10-30 05:15:00 EDT |
+| bob-cli | [`23ba480`](https://github.com/bobs-org/bob-cli/commit/23ba4805ecbdd6741b4e47d2e3a01b0317849640) | feat(capture): editor spans and transparent completion parsing | [bob-cli-ee.1.1.2](bob-cli-ee.1.1.2.md) | 2026-10-30 06:50:59 EDT |
