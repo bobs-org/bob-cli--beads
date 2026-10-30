@@ -28,7 +28,7 @@ grammar: lex `t:<type>` at line edges with one shared lexer, mask it out of the 
 ## Dependencies
 
 - **Blocks:** [bob-cli-ee.2](bob-cli-ee.2.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-ee.3](bob-cli-ee.3.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-ee.3](bob-cli-ee.3.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [bob-cli-ee.4](bob-cli-ee.4.md) ◐ · ⧖ 2026-10-30
 
 ## Agents

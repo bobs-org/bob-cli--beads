@@ -33,3 +33,15 @@ existing: let `t:` retype the existing task an item targets (whole-item links, E
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0e17806`](https://github.com/bobs-org/bob-cli/commit/0e17806152599506b963ac64c1f466943f8a782b) | feat(capture): retype existing tasks with t: and D8 relocation | [bob-cli-ee.2](bob-cli-ee.2.md) | 2026-10-30 10:56:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ee.2][1] | Need notes and status | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ee.2/README.md
+
+<!-- sase:referenced-by:end -->
