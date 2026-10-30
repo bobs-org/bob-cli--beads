@@ -32,7 +32,7 @@ Tables whose cells hold prose print in bob-typeset reference PDFs (Markdown, vau
 | [bob-cli-eb.3](bob-cli-eb.3.md) | Improved grid for data and complex tables | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [bob-cli-eb.4](bob-cli-eb.4.md) | Records and grid cleanup on the web-clip print route | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-eb.5](bob-cli-eb.5.md) | Draft the PDFKit table-selection reports | ✓ closed | small | 2026-10-29 | 1 | 1 |
-| [bob-cli-eb.6](bob-cli-eb.6.md) | Fidelity, page-count, and Mac probe acceptance | ✓ closed | medium | 2026-10-29 | 1 | 1 |
+| [bob-cli-eb.6](bob-cli-eb.6.md) | Fidelity, page-count, and Mac probe acceptance | ✓ closed | medium | 2026-10-29 | 1 | 2 |
 
 ## Lineage
 
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-eb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.3.md) | [bob-cli-eb.3](bob-cli-eb.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.4.md) | [bob-cli-eb.4](bob-cli-eb.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eb.5/README.md) | [bob-cli-eb.5](bob-cli-eb.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-eb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.6.md) | [bob-cli-eb.6](bob-cli-eb.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-eb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.6.md) | [bob-cli-eb.6](bob-cli-eb.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-eb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eb.land/README.md) | [bob-cli-eb](README.md) | 0 |
 
 ## Commits
@@ -80,3 +80,4 @@ flowchart TD
 | bob-cli | [`66bdd21`](https://github.com/bobs-org/bob-cli/commit/66bdd211e8e8c366b4b53af9828ce2e2e594d029) | feat(highlights): improve grid table widths and row spacing | [bob-cli-eb.3](bob-cli-eb.3.md) | 2026-10-30 00:22:24 EDT |
 | bob-cli | [`a984ec5`](https://github.com/bobs-org/bob-cli/commit/a984ec5755138c678842aa2fd39ce6c38c8863e7) | feat(web-clip): records and grid cleanup on print route | [bob-cli-eb.4](bob-cli-eb.4.md) | 2026-10-30 00:59:41 EDT |
 | bob-cli | [`a3735b9`](https://github.com/bobs-org/bob-cli/commit/a3735b914939d208f038dd96573c4359b00eff53) | fix(ref): reduce record spacing for table PDFs | [bob-cli-eb.6](bob-cli-eb.6.md) | 2026-10-30 01:59:39 EDT |
+| bob-cli--research | [`bob-cli--research@bae76a1`](https://github.com/bobs-org/bob-cli--research/commit/bae76a1bbd9b3e55140ad7db88954a741ef913e0) | docs(research): document table layout acceptance evidence | [bob-cli-eb.6](bob-cli-eb.6.md) | 2026-10-30 02:01:28 EDT |

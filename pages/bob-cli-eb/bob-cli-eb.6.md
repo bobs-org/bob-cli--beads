@@ -28,10 +28,11 @@ acceptance: compare baseline and new renders of fixtures and real chat reports f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-eb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.6.md) | [bob-cli-eb.6](bob-cli-eb.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-eb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eb.6.md) | [bob-cli-eb.6](bob-cli-eb.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a3735b9`](https://github.com/bobs-org/bob-cli/commit/a3735b914939d208f038dd96573c4359b00eff53) | fix(ref): reduce record spacing for table PDFs | [bob-cli-eb.6](bob-cli-eb.6.md) | 2026-10-30 01:59:39 EDT |
+| bob-cli--research | [`bob-cli--research@bae76a1`](https://github.com/bobs-org/bob-cli--research/commit/bae76a1bbd9b3e55140ad7db88954a741ef913e0) | docs(research): document table layout acceptance evidence | [bob-cli-eb.6](bob-cli-eb.6.md) | 2026-10-30 02:01:28 EDT |
