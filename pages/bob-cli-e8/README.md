@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/inline_task_mentions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/inline_task_mentions.md
 
@@ -25,6 +25,12 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 When one task's own text links another task (`[[note#^id]]`, embedded or struck too), the target's generated 🪢 LINKED FROM line gains an inert `[[S]] (💬 mentions)` entry that explains itself at a glance with a `💬 mentioned in` / `💬 embedded in` pill, a live quote, and a context card that jumps to the sentence. Nothing is written on the mentioning task except a silent `^id`, a dependency or relation on the pair wins, and Rust and both plugins agree on every shared vector.
 
+## Notes
+
+[2026-10-30T06:29:19Z · bob-cli-e6.land] DISCOVERED ISSUE: bob-plugins scripts/test-navigation-task-card-view.cjs test 'theme menu stays grey when hueFor is missing or throws, and header matches null hues' fails (header pill lacks is-muted). Bisected on bob-plugins: passes at 68db3fb (84/0), fails from 13ac4dc (bob-cli-e8.5, 'live mention index and relationIndex v2') onward (83/1), still failing on master 957f741. Reported as pre-existing by bob-cli-e8.8 #1 and bob-cli-e6.8/e6.10/e6.13/e6.14 proposals; triaged by bob-cli-e6 land agent as caused by e8.5.
+
+[2026-10-30T08:27:22Z · bob-cli-e6.land--4] DISCOVERED ISSUE: Fresh npm test reproduction in bob-plugins on the dirty task-type integration tree: scripts/test-navigation-task-card-view.cjs test theme menu stays grey when hueFor is missing or throws, and header matches null hues failed at line 3014 because the option pill lacked is-muted. 4,372 tests passed and this one failed. This matches existing bob-cli-e8 note #1; the current diff in 313-task-card-theme-projection.js changes wording only around task-card theme/type projection. No new task filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,7 +38,7 @@ When one task's own text links another task (`[[note#^id]]`, embedded or struck 
 | [bob-cli-e8.1](bob-cli-e8.1.md) | Mention contract, shared vectors, decision record, and glossary | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.2](bob-cli-e8.2.md) | Rust mention scanner, reserved label, and writer guards | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.3](bob-cli-e8.3.md) | Reconcile projects mentions onto LINKED FROM | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [bob-cli-e8.4](bob-cli-e8.4.md) | Capture stages mention mirrors in its batch | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
+| [bob-cli-e8.4](bob-cli-e8.4.md) | Capture stages mention mirrors in its batch | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [bob-cli-e8.5](bob-cli-e8.5.md) | Live mention index and relationIndex v2 | ✓ closed | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e8.6](bob-cli-e8.6.md) | Mention rows, pills, quotes, and jump-to-mention | ✓ closed | medium | 2026-10-29 | 1 | 0 |
 | [bob-cli-e8.7](bob-cli-e8.7.md) | Mention context card and embed-echo suppression | ✓ closed | medium | 2026-10-29 | 1 | 0 |
@@ -47,7 +53,7 @@ flowchart TD
     n1["bob-cli-e8.1: Mention contract, shared vectors, decision record, and glossary [closed]"]
     n2["bob-cli-e8.2: Rust mention scanner, reserved label, and writer guards [closed]"]
     n3["bob-cli-e8.3: Reconcile projects mentions onto LINKED FROM [closed]"]
-    n4["bob-cli-e8.4: Capture stages mention mirrors in its batch [in_progress]"]
+    n4["bob-cli-e8.4: Capture stages mention mirrors in its batch [closed]"]
     n5["bob-cli-e8.5: Live mention index and relationIndex v2 [closed]"]
     n6["bob-cli-e8.6: Mention rows, pills, quotes, and jump-to-mention [closed]"]
     n7["bob-cli-e8.7: Mention context card and embed-echo suppression [closed]"]
@@ -82,7 +88,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-e8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.1/README.md) | [bob-cli-e8.1](bob-cli-e8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e8.2.md) | [bob-cli-e8.2](bob-cli-e8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.3/README.md) | [bob-cli-e8.3](bob-cli-e8.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-e8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.4/README.md) | [bob-cli-e8.4](bob-cli-e8.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-e8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.4/README.md) | [bob-cli-e8.4](bob-cli-e8.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-e8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md) | [bob-cli-e8.5](bob-cli-e8.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.6/README.md) | [bob-cli-e8.6](bob-cli-e8.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-e8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.7/README.md) | [bob-cli-e8.7](bob-cli-e8.7.md) | 0 |
@@ -97,6 +103,7 @@ flowchart TD
 | bob-cli | [`fe56228`](https://github.com/bobs-org/bob-cli/commit/fe56228f3b15f51867d2fd0a99ea13dd7fe99b2a) | docs(relations): add inert text-mention contract, shared MN vectors, and glossary | [bob-cli-e8.1](bob-cli-e8.1.md) | 2026-10-29 18:09:12 EDT |
 | bob-cli | [`41338bc`](https://github.com/bobs-org/bob-cli/commit/41338bcfdf28959528b3f94471e2f16928ae53b6) | feat(task-relations): parse and preserve text mentions | [bob-cli-e8.2](bob-cli-e8.2.md) | 2026-10-29 20:03:12 EDT |
 | bob-cli | [`b8bcc78`](https://github.com/bobs-org/bob-cli/commit/b8bcc78a6a5218d5075b6efeef892685fdb79fbf) | feat(task-relations): project text mentions onto LINKED FROM | [bob-cli-e8.3](bob-cli-e8.3.md) | 2026-10-29 21:44:01 EDT |
+| bob-cli | [`22a8c84`](https://github.com/bobs-org/bob-cli/commit/22a8c84fb3d6853d537ba663d0c10b371f1a5769) | feat(capture): stage task mention mirrors atomically | [bob-cli-e8.4](bob-cli-e8.4.md) | 2026-10-30 09:42:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -104,12 +111,14 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-e8.1][1] | Need parent epic scope, notes, and remaining work from earlier agents | 1 |
-| read-by | [agent:bob-cli-e8.5][2] | Check epic phase statuses | 1 |
-| read-by | [agent:bob-cli-e8.8][3] | Need epic status and sibling phase completion for plugin-nav | 1 |
+| read-by | [agent:bob-cli-e6.land--4][1] | Verify epic closeout criteria, plugin deploy dependency, and the documented test owner | 1 |
+| read-by | [agent:bob-cli-e8.1][2] | Need parent epic scope, notes, and remaining work from earlier agents | 1 |
+| read-by | [agent:bob-cli-e8.5][3] | Check epic phase statuses | 1 |
+| read-by | [agent:bob-cli-e8.8][4] | Need epic status and sibling phase completion for plugin-nav | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-e6.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md
 
 <!-- sase:referenced-by:end -->

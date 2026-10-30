@@ -20,7 +20,7 @@ cli-reconcile: fold mention pairs into reconcile_relation_lines with precedence,
 ## Dependencies
 
 - **Depends on:** [bob-cli-e8.2](bob-cli-e8.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [bob-cli-e8.4](bob-cli-e8.4.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [bob-cli-e8.4](bob-cli-e8.4.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [bob-cli-e8.9](bob-cli-e8.9.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
@@ -34,3 +34,15 @@ cli-reconcile: fold mention pairs into reconcile_relation_lines with precedence,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b8bcc78`](https://github.com/bobs-org/bob-cli/commit/b8bcc78a6a5218d5075b6efeef892685fdb79fbf) | feat(task-relations): project text mentions onto LINKED FROM | [bob-cli-e8.3](bob-cli-e8.3.md) | 2026-10-29 21:44:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-e8.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.3/README.md
+
+<!-- sase:referenced-by:end -->

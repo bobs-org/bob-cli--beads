@@ -34,8 +34,10 @@ plugin-nav: write mention mirrors when the cursor leaves an edited line, show me
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-e8.8][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-e6.10][1] | Check whether this existing bead tracks the clean-base full-suite failures | 1 |
+| read-by | [agent:bob-cli-e8.8][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e6.10/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-e8.8/README.md
 
 <!-- sase:referenced-by:end -->
