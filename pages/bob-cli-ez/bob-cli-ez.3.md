@@ -14,7 +14,7 @@ keep-status-command: add `bob gkeep status [-b] [-f] [-m] [-r]`, the never-promp
 ## Dependencies
 
 - **Depends on:** [bob-cli-ez.1](bob-cli-ez.1.md) ✓ · ⧖ 2026-10-31
-- **Depends on:** [bob-cli-ez.2](bob-cli-ez.2.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ez.2](bob-cli-ez.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ez.5](bob-cli-ez.5.md) ◐ · ⧖ 2026-10-31
 
 ## Agents
