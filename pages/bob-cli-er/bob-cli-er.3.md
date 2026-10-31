@@ -21,7 +21,7 @@ sheet: add Ctrl+M marking in list and argument stages, the numbered sequence tra
 
 - **Depends on:** [bob-cli-er.1](bob-cli-er.1.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [bob-cli-er.2](bob-cli-er.2.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-er.4](bob-cli-er.4.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-er.4](bob-cli-er.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -34,3 +34,15 @@ sheet: add Ctrl+M marking in list and argument stages, the numbered sequence tra
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@38da67d`](https://github.com/bobs-org/bob-plugins/commit/38da67dccdf0632ab003c9d7517a08f54976e290) | feat(command-mode): sheet sequence marking, tray, review card, and RECENT rows | [bob-cli-er.3](bob-cli-er.3.md) | 2026-10-30 19:01:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-er.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-er.3/README.md
+
+<!-- sase:referenced-by:end -->
