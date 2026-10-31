@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-eq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.5/README.md) | [bob-cli-eq.5](bob-cli-eq.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eq.6.md) | [bob-cli-eq.6](bob-cli-eq.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.7/README.md) | [bob-cli-eq.7](bob-cli-eq.7.md) | 2 |
-| [bbugyi200.apollo.bob-cli-eq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eq.land.md) | [bob-cli-eq](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-eq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eq.land.md) | [bob-cli-eq](README.md) | 2 |
 
 ## Commits
 
@@ -125,6 +125,7 @@ flowchart TD
 | bob-cli | [`3ca356c`](https://github.com/bobs-org/bob-cli/commit/3ca356c654c459137a3e667f5536c21a0461484b) | docs(guides): name (( as the fastest task wikilink path | [bob-cli-eq.7](bob-cli-eq.7.md) | 2026-10-30 20:51:43 EDT |
 | bob-plugins | [`bob-plugins@8ef763a`](https://github.com/bobs-org/bob-plugins/commit/8ef763a8914b6784de534a88b92c57c7044bcc53) | feat(block-id-prompt): polish (( picker layout and add Obsidian e2e | [bob-cli-eq.7](bob-cli-eq.7.md) | 2026-10-30 20:52:09 EDT |
 | bob-plugins | [`bob-plugins@f0c1c97`](https://github.com/bobs-org/bob-plugins/commit/f0c1c9707c19f10329de68c4c31715866f700b7e) | fix(block-id-prompt): finish landing (( picker and ^^ parity from eq review | [bob-cli-eq](README.md) | 2026-10-30 22:35:57 EDT |
+| bob-cli--plans | [`bob-cli--plans@ac15bd9`](https://github.com/bobs-org/bob-cli--plans/commit/ac15bd97034447e96c1976f18e15f0e82186f4d2) | docs(plans): mark obsidian-task-wikilinks epic and eq land plan done | [bob-cli-eq](README.md) | 2026-10-30 22:36:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
