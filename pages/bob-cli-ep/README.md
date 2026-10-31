@@ -54,7 +54,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ep.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ep.1.md) | [bob-cli-ep.1](bob-cli-ep.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ep.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ep.2/README.md) | [bob-cli-ep.2](bob-cli-ep.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ep.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ep.land.md) | [bob-cli-ep](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ep.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ep.land.md) | [bob-cli-ep](README.md) | 2 |
 
 ## Commits
 
@@ -64,3 +64,4 @@ flowchart TD
 | bob-cli | [`d1dd23e`](https://github.com/bobs-org/bob-cli/commit/d1dd23e26711a9d80d9591c9ae6c1fd0eeaa5ec8) | fix(capture): finish attached #\<type\> forms, refusal hints, and docs | [bob-cli-ep.1](bob-cli-ep.1.md) | 2026-10-31 09:13:37 EDT |
 | bob-mac-capture | [`bob-mac-capture@9d023bb`](https://github.com/bobs-org/bob-mac-capture/commit/9d023bb34a39bbf9ced0144e114eec9b1d6498b8) | feat(mac-capture): type tasks with #\<type\> fixtures, tests, and docs | [bob-cli-ep.2](bob-cli-ep.2.md) | 2026-10-31 09:48:14 EDT |
 | bob-cli | [`c7e1f62`](https://github.com/bobs-org/bob-cli/commit/c7e1f62a4e79cbeeb8210d4e751c9e40ed78f70c) | docs(capture): fix stale @route+id# completion help after #\<type\> | [bob-cli-ep](README.md) | 2026-10-31 10:23:28 EDT |
+| bob-cli--plans | [`bob-cli--plans@34e7db5`](https://github.com/bobs-org/bob-cli--plans/commit/34e7db51dba7f66b61789a670d58324e3419dc01) | docs(plans): mark capture\_hash\_type\_marker plan done | [bob-cli-ep](README.md) | 2026-10-31 10:24:34 EDT |
