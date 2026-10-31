@@ -19,7 +19,7 @@ keep-status-cache: add the 0600 status.json cache under bob's state dir with a d
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ez.3](bob-cli-ez.3.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ez.3](bob-cli-ez.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -32,3 +32,15 @@ keep-status-cache: add the 0600 status.json cache under bob's state dir with a d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ecffd6f`](https://github.com/bobs-org/bob-cli/commit/ecffd6fa8fa8fbc444d276a434cac43b3b4df75b) | feat(gkeep): persist host-local Keep status cache | [bob-cli-ez.2](bob-cli-ez.2.md) | 2026-10-31 14:28:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ez.2--1][1] | Need the phase scope, design file, notes, and DECISIONS after monitor verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ez.2.md
+
+<!-- sase:referenced-by:end -->

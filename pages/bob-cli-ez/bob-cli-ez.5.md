@@ -13,7 +13,7 @@ keep-indicator-view: add the bob-keep-inbox status-bar item to bob-ledger-tools 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ez.3](bob-cli-ez.3.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ez.3](bob-cli-ez.3.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ez.6](bob-cli-ez.6.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

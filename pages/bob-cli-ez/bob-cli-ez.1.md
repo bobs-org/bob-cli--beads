@@ -19,7 +19,7 @@ keep-adapter-hardening: bound gkeepapi's endless 429 retry, classify rate-limit 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ez.3](bob-cli-ez.3.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ez.3](bob-cli-ez.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
