@@ -42,7 +42,7 @@ flowchart TD
     n3["bob-cli-ex.2.1: Complete project-note task offers for bob-cli-ex.2 [in_progress]"]
     n4["bob-cli-ex.2.1.1: Plan project task offers through the existing colon-bullet writer [closed]"]
     n5["bob-cli-ex.2.1.2: Enable the colon seal and verify the public capture protocol [closed]"]
-    n6["bob-cli-ex.2.1.3: Publish project-offer contracts and finish acceptance coverage [in_progress]"]
+    n6["bob-cli-ex.2.1.3: Publish project-offer contracts and finish acceptance coverage [closed]"]
     n7["bob-cli-ex.3: Mac manila-chip highlighting and @ seal migration [closed]"]
     n8["bob-cli-ex.4: Mac project successor prompt [in_progress]"]
     n0 --> n1
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ex.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.md) | [bob-cli-ex.2](bob-cli-ex.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md) | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.2/README.md) | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ex.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.3/README.md) | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ex.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.3/README.md) | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.land/README.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.4/README.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 0 |
@@ -82,3 +82,4 @@ flowchart TD
 | bob-cli | [`76f2347`](https://github.com/bobs-org/bob-cli/commit/76f234719fd756a2808434a65dcd0268468d3285) | feat(capture)!: seal project notes with @ instead of + | [bob-cli-ex.1](bob-cli-ex.1.md) | 2026-10-31 13:48:00 EDT |
 | bob-cli | [`9a30ec4`](https://github.com/bobs-org/bob-cli/commit/9a30ec4ca268753820366554cd58fa5f0c006e71) | feat(capture): plan project-note task offers through the colon-bullet writer | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 2026-10-31 14:52:17 EDT |
 | bob-cli | [`e9b9cd1`](https://github.com/bobs-org/bob-cli/commit/e9b9cd1dcf7c4696563060978856b726631fa6b0) | feat(capture): enable @route:id@ project-note offer form end to end | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 2026-10-31 16:18:40 EDT |
+| bob-cli | [`e8dd3b6`](https://github.com/bobs-org/bob-cli/commit/e8dd3b650c2f50f0f312d1068641c05ce9aaaa74) | docs(capture): publish project-note offer contracts and acceptance coverage | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 2026-10-31 16:59:34 EDT |

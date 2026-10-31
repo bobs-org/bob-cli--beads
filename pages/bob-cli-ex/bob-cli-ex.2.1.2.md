@@ -18,7 +18,7 @@ offer_language: enable @route:id@ in execution, editor parsing, completion, and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -31,3 +31,15 @@ offer_language: enable @route:id@ in execution, editor parsing, completion, and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e9b9cd1`](https://github.com/bobs-org/bob-cli/commit/e9b9cd1dcf7c4696563060978856b726631fa6b0) | feat(capture): enable @route:id@ project-note offer form end to end | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 2026-10-31 16:18:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ex.2.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->
