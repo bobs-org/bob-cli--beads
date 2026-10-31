@@ -1,0 +1,106 @@
+# Bead: bob-cli-ey — Capture drawers and % directives
+
+[Bead Pages](../README.md) / bob-cli-ey
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2x.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2x.linker.w0.md) · **Assignee:** `bob-cli-ey.land`
+**Created:** 2026-10-31 12:52:03 EDT
+**Plan:** [202610/capture\_drawers\_and\_directives.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_drawers_and_directives.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/capture_drawers_and_directives.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_drawers_and_directives.md
+
+<!-- sase:links:end -->
+
+## Description
+
+Bob's capture language reads as three rules: @ says where, # names a place or a type, and % says how. `Text @note+id#drawer [#type]` files a note in a task drawer, creating the drawer when it is missing and optionally retyping the task in the same transaction. `%c`, `%n`, `%t`, and `%l` replace trailing `#`, `%`, `@@template:`, and `URL %`. Typing `#`, `%`, or `@note+id#` in Bob Mac Capture opens a bob-described menu with nothing preselected. Every retired form is deleted outright, with no aliases.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-ey.1](bob-cli-ey.1.md) | bob-cli % directives, bare-# type menu, %t templates, and @@ cleanup | ◐ in_progress | large | 2026-10-31 | 1 | 0 |
+| [bob-cli-ey.2](bob-cli-ey.2.md) | bob-cli task drawers, drawer menu, and capture-drawers | ◐ in_progress | large | 2026-10-31 | 1 | 0 |
+| [bob-cli-ey.3](bob-cli-ey.3.md) | Bob Mac Capture % menu, unselected menus, clip card, and grammar gate | ◐ in_progress | large | 2026-10-31 | 1 | 0 |
+| [bob-cli-ey.4](bob-cli-ey.4.md) | bob-cli ^prj drawers resolve to project-note H2 sections | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
+| [bob-cli-ey.5](bob-cli-ey.5.md) | Bob Mac Capture drawer menu and drawer previews | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
+| [bob-cli-ey.6](bob-cli-ey.6.md) | bob-plugins drawer promotion parity test and vocabulary | ◐ in_progress | small | 2026-10-31 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-ey: Capture drawers and % directives [in_progress]"]
+    n1["bob-cli-ey.1: bob-cli % directives, bare-# type menu, %t templates, and @@ cleanup [in_progress]"]
+    n2["bob-cli-ey.1.1: cli-directives, split: % directives, bare-# type marker, %t templates, and @@ cleanup [in_progress]"]
+    n3["bob-cli-ey.1.1.1: Delete the @@route+block-id draft-wide form [closed]"]
+    n4["bob-cli-ey.1.1.2: % directive lexer with %c/%c&lt;N&gt;, and clipboard parsing split from reading [closed]"]
+    n5["bob-cli-ey.1.1.3: %n replaces the trailing # Pomodoro note; %l replaces URL %/URL @ [in_progress]"]
+    n6["bob-cli-ey.1.1.4: A bare edge [in_progress]"]
+    n7["bob-cli-ey.1.1.5: %t frames templates; delete @@template:, @@@, and the @@ template candidate [in_progress]"]
+    n8["bob-cli-ey.1.1.6: directive completion context, bare-# menu, initial_selection, and grammar 2 [in_progress]"]
+    n9["bob-cli-ey.2: bob-cli task drawers, drawer menu, and capture-drawers [in_progress]"]
+    n10["bob-cli-ey.3: Bob Mac Capture % menu, unselected menus, clip card, and grammar gate [in_progress]"]
+    n11["bob-cli-ey.4: bob-cli ^prj drawers resolve to project-note H2 sections [in_progress]"]
+    n12["bob-cli-ey.5: Bob Mac Capture drawer menu and drawer previews [in_progress]"]
+    n13["bob-cli-ey.6: bob-plugins drawer promotion parity test and vocabulary [in_progress]"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
+    n2 --> n8
+    n0 --> n9
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n1 -.-> n9
+    n1 -.-> n10
+    n3 -.-> n4
+    n4 -.-> n5
+    n5 -.-> n6
+    n5 -.-> n7
+    n6 -.-> n8
+    n7 -.-> n8
+    n9 -.-> n11
+    n9 -.-> n12
+    n9 -.-> n13
+    n10 -.-> n12
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-ey.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.md) | [bob-cli-ey.1](bob-cli-ey.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.1.md) | [bob-cli-ey.1.1.1](bob-cli-ey.1.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.2.md) | [bob-cli-ey.1.1.2](bob-cli-ey.1.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.3/README.md) | [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.4/README.md) | [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.5/README.md) | [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.6/README.md) | [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.land/README.md) | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.2/README.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3/README.md) | [bob-cli-ey.3](bob-cli-ey.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.4/README.md) | [bob-cli-ey.4](bob-cli-ey.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md) | [bob-cli-ey.5](bob-cli-ey.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.6/README.md) | [bob-cli-ey.6](bob-cli-ey.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.land/README.md) | [bob-cli-ey](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`36c4807`](https://github.com/bobs-org/bob-cli/commit/36c48075510ff202a5d717fdf1a13e8bea7b37a8) | feat(capture)!: remove @@route+block-id | [bob-cli-ey.1.1.1](bob-cli-ey.1.1.1.md) | 2026-10-31 15:10:07 EDT |
+| bob-cli | [`6ae5df0`](https://github.com/bobs-org/bob-cli/commit/6ae5df0033a4082b8a09a4406bbb16e70c436a05) | feat(capture)!: add %c/%c\<N\> directive lexer and split clipboard reading | [bob-cli-ey.1.1.2](bob-cli-ey.1.1.2.md) | 2026-10-31 18:23:34 EDT |
