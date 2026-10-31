@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ex.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md) | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.2/README.md) | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.3/README.md) | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.1.land.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.1.land.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.4/README.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.land/README.md) | [bob-cli-ex](README.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 | bob-cli | [`e9b9cd1`](https://github.com/bobs-org/bob-cli/commit/e9b9cd1dcf7c4696563060978856b726631fa6b0) | feat(capture): enable @route:id@ project-note offer form end to end | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 2026-10-31 16:18:40 EDT |
 | bob-cli | [`e8dd3b6`](https://github.com/bobs-org/bob-cli/commit/e8dd3b650c2f50f0f312d1068641c05ce9aaaa74) | docs(capture): publish project-note offer contracts and acceptance coverage | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 2026-10-31 16:59:34 EDT |
 | bob-cli | [`42dd92b`](https://github.com/bobs-org/bob-cli/commit/42dd92bc66193dfc3ad16fc6ff0b9813d51c92c9) | fix(capture): finish project-offer landing repairs for bob-cli-ex.2.1 | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2026-10-31 17:52:51 EDT |
+| bob-cli--plans | [`bob-cli--plans@4d46180`](https://github.com/bobs-org/bob-cli--plans/commit/4d461800f67260ed99d9ebd1510197189ed1875f) | docs(plans): mark project\_note\_offer\_form done for bob-cli-ex.2.1 landing | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2026-10-31 17:53:33 EDT |
