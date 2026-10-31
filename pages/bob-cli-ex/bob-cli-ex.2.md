@@ -14,7 +14,7 @@ offer_form: bob-cli adds the `@route:id@` grammar with `project_note: "offer"` s
 ## Dependencies
 
 - **Depends on:** [bob-cli-ex.1](bob-cli-ex.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ex.4](bob-cli-ex.4.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ex.4](bob-cli-ex.4.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
