@@ -23,6 +23,10 @@
 
 Obsidian's desktop status bar shows, beside the review footer, a gold bulb pill counting the Google Keep notes a default `bob gkeep pull` would act on (only once Keep has verifiably worked on this host) and a plain inbox-tray count of open top-level tasks in gkeep_inbox.md. bob owns the Keep count, its cache, and its check budget; the footer is a calm, attention-gated client.
 
+## Notes
+
+[2026-10-31T20:38:12Z · bob-cli-ez.land] LAND TRIAGE (bob-cli-ez.land): PROPOSED FOLLOW-UP outcomes — (1) decisions-web record 'Keep Count Is bob-Owned And Attention-Gated' (ez.1#1, ez.2#1, ez.3#1, ez.4#2, ez.5#1, ez.6#1): filed as memory task bob-cli-f0 (small, ready) so Bryan decides at triage; the epic's auto decision_record=no forbade editing memory here. (2) bob-plugins test-command-mode-sheet-sequence-dom 'production sheet render and clicks use real DOM APIs' (ez.4#1): not epic-caused (findChromium throws on Chromium-less apollo; fails at pre-epic 2ebd58c); filed ci task bob-cli-f1 (small, ready), related to bob-cli-er. (3) note-ready startup storm + relation-index layout-ready (ez.4#1, ez.5#2, ez.6#2): duplicate of bob-cli-eh, +1 recorded. (4) gcal create-listener + freshness-namespace due-key reload (ez.4#1, ez.6#2): duplicate of bob-cli-et, +1 recorded. (5) freshness status-bar failures (ez.6#2: footer '0-1-0 transitions', 'quickRoll hint slot', 'quickRoll namespaces'; namespace 'clicks through, falling back to rotten'): CAUSED by this epic (pass at 2ebd58c, fail from 38b9114 because the tests stub addStatusBarItem to return one shared fake element, which the Keep item then empties) -> remaining epic work, planned in the landing tale.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -68,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ez.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.4/README.md) | [bob-cli-ez.4](bob-cli-ez.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ez.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.5/README.md) | [bob-cli-ez.5](bob-cli-ez.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ez.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.6/README.md) | [bob-cli-ez.6](bob-cli-ez.6.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ez.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.land/README.md) | [bob-cli-ez](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ez.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ez.land.md) | [bob-cli-ez](README.md) | 1 |
 
 ## Commits
 
@@ -81,3 +85,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@38b9114`](https://github.com/bobs-org/bob-plugins/commit/38b91140a987e1a8c99d015944f5dcc176a726bc) | feat(ledger-tools): add the Keep inbox status-bar item | [bob-cli-ez.5](bob-cli-ez.5.md) | 2026-10-31 16:01:21 EDT |
 | bob-cli | [`17702dc`](https://github.com/bobs-org/bob-cli/commit/17702dcafea3928c40a6434adf78e21f8f7f19d1) | docs(gkeep): link the Obsidian status indicator guide | [bob-cli-ez.6](bob-cli-ez.6.md) | 2026-10-31 16:20:48 EDT |
 | bob-plugins | [`bob-plugins@48672ee`](https://github.com/bobs-org/bob-plugins/commit/48672ee84097327ee4f639010e1d287163d73f2b) | feat(ledger-tools): add attention-gated Keep actions | [bob-cli-ez.6](bob-cli-ez.6.md) | 2026-10-31 16:21:13 EDT |
+| bob-plugins | [`bob-plugins@8d1686a`](https://github.com/bobs-org/bob-plugins/commit/8d1686a6ed4e1858e70f8d6df342a488301dd63b) | fix(ledger-tools): finish the Keep inbox indicator landing | [bob-cli-ez](README.md) | 2026-10-31 16:48:32 EDT |

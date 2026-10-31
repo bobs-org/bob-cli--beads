@@ -36,3 +36,15 @@ keep-indicator-actions: add attention-gated `bob gkeep status -r` triggers, Chec
 |---|---|---|---|---|
 | bob-cli | [`17702dc`](https://github.com/bobs-org/bob-cli/commit/17702dcafea3928c40a6434adf78e21f8f7f19d1) | docs(gkeep): link the Obsidian status indicator guide | [bob-cli-ez.6](bob-cli-ez.6.md) | 2026-10-31 16:20:48 EDT |
 | bob-plugins | [`bob-plugins@48672ee`](https://github.com/bobs-org/bob-plugins/commit/48672ee84097327ee4f639010e1d287163d73f2b) | feat(ledger-tools): add attention-gated Keep actions | [bob-cli-ez.6](bob-cli-ez.6.md) | 2026-10-31 16:21:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ez.6][1] | Verify the assigned phase is closed after the required checks | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.6/README.md
+
+<!-- sase:referenced-by:end -->

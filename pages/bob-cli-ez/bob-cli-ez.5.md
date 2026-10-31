@@ -43,7 +43,9 @@ keep-indicator-view: add the bob-keep-inbox status-bar item to bob-ledger-tools 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ez.5][1] | check full scope | 3 |
+| read-by | [agent:bob-cli-ez.6][2] | Check whether its existing notes track the base-tree status-bar fixture failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.6/README.md
 
 <!-- sase:referenced-by:end -->
