@@ -41,7 +41,7 @@ Typing (( anywhere prose is allowed in an Obsidian note opens a fast, calm, keyb
 | [bob-cli-eq.4](bob-cli-eq.4.md) | Task Wikilink Picker card and identified-link insert | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [bob-cli-eq.5](bob-cli-eq.5.md) | Name-then-link for ID-less tasks | ✓ closed | small | 2026-10-30 | 1 | 1 |
 | [bob-cli-eq.6](bob-cli-eq.6.md) | Task Link rules under an open Pomodoro | ✓ closed | medium | 2026-10-30 | 1 | 1 |
-| [bob-cli-eq.7](bob-cli-eq.7.md) | Real-Obsidian verification, visual polish, and docs | ✓ closed | medium | 2026-10-30 | 1 | 1 |
+| [bob-cli-eq.7](bob-cli-eq.7.md) | Real-Obsidian verification, visual polish, and docs | ✓ closed | medium | 2026-10-30 | 1 | 2 |
 
 ## Lineage
 
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-eq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.4/README.md) | [bob-cli-eq.4](bob-cli-eq.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.5/README.md) | [bob-cli-eq.5](bob-cli-eq.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-eq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eq.6.md) | [bob-cli-eq.6](bob-cli-eq.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-eq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.7/README.md) | [bob-cli-eq.7](bob-cli-eq.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-eq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.7/README.md) | [bob-cli-eq.7](bob-cli-eq.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-eq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-eq.land/README.md) | [bob-cli-eq](README.md) | 0 |
 
 ## Commits
@@ -95,6 +95,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@458907b`](https://github.com/bobs-org/bob-plugins/commit/458907b3aa6f8030503fa4d70dbd2693da513c0b) | feat(block-id-prompt): name-then-link for ID-less tasks | [bob-cli-eq.5](bob-cli-eq.5.md) | 2026-10-30 18:43:07 EDT |
 | bob-plugins | [`bob-plugins@4bb8821`](https://github.com/bobs-org/bob-plugins/commit/4bb88219de009fb72aefad952f7fdae5dc617e2e) | feat(block-id-prompt)!: open-Pomodoro Task Link rules and ^^ parity | [bob-cli-eq.6](bob-cli-eq.6.md) | 2026-10-30 19:55:27 EDT |
 | bob-cli | [`3ca356c`](https://github.com/bobs-org/bob-cli/commit/3ca356c654c459137a3e667f5536c21a0461484b) | docs(guides): name (( as the fastest task wikilink path | [bob-cli-eq.7](bob-cli-eq.7.md) | 2026-10-30 20:51:43 EDT |
+| bob-plugins | [`bob-plugins@8ef763a`](https://github.com/bobs-org/bob-plugins/commit/8ef763a8914b6784de534a88b92c57c7044bcc53) | feat(block-id-prompt): polish (( picker layout and add Obsidian e2e | [bob-cli-eq.7](bob-cli-eq.7.md) | 2026-10-30 20:52:09 EDT |
 
 <!-- sase:referenced-by:start -->
 
