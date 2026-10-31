@@ -22,7 +22,7 @@ keep-indicator-view: add the bob-keep-inbox status-bar item to bob-ledger-tools 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ez.3](bob-cli-ez.3.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ez.6](bob-cli-ez.6.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ez.6](bob-cli-ez.6.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -35,3 +35,15 @@ keep-indicator-view: add the bob-keep-inbox status-bar item to bob-ledger-tools 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@38b9114`](https://github.com/bobs-org/bob-plugins/commit/38b91140a987e1a8c99d015944f5dcc176a726bc) | feat(ledger-tools): add the Keep inbox status-bar item | [bob-cli-ez.5](bob-cli-ez.5.md) | 2026-10-31 16:01:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ez.5][1] | check full scope | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.5/README.md
+
+<!-- sase:referenced-by:end -->

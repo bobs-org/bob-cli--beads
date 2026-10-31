@@ -21,7 +21,7 @@ command-mode-preview-api: add `api.commandMode.preview(argv)` to bob-command-mod
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ez.6](bob-cli-ez.6.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ez.6](bob-cli-ez.6.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
