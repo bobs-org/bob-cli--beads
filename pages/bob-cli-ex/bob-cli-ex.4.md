@@ -14,7 +14,7 @@ mac_offer_card: Bob Mac Capture harvests `project_note.successors` into the exis
 ## Dependencies
 
 - **Depends on:** [bob-cli-ex.2](bob-cli-ex.2.md) ◐ · ⧖ 2026-10-31
-- **Depends on:** [bob-cli-ex.3](bob-cli-ex.3.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ex.3](bob-cli-ex.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 

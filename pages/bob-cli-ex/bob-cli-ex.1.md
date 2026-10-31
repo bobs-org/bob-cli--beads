@@ -20,7 +20,7 @@ seal_grammar: bob-cli switches `@route^id+` to `@route^id@` in the execution gra
 ## Dependencies
 
 - **Blocks:** [bob-cli-ex.2](bob-cli-ex.2.md) ◐ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ex.3](bob-cli-ex.3.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ex.3](bob-cli-ex.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -33,3 +33,15 @@ seal_grammar: bob-cli switches `@route^id+` to `@route^id@` in the execution gra
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`76f2347`](https://github.com/bobs-org/bob-cli/commit/76f234719fd756a2808434a65dcd0268468d3285) | feat(capture)!: seal project notes with @ instead of + | [bob-cli-ex.1](bob-cli-ex.1.md) | 2026-10-31 13:48:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ex.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.1/README.md
+
+<!-- sase:referenced-by:end -->
