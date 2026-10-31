@@ -32,7 +32,7 @@ In Bob Command Mode, Ctrl+M marks commands into an ordered sequence that Enter o
 | [bob-cli-er.1](bob-cli-er.1.md) | Sequence engine, record stamps, and plugin wiring | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [bob-cli-er.2](bob-cli-er.2.md) | Status chip, summary toast, and pager step label | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [bob-cli-er.3](bob-cli-er.3.md) | Marking, tray, review card, and RECENT sequence rows | ✓ closed | medium | 2026-10-30 | 1 | 1 |
-| [bob-cli-er.4](bob-cli-er.4.md) | Plugin reference, user guide, and deploy | ✓ closed | small | 2026-10-30 | 1 | 1 |
+| [bob-cli-er.4](bob-cli-er.4.md) | Plugin reference, user guide, and deploy | ✓ closed | small | 2026-10-30 | 1 | 2 |
 
 ## Lineage
 
@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-er.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-er.1/README.md) | [bob-cli-er.1](bob-cli-er.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-er.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.2.md) | [bob-cli-er.2](bob-cli-er.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-er.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-er.3/README.md) | [bob-cli-er.3](bob-cli-er.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-er.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.4.md) | [bob-cli-er.4](bob-cli-er.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-er.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.4.md) | [bob-cli-er.4](bob-cli-er.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-er.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-er.land/README.md) | [bob-cli-er](README.md) | 0 |
 
 ## Commits
@@ -71,6 +71,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a8f33a2`](https://github.com/bobs-org/bob-plugins/commit/a8f33a2f27a06b3d29ffb76518ba0eea0abbffa0) | feat(command-mode): status chip sequence step, summary toast, and pager step label | [bob-cli-er.2](bob-cli-er.2.md) | 2026-10-30 18:36:04 EDT |
 | bob-plugins | [`bob-plugins@38da67d`](https://github.com/bobs-org/bob-plugins/commit/38da67dccdf0632ab003c9d7517a08f54976e290) | feat(command-mode): sheet sequence marking, tray, review card, and RECENT rows | [bob-cli-er.3](bob-cli-er.3.md) | 2026-10-30 19:01:13 EDT |
 | bob-cli | [`3965f74`](https://github.com/bobs-org/bob-cli/commit/3965f749a22f1bccd12f1c03afed80bb739d29f3) | docs: document command mode sequences in guide | [bob-cli-er.4](bob-cli-er.4.md) | 2026-10-30 20:10:17 EDT |
+| bob-plugins | [`bob-plugins@af35d48`](https://github.com/bobs-org/bob-plugins/commit/af35d4814fbe651d76d8e00a8560a7d50439e314) | docs: document command mode sequences in plugin reference | [bob-cli-er.4](bob-cli-er.4.md) | 2026-10-30 20:10:36 EDT |
 
 <!-- sase:referenced-by:start -->
 

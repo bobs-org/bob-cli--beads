@@ -25,10 +25,11 @@ docs: document sequences in the bob-plugins plugin reference and the bob-cli gui
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-er.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.4.md) | [bob-cli-er.4](bob-cli-er.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-er.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.4.md) | [bob-cli-er.4](bob-cli-er.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3965f74`](https://github.com/bobs-org/bob-cli/commit/3965f749a22f1bccd12f1c03afed80bb739d29f3) | docs: document command mode sequences in guide | [bob-cli-er.4](bob-cli-er.4.md) | 2026-10-30 20:10:17 EDT |
+| bob-plugins | [`bob-plugins@af35d48`](https://github.com/bobs-org/bob-plugins/commit/af35d4814fbe651d76d8e00a8560a7d50439e314) | docs: document command mode sequences in plugin reference | [bob-cli-er.4](bob-cli-er.4.md) | 2026-10-30 20:10:36 EDT |
