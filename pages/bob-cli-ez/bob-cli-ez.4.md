@@ -27,7 +27,13 @@ command-mode-preview-api: add `api.commandMode.preview(argv)` to bob-command-mod
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ez.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.4/README.md) | [bob-cli-ez.4](bob-cli-ez.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ez.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.4/README.md) | [bob-cli-ez.4](bob-cli-ez.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b0db27a`](https://github.com/bobs-org/bob-plugins/commit/b0db27a60f92dca1f1769de7d510986a173e84d2) | feat(command-mode): add api.commandMode.preview | [bob-cli-ez.4](bob-cli-ez.4.md) | 2026-10-31 13:47:55 EDT |
 
 <!-- sase:referenced-by:start -->
 

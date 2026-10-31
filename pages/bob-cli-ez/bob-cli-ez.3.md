@@ -21,7 +21,7 @@ keep-status-command: add `bob gkeep status [-b] [-f] [-m] [-r]`, the never-promp
 
 - **Depends on:** [bob-cli-ez.1](bob-cli-ez.1.md) ✓ · ⧖ 2026-10-31
 - **Depends on:** [bob-cli-ez.2](bob-cli-ez.2.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ez.5](bob-cli-ez.5.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ez.5](bob-cli-ez.5.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -34,3 +34,15 @@ keep-status-command: add `bob gkeep status [-b] [-f] [-m] [-r]`, the never-promp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`efe2ebe`](https://github.com/bobs-org/bob-cli/commit/efe2ebe066d0df87736b8af2eeef52e152bf5e3e) | feat(gkeep): add bob gkeep status with bob-owned check gates | [bob-cli-ez.3](bob-cli-ez.3.md) | 2026-10-31 15:38:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ez.3][1] | notes check | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.3/README.md
+
+<!-- sase:referenced-by:end -->

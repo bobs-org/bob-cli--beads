@@ -14,7 +14,7 @@ keep-indicator-actions: add attention-gated `bob gkeep status -r` triggers, Chec
 ## Dependencies
 
 - **Depends on:** [bob-cli-ez.4](bob-cli-ez.4.md) ✓ · ⧖ 2026-10-31
-- **Depends on:** [bob-cli-ez.5](bob-cli-ez.5.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ez.5](bob-cli-ez.5.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
