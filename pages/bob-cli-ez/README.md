@@ -32,7 +32,7 @@ Obsidian's desktop status bar shows, beside the review footer, a gold bulb pill 
 | [bob-cli-ez.3](bob-cli-ez.3.md) | bob gkeep status with bob-owned check gates | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [bob-cli-ez.4](bob-cli-ez.4.md) | Command Mode preview API | ✓ closed | small | 2026-10-31 | 1 | 1 |
 | [bob-cli-ez.5](bob-cli-ez.5.md) | Ledger-tools Keep inbox status-bar item | ✓ closed | medium | 2026-10-31 | 1 | 1 |
-| [bob-cli-ez.6](bob-cli-ez.6.md) | Attention-gated Keep checks and indicator actions | ✓ closed | medium | 2026-10-31 | 1 | 1 |
+| [bob-cli-ez.6](bob-cli-ez.6.md) | Attention-gated Keep checks and indicator actions | ✓ closed | medium | 2026-10-31 | 1 | 2 |
 
 ## Lineage
 
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ez.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.3/README.md) | [bob-cli-ez.3](bob-cli-ez.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ez.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.4/README.md) | [bob-cli-ez.4](bob-cli-ez.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ez.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.5/README.md) | [bob-cli-ez.5](bob-cli-ez.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ez.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.6/README.md) | [bob-cli-ez.6](bob-cli-ez.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ez.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.6/README.md) | [bob-cli-ez.6](bob-cli-ez.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ez.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ez.land/README.md) | [bob-cli-ez](README.md) | 0 |
 
 ## Commits
@@ -80,3 +80,4 @@ flowchart TD
 | bob-cli | [`efe2ebe`](https://github.com/bobs-org/bob-cli/commit/efe2ebe066d0df87736b8af2eeef52e152bf5e3e) | feat(gkeep): add bob gkeep status with bob-owned check gates | [bob-cli-ez.3](bob-cli-ez.3.md) | 2026-10-31 15:38:28 EDT |
 | bob-plugins | [`bob-plugins@38b9114`](https://github.com/bobs-org/bob-plugins/commit/38b91140a987e1a8c99d015944f5dcc176a726bc) | feat(ledger-tools): add the Keep inbox status-bar item | [bob-cli-ez.5](bob-cli-ez.5.md) | 2026-10-31 16:01:21 EDT |
 | bob-cli | [`17702dc`](https://github.com/bobs-org/bob-cli/commit/17702dcafea3928c40a6434adf78e21f8f7f19d1) | docs(gkeep): link the Obsidian status indicator guide | [bob-cli-ez.6](bob-cli-ez.6.md) | 2026-10-31 16:20:48 EDT |
+| bob-plugins | [`bob-plugins@48672ee`](https://github.com/bobs-org/bob-plugins/commit/48672ee84097327ee4f639010e1d287163d73f2b) | feat(ledger-tools): add attention-gated Keep actions | [bob-cli-ez.6](bob-cli-ez.6.md) | 2026-10-31 16:21:13 EDT |
