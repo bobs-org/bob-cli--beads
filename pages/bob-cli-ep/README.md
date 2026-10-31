@@ -27,7 +27,7 @@ Typing `#fix` at either edge of any capture line, or right after `@route^id` or 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ep.1](bob-cli-ep.1.md) | bob-cli \`#\<type\>\` grammar, refusal, completion, and docs | ◐ in_progress | large | 2026-10-30 | 1 | 1 |
+| [bob-cli-ep.1](bob-cli-ep.1.md) | bob-cli \`#\<type\>\` grammar, refusal, completion, and docs | ✓ closed | large | 2026-10-30 | 1 | 2 |
 | [bob-cli-ep.2](bob-cli-ep.2.md) | Bob Mac Capture fixtures, tests, and docs for \`#\<type\>\` | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 
 ## Lineage
@@ -35,7 +35,7 @@ Typing `#fix` at either edge of any capture line, or right after `@route^id` or 
 ```mermaid
 flowchart TD
     n0["bob-cli-ep: Capture `#&lt;type&gt;` replaces the `t:&lt;type&gt;` task-type marker [in_progress]"]
-    n1["bob-cli-ep.1: bob-cli `#&lt;type&gt;` grammar, refusal, completion, and docs [in_progress]"]
+    n1["bob-cli-ep.1: bob-cli `#&lt;type&gt;` grammar, refusal, completion, and docs [closed]"]
     n2["bob-cli-ep.2: Bob Mac Capture fixtures, tests, and docs for `#&lt;type&gt;` [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -46,7 +46,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ep.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ep.1.md) | [bob-cli-ep.1](bob-cli-ep.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ep.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ep.1.md) | [bob-cli-ep.1](bob-cli-ep.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ep.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ep.2/README.md) | [bob-cli-ep.2](bob-cli-ep.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ep.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ep.land/README.md) | [bob-cli-ep](README.md) | 0 |
 
@@ -55,3 +55,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4a95e5b`](https://github.com/bobs-org/bob-cli/commit/4a95e5b78cba78d2b1c13201ccda8736087b7f4a) | feat(capture)!: replace t: type markers with #\<type\> | [bob-cli-ep.1](bob-cli-ep.1.md) | 2026-10-30 19:05:00 EDT |
+| bob-cli | [`d1dd23e`](https://github.com/bobs-org/bob-cli/commit/d1dd23e26711a9d80d9591c9ae6c1fd0eeaa5ec8) | fix(capture): finish attached #\<type\> forms, refusal hints, and docs | [bob-cli-ep.1](bob-cli-ep.1.md) | 2026-10-31 09:13:37 EDT |

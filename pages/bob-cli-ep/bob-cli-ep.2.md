@@ -13,7 +13,7 @@ mac: confirm the Swift sources stay sigil-agnostic, regenerate the task-type fix
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ep.1](bob-cli-ep.1.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [bob-cli-ep.1](bob-cli-ep.1.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
