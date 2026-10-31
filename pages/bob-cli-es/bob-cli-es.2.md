@@ -32,3 +32,15 @@ plugin-paint: in bob-plugins, recognize the stamp in Live Preview and Reading vi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4e31220`](https://github.com/bobs-org/bob-plugins/commit/4e3122080f6b1c1f9413b29c63e4df50373eef90) | feat(ledger-tools): paint the Events sync stamp as a muted caption | [bob-cli-es.2](bob-cli-es.2.md) | 2026-10-30 19:50:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-es.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-es.2/README.md
+
+<!-- sase:referenced-by:end -->
