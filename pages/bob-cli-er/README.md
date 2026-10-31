@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-er.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.2.md) | [bob-cli-er.2](bob-cli-er.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-er.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-er.3/README.md) | [bob-cli-er.3](bob-cli-er.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-er.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.4.md) | [bob-cli-er.4](bob-cli-er.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-er.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.land.md) | [bob-cli-er](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-er.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-er.land.md) | [bob-cli-er](README.md) | 3 |
 
 ## Commits
 
@@ -95,6 +95,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@af35d48`](https://github.com/bobs-org/bob-plugins/commit/af35d4814fbe651d76d8e00a8560a7d50439e314) | docs: document command mode sequences in plugin reference | [bob-cli-er.4](bob-cli-er.4.md) | 2026-10-30 20:10:36 EDT |
 | bob-cli | [`d81f778`](https://github.com/bobs-org/bob-cli/commit/d81f778b66f81759fafb7829209ec5da2b99b493) | docs(guides): document sequence chip, summary, and rerun-last | [bob-cli-er](README.md) | 2026-10-30 21:08:50 EDT |
 | bob-plugins | [`bob-plugins@bf90ba0`](https://github.com/bobs-org/bob-plugins/commit/bf90ba03c1bd42dba1382edff5d801bb4f175297) | fix(command-mode): repair sequence sheet DOM, args, and RECENT state | [bob-cli-er](README.md) | 2026-10-30 21:09:15 EDT |
+| bob-cli--plans | [`bob-cli--plans@a573014`](https://github.com/bobs-org/bob-cli--plans/commit/a5730148f4bc77bd7936f2cd01ddd91312fe74a9) | docs(plans): mark command\_mode\_sequences done | [bob-cli-er](README.md) | 2026-10-30 21:09:33 EDT |
 
 <!-- sase:referenced-by:start -->
 
