@@ -32,7 +32,7 @@ directive-lexer-clip: add `capture_language/directive.rs` (edge position rule, t
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.1.1.1](bob-cli-ey.1.1.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -45,3 +45,15 @@ directive-lexer-clip: add `capture_language/directive.rs` (edge position rule, t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6ae5df0`](https://github.com/bobs-org/bob-cli/commit/6ae5df0033a4082b8a09a4406bbb16e70c436a05) | feat(capture)!: add %c/%c\<N\> directive lexer and split clipboard reading | [bob-cli-ey.1.1.2](bob-cli-ey.1.1.2.md) | 2026-10-31 18:23:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ey.1.1.2--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.2.md
+
+<!-- sase:referenced-by:end -->

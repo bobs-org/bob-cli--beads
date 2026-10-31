@@ -13,7 +13,7 @@ percent-t-templates: add `%t` to the directive lexer and frame the draft's first
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

@@ -43,7 +43,7 @@ flowchart TD
     n2["bob-cli-ey.1.1: cli-directives, split: % directives, bare-# type marker, %t templates, and @@ cleanup [in_progress]"]
     n3["bob-cli-ey.1.1.1: Delete the @@route+block-id draft-wide form [closed]"]
     n4["bob-cli-ey.1.1.2: % directive lexer with %c/%c&lt;N&gt;, and clipboard parsing split from reading [closed]"]
-    n5["bob-cli-ey.1.1.3: %n replaces the trailing # Pomodoro note; %l replaces URL %/URL @ [in_progress]"]
+    n5["bob-cli-ey.1.1.3: %n replaces the trailing # Pomodoro note; %l replaces URL %/URL @ [closed]"]
     n6["bob-cli-ey.1.1.4: A bare edge [in_progress]"]
     n7["bob-cli-ey.1.1.5: %t frames templates; delete @@template:, @@@, and the @@ template candidate [in_progress]"]
     n8["bob-cli-ey.1.1.6: directive completion context, bare-# menu, initial_selection, and grammar 2 [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ey.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.md) | [bob-cli-ey.1](bob-cli-ey.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.1.md) | [bob-cli-ey.1.1.1](bob-cli-ey.1.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.2.md) | [bob-cli-ey.1.1.2](bob-cli-ey.1.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ey.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.3/README.md) | [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.3/README.md) | [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.4/README.md) | [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.5/README.md) | [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.6/README.md) | [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) | 0 |
@@ -104,3 +104,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`36c4807`](https://github.com/bobs-org/bob-cli/commit/36c48075510ff202a5d717fdf1a13e8bea7b37a8) | feat(capture)!: remove @@route+block-id | [bob-cli-ey.1.1.1](bob-cli-ey.1.1.1.md) | 2026-10-31 15:10:07 EDT |
 | bob-cli | [`6ae5df0`](https://github.com/bobs-org/bob-cli/commit/6ae5df0033a4082b8a09a4406bbb16e70c436a05) | feat(capture)!: add %c/%c\<N\> directive lexer and split clipboard reading | [bob-cli-ey.1.1.2](bob-cli-ey.1.1.2.md) | 2026-10-31 18:23:34 EDT |
+| bob-cli | [`4c011cd`](https://github.com/bobs-org/bob-cli/commit/4c011cd788f3953a90e9251ee67a985a824871b6) | feat(capture)!: teach %n and %l directives, retire trailing # and URL %/@ | [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) | 2026-10-31 19:47:59 EDT |
