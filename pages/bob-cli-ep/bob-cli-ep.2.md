@@ -30,3 +30,15 @@ mac: confirm the Swift sources stay sigil-agnostic, regenerate the task-type fix
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@9d023bb`](https://github.com/bobs-org/bob-mac-capture/commit/9d023bb34a39bbf9ced0144e114eec9b1d6498b8) | feat(mac-capture): type tasks with #\<type\> fixtures, tests, and docs | [bob-cli-ep.2](bob-cli-ep.2.md) | 2026-10-31 09:48:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ep.2][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ep.2/README.md
+
+<!-- sase:referenced-by:end -->
