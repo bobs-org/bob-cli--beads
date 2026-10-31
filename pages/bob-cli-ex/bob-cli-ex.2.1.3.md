@@ -13,7 +13,7 @@ offer_contracts: update capture, project, and successor documentation and only t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 

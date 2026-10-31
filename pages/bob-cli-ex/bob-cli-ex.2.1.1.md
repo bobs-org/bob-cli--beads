@@ -17,7 +17,7 @@ offer_engine: extend rendered project tasks, shared placement, project-note outp
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -30,3 +30,15 @@ offer_engine: extend rendered project tasks, shared placement, project-note outp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9a30ec4`](https://github.com/bobs-org/bob-cli/commit/9a30ec4ca268753820366554cd58fa5f0c006e71) | feat(capture): plan project-note task offers through the colon-bullet writer | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 2026-10-31 14:52:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ex.2.1.1][1] | Need remaining notes, decisions, and whether earlier work finished | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

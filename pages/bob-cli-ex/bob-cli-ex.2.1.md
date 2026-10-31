@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/project_note_offer_form.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/project_note_offer_form.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Capture @route:id@ creates a project note and offers its eligible tasks through 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.land/README.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ex.2.1.1][1] | Need parent epic DECISIONS and phase list | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->
