@@ -7,6 +7,18 @@
 **Created:** 2026-10-31 13:56:44 EDT
 **Plan:** [202610/project\_note\_offer\_form.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/project_note_offer_form.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/project_note_offer_form.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/project_note_offer_form.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Capture @route:id@ creates a project note and offers its eligible tasks through the existing pull-in protocol, with selected tasks identical to authored colon bullets and complete grammar, documentation, and verification coverage.

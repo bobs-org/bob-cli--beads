@@ -13,7 +13,7 @@ offer_language: enable @route:id@ in execution, editor parsing, completion, and 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

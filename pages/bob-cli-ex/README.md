@@ -29,7 +29,7 @@ A project note is sealed with `@`. `@route^id@` creates it, and `@route:id@` cre
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ex.1](bob-cli-ex.1.md) | Seal the caret project-note form with @ in bob | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [bob-cli-ex.2](bob-cli-ex.2.md) | @route:id@ creates the project and offers its tasks | ◐ in_progress | large | 2026-10-31 | 1 | 0 |
-| [bob-cli-ex.3](bob-cli-ex.3.md) | Mac manila-chip highlighting and @ seal migration | ✓ closed | medium | 2026-10-31 | 1 | 1 |
+| [bob-cli-ex.3](bob-cli-ex.3.md) | Mac manila-chip highlighting and @ seal migration | ✓ closed | medium | 2026-10-31 | 1 | 0 |
 | [bob-cli-ex.4](bob-cli-ex.4.md) | Mac project successor prompt | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
 
 ## Lineage
@@ -40,7 +40,7 @@ flowchart TD
     n1["bob-cli-ex.1: Seal the caret project-note form with @ in bob [closed]"]
     n2["bob-cli-ex.2: @route:id@ creates the project and offers its tasks [in_progress]"]
     n3["bob-cli-ex.2.1: Complete project-note task offers for bob-cli-ex.2 [in_progress]"]
-    n4["bob-cli-ex.2.1.1: Plan project task offers through the existing colon-bullet writer [in_progress]"]
+    n4["bob-cli-ex.2.1.1: Plan project task offers through the existing colon-bullet writer [closed]"]
     n5["bob-cli-ex.2.1.2: Enable the colon seal and verify the public capture protocol [in_progress]"]
     n6["bob-cli-ex.2.1.3: Publish project-offer contracts and finish acceptance coverage [in_progress]"]
     n7["bob-cli-ex.3: Mac manila-chip highlighting and @ seal migration [closed]"]
@@ -67,11 +67,11 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ex.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.1/README.md) | [bob-cli-ex.1](bob-cli-ex.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.md) | [bob-cli-ex.2](bob-cli-ex.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ex.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md) | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ex.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md) | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.2/README.md) | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.3/README.md) | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.land/README.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.4/README.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ex.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.land/README.md) | [bob-cli-ex](README.md) | 0 |
 
@@ -80,4 +80,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`76f2347`](https://github.com/bobs-org/bob-cli/commit/76f234719fd756a2808434a65dcd0268468d3285) | feat(capture)!: seal project notes with @ instead of + | [bob-cli-ex.1](bob-cli-ex.1.md) | 2026-10-31 13:48:00 EDT |
-| bob-mac-capture | [`bob-mac-capture@6b94f06`](https://github.com/bobs-org/bob-mac-capture/commit/6b94f061a96e8ac22174cad0ddb5bbd1fe19594b) | feat(mac-capture): seal project notes with @ and paint the project chip | [bob-cli-ex.3](bob-cli-ex.3.md) | 2026-10-31 14:15:48 EDT |
+| bob-cli | [`9a30ec4`](https://github.com/bobs-org/bob-cli/commit/9a30ec4ca268753820366554cd58fa5f0c006e71) | feat(capture): plan project-note task offers through the colon-bullet writer | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 2026-10-31 14:52:17 EDT |
