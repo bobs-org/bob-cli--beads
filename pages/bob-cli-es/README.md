@@ -56,7 +56,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-es.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-es.1.md) | [bob-cli-es.1](bob-cli-es.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-es.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-es.2/README.md) | [bob-cli-es.2](bob-cli-es.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-es.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-es.land.md) | [bob-cli-es](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-es.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-es.land.md) | [bob-cli-es](README.md) | 2 |
 
 ## Commits
 
@@ -65,6 +65,7 @@ flowchart TD
 | bob-cli | [`4f29a82`](https://github.com/bobs-org/bob-cli/commit/4f29a8246e737d0ca39d9455e749943a13f4646c) | feat(gcal): stamp each Events section with account and last change | [bob-cli-es.1](bob-cli-es.1.md) | 2026-10-30 19:34:07 EDT |
 | bob-plugins | [`bob-plugins@4e31220`](https://github.com/bobs-org/bob-plugins/commit/4e3122080f6b1c1f9413b29c63e4df50373eef90) | feat(ledger-tools): paint the Events sync stamp as a muted caption | [bob-cli-es.2](bob-cli-es.2.md) | 2026-10-30 19:50:39 EDT |
 | bob-cli | [`45b8346`](https://github.com/bobs-org/bob-cli/commit/45b8346ddbf0d21c698bdf52ce9f8731c4f631de) | fix(gcal): repair Events stamp spacing and finish landing | [bob-cli-es](README.md) | 2026-10-30 20:33:02 EDT |
+| bob-cli--plans | [`bob-cli--plans@c456ba6`](https://github.com/bobs-org/bob-cli--plans/commit/c456ba62ee9a269a7e1ababc445afe624fb929fe) | docs(plans): mark gcal\_events\_sync\_stamp done | [bob-cli-es](README.md) | 2026-10-30 20:33:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
