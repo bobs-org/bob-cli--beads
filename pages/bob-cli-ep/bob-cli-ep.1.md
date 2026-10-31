@@ -19,7 +19,7 @@ cli: switch the shared type-marker lexer to `#`, add the attached `@route^id#` a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ep.2](bob-cli-ep.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-ep.2](bob-cli-ep.2.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -40,6 +40,7 @@ cli: switch the shared type-marker lexer to `#`, add the attached `@route^id#` a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ep.1--3][1] | Need the approved phase bead's final decisions and close eligibility before updating its status | 1 |
 | read-by | [agent:bob-cli-ep.1--i][1] | Need current phase status before deciding close vs keep after latency miss | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ep.1.md
