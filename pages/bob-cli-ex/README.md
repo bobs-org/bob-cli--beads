@@ -30,7 +30,7 @@ A project note is sealed with `@`. `@route^id@` creates it, and `@route:id@` cre
 | [bob-cli-ex.1](bob-cli-ex.1.md) | Seal the caret project-note form with @ in bob | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [bob-cli-ex.2](bob-cli-ex.2.md) | @route:id@ creates the project and offers its tasks | ✓ closed | large | 2026-10-31 | 1 | 0 |
 | [bob-cli-ex.3](bob-cli-ex.3.md) | Mac manila-chip highlighting and @ seal migration | ✓ closed | medium | 2026-10-31 | 1 | 1 |
-| [bob-cli-ex.4](bob-cli-ex.4.md) | Mac project successor prompt | ✓ closed | medium | 2026-10-31 | 1 | 1 |
+| [bob-cli-ex.4](bob-cli-ex.4.md) | Mac project successor prompt | ✓ closed | medium | 2026-10-31 | 1 | 2 |
 
 ## Lineage
 
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ex.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.3/README.md) | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.1.land.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.4.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.4.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ex.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.land/README.md) | [bob-cli-ex](README.md) | 0 |
 
 ## Commits
@@ -87,3 +87,4 @@ flowchart TD
 | bob-cli | [`42dd92b`](https://github.com/bobs-org/bob-cli/commit/42dd92bc66193dfc3ad16fc6ff0b9813d51c92c9) | fix(capture): finish project-offer landing repairs for bob-cli-ex.2.1 | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2026-10-31 17:52:51 EDT |
 | bob-cli--plans | [`bob-cli--plans@4d46180`](https://github.com/bobs-org/bob-cli--plans/commit/4d461800f67260ed99d9ebd1510197189ed1875f) | docs(plans): mark project\_note\_offer\_form done for bob-cli-ex.2.1 landing | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2026-10-31 17:53:33 EDT |
 | bob-cli | [`e2838ac`](https://github.com/bobs-org/bob-cli/commit/e2838ac33654a440b3d9568b984ca4e39fd7129d) | docs(glossary): explain project successor offers | [bob-cli-ex.4](bob-cli-ex.4.md) | 2026-10-31 19:06:17 EDT |
+| bob-mac-capture | [`bob-mac-capture@891fe11`](https://github.com/bobs-org/bob-mac-capture/commit/891fe111f61a40af9917480184e7260588bb3967) | feat(mac-capture): choose a new project's tasks in the successor card | [bob-cli-ex.4](bob-cli-ex.4.md) | 2026-10-31 19:06:46 EDT |

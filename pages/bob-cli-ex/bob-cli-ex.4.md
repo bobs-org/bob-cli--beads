@@ -24,10 +24,11 @@ mac_offer_card: Bob Mac Capture harvests `project_note.successors` into the exis
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.4.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.4.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e2838ac`](https://github.com/bobs-org/bob-cli/commit/e2838ac33654a440b3d9568b984ca4e39fd7129d) | docs(glossary): explain project successor offers | [bob-cli-ex.4](bob-cli-ex.4.md) | 2026-10-31 19:06:17 EDT |
+| bob-mac-capture | [`bob-mac-capture@891fe11`](https://github.com/bobs-org/bob-mac-capture/commit/891fe111f61a40af9917480184e7260588bb3967) | feat(mac-capture): choose a new project's tasks in the successor card | [bob-cli-ex.4](bob-cli-ex.4.md) | 2026-10-31 19:06:46 EDT |
