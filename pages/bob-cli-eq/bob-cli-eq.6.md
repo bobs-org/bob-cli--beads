@@ -20,7 +20,7 @@ pomodoro: Pomodoro mode (no history, lane/schedule/type consequences, blocked ha
 ## Dependencies
 
 - **Depends on:** [bob-cli-eq.5](bob-cli-eq.5.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [bob-cli-eq.7](bob-cli-eq.7.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [bob-cli-eq.7](bob-cli-eq.7.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -33,3 +33,15 @@ pomodoro: Pomodoro mode (no history, lane/schedule/type consequences, blocked ha
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4bb8821`](https://github.com/bobs-org/bob-plugins/commit/4bb88219de009fb72aefad952f7fdae5dc617e2e) | feat(block-id-prompt)!: open-Pomodoro Task Link rules and ^^ parity | [bob-cli-eq.6](bob-cli-eq.6.md) | 2026-10-30 19:55:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-eq.6--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-eq.6.md
+
+<!-- sase:referenced-by:end -->
