@@ -38,7 +38,9 @@ offer_engine: extend rendered project tasks, shared placement, project-note outp
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ex.2.1.1][1] | Need remaining notes, decisions, and whether earlier work finished | 4 |
+| read-by | [agent:bob-cli-ex.2.1.3][2] | Check earlier phase notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

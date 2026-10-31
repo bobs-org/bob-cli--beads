@@ -19,7 +19,7 @@ seal_grammar: bob-cli switches `@route^id+` to `@route^id@` in the execution gra
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ex.2](bob-cli-ex.2.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ex.2](bob-cli-ex.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ex.3](bob-cli-ex.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
