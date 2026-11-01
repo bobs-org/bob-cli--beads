@@ -14,7 +14,7 @@ plugins-today-roots: add a pure planTodayRoots model, paint the ringed roots lin
 ## Dependencies
 
 - **Depends on:** [bob-cli-f9.3](bob-cli-f9.3.md) ✓ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-f9.4](bob-cli-f9.4.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f9.4](bob-cli-f9.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

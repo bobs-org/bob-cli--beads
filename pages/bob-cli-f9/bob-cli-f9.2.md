@@ -18,7 +18,7 @@ cli-drop-type-cap: remove the type cap from bob-cli config, plan budget, capture
 ## Dependencies
 
 - **Blocks:** [bob-cli-f9.3](bob-cli-f9.3.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f9.4](bob-cli-f9.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f9.4](bob-cli-f9.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
