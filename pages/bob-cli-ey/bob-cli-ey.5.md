@@ -34,4 +34,10 @@ mac-drawers: render the `drawer` context with On this task and Recent groups, th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md) | [bob-cli-ey.5](bob-cli-ey.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md) | [bob-cli-ey.5](bob-cli-ey.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@9a1876d`](https://github.com/bobs-org/bob-mac-capture/commit/9a1876d88223352f4ec8e440dd6b2df6dcc20b25) | feat(mac-capture)!: add the drawer menu and drawer previews, require grammar 3 | [bob-cli-ey.5](bob-cli-ey.5.md) | 2026-11-01 03:35:07 EST |
