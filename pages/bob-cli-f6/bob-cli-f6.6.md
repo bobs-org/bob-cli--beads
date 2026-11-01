@@ -13,7 +13,7 @@ plugins-untracked: paint #untracked on Event rows, keep \p and home chips untrac
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-f6.2](bob-cli-f6.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f6.2](bob-cli-f6.2.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-f6.3](bob-cli-f6.3.md) ◐ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-f6.4](bob-cli-f6.4.md) ◐ · ⧖ 2026-11-01
 

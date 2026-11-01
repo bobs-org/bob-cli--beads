@@ -19,7 +19,7 @@ untracked-ledger: make a timed row without [t::] untracked in every reader and w
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-f6.2](bob-cli-f6.2.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.2](bob-cli-f6.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.3](bob-cli-f6.3.md) ◐ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.5](bob-cli-f6.5.md) ◐ · ⧖ 2026-11-01
 
@@ -34,3 +34,15 @@ untracked-ledger: make a timed row without [t::] untracked in every reader and w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6d39305`](https://github.com/bobs-org/bob-cli/commit/6d39305a8cc4d39b2c2213c8b9e702cfacb648b4) | feat(pomodoro)!: omit untracked sessions from clocks and counts | [bob-cli-f6.1](bob-cli-f6.1.md) | 2026-11-01 13:19:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f6.1--2][1] | Need the phase scope, design file, notes, and DECISIONS | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f6.1.md
+
+<!-- sase:referenced-by:end -->
