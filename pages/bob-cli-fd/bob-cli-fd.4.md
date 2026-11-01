@@ -27,10 +27,16 @@ cycler-stamp: stamp block-id-prompt's unlink Work Log and task-status-cycler's P
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.4/README.md) | [bob-cli-fd.4](bob-cli-fd.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.4/README.md) | [bob-cli-fd.4](bob-cli-fd.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@072b25f`](https://github.com/bobs-org/bob-plugins/commit/072b25fe6e8e2ade05079ad13055809fa6422b8a) | feat(work-log): stamp unlink and Pomodoro close entries with the write instant | [bob-cli-fd.4](bob-cli-fd.4.md) | 2026-11-01 16:48:07 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fd.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.4/README.md
+
+<!-- sase:referenced-by:end -->

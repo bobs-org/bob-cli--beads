@@ -17,20 +17,14 @@ nav-stamp: teach the lane-walk chip to read and show stamps, then stamp every bo
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fd.3](bob-cli-fd.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fd.3](bob-cli-fd.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fd.4](bob-cli-fd.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.2/README.md) | [bob-cli-fd.2](bob-cli-fd.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@74ad555`](https://github.com/bobs-org/bob-plugins/commit/74ad5556c79d5a80910e25131014c00b32a28806) | feat(nav-hotkeys): implement nav-stamp with shared label helper and single clock read | [bob-cli-fd.2](bob-cli-fd.2.md) | 2026-11-01 15:57:44 EST |
+| [bbugyi200.apollo.bob-cli-fd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.2/README.md) | [bob-cli-fd.2](bob-cli-fd.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

@@ -17,7 +17,7 @@ mac-strip: make the close card's Work Log stripper accept stamped and date-only 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fd.3](bob-cli-fd.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fd.3](bob-cli-fd.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
