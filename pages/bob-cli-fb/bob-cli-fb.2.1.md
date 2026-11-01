@@ -7,6 +7,18 @@
 **Created:** 2026-11-01 13:00:27 EST
 **Plan:** [202611/leaf\_keep\_moving\_rust.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/leaf_keep_moving_rust.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/leaf_keep_moving_rust.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/leaf_keep_moving_rust.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-fb.2 with tested leaf detection, successor offers, capture selection and reporting, correct batch behavior, and verified performance.

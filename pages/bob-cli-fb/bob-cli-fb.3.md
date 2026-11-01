@@ -26,10 +26,16 @@ nav: teach bob-navigation-hotkeys' successor picker (v2) and Unblocked card (not
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.3/README.md) | [bob-cli-fb.3](bob-cli-fb.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.3/README.md) | [bob-cli-fb.3](bob-cli-fb.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@524ffc8`](https://github.com/bobs-org/bob-plugins/commit/524ffc85b2caed0b50a8853eca59a88f0bee9f57) | feat(navigation): render keep-moving offers in successor picker v2 and notice v2 | [bob-cli-fb.3](bob-cli-fb.3.md) | 2026-11-01 13:13:36 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fb.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.3/README.md
+
+<!-- sase:referenced-by:end -->
