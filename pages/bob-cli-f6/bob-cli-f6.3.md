@@ -18,7 +18,7 @@ meet-event-run: default MEET starts to the next contiguous event run, apply the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-f6.1](bob-cli-f6.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.4](bob-cli-f6.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.4](bob-cli-f6.4.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ◐ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ◐ · ⧖ 2026-11-01
 
@@ -26,7 +26,13 @@ meet-event-run: default MEET starts to the next contiguous event run, apply the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-f6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.3/README.md) | [bob-cli-f6.3](bob-cli-f6.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-f6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.3/README.md) | [bob-cli-f6.3](bob-cli-f6.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`eda4dfc`](https://github.com/bobs-org/bob-cli/commit/eda4dfc30245469287f17b796531e7cc98893a17) | feat(capture): start a MEET on its next event run | [bob-cli-f6.3](bob-cli-f6.3.md) | 2026-11-01 15:06:28 EST |
 
 <!-- sase:referenced-by:start -->
 
