@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/cli_directives_split.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/cli_directives_split.md
 
@@ -38,7 +38,9 @@ Deliver phase cli-directives (bead bob-cli-ey.1) of the "Capture drawers and % d
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ey.1.1.2--3][1] | Need epic DECISIONS and phase list | 1 |
+| read-by | [agent:bob-cli-ey.1.1.4--2][2] | Need epic DECISIONS for phase 4 | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.4.md
 
 <!-- sase:referenced-by:end -->

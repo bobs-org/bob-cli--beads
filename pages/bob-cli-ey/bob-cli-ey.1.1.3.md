@@ -19,7 +19,7 @@ note-and-listen-directives: teach the directive lexer `%n` and `%l`; route `%n` 
 
 - **Depends on:** [bob-cli-ey.1.1.2](bob-cli-ey.1.1.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
