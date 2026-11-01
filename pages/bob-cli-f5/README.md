@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-f5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-f5.2/README.md) | [bob-cli-f5.2](bob-cli-f5.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-f5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-f5.3.md) | [bob-cli-f5.3](bob-cli-f5.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-f5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-f5.4/README.md) | [bob-cli-f5.4](bob-cli-f5.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-f5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-f5.land.md) | [bob-cli-f5](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-f5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-f5.land.md) | [bob-cli-f5](README.md) | 3 |
 
 ## Commits
 
@@ -117,6 +117,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@32c9e03`](https://github.com/bobs-org/bob-plugins/commit/32c9e03248a03c1570f4dea6a29e7c8f6c15f130) | feat(task-link-marks): land rings in real Obsidian and bump 1.81.0 | [bob-cli-f5.4](bob-cli-f5.4.md) | 2026-11-01 11:23:08 EST |
 | bob-cli | [`f1ead7b`](https://github.com/bobs-org/bob-cli/commit/f1ead7bf6499b69c03265af2d6a5e8265d647307) | docs(task-link-marks): add fence, comment, and managed-row vectors and liveness rules | [bob-cli-f5](README.md) | 2026-11-01 12:37:36 EST |
 | bob-plugins | [`bob-plugins@d4b1b98`](https://github.com/bobs-org/bob-plugins/commit/d4b1b9838d0df7de3534bffe00241b2559132ca2) | fix(task-link-marks): repair context, managed rows, reduced motion, and stale Reading rings | [bob-cli-f5](README.md) | 2026-11-01 12:38:14 EST |
+| bob-cli--plans | [`bob-cli--plans@c37e3ea`](https://github.com/bobs-org/bob-cli--plans/commit/c37e3ea9058d3e098f857af076fa218442efe84d) | docs(plans): mark the task link marks plan done | [bob-cli-f5](README.md) | 2026-11-01 12:38:38 EST |
 
 <!-- sase:referenced-by:start -->
 
