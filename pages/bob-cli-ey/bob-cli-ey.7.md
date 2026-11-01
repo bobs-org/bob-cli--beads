@@ -41,13 +41,14 @@ The drawer contract from the parent epic is fully shipped. `Text @foo+bar#requir
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.land.md) | [bob-cli-ey.7](bob-cli-ey.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ey.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.land.md) | [bob-cli-ey.7](bob-cli-ey.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`12078cc`](https://github.com/bobs-org/bob-cli/commit/12078cc59ffdf66155dc3a519f711fb99b4be20f) | fix(capture): retype ID-less picker refs, bare-marker existing subject, near-duplicate override | [bob-cli-ey.7](bob-cli-ey.7.md) | 2026-11-01 09:21:54 EST |
+| bob-cli--plans | [`bob-cli--plans@1c71fab`](https://github.com/bobs-org/bob-cli--plans/commit/1c71fabf2418250b3bfa9fcbc0b2de7bd10f9fce) | docs(plans): mark finish\_capture\_drawers and capture\_drawers\_and\_directives done | [bob-cli-ey.7](bob-cli-ey.7.md) | 2026-11-01 09:22:41 EST |
 
 <!-- sase:referenced-by:start -->
 

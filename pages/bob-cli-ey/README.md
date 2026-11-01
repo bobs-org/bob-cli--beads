@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ey.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.2/README.md) | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.3.md) | [bob-cli-ey.7.3](bob-cli-ey.7.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.4.md) | [bob-cli-ey.7.4](bob-cli-ey.7.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ey.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.land.md) | [bob-cli-ey.7](bob-cli-ey.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ey.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.land.md) | [bob-cli-ey.7](bob-cli-ey.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ey.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.land.md) | [bob-cli-ey](README.md) | 0 |
 
 ## Commits
@@ -172,6 +172,7 @@ flowchart TD
 | bob-cli | [`c7afa6d`](https://github.com/bobs-org/bob-cli/commit/c7afa6d0a11609a23c4b6d6e1341a967f01e4bc3) | feat(capture)!: full drawer completion menu and drawer vocabulary sweep | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 2026-11-01 05:48:12 EST |
 | bob-mac-capture | [`bob-mac-capture@361e929`](https://github.com/bobs-org/bob-mac-capture/commit/361e9293446796f79c9d01ae19e41d9b5b015c33) | feat(capture): migrate Mac Capture fixtures to grammar 3 | [bob-cli-ey.7.4](bob-cli-ey.7.4.md) | 2026-11-01 08:09:54 EST |
 | bob-cli | [`12078cc`](https://github.com/bobs-org/bob-cli/commit/12078cc59ffdf66155dc3a519f711fb99b4be20f) | fix(capture): retype ID-less picker refs, bare-marker existing subject, near-duplicate override | [bob-cli-ey.7](bob-cli-ey.7.md) | 2026-11-01 09:21:54 EST |
+| bob-cli--plans | [`bob-cli--plans@1c71fab`](https://github.com/bobs-org/bob-cli--plans/commit/1c71fabf2418250b3bfa9fcbc0b2de7bd10f9fce) | docs(plans): mark finish\_capture\_drawers and capture\_drawers\_and\_directives done | [bob-cli-ey.7](bob-cli-ey.7.md) | 2026-11-01 09:22:41 EST |
 
 <!-- sase:referenced-by:start -->
 
