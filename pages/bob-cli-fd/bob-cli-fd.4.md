@@ -13,7 +13,7 @@ cycler-stamp: stamp block-id-prompt's unlink Work Log and task-status-cycler's P
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fd.2](bob-cli-fd.2.md) ○ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fd.2](bob-cli-fd.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

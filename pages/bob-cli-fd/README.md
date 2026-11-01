@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/work_log_timestamps.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/work_log_timestamps.md
 
 <!-- sase:links:end -->
@@ -27,8 +29,8 @@ Every new Work Log entry, from any of Bob's four writers, opens with one italic 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-fd.1](bob-cli-fd.1.md) | Bob Mac Capture strips both stamp forms | ✓ closed | small | 2026-11-01 | 1 | 1 |
-| [bob-cli-fd.2](bob-cli-fd.2.md) | Navigation hotkeys read and write stamps | ○ open | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fd.1](bob-cli-fd.1.md) | Bob Mac Capture strips both stamp forms | ✓ closed | small | 2026-11-01 | 1 | 0 |
+| [bob-cli-fd.2](bob-cli-fd.2.md) | Navigation hotkeys read and write stamps | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fd.3](bob-cli-fd.3.md) | bob capture close stamps entries and owns the grammar docs | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
 | [bob-cli-fd.4](bob-cli-fd.4.md) | Unlink prompt and Pomodoro checkbox close write stamps | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
 
@@ -38,7 +40,7 @@ Every new Work Log entry, from any of Bob's four writers, opens with one italic 
 flowchart TD
     n0["bob-cli-fd: Timestamped Work Log entries [in_progress]"]
     n1["bob-cli-fd.1: Bob Mac Capture strips both stamp forms [closed]"]
-    n2["bob-cli-fd.2: Navigation hotkeys read and write stamps [open]"]
+    n2["bob-cli-fd.2: Navigation hotkeys read and write stamps [closed]"]
     n3["bob-cli-fd.3: bob capture close stamps entries and owns the grammar docs [in_progress]"]
     n4["bob-cli-fd.4: Unlink prompt and Pomodoro checkbox close write stamps [in_progress]"]
     n0 --> n1
@@ -54,8 +56,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.1/README.md) | [bob-cli-fd.1](bob-cli-fd.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.2/README.md) | [bob-cli-fd.2](bob-cli-fd.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.1/README.md) | [bob-cli-fd.1](bob-cli-fd.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.2/README.md) | [bob-cli-fd.2](bob-cli-fd.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.3/README.md) | [bob-cli-fd.3](bob-cli-fd.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.4/README.md) | [bob-cli-fd.4](bob-cli-fd.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.land/README.md) | [bob-cli-fd](README.md) | 0 |
@@ -64,4 +66,16 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@01c753b`](https://github.com/bobs-org/bob-mac-capture/commit/01c753b0e6e045a0cc69b3d3f51302b8423b7e55) | feat(mac-capture): strip stamped Work Log dates on the close card | [bob-cli-fd.1](bob-cli-fd.1.md) | 2026-11-01 15:43:29 EST |
+| bob-plugins | [`bob-plugins@74ad555`](https://github.com/bobs-org/bob-plugins/commit/74ad5556c79d5a80910e25131014c00b32a28806) | feat(nav-hotkeys): implement nav-stamp with shared label helper and single clock read | [bob-cli-fd.2](bob-cli-fd.2.md) | 2026-11-01 15:57:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fd.1][1] | Need epic plan, notes, and remaining work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.1/README.md
+
+<!-- sase:referenced-by:end -->

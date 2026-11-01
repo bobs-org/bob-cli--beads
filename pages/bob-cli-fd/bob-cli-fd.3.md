@@ -14,7 +14,7 @@ cli-stamp: stamp capture `x` close entries from the close's own `now`, publish t
 ## Dependencies
 
 - **Depends on:** [bob-cli-fd.1](bob-cli-fd.1.md) ✓ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fd.2](bob-cli-fd.2.md) ○ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fd.2](bob-cli-fd.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
