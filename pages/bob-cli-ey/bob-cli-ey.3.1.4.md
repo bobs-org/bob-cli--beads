@@ -13,7 +13,7 @@ clip-preview: authorize live clipboard reads only from the current Bob parse, re
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.3.1.3](bob-cli-ey.3.1.3.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.3.1.3](bob-cli-ey.3.1.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
