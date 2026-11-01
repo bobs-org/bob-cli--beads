@@ -15,7 +15,7 @@ mac-rail-and-cards: draw the day rail and render event runs, far-run and conflic
 
 - **Depends on:** [bob-cli-f6.3](bob-cli-f6.3.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-f6.4](bob-cli-f6.4.md) ◐ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-f6.7](bob-cli-f6.7.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f6.7](bob-cli-f6.7.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

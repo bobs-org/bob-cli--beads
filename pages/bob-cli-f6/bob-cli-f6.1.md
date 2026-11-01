@@ -43,8 +43,10 @@ untracked-ledger: make a timed row without [t::] untracked in every reader and w
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-f6.1--2][1] | Need the phase scope, design file, notes, and DECISIONS | 1 |
 | read-by | [agent:bob-cli-f6.2][2] | Need prior phase implementation for dependency | 1 |
+| read-by | [agent:bob-cli-f6.3][3] | see what the predecessor phase landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f6.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.3/README.md
 
 <!-- sase:referenced-by:end -->

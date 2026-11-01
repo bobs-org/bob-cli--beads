@@ -18,7 +18,7 @@ agenda-events: add the additive events block, item event chips, and tracked flag
 ## Dependencies
 
 - **Depends on:** [bob-cli-f6.1](bob-cli-f6.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.7](bob-cli-f6.7.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.7](bob-cli-f6.7.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
