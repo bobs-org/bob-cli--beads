@@ -19,7 +19,7 @@ core: write the bob-cli display contract with conformance vectors, add the pure 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-f5.2](bob-cli-f5.2.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f5.2](bob-cli-f5.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -33,3 +33,15 @@ core: write the bob-cli display contract with conformance vectors, add the pure 
 |---|---|---|---|---|
 | bob-cli | [`a1233eb`](https://github.com/bobs-org/bob-cli/commit/a1233eb8f4fa3bded9df99d3f289328b15e1681f) | feat(task-link-marks): display contract, registry, and docs links | [bob-cli-f5.1](bob-cli-f5.1.md) | 2026-11-01 09:49:06 EST |
 | bob-plugins | [`bob-plugins@a67b8cd`](https://github.com/bobs-org/bob-plugins/commit/a67b8cddff9b4638e4b4c2342642063ef176c77b) | feat(task-link-marks): pure core, ring CSS, preview, and conformance tests | [bob-cli-f5.1](bob-cli-f5.1.md) | 2026-11-01 09:49:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f5.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-f5.1/README.md
+
+<!-- sase:referenced-by:end -->

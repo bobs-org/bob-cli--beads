@@ -13,7 +13,7 @@ reading: add the post-processor for Reading view, embeds, hover popovers, and Ta
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-f5.2](bob-cli-f5.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f5.2](bob-cli-f5.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f5.4](bob-cli-f5.4.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
