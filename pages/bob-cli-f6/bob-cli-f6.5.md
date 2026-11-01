@@ -31,3 +31,15 @@ agenda-events: add the additive events block, item event chips, and tracked flag
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`83e1196`](https://github.com/bobs-org/bob-cli/commit/83e11967fd9290816a09c422eccb4cd1af98f458) | feat(capture): add events to pomodoro task agenda | [bob-cli-f6.5](bob-cli-f6.5.md) | 2026-11-01 14:31:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f6.5][1] | Check whether earlier phase work or remaining-work notes were recorded | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.5/README.md
+
+<!-- sase:referenced-by:end -->

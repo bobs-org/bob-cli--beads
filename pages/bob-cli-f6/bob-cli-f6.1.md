@@ -20,7 +20,7 @@ untracked-ledger: make a timed row without [t::] untracked in every reader and w
 ## Dependencies
 
 - **Blocks:** [bob-cli-f6.2](bob-cli-f6.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.3](bob-cli-f6.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.3](bob-cli-f6.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.5](bob-cli-f6.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
