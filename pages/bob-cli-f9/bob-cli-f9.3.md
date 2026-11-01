@@ -13,7 +13,7 @@ cli-today-roots: write the Today roots contract in docs/plan.md, compute today_r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-f9.2](bob-cli-f9.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f9.2](bob-cli-f9.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f9.5](bob-cli-f9.5.md) ◐ · ⧖ 2026-11-01
 
 ## Agents

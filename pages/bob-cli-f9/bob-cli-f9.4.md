@@ -13,7 +13,7 @@ plugins-drop-type-cap: mirror the cap removal across bob-ledger-tools, block-id-
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-f9.2](bob-cli-f9.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f9.2](bob-cli-f9.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f9.5](bob-cli-f9.5.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
