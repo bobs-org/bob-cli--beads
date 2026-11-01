@@ -17,13 +17,19 @@ engine: implement leaf detection, cost gates, K1-K8, candidate classification, s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fb.2.1.2](bob-cli-fb.2.1.2.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fb.2.1.2](bob-cli-fb.2.1.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fb.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.1.md) | [bob-cli-fb.2.1.1](bob-cli-fb.2.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fb.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.1.md) | [bob-cli-fb.2.1.1](bob-cli-fb.2.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`f6d3084`](https://github.com/bobs-org/bob-cli/commit/f6d3084bb7796b56292f820f62b0cea5bedab472) | feat(task-complete): add leaf-project keep-moving successor engine | [bob-cli-fb.2.1.1](bob-cli-fb.2.1.1.md) | 2026-11-01 14:31:46 EST |
 
 <!-- sase:referenced-by:start -->
 

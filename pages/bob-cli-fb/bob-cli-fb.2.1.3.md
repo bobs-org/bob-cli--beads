@@ -13,7 +13,7 @@ finish: implement KM21 with later-item provenance, render the approved human cop
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fb.2.1.2](bob-cli-fb.2.1.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fb.2.1.2](bob-cli-fb.2.1.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

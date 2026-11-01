@@ -24,10 +24,16 @@ cycler: port the rule to task-status-cycler for every Obsidian close surface. Co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.4.md) | [bob-cli-fb.4](bob-cli-fb.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.4.md) | [bob-cli-fb.4](bob-cli-fb.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@99333a5`](https://github.com/bobs-org/bob-plugins/commit/99333a5b81f500a306499d88c514a082d4fb6764) | feat(task-status-cycler): offer keep-moving leaf project tasks | [bob-cli-fb.4](bob-cli-fb.4.md) | 2026-11-01 14:44:33 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fb.4--1][1] | Review assigned phase scope and record any unrelated gate issue correctly | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.4.md
+
+<!-- sase:referenced-by:end -->
