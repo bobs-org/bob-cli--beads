@@ -24,13 +24,14 @@ cli-drop-type-cap: remove the type cap from bob-cli config, plan budget, capture
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-f9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.2/README.md) | [bob-cli-f9.2](bob-cli-f9.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-f9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.2/README.md) | [bob-cli-f9.2](bob-cli-f9.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3de72bf`](https://github.com/bobs-org/bob-cli/commit/3de72bfd844248d30b3c9aa0eaa01454fa6b0cc5) | feat(plan)!: retire the daily type cap and plan.strict | [bob-cli-f9.2](bob-cli-f9.2.md) | 2026-11-01 13:47:14 EST |
+| chezmoi | [`chezmoi@aa84457`](https://github.com/bbugyi200/dotfiles/commit/aa844572a19e9bede2dce7f025c637762b23aa49) | chore: drop retired plan.max\_themes and plan.strict from bob config | [bob-cli-f9.2](bob-cli-f9.2.md) | 2026-11-01 13:50:00 EST |
 
 <!-- sase:referenced-by:start -->
 

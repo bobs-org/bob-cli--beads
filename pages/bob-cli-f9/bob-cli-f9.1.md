@@ -19,7 +19,13 @@ mac-drop-type-meter: in bob-mac-capture, drop the Types capsule, the +N type del
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-f9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.1/README.md) | [bob-cli-f9.1](bob-cli-f9.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-f9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.1/README.md) | [bob-cli-f9.1](bob-cli-f9.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@f4face9`](https://github.com/bobs-org/bob-mac-capture/commit/f4face9fe8ea965cfa12bb4b3a88dad1c5403b29) | feat(capture)!: stop showing the daily type cap | [bob-cli-f9.1](bob-cli-f9.1.md) | 2026-11-01 12:32:55 EST |
 
 <!-- sase:referenced-by:start -->
 
