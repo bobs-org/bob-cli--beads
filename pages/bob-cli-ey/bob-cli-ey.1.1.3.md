@@ -18,7 +18,7 @@ note-and-listen-directives: teach the directive lexer `%n` and `%l`; route `%n` 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.1.1.2](bob-cli-ey.1.1.2.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) ◐ · ⧖ 2026-10-31
 
 ## Agents
@@ -32,3 +32,15 @@ note-and-listen-directives: teach the directive lexer `%n` and `%l`; route `%n` 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4c011cd`](https://github.com/bobs-org/bob-cli/commit/4c011cd788f3953a90e9251ee67a985a824871b6) | feat(capture)!: teach %n and %l directives, retire trailing # and URL %/@ | [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) | 2026-10-31 19:47:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ey.1.1.3][1] | Need phase scope and design | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.3/README.md
+
+<!-- sase:referenced-by:end -->

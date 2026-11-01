@@ -13,7 +13,7 @@ directive-completion-grammar: add the `directive` completion context (`capture_c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) ✓ · ⧖ 2026-10-31
 - **Depends on:** [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) ◐ · ⧖ 2026-10-31
 
 ## Agents
