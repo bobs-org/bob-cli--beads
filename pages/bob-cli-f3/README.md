@@ -57,6 +57,10 @@ Done when: the Test step passes on a master push (or a precommit snapshot from `
 
 Deterministic assertion mismatches, not intermittent: the same seven tests fail in every Test step recorded on three different SHAs (master runs 41218430244 at 027bf44 and 41228541365 at 6b94f06, and precommit snapshot run 41257836794 at fa3170d). A rerun-on-same-tree passed none of them, and the assertion values are identical across runs.
 
+## Notes
+
+[2026-11-01T07:40:59Z · bob-cli-ey.3.1.land--2] Overlap addressed by bob-cli-ey.3.1: the new testTypingAfterAnUnselectedMenuRanksAFreshSelection shares the fake-bob typed-hash parse/completion path with CaptureTaskTypeHostedTests.testBareLeadingTrailingAndChildMarkersOpenTaskTypeMenu and testTypedRowDoesNotWriteVisibility. Fake-bob now serves current-wire parse and completion fixtures for leading, trailing, and child typed markers, including required body/spans/needs, so filtering and menu visibility exercise valid Bob responses. This is the fixture-side overlap only; the other baseline nodes remain, and hosted macOS execution was unavailable (macOS targets unverified).
+
 ## +1 Evidence
 
 > **+1** by `bob-cli-ey.3.1.land` · 2026-11-01 01:52:01 EST
