@@ -19,7 +19,7 @@ contract: pin the leaf-project definition, the keep_moving trigger, rule, report
 
 - **Blocks:** [bob-cli-fb.2](bob-cli-fb.2.md) ◐ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fb.3](bob-cli-fb.3.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fb.4](bob-cli-fb.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fb.4](bob-cli-fb.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
