@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ey](README.md) / bob-cli-ey.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2x.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2x.linker.w0.md) · **Assignee:** `bob-cli-ey.3` · **Size:** large
-**Created:** 2026-10-31 12:52:04 EDT
+**Created:** 2026-10-31 12:52:04 EDT · **Closed:** 2026-11-01 02:51:10 EST
 **Plan:** [202610/capture\_drawers\_and\_directives.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_drawers_and_directives.md)
 
 ## Description

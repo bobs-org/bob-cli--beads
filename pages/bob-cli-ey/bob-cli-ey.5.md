@@ -14,7 +14,7 @@ mac-drawers: render the `drawer` context with On this task and Recent groups, th
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.2](bob-cli-ey.2.md) ✓ · ⧖ 2026-10-31
-- **Depends on:** [bob-cli-ey.3](bob-cli-ey.3.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.3](bob-cli-ey.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
