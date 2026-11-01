@@ -18,7 +18,7 @@ gcal-untracked-tag: parse the Google token, render the row tag, split past MEET 
 ## Dependencies
 
 - **Depends on:** [bob-cli-f6.1](bob-cli-f6.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

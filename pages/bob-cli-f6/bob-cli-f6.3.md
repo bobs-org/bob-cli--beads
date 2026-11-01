@@ -19,7 +19,7 @@ meet-event-run: default MEET starts to the next contiguous event run, apply the 
 
 - **Depends on:** [bob-cli-f6.1](bob-cli-f6.1.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.4](bob-cli-f6.4.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ◐ · ⧖ 2026-11-01
 
 ## Agents

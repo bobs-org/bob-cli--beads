@@ -20,7 +20,7 @@ event-start-warnings: structured run-past-event warnings with fit drafts for sta
 ## Dependencies
 
 - **Depends on:** [bob-cli-f6.3](bob-cli-f6.3.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
@@ -35,3 +35,15 @@ event-start-warnings: structured run-past-event warnings with fit drafts for sta
 |---|---|---|---|---|
 | bob-cli | [`273e09a`](https://github.com/bobs-org/bob-cli/commit/273e09a7fd870f235c4cbe9ff6483b0909b5f778) | feat(capture): warn when a non-MEET session runs past an Event Task | [bob-cli-f6.4](bob-cli-f6.4.md) | 2026-11-01 16:38:31 EST |
 | bob-cli | [`3980489`](https://github.com/bobs-org/bob-cli/commit/39804896ce402ae95e807badc03fc228c2a151ed) | fix(capture): keep keep-moving goldens and clippy green | [bob-cli-f6.4](bob-cli-f6.4.md) | 2026-11-01 16:40:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f6.4][1] | Need notes, description, and remaining work before implementing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.4/README.md
+
+<!-- sase:referenced-by:end -->
