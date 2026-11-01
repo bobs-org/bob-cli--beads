@@ -26,10 +26,11 @@ live_preview: add the target resolver (live doc, then Tasks memo, then metadata 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-f5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-f5.2/README.md) | [bob-cli-f5.2](bob-cli-f5.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-f5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-f5.2/README.md) | [bob-cli-f5.2](bob-cli-f5.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4ea4c33`](https://github.com/bobs-org/bob-cli/commit/4ea4c330df72b32c20bb91ec4a5440f8edab6a72) | docs(task-link-marks): name the Live Preview fragments and swap class | [bob-cli-f5.2](bob-cli-f5.2.md) | 2026-11-01 10:11:12 EST |
+| bob-plugins | [`bob-plugins@13d40ac`](https://github.com/bobs-org/bob-plugins/commit/13d40ac4ec851f0f60cae581a21d581157fc0d07) | feat(task-link-marks): Live Preview rings, resolver, refresh, and toggle | [bob-cli-f5.2](bob-cli-f5.2.md) | 2026-11-01 10:11:28 EST |
