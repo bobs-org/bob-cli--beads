@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/mac_directives.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/mac_directives.md
 
@@ -35,14 +35,7 @@ Complete bob-cli-ey.3 with unselected directive and type menus, a grammar-2 comp
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md) | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@f6c4100`](https://github.com/bobs-org/bob-mac-capture/commit/f6c4100fbd9a97c18fad31b00bac814e60754a41) | fix(mac-capture): complete directive landing repairs | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 2026-11-01 02:54:33 EST |
-| bob-cli--plans | [`bob-cli--plans@86a4e8d`](https://github.com/bobs-org/bob-cli--plans/commit/86a4e8d7ea552df90a833b1b274565e1c23c4a14) | docs(plan): mark Mac directives landing done | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 2026-11-01 02:55:08 EST |
+| [bbugyi200.apollo.bob-cli-ey.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md) | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -52,8 +45,10 @@ Complete bob-cli-ey.3 with unselected directive and type menus, a grammar-2 comp
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ey.3.1.3][1] | Need epic DECISIONS that bind this child phase | 4 |
 | read-by | [agent:bob-cli-ey.3.1.4][2] | Need phase scope, decisions, symbols for clip-preview work | 1 |
+| read-by | [agent:bob-cli-ey.3.1.land--3][3] | Need child bead scope and history before closing the completed directive repair | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md
 
 <!-- sase:referenced-by:end -->

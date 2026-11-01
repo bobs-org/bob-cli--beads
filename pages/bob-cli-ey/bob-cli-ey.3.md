@@ -18,7 +18,7 @@ mac-directives: add the no-selection menu state; add the bob-described `%` direc
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.1](bob-cli-ey.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.5](bob-cli-ey.5.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.5](bob-cli-ey.5.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -33,7 +33,9 @@ mac-directives: add the no-selection menu state; add the bob-described `%` direc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ey.3.1.4][1] | Need epic DECISIONS binding clip-preview phase | 1 |
+| read-by | [agent:bob-cli-ey.3.1.land--3][2] | Need phase scope and closeout criteria before phase completion | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md
 
 <!-- sase:referenced-by:end -->

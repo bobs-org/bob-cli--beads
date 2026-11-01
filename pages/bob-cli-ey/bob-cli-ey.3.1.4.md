@@ -23,13 +23,7 @@ clip-preview: authorize live clipboard reads only from the current Bob parse, re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.4/README.md) | [bob-cli-ey.3.1.4](bob-cli-ey.3.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@a8e2ab6`](https://github.com/bobs-org/bob-mac-capture/commit/a8e2ab656a12f69fe929d10ab3ab879f42e31e98) | feat(mac-capture)!: read clips in live preview and render the Clip card | [bob-cli-ey.3.1.4](bob-cli-ey.3.1.4.md) | 2026-11-01 01:45:00 EST |
+| [bbugyi200.apollo.bob-cli-ey.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.4/README.md) | [bob-cli-ey.3.1.4](bob-cli-ey.3.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

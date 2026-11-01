@@ -28,15 +28,21 @@ BREAKING CHANGE: removes attached @route+id#type and @route^id#type forms, -S/--
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.1](bob-cli-ey.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.4](bob-cli-ey.4.md) ○ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.5](bob-cli-ey.5.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.4](bob-cli-ey.4.md) ✓ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.5](bob-cli-ey.5.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.6](bob-cli-ey.6.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.2.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.2.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`e660c8d`](https://github.com/bobs-org/bob-cli/commit/e660c8d8844df3542f701a4b83cd1fc6826bf5f3) | feat(capture)!: glued #drawer capture with exact matching, on-demand creation, drawer menu, and capture-drawers | [bob-cli-ey.2](bob-cli-ey.2.md) | 2026-11-01 02:44:01 EST |
 
 <!-- sase:referenced-by:start -->
 
