@@ -21,7 +21,7 @@ untracked-ledger: make a timed row without [t::] untracked in every reader and w
 
 - **Blocks:** [bob-cli-f6.2](bob-cli-f6.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.3](bob-cli-f6.3.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.5](bob-cli-f6.5.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.5](bob-cli-f6.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -42,7 +42,9 @@ untracked-ledger: make a timed row without [t::] untracked in every reader and w
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-f6.1--2][1] | Need the phase scope, design file, notes, and DECISIONS | 1 |
+| read-by | [agent:bob-cli-f6.2][2] | Need prior phase implementation for dependency | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f6.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.2/README.md
 
 <!-- sase:referenced-by:end -->

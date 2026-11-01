@@ -13,7 +13,7 @@ mac-calendar-band: decode the events block and add the folding Calendar band, ro
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-f6.5](bob-cli-f6.5.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f6.5](bob-cli-f6.5.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
