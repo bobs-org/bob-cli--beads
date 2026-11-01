@@ -20,7 +20,7 @@ plugins-drop-type-cap: mirror the cap removal across bob-ledger-tools, block-id-
 ## Dependencies
 
 - **Depends on:** [bob-cli-f9.2](bob-cli-f9.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f9.5](bob-cli-f9.5.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f9.5](bob-cli-f9.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -33,3 +33,15 @@ plugins-drop-type-cap: mirror the cap removal across bob-ledger-tools, block-id-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@270b19b`](https://github.com/bobs-org/bob-plugins/commit/270b19bd0212b95c6413566fe8e379e90fbd85d7) | feat(plan)!: retire the daily type cap from plugins | [bob-cli-f9.4](bob-cli-f9.4.md) | 2026-11-01 15:30:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f9.4--4][1] | Confirm close status after declaration | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f9.4.md
+
+<!-- sase:referenced-by:end -->

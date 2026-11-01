@@ -18,13 +18,19 @@ cli-today-roots: write the Today roots contract in docs/plan.md, compute today_r
 ## Dependencies
 
 - **Depends on:** [bob-cli-f9.2](bob-cli-f9.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f9.5](bob-cli-f9.5.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f9.5](bob-cli-f9.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-f9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.3/README.md) | [bob-cli-f9.3](bob-cli-f9.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-f9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.3/README.md) | [bob-cli-f9.3](bob-cli-f9.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`b71a6c1`](https://github.com/bobs-org/bob-cli/commit/b71a6c15b80b449b01c86edd5e193c6f805bce7e) | feat(plan): report and print Today roots | [bob-cli-f9.3](bob-cli-f9.3.md) | 2026-11-01 14:32:30 EST |
 
 <!-- sase:referenced-by:start -->
 
