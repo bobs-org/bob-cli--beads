@@ -13,7 +13,7 @@ mac-capture: paint drawer-bullet spans, summarize multi-note sub-bullet previews
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fc.2](bob-cli-fc.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fc.2](bob-cli-fc.2.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fc.3](bob-cli-fc.3.md) ◐ · ⧖ 2026-11-01
 
 ## Agents

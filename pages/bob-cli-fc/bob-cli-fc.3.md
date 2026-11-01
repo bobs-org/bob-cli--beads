@@ -13,7 +13,7 @@ bullet-menu: open the drawer completion menu at a first-level bullet's `#`, repl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fc.2](bob-cli-fc.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fc.2](bob-cli-fc.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fc.4](bob-cli-fc.4.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
