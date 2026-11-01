@@ -13,7 +13,7 @@ landing: prove the feature in a real Obsidian scratch vault (LP, Reading, cross-
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-f5.3](bob-cli-f5.3.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-f5.3](bob-cli-f5.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
