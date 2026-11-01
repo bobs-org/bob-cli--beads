@@ -14,7 +14,7 @@ mac-drawer-fixtures: regenerate the drawer fixtures from a bob that contains dra
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.7.1](bob-cli-ey.7.1.md) ✓ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-ey.7.2](bob-cli-ey.7.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-ey.7.2](bob-cli-ey.7.2.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-ey.7.3](bob-cli-ey.7.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents

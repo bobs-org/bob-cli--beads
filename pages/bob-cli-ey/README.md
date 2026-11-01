@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/capture_drawers_and_directives.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_drawers_and_directives.md
 
@@ -67,7 +67,7 @@ flowchart TD
     n18["bob-cli-ey.6: bob-plugins drawer promotion parity test and vocabulary [closed]"]
     n19["bob-cli-ey.7: Finish capture drawers (bob-cli-ey landing repairs) [in_progress]"]
     n20["bob-cli-ey.7.1: bob-cli drawer writes, retype, capture output, and refusal codes [closed]"]
-    n21["bob-cli-ey.7.2: bob-cli full drawer completion menu and drawer vocabulary sweep [in_progress]"]
+    n21["bob-cli-ey.7.2: bob-cli full drawer completion menu and drawer vocabulary sweep [closed]"]
     n22["bob-cli-ey.7.3: Bob Mac Capture macOS test regressions from the directive and drawer phases [closed]"]
     n23["bob-cli-ey.7.4: Bob Mac Capture real drawer fixtures and migrated task-type generator [in_progress]"]
     n0 --> n1
@@ -136,8 +136,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ey.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.4/README.md) | [bob-cli-ey.4](bob-cli-ey.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md) | [bob-cli-ey.5](bob-cli-ey.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.6/README.md) | [bob-cli-ey.6](bob-cli-ey.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ey.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.1/README.md) | [bob-cli-ey.7.1](bob-cli-ey.7.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ey.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.2/README.md) | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.1/README.md) | [bob-cli-ey.7.1](bob-cli-ey.7.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ey.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.2/README.md) | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.3.md) | [bob-cli-ey.7.3](bob-cli-ey.7.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.4/README.md) | [bob-cli-ey.7.4](bob-cli-ey.7.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.land/README.md) | [bob-cli-ey.7](bob-cli-ey.7.md) | 0 |
@@ -164,7 +164,9 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@86a4e8d`](https://github.com/bobs-org/bob-cli--plans/commit/86a4e8d7ea552df90a833b1b274565e1c23c4a14) | docs(plan): mark Mac directives landing done | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 2026-11-01 02:55:08 EST |
 | bob-cli | [`ffc5f1f`](https://github.com/bobs-org/bob-cli/commit/ffc5f1f99fe5c25f0d660e4e1d3c63c054b3e406) | feat(capture): resolve ^prj drawers against project-note H2 sections | [bob-cli-ey.4](bob-cli-ey.4.md) | 2026-11-01 03:29:31 EST |
 | bob-mac-capture | [`bob-mac-capture@9a1876d`](https://github.com/bobs-org/bob-mac-capture/commit/9a1876d88223352f4ec8e440dd6b2df6dcc20b25) | feat(mac-capture)!: add the drawer menu and drawer previews, require grammar 3 | [bob-cli-ey.5](bob-cli-ey.5.md) | 2026-11-01 03:35:07 EST |
+| bob-cli | [`f2b599c`](https://github.com/bobs-org/bob-cli/commit/f2b599c4a26ce49a5fc525d32c5a7975003de9aa) | feat(capture)!: drawer writes, retype, and drawer JSON contract | [bob-cli-ey.7.1](bob-cli-ey.7.1.md) | 2026-11-01 04:47:00 EST |
 | bob-mac-capture | [`bob-mac-capture@b48d1b4`](https://github.com/bobs-org/bob-mac-capture/commit/b48d1b4dcd8aaf8dacfd1f21517b2708f23e01d7) | fix(mac-capture): restore Open Hint chip and hosted XCTest contracts | [bob-cli-ey.7.3](bob-cli-ey.7.3.md) | 2026-11-01 04:49:20 EST |
+| bob-cli | [`c7afa6d`](https://github.com/bobs-org/bob-cli/commit/c7afa6d0a11609a23c4b6d6e1341a967f01e4bc3) | feat(capture)!: full drawer completion menu and drawer vocabulary sweep | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 2026-11-01 05:48:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -175,9 +177,11 @@ flowchart TD
 | read-by | [agent:bob-cli-ey.3.1.land--3][1] | Need containing epic status to preserve its open state | 4 |
 | read-by | [agent:bob-cli-ey.4][2] | Need epic scope, decisions, child phase status | 1 |
 | read-by | [agent:bob-cli-ey.5][3] | Need epic phase list and notes | 1 |
+| read-by | [agent:bob-cli-ey.7.1][4] | Need parent epic DECISIONS | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.1/README.md
 
 <!-- sase:referenced-by:end -->
