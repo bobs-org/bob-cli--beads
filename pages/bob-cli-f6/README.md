@@ -34,7 +34,7 @@ A Google Calendar event tagged #untracked becomes an #untracked Event Task that 
 | [bob-cli-f6.3](bob-cli-f6.3.md) | bob-cli: capture = starts a MEET on its next event run | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-f6.4](bob-cli-f6.4.md) | bob-cli: warn when non-MEET sessions run past an Event Task | ✓ closed | medium | 2026-11-01 | 1 | 2 |
 | [bob-cli-f6.5](bob-cli-f6.5.md) | bob-cli: events block in capture-pomodoros --tasks | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-f6.6](bob-cli-f6.6.md) | bob-plugins: render #untracked and keep Obsidian keymaps in lockstep | ✓ closed | medium | 2026-11-01 | 1 | 1 |
+| [bob-cli-f6.6](bob-cli-f6.6.md) | bob-plugins: render #untracked and keep Obsidian keymaps in lockstep | ✓ closed | medium | 2026-11-01 | 1 | 2 |
 | [bob-cli-f6.7](bob-cli-f6.7.md) | bob-mac-capture: Calendar band in the idle agenda | ✓ closed | medium | 2026-11-01 | 1 | 0 |
 | [bob-cli-f6.8](bob-cli-f6.8.md) | bob-mac-capture: day rail, start-card event runs, conflict banners | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
 
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-f6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.3/README.md) | [bob-cli-f6.3](bob-cli-f6.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-f6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.4/README.md) | [bob-cli-f6.4](bob-cli-f6.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-f6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.5/README.md) | [bob-cli-f6.5](bob-cli-f6.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-f6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.6/README.md) | [bob-cli-f6.6](bob-cli-f6.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-f6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.6/README.md) | [bob-cli-f6.6](bob-cli-f6.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-f6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.7/README.md) | [bob-cli-f6.7](bob-cli-f6.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-f6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.8/README.md) | [bob-cli-f6.8](bob-cli-f6.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-f6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.land/README.md) | [bob-cli-f6](README.md) | 0 |
@@ -97,6 +97,7 @@ flowchart TD
 | bob-cli | [`273e09a`](https://github.com/bobs-org/bob-cli/commit/273e09a7fd870f235c4cbe9ff6483b0909b5f778) | feat(capture): warn when a non-MEET session runs past an Event Task | [bob-cli-f6.4](bob-cli-f6.4.md) | 2026-11-01 16:38:31 EST |
 | bob-cli | [`3980489`](https://github.com/bobs-org/bob-cli/commit/39804896ce402ae95e807badc03fc228c2a151ed) | fix(capture): keep keep-moving goldens and clippy green | [bob-cli-f6.4](bob-cli-f6.4.md) | 2026-11-01 16:40:42 EST |
 | bob-cli | [`96155ed`](https://github.com/bobs-org/bob-cli/commit/96155ed5a81959c2414652fb50965ec658a4f050) | docs(fixtures): point meet\_event\_run mirror at bob-ledger-tools | [bob-cli-f6.6](bob-cli-f6.6.md) | 2026-11-01 17:41:43 EST |
+| bob-plugins | [`bob-plugins@7dbbb6d`](https://github.com/bobs-org/bob-plugins/commit/7dbbb6debde93028654342eedeed4ae1deefc71b) | feat(ledger-tools): render #untracked and mirror calendar-aware MEET starts | [bob-cli-f6.6](bob-cli-f6.6.md) | 2026-11-01 17:42:24 EST |
 
 <!-- sase:referenced-by:start -->
 

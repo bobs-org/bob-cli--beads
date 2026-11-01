@@ -27,13 +27,14 @@ plugins-untracked: paint #untracked on Event rows, keep \p and home chips untrac
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-f6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.6/README.md) | [bob-cli-f6.6](bob-cli-f6.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-f6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.6/README.md) | [bob-cli-f6.6](bob-cli-f6.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`96155ed`](https://github.com/bobs-org/bob-cli/commit/96155ed5a81959c2414652fb50965ec658a4f050) | docs(fixtures): point meet\_event\_run mirror at bob-ledger-tools | [bob-cli-f6.6](bob-cli-f6.6.md) | 2026-11-01 17:41:43 EST |
+| bob-plugins | [`bob-plugins@7dbbb6d`](https://github.com/bobs-org/bob-plugins/commit/7dbbb6debde93028654342eedeed4ae1deefc71b) | feat(ledger-tools): render #untracked and mirror calendar-aware MEET starts | [bob-cli-f6.6](bob-cli-f6.6.md) | 2026-11-01 17:42:24 EST |
 
 <!-- sase:referenced-by:start -->
 
