@@ -20,7 +20,7 @@ capture: wire both capture close paths, dependency completeness, config, separat
 ## Dependencies
 
 - **Depends on:** [bob-cli-fb.2.1.1](bob-cli-fb.2.1.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fb.2.1.3](bob-cli-fb.2.1.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fb.2.1.3](bob-cli-fb.2.1.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

@@ -31,8 +31,8 @@ When any managed Done gesture, on any surface, closes the task behind a leaf pro
 |---|---|---|---|---|---:|---:|
 | [bob-cli-fb.1](bob-cli-fb.1.md) | Contract, glossary, and docs | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fb.2](bob-cli-fb.2.md) | Rust engine and capture reporting | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
-| [bob-cli-fb.3](bob-cli-fb.3.md) | Obsidian picker and notice presentation | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fb.4](bob-cli-fb.4.md) | Obsidian cycler engine | ✓ closed | large | 2026-11-01 | 1 | 2 |
+| [bob-cli-fb.3](bob-cli-fb.3.md) | Obsidian picker and notice presentation | ✓ closed | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fb.4](bob-cli-fb.4.md) | Obsidian cycler engine | ✓ closed | large | 2026-11-01 | 1 | 0 |
 | [bob-cli-fb.5](bob-cli-fb.5.md) | Bob Mac Capture presentation | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n3["bob-cli-fb.2.1: Finish Rust leaf-project keep-moving offers [in_progress]"]
     n4["bob-cli-fb.2.1.1: Implement the keep-moving successor engine [closed]"]
     n5["bob-cli-fb.2.1.2: Connect capture planning and the JSON contract [closed]"]
-    n6["bob-cli-fb.2.1.3: Complete batch semantics, human output, and verification [in_progress]"]
+    n6["bob-cli-fb.2.1.3: Complete batch semantics, human output, and verification [closed]"]
     n7["bob-cli-fb.3: Obsidian picker and notice presentation [closed]"]
     n8["bob-cli-fb.4: Obsidian cycler engine [closed]"]
     n9["bob-cli-fb.5: Bob Mac Capture presentation [in_progress]"]
@@ -75,10 +75,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.md) | [bob-cli-fb.2](bob-cli-fb.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fb.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.1.md) | [bob-cli-fb.2.1.1](bob-cli-fb.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fb.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.2.1.2/README.md) | [bob-cli-fb.2.1.2](bob-cli-fb.2.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fb.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.2.1.3/README.md) | [bob-cli-fb.2.1.3](bob-cli-fb.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fb.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.2.1.3/README.md) | [bob-cli-fb.2.1.3](bob-cli-fb.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fb.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.2.1.land/README.md) | [bob-cli-fb.2.1](bob-cli-fb.2.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.3/README.md) | [bob-cli-fb.3](bob-cli-fb.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.4.md) | [bob-cli-fb.4](bob-cli-fb.4.md) | 2 |
+| [bbugyi200.apollo.bob-cli-fb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.3/README.md) | [bob-cli-fb.3](bob-cli-fb.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.4.md) | [bob-cli-fb.4](bob-cli-fb.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.5/README.md) | [bob-cli-fb.5](bob-cli-fb.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.land/README.md) | [bob-cli-fb](README.md) | 0 |
 
@@ -87,11 +87,9 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d6b16f4`](https://github.com/bobs-org/bob-cli/commit/d6b16f4f42553ec186a1846537e655714d11839f) | docs(keep-moving): pin leaf-project contract, copy, and vectors | [bob-cli-fb.1](bob-cli-fb.1.md) | 2026-11-01 12:49:50 EST |
-| bob-plugins | [`bob-plugins@524ffc8`](https://github.com/bobs-org/bob-plugins/commit/524ffc85b2caed0b50a8853eca59a88f0bee9f57) | feat(navigation): render keep-moving offers in successor picker v2 and notice v2 | [bob-cli-fb.3](bob-cli-fb.3.md) | 2026-11-01 13:13:36 EST |
 | bob-cli | [`f6d3084`](https://github.com/bobs-org/bob-cli/commit/f6d3084bb7796b56292f820f62b0cea5bedab472) | feat(task-complete): add leaf-project keep-moving successor engine | [bob-cli-fb.2.1.1](bob-cli-fb.2.1.1.md) | 2026-11-01 14:31:46 EST |
-| bob-plugins | [`bob-plugins@99333a5`](https://github.com/bobs-org/bob-plugins/commit/99333a5b81f500a306499d88c514a082d4fb6764) | feat(task-status-cycler): offer keep-moving leaf project tasks | [bob-cli-fb.4](bob-cli-fb.4.md) | 2026-11-01 14:44:33 EST |
 | bob-cli | [`ab32d58`](https://github.com/bobs-org/bob-cli/commit/ab32d58aac5a838edf405eb0a34dfb1955041d1f) | feat(capture): connect keep-moving planning and JSON contract | [bob-cli-fb.2.1.2](bob-cli-fb.2.1.2.md) | 2026-11-01 15:35:44 EST |
-| bob-plugins | [`bob-plugins@053a82c`](https://github.com/bobs-org/bob-plugins/commit/053a82cefa3162071be7198837eea9284a5c3d1e) | feat(task-status-cycler): offer keep-moving leaf project tasks | [bob-cli-fb.4](bob-cli-fb.4.md) | 2026-11-01 17:14:01 EST |
+| bob-cli | [`8347a46`](https://github.com/bobs-org/bob-cli/commit/8347a46d949c31078dbea284c0ed1d869e3bb952) | feat(capture): net keep-moving batches, render human copy, and gate snapshot work | [bob-cli-fb.2.1.3](bob-cli-fb.2.1.3.md) | 2026-11-01 18:23:20 EST |
 
 <!-- sase:referenced-by:start -->
 
