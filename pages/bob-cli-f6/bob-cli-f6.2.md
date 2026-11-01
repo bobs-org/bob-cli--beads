@@ -39,7 +39,9 @@ gcal-untracked-tag: parse the Google token, render the row tag, split past MEET 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-f6.2][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:research.2z.grk][2] | Need closed phase details for untracked ledger rows and gcal sync to understand current implementation | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.2z.grk/README.md
 
 <!-- sase:referenced-by:end -->
