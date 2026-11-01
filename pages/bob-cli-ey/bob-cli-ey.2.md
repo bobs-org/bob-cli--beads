@@ -22,4 +22,4 @@ cli-drawers: make a `#` glued after `@route+id` always name a task drawer, match
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.2/README.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.2.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 0 |

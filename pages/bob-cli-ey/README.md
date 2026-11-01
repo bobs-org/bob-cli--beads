@@ -53,9 +53,14 @@ flowchart TD
     n8["bob-cli-ey.1.1.6: directive completion context, bare-# menu, initial_selection, and grammar 2 [closed]"]
     n9["bob-cli-ey.2: bob-cli task drawers, drawer menu, and capture-drawers [in_progress]"]
     n10["bob-cli-ey.3: Bob Mac Capture % menu, unselected menus, clip card, and grammar gate [in_progress]"]
-    n11["bob-cli-ey.4: bob-cli ^prj drawers resolve to project-note H2 sections [in_progress]"]
-    n12["bob-cli-ey.5: Bob Mac Capture drawer menu and drawer previews [in_progress]"]
-    n13["bob-cli-ey.6: bob-plugins drawer promotion parity test and vocabulary [in_progress]"]
+    n11["bob-cli-ey.3.1: Bob Mac Capture directive menus and clipboard previews [in_progress]"]
+    n12["bob-cli-ey.3.1.1: Decode the directive contract and generate current wire fixtures [closed]"]
+    n13["bob-cli-ey.3.1.2: Remove retired Mac capture paths and migrate their scenarios [in_progress]"]
+    n14["bob-cli-ey.3.1.3: Implement unselected menus, directive rows, and the grammar gate [in_progress]"]
+    n15["bob-cli-ey.3.1.4: Read clips in live preview and render the Clip card [in_progress]"]
+    n16["bob-cli-ey.4: bob-cli ^prj drawers resolve to project-note H2 sections [in_progress]"]
+    n17["bob-cli-ey.5: Bob Mac Capture drawer menu and drawer previews [in_progress]"]
+    n18["bob-cli-ey.6: bob-plugins drawer promotion parity test and vocabulary [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -66,9 +71,14 @@ flowchart TD
     n2 --> n8
     n0 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
+    n10 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
     n1 -.-> n9
     n1 -.-> n10
     n3 -.-> n4
@@ -77,10 +87,13 @@ flowchart TD
     n5 -.-> n7
     n6 -.-> n8
     n7 -.-> n8
-    n9 -.-> n11
-    n9 -.-> n12
-    n9 -.-> n13
-    n10 -.-> n12
+    n9 -.-> n16
+    n9 -.-> n17
+    n9 -.-> n18
+    n10 -.-> n17
+    n12 -.-> n13
+    n13 -.-> n14
+    n14 -.-> n15
 ```
 
 ## Agents
@@ -95,8 +108,13 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ey.1.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.5/README.md) | [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.6.md) | [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.land.md) | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.2/README.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ey.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3/README.md) | [bob-cli-ey.3](bob-cli-ey.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.2.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.md) | [bob-cli-ey.3](bob-cli-ey.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.1/README.md) | [bob-cli-ey.3.1.1](bob-cli-ey.3.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ey.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.2/README.md) | [bob-cli-ey.3.1.2](bob-cli-ey.3.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.3/README.md) | [bob-cli-ey.3.1.3](bob-cli-ey.3.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.4/README.md) | [bob-cli-ey.3.1.4](bob-cli-ey.3.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.land/README.md) | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.4/README.md) | [bob-cli-ey.4](bob-cli-ey.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md) | [bob-cli-ey.5](bob-cli-ey.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.6/README.md) | [bob-cli-ey.6](bob-cli-ey.6.md) | 0 |
@@ -114,3 +132,4 @@ flowchart TD
 | bob-cli | [`b290d83`](https://github.com/bobs-org/bob-cli/commit/b290d833008347581c121f72cf70b6edb3e38810) | feat(capture): add directive completion and grammar revision | [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) | 2026-10-31 22:12:08 EDT |
 | bob-cli | [`a1dcb64`](https://github.com/bobs-org/bob-cli/commit/a1dcb64eee30a3e7f45b0555be8cf60b940d85e1) | refactor(capture): finish cli-directives cleanup | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2026-10-31 23:28:06 EDT |
 | bob-cli--plans | [`bob-cli--plans@6e89ba2`](https://github.com/bobs-org/bob-cli--plans/commit/6e89ba2b1d938dd658b77c2805d6795497f62ca7) | docs(plan): mark cli-directives split done | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2026-10-31 23:28:53 EDT |
+| bob-mac-capture | [`bob-mac-capture@04904ee`](https://github.com/bobs-org/bob-mac-capture/commit/04904eed3b98544e5d75add5b1d0e0121e1d665a) | feat(mac-capture)!: decode grammar-2 directive wire and generate real fixtures | [bob-cli-ey.3.1.1](bob-cli-ey.3.1.1.md) | 2026-10-31 23:59:03 EDT |
