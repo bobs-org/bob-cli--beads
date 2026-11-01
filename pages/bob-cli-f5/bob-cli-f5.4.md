@@ -32,3 +32,15 @@ landing: prove the feature in a real Obsidian scratch vault (LP, Reading, cross-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@32c9e03`](https://github.com/bobs-org/bob-plugins/commit/32c9e03248a03c1570f4dea6a29e7c8f6c15f130) | feat(task-link-marks): land rings in real Obsidian and bump 1.81.0 | [bob-cli-f5.4](bob-cli-f5.4.md) | 2026-11-01 11:23:08 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f5.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-f5.4/README.md
+
+<!-- sase:referenced-by:end -->
