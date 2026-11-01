@@ -23,7 +23,13 @@ plugins-parity: pin with a test that a drawer exactly as bob writes it promotes 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.6/README.md) | [bob-cli-ey.6](bob-cli-ey.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.6/README.md) | [bob-cli-ey.6](bob-cli-ey.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@bff0345`](https://github.com/bobs-org/bob-plugins/commit/bff0345d521fe864797b492d9e45e0f606e96651) | test(bob-navigation-hotkeys): pin drawer promotion parity | [bob-cli-ey.6](bob-cli-ey.6.md) | 2026-11-01 02:53:50 EST |
 
 <!-- sase:referenced-by:start -->
 
