@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/capture_drawers_and_directives.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/capture_drawers_and_directives.md
 
@@ -28,6 +28,8 @@ Bob's capture language reads as three rules: @ says where, # names a place or a 
 ## Notes
 
 [2026-11-01T02:34:28Z · bob-cli-ey.1.1.land] DISCOVERED ISSUE (from bob-cli-ey.1.1.2 PROPOSED FOLLOW-UP, triaged by the bob-cli-ey.1.1 land agent; belongs to phase bob-cli-ey.3 mac-directives, 'update the Mac docs'): bob-mac-capture's live-preview docs (capture-panel.md) still describe the retired URL % listen marker and %N/%header clipboard markers. After cli-directives they must teach URL %l listen, %c/%c<N>, and clip.status not_read under --no-clip (the panel's live preview runs bob capture --dry-run --no-clip unless bob reports a %c directive, per glossary:capture).
+
+[2026-11-01T08:47:09Z · bob-cli-ey.land] LAND TRIAGE (bob-cli-ey.land) of PROPOSED FOLLOW-UPs. Every proposal is remaining epic work or already resolved, so no new task beads were filed. (1) bob-cli-ey.2 #1 and bob-cli-ey.5 #2: capture JSON has no per-item drawer {title,key,created} object, and drawer spans carry no title/key. Plan §3.3/§3.7 scope, so remaining epic work. (2) bob-cli-ey.2 #2: the mounted Mac protocol/task-pickers docs named task_section. Already resolved by bob-cli-ey.5 (9a1876d); the Mac task_section grep is clean. Declined: no work left. (3) bob-cli-ey.5 #1: the drawer menu has no recent/new/refused/detail/consequence rows, initial_selection none, or #-covering replacement. Plan §3.6, remaining epic work. (4) bob-cli-ey.5 #3: a separate #type beside an @route+id body (drawer or plain child) is still refused with type_marker_not_applicable, and that copy names the retired @<route>+<block-id>#<type>. Plan §2 headline example, remaining epic work. (5) bob-cli-ey.5 #4: the Mac targets were unverified on macOS. Mac CI 41289488292 on 9a1876d builds and lints, but Test fails with 28 assertions in 19 methods. Seven are the pre-existing bob-cli-f3 baseline (not epic-caused, left with f3). Twelve are epic regressions (CaptureOpenHintTests x2, CapturePanelModelTests explicit-completion-submit x5, CaptureSavedTemplateShelfTests refresh, CaptureTaskTypeHostedTests unselected Tab/Up, CaptureTemplateShelfModelTests delete and non-template refusal copy). Remaining epic work. (6) bob-cli-ey.5 #5: generate-task-type-fixtures.sh still drives the retired attached forms. Caused by cli-drawers, so remaining epic work. (7) bob-cli-ey.1.1.2 and bob-cli-ey.1.1.6 proposals were already triaged by the bob-cli-ey.1.1 land agent. Further land-agent smoke findings, also epic work: creating a new drawer writes a stray blank line between the drawer title and its first entry; drawer refusals emit no JSON code (ambiguous_drawer, reserved_drawer, drawer_near_duplicate, invalid_drawer); drawer_near_catalog is never emitted; the zsh drawer group is still 'task sections' (capture_complete/shell.rs, completion/providers.rs, docs/completion.md). Integration: no non-epic commits landed in bob-cli after a1dcb64e, in bob-mac-capture after 91a5d2b, or in bob-plugins touching capture; the earlier drift was integrated by the bob-cli-ey.1.1 and bob-cli-ey.3.1 landers. epic-symbols: none.
 
 ## Phases
 
@@ -63,6 +65,11 @@ flowchart TD
     n16["bob-cli-ey.4: bob-cli ^prj drawers resolve to project-note H2 sections [closed]"]
     n17["bob-cli-ey.5: Bob Mac Capture drawer menu and drawer previews [closed]"]
     n18["bob-cli-ey.6: bob-plugins drawer promotion parity test and vocabulary [closed]"]
+    n19["bob-cli-ey.7: Finish capture drawers (bob-cli-ey landing repairs) [in_progress]"]
+    n20["bob-cli-ey.7.1: bob-cli drawer writes, retype, capture output, and refusal codes [closed]"]
+    n21["bob-cli-ey.7.2: bob-cli full drawer completion menu and drawer vocabulary sweep [in_progress]"]
+    n22["bob-cli-ey.7.3: Bob Mac Capture macOS test regressions from the directive and drawer phases [in_progress]"]
+    n23["bob-cli-ey.7.4: Bob Mac Capture real drawer fixtures and migrated task-type generator [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -81,6 +88,11 @@ flowchart TD
     n0 --> n16
     n0 --> n17
     n0 --> n18
+    n0 --> n19
+    n19 --> n20
+    n19 --> n21
+    n19 --> n22
+    n19 --> n23
     n1 -.-> n9
     n1 -.-> n10
     n3 -.-> n4
@@ -96,6 +108,10 @@ flowchart TD
     n12 -.-> n13
     n13 -.-> n14
     n14 -.-> n15
+    n20 -.-> n21
+    n20 -.-> n23
+    n21 -.-> n23
+    n22 -.-> n23
 ```
 
 ## Agents
@@ -116,11 +132,16 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ey.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.2.md) | [bob-cli-ey.3.1.2](bob-cli-ey.3.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.3/README.md) | [bob-cli-ey.3.1.3](bob-cli-ey.3.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.4/README.md) | [bob-cli-ey.3.1.4](bob-cli-ey.3.1.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ey.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md) | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md) | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.4/README.md) | [bob-cli-ey.4](bob-cli-ey.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md) | [bob-cli-ey.5](bob-cli-ey.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.6/README.md) | [bob-cli-ey.6](bob-cli-ey.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ey.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.land/README.md) | [bob-cli-ey](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.1/README.md) | [bob-cli-ey.7.1](bob-cli-ey.7.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ey.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.2/README.md) | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.3.md) | [bob-cli-ey.7.3](bob-cli-ey.7.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.4/README.md) | [bob-cli-ey.7.4](bob-cli-ey.7.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.land/README.md) | [bob-cli-ey.7](bob-cli-ey.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.land.md) | [bob-cli-ey](README.md) | 0 |
 
 ## Commits
 
@@ -135,7 +156,9 @@ flowchart TD
 | bob-cli | [`a1dcb64`](https://github.com/bobs-org/bob-cli/commit/a1dcb64eee30a3e7f45b0555be8cf60b940d85e1) | refactor(capture): finish cli-directives cleanup | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2026-10-31 23:28:06 EDT |
 | bob-cli--plans | [`bob-cli--plans@6e89ba2`](https://github.com/bobs-org/bob-cli--plans/commit/6e89ba2b1d938dd658b77c2805d6795497f62ca7) | docs(plan): mark cli-directives split done | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2026-10-31 23:28:53 EDT |
 | bob-cli | [`e660c8d`](https://github.com/bobs-org/bob-cli/commit/e660c8d8844df3542f701a4b83cd1fc6826bf5f3) | feat(capture)!: glued #drawer capture with exact matching, on-demand creation, drawer menu, and capture-drawers | [bob-cli-ey.2](bob-cli-ey.2.md) | 2026-11-01 02:44:01 EST |
+| bob-cli--plans | [`bob-cli--plans@86a4e8d`](https://github.com/bobs-org/bob-cli--plans/commit/86a4e8d7ea552df90a833b1b274565e1c23c4a14) | docs(plan): mark Mac directives landing done | [bob-cli-ey.3.1](bob-cli-ey.3.1.md) | 2026-11-01 02:55:08 EST |
 | bob-cli | [`ffc5f1f`](https://github.com/bobs-org/bob-cli/commit/ffc5f1f99fe5c25f0d660e4e1d3c63c054b3e406) | feat(capture): resolve ^prj drawers against project-note H2 sections | [bob-cli-ey.4](bob-cli-ey.4.md) | 2026-11-01 03:29:31 EST |
+| bob-cli | [`f2b599c`](https://github.com/bobs-org/bob-cli/commit/f2b599c4a26ce49a5fc525d32c5a7975003de9aa) | feat(capture)!: drawer writes, retype, and drawer JSON contract | [bob-cli-ey.7.1](bob-cli-ey.7.1.md) | 2026-11-01 04:47:00 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -144,7 +167,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ey.3.1.land--3][1] | Need containing epic status to preserve its open state | 4 |
+| read-by | [agent:bob-cli-ey.4][2] | Need epic scope, decisions, child phase status | 1 |
+| read-by | [agent:bob-cli-ey.5][3] | Need epic phase list and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.3.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md
 
 <!-- sase:referenced-by:end -->

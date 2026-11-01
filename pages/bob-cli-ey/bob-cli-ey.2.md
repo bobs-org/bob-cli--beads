@@ -51,7 +51,9 @@ BREAKING CHANGE: removes attached @route+id#type and @route^id#type forms, -S/--
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ey.2--3][1] | final state check before closing drawer phase | 2 |
+| read-by | [agent:bob-cli-ey.5][2] | Check whether drawer completion rows (recent/new/refused/consequence) were deferred | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.5/README.md
 
 <!-- sase:referenced-by:end -->
