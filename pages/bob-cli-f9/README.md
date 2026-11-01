@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-f9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.3/README.md) | [bob-cli-f9.3](bob-cli-f9.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-f9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f9.4.md) | [bob-cli-f9.4](bob-cli-f9.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-f9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.5/README.md) | [bob-cli-f9.5](bob-cli-f9.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-f9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.land/README.md) | [bob-cli-f9](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-f9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.land/README.md) | [bob-cli-f9](README.md) | 2 |
 
 ## Commits
 
@@ -92,6 +92,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@270b19b`](https://github.com/bobs-org/bob-plugins/commit/270b19bd0212b95c6413566fe8e379e90fbd85d7) | feat(plan)!: retire the daily type cap from plugins | [bob-cli-f9.4](bob-cli-f9.4.md) | 2026-11-01 15:30:28 EST |
 | bob-plugins | [`bob-plugins@1d66ffd`](https://github.com/bobs-org/bob-plugins/commit/1d66ffd67e31728031216b45a52dc0a9a34c7045) | feat(plan): show Today's root parents on the bob-plan block | [bob-cli-f9.5](bob-cli-f9.5.md) | 2026-11-01 16:11:49 EST |
 | bob-cli | [`2898158`](https://github.com/bobs-org/bob-cli/commit/289815830e48eb041585f3298820405f0748193a) | docs(plan): drop the retired types meter from the tutorial template | [bob-cli-f9](README.md) | 2026-11-01 18:11:19 EST |
+| bob-cli--plans | [`bob-cli--plans@0b73a8d`](https://github.com/bobs-org/bob-cli--plans/commit/0b73a8d884af768368504fe4c845dd77eba24e51) | chore(plans): mark retire\_type\_cap\_today\_roots done after bob-cli-f9 landed | [bob-cli-f9](README.md) | 2026-11-01 18:11:53 EST |
 
 <!-- sase:referenced-by:start -->
 
