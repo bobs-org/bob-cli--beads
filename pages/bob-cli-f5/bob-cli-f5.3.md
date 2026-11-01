@@ -20,7 +20,7 @@ reading: add the post-processor for Reading view, embeds, hover popovers, and Ta
 ## Dependencies
 
 - **Depends on:** [bob-cli-f5.2](bob-cli-f5.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f5.4](bob-cli-f5.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f5.4](bob-cli-f5.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -33,3 +33,15 @@ reading: add the post-processor for Reading view, embeds, hover popovers, and Ta
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@bedc7e2`](https://github.com/bobs-org/bob-plugins/commit/bedc7e2a7cb16257b48bc3b26241d663a2f161db) | feat(bob-ledger-tools): mark task links in reading views | [bob-cli-f5.3](bob-cli-f5.3.md) | 2026-11-01 10:42:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f5.3--2][1] | Need phase notes, prior work, and exact closeout status | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-f5.3.md
+
+<!-- sase:referenced-by:end -->
