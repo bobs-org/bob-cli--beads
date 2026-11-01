@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / bob-cli-ex
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
+**Status:** ○ open · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bp.f0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bp.f0.md) · **Assignee:** `bob-cli-ex.land`
-**Created:** 2026-10-31 12:01:11 EDT · **Closed:** 2026-10-31 21:10:10 EDT
+**Created:** 2026-10-31 12:01:11 EDT
 **Plan:** [202610/project\_note\_seals.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202610/project_note_seals.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-11-01T01:10:10Z · done
+>
+> (none)
+>
+> Reopened 2026-11-01T14:04:34Z by `sase bead open`
 
 <!-- sase:links:start -->
 
@@ -15,6 +23,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/project_note_seals.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-f3][2] | Found by bob-cli-ex's landing-repair snapshot run 41257836794; the repair fixed the compile break that masked these seven and is not their cause |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202610/project_note_seals.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-f3/README.md
@@ -56,14 +66,14 @@ FOLLOW-UP DISPOSITIONS: ex.1 note #1 article completion flakes became ready flak
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ex.1](bob-cli-ex.1.md) | Seal the caret project-note form with @ in bob | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [bob-cli-ex.2](bob-cli-ex.2.md) | @route:id@ creates the project and offers its tasks | ✓ closed | large | 2026-10-31 | 1 | 0 |
-| [bob-cli-ex.3](bob-cli-ex.3.md) | Mac manila-chip highlighting and @ seal migration | ✓ closed | medium | 2026-10-31 | 1 | 1 |
-| [bob-cli-ex.4](bob-cli-ex.4.md) | Mac project successor prompt | ✓ closed | medium | 2026-10-31 | 1 | 2 |
+| [bob-cli-ex.3](bob-cli-ex.3.md) | Mac manila-chip highlighting and @ seal migration | ✓ closed | medium | 2026-10-31 | 1 | 0 |
+| [bob-cli-ex.4](bob-cli-ex.4.md) | Mac project successor prompt | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-ex: Project-note seals: @route^id@, @route:id@, and the project successor prompt [closed]"]
+    n0["bob-cli-ex: Project-note seals: @route^id@, @route:id@, and the project successor prompt [open]"]
     n1["bob-cli-ex.1: Seal the caret project-note form with @ in bob [closed]"]
     n2["bob-cli-ex.2: @route:id@ creates the project and offers its tasks [closed]"]
     n3["bob-cli-ex.2.1: Complete project-note task offers for bob-cli-ex.2 [closed]"]
@@ -97,24 +107,34 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ex.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.1/README.md) | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.2/README.md) | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.2.1.3/README.md) | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.1.land.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.4.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ex.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.land.md) | [bob-cli-ex](README.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.1.land.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.4.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ex.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.land.md) | [bob-cli-ex](README.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`76f2347`](https://github.com/bobs-org/bob-cli/commit/76f234719fd756a2808434a65dcd0268468d3285) | feat(capture)!: seal project notes with @ instead of + | [bob-cli-ex.1](bob-cli-ex.1.md) | 2026-10-31 13:48:00 EDT |
-| bob-mac-capture | [`bob-mac-capture@6b94f06`](https://github.com/bobs-org/bob-mac-capture/commit/6b94f061a96e8ac22174cad0ddb5bbd1fe19594b) | feat(mac-capture): seal project notes with @ and paint the project chip | [bob-cli-ex.3](bob-cli-ex.3.md) | 2026-10-31 14:15:48 EDT |
 | bob-cli | [`9a30ec4`](https://github.com/bobs-org/bob-cli/commit/9a30ec4ca268753820366554cd58fa5f0c006e71) | feat(capture): plan project-note task offers through the colon-bullet writer | [bob-cli-ex.2.1.1](bob-cli-ex.2.1.1.md) | 2026-10-31 14:52:17 EDT |
 | bob-cli | [`e9b9cd1`](https://github.com/bobs-org/bob-cli/commit/e9b9cd1dcf7c4696563060978856b726631fa6b0) | feat(capture): enable @route:id@ project-note offer form end to end | [bob-cli-ex.2.1.2](bob-cli-ex.2.1.2.md) | 2026-10-31 16:18:40 EDT |
 | bob-cli | [`e8dd3b6`](https://github.com/bobs-org/bob-cli/commit/e8dd3b650c2f50f0f312d1068641c05ce9aaaa74) | docs(capture): publish project-note offer contracts and acceptance coverage | [bob-cli-ex.2.1.3](bob-cli-ex.2.1.3.md) | 2026-10-31 16:59:34 EDT |
 | bob-cli | [`42dd92b`](https://github.com/bobs-org/bob-cli/commit/42dd92bc66193dfc3ad16fc6ff0b9813d51c92c9) | fix(capture): finish project-offer landing repairs for bob-cli-ex.2.1 | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2026-10-31 17:52:51 EDT |
 | bob-cli--plans | [`bob-cli--plans@4d46180`](https://github.com/bobs-org/bob-cli--plans/commit/4d461800f67260ed99d9ebd1510197189ed1875f) | docs(plans): mark project\_note\_offer\_form done for bob-cli-ex.2.1 landing | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2026-10-31 17:53:33 EDT |
 | bob-cli | [`e2838ac`](https://github.com/bobs-org/bob-cli/commit/e2838ac33654a440b3d9568b984ca4e39fd7129d) | docs(glossary): explain project successor offers | [bob-cli-ex.4](bob-cli-ex.4.md) | 2026-10-31 19:06:17 EDT |
-| bob-mac-capture | [`bob-mac-capture@891fe11`](https://github.com/bobs-org/bob-mac-capture/commit/891fe111f61a40af9917480184e7260588bb3967) | feat(mac-capture): choose a new project's tasks in the successor card | [bob-cli-ex.4](bob-cli-ex.4.md) | 2026-10-31 19:06:46 EDT |
 | bob-cli | [`86a63e8`](https://github.com/bobs-org/bob-cli/commit/86a63e8487a592644896081d4660e57f2593000f) | fix(capture): keep unpicked duplicate project offers after picks mint IDs | [bob-cli-ex](README.md) | 2026-10-31 21:13:52 EDT |
-| bob-mac-capture | [`bob-mac-capture@91a5d2b`](https://github.com/bobs-org/bob-mac-capture/commit/91a5d2bf4171307b90cb60f851594d13c0ee94e0) | fix(mac-capture): count picked project offers once, real-bob offer fixtures | [bob-cli-ex](README.md) | 2026-10-31 21:14:21 EDT |
 | bob-cli--plans | [`bob-cli--plans@45538db`](https://github.com/bobs-org/bob-cli--plans/commit/45538db4919fd2bc6b81ba409f2618c4d65a607f) | docs(plans): mark project\_note\_seals epic plan done | [bob-cli-ex](README.md) | 2026-10-31 21:14:47 EDT |
+| bob-cli | [`f411232`](https://github.com/bobs-org/bob-cli/commit/f41123201f285887d63e1ed50802c7bd118e38d0) | fix(capture): refuse route-less sealed offers and keep offer mode while incomplete | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2026-11-01 09:53:08 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ex.land--2][1] | Need the parent link | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.land.md
+
+<!-- sase:referenced-by:end -->
