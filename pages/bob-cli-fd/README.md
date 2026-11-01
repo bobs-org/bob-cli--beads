@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.2/README.md) | [bob-cli-fd.2](bob-cli-fd.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.3/README.md) | [bob-cli-fd.3](bob-cli-fd.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.4/README.md) | [bob-cli-fd.4](bob-cli-fd.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fd.land.md) | [bob-cli-fd](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fd.land.md) | [bob-cli-fd](README.md) | 2 |
 
 ## Commits
 
@@ -80,6 +80,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@072b25f`](https://github.com/bobs-org/bob-plugins/commit/072b25fe6e8e2ade05079ad13055809fa6422b8a) | feat(work-log): stamp unlink and Pomodoro close entries with the write instant | [bob-cli-fd.4](bob-cli-fd.4.md) | 2026-11-01 16:48:07 EST |
 | bob-cli | [`50df0e4`](https://github.com/bobs-org/bob-cli/commit/50df0e41e9786e9912d00e5a77e98c2c4204c35b) | feat(capture)!: stamp close Work Log entries | [bob-cli-fd.3](bob-cli-fd.3.md) | 2026-11-01 17:22:08 EST |
 | bob-plugins | [`bob-plugins@885c560`](https://github.com/bobs-org/bob-plugins/commit/885c560f66be3879a8599afcb7e015eaf5f6b1fb) | fix(nav-hotkeys)!: sample Work Log stamps at commit/render time | [bob-cli-fd](README.md) | 2026-11-01 18:44:17 EST |
+| bob-cli--plans | [`bob-cli--plans@c0a524c`](https://github.com/bobs-org/bob-cli--plans/commit/c0a524ceb19d68974e0ee68c4af921426fd0a844) | docs(plans): add timestamped Work Log entries epic plan | [bob-cli-fd](README.md) | 2026-11-01 18:46:07 EST |
 
 <!-- sase:referenced-by:start -->
 
