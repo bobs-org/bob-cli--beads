@@ -13,7 +13,7 @@ cli-project-drawers: on a project note's own `^prj` line, resolve `#drawer` agai
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.2](bob-cli-ey.2.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.2](bob-cli-ey.2.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 

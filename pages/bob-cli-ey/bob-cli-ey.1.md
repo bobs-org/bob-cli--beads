@@ -19,7 +19,7 @@ cli-directives: add the `%c`/`%c<N>`/`%n`/`%t`/`%l` directive lexer and the `dir
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ey.2](bob-cli-ey.2.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.2](bob-cli-ey.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.3](bob-cli-ey.3.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

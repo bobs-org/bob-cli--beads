@@ -13,7 +13,7 @@ plugins-parity: pin with a test that a drawer exactly as bob writes it promotes 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.2](bob-cli-ey.2.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.2](bob-cli-ey.2.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
