@@ -17,7 +17,7 @@ wire-fixtures: add grammar, initial_selection, directive spans and candidates, a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ey.3.1.2](bob-cli-ey.3.1.2.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.3.1.2](bob-cli-ey.3.1.2.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -30,3 +30,15 @@ wire-fixtures: add grammar, initial_selection, directive spans and candidates, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@04904ee`](https://github.com/bobs-org/bob-mac-capture/commit/04904eed3b98544e5d75add5b1d0e0121e1d665a) | feat(mac-capture)!: decode grammar-2 directive wire and generate real fixtures | [bob-cli-ey.3.1.1](bob-cli-ey.3.1.1.md) | 2026-10-31 23:59:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ey.3.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

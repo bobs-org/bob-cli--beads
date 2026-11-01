@@ -13,7 +13,7 @@ menus-gate: honor initial_selection across completion contexts, render Bob-autho
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.3.1.2](bob-cli-ey.3.1.2.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.3.1.2](bob-cli-ey.3.1.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.3.1.4](bob-cli-ey.3.1.4.md) ◐ · ⧖ 2026-10-31
 
 ## Agents
