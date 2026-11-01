@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ex.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.2.1.land.md) | [bob-cli-ex.2.1](bob-cli-ex.2.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ex.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ex.3/README.md) | [bob-cli-ex.3](bob-cli-ex.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ex.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.4.md) | [bob-cli-ex.4](bob-cli-ex.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ex.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.land.md) | [bob-cli-ex](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ex.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ex.land.md) | [bob-cli-ex](README.md) | 3 |
 
 ## Commits
 
@@ -117,3 +117,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@891fe11`](https://github.com/bobs-org/bob-mac-capture/commit/891fe111f61a40af9917480184e7260588bb3967) | feat(mac-capture): choose a new project's tasks in the successor card | [bob-cli-ex.4](bob-cli-ex.4.md) | 2026-10-31 19:06:46 EDT |
 | bob-cli | [`86a63e8`](https://github.com/bobs-org/bob-cli/commit/86a63e8487a592644896081d4660e57f2593000f) | fix(capture): keep unpicked duplicate project offers after picks mint IDs | [bob-cli-ex](README.md) | 2026-10-31 21:13:52 EDT |
 | bob-mac-capture | [`bob-mac-capture@91a5d2b`](https://github.com/bobs-org/bob-mac-capture/commit/91a5d2bf4171307b90cb60f851594d13c0ee94e0) | fix(mac-capture): count picked project offers once, real-bob offer fixtures | [bob-cli-ex](README.md) | 2026-10-31 21:14:21 EDT |
+| bob-cli--plans | [`bob-cli--plans@45538db`](https://github.com/bobs-org/bob-cli--plans/commit/45538db4919fd2bc6b81ba409f2618c4d65a607f) | docs(plans): mark project\_note\_seals epic plan done | [bob-cli-ex](README.md) | 2026-10-31 21:14:47 EDT |
