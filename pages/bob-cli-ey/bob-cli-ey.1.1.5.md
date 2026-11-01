@@ -18,7 +18,7 @@ percent-t-templates: add `%t` to the directive lexer and frame the draft's first
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -31,3 +31,15 @@ percent-t-templates: add `%t` to the directive lexer and frame the draft's first
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9527893`](https://github.com/bobs-org/bob-cli/commit/952789343172946aebc67a03c724f9e6c767ae46) | feat(capture)!: frame %t templates, retire @@template:, @@@, and the @@ template candidate | [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) | 2026-10-31 21:00:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ey.1.1.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.5/README.md
+
+<!-- sase:referenced-by:end -->

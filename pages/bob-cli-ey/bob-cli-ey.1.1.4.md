@@ -18,7 +18,7 @@ bare-hash-type-marker: a free-standing bare `#` at an item edge becomes an incom
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.1.1.3](bob-cli-ey.1.1.3.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
