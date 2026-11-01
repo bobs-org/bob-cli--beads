@@ -18,7 +18,7 @@ contract: pin the leaf-project definition, the keep_moving trigger, rule, report
 ## Dependencies
 
 - **Blocks:** [bob-cli-fb.2](bob-cli-fb.2.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fb.3](bob-cli-fb.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fb.3](bob-cli-fb.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fb.4](bob-cli-fb.4.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
@@ -32,3 +32,15 @@ contract: pin the leaf-project definition, the keep_moving trigger, rule, report
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d6b16f4`](https://github.com/bobs-org/bob-cli/commit/d6b16f4f42553ec186a1846537e655714d11839f) | docs(keep-moving): pin leaf-project contract, copy, and vectors | [bob-cli-fb.1](bob-cli-fb.1.md) | 2026-11-01 12:49:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fb.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.1/README.md
+
+<!-- sase:referenced-by:end -->

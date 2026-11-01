@@ -14,7 +14,7 @@ cycler: port the rule to task-status-cycler for every Obsidian close surface. Co
 ## Dependencies
 
 - **Depends on:** [bob-cli-fb.1](bob-cli-fb.1.md) ✓ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fb.3](bob-cli-fb.3.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fb.3](bob-cli-fb.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
