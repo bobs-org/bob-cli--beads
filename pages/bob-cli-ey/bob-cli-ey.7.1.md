@@ -18,7 +18,7 @@ drawer-writes: let a separate #type on a body-bearing @route+id item retype the 
 ## Dependencies
 
 - **Blocks:** [bob-cli-ey.7.2](bob-cli-ey.7.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-ey.7.4](bob-cli-ey.7.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-ey.7.4](bob-cli-ey.7.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

@@ -23,7 +23,7 @@ mac-ci-regressions: fix the twelve macOS-hosted XCTest regressions that the mac-
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ey.7.4](bob-cli-ey.7.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-ey.7.4](bob-cli-ey.7.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

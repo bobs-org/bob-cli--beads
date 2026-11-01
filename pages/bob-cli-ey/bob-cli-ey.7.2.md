@@ -20,7 +20,7 @@ drawer-menu: build the drawer completion menu: task, recent, and new groups; bob
 ## Dependencies
 
 - **Depends on:** [bob-cli-ey.7.1](bob-cli-ey.7.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-ey.7.4](bob-cli-ey.7.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-ey.7.4](bob-cli-ey.7.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -33,3 +33,15 @@ drawer-menu: build the drawer completion menu: task, recent, and new groups; bob
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c7afa6d`](https://github.com/bobs-org/bob-cli/commit/c7afa6d0a11609a23c4b6d6e1341a967f01e4bc3) | feat(capture)!: full drawer completion menu and drawer vocabulary sweep | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 2026-11-01 05:48:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ey.7.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/finish_capture_drawers.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_capture_drawers.md
 
@@ -38,9 +38,11 @@ The drawer contract from the parent epic is fully shipped. `Text @foo+bar#requir
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ey.7.1][1] | Need epic DECISIONS and plan pointer | 2 |
-| read-by | [agent:bob-cli-ey.7.3--2][2] | Need epic DECISIONS before closing mac-ci-regressions phase | 1 |
+| read-by | [agent:bob-cli-ey.7.2][2] | Need epic decisions and notes | 2 |
+| read-by | [agent:bob-cli-ey.7.3--2][3] | Need epic DECISIONS before closing mac-ci-regressions phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.3.md
 
 <!-- sase:referenced-by:end -->

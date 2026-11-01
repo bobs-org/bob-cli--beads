@@ -69,7 +69,7 @@ flowchart TD
     n20["bob-cli-ey.7.1: bob-cli drawer writes, retype, capture output, and refusal codes [closed]"]
     n21["bob-cli-ey.7.2: bob-cli full drawer completion menu and drawer vocabulary sweep [closed]"]
     n22["bob-cli-ey.7.3: Bob Mac Capture macOS test regressions from the directive and drawer phases [closed]"]
-    n23["bob-cli-ey.7.4: Bob Mac Capture real drawer fixtures and migrated task-type generator [in_progress]"]
+    n23["bob-cli-ey.7.4: Bob Mac Capture real drawer fixtures and migrated task-type generator [closed]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -139,7 +139,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ey.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.1/README.md) | [bob-cli-ey.7.1](bob-cli-ey.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.2/README.md) | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.3.md) | [bob-cli-ey.7.3](bob-cli-ey.7.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ey.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.4/README.md) | [bob-cli-ey.7.4](bob-cli-ey.7.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.7.4.md) | [bob-cli-ey.7.4](bob-cli-ey.7.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.7.land/README.md) | [bob-cli-ey.7](bob-cli-ey.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.land.md) | [bob-cli-ey](README.md) | 0 |
 
@@ -167,6 +167,7 @@ flowchart TD
 | bob-cli | [`f2b599c`](https://github.com/bobs-org/bob-cli/commit/f2b599c4a26ce49a5fc525d32c5a7975003de9aa) | feat(capture)!: drawer writes, retype, and drawer JSON contract | [bob-cli-ey.7.1](bob-cli-ey.7.1.md) | 2026-11-01 04:47:00 EST |
 | bob-mac-capture | [`bob-mac-capture@b48d1b4`](https://github.com/bobs-org/bob-mac-capture/commit/b48d1b4dcd8aaf8dacfd1f21517b2708f23e01d7) | fix(mac-capture): restore Open Hint chip and hosted XCTest contracts | [bob-cli-ey.7.3](bob-cli-ey.7.3.md) | 2026-11-01 04:49:20 EST |
 | bob-cli | [`c7afa6d`](https://github.com/bobs-org/bob-cli/commit/c7afa6d0a11609a23c4b6d6e1341a967f01e4bc3) | feat(capture)!: full drawer completion menu and drawer vocabulary sweep | [bob-cli-ey.7.2](bob-cli-ey.7.2.md) | 2026-11-01 05:48:12 EST |
+| bob-mac-capture | [`bob-mac-capture@361e929`](https://github.com/bobs-org/bob-mac-capture/commit/361e9293446796f79c9d01ae19e41d9b5b015c33) | feat(capture): migrate Mac Capture fixtures to grammar 3 | [bob-cli-ey.7.4](bob-cli-ey.7.4.md) | 2026-11-01 08:09:54 EST |
 
 <!-- sase:referenced-by:start -->
 
