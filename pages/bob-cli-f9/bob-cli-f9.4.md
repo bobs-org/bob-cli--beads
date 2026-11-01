@@ -20,4 +20,4 @@ plugins-drop-type-cap: mirror the cap removal across bob-ledger-tools, block-id-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-f9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.4/README.md) | [bob-cli-f9.4](bob-cli-f9.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-f9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f9.4.md) | [bob-cli-f9.4](bob-cli-f9.4.md) | 0 |
