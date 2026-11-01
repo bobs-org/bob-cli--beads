@@ -31,3 +31,15 @@ cli-stamp: stamp capture `x` close entries from the close's own `now`, publish t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`50df0e4`](https://github.com/bobs-org/bob-cli/commit/50df0e41e9786e9912d00e5a77e98c2c4204c35b) | feat(capture)!: stamp close Work Log entries | [bob-cli-fd.3](bob-cli-fd.3.md) | 2026-11-01 17:22:08 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fd.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.3/README.md
+
+<!-- sase:referenced-by:end -->

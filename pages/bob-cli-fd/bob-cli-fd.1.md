@@ -23,7 +23,13 @@ mac-strip: make the close card's Work Log stripper accept stamped and date-only 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.1/README.md) | [bob-cli-fd.1](bob-cli-fd.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fd.1/README.md) | [bob-cli-fd.1](bob-cli-fd.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@01c753b`](https://github.com/bobs-org/bob-mac-capture/commit/01c753b0e6e045a0cc69b3d3f51302b8423b7e55) | feat(mac-capture): strip stamped Work Log dates on the close card | [bob-cli-fd.1](bob-cli-fd.1.md) | 2026-11-01 15:43:29 EST |
 
 <!-- sase:referenced-by:start -->
 
