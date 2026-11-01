@@ -65,13 +65,14 @@ sase bead epic-symbols bob-cli-ey.1.1 listed none. bob-cli has no just symvision
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ey.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.land.md) | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.land.md) | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a1dcb64`](https://github.com/bobs-org/bob-cli/commit/a1dcb64eee30a3e7f45b0555be8cf60b940d85e1) | refactor(capture): finish cli-directives cleanup | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2026-10-31 23:28:06 EDT |
+| bob-cli--plans | [`bob-cli--plans@6e89ba2`](https://github.com/bobs-org/bob-cli--plans/commit/6e89ba2b1d938dd658b77c2805d6795497f62ca7) | docs(plan): mark cli-directives split done | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2026-10-31 23:28:53 EDT |
 
 <!-- sase:referenced-by:start -->
 
