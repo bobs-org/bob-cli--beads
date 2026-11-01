@@ -23,11 +23,15 @@
 
 Bob's capture language reads as three rules: @ says where, # names a place or a type, and % says how. `Text @note+id#drawer [#type]` files a note in a task drawer, creating the drawer when it is missing and optionally retyping the task in the same transaction. `%c`, `%n`, `%t`, and `%l` replace trailing `#`, `%`, `@@template:`, and `URL %`. Typing `#`, `%`, or `@note+id#` in Bob Mac Capture opens a bob-described menu with nothing preselected. Every retired form is deleted outright, with no aliases.
 
+## Notes
+
+[2026-11-01T02:34:28Z · bob-cli-ey.1.1.land] DISCOVERED ISSUE (from bob-cli-ey.1.1.2 PROPOSED FOLLOW-UP, triaged by the bob-cli-ey.1.1 land agent; belongs to phase bob-cli-ey.3 mac-directives, 'update the Mac docs'): bob-mac-capture's live-preview docs (capture-panel.md) still describe the retired URL % listen marker and %N/%header clipboard markers. After cli-directives they must teach URL %l listen, %c/%c<N>, and clip.status not_read under --no-clip (the panel's live preview runs bob capture --dry-run --no-clip unless bob reports a %c directive, per glossary:capture).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ey.1](bob-cli-ey.1.md) | bob-cli % directives, bare-# type menu, %t templates, and @@ cleanup | ◐ in_progress | large | 2026-10-31 | 1 | 0 |
+| [bob-cli-ey.1](bob-cli-ey.1.md) | bob-cli % directives, bare-# type menu, %t templates, and @@ cleanup | ✓ closed | large | 2026-10-31 | 1 | 0 |
 | [bob-cli-ey.2](bob-cli-ey.2.md) | bob-cli task drawers, drawer menu, and capture-drawers | ◐ in_progress | large | 2026-10-31 | 1 | 0 |
 | [bob-cli-ey.3](bob-cli-ey.3.md) | Bob Mac Capture % menu, unselected menus, clip card, and grammar gate | ◐ in_progress | large | 2026-10-31 | 1 | 0 |
 | [bob-cli-ey.4](bob-cli-ey.4.md) | bob-cli ^prj drawers resolve to project-note H2 sections | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
@@ -39,8 +43,8 @@ Bob's capture language reads as three rules: @ says where, # names a place or a 
 ```mermaid
 flowchart TD
     n0["bob-cli-ey: Capture drawers and % directives [in_progress]"]
-    n1["bob-cli-ey.1: bob-cli % directives, bare-# type menu, %t templates, and @@ cleanup [in_progress]"]
-    n2["bob-cli-ey.1.1: cli-directives, split: % directives, bare-# type marker, %t templates, and @@ cleanup [in_progress]"]
+    n1["bob-cli-ey.1: bob-cli % directives, bare-# type menu, %t templates, and @@ cleanup [closed]"]
+    n2["bob-cli-ey.1.1: cli-directives, split: % directives, bare-# type marker, %t templates, and @@ cleanup [closed]"]
     n3["bob-cli-ey.1.1.1: Delete the @@route+block-id draft-wide form [closed]"]
     n4["bob-cli-ey.1.1.2: % directive lexer with %c/%c&lt;N&gt;, and clipboard parsing split from reading [closed]"]
     n5["bob-cli-ey.1.1.3: %n replaces the trailing # Pomodoro note; %l replaces URL %/URL @ [closed]"]
@@ -90,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ey.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.4.md) | [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.5/README.md) | [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.1.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.6.md) | [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ey.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.1.1.land/README.md) | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ey.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ey.1.1.land.md) | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ey.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.2/README.md) | [bob-cli-ey.2](bob-cli-ey.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.3/README.md) | [bob-cli-ey.3](bob-cli-ey.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ey.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ey.4/README.md) | [bob-cli-ey.4](bob-cli-ey.4.md) | 0 |
@@ -108,3 +112,4 @@ flowchart TD
 | bob-cli | [`d7f683a`](https://github.com/bobs-org/bob-cli/commit/d7f683a1e59da7391384d5d46559ba09d056d3dd) | feat(capture)!: treat a bare edge # as an incomplete type marker | [bob-cli-ey.1.1.4](bob-cli-ey.1.1.4.md) | 2026-10-31 20:50:29 EDT |
 | bob-cli | [`9527893`](https://github.com/bobs-org/bob-cli/commit/952789343172946aebc67a03c724f9e6c767ae46) | feat(capture)!: frame %t templates, retire @@template:, @@@, and the @@ template candidate | [bob-cli-ey.1.1.5](bob-cli-ey.1.1.5.md) | 2026-10-31 21:00:14 EDT |
 | bob-cli | [`b290d83`](https://github.com/bobs-org/bob-cli/commit/b290d833008347581c121f72cf70b6edb3e38810) | feat(capture): add directive completion and grammar revision | [bob-cli-ey.1.1.6](bob-cli-ey.1.1.6.md) | 2026-10-31 22:12:08 EDT |
+| bob-cli | [`a1dcb64`](https://github.com/bobs-org/bob-cli/commit/a1dcb64eee30a3e7f45b0555be8cf60b940d85e1) | refactor(capture): finish cli-directives cleanup | [bob-cli-ey.1.1](bob-cli-ey.1.1.md) | 2026-10-31 23:28:06 EDT |

@@ -13,7 +13,7 @@ mac-directives: add the no-selection menu state; add the bob-described `%` direc
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.1](bob-cli-ey.1.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.1](bob-cli-ey.1.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.5](bob-cli-ey.5.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

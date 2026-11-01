@@ -13,7 +13,7 @@ cli-drawers: make a `#` glued after `@route+id` always name a task drawer, match
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ey.1](bob-cli-ey.1.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [bob-cli-ey.1](bob-cli-ey.1.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.4](bob-cli-ey.4.md) ◐ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.5](bob-cli-ey.5.md) ◐ · ⧖ 2026-10-31
 - **Blocks:** [bob-cli-ey.6](bob-cli-ey.6.md) ◐ · ⧖ 2026-10-31
