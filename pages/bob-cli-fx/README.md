@@ -59,7 +59,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fx.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.1/README.md) | [bob-cli-fx.1](bob-cli-fx.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-fx.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fx.2.md) | [bob-cli-fx.2](bob-cli-fx.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-fx.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fx.land.md) | [bob-cli-fx](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-fx.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fx.land.md) | [bob-cli-fx](README.md) | 2 |
 
 ## Commits
 
@@ -70,3 +70,4 @@ flowchart TD
 | bob-cli | [`876ae77`](https://github.com/bobs-org/bob-cli/commit/876ae775e2681ad981383278b6fd5b61ab704fe6) | docs(capture): Obsidian Ctrl+Enter mirrors MEET-continuation-last placement | [bob-cli-fx.2](bob-cli-fx.2.md) | 2026-11-02 11:07:38 EST |
 | bob-plugins | [`bob-plugins@1115a14`](https://github.com/bobs-org/bob-plugins/commit/1115a14d1e1ff5a286bc963adeadcf6b86b667e2) | feat(task-status-cycler): mirror MEET-continuation-last placement on Pomodoro completion | [bob-cli-fx.2](bob-cli-fx.2.md) | 2026-11-02 11:07:54 EST |
 | bob-plugins | [`bob-plugins@1f2c1f8`](https://github.com/bobs-org/bob-plugins/commit/1f2c1f8d58e87182da3cb90e975fbfe2625dcf9d) | fix(task-status-cycler): repair MEET continuation fencing, trailing blanks, and successor targeting | [bob-cli-fx](README.md) | 2026-11-02 11:50:05 EST |
+| bob-cli--plans | [`bob-cli--plans@1105753`](https://github.com/bobs-org/bob-cli--plans/commit/1105753636f7e17b84f78f07710d846c977c8965) | docs(plans): mark MEET continuation plan done | [bob-cli-fx](README.md) | 2026-11-02 11:50:21 EST |
