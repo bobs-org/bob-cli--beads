@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.3/README.md) | [bob-cli-fb.3](bob-cli-fb.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.4.md) | [bob-cli-fb.4](bob-cli-fb.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-fb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.5.md) | [bob-cli-fb.5](bob-cli-fb.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.land.md) | [bob-cli-fb](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-fb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.land.md) | [bob-cli-fb](README.md) | 3 |
 
 ## Commits
 
@@ -113,6 +113,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@90bd9ba`](https://github.com/bobs-org/bob-mac-capture/commit/90bd9ba5235cda78c6e5e56d45c0176bb85a6574) | feat(capture): add block presentation and pull-in choices | [bob-cli-fb.5](bob-cli-fb.5.md) | 2026-11-01 22:37:40 EST |
 | bob-cli | [`37e68c0`](https://github.com/bobs-org/bob-cli/commit/37e68c095f7b1b68d9e10fc7f14553f75aee0848) | test(keep-moving): count routing and root scans per vault so the routing test is deterministic | [bob-cli-fb](README.md) | 2026-11-01 23:52:58 EST |
 | bob-plugins | [`bob-plugins@c772728`](https://github.com/bobs-org/bob-plugins/commit/c77272811e40879fac3d2f14926082d256fd98e1) | test(task-status-cycler): derive keep-moving test dates from the clock | [bob-cli-fb](README.md) | 2026-11-01 23:53:36 EST |
+| bob-cli--plans | [`bob-cli--plans@5919d56`](https://github.com/bobs-org/bob-cli--plans/commit/5919d565a0bb85b4bf588787f7828479214e2491) | docs(plans): mark leaf project keep-moving plan done | [bob-cli-fb](README.md) | 2026-11-01 23:54:13 EST |
 
 <!-- sase:referenced-by:start -->
 
