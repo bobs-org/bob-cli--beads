@@ -14,10 +14,22 @@ rust: implement leaf detection, the last_planned trigger, keep_moving offers, pi
 ## Dependencies
 
 - **Depends on:** [bob-cli-fb.1](bob-cli-fb.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fb.5](bob-cli-fb.5.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fb.5](bob-cli-fb.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-fb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.md) | [bob-cli-fb.2](bob-cli-fb.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fb.2.1.land--1][1] | Verify parent phase closed | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.land.md
+
+<!-- sase:referenced-by:end -->

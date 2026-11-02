@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/leaf_keep_moving_rust.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/leaf_keep_moving_rust.md
 
@@ -35,13 +35,12 @@ Complete bob-cli-fb.2 with tested leaf detection, successor offers, capture sele
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fb.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.land.md) | [bob-cli-fb.2.1](bob-cli-fb.2.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-fb.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.land.md) | [bob-cli-fb.2.1](bob-cli-fb.2.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`3986627`](https://github.com/bobs-org/bob-cli/commit/39866275931de4d7364fa4a4f7cb3f10cc37ce41) | feat(capture): land keep-moving repairs with lazy routing and lane names | [bob-cli-fb.2.1](bob-cli-fb.2.1.md) | 2026-11-01 21:10:59 EST |
 | bob-cli--plans | [`bob-cli--plans@f703061`](https://github.com/bobs-org/bob-cli--plans/commit/f703061c6b4be2630f24a7b29afac68aa1eab2c4) | docs(plans): mark leaf\_keep\_moving\_rust done for fb.2.1 closeout | [bob-cli-fb.2.1](bob-cli-fb.2.1.md) | 2026-11-01 21:11:37 EST |
 
 <!-- sase:referenced-by:start -->
@@ -51,7 +50,9 @@ Complete bob-cli-fb.2 with tested leaf detection, successor offers, capture sele
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fb.2.1.2][1] | Need parent epic plan and DECISIONS | 1 |
+| read-by | [agent:bob-cli-fb.2.1.land--1][2] | Need parent link before close | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.2.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.land.md
 
 <!-- sase:referenced-by:end -->

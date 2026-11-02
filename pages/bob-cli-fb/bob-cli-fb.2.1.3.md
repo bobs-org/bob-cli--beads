@@ -42,7 +42,9 @@ finish: implement KM21 with later-item provenance, render the approved human cop
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fb.2.1.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-fb.2.1.land--1][2] | Need phase notes for closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.2.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.land.md
 
 <!-- sase:referenced-by:end -->
