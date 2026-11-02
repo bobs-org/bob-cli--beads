@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md) | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md) | [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-fs.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.3/README.md) | [bob-cli-fs.3](bob-cli-fs.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4/README.md) | [bob-cli-fs.4](bob-cli-fs.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.5/README.md) | [bob-cli-fs.5](bob-cli-fs.5.md) | 0 |
@@ -153,3 +153,4 @@ flowchart TD
 | bob-cli | [`cb729a7`](https://github.com/bobs-org/bob-cli/commit/cb729a76190d4c365ebd470e5dac8ee54e9f5705) | feat(task-relations): merge relation offers into successor planning | [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) | 2026-11-02 08:49:32 EST |
 | bob-plugins | [`bob-plugins@2ead3a8`](https://github.com/bobs-org/bob-plugins/commit/2ead3a8d60202bb1c187ee5f5926bac37713e955) | feat(task-status-cycler): ship relation-successor docs as 1.46.0 | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 2026-11-02 09:00:36 EST |
 | bob-cli | [`98bfec6`](https://github.com/bobs-org/bob-cli/commit/98bfec6aca2a877b9bceccb2ce5c9dbd6aa39267) | feat(task-relations): repair relation-successor ordering, identity, and recovery regressions | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 09:28:30 EST |
+| bob-plugins | [`bob-plugins@e9f2fb7`](https://github.com/bobs-org/bob-plugins/commit/e9f2fb71019fbaa4a78579339c0c4b995f681218) | fix(nav): sync relation-successor vectors and 48-scalar truncation parity | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 09:28:56 EST |
