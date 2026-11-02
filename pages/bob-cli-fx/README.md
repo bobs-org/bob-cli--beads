@@ -15,7 +15,7 @@ When closing a MEET Pomodoro creates a new MEET placeholder for meetings that ha
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-fx.1](bob-cli-fx.1.md) | bob capture x places the MEET continuation last | ✓ closed | medium | 2026-11-02 | 1 | 1 |
+| [bob-cli-fx.1](bob-cli-fx.1.md) | bob capture x places the MEET continuation last | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [bob-cli-fx.2](bob-cli-fx.2.md) | Obsidian Ctrl+Enter completion mirrors the placement | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 
 ## Lineage
@@ -34,7 +34,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fx.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.1/README.md) | [bob-cli-fx.1](bob-cli-fx.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fx.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.1/README.md) | [bob-cli-fx.1](bob-cli-fx.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-fx.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.2/README.md) | [bob-cli-fx.2](bob-cli-fx.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-fx.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.land/README.md) | [bob-cli-fx](README.md) | 0 |
 
@@ -43,3 +43,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d32da8f`](https://github.com/bobs-org/bob-cli/commit/d32da8fa072ad162ec7b43d617858067ca260422) | feat(capture): place MEET continuation after last open pomodoro | [bob-cli-fx.1](bob-cli-fx.1.md) | 2026-11-02 10:47:11 EST |
+| bob-mac-capture | [`bob-mac-capture@ac6c3d6`](https://github.com/bobs-org/bob-mac-capture/commit/ac6c3d6f5851c66f2e20c5361600ee9e088a83a8) | feat(capture): render placed-last MEET continuation | [bob-cli-fx.1](bob-cli-fx.1.md) | 2026-11-02 10:47:26 EST |
