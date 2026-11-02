@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/merged_pomodoros.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/merged_pomodoros.md
 
@@ -43,10 +43,10 @@ A Pomodoro that holds several task types is a first-class merged Pomodoro. Linki
 | [bob-cli-fe.3](bob-cli-fe.3.md) | The =/ split syntax end to end (bob-cli) | ✓ closed | large | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.4](bob-cli-fe.4.md) | The =\* merge syntax end to end (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.5](bob-cli-fe.5.md) | x narrows the closed name and sheds the carried name (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fe.6](bob-cli-fe.6.md) | Obsidian pickers merge by default (bob-plugins) | ○ open | medium | 2026-11-01 | 1 | 0 |
-| [bob-cli-fe.7](bob-cli-fe.7.md) | Ctrl+S splits the selected Pomodoro (bob-plugins) | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fe.6](bob-cli-fe.6.md) | Obsidian pickers merge by default (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fe.7](bob-cli-fe.7.md) | Ctrl+S splits the selected Pomodoro (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.8](bob-cli-fe.8.md) | Ctrl+Enter Pomodoro completion parity (bob-plugins) | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
-| [bob-cli-fe.9](bob-cli-fe.9.md) | Present split, merge, merged links, and close names (Bob Mac Capture) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
+| [bob-cli-fe.9](bob-cli-fe.9.md) | Present split, merge, merged links, and close names (Bob Mac Capture) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
 
 ## Lineage
 
@@ -59,8 +59,8 @@ flowchart TD
     n4["bob-cli-fe.3: The =/ split syntax end to end (bob-cli) [closed]"]
     n5["bob-cli-fe.4: The =* merge syntax end to end (bob-cli) [closed]"]
     n6["bob-cli-fe.5: x narrows the closed name and sheds the carried name (bob-cli) [closed]"]
-    n7["bob-cli-fe.6: Obsidian pickers merge by default (bob-plugins) [open]"]
-    n8["bob-cli-fe.7: Ctrl+S splits the selected Pomodoro (bob-plugins) [in_progress]"]
+    n7["bob-cli-fe.6: Obsidian pickers merge by default (bob-plugins) [closed]"]
+    n8["bob-cli-fe.7: Ctrl+S splits the selected Pomodoro (bob-plugins) [closed]"]
     n9["bob-cli-fe.8: Ctrl+Enter Pomodoro completion parity (bob-plugins) [in_progress]"]
     n10["bob-cli-fe.9: Present split, merge, merged links, and close names (Bob Mac Capture) [closed]"]
     n0 --> n1
@@ -102,9 +102,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fe.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.4/README.md) | [bob-cli-fe.4](bob-cli-fe.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.5/README.md) | [bob-cli-fe.5](bob-cli-fe.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fe.6.md) | [bob-cli-fe.6](bob-cli-fe.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.7/README.md) | [bob-cli-fe.7](bob-cli-fe.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.7/README.md) | [bob-cli-fe.7](bob-cli-fe.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.land/README.md) | [bob-cli-fe](README.md) | 0 |
 
 ## Commits
@@ -116,7 +116,7 @@ flowchart TD
 | bob-cli | [`d712168`](https://github.com/bobs-org/bob-cli/commit/d712168f88c4240340115d61f45d424c7f45c066) | feat(capture)!: land named captures by merging types | [bob-cli-fe.2](bob-cli-fe.2.md) | 2026-11-01 20:22:41 EST |
 | bob-cli | [`ccd1ada`](https://github.com/bobs-org/bob-cli/commit/ccd1ada109a634bf58b2261b5f3c0a2a84daa5ef) | feat(capture)!: add =/ split syntax end to end | [bob-cli-fe.3](bob-cli-fe.3.md) | 2026-11-01 21:20:36 EST |
 | bob-cli | [`bb92fb1`](https://github.com/bobs-org/bob-cli/commit/bb92fb1c07fadeb9117bb23f93f6e09fd60bf340) | feat(capture)!: add =\* merge syntax end to end | [bob-cli-fe.4](bob-cli-fe.4.md) | 2026-11-01 22:35:11 EST |
-| bob-mac-capture | [`bob-mac-capture@72daffb`](https://github.com/bobs-org/bob-mac-capture/commit/72daffb0d106a0f0a2dbed878b71725ea0e2efa6) | feat(capture): present Pomodoro split and merge previews | [bob-cli-fe.9](bob-cli-fe.9.md) | 2026-11-01 23:02:42 EST |
+| bob-plugins | [`bob-plugins@3bab3c0`](https://github.com/bobs-org/bob-plugins/commit/3bab3c0345f589455c7a9b81f009e51535e7967e) | feat(bob-plugins): Ctrl+S splits the selected Pomodoro by type | [bob-cli-fe.7](bob-cli-fe.7.md) | 2026-11-02 06:16:16 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -126,8 +126,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-f9.land][1] | Check whether the active bob-cli-fe epic owns the five capture test failures from 675330dd | 2 |
 | read-by | [agent:bob-cli-fe.2][2] | Need epic DECISIONS and plan context | 1 |
+| read-by | [agent:bob-cli-fl.1--5][3] | Verify the existing beads cited by the phase's baseline lint follow-up | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.1.md
 
 <!-- sase:referenced-by:end -->

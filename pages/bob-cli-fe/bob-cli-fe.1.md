@@ -20,7 +20,7 @@ routing-core: implement R1–R7 as pure Rust planners (land, merge_names, narrow
 - **Blocks:** [bob-cli-fe.2](bob-cli-fe.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fe.3](bob-cli-fe.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fe.5](bob-cli-fe.5.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.6](bob-cli-fe.6.md) ○ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.6](bob-cli-fe.6.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
