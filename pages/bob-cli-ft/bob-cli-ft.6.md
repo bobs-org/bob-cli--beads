@@ -18,7 +18,7 @@ chips: a Blocked prerequisite or dependent chip draws its own miniature block ma
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.5](bob-cli-ft.5.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.8](bob-cli-ft.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.8](bob-cli-ft.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -31,3 +31,15 @@ chips: a Blocked prerequisite or dependent chip draws its own miniature block ma
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@93d3859`](https://github.com/bobs-org/bob-plugins/commit/93d3859988d3ebf6e03935bd8c541149f5f2f1a4) | feat(ledger-tools): show block reasons in dependency chips | [bob-cli-ft.6](bob-cli-ft.6.md) | 2026-11-02 13:21:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.6][1] | Check prior phase notes before continuing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.6/README.md
+
+<!-- sase:referenced-by:end -->

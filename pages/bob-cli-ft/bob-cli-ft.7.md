@@ -20,7 +20,7 @@ task_card: the Task Card's BLOCKED lane chip becomes the block mark plus every r
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.3](bob-cli-ft.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.8](bob-cli-ft.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.8](bob-cli-ft.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

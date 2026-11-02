@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-ft
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.16w](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.16w.md) · **Assignee:** `bob-cli-ft.land`
-**Created:** 2026-11-02 06:28:10 EST
+**Created:** 2026-11-02 06:28:10 EST · **Closed:** 2026-11-02 14:49:42 EST
 **Plan:** [202611/blocked\_reason\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/blocked_reason_marks.md)
 
 <!-- sase:links:start -->
@@ -14,16 +14,32 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/blocked_reason_marks.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-g6][2] | Proposing epic: Blocked-reason marks; contract docs/blocked-marks.md holds the BM vectors to move into the fixture |
+| related | [bead:bob-cli-g7][3] | Proposing epic: Blocked-reason marks; its CSS must keep winning over the moved status CSS by specificity |
 
 _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/blocked_reason_marks.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-g6/README.md
+[3]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-g7/README.md
 
 <!-- sase:links:end -->
 
 ## Description
 
 In Obsidian, a Blocked task's checkbox shows why it is blocked. It shows & for its own open prerequisite, ^ for a blocked project, 1–4 for a P1–P4 priority deferral, ⟲ for a recurring rule's next run, ? for a date picked by hand, and a dashed ? when no reason is left. Solid boxes mean held by other work, hollow boxes mean waiting for a date. Stored Markdown, reconcile, and the Tasks registry stay exactly as they are.
+
+## Notes
+
+[2026-11-02T19:05:46Z · bob-cli-ft.land] FOLLOW-UP TRIAGE (land agent): (1) Pre-existing bob-plugins npm test failures proposed by .2 #1, .4 #1, .7 #1, .8 #1 -> corroborated existing ci tasks with an independent reproduction on bob-plugins master 93d3859: bob-cli-et (freshness-namespace not ok 6), bob-cli-f7 (keep-inbox not ok 26), bob-cli-eh (note-ready not ok 39 + relation-index not ok 4), bob-cli-ff (schedule-work-log not ok 6); no new task. bob-cli-f8 (task-wikilink perf budgets, .2 #1) passed 5/5 in isolation this run, so no +1 (already corroborated by bob-cli-ft.3.1.land). (2) .8 #2 Rust BlockReason mark key + shared JSON BM fixture -> new feature task bob-cli-g6 (large; no duplicate, no causal active epic; related link to bob-cli-66). (3) .8 #3 move task-statuses.css into bob-ledger-tools -> new feature task bob-cli-g7 (large; no duplicate). Child-epic bob-cli-ft.3.1 dispositions (reduced-motion declined, cold-chunk on f8) stand as recorded in its close note. No epic-symbol entries; no symvision recipe in bob-cli.
+
+[2026-11-02T19:08:00Z · bob-cli-ft.land] LAND AUDIT: verified phases .1-.8 and child epic .3.1 against source/commits (bob-cli 16f3a28f..8c7e7103; bob-plugins d58b1fa..93d3859). DECISIONS honored: own_first, chevron, quiet, memory_decision_record=no (no decision strand). Post-epic drift (bob-cli gcal/capture/relations/stats/frees-marks b508f0b6; bob-plugins af97bcd, 1f2c1f8) has no block-marks overlap; frees-marks (bob-cli-g1) is independent. Remaining epic-caused gaps in the chips phase (.6): block-marks refresh (toggle/ladder/rollover/resume) never dispatches the dependency-chips refresh; toggling off blanks marked chip boxes (empty span.bob-block-mark, no ? fallback) in Live Preview until next rebuild and in reading view until re-render; chip tooltip appends the whole block-mark tooltip incl. Ctrl+Shift hint lines instead of the reason line; no manifest bump/docs/e2e coverage for chips. Contract live-verification checklist was never finalized (still says pending for the visual-review phase). Proposing medium tale sase_plan_block_marks_chips_landing.md that fixes these and closes this epic in the coder turn. Epic deliberately left open.
+
+[2026-11-02T19:49:42Z · bob-cli-ft.land] Phases .1–.8 and child epic .3.1 were verified against source and commits, and DECISIONS own_first, chevron, quiet, and memory_decision_record=no were honored (no decision strand). Post-epic drift was reviewed with no block-marks conflict; frees-marks (bob-cli-g1) is independent.
+
+Follow-up triage (copied, not redone): bob-cli-et, -f7, -eh, and -ff were corroborated with a reproduction at bob-plugins 93d3859; bob-cli-f8 passed in isolation, so it got no new +1; new feature tasks bob-cli-g6 (Rust BlockReason mark key plus shared JSON fixture) and bob-cli-g7 (move task-statuses.css into bob-ledger-tools).
+
+Chips-landing tale: runBlockMarksRefresh calls refreshDependencyChipEditors; chip boxes keep a CSS fallback ? (clip-path, never !important); tooltip/aria append only blockMarkReasonLine; reading-view chips attach blockMark and map BLOCKS rows among owned candidates. bob-ledger-tools 1.93.0. Real-Obsidian e2e 161/161 (0 failed, 0 skipped), including 27 chip-mark cases; screenshots reviewed. npm test 5145 pass / 6 fail matching et (freshness-namespace), f7 (keep-inbox local time), eh (note-ready + relation-index), ff (schedule-work-log 2026-11-02), and f8 cold-chunk 16.2ms. npm run validate 8/8. docs:gen + bob-cli just check and just docs-check passed. Sync: first dry-run refused bob-cli_18 uncommitted deploy at 289f764; vault then showed a clean canonical 93d3859 stamp, and bob plugins sync --no-pull --repo <this linked checkout> -p bob-ledger-tools copied manifest.json, main.js, and styles.css without --force (backup 20261102-144055). No just symvision recipe. No epic-symbol entries.
 
 ## Phases
 
@@ -36,13 +52,13 @@ In Obsidian, a Blocked task's checkbox shows why it is blocked. It shows & for i
 | [bob-cli-ft.5](bob-cli-ft.5.md) | Block marks in Tasks query results (CSS-only) | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [bob-cli-ft.6](bob-cli-ft.6.md) | Block marks inside DEPENDS ON and BLOCKS chips | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-ft.7](bob-cli-ft.7.md) | Task Card reason header and teaching digit (bob-navigation-hotkeys) | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-ft.8](bob-cli-ft.8.md) | Cross-surface visual review, polish, and live checklist | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
+| [bob-cli-ft.8](bob-cli-ft.8.md) | Cross-surface visual review, polish, and live checklist | ✓ closed | small | 2026-11-02 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-ft: Blocked-reason marks — every [?] checkbox says why [in_progress]"]
+    n0["bob-cli-ft: Blocked-reason marks — every [?] checkbox says why [closed]"]
     n1["bob-cli-ft.1: Blocked-marks display contract and decision record (bob-cli) [closed]"]
     n2["bob-cli-ft.2: Pure block-mark model and api.blockMarks.model (bob-ledger-tools) [closed]"]
     n3["bob-cli-ft.3: Checkbox rendering in Live Preview and reading view, CSS, toggle, tooltips [closed]"]
@@ -55,7 +71,7 @@ flowchart TD
     n10["bob-cli-ft.5: Block marks in Tasks query results (CSS-only) [closed]"]
     n11["bob-cli-ft.6: Block marks inside DEPENDS ON and BLOCKS chips [closed]"]
     n12["bob-cli-ft.7: Task Card reason header and teaching digit (bob-navigation-hotkeys) [closed]"]
-    n13["bob-cli-ft.8: Cross-surface visual review, polish, and live checklist [in_progress]"]
+    n13["bob-cli-ft.8: Cross-surface visual review, polish, and live checklist [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -99,7 +115,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ft.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.6/README.md) | [bob-cli-ft.6](bob-cli-ft.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ft.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.7/README.md) | [bob-cli-ft.7](bob-cli-ft.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-ft.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.8/README.md) | [bob-cli-ft.8](bob-cli-ft.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-ft.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.land/README.md) | [bob-cli-ft](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-ft.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.land.md) | [bob-cli-ft](README.md) | 1 |
 
 ## Commits
 
@@ -121,6 +137,7 @@ flowchart TD
 | bob-cli | [`8c7e710`](https://github.com/bobs-org/bob-cli/commit/8c7e710306d0e49b52376e5d6d85f52dfd73f722) | docs(blocked-marks): record Tasks query CSS-only marks | [bob-cli-ft.5](bob-cli-ft.5.md) | 2026-11-02 13:07:06 EST |
 | bob-plugins | [`bob-plugins@289f764`](https://github.com/bobs-org/bob-plugins/commit/289f764cba40c1f5e26f0c482d14100ff708684e) | feat(ledger-tools): paint CSS-only block marks in Tasks query results | [bob-cli-ft.5](bob-cli-ft.5.md) | 2026-11-02 13:07:28 EST |
 | bob-plugins | [`bob-plugins@93d3859`](https://github.com/bobs-org/bob-plugins/commit/93d3859988d3ebf6e03935bd8c541149f5f2f1a4) | feat(ledger-tools): show block reasons in dependency chips | [bob-cli-ft.6](bob-cli-ft.6.md) | 2026-11-02 13:21:23 EST |
+| bob-cli | [`8f2f1f1`](https://github.com/bobs-org/bob-cli/commit/8f2f1f1be16857be25fc2c595fd08069c4a2e82f) | docs(blocked-marks): finalize chip marks live-verification checklist | [bob-cli-ft](README.md) | 2026-11-02 14:59:56 EST |
 
 <!-- sase:referenced-by:start -->
 
