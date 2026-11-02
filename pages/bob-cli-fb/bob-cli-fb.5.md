@@ -37,8 +37,10 @@ mac: decode keep_moving arrays and present them in the Pull-In card, preview car
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5m.final][1] | Check whether keep-moving Mac presentation hardcodes per-group copy, to evaluate bob-authored group copy for starts-after | 1 |
+| read-by | [agent:bob-cli-fb.5--7][1] | Need the assigned phase scope, design file, and current notes before final closure | 1 |
+| read-by | [agent:research.5m.final][2] | Check whether keep-moving Mac presentation hardcodes per-group copy, to evaluate bob-authored group copy for starts-after | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5m.final/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5m.final/README.md
 
 <!-- sase:referenced-by:end -->
