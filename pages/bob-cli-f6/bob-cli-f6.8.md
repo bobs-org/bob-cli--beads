@@ -36,3 +36,15 @@ mac-rail-and-cards: draw the day rail and render event runs, far-run and conflic
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@f520515`](https://github.com/bobs-org/bob-mac-capture/commit/f5205151da4da2ca1643eef3df2c8c16c2f33d37) | fix(mac-capture): restore the conflict JSON brace in the event-conflict decode test | [bob-cli-f6.8](bob-cli-f6.8.md) | 2026-11-01 19:58:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-f6.8--4][1] | Need phase scope, notes and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f6.8.md
+
+<!-- sase:referenced-by:end -->
