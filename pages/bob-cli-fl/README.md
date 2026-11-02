@@ -137,7 +137,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.6.1.5.md) | [bob-cli-fl.6.1.5](bob-cli-fl.6.1.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.6.1.land.md) | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 3 |
 | [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.land.md) | [bob-cli-fl](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.land.md) | [bob-cli-fl](README.md) | 2 |
 
 ## Commits
 
@@ -163,6 +163,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@af97bcd`](https://github.com/bobs-org/bob-plugins/commit/af97bcde201293c567f005450d47585d16a92bda) | feat(ledger-tools): land Stats clock fixes, preview harness hardening, and clock docs | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 2026-11-02 12:48:39 EST |
 | bob-cli--plans | [`bob-cli--plans@1bad28f`](https://github.com/bobs-org/bob-cli--plans/commit/1bad28f1e5d632cf4a83f33750f578c471907009) | docs(plans): mark stats\_clock\_ui epic plan done | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 2026-11-02 12:49:24 EST |
 | bob-cli | [`37b2de6`](https://github.com/bobs-org/bob-cli/commit/37b2de64717c575b1b0a6251eb38aa441a90b21e) | fix(capture): restamp edited pomodoro lineups | [bob-cli-fl](README.md) | 2026-11-02 16:57:19 EST |
+| bob-cli--plans | [`bob-cli--plans@72e340c`](https://github.com/bobs-org/bob-cli--plans/commit/72e340cf553e9a8f20abfe6b298b469b2d42627c) | docs(plan): mark off-clock pomodoros complete | [bob-cli-fl](README.md) | 2026-11-02 16:57:58 EST |
 
 <!-- sase:referenced-by:start -->
 
