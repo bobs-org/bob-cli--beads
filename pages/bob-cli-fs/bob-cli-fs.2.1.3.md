@@ -13,7 +13,7 @@ integrate: integrate classification after recovery, preserve all reasons and wri
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
