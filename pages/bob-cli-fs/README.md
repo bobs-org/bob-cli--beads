@@ -34,7 +34,7 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 | [bob-cli-fs.1](bob-cli-fs.1.md) | Contract, shared vectors, inverse pair, and glossary | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fs.10](bob-cli-fs.10.md) | Bob Mac Capture generic group copy and relation presentation | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.11](bob-cli-fs.11.md) | Enable starts after in chezmoi and smoke it | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
-| [bob-cli-fs.2](bob-cli-fs.2.md) | Rust policy and relation-successor engine | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
+| [bob-cli-fs.2](bob-cli-fs.2.md) | Rust policy and relation-successor engine | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.3](bob-cli-fs.3.md) | Rust authoring indications and relations list | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.4](bob-cli-fs.4.md) | Capture events, snapshot, reporting, and bob-authored group copy | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.5](bob-cli-fs.5.md) | Capture unlink hand-offs (v1.1) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
@@ -51,8 +51,8 @@ flowchart TD
     n1["bob-cli-fs.1: Contract, shared vectors, inverse pair, and glossary [closed]"]
     n2["bob-cli-fs.10: Bob Mac Capture generic group copy and relation presentation [in_progress]"]
     n3["bob-cli-fs.11: Enable starts after in chezmoi and smoke it [in_progress]"]
-    n4["bob-cli-fs.2: Rust policy and relation-successor engine [in_progress]"]
-    n5["bob-cli-fs.2.1: Rust relation-successor policy and planner for bob-cli-fs.2 [in_progress]"]
+    n4["bob-cli-fs.2: Rust policy and relation-successor engine [closed]"]
+    n5["bob-cli-fs.2.1: Rust relation-successor policy and planner for bob-cli-fs.2 [closed]"]
     n6["bob-cli-fs.2.1.1: Successor-label policy and shared copy [closed]"]
     n7["bob-cli-fs.2.1.2: Pure relation extraction and classification [closed]"]
     n8["bob-cli-fs.2.1.3: Merge relation offers into successor planning [closed]"]
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md) | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md) | [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-fs.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.3/README.md) | [bob-cli-fs.3](bob-cli-fs.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4/README.md) | [bob-cli-fs.4](bob-cli-fs.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.5/README.md) | [bob-cli-fs.5](bob-cli-fs.5.md) | 0 |
@@ -157,3 +157,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@4502b73`](https://github.com/bobs-org/bob-plugins/commit/4502b731bddda0cac9551bd594ffffc6c65fee43) | fix(task-status-cycler): repair relation-successor holds, recovery merge, and picker results | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 2026-11-02 10:22:30 EST |
 | bob-cli--plans | [`bob-cli--plans@e0da4ea`](https://github.com/bobs-org/bob-cli--plans/commit/e0da4ea604146f299ffabfeccfdf7339f5db9785) | chore(plans): mark cycler\_relation\_successors and its closeout done | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 2026-11-02 10:22:51 EST |
 | bob-plugins | [`bob-plugins@ffe1727`](https://github.com/bobs-org/bob-plugins/commit/ffe1727cc4393b687dc44ac4f2477795794a312b) | feat(task-status-cycler): offer parked successors when Unlink parks a Pending task | [bob-cli-fs.9](bob-cli-fs.9.md) | 2026-11-02 10:45:29 EST |
+| bob-cli | [`fdc34de`](https://github.com/bobs-org/bob-cli/commit/fdc34de9bf82600e187ef8f6ebb66473fc4d2bbf) | fix(task-complete): finish relation successor core | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 12:17:57 EST |

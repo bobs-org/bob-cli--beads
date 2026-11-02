@@ -17,7 +17,7 @@ contract: write the shared design into docs/task-relations.md §20 and docs/task
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fs.2](bob-cli-fs.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.2](bob-cli-fs.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.6](bob-cli-fs.6.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.7](bob-cli-fs.7.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.8](bob-cli-fs.8.md) ✓ · ⧖ 2026-11-02

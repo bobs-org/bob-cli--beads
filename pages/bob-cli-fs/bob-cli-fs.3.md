@@ -15,7 +15,7 @@ authoring: flag successor labels in capture-complete, capture-parse, capture com
 
 - **Blocks:** [bob-cli-fs.10](bob-cli-fs.10.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ◐ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-fs.2](bob-cli-fs.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.2](bob-cli-fs.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

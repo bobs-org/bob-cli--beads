@@ -51,7 +51,9 @@ The built task-status-cycler 1.46.0 was synced with bob plugins sync --no-pull -
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.8.1.land][1] | Confirm phase closed after relaunch landing | 2 |
+| read-by | [agent:bob-cli-fs.9][2] | Need cycler phase outcome before wiring parked unlink offers | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md
 
 <!-- sase:referenced-by:end -->
