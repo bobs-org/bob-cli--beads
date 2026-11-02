@@ -13,7 +13,7 @@ day-strip-clock-hint: add the separate off-clock link below WORKED, open Stats w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

@@ -20,7 +20,7 @@ clock-charts: render Off-clock outlines and Total tails in tile sparklines and f
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ clock-charts: render Off-clock outlines and Total tails in tile sparklines and f
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@33318e0`](https://github.com/bobs-org/bob-plugins/commit/33318e07cdd1e48c8fc5c8e7771fd41d0ce67bef) | feat(stats): render Off-clock outlines and Total tails in tiles and charts | [bob-cli-fl.6.1.3](bob-cli-fl.6.1.3.md) | 2026-11-02 07:37:03 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fl.6.1.3][1] | Need the phase scope and design file | 7 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.3/README.md
+
+<!-- sase:referenced-by:end -->

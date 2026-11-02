@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/off_clock_pomodoros.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/off_clock_pomodoros.md
 
@@ -56,7 +56,7 @@ flowchart TD
     n12["bob-cli-fl.6.1.1: Supply clock breakdowns for pinned Stats spans [closed]"]
     n13["bob-cli-fl.6.1.2: Add the persistent Stats clock control and fetch routing [closed]"]
     n14["bob-cli-fl.6.1.3: Render clocks in Stats tiles and focus charts [closed]"]
-    n15["bob-cli-fl.6.1.4: Render clocks in window lanes and time breakdowns [in_progress]"]
+    n15["bob-cli-fl.6.1.4: Render clocks in window lanes and time breakdowns [closed]"]
     n16["bob-cli-fl.6.1.5: Add the Day strip hint and finish integration documentation [in_progress]"]
     n17["bob-cli-fl.7: bob-mac-capture: off-clock vocabulary, fallback decoding, and the title chip [closed]"]
     n0 --> n1
@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fl.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.1/README.md) | [bob-cli-fl.6.1.1](bob-cli-fl.6.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.2/README.md) | [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.3/README.md) | [bob-cli-fl.6.1.3](bob-cli-fl.6.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fl.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.4/README.md) | [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.4/README.md) | [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.5/README.md) | [bob-cli-fl.6.1.5](bob-cli-fl.6.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.land/README.md) | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 0 |
@@ -130,6 +130,7 @@ flowchart TD
 | bob-cli | [`247440c`](https://github.com/bobs-org/bob-cli/commit/247440cc97349c3ef658b032e281b07b936e531f) | feat(stats): report worked and off-clock clock breakdowns | [bob-cli-fl.6.1.1](bob-cli-fl.6.1.1.md) | 2026-11-02 05:58:33 EST |
 | bob-plugins | [`bob-plugins@3a2b03b`](https://github.com/bobs-org/bob-plugins/commit/3a2b03b635a3e81b343f482e502257d00e2fa4b7) | feat(stats): add persistent clock controls and fetch routing | [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) | 2026-11-02 06:45:11 EST |
 | bob-plugins | [`bob-plugins@33318e0`](https://github.com/bobs-org/bob-plugins/commit/33318e07cdd1e48c8fc5c8e7771fd41d0ce67bef) | feat(stats): render Off-clock outlines and Total tails in tiles and charts | [bob-cli-fl.6.1.3](bob-cli-fl.6.1.3.md) | 2026-11-02 07:37:03 EST |
+| bob-plugins | [`bob-plugins@75e7875`](https://github.com/bobs-org/bob-plugins/commit/75e78759bdd09a737404dc1b8d842db84c63e59f) | feat(stats): render clock breakdowns in Stats lanes and panels | [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) | 2026-11-02 08:05:36 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -140,9 +141,11 @@ flowchart TD
 | read-by | [agent:bob-cli-fl.3.1.1][1] | Need outer epic DECISIONS that apply to stats clock work | 1 |
 | read-by | [agent:bob-cli-fl.4][2] | parent epic context | 1 |
 | read-by | [agent:bob-cli-fl.6.1.2][3] | Need final epic decisions governing this implementation | 1 |
+| read-by | [agent:bob-cli-fl.6.1.3][4] | Need the epic DECISIONS that this child epic must honor | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.3/README.md
 
 <!-- sase:referenced-by:end -->
