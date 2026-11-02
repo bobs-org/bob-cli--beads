@@ -13,7 +13,7 @@ obsidian_e2e: add an isolated scratch-vault CDP harness and offline self-test, e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

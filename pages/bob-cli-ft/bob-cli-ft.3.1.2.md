@@ -20,7 +20,7 @@ live_preview: render block marks on visible Live Preview task rows; add lazy che
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.3.1.1](bob-cli-ft.3.1.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ live_preview: render block marks on visible Live Preview task rows; add lazy che
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@257255e`](https://github.com/bobs-org/bob-plugins/commit/257255e429123f38b478442e10b3ab5cb05d3f73) | feat(plugins): add Live Preview blocked mark lifecycle | [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) | 2026-11-02 08:35:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.3.1.2--2][1] | Verify the phase follow-up evidence before closing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.2.md
+
+<!-- sase:referenced-by:end -->
