@@ -13,7 +13,7 @@ tasks_results: draw the marks on Tasks query result rows from Tasks' own row att
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ft.4](bob-cli-ft.4.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-ft.4](bob-cli-ft.4.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.6](bob-cli-ft.6.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

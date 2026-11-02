@@ -27,7 +27,7 @@ Leave outer epic bob-cli-ft open.
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.2](bob-cli-ft.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.4](bob-cli-ft.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.4](bob-cli-ft.4.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.7](bob-cli-ft.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents

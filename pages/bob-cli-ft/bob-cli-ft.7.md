@@ -33,3 +33,15 @@ task_card: the Task Card's BLOCKED lane chip becomes the block mark plus every r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@31852e6`](https://github.com/bobs-org/bob-plugins/commit/31852e695d7fda4dbd3ead9c58f19eec5268b23d) | feat(nav-hotkeys): show blocked-reason mark and reasons on the Task Card | [bob-cli-ft.7](bob-cli-ft.7.md) | 2026-11-02 12:02:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.7/README.md
+
+<!-- sase:referenced-by:end -->
