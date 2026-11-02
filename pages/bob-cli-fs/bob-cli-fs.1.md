@@ -41,7 +41,9 @@ contract: write the shared design into docs/task-relations.md §20 and docs/task
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.1--1][1] | Need the phase scope, design file, and remaining work before close | 1 |
+| read-by | [agent:bob-cli-fs.7][2] | check contract phase outputs for nav_authoring inputs | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.7/README.md
 
 <!-- sase:referenced-by:end -->

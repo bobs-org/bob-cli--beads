@@ -26,10 +26,16 @@ nav: teach bob-navigation-hotkeys' successor picker and Unblocked notice the rel
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.6/README.md) | [bob-cli-fs.6](bob-cli-fs.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.6/README.md) | [bob-cli-fs.6](bob-cli-fs.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@7cc1735`](https://github.com/bobs-org/bob-plugins/commit/7cc17352985be3cb11cf1b6b81bc6cbf74fbb466) | feat(nav-hotkeys): present relation successor picker and notice v3 | [bob-cli-fs.6](bob-cli-fs.6.md) | 2026-11-02 06:55:11 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.6][1] | Confirm phase close survived finalizer keep on the sibling repo | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.6/README.md
+
+<!-- sase:referenced-by:end -->
