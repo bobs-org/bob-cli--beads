@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fc.2/README.md) | [bob-cli-fc.2](bob-cli-fc.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fc.3/README.md) | [bob-cli-fc.3](bob-cli-fc.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fc.4.md) | [bob-cli-fc.4](bob-cli-fc.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fc.land.md) | [bob-cli-fc](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fc.land.md) | [bob-cli-fc](README.md) | 2 |
 
 ## Commits
 
@@ -85,6 +85,7 @@ flowchart TD
 | bob-cli | [`971d864`](https://github.com/bobs-org/bob-cli/commit/971d864f6c8ca91ed78f01aca41c0f4d93643efa) | feat(capture): bullet drawer completion menu, docs, and memory records | [bob-cli-fc.3](bob-cli-fc.3.md) | 2026-11-01 20:54:25 EST |
 | bob-mac-capture | [`bob-mac-capture@1b196f4`](https://github.com/bobs-org/bob-mac-capture/commit/1b196f47d518e860e0b673984c0aa015ad629ade) | feat(capture): present drawer bullet completion | [bob-cli-fc.4](bob-cli-fc.4.md) | 2026-11-01 21:29:30 EST |
 | bob-cli | [`50a3922`](https://github.com/bobs-org/bob-cli/commit/50a39221291b7a08b64efd0082582f2e4e9cf9f2) | fix(capture): compose multi-note captures with relation closes and report the final parent | [bob-cli-fc](README.md) | 2026-11-01 23:02:20 EST |
+| bob-cli--plans | [`bob-cli--plans@a455dd4`](https://github.com/bobs-org/bob-cli--plans/commit/a455dd428b1f348336272d26c357a50f6f687ea7) | chore(plans): mark capture\_drawer\_bullets done | [bob-cli-fc](README.md) | 2026-11-01 23:03:17 EST |
 
 <!-- sase:referenced-by:start -->
 
