@@ -18,7 +18,7 @@ tasks_results: draw the marks on Tasks query result rows from Tasks' own row att
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.4](bob-cli-ft.4.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.6](bob-cli-ft.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.6](bob-cli-ft.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -32,3 +32,15 @@ tasks_results: draw the marks on Tasks query result rows from Tasks' own row att
 |---|---|---|---|---|
 | bob-cli | [`8c7e710`](https://github.com/bobs-org/bob-cli/commit/8c7e710306d0e49b52376e5d6d85f52dfd73f722) | docs(blocked-marks): record Tasks query CSS-only marks | [bob-cli-ft.5](bob-cli-ft.5.md) | 2026-11-02 13:07:06 EST |
 | bob-plugins | [`bob-plugins@289f764`](https://github.com/bobs-org/bob-plugins/commit/289f764cba40c1f5e26f0c482d14100ff708684e) | feat(ledger-tools): paint CSS-only block marks in Tasks query results | [bob-cli-ft.5](bob-cli-ft.5.md) | 2026-11-02 13:07:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.5][1] | Need full notes, remaining work, and design file path | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.5/README.md
+
+<!-- sase:referenced-by:end -->
