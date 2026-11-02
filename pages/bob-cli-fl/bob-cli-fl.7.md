@@ -23,7 +23,13 @@ mac-off-clock: decode off_clock with untracked/tracked fallbacks, rename every p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@2346b80`](https://github.com/bobs-org/bob-mac-capture/commit/2346b80e1aaefb0d6cf8c74032ecb02de8500c76) | feat(mac-capture): add off-clock agenda support | [bob-cli-fl.7](bob-cli-fl.7.md) | 2026-11-02 03:23:39 EST |
 
 <!-- sase:referenced-by:start -->
 

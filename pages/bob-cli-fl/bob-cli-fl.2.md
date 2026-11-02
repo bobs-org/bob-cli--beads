@@ -51,8 +51,10 @@ off-clock-rule: stamp the clock key at every capture start, close, and running-l
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-fl.2--2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-fe.land][1] | Check whether fl.2 scoped =/ and =* running-lineup restamp | 1 |
+| read-by | [agent:bob-cli-fl.2--2][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.2.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.2.md
 
 <!-- sase:referenced-by:end -->
