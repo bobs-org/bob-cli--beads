@@ -13,7 +13,7 @@ chips: a Blocked prerequisite or dependent chip draws its own miniature block ma
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ft.5](bob-cli-ft.5.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-ft.5](bob-cli-ft.5.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.8](bob-cli-ft.8.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

@@ -20,7 +20,7 @@ redundancy_folds: where the checkbox digit already says the priority, fold the s
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.3](bob-cli-ft.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.5](bob-cli-ft.5.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.5](bob-cli-ft.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ redundancy_folds: where the checkbox digit already says the priority, fold the s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b64a433`](https://github.com/bobs-org/bob-plugins/commit/b64a4332a93f2f3fb20a0b13d2cf9021763fdb0e) | feat(ledger-tools): fold digit bars and project-blocked pills | [bob-cli-ft.4](bob-cli-ft.4.md) | 2026-11-02 12:16:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.4][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.4/README.md
+
+<!-- sase:referenced-by:end -->
