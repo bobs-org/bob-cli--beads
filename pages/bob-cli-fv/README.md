@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fv.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.6/README.md) | [bob-cli-fv.6](bob-cli-fv.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.7.md) | [bob-cli-fv.7](bob-cli-fv.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.8/README.md) | [bob-cli-fv.8](bob-cli-fv.8.md) | 2 |
-| [bbugyi200.athena.bob-cli-fv.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.land/README.md) | [bob-cli-fv](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-fv.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.land/README.md) | [bob-cli-fv](README.md) | 2 |
 
 ## Commits
 
@@ -101,6 +101,7 @@ flowchart TD
 | bob-cli | [`8c140e4`](https://github.com/bobs-org/bob-cli/commit/8c140e43d22cf562e063c4a0983cd0c939339c54) | docs(cli): refresh capture and relation contracts | [bob-cli-fv.8](bob-cli-fv.8.md) | 2026-11-02 13:22:59 EST |
 | bob-cli | [`30d3120`](https://github.com/bobs-org/bob-cli/commit/30d312095ab2a009e635d2b51fb1697d49885970) | docs(gcal): record description ownership and join-link exception | [bob-cli-fv.8](bob-cli-fv.8.md) | 2026-11-02 16:22:23 EST |
 | bob-cli | [`ebe8a44`](https://github.com/bobs-org/bob-cli/commit/ebe8a44c705bf5e3c1ed9043135e69b04ce54899) | fix(gcal): keep description bullets put when the row no longer parses | [bob-cli-fv](README.md) | 2026-11-02 16:55:12 EST |
+| bob-cli--plans | [`bob-cli--plans@127391b`](https://github.com/bobs-org/bob-cli--plans/commit/127391b868675f6af6627cd85b029b30776089cf) | chore(plans): mark gcal description bullets plan done | [bob-cli-fv](README.md) | 2026-11-02 16:55:31 EST |
 
 <!-- sase:referenced-by:start -->
 
