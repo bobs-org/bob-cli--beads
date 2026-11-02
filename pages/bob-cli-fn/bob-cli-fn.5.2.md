@@ -36,3 +36,15 @@ mac-undo: apply an accepted block-ID splice as one native undoable NSTextView ed
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@f4ed5bb`](https://github.com/bobs-org/bob-mac-capture/commit/f4ed5bbcb3c8c07384a9dec3190127eea46eba3c) | feat(mac-capture): undoable ID splices with window-hosted native undo tests | [bob-cli-fn.5.2](bob-cli-fn.5.2.md) | 2026-11-02 10:19:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fn.5.2--3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.2.md
+
+<!-- sase:referenced-by:end -->

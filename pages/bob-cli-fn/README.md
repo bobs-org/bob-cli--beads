@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-fn
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.c1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.c1.md) · **Assignee:** `bob-cli-fn.land`
-**Created:** 2026-11-01 23:41:34 EST
+**Created:** 2026-11-01 23:41:34 EST · **Closed:** 2026-11-02 11:17:12 EST
 **Plan:** [202611/capture\_route\_lists.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_route_lists.md)
 
 <!-- sase:links:start -->
@@ -43,6 +43,14 @@ A capture item whose first line is only `@file` (or `@file#section`) files each 
 
 [2026-11-02T12:13:52Z · bob-cli-fn.land] FOLLOW-UP TRIAGE (land audit 2, final outcomes for every PROPOSED FOLLOW-UP): fn.1 #1 BufferPart::as_str: resolved by 2d5ebfc9 (no task). fn.1 #2 / fn.2 #4 docs-check token coverage: bob-cli-fo, fixed by 8a9ec685; docs-check passes now (447 passed). fn.1 #3 / fn.2 #5 routing-counter flake: resolved by 37e68c09; full just check lib run green (4411 passed). fn.1 #4 / fn.2 #3 / fn.3 #1 list decisions record: declined, memory_list_decision_record=no is final. fn.1 #5 bare-@ refusal: done in a8f61375 (incomplete_route refusal, tests pass). fn.2 #6 Jaccard gate: resolved, paired n=396 run meets baseline+0.03 (see LAND AUDIT 2). fn.2 #7 plugin hold example: declined (plugin's own JS prompt; 6 prompt-naming tests pass). fn.4 #1 macOS verification: CaptureListPanelTests 13/13 pass on master CI run 41435470545 (2884ea2); 21 unrelated hosted failures = bob-cli-f3 (7, existing) + new bob-cli-fu (14, task(ci), large, related f3, ready); resolution notes added to bob-cli-fj and bob-cli-fp (2884ea2 fixed Build). fn.4 #2 native Undo after splice accept: remaining epic work, child epic phase mac-undo. fn.4 #3 Capture lists link in bob-cli Mac index: done in a8f61375. New from Bryan's notes #5/#6 (spaced section names) and the audit (header-line completion, unterminated quoted section disagreement, off-clock list test): remaining epic work, child epic phase section-selectors; Bryan's '__' spelling considered and declined in favor of Bob's existing hyphen slug rule (drawers/Pomodoro names) plus quoted literals, rationale in the child plan. Lander fixed the only just check failure (epic-caused keep_moving ^write-changelog expectation) in this turn; clippy gate, fmt, and the keep_moving CLI suite pass.
 
+[2026-11-02T16:17:12Z · bob-cli-fn.5.land] Re-audited bob-cli-fn after closing child epic bob-cli-fn.5. All descendants are closed: phases fn.1 (list-capture), fn.2 (id-suggester), fn.3 (editor-assists), fn.4 (mac-lists), and child epic fn.5 with phases fn.5.1 (section-selectors) and fn.5.2 (mac-undo). Linked plan plan:202611/capture_list_section_names.md is status done. `sase bead epic-symbols bob-cli-fn` is clean. No parent_bead. `just --list` has no `symvision` recipe.
+
+Approved DECISIONS remain: header_starts_item=yes, project_note_parity=yes, memory_bulk_capture_glossary=yes (already applied), memory_list_decision_record=no (no decisions record). Grammar 6 and Mac minimum revision 3 unchanged. No memory edits this turn.
+
+Follow-up outcomes (parent notes #2/#3/#8 plus this re-audit): fn.1 #1 BufferPart::as_str resolved by 2d5ebfc9; fn.1 #2 / fn.2 #4 docs-check token coverage is bob-cli-fo, fixed by 8a9ec685; fn.1 #3 / fn.2 #5 routing-counter flake resolved by 37e68c0
+
+… and 1469 more characters
+
 ## Attachments
 
 - 🔒 20261102\_062823.png · image/png · 2854×1686 · 1.13864 MiB (private attachment)
@@ -60,12 +68,12 @@ A capture item whose first line is only `@file` (or `@file#section`) files each 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-fn: Capture lists under a lone @file header [in_progress]"]
+    n0["bob-cli-fn: Capture lists under a lone @file header [closed]"]
     n1["bob-cli-fn.1: Lists in bob capture and capture-parse [closed]"]
     n2["bob-cli-fn.2: Default block-ID suggestions tuned on the vault [closed]"]
     n3["bob-cli-fn.3: Block-ID prompt, toggle, and similar tasks for lists [closed]"]
     n4["bob-cli-fn.4: Bob Mac Capture presentation [closed]"]
-    n5["bob-cli-fn.5: Finish capture lists — section names with spaces, header completion, and undoable ID splices [in_progress]"]
+    n5["bob-cli-fn.5: Finish capture lists — section names with spaces, header completion, and undoable ID splices [closed]"]
     n6["bob-cli-fn.5.1: Section selectors with spaces and header-line completion in bob [closed]"]
     n7["bob-cli-fn.5.2: Undoable ID splices and section picks in Bob Mac Capture [closed]"]
     n0 --> n1
@@ -91,7 +99,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fn.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.4/README.md) | [bob-cli-fn.4](bob-cli-fn.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.1.md) | [bob-cli-fn.5.1](bob-cli-fn.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.2.md) | [bob-cli-fn.5.2](bob-cli-fn.5.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fn.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.5.land/README.md) | [bob-cli-fn.5](bob-cli-fn.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fn.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.land.md) | [bob-cli-fn.5](bob-cli-fn.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.land.md) | [bob-cli-fn](README.md) | 1 |
 
 ## Commits
@@ -105,6 +113,7 @@ flowchart TD
 | bob-cli | [`a8f6137`](https://github.com/bobs-org/bob-cli/commit/a8f6137514819f462b0182ad1081960ae566fc7c) | feat(capture)!: repair list headers, discard ranges, and ID tuning | [bob-cli-fn](README.md) | 2026-11-02 06:23:49 EST |
 | bob-cli | [`b483c93`](https://github.com/bobs-org/bob-cli/commit/b483c93b0ec02c5589ef0535d78de10ee31f0afb) | feat(capture): round-trip spaced section selectors | [bob-cli-fn.5.1](bob-cli-fn.5.1.md) | 2026-11-02 08:40:45 EST |
 | bob-mac-capture | [`bob-mac-capture@f4ed5bb`](https://github.com/bobs-org/bob-mac-capture/commit/f4ed5bbcb3c8c07384a9dec3190127eea46eba3c) | feat(mac-capture): undoable ID splices with window-hosted native undo tests | [bob-cli-fn.5.2](bob-cli-fn.5.2.md) | 2026-11-02 10:19:33 EST |
+| bob-cli | [`05b7fb1`](https://github.com/bobs-org/bob-cli/commit/05b7fb1b1842c46641aaa6aabea8f29a5b9f2c84) | fix(capture): round-trip section completion replacements to the picked heading | [bob-cli-fn.5](bob-cli-fn.5.md) | 2026-11-02 11:19:20 EST |
 
 <!-- sase:referenced-by:start -->
 
