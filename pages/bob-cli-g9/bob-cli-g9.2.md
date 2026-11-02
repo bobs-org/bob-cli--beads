@@ -17,7 +17,7 @@ rust-contract: parse per-rung allowances (pending_keeps, next_keeps, ready_keeps
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-g9.3](bob-cli-g9.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-g9.3](bob-cli-g9.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ rust-contract: parse per-rung allowances (pending_keeps, next_keeps, ready_keeps
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6086791`](https://github.com/bobs-org/bob-cli/commit/6086791f76b2564e37bd282bd63ea5ef7d2a07a8) | feat(freshness)!: bump freshness JSON to schema 15 with per-rung decay limits | [bob-cli-g9.2](bob-cli-g9.2.md) | 2026-11-02 17:25:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g9.2--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.2.md
+
+<!-- sase:referenced-by:end -->

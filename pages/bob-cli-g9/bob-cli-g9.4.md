@@ -14,7 +14,7 @@ nav-keeps: count due WIP and Next keeps, ask "Why keep it in <rung>?" with the a
 ## Dependencies
 
 - **Depends on:** [bob-cli-g9.1](bob-cli-g9.1.md) ✓ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-g9.3](bob-cli-g9.3.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-g9.3](bob-cli-g9.3.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-g9.5](bob-cli-g9.5.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
