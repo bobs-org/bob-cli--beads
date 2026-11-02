@@ -30,7 +30,9 @@ editor_marks: render the marks on Blocked checkboxes in Live Preview, reading vi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ft.3.1.1][1] | Need epic DECISIONS and scope | 1 |
+| read-by | [agent:bob-cli-ft.3.1.3][2] | Need rendering scope and final epic decisions | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.3/README.md
 
 <!-- sase:referenced-by:end -->

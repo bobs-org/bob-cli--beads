@@ -26,7 +26,7 @@ rendered_views: map rendered task rows to canonical source text or a conservativ
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -39,3 +39,15 @@ rendered_views: map rendered task rows to canonical source text or a conservativ
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5f1c23c`](https://github.com/bobs-org/bob-plugins/commit/5f1c23cfe98868561c9f2fe835ba5d0d28964e6a) | feat(plugins): add Reading-view blocked mark lifecycle | [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) | 2026-11-02 08:57:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.3.1.3][1] | Need notes, DECISIONS, and remaining work before close | 8 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.3/README.md
+
+<!-- sase:referenced-by:end -->
