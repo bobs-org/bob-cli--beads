@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/block_marks_editor.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/block_marks_editor.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Blocked task checkboxes show their proven reason across Live Preview and rendere
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ft.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.land/README.md) | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.3.1.1][1] | Need child epic scope for paint_api phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

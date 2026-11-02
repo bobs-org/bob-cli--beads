@@ -46,7 +46,7 @@ flowchart TD
     n3["bob-cli-ft.3: Checkbox rendering in Live Preview and reading view, CSS, toggle, tooltips [in_progress]"]
     n4["bob-cli-ft.3.1: Blocked checkbox rendering and verification for bob-cli-ft.3 [in_progress]"]
     n5["bob-cli-ft.3.1.1: Shared blocked checkbox paint, miniature API, and contrast [closed]"]
-    n6["bob-cli-ft.3.1.2: Live Preview decorations, session toggle, and refresh lifecycle [in_progress]"]
+    n6["bob-cli-ft.3.1.2: Live Preview decorations, session toggle, and refresh lifecycle [closed]"]
     n7["bob-cli-ft.3.1.3: Reading view, embeds, hover previews, and Dataview task marks [in_progress]"]
     n8["bob-cli-ft.3.1.4: Real-Obsidian harness, screenshots, and rendering integration [in_progress]"]
     n9["bob-cli-ft.4: Fold the priority bars on digit rows and the project tag on ^ rows [in_progress]"]
@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ft.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.2/README.md) | [bob-cli-ft.2](bob-cli-ft.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ft.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.md) | [bob-cli-ft.3](bob-cli-ft.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ft.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.1/README.md) | [bob-cli-ft.3.1.1](bob-cli-ft.3.1.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-ft.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.2/README.md) | [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ft.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.2.md) | [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ft.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.3/README.md) | [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ft.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.4/README.md) | [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ft.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.land/README.md) | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 0 |
@@ -107,3 +107,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d58b1fa`](https://github.com/bobs-org/bob-plugins/commit/d58b1faab85ea63dc045158e234cc896f1a9dfd8) | feat(ledger-tools): add api.blockMarks v1 classifier | [bob-cli-ft.2](bob-cli-ft.2.md) | 2026-11-02 07:20:49 EST |
 | bob-cli | [`311b151`](https://github.com/bobs-org/bob-cli/commit/311b15142f23f3fcbdfaed97db8ce17a692e5880) | docs(blocked-marks): record paint\_api calibration, tokens, and render contract | [bob-cli-ft.3.1.1](bob-cli-ft.3.1.1.md) | 2026-11-02 08:01:37 EST |
 | bob-plugins | [`bob-plugins@89dae58`](https://github.com/bobs-org/bob-plugins/commit/89dae58a7d136e4a9a1bb79156212ecd926e706a) | feat(block-marks): add gated checkbox paint and api.blockMarks.render miniature | [bob-cli-ft.3.1.1](bob-cli-ft.3.1.1.md) | 2026-11-02 08:01:57 EST |
+| bob-plugins | [`bob-plugins@257255e`](https://github.com/bobs-org/bob-plugins/commit/257255e429123f38b478442e10b3ab5cb05d3f73) | feat(plugins): add Live Preview blocked mark lifecycle | [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) | 2026-11-02 08:35:22 EST |

@@ -13,7 +13,7 @@ rendered_views: map rendered task rows to canonical source text or a conservativ
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
