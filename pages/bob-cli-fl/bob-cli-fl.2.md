@@ -23,6 +23,8 @@ off-clock-rule: stamp the clock key at every capture start, close, and running-l
 
 [2026-11-02T06:57:20Z · bob-cli-fl.2] Stamped [t::]/[off::] from the counted-links rule at capture start, close, and running-lineup restamp. MEET start uses the event-run clock; mixed sessions stay Worked and emit pomodoro_clock_mixed. 13 pomodoro_clock vectors plus restart and link-start extras pass, including dry-run parity.
 
+[2026-11-02T07:20:03Z · bob-cli-fl.2--1] Recovery: restamp dest refs now pin pre-state headlines so moves do not panic; source restamp uses the post-move line; non-MEET all-offclock lineups write [off::]; ST6 and unnamed-entry assertions accept stamped keys.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.1](bob-cli-fl.1.md) ✓ · ⧖ 2026-11-01

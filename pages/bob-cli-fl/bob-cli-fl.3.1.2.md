@@ -13,7 +13,7 @@ session_diagnostics: filter session drill-downs by clock, attribute real off-clo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fl.3.1.1](bob-cli-fl.3.1.1.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fl.3.1.1](bob-cli-fl.3.1.1.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
