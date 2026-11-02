@@ -21,17 +21,28 @@ capture: move the close-created MEET continuation below the last open Pomodoro i
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fx.2](bob-cli-fx.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fx.2](bob-cli-fx.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fx.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.1/README.md) | [bob-cli-fx.1](bob-cli-fx.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-fx.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.1/README.md) | [bob-cli-fx.1](bob-cli-fx.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d32da8f`](https://github.com/bobs-org/bob-cli/commit/d32da8fa072ad162ec7b43d617858067ca260422) | feat(capture): place MEET continuation after last open pomodoro | [bob-cli-fx.1](bob-cli-fx.1.md) | 2026-11-02 10:47:11 EST |
-| bob-mac-capture | [`bob-mac-capture@ac6c3d6`](https://github.com/bobs-org/bob-mac-capture/commit/ac6c3d6f5851c66f2e20c5361600ee9e088a83a8) | feat(capture): render placed-last MEET continuation | [bob-cli-fx.1](bob-cli-fx.1.md) | 2026-11-02 10:47:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fx.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fx.1/README.md
+
+<!-- sase:referenced-by:end -->
