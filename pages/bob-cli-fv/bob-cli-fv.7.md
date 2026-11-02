@@ -32,3 +32,15 @@ live-bullets: locate the journaled block, rewrite or remove it while untouched, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5c749cb`](https://github.com/bobs-org/bob-cli/commit/5c749cbb957112ef94c29cab8c36762e23a6bc47) | feat(gcal): follow Google description bullets until edited | [bob-cli-fv.7](bob-cli-fv.7.md) | 2026-11-02 13:00:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fv.7--1][1] | Need remaining notes, design file, and full phase description | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.7.md
+
+<!-- sase:referenced-by:end -->
