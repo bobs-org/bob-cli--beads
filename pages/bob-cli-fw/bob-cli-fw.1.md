@@ -17,7 +17,7 @@ bob: make dest-less `=*` / `=*<src>` complete merges that absorb the next planne
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fw.2](bob-cli-fw.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fw.2](bob-cli-fw.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ bob: make dest-less `=*` / `=*<src>` complete merges that absorb the next planne
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5088721`](https://github.com/bobs-org/bob-cli/commit/508872164ecc7f2c71fd4ec03c8fdd69acd9ccce) | feat(capture): merge the next planned Pomodoro by default | [bob-cli-fw.1](bob-cli-fw.1.md) | 2026-11-02 10:53:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fw.1--4][1] | Need the phase scope, design file, and prior work notes before completing final smoke and close | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fw.1.md
+
+<!-- sase:referenced-by:end -->
