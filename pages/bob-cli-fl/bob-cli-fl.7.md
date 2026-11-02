@@ -2,8 +2,8 @@
 
 [Bead Pages](../README.md) / [bob-cli-fl](README.md) / bob-cli-fl.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2z.linker.w0.md) · **Assignee:** `bob-cli-fl.7` · **Size:** medium
+**Status:** ○ open · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2z.linker.w0.md) · **Size:** medium
 **Created:** 2026-11-01 21:46:36 EST
 **Plan:** [202611/off\_clock\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/off_clock_pomodoros.md)
 
@@ -19,4 +19,4 @@ mac-off-clock: decode off_clock with untracked/tracked fallbacks, rename every p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.7/README.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 0 |

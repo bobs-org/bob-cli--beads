@@ -13,7 +13,7 @@ clock_interfaces: add CLI clock selection and completion, human and CSV output, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

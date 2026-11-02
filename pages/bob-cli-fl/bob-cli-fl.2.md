@@ -31,7 +31,7 @@ off-clock-rule: stamp the clock key at every capture start, close, and running-l
 
 - **Depends on:** [bob-cli-fl.1](bob-cli-fl.1.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fl.5](bob-cli-fl.5.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fl.7](bob-cli-fl.7.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fl.7](bob-cli-fl.7.md) ○ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -44,3 +44,15 @@ off-clock-rule: stamp the clock key at every capture start, close, and running-l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`71a65da`](https://github.com/bobs-org/bob-cli/commit/71a65dad49413ba3662098834f01fbecda70fdd9) | feat(capture): stamp session clock from counted Task Links | [bob-cli-fl.2](bob-cli-fl.2.md) | 2026-11-02 02:51:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fl.2--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.2.md
+
+<!-- sase:referenced-by:end -->

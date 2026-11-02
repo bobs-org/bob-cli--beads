@@ -17,7 +17,7 @@ clock_evaluation: add request and pinned metric clocks, isolated formula evaluat
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
