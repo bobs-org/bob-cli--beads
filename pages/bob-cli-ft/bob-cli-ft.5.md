@@ -24,10 +24,11 @@ tasks_results: draw the marks on Tasks query result rows from Tasks' own row att
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ft.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.5/README.md) | [bob-cli-ft.5](bob-cli-ft.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-ft.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.5/README.md) | [bob-cli-ft.5](bob-cli-ft.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8c7e710`](https://github.com/bobs-org/bob-cli/commit/8c7e710306d0e49b52376e5d6d85f52dfd73f722) | docs(blocked-marks): record Tasks query CSS-only marks | [bob-cli-ft.5](bob-cli-ft.5.md) | 2026-11-02 13:07:06 EST |
+| bob-plugins | [`bob-plugins@289f764`](https://github.com/bobs-org/bob-plugins/commit/289f764cba40c1f5e26f0c482d14100ff708684e) | feat(ledger-tools): paint CSS-only block marks in Tasks query results | [bob-cli-ft.5](bob-cli-ft.5.md) | 2026-11-02 13:07:28 EST |
