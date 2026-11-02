@@ -17,7 +17,7 @@ enable: add relations.successor_labels [starts after] to the chezmoi bob config 
 - **Depends on:** [bob-cli-fs.3](bob-cli-fs.3.md) ◐ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fs.4](bob-cli-fs.4.md) ◐ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fs.7](bob-cli-fs.7.md) ✓ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-fs.8](bob-cli-fs.8.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.8](bob-cli-fs.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

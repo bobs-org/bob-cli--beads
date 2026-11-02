@@ -13,7 +13,7 @@ obsidian_unlink: expose a cycler API for parked events and call it from block-id
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.8](bob-cli-fs.8.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.8](bob-cli-fs.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

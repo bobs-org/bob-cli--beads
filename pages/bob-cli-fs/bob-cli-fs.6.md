@@ -20,7 +20,7 @@ nav: teach bob-navigation-hotkeys' successor picker and Unblocked notice the rel
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.1](bob-cli-fs.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.8](bob-cli-fs.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.8](bob-cli-fs.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

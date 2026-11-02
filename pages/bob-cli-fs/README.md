@@ -40,7 +40,7 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 | [bob-cli-fs.5](bob-cli-fs.5.md) | Capture unlink hand-offs (v1.1) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.6](bob-cli-fs.6.md) | Obsidian picker v3 and notice v3 presentation | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fs.7](bob-cli-fs.7.md) | Obsidian inverse pair and relation-stage indications | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-fs.8](bob-cli-fs.8.md) | Obsidian cycler relation-successor engine (Done path) | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
+| [bob-cli-fs.8](bob-cli-fs.8.md) | Obsidian cycler relation-successor engine (Done path) | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.9](bob-cli-fs.9.md) | Obsidian unlink hand-offs (v1.1) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 
 ## Lineage
@@ -61,8 +61,8 @@ flowchart TD
     n11["bob-cli-fs.5: Capture unlink hand-offs (v1.1) [in_progress]"]
     n12["bob-cli-fs.6: Obsidian picker v3 and notice v3 presentation [closed]"]
     n13["bob-cli-fs.7: Obsidian inverse pair and relation-stage indications [closed]"]
-    n14["bob-cli-fs.8: Obsidian cycler relation-successor engine (Done path) [in_progress]"]
-    n15["bob-cli-fs.8.1: Obsidian cycler relation successors on managed Done [in_progress]"]
+    n14["bob-cli-fs.8: Obsidian cycler relation-successor engine (Done path) [closed]"]
+    n15["bob-cli-fs.8.1: Obsidian cycler relation successors on managed Done [closed]"]
     n16["bob-cli-fs.8.1.1: Relation policy, pure rule, and shared copy [closed]"]
     n17["bob-cli-fs.8.1.2: Integrate relation offers with recovery and selection [closed]"]
     n18["bob-cli-fs.8.1.3: Wire managed Done with fresh relation reads and receipts [closed]"]
@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.2/README.md) | [bob-cli-fs.8.1.2](bob-cli-fs.8.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.3.md) | [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md) | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.land.md) | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.land/README.md) | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md) | [bob-cli-fs.9](bob-cli-fs.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.land/README.md) | [bob-cli-fs](README.md) | 0 |
 
@@ -154,3 +154,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@2ead3a8`](https://github.com/bobs-org/bob-plugins/commit/2ead3a8d60202bb1c187ee5f5926bac37713e955) | feat(task-status-cycler): ship relation-successor docs as 1.46.0 | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 2026-11-02 09:00:36 EST |
 | bob-cli | [`98bfec6`](https://github.com/bobs-org/bob-cli/commit/98bfec6aca2a877b9bceccb2ce5c9dbd6aa39267) | feat(task-relations): repair relation-successor ordering, identity, and recovery regressions | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 09:28:30 EST |
 | bob-plugins | [`bob-plugins@e9f2fb7`](https://github.com/bobs-org/bob-plugins/commit/e9f2fb71019fbaa4a78579339c0c4b995f681218) | fix(nav): sync relation-successor vectors and 48-scalar truncation parity | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 09:28:56 EST |
+| bob-plugins | [`bob-plugins@4502b73`](https://github.com/bobs-org/bob-plugins/commit/4502b731bddda0cac9551bd594ffffc6c65fee43) | fix(task-status-cycler): repair relation-successor holds, recovery merge, and picker results | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 2026-11-02 10:22:30 EST |
