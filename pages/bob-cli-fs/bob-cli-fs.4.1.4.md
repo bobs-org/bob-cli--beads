@@ -18,7 +18,7 @@ batches: extend provenance and final offer filtering for later source and target
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.4.1.3](bob-cli-fs.4.1.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -31,3 +31,15 @@ batches: extend provenance and final offer filtering for later source and target
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d9d070b`](https://github.com/bobs-org/bob-cli/commit/d9d070b7fc1bb51d254b45fd6954bddd47e40ce8) | feat(capture): net relation offers across capture items | [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) | 2026-11-02 15:28:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.4.1.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->

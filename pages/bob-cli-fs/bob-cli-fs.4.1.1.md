@@ -38,7 +38,9 @@ snapshots: implement the shared byte snapshot, relation gates, staged input asse
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.4.1.1--2][1] | Verify the assigned phase closed with the test and lint evidence | 2 |
+| read-by | [agent:bob-cli-fs.4.1.4][2] | Need earlier phase implementation notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ done: wire task completion and complete-label commits to relation planning, seri
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.4.1.2--2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-fs.4.1.3][2] | Need done phase notes and implementation details | 1 |
+| read-by | [agent:bob-cli-fs.4.1.4][3] | Need earlier phase implementation notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.2.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -39,7 +39,9 @@ parks: wire every Pomodoro close path to relation planning, preserve baseline an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.4.1.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-fs.4.1.4][2] | Need earlier phase implementation notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->

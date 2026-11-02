@@ -13,7 +13,7 @@ verification: audit capture-expressible SA cases, fill integration coverage, mea
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

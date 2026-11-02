@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_relation_successors.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_relation_successors.md
 
@@ -38,7 +38,9 @@ Managed capture Done and parked gestures offer relation successors through the s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.4.1.3][1] | Need parent epic scope and DECISIONS | 1 |
+| read-by | [agent:bob-cli-fs.4.1.4][2] | Need epic decisions and earlier phase notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->
