@@ -90,7 +90,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-f6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.6/README.md) | [bob-cli-f6.6](bob-cli-f6.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-f6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.7/README.md) | [bob-cli-f6.7](bob-cli-f6.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-f6.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f6.8.md) | [bob-cli-f6.8](bob-cli-f6.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-f6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f6.land.md) | [bob-cli-f6](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-f6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-f6.land.md) | [bob-cli-f6](README.md) | 2 |
 
 ## Commits
 
@@ -107,6 +107,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7dbbb6d`](https://github.com/bobs-org/bob-plugins/commit/7dbbb6debde93028654342eedeed4ae1deefc71b) | feat(ledger-tools): render #untracked and mirror calendar-aware MEET starts | [bob-cli-f6.6](bob-cli-f6.6.md) | 2026-11-01 17:42:24 EST |
 | bob-mac-capture | [`bob-mac-capture@f520515`](https://github.com/bobs-org/bob-mac-capture/commit/f5205151da4da2ca1643eef3df2c8c16c2f33d37) | fix(mac-capture): restore the conflict JSON brace in the event-conflict decode test | [bob-cli-f6.8](bob-cli-f6.8.md) | 2026-11-01 19:58:22 EST |
 | bob-mac-capture | [`bob-mac-capture@6f13e48`](https://github.com/bobs-org/bob-mac-capture/commit/6f13e48266c8a69f2774bc47769c2e4aad89022e) | fix(mac-capture): resolve Calendar band landing issues | [bob-cli-f6](README.md) | 2026-11-01 21:22:12 EST |
+| bob-cli--plans | [`bob-cli--plans@f12d148`](https://github.com/bobs-org/bob-cli--plans/commit/f12d14820251d93c77e183185c464801945bdc2c) | docs(plans): mark untracked calendar plan complete | [bob-cli-f6](README.md) | 2026-11-01 21:22:44 EST |
 
 <!-- sase:referenced-by:start -->
 
