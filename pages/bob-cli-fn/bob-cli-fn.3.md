@@ -21,7 +21,7 @@ editor-assists: open the `project_task_block_id` prompt on list bullets and thei
 
 - **Depends on:** [bob-cli-fn.1](bob-cli-fn.1.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fn.2](bob-cli-fn.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fn.4](bob-cli-fn.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fn.4](bob-cli-fn.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -34,3 +34,15 @@ editor-assists: open the `project_task_block_id` prompt on list bullets and thei
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`35c4669`](https://github.com/bobs-org/bob-cli/commit/35c46693134d9f5407b0ae61e246ce7ad74767ee) | feat(capture): add list block ID editor assists | [bob-cli-fn.3](bob-cli-fn.3.md) | 2026-11-02 04:11:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fn.3--2][1] | Need the phase scope, design file, notes, and prior work status before finalizing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.3.md
+
+<!-- sase:referenced-by:end -->

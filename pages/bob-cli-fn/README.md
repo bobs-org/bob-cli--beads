@@ -36,7 +36,7 @@ A capture item whose first line is only `@file` (or `@file#section`) files each 
 | [bob-cli-fn.1](bob-cli-fn.1.md) | Lists in bob capture and capture-parse | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fn.2](bob-cli-fn.2.md) | Default block-ID suggestions tuned on the vault | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fn.3](bob-cli-fn.3.md) | Block-ID prompt, toggle, and similar tasks for lists | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fn.4](bob-cli-fn.4.md) | Bob Mac Capture presentation | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fn.4](bob-cli-fn.4.md) | Bob Mac Capture presentation | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n1["bob-cli-fn.1: Lists in bob capture and capture-parse [closed]"]
     n2["bob-cli-fn.2: Default block-ID suggestions tuned on the vault [closed]"]
     n3["bob-cli-fn.3: Block-ID prompt, toggle, and similar tasks for lists [closed]"]
-    n4["bob-cli-fn.4: Bob Mac Capture presentation [in_progress]"]
+    n4["bob-cli-fn.4: Bob Mac Capture presentation [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fn.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.1/README.md) | [bob-cli-fn.1](bob-cli-fn.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.2/README.md) | [bob-cli-fn.2](bob-cli-fn.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.3.md) | [bob-cli-fn.3](bob-cli-fn.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fn.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.4/README.md) | [bob-cli-fn.4](bob-cli-fn.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fn.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.4/README.md) | [bob-cli-fn.4](bob-cli-fn.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.land/README.md) | [bob-cli-fn](README.md) | 0 |
 
 ## Commits
@@ -73,6 +73,7 @@ flowchart TD
 | bob-cli | [`62a8210`](https://github.com/bobs-org/bob-cli/commit/62a821044e665bd618b02859f0dd10879987f196) | feat(capture): retune shared block-ID suggestions from vault calibration | [bob-cli-fn.2](bob-cli-fn.2.md) | 2026-11-02 01:50:35 EST |
 | bob-cli | [`0ebd071`](https://github.com/bobs-org/bob-cli/commit/0ebd0714f8d90de0b9be7616d7eff2dd305066aa) | feat(capture)!: file each list bullet as its own capture | [bob-cli-fn.1](bob-cli-fn.1.md) | 2026-11-02 02:55:11 EST |
 | bob-cli | [`35c4669`](https://github.com/bobs-org/bob-cli/commit/35c46693134d9f5407b0ae61e246ce7ad74767ee) | feat(capture): add list block ID editor assists | [bob-cli-fn.3](bob-cli-fn.3.md) | 2026-11-02 04:11:39 EST |
+| bob-mac-capture | [`bob-mac-capture@0f2f46f`](https://github.com/bobs-org/bob-mac-capture/commit/0f2f46feabf1136f65534399ccf4c20b34192107) | feat(capture): present lists, owner-line ID splices, and the first bullet | [bob-cli-fn.4](bob-cli-fn.4.md) | 2026-11-02 04:43:31 EST |
 
 <!-- sase:referenced-by:start -->
 
