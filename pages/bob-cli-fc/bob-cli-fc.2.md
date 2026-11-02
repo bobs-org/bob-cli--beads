@@ -20,7 +20,7 @@ note-bullets: let a note-less `@route+id` (or `@route+id#drawer`) item file each
 ## Dependencies
 
 - **Depends on:** [bob-cli-fc.1](bob-cli-fc.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fc.3](bob-cli-fc.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fc.3](bob-cli-fc.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fc.4](bob-cli-fc.4.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
@@ -34,3 +34,15 @@ note-bullets: let a note-less `@route+id` (or `@route+id#drawer`) item file each
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5ac2fbc`](https://github.com/bobs-org/bob-cli/commit/5ac2fbc223ae01e6e4554edf0ddf1485e077eddd) | feat(capture): several notes on one existing task | [bob-cli-fc.2](bob-cli-fc.2.md) | 2026-11-01 18:46:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fc.2][1] | check full scope and notes | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fc.2/README.md
+
+<!-- sase:referenced-by:end -->
