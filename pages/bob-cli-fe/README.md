@@ -131,7 +131,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.7/README.md) | [bob-cli-fe.7](bob-cli-fe.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.land/README.md) | [bob-cli-fe](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.land/README.md) | [bob-cli-fe](README.md) | 2 |
 
 ## Commits
 
@@ -147,6 +147,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7a647e8`](https://github.com/bobs-org/bob-plugins/commit/7a647e821406caf09dfe8a7d124cdc5e55609fcd) | feat(pomodoro): mirror close-name shedding in cycler | [bob-cli-fe.8](bob-cli-fe.8.md) | 2026-11-02 06:40:16 EST |
 | bob-cli | [`aeb9674`](https://github.com/bobs-org/bob-cli/commit/aeb9674d0255f6538b256f642cd67f16816b94e2) | docs(memory): add Merged Pomodoro glossary strand | [bob-cli-fe.10](bob-cli-fe.10.md) | 2026-11-02 13:28:40 EST |
 | bob-cli | [`debee56`](https://github.com/bobs-org/bob-cli/commit/debee5636d66ee9444be303aa041c9fd8c3a3b9f) | fix(capture): land merged Pomodoros with complete merge guards and docs | [bob-cli-fe](README.md) | 2026-11-02 14:25:12 EST |
+| bob-cli--plans | [`bob-cli--plans@c0a799f`](https://github.com/bobs-org/bob-cli--plans/commit/c0a799fb466ed0a8219c7351c8c35be842b3c310) | docs(plans): mark merged\_pomodoros epic plan done | [bob-cli-fe](README.md) | 2026-11-02 14:25:46 EST |
 
 <!-- sase:referenced-by:start -->
 
