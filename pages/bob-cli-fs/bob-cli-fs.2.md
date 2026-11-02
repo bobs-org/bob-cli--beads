@@ -31,8 +31,10 @@ core: add relations.successor_labels and the LabelEffect policy, build the pure 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.2.1.1][1] | Need phase-level constraints and authorized decisions | 1 |
 | read-by | [agent:bob-cli-fs.2.1.2][2] | Need parent phase DECISIONS and remaining work notes | 1 |
+| read-by | [agent:bob-cli-fs.2.1.3][3] | Need phase DECISIONS and scope for integrate work | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

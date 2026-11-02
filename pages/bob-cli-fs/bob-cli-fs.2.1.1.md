@@ -45,8 +45,10 @@ policy_copy: add the three-effect relation policy and typed copy builders, with 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.2.1.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-fs.2.1.2][2] | Need phase 1 exported API notes for classifier | 1 |
+| read-by | [agent:bob-cli-fs.2.1.3][3] | Check what policy_copy phase delivered for integration | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

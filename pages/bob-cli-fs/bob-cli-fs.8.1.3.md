@@ -18,13 +18,19 @@ done_runtime: connect relationIndex v2 to every managed Done gesture with cheap 
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.8.1.2](bob-cli-fs.8.1.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.3.md) | [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.3.md) | [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@f4550e2`](https://github.com/bobs-org/bob-plugins/commit/f4550e297077687c27c441ce8bafed878df3e921) | feat(task-status-cycler): wire relation successors on Done gestures | [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) | 2026-11-02 08:46:59 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -33,7 +39,9 @@ done_runtime: connect relationIndex v2 to every managed Done gesture with cheap 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.8.1.2][1] | need next phase scope to avoid overlap | 1 |
+| read-by | [agent:bob-cli-fs.8.1.3--2][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.3.md
 
 <!-- sase:referenced-by:end -->

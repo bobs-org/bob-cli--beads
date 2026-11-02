@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/relation_successor_core.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/relation_successor_core.md
 
@@ -39,8 +39,10 @@ Complete the Rust policy, shared copy, pure relation-successor engine, and succe
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.2.1.1][1] | Need the governing decisions for this phase | 1 |
 | read-by | [agent:bob-cli-fs.2.1.2][2] | Need epic DECISIONS that bind the classifier phase | 3 |
+| read-by | [agent:bob-cli-fs.2.1.3][3] | Need child epic scope, plan file, and DECISIONS | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->
