@@ -35,13 +35,14 @@ Complete bob-cli-fl.6 with a persistent Worked, Off-clock, and Total Stats contr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.6.1.land.md) | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.6.1.land.md) | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`99fe1ce`](https://github.com/bobs-org/bob-cli/commit/99fe1ce49a73154a49ffb904e4856a99ce708c79) | docs(stats): finish clock user docs for Obsidian Stats block and window bars | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 2026-11-02 12:47:44 EST |
+| bob-plugins | [`bob-plugins@af97bcd`](https://github.com/bobs-org/bob-plugins/commit/af97bcde201293c567f005450d47585d16a92bda) | feat(ledger-tools): land Stats clock fixes, preview harness hardening, and clock docs | [bob-cli-fl.6.1](bob-cli-fl.6.1.md) | 2026-11-02 12:48:39 EST |
 
 <!-- sase:referenced-by:start -->
 
