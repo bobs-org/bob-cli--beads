@@ -90,7 +90,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ft.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.1/README.md) | [bob-cli-ft.3.1.1](bob-cli-ft.3.1.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ft.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.2.md) | [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ft.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.3/README.md) | [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-ft.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.4/README.md) | [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-ft.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.4/README.md) | [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-ft.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.land/README.md) | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ft.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.4/README.md) | [bob-cli-ft.4](bob-cli-ft.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ft.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.5/README.md) | [bob-cli-ft.5](bob-cli-ft.5.md) | 0 |
@@ -110,3 +110,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@257255e`](https://github.com/bobs-org/bob-plugins/commit/257255e429123f38b478442e10b3ab5cb05d3f73) | feat(plugins): add Live Preview blocked mark lifecycle | [bob-cli-ft.3.1.2](bob-cli-ft.3.1.2.md) | 2026-11-02 08:35:22 EST |
 | bob-plugins | [`bob-plugins@5f1c23c`](https://github.com/bobs-org/bob-plugins/commit/5f1c23cfe98868561c9f2fe835ba5d0d28964e6a) | feat(plugins): add Reading-view blocked mark lifecycle | [bob-cli-ft.3.1.3](bob-cli-ft.3.1.3.md) | 2026-11-02 08:57:23 EST |
 | bob-cli | [`a7931a6`](https://github.com/bobs-org/bob-cli/commit/a7931a649ef2e73e17b44a37bbadd11ae6581664) | docs(blocked-marks): record obsidian\_e2e verification and fence-guard mechanism | [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) | 2026-11-02 10:16:15 EST |
+| bob-plugins | [`bob-plugins@bded172`](https://github.com/bobs-org/bob-plugins/commit/bded17231b45afeaf83f0d5b8164fba109f91226) | feat(block-marks): add real-Obsidian e2e harness and fix fenced-code guard | [bob-cli-ft.3.1.4](bob-cli-ft.3.1.4.md) | 2026-11-02 10:16:37 EST |
