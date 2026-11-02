@@ -18,13 +18,19 @@ session_diagnostics: filter session drill-downs by clock, attribute real off-clo
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.3.1.1](bob-cli-fl.3.1.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.2/README.md) | [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.2/README.md) | [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`4d2133b`](https://github.com/bobs-org/bob-cli/commit/4d2133b52d6c73118d2b38151a0a288b1edfd487) | feat(stats)!: report clock-aware sessions and clock diagnostics | [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) | 2026-11-02 03:13:58 EST |
 
 <!-- sase:referenced-by:start -->
 
