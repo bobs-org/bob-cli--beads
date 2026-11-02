@@ -19,7 +19,7 @@ section-selectors: add slug matching to `@route#selector` section selectors, mak
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fn.5.2](bob-cli-fn.5.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fn.5.2](bob-cli-fn.5.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -32,3 +32,15 @@ section-selectors: add slug matching to `@route#selector` section selectors, mak
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b483c93`](https://github.com/bobs-org/bob-cli/commit/b483c93b0ec02c5589ef0535d78de10ee31f0afb) | feat(capture): round-trip spaced section selectors | [bob-cli-fn.5.1](bob-cli-fn.5.1.md) | 2026-11-02 08:40:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fn.5.1--2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.1.md
+
+<!-- sase:referenced-by:end -->
