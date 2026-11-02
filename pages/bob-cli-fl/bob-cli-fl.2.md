@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-fl](README.md) / bob-cli-fl.2
 
-**Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2z.linker.w0.md) · **Assignee:** `bob-cli-fl.2` · **Size:** medium
-**Created:** 2026-11-01 21:46:35 EST
+**Created:** 2026-11-01 21:46:35 EST · **Closed:** 2026-11-02 02:49:31 EST
 **Plan:** [202611/off\_clock\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/off_clock_pomodoros.md)
 
 ## Previously Closed
@@ -25,6 +25,8 @@ off-clock-rule: stamp the clock key at every capture start, close, and running-l
 
 [2026-11-02T07:20:03Z · bob-cli-fl.2--1] Recovery: restamp dest refs now pin pre-state headlines so moves do not panic; source restamp uses the post-move line; non-MEET all-offclock lineups write [off::]; ST6 and unnamed-entry assertions accept stamped keys.
 
+[2026-11-02T07:49:31Z · bob-cli-fl.2--2] Verified: capture start, close, and running-lineup edits stamp [t::]/[off::] from the counted-links rule; MEET starts use the event-run clock; mixed sessions stay Worked and emit pomodoro_clock_mixed; 13 pomodoro_clock vectors plus restart/link-start extras pass including dry-run parity; restamp dest refs pin pre-state headlines; sase tool run check ac7b5cec172700fd69dbc762006c5e18 succeeded; no leftover epic symbols.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.1](bob-cli-fl.1.md) ✓ · ⧖ 2026-11-01
@@ -35,4 +37,10 @@ off-clock-rule: stamp the clock key at every capture start, close, and running-l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.2.md) | [bob-cli-fl.2](bob-cli-fl.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.2.md) | [bob-cli-fl.2](bob-cli-fl.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`71a65da`](https://github.com/bobs-org/bob-cli/commit/71a65dad49413ba3662098834f01fbecda70fdd9) | feat(capture): stamp session clock from counted Task Links | [bob-cli-fl.2](bob-cli-fl.2.md) | 2026-11-02 02:51:13 EST |

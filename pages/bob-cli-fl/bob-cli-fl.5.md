@@ -13,7 +13,7 @@ plugins-off-clock-ledger: teach ledger writers [off::], apply the clock rule on 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fl.2](bob-cli-fl.2.md) ○ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fl.2](bob-cli-fl.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fl.6](bob-cli-fl.6.md) ◐ · ⧖ 2026-11-01
 
 ## Agents

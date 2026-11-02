@@ -13,7 +13,7 @@ mac-off-clock: decode off_clock with untracked/tracked fallbacks, rename every p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fl.2](bob-cli-fl.2.md) ○ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fl.2](bob-cli-fl.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
