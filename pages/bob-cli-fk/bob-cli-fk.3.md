@@ -23,7 +23,7 @@ capture-buffers: buffered MEET event runs and far-run text, conflict detection/o
 
 - **Depends on:** [bob-cli-fk.1](bob-cli-fk.1.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fk.5](bob-cli-fk.5.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fk.6](bob-cli-fk.6.md) ○ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fk.6](bob-cli-fk.6.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

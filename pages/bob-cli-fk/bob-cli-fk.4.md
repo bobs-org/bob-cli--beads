@@ -22,13 +22,19 @@ agenda-buffers: per-row and chip buffer objects, buffer-aware gap/conflict/start
 ## Dependencies
 
 - **Depends on:** [bob-cli-fk.1](bob-cli-fk.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fk.6](bob-cli-fk.6.md) ○ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fk.6](bob-cli-fk.6.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fk.4.md) | [bob-cli-fk.4](bob-cli-fk.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fk.4.md) | [bob-cli-fk.4](bob-cli-fk.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`1b796cd`](https://github.com/bobs-org/bob-cli/commit/1b796cd7af05917ee9b8dcdee1f3b10693d779ca) | feat(capture): expose buffered calendar event agenda | [bob-cli-fk.4](bob-cli-fk.4.md) | 2026-11-01 23:44:52 EST |
 
 <!-- sase:referenced-by:start -->
 

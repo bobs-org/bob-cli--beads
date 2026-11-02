@@ -30,9 +30,9 @@ A Google Calendar description line like `@love #untracked -30 +15` gives an Even
 | [bob-cli-fk.1](bob-cli-fk.1.md) | bob-cli: description directive lines, the \[buffer::\] field, and the shared conflict predicate | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fk.2](bob-cli-fk.2.md) | bob-cli: bob gcal sync renders buffers and files MEETs on buffered spans | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fk.3](bob-cli-fk.3.md) | bob-cli: MEET event runs and run-into-event warnings honor buffers | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fk.4](bob-cli-fk.4.md) | bob-cli: capture-pomodoros --tasks events block carries buffers | ✓ closed | medium | 2026-11-01 | 1 | 0 |
-| [bob-cli-fk.5](bob-cli-fk.5.md) | bob-plugins: hatched buffer wings and a buffer-aware JS mirror | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fk.6](bob-cli-fk.6.md) | bob-mac-capture: buffer wings on the Calendar rail and buffer-aware cards | ○ open | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fk.4](bob-cli-fk.4.md) | bob-cli: capture-pomodoros --tasks events block carries buffers | ✓ closed | medium | 2026-11-01 | 1 | 1 |
+| [bob-cli-fk.5](bob-cli-fk.5.md) | bob-plugins: hatched buffer wings and a buffer-aware JS mirror | ✓ closed | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fk.6](bob-cli-fk.6.md) | bob-mac-capture: buffer wings on the Calendar rail and buffer-aware cards | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["bob-cli-fk.3: bob-cli: MEET event runs and run-into-event warnings honor buffers [closed]"]
     n4["bob-cli-fk.4: bob-cli: capture-pomodoros --tasks events block carries buffers [closed]"]
     n5["bob-cli-fk.5: bob-plugins: hatched buffer wings and a buffer-aware JS mirror [closed]"]
-    n6["bob-cli-fk.6: bob-mac-capture: buffer wings on the Calendar rail and buffer-aware cards [open]"]
+    n6["bob-cli-fk.6: bob-mac-capture: buffer wings on the Calendar rail and buffer-aware cards [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -67,9 +67,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fk.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.1/README.md) | [bob-cli-fk.1](bob-cli-fk.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fk.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.2/README.md) | [bob-cli-fk.2](bob-cli-fk.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.3/README.md) | [bob-cli-fk.3](bob-cli-fk.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fk.4.md) | [bob-cli-fk.4](bob-cli-fk.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fk.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.5/README.md) | [bob-cli-fk.5](bob-cli-fk.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fk.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.6/README.md) | [bob-cli-fk.6](bob-cli-fk.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fk.4.md) | [bob-cli-fk.4](bob-cli-fk.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fk.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.5/README.md) | [bob-cli-fk.5](bob-cli-fk.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fk.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.6/README.md) | [bob-cli-fk.6](bob-cli-fk.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.land/README.md) | [bob-cli-fk](README.md) | 0 |
 
 ## Commits
@@ -79,4 +79,5 @@ flowchart TD
 | bob-cli | [`2e49a56`](https://github.com/bobs-org/bob-cli/commit/2e49a561d08777b6ee8a130202f1bd0621670ef4) | feat(gcal): parse event buffers from HTML-safe directive lines | [bob-cli-fk.1](bob-cli-fk.1.md) | 2026-11-01 22:36:37 EST |
 | bob-cli | [`a4044f4`](https://github.com/bobs-org/bob-cli/commit/a4044f40164ce1c89ab1c19b75c2ecd71c1e37e5) | feat(capture): honor event buffers in MEET runs and run-into-event warnings | [bob-cli-fk.3](bob-cli-fk.3.md) | 2026-11-01 23:37:39 EST |
 | bob-cli | [`b86fb2d`](https://github.com/bobs-org/bob-cli/commit/b86fb2d0c30296a56baf6c5a0d166d2367ca06fd) | feat(gcal): buffer-aware sync spans, render, and docs | [bob-cli-fk.2](bob-cli-fk.2.md) | 2026-11-01 23:39:23 EST |
-| bob-plugins | [`bob-plugins@13e63d4`](https://github.com/bobs-org/bob-plugins/commit/13e63d42ba013b0e58fb027b5f16e47ec2ac32e4) | feat(ledger-tools): paint hatched \[buffer::\] wings and honor buffered MEET runs | [bob-cli-fk.5](bob-cli-fk.5.md) | 2026-11-02 00:12:06 EST |
+| bob-cli | [`1b796cd`](https://github.com/bobs-org/bob-cli/commit/1b796cd7af05917ee9b8dcdee1f3b10693d779ca) | feat(capture): expose buffered calendar event agenda | [bob-cli-fk.4](bob-cli-fk.4.md) | 2026-11-01 23:44:52 EST |
+| bob-mac-capture | [`bob-mac-capture@4f35460`](https://github.com/bobs-org/bob-mac-capture/commit/4f35460a94e2b52de1f8d8b1d3f52988796f91da) | feat(capture): render buffered event spans on mac agenda | [bob-cli-fk.6](bob-cli-fk.6.md) | 2026-11-02 00:15:18 EST |
