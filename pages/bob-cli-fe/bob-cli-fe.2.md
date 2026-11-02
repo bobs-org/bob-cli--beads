@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-fe](README.md) / bob-cli-fe.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.c4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.c4.md) · **Assignee:** `bob-cli-fe.2` · **Size:** medium
-**Created:** 2026-11-01 16:00:42 EST
+**Created:** 2026-11-01 16:00:42 EST · **Closed:** 2026-11-01 20:23:26 EST
 **Plan:** [202611/merged\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/merged_pomodoros.md)
 
 ## Description
@@ -14,6 +14,8 @@ capture-link-merge: make named capture links, ref today, and #type markers merge
 ## Notes
 
 [2026-11-02T00:50:48Z · bob-cli-fe.2] PROPOSED FOLLOW-UP: Full cli suite shows unrelated flakes (articles::article_note_completion_shows_section_count, capture::complete_themes::configured_shell_describes_never_used_and_unconfigured_create fail singly across full runs but pass in isolation); consider flake task bead
+
+[2026-11-02T01:23:26Z · bob-cli-fe.2] Closed by explicit `sase stitch create -B close` after create_commit landed d712168f ("feat(capture)!: land named captures by merging types"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-fe.2` if more work remains.
 
 ## Dependencies
 
@@ -40,9 +42,11 @@ capture-link-merge: make named capture links, ref today, and #type markers merge
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-f9.land][1] | Check whether fe.2 scope covers untyped tasks landing in typed Pomodoros | 1 |
-| read-by | [agent:bob-cli-fe.5][2] | Check whether capture-link-merge explains pre-existing retype test failures | 1 |
+| read-by | [agent:bob-cli-fe.2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-fe.5][3] | Check whether capture-link-merge explains pre-existing retype test failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f9.land/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.5/README.md
 
 <!-- sase:referenced-by:end -->
