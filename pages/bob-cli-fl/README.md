@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fl.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.1/README.md) | [bob-cli-fl.3.1.1](bob-cli-fl.3.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.2/README.md) | [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.3/README.md) | [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.3.1.land.md) | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.3.1.land.md) | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-fl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.4/README.md) | [bob-cli-fl.4](bob-cli-fl.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.5/README.md) | [bob-cli-fl.5](bob-cli-fl.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6/README.md) | [bob-cli-fl.6](bob-cli-fl.6.md) | 0 |
@@ -103,6 +103,7 @@ flowchart TD
 | bob-cli | [`4d2133b`](https://github.com/bobs-org/bob-cli/commit/4d2133b52d6c73118d2b38151a0a288b1edfd487) | feat(stats)!: report clock-aware sessions and clock diagnostics | [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) | 2026-11-02 03:13:58 EST |
 | bob-cli | [`daf785b`](https://github.com/bobs-org/bob-cli/commit/daf785b6f44fa71e28af2026f83dde6ad648beee) | feat(stats)!: expose and document the Worked, Off-clock, and Total clocks | [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) | 2026-11-02 03:57:26 EST |
 | bob-cli | [`2bf5e75`](https://github.com/bobs-org/bob-cli/commit/2bf5e759cef7c4d4fba364108a29225c01c4c585) | fix(stats): repair clock drift lookup and date-aware overlap | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2026-11-02 04:53:46 EST |
+| bob-cli--plans | [`bob-cli--plans@6b53c96`](https://github.com/bobs-org/bob-cli--plans/commit/6b53c963f26c17db6c661c681a72a315ebcb7156) | docs(plans): mark stats\_clock epic and landing repairs done | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2026-11-02 04:54:25 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -41,13 +41,14 @@ Verified: focused homes/compute/CLI Stats tests (including writer-to-Stats captu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.3.1.land.md) | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.3.1.land.md) | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2bf5e75`](https://github.com/bobs-org/bob-cli/commit/2bf5e759cef7c4d4fba364108a29225c01c4c585) | fix(stats): repair clock drift lookup and date-aware overlap | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2026-11-02 04:53:46 EST |
+| bob-cli--plans | [`bob-cli--plans@6b53c96`](https://github.com/bobs-org/bob-cli--plans/commit/6b53c963f26c17db6c661c681a72a315ebcb7156) | docs(plans): mark stats\_clock epic and landing repairs done | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2026-11-02 04:54:25 EST |
 
 <!-- sase:referenced-by:start -->
 
