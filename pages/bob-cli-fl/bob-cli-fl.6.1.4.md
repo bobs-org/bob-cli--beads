@@ -20,7 +20,7 @@ clock-breakdowns: preserve clock shares through root, project, and type models; 
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.6.1.3](bob-cli-fl.6.1.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fl.6.1.5](bob-cli-fl.6.1.5.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fl.6.1.5](bob-cli-fl.6.1.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ clock-breakdowns: preserve clock shares through root, project, and type models; 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@75e7875`](https://github.com/bobs-org/bob-plugins/commit/75e78759bdd09a737404dc1b8d842db84c63e59f) | feat(stats): render clock breakdowns in Stats lanes and panels | [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) | 2026-11-02 08:05:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fl.6.1.4][1] | Confirm phase notes and prior-work status before implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.4/README.md
+
+<!-- sase:referenced-by:end -->
