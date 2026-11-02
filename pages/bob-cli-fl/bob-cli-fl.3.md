@@ -35,7 +35,9 @@ stats-clock: add the request lens and pinned clock param, relabel and neutralize
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fl.3.1.1][1] | Need outer epic DECISIONS that apply unchanged to stats clocks | 1 |
+| read-by | [agent:bob-cli-fl.3.1.2][2] | Need outer epic DECISIONS | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

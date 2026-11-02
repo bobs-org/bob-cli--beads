@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/stats_clock.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/stats_clock.md
 
@@ -38,7 +38,9 @@ Finish bob-cli-fl.3 with Worked, Off-clock, and Total metrics, clock-aware sessi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fl.3.1.1][1] | Need parent epic DECISIONS and notes before implementing clock_evaluation | 1 |
+| read-by | [agent:bob-cli-fl.3.1.2][2] | Need epic DECISIONS and child scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

@@ -30,7 +30,7 @@ off-clock-rule: stamp the clock key at every capture start, close, and running-l
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.1](bob-cli-fl.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fl.5](bob-cli-fl.5.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fl.5](bob-cli-fl.5.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fl.7](bob-cli-fl.7.md) ○ · ⧖ 2026-11-01
 
 ## Agents
