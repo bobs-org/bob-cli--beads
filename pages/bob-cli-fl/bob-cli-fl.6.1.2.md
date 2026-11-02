@@ -20,7 +20,7 @@ clock-control: add defensive clock presentation helpers, report-driven accessibl
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.6.1.1](bob-cli-fl.6.1.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fl.6.1.3](bob-cli-fl.6.1.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fl.6.1.3](bob-cli-fl.6.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ clock-control: add defensive clock presentation helpers, report-driven accessibl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3a2b03b`](https://github.com/bobs-org/bob-plugins/commit/3a2b03b635a3e81b343f482e502257d00e2fa4b7) | feat(stats): add persistent clock controls and fetch routing | [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) | 2026-11-02 06:45:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fl.6.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->
