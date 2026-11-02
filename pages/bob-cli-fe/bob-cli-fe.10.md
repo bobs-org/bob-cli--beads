@@ -14,7 +14,7 @@ glossary: add the Merged Pomodoro glossary strand and, if accepted, the links-me
 ## Dependencies
 
 - **Depends on:** [bob-cli-fe.2](bob-cli-fe.2.md) ✓ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fe.4](bob-cli-fe.4.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fe.4](bob-cli-fe.4.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fe.5](bob-cli-fe.5.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fe.7](bob-cli-fe.7.md) ◐ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fe.8](bob-cli-fe.8.md) ◐ · ⧖ 2026-11-01

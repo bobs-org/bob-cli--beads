@@ -2,19 +2,23 @@
 
 [Bead Pages](../README.md) / [bob-cli-fe](README.md) / bob-cli-fe.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.c4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.c4.md) · **Assignee:** `bob-cli-fe.3` · **Size:** large
-**Created:** 2026-11-01 16:00:43 EST
+**Created:** 2026-11-01 16:00:43 EST · **Closed:** 2026-11-01 21:21:14 EST
 **Plan:** [202611/merged\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/merged_pomodoros.md)
 
 ## Description
 
 capture-split: add the whole-item =/ token covering lexing, chaining, execution, capture-parse spans, completion contexts, output, and docs; bump the grammar to 5.
 
+## Notes
+
+[2026-11-02T02:21:14Z · bob-cli-fe.3] Closed by explicit `sase stitch create -B close` after create_commit landed ccd1ada1 ("feat(capture)!: add =/ split syntax end to end"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-fe.3` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-fe.1](bob-cli-fe.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.4](bob-cli-fe.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.4](bob-cli-fe.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

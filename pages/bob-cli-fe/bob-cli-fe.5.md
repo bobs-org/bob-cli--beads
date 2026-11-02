@@ -42,8 +42,10 @@ capture-close-names: apply R6 in the shared close planner using pre-close task t
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-fe.5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-fb.2.1.land--1][1] | Need fe.5 follow-up for 5 named-link failures | 1 |
+| read-by | [agent:bob-cli-fe.5][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.5/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fb.2.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.5/README.md
 
 <!-- sase:referenced-by:end -->
