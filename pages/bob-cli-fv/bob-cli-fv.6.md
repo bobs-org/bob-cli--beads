@@ -19,7 +19,7 @@ birth-bullets: add the config keys, write the bullets with every created Event T
 
 - **Depends on:** [bob-cli-fv.4](bob-cli-fv.4.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fv.5](bob-cli-fv.5.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fv.7](bob-cli-fv.7.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.7](bob-cli-fv.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -32,3 +32,15 @@ birth-bullets: add the config keys, write the bullets with every created Event T
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`db4e8a8`](https://github.com/bobs-org/bob-cli/commit/db4e8a8aa3aeca27647ff0b36780190317fa895d) | feat(gcal): write event descriptions as Event Task bullets at birth | [bob-cli-fv.6](bob-cli-fv.6.md) | 2026-11-02 12:12:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fv.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.6/README.md
+
+<!-- sase:referenced-by:end -->

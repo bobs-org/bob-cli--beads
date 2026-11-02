@@ -19,7 +19,7 @@ cancel-log-indent: make the gcal CANCEL LOG writer reuse the task's existing chi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fv.7](bob-cli-fv.7.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.7](bob-cli-fv.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

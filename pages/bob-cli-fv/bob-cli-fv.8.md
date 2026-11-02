@@ -13,7 +13,7 @@ decision-and-review: author the new decision record and the supersession mark, r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fv.7](bob-cli-fv.7.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fv.7](bob-cli-fv.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
