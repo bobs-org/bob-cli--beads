@@ -13,7 +13,7 @@ ledger-mirror: mirror the per-rung config and lane decide in bob-ledger-tools ag
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-g9.2](bob-cli-g9.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-g9.2](bob-cli-g9.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-g9.4](bob-cli-g9.4.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
