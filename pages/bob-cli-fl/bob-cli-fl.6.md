@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-fl](README.md) / bob-cli-fl.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2z.linker.w0.md) · **Assignee:** `bob-cli-fl.6` · **Size:** large
-**Created:** 2026-11-01 21:46:35 EST
+**Created:** 2026-11-01 21:46:35 EST · **Closed:** 2026-11-02 12:45:09 EST
 **Plan:** [202611/off\_clock\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/off_clock_pomodoros.md)
 
 ## Description
 
 plugins-stats-clock: segmented clock control with per-view totals, off-clock and total renderings in hue with dashed tails, and a quiet off-clock hint under the Day strip's WORKED fact.
+
+## Notes
+
+[2026-11-02T17:45:55Z · bob-cli-fl.6.1.land] Phase scope verified at landing closeout: segmented Worked/Off-clock/Total control with per-view totals, Off-clock and Total renderings in item hue with dashed tails, and the quiet off-clock hint under the Day strip WORKED fact — all present in bob-ledger-tools 1.91.0 (deployed) and covered by the 30/30 stats preview interaction checks plus 290 focused suite passes. epic-symbols clean. bob-cli-fl stays open for its land agent.
 
 ## Dependencies
 

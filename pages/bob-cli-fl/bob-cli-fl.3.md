@@ -20,7 +20,7 @@ stats-clock: add the request lens and pinned clock param, relabel and neutralize
 ## Dependencies
 
 - **Depends on:** [bob-cli-fl.1](bob-cli-fl.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fl.6](bob-cli-fl.6.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fl.6](bob-cli-fl.6.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
