@@ -13,7 +13,7 @@ batches: extend provenance and final offer filtering for later source and target
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.4.1.3](bob-cli-fs.4.1.3.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.4.1.3](bob-cli-fs.4.1.3.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
