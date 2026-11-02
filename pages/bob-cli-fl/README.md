@@ -33,7 +33,7 @@ Sessions spent on #offclock tasks (lunch, the gym, school pickup) keep their tim
 | [bob-cli-fl.2](bob-cli-fl.2.md) | bob-cli: a session is off the clock iff every Task Link it keeps is #offclock | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fl.3](bob-cli-fl.3.md) | bob-cli: bob stats -k worked\|off-clock\|total and the clock JSON contract | ✓ closed | large | 2026-11-01 | 1 | 0 |
 | [bob-cli-fl.4](bob-cli-fl.4.md) | bob-cli: bob task reconcile settles ended off-clock Event Tasks | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fl.5](bob-cli-fl.5.md) | bob-plugins: \[off::\] writers, Obsidian start/close rule, Event marks, home chips | ✓ closed | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fl.5](bob-cli-fl.5.md) | bob-plugins: \[off::\] writers, Obsidian start/close rule, Event marks, home chips | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fl.6](bob-cli-fl.6.md) | bob-plugins: Worked · Off-clock · Total control in the Stats dash and the Day strip hint | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
 | [bob-cli-fl.7](bob-cli-fl.7.md) | bob-mac-capture: off-clock vocabulary, fallback decoding, and the title chip | ✓ closed | medium | 2026-11-01 | 1 | 0 |
 
@@ -54,7 +54,7 @@ flowchart TD
     n10["bob-cli-fl.6: bob-plugins: Worked · Off-clock · Total control in the Stats dash and the Day strip hint [in_progress]"]
     n11["bob-cli-fl.6.1: Stats clocks and the Day strip off-clock hint [in_progress]"]
     n12["bob-cli-fl.6.1.1: Supply clock breakdowns for pinned Stats spans [closed]"]
-    n13["bob-cli-fl.6.1.2: Add the persistent Stats clock control and fetch routing [in_progress]"]
+    n13["bob-cli-fl.6.1.2: Add the persistent Stats clock control and fetch routing [closed]"]
     n14["bob-cli-fl.6.1.3: Render clocks in Stats tiles and focus charts [in_progress]"]
     n15["bob-cli-fl.6.1.4: Render clocks in window lanes and time breakdowns [in_progress]"]
     n16["bob-cli-fl.6.1.5: Add the Day strip hint and finish integration documentation [in_progress]"]
@@ -103,10 +103,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.3/README.md) | [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.3.1.land.md) | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-fl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.4/README.md) | [bob-cli-fl.4](bob-cli-fl.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.5/README.md) | [bob-cli-fl.5](bob-cli-fl.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.5/README.md) | [bob-cli-fl.5](bob-cli-fl.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.6.md) | [bob-cli-fl.6](bob-cli-fl.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.1/README.md) | [bob-cli-fl.6.1.1](bob-cli-fl.6.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fl.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.2/README.md) | [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.2/README.md) | [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.3/README.md) | [bob-cli-fl.6.1.3](bob-cli-fl.6.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.4/README.md) | [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.5/README.md) | [bob-cli-fl.6.1.5](bob-cli-fl.6.1.5.md) | 0 |
@@ -123,10 +123,12 @@ flowchart TD
 | bob-cli | [`4d950c5`](https://github.com/bobs-org/bob-cli/commit/4d950c58a5b198fcb89067d6fd6b1fc26c2f09b4) | feat(stats): evaluate Pomodoro metrics on worked, off-clock, and total clocks | [bob-cli-fl.3.1.1](bob-cli-fl.3.1.1.md) | 2026-11-02 02:27:24 EST |
 | bob-cli | [`71a65da`](https://github.com/bobs-org/bob-cli/commit/71a65dad49413ba3662098834f01fbecda70fdd9) | feat(capture): stamp session clock from counted Task Links | [bob-cli-fl.2](bob-cli-fl.2.md) | 2026-11-02 02:51:13 EST |
 | bob-cli | [`4d2133b`](https://github.com/bobs-org/bob-cli/commit/4d2133b52d6c73118d2b38151a0a288b1edfd487) | feat(stats)!: report clock-aware sessions and clock diagnostics | [bob-cli-fl.3.1.2](bob-cli-fl.3.1.2.md) | 2026-11-02 03:13:58 EST |
+| bob-plugins | [`bob-plugins@d39b979`](https://github.com/bobs-org/bob-plugins/commit/d39b979613b0edfc7329020a6c2df8d1e82fbd1a) | feat(ledger-tools): write \[off::\] Off-Clock Pomodoros from counted Task Links | [bob-cli-fl.5](bob-cli-fl.5.md) | 2026-11-02 03:21:33 EST |
 | bob-cli | [`daf785b`](https://github.com/bobs-org/bob-cli/commit/daf785b6f44fa71e28af2026f83dde6ad648beee) | feat(stats)!: expose and document the Worked, Off-clock, and Total clocks | [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) | 2026-11-02 03:57:26 EST |
 | bob-cli | [`2bf5e75`](https://github.com/bobs-org/bob-cli/commit/2bf5e759cef7c4d4fba364108a29225c01c4c585) | fix(stats): repair clock drift lookup and date-aware overlap | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2026-11-02 04:53:46 EST |
 | bob-cli--plans | [`bob-cli--plans@6b53c96`](https://github.com/bobs-org/bob-cli--plans/commit/6b53c963f26c17db6c661c681a72a315ebcb7156) | docs(plans): mark stats\_clock epic and landing repairs done | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 2026-11-02 04:54:25 EST |
 | bob-cli | [`247440c`](https://github.com/bobs-org/bob-cli/commit/247440cc97349c3ef658b032e281b07b936e531f) | feat(stats): report worked and off-clock clock breakdowns | [bob-cli-fl.6.1.1](bob-cli-fl.6.1.1.md) | 2026-11-02 05:58:33 EST |
+| bob-plugins | [`bob-plugins@3a2b03b`](https://github.com/bobs-org/bob-plugins/commit/3a2b03b635a3e81b343f482e502257d00e2fa4b7) | feat(stats): add persistent clock controls and fetch routing | [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) | 2026-11-02 06:45:11 EST |
 
 <!-- sase:referenced-by:start -->
 

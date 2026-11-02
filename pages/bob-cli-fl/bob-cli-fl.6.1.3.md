@@ -13,7 +13,7 @@ clock-charts: render Off-clock outlines and Total tails in tile sparklines and f
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fl.6.1.4](bob-cli-fl.6.1.4.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

@@ -17,7 +17,7 @@ clock-presentation-contract: complete the additive Stats presentation data neede
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fl.6.1.2](bob-cli-fl.6.1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ clock-presentation-contract: complete the additive Stats presentation data neede
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`247440c`](https://github.com/bobs-org/bob-cli/commit/247440cc97349c3ef658b032e281b07b936e531f) | feat(stats): report worked and off-clock clock breakdowns | [bob-cli-fl.6.1.1](bob-cli-fl.6.1.1.md) | 2026-11-02 05:58:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fl.6.1.1][1] | check notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->
