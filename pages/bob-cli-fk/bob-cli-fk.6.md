@@ -14,7 +14,7 @@ mac-buffers: tolerant buffer decoding, hatched rail wings and buffer-aware first
 ## Dependencies
 
 - **Depends on:** [bob-cli-fk.3](bob-cli-fk.3.md) ✓ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fk.4](bob-cli-fk.4.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fk.4](bob-cli-fk.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

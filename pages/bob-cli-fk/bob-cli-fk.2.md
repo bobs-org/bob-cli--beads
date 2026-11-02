@@ -32,3 +32,15 @@ gcal-sync-buffers: render [buffer::] in the Google-owned badge run, keep that ru
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b86fb2d`](https://github.com/bobs-org/bob-cli/commit/b86fb2d0c30296a56baf6c5a0d166d2367ca06fd) | feat(gcal): buffer-aware sync spans, render, and docs | [bob-cli-fk.2](bob-cli-fk.2.md) | 2026-11-01 23:39:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fk.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.2/README.md
+
+<!-- sase:referenced-by:end -->

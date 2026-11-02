@@ -23,7 +23,7 @@ buffer-grammar: HTML-safe combinable directive lines in gcal/model.rs, EventBuff
 
 - **Blocks:** [bob-cli-fk.2](bob-cli-fk.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fk.3](bob-cli-fk.3.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fk.4](bob-cli-fk.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fk.4](bob-cli-fk.4.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fk.5](bob-cli-fk.5.md) ◐ · ⧖ 2026-11-01
 
 ## Agents
@@ -45,7 +45,9 @@ buffer-grammar: HTML-safe combinable directive lines in gcal/model.rs, EventBuff
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fk.1][1] | Need notes, design, and remaining work | 3 |
+| read-by | [agent:bob-cli-fk.3][2] | Check what phase 1 landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -36,3 +36,15 @@ capture-buffers: buffered MEET event runs and far-run text, conflict detection/o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a4044f4`](https://github.com/bobs-org/bob-cli/commit/a4044f40164ce1c89ab1c19b75c2ecd71c1e37e5) | feat(capture): honor event buffers in MEET runs and run-into-event warnings | [bob-cli-fk.3](bob-cli-fk.3.md) | 2026-11-01 23:37:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fk.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.3/README.md
+
+<!-- sase:referenced-by:end -->
