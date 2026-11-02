@@ -115,7 +115,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ft.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.6/README.md) | [bob-cli-ft.6](bob-cli-ft.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ft.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.7/README.md) | [bob-cli-ft.7](bob-cli-ft.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-ft.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.8/README.md) | [bob-cli-ft.8](bob-cli-ft.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-ft.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.land.md) | [bob-cli-ft](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-ft.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.land.md) | [bob-cli-ft](README.md) | 2 |
 
 ## Commits
 
@@ -138,6 +138,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@289f764`](https://github.com/bobs-org/bob-plugins/commit/289f764cba40c1f5e26f0c482d14100ff708684e) | feat(ledger-tools): paint CSS-only block marks in Tasks query results | [bob-cli-ft.5](bob-cli-ft.5.md) | 2026-11-02 13:07:28 EST |
 | bob-plugins | [`bob-plugins@93d3859`](https://github.com/bobs-org/bob-plugins/commit/93d3859988d3ebf6e03935bd8c541149f5f2f1a4) | feat(ledger-tools): show block reasons in dependency chips | [bob-cli-ft.6](bob-cli-ft.6.md) | 2026-11-02 13:21:23 EST |
 | bob-cli | [`8f2f1f1`](https://github.com/bobs-org/bob-cli/commit/8f2f1f1be16857be25fc2c595fd08069c4a2e82f) | docs(blocked-marks): finalize chip marks live-verification checklist | [bob-cli-ft](README.md) | 2026-11-02 14:59:56 EST |
+| bob-plugins | [`bob-plugins@d42b951`](https://github.com/bobs-org/bob-plugins/commit/d42b9517093f7f87d6d839a3214eccb91a25b5c8) | feat(ledger-tools): paint blocked-reason miniatures on dependency chips | [bob-cli-ft](README.md) | 2026-11-02 15:12:11 EST |
 
 <!-- sase:referenced-by:start -->
 
