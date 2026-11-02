@@ -13,7 +13,7 @@ done: wire task completion and complete-label commits to relation planning, seri
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.4.1.1](bob-cli-fs.4.1.1.md) ○ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.4.1.1](bob-cli-fs.4.1.1.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.4.1.3](bob-cli-fs.4.1.3.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

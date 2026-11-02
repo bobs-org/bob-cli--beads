@@ -59,7 +59,7 @@ flowchart TD
     n9["bob-cli-fs.3: Rust authoring indications and relations list [closed]"]
     n10["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [in_progress]"]
     n11["bob-cli-fs.4.1: Finish capture relation successors for bob-cli-fs.4 [in_progress]"]
-    n12["bob-cli-fs.4.1.1: Share lazy dependency and relation source reads [open]"]
+    n12["bob-cli-fs.4.1.1: Share lazy dependency and relation source reads [closed]"]
     n13["bob-cli-fs.4.1.2: Wire managed Done events and relation JSON [in_progress]"]
     n14["bob-cli-fs.4.1.3: Wire Pomodoro parked and Done events [in_progress]"]
     n15["bob-cli-fs.4.1.4: Net relation offers across capture items [in_progress]"]
@@ -142,10 +142,10 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md) | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md) | [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-fs.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.3.md) | [bob-cli-fs.3](bob-cli-fs.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.md) | [bob-cli-fs.4](bob-cli-fs.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-fs.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.1.md) | [bob-cli-fs.4.1.1](bob-cli-fs.4.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.1.md) | [bob-cli-fs.4.1.1](bob-cli-fs.4.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.2/README.md) | [bob-cli-fs.4.1.2](bob-cli-fs.4.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.3/README.md) | [bob-cli-fs.4.1.3](bob-cli-fs.4.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md) | [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) | 0 |
@@ -175,4 +175,6 @@ flowchart TD
 | bob-cli | [`98bfec6`](https://github.com/bobs-org/bob-cli/commit/98bfec6aca2a877b9bceccb2ce5c9dbd6aa39267) | feat(task-relations): repair relation-successor ordering, identity, and recovery regressions | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 09:28:30 EST |
 | bob-cli--plans | [`bob-cli--plans@e0da4ea`](https://github.com/bobs-org/bob-cli--plans/commit/e0da4ea604146f299ffabfeccfdf7339f5db9785) | chore(plans): mark cycler\_relation\_successors and its closeout done | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 2026-11-02 10:22:51 EST |
 | bob-cli | [`fdc34de`](https://github.com/bobs-org/bob-cli/commit/fdc34de9bf82600e187ef8f6ebb66473fc4d2bbf) | fix(task-complete): finish relation successor core | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 12:17:57 EST |
+| bob-cli--plans | [`bob-cli--plans@07e1151`](https://github.com/bobs-org/bob-cli--plans/commit/07e115192e515d4e1d6db2ab384869ca0ce89030) | docs(plans): mark relation successor core complete | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 12:18:27 EST |
 | bob-cli | [`d8b4d4f`](https://github.com/bobs-org/bob-cli/commit/d8b4d4fbdc7b9ec4868798fb40cacb687a10ebaf) | feat(relations): surface successor label effects | [bob-cli-fs.3](bob-cli-fs.3.md) | 2026-11-02 12:49:04 EST |
+| bob-cli | [`30ae6ac`](https://github.com/bobs-org/bob-cli/commit/30ae6ac9786b58eeb5086cd1c6fea9ce808d55fe) | feat(capture): share lazy relation source snapshots | [bob-cli-fs.4.1.1](bob-cli-fs.4.1.1.md) | 2026-11-02 13:16:29 EST |

@@ -45,7 +45,7 @@ Complete the Rust policy, shared copy, pure relation-successor engine, and succe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.1.land.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 3 |
 
 ## Commits
 
@@ -53,6 +53,7 @@ Complete the Rust policy, shared copy, pure relation-successor engine, and succe
 |---|---|---|---|---|
 | bob-cli | [`98bfec6`](https://github.com/bobs-org/bob-cli/commit/98bfec6aca2a877b9bceccb2ce5c9dbd6aa39267) | feat(task-relations): repair relation-successor ordering, identity, and recovery regressions | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 09:28:30 EST |
 | bob-cli | [`fdc34de`](https://github.com/bobs-org/bob-cli/commit/fdc34de9bf82600e187ef8f6ebb66473fc4d2bbf) | fix(task-complete): finish relation successor core | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 12:17:57 EST |
+| bob-cli--plans | [`bob-cli--plans@07e1151`](https://github.com/bobs-org/bob-cli--plans/commit/07e115192e515d4e1d6db2ab384869ca0ce89030) | docs(plans): mark relation successor core complete | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 12:18:27 EST |
 
 <!-- sase:referenced-by:start -->
 

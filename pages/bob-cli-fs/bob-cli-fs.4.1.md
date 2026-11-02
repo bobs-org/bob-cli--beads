@@ -7,6 +7,18 @@
 **Created:** 2026-11-02 12:29:13 EST
 **Plan:** [202611/capture\_relation\_successors.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_relation_successors.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/capture_relation_successors.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_relation_successors.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Managed capture Done and parked gestures offer relation successors through the shared planner, with correct batch selection, generic bob-authored output, and verified read and latency budgets; bob-cli-fs.4 is completed and closed.

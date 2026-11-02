@@ -32,3 +32,15 @@ authoring: flag successor labels in capture-complete, capture-parse, capture com
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d8b4d4f`](https://github.com/bobs-org/bob-cli/commit/d8b4d4fbdc7b9ec4868798fb40cacb687a10ebaf) | feat(relations): surface successor label effects | [bob-cli-fs.3](bob-cli-fs.3.md) | 2026-11-02 12:49:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.3--2][1] | Check whether the earlier phase work left recorded remaining work before closure | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.3.md
+
+<!-- sase:referenced-by:end -->
