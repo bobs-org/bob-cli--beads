@@ -25,13 +25,7 @@ obsidian_unlink: expose a cycler API for parked events and call it from block-id
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md) | [bob-cli-fs.9](bob-cli-fs.9.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@ffe1727`](https://github.com/bobs-org/bob-plugins/commit/ffe1727cc4393b687dc44ac4f2477795794a312b) | feat(task-status-cycler): offer parked successors when Unlink parks a Pending task | [bob-cli-fs.9](bob-cli-fs.9.md) | 2026-11-02 10:45:29 EST |
+| [bbugyi200.athena.bob-cli-fs.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md) | [bob-cli-fs.9](bob-cli-fs.9.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

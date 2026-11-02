@@ -18,7 +18,7 @@ presentation: emit ordered pull-in groups and copy for every offer kind, render 
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.4.1.6](bob-cli-fs.4.1.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.4.1.6](bob-cli-fs.4.1.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -31,3 +31,15 @@ presentation: emit ordered pull-in groups and copy for every offer kind, render 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d53756f`](https://github.com/bobs-org/bob-cli/commit/d53756fdd5b33121191130c07a1715f9d7d481e4) | feat(capture): emit ordered pull-in groups and relation human copy | [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) | 2026-11-02 16:18:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.4.1.5][1] | Need design file path | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.5/README.md
+
+<!-- sase:referenced-by:end -->

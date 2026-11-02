@@ -29,13 +29,7 @@ ship: update the cycler manifest and reference, run the complete plugin gates, r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md) | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@2ead3a8`](https://github.com/bobs-org/bob-plugins/commit/2ead3a8d60202bb1c187ee5f5926bac37713e955) | feat(task-status-cycler): ship relation-successor docs as 1.46.0 | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 2026-11-02 09:00:36 EST |
+| [bbugyi200.athena.bob-cli-fs.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md) | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

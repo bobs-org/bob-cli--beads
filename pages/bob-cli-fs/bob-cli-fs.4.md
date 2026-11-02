@@ -31,7 +31,9 @@ capture: raise parked events from x* closes and done events from every Rust mana
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.4.1.4][1] | Need capture phase scope and decisions | 1 |
+| read-by | [agent:bob-cli-fs.4.1.5][2] | Need capture phase DECISIONS and scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.5/README.md
 
 <!-- sase:referenced-by:end -->

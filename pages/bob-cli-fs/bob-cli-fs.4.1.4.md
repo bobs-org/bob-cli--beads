@@ -39,7 +39,9 @@ batches: extend provenance and final offer filtering for later source and target
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.4.1.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-fs.4.1.5][2] | Need batches phase close note for landed presentation inputs | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.5/README.md
 
 <!-- sase:referenced-by:end -->
