@@ -44,7 +44,9 @@ ship: update the cycler manifest and reference, run the complete plugin gates, r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.8.1.4][1] | Need full bead body, notes, and DECISIONS | 4 |
+| read-by | [agent:bob-cli-fs.8.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.land.md
 
 <!-- sase:referenced-by:end -->

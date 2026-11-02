@@ -17,7 +17,7 @@
 | related | file:explicit:02f513efcf6d714094b172c0 | attached via sase artifact create --bead |
 | related | file:explicit:ed01e90996e17bd9acfc75b6 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/relation_successor_core.md
 
@@ -59,9 +59,11 @@ Complete the Rust policy, shared copy, pure relation-successor engine, and succe
 | read-by | [agent:bob-cli-fs.2.1.1][1] | Need the governing decisions for this phase | 1 |
 | read-by | [agent:bob-cli-fs.2.1.2][2] | Need epic DECISIONS that bind the classifier phase | 3 |
 | read-by | [agent:bob-cli-fs.2.1.3][3] | Need child epic scope, plan file, and DECISIONS | 1 |
+| read-by | [agent:bob-cli-fs.8.1.land][4] | Confirm follow-up dispositions still hold before closing fs.8.1 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.land.md
 
 <!-- sase:referenced-by:end -->

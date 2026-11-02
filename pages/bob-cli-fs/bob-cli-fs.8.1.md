@@ -25,7 +25,7 @@
 | related | file:explicit:bcf92583e130ba24ca6dd32d | attached via sase artifact create --bead |
 | related | file:explicit:f1a7a88d67cb76f8a82fbe6d | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_relation_successors.md
 
@@ -77,9 +77,11 @@ Prior close: 2026-11-02T15:00:32Z · done.
 | read-by | [agent:bob-cli-fs.8.1.1][1] | Need parent epic DECISIONS and notes for relation_core | 1 |
 | read-by | [agent:bob-cli-fs.8.1.2][2] | need epic scope decisions and plan | 1 |
 | read-by | [agent:bob-cli-fs.8.1.4][3] | Need parent DECISIONS field if present | 2 |
+| read-by | [agent:bob-cli-fs.8.1.land][4] | Confirm epic closed after relaunch landing | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.land.md
 
 <!-- sase:referenced-by:end -->

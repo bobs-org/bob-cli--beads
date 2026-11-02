@@ -36,10 +36,22 @@ The built task-status-cycler 1.46.0 was synced with bob plugins sync --no-pull -
 - **Depends on:** [bob-cli-fs.1](bob-cli-fs.1.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ◐ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fs.6](bob-cli-fs.6.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.9](bob-cli-fs.9.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.9](bob-cli-fs.9.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fs.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.md) | [bob-cli-fs.8](bob-cli-fs.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.8.1.land][1] | Confirm phase closed after relaunch landing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.land.md
+
+<!-- sase:referenced-by:end -->
