@@ -61,7 +61,7 @@ flowchart TD
     n15["bob-cli-fs.8.1: Obsidian cycler relation successors on managed Done [in_progress]"]
     n16["bob-cli-fs.8.1.1: Relation policy, pure rule, and shared copy [closed]"]
     n17["bob-cli-fs.8.1.2: Integrate relation offers with recovery and selection [closed]"]
-    n18["bob-cli-fs.8.1.3: Wire managed Done with fresh relation reads and receipts [in_progress]"]
+    n18["bob-cli-fs.8.1.3: Wire managed Done with fresh relation reads and receipts [closed]"]
     n19["bob-cli-fs.8.1.4: Document, validate, and deploy the cycler [in_progress]"]
     n20["bob-cli-fs.9: Obsidian unlink hand-offs (v1.1) [in_progress]"]
     n0 --> n1
@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.md) | [bob-cli-fs.2](bob-cli-fs.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md) | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md) | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md) | [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.land/README.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.3/README.md) | [bob-cli-fs.3](bob-cli-fs.3.md) | 0 |
@@ -128,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.md) | [bob-cli-fs.8](bob-cli-fs.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.1/README.md) | [bob-cli-fs.8.1.1](bob-cli-fs.8.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.2/README.md) | [bob-cli-fs.8.1.2](bob-cli-fs.8.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.3/README.md) | [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.3.md) | [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md) | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.land/README.md) | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md) | [bob-cli-fs.9](bob-cli-fs.9.md) | 0 |
@@ -143,4 +143,6 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7cc1735`](https://github.com/bobs-org/bob-plugins/commit/7cc17352985be3cb11cf1b6b81bc6cbf74fbb466) | feat(nav-hotkeys): present relation successor picker and notice v3 | [bob-cli-fs.6](bob-cli-fs.6.md) | 2026-11-02 06:55:11 EST |
 | bob-cli | [`c3a2e62`](https://github.com/bobs-org/bob-cli/commit/c3a2e62acdec4ca22dc740038862ce5648156461) | feat(task-relations): add successor-label policy and shared copy | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 2026-11-02 07:00:54 EST |
 | bob-plugins | [`bob-plugins@4447723`](https://github.com/bobs-org/bob-plugins/commit/4447723dd13eeb09eab9f14f316c306780cafe4d) | feat(task-status-cycler): add relation successor policy, planner, and copy | [bob-cli-fs.8.1.1](bob-cli-fs.8.1.1.md) | 2026-11-02 07:34:01 EST |
+| bob-cli | [`ace86f8`](https://github.com/bobs-org/bob-cli/commit/ace86f8e5d7fc9c2103e7513953548b119b6629c) | feat(task-relations): add pure relation-successor classifier | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 2026-11-02 07:39:55 EST |
 | bob-plugins | [`bob-plugins@65d25d9`](https://github.com/bobs-org/bob-plugins/commit/65d25d97660160059c4ec746bea9623938a36159) | feat(task-status-cycler): merge relation offers into successor pipeline | [bob-cli-fs.8.1.2](bob-cli-fs.8.1.2.md) | 2026-11-02 08:17:02 EST |
+| bob-plugins | [`bob-plugins@f4550e2`](https://github.com/bobs-org/bob-plugins/commit/f4550e297077687c27c441ce8bafed878df3e921) | feat(task-status-cycler): wire relation successors on Done gestures | [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) | 2026-11-02 08:46:59 EST |

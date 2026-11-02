@@ -13,7 +13,7 @@ ship: update the cycler manifest and reference, run the complete plugin gates, r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

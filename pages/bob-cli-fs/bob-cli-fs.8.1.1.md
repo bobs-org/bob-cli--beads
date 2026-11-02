@@ -38,7 +38,9 @@ relation_core: implement the cycler's cached successor-label policy, pure R1-R7 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.8.1.1][1] | Need full phase description, notes, DECISIONS, and design file path | 5 |
+| read-by | [agent:bob-cli-fs.8.1.2][2] | need prior phase evidence to avoid redo | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.2/README.md
 
 <!-- sase:referenced-by:end -->

@@ -18,7 +18,7 @@ offer_pipeline: merge relation marks into the pure successor pipeline, preserve 
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.8.1.1](bob-cli-fs.8.1.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.8.1.3](bob-cli-fs.8.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -31,3 +31,15 @@ offer_pipeline: merge relation marks into the pure successor pipeline, preserve 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@65d25d9`](https://github.com/bobs-org/bob-plugins/commit/65d25d97660160059c4ec746bea9623938a36159) | feat(task-status-cycler): merge relation offers into successor pipeline | [bob-cli-fs.8.1.2](bob-cli-fs.8.1.2.md) | 2026-11-02 08:17:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.8.1.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.2/README.md
+
+<!-- sase:referenced-by:end -->
