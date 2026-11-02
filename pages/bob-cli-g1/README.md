@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-g1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.1/README.md) | [bob-cli-g1.1](bob-cli-g1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-g1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-g1.2.md) | [bob-cli-g1.2](bob-cli-g1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-g1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.3/README.md) | [bob-cli-g1.3](bob-cli-g1.3.md) | 2 |
-| [bbugyi200.athena.bob-cli-g1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-g1.land.md) | [bob-cli-g1](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-g1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-g1.land.md) | [bob-cli-g1](README.md) | 3 |
 
 ## Commits
 
@@ -113,6 +113,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a28d1af`](https://github.com/bobs-org/bob-plugins/commit/a28d1af8a5f647486b33ea4e41312aaf331fe36b) | test(ledger-tools): real-Obsidian e2e for frees marks | [bob-cli-g1.3](bob-cli-g1.3.md) | 2026-11-02 15:30:53 EST |
 | bob-cli | [`4422abc`](https://github.com/bobs-org/bob-cli/commit/4422abcce2b8b972b96c860830ccbd3a1b1af1be) | docs(frees-marks): record measured live-verification timings | [bob-cli-g1](README.md) | 2026-11-02 16:30:36 EST |
 | bob-plugins | [`bob-plugins@4ec76dc`](https://github.com/bobs-org/bob-plugins/commit/4ec76dcb19e8bb777e76105afa4ee7bdf80987f4) | fix(ledger-tools): stabilize frees-mark identity, midnight, and paint | [bob-cli-g1](README.md) | 2026-11-02 16:30:54 EST |
+| bob-cli--plans | [`bob-cli--plans@52cea53`](https://github.com/bobs-org/bob-cli--plans/commit/52cea53ae0df76e3dc262d299e7141aa9b875868) | chore(plans): mark ledger\_frees\_marks done | [bob-cli-g1](README.md) | 2026-11-02 16:31:08 EST |
 
 <!-- sase:referenced-by:start -->
 
