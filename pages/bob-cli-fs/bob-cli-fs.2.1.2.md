@@ -18,7 +18,7 @@ classifier: share reconcile target resolution and implement event, released-stat
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
