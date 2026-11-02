@@ -18,13 +18,19 @@ mac-calendar-band: decode the events block and add the folding Calendar band, ro
 ## Dependencies
 
 - **Depends on:** [bob-cli-f6.5](bob-cli-f6.5.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-f6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.7/README.md) | [bob-cli-f6.7](bob-cli-f6.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-f6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-f6.7/README.md) | [bob-cli-f6.7](bob-cli-f6.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@28293b2`](https://github.com/bobs-org/bob-mac-capture/commit/28293b25350e7a20bdb03604a6c931851692434d) | feat(mac-capture): add the Calendar band to the idle agenda | [bob-cli-f6.7](bob-cli-f6.7.md) | 2026-11-01 15:12:45 EST |
 
 <!-- sase:referenced-by:start -->
 

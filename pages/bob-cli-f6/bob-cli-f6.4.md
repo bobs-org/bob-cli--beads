@@ -21,7 +21,7 @@ event-start-warnings: structured run-past-event warnings with fit drafts for sta
 
 - **Depends on:** [bob-cli-f6.3](bob-cli-f6.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-f6.6](bob-cli-f6.6.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-f6.8](bob-cli-f6.8.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
