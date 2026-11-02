@@ -68,7 +68,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fw.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fw.1.md) | [bob-cli-fw.1](bob-cli-fw.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fw.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fw.2/README.md) | [bob-cli-fw.2](bob-cli-fw.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-fw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fw.land.md) | [bob-cli-fw](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-fw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fw.land.md) | [bob-cli-fw](README.md) | 2 |
 
 ## Commits
 
@@ -77,3 +77,4 @@ flowchart TD
 | bob-cli | [`5088721`](https://github.com/bobs-org/bob-cli/commit/508872164ecc7f2c71fd4ec03c8fdd69acd9ccce) | feat(capture): merge the next planned Pomodoro by default | [bob-cli-fw.1](bob-cli-fw.1.md) | 2026-11-02 10:53:16 EST |
 | bob-mac-capture | [`bob-mac-capture@a58e4f0`](https://github.com/bobs-org/bob-mac-capture/commit/a58e4f09fc987f7e0056336f94870082fc00c2ca) | feat(capture): show implied merge picks on the merge card | [bob-cli-fw.2](bob-cli-fw.2.md) | 2026-11-02 11:11:38 EST |
 | bob-cli | [`2d45cd0`](https://github.com/bobs-org/bob-cli/commit/2d45cd02d168ce080d7c5d694a493db83d01288c) | fix(capture): keep implied merge dest identity through ledger edits | [bob-cli-fw](README.md) | 2026-11-02 11:52:52 EST |
+| bob-cli--plans | [`bob-cli--plans@d8b1ba0`](https://github.com/bobs-org/bob-cli--plans/commit/d8b1ba0f82f4d1114f099b90d3d65b0eb1889034) | chore(plans): mark merge\_next\_planned\_default done | [bob-cli-fw](README.md) | 2026-11-02 11:53:14 EST |
