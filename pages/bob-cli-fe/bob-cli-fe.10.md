@@ -34,3 +34,15 @@ glossary: add the Merged Pomodoro glossary strand and, if accepted, the links-me
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`aeb9674`](https://github.com/bobs-org/bob-cli/commit/aeb9674d0255f6538b256f642cd67f16816b94e2) | docs(memory): add Merged Pomodoro glossary strand | [bob-cli-fe.10](bob-cli-fe.10.md) | 2026-11-02 13:28:40 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fe.10][1] | Need full description and notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.10/README.md
+
+<!-- sase:referenced-by:end -->

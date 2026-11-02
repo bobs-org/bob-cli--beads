@@ -31,7 +31,13 @@ obsidian-close-names: mirror R6 narrowing and shedding in task-status-cycler's P
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@7a647e8`](https://github.com/bobs-org/bob-plugins/commit/7a647e821406caf09dfe8a7d124cdc5e55609fcd) | feat(pomodoro): mirror close-name shedding in cycler | [bob-cli-fe.8](bob-cli-fe.8.md) | 2026-11-02 06:40:16 EST |
 
 <!-- sase:referenced-by:start -->
 

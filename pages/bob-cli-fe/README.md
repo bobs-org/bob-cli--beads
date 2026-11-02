@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-fe
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.c4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.c4.md) · **Assignee:** `bob-cli-fe.land`
-**Created:** 2026-11-01 16:00:42 EST
+**Created:** 2026-11-01 16:00:42 EST · **Closed:** 2026-11-02 14:23:52 EST
 **Plan:** [202611/merged\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/merged_pomodoros.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,32 @@ A Pomodoro that holds several task types is a first-class merged Pomodoro. Linki
 
 [2026-11-02T03:19:29Z · bob-cli-fc.land] DISCOVERED ISSUE (from the bob-cli-fc land tale, second clippy gate failure on clean ccd1ada1, beyond bob-cli-fh): just lint (cargo clippy --workspace --all-targets --all-features with the justfile rustc_gate and clippy_gate) fails with 9 deny errors on a tree with no fc changes applied. Six are bob-cli-fh (needless_return in src/native/capture/task_theme.rs, from b5c7ef0f/d712168f). Three are new from ccd1ada1 (bob-cli-fe.3): clippy::needless_return at src/native/capture_language/completion.rs:1079 (trailing return None;), clippy::needless_return at src/native/capture_language/item.rs:2529 (trailing return Ok(Some(parsed_capture_item_outcome(...)))), and clippy::collapsible_if at src/native/capture_language/editor_pomodoro.rs:1519 (the if let Some(lex) = lex_exact_name_after_hash(...) inside if selector.literal). git blame attributes all three lines to ccd1ada1. A lib clippy failure also stops clippy from checking the integration-test targets, so with these in place no later fe or landing agent gets a real lint verdict for tests/. Repro on the tree: bash -c 'cargo clippy --workspace --all-targets --all-features -- -D unused -A unused_extern_crates -A unused_macro_rules -D private_interfaces -D clippy::bind_instead_of_map -D clippy::bool_assert_comparison -D clippy::bool_comparison -D clippy::chars_next_cmp -D clippy::clone_on_copy -D clippy::cmp_owned -D clippy::collapsible_else_if -D clippy::collapsible_if -D clippy::collapsible_match -D clippy::collapsible_str_replace -D clippy::comparison_to_empty -D clippy::derivable_impls -D clippy::double_comparisons -D clippy::explicit_auto_deref -D clippy::extend_with_drain -D clippy::filter_map_bool_then -D clippy::for_kv_map -D clippy::items_after_test_module -D clippy::iter_cloned_collect -D clippy::len_zero -D clippy::let_and_return -D clippy::manual_contains -D clippy::manual_ignore_case_cmp -D clippy::manual_is_multiple_of -D clippy::manual_pattern_char_comparison -D clippy::manual_range_patterns -D clippy::manual_rem_euclid -D clippy::manual_unwrap_or -D clippy::map_identity -D clippy::needless_as_bytes -D clippy::needless_borrow -D clippy::needless_borrows_for_generic_args -D clippy::needless_option_as_deref -D clippy::needless_return -D clippy::op_ref -D clippy::print_literal -D clippy::question_mark -D clippy::redundant_closure -D clippy::single_char_add_str -D clippy::single_element_loop -D clippy::single_match -D clippy::unnecessary_lazy_evaluations -D clippy::unnecessary_map_or -D clippy::unnecessary_to_owned -D clippy::useless_concat -D clippy::useless_conversion -D clippy::useless_format -D clippy::while_let_on_iterator' exits 101 with 9 errors; adding -W clippy::needless_return -W clippy::collapsible_if exits 0, so these are the only denied findings. Fix is mechanical (drop the trailing returns, collapse the if). Not folded into the fc diff.
 
+[2026-11-02T19:23:52Z · bob-cli-fe.land] LANDED (bob-cli-fe land agent). VERIFIED: all 10 phases closed, and I reread every phase note. The work matches R1-R7 and the decisions (new_task_named_link=merge, shed_on_move=yes, glossary strand only, no links-merge decision record).
+- bob-cli commits 675330dd, 3e21e990, d712168f, ccd1ada1, bb92fb1c, aeb9674d. Read land/merged.rs, the 6 new vector sections, split/merge guard codes, close-name output, and docs (task-types.md "Merged Pomodoros", capture.md split/merge/close-names).
+- Ran the plan's dry-run demos on the fresh binary in a temp vault. =/, =/#fix, =/build#fix split as documented; =/#fix on two types refuses split_type_not_needed. =*build#fix absorbs; =*fix#build teaches the swap. x!2 sheds FIX. x2 and x!2~1 narrow the closed name to FIX "from BUILD + FIX". ^a:r1#build gives "Linked under BUILD + READ · merged READ", and a typeless task stays typeless (R2 Consistent). Merge rename composes with fl.2's clock restamp ([off:: 30m]) — FIX + WALK).
+- bob-plugins: 71ae1cb, 3bab3c0, 7a647e8 on origin/master. Both vector copies are byte-identical to bob-cli. planLanding, mergeNames, shed, planSplit, narrowClosed, and split-pomodoro-by-type are present; linkOnce is retired. fe.8 deployed the plugins.
+- Bob Mac Capture 72daffb: all 10 tests it added pass in master macOS CI run 41479052164 (a58e4f0). The run is red only for 21 unrelated XCTests (bob-cli-f3 + bob-cli-fu). The Build break at 72daffb already existed at 90bd9ba.
+EPIC NOTES: #1 (typeless land) was resolved by d712168f per R2 step 2. #2 (rustfmt) and #3 (clippy) are resolved: just check is green on aeb9674d.
+INTEGRATION (59 later commits reviewed):
+- bob-cli-fw (50887216, 2d45cd02) built merge-by-default on =*/merged.rs.
+- fx.1 MEET placed-last and the relation-successor work use continuation_name.
+- fl.2's restamp leaves split/merge without restamping. That gap belongs to bob-cli-fl's landing tale (off_clock_landing_repairs.md), so I left it there.
+LANDING FIXES (this commit):
+- merge_already_part now reads "FIX is already part of BUILD + FIX" in catalog spelling.
+- New CLI test for merge_already_part, merge_dest_repeated, and merge_meet (src and dest), all previously untested.
+- Removed the stale "until their own phases" comments in routing.rs/merged.rs, plus both #![allow(dead_code)] (cargo check --lib clean).
+- Fixed the [[capture]] link inside a code span in glossary:merged-pomodoro (authorized strand) and regenerated docs/reference/glossary.md, which fe.10 had left stale; just docs-check had been failing on it.
+- just check: 7862 passed, 0 failed. just docs-check passes.
+FOLLOW-UP TRIAGE:
+- fe.2 #1: article flake +1 on bob-cli-f2. The complete_themes flake (fe.2 #1, fe.4 #2) is NEW bob-cli-g8 (flake, small; helper skips BOB_COMPLETE_DEADLINE_MS), related to f2.
+- fe.4 #1 declined: the keep_moving FULL_ROOT_SCAN_COUNT flake was fixed by 37e68c09 (bob-cli-fb).
+- fe.5 #1 declined: d712168f fixed those five tests.
+- fe.6 #1, fe.7 #1, fe.8 #1 declined: the clean-base bob-plugins failures are already tracked (bob-cli-f1, et, eh, ff, plus ej for the perf gate).
+- fe.8 #2 declined: resolved by the deploy in fe.8 #3/#4.
+- New Mac CI evidence: +1 on bob-cli-fu and bob-cli-f3.
+- New: DISCOVERED ISSUE note on bob-cli-fl. The pomodoro_clock_mixed warning names the pre-merge Pomodoro after a merge-on-link because restamp runs before the R2 rename. Only the copy is stale; the bytes are correct.
+No --epic-symbol entries.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -44,15 +70,15 @@ A Pomodoro that holds several task types is a first-class merged Pomodoro. Linki
 | [bob-cli-fe.4](bob-cli-fe.4.md) | The =\* merge syntax end to end (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.5](bob-cli-fe.5.md) | x narrows the closed name and sheds the carried name (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.6](bob-cli-fe.6.md) | Obsidian pickers merge by default (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
-| [bob-cli-fe.7](bob-cli-fe.7.md) | Ctrl+S splits the selected Pomodoro (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
-| [bob-cli-fe.8](bob-cli-fe.8.md) | Ctrl+Enter Pomodoro completion parity (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
-| [bob-cli-fe.9](bob-cli-fe.9.md) | Present split, merge, merged links, and close names (Bob Mac Capture) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fe.7](bob-cli-fe.7.md) | Ctrl+S splits the selected Pomodoro (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
+| [bob-cli-fe.8](bob-cli-fe.8.md) | Ctrl+Enter Pomodoro completion parity (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
+| [bob-cli-fe.9](bob-cli-fe.9.md) | Present split, merge, merged links, and close names (Bob Mac Capture) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-fe: Merged Pomodoros: merge by default, split and merge by type, honest close names [in_progress]"]
+    n0["bob-cli-fe: Merged Pomodoros: merge by default, split and merge by type, honest close names [closed]"]
     n1["bob-cli-fe.1: Pure planners and shared vectors (bob-cli) [closed]"]
     n2["bob-cli-fe.10: Merged Pomodoro memory (bob-cli) [closed]"]
     n3["bob-cli-fe.2: Capture lands by merging (bob-cli) [closed]"]
@@ -102,10 +128,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fe.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.4/README.md) | [bob-cli-fe.4](bob-cli-fe.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.5/README.md) | [bob-cli-fe.5](bob-cli-fe.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fe.6.md) | [bob-cli-fe.6](bob-cli-fe.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.7/README.md) | [bob-cli-fe.7](bob-cli-fe.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.land/README.md) | [bob-cli-fe](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.7/README.md) | [bob-cli-fe.7](bob-cli-fe.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.land/README.md) | [bob-cli-fe](README.md) | 1 |
 
 ## Commits
 
@@ -116,7 +142,11 @@ flowchart TD
 | bob-cli | [`d712168`](https://github.com/bobs-org/bob-cli/commit/d712168f88c4240340115d61f45d424c7f45c066) | feat(capture)!: land named captures by merging types | [bob-cli-fe.2](bob-cli-fe.2.md) | 2026-11-01 20:22:41 EST |
 | bob-cli | [`ccd1ada`](https://github.com/bobs-org/bob-cli/commit/ccd1ada109a634bf58b2261b5f3c0a2a84daa5ef) | feat(capture)!: add =/ split syntax end to end | [bob-cli-fe.3](bob-cli-fe.3.md) | 2026-11-01 21:20:36 EST |
 | bob-cli | [`bb92fb1`](https://github.com/bobs-org/bob-cli/commit/bb92fb1c07fadeb9117bb23f93f6e09fd60bf340) | feat(capture)!: add =\* merge syntax end to end | [bob-cli-fe.4](bob-cli-fe.4.md) | 2026-11-01 22:35:11 EST |
+| bob-mac-capture | [`bob-mac-capture@72daffb`](https://github.com/bobs-org/bob-mac-capture/commit/72daffb0d106a0f0a2dbed878b71725ea0e2efa6) | feat(capture): present Pomodoro split and merge previews | [bob-cli-fe.9](bob-cli-fe.9.md) | 2026-11-01 23:02:42 EST |
+| bob-plugins | [`bob-plugins@3bab3c0`](https://github.com/bobs-org/bob-plugins/commit/3bab3c0345f589455c7a9b81f009e51535e7967e) | feat(bob-plugins): Ctrl+S splits the selected Pomodoro by type | [bob-cli-fe.7](bob-cli-fe.7.md) | 2026-11-02 06:16:16 EST |
+| bob-plugins | [`bob-plugins@7a647e8`](https://github.com/bobs-org/bob-plugins/commit/7a647e821406caf09dfe8a7d124cdc5e55609fcd) | feat(pomodoro): mirror close-name shedding in cycler | [bob-cli-fe.8](bob-cli-fe.8.md) | 2026-11-02 06:40:16 EST |
 | bob-cli | [`aeb9674`](https://github.com/bobs-org/bob-cli/commit/aeb9674d0255f6538b256f642cd67f16816b94e2) | docs(memory): add Merged Pomodoro glossary strand | [bob-cli-fe.10](bob-cli-fe.10.md) | 2026-11-02 13:28:40 EST |
+| bob-cli | [`debee56`](https://github.com/bobs-org/bob-cli/commit/debee5636d66ee9444be303aa041c9fd8c3a3b9f) | fix(capture): land merged Pomodoros with complete merge guards and docs | [bob-cli-fe](README.md) | 2026-11-02 14:25:12 EST |
 
 <!-- sase:referenced-by:start -->
 

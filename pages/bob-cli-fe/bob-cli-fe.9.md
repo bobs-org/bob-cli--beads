@@ -25,7 +25,13 @@ mac-capture: decode and present the new span kinds, modes, needs, split/merge pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@72daffb`](https://github.com/bobs-org/bob-mac-capture/commit/72daffb0d106a0f0a2dbed878b71725ea0e2efa6) | feat(capture): present Pomodoro split and merge previews | [bob-cli-fe.9](bob-cli-fe.9.md) | 2026-11-01 23:02:42 EST |
 
 <!-- sase:referenced-by:start -->
 
