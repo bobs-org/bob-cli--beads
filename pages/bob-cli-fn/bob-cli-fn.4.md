@@ -13,7 +13,7 @@ mac-lists: in bob-mac-capture, apply Bob's block-ID splice on accept, caption th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fn.3](bob-cli-fn.3.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fn.3](bob-cli-fn.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

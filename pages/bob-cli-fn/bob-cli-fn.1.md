@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-fn](README.md) / bob-cli-fn.1
 
-**Status:** ○ open · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.c1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.c1.md) · **Assignee:** `bob-cli-fn.1` · **Size:** medium
-**Created:** 2026-11-01 23:41:34 EST
+**Created:** 2026-11-01 23:41:34 EST · **Closed:** 2026-11-02 02:55:47 EST
 **Plan:** [202611/capture\_route\_lists.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_route_lists.md)
 
 ## Description
@@ -23,9 +23,11 @@ list-capture: split list headers into one capture item per bullet (zero-copy sli
 
 [2026-11-02T07:53:43Z · bob-cli-fn.1] PROPOSED FOLLOW-UP: plan tension on lone-@ row - Header-outcomes says bob capture refuses @+bullets with the incomplete-route copy, but no such refusal exists in execution at HEAD, so @ keeps filing literally while parse stays incomplete/needs-route; tests pin actual, needs plan clarification.
 
+[2026-11-02T07:55:47Z · bob-cli-fn.1] Verified: 20 CLI tests in tests/cli/capture/lists.rs pass (worked example byte-for-byte, list/batch equivalence, link guards, dups, full refusal table parse==execution, header variants, atomicity, parity, unchanged forms); 18 capture_language unit vectors pass (501 lib tests in scope green); full lib 4423 passed with 1 pre-existing order-flake (recorded); docs-gen clean, docs-check 446 passed with 1 pre-existing token-coverage failure (recorded); base build breakage BufferPart::as_str blocks just check (recorded, cites bob-cli-fj); glossary bulk-capture updated via authorized memory decision; committed 0ebd0714 feat(capture)! with BREAKING CHANGE footer.
+
 ## Dependencies
 
-- **Blocks:** [bob-cli-fn.3](bob-cli-fn.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fn.3](bob-cli-fn.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -38,3 +40,15 @@ list-capture: split list headers into one capture item per bullet (zero-copy sli
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0ebd071`](https://github.com/bobs-org/bob-cli/commit/0ebd0714f8d90de0b9be7616d7eff2dd305066aa) | feat(capture)!: file each list bullet as its own capture | [bob-cli-fn.1](bob-cli-fn.1.md) | 2026-11-02 02:55:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fn.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.1/README.md
+
+<!-- sase:referenced-by:end -->
