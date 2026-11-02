@@ -13,7 +13,7 @@ live_verify: add an isolated real-Obsidian e2e with light/dark screenshots, tune
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-g1.2](bob-cli-g1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-g1.2](bob-cli-g1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

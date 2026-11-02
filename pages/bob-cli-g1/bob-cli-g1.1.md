@@ -17,7 +17,7 @@ contract: write and register bob-cli docs/frees-marks.md (rule, look, placement,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-g1.2](bob-cli-g1.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-g1.2](bob-cli-g1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ contract: write and register bob-cli docs/frees-marks.md (rule, look, placement,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b508f0b`](https://github.com/bobs-org/bob-cli/commit/b508f0b69dbd5dab08b7e6d1eb7c4c0f2ae1a01a) | docs(frees-marks): add ledger frees-mark display contract | [bob-cli-g1.1](bob-cli-g1.1.md) | 2026-11-02 12:58:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g1.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.1/README.md
+
+<!-- sase:referenced-by:end -->
