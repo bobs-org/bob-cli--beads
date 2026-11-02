@@ -31,7 +31,7 @@ In today's daily note, each Task Link under an open Pomodoro whose task is the l
 |---|---|---|---|---|---:|---:|
 | [bob-cli-g1.1](bob-cli-g1.1.md) | Authoritative display contract (bob-cli) | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-g1.2](bob-cli-g1.2.md) | The mark in bob-ledger-tools (bob-plugins) | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-g1.3](bob-cli-g1.3.md) | Real-Obsidian e2e and visual review (bob-plugins, bob-cli) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [bob-cli-g1.3](bob-cli-g1.3.md) | Real-Obsidian e2e and visual review (bob-plugins, bob-cli) | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["bob-cli-g1: Ledger frees marks [in_progress]"]
     n1["bob-cli-g1.1: Authoritative display contract (bob-cli) [closed]"]
     n2["bob-cli-g1.2: The mark in bob-ledger-tools (bob-plugins) [closed]"]
-    n3["bob-cli-g1.3: Real-Obsidian e2e and visual review (bob-plugins, bob-cli) [in_progress]"]
+    n3["bob-cli-g1.3: Real-Obsidian e2e and visual review (bob-plugins, bob-cli) [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,7 +54,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-g1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.1/README.md) | [bob-cli-g1.1](bob-cli-g1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-g1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-g1.2.md) | [bob-cli-g1.2](bob-cli-g1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-g1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.3/README.md) | [bob-cli-g1.3](bob-cli-g1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-g1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.3/README.md) | [bob-cli-g1.3](bob-cli-g1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-g1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.land/README.md) | [bob-cli-g1](README.md) | 0 |
 
 ## Commits
@@ -63,6 +63,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`b508f0b`](https://github.com/bobs-org/bob-cli/commit/b508f0b69dbd5dab08b7e6d1eb7c4c0f2ae1a01a) | docs(frees-marks): add ledger frees-mark display contract | [bob-cli-g1.1](bob-cli-g1.1.md) | 2026-11-02 12:58:52 EST |
 | bob-plugins | [`bob-plugins@f824dd1`](https://github.com/bobs-org/bob-plugins/commit/f824dd1c1f32031e02421261c1a269d3ae262026) | feat(ledger-tools): show quiet frees-N marks after last-blocker ledger links | [bob-cli-g1.2](bob-cli-g1.2.md) | 2026-11-02 14:45:02 EST |
+| bob-cli | [`07edcdf`](https://github.com/bobs-org/bob-cli/commit/07edcdfa646ec234e2efee28dee7a201801e9f66) | docs(frees-marks): record live verification | [bob-cli-g1.3](bob-cli-g1.3.md) | 2026-11-02 15:30:36 EST |
 
 <!-- sase:referenced-by:start -->
 

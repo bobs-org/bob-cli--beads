@@ -24,7 +24,7 @@ ledger_mark: implement the pure core, Live Preview and Reading mixin, CSS, wirin
 ## Dependencies
 
 - **Depends on:** [bob-cli-g1.1](bob-cli-g1.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-g1.3](bob-cli-g1.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-g1.3](bob-cli-g1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -37,3 +37,15 @@ ledger_mark: implement the pure core, Live Preview and Reading mixin, CSS, wirin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@f824dd1`](https://github.com/bobs-org/bob-plugins/commit/f824dd1c1f32031e02421261c1a269d3ae262026) | feat(ledger-tools): show quiet frees-N marks after last-blocker ledger links | [bob-cli-g1.2](bob-cli-g1.2.md) | 2026-11-02 14:45:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g1.2--4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-g1.2.md
+
+<!-- sase:referenced-by:end -->
