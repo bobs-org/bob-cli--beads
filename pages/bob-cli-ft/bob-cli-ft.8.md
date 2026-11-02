@@ -14,7 +14,7 @@ visual_review: screenshot every surface in light and dark through the e2e harnes
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.6](bob-cli-ft.6.md) ◐ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-ft.7](bob-cli-ft.7.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-ft.7](bob-cli-ft.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

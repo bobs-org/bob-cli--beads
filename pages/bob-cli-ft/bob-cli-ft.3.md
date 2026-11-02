@@ -28,7 +28,7 @@ Leave outer epic bob-cli-ft open.
 
 - **Depends on:** [bob-cli-ft.2](bob-cli-ft.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.4](bob-cli-ft.4.md) ◐ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.7](bob-cli-ft.7.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.7](bob-cli-ft.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -45,9 +45,11 @@ Leave outer epic bob-cli-ft open.
 | read-by | [agent:bob-cli-ft.3.1.1][1] | Need epic DECISIONS and scope | 1 |
 | read-by | [agent:bob-cli-ft.3.1.3][2] | Need rendering scope and final epic decisions | 2 |
 | read-by | [agent:bob-cli-ft.3.1.4][3] | Need rendering scope and final epic decisions | 1 |
+| read-by | [agent:bob-cli-ft.3.1.land--1][4] | Verify parent phase status after child close and reread before parent closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -27,7 +27,7 @@
 | related | file:explicit:d56219a291b8599f2685ac7e | attached via sase artifact create --bead |
 | related | file:explicit:f826b23ed46ccb980f3496b6 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/block_marks_editor.md
 
@@ -59,15 +59,13 @@ Leave outer epic bob-cli-ft open.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ft.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.land.md) | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 3 |
+| [bbugyi200.athena.bob-cli-ft.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.land.md) | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`217341c`](https://github.com/bobs-org/bob-cli/commit/217341c40c6842f824e565dc52e8c42d2e7b76ae) | docs(blocked-marks): record landing-repair live verification | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 2026-11-02 11:46:56 EST |
 | bob-plugins | [`bob-plugins@de8fb6b`](https://github.com/bobs-org/bob-plugins/commit/de8fb6bf5fae6c7efccdbb26df903c5561293eda) | fix(block-marks): repair reading adapter and editor tooltip landing | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 2026-11-02 11:47:18 EST |
-| bob-cli--plans | [`bob-cli--plans@f4c0e7d`](https://github.com/bobs-org/bob-cli--plans/commit/f4c0e7d63d5946ca0fa9780d1f7402338c0c931c) | chore(plans): mark block\_marks\_editor epic done | [bob-cli-ft.3.1](bob-cli-ft.3.1.md) | 2026-11-02 11:47:35 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -79,10 +77,12 @@ Leave outer epic bob-cli-ft open.
 | read-by | [agent:bob-cli-ft.3.1.2--2][2] | Need the child epic's final decisions that govern this phase | 1 |
 | read-by | [agent:bob-cli-ft.3.1.3][3] | Need parent epic DECISIONS for rendered_views phase | 1 |
 | read-by | [agent:bob-cli-ft.3.1.4][4] | Need parent epic decisions and handoff | 1 |
+| read-by | [agent:bob-cli-ft.3.1.land--1][5] | Closeout after just check passed: verify child epic scope and existing notes before close | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.2.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.3/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.3.1.4/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ft.3.1.land.md
 
 <!-- sase:referenced-by:end -->
