@@ -20,7 +20,7 @@ core: add relations.successor_labels and the LabelEffect policy, build the pure 
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.1](bob-cli-fs.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.3](bob-cli-fs.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.3](bob-cli-fs.3.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.4](bob-cli-fs.4.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
