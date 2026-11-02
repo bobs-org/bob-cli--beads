@@ -37,3 +37,15 @@ mac-capture: paint drawer-bullet spans, summarize multi-note sub-bullet previews
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@1b196f4`](https://github.com/bobs-org/bob-mac-capture/commit/1b196f47d518e860e0b673984c0aa015ad629ade) | feat(capture): present drawer bullet completion | [bob-cli-fc.4](bob-cli-fc.4.md) | 2026-11-01 21:29:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fc.4--2][1] | Confirm the phase closed with verification and follow-up notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fc.4.md
+
+<!-- sase:referenced-by:end -->

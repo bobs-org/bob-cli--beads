@@ -41,7 +41,9 @@ drawer-bullets: make a first-level bullet's leading `#` a drawer shortcut instea
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fc.1][1] | Confirm closed status before final declaration | 4 |
+| read-by | [agent:bob-cli-fc.4--2][2] | Confirm the existing task tracking the planned third-level authored bullet grammar follow-up | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fc.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fc.4.md
 
 <!-- sase:referenced-by:end -->
