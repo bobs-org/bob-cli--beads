@@ -36,7 +36,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-fv.5](bob-cli-fv.5.md) | Bullet renderer, guards, and scanner-isolation gate | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.6](bob-cli-fv.6.md) | Bullets on created and upgraded Event Tasks | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.7](bob-cli-fv.7.md) | Description bullets follow Google until edited | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-fv.8](bob-cli-fv.8.md) | Decision record and end-to-end review | ◐ in_progress | small | 2026-11-02 | 1 | 1 |
+| [bob-cli-fv.8](bob-cli-fv.8.md) | Decision record and end-to-end review | ✓ closed | small | 2026-11-02 | 1 | 2 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n5["bob-cli-fv.5: Bullet renderer, guards, and scanner-isolation gate [closed]"]
     n6["bob-cli-fv.6: Bullets on created and upgraded Event Tasks [closed]"]
     n7["bob-cli-fv.7: Description bullets follow Google until edited [closed]"]
-    n8["bob-cli-fv.8: Decision record and end-to-end review [in_progress]"]
+    n8["bob-cli-fv.8: Decision record and end-to-end review [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.5.md) | [bob-cli-fv.5](bob-cli-fv.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.6/README.md) | [bob-cli-fv.6](bob-cli-fv.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.7.md) | [bob-cli-fv.7](bob-cli-fv.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-fv.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.8.md) | [bob-cli-fv.8](bob-cli-fv.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-fv.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.8/README.md) | [bob-cli-fv.8](bob-cli-fv.8.md) | 2 |
 | [bbugyi200.athena.bob-cli-fv.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.land/README.md) | [bob-cli-fv](README.md) | 0 |
 
 ## Commits
@@ -95,6 +95,7 @@ flowchart TD
 | bob-cli | [`db4e8a8`](https://github.com/bobs-org/bob-cli/commit/db4e8a8aa3aeca27647ff0b36780190317fa895d) | feat(gcal): write event descriptions as Event Task bullets at birth | [bob-cli-fv.6](bob-cli-fv.6.md) | 2026-11-02 12:12:20 EST |
 | bob-cli | [`5c749cb`](https://github.com/bobs-org/bob-cli/commit/5c749cbb957112ef94c29cab8c36762e23a6bc47) | feat(gcal): follow Google description bullets until edited | [bob-cli-fv.7](bob-cli-fv.7.md) | 2026-11-02 13:00:02 EST |
 | bob-cli | [`8c140e4`](https://github.com/bobs-org/bob-cli/commit/8c140e43d22cf562e063c4a0983cd0c939339c54) | docs(cli): refresh capture and relation contracts | [bob-cli-fv.8](bob-cli-fv.8.md) | 2026-11-02 13:22:59 EST |
+| bob-cli | [`30d3120`](https://github.com/bobs-org/bob-cli/commit/30d312095ab2a009e635d2b51fb1697d49885970) | docs(gcal): record description ownership and join-link exception | [bob-cli-fv.8](bob-cli-fv.8.md) | 2026-11-02 16:22:23 EST |
 
 <!-- sase:referenced-by:start -->
 

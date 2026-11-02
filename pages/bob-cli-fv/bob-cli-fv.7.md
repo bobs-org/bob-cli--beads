@@ -19,7 +19,7 @@ live-bullets: locate the journaled block, rewrite or remove it while untouched, 
 
 - **Depends on:** [bob-cli-fv.2](bob-cli-fv.2.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fv.6](bob-cli-fv.6.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fv.8](bob-cli-fv.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.8](bob-cli-fv.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
