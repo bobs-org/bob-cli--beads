@@ -15,7 +15,7 @@ cycler: port the relation-successor rule to task-status-cycler over api.relation
 
 - **Depends on:** [bob-cli-fs.1](bob-cli-fs.1.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ◐ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-fs.6](bob-cli-fs.6.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.6](bob-cli-fs.6.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.9](bob-cli-fs.9.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

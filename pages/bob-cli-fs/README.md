@@ -22,8 +22,8 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 | [bob-cli-fs.3](bob-cli-fs.3.md) | Rust authoring indications and relations list | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.4](bob-cli-fs.4.md) | Capture events, snapshot, reporting, and bob-authored group copy | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.5](bob-cli-fs.5.md) | Capture unlink hand-offs (v1.1) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
-| [bob-cli-fs.6](bob-cli-fs.6.md) | Obsidian picker v3 and notice v3 presentation | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
-| [bob-cli-fs.7](bob-cli-fs.7.md) | Obsidian inverse pair and relation-stage indications | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [bob-cli-fs.6](bob-cli-fs.6.md) | Obsidian picker v3 and notice v3 presentation | ✓ closed | medium | 2026-11-02 | 1 | 0 |
+| [bob-cli-fs.7](bob-cli-fs.7.md) | Obsidian inverse pair and relation-stage indications | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fs.8](bob-cli-fs.8.md) | Obsidian cycler relation-successor engine (Done path) | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.9](bob-cli-fs.9.md) | Obsidian unlink hand-offs (v1.1) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 
@@ -36,41 +36,51 @@ flowchart TD
     n2["bob-cli-fs.10: Bob Mac Capture generic group copy and relation presentation [in_progress]"]
     n3["bob-cli-fs.11: Enable starts after in chezmoi and smoke it [in_progress]"]
     n4["bob-cli-fs.2: Rust policy and relation-successor engine [in_progress]"]
-    n5["bob-cli-fs.3: Rust authoring indications and relations list [in_progress]"]
-    n6["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [in_progress]"]
-    n7["bob-cli-fs.5: Capture unlink hand-offs (v1.1) [in_progress]"]
-    n8["bob-cli-fs.6: Obsidian picker v3 and notice v3 presentation [in_progress]"]
-    n9["bob-cli-fs.7: Obsidian inverse pair and relation-stage indications [in_progress]"]
-    n10["bob-cli-fs.8: Obsidian cycler relation-successor engine (Done path) [in_progress]"]
-    n11["bob-cli-fs.9: Obsidian unlink hand-offs (v1.1) [in_progress]"]
+    n5["bob-cli-fs.2.1: Rust relation-successor policy and planner for bob-cli-fs.2 [in_progress]"]
+    n6["bob-cli-fs.2.1.1: Successor-label policy and shared copy [in_progress]"]
+    n7["bob-cli-fs.2.1.2: Pure relation extraction and classification [in_progress]"]
+    n8["bob-cli-fs.2.1.3: Merge relation offers into successor planning [in_progress]"]
+    n9["bob-cli-fs.3: Rust authoring indications and relations list [in_progress]"]
+    n10["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [in_progress]"]
+    n11["bob-cli-fs.5: Capture unlink hand-offs (v1.1) [in_progress]"]
+    n12["bob-cli-fs.6: Obsidian picker v3 and notice v3 presentation [closed]"]
+    n13["bob-cli-fs.7: Obsidian inverse pair and relation-stage indications [closed]"]
+    n14["bob-cli-fs.8: Obsidian cycler relation-successor engine (Done path) [in_progress]"]
+    n15["bob-cli-fs.9: Obsidian unlink hand-offs (v1.1) [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
+    n4 --> n5
+    n5 --> n6
+    n5 --> n7
+    n5 --> n8
     n0 --> n9
     n0 --> n10
     n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
     n1 -.-> n4
-    n1 -.-> n8
-    n1 -.-> n9
-    n1 -.-> n10
+    n1 -.-> n12
+    n1 -.-> n13
+    n1 -.-> n14
     n2 -.-> n3
-    n4 -.-> n5
-    n4 -.-> n6
-    n5 -.-> n2
-    n5 -.-> n3
-    n6 -.-> n2
-    n6 -.-> n3
+    n4 -.-> n9
+    n4 -.-> n10
     n6 -.-> n7
-    n7 -.-> n2
-    n8 -.-> n10
+    n7 -.-> n8
+    n9 -.-> n2
     n9 -.-> n3
+    n10 -.-> n2
     n10 -.-> n3
     n10 -.-> n11
+    n11 -.-> n2
+    n12 -.-> n14
+    n13 -.-> n3
+    n14 -.-> n3
+    n14 -.-> n15
 ```
 
 ## Agents
@@ -80,12 +90,16 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.1.md) | [bob-cli-fs.1](bob-cli-fs.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10/README.md) | [bob-cli-fs.10](bob-cli-fs.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 0 |
-| [bbugyi200.athena.bob-cli-fs.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2/README.md) | [bob-cli-fs.2](bob-cli-fs.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.md) | [bob-cli-fs.2](bob-cli-fs.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md) | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.3/README.md) | [bob-cli-fs.2.1.3](bob-cli-fs.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.land/README.md) | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.3/README.md) | [bob-cli-fs.3](bob-cli-fs.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4/README.md) | [bob-cli-fs.4](bob-cli-fs.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.5/README.md) | [bob-cli-fs.5](bob-cli-fs.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.6/README.md) | [bob-cli-fs.6](bob-cli-fs.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-fs.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.7/README.md) | [bob-cli-fs.7](bob-cli-fs.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.7/README.md) | [bob-cli-fs.7](bob-cli-fs.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8/README.md) | [bob-cli-fs.8](bob-cli-fs.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md) | [bob-cli-fs.9](bob-cli-fs.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.land/README.md) | [bob-cli-fs](README.md) | 0 |
@@ -95,3 +109,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0095426`](https://github.com/bobs-org/bob-cli/commit/0095426daa386bd9ff3c1006f228e8a33548bf4e) | feat(task-relations): document successor offer contract | [bob-cli-fs.1](bob-cli-fs.1.md) | 2026-11-02 06:20:05 EST |
+| bob-plugins | [`bob-plugins@a3e3462`](https://github.com/bobs-org/bob-plugins/commit/a3e346201fdb0acb0660dd4d263e74f7a080efd6) | feat(nav): show starts-after successor indications in relation stages | [bob-cli-fs.7](bob-cli-fs.7.md) | 2026-11-02 06:47:47 EST |
