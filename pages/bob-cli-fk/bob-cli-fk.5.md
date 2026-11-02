@@ -32,7 +32,13 @@ plugins-buffers: copy and pin the vectors, make 035-meet-event-run.js buffer-awa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fk.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.5/README.md) | [bob-cli-fk.5](bob-cli-fk.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fk.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.5/README.md) | [bob-cli-fk.5](bob-cli-fk.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@13e63d4`](https://github.com/bobs-org/bob-plugins/commit/13e63d42ba013b0e58fb027b5f16e47ec2ac32e4) | feat(ledger-tools): paint hatched \[buffer::\] wings and honor buffered MEET runs | [bob-cli-fk.5](bob-cli-fk.5.md) | 2026-11-02 00:12:06 EST |
 
 <!-- sase:referenced-by:start -->
 

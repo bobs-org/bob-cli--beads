@@ -37,3 +37,15 @@ mac-buffers: tolerant buffer decoding, hatched rail wings and buffer-aware first
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@4f35460`](https://github.com/bobs-org/bob-mac-capture/commit/4f35460a94e2b52de1f8d8b1d3f52988796f91da) | feat(capture): render buffered event spans on mac agenda | [bob-cli-fk.6](bob-cli-fk.6.md) | 2026-11-02 00:15:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fk.6][1] | Need full phase detail including notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.6/README.md
+
+<!-- sase:referenced-by:end -->

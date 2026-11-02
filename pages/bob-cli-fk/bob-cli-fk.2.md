@@ -40,7 +40,9 @@ gcal-sync-buffers: render [buffer::] in the Google-owned badge run, keep that ru
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fk.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-fk.6][2] | Check if memory record already landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.6/README.md
 
 <!-- sase:referenced-by:end -->
