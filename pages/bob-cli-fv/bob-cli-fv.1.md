@@ -17,7 +17,7 @@ note-escaper: lift gkeep's escape_child_text into task_text_escape.rs unchanged 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fv.5](bob-cli-fv.5.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.5](bob-cli-fv.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

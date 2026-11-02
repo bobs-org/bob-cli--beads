@@ -14,7 +14,7 @@ birth-bullets: add the config keys, write the bullets with every created Event T
 ## Dependencies
 
 - **Depends on:** [bob-cli-fv.4](bob-cli-fv.4.md) ✓ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-fv.5](bob-cli-fv.5.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fv.5](bob-cli-fv.5.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fv.7](bob-cli-fv.7.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

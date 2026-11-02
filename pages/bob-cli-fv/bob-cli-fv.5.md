@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-fv](README.md) / bob-cli-fv.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5o.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.5o.linker.w0.md) · **Assignee:** `bob-cli-fv.5` · **Size:** medium
-**Created:** 2026-11-02 09:28:51 EST
+**Created:** 2026-11-02 09:28:51 EST · **Closed:** 2026-11-02 11:22:46 EST
 **Plan:** [202611/gcal\_description\_bullets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_description_bullets.md)
 
 ## Description
 
 bullet-renderer: turn parsed lines into sanitized, capped bullet bodies with tidy links, drawer and managed-log guards, an overflow line, an oversize fallback, and a stable hash. A differential test against Bob's real scanners proves the output is inert.
+
+## Notes
+
+[2026-11-02T16:22:46Z · bob-cli-fv.5--3] Implemented sanitized, capped Google Calendar description bullet rendering with link cleanup, structural guards, overflow and oversize handling, stable hashing, vectors, and scanner-isolation coverage. Focused description tests passed; final just check passed (exit 0, Required checks passed). epic-symbols reports no leftovers.
 
 ## Dependencies
 
@@ -21,4 +25,10 @@ bullet-renderer: turn parsed lines into sanitized, capped bullet bodies with tid
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.5/README.md) | [bob-cli-fv.5](bob-cli-fv.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-fv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.5.md) | [bob-cli-fv.5](bob-cli-fv.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`3d251ba`](https://github.com/bobs-org/bob-cli/commit/3d251ba21e35d421402475c659112cd7fed1228e) | feat(gcal): render calendar description bullets | [bob-cli-fv.5](bob-cli-fv.5.md) | 2026-11-02 11:31:01 EST |

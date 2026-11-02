@@ -33,7 +33,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-fv.2](bob-cli-fv.2.md) | CANCEL LOG indentation matches the plugin writer | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.3](bob-cli-fv.3.md) | Structured description parser | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.4](bob-cli-fv.4.md) | Separator, badge-duplicate, and vendor boilerplate filter | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-fv.5](bob-cli-fv.5.md) | Bullet renderer, guards, and scanner-isolation gate | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [bob-cli-fv.5](bob-cli-fv.5.md) | Bullet renderer, guards, and scanner-isolation gate | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.6](bob-cli-fv.6.md) | Bullets on created and upgraded Event Tasks | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fv.7](bob-cli-fv.7.md) | Description bullets follow Google until edited | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fv.8](bob-cli-fv.8.md) | Decision record and end-to-end review | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
@@ -47,7 +47,7 @@ flowchart TD
     n2["bob-cli-fv.2: CANCEL LOG indentation matches the plugin writer [closed]"]
     n3["bob-cli-fv.3: Structured description parser [closed]"]
     n4["bob-cli-fv.4: Separator, badge-duplicate, and vendor boilerplate filter [closed]"]
-    n5["bob-cli-fv.5: Bullet renderer, guards, and scanner-isolation gate [in_progress]"]
+    n5["bob-cli-fv.5: Bullet renderer, guards, and scanner-isolation gate [closed]"]
     n6["bob-cli-fv.6: Bullets on created and upgraded Event Tasks [in_progress]"]
     n7["bob-cli-fv.7: Description bullets follow Google until edited [in_progress]"]
     n8["bob-cli-fv.8: Decision record and end-to-end review [in_progress]"]
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.2.md) | [bob-cli-fv.2](bob-cli-fv.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.3/README.md) | [bob-cli-fv.3](bob-cli-fv.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.4/README.md) | [bob-cli-fv.4](bob-cli-fv.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-fv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.5/README.md) | [bob-cli-fv.5](bob-cli-fv.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-fv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.5.md) | [bob-cli-fv.5](bob-cli-fv.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.6/README.md) | [bob-cli-fv.6](bob-cli-fv.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-fv.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.7/README.md) | [bob-cli-fv.7](bob-cli-fv.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-fv.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.8/README.md) | [bob-cli-fv.8](bob-cli-fv.8.md) | 0 |
@@ -91,6 +91,7 @@ flowchart TD
 | bob-cli | [`1562baa`](https://github.com/bobs-org/bob-cli/commit/1562baab267edf7663a178972e96c15baa583671) | feat(gcal): indent CANCEL LOG like the Task Card writer | [bob-cli-fv.2](bob-cli-fv.2.md) | 2026-11-02 09:59:39 EST |
 | bob-cli | [`35c0a39`](https://github.com/bobs-org/bob-cli/commit/35c0a39a9f7c5b909db517b4aa94e0d67eff869d) | feat(gcal): parse calendar descriptions into structured lines | [bob-cli-fv.3](bob-cli-fv.3.md) | 2026-11-02 10:31:52 EST |
 | bob-cli | [`cba88d0`](https://github.com/bobs-org/bob-cli/commit/cba88d0d785aa47c1ba3720c035f4cab4b7786bb) | feat(gcal): filter vendor boilerplate from event descriptions | [bob-cli-fv.4](bob-cli-fv.4.md) | 2026-11-02 10:54:17 EST |
+| bob-cli | [`3d251ba`](https://github.com/bobs-org/bob-cli/commit/3d251ba21e35d421402475c659112cd7fed1228e) | feat(gcal): render calendar description bullets | [bob-cli-fv.5](bob-cli-fv.5.md) | 2026-11-02 11:31:01 EST |
 
 <!-- sase:referenced-by:start -->
 

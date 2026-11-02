@@ -18,7 +18,7 @@ description-parser: one linear HTML/plain-text parse into structured lines that 
 ## Dependencies
 
 - **Blocks:** [bob-cli-fv.4](bob-cli-fv.4.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fv.5](bob-cli-fv.5.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.5](bob-cli-fv.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
