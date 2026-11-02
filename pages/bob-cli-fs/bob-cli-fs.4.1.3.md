@@ -18,7 +18,7 @@ parks: wire every Pomodoro close path to relation planning, preserve baseline an
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.4.1.2](bob-cli-fs.4.1.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -31,3 +31,15 @@ parks: wire every Pomodoro close path to relation planning, preserve baseline an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`690f006`](https://github.com/bobs-org/bob-cli/commit/690f006a9ca85cb219b07f05c63f3d0f2644f02b) | feat(capture): plan parked successors on pomodoro close | [bob-cli-fs.4.1.3](bob-cli-fs.4.1.3.md) | 2026-11-02 15:00:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.4.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->

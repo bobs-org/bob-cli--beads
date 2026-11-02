@@ -13,7 +13,7 @@ presentation: emit ordered pull-in groups and copy for every offer kind, render 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.4.1.6](bob-cli-fs.4.1.6.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
