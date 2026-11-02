@@ -7,6 +7,18 @@
 **Created:** 2026-11-02 09:28:50 EST
 **Plan:** [202611/gcal\_description\_bullets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_description_bullets.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/gcal_description_bullets.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_description_bullets.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 `bob gcal sync` writes the human part of each Google Calendar event description as sanitized, capped, flat bullets directly under the Event Task it creates. Directive lines and video-call boilerplate are left out. The bullets follow Google until Bryan edits them, they can never trigger Bob, Dataview, or Tasks behavior, and they read cleanly in Source mode, Live Preview, and Reading view.
@@ -17,7 +29,7 @@
 |---|---|---|---|---|---:|---:|
 | [bob-cli-fv.1](bob-cli-fv.1.md) | Inert note-text escaper | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.2](bob-cli-fv.2.md) | CANCEL LOG indentation matches the plugin writer | ✓ closed | small | 2026-11-02 | 1 | 1 |
-| [bob-cli-fv.3](bob-cli-fv.3.md) | Structured description parser | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [bob-cli-fv.3](bob-cli-fv.3.md) | Structured description parser | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.4](bob-cli-fv.4.md) | Separator, badge-duplicate, and vendor boilerplate filter | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fv.5](bob-cli-fv.5.md) | Bullet renderer, guards, and scanner-isolation gate | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fv.6](bob-cli-fv.6.md) | Bullets on created and upgraded Event Tasks | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
@@ -31,7 +43,7 @@ flowchart TD
     n0["bob-cli-fv: Google Calendar descriptions become Event Task bullets [in_progress]"]
     n1["bob-cli-fv.1: Inert note-text escaper [closed]"]
     n2["bob-cli-fv.2: CANCEL LOG indentation matches the plugin writer [closed]"]
-    n3["bob-cli-fv.3: Structured description parser [in_progress]"]
+    n3["bob-cli-fv.3: Structured description parser [closed]"]
     n4["bob-cli-fv.4: Separator, badge-duplicate, and vendor boilerplate filter [in_progress]"]
     n5["bob-cli-fv.5: Bullet renderer, guards, and scanner-isolation gate [in_progress]"]
     n6["bob-cli-fv.6: Bullets on created and upgraded Event Tasks [in_progress]"]
@@ -61,7 +73,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fv.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.1/README.md) | [bob-cli-fv.1](bob-cli-fv.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.2.md) | [bob-cli-fv.2](bob-cli-fv.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-fv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.3/README.md) | [bob-cli-fv.3](bob-cli-fv.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-fv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.3/README.md) | [bob-cli-fv.3](bob-cli-fv.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.4/README.md) | [bob-cli-fv.4](bob-cli-fv.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.5/README.md) | [bob-cli-fv.5](bob-cli-fv.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-fv.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.6/README.md) | [bob-cli-fv.6](bob-cli-fv.6.md) | 0 |
@@ -75,3 +87,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`0dfaeaa`](https://github.com/bobs-org/bob-cli/commit/0dfaeaa3429af245ac7957df87c1abdeea6a8bc6) | feat(native): add shared task\_text\_escape module for note escaping | [bob-cli-fv.1](bob-cli-fv.1.md) | 2026-11-02 09:49:30 EST |
 | bob-cli | [`1562baa`](https://github.com/bobs-org/bob-cli/commit/1562baab267edf7663a178972e96c15baa583671) | feat(gcal): indent CANCEL LOG like the Task Card writer | [bob-cli-fv.2](bob-cli-fv.2.md) | 2026-11-02 09:59:39 EST |
+| bob-cli | [`35c0a39`](https://github.com/bobs-org/bob-cli/commit/35c0a39a9f7c5b909db517b4aa94e0d67eff869d) | feat(gcal): parse calendar descriptions into structured lines | [bob-cli-fv.3](bob-cli-fv.3.md) | 2026-11-02 10:31:52 EST |

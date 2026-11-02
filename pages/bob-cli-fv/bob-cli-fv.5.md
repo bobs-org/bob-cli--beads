@@ -14,7 +14,7 @@ bullet-renderer: turn parsed lines into sanitized, capped bullet bodies with tid
 ## Dependencies
 
 - **Depends on:** [bob-cli-fv.1](bob-cli-fv.1.md) ✓ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-fv.3](bob-cli-fv.3.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fv.3](bob-cli-fv.3.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fv.6](bob-cli-fv.6.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

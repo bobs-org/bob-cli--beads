@@ -32,3 +32,15 @@ cancel-log-indent: make the gcal CANCEL LOG writer reuse the task's existing chi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1562baa`](https://github.com/bobs-org/bob-cli/commit/1562baab267edf7663a178972e96c15baa583671) | feat(gcal): indent CANCEL LOG like the Task Card writer | [bob-cli-fv.2](bob-cli-fv.2.md) | 2026-11-02 09:59:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fv.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.2.md
+
+<!-- sase:referenced-by:end -->
