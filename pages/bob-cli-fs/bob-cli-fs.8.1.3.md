@@ -13,7 +13,7 @@ done_runtime: connect relationIndex v2 to every managed Done gesture with cheap 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.8.1.2](bob-cli-fs.8.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.8.1.2](bob-cli-fs.8.1.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

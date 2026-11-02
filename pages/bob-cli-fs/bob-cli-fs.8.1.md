@@ -7,6 +7,20 @@
 **Created:** 2026-11-02 07:08:24 EST
 **Plan:** [202611/cycler\_relation\_successors.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_relation_successors.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/cycler_relation_successors.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_relation_successors.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-fs.8 with explicit relation-successor picks on every managed Obsidian Done gesture, fresh revalidation, correct notices and undo, and a verified deployed cycler build.
