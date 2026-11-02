@@ -22,7 +22,7 @@ buffer-grammar: HTML-safe combinable directive lines in gcal/model.rs, EventBuff
 ## Dependencies
 
 - **Blocks:** [bob-cli-fk.2](bob-cli-fk.2.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fk.3](bob-cli-fk.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fk.3](bob-cli-fk.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fk.4](bob-cli-fk.4.md) ◐ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fk.5](bob-cli-fk.5.md) ◐ · ⧖ 2026-11-01
 
@@ -37,3 +37,15 @@ buffer-grammar: HTML-safe combinable directive lines in gcal/model.rs, EventBuff
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2e49a56`](https://github.com/bobs-org/bob-cli/commit/2e49a561d08777b6ee8a130202f1bd0621670ef4) | feat(gcal): parse event buffers from HTML-safe directive lines | [bob-cli-fk.1](bob-cli-fk.1.md) | 2026-11-01 22:36:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fk.1][1] | Need notes, design, and remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.1/README.md
+
+<!-- sase:referenced-by:end -->

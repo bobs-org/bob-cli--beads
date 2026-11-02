@@ -14,7 +14,7 @@ plugins-buffers: copy and pin the vectors, make 035-meet-event-run.js buffer-awa
 ## Dependencies
 
 - **Depends on:** [bob-cli-fk.1](bob-cli-fk.1.md) ✓ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fk.3](bob-cli-fk.3.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fk.3](bob-cli-fk.3.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

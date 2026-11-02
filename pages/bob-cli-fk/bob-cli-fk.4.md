@@ -11,6 +11,10 @@
 
 agenda-buffers: per-row and chip buffer objects, buffer-aware gap/conflict/start_hint/refresh_at, the human Events block label, and a new agenda-events-buffered golden.
 
+## Notes
+
+[2026-11-02T03:54:20Z · bob-cli-fk.4] PROPOSED FOLLOW-UP: Add the Event Task glossary buffer sentence — the approved plan declined editing glossary:event-task, so document the [buffer::] occupied-span behavior there later.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-fk.1](bob-cli-fk.1.md) ✓ · ⧖ 2026-11-01
@@ -20,4 +24,4 @@ agenda-buffers: per-row and chip buffer objects, buffer-aware gap/conflict/start
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.4/README.md) | [bob-cli-fk.4](bob-cli-fk.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fk.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fk.4.md) | [bob-cli-fk.4](bob-cli-fk.4.md) | 0 |
