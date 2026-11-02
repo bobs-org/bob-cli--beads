@@ -34,3 +34,15 @@ finish: implement KM21 with later-item provenance, render the approved human cop
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8347a46`](https://github.com/bobs-org/bob-cli/commit/8347a46d949c31078dbea284c0ed1d869e3bb952) | feat(capture): net keep-moving batches, render human copy, and gate snapshot work | [bob-cli-fb.2.1.3](bob-cli-fb.2.1.3.md) | 2026-11-01 18:23:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fb.2.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->

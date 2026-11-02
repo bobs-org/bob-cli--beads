@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-fb](README.md) / bob-cli-fb.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bz](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bz.md) · **Assignee:** `bob-cli-fb.2` · **Size:** large
-**Created:** 2026-11-01 12:29:36 EST
+**Created:** 2026-11-01 12:29:36 EST · **Closed:** 2026-11-01 21:08:29 EST
 **Plan:** [202611/leaf\_project\_keep\_moving\_offers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/leaf_project_keep_moving_offers.md)
 
 ## Description

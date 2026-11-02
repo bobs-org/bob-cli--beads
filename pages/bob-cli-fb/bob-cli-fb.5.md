@@ -13,10 +13,22 @@ mac: decode keep_moving arrays and present them in the Pull-In card, preview car
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fb.2](bob-cli-fb.2.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fb.2](bob-cli-fb.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-fb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fb.5/README.md) | [bob-cli-fb.5](bob-cli-fb.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.5m.final][1] | Check whether keep-moving Mac presentation hardcodes per-group copy, to evaluate bob-authored group copy for starts-after | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5m.final/README.md
+
+<!-- sase:referenced-by:end -->
