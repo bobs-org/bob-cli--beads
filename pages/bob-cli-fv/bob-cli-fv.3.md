@@ -17,7 +17,7 @@ description-parser: one linear HTML/plain-text parse into structured lines that 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fv.4](bob-cli-fv.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.4](bob-cli-fv.4.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fv.5](bob-cli-fv.5.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
@@ -31,3 +31,15 @@ description-parser: one linear HTML/plain-text parse into structured lines that 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`35c0a39`](https://github.com/bobs-org/bob-cli/commit/35c0a39a9f7c5b909db517b4aa94e0d67eff869d) | feat(gcal): parse calendar descriptions into structured lines | [bob-cli-fv.3](bob-cli-fv.3.md) | 2026-11-02 10:31:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fv.3][1] | Need full description, notes, design file, and attachments | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.3/README.md
+
+<!-- sase:referenced-by:end -->
