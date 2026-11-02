@@ -23,7 +23,7 @@ capture-merge: repurpose =* as merge, keeping retired-close teaching for digit a
 
 - **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ◐ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fe.3](bob-cli-fe.3.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.9](bob-cli-fe.9.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.9](bob-cli-fe.9.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -36,3 +36,15 @@ capture-merge: repurpose =* as merge, keeping retired-close teaching for digit a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bb92fb1`](https://github.com/bobs-org/bob-cli/commit/bb92fb1c07fadeb9117bb23f93f6e09fd60bf340) | feat(capture)!: add =\* merge syntax end to end | [bob-cli-fe.4](bob-cli-fe.4.md) | 2026-11-01 22:35:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fe.4][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-fe](README.md) / bob-cli-fe.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.c4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.c4.md) · **Assignee:** `bob-cli-fe.9` · **Size:** medium
-**Created:** 2026-11-01 16:00:44 EST
+**Created:** 2026-11-01 16:00:44 EST · **Closed:** 2026-11-01 23:01:25 EST
 **Plan:** [202611/merged\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/merged_pomodoros.md)
 
 ## Description
 
 mac-capture: decode and present the new span kinds, modes, needs, split/merge preview cards, merged destination rows, and close names; accept grammar 5.
+
+## Notes
+
+[2026-11-02T04:01:25Z · bob-cli-fe.9] Implemented grammar 5 split/merge capture presentation, merged destination and close details, picker needs, and protocol docs. Verified just portable-check (1,942 tests passed) and just docs-check (447 passed, 1 skipped). Mac host-only typecheck was unavailable because mac SSH timed out. epic-symbols reported no leftovers.
 
 ## Dependencies
 
@@ -21,4 +25,10 @@ mac-capture: decode and present the new span kinds, modes, needs, split/merge pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@72daffb`](https://github.com/bobs-org/bob-mac-capture/commit/72daffb0d106a0f0a2dbed878b71725ea0e2efa6) | feat(capture): present Pomodoro split and merge previews | [bob-cli-fe.9](bob-cli-fe.9.md) | 2026-11-01 23:02:42 EST |
