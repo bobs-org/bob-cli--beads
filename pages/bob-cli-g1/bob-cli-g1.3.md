@@ -33,3 +33,15 @@ live_verify: add an isolated real-Obsidian e2e with light/dark screenshots, tune
 |---|---|---|---|---|
 | bob-cli | [`07edcdf`](https://github.com/bobs-org/bob-cli/commit/07edcdfa646ec234e2efee28dee7a201801e9f66) | docs(frees-marks): record live verification | [bob-cli-g1.3](bob-cli-g1.3.md) | 2026-11-02 15:30:36 EST |
 | bob-plugins | [`bob-plugins@a28d1af`](https://github.com/bobs-org/bob-plugins/commit/a28d1af8a5f647486b33ea4e41312aaf331fe36b) | test(ledger-tools): real-Obsidian e2e for frees marks | [bob-cli-g1.3](bob-cli-g1.3.md) | 2026-11-02 15:30:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g1.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-g1.3/README.md
+
+<!-- sase:referenced-by:end -->
