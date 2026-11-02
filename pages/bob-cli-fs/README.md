@@ -38,7 +38,7 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 | [bob-cli-fs.11](bob-cli-fs.11.md) | Enable starts after in chezmoi and smoke it | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.2](bob-cli-fs.2.md) | Rust policy and relation-successor engine | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.3](bob-cli-fs.3.md) | Rust authoring indications and relations list | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-fs.4](bob-cli-fs.4.md) | Capture events, snapshot, reporting, and bob-authored group copy | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
+| [bob-cli-fs.4](bob-cli-fs.4.md) | Capture events, snapshot, reporting, and bob-authored group copy | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.5](bob-cli-fs.5.md) | Capture unlink hand-offs (v1.1) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.6](bob-cli-fs.6.md) | Obsidian picker v3 and notice v3 presentation | ✓ closed | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.7](bob-cli-fs.7.md) | Obsidian inverse pair and relation-stage indications | ✓ closed | medium | 2026-11-02 | 1 | 0 |
@@ -59,8 +59,8 @@ flowchart TD
     n7["bob-cli-fs.2.1.2: Pure relation extraction and classification [closed]"]
     n8["bob-cli-fs.2.1.3: Merge relation offers into successor planning [closed]"]
     n9["bob-cli-fs.3: Rust authoring indications and relations list [closed]"]
-    n10["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [in_progress]"]
-    n11["bob-cli-fs.4.1: Finish capture relation successors for bob-cli-fs.4 [in_progress]"]
+    n10["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [closed]"]
+    n11["bob-cli-fs.4.1: Finish capture relation successors for bob-cli-fs.4 [closed]"]
     n12["bob-cli-fs.4.1.1: Share lazy dependency and relation source reads [closed]"]
     n13["bob-cli-fs.4.1.2: Wire managed Done events and relation JSON [closed]"]
     n14["bob-cli-fs.4.1.3: Wire Pomodoro parked and Done events [closed]"]
@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md) | [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.5/README.md) | [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.6.md) | [bob-cli-fs.4.1.6](bob-cli-fs.4.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.land/README.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.5/README.md) | [bob-cli-fs.5](bob-cli-fs.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.6/README.md) | [bob-cli-fs.6](bob-cli-fs.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.7/README.md) | [bob-cli-fs.7](bob-cli-fs.7.md) | 0 |
@@ -185,3 +185,4 @@ flowchart TD
 | bob-cli | [`d9d070b`](https://github.com/bobs-org/bob-cli/commit/d9d070b7fc1bb51d254b45fd6954bddd47e40ce8) | feat(capture): net relation offers across capture items | [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) | 2026-11-02 15:28:37 EST |
 | bob-cli | [`d53756f`](https://github.com/bobs-org/bob-cli/commit/d53756fdd5b33121191130c07a1715f9d7d481e4) | feat(capture): emit ordered pull-in groups and relation human copy | [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) | 2026-11-02 16:18:20 EST |
 | bob-cli | [`c20263c`](https://github.com/bobs-org/bob-cli/commit/c20263c6f0f3b4f2a720641a1ae579c5c9b68489) | fix(capture): skip previous-daily relation sources by relative path | [bob-cli-fs.4.1.6](bob-cli-fs.4.1.6.md) | 2026-11-02 17:51:45 EST |
+| bob-cli | [`2aec2aa`](https://github.com/bobs-org/bob-cli/commit/2aec2aa472cf90d22ce607d3805dbceb10c92f72) | perf(capture): trim relation-successor overhead and re-measure apollo budgets | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:22 EST |

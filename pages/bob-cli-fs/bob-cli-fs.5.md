@@ -14,7 +14,7 @@ capture_unlink: raise a parked event when capture's @route+id! toggle unlinks a 
 ## Dependencies
 
 - **Blocks:** [bob-cli-fs.10](bob-cli-fs.10.md) ◐ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-fs.4](bob-cli-fs.4.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.4](bob-cli-fs.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
