@@ -40,8 +40,10 @@ done_runtime: connect relationIndex v2 to every managed Done gesture with cheap 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.8.1.2][1] | need next phase scope to avoid overlap | 1 |
 | read-by | [agent:bob-cli-fs.8.1.3--2][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-fs.8.1.4][3] | Need parent DECISIONS and prior phase evidence before ship work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.8.1.3.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md
 
 <!-- sase:referenced-by:end -->

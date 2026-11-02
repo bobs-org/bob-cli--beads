@@ -11,6 +11,10 @@
 
 core: add relations.successor_labels and the LabelEffect policy, build the pure relation-successor planner and copy builder, and integrate relation offers into plan_successors (dedup, order, keys, placement), all pinned by the shared vectors.
 
+## Notes
+
+[2026-11-02T14:09:15Z · bob-cli-fs.2.1.land] CHILD LANDING BLOCKER: bob-cli-fs.2.1 is not complete despite its three closed phases. Its land audit reproduced four core bugs (identity, recovered metadata, classifier order, integrated numbering), found unused explicit slots and incomplete target-reader/verification coverage, and is proposing one medium repair tale that must close bob-cli-fs.2.1 and then this phase normally in the same coding turn. Read the child audit notes and artifacts for exact evidence. Capture remains deliberately unwired; do not treat the existing phase close notes as a verified completion of this core.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.1](bob-cli-fs.1.md) ✓ · ⧖ 2026-11-02

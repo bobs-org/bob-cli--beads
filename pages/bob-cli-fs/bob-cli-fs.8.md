@@ -11,6 +11,10 @@
 
 cycler: port the relation-successor rule to task-status-cycler over api.relationIndex, wire it into every Obsidian managed Done gesture, and present it through nav picker v3 and notice v3.
 
+## Notes
+
+[2026-11-02T14:17:15Z · bob-cli-fs.8.1.land] CHILD LANDING: bob-cli-fs.8.1 audit found six reproducible residual cycler failures, so neither child epic nor this phase is complete yet. Evidence: probe file:explicit:bcf92583e130ba24ca6dd32d and log file:explicit:f1a7a88d67cb76f8a82fbe6d (25 existing wiring pass, 6 new regression probes fail). Preparing a medium repair tale with same-turn child and phase closeout. Follow-up triage from ship .8.1.4 is complete: +1s to et/f7/eh/ff/f8 with file:explicit:793fe12a35ddf65729ac6f00; navigation fixture proposal corroborates active bob-cli-fs.2.1 repair ownership. No new tasks. Ship 1.46.0 was synced, live Electron smoke unavailable; repaired build must be reverified and synced before closing.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.1](bob-cli-fs.1.md) ✓ · ⧖ 2026-11-02
