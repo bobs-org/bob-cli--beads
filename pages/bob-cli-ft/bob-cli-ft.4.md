@@ -13,7 +13,7 @@ redundancy_folds: where the checkbox digit already says the priority, fold the s
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ft.3](bob-cli-ft.3.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-ft.3](bob-cli-ft.3.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.5](bob-cli-ft.5.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

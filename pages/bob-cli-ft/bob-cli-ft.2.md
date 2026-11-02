@@ -24,7 +24,7 @@ model: add the pure classifier fragment, the memo-local open-prerequisite index,
 ## Dependencies
 
 - **Depends on:** [bob-cli-ft.1](bob-cli-ft.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-ft.3](bob-cli-ft.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.3](bob-cli-ft.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
