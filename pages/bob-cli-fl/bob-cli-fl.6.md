@@ -13,7 +13,7 @@ plugins-stats-clock: segmented clock control with per-view totals, off-clock and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fl.3](bob-cli-fl.3.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fl.3](bob-cli-fl.3.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fl.5](bob-cli-fl.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents

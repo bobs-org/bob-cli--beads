@@ -20,7 +20,7 @@ off-clock-ledger: replace SessionTracking with SessionClock, read and write [off
 ## Dependencies
 
 - **Blocks:** [bob-cli-fl.2](bob-cli-fl.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fl.3](bob-cli-fl.3.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fl.3](bob-cli-fl.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fl.4](bob-cli-fl.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
