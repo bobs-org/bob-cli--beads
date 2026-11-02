@@ -30,10 +30,4 @@ plugins-off-clock-ledger: teach ledger writers [off::], apply the clock rule on 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.5/README.md) | [bob-cli-fl.5](bob-cli-fl.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d39b979`](https://github.com/bobs-org/bob-plugins/commit/d39b979613b0edfc7329020a6c2df8d1e82fbd1a) | feat(ledger-tools): write \[off::\] Off-Clock Pomodoros from counted Task Links | [bob-cli-fl.5](bob-cli-fl.5.md) | 2026-11-02 03:21:33 EST |
+| [bbugyi200.apollo.bob-cli-fl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.5/README.md) | [bob-cli-fl.5](bob-cli-fl.5.md) | 0 |

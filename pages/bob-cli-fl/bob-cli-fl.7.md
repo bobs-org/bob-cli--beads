@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-fl](README.md) / bob-cli-fl.7
 
-**Status:** ○ open · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.2z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.2z.linker.w0.md) · **Size:** medium
-**Created:** 2026-11-01 21:46:36 EST
+**Created:** 2026-11-01 21:46:36 EST · **Closed:** 2026-11-02 03:22:43 EST
 **Plan:** [202611/off\_clock\_pomodoros.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/off_clock_pomodoros.md)
 
 ## Description
 
 mac-off-clock: decode off_clock with untracked/tracked fallbacks, rename every pill, capsule, and spoken label to off-clock, and add a dashed off-clock chip to the agenda title line.
+
+## Notes
+
+[2026-11-02T08:22:43Z · bob-cli-fl.7--3] Implemented off-clock vocabulary, legacy fallback decoding, and the dashed agenda title chip. Athena just portable-check passed (1,966 tests). macOS targets remain unverified because the Mac SSH check timed out.
 
 ## Dependencies
 
@@ -19,4 +23,10 @@ mac-off-clock: decode off_clock with untracked/tracked fallbacks, rename every p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@2346b80`](https://github.com/bobs-org/bob-mac-capture/commit/2346b80e1aaefb0d6cf8c74032ecb02de8500c76) | feat(mac-capture): add off-clock agenda support | [bob-cli-fl.7](bob-cli-fl.7.md) | 2026-11-02 03:23:39 EST |

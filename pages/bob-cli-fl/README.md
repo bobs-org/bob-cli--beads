@@ -33,9 +33,9 @@ Sessions spent on #offclock tasks (lunch, the gym, school pickup) keep their tim
 | [bob-cli-fl.2](bob-cli-fl.2.md) | bob-cli: a session is off the clock iff every Task Link it keeps is #offclock | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fl.3](bob-cli-fl.3.md) | bob-cli: bob stats -k worked\|off-clock\|total and the clock JSON contract | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
 | [bob-cli-fl.4](bob-cli-fl.4.md) | bob-cli: bob task reconcile settles ended off-clock Event Tasks | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fl.5](bob-cli-fl.5.md) | bob-plugins: \[off::\] writers, Obsidian start/close rule, Event marks, home chips | ✓ closed | medium | 2026-11-01 | 1 | 1 |
+| [bob-cli-fl.5](bob-cli-fl.5.md) | bob-plugins: \[off::\] writers, Obsidian start/close rule, Event marks, home chips | ✓ closed | medium | 2026-11-01 | 1 | 0 |
 | [bob-cli-fl.6](bob-cli-fl.6.md) | bob-plugins: Worked · Off-clock · Total control in the Stats dash and the Day strip hint | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
-| [bob-cli-fl.7](bob-cli-fl.7.md) | bob-mac-capture: off-clock vocabulary, fallback decoding, and the title chip | ○ open | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fl.7](bob-cli-fl.7.md) | bob-mac-capture: off-clock vocabulary, fallback decoding, and the title chip | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +52,7 @@ flowchart TD
     n8["bob-cli-fl.4: bob-cli: bob task reconcile settles ended off-clock Event Tasks [closed]"]
     n9["bob-cli-fl.5: bob-plugins: [off::] writers, Obsidian start/close rule, Event marks, home chips [closed]"]
     n10["bob-cli-fl.6: bob-plugins: Worked · Off-clock · Total control in the Stats dash and the Day strip hint [in_progress]"]
-    n11["bob-cli-fl.7: bob-mac-capture: off-clock vocabulary, fallback decoding, and the title chip [open]"]
+    n11["bob-cli-fl.7: bob-mac-capture: off-clock vocabulary, fallback decoding, and the title chip [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -87,9 +87,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.3/README.md) | [bob-cli-fl.3.1.3](bob-cli-fl.3.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.3.1.land/README.md) | [bob-cli-fl.3.1](bob-cli-fl.3.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.4/README.md) | [bob-cli-fl.4](bob-cli-fl.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.5/README.md) | [bob-cli-fl.5](bob-cli-fl.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.5/README.md) | [bob-cli-fl.5](bob-cli-fl.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.6/README.md) | [bob-cli-fl.6](bob-cli-fl.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.7.md) | [bob-cli-fl.7](bob-cli-fl.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fl.land/README.md) | [bob-cli-fl](README.md) | 0 |
 
 ## Commits
@@ -100,7 +100,7 @@ flowchart TD
 | bob-cli | [`f171e3c`](https://github.com/bobs-org/bob-cli/commit/f171e3cc2096ce3e6f3658e550ff3d22b7d5fd84) | feat(task-status-hooks): settle ended off-clock event tasks into closed sessions | [bob-cli-fl.4](bob-cli-fl.4.md) | 2026-11-02 02:17:13 EST |
 | bob-cli | [`4d950c5`](https://github.com/bobs-org/bob-cli/commit/4d950c58a5b198fcb89067d6fd6b1fc26c2f09b4) | feat(stats): evaluate Pomodoro metrics on worked, off-clock, and total clocks | [bob-cli-fl.3.1.1](bob-cli-fl.3.1.1.md) | 2026-11-02 02:27:24 EST |
 | bob-cli | [`71a65da`](https://github.com/bobs-org/bob-cli/commit/71a65dad49413ba3662098834f01fbecda70fdd9) | feat(capture): stamp session clock from counted Task Links | [bob-cli-fl.2](bob-cli-fl.2.md) | 2026-11-02 02:51:13 EST |
-| bob-plugins | [`bob-plugins@d39b979`](https://github.com/bobs-org/bob-plugins/commit/d39b979613b0edfc7329020a6c2df8d1e82fbd1a) | feat(ledger-tools): write \[off::\] Off-Clock Pomodoros from counted Task Links | [bob-cli-fl.5](bob-cli-fl.5.md) | 2026-11-02 03:21:33 EST |
+| bob-mac-capture | [`bob-mac-capture@2346b80`](https://github.com/bobs-org/bob-mac-capture/commit/2346b80e1aaefb0d6cf8c74032ecb02de8500c76) | feat(mac-capture): add off-clock agenda support | [bob-cli-fl.7](bob-cli-fl.7.md) | 2026-11-02 03:23:39 EST |
 
 <!-- sase:referenced-by:start -->
 
