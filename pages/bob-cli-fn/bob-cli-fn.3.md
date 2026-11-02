@@ -42,7 +42,9 @@ editor-assists: open the `project_task_block_id` prompt on list bullets and thei
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fn.3--2][1] | Need the phase scope, design file, notes, and prior work status before finalizing | 1 |
+| read-by | [agent:bob-cli-fn.4][2] | Check whether the earlier phase recorded notes and the skipped decision-record follow-up | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.4/README.md
 
 <!-- sase:referenced-by:end -->

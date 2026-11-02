@@ -36,3 +36,15 @@ mac-lists: in bob-mac-capture, apply Bob's block-ID splice on accept, caption th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@0f2f46f`](https://github.com/bobs-org/bob-mac-capture/commit/0f2f46feabf1136f65534399ccf4c20b34192107) | feat(capture): present lists, owner-line ID splices, and the first bullet | [bob-cli-fn.4](bob-cli-fn.4.md) | 2026-11-02 04:43:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fn.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.4/README.md
+
+<!-- sase:referenced-by:end -->
