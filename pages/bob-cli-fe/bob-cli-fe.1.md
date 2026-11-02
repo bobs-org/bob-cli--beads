@@ -19,8 +19,8 @@ routing-core: implement R1–R7 as pure Rust planners (land, merge_names, narrow
 
 - **Blocks:** [bob-cli-fe.2](bob-cli-fe.2.md) ◐ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fe.3](bob-cli-fe.3.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.5](bob-cli-fe.5.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.6](bob-cli-fe.6.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.5](bob-cli-fe.5.md) ✓ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.6](bob-cli-fe.6.md) ○ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -33,3 +33,15 @@ routing-core: implement R1–R7 as pure Rust planners (land, merge_names, narrow
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`675330d`](https://github.com/bobs-org/bob-cli/commit/675330dd5e4be39ebe920931b28a01b852bf78d5) | feat(types): add merged-Pomodoro routing planners | [bob-cli-fe.1](bob-cli-fe.1.md) | 2026-11-01 17:35:55 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fe.1][1] | Need notes, children, and remaining work from earlier agents | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.1/README.md
+
+<!-- sase:referenced-by:end -->

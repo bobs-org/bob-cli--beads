@@ -14,7 +14,7 @@ obsidian-ctrl-s: add the planSplit mirror, a contextual Ctrl+S dispatch, a palet
 ## Dependencies
 
 - **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ◐ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fe.6](bob-cli-fe.6.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fe.6](bob-cli-fe.6.md) ○ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fe.8](bob-cli-fe.8.md) ◐ · ⧖ 2026-11-01
 
 ## Agents

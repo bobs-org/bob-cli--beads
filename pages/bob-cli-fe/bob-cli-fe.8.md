@@ -14,7 +14,7 @@ obsidian-close-names: mirror R6 narrowing and shedding in task-status-cycler's P
 ## Dependencies
 
 - **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ◐ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fe.5](bob-cli-fe.5.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fe.5](bob-cli-fe.5.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fe.7](bob-cli-fe.7.md) ◐ · ⧖ 2026-11-01
 
 ## Agents

@@ -15,7 +15,7 @@ mac-capture: decode and present the new span kinds, modes, needs, split/merge pr
 
 - **Depends on:** [bob-cli-fe.2](bob-cli-fe.2.md) ◐ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fe.4](bob-cli-fe.4.md) ◐ · ⧖ 2026-11-01
-- **Depends on:** [bob-cli-fe.5](bob-cli-fe.5.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [bob-cli-fe.5](bob-cli-fe.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
