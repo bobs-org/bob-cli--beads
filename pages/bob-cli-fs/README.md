@@ -27,6 +27,8 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 
 [2026-11-02T14:02:41Z · bob-cli-fs.2.1.land] DISCOVERED ISSUE: Landing bob-cli-fs.2.1 verified phase bob-cli-fs.2.1.1 PROPOSED FOLLOW-UP notes #1/#2. At bob-cli cb729a76 and bob-plugins 5f1c23c, cycler relation_successor/vectors.json is byte-identical to bob-cli (SHA256 08ffccedd68489dbfc06c73faf7a1be65df7b49cb48fdee1804f98d748c11cc0), but navigation fixtures still have invalid unquoted SA23 YAML and the 49-character SU-P22 expectation. Navigation src/206b-successor-relation-copy.js also slices 48 UTF-16 code units then appends ellipsis, violating the approved 48-character-inclusive Unicode-safe cap. This is outstanding integration caused by the shared fixture correction, not a new task; the bob-cli-fs.2.1 landing repair tale will sync the navigation fixture and repair/verify its truncation. No changes to other parent phases are requested.
 
+[2026-11-02T18:15:19Z · bob-cli-fl.land] DISCOVERED ISSUE (from bob-cli-fl land agent, 2026-11-02): just check fails on master d8b4d4fb in docs_reference::cli_reference_is_current — docs/reference/cli/capture-complete.md, capture-parse.md, and relations.md are out of date. BOB_UPDATE_GOLDENS=1 cargo test --test cli docs_reference regenerates one line in each: 'Configured cancel and complete labels' becomes 'Configured cancel, complete, and successor labels', adding offers_source / relation_successor wording. That is the help text added by d8b4d4fb feat(relations): surface successor label effects (SASE_BEAD bob-cli-fs.3). Fix: run just docs-gen and commit the three regenerated reference pages. bob-cli-fl did not change them, to avoid colliding with this epic's landing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -60,7 +62,7 @@ flowchart TD
     n10["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [in_progress]"]
     n11["bob-cli-fs.4.1: Finish capture relation successors for bob-cli-fs.4 [in_progress]"]
     n12["bob-cli-fs.4.1.1: Share lazy dependency and relation source reads [closed]"]
-    n13["bob-cli-fs.4.1.2: Wire managed Done events and relation JSON [in_progress]"]
+    n13["bob-cli-fs.4.1.2: Wire managed Done events and relation JSON [closed]"]
     n14["bob-cli-fs.4.1.3: Wire Pomodoro parked and Done events [in_progress]"]
     n15["bob-cli-fs.4.1.4: Net relation offers across capture items [in_progress]"]
     n16["bob-cli-fs.4.1.5: Author generic pull-in copy and relation human output [in_progress]"]
@@ -146,7 +148,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.3.md) | [bob-cli-fs.3](bob-cli-fs.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.md) | [bob-cli-fs.4](bob-cli-fs.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.1.md) | [bob-cli-fs.4.1.1](bob-cli-fs.4.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.2/README.md) | [bob-cli-fs.4.1.2](bob-cli-fs.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.2.md) | [bob-cli-fs.4.1.2](bob-cli-fs.4.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.3/README.md) | [bob-cli-fs.4.1.3](bob-cli-fs.4.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md) | [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.5/README.md) | [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) | 0 |
@@ -178,3 +180,4 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@07e1151`](https://github.com/bobs-org/bob-cli--plans/commit/07e115192e515d4e1d6db2ab384869ca0ce89030) | docs(plans): mark relation successor core complete | [bob-cli-fs.2.1](bob-cli-fs.2.1.md) | 2026-11-02 12:18:27 EST |
 | bob-cli | [`d8b4d4f`](https://github.com/bobs-org/bob-cli/commit/d8b4d4fbdc7b9ec4868798fb40cacb687a10ebaf) | feat(relations): surface successor label effects | [bob-cli-fs.3](bob-cli-fs.3.md) | 2026-11-02 12:49:04 EST |
 | bob-cli | [`30ae6ac`](https://github.com/bobs-org/bob-cli/commit/30ae6ac9786b58eeb5086cd1c6fea9ce808d55fe) | feat(capture): share lazy relation source snapshots | [bob-cli-fs.4.1.1](bob-cli-fs.4.1.1.md) | 2026-11-02 13:16:29 EST |
+| bob-cli | [`e013169`](https://github.com/bobs-org/bob-cli/commit/e01316937db67b83b5cb9f9824c99748b5043438) | feat(capture): offer relation successors on managed Done | [bob-cli-fs.4.1.2](bob-cli-fs.4.1.2.md) | 2026-11-02 14:29:08 EST |

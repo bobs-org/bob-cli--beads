@@ -13,7 +13,7 @@ parks: wire every Pomodoro close path to relation planning, preserve baseline an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.4.1.2](bob-cli-fs.4.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.4.1.2](bob-cli-fs.4.1.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
