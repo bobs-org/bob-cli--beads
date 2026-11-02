@@ -22,7 +22,7 @@ capture-link-merge: make named capture links, ref today, and #type markers merge
 ## Dependencies
 
 - **Depends on:** [bob-cli-fe.1](bob-cli-fe.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fe.9](bob-cli-fe.9.md) ✓ · ⧖ 2026-11-01
 
 ## Agents

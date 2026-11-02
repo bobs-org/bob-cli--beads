@@ -21,7 +21,7 @@ capture-merge: repurpose =* as merge, keeping retired-close teaching for digit a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ✓ · ⧖ 2026-11-01
 - **Depends on:** [bob-cli-fe.3](bob-cli-fe.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fe.9](bob-cli-fe.9.md) ✓ · ⧖ 2026-11-01
 

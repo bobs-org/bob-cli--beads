@@ -20,8 +20,8 @@ capture-close-names: apply R6 in the shared close planner using pre-close task t
 ## Dependencies
 
 - **Depends on:** [bob-cli-fe.1](bob-cli-fe.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fe.8](bob-cli-fe.8.md) ○ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.10](bob-cli-fe.10.md) ✓ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fe.8](bob-cli-fe.8.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fe.9](bob-cli-fe.9.md) ✓ · ⧖ 2026-11-01
 
 ## Agents

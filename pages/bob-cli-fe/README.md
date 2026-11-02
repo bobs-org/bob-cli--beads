@@ -38,14 +38,14 @@ A Pomodoro that holds several task types is a first-class merged Pomodoro. Linki
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-fe.1](bob-cli-fe.1.md) | Pure planners and shared vectors (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fe.10](bob-cli-fe.10.md) | Merged Pomodoro memory (bob-cli) | ◐ in_progress | small | 2026-11-01 | 1 | 0 |
+| [bob-cli-fe.10](bob-cli-fe.10.md) | Merged Pomodoro memory (bob-cli) | ✓ closed | small | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.2](bob-cli-fe.2.md) | Capture lands by merging (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.3](bob-cli-fe.3.md) | The =/ split syntax end to end (bob-cli) | ✓ closed | large | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.4](bob-cli-fe.4.md) | The =\* merge syntax end to end (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.5](bob-cli-fe.5.md) | x narrows the closed name and sheds the carried name (bob-cli) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [bob-cli-fe.6](bob-cli-fe.6.md) | Obsidian pickers merge by default (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
-| [bob-cli-fe.7](bob-cli-fe.7.md) | Ctrl+S splits the selected Pomodoro (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [bob-cli-fe.8](bob-cli-fe.8.md) | Ctrl+Enter Pomodoro completion parity (bob-plugins) | ○ open | medium | 2026-11-01 | 1 | 1 |
+| [bob-cli-fe.7](bob-cli-fe.7.md) | Ctrl+S splits the selected Pomodoro (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
+| [bob-cli-fe.8](bob-cli-fe.8.md) | Ctrl+Enter Pomodoro completion parity (bob-plugins) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
 | [bob-cli-fe.9](bob-cli-fe.9.md) | Present split, merge, merged links, and close names (Bob Mac Capture) | ✓ closed | medium | 2026-11-01 | 1 | 0 |
 
 ## Lineage
@@ -54,14 +54,14 @@ A Pomodoro that holds several task types is a first-class merged Pomodoro. Linki
 flowchart TD
     n0["bob-cli-fe: Merged Pomodoros: merge by default, split and merge by type, honest close names [in_progress]"]
     n1["bob-cli-fe.1: Pure planners and shared vectors (bob-cli) [closed]"]
-    n2["bob-cli-fe.10: Merged Pomodoro memory (bob-cli) [in_progress]"]
+    n2["bob-cli-fe.10: Merged Pomodoro memory (bob-cli) [closed]"]
     n3["bob-cli-fe.2: Capture lands by merging (bob-cli) [closed]"]
     n4["bob-cli-fe.3: The =/ split syntax end to end (bob-cli) [closed]"]
     n5["bob-cli-fe.4: The =* merge syntax end to end (bob-cli) [closed]"]
     n6["bob-cli-fe.5: x narrows the closed name and sheds the carried name (bob-cli) [closed]"]
     n7["bob-cli-fe.6: Obsidian pickers merge by default (bob-plugins) [closed]"]
     n8["bob-cli-fe.7: Ctrl+S splits the selected Pomodoro (bob-plugins) [closed]"]
-    n9["bob-cli-fe.8: Ctrl+Enter Pomodoro completion parity (bob-plugins) [open]"]
+    n9["bob-cli-fe.8: Ctrl+Enter Pomodoro completion parity (bob-plugins) [closed]"]
     n10["bob-cli-fe.9: Present split, merge, merged links, and close names (Bob Mac Capture) [closed]"]
     n0 --> n1
     n0 --> n2
@@ -96,14 +96,14 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-fe.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.1/README.md) | [bob-cli-fe.1](bob-cli-fe.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fe.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.10/README.md) | [bob-cli-fe.10](bob-cli-fe.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fe.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.10/README.md) | [bob-cli-fe.10](bob-cli-fe.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.2/README.md) | [bob-cli-fe.2](bob-cli-fe.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fe.3.md) | [bob-cli-fe.3](bob-cli-fe.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.4/README.md) | [bob-cli-fe.4](bob-cli-fe.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.5/README.md) | [bob-cli-fe.5](bob-cli-fe.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fe.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fe.6.md) | [bob-cli-fe.6](bob-cli-fe.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-fe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.7/README.md) | [bob-cli-fe.7](bob-cli-fe.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.7/README.md) | [bob-cli-fe.7](bob-cli-fe.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-fe.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.8/README.md) | [bob-cli-fe.8](bob-cli-fe.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fe.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.9/README.md) | [bob-cli-fe.9](bob-cli-fe.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-fe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fe.land/README.md) | [bob-cli-fe](README.md) | 0 |
 
@@ -116,8 +116,7 @@ flowchart TD
 | bob-cli | [`d712168`](https://github.com/bobs-org/bob-cli/commit/d712168f88c4240340115d61f45d424c7f45c066) | feat(capture)!: land named captures by merging types | [bob-cli-fe.2](bob-cli-fe.2.md) | 2026-11-01 20:22:41 EST |
 | bob-cli | [`ccd1ada`](https://github.com/bobs-org/bob-cli/commit/ccd1ada109a634bf58b2261b5f3c0a2a84daa5ef) | feat(capture)!: add =/ split syntax end to end | [bob-cli-fe.3](bob-cli-fe.3.md) | 2026-11-01 21:20:36 EST |
 | bob-cli | [`bb92fb1`](https://github.com/bobs-org/bob-cli/commit/bb92fb1c07fadeb9117bb23f93f6e09fd60bf340) | feat(capture)!: add =\* merge syntax end to end | [bob-cli-fe.4](bob-cli-fe.4.md) | 2026-11-01 22:35:11 EST |
-| bob-plugins | [`bob-plugins@3bab3c0`](https://github.com/bobs-org/bob-plugins/commit/3bab3c0345f589455c7a9b81f009e51535e7967e) | feat(bob-plugins): Ctrl+S splits the selected Pomodoro by type | [bob-cli-fe.7](bob-cli-fe.7.md) | 2026-11-02 06:16:16 EST |
-| bob-plugins | [`bob-plugins@7a647e8`](https://github.com/bobs-org/bob-plugins/commit/7a647e821406caf09dfe8a7d124cdc5e55609fcd) | feat(pomodoro): mirror close-name shedding in cycler | [bob-cli-fe.8](bob-cli-fe.8.md) | 2026-11-02 06:40:16 EST |
+| bob-cli | [`aeb9674`](https://github.com/bobs-org/bob-cli/commit/aeb9674d0255f6538b256f642cd67f16816b94e2) | docs(memory): add Merged Pomodoro glossary strand | [bob-cli-fe.10](bob-cli-fe.10.md) | 2026-11-02 13:28:40 EST |
 
 <!-- sase:referenced-by:start -->
 
