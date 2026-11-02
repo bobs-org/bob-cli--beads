@@ -21,7 +21,7 @@ note-bullets: let a note-less `@route+id` (or `@route+id#drawer`) item file each
 
 - **Depends on:** [bob-cli-fc.1](bob-cli-fc.1.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fc.3](bob-cli-fc.3.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fc.4](bob-cli-fc.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fc.4](bob-cli-fc.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -42,7 +42,9 @@ note-bullets: let a note-less `@route+id` (or `@route+id#drawer`) item file each
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fc.2][1] | check full scope and notes | 4 |
+| read-by | [agent:bob-cli-fc.3][2] | Check phase 2 notes for duplicate follow-ups | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fc.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fc.3/README.md
 
 <!-- sase:referenced-by:end -->

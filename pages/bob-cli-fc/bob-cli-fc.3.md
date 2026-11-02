@@ -22,7 +22,7 @@ bullet-menu: open the drawer completion menu at a first-level bullet's `#`, repl
 ## Dependencies
 
 - **Depends on:** [bob-cli-fc.2](bob-cli-fc.2.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fc.4](bob-cli-fc.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fc.4](bob-cli-fc.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -35,3 +35,15 @@ bullet-menu: open the drawer completion menu at a first-level bullet's `#`, repl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`971d864`](https://github.com/bobs-org/bob-cli/commit/971d864f6c8ca91ed78f01aca41c0f4d93643efa) | feat(capture): bullet drawer completion menu, docs, and memory records | [bob-cli-fc.3](bob-cli-fc.3.md) | 2026-11-01 20:54:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fc.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fc.3/README.md
+
+<!-- sase:referenced-by:end -->
