@@ -17,7 +17,7 @@ contract: write bob-cli docs/blocked-marks.md (marks, precedence, families and t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ft.2](bob-cli-ft.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-ft.2](bob-cli-ft.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ contract: write bob-cli docs/blocked-marks.md (marks, precedence, families and t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`16f3a28`](https://github.com/bobs-org/bob-cli/commit/16f3a28f5d63bfb77ec679d7da86355c0211b68a) | docs(blocked-marks): add blocked-marks contract and register docs contracts | [bob-cli-ft.1](bob-cli-ft.1.md) | 2026-11-02 06:39:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ft.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ft.1/README.md
+
+<!-- sase:referenced-by:end -->

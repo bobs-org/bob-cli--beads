@@ -13,7 +13,7 @@ editor_marks: render the marks on Blocked checkboxes in Live Preview, reading vi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ft.2](bob-cli-ft.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-ft.2](bob-cli-ft.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.4](bob-cli-ft.4.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-ft.7](bob-cli-ft.7.md) ◐ · ⧖ 2026-11-02
 
