@@ -45,10 +45,11 @@ Follow-up outcomes: neither fn.5.1 nor fn.5.2 has a PROPOSED FOLLOW-UP. fn.5.1 n
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-fn.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.land.md) | [bob-cli-fn.5](bob-cli-fn.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fn.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.land.md) | [bob-cli-fn.5](bob-cli-fn.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`05b7fb1`](https://github.com/bobs-org/bob-cli/commit/05b7fb1b1842c46641aaa6aabea8f29a5b9f2c84) | fix(capture): round-trip section completion replacements to the picked heading | [bob-cli-fn.5](bob-cli-fn.5.md) | 2026-11-02 11:19:20 EST |
+| bob-cli--plans | [`bob-cli--plans@dd97128`](https://github.com/bobs-org/bob-cli--plans/commit/dd971286fe31b8ee1348a99fb618abda3f704aa2) | chore(plans): mark capture list section-names and route-lists epics done | [bob-cli-fn.5](bob-cli-fn.5.md) | 2026-11-02 11:20:08 EST |

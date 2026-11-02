@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-fn.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fn.4/README.md) | [bob-cli-fn.4](bob-cli-fn.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.1.md) | [bob-cli-fn.5.1](bob-cli-fn.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-fn.5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.2.md) | [bob-cli-fn.5.2](bob-cli-fn.5.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-fn.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.land.md) | [bob-cli-fn.5](bob-cli-fn.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-fn.5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.5.land.md) | [bob-cli-fn.5](bob-cli-fn.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-fn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fn.land.md) | [bob-cli-fn](README.md) | 1 |
 
 ## Commits
@@ -114,6 +114,7 @@ flowchart TD
 | bob-cli | [`b483c93`](https://github.com/bobs-org/bob-cli/commit/b483c93b0ec02c5589ef0535d78de10ee31f0afb) | feat(capture): round-trip spaced section selectors | [bob-cli-fn.5.1](bob-cli-fn.5.1.md) | 2026-11-02 08:40:45 EST |
 | bob-mac-capture | [`bob-mac-capture@f4ed5bb`](https://github.com/bobs-org/bob-mac-capture/commit/f4ed5bbcb3c8c07384a9dec3190127eea46eba3c) | feat(mac-capture): undoable ID splices with window-hosted native undo tests | [bob-cli-fn.5.2](bob-cli-fn.5.2.md) | 2026-11-02 10:19:33 EST |
 | bob-cli | [`05b7fb1`](https://github.com/bobs-org/bob-cli/commit/05b7fb1b1842c46641aaa6aabea8f29a5b9f2c84) | fix(capture): round-trip section completion replacements to the picked heading | [bob-cli-fn.5](bob-cli-fn.5.md) | 2026-11-02 11:19:20 EST |
+| bob-cli--plans | [`bob-cli--plans@dd97128`](https://github.com/bobs-org/bob-cli--plans/commit/dd971286fe31b8ee1348a99fb618abda3f704aa2) | chore(plans): mark capture list section-names and route-lists epics done | [bob-cli-fn.5](bob-cli-fn.5.md) | 2026-11-02 11:20:08 EST |
 
 <!-- sase:referenced-by:start -->
 
