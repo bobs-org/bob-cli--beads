@@ -19,9 +19,9 @@ off-clock-ledger: replace SessionTracking with SessionClock, read and write [off
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fl.2](bob-cli-fl.2.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fl.2](bob-cli-fl.2.md) ○ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fl.3](bob-cli-fl.3.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fl.4](bob-cli-fl.4.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fl.4](bob-cli-fl.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -34,3 +34,15 @@ off-clock-ledger: replace SessionTracking with SessionClock, read and write [off
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8a9ec68`](https://github.com/bobs-org/bob-cli/commit/8a9ec685ed9c727a0d7338c9c7072b7e285c975e) | feat(off-clock): add off-clock Pomodoro ledger support | [bob-cli-fl.1](bob-cli-fl.1.md) | 2026-11-02 01:10:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fl.1--5][1] | Need the phase scope, design file, and prior notes before completing the assigned phase | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fl.1.md
+
+<!-- sase:referenced-by:end -->
