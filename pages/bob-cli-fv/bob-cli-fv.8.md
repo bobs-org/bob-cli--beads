@@ -129,6 +129,7 @@ Full initial rendered note for visual review (tabs preserved, all data synthetic
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fv.8][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-fv.8--1][1] | Need the phase scope, design file, decisions, and prior notes before completing the assigned phase | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.8.md
