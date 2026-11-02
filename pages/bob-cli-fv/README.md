@@ -16,7 +16,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-fv.1](bob-cli-fv.1.md) | Inert note-text escaper | ✓ closed | small | 2026-11-02 | 1 | 1 |
-| [bob-cli-fv.2](bob-cli-fv.2.md) | CANCEL LOG indentation matches the plugin writer | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
+| [bob-cli-fv.2](bob-cli-fv.2.md) | CANCEL LOG indentation matches the plugin writer | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-fv.3](bob-cli-fv.3.md) | Structured description parser | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fv.4](bob-cli-fv.4.md) | Separator, badge-duplicate, and vendor boilerplate filter | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-fv.5](bob-cli-fv.5.md) | Bullet renderer, guards, and scanner-isolation gate | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
@@ -30,7 +30,7 @@
 flowchart TD
     n0["bob-cli-fv: Google Calendar descriptions become Event Task bullets [in_progress]"]
     n1["bob-cli-fv.1: Inert note-text escaper [closed]"]
-    n2["bob-cli-fv.2: CANCEL LOG indentation matches the plugin writer [in_progress]"]
+    n2["bob-cli-fv.2: CANCEL LOG indentation matches the plugin writer [closed]"]
     n3["bob-cli-fv.3: Structured description parser [in_progress]"]
     n4["bob-cli-fv.4: Separator, badge-duplicate, and vendor boilerplate filter [in_progress]"]
     n5["bob-cli-fv.5: Bullet renderer, guards, and scanner-isolation gate [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fv.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.1/README.md) | [bob-cli-fv.1](bob-cli-fv.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-fv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.2.md) | [bob-cli-fv.2](bob-cli-fv.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.2.md) | [bob-cli-fv.2](bob-cli-fv.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.3/README.md) | [bob-cli-fv.3](bob-cli-fv.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-fv.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.4/README.md) | [bob-cli-fv.4](bob-cli-fv.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-fv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fv.5/README.md) | [bob-cli-fv.5](bob-cli-fv.5.md) | 0 |
@@ -74,3 +74,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0dfaeaa`](https://github.com/bobs-org/bob-cli/commit/0dfaeaa3429af245ac7957df87c1abdeea6a8bc6) | feat(native): add shared task\_text\_escape module for note escaping | [bob-cli-fv.1](bob-cli-fv.1.md) | 2026-11-02 09:49:30 EST |
+| bob-cli | [`1562baa`](https://github.com/bobs-org/bob-cli/commit/1562baab267edf7663a178972e96c15baa583671) | feat(gcal): indent CANCEL LOG like the Task Card writer | [bob-cli-fv.2](bob-cli-fv.2.md) | 2026-11-02 09:59:39 EST |
