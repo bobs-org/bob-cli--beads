@@ -2,7 +2,7 @@
 
 [Bead Pages](../README.md) / [bob-cli-fk](README.md) / bob-cli-fk.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ○ open · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.c5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.c5.md) · **Assignee:** `bob-cli-fk.6` · **Size:** medium
 **Created:** 2026-11-01 21:42:32 EST
 **Plan:** [202611/gcal\_event\_buffers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_event_buffers.md)

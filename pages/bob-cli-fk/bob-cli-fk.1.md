@@ -24,7 +24,7 @@ buffer-grammar: HTML-safe combinable directive lines in gcal/model.rs, EventBuff
 - **Blocks:** [bob-cli-fk.2](bob-cli-fk.2.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fk.3](bob-cli-fk.3.md) ✓ · ⧖ 2026-11-01
 - **Blocks:** [bob-cli-fk.4](bob-cli-fk.4.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fk.5](bob-cli-fk.5.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fk.5](bob-cli-fk.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

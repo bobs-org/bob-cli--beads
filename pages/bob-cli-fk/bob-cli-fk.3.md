@@ -22,8 +22,8 @@ capture-buffers: buffered MEET event runs and far-run text, conflict detection/o
 ## Dependencies
 
 - **Depends on:** [bob-cli-fk.1](bob-cli-fk.1.md) ✓ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fk.5](bob-cli-fk.5.md) ◐ · ⧖ 2026-11-01
-- **Blocks:** [bob-cli-fk.6](bob-cli-fk.6.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fk.5](bob-cli-fk.5.md) ✓ · ⧖ 2026-11-01
+- **Blocks:** [bob-cli-fk.6](bob-cli-fk.6.md) ○ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -44,7 +44,9 @@ capture-buffers: buffered MEET event runs and far-run text, conflict detection/o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fk.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-fk.4--2][2] | Check whether the neighboring phase's prior failure note tracks this same library test | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-fk.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-fk.4.md
 
 <!-- sase:referenced-by:end -->
