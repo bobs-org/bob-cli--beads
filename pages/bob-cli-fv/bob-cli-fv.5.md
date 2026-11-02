@@ -19,7 +19,7 @@ bullet-renderer: turn parsed lines into sanitized, capped bullet bodies with tid
 
 - **Depends on:** [bob-cli-fv.1](bob-cli-fv.1.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fv.3](bob-cli-fv.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fv.6](bob-cli-fv.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.6](bob-cli-fv.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -32,3 +32,15 @@ bullet-renderer: turn parsed lines into sanitized, capped bullet bodies with tid
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3d251ba`](https://github.com/bobs-org/bob-cli/commit/3d251ba21e35d421402475c659112cd7fed1228e) | feat(gcal): render calendar description bullets | [bob-cli-fv.5](bob-cli-fv.5.md) | 2026-11-02 11:31:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fv.5--3][1] | Check whether earlier phase work left recorded remainder before closure | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fv.5.md
+
+<!-- sase:referenced-by:end -->

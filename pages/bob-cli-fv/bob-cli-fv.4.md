@@ -18,7 +18,7 @@ boilerplate-filter: drop separators, lines that only repeat the 📹 or 📍 tar
 ## Dependencies
 
 - **Depends on:** [bob-cli-fv.3](bob-cli-fv.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fv.6](bob-cli-fv.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fv.6](bob-cli-fv.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
