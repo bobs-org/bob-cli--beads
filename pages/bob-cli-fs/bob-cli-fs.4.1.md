@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/capture_relation_successors.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-gc][2] | Measured while landing this epic; its relation-specific overhead stays with the epic's landing tale. |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_relation_successors.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-gc/README.md
@@ -37,14 +37,13 @@ Managed capture Done and parked gestures offer relation successors through the s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2aec2aa`](https://github.com/bobs-org/bob-cli/commit/2aec2aa472cf90d22ce607d3805dbceb10c92f72) | perf(capture): trim relation-successor overhead and re-measure apollo budgets | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:22 EST |
-| bob-cli--plans | [`bob-cli--plans@70854a9`](https://github.com/bobs-org/bob-cli--plans/commit/70854a952c73220929f83a89761d7a224526113e) | docs(plans): mark capture\_relation\_successors done | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:51 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -55,9 +54,11 @@ Managed capture Done and parked gestures offer relation successors through the s
 | read-by | [agent:bob-cli-fs.4.1.3][1] | Need parent epic scope and DECISIONS | 1 |
 | read-by | [agent:bob-cli-fs.4.1.4][2] | Need epic decisions and earlier phase notes | 1 |
 | read-by | [agent:bob-cli-fs.4.1.5][3] | Need epic DECISIONS that govern presentation | 3 |
+| read-by | [agent:bob-cli-fs.4.1.land--1][4] | Confirm epic close state | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md
 
 <!-- sase:referenced-by:end -->
