@@ -51,7 +51,7 @@ State when written (2026-11-03): gf.1 landed in bob-cli (5f35f0b3); gg.1 is clos
 |---|---|---|---|---|---:|---:|
 | [bob-cli-gg.1](bob-cli-gg.1.md) | Authoritative display contract (bob-cli) | ✓ closed | small | 2026-11-03 | 1 | 1 |
 | [bob-cli-gg.2](bob-cli-gg.2.md) | The pill in bob-ledger-tools (bob-plugins) | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-gg.3](bob-cli-gg.3.md) | Real-Obsidian e2e and visual review (bob-plugins, bob-cli) | ✓ closed | medium | 2026-11-03 | 1 | 1 |
+| [bob-cli-gg.3](bob-cli-gg.3.md) | Real-Obsidian e2e and visual review (bob-plugins, bob-cli) | ✓ closed | medium | 2026-11-03 | 1 | 2 |
 
 ## Lineage
 
@@ -74,7 +74,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-gg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.1/README.md) | [bob-cli-gg.1](bob-cli-gg.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.2/README.md) | [bob-cli-gg.2](bob-cli-gg.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-gg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.3/README.md) | [bob-cli-gg.3](bob-cli-gg.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.3/README.md) | [bob-cli-gg.3](bob-cli-gg.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-gg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.land/README.md) | [bob-cli-gg](README.md) | 0 |
 
 ## Commits
@@ -84,6 +84,7 @@ flowchart TD
 | bob-cli | [`b9c482d`](https://github.com/bobs-org/bob-cli/commit/b9c482da9e35ca2f70df19e74b649abae39364a9) | docs(event-link-times): add ledger Event time pill contract | [bob-cli-gg.1](bob-cli-gg.1.md) | 2026-11-03 10:40:04 EST |
 | bob-plugins | [`bob-plugins@8ce2feb`](https://github.com/bobs-org/bob-plugins/commit/8ce2febc8632dc91926f271e3a0033da2f2b9ea2) | feat(ledger-tools): event link time pills with gcal now-on-timeline fix | [bob-cli-gg.2](bob-cli-gg.2.md) | 2026-11-03 11:42:36 EST |
 | bob-cli | [`a5e1c51`](https://github.com/bobs-org/bob-cli/commit/a5e1c519a3aa749b50106ab2a122e21fdb4b086f) | docs(event-link-times): record live verification | [bob-cli-gg.3](bob-cli-gg.3.md) | 2026-11-03 12:10:52 EST |
+| bob-plugins | [`bob-plugins@9b5b285`](https://github.com/bobs-org/bob-plugins/commit/9b5b2857f02f441cd2920b1f7738522b2ddc8b57) | test(event-link-times): add isolated Obsidian e2e | [bob-cli-gg.3](bob-cli-gg.3.md) | 2026-11-03 12:11:29 EST |
 
 <!-- sase:referenced-by:start -->
 

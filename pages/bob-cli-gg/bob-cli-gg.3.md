@@ -29,10 +29,11 @@ live_verify: isolated real-Obsidian e2e with light/dark screenshots, then a Live
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.3/README.md) | [bob-cli-gg.3](bob-cli-gg.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.3/README.md) | [bob-cli-gg.3](bob-cli-gg.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a5e1c51`](https://github.com/bobs-org/bob-cli/commit/a5e1c519a3aa749b50106ab2a122e21fdb4b086f) | docs(event-link-times): record live verification | [bob-cli-gg.3](bob-cli-gg.3.md) | 2026-11-03 12:10:52 EST |
+| bob-plugins | [`bob-plugins@9b5b285`](https://github.com/bobs-org/bob-plugins/commit/9b5b2857f02f441cd2920b1f7738522b2ddc8b57) | test(event-link-times): add isolated Obsidian e2e | [bob-cli-gg.3](bob-cli-gg.3.md) | 2026-11-03 12:11:29 EST |
