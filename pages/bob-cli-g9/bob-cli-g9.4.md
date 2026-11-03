@@ -29,7 +29,7 @@ nav-keeps: count due WIP and Next keeps, ask "Why keep it in <rung>?" with the a
 
 - **Depends on:** [bob-cli-g9.1](bob-cli-g9.1.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-g9.3](bob-cli-g9.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-g9.5](bob-cli-g9.5.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-g9.5](bob-cli-g9.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -43,3 +43,15 @@ nav-keeps: count due WIP and Next keeps, ask "Why keep it in <rung>?" with the a
 |---|---|---|---|---|
 | bob-cli | [`0bdcea7`](https://github.com/bobs-org/bob-cli/commit/0bdcea7aedc9177b2f318e4aabe6c7383df21670) | docs(freshness): add freshness and vault-format reference docs for nav-keeps | [bob-cli-g9.4](bob-cli-g9.4.md) | 2026-11-02 19:22:49 EST |
 | bob-plugins | [`bob-plugins@99940be`](https://github.com/bobs-org/bob-plugins/commit/99940be02e5a94cf514cc584d92f9eb9097df992) | feat(nav-keeps): lane keep counting with rung-aware prompts and always-logged rotten log | [bob-cli-g9.4](bob-cli-g9.4.md) | 2026-11-02 19:23:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g9.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ memory-config: add the task-decay glossary strand and the task-decay-is-one-ladd
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-g9.5](bob-cli-g9.5.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-g9.5](bob-cli-g9.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

@@ -13,7 +13,7 @@ live-e2e: add an isolated real-Obsidian e2e that walks a scratch vault through e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-g9.5](bob-cli-g9.5.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-g9.5](bob-cli-g9.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
