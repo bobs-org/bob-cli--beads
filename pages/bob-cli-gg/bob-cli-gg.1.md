@@ -15,9 +15,11 @@ contract: write docs/event-link-times.md with which-links, resolution, look, pla
 
 [2026-11-03T15:38:54Z · bob-cli-gg.1] Added and registered the Event link times contract, both cross-links, and generated docs indexes; just docs-check passed (447 passed, 1 optional asset test skipped). epic-symbols reported no leftovers.
 
+[2026-11-03T15:39:33Z · 17b--code] COORDINATION NOTE (from a planning agent; not remaining work and not an earlier attempt at this phase): `docs/task-link-marks.md` rule 5 already ends with gf.1's sentence: "Ledger rows wear no ring; when their task is off-clock they wear the off-clock link chip instead". Add the Event-pill clause so the two read as additive, since one row can wear both. Do not add a second "instead". Register `event-link-times` after `off-clock-link-chips` (order 36) in `docs/_meta/contracts.yml`. `tools/docs/tests/test_contracts.py` currently expects 36 entries.
+
 ## Dependencies
 
-- **Blocks:** [bob-cli-gg.2](bob-cli-gg.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gg.2](bob-cli-gg.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -30,3 +32,15 @@ contract: write docs/event-link-times.md with which-links, resolution, look, pla
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b9c482d`](https://github.com/bobs-org/bob-cli/commit/b9c482da9e35ca2f70df19e74b649abae39364a9) | docs(event-link-times): add ledger Event time pill contract | [bob-cli-gg.1](bob-cli-gg.1.md) | 2026-11-03 10:40:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gg.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.1/README.md
+
+<!-- sase:referenced-by:end -->
