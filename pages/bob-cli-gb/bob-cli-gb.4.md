@@ -21,7 +21,7 @@ gcal-clock-tags: tri-state Google clock from titles and directive lines, #on as 
 
 - **Depends on:** [bob-cli-gb.1](bob-cli-gb.1.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.7](bob-cli-gb.7.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

@@ -18,7 +18,7 @@ capture-clock-tags: reserve the clock spellings in the capture parser and editor
 ## Dependencies
 
 - **Depends on:** [bob-cli-gb.1](bob-cli-gb.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

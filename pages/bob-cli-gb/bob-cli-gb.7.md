@@ -21,7 +21,7 @@ plugins-marks-notice: paint inherited off-clock Event Tasks dashed with a from-n
 
 - **Depends on:** [bob-cli-gb.4](bob-cli-gb.4.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-gb.6](bob-cli-gb.6.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -34,3 +34,15 @@ plugins-marks-notice: paint inherited off-clock Event Tasks dashed with a from-n
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@9185779`](https://github.com/bobs-org/bob-plugins/commit/9185779a99250a7a0c3033426efc38238086a5ed) | feat(gcal-events): paint inherited clock marks and daily deprecation Notice | [bob-cli-gb.7](bob-cli-gb.7.md) | 2026-11-03 00:04:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gb.7][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.7/README.md
+
+<!-- sase:referenced-by:end -->

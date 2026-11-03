@@ -25,7 +25,7 @@ clock-writers: thread a home resolver into every capture clock decision, name in
 
 - **Depends on:** [bob-cli-gb.1](bob-cli-gb.1.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.6](bob-cli-gb.6.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
