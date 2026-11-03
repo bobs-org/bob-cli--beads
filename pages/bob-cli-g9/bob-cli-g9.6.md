@@ -33,3 +33,15 @@ live-e2e: add an isolated real-Obsidian e2e that walks a scratch vault through e
 |---|---|---|---|---|
 | bob-cli | [`0346d82`](https://github.com/bobs-org/bob-cli/commit/0346d828011a5f5a0c4ef4d526fa80583dab7ee6) | docs(decay-ladder): add live-verification page for the task-decay e2e | [bob-cli-g9.6](bob-cli-g9.6.md) | 2026-11-02 21:36:14 EST |
 | bob-plugins | [`bob-plugins@8275198`](https://github.com/bobs-org/bob-plugins/commit/82751984551d699b6310bcba9c83ab20fc46c82b) | test(decay-ladder): add isolated Obsidian e2e for the keep/card/step walk | [bob-cli-g9.6](bob-cli-g9.6.md) | 2026-11-02 21:36:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g9.6][1] | Need notes and remaining work before planning | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.6/README.md
+
+<!-- sase:referenced-by:end -->
