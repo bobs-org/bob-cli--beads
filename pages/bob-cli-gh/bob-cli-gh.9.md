@@ -15,7 +15,7 @@ rollout: install bob and the plugins, verify the recurrence strings, run the mig
 
 - **Depends on:** [bob-cli-gh.1](bob-cli-gh.1.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-gh.4](bob-cli-gh.4.md) ✓ · ⧖ 2026-11-03
-- **Depends on:** [bob-cli-gh.5](bob-cli-gh.5.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gh.5](bob-cli-gh.5.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-gh.6](bob-cli-gh.6.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-gh.8](bob-cli-gh.8.md) ✓ · ⧖ 2026-11-03
 

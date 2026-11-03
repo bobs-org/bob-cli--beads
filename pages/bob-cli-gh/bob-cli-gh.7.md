@@ -28,13 +28,7 @@ strip: the `bob-stats-strip` fence and the shared period strip (facts, typical l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d1737ea`](https://github.com/bobs-org/bob-plugins/commit/d1737ea7ca1b216960a908904358f91ed1c2a17a) | feat(ledger-tools): add week-member period stats strip (bob-stats-strip) | [bob-cli-gh.7](bob-cli-gh.7.md) | 2026-11-03 14:11:20 EST |
+| [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

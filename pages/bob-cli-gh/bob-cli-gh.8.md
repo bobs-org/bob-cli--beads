@@ -28,10 +28,16 @@ parts: the quarter (week columns, month ticks), year (week columns in quarter gr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-gh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md) | [bob-cli-gh.8](bob-cli-gh.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-gh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md) | [bob-cli-gh.8](bob-cli-gh.8.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@e1aad7c`](https://github.com/bobs-org/bob-plugins/commit/e1aad7c3e70732d3a2aa1fba4f9f8406d6cfd8b3) | feat(period-parts): add quarter year and all-time stats views | [bob-cli-gh.8](bob-cli-gh.8.md) | 2026-11-03 14:49:40 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.8][1] | Check phase notes for prior unfinished work before planning | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md
+
+<!-- sase:referenced-by:end -->

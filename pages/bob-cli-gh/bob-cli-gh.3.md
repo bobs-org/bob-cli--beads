@@ -18,7 +18,7 @@ report: `bob periods show` (human and JSON) with so-far facts that include today
 ## Dependencies
 
 - **Depends on:** [bob-cli-gh.2](bob-cli-gh.2.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gh.5](bob-cli-gh.5.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.5](bob-cli-gh.5.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gh.7](bob-cli-gh.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
