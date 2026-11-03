@@ -36,10 +36,16 @@ plugins-clock: one spelling table per plugin, #on wins, the ledger-tools chain w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.6/README.md) | [bob-cli-gb.6](bob-cli-gb.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.6/README.md) | [bob-cli-gb.6](bob-cli-gb.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@2f172a2`](https://github.com/bobs-org/bob-plugins/commit/2f172a2403c79af47823574fb739e44c9686080b) | feat(clock): inherit offclock defaults on starts and closes | [bob-cli-gb.6](bob-cli-gb.6.md) | 2026-11-02 22:34:28 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gb.6][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.6/README.md
+
+<!-- sase:referenced-by:end -->

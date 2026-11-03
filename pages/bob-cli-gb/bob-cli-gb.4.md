@@ -30,7 +30,9 @@ gcal-clock-tags: tri-state Google clock from titles and directive lines, #on as 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gb.4.1.1--3][1] | Need the enclosing epic decisions and accepted constraints before closing its phase | 1 |
+| read-by | [agent:bob-cli-gb.4.1.2][2] | Need the assigned scope and decisions for gcal clock tags | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.4.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.2/README.md
 
 <!-- sase:referenced-by:end -->

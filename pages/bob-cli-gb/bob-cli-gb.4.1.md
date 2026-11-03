@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gcal_clock_tags.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_clock_tags.md
 
@@ -38,7 +38,9 @@ Google events accept #off and #on, sync renders only explicit tags while creatin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gb.4.1.1--3][1] | Check if the active Google clock tags epic causally includes these capture theme completion test failures | 1 |
+| read-by | [agent:bob-cli-gb.4.1.2][2] | Need parent epic DECISIONS and assigned scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.4.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.2/README.md
 
 <!-- sase:referenced-by:end -->
