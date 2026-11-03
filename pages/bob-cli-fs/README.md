@@ -29,12 +29,14 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 
 [2026-11-02T18:15:19Z · bob-cli-fl.land] DISCOVERED ISSUE (from bob-cli-fl land agent, 2026-11-02): just check fails on master d8b4d4fb in docs_reference::cli_reference_is_current — docs/reference/cli/capture-complete.md, capture-parse.md, and relations.md are out of date. BOB_UPDATE_GOLDENS=1 cargo test --test cli docs_reference regenerates one line in each: 'Configured cancel and complete labels' becomes 'Configured cancel, complete, and successor labels', adding offers_source / relation_successor wording. That is the help text added by d8b4d4fb feat(relations): surface successor label effects (SASE_BEAD bob-cli-fs.3). Fix: run just docs-gen and commit the three regenerated reference pages. bob-cli-fl did not change them, to avoid colliding with this epic's landing.
 
+[2026-11-03T02:56:19Z · bob-cli-g9.land] DISCOVERED ISSUE (from bob-cli-g9.land, proposed by bob-cli-g9.5 note #1): at bob-cli beae4dc7 and bob-plugins 8275198, both plugin copies of relation_successor/vectors.json (plugins/task-status-cycler/scripts/fixtures and plugins/bob-navigation-hotkeys/scripts/fixtures) differ from bob-cli tests/fixtures/relation_successor/vectors.json (first diff at byte 20618, line 101). bob-cli 71907dab (SASE_BEAD bob-cli-fs.5, capture unlink hand-offs v1.1) moved SA31/SA32 to non-UI capture unlink, and the plugins still carry them as v1.1 UI cases. The cycler vectors test fails identically on clean base trees. Fix: re-sync both plugin fixture copies byte-for-byte from bob-cli and adjust the plugin vector runners if SA31/SA32 now belong to capture only.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-fs.1](bob-cli-fs.1.md) | Contract, shared vectors, inverse pair, and glossary | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-fs.10](bob-cli-fs.10.md) | Bob Mac Capture generic group copy and relation presentation | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
+| [bob-cli-fs.10](bob-cli-fs.10.md) | Bob Mac Capture generic group copy and relation presentation | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.11](bob-cli-fs.11.md) | Enable starts after in chezmoi and smoke it | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.2](bob-cli-fs.2.md) | Rust policy and relation-successor engine | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.3](bob-cli-fs.3.md) | Rust authoring indications and relations list | ✓ closed | medium | 2026-11-02 | 1 | 1 |
@@ -51,8 +53,8 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 flowchart TD
     n0["bob-cli-fs: Starts-after relations offer the next task when one is parked or done [in_progress]"]
     n1["bob-cli-fs.1: Contract, shared vectors, inverse pair, and glossary [closed]"]
-    n2["bob-cli-fs.10: Bob Mac Capture generic group copy and relation presentation [in_progress]"]
-    n3["bob-cli-fs.10.1: Bob Mac Capture relation successors [in_progress]"]
+    n2["bob-cli-fs.10: Bob Mac Capture generic group copy and relation presentation [closed]"]
+    n3["bob-cli-fs.10.1: Bob Mac Capture relation successors [closed]"]
     n4["bob-cli-fs.10.1.1: Decode relation successors and generate real-Bob fixtures [closed]"]
     n5["bob-cli-fs.10.1.2: Render Bob-authored Pull-In groups and select relation offers [closed]"]
     n6["bob-cli-fs.10.1.3: Present relation previews, held notices, notifications, and badges [closed]"]
@@ -156,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md) | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.4.md) | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.land/README.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.land.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.md) | [bob-cli-fs.2](bob-cli-fs.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
@@ -210,3 +212,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@52a222a`](https://github.com/bobs-org/bob-mac-capture/commit/52a222ad38211eafaa6afae79a39597fd8d46687) | feat(capture): render Bob-authored Pull-In relation groups | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 2026-11-02 20:37:04 EST |
 | bob-mac-capture | [`bob-mac-capture@e3f0817`](https://github.com/bobs-org/bob-mac-capture/commit/e3f0817988b4fbca800a5b7014e59cc393fe5f66) | feat(capture): present relation previews, held notices, notifications, and badges | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 2026-11-02 20:56:20 EST |
 | bob-mac-capture | [`bob-mac-capture@5e95b8f`](https://github.com/bobs-org/bob-mac-capture/commit/5e95b8fe17daa65ee95eaf41fc391f1c80930abc) | feat(capture): show relation offer authoring cues | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 2026-11-02 21:20:55 EST |
+| bob-mac-capture | [`bob-mac-capture@17bd529`](https://github.com/bobs-org/bob-mac-capture/commit/17bd529a2d80c46be39bc18e99be0b101701eefa) | feat(capture): repair Mac relation presentation and finish nested landing | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:12:58 EST |
