@@ -30,13 +30,19 @@ plugins-clock: one spelling table per plugin, #on wins, the ledger-tools chain w
 ## Dependencies
 
 - **Depends on:** [bob-cli-gb.2](bob-cli-gb.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.7](bob-cli-gb.7.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.7](bob-cli-gb.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.6/README.md) | [bob-cli-gb.6](bob-cli-gb.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.6/README.md) | [bob-cli-gb.6](bob-cli-gb.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@2f172a2`](https://github.com/bobs-org/bob-plugins/commit/2f172a2403c79af47823574fb739e44c9686080b) | feat(clock): inherit offclock defaults on starts and closes | [bob-cli-gb.6](bob-cli-gb.6.md) | 2026-11-02 22:34:28 EST |
 
 <!-- sase:referenced-by:start -->
 
