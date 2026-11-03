@@ -17,7 +17,7 @@ core: implement sections 3 and 4, including the lone-header grammar and editor m
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -30,3 +30,15 @@ core: implement sections 3 and 4, including the lone-header grammar and editor m
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c673d14`](https://github.com/bobs-org/bob-cli/commit/c673d14439212e79443d231c81dc11204d10a25c) | feat(capture!): lone @route pulls its note's ready tasks | [bob-cli-gj.2.1.1](bob-cli-gj.2.1.1.md) | 2026-11-03 14:13:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gj.2.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

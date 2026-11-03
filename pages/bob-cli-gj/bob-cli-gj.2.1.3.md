@@ -13,7 +13,7 @@ presentation: implement section 6, including note-pull groups and copy, human su
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
