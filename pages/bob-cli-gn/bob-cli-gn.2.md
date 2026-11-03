@@ -22,7 +22,7 @@ viewer: expose a bob-ledger-tools `attachments` api namespace, then give the Z v
 ## Dependencies
 
 - **Depends on:** [bob-cli-gn.1](bob-cli-gn.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gn.3](bob-cli-gn.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gn.3](bob-cli-gn.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -35,3 +35,15 @@ viewer: expose a bob-ledger-tools `attachments` api namespace, then give the Z v
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1a2b572`](https://github.com/bobs-org/bob-plugins/commit/1a2b5720c2db468709858d498f04259e71bb1b23) | feat(image-zoom): add attachment origin actions | [bob-cli-gn.2](bob-cli-gn.2.md) | 2026-11-03 17:16:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gn.2][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gn.2/README.md
+
+<!-- sase:referenced-by:end -->

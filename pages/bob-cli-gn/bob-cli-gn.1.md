@@ -20,7 +20,7 @@ origins: add the `.bob/attachments/<host>.jsonl` origin journal, have `%c` recor
 ## Dependencies
 
 - **Blocks:** [bob-cli-gn.2](bob-cli-gn.2.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gn.3](bob-cli-gn.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gn.3](bob-cli-gn.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
