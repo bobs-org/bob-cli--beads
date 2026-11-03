@@ -13,7 +13,7 @@ authoring: present Bob's offers-source capsule, consequence message, amber cavea
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-fs.10.1](bob-cli-fs.10.1.md) / bob-cli-fs.10.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-fs.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.md) · **Assignee:** `bob-cli-fs.10.1.3` · **Size:** medium
-**Created:** 2026-11-02 19:46:05 EST
+**Created:** 2026-11-02 19:46:05 EST · **Closed:** 2026-11-02 20:55:16 EST
 **Plan:** [202611/mac\_relation\_successors.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_relation_successors.md)
 
 ## Description
 
 reporting: wire relation offers and held/check state into passive capture previews, completion summaries, notification counts, and block badges; test all nested and item-level paths while preserving existing dependency and keep-moving copy.
+
+## Notes
+
+[2026-11-03T01:55:16Z · bob-cli-fs.10.1.3] Reporting done: relation offers in passive previews via chooser sections with Bob copy, held/check helpers reused in preview and committed bodies, relation-only and mixed notification counts with dupe-key safety, link badge with relation help. Verified: swift build ok, focused CaptureCore tests pass (28 tests), full portable suite 2035 tests 0 failures, format lint clean for touched files. macOS BobMacCapture typecheck/tests unverified (mac offline, SSH timed out).
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ reporting: wire relation offers and held/check state into passive capture previe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@e3f0817`](https://github.com/bobs-org/bob-mac-capture/commit/e3f0817988b4fbca800a5b7014e59cc393fe5f66) | feat(capture): present relation previews, held notices, notifications, and badges | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 2026-11-02 20:56:20 EST |

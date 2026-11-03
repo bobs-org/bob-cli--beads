@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_relation_successors.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_relation_successors.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Bob Mac Capture presents starts-after offers and authoring cues from Bob's JSON,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.land/README.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.10.1.2][1] | Need epic DECISIONS and phase breakdown | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md
+
+<!-- sase:referenced-by:end -->

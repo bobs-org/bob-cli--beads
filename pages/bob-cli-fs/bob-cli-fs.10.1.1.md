@@ -38,7 +38,9 @@ protocol: add tolerant CaptureCore models for relation offers, held rows, check 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-fs.10.1.1--3][1] | Need the phase scope, design file, and prior work notes before final verification and close | 1 |
+| read-by | [agent:bob-cli-fs.10.1.2][2] | Need protocol phase close notes to know what already landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md
 
 <!-- sase:referenced-by:end -->
