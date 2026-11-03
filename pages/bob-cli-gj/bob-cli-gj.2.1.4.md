@@ -44,7 +44,9 @@ verification: complete section 7, audit NP1–NP28, add CLI fixture assertions, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gh.8][1] | Determine whether the existing note-pull phase tracks the clean-base compiler failure | 1 |
+| read-by | [agent:bob-cli-gj.2.1.4--4][2] | Need the phase scope, design file, and prior recorded work before completing verification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.4.md
 
 <!-- sase:referenced-by:end -->
