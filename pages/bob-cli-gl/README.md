@@ -48,7 +48,7 @@ flowchart TD
     n4["bob-cli-gl.4: capture-complete `project_task_move` context and rows [closed]"]
     n5["bob-cli-gl.5: Project-note planner moves, `:` links, offers, and output [in_progress]"]
     n6["bob-cli-gl.5.1: Complete capture project-note move execution [in_progress]"]
-    n7["bob-cli-gl.5.1.1: Execute ordered parent moves with atomic batch safety [in_progress]"]
+    n7["bob-cli-gl.5.1.1: Execute ordered parent moves with atomic batch safety [closed]"]
     n8["bob-cli-gl.5.1.2: Link moved tasks and integrate project offers [in_progress]"]
     n9["bob-cli-gl.5.1.3: Finish move output, help, and conformance verification [in_progress]"]
     n10["bob-cli-gl.6: Bob Mac Capture move picker, Add block ID, shift-return chain, and span styling [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.3/README.md) | [bob-cli-gl.3](bob-cli-gl.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.4/README.md) | [bob-cli-gl.4](bob-cli-gl.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.md) | [bob-cli-gl.5](bob-cli-gl.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-gl.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5.1.1/README.md) | [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gl.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.1.md) | [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5.1.2/README.md) | [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5.1.3/README.md) | [bob-cli-gl.5.1.3](bob-cli-gl.5.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5.1.land/README.md) | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 0 |
@@ -102,6 +102,7 @@ flowchart TD
 | bob-cli | [`cf1e464`](https://github.com/bobs-org/bob-cli/commit/cf1e46442bf7dca5bedfeeba9571ca3b5b3bbc37) | feat(capture): add ordered batch task moves | [bob-cli-gl.3](bob-cli-gl.3.md) | 2026-11-03 14:28:20 EST |
 | bob-cli | [`b94eec2`](https://github.com/bobs-org/bob-cli/commit/b94eec2c04ba7f9730ff605df4116f3928b62825) | feat(capture)!: parse move bullets in sealed project-note items | [bob-cli-gl.2](bob-cli-gl.2.md) | 2026-11-03 16:00:43 EST |
 | bob-cli | [`b8688d9`](https://github.com/bobs-org/bob-cli/commit/b8688d9ef802f719d5ee46f02d3b87c1080fcaa2) | feat(capture)!: add project task move completion | [bob-cli-gl.4](bob-cli-gl.4.md) | 2026-11-03 17:02:59 EST |
+| bob-cli | [`6650faa`](https://github.com/bobs-org/bob-cli/commit/6650faa30491c8f7f39c2657bdbe8676ec97c6f6) | feat(capture): execute ordered project-note moves | [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) | 2026-11-03 17:45:01 EST |
 
 <!-- sase:referenced-by:start -->
 

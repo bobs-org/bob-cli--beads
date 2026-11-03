@@ -42,7 +42,9 @@ cli-complete: Add the `project_task_move` completion field and context. It serve
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gl.3][1] | Coordinate the shared eligibility and batch-move engine interfaces with dependent phases | 1 |
+| read-by | [agent:bob-cli-gl.4][2] | Confirm final verification note before closing the assigned phase | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.4/README.md
 
 <!-- sase:referenced-by:end -->

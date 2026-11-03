@@ -13,7 +13,7 @@ move_links_offers: Execute colon moves and selected moved offers through existin
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.5.1.3](bob-cli-gl.5.1.3.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
