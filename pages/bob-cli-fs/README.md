@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-fs
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5m.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.5m.linker.w0.md) · **Assignee:** `bob-cli-fs.land`
-**Created:** 2026-11-02 05:57:11 EST
+**Created:** 2026-11-02 05:57:11 EST · **Closed:** 2026-11-03 00:42:21 EST
 **Plan:** [202611/starts\_after\_relation.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/starts_after_relation.md)
 
 <!-- sase:links:start -->
@@ -37,6 +37,18 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 
 [2026-11-03T03:58:43Z · bob-cli-fs.land] Planned the remaining epic work as medium tale sase_plan_starts_after_landing.md: (1) byte re-sync of both bob-plugins relation_successor/vectors.json copies (cycler byte-identity test currently 21/22); (2) attribute and cut relation-enabled capture overhead on the x* / ! paths, targeting on-off deltas measured on athena (! shared pass <= +5 ms; relation-only x* and zero-source ! <= dependents-pass cost + 5 ms) and a re-measure recorded in task-dependencies §12.7 for athena and apollo; (3) same-turn closeout: epic-symbols (none at audit), normal close with verification note, symvision (no recipe at audit), plan status done. No parent_bead.
 
+[2026-11-03T05:42:21Z · bob-cli-fs.land--5] Land close for bob-cli-fs after tale plan:202611/starts_after_landing.md.
+
+LAND AUDIT: All 11 phases and nested epics fs.2.1/fs.4.1/fs.8.1/fs.10.1 verified; DECISIONS honored (glossary-only memory; no decision-record edits); source and docs verified; post-start drift in bob-cli and bob-plugins needed no relation wiring. See epic note #4.
+
+FOLLOW-UP TRIAGE: fs.6 #1, fs.7 #1, and fs.9 #1 declined as duplicates of open bob-cli-et/f7/eh/ff/f8, already corroborated by bob-cli-fs.8.1.land; grandchild proposals dispositioned by their landers; epic note #2 resolved by 8c140e43.
+
+FIXTURE RE-SYNC: bob-plugins dc319a7c test(relation-successors): re-sync vectors after capture unlink moved SA31/SA32. Three matching sha256 b992209735ba4bf882d17eb0f2657d7e420ed6523515f72cee0d209a63b08c31 (bob-cli tests/fixtures/relation_successor/vectors.json and both plugin copies). `bob plugins sync` from the opened checkout refused to overwrite vault-deployed bob-ledger-tools without -F; did not force; fixtures are not deployed.
+
+OVERHEAD FIX: Temporary Instant timers (removed before commit) attributed remaining cost to vault-wide LINKS retention, full overlay as dependency_notes, FileScan clone / NoteIndex rebuild, and effective_relation_state_map over all notes. Three serial-path fixes: event-token prefilter + proof-only dep notes; MapTargetReader borrows FileScan and classify reuses NoteIndex; effective_relation_state_map restricted to source_texts paths. Athena same-binary on−off after (candidate sha256 ab7eccb1a9ee25de1d58f884207af980d5fbbad8d5eb40803a0b19e95fe4e6bc, master e324dd2fcdc359e1b7f379c39b315a94f03c2201c711517c00602309590e5c09, source-tree diff sha256 e0baf0b5571e568f95c12f847874023bb239a12d5b19721623c7365b14b6a43a): hello −0.18, x +0.15, x* +22.05, !noid +13.99, !implement +6.10; D=16.58. A missed by 1.1 ms (leftover SuccessorTypeRouting::load for the offer, plus ~1 ms overlay); B met (+13.99 ≤ 21.58); C missed by 0.47 ms (byte pass ~13 ms plus ~2 ms routing). Stretch x* on 77.83 vs ≤70; relations off already meets (55.78). Apollo master vs candidate (relations on, 25 interleaved after 5 warmups): x* −40.95, !noid −31.83, !implement −29.26, !+deps −57.59; still miss ≤70 ms because the pre-feature ! path is already over that budget (bob-cli-gc). hello/x unchanged.
+
+GATES: just fmt pass; cargo test --lib task_complete:: 195 pass; cargo test --lib capture::relation_sources 13 pass (added unreadable LINKS-without-^id taint pin); just docs-check pass; just check exit 0 (ade5zdrxf7b2, 6m 30s) including capture::relation_presentation::unavailable_prints_uncertainty_and_omits_groups; hz3pkj56z0q7 was an sccache abort, not a test miss. Final smokes on that candidate: on x* parked + Starts after “Send implementation prompt”; on !implement done + Starts after; off x* no group. just symvision: no recipe in this Justfile. epic-symbols: none. SA27: event-token retention no longer skips unreadable LINKS notes; they still make relation_check unavailable.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -57,7 +69,7 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-fs: Starts-after relations offer the next task when one is parked or done [in_progress]"]
+    n0["bob-cli-fs: Starts-after relations offer the next task when one is parked or done [closed]"]
     n1["bob-cli-fs.1: Contract, shared vectors, inverse pair, and glossary [closed]"]
     n2["bob-cli-fs.10: Bob Mac Capture generic group copy and relation presentation [closed]"]
     n3["bob-cli-fs.10.1: Bob Mac Capture relation successors [closed]"]
@@ -190,7 +202,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md) | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.land/README.md) | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-fs.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md) | [bob-cli-fs.9](bob-cli-fs.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.land.md) | [bob-cli-fs](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.land.md) | [bob-cli-fs](README.md) | 1 |
 
 ## Commits
 
@@ -225,6 +237,7 @@ flowchart TD
 | bob-cli | [`71907da`](https://github.com/bobs-org/bob-cli/commit/71907dab7ceb7dab45a401a700e7069cd767bc24) | feat(capture): offer relation successors on Pending unlink | [bob-cli-fs.5](bob-cli-fs.5.md) | 2026-11-02 19:36:19 EST |
 | bob-cli--plans | [`bob-cli--plans@69f84d1`](https://github.com/bobs-org/bob-cli--plans/commit/69f84d170984b4b1d426cea1d4510500015ca13f) | docs(plans): mark mac\_relation\_successors done | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:13:34 EST |
 | bob-plugins | [`bob-plugins@dc319a7`](https://github.com/bobs-org/bob-plugins/commit/dc319a7c4f525dd4768b92a73be7ed550548cff6) | test(relation-successors): re-sync vectors after capture unlink moved SA31/SA32 | [bob-cli-fs](README.md) | 2026-11-02 23:02:09 EST |
+| bob-cli | [`65a12f0`](https://github.com/bobs-org/bob-cli/commit/65a12f0aa7694ffc04859de557ccee033a88d2e6) | perf(capture): narrow starts-after relation-source reads on capture close | [bob-cli-fs](README.md) | 2026-11-03 00:43:33 EST |
 
 <!-- sase:referenced-by:start -->
 
