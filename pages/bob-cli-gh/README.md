@@ -37,7 +37,7 @@ Every daily note's parent is its ISO week note, and the tree climbs week → qua
 |---|---|---|---|---|---:|---:|
 | [bob-cli-gh.1](bob-cli-gh.1.md) | Glossary strands and decision records | ✓ closed | small | 2026-11-03 | 2 | 2 |
 | [bob-cli-gh.2](bob-cli-gh.2.md) | Period calendar, scaffolds, note parser, and bob periods ensure/list | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-gh.3](bob-cli-gh.3.md) | Period report — bob periods show and period stats ranges | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-gh.3](bob-cli-gh.3.md) | Period report — bob periods show and period stats ranges | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gh.4](bob-cli-gh.4.md) | Vault adoption — bob periods migrate, problems report, nightly check | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gh.5](bob-cli-gh.5.md) | Agent reviews — bob periods brief, draft, and instruction refresh | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gh.6](bob-cli-gh.6.md) | Period-note creation hook, open-week command, and agent callout style | ✓ closed | small | 2026-11-03 | 1 | 0 |
@@ -52,7 +52,7 @@ flowchart TD
     n0["bob-cli-gh: Period notes that add up: a whole-ISO-week Week → Quarter → Year → All-time tree with stats strips, parts tables, and reviews Bryan closes [in_progress]"]
     n1["bob-cli-gh.1: Glossary strands and decision records [closed]"]
     n2["bob-cli-gh.2: Period calendar, scaffolds, note parser, and bob periods ensure/list [closed]"]
-    n3["bob-cli-gh.3: Period report — bob periods show and period stats ranges [in_progress]"]
+    n3["bob-cli-gh.3: Period report — bob periods show and period stats ranges [closed]"]
     n4["bob-cli-gh.4: Vault adoption — bob periods migrate, problems report, nightly check [closed]"]
     n5["bob-cli-gh.5: Agent reviews — bob periods brief, draft, and instruction refresh [in_progress]"]
     n6["bob-cli-gh.6: Period-note creation hook, open-week command, and agent callout style [closed]"]
@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gh.1.md) | [bob-cli-gh.1](bob-cli-gh.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.1.md) | [bob-cli-gh.1](bob-cli-gh.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.2/README.md) | [bob-cli-gh.2](bob-cli-gh.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-gh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.3.md) | [bob-cli-gh.3](bob-cli-gh.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-gh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.3.md) | [bob-cli-gh.3](bob-cli-gh.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.4/README.md) | [bob-cli-gh.4](bob-cli-gh.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.5/README.md) | [bob-cli-gh.5](bob-cli-gh.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 0 |
@@ -105,6 +105,7 @@ flowchart TD
 | bob-cli | [`4ce7909`](https://github.com/bobs-org/bob-cli/commit/4ce79094aaf3cf8753bb438a17cd3d9b40afa02a) | docs(memory): add Period Note and Stats Strip glossary terms | [bob-cli-gh.1](bob-cli-gh.1.md) | 2026-11-03 11:31:20 EST |
 | bob-cli | [`020a1f6`](https://github.com/bobs-org/bob-cli/commit/020a1f6da021513bc60abdcbda7a4d9ab606fb90) | feat(periods): add ISO period calendar, scaffolds, parser, ensure/list | [bob-cli-gh.2](bob-cli-gh.2.md) | 2026-11-03 11:59:22 EST |
 | bob-cli | [`5a1ccf5`](https://github.com/bobs-org/bob-cli/commit/5a1ccf593bb743a9f08c003af550a4b473504540) | feat(periods): adopt the period-note tree (migrate, list -p, nightly) | [bob-cli-gh.4](bob-cli-gh.4.md) | 2026-11-03 13:00:24 EST |
+| bob-cli | [`9f88a86`](https://github.com/bobs-org/bob-cli/commit/9f88a861ffa3444058c449b5bdd7218a184e8142) | feat(periods): add period reports and stats ranges | [bob-cli-gh.3](bob-cli-gh.3.md) | 2026-11-03 13:37:09 EST |
 
 <!-- sase:referenced-by:start -->
 

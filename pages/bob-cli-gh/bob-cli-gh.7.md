@@ -13,7 +13,7 @@ strip: the `bob-stats-strip` fence and the shared period strip (facts, typical l
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gh.3](bob-cli-gh.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gh.3](bob-cli-gh.3.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gh.8](bob-cli-gh.8.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

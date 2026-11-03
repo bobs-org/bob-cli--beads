@@ -13,7 +13,7 @@ reviews: the deterministic, versioned `bob periods brief` bundle for weeks, quar
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gh.3](bob-cli-gh.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gh.3](bob-cli-gh.3.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gh.9](bob-cli-gh.9.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
