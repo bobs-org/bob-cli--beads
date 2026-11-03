@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.6/README.md) | [bob-cli-gb.6](bob-cli-gb.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.7/README.md) | [bob-cli-gb.7](bob-cli-gb.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.8.md) | [bob-cli-gb.8](bob-cli-gb.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-gb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.land/README.md) | [bob-cli-gb](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.land/README.md) | [bob-cli-gb](README.md) | 2 |
 
 ## Commits
 
@@ -128,3 +128,4 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@4273fe3`](https://github.com/bobs-org/bob-cli--plans/commit/4273fe3cfe302e7e3f2b078bcf58595cbdf3cab2) | chore(plans): mark verified gcal clock epic complete | [bob-cli-gb.4.1](bob-cli-gb.4.1.md) | 2026-11-02 23:35:04 EST |
 | bob-plugins | [`bob-plugins@9185779`](https://github.com/bobs-org/bob-plugins/commit/9185779a99250a7a0c3033426efc38238086a5ed) | feat(gcal-events): paint inherited clock marks and daily deprecation Notice | [bob-cli-gb.7](bob-cli-gb.7.md) | 2026-11-03 00:04:14 EST |
 | bob-cli | [`a941db2`](https://github.com/bobs-org/bob-cli/commit/a941db21b0550f9c772a426ca1b15fe817eeb9bc) | fix(stats): name effective clocks in drift copy and document offclock lints | [bob-cli-gb](README.md) | 2026-11-03 06:35:37 EST |
+| bob-cli--plans | [`bob-cli--plans@5204157`](https://github.com/bobs-org/bob-cli--plans/commit/5204157618bc4b93299a7113a9a2a685526294d7) | chore(plans): mark off\_on\_tags\_and\_offclock\_areas done after bob-cli-gb landed | [bob-cli-gb](README.md) | 2026-11-03 06:36:13 EST |
