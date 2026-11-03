@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md) | [bob-cli-gh.8](bob-cli-gh.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.9/README.md) | [bob-cli-gh.9](bob-cli-gh.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-gh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md) | [bob-cli-gh](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-gh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md) | [bob-cli-gh](README.md) | 2 |
 
 ## Commits
 
@@ -139,6 +139,7 @@ flowchart TD
 | bob-cli | [`13fb39d`](https://github.com/bobs-org/bob-cli/commit/13fb39d0d40c35ee361400a552a29b08ce1bfcaf) | feat(periods): add agent reviews — brief, draft, and instruction refresh | [bob-cli-gh.5](bob-cli-gh.5.md) | 2026-11-03 15:01:40 EST |
 | bob-cli | [`7de57d0`](https://github.com/bobs-org/bob-cli/commit/7de57d04abb5e53439b75b02563750f740d4d030) | fix(periods): insert missing daily parent on migrate; drop duplicate note\_pull field | [bob-cli-gh.9](bob-cli-gh.9.md) | 2026-11-03 16:14:05 EST |
 | bob-cli | [`56d8dac`](https://github.com/bobs-org/bob-cli/commit/56d8dac3960b32fc68b92c4641c3f9b25a5fcac2) | fix(periods): accept brief -f md and fill frontmatter-only period stubs | [bob-cli-gh](README.md) | 2026-11-03 17:36:21 EST |
+| bob-plugins | [`bob-plugins@945d9fc`](https://github.com/bobs-org/bob-plugins/commit/945d9fc82181736b11888eb8ecc539f5262bde9f) | fix(ledger-tools): render period strips; \]n/\[n follow period nav links | [bob-cli-gh](README.md) | 2026-11-03 17:42:00 EST |
 
 <!-- sase:referenced-by:start -->
 
