@@ -19,7 +19,7 @@ core: a new `periods` module in bob-cli with the ISO period calendar, ids, paths
 
 - **Blocks:** [bob-cli-gh.3](bob-cli-gh.3.md) ◐ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gh.4](bob-cli-gh.4.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gh.6](bob-cli-gh.6.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.6](bob-cli-gh.6.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -32,3 +32,15 @@ core: a new `periods` module in bob-cli with the ISO period calendar, ids, paths
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`020a1f6`](https://github.com/bobs-org/bob-cli/commit/020a1f6da021513bc60abdcbda7a4d9ab606fb90) | feat(periods): add ISO period calendar, scaffolds, parser, ensure/list | [bob-cli-gh.2](bob-cli-gh.2.md) | 2026-11-03 11:59:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/period_notes_and_stats_strips.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/period_notes_and_stats_strips.md
 
 <!-- sase:links:end -->
@@ -27,6 +29,8 @@ Every daily note's parent is its ISO week note, and the tree climbs week → qua
 
 [2026-11-03T16:48:31Z · bob-cli-gf.land] DISCOVERED ISSUE: bob-cli-gf.land reproduced generated docs drift on bob-cli e9deb7f8 via bob-plugins npm run docs:check (46b25c6): docs/reference/glossary.md is out of date. gh.1 commits 2a9640a6 and 4ce79094 add/reword Period Note, Stats Strip, and Day Strip but do not regenerate that published glossary; the new terms are absent there. Please regenerate via just docs-gen and verify just docs-check during gh integration. No gf source change causes this; attaching to this active epic rather than making a duplicate task. gg.2 note #3 independently reported glossary drift.
 
+[2026-11-03T17:21:35Z · bob-cli-gg.land] DISCOVERED ISSUE: bob-cli-gg landing corroborates gh.1 generated glossary drift, proposed independently by bob-cli-gg.2 note #3 and bob-cli-gg.3 note #2. On bob-cli a5e1c519 and clean bob-plugins 84ea548, npm run docs:check passes lint and plugin inventory then fails: out of date: docs/reference/glossary.md (run just docs-gen). gh.1 commits 2a9640a6/4ce79094 changed Period Note, Stats Strip, and Day Strip without regenerating the published glossary. Same causal issue as gh note #1; please regenerate and run both docs gates during gh integration. No gg source causes it; no duplicate task created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -36,7 +40,7 @@ Every daily note's parent is its ISO week note, and the tree climbs week → qua
 | [bob-cli-gh.3](bob-cli-gh.3.md) | Period report — bob periods show and period stats ranges | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gh.4](bob-cli-gh.4.md) | Vault adoption — bob periods migrate, problems report, nightly check | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gh.5](bob-cli-gh.5.md) | Agent reviews — bob periods brief, draft, and instruction refresh | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
-| [bob-cli-gh.6](bob-cli-gh.6.md) | Period-note creation hook, open-week command, and agent callout style | ◐ in_progress | small | 2026-11-03 | 1 | 0 |
+| [bob-cli-gh.6](bob-cli-gh.6.md) | Period-note creation hook, open-week command, and agent callout style | ✓ closed | small | 2026-11-03 | 1 | 1 |
 | [bob-cli-gh.7](bob-cli-gh.7.md) | The period stats strip in bob-ledger-tools, week member first | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gh.8](bob-cli-gh.8.md) | Quarter, year, and all-time strips plus the bob-period-parts table | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gh.9](bob-cli-gh.9.md) | Vault rollout, review rituals, and live verification | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
@@ -51,7 +55,7 @@ flowchart TD
     n3["bob-cli-gh.3: Period report — bob periods show and period stats ranges [in_progress]"]
     n4["bob-cli-gh.4: Vault adoption — bob periods migrate, problems report, nightly check [in_progress]"]
     n5["bob-cli-gh.5: Agent reviews — bob periods brief, draft, and instruction refresh [in_progress]"]
-    n6["bob-cli-gh.6: Period-note creation hook, open-week command, and agent callout style [in_progress]"]
+    n6["bob-cli-gh.6: Period-note creation hook, open-week command, and agent callout style [closed]"]
     n7["bob-cli-gh.7: The period stats strip in bob-ledger-tools, week member first [in_progress]"]
     n8["bob-cli-gh.8: Quarter, year, and all-time strips plus the bob-period-parts table [in_progress]"]
     n9["bob-cli-gh.9: Vault rollout, review rituals, and live verification [in_progress]"]
@@ -84,10 +88,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gh.1.md) | [bob-cli-gh.1](bob-cli-gh.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.1.md) | [bob-cli-gh.1](bob-cli-gh.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.2/README.md) | [bob-cli-gh.2](bob-cli-gh.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-gh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.3/README.md) | [bob-cli-gh.3](bob-cli-gh.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-gh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.3.md) | [bob-cli-gh.3](bob-cli-gh.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-gh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.4/README.md) | [bob-cli-gh.4](bob-cli-gh.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-gh.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.5/README.md) | [bob-cli-gh.5](bob-cli-gh.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-gh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md) | [bob-cli-gh.8](bob-cli-gh.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-gh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.9/README.md) | [bob-cli-gh.9](bob-cli-gh.9.md) | 0 |
@@ -100,3 +104,16 @@ flowchart TD
 | bob-cli | [`2a9640a`](https://github.com/bobs-org/bob-cli/commit/2a9640a6b20c4bcb42e5e0a7cfe3eb347b5d1b44) | docs(memory): add Stats Strip and Period Note glossary strands | [bob-cli-gh.1](bob-cli-gh.1.md) | 2026-11-03 11:09:56 EST |
 | bob-cli | [`4ce7909`](https://github.com/bobs-org/bob-cli/commit/4ce79094aaf3cf8753bb438a17cd3d9b40afa02a) | docs(memory): add Period Note and Stats Strip glossary terms | [bob-cli-gh.1](bob-cli-gh.1.md) | 2026-11-03 11:31:20 EST |
 | bob-cli | [`020a1f6`](https://github.com/bobs-org/bob-cli/commit/020a1f6da021513bc60abdcbda7a4d9ab606fb90) | feat(periods): add ISO period calendar, scaffolds, parser, ensure/list | [bob-cli-gh.2](bob-cli-gh.2.md) | 2026-11-03 11:59:22 EST |
+| bob-plugins | [`bob-plugins@a56f0dc`](https://github.com/bobs-org/bob-plugins/commit/a56f0dc7bdd2158310874e021617df88855a6ace) | feat(ledger-tools): add period-notes hook ensuring period notes on daily-note creation | [bob-cli-gh.6](bob-cli-gh.6.md) | 2026-11-03 12:42:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.2][1] | Need epic scope and plan linkage | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.2/README.md
+
+<!-- sase:referenced-by:end -->
