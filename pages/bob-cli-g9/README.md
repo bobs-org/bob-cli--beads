@@ -33,7 +33,7 @@ Repeated freshness keeps on WIP, Next, Ready, and P-level tasks follow one conse
 | [bob-cli-g9.2](bob-cli-g9.2.md) | Rust config, decide, and reconcile contract | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-g9.3](bob-cli-g9.3.md) | bob-ledger-tools config, decide, and mark parity | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [bob-cli-g9.4](bob-cli-g9.4.md) | Lane keep counting and the always-logged Rotten Log | ✓ closed | medium | 2026-11-02 | 1 | 2 |
-| [bob-cli-g9.5](bob-cli-g9.5.md) | One rung-aware decay card | ✓ closed | medium | 2026-11-02 | 1 | 1 |
+| [bob-cli-g9.5](bob-cli-g9.5.md) | One rung-aware decay card | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [bob-cli-g9.6](bob-cli-g9.6.md) | Real-Obsidian decay ladder end-to-end check | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-g9.7](bob-cli-g9.7.md) | Glossary, decision record, and final config | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
 
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-g9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.2.md) | [bob-cli-g9.2](bob-cli-g9.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-g9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.3/README.md) | [bob-cli-g9.3](bob-cli-g9.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.4/README.md) | [bob-cli-g9.4](bob-cli-g9.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-g9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.5.md) | [bob-cli-g9.5](bob-cli-g9.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-g9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.5.md) | [bob-cli-g9.5](bob-cli-g9.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.6/README.md) | [bob-cli-g9.6](bob-cli-g9.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-g9.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.7/README.md) | [bob-cli-g9.7](bob-cli-g9.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-g9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.land/README.md) | [bob-cli-g9](README.md) | 0 |
@@ -90,6 +90,7 @@ flowchart TD
 | bob-cli | [`0bdcea7`](https://github.com/bobs-org/bob-cli/commit/0bdcea7aedc9177b2f318e4aabe6c7383df21670) | docs(freshness): add freshness and vault-format reference docs for nav-keeps | [bob-cli-g9.4](bob-cli-g9.4.md) | 2026-11-02 19:22:49 EST |
 | bob-plugins | [`bob-plugins@99940be`](https://github.com/bobs-org/bob-plugins/commit/99940be02e5a94cf514cc584d92f9eb9097df992) | feat(nav-keeps): lane keep counting with rung-aware prompts and always-logged rotten log | [bob-cli-g9.4](bob-cli-g9.4.md) | 2026-11-02 19:23:29 EST |
 | bob-cli | [`817ba7d`](https://github.com/bobs-org/bob-cli/commit/817ba7dda9579138fb93a1690177fb5ac20c1bcb) | docs(freshness): add freshness and projects notes for nav-card decay work | [bob-cli-g9.5](bob-cli-g9.5.md) | 2026-11-02 20:51:09 EST |
+| bob-plugins | [`bob-plugins@6464cad`](https://github.com/bobs-org/bob-plugins/commit/6464cad318ea87033106b674c4b5019b5131b93a) | fix(nav-hotkeys): restore D/X drop alias and rung-aware decay contract | [bob-cli-g9.5](bob-cli-g9.5.md) | 2026-11-02 20:51:43 EST |
 
 <!-- sase:referenced-by:start -->
 
