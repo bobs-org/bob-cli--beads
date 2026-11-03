@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.1/README.md) | [bob-cli-gg.1](bob-cli-gg.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.2/README.md) | [bob-cli-gg.2](bob-cli-gg.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.3/README.md) | [bob-cli-gg.3](bob-cli-gg.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-gg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gg.land.md) | [bob-cli-gg](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-gg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gg.land.md) | [bob-cli-gg](README.md) | 3 |
 
 ## Commits
 
@@ -103,6 +103,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9b5b285`](https://github.com/bobs-org/bob-plugins/commit/9b5b2857f02f441cd2920b1f7738522b2ddc8b57) | test(event-link-times): add isolated Obsidian e2e | [bob-cli-gg.3](bob-cli-gg.3.md) | 2026-11-03 12:11:29 EST |
 | bob-cli | [`ee5c078`](https://github.com/bobs-org/bob-cli/commit/ee5c0781caa7c748713ab685de9a9dc7da000f78) | docs(task-link-marks): describe event pill and off chip as additive | [bob-cli-gg](README.md) | 2026-11-03 12:55:39 EST |
 | bob-plugins | [`bob-plugins@51e661a`](https://github.com/bobs-org/bob-plugins/commit/51e661a3a14763b7f8e81c6e7193210b0c3a2647) | docs(ledger-tools): correct Event time pill plugin description | [bob-cli-gg](README.md) | 2026-11-03 12:56:23 EST |
+| bob-cli--plans | [`bob-cli--plans@bb761d7`](https://github.com/bobs-org/bob-cli--plans/commit/bb761d7703d3fc71673f98bf65b26d7ae4f848d8) | docs(plans): mark event\_link\_times done after gg closeout | [bob-cli-gg](README.md) | 2026-11-03 12:56:57 EST |
 
 <!-- sase:referenced-by:start -->
 
