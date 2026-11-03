@@ -202,7 +202,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.4/README.md) | [bob-cli-fs.8.1.4](bob-cli-fs.8.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.8.1.land/README.md) | [bob-cli-fs.8.1](bob-cli-fs.8.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-fs.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.9/README.md) | [bob-cli-fs.9](bob-cli-fs.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.land.md) | [bob-cli-fs](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.land.md) | [bob-cli-fs](README.md) | 2 |
 
 ## Commits
 
@@ -238,6 +238,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@69f84d1`](https://github.com/bobs-org/bob-cli--plans/commit/69f84d170984b4b1d426cea1d4510500015ca13f) | docs(plans): mark mac\_relation\_successors done | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:13:34 EST |
 | bob-plugins | [`bob-plugins@dc319a7`](https://github.com/bobs-org/bob-plugins/commit/dc319a7c4f525dd4768b92a73be7ed550548cff6) | test(relation-successors): re-sync vectors after capture unlink moved SA31/SA32 | [bob-cli-fs](README.md) | 2026-11-02 23:02:09 EST |
 | bob-cli | [`65a12f0`](https://github.com/bobs-org/bob-cli/commit/65a12f0aa7694ffc04859de557ccee033a88d2e6) | perf(capture): narrow starts-after relation-source reads on capture close | [bob-cli-fs](README.md) | 2026-11-03 00:43:33 EST |
+| bob-cli--plans | [`bob-cli--plans@ef4c489`](https://github.com/bobs-org/bob-cli--plans/commit/ef4c489fe9cbae015bae3d17cd37f0ac91f497f7) | docs(starts-after): mark epic plan done after bob-cli-fs land close | [bob-cli-fs](README.md) | 2026-11-03 00:44:02 EST |
 
 <!-- sase:referenced-by:start -->
 
