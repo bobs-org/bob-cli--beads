@@ -45,7 +45,9 @@ parts: the quarter (week columns, month ticks), year (week columns in quarter gr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gh.8][1] | Check phase notes for prior unfinished work before planning | 2 |
+| read-by | [agent:bob-cli-gh.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md
 
 <!-- sase:referenced-by:end -->

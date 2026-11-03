@@ -41,7 +41,9 @@ hook: bob-ledger-tools runs `bob periods ensure` on daily-note creation and once
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gh.6][1] | phase scope | 2 |
+| read-by | [agent:bob-cli-gh.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md
 
 <!-- sase:referenced-by:end -->

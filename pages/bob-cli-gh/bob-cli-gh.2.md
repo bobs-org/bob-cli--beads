@@ -40,7 +40,9 @@ core: a new `periods` module in bob-cli with the ISO period calendar, ids, paths
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gh.2][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-gh.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md
 
 <!-- sase:referenced-by:end -->

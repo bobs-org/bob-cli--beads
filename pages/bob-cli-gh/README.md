@@ -17,7 +17,7 @@
 | related | [bead:bob-cli-gp][2] | Proposed by bob-cli-gh.9 rollout; uses bob periods brief/draft and the v1 agent callouts |
 | related | [bead:bob-cli-gq][3] | Proposed by bob-cli-gh.9 rollout; extends bob periods migrate beyond the ISO-2026 tree |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/period_notes_and_stats_strips.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-gp/README.md
@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md) | [bob-cli-gh.8](bob-cli-gh.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.9/README.md) | [bob-cli-gh.9](bob-cli-gh.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-gh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md) | [bob-cli-gh](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-gh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md) | [bob-cli-gh](README.md) | 3 |
 
 ## Commits
 
@@ -140,6 +140,7 @@ flowchart TD
 | bob-cli | [`7de57d0`](https://github.com/bobs-org/bob-cli/commit/7de57d04abb5e53439b75b02563750f740d4d030) | fix(periods): insert missing daily parent on migrate; drop duplicate note\_pull field | [bob-cli-gh.9](bob-cli-gh.9.md) | 2026-11-03 16:14:05 EST |
 | bob-cli | [`56d8dac`](https://github.com/bobs-org/bob-cli/commit/56d8dac3960b32fc68b92c4641c3f9b25a5fcac2) | fix(periods): accept brief -f md and fill frontmatter-only period stubs | [bob-cli-gh](README.md) | 2026-11-03 17:36:21 EST |
 | bob-plugins | [`bob-plugins@945d9fc`](https://github.com/bobs-org/bob-plugins/commit/945d9fc82181736b11888eb8ecc539f5262bde9f) | fix(ledger-tools): render period strips; \]n/\[n follow period nav links | [bob-cli-gh](README.md) | 2026-11-03 17:42:00 EST |
+| bob-cli--plans | [`bob-cli--plans@2b8ac8e`](https://github.com/bobs-org/bob-cli--plans/commit/2b8ac8e6ce1455215194346100376fe3884c04d3) | chore(plans): mark period notes and stats strips epic plan done | [bob-cli-gh](README.md) | 2026-11-03 17:43:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -149,8 +150,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gh.2][1] | Need epic scope and plan linkage | 1 |
 | read-by | [agent:bob-cli-gh.9][2] | epic context for phase 9 | 1 |
+| read-by | [agent:bob-cli-gh.land][3] | Need the parent link after close | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.9/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md
 
 <!-- sase:referenced-by:end -->

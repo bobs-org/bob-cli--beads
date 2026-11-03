@@ -39,7 +39,9 @@ reviews: the deterministic, versioned `bob periods brief` bundle for weeks, quar
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gh.5][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-gh.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md
 
 <!-- sase:referenced-by:end -->

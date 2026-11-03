@@ -40,7 +40,9 @@ report: `bob periods show` (human and JSON) with so-far facts that include today
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gh.3--4][1] | Need the phase scope, design file, notes, and epic decisions before closure | 1 |
+| read-by | [agent:bob-cli-gh.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md
 
 <!-- sase:referenced-by:end -->
