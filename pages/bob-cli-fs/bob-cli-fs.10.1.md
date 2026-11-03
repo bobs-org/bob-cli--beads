@@ -37,13 +37,14 @@ Bob Mac Capture presents starts-after offers and authoring cues from Bob's JSON,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.land.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.land.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@17bd529`](https://github.com/bobs-org/bob-mac-capture/commit/17bd529a2d80c46be39bc18e99be0b101701eefa) | feat(capture): repair Mac relation presentation and finish nested landing | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:12:58 EST |
+| bob-cli--plans | [`bob-cli--plans@69f84d1`](https://github.com/bobs-org/bob-cli--plans/commit/69f84d170984b4b1d426cea1d4510500015ca13f) | docs(plans): mark mac\_relation\_successors done | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:13:34 EST |
 
 <!-- sase:referenced-by:start -->
 

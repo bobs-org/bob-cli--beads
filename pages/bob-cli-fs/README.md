@@ -158,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md) | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.4.md) | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.land.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.land.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.md) | [bob-cli-fs.2](bob-cli-fs.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
@@ -213,3 +213,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@e3f0817`](https://github.com/bobs-org/bob-mac-capture/commit/e3f0817988b4fbca800a5b7014e59cc393fe5f66) | feat(capture): present relation previews, held notices, notifications, and badges | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 2026-11-02 20:56:20 EST |
 | bob-mac-capture | [`bob-mac-capture@5e95b8f`](https://github.com/bobs-org/bob-mac-capture/commit/5e95b8fe17daa65ee95eaf41fc391f1c80930abc) | feat(capture): show relation offer authoring cues | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 2026-11-02 21:20:55 EST |
 | bob-mac-capture | [`bob-mac-capture@17bd529`](https://github.com/bobs-org/bob-mac-capture/commit/17bd529a2d80c46be39bc18e99be0b101701eefa) | feat(capture): repair Mac relation presentation and finish nested landing | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:12:58 EST |
+| bob-cli--plans | [`bob-cli--plans@69f84d1`](https://github.com/bobs-org/bob-cli--plans/commit/69f84d170984b4b1d426cea1d4510500015ca13f) | docs(plans): mark mac\_relation\_successors done | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:13:34 EST |
