@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-gh](README.md) / bob-cli-gh.7
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.34.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.34.linker.w0.md) · **Assignee:** `bob-cli-gh.7` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.34.linker.w0` · **Assignee:** `bob-cli-gh.7` · **Size:** medium
 **Created:** 2026-11-03 10:55:43 EST
 **Plan:** [202611/period\_notes\_and\_stats\_strips.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/period_notes_and_stats_strips.md)
 
@@ -20,4 +20,4 @@ strip: the `bob-stats-strip` fence and the shared period strip (facts, typical l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 0 |
