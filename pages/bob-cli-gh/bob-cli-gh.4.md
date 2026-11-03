@@ -18,7 +18,7 @@ migrate: `bob periods migrate` (dry run by default, one verified commit with `-a
 ## Dependencies
 
 - **Depends on:** [bob-cli-gh.2](bob-cli-gh.2.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gh.9](bob-cli-gh.9.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.9](bob-cli-gh.9.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

@@ -19,7 +19,7 @@ vocab: add the Stats Strip and Period Note glossary strands, reword Day Strip as
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gh.9](bob-cli-gh.9.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.9](bob-cli-gh.9.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

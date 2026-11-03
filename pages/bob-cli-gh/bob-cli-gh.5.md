@@ -18,7 +18,7 @@ reviews: the deterministic, versioned `bob periods brief` bundle for weeks, quar
 ## Dependencies
 
 - **Depends on:** [bob-cli-gh.3](bob-cli-gh.3.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gh.9](bob-cli-gh.9.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.9](bob-cli-gh.9.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -31,3 +31,15 @@ reviews: the deterministic, versioned `bob periods brief` bundle for weeks, quar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`13fb39d`](https://github.com/bobs-org/bob-cli/commit/13fb39d0d40c35ee361400a552a29b08ce1bfcaf) | feat(periods): add agent reviews — brief, draft, and instruction refresh | [bob-cli-gh.5](bob-cli-gh.5.md) | 2026-11-03 15:01:40 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.5/README.md
+
+<!-- sase:referenced-by:end -->
