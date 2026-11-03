@@ -13,7 +13,7 @@ activate: remove internal staging, activate both resolvers together, bump the gr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

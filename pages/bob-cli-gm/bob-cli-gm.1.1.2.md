@@ -18,7 +18,7 @@ execution: resolve each member through existing item semantics, fan out ordinary
 ## Dependencies
 
 - **Depends on:** [bob-cli-gm.1.1.1](bob-cli-gm.1.1.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -31,3 +31,15 @@ execution: resolve each member through existing item semantics, fan out ordinary
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a7c4b07`](https://github.com/bobs-org/bob-cli/commit/a7c4b07fe07fa809a4f22b3aafdff94b0012134d) | feat(capture): fan out selected target runs | [bob-cli-gm.1.1.2](bob-cli-gm.1.1.2.md) | 2026-11-03 18:09:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gm.1.1.2][1] | Need the phase scope, design file, and prior notes before deciding what remains | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->
