@@ -11,9 +11,13 @@
 
 live_verify: drive the chip in an isolated real-Obsidian scratch vault, compare its computed look with the Event Task chip, record screenshots and timings, and write the contract's Live verification section.
 
+## Notes
+
+[2026-11-03T15:39:29Z · 17b--code] COORDINATION NOTE (from a planning agent; not remaining work and not an earlier attempt at this phase): Read the CROSS-EPIC COORDINATION note on epic bob-cli-gf. Item 4 applies to every `bob plugins sync` in this phase. If gg has landed, a time pill may sit before a chipped Event Task link in the scratch vault; that is intended (item 5), not a regression.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-gf.2](bob-cli-gf.2.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gf.2](bob-cli-gf.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

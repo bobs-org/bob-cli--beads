@@ -17,7 +17,7 @@ contract: write docs/off-clock-link-chips.md with the which-links, resolution, l
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gf.2](bob-cli-gf.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gf.2](bob-cli-gf.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -30,3 +30,15 @@ contract: write docs/off-clock-link-chips.md with the which-links, resolution, l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5f35f0b`](https://github.com/bobs-org/bob-cli/commit/5f35f0b306de8a8155f7b6ba6ac5932aecc748d8) | docs(off-clock-chips): add ledger off-clock link chip display contract | [bob-cli-gf.1](bob-cli-gf.1.md) | 2026-11-03 10:10:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gf.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.1/README.md
+
+<!-- sase:referenced-by:end -->
