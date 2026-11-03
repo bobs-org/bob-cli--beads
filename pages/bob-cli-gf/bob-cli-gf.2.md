@@ -22,7 +22,7 @@ chip: implement the contract in bob-ledger-tools — pure core, Live Preview wid
 ## Dependencies
 
 - **Depends on:** [bob-cli-gf.1](bob-cli-gf.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gf.3](bob-cli-gf.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gf.3](bob-cli-gf.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -35,3 +35,15 @@ chip: implement the contract in bob-ledger-tools — pure core, Live Preview wid
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@23d401b`](https://github.com/bobs-org/bob-plugins/commit/23d401bc95fca3e92baed6a5565a98833a4b653b) | feat(ledger-tools): add off-clock link chips | [bob-cli-gf.2](bob-cli-gf.2.md) | 2026-11-03 10:50:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gf.2--3][1] | Confirm the recorded baseline test follow-up before phase close | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gf.2.md
+
+<!-- sase:referenced-by:end -->

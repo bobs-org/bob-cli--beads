@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/off_clock_link_chips.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/off_clock_link_chips.md
 
 <!-- sase:links:end -->
@@ -49,7 +51,7 @@ State when written (2026-11-03): gf.1 landed in bob-cli (5f35f0b3); gg.1 is clos
 |---|---|---|---|---|---:|---:|
 | [bob-cli-gf.1](bob-cli-gf.1.md) | Authoritative display contract (bob-cli) | ✓ closed | small | 2026-11-03 | 1 | 1 |
 | [bob-cli-gf.2](bob-cli-gf.2.md) | The chip in bob-ledger-tools (bob-plugins) | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-gf.3](bob-cli-gf.3.md) | Real-Obsidian e2e and visual review (bob-plugins, bob-cli) | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-gf.3](bob-cli-gf.3.md) | Real-Obsidian e2e and visual review (bob-plugins, bob-cli) | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 
 ## Lineage
 
@@ -58,7 +60,7 @@ flowchart TD
     n0["bob-cli-gf: Off-clock link chips — show the `#off` chip after ledger Task Links to off-clock tasks [in_progress]"]
     n1["bob-cli-gf.1: Authoritative display contract (bob-cli) [closed]"]
     n2["bob-cli-gf.2: The chip in bob-ledger-tools (bob-plugins) [closed]"]
-    n3["bob-cli-gf.3: Real-Obsidian e2e and visual review (bob-plugins, bob-cli) [in_progress]"]
+    n3["bob-cli-gf.3: Real-Obsidian e2e and visual review (bob-plugins, bob-cli) [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -72,7 +74,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-gf.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.1/README.md) | [bob-cli-gf.1](bob-cli-gf.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gf.2.md) | [bob-cli-gf.2](bob-cli-gf.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-gf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.3/README.md) | [bob-cli-gf.3](bob-cli-gf.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.3/README.md) | [bob-cli-gf.3](bob-cli-gf.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.land/README.md) | [bob-cli-gf](README.md) | 0 |
 
 ## Commits
@@ -81,3 +83,16 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`5f35f0b`](https://github.com/bobs-org/bob-cli/commit/5f35f0b306de8a8155f7b6ba6ac5932aecc748d8) | docs(off-clock-chips): add ledger off-clock link chip display contract | [bob-cli-gf.1](bob-cli-gf.1.md) | 2026-11-03 10:10:19 EST |
 | bob-plugins | [`bob-plugins@23d401b`](https://github.com/bobs-org/bob-plugins/commit/23d401bc95fca3e92baed6a5565a98833a4b653b) | feat(ledger-tools): add off-clock link chips | [bob-cli-gf.2](bob-cli-gf.2.md) | 2026-11-03 10:50:05 EST |
+| bob-cli | [`e9deb7f`](https://github.com/bobs-org/bob-cli/commit/e9deb7f8ab5e7cc5ecb7ffe68a025d142454e582) | docs(off-clock-chips): record live verification | [bob-cli-gf.3](bob-cli-gf.3.md) | 2026-11-03 11:37:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gf.2--3][1] | Need the parent epic's cross-epic coordination instructions before plugin sync and final closeout | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gf.2.md
+
+<!-- sase:referenced-by:end -->
