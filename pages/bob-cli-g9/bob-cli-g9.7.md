@@ -23,10 +23,11 @@ memory-config: add the task-decay glossary strand and the task-decay-is-one-ladd
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-g9.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.7/README.md) | [bob-cli-g9.7](bob-cli-g9.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-g9.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.7/README.md) | [bob-cli-g9.7](bob-cli-g9.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`807e181`](https://github.com/bobs-org/bob-cli/commit/807e1816560696672483eeedfbe647fca9dd8898) | docs(memory): task decay ladder glossary, decision record, and regenerated pages | [bob-cli-g9.7](bob-cli-g9.7.md) | 2026-11-02 21:22:11 EST |
+| chezmoi | [`chezmoi@4854d40`](https://github.com/bbugyi200/dotfiles/commit/4854d40badff26ed110f94dd52e229e384ef7c6b) | feat(bob): final per-rung task decay allowances | [bob-cli-g9.7](bob-cli-g9.7.md) | 2026-11-02 21:23:14 EST |
