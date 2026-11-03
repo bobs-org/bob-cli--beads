@@ -17,7 +17,7 @@ protocol: add tolerant CaptureCore models for relation offers, held rows, check 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ protocol: add tolerant CaptureCore models for relation offers, held rows, check 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@4b8db34`](https://github.com/bobs-org/bob-mac-capture/commit/4b8db345ac93e9f8d20b944ffb3d2f4252235e6c) | feat(capture): decode relation successor payloads | [bob-cli-fs.10.1.1](bob-cli-fs.10.1.1.md) | 2026-11-02 20:16:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.10.1.1--3][1] | Need the phase scope, design file, and prior work notes before final verification and close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.1.md
+
+<!-- sase:referenced-by:end -->
