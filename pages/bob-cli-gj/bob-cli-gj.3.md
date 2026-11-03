@@ -11,6 +11,10 @@
 
 mac: decode `note_pull` results and render them. Covers the preview card with the Pull In verb, the Pull-In card glyph, tint, lanes, and footer, the calm empty state, the Shift-Return list helper, and notifications. Includes fixtures captured from the real bob and compiled, tested Swift.
 
+## Notes
+
+[2026-11-03T22:23:38Z · bob-cli-gj.2.1.4--4] Fixture handoff: tests/fixtures/note_pull/README.md; generator tests/fixtures/note_pull/generate.py; CLI outputs np1/{stdout.json,human.txt}, np2/{stdout.json,human.txt}, np10-empty/stdout.json, np10-folded/stdout.json, np12/stdout.json, np13/stdout.json, np16/{choice.json,routed.json}; benchmark tests/fixtures/note_pull/benchmark.py and performance.md. Producing source: HEAD 3d1822be plus verification working-tree changes (release rebuilt from that tree). Latest 20-sample p95: sase 82.60 ms (target 70 ms missed); mac_inbox 44.88 ms (empty-pull refusal on source vault).
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-gj.2](bob-cli-gj.2.md) ◐ · ⧖ 2026-11-03

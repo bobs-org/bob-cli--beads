@@ -30,8 +30,10 @@ cli: implement the lone-header `note_pull` kind in the capture language and capt
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gj.2.1.1][1] | Need CLI phase scope and decisions | 1 |
 | read-by | [agent:bob-cli-gj.2.1.2][2] | Need CLI phase scope and decisions | 1 |
+| read-by | [agent:bob-cli-gj.2.1.3][3] | Need parent phase decisions and remaining-work notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

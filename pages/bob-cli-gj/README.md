@@ -46,7 +46,7 @@ flowchart TD
     n4["bob-cli-gj.2.1.1: Note-pull grammar and single-item planner [closed]"]
     n5["bob-cli-gj.2.1.2: Note-pull batch identity and transaction semantics [closed]"]
     n6["bob-cli-gj.2.1.3: Note-pull copy, human output, and block reporting [closed]"]
-    n7["bob-cli-gj.2.1.4: Note-pull conformance fixtures and performance evidence [in_progress]"]
+    n7["bob-cli-gj.2.1.4: Note-pull conformance fixtures and performance evidence [closed]"]
     n8["bob-cli-gj.3: Bob Mac Capture note-pull preview, card, and notification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gj.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.1/README.md) | [bob-cli-gj.2.1.1](bob-cli-gj.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-gj.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.2/README.md) | [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-gj.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.3/README.md) | [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-gj.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.4/README.md) | [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.4.md) | [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-gj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.land/README.md) | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-gj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.3/README.md) | [bob-cli-gj.3](bob-cli-gj.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-gj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.land/README.md) | [bob-cli-gj](README.md) | 0 |
@@ -85,3 +85,4 @@ flowchart TD
 | bob-cli | [`c673d14`](https://github.com/bobs-org/bob-cli/commit/c673d14439212e79443d231c81dc11204d10a25c) | feat(capture!): lone @route pulls its note's ready tasks | [bob-cli-gj.2.1.1](bob-cli-gj.2.1.1.md) | 2026-11-03 14:13:21 EST |
 | bob-cli | [`a95d5d8`](https://github.com/bobs-org/bob-cli/commit/a95d5d8f0268c9f30cf7d2ff87d1145aca519a9f) | feat(capture): batch note-pull planning with ownership and ordering | [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) | 2026-11-03 14:54:57 EST |
 | bob-cli | [`3d1822b`](https://github.com/bobs-org/bob-cli/commit/3d1822be51b4bd307474bb1d154fc2ed8e534eb2) | feat(capture): present note-pull offers | [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) | 2026-11-03 15:20:17 EST |
+| bob-cli | [`093dcea`](https://github.com/bobs-org/bob-cli/commit/093dceade9085d57cbd4cdda96478258bed779b9) | feat(capture): add note-pull conformance evidence | [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) | 2026-11-03 17:25:17 EST |
