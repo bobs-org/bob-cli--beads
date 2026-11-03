@@ -21,6 +21,8 @@
 | related | file:explicit:a35e5184764ca1952d37e1b2 | attached via sase artifact create --bead |
 | related | file:explicit:d25e89e172d5c77b6d78e57d | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -58,3 +60,15 @@ rollout: install bob and the plugins, verify the recurrence strings, run the mig
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7de57d0`](https://github.com/bobs-org/bob-cli/commit/7de57d04abb5e53439b75b02563750f740d4d030) | fix(periods): insert missing daily parent on migrate; drop duplicate note\_pull field | [bob-cli-gh.9](bob-cli-gh.9.md) | 2026-11-03 16:14:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.9][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.9/README.md
+
+<!-- sase:referenced-by:end -->
