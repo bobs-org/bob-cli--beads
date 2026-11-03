@@ -20,7 +20,7 @@ ledger-mirror: mirror the per-rung config and lane decide in bob-ledger-tools ag
 ## Dependencies
 
 - **Depends on:** [bob-cli-g9.2](bob-cli-g9.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-g9.4](bob-cli-g9.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-g9.4](bob-cli-g9.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -34,3 +34,15 @@ ledger-mirror: mirror the per-rung config and lane decide in bob-ledger-tools ag
 |---|---|---|---|---|
 | bob-cli | [`b4a17e8`](https://github.com/bobs-org/bob-cli/commit/b4a17e86622bc3cf6145f7fb105b1f985f6ce621) | docs(freshness): document lane decay marks and per-rung keeps wording | [bob-cli-g9.3](bob-cli-g9.3.md) | 2026-11-02 17:54:03 EST |
 | bob-plugins | [`bob-plugins@b008f6e`](https://github.com/bobs-org/bob-plugins/commit/b008f6ebbeba403bd6eddb6bb7dc09806d6b3ee2) | feat(ledger-tools): mirror per-rung decay config, lane decide, and lane marks | [bob-cli-g9.3](bob-cli-g9.3.md) | 2026-11-02 17:54:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g9.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.3/README.md
+
+<!-- sase:referenced-by:end -->

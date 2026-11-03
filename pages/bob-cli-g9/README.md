@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_decay_ladder.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_decay_ladder.md
 
 <!-- sase:links:end -->
@@ -30,7 +32,7 @@ Repeated freshness keeps on WIP, Next, Ready, and P-level tasks follow one conse
 | [bob-cli-g9.1](bob-cli-g9.1.md) | Decay card hotfix and interim config | ✓ closed | small | 2026-11-02 | 1 | 2 |
 | [bob-cli-g9.2](bob-cli-g9.2.md) | Rust config, decide, and reconcile contract | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-g9.3](bob-cli-g9.3.md) | bob-ledger-tools config, decide, and mark parity | ✓ closed | medium | 2026-11-02 | 1 | 2 |
-| [bob-cli-g9.4](bob-cli-g9.4.md) | Lane keep counting and the always-logged Rotten Log | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [bob-cli-g9.4](bob-cli-g9.4.md) | Lane keep counting and the always-logged Rotten Log | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-g9.5](bob-cli-g9.5.md) | One rung-aware decay card | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-g9.6](bob-cli-g9.6.md) | Real-Obsidian decay ladder end-to-end check | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-g9.7](bob-cli-g9.7.md) | Glossary, decision record, and final config | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
@@ -43,7 +45,7 @@ flowchart TD
     n1["bob-cli-g9.1: Decay card hotfix and interim config [closed]"]
     n2["bob-cli-g9.2: Rust config, decide, and reconcile contract [closed]"]
     n3["bob-cli-g9.3: bob-ledger-tools config, decide, and mark parity [closed]"]
-    n4["bob-cli-g9.4: Lane keep counting and the always-logged Rotten Log [in_progress]"]
+    n4["bob-cli-g9.4: Lane keep counting and the always-logged Rotten Log [closed]"]
     n5["bob-cli-g9.5: One rung-aware decay card [in_progress]"]
     n6["bob-cli-g9.6: Real-Obsidian decay ladder end-to-end check [in_progress]"]
     n7["bob-cli-g9.7: Glossary, decision record, and final config [in_progress]"]
@@ -69,7 +71,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-g9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.1/README.md) | [bob-cli-g9.1](bob-cli-g9.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.2.md) | [bob-cli-g9.2](bob-cli-g9.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-g9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.3/README.md) | [bob-cli-g9.3](bob-cli-g9.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-g9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.4/README.md) | [bob-cli-g9.4](bob-cli-g9.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-g9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.4/README.md) | [bob-cli-g9.4](bob-cli-g9.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-g9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.5/README.md) | [bob-cli-g9.5](bob-cli-g9.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-g9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.6/README.md) | [bob-cli-g9.6](bob-cli-g9.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-g9.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.7/README.md) | [bob-cli-g9.7](bob-cli-g9.7.md) | 0 |
@@ -84,3 +86,16 @@ flowchart TD
 | bob-cli | [`6086791`](https://github.com/bobs-org/bob-cli/commit/6086791f76b2564e37bd282bd63ea5ef7d2a07a8) | feat(freshness)!: bump freshness JSON to schema 15 with per-rung decay limits | [bob-cli-g9.2](bob-cli-g9.2.md) | 2026-11-02 17:25:48 EST |
 | bob-cli | [`b4a17e8`](https://github.com/bobs-org/bob-cli/commit/b4a17e86622bc3cf6145f7fb105b1f985f6ce621) | docs(freshness): document lane decay marks and per-rung keeps wording | [bob-cli-g9.3](bob-cli-g9.3.md) | 2026-11-02 17:54:03 EST |
 | bob-plugins | [`bob-plugins@b008f6e`](https://github.com/bobs-org/bob-plugins/commit/b008f6ebbeba403bd6eddb6bb7dc09806d6b3ee2) | feat(ledger-tools): mirror per-rung decay config, lane decide, and lane marks | [bob-cli-g9.3](bob-cli-g9.3.md) | 2026-11-02 17:54:49 EST |
+| bob-cli | [`0bdcea7`](https://github.com/bobs-org/bob-cli/commit/0bdcea7aedc9177b2f318e4aabe6c7383df21670) | docs(freshness): add freshness and vault-format reference docs for nav-keeps | [bob-cli-g9.4](bob-cli-g9.4.md) | 2026-11-02 19:22:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-g9.3][1] | Need epic DECISIONS and scope for phase work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.3/README.md
+
+<!-- sase:referenced-by:end -->

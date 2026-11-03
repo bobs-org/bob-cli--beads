@@ -13,7 +13,7 @@ nav-card: generalize the decay card to every rung: Enter steps exactly one rung 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-g9.4](bob-cli-g9.4.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-g9.4](bob-cli-g9.4.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-g9.6](bob-cli-g9.6.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-g9.7](bob-cli-g9.7.md) ◐ · ⧖ 2026-11-02
 

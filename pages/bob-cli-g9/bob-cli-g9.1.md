@@ -19,7 +19,7 @@ card-hotfix: make today's Ready decay card load the priority ladder (never this.
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-g9.4](bob-cli-g9.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-g9.4](bob-cli-g9.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
