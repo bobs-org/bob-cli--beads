@@ -26,7 +26,13 @@ hook: bob-ledger-tools runs `bob periods ensure` on daily-note creation and once
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@a56f0dc`](https://github.com/bobs-org/bob-plugins/commit/a56f0dc7bdd2158310874e021617df88855a6ace) | feat(ledger-tools): add period-notes hook ensuring period notes on daily-note creation | [bob-cli-gh.6](bob-cli-gh.6.md) | 2026-11-03 12:42:35 EST |
 
 <!-- sase:referenced-by:start -->
 

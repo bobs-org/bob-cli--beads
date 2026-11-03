@@ -40,8 +40,8 @@ Every daily note's parent is its ISO week note, and the tree climbs week → qua
 | [bob-cli-gh.3](bob-cli-gh.3.md) | Period report — bob periods show and period stats ranges | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gh.4](bob-cli-gh.4.md) | Vault adoption — bob periods migrate, problems report, nightly check | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gh.5](bob-cli-gh.5.md) | Agent reviews — bob periods brief, draft, and instruction refresh | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
-| [bob-cli-gh.6](bob-cli-gh.6.md) | Period-note creation hook, open-week command, and agent callout style | ✓ closed | small | 2026-11-03 | 1 | 0 |
-| [bob-cli-gh.7](bob-cli-gh.7.md) | The period stats strip in bob-ledger-tools, week member first | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-gh.6](bob-cli-gh.6.md) | Period-note creation hook, open-week command, and agent callout style | ✓ closed | small | 2026-11-03 | 1 | 1 |
+| [bob-cli-gh.7](bob-cli-gh.7.md) | The period stats strip in bob-ledger-tools, week member first | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gh.8](bob-cli-gh.8.md) | Quarter, year, and all-time strips plus the bob-period-parts table | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gh.9](bob-cli-gh.9.md) | Vault rollout, review rituals, and live verification | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 
@@ -56,7 +56,7 @@ flowchart TD
     n4["bob-cli-gh.4: Vault adoption — bob periods migrate, problems report, nightly check [closed]"]
     n5["bob-cli-gh.5: Agent reviews — bob periods brief, draft, and instruction refresh [in_progress]"]
     n6["bob-cli-gh.6: Period-note creation hook, open-week command, and agent callout style [closed]"]
-    n7["bob-cli-gh.7: The period stats strip in bob-ledger-tools, week member first [in_progress]"]
+    n7["bob-cli-gh.7: The period stats strip in bob-ledger-tools, week member first [closed]"]
     n8["bob-cli-gh.8: Quarter, year, and all-time strips plus the bob-period-parts table [in_progress]"]
     n9["bob-cli-gh.9: Vault rollout, review rituals, and live verification [in_progress]"]
     n0 --> n1
@@ -91,8 +91,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.3.md) | [bob-cli-gh.3](bob-cli-gh.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.4/README.md) | [bob-cli-gh.4](bob-cli-gh.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.5/README.md) | [bob-cli-gh.5](bob-cli-gh.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-gh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md) | [bob-cli-gh.7](bob-cli-gh.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-gh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.8/README.md) | [bob-cli-gh.8](bob-cli-gh.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-gh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.9/README.md) | [bob-cli-gh.9](bob-cli-gh.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-gh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.land/README.md) | [bob-cli-gh](README.md) | 0 |
@@ -104,8 +104,10 @@ flowchart TD
 | bob-cli | [`2a9640a`](https://github.com/bobs-org/bob-cli/commit/2a9640a6b20c4bcb42e5e0a7cfe3eb347b5d1b44) | docs(memory): add Stats Strip and Period Note glossary strands | [bob-cli-gh.1](bob-cli-gh.1.md) | 2026-11-03 11:09:56 EST |
 | bob-cli | [`4ce7909`](https://github.com/bobs-org/bob-cli/commit/4ce79094aaf3cf8753bb438a17cd3d9b40afa02a) | docs(memory): add Period Note and Stats Strip glossary terms | [bob-cli-gh.1](bob-cli-gh.1.md) | 2026-11-03 11:31:20 EST |
 | bob-cli | [`020a1f6`](https://github.com/bobs-org/bob-cli/commit/020a1f6da021513bc60abdcbda7a4d9ab606fb90) | feat(periods): add ISO period calendar, scaffolds, parser, ensure/list | [bob-cli-gh.2](bob-cli-gh.2.md) | 2026-11-03 11:59:22 EST |
+| bob-plugins | [`bob-plugins@a56f0dc`](https://github.com/bobs-org/bob-plugins/commit/a56f0dc7bdd2158310874e021617df88855a6ace) | feat(ledger-tools): add period-notes hook ensuring period notes on daily-note creation | [bob-cli-gh.6](bob-cli-gh.6.md) | 2026-11-03 12:42:35 EST |
 | bob-cli | [`5a1ccf5`](https://github.com/bobs-org/bob-cli/commit/5a1ccf593bb743a9f08c003af550a4b473504540) | feat(periods): adopt the period-note tree (migrate, list -p, nightly) | [bob-cli-gh.4](bob-cli-gh.4.md) | 2026-11-03 13:00:24 EST |
 | bob-cli | [`9f88a86`](https://github.com/bobs-org/bob-cli/commit/9f88a861ffa3444058c449b5bdd7218a184e8142) | feat(periods): add period reports and stats ranges | [bob-cli-gh.3](bob-cli-gh.3.md) | 2026-11-03 13:37:09 EST |
+| bob-plugins | [`bob-plugins@d1737ea`](https://github.com/bobs-org/bob-plugins/commit/d1737ea7ca1b216960a908904358f91ed1c2a17a) | feat(ledger-tools): add week-member period stats strip (bob-stats-strip) | [bob-cli-gh.7](bob-cli-gh.7.md) | 2026-11-03 14:11:20 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -19,7 +19,7 @@ report: `bob periods show` (human and JSON) with so-far facts that include today
 
 - **Depends on:** [bob-cli-gh.2](bob-cli-gh.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gh.5](bob-cli-gh.5.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gh.7](bob-cli-gh.7.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.7](bob-cli-gh.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -32,3 +32,15 @@ report: `bob periods show` (human and JSON) with so-far facts that include today
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9f88a86`](https://github.com/bobs-org/bob-cli/commit/9f88a861ffa3444058c449b5bdd7218a184e8142) | feat(periods): add period reports and stats ranges | [bob-cli-gh.3](bob-cli-gh.3.md) | 2026-11-03 13:37:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.3--4][1] | Need the phase scope, design file, notes, and epic decisions before closure | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gh.3.md
+
+<!-- sase:referenced-by:end -->
