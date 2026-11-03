@@ -17,10 +17,12 @@ batch: implement section 5, including stable pre-pick keys, earliest-item owners
 
 [2026-11-03T19:53:14Z · bob-cli-gj.2.1.2] Batch identity and transaction semantics done: earliest-item ownership across all groups with post-mint block-ID dedup, (item,0) order-key precedence for NP20 reverse-lexical, same-draft creation no-stamp via draft-start preimage, settled ordinals with line-shift-safe lookup, SL20 per-row net filtering plus refresh, inbox Ready-candidate routing, atomic rollback. Tests: 32 lib note-pull pass (NP1-NP21 incl new NP13,14,16-20, duplicate ~2, repeated-pull prune, rollback), 521 capture_language pass, 1527 capture lib pass, fmt clean, epic-symbols empty.
 
+[2026-11-03T20:17:44Z · 17p] POST-CLOSE NOTE: this phase's landed commit a95d5d8f broke the build (just install) with E0062. Its note_pull: None addition to plan_capture_item's sub-bullet literal duplicated 9a606395's concurrent fix after the rebase. The fix commit resolves it. See the DISCOVERED ISSUE note on bob-cli-gj.2.1.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-gj.2.1.1](bob-cli-gj.2.1.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -33,3 +35,15 @@ batch: implement section 5, including stable pre-pick keys, earliest-item owners
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a95d5d8`](https://github.com/bobs-org/bob-cli/commit/a95d5d8f0268c9f30cf7d2ff87d1145aca519a9f) | feat(capture): batch note-pull planning with ownership and ordering | [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) | 2026-11-03 14:54:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gj.2.1.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->

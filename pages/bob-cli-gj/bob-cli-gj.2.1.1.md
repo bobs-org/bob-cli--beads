@@ -15,6 +15,8 @@ core: implement sections 3 and 4, including the lone-header grammar and editor m
 
 [2026-11-03T19:12:10Z · bob-cli-gj.2.1.1] Core note-pull grammar and single-item planner done and verified. Grammar: CaptureKind::NotePull for lone @route headers (count==0, Tasks kind, no section), EditorMode::NotePull with needs [] and preserved list metadata, GRAMMAR_REVISION 7 with feat(capture!:) + BREAKING CHANGE footer left to the land agent (no commit made, no version/CHANGELOG/memory edits). Planner (src/native/capture/note_pull.rs): staged classification with NP5 precedence, KM31 dependents-snapshot gate (no snapshot for dependency-free pulls), Pending-Next-Ready then line order, §12.2 keys frozen pre-pick, sequential scratch vs picks-only actual placement, Ready->Next + mint + stamp_fresh writes, refused pull_note_missing/nothing_to_pull_in with additive payloads, rows in all_offer_rows/numbering/completion counts with trigger note_pull and group note_pull, TaskBlockRole::NotePull. Tests: 22 planner tests pin NP1-NP12, NP15, NP21-23 (incl. file-byte assertions for picks/refusals, blocked-project reasons, KM31 unavailable-proof unit, daily-note errors); lists/editor/capture-parse/CLI suites pin NP24-27 and grammar 7. just check and just docs-check both green.
 
+[2026-11-03T20:17:53Z · 17p] POST-CLOSE NOTE: this phase's landed commit c673d144 broke the build (just install). It added the required CaptureItemResult.note_pull field but missed the sub-bullet literal that 3b1cf138 had just added in plan_capture_item. 9a606395 fixed that. See the DISCOVERED ISSUE note on bob-cli-gj.2.1.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) ✓ · ⧖ 2026-11-03
@@ -38,7 +40,9 @@ core: implement sections 3 and 4, including the lone-header grammar and editor m
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gj.2.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-gj.2.1.2][2] | Need core phase implementation details to build batch on top | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->

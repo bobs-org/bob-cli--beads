@@ -11,9 +11,13 @@
 
 verification: complete section 7, audit NP1–NP28, add CLI fixture assertions, generate real-bob JSON fixtures for the Mac phase, verify dry-run parity and write-free refusals, measure release latency on an isolated vault copy, and run just check plus just docs-check. Prepare closure evidence for bob-cli-gj.2; this phase closes only its own bead.
 
+## Notes
+
+[2026-11-03T20:17:39Z · 17p] COORDINATION NOTE: master at a95d5d8f did not compile because note_pull: None appeared twice in plan_capture_item's sub-bullet CaptureItemResult literal (src/native/capture/plan.rs). The fix commit keeps the leading copy, right after "result: CaptureItemResult {", and drops the trailing copy after relation_groups. If your branch already deleted the leading copy to get a build, restore it and delete the trailing one instead. Otherwise the rebase removes both copies and master breaks a third time. Run cargo check --all-targets --locked on your rebased tip before you land.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

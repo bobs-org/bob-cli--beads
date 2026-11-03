@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-gj.2 with atomic explicit note-pull selection, grammar 7, shared pull-in reporting, NP1–NP28 coverage, and real-bob fixtures for the Mac phase.
 
+## Notes
+
+[2026-11-03T20:17:27Z · 17p] DISCOVERED ISSUE: this epic's phases broke the bob-cli build (just install) twice on 2026-11-03. (1) c673d144 (bob-cli-gj.2.1.1) added the required CaptureItemResult.note_pull field but missed the sub-bullet literal that 3b1cf138 (agent 17i) had just added in plan_capture_item, which caused a missing-field compile error. Agent 17l fixed it in 9a606395 by putting note_pull: None first. (2) a95d5d8f (bob-cli-gj.2.1.2) added note_pull: None as the last field of the same literal on a base without 9a606395. The rebase applied cleanly because the hunks are about 80 lines apart, which left E0062 "field note_pull specified more than once". The fix commit drops the trailing copy and keeps the leading one, which matches every other literal. Both phases passed tests on their pre-rebase base, and nothing compiled the rebased tip. Land agent: run cargo check --all-targets --locked on the master tip after each phase lands. bob-cli-gh.8's PROPOSED FOLLOW-UP #1 is the same first breakage, already fixed by 9a606395.
+
 ## Agents
 
 | Agent | Bead | Commits |
