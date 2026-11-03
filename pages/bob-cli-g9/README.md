@@ -34,7 +34,7 @@ Repeated freshness keeps on WIP, Next, Ready, and P-level tasks follow one conse
 | [bob-cli-g9.3](bob-cli-g9.3.md) | bob-ledger-tools config, decide, and mark parity | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [bob-cli-g9.4](bob-cli-g9.4.md) | Lane keep counting and the always-logged Rotten Log | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [bob-cli-g9.5](bob-cli-g9.5.md) | One rung-aware decay card | ✓ closed | medium | 2026-11-02 | 1 | 2 |
-| [bob-cli-g9.6](bob-cli-g9.6.md) | Real-Obsidian decay ladder end-to-end check | ✓ closed | medium | 2026-11-02 | 1 | 1 |
+| [bob-cli-g9.6](bob-cli-g9.6.md) | Real-Obsidian decay ladder end-to-end check | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [bob-cli-g9.7](bob-cli-g9.7.md) | Glossary, decision record, and final config | ✓ closed | small | 2026-11-02 | 1 | 1 |
 
 ## Lineage
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-g9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.3/README.md) | [bob-cli-g9.3](bob-cli-g9.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.4/README.md) | [bob-cli-g9.4](bob-cli-g9.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.5.md) | [bob-cli-g9.5](bob-cli-g9.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-g9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.6/README.md) | [bob-cli-g9.6](bob-cli-g9.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-g9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.6/README.md) | [bob-cli-g9.6](bob-cli-g9.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.7/README.md) | [bob-cli-g9.7](bob-cli-g9.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-g9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.land/README.md) | [bob-cli-g9](README.md) | 0 |
 
@@ -92,6 +92,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@6464cad`](https://github.com/bobs-org/bob-plugins/commit/6464cad318ea87033106b674c4b5019b5131b93a) | fix(nav-hotkeys): restore D/X drop alias and rung-aware decay contract | [bob-cli-g9.5](bob-cli-g9.5.md) | 2026-11-02 20:51:43 EST |
 | bob-cli | [`807e181`](https://github.com/bobs-org/bob-cli/commit/807e1816560696672483eeedfbe647fca9dd8898) | docs(memory): task decay ladder glossary, decision record, and regenerated pages | [bob-cli-g9.7](bob-cli-g9.7.md) | 2026-11-02 21:22:11 EST |
 | bob-cli | [`0346d82`](https://github.com/bobs-org/bob-cli/commit/0346d828011a5f5a0c4ef4d526fa80583dab7ee6) | docs(decay-ladder): add live-verification page for the task-decay e2e | [bob-cli-g9.6](bob-cli-g9.6.md) | 2026-11-02 21:36:14 EST |
+| bob-plugins | [`bob-plugins@8275198`](https://github.com/bobs-org/bob-plugins/commit/82751984551d699b6310bcba9c83ab20fc46c82b) | test(decay-ladder): add isolated Obsidian e2e for the keep/card/step walk | [bob-cli-g9.6](bob-cli-g9.6.md) | 2026-11-02 21:36:49 EST |
 
 <!-- sase:referenced-by:start -->
 
