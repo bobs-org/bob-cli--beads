@@ -30,3 +30,15 @@ contract: write the docs-first contract for the note pull. Cover the grammar row
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fa077d2`](https://github.com/bobs-org/bob-cli/commit/fa077d2f8eb8783f2c6d9a65147ba9ef6844bcd8) | docs(contract): note-pull contract docs, copy, and NP vectors | [bob-cli-gj.1](bob-cli-gj.1.md) | 2026-11-03 12:21:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gj.1--2][1] | Need full phase scope, design file, and close verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.1.md
+
+<!-- sase:referenced-by:end -->

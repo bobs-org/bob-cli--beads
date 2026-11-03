@@ -38,12 +38,25 @@ flowchart TD
     n0["bob-cli-gj: Pull a note's ready tasks with a lone @route capture [in_progress]"]
     n1["bob-cli-gj.1: Contract docs, copy, and NP vectors [closed]"]
     n2["bob-cli-gj.2: bob-cli note pull grammar, planner, picks, and output [in_progress]"]
-    n3["bob-cli-gj.3: Bob Mac Capture note-pull preview, card, and notification [in_progress]"]
+    n3["bob-cli-gj.2.1: Implement note-pull capture in bob-cli [in_progress]"]
+    n4["bob-cli-gj.2.1.1: Note-pull grammar and single-item planner [closed]"]
+    n5["bob-cli-gj.2.1.2: Note-pull batch identity and transaction semantics [in_progress]"]
+    n6["bob-cli-gj.2.1.3: Note-pull copy, human output, and block reporting [in_progress]"]
+    n7["bob-cli-gj.2.1.4: Note-pull conformance fixtures and performance evidence [in_progress]"]
+    n8["bob-cli-gj.3: Bob Mac Capture note-pull preview, card, and notification [in_progress]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n0 --> n8
     n1 -.-> n2
-    n2 -.-> n3
+    n2 -.-> n8
+    n4 -.-> n5
+    n5 -.-> n6
+    n6 -.-> n7
 ```
 
 ## Agents
@@ -51,7 +64,12 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-gj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.1.md) | [bob-cli-gj.1](bob-cli-gj.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-gj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2/README.md) | [bob-cli-gj.2](bob-cli-gj.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.md) | [bob-cli-gj.2](bob-cli-gj.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.1/README.md) | [bob-cli-gj.2.1.1](bob-cli-gj.2.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-gj.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.2/README.md) | [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.3/README.md) | [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.4/README.md) | [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.land/README.md) | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-gj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.3/README.md) | [bob-cli-gj.3](bob-cli-gj.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-gj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.land/README.md) | [bob-cli-gj](README.md) | 0 |
 
@@ -60,3 +78,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fa077d2`](https://github.com/bobs-org/bob-cli/commit/fa077d2f8eb8783f2c6d9a65147ba9ef6844bcd8) | docs(contract): note-pull contract docs, copy, and NP vectors | [bob-cli-gj.1](bob-cli-gj.1.md) | 2026-11-03 12:21:39 EST |
+| bob-cli | [`c673d14`](https://github.com/bobs-org/bob-cli/commit/c673d14439212e79443d231c81dc11204d10a25c) | feat(capture!): lone @route pulls its note's ready tasks | [bob-cli-gj.2.1.1](bob-cli-gj.2.1.1.md) | 2026-11-03 14:13:21 EST |
