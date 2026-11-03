@@ -26,10 +26,16 @@ hook: bob-ledger-tools runs `bob periods ensure` on daily-note creation and once
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-gh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md) | [bob-cli-gh.6](bob-cli-gh.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@a56f0dc`](https://github.com/bobs-org/bob-plugins/commit/a56f0dc7bdd2158310874e021617df88855a6ace) | feat(ledger-tools): add period-notes hook ensuring period notes on daily-note creation | [bob-cli-gh.6](bob-cli-gh.6.md) | 2026-11-03 12:42:35 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.6][1] | phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.6/README.md
+
+<!-- sase:referenced-by:end -->

@@ -18,7 +18,7 @@ core: a new `periods` module in bob-cli with the ISO period calendar, ids, paths
 ## Dependencies
 
 - **Blocks:** [bob-cli-gh.3](bob-cli-gh.3.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gh.4](bob-cli-gh.4.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.4](bob-cli-gh.4.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gh.6](bob-cli-gh.6.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
