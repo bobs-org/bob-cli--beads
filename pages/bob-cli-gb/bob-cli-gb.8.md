@@ -15,7 +15,7 @@ vault-landing: confirm every host runs the new bob and plugins, rewrite re-scann
 
 - **Depends on:** [bob-cli-gb.2](bob-cli-gb.2.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-gb.3](bob-cli-gb.3.md) ✓ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-gb.4](bob-cli-gb.4.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-gb.4](bob-cli-gb.4.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-gb.5](bob-cli-gb.5.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-gb.7](bob-cli-gb.7.md) ◐ · ⧖ 2026-11-02
 

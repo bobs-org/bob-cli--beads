@@ -30,3 +30,15 @@ clock-diagnostics: produce one warning per deprecated occurrence per run and str
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f9f4c70`](https://github.com/bobs-org/bob-cli/commit/f9f4c7067f98e4c48c09c981f457f2c635ae8c47) | feat(gcal): report Google clock deprecations and document the completed contract | [bob-cli-gb.4.1.3](bob-cli-gb.4.1.3.md) | 2026-11-02 23:13:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gb.4.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->

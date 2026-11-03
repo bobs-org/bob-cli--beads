@@ -30,7 +30,7 @@ Off-clock life needs no tag: an area or project note's `offclock: true`, inherit
 | [bob-cli-gb.1](bob-cli-gb.1.md) | bob-cli: one clock spelling table, #on, offclock: note facts, and the effective-clock resolver | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-gb.2](bob-cli-gb.2.md) | bob-cli: capture start, close, restamp, and MEET event runs stamp the effective clock | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-gb.3](bob-cli-gb.3.md) | bob-cli: agenda JSON, reconcile settle, and stats drift use the effective clock | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [bob-cli-gb.4](bob-cli-gb.4.md) | bob-cli: gcal reads #off/#on, renders only explicit tags, plans on the effective clock, and warns on deprecated spellings | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
+| [bob-cli-gb.4](bob-cli-gb.4.md) | bob-cli: gcal reads #off/#on, renders only explicit tags, plans on the effective clock, and warns on deprecated spellings | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-gb.5](bob-cli-gb.5.md) | bob-cli: capture keeps #off/#on at item edges as tags, never type markers | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-gb.6](bob-cli-gb.6.md) | bob-plugins: spelling tables, offclock: inheritance in Obsidian starts and closes, copied vectors | ✓ closed | medium | 2026-11-02 | 1 | 0 |
 | [bob-cli-gb.7](bob-cli-gb.7.md) | bob-plugins: Event Task clock marks for #off, #on, and inherited rows, and the daily deprecation Notice | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
@@ -44,8 +44,8 @@ flowchart TD
     n1["bob-cli-gb.1: bob-cli: one clock spelling table, #on, offclock: note facts, and the effective-clock resolver [closed]"]
     n2["bob-cli-gb.2: bob-cli: capture start, close, restamp, and MEET event runs stamp the effective clock [closed]"]
     n3["bob-cli-gb.3: bob-cli: agenda JSON, reconcile settle, and stats drift use the effective clock [closed]"]
-    n4["bob-cli-gb.4: bob-cli: gcal reads #off/#on, renders only explicit tags, plans on the effective clock, and warns on deprecated spellings [in_progress]"]
-    n5["bob-cli-gb.4.1: Complete gcal explicit clock tags and inherited clock planning [in_progress]"]
+    n4["bob-cli-gb.4: bob-cli: gcal reads #off/#on, renders only explicit tags, plans on the effective clock, and warns on deprecated spellings [closed]"]
+    n5["bob-cli-gb.4.1: Complete gcal explicit clock tags and inherited clock planning [closed]"]
     n6["bob-cli-gb.4.1.1: Parse and render explicit Google clock tags without losing ownership [closed]"]
     n7["bob-cli-gb.4.1.2: Resolve MEET clocks from retained rows and show inherited clocks in list [closed]"]
     n8["bob-cli-gb.4.1.3: Report Google clock deprecations and document the completed contract [closed]"]
@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gb.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.4.1.1.md) | [bob-cli-gb.4.1.1](bob-cli-gb.4.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.2/README.md) | [bob-cli-gb.4.1.2](bob-cli-gb.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.3/README.md) | [bob-cli-gb.4.1.3](bob-cli-gb.4.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-gb.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.land/README.md) | [bob-cli-gb.4.1](bob-cli-gb.4.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gb.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.land/README.md) | [bob-cli-gb.4.1](bob-cli-gb.4.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.5/README.md) | [bob-cli-gb.5](bob-cli-gb.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.6/README.md) | [bob-cli-gb.6](bob-cli-gb.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gb.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.7/README.md) | [bob-cli-gb.7](bob-cli-gb.7.md) | 0 |
@@ -110,3 +110,4 @@ flowchart TD
 | bob-cli | [`beae4dc`](https://github.com/bobs-org/bob-cli/commit/beae4dc79a0593d14d7ce775d1e1702bbbe0e588) | feat(pomodoro-clock): stamp the effective clock on capture writers | [bob-cli-gb.2](bob-cli-gb.2.md) | 2026-11-02 21:44:22 EST |
 | bob-cli | [`a414c17`](https://github.com/bobs-org/bob-cli/commit/a414c1713bbd9608653afdb369d950dbd1e2d614) | feat(gcal): resolve inherited clocks for list and MEET stamps | [bob-cli-gb.4.1.2](bob-cli-gb.4.1.2.md) | 2026-11-02 22:35:28 EST |
 | bob-cli | [`f9f4c70`](https://github.com/bobs-org/bob-cli/commit/f9f4c7067f98e4c48c09c981f457f2c635ae8c47) | feat(gcal): report Google clock deprecations and document the completed contract | [bob-cli-gb.4.1.3](bob-cli-gb.4.1.3.md) | 2026-11-02 23:13:36 EST |
+| bob-cli--plans | [`bob-cli--plans@4273fe3`](https://github.com/bobs-org/bob-cli--plans/commit/4273fe3cfe302e7e3f2b078bcf58595cbdf3cab2) | chore(plans): mark verified gcal clock epic complete | [bob-cli-gb.4.1](bob-cli-gb.4.1.md) | 2026-11-02 23:35:04 EST |
