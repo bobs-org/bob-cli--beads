@@ -24,7 +24,7 @@ pill: fix the shared Event pill clock bug, then implement the contract in bob-le
 ## Dependencies
 
 - **Depends on:** [bob-cli-gg.1](bob-cli-gg.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gg.3](bob-cli-gg.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gg.3](bob-cli-gg.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -37,3 +37,15 @@ pill: fix the shared Event pill clock bug, then implement the contract in bob-le
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8ce2feb`](https://github.com/bobs-org/bob-plugins/commit/8ce2febc8632dc91926f271e3a0033da2f2b9ea2) | feat(ledger-tools): event link time pills with gcal now-on-timeline fix | [bob-cli-gg.2](bob-cli-gg.2.md) | 2026-11-03 11:42:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gg.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gg.2/README.md
+
+<!-- sase:referenced-by:end -->
