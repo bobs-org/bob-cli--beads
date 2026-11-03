@@ -22,20 +22,21 @@ nav-card: generalize the decay card to every rung: Enter steps exactly one rung 
 ## Dependencies
 
 - **Depends on:** [bob-cli-g9.4](bob-cli-g9.4.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-g9.6](bob-cli-g9.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-g9.6](bob-cli-g9.6.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-g9.7](bob-cli-g9.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-g9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.5.md) | [bob-cli-g9.5](bob-cli-g9.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-g9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.5.md) | [bob-cli-g9.5](bob-cli-g9.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`817ba7d`](https://github.com/bobs-org/bob-cli/commit/817ba7dda9579138fb93a1690177fb5ac20c1bcb) | docs(freshness): add freshness and projects notes for nav-card decay work | [bob-cli-g9.5](bob-cli-g9.5.md) | 2026-11-02 20:51:09 EST |
+| bob-plugins | [`bob-plugins@6464cad`](https://github.com/bobs-org/bob-plugins/commit/6464cad318ea87033106b674c4b5019b5131b93a) | fix(nav-hotkeys): restore D/X drop alias and rung-aware decay contract | [bob-cli-g9.5](bob-cli-g9.5.md) | 2026-11-02 20:51:43 EST |
 
 <!-- sase:referenced-by:start -->
 
