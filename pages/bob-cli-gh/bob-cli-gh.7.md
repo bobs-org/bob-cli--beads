@@ -22,7 +22,7 @@ strip: the `bob-stats-strip` fence and the shared period strip (facts, typical l
 ## Dependencies
 
 - **Depends on:** [bob-cli-gh.3](bob-cli-gh.3.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gh.8](bob-cli-gh.8.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gh.8](bob-cli-gh.8.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -35,3 +35,15 @@ strip: the `bob-stats-strip` fence and the shared period strip (facts, typical l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d1737ea`](https://github.com/bobs-org/bob-plugins/commit/d1737ea7ca1b216960a908904358f91ed1c2a17a) | feat(ledger-tools): add week-member period stats strip (bob-stats-strip) | [bob-cli-gh.7](bob-cli-gh.7.md) | 2026-11-03 14:11:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gh.7][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gh.7/README.md
+
+<!-- sase:referenced-by:end -->
