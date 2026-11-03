@@ -29,10 +29,11 @@ live_verify: drive the chip in an isolated real-Obsidian scratch vault, compare 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.3/README.md) | [bob-cli-gf.3](bob-cli-gf.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.3/README.md) | [bob-cli-gf.3](bob-cli-gf.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e9deb7f`](https://github.com/bobs-org/bob-cli/commit/e9deb7f8ab5e7cc5ecb7ffe68a025d142454e582) | docs(off-clock-chips): record live verification | [bob-cli-gf.3](bob-cli-gf.3.md) | 2026-11-03 11:37:11 EST |
+| bob-plugins | [`bob-plugins@46b25c6`](https://github.com/bobs-org/bob-plugins/commit/46b25c682688f5c568f2e031005d4d166e7e67bb) | test(off-clock-chips): add isolated Obsidian e2e | [bob-cli-gf.3](bob-cli-gf.3.md) | 2026-11-03 11:37:36 EST |
