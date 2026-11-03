@@ -13,7 +13,7 @@ plugins-clock: one spelling table per plugin, #on wins, the ledger-tools chain w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gb.2](bob-cli-gb.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-gb.2](bob-cli-gb.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.7](bob-cli-gb.7.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
