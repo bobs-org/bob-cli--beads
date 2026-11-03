@@ -24,13 +24,7 @@ chooser: make the Pull-In choice model and card consume Bob's group order and co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md) | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@52a222a`](https://github.com/bobs-org/bob-mac-capture/commit/52a222ad38211eafaa6afae79a39597fd8d46687) | feat(capture): render Bob-authored Pull-In relation groups | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 2026-11-02 20:37:04 EST |
+| [bbugyi200.athena.bob-cli-fs.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md) | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

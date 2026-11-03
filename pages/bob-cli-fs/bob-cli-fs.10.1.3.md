@@ -24,13 +24,7 @@ reporting: wire relation offers and held/check state into passive capture previe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@e3f0817`](https://github.com/bobs-org/bob-mac-capture/commit/e3f0817988b4fbca800a5b7014e59cc393fe5f66) | feat(capture): present relation previews, held notices, notifications, and badges | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 2026-11-02 20:56:20 EST |
+| [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

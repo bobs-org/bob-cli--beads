@@ -13,7 +13,7 @@ mac: render every Pull-In group from bob's copy, decode and present relation off
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fs.3](bob-cli-fs.3.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fs.4](bob-cli-fs.4.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fs.5](bob-cli-fs.5.md) ✓ · ⧖ 2026-11-02

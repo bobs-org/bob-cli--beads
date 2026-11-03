@@ -37,7 +37,7 @@ A task linked "S starts after T" is offered as a successor (never auto-linked, n
 |---|---|---|---|---|---:|---:|
 | [bob-cli-fs.1](bob-cli-fs.1.md) | Contract, shared vectors, inverse pair, and glossary | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fs.10](bob-cli-fs.10.md) | Bob Mac Capture generic group copy and relation presentation | ✓ closed | large | 2026-11-02 | 1 | 0 |
-| [bob-cli-fs.11](bob-cli-fs.11.md) | Enable starts after in chezmoi and smoke it | ◐ in_progress | small | 2026-11-02 | 1 | 0 |
+| [bob-cli-fs.11](bob-cli-fs.11.md) | Enable starts after in chezmoi and smoke it | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-fs.2](bob-cli-fs.2.md) | Rust policy and relation-successor engine | ✓ closed | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-fs.3](bob-cli-fs.3.md) | Rust authoring indications and relations list | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-fs.4](bob-cli-fs.4.md) | Capture events, snapshot, reporting, and bob-authored group copy | ✓ closed | large | 2026-11-02 | 1 | 0 |
@@ -59,7 +59,7 @@ flowchart TD
     n5["bob-cli-fs.10.1.2: Render Bob-authored Pull-In groups and select relation offers [closed]"]
     n6["bob-cli-fs.10.1.3: Present relation previews, held notices, notifications, and badges [closed]"]
     n7["bob-cli-fs.10.1.4: Show relation offer authoring cues and finish the Mac contract docs [closed]"]
-    n8["bob-cli-fs.11: Enable starts after in chezmoi and smoke it [in_progress]"]
+    n8["bob-cli-fs.11: Enable starts after in chezmoi and smoke it [closed]"]
     n9["bob-cli-fs.2: Rust policy and relation-successor engine [closed]"]
     n10["bob-cli-fs.2.1: Rust relation-successor policy and planner for bob-cli-fs.2 [closed]"]
     n11["bob-cli-fs.2.1.1: Successor-label policy and shared copy [closed]"]
@@ -154,12 +154,12 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fs.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.1.md) | [bob-cli-fs.1](bob-cli-fs.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.md) | [bob-cli-fs.10](bob-cli-fs.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-fs.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.1.md) | [bob-cli-fs.10.1.1](bob-cli-fs.10.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md) | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.4.md) | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.land.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.1.md) | [bob-cli-fs.10.1.1](bob-cli-fs.10.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md) | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.4.md) | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.land.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.md) | [bob-cli-fs.2](bob-cli-fs.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.2/README.md) | [bob-cli-fs.2.1.2](bob-cli-fs.2.1.2.md) | 1 |
@@ -208,9 +208,5 @@ flowchart TD
 | bob-cli | [`2aec2aa`](https://github.com/bobs-org/bob-cli/commit/2aec2aa472cf90d22ce607d3805dbceb10c92f72) | perf(capture): trim relation-successor overhead and re-measure apollo budgets | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:22 EST |
 | bob-cli--plans | [`bob-cli--plans@70854a9`](https://github.com/bobs-org/bob-cli--plans/commit/70854a952c73220929f83a89761d7a224526113e) | docs(plans): mark capture\_relation\_successors done | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:51 EST |
 | bob-cli | [`71907da`](https://github.com/bobs-org/bob-cli/commit/71907dab7ceb7dab45a401a700e7069cd767bc24) | feat(capture): offer relation successors on Pending unlink | [bob-cli-fs.5](bob-cli-fs.5.md) | 2026-11-02 19:36:19 EST |
-| bob-mac-capture | [`bob-mac-capture@4b8db34`](https://github.com/bobs-org/bob-mac-capture/commit/4b8db345ac93e9f8d20b944ffb3d2f4252235e6c) | feat(capture): decode relation successor payloads | [bob-cli-fs.10.1.1](bob-cli-fs.10.1.1.md) | 2026-11-02 20:16:46 EST |
-| bob-mac-capture | [`bob-mac-capture@52a222a`](https://github.com/bobs-org/bob-mac-capture/commit/52a222ad38211eafaa6afae79a39597fd8d46687) | feat(capture): render Bob-authored Pull-In relation groups | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 2026-11-02 20:37:04 EST |
-| bob-mac-capture | [`bob-mac-capture@e3f0817`](https://github.com/bobs-org/bob-mac-capture/commit/e3f0817988b4fbca800a5b7014e59cc393fe5f66) | feat(capture): present relation previews, held notices, notifications, and badges | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 2026-11-02 20:56:20 EST |
-| bob-mac-capture | [`bob-mac-capture@5e95b8f`](https://github.com/bobs-org/bob-mac-capture/commit/5e95b8fe17daa65ee95eaf41fc391f1c80930abc) | feat(capture): show relation offer authoring cues | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 2026-11-02 21:20:55 EST |
-| bob-mac-capture | [`bob-mac-capture@17bd529`](https://github.com/bobs-org/bob-mac-capture/commit/17bd529a2d80c46be39bc18e99be0b101701eefa) | feat(capture): repair Mac relation presentation and finish nested landing | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:12:58 EST |
 | bob-cli--plans | [`bob-cli--plans@69f84d1`](https://github.com/bobs-org/bob-cli--plans/commit/69f84d170984b4b1d426cea1d4510500015ca13f) | docs(plans): mark mac\_relation\_successors done | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 2026-11-02 22:13:34 EST |
+| chezmoi | [`chezmoi@5f4b332`](https://github.com/bbugyi200/dotfiles/commit/5f4b332686fa8f024b6b11b8231790d712e7cc8c) | feat(bob): enable starts after successor labels | [bob-cli-fs.11](bob-cli-fs.11.md) | 2026-11-02 22:29:14 EST |

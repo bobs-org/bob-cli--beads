@@ -20,7 +20,7 @@ nav_authoring: add the starts after → starts before pair to both JS inverse tw
 ## Dependencies
 
 - **Depends on:** [bob-cli-fs.1](bob-cli-fs.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

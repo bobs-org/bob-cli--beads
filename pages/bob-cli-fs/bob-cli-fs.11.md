@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-fs](README.md) / bob-cli-fs.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5m.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.5m.linker.w0.md) · **Assignee:** `bob-cli-fs.11` · **Size:** small
-**Created:** 2026-11-02 05:57:12 EST
+**Created:** 2026-11-02 05:57:12 EST · **Closed:** 2026-11-02 22:28:12 EST
 **Plan:** [202611/starts\_after\_relation.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/starts_after_relation.md)
 
 ## Description
 
 enable: add relations.successor_labels [starts after] to the chezmoi bob config and smoke-test the feature end to end on a scratch vault.
+
+## Notes
+
+[2026-11-03T03:28:12Z · bob-cli-fs.11] Enabled starts-after in chezmoi (relations.successor_labels: [starts after] with the §20 comment) and smoke-tested on a scratch vault with the workspace bob binary and the edited chezmoi config as BOB_CONFIG_FILE: (1) capture x* --dry-run reports the SA1 parked relation offer for agents.md#^evaluate; (2) capture x* -p 1 links S ([[agents#^evaluate]]) in the closing continuation; (3) capture !agents:implement --dry-run reports the SA4 done relation offer (destination CHORE/created per D7 typed routing under plan.default_type, verified against unit test relation_slot_routes_to_the_task_type_as_final_destination; typeless config gives slot/BUILD as the vector expects); (4) bob relations list -a shows 'starts after  1 link  offers source  ⇄ starts before'. Live ~/.config/bob/config.yml not touched: chezmoi AGENTS.md applies via post-commit 'chezmoi update -a --force' at land time. Obsidian (picker/notice/cycler) and Mac surfaces left for Bryan (no liquidation run here); docs_reference cli_reference_is_current passes on this tree. No --epic-symbol leftovers.
 
 ## Dependencies
 
@@ -23,4 +27,10 @@ enable: add relations.successor_labels [starts after] to the chezmoi bob config 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@5f4b332`](https://github.com/bbugyi200/dotfiles/commit/5f4b332686fa8f024b6b11b8231790d712e7cc8c) | feat(bob): enable starts after successor labels | [bob-cli-fs.11](bob-cli-fs.11.md) | 2026-11-02 22:29:14 EST |

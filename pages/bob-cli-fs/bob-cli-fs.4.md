@@ -18,7 +18,7 @@ capture: raise parked events from x* closes and done events from every Rust mana
 ## Dependencies
 
 - **Blocks:** [bob-cli-fs.10](bob-cli-fs.10.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-fs.11](bob-cli-fs.11.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [bob-cli-fs.2](bob-cli-fs.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-fs.5](bob-cli-fs.5.md) ✓ · ⧖ 2026-11-02
 

@@ -23,13 +23,7 @@ authoring: present Bob's offers-source capsule, consequence message, amber cavea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.4.md) | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@5e95b8f`](https://github.com/bobs-org/bob-mac-capture/commit/5e95b8fe17daa65ee95eaf41fc391f1c80930abc) | feat(capture): show relation offer authoring cues | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 2026-11-02 21:20:55 EST |
+| [bbugyi200.athena.bob-cli-fs.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.4.md) | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
