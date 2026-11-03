@@ -17,7 +17,7 @@ selection: build and test shared target-run selection, terminal extraction, refu
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gm.1.1.2](bob-cli-gm.1.1.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gm.1.1.2](bob-cli-gm.1.1.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -30,3 +30,15 @@ selection: build and test shared target-run selection, terminal extraction, refu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d1f3484`](https://github.com/bobs-org/bob-cli/commit/d1f3484200081294a96bcd029654b7545d7b7305) | feat(capture): add shared target-run selection staging | [bob-cli-gm.1.1.1](bob-cli-gm.1.1.1.md) | 2026-11-03 17:24:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gm.1.1.1][1] | Need phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->

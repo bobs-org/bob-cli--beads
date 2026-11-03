@@ -13,7 +13,7 @@ editor: reuse shared selection and existing editor semantics to produce one item
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gm.1.1.2](bob-cli-gm.1.1.2.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gm.1.1.2](bob-cli-gm.1.1.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gm.1.1.4](bob-cli-gm.1.1.4.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
