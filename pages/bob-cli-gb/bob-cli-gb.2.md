@@ -11,6 +11,12 @@
 
 clock-writers: thread a home resolver into every capture clock decision, name inherited sources in summaries and JSON, extend the shared pomodoro_clock vectors with frontmatter cases, and write the clock decision record and glossary.
 
+## Notes
+
+[2026-11-02T23:56:00Z · bob-cli-gb.2] --list
+
+[2026-11-03T00:39:44Z · bob-cli-gb.2] Verified: start/close/restamp/MEET/conflict stamp effective_clock; via copy + additive clock_note; pomodoro_clock and meet_event_run frontmatter vectors pass; docs-check passed; no leftover --epic-symbol entries.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-gb.1](bob-cli-gb.1.md) ✓ · ⧖ 2026-11-02
@@ -21,4 +27,4 @@ clock-writers: thread a home resolver into every capture clock decision, name in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.2/README.md) | [bob-cli-gb.2](bob-cli-gb.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.2.md) | [bob-cli-gb.2](bob-cli-gb.2.md) | 0 |

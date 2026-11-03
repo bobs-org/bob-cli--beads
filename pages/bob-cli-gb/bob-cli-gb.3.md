@@ -11,6 +11,10 @@
 
 clock-readers: enrich Event Tasks in the capture-pomodoros agenda, settle inherited off-clock Event Tasks in reconcile, and recompute clock_drift by the same rule, with docs.
 
+## Notes
+
+[2026-11-02T23:45:28Z · bob-cli-gb.3] -r check prior work
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-gb.1](bob-cli-gb.1.md) ✓ · ⧖ 2026-11-02
@@ -20,4 +24,4 @@ clock-readers: enrich Event Tasks in the capture-pomodoros agenda, settle inheri
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.3/README.md) | [bob-cli-gb.3](bob-cli-gb.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.3.md) | [bob-cli-gb.3](bob-cli-gb.3.md) | 0 |

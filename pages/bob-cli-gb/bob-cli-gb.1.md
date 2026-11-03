@@ -20,7 +20,7 @@ clock-contract: add the shared spelling table and tri-state ClockTag, make #off 
 - **Blocks:** [bob-cli-gb.2](bob-cli-gb.2.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.3](bob-cli-gb.3.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.4](bob-cli-gb.4.md) ◐ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.5](bob-cli-gb.5.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.5](bob-cli-gb.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ clock-contract: add the shared spelling table and tri-state ClockTag, make #off 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ab752cc`](https://github.com/bobs-org/bob-cli/commit/ab752cc536d2b1a011fe5aab1e0fc3205d6c3bdf) | feat(pomodoro-clock): resolve off-clock tags and note defaults | [bob-cli-gb.1](bob-cli-gb.1.md) | 2026-11-02 18:42:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gb.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.1/README.md
+
+<!-- sase:referenced-by:end -->
