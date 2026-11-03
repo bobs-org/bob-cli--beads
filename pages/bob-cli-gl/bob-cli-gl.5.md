@@ -13,8 +13,8 @@ cli-execution: Execute `- ^id` and `- :id` inside `plan_project_note_item`: reso
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gl.2](bob-cli-gl.2.md) ◐ · ⧖ 2026-11-03
-- **Depends on:** [bob-cli-gl.3](bob-cli-gl.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gl.2](bob-cli-gl.2.md) ○ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gl.3](bob-cli-gl.3.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.7](bob-cli-gl.7.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

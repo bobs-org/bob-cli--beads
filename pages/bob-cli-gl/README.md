@@ -28,8 +28,8 @@ When a capture item creates a project note with `@foo^bar@` or `@foo:bar@`, a fi
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-gl.1](bob-cli-gl.1.md) | Contract docs, copy table, and move-bullet vectors | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-gl.2](bob-cli-gl.2.md) | Move-bullet lexer, parsers, and capture-parse | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
-| [bob-cli-gl.3](bob-cli-gl.3.md) | Move engine slots, eligibility API, batch move helper, and parent-last writes | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-gl.2](bob-cli-gl.2.md) | Move-bullet lexer, parsers, and capture-parse | ○ open | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-gl.3](bob-cli-gl.3.md) | Move engine slots, eligibility API, batch move helper, and parent-last writes | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gl.4](bob-cli-gl.4.md) | capture-complete \`project\_task\_move\` context and rows | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gl.5](bob-cli-gl.5.md) | Project-note planner moves, \`:\` links, offers, and output | ◐ in_progress | large | 2026-11-03 | 1 | 0 |
 | [bob-cli-gl.6](bob-cli-gl.6.md) | Bob Mac Capture move picker, Add block ID, shift-return chain, and span styling | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
@@ -41,8 +41,8 @@ When a capture item creates a project note with `@foo^bar@` or `@foo:bar@`, a fi
 flowchart TD
     n0["bob-cli-gl: Move parent tasks into a new project note with capture move bullets [in_progress]"]
     n1["bob-cli-gl.1: Contract docs, copy table, and move-bullet vectors [closed]"]
-    n2["bob-cli-gl.2: Move-bullet lexer, parsers, and capture-parse [in_progress]"]
-    n3["bob-cli-gl.3: Move engine slots, eligibility API, batch move helper, and parent-last writes [in_progress]"]
+    n2["bob-cli-gl.2: Move-bullet lexer, parsers, and capture-parse [open]"]
+    n3["bob-cli-gl.3: Move engine slots, eligibility API, batch move helper, and parent-last writes [closed]"]
     n4["bob-cli-gl.4: capture-complete `project_task_move` context and rows [in_progress]"]
     n5["bob-cli-gl.5: Project-note planner moves, `:` links, offers, and output [in_progress]"]
     n6["bob-cli-gl.6: Bob Mac Capture move picker, Add block ID, shift-return chain, and span styling [in_progress]"]
@@ -71,7 +71,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-gl.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.1/README.md) | [bob-cli-gl.1](bob-cli-gl.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.2/README.md) | [bob-cli-gl.2](bob-cli-gl.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-gl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.3/README.md) | [bob-cli-gl.3](bob-cli-gl.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.3/README.md) | [bob-cli-gl.3](bob-cli-gl.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.4/README.md) | [bob-cli-gl.4](bob-cli-gl.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5/README.md) | [bob-cli-gl.5](bob-cli-gl.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md) | [bob-cli-gl.6](bob-cli-gl.6.md) | 0 |
@@ -83,3 +83,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`27f508b`](https://github.com/bobs-org/bob-cli/commit/27f508bd2b3940a8efb2e44effc0e9ad13fe8e3f) | docs(capture): specify move-bullet contract | [bob-cli-gl.1](bob-cli-gl.1.md) | 2026-11-03 13:57:26 EST |
+| bob-cli | [`cf1e464`](https://github.com/bobs-org/bob-cli/commit/cf1e46442bf7dca5bedfeeba9571ca3b5b3bbc37) | feat(capture): add ordered batch task moves | [bob-cli-gl.3](bob-cli-gl.3.md) | 2026-11-03 14:28:20 EST |

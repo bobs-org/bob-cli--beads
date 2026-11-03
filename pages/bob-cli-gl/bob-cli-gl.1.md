@@ -17,8 +17,8 @@ contract: Write the docs-first contract for move bullets in bob-cli `docs/`. Cov
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gl.2](bob-cli-gl.2.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gl.3](bob-cli-gl.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.2](bob-cli-gl.2.md) ○ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.3](bob-cli-gl.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -31,3 +31,15 @@ contract: Write the docs-first contract for move bullets in bob-cli `docs/`. Cov
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`27f508b`](https://github.com/bobs-org/bob-cli/commit/27f508bd2b3940a8efb2e44effc0e9ad13fe8e3f) | docs(capture): specify move-bullet contract | [bob-cli-gl.1](bob-cli-gl.1.md) | 2026-11-03 13:57:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.1/README.md
+
+<!-- sase:referenced-by:end -->
