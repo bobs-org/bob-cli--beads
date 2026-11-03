@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gf.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.1/README.md) | [bob-cli-gf.1](bob-cli-gf.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gf.2.md) | [bob-cli-gf.2](bob-cli-gf.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gf.3/README.md) | [bob-cli-gf.3](bob-cli-gf.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-gf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gf.land.md) | [bob-cli-gf](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gf.land.md) | [bob-cli-gf](README.md) | 2 |
 
 ## Commits
 
@@ -92,6 +92,7 @@ flowchart TD
 | bob-cli | [`e9deb7f`](https://github.com/bobs-org/bob-cli/commit/e9deb7f8ab5e7cc5ecb7ffe68a025d142454e582) | docs(off-clock-chips): record live verification | [bob-cli-gf.3](bob-cli-gf.3.md) | 2026-11-03 11:37:11 EST |
 | bob-plugins | [`bob-plugins@46b25c6`](https://github.com/bobs-org/bob-plugins/commit/46b25c682688f5c568f2e031005d4d166e7e67bb) | test(off-clock-chips): add isolated Obsidian e2e | [bob-cli-gf.3](bob-cli-gf.3.md) | 2026-11-03 11:37:36 EST |
 | bob-plugins | [`bob-plugins@84ea548`](https://github.com/bobs-org/bob-plugins/commit/84ea5484fa2b38b4170dcc207f9f845dd157b2c7) | test(ledger-tools): verify combined off-clock feature sweeps | [bob-cli-gf](README.md) | 2026-11-03 12:15:51 EST |
+| bob-cli--plans | [`bob-cli--plans@8615eae`](https://github.com/bobs-org/bob-cli--plans/commit/8615eae2b152f209f6e25171576f0aee994feecc) | docs(plan): mark off-clock link chips landing done | [bob-cli-gf](README.md) | 2026-11-03 12:16:17 EST |
 
 <!-- sase:referenced-by:start -->
 
