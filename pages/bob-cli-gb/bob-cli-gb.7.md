@@ -14,7 +14,7 @@ plugins-marks-notice: paint inherited off-clock Event Tasks dashed with a from-n
 ## Dependencies
 
 - **Depends on:** [bob-cli-gb.4](bob-cli-gb.4.md) ◐ · ⧖ 2026-11-02
-- **Depends on:** [bob-cli-gb.6](bob-cli-gb.6.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-gb.6](bob-cli-gb.6.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

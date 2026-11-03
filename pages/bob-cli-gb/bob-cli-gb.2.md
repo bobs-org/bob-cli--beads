@@ -24,7 +24,7 @@ clock-writers: thread a home resolver into every capture clock decision, name in
 ## Dependencies
 
 - **Depends on:** [bob-cli-gb.1](bob-cli-gb.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.6](bob-cli-gb.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.6](bob-cli-gb.6.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.8](bob-cli-gb.8.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
@@ -38,3 +38,15 @@ clock-writers: thread a home resolver into every capture clock decision, name in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`beae4dc`](https://github.com/bobs-org/bob-cli/commit/beae4dc79a0593d14d7ce775d1e1702bbbe0e588) | feat(pomodoro-clock): stamp the effective clock on capture writers | [bob-cli-gb.2](bob-cli-gb.2.md) | 2026-11-02 21:44:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gb.2--2][1] | Need full description after truncated read | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.2.md
+
+<!-- sase:referenced-by:end -->

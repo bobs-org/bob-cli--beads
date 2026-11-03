@@ -13,7 +13,7 @@ clock-diagnostics: produce one warning per deprecated occurrence per run and str
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gb.4.1.2](bob-cli-gb.4.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-gb.4.1.2](bob-cli-gb.4.1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

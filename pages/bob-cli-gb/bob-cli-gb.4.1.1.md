@@ -17,7 +17,7 @@ explicit-clock-tags: replace gcal's explicit clock boolean with the shared Clock
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gb.4.1.2](bob-cli-gb.4.1.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.4.1.2](bob-cli-gb.4.1.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -30,3 +30,15 @@ explicit-clock-tags: replace gcal's explicit clock boolean with the shared Clock
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4d5a61d`](https://github.com/bobs-org/bob-cli/commit/4d5a61de6a5f2437a5db97a95d444f9d055fb327) | feat(gcal): parse and render explicit clock tags | [bob-cli-gb.4.1.1](bob-cli-gb.4.1.1.md) | 2026-11-02 21:09:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gb.4.1.1--3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.4.1.1.md
+
+<!-- sase:referenced-by:end -->
