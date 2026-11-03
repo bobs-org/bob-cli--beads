@@ -18,7 +18,7 @@ clock-contract: add the shared spelling table and tri-state ClockTag, make #off 
 ## Dependencies
 
 - **Blocks:** [bob-cli-gb.2](bob-cli-gb.2.md) ◐ · ⧖ 2026-11-02
-- **Blocks:** [bob-cli-gb.3](bob-cli-gb.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [bob-cli-gb.3](bob-cli-gb.3.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.4](bob-cli-gb.4.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.5](bob-cli-gb.5.md) ✓ · ⧖ 2026-11-02
 

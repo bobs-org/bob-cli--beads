@@ -17,6 +17,8 @@ clock-writers: thread a home resolver into every capture clock decision, name in
 
 [2026-11-03T00:39:44Z · bob-cli-gb.2] Verified: start/close/restamp/MEET/conflict stamp effective_clock; via copy + additive clock_note; pomodoro_clock and meet_event_run frontmatter vectors pass; docs-check passed; no leftover --epic-symbol entries.
 
+[2026-11-03T01:20:17Z · bob-cli-gb.2--1] Clippy repair: collapsed emit_close_clock_warning if-let chain; via_clock_note uses ? instead of let-else. No leftover --epic-symbol entries.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-gb.1](bob-cli-gb.1.md) ✓ · ⧖ 2026-11-02

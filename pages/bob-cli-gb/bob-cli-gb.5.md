@@ -31,3 +31,15 @@ capture-clock-tags: reserve the clock spellings in the capture parser and editor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`15d18e9`](https://github.com/bobs-org/bob-cli/commit/15d18e90c46ea3a369998edce44b270d40689f04) | feat(capture): reserve clock tags from type markers | [bob-cli-gb.5](bob-cli-gb.5.md) | 2026-11-02 20:10:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gb.5][1] | Check whether prior phase notes record unfinished work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.5/README.md
+
+<!-- sase:referenced-by:end -->

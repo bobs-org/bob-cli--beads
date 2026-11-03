@@ -29,7 +29,7 @@ Off-clock life needs no tag: an area or project note's `offclock: true`, inherit
 |---|---|---|---|---|---:|---:|
 | [bob-cli-gb.1](bob-cli-gb.1.md) | bob-cli: one clock spelling table, #on, offclock: note facts, and the effective-clock resolver | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-gb.2](bob-cli-gb.2.md) | bob-cli: capture start, close, restamp, and MEET event runs stamp the effective clock | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
-| [bob-cli-gb.3](bob-cli-gb.3.md) | bob-cli: agenda JSON, reconcile settle, and stats drift use the effective clock | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [bob-cli-gb.3](bob-cli-gb.3.md) | bob-cli: agenda JSON, reconcile settle, and stats drift use the effective clock | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [bob-cli-gb.4](bob-cli-gb.4.md) | bob-cli: gcal reads #off/#on, renders only explicit tags, plans on the effective clock, and warns on deprecated spellings | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
 | [bob-cli-gb.5](bob-cli-gb.5.md) | bob-cli: capture keeps #off/#on at item edges as tags, never type markers | ✓ closed | small | 2026-11-02 | 1 | 1 |
 | [bob-cli-gb.6](bob-cli-gb.6.md) | bob-plugins: spelling tables, offclock: inheritance in Obsidian starts and closes, copied vectors | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
@@ -43,10 +43,10 @@ flowchart TD
     n0["bob-cli-gb: #off / #on clock tags and inherited offclock: area defaults [in_progress]"]
     n1["bob-cli-gb.1: bob-cli: one clock spelling table, #on, offclock: note facts, and the effective-clock resolver [closed]"]
     n2["bob-cli-gb.2: bob-cli: capture start, close, restamp, and MEET event runs stamp the effective clock [in_progress]"]
-    n3["bob-cli-gb.3: bob-cli: agenda JSON, reconcile settle, and stats drift use the effective clock [in_progress]"]
+    n3["bob-cli-gb.3: bob-cli: agenda JSON, reconcile settle, and stats drift use the effective clock [closed]"]
     n4["bob-cli-gb.4: bob-cli: gcal reads #off/#on, renders only explicit tags, plans on the effective clock, and warns on deprecated spellings [in_progress]"]
     n5["bob-cli-gb.4.1: Complete gcal explicit clock tags and inherited clock planning [in_progress]"]
-    n6["bob-cli-gb.4.1.1: Parse and render explicit Google clock tags without losing ownership [in_progress]"]
+    n6["bob-cli-gb.4.1.1: Parse and render explicit Google clock tags without losing ownership [closed]"]
     n7["bob-cli-gb.4.1.2: Resolve MEET clocks from retained rows and show inherited clocks in list [in_progress]"]
     n8["bob-cli-gb.4.1.3: Report Google clock deprecations and document the completed contract [in_progress]"]
     n9["bob-cli-gb.5: bob-cli: capture keeps #off/#on at item edges as tags, never type markers [closed]"]
@@ -87,7 +87,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-gb.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.1/README.md) | [bob-cli-gb.1](bob-cli-gb.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.2.md) | [bob-cli-gb.2](bob-cli-gb.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-gb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.3.md) | [bob-cli-gb.3](bob-cli-gb.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.3.md) | [bob-cli-gb.3](bob-cli-gb.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.4.md) | [bob-cli-gb.4](bob-cli-gb.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gb.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gb.4.1.1.md) | [bob-cli-gb.4.1.1](bob-cli-gb.4.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gb.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gb.4.1.2/README.md) | [bob-cli-gb.4.1.2](bob-cli-gb.4.1.2.md) | 0 |
@@ -105,3 +105,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`ab752cc`](https://github.com/bobs-org/bob-cli/commit/ab752cc536d2b1a011fe5aab1e0fc3205d6c3bdf) | feat(pomodoro-clock): resolve off-clock tags and note defaults | [bob-cli-gb.1](bob-cli-gb.1.md) | 2026-11-02 18:42:04 EST |
 | bob-cli | [`15d18e9`](https://github.com/bobs-org/bob-cli/commit/15d18e90c46ea3a369998edce44b270d40689f04) | feat(capture): reserve clock tags from type markers | [bob-cli-gb.5](bob-cli-gb.5.md) | 2026-11-02 20:10:29 EST |
+| bob-cli | [`a9a499a`](https://github.com/bobs-org/bob-cli/commit/a9a499ac6ee9a0d0cbc68a8c2bdb3b8bcec39930) | feat(clock-readers): effective clock\_source in agenda, settle, and stats drift | [bob-cli-gb.3](bob-cli-gb.3.md) | 2026-11-02 21:02:32 EST |

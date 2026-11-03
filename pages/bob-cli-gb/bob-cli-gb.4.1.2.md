@@ -13,7 +13,7 @@ effective-clock-planning: reuse one HomeResolver for the command's clock work, r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gb.4.1.1](bob-cli-gb.4.1.1.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [bob-cli-gb.4.1.1](bob-cli-gb.4.1.1.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [bob-cli-gb.4.1.3](bob-cli-gb.4.1.3.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
