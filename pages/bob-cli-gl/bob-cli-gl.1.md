@@ -17,7 +17,7 @@ contract: Write the docs-first contract for move bullets in bob-cli `docs/`. Cov
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gl.2](bob-cli-gl.2.md) ○ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.2](bob-cli-gl.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.3](bob-cli-gl.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents

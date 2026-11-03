@@ -13,7 +13,7 @@ cli-execution: Execute `- ^id` and `- :id` inside `plan_project_note_item`: reso
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gl.2](bob-cli-gl.2.md) ○ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gl.2](bob-cli-gl.2.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-gl.3](bob-cli-gl.3.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.7](bob-cli-gl.7.md) ◐ · ⧖ 2026-11-03
 
@@ -22,3 +22,15 @@ cli-execution: Execute `- ^id` and `- :id` inside `plan_project_note_item`: reso
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-gl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5/README.md) | [bob-cli-gl.5](bob-cli-gl.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.3][1] | Coordinate the shared eligibility and batch-move engine interfaces with dependent phases | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.3/README.md
+
+<!-- sase:referenced-by:end -->

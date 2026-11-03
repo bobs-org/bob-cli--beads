@@ -13,7 +13,7 @@ cli-complete: Add the `project_task_move` completion field and context. It serve
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gl.2](bob-cli-gl.2.md) ○ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gl.2](bob-cli-gl.2.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-gl.3](bob-cli-gl.3.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.6](bob-cli-gl.6.md) ◐ · ⧖ 2026-11-03
 
@@ -22,3 +22,15 @@ cli-complete: Add the `project_task_move` completion field and context. It serve
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-gl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.4/README.md) | [bob-cli-gl.4](bob-cli-gl.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.3][1] | Coordinate the shared eligibility and batch-move engine interfaces with dependent phases | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.3/README.md
+
+<!-- sase:referenced-by:end -->
