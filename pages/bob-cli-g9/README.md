@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-g9.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.5.md) | [bob-cli-g9.5](bob-cli-g9.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.6/README.md) | [bob-cli-g9.6](bob-cli-g9.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-g9.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-g9.7/README.md) | [bob-cli-g9.7](bob-cli-g9.7.md) | 2 |
-| [bbugyi200.apollo.bob-cli-g9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.land.md) | [bob-cli-g9](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-g9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-g9.land.md) | [bob-cli-g9](README.md) | 3 |
 
 ## Commits
 
@@ -123,6 +123,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8275198`](https://github.com/bobs-org/bob-plugins/commit/82751984551d699b6310bcba9c83ab20fc46c82b) | test(decay-ladder): add isolated Obsidian e2e for the keep/card/step walk | [bob-cli-g9.6](bob-cli-g9.6.md) | 2026-11-02 21:36:49 EST |
 | bob-cli | [`fe57f5b`](https://github.com/bobs-org/bob-cli/commit/fe57f5b6b18b0c3f19a84162cd988b8e7bef52af) | docs(decay-ladder): record live verification and closeout | [bob-cli-g9](README.md) | 2026-11-03 02:53:05 EST |
 | bob-plugins | [`bob-plugins@175aced`](https://github.com/bobs-org/bob-plugins/commit/175acedcf6c9ccfde92f81c223217f1ea2018e6b) | feat(navigation): complete decay ladder and live verification | [bob-cli-g9](README.md) | 2026-11-03 02:53:34 EST |
+| bob-cli--plans | [`bob-cli--plans@406c2be`](https://github.com/bobs-org/bob-cli--plans/commit/406c2beaa7170a228ae3033c0f3a72d9a519a546) | chore(plan): mark task decay ladder complete | [bob-cli-g9](README.md) | 2026-11-03 02:53:59 EST |
 
 <!-- sase:referenced-by:start -->
 
