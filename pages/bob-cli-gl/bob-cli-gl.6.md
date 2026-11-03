@@ -13,7 +13,7 @@ mac-picker: In bob-mac-capture (open it with /sase_repo), gate on the `project_t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gl.4](bob-cli-gl.4.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gl.4](bob-cli-gl.4.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.7](bob-cli-gl.7.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

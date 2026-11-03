@@ -18,7 +18,7 @@ cli-grammar: Add the shared `move_bullet` lexer. Wire it into the execution pars
 ## Dependencies
 
 - **Depends on:** [bob-cli-gl.1](bob-cli-gl.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gl.4](bob-cli-gl.4.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.4](bob-cli-gl.4.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.5](bob-cli-gl.5.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
@@ -32,3 +32,15 @@ cli-grammar: Add the shared `move_bullet` lexer. Wire it into the execution pars
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b94eec2`](https://github.com/bobs-org/bob-cli/commit/b94eec2c04ba7f9730ff605df4116f3928b62825) | feat(capture)!: parse move bullets in sealed project-note items | [bob-cli-gl.2](bob-cli-gl.2.md) | 2026-11-03 16:00:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.2/README.md
+
+<!-- sase:referenced-by:end -->
