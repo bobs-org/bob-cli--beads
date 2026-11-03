@@ -14,7 +14,7 @@ pathz: detect a bullet that holds only an image path, import it through bob, rew
 ## Dependencies
 
 - **Depends on:** [bob-cli-gn.1](bob-cli-gn.1.md) ✓ · ⧖ 2026-11-03
-- **Depends on:** [bob-cli-gn.2](bob-cli-gn.2.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gn.2](bob-cli-gn.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

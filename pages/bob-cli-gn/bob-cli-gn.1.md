@@ -19,7 +19,7 @@ origins: add the `.bob/attachments/<host>.jsonl` origin journal, have `%c` recor
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gn.2](bob-cli-gn.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gn.2](bob-cli-gn.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gn.3](bob-cli-gn.3.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
@@ -33,3 +33,15 @@ origins: add the `.bob/attachments/<host>.jsonl` origin journal, have `%c` recor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0b4cebd`](https://github.com/bobs-org/bob-cli/commit/0b4cebdf90cdd8fb8bb69ed60e07b2936c480906) | feat(attachments): record attachment origins and ship bob attachments | [bob-cli-gn.1](bob-cli-gn.1.md) | 2026-11-03 16:32:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gn.1--1][1] | Need phase scope check for stale landing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gn.1.md
+
+<!-- sase:referenced-by:end -->
