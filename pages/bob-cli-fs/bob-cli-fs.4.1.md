@@ -37,13 +37,14 @@ Managed capture Done and parked gestures offer relation successors through the s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2aec2aa`](https://github.com/bobs-org/bob-cli/commit/2aec2aa472cf90d22ce607d3805dbceb10c92f72) | perf(capture): trim relation-successor overhead and re-measure apollo budgets | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:22 EST |
+| bob-cli--plans | [`bob-cli--plans@70854a9`](https://github.com/bobs-org/bob-cli--plans/commit/70854a952c73220929f83a89761d7a224526113e) | docs(plans): mark capture\_relation\_successors done | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:51 EST |
 
 <!-- sase:referenced-by:start -->
 

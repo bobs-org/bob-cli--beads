@@ -31,3 +31,15 @@ capture_unlink: raise a parked event when capture's @route+id! toggle unlinks a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`71907da`](https://github.com/bobs-org/bob-cli/commit/71907dab7ceb7dab45a401a700e7069cd767bc24) | feat(capture): offer relation successors on Pending unlink | [bob-cli-fs.5](bob-cli-fs.5.md) | 2026-11-02 19:36:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-fs.5--1][1] | Need the phase scope, design file, notes, and DECISIONS after monitor recovery | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.5.md
+
+<!-- sase:referenced-by:end -->

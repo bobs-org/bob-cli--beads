@@ -52,85 +52,98 @@ flowchart TD
     n0["bob-cli-fs: Starts-after relations offer the next task when one is parked or done [in_progress]"]
     n1["bob-cli-fs.1: Contract, shared vectors, inverse pair, and glossary [closed]"]
     n2["bob-cli-fs.10: Bob Mac Capture generic group copy and relation presentation [in_progress]"]
-    n3["bob-cli-fs.11: Enable starts after in chezmoi and smoke it [in_progress]"]
-    n4["bob-cli-fs.2: Rust policy and relation-successor engine [closed]"]
-    n5["bob-cli-fs.2.1: Rust relation-successor policy and planner for bob-cli-fs.2 [closed]"]
-    n6["bob-cli-fs.2.1.1: Successor-label policy and shared copy [closed]"]
-    n7["bob-cli-fs.2.1.2: Pure relation extraction and classification [closed]"]
-    n8["bob-cli-fs.2.1.3: Merge relation offers into successor planning [closed]"]
-    n9["bob-cli-fs.3: Rust authoring indications and relations list [closed]"]
-    n10["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [closed]"]
-    n11["bob-cli-fs.4.1: Finish capture relation successors for bob-cli-fs.4 [closed]"]
-    n12["bob-cli-fs.4.1.1: Share lazy dependency and relation source reads [closed]"]
-    n13["bob-cli-fs.4.1.2: Wire managed Done events and relation JSON [closed]"]
-    n14["bob-cli-fs.4.1.3: Wire Pomodoro parked and Done events [closed]"]
-    n15["bob-cli-fs.4.1.4: Net relation offers across capture items [closed]"]
-    n16["bob-cli-fs.4.1.5: Author generic pull-in copy and relation human output [closed]"]
-    n17["bob-cli-fs.4.1.6: Complete conformance and measure Apollo budgets [closed]"]
-    n18["bob-cli-fs.5: Capture unlink hand-offs (v1.1) [closed]"]
-    n19["bob-cli-fs.6: Obsidian picker v3 and notice v3 presentation [closed]"]
-    n20["bob-cli-fs.7: Obsidian inverse pair and relation-stage indications [closed]"]
-    n21["bob-cli-fs.8: Obsidian cycler relation-successor engine (Done path) [closed]"]
-    n22["bob-cli-fs.8.1: Obsidian cycler relation successors on managed Done [closed]"]
-    n23["bob-cli-fs.8.1.1: Relation policy, pure rule, and shared copy [closed]"]
-    n24["bob-cli-fs.8.1.2: Integrate relation offers with recovery and selection [closed]"]
-    n25["bob-cli-fs.8.1.3: Wire managed Done with fresh relation reads and receipts [closed]"]
-    n26["bob-cli-fs.8.1.4: Document, validate, and deploy the cycler [closed]"]
-    n27["bob-cli-fs.9: Obsidian unlink hand-offs (v1.1) [closed]"]
+    n3["bob-cli-fs.10.1: Bob Mac Capture relation successors [in_progress]"]
+    n4["bob-cli-fs.10.1.1: Decode relation successors and generate real-Bob fixtures [closed]"]
+    n5["bob-cli-fs.10.1.2: Render Bob-authored Pull-In groups and select relation offers [in_progress]"]
+    n6["bob-cli-fs.10.1.3: Present relation previews, held notices, notifications, and badges [in_progress]"]
+    n7["bob-cli-fs.10.1.4: Show relation offer authoring cues and finish the Mac contract docs [in_progress]"]
+    n8["bob-cli-fs.11: Enable starts after in chezmoi and smoke it [in_progress]"]
+    n9["bob-cli-fs.2: Rust policy and relation-successor engine [closed]"]
+    n10["bob-cli-fs.2.1: Rust relation-successor policy and planner for bob-cli-fs.2 [closed]"]
+    n11["bob-cli-fs.2.1.1: Successor-label policy and shared copy [closed]"]
+    n12["bob-cli-fs.2.1.2: Pure relation extraction and classification [closed]"]
+    n13["bob-cli-fs.2.1.3: Merge relation offers into successor planning [closed]"]
+    n14["bob-cli-fs.3: Rust authoring indications and relations list [closed]"]
+    n15["bob-cli-fs.4: Capture events, snapshot, reporting, and bob-authored group copy [closed]"]
+    n16["bob-cli-fs.4.1: Finish capture relation successors for bob-cli-fs.4 [closed]"]
+    n17["bob-cli-fs.4.1.1: Share lazy dependency and relation source reads [closed]"]
+    n18["bob-cli-fs.4.1.2: Wire managed Done events and relation JSON [closed]"]
+    n19["bob-cli-fs.4.1.3: Wire Pomodoro parked and Done events [closed]"]
+    n20["bob-cli-fs.4.1.4: Net relation offers across capture items [closed]"]
+    n21["bob-cli-fs.4.1.5: Author generic pull-in copy and relation human output [closed]"]
+    n22["bob-cli-fs.4.1.6: Complete conformance and measure Apollo budgets [closed]"]
+    n23["bob-cli-fs.5: Capture unlink hand-offs (v1.1) [closed]"]
+    n24["bob-cli-fs.6: Obsidian picker v3 and notice v3 presentation [closed]"]
+    n25["bob-cli-fs.7: Obsidian inverse pair and relation-stage indications [closed]"]
+    n26["bob-cli-fs.8: Obsidian cycler relation-successor engine (Done path) [closed]"]
+    n27["bob-cli-fs.8.1: Obsidian cycler relation successors on managed Done [closed]"]
+    n28["bob-cli-fs.8.1.1: Relation policy, pure rule, and shared copy [closed]"]
+    n29["bob-cli-fs.8.1.2: Integrate relation offers with recovery and selection [closed]"]
+    n30["bob-cli-fs.8.1.3: Wire managed Done with fresh relation reads and receipts [closed]"]
+    n31["bob-cli-fs.8.1.4: Document, validate, and deploy the cycler [closed]"]
+    n32["bob-cli-fs.9: Obsidian unlink hand-offs (v1.1) [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n4 --> n5
-    n5 --> n6
-    n5 --> n7
-    n5 --> n8
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n0 --> n8
     n0 --> n9
-    n0 --> n10
+    n9 --> n10
     n10 --> n11
-    n11 --> n12
-    n11 --> n13
-    n11 --> n14
-    n11 --> n15
-    n11 --> n16
-    n11 --> n17
-    n0 --> n18
-    n0 --> n19
-    n0 --> n20
-    n0 --> n21
-    n21 --> n22
-    n22 --> n23
-    n22 --> n24
-    n22 --> n25
-    n22 --> n26
-    n0 --> n27
-    n1 -.-> n4
-    n1 -.-> n19
-    n1 -.-> n20
-    n1 -.-> n21
-    n2 -.-> n3
-    n4 -.-> n9
-    n4 -.-> n10
+    n10 --> n12
+    n10 --> n13
+    n0 --> n14
+    n0 --> n15
+    n15 --> n16
+    n16 --> n17
+    n16 --> n18
+    n16 --> n19
+    n16 --> n20
+    n16 --> n21
+    n16 --> n22
+    n0 --> n23
+    n0 --> n24
+    n0 --> n25
+    n0 --> n26
+    n26 --> n27
+    n27 --> n28
+    n27 --> n29
+    n27 --> n30
+    n27 --> n31
+    n0 --> n32
+    n1 -.-> n9
+    n1 -.-> n24
+    n1 -.-> n25
+    n1 -.-> n26
+    n2 -.-> n8
+    n4 -.-> n5
+    n5 -.-> n6
     n6 -.-> n7
-    n7 -.-> n8
-    n9 -.-> n2
-    n9 -.-> n3
-    n10 -.-> n2
-    n10 -.-> n3
-    n10 -.-> n18
+    n9 -.-> n14
+    n9 -.-> n15
+    n11 -.-> n12
     n12 -.-> n13
-    n13 -.-> n14
-    n14 -.-> n15
-    n15 -.-> n16
-    n16 -.-> n17
-    n18 -.-> n2
-    n19 -.-> n21
-    n20 -.-> n3
-    n21 -.-> n3
-    n21 -.-> n27
-    n23 -.-> n24
-    n24 -.-> n25
-    n25 -.-> n26
+    n14 -.-> n2
+    n14 -.-> n8
+    n15 -.-> n2
+    n15 -.-> n8
+    n15 -.-> n23
+    n17 -.-> n18
+    n18 -.-> n19
+    n19 -.-> n20
+    n20 -.-> n21
+    n21 -.-> n22
+    n23 -.-> n2
+    n24 -.-> n26
+    n25 -.-> n8
+    n26 -.-> n8
+    n26 -.-> n32
+    n28 -.-> n29
+    n29 -.-> n30
+    n30 -.-> n31
 ```
 
 ## Agents
@@ -138,7 +151,12 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-fs.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.1.md) | [bob-cli-fs.1](bob-cli-fs.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10/README.md) | [bob-cli-fs.10](bob-cli-fs.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.md) | [bob-cli-fs.10](bob-cli-fs.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.10.1.1.md) | [bob-cli-fs.10.1.1](bob-cli-fs.10.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.2/README.md) | [bob-cli-fs.10.1.2](bob-cli-fs.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.3/README.md) | [bob-cli-fs.10.1.3](bob-cli-fs.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.4/README.md) | [bob-cli-fs.10.1.4](bob-cli-fs.10.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-fs.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.10.1.land/README.md) | [bob-cli-fs.10.1](bob-cli-fs.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.11/README.md) | [bob-cli-fs.11](bob-cli-fs.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.2.md) | [bob-cli-fs.2](bob-cli-fs.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.2.1.1/README.md) | [bob-cli-fs.2.1.1](bob-cli-fs.2.1.1.md) | 1 |
@@ -153,7 +171,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-fs.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.4/README.md) | [bob-cli-fs.4.1.4](bob-cli-fs.4.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.4.1.5/README.md) | [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.6.md) | [bob-cli-fs.4.1.6](bob-cli-fs.4.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-fs.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.4.1.land.md) | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-fs.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-fs.5.md) | [bob-cli-fs.5](bob-cli-fs.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-fs.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.6/README.md) | [bob-cli-fs.6](bob-cli-fs.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-fs.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-fs.7/README.md) | [bob-cli-fs.7](bob-cli-fs.7.md) | 0 |
@@ -186,4 +204,6 @@ flowchart TD
 | bob-cli | [`d53756f`](https://github.com/bobs-org/bob-cli/commit/d53756fdd5b33121191130c07a1715f9d7d481e4) | feat(capture): emit ordered pull-in groups and relation human copy | [bob-cli-fs.4.1.5](bob-cli-fs.4.1.5.md) | 2026-11-02 16:18:20 EST |
 | bob-cli | [`c20263c`](https://github.com/bobs-org/bob-cli/commit/c20263c6f0f3b4f2a720641a1ae579c5c9b68489) | fix(capture): skip previous-daily relation sources by relative path | [bob-cli-fs.4.1.6](bob-cli-fs.4.1.6.md) | 2026-11-02 17:51:45 EST |
 | bob-cli | [`2aec2aa`](https://github.com/bobs-org/bob-cli/commit/2aec2aa472cf90d22ce607d3805dbceb10c92f72) | perf(capture): trim relation-successor overhead and re-measure apollo budgets | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:22 EST |
+| bob-cli--plans | [`bob-cli--plans@70854a9`](https://github.com/bobs-org/bob-cli--plans/commit/70854a952c73220929f83a89761d7a224526113e) | docs(plans): mark capture\_relation\_successors done | [bob-cli-fs.4.1](bob-cli-fs.4.1.md) | 2026-11-02 18:58:51 EST |
 | bob-cli | [`71907da`](https://github.com/bobs-org/bob-cli/commit/71907dab7ceb7dab45a401a700e7069cd767bc24) | feat(capture): offer relation successors on Pending unlink | [bob-cli-fs.5](bob-cli-fs.5.md) | 2026-11-02 19:36:19 EST |
+| bob-mac-capture | [`bob-mac-capture@4b8db34`](https://github.com/bobs-org/bob-mac-capture/commit/4b8db345ac93e9f8d20b944ffb3d2f4252235e6c) | feat(capture): decode relation successor payloads | [bob-cli-fs.10.1.1](bob-cli-fs.10.1.1.md) | 2026-11-02 20:16:46 EST |
