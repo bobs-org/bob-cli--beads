@@ -13,7 +13,7 @@ execute: share one clipboard read and one `$N` roll per fan-out group, refuse ta
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gm.1](bob-cli-gm.1.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gm.1](bob-cli-gm.1.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

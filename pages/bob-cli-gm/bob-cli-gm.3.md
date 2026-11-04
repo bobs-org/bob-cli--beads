@@ -13,7 +13,7 @@ assist: make capture-complete and capture-rewrite treat every member of a target
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gm.1](bob-cli-gm.1.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gm.1](bob-cli-gm.1.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
