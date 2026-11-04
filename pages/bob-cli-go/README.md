@@ -31,6 +31,10 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 
 [2026-11-04T01:04:37Z · bob-cli-gm.1.1.land] DISCOVERED ISSUE: bob-cli-gm.1.1 landing independently reproduced phase bob-cli-gm.1.1.4 note #1 on master 734214e9: uv run --project tools/docs bob-docs gen --check exits 2 with memory strand has no front matter for sase/memory/glossary/task-merge.md. This is the same blocker as go note #1 and is causally owned by go accepted glossary output, not target-run grammar. Per sase_new_task no separate task was created. Memory remains untouched by gm.
 
+[2026-11-04T01:32:36Z · bob-cli-gl.5.1.land] DISCOVERED ISSUE: bob-cli-gl.5.1 landing independently reproduced the docs failure proposed by bob-cli-gl.5.1.3 note #1 on clean ddb0a73f: just docs-check passes lint, then exits 2 at generated drift because sase/memory/glossary/task-merge.md has no front matter. This is the same causal defect already recorded in go notes #1-2, introduced by aac3947c under this epic; no separate task, and no memory edits by the move landing.
+
+[2026-11-04T01:38:07Z · bob-cli-gl.5.1.land] DISCOVERED ISSUE: bob-cli-gl.5.1 landing ran sase tool run check (just check), run 21a7758643f1dbbd1810737832a1c896, on unchanged ddb0a73f. Formatting passes; clippy exits 101 with five errors introduced by go.3 commit 734214e9: task_move/command.rs:354 useless_format; task_split/command.rs:236 collapsible_if; task_split/plan.rs:347 collapsible_if, :1063 bool_comparison, :1170 collapsible_str_replace. No task duplicate found by same-type error/file searches or recent task sweep. This is active go epic work; no standalone task. The earlier gl.5.1.3 unused prepare_task_merge import proposal is resolved by 672954d4 and does not recur.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -45,8 +49,8 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 | [bob-cli-go.4](bob-cli-go.4.md) | Rust merge engine for task, drawer, and section containers | ◐ in_progress | large | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.5](bob-cli-go.5.md) | \`bob task merge\` and \`bob task move -t\` | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.6](bob-cli-go.6.md) | Configurable merge labels in config, capture \`~\`/\`~~\`, and completion | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
-| [bob-cli-go.7](bob-cli-go.7.md) | Obsidian Ctrl+Shift+T split — JS twin and cursor gestures | ✓ closed | medium | 2026-11-03 | 1 | 0 |
-| [bob-cli-go.8](bob-cli-go.8.md) | Split picker, section promotion, cross-note splits, and Undo notices | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-go.7](bob-cli-go.7.md) | Obsidian Ctrl+Shift+T split — JS twin and cursor gestures | ✓ closed | medium | 2026-11-03 | 1 | 1 |
+| [bob-cli-go.8](bob-cli-go.8.md) | Split picker, section promotion, cross-note splits, and Undo notices | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-go.9](bob-cli-go.9.md) | Merge through the Obsidian Links stage | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 
 ## Lineage
@@ -69,7 +73,7 @@ flowchart TD
     n13["bob-cli-go.5: `bob task merge` and `bob task move -t` [in_progress]"]
     n14["bob-cli-go.6: Configurable merge labels in config, capture `~`/`~~`, and completion [in_progress]"]
     n15["bob-cli-go.7: Obsidian Ctrl+Shift+T split — JS twin and cursor gestures [closed]"]
-    n16["bob-cli-go.8: Split picker, section promotion, cross-note splits, and Undo notices [in_progress]"]
+    n16["bob-cli-go.8: Split picker, section promotion, cross-note splits, and Undo notices [closed]"]
     n17["bob-cli-go.9: Merge through the Obsidian Links stage [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -128,8 +132,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.land/README.md) | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.5/README.md) | [bob-cli-go.5](bob-cli-go.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.6/README.md) | [bob-cli-go.6](bob-cli-go.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-go.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md) | [bob-cli-go.7](bob-cli-go.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-go.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md) | [bob-cli-go.8](bob-cli-go.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md) | [bob-cli-go.7](bob-cli-go.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md) | [bob-cli-go.8](bob-cli-go.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.9/README.md) | [bob-cli-go.9](bob-cli-go.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.land/README.md) | [bob-cli-go](README.md) | 0 |
 
@@ -142,7 +146,9 @@ flowchart TD
 | bob-cli | [`adf2082`](https://github.com/bobs-org/bob-cli/commit/adf20825f77d3adc059ae69e7809018e4b75bcbe) | fix(task-merge): resolve payload preparation failures | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 2026-11-03 19:07:47 EST |
 | bob-cli | [`672954d`](https://github.com/bobs-org/bob-cli/commit/672954d4bf2d740405230be9ee2e098ff33405e1) | test(task-merge): fix nested payload indentation assertion | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 2026-11-03 19:48:45 EST |
 | bob-cli | [`734214e`](https://github.com/bobs-org/bob-cli/commit/734214e92c5495fa34a9d02818b9e820d21f004f) | feat(task): add task split planner and CLI | [bob-cli-go.3](bob-cli-go.3.md) | 2026-11-03 19:54:52 EST |
+| bob-plugins | [`bob-plugins@60045f2`](https://github.com/bobs-org/bob-plugins/commit/60045f279de3dc35337c5fbee4ab0646dd3863e0) | feat(nav-split): port split planner to JS and register Ctrl+Shift+T | [bob-cli-go.7](bob-cli-go.7.md) | 2026-11-03 20:25:18 EST |
 | bob-cli | [`751c769`](https://github.com/bobs-org/bob-cli/commit/751c769f02147873f0b2d2dacf092636e9190ec7) | feat(task-merge)!: retire sources with repointing and provenance | [bob-cli-go.4.1.2](bob-cli-go.4.1.2.md) | 2026-11-03 20:33:26 EST |
+| bob-cli | [`a3d44f2`](https://github.com/bobs-org/bob-cli/commit/a3d44f27e75654561673ad1ce8ac71e76a26993c) | feat(task-split): complete picker and guarded undo | [bob-cli-go.8](bob-cli-go.8.md) | 2026-11-03 21:00:29 EST |
 
 <!-- sase:referenced-by:start -->
 
