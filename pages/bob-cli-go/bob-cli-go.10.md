@@ -19,7 +19,7 @@ transfer-capture: after bob-cli-gm and bob-cli-gl.2 land, recognize `@src+id… 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-go.11](bob-cli-go.11.md) ○ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.11](bob-cli-go.11.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.5](bob-cli-go.5.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.6](bob-cli-go.6.md) ✓ · ⧖ 2026-11-03
 
@@ -37,8 +37,10 @@ transfer-capture: after bob-cli-gm and bob-cli-gl.2 land, recognize `@src+id… 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-go.10.1.1][1] | Need to confirm no memory edits authorized for child | 2 |
 | read-by | [agent:bob-cli-go.10.1.5][2] | Need parent phase scope and decisions | 1 |
+| read-by | [agent:bob-cli-go.10.1.land][3] | Need the parent phase scope and link to verify this child plan completes it | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md
 
 <!-- sase:referenced-by:end -->

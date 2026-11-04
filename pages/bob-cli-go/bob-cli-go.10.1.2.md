@@ -41,7 +41,9 @@ transfer-resolvers: wire the shared recognizer before target-run fan-out in both
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-go.10.1.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-go.10.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md
 
 <!-- sase:referenced-by:end -->

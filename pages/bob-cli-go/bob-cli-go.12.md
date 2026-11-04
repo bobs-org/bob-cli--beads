@@ -13,7 +13,7 @@ mac: style the transfer spans, render bob's moves[] and merges[] as Moves and Me
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-go.11](bob-cli-go.11.md) ○ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-go.11](bob-cli-go.11.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.13](bob-cli-go.13.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

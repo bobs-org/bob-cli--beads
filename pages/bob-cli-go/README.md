@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_move_merge_split.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_move_merge_split.md
 
@@ -43,13 +43,21 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 
 [2026-11-04T13:35:39Z · bob-cli-go.10.1.land] DISCOVERED ISSUE corroboration from bob-cli-go.10.1 landing (proposed by bob-cli-go.10.1.5 note #2): on master d25080e1 plus landing fix, just docs-check passes lint then exits 2 at generated drift (sase/memory/glossary/task-merge.md: memory strand has no front matter), and tools/docs/tests/test_contracts.py::test_check_mode_reports_generated_page_drift_without_writing fails the same way; both reproduce identically on pre-epic 3741ce2e. Same defect as notes #1-6 (aac3947c, bob-cli-go.2); owned by this epic's memory closeout (bob-cli-go.13). No separate task, no memory edits by the transfer child epic.
 
+[2026-11-04T15:01:06Z · bob-cli-gj.land] DISCOVERED ISSUE corroboration from bob-cli-gj.land, proposed by bob-cli-gj.3 note #2: uv run --project tools/docs bob-docs gen --check on clean bob-cli 27feff87 exits 2 because sase/memory/glossary/task-merge.md has no front matter. This matches go notes #1-8 and the accepted glossary output owned by go.13 (introduced under go.2), rather than note-pull work. Read go/go.13; same-type and all-type task searches plus the past-week task sweep found no separate duplicate. No task or memory edit created.
+
+[2026-11-04T15:25:17Z · bryanbugyi34@gmail.com] The epic lander agent should make sure that we support triggering completion for tasks when the '+' character is pressed after the '>'. See the 🔒 20261104\_100954.png screenshot for context.
+
+## Attachments
+
+- 🔒 20261104\_100954.png · image/png · 2858×1728 · 372.309 KiB (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-go.1](bob-cli-go.1.md) | Contract docs, canonical copy, and split vectors | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-go.10](bob-cli-go.10.md) | Capture \`\>\` transfer grammar, execution, and output | ✓ closed | large | 2026-11-03 | 1 | 0 |
-| [bob-cli-go.11](bob-cli-go.11.md) | Capture-complete and capture-rewrite for transfer lines | ○ open | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-go.11](bob-cli-go.11.md) | Capture-complete and capture-rewrite for transfer lines | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-go.12](bob-cli-go.12.md) | Bob Mac Capture transfer spans, bands, and verbs | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.13](bob-cli-go.13.md) | Live verification, cross-links, and accepted memory | ◐ in_progress | small | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.2](bob-cli-go.2.md) | Fragment transplant, task-children classifier, drawer ensure, and task locators | ✓ closed | medium | 2026-11-03 | 1 | 1 |
@@ -74,7 +82,7 @@ flowchart TD
     n6["bob-cli-go.10.1.3: Staged transfer moves and shared result fields [closed]"]
     n7["bob-cli-go.10.1.4: Staged transfer merges and draft-level offers [closed]"]
     n8["bob-cli-go.10.1.5: Transfer documentation and integrated verification [closed]"]
-    n9["bob-cli-go.11: Capture-complete and capture-rewrite for transfer lines [open]"]
+    n9["bob-cli-go.11: Capture-complete and capture-rewrite for transfer lines [closed]"]
     n10["bob-cli-go.12: Bob Mac Capture transfer spans, bands, and verbs [in_progress]"]
     n11["bob-cli-go.13: Live verification, cross-links, and accepted memory [in_progress]"]
     n12["bob-cli-go.2: Fragment transplant, task-children classifier, drawer ensure, and task locators [closed]"]
@@ -149,8 +157,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.3/README.md) | [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.10.1.4.md) | [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.5/README.md) | [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-go.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md) | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-go.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.11/README.md) | [bob-cli-go.11](bob-cli-go.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md) | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.11/README.md) | [bob-cli-go.11](bob-cli-go.11.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.12/README.md) | [bob-cli-go.12](bob-cli-go.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.13/README.md) | [bob-cli-go.13](bob-cli-go.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.2.md) | [bob-cli-go.2](bob-cli-go.2.md) | 1 |
@@ -189,7 +197,7 @@ flowchart TD
 | bob-cli | [`dad9e66`](https://github.com/bobs-org/bob-cli/commit/dad9e660947ab77ecee1bf40432d73a954a2a7d7) | feat(capture): implement staged transfer merges | [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) | 2026-11-04 07:25:51 EST |
 | bob-cli | [`d25080e`](https://github.com/bobs-org/bob-cli/commit/d25080e16cfa7f45f71ed285ae2739613069d7ab) | docs(capture): publish \> transfer contracts and grammar-10 references | [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) | 2026-11-04 08:05:40 EST |
 | bob-cli | [`cb9dd8f`](https://github.com/bobs-org/bob-cli/commit/cb9dd8f9a956f8845724c0c428acd3d0c377a6a7) | fix(capture): stop transfer lexer claiming non-transfer arrows | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2026-11-04 08:37:35 EST |
-| bob-cli--plans | [`bob-cli--plans@5f0c598`](https://github.com/bobs-org/bob-cli--plans/commit/5f0c5981216fe917e17be092453f3c9b0798ad4c) | chore(plans): mark capture\_transfer epic plan done | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2026-11-04 08:38:21 EST |
+| bob-cli | [`96a3c74`](https://github.com/bobs-org/bob-cli/commit/96a3c744e63e1aef287fee630bb40c95d68e9c8f) | feat(capture): add transfer-assist completion, engine scoping, and rewrite | [bob-cli-go.11](bob-cli-go.11.md) | 2026-11-04 10:41:08 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -200,21 +208,25 @@ flowchart TD
 | read-by | [agent:bob-cli-gl.land][1] | Check whether the glossary task-merge front-matter docs-gen failure is still tracked | 1 |
 | read-by | [agent:bob-cli-gn.land--2][2] | Confirm the cached docs-check memory-frontmatter issue was routed to its active epic | 1 |
 | read-by | [agent:bob-cli-go.1][3] | Need epic DECISIONS and scope for phase 1 | 1 |
-| read-by | [agent:bob-cli-go.4.1.land--1][4] | Verify the upstream epic remains open as required after child landing | 2 |
-| read-by | [agent:bob-cli-go.7][5] | parent epic context | 1 |
-| read-by | [agent:bob-cli-go.8][6] | Check whether the clean-base glossary/task-merge docs failure is already tracked before recording the phase follow-up | 1 |
-| read-by | [agent:bob-cli-go.9][7] | Need parent epic status and plan context | 1 |
-| read-by | [agent:research.37.cld][8] | Check in-flight transfer grammar epic that touches capture move semantics, to avoid conflicts with ^^ design | 1 |
-| read-by | [agent:research.37.final][9] | Check in-flight transfer epic overlap with ^^ design | 1 |
+| read-by | [agent:bob-cli-go.10.1.land][4] | Check whether the parent epic already tracks the glossary task-merge frontmatter docs-gate failure | 1 |
+| read-by | [agent:bob-cli-go.4.1.land--1][5] | Verify the upstream epic remains open as required after child landing | 2 |
+| read-by | [agent:bob-cli-go.7][6] | parent epic context | 1 |
+| read-by | [agent:bob-cli-go.8][7] | Check whether the clean-base glossary/task-merge docs failure is already tracked before recording the phase follow-up | 1 |
+| read-by | [agent:bob-cli-go.9][8] | Need parent epic status and plan context | 1 |
+| read-by | [agent:bob-cli-h0.1][9] | Need to cite the active existing tracker for the pre-existing docs-check failure | 1 |
+| read-by | [agent:research.37.cld][10] | Check in-flight transfer grammar epic that touches capture move semantics, to avoid conflicts with ^^ design | 1 |
+| read-by | [agent:research.37.final][11] | Check in-flight transfer epic overlap with ^^ design | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gn.land.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.1/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.9/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.37.cld/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.37.final/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.9/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.1/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.37.cld/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.37.final/README.md
 
 <!-- sase:referenced-by:end -->
