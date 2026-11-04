@@ -42,7 +42,7 @@ Prior close: 2026-11-04T10:18:06Z · done.
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -55,3 +55,15 @@ Prior close: 2026-11-04T10:18:06Z · done.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dad9e66`](https://github.com/bobs-org/bob-cli/commit/dad9e660947ab77ecee1bf40432d73a954a2a7d7) | feat(capture): implement staged transfer merges | [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) | 2026-11-04 07:25:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-go.10.1.4--1][1] | Need phase scope, design, decisions, and clean-base failure notes for final verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.10.1.4.md
+
+<!-- sase:referenced-by:end -->
