@@ -63,7 +63,9 @@ Prior close: 2026-11-04T10:18:06Z · done.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-go.10.1.4--1][1] | Need phase scope, design, decisions, and clean-base failure notes for final verification | 1 |
+| read-by | [agent:bob-cli-go.10.1.5][2] | Check existing PROPOSED FOLLOW-UP tracking the arrow failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.10.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.5/README.md
 
 <!-- sase:referenced-by:end -->

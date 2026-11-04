@@ -19,7 +19,7 @@ merge-label: add relations.merge_labels and LabelEffect::Merge with the four-lis
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-go.10](bob-cli-go.10.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.10](bob-cli-go.10.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.4](bob-cli-go.4.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.9](bob-cli-go.9.md) ✓ · ⧖ 2026-11-03
 
