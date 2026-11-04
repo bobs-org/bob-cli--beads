@@ -14,7 +14,7 @@ docs: document recording a past Pomodoro in docs/capture.md and the syntax, JSON
 ## Dependencies
 
 - **Depends on:** [bob-cli-h2.2](bob-cli-h2.2.md) ✓ · ⧖ 2026-11-04
-- **Depends on:** [bob-cli-h2.4](bob-cli-h2.4.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h2.4](bob-cli-h2.4.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h2.6](bob-cli-h2.6.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
