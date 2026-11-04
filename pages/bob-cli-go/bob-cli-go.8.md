@@ -13,7 +13,7 @@ nav-split-picker: add the Tab-mark split picker on task lines and drawer titles,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-go.7](bob-cli-go.7.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-go.7](bob-cli-go.7.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.9](bob-cli-go.9.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

@@ -22,7 +22,7 @@ split-cli: implement the pure plan_task_split that passes every split vector byt
 - **Depends on:** [bob-cli-go.1](bob-cli-go.1.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.2](bob-cli-go.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.5](bob-cli-go.5.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.7](bob-cli-go.7.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.7](bob-cli-go.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -35,3 +35,15 @@ split-cli: implement the pure plan_task_split that passes every split vector byt
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`734214e`](https://github.com/bobs-org/bob-cli/commit/734214e92c5495fa34a9d02818b9e820d21f004f) | feat(task): add task split planner and CLI | [bob-cli-go.3](bob-cli-go.3.md) | 2026-11-03 19:54:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-go.3--7][1] | Need phase scope, design file, notes, and completion state | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.3.md
+
+<!-- sase:referenced-by:end -->
