@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-gm](README.md) / bob-cli-gm.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.17k](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.17k.md) · **Assignee:** `bob-cli-gm.2` · **Size:** medium
-**Created:** 2026-11-03 13:55:33 EST
+**Created:** 2026-11-03 13:55:33 EST · **Closed:** 2026-11-03 22:39:31 EST
 **Plan:** [202611/capture\_multi\_target.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_multi_target.md)
 
 ## Description
@@ -14,6 +14,8 @@ execute: share one clipboard read and one `$N` roll per fan-out group, refuse ta
 ## Notes
 
 [2026-11-04T02:57:19Z · bob-cli-gm.2] PROPOSED FOLLOW-UP: Repair the tracked glossary strand format blocking docs generation — `just docs-gen` passes the CLI reference test, then `bob-docs gen` and `just docs-check` generated drift fail because `sase/memory/glossary/task-merge.md` has no front matter; that tracked file is unchanged from HEAD.
+
+[2026-11-04T03:39:31Z · bob-cli-gm.2--1] Implemented multi-target fan-out planning, shared clipboard and roll context, target-aware errors, duplicate resolved-target refusal, fanout JSON/human output, operation coverage, and capture documentation. Verified the current implementation commit is present, the working tree is clean, focused multi-target tests passed (14 tests), just fmt passed, and monitored just check completed with exit 0 / pass (KNOWN 0, FLAKY 0). docs-check generated drift remains recorded as the existing glossary-format follow-up. epic-symbols reports no leftovers.
 
 ## Dependencies
 

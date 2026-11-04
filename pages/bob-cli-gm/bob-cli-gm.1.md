@@ -23,7 +23,7 @@ grammar: recognize a leading or trailing run of `@route+id` markers in the execu
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gm.2](bob-cli-gm.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gm.2](bob-cli-gm.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gm.3](bob-cli-gm.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
