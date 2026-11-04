@@ -24,7 +24,7 @@ cli-execute: mint IDs for picked ID-less rows, splice picks into the move list a
 ## Dependencies
 
 - **Depends on:** [bob-cli-h0.4](bob-cli-h0.4.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h0.8](bob-cli-h0.8.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.8](bob-cli-h0.8.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -37,3 +37,15 @@ cli-execute: mint IDs for picked ID-less rows, splice picks into the move list a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`458b53b`](https://github.com/bobs-org/bob-cli/commit/458b53b95188cd986513a64d46c33336f79daf35) | feat(capture): execute move\_choice picks with mint, splice, offers and via | [bob-cli-h0.5](bob-cli-h0.5.md) | 2026-11-04 13:57:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h0.5][1] | Need phase scope | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.5/README.md
+
+<!-- sase:referenced-by:end -->
