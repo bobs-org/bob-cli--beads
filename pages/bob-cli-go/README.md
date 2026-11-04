@@ -68,7 +68,7 @@ flowchart TD
     n2["bob-cli-go.10: Capture `&gt;` transfer grammar, execution, and output [in_progress]"]
     n3["bob-cli-go.10.1: Capture transfer grammar and execution [in_progress]"]
     n4["bob-cli-go.10.1.1: Shared transfer lexer and shell redirect guard [closed]"]
-    n5["bob-cli-go.10.1.2: Execution and editor transfer parsing with the single grammar bump [in_progress]"]
+    n5["bob-cli-go.10.1.2: Execution and editor transfer parsing with the single grammar bump [closed]"]
     n6["bob-cli-go.10.1.3: Staged transfer moves and shared result fields [in_progress]"]
     n7["bob-cli-go.10.1.4: Staged transfer merges and draft-level offers [in_progress]"]
     n8["bob-cli-go.10.1.5: Transfer documentation and integrated verification [in_progress]"]
@@ -143,7 +143,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.1/README.md) | [bob-cli-go.1](bob-cli-go.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.10.md) | [bob-cli-go.10](bob-cli-go.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.1/README.md) | [bob-cli-go.10.1.1](bob-cli-go.10.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-go.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.2/README.md) | [bob-cli-go.10.1.2](bob-cli-go.10.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.2/README.md) | [bob-cli-go.10.1.2](bob-cli-go.10.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.3/README.md) | [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.4/README.md) | [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.5/README.md) | [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) | 0 |
@@ -182,6 +182,7 @@ flowchart TD
 | bob-cli | [`497db44`](https://github.com/bobs-org/bob-cli/commit/497db446c52c4827bcd1d4955497a224b601e618) | feat(task-merge): ship bob task merge and bob task move -t | [bob-cli-go.5](bob-cli-go.5.md) | 2026-11-04 01:31:32 EST |
 | bob-cli | [`3741ce2`](https://github.com/bobs-org/bob-cli/commit/3741ce2e79e5341942d2ff57cc536c8bd27c0799) | feat(capture): add configurable merge relations | [bob-cli-go.6](bob-cli-go.6.md) | 2026-11-04 01:37:01 EST |
 | bob-cli | [`e00f907`](https://github.com/bobs-org/bob-cli/commit/e00f90748429329d00b3bed3a7c0513c39e3b06d) | feat(capture): add transfer lexer and shell redirect guard | [bob-cli-go.10.1.1](bob-cli-go.10.1.1.md) | 2026-11-04 02:39:07 EST |
+| bob-cli | [`706eab6`](https://github.com/bobs-org/bob-cli/commit/706eab6783fbe4ac2811647e4225f5a1d1fa9afc) | feat(capture)!: add transfer parsing contracts | [bob-cli-go.10.1.2](bob-cli-go.10.1.2.md) | 2026-11-04 03:22:42 EST |
 
 <!-- sase:referenced-by:start -->
 

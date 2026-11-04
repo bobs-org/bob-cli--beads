@@ -13,7 +13,7 @@ transfer-moves: resolve and validate transfer identities, execute bare-note dest
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-go.10.1.2](bob-cli-go.10.1.2.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-go.10.1.2](bob-cli-go.10.1.2.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
