@@ -19,7 +19,7 @@ cli-engine: Extend the task-move engine with capture-only slot placement and a r
 
 - **Depends on:** [bob-cli-gl.1](bob-cli-gl.1.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-gl.4](bob-cli-gl.4.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gl.5](bob-cli-gl.5.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.5](bob-cli-gl.5.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
