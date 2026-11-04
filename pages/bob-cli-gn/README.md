@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gn.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gn.1.md) | [bob-cli-gn.1](bob-cli-gn.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-gn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gn.2/README.md) | [bob-cli-gn.2](bob-cli-gn.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-gn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gn.3/README.md) | [bob-cli-gn.3](bob-cli-gn.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-gn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gn.land.md) | [bob-cli-gn](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-gn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gn.land.md) | [bob-cli-gn](README.md) | 3 |
 
 ## Commits
 
@@ -88,6 +88,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7ad20f5`](https://github.com/bobs-org/bob-plugins/commit/7ad20f50c8eb784d827ea41248a0d47ec8d2eb0d) | feat(image-zoom): Z on an image-path bullet imports it | [bob-cli-gn.3](bob-cli-gn.3.md) | 2026-11-03 18:03:13 EST |
 | bob-cli | [`dd90f8c`](https://github.com/bobs-org/bob-cli/commit/dd90f8c781879a2f298127d33a88bf395f6113ca) | fix(attachments): handle wrapped paths and update catalog tests | [bob-cli-gn](README.md) | 2026-11-03 19:08:19 EST |
 | bob-plugins | [`bob-plugins@d187f53`](https://github.com/bobs-org/bob-plugins/commit/d187f537c453a12020d1628a446241041552b08d) | fix(image-zoom): cancel deferred actions after close | [bob-cli-gn](README.md) | 2026-11-03 19:08:35 EST |
+| bob-cli--plans | [`bob-cli--plans@3879676`](https://github.com/bobs-org/bob-cli--plans/commit/38796769d5e018eb607a67e19e4686c77aa42fdf) | docs(plan): mark image zoom origins complete | [bob-cli-gn](README.md) | 2026-11-03 19:08:49 EST |
 
 <!-- sase:referenced-by:start -->
 
