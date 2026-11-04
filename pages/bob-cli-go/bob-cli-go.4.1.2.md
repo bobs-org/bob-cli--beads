@@ -20,7 +20,7 @@ retirement: add snapshot-only dependency repointing and cycle validation, relati
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.4.1.3](bob-cli-go.4.1.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.4.1.3](bob-cli-go.4.1.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
