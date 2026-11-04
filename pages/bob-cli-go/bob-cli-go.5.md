@@ -24,7 +24,7 @@ merge-cli: ship `bob task merge` (-i, -D, -s, -p) and the many-source `bob task 
 - **Blocks:** [bob-cli-go.10](bob-cli-go.10.md) ◐ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.3](bob-cli-go.3.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.4](bob-cli-go.4.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.9](bob-cli-go.9.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.9](bob-cli-go.9.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

@@ -11,6 +11,10 @@
 
 transfer-capture: after bob-cli-gm and bob-cli-gl.2 land, recognize `@src+id… > @dest[+id][#name]` in both resolvers before fan-out, execute moves through batch_move and merges through the engine, report moves[] and merges[], add the shell-redirect guard, and bump the grammar once.
 
+## Notes
+
+[2026-11-04T06:49:05Z · bob-cli-go.10] PLANNING: Verified bob-cli-gm and bob-cli-gl.2 are closed and their code is present; no transfer implementation or prior phase work notes exist at 3741ce2e. Authored and validated a five-phase child epic for shared lexer/shell guard, both resolvers and one grammar bump, staged moves, staged merges/offers, and docs/integration. Parent DECISIONS retained; no memory or product changes made. Original phase remains open for the child epic land agent to verify and close after implementation.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-go.11](bob-cli-go.11.md) ◐ · ⧖ 2026-11-03
@@ -21,4 +25,4 @@ transfer-capture: after bob-cli-gm and bob-cli-gl.2 land, recognize `@src+id… 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10/README.md) | [bob-cli-go.10](bob-cli-go.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.10.md) | [bob-cli-go.10](bob-cli-go.10.md) | 0 |

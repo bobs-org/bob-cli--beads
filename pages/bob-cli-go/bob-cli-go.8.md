@@ -20,19 +20,20 @@ nav-split-picker: add the Tab-mark split picker on task lines and drawer titles,
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.7](bob-cli-go.7.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.9](bob-cli-go.9.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.9](bob-cli-go.9.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md) | [bob-cli-go.8](bob-cli-go.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md) | [bob-cli-go.8](bob-cli-go.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a3d44f2`](https://github.com/bobs-org/bob-cli/commit/a3d44f27e75654561673ad1ce8ac71e76a26993c) | feat(task-split): complete picker and guarded undo | [bob-cli-go.8](bob-cli-go.8.md) | 2026-11-03 21:00:29 EST |
+| bob-plugins | [`bob-plugins@1dc272a`](https://github.com/bobs-org/bob-plugins/commit/1dc272ada2c91bdd7def63c36531b7e11a47793a) | feat(navigation): add task split picker and guarded undo | [bob-cli-go.8](bob-cli-go.8.md) | 2026-11-03 21:01:14 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -40,8 +41,10 @@ nav-split-picker: add the Tab-mark split picker on task lines and drawer titles,
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-go.8][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-go.6][1] | Need to cite the existing task tracking the docs strand front matter failure | 1 |
+| read-by | [agent:bob-cli-go.8][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md
 
 <!-- sase:referenced-by:end -->

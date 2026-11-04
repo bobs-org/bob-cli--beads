@@ -14,7 +14,7 @@ closeout: verify every gesture end to end in a scratch vault, fix cross-links an
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.12](bob-cli-go.12.md) ◐ · ⧖ 2026-11-03
-- **Depends on:** [bob-cli-go.9](bob-cli-go.9.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-go.9](bob-cli-go.9.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

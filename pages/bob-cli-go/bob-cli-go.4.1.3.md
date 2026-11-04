@@ -45,9 +45,11 @@ integration: complete plan_task_merge with ledger-slot offers, explicit selectio
 | read-by | [agent:bob-cli-go.4.1.3--4][2] | Need the current phase scope, design, and recorded progress before closure | 1 |
 | read-by | [agent:bob-cli-go.4.1.land][3] | Need the child scope and notes | 1 |
 | read-by | [agent:bob-cli-go.4.1.land--1][3] | Recheck ledger offer and planner contract scope and notes before parent epic closeout | 1 |
+| read-by | [agent:bob-cli-go.6][4] | Need to cite the existing task tracking the docs strand front matter failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.3.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.3.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.6/README.md
 
 <!-- sase:referenced-by:end -->

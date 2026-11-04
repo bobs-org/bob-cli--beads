@@ -41,12 +41,13 @@ Complete and verify the pure task/drawer/section merge engine, including depende
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md) | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md) | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-cli--plans | [`bob-cli--plans@4c6e638`](https://github.com/bobs-org/bob-cli--plans/commit/4c6e6383157ffca1e37f3ca2fd0cd4abdaf87f37) | docs(plan): mark task merge engine complete | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 2026-11-04 00:20:51 EST |
 | bob-cli | [`c892b0c`](https://github.com/bobs-org/bob-cli/commit/c892b0cc0f6f3774bfb8a04c3b030c898e977c38) | fix(task-merge): repair landing edge cases | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 2026-11-04 00:21:40 EST |
 
 <!-- sase:referenced-by:start -->
