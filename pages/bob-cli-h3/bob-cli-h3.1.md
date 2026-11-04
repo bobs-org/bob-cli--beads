@@ -21,7 +21,7 @@ bob: add the -C/--closed-tasks flag and append newest-first closed rows from the
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h3.2](bob-cli-h3.2.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h3.2](bob-cli-h3.2.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -34,3 +34,15 @@ bob: add the -C/--closed-tasks flag and append newest-first closed rows from the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f54a352`](https://github.com/bobs-org/bob-cli/commit/f54a352c06ed32f8d1e954eef74108eaa79f4fa5) | feat(capture): add capture-complete -C/--closed-tasks for task\_goto | [bob-cli-h3.1](bob-cli-h3.1.md) | 2026-11-04 12:16:54 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h3.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h3.1/README.md
+
+<!-- sase:referenced-by:end -->
