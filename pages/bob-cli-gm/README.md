@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_multi_target.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_multi_target.md
 
@@ -30,7 +30,7 @@ One capture line may name several existing tasks with adjacent `@route+block-id`
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-gm.1](bob-cli-gm.1.md) | Target-run grammar in both resolvers, fan-out, and grammar bump | ✓ closed | large | 2026-11-03 | 1 | 0 |
-| [bob-cli-gm.2](bob-cli-gm.2.md) | Planner, output, and capture contract for fan-out groups | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-gm.2](bob-cli-gm.2.md) | Planner, output, and capture contract for fan-out groups | ◐ in_progress | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gm.3](bob-cli-gm.3.md) | Completion, rewrite, and @@ absorption inside target runs | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 
 ## Lineage
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gm.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.3/README.md) | [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-gm.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.1.1.4.md) | [bob-cli-gm.1.1.4](bob-cli-gm.1.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-gm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.1.1.land.md) | [bob-cli-gm.1.1](bob-cli-gm.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-gm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.2/README.md) | [bob-cli-gm.2](bob-cli-gm.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-gm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.2.md) | [bob-cli-gm.2](bob-cli-gm.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-gm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.3/README.md) | [bob-cli-gm.3](bob-cli-gm.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-gm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.land/README.md) | [bob-cli-gm](README.md) | 0 |
 
@@ -85,6 +85,7 @@ flowchart TD
 | bob-cli | [`c341649`](https://github.com/bobs-org/bob-cli/commit/c341649a46ad1dd58f81a0be4f3930b9315964c8) | feat(capture): activate multi-target capture runs | [bob-cli-gm.1.1.4](bob-cli-gm.1.1.4.md) | 2026-11-03 19:53:10 EST |
 | bob-cli | [`ebedfca`](https://github.com/bobs-org/bob-cli/commit/ebedfca8e666a9a79e9cc2989aca0a6b78edd983) | feat(capture)!: complete target-run grammar and landing | [bob-cli-gm.1.1](bob-cli-gm.1.1.md) | 2026-11-03 21:13:52 EST |
 | bob-cli | [`d19a8d9`](https://github.com/bobs-org/bob-cli/commit/d19a8d92f9641416d936697445deb19086af851c) | feat(capture): complete and rewrite inside target runs | [bob-cli-gm.3](bob-cli-gm.3.md) | 2026-11-03 21:59:49 EST |
+| bob-cli | [`66828cf`](https://github.com/bobs-org/bob-cli/commit/66828cfd83236c78e2844926c12cd12c861c3c5c) | feat(capture): execute adjacent task target runs | [bob-cli-gm.2](bob-cli-gm.2.md) | 2026-11-03 22:28:47 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -92,8 +93,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.36.final][1] | Check multi-target epic decisions section for split_edges choice | 2 |
+| read-by | [agent:bob-cli-gm.3][1] | Need epic plan coordination for parallel phases | 2 |
+| read-by | [agent:research.36.final][2] | Check multi-target epic decisions section for split_edges choice | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.36.final/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.36.final/README.md
 
 <!-- sase:referenced-by:end -->
