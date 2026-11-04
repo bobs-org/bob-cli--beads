@@ -18,7 +18,7 @@ editor: reuse shared selection and existing editor semantics to produce one item
 ## Dependencies
 
 - **Depends on:** [bob-cli-gm.1.1.2](bob-cli-gm.1.1.2.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gm.1.1.4](bob-cli-gm.1.1.4.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gm.1.1.4](bob-cli-gm.1.1.4.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -31,3 +31,15 @@ editor: reuse shared selection and existing editor semantics to produce one item
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6a5b69b`](https://github.com/bobs-org/bob-cli/commit/6a5b69b081ee8d11ebc191d233aebe6f4ebe15fd) | feat(capture): combine editor target runs into one item with targets | [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) | 2026-11-03 18:49:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gm.1.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_target_runs_finish.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_target_runs_finish.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-gm.1 with equivalent per-target execution, one editor item with
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gm.1.1.2][1] | Need the epic's final decisions before implementing its execution phase | 1 |
+| read-by | [agent:bob-cli-gm.1.1.3][2] | epic decisions and scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.3/README.md
 
 <!-- sase:referenced-by:end -->

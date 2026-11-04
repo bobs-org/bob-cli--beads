@@ -17,6 +17,8 @@ grammar: recognize a leading or trailing run of `@route+id` markers in the execu
 
 [2026-11-03T21:47:46Z · bob-cli-gm.1] REMAINING WORK: At clean base 0b4cebdf, both resolvers still select one marker; no FanoutContext, targets wire field, or new refusal codes have landed. Reviewed the earlier capture_target_run_grammar tale and prepared a validated four-phase child epic: shared selection/member views, execution fan-out, editor targets, then joint activation/revision/docs and full verification. Public behavior stays unchanged until both adapters are ready. Code reports grammar 7 while docs claim 8, so activation must rescan and currently take 9. No production files changed or code tests run in this planning turn; epic-symbols reports no entries. The child epic land agent must complete and close this phase after its children, leaving bob-cli-gm to its own land agent.
 
+[2026-11-04T00:06:50Z · bob-cli-gm.1.1.4] Activation phase bob-cli-gm.1.1.4 re-scanned the active code and docs claims and activated both target-run parsers at capture-language revision 9. Keep revision 9 as the open fan-out phases integrate; do not lower it.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-gm.2](bob-cli-gm.2.md) ◐ · ⧖ 2026-11-03
