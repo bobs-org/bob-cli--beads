@@ -34,3 +34,15 @@ mac: decode `note_pull` results and render them. Covers the preview card with th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@206c4b8`](https://github.com/bobs-org/bob-mac-capture/commit/206c4b834917163683cf4ebe8bafc02a965840dd) | feat(capture): present note-pull offers in Mac Capture | [bob-cli-gj.3](bob-cli-gj.3.md) | 2026-11-04 09:51:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gj.3--4][1] | Confirm final phase status and recorded clean-base docs-check follow-up before close | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.3.md
+
+<!-- sase:referenced-by:end -->
