@@ -22,7 +22,7 @@ move_links_offers: Execute colon moves and selected moved offers through existin
 ## Dependencies
 
 - **Depends on:** [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gl.5.1.3](bob-cli-gl.5.1.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.5.1.3](bob-cli-gl.5.1.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -35,3 +35,17 @@ move_links_offers: Execute colon moves and selected moved offers through existin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`14a5773`](https://github.com/bobs-org/bob-cli/commit/14a577321f81119ccb24dc41c81caa9aa9af8650) | feat(capture): link moved tasks and integrate project offers | [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) | 2026-11-03 19:29:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.5.1.2--1][1] | Confirm closed bead needs no reopen after known base failure | 2 |
+| read-by | [agent:bob-cli-go.4.1.1--2][2] | Check whether the catalog shape count mismatch is already tracked | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.1.md
+
+<!-- sase:referenced-by:end -->
