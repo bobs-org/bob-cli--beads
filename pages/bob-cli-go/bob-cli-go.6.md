@@ -11,6 +11,10 @@
 
 merge-label: add relations.merge_labels and LabelEffect::Merge with the four-list overlap rule, dispatch merges from capture relation commits through the engine, flag merge labels in capture-parse, capture-complete, completion, and `bob relations list`, and enable the label in chezmoi.
 
+## Notes
+
+[2026-11-04T05:47:07Z · bob-cli-go.6] PROPOSED FOLLOW-UP: Restore required front matter on sase/memory/glossary/task-merge.md so docs-gen and docs-check generated-drift can run; both gates stop on “memory strand has no front matter” in this unchanged base file after docs lint passes. Existing reports: bob-cli-go.8 note #1 and bob-cli-go.4.1.3 note #1.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-go.10](bob-cli-go.10.md) ◐ · ⧖ 2026-11-03

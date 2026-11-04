@@ -14,7 +14,7 @@ nav-merge: make a configured merge label in Ctrl+Shift+L, counted Ctrl+Shift+L, 
 ## Dependencies
 
 - **Blocks:** [bob-cli-go.13](bob-cli-go.13.md) ◐ · ⧖ 2026-11-03
-- **Depends on:** [bob-cli-go.5](bob-cli-go.5.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-go.5](bob-cli-go.5.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.6](bob-cli-go.6.md) ○ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.8](bob-cli-go.8.md) ✓ · ⧖ 2026-11-03
 

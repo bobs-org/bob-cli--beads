@@ -23,7 +23,7 @@ merge-engine: implement plan_task_merge, which validates, cuts each source's not
 
 - **Depends on:** [bob-cli-go.1](bob-cli-go.1.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.2](bob-cli-go.2.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.5](bob-cli-go.5.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.5](bob-cli-go.5.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.6](bob-cli-go.6.md) ○ · ⧖ 2026-11-03
 
 ## Agents
@@ -39,6 +39,7 @@ merge-engine: implement plan_task_merge, which validates, cuts each source's not
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-go.4.1.land][1] | Need parent phase acceptance and notes | 1 |
+| read-by | [agent:bob-cli-go.4.1.land--1][1] | Verify the parent phase close triggered by the child and determine remaining closeout evidence | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md
 

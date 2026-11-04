@@ -21,7 +21,7 @@ split-cli: implement the pure plan_task_split that passes every split vector byt
 
 - **Depends on:** [bob-cli-go.1](bob-cli-go.1.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.2](bob-cli-go.2.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.5](bob-cli-go.5.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.5](bob-cli-go.5.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.7](bob-cli-go.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents

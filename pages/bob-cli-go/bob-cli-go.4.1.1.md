@@ -44,6 +44,7 @@ payload: define the pure merge request/context/result types, validate source ide
 | read-by | [agent:bob-cli-go.4.1.1--1][2] | Need the phase scope, design file, prior notes, and required checks | 1 |
 | read-by | [agent:bob-cli-go.4.1.1--2][2] | Need phase scope, notes, design, and required checks before final verification | 1 |
 | read-by | [agent:bob-cli-go.4.1.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-go.4.1.land--1][3] | Recheck payload resolution and transplant scope and notes before parent epic closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.3.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.1.md
