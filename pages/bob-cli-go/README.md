@@ -39,7 +39,7 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 | [bob-cli-go.12](bob-cli-go.12.md) | Bob Mac Capture transfer spans, bands, and verbs | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.13](bob-cli-go.13.md) | Live verification, cross-links, and accepted memory | ◐ in_progress | small | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.2](bob-cli-go.2.md) | Fragment transplant, task-children classifier, drawer ensure, and task locators | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-go.3](bob-cli-go.3.md) | Rust split planner and \`bob task split\` | ○ open | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-go.3](bob-cli-go.3.md) | Rust split planner and \`bob task split\` | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-go.4](bob-cli-go.4.md) | Rust merge engine for task, drawer, and section containers | ◐ in_progress | large | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.5](bob-cli-go.5.md) | \`bob task merge\` and \`bob task move -t\` | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.6](bob-cli-go.6.md) | Configurable merge labels in config, capture \`~\`/\`~~\`, and completion | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
@@ -58,7 +58,7 @@ flowchart TD
     n4["bob-cli-go.12: Bob Mac Capture transfer spans, bands, and verbs [in_progress]"]
     n5["bob-cli-go.13: Live verification, cross-links, and accepted memory [in_progress]"]
     n6["bob-cli-go.2: Fragment transplant, task-children classifier, drawer ensure, and task locators [closed]"]
-    n7["bob-cli-go.3: Rust split planner and `bob task split` [open]"]
+    n7["bob-cli-go.3: Rust split planner and `bob task split` [closed]"]
     n8["bob-cli-go.4: Rust merge engine for task, drawer, and section containers [in_progress]"]
     n9["bob-cli-go.4.1: Rust task merge engine for bob-cli-go.4 [in_progress]"]
     n10["bob-cli-go.4.1.1: Resolve merge containers and transplant authored payloads [closed]"]
@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.12/README.md) | [bob-cli-go.12](bob-cli-go.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.13/README.md) | [bob-cli-go.13](bob-cli-go.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.2.md) | [bob-cli-go.2](bob-cli-go.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-go.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.3.md) | [bob-cli-go.3](bob-cli-go.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.3.md) | [bob-cli-go.3](bob-cli-go.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.md) | [bob-cli-go.4](bob-cli-go.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.1.md) | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-go.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.2/README.md) | [bob-cli-go.4.1.2](bob-cli-go.4.1.2.md) | 0 |
@@ -139,6 +139,7 @@ flowchart TD
 | bob-cli | [`aac3947`](https://github.com/bobs-org/bob-cli/commit/aac3947c7f415b7037fdb7e10fa5e0322df4ade3) | feat(task-move): shared transplant API, children classifier, drawer ensure, task locator | [bob-cli-go.2](bob-cli-go.2.md) | 2026-11-03 18:04:52 EST |
 | bob-cli | [`adf2082`](https://github.com/bobs-org/bob-cli/commit/adf20825f77d3adc059ae69e7809018e4b75bcbe) | fix(task-merge): resolve payload preparation failures | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 2026-11-03 19:07:47 EST |
 | bob-cli | [`672954d`](https://github.com/bobs-org/bob-cli/commit/672954d4bf2d740405230be9ee2e098ff33405e1) | test(task-merge): fix nested payload indentation assertion | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 2026-11-03 19:48:45 EST |
+| bob-cli | [`734214e`](https://github.com/bobs-org/bob-cli/commit/734214e92c5495fa34a9d02818b9e820d21f004f) | feat(task): add task split planner and CLI | [bob-cli-go.3](bob-cli-go.3.md) | 2026-11-03 19:54:52 EST |
 
 <!-- sase:referenced-by:start -->
 

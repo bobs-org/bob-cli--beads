@@ -13,7 +13,7 @@ nav-split: port the split planner to JS against the copied vectors, then registe
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-go.3](bob-cli-go.3.md) ○ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-go.3](bob-cli-go.3.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.8](bob-cli-go.8.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

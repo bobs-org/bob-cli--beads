@@ -41,6 +41,7 @@ payload: define the pure merge request/context/result types, validate source ide
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-go.4.1.1--1][1] | Need the phase scope, design file, prior notes, and required checks | 1 |
+| read-by | [agent:bob-cli-go.4.1.1--2][1] | Need phase scope, notes, design, and required checks before final verification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.1.md
 
