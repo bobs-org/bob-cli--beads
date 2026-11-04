@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.1.1.land.md) | [bob-cli-gm.1.1](bob-cli-gm.1.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-gm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.2.md) | [bob-cli-gm.2](bob-cli-gm.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-gm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.3/README.md) | [bob-cli-gm.3](bob-cli-gm.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-gm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.land.md) | [bob-cli-gm](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-gm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.land.md) | [bob-cli-gm](README.md) | 2 |
 
 ## Commits
 
@@ -100,6 +100,7 @@ flowchart TD
 | bob-cli | [`d19a8d9`](https://github.com/bobs-org/bob-cli/commit/d19a8d92f9641416d936697445deb19086af851c) | feat(capture): complete and rewrite inside target runs | [bob-cli-gm.3](bob-cli-gm.3.md) | 2026-11-03 21:59:49 EST |
 | bob-cli | [`66828cf`](https://github.com/bobs-org/bob-cli/commit/66828cfd83236c78e2844926c12cd12c861c3c5c) | feat(capture): execute adjacent task target runs | [bob-cli-gm.2](bob-cli-gm.2.md) | 2026-11-03 22:28:47 EST |
 | bob-cli | [`97b9d13`](https://github.com/bobs-org/bob-cli/commit/97b9d13108770debd96f1a9d19363cbfa02214d9) | fix(capture): handle multi-target completion edge cases | [bob-cli-gm](README.md) | 2026-11-03 23:37:03 EST |
+| bob-cli--plans | [`bob-cli--plans@ac70c33`](https://github.com/bobs-org/bob-cli--plans/commit/ac70c336b29761ec4d12fccba302a41741391953) | docs(plans): mark multi-target capture implemented | [bob-cli-gm](README.md) | 2026-11-03 23:37:28 EST |
 
 <!-- sase:referenced-by:start -->
 
