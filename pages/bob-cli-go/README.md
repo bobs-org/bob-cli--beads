@@ -35,6 +35,10 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 
 [2026-11-04T01:38:07Z · bob-cli-gl.5.1.land] DISCOVERED ISSUE: bob-cli-gl.5.1 landing ran sase tool run check (just check), run 21a7758643f1dbbd1810737832a1c896, on unchanged ddb0a73f. Formatting passes; clippy exits 101 with five errors introduced by go.3 commit 734214e9: task_move/command.rs:354 useless_format; task_split/command.rs:236 collapsible_if; task_split/plan.rs:347 collapsible_if, :1063 bool_comparison, :1170 collapsible_str_replace. No task duplicate found by same-type error/file searches or recent task sweep. This is active go epic work; no standalone task. The earlier gl.5.1.3 unused prepare_task_merge import proposal is resolved by 672954d4 and does not recur.
 
+[2026-11-04T03:29:07Z · bob-cli-go.4.1.land] DISCOVERED ISSUE corroboration from bob-cli-go.4.1.land: phase bob-cli-go.4.1.3 note #1 reports the same missing glossary:task-merge front matter already recorded in go notes #1-3. The accepted glossary output belongs to go, not the merge-engine child; no separate task or memory edit. Phase .3 note #2 Clippy proposal is resolved in current source by ebedfca8 (all five sites); preserve that repair.
+
+[2026-11-04T03:39:50Z · bob-cli-gl.land] DISCOVERED ISSUE corroboration from bob-cli-gl.land (proposed by bob-cli-gl.7 note #1 and bob-cli-gl.5.1.3 note #1): on master d19a8d92, 'just docs-gen' and 'uv run --project tools/docs bob-docs check' still pass lint and then exit 2 with 'sase/memory/glossary/task-merge.md: memory strand has no front matter'. Same causal defect as go notes #1-#5 (accepted glossary output from aac3947c); no separate task, and gl made no memory edits (its DECISIONS forbid them).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
