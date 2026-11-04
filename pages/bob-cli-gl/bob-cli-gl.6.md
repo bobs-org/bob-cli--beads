@@ -18,13 +18,19 @@ mac-picker: In bob-mac-capture (open it with /sase_repo), gate on the `project_t
 ## Dependencies
 
 - **Depends on:** [bob-cli-gl.4](bob-cli-gl.4.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gl.7](bob-cli-gl.7.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.7](bob-cli-gl.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-gl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md) | [bob-cli-gl.6](bob-cli-gl.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md) | [bob-cli-gl.6](bob-cli-gl.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@c0dd1e2`](https://github.com/bobs-org/bob-mac-capture/commit/c0dd1e22de45ab52f8390f3b9e4167e0e70782b2) | feat(capture): add move picker for project-note move bullets | [bob-cli-gl.6](bob-cli-gl.6.md) | 2026-11-03 17:46:28 EST |
 
 <!-- sase:referenced-by:start -->
 
