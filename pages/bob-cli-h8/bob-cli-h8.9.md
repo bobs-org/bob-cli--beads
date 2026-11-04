@@ -20,4 +20,4 @@ brief-polish: in the same brief.rs, report totals and +N more behind the Finishe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.9/README.md) | [bob-cli-h8.9](bob-cli-h8.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-h8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.9.md) | [bob-cli-h8.9](bob-cli-h8.9.md) | 0 |

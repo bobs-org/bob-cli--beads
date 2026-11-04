@@ -39,8 +39,10 @@ highlights-tz-tests: the two highlights::overwrite_local failures (bob-cli-h6) a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-h8.6][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-h8.11][1] | Check whether this clean-base Clippy failure already has a tracked follow-up | 1 |
+| read-by | [agent:bob-cli-h8.6][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.6/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.11/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.6/README.md
 
 <!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ consumption-plugins: move bob-plugins Depends-On link consumption off whole-subt
 ## Dependencies
 
 - **Depends on:** [bob-cli-h8.12](bob-cli-h8.12.md) ◐ · ⧖ 2026-11-04
-- **Depends on:** [bob-cli-h8.8](bob-cli-h8.8.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h8.8](bob-cli-h8.8.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
