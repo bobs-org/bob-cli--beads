@@ -13,10 +13,12 @@ consumption-bob: after bob-cli-h2 and bob-cli-h4 land (or their files go quiet),
 
 ## Dependencies
 
+- **Depends on:** [bob-cli-h2](../bob-cli-h2/README.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h4](../bob-cli-h4/README.md) ◐ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h8.13](bob-cli-h8.13.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h8.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.12/README.md) | [bob-cli-h8.12](bob-cli-h8.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-h8.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.12.md) | [bob-cli-h8.12](bob-cli-h8.12.md) | 0 |

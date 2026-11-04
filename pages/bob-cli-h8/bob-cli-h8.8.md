@@ -13,7 +13,7 @@ cycler-keeps-timed-close: apply the chosen bob-cli-g4 policy. By default, remove
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h8.1](bob-cli-h8.1.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h8.1](bob-cli-h8.1.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h8.13](bob-cli-h8.13.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
