@@ -11,6 +11,10 @@
 
 execute: share one clipboard read and one `$N` roll per fan-out group, refuse targets that resolve to the same task, name the failing target in errors, dedupe group warnings, add the `fanout` JSON context and human header, cover every operation with CLI tests, and finish the capture docs.
 
+## Notes
+
+[2026-11-04T02:57:19Z · bob-cli-gm.2] PROPOSED FOLLOW-UP: Repair the tracked glossary strand format blocking docs generation — `just docs-gen` passes the CLI reference test, then `bob-docs gen` and `just docs-check` generated drift fail because `sase/memory/glossary/task-merge.md` has no front matter; that tracked file is unchanged from HEAD.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-gm.1](bob-cli-gm.1.md) ✓ · ⧖ 2026-11-03
