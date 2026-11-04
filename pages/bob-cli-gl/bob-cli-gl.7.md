@@ -33,3 +33,15 @@ mac-preview: In bob-mac-capture, decode `project_note.moved_tasks`, the move sum
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@2940666`](https://github.com/bobs-org/bob-mac-capture/commit/2940666a76e65545bb3416bced36dd4f1f5c9b67) | feat(capture): preview project-note moves with band, ghosts, hint, and notification | [bob-cli-gl.7](bob-cli-gl.7.md) | 2026-11-03 22:09:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.7/README.md
+
+<!-- sase:referenced-by:end -->

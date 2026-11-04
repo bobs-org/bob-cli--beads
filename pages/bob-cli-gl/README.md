@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-gl
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.35.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.35.linker.w0.md) · **Assignee:** `bob-cli-gl.land`
-**Created:** 2026-11-03 13:39:31 EST
+**Created:** 2026-11-03 13:39:31 EST · **Closed:** 2026-11-03 22:51:56 EST
 **Plan:** [202611/capture\_move\_bullets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_move_bullets.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_move_bullets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_move_bullets.md
 
@@ -24,6 +24,10 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 When a capture item creates a project note with `@foo^bar@` or `@foo:bar@`, a first-level bullet that holds only `^<id>` (or `:<id>`) moves that open task, with its whole block, from the parent note `foo.md` into the new `foo_bar.md`. The task lands in draft order, and `:` also makes it Next and links it. Typing `^` or `:` after `- ` in such an item opens a Bob Mac Capture move picker that lists the parent's open tasks, including tasks without a block ID. The preview names every move before submit. The batch is atomic and replaces the parent last, so an interrupted write can duplicate a task but never lose one.
+
+## Notes
+
+[2026-11-04T03:51:56Z · bob-cli-gl.land] LAND VERIFIED. Read the epic, all 7 phases, nested child epic gl.5.1 and its 3 phases, every note, both plan files, the source, and the epic commits (27f508bd cf1e4644 b94eec2c b8688d9e 6650faa3 14a57732 ddb0a73f b738d8f2, plus Mac c0dd1e2 2940666). DECISIONS honored: grammar bumped once for this epic (7->8 in feat(capture)!: b8688d9e with a BREAKING CHANGE footer; later 9 is gm); no decisions or glossary memory edits. Contract docs (capture.md 'Moving parent tasks in', copy tables, MV/MC vectors, task-move, freshness, json-outputs, compatibility) are present; bob capture help rewritten; interim refusal removed. Vectors MV1-MV17 and MC1-MC5 are covered by behavior tests in tests/cli/capture/project_note.rs, complete_project_task_move.rs, parse.rs, move_bullet lexer tests, task_move slot/collision/eligibility tests, and batch write-order/rollback tests. An end-to-end probe of the section-1 draft with the built binary gave draft-order slots, fresh stamps, a followed WORK link, ':' made Next and linked under ADMIN, parent blocks removed, and correct capture-complete rows (ID-less suggestions, consequence copy). Mac: project_task_move gating, picker, continuation, moves band, ghost titles, move hint, moved_from, and notification are present; minimumRevision not raised; macOS CI green on 2940666 (run 41765380835), which resolves the gl.6/gl.7 'app targets unverified on Linux' caveat. INTEGRATION since 27f508bd: reviewed note-pull (gj), target runs (gm: c341649a ebedfca8 d19a8d92), task merge/split (go: aac3947c 734214e9 751c769f a3d44f27). Target-run plus move-bullet probes keep marker precedence and claim moves only in sealed project-note items. go plans to reuse batch_move and the moves band after this landing, so there is no duplication now. Landing edits: removed five stale interim #[allow(dead_code)]/#[allow(unused_imports)] scaffolds on movable_roots, MovableRoot, MovePlacement, apply_batch_move, and the task_move re-export (now consumed; clippy shows no dead-code warnings). Also regenerated the docs/reference/cli/task.md golden: d19a8d92 (gm.3) had left whitespace-only drift that failed cli_reference_is_current; recorded on bob-cli-gm. just check now passes (exit 0, 27 test binaries, 0 failures). docs-check lint passes; its generated-drift stage still fails only on sase/memory/glossary/task-merge.md front matter, owned by bob-cli-go. FOLLOW-UP TRIAGE: gl.7 #1 and gl.5.1.3 #1 (glossary front matter): no task duplicate, causally owned by active bob-cli-go, corroborated there with a DISCOVERED ISSUE note, no task. gl.4 #1 (missing note_pull initializer): declined, fixed by de01143e/e74f4f08/7de57d04 and master compiles. gl.5.1.2 #1-2 (catalog 69 vs 67): declined, fixed by dd90f8c7, already corroborated on bob-cli-de, and catalog tests pass. gl.5.1.3 #3 (unused prepare_task_merge import): declined, fixed by 672954d4, clippy clean. No epic-symbol entries; no symvision recipe; no parent bead.
 
 ## Phases
 
@@ -41,7 +45,7 @@ When a capture item creates a project note with `@foo^bar@` or `@foo:bar@`, a fi
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-gl: Move parent tasks into a new project note with capture move bullets [in_progress]"]
+    n0["bob-cli-gl: Move parent tasks into a new project note with capture move bullets [closed]"]
     n1["bob-cli-gl.1: Contract docs, copy table, and move-bullet vectors [closed]"]
     n2["bob-cli-gl.2: Move-bullet lexer, parsers, and capture-parse [closed]"]
     n3["bob-cli-gl.3: Move engine slots, eligibility API, batch move helper, and parent-last writes [closed]"]
@@ -92,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.land.md) | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-gl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md) | [bob-cli-gl.6](bob-cli-gl.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.7/README.md) | [bob-cli-gl.7](bob-cli-gl.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-gl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.land/README.md) | [bob-cli-gl](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.land/README.md) | [bob-cli-gl](README.md) | 1 |
 
 ## Commits
 
@@ -109,6 +113,7 @@ flowchart TD
 | bob-cli | [`b738d8f`](https://github.com/bobs-org/bob-cli/commit/b738d8f23b21ac855d83745bdd415af52dfbdc98) | feat(capture): repair project-note move landing integration | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2026-11-03 21:29:14 EST |
 | bob-cli--plans | [`bob-cli--plans@551c233`](https://github.com/bobs-org/bob-cli--plans/commit/551c23375da88cc0a2a4d4e6a8c11bf615060f9d) | chore(plans): mark capture\_move\_execution done for gl.5.1 landing | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2026-11-03 21:30:05 EST |
 | bob-mac-capture | [`bob-mac-capture@2940666`](https://github.com/bobs-org/bob-mac-capture/commit/2940666a76e65545bb3416bced36dd4f1f5c9b67) | feat(capture): preview project-note moves with band, ghosts, hint, and notification | [bob-cli-gl.7](bob-cli-gl.7.md) | 2026-11-03 22:09:53 EST |
+| bob-cli | [`7cf0774`](https://github.com/bobs-org/bob-cli/commit/7cf077466147d6f6bb50bd336769d316a163377b) | chore(capture): land project-note move bullets | [bob-cli-gl](README.md) | 2026-11-03 22:53:16 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -118,10 +123,12 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gl.2][1] | epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-gl.6][2] | Need epic and phase scope, notes, and plan linkage | 1 |
-| read-by | [agent:research.36.final][3] | Check move-bullets epic status since > move reuses the batch move adapter | 1 |
+| read-by | [agent:bob-cli-gl.7][3] | Need parent epic scope and prior phase state | 1 |
+| read-by | [agent:research.36.final][4] | Check move-bullets epic status since > move reuses the batch move adapter | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.36.final/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.7/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.36.final/README.md
 
 <!-- sase:referenced-by:end -->
