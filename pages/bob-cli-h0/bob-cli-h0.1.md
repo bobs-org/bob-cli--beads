@@ -19,7 +19,7 @@ contract: write the `- ^^` contract into docs/capture.md and the reference pages
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h0.2](bob-cli-h0.2.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.2](bob-cli-h0.2.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.3](bob-cli-h0.3.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
@@ -33,3 +33,15 @@ contract: write the `- ^^` contract into docs/capture.md and the reference pages
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d216f7e`](https://github.com/bobs-org/bob-cli/commit/d216f7eb3bdefeaa233b5d0ed288b4c653f2df1a) | docs(capture): specify parent move choice contract | [bob-cli-h0.1](bob-cli-h0.1.md) | 2026-11-04 09:15:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h0.1][1] | Verify final phase status and recorded follow-up before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ mac-draft: honor Bob's `action_continuation_keys` in the Move picker so a second
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h0.2](bob-cli-h0.2.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h0.2](bob-cli-h0.2.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.8](bob-cli-h0.8.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
