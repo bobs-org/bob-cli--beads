@@ -20,7 +20,7 @@ transfer-assist: complete sources, destinations, `+` merge targets, and `#` draw
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.10](bob-cli-go.10.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.12](bob-cli-go.12.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.12](bob-cli-go.12.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -33,3 +33,15 @@ transfer-assist: complete sources, destinations, `+` merge targets, and `#` draw
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`96a3c74`](https://github.com/bobs-org/bob-cli/commit/96a3c744e63e1aef287fee630bb40c95d68e9c8f) | feat(capture): add transfer-assist completion, engine scoping, and rewrite | [bob-cli-go.11](bob-cli-go.11.md) | 2026-11-04 10:41:08 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-go.11][1] | check notes remainder | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.11/README.md
+
+<!-- sase:referenced-by:end -->

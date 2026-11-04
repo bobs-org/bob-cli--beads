@@ -33,13 +33,14 @@ Complete bob-cli-go.10 with one-item capture transfers that move to notes or mer
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md) | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md) | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cb9dd8f`](https://github.com/bobs-org/bob-cli/commit/cb9dd8f9a956f8845724c0c428acd3d0c377a6a7) | fix(capture): stop transfer lexer claiming non-transfer arrows | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2026-11-04 08:37:35 EST |
+| bob-cli--plans | [`bob-cli--plans@5f0c598`](https://github.com/bobs-org/bob-cli--plans/commit/5f0c5981216fe917e17be092453f3c9b0798ad4c) | chore(plans): mark capture\_transfer epic plan done | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2026-11-04 08:38:21 EST |
 
 <!-- sase:referenced-by:start -->
 
