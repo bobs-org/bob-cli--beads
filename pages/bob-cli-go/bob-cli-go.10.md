@@ -19,7 +19,7 @@ transfer-capture: after bob-cli-gm and bob-cli-gl.2 land, recognize `@src+id… 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-go.11](bob-cli-go.11.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.11](bob-cli-go.11.md) ○ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.5](bob-cli-go.5.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.6](bob-cli-go.6.md) ✓ · ⧖ 2026-11-03
 

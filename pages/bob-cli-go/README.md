@@ -49,7 +49,7 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 |---|---|---|---|---|---:|---:|
 | [bob-cli-go.1](bob-cli-go.1.md) | Contract docs, canonical copy, and split vectors | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-go.10](bob-cli-go.10.md) | Capture \`\>\` transfer grammar, execution, and output | ✓ closed | large | 2026-11-03 | 1 | 0 |
-| [bob-cli-go.11](bob-cli-go.11.md) | Capture-complete and capture-rewrite for transfer lines | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-go.11](bob-cli-go.11.md) | Capture-complete and capture-rewrite for transfer lines | ○ open | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.12](bob-cli-go.12.md) | Bob Mac Capture transfer spans, bands, and verbs | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.13](bob-cli-go.13.md) | Live verification, cross-links, and accepted memory | ◐ in_progress | small | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.2](bob-cli-go.2.md) | Fragment transplant, task-children classifier, drawer ensure, and task locators | ✓ closed | medium | 2026-11-03 | 1 | 1 |
@@ -74,7 +74,7 @@ flowchart TD
     n6["bob-cli-go.10.1.3: Staged transfer moves and shared result fields [closed]"]
     n7["bob-cli-go.10.1.4: Staged transfer merges and draft-level offers [closed]"]
     n8["bob-cli-go.10.1.5: Transfer documentation and integrated verification [closed]"]
-    n9["bob-cli-go.11: Capture-complete and capture-rewrite for transfer lines [in_progress]"]
+    n9["bob-cli-go.11: Capture-complete and capture-rewrite for transfer lines [open]"]
     n10["bob-cli-go.12: Bob Mac Capture transfer spans, bands, and verbs [in_progress]"]
     n11["bob-cli-go.13: Live verification, cross-links, and accepted memory [in_progress]"]
     n12["bob-cli-go.2: Fragment transplant, task-children classifier, drawer ensure, and task locators [closed]"]
@@ -149,7 +149,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.3/README.md) | [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.10.1.4.md) | [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.5/README.md) | [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-go.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md) | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.land/README.md) | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-go.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.11/README.md) | [bob-cli-go.11](bob-cli-go.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.12/README.md) | [bob-cli-go.12](bob-cli-go.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.13/README.md) | [bob-cli-go.13](bob-cli-go.13.md) | 0 |
@@ -189,6 +189,7 @@ flowchart TD
 | bob-cli | [`dad9e66`](https://github.com/bobs-org/bob-cli/commit/dad9e660947ab77ecee1bf40432d73a954a2a7d7) | feat(capture): implement staged transfer merges | [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) | 2026-11-04 07:25:51 EST |
 | bob-cli | [`d25080e`](https://github.com/bobs-org/bob-cli/commit/d25080e16cfa7f45f71ed285ae2739613069d7ab) | docs(capture): publish \> transfer contracts and grammar-10 references | [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) | 2026-11-04 08:05:40 EST |
 | bob-cli | [`cb9dd8f`](https://github.com/bobs-org/bob-cli/commit/cb9dd8f9a956f8845724c0c428acd3d0c377a6a7) | fix(capture): stop transfer lexer claiming non-transfer arrows | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2026-11-04 08:37:35 EST |
+| bob-cli--plans | [`bob-cli--plans@5f0c598`](https://github.com/bobs-org/bob-cli--plans/commit/5f0c5981216fe917e17be092453f3c9b0798ad4c) | chore(plans): mark capture\_transfer epic plan done | [bob-cli-go.10.1](bob-cli-go.10.1.md) | 2026-11-04 08:38:21 EST |
 
 <!-- sase:referenced-by:start -->
 
