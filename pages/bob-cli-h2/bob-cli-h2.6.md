@@ -13,7 +13,7 @@ mac: decode `pomodoro_past` in Bob Mac Capture and render one chronological Reco
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h2.5](bob-cli-h2.5.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h2.5](bob-cli-h2.5.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

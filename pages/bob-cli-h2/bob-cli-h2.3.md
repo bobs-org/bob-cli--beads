@@ -41,7 +41,9 @@ record: execute `x=` stacks. Compute windows, resolve targets, and close the exp
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h3.land--1][1] | Determine which active Pomodoro epic phases own the Rust files flagged by canonical formatting verification | 1 |
+| read-by | [agent:bob-cli-h4.1][2] | Check whether the clean-base docs-check anchor warning is already tracked | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h4.1/README.md
 
 <!-- sase:referenced-by:end -->
