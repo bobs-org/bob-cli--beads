@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gl.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.1.md) | [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.2.md) | [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.3.md) | [bob-cli-gl.5.1.3](bob-cli-gl.5.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-gl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.land.md) | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.land.md) | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-gl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md) | [bob-cli-gl.6](bob-cli-gl.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.7/README.md) | [bob-cli-gl.7](bob-cli-gl.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.land/README.md) | [bob-cli-gl](README.md) | 0 |
@@ -106,6 +106,7 @@ flowchart TD
 | bob-cli | [`14a5773`](https://github.com/bobs-org/bob-cli/commit/14a577321f81119ccb24dc41c81caa9aa9af8650) | feat(capture): link moved tasks and integrate project offers | [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) | 2026-11-03 19:29:57 EST |
 | bob-cli | [`ddb0a73`](https://github.com/bobs-org/bob-cli/commit/ddb0a73f1ead67088b89f07ba81946efb08d5a11) | feat(capture): show project-note moves and eligibility hints | [bob-cli-gl.5.1.3](bob-cli-gl.5.1.3.md) | 2026-11-03 20:24:37 EST |
 | bob-cli | [`b738d8f`](https://github.com/bobs-org/bob-cli/commit/b738d8f23b21ac855d83745bdd415af52dfbdc98) | feat(capture): repair project-note move landing integration | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2026-11-03 21:29:14 EST |
+| bob-cli--plans | [`bob-cli--plans@551c233`](https://github.com/bobs-org/bob-cli--plans/commit/551c23375da88cc0a2a4d4e6a8c11bf615060f9d) | chore(plans): mark capture\_move\_execution done for gl.5.1 landing | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2026-11-03 21:30:05 EST |
 
 <!-- sase:referenced-by:start -->
 
