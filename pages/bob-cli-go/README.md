@@ -177,7 +177,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md) | [bob-cli-go.7](bob-cli-go.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md) | [bob-cli-go.8](bob-cli-go.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-go.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.9/README.md) | [bob-cli-go.9](bob-cli-go.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-go.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.land.md) | [bob-cli-go](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.land.md) | [bob-cli-go](README.md) | 2 |
 
 ## Commits
 
@@ -209,6 +209,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@81eb669`](https://github.com/bobs-org/bob-mac-capture/commit/81eb669406cc9a72d3eca8d936543617bbd450f7) | feat(capture): preview task transfers in Mac Capture | [bob-cli-go.12](bob-cli-go.12.md) | 2026-11-04 11:41:04 EST |
 | bob-cli | [`a6c55cb`](https://github.com/bobs-org/bob-cli/commit/a6c55cbbd22823a96a24b5b057dccb3f998a0992) | docs(closeout): verify move/merge/split end to end, fix cross-links and accepted memory | [bob-cli-go.13](bob-cli-go.13.md) | 2026-11-04 12:24:37 EST |
 | bob-cli | [`3e33c5c`](https://github.com/bobs-org/bob-cli/commit/3e33c5ce5d29fc6a3b4944c6bf28be077d09ea01) | feat(capture): support transfer task picker | [bob-cli-go](README.md) | 2026-11-04 14:21:04 EST |
+| bob-cli--plans | [`bob-cli--plans@a818872`](https://github.com/bobs-org/bob-cli--plans/commit/a818872f33172d255cd79131850c7ac402aa1e35) | docs(plan): add task move merge split plan | [bob-cli-go](README.md) | 2026-11-04 14:22:41 EST |
 
 <!-- sase:referenced-by:start -->
 
