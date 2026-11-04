@@ -26,7 +26,13 @@ mac: style the transfer spans, render bob's moves[] and merges[] as Moves and Me
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.12.md) | [bob-cli-go.12](bob-cli-go.12.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.12.md) | [bob-cli-go.12](bob-cli-go.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@81eb669`](https://github.com/bobs-org/bob-mac-capture/commit/81eb669406cc9a72d3eca8d936543617bbd450f7) | feat(capture): preview task transfers in Mac Capture | [bob-cli-go.12](bob-cli-go.12.md) | 2026-11-04 11:41:04 EST |
 
 <!-- sase:referenced-by:start -->
 

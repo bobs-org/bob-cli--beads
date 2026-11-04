@@ -40,8 +40,10 @@ closeout: verify every gesture end to end in a scratch vault, fix cross-links an
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-h0.1][1] | Need to cite the phase that owns the known docs-check memory-format blocker | 1 |
+| read-by | [agent:bob-cli-go.13][1] | check notes | 3 |
+| read-by | [agent:bob-cli-h0.1][2] | Need to cite the phase that owns the known docs-check memory-format blocker | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.13/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.1/README.md
 
 <!-- sase:referenced-by:end -->

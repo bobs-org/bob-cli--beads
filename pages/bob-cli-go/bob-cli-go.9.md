@@ -30,7 +30,13 @@ nav-merge: make a configured merge label in Ctrl+Shift+L, counted Ctrl+Shift+L, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.9/README.md) | [bob-cli-go.9](bob-cli-go.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.9/README.md) | [bob-cli-go.9](bob-cli-go.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@f392c88`](https://github.com/bobs-org/bob-plugins/commit/f392c88f9acd919da15c2e6de8e269e3d9a44588) | feat(navigation): merge tasks through the Obsidian Links stage | [bob-cli-go.9](bob-cli-go.9.md) | 2026-11-04 02:15:52 EST |
 
 <!-- sase:referenced-by:start -->
 
