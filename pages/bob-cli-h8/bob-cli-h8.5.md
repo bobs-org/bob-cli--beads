@@ -15,4 +15,4 @@ mac-ci-green: fix the root causes of the bob-cli-h7 Go To failures: the backslas
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.5/README.md) | [bob-cli-h8.5](bob-cli-h8.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-h8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.5.md) | [bob-cli-h8.5](bob-cli-h8.5.md) | 0 |

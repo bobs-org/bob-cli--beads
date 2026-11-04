@@ -13,7 +13,7 @@ ref-pdf-emoji: route the generic pandoc-to-XeLaTeX render in highlights_ref/crea
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h8.6](bob-cli-h8.6.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h8.6](bob-cli-h8.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
