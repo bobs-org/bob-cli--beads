@@ -13,10 +13,22 @@ integration: complete plan_task_merge with ledger-slot offers, explicit selectio
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-go.4.1.2](bob-cli-go.4.1.2.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-go.4.1.2](bob-cli-go.4.1.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-go.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.3/README.md) | [bob-cli-go.4.1.3](bob-cli-go.4.1.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.5.1.3--1][1] | Check whether the in-progress task-merge planner integration is expected to consume prepare_task_merge | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.3.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@ merge-engine: implement plan_task_merge, which validates, cuts each source's not
 
 [2026-11-03T23:11:21Z · bob-cli-go.4] PROPOSED FOLLOW-UP: Parent design research reference is missing — audited read of research:202611/task_move_merge_split_design/task_move_merge_split_design.md returned status missing on 2026-11-03; plan:202611/task_move_merge_split.md and docs/task-merge.md remain available and sufficient for the engine plan. Land agent should repair the stale citation or restore the artifact.
 
+[2026-11-04T01:31:16Z · bob-cli-go.4.1.2] MG19 shared overlap helper (from bob-cli-go.4.1.2): task_merge::overlapping_effect_keys(path, [(list_name, [(key, name)])]) owns the one-effect-per-label rule; config/relations.rs parser now delegates its 3 lists through it with byte-identical warnings (9 relations tests green). Sibling merge-label phase: pass its 4th parsed merge_labels list through this helper, drop returned keys from ALL FOUR lists with the single warning; do NOT add RelationsConfig.merge_labels/LabelEffect::Merge/capture dispatch/CLI here. In-crate proof: mg19_shared_key_with_merge_labels_drops_everywhere_once + mg19_three_list_warnings_stay_byte_identical in src/native/task_merge/tests.rs.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.1](bob-cli-go.1.md) ✓ · ⧖ 2026-11-03
