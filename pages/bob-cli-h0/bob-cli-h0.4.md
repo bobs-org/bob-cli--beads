@@ -21,7 +21,7 @@ cli-report: build the `move_choice` report from the staged parent, add `-m/--mov
 
 - **Depends on:** [bob-cli-h0.2](bob-cli-h0.2.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h0.3](bob-cli-h0.3.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h0.5](bob-cli-h0.5.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.5](bob-cli-h0.5.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.7](bob-cli-h0.7.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
