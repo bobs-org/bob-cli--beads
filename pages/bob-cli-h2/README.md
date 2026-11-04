@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/past_pomodoro_recording.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/past_pomodoro_recording.md
 
 <!-- sase:links:end -->
@@ -23,13 +25,19 @@
 
 Capture gains `x=<E>[!][=<X>]`, which records already-finished Pomodoros in one step. Each token starts and closes a past session that ends at the current 5-minute block. Consecutive tokens stack back to back. A token never overlaps history, except that `!` trims an edge of an older closed row and warns. bob previews, completes, and documents the token, and the Mac app renders it.
 
+## Notes
+
+[2026-11-04T18:56:39Z · bob-cli-h3.land--1] DISCOVERED ISSUE: The required bob-cli canonical gate from Go To closeout, ToolRun 1d5f7f2a9e9bcd7559dffdad03c5896d, exits at its first stage (cargo fmt --all -- --check) on clean master/origin/master cf2e3c9f. Rustfmt 1.9.0 reports formatting differences in the new x= parser and tests, including src/native/capture_language/tests/past.rs, src/native/capture_parse.rs, and tests/cli/capture/parse_pomodoro_past.rs; these files were introduced or changed by h2.1 commit ce8f53b1. The tracked rustfmt.toml sets max_width=80 and style_edition=2021. This is deterministic formatting drift, not an intermittent test failure; clippy and tests did not run. It is outside Go To h3 and belongs to this active x= epic; format its owned files and rerun just check. Same-type search found the closed bob-cli-24 rustfmt task, but that older config drift was fixed in d1d6e59; this is new unformatted h2 code, so no duplicate task was created.
+
+[2026-11-04T19:01:24Z · bob-cli-h3.land--1] DISCOVERED ISSUE corroboration: After the earlier clean-baseline report, bob-cli was fast-forwarded to current origin/master 281ef10b, including h2.2 completion work and unrelated highlights changes. A second canonical sase tool run check, ToolRun a82d35137af5ce7b789f1a8aa5ba17aa, fails at the same cargo fmt --all -- --check stage with formatting diffs in h2 x= parser/tests. Clippy and tests still do not run. This confirms the formatting issue on the current base; h2.2 commit 281ef10b also reports reproducing it.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-h2.1](bob-cli-h2.1.md) | x= lexer, capture-parse contract, and grammar 12 | ✓ closed | large | 2026-11-04 | 1 | 1 |
 | [bob-cli-h2.2](bob-cli-h2.2.md) | Pomodoro-name completion inside x= | ✓ closed | small | 2026-11-04 | 1 | 1 |
-| [bob-cli-h2.3](bob-cli-h2.3.md) | Record engine with explicit-entry close, placement, and output | ◐ in_progress | large | 2026-11-04 | 1 | 0 |
+| [bob-cli-h2.3](bob-cli-h2.3.md) | Record engine with explicit-entry close, placement, and output | ✓ closed | large | 2026-11-04 | 1 | 1 |
 | [bob-cli-h2.4](bob-cli-h2.4.md) | Whole-stack overlap guard and ! edge repair | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
 | [bob-cli-h2.5](bob-cli-h2.5.md) | Capture docs, references, and help for x= | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
 | [bob-cli-h2.6](bob-cli-h2.6.md) | Bob Mac Capture Record past work card | ◐ in_progress | large | 2026-11-04 | 1 | 0 |
@@ -41,7 +49,7 @@ flowchart TD
     n0["bob-cli-h2: Record past Pomodoros with x= [in_progress]"]
     n1["bob-cli-h2.1: x= lexer, capture-parse contract, and grammar 12 [closed]"]
     n2["bob-cli-h2.2: Pomodoro-name completion inside x= [closed]"]
-    n3["bob-cli-h2.3: Record engine with explicit-entry close, placement, and output [in_progress]"]
+    n3["bob-cli-h2.3: Record engine with explicit-entry close, placement, and output [closed]"]
     n4["bob-cli-h2.4: Whole-stack overlap guard and ! edge repair [in_progress]"]
     n5["bob-cli-h2.5: Capture docs, references, and help for x= [in_progress]"]
     n6["bob-cli-h2.6: Bob Mac Capture Record past work card [in_progress]"]
@@ -65,7 +73,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-h2.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.1.md) | [bob-cli-h2.1](bob-cli-h2.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.2/README.md) | [bob-cli-h2.2](bob-cli-h2.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-h2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.3.md) | [bob-cli-h2.3](bob-cli-h2.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-h2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.3.md) | [bob-cli-h2.3](bob-cli-h2.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.4/README.md) | [bob-cli-h2.4](bob-cli-h2.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-h2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.5/README.md) | [bob-cli-h2.5](bob-cli-h2.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-h2.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.6/README.md) | [bob-cli-h2.6](bob-cli-h2.6.md) | 0 |
@@ -77,3 +85,16 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`ce8f53b`](https://github.com/bobs-org/bob-cli/commit/ce8f53b187701003446ad65b350510374b2c161e) | feat(capture)!: record past Pomodoro grammar (x= lexer, capture-parse, refusal) | [bob-cli-h2.1](bob-cli-h2.1.md) | 2026-11-04 12:57:37 EST |
 | bob-cli | [`281ef10`](https://github.com/bobs-org/bob-cli/commit/281ef10b025dab2ef074630bac1a62f1d1781abe) | feat(capture): complete past Pomodoro names | [bob-cli-h2.2](bob-cli-h2.2.md) | 2026-11-04 13:50:01 EST |
+| bob-cli | [`ed12f3d`](https://github.com/bobs-org/bob-cli/commit/ed12f3d4f38f7fb80a560a44fd2f46e63ded36e8) | feat(capture)!: execute past Pomodoro stacks with explicit-entry record engine | [bob-cli-h2.3](bob-cli-h2.3.md) | 2026-11-04 14:32:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h3.land--1][1] | Need to determine whether the current cargo fmt failure belongs to this active epic’s introduced parser and tests | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
+
+<!-- sase:referenced-by:end -->

@@ -51,3 +51,15 @@ Prior close: 2026-11-04T18:21:02Z · done.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`281ef10`](https://github.com/bobs-org/bob-cli/commit/281ef10b025dab2ef074630bac1a62f1d1781abe) | feat(capture): complete past Pomodoro names | [bob-cli-h2.2](bob-cli-h2.2.md) | 2026-11-04 13:50:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h2.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.2/README.md
+
+<!-- sase:referenced-by:end -->

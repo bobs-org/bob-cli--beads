@@ -18,7 +18,7 @@ grammar: claim `x=` as a new whole-item session token. This covers the lexer, th
 ## Dependencies
 
 - **Blocks:** [bob-cli-h2.2](bob-cli-h2.2.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h2.3](bob-cli-h2.3.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h2.3](bob-cli-h2.3.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -31,3 +31,15 @@ grammar: claim `x=` as a new whole-item session token. This covers the lexer, th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ce8f53b`](https://github.com/bobs-org/bob-cli/commit/ce8f53b187701003446ad65b350510374b2c161e) | feat(capture)!: record past Pomodoro grammar (x= lexer, capture-parse, refusal) | [bob-cli-h2.1](bob-cli-h2.1.md) | 2026-11-04 12:57:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h3.land--1][1] | Determine which active Pomodoro epic phases own the Rust files flagged by canonical formatting verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
+
+<!-- sase:referenced-by:end -->

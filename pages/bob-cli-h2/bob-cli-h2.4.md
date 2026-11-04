@@ -13,7 +13,7 @@ guard: replace the strict guard with the full per-token `!` rules. Running sessi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h2.3](bob-cli-h2.3.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h2.3](bob-cli-h2.3.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h2.5](bob-cli-h2.5.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
@@ -21,3 +21,15 @@ guard: replace the strict guard with the full per-token `!` rules. Running sessi
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-h2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.4/README.md) | [bob-cli-h2.4](bob-cli-h2.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h3.land--1][1] | Determine which active Pomodoro epic phases own the Rust files flagged by canonical formatting verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
+
+<!-- sase:referenced-by:end -->
