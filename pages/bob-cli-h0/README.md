@@ -25,6 +25,19 @@ _Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 In a project-note capture sealed with `@foo^bar@` or `@foo:bar@`, a first-level `- ^^` bullet lets Bryan sort the parent note after Return and before anything is written. A three-state Move card (Leave by default, `^` move, `:` move & link) or `bob capture -m` answers it. The picks land at the `^^` slot in parent order with exactly the vault result that authored `- ^id` / `- :id` bullets produce, in one guarded batch.
 
+## Notes
+
+[2026-11-04T20:56:22Z · research.3b.final] DISCOVERED ISSUE (research.3b.final, lead of the bead-triage swarm): master test capture::note_pull::np_move_groups_follow_requested_sources_in_cli_fixtures (tests/cli/capture/note_pull.rs:117, tracked as bob-cli-h5) fails because CLI output now carries moved_tasks[].via = "bullet", which the checked-in preview.json lacks; that field arrived in h0 commit 458b53b9 (execute move_choice picks with mint, splice, offers and via). Evidence: bob-cli CI run 41900846465 on 87eecb1a, left/right diff differs only in via. The h0 lander should refresh the fixture (or drop via from note-pull output if unintended) and close bob-cli-h5.
+
+[2026-11-04T21:44:12Z · bob-cli-h0.land] LANDER TRIAGE (bob-cli-h0.land) of every PROPOSED FOLLOW-UP and discovered issue:
+(1) h0.1 #1 and h0.2 #1, task-merge glossary front matter breaking docs-check: declined, already resolved. bob-cli-go.13 closed, the strand has front matter, and just docs-check passes on 029b4266 (447 passed, 1 skipped).
+(2) h0.5 #1, cargo fmt drift: declined, already resolved. cargo fmt --all --check passes on 029b4266.
+(3) h0.5 #2, clippy deny errors (7 in editor_pomodoro.rs, 1 in past.rs): caused by active epic bob-cli-h2 (ce8f53b1/ed12f3d4). Recorded as a DISCOVERED ISSUE note on bob-cli-h2; no task, because an active epic owns it.
+(4) h0.5 #3, docs-check strict-build anchor in docs/reference/mac-capture/keyboard.md: declined, already resolved. just docs-check passes.
+(5) Epic note #1 / bob-cli-h5, note_pull np-move fixture: the h0 via drift was already fixed by h4.1 decd465c. The remaining drift was h4.2 029b4266's four new moves[] fields. Fixture regenerated in the lander's integration edits; note_pull 11/11 pass; h5 closed; noted on bob-cli-h4.
+(6) h0.8 #1, three live Move-card walkthroughs: left to Bryan as the plan allows (no Mac UI driver); not a task.
+Also seen, not h0's: bob-cli-h6 highlights overwrite tests (owned by bob-cli-h8.6); bob-mac-capture CI red since the Go To commits (bob-cli-h7 / h8.5). All 26 MoveChoice XCTests pass in CI run 41912472770.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -83,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-h0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.6/README.md) | [bob-cli-h0.6](bob-cli-h0.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.7.md) | [bob-cli-h0.7](bob-cli-h0.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.8/README.md) | [bob-cli-h0.8](bob-cli-h0.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-h0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.land/README.md) | [bob-cli-h0](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-h0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.land/README.md) | [bob-cli-h0](README.md) | 1 |
 
 ## Commits
 
@@ -97,6 +110,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@4906d94`](https://github.com/bobs-org/bob-mac-capture/commit/4906d94fdcb6b162deff64ce83d627d99d8a3fbf) | feat(capture): add move-choice card presentation | [bob-cli-h0.7](bob-cli-h0.7.md) | 2026-11-04 13:32:47 EST |
 | bob-cli | [`458b53b`](https://github.com/bobs-org/bob-cli/commit/458b53b95188cd986513a64d46c33336f79daf35) | feat(capture): execute move\_choice picks with mint, splice, offers and via | [bob-cli-h0.5](bob-cli-h0.5.md) | 2026-11-04 13:57:24 EST |
 | bob-mac-capture | [`bob-mac-capture@0245a75`](https://github.com/bobs-org/bob-mac-capture/commit/0245a752dde5fabd2e7a86f6ab7ce1ec56822b96) | feat(capture): submit Move choices before Pull-In and inbox routing | [bob-cli-h0.8](bob-cli-h0.8.md) | 2026-11-04 16:03:33 EST |
+| bob-cli | [`29f2089`](https://github.com/bobs-org/bob-cli/commit/29f2089af10a9c7ac1da0fb25c6b8115a4d6a82e) | test(capture): refresh np-move note-pull fixtures for enriched move records | [bob-cli-h0](README.md) | 2026-11-04 16:48:19 EST |
 
 <!-- sase:referenced-by:start -->
 
