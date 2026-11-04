@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gj.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.4.md) | [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-gj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.land.md) | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-gj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.3.md) | [bob-cli-gj.3](bob-cli-gj.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-gj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.land/README.md) | [bob-cli-gj](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-gj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.land/README.md) | [bob-cli-gj](README.md) | 3 |
 
 ## Commits
 
@@ -103,6 +103,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@206c4b8`](https://github.com/bobs-org/bob-mac-capture/commit/206c4b834917163683cf4ebe8bafc02a965840dd) | feat(capture): present note-pull offers in Mac Capture | [bob-cli-gj.3](bob-cli-gj.3.md) | 2026-11-04 09:51:52 EST |
 | bob-cli | [`bd56f1c`](https://github.com/bobs-org/bob-cli/commit/bd56f1cc82eba1d4ea0027d9038be4ea89d09698) | fix(capture): keep note-pull groups on their requested source after moves | [bob-cli-gj](README.md) | 2026-11-04 11:26:08 EST |
 | bob-mac-capture | [`bob-mac-capture@b22df38`](https://github.com/bobs-org/bob-mac-capture/commit/b22df380d537db1530eb30062caf84a5cf2a29f9) | fix(capture): group moved note-pull rows by source and finish pull-in copy | [bob-cli-gj](README.md) | 2026-11-04 11:26:27 EST |
+| bob-cli--plans | [`bob-cli--plans@7c1559d`](https://github.com/bobs-org/bob-cli--plans/commit/7c1559db263e4ffa57687eed974ad6cac23141f3) | docs(plans): mark note\_pull epic and final landing tale done | [bob-cli-gj](README.md) | 2026-11-04 11:26:43 EST |
 
 <!-- sase:referenced-by:start -->
 
