@@ -27,10 +27,11 @@ merge-label: add relations.merge_labels and LabelEffect::Merge with the four-lis
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.6/README.md) | [bob-cli-go.6](bob-cli-go.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.6/README.md) | [bob-cli-go.6](bob-cli-go.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3741ce2`](https://github.com/bobs-org/bob-cli/commit/3741ce2e79e5341942d2ff57cc536c8bd27c0799) | feat(capture): add configurable merge relations | [bob-cli-go.6](bob-cli-go.6.md) | 2026-11-04 01:37:01 EST |
+| chezmoi | [`chezmoi@5699cb0`](https://github.com/bbugyi200/dotfiles/commit/5699cb01bb5f6efd5ce7dc7e5c709316e666903d) | feat(config): enable merged-into relation defaults | [bob-cli-go.6](bob-cli-go.6.md) | 2026-11-04 01:37:42 EST |
