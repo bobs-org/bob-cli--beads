@@ -41,7 +41,9 @@ contract: write the `- ^^` contract into docs/capture.md and the reference pages
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h0.1][1] | Verify final phase status and recorded follow-up before closing | 3 |
+| read-by | [agent:bob-cli-h0.2][2] | check what contract phase landed for grammar baseline | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.2/README.md
 
 <!-- sase:referenced-by:end -->

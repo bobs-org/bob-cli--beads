@@ -21,7 +21,7 @@ cli-grammar: claim `- ^^` in the shared move lexer with its teaching errors, rep
 
 - **Depends on:** [bob-cli-h0.1](bob-cli-h0.1.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.4](bob-cli-h0.4.md) ◐ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h0.6](bob-cli-h0.6.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.6](bob-cli-h0.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -34,3 +34,15 @@ cli-grammar: claim `- ^^` in the shared move lexer with its teaching errors, rep
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bfbf482`](https://github.com/bobs-org/bob-cli/commit/bfbf482fd696fbb406fb33a0fb4231a8112dd83d) | feat(capture)!: claim - ^^ move-choice marker with teaching errors | [bob-cli-h0.2](bob-cli-h0.2.md) | 2026-11-04 10:21:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h0.2][1] | verify notes before close | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.2/README.md
+
+<!-- sase:referenced-by:end -->
