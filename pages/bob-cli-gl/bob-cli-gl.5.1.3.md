@@ -13,7 +13,7 @@ move_presentation: Add human move output and the no-move discoverability hint, r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

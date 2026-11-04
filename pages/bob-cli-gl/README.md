@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_move_bullets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_move_bullets.md
 
@@ -34,7 +34,7 @@ When a capture item creates a project note with `@foo^bar@` or `@foo:bar@`, a fi
 | [bob-cli-gl.3](bob-cli-gl.3.md) | Move engine slots, eligibility API, batch move helper, and parent-last writes | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gl.4](bob-cli-gl.4.md) | capture-complete \`project\_task\_move\` context and rows | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-gl.5](bob-cli-gl.5.md) | Project-note planner moves, \`:\` links, offers, and output | ◐ in_progress | large | 2026-11-03 | 1 | 0 |
-| [bob-cli-gl.6](bob-cli-gl.6.md) | Bob Mac Capture move picker, Add block ID, shift-return chain, and span styling | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-gl.6](bob-cli-gl.6.md) | Bob Mac Capture move picker, Add block ID, shift-return chain, and span styling | ✓ closed | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-gl.7](bob-cli-gl.7.md) | Bob Mac Capture moves band, ghost titles, move hint, offers label, and notification | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 
 ## Lineage
@@ -49,9 +49,9 @@ flowchart TD
     n5["bob-cli-gl.5: Project-note planner moves, `:` links, offers, and output [in_progress]"]
     n6["bob-cli-gl.5.1: Complete capture project-note move execution [in_progress]"]
     n7["bob-cli-gl.5.1.1: Execute ordered parent moves with atomic batch safety [closed]"]
-    n8["bob-cli-gl.5.1.2: Link moved tasks and integrate project offers [in_progress]"]
+    n8["bob-cli-gl.5.1.2: Link moved tasks and integrate project offers [closed]"]
     n9["bob-cli-gl.5.1.3: Finish move output, help, and conformance verification [in_progress]"]
-    n10["bob-cli-gl.6: Bob Mac Capture move picker, Add block ID, shift-return chain, and span styling [in_progress]"]
+    n10["bob-cli-gl.6: Bob Mac Capture move picker, Add block ID, shift-return chain, and span styling [closed]"]
     n11["bob-cli-gl.7: Bob Mac Capture moves band, ghost titles, move hint, offers label, and notification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.4/README.md) | [bob-cli-gl.4](bob-cli-gl.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.md) | [bob-cli-gl.5](bob-cli-gl.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.1.md) | [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-gl.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5.1.2/README.md) | [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-gl.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.2.md) | [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5.1.3/README.md) | [bob-cli-gl.5.1.3](bob-cli-gl.5.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.5.1.land/README.md) | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-gl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md) | [bob-cli-gl.6](bob-cli-gl.6.md) | 0 |
@@ -103,6 +103,7 @@ flowchart TD
 | bob-cli | [`b94eec2`](https://github.com/bobs-org/bob-cli/commit/b94eec2c04ba7f9730ff605df4116f3928b62825) | feat(capture)!: parse move bullets in sealed project-note items | [bob-cli-gl.2](bob-cli-gl.2.md) | 2026-11-03 16:00:43 EST |
 | bob-cli | [`b8688d9`](https://github.com/bobs-org/bob-cli/commit/b8688d9ef802f719d5ee46f02d3b87c1080fcaa2) | feat(capture)!: add project task move completion | [bob-cli-gl.4](bob-cli-gl.4.md) | 2026-11-03 17:02:59 EST |
 | bob-cli | [`6650faa`](https://github.com/bobs-org/bob-cli/commit/6650faa30491c8f7f39c2657bdbe8676ec97c6f6) | feat(capture): execute ordered project-note moves | [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) | 2026-11-03 17:45:01 EST |
+| bob-cli | [`14a5773`](https://github.com/bobs-org/bob-cli/commit/14a577321f81119ccb24dc41c81caa9aa9af8650) | feat(capture): link moved tasks and integrate project offers | [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) | 2026-11-03 19:29:57 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -111,9 +112,11 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gl.2][1] | epic scope and decisions | 1 |
-| read-by | [agent:research.36.final][2] | Check move-bullets epic status since > move reuses the batch move adapter | 1 |
+| read-by | [agent:bob-cli-gl.6][2] | Need epic and phase scope, notes, and plan linkage | 1 |
+| read-by | [agent:research.36.final][3] | Check move-bullets epic status since > move reuses the batch move adapter | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.36.final/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.36.final/README.md
 
 <!-- sase:referenced-by:end -->

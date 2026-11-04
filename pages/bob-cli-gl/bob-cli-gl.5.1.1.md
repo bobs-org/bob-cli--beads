@@ -17,7 +17,7 @@ move_execution: Resolve caret moves against staged parents, render task slots, e
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gl.5.1.2](bob-cli-gl.5.1.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -30,3 +30,15 @@ move_execution: Resolve caret moves against staged parents, render task slots, e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6650faa`](https://github.com/bobs-org/bob-cli/commit/6650faa30491c8f7f39c2657bdbe8676ec97c6f6) | feat(capture): execute ordered project-note moves | [bob-cli-gl.5.1.1](bob-cli-gl.5.1.1.md) | 2026-11-03 17:45:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-gl.5.1.1--2][1] | Confirm phase scope, DECISIONS, prior notes, and design before closure | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.1.md
+
+<!-- sase:referenced-by:end -->
