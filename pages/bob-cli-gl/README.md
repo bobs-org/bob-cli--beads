@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-gl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.land.md) | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-gl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.6/README.md) | [bob-cli-gl.6](bob-cli-gl.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-gl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.7/README.md) | [bob-cli-gl.7](bob-cli-gl.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-gl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.land/README.md) | [bob-cli-gl](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-gl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.land/README.md) | [bob-cli-gl](README.md) | 2 |
 
 ## Commits
 
@@ -114,6 +114,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@551c233`](https://github.com/bobs-org/bob-cli--plans/commit/551c23375da88cc0a2a4d4e6a8c11bf615060f9d) | chore(plans): mark capture\_move\_execution done for gl.5.1 landing | [bob-cli-gl.5.1](bob-cli-gl.5.1.md) | 2026-11-03 21:30:05 EST |
 | bob-mac-capture | [`bob-mac-capture@2940666`](https://github.com/bobs-org/bob-mac-capture/commit/2940666a76e65545bb3416bced36dd4f1f5c9b67) | feat(capture): preview project-note moves with band, ghosts, hint, and notification | [bob-cli-gl.7](bob-cli-gl.7.md) | 2026-11-03 22:09:53 EST |
 | bob-cli | [`7cf0774`](https://github.com/bobs-org/bob-cli/commit/7cf077466147d6f6bb50bd336769d316a163377b) | chore(capture): land project-note move bullets | [bob-cli-gl](README.md) | 2026-11-03 22:53:16 EST |
+| bob-cli--plans | [`bob-cli--plans@6d7f5d1`](https://github.com/bobs-org/bob-cli--plans/commit/6d7f5d17b889cc2a77047e2ae54d5ec882d3c3e7) | chore(plans): mark capture\_move\_bullets done | [bob-cli-gl](README.md) | 2026-11-03 22:53:51 EST |
 
 <!-- sase:referenced-by:start -->
 
