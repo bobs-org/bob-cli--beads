@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gm.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.2/README.md) | [bob-cli-gm.1.1.2](bob-cli-gm.1.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-gm.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.1.1.3/README.md) | [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-gm.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.1.1.4.md) | [bob-cli-gm.1.1.4](bob-cli-gm.1.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-gm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.1.1.land.md) | [bob-cli-gm.1.1](bob-cli-gm.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-gm.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gm.1.1.land.md) | [bob-cli-gm.1.1](bob-cli-gm.1.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-gm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.2/README.md) | [bob-cli-gm.2](bob-cli-gm.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-gm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.3/README.md) | [bob-cli-gm.3](bob-cli-gm.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-gm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gm.land/README.md) | [bob-cli-gm](README.md) | 0 |
@@ -84,6 +84,7 @@ flowchart TD
 | bob-cli | [`6a5b69b`](https://github.com/bobs-org/bob-cli/commit/6a5b69b081ee8d11ebc191d233aebe6f4ebe15fd) | feat(capture): combine editor target runs into one item with targets | [bob-cli-gm.1.1.3](bob-cli-gm.1.1.3.md) | 2026-11-03 18:49:25 EST |
 | bob-cli | [`c341649`](https://github.com/bobs-org/bob-cli/commit/c341649a46ad1dd58f81a0be4f3930b9315964c8) | feat(capture): activate multi-target capture runs | [bob-cli-gm.1.1.4](bob-cli-gm.1.1.4.md) | 2026-11-03 19:53:10 EST |
 | bob-cli | [`ebedfca`](https://github.com/bobs-org/bob-cli/commit/ebedfca8e666a9a79e9cc2989aca0a6b78edd983) | feat(capture)!: complete target-run grammar and landing | [bob-cli-gm.1.1](bob-cli-gm.1.1.md) | 2026-11-03 21:13:52 EST |
+| bob-cli--plans | [`bob-cli--plans@c7dd457`](https://github.com/bobs-org/bob-cli--plans/commit/c7dd4577898944f1a6e05ae31c3bff3e31802ef3) | docs(plan): mark target-run landing complete | [bob-cli-gm.1.1](bob-cli-gm.1.1.md) | 2026-11-03 21:14:17 EST |
 
 <!-- sase:referenced-by:start -->
 
