@@ -40,7 +40,9 @@ transfer-lexer: implement the pure span-aware transfer recognizer and its comple
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-go.10.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-go.10.1.2][2] | Check whether the baseline build failure already has a follow-up record | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.2/README.md
 
 <!-- sase:referenced-by:end -->

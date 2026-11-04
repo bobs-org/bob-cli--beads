@@ -13,7 +13,7 @@ transfer-merges: execute task, drawer, and section destinations through plan_tas
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-go.10.1.5](bob-cli-go.10.1.5.md) ◐ · ⧖ 2026-11-04
 
 ## Agents

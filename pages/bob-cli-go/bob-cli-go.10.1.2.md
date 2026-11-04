@@ -20,7 +20,7 @@ transfer-resolvers: wire the shared recognizer before target-run fan-out in both
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.10.1.1](bob-cli-go.10.1.1.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -33,3 +33,15 @@ transfer-resolvers: wire the shared recognizer before target-run fan-out in both
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`706eab6`](https://github.com/bobs-org/bob-cli/commit/706eab6783fbe4ac2811647e4225f5a1d1fa9afc) | feat(capture)!: add transfer parsing contracts | [bob-cli-go.10.1.2](bob-cli-go.10.1.2.md) | 2026-11-04 03:22:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-go.10.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.2/README.md
+
+<!-- sase:referenced-by:end -->
