@@ -20,7 +20,7 @@ cli-grammar: claim `- ^^` in the shared move lexer with its teaching errors, rep
 ## Dependencies
 
 - **Depends on:** [bob-cli-h0.1](bob-cli-h0.1.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h0.4](bob-cli-h0.4.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.4](bob-cli-h0.4.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.6](bob-cli-h0.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents

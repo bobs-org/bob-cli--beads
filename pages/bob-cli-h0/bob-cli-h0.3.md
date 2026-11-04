@@ -18,7 +18,7 @@ cli-consequence: extract one consequence builder that the planner's `moved_tasks
 ## Dependencies
 
 - **Depends on:** [bob-cli-h0.1](bob-cli-h0.1.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h0.4](bob-cli-h0.4.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.4](bob-cli-h0.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -31,3 +31,15 @@ cli-consequence: extract one consequence builder that the planner's `moved_tasks
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`abf427c`](https://github.com/bobs-org/bob-cli/commit/abf427c211d5f8ee7c1ed7cbbc1a983418dc89bd) | feat(capture): share one planner-true move consequence builder | [bob-cli-h0.3](bob-cli-h0.3.md) | 2026-11-04 10:57:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h0.3--3][1] | Verify bead state after green just check | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.3.md
+
+<!-- sase:referenced-by:end -->

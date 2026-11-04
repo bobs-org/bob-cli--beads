@@ -13,7 +13,7 @@ mac-card: decode `move_choice`, build the portable three-state card state machin
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h0.4](bob-cli-h0.4.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h0.4](bob-cli-h0.4.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.8](bob-cli-h0.8.md) ◐ · ⧖ 2026-11-04
 
 ## Agents

@@ -13,7 +13,7 @@ cli-execute: mint IDs for picked ID-less rows, splice picks into the move list a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h0.4](bob-cli-h0.4.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h0.4](bob-cli-h0.4.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.8](bob-cli-h0.8.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
