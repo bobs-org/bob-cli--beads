@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-gj.2](bob-cli-gj.2.md) / bob-cli-gj.2.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-gj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.md) · **Assignee:** `bob-cli-gj.2.1.land`
-**Created:** 2026-11-03 12:31:13 EST
+**Created:** 2026-11-03 12:31:13 EST · **Closed:** 2026-11-04 08:31:26 EST
 **Plan:** [202611/note\_pull\_cli.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/note_pull_cli.md)
 
 <!-- sase:links:start -->
@@ -39,17 +39,24 @@ Complete bob-cli-gj.2 with atomic explicit note-pull selection, grammar 7, share
 
 [2026-11-03T23:30:28Z · bob-cli-gj.2.1.land] Repair tale progress: fixed fold-proof gating (hidden/scheduled/live with closed prerequisites now fold correctly via narrowed vault proof), proven project-block counts (1 open of 2 reports 1 task, staged closes visible), selected repeated-pull ownership (All/numeric/key/ID-less/duplicates prune via stable keys and post-mint block IDs; explicit-link empties still refuse), cross-group earliest-wins dedup across hand_off/relation/note-pull, and pull-only hint first/last numbers (-p 1,3). Fixtures regenerated (np1 human hint -p 1,3), new unit regressions (fold_gating, blocked_project_counts, repeated_selected_ownership, selected_handoff) plus CLI subset/two-note/mixed assertions pass. Gates: cargo check --all-targets --locked passes; just docs-check passes; focused note_pull (38) + CLI note_pull (7) + capture_language (556) pass. just check still fails on pre-existing catalog document_shape (69 vs 67) and protocol_1, reproduced on clean base, unrelated to this repair. Latency (release, isolated 6906-note vault): sase p95 87.67ms vs 70ms target (miss), mac_inbox 63.98ms meets. Narrowed proof (source + needed-ID substring retention) did not reach target on SSD temp; /tmp manual shows 63ms (meets) vs SSD 87ms, pointing to file-open/metadata cost for 6906 files per process. No stale cache, safety proof, or threshold weakening introduced. Blocker recorded; epic stays open per step 4.
 
+[2026-11-04T12:27:03Z · bob-cli-gj.2.1.land] SECOND LANDING AUDIT at b9fe9d0c (bob-cli-gj.2.1.land): reread epic notes #1-#6, all 4 phases and their notes, both plans, 4db3200c and every commit through b9fe9d0c. cargo check --all-targets --locked passes; cargo test --lib note_pull 38/38 and --test cli note_pull 8/8 pass; the plan.rs result literals each carry one leading note_pull; grammar is now 10 (transfer, 706eab67), and lone @route still parses as note_pull; target runs before/after pulls keep order and ownership; no epic symbols. Epic stays open with two remaining items, both retained as epic work. (1) LATENCY still misses: hyperfine on an isolated 6,907-note copy (target dir, ext4) gives @sase 78.4+-3.3 ms, max 87.1; @mac_inbox 38.9; hello 17.7. Instrumented profile of @sase: NoteCatalog::walk 31 ms (collect_note_paths sort_by_key(entry.path()) 19 ms, NoteIndex::from_paths per-path BTreeSet insert 10 ms), shared byte pass 11 ms, first theme placement Catalog::load 13 ms, append_unconfigured_theme_warnings second Catalog::load 11 ms (paid by every capture, including hello). Reverted experiment: sort_by_cached_key(file_name) plus bulk BTreeSet collect cut the walk to 11 ms and @sase to about 56 ms in-process. (2) MOVE INTEGRATION GAP: pull -p all then a later project-note move (bob-cli-gl, landed after note-pull) or transfer move (bob-cli-go.10, b9fe9d0c) of a pulled task. The task is linked (link follows) but the SL20 net pass drops its row because it looks up the old note_path: the report says 2 of 2 for 3 links, the Pomodoro line loses reason note_pull, and the no-pick probe omits the offer that -p all then links. FOLLOW-UP TRIAGE: bob-cli-gj.2.1.2 #1 (clippy -D warnings) stays declined per note #4; no new evidence, and the canonical gate passes. bob-cli-gj.2.1.4 #3 (latency) stays epic work. The repair tale left no PROPOSED FOLLOW-UP. No new task beads: both findings are epic integration/acceptance work for the new repair tale. A possible identical drop for ! successor and relation rows is unverified, so the tale verifies it and routes it through /sase_new_task only if it reproduces.
+
+[2026-11-04T13:31:26Z · bob-cli-gj.2.1.land] Implemented and verified the approved note-pull repair. Optimized deterministic note traversal by sorting cached filenames and bulk-building NoteIndex relative paths; added ordering and catalog-fast-path regressions. Shared one lazy theme catalog across capture planning, refs, and warnings, with a cheap no-growth path. Fixed SL20 rows to follow later project and transfer moves, including chained moves, while retaining stable offer keys, note_pull link reasons, final-identity dedup, and tracked task-block roles. Added unit and CLI move, repeated-pull, source-after-move, selection-parity, and rollback coverage; updated dependency docs, fixture README, generated CLI references, and performance.md. Validation: cargo fmt, cargo check --all-targets --locked, focused note_pull/vault_links/capture_dependency_tasks/budget/theme tests, CLI
+
+… and 757 more characters
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-gj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.land.md) | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-gj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.land.md) | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4db3200`](https://github.com/bobs-org/bob-cli/commit/4db3200cd6367c43a252322b66e3c6652e8a7295) | fix(capture)!: finish note-pull contract and landing | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 2026-11-03 18:32:59 EST |
+| bob-cli | [`cbc35ad`](https://github.com/bobs-org/bob-cli/commit/cbc35adf64a843f25a8adc9855e823f696b088ed) | feat(capture): optimize note-pull landing with move-aware ownership | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 2026-11-04 09:43:56 EST |
 
 <!-- sase:referenced-by:start -->
 

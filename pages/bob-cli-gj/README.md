@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/note_pull.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/note_pull.md
 
 <!-- sase:links:end -->
@@ -27,12 +29,14 @@ Capturing a lone `@foobar` item (in `bob capture` or Bob Mac Capture) opens the 
 
 [2026-11-03T19:41:36Z · bob-cli-gm.1] Grammar phase bob-cli-gm.1 took capture-language revision 9, one above the highest current code/docs claim. Keep revision 9 as execute and assist phases integrate; do not lower it.
 
+[2026-11-04T00:06:46Z · bob-cli-gm.1.1.4] Activation phase bob-cli-gm.1.1.4 re-scanned the active code and docs claims and activated both target-run parsers at capture-language revision 9. Keep revision 9 as the open integration phases settle; do not lower it.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-gj.1](bob-cli-gj.1.md) | Contract docs, copy, and NP vectors | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-gj.2](bob-cli-gj.2.md) | bob-cli note pull grammar, planner, picks, and output | ◐ in_progress | large | 2026-11-03 | 1 | 0 |
+| [bob-cli-gj.2](bob-cli-gj.2.md) | bob-cli note pull grammar, planner, picks, and output | ✓ closed | large | 2026-11-03 | 1 | 0 |
 | [bob-cli-gj.3](bob-cli-gj.3.md) | Bob Mac Capture note-pull preview, card, and notification | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 
 ## Lineage
@@ -41,8 +45,8 @@ Capturing a lone `@foobar` item (in `bob capture` or Bob Mac Capture) opens the 
 flowchart TD
     n0["bob-cli-gj: Pull a note's ready tasks with a lone @route capture [in_progress]"]
     n1["bob-cli-gj.1: Contract docs, copy, and NP vectors [closed]"]
-    n2["bob-cli-gj.2: bob-cli note pull grammar, planner, picks, and output [in_progress]"]
-    n3["bob-cli-gj.2.1: Implement note-pull capture in bob-cli [in_progress]"]
+    n2["bob-cli-gj.2: bob-cli note pull grammar, planner, picks, and output [closed]"]
+    n3["bob-cli-gj.2.1: Implement note-pull capture in bob-cli [closed]"]
     n4["bob-cli-gj.2.1.1: Note-pull grammar and single-item planner [closed]"]
     n5["bob-cli-gj.2.1.2: Note-pull batch identity and transaction semantics [closed]"]
     n6["bob-cli-gj.2.1.3: Note-pull copy, human output, and block reporting [closed]"]
@@ -73,8 +77,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-gj.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.2/README.md) | [bob-cli-gj.2.1.2](bob-cli-gj.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-gj.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.2.1.3/README.md) | [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-gj.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.4.md) | [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-gj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.land.md) | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-gj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.3/README.md) | [bob-cli-gj.3](bob-cli-gj.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.2.1.land.md) | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-gj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.3.md) | [bob-cli-gj.3](bob-cli-gj.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-gj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.land/README.md) | [bob-cli-gj](README.md) | 0 |
 
 ## Commits
@@ -87,3 +91,16 @@ flowchart TD
 | bob-cli | [`3d1822b`](https://github.com/bobs-org/bob-cli/commit/3d1822be51b4bd307474bb1d154fc2ed8e534eb2) | feat(capture): present note-pull offers | [bob-cli-gj.2.1.3](bob-cli-gj.2.1.3.md) | 2026-11-03 15:20:17 EST |
 | bob-cli | [`093dcea`](https://github.com/bobs-org/bob-cli/commit/093dceade9085d57cbd4cdda96478258bed779b9) | feat(capture): add note-pull conformance evidence | [bob-cli-gj.2.1.4](bob-cli-gj.2.1.4.md) | 2026-11-03 17:25:17 EST |
 | bob-cli | [`4db3200`](https://github.com/bobs-org/bob-cli/commit/4db3200cd6367c43a252322b66e3c6652e8a7295) | fix(capture)!: finish note-pull contract and landing | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 2026-11-03 18:32:59 EST |
+| bob-cli | [`cbc35ad`](https://github.com/bobs-org/bob-cli/commit/cbc35adf64a843f25a8adc9855e823f696b088ed) | feat(capture): optimize note-pull landing with move-aware ownership | [bob-cli-gj.2.1](bob-cli-gj.2.1.md) | 2026-11-04 09:43:56 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.37.mus][1] | research ^^ picker vs pull-in lone @route successor model | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.37.mus/README.md
+
+<!-- sase:referenced-by:end -->

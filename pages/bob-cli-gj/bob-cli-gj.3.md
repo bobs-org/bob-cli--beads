@@ -15,12 +15,14 @@ mac: decode `note_pull` results and render them. Covers the preview card with th
 
 [2026-11-03T22:23:38Z · bob-cli-gj.2.1.4--4] Fixture handoff: tests/fixtures/note_pull/README.md; generator tests/fixtures/note_pull/generate.py; CLI outputs np1/{stdout.json,human.txt}, np2/{stdout.json,human.txt}, np10-empty/stdout.json, np10-folded/stdout.json, np12/stdout.json, np13/stdout.json, np16/{choice.json,routed.json}; benchmark tests/fixtures/note_pull/benchmark.py and performance.md. Producing source: HEAD 3d1822be plus verification working-tree changes (release rebuilt from that tree). Latest 20-sample p95: sase 82.60 ms (target 70 ms missed); mac_inbox 44.88 ms (empty-pull refusal on source vault).
 
+[2026-11-04T14:25:15Z · bob-cli-gj.3--2] PROPOSED FOLLOW-UP: Fix docs-check generated drift: cached Bob CLI glossary strand task-merge.md lacks front matter; reproduced identically on clean Mac Capture base 2940666 after lint passed.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-gj.2](bob-cli-gj.2.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [bob-cli-gj.2](bob-cli-gj.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-gj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-gj.3/README.md) | [bob-cli-gj.3](bob-cli-gj.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-gj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-gj.3.md) | [bob-cli-gj.3](bob-cli-gj.3.md) | 0 |

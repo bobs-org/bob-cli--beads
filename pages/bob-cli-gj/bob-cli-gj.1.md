@@ -17,7 +17,7 @@ contract: write the docs-first contract for the note pull. Cover the grammar row
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-gj.2](bob-cli-gj.2.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gj.2](bob-cli-gj.2.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
