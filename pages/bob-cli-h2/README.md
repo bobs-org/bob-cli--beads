@@ -27,8 +27,8 @@ Capture gains `x=<E>[!][=<X>]`, which records already-finished Pomodoros in one 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-h2.1](bob-cli-h2.1.md) | x= lexer, capture-parse contract, and grammar 12 | ◐ in_progress | large | 2026-11-04 | 1 | 1 |
-| [bob-cli-h2.2](bob-cli-h2.2.md) | Pomodoro-name completion inside x= | ◐ in_progress | small | 2026-11-04 | 1 | 0 |
+| [bob-cli-h2.1](bob-cli-h2.1.md) | x= lexer, capture-parse contract, and grammar 12 | ✓ closed | large | 2026-11-04 | 1 | 1 |
+| [bob-cli-h2.2](bob-cli-h2.2.md) | Pomodoro-name completion inside x= | ✓ closed | small | 2026-11-04 | 1 | 1 |
 | [bob-cli-h2.3](bob-cli-h2.3.md) | Record engine with explicit-entry close, placement, and output | ◐ in_progress | large | 2026-11-04 | 1 | 0 |
 | [bob-cli-h2.4](bob-cli-h2.4.md) | Whole-stack overlap guard and ! edge repair | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
 | [bob-cli-h2.5](bob-cli-h2.5.md) | Capture docs, references, and help for x= | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
@@ -39,8 +39,8 @@ Capture gains `x=<E>[!][=<X>]`, which records already-finished Pomodoros in one 
 ```mermaid
 flowchart TD
     n0["bob-cli-h2: Record past Pomodoros with x= [in_progress]"]
-    n1["bob-cli-h2.1: x= lexer, capture-parse contract, and grammar 12 [in_progress]"]
-    n2["bob-cli-h2.2: Pomodoro-name completion inside x= [in_progress]"]
+    n1["bob-cli-h2.1: x= lexer, capture-parse contract, and grammar 12 [closed]"]
+    n2["bob-cli-h2.2: Pomodoro-name completion inside x= [closed]"]
     n3["bob-cli-h2.3: Record engine with explicit-entry close, placement, and output [in_progress]"]
     n4["bob-cli-h2.4: Whole-stack overlap guard and ! edge repair [in_progress]"]
     n5["bob-cli-h2.5: Capture docs, references, and help for x= [in_progress]"]
@@ -64,8 +64,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-h2.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.1.md) | [bob-cli-h2.1](bob-cli-h2.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-h2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.2/README.md) | [bob-cli-h2.2](bob-cli-h2.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-h2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.3/README.md) | [bob-cli-h2.3](bob-cli-h2.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-h2.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.2/README.md) | [bob-cli-h2.2](bob-cli-h2.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-h2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.3.md) | [bob-cli-h2.3](bob-cli-h2.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-h2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.4/README.md) | [bob-cli-h2.4](bob-cli-h2.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-h2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.5/README.md) | [bob-cli-h2.5](bob-cli-h2.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-h2.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.6/README.md) | [bob-cli-h2.6](bob-cli-h2.6.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ce8f53b`](https://github.com/bobs-org/bob-cli/commit/ce8f53b187701003446ad65b350510374b2c161e) | feat(capture)!: record past Pomodoro grammar (x= lexer, capture-parse, refusal) | [bob-cli-h2.1](bob-cli-h2.1.md) | 2026-11-04 12:57:37 EST |
+| bob-cli | [`281ef10`](https://github.com/bobs-org/bob-cli/commit/281ef10b025dab2ef074630bac1a62f1d1781abe) | feat(capture): complete past Pomodoro names | [bob-cli-h2.2](bob-cli-h2.2.md) | 2026-11-04 13:50:01 EST |

@@ -2,18 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-h2](README.md) / bob-cli-h2.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.38.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.38.linker.w0.md) · **Assignee:** `bob-cli-h2.1` · **Size:** large
-**Created:** 2026-11-04 11:11:57 EST
+**Created:** 2026-11-04 11:11:57 EST · **Closed:** 2026-11-04 12:58:24 EST
 **Plan:** [202611/past\_pomodoro\_recording.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/past_pomodoro_recording.md)
 
 ## Description
 
 grammar: claim `x=` as a new whole-item session token. This covers the lexer, the PomodoroPast model, teaching errors, chain ownership, stack numbering, editor and capture-parse output, and grammar 12. Execution refuses the token until record lands.
 
+## Notes
+
+[2026-11-04T17:58:24Z · bob-cli-h2.1] Closed by explicit `sase stitch create -B close` after create_commit landed ce8f53b1 ("feat(capture)!: record past Pomodoro grammar (x= lexer, capture-parse, refusal)"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-h2.1` if more work remains.
+
 ## Dependencies
 
-- **Blocks:** [bob-cli-h2.2](bob-cli-h2.2.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h2.2](bob-cli-h2.2.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h2.3](bob-cli-h2.3.md) ◐ · ⧖ 2026-11-04
 
 ## Agents

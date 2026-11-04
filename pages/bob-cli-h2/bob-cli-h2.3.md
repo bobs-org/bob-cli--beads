@@ -13,11 +13,11 @@ record: execute `x=` stacks. Compute windows, resolve targets, and close the exp
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h2.1](bob-cli-h2.1.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h2.1](bob-cli-h2.1.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h2.4](bob-cli-h2.4.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-h2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.3/README.md) | [bob-cli-h2.3](bob-cli-h2.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-h2.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.3.md) | [bob-cli-h2.3](bob-cli-h2.3.md) | 0 |
