@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/transfer_previews.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/transfer_previews.md
 
 <!-- sase:links:end -->
@@ -27,7 +29,7 @@ When Bryan types a `>` transfer line (`@a+x @b+y > @c…`) in Bob Mac Capture, t
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-h4.1](bob-cli-h4.1.md) | bob emits landing blocks for transfers (target, tombstones, moved tasks, sections) | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
+| [bob-cli-h4.1](bob-cli-h4.1.md) | bob emits landing blocks for transfers (target, tombstones, moved tasks, sections) | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [bob-cli-h4.2](bob-cli-h4.2.md) | bob enriches merge and move records, serializes merge offers, and fixes their copy | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
 | [bob-cli-h4.3](bob-cli-h4.3.md) | bob describes an unfinished transfer on dry run | ✓ closed | small | 2026-11-04 | 1 | 1 |
 | [bob-cli-h4.4](bob-cli-h4.4.md) | Mac transfer card, status line, offers, notifications, and VoiceOver | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
@@ -39,7 +41,7 @@ When Bryan types a `>` transfer line (`@a+x @b+y > @c…`) in Bob Mac Capture, t
 ```mermaid
 flowchart TD
     n0["bob-cli-h4: Transfer previews — see every `&gt;` move and merge before it lands [in_progress]"]
-    n1["bob-cli-h4.1: bob emits landing blocks for transfers (target, tombstones, moved tasks, sections) [in_progress]"]
+    n1["bob-cli-h4.1: bob emits landing blocks for transfers (target, tombstones, moved tasks, sections) [closed]"]
     n2["bob-cli-h4.2: bob enriches merge and move records, serializes merge offers, and fixes their copy [in_progress]"]
     n3["bob-cli-h4.3: bob describes an unfinished transfer on dry run [closed]"]
     n4["bob-cli-h4.4: Mac transfer card, status line, offers, notifications, and VoiceOver [in_progress]"]
@@ -62,7 +64,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.1/README.md) | [bob-cli-h4.1](bob-cli-h4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-h4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.1/README.md) | [bob-cli-h4.1](bob-cli-h4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.2/README.md) | [bob-cli-h4.2](bob-cli-h4.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-h4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.3/README.md) | [bob-cli-h4.3](bob-cli-h4.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.4/README.md) | [bob-cli-h4.4](bob-cli-h4.4.md) | 0 |
@@ -75,3 +77,22 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3ad23a7`](https://github.com/bobs-org/bob-cli/commit/3ad23a73d5f281bdbc7e892a66a261be8fb67c75) | feat(capture): describe unfinished transfers in dry-run failures | [bob-cli-h4.3](bob-cli-h4.3.md) | 2026-11-04 15:26:41 EST |
+| bob-cli | [`decd465`](https://github.com/bobs-org/bob-cli/commit/decd465c2f2f0f2f1dbea7feb444e28c97a2751c) | feat(capture): emit transfer landing blocks | [bob-cli-h4.1](bob-cli-h4.1.md) | 2026-11-04 15:59:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3b.cdx][1] | Compare active epic scope with high-impact correctness and CI task candidates | 1 |
+| read-by | [agent:research.3b.cld][2] | Check active epic scope and discovered issues for conflicts with candidate task beads | 1 |
+| read-by | [agent:research.3b.gem][3] | Check running epic h4 to avoid conflicts | 1 |
+| read-by | [agent:research.3b.mus][4] | research top beads needs active epic scope to avoid conflicts | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3b.cdx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3b.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3b.gem/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3b.mus/README.md
+
+<!-- sase:referenced-by:end -->

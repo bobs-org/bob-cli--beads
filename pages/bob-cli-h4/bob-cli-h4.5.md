@@ -13,7 +13,7 @@ mac-landing-cards: render bob's transfer-role task blocks with role capsules and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h4.1](bob-cli-h4.1.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h4.1](bob-cli-h4.1.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h4.4](bob-cli-h4.4.md) ◐ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h4.6](bob-cli-h4.6.md) ◐ · ⧖ 2026-11-04
 
