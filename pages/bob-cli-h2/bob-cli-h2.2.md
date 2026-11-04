@@ -59,7 +59,9 @@ Prior close: 2026-11-04T18:21:02Z · done.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h2.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-h2.5][2] | Check existing follow-up ownership of the clean-base clippy failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.5/README.md
 
 <!-- sase:referenced-by:end -->

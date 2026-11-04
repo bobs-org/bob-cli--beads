@@ -41,9 +41,11 @@ guard: replace the strict guard with the full per-token `!` rules. Running sessi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h2.4][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:bob-cli-h3.land--1][2] | Determine which active Pomodoro epic phases own the Rust files flagged by canonical formatting verification | 1 |
+| read-by | [agent:bob-cli-h2.5][2] | Check existing follow-up ownership of the clean-base clippy failure | 1 |
+| read-by | [agent:bob-cli-h3.land--1][3] | Determine which active Pomodoro epic phases own the Rust files flagged by canonical formatting verification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
 
 <!-- sase:referenced-by:end -->

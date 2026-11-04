@@ -21,7 +21,7 @@ docs: document recording a past Pomodoro in docs/capture.md and the syntax, JSON
 
 - **Depends on:** [bob-cli-h2.2](bob-cli-h2.2.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h2.4](bob-cli-h2.4.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h2.6](bob-cli-h2.6.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h2.6](bob-cli-h2.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -41,8 +41,10 @@ docs: document recording a past Pomodoro in docs/capture.md and the syntax, JSON
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-h3.land--1][1] | Determine which active Pomodoro epic phases own the Rust files flagged by canonical formatting verification | 1 |
+| read-by | [agent:bob-cli-h2.5][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-h3.land--1][2] | Determine which active Pomodoro epic phases own the Rust files flagged by canonical formatting verification | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h3.land.md
 
 <!-- sase:referenced-by:end -->
