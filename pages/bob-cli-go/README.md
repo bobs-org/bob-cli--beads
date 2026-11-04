@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Bryan can move tasks between notes, merge tasks into another task, drawer, or note section, and split bullets out into new linked tasks, from capture (`@a+x @b+y > @c…`), the `merged into` relation label, Obsidian (Ctrl+Shift+T and the Links stage), and `bob task move|merge|split`. All of these share one Rust engine per operation. They never lose content or identity, leave `bob task reconcile` with nothing to do, and explain every consequence before and after they write.
 
+## Notes
+
+[2026-11-03T23:47:03Z · bob-cli-gn.land--1] DISCOVERED ISSUE: The 2026-11-03 bob-plugins npm run docs:check reached lint successfully, then generated-drift validation failed because the fetched bob-cli 4db3200 source context contains glossary:task-merge without required front matter. That strand is among this epic's accepted memory_glossary_strands outputs; the error is outside bob-cli-gn, so this landing left memory files untouched. Monitor evidence: file:monitor-retained-log:qbknfa4fxj8p.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -35,7 +39,7 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 | [bob-cli-go.12](bob-cli-go.12.md) | Bob Mac Capture transfer spans, bands, and verbs | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.13](bob-cli-go.13.md) | Live verification, cross-links, and accepted memory | ◐ in_progress | small | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.2](bob-cli-go.2.md) | Fragment transplant, task-children classifier, drawer ensure, and task locators | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-go.3](bob-cli-go.3.md) | Rust split planner and \`bob task split\` | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-go.3](bob-cli-go.3.md) | Rust split planner and \`bob task split\` | ○ open | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.4](bob-cli-go.4.md) | Rust merge engine for task, drawer, and section containers | ◐ in_progress | large | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.5](bob-cli-go.5.md) | \`bob task merge\` and \`bob task move -t\` | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.6](bob-cli-go.6.md) | Configurable merge labels in config, capture \`~\`/\`~~\`, and completion | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
@@ -54,13 +58,17 @@ flowchart TD
     n4["bob-cli-go.12: Bob Mac Capture transfer spans, bands, and verbs [in_progress]"]
     n5["bob-cli-go.13: Live verification, cross-links, and accepted memory [in_progress]"]
     n6["bob-cli-go.2: Fragment transplant, task-children classifier, drawer ensure, and task locators [closed]"]
-    n7["bob-cli-go.3: Rust split planner and `bob task split` [in_progress]"]
+    n7["bob-cli-go.3: Rust split planner and `bob task split` [open]"]
     n8["bob-cli-go.4: Rust merge engine for task, drawer, and section containers [in_progress]"]
-    n9["bob-cli-go.5: `bob task merge` and `bob task move -t` [in_progress]"]
-    n10["bob-cli-go.6: Configurable merge labels in config, capture `~`/`~~`, and completion [in_progress]"]
-    n11["bob-cli-go.7: Obsidian Ctrl+Shift+T split — JS twin and cursor gestures [in_progress]"]
-    n12["bob-cli-go.8: Split picker, section promotion, cross-note splits, and Undo notices [in_progress]"]
-    n13["bob-cli-go.9: Merge through the Obsidian Links stage [in_progress]"]
+    n9["bob-cli-go.4.1: Rust task merge engine for bob-cli-go.4 [in_progress]"]
+    n10["bob-cli-go.4.1.1: Resolve merge containers and transplant authored payloads [in_progress]"]
+    n11["bob-cli-go.4.1.2: Repoint dependencies and retire sources with provenance [in_progress]"]
+    n12["bob-cli-go.4.1.3: Compose ledger offers and finish the merge planner contract [in_progress]"]
+    n13["bob-cli-go.5: `bob task merge` and `bob task move -t` [in_progress]"]
+    n14["bob-cli-go.6: Configurable merge labels in config, capture `~`/`~~`, and completion [in_progress]"]
+    n15["bob-cli-go.7: Obsidian Ctrl+Shift+T split — JS twin and cursor gestures [in_progress]"]
+    n16["bob-cli-go.8: Split picker, section promotion, cross-note splits, and Undo notices [in_progress]"]
+    n17["bob-cli-go.9: Merge through the Obsidian Links stage [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,11 +77,15 @@ flowchart TD
     n0 --> n6
     n0 --> n7
     n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
+    n8 --> n9
+    n9 --> n10
+    n9 --> n11
+    n9 --> n12
     n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
     n1 -.-> n7
     n1 -.-> n8
     n2 -.-> n3
@@ -81,17 +93,19 @@ flowchart TD
     n4 -.-> n5
     n6 -.-> n7
     n6 -.-> n8
-    n7 -.-> n9
-    n7 -.-> n11
-    n8 -.-> n9
-    n8 -.-> n10
-    n9 -.-> n2
-    n9 -.-> n13
-    n10 -.-> n2
-    n10 -.-> n13
+    n7 -.-> n13
+    n7 -.-> n15
+    n8 -.-> n13
+    n8 -.-> n14
+    n10 -.-> n11
     n11 -.-> n12
-    n12 -.-> n13
-    n13 -.-> n5
+    n13 -.-> n2
+    n13 -.-> n17
+    n14 -.-> n2
+    n14 -.-> n17
+    n15 -.-> n16
+    n16 -.-> n17
+    n17 -.-> n5
 ```
 
 ## Agents
@@ -104,8 +118,12 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.12/README.md) | [bob-cli-go.12](bob-cli-go.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.13/README.md) | [bob-cli-go.13](bob-cli-go.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.2.md) | [bob-cli-go.2](bob-cli-go.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-go.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.3/README.md) | [bob-cli-go.3](bob-cli-go.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-go.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4/README.md) | [bob-cli-go.4](bob-cli-go.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.3.md) | [bob-cli-go.3](bob-cli-go.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.md) | [bob-cli-go.4](bob-cli-go.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.1.md) | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-go.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.2/README.md) | [bob-cli-go.4.1.2](bob-cli-go.4.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.3/README.md) | [bob-cli-go.4.1.3](bob-cli-go.4.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.land/README.md) | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.5/README.md) | [bob-cli-go.5](bob-cli-go.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.6/README.md) | [bob-cli-go.6](bob-cli-go.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md) | [bob-cli-go.7](bob-cli-go.7.md) | 0 |
@@ -119,6 +137,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`8d2eb09`](https://github.com/bobs-org/bob-cli/commit/8d2eb09f6646faf3a17abb7998a7c1661a46044b) | docs(contract): task-merge and task-split contracts, merge-label relations, split vectors | [bob-cli-go.1](bob-cli-go.1.md) | 2026-11-03 17:12:02 EST |
 | bob-cli | [`aac3947`](https://github.com/bobs-org/bob-cli/commit/aac3947c7f415b7037fdb7e10fa5e0322df4ade3) | feat(task-move): shared transplant API, children classifier, drawer ensure, task locator | [bob-cli-go.2](bob-cli-go.2.md) | 2026-11-03 18:04:52 EST |
+| bob-cli | [`adf2082`](https://github.com/bobs-org/bob-cli/commit/adf20825f77d3adc059ae69e7809018e4b75bcbe) | fix(task-merge): resolve payload preparation failures | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 2026-11-03 19:07:47 EST |
 
 <!-- sase:referenced-by:start -->
 

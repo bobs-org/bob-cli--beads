@@ -17,7 +17,7 @@ foundation: extract the move engine's fragment cut, re-indent, anchor-rename, an
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-go.3](bob-cli-go.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.3](bob-cli-go.3.md) ○ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.4](bob-cli-go.4.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
@@ -31,3 +31,15 @@ foundation: extract the move engine's fragment cut, re-indent, anchor-rename, an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`aac3947`](https://github.com/bobs-org/bob-cli/commit/aac3947c7f415b7037fdb7e10fa5e0322df4ade3) | feat(task-move): shared transplant API, children classifier, drawer ensure, task locator | [bob-cli-go.2](bob-cli-go.2.md) | 2026-11-03 18:04:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-go.2--4][1] | Need phase scope and design before symbol check and close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.2.md
+
+<!-- sase:referenced-by:end -->

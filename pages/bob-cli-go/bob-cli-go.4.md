@@ -11,6 +11,10 @@
 
 merge-engine: implement plan_task_merge, which validates, cuts each source's notes into the container, re-points dependents, writes the relation or Cancel Log provenance, cancels, prunes today's links, offers the target, and reports, with idempotent re-runs and property tests.
 
+## Notes
+
+[2026-11-03T23:11:21Z · bob-cli-go.4] PROPOSED FOLLOW-UP: Parent design research reference is missing — audited read of research:202611/task_move_merge_split_design/task_move_merge_split_design.md returned status missing on 2026-11-03; plan:202611/task_move_merge_split.md and docs/task-merge.md remain available and sufficient for the engine plan. Land agent should repair the stale citation or restore the artifact.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.1](bob-cli-go.1.md) ✓ · ⧖ 2026-11-03
@@ -22,4 +26,4 @@ merge-engine: implement plan_task_merge, which validates, cuts each source's not
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-go.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4/README.md) | [bob-cli-go.4](bob-cli-go.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.md) | [bob-cli-go.4](bob-cli-go.4.md) | 0 |
