@@ -18,7 +18,7 @@ cli: implement the lone-header `note_pull` kind in the capture language and capt
 ## Dependencies
 
 - **Depends on:** [bob-cli-gj.1](bob-cli-gj.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-gj.3](bob-cli-gj.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-gj.3](bob-cli-gj.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
