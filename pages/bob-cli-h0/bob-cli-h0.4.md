@@ -22,7 +22,7 @@ cli-report: build the `move_choice` report from the staged parent, add `-m/--mov
 - **Depends on:** [bob-cli-h0.2](bob-cli-h0.2.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h0.3](bob-cli-h0.3.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h0.5](bob-cli-h0.5.md) ◐ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h0.7](bob-cli-h0.7.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.7](bob-cli-h0.7.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -35,3 +35,15 @@ cli-report: build the `move_choice` report from the staged parent, add `-m/--mov
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cf2e3c9`](https://github.com/bobs-org/bob-cli/commit/cf2e3c9f8b1b61a7bd20e9886e08446ef65ccd81) | feat(capture): add move\_choice report, -m/--move-in and refusals | [bob-cli-h0.4](bob-cli-h0.4.md) | 2026-11-04 12:58:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h0.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.4/README.md
+
+<!-- sase:referenced-by:end -->

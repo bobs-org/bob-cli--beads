@@ -15,7 +15,7 @@ mac-flow: open the Move card on Return ahead of Pull-In, send `--move-in`, chain
 
 - **Depends on:** [bob-cli-h0.5](bob-cli-h0.5.md) ◐ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h0.6](bob-cli-h0.6.md) ✓ · ⧖ 2026-11-04
-- **Depends on:** [bob-cli-h0.7](bob-cli-h0.7.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h0.7](bob-cli-h0.7.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
