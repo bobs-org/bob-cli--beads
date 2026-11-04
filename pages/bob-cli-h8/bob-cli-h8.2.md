@@ -19,7 +19,13 @@ plugin-sync-proof: in src/native/plugins/deploy.rs, let a clean-checkout sync ov
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.2/README.md) | [bob-cli-h8.2](bob-cli-h8.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-h8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.2/README.md) | [bob-cli-h8.2](bob-cli-h8.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d32e858`](https://github.com/bobs-org/bob-cli/commit/d32e858d581e5d2a4b7699dd622d0fb9cd518582) | feat(plugins)!: accept committed dirty deploys via inclusion proof | [bob-cli-h8.2](bob-cli-h8.2.md) | 2026-11-04 17:14:19 EST |
 
 <!-- sase:referenced-by:start -->
 

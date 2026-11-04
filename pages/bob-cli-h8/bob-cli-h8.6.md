@@ -19,13 +19,19 @@ highlights-tz-tests: the two highlights::overwrite_local failures (bob-cli-h6) a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h8.11](bob-cli-h8.11.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h8.11](bob-cli-h8.11.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.6/README.md) | [bob-cli-h8.6](bob-cli-h8.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-h8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.6/README.md) | [bob-cli-h8.6](bob-cli-h8.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`53bf947`](https://github.com/bobs-org/bob-cli/commit/53bf94721d638a02106ff7a142b216a4b80e2b7f) | test(highlights): pin overwrite timezone and document recapture stamp | [bob-cli-h8.6](bob-cli-h8.6.md) | 2026-11-04 17:12:34 EST |
 
 <!-- sase:referenced-by:start -->
 
