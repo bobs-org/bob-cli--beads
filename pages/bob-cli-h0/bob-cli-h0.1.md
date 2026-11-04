@@ -20,7 +20,7 @@ contract: write the `- ^^` contract into docs/capture.md and the reference pages
 ## Dependencies
 
 - **Blocks:** [bob-cli-h0.2](bob-cli-h0.2.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h0.3](bob-cli-h0.3.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h0.3](bob-cli-h0.3.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
