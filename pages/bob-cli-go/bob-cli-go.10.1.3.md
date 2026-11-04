@@ -24,7 +24,7 @@ transfer-moves: resolve and validate transfer identities, execute bare-note dest
 ## Dependencies
 
 - **Depends on:** [bob-cli-go.10.1.2](bob-cli-go.10.1.2.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -37,3 +37,15 @@ transfer-moves: resolve and validate transfer identities, execute bare-note dest
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b9fe9d0`](https://github.com/bobs-org/bob-cli/commit/b9fe9d0c1208ca4a4670c6e886060621116b6286) | feat(capture): implement transfer-moves planner with typed batch moves | [bob-cli-go.10.1.3](bob-cli-go.10.1.3.md) | 2026-11-04 04:07:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-go.10.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.10.1.3/README.md
+
+<!-- sase:referenced-by:end -->

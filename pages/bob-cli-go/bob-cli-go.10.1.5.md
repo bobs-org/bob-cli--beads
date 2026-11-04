@@ -13,7 +13,7 @@ transfer-delivery: publish quoted help and transfer contracts, regenerate docume
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-go.10.1.4](bob-cli-go.10.1.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
