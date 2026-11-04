@@ -13,7 +13,7 @@ mac-transfer-card: replace the monospace transfer bands and the wire-word standa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h4.2](bob-cli-h4.2.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h4.2](bob-cli-h4.2.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h4.5](bob-cli-h4.5.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
