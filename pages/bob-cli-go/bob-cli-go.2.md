@@ -18,7 +18,7 @@ foundation: extract the move engine's fragment cut, re-indent, anchor-rename, an
 ## Dependencies
 
 - **Blocks:** [bob-cli-go.3](bob-cli-go.3.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.4](bob-cli-go.4.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.4](bob-cli-go.4.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

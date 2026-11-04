@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_move_merge_split.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_move_merge_split.md
 
@@ -39,6 +39,8 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 
 [2026-11-04T03:39:50Z · bob-cli-gl.land] DISCOVERED ISSUE corroboration from bob-cli-gl.land (proposed by bob-cli-gl.7 note #1 and bob-cli-gl.5.1.3 note #1): on master d19a8d92, 'just docs-gen' and 'uv run --project tools/docs bob-docs check' still pass lint and then exit 2 with 'sase/memory/glossary/task-merge.md: memory strand has no front matter'. Same causal defect as go notes #1-#5 (accepted glossary output from aac3947c); no separate task, and gl made no memory edits (its DECISIONS forbid them).
 
+[2026-11-04T03:48:45Z · bob-cli-gm.land] DISCOVERED ISSUE corroboration from bob-cli-gm.land: PROPOSED FOLLOW-UP notes gm.2 #1, gm.3 #2, and gm.1.1.4 #1 all identify the same task-merge glossary format failure already in go notes #1-6. On clean 66828cfd, uv run --project tools/docs bob-docs gen --check exits 2 with memory strand has no front matter for sase/memory/glossary/task-merge.md. Read go and go.13; accepted glossary output remains active go work. Same-type and all-type task searches and last-week task sweep found no separate matching task. No new task or memory edit.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,9 +52,9 @@ Bryan can move tasks between notes, merge tasks into another task, drawer, or no
 | [bob-cli-go.13](bob-cli-go.13.md) | Live verification, cross-links, and accepted memory | ◐ in_progress | small | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.2](bob-cli-go.2.md) | Fragment transplant, task-children classifier, drawer ensure, and task locators | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-go.3](bob-cli-go.3.md) | Rust split planner and \`bob task split\` | ✓ closed | medium | 2026-11-03 | 1 | 1 |
-| [bob-cli-go.4](bob-cli-go.4.md) | Rust merge engine for task, drawer, and section containers | ◐ in_progress | large | 2026-11-03 | 1 | 0 |
+| [bob-cli-go.4](bob-cli-go.4.md) | Rust merge engine for task, drawer, and section containers | ✓ closed | large | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.5](bob-cli-go.5.md) | \`bob task merge\` and \`bob task move -t\` | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
-| [bob-cli-go.6](bob-cli-go.6.md) | Configurable merge labels in config, capture \`~\`/\`~~\`, and completion | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [bob-cli-go.6](bob-cli-go.6.md) | Configurable merge labels in config, capture \`~\`/\`~~\`, and completion | ○ open | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.7](bob-cli-go.7.md) | Obsidian Ctrl+Shift+T split — JS twin and cursor gestures | ✓ closed | medium | 2026-11-03 | 1 | 0 |
 | [bob-cli-go.8](bob-cli-go.8.md) | Split picker, section promotion, cross-note splits, and Undo notices | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [bob-cli-go.9](bob-cli-go.9.md) | Merge through the Obsidian Links stage | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
@@ -69,13 +71,13 @@ flowchart TD
     n5["bob-cli-go.13: Live verification, cross-links, and accepted memory [in_progress]"]
     n6["bob-cli-go.2: Fragment transplant, task-children classifier, drawer ensure, and task locators [closed]"]
     n7["bob-cli-go.3: Rust split planner and `bob task split` [closed]"]
-    n8["bob-cli-go.4: Rust merge engine for task, drawer, and section containers [in_progress]"]
-    n9["bob-cli-go.4.1: Rust task merge engine for bob-cli-go.4 [in_progress]"]
+    n8["bob-cli-go.4: Rust merge engine for task, drawer, and section containers [closed]"]
+    n9["bob-cli-go.4.1: Rust task merge engine for bob-cli-go.4 [closed]"]
     n10["bob-cli-go.4.1.1: Resolve merge containers and transplant authored payloads [closed]"]
     n11["bob-cli-go.4.1.2: Repoint dependencies and retire sources with provenance [closed]"]
     n12["bob-cli-go.4.1.3: Compose ledger offers and finish the merge planner contract [closed]"]
     n13["bob-cli-go.5: `bob task merge` and `bob task move -t` [in_progress]"]
-    n14["bob-cli-go.6: Configurable merge labels in config, capture `~`/`~~`, and completion [in_progress]"]
+    n14["bob-cli-go.6: Configurable merge labels in config, capture `~`/`~~`, and completion [open]"]
     n15["bob-cli-go.7: Obsidian Ctrl+Shift+T split — JS twin and cursor gestures [closed]"]
     n16["bob-cli-go.8: Split picker, section promotion, cross-note splits, and Undo notices [closed]"]
     n17["bob-cli-go.9: Merge through the Obsidian Links stage [in_progress]"]
@@ -133,7 +135,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-go.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.1.md) | [bob-cli-go.4.1.1](bob-cli-go.4.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-go.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.2/README.md) | [bob-cli-go.4.1.2](bob-cli-go.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.3.md) | [bob-cli-go.4.1.3](bob-cli-go.4.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-go.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.land/README.md) | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-go.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md) | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-go.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.5/README.md) | [bob-cli-go.5](bob-cli-go.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.6/README.md) | [bob-cli-go.6](bob-cli-go.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-go.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md) | [bob-cli-go.7](bob-cli-go.7.md) | 0 |
@@ -153,6 +155,7 @@ flowchart TD
 | bob-cli | [`751c769`](https://github.com/bobs-org/bob-cli/commit/751c769f02147873f0b2d2dacf092636e9190ec7) | feat(task-merge)!: retire sources with repointing and provenance | [bob-cli-go.4.1.2](bob-cli-go.4.1.2.md) | 2026-11-03 20:33:26 EST |
 | bob-cli | [`a3d44f2`](https://github.com/bobs-org/bob-cli/commit/a3d44f27e75654561673ad1ce8ac71e76a26993c) | feat(task-split): complete picker and guarded undo | [bob-cli-go.8](bob-cli-go.8.md) | 2026-11-03 21:00:29 EST |
 | bob-cli | [`e253ce1`](https://github.com/bobs-org/bob-cli/commit/e253ce17c96fe2ce485931e841f18c8fbedccf0b) | feat(task-merge): complete planner integration | [bob-cli-go.4.1.3](bob-cli-go.4.1.3.md) | 2026-11-03 22:19:57 EST |
+| bob-cli--plans | [`bob-cli--plans@4c6e638`](https://github.com/bobs-org/bob-cli--plans/commit/4c6e6383157ffca1e37f3ca2fd0cd4abdaf87f37) | docs(plan): mark task merge engine complete | [bob-cli-go.4.1](bob-cli-go.4.1.md) | 2026-11-04 00:20:51 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -160,14 +163,16 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-gn.land--2][1] | Confirm the cached docs-check memory-frontmatter issue was routed to its active epic | 1 |
-| read-by | [agent:bob-cli-go.1][2] | Need epic DECISIONS and scope for phase 1 | 1 |
-| read-by | [agent:bob-cli-go.7][3] | parent epic context | 1 |
-| read-by | [agent:bob-cli-go.8][4] | Check whether the clean-base glossary/task-merge docs failure is already tracked before recording the phase follow-up | 1 |
+| read-by | [agent:bob-cli-gl.land][1] | Check whether the glossary task-merge front-matter docs-gen failure is still tracked | 1 |
+| read-by | [agent:bob-cli-gn.land--2][2] | Confirm the cached docs-check memory-frontmatter issue was routed to its active epic | 1 |
+| read-by | [agent:bob-cli-go.1][3] | Need epic DECISIONS and scope for phase 1 | 1 |
+| read-by | [agent:bob-cli-go.7][4] | parent epic context | 1 |
+| read-by | [agent:bob-cli-go.8][5] | Check whether the clean-base glossary/task-merge docs failure is already tracked before recording the phase follow-up | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gn.land.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.1/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-gl.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gn.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.8/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ retirement: add snapshot-only dependency repointing and cycle validation, relati
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-gl.5.1.3--1][1] | Check whether the active task-merge integration phase owns the baseline unused preparation import | 1 |
 | read-by | [agent:bob-cli-go.4.1.2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-go.4.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-gl.5.1.3.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-go.4.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-go.4.1.land.md
 
 <!-- sase:referenced-by:end -->
