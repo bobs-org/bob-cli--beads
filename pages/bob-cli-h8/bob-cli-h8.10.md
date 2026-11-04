@@ -13,7 +13,7 @@ brief-still-open: apply the chosen bob-cli-gu semantics so a past period's Still
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h8.9](bob-cli-h8.9.md) ○ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h8.9](bob-cli-h8.9.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

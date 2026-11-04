@@ -17,7 +17,7 @@ brief-attribution: in src/native/periods/brief.rs, resolve original and done/ ar
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h8.9](bob-cli-h8.9.md) ○ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h8.9](bob-cli-h8.9.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
