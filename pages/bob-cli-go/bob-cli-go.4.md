@@ -24,7 +24,7 @@ merge-engine: implement plan_task_merge, which validates, cuts each source's not
 - **Depends on:** [bob-cli-go.1](bob-cli-go.1.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [bob-cli-go.2](bob-cli-go.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [bob-cli-go.5](bob-cli-go.5.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [bob-cli-go.6](bob-cli-go.6.md) ○ · ⧖ 2026-11-03
+- **Blocks:** [bob-cli-go.6](bob-cli-go.6.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
