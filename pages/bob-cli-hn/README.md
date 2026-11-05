@@ -1,0 +1,81 @@
+# Bead: bob-cli-hn — Successor card verdicts — mark offers Done or Cancel from the card
+
+[Bead Pages](../README.md) / bob-cli-hn
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.191](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.191/README.md) · **Assignee:** `bob-cli-hn.land`
+**Created:** 2026-11-05 18:41:46 EST
+**Plan:** [202611/successor\_card\_verdicts.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/successor_card_verdicts.md)
+
+## Description
+
+While reviewing a successor card in Obsidian, in Bob Mac Capture, or through `bob capture`, Bryan can stage Done (Ctrl+X) or Cancel (Ctrl+Shift+X, with an optional inline reason) on any eligible offer row. Those verdicts apply together with pull-ins in the gesture's existing write pass. The engine reports eligibility and consequences, closes are root-only, cascades are recover-only, failures are reported honestly, and the card uses Bob's existing ✓/⊘ visual grammar.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-hn.1](bob-cli-hn.1.md) | Contract, vectors table, and decision record | ✓ closed | medium | 2026-11-05 | 1 | 1 |
+| [bob-cli-hn.2](bob-cli-hn.2.md) | Rust offer-close engine and per-row close descriptors | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.3](bob-cli-hn.3.md) | bob capture -x/-X flags, batch post-pass, and receipts | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.4](bob-cli-hn.4.md) | Obsidian successor picker verdict UI (api.successors v4) | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.5](bob-cli-hn.5.md) | Nav cancel API v1 and Unblocked notice v4 | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.6](bob-cli-hn.6.md) | Cycler eligibility, verdict apply step, receipts, and undo | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.7](bob-cli-hn.7.md) | Verdicts on the Obsidian project-promotion card | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.8](bob-cli-hn.8.md) | CaptureCore decoding, outcome model, argv, and fixtures | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.9](bob-cli-hn.9.md) | Mac Pull-In card verdict UI | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-hn: Successor card verdicts — mark offers Done or Cancel from the card [in_progress]"]
+    n1["bob-cli-hn.1: Contract, vectors table, and decision record [closed]"]
+    n2["bob-cli-hn.2: Rust offer-close engine and per-row close descriptors [in_progress]"]
+    n3["bob-cli-hn.3: bob capture -x/-X flags, batch post-pass, and receipts [in_progress]"]
+    n4["bob-cli-hn.4: Obsidian successor picker verdict UI (api.successors v4) [in_progress]"]
+    n5["bob-cli-hn.5: Nav cancel API v1 and Unblocked notice v4 [in_progress]"]
+    n6["bob-cli-hn.6: Cycler eligibility, verdict apply step, receipts, and undo [in_progress]"]
+    n7["bob-cli-hn.7: Verdicts on the Obsidian project-promotion card [in_progress]"]
+    n8["bob-cli-hn.8: CaptureCore decoding, outcome model, argv, and fixtures [in_progress]"]
+    n9["bob-cli-hn.9: Mac Pull-In card verdict UI [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n0 --> n8
+    n0 --> n9
+    n1 -.-> n2
+    n1 -.-> n4
+    n2 -.-> n3
+    n2 -.-> n6
+    n3 -.-> n8
+    n4 -.-> n5
+    n5 -.-> n6
+    n6 -.-> n7
+    n8 -.-> n9
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-hn.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.1/README.md) | [bob-cli-hn.1](bob-cli-hn.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-hn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.2/README.md) | [bob-cli-hn.2](bob-cli-hn.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md) | [bob-cli-hn.3](bob-cli-hn.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md) | [bob-cli-hn.4](bob-cli-hn.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.5/README.md) | [bob-cli-hn.5](bob-cli-hn.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6/README.md) | [bob-cli-hn.6](bob-cli-hn.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.9/README.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.land/README.md) | [bob-cli-hn](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`723af32`](https://github.com/bobs-org/bob-cli/commit/723af3246886bd84fba1899a4aa19f280314ca05) | feat(docs): define successor offer verdict contract | [bob-cli-hn.1](bob-cli-hn.1.md) | 2026-11-05 18:56:31 EST |
