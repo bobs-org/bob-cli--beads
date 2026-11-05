@@ -30,10 +30,4 @@ bob-close-and-naming: close names settle to the worked types and the continuatio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.6/README.md) | [bob-cli-hd.6](bob-cli-hd.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`bfd7b00`](https://github.com/bobs-org/bob-cli/commit/bfd7b00570d4eaea7eb6a2ff8021b9a1186619c8) | feat(capture)!: settle close names and retype tasks landing in created entries | [bob-cli-hd.6](bob-cli-hd.6.md) | 2026-11-05 13:07:49 EST |
+| [bbugyi200.athena.bob-cli-hd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.6/README.md) | [bob-cli-hd.6](bob-cli-hd.6.md) | 0 |

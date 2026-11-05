@@ -18,14 +18,20 @@ ledger-tools-mirror: copy the vectors, mirror `agreeEntry`, `settleClosed`, and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-hd.2](bob-cli-hd.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hd.7](bob-cli-hd.7.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hd.7](bob-cli-hd.7.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.8](bob-cli-hd.8.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.4.md) | [bob-cli-hd.4](bob-cli-hd.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-hd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.4.md) | [bob-cli-hd.4](bob-cli-hd.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b5bdd73`](https://github.com/bobs-org/bob-plugins/commit/b5bdd7354ab8acb7c05fc85ab1472d6aba42c84f) | feat(bob-ledger-tools): mirror ledger agree/settle planners, async api.themes applier, and inherited type marks | [bob-cli-hd.4](bob-cli-hd.4.md) | 2026-11-05 12:00:11 EST |
 
 <!-- sase:referenced-by:start -->
 
