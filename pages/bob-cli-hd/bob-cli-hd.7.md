@@ -21,4 +21,4 @@ nav-writers: agree every open entry that a deferred link cleanup, Ctrl+Shift+M s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.7/README.md) | [bob-cli-hd.7](bob-cli-hd.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-hd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.7.md) | [bob-cli-hd.7](bob-cli-hd.7.md) | 0 |
