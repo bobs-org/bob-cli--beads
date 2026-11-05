@@ -25,7 +25,13 @@ plugin-tests: in bob-plugins, fix the six test-harness defects behind bob-cli-eh
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.1.md) | [bob-cli-h8.1](bob-cli-h8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-h8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.1.md) | [bob-cli-h8.1](bob-cli-h8.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d4ae2d3`](https://github.com/bobs-org/bob-plugins/commit/d4ae2d326a1da0622ac2e813a3c021fd36529f1d) | test: stabilize bob-plugins test harnesses | [bob-cli-h8.1](bob-cli-h8.1.md) | 2026-11-04 17:40:50 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -18,13 +18,19 @@ cycler-keeps-timed-close: apply the chosen bob-cli-g4 policy. By default, remove
 ## Dependencies
 
 - **Depends on:** [bob-cli-h8.1](bob-cli-h8.1.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h8.13](bob-cli-h8.13.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h8.13](bob-cli-h8.13.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-h8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.8/README.md) | [bob-cli-h8.8](bob-cli-h8.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-h8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.8/README.md) | [bob-cli-h8.8](bob-cli-h8.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@90ea50e`](https://github.com/bobs-org/bob-plugins/commit/90ea50e3337319292898fd542a3760dd7bb48aa5) | feat(task-status-cycler)!: keep the closed timed row on a deferred-only close | [bob-cli-h8.8](bob-cli-h8.8.md) | 2026-11-04 17:57:20 EST |
 
 <!-- sase:referenced-by:start -->
 
