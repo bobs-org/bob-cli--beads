@@ -15,7 +15,7 @@ memory-records: through /sase_memory_write, add the new decisions strand, mark o
 
 - **Depends on:** [bob-cli-hc.1](bob-cli-hc.1.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hc.2](bob-cli-hc.2.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hc.3](bob-cli-hc.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hc.3](bob-cli-hc.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
