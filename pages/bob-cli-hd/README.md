@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.7.md) | [bob-cli-hd.7](bob-cli-hd.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-hd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.8.md) | [bob-cli-hd.8](bob-cli-hd.8.md) | 2 |
 | [bbugyi200.athena.bob-cli-hd.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.9/README.md) | [bob-cli-hd.9](bob-cli-hd.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-hd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.land/README.md) | [bob-cli-hd](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-hd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.land/README.md) | [bob-cli-hd](README.md) | 2 |
 
 ## Commits
 
@@ -113,6 +113,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7b7c52f`](https://github.com/bobs-org/bob-plugins/commit/7b7c52f10f42f1b38553e991a0750852d2a46761) | chore(ledger-tools): resync pomodoro theme vectors with bob-cli | [bob-cli-hd.9](bob-cli-hd.9.md) | 2026-11-05 13:24:28 EST |
 | bob-cli | [`58e9855`](https://github.com/bobs-org/bob-cli/commit/58e98558fb2c85c438ab866d992123531a90ed53) | docs(memory): link merged-Pomodoro strand to names-follow-types decision and regen glossary | [bob-cli-hd.9](bob-cli-hd.9.md) | 2026-11-05 13:38:12 EST |
 | bob-cli | [`5235d29`](https://github.com/bobs-org/bob-cli/commit/5235d2927739e4839f8cd327a749113f332d9182) | fix(task-types): land Pomodoro name agreement with green gates | [bob-cli-hd](README.md) | 2026-11-05 14:37:52 EST |
+| bob-cli--plans | [`bob-cli--plans@16d3c79`](https://github.com/bobs-org/bob-cli--plans/commit/16d3c79c13889897d6c1bdb382da6a520c0aca56) | chore(plans): mark pomodoro\_names\_follow\_task\_types done | [bob-cli-hd](README.md) | 2026-11-05 14:38:14 EST |
 
 <!-- sase:referenced-by:start -->
 
