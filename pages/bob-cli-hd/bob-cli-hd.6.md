@@ -45,7 +45,11 @@ bob-close-and-naming: close names settle to the worked types and the continuatio
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hd.6][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-hd.9][2] | Check recorded follow-up notes for pre-existing test failures | 1 |
+| read-by | [agent:bob-cli-he.6][3] | check existing follow-up tracking for plan budget JSON test failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.9/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.6/README.md
 
 <!-- sase:referenced-by:end -->

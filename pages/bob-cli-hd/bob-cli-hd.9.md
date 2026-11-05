@@ -38,3 +38,15 @@ audit-and-records: check the shared vectors are byte-identical, make the routing
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7b7c52f`](https://github.com/bobs-org/bob-plugins/commit/7b7c52f10f42f1b38553e991a0750852d2a46761) | chore(ledger-tools): resync pomodoro theme vectors with bob-cli | [bob-cli-hd.9](bob-cli-hd.9.md) | 2026-11-05 13:24:28 EST |
 | bob-cli | [`58e9855`](https://github.com/bobs-org/bob-cli/commit/58e98558fb2c85c438ab866d992123531a90ed53) | docs(memory): link merged-Pomodoro strand to names-follow-types decision and regen glossary | [bob-cli-hd.9](bob-cli-hd.9.md) | 2026-11-05 13:38:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hd.9][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.9/README.md
+
+<!-- sase:referenced-by:end -->
