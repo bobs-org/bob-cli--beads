@@ -36,3 +36,15 @@ bob-transfer-records: add status names, target status, container-created flags, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`029b426`](https://github.com/bobs-org/bob-cli/commit/029b426601d6ef840e33cc24e1472b3a985ef7fe) | feat(capture): enrich merge and move records, serialize merge offers, fix copy | [bob-cli-h4.2](bob-cli-h4.2.md) | 2026-11-04 16:07:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h4.2][1] | Need phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -34,3 +34,17 @@ bob-landing-blocks: make every capture `>` transfer report batch-level `task_blo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`decd465`](https://github.com/bobs-org/bob-cli/commit/decd465c2f2f0f2f1dbea7feb444e28c97a2751c) | feat(capture): emit transfer landing blocks | [bob-cli-h4.1](bob-cli-h4.1.md) | 2026-11-04 15:59:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h4.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-h4.2][2] | Check sibling phase status for coordination | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.2/README.md
+
+<!-- sase:referenced-by:end -->
