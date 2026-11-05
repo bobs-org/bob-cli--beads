@@ -13,7 +13,7 @@ decision: author the accepted decisions strand that records segment placement, o
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hj.3](bob-cli-hj.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hj.3](bob-cli-hj.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

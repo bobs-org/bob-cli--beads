@@ -21,7 +21,7 @@ grammar: lex the optional suffix at the end of E, carry it on PomodoroPastSpec, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hj.3](bob-cli-hj.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hj.3](bob-cli-hj.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -34,3 +34,15 @@ grammar: lex the optional suffix at the end of E, carry it on PomodoroPastSpec, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6e81677`](https://github.com/bobs-org/bob-cli/commit/6e816775f0252b6bd68af2900699e6bd537168fb) | feat(capture): segment suffix lexer, pins, spans, and teaching errors | [bob-cli-hj.2](bob-cli-hj.2.md) | 2026-11-05 16:59:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hj.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.2/README.md
+
+<!-- sase:referenced-by:end -->

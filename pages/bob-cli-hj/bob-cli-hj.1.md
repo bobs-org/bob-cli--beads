@@ -19,7 +19,7 @@ timeline: add a pure pomodoro_timeline module that turns today's ledger into num
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hj.3](bob-cli-hj.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hj.3](bob-cli-hj.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
