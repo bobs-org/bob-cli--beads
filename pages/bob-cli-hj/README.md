@@ -28,7 +28,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-hj.1](bob-cli-hj.1.md) | Timeline catalog and pinned layout engine | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hj.2](bob-cli-hj.2.md) | Segment suffix lexer, pins, spans, and teaching errors | ○ open | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hj.2](bob-cli-hj.2.md) | Segment suffix lexer, pins, spans, and teaching errors | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hj.3](bob-cli-hj.3.md) | Record pinned runs end to end and ship grammar 14 | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hj.4](bob-cli-hj.4.md) | Segment picker, dash-to-tilde rewrite, and submit guards | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hj.5](bob-cli-hj.5.md) | Decision record for segment placement | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
@@ -40,7 +40,7 @@
 flowchart TD
     n0["bob-cli-hj: Place past Pomodoros on today's timeline with the x= segment suffix [in_progress]"]
     n1["bob-cli-hj.1: Timeline catalog and pinned layout engine [closed]"]
-    n2["bob-cli-hj.2: Segment suffix lexer, pins, spans, and teaching errors [open]"]
+    n2["bob-cli-hj.2: Segment suffix lexer, pins, spans, and teaching errors [closed]"]
     n3["bob-cli-hj.3: Record pinned runs end to end and ship grammar 14 [in_progress]"]
     n4["bob-cli-hj.4: Segment picker, dash-to-tilde rewrite, and submit guards [in_progress]"]
     n5["bob-cli-hj.5: Decision record for segment placement [in_progress]"]
@@ -63,7 +63,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-hj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.1/README.md) | [bob-cli-hj.1](bob-cli-hj.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-hj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.2/README.md) | [bob-cli-hj.2](bob-cli-hj.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-hj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.2/README.md) | [bob-cli-hj.2](bob-cli-hj.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-hj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.3/README.md) | [bob-cli-hj.3](bob-cli-hj.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-hj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.4/README.md) | [bob-cli-hj.4](bob-cli-hj.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-hj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.5/README.md) | [bob-cli-hj.5](bob-cli-hj.5.md) | 0 |
@@ -75,3 +75,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ae33095`](https://github.com/bobs-org/bob-cli/commit/ae330951b597c55360a854674bf5ba2f775411c1) | feat(capture): add timeline catalog and pinned layout engine | [bob-cli-hj.1](bob-cli-hj.1.md) | 2026-11-05 16:51:13 EST |
+| bob-cli | [`6e81677`](https://github.com/bobs-org/bob-cli/commit/6e816775f0252b6bd68af2900699e6bd537168fb) | feat(capture): segment suffix lexer, pins, spans, and teaching errors | [bob-cli-hj.2](bob-cli-hj.2.md) | 2026-11-05 16:59:22 EST |

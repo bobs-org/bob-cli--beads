@@ -32,3 +32,15 @@ timeline: add a pure pomodoro_timeline module that turns today's ledger into num
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ae33095`](https://github.com/bobs-org/bob-cli/commit/ae330951b597c55360a854674bf5ba2f775411c1) | feat(capture): add timeline catalog and pinned layout engine | [bob-cli-hj.1](bob-cli-hj.1.md) | 2026-11-05 16:51:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hj.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.1/README.md
+
+<!-- sase:referenced-by:end -->

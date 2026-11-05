@@ -14,7 +14,7 @@ record: wire the timeline and layout into plan.rs for pinned runs (snapshot firs
 ## Dependencies
 
 - **Depends on:** [bob-cli-hj.1](bob-cli-hj.1.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hj.2](bob-cli-hj.2.md) ○ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hj.2](bob-cli-hj.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hj.4](bob-cli-hj.4.md) ◐ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hj.5](bob-cli-hj.5.md) ◐ · ⧖ 2026-11-05
 
