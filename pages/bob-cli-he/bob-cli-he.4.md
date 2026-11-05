@@ -13,7 +13,7 @@ mac-card: in bob-mac-capture, decode clip.history tolerantly, show provider and 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-he.3](bob-cli-he.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-he.3](bob-cli-he.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

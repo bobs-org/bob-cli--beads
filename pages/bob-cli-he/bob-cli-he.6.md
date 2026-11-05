@@ -13,7 +13,7 @@ read-hardening: share one live read and one largest-count history read per captu
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-he.3](bob-cli-he.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-he.3](bob-cli-he.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-he.7](bob-cli-he.7.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

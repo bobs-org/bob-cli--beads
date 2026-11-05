@@ -22,7 +22,7 @@ agreement: replace the lag-tolerant merge with the bounded-wait agreement check,
 ## Dependencies
 
 - **Depends on:** [bob-cli-he.1](bob-cli-he.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-he.3](bob-cli-he.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-he.3](bob-cli-he.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-he.5](bob-cli-he.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
