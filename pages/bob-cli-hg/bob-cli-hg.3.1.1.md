@@ -19,7 +19,7 @@ mime-model: add the verified gog thread envelope, typed messages and MIME parts,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

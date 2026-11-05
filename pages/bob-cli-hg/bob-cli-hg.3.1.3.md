@@ -13,7 +13,7 @@ html-body: add the HTML5 DOM walker, quote and signature extraction, data-table 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hg.3.1.4](bob-cli-hg.3.1.4.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
