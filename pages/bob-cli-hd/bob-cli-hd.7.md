@@ -21,7 +21,7 @@ nav-writers: agree every open entry that a deferred link cleanup, Ctrl+Shift+M s
 
 - **Depends on:** [bob-cli-hd.1](bob-cli-hd.1.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hd.4](bob-cli-hd.4.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hd.9](bob-cli-hd.9.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hd.9](bob-cli-hd.9.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -34,3 +34,15 @@ nav-writers: agree every open entry that a deferred link cleanup, Ctrl+Shift+M s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8e82734`](https://github.com/bobs-org/bob-plugins/commit/8e82734121e803c42260ee6bcf3c1cdebd1e5b81) | fix(navigation): keep Pomodoro entry names aligned | [bob-cli-hd.7](bob-cli-hd.7.md) | 2026-11-05 13:10:08 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hd.7--3][1] | Need current phase scope, notes, decisions, and design reference for closeout | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.7.md
+
+<!-- sase:referenced-by:end -->

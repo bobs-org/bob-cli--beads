@@ -24,10 +24,28 @@ bob-close-and-naming: close names settle to the worked types and the continuatio
 ## Dependencies
 
 - **Depends on:** [bob-cli-hd.5](bob-cli-hd.5.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hd.9](bob-cli-hd.9.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hd.9](bob-cli-hd.9.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.6/README.md) | [bob-cli-hd.6](bob-cli-hd.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-hd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.6/README.md) | [bob-cli-hd.6](bob-cli-hd.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`bfd7b00`](https://github.com/bobs-org/bob-cli/commit/bfd7b00570d4eaea7eb6a2ff8021b9a1186619c8) | feat(capture)!: settle close names and retype tasks landing in created entries | [bob-cli-hd.6](bob-cli-hd.6.md) | 2026-11-05 13:07:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hd.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.6/README.md
+
+<!-- sase:referenced-by:end -->
