@@ -20,7 +20,7 @@ past-grammar: glued past lexer and teaching errors, spaced-literal merge, past s
 ## Dependencies
 
 - **Depends on:** [bob-cli-ha.1](bob-cli-ha.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-ha.3](bob-cli-ha.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-ha.3](bob-cli-ha.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -33,3 +33,15 @@ past-grammar: glued past lexer and teaching errors, spaced-literal merge, past s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d012e78`](https://github.com/bobs-org/bob-cli/commit/d012e782bd3b399021027e58f833ed7ce31bd298) | feat(capture)!: glue past timing to the Pomodoro name | [bob-cli-ha.2](bob-cli-ha.2.md) | 2026-11-05 09:29:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ha.2][1] | check status | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ha.2/README.md
+
+<!-- sase:referenced-by:end -->

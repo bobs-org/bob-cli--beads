@@ -18,7 +18,7 @@ start-grammar: new bare-name rule, glued start lexer with retired-spelling teach
 ## Dependencies
 
 - **Blocks:** [bob-cli-ha.2](bob-cli-ha.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-ha.3](bob-cli-ha.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-ha.3](bob-cli-ha.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-ha.4](bob-cli-ha.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents

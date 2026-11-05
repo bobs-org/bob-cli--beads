@@ -25,7 +25,13 @@ mac-agenda-hints: render bob's start_token for Later entries, update the empty-s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ha.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.4.md) | [bob-cli-ha.4](bob-cli-ha.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ha.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.4.md) | [bob-cli-ha.4](bob-cli-ha.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli--plans | [`bob-cli--plans@e1faa69`](https://github.com/bobs-org/bob-cli--plans/commit/e1faa69e2ed28fe8d1e37be27a46ad03514baa61) | chore(plans): record reviewer decision selections | [bob-cli-ha.4](bob-cli-ha.4.md) | 2026-11-05 09:19:23 EST |
 
 <!-- sase:referenced-by:start -->
 
