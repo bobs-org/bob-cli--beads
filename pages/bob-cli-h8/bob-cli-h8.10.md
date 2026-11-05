@@ -34,3 +34,15 @@ brief-still-open: apply the chosen bob-cli-gu semantics so a past period's Still
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a3aa214`](https://github.com/bobs-org/bob-cli/commit/a3aa2149bced74d8e98090a89e5d5d954deb8411) | feat(periods): rebuild brief Still open for ended periods | [bob-cli-h8.10](bob-cli-h8.10.md) | 2026-11-04 19:18:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h8.10][1] | Need full bead including notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.10/README.md
+
+<!-- sase:referenced-by:end -->

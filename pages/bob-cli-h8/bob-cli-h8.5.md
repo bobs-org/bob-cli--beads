@@ -37,8 +37,14 @@ mac-ci-green: fix the root causes of the bob-cli-h7 Go To failures: the backslas
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-h8.5--5][1] | Need notes and remaining scope after failed gate | 3 |
+| read-by | [agent:bob-cli-h2.land][1] | Check whether MoveThenPullIn failure was already triaged | 1 |
+| read-by | [agent:bob-cli-h4.4--5][2] | Check whether the previously closed Mac CI green phase already owns these exact editor and separator failures | 1 |
+| read-by | [agent:bob-cli-h8.5--5][3] | Need notes and remaining scope after failed gate | 3 |
+| read-by | [agent:cl--1][4] | Check the existing CI-green phase for the repeated baseline failures before adding evidence | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.5.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h2.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.4.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.5.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.cl.md
 
 <!-- sase:referenced-by:end -->
