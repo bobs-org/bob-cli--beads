@@ -36,8 +36,8 @@ When Bryan types a `>` transfer line (`@a+x @b+y > @c…`) in Bob Mac Capture, t
 | [bob-cli-h4.1](bob-cli-h4.1.md) | bob emits landing blocks for transfers (target, tombstones, moved tasks, sections) | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [bob-cli-h4.2](bob-cli-h4.2.md) | bob enriches merge and move records, serializes merge offers, and fixes their copy | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [bob-cli-h4.3](bob-cli-h4.3.md) | bob describes an unfinished transfer on dry run | ✓ closed | small | 2026-11-04 | 1 | 1 |
-| [bob-cli-h4.4](bob-cli-h4.4.md) | Mac transfer card, status line, offers, notifications, and VoiceOver | ◐ in_progress | medium | 2026-11-04 | 1 | 1 |
-| [bob-cli-h4.5](bob-cli-h4.5.md) | Mac landing cards for target, tombstones, moved tasks, and sections | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
+| [bob-cli-h4.4](bob-cli-h4.4.md) | Mac transfer card, status line, offers, notifications, and VoiceOver | ✓ closed | medium | 2026-11-04 | 1 | 1 |
+| [bob-cli-h4.5](bob-cli-h4.5.md) | Mac landing cards for target, tombstones, moved tasks, and sections | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [bob-cli-h4.6](bob-cli-h4.6.md) | Mac calm pending card and transfer refusal card | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
 
 ## Lineage
@@ -48,8 +48,8 @@ flowchart TD
     n1["bob-cli-h4.1: bob emits landing blocks for transfers (target, tombstones, moved tasks, sections) [closed]"]
     n2["bob-cli-h4.2: bob enriches merge and move records, serializes merge offers, and fixes their copy [closed]"]
     n3["bob-cli-h4.3: bob describes an unfinished transfer on dry run [closed]"]
-    n4["bob-cli-h4.4: Mac transfer card, status line, offers, notifications, and VoiceOver [in_progress]"]
-    n5["bob-cli-h4.5: Mac landing cards for target, tombstones, moved tasks, and sections [in_progress]"]
+    n4["bob-cli-h4.4: Mac transfer card, status line, offers, notifications, and VoiceOver [closed]"]
+    n5["bob-cli-h4.5: Mac landing cards for target, tombstones, moved tasks, and sections [closed]"]
     n6["bob-cli-h4.6: Mac calm pending card and transfer refusal card [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-h4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.2/README.md) | [bob-cli-h4.2](bob-cli-h4.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.3/README.md) | [bob-cli-h4.3](bob-cli-h4.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.4.md) | [bob-cli-h4.4](bob-cli-h4.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-h4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.5/README.md) | [bob-cli-h4.5](bob-cli-h4.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-h4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.5/README.md) | [bob-cli-h4.5](bob-cli-h4.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.6/README.md) | [bob-cli-h4.6](bob-cli-h4.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-h4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.land/README.md) | [bob-cli-h4](README.md) | 0 |
 
@@ -88,6 +88,7 @@ flowchart TD
 | bob-cli | [`decd465`](https://github.com/bobs-org/bob-cli/commit/decd465c2f2f0f2f1dbea7feb444e28c97a2751c) | feat(capture): emit transfer landing blocks | [bob-cli-h4.1](bob-cli-h4.1.md) | 2026-11-04 15:59:06 EST |
 | bob-cli | [`029b426`](https://github.com/bobs-org/bob-cli/commit/029b426601d6ef840e33cc24e1472b3a985ef7fe) | feat(capture): enrich merge and move records, serialize merge offers, fix copy | [bob-cli-h4.2](bob-cli-h4.2.md) | 2026-11-04 16:07:48 EST |
 | bob-mac-capture | [`bob-mac-capture@e9dc5bd`](https://github.com/bobs-org/bob-mac-capture/commit/e9dc5bd91253cf0ad09671eb8c724cb5a37453a5) | feat(capture): render transfer previews as cards | [bob-cli-h4.4](bob-cli-h4.4.md) | 2026-11-04 19:42:16 EST |
+| bob-mac-capture | [`bob-mac-capture@dd4a8bf`](https://github.com/bobs-org/bob-mac-capture/commit/dd4a8bf909da9d10ba53253f579363722a9460cc) | feat(capture): render transfer landing cards | [bob-cli-h4.5](bob-cli-h4.5.md) | 2026-11-05 07:31:42 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -14,7 +14,7 @@ mac-pending-and-refusals: never flash red while a transfer destination is unfini
 ## Dependencies
 
 - **Depends on:** [bob-cli-h4.3](bob-cli-h4.3.md) ✓ · ⧖ 2026-11-04
-- **Depends on:** [bob-cli-h4.5](bob-cli-h4.5.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h4.5](bob-cli-h4.5.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

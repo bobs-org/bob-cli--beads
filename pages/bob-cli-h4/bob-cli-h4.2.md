@@ -23,7 +23,7 @@ bob-transfer-records: add status names, target status, container-created flags, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h4.4](bob-cli-h4.4.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h4.4](bob-cli-h4.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

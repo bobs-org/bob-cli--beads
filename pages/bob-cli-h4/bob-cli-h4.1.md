@@ -21,7 +21,7 @@ bob-landing-blocks: make every capture `>` transfer report batch-level `task_blo
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h4.5](bob-cli-h4.5.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h4.5](bob-cli-h4.5.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
