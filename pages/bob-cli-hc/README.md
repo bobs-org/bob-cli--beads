@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.4.md) | [bob-cli-hc.4](bob-cli-hc.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.5/README.md) | [bob-cli-hc.5](bob-cli-hc.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.6/README.md) | [bob-cli-hc.6](bob-cli-hc.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-hc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.land.md) | [bob-cli-hc](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-hc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.land.md) | [bob-cli-hc](README.md) | 3 |
 
 ## Commits
 
@@ -94,6 +94,7 @@ flowchart TD
 | bob-cli | [`44d129a`](https://github.com/bobs-org/bob-cli/commit/44d129a415074fbb4c614e804614778c5285f129) | docs(memory): record off-clock type policies | [bob-cli-hc.5](bob-cli-hc.5.md) | 2026-11-05 13:00:12 EST |
 | bob-cli | [`82f6cb9`](https://github.com/bobs-org/bob-cli/commit/82f6cb9bea196af48a18796481e8bfe09b395b79) | fix(memory): complete the offclock\_types decision record and isolate its gcal clock test | [bob-cli-hc](README.md) | 2026-11-05 17:32:03 EST |
 | bob-cli | [`e816bce`](https://github.com/bobs-org/bob-cli/commit/e816bcec947e1141184899beade24534fbfab4f4) | fix(capture): restamp clocks after landing retypes | [bob-cli-hc](README.md) | 2026-11-05 18:42:37 EST |
+| bob-cli--plans | [`bob-cli--plans@cf9c4d6`](https://github.com/bobs-org/bob-cli--plans/commit/cf9c4d64e6b2492dbca17cb63f1a7ca7c1695065) | chore(plans): mark epic plan complete | [bob-cli-hc](README.md) | 2026-11-05 18:43:09 EST |
 
 <!-- sase:referenced-by:start -->
 
