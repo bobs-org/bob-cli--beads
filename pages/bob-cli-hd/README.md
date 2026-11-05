@@ -36,7 +36,7 @@ Every live Task Link under one of today's open, typed Pomodoros has a task type 
 | [bob-cli-hd.5](bob-cli-hd.5.md) | Bob-side writers agree the entries they touch | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hd.6](bob-cli-hd.6.md) | Close settle and new typed entries in bob | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hd.7](bob-cli-hd.7.md) | Navigation hotkeys writers agree the entries they touch | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
-| [bob-cli-hd.8](bob-cli-hd.8.md) | Block ID Prompt writers and the task-status-cycler close | ✓ closed | medium | 2026-11-05 | 1 | 1 |
+| [bob-cli-hd.8](bob-cli-hd.8.md) | Block ID Prompt writers and the task-status-cycler close | ✓ closed | medium | 2026-11-05 | 1 | 2 |
 | [bob-cli-hd.9](bob-cli-hd.9.md) | Live-vault audit, docs coherence, and the merged-Pomodoro glossary | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
 
 ## Lineage
@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.5/README.md) | [bob-cli-hd.5](bob-cli-hd.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-hd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.6/README.md) | [bob-cli-hd.6](bob-cli-hd.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-hd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.7.md) | [bob-cli-hd.7](bob-cli-hd.7.md) | 0 |
-| [bbugyi200.athena.bob-cli-hd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.8.md) | [bob-cli-hd.8](bob-cli-hd.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-hd.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.8.md) | [bob-cli-hd.8](bob-cli-hd.8.md) | 2 |
 | [bbugyi200.athena.bob-cli-hd.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.9/README.md) | [bob-cli-hd.9](bob-cli-hd.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-hd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.land/README.md) | [bob-cli-hd](README.md) | 0 |
 
@@ -101,6 +101,7 @@ flowchart TD
 | bob-cli | [`cccdf94`](https://github.com/bobs-org/bob-cli/commit/cccdf94e0474992712e1e5f262c2cda47bd4449e) | feat(capture): agree touched Pomodoro entries via shared applier | [bob-cli-hd.5](bob-cli-hd.5.md) | 2026-11-05 11:56:03 EST |
 | bob-plugins | [`bob-plugins@b5bdd73`](https://github.com/bobs-org/bob-plugins/commit/b5bdd7354ab8acb7c05fc85ab1472d6aba42c84f) | feat(bob-ledger-tools): mirror ledger agree/settle planners, async api.themes applier, and inherited type marks | [bob-cli-hd.4](bob-cli-hd.4.md) | 2026-11-05 12:00:11 EST |
 | bob-cli | [`f36cc03`](https://github.com/bobs-org/bob-cli/commit/f36cc0396a7739941ef2ce85b61608c70f3d7333) | docs(memory): clarify merged Pomodoro type agreement | [bob-cli-hd.8](bob-cli-hd.8.md) | 2026-11-05 12:44:01 EST |
+| bob-plugins | [`bob-plugins@6e30934`](https://github.com/bobs-org/bob-plugins/commit/6e30934999a89effab88776403e3cbba5af8b74f) | feat(pomodoro): align task types across prompt and close | [bob-cli-hd.8](bob-cli-hd.8.md) | 2026-11-05 12:44:22 EST |
 
 <!-- sase:referenced-by:start -->
 
