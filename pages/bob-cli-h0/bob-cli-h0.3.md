@@ -39,7 +39,9 @@ cli-consequence: extract one consequence builder that the planner's `moved_tasks
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h0.3--3][1] | Verify bead state after green just check | 1 |
+| read-by | [agent:bob-cli-h0.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.land.md
 
 <!-- sase:referenced-by:end -->

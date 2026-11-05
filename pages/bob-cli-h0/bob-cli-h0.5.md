@@ -45,7 +45,9 @@ cli-execute: mint IDs for picked ID-less rows, splice picks into the move list a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h0.5][1] | Need phase scope | 3 |
+| read-by | [agent:bob-cli-h0.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.land.md
 
 <!-- sase:referenced-by:end -->

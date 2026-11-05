@@ -39,7 +39,9 @@ mac-draft: honor Bob's `action_continuation_keys` in the Move picker so a second
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h0.6][1] | Need the phase notes to check prior work before continuing | 2 |
+| read-by | [agent:bob-cli-h0.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.land.md
 
 <!-- sase:referenced-by:end -->

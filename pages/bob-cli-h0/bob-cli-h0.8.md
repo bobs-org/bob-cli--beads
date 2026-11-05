@@ -42,7 +42,9 @@ mac-flow: open the Move card on Return ahead of Pull-In, send `--move-in`, chain
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h0.8][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-h0.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.land.md
 
 <!-- sase:referenced-by:end -->
