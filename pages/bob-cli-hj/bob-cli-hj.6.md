@@ -13,7 +13,7 @@ mac: add - to the rewrite trigger keys, style the segment span, render picker ro
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hj.4](bob-cli-hj.4.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hj.4](bob-cli-hj.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

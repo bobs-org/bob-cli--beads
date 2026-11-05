@@ -21,8 +21,8 @@ record: wire the timeline and layout into plan.rs for pinned runs (snapshot firs
 
 - **Depends on:** [bob-cli-hj.1](bob-cli-hj.1.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hj.2](bob-cli-hj.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hj.4](bob-cli-hj.4.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hj.5](bob-cli-hj.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hj.4](bob-cli-hj.4.md) ✓ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hj.5](bob-cli-hj.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -35,3 +35,15 @@ record: wire the timeline and layout into plan.rs for pinned runs (snapshot firs
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`86554bf`](https://github.com/bobs-org/bob-cli/commit/86554bf66551e6f44dd269295cfca19eba570a65) | feat(capture): record pinned past-Pomodoro segments and ship grammar 14 | [bob-cli-hj.3](bob-cli-hj.3.md) | 2026-11-05 17:42:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hj.3][1] | check phase notes for remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.3/README.md
+
+<!-- sase:referenced-by:end -->
