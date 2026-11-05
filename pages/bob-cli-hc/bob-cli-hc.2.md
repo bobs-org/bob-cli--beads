@@ -25,10 +25,16 @@ clock-surfaces: give the `bob gcal list` probe line `[type:: MEET]` so preview m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.2.md) | [bob-cli-hc.2](bob-cli-hc.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.2.md) | [bob-cli-hc.2](bob-cli-hc.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`e6122f7`](https://github.com/bobs-org/bob-cli/commit/e6122f7a3859d3070469adcf34d1c6235cd77e1b) | fix(capture): restamp relocated pomodoros and align gcal clocks | [bob-cli-hc.2](bob-cli-hc.2.md) | 2026-11-05 12:18:17 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hc.2--1][1] | Verify the assigned phase close completed after the green gate and empty epic-symbol check | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.2.md
+
+<!-- sase:referenced-by:end -->
