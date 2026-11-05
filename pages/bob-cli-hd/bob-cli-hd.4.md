@@ -21,4 +21,4 @@ ledger-tools-mirror: copy the vectors, mirror `agreeEntry`, `settleClosed`, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.4/README.md) | [bob-cli-hd.4](bob-cli-hd.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-hd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.4.md) | [bob-cli-hd.4](bob-cli-hd.4.md) | 0 |

@@ -19,7 +19,7 @@ agree-rule: add the pure `agree_entry` and `settle_closed` planners, the MEET gu
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hd.3](bob-cli-hd.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hd.3](bob-cli-hd.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.4](bob-cli-hd.4.md) ◐ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.5](bob-cli-hd.5.md) ◐ · ⧖ 2026-11-05
 

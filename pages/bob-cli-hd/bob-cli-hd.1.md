@@ -17,7 +17,7 @@ plugin-writer-bugs: in bob-navigation-hotkeys, make Pomodoro rename (commit and 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hd.3](bob-cli-hd.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hd.3](bob-cli-hd.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.7](bob-cli-hd.7.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
