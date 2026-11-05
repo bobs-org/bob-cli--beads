@@ -13,7 +13,7 @@ mac-acceptance: build a scratch bob on the Mac, replay the original stale-Clipy 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-he.7](bob-cli-he.7.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-he.7](bob-cli-he.7.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

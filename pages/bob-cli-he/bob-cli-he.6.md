@@ -20,7 +20,7 @@ read-hardening: share one live read and one largest-count history read per captu
 ## Dependencies
 
 - **Depends on:** [bob-cli-he.3](bob-cli-he.3.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-he.7](bob-cli-he.7.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-he.7](bob-cli-he.7.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -33,3 +33,15 @@ read-hardening: share one live read and one largest-count history read per captu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dd3cfd8`](https://github.com/bobs-org/bob-cli/commit/dd3cfd8cb5d9a0fdba8b8e86c8985ee0f7c6570a) | fix(capture): read the clipboard once per capture and bound clipboard commands | [bob-cli-he.6](bob-cli-he.6.md) | 2026-11-05 14:24:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-he.6][1] | Need full description and notes for read-hardening work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.6/README.md
+
+<!-- sase:referenced-by:end -->
