@@ -7,6 +7,20 @@
 **Created:** 2026-11-05 10:03:54 EST · **Closed:** 2026-11-05 12:21:54 EST
 **Plan:** [202611/offclock\_types.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/offclock_types.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-hk][1] | Proposed this follow-up; its commit d751cf3 in bob-plugins added the shared offclock_types clock resolver to reuse |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-hk/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 plugin-mirror: in the bob-plugins linked repo, teach bob-ledger-tools' `taskEffectiveClockResolution` the same `offclock_types` rules with a type helper that also handles closed tasks, copy the shared vectors byte for byte into both plugin fixture directories, make the test harnesses honor `config`, update plugin docs, rebuild, test, and run `bob plugins sync`.
@@ -26,7 +40,13 @@ plugin-mirror: in the bob-plugins linked repo, teach bob-ledger-tools' `taskEffe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.4.md) | [bob-cli-hc.4](bob-cli-hc.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.4.md) | [bob-cli-hc.4](bob-cli-hc.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d751cf3`](https://github.com/bobs-org/bob-plugins/commit/d751cf37adb92a6f2bc8858d576a2f749f5be162) | feat(plugins): mirror offclock type resolution | [bob-cli-hc.4](bob-cli-hc.4.md) | 2026-11-05 12:23:55 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -32,3 +32,15 @@ memory-records: through /sase_memory_write, add the new decisions strand, mark o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`44d129a`](https://github.com/bobs-org/bob-cli/commit/44d129a415074fbb4c614e804614778c5285f129) | docs(memory): record off-clock type policies | [bob-cli-hc.5](bob-cli-hc.5.md) | 2026-11-05 13:00:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hc.5][1] | Confirm the phase close completed after symbol resolution | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.5/README.md
+
+<!-- sase:referenced-by:end -->
