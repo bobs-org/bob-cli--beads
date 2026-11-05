@@ -1,0 +1,24 @@
+# Bead: bob-cli-hl.2 — Grammar, editor parse, and teaching refusals
+
+[Bead Pages](../README.md) / [bob-cli-hl](README.md) / bob-cli-hl.2
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.190](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.190.md) · **Assignee:** `bob-cli-hl.2` · **Size:** large
+**Created:** 2026-11-05 18:05:39 EST
+**Plan:** [202611/capture\_merge\_in\_arrow.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_merge_in_arrow.md)
+
+## Description
+
+grammar: add the shared merge-in scanner, claim it in execution and editor parsing before fan-out, gate it on a single open new task, ship structured rewrites and grammar 15, and refuse execution until the next phase lands.
+
+## Dependencies
+
+- **Depends on:** [bob-cli-hl.1](bob-cli-hl.1.md) ✓ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.3](bob-cli-hl.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.4](bob-cli-hl.4.md) ◐ · ⧖ 2026-11-05
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-hl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.2/README.md) | [bob-cli-hl.2](bob-cli-hl.2.md) | 0 |
