@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-h2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.4/README.md) | [bob-cli-h2.4](bob-cli-h2.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.5/README.md) | [bob-cli-h2.5](bob-cli-h2.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h2.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.6.md) | [bob-cli-h2.6](bob-cli-h2.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-h2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.land/README.md) | [bob-cli-h2](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-h2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.land/README.md) | [bob-cli-h2](README.md) | 2 |
 
 ## Commits
 
@@ -124,6 +124,7 @@ flowchart TD
 | bob-cli | [`78834b6`](https://github.com/bobs-org/bob-cli/commit/78834b66734e5d619cd4efc82df76f288ea7ea34) | docs(capture): document past Pomodoros | [bob-cli-h2.5](bob-cli-h2.5.md) | 2026-11-04 16:42:41 EST |
 | bob-mac-capture | [`bob-mac-capture@10470e7`](https://github.com/bobs-org/bob-mac-capture/commit/10470e7f6c77a9288e51d24bd86a5228307976c7) | feat(mac-capture): render Record past work card for x= stacks | [bob-cli-h2.6](bob-cli-h2.6.md) | 2026-11-04 18:07:52 EST |
 | bob-cli | [`9003884`](https://github.com/bobs-org/bob-cli/commit/90038844c94f92c0eb22179bd39cccdf976ff85c) | fix(capture): land past Pomodoros (x=) with name rules, exact rewrites, and green check | [bob-cli-h2](README.md) | 2026-11-04 19:18:06 EST |
+| bob-cli--plans | [`bob-cli--plans@ffd6c76`](https://github.com/bobs-org/bob-cli--plans/commit/ffd6c7679d36a37fe465370d3c2b23f0259cdd11) | chore(plans): mark past\_pomodoro\_recording epic plan done | [bob-cli-h2](README.md) | 2026-11-04 19:18:37 EST |
 
 <!-- sase:referenced-by:start -->
 
