@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-h0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.6/README.md) | [bob-cli-h0.6](bob-cli-h0.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.7.md) | [bob-cli-h0.7](bob-cli-h0.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h0.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h0.8/README.md) | [bob-cli-h0.8](bob-cli-h0.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-h0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.land.md) | [bob-cli-h0](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-h0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h0.land.md) | [bob-cli-h0](README.md) | 3 |
 
 ## Commits
 
@@ -116,6 +116,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@0245a75`](https://github.com/bobs-org/bob-mac-capture/commit/0245a752dde5fabd2e7a86f6ab7ce1ec56822b96) | feat(capture): submit Move choices before Pull-In and inbox routing | [bob-cli-h0.8](bob-cli-h0.8.md) | 2026-11-04 16:03:33 EST |
 | bob-cli | [`29f2089`](https://github.com/bobs-org/bob-cli/commit/29f2089af10a9c7ac1da0fb25c6b8115a4d6a82e) | test(capture): refresh np-move note-pull fixtures for enriched move records | [bob-cli-h0](README.md) | 2026-11-04 16:48:19 EST |
 | bob-cli | [`3da7ff4`](https://github.com/bobs-org/bob-cli/commit/3da7ff47905b56862d9e9e49aac3b86890c0fd4f) | feat(capture): add project-note move choice flow | [bob-cli-h0](README.md) | 2026-11-04 19:15:25 EST |
+| bob-cli--plans | [`bob-cli--plans@3548b14`](https://github.com/bobs-org/bob-cli--plans/commit/3548b147fcd7d84bef65c2bb73f57d8ab1e90a92) | docs(plan): record project-note move-choice design | [bob-cli-h0](README.md) | 2026-11-04 19:16:07 EST |
 
 <!-- sase:referenced-by:start -->
 
