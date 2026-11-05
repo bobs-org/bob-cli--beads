@@ -19,7 +19,7 @@ brief-polish: in the same brief.rs, report totals and +N more behind the Finishe
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h8.10](bob-cli-h8.10.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h8.10](bob-cli-h8.10.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h8.3](bob-cli-h8.3.md) ✓ · ⧖ 2026-11-04
 
 ## Agents

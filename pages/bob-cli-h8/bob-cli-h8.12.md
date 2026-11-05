@@ -13,7 +13,7 @@ consumption-bob: after bob-cli-h2 and bob-cli-h4 land (or their files go quiet),
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-h2](../bob-cli-h2/README.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [bob-cli-h2](../bob-cli-h2/README.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h4](../bob-cli-h4/README.md) ◐ · ⧖ 2026-11-04
 - **Blocks:** [bob-cli-h8.13](bob-cli-h8.13.md) ◐ · ⧖ 2026-11-04
 
