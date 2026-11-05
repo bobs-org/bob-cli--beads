@@ -14,7 +14,7 @@ docs: rewrite capture, reference, task-type, and tutorial pages to teach only th
 ## Dependencies
 
 - **Depends on:** [bob-cli-ha.1](bob-cli-ha.1.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-ha.2](bob-cli-ha.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-ha.2](bob-cli-ha.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
