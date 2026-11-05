@@ -23,7 +23,7 @@ bob-transfer-pending: when a dry run fails because a transfer's destination is u
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-h4.6](bob-cli-h4.6.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h4.6](bob-cli-h4.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

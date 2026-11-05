@@ -21,7 +21,7 @@ mac-landing-cards: render bob's transfer-role task blocks with role capsules and
 
 - **Depends on:** [bob-cli-h4.1](bob-cli-h4.1.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [bob-cli-h4.4](bob-cli-h4.4.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [bob-cli-h4.6](bob-cli-h4.6.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [bob-cli-h4.6](bob-cli-h4.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -34,3 +34,15 @@ mac-landing-cards: render bob's transfer-role task blocks with role capsules and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@dd4a8bf`](https://github.com/bobs-org/bob-mac-capture/commit/dd4a8bf909da9d10ba53253f579363722a9460cc) | feat(capture): render transfer landing cards | [bob-cli-h4.5](bob-cli-h4.5.md) | 2026-11-05 07:31:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h4.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -38,7 +38,7 @@ When Bryan types a `>` transfer line (`@a+x @b+y > @c…`) in Bob Mac Capture, t
 | [bob-cli-h4.3](bob-cli-h4.3.md) | bob describes an unfinished transfer on dry run | ✓ closed | small | 2026-11-04 | 1 | 1 |
 | [bob-cli-h4.4](bob-cli-h4.4.md) | Mac transfer card, status line, offers, notifications, and VoiceOver | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [bob-cli-h4.5](bob-cli-h4.5.md) | Mac landing cards for target, tombstones, moved tasks, and sections | ✓ closed | medium | 2026-11-04 | 1 | 1 |
-| [bob-cli-h4.6](bob-cli-h4.6.md) | Mac calm pending card and transfer refusal card | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
+| [bob-cli-h4.6](bob-cli-h4.6.md) | Mac calm pending card and transfer refusal card | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n3["bob-cli-h4.3: bob describes an unfinished transfer on dry run [closed]"]
     n4["bob-cli-h4.4: Mac transfer card, status line, offers, notifications, and VoiceOver [closed]"]
     n5["bob-cli-h4.5: Mac landing cards for target, tombstones, moved tasks, and sections [closed]"]
-    n6["bob-cli-h4.6: Mac calm pending card and transfer refusal card [in_progress]"]
+    n6["bob-cli-h4.6: Mac calm pending card and transfer refusal card [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-h4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.3/README.md) | [bob-cli-h4.3](bob-cli-h4.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.4.md) | [bob-cli-h4.4](bob-cli-h4.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.5/README.md) | [bob-cli-h4.5](bob-cli-h4.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-h4.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.6/README.md) | [bob-cli-h4.6](bob-cli-h4.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-h4.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.6.md) | [bob-cli-h4.6](bob-cli-h4.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.land/README.md) | [bob-cli-h4](README.md) | 0 |
 
 ## Commits
@@ -89,6 +89,7 @@ flowchart TD
 | bob-cli | [`029b426`](https://github.com/bobs-org/bob-cli/commit/029b426601d6ef840e33cc24e1472b3a985ef7fe) | feat(capture): enrich merge and move records, serialize merge offers, fix copy | [bob-cli-h4.2](bob-cli-h4.2.md) | 2026-11-04 16:07:48 EST |
 | bob-mac-capture | [`bob-mac-capture@e9dc5bd`](https://github.com/bobs-org/bob-mac-capture/commit/e9dc5bd91253cf0ad09671eb8c724cb5a37453a5) | feat(capture): render transfer previews as cards | [bob-cli-h4.4](bob-cli-h4.4.md) | 2026-11-04 19:42:16 EST |
 | bob-mac-capture | [`bob-mac-capture@dd4a8bf`](https://github.com/bobs-org/bob-mac-capture/commit/dd4a8bf909da9d10ba53253f579363722a9460cc) | feat(capture): render transfer landing cards | [bob-cli-h4.5](bob-cli-h4.5.md) | 2026-11-05 07:31:42 EST |
+| bob-mac-capture | [`bob-mac-capture@6e09f2c`](https://github.com/bobs-org/bob-mac-capture/commit/6e09f2c7fabfdda0e337da63a6bb48b28c32747f) | feat(capture): render pending transfer and refusal cards | [bob-cli-h4.6](bob-cli-h4.6.md) | 2026-11-05 12:54:44 EST |
 
 <!-- sase:referenced-by:start -->
 
