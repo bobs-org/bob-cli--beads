@@ -31,7 +31,7 @@ Counted `%c<N>` reads the clipboard manager that is actually running (Alfred on 
 | [bob-cli-he.2](bob-cli-he.2.md) | Trust history only when its newest entry equals the live clipboard | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-he.3](bob-cli-he.3.md) | Report history provider and entry ages | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
 | [bob-cli-he.4](bob-cli-he.4.md) | Mac Clip card shows provider and ages | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
-| [bob-cli-he.5](bob-cli-he.5.md) | Pin Alfred in the managed bob config | ◐ in_progress | xsmall | 2026-11-05 | 1 | 0 |
+| [bob-cli-he.5](bob-cli-he.5.md) | Pin Alfred in the managed bob config | ✓ closed | xsmall | 2026-11-05 | 1 | 1 |
 | [bob-cli-he.6](bob-cli-he.6.md) | One clipboard snapshot per capture and bounded clipboard commands | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-he.7](bob-cli-he.7.md) | Read-only bob clipboard status report | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-he.8](bob-cli-he.8.md) | Acceptance on the Mac and wait tuning | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n2["bob-cli-he.2: Trust history only when its newest entry equals the live clipboard [closed]"]
     n3["bob-cli-he.3: Report history provider and entry ages [in_progress]"]
     n4["bob-cli-he.4: Mac Clip card shows provider and ages [in_progress]"]
-    n5["bob-cli-he.5: Pin Alfred in the managed bob config [in_progress]"]
+    n5["bob-cli-he.5: Pin Alfred in the managed bob config [closed]"]
     n6["bob-cli-he.6: One clipboard snapshot per capture and bounded clipboard commands [in_progress]"]
     n7["bob-cli-he.7: Read-only bob clipboard status report [in_progress]"]
     n8["bob-cli-he.8: Acceptance on the Mac and wait tuning [in_progress]"]
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-he.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-he.2.md) | [bob-cli-he.2](bob-cli-he.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-he.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.3/README.md) | [bob-cli-he.3](bob-cli-he.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-he.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.4/README.md) | [bob-cli-he.4](bob-cli-he.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-he.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.5/README.md) | [bob-cli-he.5](bob-cli-he.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-he.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.5/README.md) | [bob-cli-he.5](bob-cli-he.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-he.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.6/README.md) | [bob-cli-he.6](bob-cli-he.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-he.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.7/README.md) | [bob-cli-he.7](bob-cli-he.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-he.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.8/README.md) | [bob-cli-he.8](bob-cli-he.8.md) | 0 |
@@ -86,3 +86,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`5a6519f`](https://github.com/bobs-org/bob-cli/commit/5a6519f1914714fca543ead8c1e4a39d3832a1e9) | feat(capture): add clipboard history providers (history boundary, Alfred and Clipy adapters) | [bob-cli-he.1](bob-cli-he.1.md) | 2026-11-05 11:47:33 EST |
 | bob-cli | [`84da37b`](https://github.com/bobs-org/bob-cli/commit/84da37ba2dc438f56ce6a4f7cbc1a0ceb3ef3067) | feat(capture): trust counted clipboard history only on live agreement | [bob-cli-he.2](bob-cli-he.2.md) | 2026-11-05 13:03:21 EST |
+| chezmoi | [`chezmoi@af323fb`](https://github.com/bbugyi200/dotfiles/commit/af323fbeb09713d2357995fd13b2aa001162a1fa) | feat(bob): pin Alfred as the counted clipboard history provider | [bob-cli-he.5](bob-cli-he.5.md) | 2026-11-05 13:09:22 EST |

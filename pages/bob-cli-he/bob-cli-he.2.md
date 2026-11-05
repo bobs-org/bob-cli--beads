@@ -23,7 +23,7 @@ agreement: replace the lag-tolerant merge with the bounded-wait agreement check,
 
 - **Depends on:** [bob-cli-he.1](bob-cli-he.1.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-he.3](bob-cli-he.3.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-he.5](bob-cli-he.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-he.5](bob-cli-he.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -36,3 +36,15 @@ agreement: replace the lag-tolerant merge with the bounded-wait agreement check,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`84da37b`](https://github.com/bobs-org/bob-cli/commit/84da37ba2dc438f56ce6a4f7cbc1a0ceb3ef3067) | feat(capture): trust counted clipboard history only on live agreement | [bob-cli-he.2](bob-cli-he.2.md) | 2026-11-05 13:03:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-he.2--4][1] | Need phase scope before close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-he.2.md
+
+<!-- sase:referenced-by:end -->
