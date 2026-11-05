@@ -21,7 +21,7 @@ providers: add the HistoryEntry provider boundary, a read-only Alfred adapter, t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-he.2](bob-cli-he.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-he.2](bob-cli-he.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -34,3 +34,15 @@ providers: add the HistoryEntry provider boundary, a read-only Alfred adapter, t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5a6519f`](https://github.com/bobs-org/bob-cli/commit/5a6519f1914714fca543ead8c1e4a39d3832a1e9) | feat(capture): add clipboard history providers (history boundary, Alfred and Clipy adapters) | [bob-cli-he.1](bob-cli-he.1.md) | 2026-11-05 11:47:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-he.1][1] | check status and notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.1/README.md
+
+<!-- sase:referenced-by:end -->

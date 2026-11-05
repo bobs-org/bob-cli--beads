@@ -13,7 +13,7 @@ alfred-pin: in chezmoi, set capture.clipboard_history to alfred and stop paste_p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-he.2](bob-cli-he.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-he.2](bob-cli-he.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

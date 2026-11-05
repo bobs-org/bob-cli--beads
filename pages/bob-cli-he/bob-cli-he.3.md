@@ -13,7 +13,7 @@ provenance: add clip.history {provider, entries[{age_seconds, app}]} to capture 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-he.2](bob-cli-he.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-he.2](bob-cli-he.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-he.4](bob-cli-he.4.md) ◐ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-he.6](bob-cli-he.6.md) ◐ · ⧖ 2026-11-05
 
