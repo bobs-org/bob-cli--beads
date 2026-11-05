@@ -90,7 +90,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-he.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.6/README.md) | [bob-cli-he.6](bob-cli-he.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-he.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.7/README.md) | [bob-cli-he.7](bob-cli-he.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-he.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.8/README.md) | [bob-cli-he.8](bob-cli-he.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-he.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.land/README.md) | [bob-cli-he](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-he.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.land/README.md) | [bob-cli-he](README.md) | 2 |
 
 ## Commits
 
@@ -103,6 +103,7 @@ flowchart TD
 | bob-cli | [`dd3cfd8`](https://github.com/bobs-org/bob-cli/commit/dd3cfd8cb5d9a0fdba8b8e86c8985ee0f7c6570a) | fix(capture): read the clipboard once per capture and bound clipboard commands | [bob-cli-he.6](bob-cli-he.6.md) | 2026-11-05 14:24:07 EST |
 | bob-cli | [`ea2a636`](https://github.com/bobs-org/bob-cli/commit/ea2a63654ee7721d71fb3194908e5aed9bb0dd63) | feat(clipboard): add bob clipboard status | [bob-cli-he.7](bob-cli-he.7.md) | 2026-11-05 15:00:53 EST |
 | bob-cli | [`12e3684`](https://github.com/bobs-org/bob-cli/commit/12e36842d60f193302532d0ee93ba7298d3b2e05) | fix(capture)!: counted %c history commands must list the live clipboard first | [bob-cli-he](README.md) | 2026-11-05 16:58:15 EST |
+| bob-cli--plans | [`bob-cli--plans@411e8f3`](https://github.com/bobs-org/bob-cli--plans/commit/411e8f3798f0749201b30c497654858034e26eb3) | docs(plans): mark percent\_c\_history\_agreement done after landing bob-cli-he | [bob-cli-he](README.md) | 2026-11-05 16:58:37 EST |
 
 <!-- sase:referenced-by:start -->
 
