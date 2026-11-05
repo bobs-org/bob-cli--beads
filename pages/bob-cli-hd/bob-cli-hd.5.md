@@ -24,10 +24,16 @@ bob-writers: run the applier over every entry that a capture batch, `bob task ca
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.5/README.md) | [bob-cli-hd.5](bob-cli-hd.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-hd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.5/README.md) | [bob-cli-hd.5](bob-cli-hd.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`cccdf94`](https://github.com/bobs-org/bob-cli/commit/cccdf94e0474992712e1e5f262c2cda47bd4449e) | feat(capture): agree touched Pomodoro entries via shared applier | [bob-cli-hd.5](bob-cli-hd.5.md) | 2026-11-05 11:56:03 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hd.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.5/README.md
+
+<!-- sase:referenced-by:end -->

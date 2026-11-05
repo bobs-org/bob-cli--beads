@@ -27,13 +27,7 @@ reconcile-pass: run the applier over today's open entries after blocked-link con
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.3/README.md) | [bob-cli-hd.3](bob-cli-hd.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`3c2d962`](https://github.com/bobs-org/bob-cli/commit/3c2d9622f213c47158890d16089bb4479c6c28dd) | feat(task-reconcile): type-agreement pass in bob task reconcile | [bob-cli-hd.3](bob-cli-hd.3.md) | 2026-11-05 11:42:01 EST |
+| [bbugyi200.athena.bob-cli-hd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.3/README.md) | [bob-cli-hd.3](bob-cli-hd.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

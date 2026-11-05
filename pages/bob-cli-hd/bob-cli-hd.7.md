@@ -14,7 +14,7 @@ nav-writers: agree every open entry that a deferred link cleanup, Ctrl+Shift+M s
 ## Dependencies
 
 - **Depends on:** [bob-cli-hd.1](bob-cli-hd.1.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hd.4](bob-cli-hd.4.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hd.4](bob-cli-hd.4.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.9](bob-cli-hd.9.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

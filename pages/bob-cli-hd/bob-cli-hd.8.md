@@ -13,7 +13,7 @@ prompt-and-cycler: block-id-prompt unlink, delete, and duplicate prune agree tou
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hd.4](bob-cli-hd.4.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hd.4](bob-cli-hd.4.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.9](bob-cli-hd.9.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
