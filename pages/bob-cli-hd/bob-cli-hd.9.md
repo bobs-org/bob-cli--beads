@@ -14,7 +14,7 @@ audit-and-records: check the shared vectors are byte-identical, make the routing
 ## Dependencies
 
 - **Depends on:** [bob-cli-hd.3](bob-cli-hd.3.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hd.6](bob-cli-hd.6.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hd.6](bob-cli-hd.6.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hd.7](bob-cli-hd.7.md) ◐ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hd.8](bob-cli-hd.8.md) ✓ · ⧖ 2026-11-05
 

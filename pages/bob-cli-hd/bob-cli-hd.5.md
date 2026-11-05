@@ -18,7 +18,7 @@ bob-writers: run the applier over every entry that a capture batch, `bob task ca
 ## Dependencies
 
 - **Depends on:** [bob-cli-hd.2](bob-cli-hd.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hd.6](bob-cli-hd.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hd.6](bob-cli-hd.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
