@@ -13,7 +13,7 @@ bob-close-and-naming: close names settle to the worked types and the continuatio
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hd.5](bob-cli-hd.5.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hd.5](bob-cli-hd.5.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.9](bob-cli-hd.9.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
