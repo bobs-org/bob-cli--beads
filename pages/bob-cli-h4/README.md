@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-h4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.4.md) | [bob-cli-h4.4](bob-cli-h4.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h4.5/README.md) | [bob-cli-h4.5](bob-cli-h4.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-h4.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.6.md) | [bob-cli-h4.6](bob-cli-h4.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-h4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.land.md) | [bob-cli-h4](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-h4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h4.land.md) | [bob-cli-h4](README.md) | 2 |
 
 ## Commits
 
@@ -105,6 +105,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@dd4a8bf`](https://github.com/bobs-org/bob-mac-capture/commit/dd4a8bf909da9d10ba53253f579363722a9460cc) | feat(capture): render transfer landing cards | [bob-cli-h4.5](bob-cli-h4.5.md) | 2026-11-05 07:31:42 EST |
 | bob-mac-capture | [`bob-mac-capture@6e09f2c`](https://github.com/bobs-org/bob-mac-capture/commit/6e09f2c7fabfdda0e337da63a6bb48b28c32747f) | feat(capture): render pending transfer and refusal cards | [bob-cli-h4.6](bob-cli-h4.6.md) | 2026-11-05 12:54:44 EST |
 | bob-mac-capture | [`bob-mac-capture@0f5e353`](https://github.com/bobs-org/bob-mac-capture/commit/0f5e3532a4681675a16250a93e9ec264fc4398ab) | feat(capture): fix transfer card verb flip, footer, copy, and labels | [bob-cli-h4](README.md) | 2026-11-05 15:18:49 EST |
+| bob-cli--plans | [`bob-cli--plans@a4aa18a`](https://github.com/bobs-org/bob-cli--plans/commit/a4aa18ad7d6b0592be6c1aae3295dd56859bd92e) | chore(plans): mark transfer\_previews done for bob-cli-h4 | [bob-cli-h4](README.md) | 2026-11-05 15:19:10 EST |
 
 <!-- sase:referenced-by:start -->
 
