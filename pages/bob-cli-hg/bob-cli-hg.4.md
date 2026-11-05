@@ -13,7 +13,7 @@ gmail-shell: register `bob gmail`, parse the `gmail:` config block, add Gmail re
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.1](bob-cli-hg.1.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.1](bob-cli-hg.1.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hg.6](bob-cli-hg.6.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

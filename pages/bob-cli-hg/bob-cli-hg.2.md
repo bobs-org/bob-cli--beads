@@ -40,7 +40,9 @@ gmail-ids: pure parsing of every Gmail URL form, the base-40 token decode to API
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.2][1] | check full description | 2 |
+| read-by | [agent:bob-cli-hg.3.1.1][2] | Check whether the prior Gmail phase recorded the same clean-base rustfmt failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.1/README.md
 
 <!-- sase:referenced-by:end -->
