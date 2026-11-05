@@ -13,8 +13,8 @@ vault-migration: record the drift baseline, add a block-list `offclock_types: [M
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hc.2](bob-cli-hc.2.md) ◐ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hc.4](bob-cli-hc.4.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hc.2](bob-cli-hc.2.md) ✓ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hc.4](bob-cli-hc.4.md) ○ · ⧖ 2026-11-05
 
 ## Agents
 

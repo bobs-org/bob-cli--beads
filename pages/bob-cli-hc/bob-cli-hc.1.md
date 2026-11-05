@@ -19,9 +19,9 @@ clock-type-filter: parse the `offclock_types` key, extract a catalog-free effect
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hc.2](bob-cli-hc.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hc.2](bob-cli-hc.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hc.3](bob-cli-hc.3.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hc.4](bob-cli-hc.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hc.4](bob-cli-hc.4.md) ○ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hc.5](bob-cli-hc.5.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
@@ -35,3 +35,15 @@ clock-type-filter: parse the `offclock_types` key, extract a catalog-free effect
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ecc3d32`](https://github.com/bobs-org/bob-cli/commit/ecc3d32d27d199f962d37d89bf954e6b7efa8168) | feat(clock): add clock-type filter with strict offclock\_types reader | [bob-cli-hc.1](bob-cli-hc.1.md) | 2026-11-05 11:22:27 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hc.1][1] | Need full bead details and notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.1/README.md
+
+<!-- sase:referenced-by:end -->
