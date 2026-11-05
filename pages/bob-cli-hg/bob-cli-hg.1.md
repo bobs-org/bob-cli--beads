@@ -19,4 +19,4 @@ google-plumbing: move gcal's service-agnostic gog transport, sign-in, client dis
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.1/README.md) | [bob-cli-hg.1](bob-cli-hg.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.1.md) | [bob-cli-hg.1](bob-cli-hg.1.md) | 0 |
