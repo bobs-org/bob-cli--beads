@@ -27,20 +27,20 @@ Capture `=` and `x=` tokens take their timing glued to a bare Pomodoro name (`=b
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ha.1](bob-cli-ha.1.md) | \`=\` starts and link \`=\` suffixes (bob-cli) | ◐ in_progress | medium | 2026-11-05 | 1 | 1 |
+| [bob-cli-ha.1](bob-cli-ha.1.md) | \`=\` starts and link \`=\` suffixes (bob-cli) | ✓ closed | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-ha.2](bob-cli-ha.2.md) | \`x=\` past records (bob-cli) | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-ha.3](bob-cli-ha.3.md) | Document the glued spellings (bob-cli) | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
-| [bob-cli-ha.4](bob-cli-ha.4.md) | Stop composing \`=#\` hints in Bob Mac Capture | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
+| [bob-cli-ha.4](bob-cli-ha.4.md) | Stop composing \`=#\` hints in Bob Mac Capture | ✓ closed | small | 2026-11-05 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["bob-cli-ha: Glue start and past timing to the Pomodoro name [in_progress]"]
-    n1["bob-cli-ha.1: `=` starts and link `=` suffixes (bob-cli) [in_progress]"]
+    n1["bob-cli-ha.1: `=` starts and link `=` suffixes (bob-cli) [closed]"]
     n2["bob-cli-ha.2: `x=` past records (bob-cli) [in_progress]"]
     n3["bob-cli-ha.3: Document the glued spellings (bob-cli) [in_progress]"]
-    n4["bob-cli-ha.4: Stop composing `=#` hints in Bob Mac Capture [in_progress]"]
+    n4["bob-cli-ha.4: Stop composing `=#` hints in Bob Mac Capture [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -55,14 +55,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ha.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.1.md) | [bob-cli-ha.1](bob-cli-ha.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ha.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.1.md) | [bob-cli-ha.1](bob-cli-ha.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ha.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ha.2/README.md) | [bob-cli-ha.2](bob-cli-ha.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ha.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ha.3/README.md) | [bob-cli-ha.3](bob-cli-ha.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ha.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ha.4/README.md) | [bob-cli-ha.4](bob-cli-ha.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ha.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.4.md) | [bob-cli-ha.4](bob-cli-ha.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ha.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ha.land/README.md) | [bob-cli-ha](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`01cb7b5`](https://github.com/bobs-org/bob-cli/commit/01cb7b5c3eb75d7353ef4a57014cc5ada1178bf6) | feat(capture): add glued Pomodoro start grammar | [bob-cli-ha.1](bob-cli-ha.1.md) | 2026-11-05 08:11:16 EST |
+| bob-cli--plans | [`bob-cli--plans@e1faa69`](https://github.com/bobs-org/bob-cli--plans/commit/e1faa69e2ed28fe8d1e37be27a46ad03514baa61) | chore(plans): record reviewer decision selections | [bob-cli-ha.4](bob-cli-ha.4.md) | 2026-11-05 09:19:23 EST |
