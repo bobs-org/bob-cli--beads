@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-hk][1] | Proposed this follow-up; its commit d751cf3 in bob-plugins added the shared offclock_types clock resolver to reuse |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-hk/README.md
 
@@ -55,7 +55,9 @@ plugin-mirror: in the bob-plugins linked repo, teach bob-ledger-tools' `taskEffe
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hc.4--4][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-hc.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.land.md
 
 <!-- sase:referenced-by:end -->

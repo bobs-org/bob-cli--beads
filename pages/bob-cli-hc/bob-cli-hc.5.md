@@ -40,7 +40,9 @@ memory-records: through /sase_memory_write, add the new decisions strand, mark o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hc.5][1] | Confirm the phase close completed after symbol resolution | 3 |
+| read-by | [agent:bob-cli-hc.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.land.md
 
 <!-- sase:referenced-by:end -->

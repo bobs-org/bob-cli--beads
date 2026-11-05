@@ -40,7 +40,9 @@ clock-surfaces: give the `bob gcal list` probe line `[type:: MEET]` so preview m
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hc.2--1][1] | Verify the assigned phase close completed after the green gate and empty epic-symbol check | 1 |
+| read-by | [agent:bob-cli-hc.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.land.md
 
 <!-- sase:referenced-by:end -->
