@@ -20,7 +20,7 @@ status-command: add top-level `bob clipboard` (Integrations) reporting selection
 ## Dependencies
 
 - **Depends on:** [bob-cli-he.6](bob-cli-he.6.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-he.8](bob-cli-he.8.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-he.8](bob-cli-he.8.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -33,3 +33,15 @@ status-command: add top-level `bob clipboard` (Integrations) reporting selection
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ea2a636`](https://github.com/bobs-org/bob-cli/commit/ea2a63654ee7721d71fb3194908e5aed9bb0dd63) | feat(clipboard): add bob clipboard status | [bob-cli-he.7](bob-cli-he.7.md) | 2026-11-05 15:00:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-he.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.7/README.md
+
+<!-- sase:referenced-by:end -->
