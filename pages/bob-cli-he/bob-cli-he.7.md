@@ -13,7 +13,7 @@ status-command: add top-level `bob clipboard` (Integrations) reporting selection
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-he.6](bob-cli-he.6.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-he.6](bob-cli-he.6.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-he.8](bob-cli-he.8.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

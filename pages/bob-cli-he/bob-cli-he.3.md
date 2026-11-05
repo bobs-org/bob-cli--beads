@@ -20,8 +20,8 @@ provenance: add clip.history {provider, entries[{age_seconds, app}]} to capture 
 ## Dependencies
 
 - **Depends on:** [bob-cli-he.2](bob-cli-he.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-he.4](bob-cli-he.4.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-he.6](bob-cli-he.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-he.4](bob-cli-he.4.md) ✓ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-he.6](bob-cli-he.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -34,3 +34,15 @@ provenance: add clip.history {provider, entries[{age_seconds, app}]} to capture 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`89192e8`](https://github.com/bobs-org/bob-cli/commit/89192e8bada62cd46fc990b1ca9e78a469c68d37) | feat(capture): report clipboard history provider and entry ages | [bob-cli-he.3](bob-cli-he.3.md) | 2026-11-05 13:29:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-he.3][1] | Need the phase scope, prior notes, and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-he.3/README.md
+
+<!-- sase:referenced-by:end -->
