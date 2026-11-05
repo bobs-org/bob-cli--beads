@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-h2
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.38.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.38.linker.w0.md) · **Assignee:** `bob-cli-h2.land`
-**Created:** 2026-11-04 11:11:57 EST
+**Created:** 2026-11-04 11:11:57 EST · **Closed:** 2026-11-04 19:16:46 EST
 **Plan:** [202611/past\_pomodoro\_recording.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/past_pomodoro_recording.md)
 
 <!-- sase:links:start -->
@@ -35,6 +35,32 @@ Capture gains `x=<E>[!][=<X>]`, which records already-finished Pomodoros in one 
 
 [2026-11-04T21:46:06Z · bob-cli-h0.land] DISCOVERED ISSUE (docs, from the bob-cli-h0 lander): docs/reference/compatibility.md 'Capture-language revision' still says capture-parse reports grammar: 10 and describes nothing after grammar 10, but GRAMMAR_REVISION is 12 on master (h0 bumped it to 11; h2.1 ce8f53b1 bumped it to 12). The h0 landing tale adds only a grammar-11 paragraph for - ^^. h2 should add its grammar-12 (x=) paragraph and update the lead sentence's live revision number when it lands.
 
+[2026-11-05T00:16:46Z · bob-cli-h2.land] LANDED. Verified all six phases against the plan, source, and commits ce8f53b1 (grammar), 281ef10b (complete), ed12f3d4 (record), 399b5222 (guard), 78834b66 (docs), and bob-mac-capture 10470e7 (mac).
+
+Checked behaviour on real vaults with the debug bob:
+- capture-parse covers every row of the token table and the incomplete list, plus the prose guards and the 3 compatibility breaks.
+- x=3=<X> writes byte-identical vault files to =3-3 x<X> for X in {'',1!2,!,*1,~2,1} at 09:20:00/:59, 09:21-09:24. x==0 differs by design (A9).
+- Earlier stack members close at their own end: BUILD 0900-0910 closed at 0910 defers a not-started 09:15 Event Task under =!.
+- ledger_place is shared with gcal, and the trimmed-MEET gcal regression exists.
+- Completion never offers the running row or an override block, and replacements stop at !/=/@.
+- Mac: the macOS CI Build compiled 10470e7 and every Past suite passed (CapturePomodoroPastPresentationTests, CapturePastRefreshHostedTests, PomodoroPastDesignTests). This resolves the 'typecheck unverified' note on h2.6. The red Test step is pre-existing Go To/alias/move-choice failures (+1 recorded on bob-cli-h7). I deleted the leftover scratch copy /tmp/bob-mac-past-typecheck-29 on the mac.
+
+Epic-caused work finished in this landing:
+(1) The 8 clippy deny errors in editor_pomodoro.rs and past.rs, plus 2 in tests/cli/capture/pomodoro_past.rs (a vacuous '|| true' assert, now a real recorded-role assertion). This resolves epic notes #3 and the PROPOSED FOLLOW-UPs on h2.2 #1, h2.3 #1, h2.4 #1, h2.5 #1, and h2.6.
+(2) Rewrote validate_past_e as a sequential lexer. Hyphenated names (x=deep-work, #"A-B") were refused as dash offsets. Names skipped the =name byte rules (x=build*5, x=a$b, x=#"a$b" were accepted). Literals did not canonicalize like =#"…". Several rewrites were hard-coded to table rows: x=*5 → x==*3, x=2#build@4 → x=3#fix, x=fix@0 → x=1. Rewrites are now built from the typed parts.
+(3) Added the 2 plan-required tests that were missing (golden equivalence, own-end Event Task clock) and strengthened the teaching-error assertions.
+(4) Documented the pomodoro_past_name completion context (capture-complete help, docs/capture.md) and corrected the capture-parse help typos and teaching rows. Ran just docs-gen.
+
+Verification: just check is green (fmt, clippy gate, 8528 tests, 0 failed). just docs-check fails only at lint on mounted bob-mac-capture protocol.md at 6003/6000 words, pushed over by the non-epic 8e2ecd7 (h2.6 left it at 5991); filed as bob-cli-h9. Every later docs gate passes (generated drift, strict build, URLs, lychee, edit links, search smoke).
+
+Earlier epic notes: #1/#2 (rustfmt) already fixed on master. #4 (compatibility grammar 12) was addressed by h2.5.
+
+Follow-up triage: every child PROPOSED FOLLOW-UP was caused by this epic and is resolved above (h2.2 #5 rustfmt and h2.3's keyboard.md anchor were already fixed on master), so no task beads were created for them.
+
+Integration since the epic began: the route/move-bullet sigil aliases (d520909d, 7a1ead8f) fire only in block-ID and task-link contexts, never inside x=. Transfer and move-choice work (cf2e3c9f..decd465c, 029b4266) and periods ea015b66 need no changes. Every non-test CaptureKind::PomodoroClose site also handles PomodoroPast. No conflicts or duplicates found.
+
+No epic-symbol entries. No parent bead. The memory_decision_record=no decision was honored: no memory edits.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,7 +76,7 @@ Capture gains `x=<E>[!][=<X>]`, which records already-finished Pomodoros in one 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-h2: Record past Pomodoros with x= [in_progress]"]
+    n0["bob-cli-h2: Record past Pomodoros with x= [closed]"]
     n1["bob-cli-h2.1: x= lexer, capture-parse contract, and grammar 12 [closed]"]
     n2["bob-cli-h2.2: Pomodoro-name completion inside x= [closed]"]
     n3["bob-cli-h2.3: Record engine with explicit-entry close, placement, and output [closed]"]
@@ -85,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-h2.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.4/README.md) | [bob-cli-h2.4](bob-cli-h2.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h2.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.5/README.md) | [bob-cli-h2.5](bob-cli-h2.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-h2.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-h2.6.md) | [bob-cli-h2.6](bob-cli-h2.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-h2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.land/README.md) | [bob-cli-h2](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-h2.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h2.land/README.md) | [bob-cli-h2](README.md) | 1 |
 
 ## Commits
 
@@ -97,6 +123,7 @@ flowchart TD
 | bob-cli | [`399b522`](https://github.com/bobs-org/bob-cli/commit/399b52221409f4c37536530d7d56067f1d4f4f4f) | feat(capture)!: whole-stack overlap guard and past edge repair | [bob-cli-h2.4](bob-cli-h2.4.md) | 2026-11-04 15:31:26 EST |
 | bob-cli | [`78834b6`](https://github.com/bobs-org/bob-cli/commit/78834b66734e5d619cd4efc82df76f288ea7ea34) | docs(capture): document past Pomodoros | [bob-cli-h2.5](bob-cli-h2.5.md) | 2026-11-04 16:42:41 EST |
 | bob-mac-capture | [`bob-mac-capture@10470e7`](https://github.com/bobs-org/bob-mac-capture/commit/10470e7f6c77a9288e51d24bd86a5228307976c7) | feat(mac-capture): render Record past work card for x= stacks | [bob-cli-h2.6](bob-cli-h2.6.md) | 2026-11-04 18:07:52 EST |
+| bob-cli | [`9003884`](https://github.com/bobs-org/bob-cli/commit/90038844c94f92c0eb22179bd39cccdf976ff85c) | fix(capture): land past Pomodoros (x=) with name rules, exact rewrites, and green check | [bob-cli-h2](README.md) | 2026-11-04 19:18:06 EST |
 
 <!-- sase:referenced-by:start -->
 
