@@ -13,7 +13,7 @@ ledger-tools-mirror: copy the vectors, mirror `agreeEntry`, `settleClosed`, and 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hd.2](bob-cli-hd.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hd.2](bob-cli-hd.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.7](bob-cli-hd.7.md) ◐ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hd.8](bob-cli-hd.8.md) ◐ · ⧖ 2026-11-05
 

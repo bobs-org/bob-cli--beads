@@ -15,8 +15,8 @@ Every live Task Link under one of today's open, typed Pomodoros has a task type 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-hd.1](bob-cli-hd.1.md) | Fix the Obsidian rename regression and the Task Card live-link lookup | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hd.2](bob-cli-hd.2.md) | Shared agreement rule, close settle, and Rust ledger applier | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hd.1](bob-cli-hd.1.md) | Fix the Obsidian rename regression and the Task Card live-link lookup | ✓ closed | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hd.2](bob-cli-hd.2.md) | Shared agreement rule, close settle, and Rust ledger applier | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hd.3](bob-cli-hd.3.md) | Type-agreement pass in bob task reconcile | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hd.4](bob-cli-hd.4.md) | Ledger Tools JS mirror, api.themes additions, and inherited type marks | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hd.5](bob-cli-hd.5.md) | Bob-side writers agree the entries they touch | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
@@ -31,7 +31,7 @@ Every live Task Link under one of today's open, typed Pomodoros has a task type 
 flowchart TD
     n0["bob-cli-hd: Open Pomodoro names follow their tasks' types [in_progress]"]
     n1["bob-cli-hd.1: Fix the Obsidian rename regression and the Task Card live-link lookup [closed]"]
-    n2["bob-cli-hd.2: Shared agreement rule, close settle, and Rust ledger applier [in_progress]"]
+    n2["bob-cli-hd.2: Shared agreement rule, close settle, and Rust ledger applier [closed]"]
     n3["bob-cli-hd.3: Type-agreement pass in bob task reconcile [in_progress]"]
     n4["bob-cli-hd.4: Ledger Tools JS mirror, api.themes additions, and inherited type marks [in_progress]"]
     n5["bob-cli-hd.5: Bob-side writers agree the entries they touch [in_progress]"]
@@ -66,8 +66,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.1.md) | [bob-cli-hd.1](bob-cli-hd.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-hd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.2/README.md) | [bob-cli-hd.2](bob-cli-hd.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-hd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hd.1.md) | [bob-cli-hd.1](bob-cli-hd.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-hd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.2/README.md) | [bob-cli-hd.2](bob-cli-hd.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-hd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.3/README.md) | [bob-cli-hd.3](bob-cli-hd.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-hd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.4/README.md) | [bob-cli-hd.4](bob-cli-hd.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-hd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.5/README.md) | [bob-cli-hd.5](bob-cli-hd.5.md) | 0 |
@@ -81,4 +81,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@811f650`](https://github.com/bobs-org/bob-plugins/commit/811f6508eec5781a1c824e8e1afc66f3c0e92bbe) | fix(navigation): repair pomodoro type rename and live-link lookup | [bob-cli-hd.1](bob-cli-hd.1.md) | 2026-11-05 10:54:39 EST |
+| bob-cli | [`1f2b28b`](https://github.com/bobs-org/bob-cli/commit/1f2b28b03b514a4d72ed313c146a78ef51bd271e) | feat(task-types): shared agreement rule, close settle, and Rust ledger applier | [bob-cli-hd.2](bob-cli-hd.2.md) | 2026-11-05 11:08:25 EST |
