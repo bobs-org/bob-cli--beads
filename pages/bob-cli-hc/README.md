@@ -31,8 +31,8 @@ Area and project notes accept an `offclock_types` list that sends only tasks of 
 | [bob-cli-hc.2](bob-cli-hc.2.md) | gcal list preview and running-entry re-stamps on naming | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hc.3](bob-cli-hc.3.md) | bob types rename and split cover offclock\_types lists | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hc.4](bob-cli-hc.4.md) | bob-plugins clock mirror and vector copies | ✓ closed | medium | 2026-11-05 | 1 | 0 |
-| [bob-cli-hc.5](bob-cli-hc.5.md) | Decision record and glossary updates | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
-| [bob-cli-hc.6](bob-cli-hc.6.md) | Dual-key love.md and body.md, then the cutover | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
+| [bob-cli-hc.5](bob-cli-hc.5.md) | Decision record and glossary updates | ✓ closed | small | 2026-11-05 | 1 | 1 |
+| [bob-cli-hc.6](bob-cli-hc.6.md) | Dual-key love.md and body.md, then the cutover | ✓ closed | small | 2026-11-05 | 1 | 0 |
 
 ## Lineage
 
@@ -43,8 +43,8 @@ flowchart TD
     n2["bob-cli-hc.2: gcal list preview and running-entry re-stamps on naming [closed]"]
     n3["bob-cli-hc.3: bob types rename and split cover offclock_types lists [closed]"]
     n4["bob-cli-hc.4: bob-plugins clock mirror and vector copies [closed]"]
-    n5["bob-cli-hc.5: Decision record and glossary updates [in_progress]"]
-    n6["bob-cli-hc.6: Dual-key love.md and body.md, then the cutover [in_progress]"]
+    n5["bob-cli-hc.5: Decision record and glossary updates [closed]"]
+    n6["bob-cli-hc.6: Dual-key love.md and body.md, then the cutover [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.2.md) | [bob-cli-hc.2](bob-cli-hc.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.3/README.md) | [bob-cli-hc.3](bob-cli-hc.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hc.4.md) | [bob-cli-hc.4](bob-cli-hc.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-hc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.5/README.md) | [bob-cli-hc.5](bob-cli-hc.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.5/README.md) | [bob-cli-hc.5](bob-cli-hc.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.6/README.md) | [bob-cli-hc.6](bob-cli-hc.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.land/README.md) | [bob-cli-hc](README.md) | 0 |
 
@@ -80,3 +80,4 @@ flowchart TD
 | bob-cli | [`ecc3d32`](https://github.com/bobs-org/bob-cli/commit/ecc3d32d27d199f962d37d89bf954e6b7efa8168) | feat(clock): add clock-type filter with strict offclock\_types reader | [bob-cli-hc.1](bob-cli-hc.1.md) | 2026-11-05 11:22:27 EST |
 | bob-cli | [`e6122f7`](https://github.com/bobs-org/bob-cli/commit/e6122f7a3859d3070469adcf34d1c6235cd77e1b) | fix(capture): restamp relocated pomodoros and align gcal clocks | [bob-cli-hc.2](bob-cli-hc.2.md) | 2026-11-05 12:18:17 EST |
 | bob-cli | [`832e124`](https://github.com/bobs-org/bob-cli/commit/832e124645585118f9c7e42633e05814f70ec59c) | feat(types): cover offclock lists in rename and split | [bob-cli-hc.3](bob-cli-hc.3.md) | 2026-11-05 12:31:33 EST |
+| bob-cli | [`44d129a`](https://github.com/bobs-org/bob-cli/commit/44d129a415074fbb4c614e804614778c5285f129) | docs(memory): record off-clock type policies | [bob-cli-hc.5](bob-cli-hc.5.md) | 2026-11-05 13:00:12 EST |

@@ -20,7 +20,7 @@ type-rename-coverage: `bob types rename` rewrites matching `offclock_types` item
 ## Dependencies
 
 - **Depends on:** [bob-cli-hc.1](bob-cli-hc.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hc.5](bob-cli-hc.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hc.5](bob-cli-hc.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -33,3 +33,15 @@ type-rename-coverage: `bob types rename` rewrites matching `offclock_types` item
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`832e124`](https://github.com/bobs-org/bob-cli/commit/832e124645585118f9c7e42633e05814f70ec59c) | feat(types): cover offclock lists in rename and split | [bob-cli-hc.3](bob-cli-hc.3.md) | 2026-11-05 12:31:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hc.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hc.3/README.md
+
+<!-- sase:referenced-by:end -->

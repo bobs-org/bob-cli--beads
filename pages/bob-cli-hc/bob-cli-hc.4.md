@@ -20,7 +20,7 @@ plugin-mirror: in the bob-plugins linked repo, teach bob-ledger-tools' `taskEffe
 ## Dependencies
 
 - **Depends on:** [bob-cli-hc.1](bob-cli-hc.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hc.6](bob-cli-hc.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hc.6](bob-cli-hc.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

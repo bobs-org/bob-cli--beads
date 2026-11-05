@@ -22,7 +22,7 @@ clock-type-filter: parse the `offclock_types` key, extract a catalog-free effect
 - **Blocks:** [bob-cli-hc.2](bob-cli-hc.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hc.3](bob-cli-hc.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hc.4](bob-cli-hc.4.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hc.5](bob-cli-hc.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hc.5](bob-cli-hc.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

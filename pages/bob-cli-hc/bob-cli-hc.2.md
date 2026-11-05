@@ -18,8 +18,8 @@ clock-surfaces: give the `bob gcal list` probe line `[type:: MEET]` so preview m
 ## Dependencies
 
 - **Depends on:** [bob-cli-hc.1](bob-cli-hc.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hc.5](bob-cli-hc.5.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hc.6](bob-cli-hc.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hc.5](bob-cli-hc.5.md) ✓ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hc.6](bob-cli-hc.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
