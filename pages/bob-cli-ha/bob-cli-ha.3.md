@@ -33,3 +33,15 @@ docs: rewrite capture, reference, task-type, and tutorial pages to teach only th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4327543`](https://github.com/bobs-org/bob-cli/commit/4327543778cfa446e765a5365abb2e558fdad5c0) | docs(capture): document glued timing spellings | [bob-cli-ha.3](bob-cli-ha.3.md) | 2026-11-05 11:12:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ha.3--1][1] | Confirm assigned phase status and design scope after monitor completion | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.3.md
+
+<!-- sase:referenced-by:end -->
