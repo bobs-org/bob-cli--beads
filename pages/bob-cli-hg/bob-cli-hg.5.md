@@ -13,7 +13,7 @@ mail-note: assemble rendered messages into the mail note file (frontmatter, summ
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.3](bob-cli-hg.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.3](bob-cli-hg.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hg.6](bob-cli-hg.6.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

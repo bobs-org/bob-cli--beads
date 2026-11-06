@@ -29,6 +29,8 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 
 [2026-11-05T21:56:07Z · bob-cli-he.land] DISCOVERED ISSUE (found by bob-cli-he.land on master 16c6356d): clippy derivable_impls is denied by the just lint/just check gate and fires at src/native/gmail/body/mime.rs:27 (manual impl Default for MimeInventory whose fields are all Vec::new()), introduced by df9178df (bob-cli-hg.3.1.1, 'feat(gmail): model gog threads and decode MIME bodies'). It fails master CI's lint job and the macOS 'Lint macOS-only targets' step (runs 42099348798, 42102050266), and because it stops cargo clippy before the integration-test targets, just check never reaches cargo test. Fix: add Default to the #[derive] and drop the manual impl; verified locally that this one change makes just lint pass on the full workspace (applied temporarily, not committed by he.land).
 
+[2026-11-06T02:15:47Z · bob-cli-hg.3.1.land] DISCOVERED ISSUE: Landing bob-cli-hg.3.1 triaged bob-cli-hg.3.1.4 follow-up #2. Gmail shell commit 88907074 / bob-cli-hg.4 adds gmail to root help and a 73rd catalog entry, but tests/fixtures/help/root-short.txt and root-long.txt omit gmail and tests/cli/catalog.rs:42 still requires 72 entries (lib catalog tests already expect 73). The child reproduced root help and CLI catalog failures on its clean base; current source confirms the stale expectations. This is caused by active outer Gmail shell work, not the renderer child epic. Please refresh these expectations in outer integration. No separate task created. The older MimeInventory Default issue is resolved by 06d6c32e.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -40,7 +42,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 | [bob-cli-hg.13](bob-cli-hg.13.md) | Bob Mail compose surface in Obsidian | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.14](bob-cli-hg.14.md) | bob gmail pull from the bob label, and attachments on demand | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.2](bob-cli-hg.2.md) | Offline Gmail URL parser, token decoder, and text scanner | ✓ closed | small | 2026-11-05 | 1 | 1 |
-| [bob-cli-hg.3](bob-cli-hg.3.md) | Message model and inert body renderer | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.3](bob-cli-hg.3.md) | Message model and inert body renderer | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.4](bob-cli-hg.4.md) | bob gmail noun group, config, login, logout, and doctor | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.5](bob-cli-hg.5.md) | Mail note layout, label, path, index, and append-only refresh | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.6](bob-cli-hg.6.md) | bob gmail save and list | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
@@ -60,8 +62,8 @@ flowchart TD
     n5["bob-cli-hg.13: Bob Mail compose surface in Obsidian [in_progress]"]
     n6["bob-cli-hg.14: bob gmail pull from the bob label, and attachments on demand [in_progress]"]
     n7["bob-cli-hg.2: Offline Gmail URL parser, token decoder, and text scanner [closed]"]
-    n8["bob-cli-hg.3: Message model and inert body renderer [in_progress]"]
-    n9["bob-cli-hg.3.1: Gmail message model and inert body renderer [in_progress]"]
+    n8["bob-cli-hg.3: Message model and inert body renderer [closed]"]
+    n9["bob-cli-hg.3.1: Gmail message model and inert body renderer [closed]"]
     n10["bob-cli-hg.3.1.1: Model gog thread payloads and decode MIME body candidates [closed]"]
     n11["bob-cli-hg.3.1.2: Make sender text inert in every Markdown and YAML context [closed]"]
     n12["bob-cli-hg.3.1.3: Render HTML bodies with quote folding and safe images [closed]"]
@@ -127,7 +129,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md) | [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.3/README.md) | [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.4/README.md) | [bob-cli-hg.3.1.4](bob-cli-hg.3.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.land/README.md) | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.3.1.land.md) | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.4/README.md) | [bob-cli-hg.4](bob-cli-hg.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.5/README.md) | [bob-cli-hg.5](bob-cli-hg.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6/README.md) | [bob-cli-hg.6](bob-cli-hg.6.md) | 0 |
@@ -147,6 +149,7 @@ flowchart TD
 | bob-cli | [`8890707`](https://github.com/bobs-org/bob-cli/commit/889070741f4fab7b118429ffa660696a84a84e8a) | feat(gmail): add bob gmail shell with config, login, logout, doctor | [bob-cli-hg.4](bob-cli-hg.4.md) | 2026-11-05 19:22:21 EST |
 | bob-cli | [`540f3e6`](https://github.com/bobs-org/bob-cli/commit/540f3e6fda16bb88bf6c58c8f7ee551ed4916230) | feat(gmail): render HTML message bodies | [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) | 2026-11-05 19:59:05 EST |
 | bob-cli | [`45118e1`](https://github.com/bobs-org/bob-cli/commit/45118e1b197b3c1c604c837d3b73a27d5e813aa8) | feat(gmail): complete the pure message renderer and its acceptance corpus | [bob-cli-hg.3.1.4](bob-cli-hg.3.1.4.md) | 2026-11-05 21:03:30 EST |
+| bob-cli | [`232e94b`](https://github.com/bobs-org/bob-cli/commit/232e94bbf507e17b31790d434f4288ff31adbae6) | feat(gmail): repair renderer landing and finish hg.3.1 | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 2026-11-05 22:20:04 EST |
 
 <!-- sase:referenced-by:start -->
 
