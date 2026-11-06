@@ -18,7 +18,7 @@ earned-eta: complete the estimator ladder (p20-p80 range after 5 consistent samp
 ## Dependencies
 
 - **Depends on:** [bob-cli-i0.5](bob-cli-i0.5.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-i0.7](bob-cli-i0.7.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-i0.7](bob-cli-i0.7.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -31,3 +31,15 @@ earned-eta: complete the estimator ladder (p20-p80 range after 5 consistent samp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a3238f7`](https://github.com/bobs-org/bob-cli/commit/a3238f70b4582cedb6c2c7fe8f2859d077a783ee) | feat(install): earn ETA ranges, plan line, and summary comparison | [bob-cli-i0.6](bob-cli-i0.6.md) | 2026-11-06 17:28:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-i0.6][1] | Confirm assigned bead status and close note before submitting finalizer | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.6/README.md
+
+<!-- sase:referenced-by:end -->
