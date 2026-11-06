@@ -19,7 +19,7 @@ resolve-policy: implement the shared read-only URL/ID/note resolver and never_sa
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -32,3 +32,15 @@ resolve-policy: implement the shared read-only URL/ID/note resolver and never_sa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cdc4003`](https://github.com/bobs-org/bob-cli/commit/cdc40030d9ebc5fcd422a6d430ac9c6c3412542b) | feat(gmail): implement identity resolution and save policy | [bob-cli-hg.6.1.1](bob-cli-hg.6.1.1.md) | 2026-11-06 00:57:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.6.1.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.1.md
+
+<!-- sase:referenced-by:end -->

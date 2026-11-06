@@ -13,7 +13,7 @@ save-transaction: implement the save CLI and reusable staged save API, writer ga
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bob_gmail.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_gmail.md
 
@@ -30,6 +30,8 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 [2026-11-05T21:56:07Z · bob-cli-he.land] DISCOVERED ISSUE (found by bob-cli-he.land on master 16c6356d): clippy derivable_impls is denied by the just lint/just check gate and fires at src/native/gmail/body/mime.rs:27 (manual impl Default for MimeInventory whose fields are all Vec::new()), introduced by df9178df (bob-cli-hg.3.1.1, 'feat(gmail): model gog threads and decode MIME bodies'). It fails master CI's lint job and the macOS 'Lint macOS-only targets' step (runs 42099348798, 42102050266), and because it stops cargo clippy before the integration-test targets, just check never reaches cargo test. Fix: add Default to the #[derive] and drop the manual impl; verified locally that this one change makes just lint pass on the full workspace (applied temporarily, not committed by he.land).
 
 [2026-11-06T02:15:47Z · bob-cli-hg.3.1.land] DISCOVERED ISSUE: Landing bob-cli-hg.3.1 triaged bob-cli-hg.3.1.4 follow-up #2. Gmail shell commit 88907074 / bob-cli-hg.4 adds gmail to root help and a 73rd catalog entry, but tests/fixtures/help/root-short.txt and root-long.txt omit gmail and tests/cli/catalog.rs:42 still requires 72 entries (lib catalog tests already expect 73). The child reproduced root help and CLI catalog failures on its clean base; current source confirms the stale expectations. This is caused by active outer Gmail shell work, not the renderer child epic. Please refresh these expectations in outer integration. No separate task created. The older MimeInventory Default issue is resolved by 06d6c32e.
+
+[2026-11-06T06:29:25Z · bob-cli-hl.3.1.land] DISCOVERED ISSUE (corroboration by bob-cli-hl.3.1.land on master 6af313b4): help::root_help_matches_sectioned_short_and_long_snapshots still fails because generated root help lists 'gmail  Save Gmail threads as inert mail notes, linked from tasks' under Integrations while tests/fixtures/help/root-short.txt omits it (bob-cli-hl.3.1.3 note #4 misattributed this to gkeep; gkeep is already in the snapshot). catalog::protocol_1_parses_with_schema_version_one still fails 73 vs 72; +1 recorded on bob-cli-de. Same remediation as note #2; no new task created.
 
 ## Phases
 
@@ -73,7 +75,7 @@ flowchart TD
     n16["bob-cli-hg.6: bob gmail save and list [in_progress]"]
     n17["bob-cli-hg.6.1: Complete Gmail save and offline list [in_progress]"]
     n18["bob-cli-hg.6.1.1: Confirm Gmail identities and apply save refusal rules [closed]"]
-    n19["bob-cli-hg.6.1.2: Prepare inert messages and local inline image imports [in_progress]"]
+    n19["bob-cli-hg.6.1.2: Prepare inert messages and local inline image imports [closed]"]
     n20["bob-cli-hg.6.1.3: Save and refresh mail notes under the vault lock [in_progress]"]
     n21["bob-cli-hg.6.1.4: List saved mail offline and diagnose identity health [in_progress]"]
     n22["bob-cli-hg.7: bob gmail link — swap Gmail URLs for labelled links, and backfill [in_progress]"]
@@ -147,7 +149,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.5/README.md) | [bob-cli-hg.5](bob-cli-hg.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.md) | [bob-cli-hg.6](bob-cli-hg.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.1.md) | [bob-cli-hg.6.1.1](bob-cli-hg.6.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.2/README.md) | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.2/README.md) | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md) | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.4/README.md) | [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.land/README.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 0 |
@@ -171,6 +173,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@6e63268`](https://github.com/bobs-org/bob-cli--plans/commit/6e63268021e9c4abaef71269304926ff313cd40e) | docs(plans): mark gmail\_mail\_body done | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 2026-11-05 22:21:01 EST |
 | bob-cli | [`cfdb68c`](https://github.com/bobs-org/bob-cli/commit/cfdb68c17552da6e13fa0e2f918565bf0aca8f12) | feat(gmail): implement mail note layout and refresh | [bob-cli-hg.5](bob-cli-hg.5.md) | 2026-11-05 23:32:54 EST |
 | bob-cli | [`cdc4003`](https://github.com/bobs-org/bob-cli/commit/cdc40030d9ebc5fcd422a6d430ac9c6c3412542b) | feat(gmail): implement identity resolution and save policy | [bob-cli-hg.6.1.1](bob-cli-hg.6.1.1.md) | 2026-11-06 00:57:28 EST |
+| bob-cli | [`c0d877b`](https://github.com/bobs-org/bob-cli/commit/c0d877be16030b2d2527af869d47dbf845dbe35a) | feat(gmail): prepare thread with attachment\_bytes transport | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 2026-11-06 02:35:56 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -183,11 +186,13 @@ flowchart TD
 | read-by | [agent:bob-cli-hg.3.1.2][3] | Need epic decisions | 1 |
 | read-by | [agent:bob-cli-hg.3.1.3][4] | Need governing Gmail epic decisions for this renderer phase | 1 |
 | read-by | [agent:bob-cli-hg.4][5] | Need epic scope for hg.4 work | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][6] | Check whether the root-help gmail snapshot drift is already recorded on the active Gmail epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h8.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-he.land/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.3/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.4/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hl.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->
