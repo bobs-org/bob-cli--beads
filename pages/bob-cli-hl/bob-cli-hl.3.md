@@ -18,7 +18,7 @@ execute: stage the new task, then run one explicit merge into it through a helpe
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.2](bob-cli-hl.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.5](bob-cli-hl.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.5](bob-cli-hl.5.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hl.6](bob-cli-hl.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents

@@ -42,9 +42,11 @@ contract: write the `<` contract into docs/capture.md, the capture-syntax refere
 | read-by | [agent:bob-cli-hl.1][1] | Check notes for prior work | 3 |
 | read-by | [agent:bob-cli-hn.1][2] | Confirm whether the existing documentation-lint issue tracks the docs-check failure | 1 |
 | read-by | [agent:bob-cli-hn.2][3] | Confirm the BOB_GMAIL documentation lint failure already has a task bead tracker | 1 |
+| read-by | [agent:bob-cli-hn.land][4] | Check status of tracker referenced by bob-cli-hn child follow-ups | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.1/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->

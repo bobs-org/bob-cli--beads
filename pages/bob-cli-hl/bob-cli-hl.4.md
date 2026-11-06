@@ -20,7 +20,7 @@ assist: give `<` source slots a merge-only picker with ID-less rows and comma mu
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.2](bob-cli-hl.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.5](bob-cli-hl.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.5](bob-cli-hl.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-hl
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.190](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.190.md) · **Assignee:** `bob-cli-hl.land`
-**Created:** 2026-11-05 18:05:39 EST
+**Created:** 2026-11-05 18:05:39 EST · **Closed:** 2026-11-06 16:29:54 EST
 **Plan:** [202611/capture\_merge\_in\_arrow.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_merge_in_arrow.md)
 
 <!-- sase:links:start -->
@@ -31,6 +31,8 @@ A capture line that creates one open task can end with `< @route+id …` to fold
 
 [2026-11-06T02:15:40Z · bob-cli-hg.3.1.land] DISCOVERED ISSUE: Landing bob-cli-hg.3.1 triaged child bob-cli-hg.3.1.4 PROPOSED FOLLOW-UP notes #1 and #3. At 6ea08f74, tests/cli/capture/merge_in.rs:8 declares TODAY with no uses (introduced by 53c1d1ad / bob-cli-hl.2); the child reproduced the denied unused lint on clean base. Also d9e35359 / bob-cli-hl.1 introduced links to #merging-tasks-into-a-new-task-with while the heading ends in code-formatted <; child .4 reproduced the broken fragment in just docs-check. Both remain visible in current source and belong to this active merge-in epic. No duplicate task found in all-status searches and the past-week task sweep; no new task created.
 
+[2026-11-06T21:29:54Z · bob-cli-hl.land] LANDED bob-cli-hl (capture < merge-in). VERIFY: all six phases closed. hl.1 contract docs (d9e35359); hl.2 grammar 15, scanner, editor parse, teaching refusals with structured rewrites (53c1d1ad, feat!); hl.3 via child epic hl.3.1 (4282e712, fd26fb29, fbb6da46, 3fe50bc7, 6af313b4, 248a2bfa): one-transaction stage-then-explicit-merge, origins, merge_in_pending, shell guard, MI1-MI17 tests; hl.4 pickers, + toggle, capture-related exclusion and marker_at (5ab0ec22, MI18); hl.5 via child epic hl.5.1 in bob-mac-capture (band, pickers, rewrite buttons, origin folds, copy, gate minimumRevision 15; exact-SHA CI 42278025697 failures are a subset of pre-epic baseline owned by bob-cli-h7); hl.6 glossary:task-merge lists capture's > or < (only authorized memory edit; no decisions record, per memory_merge_in_decision=no). Decisions honored: pull_in_title_count=yes (links_pruned > 0). Epic notes resolved: #1 glossary drift (docs/reference/glossary.md now regenerated), #2 unused TODAY const and #merging-tasks-into-a-new-task-with anchor (just docs-check green). Gates at master 9ade2d64 plus this landing: just check fully green (9180 passed, 0 failed; 81 merge_in tests; same 594 non-denied warnings before and after), just docs-check passes all implemented gates. INTEGRATE: reviewed 40 non-epic commits since d9e35359. GRAMMAR_REVISION is now 16 (e0960045 Gmail links); the Mac gate stays a minimum of 15, which is correct for <. 79709fed (glued Pomodoro start/past timing), 0869f792 (relation direction toggle), and the successor-verdict fixes do not touch the merge-in claim, gate, or picker, and merge-in suites pass on top of them. Landing cleanup: removed hl.2's always-zero arrow_rel_start helper and dead left_text check in capture_language/draft.rs (classify_merge_left now takes only the masked parse; behavior unchanged, flagged by hl.3.1 lander). Closed bob-cli-hi (G2/G4/G5 all shipped, plan execute step 8). Closed hl.5 after verifying hl.5.1's delivered scope (19a--1 had reopened it only to leave closure to its owner). Marked done the stale wip plan files capture_merge_in_mac.md, capture_merge_in_mac_landing.md, finish_merge_in_mac.md (hl.5.1 is closed; its lander missed the status update). FOLLOW-UPS: hl.1 #1 BOB_GMAIL_* env docs lint: declined, resolved upstream (docs-check green). hl.4 #1 and epic note #2 unused TODAY: declined, resolved (just check green). Nested proposals were already triaged by hl.3.1.land (bob-cli-hp, bob-cli-de, bob-cli-hs, bob-cli-hg, bob-cli-hn) and hl.5.1.land (bob-cli-h7, bob-cli-hs, bob-cli-ge, new bob-cli-hu, bob-cli-hv). No new task filed: the bob-cli-side failures they tracked no longer reproduce here, and no proposal remained untriaged. No --epic-symbol entries for bob-cli-hl or any phase.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -39,14 +41,14 @@ A capture line that creates one open task can end with `< @route+id …` to fold
 | [bob-cli-hl.2](bob-cli-hl.2.md) | Grammar, editor parse, and teaching refusals | ✓ closed | large | 2026-11-05 | 1 | 1 |
 | [bob-cli-hl.3](bob-cli-hl.3.md) | One-transaction execution, output, and copy fixes | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hl.4](bob-cli-hl.4.md) | Pickers, rewrite toggle, and Similar tasks | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hl.5](bob-cli-hl.5.md) | Bob Mac Capture merge-in band and pickers | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
+| [bob-cli-hl.5](bob-cli-hl.5.md) | Bob Mac Capture merge-in band and pickers | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hl.6](bob-cli-hl.6.md) | Memory notes | ✓ closed | small | 2026-11-05 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-hl: Capture `&lt;`: merge existing tasks into the task you are creating [in_progress]"]
+    n0["bob-cli-hl: Capture `&lt;`: merge existing tasks into the task you are creating [closed]"]
     n1["bob-cli-hl.1: Contract and docs [closed]"]
     n2["bob-cli-hl.2: Grammar, editor parse, and teaching refusals [closed]"]
     n3["bob-cli-hl.3: One-transaction execution, output, and copy fixes [closed]"]
@@ -57,8 +59,8 @@ flowchart TD
     n8["bob-cli-hl.3.1.4: Complete pending context, merge copy, and stdin redirect refusal [closed]"]
     n9["bob-cli-hl.3.1.5: Prove equivalence, rollback, and final contract coverage [closed]"]
     n10["bob-cli-hl.4: Pickers, rewrite toggle, and Similar tasks [closed]"]
-    n11["bob-cli-hl.5: Bob Mac Capture merge-in band and pickers [in_progress]"]
-    n12["bob-cli-hl.5.1: Complete Bob Mac Capture merge-in bands and pickers [in_progress]"]
+    n11["bob-cli-hl.5: Bob Mac Capture merge-in band and pickers [closed]"]
+    n12["bob-cli-hl.5.1: Complete Bob Mac Capture merge-in bands and pickers [closed]"]
     n13["bob-cli-hl.5.1.1: Decode merge-in contracts and record fixture responses [closed]"]
     n14["bob-cli-hl.5.1.2: Integrate merge-in source pickers and explicit diagnostic rewrites [closed]"]
     n15["bob-cli-hl.5.1.3: Render merge-in bands and capture outcome copy [closed]"]
@@ -122,7 +124,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hl.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.5.md) | [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.land.md) | [bob-cli-hl.5.1](bob-cli-hl.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.6/README.md) | [bob-cli-hl.6](bob-cli-hl.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-hl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.land/README.md) | [bob-cli-hl](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.land/README.md) | [bob-cli-hl](README.md) | 1 |
 
 ## Commits
 
@@ -144,6 +146,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@6d659eb`](https://github.com/bobs-org/bob-mac-capture/commit/6d659eb244653c22fcc095914556e008ab311153) | feat(capture): fold merge targets in previews | [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) | 2026-11-06 04:47:39 EST |
 | bob-mac-capture | [`bob-mac-capture@a3e533b`](https://github.com/bobs-org/bob-mac-capture/commit/a3e533b9ec57855be534ac4d96b8bcd7cb8194bf) | feat(capture): complete merge-in grammar-15 rollout | [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) | 2026-11-06 07:20:21 EST |
 | bob-mac-capture | [`bob-mac-capture@e9d3ae2`](https://github.com/bobs-org/bob-mac-capture/commit/e9d3ae2fdade28d031811b458c5f18633f38e023) | feat(capture): render merge-in bands and pending states | [bob-cli-hl.5.1](bob-cli-hl.5.1.md) | 2026-11-06 09:32:23 EST |
+| bob-cli | [`e39e457`](https://github.com/bobs-org/bob-cli/commit/e39e457680f784cf1c3ea3837653881f5b223548) | refactor(capture): drop dead merge-in left-text helper | [bob-cli-hl](README.md) | 2026-11-06 16:30:57 EST |
 
 <!-- sase:referenced-by:start -->
 
