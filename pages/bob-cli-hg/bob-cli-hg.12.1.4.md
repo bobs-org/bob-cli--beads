@@ -18,7 +18,7 @@ send-recovery: implement durable state transitions, serialization, draft-id-only
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.12.1.3](bob-cli-hg.12.1.3.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
