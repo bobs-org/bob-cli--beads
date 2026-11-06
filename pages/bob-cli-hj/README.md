@@ -34,7 +34,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-hj.3](bob-cli-hj.3.md) | Record pinned runs end to end and ship grammar 14 | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hj.4](bob-cli-hj.4.md) | Segment picker, dash-to-tilde rewrite, and submit guards | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hj.5](bob-cli-hj.5.md) | Decision record for segment placement | ✓ closed | small | 2026-11-05 | 1 | 0 |
-| [bob-cli-hj.6](bob-cli-hj.6.md) | Bob Mac Capture segment typing, picker, card, and guard | ◐ in_progress | medium | 2026-11-05 | 1 | 1 |
+| [bob-cli-hj.6](bob-cli-hj.6.md) | Bob Mac Capture segment typing, picker, card, and guard | ✓ closed | medium | 2026-11-05 | 1 | 2 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n3["bob-cli-hj.3: Record pinned runs end to end and ship grammar 14 [closed]"]
     n4["bob-cli-hj.4: Segment picker, dash-to-tilde rewrite, and submit guards [closed]"]
     n5["bob-cli-hj.5: Decision record for segment placement [closed]"]
-    n6["bob-cli-hj.6: Bob Mac Capture segment typing, picker, card, and guard [in_progress]"]
+    n6["bob-cli-hj.6: Bob Mac Capture segment typing, picker, card, and guard [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.3/README.md) | [bob-cli-hj.3](bob-cli-hj.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-hj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.4/README.md) | [bob-cli-hj.4](bob-cli-hj.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.5/README.md) | [bob-cli-hj.5](bob-cli-hj.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-hj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hj.6.md) | [bob-cli-hj.6](bob-cli-hj.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-hj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hj.6.md) | [bob-cli-hj.6](bob-cli-hj.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-hj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.land/README.md) | [bob-cli-hj](README.md) | 0 |
 
 ## Commits
@@ -81,6 +81,7 @@ flowchart TD
 | bob-cli | [`86554bf`](https://github.com/bobs-org/bob-cli/commit/86554bf66551e6f44dd269295cfca19eba570a65) | feat(capture): record pinned past-Pomodoro segments and ship grammar 14 | [bob-cli-hj.3](bob-cli-hj.3.md) | 2026-11-05 17:42:43 EST |
 | bob-cli | [`35c2a42`](https://github.com/bobs-org/bob-cli/commit/35c2a426c3411a91e7825c64adf1121fe013e9ac) | feat(capture): add past-Pomodoro segment picker, dash rewrite, and submit guards | [bob-cli-hj.4](bob-cli-hj.4.md) | 2026-11-05 18:50:38 EST |
 | bob-mac-capture | [`bob-mac-capture@16c79f6`](https://github.com/bobs-org/bob-mac-capture/commit/16c79f6901b3cc070934ac8486adac3d00861f4a) | feat(capture): add past Pomodoro segment UI support | [bob-cli-hj.6](bob-cli-hj.6.md) | 2026-11-05 22:20:00 EST |
+| bob-mac-capture | [`bob-mac-capture@9578c66`](https://github.com/bobs-org/bob-mac-capture/commit/9578c6634f345dd7d4d7563a8e0980d10b9c6fe0) | fix(capture): preserve past-segment submit after rewrite | [bob-cli-hj.6](bob-cli-hj.6.md) | 2026-11-06 06:18:40 EST |
 
 <!-- sase:referenced-by:start -->
 

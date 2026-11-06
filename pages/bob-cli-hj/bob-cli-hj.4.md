@@ -20,7 +20,7 @@ assists: add the pomodoro_past_segment completion context and candidates (plus z
 ## Dependencies
 
 - **Depends on:** [bob-cli-hj.3](bob-cli-hj.3.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hj.6](bob-cli-hj.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hj.6](bob-cli-hj.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
