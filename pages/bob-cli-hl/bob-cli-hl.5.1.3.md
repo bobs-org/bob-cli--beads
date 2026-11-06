@@ -18,7 +18,7 @@ band: build CaptureMergeInPresentation and render complete, pending, and refusal
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -31,3 +31,15 @@ band: build CaptureMergeInPresentation and render complete, pending, and refusal
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e30a2f4`](https://github.com/bobs-org/bob-mac-capture/commit/e30a2f44437ead3ebedd7b38fb79b1065279dc13) | feat(capture): render merge-in bands and capture outcome copy | [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) | 2026-11-06 03:05:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.5.1.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

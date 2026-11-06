@@ -13,7 +13,7 @@ rollout: require the shipped merge-in grammar revision, update affected gate fix
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
