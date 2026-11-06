@@ -25,4 +25,10 @@ compose-notes: implement the source-region model, safe note creation, reply/all 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.12.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md) | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.12.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md) | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`2a37f8c`](https://github.com/bobs-org/bob-cli/commit/2a37f8ce073d8e166590daec83412ad6e49671d8) | feat(gmail): add offline compose and reply notes | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 2026-11-06 09:24:02 EST |
