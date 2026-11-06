@@ -20,7 +20,7 @@ landing: fold contiguous merge-target rows by Bob's origin identity for both arr
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -33,3 +33,15 @@ landing: fold contiguous merge-target rows by Bob's origin identity for both arr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@6d659eb`](https://github.com/bobs-org/bob-mac-capture/commit/6d659eb244653c22fcc095914556e008ab311153) | feat(capture): fold merge targets in previews | [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) | 2026-11-06 04:47:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.5.1.4--4][1] | Need the phase scope, decisions, and current notes before resolving verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.4.md
+
+<!-- sase:referenced-by:end -->
