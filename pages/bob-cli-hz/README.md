@@ -27,7 +27,7 @@ In Bob Mac Capture, `=` is the only relation alias for `~`, and it opens Links T
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-hz.1](bob-cli-hz.1.md) | Mac relation label card flips direction | ✓ closed | medium | 2026-11-06 | 1 | 1 |
+| [bob-cli-hz.1](bob-cli-hz.1.md) | Mac relation label card flips direction | ✓ closed | medium | 2026-11-06 | 1 | 0 |
 | [bob-cli-hz.2](bob-cli-hz.2.md) | Bob capture-rewrite relation grammar | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-hz.3](bob-cli-hz.3.md) | Mac adopts the = opener and post-token flip | ◐ in_progress | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-hz.4](bob-cli-hz.4.md) | Fast == escape in the editor and picker | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
@@ -59,7 +59,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.1.md) | [bob-cli-hz.1](bob-cli-hz.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-hz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.1.md) | [bob-cli-hz.1](bob-cli-hz.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-hz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.2.md) | [bob-cli-hz.2](bob-cli-hz.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-hz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.3.md) | [bob-cli-hz.3](bob-cli-hz.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-hz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hz.4/README.md) | [bob-cli-hz.4](bob-cli-hz.4.md) | 0 |
@@ -71,5 +71,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0869f79`](https://github.com/bobs-org/bob-cli/commit/0869f7921a19b1e9b0e7e3bd6393f279d7d0567e) | feat(capture)!: rewrite relation directions | [bob-cli-hz.2](bob-cli-hz.2.md) | 2026-11-06 14:04:09 EST |
-| bob-mac-capture | [`bob-mac-capture@cbb50dc`](https://github.com/bobs-org/bob-mac-capture/commit/cbb50dc909f61f6ce4aacae86b394d11b43e02d2) | feat(capture): flip relation direction in the label card | [bob-cli-hz.1](bob-cli-hz.1.md) | 2026-11-06 14:15:29 EST |
-| bob-mac-capture | [`bob-mac-capture@418604a`](https://github.com/bobs-org/bob-mac-capture/commit/418604a58a502ca6cadd8a7442eca0257901e66d) | feat(mac-capture)!: adopt = opener and post-token relation flips | [bob-cli-hz.3](bob-cli-hz.3.md) | 2026-11-06 17:04:07 EST |
+| bob-cli--plans | [`bob-cli--plans@42f38ce`](https://github.com/bobs-org/bob-cli--plans/commit/42f38ce2198df5a0f0af799e04a4940904f8c5a4) | chore(plans): record successor card verdicts plan decisions | [bob-cli-hz.3](bob-cli-hz.3.md) | 2026-11-06 17:46:09 EST |
