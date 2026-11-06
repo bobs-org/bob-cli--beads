@@ -19,7 +19,7 @@ gmail-compose: compose notes and Reply sections, Markdown-to-email rendering wit
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hg.13](bob-cli-hg.13.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.13](bob-cli-hg.13.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
@@ -35,13 +35,15 @@ gmail-compose: compose notes and Reply sections, Markdown-to-email rendering wit
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.12.1.4][1] | Need epic DECISIONS | 1 |
-| read-by | [agent:cq][2] | Understand compose/reply/draft/confirmed-send phase status and UX | 1 |
-| read-by | [agent:research.5s.grk][3] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
-| read-by | [agent:research.5s.mus][4] | gmail user guide research | 1 |
+| read-by | [agent:bob-cli-hg.12.1.land][2] | Confirm the parent phase close after the child epic landed | 2 |
+| read-by | [agent:cq][3] | Understand compose/reply/draft/confirmed-send phase status and UX | 1 |
+| read-by | [agent:research.5s.grk][4] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
+| read-by | [agent:research.5s.mus][5] | gmail user guide research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.cq/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.cq/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
 
 <!-- sase:referenced-by:end -->

@@ -41,7 +41,9 @@ gmail-drafts: implement remote create/update/readback, compose scope checks, dur
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.12.1.3--3][1] | Need the latest phase notes, scope, and verification record before closing | 1 |
+| read-by | [agent:bob-cli-hg.12.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->

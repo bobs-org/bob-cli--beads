@@ -42,7 +42,9 @@ compose-docs: finish the guide and Bob Mail JSON fixtures, audit acceptance cove
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.12.1.6][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-hg.12.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->

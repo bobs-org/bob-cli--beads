@@ -39,7 +39,9 @@ send-finalize: expose confirmed send, integrate recovery and sent-card refresh, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.12.1.5--2][1] | Need current phase scope and notes before finalizing verified work | 1 |
+| read-by | [agent:bob-cli-hg.12.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md
 
 <!-- sase:referenced-by:end -->

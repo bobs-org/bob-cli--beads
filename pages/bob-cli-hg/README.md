@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bob_gmail.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 15 automatic references — see [Referenced By](#referenced-by)._
+_Plus 16 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_gmail.md
 
@@ -55,11 +55,11 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-hg.1](bob-cli-hg.1.md) | Shared Google and gog plumbing extracted from gcal | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ✓ closed | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ✓ closed | medium | 2026-11-05 | 1 | 2 |
 | [bob-cli-hg.11](bob-cli-hg.11.md) | Bob Mac Capture shows Gmail links in the panel | ✓ closed | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.12](bob-cli-hg.12.md) | Compose, reply, draft, and confirmed send | ✓ closed | large | 2026-11-05 | 1 | 0 |
-| [bob-cli-hg.13](bob-cli-hg.13.md) | Bob Mail compose surface in Obsidian | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
-| [bob-cli-hg.14](bob-cli-hg.14.md) | bob gmail pull from the bob label, and attachments on demand | ✓ closed | medium | 2026-11-05 | 1 | 1 |
+| [bob-cli-hg.13](bob-cli-hg.13.md) | Bob Mail compose surface in Obsidian | ✓ closed | medium | 2026-11-05 | 1 | 1 |
+| [bob-cli-hg.14](bob-cli-hg.14.md) | bob gmail pull from the bob label, and attachments on demand | ✓ closed | medium | 2026-11-05 | 1 | 2 |
 | [bob-cli-hg.2](bob-cli-hg.2.md) | Offline Gmail URL parser, token decoder, and text scanner | ✓ closed | small | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.3](bob-cli-hg.3.md) | Message model and inert body renderer | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.4](bob-cli-hg.4.md) | bob gmail noun group, config, login, logout, and doctor | ✓ closed | medium | 2026-11-05 | 1 | 1 |
@@ -85,7 +85,7 @@ flowchart TD
     n9["bob-cli-hg.12.1.4: Durable send state and recovery engine [closed]"]
     n10["bob-cli-hg.12.1.5: Confirmed send command and sent-note finalization [closed]"]
     n11["bob-cli-hg.12.1.6: Compose guide and consumer contract acceptance [closed]"]
-    n12["bob-cli-hg.13: Bob Mail compose surface in Obsidian [in_progress]"]
+    n12["bob-cli-hg.13: Bob Mail compose surface in Obsidian [closed]"]
     n13["bob-cli-hg.14: bob gmail pull from the bob label, and attachments on demand [closed]"]
     n14["bob-cli-hg.2: Offline Gmail URL parser, token decoder, and text scanner [closed]"]
     n15["bob-cli-hg.3: Message model and inert body renderer [closed]"]
@@ -169,7 +169,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-hg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.1.md) | [bob-cli-hg.1](bob-cli-hg.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.10.md) | [bob-cli-hg.10](bob-cli-hg.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.10.md) | [bob-cli-hg.10](bob-cli-hg.10.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.11.md) | [bob-cli-hg.11](bob-cli-hg.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.md) | [bob-cli-hg.12](bob-cli-hg.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md) | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 1 |
@@ -178,9 +178,9 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.12.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.4/README.md) | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.5.md) | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.6/README.md) | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-hg.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.13/README.md) | [bob-cli-hg.13](bob-cli-hg.13.md) | 0 |
-| [bbugyi200.apollo.bob-cli-hg.14](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.14.md) | [bob-cli-hg.14](bob-cli-hg.14.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.13/README.md) | [bob-cli-hg.13](bob-cli-hg.13.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.14](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.14.md) | [bob-cli-hg.14](bob-cli-hg.14.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.2/README.md) | [bob-cli-hg.2](bob-cli-hg.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.3.md) | [bob-cli-hg.3](bob-cli-hg.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.1/README.md) | [bob-cli-hg.3.1.1](bob-cli-hg.3.1.1.md) | 1 |
@@ -222,17 +222,20 @@ flowchart TD
 | bob-cli | [`7825a98`](https://github.com/bobs-org/bob-cli/commit/7825a98f0eebbec5c05932aabe267773fe7915cd) | fix(gmail): close transactional save gaps | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:02:37 EST |
 | bob-cli--plans | [`bob-cli--plans@e619854`](https://github.com/bobs-org/bob-cli--plans/commit/e6198541744c8f65619f32d9232fd8a5f70f2244) | docs(gmail): mark save list plan done | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:03:24 EST |
 | bob-cli | [`e1e8006`](https://github.com/bobs-org/bob-cli/commit/e1e800602be1e46b1d46adb46aedd768dca74391) | feat(gmail): add search, peek, and remote counts | [bob-cli-hg.9](bob-cli-hg.9.md) | 2026-11-06 07:50:22 EST |
+| bob-plugins | [`bob-plugins@f909c04`](https://github.com/bobs-org/bob-plugins/commit/f909c0445e72896d976b7cca61d29288fb8b8c75) | feat(bob-mail): add Gmail picker and paste integration | [bob-cli-hg.10](bob-cli-hg.10.md) | 2026-11-06 08:11:53 EST |
+| bob-plugins | [`bob-plugins@62e6113`](https://github.com/bobs-org/bob-plugins/commit/62e6113725f62156ed44943d727adac24a09c3eb) | docs(bob-mail): add reference page to navigation | [bob-cli-hg.10](bob-cli-hg.10.md) | 2026-11-06 08:53:25 EST |
 | bob-cli | [`2a37f8c`](https://github.com/bobs-org/bob-cli/commit/2a37f8ce073d8e166590daec83412ad6e49671d8) | feat(gmail): add offline compose and reply notes | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 2026-11-06 09:24:02 EST |
 | bob-cli | [`f075147`](https://github.com/bobs-org/bob-cli/commit/f075147f4bb928427a7b21501e863b3c99051b5e) | feat(gmail): swap Gmail URLs for labelled links, and backfill | [bob-cli-hg.7](bob-cli-hg.7.md) | 2026-11-06 09:57:47 EST |
 | bob-cli | [`ee05db4`](https://github.com/bobs-org/bob-cli/commit/ee05db4d8ffeb6714ee90abbcf65d9d7c6215e46) | feat(gmail): add compose render and attachment staging | [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) | 2026-11-06 10:33:11 EST |
 | bob-cli | [`e096004`](https://github.com/bobs-org/bob-cli/commit/e0960045bf86d88f7f2443b746a7ef48c4643245) | feat(gmail): link captured Gmail URLs without blocking capture | [bob-cli-hg.8](bob-cli-hg.8.md) | 2026-11-06 10:48:25 EST |
 | bob-cli | [`ec39e1a`](https://github.com/bobs-org/bob-cli/commit/ec39e1a00e0ac9339d832d22db956ade66731c47) | feat(gmail): pull label mail and import attachments | [bob-cli-hg.14](bob-cli-hg.14.md) | 2026-11-06 11:17:57 EST |
+| bob-plugins | [`bob-plugins@5fbe82a`](https://github.com/bobs-org/bob-plugins/commit/5fbe82a96836b8b54c2424738b7e63831c15e033) | feat(navigation): handle Gmail attachment origins | [bob-cli-hg.14](bob-cli-hg.14.md) | 2026-11-06 11:24:49 EST |
 | bob-cli | [`b6a9624`](https://github.com/bobs-org/bob-cli/commit/b6a962435aa73b8a06d1fe654ebcf1f58caa3658) | feat(gmail): add safe draft create and update flow | [bob-cli-hg.12.1.3](bob-cli-hg.12.1.3.md) | 2026-11-06 12:41:42 EST |
 | bob-cli | [`8935148`](https://github.com/bobs-org/bob-cli/commit/8935148f6933c96f6e709bdb161d69bcc411573c) | feat(gmail): add durable send-recovery engine for compose drafts | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 2026-11-06 13:37:00 EST |
 | bob-cli | [`57af3ea`](https://github.com/bobs-org/bob-cli/commit/57af3ead752da458c1dcc8b66c71396e46b2092c) | feat(gmail): add confirmed send and note finalization | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 2026-11-06 15:25:30 EST |
 | bob-cli | [`ae624e2`](https://github.com/bobs-org/bob-cli/commit/ae624e2791aafc17d099cdf84244d7238787c625) | docs(gmail): document compose send flow and pin contract fixtures | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 2026-11-06 15:54:12 EST |
 | bob-cli | [`f1d8285`](https://github.com/bobs-org/bob-cli/commit/f1d8285ef1be73aa036e001a17e6e39bc887db96) | fix(gmail): land compose epic without intermediate allowances | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:29:53 EST |
-| bob-cli--plans | [`bob-cli--plans@1b20daf`](https://github.com/bobs-org/bob-cli--plans/commit/1b20daf288e8d98eb8463f44da4bd3b4d43ddd78) | chore(plans): mark gmail\_compose epic plan done | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:30:45 EST |
+| bob-plugins | [`bob-plugins@2563c78`](https://github.com/bobs-org/bob-plugins/commit/2563c7898644d1f784c13f3eefa698285ae4a381) | feat(bob-mail): add compose commands with send preview and undo window | [bob-cli-hg.13](bob-cli-hg.13.md) | 2026-11-06 16:50:46 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -242,34 +245,36 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h8.land][1] | Check owner epic of theme vector drift | 1 |
 | read-by | [agent:bob-cli-he.land][2] | Check whether the gmail epic (source of the derivable_impls clippy error in gmail/body/mime.rs) is still active | 2 |
-| read-by | [agent:bob-cli-hg.3.1.2][3] | Need epic decisions | 1 |
-| read-by | [agent:bob-cli-hg.3.1.3][4] | Need governing Gmail epic decisions for this renderer phase | 1 |
-| read-by | [agent:bob-cli-hg.4][5] | Need epic scope for hg.4 work | 1 |
-| read-by | [agent:bob-cli-hg.6.1.3][6] | Need the outer epic decisions inherited by the Gmail save work | 1 |
-| read-by | [agent:bob-cli-hg.6.1.land--1][7] | Verify the child and parent closure records and confirm the outer Gmail epic remains open | 1 |
-| read-by | [agent:bob-cli-hl.3.1.land][8] | Check whether the root-help gmail snapshot drift is already recorded on the active Gmail epic | 1 |
-| read-by | [agent:cq][9] | Understand the new email drafting capabilities to draft replies to Dan and Sam | 1 |
-| read-by | [agent:research.5s.cdx][10] | Understand the Gmail integration epic scope and current phase status for an independent user guide | 1 |
-| read-by | [agent:research.5s.cld][11] | Context for writing a Gmail integration user guide | 1 |
-| read-by | [agent:research.5s.final][12] | Confirm Gmail epic phase status for consolidated user guide | 1 |
-| read-by | [agent:research.5s.gem][13] | Context for gmail integration user guide | 1 |
-| read-by | [agent:research.5s.grk][14] | Need the Gmail epic scope and user-facing intent for the user guide | 1 |
-| read-by | [agent:research.5s.mus][15] | research gmail integration user guide | 1 |
+| read-by | [agent:bob-cli-hg.12.1.land][3] | Need sibling phase status to judge stale Gmail docs and parent landing | 1 |
+| read-by | [agent:bob-cli-hg.3.1.2][4] | Need epic decisions | 1 |
+| read-by | [agent:bob-cli-hg.3.1.3][5] | Need governing Gmail epic decisions for this renderer phase | 1 |
+| read-by | [agent:bob-cli-hg.4][6] | Need epic scope for hg.4 work | 1 |
+| read-by | [agent:bob-cli-hg.6.1.3][7] | Need the outer epic decisions inherited by the Gmail save work | 1 |
+| read-by | [agent:bob-cli-hg.6.1.land--1][8] | Verify the child and parent closure records and confirm the outer Gmail epic remains open | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][9] | Check whether the root-help gmail snapshot drift is already recorded on the active Gmail epic | 1 |
+| read-by | [agent:cq][10] | Understand the new email drafting capabilities to draft replies to Dan and Sam | 1 |
+| read-by | [agent:research.5s.cdx][11] | Understand the Gmail integration epic scope and current phase status for an independent user guide | 1 |
+| read-by | [agent:research.5s.cld][12] | Context for writing a Gmail integration user guide | 1 |
+| read-by | [agent:research.5s.final][13] | Confirm Gmail epic phase status for consolidated user guide | 1 |
+| read-by | [agent:research.5s.gem][14] | Context for gmail integration user guide | 1 |
+| read-by | [agent:research.5s.grk][15] | Need the Gmail epic scope and user-facing intent for the user guide | 1 |
+| read-by | [agent:research.5s.mus][16] | research gmail integration user guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h8.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-he.land/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.3/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.4/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hl.3.1.land/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.cq/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.cdx/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.cld/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.final/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.gem/README.md
-[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
-[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.4/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hl.3.1.land/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.cq/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.cdx/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.cld/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.final/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.gem/README.md
+[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[16]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
 
 <!-- sase:referenced-by:end -->
