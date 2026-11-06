@@ -231,7 +231,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.7/README.md) | [bob-cli-hg.7](bob-cli-hg.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.8.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.9/README.md) | [bob-cli-hg.9](bob-cli-hg.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.land/README.md) | [bob-cli-hg](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.land/README.md) | [bob-cli-hg](README.md) | 2 |
 
 ## Commits
 
@@ -270,6 +270,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@1b20daf`](https://github.com/bobs-org/bob-cli--plans/commit/1b20daf288e8d98eb8463f44da4bd3b4d43ddd78) | chore(plans): mark gmail\_compose epic plan done | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:30:45 EST |
 | bob-plugins | [`bob-plugins@2563c78`](https://github.com/bobs-org/bob-plugins/commit/2563c7898644d1f784c13f3eefa698285ae4a381) | feat(bob-mail): add compose commands with send preview and undo window | [bob-cli-hg.13](bob-cli-hg.13.md) | 2026-11-06 16:50:46 EST |
 | bob-cli | [`17aae71`](https://github.com/bobs-org/bob-cli/commit/17aae714ce5bec3163fa88029082d8ba284d0e00) | fix(gmail): land the Gmail epic with sign-in hints, fresh guides, and no stale allowances | [bob-cli-hg](README.md) | 2026-11-06 18:00:49 EST |
+| bob-cli--plans | [`bob-cli--plans@95cf12b`](https://github.com/bobs-org/bob-cli--plans/commit/95cf12b25fd3325bcc3dac678caca595851514f4) | chore(plans): mark the bob gmail epic plan done | [bob-cli-hg](README.md) | 2026-11-06 18:01:39 EST |
 
 <!-- sase:referenced-by:start -->
 
