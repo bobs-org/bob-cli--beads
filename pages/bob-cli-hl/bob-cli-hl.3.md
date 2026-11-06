@@ -19,7 +19,7 @@ execute: stage the new task, then run one explicit merge into it through a helpe
 
 - **Depends on:** [bob-cli-hl.2](bob-cli-hl.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hl.5](bob-cli-hl.5.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.6](bob-cli-hl.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.6](bob-cli-hl.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -34,7 +34,9 @@ execute: stage the new task, then run one explicit merge into it through a helpe
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hl.3.1.4][1] | Need epic DECISIONS governing phase work | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][2] | Need the parent phase scope and notes for later closure | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->

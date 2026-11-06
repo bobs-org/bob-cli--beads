@@ -40,7 +40,9 @@ grammar: add the shared merge-in scanner, claim it in execution and editor parsi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hn.6.1.2--3][1] | Verify the existing tracker cited for the reproduced docs-link failure | 1 |
+| read-by | [agent:bob-cli-hn.6.1.land--1][2] | Verify the disposition of the prior task-merge documentation follow-up | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md
 
 <!-- sase:referenced-by:end -->

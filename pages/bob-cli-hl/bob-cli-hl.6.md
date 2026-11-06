@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-hl](README.md) / bob-cli-hl.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.190](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.190.md) · **Assignee:** `bob-cli-hl.6` · **Size:** small
-**Created:** 2026-11-05 18:05:40 EST
+**Created:** 2026-11-05 18:05:40 EST · **Closed:** 2026-11-06 01:38:35 EST
 **Plan:** [202611/capture\_merge\_in\_arrow.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_merge_in_arrow.md)
 
 ## Description
 
 memory: apply the accepted memory decisions for the Task Merge glossary strand and the optional new decision record.
+
+## Notes
+
+[2026-11-06T06:38:35Z · bob-cli-hl.6] Verified the accepted glossary:task-merge gesture wording is already committed in d9e35359; memory init completed with no project changes; no new decision record was authorized; epic-symbol check reports none.
 
 ## Dependencies
 

@@ -44,7 +44,9 @@ origins: carry internal source identity and insertion ranges from the merge engi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hl.3.1.2][1] | Final verification before close | 3 |
+| read-by | [agent:bob-cli-hl.3.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->

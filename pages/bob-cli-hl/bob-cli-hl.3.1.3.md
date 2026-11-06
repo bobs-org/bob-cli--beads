@@ -49,9 +49,11 @@ execute: stage the ordinary new task and its authored inputs, settle its ID, res
 | read-by | [agent:bob-cli-hg.6.1.1--1][1] | Need any existing tracking for clipboard failures | 1 |
 | read-by | [agent:bob-cli-hl.3.1.3--6][2] | Need the phase scope, design file, notes, and prior recorded work | 3 |
 | read-by | [agent:bob-cli-hl.3.1.4][3] | Check sibling execute phase status to see what landed | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][4] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hg.6.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->

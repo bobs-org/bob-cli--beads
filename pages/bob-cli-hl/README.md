@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_merge_in_arrow.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_merge_in_arrow.md
 
@@ -40,7 +40,7 @@ A capture line that creates one open task can end with `< @route+id …` to fold
 | [bob-cli-hl.3](bob-cli-hl.3.md) | One-transaction execution, output, and copy fixes | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hl.4](bob-cli-hl.4.md) | Pickers, rewrite toggle, and Similar tasks | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hl.5](bob-cli-hl.5.md) | Bob Mac Capture merge-in band and pickers | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
-| [bob-cli-hl.6](bob-cli-hl.6.md) | Memory notes | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
+| [bob-cli-hl.6](bob-cli-hl.6.md) | Memory notes | ✓ closed | small | 2026-11-05 | 1 | 0 |
 
 ## Lineage
 
@@ -58,7 +58,13 @@ flowchart TD
     n9["bob-cli-hl.3.1.5: Prove equivalence, rollback, and final contract coverage [closed]"]
     n10["bob-cli-hl.4: Pickers, rewrite toggle, and Similar tasks [closed]"]
     n11["bob-cli-hl.5: Bob Mac Capture merge-in band and pickers [in_progress]"]
-    n12["bob-cli-hl.6: Memory notes [in_progress]"]
+    n12["bob-cli-hl.5.1: Complete Bob Mac Capture merge-in bands and pickers [in_progress]"]
+    n13["bob-cli-hl.5.1.1: Decode merge-in contracts and record fixture responses [closed]"]
+    n14["bob-cli-hl.5.1.2: Integrate merge-in source pickers and explicit diagnostic rewrites [in_progress]"]
+    n15["bob-cli-hl.5.1.3: Render merge-in bands and capture outcome copy [in_progress]"]
+    n16["bob-cli-hl.5.1.4: Fold merge landing groups and remove duplicate target blocks [in_progress]"]
+    n17["bob-cli-hl.5.1.5: Raise the grammar gate and verify the integrated Mac experience [in_progress]"]
+    n18["bob-cli-hl.6: Memory notes [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -70,18 +76,28 @@ flowchart TD
     n4 --> n9
     n0 --> n10
     n0 --> n11
-    n0 --> n12
+    n11 --> n12
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
+    n12 --> n16
+    n12 --> n17
+    n0 --> n18
     n1 -.-> n2
     n2 -.-> n3
     n2 -.-> n10
     n3 -.-> n11
-    n3 -.-> n12
+    n3 -.-> n18
     n5 -.-> n6
     n6 -.-> n7
     n6 -.-> n8
     n7 -.-> n9
     n8 -.-> n9
     n10 -.-> n11
+    n13 -.-> n14
+    n14 -.-> n15
+    n15 -.-> n16
+    n16 -.-> n17
 ```
 
 ## Agents
@@ -98,7 +114,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hl.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.5.md) | [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md) | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-hl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.4/README.md) | [bob-cli-hl.4](bob-cli-hl.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-hl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5/README.md) | [bob-cli-hl.5](bob-cli-hl.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.md) | [bob-cli-hl.5](bob-cli-hl.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.1/README.md) | [bob-cli-hl.5.1.1](bob-cli-hl.5.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-hl.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.2/README.md) | [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.3/README.md) | [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.4/README.md) | [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.5/README.md) | [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.land/README.md) | [bob-cli-hl.5.1](bob-cli-hl.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.6/README.md) | [bob-cli-hl.6](bob-cli-hl.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.land/README.md) | [bob-cli-hl](README.md) | 0 |
 
@@ -116,6 +138,7 @@ flowchart TD
 | bob-cli | [`6af313b`](https://github.com/bobs-org/bob-cli/commit/6af313b4d36460174ff6b951e208653ea0160afc) | test(capture): complete merge-in acceptance coverage | [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) | 2026-11-06 01:00:42 EST |
 | bob-cli | [`248a2bf`](https://github.com/bobs-org/bob-cli/commit/248a2bfa3b53e68d02e5f4976f76c75e3575add1) | refactor(capture): share merge source eligibility with merge-in pending and picker | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 2026-11-06 01:35:29 EST |
 | bob-cli--plans | [`bob-cli--plans@1c331fb`](https://github.com/bobs-org/bob-cli--plans/commit/1c331fb6ad840c4f10f2b7834b60b640ddbde1e6) | chore(plans): mark capture\_merge\_in\_execution done | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 2026-11-06 01:35:53 EST |
+| bob-mac-capture | [`bob-mac-capture@b4b343f`](https://github.com/bobs-org/bob-mac-capture/commit/b4b343f81c206d5b378438cda8381ba916e41934) | feat(capture): add merge-in tolerant models, fixtures and decoding tests | [bob-cli-hl.5.1.1](bob-cli-hl.5.1.1.md) | 2026-11-06 02:10:15 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -123,8 +146,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-hl.4][1] | Check for already-recorded clean-base gate failures and follow-up trackers | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][1] | Need sibling phase states to judge integration ownership | 1 |
+| read-by | [agent:bob-cli-hl.4][2] | Check for already-recorded clean-base gate failures and follow-up trackers | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.4/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.4/README.md
 
 <!-- sase:referenced-by:end -->
