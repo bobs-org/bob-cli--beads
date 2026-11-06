@@ -18,7 +18,7 @@ digest-engine: implement `install_ui digest`. It resolves ranges from the instal
 ## Dependencies
 
 - **Depends on:** [bob-cli-i0.1](bob-cli-i0.1.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-i0.4](bob-cli-i0.4.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-i0.4](bob-cli-i0.4.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -31,3 +31,15 @@ digest-engine: implement `install_ui digest`. It resolves ranges from the instal
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4fd782a`](https://github.com/bobs-org/bob-cli/commit/4fd782a3c172e732244a7625b2c236bcbd1f3600) | feat(install): add What's new digest engine | [bob-cli-i0.2](bob-cli-i0.2.md) | 2026-11-06 15:56:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-i0.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.2/README.md
+
+<!-- sase:referenced-by:end -->
