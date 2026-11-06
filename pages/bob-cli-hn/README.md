@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 2 |
-| [bbugyi200.athena.bob-cli-hn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md) | [bob-cli-hn](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-hn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md) | [bob-cli-hn](README.md) | 3 |
 
 ## Commits
 
@@ -159,6 +159,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@5b0dca6`](https://github.com/bobs-org/bob-mac-capture/commit/5b0dca60fbcc6695ed7a1dad77b27be01a9b3eb0) | fix(mac-capture): reopen Pull-In verdicts after offer-close refusal | [bob-cli-hn.9](bob-cli-hn.9.md) | 2026-11-06 11:14:23 EST |
 | bob-cli--plans | [`bob-cli--plans@3ebf27e`](https://github.com/bobs-org/bob-cli--plans/commit/3ebf27e5fdf9b08fa381ad1a56f55ccf8ead00ef) | chore(plans): mark finished successor-verdict child tales done | [bob-cli-hn](README.md) | 2026-11-06 12:00:34 EST |
 | bob-cli--plans | [`bob-cli--plans@2b7e853`](https://github.com/bobs-org/bob-cli--plans/commit/2b7e853b8bdfc9caf327d7d2158780193e9539eb) | docs(plan): mark successor card verdicts complete | [bob-cli-hn](README.md) | 2026-11-06 13:20:54 EST |
+| bob-cli | [`86b2501`](https://github.com/bobs-org/bob-cli/commit/86b2501bfcc441028698aa74adc2e66cd6e194b7) | fix(capture): repair successor verdict landing behavior | [bob-cli-hn](README.md) | 2026-11-06 13:21:35 EST |
 
 <!-- sase:referenced-by:start -->
 
