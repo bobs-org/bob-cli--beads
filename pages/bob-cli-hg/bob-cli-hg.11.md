@@ -11,6 +11,10 @@
 
 mac-gmail-preview: decode and paint the gmail_url span, show each item's Gmail preview line, and after typing settles show the real subject and sender from `bob gmail peek`, green on macOS CI.
 
+## Notes
+
+[2026-11-06T16:30:50Z · bob-cli-hg.11] PROPOSED FOLLOW-UP: bob-cli docs contract snapshot test_readme_table_matches_original_contract_index_snapshot fails on clean base e096004 (cached docs-check checkout); unrelated to mac-gmail-preview, needs snapshot regen by docs owner
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.8](bob-cli-hg.8.md) ✓ · ⧖ 2026-11-05
@@ -20,7 +24,7 @@ mac-gmail-preview: decode and paint the gmail_url span, show each item's Gmail p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.11/README.md) | [bob-cli-hg.11](bob-cli-hg.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.11.md) | [bob-cli-hg.11](bob-cli-hg.11.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

@@ -20,7 +20,7 @@ compose-render: implement conservative HTML/plain output, syntax refusals, flatt
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-hg.12.1.3](bob-cli-hg.12.1.3.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hg.12.1.3](bob-cli-hg.12.1.3.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
