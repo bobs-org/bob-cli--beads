@@ -13,7 +13,7 @@ cli: add `-x/--complete-offer` and `-X/--cancel-offer`, resolve and validate ver
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hn.2](bob-cli-hn.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hn.2](bob-cli-hn.2.md) ○ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hn.8](bob-cli-hn.8.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

@@ -21,8 +21,8 @@ contract: write the binding bob-cli docs contract in docs/task-dependencies.md �
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hn.2](bob-cli-hn.2.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hn.4](bob-cli-hn.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hn.2](bob-cli-hn.2.md) ○ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hn.4](bob-cli-hn.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -35,3 +35,15 @@ contract: write the binding bob-cli docs contract in docs/task-dependencies.md �
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`723af32`](https://github.com/bobs-org/bob-cli/commit/723af3246886bd84fba1899a4aa19f280314ca05) | feat(docs): define successor offer verdict contract | [bob-cli-hn.1](bob-cli-hn.1.md) | 2026-11-05 18:56:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hn.1][1] | Verify recorded phase notes before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.1/README.md
+
+<!-- sase:referenced-by:end -->

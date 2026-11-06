@@ -13,7 +13,7 @@ nav-apis: expose a pure Task-Card-parity cancel planner as api.cancel v1, and ex
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hn.4](bob-cli-hn.4.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hn.4](bob-cli-hn.4.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hn.6](bob-cli-hn.6.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
