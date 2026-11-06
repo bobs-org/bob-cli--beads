@@ -28,13 +28,19 @@ cli: add `-x/--complete-offer` and `-X/--cancel-offer`, resolve and validate ver
 ## Dependencies
 
 - **Depends on:** [bob-cli-hn.2](bob-cli-hn.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hn.8](bob-cli-hn.8.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hn.8](bob-cli-hn.8.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md) | [bob-cli-hn.3](bob-cli-hn.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md) | [bob-cli-hn.3](bob-cli-hn.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`efbe347`](https://github.com/bobs-org/bob-cli/commit/efbe3470dd1eee15711d639e8f0ead022ff86d27) | feat(capture): implement offer verdict surface with complete and cancel offers | [bob-cli-hn.3](bob-cli-hn.3.md) | 2026-11-05 21:54:15 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ mac-card: wire the outcome model into the Pull-In card (⌃X/⌃⇧X routing, in
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hn.8](bob-cli-hn.8.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hn.8](bob-cli-hn.8.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
