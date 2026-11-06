@@ -20,4 +20,10 @@ send-finalize: expose confirmed send, integrate recovery and sent-card refresh, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.12.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.5/README.md) | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.12.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.5.md) | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`57af3ea`](https://github.com/bobs-org/bob-cli/commit/57af3ead752da458c1dcc8b66c71396e46b2092c) | feat(gmail): add confirmed send and note finalization | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 2026-11-06 15:25:30 EST |

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_compose.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_compose.md
 
@@ -38,7 +38,11 @@ Complete bob-cli-hg.12 with editable compose/reply notes, exact draft previews, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.12.1.1][1] | Need final epic decisions governing this phase | 1 |
+| read-by | [agent:bob-cli-hg.12.1.4][2] | Need epic scope and DECISIONS | 1 |
+| read-by | [agent:cq][3] | Understand compose child epic phase status (which parts landed) | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.cq/README.md
 
 <!-- sase:referenced-by:end -->
