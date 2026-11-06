@@ -44,7 +44,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 | [bob-cli-hg.2](bob-cli-hg.2.md) | Offline Gmail URL parser, token decoder, and text scanner | ✓ closed | small | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.3](bob-cli-hg.3.md) | Message model and inert body renderer | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.4](bob-cli-hg.4.md) | bob gmail noun group, config, login, logout, and doctor | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hg.5](bob-cli-hg.5.md) | Mail note layout, label, path, index, and append-only refresh | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.5](bob-cli-hg.5.md) | Mail note layout, label, path, index, and append-only refresh | ○ open | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.6](bob-cli-hg.6.md) | bob gmail save and list | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.7](bob-cli-hg.7.md) | bob gmail link — swap Gmail URLs for labelled links, and backfill | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.8](bob-cli-hg.8.md) | Capture recognizes Gmail URLs and links them after submit | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
@@ -69,7 +69,7 @@ flowchart TD
     n12["bob-cli-hg.3.1.3: Render HTML bodies with quote folding and safe images [closed]"]
     n13["bob-cli-hg.3.1.4: Complete the pure message renderer and its acceptance corpus [closed]"]
     n14["bob-cli-hg.4: bob gmail noun group, config, login, logout, and doctor [closed]"]
-    n15["bob-cli-hg.5: Mail note layout, label, path, index, and append-only refresh [in_progress]"]
+    n15["bob-cli-hg.5: Mail note layout, label, path, index, and append-only refresh [open]"]
     n16["bob-cli-hg.6: bob gmail save and list [in_progress]"]
     n17["bob-cli-hg.7: bob gmail link — swap Gmail URLs for labelled links, and backfill [in_progress]"]
     n18["bob-cli-hg.8: Capture recognizes Gmail URLs and links them after submit [in_progress]"]
@@ -129,7 +129,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md) | [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.3/README.md) | [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.4/README.md) | [bob-cli-hg.3.1.4](bob-cli-hg.3.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.3.1.land.md) | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.3.1.land.md) | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.4/README.md) | [bob-cli-hg.4](bob-cli-hg.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.5/README.md) | [bob-cli-hg.5](bob-cli-hg.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6/README.md) | [bob-cli-hg.6](bob-cli-hg.6.md) | 0 |
@@ -150,6 +150,7 @@ flowchart TD
 | bob-cli | [`540f3e6`](https://github.com/bobs-org/bob-cli/commit/540f3e6fda16bb88bf6c58c8f7ee551ed4916230) | feat(gmail): render HTML message bodies | [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) | 2026-11-05 19:59:05 EST |
 | bob-cli | [`45118e1`](https://github.com/bobs-org/bob-cli/commit/45118e1b197b3c1c604c837d3b73a27d5e813aa8) | feat(gmail): complete the pure message renderer and its acceptance corpus | [bob-cli-hg.3.1.4](bob-cli-hg.3.1.4.md) | 2026-11-05 21:03:30 EST |
 | bob-cli | [`232e94b`](https://github.com/bobs-org/bob-cli/commit/232e94bbf507e17b31790d434f4288ff31adbae6) | feat(gmail): repair renderer landing and finish hg.3.1 | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 2026-11-05 22:20:04 EST |
+| bob-cli--plans | [`bob-cli--plans@6e63268`](https://github.com/bobs-org/bob-cli--plans/commit/6e63268021e9c4abaef71269304926ff313cd40e) | docs(plans): mark gmail\_mail\_body done | [bob-cli-hg.3.1](bob-cli-hg.3.1.md) | 2026-11-05 22:21:01 EST |
 
 <!-- sase:referenced-by:start -->
 
