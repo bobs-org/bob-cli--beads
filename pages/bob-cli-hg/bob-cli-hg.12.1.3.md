@@ -13,7 +13,7 @@ gmail-drafts: implement remote create/update/readback, compose scope checks, dur
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) ◐ · ⧖ 2026-11-06
 
 ## Agents

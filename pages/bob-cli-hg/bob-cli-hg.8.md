@@ -11,6 +11,10 @@
 
 capture-gmail: add the gmail_url capture-parse span and dry-run preview data, link already-saved threads offline at submit, and kick a detached single-flight `bob gmail link` worker after commit, with the grammar and docs updated.
 
+## Notes
+
+[2026-11-06T15:18:19Z · bob-cli-hg.8] Implemented Gmail capture spans and offline preview/saved-link substitution (grammar 16), post-commit scoped single-flight worker queue, login/logout local receipts for a zero-gog capture gate, docs and regression tests. Earlier Gmail linker landed at f075147f; no prior phase implementation existed. Verified cargo test --lib gmail::worker: 3 passed; git diff --check clean; epic-symbols reports none. Remaining work fits one coder: run new CLI regressions, regenerate docs, run docs-check and just check, repair any failures, then close only bob-cli-hg.8. No memory edited.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-hg.11](bob-cli-hg.11.md) ◐ · ⧖ 2026-11-05
@@ -20,7 +24,7 @@ capture-gmail: add the gmail_url capture-parse span and dry-run preview data, li
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.8/README.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.8.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

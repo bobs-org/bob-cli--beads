@@ -19,7 +19,7 @@ compose-notes: implement the source-region model, safe note creation, reply/all 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -32,3 +32,15 @@ compose-notes: implement the source-region model, safe note creation, reply/all 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2a37f8c`](https://github.com/bobs-org/bob-cli/commit/2a37f8ce073d8e166590daec83412ad6e49671d8) | feat(gmail): add offline compose and reply notes | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 2026-11-06 09:24:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.12.1.1][1] | Confirm whether this phase has prior work notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md
+
+<!-- sase:referenced-by:end -->
