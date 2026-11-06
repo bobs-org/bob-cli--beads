@@ -26,7 +26,7 @@ execute: stage the ordinary new task and its authored inputs, settle its ID, res
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -46,8 +46,12 @@ execute: stage the ordinary new task and its authored inputs, settle its ID, res
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-hl.3.1.4][1] | Check sibling execute phase status to see what landed | 1 |
+| read-by | [agent:bob-cli-hg.6.1.1--1][1] | Need any existing tracking for clipboard failures | 1 |
+| read-by | [agent:bob-cli-hl.3.1.3--6][2] | Need the phase scope, design file, notes, and prior recorded work | 3 |
+| read-by | [agent:bob-cli-hl.3.1.4][3] | Check sibling execute phase status to see what landed | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hg.6.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->
