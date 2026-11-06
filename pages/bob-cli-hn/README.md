@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hn.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.2.md) | [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.4.md) | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 0 |
@@ -126,6 +126,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@3af8d0c`](https://github.com/bobs-org/bob-plugins/commit/3af8d0cddaf7a7bf1ae3d4073f58c9a39a4e2934) | feat(task-status-cycler): apply guarded offer-close verdicts with Undo snapshots | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 2026-11-05 22:49:07 EST |
 | bob-plugins | [`bob-plugins@1c3aaf1`](https://github.com/bobs-org/bob-plugins/commit/1c3aaf1235e8e175240d08b9541b8a275f895bb8) | feat(plugins): integrate successor close verdicts | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 2026-11-06 00:31:23 EST |
 | bob-cli | [`5c119a0`](https://github.com/bobs-org/bob-cli/commit/5c119a06983ecdb8489098d4da73ef0d02978899) | fix(task-complete): repair successor verdict contracts and receipts | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 2026-11-06 01:46:50 EST |
+| bob-plugins | [`bob-plugins@d45d8f7`](https://github.com/bobs-org/bob-plugins/commit/d45d8f7ddd8b422faf7f152a978138d5bad8e4d7) | fix(task-status-cycler): preserve guarded undo and recovery receipts | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 2026-11-06 01:47:10 EST |
 
 <!-- sase:referenced-by:start -->
 
