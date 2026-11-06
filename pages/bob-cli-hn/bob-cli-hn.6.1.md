@@ -1,0 +1,18 @@
+# Bead: bob-cli-hn.6.1 — Complete cycler successor-card verdicts
+
+[Bead Pages](../README.md) / [bob-cli-hn.6](bob-cli-hn.6.md) / bob-cli-hn.6.1
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-hn.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.md) · **Assignee:** `bob-cli-hn.6.1.land`
+**Created:** 2026-11-05 20:37:46 EST
+**Plan:** [202611/cycler\_offer\_verdicts.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_offer_verdicts.md)
+
+## Description
+
+Obsidian successor cards safely apply Done and Cancel alongside pull-ins, recover dependents without another offer round, report exact guarded Undo, and advance the review walk once without landing on a resolved task.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.land/README.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 0 |

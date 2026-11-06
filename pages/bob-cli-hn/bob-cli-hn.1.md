@@ -43,7 +43,9 @@ contract: write the binding bob-cli docs contract in docs/task-dependencies.md Â
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hn.1][1] | Verify recorded phase notes before closing | 3 |
+| read-by | [agent:bob-cli-hn.2][2] | Check whether the approved supersession target was created in the earlier contract phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.2/README.md
 
 <!-- sase:referenced-by:end -->

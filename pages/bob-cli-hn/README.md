@@ -50,27 +50,40 @@ flowchart TD
     n4["bob-cli-hn.4: Obsidian successor picker verdict UI (api.successors v4) [closed]"]
     n5["bob-cli-hn.5: Nav cancel API v1 and Unblocked notice v4 [closed]"]
     n6["bob-cli-hn.6: Cycler eligibility, verdict apply step, receipts, and undo [in_progress]"]
-    n7["bob-cli-hn.7: Verdicts on the Obsidian project-promotion card [in_progress]"]
-    n8["bob-cli-hn.8: CaptureCore decoding, outcome model, argv, and fixtures [in_progress]"]
-    n9["bob-cli-hn.9: Mac Pull-In card verdict UI [in_progress]"]
+    n7["bob-cli-hn.6.1: Complete cycler successor-card verdicts [in_progress]"]
+    n8["bob-cli-hn.6.1.1: Repair the shared offer-close contract and executable vectors [closed]"]
+    n9["bob-cli-hn.6.1.2: Add cycler close descriptors and normalize staged choices [in_progress]"]
+    n10["bob-cli-hn.6.1.3: Apply guarded verdicts and recover dependents with Undo snapshots [in_progress]"]
+    n11["bob-cli-hn.6.1.4: Connect verdicts to gestures, notices, reopen, and the review walk [in_progress]"]
+    n12["bob-cli-hn.7: Verdicts on the Obsidian project-promotion card [in_progress]"]
+    n13["bob-cli-hn.8: CaptureCore decoding, outcome model, argv, and fixtures [in_progress]"]
+    n14["bob-cli-hn.9: Mac Pull-In card verdict UI [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
+    n6 --> n7
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n7 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
     n1 -.-> n2
     n1 -.-> n4
     n2 -.-> n3
     n2 -.-> n6
-    n3 -.-> n8
+    n3 -.-> n13
     n4 -.-> n5
     n5 -.-> n6
-    n6 -.-> n7
+    n6 -.-> n12
     n8 -.-> n9
+    n9 -.-> n10
+    n10 -.-> n11
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -82,7 +95,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hn.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md) | [bob-cli-hn.3](bob-cli-hn.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md) | [bob-cli-hn.4](bob-cli-hn.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.5/README.md) | [bob-cli-hn.5](bob-cli-hn.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-hn.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6/README.md) | [bob-cli-hn.6](bob-cli-hn.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.md) | [bob-cli-hn.6](bob-cli-hn.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.1/README.md) | [bob-cli-hn.6.1.1](bob-cli-hn.6.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-hn.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.2/README.md) | [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.4/README.md) | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.land/README.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.9/README.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 0 |
@@ -94,6 +112,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`723af32`](https://github.com/bobs-org/bob-cli/commit/723af3246886bd84fba1899a4aa19f280314ca05) | feat(docs): define successor offer verdict contract | [bob-cli-hn.1](bob-cli-hn.1.md) | 2026-11-05 18:56:31 EST |
 | bob-cli | [`53f9c2c`](https://github.com/bobs-org/bob-cli/commit/53f9c2c758653cb54fbb1fd4d4339d18ae23d459) | feat(capture): add staged offer close descriptors | [bob-cli-hn.2](bob-cli-hn.2.md) | 2026-11-05 20:19:35 EST |
+| bob-cli | [`44c5c8c`](https://github.com/bobs-org/bob-cli/commit/44c5c8c8fd44340dcfb7376fcd13464032131ee1) | fix(capture): repair shared offer-close contract and executable vectors | [bob-cli-hn.6.1.1](bob-cli-hn.6.1.1.md) | 2026-11-05 21:24:04 EST |
 
 <!-- sase:referenced-by:start -->
 
