@@ -24,10 +24,16 @@ nav_ticks: add the quiet STAGE ✓ tick to Ctrl+Enter done lines when a stage's 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ho.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.5/README.md) | [bob-cli-ho.5](bob-cli-ho.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-ho.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.5/README.md) | [bob-cli-ho.5](bob-cli-ho.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@2d0348b`](https://github.com/bobs-org/bob-plugins/commit/2d0348b2d9e3b639142387417c4b7d1007afa48c) | feat(navigation): mark completed checklist stages | [bob-cli-ho.5](bob-cli-ho.5.md) | 2026-11-05 20:51:18 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ho.5][1] | Check prior phase notes before implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.5/README.md
+
+<!-- sase:referenced-by:end -->
