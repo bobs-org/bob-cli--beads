@@ -27,13 +27,14 @@ gmail-pull-attach: a read-only, idempotent pull of threads labelled `bob` into t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.14](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.14.md) | [bob-cli-hg.14](bob-cli-hg.14.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.14](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.14.md) | [bob-cli-hg.14](bob-cli-hg.14.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ec39e1a`](https://github.com/bobs-org/bob-cli/commit/ec39e1a00e0ac9339d832d22db956ade66731c47) | feat(gmail): pull label mail and import attachments | [bob-cli-hg.14](bob-cli-hg.14.md) | 2026-11-06 11:17:57 EST |
+| bob-plugins | [`bob-plugins@5fbe82a`](https://github.com/bobs-org/bob-plugins/commit/5fbe82a96836b8b54c2424738b7e63831c15e033) | feat(navigation): handle Gmail attachment origins | [bob-cli-hg.14](bob-cli-hg.14.md) | 2026-11-06 11:24:49 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -41,10 +42,12 @@ gmail-pull-attach: a read-only, idempotent pull of threads labelled `bob` into t
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5s.grk][1] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
-| read-by | [agent:research.5s.mus][2] | gmail user guide research | 1 |
+| read-by | [agent:bob-cli-hg.14--3][1] | Need current phase scope, notes, and design before final verification | 2 |
+| read-by | [agent:research.5s.grk][2] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
+| read-by | [agent:research.5s.mus][3] | gmail user guide research | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.14.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
 
 <!-- sase:referenced-by:end -->
