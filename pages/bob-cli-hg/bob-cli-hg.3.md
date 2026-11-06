@@ -17,7 +17,7 @@ mail-body: typed model of gog's thread JSON plus a pure renderer that turns each
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hg.5](bob-cli-hg.5.md) ○ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.5](bob-cli-hg.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
