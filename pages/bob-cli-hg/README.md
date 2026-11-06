@@ -64,7 +64,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 | [bob-cli-hg.5](bob-cli-hg.5.md) | Mail note layout, label, path, index, and append-only refresh | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.6](bob-cli-hg.6.md) | bob gmail save and list | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.7](bob-cli-hg.7.md) | bob gmail link — swap Gmail URLs for labelled links, and backfill | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hg.8](bob-cli-hg.8.md) | Capture recognizes Gmail URLs and links them after submit | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.8](bob-cli-hg.8.md) | Capture recognizes Gmail URLs and links them after submit | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.9](bob-cli-hg.9.md) | bob gmail search, peek, and list --remote | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 
 ## Lineage
@@ -101,7 +101,7 @@ flowchart TD
     n27["bob-cli-hg.6.1.3: Save and refresh mail notes under the vault lock [closed]"]
     n28["bob-cli-hg.6.1.4: List saved mail offline and diagnose identity health [closed]"]
     n29["bob-cli-hg.7: bob gmail link — swap Gmail URLs for labelled links, and backfill [closed]"]
-    n30["bob-cli-hg.8: Capture recognizes Gmail URLs and links them after submit [in_progress]"]
+    n30["bob-cli-hg.8: Capture recognizes Gmail URLs and links them after submit [closed]"]
     n31["bob-cli-hg.9: bob gmail search, peek, and list --remote [closed]"]
     n0 --> n1
     n0 --> n2
@@ -195,7 +195,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.4/README.md) | [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.7/README.md) | [bob-cli-hg.7](bob-cli-hg.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.8.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.8.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.9/README.md) | [bob-cli-hg.9](bob-cli-hg.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.land/README.md) | [bob-cli-hg](README.md) | 0 |
 
@@ -223,6 +223,7 @@ flowchart TD
 | bob-cli | [`2a37f8c`](https://github.com/bobs-org/bob-cli/commit/2a37f8ce073d8e166590daec83412ad6e49671d8) | feat(gmail): add offline compose and reply notes | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 2026-11-06 09:24:02 EST |
 | bob-cli | [`f075147`](https://github.com/bobs-org/bob-cli/commit/f075147f4bb928427a7b21501e863b3c99051b5e) | feat(gmail): swap Gmail URLs for labelled links, and backfill | [bob-cli-hg.7](bob-cli-hg.7.md) | 2026-11-06 09:57:47 EST |
 | bob-cli | [`ee05db4`](https://github.com/bobs-org/bob-cli/commit/ee05db4d8ffeb6714ee90abbcf65d9d7c6215e46) | feat(gmail): add compose render and attachment staging | [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) | 2026-11-06 10:33:11 EST |
+| bob-cli | [`e096004`](https://github.com/bobs-org/bob-cli/commit/e0960045bf86d88f7f2443b746a7ef48c4643245) | feat(gmail): link captured Gmail URLs without blocking capture | [bob-cli-hg.8](bob-cli-hg.8.md) | 2026-11-06 10:48:25 EST |
 
 <!-- sase:referenced-by:start -->
 

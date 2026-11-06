@@ -13,7 +13,7 @@ mac-gmail-preview: decode and paint the gmail_url span, show each item's Gmail p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.8](bob-cli-hg.8.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.8](bob-cli-hg.8.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hg.9](bob-cli-hg.9.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
