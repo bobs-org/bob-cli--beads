@@ -19,4 +19,4 @@ mac-card: wire the outcome model into the Pull-In card (⌃X/⌃⇧X routing, in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.9/README.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 0 |

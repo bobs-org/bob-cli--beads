@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-hn.6.1](bob-cli-hn.6.1.md) / bob-cli-hn.6.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-hn.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.md) · **Assignee:** `bob-cli-hn.6.1.3` · **Size:** medium
-**Created:** 2026-11-05 20:37:46 EST
+**Created:** 2026-11-05 20:37:46 EST · **Closed:** 2026-11-05 22:47:48 EST
 **Plan:** [202611/cycler\_offer\_verdicts.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_offer_verdicts.md)
 
 ## Description
 
 verdict_apply: implement the internal Now verdict transaction, per-row stale refusal, root-only Done and Cancel, joint recover-only cascades, truthful receipts, and exact guarded Undo snapshots; leave gesture wiring dormant.
+
+## Notes
+
+[2026-11-06T03:47:15Z · bob-cli-hn.6.1.3] PROPOSED FOLLOW-UP: clean-base docs-check lychee fails in task-merge (file:///capture#merging-tasks-into-a-new-task-with) on plugin HEAD ef9257d; identical with and without verdict_apply changes
+
+[2026-11-06T03:47:21Z · bob-cli-hn.6.1.3] PROPOSED FOLLOW-UP: clean-base test-task-link-marks-motion fails (production CSS reduced-motion, 1 fail, ~90s) on plugin HEAD ef9257d; identical with and without verdict_apply changes
+
+[2026-11-06T03:47:48Z · bob-cli-hn.6.1.3] verdict_apply done: added 089i applyOfferClosesNow with guarded root+recovery writes, joint attribution, receipt/Undo; tests test-task-status-cycler-successor-apply (6 pass) + verdicts (7 pass); build pass; full npm test 5624/5625 (1 clean-base motion fail recorded); docs-check clean-base lychee fail recorded; bob plugins sync --repo linked done
 
 ## Dependencies
 
@@ -20,4 +28,10 @@ verdict_apply: implement the internal Now verdict transaction, per-row stale ref
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3af8d0c`](https://github.com/bobs-org/bob-plugins/commit/3af8d0cddaf7a7bf1ae3d4073f58c9a39a4e2934) | feat(task-status-cycler): apply guarded offer-close verdicts with Undo snapshots | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 2026-11-05 22:49:07 EST |

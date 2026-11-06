@@ -13,7 +13,7 @@ gesture_integration: enable descriptors for compatible nav, revalidate verdict-o
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
