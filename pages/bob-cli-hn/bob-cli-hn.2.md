@@ -45,8 +45,10 @@ engine: build the pure Rust offer-close engine (eligibility, root-only Done, Tas
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-hn.2][1] | Checking prior phase notes before continuing | 4 |
+| read-by | [agent:bob-cli-hl.3.1.3--6][1] | Need to identify whether the active successor-card epic caused the note-pull fixture drift | 1 |
+| read-by | [agent:bob-cli-hn.2][2] | Checking prior phase notes before continuing | 4 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.2/README.md
 
 <!-- sase:referenced-by:end -->
