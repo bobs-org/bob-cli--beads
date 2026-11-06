@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bob_gmail.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 13 automatic references — see [Referenced By](#referenced-by)._
+_Plus 14 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_gmail.md
 
@@ -35,12 +35,20 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 
 [2026-11-06T10:21:51Z · bob-cli-hg.6.1.land] DISCOVERED ISSUE: bob-cli-hg.6.1 landing corroborates root-help drift from hg.6.1.1 #1, .2 #2, .3 #1, and .4 #2. hg.4 added Gmail to root help while root-short/root-long fixtures omit it; same causal defect as hg notes #2-3. No separate task: the bounded gmail_save_closeout tale will refresh these snapshots as Gmail integration. Catalog-count drift from those reports is already repaired by b70a8fbf/fcc4efa5; no stale failure +1 on bob-cli-de.
 
+[2026-11-06T12:56:11Z · bryanbugyi34@gmail.com] This is what I'm seeing currently on all of my machines. Several epic phases have yet to complete so this might be expected but the epic lander should make sure this command works before landing. See the 🔒 bob\_gmail\_save\_fail.txt file for context.
+
+[2026-11-06T12:59:15Z · research.5s.final] DISCOVERED ISSUE (found by research.5s lead while consolidating the Gmail user guide on master e1e80060): docs/guides/connect-google-mail.md is stale since bob-cli-hg.6 landed save/list (and hg.9 landed search/peek/list -r). Line 15-16 says 'Saving, linking, and sending land in later phases; for now, bare `bob gmail` lists no saved threads yet', and the Try it section (lines 146-147) says '`bob gmail` should list no saved threads yet until `save` lands'. Impact: the published setup guide tells Bryan saving is unavailable when it works. Fix: update the intro and Try it to point at save/list/search (docs/gmail.md is already current). Consolidated guide: research:202611/bob_gmail_everyday_guide/bob_gmail_everyday_guide__final.md (file:explicit:92c4991c3af632502f9a332d). Also independently noted by the cdx and grk swarm reports. No separate task created.
+
+## Attachments
+
+- 🔒 bob\_gmail\_save\_fail.txt · text/plain · 167 bytes (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-hg.1](bob-cli-hg.1.md) | Shared Google and gog plumbing extracted from gcal | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ◐ in_progress | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.11](bob-cli-hg.11.md) | Bob Mac Capture shows Gmail links in the panel | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.12](bob-cli-hg.12.md) | Compose, reply, draft, and confirmed send | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.13](bob-cli-hg.13.md) | Bob Mail compose surface in Obsidian | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
@@ -154,7 +162,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-hg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.1.md) | [bob-cli-hg.1](bob-cli-hg.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.10/README.md) | [bob-cli-hg.10](bob-cli-hg.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.10.md) | [bob-cli-hg.10](bob-cli-hg.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.11/README.md) | [bob-cli-hg.11](bob-cli-hg.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.md) | [bob-cli-hg.12](bob-cli-hg.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md) | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 0 |
@@ -180,7 +188,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.2/README.md) | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md) | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.4/README.md) | [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.7/README.md) | [bob-cli-hg.7](bob-cli-hg.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.8/README.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.9/README.md) | [bob-cli-hg.9](bob-cli-hg.9.md) | 1 |
@@ -205,7 +213,9 @@ flowchart TD
 | bob-cli | [`b70a8fb`](https://github.com/bobs-org/bob-cli/commit/b70a8fbffd809aed3aae33f4183de93d99ce3bf9) | feat(gmail): add transactional save and refresh | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 2026-11-06 04:12:14 EST |
 | bob-cli | [`fcc4efa`](https://github.com/bobs-org/bob-cli/commit/fcc4efa51f6f4cca2f0c5f7dd1d1cab2a4ffff24) | feat(gmail): list saved mail offline and diagnose identity health | [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) | 2026-11-06 05:07:42 EST |
 | bob-cli | [`7825a98`](https://github.com/bobs-org/bob-cli/commit/7825a98f0eebbec5c05932aabe267773fe7915cd) | fix(gmail): close transactional save gaps | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:02:37 EST |
+| bob-cli--plans | [`bob-cli--plans@e619854`](https://github.com/bobs-org/bob-cli--plans/commit/e6198541744c8f65619f32d9232fd8a5f70f2244) | docs(gmail): mark save list plan done | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:03:24 EST |
 | bob-cli | [`e1e8006`](https://github.com/bobs-org/bob-cli/commit/e1e800602be1e46b1d46adb46aedd768dca74391) | feat(gmail): add search, peek, and remote counts | [bob-cli-hg.9](bob-cli-hg.9.md) | 2026-11-06 07:50:22 EST |
+| bob-plugins | [`bob-plugins@f909c04`](https://github.com/bobs-org/bob-plugins/commit/f909c0445e72896d976b7cca61d29288fb8b8c75) | feat(bob-mail): add Gmail picker and paste integration | [bob-cli-hg.10](bob-cli-hg.10.md) | 2026-11-06 08:11:53 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -223,9 +233,10 @@ flowchart TD
 | read-by | [agent:bob-cli-hl.3.1.land][8] | Check whether the root-help gmail snapshot drift is already recorded on the active Gmail epic | 1 |
 | read-by | [agent:research.5s.cdx][9] | Understand the Gmail integration epic scope and current phase status for an independent user guide | 1 |
 | read-by | [agent:research.5s.cld][10] | Context for writing a Gmail integration user guide | 1 |
-| read-by | [agent:research.5s.gem][11] | Context for gmail integration user guide | 1 |
-| read-by | [agent:research.5s.grk][12] | Need the Gmail epic scope and user-facing intent for the user guide | 1 |
-| read-by | [agent:research.5s.mus][13] | research gmail integration user guide | 1 |
+| read-by | [agent:research.5s.final][11] | Confirm Gmail epic phase status for consolidated user guide | 1 |
+| read-by | [agent:research.5s.gem][12] | Context for gmail integration user guide | 1 |
+| read-by | [agent:research.5s.grk][13] | Need the Gmail epic scope and user-facing intent for the user guide | 1 |
+| read-by | [agent:research.5s.mus][14] | research gmail integration user guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-h8.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-he.land/README.md
@@ -237,8 +248,9 @@ flowchart TD
 [8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hl.3.1.land/README.md
 [9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.cdx/README.md
 [10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.cld/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.gem/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.final/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.gem/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
 
 <!-- sase:referenced-by:end -->

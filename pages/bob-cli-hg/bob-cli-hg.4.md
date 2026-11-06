@@ -41,9 +41,11 @@ gmail-shell: register `bob gmail`, parse the `gmail:` config block, add Gmail re
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.4][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:research.5s.mus][2] | gmail user guide research | 1 |
+| read-by | [agent:bob-cli-hg.9][2] | Confirm the same catalog overlap was reproduced on the clean base | 1 |
+| read-by | [agent:research.5s.mus][3] | gmail user guide research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.9/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
 
 <!-- sase:referenced-by:end -->

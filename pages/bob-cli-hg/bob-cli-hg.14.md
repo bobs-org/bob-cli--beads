@@ -11,6 +11,10 @@
 
 gmail-pull-attach: a read-only, idempotent pull of threads labelled `bob` into tasks in gmail_inbox.md linking saved notes, plus `bob gmail attach` to import one attachment through the attachment journal.
 
+## Notes
+
+[2026-11-06T13:09:50Z · bob-cli-hg.14--1] PROPOSED FOLLOW-UP: refresh the README contract-table snapshot on clean base — `just docs-check` fails only at `test_readme_table_matches_original_contract_index_snapshot` (expected fedc20a..., current 96a429d5...; 446 passed, 1 skipped). The unchanged docs/README.md and tools/docs/tests/test_contracts.py reproduce the same result; already tracked by bob-cli-hg.9 note #1 and bob-cli-hl.5.1.5 note #1.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ✓ · ⧖ 2026-11-05

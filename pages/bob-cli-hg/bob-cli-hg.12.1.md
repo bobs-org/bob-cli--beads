@@ -7,6 +7,18 @@
 **Created:** 2026-11-06 07:12:28 EST
 **Plan:** [202611/gmail\_compose.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_compose.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/gmail_compose.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_compose.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-hg.12 with editable compose/reply notes, exact draft previews, confirmed draft-id sends, crash recovery, and preserved sent notes.
