@@ -13,7 +13,7 @@ landing: fold contiguous merge-target rows by Bob's origin identity for both arr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) ◐ · ⧖ 2026-11-06
 
 ## Agents

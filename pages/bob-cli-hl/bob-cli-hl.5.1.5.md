@@ -20,3 +20,15 @@ rollout: require the shipped merge-in grammar revision, update affected gate fix
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-hl.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.5/README.md) | [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.5.1.2--1][1] | Check whether the active integration phase owns this baseline macOS build failure | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.2.md
+
+<!-- sase:referenced-by:end -->

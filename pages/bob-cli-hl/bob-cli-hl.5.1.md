@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_merge_in_mac.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_merge_in_mac.md
 
@@ -38,7 +38,9 @@ Bob Mac Capture safely previews and submits new-task merge-in captures with sour
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hl.5.1.1][1] | Need parent epic plan decisions and scope | 1 |
+| read-by | [agent:bob-cli-hl.5.1.2--1][2] | Need parent epic decisions and closeout requirements for its editor phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.2.md
 
 <!-- sase:referenced-by:end -->

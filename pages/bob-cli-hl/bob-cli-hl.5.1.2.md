@@ -20,7 +20,7 @@ editor: add a distinct merge-in source picker role, Bob-authored continuations a
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.5.1.1](bob-cli-hl.5.1.1.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -33,3 +33,15 @@ editor: add a distinct merge-in source picker role, Bob-authored continuations a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@8c956ca`](https://github.com/bobs-org/bob-mac-capture/commit/8c956ca52b704bb4e3b0add118445470ae186eae) | feat(capture): add merge-in source picker and diagnostic rewrite actions | [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) | 2026-11-06 02:49:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.5.1.2--1][1] | Need the phase scope, design file, notes, and authorized epic decisions for CI failure triage | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.2.md
+
+<!-- sase:referenced-by:end -->
