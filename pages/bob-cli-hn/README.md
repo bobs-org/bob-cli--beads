@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/successor_card_verdicts.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/successor_card_verdicts.md
 
@@ -31,6 +31,8 @@ While reviewing a successor card in Obsidian, in Bob Mac Capture, or through `bo
 
 [2026-11-06T06:29:29Z · bob-cli-hl.3.1.land] DISCOVERED ISSUE (bob-cli-hl.3.1.land on master 6af313b4): three successor-verdict CLI tests added by efbe3470 (bob-cli-hn.3) fail against offer_close copy from 44c5c8c8 (bob-cli-hn.6.1.1): capture::successor_verdicts::new_task_verdicts_refuse_write_free expects refused.why == 'new_task' but gets '“Draft memo” is new in this capture — drop it from the draft instead'; ineligible_verdicts_refuse_with_why expects why 'recurring' but gets '“Weekly” repeats — close it in Obsidian so Tasks writes the next one'; done_verdict_resolves_root_only_with_scope_note expects '· its 2 embedded tasks stay open' but gets '· its 2 open subtasks stay open' (task_complete/offer_close.rs:346). Reproduce: cargo test -p bob-obsidian --test cli capture::successor_verdicts. Reported by bob-cli-hl.3.1.5 note #2 as a clean-base failure; not caused by capture merge-in. Decide whether refused.why is a code or a sentence and align tests/vectors. No task created.
 
+[2026-11-06T12:40:01Z · bob-cli-hj.land] DISCOVERED ISSUE (bob-cli-hj.land, triaging bob-cli-hj.6 PROPOSED FOLLOW-UP note #3): bob-mac-capture CapturePullInChoiceTests.testFooterContractPinsHintsAndAccessibilityText (Tests/BobMacCaptureTests/CapturePullInChoiceTests.swift:1157) fails on macOS CI (seen on base 6f4e279 and on bob-cli-hj.6's exact-SHA run 42201738623). Cause: 6f4e279 (bob-cli-hn.9) added CapturePullInChoiceFooter.hintItems(openAfterCapture:closeSupported: Bool = false), which drops the ⌃X/⌃⇧X hints when closeSupported is false, but the test's second assertion calls hintItems(openAfterCapture: true) with the default and still expects [⌃N ⌃P, space, ⌘A, ⌃X, ⌃⇧X, esc]. Fix the test (pass closeSupported: true) or the default, per the intended contract; still red on bob-mac-capture master a3e533b source.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -40,8 +42,8 @@ While reviewing a successor card in Obsidian, in Bob Mac Capture, or through `bo
 | [bob-cli-hn.3](bob-cli-hn.3.md) | bob capture -x/-X flags, batch post-pass, and receipts | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hn.4](bob-cli-hn.4.md) | Obsidian successor picker verdict UI (api.successors v4) | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hn.5](bob-cli-hn.5.md) | Nav cancel API v1 and Unblocked notice v4 | ✓ closed | small | 2026-11-05 | 1 | 1 |
-| [bob-cli-hn.6](bob-cli-hn.6.md) | Cycler eligibility, verdict apply step, receipts, and undo | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
-| [bob-cli-hn.7](bob-cli-hn.7.md) | Verdicts on the Obsidian project-promotion card | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.6](bob-cli-hn.6.md) | Cycler eligibility, verdict apply step, receipts, and undo | ✓ closed | large | 2026-11-05 | 1 | 0 |
+| [bob-cli-hn.7](bob-cli-hn.7.md) | Verdicts on the Obsidian project-promotion card | ✓ closed | small | 2026-11-05 | 1 | 1 |
 | [bob-cli-hn.8](bob-cli-hn.8.md) | CaptureCore decoding, outcome model, argv, and fixtures | ✓ closed | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hn.9](bob-cli-hn.9.md) | Mac Pull-In card verdict UI | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
 
@@ -55,13 +57,13 @@ flowchart TD
     n3["bob-cli-hn.3: bob capture -x/-X flags, batch post-pass, and receipts [closed]"]
     n4["bob-cli-hn.4: Obsidian successor picker verdict UI (api.successors v4) [closed]"]
     n5["bob-cli-hn.5: Nav cancel API v1 and Unblocked notice v4 [closed]"]
-    n6["bob-cli-hn.6: Cycler eligibility, verdict apply step, receipts, and undo [in_progress]"]
-    n7["bob-cli-hn.6.1: Complete cycler successor-card verdicts [in_progress]"]
+    n6["bob-cli-hn.6: Cycler eligibility, verdict apply step, receipts, and undo [closed]"]
+    n7["bob-cli-hn.6.1: Complete cycler successor-card verdicts [closed]"]
     n8["bob-cli-hn.6.1.1: Repair the shared offer-close contract and executable vectors [closed]"]
     n9["bob-cli-hn.6.1.2: Add cycler close descriptors and normalize staged choices [closed]"]
     n10["bob-cli-hn.6.1.3: Apply guarded verdicts and recover dependents with Undo snapshots [closed]"]
     n11["bob-cli-hn.6.1.4: Connect verdicts to gestures, notices, reopen, and the review walk [closed]"]
-    n12["bob-cli-hn.7: Verdicts on the Obsidian project-promotion card [in_progress]"]
+    n12["bob-cli-hn.7: Verdicts on the Obsidian project-promotion card [closed]"]
     n13["bob-cli-hn.8: CaptureCore decoding, outcome model, argv, and fixtures [closed]"]
     n14["bob-cli-hn.9: Mac Pull-In card verdict UI [in_progress]"]
     n0 --> n1
@@ -107,7 +109,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.4.md) | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.land/README.md) | [bob-cli-hn](README.md) | 0 |
@@ -127,6 +129,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@1c3aaf1`](https://github.com/bobs-org/bob-plugins/commit/1c3aaf1235e8e175240d08b9541b8a275f895bb8) | feat(plugins): integrate successor close verdicts | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 2026-11-06 00:31:23 EST |
 | bob-cli | [`5c119a0`](https://github.com/bobs-org/bob-cli/commit/5c119a06983ecdb8489098d4da73ef0d02978899) | fix(task-complete): repair successor verdict contracts and receipts | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 2026-11-06 01:46:50 EST |
 | bob-plugins | [`bob-plugins@d45d8f7`](https://github.com/bobs-org/bob-plugins/commit/d45d8f7ddd8b422faf7f152a978138d5bad8e4d7) | fix(task-status-cycler): preserve guarded undo and recovery receipts | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 2026-11-06 01:47:10 EST |
+| bob-plugins | [`bob-plugins@f7ae51e`](https://github.com/bobs-org/bob-plugins/commit/f7ae51e90d0a28fd58dd2aa789cc3c3cf8636136) | feat(promotion): wire successor verdicts into the project-promotion card via cycler api v5 | [bob-cli-hn.7](bob-cli-hn.7.md) | 2026-11-06 10:24:57 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -135,15 +138,17 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h8.land][1] | Check owner epic of theme vector drift | 1 |
-| read-by | [agent:bob-cli-hl.3.1.3--6][2] | Need to compare this candidate with exact clean-base and current gate failures before recording follow-up evidence | 1 |
-| read-by | [agent:bob-cli-hl.3.1.land][3] | Check whether the successor verdict test failures are tracked by the offer epic | 1 |
-| read-by | [agent:bob-cli-hn.3][4] | Need epic scope for cli phase | 1 |
-| read-by | [agent:bob-cli-hn.4][5] | Need epic status and phase list | 1 |
+| read-by | [agent:bob-cli-hj.land][2] | Check whether the Pull-In footer contract test failure from hn.9 is already recorded before adding a DISCOVERED ISSUE | 1 |
+| read-by | [agent:bob-cli-hl.3.1.3--6][3] | Need to compare this candidate with exact clean-base and current gate failures before recording follow-up evidence | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][4] | Check whether the successor verdict test failures are tracked by the offer epic | 1 |
+| read-by | [agent:bob-cli-hn.3][5] | Need epic scope for cli phase | 1 |
+| read-by | [agent:bob-cli-hn.4][6] | Need epic status and phase list | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.land/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md
 
 <!-- sase:referenced-by:end -->

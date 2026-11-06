@@ -40,8 +40,12 @@ descriptors: copy the canonical vectors, implement pure eligibility and conseque
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-hn.6.1.2--3][1] | Confirm the requested phase bead is closed after verification | 2 |
+| read-by | [agent:195--code][1] | Confirm descriptor phase close evidence | 2 |
+| read-by | [agent:bob-cli-hn.6.1.2--3][2] | Confirm the requested phase bead is closed after verification | 2 |
+| read-by | [agent:bob-cli-hn.6.1.land--1][3] | Recheck current landing scope, close notes, and prior follow-up tracker status | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.2.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.195.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.2.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md
 
 <!-- sase:referenced-by:end -->
