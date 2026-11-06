@@ -18,7 +18,7 @@ live-runner: implement `install_ui run`. It is the single-writer live status lin
 ## Dependencies
 
 - **Depends on:** [bob-cli-i0.1](bob-cli-i0.1.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-i0.5](bob-cli-i0.5.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-i0.5](bob-cli-i0.5.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -31,3 +31,15 @@ live-runner: implement `install_ui run`. It is the single-writer live status lin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d9b190f`](https://github.com/bobs-org/bob-cli/commit/d9b190f30a298bd89391cf35c01dd4051d1fe9a0) | feat(install): add live build runner and history | [bob-cli-i0.3](bob-cli-i0.3.md) | 2026-11-06 16:24:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-i0.3][1] | Need the phase scope, decisions, notes, and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.3/README.md
+
+<!-- sase:referenced-by:end -->

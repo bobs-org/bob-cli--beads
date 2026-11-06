@@ -18,7 +18,7 @@ pull-first-run: restructure scripts/install_all to pull all three repos up front
 ## Dependencies
 
 - **Depends on:** [bob-cli-i0.2](bob-cli-i0.2.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-i0.5](bob-cli-i0.5.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-i0.5](bob-cli-i0.5.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -31,3 +31,15 @@ pull-first-run: restructure scripts/install_all to pull all three repos up front
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9ade2d6`](https://github.com/bobs-org/bob-cli/commit/9ade2d64ac64a5935512501890d550224f592940) | feat(install): pull everything first, print the digest, end with a signal | [bob-cli-i0.4](bob-cli-i0.4.md) | 2026-11-06 16:10:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-i0.4][1] | Need full bead including notes | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.4/README.md
+
+<!-- sase:referenced-by:end -->

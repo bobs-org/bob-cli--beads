@@ -13,7 +13,7 @@ earned-eta: complete the estimator ladder (p20-p80 range after 5 consistent samp
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-i0.5](bob-cli-i0.5.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-i0.5](bob-cli-i0.5.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-i0.7](bob-cli-i0.7.md) ◐ · ⧖ 2026-11-06
 
 ## Agents

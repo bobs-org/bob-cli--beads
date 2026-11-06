@@ -7,6 +7,20 @@
 **Created:** 2026-11-06 15:11:24 EST
 **Plan:** [202611/install\_all\_wait\_and\_whats\_new.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/install_all_wait_and_whats_new.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/install_all_wait_and_whats_new.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/install_all_wait_and_whats_new.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 `just install-all` (and plain `just install`) stop looking hung during their long bob-cli and Bob Mac Capture builds. All three repos are pulled first, then one fit-to-screen "What's new" digest shows the commits since each repo's last successful install on this host, with full messages when they fit. Each build then runs behind one live status line: activity, elapsed time, and an ETA that only per-host history of comparable builds can earn. Compiler chatter goes to a log, failures print an excerpt, and the run ends with a summary, a terminal bell, and on macOS a Notification Center banner. A missing or failing helper always falls back to today's behavior.
@@ -19,7 +33,7 @@
 | [bob-cli-i0.2](bob-cli-i0.2.md) | What's new digest engine | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-i0.3](bob-cli-i0.3.md) | Live status line runner and build history | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-i0.4](bob-cli-i0.4.md) | Pull everything first, print the digest, end with a signal | ✓ closed | medium | 2026-11-06 | 1 | 1 |
-| [bob-cli-i0.5](bob-cli-i0.5.md) | Route builds and plugin sync through the live line | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
+| [bob-cli-i0.5](bob-cli-i0.5.md) | Route builds and plugin sync through the live line | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-i0.6](bob-cli-i0.6.md) | Earned ETA ranges, plan line, and comparative summary | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
 | [bob-cli-i0.7](bob-cli-i0.7.md) | Docs refresh and real-terminal acceptance | ◐ in_progress | small | 2026-11-06 | 1 | 0 |
 
@@ -32,7 +46,7 @@ flowchart TD
     n2["bob-cli-i0.2: What's new digest engine [closed]"]
     n3["bob-cli-i0.3: Live status line runner and build history [closed]"]
     n4["bob-cli-i0.4: Pull everything first, print the digest, end with a signal [closed]"]
-    n5["bob-cli-i0.5: Route builds and plugin sync through the live line [in_progress]"]
+    n5["bob-cli-i0.5: Route builds and plugin sync through the live line [closed]"]
     n6["bob-cli-i0.6: Earned ETA ranges, plan line, and comparative summary [in_progress]"]
     n7["bob-cli-i0.7: Docs refresh and real-terminal acceptance [in_progress]"]
     n0 --> n1
@@ -59,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-i0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.2/README.md) | [bob-cli-i0.2](bob-cli-i0.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.3/README.md) | [bob-cli-i0.3](bob-cli-i0.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.4/README.md) | [bob-cli-i0.4](bob-cli-i0.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-i0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.5/README.md) | [bob-cli-i0.5](bob-cli-i0.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-i0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.5/README.md) | [bob-cli-i0.5](bob-cli-i0.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.6/README.md) | [bob-cli-i0.6](bob-cli-i0.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-i0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.7/README.md) | [bob-cli-i0.7](bob-cli-i0.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-i0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.land/README.md) | [bob-cli-i0](README.md) | 0 |
@@ -72,6 +86,7 @@ flowchart TD
 | bob-cli | [`4fd782a`](https://github.com/bobs-org/bob-cli/commit/4fd782a3c172e732244a7625b2c236bcbd1f3600) | feat(install): add What's new digest engine | [bob-cli-i0.2](bob-cli-i0.2.md) | 2026-11-06 15:56:29 EST |
 | bob-cli | [`9ade2d6`](https://github.com/bobs-org/bob-cli/commit/9ade2d64ac64a5935512501890d550224f592940) | feat(install): pull everything first, print the digest, end with a signal | [bob-cli-i0.4](bob-cli-i0.4.md) | 2026-11-06 16:10:16 EST |
 | bob-cli | [`d9b190f`](https://github.com/bobs-org/bob-cli/commit/d9b190f30a298bd89391cf35c01dd4051d1fe9a0) | feat(install): add live build runner and history | [bob-cli-i0.3](bob-cli-i0.3.md) | 2026-11-06 16:24:45 EST |
+| bob-cli | [`d5e49b1`](https://github.com/bobs-org/bob-cli/commit/d5e49b172c9299ec6bbb60cc866aa29025e426f5) | feat(install): route builds through the live runner | [bob-cli-i0.5](bob-cli-i0.5.md) | 2026-11-06 17:02:10 EST |
 
 <!-- sase:referenced-by:start -->
 
