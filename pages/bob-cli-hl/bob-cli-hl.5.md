@@ -14,7 +14,7 @@ mac: render the Merging-in band inside the new-task card, pending and refusal st
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.3](bob-cli-hl.3.md) ◐ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hl.4](bob-cli-hl.4.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hl.4](bob-cli-hl.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

@@ -19,7 +19,7 @@ contract: write the `<` contract into docs/capture.md, the capture-syntax refere
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hl.2](bob-cli-hl.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.2](bob-cli-hl.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
