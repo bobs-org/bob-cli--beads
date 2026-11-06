@@ -124,7 +124,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hl.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.5.md) | [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.land.md) | [bob-cli-hl.5.1](bob-cli-hl.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.6/README.md) | [bob-cli-hl.6](bob-cli-hl.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-hl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.land/README.md) | [bob-cli-hl](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-hl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.land/README.md) | [bob-cli-hl](README.md) | 2 |
 
 ## Commits
 
@@ -147,6 +147,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@a3e533b`](https://github.com/bobs-org/bob-mac-capture/commit/a3e533b9ec57855be534ac4d96b8bcd7cb8194bf) | feat(capture): complete merge-in grammar-15 rollout | [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) | 2026-11-06 07:20:21 EST |
 | bob-mac-capture | [`bob-mac-capture@e9d3ae2`](https://github.com/bobs-org/bob-mac-capture/commit/e9d3ae2fdade28d031811b458c5f18633f38e023) | feat(capture): render merge-in bands and pending states | [bob-cli-hl.5.1](bob-cli-hl.5.1.md) | 2026-11-06 09:32:23 EST |
 | bob-cli | [`e39e457`](https://github.com/bobs-org/bob-cli/commit/e39e457680f784cf1c3ea3837653881f5b223548) | refactor(capture): drop dead merge-in left-text helper | [bob-cli-hl](README.md) | 2026-11-06 16:30:57 EST |
+| bob-cli--plans | [`bob-cli--plans@fe2f33b`](https://github.com/bobs-org/bob-cli--plans/commit/fe2f33bdbda1dd6a6393ab3838bad2d3e65dca2f) | chore(plans): mark capture merge-in plans done | [bob-cli-hl](README.md) | 2026-11-06 16:31:24 EST |
 
 <!-- sase:referenced-by:start -->
 
