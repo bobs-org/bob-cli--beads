@@ -13,7 +13,7 @@ acceptance: complete the MI execution matrix, byte-equivalence and reconcile tes
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ○ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
@@ -21,3 +21,15 @@ acceptance: complete the MI execution matrix, byte-equivalence and reconcile tes
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-hl.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.5/README.md) | [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.3.1.4][1] | Check acceptance phase to avoid overlap | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
+
+<!-- sase:referenced-by:end -->

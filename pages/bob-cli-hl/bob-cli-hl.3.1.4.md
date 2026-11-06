@@ -35,3 +35,15 @@ feedback: implement merge_in_pending, fd-0 shell protection, existing-merge teac
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fbb6da4`](https://github.com/bobs-org/bob-cli/commit/fbb6da46fdfff73a1b358e7087336806498a247c) | feat(capture): complete merge-in feedback — pending context, copy, and stdin guard | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 2026-11-05 22:09:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.3.1.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
+
+<!-- sase:referenced-by:end -->

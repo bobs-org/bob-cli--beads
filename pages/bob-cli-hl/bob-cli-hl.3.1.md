@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_merge_in_execution.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_merge_in_execution.md
 
@@ -39,8 +39,10 @@ Capture < creates its target and merges every source atomically, with accurate p
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hl.3.1.1--2][1] | Need governing epic decisions before closing its assigned phase | 1 |
 | read-by | [agent:bob-cli-hl.3.1.2][2] | Need parent epic decisions | 1 |
+| read-by | [agent:bob-cli-hl.3.1.4][3] | Need parent epic plan and decisions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->

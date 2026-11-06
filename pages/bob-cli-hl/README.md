@@ -53,7 +53,7 @@ flowchart TD
     n4["bob-cli-hl.3.1: Complete capture merge-in execution for bob-cli-hl.3 [in_progress]"]
     n5["bob-cli-hl.3.1.1: Share explicit merge planning and track capture-born targets [closed]"]
     n6["bob-cli-hl.3.1.2: Carry merge payload origins into final task previews [closed]"]
-    n7["bob-cli-hl.3.1.3: Enable atomic merge into newly captured tasks [open]"]
+    n7["bob-cli-hl.3.1.3: Enable atomic merge into newly captured tasks [closed]"]
     n8["bob-cli-hl.3.1.4: Complete pending context, merge copy, and stdin redirect refusal [closed]"]
     n9["bob-cli-hl.3.1.5: Prove equivalence, rollback, and final contract coverage [in_progress]"]
     n10["bob-cli-hl.4: Pickers, rewrite toggle, and Similar tasks [closed]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.md) | [bob-cli-hl.3](bob-cli-hl.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.1.md) | [bob-cli-hl.3.1.1](bob-cli-hl.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.2/README.md) | [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-hl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md) | [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md) | [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md) | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.5/README.md) | [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md) | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 0 |
@@ -112,6 +112,7 @@ flowchart TD
 | bob-cli | [`4282e71`](https://github.com/bobs-org/bob-cli/commit/4282e71222c8fcaaf76d158e7cbaa01cd0708ea7) | refactor(capture): share merge planning and track task births | [bob-cli-hl.3.1.1](bob-cli-hl.3.1.1.md) | 2026-11-05 20:37:36 EST |
 | bob-cli | [`fd26fb2`](https://github.com/bobs-org/bob-cli/commit/fd26fb29655d1efba1639db2c5883d98302e3d59) | feat(capture): carry merge payload origins into task block previews | [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) | 2026-11-05 21:14:58 EST |
 | bob-cli | [`fbb6da4`](https://github.com/bobs-org/bob-cli/commit/fbb6da46fdfff73a1b358e7087336806498a247c) | feat(capture): complete merge-in feedback — pending context, copy, and stdin guard | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 2026-11-05 22:09:59 EST |
+| bob-cli | [`3fe50bc`](https://github.com/bobs-org/bob-cli/commit/3fe50bc75ef4b6c7ef35d878b4f881b7df1d2128) | feat(capture): execute atomic merge-in captures | [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) | 2026-11-05 23:56:30 EST |
 
 <!-- sase:referenced-by:start -->
 

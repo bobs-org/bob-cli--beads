@@ -22,7 +22,7 @@ origins: carry internal source identity and insertion ranges from the merge engi
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.3.1.1](bob-cli-hl.3.1.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ○ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
