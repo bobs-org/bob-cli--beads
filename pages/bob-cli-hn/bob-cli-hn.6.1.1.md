@@ -23,7 +23,7 @@ contract_parity: align the landed Rust descriptor copy and shared SV fixtures wi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

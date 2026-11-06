@@ -13,7 +13,7 @@ verdict_apply: implement the internal Now verdict transaction, per-row stale ref
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
