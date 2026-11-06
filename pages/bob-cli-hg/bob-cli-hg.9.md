@@ -22,7 +22,7 @@ gmail-search-peek: bounded thread search for pickers, a read-only metadata peek 
 ## Dependencies
 
 - **Blocks:** [bob-cli-hg.10](bob-cli-hg.10.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hg.11](bob-cli-hg.11.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.11](bob-cli-hg.11.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents

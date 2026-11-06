@@ -54,7 +54,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 |---|---|---|---|---|---:|---:|
 | [bob-cli-hg.1](bob-cli-hg.1.md) | Shared Google and gog plumbing extracted from gcal | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ✓ closed | medium | 2026-11-05 | 1 | 0 |
-| [bob-cli-hg.11](bob-cli-hg.11.md) | Bob Mac Capture shows Gmail links in the panel | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.11](bob-cli-hg.11.md) | Bob Mac Capture shows Gmail links in the panel | ✓ closed | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.12](bob-cli-hg.12.md) | Compose, reply, draft, and confirmed send | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.13](bob-cli-hg.13.md) | Bob Mail compose surface in Obsidian | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.14](bob-cli-hg.14.md) | bob gmail pull from the bob label, and attachments on demand | ✓ closed | medium | 2026-11-05 | 1 | 1 |
@@ -74,13 +74,13 @@ flowchart TD
     n0["bob-cli-hg: bob gmail: mail notes you choose, linked from tasks, sent through Gmail drafts [in_progress]"]
     n1["bob-cli-hg.1: Shared Google and gog plumbing extracted from gcal [closed]"]
     n2["bob-cli-hg.10: Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link [closed]"]
-    n3["bob-cli-hg.11: Bob Mac Capture shows Gmail links in the panel [in_progress]"]
+    n3["bob-cli-hg.11: Bob Mac Capture shows Gmail links in the panel [closed]"]
     n4["bob-cli-hg.12: Compose, reply, draft, and confirmed send [in_progress]"]
     n5["bob-cli-hg.12.1: Gmail compose, reply, draft, and confirmed send [in_progress]"]
     n6["bob-cli-hg.12.1.1: Compose note model and new/reply commands [closed]"]
     n7["bob-cli-hg.12.1.2: Outgoing Markdown renderer and attachment snapshots [closed]"]
     n8["bob-cli-hg.12.1.3: Draft transport, persistence, and exact preview [closed]"]
-    n9["bob-cli-hg.12.1.4: Durable send state and recovery engine [in_progress]"]
+    n9["bob-cli-hg.12.1.4: Durable send state and recovery engine [closed]"]
     n10["bob-cli-hg.12.1.5: Confirmed send command and sent-note finalization [in_progress]"]
     n11["bob-cli-hg.12.1.6: Compose guide and consumer contract acceptance [in_progress]"]
     n12["bob-cli-hg.13: Bob Mail compose surface in Obsidian [in_progress]"]
@@ -173,7 +173,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.12.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md) | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.2/README.md) | [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.3.md) | [bob-cli-hg.12.1.3](bob-cli-hg.12.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.12.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.4/README.md) | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.12.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.4/README.md) | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.5/README.md) | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.6/README.md) | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 0 |
@@ -226,6 +226,7 @@ flowchart TD
 | bob-cli | [`e096004`](https://github.com/bobs-org/bob-cli/commit/e0960045bf86d88f7f2443b746a7ef48c4643245) | feat(gmail): link captured Gmail URLs without blocking capture | [bob-cli-hg.8](bob-cli-hg.8.md) | 2026-11-06 10:48:25 EST |
 | bob-cli | [`ec39e1a`](https://github.com/bobs-org/bob-cli/commit/ec39e1a00e0ac9339d832d22db956ade66731c47) | feat(gmail): pull label mail and import attachments | [bob-cli-hg.14](bob-cli-hg.14.md) | 2026-11-06 11:17:57 EST |
 | bob-cli | [`b6a9624`](https://github.com/bobs-org/bob-cli/commit/b6a962435aa73b8a06d1fe654ebcf1f58caa3658) | feat(gmail): add safe draft create and update flow | [bob-cli-hg.12.1.3](bob-cli-hg.12.1.3.md) | 2026-11-06 12:41:42 EST |
+| bob-cli | [`8935148`](https://github.com/bobs-org/bob-cli/commit/8935148f6933c96f6e709bdb161d69bcc411573c) | feat(gmail): add durable send-recovery engine for compose drafts | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 2026-11-06 13:37:00 EST |
 
 <!-- sase:referenced-by:start -->
 

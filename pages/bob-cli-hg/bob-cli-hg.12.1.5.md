@@ -13,7 +13,7 @@ send-finalize: expose confirmed send, integrate recovery and sent-card refresh, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) ◐ · ⧖ 2026-11-06
 
 ## Agents

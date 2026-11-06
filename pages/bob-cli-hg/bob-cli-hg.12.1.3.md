@@ -20,7 +20,7 @@ gmail-drafts: implement remote create/update/readback, compose scope checks, dur
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.12.1.2](bob-cli-hg.12.1.2.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -33,3 +33,15 @@ gmail-drafts: implement remote create/update/readback, compose scope checks, dur
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b6a9624`](https://github.com/bobs-org/bob-cli/commit/b6a962435aa73b8a06d1fe654ebcf1f58caa3658) | feat(gmail): add safe draft create and update flow | [bob-cli-hg.12.1.3](bob-cli-hg.12.1.3.md) | 2026-11-06 12:41:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.12.1.3--3][1] | Need the latest phase notes, scope, and verification record before closing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.3.md
+
+<!-- sase:referenced-by:end -->
