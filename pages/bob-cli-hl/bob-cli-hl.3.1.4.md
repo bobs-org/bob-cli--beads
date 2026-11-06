@@ -13,7 +13,7 @@ feedback: implement merge_in_pending, fd-0 shell protection, existing-merge teac
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

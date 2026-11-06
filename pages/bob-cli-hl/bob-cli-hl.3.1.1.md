@@ -19,7 +19,7 @@ adapter: extract the > explicit-merge adapter unchanged, share source validation
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -32,3 +32,15 @@ adapter: extract the > explicit-merge adapter unchanged, share source validation
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4282e71`](https://github.com/bobs-org/bob-cli/commit/4282e71222c8fcaaf76d158e7cbaa01cd0708ea7) | refactor(capture): share merge planning and track task births | [bob-cli-hl.3.1.1](bob-cli-hl.3.1.1.md) | 2026-11-05 20:37:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.3.1.1--2][1] | Confirm the phase close event and recorded verification | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.1.md
+
+<!-- sase:referenced-by:end -->
