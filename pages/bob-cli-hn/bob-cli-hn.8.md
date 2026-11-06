@@ -24,7 +24,13 @@ mac-core: decode the new bob fields and refusals, add the portable CapturePullIn
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@8ab7c4e`](https://github.com/bobs-org/bob-mac-capture/commit/8ab7c4ebe845ac6872bc74cfc1b37d76778ff4ee) | feat(capture): add offer-close model support | [bob-cli-hn.8](bob-cli-hn.8.md) | 2026-11-05 22:33:38 EST |
 
 <!-- sase:referenced-by:start -->
 
