@@ -20,7 +20,7 @@ html-body: add the HTML5 DOM walker, quote and signature extraction, data-table 
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hg.3.1.4](bob-cli-hg.3.1.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.3.1.4](bob-cli-hg.3.1.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -33,3 +33,15 @@ html-body: add the HTML5 DOM walker, quote and signature extraction, data-table 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`540f3e6`](https://github.com/bobs-org/bob-cli/commit/540f3e6fda16bb88bf6c58c8f7ee551ed4916230) | feat(gmail): render HTML message bodies | [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) | 2026-11-05 19:59:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.3.1.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.3/README.md
+
+<!-- sase:referenced-by:end -->
