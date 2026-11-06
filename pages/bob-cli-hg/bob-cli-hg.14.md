@@ -13,7 +13,7 @@ gmail-pull-attach: a read-only, idempotent pull of threads labelled `bob` into t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

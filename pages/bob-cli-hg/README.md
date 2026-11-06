@@ -33,6 +33,8 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 
 [2026-11-06T06:29:25Z · bob-cli-hl.3.1.land] DISCOVERED ISSUE (corroboration by bob-cli-hl.3.1.land on master 6af313b4): help::root_help_matches_sectioned_short_and_long_snapshots still fails because generated root help lists 'gmail  Save Gmail threads as inert mail notes, linked from tasks' under Integrations while tests/fixtures/help/root-short.txt omits it (bob-cli-hl.3.1.3 note #4 misattributed this to gkeep; gkeep is already in the snapshot). catalog::protocol_1_parses_with_schema_version_one still fails 73 vs 72; +1 recorded on bob-cli-de. Same remediation as note #2; no new task created.
 
+[2026-11-06T10:21:51Z · bob-cli-hg.6.1.land] DISCOVERED ISSUE: bob-cli-hg.6.1 landing corroborates root-help drift from hg.6.1.1 #1, .2 #2, .3 #1, and .4 #2. hg.4 added Gmail to root help while root-short/root-long fixtures omit it; same causal defect as hg notes #2-3. No separate task: the bounded gmail_save_closeout tale will refresh these snapshots as Gmail integration. Catalog-count drift from those reports is already repaired by b70a8fbf/fcc4efa5; no stale failure +1 on bob-cli-de.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,7 +49,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 | [bob-cli-hg.3](bob-cli-hg.3.md) | Message model and inert body renderer | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.4](bob-cli-hg.4.md) | bob gmail noun group, config, login, logout, and doctor | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.5](bob-cli-hg.5.md) | Mail note layout, label, path, index, and append-only refresh | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hg.6](bob-cli-hg.6.md) | bob gmail save and list | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.6](bob-cli-hg.6.md) | bob gmail save and list | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.7](bob-cli-hg.7.md) | bob gmail link — swap Gmail URLs for labelled links, and backfill | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.8](bob-cli-hg.8.md) | Capture recognizes Gmail URLs and links them after submit | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.9](bob-cli-hg.9.md) | bob gmail search, peek, and list --remote | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
@@ -72,8 +74,8 @@ flowchart TD
     n13["bob-cli-hg.3.1.4: Complete the pure message renderer and its acceptance corpus [closed]"]
     n14["bob-cli-hg.4: bob gmail noun group, config, login, logout, and doctor [closed]"]
     n15["bob-cli-hg.5: Mail note layout, label, path, index, and append-only refresh [closed]"]
-    n16["bob-cli-hg.6: bob gmail save and list [in_progress]"]
-    n17["bob-cli-hg.6.1: Complete Gmail save and offline list [in_progress]"]
+    n16["bob-cli-hg.6: bob gmail save and list [closed]"]
+    n17["bob-cli-hg.6.1: Complete Gmail save and offline list [closed]"]
     n18["bob-cli-hg.6.1.1: Confirm Gmail identities and apply save refusal rules [closed]"]
     n19["bob-cli-hg.6.1.2: Prepare inert messages and local inline image imports [closed]"]
     n20["bob-cli-hg.6.1.3: Save and refresh mail notes under the vault lock [closed]"]
@@ -152,7 +154,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.2/README.md) | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md) | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.4/README.md) | [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.land/README.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.7/README.md) | [bob-cli-hg.7](bob-cli-hg.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.8/README.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.9/README.md) | [bob-cli-hg.9](bob-cli-hg.9.md) | 0 |
@@ -176,6 +178,7 @@ flowchart TD
 | bob-cli | [`c0d877b`](https://github.com/bobs-org/bob-cli/commit/c0d877be16030b2d2527af869d47dbf845dbe35a) | feat(gmail): prepare thread with attachment\_bytes transport | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 2026-11-06 02:35:56 EST |
 | bob-cli | [`b70a8fb`](https://github.com/bobs-org/bob-cli/commit/b70a8fbffd809aed3aae33f4183de93d99ce3bf9) | feat(gmail): add transactional save and refresh | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 2026-11-06 04:12:14 EST |
 | bob-cli | [`fcc4efa`](https://github.com/bobs-org/bob-cli/commit/fcc4efa51f6f4cca2f0c5f7dd1d1cab2a4ffff24) | feat(gmail): list saved mail offline and diagnose identity health | [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) | 2026-11-06 05:07:42 EST |
+| bob-cli | [`7825a98`](https://github.com/bobs-org/bob-cli/commit/7825a98f0eebbec5c05932aabe267773fe7915cd) | fix(gmail): close transactional save gaps | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:02:37 EST |
 
 <!-- sase:referenced-by:start -->
 

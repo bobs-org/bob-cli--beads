@@ -13,7 +13,7 @@ gmail-link: find Gmail URLs in named notes or the whole vault, save each confirm
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hg.8](bob-cli-hg.8.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

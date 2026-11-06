@@ -14,7 +14,7 @@ gmail-compose: compose notes and Reply sections, Markdown-to-email rendering wit
 ## Dependencies
 
 - **Blocks:** [bob-cli-hg.13](bob-cli-hg.13.md) ◐ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
