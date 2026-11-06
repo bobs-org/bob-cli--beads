@@ -78,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.4/README.md) | [bob-cli-hj.4](bob-cli-hj.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.5/README.md) | [bob-cli-hj.5](bob-cli-hj.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-hj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hj.6.md) | [bob-cli-hj.6](bob-cli-hj.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-hj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.land/README.md) | [bob-cli-hj](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-hj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.land/README.md) | [bob-cli-hj](README.md) | 2 |
 
 ## Commits
 
@@ -91,6 +91,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@16c79f6`](https://github.com/bobs-org/bob-mac-capture/commit/16c79f6901b3cc070934ac8486adac3d00861f4a) | feat(capture): add past Pomodoro segment UI support | [bob-cli-hj.6](bob-cli-hj.6.md) | 2026-11-05 22:20:00 EST |
 | bob-mac-capture | [`bob-mac-capture@9578c66`](https://github.com/bobs-org/bob-mac-capture/commit/9578c6634f345dd7d4d7563a8e0980d10b9c6fe0) | fix(capture): preserve past-segment submit after rewrite | [bob-cli-hj.6](bob-cli-hj.6.md) | 2026-11-06 06:18:40 EST |
 | bob-cli | [`df5a6ca`](https://github.com/bobs-org/bob-cli/commit/df5a6ca47be157a8864729c1501185dc8d19e274) | fix(capture): land x= segment suffix docs and restore ~ in the shell-tilde refusal | [bob-cli-hj](README.md) | 2026-11-06 07:49:24 EST |
+| bob-cli--plans | [`bob-cli--plans@b45c704`](https://github.com/bobs-org/bob-cli--plans/commit/b45c70476208a43e67b72649866b9e328f4a2c80) | chore(plans): mark past\_pomodoro\_segment\_suffix plan done after bob-cli-hj landing | [bob-cli-hj](README.md) | 2026-11-06 07:49:48 EST |
 
 <!-- sase:referenced-by:start -->
 
