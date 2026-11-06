@@ -24,7 +24,7 @@ prepare-content: implement in-memory attachment-body hydration through gog's nar
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.6.1.1](bob-cli-hg.6.1.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -37,3 +37,15 @@ prepare-content: implement in-memory attachment-body hydration through gog's nar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c0d877b`](https://github.com/bobs-org/bob-cli/commit/c0d877be16030b2d2527af869d47dbf845dbe35a) | feat(gmail): prepare thread with attachment\_bytes transport | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 2026-11-06 02:35:56 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.6.1.2][1] | full scope | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->

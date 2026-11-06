@@ -76,7 +76,7 @@ flowchart TD
     n17["bob-cli-hg.6.1: Complete Gmail save and offline list [in_progress]"]
     n18["bob-cli-hg.6.1.1: Confirm Gmail identities and apply save refusal rules [closed]"]
     n19["bob-cli-hg.6.1.2: Prepare inert messages and local inline image imports [closed]"]
-    n20["bob-cli-hg.6.1.3: Save and refresh mail notes under the vault lock [in_progress]"]
+    n20["bob-cli-hg.6.1.3: Save and refresh mail notes under the vault lock [closed]"]
     n21["bob-cli-hg.6.1.4: List saved mail offline and diagnose identity health [in_progress]"]
     n22["bob-cli-hg.7: bob gmail link — swap Gmail URLs for labelled links, and backfill [in_progress]"]
     n23["bob-cli-hg.8: Capture recognizes Gmail URLs and links them after submit [in_progress]"]
@@ -150,7 +150,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.md) | [bob-cli-hg.6](bob-cli-hg.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.1.md) | [bob-cli-hg.6.1.1](bob-cli-hg.6.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.2/README.md) | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md) | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md) | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.4/README.md) | [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.land/README.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.7/README.md) | [bob-cli-hg.7](bob-cli-hg.7.md) | 0 |
@@ -174,6 +174,7 @@ flowchart TD
 | bob-cli | [`cfdb68c`](https://github.com/bobs-org/bob-cli/commit/cfdb68c17552da6e13fa0e2f918565bf0aca8f12) | feat(gmail): implement mail note layout and refresh | [bob-cli-hg.5](bob-cli-hg.5.md) | 2026-11-05 23:32:54 EST |
 | bob-cli | [`cdc4003`](https://github.com/bobs-org/bob-cli/commit/cdc40030d9ebc5fcd422a6d430ac9c6c3412542b) | feat(gmail): implement identity resolution and save policy | [bob-cli-hg.6.1.1](bob-cli-hg.6.1.1.md) | 2026-11-06 00:57:28 EST |
 | bob-cli | [`c0d877b`](https://github.com/bobs-org/bob-cli/commit/c0d877be16030b2d2527af869d47dbf845dbe35a) | feat(gmail): prepare thread with attachment\_bytes transport | [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) | 2026-11-06 02:35:56 EST |
+| bob-cli | [`b70a8fb`](https://github.com/bobs-org/bob-cli/commit/b70a8fbffd809aed3aae33f4183de93d99ce3bf9) | feat(gmail): add transactional save and refresh | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 2026-11-06 04:12:14 EST |
 
 <!-- sase:referenced-by:start -->
 
