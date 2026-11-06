@@ -13,7 +13,7 @@ memory: apply the accepted memory decisions for the Task Merge glossary strand a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hl.3](bob-cli-hl.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hl.3](bob-cli-hl.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

@@ -37,7 +37,7 @@ A capture line that creates one open task can end with `< @route+id …` to fold
 |---|---|---|---|---|---:|---:|
 | [bob-cli-hl.1](bob-cli-hl.1.md) | Contract and docs | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hl.2](bob-cli-hl.2.md) | Grammar, editor parse, and teaching refusals | ✓ closed | large | 2026-11-05 | 1 | 1 |
-| [bob-cli-hl.3](bob-cli-hl.3.md) | One-transaction execution, output, and copy fixes | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
+| [bob-cli-hl.3](bob-cli-hl.3.md) | One-transaction execution, output, and copy fixes | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hl.4](bob-cli-hl.4.md) | Pickers, rewrite toggle, and Similar tasks | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hl.5](bob-cli-hl.5.md) | Bob Mac Capture merge-in band and pickers | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hl.6](bob-cli-hl.6.md) | Memory notes | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
@@ -49,8 +49,8 @@ flowchart TD
     n0["bob-cli-hl: Capture `&lt;`: merge existing tasks into the task you are creating [in_progress]"]
     n1["bob-cli-hl.1: Contract and docs [closed]"]
     n2["bob-cli-hl.2: Grammar, editor parse, and teaching refusals [closed]"]
-    n3["bob-cli-hl.3: One-transaction execution, output, and copy fixes [in_progress]"]
-    n4["bob-cli-hl.3.1: Complete capture merge-in execution for bob-cli-hl.3 [in_progress]"]
+    n3["bob-cli-hl.3: One-transaction execution, output, and copy fixes [closed]"]
+    n4["bob-cli-hl.3.1: Complete capture merge-in execution for bob-cli-hl.3 [closed]"]
     n5["bob-cli-hl.3.1.1: Share explicit merge planning and track capture-born targets [closed]"]
     n6["bob-cli-hl.3.1.2: Carry merge payload origins into final task previews [closed]"]
     n7["bob-cli-hl.3.1.3: Enable atomic merge into newly captured tasks [closed]"]
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md) | [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md) | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.5.md) | [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-hl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md) | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md) | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.4/README.md) | [bob-cli-hl.4](bob-cli-hl.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5/README.md) | [bob-cli-hl.5](bob-cli-hl.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.6/README.md) | [bob-cli-hl.6](bob-cli-hl.6.md) | 0 |
@@ -114,6 +114,7 @@ flowchart TD
 | bob-cli | [`fbb6da4`](https://github.com/bobs-org/bob-cli/commit/fbb6da46fdfff73a1b358e7087336806498a247c) | feat(capture): complete merge-in feedback — pending context, copy, and stdin guard | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 2026-11-05 22:09:59 EST |
 | bob-cli | [`3fe50bc`](https://github.com/bobs-org/bob-cli/commit/3fe50bc75ef4b6c7ef35d878b4f881b7df1d2128) | feat(capture): execute atomic merge-in captures | [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) | 2026-11-05 23:56:30 EST |
 | bob-cli | [`6af313b`](https://github.com/bobs-org/bob-cli/commit/6af313b4d36460174ff6b951e208653ea0160afc) | test(capture): complete merge-in acceptance coverage | [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) | 2026-11-06 01:00:42 EST |
+| bob-cli | [`248a2bf`](https://github.com/bobs-org/bob-cli/commit/248a2bfa3b53e68d02e5f4976f76c75e3575add1) | refactor(capture): share merge source eligibility with merge-in pending and picker | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 2026-11-06 01:35:29 EST |
 
 <!-- sase:referenced-by:start -->
 

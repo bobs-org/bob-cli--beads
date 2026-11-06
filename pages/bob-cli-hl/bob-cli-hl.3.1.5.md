@@ -43,7 +43,9 @@ acceptance: complete the MI execution matrix, byte-equivalence and reconcile tes
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hl.3.1.4][1] | Check acceptance phase to avoid overlap | 1 |
+| read-by | [agent:bob-cli-hl.3.1.5--2][2] | Need the phase scope, decisions, design file, and prior notes before finishing acceptance verification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.5.md
 
 <!-- sase:referenced-by:end -->

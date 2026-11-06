@@ -18,7 +18,7 @@ grammar: add the shared merge-in scanner, claim it in execution and editor parsi
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.1](bob-cli-hl.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.3](bob-cli-hl.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.3](bob-cli-hl.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hl.4](bob-cli-hl.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
