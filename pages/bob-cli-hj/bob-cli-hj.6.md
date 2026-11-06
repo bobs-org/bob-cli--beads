@@ -45,6 +45,7 @@ mac: add - to the rewrite trigger keys, style the segment span, render picker ro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hj.6--9][1] | Need the current phase scope, design file, notes, and close requirements | 1 |
+| read-by | [agent:bob-cli-hj.6--r][1] | Confirm phase remains in progress and required follow-up notes are recorded before close | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hj.6.md
 
