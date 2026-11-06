@@ -33,13 +33,14 @@ Complete bob-cli-hg.12 with editable compose/reply notes, exact draft previews, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f1d8285`](https://github.com/bobs-org/bob-cli/commit/f1d8285ef1be73aa036e001a17e6e39bc887db96) | fix(gmail): land compose epic without intermediate allowances | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:29:53 EST |
+| bob-cli--plans | [`bob-cli--plans@1b20daf`](https://github.com/bobs-org/bob-cli--plans/commit/1b20daf288e8d98eb8463f44da4bd3b4d43ddd78) | chore(plans): mark gmail\_compose epic plan done | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:30:45 EST |
 
 <!-- sase:referenced-by:start -->
 

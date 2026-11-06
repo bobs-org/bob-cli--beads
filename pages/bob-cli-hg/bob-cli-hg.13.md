@@ -39,13 +39,15 @@ plugin-compose: New email, Reply, Reply all, Save draft, and Send commands in bo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.12.1.land][1] | Check Bob Mail compose surface status for docs accuracy | 1 |
-| read-by | [agent:cq][2] | Understand Obsidian compose surface status | 1 |
-| read-by | [agent:research.5s.grk][3] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
-| read-by | [agent:research.5s.mus][4] | gmail user guide research | 1 |
+| read-by | [agent:bob-cli-hg.13][2] | Need the phase scope and design file | 3 |
+| read-by | [agent:cq][3] | Understand Obsidian compose surface status | 1 |
+| read-by | [agent:research.5s.grk][4] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
+| read-by | [agent:research.5s.mus][5] | gmail user guide research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.cq/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.13/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.cq/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
 
 <!-- sase:referenced-by:end -->

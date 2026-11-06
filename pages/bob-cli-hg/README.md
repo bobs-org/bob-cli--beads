@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-hg
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.cn](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.cn.md) · **Assignee:** `bob-cli-hg.land`
-**Created:** 2026-11-05 12:37:49 EST
+**Created:** 2026-11-05 12:37:49 EST · **Closed:** 2026-11-06 17:59:42 EST
 **Plan:** [202611/bob\_gmail.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_gmail.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,20 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/bob_gmail.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-i1][2] | Deferred follow-up from the Gmail epic plan §6; builds on what bob-cli-hg shipped |
+| related | [bead:bob-cli-i2][3] | Deferred follow-up from the Gmail epic plan §6; builds on what bob-cli-hg shipped |
+| related | [bead:bob-cli-i3][4] | Deferred follow-up from the Gmail epic plan §6; builds on what bob-cli-hg shipped |
+| related | [bead:bob-cli-i4][5] | Deferred follow-up from the Gmail epic plan §6; builds on what bob-cli-hg shipped |
+| related | [bead:bob-cli-i5][6] | Deferred follow-up from the Gmail epic plan §6; builds on what bob-cli-hg shipped |
 
 _Plus 16 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_gmail.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-i1/README.md
+[3]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-i2/README.md
+[4]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-i3/README.md
+[5]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-i4/README.md
+[6]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-i5/README.md
 
 <!-- sase:links:end -->
 
@@ -44,6 +54,28 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 [2026-11-06T13:45:58Z · bryanbugyi34@gmail.com] I think the previous error may have just been caused by me not logging in by running the 'bob gmail login' command on my mac. I'm seeing the failure shown in the 🔒 bob\_gmail\_save\_fail\_2.txt file now.
 
 [2026-11-06T21:28:01Z · bob-cli-hg.12.1.land] DISCOVERED ISSUE (from bob-cli-hg.12.1 landing): docs/guides/link-emails-to-tasks.md ('Paste or pick inside Obsidian', ~line 41) still says the Bob Mail Link email… picker and paste-to-link gesture 'are coming in bob-mail' and tells readers to paste bob gmail save links by hand, but bob-cli-hg.10 closed with the Bob Mail plugin deployed. The guide was written by hg.8 (e0960045) before hg.10 landed. Same staleness existed in docs/gmail.md Known limits ('Dedicated task linking remains later work', added by hg.14 ec39e1a0); the hg.12.1 landing removed that clause. Also for this epic's landing: gmail/mod.rs, config.rs, gog.rs, journal.rs, and cli.rs still carry #[allow(dead_code)] allowances whose comments name consumers (mail-note, gmail-save, search-peek, pull-attach) that have since landed; hg.12.1 removed only its own compose allowances and the now-consumed GmailConfig::signature allowance.
+
+[2026-11-06T22:59:42Z · bob-cli-hg.land] Gmail epic landing (bob-cli-hg.land) on master d5e49b17.
+
+VERIFIED (step 1): All 14 phases closed; read every child and nested-child landing note plus all 9 epic notes; reviewed the 25 epic commits (4a2b7f50..f1d8285e) and current source. Phases deliver plan §5: shared google/ plumbing (gcal byte-identical, 55+6+4+44+10+51 gcal tests green), ids decoder, inert body renderer, gmail shell/config/login/logout/doctor, mail-note layout/merge/index/hub, save+list, link+backfill, capture gmail_url spans + detached single-flight worker (grammar 16), search/peek/list -r, pull+attach, compose/reply/draft/confirmed send. Linked repos checked: bob-plugins f909c04 + 2563c78 (bob-mail with link-email, paste, open/refresh/task, new-email, reply, reply-all, save-draft, send; Command Mode Gmail clipboard row; docs) and bob-mac-capture a2aab30 (gmail_url paint, preview lines, settled peek lane). DECISIONS honored: default_body=full, link_label=subject_who; the only memory edit is the authorized glossary:inbox-file (ec39e1a0); no decisions:* or glossary:mail-note records. Vault AGENTS.md carries the untrusted-email line; mail.md/mail.base hubs exist.
+
+INTEGRATED (step 2): Reviewed 47 non-epic commits since 4a2b7f50 (capture merge-in, relation rewrites 0869f792/7c71241f, x= past timing 79709fed, close-selection, install_ui). Probed capture-parse with Gmail URLs alongside ~relations, x= past items, and =/?&% bytes: gmail_url spans stay intact, decoded verdicts correct, no diagnostics. No install/plugin-sync list needed bob-mail.
+
+LANDING EDITS (epic-caused issues fixed in this turn):
+1. Epic notes #5/#8 (Bryan's `bob gmail save` failures; attachments unavailable offline here): reproduced the not-signed-in path through real gog v0.44.0 with an isolated throwaway client and temp vault (no real token/mail). save answered only "gog could not complete a read-only Gmail request" with no hint because gog's "OAuth client credentials missing" wording was unclassified and redact_gmail_read_error dropped every hint. Fix: classifier recognizes that wording as no_client; read/draft/send redaction keeps the classifier's fixed sign-in hint and setup exit status (2), with body-free messages for no_client/invalid_client/keyring; the resolver's awaiting_sign_in carries a login hint and now also covers no_client/invalid_client. save now says "the bob-gmail read grant needs attention · hint: run `bob gmail login -c PATH`…". The Mac keychain-over-SSH token read is outside bob (ct.f0.f0 is planning that chezmoi fix); Bryan's live retry stays in the guides' Try it.
+2. Epic notes #6 and #9: refreshed docs/guides/connect-google-mail.md (Try it) and docs/guides/link-emails-to-tasks.md (Bob Mail picker and paste-to-link are shipped).
+3. Epic note #9: removed every stale #[allow(dead_code)]/#[allow(unused_imports)] in src/native/gmail and src/native/google; deleted truly dead items (Gog::message_get/url, resolve_and_fetch, journal_dir_readable/event_count, HumanFormat::as_str, into_error_no_file, ids::dec_to_hex, three unused HeaderKind variants, unused body re-exports); gated test-only inert helpers, inert_metadata, and label::render with #[cfg(test)].
+4. bob gmail doctor printed "vv0.44.0": fixed the Gmail copy with a fake-gog test (gcal copy left to bob-cli-ev).
+Epic notes #1-#4 (MimeInventory clippy, root-help, catalog 73) and #7 (bob-mail nav) are already resolved on master and confirmed by today's gates.
+
+GATES: just check exit 0 (fmt, clippy gate, every test binary ok; same 594 baseline clippy warnings before/after); just docs-check exit 0 (all gates, 447 passed, 1 skipped). Focused: gmail/google/gcal lib 450 passed; gmail_* and gcal_* integration all green; new unit tests for the classifier and hint-preserving redaction. epic-symbols: none. `just symvision` has no recipe.
+
+FOLLOW-UP TRIAGE (every PROPOSED FOLLOW-UP):
+- hg.1 #1, hg.2 #1 (fmt drift/collapsible_if), hg.1 #6/#7 (MimeInventory derivable_impls), hg.5 #1 (successor_verdicts, catalog 73 vs 72, root help): declined as resolved upstream (06d6c32e, 5c119a06, b70a8fbf/fcc4efa5, hg.6.1 landing); just check is green.
+- hg.4 #1, hg.7 #1, hg.9 #2, hg.14 #2 (clipboard dual registration): bob-cli-hp; fixed by 2a37f8ce; resolution note added; no new task.
+- hg.7 #3, hg.8 #2, hg.9 #1, hg.11 #1, hg.14 #1 (README contract digest): bob-cli-hs; fixed by b
+
+… and 693 more characters
 
 ## Attachments
 
@@ -73,7 +105,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-hg: bob gmail: mail notes you choose, linked from tasks, sent through Gmail drafts [in_progress]"]
+    n0["bob-cli-hg: bob gmail: mail notes you choose, linked from tasks, sent through Gmail drafts [closed]"]
     n1["bob-cli-hg.1: Shared Google and gog plumbing extracted from gcal [closed]"]
     n2["bob-cli-hg.10: Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link [closed]"]
     n3["bob-cli-hg.11: Bob Mac Capture shows Gmail links in the panel [closed]"]
@@ -178,7 +210,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.12.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.4/README.md) | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.5.md) | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.6/README.md) | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.13/README.md) | [bob-cli-hg.13](bob-cli-hg.13.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.14](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.14.md) | [bob-cli-hg.14](bob-cli-hg.14.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.2/README.md) | [bob-cli-hg.2](bob-cli-hg.2.md) | 1 |
@@ -199,7 +231,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.7/README.md) | [bob-cli-hg.7](bob-cli-hg.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.8.md) | [bob-cli-hg.8](bob-cli-hg.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.9/README.md) | [bob-cli-hg.9](bob-cli-hg.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.land/README.md) | [bob-cli-hg](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.land/README.md) | [bob-cli-hg](README.md) | 1 |
 
 ## Commits
 
@@ -235,7 +267,9 @@ flowchart TD
 | bob-cli | [`57af3ea`](https://github.com/bobs-org/bob-cli/commit/57af3ead752da458c1dcc8b66c71396e46b2092c) | feat(gmail): add confirmed send and note finalization | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 2026-11-06 15:25:30 EST |
 | bob-cli | [`ae624e2`](https://github.com/bobs-org/bob-cli/commit/ae624e2791aafc17d099cdf84244d7238787c625) | docs(gmail): document compose send flow and pin contract fixtures | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 2026-11-06 15:54:12 EST |
 | bob-cli | [`f1d8285`](https://github.com/bobs-org/bob-cli/commit/f1d8285ef1be73aa036e001a17e6e39bc887db96) | fix(gmail): land compose epic without intermediate allowances | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:29:53 EST |
+| bob-cli--plans | [`bob-cli--plans@1b20daf`](https://github.com/bobs-org/bob-cli--plans/commit/1b20daf288e8d98eb8463f44da4bd3b4d43ddd78) | chore(plans): mark gmail\_compose epic plan done | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:30:45 EST |
 | bob-plugins | [`bob-plugins@2563c78`](https://github.com/bobs-org/bob-plugins/commit/2563c7898644d1f784c13f3eefa698285ae4a381) | feat(bob-mail): add compose commands with send preview and undo window | [bob-cli-hg.13](bob-cli-hg.13.md) | 2026-11-06 16:50:46 EST |
+| bob-cli | [`17aae71`](https://github.com/bobs-org/bob-cli/commit/17aae714ce5bec3163fa88029082d8ba284d0e00) | fix(gmail): land the Gmail epic with sign-in hints, fresh guides, and no stale allowances | [bob-cli-hg](README.md) | 2026-11-06 18:00:49 EST |
 
 <!-- sase:referenced-by:start -->
 
