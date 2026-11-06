@@ -20,7 +20,7 @@ inert-output: implement the shared final serialization boundary, safe text helpe
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.3.1.1](bob-cli-hg.3.1.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) ○ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
