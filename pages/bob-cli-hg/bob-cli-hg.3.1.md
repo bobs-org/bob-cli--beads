@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_mail_body.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_mail_body.md
 
@@ -42,7 +42,9 @@ Complete bob-cli-hg.3 with a pure, tested renderer that preserves readable email
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.3.1.1][1] | Need the governing epic decisions and plan context for this phase | 2 |
+| read-by | [agent:bob-cli-hg.3.1.2][2] | Need parent epic DECISIONS and child phase scope | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

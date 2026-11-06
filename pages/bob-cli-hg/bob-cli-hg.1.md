@@ -41,7 +41,7 @@ Prior close: 2026-11-05T19:16:49Z · done.
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hg.4](bob-cli-hg.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.4](bob-cli-hg.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

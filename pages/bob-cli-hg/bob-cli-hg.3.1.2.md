@@ -20,7 +20,7 @@ inert-output: implement the shared final serialization boundary, safe text helpe
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.3.1.1](bob-cli-hg.3.1.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) ○ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -33,3 +33,15 @@ inert-output: implement the shared final serialization boundary, safe text helpe
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1cbe970`](https://github.com/bobs-org/bob-cli/commit/1cbe9703e6989482906e7d6b8efed1238d69777a) | feat(gmail): add inert output serialization boundary for gmail body | [bob-cli-hg.3.1.2](bob-cli-hg.3.1.2.md) | 2026-11-05 18:53:03 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.3.1.2][1] | Need phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->

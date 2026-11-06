@@ -28,7 +28,9 @@ mail-body: typed model of gog's thread JSON plus a pure renderer that turns each
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-he.land][1] | Need the child scope for the MimeInventory clippy error | 1 |
+| read-by | [agent:bob-cli-hg.3.1.2][2] | Need phase decisions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-he.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

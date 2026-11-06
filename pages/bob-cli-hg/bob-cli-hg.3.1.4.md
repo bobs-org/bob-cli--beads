@@ -13,7 +13,7 @@ body-integration: assemble the public RenderedBody interface, plain-text reply s
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.3.1.3](bob-cli-hg.3.1.3.md) ○ · ⧖ 2026-11-05
 
 ## Agents
 
