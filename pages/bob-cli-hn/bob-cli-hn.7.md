@@ -41,8 +41,10 @@ promotion: expose the cycler's describe/apply offer-close functions as cycler ap
 | --- | --- | --- | ---: |
 | read-by | [agent:195--code][1] | Confirm the promotion phase is unblocked after the cycler phase closed | 1 |
 | read-by | [agent:bob-cli-hn.7][2] | Check phase notes and remaining work before planning | 2 |
+| read-by | [agent:bob-cli-hn.land][3] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.195.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->

@@ -50,8 +50,10 @@ cli: add `-x/--complete-offer` and `-X/--cancel-offer`, resolve and validate ver
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hn.3][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-hn.8][2] | Confirm the prior contract and memory phase landed before this dependent mac-core phase | 1 |
+| read-by | [agent:bob-cli-hn.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->

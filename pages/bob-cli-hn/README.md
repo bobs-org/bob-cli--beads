@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-hn
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.191](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.191/README.md) · **Assignee:** `bob-cli-hn.land`
-**Created:** 2026-11-05 18:41:46 EST
+**Created:** 2026-11-05 18:41:46 EST · **Closed:** 2026-11-06 13:19:32 EST
 **Plan:** [202611/successor\_card\_verdicts.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/successor_card_verdicts.md)
 
 <!-- sase:links:start -->
@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/successor_card_verdicts.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-hy][2] | Epic whose reviewer decisions (memory_offers_supersede=yes, memory_verdict_record=no) produced the collision |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/successor_card_verdicts.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-hy/README.md
@@ -47,6 +47,16 @@ While reviewing a successor card in Obsidian, in Bob Mac Capture, or through `bo
 - macOS CI cluster (hn.9--2 #2): corroborated bob-cli-h7 (+1) with exact-SHA run 42250497927 on 5b0dca6. It fails only the separator/comma/word-motion cluster, and every Pull-In verdict test passes.
 Epic DISCOVERED ISSUES #1–#3 are fixed. capture::note_pull and capture::successor_verdicts pass 29/29 on ec39e1a0, and the Mac footer contract test passes on run 42250497927.
 
+[2026-11-06T18:19:32Z · bob-cli-hn.land--4] Landing verification (2026-11-06). All nine phases bob-cli-hn.1 through bob-cli-hn.9 are closed, and I read and reviewed every phase note with sase bead read.
+
+Epic DISCOVERED ISSUES #1–#3 are fixed. The original note-pull and successor_verdicts regressions passed 29/29 on ec39e1a0; this landing's focused CLI suites passed 80/80 across capture::note_pull, capture::successor_verdicts, capture::merge_in, and capture::inbox_route, and its focused library suites passed 20/20. Mac CapturePullInChoiceTests.testFooterContractPinsHintsAndAccessibilityText is green on exact-SHA run 42250497927. Shared offer-close vectors are byte-identical between bob-cli and cycler; plugin verdict suites pass 343/343. Mac exact-SHA run 42250497927 fails only the pre-existing bob-cli-h7 separator, comma, and word-motion cluster; every Pull-In verdict, footer, inbox-route, and design test passes.
+
+This landing makes four fixes: (1) check explicit route keys against the original report while numeric selectors refer to the filtered choices, covered by capture::successor_verdicts::inbox_route_answer_on_resolved_task_conflicts; (2) remove card-resolved rows before the required-choice guard and renumber remaining routes, covered by capture::successor_verdicts::card_resolved_np16_row_is_not_an_inbox_route_candidate and capture::successor_verdicts::pulled_in_inbox_row_remains_required_and_is_renumbered; (3) print verdict receipts for merge-in offers, covered by capture::merge_in::merge_in_human_offer_prints_the_verdict_receipt and integration equivalence tests capture::merge_in::merge_in_bytes_match_the_equivalent_two_item_transfer and capture::merge_in::merge_in_selected_and_unselected_offer_bytes_match_transfer; (4) show dry-run -x/-X hints only when an unresolved close-eligible offer exists, covered by capture::successor_verdicts::verdict_human_output_prints_receipt_and_hint, capture::successor_verdicts::verdict_dry_run_human_output_uses_would_forms, and capture::keep_moving::human_dry_run_leads_with_why_and_folds.
+
+cargo build --locked --bin bob and note-pull fixture generation passed. just check passed, including formatting, Clippy, and the workspace test suite. just docs-check had 446 passed and 1 skipped; its sole failure was the known test_readme_table_matches_original_contract_index_snapshot SHA mismatch (expected fedc20a…, actual 96a429d5…), tracked by bob-cli-hs and reproduced on clean base. No other docs gate failed. Merge-in integration is verified.
+
+Triage: bob-cli-hy was created for the unresolved memory decision; bob-cli-hs, bob-cli-h7, and bob-cli-f8 were corroborated; the remaining phase proposals were declined as resolved. sase bead epic-symbols bob-cli-hn returned no entries on both runs. just --list has no symvision recipe. No memory note was edited.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -65,7 +75,7 @@ Epic DISCOVERED ISSUES #1–#3 are fixed. capture::note_pull and capture::succes
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-hn: Successor card verdicts — mark offers Done or Cancel from the card [in_progress]"]
+    n0["bob-cli-hn: Successor card verdicts — mark offers Done or Cancel from the card [closed]"]
     n1["bob-cli-hn.1: Contract, vectors table, and decision record [closed]"]
     n2["bob-cli-hn.2: Rust offer-close engine and per-row close descriptors [closed]"]
     n3["bob-cli-hn.3: bob capture -x/-X flags, batch post-pass, and receipts [closed]"]
@@ -126,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 2 |
-| [bbugyi200.athena.bob-cli-hn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.land/README.md) | [bob-cli-hn](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-hn.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md) | [bob-cli-hn](README.md) | 2 |
 
 ## Commits
 
@@ -148,6 +158,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@f7ae51e`](https://github.com/bobs-org/bob-plugins/commit/f7ae51e90d0a28fd58dd2aa789cc3c3cf8636136) | feat(promotion): wire successor verdicts into the project-promotion card via cycler api v5 | [bob-cli-hn.7](bob-cli-hn.7.md) | 2026-11-06 10:24:57 EST |
 | bob-mac-capture | [`bob-mac-capture@5b0dca6`](https://github.com/bobs-org/bob-mac-capture/commit/5b0dca60fbcc6695ed7a1dad77b27be01a9b3eb0) | fix(mac-capture): reopen Pull-In verdicts after offer-close refusal | [bob-cli-hn.9](bob-cli-hn.9.md) | 2026-11-06 11:14:23 EST |
 | bob-cli--plans | [`bob-cli--plans@3ebf27e`](https://github.com/bobs-org/bob-cli--plans/commit/3ebf27e5fdf9b08fa381ad1a56f55ccf8ead00ef) | chore(plans): mark finished successor-verdict child tales done | [bob-cli-hn](README.md) | 2026-11-06 12:00:34 EST |
+| bob-cli--plans | [`bob-cli--plans@2b7e853`](https://github.com/bobs-org/bob-cli--plans/commit/2b7e853b8bdfc9caf327d7d2158780193e9539eb) | docs(plan): mark successor card verdicts complete | [bob-cli-hn](README.md) | 2026-11-06 13:20:54 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -162,6 +173,7 @@ flowchart TD
 | read-by | [agent:bob-cli-hn.3][5] | Need epic scope for cli phase | 1 |
 | read-by | [agent:bob-cli-hn.4][6] | Need epic status and phase list | 1 |
 | read-by | [agent:bob-cli-hn.7][7] | Need epic context and plan for hn.7 | 1 |
+| read-by | [agent:bob-cli-hn.land][8] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.land/README.md
@@ -170,5 +182,6 @@ flowchart TD
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md
 [7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->

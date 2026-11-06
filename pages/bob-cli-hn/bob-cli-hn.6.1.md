@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/cycler_offer_verdicts.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_offer_verdicts.md
 
@@ -60,10 +60,12 @@ Obsidian successor cards safely apply Done and Cancel alongside pull-ins, recove
 | read-by | [agent:bob-cli-hn.6.1.1][2] | Need parent epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-hn.6.1.3][3] | need parent epic scope | 1 |
 | read-by | [agent:bob-cli-hn.6.1.land--1][4] | Recheck current landing scope, close notes, and prior follow-up tracker status | 1 |
+| read-by | [agent:bob-cli-hn.land][5] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.195.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.1/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->

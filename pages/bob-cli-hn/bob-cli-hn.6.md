@@ -38,11 +38,13 @@ cycler: compute close descriptors that match the shared vectors, attach them whe
 | read-by | [agent:bob-cli-hn.6.1.1][3] | Need parent design artifact ref and DECISIONS | 1 |
 | read-by | [agent:bob-cli-hn.6.1.3][4] | need parent phase decisions and scope | 1 |
 | read-by | [agent:bob-cli-hn.6.1.land--1][5] | Verify the parent phase and its authorized close scope before final closeout | 2 |
+| read-by | [agent:bob-cli-hn.land][6] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.195.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.1/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->

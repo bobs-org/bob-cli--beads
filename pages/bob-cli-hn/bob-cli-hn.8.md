@@ -39,7 +39,9 @@ mac-core: decode the new bob fields and refusals, add the portable CapturePullIn
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hn.8][1] | Verify the implemented phase scope before closure | 2 |
+| read-by | [agent:bob-cli-hn.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->

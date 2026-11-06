@@ -43,7 +43,9 @@ mac-card: wire the outcome model into the Pull-In card (⌃X/⌃⇧X routing, in
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hn.9--2][1] | Read hn.9 before residual note, epic-symbols, and close | 2 |
+| read-by | [agent:bob-cli-hn.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.land.md
 
 <!-- sase:referenced-by:end -->
