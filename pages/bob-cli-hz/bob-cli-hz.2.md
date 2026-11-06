@@ -1,0 +1,29 @@
+# Bead: bob-cli-hz.2 — Bob capture-rewrite relation grammar
+
+[Bead Pages](../README.md) / [bob-cli-hz](README.md) / bob-cli-hz.2
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.198](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.198.md) · **Assignee:** `bob-cli-hz.2` · **Size:** medium
+**Created:** 2026-11-06 12:50:21 EST
+**Plan:** [202611/relation\_equals\_alias\_and\_direction\_flips.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/relation_equals_alias_and_direction_flips.md)
+
+## Description
+
+bob-grammar: in bob-cli capture-rewrite, an `=` opener replaces the relation `-` alias, `~~=` gives `~`, and a new `toggle_relation_direction` rule flips a complete token on a glued `~`/`=`. Ships with docs, help, and tests as `feat(capture)!`.
+
+## Dependencies
+
+- **Blocks:** [bob-cli-hz.3](bob-cli-hz.3.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hz.5](bob-cli-hz.5.md) ◐ · ⧖ 2026-11-06
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-hz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.2.md) | [bob-cli-hz.2](bob-cli-hz.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`0869f79`](https://github.com/bobs-org/bob-cli/commit/0869f7921a19b1e9b0e7e3bd6393f279d7d0567e) | feat(capture)!: rewrite relation directions | [bob-cli-hz.2](bob-cli-hz.2.md) | 2026-11-06 14:04:09 EST |
