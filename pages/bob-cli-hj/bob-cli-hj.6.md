@@ -19,4 +19,10 @@ mac: add - to the rewrite trigger keys, style the segment span, render picker ro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.6/README.md) | [bob-cli-hj.6](bob-cli-hj.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-hj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hj.6.md) | [bob-cli-hj.6](bob-cli-hj.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@16c79f6`](https://github.com/bobs-org/bob-mac-capture/commit/16c79f6901b3cc070934ac8486adac3d00861f4a) | feat(capture): add past Pomodoro segment UI support | [bob-cli-hj.6](bob-cli-hj.6.md) | 2026-11-05 22:20:00 EST |

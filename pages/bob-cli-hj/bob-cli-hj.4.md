@@ -33,3 +33,19 @@ assists: add the pomodoro_past_segment completion context and candidates (plus z
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`35c2a42`](https://github.com/bobs-org/bob-cli/commit/35c2a426c3411a91e7825c64adf1121fe013e9ac) | feat(capture): add past-Pomodoro segment picker, dash rewrite, and submit guards | [bob-cli-hj.4](bob-cli-hj.4.md) | 2026-11-05 18:50:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.3.1.3][1] | Confirm whether the clean-base clipboard catalog test failures are already tracked | 1 |
+| read-by | [agent:bob-cli-hj.4][2] | Need phase scope | 3 |
+| read-by | [agent:bob-cli-hn.2][3] | Confirm the clean-base duplicate clipboard failures already have a tracker | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hg.3.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hj.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.2/README.md
+
+<!-- sase:referenced-by:end -->
