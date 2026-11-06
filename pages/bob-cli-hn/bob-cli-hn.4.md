@@ -22,7 +22,7 @@ nav-card: add per-row verdict state, keys, the inline cancel reason, the visuals
 ## Dependencies
 
 - **Depends on:** [bob-cli-hn.1](bob-cli-hn.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hn.5](bob-cli-hn.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hn.5](bob-cli-hn.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -35,3 +35,15 @@ nav-card: add per-row verdict state, keys, the inline cancel reason, the visuals
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8a16ebe`](https://github.com/bobs-org/bob-plugins/commit/8a16ebeab6e4e2e1069527575cdd5a97352e3bc1) | feat(nav-hotkeys): successor picker verdict UI (api.successors v4) | [bob-cli-hn.4](bob-cli-hn.4.md) | 2026-11-05 19:21:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hn.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md
+
+<!-- sase:referenced-by:end -->
