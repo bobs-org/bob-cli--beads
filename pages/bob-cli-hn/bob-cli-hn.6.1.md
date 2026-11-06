@@ -7,6 +7,20 @@
 **Created:** 2026-11-05 20:37:46 EST
 **Plan:** [202611/cycler\_offer\_verdicts.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_offer_verdicts.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/cycler_offer_verdicts.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/cycler_offer_verdicts.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Obsidian successor cards safely apply Done and Cancel alongside pull-ins, recover dependents without another offer round, report exact guarded Undo, and advance the review walk once without landing on a resolved task.
@@ -16,3 +30,15 @@ Obsidian successor cards safely apply Done and Cancel alongside pull-ins, recove
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.land/README.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hn.6.1.1][1] | Need parent epic scope and decisions | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->

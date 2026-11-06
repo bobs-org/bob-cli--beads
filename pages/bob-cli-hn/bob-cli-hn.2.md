@@ -24,7 +24,7 @@ engine: build the pure Rust offer-close engine (eligibility, root-only Done, Tas
 ## Dependencies
 
 - **Depends on:** [bob-cli-hn.1](bob-cli-hn.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hn.3](bob-cli-hn.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hn.3](bob-cli-hn.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hn.6](bob-cli-hn.6.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

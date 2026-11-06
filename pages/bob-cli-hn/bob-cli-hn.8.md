@@ -13,7 +13,7 @@ mac-core: decode the new bob fields and refusals, add the portable CapturePullIn
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hn.3](bob-cli-hn.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hn.3](bob-cli-hn.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hn.9](bob-cli-hn.9.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
