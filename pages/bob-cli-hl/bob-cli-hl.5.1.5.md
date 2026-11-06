@@ -25,7 +25,7 @@
 | related | file:explicit:93caffd02e31ab101cc20f9c | attached via sase artifact create --bead |
 | related | file:explicit:f7c87874f1ec8abb2832fe8f | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -79,8 +79,12 @@ Prior close: 2026-11-06T10:13:50Z · done.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-hl.5.1.2--1][1] | Check whether the active integration phase owns this baseline macOS build failure | 1 |
+| read-by | [agent:bob-cli-hg.9][1] | Need to confirm the existing task tracking the docs contract table snapshot failure | 1 |
+| read-by | [agent:bob-cli-hl.5.1.2--1][2] | Check whether the active integration phase owns this baseline macOS build failure | 1 |
+| read-by | [agent:bob-cli-hl.5.1.5--2][3] | Need phase scope, decisions, and recorded remaining verification before closure | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.2.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hg.9/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.2.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.5.md
 
 <!-- sase:referenced-by:end -->

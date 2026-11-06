@@ -42,12 +42,14 @@ acceptance: complete the MI execution matrix, byte-equivalence and reconcile tes
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-hl.3.1.4][1] | Check acceptance phase to avoid overlap | 1 |
-| read-by | [agent:bob-cli-hl.3.1.5--2][2] | Need the phase scope, decisions, design file, and prior notes before finishing acceptance verification | 1 |
-| read-by | [agent:bob-cli-hl.3.1.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-hg.12.1.1][1] | Check whether the existing follow-up covers the identical README contract-table snapshot failure | 1 |
+| read-by | [agent:bob-cli-hl.3.1.4][2] | Check acceptance phase to avoid overlap | 1 |
+| read-by | [agent:bob-cli-hl.3.1.5--2][3] | Need the phase scope, decisions, design file, and prior notes before finishing acceptance verification | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][4] | Need the child scope and notes | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.5.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hg.12.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.5.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->
