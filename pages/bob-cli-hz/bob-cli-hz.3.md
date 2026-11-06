@@ -14,7 +14,7 @@ mac-equals-opener: the Mac forwards `=` and token-glued `~` to Bob and replaces 
 ## Dependencies
 
 - **Depends on:** [bob-cli-hz.1](bob-cli-hz.1.md) ◐ · ⧖ 2026-11-06
-- **Depends on:** [bob-cli-hz.2](bob-cli-hz.2.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-hz.2](bob-cli-hz.2.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-hz.4](bob-cli-hz.4.md) ◐ · ⧖ 2026-11-06
 
 ## Agents

@@ -13,7 +13,7 @@ records: author the decision record for the new gestures and partly supersede th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hz.2](bob-cli-hz.2.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-hz.2](bob-cli-hz.2.md) ✓ · ⧖ 2026-11-06
 - **Depends on:** [bob-cli-hz.4](bob-cli-hz.4.md) ◐ · ⧖ 2026-11-06
 
 ## Agents
