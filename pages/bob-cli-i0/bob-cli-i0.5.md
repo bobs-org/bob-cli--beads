@@ -19,7 +19,7 @@ quiet-builds: run the bob-cli Cargo build (in `just install`) and the Mac Captur
 
 - **Depends on:** [bob-cli-i0.3](bob-cli-i0.3.md) ✓ · ⧖ 2026-11-06
 - **Depends on:** [bob-cli-i0.4](bob-cli-i0.4.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-i0.6](bob-cli-i0.6.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-i0.6](bob-cli-i0.6.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -32,3 +32,15 @@ quiet-builds: run the bob-cli Cargo build (in `just install`) and the Mac Captur
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d5e49b1`](https://github.com/bobs-org/bob-cli/commit/d5e49b172c9299ec6bbb60cc866aa29025e426f5) | feat(install): route builds through the live runner | [bob-cli-i0.5](bob-cli-i0.5.md) | 2026-11-06 17:02:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-i0.5][1] | Need the phase scope, prior notes, epic decisions, and design file before resuming this assigned phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.5/README.md
+
+<!-- sase:referenced-by:end -->

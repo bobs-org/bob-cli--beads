@@ -34,7 +34,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-i0.3](bob-cli-i0.3.md) | Live status line runner and build history | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-i0.4](bob-cli-i0.4.md) | Pull everything first, print the digest, end with a signal | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-i0.5](bob-cli-i0.5.md) | Route builds and plugin sync through the live line | ✓ closed | medium | 2026-11-06 | 1 | 1 |
-| [bob-cli-i0.6](bob-cli-i0.6.md) | Earned ETA ranges, plan line, and comparative summary | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
+| [bob-cli-i0.6](bob-cli-i0.6.md) | Earned ETA ranges, plan line, and comparative summary | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-i0.7](bob-cli-i0.7.md) | Docs refresh and real-terminal acceptance | ◐ in_progress | small | 2026-11-06 | 1 | 0 |
 
 ## Lineage
@@ -47,7 +47,7 @@ flowchart TD
     n3["bob-cli-i0.3: Live status line runner and build history [closed]"]
     n4["bob-cli-i0.4: Pull everything first, print the digest, end with a signal [closed]"]
     n5["bob-cli-i0.5: Route builds and plugin sync through the live line [closed]"]
-    n6["bob-cli-i0.6: Earned ETA ranges, plan line, and comparative summary [in_progress]"]
+    n6["bob-cli-i0.6: Earned ETA ranges, plan line, and comparative summary [closed]"]
     n7["bob-cli-i0.7: Docs refresh and real-terminal acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-i0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.3/README.md) | [bob-cli-i0.3](bob-cli-i0.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.4/README.md) | [bob-cli-i0.4](bob-cli-i0.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.5/README.md) | [bob-cli-i0.5](bob-cli-i0.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-i0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.6/README.md) | [bob-cli-i0.6](bob-cli-i0.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-i0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.6/README.md) | [bob-cli-i0.6](bob-cli-i0.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.7/README.md) | [bob-cli-i0.7](bob-cli-i0.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-i0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.land/README.md) | [bob-cli-i0](README.md) | 0 |
 
@@ -87,6 +87,7 @@ flowchart TD
 | bob-cli | [`9ade2d6`](https://github.com/bobs-org/bob-cli/commit/9ade2d64ac64a5935512501890d550224f592940) | feat(install): pull everything first, print the digest, end with a signal | [bob-cli-i0.4](bob-cli-i0.4.md) | 2026-11-06 16:10:16 EST |
 | bob-cli | [`d9b190f`](https://github.com/bobs-org/bob-cli/commit/d9b190f30a298bd89391cf35c01dd4051d1fe9a0) | feat(install): add live build runner and history | [bob-cli-i0.3](bob-cli-i0.3.md) | 2026-11-06 16:24:45 EST |
 | bob-cli | [`d5e49b1`](https://github.com/bobs-org/bob-cli/commit/d5e49b172c9299ec6bbb60cc866aa29025e426f5) | feat(install): route builds through the live runner | [bob-cli-i0.5](bob-cli-i0.5.md) | 2026-11-06 17:02:10 EST |
+| bob-cli | [`a3238f7`](https://github.com/bobs-org/bob-cli/commit/a3238f70b4582cedb6c2c7fe8f2859d077a783ee) | feat(install): earn ETA ranges, plan line, and summary comparison | [bob-cli-i0.6](bob-cli-i0.6.md) | 2026-11-06 17:28:43 EST |
 
 <!-- sase:referenced-by:start -->
 

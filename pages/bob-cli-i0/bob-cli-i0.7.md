@@ -13,7 +13,7 @@ docs-acceptance: rewrite docs/guides/install-everything.md around the new run, n
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-i0.6](bob-cli-i0.6.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-i0.6](bob-cli-i0.6.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
