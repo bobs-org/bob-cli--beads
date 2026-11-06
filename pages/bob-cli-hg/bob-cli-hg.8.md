@@ -14,7 +14,7 @@ capture-gmail: add the gmail_url capture-parse span and dry-run preview data, li
 ## Dependencies
 
 - **Blocks:** [bob-cli-hg.11](bob-cli-hg.11.md) ◐ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hg.7](bob-cli-hg.7.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.7](bob-cli-hg.7.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

@@ -15,6 +15,8 @@ gmail-pull-attach: a read-only, idempotent pull of threads labelled `bob` into t
 
 [2026-11-06T13:09:50Z · bob-cli-hg.14--1] PROPOSED FOLLOW-UP: refresh the README contract-table snapshot on clean base — `just docs-check` fails only at `test_readme_table_matches_original_contract_index_snapshot` (expected fedc20a..., current 96a429d5...; 446 passed, 1 skipped). The unchanged docs/README.md and tools/docs/tests/test_contracts.py reproduce the same result; already tracked by bob-cli-hg.9 note #1 and bob-cli-hl.5.1.5 note #1.
 
+[2026-11-06T13:51:39Z · bob-cli-hg.14--3] PROPOSED FOLLOW-UP: The full just check run dzdgm0c75474 still reported the unchanged clean-base clipboard failures: native::catalog::tests::public_leaves_are_entries_or_excluded sees clipboard in both ENTRIES and EXCLUDED, and native::completion::kinds::tests::every_table_entry_matches_the_tree sees duplicate clipboard:count. These structural defects are already tracked by bob-cli-hp and independently reproduced on clean bases in its evidence. Phase-caused Gmail completion coverage and root-help snapshot failures are fixed; focused reruns pass.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.6](bob-cli-hg.6.md) ✓ · ⧖ 2026-11-05

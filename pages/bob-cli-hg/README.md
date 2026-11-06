@@ -39,16 +39,21 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 
 [2026-11-06T12:59:15Z · research.5s.final] DISCOVERED ISSUE (found by research.5s lead while consolidating the Gmail user guide on master e1e80060): docs/guides/connect-google-mail.md is stale since bob-cli-hg.6 landed save/list (and hg.9 landed search/peek/list -r). Line 15-16 says 'Saving, linking, and sending land in later phases; for now, bare `bob gmail` lists no saved threads yet', and the Try it section (lines 146-147) says '`bob gmail` should list no saved threads yet until `save` lands'. Impact: the published setup guide tells Bryan saving is unavailable when it works. Fix: update the intro and Try it to point at save/list/search (docs/gmail.md is already current). Consolidated guide: research:202611/bob_gmail_everyday_guide/bob_gmail_everyday_guide__final.md (file:explicit:92c4991c3af632502f9a332d). Also independently noted by the cdx and grk swarm reports. No separate task created.
 
+[2026-11-06T13:21:01Z · bob-cli-hl.5.1.land] DISCOVERED ISSUE: Current bob-cli docs-check on e1e80060 fails because docs/reference/plugins/bob-mail.md is missing from expanded nav. Reproduced from bob-cli and bob-mac-capture with just docs-check; the Mac Capture page is within its 6000-word budget, and the only remaining Mac docs failure is this bob-mail nav entry. This appears caused by the active plugin-mail phase bob-cli-hg.10 adding the Bob Mail plugin documentation; no bob-cli changes were made here. The Gmail lander should ensure the copied page is in the published navigation.
+
+[2026-11-06T13:45:58Z · bryanbugyi34@gmail.com] I think the previous error may have just been caused by me not logging in by running the 'bob gmail login' command on my mac. I'm seeing the failure shown in the 🔒 bob\_gmail\_save\_fail\_2.txt file now.
+
 ## Attachments
 
 - 🔒 bob\_gmail\_save\_fail.txt · text/plain · 167 bytes (private attachment)
+- 🔒 bob\_gmail\_save\_fail\_2.txt · text/plain · 189 bytes (private attachment)
 
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-hg.1](bob-cli-hg.1.md) | Shared Google and gog plumbing extracted from gcal | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ◐ in_progress | medium | 2026-11-05 | 1 | 1 |
+| [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ✓ closed | medium | 2026-11-05 | 1 | 2 |
 | [bob-cli-hg.11](bob-cli-hg.11.md) | Bob Mac Capture shows Gmail links in the panel | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.12](bob-cli-hg.12.md) | Compose, reply, draft, and confirmed send | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.13](bob-cli-hg.13.md) | Bob Mail compose surface in Obsidian | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
@@ -58,7 +63,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 | [bob-cli-hg.4](bob-cli-hg.4.md) | bob gmail noun group, config, login, logout, and doctor | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.5](bob-cli-hg.5.md) | Mail note layout, label, path, index, and append-only refresh | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.6](bob-cli-hg.6.md) | bob gmail save and list | ✓ closed | large | 2026-11-05 | 1 | 0 |
-| [bob-cli-hg.7](bob-cli-hg.7.md) | bob gmail link — swap Gmail URLs for labelled links, and backfill | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.7](bob-cli-hg.7.md) | bob gmail link — swap Gmail URLs for labelled links, and backfill | ✓ closed | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.8](bob-cli-hg.8.md) | Capture recognizes Gmail URLs and links them after submit | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.9](bob-cli-hg.9.md) | bob gmail search, peek, and list --remote | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 
@@ -68,11 +73,11 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 flowchart TD
     n0["bob-cli-hg: bob gmail: mail notes you choose, linked from tasks, sent through Gmail drafts [in_progress]"]
     n1["bob-cli-hg.1: Shared Google and gog plumbing extracted from gcal [closed]"]
-    n2["bob-cli-hg.10: Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link [in_progress]"]
+    n2["bob-cli-hg.10: Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link [closed]"]
     n3["bob-cli-hg.11: Bob Mac Capture shows Gmail links in the panel [in_progress]"]
     n4["bob-cli-hg.12: Compose, reply, draft, and confirmed send [in_progress]"]
     n5["bob-cli-hg.12.1: Gmail compose, reply, draft, and confirmed send [in_progress]"]
-    n6["bob-cli-hg.12.1.1: Compose note model and new/reply commands [in_progress]"]
+    n6["bob-cli-hg.12.1.1: Compose note model and new/reply commands [closed]"]
     n7["bob-cli-hg.12.1.2: Outgoing Markdown renderer and attachment snapshots [in_progress]"]
     n8["bob-cli-hg.12.1.3: Draft transport, persistence, and exact preview [in_progress]"]
     n9["bob-cli-hg.12.1.4: Durable send state and recovery engine [in_progress]"]
@@ -95,7 +100,7 @@ flowchart TD
     n26["bob-cli-hg.6.1.2: Prepare inert messages and local inline image imports [closed]"]
     n27["bob-cli-hg.6.1.3: Save and refresh mail notes under the vault lock [closed]"]
     n28["bob-cli-hg.6.1.4: List saved mail offline and diagnose identity health [closed]"]
-    n29["bob-cli-hg.7: bob gmail link — swap Gmail URLs for labelled links, and backfill [in_progress]"]
+    n29["bob-cli-hg.7: bob gmail link — swap Gmail URLs for labelled links, and backfill [closed]"]
     n30["bob-cli-hg.8: Capture recognizes Gmail URLs and links them after submit [in_progress]"]
     n31["bob-cli-hg.9: bob gmail search, peek, and list --remote [closed]"]
     n0 --> n1
@@ -162,7 +167,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-hg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.1.md) | [bob-cli-hg.1](bob-cli-hg.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.10.md) | [bob-cli-hg.10](bob-cli-hg.10.md) | 1 |
+| [bbugyi200.apollo.bob-cli-hg.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.10.md) | [bob-cli-hg.10](bob-cli-hg.10.md) | 2 |
 | [bbugyi200.apollo.bob-cli-hg.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.11/README.md) | [bob-cli-hg.11](bob-cli-hg.11.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.md) | [bob-cli-hg.12](bob-cli-hg.12.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.1/README.md) | [bob-cli-hg.12.1.1](bob-cli-hg.12.1.1.md) | 0 |
@@ -216,6 +221,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@e619854`](https://github.com/bobs-org/bob-cli--plans/commit/e6198541744c8f65619f32d9232fd8a5f70f2244) | docs(gmail): mark save list plan done | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:03:24 EST |
 | bob-cli | [`e1e8006`](https://github.com/bobs-org/bob-cli/commit/e1e800602be1e46b1d46adb46aedd768dca74391) | feat(gmail): add search, peek, and remote counts | [bob-cli-hg.9](bob-cli-hg.9.md) | 2026-11-06 07:50:22 EST |
 | bob-plugins | [`bob-plugins@f909c04`](https://github.com/bobs-org/bob-plugins/commit/f909c0445e72896d976b7cca61d29288fb8b8c75) | feat(bob-mail): add Gmail picker and paste integration | [bob-cli-hg.10](bob-cli-hg.10.md) | 2026-11-06 08:11:53 EST |
+| bob-plugins | [`bob-plugins@62e6113`](https://github.com/bobs-org/bob-plugins/commit/62e6113725f62156ed44943d727adac24a09c3eb) | docs(bob-mail): add reference page to navigation | [bob-cli-hg.10](bob-cli-hg.10.md) | 2026-11-06 08:53:25 EST |
 
 <!-- sase:referenced-by:start -->
 
