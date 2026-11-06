@@ -13,7 +13,7 @@ pull-first-run: restructure scripts/install_all to pull all three repos up front
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-i0.2](bob-cli-i0.2.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-i0.2](bob-cli-i0.2.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-i0.5](bob-cli-i0.5.md) ◐ · ⧖ 2026-11-06
 
 ## Agents

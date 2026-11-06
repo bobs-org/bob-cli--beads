@@ -16,7 +16,7 @@
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-i0.1](bob-cli-i0.1.md) | install\_ui package core, state store, and script test harness | ✓ closed | medium | 2026-11-06 | 1 | 1 |
-| [bob-cli-i0.2](bob-cli-i0.2.md) | What's new digest engine | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
+| [bob-cli-i0.2](bob-cli-i0.2.md) | What's new digest engine | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [bob-cli-i0.3](bob-cli-i0.3.md) | Live status line runner and build history | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
 | [bob-cli-i0.4](bob-cli-i0.4.md) | Pull everything first, print the digest, end with a signal | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
 | [bob-cli-i0.5](bob-cli-i0.5.md) | Route builds and plugin sync through the live line | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
@@ -29,7 +29,7 @@
 flowchart TD
     n0["bob-cli-i0: just install-all: a wait worth sitting through [in_progress]"]
     n1["bob-cli-i0.1: install_ui package core, state store, and script test harness [closed]"]
-    n2["bob-cli-i0.2: What's new digest engine [in_progress]"]
+    n2["bob-cli-i0.2: What's new digest engine [closed]"]
     n3["bob-cli-i0.3: Live status line runner and build history [in_progress]"]
     n4["bob-cli-i0.4: Pull everything first, print the digest, end with a signal [in_progress]"]
     n5["bob-cli-i0.5: Route builds and plugin sync through the live line [in_progress]"]
@@ -56,7 +56,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-i0.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.1/README.md) | [bob-cli-i0.1](bob-cli-i0.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-i0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.2/README.md) | [bob-cli-i0.2](bob-cli-i0.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-i0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.2/README.md) | [bob-cli-i0.2](bob-cli-i0.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.3/README.md) | [bob-cli-i0.3](bob-cli-i0.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-i0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.4/README.md) | [bob-cli-i0.4](bob-cli-i0.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-i0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.5/README.md) | [bob-cli-i0.5](bob-cli-i0.5.md) | 0 |
@@ -69,3 +69,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`10be962`](https://github.com/bobs-org/bob-cli/commit/10be96258b86bdf3ad8bdc6cabd5ae34e71e7bf0) | feat(install): add install\_ui core, watermarks, and script tests | [bob-cli-i0.1](bob-cli-i0.1.md) | 2026-11-06 15:33:58 EST |
+| bob-cli | [`4fd782a`](https://github.com/bobs-org/bob-cli/commit/4fd782a3c172e732244a7625b2c236bcbd1f3600) | feat(install): add What's new digest engine | [bob-cli-i0.2](bob-cli-i0.2.md) | 2026-11-06 15:56:29 EST |

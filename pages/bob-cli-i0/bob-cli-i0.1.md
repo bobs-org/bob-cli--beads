@@ -17,7 +17,7 @@ ui-core: create the stdlib Python 3.9 `scripts/lib/install_ui/` package (entry p
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-i0.2](bob-cli-i0.2.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-i0.2](bob-cli-i0.2.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-i0.3](bob-cli-i0.3.md) ◐ · ⧖ 2026-11-06
 
 ## Agents
@@ -31,3 +31,15 @@ ui-core: create the stdlib Python 3.9 `scripts/lib/install_ui/` package (entry p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`10be962`](https://github.com/bobs-org/bob-cli/commit/10be96258b86bdf3ad8bdc6cabd5ae34e71e7bf0) | feat(install): add install\_ui core, watermarks, and script tests | [bob-cli-i0.1](bob-cli-i0.1.md) | 2026-11-06 15:33:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-i0.1][1] | Need the phase scope, design file, notes, and epic DECISIONS | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.1/README.md
+
+<!-- sase:referenced-by:end -->
