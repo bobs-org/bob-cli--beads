@@ -87,7 +87,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ho.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.4/README.md) | [bob-cli-ho.4](bob-cli-ho.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-ho.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.5/README.md) | [bob-cli-ho.5](bob-cli-ho.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ho.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.6/README.md) | [bob-cli-ho.6](bob-cli-ho.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-ho.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ho.land.md) | [bob-cli-ho](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-ho.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ho.land.md) | [bob-cli-ho](README.md) | 3 |
 
 ## Commits
 
@@ -102,6 +102,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@4c748d9`](https://github.com/bobs-org/bob-plugins/commit/4c748d9343b26979fb9af55110ace085f3b1a0b5) | feat(ledger-tools): render quiet small-caps stage labels beside the sunrise and flag | [bob-cli-ho.4](bob-cli-ho.4.md) | 2026-11-05 21:04:38 EST |
 | bob-cli | [`81e0d0c`](https://github.com/bobs-org/bob-cli/commit/81e0d0c2cdb45292599f3c76553be0647a1be5ac) | docs(freshness): finish checklist stage rollout | [bob-cli-ho](README.md) | 2026-11-05 22:18:41 EST |
 | bob-plugins | [`bob-plugins@7a8dd15`](https://github.com/bobs-org/bob-plugins/commit/7a8dd15817b8c7c55bf22f2b1267b5e8061d3d05) | fix(navigation): finish checklist stage completion cues | [bob-cli-ho](README.md) | 2026-11-05 22:19:09 EST |
+| bob-cli--plans | [`bob-cli--plans@e33de46`](https://github.com/bobs-org/bob-cli--plans/commit/e33de460fbdeab0013adf87c82ed6d0c37e5d4fc) | docs(plan): mark checklist stages epic complete | [bob-cli-ho](README.md) | 2026-11-05 22:19:30 EST |
 
 <!-- sase:referenced-by:start -->
 
