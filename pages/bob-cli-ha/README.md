@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ha.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ha.2/README.md) | [bob-cli-ha.2](bob-cli-ha.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ha.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.3.md) | [bob-cli-ha.3](bob-cli-ha.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ha.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.4.md) | [bob-cli-ha.4](bob-cli-ha.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ha.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.land.md) | [bob-cli-ha](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ha.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ha.land.md) | [bob-cli-ha](README.md) | 3 |
 
 ## Commits
 
@@ -103,6 +103,7 @@ flowchart TD
 | bob-cli | [`4327543`](https://github.com/bobs-org/bob-cli/commit/4327543778cfa446e765a5365abb2e558fdad5c0) | docs(capture): document glued timing spellings | [bob-cli-ha.3](bob-cli-ha.3.md) | 2026-11-05 11:12:44 EST |
 | bob-cli | [`79709fe`](https://github.com/bobs-org/bob-cli/commit/79709fed42c5cd382e40819872859f4f47273e29) | feat(capture)!: glue start and past timing to Pomodoro names | [bob-cli-ha](README.md) | 2026-11-06 13:09:29 EST |
 | bob-mac-capture | [`bob-mac-capture@11dcba7`](https://github.com/bobs-org/bob-mac-capture/commit/11dcba764bda3490bbc31d886a756aa1fe2fd645) | feat(mac-capture): render Bob start tokens without composing hash names | [bob-cli-ha](README.md) | 2026-11-06 13:10:19 EST |
+| bob-cli--plans | [`bob-cli--plans@4b7f233`](https://github.com/bobs-org/bob-cli--plans/commit/4b7f23372dd5440c4241c5d715efe17d2371b1af) | docs(plans): mark glued\_start\_timing done after bob-cli-ha close | [bob-cli-ha](README.md) | 2026-11-06 13:11:13 EST |
 
 <!-- sase:referenced-by:start -->
 
