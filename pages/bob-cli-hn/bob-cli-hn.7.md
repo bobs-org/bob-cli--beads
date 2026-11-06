@@ -25,13 +25,7 @@ promotion: expose the cycler's describe/apply offer-close functions as cycler ap
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@f7ae51e`](https://github.com/bobs-org/bob-plugins/commit/f7ae51e90d0a28fd58dd2aa789cc3c3cf8636136) | feat(promotion): wire successor verdicts into the project-promotion card via cycler api v5 | [bob-cli-hn.7](bob-cli-hn.7.md) | 2026-11-06 10:24:57 EST |
+| [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -40,7 +34,9 @@ promotion: expose the cycler's describe/apply offer-close functions as cycler ap
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:195--code][1] | Confirm the promotion phase is unblocked after the cycler phase closed | 1 |
+| read-by | [agent:bob-cli-hn.7][2] | Check phase notes and remaining work before planning | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.195.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md
 
 <!-- sase:referenced-by:end -->

@@ -27,13 +27,7 @@ gesture_integration: enable descriptors for compatible nav, revalidate verdict-o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hn.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.4.md) | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@1c3aaf1`](https://github.com/bobs-org/bob-plugins/commit/1c3aaf1235e8e175240d08b9541b8a275f895bb8) | feat(plugins): integrate successor close verdicts | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 2026-11-06 00:31:23 EST |
+| [bbugyi200.athena.bob-cli-hn.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.4.md) | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
