@@ -22,8 +22,8 @@ origins: carry internal source identity and insertion ranges from the merge engi
 ## Dependencies
 
 - **Depends on:** [bob-cli-hl.3.1.1](bob-cli-hl.3.1.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ○ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -36,3 +36,15 @@ origins: carry internal source identity and insertion ranges from the merge engi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fd26fb2`](https://github.com/bobs-org/bob-cli/commit/fd26fb29655d1efba1639db2c5883d98302e3d59) | feat(capture): carry merge payload origins into task block previews | [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) | 2026-11-05 21:14:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.3.1.2][1] | Final verification before close | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -29,6 +29,8 @@ A capture line that creates one open task can end with `< @route+id …` to fold
 
 [2026-11-06T00:52:38Z · bob-cli-h8.land] DISCOVERED ISSUE: generated docs drift since bob-cli-hl.1 d9e35359 (merge-in < contract) edited the task-merge glossary strand without regenerating docs/reference/glossary.md. On master 723af324, 'uv run --project tools/docs bob-docs gen' rewrites the Task Merge paragraph ('capture's > or <'), and bob-plugins 'npm run docs:check' (which assembles cached bob-cli master) fails 'generated drift: out of date: docs/reference/glossary.md (run just docs-gen)'. Fix: run just docs-gen and commit the glossary. Found by the bob-cli-h8 land agent; left for hl because its phases are still editing that memory.
 
+[2026-11-06T02:15:40Z · bob-cli-hg.3.1.land] DISCOVERED ISSUE: Landing bob-cli-hg.3.1 triaged child bob-cli-hg.3.1.4 PROPOSED FOLLOW-UP notes #1 and #3. At 6ea08f74, tests/cli/capture/merge_in.rs:8 declares TODAY with no uses (introduced by 53c1d1ad / bob-cli-hl.2); the child reproduced the denied unused lint on clean base. Also d9e35359 / bob-cli-hl.1 introduced links to #merging-tasks-into-a-new-task-with while the heading ends in code-formatted <; child .4 reproduced the broken fragment in just docs-check. Both remain visible in current source and belong to this active merge-in epic. No duplicate task found in all-status searches and the past-week task sweep; no new task created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -51,8 +53,8 @@ flowchart TD
     n4["bob-cli-hl.3.1: Complete capture merge-in execution for bob-cli-hl.3 [in_progress]"]
     n5["bob-cli-hl.3.1.1: Share explicit merge planning and track capture-born targets [closed]"]
     n6["bob-cli-hl.3.1.2: Carry merge payload origins into final task previews [closed]"]
-    n7["bob-cli-hl.3.1.3: Enable atomic merge into newly captured tasks [in_progress]"]
-    n8["bob-cli-hl.3.1.4: Complete pending context, merge copy, and stdin redirect refusal [in_progress]"]
+    n7["bob-cli-hl.3.1.3: Enable atomic merge into newly captured tasks [open]"]
+    n8["bob-cli-hl.3.1.4: Complete pending context, merge copy, and stdin redirect refusal [closed]"]
     n9["bob-cli-hl.3.1.5: Prove equivalence, rollback, and final contract coverage [in_progress]"]
     n10["bob-cli-hl.4: Pickers, rewrite toggle, and Similar tasks [closed]"]
     n11["bob-cli-hl.5: Bob Mac Capture merge-in band and pickers [in_progress]"]
@@ -91,8 +93,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.md) | [bob-cli-hl.3](bob-cli-hl.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.1.md) | [bob-cli-hl.3.1.1](bob-cli-hl.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.2/README.md) | [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-hl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.3/README.md) | [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-hl.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md) | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md) | [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.4/README.md) | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.5/README.md) | [bob-cli-hl.3.1.5](bob-cli-hl.3.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md) | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.4/README.md) | [bob-cli-hl.4](bob-cli-hl.4.md) | 1 |
@@ -109,6 +111,7 @@ flowchart TD
 | bob-cli | [`5ab0ec2`](https://github.com/bobs-org/bob-cli/commit/5ab0ec228cbdcaae59058e5fd0204f5cedff47ec) | feat(capture): add merge-in source picker assistance | [bob-cli-hl.4](bob-cli-hl.4.md) | 2026-11-05 20:19:56 EST |
 | bob-cli | [`4282e71`](https://github.com/bobs-org/bob-cli/commit/4282e71222c8fcaaf76d158e7cbaa01cd0708ea7) | refactor(capture): share merge planning and track task births | [bob-cli-hl.3.1.1](bob-cli-hl.3.1.1.md) | 2026-11-05 20:37:36 EST |
 | bob-cli | [`fd26fb2`](https://github.com/bobs-org/bob-cli/commit/fd26fb29655d1efba1639db2c5883d98302e3d59) | feat(capture): carry merge payload origins into task block previews | [bob-cli-hl.3.1.2](bob-cli-hl.3.1.2.md) | 2026-11-05 21:14:58 EST |
+| bob-cli | [`fbb6da4`](https://github.com/bobs-org/bob-cli/commit/fbb6da46fdfff73a1b358e7087336806498a247c) | feat(capture): complete merge-in feedback — pending context, copy, and stdin guard | [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) | 2026-11-05 22:09:59 EST |
 
 <!-- sase:referenced-by:start -->
 

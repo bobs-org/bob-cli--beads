@@ -13,8 +13,8 @@ acceptance: complete the MI execution matrix, byte-equivalence and reconcile tes
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ◐ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hl.3.1.3](bob-cli-hl.3.1.3.md) ○ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hl.3.1.4](bob-cli-hl.3.1.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
