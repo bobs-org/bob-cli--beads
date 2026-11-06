@@ -20,7 +20,7 @@ save-transaction: implement the save CLI and reusable staged save API, writer ga
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.6.1.2](bob-cli-hg.6.1.2.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.6.1.4](bob-cli-hg.6.1.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -33,3 +33,15 @@ save-transaction: implement the save CLI and reusable staged save API, writer ga
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b70a8fb`](https://github.com/bobs-org/bob-cli/commit/b70a8fbffd809aed3aae33f4183de93d99ce3bf9) | feat(gmail): add transactional save and refresh | [bob-cli-hg.6.1.3](bob-cli-hg.6.1.3.md) | 2026-11-06 04:12:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.6.1.3][1] | Confirm the final phase scope, decisions, and recorded verification before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md
+
+<!-- sase:referenced-by:end -->
