@@ -35,3 +35,15 @@ mac-card: wire the outcome model into the Pull-In card (⌃X/⌃⇧X routing, in
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@6f4e279`](https://github.com/bobs-org/bob-mac-capture/commit/6f4e27990823b7174d5902f08f20f52c1390c53f) | feat(mac-capture): stage Done and Cancel verdicts on Pull-In card | [bob-cli-hn.9](bob-cli-hn.9.md) | 2026-11-05 23:14:41 EST |
 | bob-mac-capture | [`bob-mac-capture@5b0dca6`](https://github.com/bobs-org/bob-mac-capture/commit/5b0dca60fbcc6695ed7a1dad77b27be01a9b3eb0) | fix(mac-capture): reopen Pull-In verdicts after offer-close refusal | [bob-cli-hn.9](bob-cli-hn.9.md) | 2026-11-06 11:14:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hn.9--2][1] | Read hn.9 before residual note, epic-symbols, and close | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md
+
+<!-- sase:referenced-by:end -->

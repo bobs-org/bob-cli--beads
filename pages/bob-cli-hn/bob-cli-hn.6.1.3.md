@@ -28,7 +28,13 @@ verdict_apply: implement the internal Now verdict transaction, per-row stale ref
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3af8d0c`](https://github.com/bobs-org/bob-plugins/commit/3af8d0cddaf7a7bf1ae3d4073f58c9a39a4e2934) | feat(task-status-cycler): apply guarded offer-close verdicts with Undo snapshots | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 2026-11-05 22:49:07 EST |
 
 <!-- sase:referenced-by:start -->
 
