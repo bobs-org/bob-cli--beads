@@ -23,7 +23,7 @@ period_ids: accept last-week, last-quarter, and last-year wherever bob periods s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

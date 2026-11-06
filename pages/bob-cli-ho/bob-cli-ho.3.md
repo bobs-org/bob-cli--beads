@@ -22,7 +22,7 @@ ledger_order: mirror the stage config, resolver, and comparator in the JS evalua
 - **Depends on:** [bob-cli-ho.1](bob-cli-ho.1.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-ho.4](bob-cli-ho.4.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-ho.5](bob-cli-ho.5.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

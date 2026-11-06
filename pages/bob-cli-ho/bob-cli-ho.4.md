@@ -20,7 +20,7 @@ stage_labels: specify and render a quiet small-caps stage label right after the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ho.3](bob-cli-ho.3.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -34,3 +34,15 @@ stage_labels: specify and render a quiet small-caps stage label right after the 
 |---|---|---|---|---|
 | bob-cli | [`6ea08f7`](https://github.com/bobs-org/bob-cli/commit/6ea08f74c0ba08e5c313ea8f9cce6e40edb109c4) | docs(marks): add checklist stage labels contract (SL1-SL12) | [bob-cli-ho.4](bob-cli-ho.4.md) | 2026-11-05 21:04:18 EST |
 | bob-plugins | [`bob-plugins@4c748d9`](https://github.com/bobs-org/bob-plugins/commit/4c748d9343b26979fb9af55110ace085f3b1a0b5) | feat(ledger-tools): render quiet small-caps stage labels beside the sunrise and flag | [bob-cli-ho.4](bob-cli-ho.4.md) | 2026-11-05 21:04:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ho.4][1] | Need full bead including notes | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ walk_order: parse and validate freshness.pre_stages/post_stages, resolve each PR
 ## Dependencies
 
 - **Blocks:** [bob-cli-ho.3](bob-cli-ho.3.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
