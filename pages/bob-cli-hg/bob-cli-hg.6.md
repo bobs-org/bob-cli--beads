@@ -11,6 +11,10 @@
 
 gmail-save: resolve URL/ID/note inputs to a confirmed thread, fetch it, write or refresh the mail note with inline images under the vault lock, honor headers mode, never_save, and the writer host, commit, journal, and list saved threads offline.
 
+## Notes
+
+[2026-11-06T04:45:57Z · bob-cli-hg.6] Planning audit: no prior phase notes or completed save/list implementation; shell, ids, body renderer, and note engine are landed. Validated four-medium-phase child epic proposal sase_plan_gmail_save_list.md: resolve-policy -> prepare-content -> save-transaction -> list-diagnostics, with its land agent to verify and close only hg.6. Upstream gog v0.44.0 inspection confirms attachment --inline writes a cache; proposal uses its narrowly allowlisted, readonly Discovery attachments.get with --no-cache to preserve the approved no-body-cache and dry-run contracts. No SASE memory edits or implementation changes. epic-symbols currently reports no entries.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-hg.12](bob-cli-hg.12.md) ◐ · ⧖ 2026-11-05
@@ -25,4 +29,4 @@ gmail-save: resolve URL/ID/note inputs to a confirmed thread, fetch it, write or
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6/README.md) | [bob-cli-hg.6](bob-cli-hg.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.md) | [bob-cli-hg.6](bob-cli-hg.6.md) | 0 |
