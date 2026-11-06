@@ -14,7 +14,7 @@ plugin-compose: New email, Reply, Reply all, Save draft, and Send commands in bo
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.10](bob-cli-hg.10.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hg.12](bob-cli-hg.12.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.12](bob-cli-hg.12.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 

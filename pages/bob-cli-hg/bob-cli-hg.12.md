@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-hg](README.md) / bob-cli-hg.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.cn](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.cn.md) · **Assignee:** `bob-cli-hg.12` · **Size:** large
-**Created:** 2026-11-05 12:37:50 EST
+**Created:** 2026-11-05 12:37:50 EST · **Closed:** 2026-11-06 16:28:33 EST
 **Plan:** [202611/bob\_gmail.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_gmail.md)
 
 ## Description
@@ -14,6 +14,8 @@ gmail-compose: compose notes and Reply sections, Markdown-to-email rendering wit
 ## Notes
 
 [2026-11-06T12:10:31Z · bob-cli-hg.12] Planning audit: no prior phase-work notes; baseline fcc4efa5 has save/list and compose login but no new/reply/draft/send implementation. Validated a six-phase child epic covering source notes, rendering, draft/readback previews, send recovery, finalization, and docs/consumer fixtures. Verified gog v0.44.0 rejects simultaneous --thread-id and --reply-to-message-id; the plan preserves exact threading via message ID plus returned-thread verification. No epic-symbol entries for this phase. No product or memory files changed; phase remains in progress pending plan approval and implementation.
+
+[2026-11-06T21:28:55Z · bob-cli-hg.12.1.land] Phase verified complete by the bob-cli-hg.12.1 land agent (auto-closed when the child epic closed). Every parent-plan 5.12 requirement is implemented and tested: new/reply [-a] compose notes with the specified frontmatter and Notes exclusion; pulldown-cmark HTML+plain rendering with flattened wikilinks and typed refusals (checkboxes, block ids, inline fields/queries, Dataview/Tasks fences, undeclared embeds, Templater, unsafe links, remote images); draft create/update recording gmail_draft_id or the bob:gmail:draft marker, threaded via --reply-to-message-id (gog v0.44.0 rejects combining it with --thread-id) plus --reply-all and --signature, bodies via 0600 temp files; send with exact digest-bound preview, TTY [y/N], non-TTY -c, -d preview-only, drafts send <id> only, save-path refresh, Reply removal, in-place promotion, [!mail-sent] cards, gmail.sent journal; three-outcome recovery with no automatic resend; login -s compose hint on read-only grants. Gates on 4fd782a3 plus landing edits: just check rc=0, just docs-check all gates passed. epic-symbols: none. bob-cli-hg itself stays open for its own land agent (hg.13 still in progress).
 
 ## Dependencies
 

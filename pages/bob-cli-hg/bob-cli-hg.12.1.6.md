@@ -34,3 +34,15 @@ compose-docs: finish the guide and Bob Mail JSON fixtures, audit acceptance cove
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ae624e2`](https://github.com/bobs-org/bob-cli/commit/ae624e2791aafc17d099cdf84244d7238787c625) | docs(gmail): document compose send flow and pin contract fixtures | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 2026-11-06 15:54:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.12.1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.6/README.md
+
+<!-- sase:referenced-by:end -->

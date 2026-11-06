@@ -21,7 +21,7 @@ gmail-save: resolve URL/ID/note inputs to a confirmed thread, fetch it, write or
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hg.12](bob-cli-hg.12.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.12](bob-cli-hg.12.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hg.14](bob-cli-hg.14.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hg.2](bob-cli-hg.2.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hg.4](bob-cli-hg.4.md) ✓ · ⧖ 2026-11-05

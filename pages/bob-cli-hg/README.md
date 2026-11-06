@@ -43,6 +43,8 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 
 [2026-11-06T13:45:58Z · bryanbugyi34@gmail.com] I think the previous error may have just been caused by me not logging in by running the 'bob gmail login' command on my mac. I'm seeing the failure shown in the 🔒 bob\_gmail\_save\_fail\_2.txt file now.
 
+[2026-11-06T21:28:01Z · bob-cli-hg.12.1.land] DISCOVERED ISSUE (from bob-cli-hg.12.1 landing): docs/guides/link-emails-to-tasks.md ('Paste or pick inside Obsidian', ~line 41) still says the Bob Mail Link email… picker and paste-to-link gesture 'are coming in bob-mail' and tells readers to paste bob gmail save links by hand, but bob-cli-hg.10 closed with the Bob Mail plugin deployed. The guide was written by hg.8 (e0960045) before hg.10 landed. Same staleness existed in docs/gmail.md Known limits ('Dedicated task linking remains later work', added by hg.14 ec39e1a0); the hg.12.1 landing removed that clause. Also for this epic's landing: gmail/mod.rs, config.rs, gog.rs, journal.rs, and cli.rs still carry #[allow(dead_code)] allowances whose comments name consumers (mail-note, gmail-save, search-peek, pull-attach) that have since landed; hg.12.1 removed only its own compose allowances and the now-consumed GmailConfig::signature allowance.
+
 ## Attachments
 
 - 🔒 bob\_gmail\_save\_fail.txt · text/plain · 167 bytes (private attachment)
@@ -55,7 +57,7 @@ A Gmail link in a capture, a paste, or a picker becomes a labelled link to an in
 | [bob-cli-hg.1](bob-cli-hg.1.md) | Shared Google and gog plumbing extracted from gcal | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.10](bob-cli-hg.10.md) | Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link | ✓ closed | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.11](bob-cli-hg.11.md) | Bob Mac Capture shows Gmail links in the panel | ✓ closed | medium | 2026-11-05 | 1 | 0 |
-| [bob-cli-hg.12](bob-cli-hg.12.md) | Compose, reply, draft, and confirmed send | ◐ in_progress | large | 2026-11-05 | 1 | 0 |
+| [bob-cli-hg.12](bob-cli-hg.12.md) | Compose, reply, draft, and confirmed send | ✓ closed | large | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.13](bob-cli-hg.13.md) | Bob Mail compose surface in Obsidian | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 | [bob-cli-hg.14](bob-cli-hg.14.md) | bob gmail pull from the bob label, and attachments on demand | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [bob-cli-hg.2](bob-cli-hg.2.md) | Offline Gmail URL parser, token decoder, and text scanner | ✓ closed | small | 2026-11-05 | 1 | 1 |
@@ -75,8 +77,8 @@ flowchart TD
     n1["bob-cli-hg.1: Shared Google and gog plumbing extracted from gcal [closed]"]
     n2["bob-cli-hg.10: Bob Mail Obsidian plugin — styles, Link email picker, paste-to-link [closed]"]
     n3["bob-cli-hg.11: Bob Mac Capture shows Gmail links in the panel [closed]"]
-    n4["bob-cli-hg.12: Compose, reply, draft, and confirmed send [in_progress]"]
-    n5["bob-cli-hg.12.1: Gmail compose, reply, draft, and confirmed send [in_progress]"]
+    n4["bob-cli-hg.12: Compose, reply, draft, and confirmed send [closed]"]
+    n5["bob-cli-hg.12.1: Gmail compose, reply, draft, and confirmed send [closed]"]
     n6["bob-cli-hg.12.1.1: Compose note model and new/reply commands [closed]"]
     n7["bob-cli-hg.12.1.2: Outgoing Markdown renderer and attachment snapshots [closed]"]
     n8["bob-cli-hg.12.1.3: Draft transport, persistence, and exact preview [closed]"]
@@ -176,7 +178,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-hg.12.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.4/README.md) | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.1.5.md) | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.12.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.6/README.md) | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.12.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12.1.land/README.md) | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.13/README.md) | [bob-cli-hg.13](bob-cli-hg.13.md) | 0 |
 | [bbugyi200.apollo.bob-cli-hg.14](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.14.md) | [bob-cli-hg.14](bob-cli-hg.14.md) | 1 |
 | [bbugyi200.apollo.bob-cli-hg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.2/README.md) | [bob-cli-hg.2](bob-cli-hg.2.md) | 1 |
@@ -229,6 +231,7 @@ flowchart TD
 | bob-cli | [`8935148`](https://github.com/bobs-org/bob-cli/commit/8935148f6933c96f6e709bdb161d69bcc411573c) | feat(gmail): add durable send-recovery engine for compose drafts | [bob-cli-hg.12.1.4](bob-cli-hg.12.1.4.md) | 2026-11-06 13:37:00 EST |
 | bob-cli | [`57af3ea`](https://github.com/bobs-org/bob-cli/commit/57af3ead752da458c1dcc8b66c71396e46b2092c) | feat(gmail): add confirmed send and note finalization | [bob-cli-hg.12.1.5](bob-cli-hg.12.1.5.md) | 2026-11-06 15:25:30 EST |
 | bob-cli | [`ae624e2`](https://github.com/bobs-org/bob-cli/commit/ae624e2791aafc17d099cdf84244d7238787c625) | docs(gmail): document compose send flow and pin contract fixtures | [bob-cli-hg.12.1.6](bob-cli-hg.12.1.6.md) | 2026-11-06 15:54:12 EST |
+| bob-cli | [`f1d8285`](https://github.com/bobs-org/bob-cli/commit/f1d8285ef1be73aa036e001a17e6e39bc887db96) | fix(gmail): land compose epic without intermediate allowances | [bob-cli-hg.12.1](bob-cli-hg.12.1.md) | 2026-11-06 16:29:53 EST |
 
 <!-- sase:referenced-by:start -->
 
