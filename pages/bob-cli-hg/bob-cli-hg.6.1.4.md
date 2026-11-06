@@ -42,7 +42,9 @@ list-diagnostics: implement real bare/explicit list with pagination and backlink
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.6.1.4][1] | Need phase scope and design | 2 |
+| read-by | [agent:bob-cli-hg.6.1.land--1][2] | Recheck child scope, closure notes, and original follow-up disposition for epic closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md
 
 <!-- sase:referenced-by:end -->

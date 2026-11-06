@@ -14,10 +14,24 @@ mac-gmail-preview: decode and paint the gmail_url span, show each item's Gmail p
 ## Dependencies
 
 - **Depends on:** [bob-cli-hg.8](bob-cli-hg.8.md) ◐ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-hg.9](bob-cli-hg.9.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hg.9](bob-cli-hg.9.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-hg.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.11/README.md) | [bob-cli-hg.11](bob-cli-hg.11.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.5s.grk][1] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
+| read-by | [agent:research.5s.mus][2] | gmail user guide research | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+
+<!-- sase:referenced-by:end -->

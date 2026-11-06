@@ -27,10 +27,24 @@ gmail-save: resolve URL/ID/note inputs to a confirmed thread, fetch it, write or
 - **Depends on:** [bob-cli-hg.4](bob-cli-hg.4.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hg.5](bob-cli-hg.5.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hg.7](bob-cli-hg.7.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [bob-cli-hg.9](bob-cli-hg.9.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hg.9](bob-cli-hg.9.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-hg.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.md) | [bob-cli-hg.6](bob-cli-hg.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hg.6.1.land--1][1] | Verify the child and parent closure records and confirm the outer Gmail epic remains open | 3 |
+| read-by | [agent:research.5s.mus][2] | gmail user guide research | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+
+<!-- sase:referenced-by:end -->

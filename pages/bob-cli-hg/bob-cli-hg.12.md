@@ -11,6 +11,10 @@
 
 gmail-compose: compose notes and Reply sections, Markdown-to-email rendering with refusals, Gmail drafts recorded by id, an exact digest-bound preview, send by draft id with crash recovery, the compose scope, and the sent card.
 
+## Notes
+
+[2026-11-06T12:10:31Z · bob-cli-hg.12] Planning audit: no prior phase-work notes; baseline fcc4efa5 has save/list and compose login but no new/reply/draft/send implementation. Validated a six-phase child epic covering source notes, rendering, draft/readback previews, send recovery, finalization, and docs/consumer fixtures. Verified gog v0.44.0 rejects simultaneous --thread-id and --reply-to-message-id; the plan preserves exact threading via message ID plus returned-thread verification. No epic-symbol entries for this phase. No product or memory files changed; phase remains in progress pending plan approval and implementation.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-hg.13](bob-cli-hg.13.md) ◐ · ⧖ 2026-11-05
@@ -20,4 +24,18 @@ gmail-compose: compose notes and Reply sections, Markdown-to-email rendering wit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.12/README.md) | [bob-cli-hg.12](bob-cli-hg.12.md) | 0 |
+| [bbugyi200.apollo.bob-cli-hg.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.12.md) | [bob-cli-hg.12](bob-cli-hg.12.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.5s.grk][1] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
+| read-by | [agent:research.5s.mus][2] | gmail user guide research | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+
+<!-- sase:referenced-by:end -->

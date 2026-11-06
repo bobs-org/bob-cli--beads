@@ -21,3 +21,19 @@ gmail-link: find Gmail URLs in named notes or the whole vault, save each confirm
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-hg.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.7/README.md) | [bob-cli-hg.7](bob-cli-hg.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.5s.cld][1] | Check phase status and any design refinements for the Gmail user guide | 1 |
+| read-by | [agent:research.5s.grk][2] | Need remaining Gmail phase user-facing scopes for the guide | 1 |
+| read-by | [agent:research.5s.mus][3] | gmail user guide research | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.grk/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5s.mus/README.md
+
+<!-- sase:referenced-by:end -->

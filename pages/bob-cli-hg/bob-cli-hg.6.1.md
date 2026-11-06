@@ -17,7 +17,7 @@
 | related | file:explicit:18705a7c72a5c9d067cf6be1 | attached via sase artifact create --bead |
 | related | file:explicit:e7aea0b4b642b917e1e2d9f7 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_save_list.md
 
@@ -58,14 +58,13 @@ The linked Gmail save/list plan is marked status: done. Parent bob-cli-hg.6 has 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-hg.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md) | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7825a98`](https://github.com/bobs-org/bob-cli/commit/7825a98f0eebbec5c05932aabe267773fe7915cd) | fix(gmail): close transactional save gaps | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:02:37 EST |
-| bob-cli--plans | [`bob-cli--plans@e619854`](https://github.com/bobs-org/bob-cli--plans/commit/e6198541744c8f65619f32d9232fd8a5f70f2244) | docs(gmail): mark save list plan done | [bob-cli-hg.6.1](bob-cli-hg.6.1.md) | 2026-11-06 07:03:24 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -74,7 +73,9 @@ The linked Gmail save/list plan is marked status: done. Parent bob-cli-hg.6 has 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-hg.6.1.3][1] | Need the epic decisions governing the save transaction phase | 1 |
+| read-by | [agent:bob-cli-hg.6.1.land--1][2] | Inspect the approved Gmail epic closeout scope, child beads, and recorded decisions | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-hg.6.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-hg.6.1.land.md
 
 <!-- sase:referenced-by:end -->
