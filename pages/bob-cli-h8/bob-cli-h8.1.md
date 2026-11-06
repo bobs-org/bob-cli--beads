@@ -40,9 +40,11 @@ plugin-tests: in bob-plugins, fix the six test-harness defects behind bob-cli-eh
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h8.1--2][1] | Need the current phase scope, recorded rerun evidence, and approved follow-up before closure | 1 |
-| read-by | [agent:bob-cli-hd.land][2] | Need the child scope for harness stabilization | 1 |
+| read-by | [agent:bob-cli-h8.13][2] | Check plugin-suite failures against the neighboring test-harness phase | 1 |
+| read-by | [agent:bob-cli-hd.land][3] | Need the child scope for harness stabilization | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.1.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.13/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hd.land/README.md
 
 <!-- sase:referenced-by:end -->

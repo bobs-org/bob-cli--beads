@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-h8](README.md) / bob-cli-h8.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.18c](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.18c.md) · **Assignee:** `bob-cli-h8.7` · **Size:** medium
-**Created:** 2026-11-04 16:39:09 EST
+**Created:** 2026-11-04 16:39:09 EST · **Closed:** 2026-11-05 18:36:43 EST
 **Plan:** [202611/top\_ten\_bead\_bundles.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/top_ten_bead_bundles.md)
 
 ## Description
@@ -37,6 +37,10 @@ athena-hostile-alerts: in the tailnet repo, add per-user CPU telemetry (process-
 
 [2026-11-05T22:13:05Z · bob-cli-h8.7] Staged reviewed repair gate sudo-a23b6ebe-d6fd-4b9f-a3a9-20322957c9a4 (staged_id 983f35d6-ad76-49d7-a553-ac9d77c6920a). It backs up and installs the corrected files, explicitly restarts boundary/exporter/timer/Prometheus, then runs the root-owned /tmp-sleep plus 192.0.2.1:3333 acceptance driver with a 45-minute bound and cleanup. A successor is staged to verify the ledger, inspect live telemetry and email evidence, and close only this phase once acceptance is fulfilled. No live repair has run yet; bead remains open for actual deployment and proof, not for the pre-existing bob-cli Clippy failure.
 
+[2026-11-05T22:43:13Z · bob-cli-h8.7--1] Post-repair acceptance verified 2026-11-05T22:42Z. Reviewed sudo-a23b6ebe-d6fd-4b9f-a3a9-20322957c9a4 is answered/approved; supplied structured receipt reports all 24 commands ran with exit 0, including promtool validation/tests, service restarts, and 734s acceptance. /var/lib/athena-hostile-proof/latest.json has status=passed, started 22:25:23Z, firing_at 22:26:36Z, resolved_at 22:37:36Z, and explicitly inbox_verified=false. Read-only verify-stack passes now: exclusively 127.0.0.1:9256, per-user CPU series for 17 users including bryan/root, process up=1, collector age 72s, nft_ok=1, mining packets=2 (baseline 0), boundary/exporter/timer enabled and active. All seven rules health=ok/state=inactive; both injected alerts absent from active Prometheus and Alertmanager sets; writable/deleted counts=0; no temporary proof directories remain. Eight readable installed config/collector files match the repaired tailnet checkout byte-for-byte. Email notification counters were 2 -> 4 -> 8 with zero failures; bounded privileged SMTP ledger shows six status=sent/250 OK relay acceptances to Bryan. Those global counters and relay responses cannot establish per-alert inbox receipt. Current non-root mail-log read is denied, and one bounded required sase_gmail search still returns 403 insufficientPermissions; no credentials changed. Only remaining acceptance is human confirmation that Gmail received FIRING and RESOLVED for AthenaHostileWritableDirExec and AthenaHostileMiningEgress during approximately 17:25-17:38 EST. Staging sase_questions for that confirmation; keep this phase open until received. Prior relevant tailnet checks remain green, git diff --check passes, bob-cli is unchanged/clean and its previously recorded baseline Clippy failure is not a blocker. epic-symbols currently reports no entries; rerun immediately before eventual close. Successor must close ONLY bob-cli-h8.7, never 8r/h8/ancestors, after receipt confirmation and a fresh read-only verify-stack check. The inherited repair files in the opened tailnet checkout remain dirty from the preceding implementation turn and must be preserved/committed through sase_final;
+
+… and 1499 more characters
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -50,6 +54,7 @@ athena-hostile-alerts: in the tailnet repo, add per-user CPU telemetry (process-
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h8.7--1][1] | confirm notes landed, bead stays open | 3 |
+| read-by | [agent:bob-cli-h8.7--2][1] | Need the phase scope, design, prior live acceptance, and remaining closure work after confirmed email receipt | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.7.md
 

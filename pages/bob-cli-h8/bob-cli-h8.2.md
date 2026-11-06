@@ -33,8 +33,10 @@ plugin-sync-proof: in src/native/plugins/deploy.rs, let a clean-checkout sync ov
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-h8.2][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-h8.13][1] | Check whether the assigned plugin-sync phase owns this dirty-deploy refusal | 1 |
+| read-by | [agent:bob-cli-h8.2][2] | Need the phase scope and design file | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.13/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.2/README.md
 
 <!-- sase:referenced-by:end -->

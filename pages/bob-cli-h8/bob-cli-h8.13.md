@@ -165,3 +165,15 @@ tools/docs/tests/test_
 |---|---|---|---|---|
 | bob-cli | [`4fa96e1`](https://github.com/bobs-org/bob-cli/commit/4fa96e152bae8c00f765934ddb7624b0d6d031df) | docs(task-dependencies): document plugin consumption parity | [bob-cli-h8.13](bob-cli-h8.13.md) | 2026-11-05 17:41:03 EST |
 | bob-plugins | [`bob-plugins@9d24e42`](https://github.com/bobs-org/bob-plugins/commit/9d24e420cc8495062a42245003d0db8a332154da) | fix(navigation): preserve notes during Depends-On consumption | [bob-cli-h8.13](bob-cli-h8.13.md) | 2026-11-05 17:41:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-h8.13][1] | Check phase notes for prior work and recorded remainder | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.13/README.md
+
+<!-- sase:referenced-by:end -->
