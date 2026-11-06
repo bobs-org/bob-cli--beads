@@ -13,7 +13,7 @@ nav_ticks: add the quiet STAGE ✓ tick to Ctrl+Enter done lines when a stage's 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ho.3](bob-cli-ho.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-ho.3](bob-cli-ho.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

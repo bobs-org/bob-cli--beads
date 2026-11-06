@@ -19,7 +19,7 @@ walk_order: parse and validate freshness.pre_stages/post_stages, resolve each PR
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ho.3](bob-cli-ho.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-ho.3](bob-cli-ho.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
@@ -33,3 +33,15 @@ walk_order: parse and validate freshness.pre_stages/post_stages, resolve each PR
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8eecf0c`](https://github.com/bobs-org/bob-cli/commit/8eecf0c4ba01712cb8a7807439c622c484f17630) | feat(freshness): order PRE and POST review stages | [bob-cli-ho.1](bob-cli-ho.1.md) | 2026-11-05 19:39:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ho.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ho.1/README.md
+
+<!-- sase:referenced-by:end -->

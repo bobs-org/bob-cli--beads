@@ -13,7 +13,7 @@ stage_labels: specify and render a quiet small-caps stage label right after the 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ho.3](bob-cli-ho.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-ho.3](bob-cli-ho.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-ho.6](bob-cli-ho.6.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

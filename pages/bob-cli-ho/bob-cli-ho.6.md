@@ -15,7 +15,7 @@ rollout: add the stage lists to the chezmoi-managed bob config, tag the existing
 
 - **Depends on:** [bob-cli-ho.1](bob-cli-ho.1.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-ho.2](bob-cli-ho.2.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [bob-cli-ho.3](bob-cli-ho.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-ho.3](bob-cli-ho.3.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-ho.4](bob-cli-ho.4.md) ◐ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-ho.5](bob-cli-ho.5.md) ◐ · ⧖ 2026-11-05
 
