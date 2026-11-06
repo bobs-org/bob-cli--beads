@@ -13,7 +13,7 @@ quiet-builds: run the bob-cli Cargo build (in `just install`) and the Mac Captur
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-i0.3](bob-cli-i0.3.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-i0.3](bob-cli-i0.3.md) ✓ · ⧖ 2026-11-06
 - **Depends on:** [bob-cli-i0.4](bob-cli-i0.4.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-i0.6](bob-cli-i0.6.md) ◐ · ⧖ 2026-11-06
 

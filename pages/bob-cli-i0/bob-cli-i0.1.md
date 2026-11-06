@@ -18,7 +18,7 @@ ui-core: create the stdlib Python 3.9 `scripts/lib/install_ui/` package (entry p
 ## Dependencies
 
 - **Blocks:** [bob-cli-i0.2](bob-cli-i0.2.md) ✓ · ⧖ 2026-11-06
-- **Blocks:** [bob-cli-i0.3](bob-cli-i0.3.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-i0.3](bob-cli-i0.3.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
