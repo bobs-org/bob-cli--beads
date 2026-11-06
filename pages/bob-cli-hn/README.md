@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/successor_card_verdicts.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/successor_card_verdicts.md
 
@@ -28,6 +28,8 @@ While reviewing a successor card in Obsidian, in Bob Mac Capture, or through `bo
 ## Notes
 
 [2026-11-06T04:37:46Z · bob-cli-hl.3.1.3--6] DISCOVERED ISSUE: The close descriptors added by bob-cli-hn.2 appear in successor offers, but the note-pull CLI fixtures omit offer.close. On clean pre-execution HEAD 12262fb29655d1efba1639db2c5883d98302e3d59 and the current implementation (monitors cse8a3qgj8n1 and brcp0cs9n851), these tests fail identically: capture::note_pull::np1_no_pick_matches_cli_json_and_human_fixtures, np13_required_choice_matches_refusal_fixture_without_writes, np_move_groups_follow_requested_sources_in_cli_fixtures, np2_pick_all_matches_cli_json_and_human_fixtures, and np16_inbox_choice_and_routed_pick_match_cli_fixtures. The closed bob-cli-h5 tracked an earlier mismatch from destination fields; these new close fields are a separate cause. Triage fixture updates under this epic; no bead created.
+
+[2026-11-06T06:29:29Z · bob-cli-hl.3.1.land] DISCOVERED ISSUE (bob-cli-hl.3.1.land on master 6af313b4): three successor-verdict CLI tests added by efbe3470 (bob-cli-hn.3) fail against offer_close copy from 44c5c8c8 (bob-cli-hn.6.1.1): capture::successor_verdicts::new_task_verdicts_refuse_write_free expects refused.why == 'new_task' but gets '“Draft memo” is new in this capture — drop it from the draft instead'; ineligible_verdicts_refuse_with_why expects why 'recurring' but gets '“Weekly” repeats — close it in Obsidian so Tasks writes the next one'; done_verdict_resolves_root_only_with_scope_note expects '· its 2 embedded tasks stay open' but gets '· its 2 open subtasks stay open' (task_complete/offer_close.rs:346). Reproduce: cargo test -p bob-obsidian --test cli capture::successor_verdicts. Reported by bob-cli-hl.3.1.5 note #2 as a clean-base failure; not caused by capture merge-in. Decide whether refused.why is a code or a sentence and align tests/vectors. No task created.
 
 ## Phases
 
@@ -104,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hn.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.2.md) | [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.3/README.md) | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.4.md) | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.6.1.land/README.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-hn.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.6.1.land.md) | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-hn.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.7/README.md) | [bob-cli-hn.7](bob-cli-hn.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.8/README.md) | [bob-cli-hn.8](bob-cli-hn.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-hn.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hn.9.md) | [bob-cli-hn.9](bob-cli-hn.9.md) | 0 |
@@ -123,6 +125,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ef9257d`](https://github.com/bobs-org/bob-plugins/commit/ef9257d7faac679fb80fab2a27da5ee654b5d202) | feat(task-status-cycler): add successor offer close descriptors | [bob-cli-hn.6.1.2](bob-cli-hn.6.1.2.md) | 2026-11-05 22:21:31 EST |
 | bob-plugins | [`bob-plugins@3af8d0c`](https://github.com/bobs-org/bob-plugins/commit/3af8d0cddaf7a7bf1ae3d4073f58c9a39a4e2934) | feat(task-status-cycler): apply guarded offer-close verdicts with Undo snapshots | [bob-cli-hn.6.1.3](bob-cli-hn.6.1.3.md) | 2026-11-05 22:49:07 EST |
 | bob-plugins | [`bob-plugins@1c3aaf1`](https://github.com/bobs-org/bob-plugins/commit/1c3aaf1235e8e175240d08b9541b8a275f895bb8) | feat(plugins): integrate successor close verdicts | [bob-cli-hn.6.1.4](bob-cli-hn.6.1.4.md) | 2026-11-06 00:31:23 EST |
+| bob-cli | [`5c119a0`](https://github.com/bobs-org/bob-cli/commit/5c119a06983ecdb8489098d4da73ef0d02978899) | fix(task-complete): repair successor verdict contracts and receipts | [bob-cli-hn.6.1](bob-cli-hn.6.1.md) | 2026-11-06 01:46:50 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -132,12 +135,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-h8.land][1] | Check owner epic of theme vector drift | 1 |
 | read-by | [agent:bob-cli-hl.3.1.3--6][2] | Need to compare this candidate with exact clean-base and current gate failures before recording follow-up evidence | 1 |
-| read-by | [agent:bob-cli-hn.3][3] | Need epic scope for cli phase | 1 |
-| read-by | [agent:bob-cli-hn.4][4] | Need epic status and phase list | 1 |
+| read-by | [agent:bob-cli-hl.3.1.land][3] | Check whether the successor verdict test failures are tracked by the offer epic | 1 |
+| read-by | [agent:bob-cli-hn.3][4] | Need epic scope for cli phase | 1 |
+| read-by | [agent:bob-cli-hn.4][5] | Need epic status and phase list | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.3.1.3.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.3.1.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.3/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hn.4/README.md
 
 <!-- sase:referenced-by:end -->
