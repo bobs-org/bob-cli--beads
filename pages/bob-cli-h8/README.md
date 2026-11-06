@@ -146,7 +146,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-h8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.7.md) | [bob-cli-h8.7](bob-cli-h8.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-h8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.8/README.md) | [bob-cli-h8.8](bob-cli-h8.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-h8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-h8.9.md) | [bob-cli-h8.9](bob-cli-h8.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-h8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.land/README.md) | [bob-cli-h8](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-h8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-h8.land/README.md) | [bob-cli-h8](README.md) | 2 |
 
 ## Commits
 
@@ -166,6 +166,7 @@ flowchart TD
 | bob-cli | [`4fa96e1`](https://github.com/bobs-org/bob-cli/commit/4fa96e152bae8c00f765934ddb7624b0d6d031df) | docs(task-dependencies): document plugin consumption parity | [bob-cli-h8.13](bob-cli-h8.13.md) | 2026-11-05 17:41:03 EST |
 | bob-plugins | [`bob-plugins@9d24e42`](https://github.com/bobs-org/bob-plugins/commit/9d24e420cc8495062a42245003d0db8a332154da) | fix(navigation): preserve notes during Depends-On consumption | [bob-cli-h8.13](bob-cli-h8.13.md) | 2026-11-05 17:41:25 EST |
 | bob-mac-capture | [`bob-mac-capture@862f9fc`](https://github.com/bobs-org/bob-mac-capture/commit/862f9fc9c521e4ee53a7f2b224c17a8b874c1118) | test(capture): make the backslash Go To decline test exercise its guards | [bob-cli-h8](README.md) | 2026-11-05 19:58:18 EST |
+| bob-plugins | [`bob-plugins@710feae`](https://github.com/bobs-org/bob-plugins/commit/710feae383e487eed1a766af7fae79657cef1935) | test: harden link-mark budgets and resync theme menu vectors | [bob-cli-h8](README.md) | 2026-11-05 19:58:39 EST |
 
 <!-- sase:referenced-by:start -->
 
