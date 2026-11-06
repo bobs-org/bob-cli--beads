@@ -17,7 +17,7 @@ wire: add tolerant merge_in, diagnostic rewrite, merge_in_pending, block-line or
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
@@ -30,3 +30,15 @@ wire: add tolerant merge_in, diagnostic rewrite, merge_in_pending, block-line or
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@b4b343f`](https://github.com/bobs-org/bob-mac-capture/commit/b4b343f81c206d5b378438cda8381ba916e41934) | feat(capture): add merge-in tolerant models, fixtures and decoding tests | [bob-cli-hl.5.1.1](bob-cli-hl.5.1.1.md) | 2026-11-06 02:10:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hl.5.1.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

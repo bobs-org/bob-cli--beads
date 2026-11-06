@@ -60,7 +60,7 @@ flowchart TD
     n11["bob-cli-hl.5: Bob Mac Capture merge-in band and pickers [in_progress]"]
     n12["bob-cli-hl.5.1: Complete Bob Mac Capture merge-in bands and pickers [in_progress]"]
     n13["bob-cli-hl.5.1.1: Decode merge-in contracts and record fixture responses [closed]"]
-    n14["bob-cli-hl.5.1.2: Integrate merge-in source pickers and explicit diagnostic rewrites [in_progress]"]
+    n14["bob-cli-hl.5.1.2: Integrate merge-in source pickers and explicit diagnostic rewrites [closed]"]
     n15["bob-cli-hl.5.1.3: Render merge-in bands and capture outcome copy [in_progress]"]
     n16["bob-cli-hl.5.1.4: Fold merge landing groups and remove duplicate target blocks [in_progress]"]
     n17["bob-cli-hl.5.1.5: Raise the grammar gate and verify the integrated Mac experience [in_progress]"]
@@ -116,7 +116,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-hl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.4/README.md) | [bob-cli-hl.4](bob-cli-hl.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.md) | [bob-cli-hl.5](bob-cli-hl.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.1/README.md) | [bob-cli-hl.5.1.1](bob-cli-hl.5.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-hl.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.2/README.md) | [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-hl.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hl.5.1.2.md) | [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-hl.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.3/README.md) | [bob-cli-hl.5.1.3](bob-cli-hl.5.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.4/README.md) | [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-hl.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hl.5.1.5/README.md) | [bob-cli-hl.5.1.5](bob-cli-hl.5.1.5.md) | 0 |
@@ -139,6 +139,7 @@ flowchart TD
 | bob-cli | [`248a2bf`](https://github.com/bobs-org/bob-cli/commit/248a2bfa3b53e68d02e5f4976f76c75e3575add1) | refactor(capture): share merge source eligibility with merge-in pending and picker | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 2026-11-06 01:35:29 EST |
 | bob-cli--plans | [`bob-cli--plans@1c331fb`](https://github.com/bobs-org/bob-cli--plans/commit/1c331fb6ad840c4f10f2b7834b60b640ddbde1e6) | chore(plans): mark capture\_merge\_in\_execution done | [bob-cli-hl.3.1](bob-cli-hl.3.1.md) | 2026-11-06 01:35:53 EST |
 | bob-mac-capture | [`bob-mac-capture@b4b343f`](https://github.com/bobs-org/bob-mac-capture/commit/b4b343f81c206d5b378438cda8381ba916e41934) | feat(capture): add merge-in tolerant models, fixtures and decoding tests | [bob-cli-hl.5.1.1](bob-cli-hl.5.1.1.md) | 2026-11-06 02:10:15 EST |
+| bob-mac-capture | [`bob-mac-capture@8c956ca`](https://github.com/bobs-org/bob-mac-capture/commit/8c956ca52b704bb4e3b0add118445470ae186eae) | feat(capture): add merge-in source picker and diagnostic rewrite actions | [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) | 2026-11-06 02:49:38 EST |
 
 <!-- sase:referenced-by:start -->
 

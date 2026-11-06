@@ -13,7 +13,7 @@ band: build CaptureMergeInPresentation and render complete, pending, and refusal
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [bob-cli-hl.5.1.2](bob-cli-hl.5.1.2.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-hl.5.1.4](bob-cli-hl.5.1.4.md) ◐ · ⧖ 2026-11-06
 
 ## Agents
