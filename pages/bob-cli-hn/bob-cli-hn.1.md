@@ -21,7 +21,7 @@ contract: write the binding bob-cli docs contract in docs/task-dependencies.md �
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hn.2](bob-cli-hn.2.md) ○ · ⧖ 2026-11-05
+- **Blocks:** [bob-cli-hn.2](bob-cli-hn.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hn.4](bob-cli-hn.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents

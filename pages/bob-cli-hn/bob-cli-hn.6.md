@@ -13,7 +13,7 @@ cycler: compute close descriptors that match the shared vectors, attach them whe
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-hn.2](bob-cli-hn.2.md) ○ · ⧖ 2026-11-05
+- **Depends on:** [bob-cli-hn.2](bob-cli-hn.2.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [bob-cli-hn.5](bob-cli-hn.5.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [bob-cli-hn.7](bob-cli-hn.7.md) ◐ · ⧖ 2026-11-05
 
