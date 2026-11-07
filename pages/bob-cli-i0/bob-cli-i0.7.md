@@ -46,3 +46,15 @@ docs-acceptance: rewrite docs/guides/install-everything.md around the new run, n
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a435a8e`](https://github.com/bobs-org/bob-cli/commit/a435a8e134f0a92a99b3e4e45b8fa5ad6cbc763e) | docs(install): document live install flow | [bob-cli-i0.7](bob-cli-i0.7.md) | 2026-11-06 17:43:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-i0.7][1] | Verify the attached PTY transcript and phase follow-up records before closing | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.7/README.md
+
+<!-- sase:referenced-by:end -->

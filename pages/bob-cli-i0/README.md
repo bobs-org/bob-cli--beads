@@ -14,6 +14,8 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/install_all_wait_and_whats_new.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:6a890c61c8d441a10ef03bd5 | attached via sase artifact create --bead |
+| related | file:explicit:e490bba9ca8d65a7afe3cd32 | attached via sase artifact create --bead |
 
 _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
@@ -24,6 +26,17 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 `just install-all` (and plain `just install`) stop looking hung during their long bob-cli and Bob Mac Capture builds. All three repos are pulled first, then one fit-to-screen "What's new" digest shows the commits since each repo's last successful install on this host, with full messages when they fit. Each build then runs behind one live status line: activity, elapsed time, and an ETA that only per-host history of comparable builds can earn. Compiler chatter goes to a log, failures print an excerpt, and the run ends with a summary, a terminal bell, and on macOS a Notification Center banner. A missing or failing helper always falls back to today's behavior.
+
+## Notes
+
+[2026-11-06T23:10:32Z · bob-cli-i0.land] LANDING TRIAGE (bob-cli-i0.land): PROPOSED FOLLOW-UPs -> (a) bob-cli-i0.7 note #2 Mac acceptance: filed bob-cli-i6 (feature, small, ready). (b) bob-cli-i0.7 note #3 Mac build speed (R8): filed bob-cli-i7 (feature, large, ready). (c) plan docs-acceptance item 4c, never recorded by bob-cli-i0.7: filed bob-cli-i8 (feature, medium), snoozed to 2026-11-13 for a week of runs.jsonl history. Declined: bob-cli-i0.7 note #4 WORKSPACE NOTE (an accidental same-version just install into the default Cargo root) - informational, no action. No duplicates found by search or the 1-week sweep; no other active epic is causally related. REMAINING EPIC WORK found in verification (planned as a lander tale): (1) the cargo parser maps cargo install's opening 'Installing bob-obsidian vX (path)' line to the finish phase, so the forward-only phase clock records the whole build under finish and the label reads 'installing bob' (proof: /tmp/bob-cli-i0.7-state runs.jsonl and the i0.7 PTY attachment); 'Fetch [' progress frames and 'Replaced package' lines leak into scrollback; (2) runner/digest rows sit at column 0 instead of the plan's 2-space indent (Screens A-D); (3) the shim reruns the build when the started file is missing even after a successful runner exit, and post-spawn exceptions return 70 instead of the child's status; (4) the bob-cli summary duration includes sibling pulls and the digest; (5) the failure hint tells plain just install users to run install-all -v; (6) docs-acceptance item 1 not done (stale installed/synced sample rows, no escape-hatch table, no log/state locations) and the sandboxed install_all transcript was never attached. Integration: the only non-epic commits since the epic started (ae624e27, f1d8285e, e39e4576, upstream 17aae714) touch gmail/capture only; nothing needs to change.
+
+[2026-11-07T00:15:14Z · bob-cli-i0.land--2] Landing PTY acceptance on athena: real-Cargo just install (cold; index 0.81s, deps 32.7s, crate 112.6s, finish 0.19s; phases updating crates.io index → compiling dependencies → compiling bob-obsidian → installing bob; hidden Fetch/Replaced/Installing chatter; ✓ built) and sandboxed scripts/install_all (header pull, digest of 5 commits, indented live line, summary, exit 0). Isolated temp HOME/CARGO_INSTALL_ROOT/CARGO_TARGET_DIR/XDG_STATE_HOME/BOB_INSTALL_STATE_DIR; real CARGO_HOME and RUSTUP_HOME; default Cargo root, ~/bob, and Obsidian untouched. 🔒 bob-cli-i0-just-install.pty.txt 🔒 bob-cli-i0-install-all.pty.txt
+
+## Attachments
+
+- 🔒 bob-cli-i0-install-all.pty.txt · text/plain · 75.1348 KiB (private attachment)
+- 🔒 bob-cli-i0-just-install.pty.txt · text/plain · 109.832 KiB (private attachment)
 
 ## Phases
 
@@ -76,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-i0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.5/README.md) | [bob-cli-i0.5](bob-cli-i0.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.6/README.md) | [bob-cli-i0.6](bob-cli-i0.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.7/README.md) | [bob-cli-i0.7](bob-cli-i0.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-i0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.land/README.md) | [bob-cli-i0](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-i0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-i0.land.md) | [bob-cli-i0](README.md) | 1 |
 
 ## Commits
 
@@ -89,6 +102,7 @@ flowchart TD
 | bob-cli | [`d5e49b1`](https://github.com/bobs-org/bob-cli/commit/d5e49b172c9299ec6bbb60cc866aa29025e426f5) | feat(install): route builds through the live runner | [bob-cli-i0.5](bob-cli-i0.5.md) | 2026-11-06 17:02:10 EST |
 | bob-cli | [`a3238f7`](https://github.com/bobs-org/bob-cli/commit/a3238f70b4582cedb6c2c7fe8f2859d077a783ee) | feat(install): earn ETA ranges, plan line, and summary comparison | [bob-cli-i0.6](bob-cli-i0.6.md) | 2026-11-06 17:28:43 EST |
 | bob-cli | [`a435a8e`](https://github.com/bobs-org/bob-cli/commit/a435a8e134f0a92a99b3e4e45b8fa5ad6cbc763e) | docs(install): document live install flow | [bob-cli-i0.7](bob-cli-i0.7.md) | 2026-11-06 17:43:09 EST |
+| bob-cli | [`d48e546`](https://github.com/bobs-org/bob-cli/commit/d48e54667d508080e7bd125627879bcde1cba3cf) | fix(install): land live UI phases, indent, and fallbacks | [bob-cli-i0](README.md) | 2026-11-06 19:37:43 EST |
 
 <!-- sase:referenced-by:start -->
 
