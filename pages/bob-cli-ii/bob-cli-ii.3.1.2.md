@@ -13,7 +13,7 @@ discovery: implement ids-only discovery, per-account exclusion, and shared pacin
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ◐ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.3.1.4](bob-cli-ii.3.1.4.md) ◐ · ⧖ 2026-11-07
 

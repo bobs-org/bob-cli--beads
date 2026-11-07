@@ -7,6 +7,18 @@
 **Created:** 2026-11-07 18:12:56 EST
 **Plan:** [202611/gmail\_sync\_filing.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_sync_filing.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/gmail_sync_filing.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_sync_filing.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-ii.3 with idempotent label-routed task filing, local watch membership, adoption, bounded retries, one scoped transaction, clear reports, and a behavior-identical hidden pull alias.
