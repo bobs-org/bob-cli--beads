@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ib.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.4.md) | [bob-cli-ib.4](bob-cli-ib.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ib.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.5.md) | [bob-cli-ib.5](bob-cli-ib.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ib.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.6.md) | [bob-cli-ib.6](bob-cli-ib.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-ib.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.land.md) | [bob-cli-ib](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-ib.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.land.md) | [bob-cli-ib](README.md) | 3 |
 
 ## Commits
 
@@ -114,6 +114,7 @@ flowchart TD
 | chezmoi | [`chezmoi@6af21b4`](https://github.com/bbugyi200/dotfiles/commit/6af21b405fa1b0888f169c0908ef9c0340baf4a0) | feat(cron): migrate athena and Mac jobs into cron: data | [bob-cli-ib.6](bob-cli-ib.6.md) | 2026-11-07 15:55:32 EST |
 | bob-cli | [`b73ac38`](https://github.com/bobs-org/bob-cli/commit/b73ac383c239a1f058742050f84b70c94e6c5732) | docs(cron): note the Mac SSH install caveat and the bob-nightly cron job | [bob-cli-ib](README.md) | 2026-11-07 16:53:26 EST |
 | chezmoi | [`chezmoi@ceeef45`](https://github.com/bbugyi200/dotfiles/commit/ceeef451c08bed54dac69d91ae01aaab18cb5c15) | fix(cron): bound cronctl's mkdir sync lock and normalise block emission | [bob-cli-ib](README.md) | 2026-11-07 17:14:51 EST |
+| bob-cli--plans | [`bob-cli--plans@a6e7a9e`](https://github.com/bobs-org/bob-cli--plans/commit/a6e7a9ec0c0ec03ba49fe7d3afc2b9321e1478d7) | chore(plans): mark the crontab\_as\_code epic done | [bob-cli-ib](README.md) | 2026-11-07 17:15:14 EST |
 
 <!-- sase:referenced-by:start -->
 
