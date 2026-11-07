@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-i0
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.199](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.199.md) · **Assignee:** `bob-cli-i0.land`
-**Created:** 2026-11-06 15:11:24 EST
+**Created:** 2026-11-06 15:11:24 EST · **Closed:** 2026-11-06 19:48:29 EST
 **Plan:** [202611/install\_all\_wait\_and\_whats\_new.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/install_all_wait_and_whats_new.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,8 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-11-07T00:15:14Z · bob-cli-i0.land--2] Landing PTY acceptance on athena: real-Cargo just install (cold; index 0.81s, deps 32.7s, crate 112.6s, finish 0.19s; phases updating crates.io index → compiling dependencies → compiling bob-obsidian → installing bob; hidden Fetch/Replaced/Installing chatter; ✓ built) and sandboxed scripts/install_all (header pull, digest of 5 commits, indented live line, summary, exit 0). Isolated temp HOME/CARGO_INSTALL_ROOT/CARGO_TARGET_DIR/XDG_STATE_HOME/BOB_INSTALL_STATE_DIR; real CARGO_HOME and RUSTUP_HOME; default Cargo root, ~/bob, and Obsidian untouched. 🔒 bob-cli-i0-just-install.pty.txt 🔒 bob-cli-i0-install-all.pty.txt
 
+[2026-11-07T00:48:29Z · bob-cli-i0.land--4] Landing of bob-cli-i0: all seven phases were already closed; this tale verified them against the plan and integration-checked the non-epic commits (ae624e27, f1d8285e, e39e4576, and upstream 17aae714 — gmail/capture only; nothing outside install-all needed to change). Fixes: (1) Cargo opening `Installing <crate> v<ver> (<path>)` is chatter with no phase change; later `Installing <abs path>` / Replacing / Replaced / Installed map to finish; every `<Word> [` progress frame is chatter; index labels are fixed phrases (updating crates.io index, resolving dependencies, downloading crates, preparing build). (2) Runner live/final rows, digest headers/commits, and summary replay indent 2 spaces; excerpts/log/rerun rows indent 6. (3) Shim reruns the child only when the runner status is nonzero and not 130 and the started file is missing; `live.run` wraps post-spawn work, drains a live child on unexpected exceptions, and returns the child's status. (4) bob-cli summary duration starts at the BOB-CLI banner. (5) Failure hint names `just install` vs `just install-all`. (6) Rewrote docs/guides/install-everything.md (sample run, ETA phrases, escape hatches, log/state locations) and added the plugin-diff sentence in docs/plugins.md. Transcripts attached on this bead: real-Cargo just install PTY (cold on athena; index 0.81s, deps 32.7s, crate 112.6s, finish 0.19s; phases updating crates.io index → compiling dependencies n/m → compiling bob-obsidian → installing bob; hidden Fetch/Replaced/opening Installing; ✓ built) and sandboxed scripts/install_all PTY (header pull, 5-commit digest, indented live line, summary, exit 0); default Cargo root, ~/bob, and real Obsidian untouched. Follow-ups already recorded: bob-cli-i6 (Mac acceptance), bob-cli-i7 (Mac build speed), bob-cli-i8 (ETA gate tuning, snoozed); declined i0.7 workspace note. just check-scripts passed; just docs-check passed (447 passed, 1 skipped); just check initially failed on a minute-boundary flake in highlights::ingest::create_keeps_intake_for_flag_config_env_and_dry_run (captured: 19:24 vs 19:25); pinned BOB_NOW in create_command; just check passed (monitor wptbgd57ghd8). sase bead epic-symbols bob-cli-i0 listed no entries. just symvision is unavailable (no justfile recipe).
+
 ## Attachments
 
 - 🔒 bob-cli-i0-install-all.pty.txt · text/plain · 75.1348 KiB (private attachment)
@@ -54,7 +56,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-i0: just install-all: a wait worth sitting through [in_progress]"]
+    n0["bob-cli-i0: just install-all: a wait worth sitting through [closed]"]
     n1["bob-cli-i0.1: install_ui package core, state store, and script test harness [closed]"]
     n2["bob-cli-i0.2: What's new digest engine [closed]"]
     n3["bob-cli-i0.3: Live status line runner and build history [closed]"]
@@ -89,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-i0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.5/README.md) | [bob-cli-i0.5](bob-cli-i0.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.6/README.md) | [bob-cli-i0.6](bob-cli-i0.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-i0.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-i0.7/README.md) | [bob-cli-i0.7](bob-cli-i0.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-i0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-i0.land.md) | [bob-cli-i0](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-i0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-i0.land.md) | [bob-cli-i0](README.md) | 2 |
 
 ## Commits
 
@@ -103,6 +105,7 @@ flowchart TD
 | bob-cli | [`a3238f7`](https://github.com/bobs-org/bob-cli/commit/a3238f70b4582cedb6c2c7fe8f2859d077a783ee) | feat(install): earn ETA ranges, plan line, and summary comparison | [bob-cli-i0.6](bob-cli-i0.6.md) | 2026-11-06 17:28:43 EST |
 | bob-cli | [`a435a8e`](https://github.com/bobs-org/bob-cli/commit/a435a8e134f0a92a99b3e4e45b8fa5ad6cbc763e) | docs(install): document live install flow | [bob-cli-i0.7](bob-cli-i0.7.md) | 2026-11-06 17:43:09 EST |
 | bob-cli | [`d48e546`](https://github.com/bobs-org/bob-cli/commit/d48e54667d508080e7bd125627879bcde1cba3cf) | fix(install): land live UI phases, indent, and fallbacks | [bob-cli-i0](README.md) | 2026-11-06 19:37:43 EST |
+| bob-cli--plans | [`bob-cli--plans@62fd696`](https://github.com/bobs-org/bob-cli--plans/commit/62fd696d824b1f0c36cd93b4790280127bb56fe6) | docs(plan): mark install-all epic bob-cli-i0 done | [bob-cli-i0](README.md) | 2026-11-06 19:49:34 EST |
 
 <!-- sase:referenced-by:start -->
 
