@@ -17,7 +17,7 @@ bob-grammar: in bob-cli capture-rewrite, an `=` opener replaces the relation `-`
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-hz.3](bob-cli-hz.3.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [bob-cli-hz.3](bob-cli-hz.3.md) ✓ · ⧖ 2026-11-06
 - **Blocks:** [bob-cli-hz.5](bob-cli-hz.5.md) ◐ · ⧖ 2026-11-06
 
 ## Agents
