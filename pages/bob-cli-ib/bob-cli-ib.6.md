@@ -15,7 +15,7 @@ migrate: move the live athena and Mac jobs into cron: data with an atomic cutove
 
 - **Depends on:** [bob-cli-ib.2](bob-cli-ib.2.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [bob-cli-ib.4](bob-cli-ib.4.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [bob-cli-ib.5](bob-cli-ib.5.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ib.5](bob-cli-ib.5.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
