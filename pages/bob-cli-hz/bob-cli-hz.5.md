@@ -33,3 +33,15 @@ records: author the decision record for the new gestures and partly supersede th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e9284fb`](https://github.com/bobs-org/bob-cli/commit/e9284fbf19621a5f30f1d9276ccc43aa1b30b983) | docs(records): relation = alias decision record and task-relations sentence | [bob-cli-hz.5](bob-cli-hz.5.md) | 2026-11-06 22:38:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-hz.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-hz.5/README.md
+
+<!-- sase:referenced-by:end -->

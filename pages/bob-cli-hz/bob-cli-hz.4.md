@@ -30,7 +30,13 @@ equals-escape: one shared equals-gesture record with a ~350 ms key-to-key window
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.4.md) | [bob-cli-hz.4](bob-cli-hz.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-hz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.4.md) | [bob-cli-hz.4](bob-cli-hz.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@4fbbe84`](https://github.com/bobs-org/bob-mac-capture/commit/4fbbe84c5ffb4e8d6d0a6934410cfe5533e69e9c) | feat(mac-capture): fast == escape in the editor and picker | [bob-cli-hz.4](bob-cli-hz.4.md) | 2026-11-06 20:19:10 EST |
 
 <!-- sase:referenced-by:start -->
 

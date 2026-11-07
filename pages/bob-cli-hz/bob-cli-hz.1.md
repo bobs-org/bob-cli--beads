@@ -25,7 +25,13 @@ card-flip: in the Mac relation label card, `~`/`=` flip the relation in choose m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-hz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.1.md) | [bob-cli-hz.1](bob-cli-hz.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-hz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-hz.1.md) | [bob-cli-hz.1](bob-cli-hz.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@cbb50dc`](https://github.com/bobs-org/bob-mac-capture/commit/cbb50dc909f61f6ce4aacae86b394d11b43e02d2) | feat(capture): flip relation direction in the label card | [bob-cli-hz.1](bob-cli-hz.1.md) | 2026-11-06 14:15:29 EST |
 
 <!-- sase:referenced-by:start -->
 
