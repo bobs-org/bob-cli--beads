@@ -24,7 +24,7 @@ agent-docs: teach agents the read and write flow through a global /crontab skill
 ## Dependencies
 
 - **Depends on:** [bob-cli-ib.4](bob-cli-ib.4.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ib.6](bob-cli-ib.6.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ib.6](bob-cli-ib.6.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

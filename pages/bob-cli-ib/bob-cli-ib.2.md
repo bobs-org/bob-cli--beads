@@ -22,7 +22,7 @@ cronrun: add ~/bin/cronrun, which derives the job environment at run time, guard
 ## Dependencies
 
 - **Blocks:** [bob-cli-ib.4](bob-cli-ib.4.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ib.6](bob-cli-ib.6.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ib.6](bob-cli-ib.6.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
