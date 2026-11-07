@@ -20,7 +20,7 @@ sync: create cronctl with list, render, and check plus the marked-block sync rec
 ## Dependencies
 
 - **Depends on:** [bob-cli-ib.1](bob-cli-ib.1.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ib.4](bob-cli-ib.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ib.4](bob-cli-ib.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
