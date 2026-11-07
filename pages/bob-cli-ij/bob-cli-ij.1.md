@@ -17,7 +17,7 @@ cli: in bob-cli, resolve each home's hue from the nearest area or project `color
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ij.2](bob-cli-ij.2.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ij.2](bob-cli-ij.2.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ij.3](bob-cli-ij.3.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
@@ -31,3 +31,15 @@ cli: in bob-cli, resolve each home's hue from the nearest area or project `color
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d1b645d`](https://github.com/bobs-org/bob-cli/commit/d1b645d1c703927016be7edfe43bd7b61de9c5fd) | feat(homes): resolve hues from the nearest area or project color slot, add grey mute, and root review\_time at gtd | [bob-cli-ij.1](bob-cli-ij.1.md) | 2026-11-07 18:10:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ij.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ij.1/README.md
+
+<!-- sase:referenced-by:end -->

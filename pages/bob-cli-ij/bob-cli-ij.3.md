@@ -14,7 +14,7 @@ vault: install bob from master, re-root the daily template's ^gtd row at gtd, se
 ## Dependencies
 
 - **Depends on:** [bob-cli-ij.1](bob-cli-ij.1.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [bob-cli-ij.2](bob-cli-ij.2.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ij.2](bob-cli-ij.2.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
