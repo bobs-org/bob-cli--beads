@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-ib
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5w.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.5w.linker.w1.md) · **Assignee:** `bob-cli-ib.land`
-**Created:** 2026-11-07 12:43:37 EST
+**Created:** 2026-11-07 12:43:37 EST · **Closed:** 2026-11-07 17:13:22 EST
 **Plan:** [202611/crontab\_as\_code.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/crontab_as_code.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/crontab_as_code.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/crontab_as_code.md
 
@@ -36,6 +36,22 @@ One committed cron: block in the chezmoi repo is the single source of truth for 
 (6) sase epic watchdog loses XDG_RUNTIME_DIR/DBUS after the env-line retirement (ib.6 #4): the code lives in the sase project and is causally tied to the live sase-1r2 watchdog, so it is recorded as a DISCOVERED ISSUE note on sase-1r2, not as a bob-cli task. The same-boot path still works.
 INTEGRATION: closed bob-cli-30 (Mac crontab drift / ssh install) as superseded by this epic, with bob-cli-if tracking the Mac apply. Noted on bob-cli-5g that its Mac ref-jobs line must now be a cron: data job via /crontab. bob-cli docs/vault-git-sync.md: added the TCC/Full Disk Access caveat for 'cronctl apply mac', and pointed Nightly maintenance at the bob-nightly cron: job and cronctl logs.
 
+[2026-11-07T22:12:02Z · bob-cli-ib.land] DISCOVERED ISSUE: cronctl status --all on 2026-11-07 (~17:15 EST) reports mac identity_mismatch, not unmanaged: the Mac's hostname (and .chezmoi.hostname) is currently Kellys-MBP, while cron.machines enrolls mac only as [Kellys-MacBook-Pro]. Root cause is the Mac's unset HostName, which makes its kernel hostname drift between Kellys-MBP and Kellys-MacBook-Pro.local; that is already tracked by task bob-cli-ew (+1 added with this cron impact). Until it is fixed, or both names are enrolled, the crontab hook renders empty on Kellys-MBP days, so bob-cli-if's local chezmoi update -a would not converge the Mac.
+
+[2026-11-07T22:13:22Z · bob-cli-ib.land] THIS TALE (plan 202611/cronctl_lock_and_block_fixes.md, chezmoi home/bin/executable_cronctl):
+- mkdir-lock spin fixed: every pass that does not take sync.lock.d returns or sleeps and counts toward CRONCTL_LOCK_TIMEOUT. A non-directory at the lock path returns 2 at once; a failed mkdir with nothing in the way (unwritable state dir) or a stale lock that will not move aside waits up to the timeout, then dies "cannot take the sync lock in ...". Live holders still exit 1.
+- Liveness check narrowed to *cronctl* (both the hook and __apply run "$HOME/bin/cronctl" sync), so a recycled pid now owned by any bash is stale.
+- Block emission normalised: cronctl_emit_lines writes the block line by line at both candidate sites, and sync works from a newline-terminated copy for the candidate, installed.block, and the line count. The hand-edit check compares by lines. status/diff/__apply already compared normalised copies.
+- Fleet ssh adds -o ServerAliveInterval=10 -o ServerAliveCountMax=3, and the header comment is updated.
+- Tests: 5 new cron_sync tests (file at the lock path, chmod 555 state dir, recycled bash pid, unterminated block on top and in place, each with a no-op second sync) plus a fleet ssh argv assertion. All 5 new sync tests failed against the old script: 2 spun until killed (rc 124), 1 waited out a recycled pid, and 2 merged the next line into the END marker.
+- Results: the five cron suites passed 137/137 on chezmoi v2.13.1 and 137/137 on v2.74.0 (latest). On the Mac, /bin/bash 3.2.57 with chezmoi v2.52.1 passed cron_sync_test 39/39, and the perl-alarm test bound was verified with no timeout on PATH. shellcheck and shfmt -i 2 are clean on cronctl, and just lint exits 0. just test-bash passed 437/439; the 2 failures are poseidon_chezmoi_isolation_test (bob-cli-id). test-nvim and test-hammerspoon were not run (bob-cli-ie).
+- cronctl status --all (checkout script, read-only): athena and apollo in_sync. mac reports identity_mismatch, not unmanaged, because its hostname drifted to Kellys-MBP, which is not enrolled. That was recorded as a +1 on bob-cli-ew plus a DISCOVERED ISSUE note here, and bob-cli-if is linked to it. The Mac's 3 retire lines are still live (bob-cli-if).
+
+LAND AGENT VERIFICATION: all six phases' notes were addressed and the DECISIONS honored. cutover=retire is live: athena's 12 legacy lines were retired and the watchdog kept. mac_schedule=documented (:00/:05/:10 stagger with --retry-timeout 120). log_dir=state (~/.local/state/cron). crontab_memory_note and tailnet_memory_link both landed.
+LIVE STATE AND TESTS: athena and apollo in_sync; mac pending its local apply (bob-cli-if). 132/132 cron tests passed on v2.13.1 before this tale. chezmoi CI's only failures are the poseidon tests (bob-cli-id).
+INTEGRATION: bob-cli-30 closed as superseded. bob-cli-5g got a note to use the cron: data. bob-cli docs/vault-git-sync.md gained the TCC caveat and the nightly pointer.
+FOLLOW-UP TRIAGE: bob-cli-id, bob-cli-ie, bob-cli-if, bob-cli-ig, and bob-cli-ih were filed, and the watchdog env issue was recorded on sase-1r2 (see the LAND TRIAGE note). bob-cli has no just symvision recipe, and epic-symbols lists no entries for bob-cli-ib.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -51,7 +67,7 @@ INTEGRATION: closed bob-cli-30 (Mac crontab drift / ssh install) as superseded b
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-ib: Crontabs as code through chezmoi, with first-class agent access [in_progress]"]
+    n0["bob-cli-ib: Crontabs as code through chezmoi, with first-class agent access [closed]"]
     n1["bob-cli-ib.1: Cron data schema, partials, and per-machine rendering [closed]"]
     n2["bob-cli-ib.2: Machine-agnostic job runner [closed]"]
     n3["bob-cli-ib.3: Local reconciler, hook, and offline cronctl commands [closed]"]
@@ -83,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ib.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.4.md) | [bob-cli-ib.4](bob-cli-ib.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ib.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.5.md) | [bob-cli-ib.5](bob-cli-ib.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ib.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.6.md) | [bob-cli-ib.6](bob-cli-ib.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-ib.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.land/README.md) | [bob-cli-ib](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-ib.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.land.md) | [bob-cli-ib](README.md) | 2 |
 
 ## Commits
 
@@ -97,6 +113,7 @@ flowchart TD
 | bob-cli | [`591bde8`](https://github.com/bobs-org/bob-cli/commit/591bde8dc82b4aacc08ad511602434b57d29cb0b) | docs(cron): point Mac scheduled maintenance at the chezmoi cron: data | [bob-cli-ib.6](bob-cli-ib.6.md) | 2026-11-07 15:55:07 EST |
 | chezmoi | [`chezmoi@6af21b4`](https://github.com/bbugyi200/dotfiles/commit/6af21b405fa1b0888f169c0908ef9c0340baf4a0) | feat(cron): migrate athena and Mac jobs into cron: data | [bob-cli-ib.6](bob-cli-ib.6.md) | 2026-11-07 15:55:32 EST |
 | bob-cli | [`b73ac38`](https://github.com/bobs-org/bob-cli/commit/b73ac383c239a1f058742050f84b70c94e6c5732) | docs(cron): note the Mac SSH install caveat and the bob-nightly cron job | [bob-cli-ib](README.md) | 2026-11-07 16:53:26 EST |
+| chezmoi | [`chezmoi@ceeef45`](https://github.com/bbugyi200/dotfiles/commit/ceeef451c08bed54dac69d91ae01aaab18cb5c15) | fix(cron): bound cronctl's mkdir sync lock and normalise block emission | [bob-cli-ib](README.md) | 2026-11-07 17:14:51 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -105,19 +122,21 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ib.1][1] | Need epic context and notes | 1 |
-| read-by | [agent:research.3m.cdx][2] | Understand the in-progress declarative crontab epic before recommending Gmail scheduling | 1 |
-| read-by | [agent:research.3m.cld][3] | Understand the in-progress crontab-as-code epic so the gmail sync research can recommend a cron entry | 1 |
-| read-by | [agent:research.3m.final][4] | Verify crontab epic status and deferred reply-detection bead for gmail sync consolidated research | 1 |
-| read-by | [agent:research.3m.gem][5] | Review context on crontab config and gmail sync | 1 |
-| read-by | [agent:research.3m.grk][6] | Need the in-progress crontab-as-code epic for where to schedule gmail sync | 1 |
-| read-by | [agent:research.3m.mus][7] | research gmail sync crontab context | 1 |
+| read-by | [agent:bob-cli-ib.land][2] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:research.3m.cdx][3] | Understand the in-progress declarative crontab epic before recommending Gmail scheduling | 1 |
+| read-by | [agent:research.3m.cld][4] | Understand the in-progress crontab-as-code epic so the gmail sync research can recommend a cron entry | 1 |
+| read-by | [agent:research.3m.final][5] | Verify crontab epic status and deferred reply-detection bead for gmail sync consolidated research | 1 |
+| read-by | [agent:research.3m.gem][6] | Review context on crontab config and gmail sync | 1 |
+| read-by | [agent:research.3m.grk][7] | Need the in-progress crontab-as-code epic for where to schedule gmail sync | 1 |
+| read-by | [agent:research.3m.mus][8] | research gmail sync crontab context | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.cdx/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.final/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.cdx/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.final/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3m.mus/README.md
 
 <!-- sase:referenced-by:end -->
