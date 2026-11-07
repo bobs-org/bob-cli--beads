@@ -21,7 +21,7 @@ render: add the cron: schema, validating chezmoi partials, the per-machine manag
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ib.3](bob-cli-ib.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ib.3](bob-cli-ib.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
@@ -34,3 +34,15 @@ render: add the cron: schema, validating chezmoi partials, the per-machine manag
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@d15ace3`](https://github.com/bbugyi200/dotfiles/commit/d15ace344c84b4d9c9bb8ab39a85305caf75f446) | feat(cron): add cron: data schema, validating partials, and per-machine crontab targets | [bob-cli-ib.1](bob-cli-ib.1.md) | 2026-11-07 13:04:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ib.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.1/README.md
+
+<!-- sase:referenced-by:end -->

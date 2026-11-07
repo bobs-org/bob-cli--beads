@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/crontab_as_code.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/crontab_as_code.md
 
 <!-- sase:links:end -->
@@ -29,7 +31,7 @@ One committed cron: block in the chezmoi repo is the single source of truth for 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ib.1](bob-cli-ib.1.md) | Cron data schema, partials, and per-machine rendering | ✓ closed | medium | 2026-11-07 | 1 | 1 |
 | [bob-cli-ib.2](bob-cli-ib.2.md) | Machine-agnostic job runner | ✓ closed | small | 2026-11-07 | 1 | 1 |
-| [bob-cli-ib.3](bob-cli-ib.3.md) | Local reconciler, hook, and offline cronctl commands | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
+| [bob-cli-ib.3](bob-cli-ib.3.md) | Local reconciler, hook, and offline cronctl commands | ✓ closed | medium | 2026-11-07 | 1 | 1 |
 | [bob-cli-ib.4](bob-cli-ib.4.md) | Fleet commands for status, diff, apply, logs, run, and edit | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
 | [bob-cli-ib.5](bob-cli-ib.5.md) | Crontab skill, memory note, README, and alias cleanup | ◐ in_progress | small | 2026-11-07 | 1 | 0 |
 | [bob-cli-ib.6](bob-cli-ib.6.md) | Move athena and Mac jobs into the data and cut over | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
@@ -41,7 +43,7 @@ flowchart TD
     n0["bob-cli-ib: Crontabs as code through chezmoi, with first-class agent access [in_progress]"]
     n1["bob-cli-ib.1: Cron data schema, partials, and per-machine rendering [closed]"]
     n2["bob-cli-ib.2: Machine-agnostic job runner [closed]"]
-    n3["bob-cli-ib.3: Local reconciler, hook, and offline cronctl commands [in_progress]"]
+    n3["bob-cli-ib.3: Local reconciler, hook, and offline cronctl commands [closed]"]
     n4["bob-cli-ib.4: Fleet commands for status, diff, apply, logs, run, and edit [in_progress]"]
     n5["bob-cli-ib.5: Crontab skill, memory note, README, and alias cleanup [in_progress]"]
     n6["bob-cli-ib.6: Move athena and Mac jobs into the data and cut over [in_progress]"]
@@ -66,7 +68,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ib.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.1/README.md) | [bob-cli-ib.1](bob-cli-ib.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ib.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.2/README.md) | [bob-cli-ib.2](bob-cli-ib.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-ib.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.3/README.md) | [bob-cli-ib.3](bob-cli-ib.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ib.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ib.3.md) | [bob-cli-ib.3](bob-cli-ib.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ib.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.4/README.md) | [bob-cli-ib.4](bob-cli-ib.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ib.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.5/README.md) | [bob-cli-ib.5](bob-cli-ib.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-ib.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.6/README.md) | [bob-cli-ib.6](bob-cli-ib.6.md) | 0 |
@@ -78,3 +80,16 @@ flowchart TD
 |---|---|---|---|---|
 | chezmoi | [`chezmoi@d15ace3`](https://github.com/bbugyi200/dotfiles/commit/d15ace344c84b4d9c9bb8ab39a85305caf75f446) | feat(cron): add cron: data schema, validating partials, and per-machine crontab targets | [bob-cli-ib.1](bob-cli-ib.1.md) | 2026-11-07 13:04:28 EST |
 | chezmoi | [`chezmoi@a2c680b`](https://github.com/bbugyi200/dotfiles/commit/a2c680bce7eb4b912d8d58453fee858672df0310) | feat(cron): add cronrun, the machine-agnostic cron job runner | [bob-cli-ib.2](bob-cli-ib.2.md) | 2026-11-07 13:07:25 EST |
+| chezmoi | [`chezmoi@0b8e738`](https://github.com/bbugyi200/dotfiles/commit/0b8e73884bdf1cc28d753e37fb74c3d04b26d389) | feat(cron): add cronctl list/render/check/sync and the crontab sync hook | [bob-cli-ib.3](bob-cli-ib.3.md) | 2026-11-07 14:01:55 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ib.1][1] | Need epic context and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ib.1/README.md
+
+<!-- sase:referenced-by:end -->

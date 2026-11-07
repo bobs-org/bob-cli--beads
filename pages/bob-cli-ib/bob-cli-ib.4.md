@@ -14,7 +14,7 @@ remote: add SSH-streamed fleet commands so any machine can read live state and c
 ## Dependencies
 
 - **Depends on:** [bob-cli-ib.2](bob-cli-ib.2.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [bob-cli-ib.3](bob-cli-ib.3.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ib.3](bob-cli-ib.3.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ib.5](bob-cli-ib.5.md) ◐ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ib.6](bob-cli-ib.6.md) ◐ · ⧖ 2026-11-07
 
