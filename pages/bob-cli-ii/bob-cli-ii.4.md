@@ -13,7 +13,7 @@ watch: fetch watched threads every run, refresh their mail notes, and apply each
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.2](bob-cli-ii.2.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ii.2](bob-cli-ii.2.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [bob-cli-ii.3](bob-cli-ii.3.md) ◐ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.5](bob-cli-ii.5.md) ◐ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.8](bob-cli-ii.8.md) ◐ · ⧖ 2026-11-07

@@ -1,0 +1,18 @@
+# Bead: bob-cli-ii.3.1 — Gmail sync discovery, enrollment, and routed filing
+
+[Bead Pages](../README.md) / [bob-cli-ii.3](bob-cli-ii.3.md) / bob-cli-ii.3.1
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-ii.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.3.md) · **Assignee:** `bob-cli-ii.3.1.land`
+**Created:** 2026-11-07 18:12:56 EST
+**Plan:** [202611/gmail\_sync\_filing.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_sync_filing.md)
+
+## Description
+
+Complete bob-cli-ii.3 with idempotent label-routed task filing, local watch membership, adoption, bounded retries, one scoped transaction, clear reports, and a behavior-identical hidden pull alias.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-ii.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.land/README.md) | [bob-cli-ii.3.1](bob-cli-ii.3.1.md) | 0 |

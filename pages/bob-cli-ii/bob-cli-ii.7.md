@@ -13,7 +13,7 @@ signals: add the display-only reply badge on mail links, the muted no-reply pill
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.2](bob-cli-ii.2.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ii.2](bob-cli-ii.2.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [bob-cli-ii.3](bob-cli-ii.3.md) ◐ · ⧖ 2026-11-07
 - **Depends on:** [bob-cli-ii.6](bob-cli-ii.6.md) ✓ · ⧖ 2026-11-07
 
