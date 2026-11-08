@@ -19,7 +19,7 @@ line_rules: implement pure hold/lift transformations, freshness scope, Tasks sta
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ii.4.1.2](bob-cli-ii.4.1.2.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ii.4.1.2](bob-cli-ii.4.1.2.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -32,3 +32,15 @@ line_rules: implement pure hold/lift transformations, freshness scope, Tasks sta
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b4147b0`](https://github.com/bobs-org/bob-cli/commit/b4147b0bad1a91560490269a58b8bf3646addab9) | feat(gmail)!: reply hold/lift line rules with running-session guard | [bob-cli-ii.4.1.1](bob-cli-ii.4.1.1.md) | 2026-11-08 12:32:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.4.1.1][1] | check notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

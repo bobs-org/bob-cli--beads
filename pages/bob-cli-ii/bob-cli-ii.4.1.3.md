@@ -13,7 +13,7 @@ watch_transaction: integrate watch refreshes and task edits into filing's coales
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.4.1.2](bob-cli-ii.4.1.2.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ii.4.1.2](bob-cli-ii.4.1.2.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
