@@ -23,7 +23,13 @@ locator: in bob-plugins, a pure fragment that maps a ref-note line to its manage
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-iq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.2/README.md) | [bob-cli-iq.2](bob-cli-iq.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-iq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.2/README.md) | [bob-cli-iq.2](bob-cli-iq.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@cedcb1c`](https://github.com/bobs-org/bob-plugins/commit/cedcb1c6b36b2021b94254c688fc1e0444ecfad0) | feat(navigation): add pure ref annotation locator for Highlights page jumps | [bob-cli-iq.2](bob-cli-iq.2.md) | 2026-11-08 10:55:05 EST |
 
 <!-- sase:referenced-by:start -->
 

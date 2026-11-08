@@ -19,14 +19,20 @@ open_at_page: extend the ⌘↵ command so that one resolver handles reading tas
 
 - **Depends on:** [bob-cli-iq.1](bob-cli-iq.1.md) ✓ · ⧖ 2026-11-08
 - **Depends on:** [bob-cli-iq.2](bob-cli-iq.2.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-iq.4](bob-cli-iq.4.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-iq.4](bob-cli-iq.4.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-iq.6](bob-cli-iq.6.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-iq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.3/README.md) | [bob-cli-iq.3](bob-cli-iq.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-iq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.3/README.md) | [bob-cli-iq.3](bob-cli-iq.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e16f794`](https://github.com/bobs-org/bob-plugins/commit/e16f7944494aea3a900785c81ff62f1846603a39) | feat(navigation): resolve highlight targets and open exact PDF at page | [bob-cli-iq.3](bob-cli-iq.3.md) | 2026-11-08 11:27:39 EST |
 
 <!-- sase:referenced-by:start -->
 

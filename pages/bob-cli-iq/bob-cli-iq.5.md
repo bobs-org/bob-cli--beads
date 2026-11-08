@@ -13,7 +13,7 @@ hints: a status-bar chip and a line rail, both driven by the dry resolver, show 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-iq.4](bob-cli-iq.4.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-iq.4](bob-cli-iq.4.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
