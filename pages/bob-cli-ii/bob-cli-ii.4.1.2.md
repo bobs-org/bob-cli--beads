@@ -13,7 +13,7 @@ watch_inputs: add body-free turn/gone journal types and metadata-first watch pre
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.4.1.1](bob-cli-ii.4.1.1.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ii.4.1.1](bob-cli-ii.4.1.1.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
