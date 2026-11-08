@@ -18,7 +18,7 @@ discovery: implement ids-only discovery, per-account exclusion, and shared pacin
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.3.1.4](bob-cli-ii.3.1.4.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
@@ -32,3 +32,15 @@ discovery: implement ids-only discovery, per-account exclusion, and shared pacin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`39122cb`](https://github.com/bobs-org/bob-cli/commit/39122cb23010bb464047bcc586eacc5baf514f71) | feat(gmail): add sync discovery, guard, and retry helpers | [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) | 2026-11-07 20:09:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.3.1.2--1][1] | Diagnose stale verification after monitor pass | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.3.1.2.md
+
+<!-- sase:referenced-by:end -->

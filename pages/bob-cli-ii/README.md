@@ -49,7 +49,7 @@ flowchart TD
     n4["bob-cli-ii.3.1: Gmail sync discovery, enrollment, and routed filing [in_progress]"]
     n5["bob-cli-ii.3.1.1: Enrollment journal and watching-task membership [closed]"]
     n6["bob-cli-ii.3.1.2: Paged discovery and bounded run coordination [closed]"]
-    n7["bob-cli-ii.3.1.3: One transaction for routed mail notes and tasks [in_progress]"]
+    n7["bob-cli-ii.3.1.3: One transaction for routed mail notes and tasks [closed]"]
     n8["bob-cli-ii.3.1.4: Sync command, permanent pull alias, reports, and documentation [in_progress]"]
     n9["bob-cli-ii.4: The awaiting-reply hold and the reply lift [in_progress]"]
     n10["bob-cli-ii.5: Route repair, alert-once problems, staleness, and doctor sync [in_progress]"]
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ii.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.3.md) | [bob-cli-ii.3](bob-cli-ii.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ii.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.1/README.md) | [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.3.1.2.md) | [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-ii.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.3/README.md) | [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ii.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.3/README.md) | [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.4/README.md) | [bob-cli-ii.3.1.4](bob-cli-ii.3.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ii.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.land/README.md) | [bob-cli-ii.3.1](bob-cli-ii.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ii.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4/README.md) | [bob-cli-ii.4](bob-cli-ii.4.md) | 0 |
@@ -114,6 +114,7 @@ flowchart TD
 | bob-cli | [`4734146`](https://github.com/bobs-org/bob-cli/commit/47341462a6d15a6c6074c1eba45d00eeaee2f7b2) | feat(gmail): record whose turn a thread is in on mail notes | [bob-cli-ii.2](bob-cli-ii.2.md) | 2026-11-07 18:19:09 EST |
 | bob-cli | [`343b4d8`](https://github.com/bobs-org/bob-cli/commit/343b4d8ff7e0be48e41a0dc980d2e8be815c3677) | feat(gmail): add sync enrollment fold, watching-task scan, and adoption decisions | [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) | 2026-11-07 18:49:30 EST |
 | bob-cli | [`39122cb`](https://github.com/bobs-org/bob-cli/commit/39122cb23010bb464047bcc586eacc5baf514f71) | feat(gmail): add sync discovery, guard, and retry helpers | [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) | 2026-11-07 20:09:20 EST |
+| bob-cli | [`d5c61ee`](https://github.com/bobs-org/bob-cli/commit/d5c61ee57a94003f88b37799e5fa5d1869f63efd) | feat(gmail): stage routed sync filings in one vault transaction | [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) | 2026-11-07 21:05:40 EST |
 
 <!-- sase:referenced-by:start -->
 

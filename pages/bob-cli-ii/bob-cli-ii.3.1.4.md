@@ -15,7 +15,7 @@ command: wire the sync pipeline and hidden pull alias, human and JSON reports, c
 
 - **Depends on:** [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

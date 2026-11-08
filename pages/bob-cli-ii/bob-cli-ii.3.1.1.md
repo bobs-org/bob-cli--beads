@@ -18,7 +18,7 @@ membership: implement the body-free enrollment fold and append API, the vault-wi
 ## Dependencies
 
 - **Blocks:** [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.3.1.4](bob-cli-ii.3.1.4.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
