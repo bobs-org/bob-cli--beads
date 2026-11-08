@@ -14,7 +14,7 @@ mac-close-alias: forward lowercase non-repeat x/s keys through a lexical send pr
 ## Dependencies
 
 - **Depends on:** [bob-cli-is.1](bob-cli-is.1.md) ✓ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-is.2](bob-cli-is.2.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-is.2](bob-cli-is.2.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
