@@ -13,7 +13,7 @@ planner-contract: compose the engine into side-effect-free creation plans with f
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) ✓ · ⧖ 2026-11-08
 - **Depends on:** [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
@@ -21,3 +21,15 @@ planner-contract: compose the engine into side-effect-free creation plans with f
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.4/README.md) | [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.2.1.3][1] | Need sibling phase status to check prior work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->

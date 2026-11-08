@@ -17,7 +17,7 @@ schema-stems: implement the isolated records config loader, ordered schema and s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
@@ -39,7 +39,9 @@ schema-stems: implement the isolated records config loader, ordered schema and s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.2.1.1][1] | Need the phase scope, design file, and prior agent notes before continuing assigned work | 1 |
+| read-by | [agent:bob-cli-ir.2.1.3][2] | Check prior work notes for reuse | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->
