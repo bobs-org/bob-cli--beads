@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-im.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.2.md) | [bob-cli-im.2](bob-cli-im.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-im.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.3.md) | [bob-cli-im.3](bob-cli-im.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-im.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.4/README.md) | [bob-cli-im.4](bob-cli-im.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-im.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.land.md) | [bob-cli-im](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-im.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.land.md) | [bob-cli-im](README.md) | 2 |
 
 ## Commits
 
@@ -81,3 +81,4 @@ flowchart TD
 | bob-cli | [`b416354`](https://github.com/bobs-org/bob-cli/commit/b4163548b5025573256ad2a9ec5fdedbb526cd53) | feat(capture): treat trailing plus after a bare start name as later timing | [bob-cli-im.2](bob-cli-im.2.md) | 2026-11-08 08:27:48 EST |
 | bob-cli | [`572ce97`](https://github.com/bobs-org/bob-cli/commit/572ce974c9d933e8bb0547418fd421d22e2957b3) | feat(capture): refuse operator-only link-start bodies | [bob-cli-im.3](bob-cli-im.3.md) | 2026-11-08 09:42:54 EST |
 | bob-cli | [`984f819`](https://github.com/bobs-org/bob-cli/commit/984f8196a816c43100757190c6a9361fe653e797) | fix(capture)!: finish signed-start diagnostics and landing | [bob-cli-im](README.md) | 2026-11-08 12:01:13 EST |
+| bob-cli--plans | [`bob-cli--plans@3214e55`](https://github.com/bobs-org/bob-cli--plans/commit/3214e557d65301d0a378f3e062124d53f8f84f20) | docs(plan): mark signed start timing plan done | [bob-cli-im](README.md) | 2026-11-08 12:01:32 EST |
