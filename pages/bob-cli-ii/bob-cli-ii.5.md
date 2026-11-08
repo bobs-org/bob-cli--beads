@@ -20,7 +20,7 @@ health: refile a gmail_inbox.md row once its routing label resolves, report pers
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.4](bob-cli-ii.4.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ii.8](bob-cli-ii.8.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ii.8](bob-cli-ii.8.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
@@ -33,3 +33,15 @@ health: refile a gmail_inbox.md row once its routing label resolves, report pers
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8427bd9`](https://github.com/bobs-org/bob-cli/commit/8427bd96dbab8470c2e4228d8f199265b690ab50) | feat(gmail): refile resolved inbox routes and alarm stale skips | [bob-cli-ii.5](bob-cli-ii.5.md) | 2026-11-08 18:47:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.5--1][1] | Need the phase scope, status, and whether work already closed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.5.md
+
+<!-- sase:referenced-by:end -->
