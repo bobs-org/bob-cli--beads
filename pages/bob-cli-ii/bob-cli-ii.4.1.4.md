@@ -13,7 +13,7 @@ polling: connect prepared watched threads to sync and its pull alias, implement 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) ◐ · ⧖ 2026-11-08
 
 ## Agents

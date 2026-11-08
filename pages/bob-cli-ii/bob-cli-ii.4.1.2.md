@@ -22,7 +22,7 @@ watch_inputs: add body-free turn/gone journal types and metadata-first watch pre
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.4.1.1](bob-cli-ii.4.1.1.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -35,3 +35,15 @@ watch_inputs: add body-free turn/gone journal types and metadata-first watch pre
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`86af3d5`](https://github.com/bobs-org/bob-cli/commit/86af3d5ebd91dca623891e62cd6cdf9b44b3ba0b) | feat(gmail): add watch journal and preparation planning | [bob-cli-ii.4.1.2](bob-cli-ii.4.1.2.md) | 2026-11-08 13:26:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.4.1.2][1] | Need the phase scope, design file, prior notes, and recorded decisions | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->
