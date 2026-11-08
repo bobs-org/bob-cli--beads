@@ -14,7 +14,7 @@ records-cli: add the bob records command group (list, show, check, new) with pol
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.1](bob-cli-ir.1.md) ✓ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.2](bob-cli-ir.2.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.2](bob-cli-ir.2.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.4](bob-cli-ir.4.md) ◐ · ⧖ 2026-11-08
 
 ## Agents

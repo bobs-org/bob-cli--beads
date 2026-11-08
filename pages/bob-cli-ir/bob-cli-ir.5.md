@@ -15,7 +15,7 @@ capture-records: teach capture the @dir/ and @dir/^stem record items with key:: 
 
 - **Depends on:** [bob-cli-ir.1](bob-cli-ir.1.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.11](bob-cli-ir.11.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.2](bob-cli-ir.2.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.2](bob-cli-ir.2.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.6](bob-cli-ir.6.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
