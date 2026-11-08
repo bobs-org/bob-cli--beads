@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_sync_ii3_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_sync_ii3_completion.md
 
@@ -36,7 +36,7 @@ bob gmail sync meets its approved filing, coordination, reporting, recovery, ali
 | [bob-cli-in.1](bob-cli-in.1.md) | Request coordination, failure state, and report counts | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-in.2](bob-cli-in.2.md) | Host-local, idempotent commit and journal recovery | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-in.3](bob-cli-in.3.md) | End-to-end acceptance matrix, alias parity, and lint scaffolding | ✓ closed | medium | 2026-11-08 | 1 | 1 |
-| [bob-cli-in.4](bob-cli-in.4.md) | Sync documentation, help, and generated CLI reference | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
+| [bob-cli-in.4](bob-cli-in.4.md) | Sync documentation, help, and generated CLI reference | ✓ closed | small | 2026-11-08 | 1 | 1 |
 
 ## Lineage
 
@@ -46,7 +46,7 @@ flowchart TD
     n1["bob-cli-in.1: Request coordination, failure state, and report counts [closed]"]
     n2["bob-cli-in.2: Host-local, idempotent commit and journal recovery [closed]"]
     n3["bob-cli-in.3: End-to-end acceptance matrix, alias parity, and lint scaffolding [closed]"]
-    n4["bob-cli-in.4: Sync documentation, help, and generated CLI reference [in_progress]"]
+    n4["bob-cli-in.4: Sync documentation, help, and generated CLI reference [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-in.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.1.md) | [bob-cli-in.1](bob-cli-in.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md) | [bob-cli-in.2](bob-cli-in.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md) | [bob-cli-in.3](bob-cli-in.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-in.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.4/README.md) | [bob-cli-in.4](bob-cli-in.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-in.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.4/README.md) | [bob-cli-in.4](bob-cli-in.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.land/README.md) | [bob-cli-in](README.md) | 0 |
 
 ## Commits
@@ -73,6 +73,7 @@ flowchart TD
 | bob-cli | [`3ff3c4f`](https://github.com/bobs-org/bob-cli/commit/3ff3c4fe6c3a45ca52f267702e4e51d5f4e1b2df) | feat(gmail): coordinate every sync Gmail read through one retry layer | [bob-cli-in.1](bob-cli-in.1.md) | 2026-11-08 07:38:41 EST |
 | bob-cli | [`e5a7b2a`](https://github.com/bobs-org/bob-cli/commit/e5a7b2a32ac7195f11914e0e85cdd50b5e1386d9) | fix(gmail): host-local idempotent sync recovery evidence | [bob-cli-in.2](bob-cli-in.2.md) | 2026-11-08 09:26:02 EST |
 | bob-cli | [`51d572d`](https://github.com/bobs-org/bob-cli/commit/51d572d59075cc1b9363051ec453b4d3ee3e1ed4) | test(gmail): expand sync acceptance coverage | [bob-cli-in.3](bob-cli-in.3.md) | 2026-11-08 10:08:18 EST |
+| bob-cli | [`59ba11a`](https://github.com/bobs-org/bob-cli/commit/59ba11a6ab09cd7dba5b8a753f51d456348ed288) | docs(gmail): document sync JSON, host-local state, and watch-only -l 0 | [bob-cli-in.4](bob-cli-in.4.md) | 2026-11-08 10:29:45 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -81,7 +82,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-in.2][1] | Need parent epic notes and DECISIONS for recovery phase | 2 |
+| read-by | [agent:bob-cli-in.3][2] | Need the parent epic decisions and acceptance context for this phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md
 
 <!-- sase:referenced-by:end -->

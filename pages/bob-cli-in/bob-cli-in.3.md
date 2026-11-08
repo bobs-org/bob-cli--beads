@@ -18,7 +18,7 @@ acceptance: add the missing tests/gmail_sync.rs composition coverage, including 
 ## Dependencies
 
 - **Depends on:** [bob-cli-in.2](bob-cli-in.2.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-in.4](bob-cli-in.4.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-in.4](bob-cli-in.4.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -39,7 +39,9 @@ acceptance: add the missing tests/gmail_sync.rs composition coverage, including 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-in.2][1] | Check sibling phase status to avoid overlap | 1 |
+| read-by | [agent:bob-cli-in.3][2] | Final review of phase status and notes before closing verified acceptance work | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md
 
 <!-- sase:referenced-by:end -->
