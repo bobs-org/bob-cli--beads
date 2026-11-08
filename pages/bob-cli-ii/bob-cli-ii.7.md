@@ -25,13 +25,14 @@ signals: add the display-only reply badge on mail links, the muted no-reply pill
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ii.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.7/README.md) | [bob-cli-ii.7](bob-cli-ii.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-ii.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.7/README.md) | [bob-cli-ii.7](bob-cli-ii.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`126958b`](https://github.com/bobs-org/bob-cli/commit/126958b2f5ff0a3bb05d0ad6ebb75b6e02f0d4c5) | docs(mail): add reply-badge and no-reply-pill display contracts | [bob-cli-ii.7](bob-cli-ii.7.md) | 2026-11-08 12:30:03 EST |
+| bob-plugins | [`bob-plugins@d962fb1`](https://github.com/bobs-org/bob-plugins/commit/d962fb10c6e6229641c707a0016fb34b2663c666) | feat(ledger-tools): add reply badges, no-reply pills, and daily Gmail sync | [bob-cli-ii.7](bob-cli-ii.7.md) | 2026-11-08 12:36:27 EST |
 
 <!-- sase:referenced-by:start -->
 
