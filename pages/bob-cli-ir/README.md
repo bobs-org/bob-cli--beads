@@ -62,7 +62,7 @@ flowchart TD
     n8["bob-cli-ir.2.1.1: Records schema, value validation, and filename fixtures [closed]"]
     n9["bob-cli-ir.2.1.2: Lazy per-folder records index and suggestions [closed]"]
     n10["bob-cli-ir.2.1.3: Typed record rendering and byte-preserving updates [closed]"]
-    n11["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [in_progress]"]
+    n11["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [closed]"]
     n12["bob-cli-ir.3: bob records list, show, check, and new [in_progress]"]
     n13["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [in_progress]"]
     n14["bob-cli-ir.5: Capture grammar for new records [in_progress]"]
@@ -124,7 +124,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.1/README.md) | [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.2/README.md) | [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md) | [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.4/README.md) | [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.4/README.md) | [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.land/README.md) | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.3/README.md) | [bob-cli-ir.3](bob-cli-ir.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.4/README.md) | [bob-cli-ir.4](bob-cli-ir.4.md) | 0 |
@@ -143,6 +143,7 @@ flowchart TD
 | bob-cli | [`cd8a031`](https://github.com/bobs-org/bob-cli/commit/cd8a031f9bad5e5aee4ab88e3671e3d8afb9beb0) | feat(records): add schema validation and stem fixtures | [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) | 2026-11-08 11:52:23 EST |
 | bob-cli | [`93c7c11`](https://github.com/bobs-org/bob-cli/commit/93c7c1145eeda40335a0c7002239ab3ae0221eff) | feat(records): add typed rendering and byte-preserving updates | [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) | 2026-11-08 12:32:57 EST |
 | bob-cli | [`b9db700`](https://github.com/bobs-org/bob-cli/commit/b9db7007934c7ef97343ba998704934374cf8732) | feat(records): add lazy per-folder catalog index and suggestions | [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) | 2026-11-08 12:46:11 EST |
+| bob-cli | [`a8ccf5e`](https://github.com/bobs-org/bob-cli/commit/a8ccf5ed100eedab812b56093ae890d39a29b047) | feat(records): add side-effect-free creation planner | [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) | 2026-11-08 13:23:14 EST |
 
 <!-- sase:referenced-by:start -->
 

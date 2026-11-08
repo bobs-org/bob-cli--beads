@@ -20,7 +20,7 @@ folder-index: implement frontmatter-only folder discovery, case-insensitive stem
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -40,8 +40,10 @@ folder-index: implement frontmatter-only folder discovery, case-insensitive stem
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ir.2.1.3][1] | Need sibling phase status to check prior work | 2 |
+| read-by | [agent:bob-cli-ir.2.1.2][1] | Need remaining notes, DECISIONS, design file, and any earlier agent remainder | 3 |
+| read-by | [agent:bob-cli-ir.2.1.3][2] | Need sibling phase status to check prior work | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

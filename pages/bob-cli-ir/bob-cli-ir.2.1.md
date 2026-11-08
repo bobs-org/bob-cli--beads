@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/records_engine.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/records_engine.md
 
@@ -38,9 +38,11 @@ Complete bob-cli-ir.2 with one validated records engine for later CLI and captur
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.2.1.1][1] | Need the records-engine epic decisions and phase design context | 1 |
-| read-by | [agent:bob-cli-ir.2.1.3][2] | Need sibling phase status to check prior work | 2 |
+| read-by | [agent:bob-cli-ir.2.1.2][2] | Need DECISIONS and any interface notes from schema phase | 2 |
+| read-by | [agent:bob-cli-ir.2.1.3][3] | Need sibling phase status to check prior work | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->
