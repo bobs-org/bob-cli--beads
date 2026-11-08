@@ -38,7 +38,9 @@ mac-type-ahead-hold: generalize the past-segment dash Return deferral into a mea
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-is.2--6][1] | Need remaining notes and verification history before closing | 3 |
+| read-by | [agent:bob-cli-is.3][2] | check prior phase landing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.3.md
 
 <!-- sase:referenced-by:end -->

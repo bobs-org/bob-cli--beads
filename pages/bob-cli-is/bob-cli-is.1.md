@@ -40,7 +40,9 @@ bob-close-alias: add an x/s branch to the expand_sigil_alias rule in bob-cli cap
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-is.1][1] | Need notes and remaining work from earlier agents | 3 |
+| read-by | [agent:bob-cli-is.3][2] | check prior phase landing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-is.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.3.md
 
 <!-- sase:referenced-by:end -->
