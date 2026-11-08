@@ -18,7 +18,7 @@ watch_transaction: integrate watch refreshes and task edits into filing's coales
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.4.1.2](bob-cli-ii.4.1.2.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -31,3 +31,15 @@ watch_transaction: integrate watch refreshes and task edits into filing's coales
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9e0bcdd`](https://github.com/bobs-org/bob-cli/commit/9e0bcdd81aa8f39b4d0559df440a839e38fd582d) | feat(gmail): apply watched turns through sync transaction | [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) | 2026-11-08 14:10:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.4.1.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->

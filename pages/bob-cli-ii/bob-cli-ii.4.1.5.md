@@ -13,7 +13,7 @@ send_hook: extend acknowledged-send finalization and completion recovery to appl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
