@@ -18,10 +18,22 @@ hs_page_url: in chezmoi, bind hammerspoon://bob-highlights-page. It waits for th
 ## Dependencies
 
 - **Blocks:** [bob-cli-iq.3](bob-cli-iq.3.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-iq.6](bob-cli-iq.6.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-iq.6](bob-cli-iq.6.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-iq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iq.1.md) | [bob-cli-iq.1](bob-cli-iq.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iq.3][1] | Need dependency hs url output | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.3/README.md
+
+<!-- sase:referenced-by:end -->
