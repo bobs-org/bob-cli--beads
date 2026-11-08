@@ -30,3 +30,15 @@ link_body: an `@route:id[#name]=<X>` item whose remaining text is only session-o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`572ce97`](https://github.com/bobs-org/bob-cli/commit/572ce974c9d933e8bb0547418fd421d22e2957b3) | feat(capture): refuse operator-only link-start bodies | [bob-cli-im.3](bob-cli-im.3.md) | 2026-11-08 09:42:54 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-im.3--1][1] | Need the current phase state after verification completion was rejected | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.3.md
+
+<!-- sase:referenced-by:end -->
