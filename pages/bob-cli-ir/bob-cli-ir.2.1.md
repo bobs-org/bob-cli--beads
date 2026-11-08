@@ -42,7 +42,7 @@ EVIDENCE: file:explicit:0463132eb6eafca3abae823e contains a compiled probe of ve
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.land/README.md) | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-ir.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.land/README.md) | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 3 |
 
 ## Commits
 
@@ -50,6 +50,7 @@ EVIDENCE: file:explicit:0463132eb6eafca3abae823e contains a compiled probe of ve
 |---|---|---|---|---|
 | bob-cli | [`8ff0d8e`](https://github.com/bobs-org/bob-cli/commit/8ff0d8ed5a43b34977a6acaf4473159fe977e600) | feat(records): harden planning and byte-preserving updates | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 14:25:40 EST |
 | bob-cli | [`361974f`](https://github.com/bobs-org/bob-cli/commit/361974f48eef7e2ba1fdc8ad97a1916835a6d20b) | fix(records): map stemless titles to record\_title and document engine allowances | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 18:15:09 EST |
+| bob-cli--plans | [`bob-cli--plans@1b530a4`](https://github.com/bobs-org/bob-cli--plans/commit/1b530a431b8b0a68bc5d28f1671910b224f30036) | chore(plans): mark records engine epic done | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 18:15:40 EST |
 
 <!-- sase:referenced-by:start -->
 
