@@ -13,7 +13,7 @@ acceptance: add the missing tests/gmail_sync.rs composition coverage, including 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-in.2](bob-cli-in.2.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-in.2](bob-cli-in.2.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-in.4](bob-cli-in.4.md) ◐ · ⧖ 2026-11-08
 
 ## Agents

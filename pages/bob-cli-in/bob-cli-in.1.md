@@ -17,7 +17,7 @@ coordination: make every Gmail read latch auth aborts and give-ups in one inject
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-in.2](bob-cli-in.2.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-in.2](bob-cli-in.2.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -30,3 +30,15 @@ coordination: make every Gmail read latch auth aborts and give-ups in one inject
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3ff3c4f`](https://github.com/bobs-org/bob-cli/commit/3ff3c4fe6c3a45ca52f267702e4e51d5f4e1b2df) | feat(gmail): coordinate every sync Gmail read through one retry layer | [bob-cli-in.1](bob-cli-in.1.md) | 2026-11-08 07:38:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-in.1--1][1] | Need current phase status, notes, and whether close already landed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.1.md
+
+<!-- sase:referenced-by:end -->
