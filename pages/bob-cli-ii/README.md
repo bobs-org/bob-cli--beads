@@ -29,6 +29,8 @@ Labelling a Gmail thread `bob` (plus an optional `#/<note>` or `+/<note>` routin
 
 [2026-11-08T13:45:18Z · bryanbugyi34@gmail.com] The 202611/gmail_sync_threads_list.md plan in the plans repo may describe a related fix, which has already likely been applied. The epic lander agent should ensure this was the right fix if it really was related.
 
+[2026-11-08T21:42:11Z · bob-cli-ii.4.1.land] DISCOVERED ISSUE: native::gmail::sync::guard::tests::real_lock_contention_and_release flakes (panics 'release frees the guard' at src/native/gmail/sync/guard.rs:206). Proposed by bob-cli-ii.4.1.2; triaged by the bob-cli-ii.4.1 land agent. Introduced by 39122cb2 (bob-cli-ii.3.1.2). Reproduced on the pre-watch base 23217c1d: 3 of 6 'cargo test --lib gmail::' runs failed; also failed 2 of 2 full lib runs on b252669b, and passes alone. Likely mechanism matches closed bob-cli-3t (fixed only for ob.rs by 57a29004): try_acquire uses flock try_lock_exclusive, and a concurrent test thread's fork can briefly inherit the guard fd until exec, so the immediate re-acquire after drop sees WouldBlock. Suggested fix: make the post-drop re-acquire retry within a short bounded window, as 57a29004 did, without weakening the Busy assertion. Not caused by ii.4.1.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -128,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ii.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.4/README.md) | [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.5/README.md) | [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.6/README.md) | [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-ii.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.land/README.md) | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ii.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.land/README.md) | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.5/README.md) | [bob-cli-ii.5](bob-cli-ii.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-ii.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.6/README.md) | [bob-cli-ii.6](bob-cli-ii.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.7/README.md) | [bob-cli-ii.7](bob-cli-ii.7.md) | 1 |
@@ -154,6 +156,7 @@ flowchart TD
 | bob-cli | [`457153f`](https://github.com/bobs-org/bob-cli/commit/457153f0b1cd7574c02b68c26b9a206f402d10e1) | feat(gmail): wire reply watch polling into sync | [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) | 2026-11-08 15:00:55 EST |
 | bob-cli | [`5a63e9a`](https://github.com/bobs-org/bob-cli/commit/5a63e9a2ccc4f4376da6c54df0ed07a01caa9660) | feat(gmail): apply reply-watch effects after a confirmed send | [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) | 2026-11-08 15:42:13 EST |
 | bob-cli | [`b252669`](https://github.com/bobs-org/bob-cli/commit/b252669b866bff0711483caa8bfd98708626788e) | docs(gmail): publish reply-watch contracts and tagged-hold decision | [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) | 2026-11-08 15:56:57 EST |
+| bob-cli | [`25c0223`](https://github.com/bobs-org/bob-cli/commit/25c02232a5820c6625c8cf99f2e2eabeace421eb) | fix(gmail): clear reply-watch lint and stale dead-code allowances | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 2026-11-08 16:45:30 EST |
 
 <!-- sase:referenced-by:start -->
 
