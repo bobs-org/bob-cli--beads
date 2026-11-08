@@ -13,8 +13,8 @@ contract_docs: declare the generated captions, piece metadata, and block shapes 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-iq.1](bob-cli-iq.1.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-iq.3](bob-cli-iq.3.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-iq.1](bob-cli-iq.1.md) ✓ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-iq.3](bob-cli-iq.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

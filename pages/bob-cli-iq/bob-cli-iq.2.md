@@ -17,7 +17,7 @@ locator: in bob-plugins, a pure fragment that maps a ref-note line to its manage
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-iq.3](bob-cli-iq.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-iq.3](bob-cli-iq.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -30,3 +30,15 @@ locator: in bob-plugins, a pure fragment that maps a ref-note line to its manage
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@cedcb1c`](https://github.com/bobs-org/bob-plugins/commit/cedcb1c6b36b2021b94254c688fc1e0444ecfad0) | feat(navigation): add pure ref annotation locator for Highlights page jumps | [bob-cli-iq.2](bob-cli-iq.2.md) | 2026-11-08 10:55:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iq.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.2/README.md
+
+<!-- sase:referenced-by:end -->

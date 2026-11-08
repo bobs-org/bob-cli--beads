@@ -13,7 +13,7 @@ toast: replace the plain announce notices with one rich .bob-nh-notice Highlight
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-iq.3](bob-cli-iq.3.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-iq.3](bob-cli-iq.3.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-iq.5](bob-cli-iq.5.md) ◐ · ⧖ 2026-11-08
 
 ## Agents

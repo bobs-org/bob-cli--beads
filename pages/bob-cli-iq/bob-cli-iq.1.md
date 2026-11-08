@@ -2,22 +2,26 @@
 
 [Bead Pages](../README.md) / [bob-cli-iq](README.md) / bob-cli-iq.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.3o.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.3o.linker.w0.md) · **Assignee:** `bob-cli-iq.1` · **Size:** medium
-**Created:** 2026-11-08 10:40:42 EST
+**Created:** 2026-11-08 10:40:42 EST · **Closed:** 2026-11-08 10:57:32 EST
 **Plan:** [202611/highlights\_annotation\_page\_jump.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/highlights_annotation_page_jump.md)
 
 ## Description
 
 hs_page_url: in chezmoi, bind hammerspoon://bob-highlights-page. It waits for the exact PDF to settle in front, jumps through the existing page runner with ⌃O history, re-checks the landing, and reports the result inside Highlights. Includes busted specs and README.
 
+## Notes
+
+[2026-11-08T15:57:32Z · bob-cli-iq.1] Implemented the Hammerspoon page URL handler, inode-aware settle/cancel wait, late-restore recheck with one retry and shared Ctrl-O history, success/timeout feedback, Busted specs, and README docs. Verified just test-hammerspoon (308 passed), stylua --check, Prettier README check, and git diff --check; epic-symbols had no leftovers.
+
 ## Dependencies
 
-- **Blocks:** [bob-cli-iq.3](bob-cli-iq.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-iq.3](bob-cli-iq.3.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-iq.6](bob-cli-iq.6.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-iq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.1/README.md) | [bob-cli-iq.1](bob-cli-iq.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-iq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iq.1.md) | [bob-cli-iq.1](bob-cli-iq.1.md) | 0 |
