@@ -17,7 +17,7 @@ membership: implement the body-free enrollment fold and append API, the vault-wi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.3.1.3](bob-cli-ii.3.1.3.md) ◐ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.3.1.4](bob-cli-ii.3.1.4.md) ◐ · ⧖ 2026-11-07
 
@@ -32,3 +32,15 @@ membership: implement the body-free enrollment fold and append API, the vault-wi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`343b4d8`](https://github.com/bobs-org/bob-cli/commit/343b4d8ff7e0be48e41a0dc980d2e8be815c3677) | feat(gmail): add sync enrollment fold, watching-task scan, and adoption decisions | [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) | 2026-11-07 18:49:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.3.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

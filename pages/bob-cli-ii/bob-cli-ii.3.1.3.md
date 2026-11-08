@@ -14,7 +14,7 @@ filing: share the prepared save path with sync, plan routed and problem tasks th
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.3.1.1](bob-cli-ii.3.1.1.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ii.3.1.2](bob-cli-ii.3.1.2.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.3.1.4](bob-cli-ii.3.1.4.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
