@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-iq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.4/README.md) | [bob-cli-iq.4](bob-cli-iq.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-iq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.5/README.md) | [bob-cli-iq.5](bob-cli-iq.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-iq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.6/README.md) | [bob-cli-iq.6](bob-cli-iq.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-iq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iq.land.md) | [bob-cli-iq](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-iq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iq.land.md) | [bob-cli-iq](README.md) | 2 |
 
 ## Commits
 
@@ -105,6 +105,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@6390587`](https://github.com/bobs-org/bob-plugins/commit/6390587b15a771ecd7b188e01bb93d9bbee170f5) | feat(navigation): add Highlights toast card | [bob-cli-iq.4](bob-cli-iq.4.md) | 2026-11-08 11:45:15 EST |
 | bob-plugins | [`bob-plugins@fbf45e2`](https://github.com/bobs-org/bob-plugins/commit/fbf45e2572366d28cb7237d031d8e521dc9254f2) | feat(navigation): add Highlights availability chip, rail, and tooltip | [bob-cli-iq.5](bob-cli-iq.5.md) | 2026-11-08 12:16:26 EST |
 | chezmoi | [`chezmoi@93f6172`](https://github.com/bbugyi200/dotfiles/commit/93f617233ead0fde6cafc8d81061ef2a4f47c64b) | feat(hammerspoon): open Highlights at a page from Obsidian via bob-highlights-page | [bob-cli-iq](README.md) | 2026-11-08 12:48:32 EST |
+| bob-cli--plans | [`bob-cli--plans@6e903da`](https://github.com/bobs-org/bob-cli--plans/commit/6e903dab98b4fc8fb8558c1e2164c20274018f8d) | chore(plans): mark highlights\_annotation\_page\_jump done after bob-cli-iq landed | [bob-cli-iq](README.md) | 2026-11-08 12:48:59 EST |
 
 <!-- sase:referenced-by:start -->
 
