@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-in.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md) | [bob-cli-in.2](bob-cli-in.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md) | [bob-cli-in.3](bob-cli-in.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.4/README.md) | [bob-cli-in.4](bob-cli-in.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-in.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.land.md) | [bob-cli-in](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-in.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.land.md) | [bob-cli-in](README.md) | 3 |
 
 ## Commits
 
@@ -82,6 +82,7 @@ flowchart TD
 | bob-cli | [`59ba11a`](https://github.com/bobs-org/bob-cli/commit/59ba11a6ab09cd7dba5b8a753f51d456348ed288) | docs(gmail): document sync JSON, host-local state, and watch-only -l 0 | [bob-cli-in.4](bob-cli-in.4.md) | 2026-11-08 10:29:45 EST |
 | bob-cli | [`1cf8d96`](https://github.com/bobs-org/bob-cli/commit/1cf8d96b37fa250521d77990e5da19f40b79f233) | fix(gmail): land remaining sync retry, recovery, and watch-membership defects | [bob-cli-in](README.md) | 2026-11-08 11:23:11 EST |
 | bob-cli | [`32c241a`](https://github.com/bobs-org/bob-cli/commit/32c241af95e2818ebd7635295ee96ca2ab38bc26) | fix(gmail): land remaining sync retry, recovery, and watch-membership lint | [bob-cli-in](README.md) | 2026-11-08 11:51:36 EST |
+| bob-cli--plans | [`bob-cli--plans@b93cb9c`](https://github.com/bobs-org/bob-cli--plans/commit/b93cb9cfd764d8b45dc8c10415a601e6e8110def) | docs(plans): mark Gmail sync completion and filing epics done | [bob-cli-in](README.md) | 2026-11-08 11:51:57 EST |
 
 <!-- sase:referenced-by:start -->
 
