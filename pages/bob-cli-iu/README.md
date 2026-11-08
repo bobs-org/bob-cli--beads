@@ -27,8 +27,8 @@ Typing `.sase.foo ` after task text in Bob Mac Capture renders `@sase^foo `; the
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-iu.1](bob-cli-iu.1.md) | bob capture-rewrite turns a spaced \`.\` into \`@\` | ✓ closed | small | 2026-11-08 | 1 | 1 |
-| [bob-cli-iu.2](bob-cli-iu.2.md) | Mac Capture escapes the \`.\` → \`@\` alias with a fast \`..\` | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
+| [bob-cli-iu.1](bob-cli-iu.1.md) | bob capture-rewrite turns a spaced \`.\` into \`@\` | ✓ closed | small | 2026-11-08 | 1 | 0 |
+| [bob-cli-iu.2](bob-cli-iu.2.md) | Mac Capture escapes the \`.\` → \`@\` alias with a fast \`..\` | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ Typing `.sase.foo ` after task text in Bob Mac Capture renders `@sase^foo `; the
 flowchart TD
     n0["bob-cli-iu: `.` falls back to `@` in capture drafts [in_progress]"]
     n1["bob-cli-iu.1: bob capture-rewrite turns a spaced `.` into `@` [closed]"]
-    n2["bob-cli-iu.2: Mac Capture escapes the `.` → `@` alias with a fast `..` [in_progress]"]
+    n2["bob-cli-iu.2: Mac Capture escapes the `.` → `@` alias with a fast `..` [closed]"]
     n0 --> n1
     n0 --> n2
 ```
@@ -45,12 +45,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-iu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iu.1/README.md) | [bob-cli-iu.1](bob-cli-iu.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-iu.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iu.2.md) | [bob-cli-iu.2](bob-cli-iu.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-iu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iu.1/README.md) | [bob-cli-iu.1](bob-cli-iu.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-iu.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iu.2.md) | [bob-cli-iu.2](bob-cli-iu.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-iu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iu.land/README.md) | [bob-cli-iu](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`0b8b913`](https://github.com/bobs-org/bob-cli/commit/0b8b913ff65e256ac8f4a4741841386aee9c800f) | feat(capture): alias spaced dot to @ where route completion opens | [bob-cli-iu.1](bob-cli-iu.1.md) | 2026-11-08 17:37:01 EST |
+| bob-mac-capture | [`bob-mac-capture@e7ddfc6`](https://github.com/bobs-org/bob-mac-capture/commit/e7ddfc66a7c150fbca899be44ed0474fcc06769e) | feat(mac-capture): escape dot-route alias with fast .. and restores | [bob-cli-iu.2](bob-cli-iu.2.md) | 2026-11-08 18:03:13 EST |
