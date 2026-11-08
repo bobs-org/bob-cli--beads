@@ -62,7 +62,7 @@ flowchart TD
     n13["bob-cli-ii.4.1.3: Apply watched turns through the existing sync transaction [closed]"]
     n14["bob-cli-ii.4.1.4: Wire polling, reports, and lifecycle acceptance tests [closed]"]
     n15["bob-cli-ii.4.1.5: Apply the same watch effect after a confirmed send [closed]"]
-    n16["bob-cli-ii.4.1.6: Document the lifecycle and publish the approved memory changes [in_progress]"]
+    n16["bob-cli-ii.4.1.6: Document the lifecycle and publish the approved memory changes [closed]"]
     n17["bob-cli-ii.5: Route repair, alert-once problems, staleness, and doctor sync [in_progress]"]
     n18["bob-cli-ii.6: The hollow paper-plane awaiting block mark [closed]"]
     n19["bob-cli-ii.7: Reply badge, no-reply pill, and the daily-note Gmail sync [closed]"]
@@ -127,7 +127,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ii.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.3/README.md) | [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.4/README.md) | [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.5/README.md) | [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-ii.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.6/README.md) | [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-ii.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.6/README.md) | [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.land/README.md) | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ii.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.5/README.md) | [bob-cli-ii.5](bob-cli-ii.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-ii.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.6/README.md) | [bob-cli-ii.6](bob-cli-ii.6.md) | 1 |
@@ -153,6 +153,7 @@ flowchart TD
 | bob-cli | [`9e0bcdd`](https://github.com/bobs-org/bob-cli/commit/9e0bcdd81aa8f39b4d0559df440a839e38fd582d) | feat(gmail): apply watched turns through sync transaction | [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) | 2026-11-08 14:10:31 EST |
 | bob-cli | [`457153f`](https://github.com/bobs-org/bob-cli/commit/457153f0b1cd7574c02b68c26b9a206f402d10e1) | feat(gmail): wire reply watch polling into sync | [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) | 2026-11-08 15:00:55 EST |
 | bob-cli | [`5a63e9a`](https://github.com/bobs-org/bob-cli/commit/5a63e9a2ccc4f4376da6c54df0ed07a01caa9660) | feat(gmail): apply reply-watch effects after a confirmed send | [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) | 2026-11-08 15:42:13 EST |
+| bob-cli | [`b252669`](https://github.com/bobs-org/bob-cli/commit/b252669b866bff0711483caa8bfd98708626788e) | docs(gmail): publish reply-watch contracts and tagged-hold decision | [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) | 2026-11-08 15:56:57 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_reply_watch.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_reply_watch.md
 
@@ -40,9 +40,11 @@ Watched Gmail tasks react once to new outgoing or incoming messages, preserve ma
 | read-by | [agent:bob-cli-ii.4.1.2][1] | Need epic decisions that govern the assigned phase | 1 |
 | read-by | [agent:bob-cli-ii.4.1.3][2] | need parent epic decisions | 1 |
 | read-by | [agent:bob-cli-ii.4.1.4][3] | Need the parent epic decisions and phase contract | 1 |
+| read-by | [agent:bob-cli-ii.4.1.5][4] | Need epic DECISIONS and remaining phase scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.5/README.md
 
 <!-- sase:referenced-by:end -->

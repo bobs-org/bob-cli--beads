@@ -20,7 +20,7 @@ send_hook: extend acknowledged-send finalization and completion recovery to appl
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -33,3 +33,15 @@ send_hook: extend acknowledged-send finalization and completion recovery to appl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5a63e9a`](https://github.com/bobs-org/bob-cli/commit/5a63e9a2ccc4f4376da6c54df0ed07a01caa9660) | feat(gmail): apply reply-watch effects after a confirmed send | [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) | 2026-11-08 15:42:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.4.1.5][1] | Need remaining notes, decisions, and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.5/README.md
+
+<!-- sase:referenced-by:end -->
