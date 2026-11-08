@@ -20,7 +20,7 @@ recovery: move the sync recovery evidence to host-local state, make its replay i
 ## Dependencies
 
 - **Depends on:** [bob-cli-in.1](bob-cli-in.1.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-in.3](bob-cli-in.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-in.3](bob-cli-in.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -33,3 +33,15 @@ recovery: move the sync recovery evidence to host-local state, make its replay i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e5a7b2a`](https://github.com/bobs-org/bob-cli/commit/e5a7b2a32ac7195f11914e0e85cdd50b5e1386d9) | fix(gmail): host-local idempotent sync recovery evidence | [bob-cli-in.2](bob-cli-in.2.md) | 2026-11-08 09:26:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-in.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md
+
+<!-- sase:referenced-by:end -->

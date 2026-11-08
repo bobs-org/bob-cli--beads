@@ -38,7 +38,9 @@ coordination: make every Gmail read latch auth aborts and give-ups in one inject
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-in.1--1][1] | Need current phase status, notes, and whether close already landed | 1 |
+| read-by | [agent:bob-cli-in.2][2] | Check what coordination phase landed to avoid redoing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md
 
 <!-- sase:referenced-by:end -->

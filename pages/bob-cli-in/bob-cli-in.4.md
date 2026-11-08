@@ -13,7 +13,7 @@ docs: correct the route-prefix and missing-label claims, document the sync JSON 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-in.3](bob-cli-in.3.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-in.3](bob-cli-in.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
