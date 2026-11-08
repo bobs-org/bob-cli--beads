@@ -25,10 +25,16 @@ obsidian_parity: in bob-plugins, teach the bob-ledger-tools `se<X>` snippet `se+
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-im.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.4/README.md) | [bob-cli-im.4](bob-cli-im.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-im.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.4/README.md) | [bob-cli-im.4](bob-cli-im.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@9003569`](https://github.com/bobs-org/bob-plugins/commit/9003569c6aea6b31d16da0e4ada017c05218bbd5) | feat(ledger-tools): support later (+) offsets in se\<X\> starts | [bob-cli-im.4](bob-cli-im.4.md) | 2026-11-08 07:13:41 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-im.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.4/README.md
+
+<!-- sase:referenced-by:end -->

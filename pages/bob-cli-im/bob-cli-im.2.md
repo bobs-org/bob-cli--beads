@@ -11,6 +11,10 @@
 
 bare_plus: a bare start name now ends at its last byte that is neither a digit nor `+`, so `=fix2+`, `=fix+3`, `=bugs+2`, and `@foo:bar=fix2+` are timing while `=bob+decks` and `=bob+2fa` are unchanged. Refuse `=c++`/`=fix++` with a three-way hint, make `=#c++` legal, teach `x=fix+`, keep timing in completion round trips, emit trailing timing in bare-name fit drafts, fix the stale `=bugs+2` docs, add the differential test, bump the grammar revision, and record decisions:start-timing-is-signed.
 
+## Notes
+
+[2026-11-08T12:59:56Z · bob-cli-im.2--1] PROPOSED FOLLOW-UP: native::gmail::sync::guard::tests::real_lock_contention_and_release failed once under just check ("release frees the guard") and passed in isolation; likely a suite-load flock flake on the new gmail sync guard, unrelated to grammar 18.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-im.1](bob-cli-im.1.md) ✓ · ⧖ 2026-11-08
@@ -20,4 +24,10 @@ bare_plus: a bare start name now ends at its last byte that is neither a digit n
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-im.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.2/README.md) | [bob-cli-im.2](bob-cli-im.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-im.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.2.md) | [bob-cli-im.2](bob-cli-im.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`b416354`](https://github.com/bobs-org/bob-cli/commit/b4163548b5025573256ad2a9ec5fdedbb526cd53) | feat(capture): treat trailing plus after a bare start name as later timing | [bob-cli-im.2](bob-cli-im.2.md) | 2026-11-08 08:27:48 EST |
