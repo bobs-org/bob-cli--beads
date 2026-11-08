@@ -18,7 +18,7 @@ signed_timing: extend `<X>` from `[D][-[N]]` to `[D][±[N]]` in bob-cli. Add `la
 ## Dependencies
 
 - **Blocks:** [bob-cli-im.2](bob-cli-im.2.md) ◐ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-im.4](bob-cli-im.4.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-im.4](bob-cli-im.4.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -31,3 +31,15 @@ signed_timing: extend `<X>` from `[D][-[N]]` to `[D][±[N]]` in bob-cli. Add `la
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f9601b7`](https://github.com/bobs-org/bob-cli/commit/f9601b704b23f6857cb26cef45a2c870afbdd1b6) | feat(capture): add signed later Pomodoro starts | [bob-cli-im.1](bob-cli-im.1.md) | 2026-11-08 06:55:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-im.1][1] | Need the phase scope, design file, prior notes, and DECISIONS before completing the assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.1/README.md
+
+<!-- sase:referenced-by:end -->
