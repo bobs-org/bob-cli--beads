@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-in
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.19v](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.19v.md) · **Assignee:** `bob-cli-in.land`
-**Created:** 2026-11-08 06:23:52 EST
+**Created:** 2026-11-08 06:23:52 EST · **Closed:** 2026-11-08 11:49:11 EST
 **Plan:** [202611/gmail\_sync\_ii3\_completion.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_sync_ii3_completion.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,8 @@ bob gmail sync meets its approved filing, coordination, reporting, recovery, ali
 
 [2026-11-08T15:43:08Z · bob-cli-in.land] FOLLOW-UP TRIAGE COMPLETE: Reviewed all notes on bob-cli-in.1, .2, .3, and .4; there are zero PROPOSED FOLLOW-UP entries. No genuinely distinct unrelated defect was established, so no sase_new_task action or new task is warranted and no proposal was declined. The guard failure corroboration in epic note #1 and ii.3.1 notes #2/#3 is already assigned to this sync acceptance work, not an unrelated task. All remaining landing findings are unmet requirements of this epic and stay in its repair tale. The tale coder must close bob-cli-in, then recheck and close bob-cli-ii.3.1 and phase bob-cli-ii.3 under the approved completion plan; leave outer bob-cli-ii for its own land agent.
 
+[2026-11-08T16:49:11Z · bob-cli-in.land--1] LANDING COMPLETE. Phases bob-cli-in.1-.4 were already closed (coordination 3ff3c4fe, recovery e5a7b2a3, acceptance 51d572d5, docs 59ba11a6). Source review of remaining landing defects plus commit 1cf8d96b, then a clippy repair in src/native/gmail/sync/file.rs (needless_return on the recovery I/O seam; bind_instead_of_map on save_event_present). Repairs: CoordinatedRead paces every retry attempt; discover cap warnings ignore trailing duplicates/invalid ids; recovery presence distinguishes Absent/Pending/Unreadable so idle -l 0 still enters apply; commit-failure diagnostics include evidence-write errors; origins checkpoint one at a time and a checkpoint failure stops later journal stages; replay skips already-present gmail.save and origin events only when from_recovery; FilingResult.watch_member plus post-persist re-scan keep recovered closed/deleted tasks and pending save/origin/enrollment out of watching/awaiting; guard tests use unique accounts and require GuardAttempt::Acquired; CLI vectors cover metadata/policy auth abort, search-failure adoption, unreadable recovery at -l 0, two-thread -r 0, and hydration give-up. Post-review origin drift 971214d8 (capture hard-link new notes) and c4d81e17 (ref annotation Cmd+Enter contract) do not overlap gmail/sync paths. Follow-up triage: zero PROPOSED FOLLOW-UP on .1-.4; no host tale bead; no new unrelated task. Guard corroboration from epic note #1 and ii.3.1 notes #2/#3 is covered by the unique-account GuardAttempt::Acquired tests. epic-symbols bob-cli-in is empty. justfile still has no symvision recipe. Verification: cargo test --lib native::gmail::sync 105 passed; cargo test --test gmail_sync 26 passed; sase tool run check 2a2cd2b5b05843b1f6f54d0d47fd7248 succeeded; just docs-check passed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -46,7 +48,7 @@ bob gmail sync meets its approved filing, coordination, reporting, recovery, ali
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-in: Finish bob gmail sync and close bob-cli-ii.3 [in_progress]"]
+    n0["bob-cli-in: Finish bob gmail sync and close bob-cli-ii.3 [closed]"]
     n1["bob-cli-in.1: Request coordination, failure state, and report counts [closed]"]
     n2["bob-cli-in.2: Host-local, idempotent commit and journal recovery [closed]"]
     n3["bob-cli-in.3: End-to-end acceptance matrix, alias parity, and lint scaffolding [closed]"]
@@ -68,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-in.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md) | [bob-cli-in.2](bob-cli-in.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md) | [bob-cli-in.3](bob-cli-in.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.4/README.md) | [bob-cli-in.4](bob-cli-in.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-in.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.land.md) | [bob-cli-in](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-in.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.land.md) | [bob-cli-in](README.md) | 2 |
 
 ## Commits
 
@@ -79,6 +81,7 @@ flowchart TD
 | bob-cli | [`51d572d`](https://github.com/bobs-org/bob-cli/commit/51d572d59075cc1b9363051ec453b4d3ee3e1ed4) | test(gmail): expand sync acceptance coverage | [bob-cli-in.3](bob-cli-in.3.md) | 2026-11-08 10:08:18 EST |
 | bob-cli | [`59ba11a`](https://github.com/bobs-org/bob-cli/commit/59ba11a6ab09cd7dba5b8a753f51d456348ed288) | docs(gmail): document sync JSON, host-local state, and watch-only -l 0 | [bob-cli-in.4](bob-cli-in.4.md) | 2026-11-08 10:29:45 EST |
 | bob-cli | [`1cf8d96`](https://github.com/bobs-org/bob-cli/commit/1cf8d96b37fa250521d77990e5da19f40b79f233) | fix(gmail): land remaining sync retry, recovery, and watch-membership defects | [bob-cli-in](README.md) | 2026-11-08 11:23:11 EST |
+| bob-cli | [`32c241a`](https://github.com/bobs-org/bob-cli/commit/32c241af95e2818ebd7635295ee96ca2ab38bc26) | fix(gmail): land remaining sync retry, recovery, and watch-membership lint | [bob-cli-in](README.md) | 2026-11-08 11:51:36 EST |
 
 <!-- sase:referenced-by:start -->
 
