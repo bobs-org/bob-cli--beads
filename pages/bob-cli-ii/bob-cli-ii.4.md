@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ii](README.md) / bob-cli-ii.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.19q](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.19q.md) · **Assignee:** `bob-cli-ii.4` · **Size:** large
-**Created:** 2026-11-07 17:21:21 EST
+**Created:** 2026-11-07 17:21:21 EST · **Closed:** 2026-11-08 17:42:12 EST
 **Plan:** [202611/gmail\_sync\_reply\_watch.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_sync_reply_watch.md)
 
 ## Description
@@ -34,8 +34,10 @@ watch: fetch watched threads every run, refresh their mail notes, and apply each
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-in.3][1] | Need to identify whether unused sync read APIs have a real consumer in the open reply-watch phase | 1 |
+| read-by | [agent:bob-cli-ii.4.1.land][1] | Need the parent link | 1 |
+| read-by | [agent:bob-cli-in.3][2] | Need to identify whether unused sync read APIs have a real consumer in the open reply-watch phase | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.4.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md
 
 <!-- sase:referenced-by:end -->

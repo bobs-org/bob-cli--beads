@@ -13,7 +13,7 @@ health: refile a gmail_inbox.md row once its routing label resolves, report pers
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.4](bob-cli-ii.4.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ii.4](bob-cli-ii.4.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.8](bob-cli-ii.8.md) ◐ · ⧖ 2026-11-07
 
 ## Agents

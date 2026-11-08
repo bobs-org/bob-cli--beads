@@ -18,7 +18,7 @@ sync: build bob gmail sync with paged ids-only discovery, the enrollment journal
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.1](bob-cli-ii.1.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ii.4](bob-cli-ii.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ii.4](bob-cli-ii.4.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [bob-cli-ii.7](bob-cli-ii.7.md) ✓ · ⧖ 2026-11-07
 
 ## Agents

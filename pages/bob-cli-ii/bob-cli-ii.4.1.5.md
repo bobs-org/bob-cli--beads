@@ -41,7 +41,9 @@ send_hook: extend acknowledged-send finalization and completion recovery to appl
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ii.4.1.5][1] | Need remaining notes, decisions, and design file | 2 |
+| read-by | [agent:bob-cli-ii.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.4.1.land.md
 
 <!-- sase:referenced-by:end -->

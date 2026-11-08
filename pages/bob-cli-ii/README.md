@@ -38,7 +38,7 @@ Labelling a Gmail thread `bob` (plus an optional `#/<note>` or `+/<note>` routin
 | [bob-cli-ii.1](bob-cli-ii.1.md) | Sync config and the routing-label resolver | ✓ closed | medium | 2026-11-07 | 1 | 1 |
 | [bob-cli-ii.2](bob-cli-ii.2.md) | Turn classification and mail-note turn fields | ✓ closed | medium | 2026-11-07 | 1 | 1 |
 | [bob-cli-ii.3](bob-cli-ii.3.md) | The bob gmail sync command, filing, adoption, and the pull alias | ✓ closed | large | 2026-11-07 | 1 | 0 |
-| [bob-cli-ii.4](bob-cli-ii.4.md) | The awaiting-reply hold and the reply lift | ◐ in_progress | large | 2026-11-07 | 1 | 0 |
+| [bob-cli-ii.4](bob-cli-ii.4.md) | The awaiting-reply hold and the reply lift | ✓ closed | large | 2026-11-07 | 1 | 0 |
 | [bob-cli-ii.5](bob-cli-ii.5.md) | Route repair, alert-once problems, staleness, and doctor sync | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
 | [bob-cli-ii.6](bob-cli-ii.6.md) | The hollow paper-plane awaiting block mark | ✓ closed | medium | 2026-11-07 | 1 | 1 |
 | [bob-cli-ii.7](bob-cli-ii.7.md) | Reply badge, no-reply pill, and the daily-note Gmail sync | ✓ closed | medium | 2026-11-07 | 1 | 1 |
@@ -57,8 +57,8 @@ flowchart TD
     n6["bob-cli-ii.3.1.2: Paged discovery and bounded run coordination [closed]"]
     n7["bob-cli-ii.3.1.3: One transaction for routed mail notes and tasks [closed]"]
     n8["bob-cli-ii.3.1.4: Sync command, permanent pull alias, reports, and documentation [closed]"]
-    n9["bob-cli-ii.4: The awaiting-reply hold and the reply lift [in_progress]"]
-    n10["bob-cli-ii.4.1: Gmail reply holds, reply lifts, and send finalization [in_progress]"]
+    n9["bob-cli-ii.4: The awaiting-reply hold and the reply lift [closed]"]
+    n10["bob-cli-ii.4.1: Gmail reply holds, reply lifts, and send finalization [closed]"]
     n11["bob-cli-ii.4.1.1: Reply hold and lift edits with the running-session guard [closed]"]
     n12["bob-cli-ii.4.1.2: Watch journal folding and remote preparation [closed]"]
     n13["bob-cli-ii.4.1.3: Apply watched turns through the existing sync transaction [closed]"]
@@ -130,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ii.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.4/README.md) | [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.5/README.md) | [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.6/README.md) | [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-ii.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.land/README.md) | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ii.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.4.1.land.md) | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ii.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.5/README.md) | [bob-cli-ii.5](bob-cli-ii.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-ii.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.6/README.md) | [bob-cli-ii.6](bob-cli-ii.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.7/README.md) | [bob-cli-ii.7](bob-cli-ii.7.md) | 1 |
@@ -157,6 +157,7 @@ flowchart TD
 | bob-cli | [`5a63e9a`](https://github.com/bobs-org/bob-cli/commit/5a63e9a2ccc4f4376da6c54df0ed07a01caa9660) | feat(gmail): apply reply-watch effects after a confirmed send | [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) | 2026-11-08 15:42:13 EST |
 | bob-cli | [`b252669`](https://github.com/bobs-org/bob-cli/commit/b252669b866bff0711483caa8bfd98708626788e) | docs(gmail): publish reply-watch contracts and tagged-hold decision | [bob-cli-ii.4.1.6](bob-cli-ii.4.1.6.md) | 2026-11-08 15:56:57 EST |
 | bob-cli | [`25c0223`](https://github.com/bobs-org/bob-cli/commit/25c02232a5820c6625c8cf99f2e2eabeace421eb) | fix(gmail): clear reply-watch lint and stale dead-code allowances | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 2026-11-08 16:45:30 EST |
+| bob-cli | [`5ef6612`](https://github.com/bobs-org/bob-cli/commit/5ef66125d29191aaaef087bde986528967202740) | fix(gmail): preserve watched targets across shifted lines | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 2026-11-08 17:43:54 EST |
 
 <!-- sase:referenced-by:start -->
 
