@@ -30,7 +30,9 @@ sync: build bob gmail sync with paged ids-only discovery, the enrollment journal
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ii.3.1.1][1] | Check sync phase scope wording about adoption | 1 |
+| read-by | [agent:bob-cli-ii.3.1.4][2] | Need DECISIONS, design files, notes, and parent epic contract | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -32,3 +32,15 @@ command: wire the sync pipeline and hidden pull alias, human and JSON reports, c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5df6b9d`](https://github.com/bobs-org/bob-cli/commit/5df6b9d5267e59087bd41a5b37fa1a210eb5dda6) | feat(gmail)!: file labelled threads by routing label as bob gmail sync | [bob-cli-ii.3.1.4](bob-cli-ii.3.1.4.md) | 2026-11-07 22:07:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.3.1.4][1] | Need the phase scope, design file, notes, and epic DECISIONS before starting work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.4/README.md
+
+<!-- sase:referenced-by:end -->
