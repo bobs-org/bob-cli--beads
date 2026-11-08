@@ -33,8 +33,8 @@ In Obsidian, ⌘↵ on a reference-note highlight, a 🔖 bookmark line, or a Ta
 | [bob-cli-iq.2](bob-cli-iq.2.md) | Pure annotation locator | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-iq.3](bob-cli-iq.3.md) | Resolver, exact-path launch, and page request | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-iq.4](bob-cli-iq.4.md) | The Highlights toast card | ✓ closed | small | 2026-11-08 | 1 | 1 |
-| [bob-cli-iq.5](bob-cli-iq.5.md) | Availability chip, rail, and 📖 tooltip | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
-| [bob-cli-iq.6](bob-cli-iq.6.md) | bob-cli client contract docs and decision record | ✓ closed | small | 2026-11-08 | 1 | 0 |
+| [bob-cli-iq.5](bob-cli-iq.5.md) | Availability chip, rail, and 📖 tooltip | ✓ closed | medium | 2026-11-08 | 1 | 1 |
+| [bob-cli-iq.6](bob-cli-iq.6.md) | bob-cli client contract docs and decision record | ✓ closed | small | 2026-11-08 | 1 | 1 |
 
 ## Lineage
 
@@ -45,7 +45,7 @@ flowchart TD
     n2["bob-cli-iq.2: Pure annotation locator [closed]"]
     n3["bob-cli-iq.3: Resolver, exact-path launch, and page request [closed]"]
     n4["bob-cli-iq.4: The Highlights toast card [closed]"]
-    n5["bob-cli-iq.5: Availability chip, rail, and 📖 tooltip [in_progress]"]
+    n5["bob-cli-iq.5: Availability chip, rail, and 📖 tooltip [closed]"]
     n6["bob-cli-iq.6: bob-cli client contract docs and decision record [closed]"]
     n0 --> n1
     n0 --> n2
@@ -69,8 +69,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-iq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.2/README.md) | [bob-cli-iq.2](bob-cli-iq.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-iq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.3/README.md) | [bob-cli-iq.3](bob-cli-iq.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-iq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.4/README.md) | [bob-cli-iq.4](bob-cli-iq.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-iq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.5/README.md) | [bob-cli-iq.5](bob-cli-iq.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-iq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.6/README.md) | [bob-cli-iq.6](bob-cli-iq.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-iq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.5/README.md) | [bob-cli-iq.5](bob-cli-iq.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-iq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.6/README.md) | [bob-cli-iq.6](bob-cli-iq.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-iq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.land/README.md) | [bob-cli-iq](README.md) | 0 |
 
 ## Commits
@@ -79,7 +79,9 @@ flowchart TD
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@cedcb1c`](https://github.com/bobs-org/bob-plugins/commit/cedcb1c6b36b2021b94254c688fc1e0444ecfad0) | feat(navigation): add pure ref annotation locator for Highlights page jumps | [bob-cli-iq.2](bob-cli-iq.2.md) | 2026-11-08 10:55:05 EST |
 | bob-plugins | [`bob-plugins@e16f794`](https://github.com/bobs-org/bob-plugins/commit/e16f7944494aea3a900785c81ff62f1846603a39) | feat(navigation): resolve highlight targets and open exact PDF at page | [bob-cli-iq.3](bob-cli-iq.3.md) | 2026-11-08 11:27:39 EST |
+| bob-cli | [`c4d81e1`](https://github.com/bobs-org/bob-cli/commit/c4d81e177158cdc165aeb34aa125771e1cde5d9f) | docs(ref): declare generated annotation shapes as a Cmd+Enter client contract | [bob-cli-iq.6](bob-cli-iq.6.md) | 2026-11-08 11:37:05 EST |
 | bob-plugins | [`bob-plugins@6390587`](https://github.com/bobs-org/bob-plugins/commit/6390587b15a771ecd7b188e01bb93d9bbee170f5) | feat(navigation): add Highlights toast card | [bob-cli-iq.4](bob-cli-iq.4.md) | 2026-11-08 11:45:15 EST |
+| bob-plugins | [`bob-plugins@fbf45e2`](https://github.com/bobs-org/bob-plugins/commit/fbf45e2572366d28cb7237d031d8e521dc9254f2) | feat(navigation): add Highlights availability chip, rail, and tooltip | [bob-cli-iq.5](bob-cli-iq.5.md) | 2026-11-08 12:16:26 EST |
 
 <!-- sase:referenced-by:start -->
 

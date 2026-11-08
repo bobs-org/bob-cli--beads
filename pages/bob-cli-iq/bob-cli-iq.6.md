@@ -26,7 +26,13 @@ contract_docs: declare the generated captions, piece metadata, and block shapes 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-iq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.6/README.md) | [bob-cli-iq.6](bob-cli-iq.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-iq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.6/README.md) | [bob-cli-iq.6](bob-cli-iq.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`c4d81e1`](https://github.com/bobs-org/bob-cli/commit/c4d81e177158cdc165aeb34aa125771e1cde5d9f) | docs(ref): declare generated annotation shapes as a Cmd+Enter client contract | [bob-cli-iq.6](bob-cli-iq.6.md) | 2026-11-08 11:37:05 EST |
 
 <!-- sase:referenced-by:start -->
 

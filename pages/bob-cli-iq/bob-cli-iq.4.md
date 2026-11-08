@@ -18,7 +18,7 @@ toast: replace the plain announce notices with one rich .bob-nh-notice Highlight
 ## Dependencies
 
 - **Depends on:** [bob-cli-iq.3](bob-cli-iq.3.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-iq.5](bob-cli-iq.5.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-iq.5](bob-cli-iq.5.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -31,3 +31,15 @@ toast: replace the plain announce notices with one rich .bob-nh-notice Highlight
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6390587`](https://github.com/bobs-org/bob-plugins/commit/6390587b15a771ecd7b188e01bb93d9bbee170f5) | feat(navigation): add Highlights toast card | [bob-cli-iq.4](bob-cli-iq.4.md) | 2026-11-08 11:45:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iq.4][1] | Need the phase scope, prior notes, and design file before continuing assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.4/README.md
+
+<!-- sase:referenced-by:end -->
