@@ -30,3 +30,15 @@ hints: a status-bar chip and a line rail, both driven by the dry resolver, show 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@fbf45e2`](https://github.com/bobs-org/bob-plugins/commit/fbf45e2572366d28cb7237d031d8e521dc9254f2) | feat(navigation): add Highlights availability chip, rail, and tooltip | [bob-cli-iq.5](bob-cli-iq.5.md) | 2026-11-08 12:16:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iq.5][1] | Need full notes, design file, and remaining work details | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iq.5/README.md
+
+<!-- sase:referenced-by:end -->
