@@ -18,7 +18,7 @@ cli: in bob-cli, resolve each home's hue from the nearest area or project `color
 ## Dependencies
 
 - **Blocks:** [bob-cli-ij.2](bob-cli-ij.2.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ij.3](bob-cli-ij.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ij.3](bob-cli-ij.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
@@ -39,7 +39,9 @@ cli: in bob-cli, resolve each home's hue from the nearest area or project `color
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ij.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-ij.2][2] | Need phase 1 close notes for what landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ij.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ij.2/README.md
 
 <!-- sase:referenced-by:end -->

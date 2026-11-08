@@ -20,7 +20,7 @@ plugins: in bob-plugins, mirror nearest-note colors and the grey mute in the hom
 ## Dependencies
 
 - **Depends on:** [bob-cli-ij.1](bob-cli-ij.1.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ij.3](bob-cli-ij.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ij.3](bob-cli-ij.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
@@ -33,3 +33,15 @@ plugins: in bob-plugins, mirror nearest-note colors and the grey mute in the hom
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@59df267`](https://github.com/bobs-org/bob-plugins/commit/59df26757cecfcec89bd3c4f07eeed0b2114e912) | feat(ledger-tools): mirror nearest-note area/project colors and keep grey roots gray | [bob-cli-ij.2](bob-cli-ij.2.md) | 2026-11-07 18:34:27 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ij.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ij.2/README.md
+
+<!-- sase:referenced-by:end -->
