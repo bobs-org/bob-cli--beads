@@ -26,7 +26,7 @@ turns: classify each Gmail message as your move, their move, automated, bounce, 
 ## Dependencies
 
 - **Blocks:** [bob-cli-ii.4](bob-cli-ii.4.md) ◐ · ⧖ 2026-11-07
-- **Blocks:** [bob-cli-ii.7](bob-cli-ii.7.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ii.7](bob-cli-ii.7.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

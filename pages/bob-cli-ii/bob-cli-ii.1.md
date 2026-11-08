@@ -19,7 +19,7 @@ routing: add the gmail.sync config keys with pull fallbacks, a pure resolver tha
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ii.3](bob-cli-ii.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [bob-cli-ii.3](bob-cli-ii.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

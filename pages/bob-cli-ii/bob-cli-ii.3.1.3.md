@@ -40,7 +40,9 @@ filing: share the prepared save path with sync, plan routed and problem tasks th
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ii.3.1.3][1] | Need the phase scope, design file, and prior-work notes before implementation | 1 |
+| read-by | [agent:bob-cli-in.land--1][2] | Need child close state and notes before independent ii.3.1 closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.3.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.land.md
 
 <!-- sase:referenced-by:end -->
