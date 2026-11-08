@@ -17,7 +17,7 @@ signed_timing: extend `<X>` from `[D][-[N]]` to `[D][±[N]]` in bob-cli. Add `la
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-im.2](bob-cli-im.2.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-im.2](bob-cli-im.2.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-im.4](bob-cli-im.4.md) ✓ · ⧖ 2026-11-08
 
 ## Agents

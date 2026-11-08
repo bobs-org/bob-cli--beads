@@ -28,8 +28,8 @@ Inside a start's `<X>`, `-` starts earlier and `+` starts later (a lone sign is 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-im.1](bob-cli-im.1.md) | Signed \`\<X\>\` grammar, later clock, contracts, and link starts in bob-cli | ✓ closed | medium | 2026-11-08 | 1 | 1 |
-| [bob-cli-im.2](bob-cli-im.2.md) | Trailing \`+\` after bare names is timing; \`#\` spells names ending in \`+\` | ◐ in_progress | medium | 2026-11-08 | 1 | 1 |
-| [bob-cli-im.3](bob-cli-im.3.md) | Refuse operator-only bodies after a link start, teaching the glued spelling | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
+| [bob-cli-im.2](bob-cli-im.2.md) | Trailing \`+\` after bare names is timing; \`#\` spells names ending in \`+\` | ✓ closed | medium | 2026-11-08 | 1 | 1 |
+| [bob-cli-im.3](bob-cli-im.3.md) | Refuse operator-only bodies after a link start, teaching the glued spelling | ✓ closed | small | 2026-11-08 | 1 | 1 |
 | [bob-cli-im.4](bob-cli-im.4.md) | Obsidian bob-ledger-tools \`se\<X\>\` learns \`+\` in bob-plugins | ✓ closed | small | 2026-11-08 | 1 | 0 |
 
 ## Lineage
@@ -38,8 +38,8 @@ Inside a start's `<X>`, `-` starts earlier and `+` starts later (a lone sign is 
 flowchart TD
     n0["bob-cli-im: Signed Pomodoro start timing — `+N` starts later [in_progress]"]
     n1["bob-cli-im.1: Signed `&lt;X&gt;` grammar, later clock, contracts, and link starts in bob-cli [closed]"]
-    n2["bob-cli-im.2: Trailing `+` after bare names is timing; `#` spells names ending in `+` [in_progress]"]
-    n3["bob-cli-im.3: Refuse operator-only bodies after a link start, teaching the glued spelling [in_progress]"]
+    n2["bob-cli-im.2: Trailing `+` after bare names is timing; `#` spells names ending in `+` [closed]"]
+    n3["bob-cli-im.3: Refuse operator-only bodies after a link start, teaching the glued spelling [closed]"]
     n4["bob-cli-im.4: Obsidian bob-ledger-tools `se&lt;X&gt;` learns `+` in bob-plugins [closed]"]
     n0 --> n1
     n0 --> n2
@@ -56,7 +56,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-im.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.1/README.md) | [bob-cli-im.1](bob-cli-im.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-im.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.2.md) | [bob-cli-im.2](bob-cli-im.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-im.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.3/README.md) | [bob-cli-im.3](bob-cli-im.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-im.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-im.3.md) | [bob-cli-im.3](bob-cli-im.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-im.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.4/README.md) | [bob-cli-im.4](bob-cli-im.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-im.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-im.land/README.md) | [bob-cli-im](README.md) | 0 |
 
@@ -66,3 +66,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`f9601b7`](https://github.com/bobs-org/bob-cli/commit/f9601b704b23f6857cb26cef45a2c870afbdd1b6) | feat(capture): add signed later Pomodoro starts | [bob-cli-im.1](bob-cli-im.1.md) | 2026-11-08 06:55:19 EST |
 | bob-cli | [`b416354`](https://github.com/bobs-org/bob-cli/commit/b4163548b5025573256ad2a9ec5fdedbb526cd53) | feat(capture): treat trailing plus after a bare start name as later timing | [bob-cli-im.2](bob-cli-im.2.md) | 2026-11-08 08:27:48 EST |
+| bob-cli | [`572ce97`](https://github.com/bobs-org/bob-cli/commit/572ce974c9d933e8bb0547418fd421d22e2957b3) | feat(capture): refuse operator-only link-start bodies | [bob-cli-im.3](bob-cli-im.3.md) | 2026-11-08 09:42:54 EST |
