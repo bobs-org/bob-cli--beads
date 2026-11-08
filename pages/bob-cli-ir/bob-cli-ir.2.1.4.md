@@ -14,7 +14,7 @@ planner-contract: compose the engine into side-effect-free creation plans with f
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

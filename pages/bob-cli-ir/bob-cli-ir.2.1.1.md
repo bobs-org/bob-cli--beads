@@ -18,7 +18,7 @@ schema-stems: implement the isolated records config loader, ordered schema and s
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) ◐ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -31,3 +31,15 @@ schema-stems: implement the isolated records config loader, ordered schema and s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cd8a031`](https://github.com/bobs-org/bob-cli/commit/cd8a031f9bad5e5aee4ab88e3671e3d8afb9beb0) | feat(records): add schema validation and stem fixtures | [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) | 2026-11-08 11:52:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.2.1.1][1] | Need the phase scope, design file, and prior agent notes before continuing assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

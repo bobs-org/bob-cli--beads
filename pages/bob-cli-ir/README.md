@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md
 
@@ -61,7 +61,7 @@ flowchart TD
     n7["bob-cli-ir.2.1: Records engine schema, indexing, rendering, and planning [in_progress]"]
     n8["bob-cli-ir.2.1.1: Records schema, value validation, and filename fixtures [closed]"]
     n9["bob-cli-ir.2.1.2: Lazy per-folder records index and suggestions [in_progress]"]
-    n10["bob-cli-ir.2.1.3: Typed record rendering and byte-preserving updates [in_progress]"]
+    n10["bob-cli-ir.2.1.3: Typed record rendering and byte-preserving updates [closed]"]
     n11["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [in_progress]"]
     n12["bob-cli-ir.3: bob records list, show, check, and new [in_progress]"]
     n13["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [in_progress]"]
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.md) | [bob-cli-ir.2](bob-cli-ir.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.1/README.md) | [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.2/README.md) | [bob-cli-ir.2.1.2](bob-cli-ir.2.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md) | [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md) | [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.4/README.md) | [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.land/README.md) | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.3/README.md) | [bob-cli-ir.3](bob-cli-ir.3.md) | 0 |
@@ -141,6 +141,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`971214d`](https://github.com/bobs-org/bob-cli/commit/971214d88b0eb9c7fe2a0199be7f6670645c668c) | feat(capture): install new notes without replacing existing files | [bob-cli-ir.1](bob-cli-ir.1.md) | 2026-11-08 11:29:27 EST |
 | bob-cli | [`cd8a031`](https://github.com/bobs-org/bob-cli/commit/cd8a031f9bad5e5aee4ab88e3671e3d8afb9beb0) | feat(records): add schema validation and stem fixtures | [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) | 2026-11-08 11:52:23 EST |
+| bob-cli | [`93c7c11`](https://github.com/bobs-org/bob-cli/commit/93c7c1145eeda40335a0c7002239ab3ae0221eff) | feat(records): add typed rendering and byte-preserving updates | [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) | 2026-11-08 12:32:57 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -150,10 +151,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3t.cdx][1] | Understand record notes scope, existing design, and intended workflows for independent cdx research | 1 |
 | read-by | [agent:research.3t.cld][2] | Research context: user asked about record notes epic to evaluate its potential | 1 |
-| read-by | [agent:research.3t.mus][3] | research record notes unlock potential | 1 |
+| read-by | [agent:research.3t.final][3] | Ground consolidated record-notes research in the epic's scope and status | 1 |
+| read-by | [agent:research.3t.grk][4] | Need the Record Notes epic bead description, decisions, and notes as primary context | 2 |
+| read-by | [agent:research.3t.mus][5] | research record notes unlock potential | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cdx/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.final/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.grk/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
 
 <!-- sase:referenced-by:end -->
