@@ -13,7 +13,7 @@ folder-index: implement frontmatter-only folder discovery, case-insensitive stem
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) ◐ · ⧖ 2026-11-08
 
 ## Agents

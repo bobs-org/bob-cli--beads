@@ -13,7 +13,7 @@ render-edit: render new record notes and implement conservative field and note e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
