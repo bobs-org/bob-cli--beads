@@ -13,7 +13,7 @@ contracts: update Gmail, freshness, vault-format, and reconciliation contracts a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

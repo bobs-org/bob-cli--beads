@@ -18,7 +18,7 @@ polling: connect prepared watched threads to sync and its pull alias, implement 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.4.1.3](bob-cli-ii.4.1.3.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ii.4.1.5](bob-cli-ii.4.1.5.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -31,3 +31,15 @@ polling: connect prepared watched threads to sync and its pull alias, implement 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`457153f`](https://github.com/bobs-org/bob-cli/commit/457153f0b1cd7574c02b68c26b9a206f402d10e1) | feat(gmail): wire reply watch polling into sync | [bob-cli-ii.4.1.4](bob-cli-ii.4.1.4.md) | 2026-11-08 15:00:55 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ii.4.1.4][1] | Need the phase scope, notes, and design file before implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->
