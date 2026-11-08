@@ -30,3 +30,15 @@ docs: correct the route-prefix and missing-label claims, document the sync JSON 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`59ba11a`](https://github.com/bobs-org/bob-cli/commit/59ba11a6ab09cd7dba5b8a753f51d456348ed288) | docs(gmail): document sync JSON, host-local state, and watch-only -l 0 | [bob-cli-in.4](bob-cli-in.4.md) | 2026-11-08 10:29:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-in.4][1] | Need notes, DECISIONS, design file, and remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.4/README.md
+
+<!-- sase:referenced-by:end -->

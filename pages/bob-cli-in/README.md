@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_sync_ii3_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_sync_ii3_completion.md
 
@@ -28,6 +28,10 @@ bob gmail sync meets its approved filing, coordination, reporting, recovery, ali
 ## Notes
 
 [2026-11-08T14:54:39Z · bob-cli-im.land] DISCOVERED ISSUE: Landing triage of bob-cli-im.2 note #1: native::gmail::sync::guard::tests::real_lock_contention_and_release failed under just check with release frees the guard, then passed in isolation on the unchanged phase tree. This corroborates bob-cli-ii.3.1 landing note #2, which already assigns deterministic guard coverage to Gmail acceptance. Current guard.rs still acquires the same account twice under TestEnvGuard then drops/reacquires; bob-cli-im only removed blank lines here, so this is unrelated to signed timing. Please include the guard fail/pass observation in the active bob-cli-in.3 acceptance verification. No standalone duplicate task created; lander has not independently reproduced the failure.
+
+[2026-11-08T15:43:04Z · bob-cli-in.land] LANDING REVIEW at 59ba11a6: Read this epic and every note on phases bob-cli-in.1-.4, their commits 3ff3c4fe/e5a7b2a3/51d572d5/59ba11a6, the completion and earlier repair/filing plans, and bob-cli-ii.3.1 plus bob-cli-ii.3 notes/DECISIONS. Source confirms coordinator/raw-auth latches, wait-only budget, adoption-before-limit, host-local hash-scoped recovery, normal scoped writes, hidden alias parity fixtures, narrow outer-watch allowances, and corrected docs. Inherited decisions remain cron_enabled=no, gmail_watch_record=no, reply_hold_record=yes owned by ii.4, inbox_glossary=yes already handled; no memory changes. Fetched origin/master equals HEAD. Reviewed intervening 809c0fc7 (configured gog propagated to sync), 063f9c23 (threads.list remains behind coordinator and read allowlist), f9601b70/b4163548/572ce974 (capture timing/grammar changes do not replace sync staged-task insertion), and 5ed31c13 (relation docs). No missing integration wiring found. Remaining epic work from source: retry.rs paces only before execute_with_retry, so retry timestamps and a final backoff shorter than 200ms break the promised request gap; discover.rs cap_has_more counts unvalidated trailing duplicates/invalid ids; has_pending_recovery suppresses read errors and skips authoritative recovery on otherwise idle runs; commit-failure write_recovery errors are discarded; attachment origins are checkpointed only after the whole batch, and checkpoint failures leave already-appended save/origin events eligible for replay; report watching_count unconditionally counts recovered filed/adopted rows even when their task was closed before replay, and save/origin failure can block enrollment without excluding that row. Acceptance still lacks several required orchestration failure vectors, and guard test note #1 remains unresolved (51d572d5 only removed guard allowances; passing retries are not a fix). These findings prevent closure. No fresh check/docs pass claimed: a local binary probe proved target/debug/bob stale (it has no gmail command), not a feature reproduction. All three epic-symbol checks (in, ii.3.1, ii.3) are empty; justfile has no symvision recipe. A bounded medium tale will repair these gaps, run check/docs, and own the full nested closeout.
+
+[2026-11-08T15:43:08Z · bob-cli-in.land] FOLLOW-UP TRIAGE COMPLETE: Reviewed all notes on bob-cli-in.1, .2, .3, and .4; there are zero PROPOSED FOLLOW-UP entries. No genuinely distinct unrelated defect was established, so no sase_new_task action or new task is warranted and no proposal was declined. The guard failure corroboration in epic note #1 and ii.3.1 notes #2/#3 is already assigned to this sync acceptance work, not an unrelated task. All remaining landing findings are unmet requirements of this epic and stay in its repair tale. The tale coder must close bob-cli-in, then recheck and close bob-cli-ii.3.1 and phase bob-cli-ii.3 under the approved completion plan; leave outer bob-cli-ii for its own land agent.
 
 ## Phases
 
@@ -64,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-in.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md) | [bob-cli-in.2](bob-cli-in.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md) | [bob-cli-in.3](bob-cli-in.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-in.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.4/README.md) | [bob-cli-in.4](bob-cli-in.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-in.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.land/README.md) | [bob-cli-in](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-in.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-in.land.md) | [bob-cli-in](README.md) | 1 |
 
 ## Commits
 
@@ -74,6 +78,7 @@ flowchart TD
 | bob-cli | [`e5a7b2a`](https://github.com/bobs-org/bob-cli/commit/e5a7b2a32ac7195f11914e0e85cdd50b5e1386d9) | fix(gmail): host-local idempotent sync recovery evidence | [bob-cli-in.2](bob-cli-in.2.md) | 2026-11-08 09:26:02 EST |
 | bob-cli | [`51d572d`](https://github.com/bobs-org/bob-cli/commit/51d572d59075cc1b9363051ec453b4d3ee3e1ed4) | test(gmail): expand sync acceptance coverage | [bob-cli-in.3](bob-cli-in.3.md) | 2026-11-08 10:08:18 EST |
 | bob-cli | [`59ba11a`](https://github.com/bobs-org/bob-cli/commit/59ba11a6ab09cd7dba5b8a753f51d456348ed288) | docs(gmail): document sync JSON, host-local state, and watch-only -l 0 | [bob-cli-in.4](bob-cli-in.4.md) | 2026-11-08 10:29:45 EST |
+| bob-cli | [`1cf8d96`](https://github.com/bobs-org/bob-cli/commit/1cf8d96b37fa250521d77990e5da19f40b79f233) | fix(gmail): land remaining sync retry, recovery, and watch-membership defects | [bob-cli-in](README.md) | 2026-11-08 11:23:11 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -83,8 +88,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-in.2][1] | Need parent epic notes and DECISIONS for recovery phase | 2 |
 | read-by | [agent:bob-cli-in.3][2] | Need the parent epic decisions and acceptance context for this phase | 1 |
+| read-by | [agent:bob-cli-in.4][3] | Need parent epic DECISIONS that this phase must honor | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-in.4/README.md
 
 <!-- sase:referenced-by:end -->
