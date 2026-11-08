@@ -14,7 +14,7 @@ cron: add Bryan's gmail block (route prefixes # and +, three reply-wait days) to
 ## Dependencies
 
 - **Depends on:** [bob-cli-ii.4](bob-cli-ii.4.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [bob-cli-ii.5](bob-cli-ii.5.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [bob-cli-ii.5](bob-cli-ii.5.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
