@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ir](README.md) / bob-cli-ir.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1a0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1a0.md) · **Assignee:** `bob-cli-ir.11` · **Size:** large
-**Created:** 2026-11-08 11:06:12 EST
+**Created:** 2026-11-08 11:06:12 EST · **Closed:** 2026-11-09 12:46:28 EST
 **Plan:** [202611/record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md)
 
 ## Description
@@ -51,6 +51,12 @@ Remaining to close: re-run Scripts/macos-ci-check to a full green Test verdict (
 
 Two consecutive user cancels at the same stage: no third push made. Bead stays open for one reason only: a full-green Test verdict. To close: re-run Scripts/macos-ci-check to green (after confirming with Bryan), then sase bead epic-symbols (clean) + sase bead close bob-cli-ir.11. All other phase evidence stands: Bob wire + 41 record tests, portable 2339 green, Mac scratch build + typecheck PASS, 12 inspected renders, latency record 82.59/82.81ms vs task 82.77/87.63ms.
 
+[2026-11-09T17:06:53Z · bob-cli-ir.11] Master CI after landing (bob-mac-capture fe9ce15 = ir.11 Mac work, 90fa59d = HEAD with bob-cli-ix fix): both RED in ir.11 tests. Run 42657112529 (90fa59d): 4493 tests, 4 failures, all in CaptureRecordPreviewPanelTests: testExplicitPreviewOfCompleteDraftIsReadyWithSummary (10.0s; explicit preview() never sets previewState .ready, only the live path does, so the test waits on an unreachable state) and testDelayedStaleSuccessReplyNeverClobbersCurrentRefusal (17.6s; with debounce 0 the second edit cancels the first analysis before its dry run spawns, so fake-bob serves the FIRST/success fixture to the invalid draft). Same failures, same timings in run 42656980197 (fe9ce15) = deterministic. All other ir.11 suites passed on CI (CaptureRecordPreviewDesignTests, CaptureRecordPreviewTests, NotificationService record cases). The 90fa59d Test step also hit the 900s watchdog at 15:09 (xctest ran 729s; typical green runs are 11-12 min). Feature code stands; remaining work is test-only. Planned as tale sase_plan_ir11_record_preview_ci_green.
+
+[2026-11-09T17:46:28Z · bob-cli-ir.11--1] macOS CI green: run 42663652552 on snapshot SHA a732612a82baba5fcdbff23500aeff2fc28196a3. Steps PASS: Check scripts, Lint Swift formatting, Build, Test, Bundle, Verify plist and signature, Launch smoke test, Install and reinstall (diagnostic/upload steps skipped as expected). CaptureRecordPreviewPanelTests: Executed 7 tests, 0 failures. Fixed tests passed: testExplicitPreviewOfCompleteDraftIsReadyWithSummary (0.184s) and testDelayedStaleSuccessReplyNeverClobbersCurrentRefusal (5.133s). Full suite: 4493 tests, 1 skipped, 0 failures. ci_watchdog=keep: .github/workflows/ci.yml untouched. Phase feature work carried by bob-c
+
+… and 41 more characters
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.10](bob-cli-ir.10.md) ✓ · ⧖ 2026-11-08
@@ -61,7 +67,7 @@ Two consecutive user cancels at the same stage: no third push made. Bead stays o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 2 |
+| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 3 |
 
 ## Commits
 
@@ -69,6 +75,7 @@ Two consecutive user cancels at the same stage: no third push made. Bead stays o
 |---|---|---|---|---|
 | bob-cli | [`84ff0bb`](https://github.com/bobs-org/bob-cli/commit/84ff0bb8ed9dd12bfc9dc5741319b30ccf26a93a) | feat(capture): add per-item record\_note summary to record JSON output | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:38:45 EST |
 | bob-mac-capture | [`bob-mac-capture@fe9ce15`](https://github.com/bobs-org/bob-mac-capture/commit/fe9ce1533d87fb6179adf4b49327869af2850165) | feat(capture): add record preview presentation, SwiftUI views, and fixtures | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:39:24 EST |
+| bob-mac-capture | [`bob-mac-capture@2f1d6dd`](https://github.com/bobs-org/bob-mac-capture/commit/2f1d6dd8b32771ee8f24550947fa831c8bfed04d) | test(capture): settle record preview panel tests on CI | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 12:47:23 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -76,8 +83,10 @@ Two consecutive user cancels at the same stage: no third push made. Bead stays o
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:d5][1] | Know which Mac record-note UX has shipped vs in progress for the user report | 1 |
+| read-by | [agent:bob-cli-ir.11--1][1] | triage just-check failure for record_note gate; check existing follow-ups before recording pre-existing help drift | 1 |
+| read-by | [agent:d5][2] | Know which Mac record-note UX has shipped vs in progress for the user report | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
 
 <!-- sase:referenced-by:end -->

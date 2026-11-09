@@ -19,7 +19,7 @@ Final revisions: bob-cli 5e49fa5e (named-field) at HEAD 941ee724; Mac child 1e6f
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ir.11](bob-cli-ir.11.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.11](bob-cli-ir.11.md) ✓ · ⧖ 2026-11-08
 - **Depends on:** [bob-cli-ir.6](bob-cli-ir.6.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
