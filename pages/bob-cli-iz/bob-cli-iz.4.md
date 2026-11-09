@@ -14,7 +14,7 @@ force_reset: bob-cli. New force flag, `gcal.reset` journal record and fold, a pl
 ## Dependencies
 
 - **Depends on:** [bob-cli-iz.2](bob-cli-iz.2.md) ✓ · ⧖ 2026-11-09
-- **Depends on:** [bob-cli-iz.3](bob-cli-iz.3.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-iz.3](bob-cli-iz.3.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-iz.5](bob-cli-iz.5.md) ◐ · ⧖ 2026-11-09
 
 ## Agents

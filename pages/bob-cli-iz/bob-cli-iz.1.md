@@ -17,7 +17,7 @@ templater_guard: bob-cli. Detect pending Templater tags in the daily note and re
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-iz.3](bob-cli-iz.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-iz.3](bob-cli-iz.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -30,3 +30,15 @@ templater_guard: bob-cli. Detect pending Templater tags in the daily note and re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c28edbe`](https://github.com/bobs-org/bob-cli/commit/c28edbeeb9834ccb515d1d25716dbb3d86bb6b2d) | feat(gcal): refuse to sync into a note Templater has not rendered | [bob-cli-iz.1](bob-cli-iz.1.md) | 2026-11-09 07:40:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iz.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.1/README.md
+
+<!-- sase:referenced-by:end -->
