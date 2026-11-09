@@ -19,7 +19,7 @@ capture-record-append: make @dir/<stem> append dated notes and set fields on an 
 
 - **Depends on:** [bob-cli-ir.6](bob-cli-ir.6.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.8](bob-cli-ir.8.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.9](bob-cli-ir.9.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.9](bob-cli-ir.9.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

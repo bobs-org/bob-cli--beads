@@ -14,7 +14,7 @@ records-wrapup: write the records guide, audit every records doc and help page, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.12](bob-cli-ir.12.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.9](bob-cli-ir.9.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.9](bob-cli-ir.9.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

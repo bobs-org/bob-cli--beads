@@ -45,7 +45,7 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 | [bob-cli-ir.6](bob-cli-ir.6.md) | Guided field entry in capture-complete | ✓ closed | large | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.7](bob-cli-ir.7.md) | Add to an existing record with @dir/stem | ✓ closed | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.8](bob-cli-ir.8.md) | Similar records in capture-related | ✓ closed | medium | 2026-11-08 | 1 | 1 |
-| [bob-cli-ir.9](bob-cli-ir.9.md) | bob records init plus show and movie types | ◐ in_progress | medium | 2026-11-08 | 1 | 1 |
+| [bob-cli-ir.9](bob-cli-ir.9.md) | bob records init plus show and movie types | ✓ closed | medium | 2026-11-08 | 1 | 2 |
 
 ## Lineage
 
@@ -85,7 +85,7 @@ flowchart TD
     n31["bob-cli-ir.7.1.4: Existing-record completion and Add to it fixes [closed]"]
     n32["bob-cli-ir.7.1.5: Records update CLI and dependent shell completion [closed]"]
     n33["bob-cli-ir.8: Similar records in capture-related [closed]"]
-    n34["bob-cli-ir.9: bob records init plus show and movie types [in_progress]"]
+    n34["bob-cli-ir.9: bob records init plus show and movie types [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -190,7 +190,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md) | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.land/README.md) | [bob-cli-ir](README.md) | 0 |
 
 ## Commits
@@ -224,6 +224,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@2c460ed`](https://github.com/bobs-org/bob-cli--plans/commit/2c460ed80578757da28538e6fab158886d7d3e74) | docs(plans): mark record append landing done | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:08:07 EST |
 | bob-cli | [`44427b3`](https://github.com/bobs-org/bob-cli/commit/44427b30fab9705a7f0569d8588a1d9767d57d34) | feat(capture)!: show similar records in capture-related | [bob-cli-ir.8](bob-cli-ir.8.md) | 2026-11-09 07:47:09 EST |
 | bob-cli | [`262f3cf`](https://github.com/bobs-org/bob-cli/commit/262f3cfcbf594449a247bb5925e10ba7ca89fb34) | feat(records): add records init CLI to scaffold type notes and Bases | [bob-cli-ir.9](bob-cli-ir.9.md) | 2026-11-09 08:25:16 EST |
+| chezmoi | [`chezmoi@08da366`](https://github.com/bbugyi200/dotfiles/commit/08da366755b3f1c67ed739bfaab27549ca72972c) | feat(records): add show and movie record type schemas | [bob-cli-ir.9](bob-cli-ir.9.md) | 2026-11-09 08:26:02 EST |
 
 <!-- sase:referenced-by:start -->
 

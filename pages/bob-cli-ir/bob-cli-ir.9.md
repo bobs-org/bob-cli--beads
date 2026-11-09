@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ir](README.md) / bob-cli-ir.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1a0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1a0.md) · **Assignee:** `bob-cli-ir.9` · **Size:** medium
-**Created:** 2026-11-08 11:06:12 EST
+**Created:** 2026-11-08 11:06:12 EST · **Closed:** 2026-11-09 08:25:49 EST
 **Plan:** [202611/record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md)
 
 ## Description
@@ -17,6 +17,8 @@ records-media-types: add bob records init to scaffold a type's folder, type note
 
 [2026-11-09T12:57:55Z · bob-cli-ir.9--1] Repaired just check: records init TYPE completion kind (RecordType) plus --parent VaultNote; catalog document_shape count 84→85. Unit tests document_shape, every_value_arg_has_a_decision, and every_table_entry_matches_the_tree pass. epic-symbols still clean.
 
+[2026-11-09T13:25:49Z · bob-cli-ir.9--2] Closed by explicit `sase stitch create -B close` after create_commit landed 262f3cfc ("feat(records): add records init CLI to scaffold type notes and Bases"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-ir.9` if more work remains.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.13](bob-cli-ir.13.md) ◐ · ⧖ 2026-11-08
@@ -27,10 +29,11 @@ records-media-types: add bob records init to scaffold a type's folder, type note
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`262f3cf`](https://github.com/bobs-org/bob-cli/commit/262f3cfcbf594449a247bb5925e10ba7ca89fb34) | feat(records): add records init CLI to scaffold type notes and Bases | [bob-cli-ir.9](bob-cli-ir.9.md) | 2026-11-09 08:25:16 EST |
+| chezmoi | [`chezmoi@08da366`](https://github.com/bbugyi200/dotfiles/commit/08da366755b3f1c67ed739bfaab27549ca72972c) | feat(records): add show and movie record type schemas | [bob-cli-ir.9](bob-cli-ir.9.md) | 2026-11-09 08:26:02 EST |
