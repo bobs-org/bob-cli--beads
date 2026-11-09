@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-ir
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1a0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1a0.md) · **Assignee:** `bob-cli-ir.land`
-**Created:** 2026-11-08 11:06:11 EST
+**Created:** 2026-11-08 11:06:11 EST · **Closed:** 2026-11-09 14:42:43 EST
 **Plan:** [202611/record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md
 
@@ -41,14 +41,28 @@ Root cause: src/native/records/render.rs append_section_bullets, no-matching-hea
 
 Fix: push a blank line whenever the last body line is non-blank, regardless of its ending; add goldens for notes ending in a fence and in a bullet. Impact: cosmetic (Obsidian still renders the heading) but breaks the note style. Found while researching record-note UX (research:202611/record_notes_capture_ux.md).
 
+[2026-11-09T18:31:04Z · bob-cli-j6.land] DISCOVERED ISSUE: j6 landing audit reproduced just docs-check failures on bob-cli 4b59ae81 plus Mac ef5dc4a: json-outputs.md 6024, Mac capture-previews.md 6424, protocol.md 6048 (6000-word cap). bob-cli 84ff0bb8 (ir.11) added the record_note/refusal paragraph to json-outputs; Mac fe9ce15 (ir.11) and a5152aa (ir.12) grew record previews/protocol. Mac-page overages corroborated on existing bob-cli-h9 (+4); no duplicate task. Please reconcile these record-doc budgets as part of the Record Notes landing. j6 reduced its panel/keyboard edits and did not cause this growth.
+
+[2026-11-09T18:31:08Z · bob-cli-j6.land] DISCOVERED ISSUE: j6 landing audit inspected exact-SHA Mac CI run 42673185238 for ef5dc4ab02138241f3f73b83e54df67d623fd00a (https://github.com/bobs-org/bob-mac-capture/actions/runs/42673185238). Build fails at CapturePanelModel.swift:15612 and CapturePanelView.swift:2096,2151: switch must be exhaustive; add missing case .addTo. CaptureRelatedAction.addTo was added by ir.12 commit a5152aa; these three AppKit/SwiftUI Add block ID prompt switches were not adapted. Tests/Bundle/Install were skipped. No duplicate found in ci/all-type searches or the one-week sweep. j6 closeout will accept an owning fix, or apply the minimal compile adaptation if still needed to verify aliases: addTo is a record splice and must not manufacture a task block-ID replacement.
+
+[2026-11-09T19:09:42Z · bob-cli-ir.land] LANDER TRIAGE (bob-cli-ir.land, master 0a74731b + bob-mac-capture ef5dc4a). PROPOSED FOLLOW-UPs: (1) ir.3 #1 + ir.13 #1 Mac Capture pages over 6000 words: +1 on bob-cli-h9 (+5) for the pre-existing capture-panel.md 6013 / keyboard.md 6028; protocol.md 6048 and capture-previews.md 6424 were grown by ir.11 fe9ce15 / ir.12 a5152aa and are remaining epic work in the landing tale. (2) ir.4 #1 records CLI clippy redundant_closure: epic-caused, already fixed (project clippy gate passes); closed the stale task bob-cli-iw with that evidence. (3) ir.6 #2 ref_library timing flake: unrelated, +1 on existing bob-cli-hr. (4) ir.11 #1 SwiftUI preview, refusal card, success wiring, Mac verification: declined, completed later inside ir.11 (notes #3-#7, CI run 42663652552 green). ir.11 #1 docs-budget item: json-outputs record growth was trimmed by ir.13 4321fd70; the Mac part is item (1). (5) ir.11 #2 root help snapshot: declined, fixed by cb27f8bc (same as epic notes #2/#3; CLI help snapshot test passes). DISCOVERED ISSUES: #4 blank line before a new update section and #6 the Mac .addTo exhaustive-switch build break both reproduce and are remaining epic work; #5 json-outputs is now over again (6117) because of j8.1 0a74731b, not Record Notes, recorded as DISCOVERED ISSUE on bob-cli-j8 together with j8.1's four just check lib failures. Integration: the vault-free capture-rewrite spaced aliases (iu.1 '.'->'@', j6 '.'->'&' and ';'->'*') fire inside opaque record field values, recorded as DISCOVERED ISSUE on active bob-cli-j6 rather than edited here, to avoid colliding with j6's in-flight landing tale. Declined consolidating ad-hoc no-clobber hard-link installs (capture/commit.rs, gmail, periods, j5 archive engine): each has distinct fallback/recovery semantics and no defect. Note #1's record-note glossary request goes to the landing tale as a requested memory decision, because the original reviewer decision was no.
+
+[2026-11-09T19:36:23Z · bob-cli-ir.land] PROPOSED FOLLOW-UP: add glossary:record-note (aliases: record, record type) — landing auto-decision memory_glossary_record_note was no with no human review, so this lander did not create the strand. Bryan's epic note #1 still asks the lander to add it before landing. When a later worker does this, use /sase_memory_write, model the strand on glossary:notebook after reading glossary:notebook and glossary:capture, define it from docs/records.md (~120–180 words: config-declared type, dir/stem path, YAML type+fields, H1 plus ## Notes dated bullets, capture `<title> @<dir>/` create and `@<dir>/<stem>` update, `bob records list|show|check|new|update|init`, planned full writes that never replace a file, not a project-note/reference-note/notebook/task residence), then `sase memory init` and `just docs-gen`.
+
+[2026-11-09T19:38:06Z · 1al--code] RESOLVED (note #6): the .addTo exhaustive-switch build break is fixed on master by 3131414 (j9.3 typing-tips commit, which bundled the adaptation). Root cause: ir.12 commit a5152aa added case addTo to CaptureRelatedAction in Sources/CaptureCore/CaptureRelatedModels.swift without adapting the three exhaustive switches in the BobMacCapture target (CapturePanelModel.completeSimilarTaskIDAssignment, CapturePanelView.linkInsertsLine(for:) inner switch under case .similarTask, CapturePanelView.similarTaskInsertsText(route:typed:action:)). Why it shipped: ir.12 note #1 claims 'swift build + swift test green' with 'Mac typecheck/macos-ci not run from Linux'; just portable-check cannot type-check Sources/BobMacCapture*, and the scratch Mac compile plus Scripts/macos-ci-check that bob-mac-capture AGENTS.md requires never ran before the phase closed. Impact: master red at Build since a5152aa (runs 42672189863 and 42673185238), and Bryan's just install-all failed on the Mac 2026-11-09 13:54 EST. The fix adds no-task-ID .addTo cases in all three switches (landed bodies return empty rather than the tale's draft 'Updates record text'; equivalent since unreachable: record rows emit requires_block_id None in src/native/capture_related/records.rs, so similarApply and the pending-action path only present the ID prompt when requiresBlockID is true, and the model branch reports the update-Bob error and never splices). Verification: exact-SHA CI run 42680342242 for 3131414 has Build success (Lint success, Check scripts success); Test has 2 failures recorded separately below/on j6. Mac just portable-check green on the linked checkout (2390 tests, 0 failures). install_excerpt outcome: fixed in bob-cli scripts/lib/install_ui/live.py _failure_excerpt, which now starts the 40-line excerpt at the first case-sensitive real diagnostic label ((?:^|[\s:])error(?:\[[^\]]*\])?: matching swiftc file:line:col error:, rustc error[E...]:, cargo/just error:, Swift caret |- error:) before falling back to the old case-insensitive substring and then the last 20 lines. This is why the reported output hid the errors: every Swift 6 warning ends 'this is an error in the Swift 6 language mode', so the old substring search started the excerpt at the first Sendable warning (log line 7) and the real errors at lines 496-558 were never shown. Unit tests FailureExcerptTests added in scripts/lib/install_ui/tests/test_live.py (4 tests pass; the Swift-6-skipping test fails on the old code). just check-scripts passes except pre-existing PTY-timing test_real_cargo_install_transcript, which fails identically on the untouched base.
+
+[2026-11-09T19:38:18Z · 1al--code] DISCOVERED ISSUE (record_row_gaps = note; source-verified only, not reproduced; neither affects the build): two latent record-row Add to it defects. D1, native-editor range: in CapturePan
+
+… and 4402 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ir.1](bob-cli-ir.1.md) | Capture installs new files without ever replacing one | ✓ closed | small | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.10](bob-cli-ir.10.md) | Mac Record Card and guided entry | ✓ closed | large | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.11](bob-cli-ir.11.md) | Mac new-note preview and success line | ✓ closed | large | 2026-11-08 | 1 | 1 |
-| [bob-cli-ir.12](bob-cli-ir.12.md) | Mac updates, existing-record rows, and Similar records | ✓ closed | medium | 2026-11-08 | 1 | 0 |
+| [bob-cli-ir.11](bob-cli-ir.11.md) | Mac new-note preview and success line | ✓ closed | large | 2026-11-08 | 1 | 3 |
+| [bob-cli-ir.12](bob-cli-ir.12.md) | Mac updates, existing-record rows, and Similar records | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.13](bob-cli-ir.13.md) | Guide, documentation audit, end-to-end proof, and memory | ✓ closed | small | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.2](bob-cli-ir.2.md) | Records schema, catalog, renderer, and planner | ✓ closed | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.3](bob-cli-ir.3.md) | bob records list, show, check, and new | ✓ closed | medium | 2026-11-08 | 1 | 1 |
@@ -63,7 +77,7 @@ Fix: push a blank line whenever the last body line is non-blank, regardless of i
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-ir: Record Notes — capture and manage custom-typed notes [in_progress]"]
+    n0["bob-cli-ir: Record Notes — capture and manage custom-typed notes [closed]"]
     n1["bob-cli-ir.1: Capture installs new files without ever replacing one [closed]"]
     n2["bob-cli-ir.10: Mac Record Card and guided entry [closed]"]
     n3["bob-cli-ir.10.1: Mac Record Card and guided entry [closed]"]
@@ -172,12 +186,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.1/README.md) | [bob-cli-ir.1](bob-cli-ir.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.md) | [bob-cli-ir.10](bob-cli-ir.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.1/README.md) | [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md) | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md) | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 3 |
+| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 3 |
+| [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.13/README.md) | [bob-cli-ir.13](bob-cli-ir.13.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.md) | [bob-cli-ir.2](bob-cli-ir.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.1/README.md) | [bob-cli-ir.2.1.1](bob-cli-ir.2.1.1.md) | 1 |
@@ -203,7 +217,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.land/README.md) | [bob-cli-ir](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.land.md) | [bob-cli-ir](README.md) | 1 |
 
 ## Commits
 
@@ -227,17 +241,27 @@ flowchart TD
 | bob-cli | [`07ff3bf`](https://github.com/bobs-org/bob-cli/commit/07ff3bf01fd4dad8d8ebf287035877bfd43df90b) | feat(capture): add guided record field completion | [bob-cli-ir.6](bob-cli-ir.6.md) | 2026-11-09 02:34:23 EST |
 | bob-cli | [`8cc4a75`](https://github.com/bobs-org/bob-cli/commit/8cc4a754ef194cc89d6e0f5df66c5fc8d3e31378) | feat(records): add shared plan update target resolution over byte-preserving edit | [bob-cli-ir.7.1.1](bob-cli-ir.7.1.1.md) | 2026-11-09 03:16:39 EST |
 | bob-cli | [`5e49fa5`](https://github.com/bobs-org/bob-cli/commit/5e49fa5e5309347f4b9f6854b6dc5d4a67658d7c) | feat(capture): address named Record Card fields in complete | [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) | 2026-11-09 03:38:41 EST |
+| bob-mac-capture | [`bob-mac-capture@1e6fb18`](https://github.com/bobs-org/bob-mac-capture/commit/1e6fb187bb0a2725608255db40b8088a8ac4008f) | feat(mac-capture): decode records and define portable card state | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 2026-11-09 04:06:33 EST |
 | bob-cli | [`1264176`](https://github.com/bobs-org/bob-cli/commit/126417682efc6774a8257e6abef6c638d6e24fb7) | feat(capture): parse existing record updates | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 2026-11-09 04:19:04 EST |
 | bob-cli | [`9619605`](https://github.com/bobs-org/bob-cli/commit/9619605252da7e0a67c9172a12bd745c0561cbd1) | feat(capture): write existing record updates transactionally | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 2026-11-09 05:03:01 EST |
+| bob-mac-capture | [`bob-mac-capture@7933c7e`](https://github.com/bobs-org/bob-mac-capture/commit/7933c7e01f291d688e8d7aad8b4c1f3713a2229e) | feat(capture): complete record card keyboard flow | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 2026-11-09 05:12:40 EST |
 | bob-cli | [`1c4939b`](https://github.com/bobs-org/bob-cli/commit/1c4939b9135043ed99019ce5886799487e0b202c) | feat(records)!: add records update CLI with shell completion | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 2026-11-09 05:45:03 EST |
 | bob-cli | [`a729a8f`](https://github.com/bobs-org/bob-cli/commit/a729a8fdc448d047413d67330cd683f1cc176b59) | feat(capture): add update-aware record assistance | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 2026-11-09 05:50:38 EST |
+| bob-mac-capture | [`bob-mac-capture@8c13ac4`](https://github.com/bobs-org/bob-mac-capture/commit/8c13ac44c1e318be27b60c3b9007f9cc904fbe54) | feat(capture): render the Record Card in the picker slot | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2026-11-09 06:06:23 EST |
+| bob-mac-capture | [`bob-mac-capture@4bca5da`](https://github.com/bobs-org/bob-mac-capture/commit/4bca5da078afd182d3bf38b5eac1219db338008d) | fix(capture): distinguish set-value tints from the record route chip | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2026-11-09 06:40:45 EST |
 | bob-cli | [`941ee72`](https://github.com/bobs-org/bob-cli/commit/941ee724de7c4767e02623585ad62a0893ca98d2) | feat(capture): land existing-record update fixes | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:07:20 EST |
 | bob-cli--plans | [`bob-cli--plans@2c460ed`](https://github.com/bobs-org/bob-cli--plans/commit/2c460ed80578757da28538e6fab158886d7d3e74) | docs(plans): mark record append landing done | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:08:07 EST |
 | bob-cli | [`44427b3`](https://github.com/bobs-org/bob-cli/commit/44427b30fab9705a7f0569d8588a1d9767d57d34) | feat(capture)!: show similar records in capture-related | [bob-cli-ir.8](bob-cli-ir.8.md) | 2026-11-09 07:47:09 EST |
 | bob-cli | [`262f3cf`](https://github.com/bobs-org/bob-cli/commit/262f3cfcbf594449a247bb5925e10ba7ca89fb34) | feat(records): add records init CLI to scaffold type notes and Bases | [bob-cli-ir.9](bob-cli-ir.9.md) | 2026-11-09 08:25:16 EST |
+| bob-mac-capture | [`bob-mac-capture@c09e2bc`](https://github.com/bobs-org/bob-mac-capture/commit/c09e2bcd6538e90c56030374900550a1d6053817) | fix(capture): agree Record Card completion with keyboard acceptance | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 08:28:34 EST |
+| bob-mac-capture | [`bob-mac-capture@eded3b9`](https://github.com/bobs-org/bob-mac-capture/commit/eded3b9ca680244939ec9c69a71dac7484e4b683) | fix(capture): keep Record Return through last-field analysis | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:10:10 EST |
 | bob-cli--plans | [`bob-cli--plans@9b8ff3a`](https://github.com/bobs-org/bob-cli--plans/commit/9b8ff3a160676ea8b2ecad76bca8316fc064ae96) | docs(plans): mark mac\_record\_card epic plan done | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:40:12 EST |
 | bob-cli | [`84ff0bb`](https://github.com/bobs-org/bob-cli/commit/84ff0bb8ed9dd12bfc9dc5741319b30ccf26a93a) | feat(capture): add per-item record\_note summary to record JSON output | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:38:45 EST |
+| bob-mac-capture | [`bob-mac-capture@fe9ce15`](https://github.com/bobs-org/bob-mac-capture/commit/fe9ce1533d87fb6179adf4b49327869af2850165) | feat(capture): add record preview presentation, SwiftUI views, and fixtures | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:39:24 EST |
+| bob-mac-capture | [`bob-mac-capture@2f1d6dd`](https://github.com/bobs-org/bob-mac-capture/commit/2f1d6dd8b32771ee8f24550947fa831c8bfed04d) | test(capture): settle record preview panel tests on CI | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 12:47:23 EST |
+| bob-mac-capture | [`bob-mac-capture@a5152aa`](https://github.com/bobs-org/bob-mac-capture/commit/a5152aa516fce9644c77624022f78973f8f9517b) | feat(mac-capture): show record updates, existing-record rows, and Similar records | [bob-cli-ir.12](bob-cli-ir.12.md) | 2026-11-09 13:13:48 EST |
 | bob-cli | [`4321fd7`](https://github.com/bobs-org/bob-cli/commit/4321fd707f4e5da53d33bf483a3411e2ef5615d2) | docs(records): trim JSON reference under budget | [bob-cli-ir.13](bob-cli-ir.13.md) | 2026-11-09 13:28:08 EST |
+| bob-cli | [`d7b339d`](https://github.com/bobs-org/bob-cli/commit/d7b339d0c0f76fb35dc907d065bc684ea6738f26) | fix(records): insert a blank line before a new named update section | [bob-cli-ir](README.md) | 2026-11-09 14:43:59 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -248,21 +272,23 @@ flowchart TD
 | read-by | [agent:1ac][1] | Check whether the capture-related help snapshot break belongs to the Record Notes epic | 1 |
 | read-by | [agent:bob-cli-ir.10.1.land--2][2] | Confirm containing epic remains open for waiting land agent | 1 |
 | read-by | [agent:bob-cli-ir.2.1.3][3] | Need top epic decisions | 1 |
-| read-by | [agent:d5][4] | Check whether the discovered-issue note was recorded before retrying | 2 |
-| read-by | [agent:research.3t.cdx][5] | Understand record notes scope, existing design, and intended workflows for independent cdx research | 1 |
-| read-by | [agent:research.3t.cld][6] | Research context: user asked about record notes epic to evaluate its potential | 1 |
-| read-by | [agent:research.3t.final][7] | Ground consolidated record-notes research in the epic's scope and status | 1 |
-| read-by | [agent:research.3t.grk][8] | Need the Record Notes epic bead description, decisions, and notes as primary context | 2 |
-| read-by | [agent:research.3t.mus][9] | research record notes unlock potential | 1 |
+| read-by | [agent:bob-cli-j6.land--1][4] | Record the .addTo compile-fix disposition after the approved landing | 1 |
+| read-by | [agent:d5][5] | Check whether the discovered-issue note was recorded before retrying | 2 |
+| read-by | [agent:research.3t.cdx][6] | Understand record notes scope, existing design, and intended workflows for independent cdx research | 1 |
+| read-by | [agent:research.3t.cld][7] | Research context: user asked about record notes epic to evaluate its potential | 1 |
+| read-by | [agent:research.3t.final][8] | Ground consolidated record-notes research in the epic's scope and status | 1 |
+| read-by | [agent:research.3t.grk][9] | Need the Record Notes epic bead description, decisions, and notes as primary context | 2 |
+| read-by | [agent:research.3t.mus][10] | research record notes unlock potential | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ac.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cdx/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cld/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.final/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.grk/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j6.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cdx/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cld/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.final/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.grk/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
 
 <!-- sase:referenced-by:end -->
