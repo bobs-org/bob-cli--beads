@@ -25,10 +25,16 @@ update-writes: stage record updates from the capture batch overlay through the e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`9619605`](https://github.com/bobs-org/bob-cli/commit/9619605252da7e0a67c9172a12bd745c0561cbd1) | feat(capture): write existing record updates transactionally | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 2026-11-09 05:03:01 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.7.1.3][1] | Need remaining bead fields: notes, design, decisions, and prior work | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md
+
+<!-- sase:referenced-by:end -->

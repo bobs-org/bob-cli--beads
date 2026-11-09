@@ -57,7 +57,7 @@ flowchart TD
     n3["bob-cli-ir.10.1: Mac Record Card and guided entry [in_progress]"]
     n4["bob-cli-ir.10.1.1: Address Record Card fields through Bob completion [closed]"]
     n5["bob-cli-ir.10.1.2: Decode records and define portable card state [closed]"]
-    n6["bob-cli-ir.10.1.3: Connect record completion and keyboard entry [in_progress]"]
+    n6["bob-cli-ir.10.1.3: Connect record completion and keyboard entry [closed]"]
     n7["bob-cli-ir.10.1.4: Render the Record Card and semantic editor styling [in_progress]"]
     n8["bob-cli-ir.11: Mac new-note preview and success line [in_progress]"]
     n9["bob-cli-ir.12: Mac updates, existing-record rows, and Similar records [in_progress]"]
@@ -160,8 +160,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.1/README.md) | [bob-cli-ir.1](bob-cli-ir.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.md) | [bob-cli-ir.10](bob-cli-ir.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.1/README.md) | [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md) | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md) | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.4/README.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.land/README.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.11/README.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 0 |
@@ -184,8 +184,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.6.md) | [bob-cli-ir.6](bob-cli-ir.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.1/README.md) | [bob-cli-ir.7.1.1](bob-cli-ir.7.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.2/README.md) | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.2/README.md) | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md) | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.land/README.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 0 |
@@ -215,8 +215,8 @@ flowchart TD
 | bob-cli | [`07ff3bf`](https://github.com/bobs-org/bob-cli/commit/07ff3bf01fd4dad8d8ebf287035877bfd43df90b) | feat(capture): add guided record field completion | [bob-cli-ir.6](bob-cli-ir.6.md) | 2026-11-09 02:34:23 EST |
 | bob-cli | [`8cc4a75`](https://github.com/bobs-org/bob-cli/commit/8cc4a754ef194cc89d6e0f5df66c5fc8d3e31378) | feat(records): add shared plan update target resolution over byte-preserving edit | [bob-cli-ir.7.1.1](bob-cli-ir.7.1.1.md) | 2026-11-09 03:16:39 EST |
 | bob-cli | [`5e49fa5`](https://github.com/bobs-org/bob-cli/commit/5e49fa5e5309347f4b9f6854b6dc5d4a67658d7c) | feat(capture): address named Record Card fields in complete | [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) | 2026-11-09 03:38:41 EST |
-| bob-cli | [`1264176`](https://github.com/bobs-org/bob-cli/commit/126417682efc6774a8257e6abef6c638d6e24fb7) | feat(capture): parse existing record updates | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 2026-11-09 04:19:04 EST |
-| bob-cli | [`9619605`](https://github.com/bobs-org/bob-cli/commit/9619605252da7e0a67c9172a12bd745c0561cbd1) | feat(capture): write existing record updates transactionally | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 2026-11-09 05:03:01 EST |
+| bob-mac-capture | [`bob-mac-capture@1e6fb18`](https://github.com/bobs-org/bob-mac-capture/commit/1e6fb187bb0a2725608255db40b8088a8ac4008f) | feat(mac-capture): decode records and define portable card state | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 2026-11-09 04:06:33 EST |
+| bob-mac-capture | [`bob-mac-capture@7933c7e`](https://github.com/bobs-org/bob-mac-capture/commit/7933c7e01f291d688e8d7aad8b4c1f3713a2229e) | feat(capture): complete record card keyboard flow | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 2026-11-09 05:12:40 EST |
 
 <!-- sase:referenced-by:start -->
 

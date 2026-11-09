@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-ir.10.1](bob-cli-ir.10.1.md) / bob-cli-ir.10.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-ir.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.md) · **Assignee:** `bob-cli-ir.10.1.3` · **Size:** medium
-**Created:** 2026-11-09 02:49:44 EST
+**Created:** 2026-11-09 02:49:44 EST · **Closed:** 2026-11-09 05:11:24 EST
 **Plan:** [202611/mac\_record\_card.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_record_card.md)
 
 ## Description
 
 guided-interaction: integrate record state, Bob-authored completion edits and continuations into the Mac panel, with Tab/Shift-Tab, record-aware Return, layered Escape, undo, item-scoped focus, and stale-response protection. Test the panel and key router and document the keyboard behavior.
+
+## Notes
+
+[2026-11-09T10:11:24Z · bob-cli-ir.10.1.3] Implemented record-card keyboard flow, Bob-backed field requests and undoable edits, stale-response protection, whole-draft Return blocking, docs, and tests. Verified just portable-check (2301 passed, 1 skipped), just docs-check (447 passed, 1 skipped), Swift frontend parsing, and git diff --check. Mac host was unreachable, so macOS app-target compilation remains unverified.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ guided-interaction: integrate record state, Bob-authored completion edits and co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@7933c7e`](https://github.com/bobs-org/bob-mac-capture/commit/7933c7e01f291d688e8d7aad8b4c1f3713a2229e) | feat(capture): complete record card keyboard flow | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 2026-11-09 05:12:40 EST |

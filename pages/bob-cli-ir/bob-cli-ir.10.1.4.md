@@ -17,7 +17,7 @@ card-surface: render the Record Card in the picker slot with persistent labels, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
