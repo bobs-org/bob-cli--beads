@@ -39,13 +39,14 @@ Complete bob-cli-ir.10 with a thin-client Record Card, undoable guided field ent
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@c09e2bc`](https://github.com/bobs-org/bob-mac-capture/commit/c09e2bcd6538e90c56030374900550a1d6053817) | fix(capture): agree Record Card completion with keyboard acceptance | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 08:28:34 EST |
+| bob-mac-capture | [`bob-mac-capture@eded3b9`](https://github.com/bobs-org/bob-mac-capture/commit/eded3b9ca680244939ec9c69a71dac7484e4b683) | fix(capture): keep Record Return through last-field analysis | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:10:10 EST |
 
 <!-- sase:referenced-by:start -->
 

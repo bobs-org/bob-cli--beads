@@ -29,6 +29,8 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 
 [2026-11-08T16:27:23Z · bryanbugyi34@gmail.com] The epic lander agent should add an excellent new glossary term for 'record note' before landing.
 
+[2026-11-09T13:59:48Z · bob-cli-ix.land] DISCOVERED ISSUE: Proposed by bob-cli-ix.3 note #1 and independently source-verified by bob-cli-ix.land on 7fe12b33: 44427b30 (bob-cli-ir.8) changed src/runner.rs capture-related about to List existing tasks and record notes a new capture may duplicate, but tests/fixtures/help/root-long.txt still says List existing tasks that a new capture may duplicate. Phase ix.3 reported help::root_help_matches_sectioned_short_and_long_snapshots failing. 262f3cfc refreshed only the records row, leaving this mismatch. Repair the capture-related root-long fixture within the causally owning Record Notes epic; no duplicate task was found by same-type/all-type searches or the one-week sweep. This lander did not rerun the Rust suite.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -163,7 +165,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md) | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.11/README.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.13/README.md) | [bob-cli-ir.13](bob-cli-ir.13.md) | 0 |
@@ -226,6 +228,7 @@ flowchart TD
 | bob-cli | [`941ee72`](https://github.com/bobs-org/bob-cli/commit/941ee724de7c4767e02623585ad62a0893ca98d2) | feat(capture): land existing-record update fixes | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:07:20 EST |
 | bob-cli--plans | [`bob-cli--plans@2c460ed`](https://github.com/bobs-org/bob-cli--plans/commit/2c460ed80578757da28538e6fab158886d7d3e74) | docs(plans): mark record append landing done | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:08:07 EST |
 | bob-mac-capture | [`bob-mac-capture@c09e2bc`](https://github.com/bobs-org/bob-mac-capture/commit/c09e2bcd6538e90c56030374900550a1d6053817) | fix(capture): agree Record Card completion with keyboard acceptance | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 08:28:34 EST |
+| bob-mac-capture | [`bob-mac-capture@eded3b9`](https://github.com/bobs-org/bob-mac-capture/commit/eded3b9ca680244939ec9c69a71dac7484e4b683) | fix(capture): keep Record Return through last-field analysis | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:10:10 EST |
 
 <!-- sase:referenced-by:start -->
 

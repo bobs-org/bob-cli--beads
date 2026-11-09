@@ -30,3 +30,15 @@ records-media-types: add bob records init to scaffold a type's folder, type note
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.9--2][1] | Need the phase scope, notes, and whether work already landed after just check passed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md
+
+<!-- sase:referenced-by:end -->
