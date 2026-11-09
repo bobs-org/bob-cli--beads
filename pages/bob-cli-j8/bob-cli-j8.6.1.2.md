@@ -18,13 +18,19 @@ notebook-ui-catalog: use the shared notebook report to style and decorate genera
 ## Dependencies
 
 - **Depends on:** [bob-cli-j8.6.1.1](bob-cli-j8.6.1.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j8.6.1.3](bob-cli-j8.6.1.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.6.1.3](bob-cli-j8.6.1.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.2/README.md) | [bob-cli-j8.6.1.2](bob-cli-j8.6.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.2/README.md) | [bob-cli-j8.6.1.2](bob-cli-j8.6.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@56b3604`](https://github.com/bobs-org/bob-plugins/commit/56b36047d004aec0fa3b7649c86ef9683ee475b1) | feat(ledger-tools): paint live notebook catalog chips in Reading and Live Preview | [bob-cli-j8.6.1.2](bob-cli-j8.6.1.2.md) | 2026-11-09 18:22:03 EST |
 
 <!-- sase:referenced-by:start -->
 
