@@ -43,3 +43,15 @@ glossary:capture already includes 'project note, or record note (a note of a con
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e081e72`](https://github.com/bobs-org/bob-cli/commit/e081e729c5d30152df19e2a9173d067be6dacd8d) | docs(capture): publish the record note capture contract | [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) | 2026-11-08 22:59:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.5.1.4--2][1] | Need the phase scope, notes, and design after failed host completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.1.4.md
+
+<!-- sase:referenced-by:end -->

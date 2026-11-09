@@ -18,7 +18,7 @@ no-replace-install: install every newly created capture file with a hard-link no
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.3](bob-cli-ir.3.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.5](bob-cli-ir.5.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.5](bob-cli-ir.5.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

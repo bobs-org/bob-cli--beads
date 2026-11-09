@@ -15,7 +15,7 @@ mac-record-preview: render dry-run note_files as a property sheet plus body with
 
 - **Depends on:** [bob-cli-ir.10](bob-cli-ir.10.md) ◐ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.12](bob-cli-ir.12.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.5](bob-cli-ir.5.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.5](bob-cli-ir.5.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

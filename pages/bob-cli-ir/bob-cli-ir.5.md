@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-ir](README.md) / bob-cli-ir.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1a0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1a0.md) · **Assignee:** `bob-cli-ir.5` · **Size:** large
-**Created:** 2026-11-08 11:06:12 EST
+**Created:** 2026-11-08 11:06:12 EST · **Closed:** 2026-11-09 00:28:33 EST
 **Plan:** [202611/record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md)
 
 ## Description
 
 capture-records: teach capture the @dir/ and @dir/^stem record items with key:: field bullets and dated note bullets, the parse record object, dry-run note_files, refusals, the @eat near-miss warning, and capture-targets record rows.
+
+## Notes
+
+[2026-11-09T05:29:12Z · bob-cli-ir.5.1.land] Parent phase completion evidence: bob-cli-ir.5.1 completed the full capture-records landing against e081e729 with no relevant drift, preserving schema 1 and grammar 20. Record grammar and editor parse now share claiming, field opacity, expanded template metadata, mapped ranges, and one invocation-scoped schema/catalog; capture writes typed preview and committed note_files through the existing no-replace transaction, with early task-only modifier refusal and record target discovery intact. Public capture/JSON docs were updated. just check passed: 5,878 library tests and 3,323 CLI tests passed with all other workspace targets; just docs-check passed with 447 passed/1 skipped; git diff --check is clean. bob-cli-ir.5 epic-symbols is empty and no symvision recipe exists. The child epic's normal close auto-closed this now-complete parent as delegated work landed; this note records the parent phase evidence. bob-cli-ir remains open for its own land agent.
 
 ## Dependencies
 

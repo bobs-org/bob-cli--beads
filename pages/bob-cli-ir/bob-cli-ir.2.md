@@ -22,7 +22,7 @@ records-engine: add the records config block and its validation, the per-folder 
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.3](bob-cli-ir.3.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.5](bob-cli-ir.5.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.5](bob-cli-ir.5.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

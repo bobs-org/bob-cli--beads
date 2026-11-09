@@ -41,7 +41,7 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 | [bob-cli-ir.2](bob-cli-ir.2.md) | Records schema, catalog, renderer, and planner | ✓ closed | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.3](bob-cli-ir.3.md) | bob records list, show, check, and new | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.4](bob-cli-ir.4.md) | Restaurant and podcast schemas go live in config and the vault | ✓ closed | small | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.5](bob-cli-ir.5.md) | Capture grammar for new records | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
+| [bob-cli-ir.5](bob-cli-ir.5.md) | Capture grammar for new records | ✓ closed | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.6](bob-cli-ir.6.md) | Guided field entry in capture-complete | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.7](bob-cli-ir.7.md) | Add to an existing record with @dir/stem | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.8](bob-cli-ir.8.md) | Similar records in capture-related | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
@@ -65,8 +65,8 @@ flowchart TD
     n11["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [closed]"]
     n12["bob-cli-ir.3: bob records list, show, check, and new [closed]"]
     n13["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [closed]"]
-    n14["bob-cli-ir.5: Capture grammar for new records [in_progress]"]
-    n15["bob-cli-ir.5.1: Capture creates record notes [in_progress]"]
+    n14["bob-cli-ir.5: Capture grammar for new records [closed]"]
+    n15["bob-cli-ir.5.1: Capture creates record notes [closed]"]
     n16["bob-cli-ir.5.1.1: Recognize record items before task marker parsing [closed]"]
     n17["bob-cli-ir.5.1.2: Resolve record metadata and expose discovery rows [closed]"]
     n18["bob-cli-ir.5.1.3: Create records through the capture transaction [closed]"]
@@ -146,7 +146,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.2/README.md) | [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md) | [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.1.4.md) | [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.land/README.md) | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.1.land.md) | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.6/README.md) | [bob-cli-ir.6](bob-cli-ir.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7/README.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 0 |
@@ -170,6 +170,7 @@ flowchart TD
 | bob-cli | [`4c97ed4`](https://github.com/bobs-org/bob-cli/commit/4c97ed416f3cc8fa066353a34d52d7757b845009) | feat(capture): resolve record metadata and expose targets | [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) | 2026-11-08 20:52:30 EST |
 | bob-cli | [`f2561f9`](https://github.com/bobs-org/bob-cli/commit/f2561f962f5f91392d9721e094ac71f31e6832b3) | feat(capture): create record notes through the capture transaction | [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) | 2026-11-08 21:49:05 EST |
 | bob-cli | [`e081e72`](https://github.com/bobs-org/bob-cli/commit/e081e729c5d30152df19e2a9173d067be6dacd8d) | docs(capture): publish the record note capture contract | [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) | 2026-11-08 22:59:07 EST |
+| bob-cli | [`80c9320`](https://github.com/bobs-org/bob-cli/commit/80c93209aa6857a178beba3ba293755198300848) | fix(capture)!: complete record claiming and preview contracts | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 2026-11-09 00:30:51 EST |
 
 <!-- sase:referenced-by:start -->
 

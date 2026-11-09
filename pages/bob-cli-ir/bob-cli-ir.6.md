@@ -14,7 +14,7 @@ capture-record-assist: add the record_field and record_value completion contexts
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.10](bob-cli-ir.10.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.5](bob-cli-ir.5.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.5](bob-cli-ir.5.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.7](bob-cli-ir.7.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
