@@ -42,7 +42,7 @@ Labelling a Gmail thread `bob` (plus an optional `#/<note>` or `+/<note>` routin
 | [bob-cli-ii.5](bob-cli-ii.5.md) | Route repair, alert-once problems, staleness, and doctor sync | ✓ closed | medium | 2026-11-07 | 1 | 1 |
 | [bob-cli-ii.6](bob-cli-ii.6.md) | The hollow paper-plane awaiting block mark | ✓ closed | medium | 2026-11-07 | 1 | 1 |
 | [bob-cli-ii.7](bob-cli-ii.7.md) | Reply badge, no-reply pill, and the daily-note Gmail sync | ✓ closed | medium | 2026-11-07 | 1 | 1 |
-| [bob-cli-ii.8](bob-cli-ii.8.md) | Chezmoi gmail config and the bob-gmail-sync cron job | ✓ closed | small | 2026-11-07 | 1 | 1 |
+| [bob-cli-ii.8](bob-cli-ii.8.md) | Chezmoi gmail config and the bob-gmail-sync cron job | ✓ closed | small | 2026-11-07 | 1 | 2 |
 
 ## Lineage
 
@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ii.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.5.md) | [bob-cli-ii.5](bob-cli-ii.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.6/README.md) | [bob-cli-ii.6](bob-cli-ii.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ii.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.7/README.md) | [bob-cli-ii.7](bob-cli-ii.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-ii.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.8.md) | [bob-cli-ii.8](bob-cli-ii.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-ii.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.8.md) | [bob-cli-ii.8](bob-cli-ii.8.md) | 2 |
 | [bbugyi200.athena.bob-cli-ii.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.land/README.md) | [bob-cli-ii](README.md) | 0 |
 
 ## Commits
@@ -161,6 +161,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@695d4da`](https://github.com/bobs-org/bob-cli--plans/commit/695d4da9bb803f7a833825100432e5a4d9b1f5ae) | docs(plans): mark Gmail reply watch plan complete | [bob-cli-ii.4.1](bob-cli-ii.4.1.md) | 2026-11-08 17:44:23 EST |
 | bob-cli | [`8427bd9`](https://github.com/bobs-org/bob-cli/commit/8427bd96dbab8470c2e4228d8f199265b690ab50) | feat(gmail): refile resolved inbox routes and alarm stale skips | [bob-cli-ii.5](bob-cli-ii.5.md) | 2026-11-08 18:47:14 EST |
 | bob-cli | [`ad2298d`](https://github.com/bobs-org/bob-cli/commit/ad2298d44d9810beb721db6085a1a92dfa361795) | docs(vault-sync): document mac bob-gmail-sync maintenance slot | [bob-cli-ii.8](bob-cli-ii.8.md) | 2026-11-08 18:59:07 EST |
+| chezmoi | [`chezmoi@d227de1`](https://github.com/bbugyi200/dotfiles/commit/d227de13589dfeb6696846dd9541917cfff6f49e) | feat(gmail): add disabled mac bob-gmail-sync cron slot and config | [bob-cli-ii.8](bob-cli-ii.8.md) | 2026-11-08 18:59:39 EST |
 
 <!-- sase:referenced-by:start -->
 

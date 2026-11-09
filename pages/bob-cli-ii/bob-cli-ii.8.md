@@ -26,10 +26,11 @@ cron: add Bryan's gmail block (route prefixes # and +, three reply-wait days) to
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ii.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.8.md) | [bob-cli-ii.8](bob-cli-ii.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-ii.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.8.md) | [bob-cli-ii.8](bob-cli-ii.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ad2298d`](https://github.com/bobs-org/bob-cli/commit/ad2298d44d9810beb721db6085a1a92dfa361795) | docs(vault-sync): document mac bob-gmail-sync maintenance slot | [bob-cli-ii.8](bob-cli-ii.8.md) | 2026-11-08 18:59:07 EST |
+| chezmoi | [`chezmoi@d227de1`](https://github.com/bbugyi200/dotfiles/commit/d227de13589dfeb6696846dd9541917cfff6f49e) | feat(gmail): add disabled mac bob-gmail-sync cron slot and config | [bob-cli-ii.8](bob-cli-ii.8.md) | 2026-11-08 18:59:39 EST |
