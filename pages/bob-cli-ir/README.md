@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md
 
@@ -217,7 +217,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.land.md) | [bob-cli-ir](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.land.md) | [bob-cli-ir](README.md) | 2 |
 
 ## Commits
 
@@ -262,6 +262,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@a5152aa`](https://github.com/bobs-org/bob-mac-capture/commit/a5152aa516fce9644c77624022f78973f8f9517b) | feat(mac-capture): show record updates, existing-record rows, and Similar records | [bob-cli-ir.12](bob-cli-ir.12.md) | 2026-11-09 13:13:48 EST |
 | bob-cli | [`4321fd7`](https://github.com/bobs-org/bob-cli/commit/4321fd707f4e5da53d33bf483a3411e2ef5615d2) | docs(records): trim JSON reference under budget | [bob-cli-ir.13](bob-cli-ir.13.md) | 2026-11-09 13:28:08 EST |
 | bob-cli | [`d7b339d`](https://github.com/bobs-org/bob-cli/commit/d7b339d0c0f76fb35dc907d065bc684ea6738f26) | fix(records): insert a blank line before a new named update section | [bob-cli-ir](README.md) | 2026-11-09 14:43:59 EST |
+| bob-mac-capture | [`bob-mac-capture@5987de4`](https://github.com/bobs-org/bob-mac-capture/commit/5987de454a1c6846c7ec37559b2284b47da5003f) | docs: trim protocol and capture-previews under the 6000-word cap | [bob-cli-ir](README.md) | 2026-11-09 14:44:46 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -270,25 +271,27 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1ac][1] | Check whether the capture-related help snapshot break belongs to the Record Notes epic | 1 |
-| read-by | [agent:bob-cli-ir.10.1.land--2][2] | Confirm containing epic remains open for waiting land agent | 1 |
-| read-by | [agent:bob-cli-ir.2.1.3][3] | Need top epic decisions | 1 |
-| read-by | [agent:bob-cli-j6.land--1][4] | Record the .addTo compile-fix disposition after the approved landing | 1 |
-| read-by | [agent:d5][5] | Check whether the discovered-issue note was recorded before retrying | 2 |
-| read-by | [agent:research.3t.cdx][6] | Understand record notes scope, existing design, and intended workflows for independent cdx research | 1 |
-| read-by | [agent:research.3t.cld][7] | Research context: user asked about record notes epic to evaluate its potential | 1 |
-| read-by | [agent:research.3t.final][8] | Ground consolidated record-notes research in the epic's scope and status | 1 |
-| read-by | [agent:research.3t.grk][9] | Need the Record Notes epic bead description, decisions, and notes as primary context | 2 |
-| read-by | [agent:research.3t.mus][10] | research record notes unlock potential | 1 |
+| read-by | [agent:1al--code][2] | Implement mac_add_to_build_fix plan: check newer notes on ownership | 1 |
+| read-by | [agent:bob-cli-ir.10.1.land--2][3] | Confirm containing epic remains open for waiting land agent | 1 |
+| read-by | [agent:bob-cli-ir.2.1.3][4] | Need top epic decisions | 1 |
+| read-by | [agent:bob-cli-j6.land--1][5] | Record the .addTo compile-fix disposition after the approved landing | 1 |
+| read-by | [agent:d5][6] | Check whether the discovered-issue note was recorded before retrying | 2 |
+| read-by | [agent:research.3t.cdx][7] | Understand record notes scope, existing design, and intended workflows for independent cdx research | 1 |
+| read-by | [agent:research.3t.cld][8] | Research context: user asked about record notes epic to evaluate its potential | 1 |
+| read-by | [agent:research.3t.final][9] | Ground consolidated record-notes research in the epic's scope and status | 1 |
+| read-by | [agent:research.3t.grk][10] | Need the Record Notes epic bead description, decisions, and notes as primary context | 2 |
+| read-by | [agent:research.3t.mus][11] | research record notes unlock potential | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ac.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j6.land.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cdx/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cld/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.final/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.grk/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1al.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j6.land.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cdx/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cld/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.final/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.grk/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
 
 <!-- sase:referenced-by:end -->
