@@ -17,7 +17,7 @@ update-planner: add exact existing-record resolution and shared update planning 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

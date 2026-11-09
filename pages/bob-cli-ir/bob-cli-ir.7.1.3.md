@@ -13,7 +13,7 @@ update-writes: stage record updates from the capture batch overlay through the e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) ◐ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) ◐ · ⧖ 2026-11-09
 

@@ -7,6 +7,20 @@
 **Created:** 2026-11-09 02:47:01 EST
 **Plan:** [202611/record\_append.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_append.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/record_append.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_append.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-ir.7 so capture and bob records update edit existing records without changing unrelated bytes, with accurate previews and guided input.

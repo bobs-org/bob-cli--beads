@@ -17,7 +17,7 @@ field-addressing: add the bounded bob-cli completion support needed for named Re
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -30,3 +30,15 @@ field-addressing: add the bounded bob-cli completion support needed for named Re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5e49fa5`](https://github.com/bobs-org/bob-cli/commit/5e49fa5e5309347f4b9f6854b6dc5d4a67658d7c) | feat(capture): address named Record Card fields in complete | [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) | 2026-11-09 03:38:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.10.1.1][1] | Need the phase scope and design file before finishing remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.1/README.md
+
+<!-- sase:referenced-by:end -->
