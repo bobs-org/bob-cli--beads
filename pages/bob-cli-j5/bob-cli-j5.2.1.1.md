@@ -19,7 +19,7 @@ guarded-create: extend task_status_hooks_write to create previously missing file
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j5.2.1.2](bob-cli-j5.2.1.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.2.1.2](bob-cli-j5.2.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -32,3 +32,15 @@ guarded-create: extend task_status_hooks_write to create previously missing file
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2b5b832`](https://github.com/bobs-org/bob-cli/commit/2b5b8328777bece6483df518bada4f0b9143ff01) | feat(archive): create missing files in the guarded write engine | [bob-cli-j5.2.1.1](bob-cli-j5.2.1.1.md) | 2026-11-09 13:11:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j5.2.1.1--1][1] | Need the phase scope, design file, notes, and DECISIONS after host-completion recovery | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.1.md
+
+<!-- sase:referenced-by:end -->

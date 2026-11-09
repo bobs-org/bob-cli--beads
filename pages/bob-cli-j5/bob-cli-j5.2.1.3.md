@@ -13,7 +13,7 @@ archive-command: integrate bounded guarded retries with standalone and nightly e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j5.2.1.2](bob-cli-j5.2.1.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j5.2.1.2](bob-cli-j5.2.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
