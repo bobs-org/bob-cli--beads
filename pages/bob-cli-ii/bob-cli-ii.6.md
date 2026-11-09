@@ -25,13 +25,14 @@ mark: specify and ship the awaiting blocked-reason mark (hollow paper plane, wai
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ii.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.6/README.md) | [bob-cli-ii.6](bob-cli-ii.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-ii.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.6/README.md) | [bob-cli-ii.6](bob-cli-ii.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`539b71d`](https://github.com/bobs-org/bob-cli/commit/539b71dce39ac19e958f028c833e8f4ccdb5b481) | docs(blocked-marks): specify the hollow paper-plane awaiting mark | [bob-cli-ii.6](bob-cli-ii.6.md) | 2026-11-07 17:54:32 EST |
+| bob-plugins | [`bob-plugins@9dd2888`](https://github.com/bobs-org/bob-plugins/commit/9dd2888e9d96343e036ad121bd68f9b082406bf2) | feat(ledger-tools): draw the hollow paper-plane awaiting block mark | [bob-cli-ii.6](bob-cli-ii.6.md) | 2026-11-07 17:54:55 EST |
 
 <!-- sase:referenced-by:start -->
 
