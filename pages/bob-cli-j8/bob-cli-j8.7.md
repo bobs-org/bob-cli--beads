@@ -37,7 +37,9 @@ plugins-notebook-gestures: make the block-ID prompt suggest IDs for plain note b
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j8.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-j9.4][2] | Need to identify existing follow-up coverage for json-outputs and mounted Mac documentation budget failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.4/README.md
 
 <!-- sase:referenced-by:end -->
