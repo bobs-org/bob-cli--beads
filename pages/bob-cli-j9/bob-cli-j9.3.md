@@ -54,7 +54,9 @@ Verified:
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j9.3--1][1] | Need the phase scope, notes, and close policy after macos-ci-check failed | 1 |
+| read-by | [agent:bob-cli-j9.4][2] | Need the prior completion-list phase notes and landed scope before extending its tip host | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.4/README.md
 
 <!-- sase:referenced-by:end -->

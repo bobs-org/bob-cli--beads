@@ -37,3 +37,15 @@ mac-picker-tips: widen the trigger to ^ : + ~ & *, admit tips in the picker's fi
 |---|---|---|---|---|
 | bob-cli | [`d790681`](https://github.com/bobs-org/bob-cli/commit/d79068138e4336d6345475adafb4d880e47977d3) | docs(memory): clarify capture alias tip host | [bob-cli-j9.4](bob-cli-j9.4.md) | 2026-11-09 16:13:31 EST |
 | bob-mac-capture | [`bob-mac-capture@e5833d6`](https://github.com/bobs-org/bob-mac-capture/commit/e5833d6b813ade33d8db0f73eef567c83d45fde5) | feat(capture): show alias tips in pickers | [bob-cli-j9.4](bob-cli-j9.4.md) | 2026-11-09 16:13:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j9.4][1] | Need the phase scope, prior notes, DECISIONS, and design file before implementing this assigned bead | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.4/README.md
+
+<!-- sase:referenced-by:end -->
