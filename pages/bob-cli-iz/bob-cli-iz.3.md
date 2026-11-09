@@ -13,7 +13,7 @@ skip_reasons: bob-cli. One shared skip vocabulary for sync and list; sync lists 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-iz.1](bob-cli-iz.1.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-iz.1](bob-cli-iz.1.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-iz.4](bob-cli-iz.4.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
