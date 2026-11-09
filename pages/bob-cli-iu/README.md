@@ -59,7 +59,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-iu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-iu.1/README.md) | [bob-cli-iu.1](bob-cli-iu.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-iu.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iu.2.md) | [bob-cli-iu.2](bob-cli-iu.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-iu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iu.land.md) | [bob-cli-iu](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-iu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iu.land.md) | [bob-cli-iu](README.md) | 2 |
 
 ## Commits
 
@@ -68,6 +68,7 @@ flowchart TD
 | bob-cli | [`0b8b913`](https://github.com/bobs-org/bob-cli/commit/0b8b913ff65e256ac8f4a4741841386aee9c800f) | feat(capture): alias spaced dot to @ where route completion opens | [bob-cli-iu.1](bob-cli-iu.1.md) | 2026-11-08 17:37:01 EST |
 | bob-mac-capture | [`bob-mac-capture@e7ddfc6`](https://github.com/bobs-org/bob-mac-capture/commit/e7ddfc66a7c150fbca899be44ed0474fcc06769e) | feat(mac-capture): escape dot-route alias with fast .. and restores | [bob-cli-iu.2](bob-cli-iu.2.md) | 2026-11-08 18:03:13 EST |
 | bob-mac-capture | [`bob-mac-capture@e5b5889`](https://github.com/bobs-org/bob-mac-capture/commit/e5b5889b2fa04df6fb9d849c8d3710c39452abcd) | fix(mac-capture): clear interrupted dot-route escape arms | [bob-cli-iu](README.md) | 2026-11-08 19:59:05 EST |
+| bob-cli--plans | [`bob-cli--plans@99d755a`](https://github.com/bobs-org/bob-cli--plans/commit/99d755ab2bbd6f9b97dcc578fd605d8bb4cacb3b) | chore(plans): mark dot-route alias epic and closeout done | [bob-cli-iu](README.md) | 2026-11-08 19:59:27 EST |
 
 <!-- sase:referenced-by:start -->
 
