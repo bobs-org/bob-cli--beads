@@ -18,7 +18,7 @@ guarded-writer: run every archive write under the shared lock through the guarde
 ## Dependencies
 
 - **Depends on:** [bob-cli-j5.1](bob-cli-j5.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.3](bob-cli-j5.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.3](bob-cli-j5.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

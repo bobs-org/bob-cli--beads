@@ -17,7 +17,7 @@
 | related | file:explicit:32c5dd2c69f2b0a7b394a3d8 | attached via sase artifact create --bead |
 | related | file:explicit:822ae2f99cc5cbfc67be94e9 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/guarded_archive_writer.md
 
@@ -39,14 +39,13 @@ Archive writes preserve concurrent edits and recoverable history, detect exact r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-j5.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.land.md) | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-j5.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.land.md) | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2455d9d`](https://github.com/bobs-org/bob-cli/commit/2455d9dbcaaa67936cf9b1eaaa8e842cd409422b) | fix(archive): repair guarded landing validation | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2026-11-09 16:06:02 EST |
-| bob-cli--plans | [`bob-cli--plans@1e8d36a`](https://github.com/bobs-org/bob-cli--plans/commit/1e8d36a191d0f57d0dcceaa3c1b11c77d1d71516) | docs(plan): mark guarded archive writer done | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2026-11-09 16:06:34 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -57,9 +56,11 @@ Archive writes preserve concurrent edits and recoverable history, detect exact r
 | read-by | [agent:bob-cli-j5.2.1.1--1][1] | Need parent epic DECISIONS that this phase must honor | 1 |
 | read-by | [agent:bob-cli-j5.2.1.2][2] | Need parent epic decisions and notes | 1 |
 | read-by | [agent:bob-cli-j5.2.1.3][3] | Need epic decisions and phase notes | 1 |
+| read-by | [agent:bob-cli-j9.4][4] | Need to identify an existing task tracking the repeated json-outputs reference budget failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j9.4/README.md
 
 <!-- sase:referenced-by:end -->
