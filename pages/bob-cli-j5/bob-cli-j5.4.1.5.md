@@ -13,7 +13,7 @@ follow-renames: plan canonical archive creates, metadata and inbound-link repair
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j5.4.1.2](bob-cli-j5.4.1.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j5.4.1.2](bob-cli-j5.4.1.2.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) ◐ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) ◐ · ⧖ 2026-11-09
 

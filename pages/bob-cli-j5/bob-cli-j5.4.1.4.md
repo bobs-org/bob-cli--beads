@@ -13,7 +13,7 @@ archive-health: resolve archive destinations and historical link repair from cap
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) ◐ · ⧖ 2026-11-09
 
 ## Agents

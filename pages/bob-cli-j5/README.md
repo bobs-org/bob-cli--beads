@@ -50,8 +50,8 @@ flowchart TD
     n7["bob-cli-j5.3: Correct archive link repair [closed]"]
     n8["bob-cli-j5.4: One archive pairing resolver, rename-following, and health diagnostics [in_progress]"]
     n9["bob-cli-j5.4.1: Complete archive pairing and guarded rename-following [in_progress]"]
-    n10["bob-cli-j5.4.1.1: Build the shared archive pair index and migrate stats [in_progress]"]
-    n11["bob-cli-j5.4.1.2: Add recoverable removals to the guarded writer [in_progress]"]
+    n10["bob-cli-j5.4.1.1: Build the shared archive pair index and migrate stats [closed]"]
+    n11["bob-cli-j5.4.1.2: Add recoverable removals to the guarded writer [closed]"]
     n12["bob-cli-j5.4.1.3: Migrate the remaining archive readers [in_progress]"]
     n13["bob-cli-j5.4.1.4: Use resolved pairs in archiving and report archive health [in_progress]"]
     n14["bob-cli-j5.4.1.5: Follow source renames in one guarded archive plan [in_progress]"]
@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-j5.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.land.md) | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-j5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.3/README.md) | [bob-cli-j5.3](bob-cli-j5.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.md) | [bob-cli-j5.4](bob-cli-j5.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-j5.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.1/README.md) | [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.1/README.md) | [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.1.2.md) | [bob-cli-j5.4.1.2](bob-cli-j5.4.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.3/README.md) | [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-j5.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.4/README.md) | [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) | 0 |
@@ -131,3 +131,4 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@1e8d36a`](https://github.com/bobs-org/bob-cli--plans/commit/1e8d36a191d0f57d0dcceaa3c1b11c77d1d71516) | docs(plan): mark guarded archive writer done | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2026-11-09 16:06:34 EST |
 | bob-cli | [`a846a23`](https://github.com/bobs-org/bob-cli/commit/a846a23b73a07956bdf2bd4ca0026f8d20ca2d9d) | feat(archive)!: correct archive link repair | [bob-cli-j5.3](bob-cli-j5.3.md) | 2026-11-09 16:32:51 EST |
 | bob-cli | [`b97d8d4`](https://github.com/bobs-org/bob-cli/commit/b97d8d4c3b214d1f73f0627f868a108ff6755a66) | feat(archive): add recoverable removals to the guarded writer | [bob-cli-j5.4.1.2](bob-cli-j5.4.1.2.md) | 2026-11-09 17:29:23 EST |
+| bob-cli | [`0ed552a`](https://github.com/bobs-org/bob-cli/commit/0ed552a5e997c30bb78dd909eea91f957e012024) | feat(archive)!: resolve archive pairs from metadata first | [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) | 2026-11-09 17:58:46 EST |
