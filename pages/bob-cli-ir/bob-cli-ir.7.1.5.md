@@ -13,7 +13,7 @@ update-cli: add bob records update, its command catalog entry, and read-only she
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

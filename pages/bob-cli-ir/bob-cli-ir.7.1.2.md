@@ -18,7 +18,7 @@ update-language: recognize @dir/stem as RecordUpdate in strict and editor parsin
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.7.1.1](bob-cli-ir.7.1.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -31,3 +31,15 @@ update-language: recognize @dir/stem as RecordUpdate in strict and editor parsin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1264176`](https://github.com/bobs-org/bob-cli/commit/126417682efc6774a8257e6abef6c638d6e24fb7) | feat(capture): parse existing record updates | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 2026-11-09 04:19:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.7.1.2][1] | Need the assigned phase scope, earlier notes, epic decisions, and linked design file before continuing work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.2/README.md
+
+<!-- sase:referenced-by:end -->

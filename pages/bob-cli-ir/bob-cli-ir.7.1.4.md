@@ -13,7 +13,7 @@ update-assist: add record_target completion and update-aware field assistance; a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
