@@ -16,3 +16,15 @@ Complete bob-cli-ir.7 so capture and bob records update edit existing records wi
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.land/README.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.7.1.1][1] | Need parent epic DECISIONS and scope | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->

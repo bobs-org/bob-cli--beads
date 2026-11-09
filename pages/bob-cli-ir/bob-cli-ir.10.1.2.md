@@ -13,7 +13,7 @@ card-contract: add tolerant record parse/completion/target models and process-cl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
