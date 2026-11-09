@@ -82,7 +82,7 @@ flowchart TD
     n28["bob-cli-ir.7.1.1: Shared snapshot-based record update planner [closed]"]
     n29["bob-cli-ir.7.1.2: Record update grammar and editor parse [closed]"]
     n30["bob-cli-ir.7.1.3: Transactional capture updates and exact previews [closed]"]
-    n31["bob-cli-ir.7.1.4: Existing-record completion and Add to it fixes [in_progress]"]
+    n31["bob-cli-ir.7.1.4: Existing-record completion and Add to it fixes [closed]"]
     n32["bob-cli-ir.7.1.5: Records update CLI and dependent shell completion [closed]"]
     n33["bob-cli-ir.8: Similar records in capture-related [in_progress]"]
     n34["bob-cli-ir.9: bob records init plus show and movie types [in_progress]"]
@@ -186,7 +186,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.1/README.md) | [bob-cli-ir.7.1.1](bob-cli-ir.7.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.2/README.md) | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md) | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.land/README.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 0 |
@@ -218,6 +218,7 @@ flowchart TD
 | bob-cli | [`1264176`](https://github.com/bobs-org/bob-cli/commit/126417682efc6774a8257e6abef6c638d6e24fb7) | feat(capture): parse existing record updates | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 2026-11-09 04:19:04 EST |
 | bob-cli | [`9619605`](https://github.com/bobs-org/bob-cli/commit/9619605252da7e0a67c9172a12bd745c0561cbd1) | feat(capture): write existing record updates transactionally | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 2026-11-09 05:03:01 EST |
 | bob-cli | [`1c4939b`](https://github.com/bobs-org/bob-cli/commit/1c4939b9135043ed99019ce5886799487e0b202c) | feat(records)!: add records update CLI with shell completion | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 2026-11-09 05:45:03 EST |
+| bob-cli | [`a729a8f`](https://github.com/bobs-org/bob-cli/commit/a729a8fdc448d047413d67330cd683f1cc176b59) | feat(capture): add update-aware record assistance | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 2026-11-09 05:50:38 EST |
 
 <!-- sase:referenced-by:start -->
 

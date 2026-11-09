@@ -38,7 +38,9 @@ update-planner: add exact existing-record resolution and shared update planning 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.7.1.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-ir.7.1.5][2] | Need sibling phase status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md
 
 <!-- sase:referenced-by:end -->

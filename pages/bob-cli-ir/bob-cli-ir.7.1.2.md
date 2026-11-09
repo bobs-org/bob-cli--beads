@@ -40,8 +40,10 @@ update-language: recognize @dir/stem as RecordUpdate in strict and editor parsin
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.7.1.2][1] | Need the assigned phase scope, earlier notes, epic decisions, and linked design file before continuing work | 2 |
 | read-by | [agent:bob-cli-ir.7.1.3][2] | Need prior phase notes and what landed for update-language | 1 |
+| read-by | [agent:bob-cli-ir.7.1.5][3] | Need sibling phase status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md
 
 <!-- sase:referenced-by:end -->

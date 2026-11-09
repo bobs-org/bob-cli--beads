@@ -18,7 +18,7 @@ update-writes: stage record updates from the capture batch overlay through the e
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
@@ -40,7 +40,9 @@ update-writes: stage record updates from the capture batch overlay through the e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.7.1.3][1] | Need remaining bead fields: notes, design, decisions, and prior work | 4 |
+| read-by | [agent:bob-cli-ir.7.1.5][2] | Need sibling phase status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md
 
 <!-- sase:referenced-by:end -->
