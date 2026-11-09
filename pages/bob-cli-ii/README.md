@@ -149,7 +149,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ii.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.6/README.md) | [bob-cli-ii.6](bob-cli-ii.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-ii.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ii.7/README.md) | [bob-cli-ii.7](bob-cli-ii.7.md) | 2 |
 | [bbugyi200.athena.bob-cli-ii.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.8.md) | [bob-cli-ii.8](bob-cli-ii.8.md) | 2 |
-| [bbugyi200.athena.bob-cli-ii.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.land.md) | [bob-cli-ii](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-ii.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ii.land.md) | [bob-cli-ii](README.md) | 3 |
 
 ## Commits
 
@@ -180,6 +180,7 @@ flowchart TD
 | chezmoi | [`chezmoi@d227de1`](https://github.com/bbugyi200/dotfiles/commit/d227de13589dfeb6696846dd9541917cfff6f49e) | feat(gmail): add disabled mac bob-gmail-sync cron slot and config | [bob-cli-ii.8](bob-cli-ii.8.md) | 2026-11-08 18:59:39 EST |
 | bob-cli | [`2872939`](https://github.com/bobs-org/bob-cli/commit/2872939751f7b9eb77177b353b1157142e71a81b) | fix(gmail): finish sync health repairs and land reply-watch epic | [bob-cli-ii](README.md) | 2026-11-08 20:12:43 EST |
 | chezmoi | [`chezmoi@6f386bf`](https://github.com/bbugyi200/dotfiles/commit/6f386bfdcec1108d8d4f86de605c7b6624d65ea1) | docs(config): reorder gmail sync comment above gog key | [bob-cli-ii](README.md) | 2026-11-08 20:13:23 EST |
+| bob-cli--plans | [`bob-cli--plans@7502b05`](https://github.com/bobs-org/bob-cli--plans/commit/7502b0512dde99ce238c74a6b363d6b937ffe0db) | docs(plan): mark gmail\_sync\_reply\_watch done | [bob-cli-ii](README.md) | 2026-11-08 20:13:57 EST |
 
 <!-- sase:referenced-by:start -->
 
