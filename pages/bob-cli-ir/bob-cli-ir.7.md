@@ -13,7 +13,7 @@ capture-record-append: make @dir/<stem> append dated notes and set fields on an 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.6](bob-cli-ir.6.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.6](bob-cli-ir.6.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.8](bob-cli-ir.8.md) ◐ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.9](bob-cli-ir.9.md) ◐ · ⧖ 2026-11-08
 
@@ -21,4 +21,4 @@ capture-record-append: make @dir/<stem> append dated notes and set fields on an 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7/README.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |

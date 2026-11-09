@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ir](README.md) / bob-cli-ir.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1a0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1a0.md) · **Assignee:** `bob-cli-ir.6` · **Size:** large
-**Created:** 2026-11-08 11:06:12 EST
+**Created:** 2026-11-08 11:06:12 EST · **Closed:** 2026-11-09 02:34:48 EST
 **Plan:** [202611/record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md)
 
 ## Description
@@ -35,6 +35,8 @@ Performance (debug profile, temp vault `inbox: inbox`, warmup 20, n=100)
 
 [2026-11-09T07:32:52Z · bob-cli-ir.6--2] PROPOSED FOLLOW-UP: Flaky timing test native::ref_library::tests::extra_pass_and_additive_id_resolution_agree_on_the_fixture failed once during just check (extra 125.6ms vs additive 5.5ms; budget extra <= additive * 20) then passed in isolation (0.04s) and on a full re-run. Unrelated to capture-complete; load-sensitive comparison at src/native/ref_library/tests.rs:969.
 
+[2026-11-09T07:34:48Z · bob-cli-ir.6--2] Closed by explicit `sase stitch create -B close` after create_commit landed 07ff3bf0 ("feat(capture): add guided record field completion"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-ir.6` if more work remains.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.10](bob-cli-ir.10.md) ◐ · ⧖ 2026-11-08
@@ -52,3 +54,15 @@ Performance (debug profile, temp vault `inbox: inbox`, warmup 20, n=100)
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`07ff3bf`](https://github.com/bobs-org/bob-cli/commit/07ff3bf01fd4dad8d8ebf287035877bfd43df90b) | feat(capture): add guided record field completion | [bob-cli-ir.6](bob-cli-ir.6.md) | 2026-11-09 02:34:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.6--2][1] | Need assigned phase scope before host-completion commit and close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.6.md
+
+<!-- sase:referenced-by:end -->

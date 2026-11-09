@@ -42,7 +42,7 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 | [bob-cli-ir.3](bob-cli-ir.3.md) | bob records list, show, check, and new | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.4](bob-cli-ir.4.md) | Restaurant and podcast schemas go live in config and the vault | ✓ closed | small | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.5](bob-cli-ir.5.md) | Capture grammar for new records | ✓ closed | large | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.6](bob-cli-ir.6.md) | Guided field entry in capture-complete | ◐ in_progress | large | 2026-11-08 | 1 | 1 |
+| [bob-cli-ir.6](bob-cli-ir.6.md) | Guided field entry in capture-complete | ✓ closed | large | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.7](bob-cli-ir.7.md) | Add to an existing record with @dir/stem | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.8](bob-cli-ir.8.md) | Similar records in capture-related | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.9](bob-cli-ir.9.md) | bob records init plus show and movie types | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
@@ -54,74 +54,103 @@ flowchart TD
     n0["bob-cli-ir: Record Notes — capture and manage custom-typed notes [in_progress]"]
     n1["bob-cli-ir.1: Capture installs new files without ever replacing one [closed]"]
     n2["bob-cli-ir.10: Mac Record Card and guided entry [in_progress]"]
-    n3["bob-cli-ir.11: Mac new-note preview and success line [in_progress]"]
-    n4["bob-cli-ir.12: Mac updates, existing-record rows, and Similar records [in_progress]"]
-    n5["bob-cli-ir.13: Guide, documentation audit, end-to-end proof, and memory [in_progress]"]
-    n6["bob-cli-ir.2: Records schema, catalog, renderer, and planner [closed]"]
-    n7["bob-cli-ir.2.1: Records engine schema, indexing, rendering, and planning [closed]"]
-    n8["bob-cli-ir.2.1.1: Records schema, value validation, and filename fixtures [closed]"]
-    n9["bob-cli-ir.2.1.2: Lazy per-folder records index and suggestions [closed]"]
-    n10["bob-cli-ir.2.1.3: Typed record rendering and byte-preserving updates [closed]"]
-    n11["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [closed]"]
-    n12["bob-cli-ir.3: bob records list, show, check, and new [closed]"]
-    n13["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [closed]"]
-    n14["bob-cli-ir.5: Capture grammar for new records [closed]"]
-    n15["bob-cli-ir.5.1: Capture creates record notes [closed]"]
-    n16["bob-cli-ir.5.1.1: Recognize record items before task marker parsing [closed]"]
-    n17["bob-cli-ir.5.1.2: Resolve record metadata and expose discovery rows [closed]"]
-    n18["bob-cli-ir.5.1.3: Create records through the capture transaction [closed]"]
-    n19["bob-cli-ir.5.1.4: Publish the record capture contract and acceptance evidence [closed]"]
-    n20["bob-cli-ir.6: Guided field entry in capture-complete [in_progress]"]
-    n21["bob-cli-ir.7: Add to an existing record with @dir/stem [in_progress]"]
-    n22["bob-cli-ir.8: Similar records in capture-related [in_progress]"]
-    n23["bob-cli-ir.9: bob records init plus show and movie types [in_progress]"]
+    n3["bob-cli-ir.10.1: Mac Record Card and guided entry [in_progress]"]
+    n4["bob-cli-ir.10.1.1: Address Record Card fields through Bob completion [in_progress]"]
+    n5["bob-cli-ir.10.1.2: Decode records and define portable card state [in_progress]"]
+    n6["bob-cli-ir.10.1.3: Connect record completion and keyboard entry [in_progress]"]
+    n7["bob-cli-ir.10.1.4: Render the Record Card and semantic editor styling [in_progress]"]
+    n8["bob-cli-ir.11: Mac new-note preview and success line [in_progress]"]
+    n9["bob-cli-ir.12: Mac updates, existing-record rows, and Similar records [in_progress]"]
+    n10["bob-cli-ir.13: Guide, documentation audit, end-to-end proof, and memory [in_progress]"]
+    n11["bob-cli-ir.2: Records schema, catalog, renderer, and planner [closed]"]
+    n12["bob-cli-ir.2.1: Records engine schema, indexing, rendering, and planning [closed]"]
+    n13["bob-cli-ir.2.1.1: Records schema, value validation, and filename fixtures [closed]"]
+    n14["bob-cli-ir.2.1.2: Lazy per-folder records index and suggestions [closed]"]
+    n15["bob-cli-ir.2.1.3: Typed record rendering and byte-preserving updates [closed]"]
+    n16["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [closed]"]
+    n17["bob-cli-ir.3: bob records list, show, check, and new [closed]"]
+    n18["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [closed]"]
+    n19["bob-cli-ir.5: Capture grammar for new records [closed]"]
+    n20["bob-cli-ir.5.1: Capture creates record notes [closed]"]
+    n21["bob-cli-ir.5.1.1: Recognize record items before task marker parsing [closed]"]
+    n22["bob-cli-ir.5.1.2: Resolve record metadata and expose discovery rows [closed]"]
+    n23["bob-cli-ir.5.1.3: Create records through the capture transaction [closed]"]
+    n24["bob-cli-ir.5.1.4: Publish the record capture contract and acceptance evidence [closed]"]
+    n25["bob-cli-ir.6: Guided field entry in capture-complete [closed]"]
+    n26["bob-cli-ir.7: Add to an existing record with @dir/stem [in_progress]"]
+    n27["bob-cli-ir.7.1: Existing-record updates through capture and the records CLI [in_progress]"]
+    n28["bob-cli-ir.7.1.1: Shared snapshot-based record update planner [closed]"]
+    n29["bob-cli-ir.7.1.2: Record update grammar and editor parse [in_progress]"]
+    n30["bob-cli-ir.7.1.3: Transactional capture updates and exact previews [in_progress]"]
+    n31["bob-cli-ir.7.1.4: Existing-record completion and Add to it fixes [in_progress]"]
+    n32["bob-cli-ir.7.1.5: Records update CLI and dependent shell completion [in_progress]"]
+    n33["bob-cli-ir.8: Similar records in capture-related [in_progress]"]
+    n34["bob-cli-ir.9: bob records init plus show and movie types [in_progress]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n6 --> n7
-    n7 --> n8
-    n7 --> n9
-    n7 --> n10
-    n7 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n14 --> n15
-    n15 --> n16
-    n15 --> n17
-    n15 --> n18
-    n15 --> n19
-    n0 --> n20
-    n0 --> n21
-    n0 --> n22
-    n0 --> n23
-    n1 -.-> n12
-    n1 -.-> n14
-    n2 -.-> n3
-    n3 -.-> n4
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n0 --> n8
+    n0 --> n9
+    n0 --> n10
+    n0 --> n11
+    n11 --> n12
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
+    n12 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n19 --> n20
+    n20 --> n21
+    n20 --> n22
+    n20 --> n23
+    n20 --> n24
+    n0 --> n25
+    n0 --> n26
+    n26 --> n27
+    n27 --> n28
+    n27 --> n29
+    n27 --> n30
+    n27 --> n31
+    n27 --> n32
+    n0 --> n33
+    n0 --> n34
+    n1 -.-> n17
+    n1 -.-> n19
+    n2 -.-> n8
     n4 -.-> n5
-    n6 -.-> n12
-    n6 -.-> n14
+    n5 -.-> n6
+    n6 -.-> n7
     n8 -.-> n9
-    n8 -.-> n10
-    n9 -.-> n11
-    n10 -.-> n11
-    n12 -.-> n13
-    n13 -.-> n23
-    n14 -.-> n3
-    n14 -.-> n20
-    n16 -.-> n17
+    n9 -.-> n10
+    n11 -.-> n17
+    n11 -.-> n19
+    n13 -.-> n14
+    n13 -.-> n15
+    n14 -.-> n16
+    n15 -.-> n16
     n17 -.-> n18
-    n18 -.-> n19
-    n20 -.-> n2
-    n20 -.-> n21
+    n18 -.-> n34
+    n19 -.-> n8
+    n19 -.-> n25
     n21 -.-> n22
-    n21 -.-> n23
-    n22 -.-> n4
-    n23 -.-> n5
+    n22 -.-> n23
+    n23 -.-> n24
+    n25 -.-> n2
+    n25 -.-> n26
+    n26 -.-> n33
+    n26 -.-> n34
+    n28 -.-> n29
+    n29 -.-> n30
+    n30 -.-> n31
+    n30 -.-> n32
+    n33 -.-> n9
+    n34 -.-> n10
 ```
 
 ## Agents
@@ -129,7 +158,12 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.1/README.md) | [bob-cli-ir.1](bob-cli-ir.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10/README.md) | [bob-cli-ir.10](bob-cli-ir.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.md) | [bob-cli-ir.10](bob-cli-ir.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.1/README.md) | [bob-cli-ir.10.1.1](bob-cli-ir.10.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md) | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.4/README.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.land/README.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.11/README.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.13/README.md) | [bob-cli-ir.13](bob-cli-ir.13.md) | 0 |
@@ -148,7 +182,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.1.4.md) | [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.1.land.md) | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.6.md) | [bob-cli-ir.6](bob-cli-ir.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7/README.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.1/README.md) | [bob-cli-ir.7.1.1](bob-cli-ir.7.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.2/README.md) | [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md) | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.land/README.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.9/README.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.land/README.md) | [bob-cli-ir](README.md) | 0 |
@@ -173,6 +213,7 @@ flowchart TD
 | bob-cli | [`80c9320`](https://github.com/bobs-org/bob-cli/commit/80c93209aa6857a178beba3ba293755198300848) | fix(capture)!: complete record claiming and preview contracts | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 2026-11-09 00:30:51 EST |
 | bob-cli--plans | [`bob-cli--plans@903dd39`](https://github.com/bobs-org/bob-cli--plans/commit/903dd39e46ee3ab3f21e34f3f97208acf6715a55) | docs(plans): mark record capture creation phase done | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 2026-11-09 00:31:31 EST |
 | bob-cli | [`07ff3bf`](https://github.com/bobs-org/bob-cli/commit/07ff3bf01fd4dad8d8ebf287035877bfd43df90b) | feat(capture): add guided record field completion | [bob-cli-ir.6](bob-cli-ir.6.md) | 2026-11-09 02:34:23 EST |
+| bob-cli | [`8cc4a75`](https://github.com/bobs-org/bob-cli/commit/8cc4a754ef194cc89d6e0f5df66c5fc8d3e31378) | feat(records): add shared plan update target resolution over byte-preserving edit | [bob-cli-ir.7.1.1](bob-cli-ir.7.1.1.md) | 2026-11-09 03:16:39 EST |
 
 <!-- sase:referenced-by:start -->
 
