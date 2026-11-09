@@ -37,13 +37,14 @@ Complete bob-cli-ir.5 with shared record grammar and editor metadata, safe trans
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.1.land.md) | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.1.land.md) | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`80c9320`](https://github.com/bobs-org/bob-cli/commit/80c93209aa6857a178beba3ba293755198300848) | fix(capture)!: complete record claiming and preview contracts | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 2026-11-09 00:30:51 EST |
+| bob-cli--plans | [`bob-cli--plans@903dd39`](https://github.com/bobs-org/bob-cli--plans/commit/903dd39e46ee3ab3f21e34f3f97208acf6715a55) | docs(plans): mark record capture creation phase done | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 2026-11-09 00:31:31 EST |
 
 <!-- sase:referenced-by:start -->
 
