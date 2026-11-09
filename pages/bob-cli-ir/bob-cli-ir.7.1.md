@@ -25,11 +25,15 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-ir.7 so capture and bob records update edit existing records without changing unrelated bytes, with accurate previews and guided input.
 
+## Notes
+
+[2026-11-09T11:21:56Z · bob-cli-ir.7.1.land] Lander triage (bob-cli-ir.7.1.land): no child phase recorded any PROPOSED FOLLOW-UP entry, so no /sase_new_task filings were needed. Integration: the only non-epic commit since the epic started is 5e49fa5e (bob-cli-ir.10.1.1, capture-complete -F/--record-field + record.edit); its update-item behavior is folded into the remediation tale, not a separate task. Reviewer findings declined with reasons: (1) current/before values go through validate_field_values, so stored relative-date words and comma-bearing list members are normalized — declined because bob records check uses the same stored-value validator (shared-validator rule); (2) plan_update returns no historical warnings when a supplied field is invalid — declined because those warnings come from the renderer and the refused update already reports its typed error; (3) records new/update -s shell completion emits KEY= and KEY=value rows together — declined because the completion protocol passes no current word and shells prefix-filter; (4) human records update -d prints Markdown without warnings — matches records new; (5) 12641768 bumped GRAMMAR_REVISION 20->21 without a feat(capture)! subject — landed history is immutable and same-day 1c4939b9 feat(records)! already marks the release breaking. Remaining epic-caused gaps (stale collision copy, record_value need on optional-empty updates, update recovery draft dropping parent note, update record.title falling back to note text, record_target rows with grammar-unaddressable stems, symlink alias targets, -F empty bullet on update items, missing record_target key docs, missing parse/CLI unknown/ambiguous target tests) are planned as one tale that ends with this epic's closeout.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.land/README.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

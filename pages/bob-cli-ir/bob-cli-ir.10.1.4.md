@@ -17,6 +17,8 @@ card-surface: render the Record Card in the picker slot with persistent labels, 
 
 [2026-11-09T11:04:59Z · bob-cli-ir.10.1.4] Surface consumes 10.1.3 model actions (requestRecordField, acceptRecordCandidate, editRecordField, setRecordMoreExpanded). Extra model helpers this phase: installRecordCardForPreviews for design renders, and paintHighlighting record_route chip wash plus item-scoped record_field_value tints (no emoji bytes in the draft). CaptureRecordInteractionTests memberwise inits were reordered so completionVisible precedes recordCardActive; that was a typecheck failure on HEAD 7933c7e.
 
+[2026-11-09T11:38:18Z · bob-cli-ir.10.1.4--1] CI 42606393021 failed 7 Record Card tests. Causes: set-state values shared .accentColor with the record-route chip so highlight assertions mixed @eat/ with liked/Ramen/Clark; handmade owning-item spans used out-of-bounds offsets (liked is 21-26, nope 49-53); panel mutationCaptureCalls counted argv=capture --dry-run as vault writes and Return blocked before --record-field landed. Fixes: set values use .green; offsets corrected; dry-run excluded; Return waits for --record-field. just portable-check passed. Mac scratch bundle.sh + typecheck-tests passed. Re-running Scripts/macos-ci-check.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) ✓ · ⧖ 2026-11-09
@@ -25,13 +27,14 @@ card-surface: render the Record Card in the picker slot with persistent labels, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@8c13ac4`](https://github.com/bobs-org/bob-mac-capture/commit/8c13ac44c1e318be27b60c3b9007f9cc904fbe54) | feat(capture): render the Record Card in the picker slot | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2026-11-09 06:06:23 EST |
+| bob-mac-capture | [`bob-mac-capture@4bca5da`](https://github.com/bobs-org/bob-mac-capture/commit/4bca5da078afd182d3bf38b5eac1219db338008d) | fix(capture): distinguish set-value tints from the record route chip | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2026-11-09 06:40:45 EST |
 
 <!-- sase:referenced-by:start -->
 
