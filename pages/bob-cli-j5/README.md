@@ -49,10 +49,16 @@ flowchart TD
     n6["bob-cli-j5.2.1.3: Apply archive plans under the lock and expose preview and JSON [closed]"]
     n7["bob-cli-j5.3: Correct archive link repair [closed]"]
     n8["bob-cli-j5.4: One archive pairing resolver, rename-following, and health diagnostics [in_progress]"]
-    n9["bob-cli-j5.5: Keep window and month headings [in_progress]"]
-    n10["bob-cli-j5.6: bob task restore [in_progress]"]
-    n11["bob-cli-j5.7: One done/ path contract in bob-cli [in_progress]"]
-    n12["bob-cli-j5.8: Plugin path helper and archived-task reopen [in_progress]"]
+    n9["bob-cli-j5.4.1: Complete archive pairing and guarded rename-following [in_progress]"]
+    n10["bob-cli-j5.4.1.1: Build the shared archive pair index and migrate stats [in_progress]"]
+    n11["bob-cli-j5.4.1.2: Add recoverable removals to the guarded writer [in_progress]"]
+    n12["bob-cli-j5.4.1.3: Migrate the remaining archive readers [in_progress]"]
+    n13["bob-cli-j5.4.1.4: Use resolved pairs in archiving and report archive health [in_progress]"]
+    n14["bob-cli-j5.4.1.5: Follow source renames in one guarded archive plan [in_progress]"]
+    n15["bob-cli-j5.5: Keep window and month headings [in_progress]"]
+    n16["bob-cli-j5.6: bob task restore [in_progress]"]
+    n17["bob-cli-j5.7: One done/ path contract in bob-cli [in_progress]"]
+    n18["bob-cli-j5.8: Plugin path helper and archived-task reopen [in_progress]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -61,21 +67,32 @@ flowchart TD
     n3 --> n6
     n0 --> n7
     n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
+    n8 --> n9
+    n9 --> n10
+    n9 --> n11
+    n9 --> n12
+    n9 --> n13
+    n9 --> n14
+    n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
     n1 -.-> n2
     n2 -.-> n7
     n4 -.-> n5
     n5 -.-> n6
     n7 -.-> n8
-    n8 -.-> n9
-    n8 -.-> n10
-    n9 -.-> n11
-    n10 -.-> n11
+    n8 -.-> n15
+    n8 -.-> n16
     n10 -.-> n12
-    n11 -.-> n12
+    n10 -.-> n13
+    n11 -.-> n14
+    n12 -.-> n14
+    n13 -.-> n14
+    n15 -.-> n17
+    n16 -.-> n17
+    n16 -.-> n18
+    n17 -.-> n18
 ```
 
 ## Agents
@@ -87,9 +104,15 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-j5.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.1.md) | [bob-cli-j5.2.1.1](bob-cli-j5.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.2/README.md) | [bob-cli-j5.2.1.2](bob-cli-j5.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.3/README.md) | [bob-cli-j5.2.1.3](bob-cli-j5.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-j5.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.land.md) | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-j5.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.land.md) | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-j5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.3/README.md) | [bob-cli-j5.3](bob-cli-j5.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-j5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4/README.md) | [bob-cli-j5.4](bob-cli-j5.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.md) | [bob-cli-j5.4](bob-cli-j5.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.1/README.md) | [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.1.2.md) | [bob-cli-j5.4.1.2](bob-cli-j5.4.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-j5.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.3/README.md) | [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.4/README.md) | [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.5/README.md) | [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.land/README.md) | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-j5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.5/README.md) | [bob-cli-j5.5](bob-cli-j5.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-j5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.6/README.md) | [bob-cli-j5.6](bob-cli-j5.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-j5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.7/README.md) | [bob-cli-j5.7](bob-cli-j5.7.md) | 0 |
@@ -105,4 +128,6 @@ flowchart TD
 | bob-cli | [`37df0e5`](https://github.com/bobs-org/bob-cli/commit/37df0e52cf364c82bf5017ea8ee74d9443f66801) | feat(collect-done): snapshot inputs with exact replay and plan-wide refusal | [bob-cli-j5.2.1.2](bob-cli-j5.2.1.2.md) | 2026-11-09 14:18:18 EST |
 | bob-cli | [`e802071`](https://github.com/bobs-org/bob-cli/commit/e802071f8d39039a5ae7c8b191ec456ca8557db0) | feat(archive): apply plans under the lock with dry-run preview and JSON report | [bob-cli-j5.2.1.3](bob-cli-j5.2.1.3.md) | 2026-11-09 15:10:57 EST |
 | bob-cli | [`2455d9d`](https://github.com/bobs-org/bob-cli/commit/2455d9dbcaaa67936cf9b1eaaa8e842cd409422b) | fix(archive): repair guarded landing validation | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2026-11-09 16:06:02 EST |
+| bob-cli--plans | [`bob-cli--plans@1e8d36a`](https://github.com/bobs-org/bob-cli--plans/commit/1e8d36a191d0f57d0dcceaa3c1b11c77d1d71516) | docs(plan): mark guarded archive writer done | [bob-cli-j5.2.1](bob-cli-j5.2.1.md) | 2026-11-09 16:06:34 EST |
 | bob-cli | [`a846a23`](https://github.com/bobs-org/bob-cli/commit/a846a23b73a07956bdf2bd4ca0026f8d20ca2d9d) | feat(archive)!: correct archive link repair | [bob-cli-j5.3](bob-cli-j5.3.md) | 2026-11-09 16:32:51 EST |
+| bob-cli | [`b97d8d4`](https://github.com/bobs-org/bob-cli/commit/b97d8d4c3b214d1f73f0627f868a108ff6755a66) | feat(archive): add recoverable removals to the guarded writer | [bob-cli-j5.4.1.2](bob-cli-j5.4.1.2.md) | 2026-11-09 17:29:23 EST |
