@@ -39,7 +39,9 @@ archive-snapshot: capture every archive-planning input once, detect exact block 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j5.2.1.2][1] | check prior notes and remaining work | 2 |
+| read-by | [agent:bob-cli-j5.2.1.3][2] | Check predecessor notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ link-repair: carry renamed block IDs into local links, qualify same-note heading
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j5.2](bob-cli-j5.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j5.2](bob-cli-j5.2.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j5.4](bob-cli-j5.4.md) ◐ · ⧖ 2026-11-09
 
 ## Agents

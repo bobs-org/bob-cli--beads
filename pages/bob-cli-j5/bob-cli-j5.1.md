@@ -19,7 +19,7 @@ selection: restrict archiving to area and project notes, never move ^prj lines o
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j5.2](bob-cli-j5.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.2](bob-cli-j5.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

@@ -40,7 +40,9 @@ guarded-create: extend task_status_hooks_write to create previously missing file
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j5.2.1.1--1][1] | Need the phase scope, design file, notes, and DECISIONS after host-completion recovery | 1 |
+| read-by | [agent:bob-cli-j5.2.1.3][2] | Check predecessor notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->
