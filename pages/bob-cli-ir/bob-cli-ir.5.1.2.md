@@ -20,7 +20,7 @@ record-parse: adapt the existing records planner for capture-parse, implement re
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -33,3 +33,15 @@ record-parse: adapt the existing records planner for capture-parse, implement re
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4c97ed4`](https://github.com/bobs-org/bob-cli/commit/4c97ed416f3cc8fa066353a34d52d7757b845009) | feat(capture): resolve record metadata and expose targets | [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) | 2026-11-08 20:52:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.5.1.2][1] | Need the phase scope, design file, and prior notes before continuing assigned work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->

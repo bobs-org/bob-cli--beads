@@ -13,7 +13,7 @@ record-contract: finish the capture documentation, apply the inherited approved 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
