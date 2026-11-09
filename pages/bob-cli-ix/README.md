@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ix.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.2.md) | [bob-cli-ix.2](bob-cli-ix.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ix.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ix.3/README.md) | [bob-cli-ix.3](bob-cli-ix.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ix.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.4.md) | [bob-cli-ix.4](bob-cli-ix.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ix.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.land.md) | [bob-cli-ix](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ix.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.land.md) | [bob-cli-ix](README.md) | 3 |
 
 ## Commits
 
@@ -82,3 +82,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@8cc25b3`](https://github.com/bobs-org/bob-mac-capture/commit/8cc25b315086b4bd7fce2725f82a279ceb07a8da) | feat(mac-capture): present sized pomodoro closes | [bob-cli-ix.4](bob-cli-ix.4.md) | 2026-11-09 08:51:38 EST |
 | bob-cli | [`2a0c258`](https://github.com/bobs-org/bob-cli/commit/2a0c258fab15ae45b8e7a195e53c6cced904695b) | feat(capture): finish sized-close acceptance and land bob-cli-ix | [bob-cli-ix](README.md) | 2026-11-09 10:03:28 EST |
 | bob-mac-capture | [`bob-mac-capture@b81302b`](https://github.com/bobs-org/bob-mac-capture/commit/b81302b2610d31bbc9caa4c9c245097b16b0b884) | feat(mac-capture): present sized closes with one chip and docs | [bob-cli-ix](README.md) | 2026-11-09 10:04:09 EST |
+| bob-cli--plans | [`bob-cli--plans@d47f175`](https://github.com/bobs-org/bob-cli--plans/commit/d47f1751e8c6d6e341fea69e0ee034943da41de8) | chore(plans): mark sized\_pomodoro\_close done for bob-cli-ix | [bob-cli-ix](README.md) | 2026-11-09 10:04:41 EST |
