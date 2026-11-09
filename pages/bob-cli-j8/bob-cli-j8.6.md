@@ -20,4 +20,4 @@ plugins-notebook-catalog: in bob-ledger-tools, style the `[!notebooks]` catalog 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6/README.md) | [bob-cli-j8.6](bob-cli-j8.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.md) | [bob-cli-j8.6](bob-cli-j8.6.md) | 0 |

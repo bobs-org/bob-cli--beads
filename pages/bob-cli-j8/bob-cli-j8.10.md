@@ -14,7 +14,7 @@ notebooks-wrapup: walk every notebook gesture end to end in a temporary vault, a
 ## Dependencies
 
 - **Depends on:** [bob-cli-j8.6](bob-cli-j8.6.md) ◐ · ⧖ 2026-11-09
-- **Depends on:** [bob-cli-j8.7](bob-cli-j8.7.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.7](bob-cli-j8.7.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j8.8](bob-cli-j8.8.md) ◐ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j8.9](bob-cli-j8.9.md) ◐ · ⧖ 2026-11-09
 
