@@ -36,7 +36,7 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ir.1](bob-cli-ir.1.md) | Capture installs new files without ever replacing one | ✓ closed | small | 2026-11-08 | 1 | 1 |
-| [bob-cli-ir.10](bob-cli-ir.10.md) | Mac Record Card and guided entry | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
+| [bob-cli-ir.10](bob-cli-ir.10.md) | Mac Record Card and guided entry | ✓ closed | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.11](bob-cli-ir.11.md) | Mac new-note preview and success line | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.12](bob-cli-ir.12.md) | Mac updates, existing-record rows, and Similar records | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.13](bob-cli-ir.13.md) | Guide, documentation audit, end-to-end proof, and memory | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
@@ -55,8 +55,8 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 flowchart TD
     n0["bob-cli-ir: Record Notes — capture and manage custom-typed notes [in_progress]"]
     n1["bob-cli-ir.1: Capture installs new files without ever replacing one [closed]"]
-    n2["bob-cli-ir.10: Mac Record Card and guided entry [in_progress]"]
-    n3["bob-cli-ir.10.1: Mac Record Card and guided entry [in_progress]"]
+    n2["bob-cli-ir.10: Mac Record Card and guided entry [closed]"]
+    n3["bob-cli-ir.10.1: Mac Record Card and guided entry [closed]"]
     n4["bob-cli-ir.10.1.1: Address Record Card fields through Bob completion [closed]"]
     n5["bob-cli-ir.10.1.2: Decode records and define portable card state [closed]"]
     n6["bob-cli-ir.10.1.3: Connect record completion and keyboard entry [closed]"]
@@ -165,7 +165,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md) | [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.11/README.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.13/README.md) | [bob-cli-ir.13](bob-cli-ir.13.md) | 0 |
@@ -229,6 +229,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@2c460ed`](https://github.com/bobs-org/bob-cli--plans/commit/2c460ed80578757da28538e6fab158886d7d3e74) | docs(plans): mark record append landing done | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:08:07 EST |
 | bob-mac-capture | [`bob-mac-capture@c09e2bc`](https://github.com/bobs-org/bob-mac-capture/commit/c09e2bcd6538e90c56030374900550a1d6053817) | fix(capture): agree Record Card completion with keyboard acceptance | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 08:28:34 EST |
 | bob-mac-capture | [`bob-mac-capture@eded3b9`](https://github.com/bobs-org/bob-mac-capture/commit/eded3b9ca680244939ec9c69a71dac7484e4b683) | fix(capture): keep Record Return through last-field analysis | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:10:10 EST |
+| bob-cli--plans | [`bob-cli--plans@9b8ff3a`](https://github.com/bobs-org/bob-cli--plans/commit/9b8ff3a160676ea8b2ecad76bca8316fc064ae96) | docs(plans): mark mac\_record\_card epic plan done | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:40:12 EST |
 
 <!-- sase:referenced-by:start -->
 

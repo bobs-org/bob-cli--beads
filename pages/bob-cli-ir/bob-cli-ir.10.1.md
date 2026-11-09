@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ir.10](bob-cli-ir.10.md) / bob-cli-ir.10.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-ir.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.md) · **Assignee:** `bob-cli-ir.10.1.land`
-**Created:** 2026-11-09 02:49:44 EST
+**Created:** 2026-11-09 02:49:44 EST · **Closed:** 2026-11-09 09:38:08 EST
 **Plan:** [202611/mac\_record\_card.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_record_card.md)
 
 <!-- sase:links:start -->
@@ -35,11 +35,25 @@ Complete bob-cli-ir.10 with a thin-client Record Card, undoable guided field ent
 
 [2026-11-09T12:29:46Z · bob-cli-ir.10.1.land] ADDITIONAL CONTRACT CHECK: Re-read the exact card-surface section. It requires the type emoji as a presentation adornment on the editor record_route chip, preserving draft bytes and offsets. Current CaptureEditorPalette/CompletionRowContent comments explicitly put the emoji on the Record Card only; the editor has a wash but no route emoji adornment. The repair tale includes completing that original requirement with offset/copy/selection coverage.
 
+[2026-11-09T14:38:08Z · bob-cli-ir.10.1.land--2] Landing-audit defects repaired and verified on exact-tree macOS CI.
+
+Verified source: Tab/Return accept only card-rendered record_field/record_value lists via CaptureRecordCompletionSurface. Create-route record_target uses the visible generic CompletionList (recordShowsGenericCompletionFallback); Tab still requests first-missing. Value lists keep selectedCompletionIndex visible including overflow. More rows share full-width layout with required/set fields. Ready is an ordinary footer hint (CaptureRecordFooterMessage); Bob diagnostics stay refusals. Type emoji is CaptureRecordRouteAdornment overlay on the editor record_route chip and never enters draft bytes/offsets.
+
+Child-note outcomes: .1 named-field -F/--record-field + assist_version 1 + Bob-authored record.edit (bob-cli 5e49fa5e). .2 decode models, real-Bob fixtures, portable presentation reducer (Mac 1e6fb18). .3 keyboard/Return/undo/stale-response (7933c7e; Mac compile later covered by CI). .4 Record Card surface, a11y, semantic tints (8c13ac4, 4bca5da). .4 note #4 (More-row alignment) declined as a separate task and fixed in landing repairs.
+
+Drift integration: bob-cli HEAD 941ee724 (named-field 5e49fa5e plus later record-update and unrelated commits; record_target create-route bug fixed here without taking revisit cards). Mac HEAD eded3b9: child commits plus landing repairs c09e2bc and eded3b9; contemporaneous 8cc25b3 sized pomodoro closes needs no Record Card grammar. Schema 1, assist_version 1, CaptureGrammarGate, Cargo versions, and CHANGELOG.md unchanged. No memory edits.
+
+Repair tests: just portable-check 2316/0; just docs-check passed; Mac scratch Scripts/bundle.sh + just typecheck-tests passed all four targets and was deleted. CI test repairs: last-field Return no longer cancelled by handleMissingCompletion; mixed-draft Return asserts Needs Status footer; overflow accept uses seventh fixture value Cafe.
+
+Mac snapshot SHA 13a376669befc9c140a798c5f909d43dba276edf (tree-identical to HEAD eded3b9ca680244939ec9c69a71dac7484e4b683). Exact-tree macOS CI https://github.com/bobs-org/bob-mac-capture/actions/runs/42632159176 green: Lint, Build, Test, Bundle, Verify plist, Launch smoke, Install. Reviewed render fixtures (more-row alignment, complete ordinary footer vs red error footer, route-emoji overlay).
+
+Follow-up triage: .4 note #4 fixed here; no new external follow-ups. epic-symbols bob-cli-ir.10.1: none. just symvision absent from bob-cli and bob-mac-capture justfiles.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 3 |
 
 ## Commits
 
@@ -47,6 +61,7 @@ Complete bob-cli-ir.10 with a thin-client Record Card, undoable guided field ent
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@c09e2bc`](https://github.com/bobs-org/bob-mac-capture/commit/c09e2bcd6538e90c56030374900550a1d6053817) | fix(capture): agree Record Card completion with keyboard acceptance | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 08:28:34 EST |
 | bob-mac-capture | [`bob-mac-capture@eded3b9`](https://github.com/bobs-org/bob-mac-capture/commit/eded3b9ca680244939ec9c69a71dac7484e4b683) | fix(capture): keep Record Return through last-field analysis | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:10:10 EST |
+| bob-cli--plans | [`bob-cli--plans@9b8ff3a`](https://github.com/bobs-org/bob-cli--plans/commit/9b8ff3a160676ea8b2ecad76bca8316fc064ae96) | docs(plans): mark mac\_record\_card epic plan done | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:40:12 EST |
 
 <!-- sase:referenced-by:start -->
 
