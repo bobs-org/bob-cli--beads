@@ -21,7 +21,7 @@ record-language: add shared record route claiming, opaque field and note parsing
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -34,3 +34,15 @@ record-language: add shared record route claiming, opaque field and note parsing
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`83ad74e`](https://github.com/bobs-org/bob-cli/commit/83ad74e2f8138b6d94ba745380a9f012ce08d104) | feat(capture): add shared record route classifier with fail-closed execution | [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) | 2026-11-08 19:56:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.5.1.1][1] | Confirm phase scope before closing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

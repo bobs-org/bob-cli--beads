@@ -13,7 +13,7 @@ record-writes: wire the shared resolver into batch planning, install records thr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
