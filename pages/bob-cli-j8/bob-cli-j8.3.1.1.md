@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-j8.3.1](bob-cli-j8.3.1.md) / bob-cli-j8.3.1.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-j8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.md) · **Assignee:** `bob-cli-j8.3.1.1` · **Size:** medium
-**Created:** 2026-11-09 13:50:25 EST
+**Created:** 2026-11-09 13:50:25 EST · **Closed:** 2026-11-09 15:41:04 EST
 **Plan:** [202611/notebook\_capture\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/notebook_capture_notes.md)
 
 ## Description
 
 notebook-route-language: build the invocation-local NotebookRoutePolicy and implement strict/editor parsing for individual notebook notes and sub-notes, with executable captures refusing safely until the writer lands.
+
+## Notes
+
+[2026-11-09T20:41:04Z · bob-cli-j8.3.1.1--1] Completed notebook route policy and strict/editor parsing; just check passed; primary and linked Mac Capture docs-check passed (447 passed, 1 skipped each); epic-symbols reported no leftovers.
 
 ## Dependencies
 
@@ -19,4 +23,10 @@ notebook-route-language: build the invocation-local NotebookRoutePolicy and impl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.1.1.md) | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.1.1.md) | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d906675`](https://github.com/bobs-org/bob-cli/commit/d90667549a46e559f077f96e0db78ec0c1999bb9) | feat(capture): add notebook route parsing | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 2026-11-09 16:08:46 EST |

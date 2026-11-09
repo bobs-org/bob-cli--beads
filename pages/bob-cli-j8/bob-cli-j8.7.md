@@ -28,10 +28,16 @@ plugins-notebook-gestures: make the block-ID prompt suggest IDs for plain note b
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md) | [bob-cli-j8.7](bob-cli-j8.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md) | [bob-cli-j8.7](bob-cli-j8.7.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@fe7097f`](https://github.com/bobs-org/bob-plugins/commit/fe7097fa1fcab12230b640872d46036d98d7a412) | feat(notebooks): name note bullets, show notebooks in pickers, and create notebooks from Obsidian | [bob-cli-j8.7](bob-cli-j8.7.md) | 2026-11-09 15:31:45 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j8.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md
+
+<!-- sase:referenced-by:end -->

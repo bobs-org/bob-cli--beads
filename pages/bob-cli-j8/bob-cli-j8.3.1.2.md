@@ -13,7 +13,7 @@ notebook-draft-language: finish list and global destination inheritance, URL and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) ◐ · ⧖ 2026-11-09
 
 ## Agents

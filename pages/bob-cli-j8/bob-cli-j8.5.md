@@ -21,3 +21,15 @@ capture-notebook-assist: give capture-complete notebook route rows, `##` section
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-j8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.5/README.md) | [bob-cli-j8.5](bob-cli-j8.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j8.7][1] | Check whether the parallel ledger-tools phase will touch the same fragments | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md
+
+<!-- sase:referenced-by:end -->

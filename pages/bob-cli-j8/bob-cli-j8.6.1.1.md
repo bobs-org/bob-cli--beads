@@ -19,4 +19,4 @@ notebook-ui-data: implement the notebook JSON adapter, shared report cache, life
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.1/README.md) | [bob-cli-j8.6.1.1](bob-cli-j8.6.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.1.md) | [bob-cli-j8.6.1.1](bob-cli-j8.6.1.1.md) | 0 |
