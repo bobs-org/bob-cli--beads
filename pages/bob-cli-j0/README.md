@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j0.2/README.md) | [bob-cli-j0.2](bob-cli-j0.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j0.3/README.md) | [bob-cli-j0.3](bob-cli-j0.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j0.4/README.md) | [bob-cli-j0.4](bob-cli-j0.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-j0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j0.land.md) | [bob-cli-j0](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j0.land.md) | [bob-cli-j0](README.md) | 2 |
 
 ## Commits
 
@@ -95,3 +95,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5e5e33b`](https://github.com/bobs-org/bob-plugins/commit/5e5e33b60f008c95fcd14b2ecbc2d71a9c30dfcd) | feat(block-id-prompt): make block-ID renames one undo step across notes | [bob-cli-j0.2](bob-cli-j0.2.md) | 2026-11-09 08:15:12 EST |
 | bob-cli | [`7fe12b3`](https://github.com/bobs-org/bob-cli/commit/7fe12b33e46db7429e5d7e95d91afe57103e13f0) | feat(vault-sync): detect linked task losses | [bob-cli-j0.4](bob-cli-j0.4.md) | 2026-11-09 08:45:02 EST |
 | bob-cli | [`cb27f8b`](https://github.com/bobs-org/bob-cli/commit/cb27f8bca373ef30d4f734221addd2d2b8a1e005) | fix(vault-sync): key inbound task-loss links by resolved note | [bob-cli-j0](README.md) | 2026-11-09 10:01:59 EST |
+| bob-plugins | [`bob-plugins@a2045cc`](https://github.com/bobs-org/bob-plugins/commit/a2045cc9c1c4f4206b425df6985fca91a81928cb) | fix(block-id-prompt): queue editor events during closed rename follow | [bob-cli-j0](README.md) | 2026-11-09 10:02:42 EST |
