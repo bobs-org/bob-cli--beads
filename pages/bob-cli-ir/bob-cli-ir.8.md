@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-ir](README.md) / bob-cli-ir.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1a0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1a0.md) · **Assignee:** `bob-cli-ir.8` · **Size:** medium
-**Created:** 2026-11-08 11:06:12 EST
+**Created:** 2026-11-08 11:06:12 EST · **Closed:** 2026-11-09 07:45:47 EST
 **Plan:** [202611/record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md)
 
 ## Description
 
 capture-similar-records: extend capture-related so record items get settled same-folder near-title matches with Open, Add to it, and Discard actions.
+
+## Notes
+
+[2026-11-09T12:45:47Z · bob-cli-ir.8] capture-similar-records done: record create items get same-folder near-title rows (scope record, status + 2 field displays, add_to/open/discard; add_to equals record_exists fix; same tokenizer/bars/caps/settle, schema 1). Verified: 19 capture_related lib tests pass (4 new: Ninja Sushi Bar vs ninja_sushi, unrelated empty, 30 vs 31 number guard, update items empty); records 119, capture_complete 183, capture_parse 42, capture_language 747, cli docs_reference golden all pass; cargo fmt clean; clippy project gate clean; just docs-check and docs-gen pass (cli/capture-related.md + index.md regenerated).
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ capture-similar-records: extend capture-related so record items get settled same
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`44427b3`](https://github.com/bobs-org/bob-cli/commit/44427b30fab9705a7f0569d8588a1d9767d57d34) | feat(capture)!: show similar records in capture-related | [bob-cli-ir.8](bob-cli-ir.8.md) | 2026-11-09 07:47:09 EST |

@@ -18,7 +18,7 @@ guided-interaction: integrate record state, Bob-authored completion edits and co
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.10.1.2](bob-cli-ir.10.1.2.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

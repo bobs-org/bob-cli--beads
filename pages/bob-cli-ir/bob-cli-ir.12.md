@@ -15,7 +15,7 @@ mac-record-revisits: present record updates as before-and-after property rows, s
 
 - **Depends on:** [bob-cli-ir.11](bob-cli-ir.11.md) ◐ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.13](bob-cli-ir.13.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.8](bob-cli-ir.8.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.8](bob-cli-ir.8.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

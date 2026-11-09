@@ -25,11 +25,21 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-ir.10 with a thin-client Record Card, undoable guided field entry, record-aware keyboard behavior, accessible styling, and compiled Swift verified by exact-SHA macOS CI.
 
+## Notes
+
+[2026-11-09T12:25:22Z · bob-cli-ir.10.1.land] FOLLOW-UP TRIAGE: Read all notes on phases .1-.4. The sole PROPOSED FOLLOW-UP is bob-cli-ir.10.1.4 note #4 (optional More rows Visited/Url misalign, CI run 42611020479). Declined as a separate task because RecordCardView introduced it in this epic; retain it as required remaining epic work in the repair tale. No distinct non-epic follow-ups were found, so no new task or duplicate corroboration is warranted.
+
+[2026-11-09T12:26:21Z · bob-cli-ir.10.1.land] LANDING AUDIT: All 8 child notes reviewed (.1 one, .2 one, .3 one, .4 five). Verified bob-cli named-field commit 5e49fa5e and Mac commits 1e6fb18, 7933c7e, 8c13ac4, 4bca5da against source, fixtures and tests. No memory, release-version or changelog changes in this child; schema 1, assist_version 1, and the existing Mac grammar gate are retained. Phase .3 macOS verification gap and .4 failed-CI fixes were resolved by CI 42611020479: snapshot 1e507e9cf9d982f8fb52e439a651437d4635dc97 has tree b9ee8b3024615983df9c95ade77cbdb4d90bdceb, identical to Mac HEAD 4bca5da; Build, Test, Bundle, Launch and Install all passed. Source confirms Bob-authored replacements, native undo, scoped metadata, optional decoding and no writes on assist. However completion presentation is incomplete: CapturePanelView prioritizes RecordCardView over the inline list; RecordCardView only projects record_value responses, so record_field and newly landed record_target rows can be keyboard-accepted invisibly. Value rows never consume selectedCompletionIndex, inlineValues drops everything after six, and More-row widths differ. footerIsRefusal treats every nonempty status including Ready as an error, suppressing the planned hints. These remain epic work; a bounded repair tale will finish the landing.
+
+[2026-11-09T12:26:25Z · bob-cli-ir.10.1.land] INTEGRATION AUDIT: bob-cli HEAD/origin master 941ee724; first child implementation 5e49fa5e, plus contemporaneous 8cc4a754 and later non-child commits 12641768, 96196052, 1c4939b9, a729a8fd, 070d2aac, 941ee724 reviewed. Record-update landing preserves and extends -F/record.edit (current-value prefills and lossless-spelling guard), with CLI reparsing tests. Its record_target response at a create route now exposes the invisible-acceptance integration bug described in the audit. Fix visible generic completion ownership without taking over full revisit cards/current-before-after UI, which belongs to outer phase mac-record-revisits. Sized Nx close adds a separate semantic mode/diagnostic and does not require local Record Card grammar. Mac origin/master has only this child epic commits since e5b5889; no unrelated Mac drift. epic-symbols currently reports none for bob-cli-ir.10.1 or parent phase bob-cli-ir.10. Both remain open pending the repair tale; no force close, no check-full.
+
+[2026-11-09T12:29:46Z · bob-cli-ir.10.1.land] ADDITIONAL CONTRACT CHECK: Re-read the exact card-surface section. It requires the type emoji as a presentation adornment on the editor record_route chip, preserving draft bytes and offsets. Current CaptureEditorPalette/CompletionRowContent comments explicitly put the emoji on the Record Card only; the editor has a wash but no route emoji adornment. The repair tale includes completing that original requirement with offset/copy/selection coverage.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.land/README.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
