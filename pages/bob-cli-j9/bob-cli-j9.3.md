@@ -27,10 +27,11 @@ mac-completion-tips: record physically Shift- or Option-typed @ and # sigils, ru
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.3.md) | [bob-cli-j9.3](bob-cli-j9.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.3.md) | [bob-cli-j9.3](bob-cli-j9.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@3131414`](https://github.com/bobs-org/bob-mac-capture/commit/3131414a168c70e6df535293a935204dc252dcef) | feat(mac-capture): show typing tips on the completion-list first frame | [bob-cli-j9.3](bob-cli-j9.3.md) | 2026-11-09 14:07:35 EST |
+| bob-mac-capture | [`bob-mac-capture@0eeba70`](https://github.com/bobs-org/bob-mac-capture/commit/0eeba70f86aaa3b57072e8af9a734afbc836ce4f) | fix(mac-capture): restore equals Space before the picker opens | [bob-cli-j9.3](bob-cli-j9.3.md) | 2026-11-09 14:43:42 EST |
