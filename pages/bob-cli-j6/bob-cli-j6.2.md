@@ -41,7 +41,9 @@ mac-modifier-alias-escapes: generalize the reply-keyed equals-gesture arm to `.`
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j6.2--1][1] | Need phase scope, design, DECISIONS, and prior remaining work | 2 |
+| read-by | [agent:bob-cli-j6.land--1][2] | Re-read the closed Mac phase including every note before closing its parent | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j6.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j6.land.md
 
 <!-- sase:referenced-by:end -->
