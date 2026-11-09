@@ -27,4 +27,10 @@ mac-tip-core: decode the new capture-rewrite fields in CaptureCore and add the l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.2.md) | [bob-cli-j9.2](bob-cli-j9.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.2.md) | [bob-cli-j9.2](bob-cli-j9.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@bd06c21`](https://github.com/bobs-org/bob-mac-capture/commit/bd06c21d9da1fbb883a6cd090cb49463d743174d) | feat(mac-capture): add portable alias-tip model, policy, and ledger | [bob-cli-j9.2](bob-cli-j9.2.md) | 2026-11-09 12:38:26 EST |
