@@ -15,8 +15,8 @@ When Bryan Shift-types a capture sigil that an unshifted alias key would have ty
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-j9.1](bob-cli-j9.1.md) | bob proves tips and stamps alias ids | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
-| [bob-cli-j9.2](bob-cli-j9.2.md) | Portable tip model, policy, and ledger | ◐ in_progress | medium | 2026-11-09 | 1 | 1 |
+| [bob-cli-j9.1](bob-cli-j9.1.md) | bob proves tips and stamps alias ids | ✓ closed | medium | 2026-11-09 | 1 | 1 |
+| [bob-cli-j9.2](bob-cli-j9.2.md) | Portable tip model, policy, and ledger | ✓ closed | medium | 2026-11-09 | 1 | 0 |
 | [bob-cli-j9.3](bob-cli-j9.3.md) | Trigger, tip lane, and the completion-list host | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
 | [bob-cli-j9.4](bob-cli-j9.4.md) | The picker host for the remaining lessons | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
 
@@ -25,8 +25,8 @@ When Bryan Shift-types a capture sigil that an unshifted alias key would have ty
 ```mermaid
 flowchart TD
     n0["bob-cli-j9: Capture alias typing tips [in_progress]"]
-    n1["bob-cli-j9.1: bob proves tips and stamps alias ids [in_progress]"]
-    n2["bob-cli-j9.2: Portable tip model, policy, and ledger [in_progress]"]
+    n1["bob-cli-j9.1: bob proves tips and stamps alias ids [closed]"]
+    n2["bob-cli-j9.2: Portable tip model, policy, and ledger [closed]"]
     n3["bob-cli-j9.3: Trigger, tip lane, and the completion-list host [in_progress]"]
     n4["bob-cli-j9.4: The picker host for the remaining lessons [in_progress]"]
     n0 --> n1
@@ -42,8 +42,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.1/README.md) | [bob-cli-j9.1](bob-cli-j9.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.2.md) | [bob-cli-j9.2](bob-cli-j9.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j9.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.1/README.md) | [bob-cli-j9.1](bob-cli-j9.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.2.md) | [bob-cli-j9.2](bob-cli-j9.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.3/README.md) | [bob-cli-j9.3](bob-cli-j9.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.4/README.md) | [bob-cli-j9.4](bob-cli-j9.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.land/README.md) | [bob-cli-j9](README.md) | 0 |
@@ -52,4 +52,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@bd06c21`](https://github.com/bobs-org/bob-mac-capture/commit/bd06c21d9da1fbb883a6cd090cb49463d743174d) | feat(mac-capture): add portable alias-tip model, policy, and ledger | [bob-cli-j9.2](bob-cli-j9.2.md) | 2026-11-09 12:38:26 EST |
+| bob-cli | [`4b59ae8`](https://github.com/bobs-org/bob-cli/commit/4b59ae8170499ebc6328bc66f437af56802cfab5) | feat(capture): prove sigil alias typing tips in capture-rewrite | [bob-cli-j9.1](bob-cli-j9.1.md) | 2026-11-09 13:11:25 EST |

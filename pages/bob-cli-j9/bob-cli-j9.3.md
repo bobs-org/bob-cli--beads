@@ -13,8 +13,8 @@ mac-completion-tips: record physically Shift- or Option-typed @ and # sigils, ru
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j9.1](bob-cli-j9.1.md) ◐ · ⧖ 2026-11-09
-- **Depends on:** [bob-cli-j9.2](bob-cli-j9.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j9.1](bob-cli-j9.1.md) ✓ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j9.2](bob-cli-j9.2.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j9.4](bob-cli-j9.4.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
