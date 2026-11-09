@@ -28,3 +28,15 @@ loss_tripwire: before each commit, find task block IDs this host removed that in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7fe12b3`](https://github.com/bobs-org/bob-cli/commit/7fe12b33e46db7429e5d7e95d91afe57103e13f0) | feat(vault-sync): detect linked task losses | [bob-cli-j0.4](bob-cli-j0.4.md) | 2026-11-09 08:45:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j0.4][1] | Need the phase scope, design file, and prior work notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j0.4/README.md
+
+<!-- sase:referenced-by:end -->
