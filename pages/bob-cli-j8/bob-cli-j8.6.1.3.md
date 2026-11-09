@@ -13,7 +13,7 @@ notebook-ui-header: render linked ancestry and child-notebook chips in both view
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j8.6.1.2](bob-cli-j8.6.1.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.6.1.2](bob-cli-j8.6.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
