@@ -38,8 +38,10 @@ capture-similar-records: extend capture-related so record items get settled same
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ir.8][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-ir.12][1] | Check similar-records scope already done | 1 |
+| read-by | [agent:bob-cli-ir.8][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md
 
 <!-- sase:referenced-by:end -->

@@ -67,15 +67,13 @@ Two consecutive user cancels at the same stage: no third push made. Bead stays o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 3 |
+| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`84ff0bb`](https://github.com/bobs-org/bob-cli/commit/84ff0bb8ed9dd12bfc9dc5741319b30ccf26a93a) | feat(capture): add per-item record\_note summary to record JSON output | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:38:45 EST |
-| bob-mac-capture | [`bob-mac-capture@fe9ce15`](https://github.com/bobs-org/bob-mac-capture/commit/fe9ce1533d87fb6179adf4b49327869af2850165) | feat(capture): add record preview presentation, SwiftUI views, and fixtures | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:39:24 EST |
-| bob-mac-capture | [`bob-mac-capture@2f1d6dd`](https://github.com/bobs-org/bob-mac-capture/commit/2f1d6dd8b32771ee8f24550947fa831c8bfed04d) | test(capture): settle record preview panel tests on CI | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 12:47:23 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -84,9 +82,11 @@ Two consecutive user cancels at the same stage: no third push made. Bead stays o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.11--1][1] | verify phase state before closing ir.11 | 2 |
-| read-by | [agent:d5][2] | Know which Mac record-note UX has shipped vs in progress for the user report | 1 |
+| read-by | [agent:bob-cli-ir.12][2] | Check what mac-preview shipped to avoid redo | 1 |
+| read-by | [agent:d5][3] | Know which Mac record-note UX has shipped vs in progress for the user report | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
 
 <!-- sase:referenced-by:end -->

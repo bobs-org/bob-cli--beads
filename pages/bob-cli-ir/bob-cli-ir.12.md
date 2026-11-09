@@ -18,20 +18,14 @@ mac-record-revisits: present record updates as before-and-after property rows, s
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.11](bob-cli-ir.11.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.13](bob-cli-ir.13.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.13](bob-cli-ir.13.md) ✓ · ⧖ 2026-11-08
 - **Depends on:** [bob-cli-ir.8](bob-cli-ir.8.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@a5152aa`](https://github.com/bobs-org/bob-mac-capture/commit/a5152aa516fce9644c77624022f78973f8f9517b) | feat(mac-capture): show record updates, existing-record rows, and Similar records | [bob-cli-ir.12](bob-cli-ir.12.md) | 2026-11-09 13:13:48 EST |
+| [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,8 +33,10 @@ mac-record-revisits: present record updates as before-and-after property rows, s
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:d5][1] | Know which Mac record update UX has shipped for the user report | 1 |
+| read-by | [agent:bob-cli-ir.12][1] | Need phase scope, notes and design refs | 3 |
+| read-by | [agent:d5][2] | Know which Mac record update UX has shipped for the user report | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
 
 <!-- sase:referenced-by:end -->
