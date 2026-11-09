@@ -18,7 +18,7 @@ skip_reasons: bob-cli. One shared skip vocabulary for sync and list; sync lists 
 ## Dependencies
 
 - **Depends on:** [bob-cli-iz.1](bob-cli-iz.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-iz.4](bob-cli-iz.4.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-iz.4](bob-cli-iz.4.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -31,3 +31,15 @@ skip_reasons: bob-cli. One shared skip vocabulary for sync and list; sync lists 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a449193`](https://github.com/bobs-org/bob-cli/commit/a449193baa2ecd454b62e924e291d0745fbad614) | feat(gcal): name every skipped event and stop re-tombstoning | [bob-cli-iz.3](bob-cli-iz.3.md) | 2026-11-09 08:37:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iz.3][1] | notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.3/README.md
+
+<!-- sase:referenced-by:end -->

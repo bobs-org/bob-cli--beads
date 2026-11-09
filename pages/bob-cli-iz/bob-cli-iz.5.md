@@ -13,7 +13,7 @@ replaced_hold: bob-cli. When every row Bob wrote for the day and the Events stam
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-iz.4](bob-cli-iz.4.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-iz.4](bob-cli-iz.4.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
