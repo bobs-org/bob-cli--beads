@@ -31,7 +31,9 @@ capture-records: teach capture the @dir/ and @dir/^stem record items with key:: 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.5.1.2][1] | Need the parent epic's binding DECISIONS for this assigned phase | 1 |
+| read-by | [agent:bob-cli-ir.5.1.3][2] | Need parent epic DECISIONS this child phase must honor | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -22,7 +22,7 @@ record-writes: wire the shared resolver into batch planning, install records thr
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
@@ -35,3 +35,15 @@ record-writes: wire the shared resolver into batch planning, install records thr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f2561f9`](https://github.com/bobs-org/bob-cli/commit/f2561f962f5f91392d9721e094ac71f31e6832b3) | feat(capture): create record notes through the capture transaction | [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) | 2026-11-08 21:49:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.5.1.3][1] | Need the phase scope and design file | 7 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

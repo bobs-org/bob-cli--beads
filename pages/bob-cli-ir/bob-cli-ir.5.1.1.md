@@ -42,7 +42,9 @@ record-language: add shared record route claiming, opaque field and note parsing
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.5.1.1][1] | Confirm phase scope before closing | 2 |
+| read-by | [agent:bob-cli-ir.5.1.3][2] | Need shared API and grammar revision recorded by record-language | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

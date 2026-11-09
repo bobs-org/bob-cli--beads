@@ -42,7 +42,9 @@ records-cli: add the bob records command group (list, show, check, new) with pol
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.3][1] | Final scope, notes, and close readiness check | 3 |
+| read-by | [agent:bob-cli-ir.5.1.3][2] | See if records CLI catalog/help follow-up is already tracked | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

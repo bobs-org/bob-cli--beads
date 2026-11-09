@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_record_creation.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_record_creation.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-ir.5 with shared record grammar and editor metadata, safe trans
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.5.1.1][1] | Need child epic scope for phase record-language | 1 |
+| read-by | [agent:bob-cli-ir.5.1.3][2] | Need epic DECISIONS that this phase must honor | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->
