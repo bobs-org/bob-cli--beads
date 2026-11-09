@@ -13,7 +13,7 @@ docs: update capture.md, the capture-syntax reference, and capture/capture-parse
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ix.2](bob-cli-ix.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-ix.2](bob-cli-ix.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

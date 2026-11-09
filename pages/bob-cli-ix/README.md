@@ -27,8 +27,8 @@ Typing `2x!2` closes the running Pomodoro at exactly 2 five-minute blocks from i
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ix.1](bob-cli-ix.1.md) | Claim \`Nx\` in both parsers | ◐ in_progress | large | 2026-11-09 | 1 | 1 |
-| [bob-cli-ix.2](bob-cli-ix.2.md) | Run sized closes with exact-or-refuse | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
+| [bob-cli-ix.1](bob-cli-ix.1.md) | Claim \`Nx\` in both parsers | ✓ closed | large | 2026-11-09 | 1 | 1 |
+| [bob-cli-ix.2](bob-cli-ix.2.md) | Run sized closes with exact-or-refuse | ✓ closed | large | 2026-11-09 | 1 | 1 |
 | [bob-cli-ix.3](bob-cli-ix.3.md) | Document \`Nx\` and record the decision | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
 | [bob-cli-ix.4](bob-cli-ix.4.md) | Present sized closes in Bob Mac Capture | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
 
@@ -37,8 +37,8 @@ Typing `2x!2` closes the running Pomodoro at exactly 2 five-minute blocks from i
 ```mermaid
 flowchart TD
     n0["bob-cli-ix: Nx: close the running Pomodoro at a stated size [in_progress]"]
-    n1["bob-cli-ix.1: Claim `Nx` in both parsers [in_progress]"]
-    n2["bob-cli-ix.2: Run sized closes with exact-or-refuse [in_progress]"]
+    n1["bob-cli-ix.1: Claim `Nx` in both parsers [closed]"]
+    n2["bob-cli-ix.2: Run sized closes with exact-or-refuse [closed]"]
     n3["bob-cli-ix.3: Document `Nx` and record the decision [in_progress]"]
     n4["bob-cli-ix.4: Present sized closes in Bob Mac Capture [in_progress]"]
     n0 --> n1
@@ -55,7 +55,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ix.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.1.md) | [bob-cli-ix.1](bob-cli-ix.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ix.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ix.2/README.md) | [bob-cli-ix.2](bob-cli-ix.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ix.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.2.md) | [bob-cli-ix.2](bob-cli-ix.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ix.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ix.3/README.md) | [bob-cli-ix.3](bob-cli-ix.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ix.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ix.4/README.md) | [bob-cli-ix.4](bob-cli-ix.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ix.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ix.land/README.md) | [bob-cli-ix](README.md) | 0 |
@@ -65,3 +65,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`070d2aa`](https://github.com/bobs-org/bob-cli/commit/070d2aacbfb2ee7b481eabe3db0ecd5c417fd00f) | feat(capture)!: claim the sized Nx close in the capture grammar | [bob-cli-ix.1](bob-cli-ix.1.md) | 2026-11-09 06:54:48 EST |
+| bob-cli | [`135793b`](https://github.com/bobs-org/bob-cli/commit/135793bf355c18cf44788d0114c68549bcb0d9bb) | feat(capture): close the running Pomodoro at a stated size | [bob-cli-ix.2](bob-cli-ix.2.md) | 2026-11-09 07:49:26 EST |

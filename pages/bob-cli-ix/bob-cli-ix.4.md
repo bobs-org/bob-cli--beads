@@ -13,7 +13,7 @@ mac: decode `size`, draw both-direction arrows and the `Nx · as of HH:MM` chip,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ix.2](bob-cli-ix.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-ix.2](bob-cli-ix.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
