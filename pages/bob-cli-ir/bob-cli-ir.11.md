@@ -60,7 +60,7 @@ Two consecutive user cancels at the same stage: no third push made. Bead stays o
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.10](bob-cli-ir.10.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.12](bob-cli-ir.12.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.12](bob-cli-ir.12.md) ✓ · ⧖ 2026-11-08
 - **Depends on:** [bob-cli-ir.5](bob-cli-ir.5.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
@@ -83,7 +83,7 @@ Two consecutive user cancels at the same stage: no third push made. Bead stays o
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ir.11--1][1] | triage just-check failure for record_note gate; check existing follow-ups before recording pre-existing help drift | 1 |
+| read-by | [agent:bob-cli-ir.11--1][1] | verify phase state before closing ir.11 | 2 |
 | read-by | [agent:d5][2] | Know which Mac record-note UX has shipped vs in progress for the user report | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md
