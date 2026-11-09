@@ -47,7 +47,7 @@ Fix: push a blank line whenever the last body line is non-blank, regardless of i
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ir.1](bob-cli-ir.1.md) | Capture installs new files without ever replacing one | ✓ closed | small | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.10](bob-cli-ir.10.md) | Mac Record Card and guided entry | ✓ closed | large | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.11](bob-cli-ir.11.md) | Mac new-note preview and success line | ◐ in_progress | large | 2026-11-08 | 1 | 1 |
+| [bob-cli-ir.11](bob-cli-ir.11.md) | Mac new-note preview and success line | ◐ in_progress | large | 2026-11-08 | 1 | 2 |
 | [bob-cli-ir.12](bob-cli-ir.12.md) | Mac updates, existing-record rows, and Similar records | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.13](bob-cli-ir.13.md) | Guide, documentation audit, end-to-end proof, and memory | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.2](bob-cli-ir.2.md) | Records schema, catalog, renderer, and planner | ✓ closed | large | 2026-11-08 | 1 | 0 |
@@ -176,7 +176,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 3 |
-| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.13/README.md) | [bob-cli-ir.13](bob-cli-ir.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.md) | [bob-cli-ir.2](bob-cli-ir.2.md) | 0 |
@@ -243,6 +243,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@eded3b9`](https://github.com/bobs-org/bob-mac-capture/commit/eded3b9ca680244939ec9c69a71dac7484e4b683) | fix(capture): keep Record Return through last-field analysis | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:10:10 EST |
 | bob-cli--plans | [`bob-cli--plans@9b8ff3a`](https://github.com/bobs-org/bob-cli--plans/commit/9b8ff3a160676ea8b2ecad76bca8316fc064ae96) | docs(plans): mark mac\_record\_card epic plan done | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:40:12 EST |
 | bob-cli | [`84ff0bb`](https://github.com/bobs-org/bob-cli/commit/84ff0bb8ed9dd12bfc9dc5741319b30ccf26a93a) | feat(capture): add per-item record\_note summary to record JSON output | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:38:45 EST |
+| bob-mac-capture | [`bob-mac-capture@fe9ce15`](https://github.com/bobs-org/bob-mac-capture/commit/fe9ce1533d87fb6179adf4b49327869af2850165) | feat(capture): add record preview presentation, SwiftUI views, and fixtures | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:39:24 EST |
 
 <!-- sase:referenced-by:start -->
 
