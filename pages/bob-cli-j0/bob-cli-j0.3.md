@@ -26,3 +26,15 @@ keep_ids: find the writer that mints ^https-keep-google-com IDs for Keep-linked 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@94c6df5`](https://github.com/bobs-org/bob-plugins/commit/94c6df5be8172c017a7855510c2fa2679858b735) | fix(navigation): derive dependency IDs from task prose | [bob-cli-j0.3](bob-cli-j0.3.md) | 2026-11-09 07:52:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j0.3][1] | Need the phase scope, design file, decisions, and prior work before implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j0.3/README.md
+
+<!-- sase:referenced-by:end -->
