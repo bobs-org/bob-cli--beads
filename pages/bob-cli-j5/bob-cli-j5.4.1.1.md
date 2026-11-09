@@ -17,7 +17,7 @@ pair-index: implement metadata-first bidirectional archive resolution with expli
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
@@ -31,3 +31,15 @@ pair-index: implement metadata-first bidirectional archive resolution with expli
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0ed552a`](https://github.com/bobs-org/bob-cli/commit/0ed552a5e997c30bb78dd909eea91f957e012024) | feat(archive)!: resolve archive pairs from metadata first | [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) | 2026-11-09 17:58:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j5.4.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
