@@ -217,7 +217,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.land.md) | [bob-cli-ir](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.land.md) | [bob-cli-ir](README.md) | 3 |
 
 ## Commits
 
@@ -263,6 +263,7 @@ flowchart TD
 | bob-cli | [`4321fd7`](https://github.com/bobs-org/bob-cli/commit/4321fd707f4e5da53d33bf483a3411e2ef5615d2) | docs(records): trim JSON reference under budget | [bob-cli-ir.13](bob-cli-ir.13.md) | 2026-11-09 13:28:08 EST |
 | bob-cli | [`d7b339d`](https://github.com/bobs-org/bob-cli/commit/d7b339d0c0f76fb35dc907d065bc684ea6738f26) | fix(records): insert a blank line before a new named update section | [bob-cli-ir](README.md) | 2026-11-09 14:43:59 EST |
 | bob-mac-capture | [`bob-mac-capture@5987de4`](https://github.com/bobs-org/bob-mac-capture/commit/5987de454a1c6846c7ec37559b2284b47da5003f) | docs: trim protocol and capture-previews under the 6000-word cap | [bob-cli-ir](README.md) | 2026-11-09 14:44:46 EST |
+| bob-cli--plans | [`bob-cli--plans@f9ec4e2`](https://github.com/bobs-org/bob-cli--plans/commit/f9ec4e21ce29dba45de124eac8ff8b72ad3b3490) | chore: mark Record Notes epic and landing tale done | [bob-cli-ir](README.md) | 2026-11-09 14:45:34 EST |
 
 <!-- sase:referenced-by:start -->
 
