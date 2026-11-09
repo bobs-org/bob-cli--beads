@@ -19,7 +19,7 @@ bob-close-alias: add an x/s branch to the expand_sigil_alias rule in bob-cli cap
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-is.3](bob-cli-is.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-is.3](bob-cli-is.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

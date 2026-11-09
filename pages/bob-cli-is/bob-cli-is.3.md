@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-is](README.md) / bob-cli-is.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.3r.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.3r.linker.w0.md) · **Assignee:** `bob-cli-is.3` · **Size:** medium
-**Created:** 2026-11-08 11:42:41 EST
+**Created:** 2026-11-08 11:42:41 EST · **Closed:** 2026-11-08 18:40:27 EST
 **Plan:** [202611/close\_outcome\_x\_s\_typing\_aliases.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/close_outcome_x_s_typing_aliases.md)
 
 ## Description
@@ -22,6 +22,10 @@ mac-close-alias: forward lowercase non-repeat x/s keys through a lexical send pr
 [2026-11-08T22:50:38Z · bob-cli-is.3--2] Verification continuation: macOS scratch compilation/typecheck passed in monitor refjenfv9z18. Precommit CI 42530462345 (snapshot 968fe92716d284919352148d7587bc70c10b34a0) passed lint/build but failed three tests: agenda clear test accepted the startup probe as its in-flight request; close-digit harness used plainDraft setter, clearing the pending comma-assist parse; old-Bob literal Return ran before normal parse/preview readiness. Fixed only the tests: await the exact live-preview argv, mirror editor attributedDraft binding and assert digit parse/replay count, and await ordinary grammar/preview readiness before unsupported-alias Return. No production changes this turn. git diff --check passes. Prior Rust just check, contract/fixtures and 2269 portable tests remain valid. Prepared verify_mac_assertions.py beside earlier logs to run changed Swift lint, scratch Mac typecheck and full precommit macOS CI; keep phase open until precommit passes, finalization lands the repair, and exact pushed-SHA CI is green. No memory edits or new beads.
 
 [2026-11-08T23:17:28Z · bob-cli-is.3--3] Precommit verification is green: monitor rdq6yb396zeq / ToolRun 58ccf78cbfda74f5d221f92796ab32e0 passed changed Swift formatting, scratch Mac build and all test target typechecks, and full macOS CI run 42532454467 (snapshot 051d77bc8113377adc99b339a19ddf2f017f8e4c). Lint, Build, Test, Bundle, signature, launch smoke, and install/reinstall all passed. Confirmed the complete current working tree equals verified tree 1609ffac2fc9854d7f5cc26bc05c580f4477163f; no source changes this continuation. Prior primary just check cb2b2b563e9a1f27678567162722aa49, 48 contract cases/fixtures, docs check and 2269 portable tests (1 skipped) remain applicable. Preparing explicit sase_final commit for bob-mac-capture and a post-finalization exact-SHA CI watch. Keep this phase in progress until pushed-SHA CI is green; then check epic-symbols and close only bob-cli-is.3. No memory edits or new beads.
+
+[2026-11-08T23:23:25Z · bob-cli-is.3--4] Post-finalization audit: repair landed as 0f6753bf429b9b1b86454fb8d95a17ce965a8f1c on master. The initial watcher stopped because finalization rebased onto concurrent dot-route commit e7ddfc66a7c150fbca899be44ed0474fcc06769e (bob-cli-iu.2), so the full tree legitimately changed. Verified git merge-tree --write-tree e7ddfc66a7c150fbca899be44ed0474fcc06769e 051d77bc8113377adc99b339a19ddf2f017f8e4c reproduces actual final tree b17575c903c52e9954188acf023ec455157736b4 exactly; the tested repair is preserved, with no extra merge edits. Checkout clean and git diff --check passes. Exact-SHA master push CI 42534561890 has passed lint/build and is running tests. Prepared watch_reviewed_pushed_ci.py and postcommit-ci-reviewed-config.json beside prior verification logs; watcher pins the landed SHA, revalidates the merge proof and applies the repository gate coverage rules. No source/memory changes or new beads; keep phase open pending this run, then epic-symbols and close only bob-cli-is.3.
+
+[2026-11-08T23:40:27Z · bob-cli-is.3--5] Completed Mac x/s close-outcome forwarding, old-Bob capability detection, meaning-changing hold/replay integration, fixtures, docs, and regression coverage. Repair is committed and pushed as 0f6753bf429b9b1b86454fb8d95a17ce965a8f1c. Exact-SHA master push CI https://github.com/bobs-org/bob-mac-capture/actions/runs/42534561890 passed every required macOS gate: lint, build, tests, bundle, plist/signature, launch smoke, install/reinstall (monitor sxnaevexxfcm; saved pushed-ci-result.json independently evaluated with repository gate, exit 0). Finalization rebase was previously audited: merge of parent e7ddfc66a7c150fbca899be44ed0474fcc06769e and tested snapshot 051d77bc8113377adc99b339a19ddf2f017f8e4c reproduces landed tree b17575c903c52e9954188acf023ec455157736b4. Earlier hold phase 03392a55eb87577ac8bd1b69c381949cc9e2024b passed CI 42519302906. Other passing verification: full precommit macOS CI 42532454467; primary just check ToolRun cb2b2b563e9a1f27678567162722aa49; 48 Bob binding-contract cases and generated fixtures; docs check; 2269 portable tests with 1 skipped; scratch Mac app compilation and all test target typechecks. No Mac targets remain unverified. epic-symbols reports no entries. No source or memory edits or new beads in this closure turn; closing only bob-cli-is.3, leaving parent closure to its land agent.
 
 ## Dependencies
 
@@ -49,6 +53,7 @@ mac-close-alias: forward lowercase non-repeat x/s keys through a lexical send pr
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.2.1.land][1] | Need the child scope to see whether it caused the mac-capture docs budget overage | 1 |
 | read-by | [agent:bob-cli-is.3][2] | Need to add verification status note before handoff | 4 |
+| read-by | [agent:bob-cli-is.3--3][2] | Need the phase scope and design file; confirm verification and remaining exact-SHA CI close requirement | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ir.2.1.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.3.md

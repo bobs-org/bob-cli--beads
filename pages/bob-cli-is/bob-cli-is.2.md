@@ -17,7 +17,7 @@ mac-type-ahead-hold: generalize the past-segment dash Return deferral into a mea
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-is.3](bob-cli-is.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-is.3](bob-cli-is.3.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
