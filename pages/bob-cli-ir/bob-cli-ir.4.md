@@ -27,9 +27,3 @@ records-vault: add the restaurant and podcast records config through chezmoi, te
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.4/README.md) | [bob-cli-ir.4](bob-cli-ir.4.md) | 0 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@0d3e43f`](https://github.com/bbugyi200/dotfiles/commit/0d3e43fb8777d035e346b2ef6889663fe12614f3) | feat(records): add restaurant and podcast record types | [bob-cli-ir.4](bob-cli-ir.4.md) | 2026-11-08 19:12:47 EST |
