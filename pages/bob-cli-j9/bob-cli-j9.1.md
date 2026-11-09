@@ -19,7 +19,7 @@ bob-alias-tips: stamp an AliasId on every forward sigil alias, add the sigil_ali
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j9.3](bob-cli-j9.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j9.3](bob-cli-j9.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

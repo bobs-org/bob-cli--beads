@@ -21,7 +21,7 @@ mac-tip-core: decode the new capture-rewrite fields in CaptureCore and add the l
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j9.3](bob-cli-j9.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j9.3](bob-cli-j9.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
