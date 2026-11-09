@@ -19,4 +19,4 @@ mac: decode `size`, draw both-direction arrows and the `Nx · as of HH:MM` chip,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ix.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ix.4/README.md) | [bob-cli-ix.4](bob-cli-ix.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ix.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.4.md) | [bob-cli-ix.4](bob-cli-ix.4.md) | 0 |

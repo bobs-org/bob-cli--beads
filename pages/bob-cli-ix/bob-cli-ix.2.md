@@ -18,7 +18,7 @@ execute: stage exactly 5N minutes from the session start, close at C = min(S + 5
 ## Dependencies
 
 - **Depends on:** [bob-cli-ix.1](bob-cli-ix.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-ix.3](bob-cli-ix.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-ix.3](bob-cli-ix.3.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-ix.4](bob-cli-ix.4.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
