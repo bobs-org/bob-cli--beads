@@ -32,7 +32,9 @@ notebook-ui-data: implement the notebook JSON adapter, shared report cache, life
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j8.6.1.1--1][1] | Need the phase scope, design file, decisions, and recorded notes before completing the authorized deployment | 2 |
+| read-by | [agent:bob-cli-j8.6.1.2][2] | Need closed data-phase notes so catalog UI can reuse its cache/sync APIs | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.2/README.md
 
 <!-- sase:referenced-by:end -->

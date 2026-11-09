@@ -13,7 +13,7 @@ notebook-note-writes: implement section resolution, note and sub-note placement,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j8.3.1.4](bob-cli-j8.3.1.4.md) ◐ · ⧖ 2026-11-09
 
 ## Agents

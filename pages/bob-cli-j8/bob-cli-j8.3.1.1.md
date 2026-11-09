@@ -17,7 +17,7 @@ notebook-route-language: build the invocation-local NotebookRoutePolicy and impl
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
