@@ -34,3 +34,15 @@ mac-dot-fast-escape: generalize the `=` gesture arm and probe by key so a fast `
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e7ddfc6`](https://github.com/bobs-org/bob-mac-capture/commit/e7ddfc66a7c150fbca899be44ed0474fcc06769e) | feat(mac-capture): escape dot-route alias with fast .. and restores | [bob-cli-iu.2](bob-cli-iu.2.md) | 2026-11-08 18:03:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iu.2--1][1] | Check if earlier dot-route alias work landed and bead state before redoing verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-iu.2.md
+
+<!-- sase:referenced-by:end -->
