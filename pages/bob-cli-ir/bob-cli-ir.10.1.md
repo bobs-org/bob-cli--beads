@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_record_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_record_card.md
 
@@ -71,8 +71,10 @@ Follow-up triage: .4 note #4 fixed here; no new external follow-ups. epic-symbol
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.10.1.1][1] | Need parent epic DECISIONS and any notes about field-addressing | 2 |
 | read-by | [agent:bob-cli-ir.10.1.3][2] | Need the parent epic decisions and design context governing this phase | 1 |
+| read-by | [agent:bob-cli-ir.10.1.land--2][3] | Need the parent link | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
 
 <!-- sase:referenced-by:end -->

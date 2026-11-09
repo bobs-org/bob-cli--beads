@@ -39,8 +39,10 @@ field-addressing: add the bounded bob-cli completion support needed for named Re
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.10.1.1][1] | Need the phase scope and design file before finishing remaining work | 3 |
 | read-by | [agent:bob-cli-ir.10.1.2][2] | Need prior phase contract to build card-contract on top | 1 |
+| read-by | [agent:bob-cli-ir.10.1.land--2][3] | Need closed child notes and outcomes before landing closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -35,7 +35,11 @@ Final revisions: bob-cli 5e49fa5e (named-field) at HEAD 941ee724; Mac child 1e6f
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.10.1.3][1] | Need outer phase decisions and recorded completion notes governing this child epic | 1 |
+| read-by | [agent:bob-cli-ir.10.1.land--2][2] | Need parent phase status after child close | 2 |
+| read-by | [agent:d5][3] | Know what the shipped Mac Record Card does for the user report | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
 
 <!-- sase:referenced-by:end -->

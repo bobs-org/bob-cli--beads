@@ -39,7 +39,9 @@ guided-interaction: integrate record state, Bob-authored completion edits and co
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.10.1.3][1] | Need the phase scope, design file, and prior notes before implementing the assigned phase | 1 |
+| read-by | [agent:bob-cli-ir.10.1.land--2][2] | Need closed child notes and outcomes before landing closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
 
 <!-- sase:referenced-by:end -->

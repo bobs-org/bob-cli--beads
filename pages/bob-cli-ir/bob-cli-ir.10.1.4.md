@@ -48,8 +48,10 @@ card-surface: render the Record Card in the picker slot with persistent labels, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.10.1.3][1] | Need the neighboring phase's file scope before editing shared panel and view code | 1 |
 | read-by | [agent:bob-cli-ir.10.1.4--1][2] | Need the phase scope, notes, and design file after CI failure | 1 |
+| read-by | [agent:bob-cli-ir.10.1.land--2][3] | Need closed child notes and outcomes before landing closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
 
 <!-- sase:referenced-by:end -->

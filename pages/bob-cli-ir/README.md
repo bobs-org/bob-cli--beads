@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_notes.md
 
@@ -31,13 +31,23 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 
 [2026-11-09T13:59:48Z · bob-cli-ix.land] DISCOVERED ISSUE: Proposed by bob-cli-ix.3 note #1 and independently source-verified by bob-cli-ix.land on 7fe12b33: 44427b30 (bob-cli-ir.8) changed src/runner.rs capture-related about to List existing tasks and record notes a new capture may duplicate, but tests/fixtures/help/root-long.txt still says List existing tasks that a new capture may duplicate. Phase ix.3 reported help::root_help_matches_sectioned_short_and_long_snapshots failing. 262f3cfc refreshed only the records row, leaving this mismatch. Repair the capture-related root-long fixture within the causally owning Record Notes epic; no duplicate task was found by same-type/all-type searches or the one-week sweep. This lander did not rerun the Rust suite.
 
+[2026-11-09T15:10:49Z · 1ac] DISCOVERED ISSUE: tests/cli/help.rs help::root_help_matches_sectioned_short_and_long_snapshots fails on master (7fe12b33). Phase bob-cli-ir.8 (commit 44427b30, 'feat(capture)!: show similar records in capture-related') changed the capture-related about text to 'List existing tasks and record notes a new capture may duplicate' in src/runner.rs:1012 and src/native/capture_related.rs:77, but did not refresh tests/fixtures/help/root-long.txt (still 'List existing tasks that a new capture may duplicate'). Repro: cargo test --test cli help::root_help_matches_sectioned_short_and_long_snapshots. Fix: refresh the root long-help snapshot (and check root-short.txt).
+
+[2026-11-09T16:20:10Z · d5] DISCOVERED ISSUE: A record update that adds a NEW ALL-CAPS section (for example `@@eat/ninja_sushi` with `- MUST ORDER` / `  - Dragon roll`) writes `## Must Order` with no blank line before it: directly after the closing code fence of `## Source` on migrated notes, or after the last `## Notes` bullet on bob-created notes. Create inserts the blank line correctly.
+
+Repro on master f231b9d3 with installed bob 0.5.0 in a throwaway vault: bob capture --dry-run -- "$(printf '%s\n' '@eat/ninja_sushi' '- MUST ORDER' '  - Dragon roll')" prints the fence line immediately followed by '## Must Order'; a real commit writes the same bytes.
+
+Root cause: src/native/records/render.rs append_section_bullets, no-matching-heading branch (~line 1552), pushes the blank separator only when the last body line is non-blank AND has an empty line ending (a file without a trailing newline). A normal file ending in a newline skips the separator.
+
+Fix: push a blank line whenever the last body line is non-blank, regardless of its ending; add goldens for notes ending in a fence and in a bullet. Impact: cosmetic (Obsidian still renders the heading) but breaks the note style. Found while researching record-note UX (research:202611/record_notes_capture_ux.md).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ir.1](bob-cli-ir.1.md) | Capture installs new files without ever replacing one | ✓ closed | small | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.10](bob-cli-ir.10.md) | Mac Record Card and guided entry | ✓ closed | large | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.11](bob-cli-ir.11.md) | Mac new-note preview and success line | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
+| [bob-cli-ir.11](bob-cli-ir.11.md) | Mac new-note preview and success line | ◐ in_progress | large | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.12](bob-cli-ir.12.md) | Mac updates, existing-record rows, and Similar records | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.13](bob-cli-ir.13.md) | Guide, documentation audit, end-to-end proof, and memory | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.2](bob-cli-ir.2.md) | Records schema, catalog, renderer, and planner | ✓ closed | large | 2026-11-08 | 1 | 0 |
@@ -46,8 +56,8 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 | [bob-cli-ir.5](bob-cli-ir.5.md) | Capture grammar for new records | ✓ closed | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.6](bob-cli-ir.6.md) | Guided field entry in capture-complete | ✓ closed | large | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.7](bob-cli-ir.7.md) | Add to an existing record with @dir/stem | ✓ closed | large | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.8](bob-cli-ir.8.md) | Similar records in capture-related | ✓ closed | medium | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.9](bob-cli-ir.9.md) | bob records init plus show and movie types | ✓ closed | medium | 2026-11-08 | 1 | 0 |
+| [bob-cli-ir.8](bob-cli-ir.8.md) | Similar records in capture-related | ✓ closed | medium | 2026-11-08 | 1 | 1 |
+| [bob-cli-ir.9](bob-cli-ir.9.md) | bob records init plus show and movie types | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 
 ## Lineage
 
@@ -166,7 +176,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md) | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 3 |
-| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.11/README.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.11.md) | [bob-cli-ir.11](bob-cli-ir.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.12/README.md) | [bob-cli-ir.12](bob-cli-ir.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.13/README.md) | [bob-cli-ir.13](bob-cli-ir.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.md) | [bob-cli-ir.2](bob-cli-ir.2.md) | 0 |
@@ -191,8 +201,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md) | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.9.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.land/README.md) | [bob-cli-ir](README.md) | 0 |
 
 ## Commits
@@ -227,9 +237,12 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@4bca5da`](https://github.com/bobs-org/bob-mac-capture/commit/4bca5da078afd182d3bf38b5eac1219db338008d) | fix(capture): distinguish set-value tints from the record route chip | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2026-11-09 06:40:45 EST |
 | bob-cli | [`941ee72`](https://github.com/bobs-org/bob-cli/commit/941ee724de7c4767e02623585ad62a0893ca98d2) | feat(capture): land existing-record update fixes | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:07:20 EST |
 | bob-cli--plans | [`bob-cli--plans@2c460ed`](https://github.com/bobs-org/bob-cli--plans/commit/2c460ed80578757da28538e6fab158886d7d3e74) | docs(plans): mark record append landing done | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:08:07 EST |
+| bob-cli | [`44427b3`](https://github.com/bobs-org/bob-cli/commit/44427b30fab9705a7f0569d8588a1d9767d57d34) | feat(capture)!: show similar records in capture-related | [bob-cli-ir.8](bob-cli-ir.8.md) | 2026-11-09 07:47:09 EST |
+| bob-cli | [`262f3cf`](https://github.com/bobs-org/bob-cli/commit/262f3cfcbf594449a247bb5925e10ba7ca89fb34) | feat(records): add records init CLI to scaffold type notes and Bases | [bob-cli-ir.9](bob-cli-ir.9.md) | 2026-11-09 08:25:16 EST |
 | bob-mac-capture | [`bob-mac-capture@c09e2bc`](https://github.com/bobs-org/bob-mac-capture/commit/c09e2bcd6538e90c56030374900550a1d6053817) | fix(capture): agree Record Card completion with keyboard acceptance | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 08:28:34 EST |
 | bob-mac-capture | [`bob-mac-capture@eded3b9`](https://github.com/bobs-org/bob-mac-capture/commit/eded3b9ca680244939ec9c69a71dac7484e4b683) | fix(capture): keep Record Return through last-field analysis | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:10:10 EST |
 | bob-cli--plans | [`bob-cli--plans@9b8ff3a`](https://github.com/bobs-org/bob-cli--plans/commit/9b8ff3a160676ea8b2ecad76bca8316fc064ae96) | docs(plans): mark mac\_record\_card epic plan done | [bob-cli-ir.10.1](bob-cli-ir.10.1.md) | 2026-11-09 09:40:12 EST |
+| bob-cli | [`84ff0bb`](https://github.com/bobs-org/bob-cli/commit/84ff0bb8ed9dd12bfc9dc5741319b30ccf26a93a) | feat(capture): add per-item record\_note summary to record JSON output | [bob-cli-ir.11](bob-cli-ir.11.md) | 2026-11-09 11:38:45 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -237,18 +250,24 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ir.2.1.3][1] | Need top epic decisions | 1 |
-| read-by | [agent:research.3t.cdx][2] | Understand record notes scope, existing design, and intended workflows for independent cdx research | 1 |
-| read-by | [agent:research.3t.cld][3] | Research context: user asked about record notes epic to evaluate its potential | 1 |
-| read-by | [agent:research.3t.final][4] | Ground consolidated record-notes research in the epic's scope and status | 1 |
-| read-by | [agent:research.3t.grk][5] | Need the Record Notes epic bead description, decisions, and notes as primary context | 2 |
-| read-by | [agent:research.3t.mus][6] | research record notes unlock potential | 1 |
+| read-by | [agent:1ac][1] | Check whether the capture-related help snapshot break belongs to the Record Notes epic | 1 |
+| read-by | [agent:bob-cli-ir.10.1.land--2][2] | Confirm containing epic remains open for waiting land agent | 1 |
+| read-by | [agent:bob-cli-ir.2.1.3][3] | Need top epic decisions | 1 |
+| read-by | [agent:d5][4] | Check whether the discovered-issue note was recorded before retrying | 2 |
+| read-by | [agent:research.3t.cdx][5] | Understand record notes scope, existing design, and intended workflows for independent cdx research | 1 |
+| read-by | [agent:research.3t.cld][6] | Research context: user asked about record notes epic to evaluate its potential | 1 |
+| read-by | [agent:research.3t.final][7] | Ground consolidated record-notes research in the epic's scope and status | 1 |
+| read-by | [agent:research.3t.grk][8] | Need the Record Notes epic bead description, decisions, and notes as primary context | 2 |
+| read-by | [agent:research.3t.mus][9] | research record notes unlock potential | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cdx/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.final/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.grk/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ac.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.d5/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cdx/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.cld/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.final/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.grk/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
 
 <!-- sase:referenced-by:end -->
