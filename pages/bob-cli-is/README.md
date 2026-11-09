@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-is.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-is.1/README.md) | [bob-cli-is.1](bob-cli-is.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-is.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.2.md) | [bob-cli-is.2](bob-cli-is.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-is.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.3.md) | [bob-cli-is.3](bob-cli-is.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-is.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.land.md) | [bob-cli-is](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-is.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-is.land.md) | [bob-cli-is](README.md) | 2 |
 
 ## Commits
 
@@ -90,6 +90,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@2a39c2f`](https://github.com/bobs-org/bob-mac-capture/commit/2a39c2ffac859a2d1594171ef835b8d6a7b9c6f3) | feat(mac-capture): alias x and s to close outcomes | [bob-cli-is.3](bob-cli-is.3.md) | 2026-11-08 16:07:25 EST |
 | bob-mac-capture | [`bob-mac-capture@0f6753b`](https://github.com/bobs-org/bob-mac-capture/commit/0f6753bf429b9b1b86454fb8d95a17ce965a8f1c) | fix(mac-capture): verify close aliases and isolate probe and replay races | [bob-cli-is.3](bob-cli-is.3.md) | 2026-11-08 18:18:45 EST |
 | bob-cli | [`274eeae`](https://github.com/bobs-org/bob-cli/commit/274eeae7e910526bd6b534a703f83759a5a1463d) | docs(capture): distinguish Mac xx/xs typing from grammar close | [bob-cli-is](README.md) | 2026-11-08 19:43:57 EST |
+| bob-mac-capture | [`bob-mac-capture@d6c3cd2`](https://github.com/bobs-org/bob-mac-capture/commit/d6c3cd267834d33bf228973163de17642beed741) | fix(mac-capture): drain type-ahead replay after Bob replies | [bob-cli-is](README.md) | 2026-11-08 19:44:37 EST |
 
 <!-- sase:referenced-by:start -->
 
