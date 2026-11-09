@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/guarded_archive_writer.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/guarded_archive_writer.md
 
@@ -38,7 +38,9 @@ Archive writes preserve concurrent edits and recoverable history, detect exact r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j5.2.1.1--1][1] | Need parent epic DECISIONS that this phase must honor | 1 |
+| read-by | [agent:bob-cli-j5.2.1.2][2] | Need parent epic decisions and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.2.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->

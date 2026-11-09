@@ -18,7 +18,7 @@ archive-snapshot: capture every archive-planning input once, detect exact block 
 ## Dependencies
 
 - **Depends on:** [bob-cli-j5.2.1.1](bob-cli-j5.2.1.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.2.1.3](bob-cli-j5.2.1.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.2.1.3](bob-cli-j5.2.1.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -31,3 +31,15 @@ archive-snapshot: capture every archive-planning input once, detect exact block 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`37df0e5`](https://github.com/bobs-org/bob-cli/commit/37df0e52cf364c82bf5017ea8ee74d9443f66801) | feat(collect-done): snapshot inputs with exact replay and plan-wide refusal | [bob-cli-j5.2.1.2](bob-cli-j5.2.1.2.md) | 2026-11-09 14:18:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j5.2.1.2][1] | check prior notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->
