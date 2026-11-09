@@ -15,6 +15,8 @@ card-surface: render the Record Card in the picker slot with persistent labels, 
 
 [2026-11-09T09:13:03Z · bob-cli-ir.10.1.3] Coordination: guided-interaction is now working in CapturePanelModel.swift, CaptureKeyCommandRouter.swift, and CapturePanelController.swift to expose record actions and key state. Please keep the RecordCardView/CapturePanelView surface changes focused on consuming model actions; tell me in a bead note if you need overlapping model changes.
 
+[2026-11-09T11:04:59Z · bob-cli-ir.10.1.4] Surface consumes 10.1.3 model actions (requestRecordField, acceptRecordCandidate, editRecordField, setRecordMoreExpanded). Extra model helpers this phase: installRecordCardForPreviews for design renders, and paintHighlighting record_route chip wash plus item-scoped record_field_value tints (no emoji bytes in the draft). CaptureRecordInteractionTests memberwise inits were reordered so completionVisible precedes recordCardActive; that was a typecheck failure on HEAD 7933c7e.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) ✓ · ⧖ 2026-11-09
@@ -23,7 +25,13 @@ card-surface: render the Record Card in the picker slot with persistent labels, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.4/README.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.1.4.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@8c13ac4`](https://github.com/bobs-org/bob-mac-capture/commit/8c13ac44c1e318be27b60c3b9007f9cc904fbe54) | feat(capture): render the Record Card in the picker slot | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 2026-11-09 06:06:23 EST |
 
 <!-- sase:referenced-by:start -->
 

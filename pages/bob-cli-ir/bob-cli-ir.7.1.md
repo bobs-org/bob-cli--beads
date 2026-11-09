@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_append.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_append.md
 
@@ -40,11 +40,13 @@ Complete bob-cli-ir.7 so capture and bob records update edit existing records wi
 | read-by | [agent:bob-cli-ir.7.1.1][1] | Need parent epic DECISIONS and scope | 1 |
 | read-by | [agent:bob-cli-ir.7.1.2][2] | Need parent epic decisions and phase status context for assigned work | 1 |
 | read-by | [agent:bob-cli-ir.7.1.3][3] | Need parent epic DECISIONS and phase design | 2 |
-| read-by | [agent:bob-cli-ir.7.1.5][4] | Need epic DECISIONS and child status | 2 |
+| read-by | [agent:bob-cli-ir.7.1.4][4] | Need the parent epic decisions and governing phase context | 1 |
+| read-by | [agent:bob-cli-ir.7.1.5][5] | Need epic DECISIONS and child status | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md
 
 <!-- sase:referenced-by:end -->

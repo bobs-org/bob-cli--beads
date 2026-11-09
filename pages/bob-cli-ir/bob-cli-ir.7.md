@@ -22,3 +22,15 @@ capture-record-append: make @dir/<stem> append dated notes and set fields on an 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.7.1.4][1] | Need the parent epic decisions and governing phase context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md
+
+<!-- sase:referenced-by:end -->

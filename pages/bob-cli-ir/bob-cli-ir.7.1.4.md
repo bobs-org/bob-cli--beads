@@ -23,13 +23,7 @@ update-assist: add record_target completion and update-aware field assistance; a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`a729a8f`](https://github.com/bobs-org/bob-cli/commit/a729a8fdc448d047413d67330cd683f1cc176b59) | feat(capture): add update-aware record assistance | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 2026-11-09 05:50:38 EST |
+| [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -37,8 +31,10 @@ update-assist: add record_target completion and update-aware field assistance; a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ir.7.1.5][1] | Need sibling phase status | 1 |
+| read-by | [agent:bob-cli-ir.7.1.4][1] | Need to confirm recorded notes and prior remaining work | 2 |
+| read-by | [agent:bob-cli-ir.7.1.5][2] | Need sibling phase status | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md
 
 <!-- sase:referenced-by:end -->
