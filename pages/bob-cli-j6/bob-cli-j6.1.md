@@ -19,7 +19,7 @@ bob-modifier-aliases: add the completion-gated `.` → `&` and `;` → `*` fallb
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j6.2](bob-cli-j6.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j6.2](bob-cli-j6.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -32,3 +32,15 @@ bob-modifier-aliases: add the completion-gated `.` → `&` and `;` → `*` fallb
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0f31c59`](https://github.com/bobs-org/bob-cli/commit/0f31c592fc22800923e556b70066704603fad526) | feat(capture): alias . to & and ; to \* in capture drafts | [bob-cli-j6.1](bob-cli-j6.1.md) | 2026-11-09 11:32:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j6.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j6.1/README.md
+
+<!-- sase:referenced-by:end -->
