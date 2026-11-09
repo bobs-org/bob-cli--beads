@@ -39,7 +39,7 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 | [bob-cli-ir.12](bob-cli-ir.12.md) | Mac updates, existing-record rows, and Similar records | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.13](bob-cli-ir.13.md) | Guide, documentation audit, end-to-end proof, and memory | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.2](bob-cli-ir.2.md) | Records schema, catalog, renderer, and planner | ✓ closed | large | 2026-11-08 | 1 | 0 |
-| [bob-cli-ir.3](bob-cli-ir.3.md) | bob records list, show, check, and new | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
+| [bob-cli-ir.3](bob-cli-ir.3.md) | bob records list, show, check, and new | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [bob-cli-ir.4](bob-cli-ir.4.md) | Restaurant and podcast schemas go live in config and the vault | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.5](bob-cli-ir.5.md) | Capture grammar for new records | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.6](bob-cli-ir.6.md) | Guided field entry in capture-complete | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
@@ -63,13 +63,18 @@ flowchart TD
     n9["bob-cli-ir.2.1.2: Lazy per-folder records index and suggestions [closed]"]
     n10["bob-cli-ir.2.1.3: Typed record rendering and byte-preserving updates [closed]"]
     n11["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [closed]"]
-    n12["bob-cli-ir.3: bob records list, show, check, and new [in_progress]"]
+    n12["bob-cli-ir.3: bob records list, show, check, and new [closed]"]
     n13["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [in_progress]"]
     n14["bob-cli-ir.5: Capture grammar for new records [in_progress]"]
-    n15["bob-cli-ir.6: Guided field entry in capture-complete [in_progress]"]
-    n16["bob-cli-ir.7: Add to an existing record with @dir/stem [in_progress]"]
-    n17["bob-cli-ir.8: Similar records in capture-related [in_progress]"]
-    n18["bob-cli-ir.9: bob records init plus show and movie types [in_progress]"]
+    n15["bob-cli-ir.5.1: Capture creates record notes [in_progress]"]
+    n16["bob-cli-ir.5.1.1: Recognize record items before task marker parsing [in_progress]"]
+    n17["bob-cli-ir.5.1.2: Resolve record metadata and expose discovery rows [in_progress]"]
+    n18["bob-cli-ir.5.1.3: Create records through the capture transaction [in_progress]"]
+    n19["bob-cli-ir.5.1.4: Publish the record capture contract and acceptance evidence [in_progress]"]
+    n20["bob-cli-ir.6: Guided field entry in capture-complete [in_progress]"]
+    n21["bob-cli-ir.7: Add to an existing record with @dir/stem [in_progress]"]
+    n22["bob-cli-ir.8: Similar records in capture-related [in_progress]"]
+    n23["bob-cli-ir.9: bob records init plus show and movie types [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -84,10 +89,15 @@ flowchart TD
     n0 --> n12
     n0 --> n13
     n0 --> n14
-    n0 --> n15
-    n0 --> n16
-    n0 --> n17
-    n0 --> n18
+    n14 --> n15
+    n15 --> n16
+    n15 --> n17
+    n15 --> n18
+    n15 --> n19
+    n0 --> n20
+    n0 --> n21
+    n0 --> n22
+    n0 --> n23
     n1 -.-> n12
     n1 -.-> n14
     n2 -.-> n3
@@ -100,15 +110,18 @@ flowchart TD
     n9 -.-> n11
     n10 -.-> n11
     n12 -.-> n13
-    n13 -.-> n18
+    n13 -.-> n23
     n14 -.-> n3
-    n14 -.-> n15
-    n15 -.-> n2
-    n15 -.-> n16
+    n14 -.-> n20
     n16 -.-> n17
-    n16 -.-> n18
-    n17 -.-> n4
-    n18 -.-> n5
+    n17 -.-> n18
+    n18 -.-> n19
+    n20 -.-> n2
+    n20 -.-> n21
+    n21 -.-> n22
+    n21 -.-> n23
+    n22 -.-> n4
+    n23 -.-> n5
 ```
 
 ## Agents
@@ -126,9 +139,14 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md) | [bob-cli-ir.2.1.3](bob-cli-ir.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.4/README.md) | [bob-cli-ir.2.1.4](bob-cli-ir.2.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.land/README.md) | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 3 |
-| [bbugyi200.athena.bob-cli-ir.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.3/README.md) | [bob-cli-ir.3](bob-cli-ir.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.3/README.md) | [bob-cli-ir.3](bob-cli-ir.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.4/README.md) | [bob-cli-ir.4](bob-cli-ir.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5/README.md) | [bob-cli-ir.5](bob-cli-ir.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.md) | [bob-cli-ir.5](bob-cli-ir.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.1/README.md) | [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.2/README.md) | [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md) | [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.4/README.md) | [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.land/README.md) | [bob-cli-ir.5.1](bob-cli-ir.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.6/README.md) | [bob-cli-ir.6](bob-cli-ir.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7/README.md) | [bob-cli-ir.7](bob-cli-ir.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 0 |
@@ -147,6 +165,7 @@ flowchart TD
 | bob-cli | [`8ff0d8e`](https://github.com/bobs-org/bob-cli/commit/8ff0d8ed5a43b34977a6acaf4473159fe977e600) | feat(records): harden planning and byte-preserving updates | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 14:25:40 EST |
 | bob-cli | [`361974f`](https://github.com/bobs-org/bob-cli/commit/361974f48eef7e2ba1fdc8ad97a1916835a6d20b) | fix(records): map stemless titles to record\_title and document engine allowances | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 18:15:09 EST |
 | bob-cli--plans | [`bob-cli--plans@1b530a4`](https://github.com/bobs-org/bob-cli--plans/commit/1b530a431b8b0a68bc5d28f1671910b224f30036) | chore(plans): mark records engine epic done | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 18:15:40 EST |
+| bob-cli | [`3e68a53`](https://github.com/bobs-org/bob-cli/commit/3e68a53acd5c75feaf4f26fb6dab206f2a1a84aa) | feat(records): add records CLI and docs | [bob-cli-ir.3](bob-cli-ir.3.md) | 2026-11-08 19:04:25 EST |
 
 <!-- sase:referenced-by:start -->
 

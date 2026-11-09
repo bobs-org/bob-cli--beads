@@ -40,8 +40,10 @@ planner-contract: compose the engine into side-effect-free creation plans with f
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.2.1.3][1] | Need sibling phase status to check prior work | 1 |
 | read-by | [agent:bob-cli-ir.2.1.4][2] | Need the phase scope, design file, and prior work notes before continuing this assigned phase | 4 |
+| read-by | [agent:bob-cli-ir.2.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.1.land.md
 
 <!-- sase:referenced-by:end -->

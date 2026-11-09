@@ -42,8 +42,10 @@ folder-index: implement frontmatter-only folder discovery, case-insensitive stem
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.2.1.2][1] | Need remaining notes, DECISIONS, design file, and any earlier agent remainder | 3 |
 | read-by | [agent:bob-cli-ir.2.1.3][2] | Need sibling phase status to check prior work | 2 |
+| read-by | [agent:bob-cli-ir.2.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.1.land.md
 
 <!-- sase:referenced-by:end -->

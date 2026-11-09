@@ -41,7 +41,9 @@ render-edit: render new record notes and implement conservative field and note e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ir.2.1.3][1] | Need the phase scope and design file | 5 |
+| read-by | [agent:bob-cli-ir.2.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.2.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.1.land.md
 
 <!-- sase:referenced-by:end -->

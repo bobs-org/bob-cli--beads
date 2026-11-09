@@ -21,7 +21,7 @@ records-engine: add the records config block and its validation, the per-folder 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ir.3](bob-cli-ir.3.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.3](bob-cli-ir.3.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.5](bob-cli-ir.5.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
@@ -36,8 +36,10 @@ records-engine: add the records config block and its validation, the per-folder 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.3t.mus][1] | research record notes unlock potential | 1 |
+| read-by | [agent:bob-cli-ir.2.1.land][1] | Need the parent link and phase scope to close it after this epic lands | 2 |
+| read-by | [agent:research.3t.mus][2] | research record notes unlock potential | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.2.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.3t.mus/README.md
 
 <!-- sase:referenced-by:end -->

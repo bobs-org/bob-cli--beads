@@ -13,7 +13,7 @@ records-vault: add the restaurant and podcast records config through chezmoi, te
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.3](bob-cli-ir.3.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.3](bob-cli-ir.3.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.9](bob-cli-ir.9.md) ◐ · ⧖ 2026-11-08
 
 ## Agents
