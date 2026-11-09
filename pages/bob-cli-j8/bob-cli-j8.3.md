@@ -11,6 +11,10 @@
 
 capture-notebook-notes: add the memoized notebook route policy and teach capture that a notebook route writes notes: `@nb`, `@nb#section` (exact, created on demand, near misses refused), `@nb^id`, `@nb#section^id` (new on every route), `@nb+id` sub-notes, lists, draft-wide `@@nb`, URLs, `--route`, teaching refusals, parse modes, previews, notebook capture-targets rows, and the grammar bump.
 
+## Notes
+
+[2026-11-09T18:49:17Z · bob-cli-j8.3] Planning evidence: prerequisite notebook recognition/list/check landed in 0a74731b; no prior-work notes or notebook capture policy/writer were present. Authored and validated a four-phase child epic covering shared route parsing, draft composition, guarded writes, then targets/docs/integration. The child land agent is tasked with verifying and closing this phase; no implementation changes made in this planning turn. Audited read of research:202611/bob_notebooks/bob_notebooks.md returned missing, so the binding parent plan supplies the contract. No epic-symbol entries currently belong to bob-cli-j8.3.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-j8.1](bob-cli-j8.1.md) ✓ · ⧖ 2026-11-09
@@ -21,4 +25,4 @@ capture-notebook-notes: add the memoized notebook route policy and teach capture
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3/README.md) | [bob-cli-j8.3](bob-cli-j8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.md) | [bob-cli-j8.3](bob-cli-j8.3.md) | 0 |

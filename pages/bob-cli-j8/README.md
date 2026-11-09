@@ -23,13 +23,17 @@
 
 Bob gains a `type: "[[notebook]]"` note kind for task-free note bullets (optionally under `##` sections) that always hangs under an area, project, or notebook. Capture writes notes into notebooks through the existing `@nb` forms, creates notebooks with `@parent^id@ %n <summary>`, and every area or project shows a beautiful generated `## Notebooks` catalog. 26 existing notes, 11 of them rescued from the zorg dead end, become the first notebooks.
 
+## Notes
+
+[2026-11-09T19:09:15Z · bob-cli-ir.land] DISCOVERED ISSUE (bob-cli-ir.land, Record Notes landing audit on master 0a74731b): j8.1 commit 0a74731b leaves just check red with four lib failures: native::catalog::tests::document_shape (87 vs 85), native::completion::kinds::tests::every_value_arg_has_a_decision (missing kinds decision for notebooks:root), runner::tests::every_native_command_is_on_exactly_one_canonical_path (72 vs 70), and runner::tests::subcommands_are_contiguous_in_section_order_and_alphabetical (notebooks out of alphabetical order in Vault). Repro: cargo test -p bob-obsidian --lib. Separately, just docs-check lint reports docs/reference/json-outputs.md at 6117 words (cap 6000): bob-cli-ir.13 4321fd70 had trimmed it under budget, and 0a74731b's Notebook reports section pushed it back over (the j8.1 note's 6390 base figure was a wc count, not bob-docs count_words). No duplicate task found (searched notebooks/document_shape/every_value_arg/subcommands_are_contiguous, plus the one-week sweep). The Record Notes landing does not touch these.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-j8.1](bob-cli-j8.1.md) | Notebook recognition, bob notebooks list and check, and the contract doc | ✓ closed | large | 2026-11-09 | 1 | 1 |
 | [bob-cli-j8.10](bob-cli-j8.10.md) | End-to-end proof, docs audit, memory, and the wave-2 bead | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
-| [bob-cli-j8.2](bob-cli-j8.2.md) | The generated Notebooks catalog, bob notebooks sync and create, nightly step | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
+| [bob-cli-j8.2](bob-cli-j8.2.md) | The generated Notebooks catalog, bob notebooks sync and create, nightly step | ✓ closed | large | 2026-11-09 | 1 | 1 |
 | [bob-cli-j8.3](bob-cli-j8.3.md) | Capture writes notes into notebooks (the destination decides) | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.4](bob-cli-j8.4.md) | Create notebooks with @parent^id@ %n | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.5](bob-cli-j8.5.md) | Notebook completion, block IDs, and the @@ collapse assist | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
@@ -45,38 +49,51 @@ flowchart TD
     n0["bob-cli-j8: Notebooks — a home for notes under areas and projects [in_progress]"]
     n1["bob-cli-j8.1: Notebook recognition, bob notebooks list and check, and the contract doc [closed]"]
     n2["bob-cli-j8.10: End-to-end proof, docs audit, memory, and the wave-2 bead [in_progress]"]
-    n3["bob-cli-j8.2: The generated Notebooks catalog, bob notebooks sync and create, nightly step [in_progress]"]
+    n3["bob-cli-j8.2: The generated Notebooks catalog, bob notebooks sync and create, nightly step [closed]"]
     n4["bob-cli-j8.3: Capture writes notes into notebooks (the destination decides) [in_progress]"]
-    n5["bob-cli-j8.4: Create notebooks with @parent^id@ %n [in_progress]"]
-    n6["bob-cli-j8.5: Notebook completion, block IDs, and the @@ collapse assist [in_progress]"]
-    n7["bob-cli-j8.6: Beautiful catalog card, live chips, and the notebook header in Obsidian [in_progress]"]
-    n8["bob-cli-j8.7: Obsidian block-ID prompt, pickers, and Create notebook here [in_progress]"]
-    n9["bob-cli-j8.8: Bob Mac Capture presents notebooks [in_progress]"]
-    n10["bob-cli-j8.9: Notebook type note, template, Base, and the wave-1 migration [in_progress]"]
+    n5["bob-cli-j8.3.1: Notebook routes write notes [in_progress]"]
+    n6["bob-cli-j8.3.1.1: Resolve notebook routes and parse individual note captures [in_progress]"]
+    n7["bob-cli-j8.3.1.2: Compose notebook routes with lists, globals, and capture directives [in_progress]"]
+    n8["bob-cli-j8.3.1.3: Write notebook notes through the guarded capture transaction [in_progress]"]
+    n9["bob-cli-j8.3.1.4: Expose notebook capture targets and verify the complete contract [in_progress]"]
+    n10["bob-cli-j8.4: Create notebooks with @parent^id@ %n [in_progress]"]
+    n11["bob-cli-j8.5: Notebook completion, block IDs, and the @@ collapse assist [in_progress]"]
+    n12["bob-cli-j8.6: Beautiful catalog card, live chips, and the notebook header in Obsidian [in_progress]"]
+    n13["bob-cli-j8.7: Obsidian block-ID prompt, pickers, and Create notebook here [in_progress]"]
+    n14["bob-cli-j8.8: Bob Mac Capture presents notebooks [in_progress]"]
+    n15["bob-cli-j8.9: Notebook type note, template, Base, and the wave-1 migration [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
+    n4 --> n5
+    n5 --> n6
+    n5 --> n7
+    n5 --> n8
+    n5 --> n9
     n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
     n1 -.-> n3
     n1 -.-> n4
-    n3 -.-> n5
-    n3 -.-> n7
-    n3 -.-> n8
     n3 -.-> n10
-    n4 -.-> n5
+    n3 -.-> n12
+    n3 -.-> n13
+    n3 -.-> n15
     n4 -.-> n10
-    n5 -.-> n6
-    n6 -.-> n9
-    n7 -.-> n2
-    n8 -.-> n2
-    n9 -.-> n2
-    n10 -.-> n2
+    n4 -.-> n15
+    n6 -.-> n7
+    n7 -.-> n8
+    n8 -.-> n9
+    n10 -.-> n11
+    n11 -.-> n14
+    n12 -.-> n2
+    n13 -.-> n2
+    n14 -.-> n2
+    n15 -.-> n2
 ```
 
 ## Agents
@@ -85,8 +102,13 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-j8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.1.md) | [bob-cli-j8.1](bob-cli-j8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.10/README.md) | [bob-cli-j8.10](bob-cli-j8.10.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.2/README.md) | [bob-cli-j8.2](bob-cli-j8.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3/README.md) | [bob-cli-j8.3](bob-cli-j8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.2.md) | [bob-cli-j8.2](bob-cli-j8.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.md) | [bob-cli-j8.3](bob-cli-j8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.1.1.md) | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.2/README.md) | [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.3/README.md) | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.4/README.md) | [bob-cli-j8.3.1.4](bob-cli-j8.3.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.land/README.md) | [bob-cli-j8.3.1](bob-cli-j8.3.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.4/README.md) | [bob-cli-j8.4](bob-cli-j8.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.5/README.md) | [bob-cli-j8.5](bob-cli-j8.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6/README.md) | [bob-cli-j8.6](bob-cli-j8.6.md) | 0 |
@@ -100,3 +122,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0a74731`](https://github.com/bobs-org/bob-cli/commit/0a74731b24809ad1b7572de977ac8c7a2f9cc59b) | feat(notebooks): recognize notebooks with list, check, and contract docs | [bob-cli-j8.1](bob-cli-j8.1.md) | 2026-11-09 13:41:47 EST |
+| bob-cli | [`55468bf`](https://github.com/bobs-org/bob-cli/commit/55468bffc8f5bbbbb5f7b2440c8cfbd9f1d32452) | feat(notebooks): generate Notebooks catalogs with sync, create, and a nightly step | [bob-cli-j8.2](bob-cli-j8.2.md) | 2026-11-09 15:05:58 EST |

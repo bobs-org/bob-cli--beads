@@ -1,0 +1,30 @@
+# Bead: bob-cli-j8.3.1 — Notebook routes write notes
+
+[Bead Pages](../README.md) / [bob-cli-j8.3](bob-cli-j8.3.md) / bob-cli-j8.3.1
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-j8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.md) · **Assignee:** `bob-cli-j8.3.1.land`
+**Created:** 2026-11-09 13:50:25 EST
+**Plan:** [202611/notebook\_capture\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/notebook_capture_notes.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/notebook_capture_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/notebook_capture_notes.md
+
+<!-- sase:links:end -->
+
+## Description
+
+Complete bob-cli-j8.3 with shared notebook capture parsing, guarded note writes, accurate previews, opt-in targets, and verified contracts.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-j8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.land/README.md) | [bob-cli-j8.3.1](bob-cli-j8.3.1.md) | 0 |

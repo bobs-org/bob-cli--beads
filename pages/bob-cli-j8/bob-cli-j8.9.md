@@ -14,7 +14,7 @@ notebook-vault: once every host runs a bob with notebook capture, add the `noteb
 ## Dependencies
 
 - **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ◐ · ⧖ 2026-11-09
-- **Depends on:** [bob-cli-j8.2](bob-cli-j8.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.2](bob-cli-j8.2.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j8.3](bob-cli-j8.3.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
