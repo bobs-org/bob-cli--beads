@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j9.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.2.md) | [bob-cli-j9.2](bob-cli-j9.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j9.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.3.md) | [bob-cli-j9.3](bob-cli-j9.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-j9.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j9.4/README.md) | [bob-cli-j9.4](bob-cli-j9.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-j9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.land.md) | [bob-cli-j9](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-j9.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j9.land.md) | [bob-cli-j9](README.md) | 3 |
 
 ## Commits
 
@@ -99,6 +99,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@e5833d6`](https://github.com/bobs-org/bob-mac-capture/commit/e5833d6b813ade33d8db0f73eef567c83d45fde5) | feat(capture): show alias tips in pickers | [bob-cli-j9.4](bob-cli-j9.4.md) | 2026-11-09 16:13:59 EST |
 | bob-cli | [`b519670`](https://github.com/bobs-org/bob-cli/commit/b5196709021e4efb0d27c0547d6d9f84d6db31c2) | docs(capture): document alias typing tip JSON fields | [bob-cli-j9](README.md) | 2026-11-09 18:41:15 EST |
 | bob-mac-capture | [`bob-mac-capture@542a37d`](https://github.com/bobs-org/bob-mac-capture/commit/542a37daa543d7e7badd73fe708206b29711a676) | fix(capture): repair alias tip lifecycle and undo accounting | [bob-cli-j9](README.md) | 2026-11-09 18:41:51 EST |
+| bob-cli--plans | [`bob-cli--plans@7374438`](https://github.com/bobs-org/bob-cli--plans/commit/737443887f65420006248d32921680d986bbaad3) | docs(plan): mark capture alias typing tips complete | [bob-cli-j9](README.md) | 2026-11-09 18:42:16 EST |
 
 <!-- sase:referenced-by:start -->
 
