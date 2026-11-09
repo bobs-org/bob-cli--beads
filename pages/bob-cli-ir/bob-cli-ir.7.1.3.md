@@ -19,13 +19,19 @@ update-writes: stage record updates from the capture batch overlay through the e
 
 - **Depends on:** [bob-cli-ir.7.1.2](bob-cli-ir.7.1.2.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) ◐ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`9619605`](https://github.com/bobs-org/bob-cli/commit/9619605252da7e0a67c9172a12bd745c0561cbd1) | feat(capture): write existing record updates transactionally | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 2026-11-09 05:03:01 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -24,10 +24,16 @@ guided-interaction: integrate record state, Bob-authored completion edits and co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md) | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@7933c7e`](https://github.com/bobs-org/bob-mac-capture/commit/7933c7e01f291d688e8d7aad8b4c1f3713a2229e) | feat(capture): complete record card keyboard flow | [bob-cli-ir.10.1.3](bob-cli-ir.10.1.3.md) | 2026-11-09 05:12:40 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.10.1.3][1] | Need the phase scope, design file, and prior notes before implementing the assigned phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -24,3 +24,15 @@ card-surface: render the Record Card in the picker slot with persistent labels, 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.4/README.md) | [bob-cli-ir.10.1.4](bob-cli-ir.10.1.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.10.1.3][1] | Need the neighboring phase's file scope before editing shared panel and view code | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md
+
+<!-- sase:referenced-by:end -->

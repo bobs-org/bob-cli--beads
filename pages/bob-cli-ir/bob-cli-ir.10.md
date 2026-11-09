@@ -21,3 +21,15 @@ mac-record-card: decode the parse record object and record contexts in Bob Mac C
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ir.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.10.md) | [bob-cli-ir.10](bob-cli-ir.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ir.10.1.3][1] | Need outer phase decisions and recorded completion notes governing this child epic | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.10.1.3/README.md
+
+<!-- sase:referenced-by:end -->
