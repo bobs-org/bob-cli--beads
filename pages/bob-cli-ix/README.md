@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / bob-cli-ix
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.3s.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.3s.linker.w0.md) · **Assignee:** `bob-cli-ix.land`
-**Created:** 2026-11-09 05:24:37 EST · **Closed:** 2026-11-09 10:01:09 EST
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.3s.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.3s.linker.w0.md) · **Assignee:** `bob-cli-ix.land--code`
+**Created:** 2026-11-09 05:24:37 EST · **Closed:** 2026-11-09 11:38:25 EST
 **Plan:** [202611/sized\_pomodoro\_close.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/sized_pomodoro_close.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-11-09T15:01:09Z · done
+>
+> (none)
+>
+> Reopened 2026-11-09T16:02:15Z by `sase bead open`
 
 <!-- sase:links:start -->
 
@@ -34,6 +42,30 @@ Typing `2x!2` closes the running Pomodoro at exactly 2 five-minute blocks from i
 [2026-11-09T14:04:08Z · bob-cli-ix.land] ADDITIONAL ACCEPTANCE DETAIL: The same-size Mac card also omits its duration: the view renders sessionPlannedText and appends duration only through non-nil sessionChangeText. The repair will keep Nm visible for equal sized spans. docs/capture.md calls C the sized end even when round-up caps C at now, and documents extra.close_size although print_capture_error inserts close_size at the top level; the tale corrects only those narrow ambiguities. No wire-format change or new memory is planned. Remaining scope is a medium single-coder tale whose final step closes bob-cli-ix, runs symvision if present, and marks plan:202611/sized_pomodoro_close.md done; no parent_bead.
 
 [2026-11-09T15:01:09Z · bob-cli-ix.land] Finished sized-close acceptance: Mac presentation now renders one Nx-as-of-HH:MM chip in session tint replacing timing chip, equal-size keeps duration without arrow, accessibility sentence uses minutes/blocks/delta (Close BUILD at 10m/2 blocks/15m shorter etc., longer/as-planned variants, closed_at for round-up 09:08); Rust strengthened equivalence (task_links/carry/tasks/day bytes, sized vs unsized, strict 2x0 deferred non-empty), two-meeting 6x at 10:15 (Design complete ended_inside, Vendor deferred not_started, explicit !2 completes, round-up C=0908 running not future), post-link lineup/timestamps C with rollback for link/new-task, exact 2x = (0900-0910 closed 0910, next 0950-1015 no overlap) plus --1 2x (0855-0905) and 2x x=fix~ (0910-0935), tip requires success for sized chain and excludes shift/link/trim/sized/JSON, unconditional unnamed/several-running with vault-byte checks, off-clock caption and additive size JSON; docs fixed C=min(S+5N,now) with 09:08 case and top-level close_size; Mac generator/fake-bob/fixtures/docs updated. Verified: cargo test pomodoro_close_size 14 passed; root_help snapshot refreshed (44427b30 drift from ir.8) now passes; just check 3394 passed except pre-existing docs word-budget (4 files) and that one drift now fixed; Mac scratch bundle.sh and just typecheck-tests PASS (all suites); portable-check on Linux Swift 6 fails pre-existing Sendable strictness, macOS CI gate via macos-ci-check not run for throwaway (exact-SHA push CI remains required separately). No parent_bead. Follow-ups: ix.1 declined, ix.3 drift coordinated via ir note with fixture refresh recorded here.
+
+[2026-11-09T15:55:07Z · bob-cli-ix.land] CLOSED-BEAD LAUNCH: agent bob-cli-ix.land launched against this closed bead; status left closed.
+Launch submitted 2026-11-09T15:51:56.501358Z; run 20261109105158.
+Prior close: 2026-11-09T15:01:09Z · done.
+
+[2026-11-09T16:02:25Z · bob-cli-ix.land] RELAUNCH AUDIT: bob-cli side verified — 070d2aac/135793bf/5f361c5a/2a0c258f on master, cargo test --test cli pomodoro_close_size+help 108 passed locally, HEAD f231b9d3 CI ubuntu test/lint/package green (macOS job in progress). Plan sized_pomodoro_close.md already status: done; epic-symbols empty; post-landing commits 186c5c1d/f231b9d3 (glossary, consistent with 2xx->2x! alias) and 4c09fac4 (periods) need no integration. REOPENED because Mac landing commit b81302b exact-SHA CI run 42640876363 is RED with 10 failures in the epic's own new tests: CapturePomodoroClosePresentationTests testSizedCloseEqualSizeKeepsDurationWithoutArrow / testSizedCloseRoundUpChipReadsClosedAt / testUnsizedAndOldBobCloseStillRenders apply compact-JSON string replacements ("closed_at":"0910", ,"size":{) to the pretty-printed pomodoro-close-sized-short.json fixture so nothing is replaced; CaptureSeparatorToggleTests.testSizedCloseAliasLeavesProseLiteral 2X case reads a record file that never exists because closeAliasPrefilterAllows correctly blocks uppercase X before spawning bob. Product code is correct; fix is test-only. Child PROPOSED FOLLOW-UPs were all triaged in notes #1/#5; none new.
+
+[2026-11-09T16:38:25Z · bob-cli-ix.land] Verified Mac test-only landing for the red exact-SHA CI on b81302b.
+
+Test fixes:
+- CapturePomodoroClosePresentationTests now edits pomodoro_close structurally via decodeFixtureVariant (JSONSerialization), so pretty-printed fixtures no longer no-op string replacements.
+- testSizedCloseEqualSizeKeepsDurationWithoutArrow decodes pomodoro-close-sized-equal.json; deleted the subset testSizedEqualFixtureIsSameSizeSuccess.
+- testSizedCloseRoundUpChipReadsClosedAt sets closed_at=0908 and remaining_minutes=2 structurally.
+- testUnsizedAndOldBobCloseStillRenders removes size structurally instead of a brace scanner looking for ,"size":{.
+- testSizedCloseAliasLeavesProseLiteral keeps Plan 2x / x made 2x record paths; uppercase 2X is asserted as a prefilter no-spawn (no record file). Removed the unused 2Xx fake-bob branch, capture-rewrite-sigil-alias-close-sized-prose-caps.json, and generator line.
+
+Verification:
+- just portable-check on athena (Swift 6.0.3): 2323 tests, 0 failures. The three repaired CapturePomodoroClosePresentationTests passed.
+- Mac scratch copy (rsync without .build/.git, never Bryan's checkout, never just install): ./Scripts/bundle.sh then just typecheck-tests PASS for BobMacCaptureTests, BobMacCaptureInstallHelperTests, CaptureCoreTests, RefsCoreTests; copy deleted.
+- Scripts/macos-ci-check green: run https://github.com/bobs-org/bob-mac-capture/actions/runs/42652888096 snapshot SHA 6717e81348f70e97f908d1e5e6c95cd7daa6b0f9; macOS 26 SwiftPM Test/Build/Lint/Bundle/Install all [ok].
+- sase bead epic-symbols bob-cli-ix: no entries. justfile has no symvision recipe.
+- plan:202611/sized_pomodoro_close.md still status: done. No parent_bead.
+
+bob-cli side and follow-up triage already verified in notes #1-#7.
 
 ## Phases
 
@@ -70,7 +102,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ix.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.2.md) | [bob-cli-ix.2](bob-cli-ix.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ix.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ix.3/README.md) | [bob-cli-ix.3](bob-cli-ix.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ix.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.4.md) | [bob-cli-ix.4](bob-cli-ix.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ix.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.land.md) | [bob-cli-ix](README.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ix.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ix.land.md) | [bob-cli-ix](README.md) | 4 |
 
 ## Commits
 
@@ -83,3 +115,4 @@ flowchart TD
 | bob-cli | [`2a0c258`](https://github.com/bobs-org/bob-cli/commit/2a0c258fab15ae45b8e7a195e53c6cced904695b) | feat(capture): finish sized-close acceptance and land bob-cli-ix | [bob-cli-ix](README.md) | 2026-11-09 10:03:28 EST |
 | bob-mac-capture | [`bob-mac-capture@b81302b`](https://github.com/bobs-org/bob-mac-capture/commit/b81302b2610d31bbc9caa4c9c245097b16b0b884) | feat(mac-capture): present sized closes with one chip and docs | [bob-cli-ix](README.md) | 2026-11-09 10:04:09 EST |
 | bob-cli--plans | [`bob-cli--plans@d47f175`](https://github.com/bobs-org/bob-cli--plans/commit/d47f1751e8c6d6e341fea69e0ee034943da41de8) | chore(plans): mark sized\_pomodoro\_close done for bob-cli-ix | [bob-cli-ix](README.md) | 2026-11-09 10:04:41 EST |
+| bob-mac-capture | [`bob-mac-capture@90fa59d`](https://github.com/bobs-org/bob-mac-capture/commit/90fa59dfa38374fc2ea95c6166c9b61337122a7c) | test(mac-capture): edit sized-close fixtures structurally and keep uppercase X off Bob | [bob-cli-ix](README.md) | 2026-11-09 11:40:11 EST |
