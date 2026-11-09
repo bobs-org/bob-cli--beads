@@ -14,7 +14,7 @@ capture-similar-records: extend capture-related so record items get settled same
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.12](bob-cli-ir.12.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.7](bob-cli-ir.7.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.7](bob-cli-ir.7.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 

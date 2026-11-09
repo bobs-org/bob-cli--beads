@@ -41,7 +41,7 @@ Performance (debug profile, temp vault `inbox: inbox`, warmup 20, n=100)
 
 - **Blocks:** [bob-cli-ir.10](bob-cli-ir.10.md) ◐ · ⧖ 2026-11-08
 - **Depends on:** [bob-cli-ir.5](bob-cli-ir.5.md) ✓ · ⧖ 2026-11-08
-- **Blocks:** [bob-cli-ir.7](bob-cli-ir.7.md) ◐ · ⧖ 2026-11-08
+- **Blocks:** [bob-cli-ir.7](bob-cli-ir.7.md) ✓ · ⧖ 2026-11-08
 
 ## Agents
 
