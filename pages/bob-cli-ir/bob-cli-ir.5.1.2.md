@@ -13,7 +13,7 @@ record-parse: adapt the existing records planner for capture-parse, implement re
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) ✓ · ⧖ 2026-11-08
 - **Blocks:** [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) ◐ · ⧖ 2026-11-08
 
 ## Agents

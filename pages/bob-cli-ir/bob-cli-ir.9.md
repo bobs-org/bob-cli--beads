@@ -14,7 +14,7 @@ records-media-types: add bob records init to scaffold a type's folder, type note
 ## Dependencies
 
 - **Blocks:** [bob-cli-ir.13](bob-cli-ir.13.md) ◐ · ⧖ 2026-11-08
-- **Depends on:** [bob-cli-ir.4](bob-cli-ir.4.md) ◐ · ⧖ 2026-11-08
+- **Depends on:** [bob-cli-ir.4](bob-cli-ir.4.md) ✓ · ⧖ 2026-11-08
 - **Depends on:** [bob-cli-ir.7](bob-cli-ir.7.md) ◐ · ⧖ 2026-11-08
 
 ## Agents

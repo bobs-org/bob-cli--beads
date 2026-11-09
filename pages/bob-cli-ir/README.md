@@ -40,7 +40,7 @@ Bryan can create and update notes of config-declared record types (restaurants, 
 | [bob-cli-ir.13](bob-cli-ir.13.md) | Guide, documentation audit, end-to-end proof, and memory | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.2](bob-cli-ir.2.md) | Records schema, catalog, renderer, and planner | ✓ closed | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.3](bob-cli-ir.3.md) | bob records list, show, check, and new | ✓ closed | medium | 2026-11-08 | 1 | 1 |
-| [bob-cli-ir.4](bob-cli-ir.4.md) | Restaurant and podcast schemas go live in config and the vault | ◐ in_progress | small | 2026-11-08 | 1 | 0 |
+| [bob-cli-ir.4](bob-cli-ir.4.md) | Restaurant and podcast schemas go live in config and the vault | ✓ closed | small | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.5](bob-cli-ir.5.md) | Capture grammar for new records | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.6](bob-cli-ir.6.md) | Guided field entry in capture-complete | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
 | [bob-cli-ir.7](bob-cli-ir.7.md) | Add to an existing record with @dir/stem | ◐ in_progress | large | 2026-11-08 | 1 | 0 |
@@ -64,10 +64,10 @@ flowchart TD
     n10["bob-cli-ir.2.1.3: Typed record rendering and byte-preserving updates [closed]"]
     n11["bob-cli-ir.2.1.4: Records planner, engine integration, and contract documentation [closed]"]
     n12["bob-cli-ir.3: bob records list, show, check, and new [closed]"]
-    n13["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [in_progress]"]
+    n13["bob-cli-ir.4: Restaurant and podcast schemas go live in config and the vault [closed]"]
     n14["bob-cli-ir.5: Capture grammar for new records [in_progress]"]
     n15["bob-cli-ir.5.1: Capture creates record notes [in_progress]"]
-    n16["bob-cli-ir.5.1.1: Recognize record items before task marker parsing [in_progress]"]
+    n16["bob-cli-ir.5.1.1: Recognize record items before task marker parsing [closed]"]
     n17["bob-cli-ir.5.1.2: Resolve record metadata and expose discovery rows [in_progress]"]
     n18["bob-cli-ir.5.1.3: Create records through the capture transaction [in_progress]"]
     n19["bob-cli-ir.5.1.4: Publish the record capture contract and acceptance evidence [in_progress]"]
@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.3/README.md) | [bob-cli-ir.3](bob-cli-ir.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.4/README.md) | [bob-cli-ir.4](bob-cli-ir.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.5.md) | [bob-cli-ir.5](bob-cli-ir.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-ir.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.1/README.md) | [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ir.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.1/README.md) | [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.2/README.md) | [bob-cli-ir.5.1.2](bob-cli-ir.5.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.3/README.md) | [bob-cli-ir.5.1.3](bob-cli-ir.5.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.5.1.4/README.md) | [bob-cli-ir.5.1.4](bob-cli-ir.5.1.4.md) | 0 |
@@ -166,6 +166,7 @@ flowchart TD
 | bob-cli | [`361974f`](https://github.com/bobs-org/bob-cli/commit/361974f48eef7e2ba1fdc8ad97a1916835a6d20b) | fix(records): map stemless titles to record\_title and document engine allowances | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 18:15:09 EST |
 | bob-cli--plans | [`bob-cli--plans@1b530a4`](https://github.com/bobs-org/bob-cli--plans/commit/1b530a431b8b0a68bc5d28f1671910b224f30036) | chore(plans): mark records engine epic done | [bob-cli-ir.2.1](bob-cli-ir.2.1.md) | 2026-11-08 18:15:40 EST |
 | bob-cli | [`3e68a53`](https://github.com/bobs-org/bob-cli/commit/3e68a53acd5c75feaf4f26fb6dab206f2a1a84aa) | feat(records): add records CLI and docs | [bob-cli-ir.3](bob-cli-ir.3.md) | 2026-11-08 19:04:25 EST |
+| bob-cli | [`83ad74e`](https://github.com/bobs-org/bob-cli/commit/83ad74e2f8138b6d94ba745380a9f012ce08d104) | feat(capture): add shared record route classifier with fail-closed execution | [bob-cli-ir.5.1.1](bob-cli-ir.5.1.1.md) | 2026-11-08 19:56:49 EST |
 
 <!-- sase:referenced-by:start -->
 
