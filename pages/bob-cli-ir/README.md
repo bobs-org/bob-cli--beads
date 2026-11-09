@@ -188,7 +188,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ir.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.3/README.md) | [bob-cli-ir.7.1.3](bob-cli-ir.7.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.4/README.md) | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ir.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.7.1.5/README.md) | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-ir.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.8/README.md) | [bob-cli-ir.8](bob-cli-ir.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.9/README.md) | [bob-cli-ir.9](bob-cli-ir.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-ir.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ir.land/README.md) | [bob-cli-ir](README.md) | 0 |
@@ -220,6 +220,7 @@ flowchart TD
 | bob-cli | [`1c4939b`](https://github.com/bobs-org/bob-cli/commit/1c4939b9135043ed99019ce5886799487e0b202c) | feat(records)!: add records update CLI with shell completion | [bob-cli-ir.7.1.5](bob-cli-ir.7.1.5.md) | 2026-11-09 05:45:03 EST |
 | bob-cli | [`a729a8f`](https://github.com/bobs-org/bob-cli/commit/a729a8fdc448d047413d67330cd683f1cc176b59) | feat(capture): add update-aware record assistance | [bob-cli-ir.7.1.4](bob-cli-ir.7.1.4.md) | 2026-11-09 05:50:38 EST |
 | bob-cli | [`941ee72`](https://github.com/bobs-org/bob-cli/commit/941ee724de7c4767e02623585ad62a0893ca98d2) | feat(capture): land existing-record update fixes | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:07:20 EST |
+| bob-cli--plans | [`bob-cli--plans@2c460ed`](https://github.com/bobs-org/bob-cli--plans/commit/2c460ed80578757da28538e6fab158886d7d3e74) | docs(plans): mark record append landing done | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:08:07 EST |
 
 <!-- sase:referenced-by:start -->
 

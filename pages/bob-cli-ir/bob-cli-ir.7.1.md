@@ -35,13 +35,14 @@ Complete bob-cli-ir.7 so capture and bob records update edit existing records wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ir.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ir.7.1.land.md) | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`941ee72`](https://github.com/bobs-org/bob-cli/commit/941ee724de7c4767e02623585ad62a0893ca98d2) | feat(capture): land existing-record update fixes | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:07:20 EST |
+| bob-cli--plans | [`bob-cli--plans@2c460ed`](https://github.com/bobs-org/bob-cli--plans/commit/2c460ed80578757da28538e6fab158886d7d3e74) | docs(plans): mark record append landing done | [bob-cli-ir.7.1](bob-cli-ir.7.1.md) | 2026-11-09 07:08:07 EST |
 
 <!-- sase:referenced-by:start -->
 
