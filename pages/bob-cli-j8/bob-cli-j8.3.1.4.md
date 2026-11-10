@@ -13,7 +13,7 @@ notebook-capture-contract: add the opt-in notebook target scanner and route rows
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
