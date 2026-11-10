@@ -31,3 +31,15 @@ pair-readers: replace archive inference in capture-related candidates, reference
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0996111`](https://github.com/bobs-org/bob-cli/commit/0996111cd31bd514c23760f2c53385003a1439df) | feat(archive): migrate remaining archive readers | [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) | 2026-11-09 18:43:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j5.4.1.3][1] | Confirm the assigned phase closed after its verification gate | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->

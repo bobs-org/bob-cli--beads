@@ -18,7 +18,7 @@ pair-index: implement metadata-first bidirectional archive resolution with expli
 ## Dependencies
 
 - **Blocks:** [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
