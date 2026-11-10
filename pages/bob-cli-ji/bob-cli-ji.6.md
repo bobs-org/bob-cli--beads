@@ -13,7 +13,7 @@ records: add the 'Private Event Notes Beat Google Per Field' decision record wit
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ji.3](bob-cli-ji.3.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.3](bob-cli-ji.3.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [bob-cli-ji.4](bob-cli-ji.4.md) ◐ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.7](bob-cli-ji.7.md) ◐ · ⧖ 2026-11-10
 

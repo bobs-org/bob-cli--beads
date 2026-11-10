@@ -20,7 +20,7 @@ engine: add the `gcal.note` journal record and its last-writer-wins fold, parse 
 ## Dependencies
 
 - **Blocks:** [bob-cli-ji.2](bob-cli-ji.2.md) ◐ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.3](bob-cli-ji.3.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.3](bob-cli-ji.3.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -33,3 +33,15 @@ engine: add the `gcal.note` journal record and its last-writer-wins fold, parse 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4219d70`](https://github.com/bobs-org/bob-cli/commit/4219d70a75d81299cb9321bf194508abcbb96367) | feat(gcal): layer private event notes over Google descriptions | [bob-cli-ji.1](bob-cli-ji.1.md) | 2026-11-10 06:48:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ji.1][1] | Need the phase scope, design file, notes, and epic decisions before continuing engine work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.1/README.md
+
+<!-- sase:referenced-by:end -->
