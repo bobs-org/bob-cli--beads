@@ -144,7 +144,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-j5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.6/README.md) | [bob-cli-j5.6](bob-cli-j5.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.7.md) | [bob-cli-j5.7](bob-cli-j5.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.8/README.md) | [bob-cli-j5.8](bob-cli-j5.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-j5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.land.md) | [bob-cli-j5](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-j5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.land.md) | [bob-cli-j5](README.md) | 2 |
 
 ## Commits
 
@@ -170,6 +170,7 @@ flowchart TD
 | bob-cli | [`6a7afcd`](https://github.com/bobs-org/bob-cli/commit/6a7afcd2d9f7b5fa4b207e2687e75da97348f216) | feat(archive): treat only top-level done/ as the archive | [bob-cli-j5.7](bob-cli-j5.7.md) | 2026-11-10 01:01:21 EST |
 | bob-plugins | [`bob-plugins@16c0454`](https://github.com/bobs-org/bob-plugins/commit/16c0454820f1d5034a7c2dc4062c42eb1f78f8ef) | feat(plugins): share one done/ path contract and reopen archived tasks via restore | [bob-cli-j5.8](bob-cli-j5.8.md) | 2026-11-10 01:14:11 EST |
 | bob-cli | [`63ce765`](https://github.com/bobs-org/bob-cli/commit/63ce7653ad655251d2d44c2e48140dc135ca1565) | feat(archive)!: finish configurable keep-window behavior | [bob-cli-j5](README.md) | 2026-11-10 02:34:09 EST |
+| bob-cli--plans | [`bob-cli--plans@1cfdc54`](https://github.com/bobs-org/bob-cli--plans/commit/1cfdc54eea9f3d39eb0940e784d8585bbb3fdbd9) | docs(plan): mark archive epic complete | [bob-cli-j5](README.md) | 2026-11-10 02:34:43 EST |
 
 <!-- sase:referenced-by:start -->
 
