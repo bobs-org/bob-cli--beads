@@ -22,7 +22,7 @@ picker: wire Command-E, Event Note status menu, and Calendar-row URL entry into 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -47,7 +47,9 @@ picker: wire Command-E, Event Note status menu, and Calendar-row URL entry into 
 | read-by | [agent:bob-cli-ji.7.1.4--4][1] | Need the full phase description, DECISIONS, notes, and design file after failed macOS CI | 2 |
 | read-by | [agent:bob-cli-ji.7.1.4--5][1] | Need phase scope, notes, and current status after Test hang | 1 |
 | read-by | [agent:bob-cli-ji.7.1.4--6][1] | Need phase scope, notes, and design after macOS Test failures | 2 |
+| read-by | [agent:bob-cli-ji.7.1.5--1][2] | Need how picker phase recorded alias-tip CI failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md
 
 <!-- sase:referenced-by:end -->

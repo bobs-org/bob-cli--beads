@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_event_note_mode.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_event_note_mode.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Complete bob-cli-ji.7: open a private event note from any capture draft with Com
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.land/README.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ji.7.1.5--1][1] | Need epic DECISIONS before changing editor tests and session | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md
+
+<!-- sase:referenced-by:end -->

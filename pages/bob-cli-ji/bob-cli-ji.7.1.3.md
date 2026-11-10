@@ -22,7 +22,7 @@ rail: extract the agenda capsule and buffer-wing rendering into a reusable view,
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.7.1.1](bob-cli-ji.7.1.1.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
