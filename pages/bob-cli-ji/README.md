@@ -49,6 +49,13 @@ flowchart TD
     n5["bob-cli-ji.5: Editor, adopt, doctor check, and fragile-description hint [closed]"]
     n6["bob-cli-ji.6: Decision record, glossary term, and guide [closed]"]
     n7["bob-cli-ji.7: Bob Mac Capture Event note mode [in_progress]"]
+    n8["bob-cli-ji.7.1: Complete Bob Mac Capture Event note mode [in_progress]"]
+    n9["bob-cli-ji.7.1.1: Complete event-note fixtures and the Swift process contract [closed]"]
+    n10["bob-cli-ji.7.1.2: Event-note session, request ordering, and mutation undo [in_progress]"]
+    n11["bob-cli-ji.7.1.3: Shared hatched meeting and buffer rail [in_progress]"]
+    n12["bob-cli-ji.7.1.4: Mode entry points, capture preservation, and event picker [in_progress]"]
+    n13["bob-cli-ji.7.1.5: Highlighted editor, live preview, and save controls [in_progress]"]
+    n14["bob-cli-ji.7.1.6: Document the shipped mode and assemble completion evidence [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -56,6 +63,13 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n7 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
+    n8 --> n13
+    n8 --> n14
     n1 -.-> n2
     n1 -.-> n3
     n2 -.-> n4
@@ -64,6 +78,12 @@ flowchart TD
     n4 -.-> n6
     n4 -.-> n7
     n6 -.-> n7
+    n9 -.-> n10
+    n9 -.-> n11
+    n10 -.-> n12
+    n11 -.-> n13
+    n12 -.-> n13
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -76,7 +96,14 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.4/README.md) | [bob-cli-ji.4](bob-cli-ji.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.5/README.md) | [bob-cli-ji.5](bob-cli-ji.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.6/README.md) | [bob-cli-ji.6](bob-cli-ji.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ji.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7/README.md) | [bob-cli-ji.7](bob-cli-ji.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.md) | [bob-cli-ji.7](bob-cli-ji.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.1/README.md) | [bob-cli-ji.7.1.1](bob-cli-ji.7.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.2/README.md) | [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.3/README.md) | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.4/README.md) | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.5/README.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.6/README.md) | [bob-cli-ji.7.1.6](bob-cli-ji.7.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.land/README.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.land/README.md) | [bob-cli-ji](README.md) | 0 |
 
 ## Commits
@@ -89,6 +116,7 @@ flowchart TD
 | bob-cli | [`cf7c060`](https://github.com/bobs-org/bob-cli/commit/cf7c06052b26b64d5fb68e10a4b65b5f759fac10) | feat(gcal): add private event note writes and preview | [bob-cli-ji.4](bob-cli-ji.4.md) | 2026-11-10 09:56:07 EST |
 | bob-cli | [`8f2b492`](https://github.com/bobs-org/bob-cli/commit/8f2b492552dc4c325322af1fc8cc8b25987028e5) | feat(gcal): record private event notes decision and guide | [bob-cli-ji.6](bob-cli-ji.6.md) | 2026-11-10 10:14:40 EST |
 | bob-cli | [`c8934b9`](https://github.com/bobs-org/bob-cli/commit/c8934b93af196e36b08a480aac36df5b336dcda6) | feat(gcal): edit and adopt private event notes | [bob-cli-ji.5](bob-cli-ji.5.md) | 2026-11-10 10:24:00 EST |
+| bob-cli | [`8e2b93c`](https://github.com/bobs-org/bob-cli/commit/8e2b93c7d0ed6bee06cb5b19b5ce95bc8f09115e) | feat(gcal): expose effective buffer reasons in note JSON | [bob-cli-ji.7.1.1](bob-cli-ji.7.1.1.md) | 2026-11-10 11:21:54 EST |
 
 <!-- sase:referenced-by:start -->
 

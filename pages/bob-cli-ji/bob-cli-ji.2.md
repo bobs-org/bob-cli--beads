@@ -41,11 +41,13 @@ select: add the `bob gcal note` command skeleton and its option pre-pass. Select
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ji.2][1] | Need the phase scope and design file | 2 |
-| read-by | [agent:research.40.cld][2] | Check phase progress and notes for guide accuracy | 1 |
-| read-by | [agent:research.40.mus][3] | research guide on adding metadata to private event tasks | 1 |
+| read-by | [agent:bob-cli-ji.5][2] | Check whether the docs reference word-budget failure is already tracked before noting this check result | 1 |
+| read-by | [agent:research.40.cld][3] | Check phase progress and notes for guide accuracy | 1 |
+| read-by | [agent:research.40.mus][4] | research guide on adding metadata to private event tasks | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.mus/README.md
 
 <!-- sase:referenced-by:end -->
