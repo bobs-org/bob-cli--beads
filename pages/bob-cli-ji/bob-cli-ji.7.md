@@ -1,0 +1,23 @@
+# Bead: bob-cli-ji.7 — Bob Mac Capture Event note mode
+
+[Bead Pages](../README.md) / [bob-cli-ji](README.md) / bob-cli-ji.7
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.3z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.3z.linker.w0.md) · **Assignee:** `bob-cli-ji.7` · **Size:** large
+**Created:** 2026-11-10 05:59:46 EST
+**Plan:** [202611/private\_gcal\_event\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/private_gcal_event_notes.md)
+
+## Description
+
+mac: in the bob-mac-capture linked repo, add an Event note mode to the capture panel: open it with a chord, the status menu, or a Calendar-band row; pick from upcoming events, edit with bob's highlight spans, and see a live hatched time rail with the 'lands as' preview. Save, clear, and undo, all through `bob gcal note -f json`, with docs, tests, and green exact-SHA macOS CI.
+
+## Dependencies
+
+- **Depends on:** [bob-cli-ji.4](bob-cli-ji.4.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.6](bob-cli-ji.6.md) ◐ · ⧖ 2026-11-10
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-ji.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7/README.md) | [bob-cli-ji.7](bob-cli-ji.7.md) | 0 |
