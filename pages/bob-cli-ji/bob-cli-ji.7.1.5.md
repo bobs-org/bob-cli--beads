@@ -15,6 +15,8 @@ editor: add the fixed identity header, recurring scope control, multiline AppKit
 
 [2026-11-10T20:52:52Z · bob-cli-ji.7.1.5] PROPOSED FOLLOW-UP: Mac typecheck-tests fails on pre-existing @MainActor XCTestCase.tearDown accessing ledgerSuites in CaptureRelationEqualsAliasTests and CaptureModifierAliasTests — same errors on clean master; CI still runs the tests.
 
+[2026-11-10T21:33:35Z · bob-cli-ji.7.1.5--1] PROPOSED FOLLOW-UP: CaptureAliasTipPanelTests still fail on exact-SHA macOS CI (run 42901006029: testChangedSeparatorReplyDoesNotDisableTheNextTipRequest, testEditBeforeTheReplyDropsTheTip, testFilteringKeepsTheShownTipAnchoredToTheSigil, testOptionTypedHashOpensTheHashTip, testTypingQueryBeforeTheRouteListOpensKeepsTheTip) identically to picker SHA 90b6f9e run 42888193431 and base aafed83/6b6052c (runs 42826766066, 42838952067); same class as flake bead bob-cli-jk — GcalNoteEditorTests races are the only editor-introduced Test failures
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) ✓ · ⧖ 2026-11-10
@@ -25,10 +27,11 @@ editor: add the fixed identity header, recurring scope control, multiline AppKit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@5bf8907`](https://github.com/bobs-org/bob-mac-capture/commit/5bf8907e6071f4f364a86b90f28a25cd8957ed09) | feat(capture): add Event Note editor, highlights, and save controls | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 2026-11-10 16:01:17 EST |
+| bob-mac-capture | [`bob-mac-capture@62a7b70`](https://github.com/bobs-org/bob-mac-capture/commit/62a7b70fb8d217e6afcdeb7cff0062019ac65524) | fix(capture): publish Event Note preview and show updates atomically | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 2026-11-10 16:35:31 EST |
