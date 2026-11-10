@@ -20,7 +20,7 @@ notebook-core: recognize `type: "[[notebook]]"`, add the notebooks module (one v
 ## Dependencies
 
 - **Blocks:** [bob-cli-j8.2](bob-cli-j8.2.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j8.3](bob-cli-j8.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.3](bob-cli-j8.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

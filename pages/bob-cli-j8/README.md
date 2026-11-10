@@ -31,6 +31,8 @@ Bob gains a `type: "[[notebook]]"` note kind for task-free note bullets (optiona
 
 [2026-11-09T20:20:45Z · bob-cli-j5.2.1.land] DISCOVERED ISSUE: landing triage of bob-cli-j5.2.1.3 follow-up #2 independently confirms docs/reference/json-outputs.md is 6143 words on e802071f (fixed reference cap 6000, measured with bob_docs.markdown.count_words). History: 4321fd70 restored 6000; j8.1 0a74731b raised to 6117; j8.2 55468bff stayed 6117; archive e802071f adds 26 to 6143. Original overage belongs to the active notebooks epic and already matches note #1; no duplicate task. Keep the archive report contract while trimming. Follow-up #1 registration failures are already fixed by j8.2 55468bff (verified source changes and j8.2 note #2); no new task for resolved work.
 
+[2026-11-10T01:42:57Z · bob-cli-j8.3.1.land] DISCOVERED ISSUE: reported by bob-cli-j8.3.1.land during capture landing at 12692ebb. The pre-existing notebook checker from bob-cli-j8.1 commit 0a74731b treats caret references as actual anchors. src/native/notebooks/rules.rs::extract_block_ids scans every caret, including inline code and wikilinks; duplicate_block_id_findings then reports notebook_duplicate_block_id. Executed the exact current extract_block_ids function in a standalone rustc probe: input '- Discuss `^x` and [[nb#^x]] ^real' returns ["x", "x", "real"], although the only actual anchor is real. This falsely rejects ordinary notebook explanations/backlinks. Fix the notebook checker to recognize real block anchors outside literal/code/link spans, preserve true duplicate detection, and add regressions. This predates the child capture epic, so it belongs to the causally responsible active bob-cli-j8 epic. /sase_new_task triage searched bug tasks, broadened to all task types, swept all tasks created in the past week, and inspected active epics and j8.1; no semantic duplicate found. No new task created under the active-epic rule.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -38,7 +40,7 @@ Bob gains a `type: "[[notebook]]"` note kind for task-free note bullets (optiona
 | [bob-cli-j8.1](bob-cli-j8.1.md) | Notebook recognition, bob notebooks list and check, and the contract doc | ✓ closed | large | 2026-11-09 | 1 | 1 |
 | [bob-cli-j8.10](bob-cli-j8.10.md) | End-to-end proof, docs audit, memory, and the wave-2 bead | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.2](bob-cli-j8.2.md) | The generated Notebooks catalog, bob notebooks sync and create, nightly step | ✓ closed | large | 2026-11-09 | 1 | 1 |
-| [bob-cli-j8.3](bob-cli-j8.3.md) | Capture writes notes into notebooks (the destination decides) | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
+| [bob-cli-j8.3](bob-cli-j8.3.md) | Capture writes notes into notebooks (the destination decides) | ✓ closed | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.4](bob-cli-j8.4.md) | Create notebooks with @parent^id@ %n | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.5](bob-cli-j8.5.md) | Notebook completion, block IDs, and the @@ collapse assist | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.6](bob-cli-j8.6.md) | Beautiful catalog card, live chips, and the notebook header in Obsidian | ✓ closed | large | 2026-11-09 | 1 | 0 |
@@ -54,8 +56,8 @@ flowchart TD
     n1["bob-cli-j8.1: Notebook recognition, bob notebooks list and check, and the contract doc [closed]"]
     n2["bob-cli-j8.10: End-to-end proof, docs audit, memory, and the wave-2 bead [in_progress]"]
     n3["bob-cli-j8.2: The generated Notebooks catalog, bob notebooks sync and create, nightly step [closed]"]
-    n4["bob-cli-j8.3: Capture writes notes into notebooks (the destination decides) [in_progress]"]
-    n5["bob-cli-j8.3.1: Notebook routes write notes [in_progress]"]
+    n4["bob-cli-j8.3: Capture writes notes into notebooks (the destination decides) [closed]"]
+    n5["bob-cli-j8.3.1: Notebook routes write notes [closed]"]
     n6["bob-cli-j8.3.1.1: Resolve notebook routes and parse individual note captures [closed]"]
     n7["bob-cli-j8.3.1.2: Compose notebook routes with lists, globals, and capture directives [closed]"]
     n8["bob-cli-j8.3.1.3: Write notebook notes through the guarded capture transaction [closed]"]
@@ -122,14 +124,14 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.2/README.md) | [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.3/README.md) | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.4/README.md) | [bob-cli-j8.3.1.4](bob-cli-j8.3.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-j8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.land/README.md) | [bob-cli-j8.3.1](bob-cli-j8.3.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.1.land.md) | [bob-cli-j8.3.1](bob-cli-j8.3.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.4/README.md) | [bob-cli-j8.4](bob-cli-j8.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.5/README.md) | [bob-cli-j8.5](bob-cli-j8.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.md) | [bob-cli-j8.6](bob-cli-j8.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.1.md) | [bob-cli-j8.6.1.1](bob-cli-j8.6.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.2/README.md) | [bob-cli-j8.6.1.2](bob-cli-j8.6.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.3/README.md) | [bob-cli-j8.6.1.3](bob-cli-j8.6.1.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md) | [bob-cli-j8.7](bob-cli-j8.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.8/README.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.9/README.md) | [bob-cli-j8.9](bob-cli-j8.9.md) | 0 |
@@ -144,7 +146,9 @@ flowchart TD
 | bob-cli | [`d906675`](https://github.com/bobs-org/bob-cli/commit/d90667549a46e559f077f96e0db78ec0c1999bb9) | feat(capture): add notebook route parsing | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 2026-11-09 16:08:46 EST |
 | bob-cli | [`3f8c49d`](https://github.com/bobs-org/bob-cli/commit/3f8c49d4145ad5142cbca38b94bc8c3a3bea0c19) | feat(capture)!: compose notebook routes with lists, globals, and #section^id | [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) | 2026-11-09 18:28:21 EST |
 | bob-cli | [`8d098e5`](https://github.com/bobs-org/bob-cli/commit/8d098e550588eafbcdc4788e7cbb6ce10024ad26) | feat(capture)!: write notebook notes through guarded transaction | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 2026-11-09 19:31:54 EST |
+| bob-cli--plans | [`bob-cli--plans@e2abff0`](https://github.com/bobs-org/bob-cli--plans/commit/e2abff08c97d314b215c515c46e2ae26c9e64c07) | chore(plans): mark notebook catalog UI plans done | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2026-11-09 20:24:05 EST |
 | bob-cli | [`12692eb`](https://github.com/bobs-org/bob-cli/commit/12692ebb95db9b30704ab1e5dd9fc7df70509849) | feat(capture)!: expose notebook capture targets and verify contract | [bob-cli-j8.3.1.4](bob-cli-j8.3.1.4.md) | 2026-11-09 20:32:13 EST |
+| bob-cli | [`843642f`](https://github.com/bobs-org/bob-cli/commit/843642f9fc34e0edf60b126751bb221d2fe6283c) | feat(capture)!: repair notebook capture landing | [bob-cli-j8.3.1](bob-cli-j8.3.1.md) | 2026-11-09 22:37:58 EST |
 
 <!-- sase:referenced-by:start -->
 

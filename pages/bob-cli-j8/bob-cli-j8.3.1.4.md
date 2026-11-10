@@ -38,7 +38,9 @@ notebook-capture-contract: add the opt-in notebook target scanner and route rows
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j8.3.1.3][1] | Check sibling phase to avoid overlap | 1 |
+| read-by | [agent:bob-cli-j8.3.1.4][2] | Final verification before close | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->
