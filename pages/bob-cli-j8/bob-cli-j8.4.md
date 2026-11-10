@@ -33,7 +33,7 @@ PROPOSED FOLLOW-UP: just docs-check bob-mac-capture mount collision — bob-docs
 
 - **Depends on:** [bob-cli-j8.2](bob-cli-j8.2.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j8.3](bob-cli-j8.3.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j8.5](bob-cli-j8.5.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.5](bob-cli-j8.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

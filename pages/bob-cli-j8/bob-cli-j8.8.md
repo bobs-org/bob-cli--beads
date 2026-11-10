@@ -14,7 +14,7 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 ## Dependencies
 
 - **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ◐ · ⧖ 2026-11-09
-- **Depends on:** [bob-cli-j8.5](bob-cli-j8.5.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.5](bob-cli-j8.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
