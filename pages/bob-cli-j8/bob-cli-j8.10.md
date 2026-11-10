@@ -16,6 +16,8 @@
 | related | file:explicit:6cebed51f6427f0e59705abf | attached via sase artifact create --bead |
 | related | file:explicit:f659fa21d15d8bc4434d01d6 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -48,3 +50,15 @@ notebooks-wrapup: walk every notebook gesture end to end in a temporary vault, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`345e143`](https://github.com/bobs-org/bob-cli/commit/345e14385fa8724a00f9672dee04dc272b0c4177) | docs(notebooks): land wrapup memory, docs, and capture help | [bob-cli-j8.10](bob-cli-j8.10.md) | 2026-11-10 08:50:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j8.10][1] | Need the phase scope, notes, and design file before remaining wrapup edits | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.10/README.md
+
+<!-- sase:referenced-by:end -->

@@ -68,13 +68,14 @@ PROPOSED FOLLOW-UP: After bob-cli-jf restoration, retarget Scripts/macos-ci-chec
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f2882ea`](https://github.com/bobs-org/bob-cli/commit/f2882ea6fc30894c848bafa4a68e4f81b7c148ed) | fix(ci): select Mac Capture workflow for exact-SHA checks | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:21 EST |
+| bob-mac-capture | [`bob-mac-capture@28aa5b3`](https://github.com/bobs-org/bob-mac-capture/commit/28aa5b32a62011266459e13723236e4caeda2478) | test(capture): expect split wash runs when concealing two record routes | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 07:32:40 EST |
 
 <!-- sase:referenced-by:start -->
 
