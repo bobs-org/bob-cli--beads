@@ -22,7 +22,7 @@ notebook-catalog: render and place the machine-owned `## Notebooks` catalog in e
 ## Dependencies
 
 - **Depends on:** [bob-cli-j8.1](bob-cli-j8.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j8.4](bob-cli-j8.4.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.4](bob-cli-j8.4.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j8.6](bob-cli-j8.6.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j8.7](bob-cli-j8.7.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j8.9](bob-cli-j8.9.md) ◐ · ⧖ 2026-11-09

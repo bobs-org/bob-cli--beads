@@ -13,7 +13,7 @@ capture-notebook-assist: give capture-complete notebook route rows, `##` section
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j8.4](bob-cli-j8.4.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j8.4](bob-cli-j8.4.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j8.8](bob-cli-j8.8.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
