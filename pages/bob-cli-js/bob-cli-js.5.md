@@ -37,3 +37,15 @@ long_periods: year and all-time density rules, the measured year fallback, all-t
 |---|---|---|---|---|
 | bob-cli | [`947f24f`](https://github.com/bobs-org/bob-cli/commit/947f24ff8636702d0c323cc7d1a43f362eebd5fd) | docs(memory): document period strip chart density rules in stats-strip glossary | [bob-cli-js.5](bob-cli-js.5.md) | 2026-11-10 14:52:49 EST |
 | bob-plugins | [`bob-plugins@0fd19de`](https://github.com/bobs-org/bob-plugins/commit/0fd19deed17990f40a797ba97c491c86836e25a2) | feat(ledger-tools): add period strip chart density rules, year fallback and parts mini-bars | [bob-cli-js.5](bob-cli-js.5.md) | 2026-11-10 14:53:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-js.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.5/README.md
+
+<!-- sase:referenced-by:end -->
