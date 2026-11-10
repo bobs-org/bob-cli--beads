@@ -27,10 +27,10 @@ Every week, quarter, year, and all-time note heads with a calm, honest strip: th
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-js.1](bob-cli-js.1.md) | Fix the current period strip and make colors follow identity | ✓ closed | medium | 2026-11-10 | 1 | 1 |
+| [bob-cli-js.1](bob-cli-js.1.md) | Fix the current period strip and make colors follow identity | ✓ closed | medium | 2026-11-10 | 1 | 2 |
 | [bob-cli-js.2](bob-cli-js.2.md) | Configured task-type minutes in Stats | ✓ closed | medium | 2026-11-10 | 1 | 1 |
-| [bob-cli-js.3](bob-cli-js.3.md) | bob periods show charts and stacks contract | ✓ closed | medium | 2026-11-10 | 1 | 2 |
-| [bob-cli-js.4](bob-cli-js.4.md) | Two-chart period strip painter and its own switch | ◐ in_progress | medium | 2026-11-10 | 1 | 0 |
+| [bob-cli-js.3](bob-cli-js.3.md) | bob periods show charts and stacks contract | ✓ closed | medium | 2026-11-10 | 1 | 1 |
+| [bob-cli-js.4](bob-cli-js.4.md) | Two-chart period strip painter and its own switch | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [bob-cli-js.5](bob-cli-js.5.md) | Year and all-time density, parts table, polish, and memory | ◐ in_progress | medium | 2026-11-10 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n1["bob-cli-js.1: Fix the current period strip and make colors follow identity [closed]"]
     n2["bob-cli-js.2: Configured task-type minutes in Stats [closed]"]
     n3["bob-cli-js.3: bob periods show charts and stacks contract [closed]"]
-    n4["bob-cli-js.4: Two-chart period strip painter and its own switch [in_progress]"]
+    n4["bob-cli-js.4: Two-chart period strip painter and its own switch [closed]"]
     n5["bob-cli-js.5: Year and all-time density, parts table, polish, and memory [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -58,10 +58,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-js.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.1.md) | [bob-cli-js.1](bob-cli-js.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-js.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.1.md) | [bob-cli-js.1](bob-cli-js.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-js.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.2/README.md) | [bob-cli-js.2](bob-cli-js.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-js.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.3/README.md) | [bob-cli-js.3](bob-cli-js.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-js.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.4/README.md) | [bob-cli-js.4](bob-cli-js.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-js.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.3/README.md) | [bob-cli-js.3](bob-cli-js.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-js.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.4.md) | [bob-cli-js.4](bob-cli-js.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-js.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.5/README.md) | [bob-cli-js.5](bob-cli-js.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-js.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.land/README.md) | [bob-cli-js](README.md) | 0 |
 
@@ -71,5 +71,6 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`beef7f2`](https://github.com/bobs-org/bob-cli/commit/beef7f27bf4668693245b80855680bfad886b5d6) | feat(stats): add task\_type parts dimension with configured-type split | [bob-cli-js.2](bob-cli-js.2.md) | 2026-11-10 12:39:27 EST |
 | bob-cli | [`ef45fe9`](https://github.com/bobs-org/bob-cli/commit/ef45fe97e8aaf52e136f4babb0d3e177889ea4e1) | docs(stats): refresh generated stats documentation | [bob-cli-js.1](bob-cli-js.1.md) | 2026-11-10 12:44:59 EST |
+| bob-plugins | [`bob-plugins@1fcbc82`](https://github.com/bobs-org/bob-plugins/commit/1fcbc825a1d9573c6364b00217ff9791f36c8507) | feat(ledger-tools): add period strip and stats lane views | [bob-cli-js.1](bob-cli-js.1.md) | 2026-11-10 12:45:26 EST |
 | bob-cli | [`a985918`](https://github.com/bobs-org/bob-cli/commit/a985918614f5cd959fe6f22bf2302020c8c26613) | feat(periods): emit charts, stacks, and display\_short on show | [bob-cli-js.3](bob-cli-js.3.md) | 2026-11-10 13:19:19 EST |
-| chezmoi | [`chezmoi@c6ae11b`](https://github.com/bbugyi200/dotfiles/commit/c6ae11ba186b82ad046eb4852e23cb26c4fcc09d) | feat(bob): set stats.period\_strip.top\_roots to 5 | [bob-cli-js.3](bob-cli-js.3.md) | 2026-11-10 13:19:55 EST |
+| bob-cli | [`9cd4ec3`](https://github.com/bobs-org/bob-cli/commit/9cd4ec3e590d187ecdad70e685c198bd45095b6c) | docs(stats): describe aligned period charts | [bob-cli-js.4](bob-cli-js.4.md) | 2026-11-10 14:20:54 EST |

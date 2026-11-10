@@ -13,7 +13,7 @@ long_periods: year and all-time density rules, the measured year fallback, all-t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-js.4](bob-cli-js.4.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-js.4](bob-cli-js.4.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
