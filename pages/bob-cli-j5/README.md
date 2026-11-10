@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-j5.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.3/README.md) | [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.4/README.md) | [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.5/README.md) | [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-j5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.land/README.md) | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.land/README.md) | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.5/README.md) | [bob-cli-j5.5](bob-cli-j5.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-j5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.6/README.md) | [bob-cli-j5.6](bob-cli-j5.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-j5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.7/README.md) | [bob-cli-j5.7](bob-cli-j5.7.md) | 0 |
@@ -135,3 +135,4 @@ flowchart TD
 | bob-cli | [`0996111`](https://github.com/bobs-org/bob-cli/commit/0996111cd31bd514c23760f2c53385003a1439df) | feat(archive): migrate remaining archive readers | [bob-cli-j5.4.1.3](bob-cli-j5.4.1.3.md) | 2026-11-09 18:43:43 EST |
 | bob-cli | [`2327590`](https://github.com/bobs-org/bob-cli/commit/2327590f2caabced31e6320a232d57355dfe2007) | feat(archive): report health findings and use bound pair destinations | [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) | 2026-11-09 19:00:25 EST |
 | bob-cli | [`03dfe6d`](https://github.com/bobs-org/bob-cli/commit/03dfe6deb86d6accfc825dc107136b198f5438be) | feat(collect-done): rename-following archive plan with link repair | [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) | 2026-11-09 19:50:15 EST |
+| bob-cli | [`eba2bd5`](https://github.com/bobs-org/bob-cli/commit/eba2bd59a6fa6fdf8e827adbda1d42c03d97519b) | test(archive): cover stats attribution and Git commit across archive renames | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 2026-11-09 20:28:56 EST |
