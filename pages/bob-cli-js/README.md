@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-js.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.3/README.md) | [bob-cli-js.3](bob-cli-js.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-js.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.4.md) | [bob-cli-js.4](bob-cli-js.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-js.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.5/README.md) | [bob-cli-js.5](bob-cli-js.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-js.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.land.md) | [bob-cli-js](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-js.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.land.md) | [bob-cli-js](README.md) | 2 |
 
 ## Commits
 
@@ -87,6 +87,7 @@ flowchart TD
 | bob-cli | [`947f24f`](https://github.com/bobs-org/bob-cli/commit/947f24ff8636702d0c323cc7d1a43f362eebd5fd) | docs(memory): document period strip chart density rules in stats-strip glossary | [bob-cli-js.5](bob-cli-js.5.md) | 2026-11-10 14:52:49 EST |
 | bob-plugins | [`bob-plugins@0fd19de`](https://github.com/bobs-org/bob-plugins/commit/0fd19deed17990f40a797ba97c491c86836e25a2) | feat(ledger-tools): add period strip chart density rules, year fallback and parts mini-bars | [bob-cli-js.5](bob-cli-js.5.md) | 2026-11-10 14:53:20 EST |
 | bob-cli | [`991e270`](https://github.com/bobs-org/bob-cli/commit/991e270e4eae5d6f979c8cae902b90a0174cf9c6) | docs(stats): record period strip geometry, fills, and budgets beside Controls | [bob-cli-js](README.md) | 2026-11-10 15:49:00 EST |
+| bob-plugins | [`bob-plugins@af6a346`](https://github.com/bobs-org/bob-plugins/commit/af6a3460790f72111c88583aa8452ad4a59a0260) | feat(ledger-tools): finish two-chart period strip landing (ghosts, fallback labels, legend fit, fade, day routing) | [bob-cli-js](README.md) | 2026-11-10 15:49:39 EST |
 
 <!-- sase:referenced-by:start -->
 
