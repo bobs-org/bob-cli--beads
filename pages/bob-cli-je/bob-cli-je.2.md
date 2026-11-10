@@ -25,10 +25,16 @@ nav-copy: change the Links-stage consequence strip to copies N notes, update tes
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-je.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-je.2/README.md) | [bob-cli-je.2](bob-cli-je.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-je.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-je.2/README.md) | [bob-cli-je.2](bob-cli-je.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@f06c7e8`](https://github.com/bobs-org/bob-plugins/commit/f06c7e8ca58fc68236dd41a48bf4517b659a1faf) | feat(navigation): describe merge notes as copied | [bob-cli-je.2](bob-cli-je.2.md) | 2026-11-09 19:01:07 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-je.2][1] | Need the phase scope, design file, and prior work notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-je.2/README.md
+
+<!-- sase:referenced-by:end -->
