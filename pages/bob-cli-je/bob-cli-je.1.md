@@ -18,7 +18,7 @@ engine: stop cutting source bodies, strip identity from copies, keep in-copy lin
 ## Dependencies
 
 - **Blocks:** [bob-cli-je.2](bob-cli-je.2.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-je.3](bob-cli-je.3.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-je.3](bob-cli-je.3.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
