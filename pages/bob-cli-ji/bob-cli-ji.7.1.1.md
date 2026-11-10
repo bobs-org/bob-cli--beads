@@ -19,8 +19,8 @@ contract: produce full normalized bob-cli JSON fixtures, expose structured effec
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) ◐ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) ✓ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

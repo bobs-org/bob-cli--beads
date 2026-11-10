@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [bob-cli-ji.7.1](bob-cli-ji.7.1.md) / bob-cli-ji.7.1.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-ji.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.md) · **Assignee:** `bob-cli-ji.7.1.2` · **Size:** medium
-**Created:** 2026-11-10 10:29:45 EST
+**Created:** 2026-11-10 10:29:45 EST · **Closed:** 2026-11-10 12:28:09 EST
 **Plan:** [202611/mac\_event\_note\_mode.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_event_note_mode.md)
 
 ## Description
 
 session: implement a dedicated event-note model with list/filter/select, explicit scope, separate per-scope drafts, debounced preview, serialized save/clear/undo, capability state, and stale-response rejection. Test its complete lifecycle with bounded fake-bob operations before panel wiring. Read the Session section.
+
+## Notes
+
+[2026-11-10T17:27:53Z · bob-cli-ji.7.1.2--1] PROPOSED FOLLOW-UP: Pre-existing CaptureAliasTipPanelTests waitUntil timeouts (testFilteringKeepsTheShownTipAnchoredToTheSigil, testOptionTypedHashOpensTheHashTip, testTypingQueryBeforeTheRouteListOpensKeepsTheTip) failed on exact-SHA run 42858829201 identically to base 8273c8f/aafed83 as recorded on bob-cli-ji.7.1.3; same class as flake bead bob-cli-jk — GcalNoteSessionTests all passed
+
+[2026-11-10T17:28:09Z · bob-cli-ji.7.1.2--1] GcalNoteSession lifecycle with list/filter/select, per-scope drafts, 150ms preview, serialized save/clear/undo, stale-response rejection; athena portable-check 2438 tests 0 failures; exact-SHA macOS CI run 42858829201 GcalNoteSessionTests all passed; remaining CaptureAliasTipPanelTests waitUntil timeouts are pre-existing on base 8273c8f/aafed83 (bob-cli-jk / bob-cli-ji.7.1.3 follow-up)
 
 ## Dependencies
 

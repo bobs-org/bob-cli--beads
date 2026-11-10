@@ -13,11 +13,17 @@ picker: wire Command-E, Event Note status menu, and Calendar-row URL entry into 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) ◐ · ⧖ 2026-11-10
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ji.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.4/README.md) | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.4.md) | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@cdd7384`](https://github.com/bobs-org/bob-mac-capture/commit/cdd73844aec701344b2fa8d1be97eb49d30d5ed0) | feat(capture): add Event Note picker overlay in capture panel | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 2026-11-10 13:54:12 EST |

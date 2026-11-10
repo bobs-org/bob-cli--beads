@@ -13,7 +13,7 @@ editor: add the fixed identity header, recurring scope control, multiline AppKit
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) ◐ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.7.1.6](bob-cli-ji.7.1.6.md) ◐ · ⧖ 2026-11-10
 
