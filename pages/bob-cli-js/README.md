@@ -31,7 +31,7 @@ Every week, quarter, year, and all-time note heads with a calm, honest strip: th
 | [bob-cli-js.2](bob-cli-js.2.md) | Configured task-type minutes in Stats | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [bob-cli-js.3](bob-cli-js.3.md) | bob periods show charts and stacks contract | ✓ closed | medium | 2026-11-10 | 1 | 2 |
 | [bob-cli-js.4](bob-cli-js.4.md) | Two-chart period strip painter and its own switch | ✓ closed | medium | 2026-11-10 | 1 | 2 |
-| [bob-cli-js.5](bob-cli-js.5.md) | Year and all-time density, parts table, polish, and memory | ✓ closed | medium | 2026-11-10 | 1 | 1 |
+| [bob-cli-js.5](bob-cli-js.5.md) | Year and all-time density, parts table, polish, and memory | ✓ closed | medium | 2026-11-10 | 1 | 2 |
 
 ## Lineage
 
@@ -62,7 +62,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-js.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.2/README.md) | [bob-cli-js.2](bob-cli-js.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-js.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.3/README.md) | [bob-cli-js.3](bob-cli-js.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-js.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.4.md) | [bob-cli-js.4](bob-cli-js.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-js.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.5/README.md) | [bob-cli-js.5](bob-cli-js.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-js.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.5/README.md) | [bob-cli-js.5](bob-cli-js.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-js.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-js.land/README.md) | [bob-cli-js](README.md) | 0 |
 
 ## Commits
@@ -77,3 +77,4 @@ flowchart TD
 | bob-cli | [`9cd4ec3`](https://github.com/bobs-org/bob-cli/commit/9cd4ec3e590d187ecdad70e685c198bd45095b6c) | docs(stats): describe aligned period charts | [bob-cli-js.4](bob-cli-js.4.md) | 2026-11-10 14:20:54 EST |
 | bob-plugins | [`bob-plugins@12e6e72`](https://github.com/bobs-org/bob-plugins/commit/12e6e728f37367d666e771b2292d99d3c3076f13) | feat(stats): render two-chart period strips | [bob-cli-js.4](bob-cli-js.4.md) | 2026-11-10 14:21:21 EST |
 | bob-cli | [`947f24f`](https://github.com/bobs-org/bob-cli/commit/947f24ff8636702d0c323cc7d1a43f362eebd5fd) | docs(memory): document period strip chart density rules in stats-strip glossary | [bob-cli-js.5](bob-cli-js.5.md) | 2026-11-10 14:52:49 EST |
+| bob-plugins | [`bob-plugins@0fd19de`](https://github.com/bobs-org/bob-plugins/commit/0fd19deed17990f40a797ba97c491c86836e25a2) | feat(ledger-tools): add period strip chart density rules, year fallback and parts mini-bars | [bob-cli-js.5](bob-cli-js.5.md) | 2026-11-10 14:53:20 EST |
