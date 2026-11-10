@@ -33,13 +33,14 @@ Complete bob-cli-ji.7: open a private event note from any capture draft with Com
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4c1f7dd`](https://github.com/bobs-org/bob-cli/commit/4c1f7dde9f6e8515f069ccfd3e58c30047d76a0e) | fix(gcal): clean event note lint and add preview fixtures | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 18:28:36 EST |
+| bob-mac-capture | [`bob-mac-capture@f1e5c99`](https://github.com/bobs-org/bob-mac-capture/commit/f1e5c99c05539d54e71789f8afba95837b8fccc2) | feat(capture): complete event note editing and preview | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 18:29:07 EST |
 
 <!-- sase:referenced-by:start -->
 
