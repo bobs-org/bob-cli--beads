@@ -18,13 +18,19 @@ notebook-note-writes: implement section resolution, note and sub-note placement,
 ## Dependencies
 
 - **Depends on:** [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j8.3.1.4](bob-cli-j8.3.1.4.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.3.1.4](bob-cli-j8.3.1.4.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.3/README.md) | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.3/README.md) | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`8d098e5`](https://github.com/bobs-org/bob-cli/commit/8d098e550588eafbcdc4788e7cbb6ce10024ad26) | feat(capture)!: write notebook notes through guarded transaction | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 2026-11-09 19:31:54 EST |
 
 <!-- sase:referenced-by:start -->
 

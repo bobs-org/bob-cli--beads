@@ -48,14 +48,7 @@ FOLLOW-UP TRIAGE (from bob-cli-j8.6.1.3, preserved): #1 palette hex #c98500 outs
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@254b4c4`](https://github.com/bobs-org/bob-plugins/commit/254b4c467817ade01e892549e48630898638987e) | fix(ledger-tools): repair notebook catalog and header landing | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2026-11-09 20:22:54 EST |
-| bob-cli--plans | [`bob-cli--plans@e2abff0`](https://github.com/bobs-org/bob-cli--plans/commit/e2abff08c97d314b215c515c46e2ae26c9e64c07) | chore(plans): mark notebook catalog UI plans done | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2026-11-09 20:24:05 EST |
+| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
