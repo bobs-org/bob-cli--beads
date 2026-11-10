@@ -20,7 +20,7 @@ hardening: journal which fields a private note contributed to each `gcal.row`, h
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.1](bob-cli-ji.1.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.6](bob-cli-ji.6.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.6](bob-cli-ji.6.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

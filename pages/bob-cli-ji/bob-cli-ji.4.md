@@ -21,7 +21,7 @@ write: normalize one-line and multi-line input into canonical lines using shared
 
 - **Depends on:** [bob-cli-ji.2](bob-cli-ji.2.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.5](bob-cli-ji.5.md) ◐ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.6](bob-cli-ji.6.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.6](bob-cli-ji.6.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.7](bob-cli-ji.7.md) ◐ · ⧖ 2026-11-10
 
 ## Agents
@@ -42,10 +42,12 @@ write: normalize one-line and multi-line input into canonical lines using shared
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.40.cld][1] | Check phase progress and notes for guide accuracy | 1 |
-| read-by | [agent:research.40.mus][2] | research guide on adding metadata to private event tasks | 1 |
+| read-by | [agent:bob-cli-ji.4][1] | Need the phase scope, design file, and earlier work notes before continuing this assigned phase | 2 |
+| read-by | [agent:research.40.cld][2] | Check phase progress and notes for guide accuracy | 1 |
+| read-by | [agent:research.40.mus][3] | research guide on adding metadata to private event tasks | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.mus/README.md
 
 <!-- sase:referenced-by:end -->
