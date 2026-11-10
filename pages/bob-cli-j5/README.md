@@ -40,8 +40,8 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-j5.4](bob-cli-j5.4.md) | One archive pairing resolver, rename-following, and health diagnostics | ✓ closed | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j5.5](bob-cli-j5.5.md) | Keep window and month headings | ✓ closed | medium | 2026-11-09 | 1 | 1 |
 | [bob-cli-j5.6](bob-cli-j5.6.md) | bob task restore | ✓ closed | medium | 2026-11-09 | 1 | 1 |
-| [bob-cli-j5.7](bob-cli-j5.7.md) | One done/ path contract in bob-cli | ◐ in_progress | medium | 2026-11-09 | 1 | 1 |
-| [bob-cli-j5.8](bob-cli-j5.8.md) | Plugin path helper and archived-task reopen | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
+| [bob-cli-j5.7](bob-cli-j5.7.md) | One done/ path contract in bob-cli | ✓ closed | medium | 2026-11-09 | 1 | 1 |
+| [bob-cli-j5.8](bob-cli-j5.8.md) | Plugin path helper and archived-task reopen | ✓ closed | medium | 2026-11-09 | 1 | 1 |
 
 ## Lineage
 
@@ -64,8 +64,8 @@ flowchart TD
     n14["bob-cli-j5.4.1.5: Follow source renames in one guarded archive plan [closed]"]
     n15["bob-cli-j5.5: Keep window and month headings [closed]"]
     n16["bob-cli-j5.6: bob task restore [closed]"]
-    n17["bob-cli-j5.7: One done/ path contract in bob-cli [in_progress]"]
-    n18["bob-cli-j5.8: Plugin path helper and archived-task reopen [in_progress]"]
+    n17["bob-cli-j5.7: One done/ path contract in bob-cli [closed]"]
+    n18["bob-cli-j5.8: Plugin path helper and archived-task reopen [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-j5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.5/README.md) | [bob-cli-j5.5](bob-cli-j5.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.6/README.md) | [bob-cli-j5.6](bob-cli-j5.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.7.md) | [bob-cli-j5.7](bob-cli-j5.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-j5.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.8/README.md) | [bob-cli-j5.8](bob-cli-j5.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.8/README.md) | [bob-cli-j5.8](bob-cli-j5.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.land/README.md) | [bob-cli-j5](README.md) | 0 |
 
 ## Commits
@@ -148,6 +148,7 @@ flowchart TD
 | bob-cli | [`e5b0898`](https://github.com/bobs-org/bob-cli/commit/e5b0898e51670d39fe99fb959495ac7d12e37d3f) | feat(task-restore): add bob task restore over the task-move engine | [bob-cli-j5.6](bob-cli-j5.6.md) | 2026-11-09 23:34:10 EST |
 | bob-cli | [`15a7999`](https://github.com/bobs-org/bob-cli/commit/15a79998ebee433dd2bd3dc76b1e3dc4c5ba0ab1) | feat(archive)!: keep window and group archived closures by month | [bob-cli-j5.5](bob-cli-j5.5.md) | 2026-11-10 00:03:43 EST |
 | bob-cli | [`6a7afcd`](https://github.com/bobs-org/bob-cli/commit/6a7afcd2d9f7b5fa4b207e2687e75da97348f216) | feat(archive): treat only top-level done/ as the archive | [bob-cli-j5.7](bob-cli-j5.7.md) | 2026-11-10 01:01:21 EST |
+| bob-plugins | [`bob-plugins@16c0454`](https://github.com/bobs-org/bob-plugins/commit/16c0454820f1d5034a7c2dc4062c42eb1f78f8ef) | feat(plugins): share one done/ path contract and reopen archived tasks via restore | [bob-cli-j5.8](bob-cli-j5.8.md) | 2026-11-10 01:14:11 EST |
 
 <!-- sase:referenced-by:start -->
 

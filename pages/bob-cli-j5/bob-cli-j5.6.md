@@ -22,8 +22,8 @@ restore: let the task-move engine take a done/ source and add a thin bob task re
 ## Dependencies
 
 - **Depends on:** [bob-cli-j5.4](bob-cli-j5.4.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.7](bob-cli-j5.7.md) ◐ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.8](bob-cli-j5.8.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.7](bob-cli-j5.7.md) ✓ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.8](bob-cli-j5.8.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

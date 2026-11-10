@@ -22,7 +22,7 @@ keep-window: replace the count gate with the chosen keep window, keep -t as an o
 ## Dependencies
 
 - **Depends on:** [bob-cli-j5.4](bob-cli-j5.4.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.7](bob-cli-j5.7.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.7](bob-cli-j5.7.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
