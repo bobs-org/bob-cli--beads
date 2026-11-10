@@ -7,6 +7,18 @@
 **Created:** 2026-11-10 10:29:45 EST
 **Plan:** [202611/mac\_event\_note\_mode.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_event_note_mode.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/mac_event_note_mode.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_event_note_mode.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-ji.7: open a private event note from any capture draft with Command-E, the status menu, or a Calendar row; choose an event and scope; edit with Bob's highlights and a faithful hatched time rail; save, clear, and undo through bob gcal note JSON while preserving capture text and undo history. Ship the documentation and verify the exact Swift tree with macOS CI.

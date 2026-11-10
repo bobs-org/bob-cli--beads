@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.md) | [bob-cli-ji.7](bob-cli-ji.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.1/README.md) | [bob-cli-ji.7.1.1](bob-cli-ji.7.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.2/README.md) | [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ji.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.3/README.md) | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.3.md) | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.4/README.md) | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.5/README.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.6/README.md) | [bob-cli-ji.7.1.6](bob-cli-ji.7.1.6.md) | 0 |
@@ -118,6 +118,7 @@ flowchart TD
 | bob-cli | [`c8934b9`](https://github.com/bobs-org/bob-cli/commit/c8934b93af196e36b08a480aac36df5b336dcda6) | feat(gcal): edit and adopt private event notes | [bob-cli-ji.5](bob-cli-ji.5.md) | 2026-11-10 10:24:00 EST |
 | bob-cli | [`8e2b93c`](https://github.com/bobs-org/bob-cli/commit/8e2b93c7d0ed6bee06cb5b19b5ce95bc8f09115e) | feat(gcal): expose effective buffer reasons in note JSON | [bob-cli-ji.7.1.1](bob-cli-ji.7.1.1.md) | 2026-11-10 11:21:54 EST |
 | bob-mac-capture | [`bob-mac-capture@8273c8f`](https://github.com/bobs-org/bob-mac-capture/commit/8273c8fe459b844bf2df58d30ed8d47794801e7a) | feat(capture): add gcal note process contract | [bob-cli-ji.7.1.1](bob-cli-ji.7.1.1.md) | 2026-11-10 11:22:27 EST |
+| bob-mac-capture | [`bob-mac-capture@7cb516f`](https://github.com/bobs-org/bob-mac-capture/commit/7cb516fbab387fc79f014bc2750b2e83b92ac5dd) | feat(capture): add shared hatched meeting and buffer rail | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 2026-11-10 11:33:26 EST |
 
 <!-- sase:referenced-by:start -->
 
