@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-j8.6](bob-cli-j8.6.md) / bob-cli-j8.6.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-j8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.md) · **Assignee:** `bob-cli-j8.6.1.land`
-**Created:** 2026-11-09 15:15:01 EST
+**Created:** 2026-11-09 15:15:01 EST · **Closed:** 2026-11-09 20:21:01 EST
 **Plan:** [202611/notebook\_catalog\_ui.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/notebook_catalog_ui.md)
 
 <!-- sase:links:start -->
@@ -14,6 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/notebook_catalog_ui.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:04792cc56b09bf906d3c21b7 | attached via sase artifact create --bead |
+| related | file:explicit:5c0afbb7d9ac3ecdd1970142 | attached via sase artifact create --bead |
+| related | file:explicit:7c10b6b995bc56feb7db1c53 | attached via sase artifact create --bead |
+| related | file:explicit:8a4a31b59d519aafb72eaa21 | attached via sase artifact create --bead |
+| related | file:explicit:93f70086784fcf546d527688 | attached via sase artifact create --bead |
+| related | file:explicit:a3b883e95c1a1f3612d66548 | attached via sase artifact create --bead |
 | related | file:explicit:bc690a37fdcaf7a084746ce3 | attached via sase artifact create --bead |
 
 _Plus 3 automatic references — see [Referenced By](#referenced-by)._
@@ -32,11 +38,23 @@ Complete bob-cli-j8.6 with notebook catalog cards and live metadata in Reading v
 
 [2026-11-10T00:10:48Z · bob-cli-j8.6.1.land] LAND AUDIT: Read this epic, all three closed children and every note, approved child and parent plans, plugin commits db5accf/56b3604/32a8545, actual 241a-g source/lifecycle/styles/tests, and the Rust schema-1 model. DECISIONS are preserved; UI work changes no memory/capture choices. 53 focused notebook and create-API tests pass; build:check and validate pass (9/9). Actual remaining defects: LP cleanup deletes its own widget (mounted header 1 -> 0), widget equality ignores label/hue/toggle changes, Reading embeds escape into the outer note and get removed by its renderer, stale/first-fetch errors lack visible retry state, H1-less missing catalogs lack an action, host colors use root_hue and ignore local overrides/mute, and phase .2 introduced the failing #c98500 stylesheet fallback. Startup setting refresh, ancestry completeness and scoped cleanup need integration coverage. Reproduction/evidence: file:explicit:bc690a37fdcaf7a084746ce3. Reviewed concurrent history since 2026-11-09T20:15:01Z, including fe7097f notebook-create API (must share existing refresh path), capture composition, archive pairing/writer, merge-copy and tip docs. Fast-forwarded primary to 2327590f; inspected newer plugin-base f06c7e8 Navigation-only copy changes, no notebook conflict. No epic-symbol entries; no current symvision recipe. Real smoke exits 2/unrun: /snap/bin/obsidian not executable and xvfb-run absent. No real Obsidian/visual success claimed; no full npm or just check rerun pending repairs; never ran check-full. Follow-up triage is complete in prior note. Remaining work is one medium tale whose final step closes this epic and parent phase bob-cli-j8.6 normally, marks plan:202611/notebook_catalog_ui.md done, and leaves containing epic bob-cli-j8 to its own land agent. Keep this epic open until that work and evidence are complete.
 
+[2026-11-10T00:32:52Z · bob-cli-je.land] DISCOVERED ISSUE: corroboration from bob-cli-je landing, proposed by bob-cli-je.2 note #1. Its nav-copy phase reports both stylesheet color-contract failures on clean base and phase tree. Independent source review of plugin f06c7e8 still finds the notebook fallback #c98500 at styles.css:7739 from 56b3604; your note #1 already owns its repair. This is caused by notebook catalog work, not merge-copy; no separate task filed.
+
+[2026-11-10T01:21:01Z · bob-cli-j8.6.1.land] Landing repairs complete. Athena isolated Obsidian e2e 17/17 (xvfb, scratch vault, never the live vault): one Live Preview header with data-cm-widget, one Reading header after section coalesce, focus restored after refreshNotebookHeaderAll, catalog hue/chips/add-summary, 375px wrap, embed-owned header, H1-less missing catalog ↻ sync, damaged ↻ sync, Source mode none. Evidence: file:explicit:93f70086784fcf546d527688 file:explicit:5c0afbb7d9ac3ecdd1970142 file:explicit:7c10b6b995bc56feb7db1c53 file:explicit:a3b883e95c1a1f3612d66548 file:explicit:04792cc56b09bf906d3c21b7 file:explicit:8a4a31b59d519aafb72eaa21. bob plugins sync --repo "$PWD" --no-pull -p bob-ledger-tools -F deployed main.js/styles.css; other plugins left untouched. Focused notebook tests pass; npm run build:check and validate 9/9; docs:check with BOB_CLI_DIR=bob-cli_11 447 passed / 1 skipped. Full npm test 5889 pass / 3 fail are the preexisting host Chromium-missing sheet sequence and two isolation-sensitive perf/motion budgets. plan:202611/notebook_catalog_ui.md and plan:202611/notebook_ui_landing_repairs.md marked status: done. Containing epic bob-cli-j8 left open.
+
+FOLLOW-UP TRIAGE (from bob-cli-j8.6.1.3, preserved): #1 palette hex #c98500 outside tokens repaired in this tale (styles.css notebook fallback removed; contract test forbids it; no new task). #2 production CSS reduced-motion 90s timeout corroborates bob-cli-fz; no duplicate task. #3 glossary generated drift declined/non-reproducing. No new task beads.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@254b4c4`](https://github.com/bobs-org/bob-plugins/commit/254b4c467817ade01e892549e48630898638987e) | fix(ledger-tools): repair notebook catalog and header landing | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2026-11-09 20:22:54 EST |
 
 <!-- sase:referenced-by:start -->
 

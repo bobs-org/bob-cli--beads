@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/notebook_capture_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/notebook_capture_notes.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-j8.3 with shared notebook capture parsing, guarded note writes,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j8.3.1.2][1] | Need parent epic DECISIONS and phase list | 1 |
+| read-by | [agent:bob-cli-j8.3.1.3][2] | Need parent epic scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.3/README.md
 
 <!-- sase:referenced-by:end -->
