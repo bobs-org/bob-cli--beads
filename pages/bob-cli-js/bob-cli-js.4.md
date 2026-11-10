@@ -23,7 +23,7 @@ chart_painter: paint Roots above Types on one shared axis from bob's charts and 
 
 - **Depends on:** [bob-cli-js.1](bob-cli-js.1.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [bob-cli-js.3](bob-cli-js.3.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-js.5](bob-cli-js.5.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-js.5](bob-cli-js.5.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -37,3 +37,15 @@ chart_painter: paint Roots above Types on one shared axis from bob's charts and 
 |---|---|---|---|---|
 | bob-cli | [`9cd4ec3`](https://github.com/bobs-org/bob-cli/commit/9cd4ec3e590d187ecdad70e685c198bd45095b6c) | docs(stats): describe aligned period charts | [bob-cli-js.4](bob-cli-js.4.md) | 2026-11-10 14:20:54 EST |
 | bob-plugins | [`bob-plugins@12e6e72`](https://github.com/bobs-org/bob-plugins/commit/12e6e728f37367d666e771b2292d99d3c3076f13) | feat(stats): render two-chart period strips | [bob-cli-js.4](bob-cli-js.4.md) | 2026-11-10 14:21:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-js.4--3][1] | Need the phase scope, notes, and linked design before finishing validation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.4.md
+
+<!-- sase:referenced-by:end -->
