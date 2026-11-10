@@ -33,3 +33,15 @@ plugins: give each bob-plugins plugin that checks done/ paths the same helper pi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@16c0454`](https://github.com/bobs-org/bob-plugins/commit/16c0454820f1d5034a7c2dc4062c42eb1f78f8ef) | feat(plugins): share one done/ path contract and reopen archived tasks via restore | [bob-cli-j5.8](bob-cli-j5.8.md) | 2026-11-10 01:14:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j5.8][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.8/README.md
+
+<!-- sase:referenced-by:end -->

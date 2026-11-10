@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-j5
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ai](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ai.md) · **Assignee:** `bob-cli-j5.land`
-**Created:** 2026-11-09 11:04:08 EST
+**Created:** 2026-11-09 11:04:08 EST · **Closed:** 2026-11-10 02:30:34 EST
 **Plan:** [202611/done\_notes\_archiving\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/done_notes_archiving_fixes.md)
 
 <!-- sase:links:start -->
@@ -14,11 +14,13 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/done_notes_archiving_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-jh][2] | Found by bob-cli-j5's land agent during the restore phase's audit of in-place reopen writers; bob task restore -r is the sanctioned way to reopen an archived task |
 | related | file:explicit:82c6a707ddd506f8b0f9d403 | attached via sase artifact create --bead |
 
 _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/done_notes_archiving_fixes.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-jh/README.md
 
 <!-- sase:links:end -->
 
@@ -29,6 +31,24 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Notes
 
 [2026-11-10T03:22:59Z · bob-cli-j8.3.1.land] DISCOVERED ISSUE: Independent reproduction in the approved notebook-capture workspace: cargo test --lib mg18_merge_source_with_descendant_anchor_archives_through_bound_pair -- --nocapture exits 101 with only that test failing (6,248 filtered). The test expects its fixture's done/custom_archive destination, but copied links remain on done/src_done; source: src/native/task_merge/tests.rs:3042. Neither task_merge nor collect_done is changed by this notebook work. Durable reproduction: file:explicit:82c6a707ddd506f8b0f9d403. This corroborates the already-recorded custom archive pairing issue; no new task bead filed.
+
+[2026-11-10T06:53:31Z · bob-cli-j5.land] FOLLOW-UP TRIAGE (bob-cli-j5.land): Reviewed every PROPOSED FOLLOW-UP on phases j5.1-j5.8 and nested epics j5.2.1 and j5.4.1.
+(1) j5.1 #1, Mac capture page word budgets: already tracked by bob-cli-h9 and corroborated by bob-cli-j5.2.1.land. No second +1 from this epic.
+(2) j5.3 #3/#4, json-outputs.md over budget (6143): obsolete. The page is now 5995 words (cap 6000) after 527f30ad/4a0206ec. j5.2.1.land had routed it to bob-cli-j8. No task.
+(3) j5.5 #1 and j5.6 #2, mg18 bound-archive test: resolved in-epic by 15a79998, which aligned the test with the accepted canonicalizing rename. It passes on 6a7afcd2 and in the full just check (10331 passed, 0 failed). No task.
+(4) j5.5 #2, j5.6 #1, j5.8 #1, docs-check bob-mac-capture mount index collision: semantic duplicate of bob-cli-jf. Root cause: bob-mac-capture master is still 9a0bb25c, and the bob-docs cache holds bob-cli's tree. Recorded a +1 on bob-cli-jf. It is not bob-cli-it, which covers a stale gitignored index.
+(5) Restore-phase reopen-writer audit (plan step 5, never recorded by j5.6): done by the lander. gcal refile, highlights_ref, task_move restore, and successors are safe. The only finding is capture plan_promotions reopening closed or done/ prerequisites in place; it predates the epic (bob-cli-6u.8) and is filed as bob-cli-jh (small bug, ready).
+(6) bob-cli-jg, archive pair-index latency: epic-caused, but the approved archive_pair_census_perf_and_land plan made it a separate task linked to j5.4.1. It stays its own ready task.
+(7) j5.3 notes #1-#2 are stray non-proposals.
+bob-cli-em stays out of scope per the plan.
+
+[2026-11-10T06:55:32Z · bob-cli-j5.land] LAND AUDIT (bob-cli-j5.land): Checked all eight phases and nested epics j5.2.1/j5.4.1 against source and commits f1ee393d..6a7afcd2, plus bob-plugins 16c0454. Selection, guarded writer, link repair, pairing, restore, path contract (no leftover Rust done/ shapes), and plugins (vectors sha 9b9ce16d pinned in all four plugins; reopen via restore -o -r -f json) match the plan and DECISIONS. No memory or version edits.
+Intervening commits needed no integration: task-merge 076fdc48/6d063ff5 (mg18 aligned in 15a79998), notebooks (snapshot uses skip_archive_directory), gcal (daily notes only), docs 527f30ad/4a0206ec.
+Gates on 6a7afcd2: just check 10331 passed, 0 failed; just docs-check fails only on the bob-cli-jf mount collision.
+Live read-only preview: 37 sources, 151 roots, 1 rename, 0 holds, all health counts 0.
+REMAINING EPIC WORK (keep-window phase j5.5 shipped part of the week_cap decision): hard-coded 7/10 with no archive.keep_days/archive.keep_max config; no per-note archive_keep N|off; undated roots stay instead of moving as oldest under ## Undated; a missing month heading is always appended rather than placed chronologically. Proposed a medium tale (sase_plan_finish_archive_keep_window_and_land_j5) that finishes these gaps and then closes this epic. bob-cli-j5 has no parent_bead. Epic-symbols empty. The justfile has no symvision recipe.
+
+[2026-11-10T07:30:34Z · bob-cli-j5.land] Land verification: all eight phases (selection, guarded writer incl. nested epic j5.2.1, link repair, pairing incl. nested epic j5.4.1, keep-window, restore, path contract, plugins) checked against source and commits f1ee393d..6a7afcd2 plus bob-plugins 16c0454. DECISIONS honored (week_cap, frozen, rename, restore, no memory strand). Intervening commits (task-merge 076fdc48/6d063ff5, notebooks 0a74731b..ab021e2d, gcal d3f022a4/8ad8e270, docs 527f30ad/4a0206ec) needed no integration: notebooks use done_archive::skip_archive_directory, gcal touches only daily notes, and mg18 was aligned to canonical renames in 15a79998. Remaining keep-window gaps finished in this tale: archive.keep_days/keep_max config, archive_keep N|off, undated roots under ## Undated, chronological month headings. Gates: just check passed; docs-check blocked only by the bob-mac-capture mount collision tracked by bob-cli-jf; live read-only preview: dry_run true, exit 0, 37 selected files, 151 roots, 1 canonical rename, 0 holds, all health counts 0 (the daily-note entry was rename-only with 0 roots; obsidian.md remained grandfathered). Follow-ups: see the epic FOLLOW-UP TRIAGE note (bob-cli-jf +1, bob-cli-jh filed, bob-cli-jg and bob-cli-h9 existing, json-outputs and mg18 resolved).
 
 ## Phases
 
@@ -47,7 +67,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-j5: Fix done-notes archiving without changing the done/ layout [in_progress]"]
+    n0["bob-cli-j5: Fix done-notes archiving without changing the done/ layout [closed]"]
     n1["bob-cli-j5.1: Safe archive selection [closed]"]
     n2["bob-cli-j5.2: Guarded archive writer with preview and JSON [closed]"]
     n3["bob-cli-j5.2.1: Guarded archive writer with preview and JSON [closed]"]
@@ -124,7 +144,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-j5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.6/README.md) | [bob-cli-j5.6](bob-cli-j5.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.7.md) | [bob-cli-j5.7](bob-cli-j5.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-j5.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.8/README.md) | [bob-cli-j5.8](bob-cli-j5.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-j5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.land/README.md) | [bob-cli-j5](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.land.md) | [bob-cli-j5](README.md) | 1 |
 
 ## Commits
 
@@ -149,6 +169,7 @@ flowchart TD
 | bob-cli | [`15a7999`](https://github.com/bobs-org/bob-cli/commit/15a79998ebee433dd2bd3dc76b1e3dc4c5ba0ab1) | feat(archive)!: keep window and group archived closures by month | [bob-cli-j5.5](bob-cli-j5.5.md) | 2026-11-10 00:03:43 EST |
 | bob-cli | [`6a7afcd`](https://github.com/bobs-org/bob-cli/commit/6a7afcd2d9f7b5fa4b207e2687e75da97348f216) | feat(archive): treat only top-level done/ as the archive | [bob-cli-j5.7](bob-cli-j5.7.md) | 2026-11-10 01:01:21 EST |
 | bob-plugins | [`bob-plugins@16c0454`](https://github.com/bobs-org/bob-plugins/commit/16c0454820f1d5034a7c2dc4062c42eb1f78f8ef) | feat(plugins): share one done/ path contract and reopen archived tasks via restore | [bob-cli-j5.8](bob-cli-j5.8.md) | 2026-11-10 01:14:11 EST |
+| bob-cli | [`63ce765`](https://github.com/bobs-org/bob-cli/commit/63ce7653ad655251d2d44c2e48140dc135ca1565) | feat(archive)!: finish configurable keep-window behavior | [bob-cli-j5](README.md) | 2026-11-10 02:34:09 EST |
 
 <!-- sase:referenced-by:start -->
 
