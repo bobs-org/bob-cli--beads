@@ -17,7 +17,7 @@ engine: stop cutting source bodies, strip identity from copies, keep in-copy lin
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-je.2](bob-cli-je.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-je.2](bob-cli-je.2.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-je.3](bob-cli-je.3.md) ◐ · ⧖ 2026-11-09
 
 ## Agents
@@ -31,3 +31,15 @@ engine: stop cutting source bodies, strip identity from copies, keep in-copy lin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`076fdc4`](https://github.com/bobs-org/bob-cli/commit/076fdc484ff3920a40b5b16bae3dfe518cbdea92) | feat(task-merge)!: copy merged source notes instead of moving them | [bob-cli-je.1](bob-cli-je.1.md) | 2026-11-09 18:44:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-je.1][1] | Need notes from earlier agents for remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-je.1/README.md
+
+<!-- sase:referenced-by:end -->
