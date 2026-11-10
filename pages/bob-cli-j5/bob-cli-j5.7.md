@@ -21,4 +21,10 @@ path-contract: replace every Rust done/ path predicate, inline check, and walker
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-j5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.7/README.md) | [bob-cli-j5.7](bob-cli-j5.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-j5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.7.md) | [bob-cli-j5.7](bob-cli-j5.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`6a7afcd`](https://github.com/bobs-org/bob-cli/commit/6a7afcd2d9f7b5fa4b207e2687e75da97348f216) | feat(archive): treat only top-level done/ as the archive | [bob-cli-j5.7](bob-cli-j5.7.md) | 2026-11-10 01:01:21 EST |

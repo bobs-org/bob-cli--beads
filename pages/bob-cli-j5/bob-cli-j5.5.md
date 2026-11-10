@@ -35,3 +35,15 @@ keep-window: replace the count gate with the chosen keep window, keep -t as an o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`15a7999`](https://github.com/bobs-org/bob-cli/commit/15a79998ebee433dd2bd3dc76b1e3dc4c5ba0ab1) | feat(archive)!: keep window and group archived closures by month | [bob-cli-j5.5](bob-cli-j5.5.md) | 2026-11-10 00:03:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j5.5][1] | Need the phase scope, design file, and prior work notes before implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.5/README.md
+
+<!-- sase:referenced-by:end -->
