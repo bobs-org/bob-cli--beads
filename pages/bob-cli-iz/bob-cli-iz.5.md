@@ -34,7 +34,9 @@ replaced_hold: bob-cli. When every row Bob wrote for the day and the Events stam
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-iz.5][1] | Need phase notes and any recorded remaining work | 3 |
+| read-by | [agent:bob-cli-iz.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md
 
 <!-- sase:referenced-by:end -->

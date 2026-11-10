@@ -40,7 +40,9 @@ force_reset: bob-cli. New force flag, `gcal.reset` journal record and fold, a pl
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-iz.4][1] | Confirm the phase scope and recorded notes before closing | 2 |
+| read-by | [agent:bob-cli-iz.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md
 
 <!-- sase:referenced-by:end -->

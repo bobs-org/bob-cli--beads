@@ -39,7 +39,9 @@ skip_reasons: bob-cli. One shared skip vocabulary for sync and list; sync lists 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-iz.3][1] | notes | 2 |
+| read-by | [agent:bob-cli-iz.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md
 
 <!-- sase:referenced-by:end -->

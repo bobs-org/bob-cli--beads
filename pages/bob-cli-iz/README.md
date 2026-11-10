@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-iz
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1aa](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1aa.md) · **Assignee:** `bob-cli-iz.land`
-**Created:** 2026-11-09 07:12:09 EST
+**Created:** 2026-11-09 07:12:09 EST · **Closed:** 2026-11-09 21:35:00 EST
 **Plan:** [202611/gcal\_sync\_race\_force\_and\_skip\_reasons.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_sync_race_force_and_skip_reasons.md)
 
 <!-- sase:links:start -->
@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gcal_sync_race_force_and_skip_reasons.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-jf][2] | Incident surfaced while landing this epic; phase bob-cli-iz.5's commit only reached bob-mac-capture and was re-landed by the lander |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_sync_race_force_and_skip_reasons.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-jf/README.md
@@ -52,6 +54,16 @@ Follow-up triage:
 
 epic-symbols: none.
 
+[2026-11-10T02:35:00Z · bob-cli-iz.land] Shared replaced-Events detector is live: `src/native/gcal/replaced.rs` is the one pure helper, used by both `sync` and `list`. Presence uses `plan::find_row_line` (block id, then 📅 URL). URL-less context rows inside an existing Events section count as present, so deleting only the stamp on a context-only day restores the stamp instead of holding; a missing Events section still holds, including for those rows. `list` computes held once from the note and journal (no `status.json`), so a clobbered note shows `held · Events replaced` / `lost · run sync -F` before any held sync, and the header clears once the note is restored.
+
+Tests: 11 unit cases in `replaced.rs` (the plan's ten trigger conditions plus missing-section + URL-less context). Integration: `list_reads_a_replaced_section_before_any_held_sync`, `emptied_section_that_keeps_its_stamp_tombstones`, `context_only_stamp_deletion_restores_stamp_without_hold`. Existing `replaced_events_section_holds_until_force_reset` and `force_reset_restores_clobbered_rows_with_old_ids_and_then_noops` still pass.
+
+Docs: `### Replaced Events sections` is now `## Replaced Events sections` after Reconciling; trigger is every journaled row gone and the stamp/section gone. `events_replaced` is in the skipped table and actionable list; list/doctor/`-q`/JSON cover held; `docs/reference/json-outputs.md` lists force/in_sync/skipped/waiting/held.
+
+Verification: `cargo fmt --all -- --check` clean; clippy workspace clean of new denies; `cargo test --lib native::gcal` 224 passed; every `tests/gcal_*.rs` suite passed (auth 57, cli 6, diagnostics 4, lifecycle 44, list 12, sync 69). `just check` fails only on `native::task_merge::tests::mg18_merge_source_with_descendant_anchor_archives_through_bound_pair` (bob-cli-j5.4.1). `just docs-check` is blocked by bob-cli-jf (bob-mac-capture mount ships index.md colliding with the committed landing page). `just symvision` recipe does not exist. epic-symbols: none.
+
+Phases 1–5 and the land triage were already verified (epic note #1).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -66,7 +78,7 @@ epic-symbols: none.
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-iz: Make bob gcal sync race-proof, resettable with --force, and explicit about skips [in_progress]"]
+    n0["bob-cli-iz: Make bob gcal sync race-proof, resettable with --force, and explicit about skips [closed]"]
     n1["bob-cli-iz.1: Refuse to sync into a note Templater has not rendered [closed]"]
     n2["bob-cli-iz.2: Start the create hook only after Templater finishes [closed]"]
     n3["bob-cli-iz.3: Name every skipped event and stop re-tombstoning [closed]"]
@@ -92,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-iz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.3/README.md) | [bob-cli-iz.3](bob-cli-iz.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-iz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md) | [bob-cli-iz.4](bob-cli-iz.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-iz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.5/README.md) | [bob-cli-iz.5](bob-cli-iz.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-iz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.land/README.md) | [bob-cli-iz](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-iz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md) | [bob-cli-iz](README.md) | 2 |
 
 ## Commits
 
@@ -103,3 +115,16 @@ flowchart TD
 | bob-cli | [`a449193`](https://github.com/bobs-org/bob-cli/commit/a449193baa2ecd454b62e924e291d0745fbad614) | feat(gcal): name every skipped event and stop re-tombstoning | [bob-cli-iz.3](bob-cli-iz.3.md) | 2026-11-09 08:37:19 EST |
 | bob-cli | [`97f0b8f`](https://github.com/bobs-org/bob-cli/commit/97f0b8f19b75c90e81e875c87462ae65850956db) | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 09:47:37 EST |
 | bob-cli | [`d3f022a`](https://github.com/bobs-org/bob-cli/commit/d3f022a45cfa247305ec729b32168698dc42bb51) | feat(gcal)!: hold replaced Events sections | [bob-cli-iz](README.md) | 2026-11-09 21:08:39 EST |
+| bob-cli | [`8ad8e27`](https://github.com/bobs-org/bob-cli/commit/8ad8e2703c1a9d52f5a5cd8ef4dc77e8009788e4) | fix(gcal): share the replaced-Events detector between sync and list | [bob-cli-iz](README.md) | 2026-11-09 21:36:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iz.land][1] | Need the parent link | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md
+
+<!-- sase:referenced-by:end -->
