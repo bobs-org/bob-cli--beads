@@ -19,7 +19,7 @@ type_split: add a task_type parts dimension to Pomodoro metrics that splits each
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-js.3](bob-cli-js.3.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-js.3](bob-cli-js.3.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

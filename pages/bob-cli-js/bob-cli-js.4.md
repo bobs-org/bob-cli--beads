@@ -14,7 +14,7 @@ chart_painter: paint Roots above Types on one shared axis from bob's charts and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-js.1](bob-cli-js.1.md) ✓ · ⧖ 2026-11-10
-- **Depends on:** [bob-cli-js.3](bob-cli-js.3.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-js.3](bob-cli-js.3.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-js.5](bob-cli-js.5.md) ◐ · ⧖ 2026-11-10
 
 ## Agents
