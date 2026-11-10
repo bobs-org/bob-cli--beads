@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-j8](README.md) / bob-cli-j8.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.3x.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.3x.linker.w0.md) · **Assignee:** `bob-cli-j8.8` · **Size:** large
-**Created:** 2026-11-09 12:11:28 EST
+**Created:** 2026-11-09 12:11:28 EST · **Closed:** 2026-11-10 07:57:25 EST
 **Plan:** [202611/bob\_notebooks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_notebooks.md)
 
 ## Description
@@ -30,23 +30,51 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 - 2c406dd500915f4d8bee43cbae8f5bdbd985df1b -> af604c6d9e05ec6440bfce5fa15ced97e388035c (test(capture): fix notebook picker assertions and dotted type-through harness)
 BAD 9a0bb25c4b55b547a6d92c35c93017471e74feff and the accidental bob-cli history are removed, not replayed. Gate verified fidelity on all 53 touched paths; scratch recovery backup remains /tmp/bob-mac-restore-0ig_wzuq. Deleted polluted remote branch refs/heads/ci/precommit/4f12681e038ad03a8ecb1de466d2a1ae (af75f0912ead90bad77bd8a6c0886409b2b00bd1). Live master verified equal to restored SHA; fetched every advertised head/tag and no remote ref contains BAD (4 heads, 0 tags). SHA searches found citations on bob-cli-jf, bob-cli-jf.1.1, and bob-cli-j8.8, so this full mapping is recorded on each. Exact-SHA CI run 42813392077 remains pending; this note does not claim CI is green. Run: https://github.com/bobs-org/bob-mac-capture/actions/runs/42813392077
 
+[2026-11-10T12:47:24Z · bob-cli-j8.8--3] DISCOVERY MISS: Scripts/macos-ci-check snapshot 758635ea619cd8dbd01e5499acdf09d29c2bd54a on ci/precommit/9a875cf84f7791944c6ccfc8ceb4c8e8 returned exit 2 after 300s with no matching macos-swift.yml push run (monitor 790br1). Restoration (bob-cli-jf.1.1) dropped macos-swift.yml; genuine Mac CI is ci.yml / "CI" / job macOS 26 SwiftPM. No Swift diagnostic from that check. Restored parent af604c6d run 42813392077 failed three tests: ConcealEditorHighlightTests split-wash assertion (fixed in 28aa5b32), bob-cli-jb double-equals flake, and CaptureAliasTipPanelTests.testSecondEligibleSigilInASessionShowsNoTip waitUntil timeout (not this phase). Watching exact-SHA ci.yml run 42816665790 on HEAD 28aa5b32a62011266459e13723236e4caeda2478.
+
+PROPOSED FOLLOW-UP: After bob-cli-jf restoration, Scripts/macos-ci-check (byte-identical with host scripts/dev/macos-ci-check) still selects workflow macos-swift.yml for bobs-org/bob-mac-capture. That file is absent on restored master; retarget the bob-mac-capture profile to ci.yml so the exact-SHA gate can discover Mac Capture CI.
+
+[2026-11-10T12:57:19Z · bob-cli-j8.8--4] EXACT-SHA CI GREEN on restored Mac master. Workflow CI (.github/workflows/ci.yml), job macOS 26 SwiftPM, run 42816665790 on HEAD 28aa5b32a62011266459e13723236e4caeda2478 (https://github.com/bobs-org/bob-mac-capture/actions/runs/42816665790). Required steps passed: Lint Swift formatting, Build, Test, Bundle, Verify plist and signature, Launch smoke test, Install and reinstall. Hang-sample and launch-smoke diagnostic uploads stayed skipped on this clean run.
+
+Restored SHA mapping for this phase:
+- feature 6dddea35b47bfc64c1295d547a3966c9e7a516e7 (was b20ceca5526c6f379f8d2983e70115f150a9ae48) feat(capture): present notebook capture targets and previews
+- completion a36f3e8163357828e09b132a5fc2c9fdf77c2c05 (was 3fb3a2bea591fd9756722cf8b313d0394ffdf746) fix(capture): name nested notebook parent and restore Mac tests
+- test-fix af604c6d9e05ec6440bfce5fa15ced97e388035c (was 2c406dd500915f4d8bee43cbae8f5bdbd985df1b) test(capture): fix notebook picker assertions and dotted type-through harness
+- conceal-assertion 28aa5b32a62011266459e13723236e4caeda2478 test(capture): expect split wash runs when concealing two record routes
+- host SHA unchanged: f2882ea6fc30894c848bafa4a68e4f81b7c148ed
+
+Nested-parent regression: creationParentContext uses the penultimate Bob breadcrumb. Area create ["dev","Keys"] reads in dev; nested create ["dev","Neovim","Lua","Keys"] reads in Lua. Short, missing, or blank parents omit the phrase. Fixture notebook-capture-create-nested.json was generated from host bob f2882ea6 in an isolated scratch vault.
+
+ID-flow regression: ID-less notebook notes in the + picker call capture-task-id --route dev_nvim --task-ref 14:060f4792; insert waits for success; duplicate-id leaves the draft marker unchanged. fakeBobPath() is restored so CaptureListPanelTests compile (the compiler diagnostic on base 9a0bb25c runs 42735343020 / 42793097983 / 42795804211).
+
+Local swift and swift-format remain unavailable. just docs-check still hits the bob-cli-jf mount collision on unchanged host SHA f2882ea6. Scripts/macos-ci-check (byte-identical with host scripts/dev/macos-ci-check) still selects workflow macos-swift.yml for bobs-org/bob-mac-capture; that file is absent on restored master. Genuine Mac CI is ci.yml.
+
+Classified elsewhere: CaptureRelationEqualsAliasTests.testFastDoubleEqualsBeforeReplyCollapsesToOne is flake bob-cli-jb. CaptureAliasTipPanelTests.testSecondEligibleSigilInASessionShowsNoTip timed out on restored parent af604c6d run 42813392077 and passed on 28aa5b32. The two-record conceal wash-run assertion came from concurrent athena.1ao commit 37933a14 and is aligned in 28aa5b32.
+
+sase bead epic-symbols bob-cli-j8.8: no leftover entries.
+
+PROPOSED FOLLOW-UP: After bob-cli-jf restoration, retarget Scripts/macos-ci-check (and the byte-identical host scripts/dev/macos-ci-check) bob-mac-capture profile from macos-swift.yml to ci.yml so the exact-SHA gate can discover Mac Capture CI.
+
+[2026-11-10T12:57:25Z · bob-cli-j8.8--4] Verified Mac notebook presentation on restored master 28aa5b32a62011266459e13723236e4caeda2478. Nested creation names the immediate parent; ID-less notebook notes keep the capture-task-id assignment flow; fakeBobPath compiles. Exact-SHA ci.yml run 42816665790 (workflow CI, job macOS 26 SwiftPM) passed Test, Bundle, Verify plist and signature, Launch smoke test, and Install and reinstall. Feature SHA 6dddea35, completion a36f3e81, test-fix af604c6d, conceal assertion 28aa5b32; host SHA f2882ea6 unchanged. Local swift/swift-format unavailable. just docs-check still hits the bob-cli-jf mount collision. No epic-symbol leftovers. PROPOSED FOLLOW-UP: retarget macos-ci-check bob-mac
+
+… and 48 more characters
+
 ## Dependencies
 
-- **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j8.5](bob-cli-j8.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 2 |
+| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f2882ea`](https://github.com/bobs-org/bob-cli/commit/f2882ea6fc30894c848bafa4a68e4f81b7c148ed) | fix(ci): select Mac Capture workflow for exact-SHA checks | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:21 EST |
-| bob-mac-capture | [`bob-mac-capture@28aa5b3`](https://github.com/bobs-org/bob-mac-capture/commit/28aa5b32a62011266459e13723236e4caeda2478) | test(capture): expect split wash runs when concealing two record routes | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 07:32:40 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -55,6 +83,7 @@ BAD 9a0bb25c4b55b547a6d92c35c93017471e74feff and the accidental bob-cli history 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1aq][1] | Its Mac commits sit on the polluted bob-mac-capture master; impact report on bob-cli-jf | 1 |
+| read-by | [agent:bob-cli-j8.8--2][2] | Read phase status before classifying or repairing the conceal highlight CI failure | 1 |
 | read-by | [agent:bob-cli-j8.8--4][2] | Verify the diagnostic note recorded the exact CI failure before finalizing | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1aq/README.md

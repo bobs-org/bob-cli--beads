@@ -19,7 +19,7 @@ FOLLOW-UP TRIAGE (from bob-cli-j8.6.1.3, preserved): #1 palette hex repaired in 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j8.2](bob-cli-j8.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
