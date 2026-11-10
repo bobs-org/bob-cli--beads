@@ -32,7 +32,7 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 3 |
+| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 4 |
 
 ## Commits
 
@@ -41,6 +41,7 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 | bob-cli | [`f2882ea`](https://github.com/bobs-org/bob-cli/commit/f2882ea6fc30894c848bafa4a68e4f81b7c148ed) | fix(ci): select Mac Capture workflow for exact-SHA checks | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:21 EST |
 | bob-mac-capture | [`bob-mac-capture@b20ceca`](https://github.com/bobs-org/bob-mac-capture/commit/b20ceca5526c6f379f8d2983e70115f150a9ae48) | feat(capture): present notebook capture targets and previews | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:56 EST |
 | bob-mac-capture | [`bob-mac-capture@3fb3a2b`](https://github.com/bobs-org/bob-mac-capture/commit/3fb3a2bea591fd9756722cf8b313d0394ffdf746) | fix(capture): name nested notebook parent and restore Mac tests | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 06:36:49 EST |
+| bob-mac-capture | [`bob-mac-capture@2c406dd`](https://github.com/bobs-org/bob-mac-capture/commit/2c406dd500915f4d8bee43cbae8f5bdbd985df1b) | test(capture): fix notebook picker assertions and dotted type-through harness | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 07:04:44 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -48,8 +49,10 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-j8.8--4][1] | Verify the diagnostic note recorded the exact CI failure before finalizing | 3 |
+| read-by | [agent:1aq][1] | Its Mac commits sit on the polluted bob-mac-capture master; impact report on bob-cli-jf | 1 |
+| read-by | [agent:bob-cli-j8.8--4][2] | Verify the diagnostic note recorded the exact CI failure before finalizing | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1aq/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md
 
 <!-- sase:referenced-by:end -->
