@@ -19,16 +19,29 @@ force_reset: bob-cli. New force flag, `gcal.reset` journal record and fold, a pl
 
 - **Depends on:** [bob-cli-iz.2](bob-cli-iz.2.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-iz.3](bob-cli-iz.3.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-iz.5](bob-cli-iz.5.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-iz.5](bob-cli-iz.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-iz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md) | [bob-cli-iz.4](bob-cli-iz.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-iz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md) | [bob-cli-iz.4](bob-cli-iz.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`97f0b8f`](https://github.com/bobs-org/bob-cli/commit/97f0b8f19b75c90e81e875c87462ae65850956db) | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 09:47:37 EST |
+| bob-cli | [`faf7b9f`](https://github.com/bobs-org/bob-mac-capture/commit/faf7b9f4a2921c536a8756c93da86a5d35be775f) | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 20:22:17 EST |
+| bob-mac-capture | `bob-mac-capture@faf7b9f` | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 20:22:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-iz.4][1] | Confirm the phase scope and recorded notes before closing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -27,11 +27,11 @@ A daily-note creation race can never again erase synced Event Tasks for good, `b
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-iz.1](bob-cli-iz.1.md) | Refuse to sync into a note Templater has not rendered | ✓ closed | small | 2026-11-09 | 1 | 1 |
-| [bob-cli-iz.2](bob-cli-iz.2.md) | Start the create hook only after Templater finishes | ✓ closed | small | 2026-11-09 | 1 | 1 |
-| [bob-cli-iz.3](bob-cli-iz.3.md) | Name every skipped event and stop re-tombstoning | ✓ closed | medium | 2026-11-09 | 1 | 1 |
-| [bob-cli-iz.4](bob-cli-iz.4.md) | Add the --force day reset to bob gcal sync | ✓ closed | medium | 2026-11-09 | 1 | 1 |
-| [bob-cli-iz.5](bob-cli-iz.5.md) | Hold a replaced Events section and record the deletion policy | ◐ in_progress | small | 2026-11-09 | 1 | 0 |
+| [bob-cli-iz.1](bob-cli-iz.1.md) | Refuse to sync into a note Templater has not rendered | ✓ closed | small | 2026-11-09 | 1 | 2 |
+| [bob-cli-iz.2](bob-cli-iz.2.md) | Start the create hook only after Templater finishes | ✓ closed | small | 2026-11-09 | 1 | 0 |
+| [bob-cli-iz.3](bob-cli-iz.3.md) | Name every skipped event and stop re-tombstoning | ✓ closed | medium | 2026-11-09 | 1 | 2 |
+| [bob-cli-iz.4](bob-cli-iz.4.md) | Add the --force day reset to bob gcal sync | ✓ closed | medium | 2026-11-09 | 1 | 2 |
+| [bob-cli-iz.5](bob-cli-iz.5.md) | Hold a replaced Events section and record the deletion policy | ✓ closed | small | 2026-11-09 | 1 | 2 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n2["bob-cli-iz.2: Start the create hook only after Templater finishes [closed]"]
     n3["bob-cli-iz.3: Name every skipped event and stop re-tombstoning [closed]"]
     n4["bob-cli-iz.4: Add the --force day reset to bob gcal sync [closed]"]
-    n5["bob-cli-iz.5: Hold a replaced Events section and record the deletion policy [in_progress]"]
+    n5["bob-cli-iz.5: Hold a replaced Events section and record the deletion policy [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -58,18 +58,22 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-iz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.1/README.md) | [bob-cli-iz.1](bob-cli-iz.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-iz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.2/README.md) | [bob-cli-iz.2](bob-cli-iz.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-iz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.3/README.md) | [bob-cli-iz.3](bob-cli-iz.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-iz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md) | [bob-cli-iz.4](bob-cli-iz.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-iz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.5/README.md) | [bob-cli-iz.5](bob-cli-iz.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-iz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.1/README.md) | [bob-cli-iz.1](bob-cli-iz.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-iz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.2/README.md) | [bob-cli-iz.2](bob-cli-iz.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-iz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.3/README.md) | [bob-cli-iz.3](bob-cli-iz.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-iz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md) | [bob-cli-iz.4](bob-cli-iz.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-iz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.5/README.md) | [bob-cli-iz.5](bob-cli-iz.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-iz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.land/README.md) | [bob-cli-iz](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@77c34f1`](https://github.com/bobs-org/bob-plugins/commit/77c34f163521dbddbd1955bcc04104398b83c375) | feat(ledger-tools): start the create hook only after Templater finishes | [bob-cli-iz.2](bob-cli-iz.2.md) | 2026-11-09 07:29:59 EST |
-| bob-cli | [`c28edbe`](https://github.com/bobs-org/bob-cli/commit/c28edbeeb9834ccb515d1d25716dbb3d86bb6b2d) | feat(gcal): refuse to sync into a note Templater has not rendered | [bob-cli-iz.1](bob-cli-iz.1.md) | 2026-11-09 07:40:18 EST |
-| bob-cli | [`a449193`](https://github.com/bobs-org/bob-cli/commit/a449193baa2ecd454b62e924e291d0745fbad614) | feat(gcal): name every skipped event and stop re-tombstoning | [bob-cli-iz.3](bob-cli-iz.3.md) | 2026-11-09 08:37:19 EST |
-| bob-cli | [`97f0b8f`](https://github.com/bobs-org/bob-cli/commit/97f0b8f19b75c90e81e875c87462ae65850956db) | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 09:47:37 EST |
+| bob-cli | [`02e3268`](https://github.com/bobs-org/bob-mac-capture/commit/02e3268b3d18ce1fa19227c4eff89675e264607b) | feat(gcal): name every skipped event and stop re-tombstoning | [bob-cli-iz.3](bob-cli-iz.3.md) | 2026-11-09 20:22:16 EST |
+| bob-cli | [`665dbcb`](https://github.com/bobs-org/bob-mac-capture/commit/665dbcbbb82b9accc8d0a0ad23ac4480f2232449) | feat(gcal): refuse to sync into a note Templater has not rendered | [bob-cli-iz.1](bob-cli-iz.1.md) | 2026-11-09 20:22:16 EST |
+| bob-mac-capture | `bob-mac-capture@02e3268` | feat(gcal): name every skipped event and stop re-tombstoning | [bob-cli-iz.3](bob-cli-iz.3.md) | 2026-11-09 20:22:16 EST |
+| bob-mac-capture | `bob-mac-capture@665dbcb` | feat(gcal): refuse to sync into a note Templater has not rendered | [bob-cli-iz.1](bob-cli-iz.1.md) | 2026-11-09 20:22:16 EST |
+| bob-cli | [`9a0bb25`](https://github.com/bobs-org/bob-mac-capture/commit/9a0bb25c4b55b547a6d92c35c93017471e74feff) | feat(gcal)!: hold replaced Events sections | [bob-cli-iz.5](bob-cli-iz.5.md) | 2026-11-09 20:22:17 EST |
+| bob-cli | [`faf7b9f`](https://github.com/bobs-org/bob-mac-capture/commit/faf7b9f4a2921c536a8756c93da86a5d35be775f) | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 20:22:17 EST |
+| bob-mac-capture | `bob-mac-capture@9a0bb25` | feat(gcal)!: hold replaced Events sections | [bob-cli-iz.5](bob-cli-iz.5.md) | 2026-11-09 20:22:17 EST |
+| bob-mac-capture | `bob-mac-capture@faf7b9f` | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 20:22:17 EST |
