@@ -17,6 +17,12 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 
 [2026-11-10T09:59:05Z · bob-cli-j8.8--4] PROPOSED FOLLOW-UP: Diagnose why Mac Capture exact-SHA CI emits SwiftPM fatalError during test-target compilation without an xctest process or hang sample, including a baseline run, and determine whether the runner or test watchdog needs a separate fix. Seen in runs 42793097983 and 42735343020.
 
+[2026-11-10T11:07:10Z · bob-cli-j8.8] RESUMPTION AUDIT: Prior work landed in bob-mac-capture b20ceca5526c6f379f8d2983e70115f150a9ae48 and bob-cli f2882ea6fc30894c848bafa4a68e4f81b7c148ed. Full GitHub job logs identify the Test failure precisely: CaptureListPanelTests.swift:443:37 cannot find fakeBobPath in scope, identically on clean base run 42735343020/job 129563084490, feature snapshot run 42793097983/job 129751277903, and landed feature run 42795804211/job 129760562111. Each passed Swift formatting and Build; test-target compilation failed before tests ran. A bounded completion plan corrects creationParentContext using the immediate parent in Bob-provided breadcrumbs, adds focused regressions, restores the missing test-local helper, and verifies this phase. No epic-symbol entries remain as of this audit.
+
+[2026-11-10T11:07:16Z · bob-cli-j8.8] PROPOSED FOLLOW-UP: Preserve the landed notebook feature during the bob-cli-jf repository restoration — bob-mac-capture master now includes b20ceca5526c6f379f8d2983e70115f150a9ae48 above the incident SHA 9a0bb25c, so the existing restoration gate predicated on master still equaling 9a0bb25c is stale. The docs mount collision is already tracked by bob-cli-jf; its remediation must retain this feature and any subsequent phase completion fixes. This phase does not authorize rewriting remote history.
+
+[2026-11-10T11:35:16Z · bob-cli-j8.8] COMPLETION PASS: Nested notebook creation now names the immediate parent (penultimate Bob breadcrumb), not the root owner. Landed in bob-mac-capture working tree on top of b20ceca5526c6f379f8d2983e70115f150a9ae48: CaptureNotebookPresentation.creationParentContext, generated notebook-capture-create-nested.json from host bob SHA f2882ea6fc30894c848bafa4a68e4f81b7c148ed (bob 0.5.0, isolated scratch vault), focused presentation regressions, missing test-local fakeBobPath() in CaptureListPanelTests.swift (the compiler diagnostic on base 9a0bb25c run 42735343020 / snapshot 42793097983 / feature 42795804211), and notebook ID-flow panel tests using decoded notebook-complete-parent-notes.json candidate dev_nvim|14:060f4792 through fake-bob capture-task-id. Offline: bash -n Scripts/generate-notebook-fixtures.sh, parsed generated JSON, python3 -B Scripts/test_macos_ci_check.py (42 tests OK). No local swift/swift-format. just docs-check still fails on unchanged host SHA f2882ea6 with the bob-mac-capture mount collision already tracked by bob-cli-jf. Exact-SHA macos-swift.yml gate is next via Scripts/macos-ci-check.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ◐ · ⧖ 2026-11-09
@@ -26,7 +32,7 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 2 |
+| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 3 |
 
 ## Commits
 
@@ -34,3 +40,16 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 |---|---|---|---|---|
 | bob-cli | [`f2882ea`](https://github.com/bobs-org/bob-cli/commit/f2882ea6fc30894c848bafa4a68e4f81b7c148ed) | fix(ci): select Mac Capture workflow for exact-SHA checks | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:21 EST |
 | bob-mac-capture | [`bob-mac-capture@b20ceca`](https://github.com/bobs-org/bob-mac-capture/commit/b20ceca5526c6f379f8d2983e70115f150a9ae48) | feat(capture): present notebook capture targets and previews | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:56 EST |
+| bob-mac-capture | [`bob-mac-capture@3fb3a2b`](https://github.com/bobs-org/bob-mac-capture/commit/3fb3a2bea591fd9756722cf8b313d0394ffdf746) | fix(capture): name nested notebook parent and restore Mac tests | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 06:36:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j8.8--4][1] | Verify the diagnostic note recorded the exact CI failure before finalizing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md
+
+<!-- sase:referenced-by:end -->

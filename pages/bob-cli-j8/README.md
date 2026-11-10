@@ -33,6 +33,12 @@ Bob gains a `type: "[[notebook]]"` note kind for task-free note bullets (optiona
 
 [2026-11-10T01:42:57Z · bob-cli-j8.3.1.land] DISCOVERED ISSUE: reported by bob-cli-j8.3.1.land during capture landing at 12692ebb. The pre-existing notebook checker from bob-cli-j8.1 commit 0a74731b treats caret references as actual anchors. src/native/notebooks/rules.rs::extract_block_ids scans every caret, including inline code and wikilinks; duplicate_block_id_findings then reports notebook_duplicate_block_id. Executed the exact current extract_block_ids function in a standalone rustc probe: input '- Discuss `^x` and [[nb#^x]] ^real' returns ["x", "x", "real"], although the only actual anchor is real. This falsely rejects ordinary notebook explanations/backlinks. Fix the notebook checker to recognize real block anchors outside literal/code/link spans, preserve true duplicate detection, and add regressions. This predates the child capture epic, so it belongs to the causally responsible active bob-cli-j8 epic. /sase_new_task triage searched bug tasks, broadened to all task types, swept all tasks created in the past week, and inspected active epics and j8.1; no semantic duplicate found. No new task created under the active-epic rule.
 
+[2026-11-10T11:18:44Z · bryanbugyi34@gmail.com] I'm seeing an error in my current daily file. See the 🔒 20261110\_061751.png screenshot for context. The epic lander agent should fix this before landing.
+
+## Attachments
+
+- 🔒 20261110\_061751.png · image/png · 2858×1728 · 297.947 KiB (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -45,7 +51,7 @@ Bob gains a `type: "[[notebook]]"` note kind for task-free note bullets (optiona
 | [bob-cli-j8.5](bob-cli-j8.5.md) | Notebook completion, block IDs, and the @@ collapse assist | ✓ closed | large | 2026-11-09 | 1 | 1 |
 | [bob-cli-j8.6](bob-cli-j8.6.md) | Beautiful catalog card, live chips, and the notebook header in Obsidian | ✓ closed | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.7](bob-cli-j8.7.md) | Obsidian block-ID prompt, pickers, and Create notebook here | ✓ closed | medium | 2026-11-09 | 1 | 0 |
-| [bob-cli-j8.8](bob-cli-j8.8.md) | Bob Mac Capture presents notebooks | ◐ in_progress | large | 2026-11-09 | 1 | 2 |
+| [bob-cli-j8.8](bob-cli-j8.8.md) | Bob Mac Capture presents notebooks | ◐ in_progress | large | 2026-11-09 | 1 | 3 |
 | [bob-cli-j8.9](bob-cli-j8.9.md) | Notebook type note, template, Base, and the wave-1 migration | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
 
 ## Lineage
@@ -133,7 +139,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j8.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.3/README.md) | [bob-cli-j8.6.1.3](bob-cli-j8.6.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md) | [bob-cli-j8.7](bob-cli-j8.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 2 |
+| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 3 |
 | [bbugyi200.apollo.bob-cli-j8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.9.md) | [bob-cli-j8.9](bob-cli-j8.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.land/README.md) | [bob-cli-j8](README.md) | 0 |
 
@@ -155,6 +161,7 @@ flowchart TD
 | bob-cli | [`93cf930`](https://github.com/bobs-org/bob-cli/commit/93cf930ca2a8221bdbe4b1dad602ef49669f3f18) | feat(capture)!: complete notebook capture assistance | [bob-cli-j8.5](bob-cli-j8.5.md) | 2026-11-10 02:30:29 EST |
 | bob-cli | [`f2882ea`](https://github.com/bobs-org/bob-cli/commit/f2882ea6fc30894c848bafa4a68e4f81b7c148ed) | fix(ci): select Mac Capture workflow for exact-SHA checks | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:21 EST |
 | bob-mac-capture | [`bob-mac-capture@b20ceca`](https://github.com/bobs-org/bob-mac-capture/commit/b20ceca5526c6f379f8d2983e70115f150a9ae48) | feat(capture): present notebook capture targets and previews | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:56 EST |
+| bob-mac-capture | [`bob-mac-capture@3fb3a2b`](https://github.com/bobs-org/bob-mac-capture/commit/3fb3a2bea591fd9756722cf8b313d0394ffdf746) | fix(capture): name nested notebook parent and restore Mac tests | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 06:36:49 EST |
 
 <!-- sase:referenced-by:start -->
 
