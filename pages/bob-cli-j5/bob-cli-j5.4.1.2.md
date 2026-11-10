@@ -39,8 +39,10 @@ guarded-removals: extend guarded write operations, preflight, membership account
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j5.4.1.2--1][1] | Need notes, description, design, DECISIONS as JSON | 3 |
 | read-by | [agent:bob-cli-j5.4.1.4][2] | Need guarded-removals close note for landed writer API | 1 |
+| read-by | [agent:bob-cli-j5.4.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.1.2.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.1.land.md
 
 <!-- sase:referenced-by:end -->
