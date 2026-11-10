@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md) | [bob-cli-j8.7](bob-cli-j8.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-j8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.9.md) | [bob-cli-j8.9](bob-cli-j8.9.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.land.md) | [bob-cli-j8](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-j8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.land.md) | [bob-cli-j8](README.md) | 3 |
 
 ## Commits
 
@@ -180,6 +180,7 @@ flowchart TD
 | bob-cli | [`345e143`](https://github.com/bobs-org/bob-cli/commit/345e14385fa8724a00f9672dee04dc272b0c4177) | docs(notebooks): land wrapup memory, docs, and capture help | [bob-cli-j8.10](bob-cli-j8.10.md) | 2026-11-10 08:50:07 EST |
 | bob-cli | [`891fa3e`](https://github.com/bobs-org/bob-cli/commit/891fa3e49198e75ea05df11b842bc426bad6e9e3) | feat(notebooks)!: land marker-free catalogs, checker fix, and CI retarget | [bob-cli-j8](README.md) | 2026-11-10 11:00:23 EST |
 | bob-mac-capture | [`bob-mac-capture@f2d7a45`](https://github.com/bobs-org/bob-mac-capture/commit/f2d7a4521ef3b772b9fe9fc5794e2fbcca7ce87a) | fix(ci): retarget macOS gate to ci.yml | [bob-cli-j8](README.md) | 2026-11-10 11:01:29 EST |
+| bob-plugins | [`bob-plugins@d9efb30`](https://github.com/bobs-org/bob-plugins/commit/d9efb30dea03d90eae85336576d9aa81732a6d45) | feat(notebooks): host-scope catalog chrome and marker-free regions | [bob-cli-j8](README.md) | 2026-11-10 11:02:17 EST |
 
 <!-- sase:referenced-by:start -->
 
