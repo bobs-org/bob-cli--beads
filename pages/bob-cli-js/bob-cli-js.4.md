@@ -29,10 +29,11 @@ chart_painter: paint Roots above Types on one shared axis from bob's charts and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-js.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.4.md) | [bob-cli-js.4](bob-cli-js.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-js.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-js.4.md) | [bob-cli-js.4](bob-cli-js.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9cd4ec3`](https://github.com/bobs-org/bob-cli/commit/9cd4ec3e590d187ecdad70e685c198bd45095b6c) | docs(stats): describe aligned period charts | [bob-cli-js.4](bob-cli-js.4.md) | 2026-11-10 14:20:54 EST |
+| bob-plugins | [`bob-plugins@12e6e72`](https://github.com/bobs-org/bob-plugins/commit/12e6e728f37367d666e771b2292d99d3c3076f13) | feat(stats): render two-chart period strips | [bob-cli-js.4](bob-cli-js.4.md) | 2026-11-10 14:21:21 EST |
