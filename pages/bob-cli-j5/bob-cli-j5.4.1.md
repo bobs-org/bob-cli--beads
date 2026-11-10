@@ -47,7 +47,7 @@ Live preview: fresh local-install binary from the working tree based at eba2bd59
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-j5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.1.land.md) | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 3 |
+| [bbugyi200.athena.bob-cli-j5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-j5.4.1.land.md) | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 2 |
 
 ## Commits
 
@@ -55,7 +55,6 @@ Live preview: fresh local-install binary from the working tree based at eba2bd59
 |---|---|---|---|---|
 | bob-cli | [`eba2bd5`](https://github.com/bobs-org/bob-cli/commit/eba2bd59a6fa6fdf8e827adbda1d42c03d97519b) | test(archive): cover stats attribution and Git commit across archive renames | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 2026-11-09 20:28:56 EST |
 | bob-cli | [`d65be1c`](https://github.com/bobs-org/bob-cli/commit/d65be1ce02b66f9a08c6a31049990aa74cccca65) | perf(archive): cache pair facts for read-only consumers | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 2026-11-09 22:24:11 EST |
-| bob-cli--plans | [`bob-cli--plans@60fec5c`](https://github.com/bobs-org/bob-cli--plans/commit/60fec5ca8562af388a55802c9d99427d292b97ca) | docs(plans): mark archive pairing plan done | [bob-cli-j5.4.1](bob-cli-j5.4.1.md) | 2026-11-09 22:24:47 EST |
 
 <!-- sase:referenced-by:start -->
 

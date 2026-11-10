@@ -13,7 +13,7 @@ plugins: give each bob-plugins plugin that checks done/ paths the same helper pi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-j5.6](bob-cli-j5.6.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j5.6](bob-cli-j5.6.md) ✓ · ⧖ 2026-11-09
 - **Depends on:** [bob-cli-j5.7](bob-cli-j5.7.md) ◐ · ⧖ 2026-11-09
 
 ## Agents

@@ -14,7 +14,7 @@ path-contract: replace every Rust done/ path predicate, inline check, and walker
 ## Dependencies
 
 - **Depends on:** [bob-cli-j5.5](bob-cli-j5.5.md) ◐ · ⧖ 2026-11-09
-- **Depends on:** [bob-cli-j5.6](bob-cli-j5.6.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [bob-cli-j5.6](bob-cli-j5.6.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j5.8](bob-cli-j5.8.md) ◐ · ⧖ 2026-11-09
 
 ## Agents

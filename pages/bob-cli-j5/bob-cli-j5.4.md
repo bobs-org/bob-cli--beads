@@ -21,7 +21,7 @@ pairing: add one metadata-first source/archive resolver, move every filename-der
 
 - **Depends on:** [bob-cli-j5.3](bob-cli-j5.3.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j5.5](bob-cli-j5.5.md) ◐ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.6](bob-cli-j5.6.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.6](bob-cli-j5.6.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
