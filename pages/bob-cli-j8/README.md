@@ -129,7 +129,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j8.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.1.md) | [bob-cli-j8.6.1.1](bob-cli-j8.6.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.2/README.md) | [bob-cli-j8.6.1.2](bob-cli-j8.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.3/README.md) | [bob-cli-j8.6.1.3](bob-cli-j8.6.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-j8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md) | [bob-cli-j8.7](bob-cli-j8.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.8/README.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.9/README.md) | [bob-cli-j8.9](bob-cli-j8.9.md) | 0 |
@@ -147,6 +147,7 @@ flowchart TD
 | bob-cli | [`3f8c49d`](https://github.com/bobs-org/bob-cli/commit/3f8c49d4145ad5142cbca38b94bc8c3a3bea0c19) | feat(capture)!: compose notebook routes with lists, globals, and #section^id | [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) | 2026-11-09 18:28:21 EST |
 | bob-plugins | [`bob-plugins@32a8545`](https://github.com/bobs-org/bob-plugins/commit/32a8545eabfa17e56eab7b0fff8ed4bd3d4fa9e0) | feat(notebook): add notebook header model, reading integration and live preview | [bob-cli-j8.6.1.3](bob-cli-j8.6.1.3.md) | 2026-11-09 18:56:13 EST |
 | bob-plugins | [`bob-plugins@254b4c4`](https://github.com/bobs-org/bob-plugins/commit/254b4c467817ade01e892549e48630898638987e) | fix(ledger-tools): repair notebook catalog and header landing | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2026-11-09 20:22:54 EST |
+| bob-cli--plans | [`bob-cli--plans@e2abff0`](https://github.com/bobs-org/bob-cli--plans/commit/e2abff08c97d314b215c515c46e2ae26c9e64c07) | chore(plans): mark notebook catalog UI plans done | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2026-11-09 20:24:05 EST |
 
 <!-- sase:referenced-by:start -->
 
