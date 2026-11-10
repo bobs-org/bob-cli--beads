@@ -13,7 +13,7 @@ mac: in the bob-mac-capture linked repo, add an Event note mode to the capture p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ji.4](bob-cli-ji.4.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.4](bob-cli-ji.4.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [bob-cli-ji.6](bob-cli-ji.6.md) ◐ · ⧖ 2026-11-10
 
 ## Agents

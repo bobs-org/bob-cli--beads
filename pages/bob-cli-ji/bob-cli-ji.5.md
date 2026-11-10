@@ -13,7 +13,7 @@ extras: add `-e` editing in $EDITOR with a scissors help block and `-A` to adopt
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ji.4](bob-cli-ji.4.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.4](bob-cli-ji.4.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

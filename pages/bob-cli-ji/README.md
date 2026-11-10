@@ -32,7 +32,7 @@ Bryan can give any Google Calendar event (including events other people own and 
 | [bob-cli-ji.1](bob-cli-ji.1.md) | Note store and per-field layering engine | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [bob-cli-ji.2](bob-cli-ji.2.md) | bob gcal note command, event selection and read-only modes | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [bob-cli-ji.3](bob-cli-ji.3.md) | Note provenance in gcal.row and fail-safe reads | ✓ closed | small | 2026-11-10 | 1 | 1 |
-| [bob-cli-ji.4](bob-cli-ji.4.md) | Writing, previewing, and applying notes | ◐ in_progress | medium | 2026-11-10 | 1 | 0 |
+| [bob-cli-ji.4](bob-cli-ji.4.md) | Writing, previewing, and applying notes | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [bob-cli-ji.5](bob-cli-ji.5.md) | Editor, adopt, doctor check, and fragile-description hint | ◐ in_progress | small | 2026-11-10 | 1 | 0 |
 | [bob-cli-ji.6](bob-cli-ji.6.md) | Decision record, glossary term, and guide | ◐ in_progress | small | 2026-11-10 | 1 | 0 |
 | [bob-cli-ji.7](bob-cli-ji.7.md) | Bob Mac Capture Event note mode | ◐ in_progress | large | 2026-11-10 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n1["bob-cli-ji.1: Note store and per-field layering engine [closed]"]
     n2["bob-cli-ji.2: bob gcal note command, event selection and read-only modes [closed]"]
     n3["bob-cli-ji.3: Note provenance in gcal.row and fail-safe reads [closed]"]
-    n4["bob-cli-ji.4: Writing, previewing, and applying notes [in_progress]"]
+    n4["bob-cli-ji.4: Writing, previewing, and applying notes [closed]"]
     n5["bob-cli-ji.5: Editor, adopt, doctor check, and fragile-description hint [in_progress]"]
     n6["bob-cli-ji.6: Decision record, glossary term, and guide [in_progress]"]
     n7["bob-cli-ji.7: Bob Mac Capture Event note mode [in_progress]"]
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.1/README.md) | [bob-cli-ji.1](bob-cli-ji.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.2/README.md) | [bob-cli-ji.2](bob-cli-ji.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.3/README.md) | [bob-cli-ji.3](bob-cli-ji.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ji.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.4/README.md) | [bob-cli-ji.4](bob-cli-ji.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.4/README.md) | [bob-cli-ji.4](bob-cli-ji.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.5/README.md) | [bob-cli-ji.5](bob-cli-ji.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.6/README.md) | [bob-cli-ji.6](bob-cli-ji.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7/README.md) | [bob-cli-ji.7](bob-cli-ji.7.md) | 0 |
@@ -86,6 +86,7 @@ flowchart TD
 | bob-cli | [`4219d70`](https://github.com/bobs-org/bob-cli/commit/4219d70a75d81299cb9321bf194508abcbb96367) | feat(gcal): layer private event notes over Google descriptions | [bob-cli-ji.1](bob-cli-ji.1.md) | 2026-11-10 06:48:22 EST |
 | bob-cli | [`7ff24c8`](https://github.com/bobs-org/bob-cli/commit/7ff24c8241b1fefbed57906f5486367e3f86e14d) | feat(gcal): record note provenance in gcal.row and fail-safe reads | [bob-cli-ji.3](bob-cli-ji.3.md) | 2026-11-10 07:15:55 EST |
 | bob-cli | [`a2809a1`](https://github.com/bobs-org/bob-cli/commit/a2809a1dc48db0d2ac384f44d3e5fce7c8635715) | feat(gcal): add bob gcal note selection and read-only modes | [bob-cli-ji.2](bob-cli-ji.2.md) | 2026-11-10 08:11:11 EST |
+| bob-cli | [`cf7c060`](https://github.com/bobs-org/bob-cli/commit/cf7c06052b26b64d5fb68e10a4b65b5f759fac10) | feat(gcal): add private event note writes and preview | [bob-cli-ji.4](bob-cli-ji.4.md) | 2026-11-10 09:56:07 EST |
 
 <!-- sase:referenced-by:start -->
 
