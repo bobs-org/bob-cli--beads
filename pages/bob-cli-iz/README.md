@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-iz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.3/README.md) | [bob-cli-iz.3](bob-cli-iz.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-iz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.4/README.md) | [bob-cli-iz.4](bob-cli-iz.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-iz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-iz.5/README.md) | [bob-cli-iz.5](bob-cli-iz.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-iz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md) | [bob-cli-iz](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-iz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md) | [bob-cli-iz](README.md) | 3 |
 
 ## Commits
 
@@ -116,6 +116,7 @@ flowchart TD
 | bob-cli | [`97f0b8f`](https://github.com/bobs-org/bob-cli/commit/97f0b8f19b75c90e81e875c87462ae65850956db) | feat(gcal): add forced day reset | [bob-cli-iz.4](bob-cli-iz.4.md) | 2026-11-09 09:47:37 EST |
 | bob-cli | [`d3f022a`](https://github.com/bobs-org/bob-cli/commit/d3f022a45cfa247305ec729b32168698dc42bb51) | feat(gcal)!: hold replaced Events sections | [bob-cli-iz](README.md) | 2026-11-09 21:08:39 EST |
 | bob-cli | [`8ad8e27`](https://github.com/bobs-org/bob-cli/commit/8ad8e2703c1a9d52f5a5cd8ef4dc77e8009788e4) | fix(gcal): share the replaced-Events detector between sync and list | [bob-cli-iz](README.md) | 2026-11-09 21:36:20 EST |
+| bob-cli--plans | [`bob-cli--plans@8446f47`](https://github.com/bobs-org/bob-cli--plans/commit/8446f473cb87d7afe2176a3beafc988408e661b2) | docs(plan): mark the gcal sync race epic done | [bob-cli-iz](README.md) | 2026-11-09 21:36:49 EST |
 
 <!-- sase:referenced-by:start -->
 
