@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-je.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-je.1/README.md) | [bob-cli-je.1](bob-cli-je.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-je.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-je.2/README.md) | [bob-cli-je.2](bob-cli-je.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-je.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-je.3.md) | [bob-cli-je.3](bob-cli-je.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-je.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-je.land.md) | [bob-cli-je](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-je.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-je.land.md) | [bob-cli-je](README.md) | 3 |
 
 ## Commits
 
@@ -77,6 +77,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@a5a0ffb`](https://github.com/bobs-org/bob-mac-capture/commit/a5a0ffb0198add4a8aa6fb1ef0f2852818abf8d9) | fix(capture): say copied notes on merge source rows | [bob-cli-je.3](bob-cli-je.3.md) | 2026-11-09 19:07:24 EST |
 | bob-cli | [`6d063ff`](https://github.com/bobs-org/bob-cli/commit/6d063ff58f38b17d734528d54092dbc80b031b51) | fix(task-merge): preserve code text in merge copies and harden fence handling | [bob-cli-je](README.md) | 2026-11-09 20:18:50 EST |
 | bob-mac-capture | [`bob-mac-capture@2914728`](https://github.com/bobs-org/bob-mac-capture/commit/29147289ca584953ce7f8cfd29b5ed60a5380f76) | docs(capture-transfers): merged sources keep notes, moves keep removed-run fold | [bob-cli-je](README.md) | 2026-11-09 20:19:27 EST |
+| bob-cli--plans | [`bob-cli--plans@25fb0bc`](https://github.com/bobs-org/bob-cli--plans/commit/25fb0bcf03f08c7540a1e7fe9ca6bf4a7afbd5c0) | chore(plans): mark merge\_copies\_source\_notes done | [bob-cli-je](README.md) | 2026-11-09 20:19:48 EST |
 
 <!-- sase:referenced-by:start -->
 
