@@ -19,7 +19,7 @@ engine: add the `gcal.note` journal record and its last-writer-wins fold, parse 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ji.2](bob-cli-ji.2.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.2](bob-cli-ji.2.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.3](bob-cli-ji.3.md) ✓ · ⧖ 2026-11-10
 
 ## Agents

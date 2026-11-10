@@ -21,3 +21,15 @@ mac: in the bob-mac-capture linked repo, add an Event note mode to the capture p
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ji.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7/README.md) | [bob-cli-ji.7](bob-cli-ji.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.40.cld][1] | Check phase progress and notes for guide accuracy | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
+
+<!-- sase:referenced-by:end -->

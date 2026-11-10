@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/private_gcal_event_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/private_gcal_event_notes.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@ Bryan can give any Google Calendar event (including events other people own and 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ji.1](bob-cli-ji.1.md) | Note store and per-field layering engine | ✓ closed | medium | 2026-11-10 | 1 | 1 |
-| [bob-cli-ji.2](bob-cli-ji.2.md) | bob gcal note command, event selection and read-only modes | ◐ in_progress | medium | 2026-11-10 | 1 | 0 |
+| [bob-cli-ji.2](bob-cli-ji.2.md) | bob gcal note command, event selection and read-only modes | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [bob-cli-ji.3](bob-cli-ji.3.md) | Note provenance in gcal.row and fail-safe reads | ✓ closed | small | 2026-11-10 | 1 | 1 |
 | [bob-cli-ji.4](bob-cli-ji.4.md) | Writing, previewing, and applying notes | ◐ in_progress | medium | 2026-11-10 | 1 | 0 |
 | [bob-cli-ji.5](bob-cli-ji.5.md) | Editor, adopt, doctor check, and fragile-description hint | ◐ in_progress | small | 2026-11-10 | 1 | 0 |
@@ -41,7 +43,7 @@ Bryan can give any Google Calendar event (including events other people own and 
 flowchart TD
     n0["bob-cli-ji: Private event notes for Google Calendar events [in_progress]"]
     n1["bob-cli-ji.1: Note store and per-field layering engine [closed]"]
-    n2["bob-cli-ji.2: bob gcal note command, event selection and read-only modes [in_progress]"]
+    n2["bob-cli-ji.2: bob gcal note command, event selection and read-only modes [closed]"]
     n3["bob-cli-ji.3: Note provenance in gcal.row and fail-safe reads [closed]"]
     n4["bob-cli-ji.4: Writing, previewing, and applying notes [in_progress]"]
     n5["bob-cli-ji.5: Editor, adopt, doctor check, and fragile-description hint [in_progress]"]
@@ -69,7 +71,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ji.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.1/README.md) | [bob-cli-ji.1](bob-cli-ji.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ji.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.2/README.md) | [bob-cli-ji.2](bob-cli-ji.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.2/README.md) | [bob-cli-ji.2](bob-cli-ji.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.3/README.md) | [bob-cli-ji.3](bob-cli-ji.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.4/README.md) | [bob-cli-ji.4](bob-cli-ji.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.5/README.md) | [bob-cli-ji.5](bob-cli-ji.5.md) | 0 |
@@ -83,3 +85,26 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`4219d70`](https://github.com/bobs-org/bob-cli/commit/4219d70a75d81299cb9321bf194508abcbb96367) | feat(gcal): layer private event notes over Google descriptions | [bob-cli-ji.1](bob-cli-ji.1.md) | 2026-11-10 06:48:22 EST |
 | bob-cli | [`7ff24c8`](https://github.com/bobs-org/bob-cli/commit/7ff24c8241b1fefbed57906f5486367e3f86e14d) | feat(gcal): record note provenance in gcal.row and fail-safe reads | [bob-cli-ji.3](bob-cli-ji.3.md) | 2026-11-10 07:15:55 EST |
+| bob-cli | [`a2809a1`](https://github.com/bobs-org/bob-cli/commit/a2809a1dc48db0d2ac384f44d3e5fce7c8635715) | feat(gcal): add bob gcal note selection and read-only modes | [bob-cli-ji.2](bob-cli-ji.2.md) | 2026-11-10 08:11:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.40.cdx][1] | Inspect the epic context for an independent private event metadata guide | 1 |
+| read-by | [agent:research.40.cld][2] | Context for writing a user guide on adding metadata to private event tasks | 1 |
+| read-by | [agent:research.40.final][3] | Ground consolidated private-event-notes guide in the epic's current status and guide requirements | 1 |
+| read-by | [agent:research.40.gem][4] | Understand requirements and context for adding metadata to private event tasks | 1 |
+| read-by | [agent:research.40.grk][5] | Need full epic bead context including notes and follow-ups for the user-guide research | 1 |
+| read-by | [agent:research.40.mus][6] | research guide on adding metadata to private event tasks | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cdx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.final/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.grk/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.mus/README.md
+
+<!-- sase:referenced-by:end -->
