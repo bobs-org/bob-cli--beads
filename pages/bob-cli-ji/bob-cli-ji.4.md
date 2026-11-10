@@ -20,7 +20,7 @@ write: normalize one-line and multi-line input into canonical lines using shared
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.2](bob-cli-ji.2.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.5](bob-cli-ji.5.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.5](bob-cli-ji.5.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.6](bob-cli-ji.6.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.7](bob-cli-ji.7.md) ◐ · ⧖ 2026-11-10
 
