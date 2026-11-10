@@ -23,6 +23,13 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 
 [2026-11-10T11:35:16Z · bob-cli-j8.8] COMPLETION PASS: Nested notebook creation now names the immediate parent (penultimate Bob breadcrumb), not the root owner. Landed in bob-mac-capture working tree on top of b20ceca5526c6f379f8d2983e70115f150a9ae48: CaptureNotebookPresentation.creationParentContext, generated notebook-capture-create-nested.json from host bob SHA f2882ea6fc30894c848bafa4a68e4f81b7c148ed (bob 0.5.0, isolated scratch vault), focused presentation regressions, missing test-local fakeBobPath() in CaptureListPanelTests.swift (the compiler diagnostic on base 9a0bb25c run 42735343020 / snapshot 42793097983 / feature 42795804211), and notebook ID-flow panel tests using decoded notebook-complete-parent-notes.json candidate dev_nvim|14:060f4792 through fake-bob capture-task-id. Offline: bash -n Scripts/generate-notebook-fixtures.sh, parsed generated JSON, python3 -B Scripts/test_macos_ci_check.py (42 tests OK). No local swift/swift-format. just docs-check still fails on unchanged host SHA f2882ea6 with the bob-mac-capture mount collision already tracked by bob-cli-jf. Exact-SHA macos-swift.yml gate is next via Scripts/macos-ci-check.
 
+[2026-11-10T12:16:40Z · bob-cli-jf.1.1--1] HISTORY RESTORED by approved gate custom-79d25c9d-301c-4338-adf4-7fd429460d10 on 2026-11-10. Old master 2c406dd500915f4d8bee43cbae8f5bdbd985df1b -> restored master af604c6d9e05ec6440bfce5fa15ced97e388035c, based on unchanged GOOD 29147289ca584953ce7f8cfd29b5ed60a5380f76. Complete genuine Mac commit mapping:
+- b20ceca5526c6f379f8d2983e70115f150a9ae48 -> 6dddea35b47bfc64c1295d547a3966c9e7a516e7 (feat(capture): present notebook capture targets and previews)
+- 3fb3a2bea591fd9756722cf8b313d0394ffdf746 -> a36f3e8163357828e09b132a5fc2c9fdf77c2c05 (fix(capture): name nested notebook parent and restore Mac tests)
+- 5e29dd26b1adb908cb402df83153b1c73c25164d -> 37933a1425f4fc8f2dcb1cb261dca065e9d7b7fd (fix(capture): show set Record Card values and conceal the route @)
+- 2c406dd500915f4d8bee43cbae8f5bdbd985df1b -> af604c6d9e05ec6440bfce5fa15ced97e388035c (test(capture): fix notebook picker assertions and dotted type-through harness)
+BAD 9a0bb25c4b55b547a6d92c35c93017471e74feff and the accidental bob-cli history are removed, not replayed. Gate verified fidelity on all 53 touched paths; scratch recovery backup remains /tmp/bob-mac-restore-0ig_wzuq. Deleted polluted remote branch refs/heads/ci/precommit/4f12681e038ad03a8ecb1de466d2a1ae (af75f0912ead90bad77bd8a6c0886409b2b00bd1). Live master verified equal to restored SHA; fetched every advertised head/tag and no remote ref contains BAD (4 heads, 0 tags). SHA searches found citations on bob-cli-jf, bob-cli-jf.1.1, and bob-cli-j8.8, so this full mapping is recorded on each. Exact-SHA CI run 42813392077 remains pending; this note does not claim CI is green. Run: https://github.com/bobs-org/bob-mac-capture/actions/runs/42813392077
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-j8.10](bob-cli-j8.10.md) ◐ · ⧖ 2026-11-09
@@ -32,16 +39,14 @@ mac-notebook-capture: decode unknown block-ID intents as unsupported instead of 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 4 |
+| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f2882ea`](https://github.com/bobs-org/bob-cli/commit/f2882ea6fc30894c848bafa4a68e4f81b7c148ed) | fix(ci): select Mac Capture workflow for exact-SHA checks | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:21 EST |
-| bob-mac-capture | [`bob-mac-capture@b20ceca`](https://github.com/bobs-org/bob-mac-capture/commit/b20ceca5526c6f379f8d2983e70115f150a9ae48) | feat(capture): present notebook capture targets and previews | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:56 EST |
-| bob-mac-capture | [`bob-mac-capture@3fb3a2b`](https://github.com/bobs-org/bob-mac-capture/commit/3fb3a2bea591fd9756722cf8b313d0394ffdf746) | fix(capture): name nested notebook parent and restore Mac tests | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 06:36:49 EST |
-| bob-mac-capture | [`bob-mac-capture@2c406dd`](https://github.com/bobs-org/bob-mac-capture/commit/2c406dd500915f4d8bee43cbae8f5bdbd985df1b) | test(capture): fix notebook picker assertions and dotted type-through harness | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 07:04:44 EST |
+| bob-mac-capture | [`bob-mac-capture@28aa5b3`](https://github.com/bobs-org/bob-mac-capture/commit/28aa5b32a62011266459e13723236e4caeda2478) | test(capture): expect split wash runs when concealing two record routes | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 07:32:40 EST |
 
 <!-- sase:referenced-by:start -->
 

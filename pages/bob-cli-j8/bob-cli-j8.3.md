@@ -19,7 +19,7 @@ capture-notebook-notes: add the memoized notebook route policy and teach capture
 
 - **Depends on:** [bob-cli-j8.1](bob-cli-j8.1.md) ✓ · ⧖ 2026-11-09
 - **Blocks:** [bob-cli-j8.4](bob-cli-j8.4.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j8.9](bob-cli-j8.9.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j8.9](bob-cli-j8.9.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
