@@ -45,7 +45,7 @@ Bob gains a `type: "[[notebook]]"` note kind for task-free note bullets (optiona
 | [bob-cli-j8.5](bob-cli-j8.5.md) | Notebook completion, block IDs, and the @@ collapse assist | ✓ closed | large | 2026-11-09 | 1 | 1 |
 | [bob-cli-j8.6](bob-cli-j8.6.md) | Beautiful catalog card, live chips, and the notebook header in Obsidian | ✓ closed | large | 2026-11-09 | 1 | 0 |
 | [bob-cli-j8.7](bob-cli-j8.7.md) | Obsidian block-ID prompt, pickers, and Create notebook here | ✓ closed | medium | 2026-11-09 | 1 | 0 |
-| [bob-cli-j8.8](bob-cli-j8.8.md) | Bob Mac Capture presents notebooks | ◐ in_progress | large | 2026-11-09 | 1 | 0 |
+| [bob-cli-j8.8](bob-cli-j8.8.md) | Bob Mac Capture presents notebooks | ◐ in_progress | large | 2026-11-09 | 1 | 1 |
 | [bob-cli-j8.9](bob-cli-j8.9.md) | Notebook type note, template, Base, and the wave-1 migration | ◐ in_progress | medium | 2026-11-09 | 1 | 0 |
 
 ## Lineage
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j8.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.10/README.md) | [bob-cli-j8.10](bob-cli-j8.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.2.md) | [bob-cli-j8.2](bob-cli-j8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.md) | [bob-cli-j8.3](bob-cli-j8.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.1.1.md) | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-j8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.3.1.1.md) | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-j8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.2/README.md) | [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.3/README.md) | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.3.1.4/README.md) | [bob-cli-j8.3.1.4](bob-cli-j8.3.1.4.md) | 1 |
@@ -133,7 +133,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-j8.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.6.1.3/README.md) | [bob-cli-j8.6.1.3](bob-cli-j8.6.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.6.1.land.md) | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.7/README.md) | [bob-cli-j8.7](bob-cli-j8.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.8/README.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-j8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.8.md) | [bob-cli-j8.8](bob-cli-j8.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-j8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-j8.9.md) | [bob-cli-j8.9](bob-cli-j8.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-j8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-j8.land/README.md) | [bob-cli-j8](README.md) | 0 |
 
@@ -144,6 +144,7 @@ flowchart TD
 | bob-cli | [`0a74731`](https://github.com/bobs-org/bob-cli/commit/0a74731b24809ad1b7572de977ac8c7a2f9cc59b) | feat(notebooks): recognize notebooks with list, check, and contract docs | [bob-cli-j8.1](bob-cli-j8.1.md) | 2026-11-09 13:41:47 EST |
 | bob-cli | [`55468bf`](https://github.com/bobs-org/bob-cli/commit/55468bffc8f5bbbbb5f7b2440c8cfbd9f1d32452) | feat(notebooks): generate Notebooks catalogs with sync, create, and a nightly step | [bob-cli-j8.2](bob-cli-j8.2.md) | 2026-11-09 15:05:58 EST |
 | bob-cli | [`d906675`](https://github.com/bobs-org/bob-cli/commit/d90667549a46e559f077f96e0db78ec0c1999bb9) | feat(capture): add notebook route parsing | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 2026-11-09 16:08:46 EST |
+| bob-mac-capture | [`bob-mac-capture@a65fb6a`](https://github.com/bobs-org/bob-mac-capture/commit/a65fb6a06d6d50d88ab263cf58914108e2be73f4) | docs: clarify capture stash and keyboard behavior | [bob-cli-j8.3.1.1](bob-cli-j8.3.1.1.md) | 2026-11-09 16:16:18 EST |
 | bob-cli | [`3f8c49d`](https://github.com/bobs-org/bob-cli/commit/3f8c49d4145ad5142cbca38b94bc8c3a3bea0c19) | feat(capture)!: compose notebook routes with lists, globals, and #section^id | [bob-cli-j8.3.1.2](bob-cli-j8.3.1.2.md) | 2026-11-09 18:28:21 EST |
 | bob-cli | [`8d098e5`](https://github.com/bobs-org/bob-cli/commit/8d098e550588eafbcdc4788e7cbb6ce10024ad26) | feat(capture)!: write notebook notes through guarded transaction | [bob-cli-j8.3.1.3](bob-cli-j8.3.1.3.md) | 2026-11-09 19:31:54 EST |
 | bob-cli--plans | [`bob-cli--plans@e2abff0`](https://github.com/bobs-org/bob-cli--plans/commit/e2abff08c97d314b215c515c46e2ae26c9e64c07) | chore(plans): mark notebook catalog UI plans done | [bob-cli-j8.6.1](bob-cli-j8.6.1.md) | 2026-11-09 20:24:05 EST |
@@ -152,6 +153,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@e6b6782`](https://github.com/bobs-org/bob-cli--plans/commit/e6b678237e4eaf3ef3751e43a21cd22dd6155cfd) | docs(plans): mark notebook capture epic done | [bob-cli-j8.3.1](bob-cli-j8.3.1.md) | 2026-11-09 22:38:49 EST |
 | bob-cli | [`ab021e2`](https://github.com/bobs-org/bob-cli/commit/ab021e2db09c3776d737e9380a236f823bcb42b4) | feat(capture)!: create notebooks from sealed @parent^id@ %n drafts | [bob-cli-j8.4](bob-cli-j8.4.md) | 2026-11-10 00:20:18 EST |
 | bob-cli | [`93cf930`](https://github.com/bobs-org/bob-cli/commit/93cf930ca2a8221bdbe4b1dad602ef49669f3f18) | feat(capture)!: complete notebook capture assistance | [bob-cli-j8.5](bob-cli-j8.5.md) | 2026-11-10 02:30:29 EST |
+| bob-cli | [`f2882ea`](https://github.com/bobs-org/bob-cli/commit/f2882ea6fc30894c848bafa4a68e4f81b7c148ed) | fix(ci): select Mac Capture workflow for exact-SHA checks | [bob-cli-j8.8](bob-cli-j8.8.md) | 2026-11-10 05:02:21 EST |
 
 <!-- sase:referenced-by:start -->
 
