@@ -18,7 +18,7 @@ archive-health: resolve archive destinations and historical link repair from cap
 ## Dependencies
 
 - **Depends on:** [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -31,3 +31,15 @@ archive-health: resolve archive destinations and historical link repair from cap
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2327590`](https://github.com/bobs-org/bob-cli/commit/2327590f2caabced31e6320a232d57355dfe2007) | feat(archive): report health findings and use bound pair destinations | [bob-cli-j5.4.1.4](bob-cli-j5.4.1.4.md) | 2026-11-09 19:00:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-j5.4.1.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->

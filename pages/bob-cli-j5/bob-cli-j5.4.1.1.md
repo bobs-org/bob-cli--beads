@@ -39,7 +39,9 @@ pair-index: implement metadata-first bidirectional archive resolution with expli
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-j5.4.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-j5.4.1.4][2] | Need closed pair-index phase to see what already landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-j5.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->

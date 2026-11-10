@@ -18,7 +18,7 @@ pair-readers: replace archive inference in capture-related candidates, reference
 ## Dependencies
 
 - **Depends on:** [bob-cli-j5.4.1.1](bob-cli-j5.4.1.1.md) ✓ · ⧖ 2026-11-09
-- **Blocks:** [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [bob-cli-j5.4.1.5](bob-cli-j5.4.1.5.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
