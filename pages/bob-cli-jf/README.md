@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-jf
 
-**Status:** ◐ in_progress · **Type:** ◆ task · **Task type:** ⨯ bug · **+1 reports:** +1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **Task type:** ⨯ bug · **+1 reports:** +1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-iz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-iz.land.md) · **Assignee:** `bob-cli-jf` · **Size:** large
-**Created:** 2026-11-09 21:02:52 EST
+**Created:** 2026-11-09 21:02:52 EST · **Closed:** 2026-11-10 08:14:53 EST
 
 <!-- sase:links:start -->
 
@@ -14,11 +14,15 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-it][1] | Same docs-check 'collides with the committed landing page' error, different cause: here the bob-mac-capture mount resolves to bob-cli's own tree |
 | related | [bead:bob-cli-iz][2] | Incident surfaced while landing this epic; phase bob-cli-iz.5's commit only reached bob-mac-capture and was re-landed by the lander |
+| related | [bead:bob-cli-jk][3] | Observed during the bob-mac-capture history restore verification (phase bob-cli-jf.1.1) |
+| related | [bead:bob-cli-jl][4] | Same root-cause class (Git discovery climbing into the host checkout); the jf.1.2 guard fixed linked/sidecar paths and added the is_worktree_root probe to reuse here |
 
 _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-it/README.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-iz/README.md
+[3]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-jk/README.md
+[4]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-jl/README.md
 
 <!-- sase:links:end -->
 
@@ -75,6 +79,20 @@ bob-mac-capture master carries bob-cli content (Mac checkouts that fast-forward 
 - 2c406dd500915f4d8bee43cbae8f5bdbd985df1b -> af604c6d9e05ec6440bfce5fa15ced97e388035c (test(capture): fix notebook picker assertions and dotted type-through harness)
 BAD 9a0bb25c4b55b547a6d92c35c93017471e74feff and the accidental bob-cli history are removed, not replayed. Gate verified fidelity on all 53 touched paths; scratch recovery backup remains /tmp/bob-mac-restore-0ig_wzuq. Deleted polluted remote branch refs/heads/ci/precommit/4f12681e038ad03a8ecb1de466d2a1ae (af75f0912ead90bad77bd8a6c0886409b2b00bd1). Live master verified equal to restored SHA; fetched every advertised head/tag and no remote ref contains BAD (4 heads, 0 tags). SHA searches found citations on bob-cli-jf, bob-cli-jf.1.1, and bob-cli-j8.8, so this full mapping is recorded on each. Exact-SHA CI run 42813392077 remains pending; this note does not claim CI is green. Run: https://github.com/bobs-org/bob-mac-capture/actions/runs/42813392077
 
+[2026-11-10T12:39:53Z · bob-cli-jf.1.1--2] RESTORE VERIFICATION UPDATE: Cleanup and four-commit mapping remain verified (phase bob-cli-jf.1.1 notes). The first restored-SHA macOS CI run 42813392077 is red on three tests, not a hang: one highlight expectation now independently fixed by bob-cli-j8.8 in direct descendant 28aa5b32a62011266459e13723236e4caeda2478, known flake bob-cli-jb, and an alias-tip timeout under assessment. Current master and all 5 advertised heads remain free of BAD; no tags. Clean-base docs-check now gets past mount validation and fails only on four word budgets, recorded as PROPOSED FOLLOW-UP on the phase with h9/it distinctions. No source edits or further rewrite performed. Exact fixed-descendant run 42816665790 is pending; do not claim green yet. Durable evidence file:explicit:9c06ef579a77645b1ef8134e.
+
+[2026-11-10T12:59:56Z · bob-cli-jf.1.1--3] RESTORE PHASE VERIFICATION COMPLETE: Green macOS CI at exact fixed descendant 28aa5b32a62011266459e13723236e4caeda2478: https://github.com/bobs-org/bob-mac-capture/actions/runs/42816665790 (completed 2026-11-10 12:52:56Z; Build/Test/Bundle/plist-signature/launch/install all SUCCESS; 4609 tests, 1 skipped, 0 failures). Original restored af604c6d run 42813392077 remains red; concurrent bob-cli-j8.8 fixed the highlight assertion in its direct child 28aa5b32, while unchanged alias-tip and double-equals tests passed. Alias-tip intermittent timeout is a PROPOSED FOLLOW-UP on bob-cli-jf.1.1; equals race stays covered by bob-cli-jb. Clean-base docs-check passed mount validation and failed only the four documented word budgets (h9 covers Mac pages; it did not reproduce). Complete four-commit mapping, no-BAD remote audit, and all 19 checkout surveys are recorded in phase notes; approved restore and cleanup are complete. Durable final evidence file:explicit:56505b5871a0c00d9ec89aa2; original CI/docs evidence file:explicit:9c06ef579a77645b1ef8134e. Only bob-cli-jf.1.1 is being closed; bob-cli-jf and bob-cli-jf.1 remain for the guard/land work.
+
+[2026-11-10T13:14:53Z · bob-cli-jf.1.land] RESOLVED by epic bob-cli-jf.1 (landed and closed by bob-cli-jf.1.land, 2026-11-10), as the approved plan's Landing section directs.
+
+- New master: bobs-org/bob-mac-capture master is 0958974f, a descendant of the restored af604c6d9e05ec6440bfce5fa15ced97e388035c built on GOOD 29147289. Mapping: b20ceca5->6dddea35, 3fb3a2be->a36f3e81, 5e29dd26->37933a14, 2c406dd5->af604c6d.
+- Clean ls-remote check: I fetched every advertised head (master, ci/precommit/4c1e5994, mac-refs-hotkey-o, persist-canceled-draft-stash) and all 13 refs/pull/*/head. BAD 9a0bb25c is not reachable from any of them, and there are no tags. The 19 surveyed checkouts (athena, apollo, mac) carry no BAD refs or stashes, and the bob-docs caches were removed.
+- docs-check: on bob-cli 1f912b8c, mount validation passes (the mac-capture index collision is gone). Lint fails only on pre-existing word budgets: Mac pages are tracked by bob-cli-h9 (+1 added) and json-outputs.md by active epic bob-cli-j8.
+- Green macOS CI: run https://github.com/bobs-org/bob-mac-capture/actions/runs/42816665790 at 28aa5b32, the direct child of the restored tip (4609 tests, 0 failures).
+- sase guard commit: a14bffcdbf "fix(workspaces): guard Git mutations and pushes by checkout identity" is on sase master. It adds a bounded worktree-root probe before every linked or sidecar origin, fetch, merge, or exclude mutation, plus an expected-origin push guard.
+
+Optional item 3 (a bob-docs host-identity check) was declined as out of scope in the approved plan: bob-docs already refuses a mount whose toplevel is not itself (_worktree_failure), and a root-commit check cannot work on a depth-1 cache. Follow-ups: bob-cli-jk, bob-cli-jl (external-repo validator, same failure class), bob-cli-jm, and bob-cli-jn.
+
 ## +1 Evidence
 
 > **+1** by `bob-cli-j5.land` · 2026-11-10 01:51:03 EST
@@ -86,9 +104,9 @@ BAD 9a0bb25c4b55b547a6d92c35c93017471e74feff and the accidental bob-cli history 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-jf: Linked bob-mac-capture checkout resolved to the bob-cli host repo, rewrote its origin, and bob-cli history was pushed onto bob-mac-capture master (9a0bb25c) [in_progress]"]
-    n1["bob-cli-jf.1: Restore bob-mac-capture master and stop linked clones from mutating their host repo [in_progress]"]
-    n2["bob-cli-jf.1.1: Restore bob-mac-capture master and clean polluted checkouts [in_progress]"]
+    n0["bob-cli-jf: Linked bob-mac-capture checkout resolved to the bob-cli host repo, rewrote its origin, and bob-cli history was pushed onto bob-mac-capture master (9a0bb25c) [closed]"]
+    n1["bob-cli-jf.1: Restore bob-mac-capture master and stop linked clones from mutating their host repo [closed]"]
+    n2["bob-cli-jf.1.1: Restore bob-mac-capture master and clean polluted checkouts [closed]"]
     n3["bob-cli-jf.1.2: SASE refuses Git mutations outside a linked checkout's own worktree [closed]"]
     n0 --> n1
     n1 --> n2
@@ -102,7 +120,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-jf](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-jf.md) | [bob-cli-jf](README.md) | 0 |
 | [bbugyi200.athena.bob-cli-jf.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-jf.1.1.md) | [bob-cli-jf.1.1](bob-cli-jf.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-jf.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jf.1.2/README.md) | [bob-cli-jf.1.2](bob-cli-jf.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-jf.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jf.1.land/README.md) | [bob-cli-jf.1](bob-cli-jf.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-jf.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jf.1.land/README.md) | [bob-cli-jf.1](bob-cli-jf.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli--plans | [`bob-cli--plans@1faead0`](https://github.com/bobs-org/bob-cli--plans/commit/1faead0bfb5224fb6dd7b7a2fafa7596f9a5c783) | chore(plans): mark bob-mac-capture history restore epic done | [bob-cli-jf.1](bob-cli-jf.1.md) | 2026-11-10 08:15:29 EST |
 
 <!-- sase:referenced-by:start -->
 

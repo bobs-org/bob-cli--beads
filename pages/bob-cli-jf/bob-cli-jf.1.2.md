@@ -28,3 +28,15 @@ guard: in the sase repo, make linked and sidecar materialization verify that a r
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-jf.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jf.1.2/README.md) | [bob-cli-jf.1.2](bob-cli-jf.1.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-jf.1.2][1] | Confirm completion criteria and record final verification evidence | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jf.1.2/README.md
+
+<!-- sase:referenced-by:end -->
