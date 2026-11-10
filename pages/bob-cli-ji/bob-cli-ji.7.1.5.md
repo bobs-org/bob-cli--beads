@@ -11,14 +11,24 @@
 
 editor: add the fixed identity header, recurring scope control, multiline AppKit editor, UTF-8 highlight/error overlays, shared rail, Lands as block, status and footer keys. Wire save, clear, and last-mutation undo to the session model. Complete hosted end-to-end and render tests, including draft/undo restoration and unsupported Bob. Read Editor and acceptance.
 
+## Notes
+
+[2026-11-10T20:52:52Z · bob-cli-ji.7.1.5] PROPOSED FOLLOW-UP: Mac typecheck-tests fails on pre-existing @MainActor XCTestCase.tearDown accessing ledgerSuites in CaptureRelationEqualsAliasTests and CaptureModifierAliasTests — same errors on clean master; CI still runs the tests.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) ✓ · ⧖ 2026-11-10
-- **Depends on:** [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.7.1.6](bob-cli-ji.7.1.6.md) ◐ · ⧖ 2026-11-10
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.5/README.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@5bf8907`](https://github.com/bobs-org/bob-mac-capture/commit/5bf8907e6071f4f364a86b90f28a25cd8957ed09) | feat(capture): add Event Note editor, highlights, and save controls | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 2026-11-10 16:01:17 EST |

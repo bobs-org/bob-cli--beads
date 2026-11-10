@@ -25,6 +25,10 @@ _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 Bryan can give any Google Calendar event (including events other people own and invitations he has not answered yet) Bob-only metadata at RSVP time: `@route`, `#off`/`#on`, `-30 reason`, `+15 reason`, and prose. He can write it from the CLI, over SSH, or from Bob Mac Capture. The metadata lands on the event's Event Task exactly as if those lines were in the Google description, and it beats that description field by field. Bob never writes to Google: it validates notes at write time, previews them faithfully, and never drops one silently.
 
+## Notes
+
+[2026-11-10T20:12:49Z · bob-cli-js.land] DISCOVERED ISSUE: just check / just lint fails at cargo clippy on master 947f24ff with 4 deny-level lints, all in this epic's gcal code: clippy::len_zero at src/native/gcal/note/write.rs:177 (note.errors.len() > 0) and clippy::collapsible_if at src/native/gcal/note/write.rs:1181 and :1421 (both from cf7c0605, bob-cli-ji.4), plus clippy::collapsible_if at src/native/gcal/doctor.rs:357 (c8934b93, bob-cli-ji.5). Because clippy fails at the lib level, cargo test never runs under just check. First proposed by bob-cli-js.3 note #2 (PROPOSED FOLLOW-UP); reproduced by the bob-cli-js land agent with just check on 2026-11-10 (exit 101, 'could not compile bob-obsidian (lib) due to 4 previous errors'). Fix: replace the length check with !note.errors.is_empty() and collapse the three nested ifs (let-chains), then rerun just check.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -53,7 +57,7 @@ flowchart TD
     n9["bob-cli-ji.7.1.1: Complete event-note fixtures and the Swift process contract [closed]"]
     n10["bob-cli-ji.7.1.2: Event-note session, request ordering, and mutation undo [closed]"]
     n11["bob-cli-ji.7.1.3: Shared hatched meeting and buffer rail [closed]"]
-    n12["bob-cli-ji.7.1.4: Mode entry points, capture preservation, and event picker [in_progress]"]
+    n12["bob-cli-ji.7.1.4: Mode entry points, capture preservation, and event picker [closed]"]
     n13["bob-cli-ji.7.1.5: Highlighted editor, live preview, and save controls [in_progress]"]
     n14["bob-cli-ji.7.1.6: Document the shipped mode and assemble completion evidence [in_progress]"]
     n0 --> n1
@@ -101,7 +105,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.2.md) | [bob-cli-ji.7.1.2](bob-cli-ji.7.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.3.md) | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.4.md) | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 3 |
-| [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.5/README.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.6/README.md) | [bob-cli-ji.7.1.6](bob-cli-ji.7.1.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.land/README.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.land/README.md) | [bob-cli-ji](README.md) | 0 |
@@ -123,6 +127,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@cdd7384`](https://github.com/bobs-org/bob-mac-capture/commit/cdd73844aec701344b2fa8d1be97eb49d30d5ed0) | feat(capture): add Event Note picker overlay in capture panel | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 2026-11-10 13:54:12 EST |
 | bob-mac-capture | [`bob-mac-capture@f32a575`](https://github.com/bobs-org/bob-mac-capture/commit/f32a575071d016a8aa4c7e35dceae157d4cb58ba) | fix(capture): import CaptureCore testably in Event Note picker tests | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 2026-11-10 14:10:47 EST |
 | bob-mac-capture | [`bob-mac-capture@90b6f9e`](https://github.com/bobs-org/bob-mac-capture/commit/90b6f9e3cd96b3513687e35e85167a75f69578a8) | fix(capture): expect Command-E to open Event Note in the line-motion test | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 2026-11-10 14:40:18 EST |
+| bob-mac-capture | [`bob-mac-capture@5bf8907`](https://github.com/bobs-org/bob-mac-capture/commit/5bf8907e6071f4f364a86b90f28a25cd8957ed09) | feat(capture): add Event Note editor, highlights, and save controls | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 2026-11-10 16:01:17 EST |
 
 <!-- sase:referenced-by:start -->
 
