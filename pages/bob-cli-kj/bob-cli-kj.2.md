@@ -19,7 +19,13 @@ docs-trims: trim the four bob-mac-capture pages and one bob-plugins page that fa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.2.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.2.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@cb32d8d`](https://github.com/bobs-org/bob-plugins/commit/cb32d8d3ad06971bf352710224046c30dfca7566) | docs: trim navigation-hotkeys page back under the word cap | [bob-cli-kj.2](bob-cli-kj.2.md) | 2026-11-11 17:55:26 EST |
 
 <!-- sase:referenced-by:start -->
 

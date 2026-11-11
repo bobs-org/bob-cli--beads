@@ -47,6 +47,8 @@ PROPOSED FOLLOW-UP: second-eligible-sigil flake tracked by bob-cli-jk - keep ope
 
 [2026-11-11T22:52:58Z · bob-cli-kj.5] Verified: landed alias-tip fix intact at 1e83c032217a9d6c90827ee467e5c60b57069d88 (ee26941 ancestor; alias-tip test diff empty). Exact-SHA run 43112612175 (https://github.com/bobs-org/bob-mac-capture/actions/runs/43112612175): deterministic trio passed (filtering 0.681s, option-hash 0.442s, typing-query 0.443s); changed-separator and second-eligible-sigil passed; edit-before-reply failed line 336 as on 6cbbddf base. Red only from 6 unrelated clean-base failures (edit-before-reply + dot-route + notebook/drawer trio + separator), recorded as PROPOSED FOLLOW-UP notes; historical green ee26941 run 43018693025 retained as reference only.
 
+[2026-11-11T23:09:09Z · bob-cli-kj.5--1] Corroborated terminal run 43112612175 / 1e83c03 (job 130832299036) from --log-failed after monitor tb60b0 completion: Lint+Build green, Test red, 4750 tests / 1 skipped / 10 failures. Trio passed (filtering 0.681s, option-hash 0.442s, typing-query 0.443s); first-frame tip passed 0.560s; changed-separator passed 0.595s; second-eligible-sigil passed 0.443s; edit-before-reply failed line 336 nil vs Optional(1). Six failing cases total (10 assertions) match notes #2-#3; no new evidence, no bead changes.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-kj.1](bob-cli-kj.1.md) ✓ · ⧖ 2026-11-11
