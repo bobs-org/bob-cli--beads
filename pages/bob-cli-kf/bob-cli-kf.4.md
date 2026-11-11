@@ -26,3 +26,15 @@ bank-parser-fixes: validate trailing tokens before the out-of-month early return
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`757e36b`](https://github.com/bobs-org/bob-cli/commit/757e36bb0d758031e2eaf2c065d1662577034583) | fix(bank): validate out-of-month headings, BOM frontmatter, planner anchors | [bob-cli-kf.4](bob-cli-kf.4.md) | 2026-11-11 14:11:54 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kf.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.4/README.md
+
+<!-- sase:referenced-by:end -->

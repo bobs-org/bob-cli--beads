@@ -30,9 +30,9 @@ Confirmed findings from a five-area audit (gcal sync injection, web-clip SSRF gu
 | [bob-cli-kf.1](bob-cli-kf.1.md) | Gcal hostile title and badge URL escaping | ✓ closed | small | 2026-11-11 | 1 | 1 |
 | [bob-cli-kf.2](bob-cli-kf.2.md) | Web clip out-of-band fetch guard | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-kf.3](bob-cli-kf.3.md) | Vault sync and rewrite write durability | ✓ closed | medium | 2026-11-11 | 1 | 1 |
-| [bob-cli-kf.4](bob-cli-kf.4.md) | Bank month-note parser fixes | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
+| [bob-cli-kf.4](bob-cli-kf.4.md) | Bank month-note parser fixes | ✓ closed | small | 2026-11-11 | 1 | 1 |
 | [bob-cli-kf.5](bob-cli-kf.5.md) | Subprocess reaper and notify hardening | ✓ closed | small | 2026-11-11 | 1 | 1 |
-| [bob-cli-kf.6](bob-cli-kf.6.md) | Shell and migration script fixes | ✓ closed | small | 2026-11-11 | 1 | 0 |
+| [bob-cli-kf.6](bob-cli-kf.6.md) | Shell and migration script fixes | ✓ closed | small | 2026-11-11 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n1["bob-cli-kf.1: Gcal hostile title and badge URL escaping [closed]"]
     n2["bob-cli-kf.2: Web clip out-of-band fetch guard [closed]"]
     n3["bob-cli-kf.3: Vault sync and rewrite write durability [closed]"]
-    n4["bob-cli-kf.4: Bank month-note parser fixes [in_progress]"]
+    n4["bob-cli-kf.4: Bank month-note parser fixes [closed]"]
     n5["bob-cli-kf.5: Subprocess reaper and notify hardening [closed]"]
     n6["bob-cli-kf.6: Shell and migration script fixes [closed]"]
     n0 --> n1
@@ -60,9 +60,9 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kf.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.1/README.md) | [bob-cli-kf.1](bob-cli-kf.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.2/README.md) | [bob-cli-kf.2](bob-cli-kf.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.3/README.md) | [bob-cli-kf.3](bob-cli-kf.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-kf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.4/README.md) | [bob-cli-kf.4](bob-cli-kf.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-kf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.4/README.md) | [bob-cli-kf.4](bob-cli-kf.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.5/README.md) | [bob-cli-kf.5](bob-cli-kf.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-kf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.6.md) | [bob-cli-kf.6](bob-cli-kf.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-kf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.6.md) | [bob-cli-kf.6](bob-cli-kf.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.land/README.md) | [bob-cli-kf](README.md) | 0 |
 
 ## Commits
@@ -73,3 +73,5 @@ flowchart TD
 | bob-cli | [`1f691b1`](https://github.com/bobs-org/bob-cli/commit/1f691b197bb53446bc2c40f30dfaebde7e66aeb9) | fix(sync): harden vault sync and rewrite write durability | [bob-cli-kf.3](bob-cli-kf.3.md) | 2026-11-11 13:54:25 EST |
 | bob-cli | [`2c104b9`](https://github.com/bobs-org/bob-cli/commit/2c104b9e1e3a2553294e8cc7a5cd7d1c0e823fda) | fix(gcal): collapse hostile titles and encode badge URL whitespace | [bob-cli-kf.1](bob-cli-kf.1.md) | 2026-11-11 13:55:14 EST |
 | bob-cli | [`7b3f351`](https://github.com/bobs-org/bob-cli/commit/7b3f3512204e3c8fd394597d50d4491879e29f03) | fix(subprocess): bound pipe draining and harden notify sleeps | [bob-cli-kf.5](bob-cli-kf.5.md) | 2026-11-11 14:10:33 EST |
+| bob-cli | [`757e36b`](https://github.com/bobs-org/bob-cli/commit/757e36bb0d758031e2eaf2c065d1662577034583) | fix(bank): validate out-of-month headings, BOM frontmatter, planner anchors | [bob-cli-kf.4](bob-cli-kf.4.md) | 2026-11-11 14:11:54 EST |
+| bob-cli | [`4771047`](https://github.com/bobs-org/bob-cli/commit/4771047e8bcc12a59b9c1dd723d078b5ffbdab84) | fix(scripts): persist notify, harden tracker apply, restore git globs | [bob-cli-kf.6](bob-cli-kf.6.md) | 2026-11-11 15:10:57 EST |
