@@ -19,7 +19,7 @@ svg-image-guard: add an always-on Lua image filter that swaps SVG embeds for a s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k6.2](bob-cli-k6.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k6.2](bob-cli-k6.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -32,3 +32,15 @@ svg-image-guard: add an always-on Lua image filter that swaps SVG embeds for a s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`52f0d61`](https://github.com/bobs-org/bob-cli/commit/52f0d615b779fd66018888923ed8f8108761ef72) | feat(highlights): guard SVG images in PDF renders | [bob-cli-k6.1](bob-cli-k6.1.md) | 2026-11-11 08:39:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k6.1][1] | Need the phase scope, recorded prior work, epic decisions, and design file before implementing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k6.1/README.md
+
+<!-- sase:referenced-by:end -->
