@@ -20,4 +20,4 @@ bank-obsidian: in bob-ledger-tools, draw the `bob-bank` month and queue cards, s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6/README.md) | [bob-cli-kd.6](bob-cli-kd.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.md) | [bob-cli-kd.6](bob-cli-kd.6.md) | 0 |

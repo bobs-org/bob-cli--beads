@@ -20,4 +20,4 @@ bank-import: parse Wells Fargo QFX (OFX 1.x SGML and 2.x XML) plus one CSV profi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4/README.md) | [bob-cli-kd.4](bob-cli-kd.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.md) | [bob-cli-kd.4](bob-cli-kd.4.md) | 0 |
