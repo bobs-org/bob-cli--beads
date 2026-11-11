@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-ji
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.3z.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.3z.linker.w0.md) · **Assignee:** `bob-cli-ji.land`
-**Created:** 2026-11-10 05:59:46 EST
+**Created:** 2026-11-10 05:59:46 EST · **Closed:** 2026-11-11 02:46:36 EST
 **Plan:** [202611/private\_gcal\_event\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/private_gcal_event_notes.md)
 
 <!-- sase:links:start -->
@@ -45,6 +45,8 @@ Bryan can give any Google Calendar event (including events other people own and 
 
 [2026-11-11T06:38:14Z · bob-cli-ji.8.land] CHILD LANDING CHECKPOINT: bob-cli-ji.8 remains open. Its four phases are closed and the planned core fixes are present, but the ji.8 lander found explicit -- mishandling after implicit TEXT (executed exact-source probe), editor dry-run and scope-control defects, incomplete doctor remedies, and missing immediate sync when clearing a live series by master ID. Fifteen Mac JSON fixture copies also remain stale from this child. A validated medium tale will finish these and owns ji.8 closeout, then a fresh review of this parent and all descendants; do not mark either plan done yet. ji.8 follow-up proposals are fully triaged on that bead, with existing docs-budget tasks jz/h9 corroborated and timestamp ordering retained as explicitly designed.
 
+[2026-11-11T07:46:36Z · bob-cli-ji.8.land--2] PARENT CLOSEOUT VERIFIED after ji.8 landing: all 7 phases closed (ji.1 engine, ji.2 command/select, ji.3 provenance, ji.4 write, ji.5 editor/adopt/doctor/hint, ji.6 decision/guide, ji.7 Mac Event note mode) plus child epic ji.8 closed with its 4 phases (engine/select/write/extras). Notes #1-#3 fixed by 4c1f7dde/85e618d8 (clippy, catalog 89, doctor notes ID; just check passed 10457 tests); #4 follow-up triage stands (docs budgets jz/h9, glossary declined per memory_glossary=no, k0/k1/k2 split out, RSVP declined per read-only decision); #5 audit gaps closed by ji.8 tale 05ec8253; #6 checkpoint superseded by this close. Linked plan plan:202611/private_gcal_event_notes.md re-read; child plan finish_private_gcal_event_notes.md set done. Drift: bob-cli 05ec8253==origin/master (single tale commit since ba7a1c90, no non-epic commits, tree clean); Mac 37b0e68==origin/master (fixture refresh only, 18/18 agree, tree clean). Decisions: auto_sync=yes (live-master clears sync immediately), mac_chord=cmd_e, memory_record=yes (authorized records only), memory_glossary=no (no strand) all honored; Google read-only preserved. Validation: epic-symbols empty for ji and ji.8; sase plan links validate shows only 58 legacy unrelated errors (prompt-in-plans-store + one PLAN link, none on these plans). Tests: just check exit 0; Mac portable 2468 pass 0 fail; macOS GcalNote suites 69 pass; 3 tip-panel timeouts pre-existing tracked in jx (+1 this turn).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -61,7 +63,7 @@ Bryan can give any Google Calendar event (including events other people own and 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-ji: Private event notes for Google Calendar events [in_progress]"]
+    n0["bob-cli-ji: Private event notes for Google Calendar events [closed]"]
     n1["bob-cli-ji.1: Note store and per-field layering engine [closed]"]
     n2["bob-cli-ji.2: bob gcal note command, event selection and read-only modes [closed]"]
     n3["bob-cli-ji.3: Note provenance in gcal.row and fail-safe reads [closed]"]
@@ -76,7 +78,7 @@ flowchart TD
     n12["bob-cli-ji.7.1.4: Mode entry points, capture preservation, and event picker [closed]"]
     n13["bob-cli-ji.7.1.5: Highlighted editor, live preview, and save controls [closed]"]
     n14["bob-cli-ji.7.1.6: Document the shipped mode and assemble completion evidence [closed]"]
-    n15["bob-cli-ji.8: Finish private event notes — correctness fixes and the missing extras [in_progress]"]
+    n15["bob-cli-ji.8: Finish private event notes — correctness fixes and the missing extras [closed]"]
     n16["bob-cli-ji.8.1: Account-aware note fold, honest held rows, and accurate note provenance [closed]"]
     n17["bob-cli-ji.8.2: Exact selection, argv pre-pass, orphans, and list/show fixes [closed]"]
     n18["bob-cli-ji.8.3: Write contract, validation warnings, human output, and missing tests [closed]"]
@@ -141,7 +143,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.2/README.md) | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.3/README.md) | [bob-cli-ji.8.3](bob-cli-ji.8.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.4/README.md) | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.8.land.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.8.land.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 3 |
 | [bbugyi200.apollo.bob-cli-ji.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.land.md) | [bob-cli-ji](README.md) | 0 |
 
 ## Commits
@@ -177,6 +179,7 @@ flowchart TD
 | bob-cli | [`ba7a1c9`](https://github.com/bobs-org/bob-cli/commit/ba7a1c9092a368dded96c3ec95dee72c0261f7b0) | feat(gcal): finish private event note extras | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 2026-11-11 01:25:11 EST |
 | bob-cli | [`05ec825`](https://github.com/bobs-org/bob-cli/commit/05ec8253f144ed6e5947f659a17eb50dea45d251) | fix(gcal): finish private note landing boundary cases | [bob-cli-ji.8](bob-cli-ji.8.md) | 2026-11-11 02:12:55 EST |
 | bob-mac-capture | [`bob-mac-capture@37b0e68`](https://github.com/bobs-org/bob-mac-capture/commit/37b0e68a1dcfc24e6b7dca75a3074daf13f887b0) | test(gcal-note): refresh contract fixtures from bob-cli | [bob-cli-ji.8](bob-cli-ji.8.md) | 2026-11-11 02:13:41 EST |
+| bob-cli--plans | [`bob-cli--plans@469f92b`](https://github.com/bobs-org/bob-cli--plans/commit/469f92b162c691f521e78289e735c043cfeaef02) | docs(plans): mark private event note plans done after ji.8 landing | [bob-cli-ji.8](bob-cli-ji.8.md) | 2026-11-11 02:48:00 EST |
 
 <!-- sase:referenced-by:start -->
 
