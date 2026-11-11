@@ -23,6 +23,10 @@ mac-albums: show each record route's album title, owner, and summary from the ad
 
 [2026-11-11T19:24:07Z · bob-cli-k3.8] CI gate status: monitor y153j4 (macos-ci-check on the exact mac-albums tree) is staged but had not run as of 14:23 EST; no terminal verdict yet. Implementation and local gates are complete — see prior notes. Leave open until the macOS run goes green.
 
+[2026-11-11T21:05:18Z · bob-cli-k3.8] CI gate verdict: exact-SHA run 43090193031... see next note
+
+[2026-11-11T21:05:33Z · bob-cli-k3.8] CI GATE VERDICT (red, infra): exact-tree snapshot SHA 26aab239a0830aaa559872b2cdab78647e67fb0e ran as actions run 43093026266 (thrown-away ci/precommit branch, now deleted). Tree steps all green: Lint Swift formatting success, Build success, Test success (panel-test fix verified — 0 failures). Red step: Upload render fixtures — actions/upload-artifact@v4 got HTML error pages from the artifact service 5x over 10 min (Unexpected token <.DOCTYPE... not valid JSON), so Bundle/Verify/Launch/Install skipped. Nothing in the tree can cause that; artifact upload worked on master run 43018693025 earlier today. Bead left open: re-run the throwaway gate when the artifact service recovers; staged monitor y153j4 still pending as fallback.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ◐ · ⧖ 2026-11-11
