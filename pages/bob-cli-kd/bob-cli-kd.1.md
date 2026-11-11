@@ -135,3 +135,23 @@ view: month
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.1/README.md) | [bob-cli-kd.1](bob-cli-kd.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.49.cdx][1] | Establish initial vault rollout and end-to-end verification state | 1 |
+| read-by | [agent:research.49.cld][2] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
+| read-by | [agent:research.49.gem][3] | Understand phase 1 habit restart | 1 |
+| read-by | [agent:research.49.grk][4] | Need closed restart/CLI phases and wrap-up e2e proof so the first-run guide matches shipped work | 1 |
+| read-by | [agent:research.49.mus][5] | research kd epic phase scope for user guide | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+
+<!-- sase:referenced-by:end -->

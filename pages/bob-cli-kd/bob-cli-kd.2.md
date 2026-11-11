@@ -42,7 +42,13 @@ bank-grammar: add `src/native/bank/` with the `bank:` config parser (key-path di
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.2--2][1] | Need current bead status after green check and failed host completion | 1 |
+| read-by | [agent:research.49.cld][2] | research: what shipped in this phase for the bank user guide e2e test | 1 |
+| read-by | [agent:research.49.gem][3] | Understand phase 2 grammar and commands | 1 |
+| read-by | [agent:research.49.mus][4] | research kd epic phase scope for user guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->

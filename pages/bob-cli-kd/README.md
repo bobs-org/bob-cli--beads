@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bank_daily_acknowledgment.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_daily_acknowledgment.md
 
@@ -24,6 +24,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Bryan restarts his daily bank habit right away. Every posted transaction and deposit becomes one checkbox row in a monthly bank note under a new `bank` sub-area of `cash`. Typing a row acknowledges it. A weekly `bob bank import` of a Wells Fargo QFX file writes, unchecked, only the rows he missed, and a balance proof shows that nothing was skipped. Every total is computed when it is drawn (terminal, month card, queue card, daily chip) and never written into notes. A missed week costs one sitting to catch up, not a retyping spiral.
+
+## Notes
+
+[2026-11-11T20:42:22Z · research.49.cld] DISCOVERED ISSUE: bob bank ensure (month::plan_insert_day → day_end_line, src/native/bank/month.rs:300) inserts a new day heading right after the previous day's last row block (row + indented children), not at the end of that day's section. Any trailing non-row line of the earlier day — free prose, a plain checklist line, or an empty '- [x] $' stub — is silently moved under the new day; bob bank check reports nothing, and ensure's next-row line then points at the moved line. Repro (synthetic, installed bob 0.5.0 @ 2026-11-11): BOB_NOW=2026-11-12T08:00:00; bob bank ensure -b SB -D 2026-11-11; append '- [x] $13.71 Smashburger', '  - split with Kelly', 'Kelly paid the tip in cash.', '- [ ] call the bank about the fee' under ## Wed Nov 11; bob bank ensure -b SB -D 2026-11-12 → '## Thu Nov 12' lands after the child bullet and the prose + checklist lines now sit under Thu. Contract (docs/bank.md 'Writers insert a missing day heading in date order') implies the day's whole section stays intact. Impact: Bank: open today, the daily-chip ensure, and any import path that reuses plan_insert_day can re-date Bryan's notes. Suggested fix: anchor the insert before the next day heading / at the end of the earlier day's section (trimming trailing blanks), plus a golden test with trailing prose, a plain checklist line, and a stub.
 
 ## Phases
 
@@ -55,7 +59,7 @@ flowchart TD
     n11["bob-cli-kd.6: Obsidian bank cards, styled rows, and the daily chip [in_progress]"]
     n12["bob-cli-kd.6.1: Bank views and safe editing in Obsidian [in_progress]"]
     n13["bob-cli-kd.6.1.1: Bank JSON data service and shared presentation models [closed]"]
-    n14["bob-cli-kd.6.1.2: Safe bank gestures, commands, and typing helpers [in_progress]"]
+    n14["bob-cli-kd.6.1.2: Safe bank gestures, commands, and typing helpers [closed]"]
     n15["bob-cli-kd.6.1.3: Month and queue cards with the daily bank chip [in_progress]"]
     n16["bob-cli-kd.6.1.4: Bank row and day-heading rendering in both Obsidian views [in_progress]"]
     n17["bob-cli-kd.6.1.5: Fixture walkthrough, documentation, and deployment proof [in_progress]"]
@@ -102,15 +106,15 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.2.md) | [bob-cli-kd.2](bob-cli-kd.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.3/README.md) | [bob-cli-kd.3](bob-cli-kd.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.md) | [bob-cli-kd.4](bob-cli-kd.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-kd.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.1/README.md) | [bob-cli-kd.4.1.1](bob-cli-kd.4.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-kd.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.1/README.md) | [bob-cli-kd.4.1.1](bob-cli-kd.4.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.2/README.md) | [bob-cli-kd.4.1.2](bob-cli-kd.4.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.3/README.md) | [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.4/README.md) | [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.land/README.md) | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md) | [bob-cli-kd.5](bob-cli-kd.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.md) | [bob-cli-kd.6](bob-cli-kd.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-kd.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md) | [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-kd.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.2/README.md) | [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md) | [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-kd.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.2/README.md) | [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.3/README.md) | [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.4/README.md) | [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md) | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 0 |
@@ -124,7 +128,8 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`07f1c74`](https://github.com/bobs-org/bob-cli/commit/07f1c7442bb24d50658167856fb5816312199423) | feat(bank): add bank grammar, month notes, and read-only bob bank check | [bob-cli-kd.2](bob-cli-kd.2.md) | 2026-11-11 12:58:45 EST |
 | bob-cli | [`49218b3`](https://github.com/bobs-org/bob-cli/commit/49218b38ebf3372b44274fa94869ad7ccc58311c) | feat(bank): add list, report, ensure, and ack to bob bank | [bob-cli-kd.3](bob-cli-kd.3.md) | 2026-11-11 13:58:05 EST |
-| bob-cli | [`bffbf36`](https://github.com/bobs-org/bob-cli/commit/bffbf36bd58d79868e4bf2b2db042bcab50f4635) | feat(bank): parse OFX/CSV exports and fold the bank journal | [bob-cli-kd.4.1.1](bob-cli-kd.4.1.1.md) | 2026-11-11 15:06:39 EST |
+| bob-plugins | [`bob-plugins@8a1daca`](https://github.com/bobs-org/bob-plugins/commit/8a1daca7b0757c48fcf9f068f7bcccac3561a87f) | feat(ledger-tools): add bank JSON data service and presentation models | [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) | 2026-11-11 14:57:25 EST |
+| bob-plugins | [`bob-plugins@c35662b`](https://github.com/bobs-org/bob-plugins/commit/c35662bf5bf262c9673dd5accc67d7632e561b80) | feat(ledger-tools): add bank action service and cycler bank-row guards | [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) | 2026-11-11 15:51:18 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -133,7 +138,17 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.3][1] | Need epic scope and decisions | 1 |
+| read-by | [agent:research.49.cdx][2] | Research first bank acknowledgement and end-to-end epic verification | 1 |
+| read-by | [agent:research.49.cld][3] | research: write user guide for first-time bank transaction acknowledgment and e2e test of the epic | 2 |
+| read-by | [agent:research.49.gem][4] | Research epic details and requirements for first-time bank transaction ack and e2e testing | 1 |
+| read-by | [agent:research.49.grk][5] | Need the epic scope, phases, and e2e wrap-up so the first-run bank-ack guide matches the live bead | 1 |
+| read-by | [agent:research.49.mus][6] | researching user guide for first bank transaction acknowledge and e2e test of kd epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->

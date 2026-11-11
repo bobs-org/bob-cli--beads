@@ -13,7 +13,7 @@ bank-ui-cards: render bob-bank month and queue fences and the daily bob-plan chi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) ◐ · ⧖ 2026-11-11
 
 ## Agents

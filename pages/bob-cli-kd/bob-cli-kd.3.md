@@ -44,7 +44,17 @@ bank-cli: add the bare `bob bank` waiting queue, `report` with the totals semant
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:research.49.cdx][2] | Separate implemented daily CLI from remaining import, proof, and UI acceptance work | 1 |
+| read-by | [agent:research.49.cld][3] | research: what shipped in this phase for the bank user guide e2e test | 1 |
+| read-by | [agent:research.49.gem][4] | Understand phase 3 read commands | 1 |
+| read-by | [agent:research.49.grk][5] | Need closed restart/CLI phases and wrap-up e2e proof so the first-run guide matches shipped work | 1 |
+| read-by | [agent:research.49.mus][6] | research kd epic phase scope for user guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->

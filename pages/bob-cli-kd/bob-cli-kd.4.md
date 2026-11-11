@@ -21,3 +21,25 @@ bank-import: parse Wells Fargo QFX (OFX 1.x SGML and 2.x XML) plus one CSV profi
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.md) | [bob-cli-kd.4](bob-cli-kd.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kd.4.1.1][1] | Need parent phase DECISIONS that remain final | 1 |
+| read-by | [agent:research.49.cdx][2] | Separate implemented daily CLI from remaining import, proof, and UI acceptance work | 1 |
+| read-by | [agent:research.49.cld][3] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
+| read-by | [agent:research.49.gem][4] | Understand phase 4 import commands | 1 |
+| read-by | [agent:research.49.grk][5] | Need import, balance, and Obsidian child-epic status so the first-run guide does not promise unshipped gestures | 1 |
+| read-by | [agent:research.49.mus][6] | research kd epic phase scope for user guide | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+
+<!-- sase:referenced-by:end -->
