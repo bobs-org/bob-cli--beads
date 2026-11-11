@@ -56,7 +56,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-k6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k6.1/README.md) | [bob-cli-k6.1](bob-cli-k6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-k6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k6.2/README.md) | [bob-cli-k6.2](bob-cli-k6.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-k6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k6.land.md) | [bob-cli-k6](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-k6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k6.land.md) | [bob-cli-k6](README.md) | 2 |
 
 ## Commits
 
@@ -65,6 +65,7 @@ flowchart TD
 | bob-cli | [`52f0d61`](https://github.com/bobs-org/bob-cli/commit/52f0d615b779fd66018888923ed8f8108761ef72) | feat(highlights): guard SVG images in PDF renders | [bob-cli-k6.1](bob-cli-k6.1.md) | 2026-11-11 08:39:05 EST |
 | bob-cli | [`7eb8244`](https://github.com/bobs-org/bob-cli/commit/7eb82440731f94ffc65177b1ab94a2fa708bd447) | feat(highlights): render local SVG embeds as vector PDFs | [bob-cli-k6.2](bob-cli-k6.2.md) | 2026-11-11 09:45:46 EST |
 | bob-cli | [`921e51d`](https://github.com/bobs-org/bob-cli/commit/921e51d994e9bbc9ca0eefc0da70da34c69f8859) | feat(highlights): finish SVG landing repairs for bob-cli-k6 | [bob-cli-k6](README.md) | 2026-11-11 10:51:12 EST |
+| bob-cli--plans | [`bob-cli--plans@55960e6`](https://github.com/bobs-org/bob-cli--plans/commit/55960e6383f7af8f98d6b53d172d28e7c1b0acbe) | chore(plans): mark ref\_create\_svg\_images done | [bob-cli-k6](README.md) | 2026-11-11 10:51:49 EST |
 
 <!-- sase:referenced-by:start -->
 
