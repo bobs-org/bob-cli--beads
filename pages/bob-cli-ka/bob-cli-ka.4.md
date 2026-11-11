@@ -21,7 +21,7 @@ alias: let `capture-rewrite` read notebook route frontmatter only when a typed `
 
 - **Depends on:** [bob-cli-ka.3](bob-cli-ka.3.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.5](bob-cli-ka.5.md) ◐ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-ka.6](bob-cli-ka.6.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-ka.6](bob-cli-ka.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -34,3 +34,15 @@ alias: let `capture-rewrite` read notebook route frontmatter only when a typed `
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f709200`](https://github.com/bobs-org/bob-cli/commit/f7092004f02f210eaaef0599f46f4fc4568c8a65) | feat(capture): add notebook-aware slash alias in capture-rewrite | [bob-cli-ka.4](bob-cli-ka.4.md) | 2026-11-11 14:18:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ka.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.4/README.md
+
+<!-- sase:referenced-by:end -->

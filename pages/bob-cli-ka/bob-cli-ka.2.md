@@ -20,7 +20,7 @@ grammar: lex `- #Section` bullets in notebook bodies, fan their nested notes int
 - **Depends on:** [bob-cli-ka.1](bob-cli-ka.1.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.3](bob-cli-ka.3.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.5](bob-cli-ka.5.md) ◐ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-ka.6](bob-cli-ka.6.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-ka.6](bob-cli-ka.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

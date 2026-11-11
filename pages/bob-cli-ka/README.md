@@ -32,7 +32,7 @@ In any capture draft whose bullets land directly in a notebook body (a route-onl
 | [bob-cli-ka.3](bob-cli-ka.3.md) | The notebook section menu and Bob-authored place-menu chrome | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-ka.4](bob-cli-ka.4.md) | Notebook-aware slash alias in capture-rewrite | ✓ closed | small | 2026-11-11 | 1 | 1 |
 | [bob-cli-ka.5](bob-cli-ka.5.md) | Bob Mac Capture place menu, highlighting, and grouped preview | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
-| [bob-cli-ka.6](bob-cli-ka.6.md) | Decision records and glossary | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
+| [bob-cli-ka.6](bob-cli-ka.6.md) | Decision records and glossary | ✓ closed | small | 2026-11-11 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["bob-cli-ka.3: The notebook section menu and Bob-authored place-menu chrome [closed]"]
     n4["bob-cli-ka.4: Notebook-aware slash alias in capture-rewrite [closed]"]
     n5["bob-cli-ka.5: Bob Mac Capture place menu, highlighting, and grouped preview [in_progress]"]
-    n6["bob-cli-ka.6: Decision records and glossary [in_progress]"]
+    n6["bob-cli-ka.6: Decision records and glossary [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ka.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.3/README.md) | [bob-cli-ka.3](bob-cli-ka.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.4/README.md) | [bob-cli-ka.4](bob-cli-ka.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.5/README.md) | [bob-cli-ka.5](bob-cli-ka.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-ka.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.6/README.md) | [bob-cli-ka.6](bob-cli-ka.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-ka.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.6/README.md) | [bob-cli-ka.6](bob-cli-ka.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.land/README.md) | [bob-cli-ka](README.md) | 0 |
 
 ## Commits
@@ -82,3 +82,4 @@ flowchart TD
 | bob-cli | [`0f37849`](https://github.com/bobs-org/bob-cli/commit/0f37849b5eaab07220e4a55d72a5e6107d840e1d) | feat(capture)!: add grammar 26 notebook section bullets | [bob-cli-ka.2](bob-cli-ka.2.md) | 2026-11-11 12:22:43 EST |
 | bob-cli | [`53218b1`](https://github.com/bobs-org/bob-cli/commit/53218b17809cbbd15d6fea727cc1f998a8c29bf9) | feat(capture): add notebook section menu and Bob-authored place-menu chrome | [bob-cli-ka.3](bob-cli-ka.3.md) | 2026-11-11 13:21:29 EST |
 | bob-cli | [`f709200`](https://github.com/bobs-org/bob-cli/commit/f7092004f02f210eaaef0599f46f4fc4568c8a65) | feat(capture): add notebook-aware slash alias in capture-rewrite | [bob-cli-ka.4](bob-cli-ka.4.md) | 2026-11-11 14:18:28 EST |
+| bob-cli | [`467b62b`](https://github.com/bobs-org/bob-cli/commit/467b62b99ece3dd159d7c678cdf3da4f6aa6c223) | docs(glossary): document notebook section bullets | [bob-cli-ka.6](bob-cli-ka.6.md) | 2026-11-11 14:34:49 EST |
