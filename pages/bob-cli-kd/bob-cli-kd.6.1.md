@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bank_obsidian.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_obsidian.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Finish bob-cli-kd.6 with month and queue cards, a daily chip, safe bank-row edit
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kd.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.land/README.md) | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kd.6.1.1][1] | Need epic DECISIONS and bank-ui-data phase scope | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->

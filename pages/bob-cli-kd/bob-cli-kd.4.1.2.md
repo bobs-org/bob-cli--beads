@@ -13,7 +13,7 @@ match-name-plan: build a pure whole-batch planner for seen identities, typed-row
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kd.4.1.1](bob-cli-kd.4.1.1.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kd.4.1.1](bob-cli-kd.4.1.1.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) ◐ · ⧖ 2026-11-11
 
 ## Agents
