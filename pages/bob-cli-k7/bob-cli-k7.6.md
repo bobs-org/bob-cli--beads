@@ -17,6 +17,8 @@
 | related | file:explicit:e858c70bd5973981965d2fbe | attached via sase artifact create --bead |
 | related | file:explicit:f5ddb7ad06ac2f48744b7d06 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -46,3 +48,15 @@ audit: on a scratch vault only, compare every rendered mark with `bob capture --
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`db91ab2`](https://github.com/bobs-org/bob-cli/commit/db91ab2045021affb532bb813707acb597aef266) | docs(keep-moving-marks): record real-vault live verification | [bob-cli-k7.6](bob-cli-k7.6.md) | 2026-11-11 11:51:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k7.6][1] | Need the phase scope, design file, notes, and whether earlier work already landed | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.6/README.md
+
+<!-- sase:referenced-by:end -->
