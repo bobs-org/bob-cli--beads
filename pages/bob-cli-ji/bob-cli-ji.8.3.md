@@ -13,7 +13,7 @@ write: fill `errors[].suggestions`, emit `clock` and `invalid` spans, add the mi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ji.8.2](bob-cli-ji.8.2.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.8.2](bob-cli-ji.8.2.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [bob-cli-ji.8.4](bob-cli-ji.8.4.md) ◐ · ⧖ 2026-11-10
 
 ## Agents

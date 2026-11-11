@@ -17,7 +17,7 @@ engine: fold private notes per account so a foreign note never hides this accoun
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ji.8.2](bob-cli-ji.8.2.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.8.2](bob-cli-ji.8.2.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -30,3 +30,15 @@ engine: fold private notes per account so a foreign note never hides this accoun
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`54e650d`](https://github.com/bobs-org/bob-cli/commit/54e650d17699f9ff2362a40f20ae8e80e8b59585) | fix(gcal): fold private notes per account and report held rows honestly | [bob-cli-ji.8.1](bob-cli-ji.8.1.md) | 2026-11-10 23:04:40 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ji.8.1][1] | Need notes and remaining work if any earlier agent left this open | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.1/README.md
+
+<!-- sase:referenced-by:end -->

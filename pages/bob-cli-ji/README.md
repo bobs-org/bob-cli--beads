@@ -18,7 +18,7 @@
 | related | [bead:bob-cli-k1][3] | Epic that shipped event and series note scopes |
 | related | [bead:bob-cli-k2][4] | Epic that added gcal.row note provenance the tooltip would read |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/private_gcal_event_notes.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-k0/README.md
@@ -76,7 +76,7 @@ flowchart TD
     n14["bob-cli-ji.7.1.6: Document the shipped mode and assemble completion evidence [closed]"]
     n15["bob-cli-ji.8: Finish private event notes — correctness fixes and the missing extras [in_progress]"]
     n16["bob-cli-ji.8.1: Account-aware note fold, honest held rows, and accurate note provenance [closed]"]
-    n17["bob-cli-ji.8.2: Exact selection, argv pre-pass, orphans, and list/show fixes [in_progress]"]
+    n17["bob-cli-ji.8.2: Exact selection, argv pre-pass, orphans, and list/show fixes [closed]"]
     n18["bob-cli-ji.8.3: Write contract, validation warnings, human output, and missing tests [in_progress]"]
     n19["bob-cli-ji.8.4: Finish -e, -A, the doctor notes check, and the fragile-description hint [in_progress]"]
     n0 --> n1
@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.7.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.6/README.md) | [bob-cli-ji.7.1.6](bob-cli-ji.7.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 3 |
 | [bbugyi200.apollo.bob-cli-ji.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.1/README.md) | [bob-cli-ji.8.1](bob-cli-ji.8.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ji.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.2/README.md) | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.2/README.md) | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.3/README.md) | [bob-cli-ji.8.3](bob-cli-ji.8.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.4/README.md) | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.land/README.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 0 |
@@ -158,6 +158,7 @@ flowchart TD
 | bob-cli | [`85e618d`](https://github.com/bobs-org/bob-cli/commit/85e618d889ab2172c29ab5b25cae66d209968936) | test(cli): align catalog and gcal doctor expectations | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 20:14:17 EST |
 | bob-cli--plans | [`bob-cli--plans@b03a50d`](https://github.com/bobs-org/bob-cli--plans/commit/b03a50db376878c4df63ec373f72d8624a2f4654) | docs(gcal-note): mark Mac event note plan done | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 22:04:14 EST |
 | bob-cli | [`54e650d`](https://github.com/bobs-org/bob-cli/commit/54e650d17699f9ff2362a40f20ae8e80e8b59585) | fix(gcal): fold private notes per account and report held rows honestly | [bob-cli-ji.8.1](bob-cli-ji.8.1.md) | 2026-11-10 23:04:40 EST |
+| bob-cli | [`9660397`](https://github.com/bobs-org/bob-cli/commit/9660397de55695647da3a01c2f595e1560651058) | fix(gcal-notes): nine select fixes for note previews, options, clear, list/show | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 2026-11-11 00:05:16 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -166,19 +167,21 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ji.7.1.land--8][1] | Confirm the parent epic remains open after phase closeout | 1 |
-| read-by | [agent:research.40.cdx][2] | Inspect the epic context for an independent private event metadata guide | 1 |
-| read-by | [agent:research.40.cld][3] | Context for writing a user guide on adding metadata to private event tasks | 1 |
-| read-by | [agent:research.40.final][4] | Ground consolidated private-event-notes guide in the epic's current status and guide requirements | 1 |
-| read-by | [agent:research.40.gem][5] | Understand requirements and context for adding metadata to private event tasks | 1 |
-| read-by | [agent:research.40.grk][6] | Need full epic bead context including notes and follow-ups for the user-guide research | 1 |
-| read-by | [agent:research.40.mus][7] | research guide on adding metadata to private event tasks | 1 |
+| read-by | [agent:bob-cli-ji.8.1][2] | Need parent legend/epic DECISIONS that phases must honor | 1 |
+| read-by | [agent:research.40.cdx][3] | Inspect the epic context for an independent private event metadata guide | 1 |
+| read-by | [agent:research.40.cld][4] | Context for writing a user guide on adding metadata to private event tasks | 1 |
+| read-by | [agent:research.40.final][5] | Ground consolidated private-event-notes guide in the epic's current status and guide requirements | 1 |
+| read-by | [agent:research.40.gem][6] | Understand requirements and context for adding metadata to private event tasks | 1 |
+| read-by | [agent:research.40.grk][7] | Need full epic bead context including notes and follow-ups for the user-guide research | 1 |
+| read-by | [agent:research.40.mus][8] | research guide on adding metadata to private event tasks | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cdx/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.final/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cdx/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.final/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.mus/README.md
 
 <!-- sase:referenced-by:end -->
