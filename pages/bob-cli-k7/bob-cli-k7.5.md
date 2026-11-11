@@ -20,7 +20,7 @@ mark-surface: in bob-ledger-tools, render the mark in Live Preview and Reading v
 ## Dependencies
 
 - **Depends on:** [bob-cli-k7.4](bob-cli-k7.4.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k7.6](bob-cli-k7.6.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k7.6](bob-cli-k7.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ mark-surface: in bob-ledger-tools, render the mark in Live Preview and Reading v
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@27b99dd`](https://github.com/bobs-org/bob-plugins/commit/27b99ddd0f927e659d2241913c8fa2116d439eee) | feat(ledger-tools): render keep-moving marks in Live Preview and Reading view Shows a quiet mark after the last planned Task Link of a leaf project: shared source-text cache, refresh fan-out, baton-pass tick, session toggle, off-clock chip at side 4, contract docs, surface unit tests, real-Obsidian e2e. Tooltip titles stripped to clean prose (KT1). | [bob-cli-k7.5](bob-cli-k7.5.md) | 2026-11-11 11:19:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k7.5][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.5/README.md
+
+<!-- sase:referenced-by:end -->
