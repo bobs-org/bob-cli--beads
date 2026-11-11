@@ -28,10 +28,4 @@ rail: extract the agenda capsule and buffer-wing rendering into a reusable view,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ji.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.3.md) | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@7cb516f`](https://github.com/bobs-org/bob-mac-capture/commit/7cb516fbab387fc79f014bc2750b2e83b92ac5dd) | feat(capture): add shared hatched meeting and buffer rail | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 2026-11-10 11:33:26 EST |
+| [bbugyi200.apollo.bob-cli-ji.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.3.md) | [bob-cli-ji.7.1.3](bob-cli-ji.7.1.3.md) | 0 |

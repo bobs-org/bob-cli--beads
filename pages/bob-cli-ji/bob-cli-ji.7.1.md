@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_event_note_mode.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_event_note_mode.md
 
@@ -35,17 +35,14 @@ Complete bob-cli-ji.7: open a private event note from any capture draft with Com
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 6 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 3 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4c1f7dd`](https://github.com/bobs-org/bob-cli/commit/4c1f7dde9f6e8515f069ccfd3e58c30047d76a0e) | fix(gcal): clean event note lint and add preview fixtures | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 18:28:36 EST |
-| bob-mac-capture | [`bob-mac-capture@f1e5c99`](https://github.com/bobs-org/bob-mac-capture/commit/f1e5c99c05539d54e71789f8afba95837b8fccc2) | feat(capture): complete event note editing and preview | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 18:29:07 EST |
 | bob-cli | [`85e618d`](https://github.com/bobs-org/bob-cli/commit/85e618d889ab2172c29ab5b25cae66d209968936) | test(cli): align catalog and gcal doctor expectations | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 20:14:17 EST |
-| bob-mac-capture | [`bob-mac-capture@15e34ba`](https://github.com/bobs-org/bob-mac-capture/commit/15e34bafc9638dc63117ab527719dd327c57085a) | test(capture): check event note footer accessibility bounds | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 20:14:46 EST |
-| bob-mac-capture | [`bob-mac-capture@e638795`](https://github.com/bobs-org/bob-mac-capture/commit/e63879582888becb02c51430c012f0c4b6b26592) | test(gcal-note): verify compact editor footer layout | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 22:03:42 EST |
 | bob-cli--plans | [`bob-cli--plans@b03a50d`](https://github.com/bobs-org/bob-cli--plans/commit/b03a50db376878c4df63ec373f72d8624a2f4654) | docs(gcal-note): mark Mac event note plan done | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 22:04:14 EST |
 
 <!-- sase:referenced-by:start -->
@@ -58,6 +55,7 @@ Complete bob-cli-ji.7: open a private event note from any capture draft with Com
 | read-by | [agent:bob-cli-ji.7.1.6][2] | Need child epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-ji.7.1.land--1][3] | Verify approved epic and parent phase deliverables before closeout | 1 |
 | read-by | [agent:bob-cli-ji.7.1.land--5][3] | Inspect child epic status, scope, and blockers before verification closeout | 1 |
+| read-by | [agent:bob-cli-ji.7.1.land--8][3] | Verify the child epic scope and closeout evidence | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.6/README.md

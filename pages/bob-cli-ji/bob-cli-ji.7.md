@@ -36,6 +36,7 @@ mac: in the bob-mac-capture linked repo, add an Event note mode to the capture p
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ji.7.1.land--1][1] | Verify approved epic and parent phase deliverables before closeout | 1 |
 | read-by | [agent:bob-cli-ji.7.1.land--5][1] | Inspect parent phase scope and closeout requirements | 1 |
+| read-by | [agent:bob-cli-ji.7.1.land--8][1] | Verify parent phase deliverables before phase closeout | 3 |
 | read-by | [agent:research.40.cld][2] | Check phase progress and notes for guide accuracy | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md
