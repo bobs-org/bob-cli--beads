@@ -22,7 +22,7 @@ menu: add the `notebook_section_bullet` completion context with title-preferring
 ## Dependencies
 
 - **Depends on:** [bob-cli-ka.2](bob-cli-ka.2.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-ka.4](bob-cli-ka.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-ka.4](bob-cli-ka.4.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.5](bob-cli-ka.5.md) ◐ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.6](bob-cli-ka.6.md) ◐ · ⧖ 2026-11-11
 
@@ -37,3 +37,15 @@ menu: add the `notebook_section_bullet` completion context with title-preferring
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`53218b1`](https://github.com/bobs-org/bob-cli/commit/53218b17809cbbd15d6fea727cc1f998a8c29bf9) | feat(capture): add notebook section menu and Bob-authored place-menu chrome | [bob-cli-ka.3](bob-cli-ka.3.md) | 2026-11-11 13:21:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ka.3][1] | check notes and remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.3/README.md
+
+<!-- sase:referenced-by:end -->

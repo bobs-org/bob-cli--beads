@@ -15,7 +15,7 @@ mac: in bob-mac-capture, generalize the drawer menu into one place menu painted 
 
 - **Depends on:** [bob-cli-ka.2](bob-cli-ka.2.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-ka.3](bob-cli-ka.3.md) ✓ · ⧖ 2026-11-11
-- **Depends on:** [bob-cli-ka.4](bob-cli-ka.4.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-ka.4](bob-cli-ka.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
