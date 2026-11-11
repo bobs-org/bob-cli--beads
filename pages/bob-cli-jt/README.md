@@ -70,7 +70,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-jt.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jt.1/README.md) | [bob-cli-jt.1](bob-cli-jt.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-jt.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-jt.2.md) | [bob-cli-jt.2](bob-cli-jt.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-jt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-jt.land.md) | [bob-cli-jt](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-jt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-jt.land.md) | [bob-cli-jt](README.md) | 2 |
 
 ## Commits
 
@@ -79,3 +79,4 @@ flowchart TD
 | bob-cli | [`6ed27c1`](https://github.com/bobs-org/bob-cli/commit/6ed27c1e7b032fbb2e2e883bc2ff2770ed68b4ab) | feat(capture): implement hash\_fallback drop branch with directive\_menu alias | [bob-cli-jt.1](bob-cli-jt.1.md) | 2026-11-10 15:46:51 EST |
 | bob-mac-capture | [`bob-mac-capture@df8045f`](https://github.com/bobs-org/bob-mac-capture/commit/df8045f1faa90828d128b1e8a0cade59980109e8) | feat(capture): add percent directive alias support | [bob-cli-jt.2](bob-cli-jt.2.md) | 2026-11-10 19:03:52 EST |
 | bob-cli | [`f4c0020`](https://github.com/bobs-org/bob-cli/commit/f4c00204297c9c4dad9fa0f31158108ee7eb94c7) | fix(capture)!: finish the backslash directive alias migration | [bob-cli-jt](README.md) | 2026-11-10 19:32:03 EST |
+| bob-mac-capture | [`bob-mac-capture@28f11dc`](https://github.com/bobs-org/bob-mac-capture/commit/28f11dcd90e8f11a193ca2cc2cfc858d4be39f32) | docs(capture): correct backslash alias literal wording | [bob-cli-jt](README.md) | 2026-11-10 19:32:29 EST |
