@@ -41,7 +41,9 @@ index-rendering: share grouping and row ordering between the pure records render
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k3.5.1.1][1] | Need remaining description, notes, design, and DECISIONS | 2 |
+| read-by | [agent:bob-cli-k3.5.1.3][2] | Check the earlier album phase's docs budget follow-up for existing ownership of this clean-base failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

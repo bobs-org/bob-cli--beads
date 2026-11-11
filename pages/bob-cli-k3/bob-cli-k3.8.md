@@ -46,8 +46,10 @@ mac-albums: show each record route's album title, owner, and summary from the ad
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-k3.8--1][1] | Need phase scope to verify close | 1 |
+| read-by | [agent:bob-cli-k3.5.1.3][1] | Check whether this existing follow-up tracks the unchanged docs word-budget failures | 1 |
+| read-by | [agent:bob-cli-k3.8--1][2] | Need phase scope to verify close | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md
 
 <!-- sase:referenced-by:end -->

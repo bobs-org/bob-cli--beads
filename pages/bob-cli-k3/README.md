@@ -35,7 +35,7 @@ Every record note reaches an area of responsibility. Each record collection (eat
 | [bob-cli-k3.2](bob-cli-k3.2.md) | Album recognition, the vault schema registry, and bob albums list and check | ✓ closed | large | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.3](bob-cli-k3.3.md) | Shared host-catalog region engine extracted from notebooks | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-k3.4](bob-cli-k3.4.md) | Records, capture, and completion read schemas from albums | ✓ closed | large | 2026-11-11 | 1 | 0 |
-| [bob-cli-k3.5](bob-cli-k3.5.md) | The generated records index inside each album, rebuilt with every record write | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
+| [bob-cli-k3.5](bob-cli-k3.5.md) | The generated records index inside each album, rebuilt with every record write | ✓ closed | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.6](bob-cli-k3.6.md) | The Albums catalog in owner notes, and bob albums create | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.7](bob-cli-k3.7.md) | Obsidian album cards, live chips, and the album header | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.8](bob-cli-k3.8.md) | Bob Mac Capture presents albums | ✓ closed | medium | 2026-11-11 | 1 | 0 |
@@ -61,8 +61,8 @@ flowchart TD
     n13["bob-cli-k3.4.1.2: Album-aware records commands and membership checks [closed]"]
     n14["bob-cli-k3.4.1.3: Capture album records and refuse album task homes [closed]"]
     n15["bob-cli-k3.4.1.4: Album-aware targets and completion [closed]"]
-    n16["bob-cli-k3.5: The generated records index inside each album, rebuilt with every record write [in_progress]"]
-    n17["bob-cli-k3.5.1: Keep each album's records index current [in_progress]"]
+    n16["bob-cli-k3.5: The generated records index inside each album, rebuilt with every record write [closed]"]
+    n17["bob-cli-k3.5.1: Keep each album's records index current [closed]"]
     n18["bob-cli-k3.5.1.1: Render the records index and report its state [closed]"]
     n19["bob-cli-k3.5.1.2: Rebuild the index inside record transactions [closed]"]
     n20["bob-cli-k3.5.1.3: Repair indexes through albums sync and nightly [closed]"]
@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.1/README.md) | [bob-cli-k3.5.1.1](bob-cli-k3.5.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.2/README.md) | [bob-cli-k3.5.1.2](bob-cli-k3.5.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.3/README.md) | [bob-cli-k3.5.1.3](bob-cli-k3.5.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.land/README.md) | [bob-cli-k3.5.1](bob-cli-k3.5.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.5.1.land.md) | [bob-cli-k3.5.1](bob-cli-k3.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6/README.md) | [bob-cli-k3.6](bob-cli-k3.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7/README.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
@@ -164,6 +164,7 @@ flowchart TD
 | bob-cli | [`1f4c945`](https://github.com/bobs-org/bob-cli/commit/1f4c94571454ed9307094a677f69b31cddc30600) | feat(albums): render the records index and report its state | [bob-cli-k3.5.1.1](bob-cli-k3.5.1.1.md) | 2026-11-11 14:38:15 EST |
 | bob-cli | [`b79ea37`](https://github.com/bobs-org/bob-cli/commit/b79ea376ff57017d460c83b5f08e7f8153860be7) | feat(albums): rebuild the records index inside record transactions | [bob-cli-k3.5.1.2](bob-cli-k3.5.1.2.md) | 2026-11-11 16:13:47 EST |
 | bob-cli | [`6352824`](https://github.com/bobs-org/bob-cli/commit/6352824bffd7db5d2d22950ed83f101c7b8ae4de) | feat(albums): sync generated record indexes | [bob-cli-k3.5.1.3](bob-cli-k3.5.1.3.md) | 2026-11-11 17:22:22 EST |
+| bob-cli | [`300a6e8`](https://github.com/bobs-org/bob-cli/commit/300a6e81005263311408fac024038a12a50fd62d) | feat(albums): finish index write safety and preview parity | [bob-cli-k3.5.1](bob-cli-k3.5.1.md) | 2026-11-11 18:19:33 EST |
 
 <!-- sase:referenced-by:start -->
 

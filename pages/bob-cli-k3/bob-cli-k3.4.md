@@ -20,7 +20,7 @@ album-records: route all eight config call sites through the registry so record 
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.2](bob-cli-k3.2.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.5](bob-cli-k3.5.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.5](bob-cli-k3.5.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k3.8](bob-cli-k3.8.md) ✓ · ⧖ 2026-11-11
 
 ## Agents

@@ -17,7 +17,7 @@ catalog-engine: extract the notebook catalog's owned-callout region, host planni
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.5](bob-cli-k3.5.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.5](bob-cli-k3.5.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
