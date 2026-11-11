@@ -27,6 +27,8 @@ In any capture draft whose bullets land directly in a notebook body (a route-onl
 
 [2026-11-11T21:29:27Z · dd] DISCOVERED ISSUE: Phase bob-cli-ka.5 commit 4a69ed2 broke the bob-mac-capture build on master: it added .accessibilityHelp(model.notebookSectionEditorHelp ?? "") at Sources/BobMacCapture/CapturePanelView.swift:1598, but accessibilityHelp is not a SwiftUI View modifier (it is an AppKit NSAccessibilityProtocol method name). Exact-SHA macOS CI run 43100764208 (job 'macOS 26 SwiftPM') failed with this single compile error, and the push was not watched to green per bob-mac-capture AGENTS.md. Bryan's 'just install' on the Mac then failed on the same error (log 20261111-161414-56731-bob-mac-capture.log). A hotfix tale plan (sase_plan_fix_mac_capture_accessibility_help.md) has been proposed to delete the invalid line; .help() on the next line already supplies the tooltip and accessibility hint.
 
+[2026-11-11T22:07:31Z · dd--1] DISCOVERED ISSUE: After deleting the invalid SwiftUI `.accessibilityHelp` modifier, macos-ci-check (GitHub Actions run 43105632578, snapshot SHA 8c032b5421592dac41bf748ed9d22c63b771bb2c) compiled and built, then failed Test with 3 deterministic XCTest failures introduced by 4a69ed2 (feat(capture): paint notebook section place menus from Bob chrome). They never ran on master because that SHA's exact-SHA run 43100764208 died at Build on accessibilityHelp. Failures (not caused by the one-line delete; a sibling accessibilityHint snapshot 43104852429 hit the same three): (1) CaptureEditorHighlightTests.testNotebookCreateSectionUsesDottedUnderlineAndExistingClearsIt — CaptureEditorHighlightTests.swift:1170 XCTAssertTrue failed: dotted underline remains after painting sectionAction=existing. (2) CapturePanelModelTests.testNotebookNewSectionUsesDottedPurpleUnderlineAndRepaintClearsIt — CapturePanelModelTests.swift:7538 and 7556 XCTAssertTrue failed: same leftover dotted underline after existing/generic repaint (paintHighlighting does call clearEditorHighlightAttributes). (3) CapturePanelModelTests.testAcceptingDrawerCandidateInsertsSlugAndLandsCaret — CapturePanelModelTests.swift:6669–6672: Tab on an unselected drawer place menu does not insert #requirements; acceptSelectedCompletion returns false when placeMenu != nil and selectedCompletionIndex == nil (CapturePanelModel.swift:11486), leaving the draft as 'Postgres 17 minimum @foo+bar#' with initialSelection none. The accessibilityHelp hotfix (plan:202611/fix_mac_capture_accessibility_help.md, fix_shape=delete) is compiled but not landed so master stays off a test-red tree. Do not treat this as the empty glued @nb# place_menu PROPOSED FOLLOW-UP.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -35,7 +37,7 @@ In any capture draft whose bullets land directly in a notebook body (a route-onl
 | [bob-cli-ka.2](bob-cli-ka.2.md) | Grammar 26 section bullets for @nb lists and %n creation | ✓ closed | large | 2026-11-11 | 1 | 1 |
 | [bob-cli-ka.3](bob-cli-ka.3.md) | The notebook section menu and Bob-authored place-menu chrome | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-ka.4](bob-cli-ka.4.md) | Notebook-aware slash alias in capture-rewrite | ✓ closed | small | 2026-11-11 | 1 | 1 |
-| [bob-cli-ka.5](bob-cli-ka.5.md) | Bob Mac Capture place menu, highlighting, and grouped preview | ◐ in_progress | large | 2026-11-11 | 1 | 2 |
+| [bob-cli-ka.5](bob-cli-ka.5.md) | Bob Mac Capture place menu, highlighting, and grouped preview | ✓ closed | large | 2026-11-11 | 1 | 3 |
 | [bob-cli-ka.6](bob-cli-ka.6.md) | Decision records and glossary | ✓ closed | small | 2026-11-11 | 1 | 1 |
 
 ## Lineage
@@ -47,7 +49,7 @@ flowchart TD
     n2["bob-cli-ka.2: Grammar 26 section bullets for @nb lists and %n creation [closed]"]
     n3["bob-cli-ka.3: The notebook section menu and Bob-authored place-menu chrome [closed]"]
     n4["bob-cli-ka.4: Notebook-aware slash alias in capture-rewrite [closed]"]
-    n5["bob-cli-ka.5: Bob Mac Capture place menu, highlighting, and grouped preview [in_progress]"]
+    n5["bob-cli-ka.5: Bob Mac Capture place menu, highlighting, and grouped preview [closed]"]
     n6["bob-cli-ka.6: Decision records and glossary [closed]"]
     n0 --> n1
     n0 --> n2
@@ -74,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ka.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.2.md) | [bob-cli-ka.2](bob-cli-ka.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.3/README.md) | [bob-cli-ka.3](bob-cli-ka.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.4/README.md) | [bob-cli-ka.4](bob-cli-ka.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-ka.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.5.md) | [bob-cli-ka.5](bob-cli-ka.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-ka.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.5.md) | [bob-cli-ka.5](bob-cli-ka.5.md) | 3 |
 | [bbugyi200.athena.bob-cli-ka.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.6/README.md) | [bob-cli-ka.6](bob-cli-ka.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.land/README.md) | [bob-cli-ka](README.md) | 0 |
 
@@ -89,3 +91,4 @@ flowchart TD
 | bob-cli | [`467b62b`](https://github.com/bobs-org/bob-cli/commit/467b62b99ece3dd159d7c678cdf3da4f6aa6c223) | docs(glossary): document notebook section bullets | [bob-cli-ka.6](bob-cli-ka.6.md) | 2026-11-11 14:34:49 EST |
 | bob-mac-capture | [`bob-mac-capture@4a69ed2`](https://github.com/bobs-org/bob-mac-capture/commit/4a69ed25bec6a6398d64e1873eccb928d21af96a) | feat(capture): paint notebook section place menus from Bob chrome | [bob-cli-ka.5](bob-cli-ka.5.md) | 2026-11-11 16:10:15 EST |
 | bob-mac-capture | [`bob-mac-capture@26e9f0a`](https://github.com/bobs-org/bob-mac-capture/commit/26e9f0a8661e0013e6baf73381c95dde29243548) | fix(capture): use accessibilityHint for notebook section editor help | [bob-cli-ka.5](bob-cli-ka.5.md) | 2026-11-11 16:38:09 EST |
+| bob-mac-capture | [`bob-mac-capture@7fceb52`](https://github.com/bobs-org/bob-mac-capture/commit/7fceb525141f5facb2a7d7de94efbdf9362d6839) | fix(capture): keep drawer Tab accept and clear create-section underlines | [bob-cli-ka.5](bob-cli-ka.5.md) | 2026-11-11 18:05:43 EST |

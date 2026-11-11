@@ -20,7 +20,7 @@ alias: let `capture-rewrite` read notebook route frontmatter only when a typed `
 ## Dependencies
 
 - **Depends on:** [bob-cli-ka.3](bob-cli-ka.3.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-ka.5](bob-cli-ka.5.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-ka.5](bob-cli-ka.5.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.6](bob-cli-ka.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
