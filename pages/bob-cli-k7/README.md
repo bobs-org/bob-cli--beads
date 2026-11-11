@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k7.4.md) | [bob-cli-k7.4](bob-cli-k7.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-k7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.5/README.md) | [bob-cli-k7.5](bob-cli-k7.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-k7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.6/README.md) | [bob-cli-k7.6](bob-cli-k7.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-k7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.land/README.md) | [bob-cli-k7](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-k7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.land/README.md) | [bob-cli-k7](README.md) | 2 |
 
 ## Commits
 
@@ -113,6 +113,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@27b99dd`](https://github.com/bobs-org/bob-plugins/commit/27b99ddd0f927e659d2241913c8fa2116d439eee) | feat(ledger-tools): render keep-moving marks in Live Preview and Reading view Shows a quiet mark after the last planned Task Link of a leaf project: shared source-text cache, refresh fan-out, baton-pass tick, session toggle, off-clock chip at side 4, contract docs, surface unit tests, real-Obsidian e2e. Tooltip titles stripped to clean prose (KT1). | [bob-cli-k7.5](bob-cli-k7.5.md) | 2026-11-11 11:19:38 EST |
 | bob-cli | [`db91ab2`](https://github.com/bobs-org/bob-cli/commit/db91ab2045021affb532bb813707acb597aef266) | docs(keep-moving-marks): record real-vault live verification | [bob-cli-k7.6](bob-cli-k7.6.md) | 2026-11-11 11:51:31 EST |
 | bob-cli | [`ba700bc`](https://github.com/bobs-org/bob-cli/commit/ba700bcb08722e9472dea64ed9ce2807578181d5) | docs(keep-moving-marks): record cycler KM33 picker wiring evidence | [bob-cli-k7](README.md) | 2026-11-11 12:26:06 EST |
+| bob-plugins | [`bob-plugins@4e1f377`](https://github.com/bobs-org/bob-plugins/commit/4e1f3775e5f654f84e9ef5a67e9f1b33929b1d1c) | fix(ledger-tools): land keep-moving marks CSS placement and docs budget | [bob-cli-k7](README.md) | 2026-11-11 12:26:28 EST |
 
 <!-- sase:referenced-by:start -->
 
