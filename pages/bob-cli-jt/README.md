@@ -28,7 +28,7 @@ In Bob Mac Capture, typing `\` where a bare `%` would open the directive menu be
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-jt.1](bob-cli-jt.1.md) | bob-cli rewrite, tip, help, docs, and memory | ✓ closed | medium | 2026-11-10 | 1 | 1 |
-| [bob-cli-jt.2](bob-cli-jt.2.md) | Bob Mac Capture double-tap, tips, and docs | ◐ in_progress | medium | 2026-11-10 | 1 | 0 |
+| [bob-cli-jt.2](bob-cli-jt.2.md) | Bob Mac Capture double-tap, tips, and docs | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ In Bob Mac Capture, typing `\` where a bare `%` would open the directive menu be
 flowchart TD
     n0["bob-cli-jt: Migrate the backslash capture alias from [in_progress]"]
     n1["bob-cli-jt.1: bob-cli rewrite, tip, help, docs, and memory [closed]"]
-    n2["bob-cli-jt.2: Bob Mac Capture double-tap, tips, and docs [in_progress]"]
+    n2["bob-cli-jt.2: Bob Mac Capture double-tap, tips, and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-jt.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jt.1/README.md) | [bob-cli-jt.1](bob-cli-jt.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-jt.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jt.2/README.md) | [bob-cli-jt.2](bob-cli-jt.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-jt.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-jt.2.md) | [bob-cli-jt.2](bob-cli-jt.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-jt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jt.land/README.md) | [bob-cli-jt](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6ed27c1`](https://github.com/bobs-org/bob-cli/commit/6ed27c1e7b032fbb2e2e883bc2ff2770ed68b4ab) | feat(capture): implement hash\_fallback drop branch with directive\_menu alias | [bob-cli-jt.1](bob-cli-jt.1.md) | 2026-11-10 15:46:51 EST |
+| bob-mac-capture | [`bob-mac-capture@df8045f`](https://github.com/bobs-org/bob-mac-capture/commit/df8045f1faa90828d128b1e8a0cade59980109e8) | feat(capture): add percent directive alias support | [bob-cli-jt.2](bob-cli-jt.2.md) | 2026-11-10 19:03:52 EST |

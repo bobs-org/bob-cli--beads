@@ -27,7 +27,7 @@ bob-directive-alias: make capture-rewrite alias `\` to `%` where the directive m
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-jt.2](bob-cli-jt.2.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-jt.2](bob-cli-jt.2.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -40,3 +40,15 @@ bob-directive-alias: make capture-rewrite alias `\` to `%` where the directive m
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6ed27c1`](https://github.com/bobs-org/bob-cli/commit/6ed27c1e7b032fbb2e2e883bc2ff2770ed68b4ab) | feat(capture): implement hash\_fallback drop branch with directive\_menu alias | [bob-cli-jt.1](bob-cli-jt.1.md) | 2026-11-10 15:46:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-jt.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-jt.1/README.md
+
+<!-- sase:referenced-by:end -->
