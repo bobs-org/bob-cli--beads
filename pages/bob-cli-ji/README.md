@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.2/README.md) | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.3/README.md) | [bob-cli-ji.8.3](bob-cli-ji.8.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.4/README.md) | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.8.land.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.8.land.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ji.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.land.md) | [bob-cli-ji](README.md) | 0 |
 
 ## Commits
@@ -176,6 +176,7 @@ flowchart TD
 | bob-cli | [`b706f55`](https://github.com/bobs-org/bob-cli/commit/b706f5592a5475a66e61f6b99cbbf5daef1a6f5c) | fix(gcal): complete private event note write contract | [bob-cli-ji.8.3](bob-cli-ji.8.3.md) | 2026-11-11 00:40:52 EST |
 | bob-cli | [`ba7a1c9`](https://github.com/bobs-org/bob-cli/commit/ba7a1c9092a368dded96c3ec95dee72c0261f7b0) | feat(gcal): finish private event note extras | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 2026-11-11 01:25:11 EST |
 | bob-cli | [`05ec825`](https://github.com/bobs-org/bob-cli/commit/05ec8253f144ed6e5947f659a17eb50dea45d251) | fix(gcal): finish private note landing boundary cases | [bob-cli-ji.8](bob-cli-ji.8.md) | 2026-11-11 02:12:55 EST |
+| bob-mac-capture | [`bob-mac-capture@37b0e68`](https://github.com/bobs-org/bob-mac-capture/commit/37b0e68a1dcfc24e6b7dca75a3074daf13f887b0) | test(gcal-note): refresh contract fixtures from bob-cli | [bob-cli-ji.8](bob-cli-ji.8.md) | 2026-11-11 02:13:41 EST |
 
 <!-- sase:referenced-by:start -->
 

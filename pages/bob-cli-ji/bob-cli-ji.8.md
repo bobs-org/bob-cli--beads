@@ -35,13 +35,14 @@ Close the gaps the bob-cli-ji land audit found in `bob gcal note`: previews that
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.8.land.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.8.land.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`05ec825`](https://github.com/bobs-org/bob-cli/commit/05ec8253f144ed6e5947f659a17eb50dea45d251) | fix(gcal): finish private note landing boundary cases | [bob-cli-ji.8](bob-cli-ji.8.md) | 2026-11-11 02:12:55 EST |
+| bob-mac-capture | [`bob-mac-capture@37b0e68`](https://github.com/bobs-org/bob-mac-capture/commit/37b0e68a1dcfc24e6b7dca75a3074daf13f887b0) | test(gcal-note): refresh contract fixtures from bob-cli | [bob-cli-ji.8](bob-cli-ji.8.md) | 2026-11-11 02:13:41 EST |
 
 <!-- sase:referenced-by:start -->
 
