@@ -13,7 +13,7 @@ bank-import: parse Wells Fargo QFX (OFX 1.x SGML and 2.x XML) plus one CSV profi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kd.3](bob-cli-kd.3.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kd.3](bob-cli-kd.3.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-kd.5](bob-cli-kd.5.md) ◐ · ⧖ 2026-11-11
 
 ## Agents

@@ -29,7 +29,7 @@ Bryan restarts his daily bank habit right away. Every posted transaction and dep
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kd.1](bob-cli-kd.1.md) | Restart the habit in the vault with no code | ✓ closed | small | 2026-11-11 | 1 | 0 |
 | [bob-cli-kd.2](bob-cli-kd.2.md) | The bank module, row grammar, and bob bank check | ✓ closed | medium | 2026-11-11 | 1 | 1 |
-| [bob-cli-kd.3](bob-cli-kd.3.md) | Read the bank — list, report, ensure, and ack | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [bob-cli-kd.3](bob-cli-kd.3.md) | Read the bank — list, report, ensure, and ack | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-kd.4](bob-cli-kd.4.md) | Weekly QFX import that writes only what you missed | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-kd.5](bob-cli-kd.5.md) | Prove every transaction — coverage, presence, balance | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [bob-cli-kd.6](bob-cli-kd.6.md) | Obsidian bank cards, styled rows, and the daily chip | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
@@ -42,7 +42,7 @@ flowchart TD
     n0["bob-cli-kd: Bank — acknowledge every transaction daily, prove it weekly [in_progress]"]
     n1["bob-cli-kd.1: Restart the habit in the vault with no code [closed]"]
     n2["bob-cli-kd.2: The bank module, row grammar, and bob bank check [closed]"]
-    n3["bob-cli-kd.3: Read the bank — list, report, ensure, and ack [in_progress]"]
+    n3["bob-cli-kd.3: Read the bank — list, report, ensure, and ack [closed]"]
     n4["bob-cli-kd.4: Weekly QFX import that writes only what you missed [in_progress]"]
     n5["bob-cli-kd.5: Prove every transaction — coverage, presence, balance [in_progress]"]
     n6["bob-cli-kd.6: Obsidian bank cards, styled rows, and the daily chip [in_progress]"]
@@ -69,7 +69,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kd.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.1/README.md) | [bob-cli-kd.1](bob-cli-kd.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.2.md) | [bob-cli-kd.2](bob-cli-kd.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-kd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.3/README.md) | [bob-cli-kd.3](bob-cli-kd.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.3/README.md) | [bob-cli-kd.3](bob-cli-kd.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4/README.md) | [bob-cli-kd.4](bob-cli-kd.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md) | [bob-cli-kd.5](bob-cli-kd.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6/README.md) | [bob-cli-kd.6](bob-cli-kd.6.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`07f1c74`](https://github.com/bobs-org/bob-cli/commit/07f1c7442bb24d50658167856fb5816312199423) | feat(bank): add bank grammar, month notes, and read-only bob bank check | [bob-cli-kd.2](bob-cli-kd.2.md) | 2026-11-11 12:58:45 EST |
+| bob-cli | [`49218b3`](https://github.com/bobs-org/bob-cli/commit/49218b38ebf3372b44274fa94869ad7ccc58311c) | feat(bank): add list, report, ensure, and ack to bob bank | [bob-cli-kd.3](bob-cli-kd.3.md) | 2026-11-11 13:58:05 EST |

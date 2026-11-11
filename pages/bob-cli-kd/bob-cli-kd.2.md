@@ -21,7 +21,7 @@ bank-grammar: add `src/native/bank/` with the `bank:` config parser (key-path di
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kd.3](bob-cli-kd.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.3](bob-cli-kd.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -34,3 +34,15 @@ bank-grammar: add `src/native/bank/` with the `bank:` config parser (key-path di
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`07f1c74`](https://github.com/bobs-org/bob-cli/commit/07f1c7442bb24d50658167856fb5816312199423) | feat(bank): add bank grammar, month notes, and read-only bob bank check | [bob-cli-kd.2](bob-cli-kd.2.md) | 2026-11-11 12:58:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kd.2--2][1] | Need current bead status after green check and failed host completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.2.md
+
+<!-- sase:referenced-by:end -->
