@@ -28,7 +28,7 @@ The three red verification gates every landing re-triages (macOS CI, bob-cli doc
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kj.1](bob-cli-kj.1.md) | Isolation-correct alias test teardowns | ✓ closed | small | 2026-11-11 | 1 | 1 |
-| [bob-cli-kj.2](bob-cli-kj.2.md) | Mounted reference pages back under the word cap | ◐ in_progress | medium | 2026-11-11 | 1 | 1 |
+| [bob-cli-kj.2](bob-cli-kj.2.md) | Mounted reference pages back under the word cap | ◐ in_progress | medium | 2026-11-11 | 1 | 2 |
 | [bob-cli-kj.3](bob-cli-kj.3.md) | Stats RefCell double-borrow panic | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
 | [bob-cli-kj.4](bob-cli-kj.4.md) | Configured-timezone created stamps | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
 | [bob-cli-kj.5](bob-cli-kj.5.md) | Deterministic alias-tip CI timeouts | ✓ closed | large | 2026-11-11 | 1 | 0 |
@@ -59,7 +59,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.1/README.md) | [bob-cli-kj.1](bob-cli-kj.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.2/README.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.2/README.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-kj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.3.md) | [bob-cli-kj.3](bob-cli-kj.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-kj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.4/README.md) | [bob-cli-kj.4](bob-cli-kj.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.5.md) | [bob-cli-kj.5](bob-cli-kj.5.md) | 0 |
@@ -72,3 +72,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@1e83c03`](https://github.com/bobs-org/bob-mac-capture/commit/1e83c032217a9d6c90827ee467e5c60b57069d88) | fix(tests): isolate alias ledger teardown on main actor | [bob-cli-kj.1](bob-cli-kj.1.md) | 2026-11-11 17:32:23 EST |
 | bob-mac-capture | [`bob-mac-capture@2007294`](https://github.com/bobs-org/bob-mac-capture/commit/2007294cdc29ef379f6959ef2f05b87d75681e45) | docs: trim mounted reference pages back under the word cap | [bob-cli-kj.2](bob-cli-kj.2.md) | 2026-11-11 17:54:54 EST |
+| bob-plugins | [`bob-plugins@cb32d8d`](https://github.com/bobs-org/bob-plugins/commit/cb32d8d3ad06971bf352710224046c30dfca7566) | docs: trim navigation-hotkeys page back under the word cap | [bob-cli-kj.2](bob-cli-kj.2.md) | 2026-11-11 17:55:26 EST |
