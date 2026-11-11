@@ -13,7 +13,7 @@ grammar: lex `- #Section` bullets in notebook bodies, fan their nested notes int
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ka.1](bob-cli-ka.1.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-ka.1](bob-cli-ka.1.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.3](bob-cli-ka.3.md) ◐ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.5](bob-cli-ka.5.md) ◐ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-ka.6](bob-cli-ka.6.md) ◐ · ⧖ 2026-11-11
@@ -22,4 +22,10 @@ grammar: lex `- #Section` bullets in notebook bodies, fan their nested notes int
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ka.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.2/README.md) | [bob-cli-ka.2](bob-cli-ka.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ka.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.2.md) | [bob-cli-ka.2](bob-cli-ka.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`0f37849`](https://github.com/bobs-org/bob-cli/commit/0f37849b5eaab07220e4a55d72a5e6107d840e1d) | feat(capture)!: add grammar 26 notebook section bullets | [bob-cli-ka.2](bob-cli-ka.2.md) | 2026-11-11 12:22:43 EST |
