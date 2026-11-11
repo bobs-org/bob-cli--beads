@@ -13,7 +13,7 @@ import-command: integrate bob bank import, ordered guarded journal appends insid
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kd.4.1.2](bob-cli-kd.4.1.2.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kd.4.1.2](bob-cli-kd.4.1.2.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) ◐ · ⧖ 2026-11-11
 
 ## Agents
