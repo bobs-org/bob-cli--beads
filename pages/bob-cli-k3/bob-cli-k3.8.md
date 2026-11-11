@@ -38,10 +38,16 @@ mac-albums: show each record route's album title, owner, and summary from the ad
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@6cbbddf`](https://github.com/bobs-org/bob-mac-capture/commit/6cbbddf6eb9192e8d20ed17cb0206fc257a91102) | feat(mac-capture): present albums in record routes, previews, and success lines | [bob-cli-k3.8](bob-cli-k3.8.md) | 2026-11-11 16:39:14 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.8--1][1] | Need phase scope to verify close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md
+
+<!-- sase:referenced-by:end -->

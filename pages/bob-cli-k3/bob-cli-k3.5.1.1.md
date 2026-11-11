@@ -20,13 +20,19 @@ index-rendering: share grouping and row ordering between the pure records render
 ## Dependencies
 
 - **Blocks:** [bob-cli-k3.5.1.2](bob-cli-k3.5.1.2.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.5.1.3](bob-cli-k3.5.1.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.5.1.3](bob-cli-k3.5.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k3.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.1/README.md) | [bob-cli-k3.5.1.1](bob-cli-k3.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.1/README.md) | [bob-cli-k3.5.1.1](bob-cli-k3.5.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`1f4c945`](https://github.com/bobs-org/bob-cli/commit/1f4c94571454ed9307094a677f69b31cddc30600) | feat(albums): render the records index and report its state | [bob-cli-k3.5.1.1](bob-cli-k3.5.1.1.md) | 2026-11-11 14:38:15 EST |
 
 <!-- sase:referenced-by:start -->
 
