@@ -19,7 +19,7 @@ album-model: recognize `type: "[[album]]"` and `type: "[[record]]"`, parse album
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.4](bob-cli-k3.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.4](bob-cli-k3.4.md) ✓ · ⧖ 2026-11-11
 
 <!-- sase:referenced-by:start -->
 

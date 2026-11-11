@@ -41,8 +41,10 @@ album-reports: build deterministic schema-version-1 reports from the registry an
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k3.2.1.3--2][1] | Need the phase scope, design file, notes, and DECISIONS before closing | 1 |
 | read-by | [agent:bob-cli-k7.3][2] | Need the existing task bead tracking json-outputs.md's clean-base reference word-budget overage | 1 |
+| read-by | [agent:bob-cli-k7.land][3] | Check whether docs word-budget follow-ups are already tracked | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.3.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.land/README.md
 
 <!-- sase:referenced-by:end -->

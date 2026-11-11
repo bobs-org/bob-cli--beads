@@ -34,7 +34,7 @@ Every record note reaches an area of responsibility. Each record collection (eat
 | [bob-cli-k3.11](bob-cli-k3.11.md) | Retire config-declared records, end-to-end proof, docs audit, and memory | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.2](bob-cli-k3.2.md) | Album recognition, the vault schema registry, and bob albums list and check | ✓ closed | large | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.3](bob-cli-k3.3.md) | Shared host-catalog region engine extracted from notebooks | ✓ closed | medium | 2026-11-11 | 1 | 1 |
-| [bob-cli-k3.4](bob-cli-k3.4.md) | Records, capture, and completion read schemas from albums | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
+| [bob-cli-k3.4](bob-cli-k3.4.md) | Records, capture, and completion read schemas from albums | ✓ closed | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.5](bob-cli-k3.5.md) | The generated records index inside each album, rebuilt with every record write | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.6](bob-cli-k3.6.md) | The Albums catalog in owner notes, and bob albums create | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.7](bob-cli-k3.7.md) | Obsidian album cards, live chips, and the album header | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
@@ -55,8 +55,8 @@ flowchart TD
     n7["bob-cli-k3.2.1.2: Discover album claims, isolate failures, and integrate the vault snapshot [closed]"]
     n8["bob-cli-k3.2.1.3: Ship albums list/check with complete reports, completion, and docs [closed]"]
     n9["bob-cli-k3.3: Shared host-catalog region engine extracted from notebooks [closed]"]
-    n10["bob-cli-k3.4: Records, capture, and completion read schemas from albums [in_progress]"]
-    n11["bob-cli-k3.4.1: Album schemas for records, capture, and completion [in_progress]"]
+    n10["bob-cli-k3.4: Records, capture, and completion read schemas from albums [closed]"]
+    n11["bob-cli-k3.4.1: Album schemas for records, capture, and completion [closed]"]
     n12["bob-cli-k3.4.1.1: Shared resolved record identity and source-aware rendering [closed]"]
     n13["bob-cli-k3.4.1.2: Album-aware records commands and membership checks [closed]"]
     n14["bob-cli-k3.4.1.3: Capture album records and refuse album task homes [closed]"]
@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.4.1.2.md) | [bob-cli-k3.4.1.2](bob-cli-k3.4.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.3/README.md) | [bob-cli-k3.4.1.3](bob-cli-k3.4.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.4/README.md) | [bob-cli-k3.4.1.4](bob-cli-k3.4.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.land/README.md) | [bob-cli-k3.4.1](bob-cli-k3.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.4.1.land.md) | [bob-cli-k3.4.1](bob-cli-k3.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5/README.md) | [bob-cli-k3.5](bob-cli-k3.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6/README.md) | [bob-cli-k3.6](bob-cli-k3.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7/README.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
@@ -144,6 +144,7 @@ flowchart TD
 | bob-cli | [`8edd5a5`](https://github.com/bobs-org/bob-cli/commit/8edd5a5ffacc4f606b2765a7c81557a321cc078b) | feat(capture)!: per-route album resolution with task-home refusals | [bob-cli-k3.4.1.3](bob-cli-k3.4.1.3.md) | 2026-11-11 11:00:01 EST |
 | bob-cli | [`c36e6e7`](https://github.com/bobs-org/bob-cli/commit/c36e6e752d36828f6bd73e09cb095d7c70d25498) | feat(records): add album-aware records commands and membership checks | [bob-cli-k3.4.1.2](bob-cli-k3.4.1.2.md) | 2026-11-11 11:19:55 EST |
 | bob-cli | [`3d1c076`](https://github.com/bobs-org/bob-cli/commit/3d1c0763871e992e6aa8ca652eebda69cddf0b26) | feat(capture): use album registry across targets and completion | [bob-cli-k3.4.1.4](bob-cli-k3.4.1.4.md) | 2026-11-11 11:43:11 EST |
+| bob-cli | [`6e42159`](https://github.com/bobs-org/bob-cli/commit/6e4215971c02e0f88e12616fee37159fe455f0e1) | feat(capture)!: finish the album consumer landing repairs | [bob-cli-k3.4.1](bob-cli-k3.4.1.md) | 2026-11-11 13:36:26 EST |
 
 <!-- sase:referenced-by:start -->
 

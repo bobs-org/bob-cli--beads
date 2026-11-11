@@ -38,7 +38,9 @@ album-completion: move capture-targets, both capture-complete config callers, an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k3.4.1.3][1] | Need sibling phase scope to avoid conflicts | 1 |
+| read-by | [agent:bob-cli-k3.4.1.4][2] | Reconfirm the assigned phase acceptance scope before close | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->
