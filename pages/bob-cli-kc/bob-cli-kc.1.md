@@ -21,7 +21,7 @@ model: add Obsidian-free fragments for the row table, the owning-task resolver, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kc.2](bob-cli-kc.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kc.2](bob-cli-kc.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -34,3 +34,15 @@ model: add Obsidian-free fragments for the row table, the owning-task resolver, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@353eedb`](https://github.com/bobs-org/bob-plugins/commit/353eedbc8799f9c16d8c5e26325a203e99980b0e) | feat(navigation-hotkeys): add pure Copy card model, grammar, and config loader | [bob-cli-kc.1](bob-cli-kc.1.md) | 2026-11-11 11:39:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kc.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.1/README.md
+
+<!-- sase:referenced-by:end -->

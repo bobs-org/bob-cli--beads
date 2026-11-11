@@ -13,7 +13,7 @@ e2e: drive the card in an isolated scratch vault over CDP, assert the clipboard 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kc.2](bob-cli-kc.2.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kc.2](bob-cli-kc.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

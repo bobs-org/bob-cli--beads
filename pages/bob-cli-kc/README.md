@@ -16,7 +16,7 @@ Cmd+Y in Obsidian opens a compact, filter-less Copy card where every row copies 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kc.1](bob-cli-kc.1.md) | Pure Copy card model, template grammar, and config loader | ✓ closed | medium | 2026-11-11 | 1 | 1 |
-| [bob-cli-kc.2](bob-cli-kc.2.md) | Copy card modal, Cmd+Y wiring, styles, and docs | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [bob-cli-kc.2](bob-cli-kc.2.md) | Copy card modal, Cmd+Y wiring, styles, and docs | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-kc.3](bob-cli-kc.3.md) | Real-Obsidian e2e, light and dark screenshots, and polish | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [bob-cli-kc.4](bob-cli-kc.4.md) | Ship the Task ref template and document copy.templates | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
 
@@ -26,7 +26,7 @@ Cmd+Y in Obsidian opens a compact, filter-less Copy card where every row copies 
 flowchart TD
     n0["bob-cli-kc: Cmd+Y Copy card — keyed paths, the task's block ID, and your own templates [in_progress]"]
     n1["bob-cli-kc.1: Pure Copy card model, template grammar, and config loader [closed]"]
-    n2["bob-cli-kc.2: Copy card modal, Cmd+Y wiring, styles, and docs [in_progress]"]
+    n2["bob-cli-kc.2: Copy card modal, Cmd+Y wiring, styles, and docs [closed]"]
     n3["bob-cli-kc.3: Real-Obsidian e2e, light and dark screenshots, and polish [in_progress]"]
     n4["bob-cli-kc.4: Ship the Task ref template and document copy.templates [in_progress]"]
     n0 --> n1
@@ -43,7 +43,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.1/README.md) | [bob-cli-kc.1](bob-cli-kc.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-kc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.2/README.md) | [bob-cli-kc.2](bob-cli-kc.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-kc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.2/README.md) | [bob-cli-kc.2](bob-cli-kc.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.3/README.md) | [bob-cli-kc.3](bob-cli-kc.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-kc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.4/README.md) | [bob-cli-kc.4](bob-cli-kc.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.land/README.md) | [bob-cli-kc](README.md) | 0 |
@@ -53,3 +53,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@353eedb`](https://github.com/bobs-org/bob-plugins/commit/353eedbc8799f9c16d8c5e26325a203e99980b0e) | feat(navigation-hotkeys): add pure Copy card model, grammar, and config loader | [bob-cli-kc.1](bob-cli-kc.1.md) | 2026-11-11 11:39:51 EST |
+| bob-plugins | [`bob-plugins@d1d294b`](https://github.com/bobs-org/bob-plugins/commit/d1d294bb93765e3a27f299049d09ed8beaca3e8f) | feat(navigation-hotkeys): add Cmd+Y Copy card modal, wiring, styles, and docs | [bob-cli-kc.2](bob-cli-kc.2.md) | 2026-11-11 12:00:15 EST |

@@ -13,7 +13,7 @@ config: add the copy.templates block with the Task ref template to chezmoi's Bob
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kc.2](bob-cli-kc.2.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kc.2](bob-cli-kc.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
