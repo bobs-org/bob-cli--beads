@@ -23,6 +23,10 @@
 
 In any capture draft whose bullets land directly in a notebook body (a route-only `@nb` list or a `@parent^id@ %n` creation item), typing `- #` or `- /` opens a Bob-authored section menu listing the notebook's `##` sections (plus sections created earlier in the draft), accepting a row writes `- #Git` and drops the caret on the first nested note, and parse, menu, dry-run, and commit always agree on which section each note lands in.
 
+## Notes
+
+[2026-11-11T21:29:27Z · dd] DISCOVERED ISSUE: Phase bob-cli-ka.5 commit 4a69ed2 broke the bob-mac-capture build on master: it added .accessibilityHelp(model.notebookSectionEditorHelp ?? "") at Sources/BobMacCapture/CapturePanelView.swift:1598, but accessibilityHelp is not a SwiftUI View modifier (it is an AppKit NSAccessibilityProtocol method name). Exact-SHA macOS CI run 43100764208 (job 'macOS 26 SwiftPM') failed with this single compile error, and the push was not watched to green per bob-mac-capture AGENTS.md. Bryan's 'just install' on the Mac then failed on the same error (log 20261111-161414-56731-bob-mac-capture.log). A hotfix tale plan (sase_plan_fix_mac_capture_accessibility_help.md) has been proposed to delete the invalid line; .help() on the next line already supplies the tooltip and accessibility hint.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -31,7 +35,7 @@ In any capture draft whose bullets land directly in a notebook body (a route-onl
 | [bob-cli-ka.2](bob-cli-ka.2.md) | Grammar 26 section bullets for @nb lists and %n creation | ✓ closed | large | 2026-11-11 | 1 | 1 |
 | [bob-cli-ka.3](bob-cli-ka.3.md) | The notebook section menu and Bob-authored place-menu chrome | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-ka.4](bob-cli-ka.4.md) | Notebook-aware slash alias in capture-rewrite | ✓ closed | small | 2026-11-11 | 1 | 1 |
-| [bob-cli-ka.5](bob-cli-ka.5.md) | Bob Mac Capture place menu, highlighting, and grouped preview | ◐ in_progress | large | 2026-11-11 | 1 | 1 |
+| [bob-cli-ka.5](bob-cli-ka.5.md) | Bob Mac Capture place menu, highlighting, and grouped preview | ◐ in_progress | large | 2026-11-11 | 1 | 2 |
 | [bob-cli-ka.6](bob-cli-ka.6.md) | Decision records and glossary | ✓ closed | small | 2026-11-11 | 1 | 1 |
 
 ## Lineage
@@ -70,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ka.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.2.md) | [bob-cli-ka.2](bob-cli-ka.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.3/README.md) | [bob-cli-ka.3](bob-cli-ka.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.4/README.md) | [bob-cli-ka.4](bob-cli-ka.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-ka.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.5.md) | [bob-cli-ka.5](bob-cli-ka.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-ka.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.5.md) | [bob-cli-ka.5](bob-cli-ka.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-ka.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.6/README.md) | [bob-cli-ka.6](bob-cli-ka.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.land/README.md) | [bob-cli-ka](README.md) | 0 |
 
@@ -84,3 +88,4 @@ flowchart TD
 | bob-cli | [`f709200`](https://github.com/bobs-org/bob-cli/commit/f7092004f02f210eaaef0599f46f4fc4568c8a65) | feat(capture): add notebook-aware slash alias in capture-rewrite | [bob-cli-ka.4](bob-cli-ka.4.md) | 2026-11-11 14:18:28 EST |
 | bob-cli | [`467b62b`](https://github.com/bobs-org/bob-cli/commit/467b62b99ece3dd159d7c678cdf3da4f6aa6c223) | docs(glossary): document notebook section bullets | [bob-cli-ka.6](bob-cli-ka.6.md) | 2026-11-11 14:34:49 EST |
 | bob-mac-capture | [`bob-mac-capture@4a69ed2`](https://github.com/bobs-org/bob-mac-capture/commit/4a69ed25bec6a6398d64e1873eccb928d21af96a) | feat(capture): paint notebook section place menus from Bob chrome | [bob-cli-ka.5](bob-cli-ka.5.md) | 2026-11-11 16:10:15 EST |
+| bob-mac-capture | [`bob-mac-capture@26e9f0a`](https://github.com/bobs-org/bob-mac-capture/commit/26e9f0a8661e0013e6baf73381c95dde29243548) | fix(capture): use accessibilityHint for notebook section editor help | [bob-cli-ka.5](bob-cli-ka.5.md) | 2026-11-11 16:38:09 EST |
