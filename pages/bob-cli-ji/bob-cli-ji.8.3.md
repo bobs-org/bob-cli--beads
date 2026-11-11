@@ -43,7 +43,9 @@ write: fill `errors[].suggestions`, emit `clock` and `invalid` spans, add the mi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ji.8.3][1] | Confirm the required proposed follow-up notes are recorded before closing | 3 |
+| read-by | [agent:bob-cli-ji.8.4][2] | Need previous phase notes so extras does not redo landed write-contract work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.4/README.md
 
 <!-- sase:referenced-by:end -->

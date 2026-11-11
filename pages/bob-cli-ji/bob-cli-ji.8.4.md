@@ -32,3 +32,15 @@ extras: bring `-e` (TTY, vi fallback, git scissors, Edit again loop, empty clear
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ba7a1c9`](https://github.com/bobs-org/bob-cli/commit/ba7a1c9092a368dded96c3ec95dee72c0261f7b0) | feat(gcal): finish private event note extras | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 2026-11-11 01:25:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ji.8.4][1] | Need the phase scope, design file, notes, and DECISIONS | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.4/README.md
+
+<!-- sase:referenced-by:end -->
