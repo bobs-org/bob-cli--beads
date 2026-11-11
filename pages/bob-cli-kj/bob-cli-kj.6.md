@@ -7,6 +7,16 @@
 **Created:** 2026-11-11 17:20:04 EST
 **Plan:** [202611/impact\_ranked\_bead\_fixes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/impact_ranked_bead_fixes.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:c96e49fd9445fc49193f339a | attached via sase artifact create --bead |
+
+<!-- sase:links:end -->
+
 ## Description
 
 wikilink-perf: establish reproducible measurements for the block-id-prompt task-wikilink snapshot/order and keystroke-rank CPU budget failures, then land a production fix, measurement fix, or justified budget — never a silent bump (bead bob-cli-f8).

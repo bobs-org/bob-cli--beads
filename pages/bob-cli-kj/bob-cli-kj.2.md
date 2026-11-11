@@ -11,15 +11,24 @@
 
 docs-trims: trim the four bob-mac-capture pages and one bob-plugins page that fail the 6000-word reference budget, keeping contract facts, and verify with each repo's docs gate plus bob-cli just docs-check (beads bob-cli-h9, bob-cli-jz).
 
+## Notes
+
+[2026-11-11T22:57:28Z · bob-cli-kj.2] Docs verification: all 5 pages trimmed to <=5800 words (protocol 6294->5787, capture-panel 6265->5785, capture-previews 6244->~5791, keyboard 6083->5644, nav-hotkeys 6200->5771; counts via bob_docs.markdown.count_words). bob-cli just docs-check: lint ok, generated drift ok. Same in mac-capture and plugins gates. Strict Zensical build still fails on 3 pre-existing link warnings in files untouched by this phase (validation.md->bob-vim-yank-flash.md#verification, keep-moving-marks.md->task-dependencies.md anchor, vault-git-sync.md->gcal.md#events); no headings added/removed, no links added except image-zoom.md, panel#inline-completion, panel#live-preview-and-clipboard-semantics, previews#close-card, protocol#timeouts-and-guards, all verified to exist.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.2/README.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 2 |
+| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.2.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@2007294`](https://github.com/bobs-org/bob-mac-capture/commit/2007294cdc29ef379f6959ef2f05b87d75681e45) | docs: trim mounted reference pages back under the word cap | [bob-cli-kj.2](bob-cli-kj.2.md) | 2026-11-11 17:54:54 EST |
-| bob-plugins | [`bob-plugins@cb32d8d`](https://github.com/bobs-org/bob-plugins/commit/cb32d8d3ad06971bf352710224046c30dfca7566) | docs: trim navigation-hotkeys page back under the word cap | [bob-cli-kj.2](bob-cli-kj.2.md) | 2026-11-11 17:55:26 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kj.2][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.2.md
+
+<!-- sase:referenced-by:end -->
