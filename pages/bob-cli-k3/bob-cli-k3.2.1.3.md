@@ -11,6 +11,10 @@
 
 album-reports: build deterministic schema-version-1 reports from the registry and per-folder RecordCatalog; add albums list/check and bare list routing, root filtering, colored human output, command catalog and completion integration, contract tests, and generated documentation.
 
+## Notes
+
+[2026-11-11T12:39:19Z · bob-cli-k3.2.1.3] PROPOSED FOLLOW-UP: docs-check word-budget already fails on clean master — docs/reference/json-outputs.md plus five unmodified mac-capture/plugin pages (mac-capture/capture-panel.md, capture-previews.md, keyboard.md, protocol.md, plugins/bob-navigation-hotkeys.md) exceed the reference/ 6000-word cap; git stash of this phase json-outputs showed base json-outputs at 6357 words. Combined land of bob-cli-k3.2.1 still wants just docs-check; do not treat this as album-reports remaining work.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) ✓ · ⧖ 2026-11-11
@@ -19,4 +23,10 @@ album-reports: build deterministic schema-version-1 reports from the registry an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.3/README.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.3.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ba9867a`](https://github.com/bobs-org/bob-cli/commit/ba9867a56d0d28b163a480aa9a837e636a2242a2) | feat(albums): add list/check reports, completion, and docs | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 2026-11-11 08:17:41 EST |
