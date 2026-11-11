@@ -18,7 +18,7 @@ album-registry: implement full discovery and bounded route resolution, source-ta
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.2.1.1](bob-cli-k3.2.1.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
