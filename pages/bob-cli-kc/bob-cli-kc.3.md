@@ -34,3 +34,15 @@ e2e: drive the card in an isolated scratch vault over CDP, assert the clipboard 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@934bbbb`](https://github.com/bobs-org/bob-plugins/commit/934bbbbfe95d4d9e797c6a82e5bb84b3968f5f29) | feat(copy-card): complete Obsidian e2e and polish | [bob-cli-kc.3](bob-cli-kc.3.md) | 2026-11-11 16:47:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kc.3--8][1] | Need current phase state and notes before safe deployment and closure | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kc.3.md
+
+<!-- sase:referenced-by:end -->

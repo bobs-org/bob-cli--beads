@@ -25,7 +25,14 @@ config: add the copy.templates block with the Task ref template to chezmoi's Bob
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.4/README.md) | [bob-cli-kc.4](bob-cli-kc.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-kc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.4/README.md) | [bob-cli-kc.4](bob-cli-kc.4.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`0b4483b`](https://github.com/bobs-org/bob-cli/commit/0b4483be37977abc2ed8896712e50e4c3fe86ddc) | docs(config): document copy.templates for the Cmd+Y Copy card | [bob-cli-kc.4](bob-cli-kc.4.md) | 2026-11-11 12:10:28 EST |
+| chezmoi | [`chezmoi@68f2fbb`](https://github.com/bbugyi200/dotfiles/commit/68f2fbba64bdb422f49a5bb7daab853e84972bc3) | feat(bob): add Cmd+Y Copy card Task ref template | [bob-cli-kc.4](bob-cli-kc.4.md) | 2026-11-11 12:11:01 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -33,8 +40,10 @@ config: add the copy.templates block with the Task ref template to chezmoi's Bob
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-kc.4][1] | Need the phase scope, design file, notes, and DECISIONS before implementing | 2 |
+| read-by | [agent:bob-cli-k3.5.1.3][1] | Check whether this existing task tracks the unchanged docs word-budget failures | 1 |
+| read-by | [agent:bob-cli-kc.4][2] | Need the phase scope, design file, notes, and DECISIONS before implementing | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.4/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.4/README.md
 
 <!-- sase:referenced-by:end -->
