@@ -34,3 +34,15 @@ memory: write the section-bullet and notebook-aware-rewrite decision records, ma
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`467b62b`](https://github.com/bobs-org/bob-cli/commit/467b62b99ece3dd159d7c678cdf3da4f6aa6c223) | docs(glossary): document notebook section bullets | [bob-cli-ka.6](bob-cli-ka.6.md) | 2026-11-11 14:34:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ka.6][1] | Verify the phase closed with the check result recorded | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.6/README.md
+
+<!-- sase:referenced-by:end -->
