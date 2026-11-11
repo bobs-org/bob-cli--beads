@@ -23,7 +23,7 @@ card: replace YankPathPickerModal with a CopyCardModal on Bob's key-card tokens,
 
 - **Depends on:** [bob-cli-kc.1](bob-cli-kc.1.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-kc.3](bob-cli-kc.3.md) ◐ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kc.4](bob-cli-kc.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kc.4](bob-cli-kc.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -36,3 +36,15 @@ card: replace YankPathPickerModal with a CopyCardModal on Bob's key-card tokens,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d1d294b`](https://github.com/bobs-org/bob-plugins/commit/d1d294bb93765e3a27f299049d09ed8beaca3e8f) | feat(navigation-hotkeys): add Cmd+Y Copy card modal, wiring, styles, and docs | [bob-cli-kc.2](bob-cli-kc.2.md) | 2026-11-11 12:00:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kc.2][1] | Need full details including notes and design | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kc.2/README.md
+
+<!-- sase:referenced-by:end -->
