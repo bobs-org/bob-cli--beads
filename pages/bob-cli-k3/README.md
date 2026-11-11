@@ -54,11 +54,16 @@ flowchart TD
     n8["bob-cli-k3.2.1.3: Ship albums list/check with complete reports, completion, and docs [closed]"]
     n9["bob-cli-k3.3: Shared host-catalog region engine extracted from notebooks [closed]"]
     n10["bob-cli-k3.4: Records, capture, and completion read schemas from albums [in_progress]"]
-    n11["bob-cli-k3.5: The generated records index inside each album, rebuilt with every record write [in_progress]"]
-    n12["bob-cli-k3.6: The Albums catalog in owner notes, and bob albums create [in_progress]"]
-    n13["bob-cli-k3.7: Obsidian album cards, live chips, and the album header [in_progress]"]
-    n14["bob-cli-k3.8: Bob Mac Capture presents albums [in_progress]"]
-    n15["bob-cli-k3.9: Album cutover in the vault, then delete records from chezmoi [in_progress]"]
+    n11["bob-cli-k3.4.1: Album schemas for records, capture, and completion [in_progress]"]
+    n12["bob-cli-k3.4.1.1: Shared resolved record identity and source-aware rendering [closed]"]
+    n13["bob-cli-k3.4.1.2: Album-aware records commands and membership checks [in_progress]"]
+    n14["bob-cli-k3.4.1.3: Capture album records and refuse album task homes [in_progress]"]
+    n15["bob-cli-k3.4.1.4: Album-aware targets and completion [in_progress]"]
+    n16["bob-cli-k3.5: The generated records index inside each album, rebuilt with every record write [in_progress]"]
+    n17["bob-cli-k3.6: The Albums catalog in owner notes, and bob albums create [in_progress]"]
+    n18["bob-cli-k3.7: Obsidian album cards, live chips, and the album header [in_progress]"]
+    n19["bob-cli-k3.8: Bob Mac Capture presents albums [in_progress]"]
+    n20["bob-cli-k3.9: Album cutover in the vault, then delete records from chezmoi [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,26 +74,34 @@ flowchart TD
     n5 --> n8
     n0 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
-    n0 --> n15
-    n1 -.-> n15
+    n10 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n1 -.-> n20
     n2 -.-> n3
     n4 -.-> n10
     n6 -.-> n7
     n7 -.-> n8
-    n9 -.-> n11
-    n10 -.-> n11
-    n10 -.-> n14
-    n11 -.-> n12
+    n9 -.-> n16
+    n10 -.-> n16
+    n10 -.-> n19
     n12 -.-> n13
-    n12 -.-> n15
-    n13 -.-> n3
-    n14 -.-> n3
-    n15 -.-> n2
-    n15 -.-> n3
+    n12 -.-> n14
+    n14 -.-> n15
+    n16 -.-> n17
+    n17 -.-> n18
+    n17 -.-> n20
+    n18 -.-> n3
+    n19 -.-> n3
+    n20 -.-> n2
+    n20 -.-> n3
 ```
 
 ## Agents
@@ -102,7 +115,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.2/README.md) | [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.3.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.land.md) | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-k3.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4/README.md) | [bob-cli-k3.4](bob-cli-k3.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.4.md) | [bob-cli-k3.4](bob-cli-k3.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.1/README.md) | [bob-cli-k3.4.1.1](bob-cli-k3.4.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-k3.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.2/README.md) | [bob-cli-k3.4.1.2](bob-cli-k3.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.3/README.md) | [bob-cli-k3.4.1.3](bob-cli-k3.4.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.4/README.md) | [bob-cli-k3.4.1.4](bob-cli-k3.4.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.land/README.md) | [bob-cli-k3.4.1](bob-cli-k3.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5/README.md) | [bob-cli-k3.5](bob-cli-k3.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6/README.md) | [bob-cli-k3.6](bob-cli-k3.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7/README.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
@@ -120,3 +138,4 @@ flowchart TD
 | bob-cli | [`ba9867a`](https://github.com/bobs-org/bob-cli/commit/ba9867a56d0d28b163a480aa9a837e636a2242a2) | feat(albums): add list/check reports, completion, and docs | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 2026-11-11 08:17:41 EST |
 | bob-cli | [`ba3f51b`](https://github.com/bobs-org/bob-cli/commit/ba3f51bad3bd491d66e739a895ce4de99149329f) | fix(albums): confine routes, recover nouns, and restore report diagnostics | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 2026-11-11 09:11:57 EST |
 | bob-cli--plans | [`bob-cli--plans@5335af5`](https://github.com/bobs-org/bob-cli--plans/commit/5335af5dd1df88005093f7e933575f39fdf026ae) | chore(plans): mark album\_model epic plan done | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 2026-11-11 09:12:30 EST |
+| bob-cli | [`f7332f5`](https://github.com/bobs-org/bob-cli/commit/f7332f5813c2929c2cd2979a755955cc5cf86074) | feat(records): add shared album record context | [bob-cli-k3.4.1.1](bob-cli-k3.4.1.1.md) | 2026-11-11 09:54:13 EST |
