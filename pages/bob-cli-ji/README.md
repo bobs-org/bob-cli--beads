@@ -78,7 +78,7 @@ flowchart TD
     n16["bob-cli-ji.8.1: Account-aware note fold, honest held rows, and accurate note provenance [closed]"]
     n17["bob-cli-ji.8.2: Exact selection, argv pre-pass, orphans, and list/show fixes [closed]"]
     n18["bob-cli-ji.8.3: Write contract, validation warnings, human output, and missing tests [closed]"]
-    n19["bob-cli-ji.8.4: Finish -e, -A, the doctor notes check, and the fragile-description hint [in_progress]"]
+    n19["bob-cli-ji.8.4: Finish -e, -A, the doctor notes check, and the fragile-description hint [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.1/README.md) | [bob-cli-ji.8.1](bob-cli-ji.8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.2/README.md) | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.3/README.md) | [bob-cli-ji.8.3](bob-cli-ji.8.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ji.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.4/README.md) | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ji.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.4/README.md) | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ji.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.land/README.md) | [bob-cli-ji.8](bob-cli-ji.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ji.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.land.md) | [bob-cli-ji](README.md) | 0 |
 
@@ -160,6 +160,7 @@ flowchart TD
 | bob-cli | [`54e650d`](https://github.com/bobs-org/bob-cli/commit/54e650d17699f9ff2362a40f20ae8e80e8b59585) | fix(gcal): fold private notes per account and report held rows honestly | [bob-cli-ji.8.1](bob-cli-ji.8.1.md) | 2026-11-10 23:04:40 EST |
 | bob-cli | [`9660397`](https://github.com/bobs-org/bob-cli/commit/9660397de55695647da3a01c2f595e1560651058) | fix(gcal-notes): nine select fixes for note previews, options, clear, list/show | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 2026-11-11 00:05:16 EST |
 | bob-cli | [`b706f55`](https://github.com/bobs-org/bob-cli/commit/b706f5592a5475a66e61f6b99cbbf5daef1a6f5c) | fix(gcal): complete private event note write contract | [bob-cli-ji.8.3](bob-cli-ji.8.3.md) | 2026-11-11 00:40:52 EST |
+| bob-cli | [`ba7a1c9`](https://github.com/bobs-org/bob-cli/commit/ba7a1c9092a368dded96c3ec95dee72c0261f7b0) | feat(gcal): finish private event note extras | [bob-cli-ji.8.4](bob-cli-ji.8.4.md) | 2026-11-11 01:25:11 EST |
 
 <!-- sase:referenced-by:start -->
 

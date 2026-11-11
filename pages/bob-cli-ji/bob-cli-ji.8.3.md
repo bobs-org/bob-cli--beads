@@ -22,7 +22,7 @@ write: fill `errors[].suggestions`, emit `clock` and `invalid` spans, add the mi
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.8.2](bob-cli-ji.8.2.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.8.4](bob-cli-ji.8.4.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.8.4](bob-cli-ji.8.4.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -35,3 +35,15 @@ write: fill `errors[].suggestions`, emit `clock` and `invalid` spans, add the mi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b706f55`](https://github.com/bobs-org/bob-cli/commit/b706f5592a5475a66e61f6b99cbbf5daef1a6f5c) | fix(gcal): complete private event note write contract | [bob-cli-ji.8.3](bob-cli-ji.8.3.md) | 2026-11-11 00:40:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ji.8.3][1] | Confirm the required proposed follow-up notes are recorded before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.3/README.md
+
+<!-- sase:referenced-by:end -->
