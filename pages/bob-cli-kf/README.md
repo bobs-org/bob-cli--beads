@@ -29,7 +29,7 @@ Confirmed findings from a five-area audit (gcal sync injection, web-clip SSRF gu
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kf.1](bob-cli-kf.1.md) | Gcal hostile title and badge URL escaping | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
 | [bob-cli-kf.2](bob-cli-kf.2.md) | Web clip out-of-band fetch guard | ✓ closed | medium | 2026-11-11 | 1 | 1 |
-| [bob-cli-kf.3](bob-cli-kf.3.md) | Vault sync and rewrite write durability | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [bob-cli-kf.3](bob-cli-kf.3.md) | Vault sync and rewrite write durability | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-kf.4](bob-cli-kf.4.md) | Bank month-note parser fixes | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
 | [bob-cli-kf.5](bob-cli-kf.5.md) | Subprocess reaper and notify hardening | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
 | [bob-cli-kf.6](bob-cli-kf.6.md) | Shell and migration script fixes | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
@@ -41,7 +41,7 @@ flowchart TD
     n0["bob-cli-kf: Security and bug audit fixes [in_progress]"]
     n1["bob-cli-kf.1: Gcal hostile title and badge URL escaping [in_progress]"]
     n2["bob-cli-kf.2: Web clip out-of-band fetch guard [closed]"]
-    n3["bob-cli-kf.3: Vault sync and rewrite write durability [in_progress]"]
+    n3["bob-cli-kf.3: Vault sync and rewrite write durability [closed]"]
     n4["bob-cli-kf.4: Bank month-note parser fixes [in_progress]"]
     n5["bob-cli-kf.5: Subprocess reaper and notify hardening [in_progress]"]
     n6["bob-cli-kf.6: Shell and migration script fixes [in_progress]"]
@@ -59,7 +59,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kf.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.1/README.md) | [bob-cli-kf.1](bob-cli-kf.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.2/README.md) | [bob-cli-kf.2](bob-cli-kf.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-kf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.3/README.md) | [bob-cli-kf.3](bob-cli-kf.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.3/README.md) | [bob-cli-kf.3](bob-cli-kf.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.4/README.md) | [bob-cli-kf.4](bob-cli-kf.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.5/README.md) | [bob-cli-kf.5](bob-cli-kf.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.6/README.md) | [bob-cli-kf.6](bob-cli-kf.6.md) | 0 |
@@ -70,3 +70,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0a7fce2`](https://github.com/bobs-org/bob-cli/commit/0a7fce2b399ae9865d6bc36670517f5d6893fbe3) | fix(web-clip): guard out-of-band fetches and CSS/SVG clip sinks | [bob-cli-kf.2](bob-cli-kf.2.md) | 2026-11-11 13:51:43 EST |
+| bob-cli | [`1f691b1`](https://github.com/bobs-org/bob-cli/commit/1f691b197bb53446bc2c40f30dfaebde7e66aeb9) | fix(sync): harden vault sync and rewrite write durability | [bob-cli-kf.3](bob-cli-kf.3.md) | 2026-11-11 13:54:25 EST |
