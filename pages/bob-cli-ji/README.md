@@ -43,7 +43,7 @@ Bryan can give any Google Calendar event (including events other people own and 
 | [bob-cli-ji.4](bob-cli-ji.4.md) | Writing, previewing, and applying notes | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [bob-cli-ji.5](bob-cli-ji.5.md) | Editor, adopt, doctor check, and fragile-description hint | ✓ closed | small | 2026-11-10 | 1 | 1 |
 | [bob-cli-ji.6](bob-cli-ji.6.md) | Decision record, glossary term, and guide | ✓ closed | small | 2026-11-10 | 1 | 1 |
-| [bob-cli-ji.7](bob-cli-ji.7.md) | Bob Mac Capture Event note mode | ◐ in_progress | large | 2026-11-10 | 1 | 0 |
+| [bob-cli-ji.7](bob-cli-ji.7.md) | Bob Mac Capture Event note mode | ✓ closed | large | 2026-11-10 | 1 | 0 |
 
 ## Lineage
 
@@ -56,8 +56,8 @@ flowchart TD
     n4["bob-cli-ji.4: Writing, previewing, and applying notes [closed]"]
     n5["bob-cli-ji.5: Editor, adopt, doctor check, and fragile-description hint [closed]"]
     n6["bob-cli-ji.6: Decision record, glossary term, and guide [closed]"]
-    n7["bob-cli-ji.7: Bob Mac Capture Event note mode [in_progress]"]
-    n8["bob-cli-ji.7.1: Complete Bob Mac Capture Event note mode [in_progress]"]
+    n7["bob-cli-ji.7: Bob Mac Capture Event note mode [closed]"]
+    n8["bob-cli-ji.7.1: Complete Bob Mac Capture Event note mode [closed]"]
     n9["bob-cli-ji.7.1.1: Complete event-note fixtures and the Swift process contract [closed]"]
     n10["bob-cli-ji.7.1.2: Event-note session, request ordering, and mutation undo [closed]"]
     n11["bob-cli-ji.7.1.3: Shared hatched meeting and buffer rail [closed]"]
@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ji.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.4.md) | [bob-cli-ji.7.1.4](bob-cli-ji.7.1.4.md) | 3 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.5.md) | [bob-cli-ji.7.1.5](bob-cli-ji.7.1.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ji.7.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.7.1.6/README.md) | [bob-cli-ji.7.1.6](bob-cli-ji.7.1.6.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 4 |
+| [bbugyi200.apollo.bob-cli-ji.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md) | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 5 |
 | [bbugyi200.apollo.bob-cli-ji.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.land/README.md) | [bob-cli-ji](README.md) | 0 |
 
 ## Commits
@@ -139,6 +139,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@f1e5c99`](https://github.com/bobs-org/bob-mac-capture/commit/f1e5c99c05539d54e71789f8afba95837b8fccc2) | feat(capture): complete event note editing and preview | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 18:29:07 EST |
 | bob-cli | [`85e618d`](https://github.com/bobs-org/bob-cli/commit/85e618d889ab2172c29ab5b25cae66d209968936) | test(cli): align catalog and gcal doctor expectations | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 20:14:17 EST |
 | bob-mac-capture | [`bob-mac-capture@15e34ba`](https://github.com/bobs-org/bob-mac-capture/commit/15e34bafc9638dc63117ab527719dd327c57085a) | test(capture): check event note footer accessibility bounds | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 20:14:46 EST |
+| bob-mac-capture | [`bob-mac-capture@e638795`](https://github.com/bobs-org/bob-mac-capture/commit/e63879582888becb02c51430c012f0c4b6b26592) | test(gcal-note): verify compact editor footer layout | [bob-cli-ji.7.1](bob-cli-ji.7.1.md) | 2026-11-10 22:03:42 EST |
 
 <!-- sase:referenced-by:start -->
 
