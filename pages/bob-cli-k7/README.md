@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k7.4.md) | [bob-cli-k7.4](bob-cli-k7.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-k7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.5/README.md) | [bob-cli-k7.5](bob-cli-k7.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-k7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.6/README.md) | [bob-cli-k7.6](bob-cli-k7.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-k7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.land/README.md) | [bob-cli-k7](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-k7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.land/README.md) | [bob-cli-k7](README.md) | 3 |
 
 ## Commits
 
@@ -114,6 +114,7 @@ flowchart TD
 | bob-cli | [`db91ab2`](https://github.com/bobs-org/bob-cli/commit/db91ab2045021affb532bb813707acb597aef266) | docs(keep-moving-marks): record real-vault live verification | [bob-cli-k7.6](bob-cli-k7.6.md) | 2026-11-11 11:51:31 EST |
 | bob-cli | [`ba700bc`](https://github.com/bobs-org/bob-cli/commit/ba700bcb08722e9472dea64ed9ce2807578181d5) | docs(keep-moving-marks): record cycler KM33 picker wiring evidence | [bob-cli-k7](README.md) | 2026-11-11 12:26:06 EST |
 | bob-plugins | [`bob-plugins@4e1f377`](https://github.com/bobs-org/bob-plugins/commit/4e1f3775e5f654f84e9ef5a67e9f1b33929b1d1c) | fix(ledger-tools): land keep-moving marks CSS placement and docs budget | [bob-cli-k7](README.md) | 2026-11-11 12:26:28 EST |
+| bob-cli--plans | [`bob-cli--plans@0f3ab2a`](https://github.com/bobs-org/bob-cli--plans/commit/0f3ab2a1222b8621b018f61a3e794e4f3a437d31) | chore(plans): mark keep\_moving\_link\_marks done after bob-cli-k7 landing | [bob-cli-k7](README.md) | 2026-11-11 12:26:47 EST |
 
 <!-- sase:referenced-by:start -->
 
