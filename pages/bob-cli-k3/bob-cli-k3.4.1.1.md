@@ -17,7 +17,7 @@ record-context: add the shared consumer adapter over the landed album registry, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.4.1.2](bob-cli-k3.4.1.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.4.1.2](bob-cli-k3.4.1.2.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k3.4.1.3](bob-cli-k3.4.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
@@ -39,7 +39,9 @@ record-context: add the shared consumer adapter over the landed album registry, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k3.4.1.1][1] | Need the phase scope, design file, and prior work notes before continuing the assigned implementation | 2 |
+| read-by | [agent:bob-cli-k3.4.1.3][2] | Need record-context scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->

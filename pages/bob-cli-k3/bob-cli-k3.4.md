@@ -30,9 +30,11 @@ album-records: route all eight config call sites through the registry so record 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k3.4.1.1][1] | Need the outer epic's binding decisions for this assigned child phase | 1 |
-| read-by | [agent:research.47.mus][2] | Need records capture schema details for bank album research | 1 |
+| read-by | [agent:bob-cli-k3.4.1.3][2] | Need assigned phase scope and final decisions | 1 |
+| read-by | [agent:research.47.mus][3] | Need records capture schema details for bank album research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.mus/README.md
 
 <!-- sase:referenced-by:end -->
