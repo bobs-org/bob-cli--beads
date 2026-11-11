@@ -21,7 +21,7 @@ flash-plugin: create the hand-edited bob-vim-yank-flash plugin (pushText wrapper
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kb.2](bob-cli-kb.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kb.2](bob-cli-kb.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -34,3 +34,15 @@ flash-plugin: create the hand-edited bob-vim-yank-flash plugin (pushText wrapper
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@95e2e51`](https://github.com/bobs-org/bob-plugins/commit/95e2e510bb8e684b027341c4c2cd591229ef8525) | feat(yank-flash): add bob-vim-yank-flash plugin with tests and docs | [bob-cli-kb.1](bob-cli-kb.1.md) | 2026-11-11 11:02:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kb.1][1] | Need notes and design | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kb.1/README.md
+
+<!-- sase:referenced-by:end -->
