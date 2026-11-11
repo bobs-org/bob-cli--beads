@@ -13,7 +13,7 @@ extras: bring `-e` (TTY, vi fallback, git scissors, Edit again loop, empty clear
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ji.8.3](bob-cli-ji.8.3.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [bob-cli-ji.8.3](bob-cli-ji.8.3.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

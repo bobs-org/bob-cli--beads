@@ -20,7 +20,7 @@ select: build `-i`/URL previews from the pre-note Google event, honor this comma
 ## Dependencies
 
 - **Depends on:** [bob-cli-ji.8.1](bob-cli-ji.8.1.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [bob-cli-ji.8.3](bob-cli-ji.8.3.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [bob-cli-ji.8.3](bob-cli-ji.8.3.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -33,3 +33,15 @@ select: build `-i`/URL previews from the pre-note Google event, honor this comma
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9660397`](https://github.com/bobs-org/bob-cli/commit/9660397de55695647da3a01c2f595e1560651058) | fix(gcal-notes): nine select fixes for note previews, options, clear, list/show | [bob-cli-ji.8.2](bob-cli-ji.8.2.md) | 2026-11-11 00:05:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ji.8.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ji.8.2/README.md
+
+<!-- sase:referenced-by:end -->
