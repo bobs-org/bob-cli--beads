@@ -20,7 +20,7 @@ umbrella-rule: in bob-cli, redefine leaf projects as every recognised project ex
 ## Dependencies
 
 - **Blocks:** [bob-cli-k7.2](bob-cli-k7.2.md) ◐ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k7.3](bob-cli-k7.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k7.3](bob-cli-k7.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ umbrella-rule: in bob-cli, redefine leaf projects as every recognised project ex
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b2c3697`](https://github.com/bobs-org/bob-cli/commit/b2c3697e8c57c5c2091b1df207d9bed3b38382f3) | feat(keep-moving): skip only umbrella projects, not every root | [bob-cli-k7.1](bob-cli-k7.1.md) | 2026-11-11 08:44:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k7.1--1][1] | Need current bead status, notes, and remaining work after failed host completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k7.1.md
+
+<!-- sase:referenced-by:end -->

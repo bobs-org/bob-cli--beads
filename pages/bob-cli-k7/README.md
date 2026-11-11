@@ -29,7 +29,7 @@ In today's ledger, a quiet `⏭ N` mark after a Task Link forecasts the `Keep �
 |---|---|---|---|---|---:|---:|
 | [bob-cli-k7.1](bob-cli-k7.1.md) | Umbrella rule in the contract, memory, and Rust | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-k7.2](bob-cli-k7.2.md) | Umbrella rule and \`\_generated/\` fix in the Obsidian cycler | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
-| [bob-cli-k7.3](bob-cli-k7.3.md) | Keep-moving mark display contract | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
+| [bob-cli-k7.3](bob-cli-k7.3.md) | Keep-moving mark display contract | ✓ closed | small | 2026-11-11 | 1 | 1 |
 | [bob-cli-k7.4](bob-cli-k7.4.md) | Pure keep-moving mark core and cross-plugin parity | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [bob-cli-k7.5](bob-cli-k7.5.md) | Live Preview, Reading view, look, and liveness | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [bob-cli-k7.6](bob-cli-k7.6.md) | Real-vault audit against capture and the picker | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
@@ -41,7 +41,7 @@ flowchart TD
     n0["bob-cli-k7: Keep-moving marks — show `⏭ N` after a Task Link whose close will keep its project moving [in_progress]"]
     n1["bob-cli-k7.1: Umbrella rule in the contract, memory, and Rust [closed]"]
     n2["bob-cli-k7.2: Umbrella rule and `_generated/` fix in the Obsidian cycler [in_progress]"]
-    n3["bob-cli-k7.3: Keep-moving mark display contract [in_progress]"]
+    n3["bob-cli-k7.3: Keep-moving mark display contract [closed]"]
     n4["bob-cli-k7.4: Pure keep-moving mark core and cross-plugin parity [in_progress]"]
     n5["bob-cli-k7.5: Live Preview, Reading view, look, and liveness [in_progress]"]
     n6["bob-cli-k7.6: Real-vault audit against capture and the picker [in_progress]"]
@@ -65,7 +65,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-k7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k7.1.md) | [bob-cli-k7.1](bob-cli-k7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-k7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.2/README.md) | [bob-cli-k7.2](bob-cli-k7.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-k7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md) | [bob-cli-k7.3](bob-cli-k7.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-k7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md) | [bob-cli-k7.3](bob-cli-k7.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-k7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.4/README.md) | [bob-cli-k7.4](bob-cli-k7.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-k7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.5/README.md) | [bob-cli-k7.5](bob-cli-k7.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-k7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.6/README.md) | [bob-cli-k7.6](bob-cli-k7.6.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b2c3697`](https://github.com/bobs-org/bob-cli/commit/b2c3697e8c57c5c2091b1df207d9bed3b38382f3) | feat(keep-moving): skip only umbrella projects, not every root | [bob-cli-k7.1](bob-cli-k7.1.md) | 2026-11-11 08:44:49 EST |
+| bob-cli | [`dcc1986`](https://github.com/bobs-org/bob-cli/commit/dcc1986ed8d3725705510f3636e0cee9f05695d8) | docs(keep-moving-marks): add ledger display contract | [bob-cli-k7.3](bob-cli-k7.3.md) | 2026-11-11 08:56:56 EST |

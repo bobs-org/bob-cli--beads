@@ -14,7 +14,7 @@ mark-core: in bob-ledger-tools, add the pure, synchronous gates, leaf predicate,
 ## Dependencies
 
 - **Depends on:** [bob-cli-k7.2](bob-cli-k7.2.md) ◐ · ⧖ 2026-11-11
-- **Depends on:** [bob-cli-k7.3](bob-cli-k7.3.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k7.3](bob-cli-k7.3.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k7.5](bob-cli-k7.5.md) ◐ · ⧖ 2026-11-11
 
 ## Agents
