@@ -11,6 +11,10 @@
 
 records-surface: route records commands through the shared context, accept noun and stem selectors, add source and album output, retain invalid collection counts, and implement album membership and checkbox checks.
 
+## Notes
+
+[2026-11-11T15:36:24Z · bob-cli-k3.4.1.2] Verified album-aware records CLI on isolated vaults: noun/stem selectors, -b over BOB_DIR, broken album suppressing config, healthy album despite malformed config/neighbor, canonical [[record]] plus record_type_legacy, parent/checkbox/orphan/missing-stub, malformed schema counts, byte-exact create and span-preserving update with dry-run equality, broken-album members not orphans. just lint green. just check via prepared monitor.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.4.1.1](bob-cli-k3.4.1.1.md) ✓ · ⧖ 2026-11-11
@@ -19,4 +23,4 @@ records-surface: route records commands through the shared context, accept noun 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k3.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.2/README.md) | [bob-cli-k3.4.1.2](bob-cli-k3.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.4.1.2.md) | [bob-cli-k3.4.1.2](bob-cli-k3.4.1.2.md) | 0 |

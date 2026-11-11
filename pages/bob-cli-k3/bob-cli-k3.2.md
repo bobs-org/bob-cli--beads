@@ -20,3 +20,15 @@ album-model: recognize `type: "[[album]]"` and `type: "[[record]]"`, parse album
 ## Dependencies
 
 - **Blocks:** [bob-cli-k3.4](bob-cli-k3.4.md) ◐ · ⧖ 2026-11-11
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.47.mus][1] | Need album recognition and schema registry details for bank album research | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.mus/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ album-completion: move capture-targets, both capture-complete config callers, an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k3.4.1.3](bob-cli-k3.4.1.3.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.4.1.3](bob-cli-k3.4.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
