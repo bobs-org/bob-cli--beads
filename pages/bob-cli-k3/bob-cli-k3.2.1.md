@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-k3.2](bob-cli-k3.2.md) / bob-cli-k3.2.1
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-k3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.2.md) · **Assignee:** `bob-cli-k3.2.1.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.bob-cli-k3.2` · **Assignee:** `bob-cli-k3.2.1.land`
 **Created:** 2026-11-11 05:07:02 EST
 **Plan:** [202611/album\_model.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_model.md)
 
@@ -27,4 +27,4 @@ Complete bob-cli-k3.2 with album and record recognition, album-local schema diag
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-k3.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.2.1.land/README.md) | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.land/README.md) | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 0 |

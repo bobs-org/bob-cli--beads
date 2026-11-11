@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-k3.2.1](bob-cli-k3.2.1.md) / bob-cli-k3.2.1.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-k3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.2.md) · **Assignee:** `bob-cli-k3.2.1.1` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.bob-cli-k3.2` · **Assignee:** `bob-cli-k3.2.1.1` · **Size:** medium
 **Created:** 2026-11-11 05:07:02 EST · **Closed:** 2026-11-11 05:58:46 EST
 **Plan:** [202611/album\_model.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_model.md)
 
@@ -17,7 +17,7 @@ album-schema: add album/record type predicates and the album declaration model; 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -30,3 +30,15 @@ album-schema: add album/record type predicates and the album declaration model; 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f977009`](https://github.com/bobs-org/bob-cli/commit/f977009a26f64775b377c27ed885fdf61ef6f1da) | feat(albums): parse declarations through shared schema validation | [bob-cli-k3.2.1.1](bob-cli-k3.2.1.1.md) | 2026-11-11 06:00:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.2.1.1--2][1] | Verify the assigned phase was closed after required checks | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.1.md
+
+<!-- sase:referenced-by:end -->

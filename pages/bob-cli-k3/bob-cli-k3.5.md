@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-k3](README.md) / bob-cli-k3.5
 
 **Status:** ◐ in_progress · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.43.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.43.linker.w0.md) · **Assignee:** `bob-cli-k3.5` · **Size:** large
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.43.linker.w0` · **Assignee:** `bob-cli-k3.5` · **Size:** large
 **Created:** 2026-11-11 04:56:44 EST
 **Plan:** [202611/album\_and\_record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_and_record_notes.md)
 
@@ -21,4 +21,4 @@ album-index: render the bob-owned `[!records]` index (tally title, groups in dec
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-k3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.5/README.md) | [bob-cli-k3.5](bob-cli-k3.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5/README.md) | [bob-cli-k3.5](bob-cli-k3.5.md) | 0 |

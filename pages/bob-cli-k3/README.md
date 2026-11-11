@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / bob-cli-k3
 
 **Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.43.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.43.linker.w0.md) · **Assignee:** `bob-cli-k3.land`
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.43.linker.w0` · **Assignee:** `bob-cli-k3.land`
 **Created:** 2026-11-11 04:56:43 EST
 **Plan:** [202611/album\_and\_record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_and_record_notes.md)
 
@@ -27,10 +27,10 @@ Every record note reaches an area of responsibility. Each record collection (eat
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-k3.1](bob-cli-k3.1.md) | Vault-only cleanup — owners, the eat.md de-zorg, and record health | ✓ closed | medium | 2026-11-11 | 1 | 0 |
+| [bob-cli-k3.1](bob-cli-k3.1.md) | Vault-only cleanup — owners, the eat.md de-zorg, and record health | ✓ closed | medium | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.10](bob-cli-k3.10.md) | Link the spending ledger to restaurant records and backfill visited | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.11](bob-cli-k3.11.md) | Retire config-declared records, end-to-end proof, docs audit, and memory | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
-| [bob-cli-k3.2](bob-cli-k3.2.md) | Album recognition, the vault schema registry, and bob albums list and check | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
+| [bob-cli-k3.2](bob-cli-k3.2.md) | Album recognition, the vault schema registry, and bob albums list and check | ◐ in_progress | large | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.3](bob-cli-k3.3.md) | Shared host-catalog region engine extracted from notebooks | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-k3.4](bob-cli-k3.4.md) | Records, capture, and completion read schemas from albums | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.5](bob-cli-k3.5.md) | The generated records index inside each album, rebuilt with every record write | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
@@ -50,7 +50,7 @@ flowchart TD
     n4["bob-cli-k3.2: Album recognition, the vault schema registry, and bob albums list and check [in_progress]"]
     n5["bob-cli-k3.2.1: Album model — schema parsing, vault registry, and read-only reports [in_progress]"]
     n6["bob-cli-k3.2.1.1: Parse album declarations through shared record schema validation [closed]"]
-    n7["bob-cli-k3.2.1.2: Discover album claims, isolate failures, and integrate the vault snapshot [in_progress]"]
+    n7["bob-cli-k3.2.1.2: Discover album claims, isolate failures, and integrate the vault snapshot [closed]"]
     n8["bob-cli-k3.2.1.3: Ship albums list/check with complete reports, completion, and docs [in_progress]"]
     n9["bob-cli-k3.3: Shared host-catalog region engine extracted from notebooks [closed]"]
     n10["bob-cli-k3.4: Records, capture, and completion read schemas from albums [in_progress]"]
@@ -95,22 +95,20 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-k3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.1/README.md) | [bob-cli-k3.1](bob-cli-k3.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.10/README.md) | [bob-cli-k3.10](bob-cli-k3.10.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.2.md) | [bob-cli-k3.2](bob-cli-k3.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-k3.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.2.1.1.md) | [bob-cli-k3.2.1.1](bob-cli-k3.2.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-k3.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.2.1.2/README.md) | [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.2.1.3/README.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.2.1.land/README.md) | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-k3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.3.md) | [bob-cli-k3.3](bob-cli-k3.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-k3.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.4/README.md) | [bob-cli-k3.4](bob-cli-k3.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.5/README.md) | [bob-cli-k3.5](bob-cli-k3.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.6/README.md) | [bob-cli-k3.6](bob-cli-k3.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.7/README.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.8/README.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.9/README.md) | [bob-cli-k3.9](bob-cli-k3.9.md) | 0 |
-| [bbugyi200.apollo.bob-cli-k3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.land/README.md) | [bob-cli-k3](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.10/README.md) | [bob-cli-k3.10](bob-cli-k3.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.2/README.md) | [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.3/README.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.land/README.md) | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4/README.md) | [bob-cli-k3.4](bob-cli-k3.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.5/README.md) | [bob-cli-k3.5](bob-cli-k3.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6/README.md) | [bob-cli-k3.6](bob-cli-k3.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7/README.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.8/README.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.9/README.md) | [bob-cli-k3.9](bob-cli-k3.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.land/README.md) | [bob-cli-k3](README.md) | 0 |
 
 ## Commits
 
@@ -118,3 +116,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`f977009`](https://github.com/bobs-org/bob-cli/commit/f977009a26f64775b377c27ed885fdf61ef6f1da) | feat(albums): parse declarations through shared schema validation | [bob-cli-k3.2.1.1](bob-cli-k3.2.1.1.md) | 2026-11-11 06:00:18 EST |
 | bob-cli | [`d0ada55`](https://github.com/bobs-org/bob-cli/commit/d0ada555a8b60c74933f9ce4eb3aa8c0469b0d64) | refactor(notebooks): extract shared host-catalog region engine | [bob-cli-k3.3](bob-cli-k3.3.md) | 2026-11-11 06:03:48 EST |
+| bob-cli | [`b6f3b92`](https://github.com/bobs-org/bob-cli/commit/b6f3b92c010044e720ebcd75ed47c2f014c6ab0d) | feat(albums): add vault-scoped album registry | [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) | 2026-11-11 06:59:18 EST |

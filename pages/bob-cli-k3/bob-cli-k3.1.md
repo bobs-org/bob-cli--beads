@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [bob-cli-k3](README.md) / bob-cli-k3.1
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.43.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.43.linker.w0.md) · **Assignee:** `bob-cli-k3.1` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.43.linker.w0` · **Assignee:** `bob-cli-k3.1` · **Size:** medium
 **Created:** 2026-11-11 04:56:43 EST · **Closed:** 2026-11-11 05:40:39 EST
 **Plan:** [202611/album\_and\_record\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_and_record_notes.md)
 
@@ -24,9 +24,3 @@ vault-cleanup: with today's bob and no code, point eat at body, podcasts at dev,
 ## Dependencies
 
 - **Blocks:** [bob-cli-k3.9](bob-cli-k3.9.md) ◐ · ⧖ 2026-11-11
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.apollo.bob-cli-k3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k3.1/README.md) | [bob-cli-k3.1](bob-cli-k3.1.md) | 0 |
