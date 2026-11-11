@@ -15,4 +15,10 @@ docs-trims: trim the four bob-mac-capture pages and one bob-plugins page that fa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.2/README.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-kj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.2/README.md) | [bob-cli-kj.2](bob-cli-kj.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@2007294`](https://github.com/bobs-org/bob-mac-capture/commit/2007294cdc29ef379f6959ef2f05b87d75681e45) | docs: trim mounted reference pages back under the word cap | [bob-cli-kj.2](bob-cli-kj.2.md) | 2026-11-11 17:54:54 EST |
