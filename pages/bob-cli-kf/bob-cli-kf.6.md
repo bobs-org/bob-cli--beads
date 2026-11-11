@@ -28,3 +28,15 @@ script-small-fixes: honor bob_notify's --no-timeout escalation, make the tracker
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4771047`](https://github.com/bobs-org/bob-cli/commit/4771047e8bcc12a59b9c1dd723d078b5ffbdab84) | fix(scripts): persist notify, harden tracker apply, restore git globs | [bob-cli-kf.6](bob-cli-kf.6.md) | 2026-11-11 15:10:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kf.6--2][1] | Need current phase status, notes, and whether work already landed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.6.md
+
+<!-- sase:referenced-by:end -->

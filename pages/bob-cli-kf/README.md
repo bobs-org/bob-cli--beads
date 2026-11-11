@@ -23,6 +23,10 @@
 
 Confirmed findings from a five-area audit (gcal sync injection, web-clip SSRF guard gaps, vault-sync data-loss races, bank parser bugs, subprocess and script defects) are fixed with regression tests.
 
+## Notes
+
+[2026-11-11T20:44:52Z · bob-cli-kf.land] Lander verification (bob-cli-kf.land): no child bead carried a PROPOSED FOLLOW-UP entry. Lander triage of its own findings: (1) DECLINED new task: subprocess_runner still joins the stdin writer thread without a deadline; it was already unbounded before this epic and only matters if a payload larger than the pipe buffer meets an escaped grandchild holding stdin. Callers send small JSON. (2) DECLINED new task: stale #[cfg_attr(not(test), allow(dead_code))] on bank month.rs planners now used by ensure/ack (canonical_template, now_created_stamp, plan_insert_day, plan_tick_row). These belong to the active bank epic bob-cli-kd, whose kd.4 import phase is still wiring the remaining planners. (3) DECLINED: gcal escape_badge_url leaves non-ASCII line separators (U+2028/U+0085) unencoded. bob's line parsing and CodeMirror split only on CR/LF, so rows stay single-line. (4) RESOLVED in favor of kf.6: kf.6's drop_all return in capture_targets::append_record_targets reverts the 'retain partial results' comment-level choice made by 6e421597 (k3.4.1 land), because the plan's code baseline predated it. The reviewer's drop_all decision rejected even config_fallback, matches the completion provider, and contradicts no doc (docs/records.md's partial-scan rule covers records list/check, not capture-targets). Kept as implemented. (5) Integrated by lander: moved vault_git.rs's test module below is_ignored. The items_after_test_module clippy error from 1a9b6828 (the outside check-ignore fix for kf.3's regression) was failing CI lint and macOS lint on master. just check now passes locally. (6) Remaining epic-caused defects are planned as a lander-authored tale: vault_rewrite per-file stale rollback and hint, clobber recheck refresh, abort-preservation filter, drain grace, tracker splitlines/mode, and bank ensure line vs kf.4 day-end.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -63,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.4/README.md) | [bob-cli-kf.4](bob-cli-kf.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.5/README.md) | [bob-cli-kf.5](bob-cli-kf.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.6.md) | [bob-cli-kf.6](bob-cli-kf.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-kf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.land/README.md) | [bob-cli-kf](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-kf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.land/README.md) | [bob-cli-kf](README.md) | 1 |
 
 ## Commits
 
@@ -75,3 +79,4 @@ flowchart TD
 | bob-cli | [`7b3f351`](https://github.com/bobs-org/bob-cli/commit/7b3f3512204e3c8fd394597d50d4491879e29f03) | fix(subprocess): bound pipe draining and harden notify sleeps | [bob-cli-kf.5](bob-cli-kf.5.md) | 2026-11-11 14:10:33 EST |
 | bob-cli | [`757e36b`](https://github.com/bobs-org/bob-cli/commit/757e36bb0d758031e2eaf2c065d1662577034583) | fix(bank): validate out-of-month headings, BOM frontmatter, planner anchors | [bob-cli-kf.4](bob-cli-kf.4.md) | 2026-11-11 14:11:54 EST |
 | bob-cli | [`4771047`](https://github.com/bobs-org/bob-cli/commit/4771047e8bcc12a59b9c1dd723d078b5ffbdab84) | fix(scripts): persist notify, harden tracker apply, restore git globs | [bob-cli-kf.6](bob-cli-kf.6.md) | 2026-11-11 15:10:57 EST |
+| bob-cli | [`6e3d883`](https://github.com/bobs-org/bob-cli/commit/6e3d88370351cc416301817fab6dab01761d5bd2) | fix(git): move vault\_git tests after is\_ignored | [bob-cli-kf](README.md) | 2026-11-11 15:46:34 EST |
