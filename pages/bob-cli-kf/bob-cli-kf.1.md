@@ -26,3 +26,15 @@ gcal-escaping: collapse newlines/control whitespace in calendar titles and perce
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2c104b9`](https://github.com/bobs-org/bob-cli/commit/2c104b9e1e3a2553294e8cc7a5cd7d1c0e823fda) | fix(gcal): collapse hostile titles and encode badge URL whitespace | [bob-cli-kf.1](bob-cli-kf.1.md) | 2026-11-11 13:55:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kf.1][1] | Need notes from earlier agents | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.1/README.md
+
+<!-- sase:referenced-by:end -->

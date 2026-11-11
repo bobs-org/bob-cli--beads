@@ -27,24 +27,24 @@ Confirmed findings from a five-area audit (gcal sync injection, web-clip SSRF gu
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-kf.1](bob-cli-kf.1.md) | Gcal hostile title and badge URL escaping | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
+| [bob-cli-kf.1](bob-cli-kf.1.md) | Gcal hostile title and badge URL escaping | ✓ closed | small | 2026-11-11 | 1 | 1 |
 | [bob-cli-kf.2](bob-cli-kf.2.md) | Web clip out-of-band fetch guard | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-kf.3](bob-cli-kf.3.md) | Vault sync and rewrite write durability | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-kf.4](bob-cli-kf.4.md) | Bank month-note parser fixes | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
-| [bob-cli-kf.5](bob-cli-kf.5.md) | Subprocess reaper and notify hardening | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
-| [bob-cli-kf.6](bob-cli-kf.6.md) | Shell and migration script fixes | ◐ in_progress | small | 2026-11-11 | 1 | 0 |
+| [bob-cli-kf.5](bob-cli-kf.5.md) | Subprocess reaper and notify hardening | ✓ closed | small | 2026-11-11 | 1 | 1 |
+| [bob-cli-kf.6](bob-cli-kf.6.md) | Shell and migration script fixes | ✓ closed | small | 2026-11-11 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["bob-cli-kf: Security and bug audit fixes [in_progress]"]
-    n1["bob-cli-kf.1: Gcal hostile title and badge URL escaping [in_progress]"]
+    n1["bob-cli-kf.1: Gcal hostile title and badge URL escaping [closed]"]
     n2["bob-cli-kf.2: Web clip out-of-band fetch guard [closed]"]
     n3["bob-cli-kf.3: Vault sync and rewrite write durability [closed]"]
     n4["bob-cli-kf.4: Bank month-note parser fixes [in_progress]"]
-    n5["bob-cli-kf.5: Subprocess reaper and notify hardening [in_progress]"]
-    n6["bob-cli-kf.6: Shell and migration script fixes [in_progress]"]
+    n5["bob-cli-kf.5: Subprocess reaper and notify hardening [closed]"]
+    n6["bob-cli-kf.6: Shell and migration script fixes [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -57,12 +57,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kf.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.1/README.md) | [bob-cli-kf.1](bob-cli-kf.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-kf.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.1/README.md) | [bob-cli-kf.1](bob-cli-kf.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.2/README.md) | [bob-cli-kf.2](bob-cli-kf.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.3/README.md) | [bob-cli-kf.3](bob-cli-kf.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.4/README.md) | [bob-cli-kf.4](bob-cli-kf.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-kf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.5/README.md) | [bob-cli-kf.5](bob-cli-kf.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-kf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.6/README.md) | [bob-cli-kf.6](bob-cli-kf.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-kf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.5/README.md) | [bob-cli-kf.5](bob-cli-kf.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-kf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.6.md) | [bob-cli-kf.6](bob-cli-kf.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-kf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.land/README.md) | [bob-cli-kf](README.md) | 0 |
 
 ## Commits
@@ -71,3 +71,5 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`0a7fce2`](https://github.com/bobs-org/bob-cli/commit/0a7fce2b399ae9865d6bc36670517f5d6893fbe3) | fix(web-clip): guard out-of-band fetches and CSS/SVG clip sinks | [bob-cli-kf.2](bob-cli-kf.2.md) | 2026-11-11 13:51:43 EST |
 | bob-cli | [`1f691b1`](https://github.com/bobs-org/bob-cli/commit/1f691b197bb53446bc2c40f30dfaebde7e66aeb9) | fix(sync): harden vault sync and rewrite write durability | [bob-cli-kf.3](bob-cli-kf.3.md) | 2026-11-11 13:54:25 EST |
+| bob-cli | [`2c104b9`](https://github.com/bobs-org/bob-cli/commit/2c104b9e1e3a2553294e8cc7a5cd7d1c0e823fda) | fix(gcal): collapse hostile titles and encode badge URL whitespace | [bob-cli-kf.1](bob-cli-kf.1.md) | 2026-11-11 13:55:14 EST |
+| bob-cli | [`7b3f351`](https://github.com/bobs-org/bob-cli/commit/7b3f3512204e3c8fd394597d50d4491879e29f03) | fix(subprocess): bound pipe draining and harden notify sleeps | [bob-cli-kf.5](bob-cli-kf.5.md) | 2026-11-11 14:10:33 EST |

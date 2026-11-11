@@ -26,3 +26,15 @@ vault-sync-durability: literal git pathspecs, a pre-restore byte recheck in clob
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1f691b1`](https://github.com/bobs-org/bob-cli/commit/1f691b197bb53446bc2c40f30dfaebde7e66aeb9) | fix(sync): harden vault sync and rewrite write durability | [bob-cli-kf.3](bob-cli-kf.3.md) | 2026-11-11 13:54:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kf.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.3/README.md
+
+<!-- sase:referenced-by:end -->
