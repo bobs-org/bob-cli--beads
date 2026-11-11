@@ -28,8 +28,10 @@ mac: in the bob-mac-capture linked repo, add an Event note mode to the capture p
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.40.cld][1] | Check phase progress and notes for guide accuracy | 1 |
+| read-by | [agent:bob-cli-ji.7.1.land--1][1] | Verify approved epic and parent phase deliverables before closeout | 1 |
+| read-by | [agent:research.40.cld][2] | Check phase progress and notes for guide accuracy | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ji.7.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.40.cld/README.md
 
 <!-- sase:referenced-by:end -->
