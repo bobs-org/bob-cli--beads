@@ -34,7 +34,9 @@ subprocess-hardening: bound the post-exit pipe-drain phase with a deadline, fix 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kf.5][1] | Need the phase scope, design file, prior notes, and epic decisions | 2 |
+| read-by | [agent:bob-cli-kf.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.land.md
 
 <!-- sase:referenced-by:end -->

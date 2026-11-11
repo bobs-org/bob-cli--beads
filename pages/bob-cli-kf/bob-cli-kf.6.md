@@ -36,7 +36,9 @@ script-small-fixes: honor bob_notify's --no-timeout escalation, make the tracker
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kf.6--2][1] | Need current phase status, notes, and whether work already landed | 1 |
+| read-by | [agent:bob-cli-kf.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.6.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.land.md
 
 <!-- sase:referenced-by:end -->
