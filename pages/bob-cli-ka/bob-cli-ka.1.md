@@ -23,7 +23,7 @@ resolver: extend the notebook section resolver with an Ambiguous outcome and opt
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ka.2](bob-cli-ka.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-ka.2](bob-cli-ka.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
