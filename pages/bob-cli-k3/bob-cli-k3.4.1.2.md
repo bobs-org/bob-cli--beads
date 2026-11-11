@@ -39,8 +39,10 @@ records-surface: route records commands through the shared context, accept noun 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-k3.4.1.3][1] | Need sibling phase scope to avoid conflicts | 1 |
+| read-by | [agent:bob-cli-k3.4.1.2--2][1] | Need the phase scope, notes, and design after green check failed to land | 1 |
+| read-by | [agent:bob-cli-k3.4.1.3][2] | Need sibling phase scope to avoid conflicts | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.4.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->

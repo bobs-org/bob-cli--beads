@@ -18,7 +18,7 @@ capture-albums: carry per-route album resolution through parse and capture, writ
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.4.1.1](bob-cli-k3.4.1.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.4.1.4](bob-cli-k3.4.1.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.4.1.4](bob-cli-k3.4.1.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
