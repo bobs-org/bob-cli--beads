@@ -20,7 +20,7 @@ umbrella-cycler: in the bob-plugins task-status-cycler, apply the umbrella rule 
 ## Dependencies
 
 - **Depends on:** [bob-cli-k7.1](bob-cli-k7.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k7.4](bob-cli-k7.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k7.4](bob-cli-k7.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ umbrella-cycler: in the bob-plugins task-status-cycler, apply the umbrella rule 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@87b28e1`](https://github.com/bobs-org/bob-plugins/commit/87b28e1a60ee4aceca1f9f7094ffe06129b81485) | feat(task-status-cycler): skip only umbrella projects, stop \_generated ambiguity | [bob-cli-k7.2](bob-cli-k7.2.md) | 2026-11-11 08:58:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k7.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.2/README.md
+
+<!-- sase:referenced-by:end -->

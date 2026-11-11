@@ -20,10 +20,28 @@ mark-contract: in bob-cli docs, add docs/keep-moving-marks.md (the authoritative
 ## Dependencies
 
 - **Depends on:** [bob-cli-k7.1](bob-cli-k7.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k7.4](bob-cli-k7.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k7.4](bob-cli-k7.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md) | [bob-cli-k7.3](bob-cli-k7.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-k7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md) | [bob-cli-k7.3](bob-cli-k7.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`dcc1986`](https://github.com/bobs-org/bob-cli/commit/dcc1986ed8d3725705510f3636e0cee9f05695d8) | docs(keep-moving-marks): add ledger display contract | [bob-cli-k7.3](bob-cli-k7.3.md) | 2026-11-11 08:56:56 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k7.3][1] | Need the phase scope, design file, and prior work notes before implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md
+
+<!-- sase:referenced-by:end -->

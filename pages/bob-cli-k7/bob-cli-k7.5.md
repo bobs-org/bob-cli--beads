@@ -13,7 +13,7 @@ mark-surface: in bob-ledger-tools, render the mark in Live Preview and Reading v
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k7.4](bob-cli-k7.4.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k7.4](bob-cli-k7.4.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k7.6](bob-cli-k7.6.md) ◐ · ⧖ 2026-11-11
 
 ## Agents
