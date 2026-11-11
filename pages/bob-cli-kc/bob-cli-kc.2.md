@@ -22,7 +22,7 @@ card: replace YankPathPickerModal with a CopyCardModal on Bob's key-card tokens,
 ## Dependencies
 
 - **Depends on:** [bob-cli-kc.1](bob-cli-kc.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kc.3](bob-cli-kc.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kc.3](bob-cli-kc.3.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-kc.4](bob-cli-kc.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
