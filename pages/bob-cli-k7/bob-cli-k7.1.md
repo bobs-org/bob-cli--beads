@@ -19,7 +19,7 @@ umbrella-rule: in bob-cli, redefine leaf projects as every recognised project ex
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k7.2](bob-cli-k7.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k7.2](bob-cli-k7.2.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k7.3](bob-cli-k7.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents

@@ -26,10 +26,4 @@ mark-contract: in bob-cli docs, add docs/keep-moving-marks.md (the authoritative
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md) | [bob-cli-k7.3](bob-cli-k7.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`dcc1986`](https://github.com/bobs-org/bob-cli/commit/dcc1986ed8d3725705510f3636e0cee9f05695d8) | docs(keep-moving-marks): add ledger display contract | [bob-cli-k7.3](bob-cli-k7.3.md) | 2026-11-11 08:56:56 EST |
+| [bbugyi200.athena.bob-cli-k7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k7.3/README.md) | [bob-cli-k7.3](bob-cli-k7.3.md) | 0 |
