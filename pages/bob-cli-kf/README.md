@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.4/README.md) | [bob-cli-kf.4](bob-cli-kf.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kf.5/README.md) | [bob-cli-kf.5](bob-cli-kf.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-kf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.6.md) | [bob-cli-kf.6](bob-cli-kf.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-kf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.land.md) | [bob-cli-kf](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-kf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kf.land.md) | [bob-cli-kf](README.md) | 3 |
 
 ## Commits
 
@@ -85,6 +85,7 @@ flowchart TD
 | bob-cli | [`4771047`](https://github.com/bobs-org/bob-cli/commit/4771047e8bcc12a59b9c1dd723d078b5ffbdab84) | fix(scripts): persist notify, harden tracker apply, restore git globs | [bob-cli-kf.6](bob-cli-kf.6.md) | 2026-11-11 15:10:57 EST |
 | bob-cli | [`6e3d883`](https://github.com/bobs-org/bob-cli/commit/6e3d88370351cc416301817fab6dab01761d5bd2) | fix(git): move vault\_git tests after is\_ignored | [bob-cli-kf](README.md) | 2026-11-11 15:46:34 EST |
 | bob-cli | [`03a0aba`](https://github.com/bobs-org/bob-cli/commit/03a0aba291407d13453ad6d28beff0bd199970dd) | fix(kf): land six epic-caused defect repairs with regression tests | [bob-cli-kf](README.md) | 2026-11-11 16:21:35 EST |
+| bob-cli--plans | [`bob-cli--plans@21b0e34`](https://github.com/bobs-org/bob-cli--plans/commit/21b0e34f0e1c9f10fa9bad6394e92df3fabd622c) | docs(kf): mark security audit epic plan done | [bob-cli-kf](README.md) | 2026-11-11 16:22:06 EST |
 
 <!-- sase:referenced-by:start -->
 
