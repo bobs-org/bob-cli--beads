@@ -13,7 +13,7 @@ audit: on a scratch vault only, compare every rendered mark with `bob capture --
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k7.5](bob-cli-k7.5.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k7.5](bob-cli-k7.5.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

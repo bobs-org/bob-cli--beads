@@ -21,7 +21,7 @@ mark-core: in bob-ledger-tools, add the pure, synchronous gates, leaf predicate,
 
 - **Depends on:** [bob-cli-k7.2](bob-cli-k7.2.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-k7.3](bob-cli-k7.3.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k7.5](bob-cli-k7.5.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k7.5](bob-cli-k7.5.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -34,3 +34,15 @@ mark-core: in bob-ledger-tools, add the pure, synchronous gates, leaf predicate,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@e2a5701`](https://github.com/bobs-org/bob-plugins/commit/e2a57015245d74018c6e6214688444ce3fbcf608) | feat(ledger-tools): add keep-moving project marks | [bob-cli-k7.4](bob-cli-k7.4.md) | 2026-11-11 10:23:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k7.4--4][1] | Confirm phase state and recorded clean-base failures before completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k7.4.md
+
+<!-- sase:referenced-by:end -->
