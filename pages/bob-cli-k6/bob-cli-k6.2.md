@@ -32,3 +32,15 @@ svg-vector-render: extend the Mermaid diagram pass and adapter protocol so local
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7eb8244`](https://github.com/bobs-org/bob-cli/commit/7eb82440731f94ffc65177b1ab94a2fa708bd447) | feat(highlights): render local SVG embeds as vector PDFs | [bob-cli-k6.2](bob-cli-k6.2.md) | 2026-11-11 09:45:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k6.2][1] | Need full notes, history, and remaining work for this phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k6.2/README.md
+
+<!-- sase:referenced-by:end -->

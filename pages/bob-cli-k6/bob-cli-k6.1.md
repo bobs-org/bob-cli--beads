@@ -40,7 +40,9 @@ svg-image-guard: add an always-on Lua image filter that swaps SVG embeds for a s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k6.1][1] | Need the phase scope, recorded prior work, epic decisions, and design file before implementing | 1 |
+| read-by | [agent:bob-cli-ka.1--1][2] | Need k6.1 notes about image-guard report format vs mermaid CLI failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-k6.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ka.1.md
 
 <!-- sase:referenced-by:end -->
