@@ -21,7 +21,7 @@ index-sync: expose albums sync using host_catalog transactions, run its lock-fre
 
 - **Depends on:** [bob-cli-k3.5.1.1](bob-cli-k3.5.1.1.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-k3.5.1.2](bob-cli-k3.5.1.2.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.6.1.3](../bob-cli-kd/bob-cli-kd.6.1.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.6.1.3](../bob-cli-kd/bob-cli-kd.6.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

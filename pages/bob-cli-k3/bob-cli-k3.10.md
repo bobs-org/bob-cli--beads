@@ -14,13 +14,7 @@ ledger-mining: when accepted, rewrite the 653 mappable `[[eat#<lid>]]` spending 
 ## Dependencies
 
 - **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ◐ · ⧖ 2026-11-11
-- **Depends on:** [bob-cli-k3.9](bob-cli-k3.9.md) ◐ · ⧖ 2026-11-11
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-k3.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.10/README.md) | [bob-cli-k3.10](bob-cli-k3.10.md) | 0 |
+- **Depends on:** [bob-cli-k3.9](bob-cli-k3.9.md) ✓ · ⧖ 2026-11-11
 
 <!-- sase:referenced-by:start -->
 

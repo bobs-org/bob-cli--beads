@@ -21,3 +21,21 @@ plugins-albums: in bob-ledger-tools, style the `[!albums]` and `[!records]` call
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.4b.cld][1] | Check status of the plugin album header phase which covers the record property row and schema card | 1 |
+| read-by | [agent:research.4b.gem][2] | Understand phase 7 scope and status for obsidian album cards and header | 1 |
+| read-by | [agent:research.4b.grk][3] | Need the Obsidian album cards/header phase that should render the record field | 1 |
+| read-by | [agent:research.4b.mus][4] | research record frontmatter Obsidian rendering | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.gem/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
+
+<!-- sase:referenced-by:end -->

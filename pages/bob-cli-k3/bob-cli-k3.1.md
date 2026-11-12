@@ -23,4 +23,4 @@ vault-cleanup: with today's bob and no code, point eat at body, podcasts at dev,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.9](bob-cli-k3.9.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.9](bob-cli-k3.9.md) ✓ · ⧖ 2026-11-11

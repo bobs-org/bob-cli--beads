@@ -21,7 +21,7 @@ album-catalog: write one stable `[!albums]` row per album into each owner's `## 
 
 - **Depends on:** [bob-cli-k3.5](bob-cli-k3.5.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k3.7](bob-cli-k3.7.md) ◐ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.9](bob-cli-k3.9.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.9](bob-cli-k3.9.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

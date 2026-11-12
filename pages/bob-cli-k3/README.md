@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/album_and_record_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_and_record_notes.md
 
@@ -30,7 +30,7 @@ Every record note reaches an area of responsibility. Each record collection (eat
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-k3.1](bob-cli-k3.1.md) | Vault-only cleanup — owners, the eat.md de-zorg, and record health | ✓ closed | medium | 2026-11-11 | 0 | 0 |
-| [bob-cli-k3.10](bob-cli-k3.10.md) | Link the spending ledger to restaurant records and backfill visited | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [bob-cli-k3.10](bob-cli-k3.10.md) | Link the spending ledger to restaurant records and backfill visited | ◐ in_progress | medium | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.11](bob-cli-k3.11.md) | Retire config-declared records, end-to-end proof, docs audit, and memory | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.2](bob-cli-k3.2.md) | Album recognition, the vault schema registry, and bob albums list and check | ✓ closed | large | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.3](bob-cli-k3.3.md) | Shared host-catalog region engine extracted from notebooks | ✓ closed | medium | 2026-11-11 | 1 | 1 |
@@ -39,7 +39,7 @@ Every record note reaches an area of responsibility. Each record collection (eat
 | [bob-cli-k3.6](bob-cli-k3.6.md) | The Albums catalog in owner notes, and bob albums create | ✓ closed | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.7](bob-cli-k3.7.md) | Obsidian album cards, live chips, and the album header | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [bob-cli-k3.8](bob-cli-k3.8.md) | Bob Mac Capture presents albums | ✓ closed | medium | 2026-11-11 | 1 | 0 |
-| [bob-cli-k3.9](bob-cli-k3.9.md) | Album cutover in the vault, then delete records from chezmoi | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [bob-cli-k3.9](bob-cli-k3.9.md) | Album cutover in the vault, then delete records from chezmoi | ✓ closed | medium | 2026-11-11 | 1 | 0 |
 
 ## Lineage
 
@@ -74,12 +74,12 @@ flowchart TD
     n26["bob-cli-k3.7: Obsidian album cards, live chips, and the album header [in_progress]"]
     n27["bob-cli-k3.7.1: Obsidian album cards, live chips, headers, and navigation [in_progress]"]
     n28["bob-cli-k3.7.1.1: Shared album reports and debounced sync [closed]"]
-    n29["bob-cli-k3.7.1.2: Owner album cards and lead-group navigation [in_progress]"]
+    n29["bob-cli-k3.7.1.2: Owner album cards and lead-group navigation [closed]"]
     n30["bob-cli-k3.7.1.3: Record index cards with folds and date chips [in_progress]"]
     n31["bob-cli-k3.7.1.4: Album breadcrumb and read-only schema header [in_progress]"]
     n32["bob-cli-k3.7.1.5: Album and record kinds in navigation [in_progress]"]
     n33["bob-cli-k3.8: Bob Mac Capture presents albums [closed]"]
-    n34["bob-cli-k3.9: Album cutover in the vault, then delete records from chezmoi [in_progress]"]
+    n34["bob-cli-k3.9: Album cutover in the vault, then delete records from chezmoi [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -149,7 +149,6 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-k3.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.2.1.1.md) | [bob-cli-k3.2.1.1](bob-cli-k3.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-k3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.3.md) | [bob-cli-k3.3](bob-cli-k3.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.10/README.md) | [bob-cli-k3.10](bob-cli-k3.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.2/README.md) | [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.3.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 1 |
@@ -172,7 +171,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.6.1.land.md) | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.1/README.md) | [bob-cli-k3.7.1.1](bob-cli-k3.7.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.2/README.md) | [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.2.md) | [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.3/README.md) | [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.4/README.md) | [bob-cli-k3.7.1.4](bob-cli-k3.7.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.5/README.md) | [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) | 0 |
@@ -208,6 +207,7 @@ flowchart TD
 | bob-cli | [`0c8df96`](https://github.com/bobs-org/bob-cli/commit/0c8df969406611b9db4170ce5cb24df1eca15385) | fix(albums): guard create collisions, catalog deps, and records-init claims | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 2026-11-11 22:57:55 EST |
 | bob-cli--plans | [`bob-cli--plans@7454ff5`](https://github.com/bobs-org/bob-cli--plans/commit/7454ff50e20e9faa1a30077fe9fa255cd22f12ef) | chore(plans): mark album\_catalog\_and\_create done | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 2026-11-11 22:58:45 EST |
 | bob-plugins | [`bob-plugins@9c79123`](https://github.com/bobs-org/bob-plugins/commit/9c79123181c1306ae58595e3982181083a1b1613) | feat(albums): shared album report/sync service with debounced sync and tests | [bob-cli-k3.7.1.1](bob-cli-k3.7.1.1.md) | 2026-11-11 23:40:42 EST |
+| bob-plugins | [`bob-plugins@bd6fc41`](https://github.com/bobs-org/bob-plugins/commit/bd6fc416960c49808d4a542c61d80ab3501a64a9) | feat(ledger-tools): add owner album cards and group navigation | [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) | 2026-11-12 07:31:10 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -221,6 +221,12 @@ flowchart TD
 | read-by | [agent:research.47.gem][4] | research bank album design context | 1 |
 | read-by | [agent:research.47.grk][5] | Need the albums epic context before designing a bank album | 1 |
 | read-by | [agent:research.47.mus][6] | Research bank album needs album epic context | 1 |
+| read-by | [agent:research.4b.cdx][7] | Understand the accepted record model and implementation scope before designing Obsidian editing | 1 |
+| read-by | [agent:research.4b.cld][8] | Context on the record frontmatter field for research on rendering it in Obsidian | 1 |
+| read-by | [agent:research.4b.final][9] | Context on the record frontmatter field for consolidating research on its Obsidian rendering UX | 1 |
+| read-by | [agent:research.4b.gem][10] | Research context on the record frontmatter field for Obsidian rendering and editing UX | 1 |
+| read-by | [agent:research.4b.grk][11] | Need epic context for the record frontmatter field that currently renders as truncated JSON in Obsidian Properties | 1 |
+| read-by | [agent:research.4b.mus][12] | research record frontmatter render in Obsidian | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.cdx/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.cld/README.md
@@ -228,5 +234,11 @@ flowchart TD
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.gem/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.grk/README.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.47.mus/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cdx/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cld/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.final/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.gem/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
 
 <!-- sase:referenced-by:end -->

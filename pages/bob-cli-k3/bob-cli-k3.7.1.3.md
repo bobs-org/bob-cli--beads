@@ -13,7 +13,7 @@ records-cards: implement styled records tally, view-only folding after the first
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k3.7.1.4](bob-cli-k3.7.1.4.md) ◐ · ⧖ 2026-11-11
 
 ## Agents
@@ -21,3 +21,15 @@ records-cards: implement styled records tally, view-only folding after the first
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-k3.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.3/README.md) | [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.4b.mus][1] | research record frontmatter Obsidian rendering | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/album_plugin_ui.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_plugin_ui.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,21 @@ Complete bob-cli-k3.7 with report-driven album and record cards, album headers, 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-k3.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.land/README.md) | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.4b.cld][1] | Check child epic for plugin album header and schema card status | 1 |
+| read-by | [agent:research.4b.gem][2] | Check child tasks under phase 7 | 1 |
+| read-by | [agent:research.4b.grk][3] | Need child epic details for Obsidian album cards and schema rendering | 1 |
+| read-by | [agent:research.4b.mus][4] | research record frontmatter Obsidian rendering | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.gem/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
+
+<!-- sase:referenced-by:end -->

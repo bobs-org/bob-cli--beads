@@ -23,7 +23,7 @@ album-data: implement schema-v1 report and sync decoders, shared stale-while-rev
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -36,3 +36,15 @@ album-data: implement schema-v1 report and sync decoders, shared stale-while-rev
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@9c79123`](https://github.com/bobs-org/bob-plugins/commit/9c79123181c1306ae58595e3982181083a1b1613) | feat(albums): shared album report/sync service with debounced sync and tests | [bob-cli-k3.7.1.1](bob-cli-k3.7.1.1.md) | 2026-11-11 23:40:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.7.1.1][1] | Verify bead state before final declaration | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->

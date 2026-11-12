@@ -16,7 +16,7 @@ albums-wrapup: remove the config `records:` reader and its transition fallback, 
 - **Depends on:** [bob-cli-k3.10](bob-cli-k3.10.md) ◐ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-k3.7](bob-cli-k3.7.md) ◐ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-k3.8](bob-cli-k3.8.md) ✓ · ⧖ 2026-11-11
-- **Depends on:** [bob-cli-k3.9](bob-cli-k3.9.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.9](bob-cli-k3.9.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
