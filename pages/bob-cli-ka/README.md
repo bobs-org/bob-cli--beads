@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-ka
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1b9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1b9.md) · **Assignee:** `bob-cli-ka.land`
-**Created:** 2026-11-11 09:22:46 EST
+**Created:** 2026-11-11 09:22:46 EST · **Closed:** 2026-11-11 19:14:18 EST
 **Plan:** [202611/notebook\_section\_bullets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/notebook_section_bullets.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,8 @@ In any capture draft whose bullets land directly in a notebook body (a route-onl
 
 [2026-11-11T23:44:48Z · bob-cli-ka.land] LAND AUDIT (bob-cli-ka.land): Phases 1-6 verified against source and a scratch vault on master 300a6e81. Resolver ambiguity and typed capitals, the staged view (bug 5), grammar-26 section bullets (placement, merging, %n order, every refusal, \#, needs, fanout marker), the menu, place_menu on populated menus, the '- /' alias including negatives, and the glossary all behave as specified. CLI capture:: (1883) and lib capture (2089) tests pass. bob-mac-capture 7fceb52 passed exact-SHA macOS CI run 43117124821. Integration: the post-start commits 04cba0fa (configured-timezone stamps, threaded into the %n seed path) and the album commits 8edd5a5f/3d1c0763/6e421597/b79ea376/300a6e81 do not conflict; GRAMMAR_REVISION stays 26. Remaining epic-caused defects, planned as a closeout tale: (a) empty notebook section menus omit place_menu, query, and initial_selection (ka.5 follow-up); (b) bullet rows spell multi-word titles as slugs ('api-design') instead of quoted titles; (c) create rows drop typed capitals: '#API-keys' advertises 'API Keys' but splices 'api-keys', which parses to 'Api Keys', breaking the round-trip invariant; (d) the glued 'Note @nb#Zeta' menu lists its own selector as a 'draft' row instead of the create row.
 
+[2026-11-12T00:14:18Z · bob-cli-ka.land] All six phases were verified against source and a scratch vault on 300a6e81: resolver ambiguity and typed capitals; staged view; grammar-26 section bullets with placement, merge, refusals, and \#; menu and place_menu; the - / alias; glossary. The Mac place menu was green on exact-SHA macOS CI run 43117124821 for bob-mac-capture 7fceb52. This closeout fixes four defects in commit cd251a3: empty notebook menus omitted chrome, query, and initial selection; bullet rows used slugs for multi-word titles; create replacements lost typed capitals; and the glued selector under the caret appeared as a draft row. LAND TRIAGE already recorded: ka.1--1 declined as fixed by bob-cli-k6.2 7eb82440; ka.3 #1, ka.4 #1, and ka.6 #1 docs word-budget reports declined as tracked by bob-cli-jz and bob-cli-h9, with lint passing; ka.3 #2 unreadable-note warning declined after both warning tests passed; ka.5 #1 empty menu fixed here; ka.5--3 duplicate +1 recorded on bob-cli-jy and appears fixed by bob-mac-capture 1e83c03 in bob-cli-kj.1; epic notes #1/#2 resolved by bob-mac-capture 26e9f0a and 7fceb52, with the exact-SHA CI run green. The three strict docs-check links remain tracked on bob-cli-kk and noted on bob-cli-kb.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,7 +50,7 @@ In any capture draft whose bullets land directly in a notebook body (a route-onl
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-ka: Notebook section bullets in capture [in_progress]"]
+    n0["bob-cli-ka: Notebook section bullets in capture [closed]"]
     n1["bob-cli-ka.1: One section resolver, a staged view, and the silent-wrong fixes [closed]"]
     n2["bob-cli-ka.2: Grammar 26 section bullets for @nb lists and %n creation [closed]"]
     n3["bob-cli-ka.3: The notebook section menu and Bob-authored place-menu chrome [closed]"]
@@ -82,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ka.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.4/README.md) | [bob-cli-ka.4](bob-cli-ka.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ka.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.5.md) | [bob-cli-ka.5](bob-cli-ka.5.md) | 3 |
 | [bbugyi200.athena.bob-cli-ka.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ka.6/README.md) | [bob-cli-ka.6](bob-cli-ka.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-ka.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.land.md) | [bob-cli-ka](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-ka.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.land.md) | [bob-cli-ka](README.md) | 2 |
 
 ## Commits
 
@@ -97,3 +99,4 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@26e9f0a`](https://github.com/bobs-org/bob-mac-capture/commit/26e9f0a8661e0013e6baf73381c95dde29243548) | fix(capture): use accessibilityHint for notebook section editor help | [bob-cli-ka.5](bob-cli-ka.5.md) | 2026-11-11 16:38:09 EST |
 | bob-mac-capture | [`bob-mac-capture@7fceb52`](https://github.com/bobs-org/bob-mac-capture/commit/7fceb525141f5facb2a7d7de94efbdf9362d6839) | fix(capture): keep drawer Tab accept and clear create-section underlines | [bob-cli-ka.5](bob-cli-ka.5.md) | 2026-11-11 18:05:43 EST |
 | bob-cli | [`cd251a3`](https://github.com/bobs-org/bob-cli/commit/cd251a3e6117b3b3b0e1f3a4cda6529304e93d61) | fix(capture): complete notebook section menu round-trips | [bob-cli-ka](README.md) | 2026-11-11 19:13:27 EST |
+| bob-cli--plans | [`bob-cli--plans@f04f277`](https://github.com/bobs-org/bob-cli--plans/commit/f04f277ede3a093b25217d3e621cf1786d0d4293) | docs(plans): mark notebook section bullets complete | [bob-cli-ka](README.md) | 2026-11-11 19:15:50 EST |
