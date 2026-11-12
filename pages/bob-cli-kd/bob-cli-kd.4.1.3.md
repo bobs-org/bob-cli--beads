@@ -20,7 +20,7 @@ import-command: integrate bob bank import, ordered guarded journal appends insid
 ## Dependencies
 
 - **Depends on:** [bob-cli-kd.4.1.2](bob-cli-kd.4.1.2.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ import-command: integrate bob bank import, ordered guarded journal appends insid
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d9f0539`](https://github.com/bobs-org/bob-cli/commit/d9f0539f61830be7296f311f086496c1fd491cbb) | feat(bank): add guarded import command and recovery | [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) | 2026-11-11 19:20:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kd.4.1.3--3][1] | Need the assigned phase scope and current recorded state before closing after green verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.3.md
+
+<!-- sase:referenced-by:end -->

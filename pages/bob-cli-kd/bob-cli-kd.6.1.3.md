@@ -25,6 +25,9 @@ bank-ui-cards: render bob-bank month and queue fences and the daily bob-plan chi
 
 [2026-11-11T21:46:48Z · bob-cli-kd.6.1.3] Implemented synthetic-fixture month and queue cards plus the daily plan chip. Verified plugin build; 167 bank/day-strip/build regression tests passed; docs inventory and manifest validation passed. Synthetic text captures are attached as file:explicit:406f620cf619e73fcdb56669. Deployment and closure remain blocked by the protected uncommitted bob-ledger-tools build from active author bob-cli-k3.5.1.3; the plugin deployment runbook requires waiting for that author, and no force overwrite was attempted. Docs lint still reports eight word-budget failures; the base docs reproduce the same eight.
 
+[2026-11-12T00:28:28Z · bob-cli-kd.6.1.3--3] Rollout attempt 2026-11-11/12: `npx --yes --package=node@22 -- npm test -- scripts/test-obsidian-startup-smoke.cjs` timed out after 1h (monitor 9enbyvbd39z0, exit -9), while the configured full test list was still progressing at test 1867; no assertion failure was reported. The package test script appends the requested filename to its full explicit test list, so this command does not filter to the smoke unit test. The chain stopped before help, isolated smoke, build check, sync, or deployed smoke; neither `/tmp/obsidian-smoke-isolated.json` nor `/tmp/obsidian-smoke-deployed.json` exists. Retrying with a 2h budget.
+PROPOSED FOLLOW-UP: Make the rollout documentation targeted startup smoke test command actually run only `scripts/test-obsidian-startup-smoke.cjs`, or document the full-suite cost; `npm test -- <file>` currently runs the full package test list.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.5.1.3](../bob-cli-k3/bob-cli-k3.5.1.3.md) ✓ · ⧖ 2026-11-11
