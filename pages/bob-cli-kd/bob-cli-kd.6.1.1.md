@@ -25,13 +25,7 @@ bank-ui-data: implement the bank JSON boundary, cached reads, invalidation, sour
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md) | [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@8a1daca`](https://github.com/bobs-org/bob-plugins/commit/8a1daca7b0757c48fcf9f068f7bcccac3561a87f) | feat(ledger-tools): add bank JSON data service and presentation models | [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) | 2026-11-11 14:57:25 EST |
+| [bbugyi200.athena.bob-cli-kd.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md) | [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -40,11 +34,13 @@ bank-ui-data: implement the bank JSON boundary, cached reads, invalidation, sour
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.6.1.1][1] | Need the phase scope and design file | 3 |
-| read-by | [agent:research.49.cld][2] | research: what shipped in this phase for the bank user guide e2e test | 1 |
-| read-by | [agent:research.49.mus][3] | obsidian data phase done scope for guide | 1 |
+| read-by | [agent:bob-cli-kd.6.1.5][2] | Need sibling phase close notes and evidence refs | 2 |
+| read-by | [agent:research.49.cld][3] | research: what shipped in this phase for the bank user guide e2e test | 1 |
+| read-by | [agent:research.49.mus][4] | obsidian data phase done scope for guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->

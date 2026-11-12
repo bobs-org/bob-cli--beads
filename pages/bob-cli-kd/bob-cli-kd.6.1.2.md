@@ -30,13 +30,7 @@ bank-ui-gestures: implement exact-selection acknowledgment, open-today and ackno
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.2/README.md) | [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@c35662b`](https://github.com/bobs-org/bob-plugins/commit/c35662bf5bf262c9673dd5accc67d7632e561b80) | feat(ledger-tools): add bank action service and cycler bank-row guards | [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) | 2026-11-11 15:51:18 EST |
+| [bbugyi200.athena.bob-cli-kd.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.2/README.md) | [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -45,9 +39,11 @@ bank-ui-gestures: implement exact-selection acknowledgment, open-today and ackno
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.6.1.2][1] | Need the phase scope and design file | 2 |
-| read-by | [agent:research.49.final][2] | kd.6.1.2 closed after the researchers ran; need what gestures/commands shipped for tomorrow's guide | 1 |
+| read-by | [agent:bob-cli-kd.6.1.5][2] | Need earlier phase evidence and landed commits | 2 |
+| read-by | [agent:research.49.final][3] | kd.6.1.2 closed after the researchers ran; need what gestures/commands shipped for tomorrow's guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
 
 <!-- sase:referenced-by:end -->

@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-kd](README.md) / bob-cli-kd.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1be](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1be.md) · **Assignee:** `bob-cli-kd.5` · **Size:** medium
-**Created:** 2026-11-11 11:24:16 EST
+**Created:** 2026-11-11 11:24:16 EST · **Closed:** 2026-11-12 07:44:49 EST
 **Plan:** [202611/bank\_daily\_acknowledgment.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_daily_acknowledgment.md)
 
 ## Description
 
 bank-balance: derive each account's anchor from the bank's own numbers, prove coverage, presence, and balance, report possible twins, unmatched typed rows, and edited amounts, and fill account status in check, list, report, and import. Add `import -F` to restore deleted rows deliberately.
+
+## Notes
+
+[2026-11-12T12:39:15Z · bob-cli-kd.5] PROPOSED FOLLOW-UP: Fix the dangling plugin validation link in docs/develop/plugins/validation.md:55; it makes strict docs-check fail while lint and generated checks pass.
+
+[2026-11-12T12:41:31Z · bob-cli-kd.5] PROPOSED FOLLOW-UP: Bring docs/reference/plugins/bob-ledger-tools.md under the 6000-word reference cap; docs lint currently reports 6012 words, and the page is unchanged by this phase.
+
+[2026-11-12T12:44:49Z · bob-cli-kd.5] Implemented QFX anchor, coverage, balance/presence findings and derived account status across check/list/report/import; added -F missing-row restoration and docs. Verified 114 bank tests, docs-gen, cargo fmt --check, and git diff --check. docs-check remains blocked by unchanged docs/reference/plugins/bob-ledger-tools.md word cap and the dangling link in docs/develop/plugins/validation.md:55; both follow-ups are recorded.
 
 ## Dependencies
 
@@ -20,7 +28,13 @@ bank-balance: derive each account's anchor from the bank's own numbers, prove co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md) | [bob-cli-kd.5](bob-cli-kd.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md) | [bob-cli-kd.5](bob-cli-kd.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`c1e2839`](https://github.com/bobs-org/bob-cli/commit/c1e28399c517a1a9b32c953b1b5bd2328699d318) | feat(bank): verify balances and restore missing rows | [bob-cli-kd.5](bob-cli-kd.5.md) | 2026-11-12 08:06:20 EST |
 
 <!-- sase:referenced-by:start -->
 

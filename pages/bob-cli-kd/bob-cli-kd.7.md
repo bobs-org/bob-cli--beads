@@ -14,7 +14,7 @@ bank-wrapup: walk every bank gesture end to end in a temporary vault, write the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-kd.1](bob-cli-kd.1.md) ✓ · ⧖ 2026-11-11
-- **Depends on:** [bob-cli-kd.5](bob-cli-kd.5.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kd.5](bob-cli-kd.5.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-kd.6](bob-cli-kd.6.md) ◐ · ⧖ 2026-11-11
 
 ## Agents
