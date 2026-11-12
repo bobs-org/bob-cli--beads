@@ -13,7 +13,7 @@ schema-command: expose albums update through the CLI and completion, integrate t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kr.2.1.2](bob-cli-kr.2.1.2.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kr.2.1.2](bob-cli-kr.2.1.2.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
