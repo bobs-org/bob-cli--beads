@@ -17,7 +17,7 @@
 | related | file:explicit:0f0772d7cfd9fab573bd4a19 | attached via sase artifact create --bead |
 | related | file:explicit:f1a42eafbd40c70d5d0a8f74 | attached via sase artifact create --bead |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_import.md
 
@@ -47,13 +47,7 @@ SYMBOLS/CLOSEOUT: epic-symbols kd.4.1 and kd.4 both empty; no symvision recipe. 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md) | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`ae6a28d`](https://github.com/bobs-org/bob-cli/commit/ae6a28d07c023ab7ee8bd518d0fcff26739e4178) | fix(bank): harden import planning and recovery | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 2026-11-11 22:08:28 EST |
+| [bbugyi200.athena.bob-cli-kd.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md) | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -63,18 +57,20 @@ SYMBOLS/CLOSEOUT: epic-symbols kd.4.1 and kd.4 both empty; no symvision recipe. 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.4.1.1][1] | Need parent epic DECISIONS and remaining work notes | 1 |
 | read-by | [agent:bob-cli-kd.4.1.4][2] | check child epic phases status | 1 |
-| read-by | [agent:research.49.cld][3] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
-| read-by | [agent:research.49.final][4] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
-| read-by | [agent:research.49.gem][5] | Understand phase 4.1 import implementation status | 1 |
-| read-by | [agent:research.49.grk][6] | Need import child-epic phase list so the e2e scorecard is accurate | 1 |
-| read-by | [agent:research.49.mus][7] | kd import child epic status for guide | 1 |
+| read-by | [agent:bob-cli-kd.4.1.land--1][3] | Verify the just check diagnosis was appended and the repair epic remains open | 2 |
+| read-by | [agent:research.49.cld][4] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
+| read-by | [agent:research.49.final][5] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
+| read-by | [agent:research.49.gem][6] | Understand phase 4.1 import implementation status | 1 |
+| read-by | [agent:research.49.grk][7] | Need import child-epic phase list so the e2e scorecard is accurate | 1 |
+| read-by | [agent:research.49.mus][8] | kd import child epic status for guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.4/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->

@@ -27,13 +27,7 @@ docs-ritual: finish the import and sync documentation, regenerate CLI references
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.4/README.md) | [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`b8c7118`](https://github.com/bobs-org/bob-cli/commit/b8c71181f28dee1ee9b9847d429c305ee3f83f17) | docs(bank): document bank import contract, journal, and JSON output | [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) | 2026-11-11 19:54:58 EST |
+| [bbugyi200.athena.bob-cli-kd.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.4/README.md) | [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

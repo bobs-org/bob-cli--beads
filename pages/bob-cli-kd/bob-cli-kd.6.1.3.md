@@ -30,6 +30,8 @@ PROPOSED FOLLOW-UP: Make the rollout documentation targeted startup smoke test c
 
 [2026-11-12T02:50:50Z · bob-cli-kd.6.1.3--4] Rollout resume 2026-11-12: fetched origin/master and fast-forwarded the opened bob-plugins checkout to d94c6bb; protected deploy commit d532aad and earlier landed build e8a776e are reachable. Clean sync on the landed checkout passed without force (0 copied, 0 skipped, 3 unchanged); after restoring UI changes, dry-run previewed only bob-ledger-tools, and the final non-force sync copied manifest.json, main.js, and styles.css (3 copied, 0 skipped, 0 unchanged; version 1.111.1). Node 22 checks passed: bank/day-strip tests 119/119, direct startup-smoke unit tests 17/17, build:check, docs inventory, manifest validation 10/10, and smoke help. Isolated smoke /tmp/obsidian-smoke-isolated-final.json passed from d94c6bb: 364 ms layout-ready, all four editor cases, 40.3 MiB heap, no exceptions/rejections/crashes. Post-sync deployed-vault smoke /tmp/obsidian-smoke-deployed-final.json passed: 344 ms, 10/10 plugins synced, zero drift or missing plugins, bob-ledger-tools 1.111.1 synced, all four editor cases, no exceptions/rejections/crashes. npm run docs:check exits 1 on docs/reference/plugins/bob-ledger-tools.md:1 at 6221 words versus cap 6000; prior phase verification established the same word-budget baseline with the original plugin documentation restored. Corrected the rollout guide to run the focused smoke test with node --test and the full suite with npm test. Full npm test is pending monitored verification; earlier pre-refactor runs timed out without assertion failures.
 
+[2026-11-12T06:03:33Z · bob-cli-kd.6.1.3--5] Rollout resume 2026-11-12: npx --yes --package=node@22 -- npm test timed out after 3h 0m 5s; monitor mna01jdbzg58, retained log file:monitor-retained-log:mna01jdbzg58, diagnostics file:monitor-diagnostic-manifest:mna01jdbzg58. Build freshness and docs inventory passed, then test:unit emitted through test 1864 (shared report command remains keyed once by the period id) with no reported assertion failure or TAP summary and did not return; test:perf was not reached. Full-suite gate remains unresolved, so this phase stays in progress. Epic-symbol check reports no entries. PROPOSED FOLLOW-UP: Diagnose why the full bob-plugins unit suite does not exit on the clean base and repair the runner or lingering handle so npm test completes.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.5.1.3](../bob-cli-k3/bob-cli-k3.5.1.3.md) ✓ · ⧖ 2026-11-11
@@ -40,4 +42,10 @@ PROPOSED FOLLOW-UP: Make the rollout documentation targeted startup smoke test c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.3.md) | [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.3.md) | [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@564f3c1`](https://github.com/bobs-org/bob-plugins/commit/564f3c1087e3bf1f4a03854a15e905e08c253301) | feat(bob-ledger-tools): render bank cards and daily chip | [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) | 2026-11-12 01:47:49 EST |

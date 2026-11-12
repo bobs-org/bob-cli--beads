@@ -36,18 +36,20 @@ bank-import: parse Wells Fargo QFX (OFX 1.x SGML and 2.x XML) plus one CSV profi
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.4.1.1][1] | Need parent phase DECISIONS that remain final | 1 |
 | read-by | [agent:bob-cli-kd.4.1.4][2] | Need parent epic DECISIONS for docs-ritual phase | 1 |
-| read-by | [agent:research.49.cdx][3] | Separate implemented daily CLI from remaining import, proof, and UI acceptance work | 1 |
-| read-by | [agent:research.49.cld][4] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
-| read-by | [agent:research.49.gem][5] | Understand phase 4 import commands | 1 |
-| read-by | [agent:research.49.grk][6] | Need import, balance, and Obsidian child-epic status so the first-run guide does not promise unshipped gestures | 1 |
-| read-by | [agent:research.49.mus][7] | research kd epic phase scope for user guide | 1 |
+| read-by | [agent:bob-cli-kd.4.1.land--1][3] | Verify the just check diagnosis was appended and the phase remains open | 2 |
+| read-by | [agent:research.49.cdx][4] | Separate implemented daily CLI from remaining import, proof, and UI acceptance work | 1 |
+| read-by | [agent:research.49.cld][5] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
+| read-by | [agent:research.49.gem][6] | Understand phase 4 import commands | 1 |
+| read-by | [agent:research.49.grk][7] | Need import, balance, and Obsidian child-epic status so the first-run guide does not promise unshipped gestures | 1 |
+| read-by | [agent:research.49.mus][8] | research kd epic phase scope for user guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.4/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->
