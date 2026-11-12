@@ -20,4 +20,4 @@ schema-writer: add bob albums update with a JSON ops envelope, dry-run diffs and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-kr.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.2/README.md) | [bob-cli-kr.2](bob-cli-kr.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.2.md) | [bob-cli-kr.2](bob-cli-kr.2.md) | 0 |
