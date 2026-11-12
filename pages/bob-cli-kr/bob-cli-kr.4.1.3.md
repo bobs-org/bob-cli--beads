@@ -24,7 +24,7 @@ schema-entrypoints: add palette and Command Mode surface entry points, the album
 ## Dependencies
 
 - **Depends on:** [bob-cli-kr.4.1.2](bob-cli-kr.4.1.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -37,3 +37,15 @@ schema-entrypoints: add palette and Command Mode surface entry points, the album
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6050124`](https://github.com/bobs-org/bob-plugins/commit/60501241910be77c9cccadbbf584cd219088010c) | feat(albums): add schema entry points and YAML return | [bob-cli-kr.4.1.3](bob-cli-kr.4.1.3.md) | 2026-11-12 15:56:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kr.4.1.3][1] | Need full phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->
