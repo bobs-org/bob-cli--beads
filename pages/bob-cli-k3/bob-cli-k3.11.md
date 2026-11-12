@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:6e5e9bf6b52022f12f5b233a | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -42,13 +42,14 @@ albums-wrapup: remove the config `records:` reader and its transition fallback, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 1 |
+| [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5e82fc8`](https://github.com/bobs-org/bob-cli/commit/5e82fc8e7d3311326b1f924fd082021a7438439f) | feat(albums): remove records config fallback | [bob-cli-k3.11](bob-cli-k3.11.md) | 2026-11-12 13:27:28 EST |
+| bob-plugins | [`bob-plugins@e0053cd`](https://github.com/bobs-org/bob-plugins/commit/e0053cd41a136f618c46d59d33ebbc5733c55f41) | docs(albums): fix records page link | [bob-cli-k3.11](bob-cli-k3.11.md) | 2026-11-12 13:34:39 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -56,8 +57,10 @@ albums-wrapup: remove the config `records:` reader and its transition fallback, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.4f.grk][1] | Need cutover/docs-audit status before recommending creating a fifth album for a blog | 1 |
+| read-by | [agent:bob-cli-k3.11][1] | Verify the transcript artifact and documented docs-check follow-up before phase closure | 3 |
+| read-by | [agent:research.4f.grk][2] | Need cutover/docs-audit status before recommending creating a fifth album for a blog | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.grk/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.grk/README.md
 
 <!-- sase:referenced-by:end -->

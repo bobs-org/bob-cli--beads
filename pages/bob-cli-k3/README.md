@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/album_and_record_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 19 automatic references — see [Referenced By](#referenced-by)._
+_Plus 20 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_and_record_notes.md
 
@@ -31,6 +31,10 @@ Every record note reaches an area of responsibility. Each record collection (eat
 
 [2026-11-12T14:55:12Z · bryanbugyi34@gmail.com] Actually that's likely caused by the bob-cli-kr epic, so you can disregard the previous note.
 
+[2026-11-12T18:09:00Z · research.4f.final] DISCOVERED ISSUE: (from research.4f lead, corroborating research.4f.cld) The generated album index tally ignores singular counts: tally_text (src/native/albums/index.rs:338-350 on master 4ed4fdab) always formats the total with the configured plural, so an album with exactly one record renders '1 zettels' / '1 restaurants' in its [!records] callout title; group fragments via tally_fragment have the same shape. Verified by reading the source on master 4ed4fdab; any new album shows it on its first captured record. Introduced by this epic's k3.5 generated-index work.
+
+[2026-11-12T18:09:19Z · research.4f.final] DISCOVERED ISSUE: (from research.4f lead, corroborating research.4f.cld) bob capture --help is stale after this epic retired config-declared records: the long_about in src/native/capture/cli.rs (master 4ed4fdab, ~line 30) still says 'Record types come from the `records:` config block; they are not Task Types', but k3.9/k3.11 moved record schemas into album frontmatter and retired the config block. k3.11's docs audit missed this CLI help text. Verified by reading the source on master 4ed4fdab.
+
 ## Attachments
 
 - 🔒 20261112\_095308.png · image/png · 2858×1728 · 358.144 KiB (private attachment)
@@ -41,7 +45,7 @@ Every record note reaches an area of responsibility. Each record collection (eat
 |---|---|---|---|---|---:|---:|
 | [bob-cli-k3.1](bob-cli-k3.1.md) | Vault-only cleanup — owners, the eat.md de-zorg, and record health | ✓ closed | medium | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.10](bob-cli-k3.10.md) | Link the spending ledger to restaurant records and backfill visited | ✓ closed | medium | 2026-11-11 | 0 | 0 |
-| [bob-cli-k3.11](bob-cli-k3.11.md) | Retire config-declared records, end-to-end proof, docs audit, and memory | ✓ closed | medium | 2026-11-11 | 1 | 1 |
+| [bob-cli-k3.11](bob-cli-k3.11.md) | Retire config-declared records, end-to-end proof, docs audit, and memory | ✓ closed | medium | 2026-11-11 | 1 | 2 |
 | [bob-cli-k3.2](bob-cli-k3.2.md) | Album recognition, the vault schema registry, and bob albums list and check | ✓ closed | large | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.3](bob-cli-k3.3.md) | Shared host-catalog region engine extracted from notebooks | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-k3.4](bob-cli-k3.4.md) | Records, capture, and completion read schemas from albums | ✓ closed | large | 2026-11-11 | 1 | 0 |
@@ -163,7 +167,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-k3.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.2.1.1.md) | [bob-cli-k3.2.1.1](bob-cli-k3.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-k3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.3.md) | [bob-cli-k3.3](bob-cli-k3.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 1 |
+| [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 2 |
 | [bbugyi200.athena.bob-cli-k3.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.2/README.md) | [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.3.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.land.md) | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 2 |
@@ -229,6 +233,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@1b8982c`](https://github.com/bobs-org/bob-plugins/commit/1b8982cf4283d1a20615e3b1f8977cebe2627444) | feat(ledger-tools): add album UI acceptance e2e and verification docs | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:24:01 EST |
 | bob-cli--plans | [`bob-cli--plans@48505cc`](https://github.com/bobs-org/bob-cli--plans/commit/48505cc0413332a3cba361aab1ac5ba3f1b53aa8) | docs(plans): mark album plugin UI epic and acceptance plans done | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:24:55 EST |
 | bob-cli | [`5e82fc8`](https://github.com/bobs-org/bob-cli/commit/5e82fc8e7d3311326b1f924fd082021a7438439f) | feat(albums): remove records config fallback | [bob-cli-k3.11](bob-cli-k3.11.md) | 2026-11-12 13:27:28 EST |
+| bob-plugins | [`bob-plugins@e0053cd`](https://github.com/bobs-org/bob-plugins/commit/e0053cd41a136f618c46d59d33ebbc5733c55f41) | docs(albums): fix records page link | [bob-cli-k3.11](bob-cli-k3.11.md) | 2026-11-12 13:34:39 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -252,9 +257,10 @@ flowchart TD
 | read-by | [agent:research.4b.mus][14] | research record frontmatter render in Obsidian | 1 |
 | read-by | [agent:research.4f.cdx][15] | Understand the record and album epic before evaluating the proposed SASE blog workflow | 1 |
 | read-by | [agent:research.4f.cld][16] | Research: context on record/album notes for blog-zettel plan | 1 |
-| read-by | [agent:research.4f.gem][17] | understand record notes and album notes for blog post research | 1 |
-| read-by | [agent:research.4f.grk][18] | Need the albums/records epic context to evaluate using record notes for a SASE blog | 1 |
-| read-by | [agent:research.4f.mus][19] | Need album/record design context for sase-blog research | 1 |
+| read-by | [agent:research.4f.final][17] | Lead researcher consolidating blog-records reports; need current album/record epic status | 1 |
+| read-by | [agent:research.4f.gem][18] | understand record notes and album notes for blog post research | 1 |
+| read-by | [agent:research.4f.grk][19] | Need the albums/records epic context to evaluate using record notes for a SASE blog | 1 |
+| read-by | [agent:research.4f.mus][20] | Need album/record design context for sase-blog research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.7/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.land/README.md
@@ -272,8 +278,9 @@ flowchart TD
 [14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
 [15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.cdx/README.md
 [16]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.cld/README.md
-[17]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.gem/README.md
-[18]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.grk/README.md
-[19]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.mus/README.md
+[17]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.final/README.md
+[18]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.gem/README.md
+[19]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.grk/README.md
+[20]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.mus/README.md
 
 <!-- sase:referenced-by:end -->
