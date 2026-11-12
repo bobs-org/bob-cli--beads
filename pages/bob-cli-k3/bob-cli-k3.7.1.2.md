@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:2f4376800ebd97798470fde7 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -38,7 +40,7 @@ owner-cards: implement hue-accented albums callouts in Reading view and Live Pre
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.7.1.1](bob-cli-k3.7.1.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -51,3 +53,15 @@ owner-cards: implement hue-accented albums callouts in Reading view and Live Pre
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@bd6fc41`](https://github.com/bobs-org/bob-plugins/commit/bd6fc416960c49808d4a542c61d80ab3501a64a9) | feat(ledger-tools): add owner album cards and group navigation | [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) | 2026-11-12 07:31:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.7.1.2--1][1] | Need phase scope, design file, prior baseline failures, and remaining verification work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.2.md
+
+<!-- sase:referenced-by:end -->

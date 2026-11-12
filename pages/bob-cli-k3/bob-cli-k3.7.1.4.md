@@ -17,7 +17,7 @@ album-header: implement path-resolved breadcrumb, copy-capture affordance, repor
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) ◐ · ⧖ 2026-11-11
 
 ## Agents

@@ -25,6 +25,10 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-k3.7 with report-driven album and record cards, album headers, correct parent and task-home pickers, and a tested, documented plugin deployment.
 
+## Dependencies
+
+- **Blocks:** [bob-cli-kr.3](../bob-cli-kr/bob-cli-kr.3.md) ◐ · ⧖ 2026-11-12
+
 ## Agents
 
 | Agent | Bead | Commits |
