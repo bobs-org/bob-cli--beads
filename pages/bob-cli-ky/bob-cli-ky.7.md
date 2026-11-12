@@ -13,7 +13,7 @@ ship: update bob-plugins and bob-cli docs that say the review footer is persiste
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ky.6](bob-cli-ky.6.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-ky.6](bob-cli-ky.6.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

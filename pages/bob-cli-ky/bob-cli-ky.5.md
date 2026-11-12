@@ -18,7 +18,7 @@ dot: ledger pushes a display-only attention value when review commitments are du
 ## Dependencies
 
 - **Depends on:** [bob-cli-ky.4](bob-cli-ky.4.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-ky.6](bob-cli-ky.6.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-ky.6](bob-cli-ky.6.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -31,3 +31,15 @@ dot: ledger pushes a display-only attention value when review commitments are du
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@c7a500e`](https://github.com/bobs-org/bob-plugins/commit/c7a500e43207df63c4c80246f6a5d23e711e54cb) | feat(navigation): add review attention dot to walk selector | [bob-cli-ky.5](bob-cli-ky.5.md) | 2026-11-12 15:03:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ky.5][1] | Need the phase scope, design file, decisions, and prior work notes before implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.5/README.md
+
+<!-- sase:referenced-by:end -->

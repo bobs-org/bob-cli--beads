@@ -32,7 +32,7 @@ Obsidian's status bar shows exactly one walker footer that matches the persisted
 | [bob-cli-ky.3](bob-cli-ky.3.md) | Lane footer for the w walk | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-ky.4](bob-cli-ky.4.md) | nav links() and the links footer for the n walk | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-ky.5](bob-cli-ky.5.md) | Review attention dot on the selector's s | ✓ closed | small | 2026-11-12 | 1 | 1 |
-| [bob-cli-ky.6](bob-cli-ky.6.md) | Visual previews, e2e, and placement | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
+| [bob-cli-ky.6](bob-cli-ky.6.md) | Visual previews, e2e, and placement | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-ky.7](bob-cli-ky.7.md) | Docs, memory, and deploy | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
 
 ## Lineage
@@ -45,7 +45,7 @@ flowchart TD
     n3["bob-cli-ky.3: Lane footer for the w walk [closed]"]
     n4["bob-cli-ky.4: nav links() and the links footer for the n walk [closed]"]
     n5["bob-cli-ky.5: Review attention dot on the selector's s [closed]"]
-    n6["bob-cli-ky.6: Visual previews, e2e, and placement [in_progress]"]
+    n6["bob-cli-ky.6: Visual previews, e2e, and placement [closed]"]
     n7["bob-cli-ky.7: Docs, memory, and deploy [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ky.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.3/README.md) | [bob-cli-ky.3](bob-cli-ky.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ky.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.4.md) | [bob-cli-ky.4](bob-cli-ky.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ky.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.5/README.md) | [bob-cli-ky.5](bob-cli-ky.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-ky.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.6/README.md) | [bob-cli-ky.6](bob-cli-ky.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-ky.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.6/README.md) | [bob-cli-ky.6](bob-cli-ky.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ky.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.7/README.md) | [bob-cli-ky.7](bob-cli-ky.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-ky.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.land/README.md) | [bob-cli-ky](README.md) | 0 |
 
@@ -84,3 +84,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@394b793`](https://github.com/bobs-org/bob-plugins/commit/394b793ea7be226c090c9654c3c3af8bec2bc040) | feat(ledger-tools): add bracket walk lane footer | [bob-cli-ky.3](bob-cli-ky.3.md) | 2026-11-12 13:56:06 EST |
 | bob-plugins | [`bob-plugins@3fc55c9`](https://github.com/bobs-org/bob-plugins/commit/3fc55c911cecca84be0e9a80ddf7a26180ab5894) | feat(walker-footer): add links compass panel | [bob-cli-ky.4](bob-cli-ky.4.md) | 2026-11-12 14:51:26 EST |
 | bob-plugins | [`bob-plugins@c7a500e`](https://github.com/bobs-org/bob-plugins/commit/c7a500e43207df63c4c80246f6a5d23e711e54cb) | feat(navigation): add review attention dot to walk selector | [bob-cli-ky.5](bob-cli-ky.5.md) | 2026-11-12 15:03:30 EST |
+| bob-plugins | [`bob-plugins@75493b0`](https://github.com/bobs-org/bob-plugins/commit/75493b09f177dce7c9abd40290cbf91156ed80ab) | feat(walker-footer): visual previews, motion polish, and placement evidence | [bob-cli-ky.6](bob-cli-ky.6.md) | 2026-11-12 15:31:55 EST |
