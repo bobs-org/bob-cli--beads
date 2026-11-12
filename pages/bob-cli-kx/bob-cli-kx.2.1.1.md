@@ -19,7 +19,7 @@ access: Add validated default-off archive configuration and isolated login -s mo
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kx.2.1.2](bob-cli-kx.2.1.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2.1.2](bob-cli-kx.2.1.2.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -32,3 +32,15 @@ access: Add validated default-off archive configuration and isolated login -s mo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`677e740`](https://github.com/bobs-org/bob-cli/commit/677e7407a7dc4b9b65c680784d3d9d8433b0523c) | feat(gmail): add archive config and modify login scope | [bob-cli-kx.2.1.1](bob-cli-kx.2.1.1.md) | 2026-11-12 12:36:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.1][1] | Need to confirm the assigned phase scope, recorded follow-up, and status before closing | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

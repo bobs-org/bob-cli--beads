@@ -13,7 +13,7 @@ state: Implement the body-free archive journal, observed-open and close generati
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.2.1.2](bob-cli-kx.2.1.2.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.2.1.2](bob-cli-kx.2.1.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-kx.2.1.4](bob-cli-kx.2.1.4.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
