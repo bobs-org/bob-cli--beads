@@ -13,7 +13,7 @@ links: add a read-only walkMode.links() preview built on nav's own prev/next mat
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ky.3](bob-cli-ky.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-ky.3](bob-cli-ky.3.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-ky.5](bob-cli-ky.5.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

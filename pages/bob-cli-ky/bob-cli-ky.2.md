@@ -20,7 +20,7 @@ host: route the existing ledger status item by walk mode, show the review footer
 ## Dependencies
 
 - **Depends on:** [bob-cli-ky.1](bob-cli-ky.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-ky.3](bob-cli-ky.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-ky.3](bob-cli-ky.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ host: route the existing ledger status item by walk mode, show the review footer
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@83d4a9f`](https://github.com/bobs-org/bob-plugins/commit/83d4a9f06e9489cd6f454118dd2599b0497f5b48) | feat(ledger-tools): route walker footer by bracket walk with gated s panel | [bob-cli-ky.2](bob-cli-ky.2.md) | 2026-11-12 13:10:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ky.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.2/README.md
+
+<!-- sase:referenced-by:end -->
