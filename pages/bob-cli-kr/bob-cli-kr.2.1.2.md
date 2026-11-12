@@ -26,7 +26,13 @@ schema-spans: implement conservative nested YAML span edits, exact inverse resto
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-kr.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.2.1.2/README.md) | [bob-cli-kr.2.1.2](bob-cli-kr.2.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.2.1.2/README.md) | [bob-cli-kr.2.1.2](bob-cli-kr.2.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`a7b5efe`](https://github.com/bobs-org/bob-cli/commit/a7b5efed64aac470c6f3ea578519e355bdf1b85f) | feat(albums): preserve schema spans and plan reversible updates | [bob-cli-kr.2.1.2](bob-cli-kr.2.1.2.md) | 2026-11-12 10:27:13 EST |
 
 <!-- sase:referenced-by:start -->
 

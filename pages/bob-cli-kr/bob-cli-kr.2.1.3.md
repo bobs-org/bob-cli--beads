@@ -27,7 +27,13 @@ schema-command: expose albums update through the CLI and completion, integrate t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-kr.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.2.1.3/README.md) | [bob-cli-kr.2.1.3](bob-cli-kr.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.2.1.3/README.md) | [bob-cli-kr.2.1.3](bob-cli-kr.2.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`859c157`](https://github.com/bobs-org/bob-cli/commit/859c157119f63ff2b6d1a2106c27d1cfb2b2ff7c) | feat(albums): ship guarded albums update command and its contract | [bob-cli-kr.2.1.3](bob-cli-kr.2.1.3.md) | 2026-11-12 11:33:14 EST |
 
 <!-- sase:referenced-by:start -->
 

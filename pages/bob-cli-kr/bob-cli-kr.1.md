@@ -19,7 +19,7 @@ report-additions: add suggest, default, bounds, line, filled, per-choice counts,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kr.2](bob-cli-kr.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kr.2](bob-cli-kr.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-kr.3](bob-cli-kr.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
