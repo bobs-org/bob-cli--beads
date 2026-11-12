@@ -32,3 +32,15 @@ small-audit-fixes: prefix-match the pomodoro OVERDUE status, close the perl two-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`736aa82`](https://github.com/bobs-org/bob-cli/commit/736aa820d4a9a25fe261f26a8103c4d69c9d5e7a) | fix: apply five small security-audit corrections | [bob-cli-kq.5](bob-cli-kq.5.md) | 2026-11-12 07:04:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kq.5--2][1] | Need the phase scope, status, notes, and design file after failed just check recovery | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kq.5.md
+
+<!-- sase:referenced-by:end -->
