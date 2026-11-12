@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/album_plugin_ui.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_plugin_ui.md
 
@@ -35,7 +35,7 @@ Complete bob-cli-k3.7 with report-driven album and record cards, album headers, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kr.3](../bob-cli-kr/bob-cli-kr.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kr.3](../bob-cli-kr/bob-cli-kr.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -59,18 +59,20 @@ Complete bob-cli-k3.7 with report-driven album and record cards, album headers, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k3.7.1.3][1] | Need parent epic DECISIONS that this phase must honor | 3 |
 | read-by | [agent:bob-cli-k3.7.1.5][2] | Need parent epic scope and decisions | 1 |
-| read-by | [agent:dl--1][3] | Check whether this active plugin deployment epic owns the vault ignore recurrence | 1 |
-| read-by | [agent:research.4b.cld][4] | Check child epic for plugin album header and schema card status | 1 |
-| read-by | [agent:research.4b.gem][5] | Check child tasks under phase 7 | 1 |
-| read-by | [agent:research.4b.grk][6] | Need child epic details for Obsidian album cards and schema rendering | 1 |
-| read-by | [agent:research.4b.mus][7] | research record frontmatter Obsidian rendering | 1 |
+| read-by | [agent:bob-cli-kr.3--1][3] | Need resolution after wait | 1 |
+| read-by | [agent:dl--1][4] | Check whether this active plugin deployment epic owns the vault ignore recurrence | 1 |
+| read-by | [agent:research.4b.cld][5] | Check child epic for plugin album header and schema card status | 1 |
+| read-by | [agent:research.4b.gem][6] | Check child tasks under phase 7 | 1 |
+| read-by | [agent:research.4b.grk][7] | Need child epic details for Obsidian album cards and schema rendering | 1 |
+| read-by | [agent:research.4b.mus][8] | research record frontmatter Obsidian rendering | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.5/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.dl.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cld/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kr.3.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.dl.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cld/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
 
 <!-- sase:referenced-by:end -->

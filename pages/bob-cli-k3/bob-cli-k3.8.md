@@ -31,7 +31,7 @@ mac-albums: show each record route's album title, owner, and summary from the ad
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-k3.4](bob-cli-k3.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/album_and_record_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 14 automatic references — see [Referenced By](#referenced-by)._
+_Plus 19 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_and_record_notes.md
 
@@ -41,7 +41,7 @@ Every record note reaches an area of responsibility. Each record collection (eat
 |---|---|---|---|---|---:|---:|
 | [bob-cli-k3.1](bob-cli-k3.1.md) | Vault-only cleanup — owners, the eat.md de-zorg, and record health | ✓ closed | medium | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.10](bob-cli-k3.10.md) | Link the spending ledger to restaurant records and backfill visited | ✓ closed | medium | 2026-11-11 | 0 | 0 |
-| [bob-cli-k3.11](bob-cli-k3.11.md) | Retire config-declared records, end-to-end proof, docs audit, and memory | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [bob-cli-k3.11](bob-cli-k3.11.md) | Retire config-declared records, end-to-end proof, docs audit, and memory | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-k3.2](bob-cli-k3.2.md) | Album recognition, the vault schema registry, and bob albums list and check | ✓ closed | large | 2026-11-11 | 0 | 0 |
 | [bob-cli-k3.3](bob-cli-k3.3.md) | Shared host-catalog region engine extracted from notebooks | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [bob-cli-k3.4](bob-cli-k3.4.md) | Records, capture, and completion read schemas from albums | ✓ closed | large | 2026-11-11 | 1 | 0 |
@@ -58,7 +58,7 @@ flowchart TD
     n0["bob-cli-k3: Album notes — every record collection hangs under the area it serves [in_progress]"]
     n1["bob-cli-k3.1: Vault-only cleanup — owners, the eat.md de-zorg, and record health [closed]"]
     n2["bob-cli-k3.10: Link the spending ledger to restaurant records and backfill visited [closed]"]
-    n3["bob-cli-k3.11: Retire config-declared records, end-to-end proof, docs audit, and memory [in_progress]"]
+    n3["bob-cli-k3.11: Retire config-declared records, end-to-end proof, docs audit, and memory [closed]"]
     n4["bob-cli-k3.2: Album recognition, the vault schema registry, and bob albums list and check [closed]"]
     n5["bob-cli-k3.2.1: Album model — schema parsing, vault registry, and read-only reports [closed]"]
     n6["bob-cli-k3.2.1.1: Parse album declarations through shared record schema validation [closed]"]
@@ -163,7 +163,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-k3.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.2.1.1.md) | [bob-cli-k3.2.1.1](bob-cli-k3.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-k3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-k3.3.md) | [bob-cli-k3.3](bob-cli-k3.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.11/README.md) | [bob-cli-k3.11](bob-cli-k3.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.2.1.2/README.md) | [bob-cli-k3.2.1.2](bob-cli-k3.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.3.md) | [bob-cli-k3.2.1.3](bob-cli-k3.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.2.1.land.md) | [bob-cli-k3.2.1](bob-cli-k3.2.1.md) | 2 |
@@ -228,6 +228,7 @@ flowchart TD
 | bob-cli | [`8cef0d5`](https://github.com/bobs-org/bob-cli/commit/8cef0d56c8c987de0d0acbc31d260b72c6c37953) | docs(records): link albums section to Obsidian Album cards page | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:22:46 EST |
 | bob-plugins | [`bob-plugins@1b8982c`](https://github.com/bobs-org/bob-plugins/commit/1b8982cf4283d1a20615e3b1f8977cebe2627444) | feat(ledger-tools): add album UI acceptance e2e and verification docs | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:24:01 EST |
 | bob-cli--plans | [`bob-cli--plans@48505cc`](https://github.com/bobs-org/bob-cli--plans/commit/48505cc0413332a3cba361aab1ac5ba3f1b53aa8) | docs(plans): mark album plugin UI epic and acceptance plans done | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:24:55 EST |
+| bob-cli | [`5e82fc8`](https://github.com/bobs-org/bob-cli/commit/5e82fc8e7d3311326b1f924fd082021a7438439f) | feat(albums): remove records config fallback | [bob-cli-k3.11](bob-cli-k3.11.md) | 2026-11-12 13:27:28 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -249,6 +250,11 @@ flowchart TD
 | read-by | [agent:research.4b.gem][12] | Research context on the record frontmatter field for Obsidian rendering and editing UX | 1 |
 | read-by | [agent:research.4b.grk][13] | Need epic context for the record frontmatter field that currently renders as truncated JSON in Obsidian Properties | 1 |
 | read-by | [agent:research.4b.mus][14] | research record frontmatter render in Obsidian | 1 |
+| read-by | [agent:research.4f.cdx][15] | Understand the record and album epic before evaluating the proposed SASE blog workflow | 1 |
+| read-by | [agent:research.4f.cld][16] | Research: context on record/album notes for blog-zettel plan | 1 |
+| read-by | [agent:research.4f.gem][17] | understand record notes and album notes for blog post research | 1 |
+| read-by | [agent:research.4f.grk][18] | Need the albums/records epic context to evaluate using record notes for a SASE blog | 1 |
+| read-by | [agent:research.4f.mus][19] | Need album/record design context for sase-blog research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.7/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.land/README.md
@@ -264,5 +270,10 @@ flowchart TD
 [12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.gem/README.md
 [13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
 [14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
+[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.cdx/README.md
+[16]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.cld/README.md
+[17]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.gem/README.md
+[18]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.grk/README.md
+[19]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4f.mus/README.md
 
 <!-- sase:referenced-by:end -->

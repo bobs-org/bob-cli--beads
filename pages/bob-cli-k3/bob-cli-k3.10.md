@@ -30,7 +30,7 @@ ledger-mining: when accepted, rewrite the 653 mappable `[[eat#<lid>]]` spending 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-k3.9](bob-cli-k3.9.md) ✓ · ⧖ 2026-11-11
 
 <!-- sase:referenced-by:start -->
