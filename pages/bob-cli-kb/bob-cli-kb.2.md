@@ -32,3 +32,15 @@ obsidian-e2e: add a CDP real-Obsidian e2e and its offline self-test, run it unde
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7197394`](https://github.com/bobs-org/bob-plugins/commit/719739411431d2007d308042e5db4ea0236f57f9) | test(bob-vim-yank-flash): verify yank flash in Obsidian | [bob-cli-kb.2](bob-cli-kb.2.md) | 2026-11-11 12:13:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kb.2][1] | Checking whether this phase has prior notes or remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kb.2/README.md
+
+<!-- sase:referenced-by:end -->
