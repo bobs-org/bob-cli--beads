@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ky.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.5/README.md) | [bob-cli-ky.5](bob-cli-ky.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ky.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.6/README.md) | [bob-cli-ky.6](bob-cli-ky.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ky.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.7/README.md) | [bob-cli-ky.7](bob-cli-ky.7.md) | 2 |
-| [bbugyi200.athena.bob-cli-ky.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.land.md) | [bob-cli-ky](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-ky.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.land.md) | [bob-cli-ky](README.md) | 3 |
 
 ## Commits
 
@@ -115,6 +115,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@444b8a8`](https://github.com/bobs-org/bob-plugins/commit/444b8a866775746a3e5b3f735ef6a579ee13ab52) | docs(plugins): document walker footer, walkMode API, and review attention dot | [bob-cli-ky.7](bob-cli-ky.7.md) | 2026-11-12 15:56:13 EST |
 | bob-cli | [`6981b04`](https://github.com/bobs-org/bob-cli/commit/6981b04cc0801a836d888f52b6145c24c98fb901) | docs(glossary): regenerate reference glossary for the walker footer | [bob-cli-ky](README.md) | 2026-11-12 16:55:50 EST |
 | bob-plugins | [`bob-plugins@3ef045b`](https://github.com/bobs-org/bob-plugins/commit/3ef045b64ff62bcdb63493d16a2518f311b530b6) | feat(walker-footer): land walker\_footer\_landing tale, close bob-cli-ky | [bob-cli-ky](README.md) | 2026-11-12 17:51:54 EST |
+| bob-cli--plans | [`bob-cli--plans@435c1ae`](https://github.com/bobs-org/bob-cli--plans/commit/435c1ae87894d5e4bfd3656442380524161f91a4) | docs(plans): land walker\_footers epic plan for bracket-walk footers | [bob-cli-ky](README.md) | 2026-11-12 17:55:13 EST |
 
 <!-- sase:referenced-by:start -->
 
