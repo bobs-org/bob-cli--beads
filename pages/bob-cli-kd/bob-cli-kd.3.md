@@ -23,7 +23,7 @@ bank-cli: add the bare `bob bank` waiting queue, `report` with the totals semant
 
 - **Depends on:** [bob-cli-kd.2](bob-cli-kd.2.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-kd.4](bob-cli-kd.4.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.6](bob-cli-kd.6.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.6](bob-cli-kd.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

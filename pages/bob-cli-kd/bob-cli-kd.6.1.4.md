@@ -42,8 +42,10 @@ bank-ui-marks: add Live Preview and Reading view bank decorations, mark gating, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.6.1.4][1] | Need remaining notes, design, and DECISIONS | 6 |
 | read-by | [agent:bob-cli-kd.6.1.5][2] | Need sibling phase close notes and evidence refs | 1 |
+| read-by | [agent:bob-cli-kd.6.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.land.md
 
 <!-- sase:referenced-by:end -->

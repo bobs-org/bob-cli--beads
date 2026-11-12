@@ -41,12 +41,14 @@ bank-ui-data: implement the bank JSON boundary, cached reads, invalidation, sour
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.6.1.1][1] | Need the phase scope and design file | 3 |
 | read-by | [agent:bob-cli-kd.6.1.5][2] | Need sibling phase close notes and evidence refs | 2 |
-| read-by | [agent:research.49.cld][3] | research: what shipped in this phase for the bank user guide e2e test | 1 |
-| read-by | [agent:research.49.mus][4] | obsidian data phase done scope for guide | 1 |
+| read-by | [agent:bob-cli-kd.6.1.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:research.49.cld][4] | research: what shipped in this phase for the bank user guide e2e test | 1 |
+| read-by | [agent:research.49.mus][5] | obsidian data phase done scope for guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->

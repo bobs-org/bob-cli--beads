@@ -46,10 +46,12 @@ bank-ui-gestures: implement exact-selection acknowledgment, open-today and ackno
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.6.1.2][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-kd.6.1.5][2] | Need earlier phase evidence and landed commits | 2 |
-| read-by | [agent:research.49.final][3] | kd.6.1.2 closed after the researchers ran; need what gestures/commands shipped for tomorrow's guide | 1 |
+| read-by | [agent:bob-cli-kd.6.1.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:research.49.final][4] | kd.6.1.2 closed after the researchers ran; need what gestures/commands shipped for tomorrow's guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
 
 <!-- sase:referenced-by:end -->
