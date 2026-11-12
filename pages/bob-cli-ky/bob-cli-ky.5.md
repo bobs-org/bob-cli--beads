@@ -13,7 +13,7 @@ dot: ledger pushes a display-only attention value when review commitments are du
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ky.4](bob-cli-ky.4.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-ky.4](bob-cli-ky.4.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-ky.6](bob-cli-ky.6.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

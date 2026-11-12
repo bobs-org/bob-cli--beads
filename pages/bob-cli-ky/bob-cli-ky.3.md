@@ -20,7 +20,7 @@ lanes: add the w panel as a pure view over api.laneWalk v2 queue counts (WIP/NEX
 ## Dependencies
 
 - **Depends on:** [bob-cli-ky.2](bob-cli-ky.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-ky.4](bob-cli-ky.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-ky.4](bob-cli-ky.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ lanes: add the w panel as a pure view over api.laneWalk v2 queue counts (WIP/NEX
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@394b793`](https://github.com/bobs-org/bob-plugins/commit/394b793ea7be226c090c9654c3c3af8bec2bc040) | feat(ledger-tools): add bracket walk lane footer | [bob-cli-ky.3](bob-cli-ky.3.md) | 2026-11-12 13:56:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ky.3][1] | Confirm the clean-base follow-up note before closing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.3/README.md
+
+<!-- sase:referenced-by:end -->
