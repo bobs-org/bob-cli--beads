@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.4/README.md) | [bob-cli-kj.4](bob-cli-kj.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.5.md) | [bob-cli-kj.5](bob-cli-kj.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.6.md) | [bob-cli-kj.6](bob-cli-kj.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-kj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.land.md) | [bob-cli-kj](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-kj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.land.md) | [bob-cli-kj](README.md) | 2 |
 
 ## Commits
 
@@ -89,6 +89,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@70408bf`](https://github.com/bobs-org/bob-plugins/commit/70408bf815ce899ca2e5965e9fca8c1d8703ceee) | fix(block-id-prompt): restore task-wikilink snapshot and rank CPU budgets | [bob-cli-kj.6](bob-cli-kj.6.md) | 2026-11-11 18:16:41 EST |
 | bob-cli | [`3ba40fc`](https://github.com/bobs-org/bob-cli/commit/3ba40fc5444e0b593f5805d9af6742bfd989b953) | fix(stats): drop HomesEngine resolver borrow before remember | [bob-cli-kj.3](bob-cli-kj.3.md) | 2026-11-11 18:42:28 EST |
 | bob-plugins | [`bob-plugins@d94c6bb`](https://github.com/bobs-org/bob-plugins/commit/d94c6bb4346fc9b02bfd6e70e826564a7e368fd0) | test: run wikilink CPU budgets in a serial npm test stage | [bob-cli-kj](README.md) | 2026-11-11 19:53:37 EST |
+| bob-cli--plans | [`bob-cli--plans@538d626`](https://github.com/bobs-org/bob-cli--plans/commit/538d626be23e696eafb965691291b732733b429f) | docs: mark impact-ranked epic and wikilink-perf tale done | [bob-cli-kj](README.md) | 2026-11-11 19:54:01 EST |
 
 <!-- sase:referenced-by:start -->
 
