@@ -33,3 +33,15 @@ ship: update bob-plugins and bob-cli docs that say the review footer is persiste
 |---|---|---|---|---|
 | bob-cli | [`70f69c2`](https://github.com/bobs-org/bob-cli/commit/70f69c2304ee2c7d1765ea0397962ee306253362) | docs(memory): publish walker-footer glossary and ship docs for bracket-walk footers | [bob-cli-ky.7](bob-cli-ky.7.md) | 2026-11-12 15:55:28 EST |
 | bob-plugins | [`bob-plugins@444b8a8`](https://github.com/bobs-org/bob-plugins/commit/444b8a866775746a3e5b3f735ef6a579ee13ab52) | docs(plugins): document walker footer, walkMode API, and review attention dot | [bob-cli-ky.7](bob-cli-ky.7.md) | 2026-11-12 15:56:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ky.7][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.7/README.md
+
+<!-- sase:referenced-by:end -->
