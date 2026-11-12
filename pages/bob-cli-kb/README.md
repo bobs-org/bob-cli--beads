@@ -84,7 +84,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kb.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kb.1/README.md) | [bob-cli-kb.1](bob-cli-kb.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-kb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kb.2/README.md) | [bob-cli-kb.2](bob-cli-kb.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-kb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kb.land.md) | [bob-cli-kb](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-kb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kb.land.md) | [bob-cli-kb](README.md) | 2 |
 
 ## Commits
 
@@ -93,6 +93,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@95e2e51`](https://github.com/bobs-org/bob-plugins/commit/95e2e510bb8e684b027341c4c2cd591229ef8525) | feat(yank-flash): add bob-vim-yank-flash plugin with tests and docs | [bob-cli-kb.1](bob-cli-kb.1.md) | 2026-11-11 11:02:52 EST |
 | bob-plugins | [`bob-plugins@7197394`](https://github.com/bobs-org/bob-plugins/commit/719739411431d2007d308042e5db4ea0236f57f9) | test(bob-vim-yank-flash): verify yank flash in Obsidian | [bob-cli-kb.2](bob-cli-kb.2.md) | 2026-11-11 12:13:33 EST |
 | bob-plugins | [`bob-plugins@4562695`](https://github.com/bobs-org/bob-plugins/commit/4562695ae132e44c873b6f0c0c74d91ead257bd8) | fix(bob-vim-yank-flash): bound viewport flash with exact oracle and widget coexistence | [bob-cli-kb](README.md) | 2026-11-12 12:38:53 EST |
+| bob-cli--plans | [`bob-cli--plans@33f7037`](https://github.com/bobs-org/bob-cli--plans/commit/33f703759858d679e8a785a673447b82400fe9d5) | chore(plans): mark vim\_yank\_flash and yank\_flash\_landing\_repairs done | [bob-cli-kb](README.md) | 2026-11-12 12:39:18 EST |
 
 <!-- sase:referenced-by:start -->
 
