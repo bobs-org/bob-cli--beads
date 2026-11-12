@@ -49,13 +49,14 @@ NEXT: validated medium tale sase_plan_album_writer_landing_repairs.md repairs on
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-kr.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.2.1.land.md) | [bob-cli-kr.2.1](bob-cli-kr.2.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-kr.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.2.1.land.md) | [bob-cli-kr.2.1](bob-cli-kr.2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`27dd275`](https://github.com/bobs-org/bob-cli/commit/27dd275664eb928df33f88cc952604b1dc18f106) | feat(albums): repair guarded writer landing | [bob-cli-kr.2.1](bob-cli-kr.2.1.md) | 2026-11-12 13:38:15 EST |
+| bob-cli--plans | [`bob-cli--plans@024b5f6`](https://github.com/bobs-org/bob-cli--plans/commit/024b5f665debdf9896c08f0e31ca2b24e0547368) | docs(plans): mark album\_schema\_writer done | [bob-cli-kr.2.1](bob-cli-kr.2.1.md) | 2026-11-12 13:39:28 EST |
 
 <!-- sase:referenced-by:start -->
 
