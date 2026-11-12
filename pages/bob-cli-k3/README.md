@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.1/README.md) | [bob-cli-k3.6.1.1](bob-cli-k3.6.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.2/README.md) | [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.3/README.md) | [bob-cli-k3.6.1.3](bob-cli-k3.6.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.6.1.land.md) | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-k3.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.6.1.land.md) | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7/README.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.9/README.md) | [bob-cli-k3.9](bob-cli-k3.9.md) | 0 |
@@ -184,6 +184,7 @@ flowchart TD
 | bob-cli | [`0d2f433`](https://github.com/bobs-org/bob-cli/commit/0d2f433dcaa2f48dc33970635db913a4ccc503db) | feat(albums): sync owner catalogs with records indexes | [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) | 2026-11-11 20:19:20 EST |
 | bob-cli | [`aef2354`](https://github.com/bobs-org/bob-cli/commit/aef235427787cacff6296b44f556a28aff120c21) | feat(albums): create albums and their Base and catalogs atomically | [bob-cli-k3.6.1.3](bob-cli-k3.6.1.3.md) | 2026-11-11 22:01:04 EST |
 | bob-cli | [`0c8df96`](https://github.com/bobs-org/bob-cli/commit/0c8df969406611b9db4170ce5cb24df1eca15385) | fix(albums): guard create collisions, catalog deps, and records-init claims | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 2026-11-11 22:57:55 EST |
+| bob-cli--plans | [`bob-cli--plans@7454ff5`](https://github.com/bobs-org/bob-cli--plans/commit/7454ff50e20e9faa1a30077fe9fa255cd22f12ef) | chore(plans): mark album\_catalog\_and\_create done | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 2026-11-11 22:58:45 EST |
 
 <!-- sase:referenced-by:start -->
 
