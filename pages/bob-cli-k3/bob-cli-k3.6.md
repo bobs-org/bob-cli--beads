@@ -22,3 +22,15 @@ album-catalog: write one stable `[!albums]` row per album into each owner's `## 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-k3.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.6.md) | [bob-cli-k3.6](bob-cli-k3.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.6.1.2][1] | Need parent phase DECISIONS for catalog-sync | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->

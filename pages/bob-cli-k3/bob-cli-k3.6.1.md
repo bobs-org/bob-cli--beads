@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/album_catalog_and_create.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_catalog_and_create.md
 
 <!-- sase:links:end -->
@@ -32,3 +34,15 @@ Owner notes show stable Albums catalogs, sync and check cover their health, and 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-k3.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.land/README.md) | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.6.1.2][1] | Need epic DECISIONS and land status for catalog-sync | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->

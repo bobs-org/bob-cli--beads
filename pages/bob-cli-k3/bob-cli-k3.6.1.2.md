@@ -24,7 +24,7 @@ catalog-sync: compose catalog and index edits into standalone/nightly guarded tr
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.6.1.1](bob-cli-k3.6.1.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.6.1.3](bob-cli-k3.6.1.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.6.1.3](bob-cli-k3.6.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -37,3 +37,15 @@ catalog-sync: compose catalog and index edits into standalone/nightly guarded tr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0d2f433`](https://github.com/bobs-org/bob-cli/commit/0d2f433dcaa2f48dc33970635db913a4ccc503db) | feat(albums): sync owner catalogs with records indexes | [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) | 2026-11-11 20:19:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.6.1.2][1] | Need the phase scope, notes, design file, and epic DECISIONS | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->
