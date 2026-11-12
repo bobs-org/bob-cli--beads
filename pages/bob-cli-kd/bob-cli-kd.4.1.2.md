@@ -22,7 +22,7 @@ match-name-plan: build a pure whole-batch planner for seen identities, typed-row
 ## Dependencies
 
 - **Depends on:** [bob-cli-kd.4.1.1](bob-cli-kd.4.1.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -35,3 +35,15 @@ match-name-plan: build a pure whole-batch planner for seen identities, typed-row
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ee2d2cb`](https://github.com/bobs-org/bob-cli/commit/ee2d2cbf0a837c5b735d26d462fbce60e34d269c) | feat(bank): add import planner and payee naming for match-name plan | [bob-cli-kd.4.1.2](bob-cli-kd.4.1.2.md) | 2026-11-11 16:39:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kd.4.1.2][1] | check notes/decisions | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->

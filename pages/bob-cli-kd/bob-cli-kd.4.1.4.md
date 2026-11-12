@@ -13,7 +13,7 @@ docs-ritual: finish the import and sync documentation, regenerate CLI references
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
