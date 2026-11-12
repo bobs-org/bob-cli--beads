@@ -14,7 +14,7 @@ card-editor: make the Schema Card keyboard-first editable through bob albums upd
 ## Dependencies
 
 - **Depends on:** [bob-cli-kr.2](bob-cli-kr.2.md) ◐ · ⧖ 2026-11-12
-- **Depends on:** [bob-cli-kr.3](bob-cli-kr.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kr.3](bob-cli-kr.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
