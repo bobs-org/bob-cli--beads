@@ -30,10 +30,10 @@ The 19 verified findings from the five-area security/bug audit of bob-cli are fi
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kq.1](bob-cli-kq.1.md) | Literal git pathspecs for vault filenames | ✓ closed | small | 2026-11-12 | 1 | 1 |
-| [bob-cli-kq.2](bob-cli-kq.2.md) | Gcal remote-text trust boundary | ◐ in_progress | medium | 2026-11-12 | 1 | 1 |
+| [bob-cli-kq.2](bob-cli-kq.2.md) | Gcal remote-text trust boundary | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-kq.3](bob-cli-kq.3.md) | Web-clip network guards and image handling | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-kq.4](bob-cli-kq.4.md) | Durable and race-free vault writes | ✓ closed | medium | 2026-11-12 | 1 | 1 |
-| [bob-cli-kq.5](bob-cli-kq.5.md) | Small verified fixes | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
+| [bob-cli-kq.5](bob-cli-kq.5.md) | Small verified fixes | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 
 ## Lineage
 
@@ -41,10 +41,10 @@ The 19 verified findings from the five-area security/bug audit of bob-cli are fi
 flowchart TD
     n0["bob-cli-kq: Security and bug audit fixes [in_progress]"]
     n1["bob-cli-kq.1: Literal git pathspecs for vault filenames [closed]"]
-    n2["bob-cli-kq.2: Gcal remote-text trust boundary [in_progress]"]
+    n2["bob-cli-kq.2: Gcal remote-text trust boundary [closed]"]
     n3["bob-cli-kq.3: Web-clip network guards and image handling [closed]"]
     n4["bob-cli-kq.4: Durable and race-free vault writes [closed]"]
-    n5["bob-cli-kq.5: Small verified fixes [in_progress]"]
+    n5["bob-cli-kq.5: Small verified fixes [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kq.2.md) | [bob-cli-kq.2](bob-cli-kq.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.3/README.md) | [bob-cli-kq.3](bob-cli-kq.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.4/README.md) | [bob-cli-kq.4](bob-cli-kq.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-kq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kq.5.md) | [bob-cli-kq.5](bob-cli-kq.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-kq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kq.5.md) | [bob-cli-kq.5](bob-cli-kq.5.md) | 1 |
 
 ## Commits
 
@@ -70,6 +70,7 @@ flowchart TD
 | bob-cli | [`1507772`](https://github.com/bobs-org/bob-cli/commit/15077720eefcc714ecec559c62106149648f9a25) | fix(storage): harden vault and cache writes | [bob-cli-kq.4](bob-cli-kq.4.md) | 2026-11-12 06:10:33 EST |
 | bob-cli | [`1920aab`](https://github.com/bobs-org/bob-cli/commit/1920aab661d37310fc58d57790b8a66026054d2c) | fix(git): use literal pathspecs for file mutations | [bob-cli-kq.1](bob-cli-kq.1.md) | 2026-11-12 06:11:12 EST |
 | bob-cli | [`4ffa85d`](https://github.com/bobs-org/bob-cli/commit/4ffa85d03376aa5747dbb10070658f1a452a56a4) | fix(gcal): escape organizer title tags and links | [bob-cli-kq.2](bob-cli-kq.2.md) | 2026-11-12 06:22:44 EST |
+| bob-cli | [`736aa82`](https://github.com/bobs-org/bob-cli/commit/736aa820d4a9a25fe261f26a8103c4d69c9d5e7a) | fix: apply five small security-audit corrections | [bob-cli-kq.5](bob-cli-kq.5.md) | 2026-11-12 07:04:10 EST |
 
 <!-- sase:referenced-by:start -->
 

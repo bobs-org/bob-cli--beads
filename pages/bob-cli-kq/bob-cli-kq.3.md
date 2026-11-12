@@ -33,8 +33,10 @@ web-clip-guards: re-validate the final navigation URL and redirect chain against
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-kq.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-kd.6.1.4][1] | Identify what workspace 21 deployed over ledger-tools | 1 |
+| read-by | [agent:bob-cli-kq.3][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.3/README.md
 
 <!-- sase:referenced-by:end -->
