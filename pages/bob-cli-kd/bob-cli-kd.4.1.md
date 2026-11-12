@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-kd.4](bob-cli-kd.4.md) / bob-cli-kd.4.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-kd.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.md) · **Assignee:** `bob-cli-kd.4.1.land`
-**Created:** 2026-11-11 14:24:04 EST
+**Created:** 2026-11-11 14:24:04 EST · **Closed:** 2026-11-12 06:29:14 EST
 **Plan:** [202611/bank\_import.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_import.md)
 
 <!-- sase:links:start -->
@@ -17,7 +17,7 @@
 | related | file:explicit:0f0772d7cfd9fab573bd4a19 | attached via sase artifact create --bead |
 | related | file:explicit:f1a42eafbd40c70d5d0a8f74 | attached via sase artifact create --bead |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_import.md
 
@@ -43,11 +43,19 @@ SYMBOLS/CLOSEOUT: epic-symbols kd.4.1 and kd.4 both empty; no symvision recipe. 
 
 [2026-11-12T03:07:29Z · bob-cli-kd.4.1.land--1] REQUIRED GATE RESULT: monitored `just check` (ToolRun 5a7d51346f33f6981050349b553e722d; monitor afdtjmdcq2b4) failed, exit 101, started 2026-11-12T02:53:05.505430-05:00, finished 2026-11-12T03:00:06.858520Z, elapsed 6m 5s. Two unrelated test failures: `bob-obsidian --lib` 6693 passed / 1 failed / 3 ignored in 30.01s: `native::subprocess_runner::tests::run_bounds_pipe_drain_when_detached_grandchild_holds_output`, `src/native/subprocess_runner.rs:462`, `output.stderr.contains("output truncated")` was false. `bob-obsidian --test cli` 3603 passed / 1 failed in 84.34s: `capture::complete_themes::configured_shell_describes_never_used_and_unconfigured_create`, `tests/cli/capture/complete_themes.rs:308`, expected the `your type · never used` hint but captured stdout was empty. These source/test files are unchanged and outside the bank repair diff; no bank code failed. The capture failure matches the pre-existing completion-test deadline omission recorded in the prior triage note. Treat this as an unrelated baseline/environment-sensitive red gate, not a bank-import regression. Keep this epic open: live Bob vault `.gitignore` allowlist and `.gitattributes` union rule remain unverified because no supported SASE inventory reference brokers that repo; do not access `~/bob`.
 
+[2026-11-12T11:29:14Z · df--code] Vault journal-readiness verified in brokered checkout gh:bobs-org/bob (used printed path only, read its AGENTS.md, git status clean before edit, touched only .gitignore/.gitattributes, no commit, no ~/bob access, no bank data). Installed exactly the documented bank-import-journal policy: .gitignore gained '# Bank import journal, one file per host.' + '!/.bob/bank/*.jsonl' after the Gmail block; .gitattributes gained '# Union-merge concurrent bank-import-journal appends from different hosts.' + '.bob/bank/*.jsonl merge=union' after the Gmail rule. Effective-rule checks: 'git check-ignore -v .bob/bank/apollo.jsonl' and '.../athena.jsonl' both last-match the negated '!/.bob/bank/*.jsonl' (git 2.43 prints that line with exit 0 for these not-yet-existing probe paths, identical to the existing gmail/gcal/stats rules for missing probes; the plan's exit-1 parenthetical does not hold on this behavior, the negated-last-match criterion does); 'git check-attr merge -- .bob/bank/apollo.jsonl' and athena both print 'merge: union'. .bob/bank/ absent as expected (created on first import). Fresh observed bob-cli verification (this tale changes no bob-cli files): cargo test --lib native::bank:: -> 107 passed 0 failed; cargo test --lib host_catalog::txn:: -> 14 passed 0 failed (lander recorded 106/106 and 13/13; current tree reports one more test each). Landed repairs: ae6a28d0 fix(bank) plus docs b8c71181 and 9662ce54. Recorded just-check gate cited as-is (note #4, ToolRun 5a7d51346f33f6981050349b553e722d, exit 101): only two failures outside the bank diff, both already tracked - native::subprocess_runner pipe-drain truncation flake (bob-cli-kl) and capture::complete_themes configured-shell hint empty-stdout (completion-deadline omission corroborated on bob-cli-g8). No just check / check-full rerun per tale scope. Carried triage from note #1: kd.4.1.1 #1 + kd.4.1.2 #2 resolved by 6e3d8837 (no new task); kd.4.1.2 #1 + kd.4.1.3 #1 corroborated on bob-cli-g8 (+1) with coordination on bob-cli-3j; kd.4.1.4 #1 split into anchor defects on bob-cli-kk (+1) and yank-flash mounted-link noted on bob-cli-kb; kd.4.1.4 #2 (live bank journal allowlist/union gap) resolved by this tale's vault policy step. Plans 202611/bank_import.md and 202611/bank_import_landing_repairs.md marked done; Monday PRE chore preserved untouched.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md) | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md) | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ae6a28d`](https://github.com/bobs-org/bob-cli/commit/ae6a28d07c023ab7ee8bd518d0fcff26739e4178) | fix(bank): harden import planning and recovery | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 2026-11-11 22:08:28 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -58,19 +66,23 @@ SYMBOLS/CLOSEOUT: epic-symbols kd.4.1 and kd.4 both empty; no symvision recipe. 
 | read-by | [agent:bob-cli-kd.4.1.1][1] | Need parent epic DECISIONS and remaining work notes | 1 |
 | read-by | [agent:bob-cli-kd.4.1.4][2] | check child epic phases status | 1 |
 | read-by | [agent:bob-cli-kd.4.1.land--1][3] | Verify the just check diagnosis was appended and the repair epic remains open | 2 |
-| read-by | [agent:research.49.cld][4] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
-| read-by | [agent:research.49.final][5] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
-| read-by | [agent:research.49.gem][6] | Understand phase 4.1 import implementation status | 1 |
-| read-by | [agent:research.49.grk][7] | Need import child-epic phase list so the e2e scorecard is accurate | 1 |
-| read-by | [agent:research.49.mus][8] | kd import child epic status for guide | 1 |
+| read-by | [agent:de][4] | Check whether the QFX import phase and its repair tale are done before advising this morning's bank pull-in | 1 |
+| read-by | [agent:df--code][5] | Verify close landed and check parent state | 3 |
+| read-by | [agent:research.49.cld][6] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
+| read-by | [agent:research.49.final][7] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
+| read-by | [agent:research.49.gem][8] | Understand phase 4.1 import implementation status | 1 |
+| read-by | [agent:research.49.grk][9] | Need import child-epic phase list so the e2e scorecard is accurate | 1 |
+| read-by | [agent:research.49.mus][10] | kd import child epic status for guide | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.de.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.df.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ bank-ui-proof: verify the combined bank UI in a synthetic vault, finish plugin d
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

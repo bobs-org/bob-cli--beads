@@ -24,7 +24,7 @@ bank-ui-gestures: implement exact-selection acknowledgment, open-today and ackno
 ## Dependencies
 
 - **Depends on:** [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

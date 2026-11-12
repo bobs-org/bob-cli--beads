@@ -26,7 +26,13 @@ import-command: integrate bob bank import, ordered guarded journal appends insid
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.3.md) | [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.3.md) | [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d9f0539`](https://github.com/bobs-org/bob-cli/commit/d9f0539f61830be7296f311f086496c1fd491cbb) | feat(bank): add guarded import command and recovery | [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) | 2026-11-11 19:20:43 EST |
 
 <!-- sase:referenced-by:start -->
 
