@@ -33,7 +33,7 @@ Obsidian's status bar shows exactly one walker footer that matches the persisted
 | [bob-cli-ky.4](bob-cli-ky.4.md) | nav links() and the links footer for the n walk | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-ky.5](bob-cli-ky.5.md) | Review attention dot on the selector's s | ✓ closed | small | 2026-11-12 | 1 | 1 |
 | [bob-cli-ky.6](bob-cli-ky.6.md) | Visual previews, e2e, and placement | ✓ closed | medium | 2026-11-12 | 1 | 1 |
-| [bob-cli-ky.7](bob-cli-ky.7.md) | Docs, memory, and deploy | ✓ closed | medium | 2026-11-12 | 1 | 1 |
+| [bob-cli-ky.7](bob-cli-ky.7.md) | Docs, memory, and deploy | ✓ closed | medium | 2026-11-12 | 1 | 2 |
 
 ## Lineage
 
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ky.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.4.md) | [bob-cli-ky.4](bob-cli-ky.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-ky.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.5/README.md) | [bob-cli-ky.5](bob-cli-ky.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ky.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.6/README.md) | [bob-cli-ky.6](bob-cli-ky.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-ky.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.7/README.md) | [bob-cli-ky.7](bob-cli-ky.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-ky.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.7/README.md) | [bob-cli-ky.7](bob-cli-ky.7.md) | 2 |
 | [bbugyi200.athena.bob-cli-ky.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.land/README.md) | [bob-cli-ky](README.md) | 0 |
 
 ## Commits
@@ -86,3 +86,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c7a500e`](https://github.com/bobs-org/bob-plugins/commit/c7a500e43207df63c4c80246f6a5d23e711e54cb) | feat(navigation): add review attention dot to walk selector | [bob-cli-ky.5](bob-cli-ky.5.md) | 2026-11-12 15:03:30 EST |
 | bob-plugins | [`bob-plugins@75493b0`](https://github.com/bobs-org/bob-plugins/commit/75493b09f177dce7c9abd40290cbf91156ed80ab) | feat(walker-footer): visual previews, motion polish, and placement evidence | [bob-cli-ky.6](bob-cli-ky.6.md) | 2026-11-12 15:31:55 EST |
 | bob-cli | [`70f69c2`](https://github.com/bobs-org/bob-cli/commit/70f69c2304ee2c7d1765ea0397962ee306253362) | docs(memory): publish walker-footer glossary and ship docs for bracket-walk footers | [bob-cli-ky.7](bob-cli-ky.7.md) | 2026-11-12 15:55:28 EST |
+| bob-plugins | [`bob-plugins@444b8a8`](https://github.com/bobs-org/bob-plugins/commit/444b8a866775746a3e5b3f735ef6a579ee13ab52) | docs(plugins): document walker footer, walkMode API, and review attention dot | [bob-cli-ky.7](bob-cli-ky.7.md) | 2026-11-12 15:56:13 EST |
