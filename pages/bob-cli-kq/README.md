@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.3/README.md) | [bob-cli-kq.3](bob-cli-kq.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.4/README.md) | [bob-cli-kq.4](bob-cli-kq.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kq.5.md) | [bob-cli-kq.5](bob-cli-kq.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-kq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.land/README.md) | [bob-cli-kq](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-kq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kq.land/README.md) | [bob-cli-kq](README.md) | 2 |
 
 ## Commits
 
@@ -77,6 +77,7 @@ flowchart TD
 | bob-cli | [`4ffa85d`](https://github.com/bobs-org/bob-cli/commit/4ffa85d03376aa5747dbb10070658f1a452a56a4) | fix(gcal): escape organizer title tags and links | [bob-cli-kq.2](bob-cli-kq.2.md) | 2026-11-12 06:22:44 EST |
 | bob-cli | [`736aa82`](https://github.com/bobs-org/bob-cli/commit/736aa820d4a9a25fe261f26a8103c4d69c9d5e7a) | fix: apply five small security-audit corrections | [bob-cli-kq.5](bob-cli-kq.5.md) | 2026-11-12 07:04:10 EST |
 | bob-cli | [`d4ea1b2`](https://github.com/bobs-org/bob-cli/commit/d4ea1b25d9aba334248bb075427e0bd76117a3d8) | fix(git): use literal pathspecs for remaining filename callers | [bob-cli-kq](README.md) | 2026-11-12 08:28:52 EST |
+| bob-cli--plans | [`bob-cli--plans@0f3e4e8`](https://github.com/bobs-org/bob-cli--plans/commit/0f3e4e8fd4a53bc72e49b5e3e712efa98743c174) | chore(plans): mark security\_audit\_fixes\_1 done | [bob-cli-kq](README.md) | 2026-11-12 08:29:27 EST |
 
 <!-- sase:referenced-by:start -->
 
