@@ -28,13 +28,7 @@ bank-balance: derive each account's anchor from the bank's own numbers, prove co
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md) | [bob-cli-kd.5](bob-cli-kd.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`c1e2839`](https://github.com/bobs-org/bob-cli/commit/c1e28399c517a1a9b32c953b1b5bd2328699d318) | feat(bank): verify balances and restore missing rows | [bob-cli-kd.5](bob-cli-kd.5.md) | 2026-11-12 08:06:20 EST |
+| [bbugyi200.athena.bob-cli-kd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md) | [bob-cli-kd.5](bob-cli-kd.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -42,18 +36,20 @@ bank-balance: derive each account's anchor from the bank's own numbers, prove co
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.49.cdx][1] | Separate implemented daily CLI from remaining import, proof, and UI acceptance work | 1 |
-| read-by | [agent:research.49.cld][2] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
-| read-by | [agent:research.49.final][3] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
-| read-by | [agent:research.49.gem][4] | Understand phase 5 balance check | 1 |
-| read-by | [agent:research.49.grk][5] | Need import, balance, and Obsidian child-epic status so the first-run guide does not promise unshipped gestures | 1 |
-| read-by | [agent:research.49.mus][6] | research kd epic phase scope for user guide | 1 |
+| read-by | [agent:bob-cli-kd.5][1] | Need the phase scope and design file, including epic decisions and earlier work notes | 2 |
+| read-by | [agent:research.49.cdx][2] | Separate implemented daily CLI from remaining import, proof, and UI acceptance work | 1 |
+| read-by | [agent:research.49.cld][3] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
+| read-by | [agent:research.49.final][4] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
+| read-by | [agent:research.49.gem][5] | Understand phase 5 balance check | 1 |
+| read-by | [agent:research.49.grk][6] | Need import, balance, and Obsidian child-epic status so the first-run guide does not promise unshipped gestures | 1 |
+| read-by | [agent:research.49.mus][7] | research kd epic phase scope for user guide | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->
