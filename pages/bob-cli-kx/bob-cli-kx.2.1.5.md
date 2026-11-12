@@ -13,7 +13,7 @@ preview: Implement read-only archive planning, deterministic digests, historical
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.2.1.4](bob-cli-kx.2.1.4.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.2.1.4](bob-cli-kx.2.1.4.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

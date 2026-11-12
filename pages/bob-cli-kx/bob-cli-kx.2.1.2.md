@@ -20,7 +20,7 @@ evidence: Add a strict archive-specific task scan including done/, reuse watch p
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.2.1.1](bob-cli-kx.2.1.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.2.1.3](bob-cli-kx.2.1.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2.1.3](bob-cli-kx.2.1.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
