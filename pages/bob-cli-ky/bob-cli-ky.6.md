@@ -24,7 +24,7 @@ visual: generalize the review-footer preview script into a walker preview coveri
 ## Dependencies
 
 - **Depends on:** [bob-cli-ky.5](bob-cli-ky.5.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-ky.7](bob-cli-ky.7.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-ky.7](bob-cli-ky.7.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -37,3 +37,15 @@ visual: generalize the review-footer preview script into a walker preview coveri
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@75493b0`](https://github.com/bobs-org/bob-plugins/commit/75493b09f177dce7c9abd40290cbf91156ed80ab) | feat(walker-footer): visual previews, motion polish, and placement evidence | [bob-cli-ky.6](bob-cli-ky.6.md) | 2026-11-12 15:31:55 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ky.6][1] | check phase notes for prior work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.6/README.md
+
+<!-- sase:referenced-by:end -->
