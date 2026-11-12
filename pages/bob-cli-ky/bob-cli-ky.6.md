@@ -13,7 +13,7 @@ visual: generalize the review-footer preview script into a walker preview coveri
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ky.5](bob-cli-ky.5.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-ky.5](bob-cli-ky.5.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-ky.7](bob-cli-ky.7.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

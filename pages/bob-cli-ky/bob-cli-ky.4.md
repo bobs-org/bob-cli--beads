@@ -22,7 +22,7 @@ links: add a read-only walkMode.links() preview built on nav's own prev/next mat
 ## Dependencies
 
 - **Depends on:** [bob-cli-ky.3](bob-cli-ky.3.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-ky.5](bob-cli-ky.5.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-ky.5](bob-cli-ky.5.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -35,3 +35,15 @@ links: add a read-only walkMode.links() preview built on nav's own prev/next mat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3fc55c9`](https://github.com/bobs-org/bob-plugins/commit/3fc55c911cecca84be0e9a80ddf7a26180ab5894) | feat(walker-footer): add links compass panel | [bob-cli-ky.4](bob-cli-ky.4.md) | 2026-11-12 14:51:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ky.4--1][1] | Need phase scope, design, prior notes, and current status before completing verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.4.md
+
+<!-- sase:referenced-by:end -->
