@@ -25,6 +25,16 @@ _Plus 13 automatic references — see [Referenced By](#referenced-by)._
 
 Every record note reaches an area of responsibility. Each record collection (eat, podcasts, tv, movies) becomes an album note: `type: "[[album]]"` under its owner area, holding its record schema in frontmatter instead of `config.yml`, de-zorged, and showing a generated, grouped `[!records]` index. Every owner area or project shows a beautiful generated `## Albums` catalog. Records become `type: "[[record]]"` children of their album. Schema and data version together in the vault, a broken album fails alone, and glossary terms for album note and record note are published.
 
+## Notes
+
+[2026-11-12T14:53:58Z · bryanbugyi34@gmail.com] There is an error about ancestry in the ~/bob/podcasts.md file. See the 🔒 20261112\_095308.png screenshot for context. The epic lander agent should resolve this before landing.
+
+[2026-11-12T14:55:12Z · bryanbugyi34@gmail.com] Actually that's likely caused by the bob-cli-kr epic, so you can disregard the previous note.
+
+## Attachments
+
+- 🔒 20261112\_095308.png · image/png · 2858×1728 · 358.144 KiB (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -77,7 +87,7 @@ flowchart TD
     n29["bob-cli-k3.7.1.2: Owner album cards and lead-group navigation [closed]"]
     n30["bob-cli-k3.7.1.3: Record index cards with folds and date chips [closed]"]
     n31["bob-cli-k3.7.1.4: Album breadcrumb and read-only schema header [closed]"]
-    n32["bob-cli-k3.7.1.5: Album and record kinds in navigation [in_progress]"]
+    n32["bob-cli-k3.7.1.5: Album and record kinds in navigation [closed]"]
     n33["bob-cli-k3.8: Bob Mac Capture presents albums [closed]"]
     n34["bob-cli-k3.9: Album cutover in the vault, then delete records from chezmoi [closed]"]
     n0 --> n1
@@ -174,7 +184,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.2.md) | [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.3/README.md) | [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.4.md) | [bob-cli-k3.7.1.4](bob-cli-k3.7.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.5/README.md) | [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.5/README.md) | [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.land/README.md) | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.9.md) | [bob-cli-k3.9](bob-cli-k3.9.md) | 0 |
@@ -210,6 +220,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@bd6fc41`](https://github.com/bobs-org/bob-plugins/commit/bd6fc416960c49808d4a542c61d80ab3501a64a9) | feat(ledger-tools): add owner album cards and group navigation | [bob-cli-k3.7.1.2](bob-cli-k3.7.1.2.md) | 2026-11-12 07:31:10 EST |
 | bob-plugins | [`bob-plugins@ed5e648`](https://github.com/bobs-org/bob-plugins/commit/ed5e64814b1e80f0cbe9ecb8794057b1d884c6de) | feat(ledger-tools): paint record index cards with folds and date chips | [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) | 2026-11-12 08:48:00 EST |
 | bob-plugins | [`bob-plugins@c2f6834`](https://github.com/bobs-org/bob-plugins/commit/c2f683490cdbcb5e1eabaa596cb164847f46d9ba) | feat(album-header): add breadcrumb and schema header | [bob-cli-k3.7.1.4](bob-cli-k3.7.1.4.md) | 2026-11-12 09:46:11 EST |
+| bob-plugins | [`bob-plugins@2d10fca`](https://github.com/bobs-org/bob-plugins/commit/2d10fca3ce8b6333af0fa41c82847d65083282cc) | feat(navigation-hotkeys): album and record kinds in parent pickers | [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) | 2026-11-12 10:09:25 EST |
 
 <!-- sase:referenced-by:start -->
 

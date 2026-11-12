@@ -24,7 +24,7 @@ album-header: implement path-resolved breadcrumb, copy-capture affordance, repor
 ## Dependencies
 
 - **Depends on:** [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -44,12 +44,14 @@ album-header: implement path-resolved breadcrumb, copy-capture affordance, repor
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.4b.cld][1] | Check progress of the in-flight album header phase that hides the record row, to sequence recommendations | 1 |
-| read-by | [agent:research.4b.grk][2] | Need the schema header phase that currently treats record as read-only | 1 |
-| read-by | [agent:research.4b.mus][3] | research record frontmatter Obsidian rendering | 1 |
+| read-by | [agent:bob-cli-k3.7.1.4--2][1] | Need the phase scope, design file, and prior remaining-work notes before completion | 2 |
+| read-by | [agent:research.4b.cld][2] | Check progress of the in-flight album header phase that hides the record row, to sequence recommendations | 1 |
+| read-by | [agent:research.4b.grk][3] | Need the schema header phase that currently treats record as read-only | 1 |
+| read-by | [agent:research.4b.mus][4] | research record frontmatter Obsidian rendering | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cld/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.grk/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.4b.mus/README.md
 
 <!-- sase:referenced-by:end -->
