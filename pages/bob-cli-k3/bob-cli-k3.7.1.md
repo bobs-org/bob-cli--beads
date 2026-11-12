@@ -41,13 +41,14 @@ Complete bob-cli-k3.7 with report-driven album and record cards, album headers, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-k3.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.land.md) | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-k3.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.land.md) | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8cef0d5`](https://github.com/bobs-org/bob-cli/commit/8cef0d56c8c987de0d0acbc31d260b72c6c37953) | docs(records): link albums section to Obsidian Album cards page | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:22:46 EST |
+| bob-plugins | [`bob-plugins@1b8982c`](https://github.com/bobs-org/bob-plugins/commit/1b8982cf4283d1a20615e3b1f8977cebe2627444) | feat(ledger-tools): add album UI acceptance e2e and verification docs | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:24:01 EST |
 
 <!-- sase:referenced-by:start -->
 
