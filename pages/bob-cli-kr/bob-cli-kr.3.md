@@ -17,7 +17,7 @@ header-reshape: reshape the album header's schema surface into a collapsed-by-de
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k3.7.1](../bob-cli-k3/bob-cli-k3.7.1.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.7.1](../bob-cli-k3/bob-cli-k3.7.1.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-kr.1](bob-cli-kr.1.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-kr.4](bob-cli-kr.4.md) ◐ · ⧖ 2026-11-12
 
