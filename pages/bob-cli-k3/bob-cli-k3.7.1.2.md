@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:2f4376800ebd97798470fde7 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -61,7 +61,9 @@ owner-cards: implement hue-accented albums callouts in Reading view and Live Pre
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-k3.7.1.2--1][1] | Need phase scope, design file, prior baseline failures, and remaining verification work | 1 |
+| read-by | [agent:bob-cli-k3.7.1.3][2] | Need sibling PROPOSED FOLLOW-UP wording for pre-existing docs-check failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.3/README.md
 
 <!-- sase:referenced-by:end -->

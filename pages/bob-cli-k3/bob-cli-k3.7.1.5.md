@@ -13,7 +13,7 @@ album-navigation: implement accessible album/record icons, album and record pare
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k3.7.1.4](bob-cli-k3.7.1.4.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.7.1.4](bob-cli-k3.7.1.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
