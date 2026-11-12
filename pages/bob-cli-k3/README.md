@@ -200,7 +200,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.land.md) | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.9.md) | [bob-cli-k3.9](bob-cli-k3.9.md) | 0 |
-| [bbugyi200.athena.bob-cli-k3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.land.md) | [bob-cli-k3](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-k3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.land.md) | [bob-cli-k3](README.md) | 3 |
 
 ## Commits
 
@@ -240,6 +240,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e0053cd`](https://github.com/bobs-org/bob-plugins/commit/e0053cd41a136f618c46d59d33ebbc5733c55f41) | docs(albums): fix records page link | [bob-cli-k3.11](bob-cli-k3.11.md) | 2026-11-12 13:34:39 EST |
 | bob-cli | [`b04120b`](https://github.com/bobs-org/bob-cli/commit/b04120b0e2d633a63f98b5a7ee75ba4edeb28fc2) | feat(albums): singular record counts and retired config-reader gate | [bob-cli-k3](README.md) | 2026-11-12 15:11:56 EST |
 | bob-plugins | [`bob-plugins@4d987b7`](https://github.com/bobs-org/bob-plugins/commit/4d987b7c98ecaa7098475707ece2aa4cf4cefbfb) | feat(album-catalog): singular owner counts with old-bob fallback | [bob-cli-k3](README.md) | 2026-11-12 15:13:28 EST |
+| bob-cli--plans | [`bob-cli--plans@927d3a9`](https://github.com/bobs-org/bob-cli--plans/commit/927d3a9a242377885fd6c28066eb001c40029822) | chore(k3): mark album-notes epic plan done | [bob-cli-k3](README.md) | 2026-11-12 15:14:20 EST |
 
 <!-- sase:referenced-by:start -->
 
