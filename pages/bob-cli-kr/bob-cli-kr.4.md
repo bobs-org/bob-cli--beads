@@ -21,3 +21,15 @@ card-editor: make the Schema Card keyboard-first editable through bob albums upd
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-kr.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.md) | [bob-cli-kr.4](bob-cli-kr.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kr.4.1.1][1] | Need outer phase DECISIONS governing update-session | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

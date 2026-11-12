@@ -13,7 +13,7 @@ editor-acceptance: extend the existing scratch-vault album harness to prove real
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kr.4.1.3](bob-cli-kr.4.1.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kr.4.1.3](bob-cli-kr.4.1.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

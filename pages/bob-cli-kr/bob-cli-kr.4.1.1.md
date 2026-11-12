@@ -23,7 +23,7 @@ update-session: extend the shared album subprocess service with typed update res
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kr.4.1.2](bob-cli-kr.4.1.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kr.4.1.2](bob-cli-kr.4.1.2.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -36,3 +36,15 @@ update-session: extend the shared album subprocess service with typed update res
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@da5cdda`](https://github.com/bobs-org/bob-plugins/commit/da5cdda67a5bda235b9607e02b3669baa8e5537b) | feat(ledger-tools): guarded album schema update service and edit session | [bob-cli-kr.4.1.1](bob-cli-kr.4.1.1.md) | 2026-11-12 14:26:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kr.4.1.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
