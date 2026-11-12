@@ -11,6 +11,10 @@
 
 gcal-title-hardening: extend gcal escape_title to neutralize mid-line tags, wikilinks, and Markdown links in organizer-authored event titles; fix the gog 429 substring misclassification; optionally gate #on/#off clock tags on organizer_is_self per the memory decision.
 
+## Notes
+
+[2026-11-12T10:46:43Z · bob-cli-kq.2] Verified: escape_title now neutralizing mid-line #tags, [[wikilinks]], and Markdown ]( links after clock tokens are stripped; classify_gog_failure matches 429 only as an HTTP status token so team-429@ identifiers are not retried; journal title hashes follow the escaped span so untouched Google updates rewrite once. gate_organizer_clock_tags=no so no clock-tag or memory edits. just check staged for host completion and close.
+
 ## Agents
 
 | Agent | Bead | Commits |
