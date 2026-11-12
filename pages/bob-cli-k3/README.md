@@ -189,7 +189,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.3/README.md) | [bob-cli-k3.7.1.3](bob-cli-k3.7.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.4.md) | [bob-cli-k3.7.1.4](bob-cli-k3.7.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.7.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7.1.5/README.md) | [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.land.md) | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-k3.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.7.1.land.md) | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-k3.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.8.md) | [bob-cli-k3.8](bob-cli-k3.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.9.md) | [bob-cli-k3.9](bob-cli-k3.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.land/README.md) | [bob-cli-k3](README.md) | 0 |
@@ -227,6 +227,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@2d10fca`](https://github.com/bobs-org/bob-plugins/commit/2d10fca3ce8b6333af0fa41c82847d65083282cc) | feat(navigation-hotkeys): album and record kinds in parent pickers | [bob-cli-k3.7.1.5](bob-cli-k3.7.1.5.md) | 2026-11-12 10:09:25 EST |
 | bob-cli | [`8cef0d5`](https://github.com/bobs-org/bob-cli/commit/8cef0d56c8c987de0d0acbc31d260b72c6c37953) | docs(records): link albums section to Obsidian Album cards page | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:22:46 EST |
 | bob-plugins | [`bob-plugins@1b8982c`](https://github.com/bobs-org/bob-plugins/commit/1b8982cf4283d1a20615e3b1f8977cebe2627444) | feat(ledger-tools): add album UI acceptance e2e and verification docs | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:24:01 EST |
+| bob-cli--plans | [`bob-cli--plans@48505cc`](https://github.com/bobs-org/bob-cli--plans/commit/48505cc0413332a3cba361aab1ac5ba3f1b53aa8) | docs(plans): mark album plugin UI epic and acceptance plans done | [bob-cli-k3.7.1](bob-cli-k3.7.1.md) | 2026-11-12 11:24:55 EST |
 
 <!-- sase:referenced-by:start -->
 
