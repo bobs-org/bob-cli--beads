@@ -23,7 +23,13 @@ mac-typecheck: fix the two @MainActor test classes that mutate ledgerSuites from
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.1/README.md) | [bob-cli-kj.1](bob-cli-kj.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-kj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kj.1/README.md) | [bob-cli-kj.1](bob-cli-kj.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@1e83c03`](https://github.com/bobs-org/bob-mac-capture/commit/1e83c032217a9d6c90827ee467e5c60b57069d88) | fix(tests): isolate alias ledger teardown on main actor | [bob-cli-kj.1](bob-cli-kj.1.md) | 2026-11-11 17:32:23 EST |
 
 <!-- sase:referenced-by:start -->
 

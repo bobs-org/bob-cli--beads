@@ -53,4 +53,10 @@ PROPOSED FOLLOW-UP: full-suite process-CPU contention still trips unrelated 25 m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.6.md) | [bob-cli-kj.6](bob-cli-kj.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-kj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kj.6.md) | [bob-cli-kj.6](bob-cli-kj.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@70408bf`](https://github.com/bobs-org/bob-plugins/commit/70408bf815ce899ca2e5965e9fca8c1d8703ceee) | fix(block-id-prompt): restore task-wikilink snapshot and rank CPU budgets | [bob-cli-kj.6](bob-cli-kj.6.md) | 2026-11-11 18:16:41 EST |
