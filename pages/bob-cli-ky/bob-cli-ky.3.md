@@ -13,7 +13,7 @@ lanes: add the w panel as a pure view over api.laneWalk v2 queue counts (WIP/NEX
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ky.2](bob-cli-ky.2.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-ky.2](bob-cli-ky.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-ky.4](bob-cli-ky.4.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
