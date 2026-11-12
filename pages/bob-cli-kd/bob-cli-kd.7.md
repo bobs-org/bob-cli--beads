@@ -72,18 +72,20 @@ epic-symbols: none leftover. Did not close parent epic bob-cli-kd.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.49.cdx][1] | Establish initial vault rollout and end-to-end verification state | 1 |
-| read-by | [agent:research.49.cld][2] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
-| read-by | [agent:research.49.final][3] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
-| read-by | [agent:research.49.gem][4] | Understand phase 7 scope and e2e testing requirements | 1 |
-| read-by | [agent:research.49.grk][5] | Need closed restart/CLI phases and wrap-up e2e proof so the first-run guide matches shipped work | 1 |
-| read-by | [agent:research.49.mus][6] | research kd epic phase scope for user guide | 1 |
+| read-by | [agent:bob-cli-kd.7][1] | Need the phase scope, design file, notes, and epic decisions | 3 |
+| read-by | [agent:research.49.cdx][2] | Establish initial vault rollout and end-to-end verification state | 1 |
+| read-by | [agent:research.49.cld][3] | research: user guide for first-time bank ack and e2e test of bob-cli-kd | 1 |
+| read-by | [agent:research.49.final][4] | Check sub-phase state and any notes for the consolidated kd e2e test gating | 1 |
+| read-by | [agent:research.49.gem][5] | Understand phase 7 scope and e2e testing requirements | 1 |
+| read-by | [agent:research.49.grk][6] | Need closed restart/CLI phases and wrap-up e2e proof so the first-run guide matches shipped work | 1 |
+| read-by | [agent:research.49.mus][7] | research kd epic phase scope for user guide | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.final/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.grk/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.49.mus/README.md
 
 <!-- sase:referenced-by:end -->
