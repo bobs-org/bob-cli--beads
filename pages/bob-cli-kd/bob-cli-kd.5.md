@@ -22,7 +22,7 @@ bank-balance: derive each account's anchor from the bank's own numbers, prove co
 ## Dependencies
 
 - **Depends on:** [bob-cli-kd.4](bob-cli-kd.4.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.7](bob-cli-kd.7.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.7](bob-cli-kd.7.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

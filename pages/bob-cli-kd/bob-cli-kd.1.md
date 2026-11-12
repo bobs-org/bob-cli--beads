@@ -128,7 +128,7 @@ view: month
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kd.7](bob-cli-kd.7.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.7](bob-cli-kd.7.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

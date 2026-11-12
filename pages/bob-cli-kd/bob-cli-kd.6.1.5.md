@@ -39,13 +39,7 @@ bank-ui-proof: verify the combined bank UI in a synthetic vault, finish plugin d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kd.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md) | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d2e4137`](https://github.com/bobs-org/bob-plugins/commit/d2e4137e0f96a95591ee7b1e4f93c1f7b2780b89) | docs(bank): finish bank-ui-proof documentation for fixture walkthrough and deployment evidence | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 2026-11-12 07:40:02 EST |
+| [bbugyi200.athena.bob-cli-kd.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md) | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

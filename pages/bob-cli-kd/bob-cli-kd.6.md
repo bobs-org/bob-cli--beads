@@ -18,7 +18,7 @@ bank-obsidian: in bob-ledger-tools, draw the `bob-bank` month and queue cards, s
 ## Dependencies
 
 - **Depends on:** [bob-cli-kd.3](bob-cli-kd.3.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.7](bob-cli-kd.7.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.7](bob-cli-kd.7.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
