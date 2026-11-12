@@ -29,6 +29,8 @@ Bryan restarts his daily bank habit right away. Every posted transaction and dep
 
 [2026-11-11T20:42:22Z · research.49.cld] DISCOVERED ISSUE: bob bank ensure (month::plan_insert_day → day_end_line, src/native/bank/month.rs:300) inserts a new day heading right after the previous day's last row block (row + indented children), not at the end of that day's section. Any trailing non-row line of the earlier day — free prose, a plain checklist line, or an empty '- [x] $' stub — is silently moved under the new day; bob bank check reports nothing, and ensure's next-row line then points at the moved line. Repro (synthetic, installed bob 0.5.0 @ 2026-11-11): BOB_NOW=2026-11-12T08:00:00; bob bank ensure -b SB -D 2026-11-11; append '- [x] $13.71 Smashburger', '  - split with Kelly', 'Kelly paid the tip in cash.', '- [ ] call the bank about the fee' under ## Wed Nov 11; bob bank ensure -b SB -D 2026-11-12 → '## Thu Nov 12' lands after the child bullet and the prose + checklist lines now sit under Thu. Contract (docs/bank.md 'Writers insert a missing day heading in date order') implies the day's whole section stays intact. Impact: Bank: open today, the daily-chip ensure, and any import path that reuses plan_insert_day can re-date Bryan's notes. Suggested fix: anchor the insert before the next day heading / at the end of the earlier day's section (trimming trailing blanks), plus a golden test with trailing prose, a plain checklist line, and a stub.
 
+[2026-11-12T01:50:17Z · bob-cli-kd.4.1.land] LANDING INTEGRATION: kd.4.1 review reproduced your note #1 through bank import: plan_insert_day puts the Nov 12 heading before Nov 11 trailing prose/plain checklist lines. Commit 03a0aba2 only repaired next_row_line after indented children and does not fix whole-day section ownership. The kd.4.1 repair tale retains this shared month helper fix and a section-ownership regression; no duplicate task. kd.4.1 and parent phase kd.4 remain open until that tale finishes their normal closeout.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -110,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kd.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.2/README.md) | [bob-cli-kd.4.1.2](bob-cli-kd.4.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.3.md) | [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.4/README.md) | [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-kd.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.4.1.land/README.md) | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.4.1.land.md) | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.5/README.md) | [bob-cli-kd.5](bob-cli-kd.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.md) | [bob-cli-kd.6](bob-cli-kd.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.1/README.md) | [bob-cli-kd.6.1.1](bob-cli-kd.6.1.1.md) | 0 |
@@ -132,6 +134,7 @@ flowchart TD
 | bob-cli | [`ee2d2cb`](https://github.com/bobs-org/bob-cli/commit/ee2d2cbf0a837c5b735d26d462fbce60e34d269c) | feat(bank): add import planner and payee naming for match-name plan | [bob-cli-kd.4.1.2](bob-cli-kd.4.1.2.md) | 2026-11-11 16:39:22 EST |
 | bob-cli | [`d9f0539`](https://github.com/bobs-org/bob-cli/commit/d9f0539f61830be7296f311f086496c1fd491cbb) | feat(bank): add guarded import command and recovery | [bob-cli-kd.4.1.3](bob-cli-kd.4.1.3.md) | 2026-11-11 19:20:43 EST |
 | bob-cli | [`b8c7118`](https://github.com/bobs-org/bob-cli/commit/b8c71181f28dee1ee9b9847d429c305ee3f83f17) | docs(bank): document bank import contract, journal, and JSON output | [bob-cli-kd.4.1.4](bob-cli-kd.4.1.4.md) | 2026-11-11 19:54:58 EST |
+| bob-cli | [`ae6a28d`](https://github.com/bobs-org/bob-cli/commit/ae6a28d07c023ab7ee8bd518d0fcff26739e4178) | fix(bank): harden import planning and recovery | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 2026-11-11 22:08:28 EST |
 
 <!-- sase:referenced-by:start -->
 
