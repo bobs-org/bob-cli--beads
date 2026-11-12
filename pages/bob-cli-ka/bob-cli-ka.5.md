@@ -55,6 +55,7 @@ Empty glued @nb# menus still paint only Bob's chrome. just typecheck-tests still
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ka.5--2][1] | Need assigned-bead scope, notes, and remaining work before finishing notebook place-menu implementation | 2 |
 | read-by | [agent:bob-cli-ka.5--3][1] | Need assigned bead scope after macOS CI Build failure | 1 |
+| read-by | [agent:bob-cli-ka.5--5][1] | Need current bead status and close criteria before deciding whether exact-SHA macOS CI passed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ka.5.md
 
