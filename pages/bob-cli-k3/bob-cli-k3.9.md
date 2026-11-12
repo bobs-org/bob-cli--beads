@@ -16,7 +16,7 @@ vault-cutover: once every host runs album-aware bob, move each schema into its a
 - **Depends on:** [bob-cli-k3.1](bob-cli-k3.1.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k3.10](bob-cli-k3.10.md) ◐ · ⧖ 2026-11-11
 - **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ◐ · ⧖ 2026-11-11
-- **Depends on:** [bob-cli-k3.6](bob-cli-k3.6.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.6](bob-cli-k3.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

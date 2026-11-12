@@ -19,7 +19,7 @@ album-index: render the bob-owned `[!records]` index (tally title, groups in dec
 
 - **Depends on:** [bob-cli-k3.3](bob-cli-k3.3.md) ✓ · ⧖ 2026-11-11
 - **Depends on:** [bob-cli-k3.4](bob-cli-k3.4.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-k3.6](bob-cli-k3.6.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.6](bob-cli-k3.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

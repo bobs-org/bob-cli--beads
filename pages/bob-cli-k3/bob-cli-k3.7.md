@@ -14,7 +14,7 @@ plugins-albums: in bob-ledger-tools, style the `[!albums]` and `[!records]` call
 ## Dependencies
 
 - **Blocks:** [bob-cli-k3.11](bob-cli-k3.11.md) ◐ · ⧖ 2026-11-11
-- **Depends on:** [bob-cli-k3.6](bob-cli-k3.6.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.6](bob-cli-k3.6.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
