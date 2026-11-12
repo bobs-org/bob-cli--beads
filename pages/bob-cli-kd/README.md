@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kd.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md) | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.land.md) | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-kd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.7/README.md) | [bob-cli-kd.7](bob-cli-kd.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-kd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.land/README.md) | [bob-cli-kd](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-kd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.land/README.md) | [bob-cli-kd](README.md) | 2 |
 
 ## Commits
 
@@ -162,6 +162,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@442089c`](https://github.com/bobs-org/bob-cli--plans/commit/442089c7ccd576b665729e545f9226fbd444f5e7) | chore(plans): mark bank\_obsidian epic and landing tale done | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 2026-11-12 09:07:24 EST |
 | bob-cli | [`65c9e95`](https://github.com/bobs-org/bob-cli/commit/65c9e95c71309f0d124e7fee8309a4daa976f701) | docs(bank): add the acknowledgment guide and end-to-end CLI proof | [bob-cli-kd.7](bob-cli-kd.7.md) | 2026-11-12 09:40:12 EST |
 | bob-cli | [`753b4e4`](https://github.com/bobs-org/bob-cli/commit/753b4e48f97203b9fdaa404af625b1f10a681df3) | fix(bank): stamp month notes in the configured timezone | [bob-cli-kd](README.md) | 2026-11-12 10:33:47 EST |
+| bob-cli--plans | [`bob-cli--plans@fa1cf2f`](https://github.com/bobs-org/bob-cli--plans/commit/fa1cf2fd676adcd437927533ed263087edd177a5) | chore(plans): mark bank\_daily\_acknowledgment done after bob-cli-kd landed | [bob-cli-kd](README.md) | 2026-11-12 10:34:31 EST |
 
 <!-- sase:referenced-by:start -->
 
