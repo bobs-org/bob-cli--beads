@@ -64,7 +64,7 @@ flowchart TD
     n14["bob-cli-kd.6.1.2: Safe bank gestures, commands, and typing helpers [closed]"]
     n15["bob-cli-kd.6.1.3: Month and queue cards with the daily bank chip [closed]"]
     n16["bob-cli-kd.6.1.4: Bank row and day-heading rendering in both Obsidian views [closed]"]
-    n17["bob-cli-kd.6.1.5: Fixture walkthrough, documentation, and deployment proof [in_progress]"]
+    n17["bob-cli-kd.6.1.5: Fixture walkthrough, documentation, and deployment proof [closed]"]
     n18["bob-cli-kd.7: End-to-end proof, the guide, docs audit, memory, and follow-ups [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -119,7 +119,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kd.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.2/README.md) | [bob-cli-kd.6.1.2](bob-cli-kd.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.3.md) | [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.4/README.md) | [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-kd.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md) | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-kd.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md) | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.land/README.md) | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.7/README.md) | [bob-cli-kd.7](bob-cli-kd.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.land/README.md) | [bob-cli-kd](README.md) | 0 |
@@ -139,6 +139,7 @@ flowchart TD
 | bob-cli | [`ae6a28d`](https://github.com/bobs-org/bob-cli/commit/ae6a28d07c023ab7ee8bd518d0fcff26739e4178) | fix(bank): harden import planning and recovery | [bob-cli-kd.4.1](bob-cli-kd.4.1.md) | 2026-11-11 22:08:28 EST |
 | bob-plugins | [`bob-plugins@564f3c1`](https://github.com/bobs-org/bob-plugins/commit/564f3c1087e3bf1f4a03854a15e905e08c253301) | feat(bob-ledger-tools): render bank cards and daily chip | [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) | 2026-11-12 01:47:49 EST |
 | bob-plugins | [`bob-plugins@4e4a580`](https://github.com/bobs-org/bob-plugins/commit/4e4a58019dc7e6fea2608ff37d6fa7a9dc9e2db9) | feat(ledger-tools): decorate bank month rows in Live Preview and Reading view | [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) | 2026-11-12 06:53:25 EST |
+| bob-plugins | [`bob-plugins@d2e4137`](https://github.com/bobs-org/bob-plugins/commit/d2e4137e0f96a95591ee7b1e4f93c1f7b2780b89) | docs(bank): finish bank-ui-proof documentation for fixture walkthrough and deployment evidence | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 2026-11-12 07:40:02 EST |
 
 <!-- sase:referenced-by:start -->
 

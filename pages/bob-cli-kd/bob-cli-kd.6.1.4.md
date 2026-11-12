@@ -20,7 +20,7 @@ bank-ui-marks: add Live Preview and Reading view bank decorations, mark gating, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -33,3 +33,15 @@ bank-ui-marks: add Live Preview and Reading view bank decorations, mark gating, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4e4a580`](https://github.com/bobs-org/bob-plugins/commit/4e4a58019dc7e6fea2608ff37d6fa7a9dc9e2db9) | feat(ledger-tools): decorate bank month rows in Live Preview and Reading view | [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) | 2026-11-12 06:53:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kd.6.1.4][1] | Need remaining notes, design, and DECISIONS | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.4/README.md
+
+<!-- sase:referenced-by:end -->

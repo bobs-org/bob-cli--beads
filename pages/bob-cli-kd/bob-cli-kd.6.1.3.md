@@ -16,7 +16,7 @@
 | related | file:explicit:406f620cf619e73fcdb56669 | attached via sase artifact create --bead |
 | related | file:explicit:459723958199a494a5792a15 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -66,7 +66,9 @@ PROPOSED FOLLOW-UP: Make the rollout documentation targeted startup smoke test c
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kd.6.1.3--5][1] | Confirm final rollout blocker note and phase status | 2 |
+| read-by | [agent:bob-cli-kd.6.1.4][2] | Need closed cards phase notes to see what already landed for marks to build on | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.4/README.md
 
 <!-- sase:referenced-by:end -->
