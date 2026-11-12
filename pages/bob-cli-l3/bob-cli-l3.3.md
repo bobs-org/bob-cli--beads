@@ -17,6 +17,8 @@ mac-preview: give the live preview a dedicated album_holds_no_tasks refusal pres
 
 [2026-11-12T22:29:05Z · bob-cli-l3.3] mac-preview work complete in linked bob-mac-capture (uncommitted): showBareAlbumRefusal helper + 3 failure-site call sites, currency-gated bareAlbumRewrite used by footer button, latestParse cleared in resetAnalysisState, new record-capture-bare-album.json fixture generated from real bob 0.5.0 plus generator-script/README wiring, 3 hosted tests in CaptureRecordPreviewPanelTests, one docs sentence. Pre-landing gate (Scripts/macos-ci-check) staged in monitor; push + exact-SHA CI watch + epic-symbols + close left to follow-up.
 
+[2026-11-12T23:23:58Z · bob-cli-l3.3] PROPOSED FOLLOW-UP: exact-SHA gate run 43321693536 (snapshot 739bc4ea, this phase tree) fails only testCachedRecordRouteAcceptsAndRequestsItsNextMissingField and testRecordRouteRowsDoNotQuickCommitPlusOrComma, byte-identical failures on clean base e0c6c16 run 43313936376; all 3 new bare-album tests pass, Lint and Build green
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-l3.2](bob-cli-l3.2.md) ✓ · ⧖ 2026-11-12
@@ -25,7 +27,13 @@ mac-preview: give the live preview a dedicated album_holds_no_tasks refusal pres
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-l3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-l3.3.md) | [bob-cli-l3.3](bob-cli-l3.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-l3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-l3.3.md) | [bob-cli-l3.3](bob-cli-l3.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@9faa57b`](https://github.com/bobs-org/bob-mac-capture/commit/9faa57b6ed4b26de2abdc2f44d017c0e381a7aaa) | fix(capture): teach previews a bare-album refusal with a one-key rewrite | [bob-cli-l3.3](bob-cli-l3.3.md) | 2026-11-12 18:24:37 EST |
 
 <!-- sase:referenced-by:start -->
 

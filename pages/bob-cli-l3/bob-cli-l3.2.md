@@ -23,7 +23,13 @@ mac-accept: narrow acceptSelectedCompletion's record dispatch to Record Card con
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-l3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-l3.2/README.md) | [bob-cli-l3.2](bob-cli-l3.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-l3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-l3.2/README.md) | [bob-cli-l3.2](bob-cli-l3.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@e0c6c16`](https://github.com/bobs-org/bob-mac-capture/commit/e0c6c162a7b855ba22f6f98e911d1563d4154e46) | fix(capture): accept record route completions | [bob-cli-l3.2](bob-cli-l3.2.md) | 2026-11-12 16:48:53 EST |
 
 <!-- sase:referenced-by:start -->
 
