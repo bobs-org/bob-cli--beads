@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kd.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.3.md) | [bob-cli-kd.6.1.3](bob-cli-kd.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.4/README.md) | [bob-cli-kd.6.1.4](bob-cli-kd.6.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kd.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.6.1.5/README.md) | [bob-cli-kd.6.1.5](bob-cli-kd.6.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-kd.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.land.md) | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-kd.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kd.6.1.land.md) | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-kd.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.7/README.md) | [bob-cli-kd.7](bob-cli-kd.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-kd.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kd.land/README.md) | [bob-cli-kd](README.md) | 0 |
 
@@ -143,6 +143,7 @@ flowchart TD
 | bob-cli | [`c1e2839`](https://github.com/bobs-org/bob-cli/commit/c1e28399c517a1a9b32c953b1b5bd2328699d318) | feat(bank): verify balances and restore missing rows | [bob-cli-kd.5](bob-cli-kd.5.md) | 2026-11-12 08:06:20 EST |
 | bob-plugins | [`bob-plugins@a6f4b03`](https://github.com/bobs-org/bob-plugins/commit/a6f4b035a653489331134bf326788de8e654da10) | fix(ledger-tools): guard bank marks config timer and trim bank docs under cap | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 2026-11-12 08:12:49 EST |
 | bob-plugins | [`bob-plugins@2f02824`](https://github.com/bobs-org/bob-plugins/commit/2f02824e2858c01109ddb50501a66a9eda860ada) | fix(ledger-tools): wire bank cards and chip through bankApi() | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 2026-11-12 09:06:29 EST |
+| bob-cli--plans | [`bob-cli--plans@442089c`](https://github.com/bobs-org/bob-cli--plans/commit/442089c7ccd576b665729e545f9226fbd444f5e7) | chore(plans): mark bank\_obsidian epic and landing tale done | [bob-cli-kd.6.1](bob-cli-kd.6.1.md) | 2026-11-12 09:07:24 EST |
 
 <!-- sase:referenced-by:start -->
 
