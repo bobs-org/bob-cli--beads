@@ -41,7 +41,9 @@ lanes: add the w panel as a pure view over api.laneWalk v2 queue counts (WIP/NEX
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ky.3][1] | Confirm the clean-base follow-up note before closing | 2 |
+| read-by | [agent:bob-cli-ky.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ky.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.land.md
 
 <!-- sase:referenced-by:end -->

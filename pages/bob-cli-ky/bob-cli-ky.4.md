@@ -43,7 +43,9 @@ links: add a read-only walkMode.links() preview built on nav's own prev/next mat
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ky.4--1][1] | Need phase scope, design, prior notes, and current status before completing verification | 1 |
+| read-by | [agent:bob-cli-ky.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ky.land.md
 
 <!-- sase:referenced-by:end -->
