@@ -27,6 +27,8 @@ The record frontmatter mapping on album notes renders as beautiful, honest heade
 
 [2026-11-12T14:56:38Z · bryanbugyi34@gmail.com] The epic lander agent should make sure this works better than shown in the 🔒 20261112\_095308.png screenshot before landing.
 
+[2026-11-12T18:54:15Z · bob-cli-k3.land] DISCOVERED ISSUE: (from bob-cli-k3.land) In bob-plugins, plugins/bob-ledger-tools/src/241w-plugin-album-schema-model.js albumHeaderRecordCountPhrase (added by kr.3 in f714fee) uses the raw schema noun id as the singular, so an album with exactly one record whose noun is an identifier such as tv_show reads '1 tv_show' rather than '1 TV show'. The bob-cli-k3 landing tale is adding an additive display 'singular' field (the label with the same lowercasing rule as plural) to bob albums list -f json and fixing the k3-owned [!records] tally and owner [!albums] card counts. Once that lands, the album header phrase should use singular (falling back to plural or noun for older bob). k3's tale deliberately leaves 241w untouched to avoid colliding with the active kr.4.1 Schema Card worker.
+
 ## Attachments
 
 - 🔒 20261112\_095308.png · image/png · 2858×1728 · 358.144 KiB (private attachment)
@@ -37,7 +39,7 @@ The record frontmatter mapping on album notes renders as beautiful, honest heade
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kr.1](bob-cli-kr.1.md) | Complete album schema JSON and the Obsidian-style emitter | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-kr.2](bob-cli-kr.2.md) | The bob albums update writer | ✓ closed | large | 2026-11-12 | 1 | 0 |
-| [bob-cli-kr.3](bob-cli-kr.3.md) | Collapsed schema summary, chip view, and read-only Schema Card | ✓ closed | medium | 2026-11-12 | 1 | 0 |
+| [bob-cli-kr.3](bob-cli-kr.3.md) | Collapsed schema summary, chip view, and read-only Schema Card | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-kr.4](bob-cli-kr.4.md) | Editable Schema Card gestures with consequences and Undo | ◐ in_progress | large | 2026-11-12 | 1 | 0 |
 
 ## Lineage
@@ -53,6 +55,11 @@ flowchart TD
     n6["bob-cli-kr.2.1.3: Ship the guarded albums update command and its contract [closed]"]
     n7["bob-cli-kr.3: Collapsed schema summary, chip view, and read-only Schema Card [closed]"]
     n8["bob-cli-kr.4: Editable Schema Card gestures with consequences and Undo [in_progress]"]
+    n9["bob-cli-kr.4.1: Editable album Schema Card [in_progress]"]
+    n10["bob-cli-kr.4.1.1: Guarded schema update service and edit session [closed]"]
+    n11["bob-cli-kr.4.1.2: Schema Card gesture stages and consequence UI [in_progress]"]
+    n12["bob-cli-kr.4.1.3: Album and record entry points and YAML return [in_progress]"]
+    n13["bob-cli-kr.4.1.4: Schema editor integration and real Obsidian acceptance [in_progress]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -61,12 +68,20 @@ flowchart TD
     n3 --> n6
     n0 --> n7
     n0 --> n8
+    n8 --> n9
+    n9 --> n10
+    n9 --> n11
+    n9 --> n12
+    n9 --> n13
     n1 -.-> n2
     n1 -.-> n7
     n2 -.-> n8
     n4 -.-> n5
     n5 -.-> n6
     n7 -.-> n8
+    n10 -.-> n11
+    n11 -.-> n12
+    n12 -.-> n13
 ```
 
 ## Agents
@@ -79,8 +94,13 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-kr.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.2.1.2/README.md) | [bob-cli-kr.2.1.2](bob-cli-kr.2.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-kr.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.2.1.3/README.md) | [bob-cli-kr.2.1.3](bob-cli-kr.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-kr.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.2.1.land.md) | [bob-cli-kr.2.1](bob-cli-kr.2.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-kr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.3.md) | [bob-cli-kr.3](bob-cli-kr.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-kr.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4/README.md) | [bob-cli-kr.4](bob-cli-kr.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.3.md) | [bob-cli-kr.3](bob-cli-kr.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-kr.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.md) | [bob-cli-kr.4](bob-cli-kr.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.1/README.md) | [bob-cli-kr.4.1.1](bob-cli-kr.4.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.2/README.md) | [bob-cli-kr.4.1.2](bob-cli-kr.4.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.3/README.md) | [bob-cli-kr.4.1.3](bob-cli-kr.4.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.4/README.md) | [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.land/README.md) | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-kr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.land/README.md) | [bob-cli-kr](README.md) | 0 |
 
 ## Commits
@@ -91,5 +111,7 @@ flowchart TD
 | bob-cli | [`de5c0e5`](https://github.com/bobs-org/bob-cli/commit/de5c0e56d041af61aa0a4dd3d433a228754e66af) | feat(albums): validate ordered schema operations and consequences | [bob-cli-kr.2.1.1](bob-cli-kr.2.1.1.md) | 2026-11-12 09:11:26 EST |
 | bob-cli | [`a7b5efe`](https://github.com/bobs-org/bob-cli/commit/a7b5efed64aac470c6f3ea578519e355bdf1b85f) | feat(albums): preserve schema spans and plan reversible updates | [bob-cli-kr.2.1.2](bob-cli-kr.2.1.2.md) | 2026-11-12 10:27:13 EST |
 | bob-cli | [`859c157`](https://github.com/bobs-org/bob-cli/commit/859c157119f63ff2b6d1a2106c27d1cfb2b2ff7c) | feat(albums): ship guarded albums update command and its contract | [bob-cli-kr.2.1.3](bob-cli-kr.2.1.3.md) | 2026-11-12 11:33:14 EST |
+| bob-plugins | [`bob-plugins@f714fee`](https://github.com/bobs-org/bob-plugins/commit/f714fee11fefd5f4ac868e6a61ac8504ac377e7d) | feat(albums): reshape schema header into summary, chips, and Schema Card | [bob-cli-kr.3](bob-cli-kr.3.md) | 2026-11-12 11:47:51 EST |
 | bob-cli | [`27dd275`](https://github.com/bobs-org/bob-cli/commit/27dd275664eb928df33f88cc952604b1dc18f106) | feat(albums): repair guarded writer landing | [bob-cli-kr.2.1](bob-cli-kr.2.1.md) | 2026-11-12 13:38:15 EST |
 | bob-cli--plans | [`bob-cli--plans@024b5f6`](https://github.com/bobs-org/bob-cli--plans/commit/024b5f665debdf9896c08f0e31ca2b24e0547368) | docs(plans): mark album\_schema\_writer done | [bob-cli-kr.2.1](bob-cli-kr.2.1.md) | 2026-11-12 13:39:28 EST |
+| bob-plugins | [`bob-plugins@da5cdda`](https://github.com/bobs-org/bob-plugins/commit/da5cdda67a5bda235b9607e02b3669baa8e5537b) | feat(ledger-tools): guarded album schema update service and edit session | [bob-cli-kr.4.1.1](bob-cli-kr.4.1.1.md) | 2026-11-12 14:26:47 EST |

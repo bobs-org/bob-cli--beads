@@ -35,7 +35,13 @@ header-reshape: reshape the album header's schema surface into a collapsed-by-de
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-kr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.3.md) | [bob-cli-kr.3](bob-cli-kr.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.3.md) | [bob-cli-kr.3](bob-cli-kr.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@f714fee`](https://github.com/bobs-org/bob-plugins/commit/f714fee11fefd5f4ac868e6a61ac8504ac377e7d) | feat(albums): reshape schema header into summary, chips, and Schema Card | [bob-cli-kr.3](bob-cli-kr.3.md) | 2026-11-12 11:47:51 EST |
 
 <!-- sase:referenced-by:start -->
 
