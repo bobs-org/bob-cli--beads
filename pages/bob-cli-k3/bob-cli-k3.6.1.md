@@ -23,6 +23,10 @@
 
 Owner notes show stable Albums catalogs, sync and check cover their health, and albums create atomically installs an album, its Base, and affected catalogs to complete bob-cli-k3.6.
 
+## Notes
+
+[2026-11-12T00:57:34Z · 1bo] DISCOVERED ISSUE: security/bug audit (2026-11-11) confirmed that at commit 3dce8a9e the owner-catalog health findings (src/native/albums/catalog.rs:176,190) and the bob albums list footer (src/native/albums/output.rs:89) advise running 'bob albums sync' while sync does not yet consume CatalogPlan::edits() (#[allow(dead_code)]), so the advice is a no-op and album_catalog_stale warnings persist until phase bob-cli-k3.6.1.2 lands the consumer. No separate task filed; flagging so the phase verifies the advice becomes true and the findings clear after sync.
+
 ## Agents
 
 | Agent | Bead | Commits |

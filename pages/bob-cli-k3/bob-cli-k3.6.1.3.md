@@ -13,7 +13,7 @@ album-create: ship albums create with validation, dry-run, guarded album/Base/ca
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 

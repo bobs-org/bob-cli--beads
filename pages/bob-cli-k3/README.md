@@ -69,7 +69,7 @@ flowchart TD
     n21["bob-cli-k3.6: The Albums catalog in owner notes, and bob albums create [in_progress]"]
     n22["bob-cli-k3.6.1: Owner album catalogs and guarded album creation [in_progress]"]
     n23["bob-cli-k3.6.1.1: Plan owner album catalogs and expose their health [closed]"]
-    n24["bob-cli-k3.6.1.2: Sync catalogs with indexes and protect generated sections [in_progress]"]
+    n24["bob-cli-k3.6.1.2: Sync catalogs with indexes and protect generated sections [closed]"]
     n25["bob-cli-k3.6.1.3: Create albums and their Base and catalogs atomically [in_progress]"]
     n26["bob-cli-k3.7: Obsidian album cards, live chips, and the album header [in_progress]"]
     n27["bob-cli-k3.8: Bob Mac Capture presents albums [closed]"]
@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-k3.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.5.1.land.md) | [bob-cli-k3.5.1](bob-cli-k3.5.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-k3.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-k3.6.md) | [bob-cli-k3.6](bob-cli-k3.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.1/README.md) | [bob-cli-k3.6.1.1](bob-cli-k3.6.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-k3.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.2/README.md) | [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-k3.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.2/README.md) | [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-k3.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.3/README.md) | [bob-cli-k3.6.1.3](bob-cli-k3.6.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.land/README.md) | [bob-cli-k3.6.1](bob-cli-k3.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-k3.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.7/README.md) | [bob-cli-k3.7](bob-cli-k3.7.md) | 0 |
@@ -181,6 +181,7 @@ flowchart TD
 | bob-cli | [`300a6e8`](https://github.com/bobs-org/bob-cli/commit/300a6e81005263311408fac024038a12a50fd62d) | feat(albums): finish index write safety and preview parity | [bob-cli-k3.5.1](bob-cli-k3.5.1.md) | 2026-11-11 18:19:33 EST |
 | bob-cli--plans | [`bob-cli--plans@3fb7c92`](https://github.com/bobs-org/bob-cli--plans/commit/3fb7c92ac664441a58dc057714133101ec4cff40) | docs(plans): mark album index plan done | [bob-cli-k3.5.1](bob-cli-k3.5.1.md) | 2026-11-11 18:20:19 EST |
 | bob-cli | [`3dce8a9`](https://github.com/bobs-org/bob-cli/commit/3dce8a9e920fb928211f8b64000f85dce8df94a6) | feat(albums): report owner catalog health | [bob-cli-k3.6.1.1](bob-cli-k3.6.1.1.md) | 2026-11-11 19:23:43 EST |
+| bob-cli | [`0d2f433`](https://github.com/bobs-org/bob-cli/commit/0d2f433dcaa2f48dc33970635db913a4ccc503db) | feat(albums): sync owner catalogs with records indexes | [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) | 2026-11-11 20:19:20 EST |
 
 <!-- sase:referenced-by:start -->
 

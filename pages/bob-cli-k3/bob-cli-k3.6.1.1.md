@@ -19,7 +19,7 @@ catalog-model: add the pure Albums catalog planner, owner/root membership, stabl
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [bob-cli-k3.6.1.2](bob-cli-k3.6.1.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -32,3 +32,15 @@ catalog-model: add the pure Albums catalog planner, owner/root membership, stabl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3dce8a9`](https://github.com/bobs-org/bob-cli/commit/3dce8a9e920fb928211f8b64000f85dce8df94a6) | feat(albums): report owner catalog health | [bob-cli-k3.6.1.1](bob-cli-k3.6.1.1.md) | 2026-11-11 19:23:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-k3.6.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-k3.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->
