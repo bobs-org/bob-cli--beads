@@ -13,7 +13,7 @@ projects-list-json: add the versioned JSON report (projects, catalogs, findings)
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ld.4](bob-cli-ld.4.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-ld.4](bob-cli-ld.4.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.9](bob-cli-ld.9.md) ◐ · ⧖ 2026-11-13
 
 ## Agents

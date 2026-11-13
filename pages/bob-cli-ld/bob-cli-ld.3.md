@@ -28,10 +28,16 @@ subopen-reader-plugins: mirror the reader rule in task-status-cycler against the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ld.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.3/README.md) | [bob-cli-ld.3](bob-cli-ld.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-ld.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.3/README.md) | [bob-cli-ld.3](bob-cli-ld.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@7b27f05`](https://github.com/bobs-org/bob-plugins/commit/7b27f051620a4cb90618d50557b74b8c53685e4e) | feat(plugins): add dual-format SUBOPEN catalog reader | [bob-cli-ld.3](bob-cli-ld.3.md) | 2026-11-13 12:30:34 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.3][1] | Need full description, notes, and design file contents | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.3/README.md
+
+<!-- sase:referenced-by:end -->

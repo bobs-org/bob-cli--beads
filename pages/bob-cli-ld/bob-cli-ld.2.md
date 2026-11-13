@@ -21,7 +21,7 @@ subopen-reader-rust: add the shared row grammar/parser, read SUBOPEN from the [!
 
 - **Depends on:** [bob-cli-ld.1](bob-cli-ld.1.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.3](bob-cli-ld.3.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-ld.4](bob-cli-ld.4.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-ld.4](bob-cli-ld.4.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.5](bob-cli-ld.5.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
