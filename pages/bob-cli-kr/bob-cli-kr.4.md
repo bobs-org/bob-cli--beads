@@ -29,7 +29,9 @@ card-editor: make the Schema Card keyboard-first editable through bob albums upd
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kr.4.1.1][1] | Need outer phase DECISIONS governing update-session | 1 |
+| read-by | [agent:bob-cli-kr.4.1.land][2] | Need the parent link and phase contract for kr.4.1 landing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.1.land.md
 
 <!-- sase:referenced-by:end -->

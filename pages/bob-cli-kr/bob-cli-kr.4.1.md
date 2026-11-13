@@ -42,6 +42,7 @@
 | related | file:explicit:75cb5d89ae49e96e3e71d623 | attached via sase artifact create --bead |
 | related | file:explicit:75e93ebf13576a48889c2f2b | attached via sase artifact create --bead |
 | related | file:explicit:7d1a523bfd771f46b2d6bc2e | attached via sase artifact create --bead |
+| related | file:explicit:804706682eb54cecb33fcc4b | attached via sase artifact create --bead |
 | related | file:explicit:83f3cb037d35c4b00e182ee0 | attached via sase artifact create --bead |
 | related | file:explicit:862d5ce872a02a82e2559d69 | attached via sase artifact create --bead |
 | related | file:explicit:8e68c5d0513e71274d202fee | attached via sase artifact create --bead |
@@ -61,7 +62,7 @@
 | related | file:explicit:ebbaf7dc19836d55d670eeaf | attached via sase artifact create --bead |
 | related | file:explicit:ff718e28547ecba9f508068d | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_schema_card_editor.md
 
@@ -103,19 +104,20 @@ No new tasks created after duplicate search, last-week task sweep, and active-ep
 
 [2026-11-13T03:13:46Z · bob-cli-kr.4.1.land--7] VERIFICATION: Athena retry4 monitor wj9ahkvmca75 failed exit 1 at schema-dialog-reopen (scripts/obsidian-album-ui-e2e.cjs:1367), duration 155126 ms. Report evidence/album-schema-retry4/report.json SHA-256 b3b41e4a755916aacd7c2c95c6b124f4b6c363603d971e90b375f3d3fbc7ebf3, pass=false. Both schema-open-header and schema-reopen-header diagnostics show entryInvoked=true, entryResult.ok=true, entryError=null; the modal and content are connected and contain 8 then 10 targets, but ownerDocumentMatches=false and the top-level dialogCount=0. The click did open and populate the modal; the harness queried the wrong document. onOpenDiagnostic is null because the instrumentation patches window.Modal.prototype.open while the plugin uses its imported Modal binding. The two-pane supported-save delay, premature writer/commit guard, retained stale draft, no-blind-retry check, and narrow dark Schema Card capture were not reached. All nine retry4 screenshots were copied, checksummed, and visually reviewed under evidence/album-sche
 
-… and 16348 more characters
+… and 17638 more characters
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-kr.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.land/README.md) | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.1.land.md) | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7636ecb`](https://github.com/bobs-org/bob-plugins/commit/7636ecb147a5666fd45c683ef41773679008dcea) | fix(albums): restore Schema Card landing repairs lost in a workspace reset \[bob-cli-kr.4.1\] | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2026-11-13 06:24:02 EST |
+| bob-cli | [`f508aa4`](https://github.com/bobs-org/bob-cli/commit/f508aa46eda604217b3fa15ef32a27ea4f4c8515) | test(album-schema): add escape-path verification evidence | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2026-11-13 06:54:28 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -124,7 +126,9 @@ No new tasks created after duplicate search, last-week task sweep, and active-ep
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kr.4.1.1][1] | Need parent epic DECISIONS and scope for update-session | 1 |
+| read-by | [agent:bob-cli-kr.4.1.land][2] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.1.land.md
 
 <!-- sase:referenced-by:end -->
