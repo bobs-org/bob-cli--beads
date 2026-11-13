@@ -18,7 +18,7 @@ boundary: Plan every terminal journal event before its Gmail write, revalidate l
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.2.1.8.1](bob-cli-kx.2.1.8.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -31,3 +31,15 @@ boundary: Plan every terminal journal event before its Gmail write, revalidate l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`642e158`](https://github.com/bobs-org/bob-cli/commit/642e1580872c74acc2ce3d30b02ff2cfe510841e) | feat(gmail)!: apply mutation boundary, let-go isolation, and fault tests \[bob-cli-kx.2.1.8.2\] | [bob-cli-kx.2.1.8.2](bob-cli-kx.2.1.8.2.md) | 2026-11-13 05:22:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.8.2][1] | Need full details | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.2/README.md
+
+<!-- sase:referenced-by:end -->

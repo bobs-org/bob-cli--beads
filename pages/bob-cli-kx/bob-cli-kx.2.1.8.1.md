@@ -24,3 +24,15 @@ ownership: Make planning, apply, and recovery use the close's frozen saved IDs; 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-kx.2.1.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.8.1.md) | [bob-cli-kx.2.1.8.1](bob-cli-kx.2.1.8.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.8.2][1] | Need ownership phase scope to avoid redo | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.2/README.md
+
+<!-- sase:referenced-by:end -->

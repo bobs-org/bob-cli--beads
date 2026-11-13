@@ -13,7 +13,7 @@ surfaces: Fix quiet digest leaks, hollow kept/let-go rows, and paused row detail
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
