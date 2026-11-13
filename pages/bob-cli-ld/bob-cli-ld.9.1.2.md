@@ -37,3 +37,15 @@ projects-card: render the hued projects card, live chips, per-pane folds, nested
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@274f1db`](https://github.com/bobs-org/bob-plugins/commit/274f1dbf0adda86cbb6d52d39947edfc9dbcc2f5) | feat(bob-ledger-tools): render projects catalog card in Reading and Live Preview \[bob-cli-ld.9.1.2\] | [bob-cli-ld.9.1.2](bob-cli-ld.9.1.2.md) | 2026-11-13 16:32:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.9.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.2/README.md
+
+<!-- sase:referenced-by:end -->

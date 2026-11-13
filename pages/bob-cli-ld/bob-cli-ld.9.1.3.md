@@ -19,4 +19,10 @@ projects-acceptance: add the isolated real-Obsidian runner and offline wrapper, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.3/README.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.1.3.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@703014d`](https://github.com/bobs-org/bob-plugins/commit/703014db87bfa50ee45681a7a0d80c054dfa8db5) | feat(projects): add Obsidian catalog acceptance | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2026-11-13 17:11:27 EST |

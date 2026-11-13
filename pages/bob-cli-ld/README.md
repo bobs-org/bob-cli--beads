@@ -37,7 +37,7 @@ Every area and project note lists its direct child projects in one bob-owned `> 
 | [bob-cli-ld.5](bob-cli-ld.5.md) | Highlights snapshot renders the projects catalog | ✓ closed | small | 2026-11-13 | 1 | 1 |
 | [bob-cli-ld.6](bob-cli-ld.6.md) | bob projects list -f json report | ✓ closed | medium | 2026-11-13 | 1 | 1 |
 | [bob-cli-ld.7](bob-cli-ld.7.md) | Guarded projects sync writes the catalog and retires the line | ✓ closed | large | 2026-11-13 | 1 | 1 |
-| [bob-cli-ld.8](bob-cli-ld.8.md) | Capture writes the parent catalog row at birth | ✓ closed | medium | 2026-11-13 | 1 | 0 |
+| [bob-cli-ld.8](bob-cli-ld.8.md) | Capture writes the parent catalog row at birth | ✓ closed | medium | 2026-11-13 | 1 | 1 |
 | [bob-cli-ld.9](bob-cli-ld.9.md) | Bob Ledger Tools projects catalog card | ◐ in_progress | large | 2026-11-13 | 1 | 0 |
 
 ## Lineage
@@ -102,11 +102,11 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ld.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.5/README.md) | [bob-cli-ld.5](bob-cli-ld.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.6.md) | [bob-cli-ld.6](bob-cli-ld.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.7.md) | [bob-cli-ld.7](bob-cli-ld.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-ld.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.8.md) | [bob-cli-ld.8](bob-cli-ld.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-ld.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.8.md) | [bob-cli-ld.8](bob-cli-ld.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.md) | [bob-cli-ld.9](bob-cli-ld.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-ld.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.1/README.md) | [bob-cli-ld.9.1.1](bob-cli-ld.9.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.2/README.md) | [bob-cli-ld.9.1.2](bob-cli-ld.9.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.3/README.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.1.3.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.land/README.md) | [bob-cli-ld.9.1](bob-cli-ld.9.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ld.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.land/README.md) | [bob-cli-ld](README.md) | 0 |
 
@@ -122,7 +122,9 @@ flowchart TD
 | bob-cli | [`4570a7e`](https://github.com/bobs-org/bob-cli/commit/4570a7ea9e9866c84a8c1a8e2a55ea7a8f870203) | feat(projects): add versioned projects list report | [bob-cli-ld.6](bob-cli-ld.6.md) | 2026-11-13 13:52:49 EST |
 | bob-cli | [`7cd5760`](https://github.com/bobs-org/bob-cli/commit/7cd5760320d1c05cccecb8e363918592f9aef549) | feat(projects)!: sync lifecycles and sub-project catalogs via host transaction | [bob-cli-ld.7](bob-cli-ld.7.md) | 2026-11-13 15:17:43 EST |
 | bob-plugins | [`bob-plugins@fd3f028`](https://github.com/bobs-org/bob-plugins/commit/fd3f028ce60044ce29af927bf64a2a60c70f536d) | feat(bob-ledger-tools): add shared projects report and auto-sync | [bob-cli-ld.9.1.1](bob-cli-ld.9.1.1.md) | 2026-11-13 15:53:49 EST |
+| bob-cli | [`f9b6159`](https://github.com/bobs-org/bob-cli/commit/f9b6159334dff607c681f90382693a0fa36c723a) | feat(capture): list new project notes in the parent Projects catalog at birth | [bob-cli-ld.8](bob-cli-ld.8.md) | 2026-11-13 16:13:44 EST |
 | bob-plugins | [`bob-plugins@274f1db`](https://github.com/bobs-org/bob-plugins/commit/274f1dbf0adda86cbb6d52d39947edfc9dbcc2f5) | feat(bob-ledger-tools): render projects catalog card in Reading and Live Preview \[bob-cli-ld.9.1.2\] | [bob-cli-ld.9.1.2](bob-cli-ld.9.1.2.md) | 2026-11-13 16:32:15 EST |
+| bob-plugins | [`bob-plugins@703014d`](https://github.com/bobs-org/bob-plugins/commit/703014db87bfa50ee45681a7a0d80c054dfa8db5) | feat(projects): add Obsidian catalog acceptance | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2026-11-13 17:11:27 EST |
 
 <!-- sase:referenced-by:start -->
 
