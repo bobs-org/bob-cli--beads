@@ -26,10 +26,16 @@ highlights-snapshot: render [!projects] in Highlights PDFs with state chips, omi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ld.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.5/README.md) | [bob-cli-ld.5](bob-cli-ld.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-ld.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.5/README.md) | [bob-cli-ld.5](bob-cli-ld.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`a225953`](https://github.com/bobs-org/bob-cli/commit/a2259538b9785597bb0572c01e6a145c0fce463f) | feat(highlights): render the projects catalog in note snapshots | [bob-cli-ld.5](bob-cli-ld.5.md) | 2026-11-13 12:24:30 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.5/README.md
+
+<!-- sase:referenced-by:end -->
