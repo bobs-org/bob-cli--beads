@@ -22,7 +22,7 @@ command: add ack arguments and dispatch, the forward batched queue, explicit eve
 ## Dependencies
 
 - **Depends on:** [bob-cli-l5.3.1.1](bob-cli-l5.3.1.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -43,7 +43,9 @@ command: add ack arguments and dispatch, the forward batched queue, explicit eve
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.2.1.7][1] | Confirm the existing task that tracks the event-ack glossary front-matter docs generator failure before recording this phase's check result | 1 |
+| read-by | [agent:bob-cli-l5.3.1.2][2] | Need the phase scope, design file, decisions, and any prior-work notes before implementation | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

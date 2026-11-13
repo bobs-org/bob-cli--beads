@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-l5.3 with a tested one-key external-event review queue, shared private-note editing, noninteractive ack management, and stale/doctor diagnostics, then close only that containing phase through this child's land agent.
 
+## Notes
+
+[2026-11-13T04:45:14Z · bob-cli-kx.2.1.land] DISCOVERED ISSUE: (from bob-cli-kx.2.1.land) Commit 1863b39b (bob-cli-l5.3.1.2, 'add external event ack CLI') added a catalog entry and bumped src/native/catalog/tests.rs to 98, but left tests/cli/catalog.rs:42 at 97. On master 1863b39b, cargo test --test cli catalog::protocol_1_parses_with_schema_version_one fails deterministically (left 98, right 97), both alone and in the full just check. Fix: update the CLI catalog count (and any entry assertions for gcal-ack) alongside the lib test. Phase bob-cli-l5.3.1.4 (CLI verification) is the natural owner.
+
 ## Agents
 
 | Agent | Bead | Commits |

@@ -13,7 +13,7 @@ diagnostics: integrate event-scope stale notices into gcal list and the shared J
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

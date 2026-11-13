@@ -23,6 +23,10 @@
 
 Every external Google Calendar event bound for an Event Task is asked about once through a one-key `bob gcal ack` review queue; until acked (or noted) its open row wears a hard-to-miss Bob-owned warning tag, sync keeps creating rows regardless, and a weekly vault chore drives the sweep.
 
+## Notes
+
+[2026-11-13T04:45:04Z · bob-cli-kx.2.1.land] DISCOVERED ISSUE: (from bob-cli-kx.2.1.land; proposed by bob-cli-kx.2.1.7 note #1 and bob-cli-l5.3.1.2 note #1) sase/memory/glossary/event-ack.md, added in b6ed0e59 (bob-cli-l5.1), has no YAML front matter. On master 1863b39b, just docs-check fails at its generated-drift stage with 'bob-docs: error: .../sase/memory/glossary/event-ack.md: memory strand has no front matter' (exit 2), and just docs-gen fails the same way. Until it is fixed, every epic's docs-gen/docs-check gate is blocked. Phase bob-cli-l5.4 (glossary) is the natural owner; republish the strand through the memory-write flow.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -44,7 +48,7 @@ flowchart TD
     n4["bob-cli-l5.3.1: Complete the Google Calendar ack command [in_progress]"]
     n5["bob-cli-l5.3.1.1: Share event selection, note editing, and preview services [closed]"]
     n6["bob-cli-l5.3.1.2: Implement the ack queue and noninteractive command forms [closed]"]
-    n7["bob-cli-l5.3.1.3: Implement the one-key review session [in_progress]"]
+    n7["bob-cli-l5.3.1.3: Implement the one-key review session [closed]"]
     n8["bob-cli-l5.3.1.4: Finish stale notices, doctor diagnostics, and CLI verification [in_progress]"]
     n9["bob-cli-l5.4: Docs, decision record, and glossary [in_progress]"]
     n10["bob-cli-l5.5: Weekly reminder row at rollout [in_progress]"]
@@ -77,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-l5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.md) | [bob-cli-l5.3](bob-cli-l5.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.1/README.md) | [bob-cli-l5.3.1.1](bob-cli-l5.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.2/README.md) | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-l5.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.3/README.md) | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-l5.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.3/README.md) | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.4/README.md) | [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.land/README.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.4/README.md) | [bob-cli-l5.4](bob-cli-l5.4.md) | 0 |
@@ -92,3 +96,4 @@ flowchart TD
 | bob-cli | [`8adc1be`](https://github.com/bobs-org/bob-cli/commit/8adc1bee41985181660580164b6cad9f57fab673) | feat(gcal): reconcile the unacked row tag and surface ack warnings | [bob-cli-l5.2](bob-cli-l5.2.md) | 2026-11-12 20:22:12 EST |
 | bob-cli | [`7b6eb11`](https://github.com/bobs-org/bob-cli/commit/7b6eb119e64a8477b84037322eeeaeb9569bf4ce) | feat(gcal): share note selection, editing, and preview services | [bob-cli-l5.3.1.1](bob-cli-l5.3.1.1.md) | 2026-11-12 21:48:27 EST |
 | bob-cli | [`1863b39`](https://github.com/bobs-org/bob-cli/commit/1863b39b0c6accf8d12f83f223b729c0191afdaf) | feat(gcal): add external event ack CLI | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 2026-11-12 23:04:23 EST |
+| bob-cli | [`307616a`](https://github.com/bobs-org/bob-cli/commit/307616aea9167577805a8e525dc4dd0ea0f9190d) | feat(gcal): add one-key ack review session \[bob-cli-l5.3.1.3\] | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 2026-11-13 00:41:28 EST |
