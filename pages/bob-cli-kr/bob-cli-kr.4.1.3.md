@@ -45,7 +45,9 @@ schema-entrypoints: add palette and Command Mode surface entry points, the album
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kr.4.1.3][1] | Need full phase scope | 2 |
+| read-by | [agent:bob-cli-kr.4.1.4][2] | Check deployment evidence recorded by the prior phase | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->

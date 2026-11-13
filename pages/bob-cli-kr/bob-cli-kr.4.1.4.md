@@ -36,3 +36,17 @@ editor-acceptance: extend the existing scratch-vault album harness to prove real
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a572162`](https://github.com/bobs-org/bob-plugins/commit/a57216288b376e363fc81f990e32008965a947ec) | feat(albums): schema editor integration and real Obsidian acceptance | [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) | 2026-11-12 17:45:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kr.4.1.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:dq--3][2] | Determine prerequisite resolution and whether test repair can close | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.dq.md
+
+<!-- sase:referenced-by:end -->

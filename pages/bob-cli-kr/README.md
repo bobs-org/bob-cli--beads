@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-kr.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.1.2.md) | [bob-cli-kr.4.1.2](bob-cli-kr.4.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-kr.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.3/README.md) | [bob-cli-kr.4.1.3](bob-cli-kr.4.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-kr.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.4/README.md) | [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-kr.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.land/README.md) | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.land/README.md) | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-kr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.land/README.md) | [bob-cli-kr](README.md) | 0 |
 
 ## Commits
@@ -120,3 +120,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@da5cdda`](https://github.com/bobs-org/bob-plugins/commit/da5cdda67a5bda235b9607e02b3669baa8e5537b) | feat(ledger-tools): guarded album schema update service and edit session | [bob-cli-kr.4.1.1](bob-cli-kr.4.1.1.md) | 2026-11-12 14:26:47 EST |
 | bob-plugins | [`bob-plugins@6050124`](https://github.com/bobs-org/bob-plugins/commit/60501241910be77c9cccadbbf584cd219088010c) | feat(albums): add schema entry points and YAML return | [bob-cli-kr.4.1.3](bob-cli-kr.4.1.3.md) | 2026-11-12 15:56:42 EST |
 | bob-plugins | [`bob-plugins@a572162`](https://github.com/bobs-org/bob-plugins/commit/a57216288b376e363fc81f990e32008965a947ec) | feat(albums): schema editor integration and real Obsidian acceptance | [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) | 2026-11-12 17:45:09 EST |
+| bob-plugins | [`bob-plugins@7636ecb`](https://github.com/bobs-org/bob-plugins/commit/7636ecb147a5666fd45c683ef41773679008dcea) | fix(albums): restore Schema Card landing repairs lost in a workspace reset \[bob-cli-kr.4.1\] | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2026-11-13 06:24:02 EST |
