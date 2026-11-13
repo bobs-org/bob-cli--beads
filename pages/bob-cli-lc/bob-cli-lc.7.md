@@ -13,8 +13,8 @@ ctrl-enter-walk: make task-status-cycler delegate Ctrl+Enter on waiting bank row
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lc.4](bob-cli-lc.4.md) ◐ · ⧖ 2026-11-13
-- **Depends on:** [bob-cli-lc.6](bob-cli-lc.6.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-lc.4](bob-cli-lc.4.md) ✓ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-lc.6](bob-cli-lc.6.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-lc.8](bob-cli-lc.8.md) ◐ · ⧖ 2026-11-13
 
 ## Agents

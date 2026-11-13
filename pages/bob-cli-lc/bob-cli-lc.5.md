@@ -18,7 +18,7 @@ card-model: in bob-ledger-tools, add pure, unit-tested models for decoding the n
 ## Dependencies
 
 - **Depends on:** [bob-cli-lc.3](bob-cli-lc.3.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-lc.6](bob-cli-lc.6.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-lc.6](bob-cli-lc.6.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -31,3 +31,15 @@ card-model: in bob-ledger-tools, add pure, unit-tested models for decoding the n
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2522e47`](https://github.com/bobs-org/bob-plugins/commit/2522e47db82e089d8d6464f3ed75341c633e4634) | feat(bank): add pure Category card, write, and advance models | [bob-cli-lc.5](bob-cli-lc.5.md) | 2026-11-13 13:27:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lc.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.5/README.md
+
+<!-- sase:referenced-by:end -->

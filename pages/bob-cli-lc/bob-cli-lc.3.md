@@ -22,7 +22,7 @@ category-contract: add the mapping form for bank.categories (label, hotkey, grou
 ## Dependencies
 
 - **Depends on:** [bob-cli-lc.2](bob-cli-lc.2.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-lc.4](bob-cli-lc.4.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-lc.4](bob-cli-lc.4.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-lc.5](bob-cli-lc.5.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
