@@ -36,10 +36,12 @@ core: Implement the opt-in gmail.sync.archive machinery: closed-task scan includ
 | read-by | [agent:bob-cli-kx.2.1.2][2] | need assigned phase and binding decisions | 1 |
 | read-by | [agent:bob-cli-kx.2.1.6][3] | Need parent decisions binding this phase | 1 |
 | read-by | [agent:bob-cli-kx.2.1.7][4] | Record the phase completion and the approved outer-epic supersession evidence on the parent epic | 2 |
+| read-by | [agent:bob-cli-kx.2.1.8.3][5] | Need the reviewed archive behavior decisions carried into this epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.6/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.3/README.md
 
 <!-- sase:referenced-by:end -->

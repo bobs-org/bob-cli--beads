@@ -18,7 +18,7 @@ integration: Capture saved IDs before watch hydration, block archive writes afte
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.2.1.8.2](bob-cli-kx.2.1.8.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -31,3 +31,15 @@ integration: Capture saved IDs before watch hydration, block archive writes afte
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6b9261a`](https://github.com/bobs-org/bob-cli/commit/6b9261a74b0c0f27548de4992501c52c549f4447) | fix(gmail): preserve archive preview and sync safety | [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) | 2026-11-13 06:01:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.8.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.3/README.md
+
+<!-- sase:referenced-by:end -->
