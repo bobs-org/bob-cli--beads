@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-lc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.6/README.md) | [bob-cli-lc.6](bob-cli-lc.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-lc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.7/README.md) | [bob-cli-lc.7](bob-cli-lc.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-lc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.8/README.md) | [bob-cli-lc.8](bob-cli-lc.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-lc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lc.land.md) | [bob-cli-lc](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-lc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lc.land.md) | [bob-cli-lc](README.md) | 3 |
 
 ## Commits
 
@@ -111,6 +111,7 @@ flowchart TD
 | bob-cli | [`9c53b8d`](https://github.com/bobs-org/bob-cli/commit/9c53b8d8ae975f86bf7be969d633ec03928c39e7) | docs(bank): rewrite acknowledge guide for the weekly Category-card walk \[bob-cli-lc.8\] | [bob-cli-lc.8](bob-cli-lc.8.md) | 2026-11-13 15:25:42 EST |
 | bob-cli | [`21d12f2`](https://github.com/bobs-org/bob-cli/commit/21d12f23a0738a94b030b2c6a2a2d8b47001bdc4) | docs(bank): keep the Category card open on the next waiting row | [bob-cli-lc](README.md) | 2026-11-13 16:47:53 EST |
 | bob-plugins | [`bob-plugins@37a1db5`](https://github.com/bobs-org/bob-plugins/commit/37a1db57ee205f20af1c7411c172c2f47d535f75) | fix(bank): un-squash the Category card and learn after each filing | [bob-cli-lc](README.md) | 2026-11-13 16:48:45 EST |
+| bob-cli--plans | [`bob-cli--plans@dc73660`](https://github.com/bobs-org/bob-cli--plans/commit/dc73660cc4dec26c926eb001b4c1002e2b8ac3de) | chore(plans): mark the weekly bank Category-card walk done | [bob-cli-lc](README.md) | 2026-11-13 16:49:17 EST |
 
 <!-- sase:referenced-by:start -->
 
