@@ -13,7 +13,7 @@ polish: In bob-plugins, show the no-network close-time notice when a managed Don
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.3](bob-cli-kx.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.3](bob-cli-kx.3.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-kx.5](bob-cli-kx.5.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

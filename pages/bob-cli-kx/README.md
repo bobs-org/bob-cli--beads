@@ -35,7 +35,7 @@ bob gmail sync archives a bob-labelled thread's saved messages exactly once when
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kx.1](bob-cli-kx.1.md) | Mutation-path spike | ✓ closed | small | 2026-11-12 | 1 | 0 |
 | [bob-cli-kx.2](bob-cli-kx.2.md) | Archive-on-close machinery in bob-cli | ✓ closed | large | 2026-11-12 | 1 | 0 |
-| [bob-cli-kx.3](bob-cli-kx.3.md) | Undo command and receipt surfaces | ◐ in_progress | large | 2026-11-12 | 1 | 0 |
+| [bob-cli-kx.3](bob-cli-kx.3.md) | Undo command and receipt surfaces | ✓ closed | large | 2026-11-12 | 1 | 0 |
 | [bob-cli-kx.4](bob-cli-kx.4.md) | Close-time notice polish | ◐ in_progress | small | 2026-11-12 | 1 | 0 |
 | [bob-cli-kx.5](bob-cli-kx.5.md) | Gated live enable and verification | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
 
@@ -59,8 +59,8 @@ flowchart TD
     n13["bob-cli-kx.2.1.8.2: Mutation boundary, let-go, and failure isolation [closed]"]
     n14["bob-cli-kx.2.1.8.3: Sync wiring, hydration capture, and preview parity [closed]"]
     n15["bob-cli-kx.2.1.8.4: Reports, help, docs, and final verification [closed]"]
-    n16["bob-cli-kx.3: Undo command and receipt surfaces [in_progress]"]
-    n17["bob-cli-kx.3.1: Gmail archive receipts and explicit undo [in_progress]"]
+    n16["bob-cli-kx.3: Undo command and receipt surfaces [closed]"]
+    n17["bob-cli-kx.3.1: Gmail archive receipts and explicit undo [closed]"]
     n18["bob-cli-kx.3.1.1: Project authoritative archive receipts for readers [closed]"]
     n19["bob-cli-kx.3.1.2: Materialize archive receipts in mail notes and Bases [closed]"]
     n20["bob-cli-kx.3.1.3: Restore recorded messages through an explicit undo command [closed]"]
@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md) | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.5.md) | [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.3.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.6.md) | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.land/README.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.land.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-kx.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.4/README.md) | [bob-cli-kx.4](bob-cli-kx.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.5/README.md) | [bob-cli-kx.5](bob-cli-kx.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.land/README.md) | [bob-cli-kx](README.md) | 0 |
@@ -169,6 +169,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e102fe2`](https://github.com/bobs-org/bob-plugins/commit/e102fe2dba808bdcf5c8ba307eee8d94204e1ace) | feat(plugins): render Gmail archive receipts | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2026-11-13 13:59:25 EST |
 | bob-cli | [`e245e46`](https://github.com/bobs-org/bob-cli/commit/e245e46281291c02ff3fa93984b1f0ea59b0fd4a) | fix(gmail): land archive receipt integration fixes | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 14:48:44 EST |
 | bob-plugins | [`bob-plugins@cbe8d7e`](https://github.com/bobs-org/bob-plugins/commit/cbe8d7e2203cea2d54617f965af06dddbb1ce527) | fix(bob-mail): pass unarchive options before the note operand | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 14:49:25 EST |
+| bob-cli | [`610b809`](https://github.com/bobs-org/bob-cli/commit/610b809f1a38c2d4b4f9792d1642492e5eafe071) | feat(gmail)!: add archive receipts and explicit undo | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 16:45:02 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -41,8 +41,10 @@ receipt_projection: add shared body-free receipt projections, offline list JSON,
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.1][1] | Need the phase scope and design file | 3 |
 | read-by | [agent:bob-cli-kx.3.1.2][2] | Need prior phase scope to avoid redo | 1 |
+| read-by | [agent:bob-cli-kx.3.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.land.md
 
 <!-- sase:referenced-by:end -->

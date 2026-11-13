@@ -20,7 +20,7 @@ core: Implement the opt-in gmail.sync.archive machinery: closed-task scan includ
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.1](bob-cli-kx.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.3](bob-cli-kx.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.3](bob-cli-kx.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

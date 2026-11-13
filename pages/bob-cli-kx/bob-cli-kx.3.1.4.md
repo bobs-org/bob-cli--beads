@@ -43,11 +43,13 @@ desktop_receipts: reuse the vault-sync desktop notification transport for newly 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.4][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:bob-cli-lc.3][2] | Cite existing lint-on-clean-tree follow-up for gmail unarchive | 1 |
-| read-by | [agent:bob-cli-ld.6--1][3] | Need the existing tracker for the identical clean-base Clippy failures | 1 |
+| read-by | [agent:bob-cli-kx.3.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-lc.3][3] | Cite existing lint-on-clean-tree follow-up for gmail unarchive | 1 |
+| read-by | [agent:bob-cli-ld.6--1][4] | Need the existing tracker for the identical clean-base Clippy failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.3/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.6.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.6.md
 
 <!-- sase:referenced-by:end -->
