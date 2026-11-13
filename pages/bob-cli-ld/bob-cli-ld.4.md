@@ -23,7 +23,7 @@ catalog-planner: compute hosts, membership, row states, cleaned criteria, orderi
 
 - **Depends on:** [bob-cli-ld.2](bob-cli-ld.2.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.6](bob-cli-ld.6.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-ld.7](bob-cli-ld.7.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-ld.7](bob-cli-ld.7.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
