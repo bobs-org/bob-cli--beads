@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-l5.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.2/README.md) | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.3/README.md) | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.4.md) | [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.land.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.land.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-l5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.4/README.md) | [bob-cli-l5.4](bob-cli-l5.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.5.md) | [bob-cli-l5.5](bob-cli-l5.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.land/README.md) | [bob-cli-l5](README.md) | 0 |
@@ -101,3 +101,4 @@ flowchart TD
 | bob-cli | [`307616a`](https://github.com/bobs-org/bob-cli/commit/307616aea9167577805a8e525dc4dd0ea0f9190d) | feat(gcal): add one-key ack review session \[bob-cli-l5.3.1.3\] | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 2026-11-13 00:41:28 EST |
 | bob-cli | [`6bcc97a`](https://github.com/bobs-org/bob-cli/commit/6bcc97aeae39c13197755e1e482c90d740cc5479) | feat(gcal): add ack diagnostics and stale notices | [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) | 2026-11-13 02:07:55 EST |
 | bob-cli | [`cb10892`](https://github.com/bobs-org/bob-cli/commit/cb10892f8fc200272a91db538bb51940981e8961) | fix(gcal): repair ack queue and terminal edge cases | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 2026-11-13 03:37:03 EST |
+| bob-cli--plans | [`bob-cli--plans@b34a983`](https://github.com/bobs-org/bob-cli--plans/commit/b34a983a4fbb6bb513632935026faa221cf1b777) | docs(plans): mark gcal ack CLI plan complete | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 2026-11-13 03:37:59 EST |
