@@ -33,3 +33,15 @@ ledger_receipts: add display-only archive chips in Live Preview and Reading view
 |---|---|---|---|---|
 | bob-cli | [`01ab076`](https://github.com/bobs-org/bob-cli/commit/01ab0767f85ab3fa3ef2467b505e2ce4f676234b) | docs(gmail): document archive receipt UI | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2026-11-13 13:58:36 EST |
 | bob-plugins | [`bob-plugins@e102fe2`](https://github.com/bobs-org/bob-plugins/commit/e102fe2dba808bdcf5c8ba307eee8d94204e1ace) | feat(plugins): render Gmail archive receipts | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2026-11-13 13:59:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.3.1.6--3][1] | Verify that only the assigned phase closed after deployment | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.6.md
+
+<!-- sase:referenced-by:end -->

@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md) | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.5.md) | [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.3.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.6.md) | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.land/README.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.land/README.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.4/README.md) | [bob-cli-kx.4](bob-cli-kx.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.5/README.md) | [bob-cli-kx.5](bob-cli-kx.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.land/README.md) | [bob-cli-kx](README.md) | 0 |
@@ -167,6 +167,7 @@ flowchart TD
 | bob-cli | [`cd6aefa`](https://github.com/bobs-org/bob-cli/commit/cd6aefae7974e11557d3d84268ac397b19e993a9) | feat(gmail)!: notify once when sync archives mail | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 2026-11-13 10:57:56 EST |
 | bob-cli | [`01ab076`](https://github.com/bobs-org/bob-cli/commit/01ab0767f85ab3fa3ef2467b505e2ce4f676234b) | docs(gmail): document archive receipt UI | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2026-11-13 13:58:36 EST |
 | bob-plugins | [`bob-plugins@e102fe2`](https://github.com/bobs-org/bob-plugins/commit/e102fe2dba808bdcf5c8ba307eee8d94204e1ace) | feat(plugins): render Gmail archive receipts | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2026-11-13 13:59:25 EST |
+| bob-cli | [`e245e46`](https://github.com/bobs-org/bob-cli/commit/e245e46281291c02ff3fa93984b1f0ea59b0fd4a) | fix(gmail): land archive receipt integration fixes | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 14:48:44 EST |
 
 <!-- sase:referenced-by:start -->
 
