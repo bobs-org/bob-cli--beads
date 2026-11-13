@@ -19,10 +19,11 @@ projects-acceptance: add the isolated real-Obsidian runner and offline wrapper, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.1.3.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.1.3.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@703014d`](https://github.com/bobs-org/bob-plugins/commit/703014db87bfa50ee45681a7a0d80c054dfa8db5) | feat(projects): add Obsidian catalog acceptance | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2026-11-13 17:11:27 EST |
+| bob-plugins | [`bob-plugins@fe7ffb7`](https://github.com/bobs-org/bob-plugins/commit/fe7ffb73b77c40db96c5bfba6ac09f72a8f207b6) | fix(projects): wait for Obsidian plugin trust before acceptance | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2026-11-13 17:47:32 EST |
