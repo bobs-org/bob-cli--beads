@@ -14,7 +14,7 @@ rollout-wrapup: sweep remaining Sub-projects docs, record the decision and gloss
 ## Dependencies
 
 - **Depends on:** [bob-cli-ld.5](bob-cli-ld.5.md) ✓ · ⧖ 2026-11-13
-- **Depends on:** [bob-cli-ld.8](bob-cli-ld.8.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-ld.8](bob-cli-ld.8.md) ✓ · ⧖ 2026-11-13
 - **Depends on:** [bob-cli-ld.9](bob-cli-ld.9.md) ◐ · ⧖ 2026-11-13
 
 ## Agents

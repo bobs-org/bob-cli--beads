@@ -25,10 +25,16 @@ projects-data: implement projects JSON decoders, the shared report/sync service,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ld.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.1/README.md) | [bob-cli-ld.9.1.1](bob-cli-ld.9.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-ld.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.1/README.md) | [bob-cli-ld.9.1.1](bob-cli-ld.9.1.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@fd3f028`](https://github.com/bobs-org/bob-plugins/commit/fd3f028ce60044ce29af927bf64a2a60c70f536d) | feat(bob-ledger-tools): add shared projects report and auto-sync | [bob-cli-ld.9.1.1](bob-cli-ld.9.1.1.md) | 2026-11-13 15:53:49 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.9.1.1][1] | Confirm the phase bead stayed closed after finalizer keep on the linked repo | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.1/README.md
+
+<!-- sase:referenced-by:end -->

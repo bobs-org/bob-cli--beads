@@ -16,3 +16,15 @@ Complete bob-cli-ld.9 with a live projects card, reliable auto-sync, pane-local 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ld.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.land/README.md) | [bob-cli-ld.9.1](bob-cli-ld.9.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.9.1.1][1] | Need parent epic DECISIONS and whether earlier work landed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.1/README.md
+
+<!-- sase:referenced-by:end -->
