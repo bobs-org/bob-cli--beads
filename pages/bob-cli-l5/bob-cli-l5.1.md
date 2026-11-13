@@ -19,7 +19,7 @@ journal: add the gcal.ack record (parse, fold into an AckBook, append), note-his
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-l5.2](bob-cli-l5.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-l5.2](bob-cli-l5.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-l5.3](bob-cli-l5.3.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
@@ -33,3 +33,15 @@ journal: add the gcal.ack record (parse, fold into an AckBook, append), note-his
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b6ed0e5`](https://github.com/bobs-org/bob-cli/commit/b6ed0e597395ee22d8276d1c6063c96afec2e047) | feat(gcal): add ack journal and event classifier | [bob-cli-l5.1](bob-cli-l5.1.md) | 2026-11-12 17:38:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-l5.1][1] | Need the phase scope, design file, prior notes, and epic decisions before implementation | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.1/README.md
+
+<!-- sase:referenced-by:end -->

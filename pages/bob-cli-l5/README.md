@@ -28,7 +28,7 @@ Every external Google Calendar event bound for an Event Task is asked about once
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-l5.1](bob-cli-l5.1.md) | gcal.ack journal kind, ack fold, and the external classifier | ✓ closed | medium | 2026-11-12 | 1 | 1 |
-| [bob-cli-l5.2](bob-cli-l5.2.md) | Unacked row tag reconciliation and sync/list surfaces | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
+| [bob-cli-l5.2](bob-cli-l5.2.md) | Unacked row tag reconciliation and sync/list surfaces | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-l5.3](bob-cli-l5.3.md) | The bob gcal ack command | ◐ in_progress | large | 2026-11-12 | 1 | 0 |
 | [bob-cli-l5.4](bob-cli-l5.4.md) | Docs, decision record, and glossary | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
 | [bob-cli-l5.5](bob-cli-l5.5.md) | Weekly reminder row at rollout | ◐ in_progress | small | 2026-11-12 | 1 | 0 |
@@ -39,7 +39,7 @@ Every external Google Calendar event bound for an Event Task is asked about once
 flowchart TD
     n0["bob-cli-l5: Ack external Google Calendar events (bob gcal ack) [in_progress]"]
     n1["bob-cli-l5.1: gcal.ack journal kind, ack fold, and the external classifier [closed]"]
-    n2["bob-cli-l5.2: Unacked row tag reconciliation and sync/list surfaces [in_progress]"]
+    n2["bob-cli-l5.2: Unacked row tag reconciliation and sync/list surfaces [closed]"]
     n3["bob-cli-l5.3: The bob gcal ack command [in_progress]"]
     n4["bob-cli-l5.4: Docs, decision record, and glossary [in_progress]"]
     n5["bob-cli-l5.5: Weekly reminder row at rollout [in_progress]"]
@@ -60,7 +60,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-l5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.1/README.md) | [bob-cli-l5.1](bob-cli-l5.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-l5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.2/README.md) | [bob-cli-l5.2](bob-cli-l5.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-l5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.2/README.md) | [bob-cli-l5.2](bob-cli-l5.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3/README.md) | [bob-cli-l5.3](bob-cli-l5.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.4/README.md) | [bob-cli-l5.4](bob-cli-l5.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.5/README.md) | [bob-cli-l5.5](bob-cli-l5.5.md) | 0 |
@@ -71,3 +71,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b6ed0e5`](https://github.com/bobs-org/bob-cli/commit/b6ed0e597395ee22d8276d1c6063c96afec2e047) | feat(gcal): add ack journal and event classifier | [bob-cli-l5.1](bob-cli-l5.1.md) | 2026-11-12 17:38:48 EST |
+| bob-cli | [`8adc1be`](https://github.com/bobs-org/bob-cli/commit/8adc1bee41985181660580164b6cad9f57fab673) | feat(gcal): reconcile the unacked row tag and surface ack warnings | [bob-cli-l5.2](bob-cli-l5.2.md) | 2026-11-12 20:22:12 EST |

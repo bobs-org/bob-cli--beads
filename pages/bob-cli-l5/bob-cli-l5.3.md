@@ -14,7 +14,7 @@ cli: build the interactive one-key review queue (termios raw mode), the note bra
 ## Dependencies
 
 - **Depends on:** [bob-cli-l5.1](bob-cli-l5.1.md) ✓ · ⧖ 2026-11-12
-- **Depends on:** [bob-cli-l5.2](bob-cli-l5.2.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-l5.2](bob-cli-l5.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-l5.4](bob-cli-l5.4.md) ◐ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-l5.5](bob-cli-l5.5.md) ◐ · ⧖ 2026-11-12
 
