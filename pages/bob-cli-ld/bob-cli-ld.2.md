@@ -22,7 +22,7 @@ subopen-reader-rust: add the shared row grammar/parser, read SUBOPEN from the [!
 - **Depends on:** [bob-cli-ld.1](bob-cli-ld.1.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.3](bob-cli-ld.3.md) ◐ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.4](bob-cli-ld.4.md) ◐ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-ld.5](bob-cli-ld.5.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-ld.5](bob-cli-ld.5.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -35,3 +35,15 @@ subopen-reader-rust: add the shared row grammar/parser, read SUBOPEN from the [!
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`86be434`](https://github.com/bobs-org/bob-cli/commit/86be4344ca1fb41169c74df637d25d74ef5624ee) | feat(projects): add dual-format SUBOPEN catalog reader | [bob-cli-ld.2](bob-cli-ld.2.md) | 2026-11-13 12:07:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.2][1] | Need to verify the corrected proposed follow-up before closing this phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.2/README.md
+
+<!-- sase:referenced-by:end -->
