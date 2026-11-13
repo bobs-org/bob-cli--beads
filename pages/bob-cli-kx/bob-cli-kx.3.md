@@ -29,7 +29,9 @@ receipts: Make every archive legible and undoable. In bob-cli the bob gmail unar
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.1][1] | Need parent epic decisions and boundaries governing this phase | 1 |
+| read-by | [agent:bob-cli-kx.3.1.2][2] | Need epic DECISIONS for receipt_lifecycle work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

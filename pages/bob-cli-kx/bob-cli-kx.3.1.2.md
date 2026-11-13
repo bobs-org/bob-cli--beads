@@ -20,7 +20,7 @@ receipt_lifecycle: reconcile gmail_archived and the managed banner after durable
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.3.1.1](bob-cli-kx.3.1.1.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -33,3 +33,15 @@ receipt_lifecycle: reconcile gmail_archived and the managed banner after durable
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`59b6149`](https://github.com/bobs-org/bob-cli/commit/59b6149a41aa7f6f89ad715c4054aef4fe4302b8) | feat(gmail): materialize owned archive receipts into mail notes | [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) | 2026-11-13 09:34:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.3.1.2][1] | Need the phase scope and notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->

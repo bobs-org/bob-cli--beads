@@ -13,7 +13,7 @@ desktop_receipts: reuse the vault-sync desktop notification transport for newly 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) ◐ · ⧖ 2026-11-13
 
 ## Agents
