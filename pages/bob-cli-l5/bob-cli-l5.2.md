@@ -37,3 +37,15 @@ tag: teach split_suffix the warning-tag marker, reconcile the tag through the wa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8adc1be`](https://github.com/bobs-org/bob-cli/commit/8adc1bee41985181660580164b6cad9f57fab673) | feat(gcal): reconcile the unacked row tag and surface ack warnings | [bob-cli-l5.2](bob-cli-l5.2.md) | 2026-11-12 20:22:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-l5.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.2/README.md
+
+<!-- sase:referenced-by:end -->

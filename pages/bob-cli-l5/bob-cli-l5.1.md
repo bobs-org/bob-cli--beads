@@ -41,7 +41,9 @@ journal: add the gcal.ack record (parse, fold into an AckBook, append), note-his
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-l5.1][1] | Need the phase scope, design file, prior notes, and epic decisions before implementation | 3 |
+| read-by | [agent:bob-cli-l5.2][2] | check dependency completion | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.2/README.md
 
 <!-- sase:referenced-by:end -->

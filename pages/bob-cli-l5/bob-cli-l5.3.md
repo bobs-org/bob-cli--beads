@@ -22,4 +22,4 @@ cli: build the interactive one-key review queue (termios raw mode), the note bra
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-l5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3/README.md) | [bob-cli-l5.3](bob-cli-l5.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-l5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.md) | [bob-cli-l5.3](bob-cli-l5.3.md) | 0 |
