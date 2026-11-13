@@ -41,14 +41,13 @@ Complete bob-cli-l5.3 with a tested one-key external-event review queue, shared 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.land.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.land.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cb10892`](https://github.com/bobs-org/bob-cli/commit/cb10892f8fc200272a91db538bb51940981e8961) | fix(gcal): repair ack queue and terminal edge cases | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 2026-11-13 03:37:03 EST |
-| bob-cli--plans | [`bob-cli--plans@b34a983`](https://github.com/bobs-org/bob-cli--plans/commit/b34a983a4fbb6bb513632935026faa221cf1b777) | docs(plans): mark gcal ack CLI plan complete | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 2026-11-13 03:37:59 EST |
 
 <!-- sase:referenced-by:start -->
 
