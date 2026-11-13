@@ -13,7 +13,7 @@ subopen-reader-plugins: mirror the reader rule in task-status-cycler against the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ld.2](bob-cli-ld.2.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-ld.2](bob-cli-ld.2.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.7](bob-cli-ld.7.md) ◐ · ⧖ 2026-11-13
 
 ## Agents

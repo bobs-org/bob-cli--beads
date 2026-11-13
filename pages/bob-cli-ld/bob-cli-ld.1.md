@@ -19,7 +19,7 @@ catalog-guards: add the PROJECTS RegionSpec and make every generated catalog hea
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ld.2](bob-cli-ld.2.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-ld.2](bob-cli-ld.2.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -32,3 +32,15 @@ catalog-guards: add the PROJECTS RegionSpec and make every generated catalog hea
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2709046`](https://github.com/bobs-org/bob-cli/commit/2709046a2a7912fc19f741e085bfd4e406a2d541) | feat(capture): protect generated project catalog heading | [bob-cli-ld.1](bob-cli-ld.1.md) | 2026-11-13 11:28:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.1][1] | Confirm the assigned phase is closed after implementation and verification | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.1/README.md
+
+<!-- sase:referenced-by:end -->

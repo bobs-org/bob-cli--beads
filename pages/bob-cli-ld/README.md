@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/subprojects_catalog_section.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/subprojects_catalog_section.md
 
 <!-- sase:links:end -->
@@ -29,7 +31,7 @@ Every area and project note lists its direct child projects in one bob-owned `> 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ld.1](bob-cli-ld.1.md) | PROJECTS region spec and generated-heading guards | ✓ closed | small | 2026-11-13 | 1 | 1 |
 | [bob-cli-ld.10](bob-cli-ld.10.md) | Docs sweep, decision record, and vault preview | ◐ in_progress | small | 2026-11-13 | 1 | 0 |
-| [bob-cli-ld.2](bob-cli-ld.2.md) | Rust catalog row grammar and dual-format SUBOPEN reader | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
+| [bob-cli-ld.2](bob-cli-ld.2.md) | Rust catalog row grammar and dual-format SUBOPEN reader | ✓ closed | medium | 2026-11-13 | 1 | 1 |
 | [bob-cli-ld.3](bob-cli-ld.3.md) | Plugin dual-format SUBOPEN reader and conversion guard | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
 | [bob-cli-ld.4](bob-cli-ld.4.md) | Pure sub-project catalog planner and renderer | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
 | [bob-cli-ld.5](bob-cli-ld.5.md) | Highlights snapshot renders the projects catalog | ◐ in_progress | small | 2026-11-13 | 1 | 0 |
@@ -45,7 +47,7 @@ flowchart TD
     n0["bob-cli-ld: Sub-projects move into a [in_progress]"]
     n1["bob-cli-ld.1: PROJECTS region spec and generated-heading guards [closed]"]
     n2["bob-cli-ld.10: Docs sweep, decision record, and vault preview [in_progress]"]
-    n3["bob-cli-ld.2: Rust catalog row grammar and dual-format SUBOPEN reader [in_progress]"]
+    n3["bob-cli-ld.2: Rust catalog row grammar and dual-format SUBOPEN reader [closed]"]
     n4["bob-cli-ld.3: Plugin dual-format SUBOPEN reader and conversion guard [in_progress]"]
     n5["bob-cli-ld.4: Pure sub-project catalog planner and renderer [in_progress]"]
     n6["bob-cli-ld.5: Highlights snapshot renders the projects catalog [in_progress]"]
@@ -84,7 +86,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ld.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.1/README.md) | [bob-cli-ld.1](bob-cli-ld.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.10/README.md) | [bob-cli-ld.10](bob-cli-ld.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-ld.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.2/README.md) | [bob-cli-ld.2](bob-cli-ld.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ld.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.2/README.md) | [bob-cli-ld.2](bob-cli-ld.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.3/README.md) | [bob-cli-ld.3](bob-cli-ld.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ld.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.4/README.md) | [bob-cli-ld.4](bob-cli-ld.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ld.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.5/README.md) | [bob-cli-ld.5](bob-cli-ld.5.md) | 0 |
@@ -99,3 +101,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2709046`](https://github.com/bobs-org/bob-cli/commit/2709046a2a7912fc19f741e085bfd4e406a2d541) | feat(capture): protect generated project catalog heading | [bob-cli-ld.1](bob-cli-ld.1.md) | 2026-11-13 11:28:53 EST |
+| bob-cli | [`86be434`](https://github.com/bobs-org/bob-cli/commit/86be4344ca1fb41169c74df637d25d74ef5624ee) | feat(projects): add dual-format SUBOPEN catalog reader | [bob-cli-ld.2](bob-cli-ld.2.md) | 2026-11-13 12:07:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.1][1] | Need phase notes and the epic design decisions before implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ highlights-snapshot: render [!projects] in Highlights PDFs with state chips, omi
 ## Dependencies
 
 - **Blocks:** [bob-cli-ld.10](bob-cli-ld.10.md) ◐ · ⧖ 2026-11-13
-- **Depends on:** [bob-cli-ld.2](bob-cli-ld.2.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-ld.2](bob-cli-ld.2.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
