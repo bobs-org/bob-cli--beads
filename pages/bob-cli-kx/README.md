@@ -48,9 +48,14 @@ flowchart TD
     n8["bob-cli-kx.2.1.5: Archive eligibility and digest-confirmed batch planning [closed]"]
     n9["bob-cli-kx.2.1.6: Archive apply, let-go, and crash reconciliation [closed]"]
     n10["bob-cli-kx.2.1.7: Reports, doctor, documentation, and conformance audit [closed]"]
-    n11["bob-cli-kx.3: Undo command and receipt surfaces [in_progress]"]
-    n12["bob-cli-kx.4: Close-time notice polish [in_progress]"]
-    n13["bob-cli-kx.5: Gated live enable and verification [in_progress]"]
+    n11["bob-cli-kx.2.1.8: Gmail archive-on-close landing repairs [in_progress]"]
+    n12["bob-cli-kx.2.1.8.1: Frozen IDs, receipt identity, and journal ownership [closed]"]
+    n13["bob-cli-kx.2.1.8.2: Mutation boundary, let-go, and failure isolation [closed]"]
+    n14["bob-cli-kx.2.1.8.3: Sync wiring, hydration capture, and preview parity [in_progress]"]
+    n15["bob-cli-kx.2.1.8.4: Reports, help, docs, and final verification [in_progress]"]
+    n16["bob-cli-kx.3: Undo command and receipt surfaces [in_progress]"]
+    n17["bob-cli-kx.4: Close-time notice polish [in_progress]"]
+    n18["bob-cli-kx.5: Gated live enable and verification [in_progress]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -61,19 +66,27 @@ flowchart TD
     n3 --> n8
     n3 --> n9
     n3 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
+    n3 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
     n1 -.-> n2
-    n2 -.-> n11
+    n2 -.-> n16
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n7
     n7 -.-> n8
     n8 -.-> n9
     n9 -.-> n10
-    n11 -.-> n12
     n12 -.-> n13
+    n13 -.-> n14
+    n14 -.-> n15
+    n16 -.-> n17
+    n17 -.-> n18
 ```
 
 ## Agents
@@ -89,7 +102,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.5/README.md) | [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.6/README.md) | [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.7/README.md) | [bob-cli-kx.2.1.7](bob-cli-kx.2.1.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-kx.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.land/README.md) | [bob-cli-kx.2.1](bob-cli-kx.2.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.2.1.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.8.1.md) | [bob-cli-kx.2.1.8.1](bob-cli-kx.2.1.8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.2.1.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.2/README.md) | [bob-cli-kx.2.1.8.2](bob-cli-kx.2.1.8.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-kx.2.1.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.3/README.md) | [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.2.1.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.4/README.md) | [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.2.1.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.land/README.md) | [bob-cli-kx.2.1.8](bob-cli-kx.2.1.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.land.md) | [bob-cli-kx.2.1](bob-cli-kx.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3/README.md) | [bob-cli-kx.3](bob-cli-kx.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.4/README.md) | [bob-cli-kx.4](bob-cli-kx.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.5/README.md) | [bob-cli-kx.5](bob-cli-kx.5.md) | 0 |
@@ -106,3 +124,4 @@ flowchart TD
 | bob-cli | [`0b806ae`](https://github.com/bobs-org/bob-cli/commit/0b806ae83fc4285c60eee2e631ee5678c757b732) | feat(gmail)!: add digest-confirmed archive batch planning preview | [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) | 2026-11-12 19:45:47 EST |
 | bob-cli | [`62ad26d`](https://github.com/bobs-org/bob-cli/commit/62ad26d7472c4ee98153a9ac8a86d661faa5b4f4) | feat(gmail)!: add archive apply, let-go and crash reconciliation | [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) | 2026-11-12 21:21:27 EST |
 | bob-cli | [`54fc8c6`](https://github.com/bobs-org/bob-cli/commit/54fc8c61870cf863710fb8051fb4d25c6f1e8117) | feat(gmail)!: complete archive reports and conformance audit | [bob-cli-kx.2.1.7](bob-cli-kx.2.1.7.md) | 2026-11-12 22:59:42 EST |
+| bob-cli | [`642e158`](https://github.com/bobs-org/bob-cli/commit/642e1580872c74acc2ce3d30b02ff2cfe510841e) | feat(gmail)!: apply mutation boundary, let-go isolation, and fault tests \[bob-cli-kx.2.1.8.2\] | [bob-cli-kx.2.1.8.2](bob-cli-kx.2.1.8.2.md) | 2026-11-13 05:22:41 EST |

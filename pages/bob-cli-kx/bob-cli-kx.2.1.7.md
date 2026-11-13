@@ -34,3 +34,15 @@ contract: Finish quiet-breaking human and additive JSON reports, archive doctor 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`54fc8c6`](https://github.com/bobs-org/bob-cli/commit/54fc8c61870cf863710fb8051fb4d25c6f1e8117) | feat(gmail)!: complete archive reports and conformance audit | [bob-cli-kx.2.1.7](bob-cli-kx.2.1.7.md) | 2026-11-12 22:59:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.7][1] | Verify final phase state and recorded clean-base follow-ups before close | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.7/README.md
+
+<!-- sase:referenced-by:end -->
