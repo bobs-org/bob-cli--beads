@@ -28,10 +28,16 @@ catalog-at-birth: project-note captures stage the parent's catalog row in the sa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ld.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.8.md) | [bob-cli-ld.8](bob-cli-ld.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-ld.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.8.md) | [bob-cli-ld.8](bob-cli-ld.8.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`f9b6159`](https://github.com/bobs-org/bob-cli/commit/f9b6159334dff607c681f90382693a0fa36c723a) | feat(capture): list new project notes in the parent Projects catalog at birth | [bob-cli-ld.8](bob-cli-ld.8.md) | 2026-11-13 16:13:44 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.8--1][1] | Need the phase scope, design file, notes, and DECISIONS after just check failed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.8.md
+
+<!-- sase:referenced-by:end -->

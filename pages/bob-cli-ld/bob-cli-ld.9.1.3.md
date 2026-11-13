@@ -13,7 +13,7 @@ projects-acceptance: add the isolated real-Obsidian runner and offline wrapper, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ld.9.1.2](bob-cli-ld.9.1.2.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-ld.9.1.2](bob-cli-ld.9.1.2.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
