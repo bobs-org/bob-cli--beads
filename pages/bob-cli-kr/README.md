@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-kr.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.1.2.md) | [bob-cli-kr.4.1.2](bob-cli-kr.4.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-kr.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.3/README.md) | [bob-cli-kr.4.1.3](bob-cli-kr.4.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-kr.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.4.1.4/README.md) | [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-kr.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.1.land.md) | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-kr.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-kr.4.1.land.md) | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 3 |
 | [bbugyi200.apollo.bob-cli-kr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-kr.land/README.md) | [bob-cli-kr](README.md) | 0 |
 
 ## Commits
@@ -124,6 +124,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a572162`](https://github.com/bobs-org/bob-plugins/commit/a57216288b376e363fc81f990e32008965a947ec) | feat(albums): schema editor integration and real Obsidian acceptance | [bob-cli-kr.4.1.4](bob-cli-kr.4.1.4.md) | 2026-11-12 17:45:09 EST |
 | bob-plugins | [`bob-plugins@7636ecb`](https://github.com/bobs-org/bob-plugins/commit/7636ecb147a5666fd45c683ef41773679008dcea) | fix(albums): restore Schema Card landing repairs lost in a workspace reset \[bob-cli-kr.4.1\] | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2026-11-13 06:24:02 EST |
 | bob-cli | [`f508aa4`](https://github.com/bobs-org/bob-cli/commit/f508aa46eda604217b3fa15ef32a27ea4f4c8515) | test(album-schema): add escape-path verification evidence | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2026-11-13 06:54:28 EST |
+| bob-plugins | [`bob-plugins@01ff42d`](https://github.com/bobs-org/bob-plugins/commit/01ff42dcbff51eab06bf7269218bb8c283bf7034) | fix(ledger-tools): single-dispatch Escape in album schema card | [bob-cli-kr.4.1](bob-cli-kr.4.1.md) | 2026-11-13 06:55:27 EST |
 
 <!-- sase:referenced-by:start -->
 
