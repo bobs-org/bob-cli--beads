@@ -58,7 +58,7 @@ flowchart TD
     n18["bob-cli-kx.3.1.1: Project authoritative archive receipts for readers [closed]"]
     n19["bob-cli-kx.3.1.2: Materialize archive receipts in mail notes and Bases [closed]"]
     n20["bob-cli-kx.3.1.3: Restore recorded messages through an explicit undo command [closed]"]
-    n21["bob-cli-kx.3.1.4: Notify once when sync archives mail [in_progress]"]
+    n21["bob-cli-kx.3.1.4: Notify once when sync archives mail [closed]"]
     n22["bob-cli-kx.3.1.5: Render the mail banner and Move-back action [in_progress]"]
     n23["bob-cli-kx.3.1.6: Show closed-task chips and the morning archive notice [in_progress]"]
     n24["bob-cli-kx.4: Close-time notice polish [in_progress]"]
@@ -131,7 +131,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.1/README.md) | [bob-cli-kx.3.1.1](bob-cli-kx.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.2/README.md) | [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.3/README.md) | [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-kx.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md) | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md) | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.5/README.md) | [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.3.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.6/README.md) | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.land/README.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 0 |
@@ -158,3 +158,4 @@ flowchart TD
 | bob-cli | [`c994cfb`](https://github.com/bobs-org/bob-cli/commit/c994cfbd1d0d0a8271b5b27c3db5b6d6d73b0795) | feat(gmail): project archive receipts for readers | [bob-cli-kx.3.1.1](bob-cli-kx.3.1.1.md) | 2026-11-13 08:43:19 EST |
 | bob-cli | [`59b6149`](https://github.com/bobs-org/bob-cli/commit/59b6149a41aa7f6f89ad715c4054aef4fe4302b8) | feat(gmail): materialize owned archive receipts into mail notes | [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) | 2026-11-13 09:34:50 EST |
 | bob-cli | [`2ddfc94`](https://github.com/bobs-org/bob-cli/commit/2ddfc9444b523367ff70541524302b3cb923ae69) | feat(gmail): add receipt-scoped unarchive command | [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) | 2026-11-13 10:23:44 EST |
+| bob-cli | [`cd6aefa`](https://github.com/bobs-org/bob-cli/commit/cd6aefae7974e11557d3d84268ac397b19e993a9) | feat(gmail)!: notify once when sync archives mail | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 2026-11-13 10:57:56 EST |

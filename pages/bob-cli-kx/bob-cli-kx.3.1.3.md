@@ -20,7 +20,7 @@ unarchive: ship bob gmail unarchive with exact recorded IDs and receipt labels, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -33,3 +33,15 @@ unarchive: ship bob gmail unarchive with exact recorded IDs and receipt labels, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2ddfc94`](https://github.com/bobs-org/bob-cli/commit/2ddfc9444b523367ff70541524302b3cb923ae69) | feat(gmail): add receipt-scoped unarchive command | [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) | 2026-11-13 10:23:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.3.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.3/README.md
+
+<!-- sase:referenced-by:end -->

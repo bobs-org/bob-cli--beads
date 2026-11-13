@@ -13,7 +13,7 @@ mail_banner: implement the Bob Mail banner button over Bob-owned receipt data an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) ◐ · ⧖ 2026-11-13
 
 ## Agents
