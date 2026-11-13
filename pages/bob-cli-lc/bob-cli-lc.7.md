@@ -27,16 +27,22 @@ ctrl-enter-walk: make task-status-cycler delegate Ctrl+Enter on waiting bank row
 
 - **Depends on:** [bob-cli-lc.4](bob-cli-lc.4.md) ✓ · ⧖ 2026-11-13
 - **Depends on:** [bob-cli-lc.6](bob-cli-lc.6.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-lc.8](bob-cli-lc.8.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-lc.8](bob-cli-lc.8.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-lc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.7/README.md) | [bob-cli-lc.7](bob-cli-lc.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-lc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.7/README.md) | [bob-cli-lc.7](bob-cli-lc.7.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@b2a77a7`](https://github.com/bobs-org/bob-plugins/commit/b2a77a78949d68c247159d3557810d4f9a5042d6) | feat(bank): file a waiting row with Ctrl+Enter and advance the walk | [bob-cli-lc.7](bob-cli-lc.7.md) | 2026-11-13 15:02:34 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lc.7][1] | Need remaining notes, design file, and whether leftover work was recorded | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.7/README.md
+
+<!-- sase:referenced-by:end -->

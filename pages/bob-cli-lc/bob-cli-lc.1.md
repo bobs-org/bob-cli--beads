@@ -17,7 +17,7 @@ weekly-chore: in the vault, turn the Monday Bank import chore into the single we
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lc.8](bob-cli-lc.8.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-lc.8](bob-cli-lc.8.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
