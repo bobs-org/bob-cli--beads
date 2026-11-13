@@ -13,7 +13,7 @@ card-model: in bob-ledger-tools, add pure, unit-tested models for decoding the n
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lc.3](bob-cli-lc.3.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-lc.3](bob-cli-lc.3.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-lc.6](bob-cli-lc.6.md) ◐ · ⧖ 2026-11-13
 
 ## Agents

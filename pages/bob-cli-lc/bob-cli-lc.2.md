@@ -21,7 +21,7 @@ qfx-cleaning: teach naming.rs the real QFX description shapes so payees lose dat
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lc.3](bob-cli-lc.3.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-lc.3](bob-cli-lc.3.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -34,3 +34,15 @@ qfx-cleaning: teach naming.rs the real QFX description shapes so payees lose dat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d6d755a`](https://github.com/bobs-org/bob-cli/commit/d6d755a1da262080f5a78196a653f5f296017475) | feat(bank): clean QFX payees and merchant keys | [bob-cli-lc.2](bob-cli-lc.2.md) | 2026-11-13 12:08:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lc.2--2][1] | Confirm the phase is closed with the clean-HEAD lint blocker and follow-up recorded | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lc.2.md
+
+<!-- sase:referenced-by:end -->

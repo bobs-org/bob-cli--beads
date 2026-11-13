@@ -29,7 +29,7 @@ Bank tracking becomes one Monday chore: a Wells Fargo download link, one import 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-lc.1](bob-cli-lc.1.md) | One weekly Bank chore with the Wells Fargo link | ✓ closed | small | 2026-11-13 | 1 | 0 |
 | [bob-cli-lc.2](bob-cli-lc.2.md) | Clean Wells Fargo QFX payees and merchant keys | ✓ closed | medium | 2026-11-13 | 1 | 1 |
-| [bob-cli-lc.3](bob-cli-lc.3.md) | Category hotkeys, groups, hidden, and row suggestions | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
+| [bob-cli-lc.3](bob-cli-lc.3.md) | Category hotkeys, groups, hidden, and row suggestions | ✓ closed | medium | 2026-11-13 | 1 | 1 |
 | [bob-cli-lc.4](bob-cli-lc.4.md) | Bryan's taxonomy in bank.md and clean seed rows | ◐ in_progress | small | 2026-11-13 | 1 | 0 |
 | [bob-cli-lc.5](bob-cli-lc.5.md) | Pure Category card, write, and advance models | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
 | [bob-cli-lc.6](bob-cli-lc.6.md) | The Category card, the walk, and Bank set category | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
@@ -43,7 +43,7 @@ flowchart TD
     n0["bob-cli-lc: Bank, weekly — file every row with one key [in_progress]"]
     n1["bob-cli-lc.1: One weekly Bank chore with the Wells Fargo link [closed]"]
     n2["bob-cli-lc.2: Clean Wells Fargo QFX payees and merchant keys [closed]"]
-    n3["bob-cli-lc.3: Category hotkeys, groups, hidden, and row suggestions [in_progress]"]
+    n3["bob-cli-lc.3: Category hotkeys, groups, hidden, and row suggestions [closed]"]
     n4["bob-cli-lc.4: Bryan's taxonomy in bank.md and clean seed rows [in_progress]"]
     n5["bob-cli-lc.5: Pure Category card, write, and advance models [in_progress]"]
     n6["bob-cli-lc.6: The Category card, the walk, and Bank set category [in_progress]"]
@@ -73,7 +73,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-lc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.1/README.md) | [bob-cli-lc.1](bob-cli-lc.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-lc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lc.2.md) | [bob-cli-lc.2](bob-cli-lc.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-lc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.3/README.md) | [bob-cli-lc.3](bob-cli-lc.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-lc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.3/README.md) | [bob-cli-lc.3](bob-cli-lc.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-lc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.4/README.md) | [bob-cli-lc.4](bob-cli-lc.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-lc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.5/README.md) | [bob-cli-lc.5](bob-cli-lc.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-lc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.6/README.md) | [bob-cli-lc.6](bob-cli-lc.6.md) | 0 |
@@ -86,3 +86,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d6d755a`](https://github.com/bobs-org/bob-cli/commit/d6d755a1da262080f5a78196a653f5f296017475) | feat(bank): clean QFX payees and merchant keys | [bob-cli-lc.2](bob-cli-lc.2.md) | 2026-11-13 12:08:10 EST |
+| bob-cli | [`1501c0c`](https://github.com/bobs-org/bob-cli/commit/1501c0c3e00792a27df81df4aa85caf73183002f) | feat(bank): add category hotkeys, groups, hidden, and row suggestions | [bob-cli-lc.3](bob-cli-lc.3.md) | 2026-11-13 13:03:20 EST |

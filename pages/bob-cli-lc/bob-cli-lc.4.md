@@ -13,7 +13,7 @@ vault-rollout: after every host runs the new bob, write the journal-grounded cat
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lc.3](bob-cli-lc.3.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-lc.3](bob-cli-lc.3.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-lc.7](bob-cli-lc.7.md) ◐ · ⧖ 2026-11-13
 
 ## Agents
