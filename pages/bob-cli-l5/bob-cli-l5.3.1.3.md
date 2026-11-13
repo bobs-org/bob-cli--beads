@@ -13,7 +13,7 @@ terminal: finish the bare-TTY ack session using a scoped libc termios guard and 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

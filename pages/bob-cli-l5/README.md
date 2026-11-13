@@ -43,7 +43,7 @@ flowchart TD
     n3["bob-cli-l5.3: The bob gcal ack command [in_progress]"]
     n4["bob-cli-l5.3.1: Complete the Google Calendar ack command [in_progress]"]
     n5["bob-cli-l5.3.1.1: Share event selection, note editing, and preview services [closed]"]
-    n6["bob-cli-l5.3.1.2: Implement the ack queue and noninteractive command forms [in_progress]"]
+    n6["bob-cli-l5.3.1.2: Implement the ack queue and noninteractive command forms [closed]"]
     n7["bob-cli-l5.3.1.3: Implement the one-key review session [in_progress]"]
     n8["bob-cli-l5.3.1.4: Finish stale notices, doctor diagnostics, and CLI verification [in_progress]"]
     n9["bob-cli-l5.4: Docs, decision record, and glossary [in_progress]"]
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-l5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.2/README.md) | [bob-cli-l5.2](bob-cli-l5.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.md) | [bob-cli-l5.3](bob-cli-l5.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.1/README.md) | [bob-cli-l5.3.1.1](bob-cli-l5.3.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-l5.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.2/README.md) | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-l5.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.2/README.md) | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.3/README.md) | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.4/README.md) | [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.land/README.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 0 |
@@ -91,3 +91,4 @@ flowchart TD
 | bob-cli | [`b6ed0e5`](https://github.com/bobs-org/bob-cli/commit/b6ed0e597395ee22d8276d1c6063c96afec2e047) | feat(gcal): add ack journal and event classifier | [bob-cli-l5.1](bob-cli-l5.1.md) | 2026-11-12 17:38:48 EST |
 | bob-cli | [`8adc1be`](https://github.com/bobs-org/bob-cli/commit/8adc1bee41985181660580164b6cad9f57fab673) | feat(gcal): reconcile the unacked row tag and surface ack warnings | [bob-cli-l5.2](bob-cli-l5.2.md) | 2026-11-12 20:22:12 EST |
 | bob-cli | [`7b6eb11`](https://github.com/bobs-org/bob-cli/commit/7b6eb119e64a8477b84037322eeeaeb9569bf4ce) | feat(gcal): share note selection, editing, and preview services | [bob-cli-l5.3.1.1](bob-cli-l5.3.1.1.md) | 2026-11-12 21:48:27 EST |
+| bob-cli | [`1863b39`](https://github.com/bobs-org/bob-cli/commit/1863b39b0c6accf8d12f83f223b729c0191afdaf) | feat(gcal): add external event ack CLI | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 2026-11-12 23:04:23 EST |

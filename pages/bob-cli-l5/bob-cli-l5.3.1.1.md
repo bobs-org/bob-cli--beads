@@ -19,7 +19,7 @@ shared_note: expose narrow typed interfaces around the existing gcal note select
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -32,3 +32,15 @@ shared_note: expose narrow typed interfaces around the existing gcal note select
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7b6eb11`](https://github.com/bobs-org/bob-cli/commit/7b6eb119e64a8477b84037322eeeaeb9569bf4ce) | feat(gcal): share note selection, editing, and preview services | [bob-cli-l5.3.1.1](bob-cli-l5.3.1.1.md) | 2026-11-12 21:48:27 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-l5.3.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->
