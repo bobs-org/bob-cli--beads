@@ -11,6 +11,10 @@
 
 core: Implement the opt-in gmail.sync.archive machinery: closed-task scan including done/, eligibility fold with one-shot journal events, the property-tested label-diff contract, the fenced per-thread batch modify apply with receipt-label crash reconcile, login -s modify, doctor rows, report rows and additive JSON, burst breaker with -c, -n, first-enable backlog confirm, docs rewrites under a feat(gmail)!: subject, the new decision record, and the bob-cli-i4 supersession.
 
+## Notes
+
+[2026-11-13T03:56:46Z · bob-cli-kx.2.1.7] Outer-land note: bob-cli-i4 remains READY; this phase did not touch it. The accepted plan decision bead_i4=close supersedes opt-in unlabel-after-pull because removing bob would erase archive consent; a nested-label scheme remains available for the phone-queue goal. The land agent should close bob-cli-i4 with the plan and nested-label alternative in its resolution note.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.1](bob-cli-kx.1.md) ✓ · ⧖ 2026-11-12
@@ -30,8 +34,10 @@ core: Implement the opt-in gmail.sync.archive machinery: closed-task scan includ
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.2.1.1][1] | Need binding parent decisions and any earlier phase notes before implementing access | 1 |
 | read-by | [agent:bob-cli-kx.2.1.2][2] | need assigned phase and binding decisions | 1 |
+| read-by | [agent:bob-cli-kx.2.1.6][3] | Need parent decisions binding this phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.6/README.md
 
 <!-- sase:referenced-by:end -->

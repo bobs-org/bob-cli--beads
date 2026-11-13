@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_archive_core.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_archive_core.md
 
@@ -39,8 +39,10 @@ Complete bob-cli-kx.2 with opt-in one-shot Gmail archiving, positive closed-task
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.2.1.1][1] | Need binding parent decisions and any earlier phase notes before implementing access | 1 |
 | read-by | [agent:bob-cli-kx.2.1.2][2] | parent epic scope and decisions | 2 |
+| read-by | [agent:bob-cli-kx.2.1.6][3] | Need epic scope and decisions for phase work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.6/README.md
 
 <!-- sase:referenced-by:end -->

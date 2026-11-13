@@ -18,7 +18,7 @@ apply: Integrate the archive phase after durable filing/watch application, with 
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.2.1.7](bob-cli-kx.2.1.7.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2.1.7](bob-cli-kx.2.1.7.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -31,3 +31,15 @@ apply: Integrate the archive phase after durable filing/watch application, with 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`62ad26d`](https://github.com/bobs-org/bob-cli/commit/62ad26d7472c4ee98153a9ac8a86d661faa5b4f4) | feat(gmail)!: add archive apply, let-go and crash reconciliation | [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) | 2026-11-12 21:21:27 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.6/README.md
+
+<!-- sase:referenced-by:end -->
