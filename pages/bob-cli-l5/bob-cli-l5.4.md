@@ -13,7 +13,7 @@ docs: author docs/gcal-acks.md, update docs/gcal.md (commands, row-ownership tab
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-l5.3](bob-cli-l5.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-l5.3](bob-cli-l5.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

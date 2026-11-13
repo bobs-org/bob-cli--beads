@@ -24,7 +24,7 @@ tag: teach split_suffix the warning-tag marker, reconcile the tag through the wa
 ## Dependencies
 
 - **Depends on:** [bob-cli-l5.1](bob-cli-l5.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-l5.3](bob-cli-l5.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-l5.3](bob-cli-l5.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

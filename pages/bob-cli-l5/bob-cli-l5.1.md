@@ -20,7 +20,7 @@ journal: add the gcal.ack record (parse, fold into an AckBook, append), note-his
 ## Dependencies
 
 - **Blocks:** [bob-cli-l5.2](bob-cli-l5.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-l5.3](bob-cli-l5.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-l5.3](bob-cli-l5.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

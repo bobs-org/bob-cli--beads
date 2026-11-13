@@ -27,13 +27,15 @@ Every external Google Calendar event bound for an Event Task is asked about once
 
 [2026-11-13T04:45:04Z · bob-cli-kx.2.1.land] DISCOVERED ISSUE: (from bob-cli-kx.2.1.land; proposed by bob-cli-kx.2.1.7 note #1 and bob-cli-l5.3.1.2 note #1) sase/memory/glossary/event-ack.md, added in b6ed0e59 (bob-cli-l5.1), has no YAML front matter. On master 1863b39b, just docs-check fails at its generated-drift stage with 'bob-docs: error: .../sase/memory/glossary/event-ack.md: memory strand has no front matter' (exit 2), and just docs-gen fails the same way. Until it is fixed, every epic's docs-gen/docs-check gate is blocked. Phase bob-cli-l5.4 (glossary) is the natural owner; republish the strand through the memory-write flow.
 
+[2026-11-13T07:21:36Z · bob-cli-l5.3.1.land] DISCOVERED ISSUE: bob-cli-l5.3.1 landing triage corroborates phase .2 note #1, .3 note #2, and .4 note #1: docs-gen/docs-check reject glossary:event-ack for missing front matter on clean bases 1863b39b and 307616ae. This is the l5.1-created strand already tracked in this epic note #1; l5.4 owns the authorized glossary repair. No duplicate task, no child-CLI memory edit. The three independent proposals were reviewed in full; not a fresh lander docs execution.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-l5.1](bob-cli-l5.1.md) | gcal.ack journal kind, ack fold, and the external classifier | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [bob-cli-l5.2](bob-cli-l5.2.md) | Unacked row tag reconciliation and sync/list surfaces | ✓ closed | medium | 2026-11-12 | 1 | 1 |
-| [bob-cli-l5.3](bob-cli-l5.3.md) | The bob gcal ack command | ◐ in_progress | large | 2026-11-12 | 1 | 0 |
+| [bob-cli-l5.3](bob-cli-l5.3.md) | The bob gcal ack command | ✓ closed | large | 2026-11-12 | 1 | 0 |
 | [bob-cli-l5.4](bob-cli-l5.4.md) | Docs, decision record, and glossary | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
 | [bob-cli-l5.5](bob-cli-l5.5.md) | Weekly reminder row at rollout | ◐ in_progress | small | 2026-11-12 | 1 | 0 |
 
@@ -44,8 +46,8 @@ flowchart TD
     n0["bob-cli-l5: Ack external Google Calendar events (bob gcal ack) [in_progress]"]
     n1["bob-cli-l5.1: gcal.ack journal kind, ack fold, and the external classifier [closed]"]
     n2["bob-cli-l5.2: Unacked row tag reconciliation and sync/list surfaces [closed]"]
-    n3["bob-cli-l5.3: The bob gcal ack command [in_progress]"]
-    n4["bob-cli-l5.3.1: Complete the Google Calendar ack command [in_progress]"]
+    n3["bob-cli-l5.3: The bob gcal ack command [closed]"]
+    n4["bob-cli-l5.3.1: Complete the Google Calendar ack command [closed]"]
     n5["bob-cli-l5.3.1.1: Share event selection, note editing, and preview services [closed]"]
     n6["bob-cli-l5.3.1.2: Implement the ack queue and noninteractive command forms [closed]"]
     n7["bob-cli-l5.3.1.3: Implement the one-key review session [closed]"]
@@ -83,9 +85,9 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-l5.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.2/README.md) | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.3/README.md) | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.4.md) | [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.land/README.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-l5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.land.md) | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-l5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.4/README.md) | [bob-cli-l5.4](bob-cli-l5.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-l5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.5/README.md) | [bob-cli-l5.5](bob-cli-l5.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-l5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.5.md) | [bob-cli-l5.5](bob-cli-l5.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-l5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.land/README.md) | [bob-cli-l5](README.md) | 0 |
 
 ## Commits
@@ -98,3 +100,4 @@ flowchart TD
 | bob-cli | [`1863b39`](https://github.com/bobs-org/bob-cli/commit/1863b39b0c6accf8d12f83f223b729c0191afdaf) | feat(gcal): add external event ack CLI | [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) | 2026-11-12 23:04:23 EST |
 | bob-cli | [`307616a`](https://github.com/bobs-org/bob-cli/commit/307616aea9167577805a8e525dc4dd0ea0f9190d) | feat(gcal): add one-key ack review session \[bob-cli-l5.3.1.3\] | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 2026-11-13 00:41:28 EST |
 | bob-cli | [`6bcc97a`](https://github.com/bobs-org/bob-cli/commit/6bcc97aeae39c13197755e1e482c90d740cc5479) | feat(gcal): add ack diagnostics and stale notices | [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) | 2026-11-13 02:07:55 EST |
+| bob-cli | [`cb10892`](https://github.com/bobs-org/bob-cli/commit/cb10892f8fc200272a91db538bb51940981e8961) | fix(gcal): repair ack queue and terminal edge cases | [bob-cli-l5.3.1](bob-cli-l5.3.1.md) | 2026-11-13 03:37:03 EST |

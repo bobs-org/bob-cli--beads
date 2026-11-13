@@ -34,3 +34,15 @@ diagnostics: integrate event-scope stale notices into gcal list and the shared J
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6bcc97a`](https://github.com/bobs-org/bob-cli/commit/6bcc97aeae39c13197755e1e482c90d740cc5479) | feat(gcal): add ack diagnostics and stale notices | [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) | 2026-11-13 02:07:55 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-l5.3.1.4--3][1] | Confirm the phase closed with the verification note and assigned follow-ups | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-l5.3.1.4.md
+
+<!-- sase:referenced-by:end -->
