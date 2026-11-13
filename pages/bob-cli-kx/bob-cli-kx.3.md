@@ -30,8 +30,10 @@ receipts: Make every archive legible and undoable. In bob-cli the bob gmail unar
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.1][1] | Need parent epic decisions and boundaries governing this phase | 1 |
 | read-by | [agent:bob-cli-kx.3.1.2][2] | Need epic DECISIONS for receipt_lifecycle work | 1 |
+| read-by | [agent:bob-cli-ld.2][3] | Need to determine whether the clean-base clippy failures in gmail/unarchive.rs are caused by this active epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.2/README.md
 
 <!-- sase:referenced-by:end -->

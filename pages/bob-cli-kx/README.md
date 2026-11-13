@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_archive_on_task_close.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_archive_on_task_close.md
 
 <!-- sase:links:end -->
@@ -22,6 +24,10 @@
 ## Description
 
 bob gmail sync archives a bob-labelled thread's saved messages exactly once when every linking Obsidian task is closed, visibly, undoably, and opt-in; Bryan is opted in and a gated live run on the Mac writer verifies the expected threads were archived.
+
+## Notes
+
+[2026-11-13T17:02:07Z · bob-cli-ld.2] DISCOVERED ISSUE: On clean master 2709046a, just check fails with five deny-level clippy errors in src/native/gmail/unarchive.rs, all introduced by commit 2ddfc944 for bob-cli-kx.3.1.3: clippy::needless_borrow at lines 283 twice, 313, and 330; and clippy::useless_conversion at line 464. The same diagnostics reproduce byte-for-byte on clean HEAD. Follow-up should fix these errors in the Gmail archive epic.
 
 ## Phases
 
@@ -59,8 +65,8 @@ flowchart TD
     n19["bob-cli-kx.3.1.2: Materialize archive receipts in mail notes and Bases [closed]"]
     n20["bob-cli-kx.3.1.3: Restore recorded messages through an explicit undo command [closed]"]
     n21["bob-cli-kx.3.1.4: Notify once when sync archives mail [closed]"]
-    n22["bob-cli-kx.3.1.5: Render the mail banner and Move-back action [in_progress]"]
-    n23["bob-cli-kx.3.1.6: Show closed-task chips and the morning archive notice [in_progress]"]
+    n22["bob-cli-kx.3.1.5: Render the mail banner and Move-back action [closed]"]
+    n23["bob-cli-kx.3.1.6: Show closed-task chips and the morning archive notice [closed]"]
     n24["bob-cli-kx.4: Close-time notice polish [in_progress]"]
     n25["bob-cli-kx.5: Gated live enable and verification [in_progress]"]
     n0 --> n1
@@ -132,8 +138,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.2/README.md) | [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.3/README.md) | [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md) | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-kx.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.5/README.md) | [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-kx.3.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.6/README.md) | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.5.md) | [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.6.md) | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.land/README.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.4/README.md) | [bob-cli-kx.4](bob-cli-kx.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.5/README.md) | [bob-cli-kx.5](bob-cli-kx.5.md) | 0 |
@@ -159,3 +165,16 @@ flowchart TD
 | bob-cli | [`59b6149`](https://github.com/bobs-org/bob-cli/commit/59b6149a41aa7f6f89ad715c4054aef4fe4302b8) | feat(gmail): materialize owned archive receipts into mail notes | [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) | 2026-11-13 09:34:50 EST |
 | bob-cli | [`2ddfc94`](https://github.com/bobs-org/bob-cli/commit/2ddfc9444b523367ff70541524302b3cb923ae69) | feat(gmail): add receipt-scoped unarchive command | [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) | 2026-11-13 10:23:44 EST |
 | bob-cli | [`cd6aefa`](https://github.com/bobs-org/bob-cli/commit/cd6aefae7974e11557d3d84268ac397b19e993a9) | feat(gmail)!: notify once when sync archives mail | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 2026-11-13 10:57:56 EST |
+| bob-cli | [`01ab076`](https://github.com/bobs-org/bob-cli/commit/01ab0767f85ab3fa3ef2467b505e2ce4f676234b) | docs(gmail): document archive receipt UI | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 2026-11-13 13:58:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.2][1] | Need to verify and correct the clippy report recorded from this phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.2/README.md
+
+<!-- sase:referenced-by:end -->

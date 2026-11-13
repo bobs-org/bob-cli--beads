@@ -41,7 +41,9 @@ unarchive: ship bob gmail unarchive with exact recorded IDs and receipt labels, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-ld.2][2] | Need to check whether the unarchive commit's strict-clippy failure already has a phase proposal before recording it | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.2/README.md
 
 <!-- sase:referenced-by:end -->

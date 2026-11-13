@@ -22,7 +22,7 @@ desktop_receipts: reuse the vault-sync desktop notification transport for newly 
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -35,3 +35,19 @@ desktop_receipts: reuse the vault-sync desktop notification transport for newly 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cd6aefa`](https://github.com/bobs-org/bob-cli/commit/cd6aefae7974e11557d3d84268ac397b19e993a9) | feat(gmail)!: notify once when sync archives mail | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 2026-11-13 10:57:56 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.3.1.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-lc.3][2] | Cite existing lint-on-clean-tree follow-up for gmail unarchive | 1 |
+| read-by | [agent:bob-cli-ld.6--1][3] | Need the existing tracker for the identical clean-base Clippy failures | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.6.md
+
+<!-- sase:referenced-by:end -->
