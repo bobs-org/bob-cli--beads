@@ -20,7 +20,7 @@ card-ui: render the Category card in the key-card family, wire api.bank v2 claim
 ## Dependencies
 
 - **Depends on:** [bob-cli-lc.5](bob-cli-lc.5.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-lc.7](bob-cli-lc.7.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-lc.7](bob-cli-lc.7.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -42,7 +42,9 @@ card-ui: render the Category card in the key-card family, wire api.bank v2 claim
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-lc.5][1] | Need to see card-ui scope to avoid overlap with card-model | 1 |
+| read-by | [agent:bob-cli-lc.6][2] | Check phase notes for earlier work and remaining scope | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.6/README.md
 
 <!-- sase:referenced-by:end -->

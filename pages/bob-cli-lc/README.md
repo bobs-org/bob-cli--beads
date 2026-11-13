@@ -35,7 +35,7 @@ Bank tracking becomes one Monday chore: a Wells Fargo download link, one import 
 | [bob-cli-lc.4](bob-cli-lc.4.md) | Bryan's taxonomy in bank.md and clean seed rows | ✓ closed | small | 2026-11-13 | 1 | 0 |
 | [bob-cli-lc.5](bob-cli-lc.5.md) | Pure Category card, write, and advance models | ✓ closed | medium | 2026-11-13 | 1 | 1 |
 | [bob-cli-lc.6](bob-cli-lc.6.md) | The Category card, the walk, and Bank set category | ✓ closed | medium | 2026-11-13 | 1 | 2 |
-| [bob-cli-lc.7](bob-cli-lc.7.md) | Ctrl+Enter hand-off, jump history, real-Obsidian proof, deploy | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
+| [bob-cli-lc.7](bob-cli-lc.7.md) | Ctrl+Enter hand-off, jump history, real-Obsidian proof, deploy | ✓ closed | medium | 2026-11-13 | 1 | 1 |
 | [bob-cli-lc.8](bob-cli-lc.8.md) | Weekly guide, contract docs, memory, and the trial | ◐ in_progress | medium | 2026-11-13 | 1 | 0 |
 
 ## Lineage
@@ -49,7 +49,7 @@ flowchart TD
     n4["bob-cli-lc.4: Bryan's taxonomy in bank.md and clean seed rows [closed]"]
     n5["bob-cli-lc.5: Pure Category card, write, and advance models [closed]"]
     n6["bob-cli-lc.6: The Category card, the walk, and Bank set category [closed]"]
-    n7["bob-cli-lc.7: Ctrl+Enter hand-off, jump history, real-Obsidian proof, deploy [in_progress]"]
+    n7["bob-cli-lc.7: Ctrl+Enter hand-off, jump history, real-Obsidian proof, deploy [closed]"]
     n8["bob-cli-lc.8: Weekly guide, contract docs, memory, and the trial [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-lc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.4/README.md) | [bob-cli-lc.4](bob-cli-lc.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-lc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.5/README.md) | [bob-cli-lc.5](bob-cli-lc.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-lc.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.6/README.md) | [bob-cli-lc.6](bob-cli-lc.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-lc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.7/README.md) | [bob-cli-lc.7](bob-cli-lc.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-lc.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.7/README.md) | [bob-cli-lc.7](bob-cli-lc.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-lc.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.8/README.md) | [bob-cli-lc.8](bob-cli-lc.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-lc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.land/README.md) | [bob-cli-lc](README.md) | 0 |
 
@@ -92,6 +92,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@2522e47`](https://github.com/bobs-org/bob-plugins/commit/2522e47db82e089d8d6464f3ed75341c633e4634) | feat(bank): add pure Category card, write, and advance models | [bob-cli-lc.5](bob-cli-lc.5.md) | 2026-11-13 13:27:06 EST |
 | bob-cli | [`a1dee92`](https://github.com/bobs-org/bob-cli/commit/a1dee92f8b77e889cab63adfeb67423ea0a598ff) | docs(memory): document bank category gesture | [bob-cli-lc.6](bob-cli-lc.6.md) | 2026-11-13 14:12:00 EST |
 | bob-plugins | [`bob-plugins@0b1000b`](https://github.com/bobs-org/bob-plugins/commit/0b1000bd344e1d065793fe0b8ef4f96fa07f9027) | feat(bank): add Category card workflow | [bob-cli-lc.6](bob-cli-lc.6.md) | 2026-11-13 14:12:38 EST |
+| bob-plugins | [`bob-plugins@b2a77a7`](https://github.com/bobs-org/bob-plugins/commit/b2a77a78949d68c247159d3557810d4f9a5042d6) | feat(bank): file a waiting row with Ctrl+Enter and advance the walk | [bob-cli-lc.7](bob-cli-lc.7.md) | 2026-11-13 15:02:34 EST |
 
 <!-- sase:referenced-by:start -->
 

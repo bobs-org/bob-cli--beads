@@ -14,7 +14,7 @@ wrapup: rewrite the bank guide for the weekly walk, note the card in docs/bank.m
 ## Dependencies
 
 - **Depends on:** [bob-cli-lc.1](bob-cli-lc.1.md) ✓ · ⧖ 2026-11-13
-- **Depends on:** [bob-cli-lc.7](bob-cli-lc.7.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-lc.7](bob-cli-lc.7.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
