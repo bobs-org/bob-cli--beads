@@ -22,7 +22,7 @@ terminal: finish the bare-TTY ack session using a scoped libc termios guard and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-l5.3.1.2](bob-cli-l5.3.1.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-l5.3.1.4](bob-cli-l5.3.1.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -35,3 +35,15 @@ terminal: finish the bare-TTY ack session using a scoped libc termios guard and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`307616a`](https://github.com/bobs-org/bob-cli/commit/307616aea9167577805a8e525dc4dd0ea0f9190d) | feat(gcal): add one-key ack review session \[bob-cli-l5.3.1.3\] | [bob-cli-l5.3.1.3](bob-cli-l5.3.1.3.md) | 2026-11-13 00:41:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-l5.3.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-l5.3.1.3/README.md
+
+<!-- sase:referenced-by:end -->
