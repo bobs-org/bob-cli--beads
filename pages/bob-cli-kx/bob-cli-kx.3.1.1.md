@@ -19,7 +19,7 @@ receipt_projection: add shared body-free receipt projections, offline list JSON,
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -32,3 +32,15 @@ receipt_projection: add shared body-free receipt projections, offline list JSON,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c994cfb`](https://github.com/bobs-org/bob-cli/commit/c994cfbd1d0d0a8271b5b27c3db5b6d6d73b0795) | feat(gmail): project archive receipts for readers | [bob-cli-kx.3.1.1](bob-cli-kx.3.1.1.md) | 2026-11-13 08:43:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.3.1.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

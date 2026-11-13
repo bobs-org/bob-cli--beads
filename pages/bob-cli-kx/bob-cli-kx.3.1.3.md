@@ -13,7 +13,7 @@ unarchive: ship bob gmail unarchive with exact recorded IDs and receipt labels, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) ◐ · ⧖ 2026-11-13
 
 ## Agents
