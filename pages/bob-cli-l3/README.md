@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-l3
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.dp](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.dp.md) · **Assignee:** `bob-cli-l3.land`
-**Created:** 2026-11-12 16:11:26 EST
+**Created:** 2026-11-12 16:11:26 EST · **Closed:** 2026-11-12 21:48:10 EST
 **Plan:** [202611/record\_capture\_repairs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_capture_repairs.md)
 
 <!-- sase:links:start -->
@@ -48,6 +48,8 @@ Same-type/broader duplicate searches, last-week task sweep, and every active-epi
 
 CLOSEOUT: epic-symbols bob-cli-l3 is empty; no symvision recipe in primary or Mac justfile. Epic remains in_progress and original plan remains wip. No local just check was run in this read-only audit; check-full was not run. Proposed tale sase_plan_record_capture_landing.md (medium) is only remaining work and must finish: verify current tree (including Mac precommit snapshot gate, without waiting for its own final commit/push), recheck all descendants/notes and drift, resolve/re-key any newly listed epic symbols, close bob-cli-l3 normally with all dispositions, run just symvision where available, mark plan:202611/record_capture_repairs.md status done. No force for successful landing and no parent close is needed.
 
+[2026-11-13T02:48:10Z · bob-cli-l3.land--1] Landing close: all three phases verified, Mac precommit gate green. Decisions held: plus_commit_record_rows=skip (typed +/, stays literal, list stays open), album_refusal_presentation=refusal (quiet footer teaching refusal, no red callout/Retry), config_backed_album_test=repurpose (records_config_alone_resolves_no_record_route asserts retirement contract). Source/commit review: primary at b7f74b58 (clean, no new commits this turn); origin/master drift is gmail-only 0b806ae8 plus gcal 8adc1bee plus gmail 62ad26d7, touching only gmail/gcal files, no record-route/schema consumers or conflicts. Mac at 832a27d equals origin/master (e0c6c16 accept, 9faa57b bare-album, 832a27d cached-rank + truthful fixtures), tree clean, no drift. Cached route acceptance: CaptureRefFileUnder.rankedSuppliedTargets ranks Bob-supplied targets (canonical-prefix, alias-prefix, substring; stable/empty-query order) so record rows survive; rankedTargets stays the restricted File-under wrapper (inbox/area/project only) with its restriction test kept. testCachedRecordRouteAcceptsAndRequestsItsNextMissingField now asserts cached movies/ record row, range, no capture-complete before accept, splice to 'The Little Mermaid @movies/ ' caret 28, exactly one --next-missing-field request, no mutation, then real record_value menu (status/to_watch, title The Little Mermaid). testRecordRouteRowsDoNotQuickCommitPlusOrComma (+ and ,) asserts literal draft, visible record row, no next-missing-field, no mutation, list retained. Server Return/Tab/click and ordinary-route coverage preserved; Record Card contexts still use acceptRecordCandidate. Bare-album: live/explicit/submit refusal shows Bob teach text with one-key rewrite, no errorMessage/Retry/dup pane message; rewrite click now followed by fresh parse entering record flow (mode record_note, title Blaze, missing status/category/location) with refusal presentation proving continuation; stale-edit and empty-reset clear the offer via latestParse currency + resetAnalysisState. Fixtures regenerated from real bob (movie/buy-milk/empty/mermaid-mo, blaze next-missing-first chain), generator + README extended, fake-bob record scenario responds by draft/request-mode. Rust: record 267 pass, capture 2093 pass, album 171 pass, retirement contract 1 pass, fmt clean; primary untouched so no new failures introduced (l2 gcal, kl pipe-drain, g8/3j shell-deadline, l9 case-sensitive fixtures stay independent per audit, not re-run to green here). Mac gate: Scripts/macos-ci-check exit 0, base 832a27d, snapshot c07e642f, run 43347670559, all required macOS checks passed (lint/build/test/bundle/smoke/install), precommit branch deleted. Audit artifact file:explicit:e7464a79500ce17ac54934f refused as malformed digest (23 chars, need 24) and bead ref list is empty, so audit evidence taken from l3 note 1 LAND AUDIT already on the bead. Follow-ups per lander note, no new tasks: l3.1 gcal proposal corroborated on bob-cli-l2; l3.1 collision proposal now bob-cli-l9 (pre-existing 0c8df969/b6f3b92c/a729a8fd assumptions); l3.3 docs-budget declined as already repaired at plugin b6f3dd9 (5980 words, cap 6000), jz stays closed; shell-deadline owned by g8 with causal evidence on 3j; pipe-drain owned by kl (passes on Linux); cached-test proposals were epic work, now landed. epic-symbols empty; just symvision absent in primary (no recipe) and Mac (no symvision in justfile). No parent bead, no ancestor closes.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -60,7 +62,7 @@ CLOSEOUT: epic-symbols bob-cli-l3 is empty; no symvision recipe in primary or Ma
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-l3: Record capture repairs — route-row accept, bare-album preview, retired-config test fallout [in_progress]"]
+    n0["bob-cli-l3: Record capture repairs — route-row accept, bare-album preview, retired-config test fallout [closed]"]
     n1["bob-cli-l3.1: Migrate the record-surface tests off the retired records config (bob-cli) [closed]"]
     n2["bob-cli-l3.2: Record route rows accept again (bob-mac-capture) [closed]"]
     n3["bob-cli-l3.3: Graceful bare-album refusal and a live rewrite button (bob-mac-capture) [closed]"]
@@ -77,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-l3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-l3.1/README.md) | [bob-cli-l3.1](bob-cli-l3.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-l3.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-l3.2/README.md) | [bob-cli-l3.2](bob-cli-l3.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-l3.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-l3.3.md) | [bob-cli-l3.3](bob-cli-l3.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-l3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-l3.land.md) | [bob-cli-l3](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-l3.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-l3.land.md) | [bob-cli-l3](README.md) | 2 |
 
 ## Commits
 
@@ -87,6 +89,7 @@ flowchart TD
 | bob-cli | [`b7f74b5`](https://github.com/bobs-org/bob-cli/commit/b7f74b584481453d4e1446d032072cff1405479c) | test(record-capture): migrate record fixtures off retired records config | [bob-cli-l3.1](bob-cli-l3.1.md) | 2026-11-12 17:44:56 EST |
 | bob-mac-capture | [`bob-mac-capture@9faa57b`](https://github.com/bobs-org/bob-mac-capture/commit/9faa57b6ed4b26de2abdc2f44d017c0e381a7aaa) | fix(capture): teach previews a bare-album refusal with a one-key rewrite | [bob-cli-l3.3](bob-cli-l3.3.md) | 2026-11-12 18:24:37 EST |
 | bob-mac-capture | [`bob-mac-capture@832a27d`](https://github.com/bobs-org/bob-mac-capture/commit/832a27dc3418e0c441d521490d4c33cdf0ff3a61) | fix(capture): retain record targets for typed routes with truthful movie fixtures | [bob-cli-l3](README.md) | 2026-11-12 20:48:10 EST |
+| bob-cli--plans | [`bob-cli--plans@745452e`](https://github.com/bobs-org/bob-cli--plans/commit/745452e5b6a3930f73221de7e2614a87d0831fff) | docs(plans): mark record\_capture\_repairs done after bob-cli-l3 landing | [bob-cli-l3](README.md) | 2026-11-12 21:55:38 EST |
 
 <!-- sase:referenced-by:start -->
 
