@@ -17,7 +17,7 @@ mac-accept: narrow acceptSelectedCompletion's record dispatch to Record Card con
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-l3.3](bob-cli-l3.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-l3.3](bob-cli-l3.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

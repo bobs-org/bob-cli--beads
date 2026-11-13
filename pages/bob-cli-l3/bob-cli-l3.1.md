@@ -7,6 +7,20 @@
 **Created:** 2026-11-12 16:11:26 EST · **Closed:** 2026-11-12 17:41:29 EST
 **Plan:** [202611/record\_capture\_repairs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_capture_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-l9][1] | The phase requested macOS collision verification; its fixture migration is separate from these older filesystem assumptions |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-l9/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 cli-tests: port the RecordVault and sibling fixtures from the retired records: config to real album notes across capture_complete, capture_parse, capture_related, capture album_index, albums registry, bank import_run, and the CLI suite, and refresh the stale root-help snapshot, so the 45 lib and 2 CLI failures at b04120b0 go green without product changes.
@@ -23,7 +37,13 @@ cli-tests: port the RecordVault and sibling fixtures from the retired records: c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-l3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-l3.1/README.md) | [bob-cli-l3.1](bob-cli-l3.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-l3.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-l3.1/README.md) | [bob-cli-l3.1](bob-cli-l3.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`b7f74b5`](https://github.com/bobs-org/bob-cli/commit/b7f74b584481453d4e1446d032072cff1405479c) | test(record-capture): migrate record fixtures off retired records config | [bob-cli-l3.1](bob-cli-l3.1.md) | 2026-11-12 17:44:56 EST |
 
 <!-- sase:referenced-by:start -->
 
