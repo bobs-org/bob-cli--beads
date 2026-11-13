@@ -13,7 +13,7 @@ enable: Opt Bryan in and verify live with him in the loop: set gmail.sync.archiv
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.4](bob-cli-kx.4.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.4](bob-cli-kx.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

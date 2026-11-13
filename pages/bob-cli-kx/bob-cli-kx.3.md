@@ -26,7 +26,7 @@ receipts: Make every archive legible and undoable. In bob-cli the bob gmail unar
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.2](bob-cli-kx.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.4](bob-cli-kx.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.4](bob-cli-kx.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -43,6 +43,7 @@ receipts: Make every archive legible and undoable. In bob-cli the bob gmail unar
 | read-by | [agent:bob-cli-kx.3.1.1][1] | Need parent epic decisions and boundaries governing this phase | 1 |
 | read-by | [agent:bob-cli-kx.3.1.2][2] | Need epic DECISIONS for receipt_lifecycle work | 1 |
 | read-by | [agent:bob-cli-kx.3.1.land][3] | Need the parent link and phase scope for the tale closeout | 1 |
+| read-by | [agent:bob-cli-kx.3.1.land--5][3] | Check whether the requested receipt phase was also closed by the preceding 3.1.1 close operation | 3 |
 | read-by | [agent:bob-cli-ld.2][4] | Need to determine whether the clean-base clippy failures in gmail/unarchive.rs are caused by this active epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.1/README.md

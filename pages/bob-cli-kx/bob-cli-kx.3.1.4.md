@@ -44,6 +44,7 @@ desktop_receipts: reuse the vault-sync desktop notification transport for newly 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.4][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-kx.3.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-kx.3.1.land--5][2] | Verify the receipt phase, child epic, and all six closed implementation phases before final integration close | 1 |
 | read-by | [agent:bob-cli-lc.3][3] | Cite existing lint-on-clean-tree follow-up for gmail unarchive | 1 |
 | read-by | [agent:bob-cli-ld.6--1][4] | Need the existing tracker for the identical clean-base Clippy failures | 1 |
 

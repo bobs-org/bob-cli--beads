@@ -42,6 +42,7 @@ ledger_receipts: add display-only archive chips in Live Preview and Reading view
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.6--3][1] | Verify that only the assigned phase closed after deployment | 2 |
 | read-by | [agent:bob-cli-kx.3.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-kx.3.1.land--5][2] | Verify the receipt phase, child epic, and all six closed implementation phases before final integration close | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.6.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.land.md

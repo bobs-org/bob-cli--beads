@@ -36,6 +36,7 @@ mail_banner: implement the Bob Mail banner button over Bob-owned receipt data an
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.5--1][1] | Need phase scope and design to finish force-deploy per gate decision | 1 |
 | read-by | [agent:bob-cli-kx.3.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-kx.3.1.land--5][2] | Verify the receipt phase, child epic, and all six closed implementation phases before final integration close | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.5.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.land.md

@@ -42,6 +42,7 @@ unarchive: ship bob gmail unarchive with exact recorded IDs and receipt labels, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-kx.3.1.3][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-kx.3.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-kx.3.1.land--5][2] | Verify the receipt phase, child epic, and all six closed implementation phases before final integration close | 1 |
 | read-by | [agent:bob-cli-ld.2][3] | Need to check whether the unarchive commit's strict-clippy failure already has a phase proposal before recording it | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.3/README.md
