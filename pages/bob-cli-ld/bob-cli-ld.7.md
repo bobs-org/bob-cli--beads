@@ -22,4 +22,4 @@ catalog-sync-writer: compose lifecycle and catalog edits per file, install them 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ld.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.7/README.md) | [bob-cli-ld.7](bob-cli-ld.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-ld.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.7.md) | [bob-cli-ld.7](bob-cli-ld.7.md) | 0 |

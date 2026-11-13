@@ -22,7 +22,7 @@ catalog-planner: compute hosts, membership, row states, cleaned criteria, orderi
 ## Dependencies
 
 - **Depends on:** [bob-cli-ld.2](bob-cli-ld.2.md) ✓ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-ld.6](bob-cli-ld.6.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-ld.6](bob-cli-ld.6.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-ld.7](bob-cli-ld.7.md) ◐ · ⧖ 2026-11-13
 
 ## Agents
@@ -36,3 +36,15 @@ catalog-planner: compute hosts, membership, row states, cleaned criteria, orderi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e8b84e3`](https://github.com/bobs-org/bob-cli/commit/e8b84e311bab32a227816e17bdd3e7fd28d7ebc0) | feat(projects)!: add pure sub-project catalog planner and renderer \[bob-cli-ld.4\] | [bob-cli-ld.4](bob-cli-ld.4.md) | 2026-11-13 13:02:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.4/README.md
+
+<!-- sase:referenced-by:end -->

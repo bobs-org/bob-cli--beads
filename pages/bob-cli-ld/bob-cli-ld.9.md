@@ -14,7 +14,7 @@ projects-catalog-card: paint [!projects] as a hued card with live chips, a folde
 ## Dependencies
 
 - **Blocks:** [bob-cli-ld.10](bob-cli-ld.10.md) ◐ · ⧖ 2026-11-13
-- **Depends on:** [bob-cli-ld.6](bob-cli-ld.6.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-ld.6](bob-cli-ld.6.md) ✓ · ⧖ 2026-11-13
 - **Depends on:** [bob-cli-ld.7](bob-cli-ld.7.md) ◐ · ⧖ 2026-11-13
 
 ## Agents
