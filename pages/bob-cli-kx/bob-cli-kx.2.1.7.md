@@ -13,7 +13,7 @@ contract: Finish quiet-breaking human and additive JSON reports, archive doctor 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

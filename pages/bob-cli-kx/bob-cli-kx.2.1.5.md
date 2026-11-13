@@ -22,7 +22,7 @@ preview: Implement read-only archive planning, deterministic digests, historical
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.2.1.4](bob-cli-kx.2.1.4.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -35,3 +35,15 @@ preview: Implement read-only archive planning, deterministic digests, historical
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0b806ae`](https://github.com/bobs-org/bob-cli/commit/0b806ae83fc4285c60eee2e631ee5678c757b732) | feat(gmail)!: add digest-confirmed archive batch planning preview | [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) | 2026-11-12 19:45:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.5/README.md
+
+<!-- sase:referenced-by:end -->
