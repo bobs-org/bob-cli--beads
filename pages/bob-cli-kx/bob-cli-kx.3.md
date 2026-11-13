@@ -13,7 +13,7 @@ receipts: Make every archive legible and undoable. In bob-cli the bob gmail unar
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.2](bob-cli-kx.2.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.2](bob-cli-kx.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-kx.4](bob-cli-kx.4.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

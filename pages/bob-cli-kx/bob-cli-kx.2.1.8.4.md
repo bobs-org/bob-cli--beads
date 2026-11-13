@@ -32,3 +32,15 @@ surfaces: Fix quiet digest leaks, hollow kept/let-go rows, and paused row detail
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a8dd820`](https://github.com/bobs-org/bob-cli/commit/a8dd82047ee1ca2ea15d5747ab168dc57447198e) | feat(gmail)!: archive surfaces reports help docs and verification \[bob-cli-kx.2.1.8.4\] | [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) | 2026-11-13 06:49:00 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.8.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -25,7 +25,7 @@ spike: De-risk the mutation path before any code lands: audit gog's HTTP retry b
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-kx.2](bob-cli-kx.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2](bob-cli-kx.2.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

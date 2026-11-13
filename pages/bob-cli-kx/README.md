@@ -28,7 +28,7 @@ bob gmail sync archives a bob-labelled thread's saved messages exactly once when
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-kx.1](bob-cli-kx.1.md) | Mutation-path spike | ✓ closed | small | 2026-11-12 | 1 | 0 |
-| [bob-cli-kx.2](bob-cli-kx.2.md) | Archive-on-close machinery in bob-cli | ◐ in_progress | large | 2026-11-12 | 1 | 0 |
+| [bob-cli-kx.2](bob-cli-kx.2.md) | Archive-on-close machinery in bob-cli | ✓ closed | large | 2026-11-12 | 1 | 0 |
 | [bob-cli-kx.3](bob-cli-kx.3.md) | Undo command and receipt surfaces | ◐ in_progress | large | 2026-11-12 | 1 | 0 |
 | [bob-cli-kx.4](bob-cli-kx.4.md) | Close-time notice polish | ◐ in_progress | small | 2026-11-12 | 1 | 0 |
 | [bob-cli-kx.5](bob-cli-kx.5.md) | Gated live enable and verification | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
@@ -39,8 +39,8 @@ bob gmail sync archives a bob-labelled thread's saved messages exactly once when
 flowchart TD
     n0["bob-cli-kx: Gmail archive on task close [in_progress]"]
     n1["bob-cli-kx.1: Mutation-path spike [closed]"]
-    n2["bob-cli-kx.2: Archive-on-close machinery in bob-cli [in_progress]"]
-    n3["bob-cli-kx.2.1: Gmail archive-on-close core [in_progress]"]
+    n2["bob-cli-kx.2: Archive-on-close machinery in bob-cli [closed]"]
+    n3["bob-cli-kx.2.1: Gmail archive-on-close core [closed]"]
     n4["bob-cli-kx.2.1.1: Archive configuration and modify grant [closed]"]
     n5["bob-cli-kx.2.1.2: Positive closed-task and saved-message evidence [closed]"]
     n6["bob-cli-kx.2.1.3: One-shot archive journal and enable baseline [closed]"]
@@ -48,7 +48,7 @@ flowchart TD
     n8["bob-cli-kx.2.1.5: Archive eligibility and digest-confirmed batch planning [closed]"]
     n9["bob-cli-kx.2.1.6: Archive apply, let-go, and crash reconciliation [closed]"]
     n10["bob-cli-kx.2.1.7: Reports, doctor, documentation, and conformance audit [closed]"]
-    n11["bob-cli-kx.2.1.8: Gmail archive-on-close landing repairs [in_progress]"]
+    n11["bob-cli-kx.2.1.8: Gmail archive-on-close landing repairs [closed]"]
     n12["bob-cli-kx.2.1.8.1: Frozen IDs, receipt identity, and journal ownership [closed]"]
     n13["bob-cli-kx.2.1.8.2: Mutation boundary, let-go, and failure isolation [closed]"]
     n14["bob-cli-kx.2.1.8.3: Sync wiring, hydration capture, and preview parity [closed]"]
@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.2.1.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.2/README.md) | [bob-cli-kx.2.1.8.2](bob-cli-kx.2.1.8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.3/README.md) | [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.4/README.md) | [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-kx.2.1.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.land/README.md) | [bob-cli-kx.2.1.8](bob-cli-kx.2.1.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.2.1.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.8.land.md) | [bob-cli-kx.2.1.8](bob-cli-kx.2.1.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.land.md) | [bob-cli-kx.2.1](bob-cli-kx.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3/README.md) | [bob-cli-kx.3](bob-cli-kx.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.4/README.md) | [bob-cli-kx.4](bob-cli-kx.4.md) | 0 |
@@ -127,3 +127,4 @@ flowchart TD
 | bob-cli | [`642e158`](https://github.com/bobs-org/bob-cli/commit/642e1580872c74acc2ce3d30b02ff2cfe510841e) | feat(gmail)!: apply mutation boundary, let-go isolation, and fault tests \[bob-cli-kx.2.1.8.2\] | [bob-cli-kx.2.1.8.2](bob-cli-kx.2.1.8.2.md) | 2026-11-13 05:22:41 EST |
 | bob-cli | [`6b9261a`](https://github.com/bobs-org/bob-cli/commit/6b9261a74b0c0f27548de4992501c52c549f4447) | fix(gmail): preserve archive preview and sync safety | [bob-cli-kx.2.1.8.3](bob-cli-kx.2.1.8.3.md) | 2026-11-13 06:01:18 EST |
 | bob-cli | [`a8dd820`](https://github.com/bobs-org/bob-cli/commit/a8dd82047ee1ca2ea15d5747ab168dc57447198e) | feat(gmail)!: archive surfaces reports help docs and verification \[bob-cli-kx.2.1.8.4\] | [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) | 2026-11-13 06:49:00 EST |
+| bob-cli | [`fada115`](https://github.com/bobs-org/bob-cli/commit/fada115450d2ab8fc55c461c59401014f97ebd35) | fix(gmail)!: fail closed at archive mutation boundaries | [bob-cli-kx.2.1.8](bob-cli-kx.2.1.8.md) | 2026-11-13 07:55:31 EST |
