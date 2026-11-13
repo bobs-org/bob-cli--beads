@@ -45,7 +45,7 @@ flowchart TD
     n5["bob-cli-kx.2.1.2: Positive closed-task and saved-message evidence [closed]"]
     n6["bob-cli-kx.2.1.3: One-shot archive journal and enable baseline [closed]"]
     n7["bob-cli-kx.2.1.4: Constrained label mutations and fake transport [closed]"]
-    n8["bob-cli-kx.2.1.5: Archive eligibility and digest-confirmed batch planning [in_progress]"]
+    n8["bob-cli-kx.2.1.5: Archive eligibility and digest-confirmed batch planning [closed]"]
     n9["bob-cli-kx.2.1.6: Archive apply, let-go, and crash reconciliation [in_progress]"]
     n10["bob-cli-kx.2.1.7: Reports, doctor, documentation, and conformance audit [in_progress]"]
     n11["bob-cli-kx.3: Undo command and receipt surfaces [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.2/README.md) | [bob-cli-kx.2.1.2](bob-cli-kx.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.3.md) | [bob-cli-kx.2.1.3](bob-cli-kx.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.4/README.md) | [bob-cli-kx.2.1.4](bob-cli-kx.2.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-kx.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.5/README.md) | [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.2.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.5/README.md) | [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.6/README.md) | [bob-cli-kx.2.1.6](bob-cli-kx.2.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.2.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.7/README.md) | [bob-cli-kx.2.1.7](bob-cli-kx.2.1.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.land/README.md) | [bob-cli-kx.2.1](bob-cli-kx.2.1.md) | 0 |
@@ -103,3 +103,4 @@ flowchart TD
 | bob-cli | [`92b52e4`](https://github.com/bobs-org/bob-cli/commit/92b52e4f66d619109f9b49c37ecf24931361d972) | feat(gmail)!: add strict archive evidence scan | [bob-cli-kx.2.1.2](bob-cli-kx.2.1.2.md) | 2026-11-12 13:58:04 EST |
 | bob-cli | [`4c2cb87`](https://github.com/bobs-org/bob-cli/commit/4c2cb87885f88df245f72243f72a484969fa30dc) | feat(gmail): add archive state journal | [bob-cli-kx.2.1.3](bob-cli-kx.2.1.3.md) | 2026-11-12 15:48:06 EST |
 | bob-cli | [`8e78584`](https://github.com/bobs-org/bob-cli/commit/8e78584d5b93b7a978017096adef8bad3587b381) | feat(gmail)!: add constrained archive label transport | [bob-cli-kx.2.1.4](bob-cli-kx.2.1.4.md) | 2026-11-12 16:47:51 EST |
+| bob-cli | [`0b806ae`](https://github.com/bobs-org/bob-cli/commit/0b806ae83fc4285c60eee2e631ee5678c757b732) | feat(gmail)!: add digest-confirmed archive batch planning preview | [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) | 2026-11-12 19:45:47 EST |

@@ -20,7 +20,7 @@ transport: Add the pure property-tested label-diff contract, exact fenced messag
 ## Dependencies
 
 - **Depends on:** [bob-cli-kx.2.1.3](bob-cli-kx.2.1.3.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ transport: Add the pure property-tested label-diff contract, exact fenced messag
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8e78584`](https://github.com/bobs-org/bob-cli/commit/8e78584d5b93b7a978017096adef8bad3587b381) | feat(gmail)!: add constrained archive label transport | [bob-cli-kx.2.1.4](bob-cli-kx.2.1.4.md) | 2026-11-12 16:47:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-kx.2.1.4][1] | Verify the baseline check follow-up note before closing this assigned phase | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.4/README.md
+
+<!-- sase:referenced-by:end -->

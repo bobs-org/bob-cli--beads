@@ -13,7 +13,7 @@ apply: Integrate the archive phase after durable filing/watch application, with 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [bob-cli-kx.2.1.5](bob-cli-kx.2.1.5.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [bob-cli-kx.2.1.7](bob-cli-kx.2.1.7.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
