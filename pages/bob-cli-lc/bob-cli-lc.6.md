@@ -13,7 +13,7 @@ card-ui: render the Category card in the key-card family, wire api.bank v2 claim
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lc.5](bob-cli-lc.5.md) ◐ · ⧖ 2026-11-13
+- **Depends on:** [bob-cli-lc.5](bob-cli-lc.5.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-lc.7](bob-cli-lc.7.md) ◐ · ⧖ 2026-11-13
 
 ## Agents

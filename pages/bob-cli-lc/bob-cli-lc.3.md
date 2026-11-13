@@ -23,7 +23,7 @@ category-contract: add the mapping form for bank.categories (label, hotkey, grou
 
 - **Depends on:** [bob-cli-lc.2](bob-cli-lc.2.md) ✓ · ⧖ 2026-11-13
 - **Blocks:** [bob-cli-lc.4](bob-cli-lc.4.md) ◐ · ⧖ 2026-11-13
-- **Blocks:** [bob-cli-lc.5](bob-cli-lc.5.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [bob-cli-lc.5](bob-cli-lc.5.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -36,3 +36,15 @@ category-contract: add the mapping form for bank.categories (label, hotkey, grou
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1501c0c`](https://github.com/bobs-org/bob-cli/commit/1501c0c3e00792a27df81df4aa85caf73183002f) | feat(bank): add category hotkeys, groups, hidden, and row suggestions | [bob-cli-lc.3](bob-cli-lc.3.md) | 2026-11-13 13:03:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lc.3][1] | Need notes for leftover work before deciding close vs child epic | 8 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.3/README.md
+
+<!-- sase:referenced-by:end -->
