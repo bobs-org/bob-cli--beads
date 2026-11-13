@@ -54,8 +54,15 @@ flowchart TD
     n14["bob-cli-kx.2.1.8.3: Sync wiring, hydration capture, and preview parity [closed]"]
     n15["bob-cli-kx.2.1.8.4: Reports, help, docs, and final verification [closed]"]
     n16["bob-cli-kx.3: Undo command and receipt surfaces [in_progress]"]
-    n17["bob-cli-kx.4: Close-time notice polish [in_progress]"]
-    n18["bob-cli-kx.5: Gated live enable and verification [in_progress]"]
+    n17["bob-cli-kx.3.1: Gmail archive receipts and explicit undo [in_progress]"]
+    n18["bob-cli-kx.3.1.1: Project authoritative archive receipts for readers [closed]"]
+    n19["bob-cli-kx.3.1.2: Materialize archive receipts in mail notes and Bases [in_progress]"]
+    n20["bob-cli-kx.3.1.3: Restore recorded messages through an explicit undo command [in_progress]"]
+    n21["bob-cli-kx.3.1.4: Notify once when sync archives mail [in_progress]"]
+    n22["bob-cli-kx.3.1.5: Render the mail banner and Move-back action [in_progress]"]
+    n23["bob-cli-kx.3.1.6: Show closed-task chips and the morning archive notice [in_progress]"]
+    n24["bob-cli-kx.4: Close-time notice polish [in_progress]"]
+    n25["bob-cli-kx.5: Gated live enable and verification [in_progress]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -72,8 +79,15 @@ flowchart TD
     n11 --> n14
     n11 --> n15
     n0 --> n16
-    n0 --> n17
-    n0 --> n18
+    n16 --> n17
+    n17 --> n18
+    n17 --> n19
+    n17 --> n20
+    n17 --> n21
+    n17 --> n22
+    n17 --> n23
+    n0 --> n24
+    n0 --> n25
     n1 -.-> n2
     n2 -.-> n16
     n4 -.-> n5
@@ -85,8 +99,13 @@ flowchart TD
     n12 -.-> n13
     n13 -.-> n14
     n14 -.-> n15
-    n16 -.-> n17
-    n17 -.-> n18
+    n16 -.-> n24
+    n18 -.-> n19
+    n19 -.-> n20
+    n20 -.-> n21
+    n21 -.-> n22
+    n22 -.-> n23
+    n24 -.-> n25
 ```
 
 ## Agents
@@ -108,7 +127,14 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-kx.2.1.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.2.1.8.4/README.md) | [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-kx.2.1.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.8.land.md) | [bob-cli-kx.2.1.8](bob-cli-kx.2.1.8.md) | 2 |
 | [bbugyi200.athena.bob-cli-kx.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.2.1.land.md) | [bob-cli-kx.2.1](bob-cli-kx.2.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-kx.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3/README.md) | [bob-cli-kx.3](bob-cli-kx.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.md) | [bob-cli-kx.3](bob-cli-kx.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.1/README.md) | [bob-cli-kx.3.1.1](bob-cli-kx.3.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-kx.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.2/README.md) | [bob-cli-kx.3.1.2](bob-cli-kx.3.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.3/README.md) | [bob-cli-kx.3.1.3](bob-cli-kx.3.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.4/README.md) | [bob-cli-kx.3.1.4](bob-cli-kx.3.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.5/README.md) | [bob-cli-kx.3.1.5](bob-cli-kx.3.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.6/README.md) | [bob-cli-kx.3.1.6](bob-cli-kx.3.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.3.1.land/README.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.4/README.md) | [bob-cli-kx.4](bob-cli-kx.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.5/README.md) | [bob-cli-kx.5](bob-cli-kx.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-kx.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-kx.land/README.md) | [bob-cli-kx](README.md) | 0 |
@@ -129,3 +155,4 @@ flowchart TD
 | bob-cli | [`a8dd820`](https://github.com/bobs-org/bob-cli/commit/a8dd82047ee1ca2ea15d5747ab168dc57447198e) | feat(gmail)!: archive surfaces reports help docs and verification \[bob-cli-kx.2.1.8.4\] | [bob-cli-kx.2.1.8.4](bob-cli-kx.2.1.8.4.md) | 2026-11-13 06:49:00 EST |
 | bob-cli | [`fada115`](https://github.com/bobs-org/bob-cli/commit/fada115450d2ab8fc55c461c59401014f97ebd35) | fix(gmail)!: fail closed at archive mutation boundaries | [bob-cli-kx.2.1.8](bob-cli-kx.2.1.8.md) | 2026-11-13 07:55:31 EST |
 | bob-cli--plans | [`bob-cli--plans@3a72a54`](https://github.com/bobs-org/bob-cli--plans/commit/3a72a54198c739ac0054d4e40d39c7f0c8351fac) | docs(plans): mark Gmail archive plans done | [bob-cli-kx.2.1.8](bob-cli-kx.2.1.8.md) | 2026-11-13 07:56:29 EST |
+| bob-cli | [`c994cfb`](https://github.com/bobs-org/bob-cli/commit/c994cfbd1d0d0a8271b5b27c3db5b6d6d73b0795) | feat(gmail): project archive receipts for readers | [bob-cli-kx.3.1.1](bob-cli-kx.3.1.1.md) | 2026-11-13 08:43:19 EST |
