@@ -35,3 +35,15 @@ projects-list-json: add the versioned JSON report (projects, catalogs, findings)
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`4570a7e`](https://github.com/bobs-org/bob-cli/commit/4570a7ea9e9866c84a8c1a8e2a55ea7a8f870203) | feat(projects): add versioned projects list report | [bob-cli-ld.6](bob-cli-ld.6.md) | 2026-11-13 13:52:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ld.6--1][1] | Need the phase scope and prior verification state after monitored just check failed | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.6.md
+
+<!-- sase:referenced-by:end -->
