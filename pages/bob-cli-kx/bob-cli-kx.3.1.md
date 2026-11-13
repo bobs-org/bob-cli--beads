@@ -37,7 +37,7 @@ Complete bob-cli-kx.3 with safe explicit unarchive, durable mail receipts, deskt
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.land.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 3 |
+| [bbugyi200.athena.bob-cli-kx.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-kx.3.1.land.md) | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 4 |
 
 ## Commits
 
@@ -46,6 +46,7 @@ Complete bob-cli-kx.3 with safe explicit unarchive, durable mail receipts, deskt
 | bob-cli | [`e245e46`](https://github.com/bobs-org/bob-cli/commit/e245e46281291c02ff3fa93984b1f0ea59b0fd4a) | fix(gmail): land archive receipt integration fixes | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 14:48:44 EST |
 | bob-plugins | [`bob-plugins@cbe8d7e`](https://github.com/bobs-org/bob-plugins/commit/cbe8d7e2203cea2d54617f965af06dddbb1ce527) | fix(bob-mail): pass unarchive options before the note operand | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 14:49:25 EST |
 | bob-cli | [`610b809`](https://github.com/bobs-org/bob-cli/commit/610b809f1a38c2d4b4f9792d1642492e5eafe071) | feat(gmail)!: add archive receipts and explicit undo | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 16:45:02 EST |
+| bob-cli--plans | [`bob-cli--plans@29c6d66`](https://github.com/bobs-org/bob-cli--plans/commit/29c6d66b04e31ffb4e09432109b9b711c533f8af) | docs(plan): mark Gmail archive receipts done | [bob-cli-kx.3.1](bob-cli-kx.3.1.md) | 2026-11-13 16:45:51 EST |
 
 <!-- sase:referenced-by:start -->
 
