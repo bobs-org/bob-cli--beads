@@ -37,3 +37,15 @@ wrapup: rewrite the bank guide for the weekly walk, note the card in docs/bank.m
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9c53b8d`](https://github.com/bobs-org/bob-cli/commit/9c53b8d8ae975f86bf7be969d633ec03928c39e7) | docs(bank): rewrite acknowledge guide for the weekly Category-card walk \[bob-cli-lc.8\] | [bob-cli-lc.8](bob-cli-lc.8.md) | 2026-11-13 15:25:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lc.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lc.8/README.md
+
+<!-- sase:referenced-by:end -->
