@@ -25,7 +25,7 @@ merge-follow: resolve each merged-into source to its target task through the sha
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lk.2](bob-cli-lk.2.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lk.2](bob-cli-lk.2.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lk.3](bob-cli-lk.3.md) ◐ · ⧖ 2026-11-14
 
 ## Agents
@@ -39,3 +39,15 @@ merge-follow: resolve each merged-into source to its target task through the sha
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`47fac4b`](https://github.com/bobs-org/bob-cli/commit/47fac4b0ff0fe82fb1396e949d217fc8e2b3af2f) | feat(gmail): follow merge edges and surface remaining archive holds | [bob-cli-lk.1](bob-cli-lk.1.md) | 2026-11-14 13:35:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lk.1][1] | Need the phase scope, design file, notes, and DECISIONS | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.1/README.md
+
+<!-- sase:referenced-by:end -->
