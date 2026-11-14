@@ -33,7 +33,7 @@ Bank rows get a keyboard walk in Obsidian: ]b / [b step waiting rows (every row 
 | [bob-cli-lm.2](bob-cli-lm.2.md) | Nav family b — four commands, repeat tables, selector letter, landing, toast, vimrc | ✓ closed | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-lm.3](bob-cli-lm.3.md) | The b walker-footer panel, account meter, and waiting dot | ✓ closed | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-lm.4](bob-cli-lm.4.md) | Category card and badge hand-off plus real-Obsidian e2e | ✓ closed | small | 2026-11-14 | 1 | 1 |
-| [bob-cli-lm.5](bob-cli-lm.5.md) | Docs, import Next line, memory, deploy, and verification | ✓ closed | medium | 2026-11-14 | 1 | 1 |
+| [bob-cli-lm.5](bob-cli-lm.5.md) | Docs, import Next line, memory, deploy, and verification | ✓ closed | medium | 2026-11-14 | 1 | 2 |
 
 ## Lineage
 
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.2/README.md) | [bob-cli-lm.2](bob-cli-lm.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.3/README.md) | [bob-cli-lm.3](bob-cli-lm.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.4/README.md) | [bob-cli-lm.4](bob-cli-lm.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-lm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.5/README.md) | [bob-cli-lm.5](bob-cli-lm.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.5/README.md) | [bob-cli-lm.5](bob-cli-lm.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-lm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.land/README.md) | [bob-cli-lm](README.md) | 0 |
 
 ## Commits
@@ -77,6 +77,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@3745bfd`](https://github.com/bobs-org/bob-plugins/commit/3745bfdee30c70ae446d6e8d37385d93d1b97da0) | feat(navigation): add bank bracket walk family | [bob-cli-lm.2](bob-cli-lm.2.md) | 2026-11-14 14:12:35 EST |
 | bob-plugins | [`bob-plugins@f5866bf`](https://github.com/bobs-org/bob-plugins/commit/f5866bf6fa3ac6453d1e19fb209516fca5dbae26) | feat(bank): hand off Category card and waiting badges to walk family b | [bob-cli-lm.4](bob-cli-lm.4.md) | 2026-11-14 14:42:08 EST |
 | bob-cli | [`643b369`](https://github.com/bobs-org/bob-cli/commit/643b36975ec5c50806a6c3f29d4c18cd9b1d6fcc) | feat(bank): teach \]b in the import Next line and document the bank walk | [bob-cli-lm.5](bob-cli-lm.5.md) | 2026-11-14 15:12:20 EST |
+| bob-plugins | [`bob-plugins@152b1ea`](https://github.com/bobs-org/bob-plugins/commit/152b1ea1ceb781fb4e6e010f55844df09f80efc7) | docs(bank): document the \]b bank walk, footer panel, and APIs | [bob-cli-lm.5](bob-cli-lm.5.md) | 2026-11-14 15:13:15 EST |
 
 <!-- sase:referenced-by:start -->
 
