@@ -32,3 +32,15 @@ vocabulary: write the Bank Badge glossary strand, link it from the Day Strip and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9a6013a`](https://github.com/bobs-org/bob-cli/commit/9a6013a2fb91129209b746a639ea5cf793afb67f) | docs(bank): complete badge vocabulary and docs | [bob-cli-lh.4](bob-cli-lh.4.md) | 2026-11-14 08:43:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lh.4][1] | Need the phase scope, design file, decisions, and prior work notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.4/README.md
+
+<!-- sase:referenced-by:end -->
