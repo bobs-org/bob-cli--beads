@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.3/README.md) | [bob-cli-lj.3](bob-cli-lj.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lj.4.md) | [bob-cli-lj.4](bob-cli-lj.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.5/README.md) | [bob-cli-lj.5](bob-cli-lj.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-lj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.land/README.md) | [bob-cli-lj](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-lj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.land/README.md) | [bob-cli-lj](README.md) | 3 |
 
 ## Commits
 
@@ -87,6 +87,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5672727`](https://github.com/bobs-org/bob-plugins/commit/56727271d9edb143a616d2a2b5e777d4af28a87e) | docs(ledger-tools): document Bank Period Charts panel | [bob-cli-lj.5](bob-cli-lj.5.md) | 2026-11-14 14:59:16 EST |
 | bob-cli | [`257fec0`](https://github.com/bobs-org/bob-cli/commit/257fec08194a55d1632983a5be0a8038f0698a34) | docs(bank): trim the report charts line under the json-outputs budget | [bob-cli-lj](README.md) | 2026-11-14 15:58:01 EST |
 | bob-plugins | [`bob-plugins@a6d52ad`](https://github.com/bobs-org/bob-plugins/commit/a6d52add2517281a7ee3888f4adf79abaa9fa912) | feat(ledger-tools): share badge period identity and walk hand-off with the period panel | [bob-cli-lj](README.md) | 2026-11-14 15:58:53 EST |
+| bob-cli--plans | [`bob-cli--plans@ea02088`](https://github.com/bobs-org/bob-cli--plans/commit/ea020889cb93eea8d881a9246ca736c3bd8bc9b7) | chore(plans): mark bank\_period\_charts done | [bob-cli-lj](README.md) | 2026-11-14 15:59:30 EST |
 
 <!-- sase:referenced-by:start -->
 
