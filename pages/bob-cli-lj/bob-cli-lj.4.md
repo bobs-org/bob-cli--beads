@@ -21,7 +21,7 @@ hosts: mount the third sibling host in every period `bob-stats-strip` fence behi
 
 - **Depends on:** [bob-cli-lj.1](bob-cli-lj.1.md) ✓ · ⧖ 2026-11-14
 - **Depends on:** [bob-cli-lj.3](bob-cli-lj.3.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lj.5](bob-cli-lj.5.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lj.5](bob-cli-lj.5.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -34,3 +34,15 @@ hosts: mount the third sibling host in every period `bob-stats-strip` fence behi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@90f0dc9`](https://github.com/bobs-org/bob-plugins/commit/90f0dc93e5165f2cb605f31e0b2437f3e838c4ec) | feat(bank): add period chart host lifecycle | [bob-cli-lj.4](bob-cli-lj.4.md) | 2026-11-14 14:46:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lj.4--1][1] | Need phase scope, existing progress notes, epic decisions, and design file before final verification and closure | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lj.4.md
+
+<!-- sase:referenced-by:end -->

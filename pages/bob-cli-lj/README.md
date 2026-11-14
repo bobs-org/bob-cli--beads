@@ -33,7 +33,7 @@ Every week, quarter, ISO-year, and all-time note shows one compact, read-only Ba
 | [bob-cli-lj.2](bob-cli-lj.2.md) | Charts decoder and pure panel model | ✓ closed | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-lj.3](bob-cli-lj.3.md) | Panel painter, styles, and previews | ✓ closed | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-lj.4](bob-cli-lj.4.md) | Period host lifecycle, gate, and navigation | ✓ closed | medium | 2026-11-14 | 1 | 1 |
-| [bob-cli-lj.5](bob-cli-lj.5.md) | Bank Period Charts docs and vocabulary | ◐ in_progress | small | 2026-11-14 | 1 | 0 |
+| [bob-cli-lj.5](bob-cli-lj.5.md) | Bank Period Charts docs and vocabulary | ✓ closed | small | 2026-11-14 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["bob-cli-lj.2: Charts decoder and pure panel model [closed]"]
     n3["bob-cli-lj.3: Panel painter, styles, and previews [closed]"]
     n4["bob-cli-lj.4: Period host lifecycle, gate, and navigation [closed]"]
-    n5["bob-cli-lj.5: Bank Period Charts docs and vocabulary [in_progress]"]
+    n5["bob-cli-lj.5: Bank Period Charts docs and vocabulary [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.2/README.md) | [bob-cli-lj.2](bob-cli-lj.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.3/README.md) | [bob-cli-lj.3](bob-cli-lj.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lj.4.md) | [bob-cli-lj.4](bob-cli-lj.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-lj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.5/README.md) | [bob-cli-lj.5](bob-cli-lj.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.5/README.md) | [bob-cli-lj.5](bob-cli-lj.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.land/README.md) | [bob-cli-lj](README.md) | 0 |
 
 ## Commits
@@ -75,6 +75,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d4b2bb2`](https://github.com/bobs-org/bob-plugins/commit/d4b2bb2bf4ed255383fdf257706d62e979f713c4) | feat(bank): paint the Bank Period Charts panel with styles and previews | [bob-cli-lj.3](bob-cli-lj.3.md) | 2026-11-14 11:13:55 EST |
 | bob-cli | [`b3dc64a`](https://github.com/bobs-org/bob-cli/commit/b3dc64a04fd7b2ac9c9b8835c86e3dca6885c7b1) | feat(bank): add bob bank report -c child-period chart aggregate | [bob-cli-lj.1](bob-cli-lj.1.md) | 2026-11-14 13:46:57 EST |
 | bob-plugins | [`bob-plugins@90f0dc9`](https://github.com/bobs-org/bob-plugins/commit/90f0dc93e5165f2cb605f31e0b2437f3e838c4ec) | feat(bank): add period chart host lifecycle | [bob-cli-lj.4](bob-cli-lj.4.md) | 2026-11-14 14:46:34 EST |
+| bob-cli | [`e221958`](https://github.com/bobs-org/bob-cli/commit/e221958e5dab8733b04d067f754724cd7f11f2de) | docs(bank): document Bank Period Charts panel and stats.bank\_period | [bob-cli-lj.5](bob-cli-lj.5.md) | 2026-11-14 14:58:14 EST |
 
 <!-- sase:referenced-by:start -->
 
