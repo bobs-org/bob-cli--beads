@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.2/README.md) | [bob-cli-lh.2](bob-cli-lh.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-lh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.3/README.md) | [bob-cli-lh.3](bob-cli-lh.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.4/README.md) | [bob-cli-lh.4](bob-cli-lh.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-lh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lh.land.md) | [bob-cli-lh](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-lh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lh.land.md) | [bob-cli-lh](README.md) | 3 |
 
 ## Commits
 
@@ -89,6 +89,7 @@ flowchart TD
 | bob-cli | [`9a6013a`](https://github.com/bobs-org/bob-cli/commit/9a6013a2fb91129209b746a639ea5cf793afb67f) | docs(bank): complete badge vocabulary and docs | [bob-cli-lh.4](bob-cli-lh.4.md) | 2026-11-14 08:43:37 EST |
 | bob-cli | [`1a32cc1`](https://github.com/bobs-org/bob-cli/commit/1a32cc1a6f7d5e1a72ce90e0e85939ff138c3299) | feat(bank): close badge epic with period identity, empty-range bound and docs | [bob-cli-lh](README.md) | 2026-11-14 10:23:19 EST |
 | bob-plugins | [`bob-plugins@0c296f5`](https://github.com/bobs-org/bob-plugins/commit/0c296f5c9108dc4b69ff8b74d045ceea2fb6cb23) | feat(ledger-tools): enforce badge period identity, spacing, and fence retry | [bob-cli-lh](README.md) | 2026-11-14 10:24:50 EST |
+| bob-cli--plans | [`bob-cli--plans@89fe7fa`](https://github.com/bobs-org/bob-cli--plans/commit/89fe7fa1c0a874a51521decdb424b5d0f65d3e61) | docs(plans): mark bank badge strip family plan done | [bob-cli-lh](README.md) | 2026-11-14 10:26:05 EST |
 
 <!-- sase:referenced-by:start -->
 
