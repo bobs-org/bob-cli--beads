@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.3/README.md) | [bob-cli-lm.3](bob-cli-lm.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.4/README.md) | [bob-cli-lm.4](bob-cli-lm.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.5/README.md) | [bob-cli-lm.5](bob-cli-lm.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-lm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lm.land.md) | [bob-cli-lm](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lm.land.md) | [bob-cli-lm](README.md) | 2 |
 
 ## Commits
 
@@ -107,6 +107,7 @@ flowchart TD
 | bob-cli | [`643b369`](https://github.com/bobs-org/bob-cli/commit/643b36975ec5c50806a6c3f29d4c18cd9b1d6fcc) | feat(bank): teach \]b in the import Next line and document the bank walk | [bob-cli-lm.5](bob-cli-lm.5.md) | 2026-11-14 15:12:20 EST |
 | bob-plugins | [`bob-plugins@152b1ea`](https://github.com/bobs-org/bob-plugins/commit/152b1ea1ceb781fb4e6e010f55844df09f80efc7) | docs(bank): document the \]b bank walk, footer panel, and APIs | [bob-cli-lm.5](bob-cli-lm.5.md) | 2026-11-14 15:13:15 EST |
 | bob-plugins | [`bob-plugins@f68dbdc`](https://github.com/bobs-org/bob-plugins/commit/f68dbdcf88f0d36cedcbbd701a16db4fe0f7535d) | fix(ledger-tools): correct bank-walk land-audit defects | [bob-cli-lm](README.md) | 2026-11-14 16:26:33 EST |
+| bob-cli--plans | [`bob-cli--plans@5cb58f2`](https://github.com/bobs-org/bob-cli--plans/commit/5cb58f21cd509c9cfaac83c8a6edfa0e516b11d2) | docs(plans): mark bank walk family b done after land-audit closeout | [bob-cli-lm](README.md) | 2026-11-14 16:27:27 EST |
 
 <!-- sase:referenced-by:start -->
 
