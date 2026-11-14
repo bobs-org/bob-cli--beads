@@ -41,7 +41,7 @@ flowchart TD
     n3["bob-cli-lk.3: Reopen closed Gmail Tasks when a reply arrives [in_progress]"]
     n4["bob-cli-lk.3.1: Reopen closed Gmail Tasks on counted replies [in_progress]"]
     n5["bob-cli-lk.3.1.1: Prepare closed-thread replies and resumable activity cursors [closed]"]
-    n6["bob-cli-lk.3.1.2: Plan task reopening, restore, and the exact-message log [in_progress]"]
+    n6["bob-cli-lk.3.1.2: Plan task reopening, restore, and the exact-message log [closed]"]
     n7["bob-cli-lk.3.1.3: Integrate reply reopening with sync durability and archiving [in_progress]"]
     n8["bob-cli-lk.3.1.4: Finish reply-reopen reports, documentation, and regression coverage [in_progress]"]
     n0 --> n1
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lk.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.2/README.md) | [bob-cli-lk.2](bob-cli-lk.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lk.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.md) | [bob-cli-lk.3](bob-cli-lk.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-lk.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.1.1.md) | [bob-cli-lk.3.1.1](bob-cli-lk.3.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-lk.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.3.1.2/README.md) | [bob-cli-lk.3.1.2](bob-cli-lk.3.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lk.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.3.1.2/README.md) | [bob-cli-lk.3.1.2](bob-cli-lk.3.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lk.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.3.1.3/README.md) | [bob-cli-lk.3.1.3](bob-cli-lk.3.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-lk.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.3.1.4/README.md) | [bob-cli-lk.3.1.4](bob-cli-lk.3.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-lk.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.3.1.land/README.md) | [bob-cli-lk.3.1](bob-cli-lk.3.1.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | bob-cli | [`47fac4b`](https://github.com/bobs-org/bob-cli/commit/47fac4b0ff0fe82fb1396e949d217fc8e2b3af2f) | feat(gmail): follow merge edges and surface remaining archive holds | [bob-cli-lk.1](bob-cli-lk.1.md) | 2026-11-14 13:35:49 EST |
 | bob-cli | [`7ffc825`](https://github.com/bobs-org/bob-cli/commit/7ffc8251782f87288e97421fd3b63058e5332f91) | fix(gmail): make archive confirmation line-shift proof | [bob-cli-lk.2](bob-cli-lk.2.md) | 2026-11-14 14:22:23 EST |
 | bob-cli | [`b112a61`](https://github.com/bobs-org/bob-cli/commit/b112a61805a529fa8e69ba0a86cd9114b10ccc49) | feat(gmail): prepare closed-thread replies with resumable activity cursors | [bob-cli-lk.3.1.1](bob-cli-lk.3.1.1.md) | 2026-11-14 15:05:13 EST |
+| bob-cli | [`78f9bdc`](https://github.com/bobs-org/bob-cli/commit/78f9bdc9acd852162efb0c52cd5b54a3316fb198) | feat(gmail): plan closed-thread reply reopens over vault snapshots | [bob-cli-lk.3.1.2](bob-cli-lk.3.1.2.md) | 2026-11-14 16:01:50 EST |

@@ -14,7 +14,7 @@ reopen-transaction: wire closed-thread preparation and the local planner into co
 ## Dependencies
 
 - **Depends on:** [bob-cli-lk.3.1.1](bob-cli-lk.3.1.1.md) ✓ · ⧖ 2026-11-14
-- **Depends on:** [bob-cli-lk.3.1.2](bob-cli-lk.3.1.2.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-lk.3.1.2](bob-cli-lk.3.1.2.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lk.3.1.4](bob-cli-lk.3.1.4.md) ◐ · ⧖ 2026-11-14
 
 ## Agents
