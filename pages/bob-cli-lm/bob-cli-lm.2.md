@@ -20,7 +20,7 @@ keys: add family `b` to bob-navigation-hotkeys (commands, ]] / ]} repeat, [[ s w
 ## Dependencies
 
 - **Depends on:** [bob-cli-lm.1](bob-cli-lm.1.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lm.4](bob-cli-lm.4.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lm.4](bob-cli-lm.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -33,3 +33,15 @@ keys: add family `b` to bob-navigation-hotkeys (commands, ]] / ]} repeat, [[ s w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3745bfd`](https://github.com/bobs-org/bob-plugins/commit/3745bfdee30c70ae446d6e8d37385d93d1b97da0) | feat(navigation): add bank bracket walk family | [bob-cli-lm.2](bob-cli-lm.2.md) | 2026-11-14 14:12:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lm.2][1] | Need the phase scope, prior notes, and linked design before continuing assigned work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ ship: document the walk in both repos, teach `]b` in the bob bank import Next li
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lm.4](bob-cli-lm.4.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-lm.4](bob-cli-lm.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 

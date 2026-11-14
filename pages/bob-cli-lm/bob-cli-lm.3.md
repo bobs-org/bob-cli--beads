@@ -18,7 +18,7 @@ footer: paint the `b` panel in the ledger walker-footer host from one snapshot (
 ## Dependencies
 
 - **Depends on:** [bob-cli-lm.1](bob-cli-lm.1.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lm.4](bob-cli-lm.4.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lm.4](bob-cli-lm.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
