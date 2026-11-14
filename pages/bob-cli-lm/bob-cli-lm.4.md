@@ -14,7 +14,7 @@ handoff: make Category card advances and badge waiting opens feed the walk ancho
 ## Dependencies
 
 - **Depends on:** [bob-cli-lm.2](bob-cli-lm.2.md) ◐ · ⧖ 2026-11-14
-- **Depends on:** [bob-cli-lm.3](bob-cli-lm.3.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-lm.3](bob-cli-lm.3.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lm.5](bob-cli-lm.5.md) ◐ · ⧖ 2026-11-14
 
 ## Agents

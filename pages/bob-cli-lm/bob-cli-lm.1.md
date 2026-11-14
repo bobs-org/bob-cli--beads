@@ -18,7 +18,7 @@ index: build the ledger-owned bank-row index with editor overlays, the immutable
 ## Dependencies
 
 - **Blocks:** [bob-cli-lm.2](bob-cli-lm.2.md) ◐ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lm.3](bob-cli-lm.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lm.3](bob-cli-lm.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -31,3 +31,15 @@ index: build the ledger-owned bank-row index with editor overlays, the immutable
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2562300`](https://github.com/bobs-org/bob-plugins/commit/256230091b4dae16f2ec9010b5d34617887c69c5) | feat(bank): add ledger api.bankWalk v1 index, snapshot, planners, resolver | [bob-cli-lm.1](bob-cli-lm.1.md) | 2026-11-14 13:20:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lm.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.1/README.md
+
+<!-- sase:referenced-by:end -->
