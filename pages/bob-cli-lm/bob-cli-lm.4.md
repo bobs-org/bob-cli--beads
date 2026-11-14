@@ -23,7 +23,7 @@ handoff: make Category card advances and badge waiting opens feed the walk ancho
 
 - **Depends on:** [bob-cli-lm.2](bob-cli-lm.2.md) ✓ · ⧖ 2026-11-14
 - **Depends on:** [bob-cli-lm.3](bob-cli-lm.3.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lm.5](bob-cli-lm.5.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lm.5](bob-cli-lm.5.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -36,3 +36,15 @@ handoff: make Category card advances and badge waiting opens feed the walk ancho
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@f5866bf`](https://github.com/bobs-org/bob-plugins/commit/f5866bf6fa3ac6453d1e19fb209516fca5dbae26) | feat(bank): hand off Category card and waiting badges to walk family b | [bob-cli-lm.4](bob-cli-lm.4.md) | 2026-11-14 14:42:08 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lm.4][1] | Need the phase scope, notes, design file, and epic DECISIONS before planning | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.4/README.md
+
+<!-- sase:referenced-by:end -->
