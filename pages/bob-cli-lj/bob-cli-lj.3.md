@@ -33,13 +33,19 @@ paint: render the model into the read-only panel DOM with stats-strip styling, c
 ## Dependencies
 
 - **Depends on:** [bob-cli-lj.2](bob-cli-lj.2.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lj.4](bob-cli-lj.4.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lj.4](bob-cli-lj.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-lj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.3/README.md) | [bob-cli-lj.3](bob-cli-lj.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.3/README.md) | [bob-cli-lj.3](bob-cli-lj.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d4b2bb2`](https://github.com/bobs-org/bob-plugins/commit/d4b2bb2bf4ed255383fdf257706d62e979f713c4) | feat(bank): paint the Bank Period Charts panel with styles and previews | [bob-cli-lj.3](bob-cli-lj.3.md) | 2026-11-14 11:13:55 EST |
 
 <!-- sase:referenced-by:start -->
 

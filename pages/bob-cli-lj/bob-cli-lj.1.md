@@ -18,7 +18,7 @@ report: share the periods calendar's child partition, then add an opt-in `-c/--c
 ## Dependencies
 
 - **Depends on:** [bob-cli-lh](../bob-cli-lh/README.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lj.4](bob-cli-lj.4.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lj.4](bob-cli-lj.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -31,3 +31,15 @@ report: share the periods calendar's child partition, then add an opt-in `-c/--c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b3dc64a`](https://github.com/bobs-org/bob-cli/commit/b3dc64a04fd7b2ac9c9b8835c86e3dca6885c7b1) | feat(bank): add bob bank report -c child-period chart aggregate | [bob-cli-lj.1](bob-cli-lj.1.md) | 2026-11-14 13:46:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lj.1][1] | Check notes from earlier agent | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lj.1.md
+
+<!-- sase:referenced-by:end -->

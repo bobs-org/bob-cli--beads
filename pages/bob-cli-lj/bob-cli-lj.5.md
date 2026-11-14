@@ -13,7 +13,7 @@ docs: document the behavior contract and config in bob-cli and plugin docs, appl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lj.4](bob-cli-lj.4.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-lj.4](bob-cli-lj.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
