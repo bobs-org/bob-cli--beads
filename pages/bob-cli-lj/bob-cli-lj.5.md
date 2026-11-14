@@ -29,10 +29,11 @@ docs: document the behavior contract and config in bob-cli and plugin docs, appl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-lj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.5/README.md) | [bob-cli-lj.5](bob-cli-lj.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.5/README.md) | [bob-cli-lj.5](bob-cli-lj.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e221958`](https://github.com/bobs-org/bob-cli/commit/e221958e5dab8733b04d067f754724cd7f11f2de) | docs(bank): document Bank Period Charts panel and stats.bank\_period | [bob-cli-lj.5](bob-cli-lj.5.md) | 2026-11-14 14:58:14 EST |
+| bob-plugins | [`bob-plugins@5672727`](https://github.com/bobs-org/bob-plugins/commit/56727271d9edb143a616d2a2b5e777d4af28a87e) | docs(ledger-tools): document Bank Period Charts panel | [bob-cli-lj.5](bob-cli-lj.5.md) | 2026-11-14 14:59:16 EST |
