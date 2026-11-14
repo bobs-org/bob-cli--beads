@@ -17,7 +17,7 @@ report-periods: add -p/--period (resolved by the periods calendar, all time over
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lh.3](bob-cli-lh.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lh.3](bob-cli-lh.3.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lh.4](bob-cli-lh.4.md) ◐ · ⧖ 2026-11-14
 
 ## Agents
@@ -31,3 +31,15 @@ report-periods: add -p/--period (resolved by the periods calendar, all time over
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`575f9e6`](https://github.com/bobs-org/bob-cli/commit/575f9e66d638d0034978574dba19016c4a35b010) | feat(bank): report counts stats-strip periods with coverage and navigation | [bob-cli-lh.1](bob-cli-lh.1.md) | 2026-11-14 07:57:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lh.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.1/README.md
+
+<!-- sase:referenced-by:end -->
