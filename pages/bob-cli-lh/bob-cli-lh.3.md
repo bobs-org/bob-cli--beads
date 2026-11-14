@@ -13,7 +13,7 @@ strip-hosts: split bob-day-stats and bob-stats-strip fences into a strip host pl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lh.1](bob-cli-lh.1.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-lh.1](bob-cli-lh.1.md) ✓ · ⧖ 2026-11-14
 - **Depends on:** [bob-cli-lh.2](bob-cli-lh.2.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lh.4](bob-cli-lh.4.md) ◐ · ⧖ 2026-11-14
 
