@@ -18,7 +18,7 @@ report-periods: add -p/--period (resolved by the periods calendar, all time over
 ## Dependencies
 
 - **Blocks:** [bob-cli-lh.3](bob-cli-lh.3.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lh.4](bob-cli-lh.4.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lh.4](bob-cli-lh.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 

@@ -25,16 +25,22 @@ strip-hosts: split bob-day-stats and bob-stats-strip fences into a strip host pl
 
 - **Depends on:** [bob-cli-lh.1](bob-cli-lh.1.md) ✓ · ⧖ 2026-11-14
 - **Depends on:** [bob-cli-lh.2](bob-cli-lh.2.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lh.4](bob-cli-lh.4.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lh.4](bob-cli-lh.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-lh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.3/README.md) | [bob-cli-lh.3](bob-cli-lh.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.3/README.md) | [bob-cli-lh.3](bob-cli-lh.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@6a1778b`](https://github.com/bobs-org/bob-plugins/commit/6a1778b52c44419b550052c2c36b51bce377d950) | feat(ledger-tools): add bank badge hosts after every stats strip | [bob-cli-lh.3](bob-cli-lh.3.md) | 2026-11-14 08:27:20 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lh.3][1] | Need notes and remaining work from earlier agents | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.3/README.md
+
+<!-- sase:referenced-by:end -->
