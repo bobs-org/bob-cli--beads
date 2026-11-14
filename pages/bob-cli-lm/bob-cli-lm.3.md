@@ -31,3 +31,15 @@ footer: paint the `b` panel in the ledger walker-footer host from one snapshot (
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b8209f3`](https://github.com/bobs-org/bob-plugins/commit/b8209f3309bc7dff84bb4552baa55f9995d4c76b) | feat(bank): paint the b walker-footer panel in ledger tools | [bob-cli-lm.3](bob-cli-lm.3.md) | 2026-11-14 13:58:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lm.3][1] | Need the phase scope, design file, notes, and DECISIONS | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lm.3/README.md
+
+<!-- sase:referenced-by:end -->

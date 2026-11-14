@@ -17,7 +17,7 @@ index: build the ledger-owned bank-row index with editor overlays, the immutable
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lm.2](bob-cli-lm.2.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lm.2](bob-cli-lm.2.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lm.3](bob-cli-lm.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
