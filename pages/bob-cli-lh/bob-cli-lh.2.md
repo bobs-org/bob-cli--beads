@@ -24,10 +24,11 @@ badge-core: replace the daily chip with one pure badge model and one painter (vi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-lh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.2/README.md) | [bob-cli-lh.2](bob-cli-lh.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.2/README.md) | [bob-cli-lh.2](bob-cli-lh.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`28f48be`](https://github.com/bobs-org/bob-cli/commit/28f48be9d37da4aea1afe95f2ffb7f966c07192b) | feat(bank): add Bank Badge glossary | [bob-cli-lh.2](bob-cli-lh.2.md) | 2026-11-14 07:43:15 EST |
+| bob-plugins | [`bob-plugins@008700b`](https://github.com/bobs-org/bob-plugins/commit/008700bd3adb4db6de7f5f0dcea0406fc9f35cd4) | feat(ledger-tools): add shared Bank Badge | [bob-cli-lh.2](bob-cli-lh.2.md) | 2026-11-14 07:44:11 EST |

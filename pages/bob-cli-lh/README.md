@@ -28,7 +28,7 @@ Every stats strip (the Day strip in daily `bob-plan` blocks, `bob-day-stats` fen
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-lh.1](bob-cli-lh.1.md) | bob bank report counts stats-strip periods | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
-| [bob-cli-lh.2](bob-cli-lh.2.md) | Shared bank badge model and painter | ✓ closed | medium | 2026-11-14 | 1 | 1 |
+| [bob-cli-lh.2](bob-cli-lh.2.md) | Shared bank badge model and painter | ✓ closed | medium | 2026-11-14 | 1 | 2 |
 | [bob-cli-lh.3](bob-cli-lh.3.md) | Badge hosts after every Day and period strip | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
 | [bob-cli-lh.4](bob-cli-lh.4.md) | Bank badge vocabulary and bob-cli docs | ◐ in_progress | small | 2026-11-14 | 1 | 0 |
 
@@ -57,7 +57,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-lh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.1/README.md) | [bob-cli-lh.1](bob-cli-lh.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-lh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.2/README.md) | [bob-cli-lh.2](bob-cli-lh.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.2/README.md) | [bob-cli-lh.2](bob-cli-lh.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-lh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.3/README.md) | [bob-cli-lh.3](bob-cli-lh.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-lh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.4/README.md) | [bob-cli-lh.4](bob-cli-lh.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-lh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lh.land/README.md) | [bob-cli-lh](README.md) | 0 |
@@ -67,3 +67,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`28f48be`](https://github.com/bobs-org/bob-cli/commit/28f48be9d37da4aea1afe95f2ffb7f966c07192b) | feat(bank): add Bank Badge glossary | [bob-cli-lh.2](bob-cli-lh.2.md) | 2026-11-14 07:43:15 EST |
+| bob-plugins | [`bob-plugins@008700b`](https://github.com/bobs-org/bob-plugins/commit/008700bd3adb4db6de7f5f0dcea0406fc9f35cd4) | feat(ledger-tools): add shared Bank Badge | [bob-cli-lh.2](bob-cli-lh.2.md) | 2026-11-14 07:44:11 EST |
