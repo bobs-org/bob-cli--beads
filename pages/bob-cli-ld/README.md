@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ld.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.md) | [bob-cli-ld.9](bob-cli-ld.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-ld.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.1/README.md) | [bob-cli-ld.9.1.1](bob-cli-ld.9.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ld.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.2/README.md) | [bob-cli-ld.9.1.2](bob-cli-ld.9.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.1.3.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-ld.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ld.9.1.3.md) | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 3 |
 | [bbugyi200.athena.bob-cli-ld.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.9.1.land/README.md) | [bob-cli-ld.9.1](bob-cli-ld.9.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ld.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ld.land/README.md) | [bob-cli-ld](README.md) | 0 |
 
@@ -126,6 +126,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@274f1db`](https://github.com/bobs-org/bob-plugins/commit/274f1dbf0adda86cbb6d52d39947edfc9dbcc2f5) | feat(bob-ledger-tools): render projects catalog card in Reading and Live Preview \[bob-cli-ld.9.1.2\] | [bob-cli-ld.9.1.2](bob-cli-ld.9.1.2.md) | 2026-11-13 16:32:15 EST |
 | bob-plugins | [`bob-plugins@703014d`](https://github.com/bobs-org/bob-plugins/commit/703014db87bfa50ee45681a7a0d80c054dfa8db5) | feat(projects): add Obsidian catalog acceptance | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2026-11-13 17:11:27 EST |
 | bob-plugins | [`bob-plugins@fe7ffb7`](https://github.com/bobs-org/bob-plugins/commit/fe7ffb73b77c40db96c5bfba6ac09f72a8f207b6) | fix(projects): wait for Obsidian plugin trust before acceptance | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2026-11-13 17:47:32 EST |
+| bob-plugins | [`bob-plugins@415a33d`](https://github.com/bobs-org/bob-plugins/commit/415a33d7c43cc7e732b430dd3b9a5e294eac7ffe) | fix(projects): preserve catalog folds after editor move | [bob-cli-ld.9.1.3](bob-cli-ld.9.1.3.md) | 2026-11-13 19:52:27 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -25,6 +25,17 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-ld.9 with a live projects card, reliable auto-sync, pane-local interactions, real Obsidian evidence, and verified deployment.
 
+## Notes
+
+[2026-11-14T00:51:28Z · bob-cli-ld.9.1.3--6] Child phase `bob-cli-ld.9.1.3` completed the real Obsidian Projects UI acceptance (43/43), focused Projects tests (44/44), plugin manifest validation (11/11), and `bob plugins sync` without `--force` (Bob Ledger Tools 1.116.0 deployed). Audited artifacts attached here: acceptance report `file:explicit:a82786253010f6aaf7592fb4` and five-capture evidence bundle `file:explicit:c3b273cf00b5beffe099ebd8` (desktop/mobile light/dark Live Preview plus desktop light Reading). Evidence includes the exact acceptance command and hashes/view/theme/dimensions for every image.
+
+Verification remains incomplete, so phase `bob-cli-ld.9.1.3` stays open and no ancestor is closed. `npm test` has three unit failures and a performance threshold failure; plugin docs checks report three reference pages over their 6000-word budget; `just check` has three unrelated bob-cli library test failures. The phase note records exact test names, measured thresholds, docs counts, commands, and the proposed follow-up.
+
+## References
+
+- file:explicit:a82786253010f6aaf7592fb4
+- file:explicit:c3b273cf00b5beffe099ebd8
+
 ## Agents
 
 | Agent | Bead | Commits |
