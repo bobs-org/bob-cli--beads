@@ -14,7 +14,7 @@ hosts: mount the third sibling host in every period `bob-stats-strip` fence behi
 ## Dependencies
 
 - **Depends on:** [bob-cli-lj.1](bob-cli-lj.1.md) ◐ · ⧖ 2026-11-14
-- **Depends on:** [bob-cli-lj.3](bob-cli-lj.3.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-lj.3](bob-cli-lj.3.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lj.5](bob-cli-lj.5.md) ◐ · ⧖ 2026-11-14
 
 ## Agents

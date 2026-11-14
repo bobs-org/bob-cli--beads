@@ -13,7 +13,7 @@ report: share the periods calendar's child partition, then add an opt-in `-c/--c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lh](../bob-cli-lh/README.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-lh](../bob-cli-lh/README.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-lj.4](bob-cli-lj.4.md) ◐ · ⧖ 2026-11-14
 
 ## Agents

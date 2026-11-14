@@ -23,7 +23,7 @@ model: strictly decode `charts` in bob-ledger-tools, add the `-c` fetch spec and
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lj.3](bob-cli-lj.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lj.3](bob-cli-lj.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -36,3 +36,15 @@ model: strictly decode `charts` in bob-ledger-tools, add the `-c` fetch spec and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d845e04`](https://github.com/bobs-org/bob-plugins/commit/d845e04dd7bb70ac870831f5512e685eb40d5940) | feat(ledger-tools): decode bank report charts and model the period panel | [bob-cli-lj.2](bob-cli-lj.2.md) | 2026-11-14 10:19:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lj.2][1] | Confirm the phase bead stayed closed after sibling-repo keep commit | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lj.2/README.md
+
+<!-- sase:referenced-by:end -->
