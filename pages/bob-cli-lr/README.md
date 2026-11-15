@@ -31,7 +31,7 @@
 | [bob-cli-lr.2](bob-cli-lr.2.md) | Marked titles in the daily note | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lr.3](bob-cli-lr.3.md) | Freeze rows from calendars that left the config | ✓ closed | small | 2026-11-15 | 1 | 1 |
 | [bob-cli-lr.4](bob-cli-lr.4.md) | Calendar identity on every CLI surface and in JSON | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-lr.5](bob-cli-lr.5.md) | Decision record, setup guide, and the Birthdays config row | ✓ closed | small | 2026-11-15 | 1 | 1 |
+| [bob-cli-lr.5](bob-cli-lr.5.md) | Decision record, setup guide, and the Birthdays config row | ✓ closed | small | 2026-11-15 | 1 | 2 |
 | [bob-cli-lr.6](bob-cli-lr.6.md) | Install, apply, and prove Ava's birthday lands | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
 
 ## Lineage
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lr.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.2/README.md) | [bob-cli-lr.2](bob-cli-lr.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lr.3.md) | [bob-cli-lr.3](bob-cli-lr.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lr.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.4/README.md) | [bob-cli-lr.4](bob-cli-lr.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-lr.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.5/README.md) | [bob-cli-lr.5](bob-cli-lr.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lr.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.5/README.md) | [bob-cli-lr.5](bob-cli-lr.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-lr.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.6/README.md) | [bob-cli-lr.6](bob-cli-lr.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-lr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.land/README.md) | [bob-cli-lr](README.md) | 0 |
 
@@ -80,3 +80,4 @@ flowchart TD
 | bob-cli | [`ee6d650`](https://github.com/bobs-org/bob-cli/commit/ee6d650376d0fb413e789d704f22e915e608f89d) | feat(gcal): freeze rows from calendars that left the config | [bob-cli-lr.3](bob-cli-lr.3.md) | 2026-11-15 14:46:22 EST |
 | bob-cli | [`476c544`](https://github.com/bobs-org/bob-cli/commit/476c54407ebe2eb04e9ccc693fc74b610a4124d8) | feat(gcal): expose calendar marks across CLI and JSON surfaces | [bob-cli-lr.4](bob-cli-lr.4.md) | 2026-11-15 14:56:34 EST |
 | bob-cli | [`d794e0b`](https://github.com/bobs-org/bob-cli/commit/d794e0ba262d32da6b8503f88ad8bcbc2ebc79a5) | docs(gcal): document marked calendar setup | [bob-cli-lr.5](bob-cli-lr.5.md) | 2026-11-15 15:09:05 EST |
+| chezmoi | [`chezmoi@88bbec9`](https://github.com/bbugyi200/dotfiles/commit/88bbec95181c09fd4dbe9ce9c9eac5a20b0094ca) | feat(config): enable Birthdays calendar mark | [bob-cli-lr.5](bob-cli-lr.5.md) | 2026-11-15 15:10:26 EST |
