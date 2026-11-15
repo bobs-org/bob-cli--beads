@@ -22,7 +22,7 @@ writer-core: add the guarded config writer envelope, transaction, inverse ops, h
 - **Depends on:** [bob-cli-lt.1](bob-cli-lt.1.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-lt.2](bob-cli-lt.2.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lt.5](bob-cli-lt.5.md) ◐ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lt.6](bob-cli-lt.6.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lt.6](bob-cli-lt.6.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -35,3 +35,15 @@ writer-core: add the guarded config writer envelope, transaction, inverse ops, h
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8a6d746`](https://github.com/bobs-org/bob-cli/commit/8a6d746d86a6ef88483530df22da0a65f666c620) | feat(bank): add guarded config update for category and group ops | [bob-cli-lt.4](bob-cli-lt.4.md) | 2026-11-15 18:19:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lt.4--2][1] | Confirm assigned bead status before host completion submit | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.4.md
+
+<!-- sase:referenced-by:end -->

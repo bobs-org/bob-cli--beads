@@ -13,7 +13,7 @@ setup-card: build the keyboard-first Setup card shell, Categories gestures, Undo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lt.6](bob-cli-lt.6.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lt.6](bob-cli-lt.6.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lt.8](bob-cli-lt.8.md) ◐ · ⧖ 2026-11-15
 
 ## Agents
