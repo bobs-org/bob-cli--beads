@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/gmail_closed_reply_reopen.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gmail_closed_reply_reopen.md
 
@@ -54,8 +54,10 @@ A counted reply or bounce after every effective Gmail linker closes saves its me
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-lk.3.1.1--1][1] | Need the epic decisions governing this phase before closure | 1 |
 | read-by | [agent:bob-cli-lk.3.1.2][2] | Need parent epic DECISIONS and phase design context | 1 |
+| read-by | [agent:bob-cli-lk.3.1.land--1][3] | Recheck phase status, notes, descendants and parent link before closure | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.3.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.1.land.md
 
 <!-- sase:referenced-by:end -->
