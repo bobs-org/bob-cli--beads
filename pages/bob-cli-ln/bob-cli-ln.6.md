@@ -37,3 +37,15 @@ areas-card-chips: add branch folds with per-pane memory, fold-aware project and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3a41a3e`](https://github.com/bobs-org/bob-plugins/commit/3a41a3e901edac12252458d074e2655225e5b190) | feat(areas): add Areas card folds, chips, tooltips, and add-summary | [bob-cli-ln.6](bob-cli-ln.6.md) | 2026-11-15 06:37:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ln.6][1] | Need remaining notes, earlier-agent work, and full phase details including notes | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.6/README.md
+
+<!-- sase:referenced-by:end -->
