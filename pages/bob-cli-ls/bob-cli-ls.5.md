@@ -13,7 +13,7 @@ check: report charged-after-cancel, still-charging, price-change, candidate, inv
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ls.2](bob-cli-ls.2.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-ls.2](bob-cli-ls.2.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-ls.6](bob-cli-ls.6.md) ◐ · ⧖ 2026-11-15
 
 ## Agents

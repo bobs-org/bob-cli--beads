@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-ls](README.md) / bob-cli-ls.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1cp](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1cp.md) · **Assignee:** `bob-cli-ls.2` · **Size:** large
-**Created:** 2026-11-15 13:11:21 EST
+**Created:** 2026-11-15 13:11:21 EST · **Closed:** 2026-11-15 17:54:09 EST
 **Plan:** [202611/bank\_subscriptions\_album.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_subscriptions_album.md)
 
 ## Description
 
 core: load subscription records, implement the Shows-up-as match contract and the single attribution resolver over rows and journal history, derive each record's ledger, and add subscription fields to bank row JSON.
+
+## Notes
+
+[2026-11-15T22:54:53Z · bob-cli-ls.2.1.land] Core phase complete via child epic bob-cli-ls.2.1: shared registry/match/attribution/ledger, guarded parent/root/folder inputs including absents, import after-state and source-free -F, checked money and signed cadence, additive row JSON. just check passed. just docs-check fails only on independent mounted plugin page bob-ledger-tools.md 6055 vs 6000 (bob-cli-lt.3 / bob-cli-il). epic-symbols empty. Follow-ups stay on bob-cli-g8 and bob-cli-lt.3/bob-cli-il. Outer bob-cli-ls and bob-cli-kt remain open.
 
 ## Dependencies
 

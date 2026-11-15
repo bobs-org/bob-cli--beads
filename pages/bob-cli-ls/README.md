@@ -31,7 +31,7 @@ A 🔁 Subscriptions album under bank holds every discretionary recurring charge
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ls.1](bob-cli-ls.1.md) | Seed the album from a reviewed bank history | ✓ closed | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-ls.10](bob-cli-ls.10.md) | Vault acceptance, memory, and closing bob-cli-kt | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
-| [bob-cli-ls.2](bob-cli-ls.2.md) | Subscription registry, match resolver, and ledger | ◐ in_progress | large | 2026-11-15 | 1 | 0 |
+| [bob-cli-ls.2](bob-cli-ls.2.md) | Subscription registry, match resolver, and ledger | ✓ closed | large | 2026-11-15 | 1 | 0 |
 | [bob-cli-ls.3](bob-cli-ls.3.md) | Retire old\_recur.md into a legacy\_recur notebook | ✓ closed | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-ls.4](bob-cli-ls.4.md) | Import links new rows to their subscription | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-ls.5](bob-cli-ls.5.md) | Subscription findings in bob bank check | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
@@ -47,8 +47,8 @@ flowchart TD
     n0["bob-cli-ls: Subscriptions album: records that know how they show up on the statement [in_progress]"]
     n1["bob-cli-ls.1: Seed the album from a reviewed bank history [closed]"]
     n2["bob-cli-ls.10: Vault acceptance, memory, and closing bob-cli-kt [in_progress]"]
-    n3["bob-cli-ls.2: Subscription registry, match resolver, and ledger [in_progress]"]
-    n4["bob-cli-ls.2.1: Subscription registry, attribution, and ledger core [in_progress]"]
+    n3["bob-cli-ls.2: Subscription registry, match resolver, and ledger [closed]"]
+    n4["bob-cli-ls.2.1: Subscription registry, attribution, and ledger core [closed]"]
     n5["bob-cli-ls.2.1.1: Typed subscription registry and deterministic matching [closed]"]
     n6["bob-cli-ls.2.1.2: Shared charge attribution and subscription ledger [closed]"]
     n7["bob-cli-ls.2.1.3: Guarded loaders, row JSON, suggestions, and documentation [closed]"]
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ls.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.2.1.1.md) | [bob-cli-ls.2.1.1](bob-cli-ls.2.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ls.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.2.1.2.md) | [bob-cli-ls.2.1.2](bob-cli-ls.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.2.1.3/README.md) | [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-ls.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.2.1.land/README.md) | [bob-cli-ls.2.1](bob-cli-ls.2.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-ls.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.2.1.land.md) | [bob-cli-ls.2.1](bob-cli-ls.2.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.3/README.md) | [bob-cli-ls.3](bob-cli-ls.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ls.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.4/README.md) | [bob-cli-ls.4](bob-cli-ls.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ls.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.5/README.md) | [bob-cli-ls.5](bob-cli-ls.5.md) | 0 |
@@ -117,6 +117,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`96b35f4`](https://github.com/bobs-org/bob-cli/commit/96b35f41c4d20cecc065e85e2fe5ac1d8d191c2c) | feat(bank): add subscription attribution and ledger | [bob-cli-ls.2.1.2](bob-cli-ls.2.1.2.md) | 2026-11-15 16:08:32 EST |
 | bob-cli | [`055f9b6`](https://github.com/bobs-org/bob-cli/commit/055f9b6e0558c8458ac37a20d0533f22ac4d5d77) | feat(bank): integrate subscription core into rows, suggestions, and docs | [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) | 2026-11-15 16:51:38 EST |
+| bob-cli | [`b8aed5a`](https://github.com/bobs-org/bob-cli/commit/b8aed5a943242a5517a6f536de9914432193ed90) | fix(bank): repair subscription core ledger, import after-state, and guards | [bob-cli-ls.2.1](bob-cli-ls.2.1.md) | 2026-11-15 17:58:47 EST |
 
 <!-- sase:referenced-by:start -->
 
