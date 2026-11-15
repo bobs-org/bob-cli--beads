@@ -26,7 +26,7 @@ merge-follow: resolve each merged-into source to its target task through the sha
 ## Dependencies
 
 - **Blocks:** [bob-cli-lk.2](bob-cli-lk.2.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lk.3](bob-cli-lk.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lk.3](bob-cli-lk.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
