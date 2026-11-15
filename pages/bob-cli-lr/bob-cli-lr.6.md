@@ -13,7 +13,7 @@ live-acceptance: install the new bob and apply the chezmoi config on the hosts t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lr.5](bob-cli-lr.5.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lr.5](bob-cli-lr.5.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

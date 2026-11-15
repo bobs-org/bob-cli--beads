@@ -20,7 +20,7 @@ calendar-surfaces: show marks and the sync set in `bob gcal calendars`, `list`, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-lr.2](bob-cli-lr.2.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lr.5](bob-cli-lr.5.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lr.5](bob-cli-lr.5.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -33,3 +33,15 @@ calendar-surfaces: show marks and the sync set in `bob gcal calendars`, `list`, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`476c544`](https://github.com/bobs-org/bob-cli/commit/476c54407ebe2eb04e9ccc693fc74b610a4124d8) | feat(gcal): expose calendar marks across CLI and JSON surfaces | [bob-cli-lr.4](bob-cli-lr.4.md) | 2026-11-15 14:56:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lr.4][1] | Confirm phase notes and inspect the current plan link before implementation | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.4/README.md
+
+<!-- sase:referenced-by:end -->
