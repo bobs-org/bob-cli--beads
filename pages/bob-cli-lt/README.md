@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bank_setup_render_and_edit.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_setup_render_and_edit.md
 
 <!-- sase:links:end -->
@@ -27,9 +29,9 @@ bank.md's nested bank: mapping renders on the hub as a calm, honest Setup header
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-lt.1](bob-cli-lt.1.md) | The bob bank config report and located diagnostics | ◐ in_progress | medium | 2026-11-15 | 1 | 1 |
+| [bob-cli-lt.1](bob-cli-lt.1.md) | The bob bank config report and located diagnostics | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.2](bob-cli-lt.2.md) | Shared YAML span primitives and the bank entry editor | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-lt.3](bob-cli-lt.3.md) | The Setup header on the bank hub | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lt.3](bob-cli-lt.3.md) | The Setup header on the bank hub | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.4](bob-cli-lt.4.md) | bob bank config update with category and group ops | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-lt.5](bob-cli-lt.5.md) | Account, rule, and setting ops with the migration refusals | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-lt.6](bob-cli-lt.6.md) | New category from the Category card | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
@@ -41,9 +43,9 @@ bank.md's nested bank: mapping renders on the hub as a calm, honest Setup header
 ```mermaid
 flowchart TD
     n0["bob-cli-lt: Bank setup: render the bank: mapping on the hub, edit it through bob [in_progress]"]
-    n1["bob-cli-lt.1: The bob bank config report and located diagnostics [in_progress]"]
+    n1["bob-cli-lt.1: The bob bank config report and located diagnostics [closed]"]
     n2["bob-cli-lt.2: Shared YAML span primitives and the bank entry editor [closed]"]
-    n3["bob-cli-lt.3: The Setup header on the bank hub [in_progress]"]
+    n3["bob-cli-lt.3: The Setup header on the bank hub [closed]"]
     n4["bob-cli-lt.4: bob bank config update with category and group ops [in_progress]"]
     n5["bob-cli-lt.5: Account, rule, and setting ops with the migration refusals [in_progress]"]
     n6["bob-cli-lt.6: New category from the Category card [in_progress]"]
@@ -74,7 +76,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-lt.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.1.md) | [bob-cli-lt.1](bob-cli-lt.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.2.md) | [bob-cli-lt.2](bob-cli-lt.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.4/README.md) | [bob-cli-lt.4](bob-cli-lt.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-lt.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.5/README.md) | [bob-cli-lt.5](bob-cli-lt.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-lt.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.6/README.md) | [bob-cli-lt.6](bob-cli-lt.6.md) | 0 |
@@ -88,3 +90,16 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`bd9c4c1`](https://github.com/bobs-org/bob-cli/commit/bd9c4c13e7a6a1f64f57baff735f05834f9f8bb1) | feat(bank): extract YAML span primitives and add a bank config editor | [bob-cli-lt.2](bob-cli-lt.2.md) | 2026-11-15 14:30:49 EST |
 | bob-cli | [`248befd`](https://github.com/bobs-org/bob-cli/commit/248befdde6b414552b6373799496b1594cad5cba) | feat(bank): add read-only config report | [bob-cli-lt.1](bob-cli-lt.1.md) | 2026-11-15 15:46:31 EST |
+| bob-plugins | [`bob-plugins@63ff165`](https://github.com/bobs-org/bob-plugins/commit/63ff1654a8ffc52c6c1419479a7e3bb17d08f012) | feat(bank): render the Setup header on the bank hub | [bob-cli-lt.3](bob-cli-lt.3.md) | 2026-11-15 16:28:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lr.land][1] | Check whether bank subscriptions dead code that breaks just check is in-flight work of this epic | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lr.land/README.md
+
+<!-- sase:referenced-by:end -->

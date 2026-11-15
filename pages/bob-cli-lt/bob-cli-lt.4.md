@@ -13,7 +13,7 @@ writer-core: add the guarded config writer envelope, transaction, inverse ops, h
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lt.1](bob-cli-lt.1.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lt.1](bob-cli-lt.1.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-lt.2](bob-cli-lt.2.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lt.5](bob-cli-lt.5.md) ◐ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lt.6](bob-cli-lt.6.md) ◐ · ⧖ 2026-11-15

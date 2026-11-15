@@ -13,7 +13,7 @@ category-new: add the plugin config-update service and shared session, and the +
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lt.3](bob-cli-lt.3.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lt.3](bob-cli-lt.3.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-lt.4](bob-cli-lt.4.md) ◐ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lt.7](bob-cli-lt.7.md) ◐ · ⧖ 2026-11-15
 
