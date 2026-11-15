@@ -31,7 +31,7 @@ Every area note with sub-areas, and the root note `[[area]]` resolves to (today 
 | [bob-cli-ln.2](bob-cli-ln.2.md) | Area graph and pure catalog planner | ✓ closed | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-ln.3](bob-cli-ln.3.md) | bob areas list and check | ✓ closed | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-ln.4](bob-cli-ln.4.md) | bob areas sync, nightly step, and Highlights coverage | ✓ closed | medium | 2026-11-14 | 1 | 1 |
-| [bob-cli-ln.5](bob-cli-ln.5.md) | bob-ledger-tools Areas card shell | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
+| [bob-cli-ln.5](bob-cli-ln.5.md) | bob-ledger-tools Areas card shell | ✓ closed | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-ln.6](bob-cli-ln.6.md) | Areas card folds, chips, tooltips, and add-summary | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
 | [bob-cli-ln.7](bob-cli-ln.7.md) | Decision record and glossary update | ✓ closed | small | 2026-11-14 | 1 | 1 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["bob-cli-ln.2: Area graph and pure catalog planner [closed]"]
     n3["bob-cli-ln.3: bob areas list and check [closed]"]
     n4["bob-cli-ln.4: bob areas sync, nightly step, and Highlights coverage [closed]"]
-    n5["bob-cli-ln.5: bob-ledger-tools Areas card shell [in_progress]"]
+    n5["bob-cli-ln.5: bob-ledger-tools Areas card shell [closed]"]
     n6["bob-cli-ln.6: Areas card folds, chips, tooltips, and add-summary [in_progress]"]
     n7["bob-cli-ln.7: Decision record and glossary update [closed]"]
     n0 --> n1
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ln.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ln.2.md) | [bob-cli-ln.2](bob-cli-ln.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ln.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ln.3.md) | [bob-cli-ln.3](bob-cli-ln.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ln.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.4/README.md) | [bob-cli-ln.4](bob-cli-ln.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ln.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ln.5.md) | [bob-cli-ln.5](bob-cli-ln.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ln.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.5/README.md) | [bob-cli-ln.5](bob-cli-ln.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ln.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.6/README.md) | [bob-cli-ln.6](bob-cli-ln.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ln.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.7/README.md) | [bob-cli-ln.7](bob-cli-ln.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ln.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.land/README.md) | [bob-cli-ln](README.md) | 0 |
@@ -85,3 +85,4 @@ flowchart TD
 | bob-cli | [`92813d0`](https://github.com/bobs-org/bob-cli/commit/92813d08ea57e1f2c5cff2ae6a85e0232ed0390e) | feat(areas): add read-only bob areas list and check | [bob-cli-ln.3](bob-cli-ln.3.md) | 2026-11-14 21:17:28 EST |
 | bob-cli | [`81a4b02`](https://github.com/bobs-org/bob-cli/commit/81a4b022a8037eee9f734f50ade09c284362dd89) | feat(areas): add guarded areas sync writer, nightly step, and coverage | [bob-cli-ln.4](bob-cli-ln.4.md) | 2026-11-14 22:31:31 EST |
 | bob-cli | [`57e0f3c`](https://github.com/bobs-org/bob-cli/commit/57e0f3c8bc4e5291b375058b6c51b1a26842b37d) | docs(memory): note optional area summary in Area Note glossary strand | [bob-cli-ln.7](bob-cli-ln.7.md) | 2026-11-14 22:58:39 EST |
+| bob-plugins | [`bob-plugins@5023787`](https://github.com/bobs-org/bob-plugins/commit/5023787e4064941477fdf0d7cc78f8fbd5db8a48) | fix(areas): bound failed refresh retries and restore card icon | [bob-cli-ln.5](bob-cli-ln.5.md) | 2026-11-15 06:08:39 EST |

@@ -32,3 +32,15 @@ areas-memory: record the nested-forest decision and teach the Area Note glossary
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`57e0f3c`](https://github.com/bobs-org/bob-cli/commit/57e0f3c8bc4e5291b375058b6c51b1a26842b37d) | docs(memory): note optional area summary in Area Note glossary strand | [bob-cli-ln.7](bob-cli-ln.7.md) | 2026-11-14 22:58:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ln.7][1] | check phase notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.7/README.md
+
+<!-- sase:referenced-by:end -->

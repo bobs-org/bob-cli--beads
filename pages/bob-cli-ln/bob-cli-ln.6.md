@@ -14,7 +14,7 @@ areas-card-chips: add branch folds with per-pane memory, fold-aware project and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ln.4](bob-cli-ln.4.md) ✓ · ⧖ 2026-11-14
-- **Depends on:** [bob-cli-ln.5](bob-cli-ln.5.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-ln.5](bob-cli-ln.5.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 

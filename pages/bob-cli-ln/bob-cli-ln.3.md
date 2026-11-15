@@ -21,7 +21,7 @@ areas-report: ship the read-only `bob areas` noun with list/check, the versioned
 
 - **Depends on:** [bob-cli-ln.2](bob-cli-ln.2.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-ln.4](bob-cli-ln.4.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-ln.5](bob-cli-ln.5.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-ln.5](bob-cli-ln.5.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
