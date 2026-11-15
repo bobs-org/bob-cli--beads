@@ -18,7 +18,7 @@ core: load subscription records, implement the Shows-up-as match contract and th
 ## Dependencies
 
 - **Blocks:** [bob-cli-ls.4](bob-cli-ls.4.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.5](bob-cli-ls.5.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.5](bob-cli-ls.5.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-ls.6](bob-cli-ls.6.md) ◐ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-ls.7](bob-cli-ls.7.md) ✓ · ⧖ 2026-11-15
 

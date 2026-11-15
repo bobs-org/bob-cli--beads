@@ -49,7 +49,7 @@ Verified: cargo test --lib bank::subscriptions import_plan import_run journal (i
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli--plans | [`bob-cli--plans@594215a`](https://github.com/bobs-org/bob-cli--plans/commit/594215ae91c9d361ab200f833ee8dbf82f45ea2e) | docs: mark subscription core epic plan done | [bob-cli-ls.2.1](bob-cli-ls.2.1.md) | 2026-11-15 17:59:49 EST |
+| bob-cli | [`b8aed5a`](https://github.com/bobs-org/bob-cli/commit/b8aed5a943242a5517a6f536de9914432193ed90) | fix(bank): repair subscription core ledger, import after-state, and guards | [bob-cli-ls.2.1](bob-cli-ls.2.1.md) | 2026-11-15 17:58:47 EST |
 
 <!-- sase:referenced-by:start -->
 
