@@ -11,6 +11,10 @@
 
 deconfigured-freeze: journaled rows whose calendar is no longer configured are left alone, reported once, and never looked up, which removes the false Moved and Deleted verdicts; re-adding the calendar resumes the same identities.
 
+## Notes
+
+[2026-11-15T18:45:34Z · bob-cli-lr.3] PROPOSED FOLLOW-UP: docs-check fails on docs/reference/configuration.md word budget (6009/6000) on the clean tree; this phase did not edit that file.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-lr.1](bob-cli-lr.1.md) ✓ · ⧖ 2026-11-15
@@ -20,4 +24,4 @@ deconfigured-freeze: journaled rows whose calendar is no longer configured are l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-lr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.3/README.md) | [bob-cli-lr.3](bob-cli-lr.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lr.3.md) | [bob-cli-lr.3](bob-cli-lr.3.md) | 0 |

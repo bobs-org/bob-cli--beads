@@ -19,7 +19,7 @@ calendar-config: add the required, validated `mark` key to `gcal.calendars`, che
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lr.2](bob-cli-lr.2.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lr.2](bob-cli-lr.2.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lr.3](bob-cli-lr.3.md) ◐ · ⧖ 2026-11-15
 
 ## Agents
@@ -33,3 +33,15 @@ calendar-config: add the required, validated `mark` key to `gcal.calendars`, che
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2759a4e`](https://github.com/bobs-org/bob-cli/commit/2759a4e7c687ce36c859ceb20f790b682204494b) | feat(gcal)!: require unique marks on non-primary calendars | [bob-cli-lr.1](bob-cli-lr.1.md) | 2026-11-15 13:22:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lr.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.1/README.md
+
+<!-- sase:referenced-by:end -->

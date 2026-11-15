@@ -13,7 +13,7 @@ calendar-surfaces: show marks and the sync set in `bob gcal calendars`, `list`, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lr.2](bob-cli-lr.2.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lr.2](bob-cli-lr.2.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lr.5](bob-cli-lr.5.md) ◐ · ⧖ 2026-11-15
 
 ## Agents
