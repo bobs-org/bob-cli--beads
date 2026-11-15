@@ -13,7 +13,7 @@ writer-ops: add account, rule, and stale_after ops plus the typed refusals that 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lt.4](bob-cli-lt.4.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lt.4](bob-cli-lt.4.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lt.8](bob-cli-lt.8.md) ◐ · ⧖ 2026-11-15
 
 ## Agents

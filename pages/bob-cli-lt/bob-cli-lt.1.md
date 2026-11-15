@@ -18,7 +18,7 @@ config-report: add the read-only bob bank config report with fingerprint, proven
 ## Dependencies
 
 - **Blocks:** [bob-cli-lt.3](bob-cli-lt.3.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lt.4](bob-cli-lt.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lt.4](bob-cli-lt.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

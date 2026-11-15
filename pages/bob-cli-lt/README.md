@@ -25,14 +25,18 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 bank.md's nested bank: mapping renders on the hub as a calm, honest Setup header showing what bob actually uses (accounts, categories as Category-card keycaps, rules, free keys, located errors), and every common edit — above all "none of these categories fits this row" — becomes one previewed, revertable gesture written only by a guarded bob writer that preserves Bryan's authored YAML byte-for-byte, with YAML editing kept first-class.
 
+## Notes
+
+[2026-11-15T22:02:23Z · bob-cli-ls.2.1.land] DISCOVERED ISSUE: Triaged bob-cli-ls.2.1.3 note #1 during subscription-core landing. Canonical count_words on opened bob-plugins history proves f72bd4e docs/bob-ledger-tools.md = 6000 and lt.3 commit 63ff165 = 6055; current mounted copy is also 6055. This is caused by the Setup header documentation added by bob-cli-lt.3, whose own note #1 acknowledges the +55. Please trim existing prose while preserving the new contract before landing lt; do not raise budgets. The previous headroom fix is present (61c506d = 5546); corroborated bob-cli-il as a post-close recurrence, with no new task. This unrelated docs failure must not block subscription-core closeout once its own requirements pass.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-lt.1](bob-cli-lt.1.md) | The bob bank config report and located diagnostics | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.2](bob-cli-lt.2.md) | Shared YAML span primitives and the bank entry editor | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-lt.3](bob-cli-lt.3.md) | The Setup header on the bank hub | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-lt.4](bob-cli-lt.4.md) | bob bank config update with category and group ops | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lt.3](bob-cli-lt.3.md) | The Setup header on the bank hub | ✓ closed | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lt.4](bob-cli-lt.4.md) | bob bank config update with category and group ops | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.5](bob-cli-lt.5.md) | Account, rule, and setting ops with the migration refusals | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-lt.6](bob-cli-lt.6.md) | New category from the Category card | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-lt.7](bob-cli-lt.7.md) | The Bank Setup card with the Categories section | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
@@ -46,7 +50,7 @@ flowchart TD
     n1["bob-cli-lt.1: The bob bank config report and located diagnostics [closed]"]
     n2["bob-cli-lt.2: Shared YAML span primitives and the bank entry editor [closed]"]
     n3["bob-cli-lt.3: The Setup header on the bank hub [closed]"]
-    n4["bob-cli-lt.4: bob bank config update with category and group ops [in_progress]"]
+    n4["bob-cli-lt.4: bob bank config update with category and group ops [closed]"]
     n5["bob-cli-lt.5: Account, rule, and setting ops with the migration refusals [in_progress]"]
     n6["bob-cli-lt.6: New category from the Category card [in_progress]"]
     n7["bob-cli-lt.7: The Bank Setup card with the Categories section [in_progress]"]
@@ -76,8 +80,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-lt.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.1.md) | [bob-cli-lt.1](bob-cli-lt.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.2.md) | [bob-cli-lt.2](bob-cli-lt.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-lt.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.4/README.md) | [bob-cli-lt.4](bob-cli-lt.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.4.md) | [bob-cli-lt.4](bob-cli-lt.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.5/README.md) | [bob-cli-lt.5](bob-cli-lt.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-lt.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.6/README.md) | [bob-cli-lt.6](bob-cli-lt.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-lt.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.7/README.md) | [bob-cli-lt.7](bob-cli-lt.7.md) | 0 |
@@ -90,7 +94,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`bd9c4c1`](https://github.com/bobs-org/bob-cli/commit/bd9c4c13e7a6a1f64f57baff735f05834f9f8bb1) | feat(bank): extract YAML span primitives and add a bank config editor | [bob-cli-lt.2](bob-cli-lt.2.md) | 2026-11-15 14:30:49 EST |
 | bob-cli | [`248befd`](https://github.com/bobs-org/bob-cli/commit/248befdde6b414552b6373799496b1594cad5cba) | feat(bank): add read-only config report | [bob-cli-lt.1](bob-cli-lt.1.md) | 2026-11-15 15:46:31 EST |
-| bob-plugins | [`bob-plugins@63ff165`](https://github.com/bobs-org/bob-plugins/commit/63ff1654a8ffc52c6c1419479a7e3bb17d08f012) | feat(bank): render the Setup header on the bank hub | [bob-cli-lt.3](bob-cli-lt.3.md) | 2026-11-15 16:28:58 EST |
+| bob-cli | [`8a6d746`](https://github.com/bobs-org/bob-cli/commit/8a6d746d86a6ef88483530df22da0a65f666c620) | feat(bank): add guarded config update for category and group ops | [bob-cli-lt.4](bob-cli-lt.4.md) | 2026-11-15 18:19:29 EST |
 
 <!-- sase:referenced-by:start -->
 

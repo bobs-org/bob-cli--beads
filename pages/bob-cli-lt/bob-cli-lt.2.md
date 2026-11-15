@@ -19,7 +19,7 @@ config-spans: extract album-agnostic span primitives and build a style-preservin
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-lt.4](bob-cli-lt.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lt.4](bob-cli-lt.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
