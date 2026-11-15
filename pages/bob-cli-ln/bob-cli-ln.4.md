@@ -21,7 +21,7 @@ areas-sync: add the guarded `bob areas sync` writer and dry run, the nightly ste
 
 - **Depends on:** [bob-cli-ln.3](bob-cli-ln.3.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-ln.6](bob-cli-ln.6.md) ◐ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-ln.7](bob-cli-ln.7.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-ln.7](bob-cli-ln.7.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -34,3 +34,15 @@ areas-sync: add the guarded `bob areas sync` writer and dry run, the nightly ste
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`81a4b02`](https://github.com/bobs-org/bob-cli/commit/81a4b022a8037eee9f734f50ade09c284362dd89) | feat(areas): add guarded areas sync writer, nightly step, and coverage | [bob-cli-ln.4](bob-cli-ln.4.md) | 2026-11-14 22:31:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ln.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.4/README.md
+
+<!-- sase:referenced-by:end -->

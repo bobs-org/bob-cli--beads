@@ -11,6 +11,10 @@
 
 areas-card: in bob-plugins, add the display-only `[!areas]` card - report service, Reading and Live Preview painting, family chrome, hue dots, health line with sync and retry, and the root card's unplaced-areas notice - then deploy.
 
+## Notes
+
+[2026-11-15T03:51:41Z · bob-cli-ln.5--1] PROPOSED FOLLOW-UP: Clean-base docs-check still fails because docs/reference/json-outputs.md is 6002/6000 words; this independent reference-page cap issue was already recorded in bob-cli-lj.5 note #3 and needs a docs budget trim.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ln.3](bob-cli-ln.3.md) ✓ · ⧖ 2026-11-14
