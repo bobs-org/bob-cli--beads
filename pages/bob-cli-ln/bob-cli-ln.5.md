@@ -30,7 +30,7 @@ areas-card: in bob-plugins, add the display-only `[!areas]` card - report servic
 ## Dependencies
 
 - **Depends on:** [bob-cli-ln.3](bob-cli-ln.3.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-ln.6](bob-cli-ln.6.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-ln.6](bob-cli-ln.6.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
@@ -50,6 +50,7 @@ areas-card: in bob-plugins, add the display-only `[!areas]` card - report servic
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ln.5][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-ln.5--2][1] | Need the phase scope, epic decisions, design file, and prior notes before closing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ln.5.md

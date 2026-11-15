@@ -20,7 +20,7 @@ areas-sync: add the guarded `bob areas sync` writer and dry run, the nightly ste
 ## Dependencies
 
 - **Depends on:** [bob-cli-ln.3](bob-cli-ln.3.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-ln.6](bob-cli-ln.6.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-ln.6](bob-cli-ln.6.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-ln.7](bob-cli-ln.7.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
