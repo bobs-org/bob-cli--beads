@@ -1,0 +1,78 @@
+# Bead: bob-cli-lr — Multi-calendar gcal sync with calendar marks, starting with Birthdays
+
+[Bead Pages](../README.md) / bob-cli-lr
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.4q.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.4q.linker.w1.md) · **Assignee:** `bob-cli-lr.land`
+**Created:** 2026-11-15 12:24:26 EST
+**Plan:** [202611/gcal\_calendar\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_calendar_marks.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/gcal_calendar_marks.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/gcal_calendar_marks.md
+
+<!-- sase:links:end -->
+
+## Description
+
+`bob gcal sync` syncs several Google Calendars from one account, chosen by id. Every row from a non-primary calendar starts its title with that calendar's configured mark, so `- **all day** 🎂 Ava's Birthday [📅](…)` lands in 2026/20261114.md and the source calendar is clear in the note, every CLI surface, and JSON. Removing a calendar from config freezes its old rows instead of cancelling them.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-lr.1](bob-cli-lr.1.md) | Calendar marks in config, a resolved calendar set, and per-calendar fake gog | ✓ closed | medium | 2026-11-15 | 1 | 1 |
+| [bob-cli-lr.2](bob-cli-lr.2.md) | Marked titles in the daily note | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lr.3](bob-cli-lr.3.md) | Freeze rows from calendars that left the config | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
+| [bob-cli-lr.4](bob-cli-lr.4.md) | Calendar identity on every CLI surface and in JSON | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lr.5](bob-cli-lr.5.md) | Decision record, setup guide, and the Birthdays config row | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
+| [bob-cli-lr.6](bob-cli-lr.6.md) | Install, apply, and prove Ava's birthday lands | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-lr: Multi-calendar gcal sync with calendar marks, starting with Birthdays [in_progress]"]
+    n1["bob-cli-lr.1: Calendar marks in config, a resolved calendar set, and per-calendar fake gog [closed]"]
+    n2["bob-cli-lr.2: Marked titles in the daily note [in_progress]"]
+    n3["bob-cli-lr.3: Freeze rows from calendars that left the config [in_progress]"]
+    n4["bob-cli-lr.4: Calendar identity on every CLI surface and in JSON [in_progress]"]
+    n5["bob-cli-lr.5: Decision record, setup guide, and the Birthdays config row [in_progress]"]
+    n6["bob-cli-lr.6: Install, apply, and prove Ava's birthday lands [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n1 -.-> n2
+    n1 -.-> n3
+    n2 -.-> n4
+    n3 -.-> n5
+    n4 -.-> n5
+    n5 -.-> n6
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-lr.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.1/README.md) | [bob-cli-lr.1](bob-cli-lr.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lr.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.2/README.md) | [bob-cli-lr.2](bob-cli-lr.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lr.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.3/README.md) | [bob-cli-lr.3](bob-cli-lr.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lr.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.4/README.md) | [bob-cli-lr.4](bob-cli-lr.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lr.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.5/README.md) | [bob-cli-lr.5](bob-cli-lr.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lr.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.6/README.md) | [bob-cli-lr.6](bob-cli-lr.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-lr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.land/README.md) | [bob-cli-lr](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`2759a4e`](https://github.com/bobs-org/bob-cli/commit/2759a4e7c687ce36c859ceb20f790b682204494b) | feat(gcal)!: require unique marks on non-primary calendars | [bob-cli-lr.1](bob-cli-lr.1.md) | 2026-11-15 13:22:30 EST |
