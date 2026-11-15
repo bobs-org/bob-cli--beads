@@ -13,7 +13,7 @@ enable-birthdays: write the calendar-mark decision record, add the add-another-c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lr.3](bob-cli-lr.3.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lr.3](bob-cli-lr.3.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-lr.4](bob-cli-lr.4.md) ◐ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lr.6](bob-cli-lr.6.md) ◐ · ⧖ 2026-11-15
 

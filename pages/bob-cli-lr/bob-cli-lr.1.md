@@ -20,7 +20,7 @@ calendar-config: add the required, validated `mark` key to `gcal.calendars`, che
 ## Dependencies
 
 - **Blocks:** [bob-cli-lr.2](bob-cli-lr.2.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lr.3](bob-cli-lr.3.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lr.3](bob-cli-lr.3.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
