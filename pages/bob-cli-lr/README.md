@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lr.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.4/README.md) | [bob-cli-lr.4](bob-cli-lr.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lr.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.5/README.md) | [bob-cli-lr.5](bob-cli-lr.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-lr.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lr.6.md) | [bob-cli-lr.6](bob-cli-lr.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-lr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.land/README.md) | [bob-cli-lr](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.land/README.md) | [bob-cli-lr](README.md) | 2 |
 
 ## Commits
 
@@ -86,3 +86,4 @@ flowchart TD
 | bob-cli | [`d794e0b`](https://github.com/bobs-org/bob-cli/commit/d794e0ba262d32da6b8503f88ad8bcbc2ebc79a5) | docs(gcal): document marked calendar setup | [bob-cli-lr.5](bob-cli-lr.5.md) | 2026-11-15 15:09:05 EST |
 | chezmoi | [`chezmoi@88bbec9`](https://github.com/bbugyi200/dotfiles/commit/88bbec95181c09fd4dbe9ce9c9eac5a20b0094ca) | feat(config): enable Birthdays calendar mark | [bob-cli-lr.5](bob-cli-lr.5.md) | 2026-11-15 15:10:26 EST |
 | bob-cli | [`b638fb0`](https://github.com/bobs-org/bob-cli/commit/b638fb0d1809f116043c7c35b674ab1b8919e4be) | fix(gcal): land calendar marks epic with docs budget, marked-primary JSON, and guide fixes | [bob-cli-lr](README.md) | 2026-11-15 16:08:59 EST |
+| bob-cli--plans | [`bob-cli--plans@46a1ec0`](https://github.com/bobs-org/bob-cli--plans/commit/46a1ec01641e38389016b24bd3dd40290df747f4) | chore(plans): mark gcal\_calendar\_marks plan done after bob-cli-lr landed | [bob-cli-lr](README.md) | 2026-11-15 16:09:52 EST |
