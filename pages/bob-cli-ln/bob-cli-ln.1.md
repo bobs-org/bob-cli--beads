@@ -17,7 +17,7 @@ catalog-engine: add the AREAS region spec and the AfterSectionThenFirstH2 placem
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ln.2](bob-cli-ln.2.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-ln.2](bob-cli-ln.2.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
