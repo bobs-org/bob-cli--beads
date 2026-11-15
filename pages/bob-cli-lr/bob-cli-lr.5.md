@@ -29,7 +29,7 @@ enable-birthdays: write the calendar-mark decision record, add the add-another-c
 
 - **Depends on:** [bob-cli-lr.3](bob-cli-lr.3.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-lr.4](bob-cli-lr.4.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lr.6](bob-cli-lr.6.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lr.6](bob-cli-lr.6.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -43,3 +43,15 @@ enable-birthdays: write the calendar-mark decision record, add the add-another-c
 |---|---|---|---|---|
 | bob-cli | [`d794e0b`](https://github.com/bobs-org/bob-cli/commit/d794e0ba262d32da6b8503f88ad8bcbc2ebc79a5) | docs(gcal): document marked calendar setup | [bob-cli-lr.5](bob-cli-lr.5.md) | 2026-11-15 15:09:05 EST |
 | chezmoi | [`chezmoi@88bbec9`](https://github.com/bbugyi200/dotfiles/commit/88bbec95181c09fd4dbe9ce9c9eac5a20b0094ca) | feat(config): enable Birthdays calendar mark | [bob-cli-lr.5](bob-cli-lr.5.md) | 2026-11-15 15:10:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lr.5][1] | Confirm follow-up notes are recorded and the phase is ready to close | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lr.5/README.md
+
+<!-- sase:referenced-by:end -->
