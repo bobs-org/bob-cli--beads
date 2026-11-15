@@ -20,7 +20,7 @@ attribution_ledger: build the deduplicated journal-and-row universe, resolve exp
 ## Dependencies
 
 - **Depends on:** [bob-cli-ls.2.1.1](bob-cli-ls.2.1.1.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -33,3 +33,15 @@ attribution_ledger: build the deduplicated journal-and-row universe, resolve exp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`96b35f4`](https://github.com/bobs-org/bob-cli/commit/96b35f41c4d20cecc065e85e2fe5ac1d8d191c2c) | feat(bank): add subscription attribution and ledger | [bob-cli-ls.2.1.2](bob-cli-ls.2.1.2.md) | 2026-11-15 16:08:32 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ls.2.1.2--2][1] | Confirm phase completeness before close on host completion | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.2.1.2.md
+
+<!-- sase:referenced-by:end -->

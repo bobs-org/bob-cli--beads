@@ -18,7 +18,7 @@ registry_match: load the subscription album by noun, validate typed records and 
 ## Dependencies
 
 - **Blocks:** [bob-cli-ls.2.1.2](bob-cli-ls.2.1.2.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

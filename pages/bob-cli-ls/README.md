@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bank_subscriptions_album.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_subscriptions_album.md
 
 <!-- sase:links:end -->
@@ -49,7 +51,7 @@ flowchart TD
     n4["bob-cli-ls.2.1: Subscription registry, attribution, and ledger core [in_progress]"]
     n5["bob-cli-ls.2.1.1: Typed subscription registry and deterministic matching [closed]"]
     n6["bob-cli-ls.2.1.2: Shared charge attribution and subscription ledger [closed]"]
-    n7["bob-cli-ls.2.1.3: Guarded loaders, row JSON, suggestions, and documentation [in_progress]"]
+    n7["bob-cli-ls.2.1.3: Guarded loaders, row JSON, suggestions, and documentation [closed]"]
     n8["bob-cli-ls.3: Retire old_recur.md into a legacy_recur notebook [closed]"]
     n9["bob-cli-ls.4: Import links new rows to their subscription [in_progress]"]
     n10["bob-cli-ls.5: Subscription findings in bob bank check [in_progress]"]
@@ -98,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ls.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.2.md) | [bob-cli-ls.2](bob-cli-ls.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-ls.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.2.1.1.md) | [bob-cli-ls.2.1.1](bob-cli-ls.2.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ls.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.2.1.2.md) | [bob-cli-ls.2.1.2](bob-cli-ls.2.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-ls.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.2.1.3/README.md) | [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-ls.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.2.1.3/README.md) | [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.2.1.land/README.md) | [bob-cli-ls.2.1](bob-cli-ls.2.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-ls.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.3/README.md) | [bob-cli-ls.3](bob-cli-ls.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ls.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.4/README.md) | [bob-cli-ls.4](bob-cli-ls.4.md) | 0 |
@@ -114,3 +116,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`96b35f4`](https://github.com/bobs-org/bob-cli/commit/96b35f41c4d20cecc065e85e2fe5ac1d8d191c2c) | feat(bank): add subscription attribution and ledger | [bob-cli-ls.2.1.2](bob-cli-ls.2.1.2.md) | 2026-11-15 16:08:32 EST |
+| bob-cli | [`055f9b6`](https://github.com/bobs-org/bob-cli/commit/055f9b6e0558c8458ac37a20d0533f22ac4d5d77) | feat(bank): integrate subscription core into rows, suggestions, and docs | [bob-cli-ls.2.1.3](bob-cli-ls.2.1.3.md) | 2026-11-15 16:51:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lr.land][1] | Check whether bank subscription registry dead code breaking just check on master is tracked in-flight work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lr.land/README.md
+
+<!-- sase:referenced-by:end -->

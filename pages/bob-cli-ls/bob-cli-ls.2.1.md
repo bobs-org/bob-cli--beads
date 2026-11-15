@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/subscription_core.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/subscription_core.md
 
 <!-- sase:links:end -->
@@ -32,3 +34,15 @@ Complete bob-cli-ls.2 with one reusable subscription resolver and ledger, guarde
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ls.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.2.1.land/README.md) | [bob-cli-ls.2.1](bob-cli-ls.2.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lr.land][1] | Check whether the subscription registry child epic already tracks its unwired code failing clippy on master | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lr.land/README.md
+
+<!-- sase:referenced-by:end -->
