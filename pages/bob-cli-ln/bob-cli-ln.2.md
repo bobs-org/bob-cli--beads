@@ -20,4 +20,10 @@ areas-graph: retain the root note's bytes in the vault snapshot, build the valid
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ln.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.2/README.md) | [bob-cli-ln.2](bob-cli-ln.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ln.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ln.2.md) | [bob-cli-ln.2](bob-cli-ln.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`719dbd4`](https://github.com/bobs-org/bob-cli/commit/719dbd45cbf4eaf21cdf96bd3f46eaa6da2c5974) | feat(areas): validated area graph and pure nested catalog planner | [bob-cli-ln.2](bob-cli-ln.2.md) | 2026-11-14 19:10:11 EST |

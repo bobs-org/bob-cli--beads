@@ -28,7 +28,7 @@ Every area note with sub-areas, and the root note `[[area]]` resolves to (today 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ln.1](bob-cli-ln.1.md) | Shared catalog engine - AREAS spec, placement order, heading adoption, capture guard | ✓ closed | medium | 2026-11-14 | 1 | 1 |
-| [bob-cli-ln.2](bob-cli-ln.2.md) | Area graph and pure catalog planner | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
+| [bob-cli-ln.2](bob-cli-ln.2.md) | Area graph and pure catalog planner | ◐ in_progress | medium | 2026-11-14 | 1 | 1 |
 | [bob-cli-ln.3](bob-cli-ln.3.md) | bob areas list and check | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
 | [bob-cli-ln.4](bob-cli-ln.4.md) | bob areas sync, nightly step, and Highlights coverage | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
 | [bob-cli-ln.5](bob-cli-ln.5.md) | bob-ledger-tools Areas card shell | ◐ in_progress | medium | 2026-11-14 | 1 | 0 |
@@ -68,7 +68,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ln.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.1/README.md) | [bob-cli-ln.1](bob-cli-ln.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ln.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.2/README.md) | [bob-cli-ln.2](bob-cli-ln.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ln.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ln.2.md) | [bob-cli-ln.2](bob-cli-ln.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ln.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.3/README.md) | [bob-cli-ln.3](bob-cli-ln.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ln.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.4/README.md) | [bob-cli-ln.4](bob-cli-ln.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ln.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.5/README.md) | [bob-cli-ln.5](bob-cli-ln.5.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`13fdf78`](https://github.com/bobs-org/bob-cli/commit/13fdf78d201c696cb0501c1b6b60c45246db1b45) | feat(areas): shared catalog engine for generated Areas catalogs | [bob-cli-ln.1](bob-cli-ln.1.md) | 2026-11-14 17:15:25 EST |
+| bob-cli | [`719dbd4`](https://github.com/bobs-org/bob-cli/commit/719dbd45cbf4eaf21cdf96bd3f46eaa6da2c5974) | feat(areas): validated area graph and pure nested catalog planner | [bob-cli-ln.2](bob-cli-ln.2.md) | 2026-11-14 19:10:11 EST |
