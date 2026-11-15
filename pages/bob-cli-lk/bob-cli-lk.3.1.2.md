@@ -18,7 +18,7 @@ reopen-plan: implement the pure local reopen planner over staged vault snapshots
 ## Dependencies
 
 - **Depends on:** [bob-cli-lk.3.1.1](bob-cli-lk.3.1.1.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lk.3.1.3](bob-cli-lk.3.1.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lk.3.1.3](bob-cli-lk.3.1.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 

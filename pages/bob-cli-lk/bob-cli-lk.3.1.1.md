@@ -18,7 +18,7 @@ closed-reply-read: add validated reopen config, account-scoped activity state, c
 ## Dependencies
 
 - **Blocks:** [bob-cli-lk.3.1.2](bob-cli-lk.3.1.2.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-lk.3.1.3](bob-cli-lk.3.1.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-lk.3.1.3](bob-cli-lk.3.1.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
