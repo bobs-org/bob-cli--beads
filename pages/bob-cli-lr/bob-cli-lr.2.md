@@ -20,7 +20,7 @@ marked-rows: render the mark at the front of the Google-owned title span through
 ## Dependencies
 
 - **Depends on:** [bob-cli-lr.1](bob-cli-lr.1.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lr.4](bob-cli-lr.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lr.4](bob-cli-lr.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
