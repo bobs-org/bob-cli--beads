@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ln.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.5/README.md) | [bob-cli-ln.5](bob-cli-ln.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ln.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.6/README.md) | [bob-cli-ln.6](bob-cli-ln.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ln.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.7/README.md) | [bob-cli-ln.7](bob-cli-ln.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ln.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.land/README.md) | [bob-cli-ln](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ln.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.land/README.md) | [bob-cli-ln](README.md) | 2 |
 
 ## Commits
 
@@ -94,3 +94,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5023787`](https://github.com/bobs-org/bob-plugins/commit/5023787e4064941477fdf0d7cc78f8fbd5db8a48) | fix(areas): bound failed refresh retries and restore card icon | [bob-cli-ln.5](bob-cli-ln.5.md) | 2026-11-15 06:08:39 EST |
 | bob-plugins | [`bob-plugins@3a41a3e`](https://github.com/bobs-org/bob-plugins/commit/3a41a3e901edac12252458d074e2655225e5b190) | feat(areas): add Areas card folds, chips, tooltips, and add-summary | [bob-cli-ln.6](bob-cli-ln.6.md) | 2026-11-15 06:37:34 EST |
 | bob-cli | [`86ec139`](https://github.com/bobs-org/bob-cli/commit/86ec139cf1c114754dc1db698c960f912aa272f6) | fix(areas): land Areas catalogs epic with command-count, glossary, and catalog docs fixes | [bob-cli-ln](README.md) | 2026-11-15 07:21:59 EST |
+| bob-cli--plans | [`bob-cli--plans@33f7ee8`](https://github.com/bobs-org/bob-cli--plans/commit/33f7ee882003ca22227d3827c7ff44629d9391a3) | chore(plans): mark areas\_catalog plan done after bob-cli-ln landing | [bob-cli-ln](README.md) | 2026-11-15 07:22:59 EST |
