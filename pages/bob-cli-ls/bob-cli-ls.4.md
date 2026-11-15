@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [bob-cli-ls](README.md) / bob-cli-ls.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1cp](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1cp.md) · **Assignee:** `bob-cli-ls.4` · **Size:** medium
-**Created:** 2026-11-15 13:11:21 EST
+**Created:** 2026-11-15 13:11:21 EST · **Closed:** 2026-11-15 18:28:40 EST
 **Plan:** [202611/bank\_subscriptions\_album.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_subscriptions_album.md)
 
 ## Description
 
 import: insert the subscription tier into import naming (rule, subscription, learned without subscription links, restaurant), fill in payee and category, and add the import summary line.
+
+## Notes
+
+[2026-11-15T23:28:23Z · bob-cli-ls.4] PROPOSED FOLLOW-UP: docs-check lint fails on docs/reference/plugins/bob-ledger-tools.md over budget (6055 words, cap 6000); reproduces identically on clean base tree, unrelated to import changes
+
+[2026-11-15T23:28:40Z · bob-cli-ls.4] Import links new rows to subscriptions: 5-tier naming (rule>subscription>learned-filtered>builtin>cleaned), payee=record_title, category fill-down with declared incl hidden, link precedence with stale learned filtering, plus 🔁 summary line and JSON subscriptions counts. Verified: cargo fmt clean, clippy pass, 236 bank tests pass, full workspace tests pass, 4 new focused tests pass. docs-check failure pre-existing (bob-ledger-tools.md over budget, reproduces on clean tree).
 
 ## Dependencies
 

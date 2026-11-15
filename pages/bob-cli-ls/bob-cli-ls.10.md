@@ -14,7 +14,7 @@ acceptance: prove the delivered system on the real vault, keep the vault candida
 ## Dependencies
 
 - **Depends on:** [bob-cli-ls.3](bob-cli-ls.3.md) ✓ · ⧖ 2026-11-15
-- **Depends on:** [bob-cli-ls.4](bob-cli-ls.4.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-ls.4](bob-cli-ls.4.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ls.9](bob-cli-ls.9.md) ◐ · ⧖ 2026-11-15
 
 ## Agents

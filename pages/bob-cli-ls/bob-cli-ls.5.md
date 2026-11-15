@@ -11,6 +11,10 @@
 
 check: report charged-after-cancel, still-charging, price-change, candidate, invalid-needle, overlap, and unknown-category findings, with paste-ready fixes. A bank rule doubles as a candidate's dismissal.
 
+## Notes
+
+[2026-11-15T23:29:12Z · bob-cli-ls.5] PROPOSED FOLLOW-UP: Restore docs/reference/plugins/bob-ledger-tools.md below the 6,000-word cap (already tracked by bob-cli-il) — just docs-check reports 6,055 words on this phase and reproduces the identical failure on clean HEAD 055f9b6e, so no duplicate task is needed.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ls.2](bob-cli-ls.2.md) ✓ · ⧖ 2026-11-15
@@ -20,4 +24,4 @@ check: report charged-after-cancel, still-charging, price-change, candidate, inv
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ls.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.5/README.md) | [bob-cli-ls.5](bob-cli-ls.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-ls.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.5.md) | [bob-cli-ls.5](bob-cli-ls.5.md) | 0 |
