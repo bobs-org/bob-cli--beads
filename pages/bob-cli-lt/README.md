@@ -27,7 +27,7 @@ bank.md's nested bank: mapping renders on the hub as a calm, honest Setup header
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-lt.1](bob-cli-lt.1.md) | The bob bank config report and located diagnostics | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lt.1](bob-cli-lt.1.md) | The bob bank config report and located diagnostics | ◐ in_progress | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.2](bob-cli-lt.2.md) | Shared YAML span primitives and the bank entry editor | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.3](bob-cli-lt.3.md) | The Setup header on the bank hub | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-lt.4](bob-cli-lt.4.md) | bob bank config update with category and group ops | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
@@ -72,7 +72,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-lt.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.1/README.md) | [bob-cli-lt.1](bob-cli-lt.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.1.md) | [bob-cli-lt.1](bob-cli-lt.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.2.md) | [bob-cli-lt.2](bob-cli-lt.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-lt.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.4/README.md) | [bob-cli-lt.4](bob-cli-lt.4.md) | 0 |
@@ -87,3 +87,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bd9c4c1`](https://github.com/bobs-org/bob-cli/commit/bd9c4c13e7a6a1f64f57baff735f05834f9f8bb1) | feat(bank): extract YAML span primitives and add a bank config editor | [bob-cli-lt.2](bob-cli-lt.2.md) | 2026-11-15 14:30:49 EST |
+| bob-cli | [`248befd`](https://github.com/bobs-org/bob-cli/commit/248befdde6b414552b6373799496b1594cad5cba) | feat(bank): add read-only config report | [bob-cli-lt.1](bob-cli-lt.1.md) | 2026-11-15 15:46:31 EST |
