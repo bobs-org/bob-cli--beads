@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-lk.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.3.1.2/README.md) | [bob-cli-lk.3.1.2](bob-cli-lk.3.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lk.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.1.3.md) | [bob-cli-lk.3.1.3](bob-cli-lk.3.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-lk.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.1.4.md) | [bob-cli-lk.3.1.4](bob-cli-lk.3.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-lk.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.1.land.md) | [bob-cli-lk.3.1](bob-cli-lk.3.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-lk.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-lk.3.1.land.md) | [bob-cli-lk.3.1](bob-cli-lk.3.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-lk.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-lk.land/README.md) | [bob-cli-lk](README.md) | 0 |
 
 ## Commits
@@ -85,3 +85,4 @@ flowchart TD
 | bob-cli | [`88fb9cb`](https://github.com/bobs-org/bob-cli/commit/88fb9cb46f345a6c4a4d1d41a1cbaf6826355742) | fix(gmail): reopen synced messages | [bob-cli-lk.3.1.3](bob-cli-lk.3.1.3.md) | 2026-11-14 18:46:15 EST |
 | bob-cli | [`ff272bc`](https://github.com/bobs-org/bob-cli/commit/ff272bc6758d643caebe1fa607fd1ecc14fabb0c) | feat(gmail): finish reply-reopen reports, docs and regression coverage | [bob-cli-lk.3.1.4](bob-cli-lk.3.1.4.md) | 2026-11-14 20:05:23 EST |
 | bob-cli | [`92f5d1c`](https://github.com/bobs-org/bob-cli/commit/92f5d1c81d93a72a26cf96c4cad8ba72fa01328e) | fix(gmail): make reply reopen recovery ownership-safe | [bob-cli-lk.3.1](bob-cli-lk.3.1.md) | 2026-11-14 21:57:34 EST |
+| bob-cli--plans | [`bob-cli--plans@81221f8`](https://github.com/bobs-org/bob-cli--plans/commit/81221f8d4237102a8581b22222f6268fa97908a4) | docs(plans): mark Gmail reopen plans done | [bob-cli-lk.3.1](bob-cli-lk.3.1.md) | 2026-11-14 21:58:41 EST |
