@@ -13,7 +13,7 @@ areas-memory: record the nested-forest decision and teach the Area Note glossary
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ln.4](bob-cli-ln.4.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-ln.4](bob-cli-ln.4.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 

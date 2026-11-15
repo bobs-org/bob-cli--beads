@@ -13,11 +13,11 @@ areas-card: in bob-plugins, add the display-only `[!areas]` card - report servic
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ln.3](bob-cli-ln.3.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [bob-cli-ln.3](bob-cli-ln.3.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [bob-cli-ln.6](bob-cli-ln.6.md) ◐ · ⧖ 2026-11-14
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ln.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ln.5/README.md) | [bob-cli-ln.5](bob-cli-ln.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ln.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ln.5.md) | [bob-cli-ln.5](bob-cli-ln.5.md) | 0 |

@@ -18,7 +18,7 @@ areas-graph: retain the root note's bytes in the vault snapshot, build the valid
 ## Dependencies
 
 - **Depends on:** [bob-cli-ln.1](bob-cli-ln.1.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [bob-cli-ln.3](bob-cli-ln.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [bob-cli-ln.3](bob-cli-ln.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
