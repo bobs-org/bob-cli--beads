@@ -42,7 +42,9 @@ linker: add the slash picker, the context strip, and the New subscription sheet 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ls.8--1][1] | Need the phase scope, design, decisions, and prior work notes before resuming deployment | 2 |
+| read-by | [agent:bob-cli-ls.9][2] | See whether linker unit test registration was already proposed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.8.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.9/README.md
 
 <!-- sase:referenced-by:end -->

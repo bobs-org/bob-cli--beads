@@ -23,7 +23,7 @@ surfaces: draw the per-record header strip with its charge timeline, the album s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ls.10](bob-cli-ls.10.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.10](bob-cli-ls.10.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ls.6](bob-cli-ls.6.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ls.8](bob-cli-ls.8.md) ✓ · ⧖ 2026-11-15
 
@@ -38,3 +38,15 @@ surfaces: draw the per-record header strip with its charge timeline, the album s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@cb885ca`](https://github.com/bobs-org/bob-plugins/commit/cb885cad16ccf013466b5b1ee8ebe89c7d75834c) | feat(bank): add subscription header strip and album summary card | [bob-cli-ls.9](bob-cli-ls.9.md) | 2026-11-15 21:43:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ls.9][1] | Need the phase scope, design file, and epic DECISIONS before implementing subscription surfaces | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.9/README.md
+
+<!-- sase:referenced-by:end -->

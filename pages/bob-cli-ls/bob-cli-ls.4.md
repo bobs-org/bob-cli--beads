@@ -19,7 +19,7 @@ import: insert the subscription tier into import naming (rule, subscription, lea
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ls.10](bob-cli-ls.10.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.10](bob-cli-ls.10.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ls.2](bob-cli-ls.2.md) ✓ · ⧖ 2026-11-15
 
 ## Agents

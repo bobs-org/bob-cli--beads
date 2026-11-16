@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-ls
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1cp](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1cp.md) · **Assignee:** `bob-cli-ls.land`
-**Created:** 2026-11-15 13:11:21 EST
+**Created:** 2026-11-15 13:11:21 EST · **Closed:** 2026-11-16 00:52:36 EST
 **Plan:** [202611/bank\_subscriptions\_album.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_subscriptions_album.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/bank_subscriptions_album.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-m3][2] | Subscriptions album epic: owns candidate findings, the proposal JSON, and the Category-card linker this action extends |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_subscriptions_album.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-m3/README.md
 
 <!-- sase:links:end -->
 
@@ -29,12 +31,25 @@ A 🔁 Subscriptions album under bank holds every discretionary recurring charge
 
 [2026-11-16T01:13:27Z · 1cv--1] DISCOVERED ISSUE: kr closeout check and source build on clean bob-cli 893bd2af failed E0061 at check_subscriptions.rs:58 and test line 1105 because compute_ledger gained config/raw_descs arguments. Evidence file:explicit:afa1a0e6e83c8ef403056363. This is already repaired by f252f185 (bank subscriptions report); this checkout fast-forwarded to 7729a962 for final verification. No new task.
 
+[2026-11-16T03:56:31Z · bob-cli-ls.land] LAND TRIAGE (bob-cli-ls.land) of every child PROPOSED FOLLOW-UP:
+(1) ls.3 #1, legacy_eat duplicate block IDs: not caused by this epic. Corroborated existing bob-cli-kz with +1.
+(2) ls.7 #2 and ls.9 #2, Live Preview 200-link wall-clock flakes: not caused by this epic. Corroborated bob-cli-km, bob-cli-ki, and bob-cli-ju with +1 each.
+(3) ls.9 #1, linker test file not registered in package.json test:unit: caused by ls.8. Kept as epic work in the landing tale.
+(4) ls.4 #1, ls.5 #1, ls.6 #1, ls.7 #1, ls.8 #1, ls.9 #3, ls.10 #1, bob-ledger-tools.md over the 6000-word cap: partly caused by this epic. Chips, linker, and surfaces added about 226 words (6055 -> 6281), and lt.8 brought the page to 6302. The landing tale trims the page to 6000 words or fewer, as earlier landers did. No new task; bob-cli-il keeps its separate 300-word headroom goal.
+(5) Lander-discovered, not caused by this epic: dismissing a candidate through bob-cli-lt's guarded rule.add writer. Filed feature bob-cli-m3 (medium, ready).
+Declined:
+- LedgerSnapshot.diagnostics (amount overflow, link/row-id ambiguity) and non-amount record_invalid diagnostics never reach bank check. The plan's findings table defines no code for them, schema errors already surface in bob records check and bob albums check, and ambiguous links surface as bank_subscription_overlap.
+- 'bob bank subscriptions -a leaves the JSON list unchanged' is deliberate: JSON is the full data source for the plugin surfaces.
+- 'the linker picker cannot show cancelled records' is a false alarm: the JSON always lists every record.
+
+[2026-11-16T05:52:36Z · bob-cli-ls.land--2] Parts A-C land verified. just check green (lib 7215 pass, cli 3687 pass; one zsh-adapter load flake passes in isolation). docs lint green: json-outputs 5999 words, ledger-tools plugin page 5998 words, both under the 6000 cap; one pre-existing docs unit-test failure (capture-token coverage, fails identically on the clean tree, unrelated to this plan). Plugin full-suite wall-clock flakes green in isolation with tracked beads cited: event-link-times km 23/23, frees-marks io 17/17, keep-moving-surface ki 14/14, off-clock-chips ju 56/56. Vault read-only: bank check 0 findings with 0 errors/0 warnings; bank subscriptions 28 records with 0 errors/0 warnings and 0 findings; bank list -a 11 rows with 0 waiting and 2 subscription rows both carrying latest. Integrations 10 (bank membership line, usage, snapshots, docs) and 11 (category.remove counts subscription records, refuses with category_in_use, missing album allows removal) done with tests. No just symvision recipe defined. No epic-symbol entries.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ls.1](bob-cli-ls.1.md) | Seed the album from a reviewed bank history | ✓ closed | medium | 2026-11-15 | 1 | 0 |
-| [bob-cli-ls.10](bob-cli-ls.10.md) | Vault acceptance, memory, and closing bob-cli-kt | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-ls.10](bob-cli-ls.10.md) | Vault acceptance, memory, and closing bob-cli-kt | ✓ closed | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-ls.2](bob-cli-ls.2.md) | Subscription registry, match resolver, and ledger | ✓ closed | large | 2026-11-15 | 1 | 0 |
 | [bob-cli-ls.3](bob-cli-ls.3.md) | Retire old\_recur.md into a legacy\_recur notebook | ✓ closed | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-ls.4](bob-cli-ls.4.md) | Import links new rows to their subscription | ✓ closed | medium | 2026-11-15 | 1 | 1 |
@@ -48,9 +63,9 @@ A 🔁 Subscriptions album under bank holds every discretionary recurring charge
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-ls: Subscriptions album: records that know how they show up on the statement [in_progress]"]
+    n0["bob-cli-ls: Subscriptions album: records that know how they show up on the statement [closed]"]
     n1["bob-cli-ls.1: Seed the album from a reviewed bank history [closed]"]
-    n2["bob-cli-ls.10: Vault acceptance, memory, and closing bob-cli-kt [in_progress]"]
+    n2["bob-cli-ls.10: Vault acceptance, memory, and closing bob-cli-kt [closed]"]
     n3["bob-cli-ls.2: Subscription registry, match resolver, and ledger [closed]"]
     n4["bob-cli-ls.2.1: Subscription registry, attribution, and ledger core [closed]"]
     n5["bob-cli-ls.2.1.1: Typed subscription registry and deterministic matching [closed]"]
@@ -113,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ls.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.7/README.md) | [bob-cli-ls.7](bob-cli-ls.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.8.md) | [bob-cli-ls.8](bob-cli-ls.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.9/README.md) | [bob-cli-ls.9](bob-cli-ls.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-ls.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.land/README.md) | [bob-cli-ls](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-ls.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.land.md) | [bob-cli-ls](README.md) | 1 |
 
 ## Commits
 
@@ -129,6 +144,7 @@ flowchart TD
 | bob-cli | [`f252f18`](https://github.com/bobs-org/bob-cli/commit/f252f1856abc3ef2f12c6e7555f7c6964b484979) | feat(bank): add bank subscriptions report command | [bob-cli-ls.6](bob-cli-ls.6.md) | 2026-11-15 19:52:02 EST |
 | bob-plugins | [`bob-plugins@a6eaea6`](https://github.com/bobs-org/bob-plugins/commit/a6eaea6601cbd9c891d34ab6f49e8b55697cb8c5) | feat(bank): link subscriptions from the Category card | [bob-cli-ls.8](bob-cli-ls.8.md) | 2026-11-15 20:58:39 EST |
 | bob-plugins | [`bob-plugins@cb885ca`](https://github.com/bobs-org/bob-plugins/commit/cb885cad16ccf013466b5b1ee8ebe89c7d75834c) | feat(bank): add subscription header strip and album summary card | [bob-cli-ls.9](bob-cli-ls.9.md) | 2026-11-15 21:43:22 EST |
+| bob-cli | [`5dec7c5`](https://github.com/bobs-org/bob-cli/commit/5dec7c52c22729c2a566cb7ea178859943eb2e93) | fix(bank): land subscription gaps from the landing review | [bob-cli-ls](README.md) | 2026-11-16 01:06:31 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -139,9 +155,11 @@ flowchart TD
 | read-by | [agent:1cv--1][1] | Inspect exact scope and prior evidence for unrelated check failures | 2 |
 | read-by | [agent:bob-cli-lr.land][2] | Check whether bank subscription registry dead code breaking just check on master is tracked in-flight work | 1 |
 | read-by | [agent:bob-cli-ls.7][3] | Need parent epic DECISIONS and overall design | 1 |
+| read-by | [agent:bob-cli-ls.9][4] | Need parent epic scope, phase list, and land requirements for subscriptions album | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1cv.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lr.land/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.7/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.9/README.md
 
 <!-- sase:referenced-by:end -->

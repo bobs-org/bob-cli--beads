@@ -20,7 +20,7 @@ legacy: move the Zorg table into a legacy_recur notebook under cash, keep every 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ls.1](bob-cli-ls.1.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.10](bob-cli-ls.10.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.10](bob-cli-ls.10.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
