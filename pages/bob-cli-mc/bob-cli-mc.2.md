@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:b79ef7c12eaaec467009169b | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -60,8 +60,10 @@ actions: execute focus-tab plans losslessly (load if deferred, session check, se
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mc.2][1] | Need full notes, decisions, design, and remaining work | 7 |
 | read-by | [agent:bob-cli-mc.3][2] | Need actions phase status to avoid conflicts | 1 |
+| read-by | [agent:bob-cli-mc.4][3] | Need GO LIVE e2e run pattern from closed actions phase | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md
 
 <!-- sase:referenced-by:end -->

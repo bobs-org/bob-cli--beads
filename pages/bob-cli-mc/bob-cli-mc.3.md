@@ -41,7 +41,9 @@ paint: build the dormant tab-numeral stamper and CSS (idle, lit, here, flash, st
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mc.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-mc.4][2] | Need paint-phase notes for stamper and card seams | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md
 
 <!-- sase:referenced-by:end -->

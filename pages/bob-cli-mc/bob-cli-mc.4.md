@@ -18,6 +18,8 @@
 | related | file:explicit:2b653daca9b7a99760fa4c25 | attached via sase artifact create --bead |
 | related | file:explicit:53c812ebb3141af90edcb666 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -34,7 +36,7 @@ prefix: wire digits into the Ctrl+W state machine with an armed-catalog freeze, 
 
 - **Depends on:** [bob-cli-mc.2](bob-cli-mc.2.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [bob-cli-mc.3](bob-cli-mc.3.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mc.5](bob-cli-mc.5.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mc.5](bob-cli-mc.5.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -47,3 +49,15 @@ prefix: wire digits into the Ctrl+W state machine with an armed-catalog freeze, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@91e9097`](https://github.com/bobs-org/bob-plugins/commit/91e909791a86fa30bba0b8b11c712e03a80e4dd4) | feat(navigation): ship Ctrl+W numbered tab jump 2.85.0 | [bob-cli-mc.4](bob-cli-mc.4.md) | 2026-11-16 13:04:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mc.4][1] | Need full description, notes, design file, and DECISIONS | 8 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md
+
+<!-- sase:referenced-by:end -->

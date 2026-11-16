@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/obsidian_ctrl_w_numbered_tab_jump.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_ctrl_w_numbered_tab_jump.md
 
@@ -33,7 +33,7 @@ In Bob's Obsidian, every main-area tab carries a quiet numeral (1–9, in readin
 | [bob-cli-mc.2](bob-cli-mc.2.md) | In-place tab-jump executor | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mc.3](bob-cli-mc.3.md) | Tab numerals, card tabs row, and previews | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mc.4](bob-cli-mc.4.md) | Digits in the Ctrl+W prefix, palette commands, go live | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [bob-cli-mc.5](bob-cli-mc.5.md) | Docs, visual acceptance, and polish | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mc.5](bob-cli-mc.5.md) | Docs, visual acceptance, and polish | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["bob-cli-mc.2: In-place tab-jump executor [closed]"]
     n3["bob-cli-mc.3: Tab numerals, card tabs row, and previews [closed]"]
     n4["bob-cli-mc.4: Digits in the Ctrl+W prefix, palette commands, go live [closed]"]
-    n5["bob-cli-mc.5: Docs, visual acceptance, and polish [in_progress]"]
+    n5["bob-cli-mc.5: Docs, visual acceptance, and polish [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md) | [bob-cli-mc.2](bob-cli-mc.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md) | [bob-cli-mc.3](bob-cli-mc.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md) | [bob-cli-mc.4](bob-cli-mc.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.5/README.md) | [bob-cli-mc.5](bob-cli-mc.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mc.5.md) | [bob-cli-mc.5](bob-cli-mc.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.land/README.md) | [bob-cli-mc](README.md) | 0 |
 
 ## Commits
@@ -76,6 +76,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@b61b55c`](https://github.com/bobs-org/bob-plugins/commit/b61b55cc6b7e7fd321398b5f5a4930278183fa85) | feat(navigation): add in-place tab-jump executor | [bob-cli-mc.2](bob-cli-mc.2.md) | 2026-11-16 12:02:05 EST |
 | bob-plugins | [`bob-plugins@6b5a7b3`](https://github.com/bobs-org/bob-plugins/commit/6b5a7b3b5793120b44d76dfec6389cf8282e1ed2) | feat(navigation): paint dormant tab numerals, card tabs row, and previews | [bob-cli-mc.3](bob-cli-mc.3.md) | 2026-11-16 12:19:15 EST |
 | bob-plugins | [`bob-plugins@91e9097`](https://github.com/bobs-org/bob-plugins/commit/91e909791a86fa30bba0b8b11c712e03a80e4dd4) | feat(navigation): ship Ctrl+W numbered tab jump 2.85.0 | [bob-cli-mc.4](bob-cli-mc.4.md) | 2026-11-16 13:04:58 EST |
+| bob-plugins | [`bob-plugins@cf25d60`](https://github.com/bobs-org/bob-plugins/commit/cf25d6027c57f3d68065c79de245f99afd751129) | feat(navigation): add numbered tab focus hints | [bob-cli-mc.5](bob-cli-mc.5.md) | 2026-11-16 14:06:52 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -86,9 +87,11 @@ flowchart TD
 | read-by | [agent:bob-cli-mc.1][1] | Need the parent epic's final decisions before implementation | 1 |
 | read-by | [agent:bob-cli-mc.2][2] | Need epic DECISIONS before closing the actions phase | 2 |
 | read-by | [agent:bob-cli-mc.3][3] | Need epic full description DECISIONS plan link | 2 |
+| read-by | [agent:bob-cli-mc.4][4] | Need epic DECISIONS that the prefix phase must honor | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md
 
 <!-- sase:referenced-by:end -->
