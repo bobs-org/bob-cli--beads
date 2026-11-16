@@ -13,7 +13,7 @@ mac-video-card: count videos in the clip header, show size_bytes, and render a c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mj.1](bob-cli-mj.1.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mj.1](bob-cli-mj.1.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

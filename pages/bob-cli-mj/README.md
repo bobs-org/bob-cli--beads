@@ -27,8 +27,8 @@ With a video path on the clipboard, `%c` embeds the clip under the new task as `
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-mj.1](bob-cli-mj.1.md) | bob-cli: the video attachment kind | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
-| [bob-cli-mj.2](bob-cli-mj.2.md) | bob-plugins: the VideoZoomModal player | ✓ closed | medium | 2026-11-16 | 1 | 1 |
+| [bob-cli-mj.1](bob-cli-mj.1.md) | bob-cli: the video attachment kind | ✓ closed | medium | 2026-11-16 | 1 | 1 |
+| [bob-cli-mj.2](bob-cli-mj.2.md) | bob-plugins: the VideoZoomModal player | ✓ closed | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mj.3](bob-cli-mj.3.md) | bob-cli: streamed copies and sync guards for every attachment | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mj.4](bob-cli-mj.4.md) | bob-plugins: Z dispatches videos, imports video paths, sizes inline clips | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mj.5](bob-cli-mj.5.md) | bob-mac-capture: videos in the clip card | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
@@ -39,7 +39,7 @@ With a video path on the clipboard, `%c` embeds the clip under the new task as `
 ```mermaid
 flowchart TD
     n0["bob-cli-mj: Video attachments: %c embeds clips and Z plays them [in_progress]"]
-    n1["bob-cli-mj.1: bob-cli: the video attachment kind [in_progress]"]
+    n1["bob-cli-mj.1: bob-cli: the video attachment kind [closed]"]
     n2["bob-cli-mj.2: bob-plugins: the VideoZoomModal player [closed]"]
     n3["bob-cli-mj.3: bob-cli: streamed copies and sync guards for every attachment [in_progress]"]
     n4["bob-cli-mj.4: bob-plugins: Z dispatches videos, imports video paths, sizes inline clips [in_progress]"]
@@ -62,8 +62,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.1/README.md) | [bob-cli-mj.1](bob-cli-mj.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-mj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.2/README.md) | [bob-cli-mj.2](bob-cli-mj.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-mj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.1/README.md) | [bob-cli-mj.1](bob-cli-mj.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-mj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.2/README.md) | [bob-cli-mj.2](bob-cli-mj.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-mj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.3/README.md) | [bob-cli-mj.3](bob-cli-mj.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-mj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.4/README.md) | [bob-cli-mj.4](bob-cli-mj.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-mj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.5/README.md) | [bob-cli-mj.5](bob-cli-mj.5.md) | 0 |
@@ -74,4 +74,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@32d7e11`](https://github.com/bobs-org/bob-plugins/commit/32d7e11ccf78751d33f11ab744976e91cdc9a042) | feat(navigation): add VideoZoomModal player with media hooks | [bob-cli-mj.2](bob-cli-mj.2.md) | 2026-11-16 17:57:31 EST |
+| bob-cli | [`ff563eb`](https://github.com/bobs-org/bob-cli/commit/ff563ebd884836da71209ca601bbdc3409b10c1e) | feat(capture)!: embed clipboard videos from vid/ | [bob-cli-mj.1](bob-cli-mj.1.md) | 2026-11-16 18:33:26 EST |

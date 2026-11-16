@@ -13,7 +13,7 @@ cli-guards: stream attachment hashing and copying (no whole-file buffers, abort 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mj.1](bob-cli-mj.1.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mj.1](bob-cli-mj.1.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

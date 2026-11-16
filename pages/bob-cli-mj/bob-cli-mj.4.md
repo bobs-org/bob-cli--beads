@@ -13,7 +13,7 @@ plugin-z-dispatch: teach the Z resolver and path-bullet import about the video c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mj.1](bob-cli-mj.1.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mj.1](bob-cli-mj.1.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [bob-cli-mj.2](bob-cli-mj.2.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mj.6](bob-cli-mj.6.md) ◐ · ⧖ 2026-11-16
 
