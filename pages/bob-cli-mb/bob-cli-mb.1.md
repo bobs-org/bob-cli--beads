@@ -19,7 +19,7 @@ cli-archive-scope: give `note_catalog` one shared path-tier predicate (living, a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mb.2](bob-cli-mb.2.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mb.2](bob-cli-mb.2.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mb.4](bob-cli-mb.4.md) ◐ · ⧖ 2026-11-16
 
 ## Agents
@@ -33,3 +33,15 @@ cli-archive-scope: give `note_catalog` one shared path-tier predicate (living, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`430162f`](https://github.com/bobs-org/bob-cli/commit/430162f5716f93cf64b846dde5572e745b4013f3) | feat(note-catalog): add archive tiers to note goto | [bob-cli-mb.1](bob-cli-mb.1.md) | 2026-11-16 11:07:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mb.1][1] | Need the phase scope and design file; checking earlier work before continuing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.1/README.md
+
+<!-- sase:referenced-by:end -->
