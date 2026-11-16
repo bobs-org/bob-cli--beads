@@ -20,7 +20,7 @@ check: report charged-after-cancel, still-charging, price-change, candidate, inv
 ## Dependencies
 
 - **Depends on:** [bob-cli-ls.2](bob-cli-ls.2.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.6](bob-cli-ls.6.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.6](bob-cli-ls.6.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -33,3 +33,15 @@ check: report charged-after-cancel, still-charging, price-change, candidate, inv
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cfd4548`](https://github.com/bobs-org/bob-cli/commit/cfd4548a2cd60a165fdbdc67bd0472e2d6968343) | feat(bank): add native bank checks and subscription registry | [bob-cli-ls.5](bob-cli-ls.5.md) | 2026-11-15 18:48:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ls.5--1][1] | Need the phase scope, design file, notes, and epic decisions before final verification and close | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.5.md
+
+<!-- sase:referenced-by:end -->

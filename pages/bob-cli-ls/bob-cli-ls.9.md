@@ -14,7 +14,7 @@ surfaces: draw the per-record header strip with its charge timeline, the album s
 ## Dependencies
 
 - **Blocks:** [bob-cli-ls.10](bob-cli-ls.10.md) ◐ · ⧖ 2026-11-15
-- **Depends on:** [bob-cli-ls.6](bob-cli-ls.6.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-ls.6](bob-cli-ls.6.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ls.8](bob-cli-ls.8.md) ◐ · ⧖ 2026-11-15
 
 ## Agents

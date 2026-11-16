@@ -13,7 +13,7 @@ linker: add the slash picker, the context strip, and the New subscription sheet 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ls.6](bob-cli-ls.6.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-ls.6](bob-cli-ls.6.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ls.7](bob-cli-ls.7.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-ls.9](bob-cli-ls.9.md) ◐ · ⧖ 2026-11-15
 
