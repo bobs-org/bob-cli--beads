@@ -20,7 +20,7 @@ cli-note-goto: claim whole-draft `//query` as `note_goto` across parse, refusal,
 ## Dependencies
 
 - **Depends on:** [bob-cli-ly.1](bob-cli-ly.1.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ly.4](bob-cli-ly.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ly.4](bob-cli-ly.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

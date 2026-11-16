@@ -19,7 +19,7 @@ mac-note-core: decode the note_goto contract, add the `.noteGoto` source, a note
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ly.4](bob-cli-ly.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ly.4](bob-cli-ly.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

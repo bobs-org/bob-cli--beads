@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ly](README.md) / bob-cli-ly.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1cr](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1cr.md) · **Assignee:** `bob-cli-ly.4` · **Size:** medium
-**Created:** 2026-11-15 16:47:01 EST
+**Created:** 2026-11-15 16:47:01 EST · **Closed:** 2026-11-16 07:20:48 EST
 **Plan:** [202611/note\_goto\_double\_slash.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/note_goto_double_slash.md)
 
 ## Description
@@ -41,7 +41,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 
 [2026-11-16T11:53:37Z · bob-cli-ly.4--2] Green preflight: monitor m59y80ee7mcg completed successfully (portable-check, scratch Mac bundle and all four test-target typechecks, then Scripts/macos-ci-check). Required macOS lint, build, tests, bundle, si
 
-… and 860 more characters
+… and 1853 more characters
 
 ## Dependencies
 
@@ -72,6 +72,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ly.4--1][1] | Need the assigned phase scope, design path, and epic decisions while recovering the failed exact-SHA Mac CI run | 1 |
+| read-by | [agent:bob-cli-ly.4--2][1] | Review note 13 and phase completion criteria after green macOS preflight | 1 |
 | read-by | [agent:bob-cli-ly.4--4][1] | Review the open Notes picker phase before recording the newly confirmed macOS test-target compile regression and staging verification | 2 |
 | read-by | [agent:bob-cli-ly.4--5][1] | Review the phase bead before recording this second failed macOS CI run and its focused fixture corrections | 1 |
 | read-by | [agent:bob-cli-ly.4--8][1] | Review the phase record before appending the failed watcher and exact-SHA evidence | 1 |
