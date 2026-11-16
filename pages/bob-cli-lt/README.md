@@ -130,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-lt.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.6/README.md) | [bob-cli-lt.6](bob-cli-lt.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-lt.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.7.md) | [bob-cli-lt.7](bob-cli-lt.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.8/README.md) | [bob-cli-lt.8](bob-cli-lt.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-lt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md) | [bob-cli-lt](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-lt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md) | [bob-cli-lt](README.md) | 3 |
 
 ## Commits
 
@@ -147,6 +147,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@99e3410`](https://github.com/bobs-org/bob-plugins/commit/99e34103666e00b5edda98629eb40dc6ce9a7339) | feat(bank): add Accounts, Rules, and Checks to the Bank Setup card | [bob-cli-lt.8](bob-cli-lt.8.md) | 2026-11-15 22:41:08 EST |
 | bob-cli | [`2a6377d`](https://github.com/bobs-org/bob-cli/commit/2a6377dd717726cf9c0b2fc12d072011915f9680) | fix(bank): integrate bank setup writer and config findings with subscriptions | [bob-cli-lt](README.md) | 2026-11-15 23:21:50 EST |
 | bob-plugins | [`bob-plugins@ccdd865`](https://github.com/bobs-org/bob-plugins/commit/ccdd86559283c66aab06c2e2ba872bc6479c1142) | feat(bank): land Setup e2e, scoped hub hide, and docs budget | [bob-cli-lt](README.md) | 2026-11-16 00:59:59 EST |
+| bob-cli--plans | [`bob-cli--plans@ae73186`](https://github.com/bobs-org/bob-cli--plans/commit/ae731865b0bdf1f75068ee0f44760a27418cb942) | docs(plans): mark bank setup epic and landing tale done | [bob-cli-lt](README.md) | 2026-11-16 01:00:36 EST |
 
 <!-- sase:referenced-by:start -->
 
