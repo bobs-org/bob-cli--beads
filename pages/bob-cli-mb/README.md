@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-mb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.3.md) | [bob-cli-mb.3](bob-cli-mb.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-mb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.4.md) | [bob-cli-mb.4](bob-cli-mb.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-mb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.5/README.md) | [bob-cli-mb.5](bob-cli-mb.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-mb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.land.md) | [bob-cli-mb](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-mb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.land.md) | [bob-cli-mb](README.md) | 2 |
 
 ## Commits
 
@@ -82,3 +82,4 @@ flowchart TD
 | bob-cli | [`b73cf56`](https://github.com/bobs-org/bob-cli/commit/b73cf56f5fec9b4de6e95c9e326c6f6970e1d8f6) | feat(capture): prioritize living vault link suggestions | [bob-cli-mb.2](bob-cli-mb.2.md) | 2026-11-16 11:37:03 EST |
 | bob-mac-capture | [`bob-mac-capture@0f43014`](https://github.com/bobs-org/bob-mac-capture/commit/0f43014477912ab037e30d66cbe4a651ef1296c1) | feat(capture): toggle a // archive scope with Command-X | [bob-cli-mb.4](bob-cli-mb.4.md) | 2026-11-16 12:23:46 EST |
 | bob-cli | [`0510aaf`](https://github.com/bobs-org/bob-cli/commit/0510aaf0e997ca97c10919ec21214b362a1b8c12) | docs(capture): document living-first \[\[ suggestions and cover the tier partition | [bob-cli-mb](README.md) | 2026-11-16 13:26:16 EST |
+| bob-cli--plans | [`bob-cli--plans@157934c`](https://github.com/bobs-org/bob-cli--plans/commit/157934c2c2faa6c31ad5e0ac53b7fafb9518044a) | docs(plans): mark 202611/note\_goto\_followups as done | [bob-cli-mb](README.md) | 2026-11-16 13:26:49 EST |
