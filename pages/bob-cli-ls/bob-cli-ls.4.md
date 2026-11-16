@@ -26,4 +26,10 @@ import: insert the subscription tier into import naming (rule, subscription, lea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ls.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.4/README.md) | [bob-cli-ls.4](bob-cli-ls.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-ls.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.4/README.md) | [bob-cli-ls.4](bob-cli-ls.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`219e854`](https://github.com/bobs-org/bob-cli/commit/219e854eab66ef329e1b9a5b21873f98279153f0) | feat(bank): link import rows to subscriptions with summary | [bob-cli-ls.4](bob-cli-ls.4.md) | 2026-11-15 18:59:57 EST |
