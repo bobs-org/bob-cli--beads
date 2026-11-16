@@ -44,9 +44,15 @@ spike: build the window-prefix CDP e2e harness and prove lossless cross-group ta
 | read-by | [agent:bob-cli-m0.1][1] | check remaining work notes | 2 |
 | read-by | [agent:bob-cli-m0.3][2] | Need determine whether the same clean-base npm test failures were already recorded by the earlier phase before adding a follow-up note | 1 |
 | read-by | [agent:bob-cli-m0.5][3] | Need spike verdict and prior-phase notes before implementing prefix | 1 |
+| read-by | [agent:bob-cli-m0.6][4] | Need SPIKE VERDICT for mod-active finding and move call sequences | 1 |
+| read-by | [agent:research.4y.cld][5] | Need the SPIKE VERDICT facts (deferred leaves, focus, tab DOM) to design Ctrl+W N tab jumps | 1 |
+| read-by | [agent:research.4y.gem][6] | Read spike verdict on real Obsidian 1.15.1 tab DOM, WorkspaceTabs, and keyboard precedence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.6/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.4y.cld/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.4y.gem/README.md
 
 <!-- sase:referenced-by:end -->

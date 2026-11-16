@@ -46,7 +46,11 @@ finish: add palette commands and the focused-split underline, document the windo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-m0.5][1] | Need to know whether the finish phase is already editing shared plugin files | 1 |
+| read-by | [agent:bob-cli-m0.6][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:research.4y.cld][3] | Find the visual acceptance screenshots and findings for the shipped Ctrl+W hint to design Ctrl+W N tab hints | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.4y.cld/README.md
 
 <!-- sase:referenced-by:end -->

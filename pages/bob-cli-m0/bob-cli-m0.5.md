@@ -17,7 +17,7 @@
 | related | file:explicit:55d6a09e11f47cb0ecee0a5d | attached via sase artifact create --bead |
 | related | file:explicit:e771d096dd4571d1141e3edb | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -54,7 +54,9 @@ prefix: wire the capture listener, armed keymap scope, arming gate, dispatch, ca
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-m0.5][1] | Need the phase scope, notes, and design file after context compaction | 5 |
+| read-by | [agent:bob-cli-m0.6][2] | Need prefix phase notes for command and underline handoff | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.6/README.md
 
 <!-- sase:referenced-by:end -->
