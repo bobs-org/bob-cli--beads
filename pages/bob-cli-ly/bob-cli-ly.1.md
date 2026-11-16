@@ -19,7 +19,7 @@ cli-note-catalog: build the read-only `note_catalog` module that walks the vault
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ly.2](bob-cli-ly.2.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ly.2](bob-cli-ly.2.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -32,3 +32,15 @@ cli-note-catalog: build the read-only `note_catalog` module that walks the vault
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7729a96`](https://github.com/bobs-org/bob-cli/commit/7729a96220e57a517f749ad08903e1084679238c) | feat(native): add read-only note catalog scan and rank | [bob-cli-ly.1](bob-cli-ly.1.md) | 2026-11-15 20:09:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ly.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.1/README.md
+
+<!-- sase:referenced-by:end -->

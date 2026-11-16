@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/note_goto_double_slash.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/note_goto_double_slash.md
 
 <!-- sase:links:end -->
@@ -32,7 +34,7 @@ Typing a second real `/` after the `/` Go To trigger (or pasting a whole-draft `
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ly.1](bob-cli-ly.1.md) | bob-cli note catalog module (tiers, kinds, rows, map, ranking) | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-ly.2](bob-cli-ly.2.md) | bob-cli \`//\` grammar claim, note\_goto completion, Tasks continuation, docs | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-ly.2](bob-cli-ly.2.md) | bob-cli \`//\` grammar claim, note\_goto completion, Tasks continuation, docs | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-ly.3](bob-cli-ly.3.md) | CaptureCore Notes source, index, row presentation, open URL | ✓ closed | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-ly.4](bob-cli-ly.4.md) | Panel wiring, keys, accept and open, truthful fixtures, Mac docs | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-ly.5](bob-cli-ly.5.md) | No-blink scope swap, warm notes snapshot, accessibility, closeout | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
@@ -43,7 +45,7 @@ Typing a second real `/` after the `/` Go To trigger (or pasting a whole-draft `
 flowchart TD
     n0["bob-cli-ly: Double-slash Go To Notes in Bob Mac Capture [in_progress]"]
     n1["bob-cli-ly.1: bob-cli note catalog module (tiers, kinds, rows, map, ranking) [closed]"]
-    n2["bob-cli-ly.2: bob-cli `//` grammar claim, note_goto completion, Tasks continuation, docs [in_progress]"]
+    n2["bob-cli-ly.2: bob-cli `//` grammar claim, note_goto completion, Tasks continuation, docs [closed]"]
     n3["bob-cli-ly.3: CaptureCore Notes source, index, row presentation, open URL [closed]"]
     n4["bob-cli-ly.4: Panel wiring, keys, accept and open, truthful fixtures, Mac docs [in_progress]"]
     n5["bob-cli-ly.5: No-blink scope swap, warm notes snapshot, accessibility, closeout [in_progress]"]
@@ -63,7 +65,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-ly.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.1/README.md) | [bob-cli-ly.1](bob-cli-ly.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-ly.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.2/README.md) | [bob-cli-ly.2](bob-cli-ly.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-ly.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.2/README.md) | [bob-cli-ly.2](bob-cli-ly.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-ly.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.3.md) | [bob-cli-ly.3](bob-cli-ly.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-ly.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.4/README.md) | [bob-cli-ly.4](bob-cli-ly.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-ly.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.5/README.md) | [bob-cli-ly.5](bob-cli-ly.5.md) | 0 |
@@ -74,3 +76,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7729a96`](https://github.com/bobs-org/bob-cli/commit/7729a96220e57a517f749ad08903e1084679238c) | feat(native): add read-only note catalog scan and rank | [bob-cli-ly.1](bob-cli-ly.1.md) | 2026-11-15 20:09:26 EST |
+| bob-cli | [`fc3d6eb`](https://github.com/bobs-org/bob-cli/commit/fc3d6eb47c9d85e7f5622196faf688016fa800f3) | feat(capture)!: claim whole-draft //query as Go To Notes | [bob-cli-ly.2](bob-cli-ly.2.md) | 2026-11-15 21:06:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ly.1][1] | Need epic plan context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.1/README.md
+
+<!-- sase:referenced-by:end -->

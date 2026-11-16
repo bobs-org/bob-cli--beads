@@ -13,7 +13,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ly.2](bob-cli-ly.2.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-ly.2](bob-cli-ly.2.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ly.3](bob-cli-ly.3.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-ly.5](bob-cli-ly.5.md) ◐ · ⧖ 2026-11-15
 
