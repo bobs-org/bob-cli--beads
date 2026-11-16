@@ -128,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ls.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.7/README.md) | [bob-cli-ls.7](bob-cli-ls.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.8.md) | [bob-cli-ls.8](bob-cli-ls.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.9/README.md) | [bob-cli-ls.9](bob-cli-ls.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-ls.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.land.md) | [bob-cli-ls](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-ls.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.land.md) | [bob-cli-ls](README.md) | 3 |
 
 ## Commits
 
@@ -146,6 +146,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@cb885ca`](https://github.com/bobs-org/bob-plugins/commit/cb885cad16ccf013466b5b1ee8ebe89c7d75834c) | feat(bank): add subscription header strip and album summary card | [bob-cli-ls.9](bob-cli-ls.9.md) | 2026-11-15 21:43:22 EST |
 | bob-cli | [`5dec7c5`](https://github.com/bobs-org/bob-cli/commit/5dec7c52c22729c2a566cb7ea178859943eb2e93) | fix(bank): land subscription gaps from the landing review | [bob-cli-ls](README.md) | 2026-11-16 01:06:31 EST |
 | bob-plugins | [`bob-plugins@0aa5de3`](https://github.com/bobs-org/bob-plugins/commit/0aa5de358ac5052d5a9721bd731150a32aa6e8cd) | fix(bank): land subscription linker, surfaces, and docs cap | [bob-cli-ls](README.md) | 2026-11-16 01:11:30 EST |
+| bob-cli--plans | [`bob-cli--plans@623dd7b`](https://github.com/bobs-org/bob-cli--plans/commit/623dd7bb1bcb9ded60552f3a4034863271cd471a) | chore(plans): mark bank\_subscriptions\_album done | [bob-cli-ls](README.md) | 2026-11-16 01:12:06 EST |
 
 <!-- sase:referenced-by:start -->
 
