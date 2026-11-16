@@ -13,7 +13,7 @@ album-emoji-slot: build the shared Emoji Slot (glyph well, preview chip, and in-
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mf.3](bob-cli-mf.3.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mf.3](bob-cli-mf.3.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [bob-cli-mf.5](bob-cli-mf.5.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mf.7](bob-cli-mf.7.md) ◐ · ⧖ 2026-11-16
 
