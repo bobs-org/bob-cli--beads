@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md) | [bob-cli-mc.3](bob-cli-mc.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md) | [bob-cli-mc.4](bob-cli-mc.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mc.5.md) | [bob-cli-mc.5](bob-cli-mc.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.land/README.md) | [bob-cli-mc](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-mc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.land/README.md) | [bob-cli-mc](README.md) | 2 |
 
 ## Commits
 
@@ -84,6 +84,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@91e9097`](https://github.com/bobs-org/bob-plugins/commit/91e909791a86fa30bba0b8b11c712e03a80e4dd4) | feat(navigation): ship Ctrl+W numbered tab jump 2.85.0 | [bob-cli-mc.4](bob-cli-mc.4.md) | 2026-11-16 13:04:58 EST |
 | bob-plugins | [`bob-plugins@cf25d60`](https://github.com/bobs-org/bob-plugins/commit/cf25d6027c57f3d68065c79de245f99afd751129) | feat(navigation): add numbered tab focus hints | [bob-cli-mc.5](bob-cli-mc.5.md) | 2026-11-16 14:06:52 EST |
 | bob-plugins | [`bob-plugins@2e87723`](https://github.com/bobs-org/bob-plugins/commit/2e87723b13ffb5596e4e106becdfb0c73e31164c) | fix(navigation): land Ctrl+W numbered tab jump 2.85.2 with numbers-hidden card seam and no header scrolling | [bob-cli-mc](README.md) | 2026-11-16 14:56:35 EST |
+| bob-cli--plans | [`bob-cli--plans@ff7a16d`](https://github.com/bobs-org/bob-cli--plans/commit/ff7a16d55b822280caa6139a57961880545318d2) | chore(plans): mark obsidian\_ctrl\_w\_numbered\_tab\_jump done after bob-cli-mc landing | [bob-cli-mc](README.md) | 2026-11-16 14:57:06 EST |
 
 <!-- sase:referenced-by:start -->
 
