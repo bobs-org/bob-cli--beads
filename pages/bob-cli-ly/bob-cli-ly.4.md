@@ -76,7 +76,9 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 | read-by | [agent:bob-cli-ly.4--4][1] | Review the open Notes picker phase before recording the newly confirmed macOS test-target compile regression and staging verification | 2 |
 | read-by | [agent:bob-cli-ly.4--5][1] | Review the phase bead before recording this second failed macOS CI run and its focused fixture corrections | 1 |
 | read-by | [agent:bob-cli-ly.4--8][1] | Review the phase record before appending the failed watcher and exact-SHA evidence | 1 |
+| read-by | [agent:bob-cli-ly.5][2] | Check panel phase notes for bases confirmation evidence | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.5/README.md
 
 <!-- sase:referenced-by:end -->

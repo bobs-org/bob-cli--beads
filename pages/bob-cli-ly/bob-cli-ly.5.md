@@ -11,6 +11,10 @@
 
 mac-note-polish: keep the card mounted across `/` and `//`, serve rows from a warm in-memory snapshot, announce scope changes, run the acceptance closeout, and write the decision strand only when its memory decision says yes.
 
+## Notes
+
+[2026-11-16T13:14:57Z · bob-cli-ly.5] CLOSEOUT (mac-note-polish, commit df08e6f5): card stays mounted across / and // via GotoScopeSwapState (no teardown in continue/peel; budget+selection carried; real response completes+announces, stale presents retire the swap); warm NoteGotoSnapshotStore (fill on first / session, panel show, debounced vault watcher; trust=note_goto context only; never persisted/logged); Loading notes placeholder on empty store; Could not load notes failure card; 120ms ease-out rows+capsule cross-fade, instant under Reduce Motion. Verified: portable-check 2520 tests 0 failures (8 new store tests); mac scratch bundle+typecheck-tests PASS (5 new panel tests); mac docs-check PASS with BOB_CLI_DIR=workspace. PROPOSED FOLLOW-UP: land docs/_meta/search_smoke.yml // double-slash entry (uncommitted in bob-cli workspace) so bob-cli just docs-check and cached-master gates go green; until the train ships it, mac CI docs-check via cached bob-cli master stays red on test_every_capture_token... (pre-existing epic straggler, fails identically on clean base). PROPOSED FOLLOW-UP: task-pickers.md sits at 5999/6000 reference words; next edit must trim or move content to go-to-notes.md. BRYAN MAC CHECKLIST: fast // race <350ms; backslash-then-slash vs double-backslash; open note keeps caret/scroll/Reading mode in split, background tab, Reading view; vault git status clean after opening notes; spaces/unicode/# /& paths; duplicate basenames distinguishable; old-bob Update hint.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ly.4](bob-cli-ly.4.md) ✓ · ⧖ 2026-11-15
@@ -19,10 +23,23 @@ mac-note-polish: keep the card mounted across `/` and `//`, serve rows from a wa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ly.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.5/README.md) | [bob-cli-ly.5](bob-cli-ly.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-ly.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.5/README.md) | [bob-cli-ly.5](bob-cli-ly.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@df08e6f`](https://github.com/bobs-org/bob-mac-capture/commit/df08e6f56fbed7c0a7c944bfa793c7ffdbe2f685) | feat(capture): keep Go To mounted across / and // with a warm notes snapshot | [bob-cli-ly.5](bob-cli-ly.5.md) | 2026-11-16 08:13:39 EST |
+| bob-mac-capture | [`bob-mac-capture@898b821`](https://github.com/bobs-org/bob-mac-capture/commit/898b8215fb6d2b4714a549ed55dd77b5ad1c266e) | fix(capture): route swap responses past the mounted-picker dismissal | [bob-cli-ly.5](bob-cli-ly.5.md) | 2026-11-16 08:46:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ly.5][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.5/README.md
+
+<!-- sase:referenced-by:end -->
