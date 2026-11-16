@@ -13,7 +13,7 @@ finish: document digits and numerals on the Window keys page, run real-Obsidian 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mc.4](bob-cli-mc.4.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mc.4](bob-cli-mc.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

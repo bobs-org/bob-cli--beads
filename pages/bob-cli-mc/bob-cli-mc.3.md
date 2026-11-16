@@ -20,7 +20,7 @@ paint: build the dormant tab-numeral stamper and CSS (idle, lit, here, flash, st
 ## Dependencies
 
 - **Depends on:** [bob-cli-mc.1](bob-cli-mc.1.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mc.4](bob-cli-mc.4.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mc.4](bob-cli-mc.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ paint: build the dormant tab-numeral stamper and CSS (idle, lit, here, flash, st
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6b5a7b3`](https://github.com/bobs-org/bob-plugins/commit/6b5a7b3b5793120b44d76dfec6389cf8282e1ed2) | feat(navigation): paint dormant tab numerals, card tabs row, and previews | [bob-cli-mc.3](bob-cli-mc.3.md) | 2026-11-16 12:19:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mc.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md
+
+<!-- sase:referenced-by:end -->

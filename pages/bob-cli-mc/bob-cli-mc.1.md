@@ -41,7 +41,9 @@ model: add the pure tab catalog, digit normalization, focus-tab planner, numeral
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mc.1][1] | Need the phase scope, design file, prior notes, and epic decisions before implementation | 1 |
+| read-by | [agent:bob-cli-mc.3][2] | Need model phase outputs to build paint on top | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:b79ef7c12eaaec467009169b | attached via sase artifact create --bead |
 
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -36,7 +38,7 @@ actions: execute focus-tab plans losslessly (load if deferred, session check, se
 ## Dependencies
 
 - **Depends on:** [bob-cli-mc.1](bob-cli-mc.1.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mc.4](bob-cli-mc.4.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mc.4](bob-cli-mc.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -49,3 +51,17 @@ actions: execute focus-tab plans losslessly (load if deferred, session check, se
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b61b55c`](https://github.com/bobs-org/bob-plugins/commit/b61b55cc6b7e7fd321398b5f5a4930278183fa85) | feat(navigation): add in-place tab-jump executor | [bob-cli-mc.2](bob-cli-mc.2.md) | 2026-11-16 12:02:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mc.2][1] | Need full notes, decisions, design, and remaining work | 7 |
+| read-by | [agent:bob-cli-mc.3][2] | Need actions phase status to avoid conflicts | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md
+
+<!-- sase:referenced-by:end -->
