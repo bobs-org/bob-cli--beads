@@ -13,7 +13,7 @@ prefix: wire digits into the Ctrl+W state machine with an armed-catalog freeze, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mc.2](bob-cli-mc.2.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mc.2](bob-cli-mc.2.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [bob-cli-mc.3](bob-cli-mc.3.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mc.5](bob-cli-mc.5.md) ◐ · ⧖ 2026-11-16
 

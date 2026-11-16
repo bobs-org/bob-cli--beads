@@ -7,6 +7,20 @@
 **Created:** 2026-11-16 11:01:02 EST
 **Plan:** [202611/obsidian\_ctrl\_w\_numbered\_tab\_jump.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_ctrl_w_numbered_tab_jump.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/obsidian_ctrl_w_numbered_tab_jump.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_ctrl_w_numbered_tab_jump.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 In Bob's Obsidian, every main-area tab carries a quiet numeral (1–9, in reading order across splits) beside its title, and Ctrl+W followed by that digit focuses exactly that tab where it lives — selected inside its own split, never moved, cloned, or reopened — while the numerals brighten into accent key caps when the Ctrl+W card appears and the destination numeral flashes once to confirm the jump.
@@ -16,7 +30,7 @@ In Bob's Obsidian, every main-area tab carries a quiet numeral (1–9, in readin
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-mc.1](bob-cli-mc.1.md) | Tab catalog, digit planner, and main-area enumeration | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [bob-cli-mc.2](bob-cli-mc.2.md) | In-place tab-jump executor | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mc.2](bob-cli-mc.2.md) | In-place tab-jump executor | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mc.3](bob-cli-mc.3.md) | Tab numerals, card tabs row, and previews | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mc.4](bob-cli-mc.4.md) | Digits in the Ctrl+W prefix, palette commands, go live | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mc.5](bob-cli-mc.5.md) | Docs, visual acceptance, and polish | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
@@ -27,7 +41,7 @@ In Bob's Obsidian, every main-area tab carries a quiet numeral (1–9, in readin
 flowchart TD
     n0["bob-cli-mc: Ctrl+W N — numbered tab hints and an in-place tab jump [in_progress]"]
     n1["bob-cli-mc.1: Tab catalog, digit planner, and main-area enumeration [closed]"]
-    n2["bob-cli-mc.2: In-place tab-jump executor [in_progress]"]
+    n2["bob-cli-mc.2: In-place tab-jump executor [closed]"]
     n3["bob-cli-mc.3: Tab numerals, card tabs row, and previews [in_progress]"]
     n4["bob-cli-mc.4: Digits in the Ctrl+W prefix, palette commands, go live [in_progress]"]
     n5["bob-cli-mc.5: Docs, visual acceptance, and polish [in_progress]"]
@@ -48,7 +62,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-mc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.1/README.md) | [bob-cli-mc.1](bob-cli-mc.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md) | [bob-cli-mc.2](bob-cli-mc.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md) | [bob-cli-mc.2](bob-cli-mc.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md) | [bob-cli-mc.3](bob-cli-mc.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md) | [bob-cli-mc.4](bob-cli-mc.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.5/README.md) | [bob-cli-mc.5](bob-cli-mc.5.md) | 0 |
@@ -59,3 +73,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2e15ec3`](https://github.com/bobs-org/bob-plugins/commit/2e15ec3d1b0a6c16f46e83d336676780193fcd7a) | feat(navigation): add numbered tab catalog model | [bob-cli-mc.1](bob-cli-mc.1.md) | 2026-11-16 11:32:38 EST |
+| bob-plugins | [`bob-plugins@b61b55c`](https://github.com/bobs-org/bob-plugins/commit/b61b55cc6b7e7fd321398b5f5a4930278183fa85) | feat(navigation): add in-place tab-jump executor | [bob-cli-mc.2](bob-cli-mc.2.md) | 2026-11-16 12:02:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mc.1][1] | Need the parent epic's final decisions before implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.1/README.md
+
+<!-- sase:referenced-by:end -->

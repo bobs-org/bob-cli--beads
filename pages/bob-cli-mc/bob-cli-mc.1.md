@@ -19,7 +19,7 @@ model: add the pure tab catalog, digit normalization, focus-tab planner, numeral
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mc.2](bob-cli-mc.2.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mc.2](bob-cli-mc.2.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mc.3](bob-cli-mc.3.md) ◐ · ⧖ 2026-11-16
 
 ## Agents
@@ -33,3 +33,15 @@ model: add the pure tab catalog, digit normalization, focus-tab planner, numeral
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2e15ec3`](https://github.com/bobs-org/bob-plugins/commit/2e15ec3d1b0a6c16f46e83d336676780193fcd7a) | feat(navigation): add numbered tab catalog model | [bob-cli-mc.1](bob-cli-mc.1.md) | 2026-11-16 11:32:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mc.1][1] | Need the phase scope, design file, prior notes, and epic decisions before implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.1/README.md
+
+<!-- sase:referenced-by:end -->
