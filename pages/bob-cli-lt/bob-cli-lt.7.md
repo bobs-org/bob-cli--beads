@@ -13,6 +13,7 @@ setup-card: build the keyboard-first Setup card shell, Categories gestures, Undo
 
 ## Dependencies
 
+- **Depends on:** [bob-cli-kr](../bob-cli-kr/README.md) ◐ · ⧖ 2026-11-12
 - **Depends on:** [bob-cli-lt.6](bob-cli-lt.6.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-lt.8](bob-cli-lt.8.md) ◐ · ⧖ 2026-11-15
 
@@ -20,4 +21,4 @@ setup-card: build the keyboard-first Setup card shell, Categories gestures, Undo
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-lt.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.7/README.md) | [bob-cli-lt.7](bob-cli-lt.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.7.md) | [bob-cli-lt.7](bob-cli-lt.7.md) | 0 |

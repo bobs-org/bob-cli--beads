@@ -11,6 +11,10 @@
 
 writer-ops: add account, rule, and stale_after ops plus the typed refusals that keep history-bearing edits in YAML.
 
+## Notes
+
+[2026-11-16T00:10:54Z · bob-cli-lt.5] PROPOSED FOLLOW-UP: Bring docs/reference/plugins/bob-ledger-tools.md under the 6,000-word docs-reference cap — just docs-check fails at 6,146 words, and the file is unchanged by this phase.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-lt.4](bob-cli-lt.4.md) ✓ · ⧖ 2026-11-15
@@ -20,7 +24,13 @@ writer-ops: add account, rule, and stale_after ops plus the typed refusals that 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-lt.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.5/README.md) | [bob-cli-lt.5](bob-cli-lt.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.5.md) | [bob-cli-lt.5](bob-cli-lt.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`893bd2a`](https://github.com/bobs-org/bob-cli/commit/893bd2afa2c5f6e339d7f5e32b21c8187dff92e3) | feat(bank): add account, rule, and setting writer ops | [bob-cli-lt.5](bob-cli-lt.5.md) | 2026-11-15 19:40:14 EST |
 
 <!-- sase:referenced-by:start -->
 
