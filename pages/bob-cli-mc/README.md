@@ -1,0 +1,61 @@
+# Bead: bob-cli-mc — Ctrl+W N — numbered tab hints and an in-place tab jump
+
+[Bead Pages](../README.md) / bob-cli-mc
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.4y.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.4y.linker.w0.md) · **Assignee:** `bob-cli-mc.land`
+**Created:** 2026-11-16 11:01:02 EST
+**Plan:** [202611/obsidian\_ctrl\_w\_numbered\_tab\_jump.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_ctrl_w_numbered_tab_jump.md)
+
+## Description
+
+In Bob's Obsidian, every main-area tab carries a quiet numeral (1–9, in reading order across splits) beside its title, and Ctrl+W followed by that digit focuses exactly that tab where it lives — selected inside its own split, never moved, cloned, or reopened — while the numerals brighten into accent key caps when the Ctrl+W card appears and the destination numeral flashes once to confirm the jump.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-mc.1](bob-cli-mc.1.md) | Tab catalog, digit planner, and main-area enumeration | ✓ closed | medium | 2026-11-16 | 1 | 1 |
+| [bob-cli-mc.2](bob-cli-mc.2.md) | In-place tab-jump executor | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mc.3](bob-cli-mc.3.md) | Tab numerals, card tabs row, and previews | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mc.4](bob-cli-mc.4.md) | Digits in the Ctrl+W prefix, palette commands, go live | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mc.5](bob-cli-mc.5.md) | Docs, visual acceptance, and polish | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-mc: Ctrl+W N — numbered tab hints and an in-place tab jump [in_progress]"]
+    n1["bob-cli-mc.1: Tab catalog, digit planner, and main-area enumeration [closed]"]
+    n2["bob-cli-mc.2: In-place tab-jump executor [in_progress]"]
+    n3["bob-cli-mc.3: Tab numerals, card tabs row, and previews [in_progress]"]
+    n4["bob-cli-mc.4: Digits in the Ctrl+W prefix, palette commands, go live [in_progress]"]
+    n5["bob-cli-mc.5: Docs, visual acceptance, and polish [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n1 -.-> n2
+    n1 -.-> n3
+    n2 -.-> n4
+    n3 -.-> n4
+    n4 -.-> n5
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-mc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.1/README.md) | [bob-cli-mc.1](bob-cli-mc.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-mc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md) | [bob-cli-mc.2](bob-cli-mc.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md) | [bob-cli-mc.3](bob-cli-mc.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md) | [bob-cli-mc.4](bob-cli-mc.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.5/README.md) | [bob-cli-mc.5](bob-cli-mc.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.land/README.md) | [bob-cli-mc](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@2e15ec3`](https://github.com/bobs-org/bob-plugins/commit/2e15ec3d1b0a6c16f46e83d336676780193fcd7a) | feat(navigation): add numbered tab catalog model | [bob-cli-mc.1](bob-cli-mc.1.md) | 2026-11-16 11:32:38 EST |
