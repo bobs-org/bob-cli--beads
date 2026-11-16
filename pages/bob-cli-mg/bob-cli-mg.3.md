@@ -13,7 +13,7 @@ readout: decode `balances[]` and paint the hero's resting BALANCE readout in the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mg.2](bob-cli-mg.2.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mg.2](bob-cli-mg.2.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mg.4](bob-cli-mg.4.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

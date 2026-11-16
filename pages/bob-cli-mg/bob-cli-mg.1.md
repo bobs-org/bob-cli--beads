@@ -17,7 +17,7 @@ resolver: add the pure bank/balance.rs resolver (coverage spans, final days, bat
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mg.2](bob-cli-mg.2.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mg.2](bob-cli-mg.2.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -30,3 +30,15 @@ resolver: add the pure bank/balance.rs resolver (coverage spans, final days, bat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e49dbd4`](https://github.com/bobs-org/bob-cli/commit/e49dbd465daac7888ff45eb00e2f4e00c1beed6e) | feat(bank): add historical posted-balance resolver and check findings | [bob-cli-mg.1](bob-cli-mg.1.md) | 2026-11-16 16:34:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mg.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.1/README.md
+
+<!-- sase:referenced-by:end -->
