@@ -24,7 +24,7 @@ album-card-shell: give the album card one title line, the details row as the hea
 ## Dependencies
 
 - **Depends on:** [bob-cli-mf.2](bob-cli-mf.2.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mf.5](bob-cli-mf.5.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mf.5](bob-cli-mf.5.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -37,3 +37,15 @@ album-card-shell: give the album card one title line, the details row as the hea
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3136865`](https://github.com/bobs-org/bob-plugins/commit/313686540a2b60943efce67ae2d8e50381a8a5fb) | feat(bob-ledger-tools): refresh Album Schema Card shell and region paint | [bob-cli-mf.4](bob-cli-mf.4.md) | 2026-11-16 17:20:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.4][1] | Need notes, remaining work, and design file from earlier agents before close-out | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.4/README.md
+
+<!-- sase:referenced-by:end -->

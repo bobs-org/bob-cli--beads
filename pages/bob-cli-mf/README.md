@@ -32,7 +32,7 @@ The album Schema Card and the Bank setup card move fields, choices, categories, 
 | [bob-cli-mf.2](bob-cli-mf.2.md) | Pure arrangement engine | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.3](bob-cli-mf.3.md) | bob-emoji search upgrades and api v1 | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.4](bob-cli-mf.4.md) | Album Schema Card visual refresh and region painting | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [bob-cli-mf.5](bob-cli-mf.5.md) | Album arrangement editing and one-envelope save | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mf.5](bob-cli-mf.5.md) | Album arrangement editing and one-envelope save | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.6](bob-cli-mf.6.md) | Shared Emoji Slot in the album card | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mf.7](bob-cli-mf.7.md) | Add-and-place ghosts and pointer drag | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mf.8](bob-cli-mf.8.md) | Bank setup card arrangement parity | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
     n3["bob-cli-mf.2: Pure arrangement engine [closed]"]
     n4["bob-cli-mf.3: bob-emoji search upgrades and api v1 [closed]"]
     n5["bob-cli-mf.4: Album Schema Card visual refresh and region painting [closed]"]
-    n6["bob-cli-mf.5: Album arrangement editing and one-envelope save [in_progress]"]
+    n6["bob-cli-mf.5: Album arrangement editing and one-envelope save [closed]"]
     n7["bob-cli-mf.6: Shared Emoji Slot in the album card [in_progress]"]
     n8["bob-cli-mf.7: Add-and-place ghosts and pointer drag [in_progress]"]
     n9["bob-cli-mf.8: Bank setup card arrangement parity [in_progress]"]
@@ -83,7 +83,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.2/README.md) | [bob-cli-mf.2](bob-cli-mf.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.3/README.md) | [bob-cli-mf.3](bob-cli-mf.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.4/README.md) | [bob-cli-mf.4](bob-cli-mf.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.5/README.md) | [bob-cli-mf.5](bob-cli-mf.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.5/README.md) | [bob-cli-mf.5](bob-cli-mf.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.6/README.md) | [bob-cli-mf.6](bob-cli-mf.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mf.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.7/README.md) | [bob-cli-mf.7](bob-cli-mf.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mf.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.8/README.md) | [bob-cli-mf.8](bob-cli-mf.8.md) | 0 |
@@ -98,3 +98,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@daceef0`](https://github.com/bobs-org/bob-plugins/commit/daceef0e0c6dfab253353bcb166bab5add273e7f) | feat(bob-emoji): search upgrades and api v1 with CLDR keywords | [bob-cli-mf.3](bob-cli-mf.3.md) | 2026-11-16 16:05:11 EST |
 | bob-plugins | [`bob-plugins@afbb325`](https://github.com/bobs-org/bob-plugins/commit/afbb325018212e38dadbab900ca3ae1d5bd8b8e6) | feat(bob-ledger-tools): add pure schema arrangement engine | [bob-cli-mf.2](bob-cli-mf.2.md) | 2026-11-16 16:37:00 EST |
 | bob-plugins | [`bob-plugins@3136865`](https://github.com/bobs-org/bob-plugins/commit/313686540a2b60943efce67ae2d8e50381a8a5fb) | feat(bob-ledger-tools): refresh Album Schema Card shell and region paint | [bob-cli-mf.4](bob-cli-mf.4.md) | 2026-11-16 17:20:20 EST |
+| bob-plugins | [`bob-plugins@866bb77`](https://github.com/bobs-org/bob-plugins/commit/866bb77c859d19046784324c58fd4e97ec86b00d) | feat(bob-ledger-tools): wire album arrangement editing and one-envelope save | [bob-cli-mf.5](bob-cli-mf.5.md) | 2026-11-16 18:18:09 EST |
