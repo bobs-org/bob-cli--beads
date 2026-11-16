@@ -13,7 +13,7 @@ finish: add palette commands and the focused-split underline, document the windo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-m0.5](bob-cli-m0.5.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-m0.5](bob-cli-m0.5.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

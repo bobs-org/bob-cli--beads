@@ -20,7 +20,7 @@ hint: paint the armed ring, key-cap badge, hint card with minimap, nudges, pulse
 ## Dependencies
 
 - **Depends on:** [bob-cli-m0.2](bob-cli-m0.2.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-m0.5](bob-cli-m0.5.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-m0.5](bob-cli-m0.5.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -33,3 +33,15 @@ hint: paint the armed ring, key-cap badge, hint card with minimap, nudges, pulse
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1a9e304`](https://github.com/bobs-org/bob-plugins/commit/1a9e304d828b36c5735fcb42ccf14a43e894e8ea) | feat(navigation): paint Ctrl+W window-prefix hint | [bob-cli-m0.4](bob-cli-m0.4.md) | 2026-11-16 07:20:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-m0.4--1][1] | Confirm phase stayed closed after linked-repo keep commit declaration | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.4.md
+
+<!-- sase:referenced-by:end -->
