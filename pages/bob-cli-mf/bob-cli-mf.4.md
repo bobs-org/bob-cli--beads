@@ -13,7 +13,7 @@ album-card-shell: give the album card one title line, the details row as the hea
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mf.2](bob-cli-mf.2.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mf.2](bob-cli-mf.2.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mf.5](bob-cli-mf.5.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

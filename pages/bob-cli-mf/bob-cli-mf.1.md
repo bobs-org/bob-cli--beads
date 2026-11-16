@@ -17,7 +17,7 @@ quick-fixes: stop q from cancelling inside bank inputs, keep a bank category's e
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mf.2](bob-cli-mf.2.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mf.2](bob-cli-mf.2.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
