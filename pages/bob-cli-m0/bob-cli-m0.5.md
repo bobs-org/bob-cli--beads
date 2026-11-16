@@ -13,7 +13,7 @@ prefix: wire the capture listener, armed keymap scope, arming gate, dispatch, ca
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-m0.3](bob-cli-m0.3.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-m0.3](bob-cli-m0.3.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-m0.4](bob-cli-m0.4.md) ◐ · ⧖ 2026-11-15
 - **Blocks:** [bob-cli-m0.6](bob-cli-m0.6.md) ◐ · ⧖ 2026-11-15
 

@@ -21,7 +21,7 @@ spike: build the window-prefix CDP e2e harness and prove lossless cross-group ta
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-m0.3](bob-cli-m0.3.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-m0.3](bob-cli-m0.3.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -34,3 +34,15 @@ spike: build the window-prefix CDP e2e harness and prove lossless cross-group ta
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a2550d6`](https://github.com/bobs-org/bob-plugins/commit/a2550d69ef0cf0606dd4bd3647c7a43646d9e7f2) | feat(nav): add Ctrl+W window-prefix real-Obsidian spike e2e harness | [bob-cli-m0.1](bob-cli-m0.1.md) | 2026-11-15 21:05:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-m0.1][1] | check remaining work notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.1/README.md
+
+<!-- sase:referenced-by:end -->
