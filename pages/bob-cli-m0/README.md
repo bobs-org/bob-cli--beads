@@ -32,7 +32,7 @@ In Bob's Obsidian, Ctrl+W followed by a key focuses, moves, and creates main-are
 | [bob-cli-m0.1](bob-cli-m0.1.md) | Real-Obsidian layout and keyboard spike | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-m0.2](bob-cli-m0.2.md) | Pure layout model, planners, key table, and view model | ✓ closed | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-m0.3](bob-cli-m0.3.md) | Live layout adapter and lossless executor | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-m0.4](bob-cli-m0.4.md) | Ring, card, minimap, and motion painter | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-m0.4](bob-cli-m0.4.md) | Ring, card, minimap, and motion painter | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-m0.5](bob-cli-m0.5.md) | Ctrl+W prefix state machine | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [bob-cli-m0.6](bob-cli-m0.6.md) | Commands, focused-split underline, docs, acceptance, rollout | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 
@@ -44,7 +44,7 @@ flowchart TD
     n1["bob-cli-m0.1: Real-Obsidian layout and keyboard spike [closed]"]
     n2["bob-cli-m0.2: Pure layout model, planners, key table, and view model [closed]"]
     n3["bob-cli-m0.3: Live layout adapter and lossless executor [closed]"]
-    n4["bob-cli-m0.4: Ring, card, minimap, and motion painter [in_progress]"]
+    n4["bob-cli-m0.4: Ring, card, minimap, and motion painter [closed]"]
     n5["bob-cli-m0.5: Ctrl+W prefix state machine [in_progress]"]
     n6["bob-cli-m0.6: Commands, focused-split underline, docs, acceptance, rollout [in_progress]"]
     n0 --> n1
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-m0.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.1/README.md) | [bob-cli-m0.1](bob-cli-m0.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-m0.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.2.md) | [bob-cli-m0.2](bob-cli-m0.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-m0.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.3/README.md) | [bob-cli-m0.3](bob-cli-m0.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-m0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.4.md) | [bob-cli-m0.4](bob-cli-m0.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-m0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.4.md) | [bob-cli-m0.4](bob-cli-m0.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-m0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md) | [bob-cli-m0.5](bob-cli-m0.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-m0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.6/README.md) | [bob-cli-m0.6](bob-cli-m0.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-m0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.land/README.md) | [bob-cli-m0](README.md) | 0 |
@@ -79,6 +79,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a2550d6`](https://github.com/bobs-org/bob-plugins/commit/a2550d69ef0cf0606dd4bd3647c7a43646d9e7f2) | feat(nav): add Ctrl+W window-prefix real-Obsidian spike e2e harness | [bob-cli-m0.1](bob-cli-m0.1.md) | 2026-11-15 21:05:21 EST |
 | bob-plugins | [`bob-plugins@4678586`](https://github.com/bobs-org/bob-plugins/commit/4678586a48a18379888946803fd456361731c132) | feat(navigation-hotkeys): add lossless window prefix adapter | [bob-cli-m0.3](bob-cli-m0.3.md) | 2026-11-16 07:07:01 EST |
+| bob-plugins | [`bob-plugins@1a9e304`](https://github.com/bobs-org/bob-plugins/commit/1a9e304d828b36c5735fcb42ccf14a43e894e8ea) | feat(navigation): paint Ctrl+W window-prefix hint | [bob-cli-m0.4](bob-cli-m0.4.md) | 2026-11-16 07:20:22 EST |
 
 <!-- sase:referenced-by:start -->
 

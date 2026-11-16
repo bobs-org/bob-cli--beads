@@ -20,7 +20,7 @@ model: add Obsidian-free fragments that turn a layout snapshot into focus/move/s
 ## Dependencies
 
 - **Blocks:** [bob-cli-m0.3](bob-cli-m0.3.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-m0.4](bob-cli-m0.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-m0.4](bob-cli-m0.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
