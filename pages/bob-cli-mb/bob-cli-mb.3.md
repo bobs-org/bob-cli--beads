@@ -23,10 +23,4 @@ mac-recent-notes: record each successful `//` open in an app-local, schema-versi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.3.md) | [bob-cli-mb.3](bob-cli-mb.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@61d29a6`](https://github.com/bobs-org/bob-mac-capture/commit/61d29a6f3c1978ca78067e235ce98938344d8bf1) | feat(capture): show recently opened notes in the // empty state | [bob-cli-mb.3](bob-cli-mb.3.md) | 2026-11-16 10:43:01 EST |
+| [bbugyi200.athena.bob-cli-mb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.3.md) | [bob-cli-mb.3](bob-cli-mb.3.md) | 0 |

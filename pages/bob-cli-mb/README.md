@@ -27,9 +27,9 @@ The `//` Go To Notes picker remembers what Bryan opened (a Recent group), reache
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-mb.1](bob-cli-mb.1.md) | bob-cli: shared note tiers and \`capture-complete -A\` archive catalog | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mb.1](bob-cli-mb.1.md) | bob-cli: shared note tiers and \`capture-complete -A\` archive catalog | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mb.2](bob-cli-mb.2.md) | bob-cli: living notes first in vault-wide \`\[\[\` link completion | ◐ in_progress | small | 2026-11-16 | 1 | 0 |
-| [bob-cli-mb.3](bob-cli-mb.3.md) | Mac: Recent group in the empty \`//\` picker from an app-local open log | ◐ in_progress | medium | 2026-11-16 | 1 | 1 |
+| [bob-cli-mb.3](bob-cli-mb.3.md) | Mac: Recent group in the empty \`//\` picker from an app-local open log | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mb.4](bob-cli-mb.4.md) | Mac: Command-X toggles Go To · Archive in the \`//\` picker | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mb.5](bob-cli-mb.5.md) | bob-plugins: line-less bob-open-notes opens record a \`\<C-o\>\` jump | ✓ closed | small | 2026-11-16 | 1 | 0 |
 
@@ -38,7 +38,7 @@ The `//` Go To Notes picker remembers what Bryan opened (a Recent group), reache
 ```mermaid
 flowchart TD
     n0["bob-cli-mb: Go To Notes follow-ups: Recent, Archive scope, living-first [[, and &lt;C-o&gt; back [in_progress]"]
-    n1["bob-cli-mb.1: bob-cli: shared note tiers and `capture-complete -A` archive catalog [in_progress]"]
+    n1["bob-cli-mb.1: bob-cli: shared note tiers and `capture-complete -A` archive catalog [closed]"]
     n2["bob-cli-mb.2: bob-cli: living notes first in vault-wide `[[` link completion [in_progress]"]
     n3["bob-cli-mb.3: Mac: Recent group in the empty `//` picker from an app-local open log [in_progress]"]
     n4["bob-cli-mb.4: Mac: Command-X toggles Go To · Archive in the `//` picker [in_progress]"]
@@ -57,9 +57,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mb.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.1/README.md) | [bob-cli-mb.1](bob-cli-mb.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-mb.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.1/README.md) | [bob-cli-mb.1](bob-cli-mb.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-mb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.2/README.md) | [bob-cli-mb.2](bob-cli-mb.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-mb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.3.md) | [bob-cli-mb.3](bob-cli-mb.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-mb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.3.md) | [bob-cli-mb.3](bob-cli-mb.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-mb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.4/README.md) | [bob-cli-mb.4](bob-cli-mb.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-mb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.5/README.md) | [bob-cli-mb.5](bob-cli-mb.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-mb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.land/README.md) | [bob-cli-mb](README.md) | 0 |
@@ -68,4 +68,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@61d29a6`](https://github.com/bobs-org/bob-mac-capture/commit/61d29a6f3c1978ca78067e235ce98938344d8bf1) | feat(capture): show recently opened notes in the // empty state | [bob-cli-mb.3](bob-cli-mb.3.md) | 2026-11-16 10:43:01 EST |
+| bob-cli | [`430162f`](https://github.com/bobs-org/bob-cli/commit/430162f5716f93cf64b846dde5572e745b4013f3) | feat(note-catalog): add archive tiers to note goto | [bob-cli-mb.1](bob-cli-mb.1.md) | 2026-11-16 11:07:58 EST |

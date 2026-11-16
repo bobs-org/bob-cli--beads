@@ -13,7 +13,7 @@ mac-archive-scope: claim the reserved Command-X in Notes to toggle a Go To · Ar
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mb.1](bob-cli-mb.1.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mb.1](bob-cli-mb.1.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [bob-cli-mb.3](bob-cli-mb.3.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

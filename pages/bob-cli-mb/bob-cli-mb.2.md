@@ -13,7 +13,7 @@ cli-link-tiers: tag every `[[` note-index entry with the shared tier and order (
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mb.1](bob-cli-mb.1.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mb.1](bob-cli-mb.1.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
