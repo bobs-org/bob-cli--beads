@@ -43,7 +43,9 @@ writer-core: add the guarded config writer envelope, transaction, inverse ops, h
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-lt.4--2][1] | Confirm assigned bead status before host completion submit | 1 |
+| read-by | [agent:bob-cli-lt.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md
 
 <!-- sase:referenced-by:end -->

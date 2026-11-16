@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-lt
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1co](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1co.md) · **Assignee:** `bob-cli-lt.land`
-**Created:** 2026-11-15 13:16:08 EST
+**Created:** 2026-11-15 13:16:08 EST · **Closed:** 2026-11-16 00:58:34 EST
 **Plan:** [202611/bank\_setup\_render\_and\_edit.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_setup_render_and_edit.md)
 
 <!-- sase:links:start -->
@@ -16,12 +16,27 @@
 | implemented-by | [plan:202611/bank_setup_render_and_edit.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-lz][2] | Bank setup shares guarded update infrastructure; coordinate any extraction before the deferred album migration flow |
 | related | [bead:bob-cli-m3][3] | Bank setup epic: owns the guarded rule.add op and the plugin config-update service this action would call |
+| related | [bead:bob-cli-m6][4] | reproduced during bob-cli-lt landing; proposer bob-cli-lt |
+| related | [bead:bob-cli-m7][5] | reproduced during bob-cli-lt landing; proposer bob-cli-lt |
+| related | [bead:bob-cli-m8][6] | found during bob-cli-lt npm test; not caused by the landing tale |
+| related | file:explicit:0a0b622c742c4650208a3952 | attached via sase artifact create --bead |
+| related | file:explicit:34f11fe48e65ea73984d0fc5 | attached via sase artifact create --bead |
+| related | file:explicit:4cdec0f9211442a7aa403d0c | attached via sase artifact create --bead |
+| related | file:explicit:51dcaec4621d8cc79bf46edf | attached via sase artifact create --bead |
+| related | file:explicit:8438a3d51b740dbde9b7279d | attached via sase artifact create --bead |
+| related | file:explicit:96340422e29c8b25d79f1c8b | attached via sase artifact create --bead |
+| related | file:explicit:976c7d21c1017143dc5b1f4a | attached via sase artifact create --bead |
+| related | file:explicit:c84c975f7194e212fe16ea75 | attached via sase artifact create --bead |
+| related | file:explicit:dcbd88a2e076072c3f1870b4 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_setup_render_and_edit.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-lz/README.md
 [3]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-m3/README.md
+[4]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-m6/README.md
+[5]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-m7/README.md
+[6]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-m8/README.md
 
 <!-- sase:links:end -->
 
@@ -42,6 +57,22 @@ bank.md's nested bank: mapping renders on the hub as a calm, honest Setup header
 
 [2026-11-16T04:18:55Z · bob-cli-lt.land] LAND TRIAGE (bob-cli-lt.land). Integration edits (bob-cli, committed with this landing turn): (1) bob bank subscriptions (f252f185, landed in parallel) now emits one located bank_config_invalid finding per config diagnostic (line + key_path, check's shape) instead of one unlocated first message; new CLI test subscriptions_reports_every_located_config_finding. (2) category.remove and its undo_blocked guard now also count subscription records whose category names the key (SubscriptionRegistry, all statuses), so the writer never strands a subscription's category; plan_update takes SubscriptionRefs; docs/bank.md op table updated; unit test subscription_records_block_category_remove_and_its_undo. just check passed (exit 0). Follow-ups: lt.2 #1 (cargo fmt gcal_auth.rs) declined: cargo fmt --check is clean on current master. lt.3 #2 (configuration.md 6009 words) declined: docs-check no longer reports that page. lt.3 #3 and lt.7 #2 timing flakes corroborated as +1 on existing bob-cli-km (event-link-times), bob-cli-ki (keep-moving surface, 306.6 ms), and bob-cli-ju (off-clock chips); no new task. lt.3 #1, lt.5 #1, lt.6 #1, lt.7 #1, lt.8 #1 (bob-ledger-tools reference at 6302/6000 words) are epic work, not a task: the landing tale trims the page under the cap without raising budgets (related standing headroom task bob-cli-il). Plan item 4 deferred work filed: bob-cli-m4 (bank category-key rename/merge and account alias rename migrations, large, related bob-cli-lz) and bob-cli-m5 (+ Rule from the Category card, medium, related bob-cli-m3). The subscription-candidate rule dismissal is already owned by bob-cli-m3; no new task. bob-cli-lq verified and closed. Remaining epic work, planned as a landing tale: the Setup e2e scenarios, real-Obsidian acceptance with screenshots, the leftover .bob-bank-hub-note CSS hide that defeats the scoped Setup-surface hide, the docs trim, gates/sync, and closeout.
 
+[2026-11-16T05:50:39Z · bob-cli-lt.land] LAND GATES (bob-cli-lt.land). Setup e2e xvfb green (file:explicit:4cdec0f9211442a7aa403d0c). Existing obsidian-bank-ui-e2e.cjs failed invalid-fence, walk-learn-coffee, walk-learn-accept, walk-real-key-swallowed on the land tree and identically on clean HEAD 99e3410; filed bob-cli-m6 and bob-cli-m7. chip-today did not fail this run (badge-today passed with 2 waiting); citing standing bob-cli-le. npm test 6803/6808: keep-moving surface 25ms flake alone-green (bob-cli-ki +1), frees-marks 25ms flake alone-green (bob-cli-io +1), block-marks e2e self-test fails alone because plus4 on 2026-11-16 is 2026-11-20 (filed bob-cli-m8). Known km/ki/ju: ki reproduced under load. docs:check word cap for bob-ledger-tools is 5996/6000; the command failed later on the capture-token //<query> miss (bob-cli-fo +1, noted on bob-cli-ly). validate passed. No just check (no bob-cli code this tale). justfile still has no symvision recipe.
+
+[2026-11-16T05:58:34Z · bob-cli-lt.land] Landed remaining bob-cli-lt acceptance (plan:202611/bank_setup_landing.md). All eight phases were already closed and verified; integration edits (located subscription config findings, category.remove counts subscriptions) and bob-cli-lq close stand from the earlier LAND TRIAGE note.
+
+Scoped hide: removed bob-bank-hub-note class writes and CSS; only .bob-bank-setup-surface hides the native bank row.
+
+docs/bob-ledger-tools.md is 5996/6000 words (cap held, not under 5700 so no bob-cli-il headroom note).
+
+Setup e2e xvfb green (file:explicit:4cdec0f9211442a7aa403d0c). Screenshots inspected against Visual language: collapsed/expanded/invalid ~375px light (file:explicit:51dcaec4621d8cc79bf46edf, file:explicit:976c7d21c1017143dc5b1f4a, file:explicit:34f11fe48e65ea73984d0fc5), Setup card Categories (file:explicit:c84c975f7194e212fe16ea75), New category stage (file:explicit:0a0b622c742c4650208a3952).
+
+Existing obsidian-bank-ui-e2e.cjs failed invalid-fence + walk-learn-coffee/accept + walk-real-key-swallowed on the land tree and identically on clean HEAD 99e3410 (file:explicit:8438a3d51b740dbde9b7279d, file:explicit:dcbd88a2e076072c3f1870b4); filed bob-cli-m6 and bob-cli-m7. chip-today did not fail this run (badge-today passed with 2 waiting); citing standing bob-cli-le.
+
+Gates: npm run build current; validate passed; npm test 6803/6808 — keep-moving surface 25ms flake alone-green (bob-cli-ki, already reported), frees-marks 25ms flake alone-green (bob-cli-io +1), block-marks e2e self-test fails alone because plus4 on 2026-11-16 is 2026-11-20 (filed bob-cli-m8). BOB_CLI_DIR docs-check held the ledger-tools cap then failed on capture-token '//<query>' at #double-slash-picker (bob-cli-fo +1; DISCOVERED ISSUE on bob-cli-ly). No bob-cli code this tale, so no just check. justfile still has no symvision recipe.
+
+Deploy: bob plugins sync --repo land-checkout --no-pull copied bob-ledger-tools main.js and styles.css (uncommitted stamp, backups 20261116-005709). epic-symbols: none.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -59,7 +90,7 @@ bank.md's nested bank: mapping renders on the hub as a calm, honest Setup header
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-lt: Bank setup: render the bank: mapping on the hub, edit it through bob [in_progress]"]
+    n0["bob-cli-lt: Bank setup: render the bank: mapping on the hub, edit it through bob [closed]"]
     n1["bob-cli-lt.1: The bob bank config report and located diagnostics [closed]"]
     n2["bob-cli-lt.2: Shared YAML span primitives and the bank entry editor [closed]"]
     n3["bob-cli-lt.3: The Setup header on the bank hub [closed]"]
@@ -99,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-lt.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.6/README.md) | [bob-cli-lt.6](bob-cli-lt.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-lt.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.7.md) | [bob-cli-lt.7](bob-cli-lt.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.8/README.md) | [bob-cli-lt.8](bob-cli-lt.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-lt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.land/README.md) | [bob-cli-lt](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-lt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md) | [bob-cli-lt](README.md) | 2 |
 
 ## Commits
 
@@ -115,6 +146,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@65570a0`](https://github.com/bobs-org/bob-plugins/commit/65570a0e63537ce78a5c8d5366b7c53ec3f7442a) | feat(bank): add the keyboard-first setup card | [bob-cli-lt.7](bob-cli-lt.7.md) | 2026-11-15 22:22:41 EST |
 | bob-plugins | [`bob-plugins@99e3410`](https://github.com/bobs-org/bob-plugins/commit/99e34103666e00b5edda98629eb40dc6ce9a7339) | feat(bank): add Accounts, Rules, and Checks to the Bank Setup card | [bob-cli-lt.8](bob-cli-lt.8.md) | 2026-11-15 22:41:08 EST |
 | bob-cli | [`2a6377d`](https://github.com/bobs-org/bob-cli/commit/2a6377dd717726cf9c0b2fc12d072011915f9680) | fix(bank): integrate bank setup writer and config findings with subscriptions | [bob-cli-lt](README.md) | 2026-11-15 23:21:50 EST |
+| bob-plugins | [`bob-plugins@ccdd865`](https://github.com/bobs-org/bob-plugins/commit/ccdd86559283c66aab06c2e2ba872bc6479c1142) | feat(bank): land Setup e2e, scoped hub hide, and docs budget | [bob-cli-lt](README.md) | 2026-11-16 00:59:59 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -125,9 +157,11 @@ flowchart TD
 | read-by | [agent:1cv--1][1] | Identify new Bank setup documentation contributing to clean-base docs overage | 1 |
 | read-by | [agent:bob-cli-lr.land][2] | Check whether bank subscriptions dead code that breaks just check is in-flight work of this epic | 1 |
 | read-by | [agent:bob-cli-lt.8][3] | Need epic scope for setup-card-more phase | 1 |
+| read-by | [agent:bob-cli-lt.land][4] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1cv.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lr.land/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.8/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md
 
 <!-- sase:referenced-by:end -->

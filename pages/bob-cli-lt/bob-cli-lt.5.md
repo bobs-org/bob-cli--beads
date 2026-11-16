@@ -42,8 +42,10 @@ writer-ops: add account, rule, and stale_after ops plus the typed refusals that 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ls.7][1] | Need whether the workspace-10 agent still owns the protected bob-ledger-tools vault deploy | 1 |
 | read-by | [agent:bob-cli-lt.5--1][2] | Need phase scope and prior verification status to finish the prepared completion | 1 |
+| read-by | [agent:bob-cli-lt.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.7/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.5.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md
 
 <!-- sase:referenced-by:end -->

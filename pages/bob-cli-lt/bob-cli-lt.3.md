@@ -45,7 +45,9 @@ setup-header: render the collapsed/expanded Setup header in both views, scope th
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-lt.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-lt.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md
 
 <!-- sase:referenced-by:end -->

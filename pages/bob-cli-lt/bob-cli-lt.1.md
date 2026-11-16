@@ -39,7 +39,9 @@ config-report: add the read-only bob bank config report with fingerprint, proven
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-lt.1--2][1] | Need to verify the assigned bank config phase scope and required acceptance commands before finalizing it. | 2 |
+| read-by | [agent:bob-cli-lt.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md
 
 <!-- sase:referenced-by:end -->

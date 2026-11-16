@@ -43,8 +43,10 @@ setup-card: build the keyboard-first Setup card shell, Categories gestures, Undo
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-lt.7--3][1] | Verify the proposed docs follow-up and phase notes before closing the phase | 1 |
 | read-by | [agent:bob-cli-lt.8][2] | Check downstream phase scope and overlap before editing shared setup-card fragments | 1 |
+| read-by | [agent:bob-cli-lt.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.7.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.8/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.land.md
 
 <!-- sase:referenced-by:end -->
