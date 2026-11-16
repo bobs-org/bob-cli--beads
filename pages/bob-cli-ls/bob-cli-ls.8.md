@@ -11,6 +11,10 @@
 
 linker: add the slash picker, the context strip, and the New subscription sheet to the Category card, and connect ghost-chip clicks to them.
 
+## Notes
+
+[2026-11-16T01:37:06Z · bob-cli-ls.8] PROPOSED FOLLOW-UP: Reduce the generated bob-ledger-tools reference page below its 6,000-word cap; docs:check already fails on the clean base at 6,146 words and measures 6,209 with this phase. No existing tracking bead was identified.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ls.6](bob-cli-ls.6.md) ✓ · ⧖ 2026-11-15
@@ -21,4 +25,10 @@ linker: add the slash picker, the context strip, and the New subscription sheet 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ls.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.8/README.md) | [bob-cli-ls.8](bob-cli-ls.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-ls.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.8.md) | [bob-cli-ls.8](bob-cli-ls.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@a6eaea6`](https://github.com/bobs-org/bob-plugins/commit/a6eaea6601cbd9c891d34ab6f49e8b55697cb8c5) | feat(bank): link subscriptions from the Category card | [bob-cli-ls.8](bob-cli-ls.8.md) | 2026-11-15 20:58:39 EST |

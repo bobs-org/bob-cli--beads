@@ -35,3 +35,15 @@ report: add the read-only bob bank subscriptions report with beautiful human out
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f252f18`](https://github.com/bobs-org/bob-cli/commit/f252f1856abc3ef2f12c6e7555f7c6964b484979) | feat(bank): add bank subscriptions report command | [bob-cli-ls.6](bob-cli-ls.6.md) | 2026-11-15 19:52:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ls.6][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.6/README.md
+
+<!-- sase:referenced-by:end -->
