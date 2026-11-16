@@ -31,7 +31,7 @@ In Bob's Obsidian, every main-area tab carries a quiet numeral (1–9, in readin
 |---|---|---|---|---|---:|---:|
 | [bob-cli-mc.1](bob-cli-mc.1.md) | Tab catalog, digit planner, and main-area enumeration | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mc.2](bob-cli-mc.2.md) | In-place tab-jump executor | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [bob-cli-mc.3](bob-cli-mc.3.md) | Tab numerals, card tabs row, and previews | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mc.3](bob-cli-mc.3.md) | Tab numerals, card tabs row, and previews | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mc.4](bob-cli-mc.4.md) | Digits in the Ctrl+W prefix, palette commands, go live | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mc.5](bob-cli-mc.5.md) | Docs, visual acceptance, and polish | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 
@@ -42,7 +42,7 @@ flowchart TD
     n0["bob-cli-mc: Ctrl+W N — numbered tab hints and an in-place tab jump [in_progress]"]
     n1["bob-cli-mc.1: Tab catalog, digit planner, and main-area enumeration [closed]"]
     n2["bob-cli-mc.2: In-place tab-jump executor [closed]"]
-    n3["bob-cli-mc.3: Tab numerals, card tabs row, and previews [in_progress]"]
+    n3["bob-cli-mc.3: Tab numerals, card tabs row, and previews [closed]"]
     n4["bob-cli-mc.4: Digits in the Ctrl+W prefix, palette commands, go live [in_progress]"]
     n5["bob-cli-mc.5: Docs, visual acceptance, and polish [in_progress]"]
     n0 --> n1
@@ -63,7 +63,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-mc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.1/README.md) | [bob-cli-mc.1](bob-cli-mc.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.2/README.md) | [bob-cli-mc.2](bob-cli-mc.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md) | [bob-cli-mc.3](bob-cli-mc.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.3/README.md) | [bob-cli-mc.3](bob-cli-mc.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.4/README.md) | [bob-cli-mc.4](bob-cli-mc.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mc.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.5/README.md) | [bob-cli-mc.5](bob-cli-mc.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mc.land/README.md) | [bob-cli-mc](README.md) | 0 |
@@ -74,6 +74,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2e15ec3`](https://github.com/bobs-org/bob-plugins/commit/2e15ec3d1b0a6c16f46e83d336676780193fcd7a) | feat(navigation): add numbered tab catalog model | [bob-cli-mc.1](bob-cli-mc.1.md) | 2026-11-16 11:32:38 EST |
 | bob-plugins | [`bob-plugins@b61b55c`](https://github.com/bobs-org/bob-plugins/commit/b61b55cc6b7e7fd321398b5f5a4930278183fa85) | feat(navigation): add in-place tab-jump executor | [bob-cli-mc.2](bob-cli-mc.2.md) | 2026-11-16 12:02:05 EST |
+| bob-plugins | [`bob-plugins@6b5a7b3`](https://github.com/bobs-org/bob-plugins/commit/6b5a7b3b5793120b44d76dfec6389cf8282e1ed2) | feat(navigation): paint dormant tab numerals, card tabs row, and previews | [bob-cli-mc.3](bob-cli-mc.3.md) | 2026-11-16 12:19:15 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -20,7 +20,7 @@ model: add the pure tab catalog, digit normalization, focus-tab planner, numeral
 ## Dependencies
 
 - **Blocks:** [bob-cli-mc.2](bob-cli-mc.2.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mc.3](bob-cli-mc.3.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mc.3](bob-cli-mc.3.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
