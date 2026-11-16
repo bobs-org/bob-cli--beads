@@ -14,10 +14,16 @@ mac-archive-scope: claim the reserved Command-X in Notes to toggle a Go To · Ar
 ## Dependencies
 
 - **Depends on:** [bob-cli-mb.1](bob-cli-mb.1.md) ✓ · ⧖ 2026-11-16
-- **Depends on:** [bob-cli-mb.3](bob-cli-mb.3.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mb.3](bob-cli-mb.3.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.4/README.md) | [bob-cli-mb.4](bob-cli-mb.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-mb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.4/README.md) | [bob-cli-mb.4](bob-cli-mb.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@0f43014`](https://github.com/bobs-org/bob-mac-capture/commit/0f43014477912ab037e30d66cbe4a651ef1296c1) | feat(capture): toggle a // archive scope with Command-X | [bob-cli-mb.4](bob-cli-mb.4.md) | 2026-11-16 12:23:46 EST |

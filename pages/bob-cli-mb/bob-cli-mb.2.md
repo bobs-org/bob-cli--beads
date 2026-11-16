@@ -32,3 +32,15 @@ cli-link-tiers: tag every `[[` note-index entry with the shared tier and order (
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b73cf56`](https://github.com/bobs-org/bob-cli/commit/b73cf56f5fec9b4de6e95c9e326c6f6970e1d8f6) | feat(capture): prioritize living vault link suggestions | [bob-cli-mb.2](bob-cli-mb.2.md) | 2026-11-16 11:37:03 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mb.2--1][1] | Need phase status, notes, scope, and epic decisions before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.2.md
+
+<!-- sase:referenced-by:end -->
