@@ -23,6 +23,8 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 
 [2026-11-16T04:25:53Z · bob-cli-ly.4--4] macOS CI compile regression found in run 43802559714 (snapshot SHA d1ac712b1e82411c490f05e6a288ad95bca7ae49, base 5bc9478f3322bbdcb4da52e72bcfba8e85b0e62f): CaptureNoteGotoPanelTests.swift memberwise CaptureKeyRoutingContext arguments were out of declaration order, plus markerExists needed explicit self in an async closure. Fixed those test call sites. The earlier portable-check passed 2,512 tests with 1 skipped but does not type-check this Mac test target; post-commit portable, preflight, and exact-HEAD watcher are being staged. Phase remains open.
 
+[2026-11-16T04:56:17Z · bob-cli-ly.4--5] Exact-SHA preflight run 43804755348 (https://github.com/bobs-org/bob-mac-capture/actions/runs/43804755348; snapshot ba382442592e51d4821232ab0f7d6f308325ec00, base d12cd6c7d94d61d300e102257e065eb17d8ad646) compiled but failed two new CaptureNoteGotoPanelTests cases: testFastDraftOpensFilteredCatalogIncludingViews lacked a fake-bob //monthly completion, and the no-selection router context inherited pickerHasSelection=true. Added the monthly catalog fixture response/range handling and made the selection state explicit. Portable check passed 2,512 tests with 1 skipped. Exact-HEAD watcher did not run because the preflight failed. Re-run portable-check, macOS preflight, and watcher after this fix is committed; keep bob-cli-ly.4 open pending green exact-SHA verification. Unchanged docs-check baseline remains 6,281 words, 281 over the 6,000-word cap.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ly.2](bob-cli-ly.2.md) ✓ · ⧖ 2026-11-15
@@ -33,7 +35,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ly.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md) | [bob-cli-ly.4](bob-cli-ly.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-ly.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md) | [bob-cli-ly.4](bob-cli-ly.4.md) | 3 |
 
 ## Commits
 
@@ -41,6 +43,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@5bc9478`](https://github.com/bobs-org/bob-mac-capture/commit/5bc9478f3322bbdcb4da52e72bcfba8e85b0e62f) | feat(capture): open notes from the // Go To Notes picker | [bob-cli-ly.4](bob-cli-ly.4.md) | 2026-11-15 22:33:52 EST |
 | bob-mac-capture | [`bob-mac-capture@d12cd6c`](https://github.com/bobs-org/bob-mac-capture/commit/d12cd6c7d94d61d300e102257e065eb17d8ad646) | fix(capture): compile Notes picker macOS tests | [bob-cli-ly.4](bob-cli-ly.4.md) | 2026-11-15 23:29:36 EST |
+| bob-mac-capture | [`bob-mac-capture@39ba0d0`](https://github.com/bobs-org/bob-mac-capture/commit/39ba0d0ea0304a2780f31c5da5c0e0bd094b5f3d) | fix(capture): correct Notes picker CI fixtures | [bob-cli-ly.4](bob-cli-ly.4.md) | 2026-11-15 23:58:25 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -49,6 +52,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ly.4--1][1] | Need the assigned phase scope, design path, and epic decisions while recovering the failed exact-SHA Mac CI run | 1 |
+| read-by | [agent:bob-cli-ly.4--4][1] | Review the open Notes picker phase before recording the newly confirmed macOS test-target compile regression and staging verification | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md
 
