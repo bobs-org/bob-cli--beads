@@ -41,8 +41,8 @@ A 🔁 Subscriptions album under bank holds every discretionary recurring charge
 | [bob-cli-ls.5](bob-cli-ls.5.md) | Subscription findings in bob bank check | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-ls.6](bob-cli-ls.6.md) | The bob bank subscriptions command | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-ls.7](bob-cli-ls.7.md) | 🔁 chips on bank rows | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-ls.8](bob-cli-ls.8.md) | Category card subscription linker | ◐ in_progress | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-ls.9](bob-cli-ls.9.md) | Record header strip and album summary card | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-ls.8](bob-cli-ls.8.md) | Category card subscription linker | ✓ closed | medium | 2026-11-15 | 1 | 1 |
+| [bob-cli-ls.9](bob-cli-ls.9.md) | Record header strip and album summary card | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 
 ## Lineage
 
@@ -61,8 +61,8 @@ flowchart TD
     n10["bob-cli-ls.5: Subscription findings in bob bank check [closed]"]
     n11["bob-cli-ls.6: The bob bank subscriptions command [closed]"]
     n12["bob-cli-ls.7: 🔁 chips on bank rows [closed]"]
-    n13["bob-cli-ls.8: Category card subscription linker [in_progress]"]
-    n14["bob-cli-ls.9: Record header strip and album summary card [in_progress]"]
+    n13["bob-cli-ls.8: Category card subscription linker [closed]"]
+    n14["bob-cli-ls.9: Record header strip and album summary card [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ls.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.6/README.md) | [bob-cli-ls.6](bob-cli-ls.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.7/README.md) | [bob-cli-ls.7](bob-cli-ls.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ls.8.md) | [bob-cli-ls.8](bob-cli-ls.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-ls.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.9/README.md) | [bob-cli-ls.9](bob-cli-ls.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-ls.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.9/README.md) | [bob-cli-ls.9](bob-cli-ls.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-ls.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ls.land/README.md) | [bob-cli-ls](README.md) | 0 |
 
 ## Commits
@@ -128,6 +128,7 @@ flowchart TD
 | bob-cli | [`219e854`](https://github.com/bobs-org/bob-cli/commit/219e854eab66ef329e1b9a5b21873f98279153f0) | feat(bank): link import rows to subscriptions with summary | [bob-cli-ls.4](bob-cli-ls.4.md) | 2026-11-15 18:59:57 EST |
 | bob-cli | [`f252f18`](https://github.com/bobs-org/bob-cli/commit/f252f1856abc3ef2f12c6e7555f7c6964b484979) | feat(bank): add bank subscriptions report command | [bob-cli-ls.6](bob-cli-ls.6.md) | 2026-11-15 19:52:02 EST |
 | bob-plugins | [`bob-plugins@a6eaea6`](https://github.com/bobs-org/bob-plugins/commit/a6eaea6601cbd9c891d34ab6f49e8b55697cb8c5) | feat(bank): link subscriptions from the Category card | [bob-cli-ls.8](bob-cli-ls.8.md) | 2026-11-15 20:58:39 EST |
+| bob-plugins | [`bob-plugins@cb885ca`](https://github.com/bobs-org/bob-plugins/commit/cb885cad16ccf013466b5b1ee8ebe89c7d75834c) | feat(bank): add subscription header strip and album summary card | [bob-cli-ls.9](bob-cli-ls.9.md) | 2026-11-15 21:43:22 EST |
 
 <!-- sase:referenced-by:start -->
 

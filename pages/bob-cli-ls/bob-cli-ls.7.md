@@ -22,7 +22,7 @@ chips: render subscription links as state-aware 🔁 pills in Live Preview, Read
 ## Dependencies
 
 - **Depends on:** [bob-cli-ls.2](bob-cli-ls.2.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.8](bob-cli-ls.8.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.8](bob-cli-ls.8.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

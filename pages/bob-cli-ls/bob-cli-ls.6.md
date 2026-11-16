@@ -21,8 +21,8 @@ report: add the read-only bob bank subscriptions report with beautiful human out
 
 - **Depends on:** [bob-cli-ls.2](bob-cli-ls.2.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-ls.5](bob-cli-ls.5.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.8](bob-cli-ls.8.md) ◐ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-ls.9](bob-cli-ls.9.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.8](bob-cli-ls.8.md) ✓ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-ls.9](bob-cli-ls.9.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
