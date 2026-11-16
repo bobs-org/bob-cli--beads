@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-ly.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.3.md) | [bob-cli-ly.3](bob-cli-ly.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-ly.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md) | [bob-cli-ly.4](bob-cli-ly.4.md) | 5 |
 | [bbugyi200.athena.bob-cli-ly.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.5/README.md) | [bob-cli-ly.5](bob-cli-ly.5.md) | 3 |
-| [bbugyi200.athena.bob-cli-ly.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.land/README.md) | [bob-cli-ly](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-ly.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ly.land/README.md) | [bob-cli-ly](README.md) | 2 |
 
 ## Commits
 
@@ -91,6 +91,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@898b821`](https://github.com/bobs-org/bob-mac-capture/commit/898b8215fb6d2b4714a549ed55dd77b5ad1c266e) | fix(capture): route swap responses past the mounted-picker dismissal | [bob-cli-ly.5](bob-cli-ly.5.md) | 2026-11-16 08:46:05 EST |
 | bob-cli | [`122c7fc`](https://github.com/bobs-org/bob-cli/commit/122c7fcf9b501ccc7ba8c1b4c9113e0454e5b9d0) | docs(search): add // scope entry to search smoke | [bob-cli-ly.5](bob-cli-ly.5.md) | 2026-11-16 09:15:36 EST |
 | bob-cli | [`c6c142c`](https://github.com/bobs-org/bob-cli/commit/c6c142c8fb541ae74d1bf57b0a86e7c2a35d2691) | refactor(native): reuse the bank month parser in the // note catalog | [bob-cli-ly](README.md) | 2026-11-16 09:48:26 EST |
+| bob-cli--plans | [`bob-cli--plans@4e13693`](https://github.com/bobs-org/bob-cli--plans/commit/4e13693ff71a94315ec9948a984ff6978bd003a2) | chore(plans): mark note\_goto\_double\_slash done after bob-cli-ly landed | [bob-cli-ly](README.md) | 2026-11-16 09:48:57 EST |
 
 <!-- sase:referenced-by:start -->
 
