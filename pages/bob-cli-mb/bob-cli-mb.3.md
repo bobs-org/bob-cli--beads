@@ -1,0 +1,26 @@
+# Bead: bob-cli-mb.3 — Mac: Recent group in the empty \`//\` picker from an app-local open log
+
+[Bead Pages](../README.md) / [bob-cli-mb](README.md) / bob-cli-mb.3
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1cs](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1cs.md) · **Assignee:** `bob-cli-mb.3` · **Size:** medium
+**Created:** 2026-11-16 10:14:22 EST
+**Plan:** [202611/note\_goto\_followups.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/note_goto_followups.md)
+
+## Description
+
+mac-recent-notes: record each successful `//` open in an app-local, schema-versioned open log, show up to eight recently opened notes as a Recent section after Today in the empty Notes picker, add a Settings action that clears the log, and land green on macOS CI.
+
+## Notes
+
+[2026-11-16T15:39:14Z · bob-cli-mb.3] Recent group implemented: NoteGotoOpenLogStore (app-local, FNV vault hash, 500/365d prune, 0600/0700, quarantine), Recent section in NoteGotoPickerIndex (after Today, max 8, recent: IDs, filtered unchanged), model records on success-only and feeds warm-swap/chip paths, Settings Go To Notes clear button, docs go-to-notes/settings. Verified: just portable-check 2537 tests 0 failures, just docs-check 447 passed. Remaining: macOS typecheck-tests scratch compile, macos-ci-check precommit gate, master exact-SHA CI to green.
+
+## Dependencies
+
+- **Blocks:** [bob-cli-mb.4](bob-cli-mb.4.md) ◐ · ⧖ 2026-11-16
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-mb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mb.3.md) | [bob-cli-mb.3](bob-cli-mb.3.md) | 0 |
