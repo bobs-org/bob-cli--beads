@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-m0.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.4.md) | [bob-cli-m0.4](bob-cli-m0.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-m0.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md) | [bob-cli-m0.5](bob-cli-m0.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-m0.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.6/README.md) | [bob-cli-m0.6](bob-cli-m0.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-m0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.land.md) | [bob-cli-m0](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-m0.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.land.md) | [bob-cli-m0](README.md) | 2 |
 
 ## Commits
 
@@ -91,6 +91,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c725370`](https://github.com/bobs-org/bob-plugins/commit/c72537068ac0601f42069cd8af3f53d928614ba8) | feat(navigation): add Ctrl+W prefix state machine | [bob-cli-m0.5](bob-cli-m0.5.md) | 2026-11-16 08:25:23 EST |
 | bob-plugins | [`bob-plugins@0e16e30`](https://github.com/bobs-org/bob-plugins/commit/0e16e304142f94c70c78357f7bdfe4ded19d0db5) | feat(navigation): add Ctrl+W palette commands, focused-split underline, window-keys docs, and visual acceptance | [bob-cli-m0.6](bob-cli-m0.6.md) | 2026-11-16 09:12:12 EST |
 | bob-plugins | [`bob-plugins@21ad362`](https://github.com/bobs-org/bob-plugins/commit/21ad3624b788da6d4ec175cb8d1f53cb3898ebc2) | feat(navigation): land Ctrl+W window prefix 2.83.2 with collapse hardening, re-arm, and actions e2e | [bob-cli-m0](README.md) | 2026-11-16 10:18:00 EST |
+| bob-cli--plans | [`bob-cli--plans@58c8577`](https://github.com/bobs-org/bob-cli--plans/commit/58c85771cf189d32ab86e746f47f73e9e6a904fa) | chore(plans): mark Ctrl+W window prefix epic done | [bob-cli-m0](README.md) | 2026-11-16 10:18:55 EST |
 
 <!-- sase:referenced-by:start -->
 
