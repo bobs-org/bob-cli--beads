@@ -43,8 +43,10 @@ actions: build the live snapshot adapter and executor that focuses, joins, creat
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-m0.3][1] | Need the phase scope and design file, and to inspect prior notes before resuming | 3 |
 | read-by | [agent:bob-cli-m0.4--1][2] | Need m0.3 status after wait so we know whether adapter/executor landed before vault sync | 1 |
+| read-by | [agent:bob-cli-m0.5][3] | Need spike verdict and prior-phase notes before implementing prefix | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.4.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md
 
 <!-- sase:referenced-by:end -->

@@ -41,7 +41,9 @@ hint: paint the armed ring, key-cap badge, hint card with minimap, nudges, pulse
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-m0.4--1][1] | Confirm phase stayed closed after linked-repo keep commit declaration | 2 |
+| read-by | [agent:bob-cli-m0.5][2] | Need spike verdict and prior-phase notes before implementing prefix | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-m0.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md
 
 <!-- sase:referenced-by:end -->

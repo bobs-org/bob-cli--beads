@@ -43,8 +43,10 @@ spike: build the window-prefix CDP e2e harness and prove lossless cross-group ta
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-m0.1][1] | check remaining work notes | 2 |
 | read-by | [agent:bob-cli-m0.3][2] | Need determine whether the same clean-base npm test failures were already recorded by the earlier phase before adding a follow-up note | 1 |
+| read-by | [agent:bob-cli-m0.5][3] | Need spike verdict and prior-phase notes before implementing prefix | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md
 
 <!-- sase:referenced-by:end -->

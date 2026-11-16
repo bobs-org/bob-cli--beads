@@ -17,6 +17,8 @@
 | related | file:explicit:55d6a09e11f47cb0ecee0a5d | attached via sase artifact create --bead |
 | related | file:explicit:e771d096dd4571d1141e3edb | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -31,7 +33,7 @@ prefix: wire the capture listener, armed keymap scope, arming gate, dispatch, ca
 
 - **Depends on:** [bob-cli-m0.3](bob-cli-m0.3.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-m0.4](bob-cli-m0.4.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-m0.6](bob-cli-m0.6.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-m0.6](bob-cli-m0.6.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -44,3 +46,15 @@ prefix: wire the capture listener, armed keymap scope, arming gate, dispatch, ca
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@c725370`](https://github.com/bobs-org/bob-plugins/commit/c72537068ac0601f42069cd8af3f53d928614ba8) | feat(navigation): add Ctrl+W prefix state machine | [bob-cli-m0.5](bob-cli-m0.5.md) | 2026-11-16 08:25:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-m0.5][1] | Need the phase scope, notes, and design file after context compaction | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-m0.5/README.md
+
+<!-- sase:referenced-by:end -->
