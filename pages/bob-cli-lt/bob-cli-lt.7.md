@@ -21,7 +21,7 @@ setup-card: build the keyboard-first Setup card shell, Categories gestures, Undo
 
 - **Depends on:** [bob-cli-kr](../bob-cli-kr/README.md) ✓ · ⧖ 2026-11-12
 - **Depends on:** [bob-cli-lt.6](bob-cli-lt.6.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lt.8](bob-cli-lt.8.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lt.8](bob-cli-lt.8.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -34,3 +34,15 @@ setup-card: build the keyboard-first Setup card shell, Categories gestures, Undo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@65570a0`](https://github.com/bobs-org/bob-plugins/commit/65570a0e63537ce78a5c8d5366b7c53ec3f7442a) | feat(bank): add the keyboard-first setup card | [bob-cli-lt.7](bob-cli-lt.7.md) | 2026-11-15 22:22:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-lt.7--3][1] | Verify the proposed docs follow-up and phase notes before closing the phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.7.md
+
+<!-- sase:referenced-by:end -->

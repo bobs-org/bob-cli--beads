@@ -41,10 +41,10 @@ bank.md's nested bank: mapping renders on the hub as a calm, honest Setup header
 | [bob-cli-lt.2](bob-cli-lt.2.md) | Shared YAML span primitives and the bank entry editor | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.3](bob-cli-lt.3.md) | The Setup header on the bank hub | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.4](bob-cli-lt.4.md) | bob bank config update with category and group ops | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-lt.5](bob-cli-lt.5.md) | Account, rule, and setting ops with the migration refusals | ✓ closed | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lt.5](bob-cli-lt.5.md) | Account, rule, and setting ops with the migration refusals | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [bob-cli-lt.6](bob-cli-lt.6.md) | New category from the Category card | ✓ closed | medium | 2026-11-15 | 1 | 2 |
 | [bob-cli-lt.7](bob-cli-lt.7.md) | The Bank Setup card with the Categories section | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [bob-cli-lt.8](bob-cli-lt.8.md) | Accounts, Rules, and Checks in the Setup card | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [bob-cli-lt.8](bob-cli-lt.8.md) | Accounts, Rules, and Checks in the Setup card | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 
 ## Lineage
 
@@ -58,7 +58,7 @@ flowchart TD
     n5["bob-cli-lt.5: Account, rule, and setting ops with the migration refusals [closed]"]
     n6["bob-cli-lt.6: New category from the Category card [closed]"]
     n7["bob-cli-lt.7: The Bank Setup card with the Categories section [closed]"]
-    n8["bob-cli-lt.8: Accounts, Rules, and Checks in the Setup card [in_progress]"]
+    n8["bob-cli-lt.8: Accounts, Rules, and Checks in the Setup card [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -86,10 +86,10 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-lt.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.2.md) | [bob-cli-lt.2](bob-cli-lt.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.4.md) | [bob-cli-lt.4](bob-cli-lt.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-lt.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.5.md) | [bob-cli-lt.5](bob-cli-lt.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.5.md) | [bob-cli-lt.5](bob-cli-lt.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.6/README.md) | [bob-cli-lt.6](bob-cli-lt.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-lt.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-lt.7.md) | [bob-cli-lt.7](bob-cli-lt.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-lt.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.8/README.md) | [bob-cli-lt.8](bob-cli-lt.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.8/README.md) | [bob-cli-lt.8](bob-cli-lt.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-lt.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.land/README.md) | [bob-cli-lt](README.md) | 0 |
 
 ## Commits
@@ -102,7 +102,9 @@ flowchart TD
 | bob-cli | [`8a6d746`](https://github.com/bobs-org/bob-cli/commit/8a6d746d86a6ef88483530df22da0a65f666c620) | feat(bank): add guarded config update for category and group ops | [bob-cli-lt.4](bob-cli-lt.4.md) | 2026-11-15 18:19:29 EST |
 | bob-cli | [`1894456`](https://github.com/bobs-org/bob-cli/commit/189445652a6637099f7b22fad974e4447a83d1d4) | docs(bank): add the Category-card + New category filing step | [bob-cli-lt.6](bob-cli-lt.6.md) | 2026-11-15 18:52:37 EST |
 | bob-plugins | [`bob-plugins@1caabb8`](https://github.com/bobs-org/bob-plugins/commit/1caabb8d4148c1e46106f384e297f162d1c45139) | feat(bank): add New category from the Category card | [bob-cli-lt.6](bob-cli-lt.6.md) | 2026-11-15 18:53:17 EST |
+| bob-cli | [`893bd2a`](https://github.com/bobs-org/bob-cli/commit/893bd2afa2c5f6e339d7f5e32b21c8187dff92e3) | feat(bank): add account, rule, and setting writer ops | [bob-cli-lt.5](bob-cli-lt.5.md) | 2026-11-15 19:40:14 EST |
 | bob-plugins | [`bob-plugins@65570a0`](https://github.com/bobs-org/bob-plugins/commit/65570a0e63537ce78a5c8d5366b7c53ec3f7442a) | feat(bank): add the keyboard-first setup card | [bob-cli-lt.7](bob-cli-lt.7.md) | 2026-11-15 22:22:41 EST |
+| bob-plugins | [`bob-plugins@99e3410`](https://github.com/bobs-org/bob-plugins/commit/99e34103666e00b5edda98629eb40dc6ce9a7339) | feat(bank): add Accounts, Rules, and Checks to the Bank Setup card | [bob-cli-lt.8](bob-cli-lt.8.md) | 2026-11-15 22:41:08 EST |
 
 <!-- sase:referenced-by:start -->
 
