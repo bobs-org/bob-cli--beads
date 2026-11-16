@@ -30,7 +30,13 @@ setup-header: render the collapsed/expanded Setup header in both views, scope th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-lt.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.3/README.md) | [bob-cli-lt.3](bob-cli-lt.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@63ff165`](https://github.com/bobs-org/bob-plugins/commit/63ff1654a8ffc52c6c1419479a7e3bb17d08f012) | feat(bank): render the Setup header on the bank hub | [bob-cli-lt.3](bob-cli-lt.3.md) | 2026-11-15 16:28:58 EST |
 
 <!-- sase:referenced-by:start -->
 

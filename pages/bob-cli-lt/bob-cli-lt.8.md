@@ -13,8 +13,8 @@ setup-card-more: add the Accounts, Rules, and Checks sections and their gestures
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-lt.5](bob-cli-lt.5.md) ◐ · ⧖ 2026-11-15
-- **Depends on:** [bob-cli-lt.7](bob-cli-lt.7.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lt.5](bob-cli-lt.5.md) ✓ · ⧖ 2026-11-15
+- **Depends on:** [bob-cli-lt.7](bob-cli-lt.7.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

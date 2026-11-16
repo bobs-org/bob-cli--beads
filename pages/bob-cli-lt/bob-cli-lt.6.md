@@ -21,19 +21,20 @@ category-new: add the plugin config-update service and shared session, and the +
 
 - **Depends on:** [bob-cli-lt.3](bob-cli-lt.3.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [bob-cli-lt.4](bob-cli-lt.4.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [bob-cli-lt.7](bob-cli-lt.7.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [bob-cli-lt.7](bob-cli-lt.7.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-lt.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.6/README.md) | [bob-cli-lt.6](bob-cli-lt.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-lt.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-lt.6/README.md) | [bob-cli-lt.6](bob-cli-lt.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1894456`](https://github.com/bobs-org/bob-cli/commit/189445652a6637099f7b22fad974e4447a83d1d4) | docs(bank): add the Category-card + New category filing step | [bob-cli-lt.6](bob-cli-lt.6.md) | 2026-11-15 18:52:37 EST |
+| bob-plugins | [`bob-plugins@1caabb8`](https://github.com/bobs-org/bob-plugins/commit/1caabb8d4148c1e46106f384e297f162d1c45139) | feat(bank): add New category from the Category card | [bob-cli-lt.6](bob-cli-lt.6.md) | 2026-11-15 18:53:17 EST |
 
 <!-- sase:referenced-by:start -->
 
