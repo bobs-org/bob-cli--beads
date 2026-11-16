@@ -25,10 +25,4 @@ mac-note-core: decode the note_goto contract, add the `.noteGoto` source, a note
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ly.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.3.md) | [bob-cli-ly.3](bob-cli-ly.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@19e4c40`](https://github.com/bobs-org/bob-mac-capture/commit/19e4c4048a0e7bfbdc69eeb356ddb497481dca99) | fix(capture): normalize relation equals aliases | [bob-cli-ly.3](bob-cli-ly.3.md) | 2026-11-15 19:27:29 EST |
+| [bbugyi200.athena.bob-cli-ly.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.3.md) | [bob-cli-ly.3](bob-cli-ly.3.md) | 0 |
