@@ -31,6 +31,18 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 
 [2026-11-16T07:06:04Z · bob-cli-ly.4--8] Additional rerun result: preflight run 43818820494 (https://github.com/bobs-org/bob-mac-capture/actions/runs/43818820494) passed all required macOS steps at snapshot SHA 63a47335b58ed85c7fbf8e98e804b7dec75c3889; the following watcher again selected failed run 43807263097 for HEAD 39ba0d0ea0304a2780f31c5da5c0e0bd094b5f3d. The fixture correction is still only a local working-tree change. Staged monitor sp1nxf29fw12 runs only just portable-check because the shell chain was split at &&; its follow-up must run Scripts/macos-ci-check and .sase/watch-note-goto-ci.sh against the committed fixture-correction SHA before closing this phase. Keep bob-cli-ly.4 open until that exact-HEAD run and watcher pass. Parent epic remains open. Docs-check baseline is unchanged at 6,281 words, 281 over the 6,000-word cap.
 
+[2026-11-16T07:46:46Z · bob-cli-ly.4--a] Exact-SHA CI run 43821665141 (https://github.com/bobs-org/bob-mac-capture/actions/runs/43821665141) matched HEAD f24475e53185c8ca94534d6633ed35dc28ad1353 but failed only CaptureSeparatorToggleTests.testOlderBobMoveAliasReplyLeavesLiteralWithoutOpeningPicker at CaptureSeparatorToggleTests.swift:1272. This test also failed in an earlier phase run and later passed; the current commit changes only the //monthly fake-bob parse fixture. macos-ci-check passed the identical tree at snapshot SHA 70de9a5f845bb557cb0a0a3dc7e1379a9bcd38eb (run 43822641566). No phase regression is reproduced; rerunning the failed exact-SHA job and keeping this phase open.
+
+[2026-11-16T08:09:12Z · bob-cli-ly.4--b] Exact-SHA rerun attempt 2: https://github.com/bobs-org/bob-mac-capture/actions/runs/43821665141 tested headSha f24475e53185c8ca94534d6633ed35dc28ad1353 and failed in Test after lint and Build passed. Full run summary: 4,784 tests, 1 skipped, 1 failed. Attempt 2 failed CaptureSeparatorToggleTests.testUnchangedAliasReplyLeavesPeriodLiteralWithoutOpeningPicker at line 1170 because the capture-rewrite record assertion was absent after its fixed 200 ms wait; the attempt 1 failure, testOlderBobMoveAliasReplyLeavesLiteralWithoutOpeningPicker, passed on attempt 2. The commit changes only the fake-bob //monthly fixture and its JSON response, so no Notes picker phase regression is reproduced. Prior portable-check remains 2,512 passed, 1 skipped; docs-check baseline remains 6,281 words, 281 over cap. Keep bob-cli-ly.4 open and parent bob-cli-ly open. The clean-base CaptureDotRouteAliasTests.testFastDoubleDotBeforeReplyCollapsesToOne follow-up remains separate.
+
+[2026-11-16T10:37:18Z · bob-cli-ly.4] Recovery scope is small enough for one coder: all Notes panel code, fixtures, and docs are already landed in bob-mac-capture through f24475e53185c8ca94534d6633ed35dc28ad1353. The latest exact-SHA run 43821665141 attempt 2 fails only an unchanged-alias subprocess record assertion after a fixed 200 ms sleep. Replaced fixed sleeps in four unchanged-reply separator tests with an immediate rewrite-start assertion and a bounded wait for rewrite completion; fake replies deliberately wait 300 ms to exercise this timing. No production code or memory changes. Verified the approved bases=yes branch on the live Mac: an existing visible .base opened through obsidian://bob-open-notes with count=1/path1 and no line1, the resulting view type was bases, its contents were identical before/after, and the previous active leaf was restored. epic-symbols reports no entries. Next verification must compile this edited tree in a scratch Mac copy, run portable-check and Scripts/macos-ci-check, then commit through sase_final and watch the new committed exact SHA before closing only this phase. Do not reuse the old f24475e5 failed run as evidence for the fixed tree.
+
+[2026-11-16T11:13:53Z · bob-cli-ly.4--1] Verification recovery: monitor ggvpm81v09dc passed portable-check (2,512 tests, 1 skipped) and scratch Mac bundle plus all four typecheck targets. Preflight run https://github.com/bobs-org/bob-mac-capture/actions/runs/43852193445 (snapshot f5f21a13c6662bc05c18d54a51f8e954e71ef7b6) passed lint/build, all 10 CaptureNoteGotoPanelTests and all 82 CaptureSeparatorToggleTests, then failed only CaptureAliasTipPanelTests.testListThenPickerSequenceShowsAtMostOneTip (3 cascading assertions). Its first route tip must beat a 200 ms completion debounce; a late reply is correctly dropped, so the assumed first shown tip is missing. Changed this session-limit test to await and apply the real fake-bob route-tip reply before requesting completion, with a deliberate 300 ms reply and an 8-second bound; added explicit first-tip count and session-drop assertions. Only two test files are dirty (the four separator cases carried from the prior turn plus this alias-tip case); production, docs, fixtures, and memory are unchanged. Recompile and preflight this new tree before committing, then watch the new committed exact HEAD; do not watch old f24475e5 while these edits are dirty.
+
+[2026-11-16T11:53:37Z · bob-cli-ly.4--2] Green preflight: monitor m59y80ee7mcg completed successfully (portable-check, scratch Mac bundle and all four test-target typechecks, then Scripts/macos-ci-check). Required macOS lint, build, tests, bundle, si
+
+… and 860 more characters
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ly.2](bob-cli-ly.2.md) ✓ · ⧖ 2026-11-15
@@ -41,7 +53,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-ly.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md) | [bob-cli-ly.4](bob-cli-ly.4.md) | 4 |
+| [bbugyi200.athena.bob-cli-ly.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md) | [bob-cli-ly.4](bob-cli-ly.4.md) | 5 |
 
 ## Commits
 
@@ -51,6 +63,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 | bob-mac-capture | [`bob-mac-capture@d12cd6c`](https://github.com/bobs-org/bob-mac-capture/commit/d12cd6c7d94d61d300e102257e065eb17d8ad646) | fix(capture): compile Notes picker macOS tests | [bob-cli-ly.4](bob-cli-ly.4.md) | 2026-11-15 23:29:36 EST |
 | bob-mac-capture | [`bob-mac-capture@39ba0d0`](https://github.com/bobs-org/bob-mac-capture/commit/39ba0d0ea0304a2780f31c5da5c0e0bd094b5f3d) | fix(capture): correct Notes picker CI fixtures | [bob-cli-ly.4](bob-cli-ly.4.md) | 2026-11-15 23:58:25 EST |
 | bob-mac-capture | [`bob-mac-capture@f24475e`](https://github.com/bobs-org/bob-mac-capture/commit/f24475e53185c8ca94534d6633ed35dc28ad1353) | fix(capture): add monthly Notes picker parse fixture | [bob-cli-ly.4](bob-cli-ly.4.md) | 2026-11-16 02:08:15 EST |
+| bob-mac-capture | [`bob-mac-capture@1e0a344`](https://github.com/bobs-org/bob-mac-capture/commit/1e0a344e948b81e675dfcd6090aa4cd901721c01) | test(capture): synchronize separator replies and alias tip setup | [bob-cli-ly.4](bob-cli-ly.4.md) | 2026-11-16 06:55:13 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -61,6 +74,7 @@ mac-note-panel: wire `note_goto` into the panel model and key router (continuati
 | read-by | [agent:bob-cli-ly.4--1][1] | Need the assigned phase scope, design path, and epic decisions while recovering the failed exact-SHA Mac CI run | 1 |
 | read-by | [agent:bob-cli-ly.4--4][1] | Review the open Notes picker phase before recording the newly confirmed macOS test-target compile regression and staging verification | 2 |
 | read-by | [agent:bob-cli-ly.4--5][1] | Review the phase bead before recording this second failed macOS CI run and its focused fixture corrections | 1 |
+| read-by | [agent:bob-cli-ly.4--8][1] | Review the phase record before appending the failed watcher and exact-SHA evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ly.4.md
 
