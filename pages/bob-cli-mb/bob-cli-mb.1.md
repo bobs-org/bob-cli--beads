@@ -20,7 +20,7 @@ cli-archive-scope: give `note_catalog` one shared path-tier predicate (living, a
 ## Dependencies
 
 - **Blocks:** [bob-cli-mb.2](bob-cli-mb.2.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mb.4](bob-cli-mb.4.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mb.4](bob-cli-mb.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

@@ -21,7 +21,7 @@ mac-recent-notes: record each successful `//` open in an app-local, schema-versi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mb.4](bob-cli-mb.4.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mb.4](bob-cli-mb.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

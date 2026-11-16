@@ -19,7 +19,13 @@ plugin-open-notes-jump: in bob-navigation-hotkeys, record a Vim jump from the pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.5/README.md) | [bob-cli-mb.5](bob-cli-mb.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-mb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mb.5/README.md) | [bob-cli-mb.5](bob-cli-mb.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c68ff50`](https://github.com/bobs-org/bob-plugins/commit/c68ff50650eaa340eef610092644b3492a148179) | feat(navigation): record a jump on line-less bob-open-notes opens | [bob-cli-mb.5](bob-cli-mb.5.md) | 2026-11-16 10:41:20 EST |
 
 <!-- sase:referenced-by:start -->
 
