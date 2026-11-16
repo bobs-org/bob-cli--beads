@@ -13,7 +13,7 @@ album-arrange: wire the engine into the album card. Alt+J/K, ends, counts, and m
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mf.4](bob-cli-mf.4.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mf.4](bob-cli-mf.4.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mf.6](bob-cli-mf.6.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

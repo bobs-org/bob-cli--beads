@@ -20,7 +20,7 @@ arrange-engine: add a DOM-free projected-order model with nudges, edges, gap pla
 ## Dependencies
 
 - **Depends on:** [bob-cli-mf.1](bob-cli-mf.1.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mf.4](bob-cli-mf.4.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mf.4](bob-cli-mf.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ arrange-engine: add a DOM-free projected-order model with nudges, edges, gap pla
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@afbb325`](https://github.com/bobs-org/bob-plugins/commit/afbb325018212e38dadbab900ca3ae1d5bd8b8e6) | feat(bob-ledger-tools): add pure schema arrangement engine | [bob-cli-mf.2](bob-cli-mf.2.md) | 2026-11-16 16:37:00 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.2/README.md
+
+<!-- sase:referenced-by:end -->
