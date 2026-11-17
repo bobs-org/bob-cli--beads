@@ -23,7 +23,13 @@ cli-guards: stream attachment hashing and copying (no whole-file buffers, abort 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.3/README.md) | [bob-cli-mj.3](bob-cli-mj.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-mj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.3/README.md) | [bob-cli-mj.3](bob-cli-mj.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`7483427`](https://github.com/bobs-org/bob-cli/commit/748342701f592c5c0f7005ed064f8ed83a762911) | feat(attachments)!: stream and guard attachment copies | [bob-cli-mj.3](bob-cli-mj.3.md) | 2026-11-16 19:40:36 EST |
 
 <!-- sase:referenced-by:start -->
 

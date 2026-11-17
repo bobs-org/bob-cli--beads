@@ -25,10 +25,16 @@ mac-video-card: count videos in the clip header, show size_bytes, and render a c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mj.5.md) | [bob-cli-mj.5](bob-cli-mj.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-mj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mj.5.md) | [bob-cli-mj.5](bob-cli-mj.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@2c40f68`](https://github.com/bobs-org/bob-mac-capture/commit/2c40f68df3a1ff3a6207f1687f43d80d7841c7f8) | feat(capture): show video posters and sizes in the clip card | [bob-cli-mj.5](bob-cli-mj.5.md) | 2026-11-16 19:59:17 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mj.5--1][1] | Need the phase scope, notes, and design file before closing after green macos-ci-check | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mj.5.md
+
+<!-- sase:referenced-by:end -->

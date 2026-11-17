@@ -21,7 +21,7 @@ plugin-z-dispatch: teach the Z resolver and path-bullet import about the video c
 
 - **Depends on:** [bob-cli-mj.1](bob-cli-mj.1.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [bob-cli-mj.2](bob-cli-mj.2.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mj.6](bob-cli-mj.6.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mj.6](bob-cli-mj.6.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -34,3 +34,15 @@ plugin-z-dispatch: teach the Z resolver and path-bullet import about the video c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@307646c`](https://github.com/bobs-org/bob-plugins/commit/307646ce78f7ab3a2257c2eac92b1e020fa70829) | feat(navigation): add video media to Z zoom | [bob-cli-mj.4](bob-cli-mj.4.md) | 2026-11-16 20:02:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mj.4][1] | Need the phase scope, design file, prior notes, and epic decisions before continuing work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.4/README.md
+
+<!-- sase:referenced-by:end -->
