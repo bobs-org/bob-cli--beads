@@ -18,7 +18,7 @@ report: wire the resolver into `bob bank report` for every period selector as an
 ## Dependencies
 
 - **Depends on:** [bob-cli-mg.1](bob-cli-mg.1.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mg.3](bob-cli-mg.3.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mg.3](bob-cli-mg.3.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -31,3 +31,15 @@ report: wire the resolver into `bob bank report` for every period selector as an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7b26a70`](https://github.com/bobs-org/bob-cli/commit/7b26a707d955c87a48609b92d52cac9f7012b276) | feat(bank): report period closing balances in bank report | [bob-cli-mg.2](bob-cli-mg.2.md) | 2026-11-16 17:37:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mg.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.2/README.md
+
+<!-- sase:referenced-by:end -->

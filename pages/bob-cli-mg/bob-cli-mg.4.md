@@ -13,7 +13,7 @@ vocabulary: apply the accepted memory decisions (Bank Closing glossary strand, S
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mg.3](bob-cli-mg.3.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mg.3](bob-cli-mg.3.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

@@ -31,7 +31,7 @@ Every week, quarter, ISO-year, and all-time note shows the checking account's ex
 |---|---|---|---|---|---:|---:|
 | [bob-cli-mg.1](bob-cli-mg.1.md) | Historical balance resolver and check findings | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mg.2](bob-cli-mg.2.md) | balances\[\] in bob bank report, human line, and docs | ✓ closed | small | 2026-11-16 | 1 | 1 |
-| [bob-cli-mg.3](bob-cli-mg.3.md) | Bank Charts header balance readout in bob-ledger-tools | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mg.3](bob-cli-mg.3.md) | Bank Charts header balance readout in bob-ledger-tools | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mg.4](bob-cli-mg.4.md) | Bank Closing vocabulary and decision record | ◐ in_progress | small | 2026-11-16 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n0["bob-cli-mg: Period closing balance for WF Checking on period notes [in_progress]"]
     n1["bob-cli-mg.1: Historical balance resolver and check findings [closed]"]
     n2["bob-cli-mg.2: balances[] in bob bank report, human line, and docs [closed]"]
-    n3["bob-cli-mg.3: Bank Charts header balance readout in bob-ledger-tools [in_progress]"]
+    n3["bob-cli-mg.3: Bank Charts header balance readout in bob-ledger-tools [closed]"]
     n4["bob-cli-mg.4: Bank Closing vocabulary and decision record [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -58,7 +58,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-mg.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.1/README.md) | [bob-cli-mg.1](bob-cli-mg.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mg.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.2/README.md) | [bob-cli-mg.2](bob-cli-mg.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.3/README.md) | [bob-cli-mg.3](bob-cli-mg.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.3/README.md) | [bob-cli-mg.3](bob-cli-mg.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mg.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.4/README.md) | [bob-cli-mg.4](bob-cli-mg.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mg.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.land/README.md) | [bob-cli-mg](README.md) | 0 |
 
@@ -68,6 +68,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`e49dbd4`](https://github.com/bobs-org/bob-cli/commit/e49dbd465daac7888ff45eb00e2f4e00c1beed6e) | feat(bank): add historical posted-balance resolver and check findings | [bob-cli-mg.1](bob-cli-mg.1.md) | 2026-11-16 16:34:25 EST |
 | bob-cli | [`7b26a70`](https://github.com/bobs-org/bob-cli/commit/7b26a707d955c87a48609b92d52cac9f7012b276) | feat(bank): report period closing balances in bank report | [bob-cli-mg.2](bob-cli-mg.2.md) | 2026-11-16 17:37:43 EST |
+| bob-cli | [`3f47869`](https://github.com/bobs-org/bob-cli/commit/3f4786912cb40ca87e7ae231f085b05a65652a13) | docs(bank): document bank period balance readout | [bob-cli-mg.3](bob-cli-mg.3.md) | 2026-11-16 19:07:26 EST |
 
 <!-- sase:referenced-by:start -->
 
