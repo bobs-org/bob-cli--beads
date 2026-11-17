@@ -13,7 +13,7 @@ record-session: plugin service for records show/update, a record session over th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ms.2](bob-cli-ms.2.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-ms.2](bob-cli-ms.2.md) ✓ · ⧖ 2026-11-17
 - **Depends on:** [bob-cli-ms.3](bob-cli-ms.3.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-ms.5](bob-cli-ms.5.md) ◐ · ⧖ 2026-11-17
 

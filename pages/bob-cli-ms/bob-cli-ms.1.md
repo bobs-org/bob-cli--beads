@@ -23,13 +23,19 @@ record-read: add an optional STEM to bob records show that returns one record's 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ms.2](bob-cli-ms.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-ms.2](bob-cli-ms.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ms.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.1.md) | [bob-cli-ms.1](bob-cli-ms.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.1.md) | [bob-cli-ms.1](bob-cli-ms.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`9900597`](https://github.com/bobs-org/bob-cli/commit/99005975e15aaa3c2440b36e8f87dc4481908500) | feat(records): add per-record show STEM and fingerprint | [bob-cli-ms.1](bob-cli-ms.1.md) | 2026-11-17 13:38:16 EST |
 
 <!-- sase:referenced-by:start -->
 
