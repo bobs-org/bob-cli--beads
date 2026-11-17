@@ -25,7 +25,13 @@ plugin-reds: update the stale walkMode v5 and hex-guard pins (bob-cli-md), stop 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mr.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mr.1/README.md) | [bob-cli-mr.1](bob-cli-mr.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-mr.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mr.1/README.md) | [bob-cli-mr.1](bob-cli-mr.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b0a9c89`](https://github.com/bobs-org/bob-plugins/commit/b0a9c89d9f38a6219ef126c3d2a6719e86f572ea) | fix(navigation): clear deterministic npm test reds for walkMode guards, Platform shadowing, and block-marks dates | [bob-cli-mr.1](bob-cli-mr.1.md) | 2026-11-17 11:29:56 EST |
 
 <!-- sase:referenced-by:start -->
 

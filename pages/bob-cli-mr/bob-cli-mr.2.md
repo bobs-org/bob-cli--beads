@@ -18,7 +18,7 @@ closed-prereqs: filter capture promotion seeds by graph.open, guard the rewrite 
 ## Dependencies
 
 - **Depends on:** [bob-cli-mr.1](bob-cli-mr.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-mr.3](bob-cli-mr.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mr.3](bob-cli-mr.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
