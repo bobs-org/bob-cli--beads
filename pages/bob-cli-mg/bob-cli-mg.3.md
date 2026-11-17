@@ -24,10 +24,11 @@ readout: decode `balances[]` and paint the hero's resting BALANCE readout in the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-mg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.3/README.md) | [bob-cli-mg.3](bob-cli-mg.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-mg.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mg.3/README.md) | [bob-cli-mg.3](bob-cli-mg.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`3f47869`](https://github.com/bobs-org/bob-cli/commit/3f4786912cb40ca87e7ae231f085b05a65652a13) | docs(bank): document bank period balance readout | [bob-cli-mg.3](bob-cli-mg.3.md) | 2026-11-16 19:07:26 EST |
+| bob-plugins | [`bob-plugins@1795245`](https://github.com/bobs-org/bob-plugins/commit/17952459960b28f6c49638766803a08ff0ac586a) | feat(ledger-tools): add bank period balance readout model, decode, paint, previews and tests | [bob-cli-mg.3](bob-cli-mg.3.md) | 2026-11-16 19:08:01 EST |
