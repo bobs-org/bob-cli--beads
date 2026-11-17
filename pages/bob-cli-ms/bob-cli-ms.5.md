@@ -13,7 +13,7 @@ record-card: keyboard-first Record Card modal in the Task Card / Schema Card idi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ms.4](bob-cli-ms.4.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-ms.4](bob-cli-ms.4.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-ms.6](bob-cli-ms.6.md) ◐ · ⧖ 2026-11-17
 
 ## Agents

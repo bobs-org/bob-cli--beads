@@ -20,7 +20,7 @@ record-envelope: add bob records update -i FILE, a guarded envelope of typed fie
 ## Dependencies
 
 - **Depends on:** [bob-cli-ms.1](bob-cli-ms.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-ms.4](bob-cli-ms.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-ms.4](bob-cli-ms.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -33,3 +33,15 @@ record-envelope: add bob records update -i FILE, a guarded envelope of typed fie
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`48a3116`](https://github.com/bobs-org/bob-cli/commit/48a3116d8aacce34fc3093c97048dcdcd913f7c1) | feat(records): guarded JSON envelope for bob records update | [bob-cli-ms.2](bob-cli-ms.2.md) | 2026-11-17 15:41:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ms.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md
+
+<!-- sase:referenced-by:end -->
