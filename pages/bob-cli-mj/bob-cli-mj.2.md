@@ -19,7 +19,7 @@ plugin-video-viewer: add behavior-preserving media hooks to ImageZoomModal and b
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mj.4](bob-cli-mj.4.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mj.4](bob-cli-mj.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

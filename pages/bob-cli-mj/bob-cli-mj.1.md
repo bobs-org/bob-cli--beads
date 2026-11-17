@@ -18,8 +18,8 @@ cli-video: add AttachmentKind::Video (mp4 mov webm mkv) copied to vid/ and embed
 ## Dependencies
 
 - **Blocks:** [bob-cli-mj.3](bob-cli-mj.3.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mj.4](bob-cli-mj.4.md) ◐ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mj.5](bob-cli-mj.5.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mj.4](bob-cli-mj.4.md) ✓ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mj.5](bob-cli-mj.5.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

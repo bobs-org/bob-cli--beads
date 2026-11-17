@@ -13,7 +13,7 @@ plugin-video-transport: add the hairline scrubber with hover time bubble and dra
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mj.4](bob-cli-mj.4.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mj.4](bob-cli-mj.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

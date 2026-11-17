@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [bob-cli-mj](README.md) / bob-cli-mj.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.63.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.research.63.linker.w0.md) · **Assignee:** `bob-cli-mj.4` · **Size:** medium
-**Created:** 2026-11-16 17:31:30 EST
+**Created:** 2026-11-16 17:31:30 EST · **Closed:** 2026-11-16 19:44:49 EST
 **Plan:** [202611/video\_attachments\_z\_player.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/video_attachments_z_player.md)
 
 ## Description
 
 plugin-z-dispatch: teach the Z resolver and path-bullet import about the video catalog, open VideoZoomModal for videos, degrade against an old bob, ship the inline 400 px embed CSS, update the image-zoom docs, add the real-Obsidian video e2e harness, and deploy with bob plugins sync.
+
+## Notes
+
+[2026-11-17T00:41:54Z · bob-cli-mj.4] PROPOSED FOLLOW-UP: Full npm test has unrelated clean-base failures, reproduced on bob-plugins HEAD 866bb77 (14 failures): bank Setup (tracked in bob-cli-mf.4 note #1), walkMode/style pins (bob-cli-md), Platform shadow tests (bob-cli-me), block-marks hardcoded date fixture (bob-cli-m8), and parallel performance gates (bob-cli-ki, bob-cli-ju, bob-cli-io). Zoom-specific tests and the real Obsidian video/import scenarios pass.
+
+[2026-11-17T00:44:49Z · bob-cli-mj.4] Implemented and deployed video-aware Z media handling, legacy file/ video resolution, path-bullet imports with bob, inline 400px sizing, docs, and the real Obsidian e2e. Verified build, focused tests (101/101), real Obsidian scenarios (8/8), docs:check (448 passed), and bob plugins sync. Full npm test has unrelated clean-base failures recorded as follow-ups with existing bead references.
 
 ## Dependencies
 
