@@ -13,7 +13,7 @@ bank-arrange: bring arrangement editing to bank categories, groups, and rules (a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mf.7](bob-cli-mf.7.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mf.7](bob-cli-mf.7.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mf.9](bob-cli-mf.9.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

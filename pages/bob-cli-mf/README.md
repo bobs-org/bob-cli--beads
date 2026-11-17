@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/schema_editor_arrange_and_emoji.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/schema_editor_arrange_and_emoji.md
 
 <!-- sase:links:end -->
@@ -22,6 +24,10 @@
 ## Description
 
 The album Schema Card and the Bank setup card move fields, choices, categories, groups, and rules any distance with an instant local preview, then save the whole arrangement as one guarded bob transaction with one commit and one Undo. Every emoji prompt is a searchable Emoji Slot. Both cards use a calmer, contextual layout. Bob stays the only writer, and nothing is saved without a successful preview of the exact envelope.
+
+## Notes
+
+[2026-11-17T01:58:36Z · bob-cli-mj.land] DISCOVERED ISSUE: bob-plugins master b5491d3 full npm test still reds on test-ledger-tools-bank-setup.cjs: not ok 'Setup card model preserves Category-card order and maps category gestures to guarded ops' and 'Setup card selects by key, protects focused typing, and stages shared New category input'. This matches bob-cli-mf.4's PROPOSED FOLLOW-UP (category.set label '☕ Cafe' vs 'Cafe' after e35afc1). Reproduced by bob-cli-mj.land; bob-cli-mj.2 and bob-cli-mj.4 proposed the same follow-up. Not caused by the video epic bob-cli-mj.
 
 ## Phases
 
@@ -33,8 +39,8 @@ The album Schema Card and the Bank setup card move fields, choices, categories, 
 | [bob-cli-mf.3](bob-cli-mf.3.md) | bob-emoji search upgrades and api v1 | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.4](bob-cli-mf.4.md) | Album Schema Card visual refresh and region painting | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.5](bob-cli-mf.5.md) | Album arrangement editing and one-envelope save | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [bob-cli-mf.6](bob-cli-mf.6.md) | Shared Emoji Slot in the album card | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
-| [bob-cli-mf.7](bob-cli-mf.7.md) | Add-and-place ghosts and pointer drag | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mf.6](bob-cli-mf.6.md) | Shared Emoji Slot in the album card | ✓ closed | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mf.7](bob-cli-mf.7.md) | Add-and-place ghosts and pointer drag | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.8](bob-cli-mf.8.md) | Bank setup card arrangement parity | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mf.9](bob-cli-mf.9.md) | Emoji Slot for bank categories | ◐ in_progress | small | 2026-11-16 | 1 | 0 |
 
@@ -49,8 +55,8 @@ flowchart TD
     n4["bob-cli-mf.3: bob-emoji search upgrades and api v1 [closed]"]
     n5["bob-cli-mf.4: Album Schema Card visual refresh and region painting [closed]"]
     n6["bob-cli-mf.5: Album arrangement editing and one-envelope save [closed]"]
-    n7["bob-cli-mf.6: Shared Emoji Slot in the album card [in_progress]"]
-    n8["bob-cli-mf.7: Add-and-place ghosts and pointer drag [in_progress]"]
+    n7["bob-cli-mf.6: Shared Emoji Slot in the album card [closed]"]
+    n8["bob-cli-mf.7: Add-and-place ghosts and pointer drag [closed]"]
     n9["bob-cli-mf.8: Bank setup card arrangement parity [in_progress]"]
     n10["bob-cli-mf.9: Emoji Slot for bank categories [in_progress]"]
     n0 --> n1
@@ -84,8 +90,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.3/README.md) | [bob-cli-mf.3](bob-cli-mf.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.4/README.md) | [bob-cli-mf.4](bob-cli-mf.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.5/README.md) | [bob-cli-mf.5](bob-cli-mf.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.6/README.md) | [bob-cli-mf.6](bob-cli-mf.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-mf.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.7/README.md) | [bob-cli-mf.7](bob-cli-mf.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mf.6.md) | [bob-cli-mf.6](bob-cli-mf.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mf.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.7/README.md) | [bob-cli-mf.7](bob-cli-mf.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.8/README.md) | [bob-cli-mf.8](bob-cli-mf.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mf.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.9/README.md) | [bob-cli-mf.9](bob-cli-mf.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.land/README.md) | [bob-cli-mf](README.md) | 0 |
@@ -99,3 +105,16 @@ flowchart TD
 | bob-plugins | [`bob-plugins@afbb325`](https://github.com/bobs-org/bob-plugins/commit/afbb325018212e38dadbab900ca3ae1d5bd8b8e6) | feat(bob-ledger-tools): add pure schema arrangement engine | [bob-cli-mf.2](bob-cli-mf.2.md) | 2026-11-16 16:37:00 EST |
 | bob-plugins | [`bob-plugins@3136865`](https://github.com/bobs-org/bob-plugins/commit/313686540a2b60943efce67ae2d8e50381a8a5fb) | feat(bob-ledger-tools): refresh Album Schema Card shell and region paint | [bob-cli-mf.4](bob-cli-mf.4.md) | 2026-11-16 17:20:20 EST |
 | bob-plugins | [`bob-plugins@866bb77`](https://github.com/bobs-org/bob-plugins/commit/866bb77c859d19046784324c58fd4e97ec86b00d) | feat(bob-ledger-tools): wire album arrangement editing and one-envelope save | [bob-cli-mf.5](bob-cli-mf.5.md) | 2026-11-16 18:18:09 EST |
+| bob-plugins | [`bob-plugins@1ff96bd`](https://github.com/bobs-org/bob-plugins/commit/1ff96bd15c67be57865454137b605277bf5170f9) | feat(ledger-tools): add-and-place ghosts and pointer drag for the album Schema Card | [bob-cli-mf.7](bob-cli-mf.7.md) | 2026-11-16 22:13:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.6--5][1] | Confirm the parent epic remains open after closing phase bob-cli-mf.6 | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mf.6.md
+
+<!-- sase:referenced-by:end -->

@@ -45,7 +45,11 @@ album-card-shell: give the album card one title line, the details row as the hea
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mf.4][1] | Need notes, remaining work, and design file from earlier agents before close-out | 6 |
+| read-by | [agent:bob-cli-mj.4][2] | Check whether the clean-base bank setup failures already have a follow-up bead. | 1 |
+| read-by | [agent:bob-cli-mj.land][3] | Need the bank-setup follow-up note to route the reproduction | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mj.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mj.land/README.md
 
 <!-- sase:referenced-by:end -->

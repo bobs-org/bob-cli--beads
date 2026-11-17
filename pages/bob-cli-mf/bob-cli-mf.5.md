@@ -20,7 +20,7 @@ album-arrange: wire the engine into the album card. Alt+J/K, ends, counts, and m
 ## Dependencies
 
 - **Depends on:** [bob-cli-mf.4](bob-cli-mf.4.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mf.6](bob-cli-mf.6.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mf.6](bob-cli-mf.6.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ album-arrange: wire the engine into the album card. Alt+J/K, ends, counts, and m
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@866bb77`](https://github.com/bobs-org/bob-plugins/commit/866bb77c859d19046784324c58fd4e97ec86b00d) | feat(bob-ledger-tools): wire album arrangement editing and one-envelope save | [bob-cli-mf.5](bob-cli-mf.5.md) | 2026-11-16 18:18:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.5][1] | Verify phase scope before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.5/README.md
+
+<!-- sase:referenced-by:end -->

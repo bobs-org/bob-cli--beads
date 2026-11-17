@@ -17,7 +17,7 @@ emoji-engine: normalize multi-token queries with tiered ranking, look up pasted 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mf.6](bob-cli-mf.6.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mf.6](bob-cli-mf.6.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
