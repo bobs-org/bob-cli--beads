@@ -34,3 +34,15 @@ bank-groups: add Shift+J/K category-group jumps in the Categories tab using pain
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@f80d0dd`](https://github.com/bobs-org/bob-plugins/commit/f80d0dd09ff23e5cb46f8ac4bb0fa09d81025c9a) | feat(bank-setup): walk category groups in painted order with Shift+J/K | [bob-cli-mu.3](bob-cli-mu.3.md) | 2026-11-17 16:51:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mu.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mu.3/README.md
+
+<!-- sase:referenced-by:end -->
