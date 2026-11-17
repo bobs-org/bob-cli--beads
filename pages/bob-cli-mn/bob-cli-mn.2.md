@@ -19,6 +19,8 @@ mac_record_list: in bob-mac-capture, skip the cached route list when the caret's
 
 [2026-11-17T14:30:19Z · bob-cli-mn.2--2] Master CI 44102169141 on 991c877e failed Check scripts, not the alias-tip hosted test: GateTests.test_sigterm_during_push got -9 because communicate(timeout=6) SIGKILL'd the gate after the stalled push printed the 5s command-timeout and before cleanup finished. Widening that wait (and SIGINT sibling) to 15s with TOTAL=20 CLEANUP=5. -r Record the Check scripts flake diagnosis on the closed phase bead
 
+[2026-11-17T15:08:55Z · bob-cli-mn.2--3] Record the Test-step alias-tip flake diagnosis on the closed phase bead Master CI 44104221689 on 22a95b64 failed Test (not Check scripts): CaptureAliasTipPanelTests.testChangedSeparatorReplyDoesNotDisableTheNextTipRequest timed out waiting for the follow-up @ list tip. Debounce 0 let capture-complete open the list first and drop the rewrite as late_reply. Giving that hosted test the 200ms debounce plus FAKE_BOB_CAPTURE_COMPLETE_DELAY_SECONDS=0.15 sibling first-frame tests already use. just portable-check passed; Mac scratch typecheck-tests passed (stub). -r
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-mn.1](bob-cli-mn.1.md) ✓ · ⧖ 2026-11-17
@@ -27,7 +29,7 @@ mac_record_list: in bob-mac-capture, skip the cached route list when the caret's
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mn.2.md) | [bob-cli-mn.2](bob-cli-mn.2.md) | 3 |
+| [bbugyi200.athena.bob-cli-mn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mn.2.md) | [bob-cli-mn.2](bob-cli-mn.2.md) | 4 |
 
 ## Commits
 
@@ -36,6 +38,7 @@ mac_record_list: in bob-mac-capture, skip the cached route list when the caret's
 | bob-mac-capture | [`bob-mac-capture@19a23f4`](https://github.com/bobs-org/bob-mac-capture/commit/19a23f40db527d6db0d1992aa24a45d13a5909b0) | feat(capture): list album records after a typed @album/ | [bob-cli-mn.2](bob-cli-mn.2.md) | 2026-11-17 08:13:30 EST |
 | bob-mac-capture | [`bob-mac-capture@991c877`](https://github.com/bobs-org/bob-mac-capture/commit/991c877e5cfe3030fb9516dee452af2f20f39f39) | test(capture): keep the alias tip when the route list filters | [bob-cli-mn.2](bob-cli-mn.2.md) | 2026-11-17 09:21:10 EST |
 | bob-mac-capture | [`bob-mac-capture@22a95b6`](https://github.com/bobs-org/bob-mac-capture/commit/22a95b6425efd7eb560103d574adc3d7689035ac) | test(ci): wait out SIGTERM cleanup in macos-ci-check tests | [bob-cli-mn.2](bob-cli-mn.2.md) | 2026-11-17 09:32:22 EST |
+| bob-mac-capture | [`bob-mac-capture@4d96d4a`](https://github.com/bobs-org/bob-mac-capture/commit/4d96d4a5a9027967c18f0e25618ef064c4c001ff) | test(capture): keep the follow-up tip after a separator rewrite | [bob-cli-mn.2](bob-cli-mn.2.md) | 2026-11-17 10:10:53 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -44,6 +47,7 @@ mac_record_list: in bob-mac-capture, skip the cached route list when the caret's
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mn.2--1][1] | Need the phase scope and design file after CI failure | 1 |
+| read-by | [agent:bob-cli-mn.2--2][1] | Inspect phase bead after Check scripts CI failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mn.2.md
 
