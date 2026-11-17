@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:320a6276021490979e5d934b | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -66,6 +66,7 @@ acceptance: run real-Obsidian walkthroughs that count commits for both cards, pl
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.10][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-mf.10--b][1] | Verify the appended acceptance rerun note and leave the phase open | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mf.10.md

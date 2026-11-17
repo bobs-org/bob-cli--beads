@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-mf
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.51.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.51.linker.w0.md) · **Assignee:** `bob-cli-mf.land`
-**Created:** 2026-11-16 15:38:38 EST
+**Created:** 2026-11-16 15:38:38 EST · **Closed:** 2026-11-17 05:01:56 EST
 **Plan:** [202611/schema\_editor\_arrange\_and\_emoji.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/schema_editor_arrange_and_emoji.md)
 
 <!-- sase:links:start -->
@@ -29,6 +29,36 @@ The album Schema Card and the Bank setup card move fields, choices, categories, 
 
 [2026-11-17T01:58:36Z · bob-cli-mj.land] DISCOVERED ISSUE: bob-plugins master b5491d3 full npm test still reds on test-ledger-tools-bank-setup.cjs: not ok 'Setup card model preserves Category-card order and maps category gestures to guarded ops' and 'Setup card selects by key, protects focused typing, and stages shared New category input'. This matches bob-cli-mf.4's PROPOSED FOLLOW-UP (category.set label '☕ Cafe' vs 'Cafe' after e35afc1). Reproduced by bob-cli-mj.land; bob-cli-mj.2 and bob-cli-mj.4 proposed the same follow-up. Not caused by the video epic bob-cli-mj.
 
+[2026-11-17T10:01:56Z · bob-cli-mf.land] LANDED by bob-cli-mf.land.
+
+VERIFY: Read the epic, its plan, all 10 phases, and every note. Checked the epic's bob-plugins commits (e35afc1, daceef0, afbb325, 3136865, 866bb77, 86ddb9f, 1ff96bd, 3c69a57, d898d01, 9babe42, 9ae8142) against the plan and decisions:
+- quiet_once Enter latch with loud second Enter (album and bank).
+- CLDR keywords vendored (bob-emoji 0.2.0, frozen api v1).
+- bank_cross_group=no: category moves clamp at the group edge with "⏎ edit to change group".
+- decision_record=no: no memory edited.
+- Also present: Emoji Slot with fallback and digit-keycap note, region painting, close-during-save Notice with undo seed, stale rebase-preview, timing rings, and the "bob disagrees" order check.
+- Every hand-edited fragment is ≤1000 lines. build:check is clean.
+- 22 focused suites: 226 pass, 2 skip, 0 fail.
+- The epic note's bank-setup reds (category.set "☕ Cafe" and q-in-input, caused by mf.1) were fixed in mf.8 3c69a57: bank-setup 37/37.
+
+EPIC REGRESSION FIXED IN LANDING: mf.8 added a `var(--text-warning, #c9a227)` hex fallback to bob-ledger-tools styles.css. It broke the reading-board and stats stylesheet contracts, which forbid hex in the CSS tail. The phases had called these pre-existing only by comparing against bases that already contained epic commits. Dropped the fallback, bumped bob-ledger-tools to 1.127.2, and regenerated the docs inventory. build:check, docs:check (447 pass, 1 skip), and bob plugins sync -p bob-ledger-tools all pass.
+
+Full npm test now: 7129 pass, 13 fail, 3 skip. All 13 failures also fail on a git-archive export of the true pre-epic base e35afc1~1 (14 fail there). None is HEAD-only.
+
+INTEGRATE: Post-start bob-cli commits (attachments, capture video, bank closing balance) do not touch albums update or bank config update. The epic changed no bob-cli code, and the mounted plugin docs are gitignored. Post-start bob-plugins commits from other beads (67073ac headers-expanded, 1795245 bank period balance, the mj video zoom series) were built on by later phases or touch disjoint fragments. Nothing duplicates or conflicts.
+
+FOLLOW-UPS:
+- Pre-existing suite reds (mf.2#1, mf.4#2, mf.5#1, mf.6#2, mf.9#1, mf.10#6): corroborated with +1 on bob-cli-md, bob-cli-me, bob-cli-m8, bob-cli-km, bob-cli-io, bob-cli-ki, and bob-cli-ju, plus the load flakes bob-cli-3w and bob-cli-lp.
+- Declined, Chromium-missing (mf.4#2): those tests skip, they do not fail.
+- Declined, bank-setup reds (mf.4#1, mf.7#1, epic note #1): fixed by mf.8.
+- Declined, screenshots (mf.4#3, mf.6#1): mf.10 captured and reviewed 29 album and 21 bank real-Obsidian screenshots, including the Emoji Slot empty, filtered, and browse states in light and dark.
+- Created bob-cli-mk (medium): real-Obsidian drag, ghost-add, and bank group-move walkthroughs (mf.7#2, mf.8#1). These are unit- and writer-e2e-covered, but this host has no Obsidian or Xvfb.
+- Created bob-cli-ml (large): album-level emoji (mf.10#5).
+- Created bob-cli-mm (large): stage-attributed save latency before CLI trims (mf.10#1, #2, #7).
+- Declined, decision record (mf.10#4): the reviewer explicitly chose decision_record=no, and filing it would reverse that answer.
+
+No --epic-symbol entries. No parent bead.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,7 +78,7 @@ The album Schema Card and the Bank setup card move fields, choices, categories, 
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-mf: Schema editors that arrange instantly and pick emoji beautifully [in_progress]"]
+    n0["bob-cli-mf: Schema editors that arrange instantly and pick emoji beautifully [closed]"]
     n1["bob-cli-mf.1: Quick fixes that ship before the redesign [closed]"]
     n2["bob-cli-mf.10: End-to-end acceptance, measurements, and decision record [closed]"]
     n3["bob-cli-mf.2: Pure arrangement engine [closed]"]
@@ -94,7 +124,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mf.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.7/README.md) | [bob-cli-mf.7](bob-cli-mf.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.8/README.md) | [bob-cli-mf.8](bob-cli-mf.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.9/README.md) | [bob-cli-mf.9](bob-cli-mf.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.land/README.md) | [bob-cli-mf](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.land/README.md) | [bob-cli-mf](README.md) | 1 |
 
 ## Commits
 
@@ -110,6 +140,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d898d01`](https://github.com/bobs-org/bob-plugins/commit/d898d01b03c51e516e82dc36f945bff599559147) | feat(bank): use the Emoji Slot for bank category stages | [bob-cli-mf.9](bob-cli-mf.9.md) | 2026-11-16 23:55:04 EST |
 | bob-plugins | [`bob-plugins@9babe42`](https://github.com/bobs-org/bob-plugins/commit/9babe42d50746942ffa09ea0c94b69e136a81aec) | feat(ledger-tools): add schema arrangement cards | [bob-cli-mf.10](bob-cli-mf.10.md) | 2026-11-17 03:18:58 EST |
 | bob-plugins | [`bob-plugins@9ae8142`](https://github.com/bobs-org/bob-plugins/commit/9ae8142d2950d24d5ea09dd555a10969dfdab822) | fix(ledger-tools): refresh saved arrangements and complete acceptance | [bob-cli-mf.10](bob-cli-mf.10.md) | 2026-11-17 04:26:29 EST |
+| bob-plugins | [`bob-plugins@b1832a7`](https://github.com/bobs-org/bob-plugins/commit/b1832a79d517f4beae899a1e1c376ce8786ba83e) | fix(ledger-tools): drop hex fallback from bank setup hotkey-shift badge | [bob-cli-mf](README.md) | 2026-11-17 05:02:53 EST |
 
 <!-- sase:referenced-by:start -->
 
