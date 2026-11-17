@@ -53,7 +53,7 @@ Follow-ups carried from lander triage: mr.3.1.1 #1 and mr.3.1.2 #1 duplicate gen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mr.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.land.md) | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-mr.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.land.md) | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 3 |
 
 ## Commits
 
@@ -61,6 +61,7 @@ Follow-ups carried from lander triage: mr.3.1.1 #1 and mr.3.1.2 #1 duplicate gen
 |---|---|---|---|---|
 | bob-cli | [`0e83df4`](https://github.com/bobs-org/bob-cli/commit/0e83df4cd5797841998afffe227b14052c01f2d7) | feat(scan): finish highlights scan lock-window landing repairs | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2026-11-17 17:23:08 EST |
 | bob-mac-capture | [`bob-mac-capture@bfbedda`](https://github.com/bobs-org/bob-mac-capture/commit/bfbedda918ab3884fcba3b16a6206437f3b913fa) | docs(refs): correct last-scan receipt wording for narrow lock window | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2026-11-17 17:23:46 EST |
+| bob-cli--plans | [`bob-cli--plans@123e50c`](https://github.com/bobs-org/bob-cli--plans/commit/123e50c8854e0b23e234ec5b6a96a0a61cd533e6) | chore(plans): mark highlights\_scan\_lock\_window done | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2026-11-17 17:24:15 EST |
 
 <!-- sase:referenced-by:start -->
 
