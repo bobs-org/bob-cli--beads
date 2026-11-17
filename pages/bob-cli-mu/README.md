@@ -88,7 +88,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mu.1/README.md) | [bob-cli-mu.1](bob-cli-mu.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mu.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mu.2/README.md) | [bob-cli-mu.2](bob-cli-mu.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mu.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mu.3/README.md) | [bob-cli-mu.3](bob-cli-mu.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mu.land.md) | [bob-cli-mu](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-mu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mu.land.md) | [bob-cli-mu](README.md) | 2 |
 
 ## Commits
 
@@ -98,6 +98,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e32deb6`](https://github.com/bobs-org/bob-plugins/commit/e32deb60574b3a2d09241e8d87d4501348fbe4c5) | feat(schema-card): number painted fields with hanging keycaps and a field hint | [bob-cli-mu.2](bob-cli-mu.2.md) | 2026-11-17 16:29:12 EST |
 | bob-plugins | [`bob-plugins@f80d0dd`](https://github.com/bobs-org/bob-plugins/commit/f80d0dd09ff23e5cb46f8ac4bb0fa09d81025c9a) | feat(bank-setup): walk category groups in painted order with Shift+J/K | [bob-cli-mu.3](bob-cli-mu.3.md) | 2026-11-17 16:51:37 EST |
 | bob-plugins | [`bob-plugins@b067881`](https://github.com/bobs-org/bob-plugins/commit/b067881386a0bd4239102f9de6f13e3571aa53a9) | fix(schema-card): size field keycaps on the row em and bump empty-schema Shift+K up | [bob-cli-mu](README.md) | 2026-11-17 18:19:30 EST |
+| bob-cli--plans | [`bob-cli--plans@5c8dc47`](https://github.com/bobs-org/bob-cli--plans/commit/5c8dc47a0b029270a3b8bf4dc034877d071895ad) | docs(plans): mark schema card field-jump epic and repair tale done | [bob-cli-mu](README.md) | 2026-11-17 18:20:43 EST |
 
 <!-- sase:referenced-by:start -->
 
