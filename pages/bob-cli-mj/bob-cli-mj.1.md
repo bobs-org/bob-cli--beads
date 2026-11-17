@@ -17,7 +17,7 @@ cli-video: add AttachmentKind::Video (mp4 mov webm mkv) copied to vid/ and embed
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mj.3](bob-cli-mj.3.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mj.3](bob-cli-mj.3.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mj.4](bob-cli-mj.4.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [bob-cli-mj.5](bob-cli-mj.5.md) ◐ · ⧖ 2026-11-16
 
@@ -32,3 +32,15 @@ cli-video: add AttachmentKind::Video (mp4 mov webm mkv) copied to vid/ and embed
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ff563eb`](https://github.com/bobs-org/bob-cli/commit/ff563ebd884836da71209ca601bbdc3409b10c1e) | feat(capture)!: embed clipboard videos from vid/ | [bob-cli-mj.1](bob-cli-mj.1.md) | 2026-11-16 18:33:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mj.1][1] | Confirm phase closed after final submit | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.1/README.md
+
+<!-- sase:referenced-by:end -->
