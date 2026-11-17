@@ -23,7 +23,7 @@ field-nav: route the Schema Card's targets through one painted-order helper shar
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mu.2](bob-cli-mu.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mu.2](bob-cli-mu.2.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-mu.3](bob-cli-mu.3.md) ◐ · ⧖ 2026-11-17
 
 ## Agents
@@ -37,3 +37,15 @@ field-nav: route the Schema Card's targets through one painted-order helper shar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@137c77f`](https://github.com/bobs-org/bob-plugins/commit/137c77f60dbf39494b1b47e519ad61c930bfa9e2) | feat(schema-card): jump between fields with Shift+J/K and 1-9 in painted order | [bob-cli-mu.1](bob-cli-mu.1.md) | 2026-11-17 16:04:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mu.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mu.1/README.md
+
+<!-- sase:referenced-by:end -->
