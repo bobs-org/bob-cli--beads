@@ -36,3 +36,15 @@ plugin-video-transport: add the hairline scrubber with hover time bubble and dra
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b5491d3`](https://github.com/bobs-org/bob-plugins/commit/b5491d3b4f5d4a5ad1bc839cd655e2b6ba01fd77) | feat(navigation): add video transport to VideoZoomModal | [bob-cli-mj.6](bob-cli-mj.6.md) | 2026-11-16 20:44:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mj.6][1] | Check phase notes for earlier-agent remaining work before planning | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.6/README.md
+
+<!-- sase:referenced-by:end -->
