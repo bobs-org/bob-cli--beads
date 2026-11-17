@@ -33,3 +33,15 @@ bank-emoji-slot: use the Emoji Slot for setup-card new/edit category and the cat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d898d01`](https://github.com/bobs-org/bob-plugins/commit/d898d01b03c51e516e82dc36f945bff599559147) | feat(bank): use the Emoji Slot for bank category stages | [bob-cli-mf.9](bob-cli-mf.9.md) | 2026-11-16 23:55:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.9][1] | Need the phase scope, notes, and design file before finishing remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.9/README.md
+
+<!-- sase:referenced-by:end -->
