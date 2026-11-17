@@ -17,7 +17,7 @@ bob_rewrite: teach capture-rewrite's / → # alias (and its typing-tip proof) to
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mn.2](bob-cli-mn.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mn.2](bob-cli-mn.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -30,3 +30,15 @@ bob_rewrite: teach capture-rewrite's / → # alias (and its typing-tip proof) to
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f692478`](https://github.com/bobs-org/bob-cli/commit/f6924787fa43424d6fb217261adf264debbf2272) | feat(capture): keep / literal after album routes | [bob-cli-mn.1](bob-cli-mn.1.md) | 2026-11-17 07:26:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mn.1--1][1] | Check whether phase is still closed after host completion failed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mn.1.md
+
+<!-- sase:referenced-by:end -->
