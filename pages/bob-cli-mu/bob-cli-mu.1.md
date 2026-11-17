@@ -24,7 +24,7 @@ field-nav: route the Schema Card's targets through one painted-order helper shar
 ## Dependencies
 
 - **Blocks:** [bob-cli-mu.2](bob-cli-mu.2.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-mu.3](bob-cli-mu.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mu.3](bob-cli-mu.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
