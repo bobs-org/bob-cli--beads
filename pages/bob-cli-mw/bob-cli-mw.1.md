@@ -22,8 +22,8 @@ cli: add the shared daily-headline parser, put `headline` on week-report day col
 ## Dependencies
 
 - **Blocks:** [bob-cli-mw.2](bob-cli-mw.2.md) ◐ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-mw.3](bob-cli-mw.3.md) ◐ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-mw.4](bob-cli-mw.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mw.3](bob-cli-mw.3.md) ✓ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mw.4](bob-cli-mw.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -36,3 +36,15 @@ cli: add the shared daily-headline parser, put `headline` on week-report day col
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2a58d06`](https://github.com/bobs-org/bob-cli/commit/2a58d06701cc74324c055970e69eaa9de8757dba) | feat(periods): serve Daily Headline on week days and capture --tasks | [bob-cli-mw.1](bob-cli-mw.1.md) | 2026-11-17 18:04:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mw.1][1] | Need current phase status, notes, and remaining work before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mw.1/README.md
+
+<!-- sase:referenced-by:end -->
