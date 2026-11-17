@@ -15,6 +15,8 @@ mac_record_list: in bob-mac-capture, skip the cached route list when the caret's
 
 [2026-11-17T13:11:39Z · bob-cli-mn.2] cachedRouteCompletion defers a whole-draft record_route with caret at end to capture-complete; fake-bob + generated eat-bare fixtures; hosted tests cover @eat/ record_target vs title-bearing cache; just portable-check, just docs-check, Mac scratch typecheck-tests, and Scripts/macos-ci-check SHA 31542f19 run 44086243927 all passed.
 
+[2026-11-17T13:42:05Z · bob-cli-mn.2--1] Landing SHA 19a23f40 failed macOS CI run 44090592205 on CaptureAliasTipPanelTests.testFilteringKeepsTheShownTipAnchoredToTheSigil: rewrite lost the race to capture-complete, so the list first-frame dropped the tip as late_reply (tipsShown=0). The snapshot SHA 31542f19 tree matched the landing and had passed. Hardening that hosted test with the 200ms debounce plus FAKE_BOB_CAPTURE_COMPLETE_DELAY_SECONDS=0.15 already used by sibling alias-tip tests.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-mn.1](bob-cli-mn.1.md) ✓ · ⧖ 2026-11-17
@@ -23,10 +25,11 @@ mac_record_list: in bob-mac-capture, skip the cached route list when the caret's
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mn.2.md) | [bob-cli-mn.2](bob-cli-mn.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-mn.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mn.2.md) | [bob-cli-mn.2](bob-cli-mn.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@19a23f4`](https://github.com/bobs-org/bob-mac-capture/commit/19a23f40db527d6db0d1992aa24a45d13a5909b0) | feat(capture): list album records after a typed @album/ | [bob-cli-mn.2](bob-cli-mn.2.md) | 2026-11-17 08:13:30 EST |
+| bob-mac-capture | [`bob-mac-capture@991c877`](https://github.com/bobs-org/bob-mac-capture/commit/991c877e5cfe3030fb9516dee452af2f20f39f39) | test(capture): keep the alias tip when the route list filters | [bob-cli-mn.2](bob-cli-mn.2.md) | 2026-11-17 09:21:10 EST |
