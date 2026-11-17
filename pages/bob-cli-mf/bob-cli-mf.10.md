@@ -13,7 +13,7 @@ acceptance: run real-Obsidian walkthroughs that count commits for both cards, pl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mf.9](bob-cli-mf.9.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mf.9](bob-cli-mf.9.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

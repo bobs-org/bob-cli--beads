@@ -20,7 +20,7 @@ bank-arrange: bring arrangement editing to bank categories, groups, and rules (a
 ## Dependencies
 
 - **Depends on:** [bob-cli-mf.7](bob-cli-mf.7.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mf.9](bob-cli-mf.9.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mf.9](bob-cli-mf.9.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ bank-arrange: bring arrangement editing to bank categories, groups, and rules (a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3c69a57`](https://github.com/bobs-org/bob-plugins/commit/3c69a570b1f2566b0a940c61ef644336ca7678b0) | feat(ledger-tools): arrange bank categories, groups, and rules locally | [bob-cli-mf.8](bob-cli-mf.8.md) | 2026-11-16 23:17:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.8][1] | Need notes and remaining work from earlier agents | 7 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.8/README.md
+
+<!-- sase:referenced-by:end -->
