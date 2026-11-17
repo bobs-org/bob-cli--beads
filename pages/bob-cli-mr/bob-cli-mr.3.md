@@ -13,7 +13,7 @@ scan-lock: per scan_lock, plan the library lock-free and lock only for intake an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-mr.2](bob-cli-mr.2.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-mr.2](bob-cli-mr.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
