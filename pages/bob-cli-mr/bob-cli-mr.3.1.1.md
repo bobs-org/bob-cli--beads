@@ -19,7 +19,7 @@ prepared-scan: extract a shared prepared full scan, an exhaustive mutation predi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mr.3.1.2](bob-cli-mr.3.1.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mr.3.1.2](bob-cli-mr.3.1.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
