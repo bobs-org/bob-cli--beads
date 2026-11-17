@@ -41,7 +41,7 @@ The album Schema Card and the Bank setup card move fields, choices, categories, 
 | [bob-cli-mf.5](bob-cli-mf.5.md) | Album arrangement editing and one-envelope save | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.6](bob-cli-mf.6.md) | Shared Emoji Slot in the album card | ✓ closed | medium | 2026-11-16 | 1 | 0 |
 | [bob-cli-mf.7](bob-cli-mf.7.md) | Add-and-place ghosts and pointer drag | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [bob-cli-mf.8](bob-cli-mf.8.md) | Bank setup card arrangement parity | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [bob-cli-mf.8](bob-cli-mf.8.md) | Bank setup card arrangement parity | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [bob-cli-mf.9](bob-cli-mf.9.md) | Emoji Slot for bank categories | ◐ in_progress | small | 2026-11-16 | 1 | 0 |
 
 ## Lineage
@@ -57,7 +57,7 @@ flowchart TD
     n6["bob-cli-mf.5: Album arrangement editing and one-envelope save [closed]"]
     n7["bob-cli-mf.6: Shared Emoji Slot in the album card [closed]"]
     n8["bob-cli-mf.7: Add-and-place ghosts and pointer drag [closed]"]
-    n9["bob-cli-mf.8: Bank setup card arrangement parity [in_progress]"]
+    n9["bob-cli-mf.8: Bank setup card arrangement parity [closed]"]
     n10["bob-cli-mf.9: Emoji Slot for bank categories [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.5/README.md) | [bob-cli-mf.5](bob-cli-mf.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mf.6.md) | [bob-cli-mf.6](bob-cli-mf.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mf.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.7/README.md) | [bob-cli-mf.7](bob-cli-mf.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mf.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.8/README.md) | [bob-cli-mf.8](bob-cli-mf.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mf.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.8/README.md) | [bob-cli-mf.8](bob-cli-mf.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.9/README.md) | [bob-cli-mf.9](bob-cli-mf.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.land/README.md) | [bob-cli-mf](README.md) | 0 |
 
@@ -106,6 +106,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@3136865`](https://github.com/bobs-org/bob-plugins/commit/313686540a2b60943efce67ae2d8e50381a8a5fb) | feat(bob-ledger-tools): refresh Album Schema Card shell and region paint | [bob-cli-mf.4](bob-cli-mf.4.md) | 2026-11-16 17:20:20 EST |
 | bob-plugins | [`bob-plugins@866bb77`](https://github.com/bobs-org/bob-plugins/commit/866bb77c859d19046784324c58fd4e97ec86b00d) | feat(bob-ledger-tools): wire album arrangement editing and one-envelope save | [bob-cli-mf.5](bob-cli-mf.5.md) | 2026-11-16 18:18:09 EST |
 | bob-plugins | [`bob-plugins@1ff96bd`](https://github.com/bobs-org/bob-plugins/commit/1ff96bd15c67be57865454137b605277bf5170f9) | feat(ledger-tools): add-and-place ghosts and pointer drag for the album Schema Card | [bob-cli-mf.7](bob-cli-mf.7.md) | 2026-11-16 22:13:14 EST |
+| bob-plugins | [`bob-plugins@3c69a57`](https://github.com/bobs-org/bob-plugins/commit/3c69a570b1f2566b0a940c61ef644336ca7678b0) | feat(ledger-tools): arrange bank categories, groups, and rules locally | [bob-cli-mf.8](bob-cli-mf.8.md) | 2026-11-16 23:17:41 EST |
 
 <!-- sase:referenced-by:start -->
 

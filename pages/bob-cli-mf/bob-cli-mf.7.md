@@ -22,7 +22,7 @@ album-place-drag: show a ghost chip or row for choice-add and field-add that the
 ## Dependencies
 
 - **Depends on:** [bob-cli-mf.6](bob-cli-mf.6.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [bob-cli-mf.8](bob-cli-mf.8.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [bob-cli-mf.8](bob-cli-mf.8.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -35,3 +35,15 @@ album-place-drag: show a ghost chip or row for choice-add and field-add that the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1ff96bd`](https://github.com/bobs-org/bob-plugins/commit/1ff96bd15c67be57865454137b605277bf5170f9) | feat(ledger-tools): add-and-place ghosts and pointer drag for the album Schema Card | [bob-cli-mf.7](bob-cli-mf.7.md) | 2026-11-16 22:13:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mf.7][1] | check notes history | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.7/README.md
+
+<!-- sase:referenced-by:end -->

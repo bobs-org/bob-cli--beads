@@ -14,7 +14,7 @@ bank-emoji-slot: use the Emoji Slot for setup-card new/edit category and the cat
 ## Dependencies
 
 - **Blocks:** [bob-cli-mf.10](bob-cli-mf.10.md) ◐ · ⧖ 2026-11-16
-- **Depends on:** [bob-cli-mf.8](bob-cli-mf.8.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [bob-cli-mf.8](bob-cli-mf.8.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
