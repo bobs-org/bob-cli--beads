@@ -27,4 +27,10 @@ plugin-z-dispatch: teach the Z resolver and path-bullet import about the video c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-mj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.4/README.md) | [bob-cli-mj.4](bob-cli-mj.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-mj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mj.4/README.md) | [bob-cli-mj.4](bob-cli-mj.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@307646c`](https://github.com/bobs-org/bob-plugins/commit/307646ce78f7ab3a2257c2eac92b1e020fa70829) | feat(navigation): add video media to Z zoom | [bob-cli-mj.4](bob-cli-mj.4.md) | 2026-11-16 20:02:01 EST |
