@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-mr.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mr.3.1.1/README.md) | [bob-cli-mr.3.1.1](bob-cli-mr.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-mr.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.2.md) | [bob-cli-mr.3.1.2](bob-cli-mr.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-mr.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.3.md) | [bob-cli-mr.3.1.3](bob-cli-mr.3.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-mr.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.land.md) | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-mr.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.land.md) | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-mr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mr.land/README.md) | [bob-cli-mr](README.md) | 0 |
 
 ## Commits
@@ -79,3 +79,4 @@ flowchart TD
 | bob-cli | [`3236cee`](https://github.com/bobs-org/bob-cli/commit/3236ceefaa690c2c9aa8d935db0de7b1a2c11ce1) | feat(scan): apply prepared full scans inside a bounded lock window | [bob-cli-mr.3.1.2](bob-cli-mr.3.1.2.md) | 2026-11-17 14:53:36 EST |
 | bob-cli | [`6c409ab`](https://github.com/bobs-org/bob-cli/commit/6c409ab287f79994ac5fc257c0d47f9fc4ed273c) | test(ref): prove narrow scan lock-window interleavings | [bob-cli-mr.3.1.3](bob-cli-mr.3.1.3.md) | 2026-11-17 15:56:23 EST |
 | bob-cli | [`0e83df4`](https://github.com/bobs-org/bob-cli/commit/0e83df4cd5797841998afffe227b14052c01f2d7) | feat(scan): finish highlights scan lock-window landing repairs | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2026-11-17 17:23:08 EST |
+| bob-mac-capture | [`bob-mac-capture@bfbedda`](https://github.com/bobs-org/bob-mac-capture/commit/bfbedda918ab3884fcba3b16a6206437f3b913fa) | docs(refs): correct last-scan receipt wording for narrow lock window | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2026-11-17 17:23:46 EST |
