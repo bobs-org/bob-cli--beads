@@ -48,7 +48,9 @@ PROPOSED FOLLOW-UP: keep-moving / event-link-times / frees-marks 25ms (and KT1 1
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ms.3--1][1] | Need assigned phase status, notes, and close eligibility after host-completion refusal | 1 |
+| read-by | [agent:eo.f0--code][2] | Prove ms.3 closed before force sync | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
 
 <!-- sase:referenced-by:end -->

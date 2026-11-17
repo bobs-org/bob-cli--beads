@@ -27,7 +27,7 @@ record-session: plugin service for records show/update, a record session over th
 
 - **Depends on:** [bob-cli-ms.2](bob-cli-ms.2.md) ✓ · ⧖ 2026-11-17
 - **Depends on:** [bob-cli-ms.3](bob-cli-ms.3.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-ms.5](bob-cli-ms.5.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-ms.5](bob-cli-ms.5.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -40,3 +40,15 @@ record-session: plugin service for records show/update, a record session over th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@f49e175`](https://github.com/bobs-org/bob-plugins/commit/f49e175436ce002e48e258bc60bc433b3167190e) | feat(ledger-tools): add record update session and writer | [bob-cli-ms.4](bob-cli-ms.4.md) | 2026-11-17 16:24:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ms.4][1] | Need last lines of bead | 9 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.4/README.md
+
+<!-- sase:referenced-by:end -->
