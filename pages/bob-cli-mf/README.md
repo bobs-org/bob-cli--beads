@@ -124,7 +124,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mf.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.7/README.md) | [bob-cli-mf.7](bob-cli-mf.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.8/README.md) | [bob-cli-mf.8](bob-cli-mf.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mf.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.9/README.md) | [bob-cli-mf.9](bob-cli-mf.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.land/README.md) | [bob-cli-mf](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-mf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mf.land/README.md) | [bob-cli-mf](README.md) | 2 |
 
 ## Commits
 
@@ -141,6 +141,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9babe42`](https://github.com/bobs-org/bob-plugins/commit/9babe42d50746942ffa09ea0c94b69e136a81aec) | feat(ledger-tools): add schema arrangement cards | [bob-cli-mf.10](bob-cli-mf.10.md) | 2026-11-17 03:18:58 EST |
 | bob-plugins | [`bob-plugins@9ae8142`](https://github.com/bobs-org/bob-plugins/commit/9ae8142d2950d24d5ea09dd555a10969dfdab822) | fix(ledger-tools): refresh saved arrangements and complete acceptance | [bob-cli-mf.10](bob-cli-mf.10.md) | 2026-11-17 04:26:29 EST |
 | bob-plugins | [`bob-plugins@b1832a7`](https://github.com/bobs-org/bob-plugins/commit/b1832a79d517f4beae899a1e1c376ce8786ba83e) | fix(ledger-tools): drop hex fallback from bank setup hotkey-shift badge | [bob-cli-mf](README.md) | 2026-11-17 05:02:53 EST |
+| bob-cli--plans | [`bob-cli--plans@2697ed1`](https://github.com/bobs-org/bob-cli--plans/commit/2697ed1ede2f8638ac29ffd616d4f2629047fe06) | chore(plans): mark schema\_editor\_arrange\_and\_emoji done | [bob-cli-mf](README.md) | 2026-11-17 05:03:28 EST |
 
 <!-- sase:referenced-by:start -->
 
