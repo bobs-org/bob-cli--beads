@@ -27,9 +27,9 @@ Every healthy record note shows its album-defined fields as a quiet, beautiful r
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ms.1](bob-cli-ms.1.md) | Per-record read and record fingerprint in bob records show | ◐ in_progress | medium | 2026-11-17 | 1 | 1 |
+| [bob-cli-ms.1](bob-cli-ms.1.md) | Per-record read and record fingerprint in bob records show | ✓ closed | medium | 2026-11-17 | 1 | 0 |
 | [bob-cli-ms.2](bob-cli-ms.2.md) | Guarded JSON envelope for bob records update | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
-| [bob-cli-ms.3](bob-cli-ms.3.md) | Read-only record sheet under the H1 (Live Preview and Reading) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
+| [bob-cli-ms.3](bob-cli-ms.3.md) | Read-only record sheet under the H1 (Live Preview and Reading) | ✓ closed | large | 2026-11-17 | 1 | 1 |
 | [bob-cli-ms.4](bob-cli-ms.4.md) | Record update service and guarded session with direct apply | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
 | [bob-cli-ms.5](bob-cli-ms.5.md) | Record Card shell, browse keys, choices, and discrete actions | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
 | [bob-cli-ms.6](bob-cli-ms.6.md) | Typed Record Card stages and Tab fill-out | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
@@ -40,9 +40,9 @@ Every healthy record note shows its album-defined fields as a quiet, beautiful r
 ```mermaid
 flowchart TD
     n0["bob-cli-ms: Record Card: an editable value sheet under the H1 of every record note [in_progress]"]
-    n1["bob-cli-ms.1: Per-record read and record fingerprint in bob records show [in_progress]"]
+    n1["bob-cli-ms.1: Per-record read and record fingerprint in bob records show [closed]"]
     n2["bob-cli-ms.2: Guarded JSON envelope for bob records update [in_progress]"]
-    n3["bob-cli-ms.3: Read-only record sheet under the H1 (Live Preview and Reading) [in_progress]"]
+    n3["bob-cli-ms.3: Read-only record sheet under the H1 (Live Preview and Reading) [closed]"]
     n4["bob-cli-ms.4: Record update service and guarded session with direct apply [in_progress]"]
     n5["bob-cli-ms.5: Record Card shell, browse keys, choices, and discrete actions [in_progress]"]
     n6["bob-cli-ms.6: Typed Record Card stages and Tab fill-out [in_progress]"]
@@ -66,9 +66,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ms.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.1.md) | [bob-cli-ms.1](bob-cli-ms.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.1.md) | [bob-cli-ms.1](bob-cli-ms.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md) | [bob-cli-ms.2](bob-cli-ms.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ms.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.3.md) | [bob-cli-ms.3](bob-cli-ms.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.3.md) | [bob-cli-ms.3](bob-cli-ms.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.4/README.md) | [bob-cli-ms.4](bob-cli-ms.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.5/README.md) | [bob-cli-ms.5](bob-cli-ms.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.6/README.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 0 |
@@ -79,4 +79,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`9900597`](https://github.com/bobs-org/bob-cli/commit/99005975e15aaa3c2440b36e8f87dc4481908500) | feat(records): add per-record show STEM and fingerprint | [bob-cli-ms.1](bob-cli-ms.1.md) | 2026-11-17 13:38:16 EST |
+| bob-plugins | [`bob-plugins@60b5602`](https://github.com/bobs-org/bob-plugins/commit/60b5602130e4655efdf0b2dda2e6c1afcc5234ae) | feat(ledger-tools): render a read-only record sheet under album H1s | [bob-cli-ms.3](bob-cli-ms.3.md) | 2026-11-17 14:39:27 EST |

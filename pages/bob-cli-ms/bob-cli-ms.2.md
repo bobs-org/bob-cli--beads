@@ -13,7 +13,7 @@ record-envelope: add bob records update -i FILE, a guarded envelope of typed fie
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ms.1](bob-cli-ms.1.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-ms.1](bob-cli-ms.1.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-ms.4](bob-cli-ms.4.md) ◐ · ⧖ 2026-11-17
 
 ## Agents
