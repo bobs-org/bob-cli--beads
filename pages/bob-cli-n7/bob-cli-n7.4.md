@@ -13,7 +13,7 @@ cpu-gates: Resolve bob-cli-ju (off-clock link chips, 35 ms) and bob-cli-ki (keep
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-n7.3](bob-cli-n7.3.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-n7.3](bob-cli-n7.3.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 

@@ -21,7 +21,7 @@ macos-case: Resolve bob-cli-l9 (album, record, and highlights-scan collision tes
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-n7.2](bob-cli-n7.2.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-n7.2](bob-cli-n7.2.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
