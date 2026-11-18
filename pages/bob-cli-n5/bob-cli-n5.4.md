@@ -13,7 +13,7 @@ reply-to: Resolve bob-cli-ia with fake-gog coverage while preserving self-sent a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-n5.3](bob-cli-n5.3.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-n5.3](bob-cli-n5.3.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-n5.5](bob-cli-n5.5.md) ◐ · ⧖ 2026-11-17
 
 ## Agents

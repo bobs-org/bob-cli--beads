@@ -20,7 +20,7 @@ short-flags: Resolve the remaining short-option half of bob-cli-8a without rejec
 ## Dependencies
 
 - **Depends on:** [bob-cli-n5.1](bob-cli-n5.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-n5.3](bob-cli-n5.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-n5.3](bob-cli-n5.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
