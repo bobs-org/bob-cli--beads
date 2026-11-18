@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ms.8](bob-cli-ms.8.md) / bob-cli-ms.8.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md) · **Assignee:** `bob-cli-ms.8.1` · **Size:** medium
-**Created:** 2026-11-17 22:26:14 EST
+**Created:** 2026-11-17 22:26:14 EST · **Closed:** 2026-11-18 07:13:58 EST
 **Plan:** [202611/record\_card\_title\_and\_proof.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_card_title_and_proof.md)
 
 ## Description
@@ -17,19 +17,29 @@ sheet-title: in bob-ledger-tools, render the record title at the top of the reco
 
 [2026-11-18T04:09:38Z · bob-cli-ms.8.1--1] DEPLOY BLOCKED: bob plugins sync --repo <linked bob-plugins checkout> --no-pull --dry-run refused because the vault has bob-ledger-tools 1.133.0 deployed from an uncommitted build in another checkout (f8a8619); git fetch found no upstream path commit and sase agent list shows no agent on that checkout. Docs require asking Bryan before replacing an unlanded abandoned deploy. User instruction forbids -F, so deployment and phase close await a non-force recovery path.
 
+[2026-11-18T12:13:39Z · bob-cli-ms.8.1--2] DEPLOYED: bob-plugins was fetched and is clean at origin/master (04ef18f), with protected build f8a8619 in history; sync preview identified inclusion proof 8a0c2f1. Rebuilt after upstream refresh; record-sheet suite passed 24/24 and npm run validate passed 11/11. Full npm test result yktc8xcfr9as was 7297 passed, 4 failed, all four known timing flakes tracked by bob-cli-km/io/ki/ju; validation passed. Deployed bob-ledger-tools 1.134.0 using bob plugins sync --repo "$PWD" --no-pull -p bob-ledger-tools, without -F; sync copied manifest.json, main.js, and styles.css. bob plugins list reports 1.134.0 synced and post-deploy dry run reports up to date.
+
+[2026-11-18T12:13:58Z · bob-cli-ms.8.1--2] Sheet title, H1-less mounts, rollover coverage, docs, and 1.134.0 deployment verified; target is synced without -F and epic-symbol check is clean.
+
 ## Dependencies
 
-- **Blocks:** [bob-cli-ms.8.2](bob-cli-ms.8.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-ms.8.2](bob-cli-ms.8.2.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-ms.8.3](bob-cli-ms.8.3.md) ◐ · ⧖ 2026-11-17
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@9ad471d`](https://github.com/bobs-org/bob-plugins/commit/9ad471d8a7ebcdc193cffda8eeb8ba99b4c87332) | feat(bob-ledger-tools): render record titles in the sheet | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 2026-11-17 23:12:55 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ms.8.1--1][1] | Need the phase scope, design file, and remaining notes before finishing the assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md
+
+<!-- sase:referenced-by:end -->

@@ -13,8 +13,8 @@ obsidian-proof: add the obsidian-record-card-e2e CDP walkthrough with an offline
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ms.8.1](bob-cli-ms.8.1.md) ◐ · ⧖ 2026-11-17
-- **Depends on:** [bob-cli-ms.8.2](bob-cli-ms.8.2.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-ms.8.1](bob-cli-ms.8.1.md) ✓ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-ms.8.2](bob-cli-ms.8.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
