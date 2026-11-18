@@ -19,7 +19,7 @@ notebook-safety: reject ambiguous bullet-led @@notebook items before writes and 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-my.2](bob-cli-my.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-my.2](bob-cli-my.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -32,3 +32,15 @@ notebook-safety: reject ambiguous bullet-led @@notebook items before writes and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9950a3d`](https://github.com/bobs-org/bob-cli/commit/9950a3d4f4c4793774308587696929fb22502e32) | fix(capture): refuse ambiguous notebook bullets | [bob-cli-my.1](bob-cli-my.1.md) | 2026-11-17 20:18:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-my.1--1][1] | Confirm the phase state after the close command's shell quoting error | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-my.1.md
+
+<!-- sase:referenced-by:end -->

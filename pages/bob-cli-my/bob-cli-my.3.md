@@ -13,7 +13,7 @@ midnight-dating: refuse past-offset starts before today while preserving valid o
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-my.2](bob-cli-my.2.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-my.2](bob-cli-my.2.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-my.4](bob-cli-my.4.md) ◐ · ⧖ 2026-11-17
 
 ## Agents
