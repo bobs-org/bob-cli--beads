@@ -32,3 +32,15 @@ record: new decision record plus supersession mark, two glossary fixes, memory i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`91ff49f`](https://github.com/bobs-org/bob-cli/commit/91ff49f832f8739af90e33800e7ff1c4daf2ef19) | docs(memory): record review attention follows the \]s walk decision | [bob-cli-n8.4](bob-cli-n8.4.md) | 2026-11-18 11:23:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n8.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.4/README.md
+
+<!-- sase:referenced-by:end -->

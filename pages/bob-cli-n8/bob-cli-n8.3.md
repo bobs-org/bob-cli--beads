@@ -23,7 +23,13 @@ mac-marks: WalkAttentionTone gains rotten/post, the s count reads walk, tests an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-n8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.3.md) | [bob-cli-n8.3](bob-cli-n8.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-n8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.3.md) | [bob-cli-n8.3](bob-cli-n8.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@1e20997`](https://github.com/bobs-org/bob-mac-capture/commit/1e20997e84022cbcd45ffe48e67c6ef317609924) | feat(mac-capture): mirror Bob walk attention marks | [bob-cli-n8.3](bob-cli-n8.3.md) | 2026-11-18 11:11:56 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -32,7 +38,9 @@ mac-marks: WalkAttentionTone gains rotten/post, the s count reads walk, tests an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-n8.3--2][1] | Verify the requested phase bead was closed with the completed verification note | 2 |
+| read-by | [agent:bob-cli-n8.4][2] | record phase needs mac-marks evidence and CI run for decision record | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.4/README.md
 
 <!-- sase:referenced-by:end -->
