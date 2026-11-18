@@ -18,7 +18,7 @@ ledger-identity: carry explicit refs through status/name rewrites, report the fi
 ## Dependencies
 
 - **Depends on:** [bob-cli-my.1](bob-cli-my.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-my.3](bob-cli-my.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-my.3](bob-cli-my.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -31,3 +31,15 @@ ledger-identity: carry explicit refs through status/name rewrites, report the fi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`0a30995`](https://github.com/bobs-org/bob-cli/commit/0a3099506e6d2629b9dd1d4c0e176126ffa68e1d) | fix(capture): preserve Pomodoro preview identity and report settled name | [bob-cli-my.2](bob-cli-my.2.md) | 2026-11-17 21:07:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-my.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-my.2/README.md
+
+<!-- sase:referenced-by:end -->

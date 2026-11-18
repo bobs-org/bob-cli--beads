@@ -13,7 +13,7 @@ clobber-evidence: require evidence beyond a shared created timestamp before quar
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-my.3](bob-cli-my.3.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-my.3](bob-cli-my.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
