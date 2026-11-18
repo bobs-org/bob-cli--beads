@@ -20,4 +20,4 @@ obsidian-proof: add the obsidian-record-card-e2e CDP walkthrough with an offline
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3/README.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |

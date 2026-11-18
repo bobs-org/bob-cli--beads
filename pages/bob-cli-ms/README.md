@@ -71,11 +71,11 @@ Every healthy record note shows its album-defined fields as a quiet, beautiful r
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ms.1](bob-cli-ms.1.md) | Per-record read and record fingerprint in bob records show | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [bob-cli-ms.2](bob-cli-ms.2.md) | Guarded JSON envelope for bob records update | ✓ closed | medium | 2026-11-17 | 1 | 1 |
-| [bob-cli-ms.3](bob-cli-ms.3.md) | Read-only record sheet under the H1 (Live Preview and Reading) | ✓ closed | large | 2026-11-17 | 1 | 0 |
-| [bob-cli-ms.4](bob-cli-ms.4.md) | Record update service and guarded session with direct apply | ✓ closed | medium | 2026-11-17 | 1 | 0 |
-| [bob-cli-ms.5](bob-cli-ms.5.md) | Record Card shell, browse keys, choices, and discrete actions | ✓ closed | large | 2026-11-17 | 1 | 0 |
-| [bob-cli-ms.6](bob-cli-ms.6.md) | Typed Record Card stages and Tab fill-out | ✓ closed | large | 2026-11-17 | 1 | 0 |
-| [bob-cli-ms.7](bob-cli-ms.7.md) | Entry points, == on records, and the Properties hide | ✓ closed | medium | 2026-11-17 | 1 | 0 |
+| [bob-cli-ms.3](bob-cli-ms.3.md) | Read-only record sheet under the H1 (Live Preview and Reading) | ✓ closed | large | 2026-11-17 | 1 | 1 |
+| [bob-cli-ms.4](bob-cli-ms.4.md) | Record update service and guarded session with direct apply | ✓ closed | medium | 2026-11-17 | 1 | 1 |
+| [bob-cli-ms.5](bob-cli-ms.5.md) | Record Card shell, browse keys, choices, and discrete actions | ✓ closed | large | 2026-11-17 | 1 | 1 |
+| [bob-cli-ms.6](bob-cli-ms.6.md) | Typed Record Card stages and Tab fill-out | ✓ closed | large | 2026-11-17 | 1 | 1 |
+| [bob-cli-ms.7](bob-cli-ms.7.md) | Entry points, == on records, and the Properties hide | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 
 ## Lineage
 
@@ -93,6 +93,10 @@ flowchart TD
     n9["bob-cli-ms.8.1: Record sheet shows the title and mounts on H1-less records [closed]"]
     n10["bob-cli-ms.8.2: bob writes records without an H1 and tidy removes redundant ones [closed]"]
     n11["bob-cli-ms.8.3: Real-Obsidian Record Card walkthrough, hide-selector fix, and vault coverage [in_progress]"]
+    n12["bob-cli-ms.8.3.1: Prove the Record Card in real Obsidian and verify vault coverage [in_progress]"]
+    n13["bob-cli-ms.8.3.1.1: Prove record sheet rendering and fix Properties hiding in real Obsidian [in_progress]"]
+    n14["bob-cli-ms.8.3.1.2: Prove Record Card entry points and guarded keyboard edits [in_progress]"]
+    n15["bob-cli-ms.8.3.1.3: Verify live record coverage and the final deployed build [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -104,6 +108,10 @@ flowchart TD
     n8 --> n9
     n8 --> n10
     n8 --> n11
+    n11 --> n12
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
     n1 -.-> n2
     n2 -.-> n4
     n3 -.-> n4
@@ -113,6 +121,8 @@ flowchart TD
     n9 -.-> n10
     n9 -.-> n11
     n10 -.-> n11
+    n13 -.-> n14
+    n14 -.-> n15
 ```
 
 ## Agents
@@ -121,14 +131,18 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ms.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.1.md) | [bob-cli-ms.1](bob-cli-ms.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md) | [bob-cli-ms.2](bob-cli-ms.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ms.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.3.md) | [bob-cli-ms.3](bob-cli-ms.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ms.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.4/README.md) | [bob-cli-ms.4](bob-cli-ms.4.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ms.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.5.md) | [bob-cli-ms.5](bob-cli-ms.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.3.md) | [bob-cli-ms.3](bob-cli-ms.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.4/README.md) | [bob-cli-ms.4](bob-cli-ms.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.5.md) | [bob-cli-ms.5](bob-cli-ms.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.2/README.md) | [bob-cli-ms.8.2](bob-cli-ms.8.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3/README.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md) | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.2/README.md) | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.3/README.md) | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.land/README.md) | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.land/README.md) | [bob-cli-ms.8](bob-cli-ms.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md) | [bob-cli-ms](README.md) | 1 |
 
@@ -137,8 +151,14 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9900597`](https://github.com/bobs-org/bob-cli/commit/99005975e15aaa3c2440b36e8f87dc4481908500) | feat(records): add per-record show STEM and fingerprint | [bob-cli-ms.1](bob-cli-ms.1.md) | 2026-11-17 13:38:16 EST |
+| bob-plugins | [`bob-plugins@60b5602`](https://github.com/bobs-org/bob-plugins/commit/60b5602130e4655efdf0b2dda2e6c1afcc5234ae) | feat(ledger-tools): render a read-only record sheet under album H1s | [bob-cli-ms.3](bob-cli-ms.3.md) | 2026-11-17 14:39:27 EST |
 | bob-cli | [`48a3116`](https://github.com/bobs-org/bob-cli/commit/48a3116d8aacce34fc3093c97048dcdcd913f7c1) | feat(records): guarded JSON envelope for bob records update | [bob-cli-ms.2](bob-cli-ms.2.md) | 2026-11-17 15:41:57 EST |
+| bob-plugins | [`bob-plugins@f49e175`](https://github.com/bobs-org/bob-plugins/commit/f49e175436ce002e48e258bc60bc433b3167190e) | feat(ledger-tools): add record update session and writer | [bob-cli-ms.4](bob-cli-ms.4.md) | 2026-11-17 16:24:19 EST |
+| bob-plugins | [`bob-plugins@c1da817`](https://github.com/bobs-org/bob-plugins/commit/c1da817c213b0ebf1f3ae4b47b4d41a69230948c) | feat(ledger-tools): add Record Card shell for discrete field edits | [bob-cli-ms.5](bob-cli-ms.5.md) | 2026-11-17 17:52:48 EST |
+| bob-plugins | [`bob-plugins@ba2b090`](https://github.com/bobs-org/bob-plugins/commit/ba2b09061153621311f179c102cfcab8c1b8e0b7) | feat(record-card): typed stages with Tab fill-out | [bob-cli-ms.6](bob-cli-ms.6.md) | 2026-11-17 19:29:14 EST |
+| bob-plugins | [`bob-plugins@f8a8619`](https://github.com/bobs-org/bob-plugins/commit/f8a86196b4b97a92262a71f3872bccd77a85f3ef) | feat(record-sheet): sheet affordances, record card entrypoints and properties hide | [bob-cli-ms.7](bob-cli-ms.7.md) | 2026-11-17 21:55:53 EST |
 | bob-cli | [`03ab2b3`](https://github.com/bobs-org/bob-cli/commit/03ab2b3d41dc5734e15be04a61da71b80455d43f) | docs(glossary): regenerate the capture alias item-start dot entry | [bob-cli-ms](README.md) | 2026-11-17 22:23:24 EST |
+| bob-plugins | [`bob-plugins@9ad471d`](https://github.com/bobs-org/bob-plugins/commit/9ad471d8a7ebcdc193cffda8eeb8ba99b4c87332) | feat(bob-ledger-tools): render record titles in the sheet | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 2026-11-17 23:12:55 EST |
 | bob-cli | [`2f80442`](https://github.com/bobs-org/bob-cli/commit/2f80442bb2c3141b69131c6db7786516fa165ca0) | feat(records): write H1-less record notes and tidy redundant H1s | [bob-cli-ms.8.2](bob-cli-ms.8.2.md) | 2026-11-18 08:51:15 EST |
 
 <!-- sase:referenced-by:start -->

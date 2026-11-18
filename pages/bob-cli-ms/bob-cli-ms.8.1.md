@@ -30,7 +30,13 @@ sheet-title: in bob-ledger-tools, render the record title at the top of the reco
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@9ad471d`](https://github.com/bobs-org/bob-plugins/commit/9ad471d8a7ebcdc193cffda8eeb8ba99b4c87332) | feat(bob-ledger-tools): render record titles in the sheet | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 2026-11-17 23:12:55 EST |
 
 <!-- sase:referenced-by:start -->
 

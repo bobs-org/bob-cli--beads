@@ -35,7 +35,13 @@ record-entry: wire the sheet's Edit, row, chip, ghost, and missing affordances; 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@f8a8619`](https://github.com/bobs-org/bob-plugins/commit/f8a86196b4b97a92262a71f3872bccd77a85f3ef) | feat(record-sheet): sheet affordances, record card entrypoints and properties hide | [bob-cli-ms.7](bob-cli-ms.7.md) | 2026-11-17 21:55:53 EST |
 
 <!-- sase:referenced-by:start -->
 

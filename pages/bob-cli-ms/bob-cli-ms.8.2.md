@@ -33,3 +33,15 @@ h1-retire: bob records new, update, and capture write record notes with no H1, N
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2f80442`](https://github.com/bobs-org/bob-cli/commit/2f80442bb2c3141b69131c6db7786516fa165ca0) | feat(records): write H1-less record notes and tidy redundant H1s | [bob-cli-ms.8.2](bob-cli-ms.8.2.md) | 2026-11-18 08:51:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ms.8.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.2/README.md
+
+<!-- sase:referenced-by:end -->
