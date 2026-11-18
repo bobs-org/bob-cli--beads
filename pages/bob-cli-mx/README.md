@@ -37,7 +37,7 @@ Whenever the Obsidian walker selector shows attention for a family (an off-famil
 | [bob-cli-mx.2](bob-cli-mx.2.md) | bob walks attention report and contract | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [bob-cli-mx.3](bob-cli-mx.3.md) | Pin the walker footer to the walks conformance vectors | ✓ closed | small | 2026-11-17 | 1 | 0 |
 | [bob-cli-mx.4](bob-cli-mx.4.md) | CaptureCore walks models, client, tones, and presentation | ✓ closed | medium | 2026-11-17 | 1 | 1 |
-| [bob-cli-mx.5](bob-cli-mx.5.md) | Walk marks store, view, docs, and decision record | ✓ closed | medium | 2026-11-17 | 1 | 1 |
+| [bob-cli-mx.5](bob-cli-mx.5.md) | Walk marks store, view, docs, and decision record | ✓ closed | medium | 2026-11-17 | 1 | 2 |
 
 ## Lineage
 
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-mx.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.2.md) | [bob-cli-mx.2](bob-cli-mx.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-mx.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mx.3/README.md) | [bob-cli-mx.3](bob-cli-mx.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-mx.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.4.md) | [bob-cli-mx.4](bob-cli-mx.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-mx.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.5.md) | [bob-cli-mx.5](bob-cli-mx.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-mx.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.5.md) | [bob-cli-mx.5](bob-cli-mx.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-mx.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mx.land/README.md) | [bob-cli-mx](README.md) | 0 |
 
 ## Commits
@@ -78,6 +78,7 @@ flowchart TD
 | bob-cli | [`c50f889`](https://github.com/bobs-org/bob-cli/commit/c50f8895b5487722d2072a7d1c47a43f2ced9814) | feat(walks): add read-only attention report and contract | [bob-cli-mx.2](bob-cli-mx.2.md) | 2026-11-17 20:24:29 EST |
 | bob-mac-capture | [`bob-mac-capture@fee9ffa`](https://github.com/bobs-org/bob-mac-capture/commit/fee9ffabfd34dadfeb67b281daa26655d18ab4c5) | feat(walks): capture-core models, client, tones, and presentation | [bob-cli-mx.4](bob-cli-mx.4.md) | 2026-11-17 20:45:01 EST |
 | bob-cli | [`4f801ee`](https://github.com/bobs-org/bob-cli/commit/4f801ee2032c441a3eb0b5b4ce0b53927395076c) | docs(memory): record idle capture walk attention decision | [bob-cli-mx.5](bob-cli-mx.5.md) | 2026-11-17 23:49:14 EST |
+| bob-mac-capture | [`bob-mac-capture@a19bdd0`](https://github.com/bobs-org/bob-mac-capture/commit/a19bdd0a4d9802d5eb1fd5b2a0429b478f6398f9) | feat(capture): show walk attention marks in idle agenda | [bob-cli-mx.5](bob-cli-mx.5.md) | 2026-11-17 23:49:43 EST |
 
 <!-- sase:referenced-by:start -->
 
