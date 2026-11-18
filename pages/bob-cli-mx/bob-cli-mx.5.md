@@ -33,3 +33,15 @@ mac-walk-marks: wire the walks store and refresh triggers, paint the marks at th
 |---|---|---|---|---|
 | bob-cli | [`4f801ee`](https://github.com/bobs-org/bob-cli/commit/4f801ee2032c441a3eb0b5b4ce0b53927395076c) | docs(memory): record idle capture walk attention decision | [bob-cli-mx.5](bob-cli-mx.5.md) | 2026-11-17 23:49:14 EST |
 | bob-mac-capture | [`bob-mac-capture@a19bdd0`](https://github.com/bobs-org/bob-mac-capture/commit/a19bdd0a4d9802d5eb1fd5b2a0429b478f6398f9) | feat(capture): show walk attention marks in idle agenda | [bob-cli-mx.5](bob-cli-mx.5.md) | 2026-11-17 23:49:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-mx.5--5][1] | Confirm that only the assigned phase was closed after verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.5.md
+
+<!-- sase:referenced-by:end -->
