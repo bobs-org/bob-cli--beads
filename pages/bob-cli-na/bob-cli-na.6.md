@@ -14,7 +14,7 @@ walk-model (bob-plugins): pure JS walk-line parser and metadataCache ring (share
 ## Dependencies
 
 - **Depends on:** [bob-cli-na.1](bob-cli-na.1.md) ✓ · ⧖ 2026-11-18
-- **Depends on:** [bob-cli-na.5](bob-cli-na.5.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-na.5](bob-cli-na.5.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-na.7](bob-cli-na.7.md) ◐ · ⧖ 2026-11-18
 
 ## Agents
