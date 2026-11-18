@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-mw.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mw.2.md) | [bob-cli-mw.2](bob-cli-mw.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-mw.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mw.3/README.md) | [bob-cli-mw.3](bob-cli-mw.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-mw.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mw.4/README.md) | [bob-cli-mw.4](bob-cli-mw.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-mw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mw.land.md) | [bob-cli-mw](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-mw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mw.land.md) | [bob-cli-mw](README.md) | 2 |
 
 ## Commits
 
@@ -81,6 +81,7 @@ flowchart TD
 | bob-cli | [`2a58d06`](https://github.com/bobs-org/bob-cli/commit/2a58d06701cc74324c055970e69eaa9de8757dba) | feat(periods): serve Daily Headline on week days and capture --tasks | [bob-cli-mw.1](bob-cli-mw.1.md) | 2026-11-17 18:04:26 EST |
 | bob-mac-capture | [`bob-mac-capture@18de389`](https://github.com/bobs-org/bob-mac-capture/commit/18de389ef75541ba76144470e5fb0426cccbf57b) | feat(agenda): show Daily Headline row under Today title | [bob-cli-mw.3](bob-cli-mw.3.md) | 2026-11-17 18:42:17 EST |
 | bob-cli | [`ce6425f`](https://github.com/bobs-org/bob-cli/commit/ce6425f55773dda9342c7ba4078917222c6259bc) | feat(daily-headline): carry headline report integration | [bob-cli-mw](README.md) | 2026-11-18 06:57:06 EST |
+| bob-plugins | [`bob-plugins@04ef18f`](https://github.com/bobs-org/bob-plugins/commit/04ef18fee52e5a7fcf4002afbe7ceaaed55f2c9c) | feat(bob-ledger-tools): carry period headline changes | [bob-cli-mw](README.md) | 2026-11-18 06:57:25 EST |
 
 <!-- sase:referenced-by:start -->
 
