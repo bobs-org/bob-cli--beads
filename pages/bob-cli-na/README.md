@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-na.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.6/README.md) | [bob-cli-na.6](bob-cli-na.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.7/README.md) | [bob-cli-na.7](bob-cli-na.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.8/README.md) | [bob-cli-na.8](bob-cli-na.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-na.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md) | [bob-cli-na](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-na.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md) | [bob-cli-na](README.md) | 3 |
 
 ## Commits
 
@@ -107,6 +107,7 @@ flowchart TD
 | bob-cli | [`b96bbe7`](https://github.com/bobs-org/bob-cli/commit/b96bbe7da6fb54a9f089c0d0d9d3d91bbafd39c0) | docs(records): link record walk plugin references | [bob-cli-na.8](bob-cli-na.8.md) | 2026-11-18 16:46:37 EST |
 | bob-cli | [`f5939f9`](https://github.com/bobs-org/bob-cli/commit/f5939f9a8e6049c1ffd0be6aa08ec7de3fb093e0) | refactor(albums): drop record walk phase dead-code scaffolding | [bob-cli-na](README.md) | 2026-11-18 17:17:54 EST |
 | bob-cli | [`28eec33`](https://github.com/bobs-org/bob-cli/commit/28eec33520d8f67668fca2ce435d23885a3bb8ba) | feat(albums): plan each album walk once and pin landing tests | [bob-cli-na](README.md) | 2026-11-18 18:26:05 EST |
+| bob-cli--plans | [`bob-cli--plans@7f54d9a`](https://github.com/bobs-org/bob-cli--plans/commit/7f54d9ad6e182e3ad31fe52657eaed95ef924d0d) | chore(plans): mark record-walk ring and landing tests done | [bob-cli-na](README.md) | 2026-11-18 18:26:42 EST |
 
 <!-- sase:referenced-by:start -->
 
