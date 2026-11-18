@@ -22,7 +22,7 @@ bob-walks: add the read-only `bob walks` command (human + JSON schema 1) that re
 ## Dependencies
 
 - **Blocks:** [bob-cli-mx.3](bob-cli-mx.3.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-mx.4](bob-cli-mx.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mx.4](bob-cli-mx.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -43,7 +43,9 @@ bob-walks: add the read-only `bob walks` command (human + JSON schema 1) that re
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mx.2--2][1] | Confirm assigned bead is complete so host completion can close it | 1 |
+| read-by | [agent:bob-cli-mx.3][2] | Check prior phase follow-up on docs-check failure to cite | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mx.3/README.md
 
 <!-- sase:referenced-by:end -->
