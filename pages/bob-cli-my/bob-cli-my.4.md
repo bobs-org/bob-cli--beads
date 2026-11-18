@@ -30,3 +30,15 @@ clobber-evidence: require evidence beyond a shared created timestamp before quar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2f14eef`](https://github.com/bobs-org/bob-cli/commit/2f14eef5dcbdcd46151ae9b87fb94ac4784496c9) | fix(vault-sync): corroborate created-time identity matches | [bob-cli-my.4](bob-cli-my.4.md) | 2026-11-17 22:00:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-my.4][1] | Need the phase scope, design file, decisions, and notes before completing this assigned phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-my.4/README.md
+
+<!-- sase:referenced-by:end -->
