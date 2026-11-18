@@ -18,7 +18,7 @@ reply-to: Resolve bob-cli-ia with fake-gog coverage while preserving self-sent a
 ## Dependencies
 
 - **Depends on:** [bob-cli-n5.3](bob-cli-n5.3.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-n5.5](bob-cli-n5.5.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-n5.5](bob-cli-n5.5.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -31,3 +31,15 @@ reply-to: Resolve bob-cli-ia with fake-gog coverage while preserving self-sent a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f1d98b7`](https://github.com/bobs-org/bob-cli/commit/f1d98b7fc1f79a42759573ca6fa748d6a473d243) | fix(gmail): honor Reply-To for plain replies | [bob-cli-n5.4](bob-cli-n5.4.md) | 2026-11-18 01:13:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n5.4][1] | Need phase attachments and parent epic decisions for implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.4/README.md
+
+<!-- sase:referenced-by:end -->
