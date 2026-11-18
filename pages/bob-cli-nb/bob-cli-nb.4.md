@@ -18,7 +18,7 @@ docs: write the docs/tick.md behavior contract with its mkdocs nav entry, add cr
 ## Dependencies
 
 - **Depends on:** [bob-cli-nb.2](bob-cli-nb.2.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-nb.5](bob-cli-nb.5.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-nb.5](bob-cli-nb.5.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -31,3 +31,15 @@ docs: write the docs/tick.md behavior contract with its mkdocs nav entry, add cr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2f1dca1`](https://github.com/bobs-org/bob-cli/commit/2f1dca1ce1e29383f52957dfb01e1e8c983d8f99) | docs(tick): document ordered background scheduler | [bob-cli-nb.4](bob-cli-nb.4.md) | 2026-11-18 17:18:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nb.4][1] | Need the phase scope, design file, and prior work notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.4/README.md
+
+<!-- sase:referenced-by:end -->

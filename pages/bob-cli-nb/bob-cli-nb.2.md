@@ -19,7 +19,7 @@ gates: add the today's-note readiness gate for gcal and tasks; gcal's once-a-day
 
 - **Depends on:** [bob-cli-nb.1](bob-cli-nb.1.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-nb.4](bob-cli-nb.4.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-nb.5](bob-cli-nb.5.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-nb.5](bob-cli-nb.5.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
