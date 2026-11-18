@@ -74,10 +74,12 @@ PROPOSED FOLLOW-UP: full bob-cli just check (Rust tree untouched/clean) should r
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ms.6--1][1] | Need phase bead state before recording just check failure follow-up | 2 |
 | read-by | [agent:bob-cli-ms.7][2] | how did the prior phase land its commit | 3 |
-| read-by | [agent:eo.f0--code][3] | Need phase scope | 2 |
+| read-by | [agent:bob-cli-ms.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:eo.f0--code][4] | Need phase scope | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
 
 <!-- sase:referenced-by:end -->

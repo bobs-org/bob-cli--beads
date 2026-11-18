@@ -61,9 +61,11 @@ PROPOSED FOLLOW-UP: album schema-writer self-test still fails held-lock apply (2
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ms.5--1][1] | Confirm phase completeness before host-completion submit with bead_action close | 1 |
-| read-by | [agent:eo.f0--code][2] | Need phase notes | 2 |
+| read-by | [agent:bob-cli-ms.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:eo.f0--code][3] | Need phase notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.5.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
 
 <!-- sase:referenced-by:end -->

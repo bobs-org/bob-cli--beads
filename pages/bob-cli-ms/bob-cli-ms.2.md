@@ -41,7 +41,9 @@ record-envelope: add bob records update -i FILE, a guarded envelope of typed fie
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ms.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-ms.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md
 
 <!-- sase:referenced-by:end -->

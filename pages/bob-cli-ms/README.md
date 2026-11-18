@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_card.md
 
@@ -89,6 +89,10 @@ flowchart TD
     n5["bob-cli-ms.5: Record Card shell, browse keys, choices, and discrete actions [closed]"]
     n6["bob-cli-ms.6: Typed Record Card stages and Tab fill-out [closed]"]
     n7["bob-cli-ms.7: Entry points, == on records, and the Properties hide [closed]"]
+    n8["bob-cli-ms.8: Finish the Record Card: the title moves into the sheet, records drop their H1, and real Obsidian proves it [in_progress]"]
+    n9["bob-cli-ms.8.1: Record sheet shows the title and mounts on H1-less records [in_progress]"]
+    n10["bob-cli-ms.8.2: bob writes records without an H1 and tidy removes redundant ones [in_progress]"]
+    n11["bob-cli-ms.8.3: Real-Obsidian Record Card walkthrough, hide-selector fix, and vault coverage [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -96,12 +100,19 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n0 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
     n1 -.-> n2
     n2 -.-> n4
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n7
+    n9 -.-> n10
+    n9 -.-> n11
+    n10 -.-> n11
 ```
 
 ## Agents
@@ -115,7 +126,11 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.5.md) | [bob-cli-ms.5](bob-cli-ms.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.land/README.md) | [bob-cli-ms](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.2/README.md) | [bob-cli-ms.8.2](bob-cli-ms.8.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3/README.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.land/README.md) | [bob-cli-ms.8](bob-cli-ms.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md) | [bob-cli-ms](README.md) | 1 |
 
 ## Commits
 
@@ -129,6 +144,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ba2b090`](https://github.com/bobs-org/bob-plugins/commit/ba2b09061153621311f179c102cfcab8c1b8e0b7) | feat(record-card): typed stages with Tab fill-out | [bob-cli-ms.6](bob-cli-ms.6.md) | 2026-11-17 19:29:14 EST |
 | bob-plugins | [`bob-plugins@f8a8619`](https://github.com/bobs-org/bob-plugins/commit/f8a86196b4b97a92262a71f3872bccd77a85f3ef) | feat(record-sheet): sheet affordances, record card entrypoints and properties hide | [bob-cli-ms.7](bob-cli-ms.7.md) | 2026-11-17 21:55:53 EST |
 | bob-cli | [`03ab2b3`](https://github.com/bobs-org/bob-cli/commit/03ab2b3d41dc5734e15be04a61da71b80455d43f) | docs(glossary): regenerate the capture alias item-start dot entry | [bob-cli-ms](README.md) | 2026-11-17 22:23:24 EST |
+| bob-plugins | [`bob-plugins@9ad471d`](https://github.com/bobs-org/bob-plugins/commit/9ad471d8a7ebcdc193cffda8eeb8ba99b4c87332) | feat(bob-ledger-tools): render record titles in the sheet | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 2026-11-17 23:12:55 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -139,13 +155,15 @@ flowchart TD
 | read-by | [agent:bob-cli-mr.land--2][1] | Need ms JSON budget notes | 2 |
 | read-by | [agent:bob-cli-ms.2][2] | Need epic scope for phase 2 | 1 |
 | read-by | [agent:bob-cli-ms.7][3] | check epic status and prior phase landings | 1 |
-| read-by | [agent:bob-cli-mw.1][4] | Cite whether records-tidy catalog/completion failures belong to this epic | 1 |
-| read-by | [agent:eo.f0--code][5] | Need note number for report | 2 |
+| read-by | [agent:bob-cli-ms.land][4] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-mw.1][5] | Cite whether records-tidy catalog/completion failures belong to this epic | 1 |
+| read-by | [agent:eo.f0--code][6] | Need note number for report | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mr.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mw.1/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mw.1/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
 
 <!-- sase:referenced-by:end -->

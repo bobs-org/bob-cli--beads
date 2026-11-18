@@ -44,7 +44,9 @@ record-read: add an optional STEM to bob records show that returns one record's 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ms.1--3][1] | Confirm phase scope is complete before closing on host submit | 1 |
+| read-by | [agent:bob-cli-ms.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md
 
 <!-- sase:referenced-by:end -->
