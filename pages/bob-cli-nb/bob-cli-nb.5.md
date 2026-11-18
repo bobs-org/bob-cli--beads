@@ -35,10 +35,11 @@ mac_cutover: once the Mac's bob has the gates build (wait with a monitor if not)
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nb.5.md) | [bob-cli-nb.5](bob-cli-nb.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-nb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nb.5.md) | [bob-cli-nb.5](bob-cli-nb.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a1e876c`](https://github.com/bobs-org/bob-cli/commit/a1e876cc80368d973f05a8c6c00cdab8743654dc) | docs(mac): describe bob-tick schedule replacing four cron jobs | [bob-cli-nb.5](bob-cli-nb.5.md) | 2026-11-18 18:30:40 EST |
+| chezmoi | [`chezmoi@f8acd58`](https://github.com/bbugyi200/dotfiles/commit/f8acd58c49879066883aff1c04161c49e525c6d9) | feat(cron): replace four mac bob jobs with one bob-tick job | [bob-cli-nb.5](bob-cli-nb.5.md) | 2026-11-18 18:31:04 EST |
