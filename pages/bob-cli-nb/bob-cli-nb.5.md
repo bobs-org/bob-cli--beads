@@ -15,7 +15,7 @@ mac_cutover: once the Mac's bob has the gates build (wait with a monitor if not)
 
 - **Depends on:** [bob-cli-nb.2](bob-cli-nb.2.md) ✓ · ⧖ 2026-11-18
 - **Depends on:** [bob-cli-nb.3](bob-cli-nb.3.md) ✓ · ⧖ 2026-11-18
-- **Depends on:** [bob-cli-nb.4](bob-cli-nb.4.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-nb.4](bob-cli-nb.4.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 

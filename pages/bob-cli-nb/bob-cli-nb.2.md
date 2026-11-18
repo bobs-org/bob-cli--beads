@@ -18,7 +18,7 @@ gates: add the today's-note readiness gate for gcal and tasks; gcal's once-a-day
 ## Dependencies
 
 - **Depends on:** [bob-cli-nb.1](bob-cli-nb.1.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-nb.4](bob-cli-nb.4.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-nb.4](bob-cli-nb.4.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-nb.5](bob-cli-nb.5.md) ◐ · ⧖ 2026-11-18
 
 ## Agents
@@ -32,3 +32,15 @@ gates: add the today's-note readiness gate for gcal and tasks; gcal's once-a-day
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`75de001`](https://github.com/bobs-org/bob-cli/commit/75de001f8c3202241ee9b2f3f65936f9f0db7147) | feat(tick): add step gates and per-step adapters | [bob-cli-nb.2](bob-cli-nb.2.md) | 2026-11-18 17:05:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nb.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.2/README.md
+
+<!-- sase:referenced-by:end -->

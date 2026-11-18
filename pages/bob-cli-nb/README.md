@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bob_tick.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bob_tick.md
 
 <!-- sase:links:end -->
@@ -30,7 +32,7 @@ One `bob tick` command runs Bob's more-than-daily background work (gcal, gmail, 
 | [bob-cli-nb.1](bob-cli-nb.1.md) | Engine, CLI, and the three views | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-nb.2](bob-cli-nb.2.md) | Step gates and per-step adapters | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-nb.3](bob-cli-nb.3.md) | Pin cadences in chezmoi | ✓ closed | xsmall | 2026-11-18 | 1 | 0 |
-| [bob-cli-nb.4](bob-cli-nb.4.md) | Contract page, decision record, and the bob sync tip | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
+| [bob-cli-nb.4](bob-cli-nb.4.md) | Contract page, decision record, and the bob sync tip | ✓ closed | small | 2026-11-18 | 1 | 1 |
 | [bob-cli-nb.5](bob-cli-nb.5.md) | Mac cron cutover | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +43,7 @@ flowchart TD
     n1["bob-cli-nb.1: Engine, CLI, and the three views [closed]"]
     n2["bob-cli-nb.2: Step gates and per-step adapters [closed]"]
     n3["bob-cli-nb.3: Pin cadences in chezmoi [closed]"]
-    n4["bob-cli-nb.4: Contract page, decision record, and the bob sync tip [in_progress]"]
+    n4["bob-cli-nb.4: Contract page, decision record, and the bob sync tip [closed]"]
     n5["bob-cli-nb.5: Mac cron cutover [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -63,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nb.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nb.1.md) | [bob-cli-nb.1](bob-cli-nb.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.2/README.md) | [bob-cli-nb.2](bob-cli-nb.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-nb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.3/README.md) | [bob-cli-nb.3](bob-cli-nb.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-nb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.4/README.md) | [bob-cli-nb.4](bob-cli-nb.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-nb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.4/README.md) | [bob-cli-nb.4](bob-cli-nb.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-nb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.5/README.md) | [bob-cli-nb.5](bob-cli-nb.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-nb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.land/README.md) | [bob-cli-nb](README.md) | 0 |
 
@@ -73,3 +75,16 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`bb864f8`](https://github.com/bobs-org/bob-cli/commit/bb864f88f72f82c954b745b4ea14e0e5d724c0df) | feat(tick): add the ordered background work engine and CLI views | [bob-cli-nb.1](bob-cli-nb.1.md) | 2026-11-18 16:10:50 EST |
 | bob-cli | [`75de001`](https://github.com/bobs-org/bob-cli/commit/75de001f8c3202241ee9b2f3f65936f9f0db7147) | feat(tick): add step gates and per-step adapters | [bob-cli-nb.2](bob-cli-nb.2.md) | 2026-11-18 17:05:09 EST |
+| bob-cli | [`2f1dca1`](https://github.com/bobs-org/bob-cli/commit/2f1dca1ce1e29383f52957dfb01e1e8c983d8f99) | docs(tick): document ordered background scheduler | [bob-cli-nb.4](bob-cli-nb.4.md) | 2026-11-18 17:18:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nb.2][1] | Need parent epic scope and decisions | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.2/README.md
+
+<!-- sase:referenced-by:end -->
