@@ -29,10 +29,4 @@ plugin-parity: run the docs/walks.md vectors against bob-ledger-tools' real atte
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-mx.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mx.3/README.md) | [bob-cli-mx.3](bob-cli-mx.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@5964d35`](https://github.com/bobs-org/bob-plugins/commit/5964d3504b5c0b9eeecfdf74b8aad06dd778d3e1) | test(ledger-tools): pin walker footer to walks conformance vectors | [bob-cli-mx.3](bob-cli-mx.3.md) | 2026-11-17 20:44:09 EST |
+| [bbugyi200.apollo.bob-cli-mx.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mx.3/README.md) | [bob-cli-mx.3](bob-cli-mx.3.md) | 0 |
