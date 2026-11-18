@@ -29,7 +29,7 @@ Every record note carries one bob-maintained `‹ prev · ↑ album · next ›`
 |---|---|---|---|---|---:|---:|
 | [bob-cli-na.1](bob-cli-na.1.md) | Pure ring, line grammar, and edit planner | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-na.2](bob-cli-na.2.md) | Albums sync repairs walk lines; list/check report them | ✓ closed | medium | 2026-11-18 | 1 | 1 |
-| [bob-cli-na.3](bob-cli-na.3.md) | Records show/check/tidy learn the walk line | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
+| [bob-cli-na.3](bob-cli-na.3.md) | Records show/check/tidy learn the walk line | ✓ closed | small | 2026-11-18 | 1 | 1 |
 | [bob-cli-na.4](bob-cli-na.4.md) | Record creation stages its neighbours in the same transaction | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-na.5](bob-cli-na.5.md) | Album-folder ghost guard and footer label fallback | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
 | [bob-cli-na.6](bob-cli-na.6.md) | Plugin walk model, cross-check, and footer count | ◐ in_progress | medium | 2026-11-18 | 1 | 0 |
@@ -43,7 +43,7 @@ flowchart TD
     n0["bob-cli-na: Record walk: ‹ › links on every record, N of M painted live [in_progress]"]
     n1["bob-cli-na.1: Pure ring, line grammar, and edit planner [closed]"]
     n2["bob-cli-na.2: Albums sync repairs walk lines; list/check report them [closed]"]
-    n3["bob-cli-na.3: Records show/check/tidy learn the walk line [in_progress]"]
+    n3["bob-cli-na.3: Records show/check/tidy learn the walk line [closed]"]
     n4["bob-cli-na.4: Record creation stages its neighbours in the same transaction [closed]"]
     n5["bob-cli-na.5: Album-folder ghost guard and footer label fallback [in_progress]"]
     n6["bob-cli-na.6: Plugin walk model, cross-check, and footer count [in_progress]"]
@@ -75,7 +75,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-na.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.1/README.md) | [bob-cli-na.1](bob-cli-na.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.2/README.md) | [bob-cli-na.2](bob-cli-na.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-na.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.3/README.md) | [bob-cli-na.3](bob-cli-na.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-na.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.3/README.md) | [bob-cli-na.3](bob-cli-na.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.4.md) | [bob-cli-na.4](bob-cli-na.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.5.md) | [bob-cli-na.5](bob-cli-na.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-na.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.6/README.md) | [bob-cli-na.6](bob-cli-na.6.md) | 0 |
@@ -90,3 +90,4 @@ flowchart TD
 | bob-cli | [`41b1dab`](https://github.com/bobs-org/bob-cli/commit/41b1dab3fc95fd0617392e91bed8637834640bf1) | feat(albums): add pure record walk planner | [bob-cli-na.1](bob-cli-na.1.md) | 2026-11-18 11:39:47 EST |
 | bob-cli | [`da68e6b`](https://github.com/bobs-org/bob-cli/commit/da68e6bf20c589989867e07d451875d7c9ac974d) | feat(albums): sync repairs record walk lines and reports walk health | [bob-cli-na.2](bob-cli-na.2.md) | 2026-11-18 12:40:41 EST |
 | bob-cli | [`c02d405`](https://github.com/bobs-org/bob-cli/commit/c02d405da9126dadddf623014447e8a309ff7660) | feat(records): stage record walk neighbours atomically | [bob-cli-na.4](bob-cli-na.4.md) | 2026-11-18 12:49:59 EST |
+| bob-cli | [`3b5490c`](https://github.com/bobs-org/bob-cli/commit/3b5490c1ad415f61b710f3fe4eea500378c1210d) | feat(records): show, check, and tidy learn the record walk line | [bob-cli-na.3](bob-cli-na.3.md) | 2026-11-18 13:45:59 EST |
