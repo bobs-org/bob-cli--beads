@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-mw
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1dq](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1dq.md) · **Assignee:** `bob-cli-mw.land`
-**Created:** 2026-11-17 17:23:39 EST
+**Created:** 2026-11-17 17:23:39 EST · **Closed:** 2026-11-18 08:00:38 EST
 **Plan:** [202611/daily\_headline.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/daily_headline.md)
 
 <!-- sase:links:start -->
@@ -37,6 +37,18 @@ Mac exact-SHA CI 44201688943 (18de389e) passed lint/build but remains in Test at
 
 One medium tale, sase_plan_daily_headline_closeout.md, passed explain/edit/revalidate with zero warnings. It covers only the parser/UI/docs omissions, regression checks and deployment, existing exact-SHA Mac CI, post-audit integration, then same-turn normal mw closure, symvision if available, and status: done on plan:202611/daily_headline.md. No close step depends on the tale commit/push. Both proposed follow-ups were fully triaged in the preceding note before proposing; retain those outcomes in the eventual close note.
 
+[2026-11-18T13:00:38Z · bob-cli-mw.land--m] LANDING CLOSEOUT (2026-11-18)
+
+The full reduced-concurrency gate sequence yyr70v74dznj completed exit 0 in 16m01s. Exact stage summary: plugin=0, build=0, inventory=0, unit=0, perf=0, headline=0, check=0, plugin_docs=0, docs=0, sync=0. Plugin build:check verified all 8 plugin entrypoints; documentation inventory passed; serialized npm unit suite passed 7,305 tests with 0 failures; performance suite passed 5 tests. cargo test headline passed; just check passed (7,342 library tests and 3,786 CLI tests passed); plugin docs check passed; just docs-check passed with 448 tests. Explicit bob plugins sync --repo <opened bob-plugins checkout> --no-pull succeeded: 2 files copied, 0 skipped, 29 unchanged. It deployed bob-ledger-tools main.js (+8/-4) and styles.css (+9); the existing bob-emoji tracked-vault-files warning was informational. No bob-plugins source edits or forced sync.
+
+The earlier parser/plugin gaps are resolved in current source: list markers and balanced Markdown destinations have regression coverage; plugin headline title, styling, tooltip, repaint signature, and docs are present. sase bead epic-symbols bob-cli-mw reported no entries, and lowercase justfile has no symvision recipe.
+
+Mac CI 44201825837 on SHA 394b3442df723dfdbc8362bba611e3d5d0585595 failed: Build passed; Test failed in CaptureDotRouteAliasTests.testLaterItemStartDotAliasAppliesAndOpensRouteList, with completion=nil after timeout and route nil instead of route. No Swift edits were made.
+
+Follow-ups: the JSON outputs word-budget proposal was declined/resolved by 3914ab50; canonical count is 5,256/6,000, with no task filed and no report reopened. The records-tidy catalog/completion/canonical-path omissions were routed as a DISCOVERED ISSUE to active causal epic bob-cli-ms; cfc3177c predates this work. No duplicate or new task was created. Confirmed the discovery remains on bob-cli-ms.
+
+Plan plan:202611/daily_headline.md is now status: done. All four child phases are closed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,7 +62,7 @@ One medium tale, sase_plan_daily_headline_closeout.md, passed explain/edit/reval
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-mw: Daily Headline: one line a day, shown wherever the week looks at its days [in_progress]"]
+    n0["bob-cli-mw: Daily Headline: one line a day, shown wherever the week looks at its days [closed]"]
     n1["bob-cli-mw.1: bob-cli reads the Daily Headline and serves it [closed]"]
     n2["bob-cli-mw.2: Week note Days table and strip show each day's headline [closed]"]
     n3["bob-cli-mw.3: Headline row at the top of the Mac idle agenda [closed]"]
@@ -72,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-mw.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mw.2.md) | [bob-cli-mw.2](bob-cli-mw.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-mw.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mw.3/README.md) | [bob-cli-mw.3](bob-cli-mw.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-mw.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mw.4/README.md) | [bob-cli-mw.4](bob-cli-mw.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-mw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mw.land.md) | [bob-cli-mw](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-mw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mw.land.md) | [bob-cli-mw](README.md) | 3 |
 
 ## Commits
 
@@ -82,6 +94,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@18de389`](https://github.com/bobs-org/bob-mac-capture/commit/18de389ef75541ba76144470e5fb0426cccbf57b) | feat(agenda): show Daily Headline row under Today title | [bob-cli-mw.3](bob-cli-mw.3.md) | 2026-11-17 18:42:17 EST |
 | bob-cli | [`ce6425f`](https://github.com/bobs-org/bob-cli/commit/ce6425f55773dda9342c7ba4078917222c6259bc) | feat(daily-headline): carry headline report integration | [bob-cli-mw](README.md) | 2026-11-18 06:57:06 EST |
 | bob-plugins | [`bob-plugins@04ef18f`](https://github.com/bobs-org/bob-plugins/commit/04ef18fee52e5a7fcf4002afbe7ceaaed55f2c9c) | feat(bob-ledger-tools): carry period headline changes | [bob-cli-mw](README.md) | 2026-11-18 06:57:25 EST |
+| bob-cli--plans | [`bob-cli--plans@b258567`](https://github.com/bobs-org/bob-cli--plans/commit/b258567800083ecc4bdcce74dd690971a34e30d7) | docs(plan): mark daily headline complete | [bob-cli-mw](README.md) | 2026-11-18 08:02:11 EST |
 
 <!-- sase:referenced-by:start -->
 
