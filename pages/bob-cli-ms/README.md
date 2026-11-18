@@ -94,7 +94,7 @@ flowchart TD
     n10["bob-cli-ms.8.2: bob writes records without an H1 and tidy removes redundant ones [closed]"]
     n11["bob-cli-ms.8.3: Real-Obsidian Record Card walkthrough, hide-selector fix, and vault coverage [in_progress]"]
     n12["bob-cli-ms.8.3.1: Prove the Record Card in real Obsidian and verify vault coverage [in_progress]"]
-    n13["bob-cli-ms.8.3.1.1: Prove record sheet rendering and fix Properties hiding in real Obsidian [in_progress]"]
+    n13["bob-cli-ms.8.3.1.1: Prove record sheet rendering and fix Properties hiding in real Obsidian [closed]"]
     n14["bob-cli-ms.8.3.1.2: Prove Record Card entry points and guarded keyboard edits [in_progress]"]
     n15["bob-cli-ms.8.3.1.3: Verify live record coverage and the final deployed build [in_progress]"]
     n0 --> n1
@@ -139,7 +139,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.1.md) | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.2/README.md) | [bob-cli-ms.8.2](bob-cli-ms.8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ms.8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md) | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md) | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.2/README.md) | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.3/README.md) | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.land/README.md) | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 0 |
@@ -161,6 +161,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9ad471d`](https://github.com/bobs-org/bob-plugins/commit/9ad471d8a7ebcdc193cffda8eeb8ba99b4c87332) | feat(bob-ledger-tools): render record titles in the sheet | [bob-cli-ms.8.1](bob-cli-ms.8.1.md) | 2026-11-17 23:12:55 EST |
 | bob-cli | [`2f80442`](https://github.com/bobs-org/bob-cli/commit/2f80442bb2c3141b69131c6db7786516fa165ca0) | feat(records): write H1-less record notes and tidy redundant H1s | [bob-cli-ms.8.2](bob-cli-ms.8.2.md) | 2026-11-18 08:51:15 EST |
 | bob-plugins | [`bob-plugins@8e8ff51`](https://github.com/bobs-org/bob-plugins/commit/8e8ff51f97732c5ad737215ee5bb2a78350db5ef) | feat(record-card): add record sheet and interaction coverage | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2026-11-18 15:09:18 EST |
+| bob-plugins | [`bob-plugins@395088a`](https://github.com/bobs-org/bob-plugins/commit/395088ab817187f9d1a3651634166d515f4cad49) | fix(ledger-tools): preserve selective record properties hiding | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2026-11-18 18:02:26 EST |
 
 <!-- sase:referenced-by:start -->
 

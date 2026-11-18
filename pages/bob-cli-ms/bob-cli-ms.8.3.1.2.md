@@ -13,7 +13,7 @@ card-workflows: extend the same CDP runner with all Record Card entry points, ty
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) ◐ · ⧖ 2026-11-18
 
 ## Agents
@@ -21,3 +21,15 @@ card-workflows: extend the same CDP runner with all Record Card entry points, ty
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.2/README.md) | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ms.8.3.1.1--c][1] | Confirm the dependent phase remains in progress as requested | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md
+
+<!-- sase:referenced-by:end -->
