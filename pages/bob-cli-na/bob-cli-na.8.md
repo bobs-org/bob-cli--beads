@@ -35,3 +35,15 @@ walk-ship: run the end-to-end CLI walkthrough in a temp vault, review a read-onl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b96bbe7`](https://github.com/bobs-org/bob-cli/commit/b96bbe7da6fb54a9f089c0d0d9d3d91bbafd39c0) | docs(records): link record walk plugin references | [bob-cli-na.8](bob-cli-na.8.md) | 2026-11-18 16:46:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-na.8][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.8/README.md
+
+<!-- sase:referenced-by:end -->

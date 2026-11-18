@@ -25,6 +25,10 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 Every record note carries one bob-maintained `‹ prev · ↑ album · next ›` line that forms a cycling alphabetical ring per album, `[n` / `]n` follow it with no key changes, and Obsidian paints `N of M` beside it on a record-sheet rail and in the `n` links footer, without ever writing a count into Markdown.
 
+## Notes
+
+[2026-11-18T22:16:58Z · bob-cli-na.land] LAND (bob-cli-na.land) verification + follow-up triage. Verified all 8 phases against plan:202611/record_walk_ring.md and commits 41b1dab3, da68e6bf, c02d405d, 3b5490c1, b96bbe7d (bob-cli) plus a4710c4, 281ee8a, e7d82af (bob-plugins). Decisions honored: footer reads bare 'Links N/M' (124-links-walker-footer.js); only glossary:record-note memory was edited; no decision record created. Plugin vectors equal bob-cli tests/fixtures/record_walk/vectors.json. just check green on b96bbe7d (7379 lib, 3814 cli). Integration: bb864f88 (tick) already updated album/record test assertions for walk lines; 6cb387bc and 91ff49f8 are unrelated; tick does not run albums sync. Lander cleanup: removed the phase-scaffolding #[allow(dead_code)] on mod walk and the dead insert_walk_line_for_test wrapper (clippy -D unused clean). Remaining epic work (acceptance tests left manual: sync M>=2/retitle/delete/damaged/held/race/nightly, capture neighbour race, show held; and the double walk plan in albums sync) proposed as a tale that ends with this epic's closeout. Follow-up outcomes: na.1 #1 (rustfmt drift tests/cli/albums_create.rs:1149) declined, already fixed in-epic and cargo fmt --check passes; na.4 #1 (four clippy denies in walk.rs) declined, epic-caused and fixed in 3b5490c1, clippy passes; na.3 #1 (docs-check mount collision) +1'd as duplicate of bob-cli-it; na.6 #1 and na.7 #1 (event-link-times / frees-marks 25 ms flakes) +1'd on bob-cli-km and bob-cli-io; na.7 #1 KT1-KT8 keep-moving-marks timing failure +1'd on bob-cli-ki (closed; lander did not reproduce it).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -83,7 +87,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-na.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.6/README.md) | [bob-cli-na.6](bob-cli-na.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.7/README.md) | [bob-cli-na.7](bob-cli-na.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.8/README.md) | [bob-cli-na.8](bob-cli-na.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-na.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.land/README.md) | [bob-cli-na](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-na.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.land/README.md) | [bob-cli-na](README.md) | 1 |
 
 ## Commits
 
@@ -97,6 +101,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@281ee8a`](https://github.com/bobs-org/bob-plugins/commit/281ee8a3e08898c383305e4b81f85af3ae49b7bc) | feat(plugins): add album record walk footer status | [bob-cli-na.6](bob-cli-na.6.md) | 2026-11-18 15:39:29 EST |
 | bob-plugins | [`bob-plugins@e7d82af`](https://github.com/bobs-org/bob-plugins/commit/e7d82afe0c5fb6b9e5424803dc3bcf26fd456a28) | feat(records): dock the record walk rail under record sheets | [bob-cli-na.7](bob-cli-na.7.md) | 2026-11-18 16:32:28 EST |
 | bob-cli | [`b96bbe7`](https://github.com/bobs-org/bob-cli/commit/b96bbe7da6fb54a9f089c0d0d9d3d91bbafd39c0) | docs(records): link record walk plugin references | [bob-cli-na.8](bob-cli-na.8.md) | 2026-11-18 16:46:37 EST |
+| bob-cli | [`f5939f9`](https://github.com/bobs-org/bob-cli/commit/f5939f9a8e6049c1ffd0be6aa08ec7de3fb093e0) | refactor(albums): drop record walk phase dead-code scaffolding | [bob-cli-na](README.md) | 2026-11-18 17:17:54 EST |
 
 <!-- sase:referenced-by:start -->
 
