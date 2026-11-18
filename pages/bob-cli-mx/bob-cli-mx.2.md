@@ -17,6 +17,8 @@ bob-walks: add the read-only `bob walks` command (human + JSON schema 1) that re
 
 [2026-11-18T00:07:55Z · bob-cli-mx.2] Verified bob walks: 3 lib tests; 24 CLI vectors S1-S5 W1-W8 B1-B4 plus freshness-list parity, goldens, human output, missing-vault JSON, --help contract; root help snapshots; catalog 104; 127 completion tests; just lint green; just docs-gen wrote CLI reference and contracts nav with walks after freshness. just docs-check fails on this workspace's clean base via the bob-cli-it plugin index collision.
 
+[2026-11-18T00:33:12Z · bob-cli-mx.2--1] just check failed after close: catalog.entries still 103 after walks, plus HEAD records tidy missing catalog row, completion kinds, runner expected list, and help_options about. Wired records-tidy into catalog/kinds/runner/help and bumped counts to 105. Re-ran the 5 failing tests green.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-mx.3](bob-cli-mx.3.md) ◐ · ⧖ 2026-11-17
@@ -26,4 +28,10 @@ bob-walks: add the read-only `bob walks` command (human + JSON schema 1) that re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-mx.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.2.md) | [bob-cli-mx.2](bob-cli-mx.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-mx.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mx.2.md) | [bob-cli-mx.2](bob-cli-mx.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`c50f889`](https://github.com/bobs-org/bob-cli/commit/c50f8895b5487722d2072a7d1c47a43f2ced9814) | feat(walks): add read-only attention report and contract | [bob-cli-mx.2](bob-cli-mx.2.md) | 2026-11-17 20:24:29 EST |
