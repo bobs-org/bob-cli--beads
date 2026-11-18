@@ -21,7 +21,7 @@ walk-model (bob-plugins): pure JS walk-line parser and metadataCache ring (share
 
 - **Depends on:** [bob-cli-na.1](bob-cli-na.1.md) ✓ · ⧖ 2026-11-18
 - **Depends on:** [bob-cli-na.5](bob-cli-na.5.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-na.7](bob-cli-na.7.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-na.7](bob-cli-na.7.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -34,3 +34,15 @@ walk-model (bob-plugins): pure JS walk-line parser and metadataCache ring (share
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@281ee8a`](https://github.com/bobs-org/bob-plugins/commit/281ee8a3e08898c383305e4b81f85af3ae49b7bc) | feat(plugins): add album record walk footer status | [bob-cli-na.6](bob-cli-na.6.md) | 2026-11-18 15:39:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-na.6][1] | Confirm the completed phase is closed before final declaration | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.6/README.md
+
+<!-- sase:referenced-by:end -->
