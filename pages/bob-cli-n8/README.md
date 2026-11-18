@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/review_attention_follows_walk.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/review_attention_follows_walk.md
 
 <!-- sase:links:end -->
@@ -27,8 +29,8 @@ The s selector dot, the selected-s ink, Bob Mac Capture's s mark, and bob walks 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-n8.1](bob-cli-n8.1.md) | bob walks: s attention follows the \]s walk | ✓ closed | medium | 2026-11-18 | 1 | 1 |
-| [bob-cli-n8.2](bob-cli-n8.2.md) | Obsidian: selector dot, ink, and footer hues follow the \]s walk | ◐ in_progress | medium | 2026-11-18 | 1 | 0 |
+| [bob-cli-n8.1](bob-cli-n8.1.md) | bob walks: s attention follows the \]s walk | ✓ closed | medium | 2026-11-18 | 1 | 0 |
+| [bob-cli-n8.2](bob-cli-n8.2.md) | Obsidian: selector dot, ink, and footer hues follow the \]s walk | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-n8.3](bob-cli-n8.3.md) | Mac Capture: s mark shows for every landable walk | ◐ in_progress | medium | 2026-11-18 | 1 | 0 |
 | [bob-cli-n8.4](bob-cli-n8.4.md) | Record the decision, fix the glossary, regenerate docs, verify parity | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
 
@@ -38,7 +40,7 @@ The s selector dot, the selected-s ink, Bob Mac Capture's s mark, and bob walks 
 flowchart TD
     n0["bob-cli-n8: Review attention follows the ]s walk [in_progress]"]
     n1["bob-cli-n8.1: bob walks: s attention follows the ]s walk [closed]"]
-    n2["bob-cli-n8.2: Obsidian: selector dot, ink, and footer hues follow the ]s walk [in_progress]"]
+    n2["bob-cli-n8.2: Obsidian: selector dot, ink, and footer hues follow the ]s walk [closed]"]
     n3["bob-cli-n8.3: Mac Capture: s mark shows for every landable walk [in_progress]"]
     n4["bob-cli-n8.4: Record the decision, fix the glossary, regenerate docs, verify parity [in_progress]"]
     n0 --> n1
@@ -54,8 +56,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-n8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.1/README.md) | [bob-cli-n8.1](bob-cli-n8.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-n8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.2/README.md) | [bob-cli-n8.2](bob-cli-n8.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-n8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.1/README.md) | [bob-cli-n8.1](bob-cli-n8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-n8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.2.md) | [bob-cli-n8.2](bob-cli-n8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-n8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.3.md) | [bob-cli-n8.3](bob-cli-n8.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-n8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.4/README.md) | [bob-cli-n8.4](bob-cli-n8.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-n8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.land/README.md) | [bob-cli-n8](README.md) | 0 |
@@ -64,4 +66,16 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`aea8552`](https://github.com/bobs-org/bob-cli/commit/aea85529246146658515ef85ad3ecc8950112762) | feat(walks): light footer s across all nine review tiers with counts | [bob-cli-n8.1](bob-cli-n8.1.md) | 2026-11-18 10:07:42 EST |
+| bob-plugins | [`bob-plugins@c7e6d3e`](https://github.com/bobs-org/bob-plugins/commit/c7e6d3e8906b440e897a96042d74514ddb4c4512) | feat(walks): align Obsidian attention with review walk | [bob-cli-n8.2](bob-cli-n8.2.md) | 2026-11-18 10:31:56 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n8.1][1] | Need epic scope for phase n8.1 | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,7 +14,7 @@ record: new decision record plus supersession mark, two glossary fixes, memory i
 ## Dependencies
 
 - **Depends on:** [bob-cli-n8.1](bob-cli-n8.1.md) ✓ · ⧖ 2026-11-18
-- **Depends on:** [bob-cli-n8.2](bob-cli-n8.2.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-n8.2](bob-cli-n8.2.md) ✓ · ⧖ 2026-11-18
 - **Depends on:** [bob-cli-n8.3](bob-cli-n8.3.md) ◐ · ⧖ 2026-11-18
 
 ## Agents
