@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-n7](README.md) / bob-cli-n7.3
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-n5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n5.land.md) · **Assignee:** `bob-cli-n7.3` · **Size:** medium
-**Created:** 2026-11-18 01:55:52 EST · **Closed:** 2026-11-18 10:22:18 EST
+**Created:** 2026-11-18 01:55:52 EST · **Closed:** 2026-11-18 18:08:55 EST
 **Plan:** [202611/backlog\_triage\_t4.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/backlog_triage_t4.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-11-18T15:22:18Z · done
+>
+> (none)
+>
+> Reopened 2026-11-18T15:53:31Z by `sase bead open`
 
 ## Description
 
@@ -24,6 +32,10 @@ pipe-drain: Resolve bob-cli-kl so both subprocess_runner pipe-drain tests pass d
 [2026-11-18T15:22:06Z · bob-cli-n7.3--1] PROPOSED FOLLOW-UP: fmt-only pass on tests/cli/albums_create.rs:1149 (cargo fmt joins the two-line `.all(...)` closure into one line). Pre-existing on clean base, untouched by this phase, but it reds the whole CI workflow including the macOS gate (run 44324801726 lint job 134873117837). No tracking bead exists yet. After the fmt fix lands, re-run scripts/dev/macos-ci-check to obtain the macOS verdict on the pipe-drain pair, then close bob-cli-kl.
 
 [2026-11-18T15:22:18Z · bob-cli-n7.3--1] Pipe-drain fixture ported (src/native/subprocess_runner.rs only): python3 setsid(2)+sentinel instead of setsid(1); leader waits for detach; Drop guard reaps holder. Verified: focused 6/6 x5 runs ~2.11s (<4s bound); full lib suite 7357 passed/0 failed under load; clippy exit 0; my file fmt-clean; no-setsid-on-PATH shell proof passes. CI on snapshot SHA: ubuntu job green with both pair tests ok. macOS verdict blocked: workflow red solely on pre-existing fmt nit tests/cli/albums_create.rs:1149 (byte-identical on clean base, recorded as PROPOSED FOLLOW-UP); macOS Run-tests step cancelled before running. bob-cli-kl left open pending macOS re-run after fmt fix.
+
+[2026-11-18T15:53:37Z · bob-cli-n7.land] LAND AUDIT: Reopened because f0857be8 does not meet the plan lifetime/cleanup requirement. PIPE_DRAIN_HOLDER_SCRIPT still time.sleep(8), while DetachedHolderGuard::armed parses the runner result stdout. Both run/run_raw receive_before time out on the intentionally-held stdout pipe and use unwrap_or_default, so stdout is empty and pid is None on the expected success path; the guard cannot kill the holder. It is also constructed only after run(...).expect, so error/panic before construction has no cleanup. Replace with out-of-band holder identity/control established before the tested run; hold until explicit test release and prove cleanup on success and assertion unwind. Preserve the 4s bound and truncation assertions. Source reasoning, not a newly reproduced Rust failure; current Linux CI passes the pair while missing this cleanup property. macOS verdict is still absent. This stays n7 epic work; no new task.
+
+[2026-11-18T23:08:55Z · bob-cli-n7.land--a] Reopened holder-cleanup requirement is now covered. The fixture uses Python os.fork/os.setsid (no setsid(1)), unique out-of-band ready/identity/release files, an explicit release sentinel, waitpid acknowledgement and process-exit checks; direct success tests retain the four-second bound and truncation assertions. Drop cleanup is exercised on assertion unwind and a missing-runner spawn failure is exercised before any holder exists. Both cleanup regressions and both original pipe-drain tests pass on macOS job 135170175416 and Linux job 135170175253 in exact snapshot 2dfbcb85d861f5f73ef6da8b059f7e6b25651ade; full just check ToolRun 8f15360328bae95b3bd7f3c22554a77f succeeded in 8m33s.
 
 ## Dependencies
 

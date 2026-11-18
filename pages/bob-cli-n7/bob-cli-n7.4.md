@@ -32,3 +32,15 @@ cpu-gates: Resolve bob-cli-ju (off-clock link chips, 35 ms) and bob-cli-ki (keep
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b2a6d2b`](https://github.com/bobs-org/bob-plugins/commit/b2a6d2bf56963702af02d45da362db0141c1295b) | test(perf): measure Live Preview budgets with CPU time | [bob-cli-n7.4](bob-cli-n7.4.md) | 2026-11-18 10:45:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n7.4--1][1] | Need the assigned phase scope, notes, and design file before recording suite results | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n7.4.md
+
+<!-- sase:referenced-by:end -->
