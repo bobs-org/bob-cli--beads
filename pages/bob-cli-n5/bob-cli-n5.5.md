@@ -34,3 +34,15 @@ ranker-measurement: resolve bob-cli-3w with meaningful load-independent regressi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@87c7b72`](https://github.com/bobs-org/bob-plugins/commit/87c7b721ca38ae2380b8c1b446b060bf7e2ff729) | test(nav): gate stage-ranker budget on CPU work, not wall time | [bob-cli-n5.5](bob-cli-n5.5.md) | 2026-11-18 01:22:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n5.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.5/README.md
+
+<!-- sase:referenced-by:end -->

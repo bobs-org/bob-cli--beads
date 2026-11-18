@@ -39,7 +39,9 @@ record-literals: Resolve bob-cli-ja at the shared rewrite/completion boundary wi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-n5.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-n5.5][2] | Check phase bead status precedent | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.5/README.md
 
 <!-- sase:referenced-by:end -->

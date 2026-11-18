@@ -26,3 +26,15 @@ glossary-drift: Resolve bob-cli-mz by regenerating the glossary and passing the 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-n5.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.1/README.md) | [bob-cli-n5.1](bob-cli-n5.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n5.5][1] | Check phase bead status precedent | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -39,7 +39,9 @@ reply-to: Resolve bob-cli-ia with fake-gog coverage while preserving self-sent a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-n5.4][1] | Need phase attachments and parent epic decisions for implementation | 2 |
+| read-by | [agent:bob-cli-n5.5][2] | Check phase bead status precedent | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.5/README.md
 
 <!-- sase:referenced-by:end -->
