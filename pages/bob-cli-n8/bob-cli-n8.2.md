@@ -25,10 +25,16 @@ obsidian-attention: ledger push follows the walk, POST gets its hue, nav selecto
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-n8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.2.md) | [bob-cli-n8.2](bob-cli-n8.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-n8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.2.md) | [bob-cli-n8.2](bob-cli-n8.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@c7e6d3e`](https://github.com/bobs-org/bob-plugins/commit/c7e6d3e8906b440e897a96042d74514ddb4c4512) | feat(walks): align Obsidian attention with review walk | [bob-cli-n8.2](bob-cli-n8.2.md) | 2026-11-18 10:31:56 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n8.2--1][1] | Need the phase scope, design file, prior remaining work, and decisions before finishing the assigned implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.2.md
+
+<!-- sase:referenced-by:end -->

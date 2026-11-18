@@ -30,8 +30,8 @@ The s selector dot, the selected-s ink, Bob Mac Capture's s mark, and bob walks 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-n8.1](bob-cli-n8.1.md) | bob walks: s attention follows the \]s walk | ✓ closed | medium | 2026-11-18 | 1 | 0 |
-| [bob-cli-n8.2](bob-cli-n8.2.md) | Obsidian: selector dot, ink, and footer hues follow the \]s walk | ✓ closed | medium | 2026-11-18 | 1 | 1 |
-| [bob-cli-n8.3](bob-cli-n8.3.md) | Mac Capture: s mark shows for every landable walk | ◐ in_progress | medium | 2026-11-18 | 1 | 0 |
+| [bob-cli-n8.2](bob-cli-n8.2.md) | Obsidian: selector dot, ink, and footer hues follow the \]s walk | ✓ closed | medium | 2026-11-18 | 1 | 0 |
+| [bob-cli-n8.3](bob-cli-n8.3.md) | Mac Capture: s mark shows for every landable walk | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-n8.4](bob-cli-n8.4.md) | Record the decision, fix the glossary, regenerate docs, verify parity | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n0["bob-cli-n8: Review attention follows the ]s walk [in_progress]"]
     n1["bob-cli-n8.1: bob walks: s attention follows the ]s walk [closed]"]
     n2["bob-cli-n8.2: Obsidian: selector dot, ink, and footer hues follow the ]s walk [closed]"]
-    n3["bob-cli-n8.3: Mac Capture: s mark shows for every landable walk [in_progress]"]
+    n3["bob-cli-n8.3: Mac Capture: s mark shows for every landable walk [closed]"]
     n4["bob-cli-n8.4: Record the decision, fix the glossary, regenerate docs, verify parity [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -57,8 +57,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-n8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.1/README.md) | [bob-cli-n8.1](bob-cli-n8.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-n8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.2.md) | [bob-cli-n8.2](bob-cli-n8.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-n8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.3.md) | [bob-cli-n8.3](bob-cli-n8.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-n8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.2.md) | [bob-cli-n8.2](bob-cli-n8.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-n8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.3.md) | [bob-cli-n8.3](bob-cli-n8.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-n8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.4/README.md) | [bob-cli-n8.4](bob-cli-n8.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-n8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.land/README.md) | [bob-cli-n8](README.md) | 0 |
 
@@ -66,7 +66,7 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@c7e6d3e`](https://github.com/bobs-org/bob-plugins/commit/c7e6d3e8906b440e897a96042d74514ddb4c4512) | feat(walks): align Obsidian attention with review walk | [bob-cli-n8.2](bob-cli-n8.2.md) | 2026-11-18 10:31:56 EST |
+| bob-mac-capture | [`bob-mac-capture@1e20997`](https://github.com/bobs-org/bob-mac-capture/commit/1e20997e84022cbcd45ffe48e67c6ef317609924) | feat(mac-capture): mirror Bob walk attention marks | [bob-cli-n8.3](bob-cli-n8.3.md) | 2026-11-18 11:11:56 EST |
 
 <!-- sase:referenced-by:start -->
 
