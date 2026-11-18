@@ -20,7 +20,7 @@ midnight-dating: refuse past-offset starts before today while preserving valid o
 ## Dependencies
 
 - **Depends on:** [bob-cli-my.2](bob-cli-my.2.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-my.4](bob-cli-my.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-my.4](bob-cli-my.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -33,3 +33,15 @@ midnight-dating: refuse past-offset starts before today while preserving valid o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`97f844c`](https://github.com/bobs-org/bob-cli/commit/97f844caf4a942f275dc22336136834a94ed2cfa) | fix(capture): refuse past-midnight Pomodoro offset starts | [bob-cli-my.3](bob-cli-my.3.md) | 2026-11-17 21:37:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-my.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-my.3/README.md
+
+<!-- sase:referenced-by:end -->
