@@ -18,7 +18,7 @@ record-literals: Resolve bob-cli-ja at the shared rewrite/completion boundary wi
 ## Dependencies
 
 - **Depends on:** [bob-cli-n5.2](bob-cli-n5.2.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-n5.4](bob-cli-n5.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-n5.4](bob-cli-n5.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -31,3 +31,15 @@ record-literals: Resolve bob-cli-ja at the shared rewrite/completion boundary wi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`612d134`](https://github.com/bobs-org/bob-cli/commit/612d134278173c650dadfe5f63b14e9690c78b6e) | fix(capture): keep record field punctuation literal during rewrite | [bob-cli-n5.3](bob-cli-n5.3.md) | 2026-11-18 00:46:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n5.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n5.3/README.md
+
+<!-- sase:referenced-by:end -->

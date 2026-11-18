@@ -13,7 +13,7 @@ ranker-measurement: resolve bob-cli-3w with meaningful load-independent regressi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-n5.4](bob-cli-n5.4.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [bob-cli-n5.4](bob-cli-n5.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
