@@ -36,7 +36,7 @@ Every record note carries one bob-maintained `‹ prev · ↑ album · next ›`
 | [bob-cli-na.5](bob-cli-na.5.md) | Album-folder ghost guard and footer label fallback | ✓ closed | small | 2026-11-18 | 1 | 1 |
 | [bob-cli-na.6](bob-cli-na.6.md) | Plugin walk model, cross-check, and footer count | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-na.7](bob-cli-na.7.md) | Record-sheet walk rail | ✓ closed | medium | 2026-11-18 | 1 | 1 |
-| [bob-cli-na.8](bob-cli-na.8.md) | End-to-end verification, docs pass, and memory | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
+| [bob-cli-na.8](bob-cli-na.8.md) | End-to-end verification, docs pass, and memory | ✓ closed | small | 2026-11-18 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n5["bob-cli-na.5: Album-folder ghost guard and footer label fallback [closed]"]
     n6["bob-cli-na.6: Plugin walk model, cross-check, and footer count [closed]"]
     n7["bob-cli-na.7: Record-sheet walk rail [closed]"]
-    n8["bob-cli-na.8: End-to-end verification, docs pass, and memory [in_progress]"]
+    n8["bob-cli-na.8: End-to-end verification, docs pass, and memory [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-na.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.5.md) | [bob-cli-na.5](bob-cli-na.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.6/README.md) | [bob-cli-na.6](bob-cli-na.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.7/README.md) | [bob-cli-na.7](bob-cli-na.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-na.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.8/README.md) | [bob-cli-na.8](bob-cli-na.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-na.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.8/README.md) | [bob-cli-na.8](bob-cli-na.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-na.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.land/README.md) | [bob-cli-na](README.md) | 0 |
 
 ## Commits
@@ -96,6 +96,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a4710c4`](https://github.com/bobs-org/bob-plugins/commit/a4710c4c1db93f2e038208aad48c12007d8ad6e1) | feat(plugins): guard album record walks and labels | [bob-cli-na.5](bob-cli-na.5.md) | 2026-11-18 14:30:34 EST |
 | bob-plugins | [`bob-plugins@281ee8a`](https://github.com/bobs-org/bob-plugins/commit/281ee8a3e08898c383305e4b81f85af3ae49b7bc) | feat(plugins): add album record walk footer status | [bob-cli-na.6](bob-cli-na.6.md) | 2026-11-18 15:39:29 EST |
 | bob-plugins | [`bob-plugins@e7d82af`](https://github.com/bobs-org/bob-plugins/commit/e7d82afe0c5fb6b9e5424803dc3bcf26fd456a28) | feat(records): dock the record walk rail under record sheets | [bob-cli-na.7](bob-cli-na.7.md) | 2026-11-18 16:32:28 EST |
+| bob-cli | [`b96bbe7`](https://github.com/bobs-org/bob-cli/commit/b96bbe7da6fb54a9f089c0d0d9d3d91bbafd39c0) | docs(records): link record walk plugin references | [bob-cli-na.8](bob-cli-na.8.md) | 2026-11-18 16:46:37 EST |
 
 <!-- sase:referenced-by:start -->
 

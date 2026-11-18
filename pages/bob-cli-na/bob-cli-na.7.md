@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:6fd98fa413fbd1e4e21629f1 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -30,7 +32,7 @@ walk-rail (bob-plugins): render the walk line as a docked rail under the record 
 ## Dependencies
 
 - **Depends on:** [bob-cli-na.6](bob-cli-na.6.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-na.8](bob-cli-na.8.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-na.8](bob-cli-na.8.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -43,3 +45,15 @@ walk-rail (bob-plugins): render the walk line as a docked rail under the record 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@e7d82af`](https://github.com/bobs-org/bob-plugins/commit/e7d82afe0c5fb6b9e5424803dc3bcf26fd456a28) | feat(records): dock the record walk rail under record sheets | [bob-cli-na.7](bob-cli-na.7.md) | 2026-11-18 16:32:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-na.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.7/README.md
+
+<!-- sase:referenced-by:end -->

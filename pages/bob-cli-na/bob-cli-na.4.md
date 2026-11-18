@@ -20,7 +20,7 @@ walk-writers: capture creates and bob records new plan the ring from the final o
 ## Dependencies
 
 - **Depends on:** [bob-cli-na.1](bob-cli-na.1.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-na.8](bob-cli-na.8.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-na.8](bob-cli-na.8.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 

@@ -18,7 +18,7 @@ walk-sync: compose walk-line edits into bob albums sync (standalone and nightly)
 ## Dependencies
 
 - **Depends on:** [bob-cli-na.1](bob-cli-na.1.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-na.8](bob-cli-na.8.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-na.8](bob-cli-na.8.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
