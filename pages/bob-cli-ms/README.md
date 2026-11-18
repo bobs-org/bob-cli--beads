@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_card.md
 
@@ -59,6 +59,8 @@ Every healthy record note shows its album-defined fields as a quiet, beautiful r
 
 [2026-11-17T22:29:57Z · bob-cli-mr.land] DISCOVERED ISSUE corroboration from bob-cli-mr landing, proposing bead mr.3.1.3 note #1: canonical count_words on current 0e83df4c docs/reference/json-outputs.md is 6112/6000 (cfc3177c added records tidy after the prior 6089 report). Your notes #4/#6 already assign the 5233-word repair to eo.f0--code; that docs commit is not in origin/master as fetched in this audit. Preserve that pending repair rather than creating duplicate work. Same-type then all-type semantic search and all 70 tasks from the last week found no matching task; b6 is resolved generated drift and jz tracks different mounted pages. No new task or +1 on unrelated tasks.
 
+[2026-11-17T23:53:49Z · bob-cli-mw.land] DISCOVERED ISSUE: Daily Headline landing triage, proposed by bob-cli-mw.1 note #2. The records tidy addition cfc3177c (record H1/empty Notes cleanup aligned with ms note #3) mounts NativeCommand::RecordsTidy in src/runner.rs and completion/tree.rs, but current 225a6fb still has no records/tidy catalog entry or exclusion in native/catalog/table.rs, no completion kinds decision for its TYPE argument, and no RecordsTidy in the canonical-path test expected array. mw.1 reproduced all three lib failures on clean pre-headline 0e83df4c: public_leaves_are_entries_or_excluded, every_value_arg_has_a_decision (records tidy:type), every_native_command_is_on_exactly_one_canonical_path (92 vs 91). Landing independently rechecked the unchanged source and cfc3177c diff; a bounded local cargo reproduction timed out compiling dependencies before tests, so this is source corroboration, not a fresh test result. Same-type and all-type task searches plus all 68 tasks created in the last week found no semantic duplicate; 4j concerns the already-fixed highlights audio argument, hp concerns duplicate clipboard registration. Please integrate the tidy command into the three registries as Record Card landing work; no duplicate task created.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -68,7 +70,7 @@ Every healthy record note shows its album-defined fields as a quiet, beautiful r
 | [bob-cli-ms.3](bob-cli-ms.3.md) | Read-only record sheet under the H1 (Live Preview and Reading) | ✓ closed | large | 2026-11-17 | 1 | 1 |
 | [bob-cli-ms.4](bob-cli-ms.4.md) | Record update service and guarded session with direct apply | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [bob-cli-ms.5](bob-cli-ms.5.md) | Record Card shell, browse keys, choices, and discrete actions | ✓ closed | large | 2026-11-17 | 1 | 1 |
-| [bob-cli-ms.6](bob-cli-ms.6.md) | Typed Record Card stages and Tab fill-out | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
+| [bob-cli-ms.6](bob-cli-ms.6.md) | Typed Record Card stages and Tab fill-out | ◐ in_progress | large | 2026-11-17 | 1 | 1 |
 | [bob-cli-ms.7](bob-cli-ms.7.md) | Entry points, == on records, and the Properties hide | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
 
 ## Lineage
@@ -107,7 +109,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.3.md) | [bob-cli-ms.3](bob-cli-ms.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.4/README.md) | [bob-cli-ms.4](bob-cli-ms.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.5.md) | [bob-cli-ms.5](bob-cli-ms.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.6/README.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.land/README.md) | [bob-cli-ms](README.md) | 0 |
 
@@ -120,6 +122,7 @@ flowchart TD
 | bob-cli | [`48a3116`](https://github.com/bobs-org/bob-cli/commit/48a3116d8aacce34fc3093c97048dcdcd913f7c1) | feat(records): guarded JSON envelope for bob records update | [bob-cli-ms.2](bob-cli-ms.2.md) | 2026-11-17 15:41:57 EST |
 | bob-plugins | [`bob-plugins@f49e175`](https://github.com/bobs-org/bob-plugins/commit/f49e175436ce002e48e258bc60bc433b3167190e) | feat(ledger-tools): add record update session and writer | [bob-cli-ms.4](bob-cli-ms.4.md) | 2026-11-17 16:24:19 EST |
 | bob-plugins | [`bob-plugins@c1da817`](https://github.com/bobs-org/bob-plugins/commit/c1da817c213b0ebf1f3ae4b47b4d41a69230948c) | feat(ledger-tools): add Record Card shell for discrete field edits | [bob-cli-ms.5](bob-cli-ms.5.md) | 2026-11-17 17:52:48 EST |
+| bob-plugins | [`bob-plugins@ba2b090`](https://github.com/bobs-org/bob-plugins/commit/ba2b09061153621311f179c102cfcab8c1b8e0b7) | feat(record-card): typed stages with Tab fill-out | [bob-cli-ms.6](bob-cli-ms.6.md) | 2026-11-17 19:29:14 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -127,10 +130,14 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-ms.2][1] | Need epic scope for phase 2 | 1 |
-| read-by | [agent:eo.f0--code][2] | Need note number for report | 2 |
+| read-by | [agent:bob-cli-mr.land--2][1] | Need ms JSON budget notes | 2 |
+| read-by | [agent:bob-cli-ms.2][2] | Need epic scope for phase 2 | 1 |
+| read-by | [agent:bob-cli-mw.1][3] | Cite whether records-tidy catalog/completion failures belong to this epic | 1 |
+| read-by | [agent:eo.f0--code][4] | Need note number for report | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mr.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mw.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
 
 <!-- sase:referenced-by:end -->
