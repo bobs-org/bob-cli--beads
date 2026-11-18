@@ -28,7 +28,7 @@ engine: add src/native/tick/ with the strict tick: config block, the fixed six-s
 ## Dependencies
 
 - **Blocks:** [bob-cli-nb.2](bob-cli-nb.2.md) ◐ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-nb.3](bob-cli-nb.3.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-nb.3](bob-cli-nb.3.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -41,3 +41,15 @@ engine: add src/native/tick/ with the strict tick: config block, the fixed six-s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bb864f8`](https://github.com/bobs-org/bob-cli/commit/bb864f88f72f82c954b745b4ea14e0e5d724c0df) | feat(tick): add the ordered background work engine and CLI views | [bob-cli-nb.1](bob-cli-nb.1.md) | 2026-11-18 16:10:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nb.1--3][1] | Review phase scope, prior evidence, and remaining closure obligations | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nb.1.md
+
+<!-- sase:referenced-by:end -->

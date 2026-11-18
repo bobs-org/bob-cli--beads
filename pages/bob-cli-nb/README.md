@@ -29,7 +29,7 @@ One `bob tick` command runs Bob's more-than-daily background work (gcal, gmail, 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-nb.1](bob-cli-nb.1.md) | Engine, CLI, and the three views | ✓ closed | medium | 2026-11-18 | 1 | 1 |
 | [bob-cli-nb.2](bob-cli-nb.2.md) | Step gates and per-step adapters | ◐ in_progress | medium | 2026-11-18 | 1 | 0 |
-| [bob-cli-nb.3](bob-cli-nb.3.md) | Pin cadences in chezmoi | ◐ in_progress | xsmall | 2026-11-18 | 1 | 0 |
+| [bob-cli-nb.3](bob-cli-nb.3.md) | Pin cadences in chezmoi | ✓ closed | xsmall | 2026-11-18 | 1 | 1 |
 | [bob-cli-nb.4](bob-cli-nb.4.md) | Contract page, decision record, and the bob sync tip | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
 | [bob-cli-nb.5](bob-cli-nb.5.md) | Mac cron cutover | ◐ in_progress | small | 2026-11-18 | 1 | 0 |
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["bob-cli-nb: bob tick: one ordered, configurable pass for Bob's frequent background work [in_progress]"]
     n1["bob-cli-nb.1: Engine, CLI, and the three views [closed]"]
     n2["bob-cli-nb.2: Step gates and per-step adapters [in_progress]"]
-    n3["bob-cli-nb.3: Pin cadences in chezmoi [in_progress]"]
+    n3["bob-cli-nb.3: Pin cadences in chezmoi [closed]"]
     n4["bob-cli-nb.4: Contract page, decision record, and the bob sync tip [in_progress]"]
     n5["bob-cli-nb.5: Mac cron cutover [in_progress]"]
     n0 --> n1
@@ -62,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-nb.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nb.1.md) | [bob-cli-nb.1](bob-cli-nb.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.2/README.md) | [bob-cli-nb.2](bob-cli-nb.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-nb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.3/README.md) | [bob-cli-nb.3](bob-cli-nb.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.3/README.md) | [bob-cli-nb.3](bob-cli-nb.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-nb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.4/README.md) | [bob-cli-nb.4](bob-cli-nb.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-nb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.5/README.md) | [bob-cli-nb.5](bob-cli-nb.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-nb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.land/README.md) | [bob-cli-nb](README.md) | 0 |
@@ -72,3 +72,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bb864f8`](https://github.com/bobs-org/bob-cli/commit/bb864f88f72f82c954b745b4ea14e0e5d724c0df) | feat(tick): add the ordered background work engine and CLI views | [bob-cli-nb.1](bob-cli-nb.1.md) | 2026-11-18 16:10:50 EST |
+| chezmoi | [`chezmoi@5c68b1f`](https://github.com/bbugyi200/dotfiles/commit/5c68b1f1ac303fc26d2dd816043e7aef7b3941d2) | feat(bob): pin bob tick cadences in chezmoi | [bob-cli-nb.3](bob-cli-nb.3.md) | 2026-11-18 16:17:02 EST |
