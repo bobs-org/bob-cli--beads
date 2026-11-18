@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.3/README.md) | [bob-cli-nb.3](bob-cli-nb.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-nb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.4/README.md) | [bob-cli-nb.4](bob-cli-nb.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-nb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nb.5.md) | [bob-cli-nb.5](bob-cli-nb.5.md) | 2 |
-| [bbugyi200.athena.bob-cli-nb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.land/README.md) | [bob-cli-nb](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-nb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nb.land/README.md) | [bob-cli-nb](README.md) | 2 |
 
 ## Commits
 
@@ -84,6 +84,7 @@ flowchart TD
 | bob-cli | [`a1e876c`](https://github.com/bobs-org/bob-cli/commit/a1e876cc80368d973f05a8c6c00cdab8743654dc) | docs(mac): describe bob-tick schedule replacing four cron jobs | [bob-cli-nb.5](bob-cli-nb.5.md) | 2026-11-18 18:30:40 EST |
 | chezmoi | [`chezmoi@f8acd58`](https://github.com/bbugyi200/dotfiles/commit/f8acd58c49879066883aff1c04161c49e525c6d9) | feat(cron): replace four mac bob jobs with one bob-tick job | [bob-cli-nb.5](bob-cli-nb.5.md) | 2026-11-18 18:31:04 EST |
 | bob-cli | [`3617c2e`](https://github.com/bobs-org/bob-cli/commit/3617c2eaaae080131522a1d7e317072c0292ce79) | fix(tick): count changed PDFs in refs summaries and finish the tick landing | [bob-cli-nb](README.md) | 2026-11-18 18:58:34 EST |
+| bob-cli--plans | [`bob-cli--plans@03f1c8d`](https://github.com/bobs-org/bob-cli--plans/commit/03f1c8d15474de48348e1d66df7c7dc53017d4e8) | chore(plans): mark bob\_tick epic plan done | [bob-cli-nb](README.md) | 2026-11-18 18:58:56 EST |
 
 <!-- sase:referenced-by:start -->
 
