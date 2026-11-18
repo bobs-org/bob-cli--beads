@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-mr
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1dh](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1dh.md) · **Assignee:** `bob-cli-mr.land`
-**Created:** 2026-11-17 11:16:43 EST
+**Created:** 2026-11-17 11:16:43 EST · **Closed:** 2026-11-17 19:12:02 EST
 **Plan:** [202611/backlog\_triage\_t1\_red\_gates\_closed\_prereqs\_scan\_lock.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/backlog_triage_t1_red_gates_closed_prereqs_scan_lock.md)
 
 <!-- sase:links:start -->
@@ -36,6 +36,8 @@ bob-plugins npm test has no deterministic reds, capture never reopens a closed o
 
 [2026-11-17T22:35:19Z · bob-cli-mr.land] REPAIR HANDOFF EVIDENCE: isolated read-set repro script file:explicit:bd831c44f897f151df7fe929; output on freshly built 0e83df4c file:explicit:1b54ca1c1f7d772c943b7307. Prepared T2 draft file:explicit:e68e1976353c86235b1d0e23 passed epic validation with zero warnings and contains the original Landing section unchanged. Remaining-work tale is medium, limited to coherent input capture/discovery, pinned invocation date, independent regression proof and mandatory same-turn T1/mo closeout after just check, followed by proposing T2. It has no child land agent. No epic symbols existed at audit; root parent link is null. T1 plan stays wip and mo remains open until those repairs pass. No source edits were made by this audit.
 
+[2026-11-18T00:12:02Z · bob-cli-mr.land--2] T1 complete: phases mr.1/mr.2/mr.3 and nested mr.3.1/mr.3.1.1/mr.3.1.2/mr.3.1.3 all remain CLOSED done; decision scan_lock=narrow implemented; nested highlights_scan_lock_window plan done; parent link null. Source-verified open/archive promotion guards, shared human/JSON scan path, unlocked hook/planning/no-work, mutation lock order bob_sync.lock then scan.lock, protected intake, collision guards, recovery receipt. Intervening-commit integration: 99005975/48a3116d records show/update preserve locking, cfc3177c records tidy wired into catalog 104 leaves completion RecordsTidy canonical-path records help, 3914ab50 docs trim, 0e83df4c lock-window landing, da13fee3 full read-set snapshot plus image-note HOME sources and dest-stale fail-closed. md/me/m8/jh remain CLOSED complete. Final tests: just check COMPLETED exit 0 9m34s monitor gdhhc69wnptx; scan_plan 17 passed; scan_interleave 29 passed; previously failing catalog/help/image-notes suites green. Follow-ups: mr.3.1.1 #1 and mr.3.1.2 #1 generated decisions drift declined as fixed by 48a3116d with generate_reference(check=True) returning []; mr.3.1.3 #1 JSON reference budget attached to causal active epic bob-cli-ms not a new task - rechecked current canonical count_words 5256/6000 vs 6112/6000 at 0e83df4c after docs commit 3914ab50, under budget confirming ms notes #4/#6 pending 5233-word repair by eo.f0--code landed; mr.3.1.3 #2 Mac receipt wording completed in bfbedda9; mr.1 old ju/ki load failures remain tracked there with no fresh failing full-suite claim. Existing refs 3236ceef 6c409ab2 0e83df4c cited; no wait on repair finalizer SHA.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -48,7 +50,7 @@ bob-plugins npm test has no deterministic reds, capture never reopens a closed o
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-mr: Backlog triage T1: bob-plugins red gates, closed-prerequisite reopen, highlights-scan lock window [in_progress]"]
+    n0["bob-cli-mr: Backlog triage T1: bob-plugins red gates, closed-prerequisite reopen, highlights-scan lock window [closed]"]
     n1["bob-cli-mr.1: Fix the deterministic bob-plugins npm test reds [closed]"]
     n2["bob-cli-mr.2: Never promote closed or archived prerequisites [closed]"]
     n3["bob-cli-mr.3: Narrow the highlights-scan bob_sync.lock window [closed]"]
@@ -80,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-mr.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.2.md) | [bob-cli-mr.3.1.2](bob-cli-mr.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-mr.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.3.md) | [bob-cli-mr.3.1.3](bob-cli-mr.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-mr.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.3.1.land.md) | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 3 |
-| [bbugyi200.athena.bob-cli-mr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.land.md) | [bob-cli-mr](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-mr.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-mr.land.md) | [bob-cli-mr](README.md) | 2 |
 
 ## Commits
 
@@ -95,6 +97,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@bfbedda`](https://github.com/bobs-org/bob-mac-capture/commit/bfbedda918ab3884fcba3b16a6206437f3b913fa) | docs(refs): correct last-scan receipt wording for narrow lock window | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2026-11-17 17:23:46 EST |
 | bob-cli--plans | [`bob-cli--plans@123e50c`](https://github.com/bobs-org/bob-cli--plans/commit/123e50c8854e0b23e234ec5b6a96a0a61cd533e6) | chore(plans): mark highlights\_scan\_lock\_window done | [bob-cli-mr.3.1](bob-cli-mr.3.1.md) | 2026-11-17 17:24:15 EST |
 | bob-cli | [`da13fee`](https://github.com/bobs-org/bob-cli/commit/da13fee39e9c8c1dc2f7a12284bdb195ad48b705) | feat(scan): snapshot the full pre-planning read-set | [bob-cli-mr](README.md) | 2026-11-17 18:56:04 EST |
+| bob-cli--plans | [`bob-cli--plans@4ef1986`](https://github.com/bobs-org/bob-cli--plans/commit/4ef19862cf3f441f16e4731ef860126d2dd1ee24) | docs(plans): mark T1 triage plan done after narrow scan-lock closeout | [bob-cli-mr](README.md) | 2026-11-17 19:16:29 EST |
 
 <!-- sase:referenced-by:start -->
 
