@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_card.md
 
@@ -60,6 +60,10 @@ Every healthy record note shows its album-defined fields as a quiet, beautiful r
 [2026-11-17T22:29:57Z · bob-cli-mr.land] DISCOVERED ISSUE corroboration from bob-cli-mr landing, proposing bead mr.3.1.3 note #1: canonical count_words on current 0e83df4c docs/reference/json-outputs.md is 6112/6000 (cfc3177c added records tidy after the prior 6089 report). Your notes #4/#6 already assign the 5233-word repair to eo.f0--code; that docs commit is not in origin/master as fetched in this audit. Preserve that pending repair rather than creating duplicate work. Same-type then all-type semantic search and all 70 tasks from the last week found no matching task; b6 is resolved generated drift and jz tracks different mounted pages. No new task or +1 on unrelated tasks.
 
 [2026-11-17T23:53:49Z · bob-cli-mw.land] DISCOVERED ISSUE: Daily Headline landing triage, proposed by bob-cli-mw.1 note #2. The records tidy addition cfc3177c (record H1/empty Notes cleanup aligned with ms note #3) mounts NativeCommand::RecordsTidy in src/runner.rs and completion/tree.rs, but current 225a6fb still has no records/tidy catalog entry or exclusion in native/catalog/table.rs, no completion kinds decision for its TYPE argument, and no RecordsTidy in the canonical-path test expected array. mw.1 reproduced all three lib failures on clean pre-headline 0e83df4c: public_leaves_are_entries_or_excluded, every_value_arg_has_a_decision (records tidy:type), every_native_command_is_on_exactly_one_canonical_path (92 vs 91). Landing independently rechecked the unchanged source and cfc3177c diff; a bounded local cargo reproduction timed out compiling dependencies before tests, so this is source corroboration, not a fresh test result. Same-type and all-type task searches plus all 68 tasks created in the last week found no semantic duplicate; 4j concerns the already-fixed highlights audio argument, hp concerns duplicate clipboard registration. Please integrate the tidy command into the three registries as Record Card landing work; no duplicate task created.
+
+[2026-11-18T03:17:32Z · bob-cli-ms.land] LANDING TRIAGE (bob-cli-ms.land, 2026-11-18). PROPOSED FOLLOW-UP outcomes: (1) json-outputs.md budget (ms.2 #1, ms.4 #1, ms.5 #2; epic notes #2/#5/#7): declined, resolved by 3914ab50; just docs-check lint passes on 97f844ca. (2) Perf-budget flakes (ms.3 #1, ms.4 #2, ms.5 #2, ms.7 #3): +1 on bob-cli-km, bob-cli-io, bob-cli-ki, bob-cli-ju. (3) Album schema-writer self-test held-lock apply makes 2 commits (ms.4 #3, ms.5 #2): reproduced on bob-plugins f8a8619 with bob 0.5.0; new task bob-cli-n0 (ci, large). (4) Abandoned ws15 plugin-sync refusal (ms.4 #4): declined, resolved by the eo.f0 unwedge; vault bob-ledger-tools 1.133.0, bob-navigation-hotkeys 2.87.0, bob-command-mode 0.2.0 main.js are byte-identical to origin/master. (5) Run just check before land (ms.6 #2) and the records tidy registries (ms.6 #3; epic note #8): declined, fixed by c50f8895, which registers records tidy in the catalog, completion kinds, and runner list; ms.6 #4 verified just check green. (6) Record-sheet rollover test pinned to 2026-11-17 (ms.7 #2): caused by this epic (ms.3 test); reproduced failing today; kept as remaining epic work. (7) Glossary drift (ms.7 #4): not epic-caused (9b8ab39c); this lander regenerates docs/reference/glossary.md; noted on bob-cli-mz. Also found: just docs-check unit tests fail on the contract count 52 != 51 and README table SHA from c50f8895 (bob-cli-mx.2); DISCOVERED ISSUE note on active epic bob-cli-mx. Plan land step 5 deferred items filed as features: bob-cli-n1 title rename, bob-cli-n2 sheet-chip quick-pick menus, bob-cli-n3 in-sheet editing, bob-cli-n4 provenance-key cleanup.
+
+[2026-11-18T03:22:19Z · bob-cli-ms.land] LANDING PAUSED (bob-cli-ms.land): all 7 phases verified on bob-cli 97f844ca / bob-plugins f8a8619, and the vault deploy is byte-identical to origin/master. Three gaps remain and are epic work: (a) Bryan's note #3 (no H1 in records; title at the top of the record sheet) was never built: 191/191 live records still carry an H1 equal to their title, and the sheet shows only the crumb; (b) test-ledger-tools-record-sheet.cjs midnight rollover fails on any date but 2026-11-17 (ms.7 #2); (c) the plan's real-Obsidian CDP proof (obsidian-record-card-e2e.cjs) never ran, and the Properties-hide CSS uses direct-child selectors (.markdown-source-view.X > .metadata-container) that likely miss Obsidian's real DOM. A child epic with parent_bead bob-cli-ms was proposed with phases sheet-title, h1-retire, and obsidian-proof; its land agent resumes this landing. Integration since the epic started: cfc3177c (records tidy) is compatible and is extended by h1-retire; c50f8895 registered tidy in the three registries; the mu field-jump co-landing items are present (= threads field, no bob-album-schema-dialog classes on the card). epic-symbols: none.
 
 ## Phases
 
@@ -111,7 +115,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.5.md) | [bob-cli-ms.5](bob-cli-ms.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.land/README.md) | [bob-cli-ms](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.land/README.md) | [bob-cli-ms](README.md) | 1 |
 
 ## Commits
 
@@ -124,6 +128,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c1da817`](https://github.com/bobs-org/bob-plugins/commit/c1da817c213b0ebf1f3ae4b47b4d41a69230948c) | feat(ledger-tools): add Record Card shell for discrete field edits | [bob-cli-ms.5](bob-cli-ms.5.md) | 2026-11-17 17:52:48 EST |
 | bob-plugins | [`bob-plugins@ba2b090`](https://github.com/bobs-org/bob-plugins/commit/ba2b09061153621311f179c102cfcab8c1b8e0b7) | feat(record-card): typed stages with Tab fill-out | [bob-cli-ms.6](bob-cli-ms.6.md) | 2026-11-17 19:29:14 EST |
 | bob-plugins | [`bob-plugins@f8a8619`](https://github.com/bobs-org/bob-plugins/commit/f8a86196b4b97a92262a71f3872bccd77a85f3ef) | feat(record-sheet): sheet affordances, record card entrypoints and properties hide | [bob-cli-ms.7](bob-cli-ms.7.md) | 2026-11-17 21:55:53 EST |
+| bob-cli | [`03ab2b3`](https://github.com/bobs-org/bob-cli/commit/03ab2b3d41dc5734e15be04a61da71b80455d43f) | docs(glossary): regenerate the capture alias item-start dot entry | [bob-cli-ms](README.md) | 2026-11-17 22:23:24 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -133,12 +138,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mr.land--2][1] | Need ms JSON budget notes | 2 |
 | read-by | [agent:bob-cli-ms.2][2] | Need epic scope for phase 2 | 1 |
-| read-by | [agent:bob-cli-mw.1][3] | Cite whether records-tidy catalog/completion failures belong to this epic | 1 |
-| read-by | [agent:eo.f0--code][4] | Need note number for report | 2 |
+| read-by | [agent:bob-cli-ms.7][3] | check epic status and prior phase landings | 1 |
+| read-by | [agent:bob-cli-mw.1][4] | Cite whether records-tidy catalog/completion failures belong to this epic | 1 |
+| read-by | [agent:eo.f0--code][5] | Need note number for report | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-mr.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mw.1/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-mw.1/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
 
 <!-- sase:referenced-by:end -->
