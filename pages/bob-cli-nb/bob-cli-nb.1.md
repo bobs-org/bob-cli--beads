@@ -27,7 +27,7 @@ engine: add src/native/tick/ with the strict tick: config block, the fixed six-s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-nb.2](bob-cli-nb.2.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-nb.2](bob-cli-nb.2.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-nb.3](bob-cli-nb.3.md) ✓ · ⧖ 2026-11-18
 
 ## Agents

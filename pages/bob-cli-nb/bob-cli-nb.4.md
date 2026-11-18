@@ -13,7 +13,7 @@ docs: write the docs/tick.md behavior contract with its mkdocs nav entry, add cr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nb.2](bob-cli-nb.2.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-nb.2](bob-cli-nb.2.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-nb.5](bob-cli-nb.5.md) ◐ · ⧖ 2026-11-18
 
 ## Agents
