@@ -21,7 +21,7 @@ cli: add the shared daily-headline parser, put `headline` on week-report day col
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-mw.2](bob-cli-mw.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-mw.2](bob-cli-mw.2.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-mw.3](bob-cli-mw.3.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [bob-cli-mw.4](bob-cli-mw.4.md) ✓ · ⧖ 2026-11-17
 
@@ -44,7 +44,9 @@ cli: add the shared daily-headline parser, put `headline` on week-report day col
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-mw.1][1] | Need current phase status, notes, and remaining work before closing | 3 |
+| read-by | [agent:bob-cli-mw.3][2] | check if cli phase did glossary strand | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mw.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-mw.3/README.md
 
 <!-- sase:referenced-by:end -->
