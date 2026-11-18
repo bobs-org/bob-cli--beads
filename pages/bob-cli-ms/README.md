@@ -70,8 +70,8 @@ Every healthy record note shows its album-defined fields as a quiet, beautiful r
 | [bob-cli-ms.3](bob-cli-ms.3.md) | Read-only record sheet under the H1 (Live Preview and Reading) | ✓ closed | large | 2026-11-17 | 1 | 1 |
 | [bob-cli-ms.4](bob-cli-ms.4.md) | Record update service and guarded session with direct apply | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [bob-cli-ms.5](bob-cli-ms.5.md) | Record Card shell, browse keys, choices, and discrete actions | ✓ closed | large | 2026-11-17 | 1 | 1 |
-| [bob-cli-ms.6](bob-cli-ms.6.md) | Typed Record Card stages and Tab fill-out | ◐ in_progress | large | 2026-11-17 | 1 | 1 |
-| [bob-cli-ms.7](bob-cli-ms.7.md) | Entry points, == on records, and the Properties hide | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
+| [bob-cli-ms.6](bob-cli-ms.6.md) | Typed Record Card stages and Tab fill-out | ✓ closed | large | 2026-11-17 | 1 | 1 |
+| [bob-cli-ms.7](bob-cli-ms.7.md) | Entry points, == on records, and the Properties hide | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 
 ## Lineage
 
@@ -83,8 +83,8 @@ flowchart TD
     n3["bob-cli-ms.3: Read-only record sheet under the H1 (Live Preview and Reading) [closed]"]
     n4["bob-cli-ms.4: Record update service and guarded session with direct apply [closed]"]
     n5["bob-cli-ms.5: Record Card shell, browse keys, choices, and discrete actions [closed]"]
-    n6["bob-cli-ms.6: Typed Record Card stages and Tab fill-out [in_progress]"]
-    n7["bob-cli-ms.7: Entry points, == on records, and the Properties hide [in_progress]"]
+    n6["bob-cli-ms.6: Typed Record Card stages and Tab fill-out [closed]"]
+    n7["bob-cli-ms.7: Entry points, == on records, and the Properties hide [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -110,7 +110,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.4/README.md) | [bob-cli-ms.4](bob-cli-ms.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.5.md) | [bob-cli-ms.5](bob-cli-ms.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md) | [bob-cli-ms.6](bob-cli-ms.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.7/README.md) | [bob-cli-ms.7](bob-cli-ms.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.land/README.md) | [bob-cli-ms](README.md) | 0 |
 
 ## Commits
@@ -123,6 +123,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@f49e175`](https://github.com/bobs-org/bob-plugins/commit/f49e175436ce002e48e258bc60bc433b3167190e) | feat(ledger-tools): add record update session and writer | [bob-cli-ms.4](bob-cli-ms.4.md) | 2026-11-17 16:24:19 EST |
 | bob-plugins | [`bob-plugins@c1da817`](https://github.com/bobs-org/bob-plugins/commit/c1da817c213b0ebf1f3ae4b47b4d41a69230948c) | feat(ledger-tools): add Record Card shell for discrete field edits | [bob-cli-ms.5](bob-cli-ms.5.md) | 2026-11-17 17:52:48 EST |
 | bob-plugins | [`bob-plugins@ba2b090`](https://github.com/bobs-org/bob-plugins/commit/ba2b09061153621311f179c102cfcab8c1b8e0b7) | feat(record-card): typed stages with Tab fill-out | [bob-cli-ms.6](bob-cli-ms.6.md) | 2026-11-17 19:29:14 EST |
+| bob-plugins | [`bob-plugins@f8a8619`](https://github.com/bobs-org/bob-plugins/commit/f8a86196b4b97a92262a71f3872bccd77a85f3ef) | feat(record-sheet): sheet affordances, record card entrypoints and properties hide | [bob-cli-ms.7](bob-cli-ms.7.md) | 2026-11-17 21:55:53 EST |
 
 <!-- sase:referenced-by:start -->
 

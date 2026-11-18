@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ms](README.md) / bob-cli-ms.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.55.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.55.linker.w0.md) · **Assignee:** `bob-cli-ms.6` · **Size:** large
-**Created:** 2026-11-17 11:29:54 EST
+**Created:** 2026-11-17 11:29:54 EST · **Closed:** 2026-11-17 21:13:25 EST
 **Plan:** [202611/record\_card.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_card.md)
 
 ## Description
@@ -47,10 +47,12 @@ PROPOSED FOLLOW-UP: full bob-cli just check (Rust tree untouched/clean) should r
 
 [2026-11-18T00:27:43Z · bob-cli-ms.6--1] PROPOSED FOLLOW-UP: just check FAILED (exit 101, monitor cppbaazpqftx, 2026-11-18T00:08:17Z, 15m6s) so bead stays open. 7315 passed, 3 failed in -p bob-obsidian --lib: native::catalog::tests::public_leaves_are_entries_or_excluded (public leaf ["records", "tidy"] is neither an entry nor excluded), native::completion::kinds::tests::every_value_arg_has_a_decision (value-taking args without a kinds decision: ["records tidy:type"]), runner::tests::every_native_command_is_on_exactly_one_canonical_path (left 92 vs right 91). All three trace to cfc3177c feat(records) adding the records tidy command (tidy.rs, runner.rs, completion tree) without the catalog/completion/runner expected-table updates. Workspace at 2a58d067 already contains cfc3177c and is 3 behind origin/master (da13fee3 top), whose 3 newer commits do not touch this gap, so the failure is pre-existing/outside the record-card typed-stages scope (bob-plugins JS only, Rust tree untouched). Fix belongs on the Rust records track: register records/tidy in catalog entries/excluded, add the tidy:type kinds decision, and update the runner canonical-path expectation. Evidence: sase monitor show cppbaazpqftx --all-lines. -r Recording just check failure as follow-up per monitor instruction; bead stays open
 
+[2026-11-18T02:13:25Z · bob-cli-ms.6] Re-verified and closed (no new code). The typed-stages work landed as bob-plugins ba2b090 'feat(record-card): typed stages with Tab fill-out', which is on origin/master (head 5964d35). Focused suites on that tree: test-ledger-tools-record-card-stages.cjs 9/9 pass, test-ledger-tools-record-card.cjs 19/19 pass. The live vault bob-ledger-tools is 1.132.0, and its main.js is byte-identical to origin/master. Note #3 blocked this bead on a just check failure: the records tidy command was missing from three registries. bob-cli da13fee3 has since registered it in the catalog (records-tidy), in the completion kinds (records tidy), and in the runner's canonical-path list (RecordsTidy). Full just check on clean bob-cli master c50f8895 exited 0. That run includes fmt, clippy, and workspace tests (bob-obsidian lib 7331 passed, 0 failed). The three tests that failed before now pass: public_leaves_are_entries_or_excluded, every_value_arg_has_a_decision, and every_native_command_is_on_exactly_one_canonical_path. sase bead epic-symbols: no entries. Not run here: a CDP walkthrough in real Obsidian (no desktop Obsidian in this container); the ms.land integrated proof owns it.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ms.5](bob-cli-ms.5.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [bob-cli-ms.7](bob-cli-ms.7.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [bob-cli-ms.7](bob-cli-ms.7.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -70,8 +72,10 @@ PROPOSED FOLLOW-UP: full bob-cli just check (Rust tree untouched/clean) should r
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:eo.f0--code][1] | Need phase scope | 2 |
+| read-by | [agent:bob-cli-ms.6--1][1] | Need phase bead state before recording just check failure follow-up | 2 |
+| read-by | [agent:eo.f0--code][2] | Need phase scope | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.6.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.eo.f0.md
 
 <!-- sase:referenced-by:end -->
