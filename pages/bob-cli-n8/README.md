@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-n8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.2.md) | [bob-cli-n8.2](bob-cli-n8.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-n8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.3.md) | [bob-cli-n8.3](bob-cli-n8.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-n8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.4/README.md) | [bob-cli-n8.4](bob-cli-n8.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-n8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.land.md) | [bob-cli-n8](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-n8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n8.land.md) | [bob-cli-n8](README.md) | 2 |
 
 ## Commits
 
@@ -79,6 +79,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@1e20997`](https://github.com/bobs-org/bob-mac-capture/commit/1e20997e84022cbcd45ffe48e67c6ef317609924) | feat(mac-capture): mirror Bob walk attention marks | [bob-cli-n8.3](bob-cli-n8.3.md) | 2026-11-18 11:11:56 EST |
 | bob-cli | [`91ff49f`](https://github.com/bobs-org/bob-cli/commit/91ff49f832f8739af90e33800e7ff1c4daf2ef19) | docs(memory): record review attention follows the \]s walk decision | [bob-cli-n8.4](bob-cli-n8.4.md) | 2026-11-18 11:23:50 EST |
 | bob-mac-capture | [`bob-mac-capture@d0e0a61`](https://github.com/bobs-org/bob-mac-capture/commit/d0e0a61b221f3120cf252c22eebf2adbbdac177d) | test(review): cover upkeep-only walk attention | [bob-cli-n8](README.md) | 2026-11-18 13:10:45 EST |
+| bob-plugins | [`bob-plugins@21cf4f9`](https://github.com/bobs-org/bob-plugins/commit/21cf4f9d878d64508c2b4f58a37bf2321312887e) | fix(walker): handle unavailable Tasks data | [bob-cli-n8](README.md) | 2026-11-18 13:11:03 EST |
 
 <!-- sase:referenced-by:start -->
 
