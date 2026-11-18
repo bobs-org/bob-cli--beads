@@ -15,7 +15,7 @@ walk-ship: run the end-to-end CLI walkthrough in a temp vault, review a read-onl
 
 - **Depends on:** [bob-cli-na.2](bob-cli-na.2.md) ✓ · ⧖ 2026-11-18
 - **Depends on:** [bob-cli-na.3](bob-cli-na.3.md) ◐ · ⧖ 2026-11-18
-- **Depends on:** [bob-cli-na.4](bob-cli-na.4.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-na.4](bob-cli-na.4.md) ✓ · ⧖ 2026-11-18
 - **Depends on:** [bob-cli-na.7](bob-cli-na.7.md) ◐ · ⧖ 2026-11-18
 
 ## Agents

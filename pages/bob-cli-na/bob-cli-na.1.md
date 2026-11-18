@@ -21,7 +21,7 @@ walk-core: add the pure src/native/albums/walk.rs module (shared title order, ri
 
 - **Blocks:** [bob-cli-na.2](bob-cli-na.2.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-na.3](bob-cli-na.3.md) ◐ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-na.4](bob-cli-na.4.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-na.4](bob-cli-na.4.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-na.6](bob-cli-na.6.md) ◐ · ⧖ 2026-11-18
 
 ## Agents
