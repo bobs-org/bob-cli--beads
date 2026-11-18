@@ -17,13 +17,19 @@ cli-contract: bob walks lights s iff walk > 0, picks the first of nine tiers, ad
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-n8.4](bob-cli-n8.4.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-n8.4](bob-cli-n8.4.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-n8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.1/README.md) | [bob-cli-n8.1](bob-cli-n8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-n8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-n8.1/README.md) | [bob-cli-n8.1](bob-cli-n8.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`aea8552`](https://github.com/bobs-org/bob-cli/commit/aea85529246146658515ef85ad3ecc8950112762) | feat(walks): light footer s across all nine review tiers with counts | [bob-cli-n8.1](bob-cli-n8.1.md) | 2026-11-18 10:07:42 EST |
 
 <!-- sase:referenced-by:start -->
 

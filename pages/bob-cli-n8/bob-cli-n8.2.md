@@ -19,7 +19,7 @@ obsidian-attention: ledger push follows the walk, POST gets its hue, nav selecto
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-n8.4](bob-cli-n8.4.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-n8.4](bob-cli-n8.4.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
