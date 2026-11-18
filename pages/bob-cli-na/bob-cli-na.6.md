@@ -42,7 +42,9 @@ walk-model (bob-plugins): pure JS walk-line parser and metadataCache ring (share
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-na.6][1] | Confirm the completed phase is closed before final declaration | 2 |
+| read-by | [agent:bob-cli-na.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md
 
 <!-- sase:referenced-by:end -->

@@ -44,8 +44,10 @@ walk-core: add the pure src/native/albums/walk.rs module (shared title order, ri
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-na.1][1] | Confirm the recorded clean-base formatting follow-up before closing the phase | 3 |
 | read-by | [agent:bob-cli-na.3][2] | check walk-core scope | 1 |
+| read-by | [agent:bob-cli-na.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md
 
 <!-- sase:referenced-by:end -->

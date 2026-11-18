@@ -41,7 +41,9 @@ walk-writers: capture creates and bob records new plan the ring from the final o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-na.4--1][1] | Confirm the phase is closed and its baseline follow-up is recorded before finalizing | 2 |
+| read-by | [agent:bob-cli-na.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md
 
 <!-- sase:referenced-by:end -->

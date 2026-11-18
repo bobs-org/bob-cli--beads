@@ -38,7 +38,9 @@ nav-guard (bob-plugins): [n / ]n and the links footer never create a note inside
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-na.5--7][1] | Verify assigned epic scope and phases before completion | 3 |
+| read-by | [agent:bob-cli-na.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md
 
 <!-- sase:referenced-by:end -->

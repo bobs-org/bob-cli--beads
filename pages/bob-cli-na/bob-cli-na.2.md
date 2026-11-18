@@ -39,7 +39,9 @@ walk-sync: compose walk-line edits into bob albums sync (standalone and nightly)
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-na.2][1] | check notes and remaining work | 2 |
+| read-by | [agent:bob-cli-na.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md
 
 <!-- sase:referenced-by:end -->

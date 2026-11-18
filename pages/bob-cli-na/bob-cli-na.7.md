@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:6fd98fa413fbd1e4e21629f1 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -53,7 +53,9 @@ walk-rail (bob-plugins): render the walk line as a docked rail under the record 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-na.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-na.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.land.md
 
 <!-- sase:referenced-by:end -->
