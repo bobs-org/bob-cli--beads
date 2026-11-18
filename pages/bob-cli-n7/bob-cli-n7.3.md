@@ -28,7 +28,7 @@ pipe-drain: Resolve bob-cli-kl so both subprocess_runner pipe-drain tests pass d
 ## Dependencies
 
 - **Depends on:** [bob-cli-n7.2](bob-cli-n7.2.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-n7.4](bob-cli-n7.4.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-n7.4](bob-cli-n7.4.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -41,3 +41,15 @@ pipe-drain: Resolve bob-cli-kl so both subprocess_runner pipe-drain tests pass d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f0857be`](https://github.com/bobs-org/bob-cli/commit/f0857be8a6d084b9e9548919b27178c1b3bb2511) | fix(subprocess): make detached-grandchild pipe-drain tests deterministic and portable | [bob-cli-n7.3](bob-cli-n7.3.md) | 2026-11-18 10:24:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n7.3--1][1] | Need phase scope and design file for macOS gate failure triage | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n7.3.md
+
+<!-- sase:referenced-by:end -->
