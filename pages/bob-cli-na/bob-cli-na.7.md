@@ -13,7 +13,7 @@ walk-rail (bob-plugins): render the walk line as a docked rail under the record 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-na.6](bob-cli-na.6.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-na.6](bob-cli-na.6.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-na.8](bob-cli-na.8.md) ◐ · ⧖ 2026-11-18
 
 ## Agents

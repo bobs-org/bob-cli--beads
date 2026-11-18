@@ -22,13 +22,19 @@ walk-core: add the pure src/native/albums/walk.rs module (shared title order, ri
 - **Blocks:** [bob-cli-na.2](bob-cli-na.2.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-na.3](bob-cli-na.3.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [bob-cli-na.4](bob-cli-na.4.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-na.6](bob-cli-na.6.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-na.6](bob-cli-na.6.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-na.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.1/README.md) | [bob-cli-na.1](bob-cli-na.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-na.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.1/README.md) | [bob-cli-na.1](bob-cli-na.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`41b1dab`](https://github.com/bobs-org/bob-cli/commit/41b1dab3fc95fd0617392e91bed8637834640bf1) | feat(albums): add pure record walk planner | [bob-cli-na.1](bob-cli-na.1.md) | 2026-11-18 11:39:47 EST |
 
 <!-- sase:referenced-by:start -->
 

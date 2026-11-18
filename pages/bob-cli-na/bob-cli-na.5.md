@@ -17,7 +17,7 @@ nav-guard (bob-plugins): [n / ]n and the links footer never create a note inside
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-na.6](bob-cli-na.6.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-na.6](bob-cli-na.6.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -30,3 +30,15 @@ nav-guard (bob-plugins): [n / ]n and the links footer never create a note inside
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a4710c4`](https://github.com/bobs-org/bob-plugins/commit/a4710c4c1db93f2e038208aad48c12007d8ad6e1) | feat(plugins): guard album record walks and labels | [bob-cli-na.5](bob-cli-na.5.md) | 2026-11-18 14:30:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-na.5--7][1] | Verify assigned epic scope and phases before completion | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-na.5.md
+
+<!-- sase:referenced-by:end -->
