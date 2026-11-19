@@ -41,3 +41,15 @@ adopt: add the gy Vim mapping, turn the GTD agent prompts into chips, reconcile 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f0e59e8`](https://github.com/bobs-org/bob-cli/commit/f0e59e8297dedb0180dd0a29bd5d5a6c46c67a2d) | docs(memory): add Copy Chip glossary strand | [bob-cli-ni.6](bob-cli-ni.6.md) | 2026-11-19 14:10:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ni.6][1] | Need notes and remaining work from prior agents | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.6/README.md
+
+<!-- sase:referenced-by:end -->
