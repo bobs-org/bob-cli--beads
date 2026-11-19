@@ -7,6 +7,18 @@
 **Created:** 2026-11-19 18:17:36 EST
 **Plan:** [202611/intention\_card.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/intention_card.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/intention_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/intention_card.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Daily and period notes show the intention property card, all approved card-editor gestures write through guarded bob updates, and the plugins are deployed with real Obsidian acceptance evidence for bob-cli-nh.7.
