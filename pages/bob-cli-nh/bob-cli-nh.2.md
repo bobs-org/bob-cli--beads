@@ -20,14 +20,14 @@ update: add `bob periods update <SUBJECT> -i FILE|-`, the guarded JSON envelope 
 - **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.7](bob-cli-nh.7.md) ◐ · ⧖ 2026-11-19
 
-## Agents
+<!-- sase:referenced-by:start -->
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.2.md) | [bob-cli-nh.2](bob-cli-nh.2.md) | 1 |
+## Referenced By
 
-## Commits
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nh.2--1][1] | Confirm close guard status and the recorded symbol follow-up | 2 |
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`a0b91a8`](https://github.com/bobs-org/bob-cli/commit/a0b91a8dfcc27a24d35a6c13989559d7fc594450) | feat(periods): add guarded intention updates | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 14:12:26 EST |
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.2.md
+
+<!-- sase:referenced-by:end -->

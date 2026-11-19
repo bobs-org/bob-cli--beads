@@ -13,7 +13,7 @@ chrome: consolidate property-card chrome and hue tokens without changing pixels,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

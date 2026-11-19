@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/period_intentions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/period_intentions.md
 
@@ -44,7 +44,7 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-nh.1](bob-cli-nh.1.md) | Intention fields contract, typed reader, YAML writer, and readers | ✓ closed | large | 2026-11-19 | 1 | 1 |
-| [bob-cli-nh.2](bob-cli-nh.2.md) | bob periods update guarded envelope and day subjects in show | ◐ in_progress | medium | 2026-11-19 | 1 | 1 |
+| [bob-cli-nh.2](bob-cli-nh.2.md) | bob periods update guarded envelope and day subjects in show | ◐ in_progress | medium | 2026-11-19 | 0 | 0 |
 | [bob-cli-nh.3](bob-cli-nh.3.md) | Day brief, summary drafting, and brief-carried instructions | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.4](bob-cli-nh.4.md) | Link repair inside the owned keys and problems findings | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.5](bob-cli-nh.5.md) | Migration step and scaffolds without the old sections | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
@@ -71,7 +71,7 @@ flowchart TD
     n11["bob-cli-nh.6: Property-card kit extracted from the album, record, and bank cards [in_progress]"]
     n12["bob-cli-nh.6.1: Extract the shared property-card kit [in_progress]"]
     n13["bob-cli-nh.6.1.1: Shared property ownership and card editor registry [closed]"]
-    n14["bob-cli-nh.6.1.2: Shared Reading and Live Preview host lifecycle [in_progress]"]
+    n14["bob-cli-nh.6.1.2: Shared Reading and Live Preview host lifecycle [closed]"]
     n15["bob-cli-nh.6.1.3: Shared property-card chrome and precise documentation [in_progress]"]
     n16["bob-cli-nh.7: Intention card, card editor, commands, and deploy [in_progress]"]
     n17["bob-cli-nh.8: Adopt in the vault and chezmoi [in_progress]"]
@@ -118,7 +118,6 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-nh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.1.md) | [bob-cli-nh.1](bob-cli-nh.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.2.md) | [bob-cli-nh.2](bob-cli-nh.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.3.md) | [bob-cli-nh.3](bob-cli-nh.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.md) | [bob-cli-nh.4](bob-cli-nh.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.1.md) | [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) | 0 |
@@ -128,8 +127,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.land/README.md) | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.5/README.md) | [bob-cli-nh.5](bob-cli-nh.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.md) | [bob-cli-nh.6](bob-cli-nh.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.2.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.6.1.2/README.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.6.1.3/README.md) | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.6.1.land/README.md) | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7/README.md) | [bob-cli-nh.7](bob-cli-nh.7.md) | 0 |
@@ -141,8 +140,10 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@ccfc12b`](https://github.com/bobs-org/bob-plugins/commit/ccfc12bb62cecbde3ee47310ad82a0ddb4031ac4) | feat(ledger-tools): shared property-card ownership and card editor registry | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 10:10:33 EST |
+| bob-plugins | [`bob-plugins@8d6fd78`](https://github.com/bobs-org/bob-plugins/commit/8d6fd78ab80408a65fc6fbcf753bba9c68de60de) | fix(ledger-tools): keep property-card ownership with its current mount | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 11:32:00 EST |
 | bob-cli | [`e7aa392`](https://github.com/bobs-org/bob-cli/commit/e7aa392d688ea250ada1a6d732e3f27ed0e67c9c) | feat(intentions): add unified fields contract and readers | [bob-cli-nh.1](bob-cli-nh.1.md) | 2026-11-19 12:52:40 EST |
-| bob-cli | [`a0b91a8`](https://github.com/bobs-org/bob-cli/commit/a0b91a8dfcc27a24d35a6c13989559d7fc594450) | feat(periods): add guarded intention updates | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 14:12:26 EST |
+| bob-plugins | [`bob-plugins@946ef56`](https://github.com/bobs-org/bob-plugins/commit/946ef56589c2650807bdf45c3dfd0eb59005c956) | feat(ledger-tools): share one property-card host lifecycle | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 2026-11-19 14:42:27 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -150,18 +151,20 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5i.cdx][1] | Research the daily and note property-card context requested by Bryan | 1 |
-| read-by | [agent:research.5i.cld][2] | Context for property card unification research | 1 |
-| read-by | [agent:research.5i.final][3] | Confirm property-card kit and intention-card phase status for consolidated property-card identity research | 1 |
-| read-by | [agent:research.5i.gem][4] | Context on property cards / schema card epic requested by user | 2 |
-| read-by | [agent:research.5i.grk][5] | Need property-card kit epic context for unifying schema-card appearance | 1 |
-| read-by | [agent:research.5i.mus][6] | Need epic context for property-card unification research | 1 |
+| read-by | [agent:bob-cli-ni.6][1] | Need COPY CHIP coordination for Summarize yesterday GTD row | 1 |
+| read-by | [agent:research.5i.cdx][2] | Research the daily and note property-card context requested by Bryan | 1 |
+| read-by | [agent:research.5i.cld][3] | Context for property card unification research | 1 |
+| read-by | [agent:research.5i.final][4] | Confirm property-card kit and intention-card phase status for consolidated property-card identity research | 1 |
+| read-by | [agent:research.5i.gem][5] | Context on property cards / schema card epic requested by user | 2 |
+| read-by | [agent:research.5i.grk][6] | Need property-card kit epic context for unifying schema-card appearance | 1 |
+| read-by | [agent:research.5i.mus][7] | Need epic context for property-card unification research | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cdx/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.final/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.grk/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ni.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.final/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.grk/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
 
 <!-- sase:referenced-by:end -->
