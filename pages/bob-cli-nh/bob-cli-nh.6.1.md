@@ -14,7 +14,9 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_kit.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:14696680ebb0a23080ad9414 | attached via sase artifact create --bead |
 | related | file:explicit:dec33b788961cadeb2b4261a | attached via sase artifact create --bead |
+| related | file:explicit:e5c34f58f439dc2d795d5d93 | attached via sase artifact create --bead |
 
 _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 

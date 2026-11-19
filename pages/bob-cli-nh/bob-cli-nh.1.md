@@ -22,7 +22,7 @@ fields: add src/native/intentions/ with the day-or-period subject resolver, the 
 - **Blocks:** [bob-cli-nh.2](bob-cli-nh.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.3](bob-cli-nh.3.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.4](bob-cli-nh.4.md) ◐ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nh.5](bob-cli-nh.5.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.5](bob-cli-nh.5.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

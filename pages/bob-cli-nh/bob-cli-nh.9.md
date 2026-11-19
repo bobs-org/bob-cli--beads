@@ -13,7 +13,7 @@ vocabulary: apply the accepted memory decisions. Add glossary strands for Intent
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.5](bob-cli-nh.5.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.5](bob-cli-nh.5.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [bob-cli-nh.7](bob-cli-nh.7.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

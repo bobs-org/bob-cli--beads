@@ -18,7 +18,7 @@ adopt: install the new bob, then dry-run and apply `bob periods migrate` on the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-nh.4](bob-cli-nh.4.md) ◐ · ⧖ 2026-11-19
-- **Depends on:** [bob-cli-nh.5](bob-cli-nh.5.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.5](bob-cli-nh.5.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [bob-cli-nh.7](bob-cli-nh.7.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

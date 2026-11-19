@@ -45,7 +45,9 @@ update: add `bob periods update <SUBJECT> -i FILE|-`, the guarded JSON envelope 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.2][1] | Recheck phase notes and close readiness after required documentation generation | 3 |
 | read-by | [agent:bob-cli-nh.2--1][1] | Confirm close guard status and the recorded symbol follow-up | 2 |
+| read-by | [agent:bob-cli-nh.4.1.land][2] | Need causal scope of periods update catalog and completion failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md
 
 <!-- sase:referenced-by:end -->

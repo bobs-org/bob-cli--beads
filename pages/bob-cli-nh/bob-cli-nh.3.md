@@ -20,7 +20,7 @@ summary: add the versioned day-summary instruction asset and day brief v1. Every
 ## Dependencies
 
 - **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nh.5](bob-cli-nh.5.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.5](bob-cli-nh.5.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
