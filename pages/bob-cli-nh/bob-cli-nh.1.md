@@ -11,6 +11,10 @@
 
 fields: add src/native/intentions/ with the day-or-period subject resolver, the typed frontmatter reader (intentions, summary, reflection, and stamps) with a legacy fallback to the old body shapes, a line-preserving YAML writer that verifies by re-parsing, and one review state machine for days and periods. Rewire every reader to it: capture-pomodoros, periods show, list, parts, strip, and brief. Document the contract in docs/periods.md.
 
+## Notes
+
+[2026-11-19T16:22:39Z · bob-cli-nh.1--1] Exported crate-level intentions API: fields::{FieldProvenance, Field<T>, Diagnostic, FrontmatterState, Fields, read, canonical_subject}; legacy::{IntentionsKind, intentions, parse_daily_headline, reflection, summary, period_sections, opening_headline}; state::{ReviewState, SummaryState, digest, summary_state, evaluate}; subject::{NoteSubject, SubjectInfo, ReadNoteError, read_existing}; write::{Patch<T>, OwnedPatch, WriteError, apply}.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-nh.2](bob-cli-nh.2.md) ◐ · ⧖ 2026-11-19
