@@ -13,7 +13,7 @@ picker-stages: attach recall to the schedule-review form (a Schedule reason fiel
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nj.2](bob-cli-nj.2.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nj.2](bob-cli-nj.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nj.8](bob-cli-nj.8.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

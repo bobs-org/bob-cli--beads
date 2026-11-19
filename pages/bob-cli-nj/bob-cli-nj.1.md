@@ -19,7 +19,7 @@ logs-catalog: add a cached scanner over task Schedule, Work, Rotten, and Cancel 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-nj.2](bob-cli-nj.2.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.2](bob-cli-nj.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nj.5](bob-cli-nj.5.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nj.6](bob-cli-nj.6.md) ✓ · ⧖ 2026-11-19
 
