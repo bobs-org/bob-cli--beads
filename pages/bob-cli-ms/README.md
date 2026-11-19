@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.2/README.md) | [bob-cli-ms.8.2](bob-cli-ms.8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md) | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ms.8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.2.md) | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.2.md) | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.3/README.md) | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.land/README.md) | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.land/README.md) | [bob-cli-ms.8](bob-cli-ms.8.md) | 0 |
@@ -163,6 +163,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8e8ff51`](https://github.com/bobs-org/bob-plugins/commit/8e8ff51f97732c5ad737215ee5bb2a78350db5ef) | feat(record-card): add record sheet and interaction coverage | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2026-11-18 15:09:18 EST |
 | bob-plugins | [`bob-plugins@395088a`](https://github.com/bobs-org/bob-plugins/commit/395088ab817187f9d1a3651634166d515f4cad49) | fix(ledger-tools): preserve selective record properties hiding | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2026-11-18 18:02:26 EST |
 | bob-cli | [`e07a26b`](https://github.com/bobs-org/bob-cli/commit/e07a26bf86b93fe12df571ac6cb00f8b71d28cca) | fix(records): preserve literal YAML values in reads and undo | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2026-11-19 04:10:03 EST |
+| bob-plugins | [`bob-plugins@b88bc46`](https://github.com/bobs-org/bob-plugins/commit/b88bc46423e08851fb97ba6dfa7115fb1370a547) | fix(record-card): preserve drafts and prove keyboard workflows in Obsidian | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2026-11-19 04:10:50 EST |
 
 <!-- sase:referenced-by:start -->
 
