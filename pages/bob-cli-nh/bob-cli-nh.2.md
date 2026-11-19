@@ -43,6 +43,7 @@ update: add `bob periods update <SUBJECT> -i FILE|-`, the guarded JSON envelope 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nh.2][1] | Recheck phase notes and close readiness after required documentation generation | 3 |
 | read-by | [agent:bob-cli-nh.2--1][1] | Confirm close guard status and the recorded symbol follow-up | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.2.md
