@@ -22,7 +22,7 @@ author: add the Mod+Shift+Y card that makes, converts, or edits a chip with a li
 ## Dependencies
 
 - **Depends on:** [bob-cli-ni.3](bob-cli-ni.3.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-ni.6](bob-cli-ni.6.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-ni.6](bob-cli-ni.6.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
