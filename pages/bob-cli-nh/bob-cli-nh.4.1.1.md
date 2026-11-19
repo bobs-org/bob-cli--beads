@@ -19,7 +19,7 @@ owned_repair: add a pure canonical-note adapter that rewrites only stored intent
 
 - **Blocks:** [bob-cli-nh.4.1.2](bob-cli-nh.4.1.2.md) ◐ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.4.1.3](bob-cli-nh.4.1.3.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nh.4.1.4](bob-cli-nh.4.1.4.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.4.1.4](bob-cli-nh.4.1.4.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
