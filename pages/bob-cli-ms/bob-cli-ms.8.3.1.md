@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_card_obsidian_proof.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_card_obsidian_proof.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Finish bob-cli-ms.8.3 with a repeatable CDP walkthrough, DOM-backed hide repairs
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.land/README.md) | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-n7.land--a][1] | Identify whether the existing linked-plugin edits belong to active Record Card work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-n7.land.md
+
+<!-- sase:referenced-by:end -->

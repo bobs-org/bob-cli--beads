@@ -32,7 +32,7 @@
 | related | file:explicit:e6af3da4c2cf3cca7a5e83be | attached via sase artifact create --bead |
 | related | file:explicit:ecedee8cd441a00ce81a2254 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -92,7 +92,7 @@ All six final-verification screenshots were individually inspected. Native type/
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -113,6 +113,7 @@ All six final-verification screenshots were individually inspected. Native type/
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ms.8.3.1.1--4][1] | Review phase scope and prior verification references | 1 |
 | read-by | [agent:bob-cli-ms.8.3.1.1--c][1] | Verify the phase remains open and the gate evidence was appended without replacing earlier references | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md

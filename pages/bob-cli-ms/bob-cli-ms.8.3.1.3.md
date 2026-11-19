@@ -13,7 +13,7 @@ coverage-release: add and run the read-only per-record coverage audit, run the c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 

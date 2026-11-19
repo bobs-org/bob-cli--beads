@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/record_card_title_and_proof.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/record_card_title_and_proof.md
 
@@ -29,6 +29,8 @@ Every record note shows its title at the top of the record sheet instead of an H
 
 [2026-11-18T15:51:43Z · bob-cli-n7.land] DISCOVERED ISSUE: bob-cli-n7 landing triage of n7.3 PROPOSED FOLLOW-UP notes #1/#5. Commit 2f80442b (ms.8.2) introduced an unformatted .all closure at tests/cli/albums_create.rs:1149. Independently reproduced cargo fmt --all -- --check exit 1 on clean f0857be8; GitHub master run 44335332552 lint job 134910728869 has the identical diff, ubuntu tests/package pass and macOS is cancelled. No semantic duplicate in task search or all 68 last-week tasks. This is causally owned by ms.8, so no new task. n7 landing closeout tale will apply the one-line rustfmt-only integration repair while preserving the H1-less assertion.
 
+[2026-11-18T23:08:30Z · bob-cli-n7.land--a] Rustfmt integration evidence from T4 exact tree: tests/cli/albums_create.rs now passes the workflow formatting gate with the H1-less record assertion. In CI run 44408541155 at snapshot 2dfbcb85d861f5f73ef6da8b059f7e6b25651ade, lint job 135170174879 completed Format, clippy, scripts, and release-tool tests successfully; Linux and macOS test jobs also passed.
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -41,8 +43,10 @@ Every record note shows its title at the top of the record sheet instead of an H
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-na.1][1] | Check whether the active Record Card epic already tracks the same clean-base rustfmt failure | 1 |
+| read-by | [agent:bob-cli-n7.land--a][1] | Append the rustfmt integration repair evidence required by the T4 closeout | 2 |
+| read-by | [agent:bob-cli-na.1][2] | Check whether the active Record Card epic already tracks the same clean-base rustfmt failure | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-n7.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-na.1/README.md
 
 <!-- sase:referenced-by:end -->
