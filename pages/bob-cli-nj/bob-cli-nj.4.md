@@ -20,4 +20,4 @@ rotten-and-successor: attach Rotten recall to RottenKeepReasonStage (single keep
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-nj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.4/README.md) | [bob-cli-nj.4](bob-cli-nj.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.4.md) | [bob-cli-nj.4](bob-cli-nj.4.md) | 0 |

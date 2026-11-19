@@ -22,7 +22,7 @@ recall-core: add a ledger-tools `api.logs` store (stale-while-revalidate plus a 
 ## Dependencies
 
 - **Depends on:** [bob-cli-nj.1](bob-cli-nj.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nj.3](bob-cli-nj.3.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.3](bob-cli-nj.3.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nj.4](bob-cli-nj.4.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
@@ -36,3 +36,15 @@ recall-core: add a ledger-tools `api.logs` store (stale-while-revalidate plus a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@795fad3`](https://github.com/bobs-org/bob-plugins/commit/795fad3d924de86eb3e3f5890ba4d467833d80bb) | feat(log-recall): add Work Log phrase recall to Obsidian prompts | [bob-cli-nj.2](bob-cli-nj.2.md) | 2026-11-19 15:33:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nj.2][1] | Need the phase scope, prior notes, epic decisions, and linked design file before continuing assigned work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.2/README.md
+
+<!-- sase:referenced-by:end -->
