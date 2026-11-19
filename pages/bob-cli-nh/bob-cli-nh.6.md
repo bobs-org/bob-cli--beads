@@ -20,3 +20,19 @@ kit: in bob-ledger-tools, extract the shared property-card kit with no visible c
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-nh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.md) | [bob-cli-nh.6](bob-cli-nh.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.5i.cld][1] | Check property-card kit and intention card phase status for design research | 1 |
+| read-by | [agent:research.5i.gem][2] | Verify ms and nh epic scope and decisions for research critique | 2 |
+| read-by | [agent:research.5i.mus][3] | Need property-card kit phase scope for unification research | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
+
+<!-- sase:referenced-by:end -->

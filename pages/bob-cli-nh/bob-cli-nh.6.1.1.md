@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-nh.6.1](bob-cli-nh.6.1.md) / bob-cli-nh.6.1.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-nh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.md) · **Assignee:** `bob-cli-nh.6.1.1` · **Size:** medium
-**Created:** 2026-11-19 09:44:34 EST
+**Created:** 2026-11-19 09:44:34 EST · **Closed:** 2026-11-19 11:34:45 EST
 **Plan:** [202611/property\_card\_kit.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_kit.md)
 
 <!-- sase:links:start -->
@@ -46,6 +46,8 @@ ownership: capture the unchanged album, record, and bank acceptance baseline, ge
 
 [2026-11-19T16:30:04Z · bob-cli-nh.6.1.1] PROPOSED FOLLOW-UP: perf flake — scripts/test-ledger-tools-event-link-times.cjs "one build over a 200-link ledger stays under 25 ms" failed once in full parallel npm test, passed 3/3 isolated; same family as open bob-cli-ki (keep-moving marks 200-link gate) and earlier na.6/na.7 reports; no open bead covers event-link-times specifically. -r Triage perf flake follow-up
 
+[2026-11-19T16:34:45Z · bob-cli-nh.6.1.1--1] Shared property-card ownership + card editor registry landed in bob-plugins as ccfc12b plus regression fix 8d6fd78 (per-adapter path-tagged mount slots so a prior note's Reading release cannot unhide the current card; album/bank Live Preview ownership on .cm-editor with one bounded CSS rule; record's dead row painter removed). Real-Obsidian acceptance vs unchanged base 36d4801 on bob-cli 5b4c2636: album 120/121, bank 75/78, record 144/144 (x2, 0 console exceptions); remaining failures identical on base (bank ones tracked by bob-cli-m6/m7); album 36/36 and bank 20/20 screenshots pixel-identical, record 22/25 with 3 timing-noise diffs; npm test 7397 pass/0 fail, validate 11/11; new unit tests and album Live Preview e2e check fail on ccfc12b and pass on the fix. Summary file:explicit:5366ba3f1c91e381b416eb0b, baseline bundle file:explicit:d19bd1571d8869c3fbd0f94c, final bundle file:explicit:6ef537cd9927c600b96c5526. Deployed bob-ledger-tools 1.140.0 via bob plugins sync from a clean tree at 8d6fd78 (== origin/master): .bob-deploy.json dirty=clean source_head=8d6fd78 state=complete; vault sha256 equals committed files: main.js 45ff8e61..., styles.css 57e5e3f9..., manifest.json 750bb941....
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) ◐ · ⧖ 2026-11-19
@@ -54,14 +56,7 @@ ownership: capture the unchanged album, record, and bank acceptance baseline, ge
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@ccfc12b`](https://github.com/bobs-org/bob-plugins/commit/ccfc12bb62cecbde3ee47310ad82a0ddb4031ac4) | feat(ledger-tools): shared property-card ownership and card editor registry | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 10:10:33 EST |
-| bob-plugins | [`bob-plugins@8d6fd78`](https://github.com/bobs-org/bob-plugins/commit/8d6fd78ab80408a65fc6fbcf753bba9c68de60de) | fix(ledger-tools): keep property-card ownership with its current mount | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 11:32:00 EST |
+| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
