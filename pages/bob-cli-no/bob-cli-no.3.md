@@ -13,7 +13,7 @@ card: in bob-plugins, turn the bank queue card's static "Weekly import" footer t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-no.2](bob-cli-no.2.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-no.2](bob-cli-no.2.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

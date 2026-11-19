@@ -23,7 +23,7 @@ expand: add a shared native::host_paths operand expander (tilde, literal-first g
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-no.2](bob-cli-no.2.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-no.2](bob-cli-no.2.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
@@ -36,3 +36,15 @@ expand: add a shared native::host_paths operand expander (tilde, literal-first g
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`5b547f1`](https://github.com/bobs-org/bob-cli/commit/5b547f13c87a93b56271aecc159c164642eab7ce) | feat(bank): expand import file operands | [bob-cli-no.1](bob-cli-no.1.md) | 2026-11-19 15:49:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-no.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-no.1/README.md
+
+<!-- sase:referenced-by:end -->
