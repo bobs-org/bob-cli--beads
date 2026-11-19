@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_kit.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_kit.md
 
@@ -38,9 +38,11 @@ Album, record, and bank cards share property ownership, editor registration, hos
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.6.1.1][1] | Need parent epic scope | 1 |
-| read-by | [agent:research.5i.gem][2] | Check exact subphases of property-card kit epic | 1 |
+| read-by | [agent:bob-cli-nh.6.1.2][2] | Need epic DECISIONS for host phase | 1 |
+| read-by | [agent:research.5i.gem][3] | Check exact subphases of property-card kit epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.2.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
 
 <!-- sase:referenced-by:end -->

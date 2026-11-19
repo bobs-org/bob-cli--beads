@@ -16,6 +16,8 @@
 | related | file:explicit:b9fee3d94935c22cdac23dbb | attached via sase artifact create --bead |
 | related | file:explicit:e0c4d18220635127d479ffc0 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -45,10 +47,16 @@ host: extract createPropertyCardHost and move album, record, and bank lifecycle 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.6.1.2/README.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.2.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@946ef56`](https://github.com/bobs-org/bob-plugins/commit/946ef56589c2650807bdf45c3dfd0eb59005c956) | feat(ledger-tools): share one property-card host lifecycle | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 2026-11-19 14:42:27 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nh.6.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.2.md
+
+<!-- sase:referenced-by:end -->
