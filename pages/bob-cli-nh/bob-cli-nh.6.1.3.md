@@ -48,7 +48,13 @@ Build, build:check, and focused tests passed (130/130). The deployed `main.js`/`
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.3.md) | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.3.md) | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@2f1e016`](https://github.com/bobs-org/bob-plugins/commit/2f1e016322e198f136be0525777c03d5087b77f5) | feat(plugins): share property-card chrome | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 2026-11-19 17:19:03 EST |
 
 <!-- sase:referenced-by:start -->
 

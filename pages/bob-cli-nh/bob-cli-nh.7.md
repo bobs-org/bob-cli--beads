@@ -14,7 +14,7 @@ card: build the intention card on the kit (kicker, numbered intentions, SUMMARY 
 ## Dependencies
 
 - **Depends on:** [bob-cli-nh.2](bob-cli-nh.2.md) ✓ · ⧖ 2026-11-19
-- **Depends on:** [bob-cli-nh.6](bob-cli-nh.6.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.6](bob-cli-nh.6.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.8](bob-cli-nh.8.md) ◐ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.9](bob-cli-nh.9.md) ◐ · ⧖ 2026-11-19
 
@@ -22,7 +22,7 @@ card: build the intention card on the kit (kicker, numbered intentions, SUMMARY 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7/README.md) | [bob-cli-nh.7](bob-cli-nh.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.md) | [bob-cli-nh.7](bob-cli-nh.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
