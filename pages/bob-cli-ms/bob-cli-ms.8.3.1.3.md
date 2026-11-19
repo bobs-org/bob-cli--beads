@@ -20,7 +20,7 @@
 | related | file:explicit:925b70926af44650172dea5b | attached via sase artifact create --bead |
 | related | file:explicit:d49f87761753c59199815bbc | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -72,8 +72,10 @@ Final exact CLI source e07a26bf86b93fe12df571ac6cb00f8b71d28cca, no source patch
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-n7.land][1] | Check whether its date-sensitive tick failure note already tracks the tick fixture defect | 1 |
+| read-by | [agent:bob-cli-ms.8.3.1.3--3][1] | Review exact acceptance scope and prior baseline evidence before closing this phase | 1 |
+| read-by | [agent:bob-cli-n7.land][2] | Check whether its date-sensitive tick failure note already tracks the tick fixture defect | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-n7.land/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-n7.land/README.md
 
 <!-- sase:referenced-by:end -->

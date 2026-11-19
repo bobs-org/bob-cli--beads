@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md) | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.2.md) | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.3.md) | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ms.8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.land/README.md) | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.land.md) | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.land/README.md) | [bob-cli-ms.8](bob-cli-ms.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md) | [bob-cli-ms](README.md) | 1 |
 
@@ -165,6 +165,7 @@ flowchart TD
 | bob-cli | [`e07a26b`](https://github.com/bobs-org/bob-cli/commit/e07a26bf86b93fe12df571ac6cb00f8b71d28cca) | fix(records): preserve literal YAML values in reads and undo | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2026-11-19 04:10:03 EST |
 | bob-plugins | [`bob-plugins@b88bc46`](https://github.com/bobs-org/bob-plugins/commit/b88bc46423e08851fb97ba6dfa7115fb1370a547) | fix(record-card): preserve drafts and prove keyboard workflows in Obsidian | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2026-11-19 04:10:50 EST |
 | bob-plugins | [`bob-plugins@36d4801`](https://github.com/bobs-org/bob-plugins/commit/36d48017f9a16edaf21346fb0276c530836e08f4) | test(records): add read-only live vault coverage audit | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 2026-11-19 07:04:44 EST |
+| bob-cli | [`5b4c263`](https://github.com/bobs-org/bob-cli/commit/5b4c26360efe9d90d20b8371ac53a05bef7492b6) | fix(records): validate stored literal lists without CLI comma splitting | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 2026-11-19 08:11:18 EST |
 
 <!-- sase:referenced-by:start -->
 
