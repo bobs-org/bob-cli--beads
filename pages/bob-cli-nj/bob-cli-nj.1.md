@@ -20,7 +20,7 @@ logs-catalog: add a cached scanner over task Schedule, Work, Rotten, and Cancel 
 ## Dependencies
 
 - **Blocks:** [bob-cli-nj.2](bob-cli-nj.2.md) ◐ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nj.5](bob-cli-nj.5.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.5](bob-cli-nj.5.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nj.6](bob-cli-nj.6.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
@@ -34,3 +34,15 @@ logs-catalog: add a cached scanner over task Schedule, Work, Rotten, and Cancel 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`382963d`](https://github.com/bobs-org/bob-cli/commit/382963dbae5ee9a11c5492c1bf9ddb192abd3199) | feat(logs): add vault-derived phrase recall | [bob-cli-nj.1](bob-cli-nj.1.md) | 2026-11-19 14:30:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nj.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.1/README.md
+
+<!-- sase:referenced-by:end -->
