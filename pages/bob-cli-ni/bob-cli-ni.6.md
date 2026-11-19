@@ -14,7 +14,7 @@ adopt: add the gy Vim mapping, turn the GTD agent prompts into chips, reconcile 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ni.4](bob-cli-ni.4.md) ✓ · ⧖ 2026-11-19
-- **Depends on:** [bob-cli-ni.5](bob-cli-ni.5.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-ni.5](bob-cli-ni.5.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

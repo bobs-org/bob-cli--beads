@@ -20,7 +20,7 @@ inline: render copy chips as quiet pills in Live Preview and Reading view, copy 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ni.1](bob-cli-ni.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-ni.3](bob-cli-ni.3.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-ni.3](bob-cli-ni.3.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-ni.4](bob-cli-ni.4.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
