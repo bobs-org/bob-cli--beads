@@ -96,7 +96,7 @@ flowchart TD
     n12["bob-cli-ms.8.3.1: Prove the Record Card in real Obsidian and verify vault coverage [in_progress]"]
     n13["bob-cli-ms.8.3.1.1: Prove record sheet rendering and fix Properties hiding in real Obsidian [closed]"]
     n14["bob-cli-ms.8.3.1.2: Prove Record Card entry points and guarded keyboard edits [closed]"]
-    n15["bob-cli-ms.8.3.1.3: Verify live record coverage and the final deployed build [in_progress]"]
+    n15["bob-cli-ms.8.3.1.3: Verify live record coverage and the final deployed build [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ms.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.md) | [bob-cli-ms.8.3](bob-cli-ms.8.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md) | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.2.md) | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ms.8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.3/README.md) | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ms.8.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.3.md) | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ms.8.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.3.1.land/README.md) | [bob-cli-ms.8.3.1](bob-cli-ms.8.3.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ms.8.land/README.md) | [bob-cli-ms.8](bob-cli-ms.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ms.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.land.md) | [bob-cli-ms](README.md) | 1 |
@@ -164,6 +164,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@395088a`](https://github.com/bobs-org/bob-plugins/commit/395088ab817187f9d1a3651634166d515f4cad49) | fix(ledger-tools): preserve selective record properties hiding | [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) | 2026-11-18 18:02:26 EST |
 | bob-cli | [`e07a26b`](https://github.com/bobs-org/bob-cli/commit/e07a26bf86b93fe12df571ac6cb00f8b71d28cca) | fix(records): preserve literal YAML values in reads and undo | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2026-11-19 04:10:03 EST |
 | bob-plugins | [`bob-plugins@b88bc46`](https://github.com/bobs-org/bob-plugins/commit/b88bc46423e08851fb97ba6dfa7115fb1370a547) | fix(record-card): preserve drafts and prove keyboard workflows in Obsidian | [bob-cli-ms.8.3.1.2](bob-cli-ms.8.3.1.2.md) | 2026-11-19 04:10:50 EST |
+| bob-plugins | [`bob-plugins@36d4801`](https://github.com/bobs-org/bob-plugins/commit/36d48017f9a16edaf21346fb0276c530836e08f4) | test(records): add read-only live vault coverage audit | [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) | 2026-11-19 07:04:44 EST |
 
 <!-- sase:referenced-by:start -->
 

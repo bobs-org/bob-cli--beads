@@ -21,7 +21,7 @@
 | related | file:explicit:d261482c78a83d29fd563381 | attached via sase artifact create --bead |
 | related | file:explicit:f4d35aae42abc765e89ee7ed | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -78,7 +78,7 @@ Published immutable artifact index (21 files in
 ## Dependencies
 
 - **Depends on:** [bob-cli-ms.8.3.1.1](bob-cli-ms.8.3.1.1.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [bob-cli-ms.8.3.1.3](bob-cli-ms.8.3.1.3.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -100,7 +100,9 @@ Published immutable artifact index (21 files in
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ms.8.3.1.1--c][1] | Confirm the dependent phase remains in progress as requested | 2 |
+| read-by | [agent:bob-cli-ms.8.3.1.2--h][2] | Verify only accepted Record Card phase closed and all ancestors remain open | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ms.8.3.1.2.md
 
 <!-- sase:referenced-by:end -->
