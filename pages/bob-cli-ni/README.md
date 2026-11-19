@@ -27,7 +27,7 @@ Typing an inline code span that starts with `copy:` (or a `bob-copy` fence) give
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ni.1](bob-cli-ni.1.md) | Plugin scaffold, grammar module, and conformance vectors | ✓ closed | medium | 2026-11-19 | 1 | 1 |
+| [bob-cli-ni.1](bob-cli-ni.1.md) | Plugin scaffold, grammar module, and conformance vectors | ✓ closed | medium | 2026-11-19 | 1 | 2 |
 | [bob-cli-ni.2](bob-cli-ni.2.md) | Inline chips in Live Preview and Reading view | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-ni.3](bob-cli-ni.3.md) | The bob-copy fence card | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
 | [bob-cli-ni.4](bob-cli-ni.4.md) | Copy card C row | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
@@ -63,7 +63,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ni.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.1/README.md) | [bob-cli-ni.1](bob-cli-ni.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ni.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.1/README.md) | [bob-cli-ni.1](bob-cli-ni.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ni.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.2/README.md) | [bob-cli-ni.2](bob-cli-ni.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ni.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.3/README.md) | [bob-cli-ni.3](bob-cli-ni.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ni.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.4/README.md) | [bob-cli-ni.4](bob-cli-ni.4.md) | 0 |
@@ -76,3 +76,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@0b38f84`](https://github.com/bobs-org/bob-plugins/commit/0b38f84abee32d5c8b99de85de53b7fac4683ed7) | feat(bob-copy-chips): add plugin scaffold, grammar, and conformance vectors | [bob-cli-ni.1](bob-cli-ni.1.md) | 2026-11-19 11:02:38 EST |
+| chezmoi | [`chezmoi@86597de`](https://github.com/bbugyi200/dotfiles/commit/86597deb9a2b3f3799507ff82e367a035c4683e2) | feat(bob): add bob-copy-chips to the managed plugin list | [bob-cli-ni.1](bob-cli-ni.1.md) | 2026-11-19 11:07:58 EST |
