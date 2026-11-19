@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ni.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.4/README.md) | [bob-cli-ni.4](bob-cli-ni.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ni.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ni.5.md) | [bob-cli-ni.5](bob-cli-ni.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ni.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.6/README.md) | [bob-cli-ni.6](bob-cli-ni.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ni.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ni.land.md) | [bob-cli-ni](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ni.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ni.land.md) | [bob-cli-ni](README.md) | 2 |
 
 ## Commits
 
@@ -91,6 +91,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ccc0f72`](https://github.com/bobs-org/bob-plugins/commit/ccc0f724a1a9f0c41f411eca96f898243ca5a845) | feat(bob-copy-chips): add make-or-edit card and Alt+Click edit | [bob-cli-ni.5](bob-cli-ni.5.md) | 2026-11-19 13:57:28 EST |
 | bob-cli | [`f0e59e8`](https://github.com/bobs-org/bob-cli/commit/f0e59e8297dedb0180dd0a29bd5d5a6c46c67a2d) | docs(memory): add Copy Chip glossary strand | [bob-cli-ni.6](bob-cli-ni.6.md) | 2026-11-19 14:10:05 EST |
 | bob-plugins | [`bob-plugins@d6d2c33`](https://github.com/bobs-org/bob-plugins/commit/d6d2c334228cb2647ba7c40667858061bb9714f7) | feat(navigation): land copy-chip C row per plan 202611/copy\_card\_chip\_row\_land | [bob-cli-ni](README.md) | 2026-11-19 15:09:15 EST |
+| bob-cli--plans | [`bob-cli--plans@b91b549`](https://github.com/bobs-org/bob-cli--plans/commit/b91b5495aa121d6456e1f4917de77eb9b934a78a) | chore(plans): mark copy\_chips epic plan done after C-row landing | [bob-cli-ni](README.md) | 2026-11-19 15:13:28 EST |
 
 <!-- sase:referenced-by:start -->
 
