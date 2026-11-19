@@ -27,8 +27,8 @@ Typing an inline code span that starts with `copy:` (or a `bob-copy` fence) give
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-ni.1](bob-cli-ni.1.md) | Plugin scaffold, grammar module, and conformance vectors | ✓ closed | medium | 2026-11-19 | 1 | 2 |
-| [bob-cli-ni.2](bob-cli-ni.2.md) | Inline chips in Live Preview and Reading view | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
+| [bob-cli-ni.1](bob-cli-ni.1.md) | Plugin scaffold, grammar module, and conformance vectors | ✓ closed | medium | 2026-11-19 | 1 | 1 |
+| [bob-cli-ni.2](bob-cli-ni.2.md) | Inline chips in Live Preview and Reading view | ✓ closed | large | 2026-11-19 | 1 | 1 |
 | [bob-cli-ni.3](bob-cli-ni.3.md) | The bob-copy fence card | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
 | [bob-cli-ni.4](bob-cli-ni.4.md) | Copy card C row | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
 | [bob-cli-ni.5](bob-cli-ni.5.md) | Make-or-edit card and Alt+Click edit | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
@@ -40,7 +40,7 @@ Typing an inline code span that starts with `copy:` (or a `bob-copy` fence) give
 flowchart TD
     n0["bob-cli-ni: Copy chips: click-to-copy text authored in Obsidian notes [in_progress]"]
     n1["bob-cli-ni.1: Plugin scaffold, grammar module, and conformance vectors [closed]"]
-    n2["bob-cli-ni.2: Inline chips in Live Preview and Reading view [in_progress]"]
+    n2["bob-cli-ni.2: Inline chips in Live Preview and Reading view [closed]"]
     n3["bob-cli-ni.3: The bob-copy fence card [in_progress]"]
     n4["bob-cli-ni.4: Copy card C row [in_progress]"]
     n5["bob-cli-ni.5: Make-or-edit card and Alt+Click edit [in_progress]"]
@@ -63,8 +63,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ni.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.1/README.md) | [bob-cli-ni.1](bob-cli-ni.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ni.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.2/README.md) | [bob-cli-ni.2](bob-cli-ni.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ni.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.1/README.md) | [bob-cli-ni.1](bob-cli-ni.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ni.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ni.2.md) | [bob-cli-ni.2](bob-cli-ni.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ni.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.3/README.md) | [bob-cli-ni.3](bob-cli-ni.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ni.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.4/README.md) | [bob-cli-ni.4](bob-cli-ni.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ni.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.5/README.md) | [bob-cli-ni.5](bob-cli-ni.5.md) | 0 |
@@ -76,4 +76,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@0b38f84`](https://github.com/bobs-org/bob-plugins/commit/0b38f84abee32d5c8b99de85de53b7fac4683ed7) | feat(bob-copy-chips): add plugin scaffold, grammar, and conformance vectors | [bob-cli-ni.1](bob-cli-ni.1.md) | 2026-11-19 11:02:38 EST |
-| chezmoi | [`chezmoi@86597de`](https://github.com/bbugyi200/dotfiles/commit/86597deb9a2b3f3799507ff82e367a035c4683e2) | feat(bob): add bob-copy-chips to the managed plugin list | [bob-cli-ni.1](bob-cli-ni.1.md) | 2026-11-19 11:07:58 EST |
+| bob-plugins | [`bob-plugins@76fa3f9`](https://github.com/bobs-org/bob-plugins/commit/76fa3f92a7db0131fdb99dbd8d899e54f330e160) | feat(bob-copy-chips): inline copy chips in Live Preview and Reading view | [bob-cli-ni.2](bob-cli-ni.2.md) | 2026-11-19 12:11:47 EST |

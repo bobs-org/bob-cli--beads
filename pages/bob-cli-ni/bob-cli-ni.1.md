@@ -19,17 +19,28 @@ grammar: create and register the bob-copy-chips plugin, then build the pure pars
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ni.2](bob-cli-ni.2.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-ni.2](bob-cli-ni.2.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ni.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.1/README.md) | [bob-cli-ni.1](bob-cli-ni.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ni.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.1/README.md) | [bob-cli-ni.1](bob-cli-ni.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@0b38f84`](https://github.com/bobs-org/bob-plugins/commit/0b38f84abee32d5c8b99de85de53b7fac4683ed7) | feat(bob-copy-chips): add plugin scaffold, grammar, and conformance vectors | [bob-cli-ni.1](bob-cli-ni.1.md) | 2026-11-19 11:02:38 EST |
-| chezmoi | [`chezmoi@86597de`](https://github.com/bbugyi200/dotfiles/commit/86597deb9a2b3f3799507ff82e367a035c4683e2) | feat(bob): add bob-copy-chips to the managed plugin list | [bob-cli-ni.1](bob-cli-ni.1.md) | 2026-11-19 11:07:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ni.1][1] | Check notes for earlier remaining work | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ni.1/README.md
+
+<!-- sase:referenced-by:end -->

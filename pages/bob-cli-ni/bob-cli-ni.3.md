@@ -13,7 +13,7 @@ fence: render bob-copy fences as titled cards with a header Copy button and byte
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ni.2](bob-cli-ni.2.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-ni.2](bob-cli-ni.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-ni.5](bob-cli-ni.5.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

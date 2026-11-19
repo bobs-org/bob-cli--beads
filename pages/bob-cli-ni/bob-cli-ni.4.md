@@ -13,7 +13,7 @@ copycard: add a C row to the Mod+Y Copy card in Bob Navigation Hotkeys that copi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ni.2](bob-cli-ni.2.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-ni.2](bob-cli-ni.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-ni.6](bob-cli-ni.6.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
