@@ -14,7 +14,7 @@ mac-worklog-recall: request completion inside close-log summary spans, decode th
 ## Dependencies
 
 - **Depends on:** [bob-cli-nj.5](bob-cli-nj.5.md) ✓ · ⧖ 2026-11-19
-- **Depends on:** [bob-cli-nj.6](bob-cli-nj.6.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nj.6](bob-cli-nj.6.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nj.8](bob-cli-nj.8.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
