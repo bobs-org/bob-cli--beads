@@ -11,6 +11,10 @@
 
 findings: add dangling_period_link, intentions_shape, intentions_over_soft_cap, and legacy_period_text to the shared report-only collector for canonical daily and period notes. Test human/JSON/nightly behavior, document the contract, and regenerate CLI documentation.
 
+## Notes
+
+[2026-11-19T21:01:41Z · bob-cli-nh.4.1.4] PROPOSED FOLLOW-UP: Bring the existing Mac Capture reference pages under the docs budget — `just docs-check` reports docs/reference/mac-capture/capture-previews.md at 6,171 words and docs/reference/mac-capture/keyboard.md at 6,027 words (6,000 cap); both paths are unchanged from the initially clean base tree.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) ✓ · ⧖ 2026-11-19
