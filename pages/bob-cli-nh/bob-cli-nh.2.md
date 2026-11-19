@@ -11,13 +11,23 @@
 
 update: add `bob periods update <SUBJECT> -i FILE|-`, the guarded JSON envelope the card editor writes through. It has intention, reflection, and summary ops, a field fingerprint as `expect`, dry run, inverse_ops for Undo, the vault lock, and atomic writes. Teach `bob periods show` day subjects, update help and docs, and run `just docs-gen`.
 
+## Notes
+
+[2026-11-19T19:10:39Z · bob-cli-nh.2--1] PROPOSED FOLLOW-UP: Land the local Justfile re-key of the three implemented intention API symbols to the open parent epic before closing this phase; the close guard still sees their stale bob-cli-nh.2 keys on origin/master.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.7](bob-cli-nh.7.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.2/README.md) | [bob-cli-nh.2](bob-cli-nh.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.2.md) | [bob-cli-nh.2](bob-cli-nh.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`a0b91a8`](https://github.com/bobs-org/bob-cli/commit/a0b91a8dfcc27a24d35a6c13989559d7fc594450) | feat(periods): add guarded intention updates | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 14:12:26 EST |

@@ -13,7 +13,7 @@ migrate: add the intentions step to `bob periods migrate`. One dry-run-first, id
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [bob-cli-nh.3](bob-cli-nh.3.md) ◐ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.8](bob-cli-nh.8.md) ◐ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.9](bob-cli-nh.9.md) ◐ · ⧖ 2026-11-19

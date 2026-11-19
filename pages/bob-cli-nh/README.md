@@ -43,8 +43,8 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-nh.1](bob-cli-nh.1.md) | Intention fields contract, typed reader, YAML writer, and readers | ◐ in_progress | large | 2026-11-19 | 1 | 1 |
-| [bob-cli-nh.2](bob-cli-nh.2.md) | bob periods update guarded envelope and day subjects in show | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
+| [bob-cli-nh.1](bob-cli-nh.1.md) | Intention fields contract, typed reader, YAML writer, and readers | ✓ closed | large | 2026-11-19 | 1 | 1 |
+| [bob-cli-nh.2](bob-cli-nh.2.md) | bob periods update guarded envelope and day subjects in show | ◐ in_progress | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nh.3](bob-cli-nh.3.md) | Day brief, summary drafting, and brief-carried instructions | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.4](bob-cli-nh.4.md) | Link repair inside the owned keys and problems findings | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.5](bob-cli-nh.5.md) | Migration step and scaffolds without the old sections | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
@@ -58,46 +58,59 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 ```mermaid
 flowchart TD
     n0["bob-cli-nh: Intentions, summary, and reflection on every day and period, shown in an intention card [in_progress]"]
-    n1["bob-cli-nh.1: Intention fields contract, typed reader, YAML writer, and readers [in_progress]"]
+    n1["bob-cli-nh.1: Intention fields contract, typed reader, YAML writer, and readers [closed]"]
     n2["bob-cli-nh.2: bob periods update guarded envelope and day subjects in show [in_progress]"]
     n3["bob-cli-nh.3: Day brief, summary drafting, and brief-carried instructions [in_progress]"]
     n4["bob-cli-nh.4: Link repair inside the owned keys and problems findings [in_progress]"]
-    n5["bob-cli-nh.5: Migration step and scaffolds without the old sections [in_progress]"]
-    n6["bob-cli-nh.6: Property-card kit extracted from the album, record, and bank cards [in_progress]"]
-    n7["bob-cli-nh.6.1: Extract the shared property-card kit [in_progress]"]
-    n8["bob-cli-nh.6.1.1: Shared property ownership and card editor registry [closed]"]
-    n9["bob-cli-nh.6.1.2: Shared Reading and Live Preview host lifecycle [in_progress]"]
-    n10["bob-cli-nh.6.1.3: Shared property-card chrome and precise documentation [in_progress]"]
-    n11["bob-cli-nh.7: Intention card, card editor, commands, and deploy [in_progress]"]
-    n12["bob-cli-nh.8: Adopt in the vault and chezmoi [in_progress]"]
-    n13["bob-cli-nh.9: Glossary terms and decision records [in_progress]"]
+    n5["bob-cli-nh.4.1: Preserve intention links through vault rewrites [in_progress]"]
+    n6["bob-cli-nh.4.1.1: Verified owned-field repair, archive integration, and digest carry [in_progress]"]
+    n7["bob-cli-nh.4.1.2: Task move, merge, and split link parity [in_progress]"]
+    n8["bob-cli-nh.4.1.3: Reference rename and overwrite owned-field repair [in_progress]"]
+    n9["bob-cli-nh.4.1.4: Period field findings and public documentation [in_progress]"]
+    n10["bob-cli-nh.5: Migration step and scaffolds without the old sections [in_progress]"]
+    n11["bob-cli-nh.6: Property-card kit extracted from the album, record, and bank cards [in_progress]"]
+    n12["bob-cli-nh.6.1: Extract the shared property-card kit [in_progress]"]
+    n13["bob-cli-nh.6.1.1: Shared property ownership and card editor registry [closed]"]
+    n14["bob-cli-nh.6.1.2: Shared Reading and Live Preview host lifecycle [in_progress]"]
+    n15["bob-cli-nh.6.1.3: Shared property-card chrome and precise documentation [in_progress]"]
+    n16["bob-cli-nh.7: Intention card, card editor, commands, and deploy [in_progress]"]
+    n17["bob-cli-nh.8: Adopt in the vault and chezmoi [in_progress]"]
+    n18["bob-cli-nh.9: Glossary terms and decision records [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n6 --> n7
-    n7 --> n8
-    n7 --> n9
-    n7 --> n10
+    n4 --> n5
+    n5 --> n6
+    n5 --> n7
+    n5 --> n8
+    n5 --> n9
+    n0 --> n10
     n0 --> n11
-    n0 --> n12
-    n0 --> n13
+    n11 --> n12
+    n12 --> n13
+    n12 --> n14
+    n12 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
     n1 -.-> n2
     n1 -.-> n3
     n1 -.-> n4
-    n1 -.-> n5
-    n2 -.-> n11
-    n3 -.-> n5
-    n4 -.-> n12
-    n5 -.-> n12
-    n5 -.-> n13
-    n6 -.-> n11
-    n8 -.-> n9
-    n9 -.-> n10
-    n11 -.-> n12
-    n11 -.-> n13
+    n1 -.-> n10
+    n2 -.-> n16
+    n3 -.-> n10
+    n4 -.-> n17
+    n6 -.-> n7
+    n6 -.-> n8
+    n6 -.-> n9
+    n10 -.-> n17
+    n10 -.-> n18
+    n11 -.-> n16
+    n13 -.-> n14
+    n14 -.-> n15
+    n16 -.-> n17
+    n16 -.-> n18
 ```
 
 ## Agents
@@ -105,9 +118,14 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-nh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.1.md) | [bob-cli-nh.1](bob-cli-nh.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.2/README.md) | [bob-cli-nh.2](bob-cli-nh.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.3/README.md) | [bob-cli-nh.3](bob-cli-nh.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4/README.md) | [bob-cli-nh.4](bob-cli-nh.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.2.md) | [bob-cli-nh.2](bob-cli-nh.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-nh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.3.md) | [bob-cli-nh.3](bob-cli-nh.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.md) | [bob-cli-nh.4](bob-cli-nh.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.1.md) | [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.2/README.md) | [bob-cli-nh.4.1.2](bob-cli-nh.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.3/README.md) | [bob-cli-nh.4.1.3](bob-cli-nh.4.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.4/README.md) | [bob-cli-nh.4.1.4](bob-cli-nh.4.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.land/README.md) | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.5/README.md) | [bob-cli-nh.5](bob-cli-nh.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.md) | [bob-cli-nh.6](bob-cli-nh.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 0 |
@@ -124,6 +142,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e7aa392`](https://github.com/bobs-org/bob-cli/commit/e7aa392d688ea250ada1a6d732e3f27ed0e67c9c) | feat(intentions): add unified fields contract and readers | [bob-cli-nh.1](bob-cli-nh.1.md) | 2026-11-19 12:52:40 EST |
+| bob-cli | [`a0b91a8`](https://github.com/bobs-org/bob-cli/commit/a0b91a8dfcc27a24d35a6c13989559d7fc594450) | feat(periods): add guarded intention updates | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 14:12:26 EST |
 
 <!-- sase:referenced-by:start -->
 

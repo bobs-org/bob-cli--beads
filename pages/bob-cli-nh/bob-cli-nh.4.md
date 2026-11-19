@@ -13,11 +13,11 @@ repair: make archive, task move/merge/split, ref rename, and every other vault l
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.8](bob-cli-nh.8.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4/README.md) | [bob-cli-nh.4](bob-cli-nh.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.md) | [bob-cli-nh.4](bob-cli-nh.4.md) | 0 |

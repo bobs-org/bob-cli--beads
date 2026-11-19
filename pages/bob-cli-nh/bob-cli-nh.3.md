@@ -13,11 +13,11 @@ summary: add the versioned day-summary instruction asset and day brief v1. Every
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.5](bob-cli-nh.5.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.3/README.md) | [bob-cli-nh.3](bob-cli-nh.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.3.md) | [bob-cli-nh.3](bob-cli-nh.3.md) | 0 |
