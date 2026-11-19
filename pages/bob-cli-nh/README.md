@@ -148,7 +148,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.6.1.2/README.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.3.md) | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md) | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-nh.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md) | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-nh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.md) | [bob-cli-nh.7](bob-cli-nh.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.1/README.md) | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.2/README.md) | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 0 |
@@ -175,6 +175,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@2f1e016`](https://github.com/bobs-org/bob-plugins/commit/2f1e016322e198f136be0525777c03d5087b77f5) | feat(plugins): share property-card chrome | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 2026-11-19 17:19:03 EST |
 | bob-cli | [`992fd33`](https://github.com/bobs-org/bob-cli/commit/992fd33d72dcb0d0b80382666a73da94559322c1) | feat(periods): report legacy and malformed intention findings | [bob-cli-nh.4.1.4](bob-cli-nh.4.1.4.md) | 2026-11-19 17:19:17 EST |
 | bob-plugins | [`bob-plugins@d99dcef`](https://github.com/bobs-org/bob-plugins/commit/d99dcefd6e0dbe4d89ce84070046c730ca09d43f) | feat(ledger-tools): registry sole dispatch and host failure cleanup | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2026-11-19 18:27:00 EST |
+| bob-cli--plans | [`bob-cli--plans@54eebe7`](https://github.com/bobs-org/bob-cli--plans/commit/54eebe7a0474c4087fb16cbb75eecb991b8fc26c) | chore(plans): mark property\_card\_kit status done | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2026-11-19 18:27:36 EST |
 
 <!-- sase:referenced-by:start -->
 
