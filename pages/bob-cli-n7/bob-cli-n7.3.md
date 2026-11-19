@@ -61,7 +61,9 @@ pipe-drain: Resolve bob-cli-kl so both subprocess_runner pipe-drain tests pass d
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-n7.3--1][1] | Need phase scope and design file for macOS gate failure triage | 1 |
+| read-by | [agent:bob-cli-n7.land--a][2] | Check every T4 phase status before closing the epic | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n7.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n7.land.md
 
 <!-- sase:referenced-by:end -->

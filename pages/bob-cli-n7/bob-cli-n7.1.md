@@ -42,7 +42,9 @@ macos-case: Resolve bob-cli-l9 (album, record, and highlights-scan collision tes
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-n7.1--3][1] | Need phase status and prior evidence before deciding whether this phase may close | 2 |
+| read-by | [agent:bob-cli-n7.land--a][2] | Check every T4 phase status before closing the epic | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n7.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-n7.land.md
 
 <!-- sase:referenced-by:end -->
