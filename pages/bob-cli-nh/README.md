@@ -45,7 +45,7 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 |---|---|---|---|---|---:|---:|
 | [bob-cli-nh.1](bob-cli-nh.1.md) | Intention fields contract, typed reader, YAML writer, and readers | ✓ closed | large | 2026-11-19 | 1 | 1 |
 | [bob-cli-nh.2](bob-cli-nh.2.md) | bob periods update guarded envelope and day subjects in show | ✓ closed | medium | 2026-11-19 | 1 | 2 |
-| [bob-cli-nh.3](bob-cli-nh.3.md) | Day brief, summary drafting, and brief-carried instructions | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
+| [bob-cli-nh.3](bob-cli-nh.3.md) | Day brief, summary drafting, and brief-carried instructions | ✓ closed | large | 2026-11-19 | 1 | 1 |
 | [bob-cli-nh.4](bob-cli-nh.4.md) | Link repair inside the owned keys and problems findings | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.5](bob-cli-nh.5.md) | Migration step and scaffolds without the old sections | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.6](bob-cli-nh.6.md) | Property-card kit extracted from the album, record, and bank cards | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
@@ -60,10 +60,10 @@ flowchart TD
     n0["bob-cli-nh: Intentions, summary, and reflection on every day and period, shown in an intention card [in_progress]"]
     n1["bob-cli-nh.1: Intention fields contract, typed reader, YAML writer, and readers [closed]"]
     n2["bob-cli-nh.2: bob periods update guarded envelope and day subjects in show [closed]"]
-    n3["bob-cli-nh.3: Day brief, summary drafting, and brief-carried instructions [in_progress]"]
+    n3["bob-cli-nh.3: Day brief, summary drafting, and brief-carried instructions [closed]"]
     n4["bob-cli-nh.4: Link repair inside the owned keys and problems findings [in_progress]"]
     n5["bob-cli-nh.4.1: Preserve intention links through vault rewrites [in_progress]"]
-    n6["bob-cli-nh.4.1.1: Verified owned-field repair, archive integration, and digest carry [in_progress]"]
+    n6["bob-cli-nh.4.1.1: Verified owned-field repair, archive integration, and digest carry [closed]"]
     n7["bob-cli-nh.4.1.2: Task move, merge, and split link parity [in_progress]"]
     n8["bob-cli-nh.4.1.3: Reference rename and overwrite owned-field repair [in_progress]"]
     n9["bob-cli-nh.4.1.4: Period field findings and public documentation [in_progress]"]
@@ -119,12 +119,12 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-nh.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.1.md) | [bob-cli-nh.1](bob-cli-nh.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.2/README.md) | [bob-cli-nh.2](bob-cli-nh.2.md) | 2 |
-| [bbugyi200.athena.bob-cli-nh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.3.md) | [bob-cli-nh.3](bob-cli-nh.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.3.md) | [bob-cli-nh.3](bob-cli-nh.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.md) | [bob-cli-nh.4](bob-cli-nh.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.1.md) | [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.2/README.md) | [bob-cli-nh.4.1.2](bob-cli-nh.4.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.3/README.md) | [bob-cli-nh.4.1.3](bob-cli-nh.4.1.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.4/README.md) | [bob-cli-nh.4.1.4](bob-cli-nh.4.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.4.md) | [bob-cli-nh.4.1.4](bob-cli-nh.4.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.land/README.md) | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.5/README.md) | [bob-cli-nh.5](bob-cli-nh.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.md) | [bob-cli-nh.6](bob-cli-nh.6.md) | 0 |
@@ -145,6 +145,7 @@ flowchart TD
 | bob-cli | [`a0b91a8`](https://github.com/bobs-org/bob-cli/commit/a0b91a8dfcc27a24d35a6c13989559d7fc594450) | feat(periods): add guarded intention updates | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 14:12:26 EST |
 | bob-cli | [`d84956c`](https://github.com/bobs-org/bob-cli/commit/d84956cc99792d370eaebe98466c677671a3bf1f) | docs(glossary): regenerate reference glossary | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 15:09:12 EST |
 | bob-cli | [`749efc2`](https://github.com/bobs-org/bob-cli/commit/749efc28358f0c9b8eb0314cf3d81615a66bb3b9) | feat(intentions): repair owned links during vault rewrites | [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) | 2026-11-19 15:35:22 EST |
+| bob-cli | [`a29a64f`](https://github.com/bobs-org/bob-cli/commit/a29a64f63884c9cfa960928c7a2d3c6b48693f36) | feat(periods): add day brief, summary drafting, and brief-carried instructions | [bob-cli-nh.3](bob-cli-nh.3.md) | 2026-11-19 16:33:50 EST |
 
 <!-- sase:referenced-by:start -->
 

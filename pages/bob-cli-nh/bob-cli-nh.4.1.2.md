@@ -13,7 +13,7 @@ task_repair: cover task move source/destination/bystander notes, preserve merge'
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
