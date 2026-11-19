@@ -22,7 +22,7 @@ delete: add -D/--delete with an up-front check of each file, a gate that deletes
 ## Dependencies
 
 - **Depends on:** [bob-cli-no.1](bob-cli-no.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-no.3](bob-cli-no.3.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-no.3](bob-cli-no.3.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
@@ -35,3 +35,15 @@ delete: add -D/--delete with an up-front check of each file, a gate that deletes
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c94a718`](https://github.com/bobs-org/bob-cli/commit/c94a718d3ca186696b872a5878b8176090b03460) | feat(bank): add import -D/--delete with digest-gated cleanup | [bob-cli-no.2](bob-cli-no.2.md) | 2026-11-19 17:01:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-no.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-no.2/README.md
+
+<!-- sase:referenced-by:end -->
