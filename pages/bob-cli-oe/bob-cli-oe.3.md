@@ -20,7 +20,7 @@ nav-jump-landing: add nav `api.landOnTask(target)`, which re-finds the task by i
 ## Dependencies
 
 - **Depends on:** [bob-cli-oe.2](bob-cli-oe.2.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-oe.4](bob-cli-oe.4.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-oe.4](bob-cli-oe.4.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -33,3 +33,15 @@ nav-jump-landing: add nav `api.landOnTask(target)`, which re-finds the task by i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1a6ff79`](https://github.com/bobs-org/bob-plugins/commit/1a6ff799afb94108c7cca87593b3d3e15cbb1bd8) | feat(nav): add landOnTask, reviewWalk v2 follow, and notice v5 jump receipt | [bob-cli-oe.3](bob-cli-oe.3.md) | 2026-11-20 18:07:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oe.3][1] | Need the phase scope, design file, notes, and DECISIONS before finishing remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.3/README.md
+
+<!-- sase:referenced-by:end -->

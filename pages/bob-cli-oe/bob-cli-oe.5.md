@@ -13,7 +13,7 @@ nav-jump-callers: opt the PRE/POST checklist claim and the relation-complete com
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oe.4](bob-cli-oe.4.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-oe.4](bob-cli-oe.4.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-oe.7](bob-cli-oe.7.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
