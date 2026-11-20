@@ -18,7 +18,7 @@ editor: adapt createGuardedUpdateSession to bob periods update, build the browse
 ## Dependencies
 
 - **Depends on:** [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
@@ -31,3 +31,15 @@ editor: adapt createGuardedUpdateSession to bob periods update, build the browse
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d90ebda`](https://github.com/bobs-org/bob-plugins/commit/d90ebda9e579ce143c30ff7b07978fd3930d4eb2) | feat(bob-ledger-tools): add guarded intention card editor | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 2026-11-20 03:23:54 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nh.7.1.2][1] | Need full details including notes and decisions | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.2/README.md
+
+<!-- sase:referenced-by:end -->

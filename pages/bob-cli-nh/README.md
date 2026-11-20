@@ -81,7 +81,7 @@ flowchart TD
     n17["bob-cli-nh.7.1: Complete the intention card and editor [in_progress]"]
     n18["bob-cli-nh.7.1.1: Intention card model, property-card host, and visual previews [closed]"]
     n19["bob-cli-nh.7.1.2: Guarded intention card editor and field stages [closed]"]
-    n20["bob-cli-nh.7.1.3: Period navigation, YAML excursion, command entry points, and docs [in_progress]"]
+    n20["bob-cli-nh.7.1.3: Period navigation, YAML excursion, command entry points, and docs [closed]"]
     n21["bob-cli-nh.7.1.4: Real Obsidian acceptance and final plugin deployment [in_progress]"]
     n22["bob-cli-nh.8: Adopt in the vault and chezmoi [in_progress]"]
     n23["bob-cli-nh.9: Glossary terms and decision records [in_progress]"]
@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.md) | [bob-cli-nh.7](bob-cli-nh.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.1.md) | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.2/README.md) | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.land/README.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 0 |
@@ -182,6 +182,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@70390ef`](https://github.com/bobs-org/bob-cli--plans/commit/70390efb2bb11228c50f62676b31a2ad1301535e) | docs(plan): mark intention link repair done | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 2026-11-19 18:54:57 EST |
 | bob-plugins | [`bob-plugins@d642146`](https://github.com/bobs-org/bob-plugins/commit/d6421468d0c1629bc43010f0fec853a08a2b1556) | feat(bob-ledger-tools): add intention card display | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 2026-11-20 03:07:46 EST |
 | bob-plugins | [`bob-plugins@d90ebda`](https://github.com/bobs-org/bob-plugins/commit/d90ebda9e579ce143c30ff7b07978fd3930d4eb2) | feat(bob-ledger-tools): add guarded intention card editor | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 2026-11-20 03:23:54 EST |
+| bob-plugins | [`bob-plugins@ea47caf`](https://github.com/bobs-org/bob-plugins/commit/ea47cafc8606283a355212806257153be6d336de) | feat(ledger-tools): intention card period navigation, YAML excursion, and entry points | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 2026-11-20 03:45:47 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ acceptance: add the isolated intention-card CDP runner and offline wrapper, prov
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
