@@ -13,7 +13,7 @@ navigation: add in-place parent and sibling navigation, missing-note states, the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

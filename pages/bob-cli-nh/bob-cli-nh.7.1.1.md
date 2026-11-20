@@ -17,7 +17,7 @@ display: implement the canonical subject and metadata models, digest parity, pla
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
@@ -30,3 +30,15 @@ display: implement the canonical subject and metadata models, digest parity, pla
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d642146`](https://github.com/bobs-org/bob-plugins/commit/d6421468d0c1629bc43010f0fec853a08a2b1556) | feat(bob-ledger-tools): add intention card display | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 2026-11-20 03:07:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nh.7.1.1--3][1] | Verify the target epic phase state and remaining descendants before its requested close. | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.1.md
+
+<!-- sase:referenced-by:end -->
