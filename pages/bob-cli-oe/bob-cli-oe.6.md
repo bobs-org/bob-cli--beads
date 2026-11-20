@@ -13,7 +13,7 @@ mac-jump-pin: add `jumpKey` to CapturePullInOutcomes. Ctrl+J is consumed by the 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oe.1](bob-cli-oe.1.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-oe.1](bob-cli-oe.1.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-oe.7](bob-cli-oe.7.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
