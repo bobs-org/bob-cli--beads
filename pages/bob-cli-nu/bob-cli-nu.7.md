@@ -24,7 +24,7 @@ author: extend the make-or-edit card with a Copy | Run kind row. Run drafts get 
 ## Dependencies
 
 - **Depends on:** [bob-cli-nu.5](bob-cli-nu.5.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-nu.8](bob-cli-nu.8.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.8](bob-cli-nu.8.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -45,7 +45,9 @@ author: extend the make-or-edit card with a Copy | Run kind row. Run drafts get 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.5][1] | Need sibling phase notes for fence phase context | 1 |
+| read-by | [agent:bob-cli-nu.7][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md
 
 <!-- sase:referenced-by:end -->

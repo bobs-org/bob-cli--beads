@@ -30,7 +30,7 @@ keymap: compose a command-chip step into the existing Meta+Enter dispatcher in b
 ## Dependencies
 
 - **Depends on:** [bob-cli-nu.4](bob-cli-nu.4.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-nu.8](bob-cli-nu.8.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.8](bob-cli-nu.8.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -52,8 +52,10 @@ keymap: compose a command-chip step into the existing Meta+Enter dispatcher in b
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.5][1] | Need sibling phase notes for fence phase context | 1 |
 | read-by | [agent:bob-cli-nu.6][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-nu.7][3] | Check concurrent keymap phase progress to avoid conflicts in bob-chips | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md
 
 <!-- sase:referenced-by:end -->
