@@ -13,7 +13,7 @@ inline: render run: spans as ▶ pills in Live Preview and Reading view. Click r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.2](bob-cli-nu.2.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.2](bob-cli-nu.2.md) ✓ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-nu.3](bob-cli-nu.3.md) ◐ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.5](bob-cli-nu.5.md) ◐ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.6](bob-cli-nu.6.md) ◐ · ⧖ 2026-11-20
