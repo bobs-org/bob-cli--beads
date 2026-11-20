@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.6/README.md) | [bob-cli-nj.6](bob-cli-nj.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.7.md) | [bob-cli-nj.7](bob-cli-nj.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.8/README.md) | [bob-cli-nj.8](bob-cli-nj.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.land.md) | [bob-cli-nj](README.md) | 3 |
+| [bbugyi200.apollo.bob-cli-nj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.land.md) | [bob-cli-nj](README.md) | 4 |
 
 ## Commits
 
@@ -122,6 +122,7 @@ flowchart TD
 | bob-cli | [`d15432a`](https://github.com/bobs-org/bob-cli/commit/d15432aa4609ea9641c9ff5987dbf03b4ff68b23) | feat(capture): implement work\_log log-reason recall completion | [bob-cli-nj](README.md) | 2026-11-19 22:38:28 EST |
 | bob-mac-capture | [`bob-mac-capture@6d54cb0`](https://github.com/bobs-org/bob-mac-capture/commit/6d54cb0f42ef19cd6679a5e493671748274f28cd) | feat(capture): enable pull-in close recall fixture and update work-band docs | [bob-cli-nj](README.md) | 2026-11-19 22:39:25 EST |
 | bob-plugins | [`bob-plugins@727cdc8`](https://github.com/bobs-org/bob-plugins/commit/727cdc86e953681efce2a03be331850ab2452320) | docs(nav): trim reference page under word budget | [bob-cli-nj](README.md) | 2026-11-19 22:40:15 EST |
+| bob-cli--plans | [`bob-cli--plans@b5a1cd0`](https://github.com/bobs-org/bob-cli--plans/commit/b5a1cd09adf06dbca9474059eb8ceb67cb71ed69) | docs(plans): record log reason recall landing plan | [bob-cli-nj](README.md) | 2026-11-19 22:41:06 EST |
 
 <!-- sase:referenced-by:start -->
 
