@@ -13,7 +13,7 @@ adopt: convert the open gtd_daily.md rows that hold bob commands (the Bank row o
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.6](bob-cli-nu.6.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.6](bob-cli-nu.6.md) ✓ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-nu.7](bob-cli-nu.7.md) ◐ · ⧖ 2026-11-20
 
 ## Agents

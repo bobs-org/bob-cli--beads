@@ -25,3 +25,15 @@ author: extend the make-or-edit card with a Copy | Run kind row. Run drafts get 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-nu.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md) | [bob-cli-nu.7](bob-cli-nu.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nu.5][1] | Need sibling phase notes for fence phase context | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md
+
+<!-- sase:referenced-by:end -->
