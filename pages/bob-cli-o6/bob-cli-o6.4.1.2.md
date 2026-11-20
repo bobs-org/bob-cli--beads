@@ -13,7 +13,7 @@ record-card: in bob-ledger-tools, rebuild the record sheet header as the kit tit
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-o6.4.1.1](bob-cli-o6.4.1.1.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-o6.4.1.1](bob-cli-o6.4.1.1.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
