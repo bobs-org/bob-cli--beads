@@ -17,7 +17,7 @@ kit: in bob-ledger-tools, extract the shared property-card kit with no visible c
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-nh.7](bob-cli-nh.7.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.7](bob-cli-nh.7.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

@@ -43,6 +43,10 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 
 [2026-11-19T22:36:25Z · bob-cli-no.land] DISCOVERED ISSUE: bob-cli-no.1 note #2 proposes clean-base library failures in public-leaf catalog coverage, periods update completion coverage, and planning_applies_ordered_intention_ops_and_reports_bad_indexes; no.2 note #1 repeats the catalog failure. Current CLI 992fd33d still has no periods-update row/exclusion in catalog/table.rs nor periods/update entry in completion/kinds.rs, although nh.2 a0b91a8d added the command. Please verify/fix these registrations and the ordered-op test before your landing. Those phase observations belong to nh, not bank import; no new task and no fresh full Rust suite claimed by this lander.
 
+[2026-11-20T13:06:03Z · bob-cli-nh.7.1.land] DISCOVERED ISSUE: Proposed by bob-cli-nh.7.1.4 note #7. The nh.2 periods update empty-op dry read can return ok:true with frontmatter_invalid or intentions_* diagnostics and empty/partial fields on malformed frontmatter; clients must not treat that as valid emptiness. The intention editor and YAML Done now reject blocking warnings (297ca helper); docs/periods.md guarded-update contract does not document this distinction. Please document the existing read contract and advisory intentions_over_soft_cap exception with an example in parent landing. This API/doc gap belongs to nh.2/nh, not a standalone follow-up or a reason to redesign the already-guarded card. A behavior change to fail all dry reads closed needs deliberate contract review; do not silently adopt the alternative. All-status search found no duplicate.
+
+[2026-11-20T14:24:25Z · bob-cli-nh.7.1.land] DISCOVERED ISSUE (bob-cli-nh.7.1.land, 2026-11-20): `just check` fails on the unmodified bob-cli tree at e5f51081 (= origin/master; this landing changed no bob-cli files): 12148 passed, 3 failed, all in -p bob-obsidian --lib and all introduced with nh.2's `bob periods update` (a0b91a8d). Reproduced deterministically with a filtered cargo test rerun. (1) native::catalog::tests::public_leaves_are_entries_or_excluded: 'public leaf ["periods", "update"] is neither an entry nor excluded'. (2) native::completion::kinds::tests::every_value_arg_has_a_decision: 'value-taking args without a kinds decision: ["periods update:input", "periods update:subject"]'. (3) native::periods::update::tests::planning_applies_ordered_intention_ops_and_reports_bad_indexes expects [two, two again, one] but insert(1,middle), move(2->0), replace(1) on [one, two] correctly yields [two, two again, middle]; the test expectation is wrong, not the planner (the plugin's writer simulator and real bob agree). Owner: nh.2's periods-update contract work; fix the catalog entry/exclusion, completion kinds decisions, and the test expectation. Log: /tmp/bob-cli-just-check.log on athena.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -53,7 +57,7 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 | [bob-cli-nh.4](bob-cli-nh.4.md) | Link repair inside the owned keys and problems findings | ✓ closed | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.5](bob-cli-nh.5.md) | Migration step and scaffolds without the old sections | ✓ closed | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nh.6](bob-cli-nh.6.md) | Property-card kit extracted from the album, record, and bank cards | ✓ closed | large | 2026-11-19 | 1 | 0 |
-| [bob-cli-nh.7](bob-cli-nh.7.md) | Intention card, card editor, commands, and deploy | ◐ in_progress | large | 2026-11-19 | 1 | 0 |
+| [bob-cli-nh.7](bob-cli-nh.7.md) | Intention card, card editor, commands, and deploy | ✓ closed | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.8](bob-cli-nh.8.md) | Adopt in the vault and chezmoi | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.9](bob-cli-nh.9.md) | Glossary terms and decision records | ◐ in_progress | small | 2026-11-19 | 1 | 0 |
 
@@ -77,8 +81,8 @@ flowchart TD
     n13["bob-cli-nh.6.1.1: Shared property ownership and card editor registry [closed]"]
     n14["bob-cli-nh.6.1.2: Shared Reading and Live Preview host lifecycle [closed]"]
     n15["bob-cli-nh.6.1.3: Shared property-card chrome and precise documentation [closed]"]
-    n16["bob-cli-nh.7: Intention card, card editor, commands, and deploy [in_progress]"]
-    n17["bob-cli-nh.7.1: Complete the intention card and editor [in_progress]"]
+    n16["bob-cli-nh.7: Intention card, card editor, commands, and deploy [closed]"]
+    n17["bob-cli-nh.7.1: Complete the intention card and editor [closed]"]
     n18["bob-cli-nh.7.1.1: Intention card model, property-card host, and visual previews [closed]"]
     n19["bob-cli-nh.7.1.2: Guarded intention card editor and field stages [closed]"]
     n20["bob-cli-nh.7.1.3: Period navigation, YAML excursion, command entry points, and docs [closed]"]
@@ -154,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.2/README.md) | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.land/README.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.9/README.md) | [bob-cli-nh.9](bob-cli-nh.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.land/README.md) | [bob-cli-nh](README.md) | 0 |
@@ -184,6 +188,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d90ebda`](https://github.com/bobs-org/bob-plugins/commit/d90ebda9e579ce143c30ff7b07978fd3930d4eb2) | feat(bob-ledger-tools): add guarded intention card editor | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 2026-11-20 03:23:54 EST |
 | bob-plugins | [`bob-plugins@ea47caf`](https://github.com/bobs-org/bob-plugins/commit/ea47cafc8606283a355212806257153be6d336de) | feat(ledger-tools): intention card period navigation, YAML excursion, and entry points | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 2026-11-20 03:45:47 EST |
 | bob-plugins | [`bob-plugins@b1a655a`](https://github.com/bobs-org/bob-plugins/commit/b1a655af0228ca2589c04ee46109da9335e22551) | feat(ledger-tools): prove the intention card in real Obsidian and fix what it found | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 2026-11-20 07:55:43 EST |
+| bob-plugins | [`bob-plugins@5c41b5b`](https://github.com/bobs-org/bob-plugins/commit/5c41b5b3c069bfbf3cf10d7b50944e88767f339b) | fix(ledger-tools): finish intention card overlays, guarded retry/Undo, and field stages | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2026-11-20 09:34:45 EST |
 
 <!-- sase:referenced-by:start -->
 

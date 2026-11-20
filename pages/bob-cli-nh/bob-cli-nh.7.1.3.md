@@ -43,7 +43,9 @@ navigation: add in-place parent and sibling navigation, missing-note states, the
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.7.1.3][1] | Check notes and full scope | 2 |
+| read-by | [agent:bob-cli-nh.7.1.4][2] | Check its note about pre-existing docs-check URL obligation failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md
 
 <!-- sase:referenced-by:end -->

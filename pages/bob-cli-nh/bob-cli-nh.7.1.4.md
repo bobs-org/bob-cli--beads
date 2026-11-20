@@ -22,6 +22,8 @@
 | related | file:explicit:930bbfc65a8ad11998092e33 | attached via sase artifact create --bead |
 | related | file:explicit:f841eb68bf723f242b173ab0 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -61,3 +63,15 @@ acceptance: add the isolated intention-card CDP runner and offline wrapper, prov
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b1a655a`](https://github.com/bobs-org/bob-plugins/commit/b1a655af0228ca2589c04ee46109da9335e22551) | feat(ledger-tools): prove the intention card in real Obsidian and fix what it found | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 2026-11-20 07:55:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nh.7.1.4][1] | Check notes left by previous agents on this phase | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md
+
+<!-- sase:referenced-by:end -->
