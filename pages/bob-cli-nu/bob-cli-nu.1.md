@@ -7,6 +7,20 @@
 **Created:** 2026-11-20 05:59:33 EST · **Closed:** 2026-11-20 06:44:16 EST
 **Plan:** [202611/command\_chips.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-nv][1] | nu.1 note #3 proposed this same docs-check URL repair as a follow-up |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-nv/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 rename: move the copy-chip plugin to the id bob-chips. The phase includes a dual-listed transition and a double-load guard. It updates every touchpoint: the navigation C-row lookup, docs, chezmoi allowlist, vault enablement, the vimrc obcommand ids, and a bob-cli docs redirect. Copy-chip behavior and api.copyChips v2 stay byte-stable.
@@ -46,8 +60,10 @@ rename: move the copy-chip plugin to the id bob-chips. The phase includes a dual
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-nu.1][1] | Need the assigned phase scope, recorded progress, parent decisions, and design file before continuing the work | 3 |
+| read-by | [agent:bob-cli-nh.7.1.4][1] | Check whether the bob-chips rename phase handled plugins.sync config | 1 |
+| read-by | [agent:bob-cli-nu.1][2] | Need the assigned phase scope, recorded progress, parent decisions, and design file before continuing the work | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nh.7.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.1/README.md
 
 <!-- sase:referenced-by:end -->
