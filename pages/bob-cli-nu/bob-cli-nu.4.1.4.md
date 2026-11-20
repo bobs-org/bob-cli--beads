@@ -13,7 +13,7 @@ reading: extend the single Markdown processor with accessible command buttons an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
