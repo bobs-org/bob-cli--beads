@@ -41,10 +41,10 @@ Every free-text prompt in Obsidian and Bob Mac Capture that writes a Schedule, W
 | [bob-cli-nj.2](bob-cli-nj.2.md) | bob-plugins: recall store, model, band decorator, and the Work Log modals | ✓ closed | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nj.3](bob-cli-nj.3.md) | bob-plugins: Task Card picker log stages | ✓ closed | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nj.4](bob-cli-nj.4.md) | bob-plugins: Rotten keep prompts and the successor inline cancel reason | ✓ closed | medium | 2026-11-19 | 1 | 1 |
-| [bob-cli-nj.5](bob-cli-nj.5.md) | bob-mac-capture: pull-in cancel reason recall | ✓ closed | medium | 2026-11-19 | 1 | 0 |
+| [bob-cli-nj.5](bob-cli-nj.5.md) | bob-mac-capture: pull-in cancel reason recall | ✓ closed | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nj.6](bob-cli-nj.6.md) | bob-cli: Work Log phrase completion in capture-complete | ✓ closed | medium | 2026-11-19 | 1 | 1 |
-| [bob-cli-nj.7](bob-cli-nj.7.md) | bob-mac-capture: inline Work Log recall in the completion popup | ✓ closed | medium | 2026-11-19 | 1 | 0 |
-| [bob-cli-nj.8](bob-cli-nj.8.md) | Decision record, glossary term, and cross-repo docs sweep | ◐ in_progress | small | 2026-11-19 | 1 | 0 |
+| [bob-cli-nj.7](bob-cli-nj.7.md) | bob-mac-capture: inline Work Log recall in the completion popup | ✓ closed | medium | 2026-11-19 | 1 | 2 |
+| [bob-cli-nj.8](bob-cli-nj.8.md) | Decision record, glossary term, and cross-repo docs sweep | ✓ closed | small | 2026-11-19 | 1 | 1 |
 
 ## Lineage
 
@@ -58,7 +58,7 @@ flowchart TD
     n5["bob-cli-nj.5: bob-mac-capture: pull-in cancel reason recall [closed]"]
     n6["bob-cli-nj.6: bob-cli: Work Log phrase completion in capture-complete [closed]"]
     n7["bob-cli-nj.7: bob-mac-capture: inline Work Log recall in the completion popup [closed]"]
-    n8["bob-cli-nj.8: Decision record, glossary term, and cross-repo docs sweep [in_progress]"]
+    n8["bob-cli-nj.8: Decision record, glossary term, and cross-repo docs sweep [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -87,10 +87,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.2/README.md) | [bob-cli-nj.2](bob-cli-nj.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.3/README.md) | [bob-cli-nj.3](bob-cli-nj.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.4.md) | [bob-cli-nj.4](bob-cli-nj.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.5/README.md) | [bob-cli-nj.5](bob-cli-nj.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.5/README.md) | [bob-cli-nj.5](bob-cli-nj.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.6/README.md) | [bob-cli-nj.6](bob-cli-nj.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.7.md) | [bob-cli-nj.7](bob-cli-nj.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-nj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.8/README.md) | [bob-cli-nj.8](bob-cli-nj.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.8/README.md) | [bob-cli-nj.8](bob-cli-nj.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.land/README.md) | [bob-cli-nj](README.md) | 0 |
 
 ## Commits
@@ -98,10 +98,14 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`382963d`](https://github.com/bobs-org/bob-cli/commit/382963dbae5ee9a11c5492c1bf9ddb192abd3199) | feat(logs): add vault-derived phrase recall | [bob-cli-nj.1](bob-cli-nj.1.md) | 2026-11-19 14:30:15 EST |
+| bob-mac-capture | [`bob-mac-capture@e58a9e2`](https://github.com/bobs-org/bob-mac-capture/commit/e58a9e27e6649b8498fb411a4a3aca87a2a3c60a) | feat(capture): pull-in cancel reason recall from vault log history | [bob-cli-nj.5](bob-cli-nj.5.md) | 2026-11-19 14:54:12 EST |
 | bob-cli | [`ddf28f6`](https://github.com/bobs-org/bob-cli/commit/ddf28f64fbe831671b4c0dc438f2a9b85c7255b5) | feat(capture): add work log phrase completion | [bob-cli-nj.6](bob-cli-nj.6.md) | 2026-11-19 15:22:18 EST |
 | bob-plugins | [`bob-plugins@795fad3`](https://github.com/bobs-org/bob-plugins/commit/795fad3d924de86eb3e3f5890ba4d467833d80bb) | feat(log-recall): add Work Log phrase recall to Obsidian prompts | [bob-cli-nj.2](bob-cli-nj.2.md) | 2026-11-19 15:33:44 EST |
+| bob-mac-capture | [`bob-mac-capture@ddeab6c`](https://github.com/bobs-org/bob-mac-capture/commit/ddeab6c8d3e5e4400dabd569f678df5c62f2299f) | feat(capture): inline Work Log recall in the completion popup | [bob-cli-nj.7](bob-cli-nj.7.md) | 2026-11-19 15:49:25 EST |
+| bob-mac-capture | [`bob-mac-capture@b6b7f6c`](https://github.com/bobs-org/bob-mac-capture/commit/b6b7f6cf23b70060c8fab0d4c088a80ed66e90e5) | fix(tests): pass work\_log response init arguments in order | [bob-cli-nj.7](bob-cli-nj.7.md) | 2026-11-19 15:57:38 EST |
 | bob-plugins | [`bob-plugins@3968f0d`](https://github.com/bobs-org/bob-plugins/commit/3968f0d70e8d45a1c225a6bb111df3f1805a956e) | feat(log-recall): attach recall to Task Card picker log stages | [bob-cli-nj.3](bob-cli-nj.3.md) | 2026-11-19 16:01:14 EST |
 | bob-plugins | [`bob-plugins@7eb0685`](https://github.com/bobs-org/bob-plugins/commit/7eb0685a30c13844d7dbf2546d1709e214ed3d75) | feat(plugins): add Rotten and Cancel log recall | [bob-cli-nj.4](bob-cli-nj.4.md) | 2026-11-19 20:09:35 EST |
+| bob-plugins | [`bob-plugins@3d1f553`](https://github.com/bobs-org/bob-plugins/commit/3d1f553fc07a49faa0acfc07d9b4068380f41ba4) | docs(log-recall): cover plugin prompt surfaces | [bob-cli-nj.8](bob-cli-nj.8.md) | 2026-11-19 20:14:59 EST |
 
 <!-- sase:referenced-by:start -->
 

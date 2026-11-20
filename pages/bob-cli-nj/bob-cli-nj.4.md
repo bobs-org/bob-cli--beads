@@ -18,7 +18,7 @@ rotten-and-successor: attach Rotten recall to RottenKeepReasonStage (single keep
 ## Dependencies
 
 - **Depends on:** [bob-cli-nj.2](bob-cli-nj.2.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nj.8](bob-cli-nj.8.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.8](bob-cli-nj.8.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

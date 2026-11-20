@@ -23,13 +23,20 @@ mac-worklog-recall: request completion inside close-log summary spans, decode th
 
 - **Depends on:** [bob-cli-nj.5](bob-cli-nj.5.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [bob-cli-nj.6](bob-cli-nj.6.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nj.8](bob-cli-nj.8.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.8](bob-cli-nj.8.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-nj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.7.md) | [bob-cli-nj.7](bob-cli-nj.7.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@ddeab6c`](https://github.com/bobs-org/bob-mac-capture/commit/ddeab6c8d3e5e4400dabd569f678df5c62f2299f) | feat(capture): inline Work Log recall in the completion popup | [bob-cli-nj.7](bob-cli-nj.7.md) | 2026-11-19 15:49:25 EST |
+| bob-mac-capture | [`bob-mac-capture@b6b7f6c`](https://github.com/bobs-org/bob-mac-capture/commit/b6b7f6cf23b70060c8fab0d4c088a80ed66e90e5) | fix(tests): pass work\_log response init arguments in order | [bob-cli-nj.7](bob-cli-nj.7.md) | 2026-11-19 15:57:38 EST |
 
 <!-- sase:referenced-by:start -->
 
