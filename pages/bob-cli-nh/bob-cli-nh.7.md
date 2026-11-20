@@ -20,7 +20,7 @@ card: build the intention card on the kit (kicker, numbered intentions, SUMMARY 
 - **Depends on:** [bob-cli-nh.2](bob-cli-nh.2.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [bob-cli-nh.6](bob-cli-nh.6.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.8](bob-cli-nh.8.md) ◐ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nh.9](bob-cli-nh.9.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.9](bob-cli-nh.9.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

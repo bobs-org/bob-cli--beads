@@ -56,13 +56,7 @@ acceptance: add the isolated intention-card CDP runner and offline wrapper, prov
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@b1a655a`](https://github.com/bobs-org/bob-plugins/commit/b1a655af0228ca2589c04ee46109da9335e22551) | feat(ledger-tools): prove the intention card in real Obsidian and fix what it found | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 2026-11-20 07:55:43 EST |
+| [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

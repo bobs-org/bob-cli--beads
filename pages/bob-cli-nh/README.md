@@ -59,7 +59,7 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 | [bob-cli-nh.6](bob-cli-nh.6.md) | Property-card kit extracted from the album, record, and bank cards | ✓ closed | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.7](bob-cli-nh.7.md) | Intention card, card editor, commands, and deploy | ✓ closed | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.8](bob-cli-nh.8.md) | Adopt in the vault and chezmoi | ◐ in_progress | medium | 2026-11-19 | 1 | 0 |
-| [bob-cli-nh.9](bob-cli-nh.9.md) | Glossary terms and decision records | ◐ in_progress | small | 2026-11-19 | 1 | 0 |
+| [bob-cli-nh.9](bob-cli-nh.9.md) | Glossary terms and decision records | ✓ closed | small | 2026-11-19 | 1 | 1 |
 
 ## Lineage
 
@@ -88,7 +88,7 @@ flowchart TD
     n20["bob-cli-nh.7.1.3: Period navigation, YAML excursion, command entry points, and docs [closed]"]
     n21["bob-cli-nh.7.1.4: Real Obsidian acceptance and final plugin deployment [closed]"]
     n22["bob-cli-nh.8: Adopt in the vault and chezmoi [in_progress]"]
-    n23["bob-cli-nh.9: Glossary terms and decision records [in_progress]"]
+    n23["bob-cli-nh.9: Glossary terms and decision records [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -149,47 +149,38 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md) | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-nh.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.5/README.md) | [bob-cli-nh.5](bob-cli-nh.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.md) | [bob-cli-nh.6](bob-cli-nh.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.6.1.2/README.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.3.md) | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md) | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.2.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.3.md) | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md) | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.md) | [bob-cli-nh.7](bob-cli-nh.7.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.1.md) | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.2/README.md) | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-nh.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.1.md) | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.2/README.md) | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-nh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.9/README.md) | [bob-cli-nh.9](bob-cli-nh.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.9/README.md) | [bob-cli-nh.9](bob-cli-nh.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.land/README.md) | [bob-cli-nh](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@ccfc12b`](https://github.com/bobs-org/bob-plugins/commit/ccfc12bb62cecbde3ee47310ad82a0ddb4031ac4) | feat(ledger-tools): shared property-card ownership and card editor registry | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 10:10:33 EST |
-| bob-plugins | [`bob-plugins@8d6fd78`](https://github.com/bobs-org/bob-plugins/commit/8d6fd78ab80408a65fc6fbcf753bba9c68de60de) | fix(ledger-tools): keep property-card ownership with its current mount | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 11:32:00 EST |
 | bob-cli | [`e7aa392`](https://github.com/bobs-org/bob-cli/commit/e7aa392d688ea250ada1a6d732e3f27ed0e67c9c) | feat(intentions): add unified fields contract and readers | [bob-cli-nh.1](bob-cli-nh.1.md) | 2026-11-19 12:52:40 EST |
 | bob-cli | [`a0b91a8`](https://github.com/bobs-org/bob-cli/commit/a0b91a8dfcc27a24d35a6c13989559d7fc594450) | feat(periods): add guarded intention updates | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 14:12:26 EST |
-| bob-plugins | [`bob-plugins@946ef56`](https://github.com/bobs-org/bob-plugins/commit/946ef56589c2650807bdf45c3dfd0eb59005c956) | feat(ledger-tools): share one property-card host lifecycle | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 2026-11-19 14:42:27 EST |
 | bob-cli | [`d84956c`](https://github.com/bobs-org/bob-cli/commit/d84956cc99792d370eaebe98466c677671a3bf1f) | docs(glossary): regenerate reference glossary | [bob-cli-nh.2](bob-cli-nh.2.md) | 2026-11-19 15:09:12 EST |
 | bob-cli | [`749efc2`](https://github.com/bobs-org/bob-cli/commit/749efc28358f0c9b8eb0314cf3d81615a66bb3b9) | feat(intentions): repair owned links during vault rewrites | [bob-cli-nh.4.1.1](bob-cli-nh.4.1.1.md) | 2026-11-19 15:35:22 EST |
 | bob-cli | [`a29a64f`](https://github.com/bobs-org/bob-cli/commit/a29a64f63884c9cfa960928c7a2d3c6b48693f36) | feat(periods): add day brief, summary drafting, and brief-carried instructions | [bob-cli-nh.3](bob-cli-nh.3.md) | 2026-11-19 16:33:50 EST |
 | bob-cli | [`ea538f7`](https://github.com/bobs-org/bob-cli/commit/ea538f78edb857c34a2a1e14ddbe5d50a68ed4b4) | feat(intentions): repair owned fields in reference link rewrites | [bob-cli-nh.4.1.3](bob-cli-nh.4.1.3.md) | 2026-11-19 17:07:03 EST |
-| bob-plugins | [`bob-plugins@2f1e016`](https://github.com/bobs-org/bob-plugins/commit/2f1e016322e198f136be0525777c03d5087b77f5) | feat(plugins): share property-card chrome | [bob-cli-nh.6.1.3](bob-cli-nh.6.1.3.md) | 2026-11-19 17:19:03 EST |
 | bob-cli | [`992fd33`](https://github.com/bobs-org/bob-cli/commit/992fd33d72dcb0d0b80382666a73da94559322c1) | feat(periods): report legacy and malformed intention findings | [bob-cli-nh.4.1.4](bob-cli-nh.4.1.4.md) | 2026-11-19 17:19:17 EST |
 | bob-cli | [`8bbb304`](https://github.com/bobs-org/bob-cli/commit/8bbb3041cd33412e67f297c0e481534e927b0b3f) | feat(intentions): recover task rewrite integration | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 2026-11-19 17:38:16 EST |
 | bob-cli | [`eaa52d0`](https://github.com/bobs-org/bob-cli/commit/eaa52d06c8f99c1f08b6068e10d3a10b0b47cca0) | feat(periods): add intentions step to migrate and new scaffolds | [bob-cli-nh.5](bob-cli-nh.5.md) | 2026-11-19 18:10:58 EST |
-| bob-plugins | [`bob-plugins@d99dcef`](https://github.com/bobs-org/bob-plugins/commit/d99dcefd6e0dbe4d89ce84070046c730ca09d43f) | feat(ledger-tools): registry sole dispatch and host failure cleanup | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2026-11-19 18:27:00 EST |
 | bob-cli--plans | [`bob-cli--plans@54eebe7`](https://github.com/bobs-org/bob-cli--plans/commit/54eebe7a0474c4087fb16cbb75eecb991b8fc26c) | chore(plans): mark property\_card\_kit status done | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2026-11-19 18:27:36 EST |
 | bob-cli | [`f811397`](https://github.com/bobs-org/bob-cli/commit/f811397d5a98c56490adc68bd3e6b88d4be4b547) | fix(intentions): preserve links through vault rewrites | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 2026-11-19 18:54:20 EST |
 | bob-cli--plans | [`bob-cli--plans@70390ef`](https://github.com/bobs-org/bob-cli--plans/commit/70390efb2bb11228c50f62676b31a2ad1301535e) | docs(plan): mark intention link repair done | [bob-cli-nh.4.1](bob-cli-nh.4.1.md) | 2026-11-19 18:54:57 EST |
-| bob-plugins | [`bob-plugins@d642146`](https://github.com/bobs-org/bob-plugins/commit/d6421468d0c1629bc43010f0fec853a08a2b1556) | feat(bob-ledger-tools): add intention card display | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 2026-11-20 03:07:46 EST |
-| bob-plugins | [`bob-plugins@d90ebda`](https://github.com/bobs-org/bob-plugins/commit/d90ebda9e579ce143c30ff7b07978fd3930d4eb2) | feat(bob-ledger-tools): add guarded intention card editor | [bob-cli-nh.7.1.2](bob-cli-nh.7.1.2.md) | 2026-11-20 03:23:54 EST |
-| bob-plugins | [`bob-plugins@ea47caf`](https://github.com/bobs-org/bob-plugins/commit/ea47cafc8606283a355212806257153be6d336de) | feat(ledger-tools): intention card period navigation, YAML excursion, and entry points | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 2026-11-20 03:45:47 EST |
-| bob-plugins | [`bob-plugins@b1a655a`](https://github.com/bobs-org/bob-plugins/commit/b1a655af0228ca2589c04ee46109da9335e22551) | feat(ledger-tools): prove the intention card in real Obsidian and fix what it found | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 2026-11-20 07:55:43 EST |
-| bob-plugins | [`bob-plugins@5c41b5b`](https://github.com/bobs-org/bob-plugins/commit/5c41b5b3c069bfbf3cf10d7b50944e88767f339b) | fix(ledger-tools): finish intention card overlays, guarded retry/Undo, and field stages | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2026-11-20 09:34:45 EST |
 | bob-cli--plans | [`bob-cli--plans@7af61f1`](https://github.com/bobs-org/bob-cli--plans/commit/7af61f19c464221863830232533af21be976bec7) | chore(plans): mark intention\_card epic plan done | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2026-11-20 09:38:20 EST |
+| bob-cli | [`b700701`](https://github.com/bobs-org/bob-cli/commit/b70070114fa5861c8552dd5fc3285da265e8fe52) | docs(memory): add intention and property-card glossary family | [bob-cli-nh.9](bob-cli-nh.9.md) | 2026-11-20 09:45:44 EST |
 
 <!-- sase:referenced-by:start -->
 

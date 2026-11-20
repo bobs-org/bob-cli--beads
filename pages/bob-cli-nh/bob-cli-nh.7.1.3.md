@@ -28,13 +28,7 @@ navigation: add in-place parent and sibling navigation, missing-note states, the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@ea47caf`](https://github.com/bobs-org/bob-plugins/commit/ea47cafc8606283a355212806257153be6d336de) | feat(ledger-tools): intention card period navigation, YAML excursion, and entry points | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 2026-11-20 03:45:47 EST |
+| [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

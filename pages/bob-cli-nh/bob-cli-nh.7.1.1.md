@@ -23,13 +23,7 @@ display: implement the canonical subject and metadata models, digest parity, pla
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.1.md) | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d642146`](https://github.com/bobs-org/bob-plugins/commit/d6421468d0c1629bc43010f0fec853a08a2b1556) | feat(bob-ledger-tools): add intention card display | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 2026-11-20 03:07:46 EST |
+| [bbugyi200.athena.bob-cli-nh.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.1.md) | [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
