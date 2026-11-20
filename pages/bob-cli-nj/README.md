@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-nj
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.f3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.f3.md) · **Assignee:** `bob-cli-nj.land`
-**Created:** 2026-11-19 12:14:02 EST
+**Created:** 2026-11-19 12:14:02 EST · **Closed:** 2026-11-19 22:35:40 EST
 **Plan:** [202611/log\_reason\_recall.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/log_reason_recall.md)
 
 <!-- sase:links:start -->
@@ -33,6 +33,19 @@ Every free-text prompt in Obsidian and Bob Mac Capture that writes a Schedule, W
 
 [2026-11-19T22:36:32Z · bob-cli-no.land] DISCOVERED ISSUE: bob-cli-no.3 note #3 reports task-status-cycler vault deployment protected as ws15 uncommitted build based on 795fad3, with bytes matching no landed commit; phase .3 deployed bob-ledger-tools but correctly left cycler alone. Active nj.4 owns cycler Log Recall work. Please reconcile/deploy that owned build through the normal guarded sync after landing; do not force over it. Attribution is the bank phase report, not a fresh deployment attempt by this lander; no new unrelated deployment task.
 
+[2026-11-20T01:44:07Z · bob-cli-nj.land] LAND TRIAGE (bob-cli-nj.land, 2026-11-20). Follow-up outcomes:
+(1) nj.1 #1, tick host-date failures: not epic-caused. Corroborated existing bob-cli-nf with a +1 (now +2). Today all 23 tick CLI tests passed on f811397d.
+(2) nj.2 #2, km/io timing gates: not epic-caused. nj.2 already +1'd both bob-cli-km and bob-cli-io. The lander has no independent rerun, so no further action.
+(3) nj.2 #1, nj.3 #1, nj.6 #1, nj.7 #2, and epic note #2, Mac/plugin reference word budgets: DECLINED as follow-ups because the epic CAUSED them. Pre-epic capture-previews was 5993 and keyboard 5970; nj.5 e58a9e27 took them to 6096/6027 and nj.7 ddeab6c8 to 6171. nj.8 3d1f553 took plugins bob-navigation-hotkeys.md from 6000 to 6042. This is now epic work in the landing tale, and the attribution correction is noted on bob-cli-jz.
+(4) nj.7 #1, 6 failing CapturePullInRecallTests: DECLINED as a follow-up because the epic CAUSED them. Mac CI was green at bfb21321 and red from nj.5 e58a9e27 on. Root cause: the test fixture never enables pull-in close (no CapturePullInClose(supported:true) and no offer close descriptors), so beginPullInCancelForHighlight refuses and activeReasonKey stays nil. This is epic work in the landing tale.
+(5) Epic note #1, 4 capture-complete failures: epic work, reconfirmed by the 3 lib tests plus the CLI complete_drawers test on f811397d. nj.6 also deviates from the plan: the query is the whole span rather than the text up to the cursor, the gate counts whole-span chars rather than non-space chars before the cursor, there is no exact-key drop, max 3 instead of 8, and summaries containing [[ still carry the span. Landing tale.
+(6) Epic note #3, cycler deployment: RESOLVED. bob plugins list shows all 12 plugins synced to master 3d1f553.
+(7) nj.5 #1, docs-check source-context collision: DECLINED as not reproducible. Today's just docs-check assembled sources and reached lint.
+(8) Discovered by the lander: catalog public_leaves, completion kinds, and periods planning_applies test failures from bob-cli-nh.2 a0b91a8d (periods update). Not epic-caused; already recorded as a DISCOVERED ISSUE on active epic bob-cli-nh, so no new task.
+Accepted deviation: Mac work_log rows format N× · age with nj.5's LogRecallBandPresentation.meta from bob's uses/last_used rather than a bob-formatted detail field. This is presentation-only, reuses the plan-sanctioned pull-in formatter, and leaves ranking and data with bob.
+
+[2026-11-20T03:35:40Z · bob-cli-nj.land] Land tale verified: 4 capture-complete tests green (3 lib + 1 CLI) plus 6 new/updated work_log tests; plan-conformant work_log (cursor query, non-space gate, exact drop, max 8, no [[ spans); Mac pre-push CI green incl. 6 CapturePullInRecallTests; three reference pages 5969/5989/6000 with docs-check lint clean in all contexts; plugins synced; epic symbols none.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,7 +63,7 @@ Every free-text prompt in Obsidian and Bob Mac Capture that writes a Schedule, W
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-nj: Log Recall: Ctrl+N/P phrase history for Schedule, Work, Rotten, and Cancel Log prompts [in_progress]"]
+    n0["bob-cli-nj: Log Recall: Ctrl+N/P phrase history for Schedule, Work, Rotten, and Cancel Log prompts [closed]"]
     n1["bob-cli-nj.1: bob-cli: vault-derived log phrase catalog and `bob logs list` [closed]"]
     n2["bob-cli-nj.2: bob-plugins: recall store, model, band decorator, and the Work Log modals [closed]"]
     n3["bob-cli-nj.3: bob-plugins: Task Card picker log stages [closed]"]
@@ -91,7 +104,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.6/README.md) | [bob-cli-nj.6](bob-cli-nj.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.7.md) | [bob-cli-nj.7](bob-cli-nj.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.8/README.md) | [bob-cli-nj.8](bob-cli-nj.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.land/README.md) | [bob-cli-nj](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.land.md) | [bob-cli-nj](README.md) | 1 |
 
 ## Commits
 
@@ -106,6 +119,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@3968f0d`](https://github.com/bobs-org/bob-plugins/commit/3968f0d70e8d45a1c225a6bb111df3f1805a956e) | feat(log-recall): attach recall to Task Card picker log stages | [bob-cli-nj.3](bob-cli-nj.3.md) | 2026-11-19 16:01:14 EST |
 | bob-plugins | [`bob-plugins@7eb0685`](https://github.com/bobs-org/bob-plugins/commit/7eb0685a30c13844d7dbf2546d1709e214ed3d75) | feat(plugins): add Rotten and Cancel log recall | [bob-cli-nj.4](bob-cli-nj.4.md) | 2026-11-19 20:09:35 EST |
 | bob-plugins | [`bob-plugins@3d1f553`](https://github.com/bobs-org/bob-plugins/commit/3d1f553fc07a49faa0acfc07d9b4068380f41ba4) | docs(log-recall): cover plugin prompt surfaces | [bob-cli-nj.8](bob-cli-nj.8.md) | 2026-11-19 20:14:59 EST |
+| bob-cli | [`d15432a`](https://github.com/bobs-org/bob-cli/commit/d15432aa4609ea9641c9ff5987dbf03b4ff68b23) | feat(capture): implement work\_log log-reason recall completion | [bob-cli-nj](README.md) | 2026-11-19 22:38:28 EST |
 
 <!-- sase:referenced-by:start -->
 

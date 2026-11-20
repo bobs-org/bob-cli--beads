@@ -31,3 +31,15 @@ rotten-and-successor: attach Rotten recall to RottenKeepReasonStage (single keep
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7eb0685`](https://github.com/bobs-org/bob-plugins/commit/7eb0685a30c13844d7dbf2546d1709e214ed3d75) | feat(plugins): add Rotten and Cancel log recall | [bob-cli-nj.4](bob-cli-nj.4.md) | 2026-11-19 20:09:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nj.4--1][1] | Need current phase scope, notes, and design before finishing the phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.4.md
+
+<!-- sase:referenced-by:end -->

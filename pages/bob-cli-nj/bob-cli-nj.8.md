@@ -32,3 +32,15 @@ recall-memory: write the Log Recall decision record and glossary term through /s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3d1f553`](https://github.com/bobs-org/bob-plugins/commit/3d1f553fc07a49faa0acfc07d9b4068380f41ba4) | docs(log-recall): cover plugin prompt surfaces | [bob-cli-nj.8](bob-cli-nj.8.md) | 2026-11-19 20:14:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nj.8][1] | Confirm the assigned phase closed after verification | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.8/README.md
+
+<!-- sase:referenced-by:end -->
