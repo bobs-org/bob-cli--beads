@@ -51,7 +51,9 @@ keymap: compose a command-chip step into the existing Meta+Enter dispatcher in b
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.5][1] | Need sibling phase notes for fence phase context | 1 |
+| read-by | [agent:bob-cli-nu.6][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md
 
 <!-- sase:referenced-by:end -->

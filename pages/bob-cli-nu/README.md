@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/command_chips.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips.md
 
@@ -43,7 +43,7 @@ Typing `run: bob …` in an inline code span, or a `bob-run` fence, gives a quie
 | [bob-cli-nu.4](bob-cli-nu.4.md) | Inline command chips in Live Preview and Reading view | ✓ closed | large | 2026-11-20 | 1 | 0 |
 | [bob-cli-nu.5](bob-cli-nu.5.md) | The bob-run sequence card | ✓ closed | medium | 2026-11-20 | 1 | 1 |
 | [bob-cli-nu.6](bob-cli-nu.6.md) | ⌘↵ runs the command chip at the cursor, with an armed chip and keycap hint | ✓ closed | medium | 2026-11-20 | 1 | 1 |
-| [bob-cli-nu.7](bob-cli-nu.7.md) | Mod+Shift+Y makes and edits command chips | ◐ in_progress | medium | 2026-11-20 | 1 | 0 |
+| [bob-cli-nu.7](bob-cli-nu.7.md) | Mod+Shift+Y makes and edits command chips | ✓ closed | medium | 2026-11-20 | 1 | 1 |
 | [bob-cli-nu.8](bob-cli-nu.8.md) | GTD rows, guide, glossary, and coordination | ◐ in_progress | medium | 2026-11-20 | 1 | 0 |
 
 ## Lineage
@@ -63,7 +63,7 @@ flowchart TD
     n10["bob-cli-nu.4.1.5: Visual previews, isolated Obsidian acceptance, and documentation [closed]"]
     n11["bob-cli-nu.5: The bob-run sequence card [closed]"]
     n12["bob-cli-nu.6: ⌘↵ runs the command chip at the cursor, with an armed chip and keycap hint [closed]"]
-    n13["bob-cli-nu.7: Mod+Shift+Y makes and edits command chips [in_progress]"]
+    n13["bob-cli-nu.7: Mod+Shift+Y makes and edits command chips [closed]"]
     n14["bob-cli-nu.8: GTD rows, guide, glossary, and coordination [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -109,7 +109,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nu.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md) | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md) | [bob-cli-nu.5](bob-cli-nu.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md) | [bob-cli-nu.6](bob-cli-nu.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nu.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md) | [bob-cli-nu.7](bob-cli-nu.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nu.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md) | [bob-cli-nu.7](bob-cli-nu.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.8/README.md) | [bob-cli-nu.8](bob-cli-nu.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.land/README.md) | [bob-cli-nu](README.md) | 0 |
 
@@ -129,6 +129,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@7639a5b`](https://github.com/bobs-org/bob-cli--plans/commit/7639a5b218d9ef71f187e8a71ea92bdffae30fbe) | chore(plans): mark command\_chips\_inline epic plan done after bob-cli-nu.4.1 landing | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 2026-11-20 11:00:55 EST |
 | bob-plugins | [`bob-plugins@59f3783`](https://github.com/bobs-org/bob-plugins/commit/59f3783d047a35484647b46c04940592a30d32d8) | feat(bob-chips): render bob-run fences as sequence cards | [bob-cli-nu.5](bob-cli-nu.5.md) | 2026-11-20 11:43:09 EST |
 | bob-plugins | [`bob-plugins@36dcf7c`](https://github.com/bobs-org/bob-plugins/commit/36dcf7cf4b6ed7c0f11144135646da87f7a65cb5) | feat(bob-chips): ⌘↵ runs the command chip at the cursor, with an armed chip and keycap | [bob-cli-nu.6](bob-cli-nu.6.md) | 2026-11-20 12:20:01 EST |
+| bob-plugins | [`bob-plugins@ee941a1`](https://github.com/bobs-org/bob-plugins/commit/ee941a1cdb26b96d16f47bd7eae18d488d09de21) | feat(bob-chips): Mod+Shift+Y makes and edits command chips | [bob-cli-nu.7](bob-cli-nu.7.md) | 2026-11-20 13:17:08 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -138,8 +139,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.land][1] | Check status for follow-up triage routing | 2 |
 | read-by | [agent:bob-cli-nu.5][2] | Need sibling phase status | 3 |
+| read-by | [agent:bob-cli-nu.6][3] | Check epic notes for keymap-relevant discoveries | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nh.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md
 
 <!-- sase:referenced-by:end -->
