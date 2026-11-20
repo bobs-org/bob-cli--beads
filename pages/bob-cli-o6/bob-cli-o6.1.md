@@ -73,7 +73,7 @@ Adopter notes:
 ## Dependencies
 
 - **Blocks:** [bob-cli-o6.4](bob-cli-o6.4.md) ◐ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-o6.5](bob-cli-o6.5.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-o6.5](bob-cli-o6.5.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

@@ -35,7 +35,7 @@ On desktop Obsidian, every album note, record note, canonical daily note, and we
 | [bob-cli-o6.2](bob-cli-o6.2.md) | Identity kit: species tile, kicker, title row, rail, tokens, and title ownership | ✓ closed | large | 2026-11-20 | 1 | 1 |
 | [bob-cli-o6.3](bob-cli-o6.3.md) | Album \`title:\` key, H1-less album create, and \`bob albums tidy\` | ✓ closed | large | 2026-11-20 | 1 | 1 |
 | [bob-cli-o6.4](bob-cli-o6.4.md) | Album, record, and bank cards adopt the title block | ◐ in_progress | large | 2026-11-20 | 1 | 0 |
-| [bob-cli-o6.5](bob-cli-o6.5.md) | Day and period cards always mount as the title block with a docked rail | ◐ in_progress | large | 2026-11-20 | 1 | 0 |
+| [bob-cli-o6.5](bob-cli-o6.5.md) | Day and period cards always mount as the title block with a docked rail | ✓ closed | large | 2026-11-20 | 1 | 1 |
 | [bob-cli-o6.6](bob-cli-o6.6.md) | Real-Obsidian proof, preview matrix, live album tidy, and final deploy | ◐ in_progress | large | 2026-11-20 | 1 | 0 |
 | [bob-cli-o6.7](bob-cli-o6.7.md) | Glossary updates the reviewer accepted | ◐ in_progress | small | 2026-11-20 | 1 | 0 |
 
@@ -52,7 +52,7 @@ flowchart TD
     n6["bob-cli-o6.4.1.1: Album card becomes the title block and owns the album title from the title slot [in_progress]"]
     n7["bob-cli-o6.4.1.2: Record card wears the RECORD kicker and sheet tile, mounts in the title slot, and migrates its title selectors onto the kit [in_progress]"]
     n8["bob-cli-o6.4.1.3: Bank Setup card and the two card editors show the species tile and word [in_progress]"]
-    n9["bob-cli-o6.5: Day and period cards always mount as the title block with a docked rail [in_progress]"]
+    n9["bob-cli-o6.5: Day and period cards always mount as the title block with a docked rail [closed]"]
     n10["bob-cli-o6.6: Real-Obsidian proof, preview matrix, live album tidy, and final deploy [in_progress]"]
     n11["bob-cli-o6.7: Glossary updates the reviewer accepted [in_progress]"]
     n0 --> n1
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.4.1.2/README.md) | [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.3.md) | [bob-cli-o6.4.1.3](bob-cli-o6.4.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.4.1.land/README.md) | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-o6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.5.md) | [bob-cli-o6.5](bob-cli-o6.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.5.md) | [bob-cli-o6.5](bob-cli-o6.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6/README.md) | [bob-cli-o6.6](bob-cli-o6.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md) | [bob-cli-o6.7](bob-cli-o6.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.land/README.md) | [bob-cli-o6](README.md) | 0 |
@@ -102,3 +102,4 @@ flowchart TD
 | bob-cli | [`bb91c37`](https://github.com/bobs-org/bob-cli/commit/bb91c370bac2c4dac6311ed543c30639f38afa84) | feat(albums): read frontmatter title first and add bob albums tidy | [bob-cli-o6.3](bob-cli-o6.3.md) | 2026-11-20 12:48:36 EST |
 | bob-plugins | [`bob-plugins@c5f5a1b`](https://github.com/bobs-org/bob-plugins/commit/c5f5a1b5faf6a10a456dfa122cb26adb54bb16d9) | feat(ledger-tools): add title-slot mount primitive and real-Obsidian spike | [bob-cli-o6.1](bob-cli-o6.1.md) | 2026-11-20 13:26:11 EST |
 | bob-plugins | [`bob-plugins@f16ddea`](https://github.com/bobs-org/bob-plugins/commit/f16ddeaad40616cad8133fbe6d93348c8b39e955) | feat(ledger-tools): show the species badge on the bank card and card editors | [bob-cli-o6.4.1.3](bob-cli-o6.4.1.3.md) | 2026-11-20 14:34:26 EST |
+| bob-plugins | [`bob-plugins@eed318e`](https://github.com/bobs-org/bob-plugins/commit/eed318e0542a09d99278ff936763ab1666d6d3ee) | feat(ledger-tools): day and period cards own the title block | [bob-cli-o6.5](bob-cli-o6.5.md) | 2026-11-20 14:39:50 EST |
