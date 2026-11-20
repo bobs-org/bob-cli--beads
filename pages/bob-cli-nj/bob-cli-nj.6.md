@@ -20,7 +20,7 @@ capture-log-complete: add an additive `pomodoro_close_log_summary` capture-parse
 ## Dependencies
 
 - **Depends on:** [bob-cli-nj.1](bob-cli-nj.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nj.7](bob-cli-nj.7.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.7](bob-cli-nj.7.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
@@ -40,8 +40,10 @@ capture-log-complete: add an additive `pomodoro_close_log_summary` capture-parse
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-nj.6][1] | Verify the assigned phase state and proposed follow-up before closing | 2 |
+| read-by | [agent:bob-cli-nh.4.1.land][1] | Need causal scope of capture completion failures proposed by child phases | 2 |
+| read-by | [agent:bob-cli-nj.6][2] | Verify the assigned phase state and proposed follow-up before closing | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.6/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nh.4.1.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.6/README.md
 
 <!-- sase:referenced-by:end -->

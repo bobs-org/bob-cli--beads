@@ -14,8 +14,8 @@ recall-memory: write the Log Recall decision record and glossary term through /s
 ## Dependencies
 
 - **Depends on:** [bob-cli-nj.3](bob-cli-nj.3.md) ✓ · ⧖ 2026-11-19
-- **Depends on:** [bob-cli-nj.4](bob-cli-nj.4.md) ◐ · ⧖ 2026-11-19
-- **Depends on:** [bob-cli-nj.7](bob-cli-nj.7.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nj.4](bob-cli-nj.4.md) ✓ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nj.7](bob-cli-nj.7.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

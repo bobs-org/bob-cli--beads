@@ -20,7 +20,7 @@ mac-cancel-recall: in CaptureCore, decode the `bob logs list` JSON and add the r
 ## Dependencies
 
 - **Depends on:** [bob-cli-nj.1](bob-cli-nj.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nj.7](bob-cli-nj.7.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.7](bob-cli-nj.7.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

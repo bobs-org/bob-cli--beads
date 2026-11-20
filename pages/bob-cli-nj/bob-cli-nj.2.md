@@ -23,7 +23,7 @@ recall-core: add a ledger-tools `api.logs` store (stale-while-revalidate plus a 
 
 - **Depends on:** [bob-cli-nj.1](bob-cli-nj.1.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nj.3](bob-cli-nj.3.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nj.4](bob-cli-nj.4.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nj.4](bob-cli-nj.4.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
