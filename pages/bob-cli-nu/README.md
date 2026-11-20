@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-nu
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5k.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5k.linker.w0.md) · **Assignee:** `bob-cli-nu.land`
-**Created:** 2026-11-20 05:59:33 EST
+**Created:** 2026-11-20 05:59:33 EST · **Closed:** 2026-11-20 14:33:28 EST
 **Plan:** [202611/command\_chips.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips.md)
 
 <!-- sase:links:start -->
@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/command_chips.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-od][2] | The command chips epic added the author preview that borrows the palette missing the copy-well variables |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-od/README.md
@@ -52,6 +52,8 @@ Typing `run: bob …` in an inline code span, or a `bob-run` fence, gives a quie
 - Stale vimrc "Mod+Shift+Y makes or edits a copy chip" comment (nu.8 #4): epic-caused and fixed by this lander (vault 46c02b4db: "...a copy or command chip in any mode.").
 - athena plugins.sync still listing bob-copy-chips (epic #1, #2; nu.1 #4): resolved. athena's ~/.config/bob/config.yml now lists bob-chips.
 
+[2026-11-20T19:33:28Z · bob-cli-nu.land] LANDED. (1) Land verification (epic note #4): all 8 phases verified against the shipped code (bob-plugins bf13f43..ee941a1; bob-chips 0.14.0, bob-command-mode 0.4.0, bob-navigation-hotkeys 2.92.0, bob-ledger-tools 1.143.0+; chip unit suites 310/310). Every follow-up was triaged: bob-cli-o7, o8, o9, ob filed (plus oa), and km/io/fz got +1s. (2) Vault vimrc fix 46c02b4db (Mod+Shift+Y makes or edits copy and command chips). (3) Land tale, bob-plugins 3a116b4 (rebased onto 9b3c339's copy-well 0.15.0), deployed as bob-chips 0.15.1. commandChipAt now honors multi-line %%, HTML-comment, and $$ blocks through chipBlockShieldState. Hidden cursor-line run chips never count, arm, or go ambiguous. A bob-run fence whose opening line starts inside a block is none. The run-kind task-scope scan skips hidden chips and fences. copyChipAt and the copy vectors stay byte-stable (C11 sha pin unchanged). Added 12 chip_at vectors: the 5 plan-table rows, a chip below a closed comment, an unclosed %%, a bob-run fence in %% (cursor and task scope), %% in a code span and in a fence, and a visible task chip beside a commented one. Also a chipBlockShieldState unit test and a keymap targetAt/hint case; the new tests fail on the pre-fix code. The e2e now asserts the Live Preview bob-copy card press copies 'card body', clearing covering toasts like clickFence. Gates: focused suites 324/324 on the merged tree. Full npm test 7893/7900 pre-rebase; only the known ledger-tools 25 ms perf flakes failed (bob-cli-km/io), and they pass alone (40/40). test:perf 11/11; validate 12/12. docs:check fails only at the known bob-cli-o6 lint (vault-format.md 6016/6000); bob-docs build, offline links with fragments (0 errors), and urls (244 pages) pass. Real Obsidian on athena (xvfb, scratch vault, stub bob) at 3a116b4: command-chips e2e 32/32, including livePreviewCardCopy 'card body'. Keymap e2e 14/14, including the new commented-task case: no keycap, the chain runs, 0 stub invocations. Deployed with bob plugins sync (no -F): bob-chips 0.15.1 synced and enabled on apollo. athena keeps bob-chips 0.10.0 until its next sync.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -69,7 +71,7 @@ Typing `run: bob …` in an inline code span, or a `bob-run` fence, gives a quie
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-nu: Command chips: one-gesture bob runs from Obsidian notes [in_progress]"]
+    n0["bob-cli-nu: Command chips: one-gesture bob runs from Obsidian notes [closed]"]
     n1["bob-cli-nu.1: Rename bob-copy-chips to bob-chips with no behavior change [closed]"]
     n2["bob-cli-nu.2: Command Mode chip engine (resolve, runText, openText, provenance) [closed]"]
     n3["bob-cli-nu.3: run:/bob-run grammar, command-chip cursor rule, and vectors [closed]"]
@@ -130,7 +132,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nu.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md) | [bob-cli-nu.6](bob-cli-nu.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md) | [bob-cli-nu.7](bob-cli-nu.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.8/README.md) | [bob-cli-nu.8](bob-cli-nu.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nu.land.md) | [bob-cli-nu](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-nu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nu.land.md) | [bob-cli-nu](README.md) | 2 |
 
 ## Commits
 
@@ -152,6 +154,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ee941a1`](https://github.com/bobs-org/bob-plugins/commit/ee941a1cdb26b96d16f47bd7eae18d488d09de21) | feat(bob-chips): Mod+Shift+Y makes and edits command chips | [bob-cli-nu.7](bob-cli-nu.7.md) | 2026-11-20 13:17:08 EST |
 | bob-cli | [`2443e0a`](https://github.com/bobs-org/bob-cli/commit/2443e0a4e1580f1ce956ef8a576caa1ba2d8ac66) | docs(chips): add the command-chip guide section and glossary term | [bob-cli-nu.8](bob-cli-nu.8.md) | 2026-11-20 13:36:33 EST |
 | bob-plugins | [`bob-plugins@3a116b4`](https://github.com/bobs-org/bob-plugins/commit/3a116b4355bc27a953390c0638bb95655b62e9fe) | fix(bob-chips): ⌘↵ never runs a chip hidden in a multi-line comment or math block | [bob-cli-nu](README.md) | 2026-11-20 14:29:14 EST |
+| bob-cli--plans | [`bob-cli--plans@74ee2aa`](https://github.com/bobs-org/bob-cli--plans/commit/74ee2aa268d5cc28ef4490b48ab8b9c6787510d1) | docs(plans): mark the command chips epic plan done | [bob-cli-nu](README.md) | 2026-11-20 14:35:38 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -164,11 +167,13 @@ flowchart TD
 | read-by | [agent:bob-cli-nu.6][3] | Check epic notes for keymap-relevant discoveries | 1 |
 | read-by | [agent:bob-cli-nu.7][4] | Need epic context and sibling phases | 1 |
 | read-by | [agent:bob-cli-nu.8][5] | Need parent epic notes and context | 2 |
+| read-by | [agent:fa--code][6] | Decide whether the command-chip preview palette gap belongs on the command chips epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nh.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.8/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.fa.md
 
 <!-- sase:referenced-by:end -->
