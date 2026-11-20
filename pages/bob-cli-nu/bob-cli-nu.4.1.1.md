@@ -23,7 +23,7 @@ engine-contract: complete additive resolver metadata, signature lookup, per-run 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -36,3 +36,15 @@ engine-contract: complete additive resolver metadata, signature lookup, per-run 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@52b7c31`](https://github.com/bobs-org/bob-plugins/commit/52b7c31486f3594cc0fe663e7ad0487e4d82c10d) | feat(bob-command-mode): complete the command-chip engine contract | [bob-cli-nu.4.1.1](bob-cli-nu.4.1.1.md) | 2026-11-20 08:16:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nu.4.1.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

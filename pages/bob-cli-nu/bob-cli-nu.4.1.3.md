@@ -13,7 +13,7 @@ live: add the production inline DOM face and state styling, extend the existing 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
