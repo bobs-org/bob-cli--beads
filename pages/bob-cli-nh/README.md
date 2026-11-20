@@ -58,7 +58,7 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 | [bob-cli-nh.5](bob-cli-nh.5.md) | Migration step and scaffolds without the old sections | ✓ closed | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nh.6](bob-cli-nh.6.md) | Property-card kit extracted from the album, record, and bank cards | ✓ closed | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.7](bob-cli-nh.7.md) | Intention card, card editor, commands, and deploy | ✓ closed | large | 2026-11-19 | 1 | 0 |
-| [bob-cli-nh.8](bob-cli-nh.8.md) | Adopt in the vault and chezmoi | ✓ closed | medium | 2026-11-19 | 1 | 1 |
+| [bob-cli-nh.8](bob-cli-nh.8.md) | Adopt in the vault and chezmoi | ✓ closed | medium | 2026-11-19 | 1 | 2 |
 | [bob-cli-nh.9](bob-cli-nh.9.md) | Glossary terms and decision records | ✓ closed | small | 2026-11-19 | 1 | 1 |
 
 ## Lineage
@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 1 |
+| [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 2 |
 | [bbugyi200.athena.bob-cli-nh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.9/README.md) | [bob-cli-nh.9](bob-cli-nh.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.land/README.md) | [bob-cli-nh](README.md) | 0 |
 
@@ -182,6 +182,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@7af61f1`](https://github.com/bobs-org/bob-cli--plans/commit/7af61f19c464221863830232533af21be976bec7) | chore(plans): mark intention\_card epic plan done | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2026-11-20 09:38:20 EST |
 | bob-cli | [`b700701`](https://github.com/bobs-org/bob-cli/commit/b70070114fa5861c8552dd5fc3285da265e8fe52) | docs(memory): add intention and property-card glossary family | [bob-cli-nh.9](bob-cli-nh.9.md) | 2026-11-20 09:45:44 EST |
 | bob-cli | [`46bb654`](https://github.com/bobs-org/bob-cli/commit/46bb654a8eb9cf30c358a4ea4ed8031c18751d9e) | fix(periods): remove empty legacy slots during intentions migrate | [bob-cli-nh.8](bob-cli-nh.8.md) | 2026-11-20 10:36:33 EST |
+| chezmoi | [`chezmoi@c148159`](https://github.com/bbugyi200/dotfiles/commit/c148159412ef495902a7b95dc786473f040ed7c4) | chore(bob): walk the intentions POST stage after periods | [bob-cli-nh.8](bob-cli-nh.8.md) | 2026-11-20 10:37:38 EST |
 
 <!-- sase:referenced-by:start -->
 
