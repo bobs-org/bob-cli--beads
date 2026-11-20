@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/period_intentions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 14 automatic references — see [Referenced By](#referenced-by)._
+_Plus 16 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/period_intentions.md
 
@@ -47,6 +47,18 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 
 [2026-11-20T14:24:25Z · bob-cli-nh.7.1.land] DISCOVERED ISSUE (bob-cli-nh.7.1.land, 2026-11-20): `just check` fails on the unmodified bob-cli tree at e5f51081 (= origin/master; this landing changed no bob-cli files): 12148 passed, 3 failed, all in -p bob-obsidian --lib and all introduced with nh.2's `bob periods update` (a0b91a8d). Reproduced deterministically with a filtered cargo test rerun. (1) native::catalog::tests::public_leaves_are_entries_or_excluded: 'public leaf ["periods", "update"] is neither an entry nor excluded'. (2) native::completion::kinds::tests::every_value_arg_has_a_decision: 'value-taking args without a kinds decision: ["periods update:input", "periods update:subject"]'. (3) native::periods::update::tests::planning_applies_ordered_intention_ops_and_reports_bad_indexes expects [two, two again, one] but insert(1,middle), move(2->0), replace(1) on [one, two] correctly yields [two, two again, middle]; the test expectation is wrong, not the planner (the plugin's writer simulator and real bob agree). Owner: nh.2's periods-update contract work; fix the catalog entry/exclusion, completion kinds decisions, and the test expectation. Log: /tmp/bob-cli-just-check.log on athena.
 
+[2026-11-20T15:59:23Z · bob-cli-nh.land] LAND AUDIT + FOLLOW-UP TRIAGE (bob-cli-nh.land, 2026-11-20). Read the epic, all 9 phases, nested child epics nh.4.1/nh.6.1/nh.7.1 and all their notes, plan:202611/period_intentions.md, and the epic commits (e7aa392d, a0b91a8d, a29a64f6, 749efc28, ea538f78, 992fd33d, 8bbb3041, eaa52d06, f811397d, b7007011, 46bb654a). DECISIONS honored: sixty-word day summary cap; only the authorized glossary strands written; decision records untouched.
+
+VERIFIED: open gtd_daily.md Summarize yesterday row carries ``copy[summary prompt]: ...`` with the plan's payload (epic note #1 satisfied; bob-chips now deployed on athena, stamp 2026-11-20T15:37:33Z). Live vault: `bob periods list -p` has 0 legacy_period_text/dangling_period_link (only pre-existing 2024/2025 unscaffolded); `periods show yesterday` reads frontmatter intentions; template Headline gone; types.json, day.md, vault AGENTS.md pointers and chezmoi post_stages [periods, intentions] present; old #post #headline row closed.
+
+REMAINING EPIC WORK (tale): (1) the three nh.2 failures still reproduce on 46bb654a (filtered cargo test): catalog has no periods update entry/exclusion, completion kinds lack periods update:input/subject, planning test expects [two, two again, one] but the planner correctly yields [two, two again, middle] (epic notes #2/#3/#5). (2) docs/periods.md lacks the malformed-frontmatter empty-op dry-read contract (epic note #4). (3) nh.8 #8 is epic-caused text loss: legacy::sections() drops fenced lines from section bodies, while migrate removes Reflection/legacy sections whole and rewrites the Review body from the fence-stripped text.
+
+LANDER INTEGRATION EDITS: regenerated docs/reference/glossary.md (stale since nh.9's b7007011 memory commit); removed the three --epic-symbol entries (Patch, apply, read_existing are all used by periods update/report/note/migrate). Non-epic commits since start (bank 5b547f13/c94a718d/3acbc1a3, log recall 382963db/ddf28f64/d15432aa, chips e5f51081/2a5bc1f8/f0e59e82, install ab341446, glossary d84956cc) touch no intention surface and need no further integration.
+
+FOLLOW-UP OUTCOMES: nh.8 #2 -> new bob-cli-ny (feature, large; snoozed to 2026-11-27 for a release soak). nh.8 #3 -> new bob-cli-nz (feature, large). nh.8 #4 -> new bob-cli-o0 (feature, large; related bob-cli-66). nh.8 #5 -> new bob-cli-o1. nh.8 #6 -> new bob-cli-o2. nh.8 #7 -> new bob-cli-o3 (medium). nh.8 #10 -> new bob-cli-o4 (bug, small; sample_diff predates the epic, 5a1ccf59). nh.8 #8 -> remaining epic work (tale), no task. nh.8 #9 declined: the four 2027 notes were Mac-created on 2026-11-10 before the epic, nh.8 migrated them, and new scaffolds (eaa52d06) emit no legacy slots, so no live or recurring instance. nh.8 #11: (1) epic work above; (2) +1 bob-cli-gz; (3) +1 bob-cli-nv. nh.8 #12 declined: resolved, bob-chips deployed on athena 15:37Z. nh.2 #1 declined: re-key landed, entries now removed. nh.2 #2 / nh.3 #1 / nh.5 #3 Mac word budgets declined: jz/h9 closed and nh.8's docs-check showed only the nv URL failure. nh.5 #1/#2 capture failures declined: owned by nj (closed) and absent from nh.7.1.land's e5f51081 just check (only the 3 nh.2 failures). nh.9's missing decision-record follow-up declined: the reviewer chose memory_decision_records=no. Child-epic dispositions (np/nq/nr/ns/nw/nx, m1/m6/m7/km/io/n0, ms.8, no) were recorded by their landers and stand.
+
+[2026-11-20T16:01:02Z · bob-cli-nh.land] Remaining-work tale sase_plan_period_intentions_landing.md (size small) validated with zero warnings: fixes the three nh.2 failures (catalog exclusion for periods update, completion kinds for periods update:subject/input, corrected planning expectation), documents the malformed-frontmatter empty-op dry-read contract in docs/periods.md, fixes fenced-line loss in legacy::sections()/replace_review_body with regression tests, runs just fmt/docs-gen/check/docs-check, then closes bob-cli-nh, checks symvision availability, and marks period_intentions.md done in the same coding turn. No just check or docs-check pass is claimed by this lander.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -58,7 +70,7 @@ Lander: before closing the epic, confirm that the open Summarize yesterday row i
 | [bob-cli-nh.5](bob-cli-nh.5.md) | Migration step and scaffolds without the old sections | ✓ closed | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nh.6](bob-cli-nh.6.md) | Property-card kit extracted from the album, record, and bank cards | ✓ closed | large | 2026-11-19 | 1 | 0 |
 | [bob-cli-nh.7](bob-cli-nh.7.md) | Intention card, card editor, commands, and deploy | ✓ closed | large | 2026-11-19 | 1 | 0 |
-| [bob-cli-nh.8](bob-cli-nh.8.md) | Adopt in the vault and chezmoi | ✓ closed | medium | 2026-11-19 | 1 | 2 |
+| [bob-cli-nh.8](bob-cli-nh.8.md) | Adopt in the vault and chezmoi | ✓ closed | medium | 2026-11-19 | 1 | 1 |
 | [bob-cli-nh.9](bob-cli-nh.9.md) | Glossary terms and decision records | ✓ closed | small | 2026-11-19 | 1 | 1 |
 
 ## Lineage
@@ -159,9 +171,9 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.3/README.md) | [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.4/README.md) | [bob-cli-nh.7.1.4](bob-cli-nh.7.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 2 |
+| [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.9/README.md) | [bob-cli-nh.9](bob-cli-nh.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.land/README.md) | [bob-cli-nh](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.land/README.md) | [bob-cli-nh](README.md) | 1 |
 
 ## Commits
 
@@ -182,7 +194,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@7af61f1`](https://github.com/bobs-org/bob-cli--plans/commit/7af61f19c464221863830232533af21be976bec7) | chore(plans): mark intention\_card epic plan done | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2026-11-20 09:38:20 EST |
 | bob-cli | [`b700701`](https://github.com/bobs-org/bob-cli/commit/b70070114fa5861c8552dd5fc3285da265e8fe52) | docs(memory): add intention and property-card glossary family | [bob-cli-nh.9](bob-cli-nh.9.md) | 2026-11-20 09:45:44 EST |
 | bob-cli | [`46bb654`](https://github.com/bobs-org/bob-cli/commit/46bb654a8eb9cf30c358a4ea4ed8031c18751d9e) | fix(periods): remove empty legacy slots during intentions migrate | [bob-cli-nh.8](bob-cli-nh.8.md) | 2026-11-20 10:36:33 EST |
-| chezmoi | [`chezmoi@c148159`](https://github.com/bbugyi200/dotfiles/commit/c148159412ef495902a7b95dc786473f040ed7c4) | chore(bob): walk the intentions POST stage after periods | [bob-cli-nh.8](bob-cli-nh.8.md) | 2026-11-20 10:37:38 EST |
+| bob-cli | [`c91fbee`](https://github.com/bobs-org/bob-cli/commit/c91fbee63e3d9e838fbf9f4dec4c0f52b9797d66) | chore(intentions): retire epic symbols and regenerate glossary reference | [bob-cli-nh](README.md) | 2026-11-20 11:01:55 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -190,33 +202,37 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-nh.4.1.land][1] | Need the active parent epic scope before attaching sibling update failures | 1 |
-| read-by | [agent:bob-cli-nh.4.1.land--1][1] | Verify the containing epic remains untouched and open after phase closeout | 1 |
-| read-by | [agent:bob-cli-ni.6][2] | Need COPY CHIP coordination for Summarize yesterday GTD row | 1 |
-| read-by | [agent:research.5i.cdx][3] | Research the daily and note property-card context requested by Bryan | 1 |
-| read-by | [agent:research.5i.cld][4] | Context for property card unification research | 1 |
-| read-by | [agent:research.5i.final][5] | Confirm property-card kit and intention-card phase status for consolidated property-card identity research | 1 |
-| read-by | [agent:research.5i.gem][6] | Context on property cards / schema card epic requested by user | 2 |
-| read-by | [agent:research.5i.grk][7] | Need property-card kit epic context for unifying schema-card appearance | 1 |
-| read-by | [agent:research.5i.mus][8] | Need epic context for property-card unification research | 1 |
-| read-by | [agent:research.5l.cdx][9] | Understand the property-card epic constraints for proposed group navigation | 1 |
-| read-by | [agent:research.5l.cld][10] | Context on property cards (nh epic) to design how <</>> group links render at the bottom of property cards | 1 |
-| read-by | [agent:research.5l.gem][11] | Inspect bob-cli-nh epic bead for property card context | 1 |
-| read-by | [agent:research.5l.grk][12] | Need epic context for property cards, walker footer, and [N/]N keymap design | 1 |
-| read-by | [agent:research.5l.mus][13] | Need nh epic context for [N/]N property card bottom links design | 1 |
+| read-by | [agent:1el--code][1] | Check whether the epic already records the periods update lib test failures | 1 |
+| read-by | [agent:bob-cli-nh.4.1.land][2] | Need the active parent epic scope before attaching sibling update failures | 1 |
+| read-by | [agent:bob-cli-nh.4.1.land--1][2] | Verify the containing epic remains untouched and open after phase closeout | 1 |
+| read-by | [agent:bob-cli-nh.8][3] | Need the COPY CHIP note and epic context for phase 8 | 1 |
+| read-by | [agent:bob-cli-ni.6][4] | Need COPY CHIP coordination for Summarize yesterday GTD row | 1 |
+| read-by | [agent:research.5i.cdx][5] | Research the daily and note property-card context requested by Bryan | 1 |
+| read-by | [agent:research.5i.cld][6] | Context for property card unification research | 1 |
+| read-by | [agent:research.5i.final][7] | Confirm property-card kit and intention-card phase status for consolidated property-card identity research | 1 |
+| read-by | [agent:research.5i.gem][8] | Context on property cards / schema card epic requested by user | 2 |
+| read-by | [agent:research.5i.grk][9] | Need property-card kit epic context for unifying schema-card appearance | 1 |
+| read-by | [agent:research.5i.mus][10] | Need epic context for property-card unification research | 1 |
+| read-by | [agent:research.5l.cdx][11] | Understand the property-card epic constraints for proposed group navigation | 1 |
+| read-by | [agent:research.5l.cld][12] | Context on property cards (nh epic) to design how <</>> group links render at the bottom of property cards | 1 |
+| read-by | [agent:research.5l.gem][13] | Inspect bob-cli-nh epic bead for property card context | 1 |
+| read-by | [agent:research.5l.grk][14] | Need epic context for property cards, walker footer, and [N/]N keymap design | 1 |
+| read-by | [agent:research.5l.mus][15] | Need nh epic context for [N/]N property card bottom links design | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ni.6/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cdx/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.final/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.grk/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cdx/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cld/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.gem/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.grk/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1el.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ni.6/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cdx/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.final/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.grk/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cdx/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cld/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.gem/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.grk/README.md
+[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.mus/README.md
 
 <!-- sase:referenced-by:end -->

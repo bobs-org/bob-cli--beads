@@ -49,14 +49,13 @@ adopt: install the new bob, then dry-run and apply `bob periods migrate` on the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 2 |
+| [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`46bb654`](https://github.com/bobs-org/bob-cli/commit/46bb654a8eb9cf30c358a4ea4ed8031c18751d9e) | fix(periods): remove empty legacy slots during intentions migrate | [bob-cli-nh.8](bob-cli-nh.8.md) | 2026-11-20 10:36:33 EST |
-| chezmoi | [`chezmoi@c148159`](https://github.com/bbugyi200/dotfiles/commit/c148159412ef495902a7b95dc786473f040ed7c4) | chore(bob): walk the intentions POST stage after periods | [bob-cli-nh.8](bob-cli-nh.8.md) | 2026-11-20 10:37:38 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -64,8 +63,10 @@ adopt: install the new bob, then dry-run and apply `bob periods migrate` on the 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5i.gem][1] | Check vault and chezmoi adoption phase for daily/period templates | 1 |
+| read-by | [agent:bob-cli-nh.8][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.5i.gem][2] | Check vault and chezmoi adoption phase for daily/period templates | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
 
 <!-- sase:referenced-by:end -->
