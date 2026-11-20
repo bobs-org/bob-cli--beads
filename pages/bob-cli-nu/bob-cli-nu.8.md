@@ -39,3 +39,15 @@ adopt: convert the open gtd_daily.md rows that hold bob commands (the Bank row o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2443e0a`](https://github.com/bobs-org/bob-cli/commit/2443e0a4e1580f1ce956ef8a576caa1ba2d8ac66) | docs(chips): add the command-chip guide section and glossary term | [bob-cli-nu.8](bob-cli-nu.8.md) | 2026-11-20 13:36:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nu.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.8/README.md
+
+<!-- sase:referenced-by:end -->

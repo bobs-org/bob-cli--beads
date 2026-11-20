@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/command_chips.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-od][2] | The command chips epic added the author preview that borrows the palette missing the copy-well variables |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-od/README.md
 
 <!-- sase:links:end -->
 
@@ -33,11 +35,28 @@ Typing `run: bob …` in an inline code span, or a `bob-run` fence, gives a quie
 
 [2026-11-20T15:58:26Z · bob-cli-nu.4.1.land] DISCOVERED ISSUE: docs word budget. bob-plugins docs/develop/plugin-apis.md is at 7,980 words (wc) against the 8,000-word develop/ warning cap after bob-cli-nu.4.1 added the Command-chip members, runtime, face, and Reading contracts (proposed by bob-cli-nu.4.1.2 #3, .3 #3, .4 #3). docs:check still passes. The keymap phase (bob-cli-nu.6, parent plan step 'Docs ... plugin-apis.md') and possibly fence (bob-cli-nu.5) add contracts there and will cross the cap. Moving the '### Command-chip members' (Bob Command Mode) and '### Command chips' / '### Command-chip runtime (internal)' (Bob Chips) sections to their own develop page is an information-architecture move: per docs memory it needs an approved plan and preserved published URLs (develop/plugins/plugin-apis/ is in bob-cli docs/_meta/url_contract.txt; anchors like #command-chip-members are cited from bob-command-mode.md). The nu.4.1 land agent left this to the phase that needs the headroom rather than moving pages unplanned.
 
+[2026-11-20T18:58:14Z · bob-cli-nu.land] LAND TRIAGE (bob-cli-nu land agent, 2026-11-20). Every PROPOSED FOLLOW-UP and DISCOVERED ISSUE from nu.1-nu.8 and the epic notes (nu.4.1 was already triaged by its own lander):
+- Retire the dual-listed bob-copy-chips id (nu.1 #1): created bob-cli-o9 (feature, small). The chezmoi allowlist (b19c116c) is applied on apollo, athena, and the Mac, and bob-chips is deployed on all three (apollo 0.14.0, Mac 0.14.0, athena 0.10.0 until its next sync).
+- Ledger-tools 25 ms perf flakes (nu.1 #2, nu.2 #2, nu.3 #3, nu.5, nu.6, nu.7 #2): +1 on bob-cli-km and bob-cli-io. The orphaned headless Chromium from test-task-link-marks-motion (nu.7 #2): +1 on bob-cli-fz.
+- docs-check URL architecture.md:74 (nu.1 #3, nu.2 #1, nu.3 #3): declined, already reported on bob-cli-nv (+4), and nu.4.1.land recorded that 3956368 fixed the gate.
+- copyChipSerialize indented-closer bug (nu.3 #1, pre-existing copy-chip code kept byte-stable by C11): created bob-cli-o8 (bug, small).
+- commandChipAt ignores multi-line %% / <!-- --> / $$ blocks (nu.3 #2): EPIC WORK, not a task. Reproduced on master ee941a1: a run chip inside a multi-line comment resolves ready via cursor, and a task whose only run chip is commented out resolves ready via task. Planned as this landing's tale.
+- e2e Live Preview copy-card press is diagnostic only (nu.5 #1): EPIC WORK (the epic's own e2e), folded into the same tale.
+- Docs word budgets (epic #3, nu.5 #2, nu.6 #6, nu.7 #3): plugin-apis.md is 7,832/8,000 lint words and bob-navigation-hotkeys.md is 5,995/6,000, both under cap. Created bob-cli-ob (feature, medium) for the IA move, which needs its own approved plan.
+- Nested-bullet chips never render in Live Preview (nu.6 #3, pre-existing from bob-cli-ni): created bob-cli-o7 (bug, small).
+- copy-chips e2e api.copyChips v1 assertion (nu.6 #4): declined, fixed in ee941a1 (scripts/obsidian-copy-chips-e2e.cjs:528 now asserts v2).
+- bob-chips 0.13.0 undeployed (nu.6 #5): declined, resolved. bob plugins list on apollo shows bob-chips 0.14.0 and bob-command-mode 0.4.0 synced and enabled, and the Mac has 0.14.0.
+- Bank row gate (nu.8 #1): declined, done by Bryan. He converted the open row on the Mac (vault 030a6aa5c) to `run: bob bank import -D ~/Downloads/*.qfx`, and the Mac's bob lists -D, --delete. In 64ab85a39 he also dropped the #sync label, so the row is now `run: bob gcal sync -n 2 && bob gkeep pull && bob gmail sync`. User edits win.
+- Catalog TTY metadata (nu.8 #2): created bob-cli-oa (feature, large; a bob CLI catalog change is out of the epic's scope).
+- vault-format.md 6016/6000 docs-check failure (nu.8 #3): DISCOVERED ISSUE note on active epic bob-cli-o6, caused by bb91c370 (bob-cli-o6.3).
+- Stale vimrc "Mod+Shift+Y makes or edits a copy chip" comment (nu.8 #4): epic-caused and fixed by this lander (vault 46c02b4db: "...a copy or command chip in any mode.").
+- athena plugins.sync still listing bob-copy-chips (epic #1, #2; nu.1 #4): resolved. athena's ~/.config/bob/config.yml now lists bob-chips.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-nu.1](bob-cli-nu.1.md) | Rename bob-copy-chips to bob-chips with no behavior change | ✓ closed | medium | 2026-11-20 | 1 | 2 |
+| [bob-cli-nu.1](bob-cli-nu.1.md) | Rename bob-copy-chips to bob-chips with no behavior change | ✓ closed | medium | 2026-11-20 | 1 | 3 |
 | [bob-cli-nu.2](bob-cli-nu.2.md) | Command Mode chip engine (resolve, runText, openText, provenance) | ✓ closed | medium | 2026-11-20 | 1 | 1 |
 | [bob-cli-nu.3](bob-cli-nu.3.md) | run:/bob-run grammar, command-chip cursor rule, and vectors | ✓ closed | medium | 2026-11-20 | 1 | 1 |
 | [bob-cli-nu.4](bob-cli-nu.4.md) | Inline command chips in Live Preview and Reading view | ✓ closed | large | 2026-11-20 | 1 | 0 |
@@ -97,7 +116,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-nu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.1/README.md) | [bob-cli-nu.1](bob-cli-nu.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-nu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.1/README.md) | [bob-cli-nu.1](bob-cli-nu.1.md) | 3 |
 | [bbugyi200.apollo.bob-cli-nu.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nu.2.md) | [bob-cli-nu.2](bob-cli-nu.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.3/README.md) | [bob-cli-nu.3](bob-cli-nu.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nu.4.md) | [bob-cli-nu.4](bob-cli-nu.4.md) | 0 |
@@ -111,7 +130,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nu.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md) | [bob-cli-nu.6](bob-cli-nu.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md) | [bob-cli-nu.7](bob-cli-nu.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.8/README.md) | [bob-cli-nu.8](bob-cli-nu.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.land/README.md) | [bob-cli-nu](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nu.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nu.land.md) | [bob-cli-nu](README.md) | 1 |
 
 ## Commits
 
@@ -119,6 +138,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`e5f5108`](https://github.com/bobs-org/bob-cli/commit/e5f510818a9dae38d4a9a64d418c826840f17d06) | feat(chips): add bob-chips docs redirect | [bob-cli-nu.1](bob-cli-nu.1.md) | 2026-11-20 06:48:00 EST |
 | bob-plugins | [`bob-plugins@bf13f43`](https://github.com/bobs-org/bob-plugins/commit/bf13f430fade45369de709523c321b72d3761ce3) | feat(plugins): rename bob-copy-chips to bob-chips | [bob-cli-nu.1](bob-cli-nu.1.md) | 2026-11-20 06:50:46 EST |
+| chezmoi | [`chezmoi@b19c116`](https://github.com/bbugyi200/dotfiles/commit/b19c116c2c6a89bf7b65ea6963d8167791186915) | chore(config): switch plugin allowlist to bob-chips | [bob-cli-nu.1](bob-cli-nu.1.md) | 2026-11-20 06:51:37 EST |
 | bob-plugins | [`bob-plugins@591998e`](https://github.com/bobs-org/bob-plugins/commit/591998e36b0f41e61c3871d24a48478b541e52b5) | feat(bob-command-mode): add chip execution engine and provenance | [bob-cli-nu.2](bob-cli-nu.2.md) | 2026-11-20 07:12:03 EST |
 | bob-plugins | [`bob-plugins@c8da83f`](https://github.com/bobs-org/bob-plugins/commit/c8da83fda53b966c1b6e2eb6127efc3da9658bb2) | feat(bob-chips): add run:/bob-run grammar and command-chip cursor rule | [bob-cli-nu.3](bob-cli-nu.3.md) | 2026-11-20 07:26:44 EST |
 | bob-plugins | [`bob-plugins@52b7c31`](https://github.com/bobs-org/bob-plugins/commit/52b7c31486f3594cc0fe663e7ad0487e4d82c10d) | feat(bob-command-mode): complete the command-chip engine contract | [bob-cli-nu.4.1.1](bob-cli-nu.4.1.1.md) | 2026-11-20 08:16:21 EST |
@@ -131,6 +151,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@36dcf7c`](https://github.com/bobs-org/bob-plugins/commit/36dcf7cf4b6ed7c0f11144135646da87f7a65cb5) | feat(bob-chips): ⌘↵ runs the command chip at the cursor, with an armed chip and keycap | [bob-cli-nu.6](bob-cli-nu.6.md) | 2026-11-20 12:20:01 EST |
 | bob-plugins | [`bob-plugins@ee941a1`](https://github.com/bobs-org/bob-plugins/commit/ee941a1cdb26b96d16f47bd7eae18d488d09de21) | feat(bob-chips): Mod+Shift+Y makes and edits command chips | [bob-cli-nu.7](bob-cli-nu.7.md) | 2026-11-20 13:17:08 EST |
 | bob-cli | [`2443e0a`](https://github.com/bobs-org/bob-cli/commit/2443e0a4e1580f1ce956ef8a576caa1ba2d8ac66) | docs(chips): add the command-chip guide section and glossary term | [bob-cli-nu.8](bob-cli-nu.8.md) | 2026-11-20 13:36:33 EST |
+| bob-plugins | [`bob-plugins@3a116b4`](https://github.com/bobs-org/bob-plugins/commit/3a116b4355bc27a953390c0638bb95655b62e9fe) | fix(bob-chips): ⌘↵ never runs a chip hidden in a multi-line comment or math block | [bob-cli-nu](README.md) | 2026-11-20 14:29:14 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -142,10 +163,12 @@ flowchart TD
 | read-by | [agent:bob-cli-nu.5][2] | Need sibling phase status | 3 |
 | read-by | [agent:bob-cli-nu.6][3] | Check epic notes for keymap-relevant discoveries | 1 |
 | read-by | [agent:bob-cli-nu.7][4] | Need epic context and sibling phases | 1 |
+| read-by | [agent:bob-cli-nu.8][5] | Need parent epic notes and context | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nh.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.8/README.md
 
 <!-- sase:referenced-by:end -->

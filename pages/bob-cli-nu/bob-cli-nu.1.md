@@ -45,7 +45,7 @@ rename: move the copy-chip plugin to the id bob-chips. The phase includes a dual
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-nu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.1/README.md) | [bob-cli-nu.1](bob-cli-nu.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-nu.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.1/README.md) | [bob-cli-nu.1](bob-cli-nu.1.md) | 3 |
 
 ## Commits
 
@@ -53,6 +53,7 @@ rename: move the copy-chip plugin to the id bob-chips. The phase includes a dual
 |---|---|---|---|---|
 | bob-cli | [`e5f5108`](https://github.com/bobs-org/bob-cli/commit/e5f510818a9dae38d4a9a64d418c826840f17d06) | feat(chips): add bob-chips docs redirect | [bob-cli-nu.1](bob-cli-nu.1.md) | 2026-11-20 06:48:00 EST |
 | bob-plugins | [`bob-plugins@bf13f43`](https://github.com/bobs-org/bob-plugins/commit/bf13f430fade45369de709523c321b72d3761ce3) | feat(plugins): rename bob-copy-chips to bob-chips | [bob-cli-nu.1](bob-cli-nu.1.md) | 2026-11-20 06:50:46 EST |
+| chezmoi | [`chezmoi@b19c116`](https://github.com/bbugyi200/dotfiles/commit/b19c116c2c6a89bf7b65ea6963d8167791186915) | chore(config): switch plugin allowlist to bob-chips | [bob-cli-nu.1](bob-cli-nu.1.md) | 2026-11-20 06:51:37 EST |
 
 <!-- sase:referenced-by:start -->
 
