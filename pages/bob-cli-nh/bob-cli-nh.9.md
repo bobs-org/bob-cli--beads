@@ -31,3 +31,15 @@ vocabulary: apply the accepted memory decisions. Add glossary strands for Intent
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b700701`](https://github.com/bobs-org/bob-cli/commit/b70070114fa5861c8552dd5fc3285da265e8fe52) | docs(memory): add intention and property-card glossary family | [bob-cli-nh.9](bob-cli-nh.9.md) | 2026-11-20 09:45:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nh.9][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.9/README.md
+
+<!-- sase:referenced-by:end -->

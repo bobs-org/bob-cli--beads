@@ -20,7 +20,7 @@ Final just check ToolRun c8bdb3af80ca97a7d2d15e333be09751 exited 101 after forma
 ## Dependencies
 
 - **Depends on:** [bob-cli-nh.1](bob-cli-nh.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [bob-cli-nh.8](bob-cli-nh.8.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [bob-cli-nh.8](bob-cli-nh.8.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
