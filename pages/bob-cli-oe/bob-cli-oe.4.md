@@ -13,7 +13,7 @@ cycler-jump-close: offer the pin only when the caller can honor it; keep `jump` 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oe.3](bob-cli-oe.3.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-oe.3](bob-cli-oe.3.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-oe.5](bob-cli-oe.5.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
