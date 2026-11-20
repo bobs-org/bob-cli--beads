@@ -56,7 +56,7 @@ flowchart TD
     n7["bob-cli-nu.4.1.2: Shared command-chip state and activation [closed]"]
     n8["bob-cli-nu.4.1.3: Shared command-chip face and Live Preview rendering [closed]"]
     n9["bob-cli-nu.4.1.4: Reading, embeds, hover previews, and query source attribution [closed]"]
-    n10["bob-cli-nu.4.1.5: Visual previews, isolated Obsidian acceptance, and documentation [in_progress]"]
+    n10["bob-cli-nu.4.1.5: Visual previews, isolated Obsidian acceptance, and documentation [closed]"]
     n11["bob-cli-nu.5: The bob-run sequence card [in_progress]"]
     n12["bob-cli-nu.6: ⌘↵ runs the command chip at the cursor, with an armed chip and keycap hint [in_progress]"]
     n13["bob-cli-nu.7: Mod+Shift+Y makes and edits command chips [in_progress]"]
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nu.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.2/README.md) | [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md) | [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md) | [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nu.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md) | [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nu.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md) | [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md) | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nu.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md) | [bob-cli-nu.5](bob-cli-nu.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nu.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md) | [bob-cli-nu.6](bob-cli-nu.6.md) | 0 |
@@ -121,3 +121,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e902351`](https://github.com/bobs-org/bob-plugins/commit/e902351ee65cdacfecc63349854fe00af57241a4) | feat(bob-chips): add shared command-chip runtime and activation | [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) | 2026-11-20 08:44:26 EST |
 | bob-plugins | [`bob-plugins@fa28ece`](https://github.com/bobs-org/bob-plugins/commit/fa28ece28aeca2d492ac9f67ac7d3c95d58a7697) | feat(bob-chips): render and run command chips in Live Preview | [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) | 2026-11-20 09:11:40 EST |
 | bob-plugins | [`bob-plugins@f381abc`](https://github.com/bobs-org/bob-plugins/commit/f381abc5640a86c29a8e332d0b52482e55afd3dc) | feat(bob-chips): render and run command chips in Reading view | [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) | 2026-11-20 10:00:06 EST |
+| bob-plugins | [`bob-plugins@b52dd3f`](https://github.com/bobs-org/bob-plugins/commit/b52dd3fcba720bbf4c799d163572f36a2cca9e9b) | feat(bob-chips): add command-chip previews, stub-bob Obsidian e2e, and print fix | [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) | 2026-11-20 10:43:46 EST |

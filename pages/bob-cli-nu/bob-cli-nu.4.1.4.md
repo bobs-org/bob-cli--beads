@@ -26,7 +26,7 @@ reading: extend the single Markdown processor with accessible command buttons an
 ## Dependencies
 
 - **Depends on:** [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -47,7 +47,9 @@ reading: extend the single Markdown processor with accessible command buttons an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.4.1.3][1] | Check why dependent phase is in progress already | 1 |
+| read-by | [agent:bob-cli-nu.4.1.4][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->
