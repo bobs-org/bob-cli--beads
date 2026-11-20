@@ -52,13 +52,14 @@ FOLLOW-UP DISPOSITIONS: nh.7.1.3 #1 and nh.7.1.4 #4 architecture URL -> existing
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5c41b5b`](https://github.com/bobs-org/bob-plugins/commit/5c41b5b3c069bfbf3cf10d7b50944e88767f339b) | fix(ledger-tools): finish intention card overlays, guarded retry/Undo, and field stages | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2026-11-20 09:34:45 EST |
+| bob-cli--plans | [`bob-cli--plans@7af61f1`](https://github.com/bobs-org/bob-cli--plans/commit/7af61f19c464221863830232533af21be976bec7) | chore(plans): mark intention\_card epic plan done | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 2026-11-20 09:38:20 EST |
 
 <!-- sase:referenced-by:start -->
 
