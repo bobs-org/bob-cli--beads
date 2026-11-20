@@ -24,7 +24,7 @@ grammar: build the pure run: and bob-run grammar on the shared scanner, with a s
 ## Dependencies
 
 - **Depends on:** [bob-cli-nu.1](bob-cli-nu.1.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-nu.4](bob-cli-nu.4.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.4](bob-cli-nu.4.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

@@ -21,7 +21,7 @@ engine: add feature-detected api.commandMode members. resolve(text) parses a chi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-nu.4](bob-cli-nu.4.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.4](bob-cli-nu.4.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-nu](README.md) / bob-cli-nu.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5k.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5k.linker.w0.md) · **Assignee:** `bob-cli-nu.4` · **Size:** large
-**Created:** 2026-11-20 05:59:33 EST
+**Created:** 2026-11-20 05:59:33 EST · **Closed:** 2026-11-20 10:59:35 EST
 **Plan:** [202611/command\_chips.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips.md)
 
 ## Description
@@ -14,6 +14,8 @@ inline: render run: spans as ▶ pills in Live Preview and Reading view. Click r
 ## Notes
 
 [2026-11-20T12:35:35Z · bob-cli-nu.4] Planning audit: dependency work is landed in bob-plugins at c8da83f (grammar) and 591998e (engine); inline rendering/store/activation is still absent. The landed engine lacks the planned rich resolver metadata, per-run onState callback, and signature-form activeRun contract, so the validated command_chips_inline child epic splits completion into five medium phases: engine-contract, runtime, live, reading, evidence. The child epic land agent owns final verification and closure of nu.4 only; nu remains owned by its land agent. No product or memory files changed in this planning turn. epic-symbols currently reports no entries for nu.4.
+
+[2026-11-20T16:00:02Z · bob-cli-nu.4.1.land] bob-cli-nu.4.1 land agent: closing child epic nu.4.1 auto-closed this phase ('delegated work landed'). Verified that the child plan completed every item of the parent plan's 'Phase: inline' (command_chips.md steps 1-7). Rendering: Live Preview gets one chipScanLine pass for both kinds; Reading, embeds, hover, and Tasks/Dataview results get real buttons. Also verified: the commandChipActivate run path, CommandChipRunStore with armed target, every face plus Loading, query-source attribution checked against Tasks 8.6.0 and Dataview 0.5.68, DOM/latch/rebuild/perf tests, stub-bob e2e 23/23 on athena, preview PNGs, and the docs/bob-chips.md 'Command chips' section. Deployed: bob-chips 0.11.0 and bob-command-mode 0.4.0 synced. Shared hooks for nu.5 (fence) and nu.6 (keymap) are exported and not implemented here. Full verification is in the nu.4.1 close note.
 
 ## Dependencies
 

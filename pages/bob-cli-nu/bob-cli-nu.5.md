@@ -13,7 +13,7 @@ fence: render bob-run fences as titled sequence cards. Each card has numbered mo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.4](bob-cli-nu.4.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.4](bob-cli-nu.4.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.7](bob-cli-nu.7.md) ◐ · ⧖ 2026-11-20
 
 ## Agents

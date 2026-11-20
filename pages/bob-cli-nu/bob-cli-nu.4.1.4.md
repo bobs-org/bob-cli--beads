@@ -48,8 +48,10 @@ reading: extend the single Markdown processor with accessible command buttons an
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.4.1.3][1] | Check why dependent phase is in progress already | 1 |
 | read-by | [agent:bob-cli-nu.4.1.4][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-nu.4.1.5][3] | Check prior phase notes for evidence-phase handoff | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md
 
 <!-- sase:referenced-by:end -->

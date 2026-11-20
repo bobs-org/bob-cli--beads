@@ -29,6 +29,8 @@ Typing `run: bob …` in an inline code span, or a `bob-run` fence, gives a quie
 
 [2026-11-20T14:14:19Z · bob-cli-nh.7.1.land] BROAD DEPLOY GATE LIMITATION (observed by bob-cli-nh.7.1.land, 2026-11-20 14:13Z, bob-plugins checkout at origin/master e902351 + intention-card changes): (1) `bob plugins sync --repo $PWD --no-pull --dry-run` reports 1 error: 'plugins.sync in ~/.config/bob/config.yml lists bob-copy-chips, but .../plugins has no plugin with that id', and bob-chips is 'not in plugins.sync; skipped'; it would also copy bob-command-mode 0.3.0 -> 0.4.0 (landed 52b7c31, still undeployed). (2) `xvfb-run -a npm run smoke:obsidian -- --deployed-vault /home/bryan/bob` fails its pre-check: 'deployed vault plugin bob-chips sync is "missing"' and 'bob-command-mode sync is "drift"'. Both follow from the bf13f43 rename not yet reflected in the host plugins.sync allowlist (chezmoi-managed config). The intention landing deployed only its changed plugin with `-p bob-ledger-tools` (hashes match source/stamp) and ran the isolated startup smoke (pass, layout 335 ms, 0 exceptions); it did not force, deploy bob-command-mode, or edit the allowlist.
 
+[2026-11-20T15:58:26Z · bob-cli-nu.4.1.land] DISCOVERED ISSUE: docs word budget. bob-plugins docs/develop/plugin-apis.md is at 7,980 words (wc) against the 8,000-word develop/ warning cap after bob-cli-nu.4.1 added the Command-chip members, runtime, face, and Reading contracts (proposed by bob-cli-nu.4.1.2 #3, .3 #3, .4 #3). docs:check still passes. The keymap phase (bob-cli-nu.6, parent plan step 'Docs ... plugin-apis.md') and possibly fence (bob-cli-nu.5) add contracts there and will cross the cap. Moving the '### Command-chip members' (Bob Command Mode) and '### Command chips' / '### Command-chip runtime (internal)' (Bob Chips) sections to their own develop page is an information-architecture move: per docs memory it needs an approved plan and preserved published URLs (develop/plugins/plugin-apis/ is in bob-cli docs/_meta/url_contract.txt; anchors like #command-chip-members are cited from bob-command-mode.md). The nu.4.1 land agent left this to the phase that needs the headroom rather than moving pages unplanned.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -36,7 +38,7 @@ Typing `run: bob …` in an inline code span, or a `bob-run` fence, gives a quie
 | [bob-cli-nu.1](bob-cli-nu.1.md) | Rename bob-copy-chips to bob-chips with no behavior change | ✓ closed | medium | 2026-11-20 | 1 | 2 |
 | [bob-cli-nu.2](bob-cli-nu.2.md) | Command Mode chip engine (resolve, runText, openText, provenance) | ✓ closed | medium | 2026-11-20 | 1 | 1 |
 | [bob-cli-nu.3](bob-cli-nu.3.md) | run:/bob-run grammar, command-chip cursor rule, and vectors | ✓ closed | medium | 2026-11-20 | 1 | 1 |
-| [bob-cli-nu.4](bob-cli-nu.4.md) | Inline command chips in Live Preview and Reading view | ◐ in_progress | large | 2026-11-20 | 1 | 0 |
+| [bob-cli-nu.4](bob-cli-nu.4.md) | Inline command chips in Live Preview and Reading view | ✓ closed | large | 2026-11-20 | 1 | 0 |
 | [bob-cli-nu.5](bob-cli-nu.5.md) | The bob-run sequence card | ◐ in_progress | medium | 2026-11-20 | 1 | 0 |
 | [bob-cli-nu.6](bob-cli-nu.6.md) | ⌘↵ runs the command chip at the cursor, with an armed chip and keycap hint | ◐ in_progress | medium | 2026-11-20 | 1 | 0 |
 | [bob-cli-nu.7](bob-cli-nu.7.md) | Mod+Shift+Y makes and edits command chips | ◐ in_progress | medium | 2026-11-20 | 1 | 0 |
@@ -50,8 +52,8 @@ flowchart TD
     n1["bob-cli-nu.1: Rename bob-copy-chips to bob-chips with no behavior change [closed]"]
     n2["bob-cli-nu.2: Command Mode chip engine (resolve, runText, openText, provenance) [closed]"]
     n3["bob-cli-nu.3: run:/bob-run grammar, command-chip cursor rule, and vectors [closed]"]
-    n4["bob-cli-nu.4: Inline command chips in Live Preview and Reading view [in_progress]"]
-    n5["bob-cli-nu.4.1: Complete inline command chips in Live Preview and Reading view [in_progress]"]
+    n4["bob-cli-nu.4: Inline command chips in Live Preview and Reading view [closed]"]
+    n5["bob-cli-nu.4.1: Complete inline command chips in Live Preview and Reading view [closed]"]
     n6["bob-cli-nu.4.1.1: Complete the engine contract consumed by inline chips [closed]"]
     n7["bob-cli-nu.4.1.2: Shared command-chip state and activation [closed]"]
     n8["bob-cli-nu.4.1.3: Shared command-chip face and Live Preview rendering [closed]"]
@@ -102,7 +104,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nu.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md) | [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md) | [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md) | [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nu.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md) | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nu.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md) | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md) | [bob-cli-nu.5](bob-cli-nu.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nu.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.6/README.md) | [bob-cli-nu.6](bob-cli-nu.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nu.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md) | [bob-cli-nu.7](bob-cli-nu.7.md) | 0 |
@@ -122,3 +124,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@fa28ece`](https://github.com/bobs-org/bob-plugins/commit/fa28ece28aeca2d492ac9f67ac7d3c95d58a7697) | feat(bob-chips): render and run command chips in Live Preview | [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) | 2026-11-20 09:11:40 EST |
 | bob-plugins | [`bob-plugins@f381abc`](https://github.com/bobs-org/bob-plugins/commit/f381abc5640a86c29a8e332d0b52482e55afd3dc) | feat(bob-chips): render and run command chips in Reading view | [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) | 2026-11-20 10:00:06 EST |
 | bob-plugins | [`bob-plugins@b52dd3f`](https://github.com/bobs-org/bob-plugins/commit/b52dd3fcba720bbf4c799d163572f36a2cca9e9b) | feat(bob-chips): add command-chip previews, stub-bob Obsidian e2e, and print fix | [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) | 2026-11-20 10:43:46 EST |
+| bob-cli--plans | [`bob-cli--plans@7639a5b`](https://github.com/bobs-org/bob-cli--plans/commit/7639a5b218d9ef71f187e8a71ea92bdffae30fbe) | chore(plans): mark command\_chips\_inline epic plan done after bob-cli-nu.4.1 landing | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 2026-11-20 11:00:55 EST |

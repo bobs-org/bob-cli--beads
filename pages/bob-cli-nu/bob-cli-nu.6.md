@@ -11,9 +11,13 @@
 
 keymap: compose a command-chip step into the existing Meta+Enter dispatcher in bob-navigation-hotkeys, add targetAt/runAtCursor and a palette command, and paint the armed chip and a muted ⌘↵ Run keycap from the live binding. The Gmail and Highlights hints yield, and every old ⌘↵ target is regression-tested.
 
+## Notes
+
+[2026-11-20T15:58:37Z · bob-cli-nu.4.1.land] Heads-up from the bob-cli-nu.4.1 land agent: bob-plugins docs/develop/plugin-apis.md is at 7,980/8,000 words (develop/ warning cap). Adding the keymap contract there will cross it; trim or plan a split of the command-chip sections (see the DISCOVERED ISSUE note on bob-cli-nu).
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.4](bob-cli-nu.4.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.4](bob-cli-nu.4.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.8](bob-cli-nu.8.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
