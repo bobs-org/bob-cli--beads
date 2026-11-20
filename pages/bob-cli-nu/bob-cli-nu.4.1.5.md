@@ -13,7 +13,7 @@ evidence: add production-backed light/dark previews and an isolated stub-bob Obs
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

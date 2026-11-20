@@ -27,6 +27,8 @@ Typing `run: bob …` in an inline code span, or a `bob-run` fence, gives a quie
 
 [2026-11-20T12:59:07Z · bob-cli-nh.7.1.4] DISCOVERED ISSUE: (from the bob-plugins conflict-repair turn that rebased the intention-card commit onto c8da83f, 2026-11-20) On athena, 'bob plugins sync' from bob-plugins b1a655a exits 1: ~/.config/bob/config.yml plugins.sync still lists bob-copy-chips (line ~235), but after bf13f43 (bob-cli-nu.1 rename) the repo has no plugin with that id, and bob-chips is reported 'not in plugins.sync; skipped'. 'chezmoi diff ~/.config/bob/config.yml' is empty, so this host's applied chezmoi source does not yet carry the bob-chips allowlist entry. All other configured plugins synced (31 unchanged). This continues nu.1 notes #1 and #4 (deploy and retire the old id); the land agent should make sure the chezmoi allowlist change lands and is applied on every host before bob-chips can deploy. Also filed bob-cli-nv for the pre-existing docs-check URL failure that nu.1 note #3 proposed.
 
+[2026-11-20T14:14:19Z · bob-cli-nh.7.1.land] BROAD DEPLOY GATE LIMITATION (observed by bob-cli-nh.7.1.land, 2026-11-20 14:13Z, bob-plugins checkout at origin/master e902351 + intention-card changes): (1) `bob plugins sync --repo $PWD --no-pull --dry-run` reports 1 error: 'plugins.sync in ~/.config/bob/config.yml lists bob-copy-chips, but .../plugins has no plugin with that id', and bob-chips is 'not in plugins.sync; skipped'; it would also copy bob-command-mode 0.3.0 -> 0.4.0 (landed 52b7c31, still undeployed). (2) `xvfb-run -a npm run smoke:obsidian -- --deployed-vault /home/bryan/bob` fails its pre-check: 'deployed vault plugin bob-chips sync is "missing"' and 'bob-command-mode sync is "drift"'. Both follow from the bf13f43 rename not yet reflected in the host plugins.sync allowlist (chezmoi-managed config). The intention landing deployed only its changed plugin with `-p bob-ledger-tools` (hashes match source/stamp) and ran the isolated startup smoke (pass, layout 335 ms, 0 exceptions); it did not force, deploy bob-command-mode, or edit the allowlist.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -53,7 +55,7 @@ flowchart TD
     n6["bob-cli-nu.4.1.1: Complete the engine contract consumed by inline chips [closed]"]
     n7["bob-cli-nu.4.1.2: Shared command-chip state and activation [closed]"]
     n8["bob-cli-nu.4.1.3: Shared command-chip face and Live Preview rendering [closed]"]
-    n9["bob-cli-nu.4.1.4: Reading, embeds, hover previews, and query source attribution [in_progress]"]
+    n9["bob-cli-nu.4.1.4: Reading, embeds, hover previews, and query source attribution [closed]"]
     n10["bob-cli-nu.4.1.5: Visual previews, isolated Obsidian acceptance, and documentation [in_progress]"]
     n11["bob-cli-nu.5: The bob-run sequence card [in_progress]"]
     n12["bob-cli-nu.6: ⌘↵ runs the command chip at the cursor, with an armed chip and keycap hint [in_progress]"]
@@ -98,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nu.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.1/README.md) | [bob-cli-nu.4.1.1](bob-cli-nu.4.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.2/README.md) | [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md) | [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nu.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md) | [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-nu.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md) | [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md) | [bob-cli-nu.4.1.5](bob-cli-nu.4.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nu.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md) | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nu.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.5/README.md) | [bob-cli-nu.5](bob-cli-nu.5.md) | 0 |
@@ -118,3 +120,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@52b7c31`](https://github.com/bobs-org/bob-plugins/commit/52b7c31486f3594cc0fe663e7ad0487e4d82c10d) | feat(bob-command-mode): complete the command-chip engine contract | [bob-cli-nu.4.1.1](bob-cli-nu.4.1.1.md) | 2026-11-20 08:16:21 EST |
 | bob-plugins | [`bob-plugins@e902351`](https://github.com/bobs-org/bob-plugins/commit/e902351ee65cdacfecc63349854fe00af57241a4) | feat(bob-chips): add shared command-chip runtime and activation | [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) | 2026-11-20 08:44:26 EST |
 | bob-plugins | [`bob-plugins@fa28ece`](https://github.com/bobs-org/bob-plugins/commit/fa28ece28aeca2d492ac9f67ac7d3c95d58a7697) | feat(bob-chips): render and run command chips in Live Preview | [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) | 2026-11-20 09:11:40 EST |
+| bob-plugins | [`bob-plugins@f381abc`](https://github.com/bobs-org/bob-plugins/commit/f381abc5640a86c29a8e332d0b52482e55afd3dc) | feat(bob-chips): render and run command chips in Reading view | [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) | 2026-11-20 10:00:06 EST |

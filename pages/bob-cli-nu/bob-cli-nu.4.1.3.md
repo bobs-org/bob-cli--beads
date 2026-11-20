@@ -24,7 +24,7 @@ live: add the production inline DOM face and state styling, extend the existing 
 ## Dependencies
 
 - **Depends on:** [bob-cli-nu.4.1.2](bob-cli-nu.4.1.2.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.4.1.4](bob-cli-nu.4.1.4.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -37,3 +37,15 @@ live: add the production inline DOM face and state styling, extend the existing 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@fa28ece`](https://github.com/bobs-org/bob-plugins/commit/fa28ece28aeca2d492ac9f67ac7d3c95d58a7697) | feat(bob-chips): render and run command chips in Live Preview | [bob-cli-nu.4.1.3](bob-cli-nu.4.1.3.md) | 2026-11-20 09:11:40 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-nu.4.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->
