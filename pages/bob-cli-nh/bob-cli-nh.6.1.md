@@ -40,12 +40,13 @@ Album, record, and bank cards share property ownership, editor registration, hos
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md) | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-nh.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md) | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d99dcef`](https://github.com/bobs-org/bob-plugins/commit/d99dcefd6e0dbe4d89ce84070046c730ca09d43f) | feat(ledger-tools): registry sole dispatch and host failure cleanup | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2026-11-19 18:27:00 EST |
 | bob-cli--plans | [`bob-cli--plans@54eebe7`](https://github.com/bobs-org/bob-cli--plans/commit/54eebe7a0474c4087fb16cbb75eecb991b8fc26c) | chore(plans): mark property\_card\_kit status done | [bob-cli-nh.6.1](bob-cli-nh.6.1.md) | 2026-11-19 18:27:36 EST |
 
 <!-- sase:referenced-by:start -->

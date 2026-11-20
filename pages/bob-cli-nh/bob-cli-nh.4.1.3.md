@@ -41,6 +41,7 @@ reference_repair: route canonical daily and period owned fields through typed ve
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.4.1.3][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-nh.4.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-nh.4.1.land--1][2] | Review intention-write child evidence for landing closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md

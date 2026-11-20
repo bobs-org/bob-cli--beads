@@ -43,6 +43,7 @@ findings: add dangling_period_link, intentions_shape, intentions_over_soft_cap, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.4.1.4--4][1] | Review the follow-up proposal and completion evidence before closing this phase | 4 |
 | read-by | [agent:bob-cli-nh.4.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-nh.4.1.land--1][2] | Review the gate history and follow-up dispositions before phase closeout | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.4.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md

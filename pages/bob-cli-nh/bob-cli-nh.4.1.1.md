@@ -40,6 +40,7 @@ owned_repair: add a pure canonical-note adapter that rewrites only stored intent
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.4.1.land][1] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-nh.4.1.land--1][1] | Review task-move child evidence for landing closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md
 

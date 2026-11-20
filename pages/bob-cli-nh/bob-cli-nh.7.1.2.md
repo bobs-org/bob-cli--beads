@@ -13,7 +13,7 @@ editor: adapt createGuardedUpdateSession to bob periods update, build the browse
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [bob-cli-nh.7.1.1](bob-cli-nh.7.1.1.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [bob-cli-nh.7.1.3](bob-cli-nh.7.1.3.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

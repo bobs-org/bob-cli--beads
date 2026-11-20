@@ -47,7 +47,13 @@ host: extract createPropertyCardHost and move album, record, and bank lifecycle 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.2.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.6.1.2/README.md) | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@946ef56`](https://github.com/bobs-org/bob-plugins/commit/946ef56589c2650807bdf45c3dfd0eb59005c956) | feat(ledger-tools): share one property-card host lifecycle | [bob-cli-nh.6.1.2](bob-cli-nh.6.1.2.md) | 2026-11-19 14:42:27 EST |
 
 <!-- sase:referenced-by:start -->
 

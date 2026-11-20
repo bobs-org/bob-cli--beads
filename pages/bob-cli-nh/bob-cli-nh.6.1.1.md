@@ -56,7 +56,14 @@ ownership: capture the unchanged album, record, and bank acceptance baseline, ge
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-nh.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md) | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@ccfc12b`](https://github.com/bobs-org/bob-plugins/commit/ccfc12bb62cecbde3ee47310ad82a0ddb4031ac4) | feat(ledger-tools): shared property-card ownership and card editor registry | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 10:10:33 EST |
+| bob-plugins | [`bob-plugins@8d6fd78`](https://github.com/bobs-org/bob-plugins/commit/8d6fd78ab80408a65fc6fbcf753bba9c68de60de) | fix(ledger-tools): keep property-card ownership with its current mount | [bob-cli-nh.6.1.1](bob-cli-nh.6.1.1.md) | 2026-11-19 11:32:00 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -35,6 +35,7 @@ Final just check ToolRun c8bdb3af80ca97a7d2d15e333be09751 exited 101 after forma
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.4.1.land][1] | Need parent phase scope and notes to verify child fulfillment | 1 |
+| read-by | [agent:bob-cli-nh.4.1.land--1][1] | Review parent phase scope before closeout | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md
 
