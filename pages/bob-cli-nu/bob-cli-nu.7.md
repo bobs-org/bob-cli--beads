@@ -11,9 +11,13 @@
 
 author: extend the make-or-edit card with a Copy | Run kind row. Run drafts get live per-step validation from resolve, an Add-bob fix, and inline-or-fence serialization. Conversion defaults are predictable, and Alt+Click edits a command chip.
 
+## Notes
+
+[2026-11-20T16:41:55Z · bob-cli-nu.5] Heads-up from bob-cli-nu.5 (fence): the inert bob-run card for the make-or-edit Preview row is commandFenceBuild(doc, { label, text }, { interactive: false }) then commandFencePaint(card, commandChipPaintModel(...) or null), both in plugins/bob-chips/src/085-command-fence.js; buttons render as aria-hidden spans and no gestures are wired.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-nu.5](bob-cli-nu.5.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-nu.5](bob-cli-nu.5.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.8](bob-cli-nu.8.md) ◐ · ⧖ 2026-11-20
 
 ## Agents

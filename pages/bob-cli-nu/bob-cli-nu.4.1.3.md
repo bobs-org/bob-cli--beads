@@ -47,9 +47,11 @@ live: add the production inline DOM face and state styling, extend the existing 
 | read-by | [agent:bob-cli-nu.4.1.3][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-nu.4.1.4][2] | Check prior phase notes and handoff | 1 |
 | read-by | [agent:bob-cli-nu.4.1.5][3] | Check live phase notes for evidence-phase handoff | 1 |
+| read-by | [agent:bob-cli-nu.4.1.land][4] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

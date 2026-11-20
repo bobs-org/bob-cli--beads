@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:bba2a234f264129a97f260c8 | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -57,8 +57,10 @@ evidence: add production-backed light/dark previews and an isolated stub-bob Obs
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.4.1.4][1] | Check why dependent phase is in progress already | 1 |
 | read-by | [agent:bob-cli-nu.4.1.5][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-nu.4.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

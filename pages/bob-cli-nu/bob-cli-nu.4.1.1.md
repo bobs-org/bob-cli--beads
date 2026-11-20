@@ -45,8 +45,10 @@ engine-contract: complete additive resolver metadata, signature lookup, per-run 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.4.1.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-nu.4.1.2][2] | Check engine-contract phase notes for API shapes | 1 |
+| read-by | [agent:bob-cli-nu.4.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

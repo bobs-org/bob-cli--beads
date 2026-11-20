@@ -21,7 +21,7 @@ inline: render run: spans as ▶ pills in Live Preview and Reading view. Click r
 
 - **Depends on:** [bob-cli-nu.2](bob-cli-nu.2.md) ✓ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-nu.3](bob-cli-nu.3.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-nu.5](bob-cli-nu.5.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.5](bob-cli-nu.5.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-nu.6](bob-cli-nu.6.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
@@ -37,7 +37,9 @@ inline: render run: spans as ▶ pills in Live Preview and Reading view. Click r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nu.3][1] | Check whether the inline phase agent is concurrently editing bob-chips | 1 |
+| read-by | [agent:bob-cli-nu.4.1.land][2] | Need the parent phase scope and notes to verify the child epic completed it | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

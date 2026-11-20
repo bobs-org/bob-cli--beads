@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/command_chips_inline.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips_inline.md
 
@@ -33,13 +33,7 @@ Finish bob-cli-nu.4 with safe source-aware activation, persistent live feedback,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-nu.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md) | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli--plans | [`bob-cli--plans@7639a5b`](https://github.com/bobs-org/bob-cli--plans/commit/7639a5b218d9ef71f187e8a71ea92bdffae30fbe) | chore(plans): mark command\_chips\_inline epic plan done after bob-cli-nu.4.1 landing | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 2026-11-20 11:00:55 EST |
+| [bbugyi200.apollo.bob-cli-nu.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md) | [bob-cli-nu.4.1](bob-cli-nu.4.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -52,11 +46,13 @@ Finish bob-cli-nu.4 with safe source-aware activation, persistent live feedback,
 | read-by | [agent:bob-cli-nu.4.1.3][3] | Need epic decisions and notes | 1 |
 | read-by | [agent:bob-cli-nu.4.1.4][4] | Need epic decisions | 1 |
 | read-by | [agent:bob-cli-nu.4.1.5][5] | Need epic decisions and context for phase 5 | 1 |
+| read-by | [agent:bob-cli-nu.4.1.land][6] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.3/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.4/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.5/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->
