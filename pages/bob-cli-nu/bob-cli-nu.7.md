@@ -1,0 +1,23 @@
+# Bead: bob-cli-nu.7 — Mod+Shift+Y makes and edits command chips
+
+[Bead Pages](../README.md) / [bob-cli-nu](README.md) / bob-cli-nu.7
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5k.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5k.linker.w0.md) · **Assignee:** `bob-cli-nu.7` · **Size:** medium
+**Created:** 2026-11-20 05:59:33 EST
+**Plan:** [202611/command\_chips.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/command_chips.md)
+
+## Description
+
+author: extend the make-or-edit card with a Copy | Run kind row. Run drafts get live per-step validation from resolve, an Add-bob fix, and inline-or-fence serialization. Conversion defaults are predictable, and Alt+Click edits a command chip.
+
+## Dependencies
+
+- **Depends on:** [bob-cli-nu.5](bob-cli-nu.5.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-nu.8](bob-cli-nu.8.md) ◐ · ⧖ 2026-11-20
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-nu.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nu.7/README.md) | [bob-cli-nu.7](bob-cli-nu.7.md) | 0 |
