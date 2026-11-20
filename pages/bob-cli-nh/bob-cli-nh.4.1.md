@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/intention_link_repair.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/intention_link_repair.md
 
@@ -60,8 +60,10 @@ just docs-check still fails only on unchanged Mac Capture word budgets: capture-
 | read-by | [agent:bob-cli-nh.4.1.2][1] | Need parent epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-nh.4.1.land][2] | Need the epic scope, children, and linked plan file | 1 |
 | read-by | [agent:bob-cli-nh.4.1.land--1][2] | Review assigned landing bead and its notes before completion | 2 |
+| read-by | [agent:bob-cli-nh.land][3] | Need child epic close notes and follow-up dispositions | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.4.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
 
 <!-- sase:referenced-by:end -->

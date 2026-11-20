@@ -18,7 +18,7 @@
 | related | file:explicit:dec33b788961cadeb2b4261a | attached via sase artifact create --bead |
 | related | file:explicit:e5c34f58f439dc2d795d5d93 | attached via sase artifact create --bead |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_kit.md
 
@@ -58,12 +58,14 @@ Album, record, and bank cards share property ownership, editor registration, hos
 | read-by | [agent:bob-cli-nh.6.1.2][2] | Need epic DECISIONS for host phase | 1 |
 | read-by | [agent:bob-cli-nh.6.1.3--3][3] | Verify only the requested phase closed and ancestors remain open | 1 |
 | read-by | [agent:bob-cli-nh.6.1.land--1][4] | Need closeout dispositions and evidence refs before closing | 1 |
-| read-by | [agent:research.5i.gem][5] | Check exact subphases of property-card kit epic | 1 |
+| read-by | [agent:bob-cli-nh.land][5] | Need child epic close notes and follow-up dispositions | 2 |
+| read-by | [agent:research.5i.gem][6] | Check exact subphases of property-card kit epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.2.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.3.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
 
 <!-- sase:referenced-by:end -->

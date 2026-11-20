@@ -33,14 +33,16 @@ kit: in bob-ledger-tools, extract the shared property-card kit with no visible c
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.6.1.3--3][1] | Verify only the requested phase closed and ancestors remain open | 1 |
 | read-by | [agent:bob-cli-nh.6.1.land--1][2] | Need parent phase status before closeout | 1 |
-| read-by | [agent:research.5i.cld][3] | Check property-card kit and intention card phase status for design research | 1 |
-| read-by | [agent:research.5i.gem][4] | Verify ms and nh epic scope and decisions for research critique | 2 |
-| read-by | [agent:research.5i.mus][5] | Need property-card kit phase scope for unification research | 1 |
+| read-by | [agent:bob-cli-nh.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:research.5i.cld][4] | Check property-card kit and intention card phase status for design research | 1 |
+| read-by | [agent:research.5i.gem][5] | Verify ms and nh epic scope and decisions for research critique | 2 |
+| read-by | [agent:research.5i.mus][6] | Need property-card kit phase scope for unification research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.3.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.6.1.land.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
 
 <!-- sase:referenced-by:end -->

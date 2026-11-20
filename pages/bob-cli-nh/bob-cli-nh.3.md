@@ -41,7 +41,9 @@ summary: add the versioned day-summary instruction asset and day brief v1. Every
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.3--1][1] | monitor just check green, need to confirm bead state before close | 1 |
+| read-by | [agent:bob-cli-nh.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
 
 <!-- sase:referenced-by:end -->

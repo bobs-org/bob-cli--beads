@@ -64,9 +64,11 @@ adopt: install the new bob, then dry-run and apply `bob periods migrate` on the 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.8][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:research.5i.gem][2] | Check vault and chezmoi adoption phase for daily/period templates | 1 |
+| read-by | [agent:bob-cli-nh.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:research.5i.gem][3] | Check vault and chezmoi adoption phase for daily/period templates | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
 
 <!-- sase:referenced-by:end -->

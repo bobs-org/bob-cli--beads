@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-nh
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ef](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ef.md) · **Assignee:** `bob-cli-nh.land`
-**Created:** 2026-11-19 09:35:21 EST
+**Created:** 2026-11-19 09:35:21 EST · **Closed:** 2026-11-20 11:31:12 EST
 **Plan:** [202611/period\_intentions.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/period_intentions.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/period_intentions.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 16 automatic references — see [Referenced By](#referenced-by)._
+_Plus 17 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/period_intentions.md
 
@@ -59,6 +59,10 @@ FOLLOW-UP OUTCOMES: nh.8 #2 -> new bob-cli-ny (feature, large; snoozed to 2026-1
 
 [2026-11-20T16:01:02Z · bob-cli-nh.land] Remaining-work tale sase_plan_period_intentions_landing.md (size small) validated with zero warnings: fixes the three nh.2 failures (catalog exclusion for periods update, completion kinds for periods update:subject/input, corrected planning expectation), documents the malformed-frontmatter empty-op dry-read contract in docs/periods.md, fixes fenced-line loss in legacy::sections()/replace_review_body with regression tests, runs just fmt/docs-gen/check/docs-check, then closes bob-cli-nh, checks symvision availability, and marks period_intentions.md done in the same coding turn. No just check or docs-check pass is claimed by this lander.
 
+[2026-11-20T16:31:12Z · bob-cli-nh.land] Verified remaining epic work: catalog exclusion for `bob periods update`, completion kinds for `periods update:subject`/`input`, and the planning test now expects `[two, two again, middle]`. Documented the empty-ops dry-read contract in docs/periods.md (`ok: true` with `frontmatter_invalid` / field-shape warnings, plus
+
+… and 626 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -77,7 +81,7 @@ FOLLOW-UP OUTCOMES: nh.8 #2 -> new bob-cli-ny (feature, large; snoozed to 2026-1
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-nh: Intentions, summary, and reflection on every day and period, shown in an intention card [in_progress]"]
+    n0["bob-cli-nh: Intentions, summary, and reflection on every day and period, shown in an intention card [closed]"]
     n1["bob-cli-nh.1: Intention fields contract, typed reader, YAML writer, and readers [closed]"]
     n2["bob-cli-nh.2: bob periods update guarded envelope and day subjects in show [closed]"]
     n3["bob-cli-nh.3: Day brief, summary drafting, and brief-carried instructions [closed]"]
@@ -173,7 +177,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-nh.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.7.1.land.md) | [bob-cli-nh.7.1](bob-cli-nh.7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md) | [bob-cli-nh.8](bob-cli-nh.8.md) | 1 |
 | [bbugyi200.athena.bob-cli-nh.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.9/README.md) | [bob-cli-nh.9](bob-cli-nh.9.md) | 1 |
-| [bbugyi200.athena.bob-cli-nh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.land/README.md) | [bob-cli-nh](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-nh.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md) | [bob-cli-nh](README.md) | 2 |
 
 ## Commits
 
@@ -195,6 +199,7 @@ flowchart TD
 | bob-cli | [`b700701`](https://github.com/bobs-org/bob-cli/commit/b70070114fa5861c8552dd5fc3285da265e8fe52) | docs(memory): add intention and property-card glossary family | [bob-cli-nh.9](bob-cli-nh.9.md) | 2026-11-20 09:45:44 EST |
 | bob-cli | [`46bb654`](https://github.com/bobs-org/bob-cli/commit/46bb654a8eb9cf30c358a4ea4ed8031c18751d9e) | fix(periods): remove empty legacy slots during intentions migrate | [bob-cli-nh.8](bob-cli-nh.8.md) | 2026-11-20 10:36:33 EST |
 | bob-cli | [`c91fbee`](https://github.com/bobs-org/bob-cli/commit/c91fbee63e3d9e838fbf9f4dec4c0f52b9797d66) | chore(intentions): retire epic symbols and regenerate glossary reference | [bob-cli-nh](README.md) | 2026-11-20 11:01:55 EST |
+| bob-cli | [`1fa1b4e`](https://github.com/bobs-org/bob-cli/commit/1fa1b4e711fc9e6ffd51746e936616d3c02af7f6) | fix(periods): register update, keep fenced migrate bodies | [bob-cli-nh](README.md) | 2026-11-20 11:32:43 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -206,33 +211,35 @@ flowchart TD
 | read-by | [agent:bob-cli-nh.4.1.land][2] | Need the active parent epic scope before attaching sibling update failures | 1 |
 | read-by | [agent:bob-cli-nh.4.1.land--1][2] | Verify the containing epic remains untouched and open after phase closeout | 1 |
 | read-by | [agent:bob-cli-nh.8][3] | Need the COPY CHIP note and epic context for phase 8 | 1 |
-| read-by | [agent:bob-cli-ni.6][4] | Need COPY CHIP coordination for Summarize yesterday GTD row | 1 |
-| read-by | [agent:research.5i.cdx][5] | Research the daily and note property-card context requested by Bryan | 1 |
-| read-by | [agent:research.5i.cld][6] | Context for property card unification research | 1 |
-| read-by | [agent:research.5i.final][7] | Confirm property-card kit and intention-card phase status for consolidated property-card identity research | 1 |
-| read-by | [agent:research.5i.gem][8] | Context on property cards / schema card epic requested by user | 2 |
-| read-by | [agent:research.5i.grk][9] | Need property-card kit epic context for unifying schema-card appearance | 1 |
-| read-by | [agent:research.5i.mus][10] | Need epic context for property-card unification research | 1 |
-| read-by | [agent:research.5l.cdx][11] | Understand the property-card epic constraints for proposed group navigation | 1 |
-| read-by | [agent:research.5l.cld][12] | Context on property cards (nh epic) to design how <</>> group links render at the bottom of property cards | 1 |
-| read-by | [agent:research.5l.gem][13] | Inspect bob-cli-nh epic bead for property card context | 1 |
-| read-by | [agent:research.5l.grk][14] | Need epic context for property cards, walker footer, and [N/]N keymap design | 1 |
-| read-by | [agent:research.5l.mus][15] | Need nh epic context for [N/]N property card bottom links design | 1 |
+| read-by | [agent:bob-cli-nh.land][4] | Need the epic scope, children, and linked plan file | 2 |
+| read-by | [agent:bob-cli-ni.6][5] | Need COPY CHIP coordination for Summarize yesterday GTD row | 1 |
+| read-by | [agent:research.5i.cdx][6] | Research the daily and note property-card context requested by Bryan | 1 |
+| read-by | [agent:research.5i.cld][7] | Context for property card unification research | 1 |
+| read-by | [agent:research.5i.final][8] | Confirm property-card kit and intention-card phase status for consolidated property-card identity research | 1 |
+| read-by | [agent:research.5i.gem][9] | Context on property cards / schema card epic requested by user | 2 |
+| read-by | [agent:research.5i.grk][10] | Need property-card kit epic context for unifying schema-card appearance | 1 |
+| read-by | [agent:research.5i.mus][11] | Need epic context for property-card unification research | 1 |
+| read-by | [agent:research.5l.cdx][12] | Understand the property-card epic constraints for proposed group navigation | 1 |
+| read-by | [agent:research.5l.cld][13] | Context on property cards (nh epic) to design how <</>> group links render at the bottom of property cards | 1 |
+| read-by | [agent:research.5l.gem][14] | Inspect bob-cli-nh epic bead for property card context | 1 |
+| read-by | [agent:research.5l.grk][15] | Need epic context for property cards, walker footer, and [N/]N keymap design | 1 |
+| read-by | [agent:research.5l.mus][16] | Need nh epic context for [N/]N property card bottom links design | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1el.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.4.1.land.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.8/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ni.6/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cdx/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.final/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.grk/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cdx/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cld/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.gem/README.md
-[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.grk/README.md
-[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.mus/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ni.6/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cdx/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.final/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.grk/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.mus/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cdx/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.cld/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.gem/README.md
+[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.grk/README.md
+[16]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5l.mus/README.md
 
 <!-- sase:referenced-by:end -->

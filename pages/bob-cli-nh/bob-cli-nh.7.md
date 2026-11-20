@@ -34,10 +34,12 @@ card: build the intention card on the kit (kicker, numbered intentions, SUMMARY 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5i.cld][1] | Check property-card kit and intention card phase status for design research | 1 |
-| read-by | [agent:research.5i.gem][2] | Verify ms and nh epic scope and decisions for research critique | 2 |
+| read-by | [agent:bob-cli-nh.land][1] | Need the child scope and notes | 1 |
+| read-by | [agent:research.5i.cld][2] | Check property-card kit and intention card phase status for design research | 1 |
+| read-by | [agent:research.5i.gem][3] | Verify ms and nh epic scope and decisions for research critique | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5i.gem/README.md
 
 <!-- sase:referenced-by:end -->

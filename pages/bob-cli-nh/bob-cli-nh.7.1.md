@@ -20,7 +20,7 @@
 | related | file:explicit:9737dd6645f25a93018c0166 | attached via sase artifact create --bead |
 | related | file:explicit:e6601daf2586a75d5cf4e3e3 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/intention_card.md
 
@@ -67,7 +67,9 @@ FOLLOW-UP DISPOSITIONS: nh.7.1.3 #1 and nh.7.1.4 #4 architecture URL -> existing
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-nh.7.1.2][1] | Need parent epic decisions for phase work | 1 |
+| read-by | [agent:bob-cli-nh.land][2] | Need child epic close notes and follow-up dispositions | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-nh.7.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-nh.land.md
 
 <!-- sase:referenced-by:end -->
