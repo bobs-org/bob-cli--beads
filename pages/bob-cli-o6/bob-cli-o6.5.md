@@ -13,7 +13,7 @@ day-period-cards: the intention card becomes the day card and period card: it al
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-o6.1](bob-cli-o6.1.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-o6.1](bob-cli-o6.1.md) ✓ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-o6.2](bob-cli-o6.2.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-o6.6](bob-cli-o6.6.md) ◐ · ⧖ 2026-11-20
 

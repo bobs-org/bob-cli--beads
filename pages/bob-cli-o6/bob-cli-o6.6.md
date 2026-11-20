@@ -13,7 +13,7 @@ obsidian-proof: add and run a real-Obsidian title-block walkthrough on athena (o
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-o6.3](bob-cli-o6.3.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-o6.3](bob-cli-o6.3.md) ✓ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-o6.4](bob-cli-o6.4.md) ◐ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-o6.5](bob-cli-o6.5.md) ◐ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-o6.7](bob-cli-o6.7.md) ◐ · ⧖ 2026-11-20

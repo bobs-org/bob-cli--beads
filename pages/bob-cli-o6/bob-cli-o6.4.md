@@ -13,7 +13,7 @@ collection-cards: the album card and record card adopt the identity kit and the 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-o6.1](bob-cli-o6.1.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-o6.1](bob-cli-o6.1.md) ✓ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-o6.2](bob-cli-o6.2.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [bob-cli-o6.6](bob-cli-o6.6.md) ◐ · ⧖ 2026-11-20
 
