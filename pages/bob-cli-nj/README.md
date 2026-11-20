@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-nj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.6/README.md) | [bob-cli-nj.6](bob-cli-nj.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-nj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.7.md) | [bob-cli-nj.7](bob-cli-nj.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-nj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-nj.8/README.md) | [bob-cli-nj.8](bob-cli-nj.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-nj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.land.md) | [bob-cli-nj](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-nj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-nj.land.md) | [bob-cli-nj](README.md) | 2 |
 
 ## Commits
 
@@ -120,6 +120,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7eb0685`](https://github.com/bobs-org/bob-plugins/commit/7eb0685a30c13844d7dbf2546d1709e214ed3d75) | feat(plugins): add Rotten and Cancel log recall | [bob-cli-nj.4](bob-cli-nj.4.md) | 2026-11-19 20:09:35 EST |
 | bob-plugins | [`bob-plugins@3d1f553`](https://github.com/bobs-org/bob-plugins/commit/3d1f553fc07a49faa0acfc07d9b4068380f41ba4) | docs(log-recall): cover plugin prompt surfaces | [bob-cli-nj.8](bob-cli-nj.8.md) | 2026-11-19 20:14:59 EST |
 | bob-cli | [`d15432a`](https://github.com/bobs-org/bob-cli/commit/d15432aa4609ea9641c9ff5987dbf03b4ff68b23) | feat(capture): implement work\_log log-reason recall completion | [bob-cli-nj](README.md) | 2026-11-19 22:38:28 EST |
+| bob-mac-capture | [`bob-mac-capture@6d54cb0`](https://github.com/bobs-org/bob-mac-capture/commit/6d54cb0f42ef19cd6679a5e493671748274f28cd) | feat(capture): enable pull-in close recall fixture and update work-band docs | [bob-cli-nj](README.md) | 2026-11-19 22:39:25 EST |
 
 <!-- sase:referenced-by:start -->
 
