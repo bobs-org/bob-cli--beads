@@ -29,8 +29,8 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-oj.1](bob-cli-oj.1.md) | Group-link grammar, one resolver, and the \[N / \]N commands | ○ open | medium | 2026-11-21 | 1 | 0 |
-| [bob-cli-oj.2](bob-cli-oj.2.md) | Calendar group provider, legacy step fill-in, and the pre-adoption guard | ✓ closed | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-oj.1](bob-cli-oj.1.md) | Group-link grammar, one resolver, and the \[N / \]N commands | ◐ in_progress | medium | 2026-11-21 | 1 | 1 |
+| [bob-cli-oj.2](bob-cli-oj.2.md) | Calendar group provider, legacy step fill-in, and the pre-adoption guard | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oj.3](bob-cli-oj.3.md) | Album \`walk\_by\` and group-major record walk lines in bob | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-oj.4](bob-cli-oj.4.md) | Grouped record walk model and the record group provider | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-oj.5](bob-cli-oj.5.md) | The group row at the bottom of property cards | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
@@ -43,7 +43,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ```mermaid
 flowchart TD
     n0["bob-cli-oj: [N / ]N group jumps for days, periods, records, and any note [in_progress]"]
-    n1["bob-cli-oj.1: Group-link grammar, one resolver, and the [N / ]N commands [open]"]
+    n1["bob-cli-oj.1: Group-link grammar, one resolver, and the [N / ]N commands [in_progress]"]
     n2["bob-cli-oj.2: Calendar group provider, legacy step fill-in, and the pre-adoption guard [closed]"]
     n3["bob-cli-oj.3: Album `walk_by` and group-major record walk lines in bob [in_progress]"]
     n4["bob-cli-oj.3.1: Album walk_by and guarded grouped record walks [in_progress]"]
@@ -89,8 +89,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-oj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md) | [bob-cli-oj.2](bob-cli-oj.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-oj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md) | [bob-cli-oj.2](bob-cli-oj.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.md) | [bob-cli-oj.3](bob-cli-oj.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md) | [bob-cli-oj.3.1.1](bob-cli-oj.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.1.2.md) | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 1 |
@@ -108,8 +108,10 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@168b665`](https://github.com/bobs-org/bob-plugins/commit/168b665d35c36ec1f28309c6abca21219f161c39) | feat(ledger-tools): add api.navGroups v1 calendar group stops | [bob-cli-oj.2](bob-cli-oj.2.md) | 2026-11-21 08:06:42 EST |
 | bob-cli | [`e11f2a0`](https://github.com/bobs-org/bob-cli/commit/e11f2a0c5e9fa1cb0aefe01a4ccb1ca1785e0af1) | feat(albums): group record walks by declared walk\_by | [bob-cli-oj.3.1.1](bob-cli-oj.3.1.1.md) | 2026-11-21 08:25:36 EST |
 | bob-cli | [`ce0dcc5`](https://github.com/bobs-org/bob-cli/commit/ce0dcc54cec50104991b4ad943de0566e7eba2b6) | feat(records): apply grouped walk updates | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 2026-11-21 08:58:17 EST |
+| bob-plugins | [`bob-plugins@51cf930`](https://github.com/bobs-org/bob-plugins/commit/51cf930da624ffaa5f0c950464ad55db1556e77a) | feat(navigation): restore group-link commands and guarded repeats | [bob-cli-oj.1](bob-cli-oj.1.md) | 2026-11-21 09:33:34 EST |
 
 <!-- sase:referenced-by:start -->
 

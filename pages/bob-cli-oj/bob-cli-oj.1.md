@@ -2,7 +2,7 @@
 
 [Bead Pages](../README.md) / [bob-cli-oj](README.md) / bob-cli-oj.1
 
-**Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1es](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1es.md) · **Assignee:** `bob-cli-oj.1` · **Size:** medium
 **Created:** 2026-11-21 07:41:35 EST
 **Plan:** [202611/bracket\_n\_group\_jumps.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bracket_n_group_jumps.md)
@@ -14,6 +14,16 @@
 > (none)
 >
 > Reopened 2026-11-21T13:19:51Z by `sase bead open`
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:f0588487197e47234e4910fc | attached via sase artifact create --bead |
+
+<!-- sase:links:end -->
 
 ## Description
 
@@ -43,6 +53,8 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 [2026-11-21T13:44:04Z · bob-cli-oj.1--1] Verification complete for restored navigation 2.96.1: rebuilt after fetching and fast-forwarding bob-plugins to 6debb63; 204/204 tests pass across group-links, period-links, bracket-repeat, bracket-mode-indicator, plugin-build, walker-footer, jump-history, and Ledger nav-groups. Added createEligible to the v7 result and explicit v2-shape/pre-adoption tests. docs:gen and inventory:check pass; git diff --check passes. docs:check remains blocked only by untouched vault-format.md 6016/6000 (bob-cli-oc), with plugin-apis.md 8165/8000 warning after upstream changes. No epic-symbol entries remain. Scoped bob plugins sync refuses the abandoned clean navigation 2.96.0 build at lost 726f9a5. Fetched again: no incoming navigation commits and old commit still absent. Prior recovery agent is DONE; staging a human gate to replace only this protected navigation build with the verified 2.96.1 source, then verify sync and close this phase.
 
+[2026-11-21T14:32:00Z · bob-cli-oj.1] Recovery in this run found the repository clean at 3860513 with the prior navigation work absent. Recovered all 22 source/test/docs files from the earlier provider edit logs, rebuilt, and confirmed exact approval-pinned SHA256s: main.js b005cfda5996caa36225930bfe7f67bef0fc7fb5d7e62393cc53a17eb6453da8; manifest.json ed94cd481e4bf6297bb3ddf7873a4a35c91835a643e12898fde35c032805f37b; styles.css cbb720334979ed5f8ea15e316d508d61ace90fdd14e2631f4d3e3fae3d0af027. Focused 204 tests pass, build/docs inventory/diff checks pass, vimrc maps confirmed in beba6bb7a. Docs lint retains only the already-recorded vault-format.md failure (bob-cli-oc) and plugin-apis warning. No epic symbols. Existing gate custom-231911ba-9d6a-4c7f-83d1-5911bcf25361 explicitly records Bryan accepted replace via TUI; its original deployed 726f9a5 stamp is unchanged. The remaining step is host commit before resuming this existing approval; no new human approval is needed.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
@@ -52,4 +64,10 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@51cf930`](https://github.com/bobs-org/bob-plugins/commit/51cf930da624ffaa5f0c950464ad55db1556e77a) | feat(navigation): restore group-link commands and guarded repeats | [bob-cli-oj.1](bob-cli-oj.1.md) | 2026-11-21 09:33:34 EST |
