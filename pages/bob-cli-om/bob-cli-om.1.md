@@ -19,7 +19,7 @@ cli-link-fixes: in bob-cli, end unclosed link fields at the caret, keep authored
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-om.2](bob-cli-om.2.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.2](bob-cli-om.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-om.8](bob-cli-om.8.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
@@ -33,3 +33,15 @@ cli-link-fixes: in bob-cli, end unclosed link fields at the caret, keep authored
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`746f4d5`](https://github.com/bobs-org/bob-cli/commit/746f4d5a4aa5ada921ca8bce5d454a473ab4d0ed) | fix(capture): preserve wikilink fields and rank candidates | [bob-cli-om.1](bob-cli-om.1.md) | 2026-11-21 11:23:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-om.1--1][1] | Need the phase scope, design file, and prior notes before finishing verification | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-om.1.md
+
+<!-- sase:referenced-by:end -->

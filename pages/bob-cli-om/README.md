@@ -29,7 +29,7 @@ Typing `[[` in any Bob-owned field that writes Markdown prose into the vault (in
 |---|---|---|---|---|---:|---:|
 | [bob-cli-om.1](bob-cli-om.1.md) | Fix bob's wikilink field range and ranking, publish shared vectors | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.10](bob-cli-om.10.md) | Prose-field role lint and end-to-end walkthrough | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
-| [bob-cli-om.2](bob-cli-om.2.md) | Obsidian link engine (field model, ranking port, metadata index) | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-om.2](bob-cli-om.2.md) | Obsidian link engine (field model, ranking port, metadata index) | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.3](bob-cli-om.3.md) | proseField controller, LINK band, and the Work summary pilot | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-om.4](bob-cli-om.4.md) | Standalone modal prompts | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-om.5](bob-cli-om.5.md) | Task Card stages and the scheduled inline reason | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n0["bob-cli-om: Wikilink completion in Bob's prose prompts [in_progress]"]
     n1["bob-cli-om.1: Fix bob's wikilink field range and ranking, publish shared vectors [closed]"]
     n2["bob-cli-om.10: Prose-field role lint and end-to-end walkthrough [in_progress]"]
-    n3["bob-cli-om.2: Obsidian link engine (field model, ranking port, metadata index) [in_progress]"]
+    n3["bob-cli-om.2: Obsidian link engine (field model, ranking port, metadata index) [closed]"]
     n4["bob-cli-om.3: proseField controller, LINK band, and the Work summary pilot [in_progress]"]
     n5["bob-cli-om.4: Standalone modal prompts [in_progress]"]
     n6["bob-cli-om.5: Task Card stages and the scheduled inline reason [in_progress]"]
@@ -83,7 +83,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-om.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-om.1.md) | [bob-cli-om.1](bob-cli-om.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.10/README.md) | [bob-cli-om.10](bob-cli-om.10.md) | 0 |
-| [bbugyi200.apollo.bob-cli-om.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md) | [bob-cli-om.2](bob-cli-om.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-om.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md) | [bob-cli-om.2](bob-cli-om.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md) | [bob-cli-om.3](bob-cli-om.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-om.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.4/README.md) | [bob-cli-om.4](bob-cli-om.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-om.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.5/README.md) | [bob-cli-om.5](bob-cli-om.5.md) | 0 |
@@ -98,3 +98,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`746f4d5`](https://github.com/bobs-org/bob-cli/commit/746f4d5a4aa5ada921ca8bce5d454a473ab4d0ed) | fix(capture): preserve wikilink fields and rank candidates | [bob-cli-om.1](bob-cli-om.1.md) | 2026-11-21 11:23:05 EST |
+| bob-plugins | [`bob-plugins@92f643d`](https://github.com/bobs-org/bob-plugins/commit/92f643dea982b557cd08200f532fd4e82749a2ad) | feat(nav): add prose wikilink link engine (field model, ranking, metadata index) | [bob-cli-om.2](bob-cli-om.2.md) | 2026-11-21 11:38:13 EST |
