@@ -23,7 +23,7 @@ nav-jump-repairs: in bob-navigation-hotkeys, fix the capsule icon and its traili
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-oe.8.3](bob-cli-oe.8.3.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-oe.8.3](bob-cli-oe.8.3.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -37,3 +37,15 @@ nav-jump-repairs: in bob-navigation-hotkeys, fix the capsule icon and its traili
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@9c4b401`](https://github.com/bobs-org/bob-plugins/commit/9c4b401e5ca9ed833b03607fa04ef06b322d7516) | feat(navigation): complete successor jump and landing flow | [bob-cli-oe.8.2](bob-cli-oe.8.2.md) | 2026-11-20 22:20:55 EST |
 | bob-plugins | [`bob-plugins@767a597`](https://github.com/bobs-org/bob-plugins/commit/767a59707c23c7dae9108891d5188eea19670805) | fix(navigation): park pinned checklist closes without duplicate answers | [bob-cli-oe.8.2](bob-cli-oe.8.2.md) | 2026-11-21 07:57:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oe.8.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.2.md
+
+<!-- sase:referenced-by:end -->

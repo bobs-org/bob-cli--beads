@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/successor_jump_pin.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-oh][2] | Found during the bob-cli-oe landing review; the epic's JS4-style vectors for ID-less rows are blocked by this panic |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/successor_jump_pin.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-oh/README.md
@@ -60,7 +60,7 @@ flowchart TD
     n8["bob-cli-oe.8: Jump pin landing repairs [in_progress]"]
     n9["bob-cli-oe.8.1: bob capture jump landing finds the right ID-less task [closed]"]
     n10["bob-cli-oe.8.2: Obsidian card capsule, walk follow bookkeeping, and receipt copy [closed]"]
-    n11["bob-cli-oe.8.3: Land the jump after every write in task-status-cycler and block-id-prompt [in_progress]"]
+    n11["bob-cli-oe.8.3: Land the jump after every write in task-status-cycler and block-id-prompt [closed]"]
     n12["bob-cli-oe.8.4: Mac Pull-In card keeps the pin through inbox routing [closed]"]
     n0 --> n1
     n0 --> n2
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-oe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.7/README.md) | [bob-cli-oe.7](bob-cli-oe.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oe.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.1.md) | [bob-cli-oe.8.1](bob-cli-oe.8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oe.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.2/README.md) | [bob-cli-oe.8.2](bob-cli-oe.8.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-oe.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.3/README.md) | [bob-cli-oe.8.3](bob-cli-oe.8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.3/README.md) | [bob-cli-oe.8.3](bob-cli-oe.8.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oe.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.4.md) | [bob-cli-oe.8.4](bob-cli-oe.8.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oe.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.land/README.md) | [bob-cli-oe.8](bob-cli-oe.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.land.md) | [bob-cli-oe](README.md) | 0 |
@@ -114,6 +114,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9c4b401`](https://github.com/bobs-org/bob-plugins/commit/9c4b401e5ca9ed833b03607fa04ef06b322d7516) | feat(navigation): complete successor jump and landing flow | [bob-cli-oe.8.2](bob-cli-oe.8.2.md) | 2026-11-20 22:20:55 EST |
 | bob-cli | [`d27041c`](https://github.com/bobs-org/bob-cli/commit/d27041cd82437310afa818909363f5e0c66cdae6) | fix(capture): settle ID-less successor jump landings | [bob-cli-oe.8.1](bob-cli-oe.8.1.md) | 2026-11-20 22:42:31 EST |
 | bob-plugins | [`bob-plugins@767a597`](https://github.com/bobs-org/bob-plugins/commit/767a59707c23c7dae9108891d5188eea19670805) | fix(navigation): park pinned checklist closes without duplicate answers | [bob-cli-oe.8.2](bob-cli-oe.8.2.md) | 2026-11-21 07:57:25 EST |
+| bob-plugins | [`bob-plugins@6debb63`](https://github.com/bobs-org/bob-plugins/commit/6debb63b4c12caa600e58eb71b5044bb9b40a84a) | feat(task-status-cycler): implement cycler jump ordering | [bob-cli-oe.8.3](bob-cli-oe.8.3.md) | 2026-11-21 08:26:02 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -123,8 +124,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oe.1][1] | Need the epic design, phase notes, and prior-work status before implementation | 1 |
 | read-by | [agent:bob-cli-oe.2][2] | Need parent epic scope and plan context | 1 |
+| read-by | [agent:bob-cli-oe.8.2][3] | Need final DECISIONS governing jump behavior | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.2.md
 
 <!-- sase:referenced-by:end -->
