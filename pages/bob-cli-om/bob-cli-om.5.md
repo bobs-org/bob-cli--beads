@@ -33,3 +33,15 @@ task-card-prompts: opt the Task Card picker stages S7-S10 into links through the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@cdd9df7`](https://github.com/bobs-org/bob-plugins/commit/cdd9df707ad1f2b1d1a1ff23a6c5ee2f920067fb) | feat(nav): complete \[\[ links in Task Card reason stages and the scheduled inline reason | [bob-cli-om.5](bob-cli-om.5.md) | 2026-11-21 13:44:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-om.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.5/README.md
+
+<!-- sase:referenced-by:end -->

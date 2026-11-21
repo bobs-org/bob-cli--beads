@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/prose_wikilink_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_wikilink_completion.md
 
@@ -24,6 +24,10 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Typing `[[` in any Bob-owned field that writes Markdown prose into the vault (intentions, Work/Rotten/Cancel/Schedule Log reasons, record text, notebook summaries, the Mac Pull-In reason) opens one consistent LINK band that inserts exactly the link it shows, never submits a half-typed link, never touches text after the caret, and never writes the vault. Identifier and filter fields stay literal.
+
+## Notes
+
+[2026-11-21T19:13:56Z · bob-cli-o6.6.1.5] DISCOVERED ISSUE: this epic's nav doc additions pushed bob-plugins docs/bob-navigation-hotkeys.md past the 6000-word reference cap. On a clean worktree at bob-plugins 24bc9cc, npm run docs:check lint exits 1 with 'docs/reference/plugins/bob-navigation-hotkeys.md:1: budget: over budget at 6302 words (cap 6000 for reference/)'; plugin-apis.md also warns at 8274/8000. wc growth: 983076e 8631 -> 79fe2e1 (om.3) 8918 -> 24bc9cc (om.4) 8973. The landing should trim the page back under the cap (tracked by task bob-cli-ob, now +1'd with this evidence). Reported by bob-cli-o6.6.1.5.
 
 ## Phases
 
@@ -35,8 +39,8 @@ Typing `[[` in any Bob-owned field that writes Markdown prose into the vault (in
 | [bob-cli-om.3](bob-cli-om.3.md) | proseField controller, LINK band, and the Work summary pilot | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.4](bob-cli-om.4.md) | Standalone modal prompts | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.5](bob-cli-om.5.md) | Task Card stages and the scheduled inline reason | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-om.6](bob-cli-om.6.md) | Intention Card fields | ✓ closed | medium | 2026-11-21 | 1 | 0 |
-| [bob-cli-om.7](bob-cli-om.7.md) | Record Card typed stages and link-stage convergence | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-om.6](bob-cli-om.6.md) | Intention Card fields | ✓ closed | medium | 2026-11-21 | 1 | 1 |
+| [bob-cli-om.7](bob-cli-om.7.md) | Record Card typed stages and link-stage convergence | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.8](bob-cli-om.8.md) | bob capture-complete --links-only | ✓ closed | small | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.9](bob-cli-om.9.md) | Mac Pull-In reason link band | ✓ closed | medium | 2026-11-21 | 1 | 0 |
 
@@ -52,7 +56,7 @@ flowchart TD
     n5["bob-cli-om.4: Standalone modal prompts [closed]"]
     n6["bob-cli-om.5: Task Card stages and the scheduled inline reason [closed]"]
     n7["bob-cli-om.6: Intention Card fields [closed]"]
-    n8["bob-cli-om.7: Record Card typed stages and link-stage convergence [in_progress]"]
+    n8["bob-cli-om.7: Record Card typed stages and link-stage convergence [closed]"]
     n9["bob-cli-om.8: bob capture-complete --links-only [closed]"]
     n10["bob-cli-om.9: Mac Pull-In reason link band [closed]"]
     n0 --> n1
@@ -89,8 +93,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-om.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md) | [bob-cli-om.3](bob-cli-om.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.4/README.md) | [bob-cli-om.4](bob-cli-om.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.5/README.md) | [bob-cli-om.5](bob-cli-om.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-om.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.6/README.md) | [bob-cli-om.6](bob-cli-om.6.md) | 0 |
-| [bbugyi200.apollo.bob-cli-om.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md) | [bob-cli-om.7](bob-cli-om.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-om.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.6/README.md) | [bob-cli-om.6](bob-cli-om.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-om.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md) | [bob-cli-om.7](bob-cli-om.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md) | [bob-cli-om.8](bob-cli-om.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.9/README.md) | [bob-cli-om.9](bob-cli-om.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-om.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.land/README.md) | [bob-cli-om](README.md) | 0 |
@@ -105,6 +109,8 @@ flowchart TD
 | bob-plugins | [`bob-plugins@79fe2e1`](https://github.com/bobs-org/bob-plugins/commit/79fe2e15e25956aa913944d97cb8605f5ad65ad6) | feat(nav): add proseField LINK band and Work summary \[\[ pilot | [bob-cli-om.3](bob-cli-om.3.md) | 2026-11-21 12:31:56 EST |
 | bob-plugins | [`bob-plugins@cdd9df7`](https://github.com/bobs-org/bob-plugins/commit/cdd9df707ad1f2b1d1a1ff23a6c5ee2f920067fb) | feat(nav): complete \[\[ links in Task Card reason stages and the scheduled inline reason | [bob-cli-om.5](bob-cli-om.5.md) | 2026-11-21 13:44:18 EST |
 | bob-plugins | [`bob-plugins@24bc9cc`](https://github.com/bobs-org/bob-plugins/commit/24bc9cc6f87df9366afe17d121503cdb5a47408d) | feat(nav): wire \[\[ completion into the standalone modal prompts | [bob-cli-om.4](bob-cli-om.4.md) | 2026-11-21 14:03:19 EST |
+| bob-plugins | [`bob-plugins@da0737b`](https://github.com/bobs-org/bob-plugins/commit/da0737b159bb9465fbb3836c8e7720f4510c1455) | feat(ledger-tools): complete \[\[ wikilinks in the Intention Card fields | [bob-cli-om.6](bob-cli-om.6.md) | 2026-11-21 14:23:32 EST |
+| bob-plugins | [`bob-plugins@e6d7aed`](https://github.com/bobs-org/bob-plugins/commit/e6d7aed7fdc21825d56a785618e730e56af86a0b) | feat(ledger-tools): complete \[\[ links in the Record Card typed stages | [bob-cli-om.7](bob-cli-om.7.md) | 2026-11-21 14:36:58 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -112,10 +118,14 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-om.2][1] | Need epic plan and decisions context | 1 |
-| read-by | [agent:bob-cli-om.8][2] | Need epic plan and decisions | 1 |
+| read-by | [agent:bob-cli-o6.6.1.5][1] | Check epic notes for an existing DISCOVERED ISSUE about the nav docs budget | 2 |
+| read-by | [agent:bob-cli-om.2][2] | Need epic plan and decisions context | 1 |
+| read-by | [agent:bob-cli-om.6][3] | Check sibling phase states and epic notes | 1 |
+| read-by | [agent:bob-cli-om.8][4] | Need epic plan and decisions | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-o6.6.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.6/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md
 
 <!-- sase:referenced-by:end -->
