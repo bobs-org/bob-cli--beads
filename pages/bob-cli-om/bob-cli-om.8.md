@@ -20,13 +20,19 @@ cli-links-only: add -L/--links-only and -S/--source-note to bob capture-complete
 ## Dependencies
 
 - **Depends on:** [bob-cli-om.1](bob-cli-om.1.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-om.9](bob-cli-om.9.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.9](bob-cli-om.9.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-om.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md) | [bob-cli-om.8](bob-cli-om.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-om.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md) | [bob-cli-om.8](bob-cli-om.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`270b5b2`](https://github.com/bobs-org/bob-cli/commit/270b5b23fb38d15663c68efd85f3bde4161d4bd6) | feat(capture-complete): add -L/--links-only and -S/--source-note | [bob-cli-om.8](bob-cli-om.8.md) | 2026-11-21 12:21:19 EST |
 
 <!-- sase:referenced-by:start -->
 

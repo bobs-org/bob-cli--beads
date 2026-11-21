@@ -23,7 +23,7 @@ link-band: build the two-mode proseField controller and the LINK band (rendering
 
 - **Depends on:** [bob-cli-om.2](bob-cli-om.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-om.4](bob-cli-om.4.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-om.5](bob-cli-om.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.5](bob-cli-om.5.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-om.6](bob-cli-om.6.md) ◐ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-om.7](bob-cli-om.7.md) ◐ · ⧖ 2026-11-21
 
@@ -31,10 +31,18 @@ link-band: build the two-mode proseField controller and the LINK band (rendering
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-om.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md) | [bob-cli-om.3](bob-cli-om.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-om.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md) | [bob-cli-om.3](bob-cli-om.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@79fe2e1`](https://github.com/bobs-org/bob-plugins/commit/79fe2e15e25956aa913944d97cb8605f5ad65ad6) | feat(nav): add proseField LINK band and Work summary \[\[ pilot | [bob-cli-om.3](bob-cli-om.3.md) | 2026-11-21 12:31:56 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-om.3][1] | Need the phase scope, notes, and design file before continuing implementation | 6 |
+| read-by | [agent:bob-cli-oo.1][2] | Need om.3 status because vault stamp still names its dirty workspace 10 deploy | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.1/README.md
+
+<!-- sase:referenced-by:end -->

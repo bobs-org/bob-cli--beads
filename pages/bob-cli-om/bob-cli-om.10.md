@@ -14,7 +14,7 @@ prose-lint: mark every text control in bob-plugins with a role (prose, literal, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-om.4](bob-cli-om.4.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-om.5](bob-cli-om.5.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-om.5](bob-cli-om.5.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-om.6](bob-cli-om.6.md) ◐ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-om.7](bob-cli-om.7.md) ◐ · ⧖ 2026-11-21
 
