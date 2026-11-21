@@ -40,7 +40,7 @@ FOLLOW-UP OUTCOMES:
 - **Depends on:** [bob-cli-oj.1](bob-cli-oj.1.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-oj.2](bob-cli-oj.2.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-oj.4](bob-cli-oj.4.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oj.7](bob-cli-oj.7.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.7](bob-cli-oj.7.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

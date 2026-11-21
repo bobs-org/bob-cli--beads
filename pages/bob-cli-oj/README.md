@@ -56,7 +56,7 @@ Left for you:
 | [bob-cli-oj.4](bob-cli-oj.4.md) | Grouped record walk model and the record group provider | ✓ closed | medium | 2026-11-21 | 1 | 2 |
 | [bob-cli-oj.5](bob-cli-oj.5.md) | The group row at the bottom of property cards | ✓ closed | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-oj.6](bob-cli-oj.6.md) | Group arms and hints in the links walker footer | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-oj.7](bob-cli-oj.7.md) | Album adoption, real-Obsidian proof, and final deploy | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-oj.7](bob-cli-oj.7.md) | Album adoption, real-Obsidian proof, and final deploy | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oj.8](bob-cli-oj.8.md) | Accepted memory updates | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 
 ## Lineage
@@ -80,7 +80,7 @@ flowchart TD
     n14["bob-cli-oj.5.1.3: Grouped record walk rail and the album card's \"walks by\" pill [closed]"]
     n15["bob-cli-oj.5.1.4: Preview matrix, real-Obsidian e2e runs, and final deploy for the group rail [closed]"]
     n16["bob-cli-oj.6: Group arms and hints in the links walker footer [closed]"]
-    n17["bob-cli-oj.7: Album adoption, real-Obsidian proof, and final deploy [in_progress]"]
+    n17["bob-cli-oj.7: Album adoption, real-Obsidian proof, and final deploy [closed]"]
     n18["bob-cli-oj.8: Accepted memory updates [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-oj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md) | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.5.1.land.md) | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.8/README.md) | [bob-cli-oj.8](bob-cli-oj.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.land/README.md) | [bob-cli-oj](README.md) | 0 |
 
@@ -166,6 +166,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@cb70f82`](https://github.com/bobs-org/bob-plugins/commit/cb70f8291aeffa9d8724ea08b51a30ab07671381) | feat(ledger-tools): prove the group rail with a real-builder preview matrix and fix what it found | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 2026-11-21 14:54:59 EST |
 | bob-plugins | [`bob-plugins@24ed171`](https://github.com/bobs-org/bob-plugins/commit/24ed1719709183364382e64a48153c01224fea1d) | feat(ledger-tools): declutter the group row and footer group arms with skip marks | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 2026-11-21 17:11:32 EST |
 | bob-cli--plans | [`bob-cli--plans@b8a4c00`](https://github.com/bobs-org/bob-cli--plans/commit/b8a4c00646dae5071489f1a2214c3f31a0edf796) | chore(plans): mark group\_rail done after landing bob-cli-oj.5.1 | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 2026-11-21 17:12:20 EST |
+| bob-plugins | [`bob-plugins@235c7db`](https://github.com/bobs-org/bob-plugins/commit/235c7db27ea06bea003db3822d908e08ce2f2c04) | test(nav): add the real-Obsidian \[N / \]N group-jump walkthrough | [bob-cli-oj.7](bob-cli-oj.7.md) | 2026-11-21 18:51:25 EST |
 
 <!-- sase:referenced-by:start -->
 

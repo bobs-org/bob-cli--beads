@@ -13,7 +13,7 @@ glossary: apply only the memory decisions answered yes, then run `sase memory in
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oj.7](bob-cli-oj.7.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.7](bob-cli-oj.7.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
