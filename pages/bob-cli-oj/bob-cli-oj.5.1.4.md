@@ -14,7 +14,7 @@ rail-proof: add scripts/preview-group-rail.cjs over the real card builders, rend
 ## Dependencies
 
 - **Depends on:** [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) ✓ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

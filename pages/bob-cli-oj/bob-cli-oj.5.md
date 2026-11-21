@@ -34,8 +34,10 @@ group-rail: add the kit group-row builder and the shared missing-target look (da
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-oj.6][1] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 2 |
+| read-by | [agent:bob-cli-oj.5.1.2][1] | Need outer DECISIONS for the group-rail phase | 1 |
+| read-by | [agent:bob-cli-oj.6][2] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->

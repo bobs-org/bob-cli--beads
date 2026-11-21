@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/group_rail.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/group_rail.md
 
@@ -38,7 +38,9 @@ Day, week, and quarter cards and grouped record walk rails show a quiet group ro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.5.1.1][1] | Need the epic decisions and notes | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][2] | Need the epic decisions and phases | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
 
 <!-- sase:referenced-by:end -->

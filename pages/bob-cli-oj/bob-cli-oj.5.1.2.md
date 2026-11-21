@@ -33,3 +33,15 @@ calendar-rail: compute one nav answer per card from walkMode.links v7 (fallback 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@63e2f64`](https://github.com/bobs-org/bob-plugins/commit/63e2f6418a4f6135b59884ed888b67ccd9c14d68) | feat(ledger-tools): day, week, and quarter cards adopt the group row | [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) | 2026-11-21 13:15:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.5.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->
