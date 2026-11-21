@@ -24,7 +24,7 @@ note-caption: render notes as a muted italic dash-led caption in Live Preview, R
 ## Dependencies
 
 - **Depends on:** [bob-cli-oo.1](bob-cli-oo.1.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oo.3](bob-cli-oo.3.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oo.3](bob-cli-oo.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

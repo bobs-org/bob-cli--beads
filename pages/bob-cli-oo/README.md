@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bank_row_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_row_notes.md
 
 <!-- sase:links:end -->
@@ -33,8 +35,8 @@ During the ]b bank walk, Space on the Category card writes a short note into the
 |---|---|---|---|---|---:|---:|
 | [bob-cli-oo.1](bob-cli-oo.1.md) | Shared note cleaner, disjoint note spans, and prerequisite fixes | ✓ closed | medium | 2026-11-21 | 1 | 2 |
 | [bob-cli-oo.2](bob-cli-oo.2.md) | Quiet prose caption on every row surface | ✓ closed | small | 2026-11-21 | 1 | 1 |
-| [bob-cli-oo.3](bob-cli-oo.3.md) | Pure note normalizer, write planner, and stage preview model | ◐ in_progress | small | 2026-11-21 | 1 | 3 |
-| [bob-cli-oo.4](bob-cli-oo.4.md) | Space keymap, in-card note stage, stay-on-row commit, command, and docs | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-oo.3](bob-cli-oo.3.md) | Pure note normalizer, write planner, and stage preview model | ✓ closed | small | 2026-11-21 | 1 | 3 |
+| [bob-cli-oo.4](bob-cli-oo.4.md) | Space keymap, in-card note stage, stay-on-row commit, command, and docs | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 
 ## Lineage
 
@@ -43,8 +45,8 @@ flowchart TD
     n0["bob-cli-oo: Bank row notes: Space opens a note stage on the Category card [in_progress]"]
     n1["bob-cli-oo.1: Shared note cleaner, disjoint note spans, and prerequisite fixes [closed]"]
     n2["bob-cli-oo.2: Quiet prose caption on every row surface [closed]"]
-    n3["bob-cli-oo.3: Pure note normalizer, write planner, and stage preview model [in_progress]"]
-    n4["bob-cli-oo.4: Space keymap, in-card note stage, stay-on-row commit, command, and docs [in_progress]"]
+    n3["bob-cli-oo.3: Pure note normalizer, write planner, and stage preview model [closed]"]
+    n4["bob-cli-oo.4: Space keymap, in-card note stage, stay-on-row commit, command, and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -61,7 +63,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-oo.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.1/README.md) | [bob-cli-oo.1](bob-cli-oo.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-oo.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.2/README.md) | [bob-cli-oo.2](bob-cli-oo.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oo.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oo.3.md) | [bob-cli-oo.3](bob-cli-oo.3.md) | 3 |
-| [bbugyi200.apollo.bob-cli-oo.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.4/README.md) | [bob-cli-oo.4](bob-cli-oo.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oo.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.4/README.md) | [bob-cli-oo.4](bob-cli-oo.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oo.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.land/README.md) | [bob-cli-oo](README.md) | 0 |
 
 ## Commits
@@ -74,3 +76,16 @@ flowchart TD
 | bob-cli | [`dfe20ca`](https://github.com/bobs-org/bob-cli/commit/dfe20ca3040b1328b7356083fbb0f8afd4d97d80) | docs(glossary): describe bank row notes | [bob-cli-oo.3](bob-cli-oo.3.md) | 2026-11-21 14:36:44 EST |
 | bob-plugins | [`bob-plugins@303e5db`](https://github.com/bobs-org/bob-plugins/commit/303e5dbf534dea3e8225b0f12941e928ddf4490d) | feat(bank): add pure row note write model | [bob-cli-oo.3](bob-cli-oo.3.md) | 2026-11-21 14:44:10 EST |
 | bob-plugins | [`bob-plugins@909b30f`](https://github.com/bobs-org/bob-plugins/commit/909b30fdfa004886445f97eed1fa70ec78d103fc) | test(task-status-cycler): refresh shared successor fixture | [bob-cli-oo.3](bob-cli-oo.3.md) | 2026-11-21 14:58:31 EST |
+| bob-cli | [`fc27bf1`](https://github.com/bobs-org/bob-cli/commit/fc27bf1ad8694d35bf5ce3729d7a2b3adb5f9d1e) | docs(bank): document the Category card note stage and regenerate the glossary | [bob-cli-oo.4](bob-cli-oo.4.md) | 2026-11-21 16:03:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-o6.6.1.land][1] | Check active epic notes for already-recorded docs gate issues before routing landing follow-ups | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-o6.6.1.land/README.md
+
+<!-- sase:referenced-by:end -->
