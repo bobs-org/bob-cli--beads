@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/spotify_episode_refs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/spotify_episode_refs.md
 
 <!-- sase:links:end -->
@@ -27,7 +29,7 @@ Every Spotify episode link given to `bob ref create`, capture, or Keep becomes o
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-os.1](bob-cli-os.1.md) | General capture fixes the audit exposed | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-os.1](bob-cli-os.1.md) | General capture fixes the audit exposed | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.10](bob-cli-os.10.md) | Podcast surfaces across repos and the legacy refs | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 | [bob-cli-os.2](bob-cli-os.2.md) | Spotify link identity, canonical dedupe, and routing guards | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.3](bob-cli-os.3.md) | Episode metadata ladder and show-notes segmentation | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
@@ -43,7 +45,7 @@ Every Spotify episode link given to `bob ref create`, capture, or Keep becomes o
 ```mermaid
 flowchart TD
     n0["bob-cli-os: Spotify episodes become first-class podcast references [in_progress]"]
-    n1["bob-cli-os.1: General capture fixes the audit exposed [in_progress]"]
+    n1["bob-cli-os.1: General capture fixes the audit exposed [closed]"]
     n2["bob-cli-os.10: Podcast surfaces across repos and the legacy refs [in_progress]"]
     n3["bob-cli-os.2: Spotify link identity, canonical dedupe, and routing guards [closed]"]
     n4["bob-cli-os.3: Episode metadata ladder and show-notes segmentation [in_progress]"]
@@ -80,7 +82,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-os.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.1/README.md) | [bob-cli-os.1](bob-cli-os.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-os.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.1/README.md) | [bob-cli-os.1](bob-cli-os.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md) | [bob-cli-os.10](bob-cli-os.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-os.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.2/README.md) | [bob-cli-os.2](bob-cli-os.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.3/README.md) | [bob-cli-os.3](bob-cli-os.3.md) | 0 |
@@ -97,3 +99,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ddc9e17`](https://github.com/bobs-org/bob-cli/commit/ddc9e177548417ca4bfe0b76107e00a2d649e2b6) | feat(ref)!: give Spotify links canonical identity and refuse non-episodes | [bob-cli-os.2](bob-cli-os.2.md) | 2026-11-21 16:05:39 EST |
+| bob-cli | [`0114a6c`](https://github.com/bobs-org/bob-cli/commit/0114a6cc1e560df93de50edaa8821db627055702) | fix(ref): keep base62 ids out of stems, save ingest source stores, and print the recorded URL in mastheads | [bob-cli-os.1](bob-cli-os.1.md) | 2026-11-21 16:24:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-os.2][1] | Need epic context and phase list | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.2/README.md
+
+<!-- sase:referenced-by:end -->

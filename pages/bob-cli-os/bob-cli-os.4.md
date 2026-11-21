@@ -13,7 +13,7 @@ dossier_render: add the offline adapter `render` op and the podcast-episode doss
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-os.1](bob-cli-os.1.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-os.1](bob-cli-os.1.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-os.5](bob-cli-os.5.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
