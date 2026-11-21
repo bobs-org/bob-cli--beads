@@ -14,7 +14,7 @@ capture-reqs: admit requirement bullets at every eligible capture position and d
 ## Dependencies
 
 - **Blocks:** [bob-cli-on.13](bob-cli-on.13.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-on.3](bob-cli-on.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.3](bob-cli-on.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.8](bob-cli-on.8.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

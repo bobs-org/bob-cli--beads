@@ -37,7 +37,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bob-cli-on.16](bob-cli-on.16.md) | Reviewed vault migration | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.17](bob-cli-on.17.md) | Memory records for task requirements | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.2](bob-cli-on.2.md) | Keep every task reader and outside-text writer off requirement lines | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
-| [bob-cli-on.3](bob-cli-on.3.md) | The task block layout module and requirement line writers | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-on.3](bob-cli-on.3.md) | The task block layout module and requirement line writers | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-on.4](bob-cli-on.4.md) | The bob task tidy command | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.5](bob-cli-on.5.md) | The bob task rename-drawer command | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.6](bob-cli-on.6.md) | Capture grammar, spans, typing rewrite, and NOTES routing for requirements | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
@@ -60,7 +60,7 @@ flowchart TD
     n8["bob-cli-on.16: Reviewed vault migration [in_progress]"]
     n9["bob-cli-on.17: Memory records for task requirements [in_progress]"]
     n10["bob-cli-on.2: Keep every task reader and outside-text writer off requirement lines [in_progress]"]
-    n11["bob-cli-on.3: The task block layout module and requirement line writers [in_progress]"]
+    n11["bob-cli-on.3: The task block layout module and requirement line writers [closed]"]
     n12["bob-cli-on.4: The bob task tidy command [in_progress]"]
     n13["bob-cli-on.5: The bob task rename-drawer command [in_progress]"]
     n14["bob-cli-on.6: Capture grammar, spans, typing rewrite, and NOTES routing for requirements [in_progress]"]
@@ -124,8 +124,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15/README.md) | [bob-cli-on.15](bob-cli-on.15.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.16](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.16/README.md) | [bob-cli-on.16](bob-cli-on.16.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.17](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.17/README.md) | [bob-cli-on.17](bob-cli-on.17.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.2/README.md) | [bob-cli-on.2](bob-cli-on.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.3/README.md) | [bob-cli-on.3](bob-cli-on.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.2.md) | [bob-cli-on.2](bob-cli-on.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.3/README.md) | [bob-cli-on.3](bob-cli-on.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.4/README.md) | [bob-cli-on.4](bob-cli-on.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.5/README.md) | [bob-cli-on.5](bob-cli-on.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6/README.md) | [bob-cli-on.6](bob-cli-on.6.md) | 0 |
@@ -139,3 +139,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a096143`](https://github.com/bobs-org/bob-cli/commit/a0961435506e4810841527ecd0b81505cb6d0632) | feat(task-reqs): add req forest recognizer contract | [bob-cli-on.1](bob-cli-on.1.md) | 2026-11-21 12:16:31 EST |
+| bob-cli | [`ca07094`](https://github.com/bobs-org/bob-cli/commit/ca070941c05b42840a40d87f0e4f6a6e0aab6090) | feat(task-reqs): add task block layout and req line writers | [bob-cli-on.3](bob-cli-on.3.md) | 2026-11-21 13:32:20 EST |

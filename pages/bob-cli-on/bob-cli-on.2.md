@@ -11,6 +11,12 @@
 
 reader-hardening: make projects sync, embedded-tree closes, loss and clobber guards, agenda, dataview emulation, archive moves, and lane/walk/stats counts treat only real #task lines as tasks; escape pasted checkboxes from gcal, gkeep, gmail, and highlights writers; add the offer-close SV case.
 
+## Notes
+
+[2026-11-21T17:51:08Z · bob-cli-on.2] PROPOSED FOLLOW-UP: just docs-check vault-format 6000-word overrun — pre-existing on this tree (6037/6000), already tracked by bob-cli-oc; this phase did not edit that page.
+
+[2026-11-21T17:51:14Z · bob-cli-on.2] PROPOSED FOLLOW-UP: just docs-check bob-navigation-hotkeys 6000-word overrun — pre-existing on this tree (6247/6000); historically bob-cli-jz, now closed. This phase did not edit that page.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.1](bob-cli-on.1.md) ✓ · ⧖ 2026-11-21
@@ -21,4 +27,4 @@ reader-hardening: make projects sync, embedded-tree closes, loss and clobber gua
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.2/README.md) | [bob-cli-on.2](bob-cli-on.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.2.md) | [bob-cli-on.2](bob-cli-on.2.md) | 0 |

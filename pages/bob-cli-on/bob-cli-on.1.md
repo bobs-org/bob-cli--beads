@@ -20,7 +20,7 @@ req-contract: retire the bob-cli-of epic, then add the recursive requirement rec
 ## Dependencies
 
 - **Blocks:** [bob-cli-on.2](bob-cli-on.2.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.3](bob-cli-on.3.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.3](bob-cli-on.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.9](bob-cli-on.9.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
@@ -34,3 +34,15 @@ req-contract: retire the bob-cli-of epic, then add the recursive requirement rec
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a096143`](https://github.com/bobs-org/bob-cli/commit/a0961435506e4810841527ecd0b81505cb6d0632) | feat(task-reqs): add req forest recognizer contract | [bob-cli-on.1](bob-cli-on.1.md) | 2026-11-21 12:16:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.1/README.md
+
+<!-- sase:referenced-by:end -->
