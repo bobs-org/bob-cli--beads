@@ -13,7 +13,7 @@ cycler-jump-ordering: make the Task Link Ctrl+Enter close and the unlink-plus-in
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oe.8.2](bob-cli-oe.8.2.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-oe.8.2](bob-cli-oe.8.2.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
