@@ -22,7 +22,7 @@ task-tidy: add `bob task tidy`, a previewed, one-commit repair of open task bloc
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.3](bob-cli-on.3.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.5](bob-cli-on.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.5](bob-cli-on.5.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

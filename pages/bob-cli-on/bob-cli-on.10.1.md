@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/obsidian_req_gestures.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_req_gestures.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Complete bob-cli-on.10 (the obsidian-gestures phase of plan:202611/task_requirem
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.land/README.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.10.1.1][1] | Need epic decisions and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md
+
+<!-- sase:referenced-by:end -->

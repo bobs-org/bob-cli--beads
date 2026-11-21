@@ -15,7 +15,7 @@ vault-migration: gate `bob task rename-drawer REQUIREMENTS NOTES` and one `bob t
 
 - **Depends on:** [bob-cli-on.10](bob-cli-on.10.md) ◐ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-on.5](bob-cli-on.5.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.5](bob-cli-on.5.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.9](bob-cli-on.9.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
