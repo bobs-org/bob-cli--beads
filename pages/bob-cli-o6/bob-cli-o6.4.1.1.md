@@ -21,6 +21,8 @@
 | related | file:explicit:c1d737b81078a806eca0ce52 | attached via sase artifact create --bead |
 | related | file:explicit:cc79220b38c7fa09e7f2b143 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -56,3 +58,15 @@ album-card: in bob-ledger-tools, give notebookHeaderNoteTitle the album title ru
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a68e29b`](https://github.com/bobs-org/bob-plugins/commit/a68e29be2b0bb50aee47a19d65a3485c207b59bb) | feat(ledger-tools): album card owns the title block from the title slot | [bob-cli-o6.4.1.1](bob-cli-o6.4.1.1.md) | 2026-11-20 15:03:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-o6.4.1.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.land.md
+
+<!-- sase:referenced-by:end -->

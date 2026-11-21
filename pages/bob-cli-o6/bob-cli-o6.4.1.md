@@ -66,6 +66,8 @@
 
 _… and 14 more_
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/collection_cards_title_block.md
 
 <!-- sase:links:end -->
@@ -106,3 +108,15 @@ Follow-up outcomes (all 13 phase proposals): .1#1 and .3#2 album Ctrl+J -> bob-c
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1a95b29`](https://github.com/bobs-org/bob-plugins/commit/1a95b292a96434d237aa6aa217c809ba17a282d8) | feat(ledger-tools): hide trailing title-block blanks and share the editor species badge | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 2026-11-21 08:15:36 EST |
 | bob-cli--plans | [`bob-cli--plans@8957bf8`](https://github.com/bobs-org/bob-cli--plans/commit/8957bf84c13c7856d7659ea5279ffbe8c5a619a2) | chore(plans): mark collection-cards title-block epic and closeout tale done | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 2026-11-21 08:16:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-o6.4.1.land][1] | Need the epic scope, children, and linked plan file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.land.md
+
+<!-- sase:referenced-by:end -->

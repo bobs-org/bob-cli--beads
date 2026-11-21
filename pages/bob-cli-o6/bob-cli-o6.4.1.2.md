@@ -23,6 +23,8 @@
 | related | file:explicit:d42cb2cd025278e448e5df6c | attached via sase artifact create --bead |
 | related | file:explicit:f0c604b18ca234048e388234 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -52,3 +54,15 @@ record-card: in bob-ledger-tools, rebuild the record sheet header as the kit tit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b8b7baf`](https://github.com/bobs-org/bob-plugins/commit/b8b7baf440e888cd94c948f5339cd37527928079) | feat(ledger-tools): record card owns the title block from the title slot | [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) | 2026-11-20 21:08:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-o6.4.1.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.land.md
+
+<!-- sase:referenced-by:end -->
