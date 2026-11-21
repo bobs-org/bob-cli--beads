@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_title_block.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_title_block.md
 
 <!-- sase:links:end -->
@@ -27,6 +29,10 @@ On desktop Obsidian, every album note, record note, canonical daily note, and we
 
 [2026-11-20T18:47:04Z · bob-cli-nu.land] DISCOVERED ISSUE: (routed by the bob-cli-nu land agent from bob-cli-nu.8 PROPOSED FOLLOW-UP #3) bob-cli just docs-check fails at lint on master 2443e0a4: 'docs/reference/vault-format.md:1: budget: over budget at 6016 words (cap 6000 for reference/)'. The overflow arrived with bb91c370 (SASE_BEAD=bob-cli-o6.3, album title key and bob albums tidy; +10/- lines in vault-format.md), so docs-check stops before its build/link/URL gates for every repo that runs it (bob-plugins npm run docs:check fails identically). Fix within this epic: trim at least 16 words from docs/reference/vault-format.md, or move the albums section to its own reference page under the approved plan with published URLs preserved. Reproduced 2026-11-20 by the bob-cli-nu lander with 'just docs-check' (bob-cli) and 'BOB_CLI_DIR=<bob-cli> npm run docs:check' (bob-plugins).
 
+[2026-11-21T02:16:38Z · bob-cli-o6.4.1.land] DISCOVERED ISSUE corroboration from bob-cli-o6.4.1.land: collection phases o6.4.1.1 #3, o6.4.1.2 #2 and o6.4.1.3 #1 independently hit vault-format.md 6016/6000-word lint failure. Existing bob-cli-oc corroborated, and source/history tie the overflow to your album-title-cli phase bb91c370 (o6.3), matching your existing discovery. This remains outer-epic work rather than an unrelated collection-card task. The collection closeout will separately repair the shared title-range trailing-blank contract gap (o6.4.1.1 #4), which also covers the day/period adopters.
+
+[2026-11-21T13:03:02Z · fe--code] DISCOVERED ISSUE: Independent reproduction on 2026-11-21: npm run docs:check in bob-plugins exits 1 on bob-cli HEAD d27041c at docs/reference/vault-format.md:1 (6016/6000 words). The file is untouched in this implementation. This confirms the existing bob-cli-oc failure still blocks the mounted plugin docs gate.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -34,7 +40,7 @@ On desktop Obsidian, every album note, record note, canonical daily note, and we
 | [bob-cli-o6.1](bob-cli-o6.1.md) | Title-slot spike and kit mount primitive (go/no-go) | ✓ closed | large | 2026-11-20 | 1 | 1 |
 | [bob-cli-o6.2](bob-cli-o6.2.md) | Identity kit: species tile, kicker, title row, rail, tokens, and title ownership | ✓ closed | large | 2026-11-20 | 1 | 1 |
 | [bob-cli-o6.3](bob-cli-o6.3.md) | Album \`title:\` key, H1-less album create, and \`bob albums tidy\` | ✓ closed | large | 2026-11-20 | 1 | 1 |
-| [bob-cli-o6.4](bob-cli-o6.4.md) | Album, record, and bank cards adopt the title block | ◐ in_progress | large | 2026-11-20 | 1 | 0 |
+| [bob-cli-o6.4](bob-cli-o6.4.md) | Album, record, and bank cards adopt the title block | ✓ closed | large | 2026-11-20 | 1 | 0 |
 | [bob-cli-o6.5](bob-cli-o6.5.md) | Day and period cards always mount as the title block with a docked rail | ✓ closed | large | 2026-11-20 | 1 | 1 |
 | [bob-cli-o6.6](bob-cli-o6.6.md) | Real-Obsidian proof, preview matrix, live album tidy, and final deploy | ◐ in_progress | large | 2026-11-20 | 1 | 0 |
 | [bob-cli-o6.7](bob-cli-o6.7.md) | Glossary updates the reviewer accepted | ◐ in_progress | small | 2026-11-20 | 1 | 0 |
@@ -47,8 +53,8 @@ flowchart TD
     n1["bob-cli-o6.1: Title-slot spike and kit mount primitive (go/no-go) [closed]"]
     n2["bob-cli-o6.2: Identity kit: species tile, kicker, title row, rail, tokens, and title ownership [closed]"]
     n3["bob-cli-o6.3: Album `title:` key, H1-less album create, and `bob albums tidy` [closed]"]
-    n4["bob-cli-o6.4: Album, record, and bank cards adopt the title block [in_progress]"]
-    n5["bob-cli-o6.4.1: Collection cards adopt the title block: album, record, and bank cards wear their species, and album and record cards own the note title from the title slot [in_progress]"]
+    n4["bob-cli-o6.4: Album, record, and bank cards adopt the title block [closed]"]
+    n5["bob-cli-o6.4.1: Collection cards adopt the title block: album, record, and bank cards wear their species, and album and record cards own the note title from the title slot [closed]"]
     n6["bob-cli-o6.4.1.1: Album card becomes the title block and owns the album title from the title slot [closed]"]
     n7["bob-cli-o6.4.1.2: Record card wears the RECORD kicker and sheet tile, mounts in the title slot, and migrates its title selectors onto the kit [closed]"]
     n8["bob-cli-o6.4.1.3: Bank Setup card and the two card editors show the species tile and word [closed]"]
@@ -88,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.1.md) | [bob-cli-o6.4.1.1](bob-cli-o6.4.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.2.md) | [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.3.md) | [bob-cli-o6.4.1.3](bob-cli-o6.4.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-o6.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.4.1.land/README.md) | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.4.1.land/README.md) | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.5.md) | [bob-cli-o6.5](bob-cli-o6.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6/README.md) | [bob-cli-o6.6](bob-cli-o6.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md) | [bob-cli-o6.7](bob-cli-o6.7.md) | 0 |
@@ -105,3 +111,16 @@ flowchart TD
 | bob-plugins | [`bob-plugins@eed318e`](https://github.com/bobs-org/bob-plugins/commit/eed318e0542a09d99278ff936763ab1666d6d3ee) | feat(ledger-tools): day and period cards own the title block | [bob-cli-o6.5](bob-cli-o6.5.md) | 2026-11-20 14:39:50 EST |
 | bob-plugins | [`bob-plugins@a68e29b`](https://github.com/bobs-org/bob-plugins/commit/a68e29be2b0bb50aee47a19d65a3485c207b59bb) | feat(ledger-tools): album card owns the title block from the title slot | [bob-cli-o6.4.1.1](bob-cli-o6.4.1.1.md) | 2026-11-20 15:03:15 EST |
 | bob-plugins | [`bob-plugins@b8b7baf`](https://github.com/bobs-org/bob-plugins/commit/b8b7baf440e888cd94c948f5339cd37527928079) | feat(ledger-tools): record card owns the title block from the title slot | [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) | 2026-11-20 21:08:59 EST |
+| bob-plugins | [`bob-plugins@1a95b29`](https://github.com/bobs-org/bob-plugins/commit/1a95b292a96434d237aa6aa217c809ba17a282d8) | feat(ledger-tools): hide trailing title-block blanks and share the editor species badge | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 2026-11-21 08:15:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.2][1] | Precondition: calendar-groups must not edit fragments an open o6 phase is changing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md
+
+<!-- sase:referenced-by:end -->
