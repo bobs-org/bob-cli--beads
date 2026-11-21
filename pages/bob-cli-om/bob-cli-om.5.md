@@ -19,7 +19,7 @@ task-card-prompts: opt the Task Card picker stages S7-S10 into links through the
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-om.10](bob-cli-om.10.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.10](bob-cli-om.10.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-om.3](bob-cli-om.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents

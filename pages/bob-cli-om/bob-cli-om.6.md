@@ -23,7 +23,7 @@ intention-card: attach proseField to the Intention Card's intention input, summa
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-om.10](bob-cli-om.10.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.10](bob-cli-om.10.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-om.3](bob-cli-om.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents

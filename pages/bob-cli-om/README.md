@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/prose_wikilink_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_wikilink_completion.md
 
@@ -34,7 +34,7 @@ Typing `[[` in any Bob-owned field that writes Markdown prose into the vault (in
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-om.1](bob-cli-om.1.md) | Fix bob's wikilink field range and ranking, publish shared vectors | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-om.10](bob-cli-om.10.md) | Prose-field role lint and end-to-end walkthrough | ◐ in_progress | small | 2026-11-21 | 1 | 1 |
+| [bob-cli-om.10](bob-cli-om.10.md) | Prose-field role lint and end-to-end walkthrough | ✓ closed | small | 2026-11-21 | 1 | 2 |
 | [bob-cli-om.2](bob-cli-om.2.md) | Obsidian link engine (field model, ranking port, metadata index) | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.3](bob-cli-om.3.md) | proseField controller, LINK band, and the Work summary pilot | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-om.4](bob-cli-om.4.md) | Standalone modal prompts | ✓ closed | medium | 2026-11-21 | 1 | 1 |
@@ -50,7 +50,7 @@ Typing `[[` in any Bob-owned field that writes Markdown prose into the vault (in
 flowchart TD
     n0["bob-cli-om: Wikilink completion in Bob's prose prompts [in_progress]"]
     n1["bob-cli-om.1: Fix bob's wikilink field range and ranking, publish shared vectors [closed]"]
-    n2["bob-cli-om.10: Prose-field role lint and end-to-end walkthrough [in_progress]"]
+    n2["bob-cli-om.10: Prose-field role lint and end-to-end walkthrough [closed]"]
     n3["bob-cli-om.2: Obsidian link engine (field model, ranking port, metadata index) [closed]"]
     n4["bob-cli-om.3: proseField controller, LINK band, and the Work summary pilot [closed]"]
     n5["bob-cli-om.4: Standalone modal prompts [closed]"]
@@ -88,7 +88,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-om.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-om.1.md) | [bob-cli-om.1](bob-cli-om.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-om.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.10/README.md) | [bob-cli-om.10](bob-cli-om.10.md) | 1 |
+| [bbugyi200.apollo.bob-cli-om.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.10/README.md) | [bob-cli-om.10](bob-cli-om.10.md) | 2 |
 | [bbugyi200.apollo.bob-cli-om.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md) | [bob-cli-om.2](bob-cli-om.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md) | [bob-cli-om.3](bob-cli-om.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.4/README.md) | [bob-cli-om.4](bob-cli-om.4.md) | 1 |
@@ -112,6 +112,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@da0737b`](https://github.com/bobs-org/bob-plugins/commit/da0737b159bb9465fbb3836c8e7720f4510c1455) | feat(ledger-tools): complete \[\[ wikilinks in the Intention Card fields | [bob-cli-om.6](bob-cli-om.6.md) | 2026-11-21 14:23:32 EST |
 | bob-plugins | [`bob-plugins@e6d7aed`](https://github.com/bobs-org/bob-plugins/commit/e6d7aed7fdc21825d56a785618e730e56af86a0b) | feat(ledger-tools): complete \[\[ links in the Record Card typed stages | [bob-cli-om.7](bob-cli-om.7.md) | 2026-11-21 14:36:58 EST |
 | bob-plugins | [`bob-plugins@c2e28ca`](https://github.com/bobs-org/bob-plugins/commit/c2e28cad167df64c11f373c8c98be5d3fb79ef74) | feat(bob-plugins): lint prose field roles and add walkthrough | [bob-cli-om.10](bob-cli-om.10.md) | 2026-11-21 15:03:32 EST |
+| bob-plugins | [`bob-plugins@fc806cf`](https://github.com/bobs-org/bob-plugins/commit/fc806cfeb6d92a28ee46c802a25df16cda485804) | fix(nav): back the LINK band out before Obsidian's Escape close and walk real prose hosts | [bob-cli-om.10](bob-cli-om.10.md) | 2026-11-21 16:24:56 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -120,15 +121,17 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.5][1] | Check epic notes for an existing DISCOVERED ISSUE about the nav docs budget | 2 |
-| read-by | [agent:bob-cli-om.2][2] | Need epic plan and decisions context | 1 |
-| read-by | [agent:bob-cli-om.6][3] | Check sibling phase states and epic notes | 1 |
-| read-by | [agent:bob-cli-om.7][4] | see sibling phase status and notes | 1 |
-| read-by | [agent:bob-cli-om.8][5] | Need epic plan and decisions | 1 |
+| read-by | [agent:bob-cli-o6.6.1.land][2] | Check active epic notes for already-recorded docs gate issues before routing landing follow-ups | 1 |
+| read-by | [agent:bob-cli-om.2][3] | Need epic plan and decisions context | 1 |
+| read-by | [agent:bob-cli-om.6][4] | Check sibling phase states and epic notes | 1 |
+| read-by | [agent:bob-cli-om.7][5] | see sibling phase status and notes | 1 |
+| read-by | [agent:bob-cli-om.8][6] | Need epic plan and decisions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-o6.6.1.5/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.6/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-o6.6.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.6/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md
 
 <!-- sase:referenced-by:end -->
