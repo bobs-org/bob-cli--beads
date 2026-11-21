@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/title_block_final_proof.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:a32022c60d3fc54dd426ac59 | attached via sase artifact create --bead |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/title_block_final_proof.md
 
@@ -69,17 +69,19 @@ Also found while landing:
 | read-by | [agent:bob-cli-o6.6.1.1][1] | Need parent DECISIONS, notes, and whether earlier title-walkthrough work already landed | 1 |
 | read-by | [agent:bob-cli-o6.6.1.3][2] | Need parent epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-o6.6.1.5][3] | Need epic decisions and notes for final gates phase | 1 |
-| read-by | [agent:bob-cli-oj.5.1.1][4] | Check which fragments the open o6.6.1 phases are changing | 2 |
-| read-by | [agent:bob-cli-oj.5.1.2][5] | Check which fragments open o6.6.1 phases touch | 1 |
-| read-by | [agent:bob-cli-oj.5.1.3][6] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
-| read-by | [agent:bob-cli-oj.5.1.4][7] | Coordination: which o6.6.1 phases are open and the files they own | 1 |
+| read-by | [agent:bob-cli-o6.6.1.land][4] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][5] | Check which fragments the open o6.6.1 phases are changing | 2 |
+| read-by | [agent:bob-cli-oj.5.1.2][6] | Check which fragments open o6.6.1 phases touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][7] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
+| read-by | [agent:bob-cli-oj.5.1.4][8] | Coordination: which o6.6.1 phases are open and the files they own | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
 
 <!-- sase:referenced-by:end -->
