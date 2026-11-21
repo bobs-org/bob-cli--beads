@@ -35,3 +35,15 @@ jump-docs-memory: update bob-cli `docs/freshness.md` §6 for the pinned-close pa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8f703cc`](https://github.com/bobs-org/bob-cli/commit/8f703ccbe4c5ee6a7b087be6ee5d5f6edac89b08) | docs(freshness): park the walk on a pinned successor close | [bob-cli-oe.7](bob-cli-oe.7.md) | 2026-11-20 21:03:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oe.7][1] | Need notes from earlier agents on remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.7/README.md
+
+<!-- sase:referenced-by:end -->

@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/successor_jump_pin.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-oh][2] | Found during the bob-cli-oe landing review; the epic's JS4-style vectors for ID-less rows are blocked by this panic |
 
 _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/successor_jump_pin.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-oh/README.md
 
 <!-- sase:links:end -->
 
@@ -25,15 +27,21 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 On the successor card in Obsidian and in Mac Capture, Ctrl+J pins one offer as the jump successor. The pinned offer can still be left open, pulled in, marked Done, or canceled. Once every write of the triggering close or capture has landed, Obsidian opens that task's note and focuses its line. The pin never writes to the vault, wins over the Cmd+Return open-notes landing, parks a ]s walk instead of advancing it, and never fails the close if the target can't be found.
 
+## Notes
+
+[2026-11-21T02:35:32Z · bob-cli-oe.land] LAND TRIAGE of PROPOSED FOLLOW-UPs: (1) vault-format.md 6016/6000 reference budget (oe.1 #1, oe.2 #1, oe.3 #1, oe.4 #2, oe.5 #2, oe.6 #1, oe.7 #1) — not caused by the epic (file untouched, wc 6630 before and after); duplicate of bob-cli-oc, +1 recorded. (2) ledger-tools perf flakes event-link-times / frees-marks (oe.3 #1, oe.4 #1, oe.5 #1) — not caused (ledger-tools byte-identical); duplicates of bob-cli-km and bob-cli-io, +1 recorded on each. (3) nav-hotkeys.md ~3 words headroom and plugin-apis.md 8044/8000 develop budget (oe.2 #2, oe.4 #2, oe.5 #2) — headroom is bob-cli-ob, +1 recorded; the epic's own ~212-word growth that pushed plugin-apis.md over its cap is epic work and goes in the remaining-work plan. (4) plugin-apis.md cites §12.22 for successors v5 instead of §12.24 (oe.7 #2) — epic-caused drift, in the remaining-work plan. Landing-review discoveries not caused by the epic: bob-cli-oh (new, large: debug_assert panic 'tracked task headline is not a task' at task_blocks.rs:587 on -X with two ID-less dependents, reproduces without -j) and bob-cli-oi (new, small: successorShakeRow's querySelector guard is inverted since 8a16ebea, so refusal shakes never play).
+
+[2026-11-21T02:37:58Z · bob-cli-oe.land] LAND VERIFICATION (steps 1-2): all 7 phases' commits were reviewed against the plan: bob-cli 853246f0 and 8f703ccb, bob-plugins 63cd4ee5, 1a6ff799, 6e0d764a, and 570c3a10, and bob-mac-capture bf590f32. Targeted suites are green: successor_jump 10/10; bob-plugins 4257/4257 non-perf nav/cycler/block-id-prompt unit tests; build:check clean; mac exact-SHA CI green. Decisions were honored: the walk-park strand was written, the two strands were marked superseded-in-part, and no glossary strand was added. No epic symbols. Integration: nothing landed after the epic started touches the successor card, jump, or walk (bob-cli chips/glossary docs; bob-plugins bob-chips and ledger-tools; no other mac commits). Remaining epic-caused bugs, each confirmed by repro or source reading, are planned as a child epic (sase_plan_successor_jump_repairs). (a) bob-cli: the jump landing for ordinary ID-less dependents uses the key ordinal, so it lands on an unrelated twin or reports a findable task as lost. Reproduced: twin above gives line 1 instead of 2; two dups with -p 1 -j 2 give a null landing. (b) nav: the capsule uses the SF Symbol name arrow-up-forward on the text span and renders before the content div, not at the trailing edge. followReviewWalkAfter never calls addReviewAnsweredKeys/recordReviewAnswer and parks without a resolve check. The notice v5 arrow is doubled. 206e copies applySelection/settle wholesale. landOnTask can report lost and then land later. (c) cycler: the Task Link Ctrl+Enter close self-lands before strikeActiveSelectedTaskBlockLink, and unlink plus inbox route lands before the route move (and double-lands on a walk). (d) mac: submitInboxRouteAnswers re-dispatch drops --jump-offer, and the primary label counts a hidden highlight. (e) bob-plugins plugin-apis.md cites §12.22 instead of §12.24 and grew past its 8000-word develop cap (8044).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-oe.1](bob-cli-oe.1.md) | bob capture --jump-offer and the jump JSON contract | ✓ closed | medium | 2026-11-20 | 1 | 1 |
-| [bob-cli-oe.2](bob-cli-oe.2.md) | Obsidian successor card pin (picker API v5) | ✓ closed | medium | 2026-11-20 | 1 | 1 |
-| [bob-cli-oe.3](bob-cli-oe.3.md) | Obsidian landing API, walk follow, and receipt line | ✓ closed | medium | 2026-11-20 | 1 | 1 |
-| [bob-cli-oe.4](bob-cli-oe.4.md) | task-status-cycler honors the pin after every managed Done | ✓ closed | medium | 2026-11-20 | 1 | 1 |
-| [bob-cli-oe.5](bob-cli-oe.5.md) | Wire the remaining Obsidian picker callers | ✓ closed | medium | 2026-11-20 | 1 | 1 |
+| [bob-cli-oe.2](bob-cli-oe.2.md) | Obsidian successor card pin (picker API v5) | ✓ closed | medium | 2026-11-20 | 1 | 0 |
+| [bob-cli-oe.3](bob-cli-oe.3.md) | Obsidian landing API, walk follow, and receipt line | ✓ closed | medium | 2026-11-20 | 1 | 0 |
+| [bob-cli-oe.4](bob-cli-oe.4.md) | task-status-cycler honors the pin after every managed Done | ✓ closed | medium | 2026-11-20 | 1 | 0 |
+| [bob-cli-oe.5](bob-cli-oe.5.md) | Wire the remaining Obsidian picker callers | ✓ closed | medium | 2026-11-20 | 1 | 0 |
 | [bob-cli-oe.6](bob-cli-oe.6.md) | Mac Capture Pull-In card pin | ✓ closed | medium | 2026-11-20 | 1 | 1 |
 | [bob-cli-oe.7](bob-cli-oe.7.md) | Walk docs, decision record, and glossary | ✓ closed | small | 2026-11-20 | 1 | 1 |
 
@@ -49,6 +57,11 @@ flowchart TD
     n5["bob-cli-oe.5: Wire the remaining Obsidian picker callers [closed]"]
     n6["bob-cli-oe.6: Mac Capture Pull-In card pin [closed]"]
     n7["bob-cli-oe.7: Walk docs, decision record, and glossary [closed]"]
+    n8["bob-cli-oe.8: Jump pin landing repairs [in_progress]"]
+    n9["bob-cli-oe.8.1: bob capture jump landing finds the right ID-less task [in_progress]"]
+    n10["bob-cli-oe.8.2: Obsidian card capsule, walk follow bookkeeping, and receipt copy [in_progress]"]
+    n11["bob-cli-oe.8.3: Land the jump after every write in task-status-cycler and block-id-prompt [in_progress]"]
+    n12["bob-cli-oe.8.4: Mac Pull-In card keeps the pin through inbox routing [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -56,12 +69,18 @@ flowchart TD
     n0 --> n5
     n0 --> n6
     n0 --> n7
+    n0 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
     n1 -.-> n6
     n2 -.-> n3
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n7
     n6 -.-> n7
+    n10 -.-> n11
 ```
 
 ## Agents
@@ -69,25 +88,27 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-oe.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.1/README.md) | [bob-cli-oe.1](bob-cli-oe.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oe.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.2/README.md) | [bob-cli-oe.2](bob-cli-oe.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oe.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.3/README.md) | [bob-cli-oe.3](bob-cli-oe.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oe.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.4.md) | [bob-cli-oe.4](bob-cli-oe.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oe.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.5/README.md) | [bob-cli-oe.5](bob-cli-oe.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oe.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.2/README.md) | [bob-cli-oe.2](bob-cli-oe.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.3/README.md) | [bob-cli-oe.3](bob-cli-oe.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.4.md) | [bob-cli-oe.4](bob-cli-oe.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.5/README.md) | [bob-cli-oe.5](bob-cli-oe.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oe.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.6.md) | [bob-cli-oe.6](bob-cli-oe.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oe.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.7/README.md) | [bob-cli-oe.7](bob-cli-oe.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.land/README.md) | [bob-cli-oe](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.1/README.md) | [bob-cli-oe.8.1](bob-cli-oe.8.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.2/README.md) | [bob-cli-oe.8.2](bob-cli-oe.8.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.3/README.md) | [bob-cli-oe.8.3](bob-cli-oe.8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.4.md) | [bob-cli-oe.8.4](bob-cli-oe.8.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oe.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.land/README.md) | [bob-cli-oe.8](bob-cli-oe.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.land.md) | [bob-cli-oe](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@63cd4ee`](https://github.com/bobs-org/bob-plugins/commit/63cd4ee5a4491db9005dec153265c1b59ffc7e7c) | feat(nav): add Ctrl+J jump pin to the successor card (picker API v5) | [bob-cli-oe.2](bob-cli-oe.2.md) | 2026-11-20 17:36:06 EST |
 | bob-cli | [`853246f`](https://github.com/bobs-org/bob-cli/commit/853246f0ee582f4559767323c101dd2d2597cf91) | feat(capture): add successor jump offer contract | [bob-cli-oe.1](bob-cli-oe.1.md) | 2026-11-20 17:53:09 EST |
-| bob-plugins | [`bob-plugins@1a6ff79`](https://github.com/bobs-org/bob-plugins/commit/1a6ff799afb94108c7cca87593b3d3e15cbb1bd8) | feat(nav): add landOnTask, reviewWalk v2 follow, and notice v5 jump receipt | [bob-cli-oe.3](bob-cli-oe.3.md) | 2026-11-20 18:07:09 EST |
-| bob-plugins | [`bob-plugins@6e0d764`](https://github.com/bobs-org/bob-plugins/commit/6e0d764ad2aa4b6dd7e105960895333ed8a4aadb) | feat(task-status-cycler): honor the successor jump pin after every managed Done | [bob-cli-oe.4](bob-cli-oe.4.md) | 2026-11-20 18:52:27 EST |
-| bob-plugins | [`bob-plugins@570c3a1`](https://github.com/bobs-org/bob-plugins/commit/570c3a10d5fb41ff4cdb470671a841bb4e5e258b) | feat(nav): land remaining picker callers on the Ctrl+J pin | [bob-cli-oe.5](bob-cli-oe.5.md) | 2026-11-20 19:19:45 EST |
 | bob-mac-capture | [`bob-mac-capture@bf590f3`](https://github.com/bobs-org/bob-mac-capture/commit/bf590f324b88126823d55db701ba73feda77520c) | feat(capture): add successor jump pin to Pull-In card | [bob-cli-oe.6](bob-cli-oe.6.md) | 2026-11-20 19:58:18 EST |
 | bob-cli | [`8f703cc`](https://github.com/bobs-org/bob-cli/commit/8f703ccbe4c5ee6a7b087be6ee5d5f6edac89b08) | docs(freshness): park the walk on a pinned successor close | [bob-cli-oe.7](bob-cli-oe.7.md) | 2026-11-20 21:03:21 EST |
+| bob-mac-capture | [`bob-mac-capture@109c30d`](https://github.com/bobs-org/bob-mac-capture/commit/109c30db300df4a9a161ee2152e3b4676decdeaf) | fix(capture): keep Pull-In jump pin through inbox routing | [bob-cli-oe.8.4](bob-cli-oe.8.4.md) | 2026-11-20 22:07:07 EST |
 
 <!-- sase:referenced-by:start -->
 
