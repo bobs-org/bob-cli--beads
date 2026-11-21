@@ -13,7 +13,7 @@ note-writer: add the pure bankNoteNormalize, bankNoteWritePlan (with round-trip 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oo.2](bob-cli-oo.2.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oo.2](bob-cli-oo.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oo.4](bob-cli-oo.4.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
