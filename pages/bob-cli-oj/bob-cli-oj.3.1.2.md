@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-oj.3.1](bob-cli-oj.3.1.md) / bob-cli-oj.3.1.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-oj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.md) · **Assignee:** `bob-cli-oj.3.1.2` · **Size:** medium
-**Created:** 2026-11-21 07:50:38 EST
+**Created:** 2026-11-21 07:50:38 EST · **Closed:** 2026-11-21 08:57:15 EST
 **Plan:** [202611/album\_walk\_by.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_walk_by.md)
 
 ## Description
 
 record-writes: integrate the grouped walk radius into both records update paths, compose the target postimage once, preserve neighbor guards and rollback, expose walk_files, and prove the five-line bound plus grouped creates and capture.
+
+## Notes
+
+[2026-11-21T13:57:15Z · bob-cli-oj.3.1.2--2] Verified grouped updates: records and envelope paths plan and commit the same sorted, unique walk postimages within the five-line bound; non-group edits leave stale walk lines untouched. Records CLI suite passed (83 tests).
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ record-writes: integrate the grouped walk radius into both records update paths,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.2/README.md) | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.1.2.md) | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ce0dcc5`](https://github.com/bobs-org/bob-cli/commit/ce0dcc54cec50104991b4ad943de0566e7eba2b6) | feat(records): apply grouped walk updates | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 2026-11-21 08:58:17 EST |

@@ -17,7 +17,7 @@ model: validate album walk_by, share choice bucketing with the index, derive gro
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -30,3 +30,15 @@ model: validate album walk_by, share choice bucketing with the index, derive gro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e11f2a0`](https://github.com/bobs-org/bob-cli/commit/e11f2a0c5e9fa1cb0aefe01a4ccb1ca1785e0af1) | feat(albums): group record walks by declared walk\_by | [bob-cli-oj.3.1.1](bob-cli-oj.3.1.1.md) | 2026-11-21 08:25:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.3.1.1][1] | Need the phase scope and design file | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ album-writes: add walk_by.set with string-or-null field, top-level span restorat
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

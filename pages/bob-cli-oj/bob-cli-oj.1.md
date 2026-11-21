@@ -37,6 +37,12 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 [2026-11-21T13:19:55Z · bob-cli-oj.1] Recovery: prior run closed the phase before its finalizer refused local-only commit 726f9a5c653164a6219b7bdd6eef5a9f2715b55f in workspace 13. Fetched origin/master lacks nav-grammar. Recovering the existing implementation instead of reimplementing it.
 
+[2026-11-21T13:34:02Z · bob-cli-oj.1] Recovery implementation restored in the linked bob-plugins checkout: strict doubled-arrow grammar, link-only authored group stops, shared authored/provider resolver, guarded group commands and step fallback, walkMode v7, repeat plans, jump history, docs and regression tests. The prior local-only commit 726f9a5 is absent from both its old checkout and origin; previous finalizer error is recorded in chat gh_bobs_org__bob_cli-tmp_261121_074352-workflow_tmp_261121_074352_main_ERROR-261121_074357. Vault mappings independently verified already landed as beba6bb7a in bbugyi200/bob (no vault edits needed). Initial focused suite: 105/106 pass; obsolete no-uppercase expectation updated afterward, full rebuild/tests pending. Current docs:check now reports only pre-existing vault-format.md 6016/6000 error (bob-cli-oc); plugin-apis.md 8131/8000 is a pre-existing warning. New navigation docs pass budget. Navigation deployment is still protected by the old clean 726f9a5 build (2.96.0); do not force it without required approval. Current restored source version 2.96.1.
+
+[2026-11-21T13:40:37Z · bob-cli-oj.1--1] PROPOSED FOLLOW-UP: Two unchanged Ledger Tools timing tests flaked in monitor mm8qgy3tenjs — test-ledger-tools-event-link-times.cjs:1095 took 28.5 ms and test-ledger-tools-frees-marks.cjs:509 took 26 ms against 25 ms budgets. Both files and plugins/bob-ledger-tools are byte-identical to clean base 1a95b29 (git diff --exit-code clean); both test files pass together on an unchanged-tree rerun (40 tests). All other full-suite tests passed: 8080 pass, 2 timing failures, 4 skipped; the separate performance lane passed 11/11. Consider moving these wall-time assertions to the serial performance lane.
+
+[2026-11-21T13:44:04Z · bob-cli-oj.1--1] Verification complete for restored navigation 2.96.1: rebuilt after fetching and fast-forwarding bob-plugins to 6debb63; 204/204 tests pass across group-links, period-links, bracket-repeat, bracket-mode-indicator, plugin-build, walker-footer, jump-history, and Ledger nav-groups. Added createEligible to the v7 result and explicit v2-shape/pre-adoption tests. docs:gen and inventory:check pass; git diff --check passes. docs:check remains blocked only by untouched vault-format.md 6016/6000 (bob-cli-oc), with plugin-apis.md 8165/8000 warning after upstream changes. No epic-symbol entries remain. Scoped bob plugins sync refuses the abandoned clean navigation 2.96.0 build at lost 726f9a5. Fetched again: no incoming navigation commits and old commit still absent. Prior recovery agent is DONE; staging a human gate to replace only this protected navigation build with the verified 2.96.1 source, then verify sync and close this phase.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
@@ -46,4 +52,4 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.1/README.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 0 |
