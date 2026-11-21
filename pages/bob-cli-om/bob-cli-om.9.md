@@ -35,8 +35,10 @@ mac-pull-in: wire the Pull-In cancel reason field (S16) in bob-mac-capture to ca
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-om.9][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-om.7][1] | see sibling phase status and notes | 1 |
+| read-by | [agent:bob-cli-om.9][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.9/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.9/README.md
 
 <!-- sase:referenced-by:end -->

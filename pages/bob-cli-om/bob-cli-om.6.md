@@ -45,7 +45,9 @@ intention-card: attach proseField to the Intention Card's intention input, summa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-om.6][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-om.7][2] | see sibling phase status and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
 
 <!-- sase:referenced-by:end -->

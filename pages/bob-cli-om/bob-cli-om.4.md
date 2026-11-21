@@ -45,9 +45,11 @@ modal-prompts: opt surfaces S2-S6, S12, and S13 into links with a correct source
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-om.4][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:bob-cli-oo.1][2] | Need to know if om.4 still owns workspace 10 ledger-tools deploy | 1 |
+| read-by | [agent:bob-cli-om.7][2] | see sibling phase status and notes | 1 |
+| read-by | [agent:bob-cli-oo.1][3] | Need to know if om.4 still owns workspace 10 ledger-tools deploy | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.1/README.md
 
 <!-- sase:referenced-by:end -->

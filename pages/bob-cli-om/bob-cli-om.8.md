@@ -40,8 +40,10 @@ cli-links-only: add -L/--links-only and -S/--source-note to bob capture-complete
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-om.8][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-om.7][1] | see sibling phase status and notes | 1 |
+| read-by | [agent:bob-cli-om.8][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md
 
 <!-- sase:referenced-by:end -->

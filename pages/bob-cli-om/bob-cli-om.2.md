@@ -42,8 +42,10 @@ link-engine: in bob-navigation-hotkeys, add pure JS fragments for the field mode
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-om.2][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-om.3][2] | Need link-engine phase notes and what landed before building the controller on it | 1 |
+| read-by | [agent:bob-cli-om.7][3] | see sibling phase status and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
 
 <!-- sase:referenced-by:end -->
