@@ -19,7 +19,7 @@ clean_capture: reject base62 ids as URL stems, persist the write-once source sto
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-os.4](bob-cli-os.4.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.4](bob-cli-os.4.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

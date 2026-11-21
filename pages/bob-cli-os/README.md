@@ -33,7 +33,7 @@ Every Spotify episode link given to `bob ref create`, capture, or Keep becomes o
 | [bob-cli-os.10](bob-cli-os.10.md) | Podcast surfaces across repos and the legacy refs | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 | [bob-cli-os.2](bob-cli-os.2.md) | Spotify link identity, canonical dedupe, and routing guards | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.3](bob-cli-os.3.md) | Episode metadata ladder and show-notes segmentation | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-os.4](bob-cli-os.4.md) | Adapter render op and the episode dossier template | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-os.4](bob-cli-os.4.md) | Adapter render op and the episode dossier template | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.5](bob-cli-os.5.md) | The podcast route in bob ref create | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-os.6](bob-cli-os.6.md) | Capture jobs and Keep file episodes through the same route | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-os.7](bob-cli-os.7.md) | Publisher feed discovery and proven item match | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
@@ -49,7 +49,7 @@ flowchart TD
     n2["bob-cli-os.10: Podcast surfaces across repos and the legacy refs [in_progress]"]
     n3["bob-cli-os.2: Spotify link identity, canonical dedupe, and routing guards [closed]"]
     n4["bob-cli-os.3: Episode metadata ladder and show-notes segmentation [closed]"]
-    n5["bob-cli-os.4: Adapter render op and the episode dossier template [in_progress]"]
+    n5["bob-cli-os.4: Adapter render op and the episode dossier template [closed]"]
     n6["bob-cli-os.5: The podcast route in bob ref create [in_progress]"]
     n7["bob-cli-os.6: Capture jobs and Keep file episodes through the same route [in_progress]"]
     n8["bob-cli-os.7: Publisher feed discovery and proven item match [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-os.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md) | [bob-cli-os.10](bob-cli-os.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-os.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.2/README.md) | [bob-cli-os.2](bob-cli-os.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.3/README.md) | [bob-cli-os.3](bob-cli-os.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-os.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.4/README.md) | [bob-cli-os.4](bob-cli-os.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-os.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.4/README.md) | [bob-cli-os.4](bob-cli-os.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.5/README.md) | [bob-cli-os.5](bob-cli-os.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-os.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.6/README.md) | [bob-cli-os.6](bob-cli-os.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-os.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.7/README.md) | [bob-cli-os.7](bob-cli-os.7.md) | 0 |
@@ -101,6 +101,7 @@ flowchart TD
 | bob-cli | [`ddc9e17`](https://github.com/bobs-org/bob-cli/commit/ddc9e177548417ca4bfe0b76107e00a2d649e2b6) | feat(ref)!: give Spotify links canonical identity and refuse non-episodes | [bob-cli-os.2](bob-cli-os.2.md) | 2026-11-21 16:05:39 EST |
 | bob-cli | [`0114a6c`](https://github.com/bobs-org/bob-cli/commit/0114a6cc1e560df93de50edaa8821db627055702) | fix(ref): keep base62 ids out of stems, save ingest source stores, and print the recorded URL in mastheads | [bob-cli-os.1](bob-cli-os.1.md) | 2026-11-21 16:24:37 EST |
 | bob-cli | [`2837fea`](https://github.com/bobs-org/bob-cli/commit/2837fea8003ddc4f5d77e730b15a7319ed7fb3ab) | feat(ref): add the Spotify episode metadata ladder and show-notes segmentation | [bob-cli-os.3](bob-cli-os.3.md) | 2026-11-21 17:21:13 EST |
+| bob-cli | [`6b9139a`](https://github.com/bobs-org/bob-cli/commit/6b9139a65dc2780e839ecff3c2782a2ffcda0f61) | feat(ref): add the offline adapter render op and the podcast episode dossier | [bob-cli-os.4](bob-cli-os.4.md) | 2026-11-21 17:26:19 EST |
 
 <!-- sase:referenced-by:start -->
 
