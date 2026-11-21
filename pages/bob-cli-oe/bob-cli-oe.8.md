@@ -54,7 +54,7 @@ Follow-ups: epic note #1 checklist park is already fixed by 767a5970. oc/km/io c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oe.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.land.md) | [bob-cli-oe.8](bob-cli-oe.8.md) | 2 |
+| [bbugyi200.apollo.bob-cli-oe.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.land.md) | [bob-cli-oe.8](bob-cli-oe.8.md) | 3 |
 
 ## Commits
 
@@ -62,6 +62,7 @@ Follow-ups: epic note #1 checklist park is already fixed by 767a5970. oc/km/io c
 |---|---|---|---|---|
 | bob-cli | [`05c1679`](https://github.com/bobs-org/bob-cli/commit/05c1679a0c2377822b27d6915273acd26fa70d0f) | fix(capture): preserve ID-less jump identity across later insertions | [bob-cli-oe.8](bob-cli-oe.8.md) | 2026-11-21 09:55:39 EST |
 | bob-mac-capture | [`bob-mac-capture@f112622`](https://github.com/bobs-org/bob-mac-capture/commit/f11262242cd253bf32f07a5a2fa25c94efb0f1fc) | fix(capture): honor pinned Shift-Return on note-pull-only Pull-In | [bob-cli-oe.8](bob-cli-oe.8.md) | 2026-11-21 09:56:44 EST |
+| bob-plugins | [`bob-plugins@4e0ff78`](https://github.com/bobs-org/bob-plugins/commit/4e0ff78b1534e62a55e86f8c94632bc76f3cc84b) | fix(successors): keep the jump receipt when deferred landing is not follow-owned | [bob-cli-oe.8](bob-cli-oe.8.md) | 2026-11-21 10:08:03 EST |
 
 <!-- sase:referenced-by:start -->
 

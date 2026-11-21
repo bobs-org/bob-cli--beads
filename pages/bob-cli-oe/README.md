@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-oe.8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.2/README.md) | [bob-cli-oe.8.2](bob-cli-oe.8.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-oe.8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.3/README.md) | [bob-cli-oe.8.3](bob-cli-oe.8.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oe.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.4.md) | [bob-cli-oe.8.4](bob-cli-oe.8.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oe.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.land.md) | [bob-cli-oe.8](bob-cli-oe.8.md) | 2 |
+| [bbugyi200.apollo.bob-cli-oe.8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.land.md) | [bob-cli-oe.8](bob-cli-oe.8.md) | 3 |
 | [bbugyi200.apollo.bob-cli-oe.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.land.md) | [bob-cli-oe](README.md) | 0 |
 
 ## Commits
@@ -129,6 +129,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@6debb63`](https://github.com/bobs-org/bob-plugins/commit/6debb63b4c12caa600e58eb71b5044bb9b40a84a) | feat(task-status-cycler): implement cycler jump ordering | [bob-cli-oe.8.3](bob-cli-oe.8.3.md) | 2026-11-21 08:26:02 EST |
 | bob-cli | [`05c1679`](https://github.com/bobs-org/bob-cli/commit/05c1679a0c2377822b27d6915273acd26fa70d0f) | fix(capture): preserve ID-less jump identity across later insertions | [bob-cli-oe.8](bob-cli-oe.8.md) | 2026-11-21 09:55:39 EST |
 | bob-mac-capture | [`bob-mac-capture@f112622`](https://github.com/bobs-org/bob-mac-capture/commit/f11262242cd253bf32f07a5a2fa25c94efb0f1fc) | fix(capture): honor pinned Shift-Return on note-pull-only Pull-In | [bob-cli-oe.8](bob-cli-oe.8.md) | 2026-11-21 09:56:44 EST |
+| bob-plugins | [`bob-plugins@4e0ff78`](https://github.com/bobs-org/bob-plugins/commit/4e0ff78b1534e62a55e86f8c94632bc76f3cc84b) | fix(successors): keep the jump receipt when deferred landing is not follow-owned | [bob-cli-oe.8](bob-cli-oe.8.md) | 2026-11-21 10:08:03 EST |
 
 <!-- sase:referenced-by:start -->
 
