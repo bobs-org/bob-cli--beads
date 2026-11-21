@@ -23,7 +23,7 @@
 | --- | --- | --- |
 | related | file:explicit:f0588487197e47234e4910fc | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -86,9 +86,11 @@ Prior close: 2026-11-21T13:12:36Z · done.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.1--1][1] | Need the phase scope and design file and recorded remaining deployment work | 1 |
-| read-by | [agent:bob-cli-oj.6][2] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][2] | Check recorded load-sensitive timing failures to cite for a perf flake | 1 |
+| read-by | [agent:bob-cli-oj.6][3] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->
