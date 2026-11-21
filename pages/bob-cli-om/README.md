@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-om.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md) | [bob-cli-om.7](bob-cli-om.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.8/README.md) | [bob-cli-om.8](bob-cli-om.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-om.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.9/README.md) | [bob-cli-om.9](bob-cli-om.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-om.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.land/README.md) | [bob-cli-om](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-om.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.land/README.md) | [bob-cli-om](README.md) | 2 |
 
 ## Commits
 
@@ -169,6 +169,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c2e28ca`](https://github.com/bobs-org/bob-plugins/commit/c2e28cad167df64c11f373c8c98be5d3fb79ef74) | feat(bob-plugins): lint prose field roles and add walkthrough | [bob-cli-om.10](bob-cli-om.10.md) | 2026-11-21 15:03:32 EST |
 | bob-plugins | [`bob-plugins@fc806cf`](https://github.com/bobs-org/bob-plugins/commit/fc806cfeb6d92a28ee46c802a25df16cda485804) | fix(nav): back the LINK band out before Obsidian's Escape close and walk real prose hosts | [bob-cli-om.10](bob-cli-om.10.md) | 2026-11-21 16:24:56 EST |
 | bob-plugins | [`bob-plugins@f703f1c`](https://github.com/bobs-org/bob-plugins/commit/f703f1cf01b9a5ac019f6ed32e95c11efba41dcc) | fix(bob-plugins): land prose wikilink completion with full role lint coverage, trimmed nav docs, and a steadier R9 gate | [bob-cli-om](README.md) | 2026-11-21 17:20:58 EST |
+| bob-cli--plans | [`bob-cli--plans@36592f8`](https://github.com/bobs-org/bob-cli--plans/commit/36592f895f77a4f7c09f3e0567fb13810420720c) | chore(plans): mark the prose wikilink completion epic plan done | [bob-cli-om](README.md) | 2026-11-21 17:21:47 EST |
 
 <!-- sase:referenced-by:start -->
 
