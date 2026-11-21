@@ -21,4 +21,10 @@ fail-open-proof: extend the shared title-block runner with native-rendering chec
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-o6.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.2/README.md) | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.6.1.2.md) | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c803a4e`](https://github.com/bobs-org/bob-plugins/commit/c803a4e82ff869db4619d02adee6e1e14401d7eb) | fix(plugins): preserve title fallback after repaint failures | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 2026-11-21 11:25:12 EST |

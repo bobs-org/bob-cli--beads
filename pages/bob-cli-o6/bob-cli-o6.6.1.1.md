@@ -16,6 +16,8 @@
 | related | file:explicit:72adbbcc87ab9732144d33d2 | attached via sase artifact create --bead |
 | related | file:explicit:fcd1fa5647c172c1f171071f | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -42,3 +44,15 @@ title-walkthrough: add the shared isolated obsidian-title-block-e2e runner and o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3860513`](https://github.com/bobs-org/bob-plugins/commit/38605130263b3cc5c1145b7afda840f5f2d54ec9) | test: add isolated Obsidian title-block walkthrough | [bob-cli-o6.6.1.1](bob-cli-o6.6.1.1.md) | 2026-11-21 08:56:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-o6.6.1.1][1] | Need the phase scope, design file, notes, and epic DECISIONS | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->

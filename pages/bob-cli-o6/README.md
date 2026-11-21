@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_title_block.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_title_block.md
 
@@ -32,6 +32,8 @@ On desktop Obsidian, every album note, record note, canonical daily note, and we
 [2026-11-21T02:16:38Z · bob-cli-o6.4.1.land] DISCOVERED ISSUE corroboration from bob-cli-o6.4.1.land: collection phases o6.4.1.1 #3, o6.4.1.2 #2 and o6.4.1.3 #1 independently hit vault-format.md 6016/6000-word lint failure. Existing bob-cli-oc corroborated, and source/history tie the overflow to your album-title-cli phase bb91c370 (o6.3), matching your existing discovery. This remains outer-epic work rather than an unrelated collection-card task. The collection closeout will separately repair the shared title-range trailing-blank contract gap (o6.4.1.1 #4), which also covers the day/period adopters.
 
 [2026-11-21T13:03:02Z · fe--code] DISCOVERED ISSUE: Independent reproduction on 2026-11-21: npm run docs:check in bob-plugins exits 1 on bob-cli HEAD d27041c at docs/reference/vault-format.md:1 (6016/6000 words). The file is untouched in this implementation. This confirms the existing bob-cli-oc failure still blocks the mounted plugin docs gate.
+
+[2026-11-21T15:22:12Z · bob-cli-oj.3.1.land] DISCOVERED ISSUE corroboration from bob-cli-oj.3.1.land: proposing bead bob-cli-oj.3.1.4 note #1 reproduced clean-base docs-check vault-format.md 6016/6000. Current 020ad4e6 independently remains 6016 by bob_docs.markdown.count_words; bb91c370 / o6.3 caused the existing overflow. Added evidence to bob-cli-oc; no new task or work added to grouped-walk child epic.
 
 ## Phases
 
@@ -117,7 +119,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.5.md) | [bob-cli-o6.5](bob-cli-o6.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.6.md) | [bob-cli-o6.6](bob-cli-o6.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md) | [bob-cli-o6.6.1.1](bob-cli-o6.6.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-o6.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.2/README.md) | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.6.1.2.md) | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.4/README.md) | [bob-cli-o6.6.1.4](bob-cli-o6.6.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 0 |
@@ -139,6 +141,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@1a95b29`](https://github.com/bobs-org/bob-plugins/commit/1a95b292a96434d237aa6aa217c809ba17a282d8) | feat(ledger-tools): hide trailing title-block blanks and share the editor species badge | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 2026-11-21 08:15:36 EST |
 | bob-cli--plans | [`bob-cli--plans@8957bf8`](https://github.com/bobs-org/bob-cli--plans/commit/8957bf84c13c7856d7659ea5279ffbe8c5a619a2) | chore(plans): mark collection-cards title-block epic and closeout tale done | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 2026-11-21 08:16:01 EST |
 | bob-plugins | [`bob-plugins@3860513`](https://github.com/bobs-org/bob-plugins/commit/38605130263b3cc5c1145b7afda840f5f2d54ec9) | test: add isolated Obsidian title-block walkthrough | [bob-cli-o6.6.1.1](bob-cli-o6.6.1.1.md) | 2026-11-21 08:56:22 EST |
+| bob-plugins | [`bob-plugins@c803a4e`](https://github.com/bobs-org/bob-plugins/commit/c803a4e82ff869db4619d02adee6e1e14401d7eb) | fix(plugins): preserve title fallback after repaint failures | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 2026-11-21 11:25:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -146,10 +149,12 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-oj.2][1] | Precondition: calendar-groups must not edit fragments an open o6 phase is changing | 2 |
-| read-by | [agent:bob-cli-oj.3.1.1][2] | Check the title-block prerequisite and overlap | 1 |
+| read-by | [agent:bob-cli-o6.6.1.1][1] | Need parent DECISIONS, notes, and whether earlier title-walkthrough work already landed | 1 |
+| read-by | [agent:bob-cli-oj.2][2] | Precondition: calendar-groups must not edit fragments an open o6 phase is changing | 2 |
+| read-by | [agent:bob-cli-oj.3.1.1][3] | Check the title-block prerequisite and overlap | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md
 
 <!-- sase:referenced-by:end -->
