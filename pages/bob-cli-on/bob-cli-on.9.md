@@ -19,6 +19,8 @@ ledger-marks: draw the depth-aware ⌗ run in the owner's ink in Live Preview an
 
 [2026-11-21T18:20:23Z · bob-cli-on.9] PROPOSED FOLLOW-UP: Full npm test once missed the existing frees-marks 200-link/2000-task 25ms timing test (56ms); the isolated same test passed at 23.6ms. Existing tracker: bob-cli-io.
 
+[2026-11-21T18:34:47Z · bob-cli-on.9] PROPOSED FOLLOW-UP: The latest full npm test also missed the existing frees-marks 200-link/2000-task 25ms timing test (27ms); isolated run passed at 23.6ms. The repeat is tracked by bob-cli-io.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.1](bob-cli-on.1.md) ✓ · ⧖ 2026-11-21
@@ -28,4 +30,10 @@ ledger-marks: draw the depth-aware ⌗ run in the owner's ink in Live Preview an
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.9/README.md) | [bob-cli-on.9](bob-cli-on.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`250c305`](https://github.com/bobs-org/bob-cli/commit/250c3053d652d1d6b48299557fc8272a809bab88) | docs(tasks): document requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:37:40 EST |
