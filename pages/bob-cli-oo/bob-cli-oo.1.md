@@ -25,10 +25,11 @@ note-grammar-parity: land the byte-identical shared note-cleaner vectors and the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oo.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.1/README.md) | [bob-cli-oo.1](bob-cli-oo.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oo.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.1/README.md) | [bob-cli-oo.1](bob-cli-oo.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`baca870`](https://github.com/bobs-org/bob-cli/commit/baca8701459fb39fdeb783d5cdb95ac9f2b20b21) | feat(bank): share the five-step note cleaner and document tail order | [bob-cli-oo.1](bob-cli-oo.1.md) | 2026-11-21 12:53:38 EST |
+| bob-plugins | [`bob-plugins@1731913`](https://github.com/bobs-org/bob-plugins/commit/1731913b2fa9d856cddc4ee07457f43cbd54489b) | feat(ledger-tools): parse bank notes with the shared cleaner | [bob-cli-oo.1](bob-cli-oo.1.md) | 2026-11-21 13:31:48 EST |
