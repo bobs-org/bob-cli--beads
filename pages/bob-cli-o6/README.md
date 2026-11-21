@@ -50,8 +50,8 @@ flowchart TD
     n4["bob-cli-o6.4: Album, record, and bank cards adopt the title block [in_progress]"]
     n5["bob-cli-o6.4.1: Collection cards adopt the title block: album, record, and bank cards wear their species, and album and record cards own the note title from the title slot [in_progress]"]
     n6["bob-cli-o6.4.1.1: Album card becomes the title block and owns the album title from the title slot [closed]"]
-    n7["bob-cli-o6.4.1.2: Record card wears the RECORD kicker and sheet tile, mounts in the title slot, and migrates its title selectors onto the kit [in_progress]"]
-    n8["bob-cli-o6.4.1.3: Bank Setup card and the two card editors show the species tile and word [in_progress]"]
+    n7["bob-cli-o6.4.1.2: Record card wears the RECORD kicker and sheet tile, mounts in the title slot, and migrates its title selectors onto the kit [closed]"]
+    n8["bob-cli-o6.4.1.3: Bank Setup card and the two card editors show the species tile and word [closed]"]
     n9["bob-cli-o6.5: Day and period cards always mount as the title block with a docked rail [closed]"]
     n10["bob-cli-o6.6: Real-Obsidian proof, preview matrix, live album tidy, and final deploy [in_progress]"]
     n11["bob-cli-o6.7: Glossary updates the reviewer accepted [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.3.md) | [bob-cli-o6.3](bob-cli-o6.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.md) | [bob-cli-o6.4](bob-cli-o6.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.1.md) | [bob-cli-o6.4.1.1](bob-cli-o6.4.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-o6.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.4.1.2/README.md) | [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.2.md) | [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.1.3.md) | [bob-cli-o6.4.1.3](bob-cli-o6.4.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.4.1.land/README.md) | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.5.md) | [bob-cli-o6.5](bob-cli-o6.5.md) | 1 |
@@ -104,3 +104,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@f16ddea`](https://github.com/bobs-org/bob-plugins/commit/f16ddeaad40616cad8133fbe6d93348c8b39e955) | feat(ledger-tools): show the species badge on the bank card and card editors | [bob-cli-o6.4.1.3](bob-cli-o6.4.1.3.md) | 2026-11-20 14:34:26 EST |
 | bob-plugins | [`bob-plugins@eed318e`](https://github.com/bobs-org/bob-plugins/commit/eed318e0542a09d99278ff936763ab1666d6d3ee) | feat(ledger-tools): day and period cards own the title block | [bob-cli-o6.5](bob-cli-o6.5.md) | 2026-11-20 14:39:50 EST |
 | bob-plugins | [`bob-plugins@a68e29b`](https://github.com/bobs-org/bob-plugins/commit/a68e29be2b0bb50aee47a19d65a3485c207b59bb) | feat(ledger-tools): album card owns the title block from the title slot | [bob-cli-o6.4.1.1](bob-cli-o6.4.1.1.md) | 2026-11-20 15:03:15 EST |
+| bob-plugins | [`bob-plugins@b8b7baf`](https://github.com/bobs-org/bob-plugins/commit/b8b7baf440e888cd94c948f5339cd37527928079) | feat(ledger-tools): record card owns the title block from the title slot | [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) | 2026-11-20 21:08:59 EST |

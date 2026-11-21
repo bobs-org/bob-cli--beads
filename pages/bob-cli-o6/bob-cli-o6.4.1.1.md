@@ -43,7 +43,7 @@ album-card: in bob-ledger-tools, give notebookHeaderNoteTitle the album title ru
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-o6.4.1.2](bob-cli-o6.4.1.2.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

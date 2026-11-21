@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-o6.4.1](bob-cli-o6.4.1.md) / bob-cli-o6.4.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-o6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.4.md) · **Assignee:** `bob-cli-o6.4.1.3` · **Size:** medium
-**Created:** 2026-11-20 13:42:58 EST
+**Created:** 2026-11-20 13:42:58 EST · **Closed:** 2026-11-20 15:13:24 EST
 **Plan:** [202611/collection\_cards\_title\_block.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/collection_cards_title_block.md)
 
 <!-- sase:links:start -->
@@ -37,6 +37,8 @@ bank-and-editors: in bob-ledger-tools, add an additive kit identity badge (tile 
 [2026-11-20T19:32:00Z · bob-cli-o6.4.1.3] PROPOSED FOLLOW-UP: in Live Preview the bank card is an inline widget at the end of the `# 🏦 Bank` line, so it inherits the H1 font size (head, collapsed line, and buttons render at heading size; pre-existing on c5f5a1b); the new BANK badge uses --font-ui-small and reads small beside it. Consider a block widget or resetting font-size on .bob-bank-setup.
 
 [2026-11-20T19:32:04Z · bob-cli-o6.4.1.3] PROPOSED FOLLOW-UP: obsidian-album-ui-e2e.cjs default executable /snap/obsidian/current/app/obsidian exits before the fixture vault window on athena ("owned Obsidian process exited"), as does obsidian-bank-ui-e2e.cjs with that path; -e /snap/bin/obsidian works. Default the album e2e to /snap/bin/obsidian or document it.
+
+[2026-11-20T20:13:24Z · bob-cli-o6.4.1.3--1] Bank and card-editor species badges shipped in bob-plugins commit f16ddea (bob-ledger-tools 1.146.0), now on origin/master. The species identity badge (fragment 240j, export propertyCardBuildIdentityBadge) appears on the bank Setup card head row (data-card-kind=bank, bank tile + BANK) and on the Record Card and album card editor headers (sheet tile + RECORD, stack tile + ALBUM, above an emoji-free title). Deploy: after bob-cli-o6.5 closed, the vault already held a later dirty bob-cli_13 build. That agent landed it as a68e29b (album title block, 1.147.0), which descends from f16ddea. A clean checkout at a68e29b passed npm run build and build:check, dry-run and real bob plugins sync -p bob-ledger-tools reported up to date (0 copied, no refusal, no -F), and the stamp now reads clean at a68e29b. Vault main.js, styles.css, and manifest.json sha256 match the checkout, deployed version 1.147.0, and the deployed main.js contains the badge code. eed318e and a68e29b changed no bank, badge, Record Card, or album-editor source (they overlap only in generated files), so the bank Setup e2e was not rerun. The touched suites pass 167/167 on a68e29b. Gates on our tree: npm test green except tracked load flakes bob-cli-io and bob-cli-lp. docs:check fails only on bob-cli's vault-format.md word budget, which fails on base too (recorded as a follow-up). Real-Obsidian e2e: Bank Setup 48 pass, all 4 badge checks pass, its 2 failures and early abort also on base. Bank UI 73 pass, 5 failures identical on base. Album UI 120/121, the 1 failure also on base. Record Card 144/144. Artifacts: file:explicit:c18918352df0c879b13cfa09, file:explicit:74d6baad122ff5d4a098008d, file:explicit:06ac5bda11561f50cbb70939, file:explicit:f9426b02e3616fb0a9bd0b33. No epic symbols; no memory edits.
 
 ## Agents
 
