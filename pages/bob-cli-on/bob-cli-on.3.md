@@ -27,7 +27,7 @@ block-layout: add task_block_layout (zones, insertion slots, tidy planning, the 
 - **Blocks:** [bob-cli-on.10](bob-cli-on.10.md) ◐ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.4](bob-cli-on.4.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.6](bob-cli-on.6.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.7](bob-cli-on.7.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.7](bob-cli-on.7.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -48,7 +48,9 @@ block-layout: add task_block_layout (zones, insertion slots, tidy planning, the 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-on.4][2] | See prior PROPOSED FOLLOW-UP notes about docs-check and the albums completion flake to cite them | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.4/README.md
 
 <!-- sase:referenced-by:end -->
