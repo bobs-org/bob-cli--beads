@@ -20,7 +20,7 @@ record-rail: give grouped record walk rails the kit group row in place of the wh
 ## Dependencies
 
 - **Depends on:** [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -33,3 +33,15 @@ record-rail: give grouped record walk rails the kit group row in place of the wh
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@2aa877c`](https://github.com/bobs-org/bob-plugins/commit/2aa877ce6064c4679077fadd77c58f530ea8bdd3) | feat(ledger-tools): add the grouped record walk rail and the album walks-by pill | [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) | 2026-11-21 13:24:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.5.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

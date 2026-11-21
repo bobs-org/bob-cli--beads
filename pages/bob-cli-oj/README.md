@@ -61,7 +61,7 @@ flowchart TD
     n12["bob-cli-oj.5.1.1: Kit group-row builder, rail missing-target states, and their CSS [closed]"]
     n13["bob-cli-oj.5.1.2: Day, week, and quarter cards adopt the group row and the derived step row [closed]"]
     n14["bob-cli-oj.5.1.3: Grouped record walk rail and the album card's \"walks by\" pill [closed]"]
-    n15["bob-cli-oj.5.1.4: Preview matrix, real-Obsidian e2e runs, and final deploy for the group rail [in_progress]"]
+    n15["bob-cli-oj.5.1.4: Preview matrix, real-Obsidian e2e runs, and final deploy for the group rail [closed]"]
     n16["bob-cli-oj.6: Group arms and hints in the links walker footer [closed]"]
     n17["bob-cli-oj.7: Album adoption, real-Obsidian proof, and final deploy [in_progress]"]
     n18["bob-cli-oj.8: Accepted memory updates [in_progress]"]
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-oj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md) | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md) | [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md) | [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-oj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md) | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md) | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.land/README.md) | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 0 |
@@ -146,6 +146,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c4953d3`](https://github.com/bobs-org/bob-plugins/commit/c4953d3d47b82dd5d615e9990d9471b3c4c49773) | feat(ledger-tools): add the property-card group row and missing-target states | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 2026-11-21 12:48:44 EST |
 | bob-plugins | [`bob-plugins@63e2f64`](https://github.com/bobs-org/bob-plugins/commit/63e2f6418a4f6135b59884ed888b67ccd9c14d68) | feat(ledger-tools): day, week, and quarter cards adopt the group row | [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) | 2026-11-21 13:15:37 EST |
 | bob-plugins | [`bob-plugins@2aa877c`](https://github.com/bobs-org/bob-plugins/commit/2aa877ce6064c4679077fadd77c58f530ea8bdd3) | feat(ledger-tools): add the grouped record walk rail and the album walks-by pill | [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) | 2026-11-21 13:24:17 EST |
+| bob-plugins | [`bob-plugins@cb70f82`](https://github.com/bobs-org/bob-plugins/commit/cb70f8291aeffa9d8724ea08b51a30ab07671381) | feat(ledger-tools): prove the group rail with a real-builder preview matrix and fix what it found | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 2026-11-21 14:54:59 EST |
 
 <!-- sase:referenced-by:start -->
 

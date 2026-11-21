@@ -44,8 +44,10 @@ row-kit: add propertyCardBuildGroupRow (new 240l fragment, exported through a ne
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.5.1.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-oj.5.1.2][2] | Need row-kit closing note: version, commit, API | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][3] | Need row-kit closing note: version, commit, API details | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->
