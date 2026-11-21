@@ -14,7 +14,7 @@ record-groups: in bob-ledger-tools, mirror bob's group-major order in the record
 ## Dependencies
 
 - **Depends on:** [bob-cli-oj.2](bob-cli-oj.2.md) ✓ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-oj.3](bob-cli-oj.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.3](bob-cli-oj.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.6](bob-cli-oj.6.md) ◐ · ⧖ 2026-11-21
 
