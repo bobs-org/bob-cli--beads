@@ -39,3 +39,15 @@ req-split: extend Task Split to select requirements at any depth, move the whole
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2239120`](https://github.com/bobs-org/bob-cli/commit/2239120810ed5867eefc66a468cee04972aa6b45) | feat(task-split)!: carry a requirement branch into its own task | [bob-cli-on.7](bob-cli-on.7.md) | 2026-11-21 14:25:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
+
+<!-- sase:referenced-by:end -->

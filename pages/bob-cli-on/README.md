@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_requirements.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md
 
@@ -24,6 +24,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 A task can carry requirements: checkbox children without `#task`, nested as deep as the work needs, drawn as a quiet ⌗⌗ run in the task's ink. They are met when the task closes and can never be ticked early. They can be dropped with a reason or carried into their own task, and the close card audits them once. They sit in one canonical block order beside a NOTES drawer, and they promote one level at a time into project tasks. bob-cli, bob-plugins, Bob Mac Capture, and the vault agree byte for byte through shared vectors, and every legacy REQUIREMENTS drawer becomes NOTES.
+
+## Notes
+
+[2026-11-21T19:54:07Z · bob-cli-o6.6.1.land] DISCOVERED ISSUE: bob-cli a0961435 (bob-cli-on.1, req-contract) registered docs/task-requirements.md as a contract without updating the bob-docs contract tests, so tools/docs/tests/test_contracts.py fails 3/8 on master dfe20ca3: test_current_registry_and_generated_nav_are_complete_and_unique (registry has 55 entries, test expects 54), test_llmstxt_contracts_section_lists_exactly_registry_stems (index 46 'task-split.md' != 'task-requirements.md'), and test_readme_table_matches_original_contract_index_snapshot (README table sha f23b0e44... != pinned 34f4f8a4...). Repro: uv run --project tools/docs pytest -q tools/docs/tests/test_contracts.py. It is masked today only because just docs-check stops earlier at the reference word-budget lint. Proposed by bob-cli-o6.6.1.5 note #2 (also reproduced on clean base 250c3053 with that phase's docs stashed; evidence file:explicit:282423e57c9f033d6cf61ecc, bobcli-docs-postlint.log); re-verified on dfe20ca3 by the bob-cli-o6.6.1 land agent. Fix belongs with this epic: bump the expected count, the llms.txt list, and the README snapshot, following the precedent of bob-cli-hs.
 
 ## Phases
 
@@ -45,7 +49,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bob-cli-on.6](bob-cli-on.6.md) | Capture grammar, spans, typing rewrite, and NOTES routing for requirements | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.7](bob-cli-on.7.md) | Carry a requirement branch into its own task | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-on.8](bob-cli-on.8.md) | Requirements on the capture successor card | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
-| [bob-cli-on.9](bob-cli-on.9.md) | Render requirements in Obsidian | ◐ in_progress | medium | 2026-11-21 | 1 | 1 |
+| [bob-cli-on.9](bob-cli-on.9.md) | Render requirements in Obsidian | ◐ in_progress | medium | 2026-11-21 | 1 | 2 |
 
 ## Lineage
 
@@ -55,7 +59,7 @@ flowchart TD
     n1["bob-cli-on.1: Requirement recognizer, shared vectors, and the contract page [closed]"]
     n2["bob-cli-on.10: Obsidian requirement guards, toggle, drop, and typing assist [in_progress]"]
     n3["bob-cli-on.10.1: Obsidian requirement guards, toggle, drop, and typing assist [in_progress]"]
-    n4["bob-cli-on.10.1.1: Recognizer and layout twins in the cycler [in_progress]"]
+    n4["bob-cli-on.10.1.1: Recognizer and layout twins in the cycler [closed]"]
     n5["bob-cli-on.10.1.2: Writer twin, cross-plugin copies, and the offer-close scope fix [in_progress]"]
     n6["bob-cli-on.10.1.3: Cycler requirement guards, Alt+[ drop, and Alt+] restore [in_progress]"]
     n7["bob-cli-on.10.1.4: Ctrl+] note/req toggle, `- [` typing assist, and o/O continuation [in_progress]"]
@@ -155,7 +159,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.1/README.md) | [bob-cli-on.1](bob-cli-on.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.md) | [bob-cli-on.10](bob-cli-on.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 0 |
@@ -182,7 +186,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.land/README.md) | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md) | [bob-cli-on.7](bob-cli-on.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8/README.md) | [bob-cli-on.8](bob-cli-on.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.land/README.md) | [bob-cli-on](README.md) | 0 |
 
 ## Commits
@@ -192,9 +196,11 @@ flowchart TD
 | bob-cli | [`a096143`](https://github.com/bobs-org/bob-cli/commit/a0961435506e4810841527ecd0b81505cb6d0632) | feat(task-reqs): add req forest recognizer contract | [bob-cli-on.1](bob-cli-on.1.md) | 2026-11-21 12:16:31 EST |
 | bob-cli | [`ca07094`](https://github.com/bobs-org/bob-cli/commit/ca070941c05b42840a40d87f0e4f6a6e0aab6090) | feat(task-reqs): add task block layout and req line writers | [bob-cli-on.3](bob-cli-on.3.md) | 2026-11-21 13:32:20 EST |
 | bob-cli | [`250c305`](https://github.com/bobs-org/bob-cli/commit/250c3053d652d1d6b48299557fc8272a809bab88) | docs(tasks): document requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:37:40 EST |
+| bob-plugins | [`bob-plugins@fb30f8d`](https://github.com/bobs-org/bob-plugins/commit/fb30f8de424ca02ec54e3161f09b50ef460a70ad) | feat(ledger-tools): add requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:38:10 EST |
 | bob-cli | [`532df82`](https://github.com/bobs-org/bob-cli/commit/532df8259187f65b6f66864669eb80b133fcb35e) | feat(task-reqs): keep readers and writers off requirement lines | [bob-cli-on.2](bob-cli-on.2.md) | 2026-11-21 13:50:46 EST |
 | bob-cli | [`f888213`](https://github.com/bobs-org/bob-cli/commit/f888213a22650dd6e33b38e9f77e7a65ca8e24e6) | feat(task): add bob task tidy to repair open task blocks | [bob-cli-on.4](bob-cli-on.4.md) | 2026-11-21 14:12:31 EST |
 | bob-cli | [`2239120`](https://github.com/bobs-org/bob-cli/commit/2239120810ed5867eefc66a468cee04972aa6b45) | feat(task-split)!: carry a requirement branch into its own task | [bob-cli-on.7](bob-cli-on.7.md) | 2026-11-21 14:25:11 EST |
+| bob-plugins | [`bob-plugins@f292fff`](https://github.com/bobs-org/bob-plugins/commit/f292fffaf6f0db2e87d0d9bc9fa63b67d3870997) | feat(task-status-cycler): add task requirement and block layout twins | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 2026-11-21 15:08:09 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -203,7 +209,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.5][1] | Look for existing DISCOVERED ISSUE notes about plugin fixture drift | 2 |
+| read-by | [agent:bob-cli-on.7][2] | Check epic notes and sibling phase status for req-split | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
 
 <!-- sase:referenced-by:end -->
