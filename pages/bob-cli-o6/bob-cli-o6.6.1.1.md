@@ -30,7 +30,7 @@ title-walkthrough: add the shared isolated obsidian-title-block-e2e runner and o
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

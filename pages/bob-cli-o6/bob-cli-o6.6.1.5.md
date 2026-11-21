@@ -14,8 +14,8 @@ final-gates-deploy: integrate the completed phases, repair the epic-caused vault
 ## Dependencies
 
 - **Depends on:** [bob-cli-o6.6.1.1](bob-cli-o6.6.1.1.md) ✓ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) ✓ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-o6.6.1.4](bob-cli-o6.6.1.4.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

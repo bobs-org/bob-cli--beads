@@ -64,8 +64,8 @@ flowchart TD
     n10["bob-cli-o6.6: Real-Obsidian proof, preview matrix, live album tidy, and final deploy [in_progress]"]
     n11["bob-cli-o6.6.1: Finish the title-block proof, visual matrix, and guarded album rollout [in_progress]"]
     n12["bob-cli-o6.6.1.1: Real-Obsidian title ownership and editing walkthrough [closed]"]
-    n13["bob-cli-o6.6.1.2: Real-Obsidian fallback and teardown proof [in_progress]"]
-    n14["bob-cli-o6.6.1.3: Complete and inspect the family preview and accessibility matrix [in_progress]"]
+    n13["bob-cli-o6.6.1.2: Real-Obsidian fallback and teardown proof [closed]"]
+    n14["bob-cli-o6.6.1.3: Complete and inspect the family preview and accessibility matrix [closed]"]
     n15["bob-cli-o6.6.1.4: Verify every host and perform the gated live album tidy [in_progress]"]
     n16["bob-cli-o6.6.1.5: Run final gates and deploy the verified merged tree [in_progress]"]
     n17["bob-cli-o6.7: Glossary updates the reviewer accepted [in_progress]"]
@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.6.md) | [bob-cli-o6.6](bob-cli-o6.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md) | [bob-cli-o6.6.1.1](bob-cli-o6.6.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.6.1.2.md) | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-o6.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.4/README.md) | [bob-cli-o6.6.1.4](bob-cli-o6.6.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md) | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 0 |
@@ -142,6 +142,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@8957bf8`](https://github.com/bobs-org/bob-cli--plans/commit/8957bf84c13c7856d7659ea5279ffbe8c5a619a2) | chore(plans): mark collection-cards title-block epic and closeout tale done | [bob-cli-o6.4.1](bob-cli-o6.4.1.md) | 2026-11-21 08:16:01 EST |
 | bob-plugins | [`bob-plugins@3860513`](https://github.com/bobs-org/bob-plugins/commit/38605130263b3cc5c1145b7afda840f5f2d54ec9) | test: add isolated Obsidian title-block walkthrough | [bob-cli-o6.6.1.1](bob-cli-o6.6.1.1.md) | 2026-11-21 08:56:22 EST |
 | bob-plugins | [`bob-plugins@c803a4e`](https://github.com/bobs-org/bob-plugins/commit/c803a4e82ff869db4619d02adee6e1e14401d7eb) | fix(plugins): preserve title fallback after repaint failures | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 2026-11-21 11:25:12 EST |
+| bob-plugins | [`bob-plugins@9a15d52`](https://github.com/bobs-org/bob-plugins/commit/9a15d529cd9e9fd450fb80dc6d0e301345a9c29c) | feat(previews): add real-builder title-block family matrix (bob-cli-o6.6.1.3) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 2026-11-21 12:33:38 EST |
 
 <!-- sase:referenced-by:start -->
 

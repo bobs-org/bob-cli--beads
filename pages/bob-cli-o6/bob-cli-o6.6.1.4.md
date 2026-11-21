@@ -13,7 +13,7 @@ album-rollout: recheck athena, apollo, and mac with their actual installed bob b
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
