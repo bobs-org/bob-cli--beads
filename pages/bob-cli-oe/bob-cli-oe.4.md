@@ -22,7 +22,7 @@ cycler-jump-close: offer the pin only when the caller can honor it; keep `jump` 
 ## Dependencies
 
 - **Depends on:** [bob-cli-oe.3](bob-cli-oe.3.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [bob-cli-oe.5](bob-cli-oe.5.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-oe.5](bob-cli-oe.5.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
@@ -35,3 +35,15 @@ cycler-jump-close: offer the pin only when the caller can honor it; keep `jump` 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6e0d764`](https://github.com/bobs-org/bob-plugins/commit/6e0d764ad2aa4b6dd7e105960895333ed8a4aadb) | feat(task-status-cycler): honor the successor jump pin after every managed Done | [bob-cli-oe.4](bob-cli-oe.4.md) | 2026-11-20 18:52:27 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oe.4--2][1] | Inspect oe.4 phase scope to judge perf failures | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.4.md
+
+<!-- sase:referenced-by:end -->

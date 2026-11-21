@@ -13,7 +13,7 @@ jump-docs-memory: update bob-cli `docs/freshness.md` §6 for the pinned-close pa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oe.5](bob-cli-oe.5.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [bob-cli-oe.5](bob-cli-oe.5.md) ✓ · ⧖ 2026-11-20
 - **Depends on:** [bob-cli-oe.6](bob-cli-oe.6.md) ◐ · ⧖ 2026-11-20
 
 ## Agents
