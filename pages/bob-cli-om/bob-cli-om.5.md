@@ -26,4 +26,10 @@ task-card-prompts: opt the Task Card picker stages S7-S10 into links through the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-om.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.5/README.md) | [bob-cli-om.5](bob-cli-om.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-om.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.5/README.md) | [bob-cli-om.5](bob-cli-om.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@cdd9df7`](https://github.com/bobs-org/bob-plugins/commit/cdd9df707ad1f2b1d1a1ff23a6c5ee2f920067fb) | feat(nav): complete \[\[ links in Task Card reason stages and the scheduled inline reason | [bob-cli-om.5](bob-cli-om.5.md) | 2026-11-21 13:44:18 EST |
