@@ -13,7 +13,7 @@ episode_route: wire Spotify episodes into create (new, dry run, reread, overwrit
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-os.3](bob-cli-os.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-os.3](bob-cli-os.3.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-os.4](bob-cli-os.4.md) ◐ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-os.6](bob-cli-os.6.md) ◐ · ⧖ 2026-11-21
 

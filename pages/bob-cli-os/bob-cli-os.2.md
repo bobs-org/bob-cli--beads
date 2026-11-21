@@ -21,7 +21,7 @@ spotify_identity: add the spotify.rs link grammar with canonical case-preserving
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-os.3](bob-cli-os.3.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.3](bob-cli-os.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
