@@ -41,7 +41,9 @@ record-rail: give grouped record walk rails the kit group row in place of the wh
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.5.1.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-oj.5.1.4][2] | Need sibling phase notes (versions, commits, follow-ups) for rail-proof | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
 
 <!-- sase:referenced-by:end -->

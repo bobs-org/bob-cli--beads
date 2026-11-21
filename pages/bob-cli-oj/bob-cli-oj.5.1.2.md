@@ -41,7 +41,9 @@ calendar-rail: compute one nav answer per card from walkMode.links v7 (fallback 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.5.1.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-oj.5.1.4][2] | Need sibling phase notes (versions, commits, follow-ups) for rail-proof | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -26,7 +26,7 @@ calendar-groups: in bob-ledger-tools, add the `api.navGroups` v1 provider for da
 ## Dependencies
 
 - **Blocks:** [bob-cli-oj.4](bob-cli-oj.4.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.6](bob-cli-oj.6.md) ✓ · ⧖ 2026-11-21
 
 ## Agents

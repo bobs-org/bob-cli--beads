@@ -63,7 +63,7 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.6](bob-cli-oj.6.md) ✓ · ⧖ 2026-11-21
 
 ## Agents

@@ -13,7 +13,7 @@ adopt-and-prove: verify every host runs plugins and a bob that support grouped w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.5](bob-cli-oj.5.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-oj.6](bob-cli-oj.6.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.8](bob-cli-oj.8.md) ◐ · ⧖ 2026-11-21
 

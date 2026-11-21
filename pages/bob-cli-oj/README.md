@@ -29,6 +29,23 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-11-21T15:22:38Z · bob-cli-oj.3.1.land] DISCOVERED ISSUE: Triaged proposal from bob-cli-oj.3.1.4 note #1. plugin-apis.md is 8165/8000 words at bob-plugins 4e0ff78. This is a develop-tier warning (lint.py), not a second fatal docs-check error. Independent count/history shows 7996 before 168b665, 8131 after your calendar-groups phase commit 168b665 (oj.2), then 8165 after 6debb63 (oe.8.3). The existing headroom task bob-cli-ob covers the broader remediation; the oj.2 increment is causally yours and should be considered in outer landing. This is outside the grouped-walk child epic.
 
+[2026-11-21T20:27:18Z · bryanbugyi34@gmail.com] The new bar that we added does not look great. Namely, the '<<' and '>>' don't look great and are not intuitive and the bottom bar is way to cluttered. See the 🔒 20261121\_152522.png screenshot for an example of what this looks like now. The epic lander agent should try to improve the situation before landing the epic.
+
+[2026-11-21T22:10:03Z · bob-cli-oj.5.1.land] FOR THE bob-cli-oj LAND AGENT (from bob-cli-oj.5.1.land): Bryan's note #2 (the «/» arms looked bad and the bottom bar was cluttered) is addressed in Ledger Tools 1.157.0. It is the landing stitch for bob-cli-oj.5.1, committed by the host finalizer on top of bob-plugins ae305a3, and deployed with bob plugins sync.
+Decisions taken (auto, final): layout = slim (the group row stays its own slim second row), glyph = skip (Lucide skip-back / skip-forward inline SVG), footer = yes.
+Surfaces changed:
+1. Property-card group row on day, week, and quarter cards and the grouped record walk rail. Arms show the skip mark and the group name only, with no «/» and no visible landing; the tooltip and accessible name carry the landing. The centre is just the tick track (title and hidden label carry `Day 6 of 7 in week W47` or `Section 2 of 4: … · 2 of 3`). A one-member group shows no centre or track, which is the screenshot case. Creatable and ghost arms use dashed or dotted underlines, not boxes; rail items and chips keep their boxes.
+2. Status-bar links walker footer: the same mark (shared kit builder), no «/» in arm text, no `1/1` context, and `]n enters X` moves to the tooltip while the next group arm already names X.
+Authored «/»/<< >> nav-line grammar and the conflict message are unchanged; Navigation Hotkeys is untouched.
+bob-cli-oj.5.1 and phase bob-cli-oj.5 are closed (evidence in their close notes).
+Left for you:
+- the decisions-web follow-up (bob-cli-oj.5 note #1)
+- bob-cli-oj.6 note #3, the walker-footer e2e geometryStable failure. I reproduced it identically on clean origin/master fc806cf: .bob-bracket-mode x = 819/956/1085/968 for s/w/n/b, width and height stable. So it predates this landing; no task was filed, to avoid duplicating that proposal.
+
+## Attachments
+
+- 🔒 20261121\_152522.png · image/png · 2858×1728 · 983.287 KiB (private attachment)
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -37,7 +54,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-oj.2](bob-cli-oj.2.md) | Calendar group provider, legacy step fill-in, and the pre-adoption guard | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oj.3](bob-cli-oj.3.md) | Album \`walk\_by\` and group-major record walk lines in bob | ✓ closed | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-oj.4](bob-cli-oj.4.md) | Grouped record walk model and the record group provider | ✓ closed | medium | 2026-11-21 | 1 | 2 |
-| [bob-cli-oj.5](bob-cli-oj.5.md) | The group row at the bottom of property cards | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
+| [bob-cli-oj.5](bob-cli-oj.5.md) | The group row at the bottom of property cards | ✓ closed | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-oj.6](bob-cli-oj.6.md) | Group arms and hints in the links walker footer | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oj.7](bob-cli-oj.7.md) | Album adoption, real-Obsidian proof, and final deploy | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-oj.8](bob-cli-oj.8.md) | Accepted memory updates | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
@@ -56,8 +73,8 @@ flowchart TD
     n7["bob-cli-oj.3.1.3: Add reversible walk_by updates to the album writer [closed]"]
     n8["bob-cli-oj.3.1.4: Document and verify the complete grouped walk contract [closed]"]
     n9["bob-cli-oj.4: Grouped record walk model and the record group provider [closed]"]
-    n10["bob-cli-oj.5: The group row at the bottom of property cards [in_progress]"]
-    n11["bob-cli-oj.5.1: The group row at the bottom of property cards [in_progress]"]
+    n10["bob-cli-oj.5: The group row at the bottom of property cards [closed]"]
+    n11["bob-cli-oj.5.1: The group row at the bottom of property cards [closed]"]
     n12["bob-cli-oj.5.1.1: Kit group-row builder, rail missing-target states, and their CSS [closed]"]
     n13["bob-cli-oj.5.1.2: Day, week, and quarter cards adopt the group row and the derived step row [closed]"]
     n14["bob-cli-oj.5.1.3: Grouped record walk rail and the album card's \"walks by\" pill [closed]"]
@@ -121,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-oj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md) | [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md) | [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md) | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-oj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.land/README.md) | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.5.1.land.md) | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.8/README.md) | [bob-cli-oj.8](bob-cli-oj.8.md) | 0 |
@@ -147,6 +164,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@63e2f64`](https://github.com/bobs-org/bob-plugins/commit/63e2f6418a4f6135b59884ed888b67ccd9c14d68) | feat(ledger-tools): day, week, and quarter cards adopt the group row | [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) | 2026-11-21 13:15:37 EST |
 | bob-plugins | [`bob-plugins@2aa877c`](https://github.com/bobs-org/bob-plugins/commit/2aa877ce6064c4679077fadd77c58f530ea8bdd3) | feat(ledger-tools): add the grouped record walk rail and the album walks-by pill | [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) | 2026-11-21 13:24:17 EST |
 | bob-plugins | [`bob-plugins@cb70f82`](https://github.com/bobs-org/bob-plugins/commit/cb70f8291aeffa9d8724ea08b51a30ab07671381) | feat(ledger-tools): prove the group rail with a real-builder preview matrix and fix what it found | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 2026-11-21 14:54:59 EST |
+| bob-plugins | [`bob-plugins@24ed171`](https://github.com/bobs-org/bob-plugins/commit/24ed1719709183364382e64a48153c01224fea1d) | feat(ledger-tools): declutter the group row and footer group arms with skip marks | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 2026-11-21 17:11:32 EST |
 
 <!-- sase:referenced-by:start -->
 
