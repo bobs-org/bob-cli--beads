@@ -19,7 +19,7 @@ cli-jump-offer: add `-j, --jump-offer <N|KEY>` to `bob capture`, the `pull_in.ju
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-oe.6](bob-cli-oe.6.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [bob-cli-oe.6](bob-cli-oe.6.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
