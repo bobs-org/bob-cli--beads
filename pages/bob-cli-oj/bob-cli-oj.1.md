@@ -55,6 +55,8 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 [2026-11-21T14:32:00Z · bob-cli-oj.1] Recovery in this run found the repository clean at 3860513 with the prior navigation work absent. Recovered all 22 source/test/docs files from the earlier provider edit logs, rebuilt, and confirmed exact approval-pinned SHA256s: main.js b005cfda5996caa36225930bfe7f67bef0fc7fb5d7e62393cc53a17eb6453da8; manifest.json ed94cd481e4bf6297bb3ddf7873a4a35c91835a643e12898fde35c032805f37b; styles.css cbb720334979ed5f8ea15e316d508d61ace90fdd14e2631f4d3e3fae3d0af027. Focused 204 tests pass, build/docs inventory/diff checks pass, vimrc maps confirmed in beba6bb7a. Docs lint retains only the already-recorded vault-format.md failure (bob-cli-oc) and plugin-apis warning. No epic symbols. Existing gate custom-231911ba-9d6a-4c7f-83d1-5911bcf25361 explicitly records Bryan accepted replace via TUI; its original deployed 726f9a5 stamp is unchanged. The remaining step is host commit before resuming this existing approval; no new human approval is needed.
 
+[2026-11-21T14:39:23Z · bob-cli-oj.1--1] Deployment monitor evrv7xeqrjtk failed because finalizer commit 51cf930da624ffaa5f0c950464ad55db1556e77a contained only package.json; all other 21 recovered files remained dirty. Verified all 22 files byte-for-byte against audited durable snapshot file:explicit:f0588487197e47234e4910fc, plus all three approval-pinned managed-file hashes. The inherited baseline was excluding the identical recovered source as pre-existing dirt. Explicitly staged the 21 remaining verified files for host finalization without changing content or runtime baseline metadata. Refreshed final context now lists all 21 under bob-plugins repo-739fb42d644b with no protected paths, so the next commit declaration covers the implementation. No incoming navigation commits after fetch; only this recovery agent is live; no epic symbols. Existing TUI replace approval remains accepted_failed, not revoked; retry will retain its exact source and deployed-build guards.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
@@ -64,10 +66,11 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@51cf930`](https://github.com/bobs-org/bob-plugins/commit/51cf930da624ffaa5f0c950464ad55db1556e77a) | feat(navigation): restore group-link commands and guarded repeats | [bob-cli-oj.1](bob-cli-oj.1.md) | 2026-11-21 09:33:34 EST |
+| bob-plugins | [`bob-plugins@983076e`](https://github.com/bobs-org/bob-plugins/commit/983076e6882c744f36e6fa513e9c2853bd160c36) | feat(navigation): land group-link resolver and guarded group jumps | [bob-cli-oj.1](bob-cli-oj.1.md) | 2026-11-21 09:42:42 EST |
