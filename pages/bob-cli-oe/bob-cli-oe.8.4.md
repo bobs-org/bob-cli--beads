@@ -21,4 +21,10 @@ mac-jump-repairs: in bob-mac-capture, carry the jump offer and its capability th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oe.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.4.md) | [bob-cli-oe.8.4](bob-cli-oe.8.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.8.4.md) | [bob-cli-oe.8.4](bob-cli-oe.8.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@109c30d`](https://github.com/bobs-org/bob-mac-capture/commit/109c30db300df4a9a161ee2152e3b4676decdeaf) | fix(capture): keep Pull-In jump pin through inbox routing | [bob-cli-oe.8.4](bob-cli-oe.8.4.md) | 2026-11-20 22:07:07 EST |

@@ -37,8 +37,10 @@ cycler-jump-ordering: make the Task Link Ctrl+Enter close and the unlink-plus-in
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-oj.2][1] | Need whether the cycler v6 park-the-walk test failure is already tracked on the jump-pin landing phase | 1 |
+| read-by | [agent:bob-cli-oe.8.3][1] | Need final status before close | 3 |
+| read-by | [agent:bob-cli-oj.2][2] | Need whether the cycler v6 park-the-walk test failure is already tracked on the jump-pin landing phase | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oj.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oe.8.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oj.2/README.md
 
 <!-- sase:referenced-by:end -->
