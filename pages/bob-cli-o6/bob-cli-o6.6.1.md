@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/title_block_final_proof.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/title_block_final_proof.md
 
@@ -38,7 +38,15 @@ The shipped title-block family is proven in real Obsidian and the full visual ma
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.1][1] | Need parent DECISIONS, notes, and whether earlier title-walkthrough work already landed | 1 |
+| read-by | [agent:bob-cli-o6.6.1.3][2] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][3] | Check which fragments the open o6.6.1 phases are changing | 2 |
+| read-by | [agent:bob-cli-oj.5.1.2][4] | Check which fragments open o6.6.1 phases touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][5] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

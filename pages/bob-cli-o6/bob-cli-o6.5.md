@@ -23,6 +23,8 @@
 | related | file:explicit:f644ddee5d89c2b8b81b22ad | attached via sase artifact create --bead |
 | related | file:explicit:fa36383bd08442974d1067e1 | attached via sase artifact create --bead |
 
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -62,3 +64,21 @@ Real-Obsidian e2e (athena, xvfb, Obsidian with real debug bob from bob-cli 2443e
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@eed318e`](https://github.com/bobs-org/bob-plugins/commit/eed318e0542a09d99278ff936763ab1666d6d3ee) | feat(ledger-tools): day and period cards own the title block | [bob-cli-o6.5](bob-cli-o6.5.md) | 2026-11-20 14:39:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.5.1.1][1] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][2] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][3] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
+| read-by | [agent:bob-cli-oj.6][4] | Need o6 child phase statuses to avoid editing fragments an open o6 phase is changing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+
+<!-- sase:referenced-by:end -->

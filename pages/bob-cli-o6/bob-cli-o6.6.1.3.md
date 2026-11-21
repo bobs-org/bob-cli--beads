@@ -17,6 +17,8 @@
 | related | file:explicit:259cbd73cf16d1b5da1606dc | attached via sase artifact create --bead |
 | related | file:explicit:7021dc2b01dac7b9e530753d | attached via sase artifact create --bead |
 
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -32,8 +34,8 @@ visual-matrix: compose the existing real card builders into the full eleven-case
 ## Dependencies
 
 - **Depends on:** [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-o6.6.1.4](bob-cli-o6.6.1.4.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-o6.6.1.4](bob-cli-o6.6.1.4.md) ✓ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -46,3 +48,21 @@ visual-matrix: compose the existing real card builders into the full eleven-case
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@9a15d52`](https://github.com/bobs-org/bob-plugins/commit/9a15d529cd9e9fd450fb80dc6d0e301345a9c29c) | feat(previews): add real-builder title-block family matrix (bob-cli-o6.6.1.3) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 2026-11-21 12:33:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-o6.6.1.3][1] | Need full bead JSON including notes | 2 |
+| read-by | [agent:bob-cli-oj.5.1.1][2] | Check which fragments the open o6.6.1 phases are changing | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][3] | Check which fragments open o6.6.1 phases touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][4] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

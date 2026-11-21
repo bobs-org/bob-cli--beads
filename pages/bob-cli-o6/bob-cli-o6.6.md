@@ -31,7 +31,17 @@ obsidian-proof: add and run a real-Obsidian title-block walkthrough on athena (o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.1][1] | Need parent DECISIONS, notes, and whether earlier title-walkthrough work already landed | 1 |
+| read-by | [agent:bob-cli-o6.6.1.3][2] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][3] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][4] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][5] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
+| read-by | [agent:bob-cli-oj.6][6] | Need o6.6 description to confirm it does not edit footer fragments 120/121/124 | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->
