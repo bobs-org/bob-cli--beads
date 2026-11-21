@@ -27,4 +27,10 @@ reader-hardening: make projects sync, embedded-tree closes, loss and clobber gua
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.2.md) | [bob-cli-on.2](bob-cli-on.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.2.md) | [bob-cli-on.2](bob-cli-on.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`532df82`](https://github.com/bobs-org/bob-cli/commit/532df8259187f65b6f66864669eb80b133fcb35e) | feat(task-reqs): keep readers and writers off requirement lines | [bob-cli-on.2](bob-cli-on.2.md) | 2026-11-21 13:50:46 EST |
