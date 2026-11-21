@@ -24,4 +24,10 @@ mac-jump-pin: add `jumpKey` to CapturePullInOutcomes. Ctrl+J is consumed by the 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oe.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.6.md) | [bob-cli-oe.6](bob-cli-oe.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oe.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oe.6.md) | [bob-cli-oe.6](bob-cli-oe.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@bf590f3`](https://github.com/bobs-org/bob-mac-capture/commit/bf590f324b88126823d55db701ba73feda77520c) | feat(capture): add successor jump pin to Pull-In card | [bob-cli-oe.6](bob-cli-oe.6.md) | 2026-11-20 19:58:18 EST |
