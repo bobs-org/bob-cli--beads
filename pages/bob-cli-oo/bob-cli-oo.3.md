@@ -49,7 +49,9 @@ Parent epic bob-cli-oo left open.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oo.3--1][1] | Continue the phase after the monitored plugin test result; need scope, notes, and closeout requirements | 1 |
+| read-by | [agent:bob-cli-oo.4][2] | Check prior phase notes for handoff items to note-stage, including the early glossary edit | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oo.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.4/README.md
 
 <!-- sase:referenced-by:end -->

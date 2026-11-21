@@ -29,10 +29,23 @@ note-stage: reassign Space to the note stage and `-` to no-category, build the i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oo.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.4/README.md) | [bob-cli-oo.4](bob-cli-oo.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oo.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.4/README.md) | [bob-cli-oo.4](bob-cli-oo.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`fc27bf1`](https://github.com/bobs-org/bob-cli/commit/fc27bf1ad8694d35bf5ce3729d7a2b3adb5f9d1e) | docs(bank): document the Category card note stage and regenerate the glossary | [bob-cli-oo.4](bob-cli-oo.4.md) | 2026-11-21 16:03:16 EST |
+| bob-plugins | [`bob-plugins@604c8a9`](https://github.com/bobs-org/bob-plugins/commit/604c8a9a336cb04bc0ab6288a2b976599da42c09) | feat(bank)!: Space opens a row note stage on the Category card | [bob-cli-oo.4](bob-cli-oo.4.md) | 2026-11-21 16:09:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oo.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.4/README.md
+
+<!-- sase:referenced-by:end -->
