@@ -16,7 +16,7 @@
 | related | file:explicit:72adbbcc87ab9732144d33d2 | attached via sase artifact create --bead |
 | related | file:explicit:fcd1fa5647c172c1f171071f | attached via sase artifact create --bead |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -53,14 +53,16 @@ title-walkthrough: add the shared isolated obsidian-title-block-e2e runner and o
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.1][1] | Need the phase scope, design file, notes, and epic DECISIONS | 4 |
 | read-by | [agent:bob-cli-o6.6.1.3][2] | Need attachment refs and file evidence | 2 |
-| read-by | [agent:bob-cli-oj.5.1.1][3] | Check which fragments the open o6.6.1 phases are changing | 1 |
-| read-by | [agent:bob-cli-oj.5.1.2][4] | Check which fragments open o6.6.1 phases touch | 1 |
-| read-by | [agent:bob-cli-oj.5.1.3][5] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
+| read-by | [agent:bob-cli-o6.6.1.5][3] | Need prior phase evidence and handoff notes for final gates | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][4] | Check which fragments the open o6.6.1 phases are changing | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][5] | Check which fragments open o6.6.1 phases touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][6] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_title_block.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_title_block.md
 
@@ -44,7 +44,7 @@ On desktop Obsidian, every album note, record note, canonical daily note, and we
 | [bob-cli-o6.3](bob-cli-o6.3.md) | Album \`title:\` key, H1-less album create, and \`bob albums tidy\` | ✓ closed | large | 2026-11-20 | 1 | 1 |
 | [bob-cli-o6.4](bob-cli-o6.4.md) | Album, record, and bank cards adopt the title block | ✓ closed | large | 2026-11-20 | 1 | 0 |
 | [bob-cli-o6.5](bob-cli-o6.5.md) | Day and period cards always mount as the title block with a docked rail | ✓ closed | large | 2026-11-20 | 1 | 1 |
-| [bob-cli-o6.6](bob-cli-o6.6.md) | Real-Obsidian proof, preview matrix, live album tidy, and final deploy | ◐ in_progress | large | 2026-11-20 | 1 | 0 |
+| [bob-cli-o6.6](bob-cli-o6.6.md) | Real-Obsidian proof, preview matrix, live album tidy, and final deploy | ✓ closed | large | 2026-11-20 | 1 | 0 |
 | [bob-cli-o6.7](bob-cli-o6.7.md) | Glossary updates the reviewer accepted | ◐ in_progress | small | 2026-11-20 | 1 | 0 |
 
 ## Lineage
@@ -61,8 +61,8 @@ flowchart TD
     n7["bob-cli-o6.4.1.2: Record card wears the RECORD kicker and sheet tile, mounts in the title slot, and migrates its title selectors onto the kit [closed]"]
     n8["bob-cli-o6.4.1.3: Bank Setup card and the two card editors show the species tile and word [closed]"]
     n9["bob-cli-o6.5: Day and period cards always mount as the title block with a docked rail [closed]"]
-    n10["bob-cli-o6.6: Real-Obsidian proof, preview matrix, live album tidy, and final deploy [in_progress]"]
-    n11["bob-cli-o6.6.1: Finish the title-block proof, visual matrix, and guarded album rollout [in_progress]"]
+    n10["bob-cli-o6.6: Real-Obsidian proof, preview matrix, live album tidy, and final deploy [closed]"]
+    n11["bob-cli-o6.6.1: Finish the title-block proof, visual matrix, and guarded album rollout [closed]"]
     n12["bob-cli-o6.6.1.1: Real-Obsidian title ownership and editing walkthrough [closed]"]
     n13["bob-cli-o6.6.1.2: Real-Obsidian fallback and teardown proof [closed]"]
     n14["bob-cli-o6.6.1.3: Complete and inspect the family preview and accessibility matrix [closed]"]
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.4/README.md) | [bob-cli-o6.6.1.4](bob-cli-o6.6.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2 |
-| [bbugyi200.athena.bob-cli-o6.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md) | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md) | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md) | [bob-cli-o6.7](bob-cli-o6.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.land/README.md) | [bob-cli-o6](README.md) | 0 |
 
@@ -145,6 +145,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9a15d52`](https://github.com/bobs-org/bob-plugins/commit/9a15d529cd9e9fd450fb80dc6d0e301345a9c29c) | feat(previews): add real-builder title-block family matrix (bob-cli-o6.6.1.3) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 2026-11-21 12:33:38 EST |
 | bob-cli | [`cb9f8fa`](https://github.com/bobs-org/bob-cli/commit/cb9f8fadd227f1cac8b86047a150854e1ab908bd) | docs(reference): trim vault-format under the reference word cap and fix a capture anchor | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2026-11-21 14:08:18 EST |
 | bob-plugins | [`bob-plugins@238fa91`](https://github.com/bobs-org/bob-plugins/commit/238fa91d45fbedf437c69b24eff13f040479dc32) | fix(ledger-tools): retry the title slot after the pane leaves a failed note | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2026-11-21 14:11:46 EST |
+| bob-cli--plans | [`bob-cli--plans@7cd986d`](https://github.com/bobs-org/bob-cli--plans/commit/7cd986de0e91d646b1a3217401a97abdaf2feae7) | chore(plans): mark title\_block\_final\_proof done after bob-cli-o6.6.1 landed | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 2026-11-21 15:08:09 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -158,7 +159,8 @@ flowchart TD
 | read-by | [agent:bob-cli-oj.5.1.1][4] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
 | read-by | [agent:bob-cli-oj.5.1.2][5] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
 | read-by | [agent:bob-cli-oj.5.1.3][6] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
-| read-by | [agent:bob-cli-oj.6][7] | Precondition: confirm title-block epic is closed before editing links footer fragments | 2 |
+| read-by | [agent:bob-cli-oj.5.1.4][7] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.6][8] | Precondition: confirm title-block epic is closed before editing links footer fragments | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md
@@ -166,6 +168,7 @@ flowchart TD
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->

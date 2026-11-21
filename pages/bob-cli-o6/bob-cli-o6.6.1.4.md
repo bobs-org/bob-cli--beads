@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:3f4a5c1c4d85bd32012f67cc | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -50,12 +50,14 @@ Prior close: 2026-11-21T17:50:43Z · done.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-oj.5.1.1][1] | Check which fragments the open o6.6.1 phases are changing | 1 |
-| read-by | [agent:bob-cli-oj.5.1.2][2] | Check which fragments open o6.6.1 phases touch | 1 |
-| read-by | [agent:bob-cli-oj.5.1.3][3] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
+| read-by | [agent:bob-cli-o6.6.1.5][1] | Need prior phase evidence and handoff notes for final gates | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][2] | Check which fragments the open o6.6.1 phases are changing | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][3] | Check which fragments open o6.6.1 phases touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][4] | bob-cli-o6 precondition: which open o6.6.1 phases edit which fragments | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

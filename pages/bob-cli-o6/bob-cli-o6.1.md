@@ -23,7 +23,7 @@
 | related | file:explicit:a7c76d388b6c68a3b3f2f727 | attached via sase artifact create --bead |
 | related | file:explicit:e3d5351361f5ec48f64c37af | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -98,11 +98,13 @@ Adopter notes:
 | read-by | [agent:bob-cli-oj.5.1.1][1] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
 | read-by | [agent:bob-cli-oj.5.1.2][2] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
 | read-by | [agent:bob-cli-oj.5.1.3][3] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
-| read-by | [agent:bob-cli-oj.6][4] | Need o6 child phase statuses to avoid editing fragments an open o6 phase is changing | 1 |
+| read-by | [agent:bob-cli-oj.5.1.4][4] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.6][5] | Need o6 child phase statuses to avoid editing fragments an open o6 phase is changing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->
