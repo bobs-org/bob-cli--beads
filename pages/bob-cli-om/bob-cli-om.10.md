@@ -16,7 +16,7 @@
 | related | file:explicit:1dc5b865bd4aaf4f57c09e94 | attached via sase artifact create --bead |
 | related | file:explicit:f0b28b634d1ed5fd428c6b94 | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -62,10 +62,12 @@ prose-lint: mark every text control in bob-plugins with a role (prose, literal, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-om.10][1] | Need the phase scope, prior notes, and linked design file before checking what already landed | 2 |
+| read-by | [agent:bob-cli-om.10][1] | Need the phase scope, prior notes, and linked design file before checking what already landed | 3 |
 | read-by | [agent:bob-cli-om.7][2] | see sibling phase status and notes | 1 |
+| read-by | [agent:bob-cli-oo.land][3] | Check prose-lint phase state before routing a bankCategoryUiAppend scanner gap | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.10/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.land/README.md
 
 <!-- sase:referenced-by:end -->

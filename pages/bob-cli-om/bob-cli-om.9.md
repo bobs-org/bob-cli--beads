@@ -27,7 +27,13 @@ mac-pull-in: wire the Pull-In cancel reason field (S16) in bob-mac-capture to ca
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-om.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.9/README.md) | [bob-cli-om.9](bob-cli-om.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-om.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.9/README.md) | [bob-cli-om.9](bob-cli-om.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@f27ce23`](https://github.com/bobs-org/bob-mac-capture/commit/f27ce23005395e159caabfb1e6104ae2864cfb78) | feat(capture): complete pull-in cancel reason links-only wikilink band | [bob-cli-om.9](bob-cli-om.9.md) | 2026-11-21 13:19:37 EST |
 
 <!-- sase:referenced-by:start -->
 

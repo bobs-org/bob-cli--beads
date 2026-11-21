@@ -51,6 +51,7 @@ link-band: build the two-mode proseField controller and the LINK band (rendering
 | read-by | [agent:bob-cli-om.6][4] | See link-band phase notes about real-Obsidian spike results and blur/rebind behavior | 1 |
 | read-by | [agent:bob-cli-om.7][5] | see sibling phase status and notes | 1 |
 | read-by | [agent:bob-cli-oo.1][6] | Need om.3 status because vault stamp still names its dirty workspace 10 deploy | 2 |
+| read-by | [agent:bob-cli-oo.land][7] | Check whether the prose-field perf flake is already recorded | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.4/README.md
@@ -58,5 +59,6 @@ link-band: build the two-mode proseField controller and the LINK band (rendering
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.6/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.7/README.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.1/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.land/README.md
 
 <!-- sase:referenced-by:end -->
