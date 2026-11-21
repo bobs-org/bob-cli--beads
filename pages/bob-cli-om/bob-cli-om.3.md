@@ -22,16 +22,22 @@ link-band: build the two-mode proseField controller and the LINK band (rendering
 ## Dependencies
 
 - **Depends on:** [bob-cli-om.2](bob-cli-om.2.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-om.4](bob-cli-om.4.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.4](bob-cli-om.4.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-om.5](bob-cli-om.5.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-om.6](bob-cli-om.6.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.6](bob-cli-om.6.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-om.7](bob-cli-om.7.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-om.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md) | [bob-cli-om.3](bob-cli-om.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-om.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.3/README.md) | [bob-cli-om.3](bob-cli-om.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@79fe2e1`](https://github.com/bobs-org/bob-plugins/commit/79fe2e15e25956aa913944d97cb8605f5ad65ad6) | feat(nav): add proseField LINK band and Work summary \[\[ pilot | [bob-cli-om.3](bob-cli-om.3.md) | 2026-11-21 12:31:56 EST |
 
 <!-- sase:referenced-by:start -->
 
