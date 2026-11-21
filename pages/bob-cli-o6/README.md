@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-o6.6.1.2.md) | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.4/README.md) | [bob-cli-o6.6.1.4](bob-cli-o6.6.1.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-o6.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md) | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md) | [bob-cli-o6.7](bob-cli-o6.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-o6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.land/README.md) | [bob-cli-o6](README.md) | 0 |
@@ -144,6 +144,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c803a4e`](https://github.com/bobs-org/bob-plugins/commit/c803a4e82ff869db4619d02adee6e1e14401d7eb) | fix(plugins): preserve title fallback after repaint failures | [bob-cli-o6.6.1.2](bob-cli-o6.6.1.2.md) | 2026-11-21 11:25:12 EST |
 | bob-plugins | [`bob-plugins@9a15d52`](https://github.com/bobs-org/bob-plugins/commit/9a15d529cd9e9fd450fb80dc6d0e301345a9c29c) | feat(previews): add real-builder title-block family matrix (bob-cli-o6.6.1.3) | [bob-cli-o6.6.1.3](bob-cli-o6.6.1.3.md) | 2026-11-21 12:33:38 EST |
 | bob-cli | [`cb9f8fa`](https://github.com/bobs-org/bob-cli/commit/cb9f8fadd227f1cac8b86047a150854e1ab908bd) | docs(reference): trim vault-format under the reference word cap and fix a capture anchor | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2026-11-21 14:08:18 EST |
+| bob-plugins | [`bob-plugins@238fa91`](https://github.com/bobs-org/bob-plugins/commit/238fa91d45fbedf437c69b24eff13f040479dc32) | fix(ledger-tools): retry the title slot after the pane leaves a failed note | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2026-11-21 14:11:46 EST |
 
 <!-- sase:referenced-by:start -->
 

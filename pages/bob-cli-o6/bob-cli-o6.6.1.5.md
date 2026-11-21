@@ -50,13 +50,14 @@ final-gates-deploy: integrate the completed phases, repair the epic-caused vault
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cb9f8fa`](https://github.com/bobs-org/bob-cli/commit/cb9f8fadd227f1cac8b86047a150854e1ab908bd) | docs(reference): trim vault-format under the reference word cap and fix a capture anchor | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2026-11-21 14:08:18 EST |
+| bob-plugins | [`bob-plugins@238fa91`](https://github.com/bobs-org/bob-plugins/commit/238fa91d45fbedf437c69b24eff13f040479dc32) | fix(ledger-tools): retry the title slot after the pane leaves a failed note | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2026-11-21 14:11:46 EST |
 
 <!-- sase:referenced-by:start -->
 
