@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-oj](README.md) / bob-cli-oj.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1es](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1es.md) · **Assignee:** `bob-cli-oj.1` · **Size:** medium
-**Created:** 2026-11-21 07:41:35 EST
+**Created:** 2026-11-21 07:41:35 EST · **Closed:** 2026-11-21 09:46:30 EST
 **Plan:** [202611/bracket\_n\_group\_jumps.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bracket_n_group_jumps.md)
 
 ## Previously Closed
@@ -22,6 +22,8 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | related | file:explicit:f0588487197e47234e4910fc | attached via sase artifact create --bead |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -57,6 +59,8 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 [2026-11-21T14:39:23Z · bob-cli-oj.1--1] Deployment monitor evrv7xeqrjtk failed because finalizer commit 51cf930da624ffaa5f0c950464ad55db1556e77a contained only package.json; all other 21 recovered files remained dirty. Verified all 22 files byte-for-byte against audited durable snapshot file:explicit:f0588487197e47234e4910fc, plus all three approval-pinned managed-file hashes. The inherited baseline was excluding the identical recovered source as pre-existing dirt. Explicitly staged the 21 remaining verified files for host finalization without changing content or runtime baseline metadata. Refreshed final context now lists all 21 under bob-plugins repo-739fb42d644b with no protected paths, so the next commit declaration covers the implementation. No incoming navigation commits after fetch; only this recovery agent is live; no epic symbols. Existing TUI replace approval remains accepted_failed, not revoked; retry will retain its exact source and deployed-build guards.
 
+[2026-11-21T14:46:30Z · bob-cli-oj.1--2] Verified final recovery and deployment: bob-plugins HEAD and freshly fetched origin/master both equal 983076e6882c744f36e6fa513e9c2853bd160c36 (ahead/behind 0/0), with a clean index/worktree and all 22 recovered source/test/docs/package files committed across 51cf930 and 983076e; the latter contains the 21 previously omitted files. Approved gate custom-231911ba-9d6a-4c7f-83d1-5911bcf25361 completed successfully in monitor fsfj8byf6sta (ToolRun 4158dc05f830f5a7d550167c10e168fe; file:monitor-retained-log:fsfj8byf6sta). Fresh bob plugins list --no-pull reports bob-navigation-hotkeys version 2.96.1, sync=synced, deployment.status=clean, source_head=983076e6882c744f36e6fa513e9c2853bd160c36. Source and deployed SHA256s match the approved main.js b005cfda5996caa36225930bfe7f67bef0fc7fb5d7e62393cc53a17eb6453da8, manifest.json ed94cd481e4bf6297bb3ddf7873a4a35c91835a643e12898fde35c032805f37b, styles.css cbb720334979ed5f8ea15e316d508d61ace90fdd14e2631f4d3e3fae3d0af027. No code changed this turn; prior 204/204 focused tests and build/docs inventory/diff checks remain valid. Previously documented vault-format.md lint baseline, plugin-apis warning, and two unchanged Ledger timing flakes remain recorded above. Vault [N/]N mappings were already verified in beba6bb7a. No duplicate phase worker is running. sase bead epic-symbols bob-cli-oj.1 reports no entries. Closed only this phase; parent bob-cli-oj remains in_progress.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-oj.5](bob-cli-oj.5.md) ◐ · ⧖ 2026-11-21
@@ -66,11 +70,16 @@ Prior close: 2026-11-21T13:12:36Z · done.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-oj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md) | [bob-cli-oj.1](bob-cli-oj.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@51cf930`](https://github.com/bobs-org/bob-plugins/commit/51cf930da624ffaa5f0c950464ad55db1556e77a) | feat(navigation): restore group-link commands and guarded repeats | [bob-cli-oj.1](bob-cli-oj.1.md) | 2026-11-21 09:33:34 EST |
-| bob-plugins | [`bob-plugins@983076e`](https://github.com/bobs-org/bob-plugins/commit/983076e6882c744f36e6fa513e9c2853bd160c36) | feat(navigation): land group-link resolver and guarded group jumps | [bob-cli-oj.1](bob-cli-oj.1.md) | 2026-11-21 09:42:42 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.1--1][1] | Need the phase scope and design file and recorded remaining deployment work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.1.md
+
+<!-- sase:referenced-by:end -->

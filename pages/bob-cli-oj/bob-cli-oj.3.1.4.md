@@ -13,7 +13,7 @@ docs-proof: document walk_by, JSON, operation and churn contracts; regenerate CL
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
