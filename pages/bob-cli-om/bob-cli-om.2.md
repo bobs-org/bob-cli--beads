@@ -20,13 +20,19 @@ link-engine: in bob-navigation-hotkeys, add pure JS fragments for the field mode
 ## Dependencies
 
 - **Depends on:** [bob-cli-om.1](bob-cli-om.1.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-om.3](bob-cli-om.3.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.3](bob-cli-om.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-om.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md) | [bob-cli-om.2](bob-cli-om.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-om.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-om.2/README.md) | [bob-cli-om.2](bob-cli-om.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@92f643d`](https://github.com/bobs-org/bob-plugins/commit/92f643dea982b557cd08200f532fd4e82749a2ad) | feat(nav): add prose wikilink link engine (field model, ranking, metadata index) | [bob-cli-om.2](bob-cli-om.2.md) | 2026-11-21 11:38:13 EST |
 
 <!-- sase:referenced-by:start -->
 

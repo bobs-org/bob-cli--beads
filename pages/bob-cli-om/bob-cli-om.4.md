@@ -14,7 +14,7 @@ modal-prompts: opt surfaces S2-S6, S12, and S13 into links with a correct source
 ## Dependencies
 
 - **Blocks:** [bob-cli-om.10](bob-cli-om.10.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-om.3](bob-cli-om.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-om.3](bob-cli-om.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

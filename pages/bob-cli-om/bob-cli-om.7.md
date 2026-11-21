@@ -14,7 +14,7 @@ record-card: attach proseField to the Record Card's text, suggest, and list stag
 ## Dependencies
 
 - **Blocks:** [bob-cli-om.10](bob-cli-om.10.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-om.3](bob-cli-om.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-om.3](bob-cli-om.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
