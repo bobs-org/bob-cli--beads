@@ -14,7 +14,7 @@ drawer-rename: add `bob task rename-drawer OLD NEW`, a previewed, idempotent, on
 ## Dependencies
 
 - **Blocks:** [bob-cli-on.16](bob-cli-on.16.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-on.4](bob-cli-on.4.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.4](bob-cli-on.4.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
