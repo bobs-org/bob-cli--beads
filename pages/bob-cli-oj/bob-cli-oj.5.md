@@ -11,15 +11,19 @@
 
 group-rail: add the kit group-row builder and the shared missing-target look (dashed `+` creatable, dotted ghost), adopt it on day, week, and quarter cards and the record walk rail, give legacy dailies a derived step row, add the album card's "walks by" pill, and prove the look in the preview matrix.
 
+## Notes
+
+[2026-11-21T17:17:57Z · bob-cli-oj.5] PROPOSED FOLLOW-UP: skipped decisions:group-stops-are-derived — memory_decision_group_stops=no forbids editing the decisions web; the epic land agent should decide whether to record that group stops are derived on Bob notes and authored only as «/» links on link-only nav lines (same follow-up already recorded on bob-cli-oj.1, oj.2, oj.4).
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-oj.1](bob-cli-oj.1.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-oj.2](bob-cli-oj.2.md) ✓ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-oj.4](bob-cli-oj.4.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.4](bob-cli-oj.4.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.7](bob-cli-oj.7.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5/README.md) | [bob-cli-oj.5](bob-cli-oj.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.5.md) | [bob-cli-oj.5](bob-cli-oj.5.md) | 0 |

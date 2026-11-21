@@ -25,7 +25,7 @@ Verification: just fmt passed; just check passed; just install on athena install
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-oj.4](bob-cli-oj.4.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.4](bob-cli-oj.4.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

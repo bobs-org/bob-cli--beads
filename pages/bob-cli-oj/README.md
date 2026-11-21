@@ -36,9 +36,9 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [bob-cli-oj.1](bob-cli-oj.1.md) | Group-link grammar, one resolver, and the \[N / \]N commands | ✓ closed | medium | 2026-11-21 | 1 | 2 |
 | [bob-cli-oj.2](bob-cli-oj.2.md) | Calendar group provider, legacy step fill-in, and the pre-adoption guard | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oj.3](bob-cli-oj.3.md) | Album \`walk\_by\` and group-major record walk lines in bob | ✓ closed | large | 2026-11-21 | 1 | 0 |
-| [bob-cli-oj.4](bob-cli-oj.4.md) | Grouped record walk model and the record group provider | ◐ in_progress | medium | 2026-11-21 | 1 | 2 |
+| [bob-cli-oj.4](bob-cli-oj.4.md) | Grouped record walk model and the record group provider | ✓ closed | medium | 2026-11-21 | 1 | 2 |
 | [bob-cli-oj.5](bob-cli-oj.5.md) | The group row at the bottom of property cards | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
-| [bob-cli-oj.6](bob-cli-oj.6.md) | Group arms and hints in the links walker footer | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-oj.6](bob-cli-oj.6.md) | Group arms and hints in the links walker footer | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oj.7](bob-cli-oj.7.md) | Album adoption, real-Obsidian proof, and final deploy | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-oj.8](bob-cli-oj.8.md) | Accepted memory updates | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 
@@ -55,11 +55,16 @@ flowchart TD
     n6["bob-cli-oj.3.1.2: Apply grouped record moves in one guarded transaction [closed]"]
     n7["bob-cli-oj.3.1.3: Add reversible walk_by updates to the album writer [closed]"]
     n8["bob-cli-oj.3.1.4: Document and verify the complete grouped walk contract [closed]"]
-    n9["bob-cli-oj.4: Grouped record walk model and the record group provider [in_progress]"]
+    n9["bob-cli-oj.4: Grouped record walk model and the record group provider [closed]"]
     n10["bob-cli-oj.5: The group row at the bottom of property cards [in_progress]"]
-    n11["bob-cli-oj.6: Group arms and hints in the links walker footer [in_progress]"]
-    n12["bob-cli-oj.7: Album adoption, real-Obsidian proof, and final deploy [in_progress]"]
-    n13["bob-cli-oj.8: Accepted memory updates [in_progress]"]
+    n11["bob-cli-oj.5.1: The group row at the bottom of property cards [in_progress]"]
+    n12["bob-cli-oj.5.1.1: Kit group-row builder, rail missing-target states, and their CSS [in_progress]"]
+    n13["bob-cli-oj.5.1.2: Day, week, and quarter cards adopt the group row and the derived step row [in_progress]"]
+    n14["bob-cli-oj.5.1.3: Grouped record walk rail and the album card's \"walks by\" pill [in_progress]"]
+    n15["bob-cli-oj.5.1.4: Preview matrix, real-Obsidian e2e runs, and final deploy for the group rail [in_progress]"]
+    n16["bob-cli-oj.6: Group arms and hints in the links walker footer [closed]"]
+    n17["bob-cli-oj.7: Album adoption, real-Obsidian proof, and final deploy [in_progress]"]
+    n18["bob-cli-oj.8: Accepted memory updates [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -70,23 +75,32 @@ flowchart TD
     n4 --> n8
     n0 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
+    n10 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
     n1 -.-> n10
-    n1 -.-> n11
+    n1 -.-> n16
     n2 -.-> n9
     n2 -.-> n10
-    n2 -.-> n11
+    n2 -.-> n16
     n3 -.-> n9
     n5 -.-> n6
     n6 -.-> n7
     n7 -.-> n8
     n9 -.-> n10
-    n9 -.-> n11
-    n10 -.-> n12
-    n11 -.-> n12
+    n9 -.-> n16
+    n10 -.-> n17
     n12 -.-> n13
+    n12 -.-> n14
+    n13 -.-> n15
+    n14 -.-> n15
+    n16 -.-> n17
+    n17 -.-> n18
 ```
 
 ## Agents
@@ -100,10 +114,15 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-oj.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.1.2.md) | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.3/README.md) | [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.4/README.md) | [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-oj.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.1.land.md) | [bob-cli-oj.3.1](bob-cli-oj.3.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-oj.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.1.land.md) | [bob-cli-oj.3.1](bob-cli-oj.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-oj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.4.md) | [bob-cli-oj.4](bob-cli-oj.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-oj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5/README.md) | [bob-cli-oj.5](bob-cli-oj.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.5.md) | [bob-cli-oj.5](bob-cli-oj.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md) | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md) | [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md) | [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md) | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.land/README.md) | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.8/README.md) | [bob-cli-oj.8](bob-cli-oj.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.land/README.md) | [bob-cli-oj](README.md) | 0 |
@@ -119,9 +138,11 @@ flowchart TD
 | bob-plugins | [`bob-plugins@983076e`](https://github.com/bobs-org/bob-plugins/commit/983076e6882c744f36e6fa513e9c2853bd160c36) | feat(navigation): land group-link resolver and guarded group jumps | [bob-cli-oj.1](bob-cli-oj.1.md) | 2026-11-21 09:42:42 EST |
 | bob-cli | [`66866ea`](https://github.com/bobs-org/bob-cli/commit/66866ea114d6b8eded72d27d66169722d50c6920) | feat(albums): add reversible walk\_by updates to the album writer | [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) | 2026-11-21 09:48:58 EST |
 | bob-cli | [`020ad4e`](https://github.com/bobs-org/bob-cli/commit/020ad4e6207f81fd9c633db21c48e1b8efdf3bba) | docs(albums): document grouped record walks | [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) | 2026-11-21 10:15:34 EST |
+| bob-cli | [`7ac4fee`](https://github.com/bobs-org/bob-cli/commit/7ac4feeb043503a050e253dfe499da32c9ac1e04) | fix(albums): restore walk\_by at original slot and bind emitted selection | [bob-cli-oj.3.1](bob-cli-oj.3.1.md) | 2026-11-21 11:15:03 EST |
 | bob-cli--plans | [`bob-cli--plans@761b2b8`](https://github.com/bobs-org/bob-cli--plans/commit/761b2b8b536aef795ef576ab2a98fb7f7256a9b3) | chore(plans): mark album\_walk\_by epic and landing repairs done | [bob-cli-oj.3.1](bob-cli-oj.3.1.md) | 2026-11-21 11:15:49 EST |
 | bob-plugins | [`bob-plugins@d8dc11e`](https://github.com/bobs-org/bob-plugins/commit/d8dc11eafae367bf05b464be86ed4d1a10cfe05b) | feat(ledger-tools): add grouped record navigation | [bob-cli-oj.4](bob-cli-oj.4.md) | 2026-11-21 11:42:38 EST |
 | bob-plugins | [`bob-plugins@bd8f2d4`](https://github.com/bobs-org/bob-plugins/commit/bd8f2d46219b794996e8563e3410bbc6e7e58e3c) | docs(plugins): refresh ledger tools inventory for 1.149.2 | [bob-cli-oj.4](bob-cli-oj.4.md) | 2026-11-21 11:56:43 EST |
+| bob-plugins | [`bob-plugins@7b44b29`](https://github.com/bobs-org/bob-plugins/commit/7b44b29dc2b29584c2a7dcf0453309bc0a4f8821) | feat(ledger-tools): paint group arms and hints in the links walker footer | [bob-cli-oj.6](bob-cli-oj.6.md) | 2026-11-21 12:39:49 EST |
 
 <!-- sase:referenced-by:start -->
 
