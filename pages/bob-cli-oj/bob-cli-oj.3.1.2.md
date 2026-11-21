@@ -13,7 +13,7 @@ record-writes: integrate the grouped walk radius into both records update paths,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oj.3.1.1](bob-cli-oj.3.1.1.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.3.1.1](bob-cli-oj.3.1.1.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

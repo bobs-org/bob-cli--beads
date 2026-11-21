@@ -7,6 +7,18 @@
 **Created:** 2026-11-21 07:50:38 EST
 **Plan:** [202611/album\_walk\_by.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_walk_by.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/album_walk_by.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/album_walk_by.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Finish bob-cli-oj.3 with choice-grouped record walks, additive group reports, bounded atomic record moves, reversible album configuration, and verified documentation and installation.
