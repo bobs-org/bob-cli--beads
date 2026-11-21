@@ -39,3 +39,15 @@ links-footer: add outer `«`/`»` group arms, the current-group context, the `]}
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7b44b29`](https://github.com/bobs-org/bob-plugins/commit/7b44b29dc2b29584c2a7dcf0453309bc0a4f8821) | feat(ledger-tools): paint group arms and hints in the links walker footer | [bob-cli-oj.6](bob-cli-oj.6.md) | 2026-11-21 12:39:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.6][1] | Need the phase scope, notes, remaining work, and design | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+
+<!-- sase:referenced-by:end -->

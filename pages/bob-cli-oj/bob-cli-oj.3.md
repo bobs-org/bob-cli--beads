@@ -42,9 +42,11 @@ Verification: just fmt passed; just check passed; just install on athena install
 | read-by | [agent:bob-cli-oj.3.1.1][1] | Need notes, DECISIONS, design files, and remaining work | 3 |
 | read-by | [agent:bob-cli-oj.3.1.3][2] | Need outer phase scope, final decisions, and progress | 1 |
 | read-by | [agent:bob-cli-oj.3.1.4][3] | Need outer phase final decisions relevant to grouped walk documentation | 1 |
+| read-by | [agent:bob-cli-oj.6][4] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->

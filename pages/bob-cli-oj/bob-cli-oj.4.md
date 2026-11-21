@@ -46,7 +46,9 @@ record-groups: in bob-ledger-tools, mirror bob's group-major order in the record
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.4--1][1] | Need remaining phase scope, notes, and design before finishing monitored checks | 2 |
+| read-by | [agent:bob-cli-oj.6][2] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->

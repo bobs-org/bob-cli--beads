@@ -13,7 +13,7 @@ calendar-rail: compute one nav answer per card from walkMode.links v7 (fallback 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

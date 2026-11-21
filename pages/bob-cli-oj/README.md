@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bracket_n_group_jumps.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bracket_n_group_jumps.md
 
@@ -58,7 +58,7 @@ flowchart TD
     n9["bob-cli-oj.4: Grouped record walk model and the record group provider [closed]"]
     n10["bob-cli-oj.5: The group row at the bottom of property cards [in_progress]"]
     n11["bob-cli-oj.5.1: The group row at the bottom of property cards [in_progress]"]
-    n12["bob-cli-oj.5.1.1: Kit group-row builder, rail missing-target states, and their CSS [in_progress]"]
+    n12["bob-cli-oj.5.1.1: Kit group-row builder, rail missing-target states, and their CSS [closed]"]
     n13["bob-cli-oj.5.1.2: Day, week, and quarter cards adopt the group row and the derived step row [in_progress]"]
     n14["bob-cli-oj.5.1.3: Grouped record walk rail and the album card's \"walks by\" pill [in_progress]"]
     n15["bob-cli-oj.5.1.4: Preview matrix, real-Obsidian e2e runs, and final deploy for the group rail [in_progress]"]
@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-oj.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.1.land.md) | [bob-cli-oj.3.1](bob-cli-oj.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-oj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.4.md) | [bob-cli-oj.4](bob-cli-oj.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-oj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.5.md) | [bob-cli-oj.5](bob-cli-oj.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-oj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md) | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md) | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md) | [bob-cli-oj.5.1.2](bob-cli-oj.5.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md) | [bob-cli-oj.5.1.3](bob-cli-oj.5.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md) | [bob-cli-oj.5.1.4](bob-cli-oj.5.1.4.md) | 0 |
@@ -143,6 +143,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d8dc11e`](https://github.com/bobs-org/bob-plugins/commit/d8dc11eafae367bf05b464be86ed4d1a10cfe05b) | feat(ledger-tools): add grouped record navigation | [bob-cli-oj.4](bob-cli-oj.4.md) | 2026-11-21 11:42:38 EST |
 | bob-plugins | [`bob-plugins@bd8f2d4`](https://github.com/bobs-org/bob-plugins/commit/bd8f2d46219b794996e8563e3410bbc6e7e58e3c) | docs(plugins): refresh ledger tools inventory for 1.149.2 | [bob-cli-oj.4](bob-cli-oj.4.md) | 2026-11-21 11:56:43 EST |
 | bob-plugins | [`bob-plugins@7b44b29`](https://github.com/bobs-org/bob-plugins/commit/7b44b29dc2b29584c2a7dcf0453309bc0a4f8821) | feat(ledger-tools): paint group arms and hints in the links walker footer | [bob-cli-oj.6](bob-cli-oj.6.md) | 2026-11-21 12:39:49 EST |
+| bob-plugins | [`bob-plugins@c4953d3`](https://github.com/bobs-org/bob-plugins/commit/c4953d3d47b82dd5d615e9990d9471b3c4c49773) | feat(ledger-tools): add the property-card group row and missing-target states | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 2026-11-21 12:48:44 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -151,7 +152,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.2][1] | Need parent epic DECISIONS, notes, and overall scope | 1 |
+| read-by | [agent:bob-cli-oj.6][2] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->
