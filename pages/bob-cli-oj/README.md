@@ -50,7 +50,7 @@ flowchart TD
     n5["bob-cli-oj.3.1.1: Parse walk_by and publish one grouped walk model [closed]"]
     n6["bob-cli-oj.3.1.2: Apply grouped record moves in one guarded transaction [closed]"]
     n7["bob-cli-oj.3.1.3: Add reversible walk_by updates to the album writer [closed]"]
-    n8["bob-cli-oj.3.1.4: Document and verify the complete grouped walk contract [in_progress]"]
+    n8["bob-cli-oj.3.1.4: Document and verify the complete grouped walk contract [closed]"]
     n9["bob-cli-oj.4: Grouped record walk model and the record group provider [in_progress]"]
     n10["bob-cli-oj.5: The group row at the bottom of property cards [in_progress]"]
     n11["bob-cli-oj.6: Group arms and hints in the links walker footer [in_progress]"]
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-oj.3.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md) | [bob-cli-oj.3.1.1](bob-cli-oj.3.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.3.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.3.1.2.md) | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.3/README.md) | [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-oj.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.4/README.md) | [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.3.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.4/README.md) | [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.land/README.md) | [bob-cli-oj.3.1](bob-cli-oj.3.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.4/README.md) | [bob-cli-oj.4](bob-cli-oj.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-oj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5/README.md) | [bob-cli-oj.5](bob-cli-oj.5.md) | 0 |
@@ -111,6 +111,7 @@ flowchart TD
 | bob-cli | [`e11f2a0`](https://github.com/bobs-org/bob-cli/commit/e11f2a0c5e9fa1cb0aefe01a4ccb1ca1785e0af1) | feat(albums): group record walks by declared walk\_by | [bob-cli-oj.3.1.1](bob-cli-oj.3.1.1.md) | 2026-11-21 08:25:36 EST |
 | bob-cli | [`ce0dcc5`](https://github.com/bobs-org/bob-cli/commit/ce0dcc54cec50104991b4ad943de0566e7eba2b6) | feat(records): apply grouped walk updates | [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) | 2026-11-21 08:58:17 EST |
 | bob-cli | [`66866ea`](https://github.com/bobs-org/bob-cli/commit/66866ea114d6b8eded72d27d66169722d50c6920) | feat(albums): add reversible walk\_by updates to the album writer | [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) | 2026-11-21 09:48:58 EST |
+| bob-cli | [`020ad4e`](https://github.com/bobs-org/bob-cli/commit/020ad4e6207f81fd9c633db21c48e1b8efdf3bba) | docs(albums): document grouped record walks | [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) | 2026-11-21 10:15:34 EST |
 
 <!-- sase:referenced-by:start -->
 

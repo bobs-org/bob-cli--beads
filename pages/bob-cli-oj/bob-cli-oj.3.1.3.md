@@ -18,7 +18,7 @@ album-writes: add walk_by.set with string-or-null field, top-level span restorat
 ## Dependencies
 
 - **Depends on:** [bob-cli-oj.3.1.2](bob-cli-oj.3.1.2.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.3.1.4](bob-cli-oj.3.1.4.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -31,3 +31,15 @@ album-writes: add walk_by.set with string-or-null field, top-level span restorat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`66866ea`](https://github.com/bobs-org/bob-cli/commit/66866ea114d6b8eded72d27d66169722d50c6920) | feat(albums): add reversible walk\_by updates to the album writer | [bob-cli-oj.3.1.3](bob-cli-oj.3.1.3.md) | 2026-11-21 09:48:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oj.3.1.3][1] | Need full details including notes and epic decisions | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.3/README.md
+
+<!-- sase:referenced-by:end -->
