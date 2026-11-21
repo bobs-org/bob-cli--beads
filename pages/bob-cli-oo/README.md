@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-oo.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.2/README.md) | [bob-cli-oo.2](bob-cli-oo.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oo.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oo.3.md) | [bob-cli-oo.3](bob-cli-oo.3.md) | 3 |
 | [bbugyi200.apollo.bob-cli-oo.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.4/README.md) | [bob-cli-oo.4](bob-cli-oo.4.md) | 2 |
-| [bbugyi200.apollo.bob-cli-oo.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.land/README.md) | [bob-cli-oo](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oo.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oo.land/README.md) | [bob-cli-oo](README.md) | 2 |
 
 ## Commits
 
@@ -81,6 +81,7 @@ flowchart TD
 | bob-cli | [`fc27bf1`](https://github.com/bobs-org/bob-cli/commit/fc27bf1ad8694d35bf5ce3729d7a2b3adb5f9d1e) | docs(bank): document the Category card note stage and regenerate the glossary | [bob-cli-oo.4](bob-cli-oo.4.md) | 2026-11-21 16:03:16 EST |
 | bob-plugins | [`bob-plugins@604c8a9`](https://github.com/bobs-org/bob-plugins/commit/604c8a9a336cb04bc0ab6288a2b976599da42c09) | feat(bank)!: Space opens a row note stage on the Category card | [bob-cli-oo.4](bob-cli-oo.4.md) | 2026-11-21 16:09:25 EST |
 | bob-plugins | [`bob-plugins@ae305a3`](https://github.com/bobs-org/bob-plugins/commit/ae305a32e43e2a94f9c2b810d197a0edfee997ff) | fix(ledger-tools): name concrete note rewrites, declare the note input literal, and trim the page under its cap | [bob-cli-oo](README.md) | 2026-11-21 16:41:28 EST |
+| bob-cli--plans | [`bob-cli--plans@da069f0`](https://github.com/bobs-org/bob-cli--plans/commit/da069f05aa3f3ac1f7660cb03e88f8b50ab5b7b4) | chore(plans): mark bank\_row\_notes done after landing bob-cli-oo | [bob-cli-oo](README.md) | 2026-11-21 16:41:56 EST |
 
 <!-- sase:referenced-by:start -->
 
