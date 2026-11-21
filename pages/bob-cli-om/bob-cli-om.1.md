@@ -20,7 +20,7 @@ cli-link-fixes: in bob-cli, end unclosed link fields at the caret, keep authored
 ## Dependencies
 
 - **Blocks:** [bob-cli-om.2](bob-cli-om.2.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-om.8](bob-cli-om.8.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-om.8](bob-cli-om.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

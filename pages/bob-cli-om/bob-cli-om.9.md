@@ -13,7 +13,7 @@ mac-pull-in: wire the Pull-In cancel reason field (S16) in bob-mac-capture to ca
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-om.8](bob-cli-om.8.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-om.8](bob-cli-om.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
