@@ -21,7 +21,7 @@ req-contract: retire the bob-cli-of epic, then add the recursive requirement rec
 
 - **Blocks:** [bob-cli-on.2](bob-cli-on.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.3](bob-cli-on.3.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.9](bob-cli-on.9.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.9](bob-cli-on.9.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

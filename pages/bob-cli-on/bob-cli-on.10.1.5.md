@@ -13,7 +13,7 @@ nav-guards-and-owner-card: refuse Alt+N, Alt+F, Ctrl+Alt+F, their counted forms,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
