@@ -26,17 +26,16 @@ ledger-marks: draw the depth-aware ⌗ run in the owner's ink in Live Preview an
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.1](bob-cli-on.1.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.16](bob-cli-on.16.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.16](bob-cli-on.16.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`250c305`](https://github.com/bobs-org/bob-cli/commit/250c3053d652d1d6b48299557fc8272a809bab88) | docs(tasks): document requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:37:40 EST |
-| bob-plugins | [`bob-plugins@fb30f8d`](https://github.com/bobs-org/bob-plugins/commit/fb30f8de424ca02ec54e3161f09b50ef460a70ad) | feat(ledger-tools): add requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:38:10 EST |

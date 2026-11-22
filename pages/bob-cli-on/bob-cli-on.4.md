@@ -44,8 +44,10 @@ task-tidy: add `bob task tidy`, a previewed, one-commit repair of open task bloc
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.5][1] | Check whether the running plugin phase owns the offer_close fixture sync | 1 |
 | read-by | [agent:bob-cli-on.4][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-os.land][3] | Check its albums_update flake mention | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-os.land/README.md
 
 <!-- sase:referenced-by:end -->

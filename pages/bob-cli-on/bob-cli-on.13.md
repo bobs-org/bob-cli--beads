@@ -14,7 +14,7 @@ mac-authoring: apply bob's expand_req_marker natively with overtype absorption, 
 ## Dependencies
 
 - **Blocks:** [bob-cli-on.14](bob-cli-on.14.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-on.6](bob-cli-on.6.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.6](bob-cli-on.6.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

@@ -30,13 +30,7 @@ cycler-guards-and-drop: add the req-line guard beside the bank-row guard and con
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@28d76fd`](https://github.com/bobs-org/bob-plugins/commit/28d76fdad7cb1a71eb6fde7a1ebcee9b8555ab0f) | feat(task-status-cycler): guard requirement lines, add Alt+\[ drop and Alt+\] restore | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 2026-11-21 19:44:28 EST |
+| [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

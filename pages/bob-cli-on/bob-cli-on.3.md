@@ -26,7 +26,7 @@ block-layout: add task_block_layout (zones, insertion slots, tidy planning, the 
 - **Depends on:** [bob-cli-on.1](bob-cli-on.1.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.10](bob-cli-on.10.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.4](bob-cli-on.4.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.6](bob-cli-on.6.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.6](bob-cli-on.6.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.7](bob-cli-on.7.md) ✓ · ⧖ 2026-11-21
 
 ## Agents

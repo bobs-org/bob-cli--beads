@@ -28,14 +28,13 @@ gestures-contract-and-e2e: document the shipped Obsidian gestures in bob-cli doc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e5ee4a8`](https://github.com/bobs-org/bob-cli/commit/e5ee4a8d9e942b7bbd9478ac1fa66a52d5c70ddf) | docs(task-reqs): add §5 Obsidian gestures table with exact copy and undo rule | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:08:54 EST |
-| bob-plugins | [`bob-plugins@7b96dce`](https://github.com/bobs-org/bob-plugins/commit/7b96dced3a85eea7ebeca5f911b0fb05c0d7bf3c) | test(e2e): add real-Obsidian task-reqs scenarios across three plugins | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:09:33 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -44,7 +43,9 @@ gestures-contract-and-e2e: document the shipped Obsidian gestures in bob-cli doc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.10.1.6][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-os.land][2] | Check whether test_contracts registry fix is in this phase scope | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-os.land/README.md
 
 <!-- sase:referenced-by:end -->
