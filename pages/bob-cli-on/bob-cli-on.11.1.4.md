@@ -37,13 +37,7 @@ Apply-service seam for close_wiring:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md) | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@3fbe993`](https://github.com/bobs-org/bob-plugins/commit/3fbe9933f010d8b6779a7bec4d883a0cba753ffa) | feat(task-status-cycler): apply requirement carry and drop with guarded Undo | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 2026-11-22 16:45:03 EST |
+| [bbugyi200.athena.bob-cli-on.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md) | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -52,7 +46,9 @@ Apply-service seam for close_wiring:
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.11.1.4][1] | Confirm phase closed before final declaration | 10 |
+| read-by | [agent:bob-cli-on.11.1.5][2] | need req_apply completion evidence and published seam for req_delivery | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.5/README.md
 
 <!-- sase:referenced-by:end -->

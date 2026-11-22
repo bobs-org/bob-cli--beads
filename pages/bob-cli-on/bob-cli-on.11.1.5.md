@@ -34,10 +34,16 @@ Apply-service seam for close_wiring:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.5/README.md) | [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.11.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.5/README.md) | [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@9ad2c69`](https://github.com/bobs-org/bob-plugins/commit/9ad2c6903ff8781b84b9b8ed2b1b3f5f786da1d4) | feat(task-status-cycler): place pulled requirement carries and resolve req jump landings | [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) | 2026-11-22 17:02:31 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.11.1.5][1] | check phase notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.5/README.md
+
+<!-- sase:referenced-by:end -->
