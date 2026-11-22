@@ -36,7 +36,7 @@ Every Spotify episode link given to `bob ref create`, capture, or Keep becomes o
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-os.1](bob-cli-os.1.md) | General capture fixes the audit exposed | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-os.10](bob-cli-os.10.md) | Podcast surfaces across repos and the legacy refs | ✓ closed | small | 2026-11-21 | 1 | 1 |
+| [bob-cli-os.10](bob-cli-os.10.md) | Podcast surfaces across repos and the legacy refs | ✓ closed | small | 2026-11-21 | 1 | 2 |
 | [bob-cli-os.2](bob-cli-os.2.md) | Spotify link identity, canonical dedupe, and routing guards | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.3](bob-cli-os.3.md) | Episode metadata ladder and show-notes segmentation | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.4](bob-cli-os.4.md) | Adapter render op and the episode dossier template | ✓ closed | medium | 2026-11-21 | 1 | 1 |
@@ -89,7 +89,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-os.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.1/README.md) | [bob-cli-os.1](bob-cli-os.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-os.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md) | [bob-cli-os.10](bob-cli-os.10.md) | 1 |
+| [bbugyi200.apollo.bob-cli-os.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md) | [bob-cli-os.10](bob-cli-os.10.md) | 2 |
 | [bbugyi200.apollo.bob-cli-os.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.2/README.md) | [bob-cli-os.2](bob-cli-os.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.3/README.md) | [bob-cli-os.3](bob-cli-os.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.4/README.md) | [bob-cli-os.4](bob-cli-os.4.md) | 1 |
@@ -114,6 +114,7 @@ flowchart TD
 | bob-cli | [`005f4c2`](https://github.com/bobs-org/bob-cli/commit/005f4c2b6e4e89319698d6080dfd71089ec9978d) | feat(ref): ingest Spotify episodes from capture jobs and Keep through the podcast route | [bob-cli-os.6](bob-cli-os.6.md) | 2026-11-22 00:53:30 EST |
 | bob-cli | [`2f4fef6`](https://github.com/bobs-org/bob-cli/commit/2f4fef6dad5b749e944f3cf25fe31ceba351be42) | feat(ref): attach publisher feed notes and transcripts to episode dossiers | [bob-cli-os.9](bob-cli-os.9.md) | 2026-11-22 02:30:59 EST |
 | bob-mac-capture | [`bob-mac-capture@310c946`](https://github.com/bobs-org/bob-mac-capture/commit/310c946b0e2f0880a623dc7453e8a4c455ff883e) | feat(refs): give podcasts refs their own Podcast kind | [bob-cli-os.10](bob-cli-os.10.md) | 2026-11-22 03:40:07 EST |
+| bob-plugins | [`bob-plugins@e7427ad`](https://github.com/bobs-org/bob-plugins/commit/e7427ad9f61306da00cd605b70e12060a1045162) | feat(ledger-tools): label podcasts refs on the Reading Board | [bob-cli-os.10](bob-cli-os.10.md) | 2026-11-22 03:40:46 EST |
 
 <!-- sase:referenced-by:start -->
 
