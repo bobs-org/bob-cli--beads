@@ -60,7 +60,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bob-cli-on.5](bob-cli-on.5.md) | The bob task rename-drawer command | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-on.6](bob-cli-on.6.md) | Capture grammar, spans, typing rewrite, and NOTES routing for requirements | ✓ closed | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.7](bob-cli-on.7.md) | Carry a requirement branch into its own task | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-on.8](bob-cli-on.8.md) | Requirements on the capture successor card | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
+| [bob-cli-on.8](bob-cli-on.8.md) | Requirements on the capture successor card | ✓ closed | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.9](bob-cli-on.9.md) | Render requirements in Obsidian | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 
 ## Lineage
@@ -96,8 +96,8 @@ flowchart TD
     n26["bob-cli-on.6.1.4: Requirements added to existing tasks, the scoop, and req_link [closed]"]
     n27["bob-cli-on.6.1.5: The expand_req_marker typing rewrite [closed]"]
     n28["bob-cli-on.7: Carry a requirement branch into its own task [closed]"]
-    n29["bob-cli-on.8: Requirements on the capture successor card [in_progress]"]
-    n30["bob-cli-on.8.1: Requirements on the capture successor card [in_progress]"]
+    n29["bob-cli-on.8: Requirements on the capture successor card [closed]"]
+    n30["bob-cli-on.8.1: Requirements on the capture successor card [closed]"]
     n31["bob-cli-on.8.1.1: Pre-close requirement groups and snapshot identity [closed]"]
     n32["bob-cli-on.8.1.2: Requirement verdict resolution and refusal rules [closed]"]
     n33["bob-cli-on.8.1.3: Atomic carry and drop planning [closed]"]
@@ -223,7 +223,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md) | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.5.md) | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.6/README.md) | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.land/README.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.land.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.land/README.md) | [bob-cli-on](README.md) | 0 |
 
@@ -254,6 +254,7 @@ flowchart TD
 | bob-cli | [`bddf386`](https://github.com/bobs-org/bob-cli/commit/bddf3868bf341287df9a5b8f0e1d5e931ac2155e) | feat(task-complete): place pulled requirement carries and resolve req jump landings | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 2026-11-22 11:09:26 EST |
 | bob-cli | [`7073b7c`](https://github.com/bobs-org/bob-cli/commit/7073b7c879b8cc853ee3b9a1072326dd185cba85) | feat(capture)!: publish requirement close on the successor card | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 2026-11-22 13:36:38 EST |
 | bob-cli | [`96a23f5`](https://github.com/bobs-org/bob-cli/commit/96a23f506f072ec577b6891b605937c47d4d82a6) | docs(task-dependencies): publish requirement close contract and RV inventory | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 2026-11-22 13:58:46 EST |
+| bob-cli | [`c72c941`](https://github.com/bobs-org/bob-cli/commit/c72c941deb7329e65e1899ae475a55136fe80f79) | fix(capture): land requirement-close overlap, x! pull-in, and dead-code cleanup | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:51:26 EST |
 
 <!-- sase:referenced-by:start -->
 

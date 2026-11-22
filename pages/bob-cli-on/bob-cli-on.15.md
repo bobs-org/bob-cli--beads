@@ -14,7 +14,7 @@ mac-close-card: decode requirement groups, carry them through every offer path, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.14](bob-cli-on.14.md) ✓ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-on.8](bob-cli-on.8.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.8](bob-cli-on.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

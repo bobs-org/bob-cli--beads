@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-on](README.md) / bob-cli-on.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ex](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ex.md) · **Assignee:** `bob-cli-on.8` · **Size:** large
-**Created:** 2026-11-21 11:13:26 EST
+**Created:** 2026-11-21 11:13:26 EST · **Closed:** 2026-11-22 14:47:55 EST
 **Plan:** [202611/task\_requirements.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md)
 
 ## Description
 
 close-engine: build per-owner requirement groups for managed Done closes, the met/drop/carry/pull-in verdicts with overlap and staleness refusals, CLI flags and the --req-choice gate, JSON and receipts, RV vectors, and §12 docs.
+
+## Notes
+
+[2026-11-22T19:49:26Z · bob-cli-on.8.1.land] Phase close-engine delivered. Child epic bob-cli-on.8.1 closed done after landing tale plan:202611/req_close_landing_fixes.md. Per-owner requirement groups, Met/Drop/Carry/CarryPulled with overlap and staleness refusals, CLI flags and --req-choice, JSON/receipts, and RV vectors are in: docs/task-dependencies.md §§12.5, 12.13, 12.14, 12.25, 12.26; docs/reference/json-outputs.md; tests/fixtures/req_close/vectors.json schema_version 1, RV1–RV44+. Overlap ancestry now walks owner.nodes (RV44); Pomodoro close x! carry+pull-in uses the closing continuation; req_* dead-code suppressions removed. just check and just docs-check passed on HEAD 96a23f50 plus this landing's dirty tree. sase bead epic-symbols is empty for bob-cli-on.8 and bob-cli-on.8.1. Parent epic bob-cli-on stays open.
 
 ## Dependencies
 

@@ -15,7 +15,7 @@ memory: apply the accepted memory decisions (decision record and supersession ma
 
 - **Depends on:** [bob-cli-on.12](bob-cli-on.12.md) ◐ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.16](bob-cli-on.16.md) ✓ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-on.8](bob-cli-on.8.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.8](bob-cli-on.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

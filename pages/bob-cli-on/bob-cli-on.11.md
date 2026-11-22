@@ -29,7 +29,7 @@ obsidian-close-card: mirror the requirement split in nav with api.taskSplit, bin
 
 - **Depends on:** [bob-cli-on.10](bob-cli-on.10.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.12](bob-cli-on.12.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-on.8](bob-cli-on.8.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.8](bob-cli-on.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

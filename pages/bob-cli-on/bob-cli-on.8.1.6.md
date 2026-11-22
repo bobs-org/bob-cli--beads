@@ -30,3 +30,15 @@ contract: finish task-dependencies sections 12.25 and 12.26 and the JSON referen
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`96a23f5`](https://github.com/bobs-org/bob-cli/commit/96a23f506f072ec577b6891b605937c47d4d82a6) | docs(task-dependencies): publish requirement close contract and RV inventory | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 2026-11-22 13:58:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.8.1.6][1] | need full bead including notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.6/README.md
+
+<!-- sase:referenced-by:end -->

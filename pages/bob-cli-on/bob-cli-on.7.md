@@ -26,7 +26,7 @@ req-split: extend Task Split to select requirements at any depth, move the whole
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.3](bob-cli-on.3.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.8](bob-cli-on.8.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.8](bob-cli-on.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

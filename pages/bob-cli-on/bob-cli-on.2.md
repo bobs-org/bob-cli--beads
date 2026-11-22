@@ -23,7 +23,7 @@ reader-hardening: make projects sync, embedded-tree closes, loss and clobber gua
 
 - **Depends on:** [bob-cli-on.1](bob-cli-on.1.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.10](bob-cli-on.10.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.8](bob-cli-on.8.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.8](bob-cli-on.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
