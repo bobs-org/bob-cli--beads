@@ -16,7 +16,7 @@ transcript_dossier: attach proven feed notes, chapters, and transcripts to creat
 - **Blocks:** [bob-cli-os.10](bob-cli-os.10.md) ◐ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-os.6](bob-cli-os.6.md) ◐ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-os.7](bob-cli-os.7.md) ✓ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-os.8](bob-cli-os.8.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-os.8](bob-cli-os.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

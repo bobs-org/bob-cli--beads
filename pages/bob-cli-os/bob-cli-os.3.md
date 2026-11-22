@@ -18,9 +18,9 @@ episode_metadata: fetch and parse browserless episode metadata (page state, JSON
 ## Dependencies
 
 - **Depends on:** [bob-cli-os.2](bob-cli-os.2.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-os.5](bob-cli-os.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.5](bob-cli-os.5.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-os.7](bob-cli-os.7.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-os.8](bob-cli-os.8.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.8](bob-cli-os.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
