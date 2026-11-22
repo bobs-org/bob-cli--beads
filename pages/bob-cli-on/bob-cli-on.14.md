@@ -13,7 +13,7 @@ mac-nesting: generalize Tab/Shift-Tab, Ctrl-J continuation, paste placeholders, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.13](bob-cli-on.13.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.13](bob-cli-on.13.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.15](bob-cli-on.15.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
