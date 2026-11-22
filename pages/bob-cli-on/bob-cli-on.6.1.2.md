@@ -7,6 +7,20 @@
 **Created:** 2026-11-21 13:50:29 EST · **Closed:** 2026-11-21 19:05:12 EST
 **Plan:** [202611/capture\_req\_bullets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_req_bullets.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-p7][1] | Proposed this follow-up (note #3) and added the coded req_* refusals plus the dry-run/capture-parse parity test this fix should extend |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-p7/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 req-positions: add the pure req-position resolver shared by bob capture and capture-parse, admit nested req chains past level 2, refuse req_in_drawer, req_parent, req_state, and req_depth, emit req_marker spans with depth, and bump the grammar to revision 29.

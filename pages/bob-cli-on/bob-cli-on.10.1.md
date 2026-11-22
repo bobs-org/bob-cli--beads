@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/obsidian_req_gestures.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_req_gestures.md
 
@@ -43,10 +43,12 @@ Complete bob-cli-on.10 (the obsidian-gestures phase of plan:202611/task_requirem
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.10.1.1][1] | Need epic decisions and notes | 1 |
 | read-by | [agent:bob-cli-on.10.1.2][2] | Need the epic decisions | 1 |
-| read-by | [agent:bob-cli-on.10.1.5][3] | Need parent epic DECISIONS before implementing nav guards | 1 |
+| read-by | [agent:bob-cli-on.10.1.4][3] | Epic context and decisions | 1 |
+| read-by | [agent:bob-cli-on.10.1.5][4] | Need parent epic DECISIONS before implementing nav guards | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md
 
 <!-- sase:referenced-by:end -->

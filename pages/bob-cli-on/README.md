@@ -29,6 +29,10 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 
 [2026-11-21T19:54:07Z · bob-cli-o6.6.1.land] DISCOVERED ISSUE: bob-cli a0961435 (bob-cli-on.1, req-contract) registered docs/task-requirements.md as a contract without updating the bob-docs contract tests, so tools/docs/tests/test_contracts.py fails 3/8 on master dfe20ca3: test_current_registry_and_generated_nav_are_complete_and_unique (registry has 55 entries, test expects 54), test_llmstxt_contracts_section_lists_exactly_registry_stems (index 46 'task-split.md' != 'task-requirements.md'), and test_readme_table_matches_original_contract_index_snapshot (README table sha f23b0e44... != pinned 34f4f8a4...). Repro: uv run --project tools/docs pytest -q tools/docs/tests/test_contracts.py. It is masked today only because just docs-check stops earlier at the reference word-budget lint. Proposed by bob-cli-o6.6.1.5 note #2 (also reproduced on clean base 250c3053 with that phase's docs stashed; evidence file:explicit:282423e57c9f033d6cf61ecc, bobcli-docs-postlint.log); re-verified on dfe20ca3 by the bob-cli-o6.6.1 land agent. Fix belongs with this epic: bump the expected count, the llms.txt list, and the README snapshot, following the precedent of bob-cli-hs.
 
+[2026-11-22T02:50:55Z · bob-cli-on.6.1.land] DISCOVERED ISSUE (from bob-cli-on.6.1.4 PROPOSED FOLLOW-UP #1, reproduced and widened by the bob-cli-on.6.1 land agent on master 3ce97d73): NOTES routing for a req-owning ^prj task writes into an H2 '## NOTES' section with task-style tab indentation and duplicates the heading. Repro in a scratch vault: pk.md = frontmatter type [[project]] + '- [ ] #task #prj Pk root ^prj' / '\t- [ ] hand req' / '## Tasks' / '- [ ] #task Row a'. 'bob capture -- $'@pk+prj\n- first note'' appends '## NOTES\n\t- first note' at end of file (a tab-indented bullet straight under an H2 reads as an indented code block); a second note capture yields '## NOTES\n\t- first note\n\n\t- second note\n## NOTES\n' (an extra empty '## NOTES' per capture). The first-req scoop has the same shape: '@pm+prj\n- [ ] only req' on a ^prj with a loose note writes '## NOTES\n\t- loose'. Root cause predates bob-cli-on.6.1: note_home / ensure_notes_drawer / scoop_loose_notes (ca070941, bob-cli-on.3 block-layout) treat project_h2_drawers H2 sections as task drawers but write tab-indented children and mis-detect the section end. bob-cli-on.6.1 only made it reachable from requirement capture to ^prj targets (the plan said to record a follow-up rather than change task_block_layout there). Needs a decided ^prj notes home ('## Notes' H2 with column-zero bullets, matching the promotion/migration sections of plan:202611/task_requirements.md) in task_block_layout and its JS twin + RL vectors, then capture, toggle, and tidy follow it.
+
+[2026-11-22T02:51:05Z · bob-cli-on.6.1.land] DISCOVERED ISSUE (from bob-cli-on.6.1.2 PROPOSED FOLLOW-UP #1, re-verified by the bob-cli-on.6.1 land agent): capture grammar 29 (7cc94933) lets sub_bullet_depths exceed 2 beneath requirements, but the bob-mac-capture-owned mounted docs still say otherwise: docs/capture-previews.md:165 reads 'sub_bullet_depths (1 or 2)' and docs/protocol.md:382 describes depth handling for 'sub_bullet_depths' without the deeper levels. These files live in bob-mac-capture (gitignored mount in bob-cli), so the edit belongs with the Mac phases: bob-cli-on.14 (mac-nesting, which generalizes the Mac to any authored depth) should update that wording, and bob-cli-on.13 (mac-authoring) already owns docs/protocol.md for req_marker depth. bob-cli's own docs (capture.md, json-outputs.md, capture-syntax.md) already state depths may exceed 2.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,7 +53,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bob-cli-on.6](bob-cli-on.6.md) | Capture grammar, spans, typing rewrite, and NOTES routing for requirements | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.7](bob-cli-on.7.md) | Carry a requirement branch into its own task | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-on.8](bob-cli-on.8.md) | Requirements on the capture successor card | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
-| [bob-cli-on.9](bob-cli-on.9.md) | Render requirements in Obsidian | ✓ closed | medium | 2026-11-21 | 1 | 2 |
+| [bob-cli-on.9](bob-cli-on.9.md) | Render requirements in Obsidian | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 
 ## Lineage
 
@@ -159,11 +163,11 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.1/README.md) | [bob-cli-on.1](bob-cli-on.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.md) | [bob-cli-on.10](bob-cli-on.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.land/README.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11/README.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
@@ -180,13 +184,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.md) | [bob-cli-on.6](bob-cli-on.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.1/README.md) | [bob-cli-on.6.1.1](bob-cli-on.6.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.3/README.md) | [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.4/README.md) | [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.3/README.md) | [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.4/README.md) | [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.5/README.md) | [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.land/README.md) | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.land/README.md) | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md) | [bob-cli-on.7](bob-cli-on.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8/README.md) | [bob-cli-on.8](bob-cli-on.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.land/README.md) | [bob-cli-on](README.md) | 0 |
 
 ## Commits
@@ -196,19 +200,16 @@ flowchart TD
 | bob-cli | [`a096143`](https://github.com/bobs-org/bob-cli/commit/a0961435506e4810841527ecd0b81505cb6d0632) | feat(task-reqs): add req forest recognizer contract | [bob-cli-on.1](bob-cli-on.1.md) | 2026-11-21 12:16:31 EST |
 | bob-cli | [`ca07094`](https://github.com/bobs-org/bob-cli/commit/ca070941c05b42840a40d87f0e4f6a6e0aab6090) | feat(task-reqs): add task block layout and req line writers | [bob-cli-on.3](bob-cli-on.3.md) | 2026-11-21 13:32:20 EST |
 | bob-cli | [`250c305`](https://github.com/bobs-org/bob-cli/commit/250c3053d652d1d6b48299557fc8272a809bab88) | docs(tasks): document requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:37:40 EST |
-| bob-plugins | [`bob-plugins@fb30f8d`](https://github.com/bobs-org/bob-plugins/commit/fb30f8de424ca02ec54e3161f09b50ef460a70ad) | feat(ledger-tools): add requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:38:10 EST |
 | bob-cli | [`532df82`](https://github.com/bobs-org/bob-cli/commit/532df8259187f65b6f66864669eb80b133fcb35e) | feat(task-reqs): keep readers and writers off requirement lines | [bob-cli-on.2](bob-cli-on.2.md) | 2026-11-21 13:50:46 EST |
 | bob-cli | [`f888213`](https://github.com/bobs-org/bob-cli/commit/f888213a22650dd6e33b38e9f77e7a65ca8e24e6) | feat(task): add bob task tidy to repair open task blocks | [bob-cli-on.4](bob-cli-on.4.md) | 2026-11-21 14:12:31 EST |
 | bob-cli | [`2239120`](https://github.com/bobs-org/bob-cli/commit/2239120810ed5867eefc66a468cee04972aa6b45) | feat(task-split)!: carry a requirement branch into its own task | [bob-cli-on.7](bob-cli-on.7.md) | 2026-11-21 14:25:11 EST |
-| bob-plugins | [`bob-plugins@f292fff`](https://github.com/bobs-org/bob-plugins/commit/f292fffaf6f0db2e87d0d9bc9fa63b67d3870997) | feat(task-status-cycler): add task requirement and block layout twins | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 2026-11-21 15:08:09 EST |
 | bob-cli | [`1d89d95`](https://github.com/bobs-org/bob-cli/commit/1d89d95f3b2288601111965abad896eff5fd0195) | refactor(capture): make authored bullet depth a numeric level | [bob-cli-on.6.1.1](bob-cli-on.6.1.1.md) | 2026-11-21 15:12:33 EST |
 | bob-cli | [`d8fae3e`](https://github.com/bobs-org/bob-cli/commit/d8fae3e5c734404864da0376818953733743ce56) | feat(task): add bob task rename-drawer to rename and merge drawers vault-wide | [bob-cli-on.5](bob-cli-on.5.md) | 2026-11-21 15:33:08 EST |
-| bob-plugins | [`bob-plugins@e5cb895`](https://github.com/bobs-org/bob-plugins/commit/e5cb8954e354265607bb1551b518a5cce1a4800d) | feat(task-status-cycler): add the requirement writer twin, copy the twins into nav and Block ID Prompt, and keep reqs out of the offer-close scope | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 2026-11-21 17:51:13 EST |
 | bob-cli | [`7cc9493`](https://github.com/bobs-org/bob-cli/commit/7cc94933c2b3922e9a4c6eb80c9fc8415ce09311) | feat(capture)!: admit requirement bullets with req\_marker spans (grammar 29) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 2026-11-21 19:06:20 EST |
-| bob-plugins | [`bob-plugins@d3b80d7`](https://github.com/bobs-org/bob-plugins/commit/d3b80d70d501a07fd164c745b8827f776fe952e5) | feat(plugins): guard requirement lines in Navigation and Block ID Prompt | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 2026-11-21 19:37:42 EST |
-| bob-plugins | [`bob-plugins@28d76fd`](https://github.com/bobs-org/bob-plugins/commit/28d76fdad7cb1a71eb6fde7a1ebcee9b8555ab0f) | feat(task-status-cycler): guard requirement lines, add Alt+\[ drop and Alt+\] restore | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 2026-11-21 19:44:28 EST |
 | bob-cli | [`c05deef`](https://github.com/bobs-org/bob-cli/commit/c05deef26b80d09c3f69181c8ab0f4dd60637168) | feat(capture): add requirement marker typing rewrite | [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) | 2026-11-21 20:14:58 EST |
-| bob-plugins | [`bob-plugins@d2877fe`](https://github.com/bobs-org/bob-plugins/commit/d2877fe42ca5be0299711f34b45b90bc16c8a50e) | feat(task-status-cycler): route Ctrl+\] through the requirement toggle and add the \`- \[\` typing assist | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 2026-11-21 21:47:21 EST |
+| bob-cli | [`0a623b7`](https://github.com/bobs-org/bob-cli/commit/0a623b7036fbc9ccb86ebd4ef28889374affc604) | feat(capture): write new-task requirement bullets into the reqs zone | [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) | 2026-11-21 20:30:10 EST |
+| bob-cli | [`3ce97d7`](https://github.com/bobs-org/bob-cli/commit/3ce97d736056fdf78ab3435badb3a03888842953) | feat(capture): write requirements to existing tasks | [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) | 2026-11-21 21:23:31 EST |
+| bob-cli | [`536455a`](https://github.com/bobs-org/bob-cli/commit/536455acc9f2999bc46aeea8ec021970bdc9b9c9) | fix(capture): count nested requirements added to existing tasks | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 2026-11-21 22:04:20 EST |
 
 <!-- sase:referenced-by:start -->
 

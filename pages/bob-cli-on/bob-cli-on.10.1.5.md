@@ -26,13 +26,7 @@ nav-guards-and-owner-card: refuse Alt+N, Alt+F, Ctrl+Alt+F, their counted forms,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d3b80d7`](https://github.com/bobs-org/bob-plugins/commit/d3b80d70d501a07fd164c745b8827f776fe952e5) | feat(plugins): guard requirement lines in Navigation and Block ID Prompt | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 2026-11-21 19:37:42 EST |
+| [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

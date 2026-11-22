@@ -30,10 +30,16 @@ cycler-toggle-and-typing: route Ctrl+] (command and Vim) through the RW toggle w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d2877fe`](https://github.com/bobs-org/bob-plugins/commit/d2877fe42ca5be0299711f34b45b90bc16c8a50e) | feat(task-status-cycler): route Ctrl+\] through the requirement toggle and add the \`- \[\` typing assist | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 2026-11-21 21:47:21 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.10.1.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md
+
+<!-- sase:referenced-by:end -->
