@@ -29,7 +29,13 @@ req-write-twin: port the drop/restore/toggle/insert writers (RW) into the cycler
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@e5cb895`](https://github.com/bobs-org/bob-plugins/commit/e5cb8954e354265607bb1551b518a5cce1a4800d) | feat(task-status-cycler): add the requirement writer twin, copy the twins into nav and Block ID Prompt, and keep reqs out of the offer-close scope | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 2026-11-21 17:51:13 EST |
 
 <!-- sase:referenced-by:start -->
 
