@@ -30,9 +30,11 @@ capture-reqs: admit requirement bullets at every eligible capture position and d
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.6.1.2][1] | decisions | 1 |
-| read-by | [agent:bob-cli-on.6.1.5][2] | Need the parent phase's scope, decisions, and any recorded remainder | 1 |
+| read-by | [agent:bob-cli-on.6.1.3][2] | Need parent capture-reqs DECISIONS | 1 |
+| read-by | [agent:bob-cli-on.6.1.5][3] | Need the parent phase's scope, decisions, and any recorded remainder | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->

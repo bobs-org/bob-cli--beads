@@ -81,7 +81,7 @@ flowchart TD
     n23["bob-cli-on.6.1.1: Numeric authored depth with today's behavior kept [closed]"]
     n24["bob-cli-on.6.1.2: Shared requirement position resolver, refusals, req_marker span, grammar 29 [closed]"]
     n25["bob-cli-on.6.1.3: Requirements in the blocks capture creates [closed]"]
-    n26["bob-cli-on.6.1.4: Requirements added to existing tasks, the scoop, and req_link [in_progress]"]
+    n26["bob-cli-on.6.1.4: Requirements added to existing tasks, the scoop, and req_link [closed]"]
     n27["bob-cli-on.6.1.5: The expand_req_marker typing rewrite [closed]"]
     n28["bob-cli-on.7: Carry a requirement branch into its own task [closed]"]
     n29["bob-cli-on.8: Requirements on the capture successor card [in_progress]"]
@@ -181,7 +181,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.1/README.md) | [bob-cli-on.6.1.1](bob-cli-on.6.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.3/README.md) | [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.4/README.md) | [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.4/README.md) | [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.5/README.md) | [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.land/README.md) | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md) | [bob-cli-on.7](bob-cli-on.7.md) | 1 |
@@ -204,6 +204,7 @@ flowchart TD
 | bob-cli | [`7cc9493`](https://github.com/bobs-org/bob-cli/commit/7cc94933c2b3922e9a4c6eb80c9fc8415ce09311) | feat(capture)!: admit requirement bullets with req\_marker spans (grammar 29) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 2026-11-21 19:06:20 EST |
 | bob-cli | [`c05deef`](https://github.com/bobs-org/bob-cli/commit/c05deef26b80d09c3f69181c8ab0f4dd60637168) | feat(capture): add requirement marker typing rewrite | [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) | 2026-11-21 20:14:58 EST |
 | bob-cli | [`0a623b7`](https://github.com/bobs-org/bob-cli/commit/0a623b7036fbc9ccb86ebd4ef28889374affc604) | feat(capture): write new-task requirement bullets into the reqs zone | [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) | 2026-11-21 20:30:10 EST |
+| bob-cli | [`3ce97d7`](https://github.com/bobs-org/bob-cli/commit/3ce97d736056fdf78ab3435badb3a03888842953) | feat(capture): write requirements to existing tasks | [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) | 2026-11-21 21:23:31 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -25,6 +25,10 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-on.10 (the obsidian-gestures phase of plan:202611/task_requirements.md). The cycler, nav, and Block ID Prompt recognize requirement lines through byte-identical JS twins that pass bob-cli's RQ/RL/RW vectors. Every task gesture refuses or redirects on a req line with the contract copy. Ctrl+] toggles note and req with zone placement and the first-req scoop, Alt+[ drops with a reason and Alt+] restores, Ctrl+Shift+P opens the owner's Task Card, the offer-close scope note never counts reqs, and typing `- [` then space expands to `- [ ] ` with overtype absorption, atomic Backspace, Vim insert support, and a clean Undo. Each write is one undo step.
 
+## Notes
+
+[2026-11-22T02:11:52Z · bob-cli-oj.land] FROM bob-cli-oj.land (deploy coordination): the vault's task-status-cycler is still stuck behind a clean stamp from 726f9a5, bob-cli-oj.1's lost local commit, so 'bob plugins sync -p task-status-cycler' refuses without -F (bug bob-cli-or). The deployed 1.52.0 bytes equal landed ancestor 6e0d764, so forcing drops nothing unlanded. bob-cli-oj.land staged a Bryan-approval gate that rechecks the stamp and those bytes, then force-deploys origin/master task-status-cycler from a temporary detached worktree. If the gate already ran, sync normally after fetching and merging origin/master; if your lander already resolved the stamp, the gate reports 'skipped' and does nothing.
+
 ## Agents
 
 | Agent | Bead | Commits |
