@@ -24,10 +24,16 @@ choices: implement the pure Met, Drop, Carry, and Carry-Pulled selection model, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.2/README.md) | [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.2/README.md) | [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`0a83bb1`](https://github.com/bobs-org/bob-cli/commit/0a83bb1c4f7a4466e5cd218afa7a0999556e2fbb) | feat(task-complete): add requirement verdict selection model | [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) | 2026-11-22 08:42:58 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.8.1.2][1] | Need the phase scope, design file, and prior notes before implementation | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.2/README.md
+
+<!-- sase:referenced-by:end -->

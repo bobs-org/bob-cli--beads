@@ -17,14 +17,20 @@ mac-authoring: apply bob's expand_req_marker natively with overtype absorption, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-on.14](bob-cli-on.14.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.14](bob-cli-on.14.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.6](bob-cli-on.6.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.13](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.13.md) | [bob-cli-on.13](bob-cli-on.13.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.13](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.13.md) | [bob-cli-on.13](bob-cli-on.13.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@e1a5546`](https://github.com/bobs-org/bob-mac-capture/commit/e1a55464695d98397739904759ecdd5bb949cf71) | feat(capture): add native requirement marker editing | [bob-cli-on.13](bob-cli-on.13.md) | 2026-11-22 08:05:28 EST |
 
 <!-- sase:referenced-by:start -->
 
