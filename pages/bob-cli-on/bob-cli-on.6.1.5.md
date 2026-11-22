@@ -32,3 +32,15 @@ req-rewrite: add expand_req_marker to capture-rewrite with resolver-driven eligi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c05deef`](https://github.com/bobs-org/bob-cli/commit/c05deef26b80d09c3f69181c8ab0f4dd60637168) | feat(capture): add requirement marker typing rewrite | [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) | 2026-11-21 20:14:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.6.1.5][1] | Need the phase scope, notes, and design file before completing assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ existing-target-writes: write note-less @route+id requirement bullets and the sa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
