@@ -102,7 +102,7 @@ No --epic-symbol entries for bob-cli-on.6.1 or bob-cli-on.6, and there is no `ju
 | read-by | [agent:bob-cli-on.6.1.3][3] | Need epic DECISIONS that bind this phase | 3 |
 | read-by | [agent:bob-cli-on.6.1.4][4] | Need parent epic decisions governing this phase | 2 |
 | read-by | [agent:bob-cli-on.6.1.5][5] | Need the parent epic decisions that govern phase implementation | 1 |
-| read-by | [agent:bob-cli-on.6.1.land][6] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-on.6.1.land][6] | Need the epic scope, children, and linked plan file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md

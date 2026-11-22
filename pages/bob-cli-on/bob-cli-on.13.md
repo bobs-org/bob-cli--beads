@@ -20,4 +20,4 @@ mac-authoring: apply bob's expand_req_marker natively with overtype absorption, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.13/README.md) | [bob-cli-on.13](bob-cli-on.13.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.13](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.13.md) | [bob-cli-on.13](bob-cli-on.13.md) | 0 |

@@ -41,7 +41,7 @@ new-block-writes: render new tasks, list tasks, Pomodoro-created tasks, and proj
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.6.1.3][1] | Need notes section if any | 9 |
-| read-by | [agent:bob-cli-on.6.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-on.6.1.land][2] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.1.land.md

@@ -44,7 +44,7 @@ just check passed (lib 7819, cli 3991). Details are in the bob-cli-on.6.1 close 
 | read-by | [agent:bob-cli-on.6.1.3][2] | Need parent capture-reqs DECISIONS | 1 |
 | read-by | [agent:bob-cli-on.6.1.4][3] | Need the capture-reqs phase authority and its inherited decisions | 1 |
 | read-by | [agent:bob-cli-on.6.1.5][4] | Need the parent phase's scope, decisions, and any recorded remainder | 1 |
-| read-by | [agent:bob-cli-on.6.1.land][5] | Need the parent phase scope and notes | 1 |
+| read-by | [agent:bob-cli-on.6.1.land][5] | Confirm the phase closed after its child epic landed | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.3/README.md

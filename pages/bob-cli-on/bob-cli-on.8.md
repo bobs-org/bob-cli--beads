@@ -24,7 +24,7 @@ close-engine: build per-owner requirement groups for managed Done closes, the me
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8/README.md) | [bob-cli-on.8](bob-cli-on.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.md) | [bob-cli-on.8](bob-cli-on.8.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
