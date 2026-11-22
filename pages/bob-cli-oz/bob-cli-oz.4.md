@@ -32,7 +32,7 @@ prompt-subjects: wire subjects for S1–S11 (S12 none) and audit picker-host key
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.4/README.md) | [bob-cli-oz.4](bob-cli-oz.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oz.4.md) | [bob-cli-oz.4](bob-cli-oz.4.md) | 1 |
 
 ## Commits
 

@@ -31,7 +31,7 @@ Typing (( in every Bob prose prompt that already completes [[ (S1–S16) opens t
 | [bob-cli-oz.2](bob-cli-oz.2.md) | block-id-prompt api.taskLinks v1: prose detector, ranked session, and safe ID naming | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oz.3](bob-cli-oz.3.md) | proseField v2: the tasks mode of the LINK band, the NAME stage, and the real-Obsidian spike | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oz.4](bob-cli-oz.4.md) | Task-bearing prompts S1–S12: subject guards, host safety, prose lint | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-oz.5](bob-cli-oz.5.md) | Intention Card, Record Card, and Task from email (S13–S15) | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-oz.5](bob-cli-oz.5.md) | Intention Card, Record Card, and Task from email (S13–S15) | ◐ in_progress | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oz.6](bob-cli-oz.6.md) | Mac Pull-In reason: the tasks mode and NAME stage, plus Return never confirms while the band is open | ✓ closed | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-oz.7](bob-cli-oz.7.md) | Real-Obsidian walkthrough, mention round-trip, and screenshots | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 
@@ -70,8 +70,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-oz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.1/README.md) | [bob-cli-oz.1](bob-cli-oz.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oz.2.md) | [bob-cli-oz.2](bob-cli-oz.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.3/README.md) | [bob-cli-oz.3](bob-cli-oz.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.4/README.md) | [bob-cli-oz.4](bob-cli-oz.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.5/README.md) | [bob-cli-oz.5](bob-cli-oz.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oz.4.md) | [bob-cli-oz.4](bob-cli-oz.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.5/README.md) | [bob-cli-oz.5](bob-cli-oz.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oz.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.6/README.md) | [bob-cli-oz.6](bob-cli-oz.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oz.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.7/README.md) | [bob-cli-oz.7](bob-cli-oz.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.land/README.md) | [bob-cli-oz](README.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a346fd2`](https://github.com/bobs-org/bob-plugins/commit/a346fd2f3bfbae27296535fb3075c3b15b4812f3) | feat(block-id-prompt): add task links API | [bob-cli-oz.2](bob-cli-oz.2.md) | 2026-11-22 00:02:06 EST |
 | bob-plugins | [`bob-plugins@6a2f6ce`](https://github.com/bobs-org/bob-plugins/commit/6a2f6ce5c8eb38f2f8c4265f00d9322c058341b6) | feat(nav): add tasks mode to proseField LINK band with in-band NAME stage | [bob-cli-oz.3](bob-cli-oz.3.md) | 2026-11-22 00:44:26 EST |
 | bob-plugins | [`bob-plugins@577b3cc`](https://github.com/bobs-org/bob-plugins/commit/577b3cc615da328a5361e27500a524ac70b6417a) | feat(nav): declare task subjects for (( in S1-S12 prompts and keep host writes safe | [bob-cli-oz.4](bob-cli-oz.4.md) | 2026-11-22 01:23:02 EST |
+| bob-plugins | [`bob-plugins@c1d8d19`](https://github.com/bobs-org/bob-plugins/commit/c1d8d1989a413d672dcd4d6477b562959f9a0181) | feat(prompts): wire task links into card surfaces | [bob-cli-oz.5](bob-cli-oz.5.md) | 2026-11-22 01:25:12 EST |

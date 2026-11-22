@@ -24,4 +24,10 @@ card-surfaces: make (( and NAME survive the Intention Card repaints and key ladd
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.5/README.md) | [bob-cli-oz.5](bob-cli-oz.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.5/README.md) | [bob-cli-oz.5](bob-cli-oz.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c1d8d19`](https://github.com/bobs-org/bob-plugins/commit/c1d8d1989a413d672dcd4d6477b562959f9a0181) | feat(prompts): wire task links into card surfaces | [bob-cli-oz.5](bob-cli-oz.5.md) | 2026-11-22 01:25:12 EST |
