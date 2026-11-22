@@ -168,7 +168,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.land/README.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11/README.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 0 |
@@ -217,6 +217,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d2877fe`](https://github.com/bobs-org/bob-plugins/commit/d2877fe42ca5be0299711f34b45b90bc16c8a50e) | feat(task-status-cycler): route Ctrl+\] through the requirement toggle and add the \`- \[\` typing assist | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 2026-11-21 21:47:21 EST |
 | bob-cli | [`536455a`](https://github.com/bobs-org/bob-cli/commit/536455acc9f2999bc46aeea8ec021970bdc9b9c9) | fix(capture): count nested requirements added to existing tasks | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 2026-11-21 22:04:20 EST |
 | bob-cli | [`e5ee4a8`](https://github.com/bobs-org/bob-cli/commit/e5ee4a8d9e942b7bbd9478ac1fa66a52d5c70ddf) | docs(task-reqs): add §5 Obsidian gestures table with exact copy and undo rule | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:08:54 EST |
+| bob-plugins | [`bob-plugins@7b96dce`](https://github.com/bobs-org/bob-plugins/commit/7b96dced3a85eea7ebeca5f911b0fb05c0d7bf3c) | test(e2e): add real-Obsidian task-reqs scenarios across three plugins | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:09:33 EST |
 
 <!-- sase:referenced-by:start -->
 

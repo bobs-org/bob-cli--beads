@@ -28,10 +28,11 @@ gestures-contract-and-e2e: document the shipped Obsidian gestures in bob-cli doc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e5ee4a8`](https://github.com/bobs-org/bob-cli/commit/e5ee4a8d9e942b7bbd9478ac1fa66a52d5c70ddf) | docs(task-reqs): add §5 Obsidian gestures table with exact copy and undo rule | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:08:54 EST |
+| bob-plugins | [`bob-plugins@7b96dce`](https://github.com/bobs-org/bob-plugins/commit/7b96dced3a85eea7ebeca5f911b0fb05c0d7bf3c) | test(e2e): add real-Obsidian task-reqs scenarios across three plugins | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:09:33 EST |
