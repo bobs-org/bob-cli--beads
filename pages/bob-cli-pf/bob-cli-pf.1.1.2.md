@@ -20,7 +20,7 @@ drawer-record: build the lazy accessible foot and drawer, per-note session state
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.1.1.1](bob-cli-pf.1.1.1.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -33,3 +33,15 @@ drawer-record: build the lazy accessible foot and drawer, per-note session state
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@15d82db`](https://github.com/bobs-org/bob-plugins/commit/15d82db75a1ac8a2a0920acaecbb73e8b75775e9) | feat(ledger-tools): add shared property-card foot runtime and migrate record sheet | [bob-cli-pf.1.1.2](bob-cli-pf.1.1.2.md) | 2026-11-22 17:06:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.1.1.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->

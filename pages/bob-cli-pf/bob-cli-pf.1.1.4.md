@@ -13,7 +13,7 @@ entrypoints: generalize the existing equals gate, add the mounted-view minus arm
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pf.1.1.5](bob-cli-pf.1.1.5.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

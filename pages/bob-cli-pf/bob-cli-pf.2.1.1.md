@@ -13,7 +13,7 @@ inventory-roles: build the source-preserving props document model, semantic fing
 
 ## Notes
 
-[2026-11-22T22:00:25Z · bob-cli-pf.2.1.1--1] Implemented source-preserving props inventory, semantic fingerprints, note-kind and role classification, the test-only module boundary, and the shared inspect(contents, context) seam with typed diagnostics. The role code records the audited writers for derived fields and covers day/period, record, album, bank, area, project, notebook, reference, and ordinary-note contexts. Props unit tests and the full  passed (formatting, clippy, workspace tests); No --epic-symbol entries in this working tree. reported no leftovers.
+[2026-11-22T22:00:25Z · bob-cli-pf.2.1.1--1] Implemented the ordered source-preserving props inventory, typed semantic fingerprint, role resolver, show report, test-only module boundary, and inspect(contents, context) seam. Documented the derived-field writer audit and covered temporal, record, album, bank, area, project, notebook, reference, and ordinary-note roles. cargo fmt, clippy, and all workspace tests passed in ToolRun 5496af44112a956d246feb1c6af32d74; the epic-symbol audit had no leftovers.
 
 [2026-11-22T22:02:18Z · bob-cli-pf.2.1.1--1] PROPOSED FOLLOW-UP: Review the timing stability of capture::related::draft_related_stays_under_the_debug_perf_gate; it passed in ToolRun 5496af44112a956d246feb1c6af32d74 and failed on the unchanged tree in ToolRun 2c1c39b14737364c1ef6c417922ecb87 at tests/cli/capture/related.rs:666.
 
@@ -25,4 +25,22 @@ inventory-roles: build the source-preserving props document model, semantic fing
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.1.md) | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.1.md) | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`e98c7fe`](https://github.com/bobs-org/bob-cli/commit/e98c7fe96c24e3c3b243eb05c6cd5bf4ce07b024) | feat(props): add frontmatter inventory and roles | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 2026-11-22 17:06:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.2.1.1--1][1] | Need the assigned bead's complete current state and any prior remainder before finishing it | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.1.md
+
+<!-- sase:referenced-by:end -->
