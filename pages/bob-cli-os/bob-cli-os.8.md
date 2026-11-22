@@ -43,7 +43,9 @@ transcript_text: parse JSON/VTT/SRT/HTML/text transcripts into sanity-checked, s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-os.3][1] | check whether dependent phases are concurrently touching podcast module | 1 |
+| read-by | [agent:bob-cli-os.8][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.8/README.md
 
 <!-- sase:referenced-by:end -->

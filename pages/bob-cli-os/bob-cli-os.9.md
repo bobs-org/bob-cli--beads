@@ -14,7 +14,7 @@ transcript_dossier: attach proven feed notes, chapters, and transcripts to creat
 ## Dependencies
 
 - **Blocks:** [bob-cli-os.10](bob-cli-os.10.md) ◐ · ⧖ 2026-11-21
-- **Depends on:** [bob-cli-os.6](bob-cli-os.6.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-os.6](bob-cli-os.6.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-os.7](bob-cli-os.7.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-os.8](bob-cli-os.8.md) ✓ · ⧖ 2026-11-21
 
@@ -23,3 +23,15 @@ transcript_dossier: attach proven feed notes, chapters, and transcripts to creat
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-os.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.9/README.md) | [bob-cli-os.9](bob-cli-os.9.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-os.8][1] | Check whether the dependent transcript_dossier phase assumes a transcript API | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.8/README.md
+
+<!-- sase:referenced-by:end -->
