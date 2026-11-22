@@ -28,8 +28,12 @@ promotion: rewrite nav's project seed so top-level requirements become ## Tasks 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5x.mus][1] | Drawer research: promotion conflict check | 1 |
+| read-by | [agent:research.5x.gem][1] | Inspect remaining in-progress phases of bob-cli-on relevant to drawers and promotion | 1 |
+| read-by | [agent:research.5x.grk][2] | Need promotion phase scope because drawers map to H2 on project promotion | 1 |
+| read-by | [agent:research.5x.mus][3] | Drawer research: promotion conflict check | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.gem/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.grk/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
 
 <!-- sase:referenced-by:end -->

@@ -19,7 +19,7 @@ carry_api: extend the Task Split twin through SP50, publish taskSplit v1, and ro
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

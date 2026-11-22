@@ -13,7 +13,7 @@ req_delivery: adapt successor placement for carried tasks without freshness stam
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

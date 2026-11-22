@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_requirements.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 14 automatic references — see [Referenced By](#referenced-by)._
+_Plus 17 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md
 
@@ -79,8 +79,8 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.1/README.md) | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md) | [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.3.md) | [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) | 2 |
-| [bbugyi200.athena.bob-cli-on.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md) | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.3.md) | [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md) | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.11.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.5/README.md) | [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.6/README.md) | [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.land/README.md) | [bob-cli-on.11.1](bob-cli-on.11.1.md) | 0 |
@@ -159,8 +159,8 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | bob-cli--plans | [`bob-cli--plans@04adcf3`](https://github.com/bobs-org/bob-cli--plans/commit/04adcf3c2e5368e1cff71509080e9b98c8106d8a) | docs(plans): mark requirement\_close\_engine done after bob-cli-on.8.1 land | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:52:27 EST |
 | bob-plugins | [`bob-plugins@4d4c73c`](https://github.com/bobs-org/bob-plugins/commit/4d4c73c2f03a1906bcd4626f5e0158adc5f1d509) | feat(task-status-cycler): add requirement close snapshot and verdict twins | [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) | 2026-11-22 15:24:27 EST |
 | bob-plugins | [`bob-plugins@1e38521`](https://github.com/bobs-org/bob-plugins/commit/1e3852184dc6c1b780d6e9729071c5ba448171e5) | feat(task-split): add req-carry planner, guarded persistence and carry API | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 2026-11-22 15:41:57 EST |
-| bob-cli | [`513ec47`](https://github.com/bobs-org/bob-cli/commit/513ec47889893245cd0aacf7f67895efcc253817) | docs(task-dependencies): mark picker v6 requirement consumer | [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) | 2026-11-22 16:04:56 EST |
 | bob-plugins | [`bob-plugins@289c7f6`](https://github.com/bobs-org/bob-plugins/commit/289c7f6108a4055b29962f52502e452962b0f27e) | feat(navigation): add requirement verdict picker | [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) | 2026-11-22 16:31:34 EST |
+| bob-plugins | [`bob-plugins@3fbe993`](https://github.com/bobs-org/bob-plugins/commit/3fbe9933f010d8b6779a7bec4d883a0cba753ffa) | feat(task-status-cycler): apply requirement carry and drop with guarded Undo | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 2026-11-22 16:45:03 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -181,7 +181,10 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | read-by | [agent:research.5u.grk][11] | Need remaining epic work and display contract before designing a display-only reqs UX | 1 |
 | read-by | [agent:research.5u.mus][12] | Research task reqs UX - need epic context | 1 |
 | read-by | [agent:research.5x.cdx][13] | Identify active epic scope and constraints for case-preserving drawer research | 1 |
-| read-by | [agent:research.5x.mus][14] | Research drawer decapitalization vs wip epic conflict | 1 |
+| read-by | [agent:research.5x.cld][14] | Check that drawer-capitalization design does not conflict with the bob-cli-on epic | 1 |
+| read-by | [agent:research.5x.gem][15] | Check wip bob-cli-on epic bead so drawer design does not conflict | 1 |
+| read-by | [agent:research.5x.grk][16] | Need bob-cli-on epic scope so mixed-case drawer design does not conflict | 1 |
+| read-by | [agent:research.5x.mus][17] | Research drawer decapitalization vs wip epic conflict | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md
@@ -196,6 +199,9 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 [11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.grk/README.md
 [12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.mus/README.md
 [13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.cdx/README.md
-[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.cld/README.md
+[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.gem/README.md
+[16]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.grk/README.md
+[17]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
 
 <!-- sase:referenced-by:end -->

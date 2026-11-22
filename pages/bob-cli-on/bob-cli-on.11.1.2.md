@@ -20,7 +20,7 @@ req_model: add pure requirement group, identity, choice, fold, and stale-validat
 ## Dependencies
 
 - **Blocks:** [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) ◐ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

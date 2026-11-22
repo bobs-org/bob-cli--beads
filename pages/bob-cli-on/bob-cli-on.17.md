@@ -31,8 +31,10 @@ memory: apply the accepted memory decisions (decision record and supersession ma
 | --- | --- | --- | ---: |
 | read-by | [agent:research.5u.cld][1] | Check whether in-flight req card/memory phases render or record the hash run glyph, for display redesign timing | 1 |
 | read-by | [agent:research.5u.gem][2] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+| read-by | [agent:research.5x.gem][3] | Inspect remaining in-progress phases of bob-cli-on relevant to drawers and promotion | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cld/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.gem/README.md
 
 <!-- sase:referenced-by:end -->
