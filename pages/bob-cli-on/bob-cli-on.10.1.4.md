@@ -13,7 +13,7 @@ cycler-toggle-and-typing: route Ctrl+] (command and Vim) through the RW toggle w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

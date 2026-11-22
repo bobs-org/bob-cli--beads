@@ -22,7 +22,7 @@ req-write-twin: port the drop/restore/toggle/insert writers (RW) into the cycler
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) ✓ · ⧖ 2026-11-21
 
 ## Agents

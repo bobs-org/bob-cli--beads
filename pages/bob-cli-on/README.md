@@ -61,7 +61,7 @@ flowchart TD
     n3["bob-cli-on.10.1: Obsidian requirement guards, toggle, drop, and typing assist [in_progress]"]
     n4["bob-cli-on.10.1.1: Recognizer and layout twins in the cycler [closed]"]
     n5["bob-cli-on.10.1.2: Writer twin, cross-plugin copies, and the offer-close scope fix [closed]"]
-    n6["bob-cli-on.10.1.3: Cycler requirement guards, Alt+[ drop, and Alt+] restore [in_progress]"]
+    n6["bob-cli-on.10.1.3: Cycler requirement guards, Alt+[ drop, and Alt+] restore [closed]"]
     n7["bob-cli-on.10.1.4: Ctrl+] note/req toggle, `- [` typing assist, and o/O continuation [in_progress]"]
     n8["bob-cli-on.10.1.5: Nav and Block ID Prompt requirement guards and the owner Task Card [closed]"]
     n9["bob-cli-on.10.1.6: Contract section, cross-plugin e2e, and ship [in_progress]"]
@@ -161,7 +161,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.md) | [bob-cli-on.10](bob-cli-on.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 0 |
@@ -206,6 +206,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e5cb895`](https://github.com/bobs-org/bob-plugins/commit/e5cb8954e354265607bb1551b518a5cce1a4800d) | feat(task-status-cycler): add the requirement writer twin, copy the twins into nav and Block ID Prompt, and keep reqs out of the offer-close scope | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 2026-11-21 17:51:13 EST |
 | bob-cli | [`7cc9493`](https://github.com/bobs-org/bob-cli/commit/7cc94933c2b3922e9a4c6eb80c9fc8415ce09311) | feat(capture)!: admit requirement bullets with req\_marker spans (grammar 29) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 2026-11-21 19:06:20 EST |
 | bob-plugins | [`bob-plugins@d3b80d7`](https://github.com/bobs-org/bob-plugins/commit/d3b80d70d501a07fd164c745b8827f776fe952e5) | feat(plugins): guard requirement lines in Navigation and Block ID Prompt | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 2026-11-21 19:37:42 EST |
+| bob-plugins | [`bob-plugins@28d76fd`](https://github.com/bobs-org/bob-plugins/commit/28d76fdad7cb1a71eb6fde7a1ebcee9b8555ab0f) | feat(task-status-cycler): guard requirement lines, add Alt+\[ drop and Alt+\] restore | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 2026-11-21 19:44:28 EST |
 
 <!-- sase:referenced-by:start -->
 
