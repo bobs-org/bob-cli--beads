@@ -39,7 +39,9 @@ writes: adapt carry_req and drop_req to guarded staged capture snapshots, compos
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.8.1.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-on.8.1.4][2] | Need prior phase handoff notes for placement phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md
 
 <!-- sase:referenced-by:end -->

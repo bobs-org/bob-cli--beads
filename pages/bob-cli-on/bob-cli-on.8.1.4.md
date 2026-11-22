@@ -35,3 +35,15 @@ placement: plan carried-task links at the existing successor destination, raise 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bddf386`](https://github.com/bobs-org/bob-cli/commit/bddf3868bf341287df9a5b8f0e1d5e931ac2155e) | feat(task-complete): place pulled requirement carries and resolve req jump landings | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 2026-11-22 11:09:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.8.1.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md
+
+<!-- sase:referenced-by:end -->

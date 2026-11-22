@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-p8][1] | Active obsidian-close-card phase edits the same cycler close card and offer-close verdicts |
 
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-p8/README.md
 
 <!-- sase:links:end -->
@@ -34,3 +36,17 @@ obsidian-close-card: mirror the requirement split in nav with api.taskSplit, bin
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11/README.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.5u.cld][1] | Check whether in-flight req card/memory phases render or record the hash run glyph, for display redesign timing | 1 |
+| read-by | [agent:research.5u.gem][2] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+
+<!-- sase:referenced-by:end -->

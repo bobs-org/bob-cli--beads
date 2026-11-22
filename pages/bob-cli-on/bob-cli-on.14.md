@@ -34,8 +34,10 @@ mac-nesting: generalize Tab/Shift-Tab, Ctrl-J continuation, paste placeholders, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.14][1] | Need full description including notes and remaining work after truncated first read | 2 |
 | read-by | [agent:bob-cli-on.6.1.land][2] | Check whether the Mac nesting phase covers sub_bullet_depths protocol docs | 1 |
+| read-by | [agent:research.5u.gem][3] | Inspect display-related and remaining phases of bob-cli-on | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.14/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
 
 <!-- sase:referenced-by:end -->

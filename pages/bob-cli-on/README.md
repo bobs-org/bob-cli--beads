@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_requirements.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md
 
@@ -36,6 +36,10 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 [2026-11-22T03:18:27Z · bob-cli-on.10.1.land] DISCOVERED ISSUE (corroboration from the bob-cli-on.10.1 land agent): (a) note #1's docs contract tests still fail 3/8 on master e5ee4a8d — reproduced with 'uv run --project tools/docs python -m pytest tools/docs/tests/test_contracts.py -q' (registry 55 vs pinned 54, llms.txt list, README table sha f23b0e44…); also reported by bob-cli-on.10.1.3 note #1 and bob-cli-on.10.1.5 note #1. (b) note #2's ^prj NOTES home was found independently by bob-cli-on.10.1.1 (note #1) while porting the RL twin, which mirrors it on purpose: for a ^prj task file_into_notes -> ensure_notes_drawer -> capture_drawers::ensure_drawer takes the is_prj_parent path, appends '## NOTES' at EOF, and because drawers() lists only bullet drawers an existing '## NOTES' H2 is never found, so each write appends another empty heading. bob task tidy refuses such plans through content_preserved, but the RW writers (toggle note->req first-req scoop, insert_reqs) have no such guard, and no RL/RW vector covers ^prj. Whatever home bob-cli decides needs new RL/RW vectors re-copied into the cycler and nav twins (plugins/task-status-cycler/src/196-197, nav 696-697, byte-identical; scripts/test-task-reqs-twin-copies.cjs enforces it).
 
 [2026-11-22T09:05:24Z · bob-cli-os.land] DISCOVERED ISSUE (corroboration from the bob-cli-os land agent): the 3 tools/docs/tests/test_contracts.py failures recorded in this epic's notes still reproduce on master 2f4fef6d (test_current_registry_and_generated_nav_are_complete_and_unique, test_llmstxt_contracts_section_lists_exactly_registry_stems, test_readme_table_matches_original_contract_index_snapshot; 3 failed, 5 passed via tools/docs/.venv/bin/python -m pytest tools/docs/tests/test_contracts.py). bob-cli-os.5 (note #1), bob-cli-os.9 (note #1), and bob-cli-os.10 (note #3) also hit them during unrelated podcast work.
+
+[2026-11-22T17:31:44Z · research.5u.final] DISCOVERED ISSUE: Mac req_marker concealment has no caret-adjacency reveal, diverging from docs/task-requirements.md §4 ('Caret adjacency reveals the raw bytes', mac-authoring/.13). Verified on bob-mac-capture master: requirementMarkerSpans() and the .clear concealment branch (CapturePanelModel.swift ~1941, ~22969) have no caret gate, so [ ] stays concealed and the caret walks invisibly across 4 transparent cells; only Backspace (consumeRequirementMarkerBackspace) inspects the caret. Found during display-redesign research (gem report file:explicit:0b89e18a8325cc0993d97840, lead verification file:explicit:5c353b4ff461108eaf7e16eb §3.4). Same research also verified wrappingOrigin counts chars with no word-wrap awareness and the ZStack overlay sits outside the editor scroll view — drift/desync risk shared with the route-emoji overlay.
+
+[2026-11-22T17:31:51Z · research.5u.final] DISCOVERED ISSUE: capture dry-run preview shows the authored layout, not the NOTES-scooped write. cld researcher reproduction (installed bob 0.5.0, scratch vault): dry-running a task with reqs plus a loose '- note' child lists the note as a loose child in human output and sub_bullets JSON while the summary says 'files 1 note under NOTES'; the real write files it under NOTES, so the Mac preview stack renders a block that differs from what lands. Evidence: cld report file:explicit:9cb60732bf9ab7a6de1c0bf0 (Side findings §1), consolidated report file:explicit:5c353b4ff461108eaf7e16eb §4.9. A fix could also add the additive req/kind field on preview lines proposed there.
 
 ## Phases
 
@@ -217,7 +221,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.2/README.md) | [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.3/README.md) | [bob-cli-on.8.1.3](bob-cli-on.8.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md) | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.5/README.md) | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.5.md) | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.6/README.md) | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.land/README.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
@@ -248,6 +252,7 @@ flowchart TD
 | bob-cli | [`0a83bb1`](https://github.com/bobs-org/bob-cli/commit/0a83bb1c4f7a4466e5cd218afa7a0999556e2fbb) | feat(task-complete): add requirement verdict selection model | [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) | 2026-11-22 08:42:58 EST |
 | bob-cli | [`d5e31ab`](https://github.com/bobs-org/bob-cli/commit/d5e31abcbbb19c2ca3fc14947ee03e3b9a0369fe) | feat(task-complete): add atomic carry/drop req write planning | [bob-cli-on.8.1.3](bob-cli-on.8.1.3.md) | 2026-11-22 09:35:07 EST |
 | bob-cli | [`bddf386`](https://github.com/bobs-org/bob-cli/commit/bddf3868bf341287df9a5b8f0e1d5e931ac2155e) | feat(task-complete): place pulled requirement carries and resolve req jump landings | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 2026-11-22 11:09:26 EST |
+| bob-cli | [`7073b7c`](https://github.com/bobs-org/bob-cli/commit/7073b7c879b8cc853ee3b9a1072326dd185cba85) | feat(capture)!: publish requirement close on the successor card | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 2026-11-22 13:36:38 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -261,6 +266,12 @@ flowchart TD
 | read-by | [agent:bob-cli-on.6.1.land][4] | Need existing notes to avoid duplicating discovered issues | 2 |
 | read-by | [agent:bob-cli-on.7][5] | Check epic notes and sibling phase status for req-split | 1 |
 | read-by | [agent:bob-cli-os.land][6] | Check whether the test_contracts docs-check failure is recorded on the causing epic | 1 |
+| read-by | [agent:research.5u.cdx][7] | Understand the approved task requirements epic before proposing presentation-only changes | 1 |
+| read-by | [agent:research.5u.cld][8] | Understand the task reqs epic scope for UX research report | 1 |
+| read-by | [agent:research.5u.final][9] | Lead researcher: verify epic phase status before consolidating task-reqs display redesign research | 1 |
+| read-by | [agent:research.5u.gem][10] | Understand the task reqs epic, its phases, behavior, and current display design | 1 |
+| read-by | [agent:research.5u.grk][11] | Need remaining epic work and display contract before designing a display-only reqs UX | 1 |
+| read-by | [agent:research.5u.mus][12] | Research task reqs UX - need epic context | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md
@@ -268,5 +279,11 @@ flowchart TD
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.1.land.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-os.land/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cdx/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cld/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.final/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.grk/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.mus/README.md
 
 <!-- sase:referenced-by:end -->

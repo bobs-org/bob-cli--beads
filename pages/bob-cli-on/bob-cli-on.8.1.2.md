@@ -40,8 +40,10 @@ choices: implement the pure Met, Drop, Carry, and Carry-Pulled selection model, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.8.1.2][1] | Need the phase scope, design file, and prior notes before implementation | 1 |
 | read-by | [agent:bob-cli-on.8.1.3][2] | Need dependency scope | 1 |
+| read-by | [agent:bob-cli-on.8.1.4][3] | Need prior phase handoff notes for placement phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md
 
 <!-- sase:referenced-by:end -->

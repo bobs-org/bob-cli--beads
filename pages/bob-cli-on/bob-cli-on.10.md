@@ -23,3 +23,15 @@ obsidian-gestures: add recognizer and layout twins to the cycler and nav, guard 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.md) | [bob-cli-on.10](bob-cli-on.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.5u.gem][1] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+
+<!-- sase:referenced-by:end -->

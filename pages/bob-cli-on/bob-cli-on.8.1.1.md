@@ -38,7 +38,9 @@ rows: collect each managed closing owner's pre-close requirement forest, impleme
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.8.1.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-on.8.1.4][2] | Need prior phase handoff notes for placement phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md
 
 <!-- sase:referenced-by:end -->
