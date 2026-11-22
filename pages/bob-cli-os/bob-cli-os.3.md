@@ -19,7 +19,7 @@ episode_metadata: fetch and parse browserless episode metadata (page state, JSON
 
 - **Depends on:** [bob-cli-os.2](bob-cli-os.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-os.5](bob-cli-os.5.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-os.7](bob-cli-os.7.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.7](bob-cli-os.7.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-os.8](bob-cli-os.8.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
@@ -33,3 +33,15 @@ episode_metadata: fetch and parse browserless episode metadata (page state, JSON
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2837fea`](https://github.com/bobs-org/bob-cli/commit/2837fea8003ddc4f5d77e730b15a7319ed7fb3ab) | feat(ref): add the Spotify episode metadata ladder and show-notes segmentation | [bob-cli-os.3](bob-cli-os.3.md) | 2026-11-21 17:21:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-os.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -37,3 +37,15 @@ dossier_render: add the offline adapter `render` op and the podcast-episode doss
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`6b9139a`](https://github.com/bobs-org/bob-cli/commit/6b9139a65dc2780e839ecff3c2782a2ffcda0f61) | feat(ref): add the offline adapter render op and the podcast episode dossier | [bob-cli-os.4](bob-cli-os.4.md) | 2026-11-21 17:26:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-os.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.4/README.md
+
+<!-- sase:referenced-by:end -->
