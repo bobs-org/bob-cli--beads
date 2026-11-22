@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-p7][1] | Proposed this follow-up (note #3) and added the coded req_* refusals plus the dry-run/capture-parse parity test this fix should extend |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-p7/README.md
 
@@ -62,7 +62,9 @@ req-positions: add the pure req-position resolver shared by bob capture and capt
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.6.1.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-on.6.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.1.land.md
 
 <!-- sase:referenced-by:end -->

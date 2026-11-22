@@ -24,13 +24,19 @@ cycler-toggle-and-typing: route Ctrl+] (command and Vim) through the RW toggle w
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d2877fe`](https://github.com/bobs-org/bob-plugins/commit/d2877fe42ca5be0299711f34b45b90bc16c8a50e) | feat(task-status-cycler): route Ctrl+\] through the requirement toggle and add the \`- \[\` typing assist | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 2026-11-21 21:47:21 EST |
 
 <!-- sase:referenced-by:start -->
 
