@@ -13,7 +13,7 @@ pipeline: thread requirement capability and staged choices through CapturePanelM
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) ◐ · ⧖ 2026-11-22
 
 ## Agents
