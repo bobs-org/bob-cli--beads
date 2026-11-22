@@ -43,13 +43,14 @@ Deployed and dry-run verified task-status-cycler 1.57.0 and bob-navigation-hotke
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.1.land.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.1.land.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@f74c45e`](https://github.com/bobs-org/bob-plugins/commit/f74c45e1612c6320a4ef9fccae890b5b82696c78) | fix(plugins): finish req gesture landing | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 2026-11-21 23:05:16 EST |
+| bob-cli--plans | [`bob-cli--plans@1d397b7`](https://github.com/bobs-org/bob-cli--plans/commit/1d397b783ee7e5eff90d3fc711bc5ad83054adac) | docs(plans): mark req gestures plan done | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 2026-11-21 23:06:05 EST |
 
 <!-- sase:referenced-by:start -->
 
