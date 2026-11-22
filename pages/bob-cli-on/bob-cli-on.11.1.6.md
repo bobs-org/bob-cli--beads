@@ -20,4 +20,10 @@ close_wiring: capture pre-close scope on all managed Done paths, integrate one r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.6/README.md) | [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.11.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.6.md) | [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`c17dd80`](https://github.com/bobs-org/bob-cli/commit/c17dd80a0b238a96c22e293badf82cdd54e4ced8) | docs(requirements): clarify managed Done close card availability | [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) | 2026-11-22 18:06:50 EST |
