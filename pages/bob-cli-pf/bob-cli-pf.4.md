@@ -29,8 +29,10 @@ editor-core: keyboard-first modal on the record chassis for any note: grouped ro
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5y.grk][1] | Need the =+ property editor phase scope for area/project schema editors | 1 |
+| read-by | [agent:research.5y.cld][1] | See =+ editor phase status and scope for area/project design | 1 |
+| read-by | [agent:research.5y.grk][2] | Need the =+ property editor phase scope for area/project schema editors | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
 
 <!-- sase:referenced-by:end -->

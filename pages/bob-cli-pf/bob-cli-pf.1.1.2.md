@@ -41,7 +41,9 @@ drawer-record: build the lazy accessible foot and drawer, per-note session state
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.1.1.2][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-pf.1.1.3][2] | Need what shared foot runtime already landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.3/README.md
 
 <!-- sase:referenced-by:end -->

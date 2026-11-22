@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/card_foot_drawer.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/card_foot_drawer.md
 
@@ -38,7 +38,9 @@ Every property card exposes its complete frontmatter and created stamp through a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.1.1.2][1] | Need parent epic plan and DECISIONS | 1 |
+| read-by | [agent:bob-cli-pf.1.1.3][2] | Need epic DECISIONS and phase list for adapter work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.3/README.md
 
 <!-- sase:referenced-by:end -->

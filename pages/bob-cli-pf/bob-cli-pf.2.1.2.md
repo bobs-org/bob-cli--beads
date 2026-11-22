@@ -11,6 +11,10 @@
 
 span-operations: implement the strict six-operation protocol and pure span planner, serialization, role enforcement, candidate verification, and exact inverse operations against the inventory model.
 
+## Notes
+
+[2026-11-22T23:15:59Z · bob-cli-pf.2.1.2] Verified: cargo fmt --all; cargo clippy --workspace --all-targets --all-features with just-check deny gates; cargo test --lib native::props (49 passed, including golden inverse/redo). epic-symbols: none. Host just check is the remaining gate.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) ✓ · ⧖ 2026-11-22
@@ -20,4 +24,4 @@ span-operations: implement the strict six-operation protocol and pure span plann
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.2.1.2/README.md) | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.2.md) | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 0 |

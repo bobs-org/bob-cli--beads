@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-pf.2 with an ordered property report and guarded, reversible frontmatter edits that preserve unrelated bytes and enforce one writer per key.
 
+## Notes
+
+[2026-11-22T22:53:38Z · research.5y.cld] DISCOVERED ISSUE: the props role table on master (src/native/props/roles.rs @ e98c7fe9, also origin/master) classifies every area/project bookkeeping key as loose, although the plan asks to 'audit bob's frontmatter writers to complete this list'. Missing derived keys: done_tasks (written by bob task archive; on 11 areas and 42 projects); project status (bob projects sync mirrors ^prj: checked→done, canceled→canceled, reopen→wip); leftover frontmatter scheduled on projects (projects sync hoists it onto ^prj); template (written by capture_project_note.rs:562, never read); task_count/open_task_count (written by the bob-project-tasks plugin, see bob-cli-pi). Impact: =+ on any area/project note would offer free-text edits of done_tasks (breaking archive pairing) and status: done on an open project (silently reverted by the next projects sync). Evidence: research:202611/area_project_property_cards__cld.md §1.4–§1.5, §5.5 (file:explicit:a4873a8805c572a2cd19068c).
+
 ## Agents
 
 | Agent | Bead | Commits |
