@@ -13,7 +13,7 @@ acceptance: add and run the isolated real-Obsidian foot walkthrough, inspect the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

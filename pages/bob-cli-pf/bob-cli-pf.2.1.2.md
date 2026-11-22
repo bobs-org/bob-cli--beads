@@ -15,6 +15,8 @@ span-operations: implement the strict six-operation protocol and pure span plann
 
 [2026-11-22T23:15:59Z · bob-cli-pf.2.1.2] Verified: cargo fmt --all; cargo clippy --workspace --all-targets --all-features with just-check deny gates; cargo test --lib native::props (49 passed, including golden inverse/redo). epic-symbols: none. Host just check is the remaining gate.
 
+[2026-11-22T23:41:00Z · bob-cli-pf.2.1.2--1] PROPOSED FOLLOW-UP: just check flake in tests/gcal_ack.rs — session_timed_presses_answer_each_card and session_write_failure_keeps_earlier_answers failed under full-suite loadavg ~198 (missing .bob/gcal journal after 1200ms; debounce swallowed the second "a" so only 1 of 2 acked). Isolation rerun on this tree passed both. Unrelated to span-operations (props planner). No existing task bead.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) ✓ · ⧖ 2026-11-22

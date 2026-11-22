@@ -46,7 +46,7 @@ flowchart TD
     n3["bob-cli-pf.1.1.1: Shared created stamp and source-ordered property inventory [closed]"]
     n4["bob-cli-pf.1.1.2: Shared foot runtime and Record Card migration [closed]"]
     n5["bob-cli-pf.1.1.3: Album, temporal, and bank foot adoption [closed]"]
-    n6["bob-cli-pf.1.1.4: Equals arm table and drawer commands [in_progress]"]
+    n6["bob-cli-pf.1.1.4: Equals arm table and drawer commands [closed]"]
     n7["bob-cli-pf.1.1.5: Real-Obsidian drawer acceptance and deployment [in_progress]"]
     n8["bob-cli-pf.2: Generic bob props show|update (bob-cli) [in_progress]"]
     n9["bob-cli-pf.2.1: Generic bob props show and update [in_progress]"]
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.1.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.1.md) | [bob-cli-pf.1.1.1](bob-cli-pf.1.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.2/README.md) | [bob-cli-pf.1.1.2](bob-cli-pf.1.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.3/README.md) | [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.4.md) | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.4.md) | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.5/README.md) | [bob-cli-pf.1.1.5](bob-cli-pf.1.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.land/README.md) | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.md) | [bob-cli-pf.2](bob-cli-pf.2.md) | 0 |
@@ -119,6 +119,7 @@ flowchart TD
 | bob-cli | [`e98c7fe`](https://github.com/bobs-org/bob-cli/commit/e98c7fe96c24e3c3b243eb05c6cd5bf4ce07b024) | feat(props): add frontmatter inventory and roles | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 2026-11-22 17:06:45 EST |
 | bob-plugins | [`bob-plugins@b3188ab`](https://github.com/bobs-org/bob-plugins/commit/b3188ab5be762a75786f51e2ed9e10f2063f2cc7) | feat(ledger-tools): adopt shared property-card foot on album, temporal, and bank cards | [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) | 2026-11-22 17:52:22 EST |
 | bob-plugins | [`bob-plugins@175283d`](https://github.com/bobs-org/bob-plugins/commit/175283d3c48bfbd7c9f768890827d12b6c84e26d) | feat(ledger-tools): add property card drawer entrypoints | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 2026-11-22 18:25:56 EST |
+| bob-plugins | [`bob-plugins@d382785`](https://github.com/bobs-org/bob-plugins/commit/d3827858b5cb120deb6b1db0c64c7fa46c2c165d) | docs(ledger-tools): document property drawer access | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 2026-11-22 18:56:06 EST |
 
 <!-- sase:referenced-by:start -->
 
