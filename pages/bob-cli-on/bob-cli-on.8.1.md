@@ -35,13 +35,14 @@ Complete bob-cli-on.8: managed capture Done closes audit each owner's pending re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.land.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.land.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c72c941`](https://github.com/bobs-org/bob-cli/commit/c72c941deb7329e65e1899ae475a55136fe80f79) | fix(capture): land requirement-close overlap, x! pull-in, and dead-code cleanup | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:51:26 EST |
+| bob-cli--plans | [`bob-cli--plans@04adcf3`](https://github.com/bobs-org/bob-cli--plans/commit/04adcf3c2e5368e1cff71509080e9b98c8106d8a) | docs(plans): mark requirement\_close\_engine done after bob-cli-on.8.1 land | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:52:27 EST |
 
 <!-- sase:referenced-by:start -->
 

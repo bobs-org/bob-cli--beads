@@ -223,7 +223,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md) | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.5.md) | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.6/README.md) | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.land.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.land.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.land/README.md) | [bob-cli-on](README.md) | 0 |
 
@@ -255,6 +255,7 @@ flowchart TD
 | bob-cli | [`7073b7c`](https://github.com/bobs-org/bob-cli/commit/7073b7c879b8cc853ee3b9a1072326dd185cba85) | feat(capture)!: publish requirement close on the successor card | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 2026-11-22 13:36:38 EST |
 | bob-cli | [`96a23f5`](https://github.com/bobs-org/bob-cli/commit/96a23f506f072ec577b6891b605937c47d4d82a6) | docs(task-dependencies): publish requirement close contract and RV inventory | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 2026-11-22 13:58:46 EST |
 | bob-cli | [`c72c941`](https://github.com/bobs-org/bob-cli/commit/c72c941deb7329e65e1899ae475a55136fe80f79) | fix(capture): land requirement-close overlap, x! pull-in, and dead-code cleanup | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:51:26 EST |
+| bob-cli--plans | [`bob-cli--plans@04adcf3`](https://github.com/bobs-org/bob-cli--plans/commit/04adcf3c2e5368e1cff71509080e9b98c8106d8a) | docs(plans): mark requirement\_close\_engine done after bob-cli-on.8.1 land | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:52:27 EST |
 
 <!-- sase:referenced-by:start -->
 
