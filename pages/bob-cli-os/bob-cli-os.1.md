@@ -40,7 +40,9 @@ clean_capture: reject base62 ids as URL stems, persist the write-once source sto
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-os.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-os.10][2] | Check sibling phase status and any follow-up notes relevant to rollout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md
 
 <!-- sase:referenced-by:end -->

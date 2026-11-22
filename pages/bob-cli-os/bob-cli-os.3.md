@@ -40,8 +40,10 @@ episode_metadata: fetch and parse browserless episode metadata (page state, JSON
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-os.3][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-os.10][1] | Check sibling phase status and any follow-up notes relevant to rollout | 1 |
+| read-by | [agent:bob-cli-os.3][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.3/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.3/README.md
 
 <!-- sase:referenced-by:end -->

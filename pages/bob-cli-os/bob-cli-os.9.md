@@ -42,10 +42,12 @@ transcript_dossier: attach proven feed notes, chapters, and transcripts to creat
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-os.8][1] | Check whether the dependent transcript_dossier phase assumes a transcript API | 2 |
-| read-by | [agent:bob-cli-os.9--1][2] | Need the phase scope, notes, and remaining close work | 1 |
+| read-by | [agent:bob-cli-os.10][1] | Check sibling phase status and any follow-up notes relevant to rollout | 1 |
+| read-by | [agent:bob-cli-os.8][2] | Check whether the dependent transcript_dossier phase assumes a transcript API | 2 |
+| read-by | [agent:bob-cli-os.9--1][3] | Need the phase scope, notes, and remaining close work | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.8/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-os.9.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.8/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-os.9.md
 
 <!-- sase:referenced-by:end -->

@@ -29,11 +29,16 @@ rollout: give podcasts refs their own kind in Bob Mac Capture, the reading board
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-os.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md) | [bob-cli-os.10](bob-cli-os.10.md) | 2 |
+| [bbugyi200.apollo.bob-cli-os.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md) | [bob-cli-os.10](bob-cli-os.10.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@310c946`](https://github.com/bobs-org/bob-mac-capture/commit/310c946b0e2f0880a623dc7453e8a4c455ff883e) | feat(refs): give podcasts refs their own Podcast kind | [bob-cli-os.10](bob-cli-os.10.md) | 2026-11-22 03:40:07 EST |
-| bob-plugins | [`bob-plugins@e7427ad`](https://github.com/bobs-org/bob-plugins/commit/e7427ad9f61306da00cd605b70e12060a1045162) | feat(ledger-tools): label podcasts refs on the Reading Board | [bob-cli-os.10](bob-cli-os.10.md) | 2026-11-22 03:40:46 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-os.10][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.10/README.md
+
+<!-- sase:referenced-by:end -->
