@@ -35,3 +35,15 @@ bip-task-api: expose the existing (( engine as api.taskLinks v1. It adds the pro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a346fd2`](https://github.com/bobs-org/bob-plugins/commit/a346fd2f3bfbae27296535fb3075c3b15b4812f3) | feat(block-id-prompt): add task links API | [bob-cli-oz.2](bob-cli-oz.2.md) | 2026-11-22 00:02:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oz.3][1] | Need dependency output for nav-task-band phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.3/README.md
+
+<!-- sase:referenced-by:end -->

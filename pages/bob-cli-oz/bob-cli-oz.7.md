@@ -13,7 +13,7 @@ task-walkthrough: run the isolated real-Obsidian e2e over S1, S6, S10, S11, S14,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oz.4](bob-cli-oz.4.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oz.4](bob-cli-oz.4.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-oz.5](bob-cli-oz.5.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

@@ -11,6 +11,10 @@
 
 card-surfaces: make (( and NAME survive the Intention Card repaints and key ladder, the Record Card typed stages, and the (( field-mode link stage, and verify the email task modal.
 
+## Notes
+
+[2026-11-22T06:20:58Z · bob-cli-oz.5] PROPOSED FOLLOW-UP: Fix the Bob CLI Podcasting URL in docs:check — docs:check on upstream 005f4c2 flags src/native/highlights_ref/podcast/feed.rs:70, linked from docs/1.0.md, as targeting missing /1.0/; this is unrelated to S13–S15.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-oz.3](bob-cli-oz.3.md) ✓ · ⧖ 2026-11-21

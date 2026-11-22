@@ -22,7 +22,7 @@ nav-task-band: add the tasks mode to nav's proseField controller in new fragment
 ## Dependencies
 
 - **Depends on:** [bob-cli-oz.2](bob-cli-oz.2.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oz.4](bob-cli-oz.4.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oz.4](bob-cli-oz.4.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oz.5](bob-cli-oz.5.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
@@ -36,3 +36,15 @@ nav-task-band: add the tasks mode to nav's proseField controller in new fragment
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6a2f6ce`](https://github.com/bobs-org/bob-plugins/commit/6a2f6ce5c8eb38f2f8c4265f00d9322c058341b6) | feat(nav): add tasks mode to proseField LINK band with in-band NAME stage | [bob-cli-oz.3](bob-cli-oz.3.md) | 2026-11-22 00:44:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oz.3][1] | Need phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.3/README.md
+
+<!-- sase:referenced-by:end -->
