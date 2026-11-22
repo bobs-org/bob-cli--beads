@@ -25,6 +25,10 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 obsidian-close-card: mirror the requirement split in nav with api.taskSplit, bind Ctrl+Shift+T carry-now on requirement lines, render picker v6 requirement groups with their keys, and let the cycler plan and apply verdicts with guarded Undo.
 
+## Notes
+
+[2026-11-22T19:56:19Z · bob-cli-on.11] Planning audit: no prior implementation notes; prerequisites on.8 and on.10 are closed. At bob-cli 96a23f50 and bob-plugins 2b3b6b6, Rust carry/close contracts and plugin req guards are landed, but nav split remains SP1-SP31, successors is v5, and taskSplit API is absent. Authored and validated a six-phase child epic: carry API, snapshot/verdict model, picker v6, guarded carry/drop apply, placement/landing, and managed Done integration. No implementation changes made. Child land agent must verify deployment and close only on.11; no epic-symbol entries currently target this phase. Existing bob-cli-p8 remains separate scope.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.10](bob-cli-on.10.md) ✓ · ⧖ 2026-11-21
@@ -35,7 +39,7 @@ obsidian-close-card: mirror the requirement split in nav with api.taskSplit, bin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11/README.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

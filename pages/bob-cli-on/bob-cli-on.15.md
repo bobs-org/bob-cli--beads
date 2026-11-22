@@ -20,7 +20,7 @@ mac-close-card: decode requirement groups, carry them through every offer path, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15/README.md) | [bob-cli-on.15](bob-cli-on.15.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.15](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.md) | [bob-cli-on.15](bob-cli-on.15.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
