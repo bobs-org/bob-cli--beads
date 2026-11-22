@@ -24,10 +24,4 @@ pipeline: thread requirement capability and staged choices through CapturePanelM
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.3.md) | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@3eea97b`](https://github.com/bobs-org/bob-mac-capture/commit/3eea97b2ce3a207c0295adf5b070b90b227833da) | feat(capture): preserve requirement choices through preview and submit | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 2026-11-22 16:56:40 EST |
+| [bbugyi200.athena.bob-cli-on.15.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.3.md) | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 0 |

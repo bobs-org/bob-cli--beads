@@ -13,8 +13,8 @@ close_wiring: capture pre-close scope on all managed Done paths, integrate one r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) ◐ · ⧖ 2026-11-22
-- **Depends on:** [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) ✓ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
