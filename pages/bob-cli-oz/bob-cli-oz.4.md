@@ -23,10 +23,12 @@ prompt-subjects: wire subjects for S1–S11 (S12 none) and audit picker-host key
 
 [2026-11-22T06:21:52Z · bob-cli-oz.4] S1-S11 declare subjects (S12 declares none); proseTaskSubjects/rottenKeepSubjects/successorReasonSubjects/pickerProseSubjects feed them from each host's own write-plan identities. T11 host safety: navAdoptSiblingEdits/navContentAfterPrompt/navGroupsAfterPrompt/linkSessionGroups let hosts adopt a note whose only changes are off their target lines; real-bip api.taskLinks naming tests per family (S1 unlink, S2, S3 cursor+link, S4/S5 keep cursor+link, S5 decay Stay, S6 successor cancel, S7 single+link, S8 link, S10 single+link) — negative control confirms 7 fail without adoption. Picker NAME key routing audited for S7/S10/S11 (Tab/Shift+Tab/arrows/Ctrl+N,P/Esc/Ctrl+[ consumed first, Enter never commits); S6 NAME/Enter/blur verified with the real controller. Prose lint extended (subjects wired|none). Docs: task-card, block-id-prompt, notebook-gestures, architecture. Versions: nav 2.106.0, bip 1.44.0. npm test 8621/8623 pass (2 ledger-tools wall-clock perf budgets flake under parallel load, pass alone), validate ok, docs lint/drift/strict build ok. bip deployed; nav deploy blocked by bob plugins sync refusal (see PROPOSED FOLLOW-UP notes) pending Bryan approval for -F.
 
+[2026-11-22T11:12:03Z · bob-cli-oz.4--1] RESOLVED: nav deploy — Bryan approved force-sync; ran bob plugins sync -F -p bob-navigation-hotkeys from bob-plugins HEAD e7427ad9 (clean). Vault now has nav 2.106.0; the displaced uncommitted 2.101.0 build is backed up under ~/.local/state/bob-cli/plugin-backups/20261122-061156. ledger-tools was not forced.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-oz.3](bob-cli-oz.3.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oz.7](bob-cli-oz.7.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oz.7](bob-cli-oz.7.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -39,3 +41,15 @@ prompt-subjects: wire subjects for S1–S11 (S12 none) and audit picker-host key
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@577b3cc`](https://github.com/bobs-org/bob-plugins/commit/577b3cc615da328a5361e27500a524ac70b6417a) | feat(nav): declare task subjects for (( in S1-S12 prompts and keep host writes safe | [bob-cli-oz.4](bob-cli-oz.4.md) | 2026-11-22 01:23:02 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oz.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oz.4.md
+
+<!-- sase:referenced-by:end -->

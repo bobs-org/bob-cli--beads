@@ -23,7 +23,7 @@ nav-task-band: add the tasks mode to nav's proseField controller in new fragment
 
 - **Depends on:** [bob-cli-oz.2](bob-cli-oz.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oz.4](bob-cli-oz.4.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oz.5](bob-cli-oz.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oz.5](bob-cli-oz.5.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
