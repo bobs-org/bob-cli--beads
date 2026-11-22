@@ -22,7 +22,7 @@ placement: plan carried-task links at the existing successor destination, raise 
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.8.1.3](bob-cli-on.8.1.3.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

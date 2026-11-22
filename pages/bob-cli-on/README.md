@@ -102,8 +102,8 @@ flowchart TD
     n32["bob-cli-on.8.1.2: Requirement verdict resolution and refusal rules [closed]"]
     n33["bob-cli-on.8.1.3: Atomic carry and drop planning [closed]"]
     n34["bob-cli-on.8.1.4: Carried-task pull-in and final jump resolution [closed]"]
-    n35["bob-cli-on.8.1.5: CLI, capability gate, JSON, and human output [in_progress]"]
-    n36["bob-cli-on.8.1.6: Published contract and cross-feature regression evidence [in_progress]"]
+    n35["bob-cli-on.8.1.5: CLI, capability gate, JSON, and human output [closed]"]
+    n36["bob-cli-on.8.1.6: Published contract and cross-feature regression evidence [closed]"]
     n37["bob-cli-on.9: Render requirements in Obsidian [closed]"]
     n0 --> n1
     n0 --> n2
@@ -222,7 +222,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.3/README.md) | [bob-cli-on.8.1.3](bob-cli-on.8.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.4/README.md) | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.8.1.5.md) | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.6/README.md) | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.6/README.md) | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.land/README.md) | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.land/README.md) | [bob-cli-on](README.md) | 0 |
@@ -253,6 +253,7 @@ flowchart TD
 | bob-cli | [`d5e31ab`](https://github.com/bobs-org/bob-cli/commit/d5e31abcbbb19c2ca3fc14947ee03e3b9a0369fe) | feat(task-complete): add atomic carry/drop req write planning | [bob-cli-on.8.1.3](bob-cli-on.8.1.3.md) | 2026-11-22 09:35:07 EST |
 | bob-cli | [`bddf386`](https://github.com/bobs-org/bob-cli/commit/bddf3868bf341287df9a5b8f0e1d5e931ac2155e) | feat(task-complete): place pulled requirement carries and resolve req jump landings | [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) | 2026-11-22 11:09:26 EST |
 | bob-cli | [`7073b7c`](https://github.com/bobs-org/bob-cli/commit/7073b7c879b8cc853ee3b9a1072326dd185cba85) | feat(capture)!: publish requirement close on the successor card | [bob-cli-on.8.1.5](bob-cli-on.8.1.5.md) | 2026-11-22 13:36:38 EST |
+| bob-cli | [`96a23f5`](https://github.com/bobs-org/bob-cli/commit/96a23f506f072ec577b6891b605937c47d4d82a6) | docs(task-dependencies): publish requirement close contract and RV inventory | [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) | 2026-11-22 13:58:46 EST |
 
 <!-- sase:referenced-by:start -->
 
