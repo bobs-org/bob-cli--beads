@@ -13,7 +13,7 @@ outcomes: extend the portable Pull-In outcomes and the choice model with typed r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.15.1.1](bob-cli-on.15.1.1.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.15.1.1](bob-cli-on.15.1.1.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) ◐ · ⧖ 2026-11-22
 
 ## Agents
