@@ -19,7 +19,7 @@
 | related | file:explicit:ee698e8f342e2740746c0830 | attached via sase artifact create --bead |
 | related | file:explicit:fde96ae50f55a1ea41d67ab8 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -49,13 +49,7 @@ adopt-and-prove: verify every host runs plugins and a bob that support grouped w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@235c7db`](https://github.com/bobs-org/bob-plugins/commit/235c7db27ea06bea003db3822d908e08ce2f2c04) | test(nav): add the real-Obsidian \[N / \]N group-jump walkthrough | [bob-cli-oj.7](bob-cli-oj.7.md) | 2026-11-21 18:51:25 EST |
+| [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -64,7 +58,9 @@ adopt-and-prove: verify every host runs plugins and a bob that support grouped w
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.6][1] | Need sibling phase statuses so I do not redo landed work or collide with group-rail | 1 |
+| read-by | [agent:bob-cli-oj.7][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md
 
 <!-- sase:referenced-by:end -->

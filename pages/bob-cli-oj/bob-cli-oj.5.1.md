@@ -76,13 +76,12 @@ FOLLOW-UP TRIAGE (recorded on note #1): corroborated bob-cli-io, bob-cli-km, bob
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.5.1.land.md) | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-oj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.5.1.land.md) | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@24ed171`](https://github.com/bobs-org/bob-plugins/commit/24ed1719709183364382e64a48153c01224fea1d) | feat(ledger-tools): declutter the group row and footer group arms with skip marks | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 2026-11-21 17:11:32 EST |
 | bob-cli--plans | [`bob-cli--plans@b8a4c00`](https://github.com/bobs-org/bob-cli--plans/commit/b8a4c00646dae5071489f1a2214c3f31a0edf796) | chore(plans): mark group\_rail done after landing bob-cli-oj.5.1 | [bob-cli-oj.5.1](bob-cli-oj.5.1.md) | 2026-11-21 17:12:20 EST |
 
 <!-- sase:referenced-by:start -->

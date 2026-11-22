@@ -32,13 +32,7 @@ links-footer: add outer `«`/`»` group arms, the current-group context, the `]}
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@7b44b29`](https://github.com/bobs-org/bob-plugins/commit/7b44b29dc2b29584c2a7dcf0453309bc0a4f8821) | feat(ledger-tools): paint group arms and hints in the links walker footer | [bob-cli-oj.6](bob-cli-oj.6.md) | 2026-11-21 12:39:49 EST |
+| [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -47,7 +41,9 @@ links-footer: add outer `«`/`»` group arms, the current-group context, the `]}
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-oj.6][1] | Need the phase scope, notes, remaining work, and design | 5 |
+| read-by | [agent:bob-cli-oj.7][2] | Need landed phase notes, versions, and follow-ups before adoption and e2e proof | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md
 
 <!-- sase:referenced-by:end -->
