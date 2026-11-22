@@ -7,6 +7,18 @@
 **Created:** 2026-11-22 14:47:18 EST
 **Plan:** [202611/props\_cli.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/props_cli.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/props_cli.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/props_cli.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-pf.2 with an ordered property report and guarded, reversible frontmatter edits that preserve unrelated bytes and enforce one writer per key.

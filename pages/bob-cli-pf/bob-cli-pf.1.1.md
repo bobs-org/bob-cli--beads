@@ -7,6 +7,18 @@
 **Created:** 2026-11-22 14:45:08 EST
 **Plan:** [202611/card\_foot\_drawer.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/card_foot_drawer.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/card_foot_drawer.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/card_foot_drawer.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Every property card exposes its complete frontmatter and created stamp through a read-only foot and drawer, with preserved card editing and verified real-Obsidian behavior, completing bob-cli-pf.1.

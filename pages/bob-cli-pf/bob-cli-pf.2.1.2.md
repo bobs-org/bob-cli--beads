@@ -13,7 +13,7 @@ span-operations: implement the strict six-operation protocol and pure span plann
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) ◐ · ⧖ 2026-11-22
 
 ## Agents
