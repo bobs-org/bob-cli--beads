@@ -40,3 +40,15 @@ req-positions: add the pure req-position resolver shared by bob capture and capt
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`7cc9493`](https://github.com/bobs-org/bob-cli/commit/7cc94933c2b3922e9a4c6eb80c9fc8415ce09311) | feat(capture)!: admit requirement bullets with req\_marker spans (grammar 29) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 2026-11-21 19:06:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.6.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->

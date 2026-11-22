@@ -40,7 +40,9 @@ depth-model: turn AuthoredDepth into a numeric level, teach the authored-line cl
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.6.1.1][1] | Check for prior notes before closing | 2 |
+| read-by | [agent:bob-cli-on.6.1.2][2] | check depth-model notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md
 
 <!-- sase:referenced-by:end -->
