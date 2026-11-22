@@ -13,7 +13,7 @@ writes: adapt carry_req and drop_req to guarded staged capture snapshots, compos
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

@@ -17,7 +17,7 @@ rows: collect each managed closing owner's pre-close requirement forest, impleme
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -30,3 +30,15 @@ rows: collect each managed closing owner's pre-close requirement forest, impleme
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e4ee55b`](https://github.com/bobs-org/bob-cli/commit/e4ee55bdfe14f6b43ca71d2a3deaace7480b029b) | feat(task-complete): collect pre-close requirement groups and snapshot identity | [bob-cli-on.8.1.1](bob-cli-on.8.1.1.md) | 2026-11-22 08:03:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.8.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -33,7 +33,9 @@ close-engine: build per-owner requirement groups for managed Done closes, the me
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.7][1] | Check what the close-engine phase expects from carry_req (my phase's library entry) | 1 |
+| read-by | [agent:bob-cli-on.8.1.1][2] | Need grandparent epic DECISIONS that this phase must honor | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.1/README.md
 
 <!-- sase:referenced-by:end -->
