@@ -180,7 +180,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-oj.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md) | [bob-cli-oj.6](bob-cli-oj.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-oj.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-oj.8.md) | [bob-cli-oj.8](bob-cli-oj.8.md) | 1 |
-| [bbugyi200.athena.bob-cli-oj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.land/README.md) | [bob-cli-oj](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-oj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.land/README.md) | [bob-cli-oj](README.md) | 2 |
 
 ## Commits
 
@@ -207,6 +207,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@235c7db`](https://github.com/bobs-org/bob-plugins/commit/235c7db27ea06bea003db3822d908e08ce2f2c04) | test(nav): add the real-Obsidian \[N / \]N group-jump walkthrough | [bob-cli-oj.7](bob-cli-oj.7.md) | 2026-11-21 18:51:25 EST |
 | bob-cli | [`016cb00`](https://github.com/bobs-org/bob-cli/commit/016cb00845d6e85c9149744eed25208fffac3b1a) | docs(glossary): record grouped walks and group stops in record-note and walker-footer | [bob-cli-oj.8](bob-cli-oj.8.md) | 2026-11-21 20:10:48 EST |
 | bob-cli | [`f3cf08c`](https://github.com/bobs-org/bob-cli/commit/f3cf08c40139dda1ff9fa9d239cc2374099c7a50) | docs(glossary): regenerate the reference glossary for the grouped-walk strands | [bob-cli-oj](README.md) | 2026-11-21 21:14:08 EST |
+| bob-plugins | [`bob-plugins@ebdce52`](https://github.com/bobs-org/bob-plugins/commit/ebdce52a535cca37b15fd6fe66e8414e0df61c09) | fix(ledger-tools): mount the YAML Done control under the pane header | [bob-cli-oj](README.md) | 2026-11-21 21:14:39 EST |
 
 <!-- sase:referenced-by:start -->
 
