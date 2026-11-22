@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-o6.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md) | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md) | [bob-cli-o6.7](bob-cli-o6.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-o6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.land/README.md) | [bob-cli-o6](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-o6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.land/README.md) | [bob-cli-o6](README.md) | 2 |
 
 ## Commits
 
@@ -174,6 +174,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@7cd986d`](https://github.com/bobs-org/bob-cli--plans/commit/7cd986de0e91d646b1a3217401a97abdaf2feae7) | chore(plans): mark title\_block\_final\_proof done after bob-cli-o6.6.1 landed | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 2026-11-21 15:08:09 EST |
 | bob-cli | [`ff84542`](https://github.com/bobs-org/bob-cli/commit/ff84542431857364408e9f63c6174d48e2d2c7fb) | docs(glossary): describe property cards as the note title block | [bob-cli-o6.7](bob-cli-o6.7.md) | 2026-11-21 17:22:20 EST |
 | bob-cli | [`17eae49`](https://github.com/bobs-org/bob-cli/commit/17eae49cbe153bc155faec9e9a4fbf16ad8d59e1) | docs(records): return the albums-sync JSON paragraph to its sync section | [bob-cli-o6](README.md) | 2026-11-21 19:36:29 EST |
+| bob-cli--plans | [`bob-cli--plans@f04f42f`](https://github.com/bobs-org/bob-cli--plans/commit/f04f42faaf51e543332ad99aad803a5966689f8c) | docs(plans): mark property\_card\_title\_block done | [bob-cli-o6](README.md) | 2026-11-21 19:37:01 EST |
 
 <!-- sase:referenced-by:start -->
 
