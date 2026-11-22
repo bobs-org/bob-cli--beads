@@ -20,7 +20,7 @@ feed_match: find the show's public RSS feed through iTunes Search, parse it safe
 ## Dependencies
 
 - **Depends on:** [bob-cli-os.3](bob-cli-os.3.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-os.9](bob-cli-os.9.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.9](bob-cli-os.9.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

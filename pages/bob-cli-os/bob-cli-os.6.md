@@ -20,7 +20,7 @@ episode_ingest: route Spotify episodes in ingest_url through the shared dossier 
 ## Dependencies
 
 - **Depends on:** [bob-cli-os.5](bob-cli-os.5.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-os.9](bob-cli-os.9.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.9](bob-cli-os.9.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

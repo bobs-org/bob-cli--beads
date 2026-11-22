@@ -22,7 +22,7 @@ transcript_text: parse JSON/VTT/SRT/HTML/text transcripts into sanity-checked, s
 ## Dependencies
 
 - **Depends on:** [bob-cli-os.3](bob-cli-os.3.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-os.9](bob-cli-os.9.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-os.9](bob-cli-os.9.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
