@@ -13,7 +13,7 @@ gestures-contract-and-e2e: document the shipped Obsidian gestures in bob-cli doc
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
