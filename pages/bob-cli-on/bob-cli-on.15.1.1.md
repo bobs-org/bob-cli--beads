@@ -23,13 +23,7 @@ protocol: add typed requirement capability, group, row, consequence, and receipt
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.1/README.md) | [bob-cli-on.15.1.1](bob-cli-on.15.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@bf4b55e`](https://github.com/bobs-org/bob-mac-capture/commit/bf4b55ed01746cd23a18fa065c45a47f6ee721e0) | feat(capture): decode and submit requirement card choices | [bob-cli-on.15.1.1](bob-cli-on.15.1.1.md) | 2026-11-22 15:51:48 EST |
+| [bbugyi200.athena.bob-cli-on.15.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.1/README.md) | [bob-cli-on.15.1.1](bob-cli-on.15.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -38,7 +32,9 @@ protocol: add typed requirement capability, group, row, consequence, and receipt
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.11.1.2][1] | Need to know if the running workspace-11 agent is also deploying cycler or nav before resolving the sync refusal | 1 |
+| read-by | [agent:bob-cli-on.15.1.1][2] | Need the phase scope, design file, and prior work notes before implementation | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.1/README.md
 
 <!-- sase:referenced-by:end -->
