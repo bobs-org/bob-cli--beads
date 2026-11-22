@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-o6
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1eh](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1eh.md) · **Assignee:** `bob-cli-o6.land`
-**Created:** 2026-11-20 11:49:16 EST
+**Created:** 2026-11-20 11:49:16 EST · **Closed:** 2026-11-21 19:34:43 EST
 **Plan:** [202611/property\_card\_title\_block.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_title_block.md)
 
 <!-- sase:links:start -->
@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/property_card_title_block.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-ot][2] | o6.5 made day and period cards mount as the title block; the Done-control return path may have regressed there |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_title_block.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-ot/README.md
@@ -37,6 +37,30 @@ On desktop Obsidian, every album note, record note, canonical daily note, and we
 
 [2026-11-21T15:22:12Z · bob-cli-oj.3.1.land] DISCOVERED ISSUE corroboration from bob-cli-oj.3.1.land: proposing bead bob-cli-oj.3.1.4 note #1 reproduced clean-base docs-check vault-format.md 6016/6000. Current 020ad4e6 independently remains 6016 by bob_docs.markdown.count_words; bb91c370 / o6.3 caused the existing overflow. Added evidence to bob-cli-oc; no new task or work added to grouped-walk child epic.
 
+[2026-11-22T00:34:43Z · bob-cli-o6.land] LANDED by the bob-cli-o6 land agent, 2026-11-21.
+
+VERIFIED (step 1): All 7 phases closed with evidence I re-checked. Title slot GO (o6.1: 3x consecutive real-Obsidian runs, 24 unit tests, primitive 240e). Identity kit shipped (o6.2: 240f-240i, 56-capture preview matrix, contrast >= 4.5:1). Album title: key, H1-less create, and bob albums tidy shipped in bob-cli bb91c370 with no-churn sync test (o6.3). Collection cards (o6.4 via child epic o6.4.1, bob-ledger-tools 1.149.0): album/record cards own the title from the title slot, BANK badge, shared editor species badges; real-Obsidian album 129/130 (known bob-cli-nq), record 180/180. Day/period cards (o6.5, 1.146.0): always-mount title block, rail, ghost, e2e 82/82. Final proof (o6.6 via child epic o6.6.1): walkthrough 65/65 on e6d7aed, preview matrix 77/77 inspected, live bob albums tidy applied (vault commit 3f9861acf863, idempotent) only after athena, apollo, and mac all proved title-first reads, final tree deployed through guarded sync without -F. Glossary (o6.7): memory_glossary_cards=yes applied to exactly the three authorized strands; memory_decision_title_block=no honored (decisions web untouched). Plan acceptance items all hold; I additionally reran the full intention-card e2e myself on 9a15d52 with a fresh debug bob: PASS 82/82 (file:explicit:8290d9715c1214421e92b848), independently confirming the shipped day/period card, ghost, reveal, rail, and byte-neutrality behavior in real Obsidian.
+
+INTEGRATED (step 2): 33 bob-cli commits since bb91c370 reviewed; the oj grouped-walk epic coordinated with o6 live and builds on the album title readers; ref/task/bank/capture commits are unrelated. bob-plugins commits after e6d7aed reviewed; fc754fa deliberately reversed the schema fold-to-one-line default (album schema starts expanded again) with tests/docs updated - deliberate post-epic drift, not a conflict, left standing. Epic-caused docs damage repaired in-landing: bb91c370 had stranded the albums-sync JSON paragraph at the end of the records-tidy section of docs/records.md (o6.3 note #4); moved it back under 'Syncing records indexes'. just check exit 0; bob-docs lint shows only the pre-existing plugin-apis.md budget warning (bob-cli-ob) and links pass.
+
+RELATED-LINK bob-cli-ot SETTLED: the 'Done-control return path may have regressed in o6.5' suspicion is cleared by experiment, not inference. Same debug bob and harness: intention-card e2e passes 82/82 at bob-plugins 9a15d52 (= 7b44b29~1, contains every o6 commit in the regression window) and yaml-done-returns fails at 7b44b29 (bob-cli-oj.6, links-walker-footer group arms). Reports attached to bob-cli-ot (file:explicit:8290d9715c1214421e92b848, file:explicit:a9a0d0dd3ca2361e423565a4); DISCOVERED ISSUE routed to active epic bob-cli-oj.
+
+FOLLOW-UP TRIAGE (step 3), every phase proposal dispositioned:
+- o6.1 #2 event-link-times 25ms flakes -> +1 on bob-cli-km; nav-deps stage-performance -> +1 on bob-cli-m1.
+- o6.1 #3 ledger-tools failing-bob invocation storm (755 calls/102s) -> new bob-cli-p2 (bug, medium).
+- o6.2 #2 sheet-sequence-dom 30s load timeout -> new bob-cli-p0 (flake, small; bob-cli-f1 is a different closed defect).
+- o6.3 #2 records tidy member about omits H1 removal -> new bob-cli-p3 (bug, small; pre-existing from bob-cli-ms).
+- o6.3 #3 mixed-version album titles -> DECLINED as resolved: o6.6.1 verified all three hosts ran title-first bob before the live apply, which was the proposed remediation.
+- o6.3 #4 misplaced records.md paragraph -> fixed in this landing (epic-caused), no task.
+- o6.3 #5 BOM album discovery -> new bob-cli-p4 (bug, small; precedent bob-cli-kf.4).
+- o6.5 #1 -> bob-cli-o3 closed as superseded by day-period-cards (ghost verified in o6.5 e2e, o6.6.1 walkthrough, and this landing's rerun).
+- o6.5 #2 command-mode-runner budgets flake -> new bob-cli-p1 (flake, small, related-linked to bob-cli-d9).
+- o6.7 #1 nav-hotkeys docs budget and memory link warnings -> already tracked (bob-cli-ob, bob-cli-ga), no action.
+- Epic notes #1-#4 (vault-format 6016/6000 caused by o6.3) -> repaired in-epic by cb9f8fad; bob-cli-oc verified at 5978/6000 on master 6b9139a6 and closed.
+- o6.6's own triage was completed by the o6.6.1 land agent (bob-cli-or created; +1 on io/km/il; DISCOVERED ISSUE on bob-cli-on/oo; bob-cli-oq closed) - confirmed, nothing re-done.
+
+epic-symbols: none. No parent_bead.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -53,7 +77,7 @@ On desktop Obsidian, every album note, record note, canonical daily note, and we
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-o6: Property cards become the note title block: one title, a clear species, and a docked rail on album, record, day, and period notes [in_progress]"]
+    n0["bob-cli-o6: Property cards become the note title block: one title, a clear species, and a docked rail on album, record, day, and period notes [closed]"]
     n1["bob-cli-o6.1: Title-slot spike and kit mount primitive (go/no-go) [closed]"]
     n2["bob-cli-o6.2: Identity kit: species tile, kicker, title row, rail, tokens, and title ownership [closed]"]
     n3["bob-cli-o6.3: Album `title:` key, H1-less album create, and `bob albums tidy` [closed]"]
@@ -127,7 +151,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-o6.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md) | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-o6.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md) | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-o6.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md) | [bob-cli-o6.7](bob-cli-o6.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-o6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.land/README.md) | [bob-cli-o6](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-o6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.land/README.md) | [bob-cli-o6](README.md) | 1 |
 
 ## Commits
 
@@ -149,6 +173,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@238fa91`](https://github.com/bobs-org/bob-plugins/commit/238fa91d45fbedf437c69b24eff13f040479dc32) | fix(ledger-tools): retry the title slot after the pane leaves a failed note | [bob-cli-o6.6.1.5](bob-cli-o6.6.1.5.md) | 2026-11-21 14:11:46 EST |
 | bob-cli--plans | [`bob-cli--plans@7cd986d`](https://github.com/bobs-org/bob-cli--plans/commit/7cd986de0e91d646b1a3217401a97abdaf2feae7) | chore(plans): mark title\_block\_final\_proof done after bob-cli-o6.6.1 landed | [bob-cli-o6.6.1](bob-cli-o6.6.1.md) | 2026-11-21 15:08:09 EST |
 | bob-cli | [`ff84542`](https://github.com/bobs-org/bob-cli/commit/ff84542431857364408e9f63c6174d48e2d2c7fb) | docs(glossary): describe property cards as the note title block | [bob-cli-o6.7](bob-cli-o6.7.md) | 2026-11-21 17:22:20 EST |
+| bob-cli | [`17eae49`](https://github.com/bobs-org/bob-cli/commit/17eae49cbe153bc155faec9e9a4fbf16ad8d59e1) | docs(records): return the albums-sync JSON paragraph to its sync section | [bob-cli-o6](README.md) | 2026-11-21 19:36:29 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -157,21 +182,23 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.1][1] | Need parent DECISIONS, notes, and whether earlier title-walkthrough work already landed | 1 |
-| read-by | [agent:bob-cli-oj.2][2] | Precondition: calendar-groups must not edit fragments an open o6 phase is changing | 2 |
-| read-by | [agent:bob-cli-oj.3.1.1][3] | Check the title-block prerequisite and overlap | 1 |
-| read-by | [agent:bob-cli-oj.5.1.1][4] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
-| read-by | [agent:bob-cli-oj.5.1.2][5] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
-| read-by | [agent:bob-cli-oj.5.1.3][6] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
-| read-by | [agent:bob-cli-oj.5.1.4][7] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
-| read-by | [agent:bob-cli-oj.6][8] | Precondition: confirm title-block epic is closed before editing links footer fragments | 2 |
+| read-by | [agent:bob-cli-o6.7][2] | Need epic context and notes for glossary phase | 1 |
+| read-by | [agent:bob-cli-oj.2][3] | Precondition: calendar-groups must not edit fragments an open o6 phase is changing | 2 |
+| read-by | [agent:bob-cli-oj.3.1.1][4] | Check the title-block prerequisite and overlap | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][5] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][6] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][7] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.4][8] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.6][9] | Precondition: confirm title-block epic is closed before editing links footer fragments | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.3.1.1/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->

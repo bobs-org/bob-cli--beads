@@ -37,19 +37,21 @@ obsidian-proof: add and run a real-Obsidian title-block walkthrough on athena (o
 | read-by | [agent:bob-cli-o6.6.1.1][1] | Need parent DECISIONS, notes, and whether earlier title-walkthrough work already landed | 1 |
 | read-by | [agent:bob-cli-o6.6.1.3][2] | Need parent epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-o6.6.1.land][3] | Verify the delegated phase scope is covered by the closed child epic | 1 |
-| read-by | [agent:bob-cli-oj.5.1.1][4] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
-| read-by | [agent:bob-cli-oj.5.1.2][5] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
-| read-by | [agent:bob-cli-oj.5.1.3][6] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
-| read-by | [agent:bob-cli-oj.5.1.4][7] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
-| read-by | [agent:bob-cli-oj.6][8] | Need o6.6 description to confirm it does not edit footer fragments 120/121/124 | 3 |
+| read-by | [agent:bob-cli-o6.7][4] | Check final proof notes for shipped-behavior deviations before writing glossary strands | 1 |
+| read-by | [agent:bob-cli-oj.5.1.1][5] | Check open o6 phases for fragment coordination before editing 240g/styles.css | 1 |
+| read-by | [agent:bob-cli-oj.5.1.2][6] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.3][7] | bob-cli-o6 precondition: check open phases editing fragments I will touch | 1 |
+| read-by | [agent:bob-cli-oj.5.1.4][8] | Coordination precondition: which o6 phases are open and which fragments they touch | 1 |
+| read-by | [agent:bob-cli-oj.6][9] | Need o6.6 description to confirm it does not edit footer fragments 120/121/124 | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.2/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.3/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.4/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.6/README.md
 
 <!-- sase:referenced-by:end -->
