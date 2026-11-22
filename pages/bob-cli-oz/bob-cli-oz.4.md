@@ -13,7 +13,7 @@ prompt-subjects: wire subjects for S1–S11 (S12 none) and audit picker-host key
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oz.3](bob-cli-oz.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oz.3](bob-cli-oz.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oz.7](bob-cli-oz.7.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

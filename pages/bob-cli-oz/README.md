@@ -28,11 +28,11 @@ Typing (( in every Bob prose prompt that already completes [[ (S1–S16) opens t
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-oz.1](bob-cli-oz.1.md) | bob capture-complete --task-links: (( in plain prose, with shared prose vectors | ✓ closed | small | 2026-11-21 | 1 | 1 |
-| [bob-cli-oz.2](bob-cli-oz.2.md) | block-id-prompt api.taskLinks v1: prose detector, ranked session, and safe ID naming | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
-| [bob-cli-oz.3](bob-cli-oz.3.md) | proseField v2: the tasks mode of the LINK band, the NAME stage, and the real-Obsidian spike | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-oz.2](bob-cli-oz.2.md) | block-id-prompt api.taskLinks v1: prose detector, ranked session, and safe ID naming | ✓ closed | medium | 2026-11-21 | 1 | 1 |
+| [bob-cli-oz.3](bob-cli-oz.3.md) | proseField v2: the tasks mode of the LINK band, the NAME stage, and the real-Obsidian spike | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-oz.4](bob-cli-oz.4.md) | Task-bearing prompts S1–S12: subject guards, host safety, prose lint | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-oz.5](bob-cli-oz.5.md) | Intention Card, Record Card, and Task from email (S13–S15) | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
-| [bob-cli-oz.6](bob-cli-oz.6.md) | Mac Pull-In reason: the tasks mode and NAME stage, plus Return never confirms while the band is open | ✓ closed | medium | 2026-11-21 | 1 | 1 |
+| [bob-cli-oz.6](bob-cli-oz.6.md) | Mac Pull-In reason: the tasks mode and NAME stage, plus Return never confirms while the band is open | ✓ closed | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-oz.7](bob-cli-oz.7.md) | Real-Obsidian walkthrough, mention round-trip, and screenshots | ◐ in_progress | small | 2026-11-21 | 1 | 0 |
 
 ## Lineage
@@ -41,8 +41,8 @@ Typing (( in every Bob prose prompt that already completes [[ (S1–S16) opens t
 flowchart TD
     n0["bob-cli-oz: (( task links in Bob's prose prompts [in_progress]"]
     n1["bob-cli-oz.1: bob capture-complete --task-links: (( in plain prose, with shared prose vectors [closed]"]
-    n2["bob-cli-oz.2: block-id-prompt api.taskLinks v1: prose detector, ranked session, and safe ID naming [in_progress]"]
-    n3["bob-cli-oz.3: proseField v2: the tasks mode of the LINK band, the NAME stage, and the real-Obsidian spike [in_progress]"]
+    n2["bob-cli-oz.2: block-id-prompt api.taskLinks v1: prose detector, ranked session, and safe ID naming [closed]"]
+    n3["bob-cli-oz.3: proseField v2: the tasks mode of the LINK band, the NAME stage, and the real-Obsidian spike [closed]"]
     n4["bob-cli-oz.4: Task-bearing prompts S1–S12: subject guards, host safety, prose lint [in_progress]"]
     n5["bob-cli-oz.5: Intention Card, Record Card, and Task from email (S13–S15) [in_progress]"]
     n6["bob-cli-oz.6: Mac Pull-In reason: the tasks mode and NAME stage, plus Return never confirms while the band is open [closed]"]
@@ -68,11 +68,11 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-oz.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.1/README.md) | [bob-cli-oz.1](bob-cli-oz.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-oz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oz.2.md) | [bob-cli-oz.2](bob-cli-oz.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-oz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.3/README.md) | [bob-cli-oz.3](bob-cli-oz.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oz.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oz.2.md) | [bob-cli-oz.2](bob-cli-oz.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oz.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.3/README.md) | [bob-cli-oz.3](bob-cli-oz.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-oz.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.4/README.md) | [bob-cli-oz.4](bob-cli-oz.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oz.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.5/README.md) | [bob-cli-oz.5](bob-cli-oz.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-oz.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.6/README.md) | [bob-cli-oz.6](bob-cli-oz.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-oz.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.6/README.md) | [bob-cli-oz.6](bob-cli-oz.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oz.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.7/README.md) | [bob-cli-oz.7](bob-cli-oz.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-oz.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.land/README.md) | [bob-cli-oz](README.md) | 0 |
 
@@ -81,4 +81,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`145b00d`](https://github.com/bobs-org/bob-cli/commit/145b00d50e56a47c2a288a9405d044956b2e0ced) | feat(capture): complete (( task links in plain prose with capture-complete -L -T | [bob-cli-oz.1](bob-cli-oz.1.md) | 2026-11-21 23:26:26 EST |
-| bob-mac-capture | [`bob-mac-capture@355cfd9`](https://github.com/bobs-org/bob-mac-capture/commit/355cfd99e85fbd34ff45e418aeaf7d85ed9121e2) | feat(capture): complete (( task links in the Pull-In reason LINK band | [bob-cli-oz.6](bob-cli-oz.6.md) | 2026-11-22 00:20:04 EST |
+| bob-plugins | [`bob-plugins@a346fd2`](https://github.com/bobs-org/bob-plugins/commit/a346fd2f3bfbae27296535fb3075c3b15b4812f3) | feat(block-id-prompt): add task links API | [bob-cli-oz.2](bob-cli-oz.2.md) | 2026-11-22 00:02:06 EST |
+| bob-plugins | [`bob-plugins@6a2f6ce`](https://github.com/bobs-org/bob-plugins/commit/6a2f6ce5c8eb38f2f8c4265f00d9322c058341b6) | feat(nav): add tasks mode to proseField LINK band with in-band NAME stage | [bob-cli-oz.3](bob-cli-oz.3.md) | 2026-11-22 00:44:26 EST |

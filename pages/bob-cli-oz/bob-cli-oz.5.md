@@ -13,7 +13,7 @@ card-surfaces: make (( and NAME survive the Intention Card repaints and key ladd
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-oz.3](bob-cli-oz.3.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-oz.3](bob-cli-oz.3.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-oz.7](bob-cli-oz.7.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
