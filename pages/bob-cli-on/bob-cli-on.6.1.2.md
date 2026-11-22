@@ -27,7 +27,7 @@ req-positions: add the pure req-position resolver shared by bob capture and capt
 
 - **Depends on:** [bob-cli-on.6.1.1](bob-cli-on.6.1.1.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
