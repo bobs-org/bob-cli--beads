@@ -13,7 +13,7 @@ req-rewrite: add expand_req_marker to capture-rewrite with resolver-driven eligi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

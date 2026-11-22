@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_requirements.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md
 
@@ -49,7 +49,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bob-cli-on.6](bob-cli-on.6.md) | Capture grammar, spans, typing rewrite, and NOTES routing for requirements | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.7](bob-cli-on.7.md) | Carry a requirement branch into its own task | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-on.8](bob-cli-on.8.md) | Requirements on the capture successor card | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
-| [bob-cli-on.9](bob-cli-on.9.md) | Render requirements in Obsidian | ✓ closed | medium | 2026-11-21 | 1 | 2 |
+| [bob-cli-on.9](bob-cli-on.9.md) | Render requirements in Obsidian | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 
 ## Lineage
 
@@ -79,7 +79,7 @@ flowchart TD
     n21["bob-cli-on.6: Capture grammar, spans, typing rewrite, and NOTES routing for requirements [in_progress]"]
     n22["bob-cli-on.6.1: Requirement bullets in capture (grammar 29) [in_progress]"]
     n23["bob-cli-on.6.1.1: Numeric authored depth with today's behavior kept [closed]"]
-    n24["bob-cli-on.6.1.2: Shared requirement position resolver, refusals, req_marker span, grammar 29 [in_progress]"]
+    n24["bob-cli-on.6.1.2: Shared requirement position resolver, refusals, req_marker span, grammar 29 [closed]"]
     n25["bob-cli-on.6.1.3: Requirements in the blocks capture creates [in_progress]"]
     n26["bob-cli-on.6.1.4: Requirements added to existing tasks, the scoop, and req_link [in_progress]"]
     n27["bob-cli-on.6.1.5: The expand_req_marker typing rewrite [in_progress]"]
@@ -159,8 +159,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.1/README.md) | [bob-cli-on.1](bob-cli-on.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.md) | [bob-cli-on.10](bob-cli-on.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md) | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.3/README.md) | [bob-cli-on.10.1.3](bob-cli-on.10.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 0 |
@@ -179,14 +179,14 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.5/README.md) | [bob-cli-on.5](bob-cli-on.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.md) | [bob-cli-on.6](bob-cli-on.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.1/README.md) | [bob-cli-on.6.1.1](bob-cli-on.6.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.2/README.md) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.3/README.md) | [bob-cli-on.6.1.3](bob-cli-on.6.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.4/README.md) | [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.5/README.md) | [bob-cli-on.6.1.5](bob-cli-on.6.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.6.1.land/README.md) | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md) | [bob-cli-on.7](bob-cli-on.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8/README.md) | [bob-cli-on.8](bob-cli-on.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.9.md) | [bob-cli-on.9](bob-cli-on.9.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.land/README.md) | [bob-cli-on](README.md) | 0 |
 
 ## Commits
@@ -196,14 +196,12 @@ flowchart TD
 | bob-cli | [`a096143`](https://github.com/bobs-org/bob-cli/commit/a0961435506e4810841527ecd0b81505cb6d0632) | feat(task-reqs): add req forest recognizer contract | [bob-cli-on.1](bob-cli-on.1.md) | 2026-11-21 12:16:31 EST |
 | bob-cli | [`ca07094`](https://github.com/bobs-org/bob-cli/commit/ca070941c05b42840a40d87f0e4f6a6e0aab6090) | feat(task-reqs): add task block layout and req line writers | [bob-cli-on.3](bob-cli-on.3.md) | 2026-11-21 13:32:20 EST |
 | bob-cli | [`250c305`](https://github.com/bobs-org/bob-cli/commit/250c3053d652d1d6b48299557fc8272a809bab88) | docs(tasks): document requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:37:40 EST |
-| bob-plugins | [`bob-plugins@fb30f8d`](https://github.com/bobs-org/bob-plugins/commit/fb30f8de424ca02ec54e3161f09b50ef460a70ad) | feat(ledger-tools): add requirement marks | [bob-cli-on.9](bob-cli-on.9.md) | 2026-11-21 13:38:10 EST |
 | bob-cli | [`532df82`](https://github.com/bobs-org/bob-cli/commit/532df8259187f65b6f66864669eb80b133fcb35e) | feat(task-reqs): keep readers and writers off requirement lines | [bob-cli-on.2](bob-cli-on.2.md) | 2026-11-21 13:50:46 EST |
 | bob-cli | [`f888213`](https://github.com/bobs-org/bob-cli/commit/f888213a22650dd6e33b38e9f77e7a65ca8e24e6) | feat(task): add bob task tidy to repair open task blocks | [bob-cli-on.4](bob-cli-on.4.md) | 2026-11-21 14:12:31 EST |
 | bob-cli | [`2239120`](https://github.com/bobs-org/bob-cli/commit/2239120810ed5867eefc66a468cee04972aa6b45) | feat(task-split)!: carry a requirement branch into its own task | [bob-cli-on.7](bob-cli-on.7.md) | 2026-11-21 14:25:11 EST |
-| bob-plugins | [`bob-plugins@f292fff`](https://github.com/bobs-org/bob-plugins/commit/f292fffaf6f0db2e87d0d9bc9fa63b67d3870997) | feat(task-status-cycler): add task requirement and block layout twins | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 2026-11-21 15:08:09 EST |
 | bob-cli | [`1d89d95`](https://github.com/bobs-org/bob-cli/commit/1d89d95f3b2288601111965abad896eff5fd0195) | refactor(capture): make authored bullet depth a numeric level | [bob-cli-on.6.1.1](bob-cli-on.6.1.1.md) | 2026-11-21 15:12:33 EST |
 | bob-cli | [`d8fae3e`](https://github.com/bobs-org/bob-cli/commit/d8fae3e5c734404864da0376818953733743ce56) | feat(task): add bob task rename-drawer to rename and merge drawers vault-wide | [bob-cli-on.5](bob-cli-on.5.md) | 2026-11-21 15:33:08 EST |
-| bob-plugins | [`bob-plugins@e5cb895`](https://github.com/bobs-org/bob-plugins/commit/e5cb8954e354265607bb1551b518a5cce1a4800d) | feat(task-status-cycler): add the requirement writer twin, copy the twins into nav and Block ID Prompt, and keep reqs out of the offer-close scope | [bob-cli-on.10.1.2](bob-cli-on.10.1.2.md) | 2026-11-21 17:51:13 EST |
+| bob-cli | [`7cc9493`](https://github.com/bobs-org/bob-cli/commit/7cc94933c2b3922e9a4c6eb80c9fc8415ce09311) | feat(capture)!: admit requirement bullets with req\_marker spans (grammar 29) | [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) | 2026-11-21 19:06:20 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -213,10 +211,12 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-o6.6.1.5][1] | Look for existing DISCOVERED ISSUE notes about plugin fixture drift | 2 |
 | read-by | [agent:bob-cli-o6.6.1.land][2] | Check active epic notes for already-recorded docs gate issues before routing landing follow-ups | 1 |
-| read-by | [agent:bob-cli-on.7][3] | Check epic notes and sibling phase status for req-split | 1 |
+| read-by | [agent:bob-cli-oj.7][3] | Check whether the test_contracts.py walks.md failure is already tracked so I cite it instead of re-proposing | 1 |
+| read-by | [agent:bob-cli-on.7][4] | Check epic notes and sibling phase status for req-split | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-o6.6.1.land/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
 
 <!-- sase:referenced-by:end -->

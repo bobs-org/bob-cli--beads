@@ -27,13 +27,7 @@ req-read-twin: port bob-cli's task_reqs recognizer (RQ) and task_block_layout zo
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@f292fff`](https://github.com/bobs-org/bob-plugins/commit/f292fffaf6f0db2e87d0d9bc9fa63b67d3870997) | feat(task-status-cycler): add task requirement and block layout twins | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 2026-11-21 15:08:09 EST |
+| [bbugyi200.athena.bob-cli-on.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md) | [bob-cli-on.10.1.1](bob-cli-on.10.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -42,7 +36,9 @@ req-read-twin: port bob-cli's task_reqs recognizer (RQ) and task_block_layout zo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.10.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-on.10.1.2][2] | Check what the read-twin phase landed and its notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.2/README.md
 
 <!-- sase:referenced-by:end -->

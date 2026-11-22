@@ -19,7 +19,7 @@ depth-model: turn AuthoredDepth into a numeric level, teach the authored-line cl
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

@@ -13,7 +13,7 @@ new-block-writes: render new tasks, list tasks, Pomodoro-created tasks, and proj
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.6.1.2](bob-cli-on.6.1.2.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.6.1.4](bob-cli-on.6.1.4.md) ◐ · ⧖ 2026-11-21
 
 ## Agents
