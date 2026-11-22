@@ -43,13 +43,19 @@ adopt-and-prove: verify every host runs plugins and a bob that support grouped w
 
 - **Depends on:** [bob-cli-oj.5](bob-cli-oj.5.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-oj.6](bob-cli-oj.6.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oj.8](bob-cli-oj.8.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oj.8](bob-cli-oj.8.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.7/README.md) | [bob-cli-oj.7](bob-cli-oj.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@235c7db`](https://github.com/bobs-org/bob-plugins/commit/235c7db27ea06bea003db3822d908e08ce2f2c04) | test(nav): add the real-Obsidian \[N / \]N group-jump walkthrough | [bob-cli-oj.7](bob-cli-oj.7.md) | 2026-11-21 18:51:25 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -28,7 +28,13 @@ row-kit: add propertyCardBuildGroupRow (new 240l fragment, exported through a ne
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-oj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md) | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-oj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-oj.5.1.1/README.md) | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c4953d3`](https://github.com/bobs-org/bob-plugins/commit/c4953d3d47b82dd5d615e9990d9471b3c4c49773) | feat(ledger-tools): add the property-card group row and missing-target states | [bob-cli-oj.5.1.1](bob-cli-oj.5.1.1.md) | 2026-11-21 12:48:44 EST |
 
 <!-- sase:referenced-by:start -->
 
