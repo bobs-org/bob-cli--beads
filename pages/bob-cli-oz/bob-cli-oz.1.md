@@ -20,7 +20,7 @@ cli-task-links: add a prose (( detector without capture-grammar checks, the -T/-
 ## Dependencies
 
 - **Blocks:** [bob-cli-oz.2](bob-cli-oz.2.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-oz.6](bob-cli-oz.6.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-oz.6](bob-cli-oz.6.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
