@@ -13,7 +13,7 @@ capture: connect the requirement pipeline to every managed capture Done entry, a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-on.8.1.6](bob-cli-on.8.1.6.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

@@ -18,7 +18,7 @@ writes: adapt carry_req and drop_req to guarded staged capture snapshots, compos
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.8.1.2](bob-cli-on.8.1.2.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.8.1.4](bob-cli-on.8.1.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -31,3 +31,15 @@ writes: adapt carry_req and drop_req to guarded staged capture snapshots, compos
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d5e31ab`](https://github.com/bobs-org/bob-cli/commit/d5e31abcbbb19c2ca3fc14947ee03e3b9a0369fe) | feat(task-complete): add atomic carry/drop req write planning | [bob-cli-on.8.1.3](bob-cli-on.8.1.3.md) | 2026-11-22 09:35:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.8.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.3/README.md
+
+<!-- sase:referenced-by:end -->
