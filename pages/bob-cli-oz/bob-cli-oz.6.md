@@ -25,7 +25,13 @@ mac-pull-in-tasks: request -T in the Pull-In LINK band and render wikilink_task 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-oz.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.6/README.md) | [bob-cli-oz.6](bob-cli-oz.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-oz.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.6/README.md) | [bob-cli-oz.6](bob-cli-oz.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@355cfd9`](https://github.com/bobs-org/bob-mac-capture/commit/355cfd99e85fbd34ff45e418aeaf7d85ed9121e2) | feat(capture): complete (( task links in the Pull-In reason LINK band | [bob-cli-oz.6](bob-cli-oz.6.md) | 2026-11-22 00:20:04 EST |
 
 <!-- sase:referenced-by:start -->
 

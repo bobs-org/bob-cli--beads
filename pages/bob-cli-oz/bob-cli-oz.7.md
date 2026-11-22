@@ -28,6 +28,8 @@
 | related | file:explicit:91ce67a9355c06b31efbdc6e | attached via sase artifact create --bead |
 | related | file:explicit:b5fb7adf6e4dcb6e7ffff437 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -68,3 +70,15 @@ Prior close: 2026-11-22T12:30:33Z · done.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@12da82a`](https://github.com/bobs-org/bob-plugins/commit/12da82af7b3a9eedc7567f962fe55b845f0e466e) | feat(nav): add real-Obsidian (( walkthrough and peel one prose layer per Escape | [bob-cli-oz.7](bob-cli-oz.7.md) | 2026-11-22 08:09:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-oz.7][1] | Check whether earlier work for this closed bead landed | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-oz.7/README.md
+
+<!-- sase:referenced-by:end -->
