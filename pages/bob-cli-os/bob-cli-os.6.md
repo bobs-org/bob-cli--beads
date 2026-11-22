@@ -33,3 +33,15 @@ episode_ingest: route Spotify episodes in ingest_url through the shared dossier 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`005f4c2`](https://github.com/bobs-org/bob-cli/commit/005f4c2b6e4e89319698d6080dfd71089ec9978d) | feat(ref): ingest Spotify episodes from capture jobs and Keep through the podcast route | [bob-cli-os.6](bob-cli-os.6.md) | 2026-11-22 00:53:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-os.6][1] | Need the phase scope, design file, notes, and DECISIONS before finishing remaining tests | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.6/README.md
+
+<!-- sase:referenced-by:end -->

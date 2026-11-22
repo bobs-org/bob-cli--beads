@@ -42,7 +42,9 @@ spotify_identity: add the spotify.rs link grammar with canonical case-preserving
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-os.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-oz.5][2] | Identify the protected ledger bundle work before deciding on replacement | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-oz.5.md
 
 <!-- sase:referenced-by:end -->

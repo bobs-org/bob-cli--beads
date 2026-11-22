@@ -44,7 +44,7 @@ Every Spotify episode link given to `bob ref create`, capture, or Keep becomes o
 | [bob-cli-os.6](bob-cli-os.6.md) | Capture jobs and Keep file episodes through the same route | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.7](bob-cli-os.7.md) | Publisher feed discovery and proven item match | ✓ closed | medium | 2026-11-21 | 1 | 1 |
 | [bob-cli-os.8](bob-cli-os.8.md) | Publisher transcript parsing and paragraphing | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-os.9](bob-cli-os.9.md) | Feed enrichment in the dossier and both routes | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
+| [bob-cli-os.9](bob-cli-os.9.md) | Feed enrichment in the dossier and both routes | ◐ in_progress | medium | 2026-11-21 | 1 | 1 |
 
 ## Lineage
 
@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-os.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.6/README.md) | [bob-cli-os.6](bob-cli-os.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.7/README.md) | [bob-cli-os.7](bob-cli-os.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.8/README.md) | [bob-cli-os.8](bob-cli-os.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-os.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.9/README.md) | [bob-cli-os.9](bob-cli-os.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-os.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-os.9.md) | [bob-cli-os.9](bob-cli-os.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-os.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-os.land/README.md) | [bob-cli-os](README.md) | 0 |
 
 ## Commits
@@ -112,6 +112,7 @@ flowchart TD
 | bob-cli | [`dbedc65`](https://github.com/bobs-org/bob-cli/commit/dbedc651f9027e8de7e48b0a58f0182e2c69b978) | feat(ref): parse publisher podcast transcripts into speaker paragraphs | [bob-cli-os.8](bob-cli-os.8.md) | 2026-11-21 23:10:10 EST |
 | bob-cli | [`900772d`](https://github.com/bobs-org/bob-cli/commit/900772d9f9c9ba8746d93a116edf3970009056dd) | feat(ref): file Spotify episodes as podcasts references through the episode dossier route | [bob-cli-os.5](bob-cli-os.5.md) | 2026-11-21 23:43:55 EST |
 | bob-cli | [`005f4c2`](https://github.com/bobs-org/bob-cli/commit/005f4c2b6e4e89319698d6080dfd71089ec9978d) | feat(ref): ingest Spotify episodes from capture jobs and Keep through the podcast route | [bob-cli-os.6](bob-cli-os.6.md) | 2026-11-22 00:53:30 EST |
+| bob-cli | [`2f4fef6`](https://github.com/bobs-org/bob-cli/commit/2f4fef6dad5b749e944f3cf25fe31ceba351be42) | feat(ref): attach publisher feed notes and transcripts to episode dossiers | [bob-cli-os.9](bob-cli-os.9.md) | 2026-11-22 02:30:59 EST |
 
 <!-- sase:referenced-by:start -->
 
