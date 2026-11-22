@@ -18,13 +18,19 @@ outcomes: extend the portable Pull-In outcomes and the choice model with typed r
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.15.1.1](bob-cli-on.15.1.1.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.2/README.md) | [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.15.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.2/README.md) | [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@bab5e5c`](https://github.com/bobs-org/bob-mac-capture/commit/bab5e5cc1074950a7b20b49914afe66104e114f6) | feat(capture): stage requirement verdicts and preserve branch identity | [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) | 2026-11-22 16:09:21 EST |
 
 <!-- sase:referenced-by:start -->
 

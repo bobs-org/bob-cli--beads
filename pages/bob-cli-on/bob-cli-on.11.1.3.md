@@ -11,6 +11,10 @@
 
 picker_v6: add requirement groups, contextual keys and reasons, branch folds, navigation-only pins, and reqs results to the navigation successor picker v6.
 
+## Notes
+
+[2026-11-22T21:54:14Z · bob-cli-on.11.1.3--2] PROPOSED FOLLOW-UP: full-suite npm test unit flake in scripts/test-ledger-tools-event-link-times.cjs (not ok 2080, 25 ms wall-clock) and scripts/test-ledger-tools-frees-marks.cjs (not ok 2089, synthetic build 37 ms / budget 25 ms) under suite load on monitors hw3pan53kfay and 9c2ds6n5ngb3; files and ledger-tools sources are unchanged from parent 1e38521; isolated rerun 40/40 (event-link 4.0 ms, frees-marks 19 ms); already tracked by bob-cli-km and bob-cli-io
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) ✓ · ⧖ 2026-11-22
@@ -26,4 +30,16 @@ picker_v6: add requirement groups, contextual keys and reasons, branch folds, na
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@289c7f6`](https://github.com/bobs-org/bob-plugins/commit/289c7f6108a4055b29962f52502e452962b0f27e) | feat(navigation): add requirement verdict picker | [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) | 2026-11-22 16:31:34 EST |
+| bob-cli | [`513ec47`](https://github.com/bobs-org/bob-cli/commit/513ec47889893245cd0aacf7f67895efcc253817) | docs(task-dependencies): mark picker v6 requirement consumer | [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) | 2026-11-22 16:04:56 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.11.1.4][1] | Need picker_v6 close status before retrying cycler sync | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md
+
+<!-- sase:referenced-by:end -->

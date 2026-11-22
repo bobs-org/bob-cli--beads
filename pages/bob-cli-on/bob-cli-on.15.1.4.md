@@ -13,7 +13,7 @@ card_ui: render requirement sections first with bob-authored copy, depth glyphs,
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

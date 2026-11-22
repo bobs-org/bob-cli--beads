@@ -26,13 +26,7 @@ req_model: add pure requirement group, identity, choice, fold, and stale-validat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md) | [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@4d4c73c`](https://github.com/bobs-org/bob-plugins/commit/4d4c73c2f03a1906bcd4626f5e0158adc5f1d509) | feat(task-status-cycler): add requirement close snapshot and verdict twins | [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) | 2026-11-22 15:24:27 EST |
+| [bbugyi200.athena.bob-cli-on.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md) | [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -41,7 +35,9 @@ req_model: add pure requirement group, identity, choice, fold, and stale-validat
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.11.1.2][1] | Need the phase scope, notes, and design file before continuing remaining verify work | 5 |
+| read-by | [agent:bob-cli-on.11.1.4][2] | Need req_model completion note and helper contract | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -25,13 +25,7 @@ carry_api: extend the Task Split twin through SP50, publish taskSplit v1, and ro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.1/README.md) | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@1e38521`](https://github.com/bobs-org/bob-plugins/commit/1e3852184dc6c1b780d6e9729071c5ba448171e5) | feat(task-split): add req-carry planner, guarded persistence and carry API | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 2026-11-22 15:41:57 EST |
+| [bbugyi200.athena.bob-cli-on.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.1/README.md) | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -41,8 +35,10 @@ carry_api: extend the Task Split twin through SP50, publish taskSplit v1, and ro
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.11.1.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-on.11.1.2][2] | Need sibling phase scope to see if it also deploys cycler/nav and should wait | 1 |
+| read-by | [agent:bob-cli-on.11.1.4][3] | Need carry_api completion note and public API contract | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md
 
 <!-- sase:referenced-by:end -->
