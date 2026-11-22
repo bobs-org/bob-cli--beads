@@ -24,13 +24,7 @@ mac-nesting: generalize Tab/Shift-Tab, Ctrl-J continuation, paste placeholders, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.14/README.md) | [bob-cli-on.14](bob-cli-on.14.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@8562f81`](https://github.com/bobs-org/bob-mac-capture/commit/8562f811bb0d28c74fede42a78ca85e546cc60df) | feat(capture): indent continuation bullets at any even depth | [bob-cli-on.14](bob-cli-on.14.md) | 2026-11-22 08:59:06 EST |
+| [bbugyi200.athena.bob-cli-on.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.14/README.md) | [bob-cli-on.14](bob-cli-on.14.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -38,8 +32,10 @@ mac-nesting: generalize Tab/Shift-Tab, Ctrl-J continuation, paste placeholders, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-on.6.1.land][1] | Check whether the Mac nesting phase covers sub_bullet_depths protocol docs | 1 |
+| read-by | [agent:bob-cli-on.14][1] | Need full description including notes and remaining work after truncated first read | 2 |
+| read-by | [agent:bob-cli-on.6.1.land][2] | Check whether the Mac nesting phase covers sub_bullet_depths protocol docs | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.1.land.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.14/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.6.1.land.md
 
 <!-- sase:referenced-by:end -->
