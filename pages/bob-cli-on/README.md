@@ -33,12 +33,14 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 
 [2026-11-22T02:51:05Z · bob-cli-on.6.1.land] DISCOVERED ISSUE (from bob-cli-on.6.1.2 PROPOSED FOLLOW-UP #1, re-verified by the bob-cli-on.6.1 land agent): capture grammar 29 (7cc94933) lets sub_bullet_depths exceed 2 beneath requirements, but the bob-mac-capture-owned mounted docs still say otherwise: docs/capture-previews.md:165 reads 'sub_bullet_depths (1 or 2)' and docs/protocol.md:382 describes depth handling for 'sub_bullet_depths' without the deeper levels. These files live in bob-mac-capture (gitignored mount in bob-cli), so the edit belongs with the Mac phases: bob-cli-on.14 (mac-nesting, which generalizes the Mac to any authored depth) should update that wording, and bob-cli-on.13 (mac-authoring) already owns docs/protocol.md for req_marker depth. bob-cli's own docs (capture.md, json-outputs.md, capture-syntax.md) already state depths may exceed 2.
 
+[2026-11-22T03:18:27Z · bob-cli-on.10.1.land] DISCOVERED ISSUE (corroboration from the bob-cli-on.10.1 land agent): (a) note #1's docs contract tests still fail 3/8 on master e5ee4a8d — reproduced with 'uv run --project tools/docs python -m pytest tools/docs/tests/test_contracts.py -q' (registry 55 vs pinned 54, llms.txt list, README table sha f23b0e44…); also reported by bob-cli-on.10.1.3 note #1 and bob-cli-on.10.1.5 note #1. (b) note #2's ^prj NOTES home was found independently by bob-cli-on.10.1.1 (note #1) while porting the RL twin, which mirrors it on purpose: for a ^prj task file_into_notes -> ensure_notes_drawer -> capture_drawers::ensure_drawer takes the is_prj_parent path, appends '## NOTES' at EOF, and because drawers() lists only bullet drawers an existing '## NOTES' H2 is never found, so each write appends another empty heading. bob task tidy refuses such plans through content_preserved, but the RW writers (toggle note->req first-req scoop, insert_reqs) have no such guard, and no RL/RW vector covers ^prj. Whatever home bob-cli decides needs new RL/RW vectors re-copied into the cycler and nav twins (plugins/task-status-cycler/src/196-197, nav 696-697, byte-identical; scripts/test-task-reqs-twin-copies.cjs enforces it).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-on.1](bob-cli-on.1.md) | Requirement recognizer, shared vectors, and the contract page | ✓ closed | medium | 2026-11-21 | 1 | 1 |
-| [bob-cli-on.10](bob-cli-on.10.md) | Obsidian requirement guards, toggle, drop, and typing assist | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
+| [bob-cli-on.10](bob-cli-on.10.md) | Obsidian requirement guards, toggle, drop, and typing assist | ✓ closed | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.11](bob-cli-on.11.md) | Requirements on the Obsidian successor card and carry-now | ◐ in_progress | large | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.12](bob-cli-on.12.md) | Promotion maps requirements to tasks and notes to notes | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
 | [bob-cli-on.13](bob-cli-on.13.md) | Mac requirement typing and glyph overlay | ◐ in_progress | medium | 2026-11-21 | 1 | 0 |
@@ -61,8 +63,8 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 flowchart TD
     n0["bob-cli-on: Task requirements (reqs) [in_progress]"]
     n1["bob-cli-on.1: Requirement recognizer, shared vectors, and the contract page [closed]"]
-    n2["bob-cli-on.10: Obsidian requirement guards, toggle, drop, and typing assist [in_progress]"]
-    n3["bob-cli-on.10.1: Obsidian requirement guards, toggle, drop, and typing assist [in_progress]"]
+    n2["bob-cli-on.10: Obsidian requirement guards, toggle, drop, and typing assist [closed]"]
+    n3["bob-cli-on.10.1: Obsidian requirement guards, toggle, drop, and typing assist [closed]"]
     n4["bob-cli-on.10.1.1: Recognizer and layout twins in the cycler [closed]"]
     n5["bob-cli-on.10.1.2: Writer twin, cross-plugin copies, and the offer-close scope fix [closed]"]
     n6["bob-cli-on.10.1.3: Cycler requirement guards, Alt+[ drop, and Alt+] restore [closed]"]
@@ -169,7 +171,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-on.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.4/README.md) | [bob-cli-on.10.1.4](bob-cli-on.10.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.5/README.md) | [bob-cli-on.10.1.5](bob-cli-on.10.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.land/README.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.1.land.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11/README.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.13/README.md) | [bob-cli-on.13](bob-cli-on.13.md) | 0 |
@@ -218,6 +220,7 @@ flowchart TD
 | bob-cli | [`536455a`](https://github.com/bobs-org/bob-cli/commit/536455acc9f2999bc46aeea8ec021970bdc9b9c9) | fix(capture): count nested requirements added to existing tasks | [bob-cli-on.6.1](bob-cli-on.6.1.md) | 2026-11-21 22:04:20 EST |
 | bob-cli | [`e5ee4a8`](https://github.com/bobs-org/bob-cli/commit/e5ee4a8d9e942b7bbd9478ac1fa66a52d5c70ddf) | docs(task-reqs): add §5 Obsidian gestures table with exact copy and undo rule | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:08:54 EST |
 | bob-plugins | [`bob-plugins@7b96dce`](https://github.com/bobs-org/bob-plugins/commit/7b96dced3a85eea7ebeca5f911b0fb05c0d7bf3c) | test(e2e): add real-Obsidian task-reqs scenarios across three plugins | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2026-11-21 22:09:33 EST |
+| bob-plugins | [`bob-plugins@f74c45e`](https://github.com/bobs-org/bob-plugins/commit/f74c45e1612c6320a4ef9fccae890b5b82696c78) | fix(plugins): finish req gesture landing | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 2026-11-21 23:05:16 EST |
 
 <!-- sase:referenced-by:start -->
 
