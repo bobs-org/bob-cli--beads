@@ -13,7 +13,7 @@ req_apply: build the cycler carry/drop service using the navigation carry API an
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) ◐ · ⧖ 2026-11-22
 

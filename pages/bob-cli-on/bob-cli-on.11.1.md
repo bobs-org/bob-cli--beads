@@ -7,6 +7,20 @@
 **Created:** 2026-11-22 14:59:30 EST
 **Plan:** [202611/obsidian\_requirement\_close\_card.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_requirement_close_card.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/obsidian_requirement_close_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_requirement_close_card.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-on.11 with guarded requirement carry, successor picker v6, ordered verdict writes, one Undo, and final jump landing across managed Done gestures.
@@ -16,3 +30,15 @@ Complete bob-cli-on.11 with guarded requirement carry, successor picker v6, orde
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.land/README.md) | [bob-cli-on.11.1](bob-cli-on.11.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.11.1.2][1] | Need epic DECISIONS, phase graph, and design file for req_model work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md
+
+<!-- sase:referenced-by:end -->

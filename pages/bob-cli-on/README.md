@@ -77,7 +77,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bbugyi200.athena.bob-cli-on.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.10.1.6/README.md) | [bob-cli-on.10.1.6](bob-cli-on.10.1.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.10.1.land.md) | [bob-cli-on.10.1](bob-cli-on.10.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.md) | [bob-cli-on.11](bob-cli-on.11.md) | 0 |
-| [bbugyi200.athena.bob-cli-on.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.1/README.md) | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.11.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.1/README.md) | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.11.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md) | [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.11.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.3/README.md) | [bob-cli-on.11.1.3](bob-cli-on.11.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md) | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 0 |
@@ -158,6 +158,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | bob-cli | [`c72c941`](https://github.com/bobs-org/bob-cli/commit/c72c941deb7329e65e1899ae475a55136fe80f79) | fix(capture): land requirement-close overlap, x! pull-in, and dead-code cleanup | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:51:26 EST |
 | bob-cli--plans | [`bob-cli--plans@04adcf3`](https://github.com/bobs-org/bob-cli--plans/commit/04adcf3c2e5368e1cff71509080e9b98c8106d8a) | docs(plans): mark requirement\_close\_engine done after bob-cli-on.8.1 land | [bob-cli-on.8.1](bob-cli-on.8.1.md) | 2026-11-22 14:52:27 EST |
 | bob-plugins | [`bob-plugins@4d4c73c`](https://github.com/bobs-org/bob-plugins/commit/4d4c73c2f03a1906bcd4626f5e0158adc5f1d509) | feat(task-status-cycler): add requirement close snapshot and verdict twins | [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) | 2026-11-22 15:24:27 EST |
+| bob-plugins | [`bob-plugins@1e38521`](https://github.com/bobs-org/bob-plugins/commit/1e3852184dc6c1b780d6e9729071c5ba448171e5) | feat(task-split): add req-carry planner, guarded persistence and carry API | [bob-cli-on.11.1.1](bob-cli-on.11.1.1.md) | 2026-11-22 15:41:57 EST |
 
 <!-- sase:referenced-by:start -->
 

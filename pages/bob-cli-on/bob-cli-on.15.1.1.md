@@ -20,3 +20,15 @@ protocol: add typed requirement capability, group, row, consequence, and receipt
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.15.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.1/README.md) | [bob-cli-on.15.1.1](bob-cli-on.15.1.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.11.1.2][1] | Need to know if the running workspace-11 agent is also deploying cycler or nav before resolving the sync refusal | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md
+
+<!-- sase:referenced-by:end -->
