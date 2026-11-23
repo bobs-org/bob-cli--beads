@@ -19,7 +19,7 @@ idless_acceptance: route idless owners with Pending reqs through a requirement-o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 3 |
 
 ## Commits
 
@@ -27,6 +27,7 @@ idless_acceptance: route idless owners with Pending reqs through a requirement-o
 |---|---|---|---|---|
 | bob-cli | [`bf00529`](https://github.com/bobs-org/bob-cli/commit/bf005290ab7e2da5f019102b16ff81d495fe6855) | docs(task-requirements): document requirement close behavior | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 21:33:47 EST |
 | bob-plugins | [`bob-plugins@69a7ca0`](https://github.com/bobs-org/bob-plugins/commit/69a7ca04032e72651f95faf41971e7fe52fae323) | feat(task-status-cycler): add idless requirement close acceptance | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 22:04:18 EST |
+| bob-plugins | [`bob-plugins@0bddc2e`](https://github.com/bobs-org/bob-plugins/commit/0bddc2e0f45dfe66856f9b3589367b5fb43d0118) | fix(plugins): emit v6 requirement picker payloads | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 22:52:59 EST |
 
 <!-- sase:referenced-by:start -->
 

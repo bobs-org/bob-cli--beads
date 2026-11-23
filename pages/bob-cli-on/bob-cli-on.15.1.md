@@ -35,7 +35,13 @@ Complete bob-cli-on.15 so the Mac Pull-In card presents nested requirement group
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md) | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.15.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md) | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli--plans | [`bob-cli--plans@d2f879c`](https://github.com/bobs-org/bob-cli--plans/commit/d2f879cd52ce4fad42f08f522d496c97a5cad6c7) | chore(plans): mark mac\_requirement\_close\_card done | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 2026-11-22 21:40:41 EST |
 
 <!-- sase:referenced-by:start -->
 

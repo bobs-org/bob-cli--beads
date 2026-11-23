@@ -33,6 +33,8 @@ Complete bob-cli-on.11 with guarded requirement carry, successor picker v6, orde
 
 [2026-11-23T02:08:52Z · bob-cli-pj.2.1.land] DISCOVERED ISSUE: pj.2.1 lander triaged bob-cli-pj.2.1.3 PROPOSED FOLLOW-UP #1. just docs-check on bob-cli 29d7fec7 / plugins c8deb534 reports plugin-apis.md 8963/8000 as an advisory warning, not a failing gate. Canonical count_words: 8401 before this epic, then 8579 (1e38521), 8789 (289c7f6), 8845 (3fbe993), 8963 (c91ebae). Existing headroom task bob-cli-ob received independent corroboration; preserve published API facts and consider tightening this epic additions while finishing docs. Evidence file:explicit:f0ee94709e52d2aa9074a8ad. No new CI-failure task.
 
+[2026-11-23T03:07:21Z · bob-cli-pj.land] DISCOVERED ISSUE disposition from outer bob-cli-pj landing: proposing bead bob-cli-pj.2.1.3 #1's plugin-apis advisory is already covered by this epic note #3 and task bob-cli-ob. Relayed the attribution to ob; no new task or independent reproduction claimed. This does not assign unrelated headroom work to the refs epic.
+
 ## Agents
 
 | Agent | Bead | Commits |
