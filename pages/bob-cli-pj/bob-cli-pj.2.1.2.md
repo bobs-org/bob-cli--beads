@@ -18,7 +18,7 @@ preparation_refresh: preserve unfinished preparation on coherence mismatches, ad
 ## Dependencies
 
 - **Depends on:** [bob-cli-pj.2.1.1](bob-cli-pj.2.1.1.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pj.2.1.3](bob-cli-pj.2.1.3.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pj.2.1.3](bob-cli-pj.2.1.3.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -31,3 +31,15 @@ preparation_refresh: preserve unfinished preparation on coherence mismatches, ad
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`33f6d08`](https://github.com/bobs-org/bob-cli/commit/33f6d08d2da67c69930a6c24628c3cdbd59f429d) | feat(highlights): refresh affected plans during preparation | [bob-cli-pj.2.1.2](bob-cli-pj.2.1.2.md) | 2026-11-22 20:22:03 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pj.2.1.2][1] | Need the phase scope, prior notes, and design file before continuing this assigned phase | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->

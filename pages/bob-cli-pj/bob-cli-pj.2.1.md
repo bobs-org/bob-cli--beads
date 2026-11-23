@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/refs_incremental_coherence.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/refs_incremental_coherence.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-pj.2 with dependency-aware PDF replanning at all three stale si
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pj.2.1.1][1] | Need parent epic DECISIONS shown by bead read | 6 |
+| read-by | [agent:bob-cli-pj.2.1.2][2] | Need epic decisions governing the preparation refresh phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->
