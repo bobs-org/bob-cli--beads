@@ -18,13 +18,19 @@ mac-nesting: generalize Tab/Shift-Tab, Ctrl-J continuation, paste placeholders, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.13](bob-cli-on.13.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.15](bob-cli-on.15.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.15](bob-cli-on.15.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.14/README.md) | [bob-cli-on.14](bob-cli-on.14.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.14/README.md) | [bob-cli-on.14](bob-cli-on.14.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@8562f81`](https://github.com/bobs-org/bob-mac-capture/commit/8562f811bb0d28c74fede42a78ca85e546cc60df) | feat(capture): indent continuation bullets at any even depth | [bob-cli-on.14](bob-cli-on.14.md) | 2026-11-22 08:59:06 EST |
 
 <!-- sase:referenced-by:start -->
 

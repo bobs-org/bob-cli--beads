@@ -18,7 +18,7 @@ close-engine: build per-owner requirement groups for managed Done closes, the me
 ## Dependencies
 
 - **Blocks:** [bob-cli-on.11](bob-cli-on.11.md) ◐ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.15](bob-cli-on.15.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.15](bob-cli-on.15.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ◐ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.2](bob-cli-on.2.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.6](bob-cli-on.6.md) ✓ · ⧖ 2026-11-21

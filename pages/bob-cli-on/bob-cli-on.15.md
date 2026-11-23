@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-on](README.md) / bob-cli-on.15
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ex](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ex.md) · **Assignee:** `bob-cli-on.15` · **Size:** large
-**Created:** 2026-11-21 11:13:27 EST
+**Created:** 2026-11-21 11:13:27 EST · **Closed:** 2026-11-22 21:38:26 EST
 **Plan:** [202611/task\_requirements.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md)
 
 ## Description
 
 mac-close-card: decode requirement groups, carry them through every offer path, stage met/drop/carry/pull-in verdicts with overlap feedback, and submit them behind --req-choice in Bob Mac Capture.
+
+## Notes
+
+[2026-11-23T02:38:38Z · bob-cli-on.15.1.land] Verified by bob-cli-on.15.1 land agent before the cascade close: the child epic bob-cli-on.15.1 delivered every mac-close-card item in plan:202611/task_requirements.md: tolerant decoding of pull_in.reqs/groups/req rows/req_outcomes; collection through preview snapshot, refusal refresh, CaptureSuccessorOfferRows, view and NotificationService; Met/Drop+reason/Carry (Ctrl+Shift+T)/Carry-and-pull (Space/Tab)/Ctrl+J pin, branch fold, on-row overlap refusal, mark-all excluding req rows; requirement-first rendering with Bob copy, glyph runs, consequences, footer and accessibility; --req-choice gated submission with Shift-Return downgrade and unchanged Esc; fixtures generated from real bob; Mac keyboard/capture-previews/protocol docs. Mac master c0959905 exact-SHA macOS CI green (run 45098831346); Mac and bob-cli just docs-check pass. Outer epic bob-cli-on left to its own land agent.
 
 ## Dependencies
 
