@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.1/README.md) | [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 9 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 3 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 4 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.land/README.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5/README.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
@@ -197,6 +197,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@1408a83`](https://github.com/bobs-org/bob-plugins/commit/1408a834014eb1dfb1f856f5f9c32f73356d07b3) | feat(property-editor): distinguish selected and locked rows | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 09:00:34 EST |
 | bob-plugins | [`bob-plugins@e06f85e`](https://github.com/bobs-org/bob-plugins/commit/e06f85e3462eb76b494da2fcfcd5c143137a36d3) | fix(e2e): close Obsidian's blank startup window before Property Editor | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 09:25:53 EST |
 | bob-plugins | [`bob-plugins@2a78691`](https://github.com/bobs-org/bob-plugins/commit/2a7869183f19a1d3cf6b6277688f8c84f4c51743) | fix(property-editor): keep requested edit key across empty cache | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 09:45:07 EST |
+| bob-plugins | [`bob-plugins@337977b`](https://github.com/bobs-org/bob-plugins/commit/337977b0c6ab5d4dcb2fa206d1d8de0e75ef955a) | fix(e2e): match Property Editor stale-refusal copy | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 09:56:40 EST |
 
 <!-- sase:referenced-by:start -->
 
