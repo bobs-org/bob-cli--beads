@@ -32,10 +32,12 @@ mac-authoring: apply bob's expand_req_marker natively with overtype absorption, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-on.13--2][1] | Re-read the assigned Mac Capture phase before verification and close. | 1 |
-| read-by | [agent:research.5u.gem][2] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+| read-by | [agent:bob-cli-on.12][1] | Need epic and children phases | 1 |
+| read-by | [agent:bob-cli-on.13--2][2] | Re-read the assigned Mac Capture phase before verification and close. | 1 |
+| read-by | [agent:research.5u.gem][3] | Inspect display-related and remaining phases of bob-cli-on | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.13.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.13.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
 
 <!-- sase:referenced-by:end -->

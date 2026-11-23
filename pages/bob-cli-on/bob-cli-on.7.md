@@ -46,8 +46,10 @@ req-split: extend Task Split to select requirements at any depth, move the whole
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-on.7][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-on.12][1] | Need epic and children phases | 1 |
+| read-by | [agent:bob-cli-on.7][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
 
 <!-- sase:referenced-by:end -->

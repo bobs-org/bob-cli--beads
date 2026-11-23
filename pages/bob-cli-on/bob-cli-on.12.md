@@ -18,20 +18,19 @@ promotion: rewrite nav's project seed so top-level requirements become ## Tasks 
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.11](bob-cli-on.11.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`51c31c0`](https://github.com/bobs-org/bob-cli/commit/51c31c00728c0c9c649c10af87b6c983922cc56b) | docs(projects): describe requirement promotion to tasks and notes | [bob-cli-on.12](bob-cli-on.12.md) | 2026-11-23 01:15:35 EST |
-| bob-plugins | [`bob-plugins@3eb30fc`](https://github.com/bobs-org/bob-plugins/commit/3eb30fc3483e52437b1ba92b5294b554788d6eec) | feat(nav): promote requirements to tasks and notes to Notes | [bob-cli-on.12](bob-cli-on.12.md) | 2026-11-23 01:16:34 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,12 +38,14 @@ promotion: rewrite nav's project seed so top-level requirements become ## Tasks 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5x.gem][1] | Inspect remaining in-progress phases of bob-cli-on relevant to drawers and promotion | 1 |
-| read-by | [agent:research.5x.grk][2] | Need promotion phase scope because drawers map to H2 on project promotion | 1 |
-| read-by | [agent:research.5x.mus][3] | Drawer research: promotion conflict check | 1 |
+| read-by | [agent:bob-cli-on.12][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:research.5x.gem][2] | Inspect remaining in-progress phases of bob-cli-on relevant to drawers and promotion | 1 |
+| read-by | [agent:research.5x.grk][3] | Need promotion phase scope because drawers map to H2 on project promotion | 1 |
+| read-by | [agent:research.5x.mus][4] | Drawer research: promotion conflict check | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.gem/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.grk/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.gem/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.grk/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
 
 <!-- sase:referenced-by:end -->

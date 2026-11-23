@@ -18,6 +18,8 @@
 | related | file:explicit:a87edf6265c4dcbb64df4e95 | attached via sase artifact create --bead |
 | related | file:explicit:c841837767d4131bd902aedc | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -31,7 +33,7 @@ vault-migration: gate `bob task rename-drawer REQUIREMENTS NOTES` and one `bob t
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.10](bob-cli-on.10.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.5](bob-cli-on.5.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.9](bob-cli-on.9.md) ✓ · ⧖ 2026-11-21
 
@@ -40,3 +42,15 @@ vault-migration: gate `bob task rename-drawer REQUIREMENTS NOTES` and one `bob t
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-on.16](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.16.md) | [bob-cli-on.16](bob-cli-on.16.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.12][1] | Need epic and children phases | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+
+<!-- sase:referenced-by:end -->

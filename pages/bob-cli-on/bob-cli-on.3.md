@@ -47,10 +47,12 @@ block-layout: add task_block_layout (zones, insertion slots, tidy planning, the 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-on.3][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:bob-cli-on.4][2] | See prior PROPOSED FOLLOW-UP notes about docs-check and the albums completion flake to cite them | 1 |
+| read-by | [agent:bob-cli-on.12][1] | Need epic and children phases | 1 |
+| read-by | [agent:bob-cli-on.3][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-on.4][3] | See prior PROPOSED FOLLOW-UP notes about docs-check and the albums completion flake to cite them | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.3/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.4/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.4/README.md
 
 <!-- sase:referenced-by:end -->

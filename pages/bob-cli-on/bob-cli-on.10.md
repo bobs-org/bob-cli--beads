@@ -30,8 +30,10 @@ obsidian-gestures: add recognizer and layout twins to the cycler and nav, guard 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5u.gem][1] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+| read-by | [agent:bob-cli-on.12][1] | Need epic and children phases | 1 |
+| read-by | [agent:research.5u.gem][2] | Inspect display-related and remaining phases of bob-cli-on | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
 
 <!-- sase:referenced-by:end -->

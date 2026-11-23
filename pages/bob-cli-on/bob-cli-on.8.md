@@ -19,7 +19,7 @@ close-engine: build per-owner requirement groups for managed Done closes, the me
 
 - **Blocks:** [bob-cli-on.11](bob-cli-on.11.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.15](bob-cli-on.15.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.2](bob-cli-on.2.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.6](bob-cli-on.6.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.7](bob-cli-on.7.md) ✓ · ⧖ 2026-11-21
@@ -36,12 +36,14 @@ close-engine: build per-owner requirement groups for managed Done closes, the me
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-on.7][1] | Check what the close-engine phase expects from carry_req (my phase's library entry) | 1 |
-| read-by | [agent:bob-cli-on.8.1.1][2] | Need grandparent epic DECISIONS that this phase must honor | 1 |
-| read-by | [agent:research.5u.gem][3] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+| read-by | [agent:bob-cli-on.12][1] | Need epic and children phases | 1 |
+| read-by | [agent:bob-cli-on.7][2] | Check what the close-engine phase expects from carry_req (my phase's library entry) | 1 |
+| read-by | [agent:bob-cli-on.8.1.1][3] | Need grandparent epic DECISIONS that this phase must honor | 1 |
+| read-by | [agent:research.5u.gem][4] | Inspect display-related and remaining phases of bob-cli-on | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.1/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.8.1.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
 
 <!-- sase:referenced-by:end -->

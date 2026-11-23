@@ -32,12 +32,14 @@ mac-close-card: decode requirement groups, carry them through every offer path, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-on.15.1.land][1] | Need the parent link and phase scope to verify the child epic completed it | 2 |
-| read-by | [agent:research.5u.cld][2] | Check whether in-flight req card/memory phases render or record the hash run glyph, for display redesign timing | 1 |
-| read-by | [agent:research.5u.gem][3] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+| read-by | [agent:bob-cli-on.12][1] | Need epic and children phases | 1 |
+| read-by | [agent:bob-cli-on.15.1.land][2] | Need the parent link and phase scope to verify the child epic completed it | 2 |
+| read-by | [agent:research.5u.cld][3] | Check whether in-flight req card/memory phases render or record the hash run glyph, for display redesign timing | 1 |
+| read-by | [agent:research.5u.gem][4] | Inspect display-related and remaining phases of bob-cli-on | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,7 +42,9 @@ req-contract: retire the bob-cli-of epic, then add the recursive requirement rec
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-on.12][2] | Need epic and children phases | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
 
 <!-- sase:referenced-by:end -->

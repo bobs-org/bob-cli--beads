@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-p8][1] | Active obsidian-close-card phase edits the same cycler close card and offer-close verdicts |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-p8/README.md
 
@@ -50,13 +50,15 @@ obsidian-close-card: mirror the requirement split in nav with api.taskSplit, bin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.11.1.2][1] | Need parent phase DECISIONS that remain final for the child epic | 1 |
-| read-by | [agent:research.5u.cld][2] | Check whether in-flight req card/memory phases render or record the hash run glyph, for display redesign timing | 1 |
-| read-by | [agent:research.5u.gem][3] | Inspect display-related and remaining phases of bob-cli-on | 1 |
-| read-by | [agent:research.5x.mus][4] | Drawer research: successor card conflict check | 1 |
+| read-by | [agent:bob-cli-on.12][2] | Need epic and children phases | 2 |
+| read-by | [agent:research.5u.cld][3] | Check whether in-flight req card/memory phases render or record the hash run glyph, for display redesign timing | 1 |
+| read-by | [agent:research.5u.gem][4] | Inspect display-related and remaining phases of bob-cli-on | 1 |
+| read-by | [agent:research.5x.mus][5] | Drawer research: successor card conflict check | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5u.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.5x.mus/README.md
 
 <!-- sase:referenced-by:end -->
