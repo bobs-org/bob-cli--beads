@@ -47,13 +47,7 @@ mac-editor: Bob Mac Capture deletes the hash overlay, the byte concealment, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-pq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.5.md) | [bob-cli-pq.5](bob-cli-pq.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@c6c9c13`](https://github.com/bobs-org/bob-mac-capture/commit/c6c9c13e9353ce2dfdb3ed667e2ce916cbc30e91) | feat(capture): render native teal requirement chips | [bob-cli-pq.5](bob-cli-pq.5.md) | 2026-11-23 13:04:36 EST |
+| [bbugyi200.athena.bob-cli-pq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.5.md) | [bob-cli-pq.5](bob-cli-pq.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

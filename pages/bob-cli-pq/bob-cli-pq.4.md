@@ -29,7 +29,7 @@ obsidian-cards: Navigation Hotkeys draws the shared mark on requirement rows and
 
 - **Depends on:** [bob-cli-pq.1](bob-cli-pq.1.md) ✓ · ⧖ 2026-11-23
 - **Depends on:** [bob-cli-pq.3](bob-cli-pq.3.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pq.7](bob-cli-pq.7.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.7](bob-cli-pq.7.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 

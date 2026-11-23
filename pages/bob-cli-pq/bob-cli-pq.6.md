@@ -16,6 +16,8 @@
 | related | file:explicit:0c22af796820864312c80144 | attached via sase artifact create --bead |
 | related | file:explicit:e56c77e214c8e923a7bb318b | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -39,16 +41,22 @@ mac-diamonds: one SwiftUI requirement mark drawn from bob's state in the live pr
 - **Depends on:** [bob-cli-pq.1](bob-cli-pq.1.md) ✓ · ⧖ 2026-11-23
 - **Depends on:** [bob-cli-pq.2](bob-cli-pq.2.md) ✓ · ⧖ 2026-11-23
 - **Depends on:** [bob-cli-pq.5](bob-cli-pq.5.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pq.7](bob-cli-pq.7.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.7](bob-cli-pq.7.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-pq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.6.md) | [bob-cli-pq.6](bob-cli-pq.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-pq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.6.md) | [bob-cli-pq.6](bob-cli-pq.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@ff157b0`](https://github.com/bobs-org/bob-mac-capture/commit/ff157b0e4a680528d545aefc7d5d443752abd8a7) | feat(capture): draw requirement diamond and say Met with task | [bob-cli-pq.6](bob-cli-pq.6.md) | 2026-11-23 14:33:00 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pq.6--3][1] | Restore exact phase scope and prior baseline failure evidence | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.6.md
+
+<!-- sase:referenced-by:end -->
