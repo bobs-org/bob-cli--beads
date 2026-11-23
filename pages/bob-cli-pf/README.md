@@ -29,7 +29,7 @@ On every note a property card mounts on, the card shows the whole frontmatter: a
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-pf.1](bob-cli-pf.1.md) | Card foot row, drawer, created stamp, and =- (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
+| [bob-cli-pf.1](bob-cli-pf.1.md) | Card foot row, drawer, created stamp, and =- (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.2](bob-cli-pf.2.md) | Generic bob props show\|update (bob-cli) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.3](bob-cli-pf.3.md) | Whole-container ownership primitive and focus spike (bob-plugins) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pf.4](bob-cli-pf.4.md) | The =+ property editor (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
@@ -41,8 +41,8 @@ On every note a property card mounts on, the card shows the whole frontmatter: a
 ```mermaid
 flowchart TD
     n0["bob-cli-pf: Property cards own the frontmatter — foot row, =- drawer, created stamp, =+ editor, takeover [in_progress]"]
-    n1["bob-cli-pf.1: Card foot row, drawer, created stamp, and =- (bob-plugins) [in_progress]"]
-    n2["bob-cli-pf.1.1: Card foot row, properties drawer, and equals-minus entry points [in_progress]"]
+    n1["bob-cli-pf.1: Card foot row, drawer, created stamp, and =- (bob-plugins) [closed]"]
+    n2["bob-cli-pf.1.1: Card foot row, properties drawer, and equals-minus entry points [closed]"]
     n3["bob-cli-pf.1.1.1: Shared created stamp and source-ordered property inventory [closed]"]
     n4["bob-cli-pf.1.1.2: Shared foot runtime and Record Card migration [closed]"]
     n5["bob-cli-pf.1.1.3: Album, temporal, and bank foot adoption [closed]"]
@@ -87,6 +87,12 @@ flowchart TD
     n15 -.-> n16
 ```
 
+## Dependencies
+
+- **Blocks:** [bob-cli-pl.1](../bob-cli-pl/bob-cli-pl.1.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pl.2](../bob-cli-pl/bob-cli-pl.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pl.4](../bob-cli-pl/bob-cli-pl.4.md) ◐ · ⧖ 2026-11-22
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -97,11 +103,11 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.3/README.md) | [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.4.md) | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.5/README.md) | [bob-cli-pf.1.1.5](bob-cli-pf.1.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.land/README.md) | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.land.md) | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.md) | [bob-cli-pf.2](bob-cli-pf.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.1.md) | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.2.md) | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-pf.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.2.1.3/README.md) | [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.2.md) | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.2.1.3/README.md) | [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.land.md) | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.3/README.md) | [bob-cli-pf.3](bob-cli-pf.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4/README.md) | [bob-cli-pf.4](bob-cli-pf.4.md) | 0 |
@@ -120,7 +126,10 @@ flowchart TD
 | bob-plugins | [`bob-plugins@b3188ab`](https://github.com/bobs-org/bob-plugins/commit/b3188ab5be762a75786f51e2ed9e10f2063f2cc7) | feat(ledger-tools): adopt shared property-card foot on album, temporal, and bank cards | [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) | 2026-11-22 17:52:22 EST |
 | bob-plugins | [`bob-plugins@175283d`](https://github.com/bobs-org/bob-plugins/commit/175283d3c48bfbd7c9f768890827d12b6c84e26d) | feat(ledger-tools): add property card drawer entrypoints | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 2026-11-22 18:25:56 EST |
 | bob-plugins | [`bob-plugins@d382785`](https://github.com/bobs-org/bob-plugins/commit/d3827858b5cb120deb6b1db0c64c7fa46c2c165d) | docs(ledger-tools): document property drawer access | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 2026-11-22 18:56:06 EST |
+| bob-cli | [`fdd9472`](https://github.com/bobs-org/bob-cli/commit/fdd94725e315babce6ff79668d2b01ec97016b72) | feat(props): add strict span operations and byte-exact undo | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 2026-11-22 19:11:52 EST |
+| bob-cli | [`3e480e4`](https://github.com/bobs-org/bob-cli/commit/3e480e4a3075245fee1b6369fbda3c5a325d5652) | feat(props): add bob props show and update commands | [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) | 2026-11-22 20:39:30 EST |
 | bob-plugins | [`bob-plugins@c8deb53`](https://github.com/bobs-org/bob-plugins/commit/c8deb534ddd48fe0a89db09ef206137cf9ec8c25) | feat(ledger-tools): add real-Obsidian card-foot acceptance and heal live mount tracking | [bob-cli-pf.1.1.5](bob-cli-pf.1.1.5.md) | 2026-11-22 20:54:57 EST |
+| bob-plugins | [`bob-plugins@bb57281`](https://github.com/bobs-org/bob-plugins/commit/bb57281a9e155df3a9771758f930b23b4408db92) | fix(property-cards): repair drawer tag search and pane fallback | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 2026-11-22 21:44:28 EST |
 
 <!-- sase:referenced-by:start -->
 

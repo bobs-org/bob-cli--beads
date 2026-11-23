@@ -16,6 +16,8 @@
 | related | file:explicit:c7135143af9a4a7d2df51467 | attached via sase artifact create --bead |
 | related | file:explicit:dcd27f31fa7fb913287fdb6a | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -45,3 +47,15 @@ acceptance: add and run the isolated real-Obsidian foot walkthrough, inspect the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@c8deb53`](https://github.com/bobs-org/bob-plugins/commit/c8deb534ddd48fe0a89db09ef206137cf9ec8c25) | feat(ledger-tools): add real-Obsidian card-foot acceptance and heal live mount tracking | [bob-cli-pf.1.1.5](bob-cli-pf.1.1.5.md) | 2026-11-22 20:54:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.1.1.5][1] | Need phase notes remainder check | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -43,7 +43,9 @@ entrypoints: generalize the existing equals gate, add the mounted-view minus arm
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.1.1.4--2][1] | Review the assigned phase scope and notes before recording verification and closing it | 1 |
 | read-by | [agent:bob-cli-pf.1.1.4--3][1] | Confirm proposed follow-up note and phase status before closure. | 3 |
+| read-by | [agent:bob-cli-pf.1.1.5][2] | Need prior phase evidence for entrypoints | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.5/README.md
 
 <!-- sase:referenced-by:end -->
