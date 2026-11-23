@@ -17,7 +17,7 @@ dependency_classification: record actual shared reads, retain per-PDF locator in
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pj.2.1.2](bob-cli-pj.2.1.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pj.2.1.2](bob-cli-pj.2.1.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -30,3 +30,15 @@ dependency_classification: record actual shared reads, retain per-PDF locator in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`063a876`](https://github.com/bobs-org/bob-cli/commit/063a876807b0a008cc6cc0e65d68ddb10c0eea60) | feat(highlights): classify scan changes from per-PDF dependency evidence | [bob-cli-pj.2.1.1](bob-cli-pj.2.1.1.md) | 2026-11-22 19:31:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pj.2.1.1][1] | Need design file path and DECISIONS | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

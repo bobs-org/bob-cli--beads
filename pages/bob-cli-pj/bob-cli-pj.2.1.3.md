@@ -13,7 +13,7 @@ lock_refresh_and_contract: carry the refresh budget through lock revalidation, p
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pj.2.1.2](bob-cli-pj.2.1.2.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pj.2.1.2](bob-cli-pj.2.1.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
