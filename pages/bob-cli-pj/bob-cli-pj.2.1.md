@@ -40,13 +40,14 @@ Complete bob-cli-pj.2 with dependency-aware PDF replanning at all three stale si
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-pj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pj.2.1.land.md) | [bob-cli-pj.2.1](bob-cli-pj.2.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-pj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pj.2.1.land.md) | [bob-cli-pj.2.1](bob-cli-pj.2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`15225a6`](https://github.com/bobs-org/bob-cli/commit/15225a6a7b86e887c7b35a655c719ce197efbc88) | feat(highlights-ref): converge refresh with live dependencies and lock-window settle | [bob-cli-pj.2.1](bob-cli-pj.2.1.md) | 2026-11-22 22:01:49 EST |
+| bob-cli--plans | [`bob-cli--plans@b000b3b`](https://github.com/bobs-org/bob-cli--plans/commit/b000b3ba6773cf4ef8ab07ee830be978624ce8b6) | chore(plans): mark refs\_incremental\_coherence done after verified landing | [bob-cli-pj.2.1](bob-cli-pj.2.1.md) | 2026-11-22 22:02:23 EST |
 
 <!-- sase:referenced-by:start -->
 
