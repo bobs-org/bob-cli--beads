@@ -36,6 +36,7 @@ idless_acceptance: route idless owners with Pending reqs through a requirement-o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.11.1.7.2--2][1] | Review phase scope and prior verification notes before resolving failed gates | 1 |
+| read-by | [agent:bob-cli-on.11.1.7.2--3][1] | Need the assigned subphase scope and acceptance criteria before resolving its failed e2e and finalizing closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md
 
