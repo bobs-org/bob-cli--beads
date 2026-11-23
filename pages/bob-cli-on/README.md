@@ -89,7 +89,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bbugyi200.athena.bob-cli-on.11.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.6.md) | [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.11.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.1/README.md) | [bob-cli-on.11.1.7.1](bob-cli-on.11.1.7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 5 |
-| [bbugyi200.athena.bob-cli-on.11.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.land.md) | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.11.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.land.md) | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 3 |
 | [bbugyi200.athena.bob-cli-on.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.land.md) | [bob-cli-on.11.1](bob-cli-on.11.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.13](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.13.md) | [bob-cli-on.13](bob-cli-on.13.md) | 0 |
@@ -179,7 +179,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | bob-plugins | [`bob-plugins@21331f3`](https://github.com/bobs-org/bob-plugins/commit/21331f33b64cbef9edaf856a63d4c2e610483953) | fix(bob-navigation-hotkeys): sync req-close twins from cycler | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 23:22:35 EST |
 | bob-plugins | [`bob-plugins@e1ed13f`](https://github.com/bobs-org/bob-plugins/commit/e1ed13f0e8a921ff2e9c2d19ef0d83a72bac8191) | test(plugins): isolate navigation stage performance gate | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 23:47:38 EST |
 
-… and 2 more commits
+… and 3 more commits
 
 <!-- sase:referenced-by:start -->
 
