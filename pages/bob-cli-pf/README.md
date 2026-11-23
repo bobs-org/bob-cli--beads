@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.6.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.1/README.md) | [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 4 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 5 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.4/README.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.land/README.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
@@ -189,6 +189,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@099dc02`](https://github.com/bobs-org/bob-plugins/commit/099dc02e5508a24addb0fcdddb4c393214a71dc7) | test(property-editor): use a custom record fixture noun | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 04:35:42 EST |
 | bob-plugins | [`bob-plugins@3419a35`](https://github.com/bobs-org/bob-plugins/commit/3419a35622651f530b68f1d4ebdc5d9f47df8e5e) | test(property-editor): diagnose modal startup and strengthen write acceptance | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 05:39:03 EST |
 | bob-plugins | [`bob-plugins@e65cfe0`](https://github.com/bobs-org/bob-plugins/commit/e65cfe03a01b7ec4efbb6ca521844f09bb434d7e) | fix(e2e): focus Obsidian before opening property editor | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 05:54:36 EST |
+| bob-plugins | [`bob-plugins@3bd5c5c`](https://github.com/bobs-org/bob-plugins/commit/3bd5c5c26d56b70def897c6efd1660f2d64ee4cf) | fix(property-editor): target YAML recovery and stabilize acceptance | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:20:57 EST |
 
 <!-- sase:referenced-by:start -->
 
