@@ -25,13 +25,16 @@ integration: exercise the full fake-bob and current-bob synthetic-vault acceptan
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.5.md) | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.15.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.5.md) | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 4 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9d0cbfb`](https://github.com/bobs-org/bob-cli/commit/9d0cbfbe165d56ac6f24b34d01d861d60d93f1b4) | docs(requirements): describe the Mac requirement card | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 19:41:54 EST |
+| bob-mac-capture | [`bob-mac-capture@d76a484`](https://github.com/bobs-org/bob-mac-capture/commit/d76a48495b07505d406be4f5d243914a48408797) | test(capture): verify requirement close integration | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 19:42:52 EST |
+| bob-mac-capture | [`bob-mac-capture@3364949`](https://github.com/bobs-org/bob-mac-capture/commit/3364949807c8f8aab44dc09c92250e628e8db2b0) | fix(fixtures): account for completion metadata in req-close generator | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 20:02:19 EST |
+| bob-mac-capture | [`bob-mac-capture@c095990`](https://github.com/bobs-org/bob-mac-capture/commit/c09599056c55125811f4e450bf7f6c4eb1856bd9) | docs(capture): document requirement close behavior and fixture provenance | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 21:12:05 EST |
 
 <!-- sase:referenced-by:start -->
 

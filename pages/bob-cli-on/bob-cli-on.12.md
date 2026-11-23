@@ -24,13 +24,14 @@ promotion: rewrite nav's project seed so top-level requirements become ## Tasks 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`51c31c0`](https://github.com/bobs-org/bob-cli/commit/51c31c00728c0c9c649c10af87b6c983922cc56b) | docs(projects): describe requirement promotion to tasks and notes | [bob-cli-on.12](bob-cli-on.12.md) | 2026-11-23 01:15:35 EST |
+| bob-plugins | [`bob-plugins@3eb30fc`](https://github.com/bobs-org/bob-plugins/commit/3eb30fc3483e52437b1ba92b5294b554788d6eec) | feat(nav): promote requirements to tasks and notes to Notes | [bob-cli-on.12](bob-cli-on.12.md) | 2026-11-23 01:16:34 EST |
 
 <!-- sase:referenced-by:start -->
 

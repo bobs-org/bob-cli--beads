@@ -28,7 +28,14 @@ card_ui: render requirement sections first with bob-authored copy, depth glyphs,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.4.md) | [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.15.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.4.md) | [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@7006f3e`](https://github.com/bobs-org/bob-mac-capture/commit/7006f3e7f8a3f3b4ec266029b3934bac62605551) | feat(capture): render requirement branches and wire their keyboard actions | [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) | 2026-11-22 18:23:32 EST |
+| bob-mac-capture | [`bob-mac-capture@91db947`](https://github.com/bobs-org/bob-mac-capture/commit/91db947c8e67c815ab842ff37424255716c2573b) | fix(capture): correct requirement scope expectation to Bob order | [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) | 2026-11-22 18:47:52 EST |
 
 <!-- sase:referenced-by:start -->
 

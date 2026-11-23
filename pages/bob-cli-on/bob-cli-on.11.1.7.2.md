@@ -25,13 +25,17 @@ idless_acceptance: route idless owners with Pending reqs through a requirement-o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 5 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bf00529`](https://github.com/bobs-org/bob-cli/commit/bf005290ab7e2da5f019102b16ff81d495fe6855) | docs(task-requirements): document requirement close behavior | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 21:33:47 EST |
+| bob-plugins | [`bob-plugins@69a7ca0`](https://github.com/bobs-org/bob-plugins/commit/69a7ca04032e72651f95faf41971e7fe52fae323) | feat(task-status-cycler): add idless requirement close acceptance | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 22:04:18 EST |
+| bob-plugins | [`bob-plugins@0bddc2e`](https://github.com/bobs-org/bob-plugins/commit/0bddc2e0f45dfe66856f9b3589367b5fb43d0118) | fix(plugins): emit v6 requirement picker payloads | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 22:52:59 EST |
+| bob-plugins | [`bob-plugins@21331f3`](https://github.com/bobs-org/bob-plugins/commit/21331f33b64cbef9edaf856a63d4c2e610483953) | fix(bob-navigation-hotkeys): sync req-close twins from cycler | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 23:22:35 EST |
+| bob-plugins | [`bob-plugins@e1ed13f`](https://github.com/bobs-org/bob-plugins/commit/e1ed13f0e8a921ff2e9c2d19ef0d83a72bac8191) | test(plugins): isolate navigation stage performance gate | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 23:47:38 EST |
 
 <!-- sase:referenced-by:start -->
 
