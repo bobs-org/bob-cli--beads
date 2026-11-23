@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.1.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.3/README.md) | [bob-cli-pf.1.1.3](bob-cli-pf.1.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.4.md) | [bob-cli-pf.1.1.4](bob-cli-pf.1.1.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.1.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.5/README.md) | [bob-cli-pf.1.1.5](bob-cli-pf.1.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.land.md) | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.1.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.1.1.land.md) | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.md) | [bob-cli-pf.2](bob-cli-pf.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.1.md) | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.2.md) | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 1 |
@@ -130,6 +130,7 @@ flowchart TD
 | bob-cli | [`3e480e4`](https://github.com/bobs-org/bob-cli/commit/3e480e4a3075245fee1b6369fbda3c5a325d5652) | feat(props): add bob props show and update commands | [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) | 2026-11-22 20:39:30 EST |
 | bob-plugins | [`bob-plugins@c8deb53`](https://github.com/bobs-org/bob-plugins/commit/c8deb534ddd48fe0a89db09ef206137cf9ec8c25) | feat(ledger-tools): add real-Obsidian card-foot acceptance and heal live mount tracking | [bob-cli-pf.1.1.5](bob-cli-pf.1.1.5.md) | 2026-11-22 20:54:57 EST |
 | bob-plugins | [`bob-plugins@bb57281`](https://github.com/bobs-org/bob-plugins/commit/bb57281a9e155df3a9771758f930b23b4408db92) | fix(property-cards): repair drawer tag search and pane fallback | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 2026-11-22 21:44:28 EST |
+| bob-cli--plans | [`bob-cli--plans@4abf33e`](https://github.com/bobs-org/bob-cli--plans/commit/4abf33e33885bfb5e798c8787be6d44a15e86926) | docs(plans): mark card foot drawer epic complete | [bob-cli-pf.1.1](bob-cli-pf.1.1.md) | 2026-11-22 21:45:36 EST |
 
 <!-- sase:referenced-by:start -->
 
