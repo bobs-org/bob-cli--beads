@@ -31,3 +31,15 @@ row-fidelity: keep requested keys across reconciliation, publish confirmed overl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3141cf6`](https://github.com/bobs-org/bob-plugins/commit/3141cf64ff40a7ac23967cdf27432b44149f3b21) | feat(property-editor): row identity, overlays, diagnostics, and value fidelity | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 2026-11-23 03:52:40 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.4.1.7.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,4 +20,10 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.3/README.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d6bf53c`](https://github.com/bobs-org/bob-plugins/commit/d6bf53c508f340c939c91c3b8ada6b626f493df9) | test(property-editor): expand real Obsidian write acceptance | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 04:20:39 EST |

@@ -38,7 +38,9 @@ write-safety: make cancel/close/undo during a pending write safe, register modal
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.4.1.7.1][1] | Need phase scope | 3 |
+| read-by | [agent:bob-cli-pf.4.1.7.2][2] | Need prior phase scope to avoid redo | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md
 
 <!-- sase:referenced-by:end -->

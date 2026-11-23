@@ -7,6 +7,20 @@
 **Created:** 2026-11-23 03:09:55 EST
 **Plan:** [202611/property\_editor\_landing\_repairs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_editor_landing_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/property_editor_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_editor_landing_repairs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The =+ property editor survives in-flight writes, keeps the requested row, shows confirmed writes on every surface, and passes a reviewed real-Obsidian run covering every bob-cli-pf.4.1 acceptance bullet.
