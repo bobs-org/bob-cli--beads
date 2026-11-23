@@ -20,4 +20,10 @@ value-stages: reuse record helpers for typed edits, add datetime and tags, wire 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.3/README.md) | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.3.md) | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@a7c9135`](https://github.com/bobs-org/bob-plugins/commit/a7c91350122782fb8add63cafea11ed9555339c1) | feat(property-editor): add typed value stages | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 2026-11-23 00:47:25 EST |

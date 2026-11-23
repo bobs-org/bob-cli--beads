@@ -33,3 +33,15 @@ editor-shell: build cache-first grouped rows, role routing, navigation and close
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a5c2269`](https://github.com/bobs-org/bob-plugins/commit/a5c2269960e3116aa512ad5c33688b0413bf00b5) | feat(ledger-tools): add property editor shell modal with role routing | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 2026-11-22 23:41:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.4.1.2][1] | Need phase scope and design | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->

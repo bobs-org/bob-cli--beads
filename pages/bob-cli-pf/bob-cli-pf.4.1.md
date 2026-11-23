@@ -7,6 +7,20 @@
 **Created:** 2026-11-22 23:01:42 EST
 **Plan:** [202611/property\_editor\_core.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_editor_core.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/property_editor_core.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_editor_core.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Any Markdown note supports guarded keyboard-first property editing, add/delete, undo/redo, ownership routing, and YAML return through the verified =+ editor.
@@ -24,7 +38,9 @@ Any Markdown note supports guarded keyboard-first property editing, add/delete, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.4.1.1][1] | Need DECISIONS section that phase workers must honor | 2 |
+| read-by | [agent:bob-cli-pf.4.1.2][2] | Need parent epic decisions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.2/README.md
 
 <!-- sase:referenced-by:end -->

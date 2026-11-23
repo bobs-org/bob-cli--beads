@@ -132,7 +132,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.md) | [bob-cli-pf.4](bob-cli-pf.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.1/README.md) | [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.2/README.md) | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.3/README.md) | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.3.md) | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.4/README.md) | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.5/README.md) | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.6/README.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 0 |
@@ -161,6 +161,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@77c260f`](https://github.com/bobs-org/bob-cli--plans/commit/77c260f3fce6382df29e4d3792550c82ac6d8439) | chore(plans): mark props\_cli and landing repairs done | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 2026-11-22 22:57:10 EST |
 | bob-plugins | [`bob-plugins@8ac4790`](https://github.com/bobs-org/bob-plugins/commit/8ac4790050d81a839ffe66bb1e23313241f494c3) | feat(ledger-tools): add guarded props v1 client, history, and overlays | [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) | 2026-11-22 23:27:23 EST |
 | bob-plugins | [`bob-plugins@a5c2269`](https://github.com/bobs-org/bob-plugins/commit/a5c2269960e3116aa512ad5c33688b0413bf00b5) | feat(ledger-tools): add property editor shell modal with role routing | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 2026-11-22 23:41:12 EST |
+| bob-plugins | [`bob-plugins@a7c9135`](https://github.com/bobs-org/bob-plugins/commit/a7c91350122782fb8add63cafea11ed9555339c1) | feat(property-editor): add typed value stages | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 2026-11-23 00:47:25 EST |
 
 <!-- sase:referenced-by:start -->
 

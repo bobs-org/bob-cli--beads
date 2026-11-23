@@ -40,7 +40,9 @@ props-runtime: implement the props v1 client, guarded session, bounded per-path 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.4.1.1][1] | Need the phase scope, design file, and DECISIONS before closing | 5 |
+| read-by | [agent:bob-cli-pf.4.1.2][2] | Need prior phase evidence to avoid redoing landed work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.2/README.md
 
 <!-- sase:referenced-by:end -->
