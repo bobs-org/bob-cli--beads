@@ -14,7 +14,7 @@ mac-diamonds: one SwiftUI requirement mark drawn from bob's state in the live pr
 ## Dependencies
 
 - **Depends on:** [bob-cli-pq.1](bob-cli-pq.1.md) ✓ · ⧖ 2026-11-23
-- **Depends on:** [bob-cli-pq.2](bob-cli-pq.2.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pq.2](bob-cli-pq.2.md) ✓ · ⧖ 2026-11-23
 - **Depends on:** [bob-cli-pq.5](bob-cli-pq.5.md) ◐ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pq.7](bob-cli-pq.7.md) ◐ · ⧖ 2026-11-23
 
