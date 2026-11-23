@@ -19,4 +19,10 @@ acceptance-docs: add real-Obsidian acceptance and offline self-tests, document t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.6/README.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.6.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c60b2d3`](https://github.com/bobs-org/bob-plugins/commit/c60b2d3ead07c8fa008892401e689a27d5c5a293) | feat(property-editor): add Obsidian acceptance workflow and docs | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 2026-11-23 02:38:40 EST |

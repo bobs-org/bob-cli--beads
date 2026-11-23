@@ -31,3 +31,15 @@ entrypoints-yaml: wire the plus chord, palette and Command Mode, drawer actions,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5455076`](https://github.com/bobs-org/bob-plugins/commit/54550765ee461e8979fe10f6fc6ac3f9a276ede5) | feat(property-editor): wire public entry points and props YAML return | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 2026-11-23 02:06:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.4.1.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.5/README.md
+
+<!-- sase:referenced-by:end -->

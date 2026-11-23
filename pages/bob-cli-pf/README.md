@@ -135,7 +135,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.3.md) | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.4/README.md) | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.5/README.md) | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.6/README.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.6.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.land/README.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5/README.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6/README.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
@@ -164,6 +164,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a7c9135`](https://github.com/bobs-org/bob-plugins/commit/a7c91350122782fb8add63cafea11ed9555339c1) | feat(property-editor): add typed value stages | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 2026-11-23 00:47:25 EST |
 | bob-plugins | [`bob-plugins@15e1fa6`](https://github.com/bobs-org/bob-plugins/commit/15e1fa6bbbb3785b261d7cbcc79d89490d422541) | feat(property-editor): add positioned creation with vault name completion | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 2026-11-23 01:34:36 EST |
 | bob-plugins | [`bob-plugins@5455076`](https://github.com/bobs-org/bob-plugins/commit/54550765ee461e8979fe10f6fc6ac3f9a276ede5) | feat(property-editor): wire public entry points and props YAML return | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 2026-11-23 02:06:39 EST |
+| bob-plugins | [`bob-plugins@c60b2d3`](https://github.com/bobs-org/bob-plugins/commit/c60b2d3ead07c8fa008892401e689a27d5c5a293) | feat(property-editor): add Obsidian acceptance workflow and docs | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 2026-11-23 02:38:40 EST |
 
 <!-- sase:referenced-by:start -->
 
