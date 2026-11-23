@@ -13,7 +13,7 @@ clipboard: wire keyboard and menu copy/paste, show ordered new/replaced/skipped 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) ✓ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) ◐ · ⧖ 2026-11-23
 
 ## Agents

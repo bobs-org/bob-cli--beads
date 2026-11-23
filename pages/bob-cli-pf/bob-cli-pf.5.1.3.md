@@ -20,7 +20,7 @@ source-fragments: build a read-only, source-ordered YAML fragment adapter for ex
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.5.1.2](bob-cli-pf.5.1.2.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -33,3 +33,15 @@ source-fragments: build a read-only, source-ordered YAML fragment adapter for ex
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@310ce9b`](https://github.com/bobs-org/bob-plugins/commit/310ce9bb13192512d12a0dd1604615b4401d2296) | feat(property-editor): add read-only YAML source and clipboard fragments | [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) | 2026-11-23 14:35:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.5.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->
