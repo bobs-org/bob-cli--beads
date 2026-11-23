@@ -64,7 +64,7 @@ flowchart TD
     n21["bob-cli-pf.4.1.6: Real Obsidian acceptance and editor documentation [closed]"]
     n22["bob-cli-pf.4.1.7: Finish the core property editor's landing repairs and real-app acceptance [in_progress]"]
     n23["bob-cli-pf.4.1.7.1: In-flight write safety, Esc, and YAML escape [closed]"]
-    n24["bob-cli-pf.4.1.7.2: Row identity, overlays, diagnostics, and value fidelity [in_progress]"]
+    n24["bob-cli-pf.4.1.7.2: Row identity, overlays, diagnostics, and value fidelity [closed]"]
     n25["bob-cli-pf.4.1.7.3: Real-Obsidian acceptance for write paths [in_progress]"]
     n26["bob-cli-pf.4.1.7.4: Real-Obsidian acceptance for panes, entry points, and visuals [in_progress]"]
     n27["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [in_progress]"]
@@ -150,7 +150,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.5/README.md) | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.6.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.1/README.md) | [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.3/README.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.4/README.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.land/README.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 0 |
@@ -184,6 +184,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5455076`](https://github.com/bobs-org/bob-plugins/commit/54550765ee461e8979fe10f6fc6ac3f9a276ede5) | feat(property-editor): wire public entry points and props YAML return | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 2026-11-23 02:06:39 EST |
 | bob-plugins | [`bob-plugins@c60b2d3`](https://github.com/bobs-org/bob-plugins/commit/c60b2d3ead07c8fa008892401e689a27d5c5a293) | feat(property-editor): add Obsidian acceptance workflow and docs | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 2026-11-23 02:38:40 EST |
 | bob-plugins | [`bob-plugins@dcc6820`](https://github.com/bobs-org/bob-plugins/commit/dcc68207ceba6cc8d86c6a9ee347350df84b6cb9) | feat(bob-ledger-tools): property editor write safety and session hardening | [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) | 2026-11-23 03:33:52 EST |
+| bob-plugins | [`bob-plugins@3141cf6`](https://github.com/bobs-org/bob-plugins/commit/3141cf64ff40a7ac23967cdf27432b44149f3b21) | feat(property-editor): row identity, overlays, diagnostics, and value fidelity | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 2026-11-23 03:52:40 EST |
 
 <!-- sase:referenced-by:start -->
 

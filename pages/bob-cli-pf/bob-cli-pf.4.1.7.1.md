@@ -17,7 +17,7 @@ write-safety: make cancel/close/undo during a pending write safe, register modal
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -30,3 +30,15 @@ write-safety: make cancel/close/undo during a pending write safe, register modal
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@dcc6820`](https://github.com/bobs-org/bob-plugins/commit/dcc68207ceba6cc8d86c6a9ee347350df84b6cb9) | feat(bob-ledger-tools): property editor write safety and session hardening | [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) | 2026-11-23 03:33:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.4.1.7.1][1] | Need phase scope | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.1/README.md
+
+<!-- sase:referenced-by:end -->
