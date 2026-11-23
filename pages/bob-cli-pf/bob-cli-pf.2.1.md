@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-pf.2](bob-cli-pf.2.md) / bob-cli-pf.2.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-pf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.md) · **Assignee:** `bob-cli-pf.2.1.land`
-**Created:** 2026-11-22 14:47:18 EST
+**Created:** 2026-11-22 14:47:18 EST · **Closed:** 2026-11-22 22:53:14 EST
 **Plan:** [202611/props\_cli.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/props_cli.md)
 
 <!-- sase:links:start -->
@@ -35,11 +35,29 @@ Complete bob-cli-pf.2 with an ordered property report and guarded, reversible fr
 
 [2026-11-23T01:50:01Z · bob-cli-pf.2.1.land] LAND INTEGRATION: fetched origin/master; it remains 3e480e4a with no base-branch drift. Reviewed non-epic commits since the initial implementation and the two between plan baseline 96a23f50 and first implementation: c72c941d/513ec478 requirement integration; c17dd80a/9d0cbfbe requirement docs; badcd30c tick waiting/escalation; 8c019eb4 Gmail HTML; 063a8768/33f6d08d per-PDF scan dependencies/refresh; 7f104e52 dedicated-link Pomodoro history. No new property owner, competing writer, or required props consumer migration was introduced by those changes. The repair tale preserves the existing lock and scan-observation integration, and requires a fresh drift check before closing. The linked bob-plugins repository was opened read-only through sase_repo to verify task_count/open_task_count writers; no plugin changes or deployment were made.
 
+[2026-11-23T03:53:14Z · bob-cli-pf.2.1.land] Landing repairs for generic bob props are complete and verified.
+
+Ownership: roles.rs now classifies done_tasks (bob task archive), project status/scheduled (bob projects sync), and task_count/open_task_count (bob-project-tasks plugin) as derived; template stays loose as a creation default; created stays loose. projects::parse_frontmatter is BOM-aware so typed notes with a UTF-8 BOM keep their kind.
+
+Writes: header-comment trivia is rebuilt from unindented blanks/comments only; yaml_text keeps the last inner line ending; empty keep-chomp bodies emit |2+ with an indented empty content line so a following --- fence cannot eat the newline; Restore wrap does not add a second blank when raw already ends with a newline. Incoming anchors/aliases/tags/merges are refused; quoted and block lookalikes stay allowed. plan::verify is per-op semantic, and inverse of set_yaml restores original bytes.
+
+CLI: format is text|json with a hidden human alias; help says text or json; dry-run is -d; absolute NOTE plus relative -b is confined after making the vault absolute. acquire_lock_waiting keeps one lock fd open for the whole wait so schema-change-while-waiting tests can see the waiter via /proc/<pid>/fd inode compare.
+
+Gates: cargo test --test cli props 18 passed including three lock-wait tests; props lib 53 and yaml_spans 7 passed; just docs-gen and just docs-check passed; just check (fmt, clippy, cargo test --workspace --no-fail-fast) exit 0. Read-only vault sampling under BOB_DIR=/home/bryan/bob classified zorg_* derived, album identity/card, project status/done_tasks/task counts derived, template/created loose, day parent derived and intentions card. No BOM notes at vault root. eat/1_walnut classified note.
+
+No leftover epic-symbol entries on bob-cli-pf.2.1. Parent decisions bank_foot=yes, drawer_memory=note, memory_glossary_cards=yes, memory_decision_record=no unchanged. No memory, plugin, Cargo version, or CHANGELOG edits. Schema version stays 1. Pre-existing lander follow-ups bob-cli-bo, bob-cli-pk, bob-cli-5l, and bob-cli-p4 notification were not refiled. A denied clippy::op_ref in highlights_ref/scan_plan.rs was typed correctly so just check could pass; it is not a props behavior change.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.land.md) | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.land.md) | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`3966100`](https://github.com/bobs-org/bob-cli/commit/396610031495186d77f64f580a02a3ceb8f114ac) | feat(props): repair ownership, reversible writes, and CLI contract | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 2026-11-22 22:55:51 EST |
 
 <!-- sase:referenced-by:start -->
 
