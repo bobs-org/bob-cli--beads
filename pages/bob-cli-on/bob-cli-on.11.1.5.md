@@ -28,7 +28,7 @@ Apply-service seam for close_wiring:
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

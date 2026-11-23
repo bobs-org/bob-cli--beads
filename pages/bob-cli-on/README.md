@@ -87,7 +87,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bbugyi200.athena.bob-cli-on.11.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.4/README.md) | [bob-cli-on.11.1.4](bob-cli-on.11.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.5/README.md) | [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.6.md) | [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.land/README.md) | [bob-cli-on.11.1](bob-cli-on.11.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.land.md) | [bob-cli-on.11.1](bob-cli-on.11.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.13](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.13.md) | [bob-cli-on.13](bob-cli-on.13.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.14](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.14/README.md) | [bob-cli-on.14](bob-cli-on.14.md) | 1 |
@@ -96,7 +96,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bbugyi200.athena.bob-cli-on.15.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.2/README.md) | [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.15.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.3.md) | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.15.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.4.md) | [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) | 2 |
-| [bbugyi200.athena.bob-cli-on.15.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.5.md) | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-on.15.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.5.md) | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 3 |
 | [bbugyi200.athena.bob-cli-on.15.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md) | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.16](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.16.md) | [bob-cli-on.16](bob-cli-on.16.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.17](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.17/README.md) | [bob-cli-on.17](bob-cli-on.17.md) | 0 |
@@ -165,6 +165,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | bob-mac-capture | [`bob-mac-capture@91db947`](https://github.com/bobs-org/bob-mac-capture/commit/91db947c8e67c815ab842ff37424255716c2573b) | fix(capture): correct requirement scope expectation to Bob order | [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) | 2026-11-22 18:47:52 EST |
 | bob-cli | [`9d0cbfb`](https://github.com/bobs-org/bob-cli/commit/9d0cbfbe165d56ac6f24b34d01d861d60d93f1b4) | docs(requirements): describe the Mac requirement card | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 19:41:54 EST |
 | bob-mac-capture | [`bob-mac-capture@d76a484`](https://github.com/bobs-org/bob-mac-capture/commit/d76a48495b07505d406be4f5d243914a48408797) | test(capture): verify requirement close integration | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 19:42:52 EST |
+| bob-mac-capture | [`bob-mac-capture@3364949`](https://github.com/bobs-org/bob-mac-capture/commit/3364949807c8f8aab44dc09c92250e628e8db2b0) | fix(fixtures): account for completion metadata in req-close generator | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 20:02:19 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -20,7 +20,7 @@ picker_v6: add requirement groups, contextual keys and reasons, branch folds, na
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.11.1.2](bob-cli-on.11.1.2.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
