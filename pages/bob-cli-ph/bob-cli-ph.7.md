@@ -15,7 +15,7 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 
 - **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ◐ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.9](bob-cli-ph.9.md) ◐ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pq.5](../bob-cli-pq/bob-cli-pq.5.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.5](../bob-cli-pq/bob-cli-pq.5.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
