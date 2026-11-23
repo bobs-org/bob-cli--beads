@@ -41,7 +41,7 @@ mac-editor: Bob Mac Capture deletes the hash overlay, the byte concealment, and 
 
 - **Depends on:** [bob-cli-ph.7](../bob-cli-ph/bob-cli-ph.7.md) ◐ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.8](../bob-cli-ph/bob-cli-ph.8.md) ◐ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pq.6](bob-cli-pq.6.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.6](bob-cli-pq.6.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -62,7 +62,9 @@ mac-editor: Bob Mac Capture deletes the hash overlay, the byte concealment, and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
+| read-by | [agent:bob-cli-pq.5--4][2] | Confirm completion scope, waiver, and recorded validation exceptions before closing phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.1fk/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.5.md
 
 <!-- sase:referenced-by:end -->

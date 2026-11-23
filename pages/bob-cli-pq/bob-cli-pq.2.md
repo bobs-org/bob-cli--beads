@@ -20,7 +20,7 @@ line-annotations: an additive `req: {depth, state}` object on capture preview bl
 ## Dependencies
 
 - **Depends on:** [bob-cli-pq.1](bob-cli-pq.1.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pq.6](bob-cli-pq.6.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.6](bob-cli-pq.6.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
