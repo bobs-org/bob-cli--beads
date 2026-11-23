@@ -26,13 +26,7 @@ drawer-record: build the lazy accessible foot and drawer, per-note session state
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.2/README.md) | [bob-cli-pf.1.1.2](bob-cli-pf.1.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@15d82db`](https://github.com/bobs-org/bob-plugins/commit/15d82db75a1ac8a2a0920acaecbb73e8b75775e9) | feat(ledger-tools): add shared property-card foot runtime and migrate record sheet | [bob-cli-pf.1.1.2](bob-cli-pf.1.1.2.md) | 2026-11-22 17:06:38 EST |
+| [bbugyi200.apollo.bob-cli-pf.1.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.1.1.2/README.md) | [bob-cli-pf.1.1.2](bob-cli-pf.1.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
