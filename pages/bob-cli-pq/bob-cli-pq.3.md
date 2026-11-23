@@ -19,7 +19,7 @@
 | related | file:explicit:ca9bfcba02f2502cd9513085 | attached via sase artifact create --bead |
 | related | file:explicit:d3a8bc5a7270ff27ea05e3dc | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -53,7 +53,7 @@ obsidian-marks: bob-ledger-tools replaces the hash-run mask with four diamond ma
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pq.4](bob-cli-pq.4.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.4](bob-cli-pq.4.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -75,7 +75,9 @@ obsidian-marks: bob-ledger-tools replaces the hash-run mask with four diamond ma
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
+| read-by | [agent:bob-cli-pq.3][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.1fk/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.3.md
 
 <!-- sase:referenced-by:end -->

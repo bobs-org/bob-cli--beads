@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_reqs_criterion_diamond.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_reqs_criterion_diamond.md
 
@@ -36,7 +36,7 @@ Every task requirement is drawn with one quiet, constant-width diamond in its ow
 | [bob-cli-pq.1](bob-cli-pq.1.md) | The requirement mark becomes a token in bob-cli and the plugin twins | ✓ closed | medium | 2026-11-23 | 1 | 2 |
 | [bob-cli-pq.2](bob-cli-pq.2.md) | Bob annotates requirement lines in previews and the idle agenda | ✓ closed | medium | 2026-11-23 | 1 | 1 |
 | [bob-cli-pq.3](bob-cli-pq.3.md) | Obsidian draws the criterion diamond in notes | ✓ closed | medium | 2026-11-23 | 1 | 2 |
-| [bob-cli-pq.4](bob-cli-pq.4.md) | Obsidian successor cards wear the diamond | ◐ in_progress | small | 2026-11-23 | 1 | 0 |
+| [bob-cli-pq.4](bob-cli-pq.4.md) | Obsidian successor cards wear the diamond | ✓ closed | small | 2026-11-23 | 1 | 1 |
 | [bob-cli-pq.5](bob-cli-pq.5.md) | The Mac draft shows requirement bytes as a teal chip | ◐ in_progress | medium | 2026-11-23 | 1 | 0 |
 | [bob-cli-pq.6](bob-cli-pq.6.md) | Mac previews, agenda, and Pull-In card draw the diamond | ◐ in_progress | medium | 2026-11-23 | 1 | 0 |
 | [bob-cli-pq.7](bob-cli-pq.7.md) | Memory records for the criterion diamond | ◐ in_progress | small | 2026-11-23 | 1 | 0 |
@@ -49,7 +49,7 @@ flowchart TD
     n1["bob-cli-pq.1: The requirement mark becomes a token in bob-cli and the plugin twins [closed]"]
     n2["bob-cli-pq.2: Bob annotates requirement lines in previews and the idle agenda [closed]"]
     n3["bob-cli-pq.3: Obsidian draws the criterion diamond in notes [closed]"]
-    n4["bob-cli-pq.4: Obsidian successor cards wear the diamond [in_progress]"]
+    n4["bob-cli-pq.4: Obsidian successor cards wear the diamond [closed]"]
     n5["bob-cli-pq.5: The Mac draft shows requirement bytes as a teal chip [in_progress]"]
     n6["bob-cli-pq.6: Mac previews, agenda, and Pull-In card draw the diamond [in_progress]"]
     n7["bob-cli-pq.7: Memory records for the criterion diamond [in_progress]"]
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-pq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.1/README.md) | [bob-cli-pq.1](bob-cli-pq.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-pq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.2.md) | [bob-cli-pq.2](bob-cli-pq.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-pq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.3/README.md) | [bob-cli-pq.3](bob-cli-pq.3.md) | 2 |
-| [bbugyi200.athena.bob-cli-pq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.4/README.md) | [bob-cli-pq.4](bob-cli-pq.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-pq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.4/README.md) | [bob-cli-pq.4](bob-cli-pq.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-pq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.5.md) | [bob-cli-pq.5](bob-cli-pq.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-pq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.6/README.md) | [bob-cli-pq.6](bob-cli-pq.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-pq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.7/README.md) | [bob-cli-pq.7](bob-cli-pq.7.md) | 0 |
@@ -92,6 +92,7 @@ flowchart TD
 | bob-cli | [`87ee683`](https://github.com/bobs-org/bob-cli/commit/87ee683ae7ed698db10e79c892d2be109a45d737) | feat(task-reqs): annotate preview and agenda lines with req depth and state | [bob-cli-pq.2](bob-cli-pq.2.md) | 2026-11-23 05:10:41 EST |
 | bob-cli | [`f6cf62c`](https://github.com/bobs-org/bob-cli/commit/f6cf62cf7a415ca75bebf31a744a286fbba09f5c) | docs(task-reqs): document criterion diamonds and teaching clicks | [bob-cli-pq.3](bob-cli-pq.3.md) | 2026-11-23 10:47:01 EST |
 | bob-plugins | [`bob-plugins@c884675`](https://github.com/bobs-org/bob-plugins/commit/c884675435beab310eaa1bf041a4939828ca4a77) | feat(task-reqs): render criterion diamonds with state-aware tooltips | [bob-cli-pq.3](bob-cli-pq.3.md) | 2026-11-23 10:47:29 EST |
+| bob-plugins | [`bob-plugins@b2c3710`](https://github.com/bobs-org/bob-plugins/commit/b2c371025c637722abbdc045573b92976141573b) | feat(nav): draw the criterion diamond on successor requirement cards | [bob-cli-pq.4](bob-cli-pq.4.md) | 2026-11-23 11:13:38 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -101,8 +102,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
 | read-by | [agent:bob-cli-pq.1][2] | Need epic scope decisions plan | 1 |
+| read-by | [agent:bob-cli-pq.3][3] | Check whether parent notes revise the rendering prerequisite | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.1fk/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.3.md
 
 <!-- sase:referenced-by:end -->

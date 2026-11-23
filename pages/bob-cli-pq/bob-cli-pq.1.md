@@ -24,7 +24,7 @@ glyph-contract: req_run becomes a per-state text glyph, the CLI strings and RV v
 ## Dependencies
 
 - **Blocks:** [bob-cli-pq.2](bob-cli-pq.2.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pq.4](bob-cli-pq.4.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.4](bob-cli-pq.4.md) ✓ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pq.6](bob-cli-pq.6.md) ◐ · ⧖ 2026-11-23
 
 ## Agents

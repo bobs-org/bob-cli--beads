@@ -13,7 +13,7 @@ memory: apply only the accepted memory decisions with /sase_memory_write, then r
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pq.4](bob-cli-pq.4.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pq.4](bob-cli-pq.4.md) ✓ · ⧖ 2026-11-23
 - **Depends on:** [bob-cli-pq.6](bob-cli-pq.6.md) ◐ · ⧖ 2026-11-23
 
 ## Agents
