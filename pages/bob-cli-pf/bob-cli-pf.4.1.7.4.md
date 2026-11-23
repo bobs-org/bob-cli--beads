@@ -27,7 +27,7 @@ acceptance-surfaces: cover panes, history reopen, YAML Done, close keys, unload,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 7 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 8 |
 
 ## Commits
 
@@ -40,6 +40,7 @@ acceptance-surfaces: cover panes, history reopen, YAML Done, close keys, unload,
 | bob-plugins | [`bob-plugins@b75ed48`](https://github.com/bobs-org/bob-plugins/commit/b75ed48930150fe5268283d3d92b0921187fa65d) | fix(e2e): match quoted YAML on Property Editor stale-refusal bytes | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:06:17 EST |
 | bob-plugins | [`bob-plugins@074bf2d`](https://github.com/bobs-org/bob-plugins/commit/074bf2d3d71b4731e15738919e849c69e41c0ff9) | test(property-editor): wait for exact undo draft, not held-draft substring | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:16:58 EST |
 | bob-plugins | [`bob-plugins@e60541b`](https://github.com/bobs-org/bob-plugins/commit/e60541b3ec35b6d9b5aef8b886ce3e57a473f77e) | fix(property-editor): stack narrow rows on an inner grid | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:32:00 EST |
+| bob-plugins | [`bob-plugins@e2e944a`](https://github.com/bobs-org/bob-plugins/commit/e2e944af199ed8d49685f0b7616fc10fcc73e009) | fix(property-editor): restore selected-row fill over the button reset | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:44:09 EST |
 
 <!-- sase:referenced-by:start -->
 
