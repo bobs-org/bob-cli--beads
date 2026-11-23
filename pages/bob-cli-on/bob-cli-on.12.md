@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-on](README.md) / bob-cli-on.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ex](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ex.md) · **Assignee:** `bob-cli-on.12` · **Size:** medium
-**Created:** 2026-11-21 11:13:27 EST
+**Created:** 2026-11-21 11:13:27 EST · **Closed:** 2026-11-23 01:14:26 EST
 **Plan:** [202611/task\_requirements.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md)
 
 ## Description
 
 promotion: rewrite nav's project seed so top-level requirements become ## Tasks rows that keep their nested requirements, notes and NOTES become ## Notes even on requirement-less tasks, and the receipt counts both.
+
+## Notes
+
+[2026-11-23T06:14:26Z · bob-cli-on.12] Promotion seed rewritten per §8: outer reqs become Tasks rows keeping nested reqs (NOTES filed per with_first_note), dropped/legacy/carried keep bytes, loose notes + NOTES merge into ## Notes even with no reqs, empty Tasks shows no-req notice, receipt Promoted S · t tasks · n notes wired into 667 notice. Verified: bob-plugins build + build:check clean; project-from-task 53 pass (8 new), forward-promotion 21 pass, promotion-verdicts 7 pass, project-reversal 26 pass, cycler promotion/twin suites 29 pass; bob-cli just docs-gen + docs-check pass; nav synced to vault.
 
 ## Dependencies
 
@@ -20,7 +24,13 @@ promotion: rewrite nav's project seed so top-level requirements become ## Tasks 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`51c31c0`](https://github.com/bobs-org/bob-cli/commit/51c31c00728c0c9c649c10af87b6c983922cc56b) | docs(projects): describe requirement promotion to tasks and notes | [bob-cli-on.12](bob-cli-on.12.md) | 2026-11-23 01:15:35 EST |
 
 <!-- sase:referenced-by:start -->
 

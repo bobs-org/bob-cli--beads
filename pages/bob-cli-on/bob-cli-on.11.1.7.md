@@ -39,15 +39,13 @@ Make explicit requirement verdicts, jump pins, staleness guards, counted and idl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.land.md) | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 3 |
+| [bbugyi200.athena.bob-cli-on.11.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.land.md) | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9c9c972`](https://github.com/bobs-org/bob-cli/commit/9c9c972c2873a23bb62ea44d89b756fd37823cbf) | docs(task-requirements): cover mixed close-card Undo in one gesture | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 2026-11-23 00:56:01 EST |
-| bob-plugins | [`bob-plugins@44e0f7e`](https://github.com/bobs-org/bob-plugins/commit/44e0f7e1a40906e5eb5e35edeb2b5b09a2206813) | fix(task-status-cycler): compose mixed close-card Undo restores in write order | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 2026-11-23 00:57:11 EST |
-| bob-cli--plans | [`bob-cli--plans@8eb9c65`](https://github.com/bobs-org/bob-cli--plans/commit/8eb9c6521c4471844f62ca84055af8dc4a205968) | docs(plans): mark req close-card mixed-undo landing done | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 2026-11-23 00:58:11 EST |
 
 <!-- sase:referenced-by:start -->
 
