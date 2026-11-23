@@ -13,10 +13,15 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| related | [bead:bob-cli-pt][1] | pq.6 note #3 first reported the RefsPanelModelTests compile errors that blocked the epic's Mac test run |
+| related | [bead:bob-cli-pu][2] | pq.6 added the requirement-pull-in render fixture that exposes the clipped rows |
 | related | file:explicit:0c22af796820864312c80144 | attached via sase artifact create --bead |
 | related | file:explicit:e56c77e214c8e923a7bb318b | attached via sase artifact create --bead |
 
 _Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-pt/README.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-pu/README.md
 
 <!-- sase:links:end -->
 
@@ -47,7 +52,13 @@ mac-diamonds: one SwiftUI requirement mark drawn from bob's state in the live pr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-pq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.6.md) | [bob-cli-pq.6](bob-cli-pq.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-pq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.6.md) | [bob-cli-pq.6](bob-cli-pq.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@ff157b0`](https://github.com/bobs-org/bob-mac-capture/commit/ff157b0e4a680528d545aefc7d5d443752abd8a7) | feat(capture): draw requirement diamond and say Met with task | [bob-cli-pq.6](bob-cli-pq.6.md) | 2026-11-23 14:33:00 EST |
 
 <!-- sase:referenced-by:start -->
 

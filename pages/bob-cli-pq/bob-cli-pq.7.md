@@ -33,3 +33,15 @@ memory: apply only the accepted memory decisions with /sase_memory_write, then r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bd67dfc`](https://github.com/bobs-org/bob-cli/commit/bd67dfc8097211bad9e4004a2e8f441aaba8111e) | docs(memory): describe task requirement diamond states | [bob-cli-pq.7](bob-cli-pq.7.md) | 2026-11-23 14:41:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pq.7][1] | Need the phase scope, design file, prior notes, and epic decisions before completing this reserved phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.7/README.md
+
+<!-- sase:referenced-by:end -->
