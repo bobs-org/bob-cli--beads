@@ -1,0 +1,37 @@
+# Bead: bob-cli-ph.7 — Obsidian drawer rendering, typing, and bold writers
+
+[Bead Pages](../README.md) / [bob-cli-ph](README.md) / bob-cli-ph.7
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5x.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5x.linker.w0.md) · **Assignee:** `bob-cli-ph.7` · **Size:** large
+**Created:** 2026-11-22 17:36:49 EST
+**Plan:** [202611/true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md)
+
+## Description
+
+obsidian-drawers: the drawer glyph and true-case title in Live Preview and reading view, the `*` typing assists and Toggle Drawer, bold plugin writers, and verbatim promotion and reversal.
+
+## Dependencies
+
+- **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.9](bob-cli-ph.9.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pq.3](../bob-cli-pq/bob-cli-pq.3.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pq.5](../bob-cli-pq/bob-cli-pq.5.md) ◐ · ⧖ 2026-11-23
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-ph.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7/README.md) | [bob-cli-ph.7](bob-cli-ph.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pq.1][1] | sequencing check for glyph-contract | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+
+<!-- sase:referenced-by:end -->
