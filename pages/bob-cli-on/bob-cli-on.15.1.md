@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_requirement_close_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_requirement_close_card.md
 
@@ -42,7 +42,9 @@ Complete bob-cli-on.15 so the Mac Pull-In card presents nested requirement group
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.15.1.1][1] | Need exact epic decisions, phase notes, and plan metadata | 2 |
+| read-by | [agent:bob-cli-on.15.1.5--3][2] | Check parent epic scope and land requirements for phase completion | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.5.md
 
 <!-- sase:referenced-by:end -->
