@@ -20,13 +20,20 @@ pipeline: thread requirement capability and staged choices through CapturePanelM
 ## Dependencies
 
 - **Depends on:** [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.3.md) | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.15.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.3.md) | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@3eea97b`](https://github.com/bobs-org/bob-mac-capture/commit/3eea97b2ce3a207c0295adf5b070b90b227833da) | feat(capture): preserve requirement choices through preview and submit | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 2026-11-22 16:56:40 EST |
+| bob-mac-capture | [`bob-mac-capture@69a70da`](https://github.com/bobs-org/bob-mac-capture/commit/69a70dacb4d920d40165d981e1283d86a56cbde4) | test(capture): resolve fake-bob from the package root in pipeline tests | [bob-cli-on.15.1.3](bob-cli-on.15.1.3.md) | 2026-11-22 17:33:33 EST |
 
 <!-- sase:referenced-by:start -->
 

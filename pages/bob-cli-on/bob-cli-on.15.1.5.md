@@ -13,10 +13,16 @@ integration: exercise the full fake-bob and current-bob synthetic-vault acceptan
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.5/README.md) | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.15.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.5.md) | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`9d0cbfb`](https://github.com/bobs-org/bob-cli/commit/9d0cbfbe165d56ac6f24b34d01d861d60d93f1b4) | docs(requirements): describe the Mac requirement card | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 19:41:54 EST |
