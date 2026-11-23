@@ -71,7 +71,7 @@ flowchart TD
     n28["bob-cli-pf.5.1: Complete Property Editor native parity [in_progress]"]
     n29["bob-cli-pf.5.1.1: Add property selection, filtering, and batch delete [closed]"]
     n30["bob-cli-pf.5.1.2: Add guarded property rename and reorder [closed]"]
-    n31["bob-cli-pf.5.1.3: Extract lossless property source and clipboard fragments [in_progress]"]
+    n31["bob-cli-pf.5.1.3: Extract lossless property source and clipboard fragments [closed]"]
     n32["bob-cli-pf.5.1.4: Add the validated multiline YAML value stage [in_progress]"]
     n33["bob-cli-pf.5.1.5: Add YAML copy and overwrite-previewed paste [in_progress]"]
     n34["bob-cli-pf.5.1.6: Add local kind conversion and explicit vault type changes [in_progress]"]
@@ -180,7 +180,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.1.1.md) | [bob-cli-pf.5.1.1](bob-cli-pf.5.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.2/README.md) | [bob-cli-pf.5.1.2](bob-cli-pf.5.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.3/README.md) | [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.3/README.md) | [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.4/README.md) | [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md) | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md) | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 0 |
@@ -236,6 +236,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8efc5a6`](https://github.com/bobs-org/bob-plugins/commit/8efc5a6d3caff4747cc73ad4ad7a6063066ba980) | fix(property-editor): preserve YAML Done selection through cache-first reopen | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2026-11-23 12:34:55 EST |
 | bob-cli--plans | [`bob-cli--plans@806e56f`](https://github.com/bobs-org/bob-cli--plans/commit/806e56fdce2b0569caf00f2dad86c56515acec32) | chore(plans): mark property editor yaml-return and parent plans done | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2026-11-23 12:36:18 EST |
 | bob-plugins | [`bob-plugins@76565b6`](https://github.com/bobs-org/bob-plugins/commit/76565b6d71da6be7f6fb8313cbddcb8d986320bc) | feat(property-editor): add guarded rename and source-order reorder | [bob-cli-pf.5.1.2](bob-cli-pf.5.1.2.md) | 2026-11-23 14:08:54 EST |
+| bob-plugins | [`bob-plugins@310ce9b`](https://github.com/bobs-org/bob-plugins/commit/310ce9bb13192512d12a0dd1604615b4401d2296) | feat(property-editor): add read-only YAML source and clipboard fragments | [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) | 2026-11-23 14:35:17 EST |
 
 <!-- sase:referenced-by:start -->
 

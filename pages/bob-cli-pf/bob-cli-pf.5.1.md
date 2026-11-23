@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_editor_parity.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_editor_parity.md
 
@@ -38,7 +38,9 @@ The =+ Property Editor supports keyboard rename, reorder, selection, copy/paste,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.5.1.1--1][1] | Need epic decisions for its assigned property-editor phase | 1 |
+| read-by | [agent:bob-cli-pf.5.1.2][2] | Need parent DECISIONS and remaining phase notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.2/README.md
 
 <!-- sase:referenced-by:end -->

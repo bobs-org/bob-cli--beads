@@ -22,7 +22,7 @@ rename-reorder: implement the inline rename stage and source-order moves with at
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.5.1.1](bob-cli-pf.5.1.1.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -35,3 +35,15 @@ rename-reorder: implement the inline rename stage and source-order moves with at
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@76565b6`](https://github.com/bobs-org/bob-plugins/commit/76565b6d71da6be7f6fb8313cbddcb8d986320bc) | feat(property-editor): add guarded rename and source-order reorder | [bob-cli-pf.5.1.2](bob-cli-pf.5.1.2.md) | 2026-11-23 14:08:54 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.5.1.2][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->

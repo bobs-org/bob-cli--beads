@@ -13,7 +13,7 @@ yaml-stage: add source-seeded YAML value editing through prop.set_yaml and the e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) ✓ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) ◐ · ⧖ 2026-11-23
 
 ## Agents
