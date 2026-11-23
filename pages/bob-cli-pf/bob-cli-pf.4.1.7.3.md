@@ -57,7 +57,7 @@ Further targeted real-app probes passed 7 day write/undo assertions, then expose
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 

@@ -32,7 +32,7 @@ On every note a property card mounts on, the card shows the whole frontmatter: a
 | [bob-cli-pf.1](bob-cli-pf.1.md) | Card foot row, drawer, created stamp, and =- (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.2](bob-cli-pf.2.md) | Generic bob props show\|update (bob-cli) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.3](bob-cli-pf.3.md) | Whole-container ownership primitive and focus spike (bob-plugins) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
-| [bob-cli-pf.4](bob-cli-pf.4.md) | The =+ property editor (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
+| [bob-cli-pf.4](bob-cli-pf.4.md) | The =+ property editor (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.5](bob-cli-pf.5.md) | Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.6](bob-cli-pf.6.md) | Hide native Properties on card notes (bob-plugins, plus memory if approved) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
 
@@ -54,19 +54,19 @@ flowchart TD
     n11["bob-cli-pf.2.1.2: Strict property operations and byte-exact undo [closed]"]
     n12["bob-cli-pf.2.1.3: Guarded props commands, capability, completion, and contract [closed]"]
     n13["bob-cli-pf.3: Whole-container ownership primitive and focus spike (bob-plugins) [closed]"]
-    n14["bob-cli-pf.4: The =+ property editor (bob-plugins) [in_progress]"]
-    n15["bob-cli-pf.4.1: Complete the core note property editor [in_progress]"]
+    n14["bob-cli-pf.4: The =+ property editor (bob-plugins) [closed]"]
+    n15["bob-cli-pf.4.1: Complete the core note property editor [closed]"]
     n16["bob-cli-pf.4.1.1: Guarded property transport, history, and overlays [closed]"]
     n17["bob-cli-pf.4.1.2: Property modal, role routing, and discrete edits [closed]"]
     n18["bob-cli-pf.4.1.3: Shared typed stages, date-time, and tags [closed]"]
     n19["bob-cli-pf.4.1.4: Property name completion and positioned creation [closed]"]
     n20["bob-cli-pf.4.1.5: Public entry points and YAML return [closed]"]
     n21["bob-cli-pf.4.1.6: Real Obsidian acceptance and editor documentation [closed]"]
-    n22["bob-cli-pf.4.1.7: Finish the core property editor's landing repairs and real-app acceptance [in_progress]"]
+    n22["bob-cli-pf.4.1.7: Finish the core property editor's landing repairs and real-app acceptance [closed]"]
     n23["bob-cli-pf.4.1.7.1: In-flight write safety, Esc, and YAML escape [closed]"]
     n24["bob-cli-pf.4.1.7.2: Row identity, overlays, diagnostics, and value fidelity [closed]"]
     n25["bob-cli-pf.4.1.7.3: Real-Obsidian acceptance for write paths [closed]"]
-    n26["bob-cli-pf.4.1.7.4: Real-Obsidian acceptance for panes, entry points, and visuals [in_progress]"]
+    n26["bob-cli-pf.4.1.7.4: Real-Obsidian acceptance for panes, entry points, and visuals [closed]"]
     n27["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [in_progress]"]
     n28["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [in_progress]"]
     n0 --> n1
@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 9 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 9 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.land/README.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.land.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5/README.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6/README.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
@@ -203,6 +203,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e60541b`](https://github.com/bobs-org/bob-plugins/commit/e60541b3ec35b6d9b5aef8b886ce3e57a473f77e) | fix(property-editor): stack narrow rows on an inner grid | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:32:00 EST |
 | bob-plugins | [`bob-plugins@e2e944a`](https://github.com/bobs-org/bob-plugins/commit/e2e944af199ed8d49685f0b7616fc10fcc73e009) | fix(property-editor): restore selected-row fill over the button reset | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:44:09 EST |
 | bob-plugins | [`bob-plugins@2661302`](https://github.com/bobs-org/bob-plugins/commit/2661302799f3dc4842ca4782a21221201d32673b) | fix(property-editor): grow stacked rows with a flex button | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:56:03 EST |
+| bob-plugins | [`bob-plugins@8efc5a6`](https://github.com/bobs-org/bob-plugins/commit/8efc5a6d3caff4747cc73ad4ad7a6063066ba980) | fix(property-editor): preserve YAML Done selection through cache-first reopen | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2026-11-23 12:34:55 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -21,7 +21,7 @@ just check exit 0; focused CLI props 18 passed including lock-wait replan; just 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pf.4](bob-cli-pf.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.4](bob-cli-pf.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
