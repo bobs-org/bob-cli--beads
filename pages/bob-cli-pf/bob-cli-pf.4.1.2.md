@@ -20,7 +20,7 @@ editor-shell: build cache-first grouped rows, role routing, navigation and close
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

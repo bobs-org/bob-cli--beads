@@ -58,8 +58,8 @@ flowchart TD
     n15["bob-cli-pf.4.1: Complete the core note property editor [in_progress]"]
     n16["bob-cli-pf.4.1.1: Guarded property transport, history, and overlays [closed]"]
     n17["bob-cli-pf.4.1.2: Property modal, role routing, and discrete edits [closed]"]
-    n18["bob-cli-pf.4.1.3: Shared typed stages, date-time, and tags [in_progress]"]
-    n19["bob-cli-pf.4.1.4: Property name completion and positioned creation [in_progress]"]
+    n18["bob-cli-pf.4.1.3: Shared typed stages, date-time, and tags [closed]"]
+    n19["bob-cli-pf.4.1.4: Property name completion and positioned creation [closed]"]
     n20["bob-cli-pf.4.1.5: Public entry points and YAML return [in_progress]"]
     n21["bob-cli-pf.4.1.6: Real Obsidian acceptance and editor documentation [in_progress]"]
     n22["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [in_progress]"]
@@ -133,7 +133,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.1/README.md) | [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.2/README.md) | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.3.md) | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.4/README.md) | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.4/README.md) | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.5/README.md) | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.6/README.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.land/README.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
@@ -162,6 +162,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8ac4790`](https://github.com/bobs-org/bob-plugins/commit/8ac4790050d81a839ffe66bb1e23313241f494c3) | feat(ledger-tools): add guarded props v1 client, history, and overlays | [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) | 2026-11-22 23:27:23 EST |
 | bob-plugins | [`bob-plugins@a5c2269`](https://github.com/bobs-org/bob-plugins/commit/a5c2269960e3116aa512ad5c33688b0413bf00b5) | feat(ledger-tools): add property editor shell modal with role routing | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 2026-11-22 23:41:12 EST |
 | bob-plugins | [`bob-plugins@a7c9135`](https://github.com/bobs-org/bob-plugins/commit/a7c91350122782fb8add63cafea11ed9555339c1) | feat(property-editor): add typed value stages | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 2026-11-23 00:47:25 EST |
+| bob-plugins | [`bob-plugins@15e1fa6`](https://github.com/bobs-org/bob-plugins/commit/15e1fa6bbbb3785b261d7cbcc79d89490d422541) | feat(property-editor): add positioned creation with vault name completion | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 2026-11-23 01:34:36 EST |
 
 <!-- sase:referenced-by:start -->
 
