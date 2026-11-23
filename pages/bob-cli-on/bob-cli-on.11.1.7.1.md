@@ -26,7 +26,7 @@ Verified: npm run build + build:check; 32/32 twin+integration+public-path tests 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

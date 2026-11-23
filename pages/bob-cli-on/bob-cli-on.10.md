@@ -13,7 +13,7 @@ obsidian-gestures: add recognizer and layout twins to the cycler and nav, guard 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-on.11](bob-cli-on.11.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [bob-cli-on.11](bob-cli-on.11.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.16](bob-cli-on.16.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.2](bob-cli-on.2.md) ✓ · ⧖ 2026-11-21
 - **Depends on:** [bob-cli-on.3](bob-cli-on.3.md) ✓ · ⧖ 2026-11-21

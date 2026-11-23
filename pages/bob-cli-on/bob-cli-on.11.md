@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-on](README.md) / bob-cli-on.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ex](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ex.md) · **Assignee:** `bob-cli-on.11` · **Size:** large
-**Created:** 2026-11-21 11:13:27 EST
+**Created:** 2026-11-21 11:13:27 EST · **Closed:** 2026-11-23 00:54:15 EST
 **Plan:** [202611/task\_requirements.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_requirements.md)
 
 <!-- sase:links:start -->
@@ -28,6 +28,8 @@ obsidian-close-card: mirror the requirement split in nav with api.taskSplit, bin
 ## Notes
 
 [2026-11-22T19:56:19Z · bob-cli-on.11] Planning audit: no prior implementation notes; prerequisites on.8 and on.10 are closed. At bob-cli 96a23f50 and bob-plugins 2b3b6b6, Rust carry/close contracts and plugin req guards are landed, but nav split remains SP1-SP31, successors is v5, and taskSplit API is absent. Authored and validated a six-phase child epic: carry API, snapshot/verdict model, picker v6, guarded carry/drop apply, placement/landing, and managed Done integration. No implementation changes made. Child land agent must verify deployment and close only on.11; no epic-symbol entries currently target this phase. Existing bob-cli-p8 remains separate scope.
+
+[2026-11-23T05:54:54Z · bob-cli-on.11.1.7.land] PHASE CLOSEOUT from mixed-undo tale: carry-now and close-card scope fulfilled. Child epic on.11.1 and repair epic on.11.1.7 closed. 137 compose order closeRestores then reqRestores; public-path 25/25; live e2e 6/6; just check succeeded (ab245f33e7288778f9f38dd7e929f822). Cycler 1.58.1 deployed without -F, nav 2.107.0 synced. Follow-ups remain km/io/ob; p8 separate. Containing epic bob-cli-on left open for its land agent. No epic-symbols. justfile has no symvision recipe.
 
 ## Dependencies
 

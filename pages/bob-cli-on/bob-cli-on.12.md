@@ -13,7 +13,7 @@ promotion: rewrite nav's project seed so top-level requirements become ## Tasks 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-on.11](bob-cli-on.11.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [bob-cli-on.11](bob-cli-on.11.md) ✓ · ⧖ 2026-11-21
 - **Blocks:** [bob-cli-on.17](bob-cli-on.17.md) ◐ · ⧖ 2026-11-21
 
 ## Agents

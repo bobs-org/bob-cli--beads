@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-on.11](bob-cli-on.11.md) / bob-cli-on.11.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-on.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.md) · **Assignee:** `bob-cli-on.11.1.land`
-**Created:** 2026-11-22 14:59:30 EST
+**Created:** 2026-11-22 14:59:30 EST · **Closed:** 2026-11-23 00:54:15 EST
 **Plan:** [202611/obsidian\_requirement\_close\_card.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_requirement_close_card.md)
 
 <!-- sase:links:start -->
@@ -34,6 +34,10 @@ Complete bob-cli-on.11 with guarded requirement carry, successor picker v6, orde
 [2026-11-23T02:08:52Z · bob-cli-pj.2.1.land] DISCOVERED ISSUE: pj.2.1 lander triaged bob-cli-pj.2.1.3 PROPOSED FOLLOW-UP #1. just docs-check on bob-cli 29d7fec7 / plugins c8deb534 reports plugin-apis.md 8963/8000 as an advisory warning, not a failing gate. Canonical count_words: 8401 before this epic, then 8579 (1e38521), 8789 (289c7f6), 8845 (3fbe993), 8963 (c91ebae). Existing headroom task bob-cli-ob received independent corroboration; preserve published API facts and consider tightening this epic additions while finishing docs. Evidence file:explicit:f0ee94709e52d2aa9074a8ad. No new CI-failure task.
 
 [2026-11-23T03:07:21Z · bob-cli-pj.land] DISCOVERED ISSUE disposition from outer bob-cli-pj landing: proposing bead bob-cli-pj.2.1.3 #1's plugin-apis advisory is already covered by this epic note #3 and task bob-cli-ob. Relayed the attribution to ob; no new task or independent reproduction claimed. This does not assign unrelated headroom work to the refs epic.
+
+[2026-11-23T05:23:07Z · bob-cli-on.11.1.7.land] LAND RESUMPTION BLOCKER from on.11.1.7 lander: all original seven repair categories now have code and passing focused reproductions, but mixed ordinary offer-close + requirement verdict Undo is still broken. On plugins e1ed13f, ordinary Done and requirement Drop in one file both apply, then immediate guarded Undo refuses because 137 composes restores in reverse chronological order and overwrites the final postimage with the older ordinary-close postimage. This originated in c91ebae. on.11.1.7 remains open for a small repair tale whose coder must finish nested closure. Reviewed all six phases and follow-ups; flakes remain km/io, advisory API-documentation headroom remains ob. No new task or forced close.
+
+[2026-11-23T05:54:15Z · bob-cli-on.11.1.7.land] All six phases and child epic on.11.1.7 closed. Mixed Undo restored: 137 composes closeRestores then reqRestores; public-path 25/25; live e2e 6/6; just check succeeded (ab245f33e7288778f9f38dd7e929f822). Cycler 1.58.1 deployed, nav 2.107.0 synced. Follow-ups remain km/io/ob; p8 separate. Rechecked descendant notes, LAND notes, plan:202611/obsidian_requirement_close_card.md, post-child property-card/props/highlights drift with no integration conflict. No epic-symbols. justfile has no symvision recipe.
 
 ## Agents
 
