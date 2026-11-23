@@ -19,7 +19,7 @@ inventory-roles: build the source-preserving props document model, semantic fing
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

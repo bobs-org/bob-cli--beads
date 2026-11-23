@@ -51,8 +51,8 @@ flowchart TD
     n8["bob-cli-pf.2: Generic bob props show|update (bob-cli) [in_progress]"]
     n9["bob-cli-pf.2.1: Generic bob props show and update [in_progress]"]
     n10["bob-cli-pf.2.1.1: Ordered frontmatter inventory and authoritative property roles [closed]"]
-    n11["bob-cli-pf.2.1.2: Strict property operations and byte-exact undo [in_progress]"]
-    n12["bob-cli-pf.2.1.3: Guarded props commands, capability, completion, and contract [in_progress]"]
+    n11["bob-cli-pf.2.1.2: Strict property operations and byte-exact undo [closed]"]
+    n12["bob-cli-pf.2.1.3: Guarded props commands, capability, completion, and contract [closed]"]
     n13["bob-cli-pf.3: Whole-container ownership primitive and focus spike (bob-plugins) [closed]"]
     n14["bob-cli-pf.4: The =+ property editor (bob-plugins) [in_progress]"]
     n15["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [in_progress]"]
@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.md) | [bob-cli-pf.2](bob-cli-pf.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.1.md) | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.2.1.2.md) | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.2.1.3/README.md) | [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.2.1.3/README.md) | [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.2.1.land/README.md) | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.3/README.md) | [bob-cli-pf.3](bob-cli-pf.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4/README.md) | [bob-cli-pf.4](bob-cli-pf.4.md) | 0 |
@@ -115,6 +115,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`e98c7fe`](https://github.com/bobs-org/bob-cli/commit/e98c7fe96c24e3c3b243eb05c6cd5bf4ce07b024) | feat(props): add frontmatter inventory and roles | [bob-cli-pf.2.1.1](bob-cli-pf.2.1.1.md) | 2026-11-22 17:06:45 EST |
 | bob-cli | [`fdd9472`](https://github.com/bobs-org/bob-cli/commit/fdd94725e315babce6ff79668d2b01ec97016b72) | feat(props): add strict span operations and byte-exact undo | [bob-cli-pf.2.1.2](bob-cli-pf.2.1.2.md) | 2026-11-22 19:11:52 EST |
+| bob-cli | [`3e480e4`](https://github.com/bobs-org/bob-cli/commit/3e480e4a3075245fee1b6369fbda3c5a325d5652) | feat(props): add bob props show and update commands | [bob-cli-pf.2.1.3](bob-cli-pf.2.1.3.md) | 2026-11-22 20:39:30 EST |
 
 <!-- sase:referenced-by:start -->
 
