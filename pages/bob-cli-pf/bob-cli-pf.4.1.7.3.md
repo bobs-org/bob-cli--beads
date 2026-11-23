@@ -16,7 +16,7 @@
 | related | file:explicit:7e12d43d0c85a1341586ae16 | attached via sase artifact create --bead |
 | related | file:explicit:8f50ead937709232d964a1c2 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -46,7 +46,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 
 Further targeted real-app probes passed 7 day write/undo assertions, then exposed canonical-record misclassification in the clean bob-cli binary from SHA 87ee683ae7ed698db10e79c892d2be109a45d737. Its props show reports type [[record]] as note and status as loose, so Enter opens a generic text stage. Evidence: .git/property-editor-record-clean-base-repro.json and .git/day-record-probe.json. The resolver was looking up record types only
 
-… and 1451 more characters
+… and 2931 more characters
 
 ## Dependencies
 
@@ -57,7 +57,7 @@ Further targeted real-app probes passed 7 day write/undo assertions, then expose
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 8 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 9 |
 
 ## Commits
 
@@ -71,6 +71,7 @@ Further targeted real-app probes passed 7 day write/undo assertions, then expose
 | bob-plugins | [`bob-plugins@b3681ac`](https://github.com/bobs-org/bob-plugins/commit/b3681acc185c2fa3f1f5418f1d67d81cbafef7c6) | fix(properties): keep keyboard focus on selected rows and empty editors | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:43:14 EST |
 | bob-cli | [`de66b39`](https://github.com/bobs-org/bob-cli/commit/de66b399e4d9a9837989687ec172217b32d4238f) | fix(props): resolve canonical record ownership through its album folder | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:10:01 EST |
 | bob-plugins | [`bob-plugins@028979f`](https://github.com/bobs-org/bob-plugins/commit/028979f51011fc4183eef940a6d51e64154a007d) | fix(properties): focus restored rows and newly opened stage inputs | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:11:30 EST |
+| bob-plugins | [`bob-plugins@c4f8094`](https://github.com/bobs-org/bob-plugins/commit/c4f80943bbeb87fda20cbac76964240fc670f3b8) | fix(property-editor): preserve Obsidian widget types in name completion | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:38:58 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -81,6 +82,7 @@ Further targeted real-app probes passed 7 day write/undo assertions, then expose
 | read-by | [agent:bob-cli-pf.4.1.7.3--1][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-pf.4.1.7.3--2][1] | Recover acceptance scope and current phase notes | 1 |
 | read-by | [agent:bob-cli-pf.4.1.7.3--3][1] | Read scope and prior evidence before continuing write acceptance | 1 |
+| read-by | [agent:bob-cli-pf.4.1.7.3--4][1] | Review assigned acceptance scope and prior evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md
 
