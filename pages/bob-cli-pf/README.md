@@ -153,7 +153,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 9 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 9 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.land.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.land.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5/README.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6/README.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
@@ -204,6 +204,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e2e944a`](https://github.com/bobs-org/bob-plugins/commit/e2e944af199ed8d49685f0b7616fc10fcc73e009) | fix(property-editor): restore selected-row fill over the button reset | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:44:09 EST |
 | bob-plugins | [`bob-plugins@2661302`](https://github.com/bobs-org/bob-plugins/commit/2661302799f3dc4842ca4782a21221201d32673b) | fix(property-editor): grow stacked rows with a flex button | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:56:03 EST |
 | bob-plugins | [`bob-plugins@8efc5a6`](https://github.com/bobs-org/bob-plugins/commit/8efc5a6d3caff4747cc73ad4ad7a6063066ba980) | fix(property-editor): preserve YAML Done selection through cache-first reopen | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2026-11-23 12:34:55 EST |
+| bob-cli--plans | [`bob-cli--plans@806e56f`](https://github.com/bobs-org/bob-cli--plans/commit/806e56fdce2b0569caf00f2dad86c56515acec32) | chore(plans): mark property editor yaml-return and parent plans done | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2026-11-23 12:36:18 EST |
 
 <!-- sase:referenced-by:start -->
 
