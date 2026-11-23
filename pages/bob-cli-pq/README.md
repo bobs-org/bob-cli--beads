@@ -121,7 +121,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-pq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.5.md) | [bob-cli-pq.5](bob-cli-pq.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-pq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pq.6.md) | [bob-cli-pq.6](bob-cli-pq.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-pq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.7/README.md) | [bob-cli-pq.7](bob-cli-pq.7.md) | 1 |
-| [bbugyi200.athena.bob-cli-pq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.land/README.md) | [bob-cli-pq](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-pq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pq.land/README.md) | [bob-cli-pq](README.md) | 3 |
 
 ## Commits
 
@@ -138,6 +138,7 @@ flowchart TD
 | bob-cli | [`bd67dfc`](https://github.com/bobs-org/bob-cli/commit/bd67dfc8097211bad9e4004a2e8f441aaba8111e) | docs(memory): describe task requirement diamond states | [bob-cli-pq.7](bob-cli-pq.7.md) | 2026-11-23 14:41:10 EST |
 | bob-cli | [`588c621`](https://github.com/bobs-org/bob-cli/commit/588c62102181d75920f5826b3c3c25b170e11bf1) | docs(task-reqs): land the criterion diamond glossary and geometry | [bob-cli-pq](README.md) | 2026-11-23 15:44:34 EST |
 | bob-mac-capture | [`bob-mac-capture@0b441d3`](https://github.com/bobs-org/bob-mac-capture/commit/0b441d3b9c9f5d29fd05967160126a6fba12ca44) | test(refs): await Highlights task results before asserting | [bob-cli-pq](README.md) | 2026-11-23 15:44:58 EST |
+| bob-plugins | [`bob-plugins@6d98af1`](https://github.com/bobs-org/bob-plugins/commit/6d98af17e68af8bc8f34ee60b89595762c38356c) | fix(nav): keep staged requirement cues on the diamond ink | [bob-cli-pq](README.md) | 2026-11-23 15:45:20 EST |
 
 <!-- sase:referenced-by:start -->
 
