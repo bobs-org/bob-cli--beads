@@ -196,7 +196,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | bob-mac-capture | [`bob-mac-capture@91db947`](https://github.com/bobs-org/bob-mac-capture/commit/91db947c8e67c815ab842ff37424255716c2573b) | fix(capture): correct requirement scope expectation to Bob order | [bob-cli-on.15.1.4](bob-cli-on.15.1.4.md) | 2026-11-22 18:47:52 EST |
 | bob-cli | [`9d0cbfb`](https://github.com/bobs-org/bob-cli/commit/9d0cbfbe165d56ac6f24b34d01d861d60d93f1b4) | docs(requirements): describe the Mac requirement card | [bob-cli-on.15.1.5](bob-cli-on.15.1.5.md) | 2026-11-22 19:41:54 EST |
 
-… and 20 more commits
+… and 21 more commits
 
 <!-- sase:referenced-by:start -->
 
