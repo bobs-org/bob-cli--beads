@@ -16,7 +16,7 @@
 | related | file:explicit:7e12d43d0c85a1341586ae16 | attached via sase artifact create --bead |
 | related | file:explicit:8f50ead937709232d964a1c2 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -38,6 +38,10 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 
 [2026-11-23T11:19:27Z · bob-cli-pf.4.1.7.3--2] Further recovery review found and reproduced a product defect: y on invalid YAML selected type at line 2 instead of Bob's error at line 4. Two failing-first entrypoint tests also proved that the selected second duplicate collapsed to the first occurrence. Fixed modal-to-excursion line propagation for duplicates and prioritized parser diagnostics over cached keys for damaged YAML. Regenerated main.js; all 69 focused tests passed. A fresh-profile real-Obsidian recovery probe then passed all 7 assertions (invalid line 4, unclosed line 1, selected duplicate line 4, plus verbatim diagnostics and Done returns). The harness now waits for the Done control rather than accepting an already-matching cursor before the async excursion starts. This joins the 5 passing real-app project assertions from the prior probe, but does not replace full acceptance. Corrected harness recovery expectations to match Bob's actual source lines. Full npm test and validate will rerun because this turn now includes a product fix. bob plugins sync deployed the updated ledger-tools main.js; all fragments remain below 1000 lines and epic-symbols is empty. Visual diagnostics are attached as file:explicit:7e12d43d0c85a1341586ae16 (loading) and file:explicit:8f50ead937709232d964a1c2 (saved). Keep the missing shell styles with the existing acceptance-surfaces phase as recorded above; full acceptance report and all final screenshots still need inspection, registration, and references before this phase closes.
 
+[2026-11-23T11:41:54Z · bob-cli-pf.4.1.7.3--3] The a3b40x full run passed 12 assertions before derived YAML targeted locked_toggle. Diagnosed a product focus defect: repaint restored the previously focused key after selection moved, so native Space selected the wrong row before y. A real Athena probe reproduced j moving selection while focus stayed behind. Focus now follows the selected source occurrence; two failing-first tests cover ordinary and duplicate keys, and the harness asserts selection/focus retention before YAML. A real protected-row probe passed all 22 checks (keyboard navigation, derived/identity Enter/delete/Space byte preservation, and correct YAML key targets). A separate real plain-note probe exposed missing keyboard focus in empty editors; added a focusable browse host and fallback plus a third failing-first regression. The fixed plain-note probe passes 7 assertions, including exact first-add, full-framing undo, redo, and literal-name bytes. All 96 focused tests pass; main.js is rebuilt and deployed via bob plugins sync from the linked checkout. The prior full unit run had 9017 pass, 5 skipped, and only known bob-cli-km/bob-cli-io timing failures; both passed isolation 40/40 and serialized perf passed 26/26. Inspected every PNG from the full failure and both diagnostic failures; visual-review notes are in .git/property-editor-visual-review-current.json. The known shell styles remain assigned to acceptance-surfaces. Prior full evidence is preserved in .git/property-editor-acceptance-failed-derived. Record handoff acceptance now also checks the target record path and selected status field. No epic symbols remain. Full suite and fresh-source write acceptance rerun next; this phase stays open until the complete report and screenshots pass review and are registered.
+
+[2026-11-23T11:42:22Z · bob-cli-pf.4.1.7.3--3] Count correction to the preceding note: the passing plain-note probe contains 6 assertions, not 7. The protected-row probe contains 22, and the focused unit/harness total is 96.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) ✓ · ⧖ 2026-11-23
@@ -47,7 +51,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 5 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 6 |
 
 ## Commits
 
@@ -58,6 +62,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 | bob-plugins | [`bob-plugins@3419a35`](https://github.com/bobs-org/bob-plugins/commit/3419a35622651f530b68f1d4ebdc5d9f47df8e5e) | test(property-editor): diagnose modal startup and strengthen write acceptance | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 05:39:03 EST |
 | bob-plugins | [`bob-plugins@e65cfe0`](https://github.com/bobs-org/bob-plugins/commit/e65cfe03a01b7ec4efbb6ca521844f09bb434d7e) | fix(e2e): focus Obsidian before opening property editor | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 05:54:36 EST |
 | bob-plugins | [`bob-plugins@3bd5c5c`](https://github.com/bobs-org/bob-plugins/commit/3bd5c5c26d56b70def897c6efd1660f2d64ee4cf) | fix(property-editor): target YAML recovery and stabilize acceptance | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:20:57 EST |
+| bob-plugins | [`bob-plugins@b3681ac`](https://github.com/bobs-org/bob-plugins/commit/b3681acc185c2fa3f1f5418f1d67d81cbafef7c6) | fix(properties): keep keyboard focus on selected rows and empty editors | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:43:14 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -66,6 +71,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.4.1.7.3--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-pf.4.1.7.3--2][1] | Recover acceptance scope and current phase notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md
 
