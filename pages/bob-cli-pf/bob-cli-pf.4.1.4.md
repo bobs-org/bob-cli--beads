@@ -20,7 +20,7 @@ add-flow: implement positioned insertion, vault name/type/count completion, lite
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -33,3 +33,15 @@ add-flow: implement positioned insertion, vault name/type/count completion, lite
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@15e1fa6`](https://github.com/bobs-org/bob-plugins/commit/15e1fa6bbbb3785b261d7cbcc79d89490d422541) | feat(property-editor): add positioned creation with vault name completion | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 2026-11-23 01:34:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.4.1.4][1] | Need notes field to see if earlier agent left remaining work | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->

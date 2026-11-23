@@ -13,7 +13,7 @@ acceptance-docs: add real-Obsidian acceptance and offline self-tests, document t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
