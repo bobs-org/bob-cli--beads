@@ -17,7 +17,7 @@ tick-contention-waits: give bob ref scan an inputs_changed error code, map lock_
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pj.2](bob-cli-pj.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pj.2](bob-cli-pj.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

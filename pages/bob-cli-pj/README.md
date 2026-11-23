@@ -30,7 +30,7 @@ Mac bob tick runs exit 0 with a waiting step when the only trouble is vault-lock
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-pj.1](bob-cli-pj.1.md) | Report vault contention as waiting, with escalation | ✓ closed | medium | 2026-11-22 | 1 | 1 |
-| [bob-cli-pj.2](bob-cli-pj.2.md) | Invalidate only the plans an edit affects | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
+| [bob-cli-pj.2](bob-cli-pj.2.md) | Invalidate only the plans an edit affects | ✓ closed | large | 2026-11-22 | 1 | 0 |
 
 ## Lineage
 
@@ -38,8 +38,8 @@ Mac bob tick runs exit 0 with a waiting step when the only trouble is vault-lock
 flowchart TD
     n0["bob-cli-pj: Stop bob tick from mailing on self-healing vault contention [in_progress]"]
     n1["bob-cli-pj.1: Report vault contention as waiting, with escalation [closed]"]
-    n2["bob-cli-pj.2: Invalidate only the plans an edit affects [in_progress]"]
-    n3["bob-cli-pj.2.1: Refresh only reference plans affected by concurrent edits [in_progress]"]
+    n2["bob-cli-pj.2: Invalidate only the plans an edit affects [closed]"]
+    n3["bob-cli-pj.2.1: Refresh only reference plans affected by concurrent edits [closed]"]
     n4["bob-cli-pj.2.1.1: Track PDF dependencies and classify scan changes [closed]"]
     n5["bob-cli-pj.2.1.2: Refresh affected plans during unlocked preparation [closed]"]
     n6["bob-cli-pj.2.1.3: Refresh outside writer locks and prove the complete contract [closed]"]
@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-pj.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.1/README.md) | [bob-cli-pj.2.1.1](bob-cli-pj.2.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-pj.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.2/README.md) | [bob-cli-pj.2.1.2](bob-cli-pj.2.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-pj.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.3/README.md) | [bob-cli-pj.2.1.3](bob-cli-pj.2.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-pj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.land/README.md) | [bob-cli-pj.2.1](bob-cli-pj.2.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-pj.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-pj.2.1.land.md) | [bob-cli-pj.2.1](bob-cli-pj.2.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-pj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.land/README.md) | [bob-cli-pj](README.md) | 0 |
 
 ## Commits
@@ -74,6 +74,7 @@ flowchart TD
 | bob-cli | [`063a876`](https://github.com/bobs-org/bob-cli/commit/063a876807b0a008cc6cc0e65d68ddb10c0eea60) | feat(highlights): classify scan changes from per-PDF dependency evidence | [bob-cli-pj.2.1.1](bob-cli-pj.2.1.1.md) | 2026-11-22 19:31:05 EST |
 | bob-cli | [`33f6d08`](https://github.com/bobs-org/bob-cli/commit/33f6d08d2da67c69930a6c24628c3cdbd59f429d) | feat(highlights): refresh affected plans during preparation | [bob-cli-pj.2.1.2](bob-cli-pj.2.1.2.md) | 2026-11-22 20:22:03 EST |
 | bob-cli | [`29d7fec`](https://github.com/bobs-org/bob-cli/commit/29d7fec797ccc09ae932d51cc8a08bf365a637fa) | feat(highlights-ref): lock-window scan coherence with typed ScanChange classification | [bob-cli-pj.2.1.3](bob-cli-pj.2.1.3.md) | 2026-11-22 21:00:28 EST |
+| bob-cli | [`15225a6`](https://github.com/bobs-org/bob-cli/commit/15225a6a7b86e887c7b35a655c719ce197efbc88) | feat(highlights-ref): converge refresh with live dependencies and lock-window settle | [bob-cli-pj.2.1](bob-cli-pj.2.1.md) | 2026-11-22 22:01:49 EST |
 
 <!-- sase:referenced-by:start -->
 

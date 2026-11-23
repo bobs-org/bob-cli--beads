@@ -32,3 +32,15 @@ lock_refresh_and_contract: carry the refresh budget through lock revalidation, p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`29d7fec`](https://github.com/bobs-org/bob-cli/commit/29d7fec797ccc09ae932d51cc8a08bf365a637fa) | feat(highlights-ref): lock-window scan coherence with typed ScanChange classification | [bob-cli-pj.2.1.3](bob-cli-pj.2.1.3.md) | 2026-11-22 21:00:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pj.2.1.3][1] | check phase notes and remaining work | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-pj.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->
