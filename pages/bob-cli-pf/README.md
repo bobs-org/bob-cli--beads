@@ -151,7 +151,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.6.md) | [bob-cli-pf.4.1.6](bob-cli-pf.4.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.1/README.md) | [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 6 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 7 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.4/README.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.land/README.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
@@ -191,6 +191,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e65cfe0`](https://github.com/bobs-org/bob-plugins/commit/e65cfe03a01b7ec4efbb6ca521844f09bb434d7e) | fix(e2e): focus Obsidian before opening property editor | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 05:54:36 EST |
 | bob-plugins | [`bob-plugins@3bd5c5c`](https://github.com/bobs-org/bob-plugins/commit/3bd5c5c26d56b70def897c6efd1660f2d64ee4cf) | fix(property-editor): target YAML recovery and stabilize acceptance | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:20:57 EST |
 | bob-plugins | [`bob-plugins@b3681ac`](https://github.com/bobs-org/bob-plugins/commit/b3681acc185c2fa3f1f5418f1d67d81cbafef7c6) | fix(properties): keep keyboard focus on selected rows and empty editors | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:43:14 EST |
+| bob-cli | [`de66b39`](https://github.com/bobs-org/bob-cli/commit/de66b399e4d9a9837989687ec172217b32d4238f) | fix(props): resolve canonical record ownership through its album folder | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:10:01 EST |
 
 <!-- sase:referenced-by:start -->
 

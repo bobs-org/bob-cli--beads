@@ -16,7 +16,7 @@
 | related | file:explicit:7e12d43d0c85a1341586ae16 | attached via sase artifact create --bead |
 | related | file:explicit:8f50ead937709232d964a1c2 | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -42,6 +42,12 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 
 [2026-11-23T11:42:22Z · bob-cli-pf.4.1.7.3--3] Count correction to the preceding note: the passing plain-note probe contains 6 assertions, not 7. The protected-row probe contains 22, and the focused unit/harness total is 96.
 
+[2026-11-23T12:07:44Z · bob-cli-pf.4.1.7.3--4] The e8dv84 full run had 9020 plugin tests pass, 5 skipped, and only known bob-cli-km/bob-cli-io timing failures; isolation passed 40/40 and serialized perf passed 26/26. Validation passed. Its real-app run passed 8 assertions before selected-row focus vanished after deletion. A traced Athena reproduction showed the confirmed deletion temporarily focuses the persistent browse host; reconciliation then incorrectly retains host focus. Fixed host-to-row focus restoration, with two failing-first regressions (deletion and initial report). The same real write sequence now passes 9 assertions.
+
+Further targeted real-app probes passed 7 day write/undo assertions, then exposed canonical-record misclassification in the clean bob-cli binary from SHA 87ee683ae7ed698db10e79c892d2be109a45d737. Its props show reports type [[record]] as note and status as loose, so Enter opens a generic text stage. Evidence: .git/property-editor-record-clean-base-repro.json and .git/day-record-probe.json. The resolver was looking up record types only
+
+… and 1451 more characters
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) ✓ · ⧖ 2026-11-23
@@ -51,7 +57,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 6 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 7 |
 
 ## Commits
 
@@ -63,6 +69,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 | bob-plugins | [`bob-plugins@e65cfe0`](https://github.com/bobs-org/bob-plugins/commit/e65cfe03a01b7ec4efbb6ca521844f09bb434d7e) | fix(e2e): focus Obsidian before opening property editor | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 05:54:36 EST |
 | bob-plugins | [`bob-plugins@3bd5c5c`](https://github.com/bobs-org/bob-plugins/commit/3bd5c5c26d56b70def897c6efd1660f2d64ee4cf) | fix(property-editor): target YAML recovery and stabilize acceptance | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:20:57 EST |
 | bob-plugins | [`bob-plugins@b3681ac`](https://github.com/bobs-org/bob-plugins/commit/b3681acc185c2fa3f1f5418f1d67d81cbafef7c6) | fix(properties): keep keyboard focus on selected rows and empty editors | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 06:43:14 EST |
+| bob-cli | [`de66b39`](https://github.com/bobs-org/bob-cli/commit/de66b399e4d9a9837989687ec172217b32d4238f) | fix(props): resolve canonical record ownership through its album folder | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:10:01 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -72,6 +79,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.4.1.7.3--1][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-pf.4.1.7.3--2][1] | Recover acceptance scope and current phase notes | 1 |
+| read-by | [agent:bob-cli-pf.4.1.7.3--3][1] | Read scope and prior evidence before continuing write acceptance | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md
 
