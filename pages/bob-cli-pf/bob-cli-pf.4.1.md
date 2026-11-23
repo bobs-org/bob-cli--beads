@@ -16,3 +16,15 @@ Any Markdown note supports guarded keyboard-first property editing, add/delete, 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.land/README.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.4.1.1][1] | Need DECISIONS section that phase workers must honor | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

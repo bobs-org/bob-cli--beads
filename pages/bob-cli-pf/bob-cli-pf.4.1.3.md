@@ -13,7 +13,7 @@ value-stages: reuse record helpers for typed edits, add datetime and tags, wire 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

@@ -57,7 +57,7 @@ flowchart TD
     n14["bob-cli-pf.4: The =+ property editor (bob-plugins) [in_progress]"]
     n15["bob-cli-pf.4.1: Complete the core note property editor [in_progress]"]
     n16["bob-cli-pf.4.1.1: Guarded property transport, history, and overlays [closed]"]
-    n17["bob-cli-pf.4.1.2: Property modal, role routing, and discrete edits [in_progress]"]
+    n17["bob-cli-pf.4.1.2: Property modal, role routing, and discrete edits [closed]"]
     n18["bob-cli-pf.4.1.3: Shared typed stages, date-time, and tags [in_progress]"]
     n19["bob-cli-pf.4.1.4: Property name completion and positioned creation [in_progress]"]
     n20["bob-cli-pf.4.1.5: Public entry points and YAML return [in_progress]"]
@@ -131,7 +131,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.3/README.md) | [bob-cli-pf.3](bob-cli-pf.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.md) | [bob-cli-pf.4](bob-cli-pf.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.1/README.md) | [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.2/README.md) | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.2/README.md) | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.3/README.md) | [bob-cli-pf.4.1.3](bob-cli-pf.4.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.4/README.md) | [bob-cli-pf.4.1.4](bob-cli-pf.4.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.5/README.md) | [bob-cli-pf.4.1.5](bob-cli-pf.4.1.5.md) | 0 |
@@ -160,6 +160,7 @@ flowchart TD
 | bob-cli | [`3966100`](https://github.com/bobs-org/bob-cli/commit/396610031495186d77f64f580a02a3ceb8f114ac) | feat(props): repair ownership, reversible writes, and CLI contract | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 2026-11-22 22:55:51 EST |
 | bob-cli--plans | [`bob-cli--plans@77c260f`](https://github.com/bobs-org/bob-cli--plans/commit/77c260f3fce6382df29e4d3792550c82ac6d8439) | chore(plans): mark props\_cli and landing repairs done | [bob-cli-pf.2.1](bob-cli-pf.2.1.md) | 2026-11-22 22:57:10 EST |
 | bob-plugins | [`bob-plugins@8ac4790`](https://github.com/bobs-org/bob-plugins/commit/8ac4790050d81a839ffe66bb1e23313241f494c3) | feat(ledger-tools): add guarded props v1 client, history, and overlays | [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) | 2026-11-22 23:27:23 EST |
+| bob-plugins | [`bob-plugins@a5c2269`](https://github.com/bobs-org/bob-plugins/commit/a5c2269960e3116aa512ad5c33688b0413bf00b5) | feat(ledger-tools): add property editor shell modal with role routing | [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) | 2026-11-22 23:41:12 EST |
 
 <!-- sase:referenced-by:start -->
 

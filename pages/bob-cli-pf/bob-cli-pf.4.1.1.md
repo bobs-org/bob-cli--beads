@@ -19,7 +19,7 @@ props-runtime: implement the props v1 client, guarded session, bounded per-path 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.4.1.2](bob-cli-pf.4.1.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -32,3 +32,15 @@ props-runtime: implement the props v1 client, guarded session, bounded per-path 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8ac4790`](https://github.com/bobs-org/bob-plugins/commit/8ac4790050d81a839ffe66bb1e23313241f494c3) | feat(ledger-tools): add guarded props v1 client, history, and overlays | [bob-cli-pf.4.1.1](bob-cli-pf.4.1.1.md) | 2026-11-22 23:27:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.4.1.1][1] | Need the phase scope, design file, and DECISIONS before closing | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
