@@ -74,7 +74,7 @@ flowchart TD
     n31["bob-cli-pf.5.1.3: Extract lossless property source and clipboard fragments [closed]"]
     n32["bob-cli-pf.5.1.4: Add the validated multiline YAML value stage [closed]"]
     n33["bob-cli-pf.5.1.5: Add YAML copy and overwrite-previewed paste [closed]"]
-    n34["bob-cli-pf.5.1.6: Add local kind conversion and explicit vault type changes [in_progress]"]
+    n34["bob-cli-pf.5.1.6: Add local kind conversion and explicit vault type changes [closed]"]
     n35["bob-cli-pf.5.1.7: Verify property editor parity in Obsidian and deploy [in_progress]"]
     n36["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [in_progress]"]
     n0 --> n1
@@ -183,7 +183,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.3/README.md) | [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.4/README.md) | [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md) | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md) | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md) | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md) | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md) | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6/README.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
@@ -239,6 +239,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@310ce9b`](https://github.com/bobs-org/bob-plugins/commit/310ce9bb13192512d12a0dd1604615b4401d2296) | feat(property-editor): add read-only YAML source and clipboard fragments | [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) | 2026-11-23 14:35:17 EST |
 | bob-plugins | [`bob-plugins@1d78b50`](https://github.com/bobs-org/bob-plugins/commit/1d78b500e156b45563ec7cd38787bf4aab1e42bd) | feat(property-editor): add the validated multiline YAML value stage | [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) | 2026-11-23 15:07:08 EST |
 | bob-plugins | [`bob-plugins@a73f70b`](https://github.com/bobs-org/bob-plugins/commit/a73f70bf4f22c0916e95546275594fd825036e9a) | feat(property-editor): add guarded YAML clipboard paste | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 2026-11-23 15:48:09 EST |
+| bob-plugins | [`bob-plugins@d3a17f0`](https://github.com/bobs-org/bob-plugins/commit/d3a17f0c1793c742f0200cef48c130f80d6ffc1d) | feat(property-editor): preview kind conversion and confirm vault type changes | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 2026-11-23 16:20:03 EST |
 
 <!-- sase:referenced-by:start -->
 

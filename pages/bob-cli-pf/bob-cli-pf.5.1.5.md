@@ -18,7 +18,7 @@ clipboard: wire keyboard and menu copy/paste, show ordered new/replaced/skipped 
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -31,3 +31,15 @@ clipboard: wire keyboard and menu copy/paste, show ordered new/replaced/skipped 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a73f70b`](https://github.com/bobs-org/bob-plugins/commit/a73f70bf4f22c0916e95546275594fd825036e9a) | feat(property-editor): add guarded YAML clipboard paste | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 2026-11-23 15:48:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.5.1.5][1] | Need the phase scope, design file, and prior work notes before continuing this assigned phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md
+
+<!-- sase:referenced-by:end -->

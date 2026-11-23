@@ -13,7 +13,7 @@ acceptance: extend the existing scratch-vault real-Obsidian runner for all parit
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
