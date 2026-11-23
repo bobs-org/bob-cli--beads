@@ -68,7 +68,15 @@ flowchart TD
     n25["bob-cli-pf.4.1.7.3: Real-Obsidian acceptance for write paths [closed]"]
     n26["bob-cli-pf.4.1.7.4: Real-Obsidian acceptance for panes, entry points, and visuals [closed]"]
     n27["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [in_progress]"]
-    n28["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [in_progress]"]
+    n28["bob-cli-pf.5.1: Complete Property Editor native parity [in_progress]"]
+    n29["bob-cli-pf.5.1.1: Add property selection, filtering, and batch delete [closed]"]
+    n30["bob-cli-pf.5.1.2: Add guarded property rename and reorder [closed]"]
+    n31["bob-cli-pf.5.1.3: Extract lossless property source and clipboard fragments [in_progress]"]
+    n32["bob-cli-pf.5.1.4: Add the validated multiline YAML value stage [in_progress]"]
+    n33["bob-cli-pf.5.1.5: Add YAML copy and overwrite-previewed paste [in_progress]"]
+    n34["bob-cli-pf.5.1.6: Add local kind conversion and explicit vault type changes [in_progress]"]
+    n35["bob-cli-pf.5.1.7: Verify property editor parity in Obsidian and deploy [in_progress]"]
+    n36["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -96,9 +104,17 @@ flowchart TD
     n22 --> n25
     n22 --> n26
     n0 --> n27
-    n0 --> n28
+    n27 --> n28
+    n28 --> n29
+    n28 --> n30
+    n28 --> n31
+    n28 --> n32
+    n28 --> n33
+    n28 --> n34
+    n28 --> n35
+    n0 --> n36
     n1 -.-> n14
-    n1 -.-> n28
+    n1 -.-> n36
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
@@ -106,7 +122,7 @@ flowchart TD
     n8 -.-> n14
     n10 -.-> n11
     n11 -.-> n12
-    n13 -.-> n28
+    n13 -.-> n36
     n14 -.-> n27
     n16 -.-> n17
     n17 -.-> n18
@@ -116,7 +132,13 @@ flowchart TD
     n23 -.-> n24
     n24 -.-> n25
     n25 -.-> n26
-    n27 -.-> n28
+    n27 -.-> n36
+    n29 -.-> n30
+    n30 -.-> n31
+    n31 -.-> n32
+    n32 -.-> n33
+    n33 -.-> n34
+    n34 -.-> n35
 ```
 
 ## Dependencies
@@ -155,7 +177,15 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 9 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.land.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5/README.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.1.1.md) | [bob-cli-pf.5.1.1](bob-cli-pf.5.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.2/README.md) | [bob-cli-pf.5.1.2](bob-cli-pf.5.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.3/README.md) | [bob-cli-pf.5.1.3](bob-cli-pf.5.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.4/README.md) | [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md) | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md) | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md) | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md) | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6/README.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.land/README.md) | [bob-cli-pf](README.md) | 0 |
 
@@ -205,6 +235,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@2661302`](https://github.com/bobs-org/bob-plugins/commit/2661302799f3dc4842ca4782a21221201d32673b) | fix(property-editor): grow stacked rows with a flex button | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 10:56:03 EST |
 | bob-plugins | [`bob-plugins@8efc5a6`](https://github.com/bobs-org/bob-plugins/commit/8efc5a6d3caff4747cc73ad4ad7a6063066ba980) | fix(property-editor): preserve YAML Done selection through cache-first reopen | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2026-11-23 12:34:55 EST |
 | bob-cli--plans | [`bob-cli--plans@806e56f`](https://github.com/bobs-org/bob-cli--plans/commit/806e56fdce2b0569caf00f2dad86c56515acec32) | chore(plans): mark property editor yaml-return and parent plans done | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 2026-11-23 12:36:18 EST |
+| bob-plugins | [`bob-plugins@76565b6`](https://github.com/bobs-org/bob-plugins/commit/76565b6d71da6be7f6fb8313cbddcb8d986320bc) | feat(property-editor): add guarded rename and source-order reorder | [bob-cli-pf.5.1.2](bob-cli-pf.5.1.2.md) | 2026-11-23 14:08:54 EST |
 
 <!-- sase:referenced-by:start -->
 

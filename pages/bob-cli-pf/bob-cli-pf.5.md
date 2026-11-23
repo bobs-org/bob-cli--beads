@@ -11,6 +11,10 @@
 
 editor-parity: completes native Properties parity and beyond in =+ with rename, reorder, multi-select batch ops, YAML copy and overwrite-previewed paste, filter, feature-detected kind and vault type change, and a validated YAML stage.
 
+## Notes
+
+[2026-11-23T17:38:10Z · bob-cli-pf.5] PROPOSED FOLLOW-UP: Repair the parent plan research reference — audited reading of research:202611/card_owned_frontmatter/card_owned_frontmatter.md returned missing on 2026-11-23. The approved parent plan and landed code provide sufficient scope for this phase; the land agent should repair or replace the stale reference.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4](bob-cli-pf.4.md) ✓ · ⧖ 2026-11-22
@@ -20,4 +24,4 @@ editor-parity: completes native Properties parity and beyond in =+ with rename, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5/README.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
