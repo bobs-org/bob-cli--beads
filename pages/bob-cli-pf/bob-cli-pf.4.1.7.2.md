@@ -18,7 +18,7 @@ row-fidelity: keep requested keys across reconciliation, publish confirmed overl
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 

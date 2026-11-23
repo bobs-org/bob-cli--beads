@@ -65,7 +65,7 @@ flowchart TD
     n22["bob-cli-pf.4.1.7: Finish the core property editor's landing repairs and real-app acceptance [in_progress]"]
     n23["bob-cli-pf.4.1.7.1: In-flight write safety, Esc, and YAML escape [closed]"]
     n24["bob-cli-pf.4.1.7.2: Row identity, overlays, diagnostics, and value fidelity [closed]"]
-    n25["bob-cli-pf.4.1.7.3: Real-Obsidian acceptance for write paths [in_progress]"]
+    n25["bob-cli-pf.4.1.7.3: Real-Obsidian acceptance for write paths [closed]"]
     n26["bob-cli-pf.4.1.7.4: Real-Obsidian acceptance for panes, entry points, and visuals [in_progress]"]
     n27["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [in_progress]"]
     n28["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [in_progress]"]
@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.1/README.md) | [bob-cli-pf.4.1.7.1](bob-cli-pf.4.1.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.2/README.md) | [bob-cli-pf.4.1.7.2](bob-cli-pf.4.1.7.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md) | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 9 |
-| [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.4/README.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.4.1.7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.4.md) | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.7.land/README.md) | [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5/README.md) | [bob-cli-pf.5](bob-cli-pf.5.md) | 0 |
@@ -194,6 +194,7 @@ flowchart TD
 | bob-cli | [`de66b39`](https://github.com/bobs-org/bob-cli/commit/de66b399e4d9a9837989687ec172217b32d4238f) | fix(props): resolve canonical record ownership through its album folder | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:10:01 EST |
 | bob-plugins | [`bob-plugins@028979f`](https://github.com/bobs-org/bob-plugins/commit/028979f51011fc4183eef940a6d51e64154a007d) | fix(properties): focus restored rows and newly opened stage inputs | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:11:30 EST |
 | bob-plugins | [`bob-plugins@c4f8094`](https://github.com/bobs-org/bob-plugins/commit/c4f80943bbeb87fda20cbac76964240fc670f3b8) | fix(property-editor): preserve Obsidian widget types in name completion | [bob-cli-pf.4.1.7.3](bob-cli-pf.4.1.7.3.md) | 2026-11-23 07:38:58 EST |
+| bob-plugins | [`bob-plugins@1408a83`](https://github.com/bobs-org/bob-plugins/commit/1408a834014eb1dfb1f856f5f9c32f73356d07b3) | feat(property-editor): distinguish selected and locked rows | [bob-cli-pf.4.1.7.4](bob-cli-pf.4.1.7.4.md) | 2026-11-23 09:00:34 EST |
 
 <!-- sase:referenced-by:start -->
 

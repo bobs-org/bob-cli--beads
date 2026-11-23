@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-pf.4.1.7](bob-cli-pf.4.1.7.md) / bob-cli-pf.4.1.7.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) · **Assignee:** `bob-cli-pf.4.1.7.3` · **Size:** medium
-**Created:** 2026-11-23 03:09:55 EST
+**Created:** 2026-11-23 03:09:55 EST · **Closed:** 2026-11-23 08:10:22 EST
 **Plan:** [202611/property\_editor\_landing\_repairs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_editor_landing_repairs.md)
 
 <!-- sase:links:start -->
@@ -13,10 +13,16 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| related | file:explicit:03a24c1472472a4a27121d4d | attached via sase artifact create --bead |
+| related | file:explicit:6ab39e30a149df62a7663f7f | attached via sase artifact create --bead |
 | related | file:explicit:7e12d43d0c85a1341586ae16 | attached via sase artifact create --bead |
 | related | file:explicit:8f50ead937709232d964a1c2 | attached via sase artifact create --bead |
+| related | file:explicit:8fc60a0e749f3dac06629c1b | attached via sase artifact create --bead |
+| related | file:explicit:d763b307f10db57126c8d2df | attached via sase artifact create --bead |
+| related | file:explicit:ecf5c6414d93a939ff5ec9be | attached via sase artifact create --bead |
+| related | file:explicit:f6260a2e647be44fbff28af9 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -46,7 +52,7 @@ acceptance-writes: extend the property-editor real-app harness to every write-pa
 
 Further targeted real-app probes passed 7 day write/undo assertions, then exposed canonical-record misclassification in the clean bob-cli binary from SHA 87ee683ae7ed698db10e79c892d2be109a45d737. Its props show reports type [[record]] as note and status as loose, so Enter opens a generic text stage. Evidence: .git/property-editor-record-clean-base-repro.json and .git/day-record-probe.json. The resolver was looking up record types only
 
-… and 2931 more characters
+… and 6198 more characters
 
 ## Dependencies
 
@@ -83,6 +89,7 @@ Further targeted real-app probes passed 7 day write/undo assertions, then expose
 | read-by | [agent:bob-cli-pf.4.1.7.3--2][1] | Recover acceptance scope and current phase notes | 1 |
 | read-by | [agent:bob-cli-pf.4.1.7.3--3][1] | Read scope and prior evidence before continuing write acceptance | 1 |
 | read-by | [agent:bob-cli-pf.4.1.7.3--4][1] | Review assigned acceptance scope and prior evidence | 1 |
+| read-by | [agent:bob-cli-pf.4.1.7.3--5][1] | Recover acceptance scope and existing evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.7.3.md
 
