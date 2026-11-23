@@ -26,7 +26,7 @@ drawer-contract: one recognizer that reads `- **Title**` and legacy ALL-CAPS dra
 ## Dependencies
 
 - **Depends on:** [bob-cli-on](../bob-cli-on/README.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [bob-cli-ph.2](bob-cli-ph.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.2](bob-cli-ph.2.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.3](bob-cli-ph.3.md) ◐ · ⧖ 2026-11-22
 
 ## Agents
