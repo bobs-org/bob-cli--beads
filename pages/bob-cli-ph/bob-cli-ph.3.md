@@ -13,7 +13,7 @@ reader-rollout: a host-currency script plus a gated check that bob on athena, ap
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.1](bob-cli-ph.1.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-ph.1](bob-cli-ph.1.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.2](bob-cli-ph.2.md) ◐ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.4](bob-cli-ph.4.md) ◐ · ⧖ 2026-11-22
 

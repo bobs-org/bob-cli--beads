@@ -15,7 +15,6 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 - **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ◐ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.6](bob-cli-ph.6.md) ◐ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pq.3](../bob-cli-pq/bob-cli-pq.3.md) ◐ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pq.5](../bob-cli-pq/bob-cli-pq.5.md) ◐ · ⧖ 2026-11-23
 
 ## Agents
@@ -30,8 +29,12 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-pq.1][1] | sequencing check for glyph-contract | 2 |
+| read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
+| read-by | [agent:bob-cli-pq.1][2] | sequencing check for glyph-contract | 2 |
+| read-by | [agent:bob-cli-pq.3][3] | Check prerequisite Mac drawer implementation status | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
 
 <!-- sase:referenced-by:end -->
