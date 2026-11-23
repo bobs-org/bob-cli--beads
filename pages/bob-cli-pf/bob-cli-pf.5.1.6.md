@@ -13,7 +13,7 @@ kind-change: preview and apply loose-value conversions; feature-detect Obsidian'
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) ✓ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) ◐ · ⧖ 2026-11-23
 
 ## Agents
