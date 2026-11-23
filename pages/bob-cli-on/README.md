@@ -88,7 +88,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | [bbugyi200.athena.bob-cli-on.11.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.5/README.md) | [bob-cli-on.11.1.5](bob-cli-on.11.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-on.11.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.6.md) | [bob-cli-on.11.1.6](bob-cli-on.11.1.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-on.11.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.1/README.md) | [bob-cli-on.11.1.7.1](bob-cli-on.11.1.7.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 3 |
+| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 4 |
 | [bbugyi200.athena.bob-cli-on.11.1.7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.land/README.md) | [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.land.md) | [bob-cli-on.11.1](bob-cli-on.11.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-on.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.12/README.md) | [bob-cli-on.12](bob-cli-on.12.md) | 0 |
@@ -176,6 +176,7 @@ A task can carry requirements: checkbox children without `#task`, nested as deep
 | bob-cli--plans | [`bob-cli--plans@d2f879c`](https://github.com/bobs-org/bob-cli--plans/commit/d2f879cd52ce4fad42f08f522d496c97a5cad6c7) | chore(plans): mark mac\_requirement\_close\_card done | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 2026-11-22 21:40:41 EST |
 | bob-plugins | [`bob-plugins@69a7ca0`](https://github.com/bobs-org/bob-plugins/commit/69a7ca04032e72651f95faf41971e7fe52fae323) | feat(task-status-cycler): add idless requirement close acceptance | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 22:04:18 EST |
 | bob-plugins | [`bob-plugins@0bddc2e`](https://github.com/bobs-org/bob-plugins/commit/0bddc2e0f45dfe66856f9b3589367b5fb43d0118) | fix(plugins): emit v6 requirement picker payloads | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 22:52:59 EST |
+| bob-plugins | [`bob-plugins@21331f3`](https://github.com/bobs-org/bob-plugins/commit/21331f33b64cbef9edaf856a63d4c2e610483953) | fix(bob-navigation-hotkeys): sync req-close twins from cycler | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 2026-11-22 23:22:35 EST |
 
 <!-- sase:referenced-by:start -->
 
