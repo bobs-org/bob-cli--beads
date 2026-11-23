@@ -1,0 +1,22 @@
+# Bead: bob-cli-on.11.1.7.2 — Open the card for idless owners, add real-Obsidian e2e, and finish docs
+
+[Bead Pages](../README.md) / [bob-cli-on.11.1.7](bob-cli-on.11.1.7.md) / bob-cli-on.11.1.7.2
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-on.11.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.land.md) · **Assignee:** `bob-cli-on.11.1.7.2` · **Size:** medium
+**Created:** 2026-11-22 20:02:20 EST
+**Plan:** [202611/obsidian\_req\_close\_card\_repairs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_req_close_card_repairs.md)
+
+## Description
+
+idless_acceptance: route idless owners with Pending reqs through a requirement-only card pass, add real-Obsidian close-card e2e scenarios, finish the bob-cli and bob-plugins docs, run the combined gates, and deploy both plugins.
+
+## Dependencies
+
+- **Depends on:** [bob-cli-on.11.1.7.1](bob-cli-on.11.1.7.1.md) ✓ · ⧖ 2026-11-22
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.2/README.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 0 |
