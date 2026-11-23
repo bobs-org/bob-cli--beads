@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-on.15 so the Mac Pull-In card presents nested requirement groups, stages their verdicts safely, and submits them through the existing capability-gated bob contract with compiled and tested native UI.
 
+## Notes
+
+[2026-11-23T02:08:48Z · bob-cli-pj.2.1.land] DISCOVERED ISSUE: pj.2.1 lander triaged bob-cli-pj.2.1.3 PROPOSED FOLLOW-UP #1 and independently reproduced just docs-check on bob-cli 29d7fec7 / Mac 33649498. All three fatal budget errors are introduced by this epic phase .5 commit d76a4849: capture-previews 5998→6082, keyboard 5974→6036, protocol 5999→6107 (cap 6000, canonical bob_docs.markdown.count_words). They are not inherited base failures for .5. Trim the additions within this epic while preserving contract facts. Evidence file:explicit:f0ee94709e52d2aa9074a8ad. Existing trackers bob-cli-jz and bob-cli-h9 also received corroboration; no new task.
+
 ## Agents
 
 | Agent | Bead | Commits |

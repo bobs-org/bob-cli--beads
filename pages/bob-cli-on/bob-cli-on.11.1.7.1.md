@@ -32,10 +32,16 @@ Verified: npm run build + build:check; 32/32 twin+integration+public-path tests 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.1/README.md) | [bob-cli-on.11.1.7.1](bob-cli-on.11.1.7.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-on.11.1.7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.1/README.md) | [bob-cli-on.11.1.7.1](bob-cli-on.11.1.7.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@44db8ce`](https://github.com/bobs-org/bob-plugins/commit/44db8ceaa92fee4bb41349754c3725c061036721) | fix(task-status-cycler): wire managed Done requirement close card | [bob-cli-on.11.1.7.1](bob-cli-on.11.1.7.1.md) | 2026-11-22 20:36:11 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-on.11.1.7.1][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.1/README.md
+
+<!-- sase:referenced-by:end -->

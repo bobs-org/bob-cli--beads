@@ -19,4 +19,4 @@ idless_acceptance: route idless owners with Pending reqs through a requirement-o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.11.1.7.2/README.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-on.11.1.7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.11.1.7.2.md) | [bob-cli-on.11.1.7.2](bob-cli-on.11.1.7.2.md) | 0 |
