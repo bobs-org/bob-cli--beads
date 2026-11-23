@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_requirement_close_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_requirement_close_card.md
 
@@ -35,14 +35,7 @@ Complete bob-cli-on.15 so the Mac Pull-In card presents nested requirement group
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md) | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`ef640fd`](https://github.com/bobs-org/bob-cli/commit/ef640fde2f03456f3920e8402378a790ddca6858) | docs(task-dependencies): name the Mac Pull-In card as a requirement consumer | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 2026-11-22 21:39:42 EST |
-| bob-cli--plans | [`bob-cli--plans@d2f879c`](https://github.com/bobs-org/bob-cli--plans/commit/d2f879cd52ce4fad42f08f522d496c97a5cad6c7) | chore(plans): mark mac\_requirement\_close\_card done | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 2026-11-22 21:40:41 EST |
+| [bbugyi200.athena.bob-cli-on.15.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md) | [bob-cli-on.15.1](bob-cli-on.15.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -52,8 +45,10 @@ Complete bob-cli-on.15 so the Mac Pull-In card presents nested requirement group
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.15.1.1][1] | Need exact epic decisions, phase notes, and plan metadata | 2 |
 | read-by | [agent:bob-cli-on.15.1.5--3][2] | Check parent epic scope and land requirements for phase completion | 1 |
+| read-by | [agent:bob-cli-on.15.1.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-on.15.1.5.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md
 
 <!-- sase:referenced-by:end -->

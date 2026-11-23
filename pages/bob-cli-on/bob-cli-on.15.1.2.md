@@ -24,13 +24,7 @@ outcomes: extend the portable Pull-In outcomes and the choice model with typed r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-on.15.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.2/README.md) | [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@bab5e5c`](https://github.com/bobs-org/bob-mac-capture/commit/bab5e5cc1074950a7b20b49914afe66104e114f6) | feat(capture): stage requirement verdicts and preserve branch identity | [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) | 2026-11-22 16:09:21 EST |
+| [bbugyi200.athena.bob-cli-on.15.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.2/README.md) | [bob-cli-on.15.1.2](bob-cli-on.15.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,7 +33,9 @@ outcomes: extend the portable Pull-In outcomes and the choice model with typed r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-on.15.1.2][1] | phase work | 2 |
+| read-by | [agent:bob-cli-on.15.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-on.15.1.land/README.md
 
 <!-- sase:referenced-by:end -->
