@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 12 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 13 |
 
 ## Commits
 
@@ -38,6 +38,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@d15f2a8`](https://github.com/bobs-org/bob-plugins/commit/d15f2a877e849dd0e32f52e771f4b9896906c6b1) | test(property-cards): isolate stale cache injection in takeover harness | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 02:24:23 EST |
 | bob-plugins | [`bob-plugins@f319db7`](https://github.com/bobs-org/bob-plugins/commit/f319db7bd97f0724707b7f2c6f762507eb11039e) | test(ledger-tools): stabilize takeover matrix probes | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 02:39:56 EST |
 | bob-plugins | [`bob-plugins@b476724`](https://github.com/bobs-org/bob-plugins/commit/b47672479d821c43ae5e843e08ed88779759c983) | test(ledger-tools): restore fixture after vim probe | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 02:51:20 EST |
+| bob-plugins | [`bob-plugins@8a8b7a6`](https://github.com/bobs-org/bob-plugins/commit/8a8b7a642f64383d5300057b0972ee9d69c037c8) | fix(e2e): restore takeover fixture editor buffer | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:06:00 EST |
 
 <!-- sase:referenced-by:start -->
 
