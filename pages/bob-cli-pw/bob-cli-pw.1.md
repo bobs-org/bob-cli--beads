@@ -19,7 +19,7 @@ notes-normalizer: pure Rust module that reads notes text, detects its shape, bui
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pw.3](bob-cli-pw.3.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pw.3](bob-cli-pw.3.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pw.4](bob-cli-pw.4.md) ✓ · ⧖ 2026-11-24
 
 ## Agents

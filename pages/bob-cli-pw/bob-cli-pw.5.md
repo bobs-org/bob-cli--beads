@@ -14,7 +14,7 @@ ref-meet-cli: the CLI leaf wiring resolver, normalizer, print profile, and birth
 ## Dependencies
 
 - **Depends on:** [bob-cli-pw.2](bob-cli-pw.2.md) ✓ · ⧖ 2026-11-24
-- **Depends on:** [bob-cli-pw.3](bob-cli-pw.3.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.3](bob-cli-pw.3.md) ✓ · ⧖ 2026-11-24
 - **Depends on:** [bob-cli-pw.4](bob-cli-pw.4.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pw.6](bob-cli-pw.6.md) ◐ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pw.7](bob-cli-pw.7.md) ◐ · ⧖ 2026-11-24
@@ -25,3 +25,15 @@ ref-meet-cli: the CLI leaf wiring resolver, normalizer, print profile, and birth
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-pw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5/README.md) | [bob-cli-pw.5](bob-cli-pw.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pw.4][1] | Check next phase scope to avoid overlap | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.4/README.md
+
+<!-- sase:referenced-by:end -->
