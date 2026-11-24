@@ -7,6 +7,18 @@
 **Created:** 2026-11-23 20:38:15 EST
 **Plan:** [202611/frontmatter\_takeover.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/frontmatter_takeover.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:f4e751a976c731bafe5dbf7a | attached via sase artifact create --bead |
+
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
+
+<!-- sase:links:end -->
+
 ## Description
 
 acceptance: build and run the disposable-vault real-Obsidian takeover matrix and offline wrapper, fix integration regressions, and retain inspected screenshots and reports tied to the exact CLI binary and plugin builds.
@@ -17,6 +29,10 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 [2026-11-24T11:51:35Z · bob-cli-pf.6.1.4--1] Monitor g5645dfc9na3 proved protected-note bytes unchanged with no write transitions; remaining NO-GO was custom-shortcut-add-owned and sidebar-native. Isolated real Obsidian 1.15.1 diagnosis: closeEditor sent only one Escape from Add mode, leaving a browse modal whose scope intercepted the next shortcut. Cleanup now follows the existing menu/stage/filter/modal Escape ladder, observes dismissal, and fails if any modal persists. Sidebar probe used unregistered file-properties:open and matched All Properties; now invokes observed properties:open-local, targets only file-properties, reveals/loads its leaf, and requires visible usable native controls. Focused real-app checks for Mod+;, command dispatch, Alt+P, bank/ordinary native state and sidebar all pass on the unchanged production bundle. Fixed host test mocks to retain both adapter and shared coordinator listeners. 34 focused unit tests and build:check pass. Full matrix plus screenshot inspection still required; a monitored rerun also collects clean-HEAD controls for tracked n0 held-lock and km timing failures. No memory or production source changes.
 
+[2026-11-24T12:08:32Z · bob-cli-pf.6.1.4--2] PROPOSED FOLLOW-UP: Existing bob-cli-n0 and bob-cli-km remain the only generic npm failures in monitor ghcg62vadrtz. npm-test.log records 9218/9220 unit tests and 26/26 perf tests passing; held-lock self-test reports exactly two commits instead of one, reproduced identically by clean-base-generic.log at clean bob-plugins e9d202c0ad46014082e9daa08246f92289180d01. The 200-link wall-clock assertion took 47.8 ms under full-suite load; its unchanged isolated file passes 23/23, and the clean-HEAD control also passes that timing node. These match the existing n0 deterministic failure and km load-sensitive flake. No new beads created; this phase remains open for visual acceptance only.
+
+[2026-11-24T12:09:39Z · bob-cli-pf.6.1.4--2] Visual review rejected ghcg62 despite automated GO. Opened all 46 PNGs with image tools and verified every SHA256. Retained rejected report, individual visual verdicts, all images, logs and hash-matched original runner sources as file:explicit:f4e751a976c731bafe5dbf7a. Eleven images contain leaked metadata or native Properties below owned cards; eight day images crop the card after prior focus tests. Evidence-supported runner fixes isolate replaced-container DOM injection in a disposable tab (finally detach), require valid ownership/native visibility and a single metadata container before/after card captures, and reset screenshots to the card top with drawer closed. Focused real-Obsidian replacement + record/album/bank Reading probes pass; inspected their three diagnostic images as correct. 40 focused tests and build:check pass; final wrapper15/15. Production bundle remains unchanged. Full regenerated matrix and visual review remain required, so phase is not closed. No epic-symbol entries at this check.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
@@ -26,7 +42,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 28 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 29 |
 
 ## Commits
 
@@ -60,6 +76,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@e9d202c`](https://github.com/bobs-org/bob-plugins/commit/e9d202c0ad46014082e9daa08246f92289180d01) | test(obsidian): extend frontmatter takeover save wait | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:14:46 EST |
 | bob-plugins | [`bob-plugins@f3caac9`](https://github.com/bobs-org/bob-plugins/commit/f3caac9054a8e0a5718349f69f805dab59c12fc2) | test(frontmatter): isolate native fallback writes and tighten acceptance | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:32:20 EST |
 | bob-plugins | [`bob-plugins@90e7809`](https://github.com/bobs-org/bob-plugins/commit/90e780905a07e059af2b54ad1c204e9d61d0f1d7) | test(frontmatter): dismiss editor layers and probe the native file sidebar | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:52:59 EST |
+| bob-plugins | [`bob-plugins@f729388`](https://github.com/bobs-org/bob-plugins/commit/f729388375dcd946ac365d276cad25d1ccf99066) | test(frontmatter): isolate DOM injection and validate screenshot ownership | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 07:10:37 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -67,7 +84,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-pf.6.1.4--1][1] | Need phase scope and current status after xvfb failure | 2 |
+| read-by | [agent:bob-cli-pf.6.1.4--1][1] | Need phase scope and current status after xvfb failure | 3 |
 | read-by | [agent:bob-cli-pf.6.1.4--2][1] | Review phase scope and status before resolving its real-Obsidian takeover matrix | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--3][1] | Review assigned phase scope and notes before updating its result | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--7][1] | Review phase scope and prior validation evidence before classifying the latest NO-GO and deciding whether this phase can close | 1 |
