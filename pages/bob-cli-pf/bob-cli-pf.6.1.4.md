@@ -20,4 +20,10 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.4/README.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@beb821f`](https://github.com/bobs-org/bob-plugins/commit/beb821ff9395d73c64a9114445ef98fc086b1080) | test(property-cards): add frontmatter takeover e2e matrix | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-23 23:44:11 EST |

@@ -31,3 +31,15 @@ adapter-takeover: wire successful card mounts to generation-bound whole-containe
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@57bcb47`](https://github.com/bobs-org/bob-plugins/commit/57bcb470a703dbb263a3a1847b8490be4675d5a2) | feat(property-cards): own frontmatter on mounted cards | [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) | 2026-11-23 23:11:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.6.1.3][1] | Review remaining phase notes before closing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md
+
+<!-- sase:referenced-by:end -->
