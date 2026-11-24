@@ -42,9 +42,11 @@ Real-app proof: athena xvfb-run PASS 75/75 with 28 inspected screenshots (file:e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.4.1.2][1] | Need outer phase scope and decisions | 1 |
-| read-by | [agent:fx][2] | Research whether the pl epic's dependency on pf is necessary | 1 |
+| read-by | [agent:bob-cli-pl.5][2] | Check what home-cards landed | 1 |
+| read-by | [agent:fx][3] | Research whether the pl epic's dependency on pf is necessary | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

@@ -7,6 +7,18 @@
 **Created:** 2026-11-24 15:49:21 EST
 **Plan:** [202611/area\_project\_settings.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/area_project_settings.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/area_project_settings.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/area_project_settings.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-pl.6 with contract-driven settings, safe set and clear actions, project task handoffs, and verified entry points in the existing Property Editor.

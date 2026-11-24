@@ -13,7 +13,7 @@ settings-rows: add a per-kind row provider, render stable settings and project v
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.6.1.1](bob-cli-pl.6.1.1.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pl.6.1.1](bob-cli-pl.6.1.1.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pl.6.1.3](bob-cli-pl.6.1.3.md) ◐ · ⧖ 2026-11-24
 
 ## Agents
