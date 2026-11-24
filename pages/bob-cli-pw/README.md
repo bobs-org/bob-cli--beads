@@ -7,16 +7,36 @@
 **Created:** 2026-11-24 10:38:46 EST
 **Plan:** [202611/meeting\_notes\_event\_refs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/meeting_notes_event_refs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/meeting_notes_event_refs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/meeting_notes_event_refs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 One deliberate gesture, from the CLI, Obsidian, or Bob Mac Capture, files AI meeting notes (Wispr Flow first, any producer) as a `meetings` reference. The reference is filed under the meeting's area or project, gets a searchable recap and a polished dossier PDF, and has a Next reading task related `notes from` its Event Task. The `~/tmp/bryan_derrick_meet_notes.txt` notes are filed onto `20261123#^bryan-bugyi-derrick` this way as the first use case.
+
+## Notes
+
+[2026-11-24T16:59:46Z · 1fq--code] DISCOVERED ISSUE (from fix_meetings_build plan step 7): render_recap output layout differs from the epic contract in plan:202611/meeting_notes_event_refs.md ('The recap region'). Contract specifies a '## Notes' heading, a '> [!summary] TL;DR' callout, and '###' sub-headings; current render_recap emits a meta line, a plain TL;DR paragraph, and '##' headings copying the notes' own levels. Left as-is in the committed goldens under tests/fixtures/meetings/golden/ (recap_wispr.md, recap_adversarial.md). A later meeting phase should align the recap layout with the epic contract before recap regions are written into vault notes.
+
+[2026-11-24T17:06:33Z · bob-cli-pl.1--4] DISCOVERED ISSUE: Conflict-repair verification of main rebased onto dbf405e397b7081c5c5531590608637346e49dfc reproduced meeting-module build failures in sase tool run check (ToolRun f4df3fa669a8de2c5c803661f5c8db6c, exit 101). src/native/meetings/dossier.rs:348 class_fence lacks the returned borrow lifetime (E0106); normalize.rs:242 passes &str to parse_next_step(String) (E0308); mod.rs:19-26 reexports unused items denied by the canonical -D unused gate. git diff HEAD -- src/native/meetings is empty, so these are inherited from dbf405e3, not the props conflict repair. The gate stops before tests. Search across task types found no duplicate; causal owner is bob-cli-pw.1. The existing fix_meetings_build work mentioned in note 1 may already address these; record this as independent reproduction on the older integrated base, not a new request to duplicate that work.
 
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-pw.1](bob-cli-pw.1.md) | Structural notes normalizer, dossier source, and recap renderer | ◐ in_progress | medium | 2026-11-24 | 1 | 1 |
-| [bob-cli-pw.2](bob-cli-pw.2.md) | Event Task resolution, matching, recent-meetings listing, and agenda notes state | ◐ in_progress | medium | 2026-11-24 | 1 | 0 |
+| [bob-cli-pw.2](bob-cli-pw.2.md) | Event Task resolution, matching, recent-meetings listing, and agenda notes state | ✓ closed | medium | 2026-11-24 | 1 | 1 |
 | [bob-cli-pw.3](bob-cli-pw.3.md) | Meeting dossier print profile | ◐ in_progress | medium | 2026-11-24 | 1 | 0 |
 | [bob-cli-pw.4](bob-cli-pw.4.md) | Marker-carried meeting identity births the LINKS relation and recap | ◐ in_progress | medium | 2026-11-24 | 1 | 0 |
 | [bob-cli-pw.5](bob-cli-pw.5.md) | The \`bob ref meet\` command | ◐ in_progress | large | 2026-11-24 | 1 | 0 |
@@ -30,7 +50,7 @@ One deliberate gesture, from the CLI, Obsidian, or Bob Mac Capture, files AI mee
 flowchart TD
     n0["bob-cli-pw: Meeting notes become event-linked references [in_progress]"]
     n1["bob-cli-pw.1: Structural notes normalizer, dossier source, and recap renderer [in_progress]"]
-    n2["bob-cli-pw.2: Event Task resolution, matching, recent-meetings listing, and agenda notes state [in_progress]"]
+    n2["bob-cli-pw.2: Event Task resolution, matching, recent-meetings listing, and agenda notes state [closed]"]
     n3["bob-cli-pw.3: Meeting dossier print profile [in_progress]"]
     n4["bob-cli-pw.4: Marker-carried meeting identity births the LINKS relation and recap [in_progress]"]
     n5["bob-cli-pw.5: The `bob ref meet` command [in_progress]"]
@@ -60,7 +80,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-pw.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.1.md) | [bob-cli-pw.1](bob-cli-pw.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pw.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.2/README.md) | [bob-cli-pw.2](bob-cli-pw.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.2/README.md) | [bob-cli-pw.2](bob-cli-pw.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.3/README.md) | [bob-cli-pw.3](bob-cli-pw.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.4/README.md) | [bob-cli-pw.4](bob-cli-pw.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5/README.md) | [bob-cli-pw.5](bob-cli-pw.5.md) | 0 |
@@ -74,3 +94,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dbf405e`](https://github.com/bobs-org/bob-cli/commit/dbf405e397b7081c5c5531590608637346e49dfc) | feat(meetings): add notes normalization and rendering | [bob-cli-pw.1](bob-cli-pw.1.md) | 2026-11-24 11:11:34 EST |
+| bob-cli | [`b832e58`](https://github.com/bobs-org/bob-cli/commit/b832e58df449d9d422a488f1d8f3bf0828a93487) | feat(meetings): add read-only meeting resolver and agenda wiring | [bob-cli-pw.2](bob-cli-pw.2.md) | 2026-11-24 12:52:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.1--4][1] | Confirm ownership of compilation failures introduced by dbf405e3 | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.1.md
+
+<!-- sase:referenced-by:end -->
