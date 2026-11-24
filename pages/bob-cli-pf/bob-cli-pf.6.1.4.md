@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 6 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 7 |
 
 ## Commits
 
@@ -32,6 +32,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@dbc25c8`](https://github.com/bobs-org/bob-plugins/commit/dbc25c893e1c4bf7f6d9381080851589da124cd1) | fix(ledger-tools): register frontmatter ownership and harden real Obsidian verification | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 00:36:16 EST |
 | bob-plugins | [`bob-plugins@28b3759`](https://github.com/bobs-org/bob-plugins/commit/28b3759436b2a7b432a7d6b04831553823571f3f) | test(ledger-tools): stabilize takeover cache restoration | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 00:55:23 EST |
 | bob-plugins | [`bob-plugins@da80616`](https://github.com/bobs-org/bob-plugins/commit/da80616e1355d208eb35078b3e7e264edd95a559) | test(ledger-tools): stabilize StateField takeover cache harness | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 01:10:09 EST |
+| bob-plugins | [`bob-plugins@dbc2f2c`](https://github.com/bobs-org/bob-plugins/commit/dbc2f2c2dc01a49d06c636e06f9ef3f157845605) | test(ledger-tools): stabilize StateField registration and stale-cache harness | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 01:26:41 EST |
 
 <!-- sase:referenced-by:start -->
 
