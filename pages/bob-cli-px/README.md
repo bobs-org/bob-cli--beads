@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-px
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1fs](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1fs.md) · **Assignee:** `bob-cli-px.land`
-**Created:** 2026-11-24 12:22:30 EST
+**Created:** 2026-11-24 12:22:30 EST · **Closed:** 2026-11-24 17:47:13 EST
 **Plan:** [202611/email\_task\_close\_confirmation.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/email_task_close_confirmation.md)
 
 <!-- sase:links:start -->
@@ -42,6 +42,16 @@ Read-back of the plugin source also found cycler/nav gaps against the plan, kept
 - The decay card closes before a keep.
 - The relation-close line identity may be read against the staged rather than the original line.
 
+[2026-11-24T22:47:13Z · bob-cli-px.land--1] Land read-back phases 1-6 against source: (1) model Rust predicate/copy/12-hex digest + 28-case vectors + docs/mail-close-card.md contract; (2) capture last-gate refusal with -C/--mail-close DIGEST, mail_close JSON, human card, dry-run parity, all-or-nothing; (3) nav twin/card modal/api.mailCloseGuard v1 guarding every nav close path incl review-walk landings; (4) cycler guarding Ctrl+Enter, Alt+[/], counted, Task Link, transclusion, Pomodoro cascade, offer-close with sync fast path + fail-closed fallback + checkbox clicks; (5) Mac preview banner + Mail Close card (Y confirms via --mail-close, Cmd-Return opens gmail_url, Esc/q/Ctrl-[ keep, second refusal refreshes); (6) cross-surface replay + light/dark screenshots + records, no memory notes edited per epic decisions (cli_refuses_by_default=yes, guard_checkbox_clicks=yes).
+
+Mac compile fix: 55f42134 moved mailCloseVisible after moveChoiceFilterIsEmpty in CapturePanelController.swift (memberwise-init order), 7d369ae8 dropped unreachable command-Return in CaptureKeyCommandRouter.swift. Scripts/macos-ci-check verdict on snapshot 88ede520 (run https://github.com/bobs-org/bob-mac-capture/actions/runs/45500551941): Build [ok], Lint [ok], CaptureMailCloseTests passed (failed list names only RefsPanelModelTests testHighlightsTaskFallbackShowKeepsTabsAndBannerUntilLibraryRestores), Test step failure is solely that known pre-existing failure since 62302372 tracked on bob-cli-pt.
+
+Plugin finish (bob-plugins 4ecbf218): (2) checkbox guard Live Preview posAtDOM->lineAt, Reading-view section-start offset with fail-closed near-click, right-view containerEl resolution + window-open registration; proving unit Live Preview offset + non-zero-section Reading cases + real-Obsidian scratch-vault checkbox e2e (card shows, non-y keeps, y closes via Ctrl+Enter; Settings-focus workaround stays on bob-cli-ox). (3) prompt-once token now encodes confirmed identities (path, 1-based line, trimmed text, after) as opaque mailCloseConfirmed, cover-by-(path,lineText,after) with line-move tolerance, upstream Pomodoro/counted collectors list every email row first, semantics in docs/develop/plugin-apis.md. (4) successor carry: mailCloseConfirmed through normalizeSuccessorChoices into offer-close apply; one-card test for Ctrl+Enter picker Cancel on Gmail Task. (5) card spec: footer y completes/cancels/closes + Ctrl/Cmd+Enter per Platform.isMacOS, omit open hint without gmail_url; openingKeys swallowed until keyup from Ctrl+Enter/Alt+[/]/Task-Card Enter; decay Drop awaits guard (keep leaves decay open); relation-close identity mapped to original lines. Proving: npm run build, mail-close suites (nav vectors + cycler mail-close incl new cases), twin/vectors cmp byte-identical, manifests bumped, docs (task-status-cycler, bob-navigation-hotkeys, plugin-apis) updated, full npm test green except known 25ms ledger flakes, bob plugins sync done.
+
+Integration: since-epic bob-cli e5169b81, 3deee354, 923df1a6, 2b3817fe reviewed, no mail-close changes needed; bob-plugins 45697ae0 (home-cards finish) needs no changes. Meeting-birth refuses cancel-effect labels; home cards only read task status.
+
+Follow-up triage: props clippy already fixed by 3deee354; ledger 25ms perf flakes corroborated on bob-cli-io/bob-cli-km; Obsidian Settings-focus stays on bob-cli-ox; Mac compile error fixed here; meetings profile xelatex failures noted on bob-cli-pw. epic-symbols empty; just symvision has no recipe so skipped; plans 202611/email_task_close_confirmation.md set done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -57,7 +67,7 @@ Read-back of the plugin source also found cycler/nav gaps against the plan, kept
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-px: Closing an email task asks first (the Mail Close Card) [in_progress]"]
+    n0["bob-cli-px: Closing an email task asks first (the Mail Close Card) [closed]"]
     n1["bob-cli-px.1: Shared Gmail Task close model, vectors, and contract page (bob-cli) [closed]"]
     n2["bob-cli-px.2: bob capture refuses unconfirmed email-task closes [closed]"]
     n3["bob-cli-px.3: Mail Close Card and guard API in Bob Navigation Hotkeys [closed]"]
@@ -89,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-px.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.4/README.md) | [bob-cli-px.4](bob-cli-px.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-px.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.6.md) | [bob-cli-px.6](bob-cli-px.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-px.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.land.md) | [bob-cli-px](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-px.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.land.md) | [bob-cli-px](README.md) | 3 |
 
 ## Commits
 
@@ -102,3 +112,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@6150d7e`](https://github.com/bobs-org/bob-plugins/commit/6150d7e65bd7b663ae87dc26bdbb2d9388a718eb) | feat(cycler): guard Gmail task closes with the Mail Close Card | [bob-cli-px.4](bob-cli-px.4.md) | 2026-11-24 15:30:59 EST |
 | bob-mac-capture | [`bob-mac-capture@7d369ae`](https://github.com/bobs-org/bob-mac-capture/commit/7d369ae870a9b1fdc7b29654b08ef5171e2ccafb) | fix(mac-capture): order mailCloseVisible after moveChoiceFilterIsEmpty and drop unreachable Return | [bob-cli-px](README.md) | 2026-11-24 17:22:57 EST |
 | bob-plugins | [`bob-plugins@4ecbf21`](https://github.com/bobs-org/bob-plugins/commit/4ecbf218ee100fcb26d690930de3bdaac5ac440f) | feat(plugins): finish Mail Close Card prompt-once, checkbox guard, and card spec | [bob-cli-px](README.md) | 2026-11-24 17:23:23 EST |
+| bob-cli--plans | [`bob-cli--plans@9bd60a9`](https://github.com/bobs-org/bob-cli--plans/commit/9bd60a9a562fcc83486ba25a34baf6aca6546284) | docs(plans): mark email\_task\_close\_confirmation done for bob-cli-px | [bob-cli-px](README.md) | 2026-11-24 17:48:27 EST |
