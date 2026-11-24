@@ -15,6 +15,8 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 [2026-11-24T11:29:49Z · bob-cli-pf.6.1.4] Recovered earlier work from landed plugin commits and transcript bob-cli-pf.6.1.4--p. The bead currently had no notes. Repeated NO-GO runs increased a nonexistent deferred-save wait from 360 to 480 to 600 seconds; each protected-note write occurred about 16 seconds after timeout. The harness later intentionally invokes native Add property for failed-opener-fallback on that protected note. Replaced this speculative wait with isolated native fallback on disposable 2026/20261117.md in a dedicated leaf, per-check timestamps and write-stage attribution. Also fixed ordinary editor screenshots to open the Bob property editor and require Add mode, and tightened sidebar presence/availability assertions. Focused ownership/spike/wrapper checks pass; full exact-build real-Obsidian acceptance and visual inspection remain. This remainder is bounded validation of the existing implementation, not a new implementation phase. No epic-symbol entries currently remain.
 
+[2026-11-24T11:51:35Z · bob-cli-pf.6.1.4--1] Monitor g5645dfc9na3 proved protected-note bytes unchanged with no write transitions; remaining NO-GO was custom-shortcut-add-owned and sidebar-native. Isolated real Obsidian 1.15.1 diagnosis: closeEditor sent only one Escape from Add mode, leaving a browse modal whose scope intercepted the next shortcut. Cleanup now follows the existing menu/stage/filter/modal Escape ladder, observes dismissal, and fails if any modal persists. Sidebar probe used unregistered file-properties:open and matched All Properties; now invokes observed properties:open-local, targets only file-properties, reveals/loads its leaf, and requires visible usable native controls. Focused real-app checks for Mod+;, command dispatch, Alt+P, bank/ordinary native state and sidebar all pass on the unchanged production bundle. Fixed host test mocks to retain both adapter and shared coordinator listeners. 34 focused unit tests and build:check pass. Full matrix plus screenshot inspection still required; a monitored rerun also collects clean-HEAD controls for tracked n0 held-lock and km timing failures. No memory or production source changes.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
@@ -24,7 +26,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 27 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 28 |
 
 ## Commits
 
@@ -57,6 +59,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@d51fed0`](https://github.com/bobs-org/bob-plugins/commit/d51fed05c4f5235aab49133b1d4023695b13a3ab) | test(obsidian): extend deferred save probe wait | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 05:57:10 EST |
 | bob-plugins | [`bob-plugins@e9d202c`](https://github.com/bobs-org/bob-plugins/commit/e9d202c0ad46014082e9daa08246f92289180d01) | test(obsidian): extend frontmatter takeover save wait | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:14:46 EST |
 | bob-plugins | [`bob-plugins@f3caac9`](https://github.com/bobs-org/bob-plugins/commit/f3caac9054a8e0a5718349f69f805dab59c12fc2) | test(frontmatter): isolate native fallback writes and tighten acceptance | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:32:20 EST |
+| bob-plugins | [`bob-plugins@90e7809`](https://github.com/bobs-org/bob-plugins/commit/90e780905a07e059af2b54ad1c204e9d61d0f1d7) | test(frontmatter): dismiss editor layers and probe the native file sidebar | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:52:59 EST |
 
 <!-- sase:referenced-by:start -->
 
