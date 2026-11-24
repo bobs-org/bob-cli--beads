@@ -18,7 +18,7 @@ kind-change: preview and apply loose-value conversions; feature-detect Obsidian'
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -31,3 +31,15 @@ kind-change: preview and apply loose-value conversions; feature-detect Obsidian'
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@d3a17f0`](https://github.com/bobs-org/bob-plugins/commit/d3a17f0c1793c742f0200cef48c130f80d6ffc1d) | feat(property-editor): preview kind conversion and confirm vault type changes | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 2026-11-23 16:20:03 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.5.1.6][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md
+
+<!-- sase:referenced-by:end -->
