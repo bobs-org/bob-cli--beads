@@ -20,7 +20,7 @@ editor-parity: completes native Properties parity and beyond in =+ with rename, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.4](bob-cli-pf.4.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pf.6](bob-cli-pf.6.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.6](bob-cli-pf.6.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

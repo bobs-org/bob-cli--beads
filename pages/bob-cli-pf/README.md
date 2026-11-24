@@ -40,7 +40,7 @@ On every note a property card mounts on, the card shows the whole frontmatter: a
 | [bob-cli-pf.3](bob-cli-pf.3.md) | Whole-container ownership primitive and focus spike (bob-plugins) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pf.4](bob-cli-pf.4.md) | The =+ property editor (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.5](bob-cli-pf.5.md) | Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
-| [bob-cli-pf.6](bob-cli-pf.6.md) | Hide native Properties on card notes (bob-plugins, plus memory if approved) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
+| [bob-cli-pf.6](bob-cli-pf.6.md) | Hide native Properties on card notes (bob-plugins, plus memory if approved) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 
 ## Lineage
 
@@ -82,8 +82,8 @@ flowchart TD
     n33["bob-cli-pf.5.1.5: Add YAML copy and overwrite-previewed paste [closed]"]
     n34["bob-cli-pf.5.1.6: Add local kind conversion and explicit vault type changes [closed]"]
     n35["bob-cli-pf.5.1.7: Verify property editor parity in Obsidian and deploy [closed]"]
-    n36["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [in_progress]"]
-    n37["bob-cli-pf.6.1: Complete card frontmatter takeover [in_progress]"]
+    n36["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [closed]"]
+    n37["bob-cli-pf.6.1: Complete card frontmatter takeover [closed]"]
     n38["bob-cli-pf.6.1.1: Prove whole-container ownership in real Obsidian [closed]"]
     n39["bob-cli-pf.6.1.2: Add cached capability gating and native property entry routing [closed]"]
     n40["bob-cli-pf.6.1.3: Enable fail-open ownership on album, record, and temporal cards [closed]"]
@@ -213,7 +213,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md) | [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 31 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md) | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 2 |
-| [bbugyi200.apollo.bob-cli-pf.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md) | [bob-cli-pf.6.1](bob-cli-pf.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md) | [bob-cli-pf.6.1](bob-cli-pf.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.land/README.md) | [bob-cli-pf](README.md) | 0 |
 
 ## Commits
@@ -271,7 +271,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@305b637`](https://github.com/bobs-org/bob-plugins/commit/305b637c66ce4b6a52c13c0ab9d83d1c49f99887) | test(property-editor): prove native parity in real Obsidian and fix copy/filter spans | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:07:03 EST |
 | bob-cli--plans | [`bob-cli--plans@ac6bb6e`](https://github.com/bobs-org/bob-cli--plans/commit/ac6bb6eca6a4620b3f58b32a29183fa0ad22ffaf) | chore(plans): mark property\_editor\_parity done after bob-cli-pf.5.1 landing | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 2026-11-23 20:31:33 EST |
 
-… and 36 more commits
+… and 37 more commits
 
 <!-- sase:referenced-by:start -->
 

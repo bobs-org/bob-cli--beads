@@ -20,7 +20,7 @@
 | related | file:explicit:c34d8f4e656efd3110e34dac | attached via sase artifact create --bead |
 | related | file:explicit:f4e751a976c731bafe5dbf7a | attached via sase artifact create --bead |
 
-_Plus 13 automatic references — see [Referenced By](#referenced-by)._
+_Plus 14 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -116,7 +116,9 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | read-by | [agent:bob-cli-pf.6.1.4--h][1] | Need current phase status, completion criteria, and recorded notes before deciding whether to close | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--n][1] | Need the assigned phase scope and existing notes before resolving this monitored E2E | 2 |
 | read-by | [agent:bob-cli-pf.6.1.4--p][1] | Need phase state and notes before deciding whether this failed run can close the phase | 1 |
+| read-by | [agent:bob-cli-pf.6.1.5][2] | Need compact closeout notes and exact accepted build evidence | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->

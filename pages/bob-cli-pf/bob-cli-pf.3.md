@@ -19,7 +19,7 @@ owns-frontmatter: unwired propertyCardOwnFrontmatter kit primitive (StateField, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pf.6](bob-cli-pf.6.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.6](bob-cli-pf.6.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
