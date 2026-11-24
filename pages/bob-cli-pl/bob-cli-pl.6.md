@@ -14,7 +14,7 @@ editor-settings: add the AREA/PROJECT SETTINGS group with ghost rows and clear-t
 ## Dependencies
 
 - **Depends on:** [bob-cli-pl.3](bob-cli-pl.3.md) ✓ · ⧖ 2026-11-22
-- **Depends on:** [bob-cli-pl.4](bob-cli-pl.4.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pl.4](bob-cli-pl.4.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.7](bob-cli-pl.7.md) ◐ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.8](bob-cli-pl.8.md) ◐ · ⧖ 2026-11-22
 

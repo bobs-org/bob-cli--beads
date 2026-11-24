@@ -20,7 +20,7 @@ mount-foot: mount the presentation in desktop Live Preview and Reading through t
 ## Dependencies
 
 - **Depends on:** [bob-cli-pl.4.1.1](bob-cli-pl.4.1.1.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-pl.4.1.3](bob-cli-pl.4.1.3.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pl.4.1.3](bob-cli-pl.4.1.3.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
