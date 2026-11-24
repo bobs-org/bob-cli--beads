@@ -13,6 +13,7 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| related | file:explicit:0538b23fd9d20776a715d89b | attached via sase artifact create --bead |
 | related | file:explicit:f4e751a976c731bafe5dbf7a | attached via sase artifact create --bead |
 
 _Plus 12 automatic references — see [Referenced By](#referenced-by)._
@@ -33,6 +34,8 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 [2026-11-24T12:09:39Z · bob-cli-pf.6.1.4--2] Visual review rejected ghcg62 despite automated GO. Opened all 46 PNGs with image tools and verified every SHA256. Retained rejected report, individual visual verdicts, all images, logs and hash-matched original runner sources as file:explicit:f4e751a976c731bafe5dbf7a. Eleven images contain leaked metadata or native Properties below owned cards; eight day images crop the card after prior focus tests. Evidence-supported runner fixes isolate replaced-container DOM injection in a disposable tab (finally detach), require valid ownership/native visibility and a single metadata container before/after card captures, and reset screenshots to the card top with drawer closed. Focused real-Obsidian replacement + record/album/bank Reading probes pass; inspected their three diagnostic images as correct. 40 focused tests and build:check pass; final wrapper15/15. Production bundle remains unchanged. Full regenerated matrix and visual review remain required, so phase is not closed. No epic-symbol entries at this check.
 
+[2026-11-24T12:29:48Z · bob-cli-pf.6.1.4--3] vybz1794wbcg was NO-GO: screenshot capture timed out on record dark Reading; later audit checks were skipped, protected day bytes stayed unchanged. All 22 report-listed images were viewed and hash-verified: 21 PASS, one failure shows native Properties below the record card. Retained rejected evidence: file:explicit:0538b23fd9d20776a715d89b. Real-app lifecycle tracing reproduced the ownership loss twice: Obsidian paints a cached Reading preview while detached; eligibility correctly refuses, but attachment had no retry. Added one guarded animation-frame recheck for detached Reading mounts, canceled by newer paints and guarded against path/mount/unload/cache changes; no polling or relaxed eligibility. 56 focused tests and build:check pass. Exact rebuilt bundle af579aafa4c2de1e62ce2e1ed1d5514d56f5f16cb2f664596946c881517a8739 synced successfully. Uninstrumented real-app probe passes eight alternating theme/width live-to-Reading cycles; all 16 diagnostic images were viewed and hash-verified PASS. This diagnostic intentionally omits the full matrix and cannot close acceptance. Full rerun still required. n0 held-lock again reproduces on clean e9d202c0; km timing again fails under full load but passes isolated23/23. Existing PROPOSED FOLLOW-UP note applies. No epic-symbol entries for this phase at current check.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
@@ -42,7 +45,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 29 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 30 |
 
 ## Commits
 
@@ -77,6 +80,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@f3caac9`](https://github.com/bobs-org/bob-plugins/commit/f3caac9054a8e0a5718349f69f805dab59c12fc2) | test(frontmatter): isolate native fallback writes and tighten acceptance | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:32:20 EST |
 | bob-plugins | [`bob-plugins@90e7809`](https://github.com/bobs-org/bob-plugins/commit/90e780905a07e059af2b54ad1c204e9d61d0f1d7) | test(frontmatter): dismiss editor layers and probe the native file sidebar | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:52:59 EST |
 | bob-plugins | [`bob-plugins@f729388`](https://github.com/bobs-org/bob-plugins/commit/f729388375dcd946ac365d276cad25d1ccf99066) | test(frontmatter): isolate DOM injection and validate screenshot ownership | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 07:10:37 EST |
+| bob-plugins | [`bob-plugins@a219858`](https://github.com/bobs-org/bob-plugins/commit/a219858a0552c1bb8240ce95c90a5251a1907006) | fix(frontmatter): acquire Reading ownership after cached mounts attach | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 07:31:28 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -85,7 +89,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.6.1.4--1][1] | Need phase scope and current status after xvfb failure | 3 |
-| read-by | [agent:bob-cli-pf.6.1.4--2][1] | Review phase scope and status before resolving its real-Obsidian takeover matrix | 1 |
+| read-by | [agent:bob-cli-pf.6.1.4--2][1] | Review assigned acceptance criteria and tracked generic test failures | 2 |
 | read-by | [agent:bob-cli-pf.6.1.4--3][1] | Review assigned phase scope and notes before updating its result | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--7][1] | Review phase scope and prior validation evidence before classifying the latest NO-GO and deciding whether this phase can close | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--8][1] | Inspect current phase notes and linked evidence before deciding whether this athena failure matches clean-base behavior | 1 |

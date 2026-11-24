@@ -25,6 +25,12 @@ _Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 On every note a property card mounts on, the card shows the whole frontmatter: a quiet foot row with a concise created stamp and a collapsed read-only Properties drawer toggled by =-. A keyboard-first =+ property editor, backed by a byte-preserving `bob props` writer, does at least everything Obsidian's native Properties can on any Markdown note. Obsidian's native Properties block is hidden on card notes, and every failure path brings it back.
 
+## Notes
+
+[2026-11-24T12:26:23Z · ft--code] COORDINATION: Live Preview Vim property keys are now bare - (Properties drawer) and + (Property Editor) instead of =- / =+. == is unchanged; pending = then - or + falls through to Vim. registerPropertyCardSecondKeyArm("+") keeps its historical name. Vault vimrc nnoremap - :bob_daily is removed; :bob_daily and open-today-daily-note stay. Reading-view keys are out of scope. Work is in bob-plugins bob-ledger-tools plus the vault vimrc.
+
+[2026-11-24T12:28:34Z · ft--code] DEPLOY: bob plugins sync of this bare -/+ work was withheld without -F. Vault bob-ledger-tools is currently a dirty deploy from bob-cli_10 at f729388 (2026-11-24T12:27:22Z) for in-progress frontmatter takeover (240q). Overwriting that uncommitted build would discard pf.6.1 vault bytes. Acceptance is the athena source-tree e2e; vault deploy can follow once that dirty stamp is gone or the takeover commit is in HEAD.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -206,7 +212,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md) | [bob-cli-pf.6.1.1](bob-cli-pf.6.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.2/README.md) | [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md) | [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 29 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 30 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md) | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md) | [bob-cli-pf.6.1](bob-cli-pf.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.land/README.md) | [bob-cli-pf](README.md) | 0 |
@@ -266,7 +272,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@305b637`](https://github.com/bobs-org/bob-plugins/commit/305b637c66ce4b6a52c13c0ab9d83d1c49f99887) | test(property-editor): prove native parity in real Obsidian and fix copy/filter spans | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:07:03 EST |
 | bob-cli--plans | [`bob-cli--plans@ac6bb6e`](https://github.com/bobs-org/bob-cli--plans/commit/ac6bb6eca6a4620b3f58b32a29183fa0ad22ffaf) | chore(plans): mark property\_editor\_parity done after bob-cli-pf.5.1 landing | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 2026-11-23 20:31:33 EST |
 
-… and 32 more commits
+… and 33 more commits
 
 <!-- sase:referenced-by:start -->
 
