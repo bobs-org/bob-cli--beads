@@ -35,8 +35,10 @@ just check exit 0; focused CLI props 18 passed including lock-wait replan; just 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5y.cld][1] | Check props-cli phase status and whether role-table audit covers area/project keys | 1 |
+| read-by | [agent:fx][1] | Timeline of pf phase closures for pl gate research | 1 |
+| read-by | [agent:research.5y.cld][2] | Check props-cli phase status and whether role-table audit covers area/project keys | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
 
 <!-- sase:referenced-by:end -->

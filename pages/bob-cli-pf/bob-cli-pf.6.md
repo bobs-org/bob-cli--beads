@@ -34,7 +34,11 @@ takeover: wires whole-container ownership into album, record, and intention card
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.6.1.1][1] | Need ancestor epic scope and decisions | 1 |
+| read-by | [agent:bob-cli-pf.6.1.land][2] | Confirm the parent phase closed via delegated completion | 2 |
+| read-by | [agent:fx][3] | Assess pf.6 takeover progress and what pl depends on | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/frontmatter_takeover.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/frontmatter_takeover.md
 
@@ -50,9 +50,13 @@ Eligible mounted cards replace native in-document Properties without losing keyb
 | read-by | [agent:bob-cli-pf.6.1.1][1] | Need ancestor epic scope and decisions | 1 |
 | read-by | [agent:bob-cli-pf.6.1.3][2] | Need inherited decisions and phase completion evidence for the adapter takeover | 1 |
 | read-by | [agent:bob-cli-pf.6.1.5][3] | Need inherited decisions and completed verification evidence for docs phase | 1 |
+| read-by | [agent:bob-cli-pf.6.1.land][4] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:fx][5] | Assess pf.6 takeover remaining work vs pl dependency | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

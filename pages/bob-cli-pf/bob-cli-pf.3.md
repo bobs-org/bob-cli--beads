@@ -41,8 +41,10 @@ owns-frontmatter: unwired propertyCardOwnFrontmatter kit primitive (StateField, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.3][1] | Need the phase scope, design file, DECISIONS, and notes before finishing | 3 |
 | read-by | [agent:bob-cli-pf.6.1.1][2] | Need pf.3 completion notes and S1 probe context | 1 |
+| read-by | [agent:fx][3] | Timeline of pf phase closures for pl gate research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

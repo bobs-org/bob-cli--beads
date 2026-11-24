@@ -39,7 +39,11 @@ adapter-takeover: wire successful card mounts to generation-bound whole-containe
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.6.1.3][1] | Review remaining phase notes before closing | 2 |
+| read-by | [agent:bob-cli-pf.6.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:fx][3] | Timeline of pf phase closures for pl gate research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

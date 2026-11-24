@@ -34,11 +34,13 @@ editor-core: keyboard-first modal on the record chassis for any note: grouped ro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.4.1.4][1] | Need parent pf.4 DECISIONS that bind the child epic | 1 |
-| read-by | [agent:research.5y.cld][2] | See =+ editor phase status and scope for area/project design | 1 |
-| read-by | [agent:research.5y.grk][3] | Need the =+ property editor phase scope for area/project schema editors | 1 |
+| read-by | [agent:fx][2] | Timeline of pf phase closures for pl gate research | 1 |
+| read-by | [agent:research.5y.cld][3] | See =+ editor phase status and scope for area/project design | 1 |
+| read-by | [agent:research.5y.grk][4] | Need the =+ property editor phase scope for area/project schema editors | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.4.1.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
 
 <!-- sase:referenced-by:end -->

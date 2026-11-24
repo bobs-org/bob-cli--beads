@@ -36,8 +36,10 @@ editor-parity: completes native Properties parity and beyond in =+ with rename, 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.5.1.5][1] | Need phase notes, remaining work, and approved parent decisions/design context | 1 |
 | read-by | [agent:bob-cli-pf.5.1.land][2] | Need the parent link and phase scope to verify the child plan completed it | 1 |
+| read-by | [agent:fx][3] | Timeline of pf phase closures for pl gate research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

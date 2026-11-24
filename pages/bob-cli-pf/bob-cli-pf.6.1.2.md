@@ -44,8 +44,12 @@ capability-routing: add the session-and-bob-path capability cache, shared actual
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.6.1.2][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-pf.6.1.3][2] | Need the completed capability-routing contract before enabling adapters | 1 |
+| read-by | [agent:bob-cli-pf.6.1.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:fx][4] | Timeline of pf phase closures for pl gate research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

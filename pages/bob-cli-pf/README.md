@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-pf
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5v.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5v.linker.w0.md) · **Assignee:** `bob-cli-pf.land`
-**Created:** 2026-11-22 14:35:12 EST
+**Created:** 2026-11-22 14:35:12 EST · **Closed:** 2026-11-24 09:32:16 EST
 **Plan:** [202611/card\_owned\_frontmatter.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/card_owned_frontmatter.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/card_owned_frontmatter.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/card_owned_frontmatter.md
 
@@ -30,6 +30,31 @@ On every note a property card mounts on, the card shows the whole frontmatter: a
 [2026-11-24T12:26:23Z · ft--code] COORDINATION: Live Preview Vim property keys are now bare - (Properties drawer) and + (Property Editor) instead of =- / =+. == is unchanged; pending = then - or + falls through to Vim. registerPropertyCardSecondKeyArm("+") keeps its historical name. Vault vimrc nnoremap - :bob_daily is removed; :bob_daily and open-today-daily-note stay. Reading-view keys are out of scope. Work is in bob-plugins bob-ledger-tools plus the vault vimrc.
 
 [2026-11-24T12:28:34Z · ft--code] DEPLOY: bob plugins sync of this bare -/+ work was withheld without -F. Vault bob-ledger-tools is currently a dirty deploy from bob-cli_10 at f729388 (2026-11-24T12:27:22Z) for in-progress frontmatter takeover (240q). Overwriting that uncommitted build would discard pf.6.1 vault bytes. Acceptance is the athena source-tree e2e; vault deploy can follow once that dirty stamp is gone or the takeover commit is in HEAD.
+
+[2026-11-24T14:32:16Z · bob-cli-pf.land] LAND VERIFICATION (bob-cli-pf.land, 2026-11-24). All six phases (pf.1-pf.6) and all 36 descendant beads (child epics pf.1.1, pf.2.1, pf.4.1 + repair epic pf.4.1.7, pf.5.1, pf.6.1 and their phases) are closed; every note was read.
+
+Code reviewed and re-verified:
+- bob-cli (props-cli): src/native/props/ (cli, document, emit, fingerprint, golden, plan, protocol, roles, show), runner Vault group, catalog props-show row + props-update exclusion + props_v1 feature, docs/props.md. Rerun: cargo test --lib native::props 54/54; cargo test --test cli props 19/19. Read-only bob props show on real vault notes gives sensible roles (day parent derived, type identity, created/template loose; Zorg project zorg_* derived; bank.md bank card-owned by bank).
+- bob-plugins at b1413ba9: 240m created formatter, 240n inventory, 240o/240p foot DOM and per-note session state (drawer_memory=note), 240q whole-container ownership, 240r foot adapters (album/record/day/week/quarter/year/bank, bank_foot=yes), 248m second-key arm table, 298..298v Property Editor core + parity + capability routing (markdown:add-metadata-property wrap), Command Mode toggle-card-properties and edit-note-properties rows. No processFrontMatter or JS YAML writer in new fragments; no global .metadata-container rule. npm run build:check current; 32 focused property-card/editor/takeover/record-sheet/double-equals/e2e-self-test/prose-field suites pass 549/549.
+- Deploy: bob plugins list 12 synced, 0 drift; vault bob-ledger-tools main.js/styles.css are byte-identical to the committed HEAD bundle (main.js last changed in 3824ce55). This resolves epic note #2: the withheld bare -/+ deploy is live. The vault stamp still names bob-cli_10's dirty da688dd build, but its bytes match committed 3824ce55, so the next clean sync proves that commit without -F.
+- Child landers' acceptance evidence stands: card-foot real Obsidian 116/116; Property Editor writes 75 pass + 1 allowed skip, surfaces 129/129, YAML-Done 130/130; parity 263/263; S1 GO 18/18; takeover fail-open matrix GO 51/51 with 46 inspected captures (file:explicit:85b3b710894edb85fafa6063).
+
+DECISIONS honored: bank_foot=yes (bank gets the foot and keeps its native block); drawer_memory=note (per-path session map); memory_glossary_cards=yes (only glossary:property-card and glossary:record-card edited, in e3e437ba, and both describe bare -/+); memory_decision_record=no (no decisions strand added).
+
+Epic note #1 (user-directed rebind of =-/=+ to bare - and +, da688dd3): integrated. Docs, glossary, the validation guide, and the arm table use bare -/+; the only remaining =-/=+ mentions in bob-plugins docs say the old chords now fall through to Vim. The docs/capture.md =-/=+ hits are unrelated Pomodoro capture tokens.
+
+Integration: reviewed every non-epic commit since the epic started. bob-cli: requirements/drawers/tick/highlights/capture/docs work, 96a23f50..e3e437ba. bob-plugins: requirement, drawer-reader, relations, copy-card, prompt and perf commits plus da688dd3. None adds a frontmatter writer the props role table misses, competes with bob props, or needs to adopt the foot, drawer, or editor. Task drawers are a separate concept from the Properties drawer. The remaining processFrontMatter writer in bob-navigation-hotkeys 660-plugin-project-notes.js predates this epic and is owned by bob-cli-pl.1, which this epic blocks. No integration edits were needed. Both upstreams were fetched; no new commits after b1413ba9 / e3e437ba.
+
+Follow-up triage:
+(1) pf.3 #1, run real S1 to record the Add file property id: declined. Done by pf.6.1.1 (S1 GO 18/18 on athena, id markdown:add-metadata-property, wrapped by 298v).
+(2) pf.5 #1, repair the stale research reference: declined. The reference is valid. sase artifact read research:202611/card_owned_frontmatter/card_owned_frontmatter.md resolves once the research sidecar is cloned; it is cloned in only 11 of 25 workspaces, and the proposer's workspace lacked it.
+(3) Nested PROPOSED FOLLOW-UPs were already triaged through /sase_new_task by each child lander, and I accept those outcomes. Corroborated: bob-cli-km, bob-cli-io, bob-cli-pg, bob-cli-it, bob-cli-bo, bob-cli-5l, bob-cli-n0, bob-cli-ga. Created: bob-cli-pk, bob-cli-pv. Routed to bob-cli-ph. Notified: bob-cli-p4. The research.5y.cld DISCOVERED ISSUE on pf.2.1 was fixed in 39661003. I confirmed all of these tasks exist.
+(4) bob-cli-pm (period-notes real-clock test) was fixed by phase commit a7c91350 exactly as prescribed but was left ready. I re-verified it (17/17 on 2026-11-24) and closed it as done.
+No new task beads were created.
+
+Plan out-of-scope items (created backfill, one offset style, Reading-view chords) have no evidence that anyone still wants them, so none was filed. Area/project title-block cards are already epic bob-cli-pl.
+
+sase bead epic-symbols bob-cli-pf: none. This justfile has no symvision recipe. No bob-cli or bob-plugins source changed during landing.
 
 ## Phases
 
@@ -46,7 +71,7 @@ On every note a property card mounts on, the card shows the whole frontmatter: a
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-pf: Property cards own the frontmatter — foot row, =- drawer, created stamp, =+ editor, takeover [in_progress]"]
+    n0["bob-cli-pf: Property cards own the frontmatter — foot row, =- drawer, created stamp, =+ editor, takeover [closed]"]
     n1["bob-cli-pf.1: Card foot row, drawer, created stamp, and =- (bob-plugins) [closed]"]
     n2["bob-cli-pf.1.1: Card foot row, properties drawer, and equals-minus entry points [closed]"]
     n3["bob-cli-pf.1.1.1: Shared created stamp and source-ordered property inventory [closed]"]
@@ -214,7 +239,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 31 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md) | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md) | [bob-cli-pf.6.1](bob-cli-pf.6.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.land/README.md) | [bob-cli-pf](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.land/README.md) | [bob-cli-pf](README.md) | 1 |
 
 ## Commits
 
@@ -271,7 +296,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@305b637`](https://github.com/bobs-org/bob-plugins/commit/305b637c66ce4b6a52c13c0ab9d83d1c49f99887) | test(property-editor): prove native parity in real Obsidian and fix copy/filter spans | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:07:03 EST |
 | bob-cli--plans | [`bob-cli--plans@ac6bb6e`](https://github.com/bobs-org/bob-cli--plans/commit/ac6bb6eca6a4620b3f58b32a29183fa0ad22ffaf) | chore(plans): mark property\_editor\_parity done after bob-cli-pf.5.1 landing | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 2026-11-23 20:31:33 EST |
 
-… and 37 more commits
+… and 38 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -280,19 +305,21 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.6.1.1][1] | Need ancestor epic scope and decisions | 1 |
-| read-by | [agent:research.5y.cdx][2] | Understand property-card foundation epic and its intended extension points | 1 |
-| read-by | [agent:research.5y.cld][3] | Understand the property cards epic to design area/project note property cards | 1 |
-| read-by | [agent:research.5y.final][4] | Lead consolidation: verify pf epic status, phase completion, and D5 bank.md deferral wording before merging the swarm's area/project property-card research | 1 |
-| read-by | [agent:research.5y.gem][5] | Understand the bob-cli-pf epic scope, phases, and linked plan | 1 |
-| read-by | [agent:research.5y.grk][6] | Need the property-card epic scope before designing area and project cards | 1 |
-| read-by | [agent:research.5y.mus][7] | Need pf epic scope to design property cards for areas and projects | 1 |
+| read-by | [agent:fx][2] | Research whether the pl epic's dependency on pf is necessary | 1 |
+| read-by | [agent:research.5y.cdx][3] | Understand property-card foundation epic and its intended extension points | 1 |
+| read-by | [agent:research.5y.cld][4] | Understand the property cards epic to design area/project note property cards | 1 |
+| read-by | [agent:research.5y.final][5] | Lead consolidation: verify pf epic status, phase completion, and D5 bank.md deferral wording before merging the swarm's area/project property-card research | 1 |
+| read-by | [agent:research.5y.gem][6] | Understand the bob-cli-pf epic scope, phases, and linked plan | 1 |
+| read-by | [agent:research.5y.grk][7] | Need the property-card epic scope before designing area and project cards | 1 |
+| read-by | [agent:research.5y.mus][8] | Need pf epic scope to design property cards for areas and projects | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cdx/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.final/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.mus/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cdx/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.final/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.mus/README.md
 
 <!-- sase:referenced-by:end -->

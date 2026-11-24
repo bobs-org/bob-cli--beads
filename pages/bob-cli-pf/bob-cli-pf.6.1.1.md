@@ -18,7 +18,7 @@
 | related | file:explicit:934db24e538e78fe20a37f64 | attached via sase artifact create --bead |
 | related | file:explicit:9361b027911b8426729dd3be | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -59,9 +59,13 @@ focus-proof: run and strengthen the existing S1 probe, fix bounded ownership/foc
 | read-by | [agent:bob-cli-pf.6.1.1][1] | Need fields | 3 |
 | read-by | [agent:bob-cli-pf.6.1.2][2] | check prior phase completion evidence | 1 |
 | read-by | [agent:bob-cli-pf.6.1.3][3] | Need verified supported-mode ownership evidence before wiring adapters | 1 |
+| read-by | [agent:bob-cli-pf.6.1.land][4] | Need the child scope and notes | 1 |
+| read-by | [agent:fx][5] | Timeline of pf phase closures for pl gate research | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->
