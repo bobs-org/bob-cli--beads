@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 13 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 14 |
 
 ## Commits
 
@@ -39,6 +39,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@f319db7`](https://github.com/bobs-org/bob-plugins/commit/f319db7bd97f0724707b7f2c6f762507eb11039e) | test(ledger-tools): stabilize takeover matrix probes | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 02:39:56 EST |
 | bob-plugins | [`bob-plugins@b476724`](https://github.com/bobs-org/bob-plugins/commit/b47672479d821c43ae5e843e08ed88779759c983) | test(ledger-tools): restore fixture after vim probe | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 02:51:20 EST |
 | bob-plugins | [`bob-plugins@8a8b7a6`](https://github.com/bobs-org/bob-plugins/commit/8a8b7a642f64383d5300057b0972ee9d69c037c8) | fix(e2e): restore takeover fixture editor buffer | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:06:00 EST |
+| bob-plugins | [`bob-plugins@d69f842`](https://github.com/bobs-org/bob-plugins/commit/d69f8423043a76ea4dd3c096ac626c5e566b8b8e) | test(frontmatter): trace takeover fixture byte transitions | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:18:32 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -53,6 +54,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | read-by | [agent:bob-cli-pf.6.1.4--8][1] | Inspect current phase notes and linked evidence before deciding whether this athena failure matches clean-base behavior | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--9][1] | Need the phase acceptance criteria, current notes, and clean-base comparison context before deciding whether this monitored run permits phase closeout. | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--a][1] | Check this phase's recorded clean-base comparison and latest matrix context before classifying the new NO-GO | 2 |
+| read-by | [agent:bob-cli-pf.6.1.4--c][1] | Need assigned phase scope and history before updating its findings | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md
 
