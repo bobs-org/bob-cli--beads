@@ -20,7 +20,7 @@ navcard: model twin, the card modal, nav api.mailCloseGuard v1, and guarding eve
 ## Dependencies
 
 - **Depends on:** [bob-cli-px.1](bob-cli-px.1.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-px.4](bob-cli-px.4.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-px.4](bob-cli-px.4.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
@@ -33,3 +33,15 @@ navcard: model twin, the card modal, nav api.mailCloseGuard v1, and guarding eve
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@06f236c`](https://github.com/bobs-org/bob-plugins/commit/06f236c21942d7f42bf6445832d0b7afdd337f79) | feat(navigation): guard Gmail task closes with Mail Close Card | [bob-cli-px.3](bob-cli-px.3.md) | 2026-11-24 14:50:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-px.3--4][1] | Review the assigned Bob Navigation Hotkeys phase before recording verification findings and resolving symbols | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.3.md
+
+<!-- sase:referenced-by:end -->
