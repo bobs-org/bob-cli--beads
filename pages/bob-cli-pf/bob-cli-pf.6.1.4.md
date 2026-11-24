@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 8 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 9 |
 
 ## Commits
 
@@ -34,6 +34,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@da80616`](https://github.com/bobs-org/bob-plugins/commit/da80616e1355d208eb35078b3e7e264edd95a559) | test(ledger-tools): stabilize StateField takeover cache harness | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 01:10:09 EST |
 | bob-plugins | [`bob-plugins@dbc2f2c`](https://github.com/bobs-org/bob-plugins/commit/dbc2f2c2dc01a49d06c636e06f9ef3f157845605) | test(ledger-tools): stabilize StateField registration and stale-cache harness | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 01:26:41 EST |
 | bob-plugins | [`bob-plugins@87a5f7e`](https://github.com/bobs-org/bob-plugins/commit/87a5f7e1ba443204de2f848bfa8c1517e13aba83) | test(ledger-tools): add stale-cache restoration diagnostics | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 01:44:23 EST |
+| bob-plugins | [`bob-plugins@637c321`](https://github.com/bobs-org/bob-plugins/commit/637c3212617fa229996d2a81c140fcbf1cf76a2f) | test(ledger-tools): align stale-cache probe with restored summary | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 02:05:32 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -44,6 +45,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | read-by | [agent:bob-cli-pf.6.1.4--1][1] | Need phase scope and current status after xvfb failure | 2 |
 | read-by | [agent:bob-cli-pf.6.1.4--2][1] | Review phase scope and status before resolving its real-Obsidian takeover matrix | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--3][1] | Review assigned phase scope and notes before updating its result | 1 |
+| read-by | [agent:bob-cli-pf.6.1.4--7][1] | Review phase scope and prior validation evidence before classifying the latest NO-GO and deciding whether this phase can close | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md
 
