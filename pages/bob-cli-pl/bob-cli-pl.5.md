@@ -13,7 +13,7 @@ card-live: patch the cards in place from the already-cached areas/projects repor
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.3](bob-cli-pl.3.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pl.3](bob-cli-pl.3.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-pl.4](bob-cli-pl.4.md) ◐ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.9](bob-cli-pl.9.md) ◐ · ⧖ 2026-11-22
 

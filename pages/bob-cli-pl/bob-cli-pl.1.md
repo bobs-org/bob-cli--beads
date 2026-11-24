@@ -17,7 +17,7 @@
 | related | file:explicit:5c8a64dd5b630b4d7f26d2e5 | attached via sase artifact create --bead |
 | related | file:explicit:7e981553181fd23c81d6b221 | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -75,9 +75,11 @@ COMPLETION: Source tests, CRLF fixture, three-view real Obsidian Base acceptance
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1fn--code][1] | Check whether retiring project-note frontmatter writers covers the requirement close Undo guard | 1 |
-| read-by | [agent:fx][2] | Research whether the pl epic's dependency on pf is necessary | 1 |
+| read-by | [agent:bob-cli-pl.1--4][2] | Review the latest phase acceptance evidence before final receipt and closure | 1 |
+| read-by | [agent:fx][3] | Research whether the pl epic's dependency on pf is necessary | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.1fn.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.1.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

@@ -26,7 +26,7 @@ contract-writes: complete the role table for area/project notes and bank.md, val
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf](../bob-cli-pf/README.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pl.3](bob-cli-pl.3.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pl.3](bob-cli-pl.3.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

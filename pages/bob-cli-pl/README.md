@@ -37,7 +37,7 @@ Every area and project note opens with a calm property card (an Area Card or a P
 |---|---|---|---|---|---:|---:|
 | [bob-cli-pl.1](bob-cli-pl.1.md) | Retire the second frontmatter writers on project notes (bob-plugins + vault) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pl.2](bob-cli-pl.2.md) | Area/project roles, validation, and setting ops in bob props (bob-cli) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
-| [bob-cli-pl.3](bob-cli-pl.3.md) | The settings contract in bob props show, dry-run effects, and list issues (bob-cli) | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
+| [bob-cli-pl.3](bob-cli-pl.3.md) | The settings contract in bob props show, dry-run effects, and list issues (bob-cli) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pl.4](bob-cli-pl.4.md) | Area Card and Project Card painted from local data (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.5](bob-cli-pl.5.md) | Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.6](bob-cli-pl.6.md) | The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
@@ -52,7 +52,7 @@ flowchart TD
     n0["bob-cli-pl: Area and project cards with a bob-validated settings editor [in_progress]"]
     n1["bob-cli-pl.1: Retire the second frontmatter writers on project notes (bob-plugins + vault) [closed]"]
     n2["bob-cli-pl.2: Area/project roles, validation, and setting ops in bob props (bob-cli) [closed]"]
-    n3["bob-cli-pl.3: The settings contract in bob props show, dry-run effects, and list issues (bob-cli) [in_progress]"]
+    n3["bob-cli-pl.3: The settings contract in bob props show, dry-run effects, and list issues (bob-cli) [closed]"]
     n4["bob-cli-pl.4: Area Card and Project Card painted from local data (bob-plugins) [in_progress]"]
     n5["bob-cli-pl.4.1: Local Area and Project cards [in_progress]"]
     n6["bob-cli-pl.4.1.1: Local home-card model, species, and presentation [closed]"]
@@ -97,7 +97,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-pl.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.1.md) | [bob-cli-pl.1](bob-cli-pl.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.2.md) | [bob-cli-pl.2](bob-cli-pl.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.3/README.md) | [bob-cli-pl.3](bob-cli-pl.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.3/README.md) | [bob-cli-pl.3](bob-cli-pl.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.4.md) | [bob-cli-pl.4](bob-cli-pl.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.1/README.md) | [bob-cli-pl.4.1.1](bob-cli-pl.4.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.2/README.md) | [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) | 0 |
@@ -116,6 +116,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`d39680d`](https://github.com/bobs-org/bob-cli/commit/d39680dda4120b90602467ec812ec819d7a984d2) | feat(props): validate area and project setting writes | [bob-cli-pl.2](bob-cli-pl.2.md) | 2026-11-24 10:59:57 EST |
 | bob-cli | [`31131fe`](https://github.com/bobs-org/bob-cli/commit/31131fe2f6151fafb941f92a78894d19784f04f6) | fix(props): allow removal of retired project count fields | [bob-cli-pl.1](bob-cli-pl.1.md) | 2026-11-24 12:07:50 EST |
+| bob-cli | [`4b23bbe`](https://github.com/bobs-org/bob-cli/commit/4b23bbef29a3dd932158930c40bc1d0c8d5be2f2) | feat(props): expose the area and project settings contract | [bob-cli-pl.3](bob-cli-pl.3.md) | 2026-11-24 12:18:07 EST |
 
 <!-- sase:referenced-by:start -->
 
