@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 17 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 18 |
 
 ## Commits
 
@@ -43,6 +43,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@23f58cc`](https://github.com/bobs-org/bob-plugins/commit/23f58cc924a54bdb96caa56e8f342790ed66b534) | test(frontmatter): audit fixture writer attribution | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:33:53 EST |
 | bob-plugins | [`bob-plugins@0a27756`](https://github.com/bobs-org/bob-plugins/commit/0a277566de3a1b0cae767fa6c55c1e676e168e5d) | fix(e2e): isolate Vim probe from fixture bytes | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:51:18 EST |
 | bob-plugins | [`bob-plugins@545f734`](https://github.com/bobs-org/bob-plugins/commit/545f73491bcc424e64865c3cf55fd1207508af0f) | fix(e2e): isolate stale-cache probe from protected fixture | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 04:05:13 EST |
+| bob-plugins | [`bob-plugins@784f2c4`](https://github.com/bobs-org/bob-plugins/commit/784f2c4f326e28ae32aacc79a600aca628b7b6df) | test: keep delayed Obsidian saves off protected fixture | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 04:24:13 EST |
 
 <!-- sase:referenced-by:start -->
 
