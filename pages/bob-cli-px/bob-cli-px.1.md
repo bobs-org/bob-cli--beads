@@ -20,7 +20,7 @@ model: Rust predicate plus copy and digest model for guarded closes, the shared 
 ## Dependencies
 
 - **Blocks:** [bob-cli-px.2](bob-cli-px.2.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-px.3](bob-cli-px.3.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-px.3](bob-cli-px.3.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

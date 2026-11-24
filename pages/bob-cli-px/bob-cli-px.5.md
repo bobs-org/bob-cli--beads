@@ -24,10 +24,16 @@ mac: preview banner, a Mail Close card opened from bob's refusal, Y to confirm w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@c2a4426`](https://github.com/bobs-org/bob-mac-capture/commit/c2a442676baa2807b117a85411ef0865c5a5923b) | feat(mac-capture)!: show the Mail Close Card for email-task closes | [bob-cli-px.5](bob-cli-px.5.md) | 2026-11-24 14:46:24 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-px.5][1] | check phase notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md
+
+<!-- sase:referenced-by:end -->

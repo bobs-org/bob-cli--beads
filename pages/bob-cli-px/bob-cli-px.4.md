@@ -13,7 +13,7 @@ cycler: guard Ctrl+Enter, Alt+[ / Alt+], counted, Task Link, transclusion, Pomod
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-px.3](bob-cli-px.3.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-px.3](bob-cli-px.3.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ◐ · ⧖ 2026-11-24
 
 ## Agents
