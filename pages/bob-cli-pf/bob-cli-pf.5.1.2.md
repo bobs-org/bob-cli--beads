@@ -43,7 +43,9 @@ rename-reorder: implement the inline rename stage and source-order moves with at
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.5.1.2][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:bob-cli-pf.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

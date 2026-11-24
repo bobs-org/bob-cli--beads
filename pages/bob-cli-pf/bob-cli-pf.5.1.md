@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_editor_parity.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_editor_parity.md
 
@@ -52,11 +52,13 @@ The =+ Property Editor supports keyboard rename, reorder, selection, copy/paste,
 | read-by | [agent:bob-cli-pf.5.1.5][3] | Need phase notes, remaining work, and approved parent decisions/design context | 1 |
 | read-by | [agent:bob-cli-pf.5.1.6][4] | Need parent epic DECISIONS that remain final | 1 |
 | read-by | [agent:bob-cli-pf.5.1.7][5] | parent epic status for acceptance phase | 1 |
+| read-by | [agent:bob-cli-pf.5.1.land][6] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.1.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->
