@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 3 |
 
 ## Commits
 
@@ -28,3 +28,16 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@beb821f`](https://github.com/bobs-org/bob-plugins/commit/beb821ff9395d73c64a9114445ef98fc086b1080) | test(property-cards): add frontmatter takeover e2e matrix | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-23 23:44:11 EST |
 | bob-plugins | [`bob-plugins@8dab063`](https://github.com/bobs-org/bob-plugins/commit/8dab063f38fdbd665af38e12bbc5500ab84b0819) | test(property-cards): create the takeover profile before bob-control.json | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-23 23:52:17 EST |
+| bob-plugins | [`bob-plugins@16e0767`](https://github.com/bobs-org/bob-plugins/commit/16e076756151608ee57591b505efac204216074a) | fix(ledger-tools): register Live Preview frontmatter ownership field | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 00:11:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.6.1.4--1][1] | Need phase scope and current status after xvfb failure | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md
+
+<!-- sase:referenced-by:end -->
