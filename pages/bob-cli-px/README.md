@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-px.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.4/README.md) | [bob-cli-px.4](bob-cli-px.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-px.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.6.md) | [bob-cli-px.6](bob-cli-px.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-px.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.land.md) | [bob-cli-px](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-px.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.land.md) | [bob-cli-px](README.md) | 2 |
 
 ## Commits
 
@@ -101,3 +101,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@06f236c`](https://github.com/bobs-org/bob-plugins/commit/06f236c21942d7f42bf6445832d0b7afdd337f79) | feat(navigation): guard Gmail task closes with Mail Close Card | [bob-cli-px.3](bob-cli-px.3.md) | 2026-11-24 14:50:25 EST |
 | bob-plugins | [`bob-plugins@6150d7e`](https://github.com/bobs-org/bob-plugins/commit/6150d7e65bd7b663ae87dc26bdbb2d9388a718eb) | feat(cycler): guard Gmail task closes with the Mail Close Card | [bob-cli-px.4](bob-cli-px.4.md) | 2026-11-24 15:30:59 EST |
 | bob-mac-capture | [`bob-mac-capture@7d369ae`](https://github.com/bobs-org/bob-mac-capture/commit/7d369ae870a9b1fdc7b29654b08ef5171e2ccafb) | fix(mac-capture): order mailCloseVisible after moveChoiceFilterIsEmpty and drop unreachable Return | [bob-cli-px](README.md) | 2026-11-24 17:22:57 EST |
+| bob-plugins | [`bob-plugins@4ecbf21`](https://github.com/bobs-org/bob-plugins/commit/4ecbf218ee100fcb26d690930de3bdaac5ac440f) | feat(plugins): finish Mail Close Card prompt-once, checkbox guard, and card spec | [bob-cli-px](README.md) | 2026-11-24 17:23:23 EST |
