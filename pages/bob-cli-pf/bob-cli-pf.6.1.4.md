@@ -14,6 +14,8 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | related | file:explicit:0538b23fd9d20776a715d89b | attached via sase artifact create --bead |
+| related | file:explicit:4a30b9c004edcd281d464aaf | attached via sase artifact create --bead |
+| related | file:explicit:b0eaf66bb3cfff3bf6416b4c | attached via sase artifact create --bead |
 | related | file:explicit:f4e751a976c731bafe5dbf7a | attached via sase artifact create --bead |
 
 _Plus 12 automatic references — see [Referenced By](#referenced-by)._
@@ -36,6 +38,12 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 [2026-11-24T12:29:48Z · bob-cli-pf.6.1.4--3] vybz1794wbcg was NO-GO: screenshot capture timed out on record dark Reading; later audit checks were skipped, protected day bytes stayed unchanged. All 22 report-listed images were viewed and hash-verified: 21 PASS, one failure shows native Properties below the record card. Retained rejected evidence: file:explicit:0538b23fd9d20776a715d89b. Real-app lifecycle tracing reproduced the ownership loss twice: Obsidian paints a cached Reading preview while detached; eligibility correctly refuses, but attachment had no retry. Added one guarded animation-frame recheck for detached Reading mounts, canceled by newer paints and guarded against path/mount/unload/cache changes; no polling or relaxed eligibility. 56 focused tests and build:check pass. Exact rebuilt bundle af579aafa4c2de1e62ce2e1ed1d5514d56f5f16cb2f664596946c881517a8739 synced successfully. Uninstrumented real-app probe passes eight alternating theme/width live-to-Reading cycles; all 16 diagnostic images were viewed and hash-verified PASS. This diagnostic intentionally omits the full matrix and cannot close acceptance. Full rerun still required. n0 held-lock again reproduces on clean e9d202c0; km timing again fails under full load but passes isolated23/23. Existing PROPOSED FOLLOW-UP note applies. No epic-symbol entries for this phase at current check.
 
+[2026-11-24T12:46:58Z · bob-cli-pf.6.1.4--4] Monitor btfkgqg16wv1 is rejected: the same dark narrow record Reading screenshot times out after 21 valid captures despite the prior once-only RAF fix. All 22 listed PNGs were opened individually and hash-verified this turn: 21 visual PASS, one FAIL showing native Properties below the record card. Retained all images, individual verdicts, report, logs and hash-verified source/bundle/runner bytes as file:explicit:b0eaf66bb3cfff3bf6416b4c. A diagnostic screenshot-only replay of the exact day/week/record order completed 24 captures with no captureFailures, so it does not reproduce the full preceding sequence and is not acceptance evidence. Prepared a full-sequence diagnostic that logs scope/module identity, eligibility failures, releases and deferred callbacks only inside the disposable copied bundle; production source/bundle unchanged. Full npm remains 9220/9222 plus perf26/26; held-lock failure again matches clean base and timing passes isolated23/23. Existing n0/km follow-up applies. No epic-symbol entries; phase remains open pending the actual fix and complete uninstrumented visual acceptance.
+
+[2026-11-24T12:59:11Z · bob-cli-pf.6.1.4--5] Monitor 2nazen1rx03z again reproduced the record Reading leak (light wide this time), but its ownershipTrace was absent: the diagnostic finally block referenced ctx scoped to try and silently caught ReferenceError. Fixed collector to use outer client.evaluate, explicitly report collection/logger errors, and assert each instrumentation hook matches once. Short real-Obsidian preflight now captures 46 lifecycle events across two plugin loads, with no trace errors; generated bundle and wrapper syntax pass. No production source changed. All20 failed diagnostic image hashes verified, failure image visually confirms native Properties below record card; other19 remain unreviewed diagnostic images. Evidence retained as file:explicit:4a30b9c004edcd281d464aaf. Full corrected tracing is required before a supported production fix. Local repo open advanced bob-plugins to da688dd3 (new bare +/- shortcuts); remote trace still deliberately runs exact failing bundle af579aafa4c2de1e62ce2e1ed1d5514d56f5f16cb2f664596946c881517a8739. Final integration must reconcile these before uninstrumented acceptance. No epic-symbol entries for own phase or pf.6; phase remains open.
+
+[2026-11-24T13:14:18Z · bob-cli-pf.6.1.4--6] Monitor pb3gs6bs708q captured 380 lifecycle events without trace errors. Last record light-wide Reading ownership check rejects a detached card outside its connected scope (reason 6); the final inspected PNG/probe shows the title-slot observer has restored the card but native Properties remain visible. Added a guarded mount notification at actual title-slot insertion/restoration and reattached headers; Reading record, album and temporal adapters recheck the existing full eligibility gate. New primitive/adopter/coordinator regression fails before the fix and passes after, covering reinsert/replaced/parked headers plus cache skew, Source, navigation, unload and release fail-open cases. All102 focused tests and build:check pass, rebuilt bundle8972e8706a422084a22c9e1374c74719e2e39190b12bb48dde357fb00e43d387 synced. Reconciled Athena to current da688dd3 plus fix after proving all7 old dirty files match landed a219858a; all1817 tracked local/remote plugin files now hash-identical. Retained trace,20 hash-verified diagnostic PNGs (only failure visually reviewed), red/green tests, build/sync logs, exact source archive and prior lifecycle-fix-evidence as file:explicit:c34d8f4e656efd3110e34dac. No epic-symbol entries. Phase remains open until full uninstrumented51-check GO and46 individually inspected images; existing n0/km baseline exception still applies.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
@@ -45,7 +53,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 30 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 31 |
 
 ## Commits
 
@@ -81,6 +89,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@90e7809`](https://github.com/bobs-org/bob-plugins/commit/90e780905a07e059af2b54ad1c204e9d61d0f1d7) | test(frontmatter): dismiss editor layers and probe the native file sidebar | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:52:59 EST |
 | bob-plugins | [`bob-plugins@f729388`](https://github.com/bobs-org/bob-plugins/commit/f729388375dcd946ac365d276cad25d1ccf99066) | test(frontmatter): isolate DOM injection and validate screenshot ownership | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 07:10:37 EST |
 | bob-plugins | [`bob-plugins@a219858`](https://github.com/bobs-org/bob-plugins/commit/a219858a0552c1bb8240ce95c90a5251a1907006) | fix(frontmatter): acquire Reading ownership after cached mounts attach | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 07:31:28 EST |
+| bob-plugins | [`bob-plugins@3824ce5`](https://github.com/bobs-org/bob-plugins/commit/3824ce558a08174d74addcc6f14687303dfd635a) | fix(frontmatter): reacquire Reading ownership when title slots restore | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 08:16:11 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -90,7 +99,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.6.1.4--1][1] | Need phase scope and current status after xvfb failure | 3 |
 | read-by | [agent:bob-cli-pf.6.1.4--2][1] | Review assigned acceptance criteria and tracked generic test failures | 2 |
-| read-by | [agent:bob-cli-pf.6.1.4--3][1] | Review assigned phase scope and notes before updating its result | 1 |
+| read-by | [agent:bob-cli-pf.6.1.4--3][1] | Review assigned phase scope and notes before updating its result | 2 |
 | read-by | [agent:bob-cli-pf.6.1.4--7][1] | Review phase scope and prior validation evidence before classifying the latest NO-GO and deciding whether this phase can close | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--8][1] | Inspect current phase notes and linked evidence before deciding whether this athena failure matches clean-base behavior | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--9][1] | Need the phase acceptance criteria, current notes, and clean-base comparison context before deciding whether this monitored run permits phase closeout. | 1 |
