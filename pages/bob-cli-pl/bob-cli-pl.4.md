@@ -26,7 +26,7 @@ Real-app proof: athena xvfb-run PASS 75/75 with 28 inspected screenshots (file:e
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf](../bob-cli-pf/README.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pl.5](bob-cli-pl.5.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pl.5](bob-cli-pl.5.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.6](bob-cli-pl.6.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

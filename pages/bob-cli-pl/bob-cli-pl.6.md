@@ -22,7 +22,7 @@ editor-settings: add the AREA/PROJECT SETTINGS group with ghost rows and clear-t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6/README.md) | [bob-cli-pl.6](bob-cli-pl.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.md) | [bob-cli-pl.6](bob-cli-pl.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

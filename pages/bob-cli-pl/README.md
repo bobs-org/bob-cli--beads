@@ -39,7 +39,7 @@ Every area and project note opens with a calm property card (an Area Card or a P
 | [bob-cli-pl.2](bob-cli-pl.2.md) | Area/project roles, validation, and setting ops in bob props (bob-cli) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pl.3](bob-cli-pl.3.md) | The settings contract in bob props show, dry-run effects, and list issues (bob-cli) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pl.4](bob-cli-pl.4.md) | Area Card and Project Card painted from local data (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
-| [bob-cli-pl.5](bob-cli-pl.5.md) | Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
+| [bob-cli-pl.5](bob-cli-pl.5.md) | Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pl.6](bob-cli-pl.6.md) | The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.7](bob-cli-pl.7.md) | Hue, default type, and clock-policy stages (bob-plugins) | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.8](bob-cli-pl.8.md) | The Lives under stage with consequence preview and catalog refresh (bob-plugins) | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
@@ -58,11 +58,17 @@ flowchart TD
     n6["bob-cli-pl.4.1.1: Local home-card model, species, and presentation [closed]"]
     n7["bob-cli-pl.4.1.2: Home-card host, title adoption, foot, and lifecycle integration [closed]"]
     n8["bob-cli-pl.4.1.3: Real-Obsidian acceptance, screenshots, and card documentation [closed]"]
-    n9["bob-cli-pl.5: Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) [in_progress]"]
+    n9["bob-cli-pl.5: Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) [closed]"]
     n10["bob-cli-pl.6: The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) [in_progress]"]
-    n11["bob-cli-pl.7: Hue, default type, and clock-policy stages (bob-plugins) [in_progress]"]
-    n12["bob-cli-pl.8: The Lives under stage with consequence preview and catalog refresh (bob-plugins) [in_progress]"]
-    n13["bob-cli-pl.9: Hide native Properties on area/project notes and arbitrate bank.md (bob-plugins + memory) [in_progress]"]
+    n11["bob-cli-pl.6.1: Area and project settings in the Property Editor [in_progress]"]
+    n12["bob-cli-pl.6.1.1: Return the resulting settings contract from property previews and writes [in_progress]"]
+    n13["bob-cli-pl.6.1.2: Extend the Property Editor with contract groups and stable virtual rows [in_progress]"]
+    n14["bob-cli-pl.6.1.3: Implement simple setting stages and clear-to-inherit through the shared session [in_progress]"]
+    n15["bob-cli-pl.6.1.4: Route area and project settings entry points and project task handoffs [in_progress]"]
+    n16["bob-cli-pl.6.1.5: Verify settings behavior and visuals in real Obsidian [in_progress]"]
+    n17["bob-cli-pl.7: Hue, default type, and clock-policy stages (bob-plugins) [in_progress]"]
+    n18["bob-cli-pl.8: The Lives under stage with consequence preview and catalog refresh (bob-plugins) [in_progress]"]
+    n19["bob-cli-pl.9: Hide native Properties on area/project notes and arbitrate bank.md (bob-plugins + memory) [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -73,10 +79,16 @@ flowchart TD
     n5 --> n8
     n0 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n1 -.-> n13
+    n10 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n11 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n1 -.-> n19
     n2 -.-> n3
     n3 -.-> n9
     n3 -.-> n10
@@ -84,11 +96,15 @@ flowchart TD
     n4 -.-> n10
     n6 -.-> n7
     n7 -.-> n8
-    n9 -.-> n13
-    n10 -.-> n11
-    n10 -.-> n12
-    n11 -.-> n13
+    n9 -.-> n19
+    n10 -.-> n17
+    n10 -.-> n18
     n12 -.-> n13
+    n13 -.-> n14
+    n14 -.-> n15
+    n15 -.-> n16
+    n17 -.-> n19
+    n18 -.-> n19
 ```
 
 ## Agents
@@ -102,9 +118,15 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.1/README.md) | [bob-cli-pl.4.1.1](bob-cli-pl.4.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.2/README.md) | [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.4.1.3.md) | [bob-cli-pl.4.1.3](bob-cli-pl.4.1.3.md) | 2 |
-| [bbugyi200.apollo.bob-cli-pl.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.4.1.land.md) | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-pl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.5/README.md) | [bob-cli-pl.5](bob-cli-pl.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-pl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6/README.md) | [bob-cli-pl.6](bob-cli-pl.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.4.1.land.md) | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.5/README.md) | [bob-cli-pl.5](bob-cli-pl.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.md) | [bob-cli-pl.6](bob-cli-pl.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.1.md) | [bob-cli-pl.6.1.1](bob-cli-pl.6.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.2/README.md) | [bob-cli-pl.6.1.2](bob-cli-pl.6.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md) | [bob-cli-pl.6.1.3](bob-cli-pl.6.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.4/README.md) | [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.5/README.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.7/README.md) | [bob-cli-pl.7](bob-cli-pl.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.8/README.md) | [bob-cli-pl.8](bob-cli-pl.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9/README.md) | [bob-cli-pl.9](bob-cli-pl.9.md) | 0 |
@@ -123,7 +145,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@b4023b8`](https://github.com/bobs-org/bob-plugins/commit/b4023b85b8c3291f1f575d9fa920e02f82c28b60) | fix(projects): retire duplicate frontmatter writers | [bob-cli-pl.1](bob-cli-pl.1.md) | 2026-11-24 12:32:05 EST |
 | bob-plugins | [`bob-plugins@71cf808`](https://github.com/bobs-org/bob-plugins/commit/71cf808a2cdede5324072f6c3a81a08ee1c4f4d3) | test: correct home-card acceptance assertions | [bob-cli-pl.4.1.3](bob-cli-pl.4.1.3.md) | 2026-11-24 13:42:42 EST |
 | bob-plugins | [`bob-plugins@45697ae`](https://github.com/bobs-org/bob-plugins/commit/45697ae018dbeb60fd687890faccb781196c3a42) | fix(home-cards): finish local Area and Project card landing | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 2026-11-24 15:42:08 EST |
-| bob-cli--plans | [`bob-cli--plans@741102d`](https://github.com/bobs-org/bob-cli--plans/commit/741102d13744f2f6ff150359858bd4f17a02d636) | docs(plans): mark local home-card epic and finish tale done | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 2026-11-24 15:43:14 EST |
+| bob-plugins | [`bob-plugins@d59ee11`](https://github.com/bobs-org/bob-plugins/commit/d59ee11bd8621db6ca10b6826ffd5178604059e9) | feat(ledger-tools): add home card live patch with blocked-project links and goal line | [bob-cli-pl.5](bob-cli-pl.5.md) | 2026-11-24 16:31:04 EST |
 
 <!-- sase:referenced-by:start -->
 
