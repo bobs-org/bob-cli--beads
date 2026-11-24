@@ -33,8 +33,10 @@ home-cards: add the area and project species and one shared home adapter that pa
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:fx][1] | Research whether the pl epic's dependency on pf is necessary | 1 |
+| read-by | [agent:bob-cli-pl.4.1.2][1] | Need outer phase scope and decisions | 1 |
+| read-by | [agent:fx][2] | Research whether the pl epic's dependency on pf is necessary | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

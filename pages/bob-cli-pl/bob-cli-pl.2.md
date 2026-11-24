@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-pl](README.md) / bob-cli-pl.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5y.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5y.linker.w1.md) · **Assignee:** `bob-cli-pl.2` · **Size:** medium
-**Created:** 2026-11-22 20:56:40 EST
+**Created:** 2026-11-22 20:56:40 EST · **Closed:** 2026-11-24 10:58:20 EST
 **Plan:** [202611/area\_project\_cards.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/area_project_cards.md)
 
 ## Description
@@ -21,6 +21,8 @@ contract-writes: complete the role table for area/project notes and bank.md, val
 
 [2026-11-24T15:25:05Z · bob-cli-pl.2--1] Implementation is present on foundation master e3e437ba: shared area/project/bank setting table, role and legacy metadata, generic-path validation, setting.set/clear expansion with primitive byte-exact inverses, lock-time dependency refresh, docs, 42 explicit byte goldens, and CLI race/atomicity tests. Live read-only role acceptance passed on dev, sase_blog, mac_inbox, bank. Foundation now uses bare + instead of the old plan spelling =+; docs follow landed behavior. props_contract_v1 remains for phase 3. First full check ToolRun 16a907966e938c1d477e2afcb6027c7c passed fmt/clippy and all but two new contract tests, stale generated CLI help, and the separately recorded known completion flake. Fixed semantic parent reads through comments, proposed-edge cycle repair, and pre-splice invalid value checks; added regression and idempotence tests. Remaining work is verification and review of generated docs, then epic-symbols and close only this phase; it clearly fits one coder. No memory or linked-repo changes.
 
+[2026-11-24T15:58:20Z · bob-cli-pl.2--2] Completed contract-writes: area/project/bank roles and legacy metadata, shared domain validation for generic write paths, strict setting.set/setting.clear expansion, lock-time parent revalidation, warning responses, and byte-exact inverse operations. All 42 setting golden cases and regression tests pass. Canonical ToolRun c9e8f38e5d008646553c147a7649d9cf passed fmt, Clippy, and the complete workspace suite (8004 library tests, 4080 CLI tests, all remaining integration suites and doctests). just docs-gen passed and its only generated diff was the two setting operations in props update help; just docs-check passed all implemented gates (447 tests, one optional font-dependency skip). Recovered stale ignored mounted-doc outputs by backing them up and regenerating; no linked-repo or memory changes. Prior live read-only role checks on dev, sase_blog, mac_inbox, and bank remain valid. Rechecked epic-symbols: no entries. props_contract_v1 remains deferred to contract-reads (phase 3). Closed only this phase; the ancestor epic remains open.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf](../bob-cli-pf/README.md) ✓ · ⧖ 2026-11-22
@@ -30,7 +32,13 @@ contract-writes: complete the role table for area/project notes and bank.md, val
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.2.md) | [bob-cli-pl.2](bob-cli-pl.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.2.md) | [bob-cli-pl.2](bob-cli-pl.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d39680d`](https://github.com/bobs-org/bob-cli/commit/d39680dda4120b90602467ec812ec819d7a984d2) | feat(props): validate area and project setting writes | [bob-cli-pl.2](bob-cli-pl.2.md) | 2026-11-24 10:59:57 EST |
 
 <!-- sase:referenced-by:start -->
 

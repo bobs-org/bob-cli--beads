@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/local_home_cards.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/local_home_cards.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Complete bob-cli-pl.4 with locally painted Area and Project title cards, native 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-pl.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.land/README.md) | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.4.1.2][1] | Need parent epic scope for mount-foot | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ contract-reads: expose each setting's stage, choices, declared and effective val
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.2](bob-cli-pl.2.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pl.2](bob-cli-pl.2.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.5](bob-cli-pl.5.md) ◐ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.6](bob-cli-pl.6.md) ◐ · ⧖ 2026-11-22
 
