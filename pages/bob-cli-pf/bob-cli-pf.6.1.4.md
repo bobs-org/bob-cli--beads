@@ -11,6 +11,10 @@
 
 acceptance: build and run the disposable-vault real-Obsidian takeover matrix and offline wrapper, fix integration regressions, and retain inspected screenshots and reports tied to the exact CLI binary and plugin builds.
 
+## Notes
+
+[2026-11-24T11:29:49Z · bob-cli-pf.6.1.4] Recovered earlier work from landed plugin commits and transcript bob-cli-pf.6.1.4--p. The bead currently had no notes. Repeated NO-GO runs increased a nonexistent deferred-save wait from 360 to 480 to 600 seconds; each protected-note write occurred about 16 seconds after timeout. The harness later intentionally invokes native Add property for failed-opener-fallback on that protected note. Replaced this speculative wait with isolated native fallback on disposable 2026/20261117.md in a dedicated leaf, per-check timestamps and write-stage attribution. Also fixed ordinary editor screenshots to open the Bob property editor and require Add mode, and tightened sidebar presence/availability assertions. Focused ownership/spike/wrapper checks pass; full exact-build real-Obsidian acceptance and visual inspection remain. This remainder is bounded validation of the existing implementation, not a new implementation phase. No epic-symbol entries currently remain.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
@@ -20,7 +24,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 26 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 27 |
 
 ## Commits
 
@@ -52,6 +56,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@b3e01d3`](https://github.com/bobs-org/bob-plugins/commit/b3e01d3653f17893529b1af8056b1c4ee0274970) | fix(e2e): wait for delayed native save before advancing fixture | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 05:41:23 EST |
 | bob-plugins | [`bob-plugins@d51fed0`](https://github.com/bobs-org/bob-plugins/commit/d51fed05c4f5235aab49133b1d4023695b13a3ab) | test(obsidian): extend deferred save probe wait | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 05:57:10 EST |
 | bob-plugins | [`bob-plugins@e9d202c`](https://github.com/bobs-org/bob-plugins/commit/e9d202c0ad46014082e9daa08246f92289180d01) | test(obsidian): extend frontmatter takeover save wait | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:14:46 EST |
+| bob-plugins | [`bob-plugins@f3caac9`](https://github.com/bobs-org/bob-plugins/commit/f3caac9054a8e0a5718349f69f805dab59c12fc2) | test(frontmatter): isolate native fallback writes and tighten acceptance | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 06:32:20 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -70,6 +75,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | read-by | [agent:bob-cli-pf.6.1.4--f][1] | Review current phase findings and the recorded clean-base ownership failure before resolving this matrix run | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--h][1] | Need current phase status, completion criteria, and recorded notes before deciding whether to close | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--n][1] | Need the assigned phase scope and existing notes before resolving this monitored E2E | 2 |
+| read-by | [agent:bob-cli-pf.6.1.4--p][1] | Need phase state and notes before deciding whether this failed run can close the phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md
 
