@@ -15,7 +15,7 @@ verify: replay the original accident on every surface, capture light and dark ca
 
 - **Depends on:** [bob-cli-px.2](bob-cli-px.2.md) ✓ · ⧖ 2026-11-24
 - **Depends on:** [bob-cli-px.4](bob-cli-px.4.md) ◐ · ⧖ 2026-11-24
-- **Depends on:** [bob-cli-px.5](bob-cli-px.5.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-px.5](bob-cli-px.5.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

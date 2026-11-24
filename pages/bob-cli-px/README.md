@@ -31,7 +31,7 @@ No interactive gesture in Obsidian, bob capture, or Bob Mac Capture can complete
 | [bob-cli-px.2](bob-cli-px.2.md) | bob capture refuses unconfirmed email-task closes | ✓ closed | medium | 2026-11-24 | 1 | 1 |
 | [bob-cli-px.3](bob-cli-px.3.md) | Mail Close Card and guard API in Bob Navigation Hotkeys | ◐ in_progress | medium | 2026-11-24 | 1 | 0 |
 | [bob-cli-px.4](bob-cli-px.4.md) | Task Status Cycler closes go through the guard | ◐ in_progress | medium | 2026-11-24 | 1 | 0 |
-| [bob-cli-px.5](bob-cli-px.5.md) | Bob Mac Capture shows the Mail Close Card | ◐ in_progress | medium | 2026-11-24 | 1 | 0 |
+| [bob-cli-px.5](bob-cli-px.5.md) | Bob Mac Capture shows the Mail Close Card | ✓ closed | medium | 2026-11-24 | 1 | 1 |
 | [bob-cli-px.6](bob-cli-px.6.md) | Cross-surface verification and records | ◐ in_progress | small | 2026-11-24 | 1 | 0 |
 
 ## Lineage
@@ -43,7 +43,7 @@ flowchart TD
     n2["bob-cli-px.2: bob capture refuses unconfirmed email-task closes [closed]"]
     n3["bob-cli-px.3: Mail Close Card and guard API in Bob Navigation Hotkeys [in_progress]"]
     n4["bob-cli-px.4: Task Status Cycler closes go through the guard [in_progress]"]
-    n5["bob-cli-px.5: Bob Mac Capture shows the Mail Close Card [in_progress]"]
+    n5["bob-cli-px.5: Bob Mac Capture shows the Mail Close Card [closed]"]
     n6["bob-cli-px.6: Cross-surface verification and records [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-px.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.2/README.md) | [bob-cli-px.2](bob-cli-px.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-px.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.3.md) | [bob-cli-px.3](bob-cli-px.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-px.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.4/README.md) | [bob-cli-px.4](bob-cli-px.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-px.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.6/README.md) | [bob-cli-px.6](bob-cli-px.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-px.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.land/README.md) | [bob-cli-px](README.md) | 0 |
 
@@ -78,3 +78,4 @@ flowchart TD
 |---|---|---|---|---|
 | bob-cli | [`f07c239`](https://github.com/bobs-org/bob-cli/commit/f07c2395e6e30f1a60c72b59e15d5ebd32839ae4) | feat(gmail): add shared mail close card model | [bob-cli-px.1](bob-cli-px.1.md) | 2026-11-24 13:12:16 EST |
 | bob-cli | [`976f53b`](https://github.com/bobs-org/bob-cli/commit/976f53ba4e6f47ca80a723ac4f1f9d94495db01a) | feat(capture)!: refuse unconfirmed Gmail Task closes | [bob-cli-px.2](bob-cli-px.2.md) | 2026-11-24 14:13:52 EST |
+| bob-mac-capture | [`bob-mac-capture@c2a4426`](https://github.com/bobs-org/bob-mac-capture/commit/c2a442676baa2807b117a85411ef0865c5a5923b) | feat(mac-capture)!: show the Mail Close Card for email-task closes | [bob-cli-px.5](bob-cli-px.5.md) | 2026-11-24 14:46:24 EST |
