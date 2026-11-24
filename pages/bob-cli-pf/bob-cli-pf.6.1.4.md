@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 19 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 20 |
 
 ## Commits
 
@@ -45,6 +45,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@545f734`](https://github.com/bobs-org/bob-plugins/commit/545f73491bcc424e64865c3cf55fd1207508af0f) | fix(e2e): isolate stale-cache probe from protected fixture | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 04:05:13 EST |
 | bob-plugins | [`bob-plugins@784f2c4`](https://github.com/bobs-org/bob-plugins/commit/784f2c4f326e28ae32aacc79a600aca628b7b6df) | test: keep delayed Obsidian saves off protected fixture | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 04:24:13 EST |
 | bob-plugins | [`bob-plugins@bbe2873`](https://github.com/bobs-org/bob-plugins/commit/bbe2873b059aae8dc41b63d4542bbd1ddc79ad7c) | test(frontmatter): keep deferred save on probe | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 04:35:40 EST |
+| bob-plugins | [`bob-plugins@16da90a`](https://github.com/bobs-org/bob-plugins/commit/16da90a917df113c4effbfc7020acbc2513c75f8) | test(frontmatter): wait for deferred save on probe | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 04:49:48 EST |
 
 <!-- sase:referenced-by:start -->
 
