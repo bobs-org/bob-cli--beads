@@ -27,10 +27,11 @@ docs-memory: update plugin behavior and validation references and the inherited-
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md) | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md) | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e3e437b`](https://github.com/bobs-org/bob-cli/commit/e3e437baccb765fa93dc7620d45fc4f35c2fea5c) | docs(cards): correct glossary for verified frontmatter ownership | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 2026-11-24 08:59:47 EST |
+| bob-plugins | [`bob-plugins@b1413ba`](https://github.com/bobs-org/bob-plugins/commit/b1413ba9311f90c544be850525aaa433f737ec93) | docs(cards): document gated frontmatter takeover and acceptance | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 2026-11-24 09:01:33 EST |
