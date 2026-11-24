@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 23 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 24 |
 
 ## Commits
 
@@ -49,6 +49,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@7290ae6`](https://github.com/bobs-org/bob-plugins/commit/7290ae65e2f65f2088c312d7e918b766c8a2a3de) | test: extend frontmatter takeover save wait | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 05:00:51 EST |
 | bob-plugins | [`bob-plugins@29206e3`](https://github.com/bobs-org/bob-plugins/commit/29206e3265f6e41608484f39cbcaf4d746c4fe8a) | test(bob-ledger-tools): wait for delayed save before switching fixtures | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 05:13:09 EST |
 | bob-plugins | [`bob-plugins@13f0320`](https://github.com/bobs-org/bob-plugins/commit/13f03206745bf6d377c88d0b9471b63918cbaecf) | fix(e2e): wait for delayed native save before protected fixtures | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 05:27:07 EST |
+| bob-plugins | [`bob-plugins@b3e01d3`](https://github.com/bobs-org/bob-plugins/commit/b3e01d3653f17893529b1af8056b1c4ee0274970) | fix(e2e): wait for delayed native save before advancing fixture | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 05:41:23 EST |
 
 <!-- sase:referenced-by:start -->
 
