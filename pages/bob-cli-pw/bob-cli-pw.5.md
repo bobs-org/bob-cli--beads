@@ -15,7 +15,7 @@ ref-meet-cli: the CLI leaf wiring resolver, normalizer, print profile, and birth
 
 - **Depends on:** [bob-cli-pw.2](bob-cli-pw.2.md) ✓ · ⧖ 2026-11-24
 - **Depends on:** [bob-cli-pw.3](bob-cli-pw.3.md) ◐ · ⧖ 2026-11-24
-- **Depends on:** [bob-cli-pw.4](bob-cli-pw.4.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.4](bob-cli-pw.4.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pw.6](bob-cli-pw.6.md) ◐ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pw.7](bob-cli-pw.7.md) ◐ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pw.8](bob-cli-pw.8.md) ◐ · ⧖ 2026-11-24
