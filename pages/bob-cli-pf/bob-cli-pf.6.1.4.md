@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-pf.6.1](bob-cli-pf.6.1.md) / bob-cli-pf.6.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.md) · **Assignee:** `bob-cli-pf.6.1.4` · **Size:** medium
-**Created:** 2026-11-23 20:38:15 EST
+**Created:** 2026-11-23 20:38:15 EST · **Closed:** 2026-11-24 08:32:19 EST
 **Plan:** [202611/frontmatter\_takeover.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/frontmatter_takeover.md)
 
 <!-- sase:links:start -->
@@ -15,10 +15,12 @@
 | --- | --- | --- |
 | related | file:explicit:0538b23fd9d20776a715d89b | attached via sase artifact create --bead |
 | related | file:explicit:4a30b9c004edcd281d464aaf | attached via sase artifact create --bead |
+| related | file:explicit:85b3b710894edb85fafa6063 | attached via sase artifact create --bead |
 | related | file:explicit:b0eaf66bb3cfff3bf6416b4c | attached via sase artifact create --bead |
+| related | file:explicit:c34d8f4e656efd3110e34dac | attached via sase artifact create --bead |
 | related | file:explicit:f4e751a976c731bafe5dbf7a | attached via sase artifact create --bead |
 
-_Plus 12 automatic references — see [Referenced By](#referenced-by)._
+_Plus 13 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -44,10 +46,14 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 [2026-11-24T13:14:18Z · bob-cli-pf.6.1.4--6] Monitor pb3gs6bs708q captured 380 lifecycle events without trace errors. Last record light-wide Reading ownership check rejects a detached card outside its connected scope (reason 6); the final inspected PNG/probe shows the title-slot observer has restored the card but native Properties remain visible. Added a guarded mount notification at actual title-slot insertion/restoration and reattached headers; Reading record, album and temporal adapters recheck the existing full eligibility gate. New primitive/adopter/coordinator regression fails before the fix and passes after, covering reinsert/replaced/parked headers plus cache skew, Source, navigation, unload and release fail-open cases. All102 focused tests and build:check pass, rebuilt bundle8972e8706a422084a22c9e1374c74719e2e39190b12bb48dde357fb00e43d387 synced. Reconciled Athena to current da688dd3 plus fix after proving all7 old dirty files match landed a219858a; all1817 tracked local/remote plugin files now hash-identical. Retained trace,20 hash-verified diagnostic PNGs (only failure visually reviewed), red/green tests, build/sync logs, exact source archive and prior lifecycle-fix-evidence as file:explicit:c34d8f4e656efd3110e34dac. No epic-symbol entries. Phase remains open until full uninstrumented51-check GO and46 individually inspected images; existing n0/km baseline exception still applies.
 
+[2026-11-24T13:32:19Z · bob-cli-pf.6.1.4--7] Final acceptance GO for monitor g6854467665v: the full uninstrumented Obsidian 1.15.1 matrix passes 51/51 checks (Live Preview 22/22, Reading 8/8, shared 21/21), with 46 captures and no captureFailures or console exceptions. Opened every original PNG individually through view_image, verified every SHA256 and byte count against the raw report, and recorded 46 individual PASS verdicts with visual observations. Day/week/record/album views show no native Properties leak; bank keeps native controls; ordinary-note editor captures show Add mode; Source/malformed fallback images preserve editing. Bank narrow Live Preview frames retain native controls at the top while the tall bank content continues below the viewport; Reading/wide frames also show the bank footer. All protected fixture hashes are unchanged and paint adds no
+
+… and 2025 more characters
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -100,6 +106,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | read-by | [agent:bob-cli-pf.6.1.4--1][1] | Need phase scope and current status after xvfb failure | 3 |
 | read-by | [agent:bob-cli-pf.6.1.4--2][1] | Review assigned acceptance criteria and tracked generic test failures | 2 |
 | read-by | [agent:bob-cli-pf.6.1.4--3][1] | Review assigned phase scope and notes before updating its result | 2 |
+| read-by | [agent:bob-cli-pf.6.1.4--6][1] | Review assigned phase scope and existing acceptance evidence | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--7][1] | Review phase scope and prior validation evidence before classifying the latest NO-GO and deciding whether this phase can close | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--8][1] | Inspect current phase notes and linked evidence before deciding whether this athena failure matches clean-base behavior | 1 |
 | read-by | [agent:bob-cli-pf.6.1.4--9][1] | Need the phase acceptance criteria, current notes, and clean-base comparison context before deciding whether this monitored run permits phase closeout. | 1 |

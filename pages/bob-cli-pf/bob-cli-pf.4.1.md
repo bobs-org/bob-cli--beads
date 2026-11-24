@@ -33,12 +33,6 @@ Any Markdown note supports guarded keyboard-first property editing, add/delete, 
 
 [2026-11-23T17:29:52Z · bob-cli-pf.4.1.7.land] All six original core-editor phases remain closed and present. Child repair epic bob-cli-pf.4.1.7 is complete: write-safety, row-fidelity, write and surface acceptance, plus YAML-Done selection (same key, duplicate occurrence, nearest survivor). Athena 130/130 with reviewed screenshots. Inherited decisions unchanged (bank foot, per-note drawer). No leftover epic-symbols. Post-child bob-cli/bob-plugins SHAs are still f6cf62cf / b2c37102. Unrelated drawer/task_reqs and clippy collapsible_if failures stay with their owners. pf.5/pf.6 remain later phases.
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.4.1.land.md) | [bob-cli-pf.4.1](bob-cli-pf.4.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
