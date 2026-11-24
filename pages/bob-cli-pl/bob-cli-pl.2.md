@@ -47,9 +47,11 @@ contract-writes: complete the role table for area/project notes and bank.md, val
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.2--2][1] | Check phase notes before recording a documentation gate discovery | 2 |
-| read-by | [agent:fx][2] | Research whether the pl epic's dependency on pf is necessary | 1 |
+| read-by | [agent:bob-cli-pl.3][2] | Need as-landed contract-writes so contract-reads can build on it | 1 |
+| read-by | [agent:fx][3] | Research whether the pl epic's dependency on pf is necessary | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.2.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->
