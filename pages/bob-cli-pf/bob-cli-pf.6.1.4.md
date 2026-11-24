@@ -20,10 +20,11 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@beb821f`](https://github.com/bobs-org/bob-plugins/commit/beb821ff9395d73c64a9114445ef98fc086b1080) | test(property-cards): add frontmatter takeover e2e matrix | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-23 23:44:11 EST |
+| bob-plugins | [`bob-plugins@8dab063`](https://github.com/bobs-org/bob-plugins/commit/8dab063f38fdbd665af38e12bbc5500ab84b0819) | test(property-cards): create the takeover profile before bob-control.json | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-23 23:52:17 EST |
