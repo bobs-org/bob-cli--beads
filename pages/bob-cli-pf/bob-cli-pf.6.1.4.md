@@ -20,7 +20,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 14 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.1.4.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 15 |
 
 ## Commits
 
@@ -40,6 +40,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 | bob-plugins | [`bob-plugins@b476724`](https://github.com/bobs-org/bob-plugins/commit/b47672479d821c43ae5e843e08ed88779759c983) | test(ledger-tools): restore fixture after vim probe | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 02:51:20 EST |
 | bob-plugins | [`bob-plugins@8a8b7a6`](https://github.com/bobs-org/bob-plugins/commit/8a8b7a642f64383d5300057b0972ee9d69c037c8) | fix(e2e): restore takeover fixture editor buffer | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:06:00 EST |
 | bob-plugins | [`bob-plugins@d69f842`](https://github.com/bobs-org/bob-plugins/commit/d69f8423043a76ea4dd3c096ac626c5e566b8b8e) | test(frontmatter): trace takeover fixture byte transitions | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:18:32 EST |
+| bob-plugins | [`bob-plugins@23f58cc`](https://github.com/bobs-org/bob-plugins/commit/23f58cc924a54bdb96caa56e8f342790ed66b534) | test(frontmatter): audit fixture writer attribution | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 2026-11-24 03:33:53 EST |
 
 <!-- sase:referenced-by:start -->
 
