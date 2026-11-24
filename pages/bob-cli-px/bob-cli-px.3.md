@@ -20,4 +20,4 @@ navcard: model twin, the card modal, nav api.mailCloseGuard v1, and guarding eve
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-px.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.3/README.md) | [bob-cli-px.3](bob-cli-px.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-px.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-px.3.md) | [bob-cli-px.3](bob-cli-px.3.md) | 0 |

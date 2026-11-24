@@ -13,7 +13,7 @@ mac: preview banner, a Mail Close card opened from bob's refusal, Y to confirm w
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-px.2](bob-cli-px.2.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-px.2](bob-cli-px.2.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ◐ · ⧖ 2026-11-24
 
 ## Agents

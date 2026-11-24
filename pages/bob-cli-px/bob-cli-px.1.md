@@ -19,7 +19,7 @@ model: Rust predicate plus copy and digest model for guarded closes, the shared 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-px.2](bob-cli-px.2.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-px.2](bob-cli-px.2.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-px.3](bob-cli-px.3.md) ◐ · ⧖ 2026-11-24
 
 ## Agents
@@ -33,3 +33,15 @@ model: Rust predicate plus copy and digest model for guarded closes, the shared 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f07c239`](https://github.com/bobs-org/bob-cli/commit/f07c2395e6e30f1a60c72b59e15d5ebd32839ae4) | feat(gmail): add shared mail close card model | [bob-cli-px.1](bob-cli-px.1.md) | 2026-11-24 13:12:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-px.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.1/README.md
+
+<!-- sase:referenced-by:end -->
