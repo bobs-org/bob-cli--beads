@@ -20,7 +20,7 @@ cycler: guard Ctrl+Enter, Alt+[ / Alt+], counted, Task Link, transclusion, Pomod
 ## Dependencies
 
 - **Depends on:** [bob-cli-px.3](bob-cli-px.3.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
@@ -33,3 +33,15 @@ cycler: guard Ctrl+Enter, Alt+[ / Alt+], counted, Task Link, transclusion, Pomod
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6150d7e`](https://github.com/bobs-org/bob-plugins/commit/6150d7e65bd7b663ae87dc26bdbb2d9388a718eb) | feat(cycler): guard Gmail task closes with the Mail Close Card | [bob-cli-px.4](bob-cli-px.4.md) | 2026-11-24 15:30:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-px.4][1] | Need the phase scope, design file, and current notes before continuing remaining wiring | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.4/README.md
+
+<!-- sase:referenced-by:end -->

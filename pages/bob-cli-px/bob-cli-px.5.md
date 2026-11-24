@@ -18,13 +18,19 @@ mac: preview banner, a Mail Close card opened from bob's refusal, Y to confirm w
 ## Dependencies
 
 - **Depends on:** [bob-cli-px.2](bob-cli-px.2.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-px.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-px.5/README.md) | [bob-cli-px.5](bob-cli-px.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@c2a4426`](https://github.com/bobs-org/bob-mac-capture/commit/c2a442676baa2807b117a85411ef0865c5a5923b) | feat(mac-capture)!: show the Mail Close Card for email-task closes | [bob-cli-px.5](bob-cli-px.5.md) | 2026-11-24 14:46:24 EST |
 
 <!-- sase:referenced-by:start -->
 

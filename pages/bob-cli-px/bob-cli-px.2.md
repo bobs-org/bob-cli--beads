@@ -21,7 +21,7 @@ capture: last-gate post-pass that finds Gmail Tasks a capture would close, the m
 
 - **Depends on:** [bob-cli-px.1](bob-cli-px.1.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-px.5](bob-cli-px.5.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-px.6](bob-cli-px.6.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
