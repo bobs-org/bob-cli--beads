@@ -13,7 +13,7 @@ acceptance: build and run the disposable-vault real-Obsidian takeover matrix and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) ◐ · ⧖ 2026-11-23
 
 ## Agents

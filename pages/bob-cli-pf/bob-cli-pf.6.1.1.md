@@ -18,7 +18,7 @@
 | related | file:explicit:934db24e538e78fe20a37f64 | attached via sase artifact create --bead |
 | related | file:explicit:9361b027911b8426729dd3be | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -57,7 +57,9 @@ focus-proof: run and strengthen the existing S1 probe, fix bounded ownership/foc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.6.1.1][1] | Need fields | 3 |
+| read-by | [agent:bob-cli-pf.6.1.2][2] | check prior phase completion evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.2/README.md
 
 <!-- sase:referenced-by:end -->

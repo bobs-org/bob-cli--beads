@@ -22,7 +22,7 @@ capability-routing: add the session-and-bob-path capability cache, shared actual
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf.6.1.1](bob-cli-pf.6.1.1.md) ✓ · ⧖ 2026-11-23
-- **Blocks:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -35,3 +35,15 @@ capability-routing: add the session-and-bob-path capability cache, shared actual
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@ede33f2`](https://github.com/bobs-org/bob-plugins/commit/ede33f2fc10c858615b1ab76eaaebf46e6ba4cd6) | feat(property-card): add cached capability routing and native entry points | [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) | 2026-11-23 22:39:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.6.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->
