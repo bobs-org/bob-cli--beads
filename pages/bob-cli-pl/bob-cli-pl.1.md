@@ -14,6 +14,7 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | related | file:explicit:18af8a410edfdba7f8a5506b | attached via sase artifact create --bead |
+| related | file:explicit:5c8a64dd5b630b4d7f26d2e5 | attached via sase artifact create --bead |
 
 _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
@@ -40,6 +41,8 @@ one-writer: remove the bob-project-tasks count writer and the project-creation p
 [2026-11-24T15:29:47Z · bob-cli-pl.1--2] VERIFICATION DETAIL: Real Obsidian Base screenshot is file:explicit:18af8a410edfdba7f8a5506b (also attached to this phase); all three view assertions and local screenshots are in .git/pl1-acceptance/. Navigation docs briefly exceeded the 6000-word cap when creation instructions were added; shortened equivalent prose to 5998 words without removing behavior. Clean-base performance reproduction is recorded in the phase-only PROPOSED FOLLOW-UP note. Initial dry-run interruption was read-only: all 106 count-note preimages remained byte-identical after exit 143. The full guarded cleanup needs a monitor due to whole-vault ownership discovery per Bob call.
 
 [2026-11-24T15:36:02Z · bob-cli-pl.1--2] GATES PASSED: npm run docs:check (which delegates to just docs-check) completed successfully, including lint, strict site build, published URLs, offline fragments, edit links, search smoke, executable first-day tutorial, and Typst checks; ToolRun ae4a600fc5acf4362c65b53b6b93b917, exit 0. Navigation docs are 5998 words. Generated plugin bundles and documentation inventory are current; both diff checks pass. Only the monitored live cleanup, final byte evidence review, and phase close remain. No remaining source work is planned.
+
+[2026-11-24T16:22:36Z · bob-cli-pl.1--3] LIVE RECOVERY: monitor 2cs8tw51atd0 dry-run passed 106 notes/212 keys; apply removed 210 keys from 105 notes and skipped sase_dyn_agent_fam_e2e.md for lock_busy. All 105 successful transactions are independently proved in vault-sync history to remove exactly the two count lines (.git/pl1-acceptance/live-original-transaction-proof.json). A stale Mac writer then restored the keys through vault-sync: commit 48c5a395a is concrete evidence. Current files match original bytes after excluding count lines except one independent sase.md task edit, which will be preserved. Evidence: file:explicit:5c8a64dd5b630b4d7f26d2e5. Both changed plugins remain up to date on Apollo. The frozen plan explicitly anticipates stale hosts restoring counts until athena/Mac run bob plugins sync. Prepared live-cleanup-retry.py takes separate retry-preimages, temporarily quiesces only Apollo sync between transactions, reruns guarded dry-run/apply/no-op with the fresh binary, verifies exact bytes and zero keys, and restores sync in finally plus a timed fallback. Original preimages/logs retained. No source or memory changes and no new beads. epic-symbols still empty. Phase remains open until the controlled acceptance report passes.
 
 ## Dependencies
 
