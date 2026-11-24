@@ -184,7 +184,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.4/README.md) | [bob-cli-pf.5.1.4](bob-cli-pf.5.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md) | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md) | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md) | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md) | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md) | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6/README.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.land/README.md) | [bob-cli-pf](README.md) | 0 |
@@ -241,6 +241,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a73f70b`](https://github.com/bobs-org/bob-plugins/commit/a73f70bf4f22c0916e95546275594fd825036e9a) | feat(property-editor): add guarded YAML clipboard paste | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 2026-11-23 15:48:09 EST |
 | bob-plugins | [`bob-plugins@d3a17f0`](https://github.com/bobs-org/bob-plugins/commit/d3a17f0c1793c742f0200cef48c130f80d6ffc1d) | feat(property-editor): preview kind conversion and confirm vault type changes | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 2026-11-23 16:20:03 EST |
 | bob-cli | [`8d82c62`](https://github.com/bobs-org/bob-cli/commit/8d82c621b25d1595ec8a495c30f6087fbc87f524) | fix(props): keep trailing newline on multiline set\_yaml replace | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:05:34 EST |
+| bob-plugins | [`bob-plugins@305b637`](https://github.com/bobs-org/bob-plugins/commit/305b637c66ce4b6a52c13c0ab9d83d1c49f99887) | test(property-editor): prove native parity in real Obsidian and fix copy/filter spans | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:07:03 EST |
 
 <!-- sase:referenced-by:start -->
 

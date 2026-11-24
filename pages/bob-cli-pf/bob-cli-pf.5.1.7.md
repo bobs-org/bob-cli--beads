@@ -35,10 +35,11 @@ acceptance: extend the existing scratch-vault real-Obsidian runner for all parit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pf.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md) | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md) | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8d82c62`](https://github.com/bobs-org/bob-cli/commit/8d82c621b25d1595ec8a495c30f6087fbc87f524) | fix(props): keep trailing newline on multiline set\_yaml replace | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:05:34 EST |
+| bob-plugins | [`bob-plugins@305b637`](https://github.com/bobs-org/bob-plugins/commit/305b637c66ce4b6a52c13c0ab9d83d1c49f99887) | test(property-editor): prove native parity in real Obsidian and fix copy/filter spans | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:07:03 EST |
