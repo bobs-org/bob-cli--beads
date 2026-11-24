@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-pl](README.md) / bob-cli-pl.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5y.linker.w1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5y.linker.w1.md) · **Assignee:** `bob-cli-pl.1` · **Size:** medium
-**Created:** 2026-11-22 20:56:40 EST
+**Created:** 2026-11-22 20:56:40 EST · **Closed:** 2026-11-24 11:57:25 EST
 **Plan:** [202611/area\_project\_cards.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/area_project_cards.md)
 
 <!-- sase:links:start -->
@@ -15,6 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:18af8a410edfdba7f8a5506b | attached via sase artifact create --bead |
 | related | file:explicit:5c8a64dd5b630b4d7f26d2e5 | attached via sase artifact create --bead |
+| related | file:explicit:7e981553181fd23c81d6b221 | attached via sase artifact create --bead |
 
 _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
@@ -44,6 +45,12 @@ one-writer: remove the bob-project-tasks count writer and the project-creation p
 
 [2026-11-24T16:22:36Z · bob-cli-pl.1--3] LIVE RECOVERY: monitor 2cs8tw51atd0 dry-run passed 106 notes/212 keys; apply removed 210 keys from 105 notes and skipped sase_dyn_agent_fam_e2e.md for lock_busy. All 105 successful transactions are independently proved in vault-sync history to remove exactly the two count lines (.git/pl1-acceptance/live-original-transaction-proof.json). A stale Mac writer then restored the keys through vault-sync: commit 48c5a395a is concrete evidence. Current files match original bytes after excluding count lines except one independent sase.md task edit, which will be preserved. Evidence: file:explicit:5c8a64dd5b630b4d7f26d2e5. Both changed plugins remain up to date on Apollo. The frozen plan explicitly anticipates stale hosts restoring counts until athena/Mac run bob plugins sync. Prepared live-cleanup-retry.py takes separate retry-preimages, temporarily quiesces only Apollo sync between transactions, reruns guarded dry-run/apply/no-op with the fresh binary, verifies exact bytes and zero keys, and restores sync in finally plus a timed fallback. Original preimages/logs retained. No source or memory changes and no new beads. epic-symbols still empty. Phase remains open until the controlled acceptance report passes.
 
+[2026-11-24T16:57:25Z · bob-cli-pl.1--4] FINAL ACCEPTANCE: Controlled retry monitor 0q0abkf6g6pt / ToolRun 8a4013181b22dd144a28a61c1b746b6c exited 0. Exactly 212 retired keys were removed from 106 notes: 0 additions and 2 deleted lines per note. Independently recomputed every retained preimage hash and expected after hash; all 106 match live-result.json. Dry-run byte identity, zero remaining_at_verification, repeat_noop, and sync_restored all pass. The independent sase.md task edit is preserved in the retry preimage and verified after hash. Original preimages and the independent 105-transaction proof remain intact. bob-vault-sync.service was confirmed active at resume and receipt generation. Durable final cleanup acceptance receipt: file:explicit:7e981553181fd23c81d6b221 (attached to this phase).
+
+POST-SYNC LIMITATION: At 2026-11-24T16:53:37Z, read-only bob query reported count fields again in 102 query-visible notes (not an assertion about excluded/conflict files). This recurrence is consistent with the already-proven stale Mac writer, commit 48c5a395a and file:explicit:5c8a64dd5b630b4d7f26d2e5; no new commit attribution was attempted. The approved plan anticipates this until other hosts upgrade. Athena and Mac still need bob plugins sync. Acceptance was verified at the isolated snapshot; the live vault is not currently count-free. No further sweep or vault commit was attempted; vault-sync owns commits.
+
+COMPLETION: Source tests, CRLF fixture, three-view real Obsidian Base acceptance, and docs gates remain complete as recorded in notes 5-8. Existing timing failures retain clean-base proof and the phase-only PROPOSED FOLLOW-UP. Both source-tree diff checks pass, and sase bead epic-symbols bob-cli-pl.1 again reports no entries. No new beads or memory edits. Close only bob-cli-pl.1; leave parent bob-cli-pl open.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pf](../bob-cli-pf/README.md) ✓ · ⧖ 2026-11-22
@@ -53,7 +60,13 @@ one-writer: remove the bob-project-tasks count writer and the project-creation p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.1.md) | [bob-cli-pl.1](bob-cli-pl.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.1.md) | [bob-cli-pl.1](bob-cli-pl.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`31131fe`](https://github.com/bobs-org/bob-cli/commit/31131fe2f6151fafb941f92a78894d19784f04f6) | fix(props): allow removal of retired project count fields | [bob-cli-pl.1](bob-cli-pl.1.md) | 2026-11-24 12:07:50 EST |
 
 <!-- sase:referenced-by:start -->
 

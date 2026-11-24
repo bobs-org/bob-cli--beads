@@ -13,7 +13,7 @@ takeover: own the frontmatter on eligible area/project notes behind props_contra
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.1](bob-cli-pl.1.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pl.1](bob-cli-pl.1.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-pl.5](bob-cli-pl.5.md) ◐ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-pl.7](bob-cli-pl.7.md) ◐ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-pl.8](bob-cli-pl.8.md) ◐ · ⧖ 2026-11-22
