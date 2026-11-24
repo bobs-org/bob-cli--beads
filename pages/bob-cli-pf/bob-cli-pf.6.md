@@ -15,7 +15,7 @@ takeover: wires whole-container ownership into album, record, and intention card
 
 - **Depends on:** [bob-cli-pf.1](bob-cli-pf.1.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-pf.3](bob-cli-pf.3.md) ✓ · ⧖ 2026-11-22
-- **Depends on:** [bob-cli-pf.5](bob-cli-pf.5.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pf.5](bob-cli-pf.5.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

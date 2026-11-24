@@ -39,7 +39,9 @@ kind-change: preview and apply loose-value conversions; feature-detect Obsidian'
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.5.1.6][1] | Need the phase scope and design file | 5 |
+| read-by | [agent:bob-cli-pf.5.1.7][2] | check prior phase completion evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md
 
 <!-- sase:referenced-by:end -->

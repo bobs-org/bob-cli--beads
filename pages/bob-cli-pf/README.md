@@ -33,7 +33,7 @@ On every note a property card mounts on, the card shows the whole frontmatter: a
 | [bob-cli-pf.2](bob-cli-pf.2.md) | Generic bob props show\|update (bob-cli) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.3](bob-cli-pf.3.md) | Whole-container ownership primitive and focus spike (bob-plugins) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pf.4](bob-cli-pf.4.md) | The =+ property editor (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
-| [bob-cli-pf.5](bob-cli-pf.5.md) | Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
+| [bob-cli-pf.5](bob-cli-pf.5.md) | Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pf.6](bob-cli-pf.6.md) | Hide native Properties on card notes (bob-plugins, plus memory if approved) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
 
 ## Lineage
@@ -67,8 +67,8 @@ flowchart TD
     n24["bob-cli-pf.4.1.7.2: Row identity, overlays, diagnostics, and value fidelity [closed]"]
     n25["bob-cli-pf.4.1.7.3: Real-Obsidian acceptance for write paths [closed]"]
     n26["bob-cli-pf.4.1.7.4: Real-Obsidian acceptance for panes, entry points, and visuals [closed]"]
-    n27["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [in_progress]"]
-    n28["bob-cli-pf.5.1: Complete Property Editor native parity [in_progress]"]
+    n27["bob-cli-pf.5: Rename, reorder, multi-select, copy/paste, filter, kind change, YAML stage (bob-plugins) [closed]"]
+    n28["bob-cli-pf.5.1: Complete Property Editor native parity [closed]"]
     n29["bob-cli-pf.5.1.1: Add property selection, filtering, and batch delete [closed]"]
     n30["bob-cli-pf.5.1.2: Add guarded property rename and reorder [closed]"]
     n31["bob-cli-pf.5.1.3: Extract lossless property source and clipboard fragments [closed]"]
@@ -185,7 +185,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.5/README.md) | [bob-cli-pf.5.1.5](bob-cli-pf.5.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.6/README.md) | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md) | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2 |
-| [bbugyi200.apollo.bob-cli-pf.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md) | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md) | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6/README.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.land/README.md) | [bob-cli-pf](README.md) | 0 |
 
@@ -242,6 +242,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d3a17f0`](https://github.com/bobs-org/bob-plugins/commit/d3a17f0c1793c742f0200cef48c130f80d6ffc1d) | feat(property-editor): preview kind conversion and confirm vault type changes | [bob-cli-pf.5.1.6](bob-cli-pf.5.1.6.md) | 2026-11-23 16:20:03 EST |
 | bob-cli | [`8d82c62`](https://github.com/bobs-org/bob-cli/commit/8d82c621b25d1595ec8a495c30f6087fbc87f524) | fix(props): keep trailing newline on multiline set\_yaml replace | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:05:34 EST |
 | bob-plugins | [`bob-plugins@305b637`](https://github.com/bobs-org/bob-plugins/commit/305b637c66ce4b6a52c13c0ab9d83d1c49f99887) | test(property-editor): prove native parity in real Obsidian and fix copy/filter spans | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:07:03 EST |
+| bob-cli--plans | [`bob-cli--plans@ac6bb6e`](https://github.com/bobs-org/bob-cli--plans/commit/ac6bb6eca6a4620b3f58b32a29183fa0ad22ffaf) | chore(plans): mark property\_editor\_parity done after bob-cli-pf.5.1 landing | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 2026-11-23 20:31:33 EST |
 
 <!-- sase:referenced-by:start -->
 

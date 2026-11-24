@@ -19,7 +19,7 @@ editor-core: keyboard-first modal on the record chassis for any note: grouped ro
 
 - **Depends on:** [bob-cli-pf.1](bob-cli-pf.1.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-pf.2](bob-cli-pf.2.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pf.5](bob-cli-pf.5.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pf.5](bob-cli-pf.5.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

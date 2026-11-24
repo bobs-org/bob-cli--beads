@@ -32,7 +32,9 @@ selection-filter: add the marks gutter, stable selection and visual ranges, key/
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pf.5.1.1--1][1] | Need the phase scope, notes, and design file before completing the approved deployment | 2 |
+| read-by | [agent:bob-cli-pf.5.1.7][2] | check prior phase completion evidence | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.5.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.7/README.md
 
 <!-- sase:referenced-by:end -->
