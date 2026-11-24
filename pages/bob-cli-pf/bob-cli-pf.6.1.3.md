@@ -13,7 +13,7 @@ adapter-takeover: wire successful card mounts to generation-bound whole-containe
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) ◐ · ⧖ 2026-11-23
+- **Depends on:** [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) ✓ · ⧖ 2026-11-23
 - **Blocks:** [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) ◐ · ⧖ 2026-11-23
 
 ## Agents

@@ -18,6 +18,8 @@
 | related | file:explicit:934db24e538e78fe20a37f64 | attached via sase artifact create --bead |
 | related | file:explicit:9361b027911b8426729dd3be | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -34,7 +36,7 @@ focus-proof: run and strengthen the existing S1 probe, fix bounded ownership/foc
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) ◐ · ⧖ 2026-11-23
+- **Blocks:** [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) ✓ · ⧖ 2026-11-23
 
 ## Agents
 
@@ -47,3 +49,15 @@ focus-proof: run and strengthen the existing S1 probe, fix bounded ownership/foc
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8a7c8dd`](https://github.com/bobs-org/bob-plugins/commit/8a7c8dd81db809e74a13d387a51043b239558093) | test(bob-plugins): harden frontmatter-ownership S1 Obsidian probe to 18/18 | [bob-cli-pf.6.1.1](bob-cli-pf.6.1.1.md) | 2026-11-23 21:21:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pf.6.1.1][1] | Need fields | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->

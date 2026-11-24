@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/card_owned_frontmatter.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/card_owned_frontmatter.md
 
@@ -79,7 +79,7 @@ flowchart TD
     n36["bob-cli-pf.6: Hide native Properties on card notes (bob-plugins, plus memory if approved) [in_progress]"]
     n37["bob-cli-pf.6.1: Complete card frontmatter takeover [in_progress]"]
     n38["bob-cli-pf.6.1.1: Prove whole-container ownership in real Obsidian [closed]"]
-    n39["bob-cli-pf.6.1.2: Add cached capability gating and native property entry routing [in_progress]"]
+    n39["bob-cli-pf.6.1.2: Add cached capability gating and native property entry routing [closed]"]
     n40["bob-cli-pf.6.1.3: Enable fail-open ownership on album, record, and temporal cards [in_progress]"]
     n41["bob-cli-pf.6.1.4: Verify takeover restoration, keyboard access, and visual behavior [in_progress]"]
     n42["bob-cli-pf.6.1.5: Document verified ownership and correct the two approved glossary strands [in_progress]"]
@@ -204,7 +204,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pf.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.5.1.land/README.md) | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pf.6.md) | [bob-cli-pf.6](bob-cli-pf.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md) | [bob-cli-pf.6.1.1](bob-cli-pf.6.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pf.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.2/README.md) | [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pf.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.2/README.md) | [bob-cli-pf.6.1.2](bob-cli-pf.6.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.3/README.md) | [bob-cli-pf.6.1.3](bob-cli-pf.6.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.4/README.md) | [bob-cli-pf.6.1.4](bob-cli-pf.6.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pf.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.5/README.md) | [bob-cli-pf.6.1.5](bob-cli-pf.6.1.5.md) | 0 |
@@ -266,7 +266,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@305b637`](https://github.com/bobs-org/bob-plugins/commit/305b637c66ce4b6a52c13c0ab9d83d1c49f99887) | test(property-editor): prove native parity in real Obsidian and fix copy/filter spans | [bob-cli-pf.5.1.7](bob-cli-pf.5.1.7.md) | 2026-11-23 20:07:03 EST |
 | bob-cli--plans | [`bob-cli--plans@ac6bb6e`](https://github.com/bobs-org/bob-cli--plans/commit/ac6bb6eca6a4620b3f58b32a29183fa0ad22ffaf) | chore(plans): mark property\_editor\_parity done after bob-cli-pf.5.1 landing | [bob-cli-pf.5.1](bob-cli-pf.5.1.md) | 2026-11-23 20:31:33 EST |
 
-… and 1 more commits
+… and 2 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -274,18 +274,20 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.5y.cdx][1] | Understand property-card foundation epic and its intended extension points | 1 |
-| read-by | [agent:research.5y.cld][2] | Understand the property cards epic to design area/project note property cards | 1 |
-| read-by | [agent:research.5y.final][3] | Lead consolidation: verify pf epic status, phase completion, and D5 bank.md deferral wording before merging the swarm's area/project property-card research | 1 |
-| read-by | [agent:research.5y.gem][4] | Understand the bob-cli-pf epic scope, phases, and linked plan | 1 |
-| read-by | [agent:research.5y.grk][5] | Need the property-card epic scope before designing area and project cards | 1 |
-| read-by | [agent:research.5y.mus][6] | Need pf epic scope to design property cards for areas and projects | 1 |
+| read-by | [agent:bob-cli-pf.6.1.1][1] | Need ancestor epic scope and decisions | 1 |
+| read-by | [agent:research.5y.cdx][2] | Understand property-card foundation epic and its intended extension points | 1 |
+| read-by | [agent:research.5y.cld][3] | Understand the property cards epic to design area/project note property cards | 1 |
+| read-by | [agent:research.5y.final][4] | Lead consolidation: verify pf epic status, phase completion, and D5 bank.md deferral wording before merging the swarm's area/project property-card research | 1 |
+| read-by | [agent:research.5y.gem][5] | Understand the bob-cli-pf epic scope, phases, and linked plan | 1 |
+| read-by | [agent:research.5y.grk][6] | Need the property-card epic scope before designing area and project cards | 1 |
+| read-by | [agent:research.5y.mus][7] | Need pf epic scope to design property cards for areas and projects | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cdx/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.final/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.gem/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pf.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.final/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.grk/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.5y.mus/README.md
 
 <!-- sase:referenced-by:end -->
