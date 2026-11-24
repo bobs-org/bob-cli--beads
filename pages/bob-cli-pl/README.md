@@ -56,7 +56,7 @@ flowchart TD
     n4["bob-cli-pl.4: Area Card and Project Card painted from local data (bob-plugins) [in_progress]"]
     n5["bob-cli-pl.4.1: Local Area and Project cards [in_progress]"]
     n6["bob-cli-pl.4.1.1: Local home-card model, species, and presentation [closed]"]
-    n7["bob-cli-pl.4.1.2: Home-card host, title adoption, foot, and lifecycle integration [in_progress]"]
+    n7["bob-cli-pl.4.1.2: Home-card host, title adoption, foot, and lifecycle integration [closed]"]
     n8["bob-cli-pl.4.1.3: Real-Obsidian acceptance, screenshots, and card documentation [in_progress]"]
     n9["bob-cli-pl.5: Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) [in_progress]"]
     n10["bob-cli-pl.6: The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) [in_progress]"]
@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.3/README.md) | [bob-cli-pl.3](bob-cli-pl.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.4.md) | [bob-cli-pl.4](bob-cli-pl.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.1/README.md) | [bob-cli-pl.4.1.1](bob-cli-pl.4.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.2/README.md) | [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.2/README.md) | [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.3/README.md) | [bob-cli-pl.4.1.3](bob-cli-pl.4.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.land/README.md) | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.5/README.md) | [bob-cli-pl.5](bob-cli-pl.5.md) | 0 |
@@ -115,6 +115,7 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5717d51`](https://github.com/bobs-org/bob-plugins/commit/5717d5182523c2d357ec604b1476fc5e32c12e10) | feat(ledger-tools): add local Area and Project card presentation | [bob-cli-pl.4.1.1](bob-cli-pl.4.1.1.md) | 2026-11-24 10:27:37 EST |
+| bob-plugins | [`bob-plugins@b5f2f6c`](https://github.com/bobs-org/bob-plugins/commit/b5f2f6c1b62278b51872298ff99b48e175a02a5c) | feat(ledger-tools): mount Area and Project cards in Live Preview and Reading | [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) | 2026-11-24 10:46:18 EST |
 
 <!-- sase:referenced-by:start -->
 

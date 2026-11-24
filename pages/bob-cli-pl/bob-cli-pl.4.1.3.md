@@ -13,7 +13,7 @@ acceptance: add the disposable-vault home-card e2e and offline wrapper, run its 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

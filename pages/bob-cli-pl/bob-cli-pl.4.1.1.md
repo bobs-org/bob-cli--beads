@@ -47,7 +47,7 @@ No production host, mixin, or == registration in this phase.
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pl.4.1.2](bob-cli-pl.4.1.2.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
@@ -60,3 +60,15 @@ No production host, mixin, or == registration in this phase.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5717d51`](https://github.com/bobs-org/bob-plugins/commit/5717d5182523c2d357ec604b1476fc5e32c12e10) | feat(ledger-tools): add local Area and Project card presentation | [bob-cli-pl.4.1.1](bob-cli-pl.4.1.1.md) | 2026-11-24 10:27:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.4.1.1][1] | Confirm close status after finalizer keep on linked repo | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
