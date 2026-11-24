@@ -53,12 +53,13 @@ epic-symbols empty. just symvision recipe absent in bob-cli and bob-plugins. pla
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.4.1.land.md) | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.4.1.land.md) | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@45697ae`](https://github.com/bobs-org/bob-plugins/commit/45697ae018dbeb60fd687890faccb781196c3a42) | fix(home-cards): finish local Area and Project card landing | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 2026-11-24 15:42:08 EST |
 | bob-cli--plans | [`bob-cli--plans@741102d`](https://github.com/bobs-org/bob-cli--plans/commit/741102d13744f2f6ff150359858bd4f17a02d636) | docs(plans): mark local home-card epic and finish tale done | [bob-cli-pl.4.1](bob-cli-pl.4.1.md) | 2026-11-24 15:43:14 EST |
 
 <!-- sase:referenced-by:start -->

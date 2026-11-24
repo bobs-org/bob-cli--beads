@@ -32,3 +32,15 @@ preview-contract: expose the candidate contract in successful update JSON, docum
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`447ef1a`](https://github.com/bobs-org/bob-cli/commit/447ef1a5815924ca08329aee256598eaa9f999f9) | feat(props): return settings contract from successful property updates | [bob-cli-pl.6.1.1](bob-cli-pl.6.1.1.md) | 2026-11-24 16:46:13 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.6.1.1--1][1] | Need phase status, notes, and whether close already happened | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.1.md
+
+<!-- sase:referenced-by:end -->
