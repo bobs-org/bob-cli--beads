@@ -24,7 +24,7 @@ ref-meet-cli: the CLI leaf wiring resolver, normalizer, print profile, and birth
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5/README.md) | [bob-cli-pw.5](bob-cli-pw.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.5.md) | [bob-cli-pw.5](bob-cli-pw.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

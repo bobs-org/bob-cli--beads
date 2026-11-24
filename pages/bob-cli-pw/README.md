@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/meeting_notes_event_refs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/meeting_notes_event_refs.md
 
@@ -32,6 +32,8 @@ One deliberate gesture, from the CLI, Obsidian, or Bob Mac Capture, files AI mee
 [2026-11-24T17:06:33Z · bob-cli-pl.1--4] DISCOVERED ISSUE: Conflict-repair verification of main rebased onto dbf405e397b7081c5c5531590608637346e49dfc reproduced meeting-module build failures in sase tool run check (ToolRun f4df3fa669a8de2c5c803661f5c8db6c, exit 101). src/native/meetings/dossier.rs:348 class_fence lacks the returned borrow lifetime (E0106); normalize.rs:242 passes &str to parse_next_step(String) (E0308); mod.rs:19-26 reexports unused items denied by the canonical -D unused gate. git diff HEAD -- src/native/meetings is empty, so these are inherited from dbf405e3, not the props conflict repair. The gate stops before tests. Search across task types found no duplicate; causal owner is bob-cli-pw.1. The existing fix_meetings_build work mentioned in note 1 may already address these; record this as independent reproduction on the older integrated base, not a new request to duplicate that work.
 
 [2026-11-24T17:22:00Z · bob-cli-pl.1--4] DISCOVERED ISSUE: Additional impact of note #2 during bob-plugins conflict repair. BOB_CLI_DIR pointing at clean bob-cli 31131fe2 npm run docs:check (from bob-plugins) passed mounted-doc lint, drift, strict Zensical build, published URLs, offline links, edit links and search smoke, then exited 2 at executable tutorial because cargo build --locked --bin bob exited 101: dossier.rs:348 class_fence E0106 and normalize.rs:242 parse_next_step E0308. No bob-cli files changed in this repair. This corroborates the older-base build blocker already owned by pw.1; no duplicate task or fix request.
+
+[2026-11-24T21:35:47Z · bob-cli-px.land] DISCOVERED ISSUE: On clean master 2b3817fe (athena, 2026-11-24), `cargo test -p bob-obsidian --lib native::meetings::profile` deterministically fails 2/4 tests: transcript_appendix_starts_on_its_own_page and wispr_summary_renders_one_or_two_pages_with_stable_words. Real xelatex aborts on pass 1 with '! LaTeX Error: Can be used only in preamble.' at l.277 \\AtBeginDocument{\\hypersetup{pdftitle={...}}}. That line is emitted by src/native/highlights_ref/meeting_profile/meeting.lua:521, which places the pdftitle \\AtBeginDocument after \\begin{document}. The bug came from bob-cli-pw.3 (commit 2b3817fe); pw.3's note #2 reported 4/4 passing, so some later integration change apparently moved the hook out of the preamble. Reproduced in isolation (2 passed, 2 failed) and in the full `just check` lib run, where they were the only failures. Found by the bob-cli-px land agent; not caused by bob-cli-px.
 
 ## Phases
 
@@ -56,25 +58,38 @@ flowchart TD
     n3["bob-cli-pw.3: Meeting dossier print profile [closed]"]
     n4["bob-cli-pw.4: Marker-carried meeting identity births the LINKS relation and recap [closed]"]
     n5["bob-cli-pw.5: The `bob ref meet` command [in_progress]"]
-    n6["bob-cli-pw.6: File the first meeting's notes [in_progress]"]
-    n7["bob-cli-pw.7: Obsidian surfaces for meeting notes [in_progress]"]
-    n8["bob-cli-pw.8: Bob Mac Capture meeting-notes mode and Meetings kind [in_progress]"]
+    n6["bob-cli-pw.5.1: Complete the meeting notes reference command [in_progress]"]
+    n7["bob-cli-pw.5.1.1: Prepare meeting filings and render structured reports [in_progress]"]
+    n8["bob-cli-pw.5.1.2: Ingest a meeting dossier with its event re-root in one commit [in_progress]"]
+    n9["bob-cli-pw.5.1.3: Replace meeting notes while preserving recap ownership and task identity [in_progress]"]
+    n10["bob-cli-pw.5.1.4: Expose the complete ref meet CLI and document its contract [in_progress]"]
+    n11["bob-cli-pw.6: File the first meeting's notes [in_progress]"]
+    n12["bob-cli-pw.7: Obsidian surfaces for meeting notes [in_progress]"]
+    n13["bob-cli-pw.8: Bob Mac Capture meeting-notes mode and Meetings kind [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
+    n5 --> n6
+    n6 --> n7
+    n6 --> n8
+    n6 --> n9
+    n6 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
     n1 -.-> n3
     n1 -.-> n4
     n2 -.-> n5
     n3 -.-> n5
     n4 -.-> n5
-    n5 -.-> n6
-    n5 -.-> n7
-    n5 -.-> n8
+    n5 -.-> n11
+    n5 -.-> n12
+    n5 -.-> n13
+    n7 -.-> n8
+    n8 -.-> n9
+    n9 -.-> n10
 ```
 
 ## Agents
@@ -85,7 +100,12 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pw.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.2/README.md) | [bob-cli-pw.2](bob-cli-pw.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.3/README.md) | [bob-cli-pw.3](bob-cli-pw.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.4/README.md) | [bob-cli-pw.4](bob-cli-pw.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5/README.md) | [bob-cli-pw.5](bob-cli-pw.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.5.md) | [bob-cli-pw.5](bob-cli-pw.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.5.1.1.md) | [bob-cli-pw.5.1.1](bob-cli-pw.5.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pw.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.2/README.md) | [bob-cli-pw.5.1.2](bob-cli-pw.5.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.3/README.md) | [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.4/README.md) | [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.land/README.md) | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.6/README.md) | [bob-cli-pw.6](bob-cli-pw.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.7/README.md) | [bob-cli-pw.7](bob-cli-pw.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8/README.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |
@@ -100,6 +120,7 @@ flowchart TD
 | bob-cli | [`e5169b8`](https://github.com/bobs-org/bob-cli/commit/e5169b814083d717ab3df15f4adf6ec61a446d01) | fix(meetings): satisfy strict lint checks | [bob-cli-pw.1](bob-cli-pw.1.md) | 2026-11-24 13:13:31 EST |
 | bob-cli | [`923df1a`](https://github.com/bobs-org/bob-cli/commit/923df1a63e771bcaa13488b3e0bc64152b97cac4) | feat(meetings): marker-carried meeting identity births LINKS relation and recap | [bob-cli-pw.4](bob-cli-pw.4.md) | 2026-11-24 14:06:22 EST |
 | bob-cli | [`2b3817f`](https://github.com/bobs-org/bob-cli/commit/2b3817fee2c1cb43f02600ece3f52ba9147c6eaa) | feat(meetings): add a dossier print profile beside note snapshots | [bob-cli-pw.3](bob-cli-pw.3.md) | 2026-11-24 15:02:25 EST |
+| bob-cli | [`15fd03b`](https://github.com/bobs-org/bob-cli/commit/15fd03b24c40308ed63bceeff26d4f65e2313c28) | feat(ref-meet): prepare meeting filings and reports | [bob-cli-pw.5.1.1](bob-cli-pw.5.1.1.md) | 2026-11-24 17:14:35 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -109,10 +130,12 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.1--4][1] | Confirm the meeting epic owns the compile errors blocking mounted plugin docs checks | 2 |
 | read-by | [agent:bob-cli-pw.2][2] | Need parent epic scope and plan pointer | 1 |
-| read-by | [agent:bob-cli-pw.4][3] | Need epic children status | 1 |
+| read-by | [agent:bob-cli-pw.3][3] | Need parent epic phases and remaining work | 1 |
+| read-by | [agent:bob-cli-pw.4][4] | Need epic children status | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.3/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -17,6 +17,8 @@
 | related | file:explicit:e2f35a8b6d3bd8b7f9d9a737 | attached via sase artifact create --bead |
 | related | file:explicit:f2d39d019595790f65456db8 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -45,3 +47,15 @@ dossier-print: a meeting print profile beside the note-snapshot profile (shared 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2b3817f`](https://github.com/bobs-org/bob-cli/commit/2b3817fee2c1cb43f02600ece3f52ba9147c6eaa) | feat(meetings): add a dossier print profile beside note snapshots | [bob-cli-pw.3](bob-cli-pw.3.md) | 2026-11-24 15:02:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pw.3][1] | Need the phase scope, design file, notes, and DECISIONS | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.3/README.md
+
+<!-- sase:referenced-by:end -->
