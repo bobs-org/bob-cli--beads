@@ -14,7 +14,7 @@ bank-polish: render the authored-only area strip on the bank card, prove folding
 ## Dependencies
 
 - **Depends on:** [bob-cli-q6.4](bob-cli-q6.4.md) ◐ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-q6.5](bob-cli-q6.5.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q6.5](bob-cli-q6.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

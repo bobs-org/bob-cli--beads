@@ -33,3 +33,15 @@ bank-fold: bank Setup resolves through the fold helper (collapsed when healthy, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@fbe5fd8`](https://github.com/bobs-org/bob-plugins/commit/fbe5fd864f9c2c5c78ed32fcf2a912661a75d06b) | feat(bob-ledger-tools): fold bank Setup by default with honest attention | [bob-cli-q6.2](bob-cli-q6.2.md) | 2026-11-25 16:27:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q6.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.2/README.md
+
+<!-- sase:referenced-by:end -->

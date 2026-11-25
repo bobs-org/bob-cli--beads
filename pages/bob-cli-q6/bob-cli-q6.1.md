@@ -26,7 +26,7 @@ fold-core: add the 240s fold kit (state helper, node-based registry, fold row), 
 ## Dependencies
 
 - **Blocks:** [bob-cli-q6.2](bob-cli-q6.2.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q6.5](bob-cli-q6.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q6.5](bob-cli-q6.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
