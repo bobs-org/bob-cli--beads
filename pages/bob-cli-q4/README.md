@@ -37,7 +37,7 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 |---|---|---|---|---|---:|---:|
 | [bob-cli-q4.1](bob-cli-q4.1.md) | Hand-edit mirror never writes across notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.10](bob-cli-q4.10.md) | Navigation gestures settle both notes they write | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
-| [bob-cli-q4.11](bob-cli-q4.11.md) | Link and Pomodoro target writes settle their target notes | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q4.11](bob-cli-q4.11.md) | Link and Pomodoro target writes settle their target notes | ✓ closed | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.12](bob-cli-q4.12.md) | Ctrl+Shift+O opens a note where note\_home says | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.13](bob-cli-q4.13.md) | End-to-end settle acceptance and re-measure | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.2](bob-cli-q4.2.md) | o and O open real siblings after the whole subtree | ✓ closed | medium | 2026-11-25 | 1 | 1 |
@@ -56,64 +56,96 @@ flowchart TD
     n0["bob-cli-q4: Better o / Ctrl+Shift+O and gesture-settled task structure [in_progress]"]
     n1["bob-cli-q4.1: Hand-edit mirror never writes across notes [closed]"]
     n2["bob-cli-q4.10: Navigation gestures settle both notes they write [in_progress]"]
-    n3["bob-cli-q4.11: Link and Pomodoro target writes settle their target notes [in_progress]"]
-    n4["bob-cli-q4.12: Ctrl+Shift+O opens a note where note_home says [in_progress]"]
-    n5["bob-cli-q4.13: End-to-end settle acceptance and re-measure [in_progress]"]
-    n6["bob-cli-q4.2: o and O open real siblings after the whole subtree [closed]"]
-    n7["bob-cli-q4.3: One pure Rust settle_note that reconcile composes [closed]"]
-    n8["bob-cli-q4.4: Reconcile drift meter and recorded baseline [closed]"]
-    n9["bob-cli-q4.5: Plain split and BLOCKS placement match the layout contract [closed]"]
-    n10["bob-cli-q4.6: Capture settles every note it touches [closed]"]
-    n11["bob-cli-q4.7: Task commands and sync writers settle their notes [closed]"]
-    n12["bob-cli-q4.8: Vector-pinned JS settle twin behind a ledger-tools API [closed]"]
-    n13["bob-cli-q4.8.1: Vector-pinned taskSettle provider for ledger-tools [closed]"]
-    n14["bob-cli-q4.8.1.1: Port the pure settle transform and pin Rust parity [closed]"]
-    n15["bob-cli-q4.8.1.2: Add the guarded editor adapter and cursor policy [closed]"]
-    n16["bob-cli-q4.8.1.3: Publish taskSettle v1 with the pending scheduler [closed]"]
-    n17["bob-cli-q4.9: Cycler gestures settle, including recurring spawns and cycling [in_progress]"]
+    n3["bob-cli-q4.10.1: Navigation gestures settle their written notes [in_progress]"]
+    n4["bob-cli-q4.10.1.1: Navigation settle adapter, command flush, and identity mapping [closed]"]
+    n5["bob-cli-q4.10.1.2: Lane, cancel, freshness, and decay answers settle atomically [in_progress]"]
+    n6["bob-cli-q4.10.1.3: Task, schedule, priority, and quick-roll commits settle [in_progress]"]
+    n7["bob-cli-q4.10.1.4: Task moves and splits settle every written note [in_progress]"]
+    n8["bob-cli-q4.10.1.5: Status-changing dependency and relation writes settle safely [in_progress]"]
+    n9["bob-cli-q4.10.1.6: Morning-review acceptance, documentation, and deployment evidence [in_progress]"]
+    n10["bob-cli-q4.11: Link and Pomodoro target writes settle their target notes [closed]"]
+    n11["bob-cli-q4.12: Ctrl+Shift+O opens a note where note_home says [in_progress]"]
+    n12["bob-cli-q4.13: End-to-end settle acceptance and re-measure [in_progress]"]
+    n13["bob-cli-q4.2: o and O open real siblings after the whole subtree [closed]"]
+    n14["bob-cli-q4.3: One pure Rust settle_note that reconcile composes [closed]"]
+    n15["bob-cli-q4.4: Reconcile drift meter and recorded baseline [closed]"]
+    n16["bob-cli-q4.5: Plain split and BLOCKS placement match the layout contract [closed]"]
+    n17["bob-cli-q4.6: Capture settles every note it touches [closed]"]
+    n18["bob-cli-q4.7: Task commands and sync writers settle their notes [closed]"]
+    n19["bob-cli-q4.8: Vector-pinned JS settle twin behind a ledger-tools API [closed]"]
+    n20["bob-cli-q4.8.1: Vector-pinned taskSettle provider for ledger-tools [closed]"]
+    n21["bob-cli-q4.8.1.1: Port the pure settle transform and pin Rust parity [closed]"]
+    n22["bob-cli-q4.8.1.2: Add the guarded editor adapter and cursor policy [closed]"]
+    n23["bob-cli-q4.8.1.3: Publish taskSettle v1 with the pending scheduler [closed]"]
+    n24["bob-cli-q4.9: Cycler gestures settle, including recurring spawns and cycling [in_progress]"]
+    n25["bob-cli-q4.9.1: Settle cycler gestures without moving rapid-cycle targets [in_progress]"]
+    n26["bob-cli-q4.9.1.1: Guarded cycler bridge and observable pending outcomes [in_progress]"]
+    n27["bob-cli-q4.9.1.2: Settle local and transcluded closes before walk continuation [in_progress]"]
+    n28["bob-cli-q4.9.1.3: Settle promotion and committed open-line scaffolds [in_progress]"]
+    n29["bob-cli-q4.9.1.4: Settle cycle bursts and verify the integrated gesture contract [in_progress]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n0 --> n9
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
+    n3 --> n8
+    n3 --> n9
     n0 --> n10
     n0 --> n11
     n0 --> n12
-    n12 --> n13
-    n13 --> n14
-    n13 --> n15
-    n13 --> n16
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
     n0 --> n17
-    n1 -.-> n5
-    n1 -.-> n9
-    n2 -.-> n5
-    n3 -.-> n5
+    n0 --> n18
+    n0 --> n19
+    n19 --> n20
+    n20 --> n21
+    n20 --> n22
+    n20 --> n23
+    n0 --> n24
+    n24 --> n25
+    n25 --> n26
+    n25 --> n27
+    n25 --> n28
+    n25 --> n29
+    n1 -.-> n12
+    n1 -.-> n16
+    n2 -.-> n12
     n4 -.-> n5
-    n6 -.-> n4
-    n6 -.-> n5
-    n6 -.-> n17
-    n7 -.-> n5
-    n7 -.-> n10
-    n7 -.-> n11
-    n7 -.-> n12
-    n8 -.-> n5
-    n9 -.-> n2
-    n9 -.-> n5
-    n9 -.-> n11
-    n10 -.-> n5
-    n11 -.-> n5
-    n12 -.-> n2
-    n12 -.-> n3
-    n12 -.-> n5
-    n12 -.-> n17
-    n14 -.-> n15
-    n15 -.-> n16
-    n17 -.-> n4
-    n17 -.-> n5
+    n5 -.-> n6
+    n6 -.-> n7
+    n7 -.-> n8
+    n8 -.-> n9
+    n10 -.-> n12
+    n11 -.-> n12
+    n13 -.-> n11
+    n13 -.-> n12
+    n13 -.-> n24
+    n14 -.-> n12
+    n14 -.-> n17
+    n14 -.-> n18
+    n14 -.-> n19
+    n15 -.-> n12
+    n16 -.-> n2
+    n16 -.-> n12
+    n16 -.-> n18
+    n17 -.-> n12
+    n18 -.-> n12
+    n19 -.-> n2
+    n19 -.-> n10
+    n19 -.-> n12
+    n19 -.-> n24
+    n21 -.-> n22
+    n22 -.-> n23
+    n24 -.-> n11
+    n24 -.-> n12
+    n26 -.-> n27
+    n27 -.-> n28
+    n28 -.-> n29
 ```
 
 ## Agents
@@ -121,8 +153,15 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.1/README.md) | [bob-cli-q4.1](bob-cli-q4.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10/README.md) | [bob-cli-q4.10](bob-cli-q4.10.md) | 0 |
-| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.11/README.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.md) | [bob-cli-q4.10](bob-cli-q4.10.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md) | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.2/README.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md) | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.4/README.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.5/README.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.12/README.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md) | [bob-cli-q4.13](bob-cli-q4.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md) | [bob-cli-q4.2](bob-cli-q4.2.md) | 1 |
@@ -136,7 +175,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.2/README.md) | [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.1.3.md) | [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) | 3 |
 | [bbugyi200.athena.bob-cli-q4.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.1.land.md) | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-q4.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9/README.md) | [bob-cli-q4.9](bob-cli-q4.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.md) | [bob-cli-q4.9](bob-cli-q4.9.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md) | [bob-cli-q4.9.1.1](bob-cli-q4.9.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.2/README.md) | [bob-cli-q4.9.1.2](bob-cli-q4.9.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md) | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.4/README.md) | [bob-cli-q4.9.1.4](bob-cli-q4.9.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.land/README.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.land/README.md) | [bob-cli-q4](README.md) | 0 |
 
 ## Commits
@@ -159,6 +203,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@84ba9d4`](https://github.com/bobs-org/bob-plugins/commit/84ba9d411c0f6692aba7bc19d26eea74ba8bb6b8) | test(bob-ledger-tools): measure frees-mark budget as CPU | [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) | 2026-11-25 13:31:05 EST |
 | bob-plugins | [`bob-plugins@01ac184`](https://github.com/bobs-org/bob-plugins/commit/01ac18405e4a8c03b848796c4d7475fb1a44dc1f) | fix(ledger-tools): make taskSettle identity and staged preimages strict | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2026-11-25 14:22:22 EST |
 | bob-cli--plans | [`bob-cli--plans@c3b80bc`](https://github.com/bobs-org/bob-cli--plans/commit/c3b80bcdc5361045817367c81cecfc0e72320c35) | docs(plan): mark task\_settle\_twin done after provider closeout | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2026-11-25 14:23:01 EST |
+| bob-plugins | [`bob-plugins@f224bc7`](https://github.com/bobs-org/bob-plugins/commit/f224bc725d29b6402e8e537f9b69cc6c2dc61aa6) | feat(nav): add guarded taskSettle v1 consumer and command flush | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 2026-11-25 15:03:41 EST |
 
 <!-- sase:referenced-by:start -->
 

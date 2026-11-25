@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-q4](README.md) / bob-cli-q4.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1fw](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1fw.md) · **Assignee:** `bob-cli-q4.11` · **Size:** medium
-**Created:** 2026-11-25 08:51:36 EST
+**Created:** 2026-11-25 08:51:36 EST · **Closed:** 2026-11-25 14:41:45 EST
 **Plan:** [202611/better\_o\_gesture\_settle.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md)
 
 ## Description
 
 link-settle: tier-1 settle on block-id-prompt's Ctrl+Shift+Enter target writes and on ledger-tools Pomodoro close and other target-note status writes, in the same write and including notes not open in an editor.
+
+## Notes
+
+[2026-11-25T19:41:15Z · bob-cli-q4.11] Ledger-tools audit: bob-ledger-tools has no vault.modify/vault.process writers that change a target task checkbox. Pomodoro close lives in Task Status Cycler (q4.9), so this phase did not add a ledger-tools close writer or extend frozen taskSettle v1. Docs record that; only block-id-prompt 1.46.0 was deployed.
+
+[2026-11-25T19:41:29Z · bob-cli-q4.11] PROPOSED FOLLOW-UP: bob-plugins docs-check lint already over word budget on the clean 01ac184 tree (develop/plugin-apis.md, reference/plugins/bob-ledger-tools.md, reference/capture-syntax.md, reference/plugins/bob-navigation-hotkeys.md). This phase added a few sentences to task-settle.md, bob-ledger-tools.md, and block-id-prompt.md; the overage predates q4.11 and does not keep the phase open.
+
+[2026-11-25T19:41:45Z · bob-cli-q4.11] Verified Ctrl+Shift+Enter target writes settle in the same write: closed notes via settleNote then vault.modify, open/same-note editors via staged applyToEditor (expected+contents+identity), same-note combined Pomodoro edits too. Missing/old/throwing/unapplied taskSettle v1 keeps the pre-settle gesture write. flushPending runs at command entry (openPomodoroTaskLink, submitBlockId, completeTaskLinkWithExistingId, consumeBlockedTaskPomodoroLink, taskWikilinkPomodoroCommit), never inside applyTargetTaskPlan. 11/11 target-settle tests plus target-update and pomodoro-link-runtime passed; block-id-prompt 1.46.0 deployed. Ledger-tools has no target-task status writers (Pomodoro close is Task Status Cycler). No epic-symbol leftovers. Docs-check word-budget overages reproduce on clean 01ac184 and are a PROPOSED FOLLOW-UP.
 
 ## Dependencies
 
@@ -20,4 +28,4 @@ link-settle: tier-1 settle on block-id-prompt's Ctrl+Shift+Enter target writes a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.11/README.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 0 |
