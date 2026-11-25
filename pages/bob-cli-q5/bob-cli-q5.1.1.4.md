@@ -22,7 +22,7 @@ wake-delivery: add post-commit wake receipts, Darwin notification, snooze.notify
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.1.1.3](bob-cli-q5.1.1.3.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q5.1.1.5](bob-cli-q5.1.1.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.1.1.5](bob-cli-q5.1.1.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
@@ -35,3 +35,15 @@ wake-delivery: add post-commit wake receipts, Darwin notification, snooze.notify
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9dd67c6`](https://github.com/bobs-org/bob-cli/commit/9dd67c6253060c6492a19a591971f67b25b476c7) | feat(snooze): deliver wake receipts, notices, and first tick step | [bob-cli-q5.1.1.4](bob-cli-q5.1.1.4.md) | 2026-11-25 17:23:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.1.1.4][1] | Need full notes, DECISIONS, and remaining work before close | 7 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.4/README.md
+
+<!-- sase:referenced-by:end -->

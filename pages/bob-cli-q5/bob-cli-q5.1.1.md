@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/snooze_wake_engine.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_wake_engine.md
 
@@ -39,8 +39,10 @@ Complete bob-cli-q5.1 with a tested snooze CLI, safe never-running wake placemen
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.1.1.1][1] | Need parent epic scope and design decisions | 1 |
 | read-by | [agent:bob-cli-q5.1.1.2][2] | Need parent epic DECISIONS and phase design | 1 |
+| read-by | [agent:bob-cli-q5.1.1.4][3] | Need parent epic DECISIONS and land notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ guarded-cli: register bob snooze list/add/drop/wake and the read-only bare defau
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.7.1.land--2][1] | Identify existing docs-budget follow-up references for clean-base docs-check failure | 1 |
 | read-by | [agent:bob-cli-q5.1.1.3--5][2] | Review assigned snooze phase scope before finalizing verification | 1 |
+| read-by | [agent:bob-cli-q5.1.1.4][3] | Cite existing follow-up notes for docs-check overages | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.3.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.4/README.md
 
 <!-- sase:referenced-by:end -->
