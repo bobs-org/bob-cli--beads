@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-pw
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.65.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.65.linker.w0.md) · **Assignee:** `bob-cli-pw.land`
-**Created:** 2026-11-24 10:38:46 EST
+**Created:** 2026-11-24 10:38:46 EST · **Closed:** 2026-11-25 09:41:31 EST
 **Plan:** [202611/meeting\_notes\_event\_refs.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/meeting_notes_event_refs.md)
 
 <!-- sase:links:start -->
@@ -55,6 +55,8 @@ Further epic-caused gaps found in this audit go to the repair tale:
 - The receipt prints "(1 pages)", and the dry-run prints the Debug shape name.
 Integration: the non-epic commits since dbf405e3 are 31131fe2, 4b23bbef, fb946f9c, 3deee354, f07c2395, 976f53ba, 69e5fcb9, 447ef1a5, and 5ab392a1 (props, gmail, and a dev script). They overlap only in shared docs and catalog registries, which merged cleanly. Nothing needs to adopt the meetings feature. Mac 3931c308 (the native repairs) is on origin/master; its tree equals green snapshot e7b7bb3c, and exact-SHA run 45614436809 is green. No --epic-symbol entries; no symvision recipe; no parent bead.
 
+[2026-11-25T14:41:31Z · bob-cli-pw.land--1] land_meeting_notes_repairs done. Repairs: bob-cli recap layout (## Notes, weekday meta, aliased event link, TL;DR callout, ###/####), lossless Wispr/dossier round trip with regression tests, PDF preamble hook removal + guard test, user-facing ref meet help/receipts + docs paragraph + docs-gen; bob-plugins ref-meet toast accepts bare/wikilink/path/alias targets, unit tests updated, build clean, deployed via bob plugins sync. Verify: just check COMPLETED exit 0 (monitor heapsd2ty4hy, 18m39s 2026-11-25); just docs-check FAILED lint exit 1 with only known error bob-navigation-hotkeys 6046 words over 6000 cap (per bob-cli-jz) plus warning plugin-apis 9287 over 8000 cap; smoke passed prior turn with (1 page) receipt, ## Notes + Tue meta + aliased link + TL;DR callout + ### Next steps with both steps kept. Land audit: all 8 phases CLOSED and verified, Mac repairs 3931c308 green exact-SHA run 45614436809, no integration changes since dbf405e3. Follow-ups: +1 gd/ob/jz/km/io; new pz/q0/q1/q2/q3 ready; declined pw.2 #1, pw.3 #1, pw.4 #1, pw.6 #1-4; pw.6 #8 and epic note #4 TeX defects fixed here; nested dispositions on pw.5.1 and pw.8.1 stand.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -72,7 +74,7 @@ Integration: the non-epic commits since dbf405e3 are 31131fe2, 4b23bbef, fb946f9
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-pw: Meeting notes become event-linked references [in_progress]"]
+    n0["bob-cli-pw: Meeting notes become event-linked references [closed]"]
     n1["bob-cli-pw.1: Structural notes normalizer, dossier source, and recap renderer [closed]"]
     n2["bob-cli-pw.2: Event Task resolution, matching, recent-meetings listing, and agenda notes state [closed]"]
     n3["bob-cli-pw.3: Meeting dossier print profile [closed]"]
@@ -143,7 +145,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pw.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.2.md) | [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.3.md) | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 3 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.land.md) | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-pw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.land.md) | [bob-cli-pw](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-pw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.land.md) | [bob-cli-pw](README.md) | 3 |
 
 ## Commits
 
@@ -173,6 +175,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@79c2b32`](https://github.com/bobs-org/bob-cli--plans/commit/79c2b325fda4eeb293391e9aed35ed5910444545) | docs(plan): mark mac\_meeting\_notes epic plan done | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 2026-11-25 07:31:58 EST |
 | bob-cli | [`f47055d`](https://github.com/bobs-org/bob-cli/commit/f47055dad542113dc21e6251828c2a3e4cfc7597) | fix(meetings): land meeting-notes repairs | [bob-cli-pw](README.md) | 2026-11-25 09:14:17 EST |
 | bob-plugins | [`bob-plugins@a458c96`](https://github.com/bobs-org/bob-plugins/commit/a458c96f448b6c298709685951c438c6015f04b5) | fix(command-mode): accept wikilink relation targets for ref-meet toast | [bob-cli-pw](README.md) | 2026-11-25 09:15:51 EST |
+| bob-cli--plans | [`bob-cli--plans@3e7f216`](https://github.com/bobs-org/bob-cli--plans/commit/3e7f2165c2bb43f0aeb3e562e7418b00478794de) | docs(plans): mark meeting\_notes\_event\_refs done | [bob-cli-pw](README.md) | 2026-11-25 09:42:35 EST |
 
 <!-- sase:referenced-by:start -->
 
