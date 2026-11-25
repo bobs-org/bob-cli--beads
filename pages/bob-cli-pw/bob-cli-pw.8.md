@@ -19,4 +19,4 @@ mac-surfaces: bob-mac-capture adds a Meeting Notes mode (hotkey, menu item, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8/README.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |

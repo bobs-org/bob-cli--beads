@@ -45,7 +45,7 @@ One deliberate gesture, from the CLI, Obsidian, or Bob Mac Capture, files AI mee
 | [bob-cli-pw.4](bob-cli-pw.4.md) | Marker-carried meeting identity births the LINKS relation and recap | ✓ closed | medium | 2026-11-24 | 1 | 1 |
 | [bob-cli-pw.5](bob-cli-pw.5.md) | The \`bob ref meet\` command | ✓ closed | large | 2026-11-24 | 1 | 0 |
 | [bob-cli-pw.6](bob-cli-pw.6.md) | File the first meeting's notes | ◐ in_progress | small | 2026-11-24 | 1 | 0 |
-| [bob-cli-pw.7](bob-cli-pw.7.md) | Obsidian surfaces for meeting notes | ◐ in_progress | medium | 2026-11-24 | 1 | 0 |
+| [bob-cli-pw.7](bob-cli-pw.7.md) | Obsidian surfaces for meeting notes | ✓ closed | medium | 2026-11-24 | 1 | 0 |
 | [bob-cli-pw.8](bob-cli-pw.8.md) | Bob Mac Capture meeting-notes mode and Meetings kind | ◐ in_progress | large | 2026-11-24 | 1 | 0 |
 
 ## Lineage
@@ -64,8 +64,12 @@ flowchart TD
     n9["bob-cli-pw.5.1.3: Replace meeting notes while preserving recap ownership and task identity [closed]"]
     n10["bob-cli-pw.5.1.4: Expose the complete ref meet CLI and document its contract [closed]"]
     n11["bob-cli-pw.6: File the first meeting's notes [in_progress]"]
-    n12["bob-cli-pw.7: Obsidian surfaces for meeting notes [in_progress]"]
+    n12["bob-cli-pw.7: Obsidian surfaces for meeting notes [closed]"]
     n13["bob-cli-pw.8: Bob Mac Capture meeting-notes mode and Meetings kind [in_progress]"]
+    n14["bob-cli-pw.8.1: Mac meeting notes filing and Meetings library scope [in_progress]"]
+    n15["bob-cli-pw.8.1.1: Meeting notes JSON client and portable session [in_progress]"]
+    n16["bob-cli-pw.8.1.2: First-class Meetings kind in Bob Refs [in_progress]"]
+    n17["bob-cli-pw.8.1.3: Meeting Notes sheet and agenda entry points [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -79,6 +83,10 @@ flowchart TD
     n0 --> n11
     n0 --> n12
     n0 --> n13
+    n13 --> n14
+    n14 --> n15
+    n14 --> n16
+    n14 --> n17
     n1 -.-> n3
     n1 -.-> n4
     n2 -.-> n5
@@ -90,6 +98,8 @@ flowchart TD
     n7 -.-> n8
     n8 -.-> n9
     n9 -.-> n10
+    n15 -.-> n17
+    n16 -.-> n17
 ```
 
 ## Agents
@@ -108,7 +118,11 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pw.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.5.1.land.md) | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pw.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.6.md) | [bob-cli-pw.6](bob-cli-pw.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.7/README.md) | [bob-cli-pw.7](bob-cli-pw.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8/README.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8.1.1/README.md) | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.2.md) | [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pw.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8.1.3/README.md) | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8.1.land/README.md) | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.land/README.md) | [bob-cli-pw](README.md) | 0 |
 
 ## Commits
@@ -126,6 +140,7 @@ flowchart TD
 | bob-cli | [`e4c96b0`](https://github.com/bobs-org/bob-cli/commit/e4c96b055ba33cf57962e33fb501700c86c5f264) | feat(ref): add public bob ref meet leaf for filing meeting notes | [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) | 2026-11-24 22:18:33 EST |
 | bob-cli | [`28e2388`](https://github.com/bobs-org/bob-cli/commit/28e2388646c80a47c748fda3c816a2fe2ff63235) | fix(ref): land remaining bob ref meet CLI repairs | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 2026-11-24 23:47:38 EST |
 | bob-cli--plans | [`bob-cli--plans@469a5b5`](https://github.com/bobs-org/bob-cli--plans/commit/469a5b530f24bb5795c2e6cea7c2f85dc5d7e98b) | docs(plan): mark ref\_meet\_cli epic plan done | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 2026-11-24 23:49:13 EST |
+| bob-mac-capture | [`bob-mac-capture@c8692ed`](https://github.com/bobs-org/bob-mac-capture/commit/c8692ed363408ae398516fc1b0c50787b0425961) | feat(refs): add Meetings library scope | [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) | 2026-11-25 00:13:11 EST |
 
 <!-- sase:referenced-by:start -->
 
