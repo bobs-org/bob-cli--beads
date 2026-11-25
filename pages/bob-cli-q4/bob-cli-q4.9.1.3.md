@@ -35,3 +35,15 @@ structure-settle: compose promote and demote plans with settle in one transactio
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1c2534c`](https://github.com/bobs-org/bob-plugins/commit/1c2534cc3ac5b3cfa6d86cf2d48ef213ee9b5805) | feat(task-status-cycler): settle promote/demote writes and nonempty o/O scaffolds | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 2026-11-25 16:30:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.9.1.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -42,7 +42,9 @@ settle-bridge: add a call-time consumer bridge and optional pending-result callb
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.9.1.1][1] | Need notes, DECISIONS, and remaining description after compaction | 6 |
+| read-by | [agent:bob-cli-q4.9.1.3][2] | Need the prior phase's just-check follow-up wording to cite the same trackers | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -18,7 +18,7 @@ answers: wire Alt+N, Alt+X, counted and linked variants, freshness keeps, Decay 
 ## Dependencies
 
 - **Depends on:** [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
