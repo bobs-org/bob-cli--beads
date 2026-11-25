@@ -14,7 +14,11 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | related | file:explicit:380437933d2ad00ffe9bf9e5 | attached via sase artifact create --bead |
+| related | file:explicit:45956d095b4a9c87c12538d7 | attached via sase artifact create --bead |
 | related | file:explicit:c438fc384834aa3283bd6781 | Preserves the failed settings acceptance screenshot for the phase |
+| related | file:explicit:df648c0cb0cc5a2fd010f811 | attached via sase artifact create --bead |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -34,7 +38,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 3 |
 
 ## Commits
 
@@ -42,3 +46,16 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6904786`](https://github.com/bobs-org/bob-plugins/commit/69047866eacd505e8a306440c99e71b481cfdf31) | test(props): add real-Obsidian settings acceptance coverage | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 07:15:21 EST |
 | bob-plugins | [`bob-plugins@2ec1304`](https://github.com/bobs-org/bob-plugins/commit/2ec1304231ad4d3c6c47b290aab938f8fb57a1b4) | test(property-editor): navigate expanded managed rows in Obsidian acceptance | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 07:58:11 EST |
+| bob-plugins | [`bob-plugins@7c34314`](https://github.com/bobs-org/bob-plugins/commit/7c3431499200db62cd062ecab0e2587010a426f6) | test(settings): reopen managed rows after YAML navigation | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 08:15:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.6.1.5--3][1] | Need current phase scope and blockers before recording acceptance evidence | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md
+
+<!-- sase:referenced-by:end -->
