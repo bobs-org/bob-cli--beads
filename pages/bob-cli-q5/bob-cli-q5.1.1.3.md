@@ -13,7 +13,7 @@ guarded-cli: register bob snooze list/add/drop/wake and the read-only bare defau
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.1.1.2](bob-cli-q5.1.1.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.1.1.2](bob-cli-q5.1.1.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.1.1.4](bob-cli-q5.1.1.4.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

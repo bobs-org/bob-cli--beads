@@ -21,7 +21,7 @@ row-model: build src/native/snooze parsing, injected zoned time grammar, resolve
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.1.1.2](bob-cli-q5.1.1.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.1.1.2](bob-cli-q5.1.1.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
@@ -34,3 +34,15 @@ row-model: build src/native/snooze parsing, injected zoned time grammar, resolve
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`cd59455`](https://github.com/bobs-org/bob-cli/commit/cd594550547b07285f54a181896b69c3233a29a3) | feat(snooze): add later-today row-model contracts, vectors, and docs | [bob-cli-q5.1.1.1](bob-cli-q5.1.1.1.md) | 2026-11-25 12:15:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.1.1.1][1] | Need full bead notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->
