@@ -37,3 +37,15 @@ bank-title: new 248cb title mixin adopts the title slot with an emoji-splitting 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7d53d18`](https://github.com/bobs-org/bob-plugins/commit/7d53d18912f386472f9d87f00d32c6d38111ab93) | feat(bank): bank card owns note top with kit title block | [bob-cli-q6.3](bob-cli-q6.3.md) | 2026-11-25 17:15:17 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q6.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.3/README.md
+
+<!-- sase:referenced-by:end -->
