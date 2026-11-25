@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-q7](README.md) / bob-cli-q7.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1g6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1g6.md) · **Assignee:** `bob-cli-q7.2` · **Size:** medium
-**Created:** 2026-11-25 15:25:24 EST
+**Created:** 2026-11-25 15:25:24 EST · **Closed:** 2026-11-25 18:15:36 EST
 **Plan:** [202611/caret\_address\_goto\_capture.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/caret_address_goto_capture.md)
 
 ## Description
 
 cli-browse: add the additive block_id.goto rows to task_block_id completion for bare @route^ and partial IDs, teach the new form in the mint-collision error, index route^id in the / search fields, and document all three.
+
+## Notes
+
+[2026-11-25T23:15:19Z · bob-cli-q7.2] PROPOSED FOLLOW-UP: just check stays red on clean master — 3 lib failures (three_component_marker drawer case, task_merge drawers, wispr summary words), 18 CLI failures (inbox_route x2, note_pull x3, project_note x3, project_note_offer x6, task_theme_writes, completion drawers_after_id_hash, ref today theme, task_status_hooks sync), plus a wall-clock flake in september_shaped_vault_finishes_fast under parallel load. All reproduce identically with this phase stashed.
+
+[2026-11-25T23:15:25Z · bob-cli-q7.2] PROPOSED FOLLOW-UP: just docs-check lint fails on clean master — 4 word-budget errors (develop plugin-apis, capture-syntax at 6058/6000, json-outputs, bob-ledger-tools, bob-navigation-hotkeys). This phase adds ~30 words to already-over capture-syntax.md; the failure reproduces with this phase stashed.
+
+[2026-11-25T23:15:36Z · bob-cli-q7.2] cli-browse done: block_id.goto Go rows on whole-draft @route^/@route^partial (doc order, dupes omitted, archive rows flagged, unfiltered, missing note eligible with no rows), mint-collision error teaches @route^id, / picker matches route^id. Verified: 8 new CLI completion tests + caret_browse unit + caret ranker unit green; affected suites 98 lib + 182 CLI green; fmt clean, clippy gates 0 errors. Full-suite and docs-check failures reproduce identically on clean master (recorded as PROPOSED FOLLOW-UPs); no epic-symbol leftovers.
 
 ## Dependencies
 
@@ -20,4 +28,10 @@ cli-browse: add the additive block_id.goto rows to task_block_id completion for 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md) | [bob-cli-q7.2](bob-cli-q7.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md) | [bob-cli-q7.2](bob-cli-q7.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d883e56`](https://github.com/bobs-org/bob-cli/commit/d883e564ecac1aecc9c3b6d4a1c72517cae87379) | feat(capture): scoped browse block\_id.goto with archive rows, mint-collision hint, route^block-id search | [bob-cli-q7.2](bob-cli-q7.2.md) | 2026-11-25 18:16:48 EST |

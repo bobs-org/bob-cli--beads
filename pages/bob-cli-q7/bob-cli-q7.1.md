@@ -23,7 +23,7 @@ cli-goto: add the shared whole-draft caret-address claim, the read-only resolver
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q7.2](bob-cli-q7.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q7.2](bob-cli-q7.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q7.4](bob-cli-q7.4.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

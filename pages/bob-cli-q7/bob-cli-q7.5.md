@@ -13,7 +13,7 @@ mac-browse: turn the goto-eligible block-ID card into a scoped Go To browse (sel
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q7.2](bob-cli-q7.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q7.2](bob-cli-q7.2.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q7.4](bob-cli-q7.4.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q7.6](bob-cli-q7.6.md) ◐ · ⧖ 2026-11-25
 
