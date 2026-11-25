@@ -17,6 +17,7 @@
 | related | file:explicit:06dc13b5afc95d4c0c5a784f | attached via sase artifact create --bead |
 | related | file:explicit:0968c32776984db9ba2bd327 | attached via sase artifact create --bead |
 | related | file:explicit:0b7f5dcd3ad54a06615f0aa3 | attached via sase artifact create --bead |
+| related | file:explicit:0e8eba0ddfe46989f75cb0c7 | attached via sase artifact create --bead |
 | related | file:explicit:0f239313ecbd344e0161d93f | attached via sase artifact create --bead |
 | related | file:explicit:102101973af2ca32e6bb022d | attached via sase artifact create --bead |
 | related | file:explicit:10adb49472e0488fd8f5ff17 | attached via sase artifact create --bead |
@@ -53,6 +54,7 @@
 | related | file:explicit:7930a61423fb45f7864096c3 | attached via sase artifact create --bead |
 | related | file:explicit:7c7732897efd57852e58549d | attached via sase artifact create --bead |
 | related | file:explicit:7de1b3a5b07bde5695deaef7 | attached via sase artifact create --bead |
+| related | file:explicit:7ec227016b8bda0afa771023 | attached via sase artifact create --bead |
 | related | file:explicit:84880df9b16f7a86054bcf04 | attached via sase artifact create --bead |
 | related | file:explicit:8e08cc4bfd0c453564c2812f | attached via sase artifact create --bead |
 | related | file:explicit:8f8cccda01e4ecab5e121689 | attached via sase artifact create --bead |
@@ -61,12 +63,10 @@
 | related | file:explicit:a4c35a9f39b9398dbcf72f92 | attached via sase artifact create --bead |
 | related | file:explicit:a7aad6122b88c9990f221c94 | attached via sase artifact create --bead |
 | related | file:explicit:ae7eed0a50602d4baca2d591 | attached via sase artifact create --bead |
-| related | file:explicit:b487c294be4d48f18d63425b | attached via sase artifact create --bead |
-| related | file:explicit:b4a8eb54c2ec5fa6c470a21e | attached via sase artifact create --bead |
 
-_… and 29 more_
+_… and 32 more_
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -94,6 +94,20 @@ PROPOSED FOLLOW-UP: Existing bob-cli-n0 held-lock album schema writer failure re
 
 PROPOSED FOLLOW-UP: Docs budget failures reproduced identically using the opened plugin Git checkout detached at abbac5, clean status, with BOB_CLI_DIR pinned to CLI 0742684, then restoring current HEAD: bob-ledger-tools.md 6012/6000 and bob-navigation-hotkeys.md 6068/6000, plus plugin-apis.md 9961/8000 warning. Initial tar-snapshot docs result was invalid and is not baseline evidence; docs-check-base-valid.log/status and docs-base-tree.status provide the valid proof, and clean-base-comparison.json now reports docsIdentical=true. Ledger headroom is already tracked by bob-cli-il; prior phase note #1 cites historical evidence from bob-cli-pw.8.1.3. All proof is in the durable archive above. No new beads or ancestor changes.
 
+[2026-11-25T19:50:24Z · bob-cli-pl.6.1.5--3] Acceptance recovery for monitor a4knqwsgeyz8: read every independent status and failing log, clean-base comparison, both deployment records, startup failure, full app report, and all49 new PNGs individually. App277 pass/1fail, no console exceptions. Report file:explicit:d980a3b08f0597fba13d1f2e; all image SHA256s/verdicts and independent check review file:explicit:7ec227016b8bda0afa771023. Complete report/log/PNG archive file:explicit:0e8eba0ddfe46989f75cb0c7 is attached to this phase.
+
+The alias assertion raced Bob's response: local Preview text was visible while status was Checking value. Fixed its wait to require preview-ready for exactly the current draft and completed ready status, with a regression test for pending, stale and invalidated previews. A direct dry-run additionally proved the old nested fixtures cannot collide because capture targets scan vault-root files. Moved area/project fixtures to unique root filenames, preserving the parent hierarchy. The SAME acceptance Bob binary now returns project_name_aliases_conflict for Garden, permits the preview, leaves bytes exact, recognizes the exact #task #prj line, and retains nested/root disabled distinctions. Added this to the real-Bob preflight before Obsidian launches. No warning assertion weakened.
+
+All24 generic parity shots now show legible rows/controls; all4 paste screenshots show all preview rows plus Apply/Cancel, proving the prior flex fix. All24 settings images reviewed too: row wrapping fixed, but4 narrow populated headers crowd/overflow their titles, and16 initial simple-stage shots lack candidate effects. Added narrow header action wrapping with header geometry assertions. Simple-stage captures now change valid drafts, await completed Bob preview, then cancel and assert both fixtures are byte-identical. Failure image confirms Checking value with local Preview. Updated validation and Property Editor docs to describe actual coverage. Focused suites68/68 and final harness14/14 pass; build:check and validate12/12 pass; diff check clean. No production JS changes authored.
+
+Independent checks: base6906848/current3e851f0 have identical album held-lock error already tracked by bob-cli-n0. Base unit9541/9542 + perf25/26; current unit9540/9542 + perf26/26. The other full-suite errors differ (base link-index16.9ms chunk; current frees-marks29.148ms CPU), and frees-marks passes17/17 on both trees in isolation, so no new timing follow-up is claimed as identical. Both bas
+
+… and 1710 more characters
+
+## Attachments
+
+- 🔒 recovery-a4knqw.json · application/json · 3.17383 KiB (private attachment)
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) ✓ · ⧖ 2026-11-24
@@ -102,7 +116,7 @@ PROPOSED FOLLOW-UP: Docs budget failures reproduced identically using the opened
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 12 |
 
 ## Commits
 
@@ -118,6 +132,8 @@ PROPOSED FOLLOW-UP: Docs budget failures reproduced identically using the opened
 | bob-plugins | [`bob-plugins@689da09`](https://github.com/bobs-org/bob-plugins/commit/689da09262ecd1492cc1bc52e84cebad2fb79631) | test(settings): unblock Obsidian acceptance and cover setting writes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:10:32 EST |
 | bob-plugins | [`bob-plugins@fd2a290`](https://github.com/bobs-org/bob-plugins/commit/fd2a2907fdba71ee5389d73a330eef30897b3746) | test(settings): correct Obsidian fixtures and visible acceptance probes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:43:55 EST |
 | bob-plugins | [`bob-plugins@3e851f0`](https://github.com/bobs-org/bob-plugins/commit/3e851f0686cbf853cfe2d192ab7b1456b1d4cf57) | fix(properties): keep settings values and paste controls visible | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:17:41 EST |
+| bob-plugins | [`bob-plugins@968c4db`](https://github.com/bobs-org/bob-plugins/commit/968c4dbf1468f7c3bbbf2414894cdaeb8eef3fe9) | fix(properties): keep settings values and paste controls visible | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:35:32 EST |
+| bob-plugins | [`bob-plugins@9ae7c44`](https://github.com/bobs-org/bob-plugins/commit/9ae7c4422b957420fff6af4179f1367dd540a89d) | fix(properties): verify capture warnings and wrap narrow headers | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:51:55 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -126,6 +142,7 @@ PROPOSED FOLLOW-UP: Docs budget failures reproduced identically using the opened
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.6.1.5--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-pl.6.1.5--2][1] | Review acceptance scope and prior evidence | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--3][1] | Need current phase scope and blockers before recording acceptance evidence | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--4][1] | Inspect assigned phase status, existing notes, and any remaining work before finishing acceptance | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--5][1] | Verify all failed acceptance artifacts are linked before rerunning | 2 |

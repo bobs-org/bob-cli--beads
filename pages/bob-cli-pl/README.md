@@ -125,7 +125,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.2.md) | [bob-cli-pl.6.1.2](bob-cli-pl.6.1.2.md) | 3 |
 | [bbugyi200.apollo.bob-cli-pl.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md) | [bob-cli-pl.6.1.3](bob-cli-pl.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.4/README.md) | [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 12 |
 | [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.7/README.md) | [bob-cli-pl.7](bob-cli-pl.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.8/README.md) | [bob-cli-pl.8](bob-cli-pl.8.md) | 0 |
@@ -163,6 +163,8 @@ flowchart TD
 | bob-plugins | [`bob-plugins@689da09`](https://github.com/bobs-org/bob-plugins/commit/689da09262ecd1492cc1bc52e84cebad2fb79631) | test(settings): unblock Obsidian acceptance and cover setting writes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:10:32 EST |
 | bob-plugins | [`bob-plugins@fd2a290`](https://github.com/bobs-org/bob-plugins/commit/fd2a2907fdba71ee5389d73a330eef30897b3746) | test(settings): correct Obsidian fixtures and visible acceptance probes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:43:55 EST |
 | bob-plugins | [`bob-plugins@3e851f0`](https://github.com/bobs-org/bob-plugins/commit/3e851f0686cbf853cfe2d192ab7b1456b1d4cf57) | fix(properties): keep settings values and paste controls visible | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:17:41 EST |
+| bob-plugins | [`bob-plugins@968c4db`](https://github.com/bobs-org/bob-plugins/commit/968c4dbf1468f7c3bbbf2414894cdaeb8eef3fe9) | fix(properties): keep settings values and paste controls visible | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:35:32 EST |
+| bob-plugins | [`bob-plugins@9ae7c44`](https://github.com/bobs-org/bob-plugins/commit/9ae7c4422b957420fff6af4179f1367dd540a89d) | fix(properties): verify capture warnings and wrap narrow headers | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:51:55 EST |
 
 <!-- sase:referenced-by:start -->
 
