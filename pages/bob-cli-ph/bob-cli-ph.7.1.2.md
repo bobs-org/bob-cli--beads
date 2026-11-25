@@ -49,9 +49,11 @@ drawer-rendering: render the approved tray and verbatim title using source-backe
 | read-by | [agent:bob-cli-ph.7.1.2--2][1] | Confirm assigned scope and existing verification notes before continuing | 1 |
 | read-by | [agent:bob-cli-ph.7.1.3][2] | Check what drawer-rendering phase landed to build typing on top | 1 |
 | read-by | [agent:bob-cli-ph.7.1.4][3] | Need prior phase notes, markers, deploy evidence, and remaining work | 1 |
+| read-by | [agent:bob-cli-ph.7.1.land--1][4] | Re-read every child phase and its completion notes for final landing verification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.2.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md
 
 <!-- sase:referenced-by:end -->

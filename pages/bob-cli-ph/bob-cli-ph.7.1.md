@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/obsidian_true_case_drawers.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_true_case_drawers.md
 
@@ -33,11 +33,23 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 
 [2026-11-25T18:16:02Z · bob-cli-ph.7.1.land] FOLLOW-UP TRIAGE (all 8 PROPOSED FOLLOW-UP entries): ph.7.1.2 #1, ph.7.1.3 #1 and ph.7.1.4 #3 are one epic-owned NOTES assertion gap; declined separate tasks and included in repair tale. ph.7.1.3 #2 and ph.7.1.4 #2 docs budgets: corroborated jz hard-cap and ob headroom tasks. Independent counts at plugins 8254caa4: nav 6068/6000 vs pre-epic 6046; plugin-apis 9929/8000 advisory vs 9287; q4 owns +22 split prose and +642 taskSettle API words and received DISCOVERED ISSUE evidence. Drawer conversion prose is net-zero. ph.7.1.4 #4: corroborated km event-link-times and io frees-marks. ph.7.1.4 #5: corroborated lp MN-click. These three suites pass 68/68 together on unchanged 8254caa4; original full-suite failures remain attributed to the proposing phase. ph.7.1.4 #6: routed reported 17 Rust CLI failures to active q4 with source/commit causal evidence for new settle postimages; no fresh reproduction claimed because targeted cargo run was interrupted with exit 143 during cold compile. No distinct new task warranted after all-status searches, last-week sweep and active-epic review. Tale must retain every disposition in close note and assess actual new verification failures.
 
+[2026-11-25T20:09:16Z · bob-cli-ph.7.1.land--2] PROPOSED FOLLOW-UP: npm run docs:check in bob-plugins failed unchanged word budgets: plugin-apis.md 9961/8000, capture-syntax.md 6011/6000, bob-navigation-hotkeys.md 6068/6000. just docs-check on clean bob-cli base e532b11f911486e404fefeed3c7a7653dd7cbef7 failed plugin-apis.md 9961/8000 and bob-navigation-hotkeys.md 6068/6000. These match existing tracked docs-budget follow-ups bob-cli-q4.8.1.3 and bob-cli-q5.1.1.3; no new task bead is warranted.
+
+[2026-11-25T20:12:13Z · bob-cli-ph.7.1.land--2] PROPOSED FOLLOW-UP: just check on unchanged clean bob-cli base e532b11f911486e404fefeed3c7a7653dd7cbef7 passed clippy but failed tests in -p bob-obsidian --lib and --test cli. The same 3 library and 17 CLI failures are already triaged on bob-cli-q5.1.1.2 (notes #1, #2, and #5) and bob-cli-q4; bob-cli had no source changes in this run, so no new task bead is warranted.
+
+## References
+
+- file:explicit:7d1382945a7925b0c31918ec
+- file:explicit:e5eff65dbb95130799331a0d
+- file:explicit:dd053632f1ae33b646f71e15
+- file:explicit:e66c8c4d308eb70022271092
+- file:explicit:feac1be20bb6aa1d6571c489
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 3 |
 
 ## Commits
 
@@ -45,6 +57,7 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6906848`](https://github.com/bobs-org/bob-plugins/commit/6906848059293c497d371d032c28555f10f7ab12) | fix(drawers): preserve title bytes and strengthen landing regressions | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 13:49:42 EST |
 | bob-plugins | [`bob-plugins@e5d3d6e`](https://github.com/bobs-org/bob-plugins/commit/e5d3d6e0df8551d668feba24fc9296388be58a80) | test(drawers): capture Obsidian visual diagnostics | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 14:08:42 EST |
+| bob-plugins | [`bob-plugins@9d2dbd2`](https://github.com/bobs-org/bob-plugins/commit/9d2dbd2cdc3e0e223b2365d6ca71cc243d1dd669) | fix(ledger-tools): repair task drawer landing visuals | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 15:17:05 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -54,8 +67,10 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.7.1.3][1] | Need epic DECISIONS and scope | 1 |
 | read-by | [agent:bob-cli-ph.7.1.4][2] | Need DECISIONS section from parent epic | 3 |
+| read-by | [agent:bob-cli-ph.7.1.land--1][3] | Need the assigned drawer epic, children, and landing notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md
 
 <!-- sase:referenced-by:end -->

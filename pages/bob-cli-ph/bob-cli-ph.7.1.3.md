@@ -44,8 +44,10 @@ drawer-typing: add scoped star expansion, Enter, overtype, atomic Backspace, und
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.7.1.3][1] | Need full details including notes and decisions | 2 |
 | read-by | [agent:bob-cli-ph.7.1.4][2] | Need prior phase notes, markers, deploy evidence, and remaining work | 1 |
+| read-by | [agent:bob-cli-ph.7.1.land--1][3] | Re-read every child phase and its completion notes for final landing verification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md
 
 <!-- sase:referenced-by:end -->

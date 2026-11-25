@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:e9988819b2a7e52753c34291 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -73,7 +73,9 @@ obsidian-acceptance: exercise the integrated feature in an isolated Obsidian vau
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.7.1.4][1] | Need notes, design, and remaining work from earlier agents | 8 |
+| read-by | [agent:bob-cli-ph.7.1.land--1][2] | Re-read every child phase and its completion notes for final landing verification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md
 
 <!-- sase:referenced-by:end -->

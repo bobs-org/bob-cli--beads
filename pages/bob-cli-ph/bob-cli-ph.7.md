@@ -29,6 +29,11 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 - file:explicit:a95e8a34e6fb850dac4ed7ce
 - file:explicit:d0f7de1722a08229a8ef40a4
 - file:explicit:e51daf687f9c74c956f3709f
+- file:explicit:7d1382945a7925b0c31918ec
+- file:explicit:e5eff65dbb95130799331a0d
+- file:explicit:dd053632f1ae33b646f71e15
+- file:explicit:e66c8c4d308eb70022271092
+- file:explicit:feac1be20bb6aa1d6571c489
 
 ## Dependencies
 
@@ -50,20 +55,22 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
 | read-by | [agent:bob-cli-ph.7.1.4][2] | Need prior phase notes, markers, deploy evidence, and remaining work | 1 |
-| read-by | [agent:bob-cli-pq.1][3] | sequencing check for glyph-contract | 2 |
-| read-by | [agent:bob-cli-pq.3][4] | Check prerequisite drawer implementation and remaining integration | 1 |
-| read-by | [agent:bob-cli-q4.2][5] | Need ph.7 status before leaving the open-lines coordination note | 1 |
-| read-by | [agent:g1][6] | Check whether phase is blocked on the release gate | 1 |
-| read-by | [agent:research.66.cld][7] | Check overlap of drawer typing/writers with better-o Ctrl+Shift+O design | 2 |
-| read-by | [agent:research.66.grk][8] | Need drawer-writer sequencing so better-o can leave the right note on bob-cli-ph | 1 |
+| read-by | [agent:bob-cli-ph.7.1.land--1][3] | Need parent phase status and coordination notes | 1 |
+| read-by | [agent:bob-cli-pq.1][4] | sequencing check for glyph-contract | 2 |
+| read-by | [agent:bob-cli-pq.3][5] | Check prerequisite drawer implementation and remaining integration | 1 |
+| read-by | [agent:bob-cli-q4.2][6] | Need ph.7 status before leaving the open-lines coordination note | 1 |
+| read-by | [agent:g1][7] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:research.66.cld][8] | Check overlap of drawer typing/writers with better-o Ctrl+Shift+O design | 2 |
+| read-by | [agent:research.66.grk][9] | Need drawer-writer sequencing so better-o can leave the right note on bob-cli-ph | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.2/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.2/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
 
 <!-- sase:referenced-by:end -->
