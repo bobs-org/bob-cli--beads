@@ -14,7 +14,7 @@ capture-settle: run `settle_note` at the capture choke point after type agreemen
 ## Dependencies
 
 - **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-q4.3](bob-cli-q4.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q4.3](bob-cli-q4.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

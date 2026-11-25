@@ -11,6 +11,10 @@
 
 layout-parity: fix bead bob-cli-pn so plain Task Split writes LINKED FROM in the managed-link zone, update the SP vectors, and re-copy them into the nav split twin. Verify and fix the known JS BLOCKS-before-Depends-On insert-order divergence from contract §14.5.
 
+## Notes
+
+[2026-11-25T14:37:37Z · bob-cli-q4.5] PROPOSED FOLLOW-UP: nav split vectors SP34/SP35/SP39 still expect **Notes** (bob-cli bold drawers, ph.4) but the nav tidy twin creates NOTES; needs ph.7.1 true-case drawers before the re-copied vectors.json goes green
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q4.1](bob-cli-q4.1.md) ✓ · ⧖ 2026-11-25
@@ -22,4 +26,4 @@ layout-parity: fix bead bob-cli-pn so plain Task Split writes LINKED FROM in the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.5/README.md) | [bob-cli-q4.5](bob-cli-q4.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.5.md) | [bob-cli-q4.5](bob-cli-q4.5.md) | 0 |

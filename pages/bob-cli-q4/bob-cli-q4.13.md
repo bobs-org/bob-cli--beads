@@ -18,7 +18,7 @@ acceptance: a fixture-level end-to-end suite where every wired gesture and write
 - **Depends on:** [bob-cli-q4.11](bob-cli-q4.11.md) ◐ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.12](bob-cli-q4.12.md) ◐ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.2](bob-cli-q4.2.md) ✓ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-q4.3](bob-cli-q4.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q4.3](bob-cli-q4.3.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.4](bob-cli-q4.4.md) ◐ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.5](bob-cli-q4.5.md) ◐ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.6](bob-cli-q4.6.md) ◐ · ⧖ 2026-11-25
