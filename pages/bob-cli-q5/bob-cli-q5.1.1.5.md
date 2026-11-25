@@ -13,7 +13,7 @@ writer-audit: audit Rust ledger writers against a trailing Snoozed section, addi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.1.1.4](bob-cli-q5.1.1.4.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.1.1.4](bob-cli-q5.1.1.4.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

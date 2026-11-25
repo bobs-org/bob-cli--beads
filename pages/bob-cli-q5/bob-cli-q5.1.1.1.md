@@ -42,11 +42,13 @@ row-model: build src/native/snooze parsing, injected zoned time grammar, resolve
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.7.1.land--2][1] | Match the just check library and CLI target failures to existing baseline triage | 1 |
-| read-by | [agent:bob-cli-q5.1.1.1][2] | Need full bead notes and remaining work | 2 |
-| read-by | [agent:bob-cli-q5.1.1.2][3] | Need prior phase notes on just-check failures and wispr_summary follow-up | 2 |
+| read-by | [agent:bob-cli-q4.9.1.3][2] | Need whether the known just-check REQUIREMENTS/wispr failures already have a tracker to cite | 1 |
+| read-by | [agent:bob-cli-q5.1.1.1][3] | Need full bead notes and remaining work | 2 |
+| read-by | [agent:bob-cli-q5.1.1.2][4] | Need prior phase notes on just-check failures and wispr_summary follow-up | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.1/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
 
 <!-- sase:referenced-by:end -->
