@@ -23,6 +23,10 @@
 
 Complete bob-cli-pl.6 with contract-driven settings, safe set and clear actions, project task handoffs, and verified entry points in the existing Property Editor.
 
+## Notes
+
+[2026-11-25T03:26:23Z · bob-cli-pw.5.1.land] DISCOVERED ISSUE: Landing bob-cli-pw.5.1 triage of phase bob-cli-pw.5.1.4 note #1 independently measured docs/reference/json-outputs.md with bob_docs.markdown.count_words: 447ef1a5^ = 6000, 447ef1a5 = 6005. Phase bob-cli-pl.6.1.1 settings-contract row added the 5 words crossing the 6000 cap. Current meeting CLI e4c96b05 adds another 25 (6030). No duplicate task after all-status search and last-week CI sweep. The meeting landing repair tale will trim the shared page below the cap while preserving both contracts, so do not duplicate that edit; this note records causal ownership and planned integration.
+
 ## Agents
 
 | Agent | Bead | Commits |

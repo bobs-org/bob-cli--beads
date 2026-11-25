@@ -19,7 +19,7 @@ preview-contract: expose the candidate contract in successful update JSON, docum
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pl.6.1.2](bob-cli-pl.6.1.2.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pl.6.1.2](bob-cli-pl.6.1.2.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
