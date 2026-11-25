@@ -24,19 +24,13 @@ drawer-editor-wire: implement expand_drawer_marker through hypothetical parser a
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.6.1.3](bob-cli-ph.6.1.3.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-ph.6.1.5](bob-cli-ph.6.1.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.6.1.5](bob-cli-ph.6.1.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.4/README.md) | [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`dfc7fac`](https://github.com/bobs-org/bob-cli/commit/dfc7facb18ded459c5471372a65731a543e5f1f7) | feat(capture): wire drawer editor rewrite markers through JSON and previews | [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) | 2026-11-25 15:51:26 EST |
+| [bbugyi200.apollo.bob-cli-ph.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.4/README.md) | [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
