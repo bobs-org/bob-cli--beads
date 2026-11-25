@@ -30,4 +30,10 @@ link-settle: tier-1 settle on block-id-prompt's Ctrl+Shift+Enter target writes a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b68f447`](https://github.com/bobs-org/bob-plugins/commit/b68f447af4b870da8b130e007db34b24050c18fd) | feat(block-id-prompt): settle Ctrl+Shift+Enter target writes via taskSettle v1 | [bob-cli-q4.11](bob-cli-q4.11.md) | 2026-11-25 15:19:16 EST |
