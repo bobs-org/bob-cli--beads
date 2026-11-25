@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-pw.8.1](bob-cli-pw.8.1.md) / bob-cli-pw.8.1.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.md) · **Assignee:** `bob-cli-pw.8.1.1` · **Size:** medium
-**Created:** 2026-11-24 23:55:02 EST
+**Created:** 2026-11-24 23:55:02 EST · **Closed:** 2026-11-25 02:23:33 EST
 **Plan:** [202611/mac\_meeting\_notes.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_meeting_notes.md)
 
 ## Description
@@ -14,6 +14,10 @@ meet-protocol: add the ref meet response models, guarded clipboard preview/file 
 ## Notes
 
 [2026-11-25T05:25:04Z · bob-cli-pw.8.1.1] PROPOSED FOLLOW-UP: Bring the docs lint budgets back under their caps — just docs-check failed on this run at docs/protocol.md (6308/6000 words; clean-base 7d369ae8 already measured 6015/6000) and unchanged docs/develop/plugins/plugin-apis.md (9287/8000); no matching documentation-budget bead was found.
+
+[2026-11-25T07:22:27Z · bob-cli-pw.8.1.1--4] Verification evidence (2026-11-25): `just portable-check` on athena at clean-base SHA 7d369ae870a9b1fdc7b29654b08ef5171e2ccafb passed (exit 0; 0 failing cases). The same command on candidate SHA 36b3e4aa4c67c8fa51f3873449de32d71b9bec70 passed (exit 0; 0 failing cases); failure sets were identical and MeetingNotesSessionTests passed. `Scripts/macos-ci-check` passed exact snapshot SHA fb8f048fc87b0146f194c5ebf1321d03bf98e310; CI run https://github.com/bobs-org/bob-mac-capture/actions/runs/45563920611, all required macOS checks green. The wrapper /tmp/bob-cli-pw-8-1-1-gates.sh exited 1 only because its final stale guard requires both portable-check statuses to be nonzero despite both succeeding; the failure-set comparison, named-suite check, and exact-SHA CI all passed. The clean-base docs-budget PROPOSED FOLLOW-UP was already recorded in note #1.
+
+[2026-11-25T07:23:33Z · bob-cli-pw.8.1.1--4] Portable failure sets match with MeetingNotesSessionTests passing; exact-SHA macOS CI is green. Detailed SHAs, commands, and CI URL are in the verification note.
 
 ## Dependencies
 
@@ -42,6 +46,7 @@ meet-protocol: add the ref meet response models, guarded clipboard preview/file 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pw.8.1.1--1][1] | Need phase scope, decisions, and prior notes before continuing verification | 1 |
 | read-by | [agent:bob-cli-pw.8.1.1--2][1] | Need assigned phase scope and closure rules before repairing and updating evidence | 1 |
+| read-by | [agent:bob-cli-pw.8.1.1--3][1] | Need assigned phase instructions before deciding scope or closure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.1.md
 

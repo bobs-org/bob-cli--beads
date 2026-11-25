@@ -67,7 +67,7 @@ flowchart TD
     n12["bob-cli-pw.7: Obsidian surfaces for meeting notes [closed]"]
     n13["bob-cli-pw.8: Bob Mac Capture meeting-notes mode and Meetings kind [in_progress]"]
     n14["bob-cli-pw.8.1: Mac meeting notes filing and Meetings library scope [in_progress]"]
-    n15["bob-cli-pw.8.1.1: Meeting notes JSON client and portable session [in_progress]"]
+    n15["bob-cli-pw.8.1.1: Meeting notes JSON client and portable session [closed]"]
     n16["bob-cli-pw.8.1.2: First-class Meetings kind in Bob Refs [closed]"]
     n17["bob-cli-pw.8.1.3: Meeting Notes sheet and agenda entry points [in_progress]"]
     n0 --> n1
@@ -121,7 +121,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.1.md) | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 4 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.2.md) | [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pw.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8.1.3/README.md) | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.3.md) | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8.1.land/README.md) | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.land/README.md) | [bob-cli-pw](README.md) | 0 |
 
@@ -145,6 +145,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@1dea9a7`](https://github.com/bobs-org/bob-mac-capture/commit/1dea9a716eef3795715c62aa1a4dc5c54d18c93f) | test(capture): assert cancellation on leave | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 2026-11-25 00:42:32 EST |
 | bob-mac-capture | [`bob-mac-capture@b693bf5`](https://github.com/bobs-org/bob-mac-capture/commit/b693bf56fdd706774dc6fd154ad7d8471bb95c29) | fix(tests): preserve existing fake ref commands | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 2026-11-25 01:17:09 EST |
 | bob-mac-capture | [`bob-mac-capture@36b3e4a`](https://github.com/bobs-org/bob-mac-capture/commit/36b3e4aa4c67c8fa51f3873449de32d71b9bec70) | test(refs): correct restored query expectation | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 2026-11-25 01:48:07 EST |
+| bob-cli | [`bcf0566`](https://github.com/bobs-org/bob-cli/commit/bcf0566ba90212b9198d38c69da96a00cba9ce78) | docs(guides): link Mac Capture meeting notes flow from filing guide | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 2026-11-25 02:45:27 EST |
 
 <!-- sase:referenced-by:start -->
 
