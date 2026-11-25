@@ -7,6 +7,18 @@
 **Created:** 2026-11-25 12:49:32 EST
 **Plan:** [202611/bank\_property\_card\_fold.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_property_card_fold.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:1b2923bd61f38ece409aac18 | attached via sase artifact create --bead |
+| related | file:explicit:584357fd5217b2cf25553314 | attached via sase artifact create --bead |
+| related | file:explicit:8cb18931c93e107b0e3fe289 | attached via sase artifact create --bead |
+
+<!-- sase:links:end -->
+
 ## Description
 
 bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q coordinator, acquire and release ownership from the bank host, promote the bank-native e2e to full takeover verification, flip docs, and apply the decision-gated glossary corrections.
@@ -26,7 +38,7 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 3 |
 
 ## Commits
 
@@ -34,3 +46,4 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 |---|---|---|---|---|
 | bob-cli | [`1ca74ec`](https://github.com/bobs-org/bob-cli/commit/1ca74ece68165cc6fc07af59fe4e2bedf7519f4f) | docs(bank): document evidence-gated Properties | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:24:50 EST |
 | bob-plugins | [`bob-plugins@b2e6ea1`](https://github.com/bobs-org/bob-plugins/commit/b2e6ea1f02e1510df1c8dece7e034c32adf2101e) | feat(property-card): gate Properties takeover on evidence | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:29:15 EST |
+| bob-plugins | [`bob-plugins@4c32842`](https://github.com/bobs-org/bob-plugins/commit/4c328428bcfbcde8943088347c04100cec78860b) | test(frontmatter): correct bank takeover matrix expectations | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:55:00 EST |

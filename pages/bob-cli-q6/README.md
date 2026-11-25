@@ -30,7 +30,7 @@ The bank card on bank.md owns the note top as a title-slot property card whose S
 | [bob-cli-q6.1](bob-cli-q6.1.md) | Shared fold kit, the \`\_\` key, the command, and album Schema | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q6.2](bob-cli-q6.2.md) | Setup collapses by default and the folded card stays honest | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q6.3](bob-cli-q6.3.md) | The bank card moves into the title slot and owns the title | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q6.4](bob-cli-q6.4.md) | Hide native Properties on bank.md behind the fail-open gate | ◐ in_progress | medium | 2026-11-25 | 1 | 2 |
+| [bob-cli-q6.4](bob-cli-q6.4.md) | Hide native Properties on bank.md behind the fail-open gate | ◐ in_progress | medium | 2026-11-25 | 1 | 3 |
 | [bob-cli-q6.5](bob-cli-q6.5.md) | The \`\_\` key reaches record, area, and project folds | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q6.6](bob-cli-q6.6.md) | Area strip, screenshot review, and passive-rendering proof | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
 
@@ -66,7 +66,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.1.md) | [bob-cli-q6.1](bob-cli-q6.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-q6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.2/README.md) | [bob-cli-q6.2](bob-cli-q6.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.3/README.md) | [bob-cli-q6.3](bob-cli-q6.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 3 |
 | [bbugyi200.athena.bob-cli-q6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.5/README.md) | [bob-cli-q6.5](bob-cli-q6.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.6/README.md) | [bob-cli-q6.6](bob-cli-q6.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.land/README.md) | [bob-cli-q6](README.md) | 0 |
@@ -82,3 +82,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7d53d18`](https://github.com/bobs-org/bob-plugins/commit/7d53d18912f386472f9d87f00d32c6d38111ab93) | feat(bank): bank card owns note top with kit title block | [bob-cli-q6.3](bob-cli-q6.3.md) | 2026-11-25 17:15:17 EST |
 | bob-cli | [`1ca74ec`](https://github.com/bobs-org/bob-cli/commit/1ca74ece68165cc6fc07af59fe4e2bedf7519f4f) | docs(bank): document evidence-gated Properties | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:24:50 EST |
 | bob-plugins | [`bob-plugins@b2e6ea1`](https://github.com/bobs-org/bob-plugins/commit/b2e6ea1f02e1510df1c8dece7e034c32adf2101e) | feat(property-card): gate Properties takeover on evidence | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:29:15 EST |
+| bob-plugins | [`bob-plugins@4c32842`](https://github.com/bobs-org/bob-plugins/commit/4c328428bcfbcde8943088347c04100cec78860b) | test(frontmatter): correct bank takeover matrix expectations | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:55:00 EST |
