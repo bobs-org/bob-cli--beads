@@ -13,7 +13,7 @@ replacement: wire meeting overwrite into the existing recapture/overwrite transa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pw.5.1.2](bob-cli-pw.5.1.2.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.5.1.2](bob-cli-pw.5.1.2.md) ✓ · ⧖ 2026-11-24
 - **Blocks:** [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) ◐ · ⧖ 2026-11-24
 
 ## Agents
