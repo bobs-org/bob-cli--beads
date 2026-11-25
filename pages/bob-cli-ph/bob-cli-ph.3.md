@@ -55,7 +55,7 @@ The broader PROPOSED FOLLOW-UP/land-agent deadlock and permanent CI run-discover
 
 - **Depends on:** [bob-cli-ph.1](bob-cli-ph.1.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.2](bob-cli-ph.2.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-ph.4](bob-cli-ph.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.4](bob-cli-ph.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -76,10 +76,12 @@ The broader PROPOSED FOLLOW-UP/land-agent deadlock and permanent CI run-discover
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:fy--5][1] | Inspect existing rollout evidence before final props unblock note | 1 |
-| read-by | [agent:g1][2] | Understand the release gate blocking the epic | 1 |
+| read-by | [agent:bob-cli-ph.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:fy--5][2] | Inspect existing rollout evidence before final props unblock note | 1 |
+| read-by | [agent:g1][3] | Understand the release gate blocking the epic | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.fy.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.fy.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

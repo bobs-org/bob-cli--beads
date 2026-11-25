@@ -13,7 +13,7 @@ drawer-rename: `bob task rename-drawer` writes NEW verbatim, allows case-only re
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.9](bob-cli-ph.9.md) ◐ · ⧖ 2026-11-22
 
 ## Agents
