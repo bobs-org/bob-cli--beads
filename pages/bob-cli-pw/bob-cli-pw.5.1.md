@@ -39,13 +39,14 @@ Lander dispositions: (1) bob-cli-pw.5.1.3 note #1 `useless_format` already fixed
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pw.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.5.1.land.md) | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pw.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.5.1.land.md) | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`28e2388`](https://github.com/bobs-org/bob-cli/commit/28e2388646c80a47c748fda3c816a2fe2ff63235) | fix(ref): land remaining bob ref meet CLI repairs | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 2026-11-24 23:47:38 EST |
+| bob-cli--plans | [`bob-cli--plans@469a5b5`](https://github.com/bobs-org/bob-cli--plans/commit/469a5b530f24bb5795c2e6cea7c2f85dc5d7e98b) | docs(plan): mark ref\_meet\_cli epic plan done | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 2026-11-24 23:49:13 EST |
 
 <!-- sase:referenced-by:start -->
 
