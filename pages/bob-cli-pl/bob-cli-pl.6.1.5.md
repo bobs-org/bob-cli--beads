@@ -13,7 +13,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

@@ -22,7 +22,7 @@ setting-actions: add the five simple controls, temporary generic stages, typed s
 ## Dependencies
 
 - **Depends on:** [bob-cli-pl.6.1.2](bob-cli-pl.6.1.2.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
@@ -35,3 +35,15 @@ setting-actions: add the five simple controls, temporary generic stages, typed s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@e1a4d1c`](https://github.com/bobs-org/bob-plugins/commit/e1a4d1cff0dc1e77d2be07f19ac0b39862db88d6) | feat(props): add Property Editor setting stages and clear-to-inherit | [bob-cli-pl.6.1.3](bob-cli-pl.6.1.3.md) | 2026-11-25 06:15:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.6.1.3][1] | Need the phase scope, design file, notes, and epic DECISIONS | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md
+
+<!-- sase:referenced-by:end -->

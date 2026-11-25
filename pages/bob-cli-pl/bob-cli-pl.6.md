@@ -30,8 +30,10 @@ editor-settings: add the AREA/PROJECT SETTINGS group with ghost rows and clear-t
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:fx][1] | Map the pl epic dependency graph | 1 |
+| read-by | [agent:bob-cli-pl.6.1.3][1] | Need enclosing epic DECISIONS for area/project settings | 1 |
+| read-by | [agent:fx][2] | Map the pl epic dependency graph | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

@@ -46,7 +46,9 @@ settings-rows: add a per-kind row provider, render stable settings and project v
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.6.1.2--1][1] | Need the assigned phase scope, decisions, and current notes before fixing the failed verification | 1 |
 | read-by | [agent:bob-cli-pl.6.1.2--3][1] | Review assigned phase scope and existing verification notes before fixing failures | 1 |
+| read-by | [agent:bob-cli-pl.6.1.3][2] | Need what settings-rows landed so this phase does not redo it | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md
 
 <!-- sase:referenced-by:end -->
