@@ -43,7 +43,9 @@ settle-core: extract reconcile's note-local subset (the local future-schedule Bl
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.3--1][1] | Need the phase scope, design file, notes, and decisions before completing verification | 1 |
+| read-by | [agent:bob-cli-q4.7][2] | check settle-core deliverable | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.3.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md
 
 <!-- sase:referenced-by:end -->

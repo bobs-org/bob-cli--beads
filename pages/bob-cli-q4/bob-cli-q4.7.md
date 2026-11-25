@@ -31,10 +31,16 @@ command-settle: compose the settle helper into `bob task move`, `split`, `merge`
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md) | [bob-cli-q4.7](bob-cli-q4.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-q4.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md) | [bob-cli-q4.7](bob-cli-q4.7.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`08a708d`](https://github.com/bobs-org/bob-cli/commit/08a708d3354c1fe110ce4038f41697bdbaffd399) | feat(settle): command writers settle notes before staging | [bob-cli-q4.7](bob-cli-q4.7.md) | 2026-11-25 12:07:37 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.7][1] | Need full bead incl notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md
+
+<!-- sase:referenced-by:end -->

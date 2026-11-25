@@ -28,7 +28,13 @@ editor-apply: add Tasks classification and daily-path adapters plus the synchron
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.2/README.md) | [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.2/README.md) | [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@f764a4b`](https://github.com/bobs-org/bob-plugins/commit/f764a4bef9faf584cd394343eb5f2ad281d36daa) | feat(ledger-tools): add guarded task-settle editor apply and stay cursor | [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) | 2026-11-25 11:35:55 EST |
 
 <!-- sase:referenced-by:start -->
 
