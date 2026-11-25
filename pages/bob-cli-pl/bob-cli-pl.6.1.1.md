@@ -40,7 +40,9 @@ preview-contract: expose the candidate contract in successful update JSON, docum
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.6.1.1--1][1] | Need phase status, notes, and whether close already happened | 1 |
+| read-by | [agent:bob-cli-pl.6.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md
 
 <!-- sase:referenced-by:end -->

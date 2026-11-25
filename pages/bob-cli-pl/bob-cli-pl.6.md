@@ -20,7 +20,7 @@ editor-settings: add the AREA/PROJECT SETTINGS group with ghost rows and clear-t
 - **Depends on:** [bob-cli-pl.3](bob-cli-pl.3.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-pl.4](bob-cli-pl.4.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.7](bob-cli-pl.7.md) ◐ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-pl.8](bob-cli-pl.8.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-pl.8](bob-cli-pl.8.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -35,9 +35,11 @@ editor-settings: add the AREA/PROJECT SETTINGS group with ghost rows and clear-t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.6.1.3][1] | Need enclosing epic DECISIONS for area/project settings | 1 |
-| read-by | [agent:fx][2] | Map the pl epic dependency graph | 1 |
+| read-by | [agent:bob-cli-pl.6.1.land][2] | Confirm the parent phase closed with the child epic | 2 |
+| read-by | [agent:fx][3] | Map the pl epic dependency graph | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

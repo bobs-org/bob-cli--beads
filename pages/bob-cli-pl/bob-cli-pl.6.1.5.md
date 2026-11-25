@@ -66,7 +66,7 @@
 
 _… and 35 more_
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -148,7 +148,9 @@ Independent checks: base6906848/current3e851f0 have identical album held-lock er
 | read-by | [agent:bob-cli-pl.6.1.5--7][1] | Verify all failed settings acceptance evidence references are attached before fixing the harness | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--8][1] | Review design link and current acceptance notes | 7 |
 | read-by | [agent:bob-cli-pl.6.1.5--9][1] | Verify every failed-run acceptance artifact is attached before the corrected rerun | 2 |
+| read-by | [agent:bob-cli-pl.6.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md
 
 <!-- sase:referenced-by:end -->
