@@ -30,3 +30,15 @@ cycle-settle: schedule single and counted cycles once per gesture, flush other c
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6d36434`](https://github.com/bobs-org/bob-plugins/commit/6d364347bcfcfcd7475e5e7a0a8684106cb28453) | feat(task-status-cycler): settle cycle bursts | [bob-cli-q4.9.1.4](bob-cli-q4.9.1.4.md) | 2026-11-25 17:09:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.9.1.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.4/README.md
+
+<!-- sase:referenced-by:end -->
