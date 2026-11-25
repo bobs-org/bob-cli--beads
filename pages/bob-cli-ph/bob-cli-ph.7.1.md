@@ -37,13 +37,14 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6906848`](https://github.com/bobs-org/bob-plugins/commit/6906848059293c497d371d032c28555f10f7ab12) | fix(drawers): preserve title bytes and strengthen landing regressions | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 13:49:42 EST |
+| bob-plugins | [`bob-plugins@e5d3d6e`](https://github.com/bobs-org/bob-plugins/commit/e5d3d6e0df8551d668feba24fc9296388be58a80) | test(drawers): capture Obsidian visual diagnostics | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 14:08:42 EST |
 
 <!-- sase:referenced-by:start -->
 

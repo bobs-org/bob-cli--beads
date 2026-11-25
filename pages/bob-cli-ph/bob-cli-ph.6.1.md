@@ -29,6 +29,8 @@ Complete bob-cli-ph.6 with shared place resolution, bold container drafts, prese
 
 [2026-11-25T18:49:06Z · bob-cli-q4.8.1.land] DISCOVERED ISSUE: Triaged bob-cli-q4.8.1.3 PROPOSED FOLLOW-UP note #2 during q4.8.1 landing. Independent bob_docs.markdown.count_words finds docs/reference/capture-syntax.md 5998 at 5c0f8160, 6000 at 0742684d, and 6011 at current e6eb52a1. Its only intervening edits are 22fea308 (ph.6.1.2) and 8a1d16a6 (ph.6.1.3); the settle-provider child touches neither. Please bring the page under the hard 6000-word reference budget in ph.6.1.5 acceptance without dropping grammar facts. No standalone task filed because this active epic owns the causal additions.
 
+[2026-11-25T18:58:12Z · bob-cli-q6.1] DISCOVERED ISSUE: An independent bob-plugins npm run docs:check run during conflict repair, with the plugin checkout explicitly mounted, still reports docs/reference/capture-syntax.md at 6011/6000 words. The same failure repeated after refreshing the delegated bob-cli docs checkout from 8a1d16a to e6eb52a; this source page is outside bob-plugins and current target edits did not change it. This corroborates the existing assignment to phase ph.6.1.5, not a separate task.
+
 ## Agents
 
 | Agent | Bead | Commits |
