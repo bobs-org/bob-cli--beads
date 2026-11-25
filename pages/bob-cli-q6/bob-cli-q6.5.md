@@ -13,7 +13,7 @@ fold-family: register record, area, and project folds with the kit (look per fam
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q6.1](bob-cli-q6.1.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q6.1](bob-cli-q6.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q6.6](bob-cli-q6.6.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
