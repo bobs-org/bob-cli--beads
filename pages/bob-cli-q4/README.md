@@ -58,7 +58,7 @@ flowchart TD
     n2["bob-cli-q4.10: Navigation gestures settle both notes they write [in_progress]"]
     n3["bob-cli-q4.10.1: Navigation gestures settle their written notes [in_progress]"]
     n4["bob-cli-q4.10.1.1: Navigation settle adapter, command flush, and identity mapping [closed]"]
-    n5["bob-cli-q4.10.1.2: Lane, cancel, freshness, and decay answers settle atomically [in_progress]"]
+    n5["bob-cli-q4.10.1.2: Lane, cancel, freshness, and decay answers settle atomically [closed]"]
     n6["bob-cli-q4.10.1.3: Task, schedule, priority, and quick-roll commits settle [in_progress]"]
     n7["bob-cli-q4.10.1.4: Task moves and splits settle every written note [in_progress]"]
     n8["bob-cli-q4.10.1.5: Status-changing dependency and relation writes settle safely [in_progress]"]
@@ -81,7 +81,7 @@ flowchart TD
     n25["bob-cli-q4.9.1: Settle cycler gestures without moving rapid-cycle targets [in_progress]"]
     n26["bob-cli-q4.9.1.1: Guarded cycler bridge and observable pending outcomes [closed]"]
     n27["bob-cli-q4.9.1.2: Settle local and transcluded closes before walk continuation [closed]"]
-    n28["bob-cli-q4.9.1.3: Settle promotion and committed open-line scaffolds [in_progress]"]
+    n28["bob-cli-q4.9.1.3: Settle promotion and committed open-line scaffolds [closed]"]
     n29["bob-cli-q4.9.1.4: Settle cycle bursts and verify the integrated gesture contract [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -178,7 +178,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.md) | [bob-cli-q4.9](bob-cli-q4.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md) | [bob-cli-q4.9.1.1](bob-cli-q4.9.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.2/README.md) | [bob-cli-q4.9.1.2](bob-cli-q4.9.1.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md) | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md) | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.4/README.md) | [bob-cli-q4.9.1.4](bob-cli-q4.9.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.land/README.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.land/README.md) | [bob-cli-q4](README.md) | 0 |
@@ -209,6 +209,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9991e67`](https://github.com/bobs-org/bob-plugins/commit/9991e674d4dd95421afc8d2461dd0d5bc491b094) | feat(nav): settle lane and freshness answers atomically | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2026-11-25 15:50:18 EST |
 | bob-plugins | [`bob-plugins@77bb466`](https://github.com/bobs-org/bob-plugins/commit/77bb466ec78741f88b439edcb31751cf199745c4) | feat(task-status-cycler): settle local and transcluded closes before walk continuation | [bob-cli-q4.9.1.2](bob-cli-q4.9.1.2.md) | 2026-11-25 15:50:29 EST |
 | bob-plugins | [`bob-plugins@580ff19`](https://github.com/bobs-org/bob-plugins/commit/580ff19d77d0e0314bd3659a94284aff9af49cb9) | feat(navigation): settle freshness gestures | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2026-11-25 15:56:52 EST |
+| bob-plugins | [`bob-plugins@1c2534c`](https://github.com/bobs-org/bob-plugins/commit/1c2534cc3ac5b3cfa6d86cf2d48ef213ee9b5805) | feat(task-status-cycler): settle promote/demote writes and nonempty o/O scaffolds | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 2026-11-25 16:30:17 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ cycle-settle: schedule single and counted cycles once per gesture, flush other c
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

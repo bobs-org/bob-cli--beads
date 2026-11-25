@@ -30,7 +30,7 @@ Verified: npm test (9572 pass / 4 skip / 0 fail + 26 perf); 22 new adapter/comma
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
