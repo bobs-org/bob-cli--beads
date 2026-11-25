@@ -11,6 +11,10 @@
 
 capture-drawers: one place resolver for drawers, project sections, and notebook sections; bold draft forms in all four container contexts; `drawer_marker` spans, `**Title**` menu rows, preview drawer annotations, the `*` rewrite, catalog spelling preference, and grammar 30.
 
+## Notes
+
+[2026-11-25T13:38:01Z · bob-cli-ph.6] Planned remaining capture work as a five-phase child epic: shared place resolver, bold draft families, title/catalog/completion rules, editor rewrite and preview wire, then acceptance/docs. Existing bold writers are already present at 8f88a52c; no source implementation was changed in this planning turn. The child land agent must verify and close this phase only after all acceptance checks. The plan passed strict validation with zero warnings; submitting it through sase plan propose.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ✓ · ⧖ 2026-11-22
@@ -21,7 +25,7 @@ capture-drawers: one place resolver for drawers, project sections, and notebook 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6/README.md) | [bob-cli-ph.6](bob-cli-ph.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.6.md) | [bob-cli-ph.6](bob-cli-ph.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

@@ -42,8 +42,10 @@ bob-writers: every bob-cli writer creates `- **Title**` and `- **Notes**` header
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:g1][1] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:g1][2] | Check whether phase is blocked on the release gate | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

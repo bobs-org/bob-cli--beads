@@ -11,6 +11,10 @@
 
 drawer-rename: `bob task rename-drawer` writes NEW verbatim, allows case-only respelling, and gains a read-only legacy inventory for the migration.
 
+## Notes
+
+[2026-11-25T14:26:18Z · bob-cli-ph.5] PROPOSED FOLLOW-UP: docs-check plugin page budgets — docs/reference/plugins/bob-navigation-hotkeys.md is 46 words over its 6000-word cap and docs/develop/plugins/plugin-apis.md warns at 9287/8000; both reproduce identically on clean HEAD.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ✓ · ⧖ 2026-11-22
@@ -20,7 +24,13 @@ drawer-rename: `bob task rename-drawer` writes NEW verbatim, allows case-only re
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.5/README.md) | [bob-cli-ph.5](bob-cli-ph.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.5.md) | [bob-cli-ph.5](bob-cli-ph.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ae42b3e`](https://github.com/bobs-org/bob-cli/commit/ae42b3ed2a48ddc218021262c0fdd3fc791d99a1) | feat(task-drawers): preserve rename spelling and inventory legacy drawers | [bob-cli-ph.5](bob-cli-ph.5.md) | 2026-11-25 09:29:31 EST |
 
 <!-- sase:referenced-by:start -->
 
