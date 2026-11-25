@@ -46,6 +46,11 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 - file:explicit:dd053632f1ae33b646f71e15
 - file:explicit:e66c8c4d308eb70022271092
 - file:explicit:feac1be20bb6aa1d6571c489
+- file:explicit:22401646d913918cad305ac5
+- file:explicit:42000cab6117ad14d45cbcd9
+- file:explicit:c9eb02d67786acc3f37bc5d3
+- file:explicit:b4eb9c7bdacd8f1c4adca9fa
+- file:explicit:d3609bf8b5367af587438fe8
 
 ## Agents
 

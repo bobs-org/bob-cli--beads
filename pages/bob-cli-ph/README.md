@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.3/README.md) | [bob-cli-ph.6.1.3](bob-cli-ph.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.4/README.md) | [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.6.1.5.md) | [bob-cli-ph.6.1.5](bob-cli-ph.6.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ph.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.land/README.md) | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.land/README.md) | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.md) | [bob-cli-ph.7](bob-cli-ph.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.1/README.md) | [bob-cli-ph.7.1.1](bob-cli-ph.7.1.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.2.md) | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 0 |
@@ -171,6 +171,7 @@ flowchart TD
 | bob-cli | [`dfc7fac`](https://github.com/bobs-org/bob-cli/commit/dfc7facb18ded459c5471372a65731a543e5f1f7) | feat(capture): wire drawer editor rewrite markers through JSON and previews | [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) | 2026-11-25 15:51:26 EST |
 | bob-cli | [`d67a5b7`](https://github.com/bobs-org/bob-cli/commit/d67a5b7b8135af40ba8f345e90cb9a12f3fe0812) | docs(capture): complete drawer contract references | [bob-cli-ph.6.1.5](bob-cli-ph.6.1.5.md) | 2026-11-25 16:19:55 EST |
 | bob-cli | [`2d2f200`](https://github.com/bobs-org/bob-cli/commit/2d2f200dfdbdce64c6ff685b0df5366e510e32f0) | feat(capture)!: land true-case drawers with one reserved-name rule | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2026-11-25 18:25:58 EST |
+| bob-cli--plans | [`bob-cli--plans@5d3da5e`](https://github.com/bobs-org/bob-cli--plans/commit/5d3da5e0e76637aea0e969935c58ed7da97e1192) | chore(plans): mark capture\_true\_case\_drawers done | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2026-11-25 18:27:16 EST |
 
 <!-- sase:referenced-by:start -->
 

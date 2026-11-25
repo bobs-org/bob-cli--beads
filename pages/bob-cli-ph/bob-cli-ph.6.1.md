@@ -47,13 +47,14 @@ FOLLOW-UP TRIAGE: ph.6.1.2 #1, ph.6.1.3 #2, ph.6.1.4 #3 (plugin pages) and ph.6.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.land/README.md) | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.land/README.md) | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2d2f200`](https://github.com/bobs-org/bob-cli/commit/2d2f200dfdbdce64c6ff685b0df5366e510e32f0) | feat(capture)!: land true-case drawers with one reserved-name rule | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2026-11-25 18:25:58 EST |
+| bob-cli--plans | [`bob-cli--plans@5d3da5e`](https://github.com/bobs-org/bob-cli--plans/commit/5d3da5e0e76637aea0e969935c58ed7da97e1192) | chore(plans): mark capture\_true\_case\_drawers done | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2026-11-25 18:27:16 EST |
 
 <!-- sase:referenced-by:start -->
 
