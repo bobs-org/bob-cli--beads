@@ -39,3 +39,19 @@ mutation-planners: implement pure add/drop/wake plans, identity-based subtree mo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`e6eb52a`](https://github.com/bobs-org/bob-cli/commit/e6eb52a103656add99a1a49f2f0b3d791536abc4) | feat(snooze): add pure add, drop, and never-running wake planners | [bob-cli-q5.1.1.2](bob-cli-q5.1.1.2.md) | 2026-11-25 13:38:56 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ph.7.1.land--2][1] | Match the just check library and CLI target failures to existing baseline triage | 1 |
+| read-by | [agent:bob-cli-q4.9.1.1][2] | Check whether just-check CLI grouping failures are already tracked | 1 |
+| read-by | [agent:bob-cli-q5.1.1.2][3] | Need DECISIONS, notes, and remaining work from earlier agents | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->
