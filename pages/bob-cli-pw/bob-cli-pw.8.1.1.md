@@ -21,7 +21,7 @@ meet-protocol: add the ref meet response models, guarded clipboard preview/file 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
