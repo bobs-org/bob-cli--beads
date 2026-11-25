@@ -22,13 +22,19 @@ drawer-typing: add scoped star expansion, Enter, overtype, atomic Backspace, und
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md) | [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md) | [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@8d3c555`](https://github.com/bobs-org/bob-plugins/commit/8d3c555c61041065281b74259086b82633719c47) | feat(task-status-cycler): add drawer marker typing and Toggle Drawer | [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) | 2026-11-25 11:21:53 EST |
 
 <!-- sase:referenced-by:start -->
 

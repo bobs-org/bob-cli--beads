@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/true_case_drawers.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-pp][2] | True-case drawers' Mac phase (ph.8) adds drawer rendering in the same editor; it deliberately never hides drawer markers to avoid the req caret defect |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-pp/README.md
@@ -42,7 +42,7 @@ A task drawer is a `- **Title**` bullet whose title keeps its authored capitaliz
 | [bob-cli-ph.1](bob-cli-ph.1.md) | Dual-read drawer recognizer, readers, and outside-text escape | ✓ closed | large | 2026-11-22 | 1 | 2 |
 | [bob-cli-ph.10](bob-cli-ph.10.md) | Retire ALL-CAPS drawer recognition | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
 | [bob-cli-ph.11](bob-cli-ph.11.md) | Memory records for true-case drawers | ◐ in_progress | small | 2026-11-22 | 1 | 0 |
-| [bob-cli-ph.2](bob-cli-ph.2.md) | One plugin recognizer twin and dual-read plugin readers | ✓ closed | large | 2026-11-22 | 1 | 1 |
+| [bob-cli-ph.2](bob-cli-ph.2.md) | One plugin recognizer twin and dual-read plugin readers | ✓ closed | large | 2026-11-22 | 1 | 4 |
 | [bob-cli-ph.3](bob-cli-ph.3.md) | Every host reads bold drawers before any writer flips | ✓ closed | small | 2026-11-22 | 1 | 2 |
 | [bob-cli-ph.4](bob-cli-ph.4.md) | Every bob-cli writer emits bold drawer headers | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-ph.5](bob-cli-ph.5.md) | Drawer rename respells and inventories legacy drawers | ✓ closed | medium | 2026-11-22 | 1 | 1 |
@@ -75,7 +75,7 @@ flowchart TD
     n17["bob-cli-ph.7.1.1: Bold plugin writers and verbatim project conversion [closed]"]
     n18["bob-cli-ph.7.1.2: Task drawer marks in Live Preview and reading view [closed]"]
     n19["bob-cli-ph.7.1.3: Drawer marker typing and Toggle Drawer [closed]"]
-    n20["bob-cli-ph.7.1.4: Real Obsidian acceptance, screenshots, and documentation [in_progress]"]
+    n20["bob-cli-ph.7.1.4: Real Obsidian acceptance, screenshots, and documentation [closed]"]
     n21["bob-cli-ph.8: Bob Mac Capture drawer rendering and typing [in_progress]"]
     n22["bob-cli-ph.9: Reviewed migration of legacy ALL-CAPS drawers [in_progress]"]
     n0 --> n1
@@ -132,7 +132,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.1.md) | [bob-cli-ph.1](bob-cli-ph.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.10/README.md) | [bob-cli-ph.10](bob-cli-ph.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.11/README.md) | [bob-cli-ph.11](bob-cli-ph.11.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ph.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.2.md) | [bob-cli-ph.2](bob-cli-ph.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.2.md) | [bob-cli-ph.2](bob-cli-ph.2.md) | 4 |
 | [bbugyi200.apollo.bob-cli-ph.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.3/README.md) | [bob-cli-ph.3](bob-cli-ph.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.4/README.md) | [bob-cli-ph.4](bob-cli-ph.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.5.md) | [bob-cli-ph.5](bob-cli-ph.5.md) | 1 |
@@ -144,10 +144,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.5/README.md) | [bob-cli-ph.6.1.5](bob-cli-ph.6.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.land/README.md) | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.md) | [bob-cli-ph.7](bob-cli-ph.7.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ph.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.1/README.md) | [bob-cli-ph.7.1.1](bob-cli-ph.7.1.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ph.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.2.md) | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ph.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md) | [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ph.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md) | [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.1/README.md) | [bob-cli-ph.7.1.1](bob-cli-ph.7.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.2.md) | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md) | [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md) | [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.land/README.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8/README.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.9/README.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
@@ -160,12 +160,21 @@ flowchart TD
 | bob-cli | [`37b2080`](https://github.com/bobs-org/bob-cli/commit/37b2080e9efca170f542954f088ce4169d430cfa) | feat(drawers): add dual-read task drawer readers | [bob-cli-ph.1](bob-cli-ph.1.md) | 2026-11-23 08:06:21 EST |
 | bob-cli | [`c25d92f`](https://github.com/bobs-org/bob-cli/commit/c25d92fdd4e2c4073ec1a24bda34251fae8eded9) | feat(capture): add task drawer contracts and docs | [bob-cli-ph.1](bob-cli-ph.1.md) | 2026-11-23 12:14:15 EST |
 | bob-cli | [`b1fa8ad`](https://github.com/bobs-org/bob-cli/commit/b1fa8ad6de8c3818152296f7c9af7cb2ec21ed1e) | docs: document plugin task drawer reader parity | [bob-cli-ph.2](bob-cli-ph.2.md) | 2026-11-23 13:04:10 EST |
+| bob-plugins | [`bob-plugins@19ac4a3`](https://github.com/bobs-org/bob-plugins/commit/19ac4a3e4bafc2362b2b6189553dec99cfba1500) | feat: unify task drawer readers across plugins | [bob-cli-ph.2](bob-cli-ph.2.md) | 2026-11-23 13:05:47 EST |
+| bob-plugins | [`bob-plugins@6268f24`](https://github.com/bobs-org/bob-plugins/commit/6268f246c33434e1c3da94213ca5e4d76a8eccd5) | test(plugins): anchor keep-moving style assertion to picker rule | [bob-cli-ph.2](bob-cli-ph.2.md) | 2026-11-23 13:20:45 EST |
+| bob-plugins | [`bob-plugins@63e9e76`](https://github.com/bobs-org/bob-plugins/commit/63e9e7609338d91de8f592c3c134d69abd92b9ab) | test(plugins): load drawer DV/DH vectors from the cycler fixture | [bob-cli-ph.2](bob-cli-ph.2.md) | 2026-11-23 16:51:32 EST |
 | bob-cli | [`fd99ebb`](https://github.com/bobs-org/bob-cli/commit/fd99ebb85dcf0555cc48570397c419f4dd8f3167) | chore: add Bob host reader currency gate | [bob-cli-ph.3](bob-cli-ph.3.md) | 2026-11-23 18:51:04 EST |
 | bob-cli | [`5ab392a`](https://github.com/bobs-org/bob-cli/commit/5ab392a1ba087c6f87d8685035979498082079ed) | chore(dev): let bob-host-currency gate on a bold-drawer read probe | [bob-cli-ph.3](bob-cli-ph.3.md) | 2026-11-25 06:49:42 EST |
 | bob-cli | [`8f88a52`](https://github.com/bobs-org/bob-cli/commit/8f88a52c1cfc59236d6ddc4bd36ee6f11de95afd) | feat(task-drawers): emit bold drawer headers from every writer | [bob-cli-ph.4](bob-cli-ph.4.md) | 2026-11-25 08:27:23 EST |
 | bob-cli | [`ae42b3e`](https://github.com/bobs-org/bob-cli/commit/ae42b3ed2a48ddc218021262c0fdd3fc791d99a1) | feat(task-drawers): preserve rename spelling and inventory legacy drawers | [bob-cli-ph.5](bob-cli-ph.5.md) | 2026-11-25 09:29:31 EST |
+| bob-plugins | [`bob-plugins@f2e8c62`](https://github.com/bobs-org/bob-plugins/commit/f2e8c62a29464701cb097233579c156964cb4996) | feat(task-drawers)!: emit bold drawer headers and verbatim project conversion in plugins | [bob-cli-ph.7.1.1](bob-cli-ph.7.1.1.md) | 2026-11-25 09:38:13 EST |
 | bob-cli | [`45a5434`](https://github.com/bobs-org/bob-cli/commit/45a54345f59c7cefec7121ac46f61fe34ba3fbf1) | refactor(capture): extract shared place lexer and resolver | [bob-cli-ph.6.1.1](bob-cli-ph.6.1.1.md) | 2026-11-25 09:41:35 EST |
+| bob-plugins | [`bob-plugins@2796d63`](https://github.com/bobs-org/bob-plugins/commit/2796d63dc79b3c5e44d113a5b2aae4bbc2ee4ad8) | feat(drawers): add task drawer marks in Obsidian | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 2026-11-25 10:11:25 EST |
+| bob-plugins | [`bob-plugins@5ed3bd2`](https://github.com/bobs-org/bob-plugins/commit/5ed3bd22603800d8d2c73f4a2b0ddeb2b494206c) | fix(bob-ledger-tools): export task drawer helpers after initialization | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 2026-11-25 10:25:15 EST |
+| bob-plugins | [`bob-plugins@1753d73`](https://github.com/bobs-org/bob-plugins/commit/1753d730133fd125e4b32cd53bd8223efc4ff47b) | docs(bob-ledger-tools): list task drawer marks command | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 2026-11-25 10:33:52 EST |
+| bob-plugins | [`bob-plugins@8d3c555`](https://github.com/bobs-org/bob-plugins/commit/8d3c555c61041065281b74259086b82633719c47) | feat(task-status-cycler): add drawer marker typing and Toggle Drawer | [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) | 2026-11-25 11:21:53 EST |
 | bob-cli | [`22fea30`](https://github.com/bobs-org/bob-cli/commit/22fea308101c894185bc29d494c1b5bdca6dff71) | feat(capture): admit whole-bold container drafts | [bob-cli-ph.6.1.2](bob-cli-ph.6.1.2.md) | 2026-11-25 12:14:41 EST |
+| bob-cli | [`0742684`](https://github.com/bobs-org/bob-cli/commit/0742684de3390415ffb5dbb3423c0dbc841f4b3e) | docs(task-drawers): document Obsidian trays, typing, and conversion | [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) | 2026-11-25 12:51:09 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -175,22 +184,24 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
 | read-by | [agent:bob-cli-ph.4][2] | need epic decisions and notes | 1 |
-| read-by | [agent:bob-cli-pq.land][3] | Check drawer epic status for sequencing and taste pass ownership | 1 |
-| read-by | [agent:g1][4] | Research how to progress the epic without waiting for a release | 1 |
-| read-by | [agent:research.66.cdx][5] | Independent research into better-o and all-ops-reconcile-tasks; inspect referenced scope and completion | 1 |
-| read-by | [agent:research.66.cld][6] | Context for better-o / all-ops-reconcile research | 1 |
-| read-by | [agent:research.66.final][7] | Consolidating swarm research on better-o: verify drawer-epic phase states and the pn/po writer-gap beads the reports cite | 1 |
-| read-by | [agent:research.66.gem][8] | Referenced in ^better-o for ongoing drawer changes | 1 |
-| read-by | [agent:research.66.grk][9] | Need the true-case drawers epic that better-o says is still in progress | 1 |
+| read-by | [agent:bob-cli-ph.6.1.2][3] | Need ancestor epic decisions that govern the capture-drawer phase | 1 |
+| read-by | [agent:bob-cli-pq.land][4] | Check drawer epic status for sequencing and taste pass ownership | 1 |
+| read-by | [agent:g1][5] | Research how to progress the epic without waiting for a release | 1 |
+| read-by | [agent:research.66.cdx][6] | Independent research into better-o and all-ops-reconcile-tasks; inspect referenced scope and completion | 1 |
+| read-by | [agent:research.66.cld][7] | Context for better-o / all-ops-reconcile research | 1 |
+| read-by | [agent:research.66.final][8] | Consolidating swarm research on better-o: verify drawer-epic phase states and the pn/po writer-gap beads the reports cite | 1 |
+| read-by | [agent:research.66.gem][9] | Referenced in ^better-o for ongoing drawer changes | 1 |
+| read-by | [agent:research.66.grk][10] | Need the true-case drawers epic that better-o says is still in progress | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.4/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.land/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cdx/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.final/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.gem/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.land/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cdx/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.final/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.gem/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
 
 <!-- sase:referenced-by:end -->

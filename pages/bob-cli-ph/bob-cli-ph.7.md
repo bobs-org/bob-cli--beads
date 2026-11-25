@@ -20,6 +20,14 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 3. Keep Smart Enter as "child inside the drawer". o opens a sibling after the drawer's subtree; Ctrl+Shift+O / Smart Enter open a child. The three stay orthogonal.
 4. notes-key (bob-cli-q4.12, Ctrl+Shift+O) lands after ph.7 so it inherits drawer spelling from the shared helpers rather than hard-coding NOTES or **Notes** bytes.
 
+## References
+
+- file:explicit:e9988819b2a7e52753c34291
+- file:explicit:99c1ffea61076da96225acc2
+- file:explicit:a95e8a34e6fb850dac4ed7ce
+- file:explicit:d0f7de1722a08229a8ef40a4
+- file:explicit:e51daf687f9c74c956f3709f
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ✓ · ⧖ 2026-11-22
