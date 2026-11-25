@@ -35,13 +35,14 @@ Complete bob-cli-pl.6 with contract-driven settings, safe set and clear actions,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@ea3bc6a`](https://github.com/bobs-org/bob-plugins/commit/ea3bc6a42500cb93ea77f69f4e50fbd7adf44261) | fix(property-editor): keep setting notes above Save/Cancel and show Review scope once | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2026-11-25 18:11:31 EST |
+| bob-cli--plans | [`bob-cli--plans@8779f61`](https://github.com/bobs-org/bob-cli--plans/commit/8779f61ddf1e903e808d0eddde833c920a8b4a59) | chore(plans): mark area\_project\_settings plan done after bob-cli-pl.6.1 landing | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2026-11-25 18:12:32 EST |
 
 <!-- sase:referenced-by:start -->
 

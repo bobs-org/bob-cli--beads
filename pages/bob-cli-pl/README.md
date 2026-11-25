@@ -126,7 +126,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md) | [bob-cli-pl.6.1.3](bob-cli-pl.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.4/README.md) | [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
-| [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.7/README.md) | [bob-cli-pl.7](bob-cli-pl.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.8/README.md) | [bob-cli-pl.8](bob-cli-pl.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9/README.md) | [bob-cli-pl.9](bob-cli-pl.9.md) | 0 |
@@ -164,6 +164,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@fd2a290`](https://github.com/bobs-org/bob-plugins/commit/fd2a2907fdba71ee5389d73a330eef30897b3746) | test(settings): correct Obsidian fixtures and visible acceptance probes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:43:55 EST |
 | bob-plugins | [`bob-plugins@9d30502`](https://github.com/bobs-org/bob-plugins/commit/9d3050229114783c4b7647ad8a0e6fa5910d9e64) | fix(property-editor): pass settings acceptance in real Obsidian | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 17:09:12 EST |
 | bob-plugins | [`bob-plugins@ea3bc6a`](https://github.com/bobs-org/bob-plugins/commit/ea3bc6a42500cb93ea77f69f4e50fbd7adf44261) | fix(property-editor): keep setting notes above Save/Cancel and show Review scope once | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2026-11-25 18:11:31 EST |
+| bob-cli--plans | [`bob-cli--plans@8779f61`](https://github.com/bobs-org/bob-cli--plans/commit/8779f61ddf1e903e808d0eddde833c920a8b4a59) | chore(plans): mark area\_project\_settings plan done after bob-cli-pl.6.1 landing | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2026-11-25 18:12:32 EST |
 
 <!-- sase:referenced-by:start -->
 
