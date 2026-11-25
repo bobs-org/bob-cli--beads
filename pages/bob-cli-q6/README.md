@@ -1,0 +1,78 @@
+# Bead: bob-cli-q6 — Bank as a proper property card: folded Setup, hidden native Properties, and the \`\_\` fold key
+
+[Bead Pages](../README.md) / bob-cli-q6
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1g2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1g2.md) · **Assignee:** `bob-cli-q6.land`
+**Created:** 2026-11-25 12:49:31 EST
+**Plan:** [202611/bank\_property\_card\_fold.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_property_card_fold.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/bank_property_card_fold.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_property_card_fold.md
+
+<!-- sase:links:end -->
+
+## Description
+
+The bank card on bank.md owns the note top as a title-slot property card whose Setup folds by default (problems stay visible), native Obsidian Properties hide behind the fail-open coordinator, and a guarded bare `_` folds the card's own section on bank, album, record, area, and project cards.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-q6.1](bob-cli-q6.1.md) | Shared fold kit, the \`\_\` key, the command, and album Schema | ◐ in_progress | medium | 2026-11-25 | 1 | 1 |
+| [bob-cli-q6.2](bob-cli-q6.2.md) | Setup collapses by default and the folded card stays honest | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q6.3](bob-cli-q6.3.md) | The bank card moves into the title slot and owns the title | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q6.4](bob-cli-q6.4.md) | Hide native Properties on bank.md behind the fail-open gate | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q6.5](bob-cli-q6.5.md) | The \`\_\` key reaches record, area, and project folds | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q6.6](bob-cli-q6.6.md) | Area strip, screenshot review, and passive-rendering proof | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-q6: Bank as a proper property card: folded Setup, hidden native Properties, and the `_` fold key [in_progress]"]
+    n1["bob-cli-q6.1: Shared fold kit, the `_` key, the command, and album Schema [in_progress]"]
+    n2["bob-cli-q6.2: Setup collapses by default and the folded card stays honest [in_progress]"]
+    n3["bob-cli-q6.3: The bank card moves into the title slot and owns the title [in_progress]"]
+    n4["bob-cli-q6.4: Hide native Properties on bank.md behind the fail-open gate [in_progress]"]
+    n5["bob-cli-q6.5: The `_` key reaches record, area, and project folds [in_progress]"]
+    n6["bob-cli-q6.6: Area strip, screenshot review, and passive-rendering proof [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n1 -.-> n2
+    n1 -.-> n5
+    n2 -.-> n3
+    n3 -.-> n4
+    n4 -.-> n6
+    n5 -.-> n6
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-q6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.1.md) | [bob-cli-q6.1](bob-cli-q6.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.2/README.md) | [bob-cli-q6.2](bob-cli-q6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.3/README.md) | [bob-cli-q6.3](bob-cli-q6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.4/README.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.5/README.md) | [bob-cli-q6.5](bob-cli-q6.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q6.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.6/README.md) | [bob-cli-q6.6](bob-cli-q6.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q6.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.land/README.md) | [bob-cli-q6](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@1ff10aa`](https://github.com/bobs-org/bob-plugins/commit/1ff10aa40e7f0b5a1c290bbdfb1897466168fcd3) | feat(bob-ledger-tools): add shared property-card folding | [bob-cli-q6.1](bob-cli-q6.1.md) | 2026-11-25 13:59:27 EST |
