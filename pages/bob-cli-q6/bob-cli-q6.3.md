@@ -13,7 +13,7 @@ bank-title: new 248cb title mixin adopts the title slot with an emoji-splitting 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q6.2](bob-cli-q6.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q6.2](bob-cli-q6.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q6.4](bob-cli-q6.4.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

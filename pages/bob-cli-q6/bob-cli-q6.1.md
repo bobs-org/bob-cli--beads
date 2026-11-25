@@ -25,7 +25,7 @@ fold-core: add the 240s fold kit (state helper, node-based registry, fold row), 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q6.2](bob-cli-q6.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q6.2](bob-cli-q6.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q6.5](bob-cli-q6.5.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
@@ -40,3 +40,15 @@ fold-core: add the 240s fold kit (state helper, node-based registry, fold row), 
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1ff10aa`](https://github.com/bobs-org/bob-plugins/commit/1ff10aa40e7f0b5a1c290bbdfb1897466168fcd3) | feat(bob-ledger-tools): add shared property-card folding | [bob-cli-q6.1](bob-cli-q6.1.md) | 2026-11-25 13:59:27 EST |
 | bob-plugins | [`bob-plugins@bdb85e3`](https://github.com/bobs-org/bob-plugins/commit/bdb85e34dca948c36e547937d45df3caabb5d50a) | fix(plugins): refine album schema and rebuild bundles | [bob-cli-q6.1](bob-cli-q6.1.md) | 2026-11-25 16:05:52 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q6.1--4][1] | Verify the docs budget follow-up note before closing the phase | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.1.md
+
+<!-- sase:referenced-by:end -->
