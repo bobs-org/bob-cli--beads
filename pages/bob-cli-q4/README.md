@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/better_o_gesture_settle.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md
 
@@ -42,11 +42,11 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 | [bob-cli-q4.13](bob-cli-q4.13.md) | End-to-end settle acceptance and re-measure | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.2](bob-cli-q4.2.md) | o and O open real siblings after the whole subtree | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.3](bob-cli-q4.3.md) | One pure Rust settle\_note that reconcile composes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q4.4](bob-cli-q4.4.md) | Reconcile drift meter and recorded baseline | ✓ closed | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q4.4](bob-cli-q4.4.md) | Reconcile drift meter and recorded baseline | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.5](bob-cli-q4.5.md) | Plain split and BLOCKS placement match the layout contract | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q4.6](bob-cli-q4.6.md) | Capture settles every note it touches | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q4.7](bob-cli-q4.7.md) | Task commands and sync writers settle their notes | ✓ closed | medium | 2026-11-25 | 1 | 0 |
-| [bob-cli-q4.8](bob-cli-q4.8.md) | Vector-pinned JS settle twin behind a ledger-tools API | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
+| [bob-cli-q4.7](bob-cli-q4.7.md) | Task commands and sync writers settle their notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
+| [bob-cli-q4.8](bob-cli-q4.8.md) | Vector-pinned JS settle twin behind a ledger-tools API | ✓ closed | large | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.9](bob-cli-q4.9.md) | Cycler gestures settle, including recurring spawns and cycling | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
 
 ## Lineage
@@ -65,11 +65,11 @@ flowchart TD
     n9["bob-cli-q4.5: Plain split and BLOCKS placement match the layout contract [closed]"]
     n10["bob-cli-q4.6: Capture settles every note it touches [closed]"]
     n11["bob-cli-q4.7: Task commands and sync writers settle their notes [closed]"]
-    n12["bob-cli-q4.8: Vector-pinned JS settle twin behind a ledger-tools API [in_progress]"]
-    n13["bob-cli-q4.8.1: Vector-pinned taskSettle provider for ledger-tools [in_progress]"]
+    n12["bob-cli-q4.8: Vector-pinned JS settle twin behind a ledger-tools API [closed]"]
+    n13["bob-cli-q4.8.1: Vector-pinned taskSettle provider for ledger-tools [closed]"]
     n14["bob-cli-q4.8.1.1: Port the pure settle transform and pin Rust parity [closed]"]
     n15["bob-cli-q4.8.1.2: Add the guarded editor adapter and cursor policy [closed]"]
-    n16["bob-cli-q4.8.1.3: Publish taskSettle v1 with the pending scheduler [in_progress]"]
+    n16["bob-cli-q4.8.1.3: Publish taskSettle v1 with the pending scheduler [closed]"]
     n17["bob-cli-q4.9: Cycler gestures settle, including recurring spawns and cycling [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -127,15 +127,15 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md) | [bob-cli-q4.13](bob-cli-q4.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md) | [bob-cli-q4.2](bob-cli-q4.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.3.md) | [bob-cli-q4.3](bob-cli-q4.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.4/README.md) | [bob-cli-q4.4](bob-cli-q4.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.4/README.md) | [bob-cli-q4.4](bob-cli-q4.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.5.md) | [bob-cli-q4.5](bob-cli-q4.5.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.6.md) | [bob-cli-q4.6](bob-cli-q4.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md) | [bob-cli-q4.7](bob-cli-q4.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md) | [bob-cli-q4.7](bob-cli-q4.7.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.md) | [bob-cli-q4.8](bob-cli-q4.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.1/README.md) | [bob-cli-q4.8.1.1](bob-cli-q4.8.1.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.2/README.md) | [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.1.3.md) | [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) | 3 |
-| [bbugyi200.athena.bob-cli-q4.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.land/README.md) | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.1.land.md) | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9/README.md) | [bob-cli-q4.9](bob-cli-q4.9.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.land/README.md) | [bob-cli-q4](README.md) | 0 |
 
@@ -152,9 +152,12 @@ flowchart TD
 | bob-cli | [`5c0f816`](https://github.com/bobs-org/bob-cli/commit/5c0f81608f94cd41ceddb726736a79ea944030bd) | feat(task-settle): add canonical task-settle fixture README | [bob-cli-q4.8.1.1](bob-cli-q4.8.1.1.md) | 2026-11-25 11:10:42 EST |
 | bob-plugins | [`bob-plugins@824d8e4`](https://github.com/bobs-org/bob-plugins/commit/824d8e4951ef11c492cf515b4200390b4c0a35fd) | feat(ledger-tools): port task-settle to pure-twin fragments 139a-d | [bob-cli-q4.8.1.1](bob-cli-q4.8.1.1.md) | 2026-11-25 11:11:20 EST |
 | bob-plugins | [`bob-plugins@f764a4b`](https://github.com/bobs-org/bob-plugins/commit/f764a4bef9faf584cd394343eb5f2ad281d36daa) | feat(ledger-tools): add guarded task-settle editor apply and stay cursor | [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) | 2026-11-25 11:35:55 EST |
+| bob-cli | [`08a708d`](https://github.com/bobs-org/bob-cli/commit/08a708d3354c1fe110ce4038f41697bdbaffd399) | feat(settle): command writers settle notes before staging | [bob-cli-q4.7](bob-cli-q4.7.md) | 2026-11-25 12:07:37 EST |
 | bob-plugins | [`bob-plugins@c945420`](https://github.com/bobs-org/bob-plugins/commit/c9454208ac8eede09f338c328ab640166ea3168e) | feat(ledger-tools): publish task settle v1 scheduler | [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) | 2026-11-25 12:35:32 EST |
+| bob-cli | [`e532b11`](https://github.com/bobs-org/bob-cli/commit/e532b11f911486e404fefeed3c7a7653dd7cbef7) | feat(dev): add reconcile-drift vault replay meter | [bob-cli-q4.4](bob-cli-q4.4.md) | 2026-11-25 12:55:36 EST |
 | bob-plugins | [`bob-plugins@abbac5a`](https://github.com/bobs-org/bob-plugins/commit/abbac5acc380b651c091657d40f77d43680a9054) | test(ledger-tools): measure resident count cpu time | [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) | 2026-11-25 13:25:22 EST |
 | bob-plugins | [`bob-plugins@84ba9d4`](https://github.com/bobs-org/bob-plugins/commit/84ba9d411c0f6692aba7bc19d26eea74ba8bb6b8) | test(bob-ledger-tools): measure frees-mark budget as CPU | [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) | 2026-11-25 13:31:05 EST |
+| bob-plugins | [`bob-plugins@01ac184`](https://github.com/bobs-org/bob-plugins/commit/01ac18405e4a8c03b848796c4d7475fb1a44dc1f) | fix(ledger-tools): make taskSettle identity and staged preimages strict | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2026-11-25 14:22:22 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -164,8 +167,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.2][1] | Need parent epic DECISIONS, phases, and overall design | 1 |
 | read-by | [agent:bob-cli-q4.7][2] | check epic children statuses | 1 |
+| read-by | [agent:bob-cli-q5.1.1.2][3] | Need notes on ref_library today and task_status_hooks grouping failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
 
 <!-- sase:referenced-by:end -->

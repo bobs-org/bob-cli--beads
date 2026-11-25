@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q4.8.1](bob-cli-q4.8.1.md) / bob-cli-q4.8.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q4.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.md) · **Assignee:** `bob-cli-q4.8.1.3` · **Size:** medium
-**Created:** 2026-11-25 10:27:09 EST
+**Created:** 2026-11-25 10:27:09 EST · **Closed:** 2026-11-25 13:40:51 EST
 **Plan:** [202611/task\_settle\_twin.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_settle_twin.md)
 
 ## Description
@@ -14,6 +14,10 @@ pending-api: implement the shared 500 ms pending scheduler, early flush and tear
 ## Notes
 
 [2026-11-25T17:55:05Z · bob-cli-q4.8.1.3--1] PROPOSED FOLLOW-UP: Reduce docs word-budget overages — docs:check fails on clean plugin base fdde3dcf against Bob CLI docs 0742684 with plugin-apis at 9287/8000 words and navigation-hotkeys at 6068/6000; current source is 9961/8000 and 6068/6000. The base run confirms both over-budget failures predate this phase.
+
+[2026-11-25T18:40:22Z · bob-cli-q4.8.1.3--7] PROPOSED FOLLOW-UP: Reconcile the current docs:check word-budget failures. Latest run against the Bob Plugins source reports plugin-apis at 9961/8000, reference/capture-syntax at 6011/6000, reference/plugins/bob-ledger-tools at 6012/6000, and reference/plugins/bob-navigation-hotkeys at 6068/6000. The earlier clean-plugin-base comparison remains recorded above for plugin-apis and navigation-hotkeys; compare the current extra findings against that baseline before assigning them to this phase.
+
+[2026-11-25T18:40:51Z · bob-cli-q4.8.1.3--7] Verified npm test passed (unit and performance suites; docs inventory current), npm run build:check passed, and bob plugins sync copied bob-ledger-tools successfully. sase bead epic-symbols reports no entries for this phase. npm run test:e2e:task-settle-undo passed in real Obsidian with taskSettle v1, confirming apply, joined/separate history handling, undo restoration, and redo restoration. npm run docs:check still reports word-budget failures (plugin-apis 9961/8000, capture-syntax 6011/6000, bob-ledger-tools 6012/6000, navigation-hotkeys 6068/6000); the current counts and prior clean-base comparison are recorded in PROPOSED FOLLOW-UP notes.
 
 ## Dependencies
 

@@ -38,10 +38,12 @@ capture-settle: run `settle_note` at the capture choke point after type agreemen
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-q4.6--1][1] | Need current phase scope, design file, decisions, and prior notes before closing | 1 |
-| read-by | [agent:bob-cli-q4.7][2] | check capture-settle state | 1 |
+| read-by | [agent:bob-cli-ph.6.1.3][1] | Capture-settle likely caused project_note fixture drift; check if already noted | 1 |
+| read-by | [agent:bob-cli-q4.6--1][2] | Need current phase scope, design file, decisions, and prior notes before closing | 1 |
+| read-by | [agent:bob-cli-q4.7][3] | check capture-settle state | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.6.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ph.6.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.6.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md
 
 <!-- sase:referenced-by:end -->
