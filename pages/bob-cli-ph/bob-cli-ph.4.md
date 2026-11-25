@@ -21,7 +21,7 @@ bob-writers: every bob-cli writer creates `- **Title**` and `- **Notes**` header
 
 - **Depends on:** [bob-cli-ph.3](bob-cli-ph.3.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.5](bob-cli-ph.5.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-ph.6](bob-cli-ph.6.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.6](bob-cli-ph.6.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.7](bob-cli-ph.7.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

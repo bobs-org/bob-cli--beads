@@ -14,8 +14,10 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/obsidian_true_case_drawers.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:22401646d913918cad305ac5 | attached via sase artifact create --bead |
+| related | file:explicit:d3609bf8b5367af587438fe8 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_true_case_drawers.md
 
@@ -49,16 +51,7 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 4 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@6906848`](https://github.com/bobs-org/bob-plugins/commit/6906848059293c497d371d032c28555f10f7ab12) | fix(drawers): preserve title bytes and strengthen landing regressions | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 13:49:42 EST |
-| bob-plugins | [`bob-plugins@e5d3d6e`](https://github.com/bobs-org/bob-plugins/commit/e5d3d6e0df8551d668feba24fc9296388be58a80) | test(drawers): capture Obsidian visual diagnostics | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 14:08:42 EST |
-| bob-plugins | [`bob-plugins@9d2dbd2`](https://github.com/bobs-org/bob-plugins/commit/9d2dbd2cdc3e0e223b2365d6ca71cc243d1dd669) | fix(ledger-tools): repair task drawer landing visuals | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 15:17:05 EST |
-| bob-plugins | [`bob-plugins@4369a43`](https://github.com/bobs-org/bob-plugins/commit/4369a4360be4441977bcbf5a673cbbddbaf96f3e) | fix(drawers): shield completed drawer headers in reading view | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 17:33:56 EST |
+| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -70,6 +63,7 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 | read-by | [agent:bob-cli-ph.7.1.4][2] | Need DECISIONS section from parent epic | 3 |
 | read-by | [agent:bob-cli-ph.7.1.land--1][3] | Need the assigned drawer epic, children, and landing notes | 1 |
 | read-by | [agent:bob-cli-ph.7.1.land--2][3] | Review phase scope and prior progress for drawer visual acceptance closeout | 2 |
+| read-by | [agent:bob-cli-ph.7.1.land--3][3] | Need current drawer phase status and evidence links for closeout | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
