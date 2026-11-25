@@ -13,7 +13,7 @@ cli-browse: add the additive block_id.goto rows to task_block_id completion for 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q7.1](bob-cli-q7.1.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q7.1](bob-cli-q7.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q7.5](bob-cli-q7.5.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
