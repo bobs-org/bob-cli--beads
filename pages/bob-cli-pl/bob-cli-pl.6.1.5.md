@@ -15,6 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:00ecd6d831fb1b470bfb515e | attached via sase artifact create --bead |
 | related | file:explicit:06dc13b5afc95d4c0c5a784f | attached via sase artifact create --bead |
+| related | file:explicit:0968c32776984db9ba2bd327 | attached via sase artifact create --bead |
 | related | file:explicit:0b7f5dcd3ad54a06615f0aa3 | attached via sase artifact create --bead |
 | related | file:explicit:0f239313ecbd344e0161d93f | attached via sase artifact create --bead |
 | related | file:explicit:102101973af2ca32e6bb022d | attached via sase artifact create --bead |
@@ -37,7 +38,9 @@
 | related | file:explicit:45956d095b4a9c87c12538d7 | attached via sase artifact create --bead |
 | related | file:explicit:45dc7735989a011cdf728260 | attached via sase artifact create --bead |
 | related | file:explicit:47b5de8060e4fa99bc07a717 | attached via sase artifact create --bead |
+| related | file:explicit:4b93754653436b0bea329531 | attached via sase artifact create --bead |
 | related | file:explicit:4f7cfabb0cebd0eabd869db5 | attached via sase artifact create --bead |
+| related | file:explicit:575ee3b4f1b1d6736814ddb3 | attached via sase artifact create --bead |
 | related | file:explicit:61aa57d5ad5f26328e620ffd | attached via sase artifact create --bead |
 | related | file:explicit:63a4fe6ed44162080cb82577 | attached via sase artifact create --bead |
 | related | file:explicit:677fc7755c631262ce1ab876 | attached via sase artifact create --bead |
@@ -60,11 +63,8 @@
 | related | file:explicit:ae7eed0a50602d4baca2d591 | attached via sase artifact create --bead |
 | related | file:explicit:b487c294be4d48f18d63425b | attached via sase artifact create --bead |
 | related | file:explicit:b4a8eb54c2ec5fa6c470a21e | attached via sase artifact create --bead |
-| related | file:explicit:bb29dca0f6ed88580adf60d8 | attached via sase artifact create --bead |
-| related | file:explicit:c271c84ebba5fb84449c2b6b | attached via sase artifact create --bead |
-| related | file:explicit:c438fc384834aa3283bd6781 | Preserves the failed settings acceptance screenshot for the phase |
 
-_… and 23 more_
+_… and 26 more_
 
 _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
@@ -80,6 +80,8 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 [2026-11-25T18:08:52Z · bob-cli-pl.6.1.5] Acceptance recovery: latest attached report file:explicit:d4ed91d90e134cdc4dc01091 has 120 passes, then protected-copy timeout before settings scenarios. Fixed the unreachable managed-group expansion by opening the visible keep_exact row first. Also fixed missing bobLog/oldFlag/noContractFlag context and synthetic-row keyboard focus, and reset prior old-Bob capability. Expanded real acceptance for warning saves/undo, every fixture chip, exact theme/clock and ghost copy, retired-count delete/undo, IME Enter, settings geometry, and no-write repaint. Focused suites 67/67; latest offline harness 13/13; build:check and validate 12/12 pass. Plugin sync from opened checkout succeeds with 0 copied/0 skipped/3 unchanged, deployed source c9454208. No epic symbols. Full tests and real Obsidian verification will run from clean post-finalization source bundles through .build/settings-acceptance/run.sh; results pointer .build/settings-acceptance/latest-run. Phase remains in progress pending actual run and image review; no product-code changes in this recovery.
 
+[2026-11-25T18:42:11Z · bob-cli-pl.6.1.5--1] Reviewed monitor vc3zr2 independently: real Obsidian 220 assertions pass, then bank-close timeout; no console exceptions. npm unit 9522 pass/14 fail/3 skip (same failures on retry), perf 26/26; validate 12/12; docs 2 reference budget errors plus develop warning. Exact report file:explicit:4b93754653436b0bea329531; all 25 individually viewed image hashes/verdicts and check summary file:explicit:0968c32776984db9ba2bd327; complete report/logs/PNG archive file:explicit:575ee3b4f1b1d6736814ddb3. Six narrow stage screenshots were insufficient because controls were offscreen; no visual acceptance claimed. Failure screenshot proves the bank modal closed while the inline panel remained. Fixed open/close probes to use the actual bank modal, corrected invalid project-task/hierarchy/status fixtures, added real-Bob fixture preflight, awaited/closed actual Task Cards, reset capability before settings screenshots, and scrolled/asserted stage visibility/focus. Same monitored Bob binary confirms corrected nested/top-level root and exact ^prj fixtures. Focused 54/54 plus harness 13/13 pass; build/validate pass. No production plugin code/generated bundle changes. Sync FROM OPENED checkout passes 0 copied/0 skipped/3 unchanged; clean deployment stamp c9454208ac8eede09f338c328ab640166ea3168e. Ledger main SHA256 d22e17c2dbc002013f8621b7ed59cff28b4c637bc8ec7d8edc09f5faf891304b; CSS 91464604824c5c00cfba95141dad1669af2c1a7d2d637c405fc6f504eae29bb7. Original run CLI 0742684de3390415ffb5dbb3423c0dbc841f4b3e and binary e6a18bcd29783d4fda9bcb3eb5ab5fff185ce17208c05e64aa585da2cb7b5c5c, plugins 689da09262ecd1492cc1bc52e84cebad2fb79631. Opened plugin base now abbac5acc380b651c091657d40f77d43680a9054 (test-only upstream change). Prepared next monitor to run full npm on that clean base and finalized current source, isolated timing reproduction, validate, real Obsidian, and docs base/current; correct nested clone layout fixes two harness-environment fixture ENOENTs. New follow-up notes await actual clean-base proof. Foundation bob-cli-pf remains closed; epic-symbols empty. Phase stays in progress pending complete app run and new image review; no ancestors closed or new beads created.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) ✓ · ⧖ 2026-11-24
@@ -88,7 +90,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 8 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 9 |
 
 ## Commits
 
@@ -102,6 +104,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 | bob-plugins | [`bob-plugins@49bdcb8`](https://github.com/bobs-org/bob-plugins/commit/49bdcb85a4979c837779cc0812b8d26e91bf1b24) | fix(property-editor): route source-only marked deletes through shared batch handler | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 11:30:31 EST |
 | bob-plugins | [`bob-plugins@475527c`](https://github.com/bobs-org/bob-plugins/commit/475527caa1eee0469d7553de51b503a4e8237afb) | test(bob-ledger-tools): expand managed group before protected copy | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 12:14:58 EST |
 | bob-plugins | [`bob-plugins@689da09`](https://github.com/bobs-org/bob-plugins/commit/689da09262ecd1492cc1bc52e84cebad2fb79631) | test(settings): unblock Obsidian acceptance and cover setting writes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:10:32 EST |
+| bob-plugins | [`bob-plugins@fd2a290`](https://github.com/bobs-org/bob-plugins/commit/fd2a2907fdba71ee5389d73a330eef30897b3746) | test(settings): correct Obsidian fixtures and visible acceptance probes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:43:55 EST |
 
 <!-- sase:referenced-by:start -->
 
