@@ -16,15 +16,18 @@
 | related | file:explicit:00ecd6d831fb1b470bfb515e | attached via sase artifact create --bead |
 | related | file:explicit:06dc13b5afc95d4c0c5a784f | attached via sase artifact create --bead |
 | related | file:explicit:0b7f5dcd3ad54a06615f0aa3 | attached via sase artifact create --bead |
+| related | file:explicit:0f239313ecbd344e0161d93f | attached via sase artifact create --bead |
 | related | file:explicit:102101973af2ca32e6bb022d | attached via sase artifact create --bead |
 | related | file:explicit:1517ae57c0a2221475089d20 | attached via sase artifact create --bead |
 | related | file:explicit:15e6ee9644ddca04b3e15b68 | attached via sase artifact create --bead |
 | related | file:explicit:1f140b8a9cfe8c2603d455bc | attached via sase artifact create --bead |
+| related | file:explicit:249d3656138a372e3b05e577 | attached via sase artifact create --bead |
 | related | file:explicit:2589494040f185f61a254804 | attached via sase artifact create --bead |
 | related | file:explicit:25c2cf52c795b8bb980ef342 | attached via sase artifact create --bead |
 | related | file:explicit:273b2c658d5b61c382a38a37 | attached via sase artifact create --bead |
 | related | file:explicit:35090815a79efcf615498fa8 | attached via sase artifact create --bead |
 | related | file:explicit:380437933d2ad00ffe9bf9e5 | attached via sase artifact create --bead |
+| related | file:explicit:3d14923815f5249ae65fa5fe | attached via sase artifact create --bead |
 | related | file:explicit:41087d9690fc6e75ad958db1 | attached via sase artifact create --bead |
 | related | file:explicit:45956d095b4a9c87c12538d7 | attached via sase artifact create --bead |
 | related | file:explicit:45dc7735989a011cdf728260 | attached via sase artifact create --bead |
@@ -35,6 +38,7 @@
 | related | file:explicit:69c4fda47ff362a7bffa75f8 | attached via sase artifact create --bead |
 | related | file:explicit:69fff6f5a28d0761588ca8af | attached via sase artifact create --bead |
 | related | file:explicit:6b3cd7189b58978001673256 | attached via sase artifact create --bead |
+| related | file:explicit:70fdaff98b9a79c329c9afb9 | attached via sase artifact create --bead |
 | related | file:explicit:768c90e756f020c43204ce1d | attached via sase artifact create --bead |
 | related | file:explicit:7930a61423fb45f7864096c3 | attached via sase artifact create --bead |
 | related | file:explicit:7c7732897efd57852e58549d | attached via sase artifact create --bead |
@@ -42,25 +46,27 @@
 | related | file:explicit:84880df9b16f7a86054bcf04 | attached via sase artifact create --bead |
 | related | file:explicit:8e08cc4bfd0c453564c2812f | attached via sase artifact create --bead |
 | related | file:explicit:8f8cccda01e4ecab5e121689 | attached via sase artifact create --bead |
+| related | file:explicit:9a122bd6dbc3cbe6b8dc0bf6 | attached via sase artifact create --bead |
 | related | file:explicit:a4c35a9f39b9398dbcf72f92 | attached via sase artifact create --bead |
 | related | file:explicit:a7aad6122b88c9990f221c94 | attached via sase artifact create --bead |
 | related | file:explicit:ae7eed0a50602d4baca2d591 | attached via sase artifact create --bead |
+| related | file:explicit:b487c294be4d48f18d63425b | attached via sase artifact create --bead |
 | related | file:explicit:b4a8eb54c2ec5fa6c470a21e | attached via sase artifact create --bead |
 | related | file:explicit:c438fc384834aa3283bd6781 | Preserves the failed settings acceptance screenshot for the phase |
+| related | file:explicit:c53bc4b9de0bcfacff1d378c | attached via sase artifact create --bead |
 | related | file:explicit:c7d159491a8bb9e1baa7a352 | attached via sase artifact create --bead |
 | related | file:explicit:c8e6f29f29359949ecbc2b5b | attached via sase artifact create --bead |
 | related | file:explicit:ce1130b9190729572809a7b8 | attached via sase artifact create --bead |
 | related | file:explicit:ce1569949e700d6cabaca6be | attached via sase artifact create --bead |
 | related | file:explicit:ceac5914a62d6c380e0ccc51 | attached via sase artifact create --bead |
 | related | file:explicit:d2709269d2d7eb52365f5f55 | attached via sase artifact create --bead |
+| related | file:explicit:d362ce83883a3716373b0967 | attached via sase artifact create --bead |
+| related | file:explicit:d6c26d53c5c3b9afb60e14b8 | attached via sase artifact create --bead |
 | related | file:explicit:d80781d73db77817e7e20033 | attached via sase artifact create --bead |
-| related | file:explicit:df648c0cb0cc5a2fd010f811 | attached via sase artifact create --bead |
-| related | file:explicit:ed2035cf2c05f92752f0d83e | attached via sase artifact create --bead |
-| related | file:explicit:f772ca3b26930c7f3fc9d2b7 | attached via sase artifact create --bead |
-| related | file:explicit:fd4c679b570b513dca1338c5 | attached via sase artifact create --bead |
-| related | file:explicit:ffc0445d5aad578111533de3 | failed settings acceptance filter dark screenshot ewgwedrv584s |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_… and 10 more_
+
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -80,7 +86,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 6 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 7 |
 
 ## Commits
 
@@ -92,6 +98,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 | bob-plugins | [`bob-plugins@ede02e2`](https://github.com/bobs-org/bob-plugins/commit/ede02e2d8f1982c5336d2430f58eb3e3a234092f) | test(plugins): focus selected rows in acceptance harness | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 09:11:29 EST |
 | bob-plugins | [`bob-plugins@8e4f6ad`](https://github.com/bobs-org/bob-plugins/commit/8e4f6adc4c707aaf5407cbf9bb94678918ffec3d) | fix(settings): expand managed property rows in acceptance harness | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 10:18:53 EST |
 | bob-plugins | [`bob-plugins@49bdcb8`](https://github.com/bobs-org/bob-plugins/commit/49bdcb85a4979c837779cc0812b8d26e91bf1b24) | fix(property-editor): route source-only marked deletes through shared batch handler | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 11:30:31 EST |
+| bob-plugins | [`bob-plugins@475527c`](https://github.com/bobs-org/bob-plugins/commit/475527caa1eee0469d7553de51b503a4e8237afb) | test(bob-ledger-tools): expand managed group before protected copy | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 12:14:58 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -103,6 +110,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 | read-by | [agent:bob-cli-pl.6.1.5--4][1] | Inspect assigned phase status, existing notes, and any remaining work before finishing acceptance | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--5][1] | Verify all failed acceptance artifacts are linked before rerunning | 2 |
 | read-by | [agent:bob-cli-pl.6.1.5--7][1] | Verify all failed settings acceptance evidence references are attached before fixing the harness | 1 |
+| read-by | [agent:bob-cli-pl.6.1.5--8][1] | Review design link and current acceptance notes | 7 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md
 
