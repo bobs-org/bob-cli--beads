@@ -25,10 +25,16 @@ obsidian-surfaces: bob-plugins adds a Command Mode FOR THIS NOTE row for the Eve
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pw.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.7/README.md) | [bob-cli-pw.7](bob-cli-pw.7.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pw.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.7/README.md) | [bob-cli-pw.7](bob-cli-pw.7.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@c181966`](https://github.com/bobs-org/bob-plugins/commit/c181966495f4630d9834b35f0faef3fbb2ee9ec4) | feat(plugins): add meeting note Obsidian surfaces | [bob-cli-pw.7](bob-cli-pw.7.md) | 2026-11-25 00:14:34 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pw.7][1] | Need the phase scope, design file, and prior agent notes before continuing | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.7/README.md
+
+<!-- sase:referenced-by:end -->
