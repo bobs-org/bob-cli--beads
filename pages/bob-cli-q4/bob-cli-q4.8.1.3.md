@@ -13,7 +13,7 @@ pending-api: implement the shared 500 ms pending scheduler, early flush and tear
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q4.8.1.2](bob-cli-q4.8.1.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
