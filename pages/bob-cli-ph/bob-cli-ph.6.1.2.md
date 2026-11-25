@@ -13,7 +13,7 @@ bold-drafts: replace ALL-CAPS authored container detection with whole-bold heade
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.6.1.1](bob-cli-ph.6.1.1.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.6.1.1](bob-cli-ph.6.1.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.6.1.3](bob-cli-ph.6.1.3.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
