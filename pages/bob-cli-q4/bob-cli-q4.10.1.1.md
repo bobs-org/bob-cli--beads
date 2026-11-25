@@ -43,3 +43,15 @@ Verified: npm test (9572 pass / 4 skip / 0 fail + 26 perf); 22 new adapter/comma
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@f224bc7`](https://github.com/bobs-org/bob-plugins/commit/f224bc725d29b6402e8e537f9b69cc6c2dc61aa6) | feat(nav): add guarded taskSettle v1 consumer and command flush | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 2026-11-25 15:03:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.10.1.1][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -79,7 +79,7 @@ flowchart TD
     n23["bob-cli-q4.8.1.3: Publish taskSettle v1 with the pending scheduler [closed]"]
     n24["bob-cli-q4.9: Cycler gestures settle, including recurring spawns and cycling [in_progress]"]
     n25["bob-cli-q4.9.1: Settle cycler gestures without moving rapid-cycle targets [in_progress]"]
-    n26["bob-cli-q4.9.1.1: Guarded cycler bridge and observable pending outcomes [in_progress]"]
+    n26["bob-cli-q4.9.1.1: Guarded cycler bridge and observable pending outcomes [closed]"]
     n27["bob-cli-q4.9.1.2: Settle local and transcluded closes before walk continuation [in_progress]"]
     n28["bob-cli-q4.9.1.3: Settle promotion and committed open-line scaffolds [in_progress]"]
     n29["bob-cli-q4.9.1.4: Settle cycle bursts and verify the integrated gesture contract [in_progress]"]
@@ -176,7 +176,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.1.3.md) | [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) | 3 |
 | [bbugyi200.athena.bob-cli-q4.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.1.land.md) | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.md) | [bob-cli-q4.9](bob-cli-q4.9.md) | 0 |
-| [bbugyi200.athena.bob-cli-q4.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md) | [bob-cli-q4.9.1.1](bob-cli-q4.9.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md) | [bob-cli-q4.9.1.1](bob-cli-q4.9.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.2/README.md) | [bob-cli-q4.9.1.2](bob-cli-q4.9.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md) | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.4/README.md) | [bob-cli-q4.9.1.4](bob-cli-q4.9.1.4.md) | 0 |
@@ -204,6 +204,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@01ac184`](https://github.com/bobs-org/bob-plugins/commit/01ac18405e4a8c03b848796c4d7475fb1a44dc1f) | fix(ledger-tools): make taskSettle identity and staged preimages strict | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2026-11-25 14:22:22 EST |
 | bob-cli--plans | [`bob-cli--plans@c3b80bc`](https://github.com/bobs-org/bob-cli--plans/commit/c3b80bcdc5361045817367c81cecfc0e72320c35) | docs(plan): mark task\_settle\_twin done after provider closeout | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2026-11-25 14:23:01 EST |
 | bob-plugins | [`bob-plugins@f224bc7`](https://github.com/bobs-org/bob-plugins/commit/f224bc725d29b6402e8e537f9b69cc6c2dc61aa6) | feat(nav): add guarded taskSettle v1 consumer and command flush | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 2026-11-25 15:03:41 EST |
+| bob-plugins | [`bob-plugins@071e0e9`](https://github.com/bobs-org/bob-plugins/commit/071e0e9fa3bdbd0ec93fe938fef6b9f20ca3d7d9) | feat(task-status-cycler): add guarded taskSettle bridge and pending onSettled | [bob-cli-q4.9.1.1](bob-cli-q4.9.1.1.md) | 2026-11-25 15:11:35 EST |
 
 <!-- sase:referenced-by:start -->
 

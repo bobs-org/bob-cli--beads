@@ -19,6 +19,8 @@ link-settle: tier-1 settle on block-id-prompt's Ctrl+Shift+Enter target writes a
 
 [2026-11-25T19:41:45Z · bob-cli-q4.11] Verified Ctrl+Shift+Enter target writes settle in the same write: closed notes via settleNote then vault.modify, open/same-note editors via staged applyToEditor (expected+contents+identity), same-note combined Pomodoro edits too. Missing/old/throwing/unapplied taskSettle v1 keeps the pre-settle gesture write. flushPending runs at command entry (openPomodoroTaskLink, submitBlockId, completeTaskLinkWithExistingId, consumeBlockedTaskPomodoroLink, taskWikilinkPomodoroCommit), never inside applyTargetTaskPlan. 11/11 target-settle tests plus target-update and pomodoro-link-runtime passed; block-id-prompt 1.46.0 deployed. Ledger-tools has no target-task status writers (Pomodoro close is Task Status Cycler). No epic-symbol leftovers. Docs-check word-budget overages reproduce on clean 01ac184 and are a PROPOSED FOLLOW-UP.
 
+[2026-11-25T20:08:55Z · bob-cli-q4.11--1] PROPOSED FOLLOW-UP: just check on clean bob-cli master e6eb52a1 fails 3 bob-obsidian --lib tests and 18 --test cli tests (catalog-spelling leftover #"REQUIREMENTS" vs #requirements, bold-drawer merge assertion, wispr MEETING NOTES pdftotext letterspacing, plus capture inbox/note-pull/project-note-offer/theme/today grouping). Unrelated to q4.11 settle wiring; reproduced after the failed host-completion check. No existing task bead matched.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
