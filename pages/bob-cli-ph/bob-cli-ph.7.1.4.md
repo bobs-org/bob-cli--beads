@@ -14,8 +14,8 @@ obsidian-acceptance: exercise the integrated feature in an isolated Obsidian vau
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.7.1.1](bob-cli-ph.7.1.1.md) ✓ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) ◐ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) ✓ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

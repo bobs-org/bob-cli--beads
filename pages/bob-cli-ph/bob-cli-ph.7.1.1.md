@@ -19,7 +19,7 @@ bold-writers-and-conversion: switch new plugin drawer writes to bold, refresh Ru
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
