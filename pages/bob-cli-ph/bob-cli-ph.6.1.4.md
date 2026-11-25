@@ -13,7 +13,7 @@ drawer-editor-wire: implement expand_drawer_marker through hypothetical parser a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.6.1.3](bob-cli-ph.6.1.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.6.1.3](bob-cli-ph.6.1.3.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.6.1.5](bob-cli-ph.6.1.5.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

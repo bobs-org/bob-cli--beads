@@ -20,6 +20,8 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 3. Keep Smart Enter as "child inside the drawer". o opens a sibling after the drawer's subtree; Ctrl+Shift+O / Smart Enter open a child. The three stay orthogonal.
 4. notes-key (bob-cli-q4.12, Ctrl+Shift+O) lands after ph.7 so it inherits drawer spelling from the shared helpers rather than hard-coding NOTES or **Notes** bytes.
 
+[2026-11-25T18:16:09Z · bob-cli-ph.7.1.land] Historical deployment source SHAs resolved by ph.7.1 land audit after finalizers: bob-plugins f2e8c62a29464701cb097233579c156964cb4996 implements bold-writes marker in task-status-cycler/navigation; 2796d63dc79b3c5e44d113a5b2aae4bbc2ee4ad8 plus export fix 5ed3bd22 implement ledger drawer-render marker; 8d3c555c61041065281b74259086b82633719c47 plus 8254caa48938b49b73cd4187c216406d1e3f5fea implement drawer-typing marker and Prec.highest. Phase acceptance reports prior non-forcing deploys and durable report e9988819 plus four screenshot refs already attached here. Not declaring rollout-ready: nested epic has confirmed title-whitespace, stale assertions and tray/strike/folded-count acceptance gaps. A single medium repair tale will update deploy evidence, close ph.7.1 and then only this phase; no future SHA/CI wait is required for that same-turn close.
+
 ## References
 
 - file:explicit:e9988819b2a7e52753c34291
@@ -47,19 +49,21 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
-| read-by | [agent:bob-cli-pq.1][2] | sequencing check for glyph-contract | 2 |
-| read-by | [agent:bob-cli-pq.3][3] | Check prerequisite drawer implementation and remaining integration | 1 |
-| read-by | [agent:bob-cli-q4.2][4] | Need ph.7 status before leaving the open-lines coordination note | 1 |
-| read-by | [agent:g1][5] | Check whether phase is blocked on the release gate | 1 |
-| read-by | [agent:research.66.cld][6] | Check overlap of drawer typing/writers with better-o Ctrl+Shift+O design | 2 |
-| read-by | [agent:research.66.grk][7] | Need drawer-writer sequencing so better-o can leave the right note on bob-cli-ph | 1 |
+| read-by | [agent:bob-cli-ph.7.1.4][2] | Need prior phase notes, markers, deploy evidence, and remaining work | 1 |
+| read-by | [agent:bob-cli-pq.1][3] | sequencing check for glyph-contract | 2 |
+| read-by | [agent:bob-cli-pq.3][4] | Check prerequisite drawer implementation and remaining integration | 1 |
+| read-by | [agent:bob-cli-q4.2][5] | Need ph.7 status before leaving the open-lines coordination note | 1 |
+| read-by | [agent:g1][6] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:research.66.cld][7] | Check overlap of drawer typing/writers with better-o Ctrl+Shift+O design | 2 |
+| read-by | [agent:research.66.grk][8] | Need drawer-writer sequencing so better-o can leave the right note on bob-cli-ph | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.2/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.2/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
 
 <!-- sase:referenced-by:end -->
