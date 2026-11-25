@@ -25,11 +25,20 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 Complete bob-cli-q4.9 so closes, promotions, demotions, and committed scaffolds settle immediately, while status cycling settles safely after the burst.
 
+## Notes
+
+[2026-11-25T22:35:33Z · bob-cli-q4.9.1.land] LAND TRIAGE of PROPOSED FOLLOW-UPs (q4.9.1 lander):
+(1) q4.9.1.1 #1 / q4.9.1.3 #2: just check bob-obsidian lib(3)+cli(18). Declined as a new task: already a DISCOVERED ISSUE on containing epic bob-cli-q4 (notes #1, #3: 17 cli settle-drift nodes, fresh reproduction at d67a5b7b, q4-owned) plus bob-cli-q5.1.1.x notes (wispr_summary, capture_complete drawer). Not caused by q4.9.1, which is JS-only in bob-plugins.
+(2) q4.9.1.2 #2: cargo test --workspace, 22 Rust fixture/timing failures. Declined for the same reason as (1), same trackers.
+(3) q4.9.1.1 #2 / q4.9.1.2 #1 / q4.9.1.3 #1: docs-check word budgets. Declined: tracked by bob-cli-ob (plugin-apis.md, bob-navigation-hotkeys.md), bob-cli-il (bob-ledger-tools.md), bob-cli-jz (capture-syntax.md), q4 note #2, and q7.1's own proposals (json-outputs.md and capture-syntax.md growth from q7.1). At 7d53d189 the lint reports capture-syntax 6058, json-outputs 6007, ledger-tools 6040, nav 6068, plugin-apis 9279 (advisory). q4.9.1's only docs growth is 3 words in the advisory plugin-apis row.
+(4) q4.9.1.2 #3: one transient test:unit failure with no test named. Declined: no reproducible evidence. The lander's full test:unit at 7d53d189 has 9681 pass, 3 fail, all deterministic and attributable to (5). The known load flakes bob-cli-km and bob-cli-io already cover transient wall-clock failures.
+(5) Lander finding: nav records settle jumps reversed (origin=cursor, destination=jumpTarget) and double-records cycler-owned pending flush outcomes, so the first Ctrl+O does not move. Also, master nav main.js is stale after 0e8c70b7, with 3 test:unit failures. Recorded as a DISCOVERED ISSUE on active epic bob-cli-q4.10.1, which owns 181a/181b and is mid-flight. No standalone task.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.land/README.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.1.land.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
