@@ -64,9 +64,9 @@
 | related | file:explicit:b487c294be4d48f18d63425b | attached via sase artifact create --bead |
 | related | file:explicit:b4a8eb54c2ec5fa6c470a21e | attached via sase artifact create --bead |
 
-_… and 26 more_
+_… and 29 more_
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -82,6 +82,18 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 [2026-11-25T18:42:11Z · bob-cli-pl.6.1.5--1] Reviewed monitor vc3zr2 independently: real Obsidian 220 assertions pass, then bank-close timeout; no console exceptions. npm unit 9522 pass/14 fail/3 skip (same failures on retry), perf 26/26; validate 12/12; docs 2 reference budget errors plus develop warning. Exact report file:explicit:4b93754653436b0bea329531; all 25 individually viewed image hashes/verdicts and check summary file:explicit:0968c32776984db9ba2bd327; complete report/logs/PNG archive file:explicit:575ee3b4f1b1d6736814ddb3. Six narrow stage screenshots were insufficient because controls were offscreen; no visual acceptance claimed. Failure screenshot proves the bank modal closed while the inline panel remained. Fixed open/close probes to use the actual bank modal, corrected invalid project-task/hierarchy/status fixtures, added real-Bob fixture preflight, awaited/closed actual Task Cards, reset capability before settings screenshots, and scrolled/asserted stage visibility/focus. Same monitored Bob binary confirms corrected nested/top-level root and exact ^prj fixtures. Focused 54/54 plus harness 13/13 pass; build/validate pass. No production plugin code/generated bundle changes. Sync FROM OPENED checkout passes 0 copied/0 skipped/3 unchanged; clean deployment stamp c9454208ac8eede09f338c328ab640166ea3168e. Ledger main SHA256 d22e17c2dbc002013f8621b7ed59cff28b4c637bc8ec7d8edc09f5faf891304b; CSS 91464604824c5c00cfba95141dad1669af2c1a7d2d637c405fc6f504eae29bb7. Original run CLI 0742684de3390415ffb5dbb3423c0dbc841f4b3e and binary e6a18bcd29783d4fda9bcb3eb5ab5fff185ce17208c05e64aa585da2cb7b5c5c, plugins 689da09262ecd1492cc1bc52e84cebad2fb79631. Opened plugin base now abbac5acc380b651c091657d40f77d43680a9054 (test-only upstream change). Prepared next monitor to run full npm on that clean base and finalized current source, isolated timing reproduction, validate, real Obsidian, and docs base/current; correct nested clone layout fixes two harness-environment fixture ENOENTs. New follow-up notes await actual clean-base proof. Foundation bob-cli-pf remains closed; epic-symbols empty. Phase stays in progress pending complete app run and new image review; no ancestors closed or new beads created.
 
+[2026-11-25T19:13:00Z · bob-cli-pl.6.1.5--2] Acceptance recovery for monitor 48yzxpwca66j: inspected every independent status and failing log, report.json and all 25 new PNGs individually. Real Obsidian passed 249 assertions, with no console exceptions, then timed out clearing Stats root. Only root set preview/apply reached Bob; the next Enter raced the pending save because the wait watched disk replacement. Settings waits now require the save guard to settle; root also requires confirmed Saved/declared state. No assertion was weakened.
+
+Visual review: 20 generic rename/marked/filter/YAML/convert shots are acceptable. All four paste shots remain insufficient: the flex container compresses the scrollable stage (narrow title strip; wide buttons hidden). The failure image also reveals horizontally clipped settings labels. Fixed CSS with stage flex-shrink:0 and normal whitespace on row buttons; strengthened actual-control visibility and value overflow checks. Expanded early screenshots to both area/project populated views and all four simple stages across light/dark and 390/1400 widths. Both note byte snapshots must remain exact. Old-Bob capability cleanup is now explicit.
+
+Durable evidence: report file:explicit:fbeaa8707ac2b992338cf96c; all 25 image hashes/verdicts and independent check summary file:explicit:fd26715443aff32561845c16; complete report/log/PNG archive file:explicit:f79e1e995ac2532e7e1cbd73. CLI source 0742684de3390415ffb5dbb3423c0dbc841f4b3e, binary SHA256 9b489a92e3a020a246b116ddd3803585723c708a1f79ff52fdf45fa24e110a10; plugin source fd2a2907fdba71ee5389d73a330eef30897b3746, clean base abbac5acc380b651c091657d40f77d43680a9054. All managed plugin hashes are in report/review. Ledger main d22e17c2dbc002013f8621b7ed59cff28b4c637bc8ec7d8edc09f5faf891304b remains unchanged.
+
+Verification: focused suites 67/67 pass; latest harness 13/13 after final changes; build:check and validate 12/12 pass. Apollo sync from the opened checkout updated one CSS file, two unchanged, zero skipped; dirty source head 6906848059293c497d371d032c28555f10f7ab12; CSS SHA256 24ee5ed6c0205a9bbb310d74315717939d5a21629636e475af4ea396ba231310. Next monitor clean-syncs after finalization, runs the Athena post-sync scratch startup gate, full npm base/current, real acceptance and valid Git-based docs comparisons. The new baseline is 6906848 (upstream drawer test changes). Foundation remains closed, epic-symbols is empty; phase stays in progress pending complete real-app and image acceptance.
+
+PROPOSED FOLLOW-UP: Existing bob-cli-n0 held-lock album schema writer failure reproduced identically in full npm on clean abbac5 and fd2a current: "held-lock apply must create exactly one commit, saw 2" at obsidian-album-schema-writer-e2e.cjs:643. Base-tree.status is empty; both unit runs have 9537 pass/2 fail. Other failure is frees-marks timing, whose error format changed upstream from wall time to CPU; both unchanged trees pass 17/17 in isolation. No new timing follow-up proposed without a matching baseline proof.
+
+PROPOSED FOLLOW-UP: Docs budget failures reproduced identically using the opened plugin Git checkout detached at abbac5, clean status, with BOB_CLI_DIR pinned to CLI 0742684, then restoring current HEAD: bob-ledger-tools.md 6012/6000 and bob-navigation-hotkeys.md 6068/6000, plus plugin-apis.md 9961/8000 warning. Initial tar-snapshot docs result was invalid and is not baseline evidence; docs-check-base-valid.log/status and docs-base-tree.status provide the valid proof, and clean-base-comparison.json now reports docsIdentical=true. Ledger headroom is already tracked by bob-cli-il; prior phase note #1 cites historical evidence from bob-cli-pw.8.1.3. All proof is in the durable archive above. No new beads or ancestor changes.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) ✓ · ⧖ 2026-11-24
@@ -90,7 +102,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 9 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
 
 ## Commits
 
@@ -105,6 +117,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 | bob-plugins | [`bob-plugins@475527c`](https://github.com/bobs-org/bob-plugins/commit/475527caa1eee0469d7553de51b503a4e8237afb) | test(bob-ledger-tools): expand managed group before protected copy | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 12:14:58 EST |
 | bob-plugins | [`bob-plugins@689da09`](https://github.com/bobs-org/bob-plugins/commit/689da09262ecd1492cc1bc52e84cebad2fb79631) | test(settings): unblock Obsidian acceptance and cover setting writes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:10:32 EST |
 | bob-plugins | [`bob-plugins@fd2a290`](https://github.com/bobs-org/bob-plugins/commit/fd2a2907fdba71ee5389d73a330eef30897b3746) | test(settings): correct Obsidian fixtures and visible acceptance probes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:43:55 EST |
+| bob-plugins | [`bob-plugins@3e851f0`](https://github.com/bobs-org/bob-plugins/commit/3e851f0686cbf853cfe2d192ab7b1456b1d4cf57) | fix(properties): keep settings values and paste controls visible | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:17:41 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -112,6 +125,7 @@ settings-acceptance: extend the scratch-vault harness, exercise settings and gen
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.6.1.5--1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--3][1] | Need current phase scope and blockers before recording acceptance evidence | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--4][1] | Inspect assigned phase status, existing notes, and any remaining work before finishing acceptance | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--5][1] | Verify all failed acceptance artifacts are linked before rerunning | 2 |
