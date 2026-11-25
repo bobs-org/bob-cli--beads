@@ -13,7 +13,7 @@ capture-acceptance: run the cross-context scratch-vault acceptance matrix, finis
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
