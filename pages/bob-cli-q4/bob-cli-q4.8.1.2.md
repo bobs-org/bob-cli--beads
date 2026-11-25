@@ -13,7 +13,7 @@ editor-apply: add Tasks classification and daily-path adapters plus the synchron
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q4.8.1.1](bob-cli-q4.8.1.1.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q4.8.1.1](bob-cli-q4.8.1.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.8.1.3](bob-cli-q4.8.1.3.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
