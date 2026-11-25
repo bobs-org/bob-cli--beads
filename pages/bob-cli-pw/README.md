@@ -119,7 +119,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pw.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.6.md) | [bob-cli-pw.6](bob-cli-pw.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.7/README.md) | [bob-cli-pw.7](bob-cli-pw.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-pw.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.1.md) | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pw.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.1.md) | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.2.md) | [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8.1.3/README.md) | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.8.1.land/README.md) | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 0 |
@@ -142,6 +142,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@469a5b5`](https://github.com/bobs-org/bob-cli--plans/commit/469a5b530f24bb5795c2e6cea7c2f85dc5d7e98b) | docs(plan): mark ref\_meet\_cli epic plan done | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 2026-11-24 23:49:13 EST |
 | bob-mac-capture | [`bob-mac-capture@c8692ed`](https://github.com/bobs-org/bob-mac-capture/commit/c8692ed363408ae398516fc1b0c50787b0425961) | feat(refs): add Meetings library scope | [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) | 2026-11-25 00:13:11 EST |
 | bob-mac-capture | [`bob-mac-capture@7b1fcc0`](https://github.com/bobs-org/bob-mac-capture/commit/7b1fcc052f4f7680fedd24947e2ab984f5074ee4) | feat(meetings): add portable ref meet client and session | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 2026-11-25 00:28:43 EST |
+| bob-mac-capture | [`bob-mac-capture@1dea9a7`](https://github.com/bobs-org/bob-mac-capture/commit/1dea9a716eef3795715c62aa1a4dc5c54d18c93f) | test(capture): assert cancellation on leave | [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) | 2026-11-25 00:42:32 EST |
 
 <!-- sase:referenced-by:start -->
 
