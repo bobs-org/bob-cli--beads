@@ -20,7 +20,7 @@ bank-fold: bank Setup resolves through the fold helper (collapsed when healthy, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-q6.1](bob-cli-q6.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q6.3](bob-cli-q6.3.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q6.3](bob-cli-q6.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

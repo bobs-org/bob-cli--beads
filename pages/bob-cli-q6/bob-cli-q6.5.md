@@ -33,3 +33,15 @@ fold-family: register record, area, and project folds with the kit (look per fam
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@a71a59d`](https://github.com/bobs-org/bob-plugins/commit/a71a59dba5f13bb4831af19bb336a60b77c7654f) | feat(bob-ledger-tools): fold record, area, and project details with \_ | [bob-cli-q6.5](bob-cli-q6.5.md) | 2026-11-25 16:40:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q6.5][1] | Need notes and remaining work JSON | 7 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q6.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q6.3](bob-cli-q6.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q6.3](bob-cli-q6.3.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q6.6](bob-cli-q6.6.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
