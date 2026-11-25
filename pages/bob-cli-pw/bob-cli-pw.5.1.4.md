@@ -13,7 +13,7 @@ command-and-docs: add the clap leaf and dispatch over the completed services, cl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

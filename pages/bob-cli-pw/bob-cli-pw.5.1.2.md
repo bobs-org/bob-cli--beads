@@ -18,7 +18,7 @@ first-filing: add create/meet_route.rs using the prepared request, meeting PDF p
 ## Dependencies
 
 - **Depends on:** [bob-cli-pw.5.1.1](bob-cli-pw.5.1.1.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
@@ -31,3 +31,15 @@ first-filing: add create/meet_route.rs using the prepared request, meeting PDF p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bf30944`](https://github.com/bobs-org/bob-cli/commit/bf309445934ef16924565c4f48134400c038b7c7) | feat(meet): ingest meeting dossier with event re-root in one commit | [bob-cli-pw.5.1.2](bob-cli-pw.5.1.2.md) | 2026-11-24 19:09:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pw.5.1.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->

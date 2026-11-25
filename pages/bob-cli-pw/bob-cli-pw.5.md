@@ -33,7 +33,9 @@ ref-meet-cli: the CLI leaf wiring resolver, normalizer, print profile, and birth
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pw.4][1] | Check next phase scope to avoid overlap | 1 |
+| read-by | [agent:bob-cli-pw.5.1.2][2] | Need grandparent phase scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.2/README.md
 
 <!-- sase:referenced-by:end -->
