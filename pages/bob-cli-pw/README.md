@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/meeting_notes_event_refs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/meeting_notes_event_refs.md
 
@@ -34,6 +34,26 @@ One deliberate gesture, from the CLI, Obsidian, or Bob Mac Capture, files AI mee
 [2026-11-24T17:22:00Z · bob-cli-pl.1--4] DISCOVERED ISSUE: Additional impact of note #2 during bob-plugins conflict repair. BOB_CLI_DIR pointing at clean bob-cli 31131fe2 npm run docs:check (from bob-plugins) passed mounted-doc lint, drift, strict Zensical build, published URLs, offline links, edit links and search smoke, then exited 2 at executable tutorial because cargo build --locked --bin bob exited 101: dossier.rs:348 class_fence E0106 and normalize.rs:242 parse_next_step E0308. No bob-cli files changed in this repair. This corroborates the older-base build blocker already owned by pw.1; no duplicate task or fix request.
 
 [2026-11-24T21:35:47Z · bob-cli-px.land] DISCOVERED ISSUE: On clean master 2b3817fe (athena, 2026-11-24), `cargo test -p bob-obsidian --lib native::meetings::profile` deterministically fails 2/4 tests: transcript_appendix_starts_on_its_own_page and wispr_summary_renders_one_or_two_pages_with_stable_words. Real xelatex aborts on pass 1 with '! LaTeX Error: Can be used only in preamble.' at l.277 \\AtBeginDocument{\\hypersetup{pdftitle={...}}}. That line is emitted by src/native/highlights_ref/meeting_profile/meeting.lua:521, which places the pdftitle \\AtBeginDocument after \\begin{document}. The bug came from bob-cli-pw.3 (commit 2b3817fe); pw.3's note #2 reported 4/4 passing, so some later integration change apparently moved the hook out of the preamble. Reproduced in isolation (2 passed, 2 failed) and in the full `just check` lib run, where they were the only failures. Found by the bob-cli-px land agent; not caused by bob-cli-px.
+
+[2026-11-25T13:21:41Z · bob-cli-pw.land] FOLLOW-UP TRIAGE COMPLETE (bob-cli-pw land agent, before the repair-tale proposal):
+(1) pw.1 #1, intermittent stats completion tests: duplicate of bob-cli-gd; +1 recorded, with stats_clock named as a second node.
+(2) pw.2 #1, Zensical link from docs/develop/plugins/architecture.md:184: already fixed on master (now an absolute published URL); declined.
+(3) pw.3 #1 and pw.4 #1, props clippy: fixed by 3deee354; the later pw.5.1 and pw.8.1 just check runs passed; declined.
+(4) pw.6 #1 and #4, LINKED FROM mirror and reconcile day: moot per pw.6 #7; declined.
+(5) pw.6 #2, -p/--producer clap panic: fixed by 28e23886 (OsString parsers). I re-verified at HEAD 5ab392a1 with a real filing in a scratch vault using -p "Wispr Flow"; declined.
+(6) pw.6 #3: superseded by pw.6 #6 (rehang done); declined.
+(7) pw.6 #5, real Wispr paste fixture: filed with the plan's Deferred Copy-as-Markdown adapter as bob-cli-pz.
+(8) pw.6 #8 and epic note #1, recap layout vs the design of record: caused by the epic; remaining epic work in the repair tale.
+(9) epic note #4, meeting.lua emits \AtBeginDocument{\hypersetup{pdftitle}} after \begin{document}, which older LaTeX kernels reject: caused by the epic; repair tale. Removing it keeps all 4 profile tests passing, because the Title comes from pandoc's title metadata.
+(10) pw.7 #1, docs budgets and timing flakes: +1 on bob-cli-ob, bob-cli-jz, bob-cli-km, and bob-cli-io.
+(11) Plan Deferred items that first-use did not record: created features bob-cli-pz (Copy-as-Markdown adapter plus fixture), bob-cli-q0 (Wispr local-store adapter), bob-cli-q1 (layer-2 enrichment), bob-cli-q2 (owner-aware next-step offers), and bob-cli-q3 (notes from/notes in inverse pair and a prep for label). All are ready.
+Nested dispositions stand as recorded on bob-cli-pw.5.1 (#1, #3) and bob-cli-pw.8.1 (#2, #4).
+Further epic-caused gaps found in this audit go to the repair tale:
+- normalize_wispr treats a multi-line first paragraph as a heading. The dossier then carries a multi-line heading, and parse_dossier drops the non-list lines, so next-step words vanish from the recap. Repro: "Next steps\n(Ari) Ship" with no blank line after the heading.
+- The bob-plugins ref-meet adapter's Open event regex never matches bob's real receipt line "relation  notes from [[20261124#^id]]".
+- The ref meet --help text uses spec language ("Required codes", "Missing block IDs need an actionable refusal").
+- The receipt prints "(1 pages)", and the dry-run prints the Debug shape name.
+Integration: the non-epic commits since dbf405e3 are 31131fe2, 4b23bbef, fb946f9c, 3deee354, f07c2395, 976f53ba, 69e5fcb9, 447ef1a5, and 5ab392a1 (props, gmail, and a dev script). They overlap only in shared docs and catalog registries, which merged cleanly. Nothing needs to adopt the meetings feature. Mac 3931c308 (the native repairs) is on origin/master; its tree equals green snapshot e7b7bb3c, and exact-SHA run 45614436809 is green. No --epic-symbol entries; no symvision recipe; no parent bead.
 
 ## Phases
 
@@ -123,7 +143,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pw.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.2.md) | [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.3.md) | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 3 |
 | [bbugyi200.apollo.bob-cli-pw.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.land.md) | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 2 |
-| [bbugyi200.apollo.bob-cli-pw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.land/README.md) | [bob-cli-pw](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.land.md) | [bob-cli-pw](README.md) | 1 |
 
 ## Commits
 
@@ -151,6 +171,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@284417d`](https://github.com/bobs-org/bob-mac-capture/commit/284417d783db8a2c4626045bbc4e17458ee670b8) | test(mac-capture): fix MeetingNotesKeyRouter init order and status-menu assertions | [bob-cli-pw.8.1.3](bob-cli-pw.8.1.3.md) | 2026-11-25 04:21:58 EST |
 | bob-mac-capture | [`bob-mac-capture@3931c30`](https://github.com/bobs-org/bob-mac-capture/commit/3931c308b376904d063208e13f793691396e58cc) | fix(meetings): repair native Meeting Notes landing flows | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 2026-11-25 07:30:34 EST |
 | bob-cli--plans | [`bob-cli--plans@79c2b32`](https://github.com/bobs-org/bob-cli--plans/commit/79c2b325fda4eeb293391e9aed35ed5910444545) | docs(plan): mark mac\_meeting\_notes epic plan done | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 2026-11-25 07:31:58 EST |
+| bob-cli | [`f47055d`](https://github.com/bobs-org/bob-cli/commit/f47055dad542113dc21e6251828c2a3e4cfc7597) | fix(meetings): land meeting-notes repairs | [bob-cli-pw](README.md) | 2026-11-25 09:14:17 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -162,10 +183,12 @@ flowchart TD
 | read-by | [agent:bob-cli-pw.2][2] | Need parent epic scope and plan pointer | 1 |
 | read-by | [agent:bob-cli-pw.3][3] | Need parent epic phases and remaining work | 1 |
 | read-by | [agent:bob-cli-pw.4][4] | Need epic children status | 1 |
+| read-by | [agent:bob-cli-pw.8.1.land--3][5] | Confirm containing epic bob-cli-pw remains open after phase close | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.1.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.3/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.4/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.land.md
 
 <!-- sase:referenced-by:end -->

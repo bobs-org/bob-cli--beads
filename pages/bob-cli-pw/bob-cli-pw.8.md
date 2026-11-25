@@ -28,3 +28,15 @@ Green macOS snapshot: https://github.com/bobs-org/bob-mac-capture/actions/runs/4
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-pw.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.md) | [bob-cli-pw.8](bob-cli-pw.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pw.8.1.land--3][1] | Need parent phase status, children, and notes before closeout of pw.8.1 | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.land.md
+
+<!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_meeting_notes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_meeting_notes.md
 
 <!-- sase:links:end -->
@@ -62,3 +64,15 @@ docs-check known-unrelated plugin budgets remain at navigation 6029/6000 and plu
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@3931c30`](https://github.com/bobs-org/bob-mac-capture/commit/3931c308b376904d063208e13f793691396e58cc) | fix(meetings): repair native Meeting Notes landing flows | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 2026-11-25 07:30:34 EST |
 | bob-cli--plans | [`bob-cli--plans@79c2b32`](https://github.com/bobs-org/bob-cli--plans/commit/79c2b325fda4eeb293391e9aed35ed5910444545) | docs(plan): mark mac\_meeting\_notes epic plan done | [bob-cli-pw.8.1](bob-cli-pw.8.1.md) | 2026-11-25 07:31:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pw.8.1.land--3][1] | Need epic note and current status before recording CI evidence and closeout | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.8.1.land.md
+
+<!-- sase:referenced-by:end -->
