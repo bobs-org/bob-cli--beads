@@ -13,7 +13,7 @@ editor-policy-stages: add the swatch stage with a live tint preview, the type pi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.6](bob-cli-pl.6.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-pl.6](bob-cli-pl.6.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pl.9](bob-cli-pl.9.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

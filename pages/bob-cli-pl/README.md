@@ -40,7 +40,7 @@ Every area and project note opens with a calm property card (an Area Card or a P
 | [bob-cli-pl.3](bob-cli-pl.3.md) | The settings contract in bob props show, dry-run effects, and list issues (bob-cli) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-pl.4](bob-cli-pl.4.md) | Area Card and Project Card painted from local data (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.5](bob-cli-pl.5.md) | Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) | ✓ closed | medium | 2026-11-22 | 1 | 1 |
-| [bob-cli-pl.6](bob-cli-pl.6.md) | The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
+| [bob-cli-pl.6](bob-cli-pl.6.md) | The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.7](bob-cli-pl.7.md) | Hue, default type, and clock-policy stages (bob-plugins) | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.8](bob-cli-pl.8.md) | The Lives under stage with consequence preview and catalog refresh (bob-plugins) | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
 | [bob-cli-pl.9](bob-cli-pl.9.md) | Hide native Properties on area/project notes and arbitrate bank.md (bob-plugins + memory) | ◐ in_progress | large | 2026-11-22 | 1 | 0 |
@@ -59,13 +59,13 @@ flowchart TD
     n7["bob-cli-pl.4.1.2: Home-card host, title adoption, foot, and lifecycle integration [closed]"]
     n8["bob-cli-pl.4.1.3: Real-Obsidian acceptance, screenshots, and card documentation [closed]"]
     n9["bob-cli-pl.5: Report-backed lifecycle reasons, readouts, lint, and the ^prj goal line (bob-plugins) [closed]"]
-    n10["bob-cli-pl.6: The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) [in_progress]"]
-    n11["bob-cli-pl.6.1: Area and project settings in the Property Editor [in_progress]"]
+    n10["bob-cli-pl.6: The settings group in =+, ghost rows, simple stages, and == registration (bob-plugins) [closed]"]
+    n11["bob-cli-pl.6.1: Area and project settings in the Property Editor [closed]"]
     n12["bob-cli-pl.6.1.1: Return the resulting settings contract from property previews and writes [closed]"]
     n13["bob-cli-pl.6.1.2: Extend the Property Editor with contract groups and stable virtual rows [closed]"]
     n14["bob-cli-pl.6.1.3: Implement simple setting stages and clear-to-inherit through the shared session [closed]"]
     n15["bob-cli-pl.6.1.4: Route area and project settings entry points and project task handoffs [closed]"]
-    n16["bob-cli-pl.6.1.5: Verify settings behavior and visuals in real Obsidian [in_progress]"]
+    n16["bob-cli-pl.6.1.5: Verify settings behavior and visuals in real Obsidian [closed]"]
     n17["bob-cli-pl.7: Hue, default type, and clock-policy stages (bob-plugins) [in_progress]"]
     n18["bob-cli-pl.8: The Lives under stage with consequence preview and catalog refresh (bob-plugins) [in_progress]"]
     n19["bob-cli-pl.9: Hide native Properties on area/project notes and arbitrate bank.md (bob-plugins + memory) [in_progress]"]
@@ -125,8 +125,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.2.md) | [bob-cli-pl.6.1.2](bob-cli-pl.6.1.2.md) | 3 |
 | [bbugyi200.apollo.bob-cli-pl.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.3/README.md) | [bob-cli-pl.6.1.3](bob-cli-pl.6.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.4/README.md) | [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.5/README.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
-| [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.7/README.md) | [bob-cli-pl.7](bob-cli-pl.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.8/README.md) | [bob-cli-pl.8](bob-cli-pl.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9/README.md) | [bob-cli-pl.9](bob-cli-pl.9.md) | 0 |
@@ -163,6 +163,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@689da09`](https://github.com/bobs-org/bob-plugins/commit/689da09262ecd1492cc1bc52e84cebad2fb79631) | test(settings): unblock Obsidian acceptance and cover setting writes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:10:32 EST |
 | bob-plugins | [`bob-plugins@fd2a290`](https://github.com/bobs-org/bob-plugins/commit/fd2a2907fdba71ee5389d73a330eef30897b3746) | test(settings): correct Obsidian fixtures and visible acceptance probes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:43:55 EST |
 | bob-plugins | [`bob-plugins@9d30502`](https://github.com/bobs-org/bob-plugins/commit/9d3050229114783c4b7647ad8a0e6fa5910d9e64) | fix(property-editor): pass settings acceptance in real Obsidian | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 17:09:12 EST |
+| bob-plugins | [`bob-plugins@ea3bc6a`](https://github.com/bobs-org/bob-plugins/commit/ea3bc6a42500cb93ea77f69f4e50fbd7adf44261) | fix(property-editor): keep setting notes above Save/Cancel and show Review scope once | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2026-11-25 18:11:31 EST |
 
 <!-- sase:referenced-by:start -->
 

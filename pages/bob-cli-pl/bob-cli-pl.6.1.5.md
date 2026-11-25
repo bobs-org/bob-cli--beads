@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-pl.6.1](bob-cli-pl.6.1.md) / bob-cli-pl.6.1.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-pl.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.md) · **Assignee:** `bob-cli-pl.6.1.5` · **Size:** medium
-**Created:** 2026-11-24 15:49:21 EST
+**Created:** 2026-11-24 15:49:21 EST · **Closed:** 2026-11-25 17:41:43 EST
 **Plan:** [202611/area\_project\_settings.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/area_project_settings.md)
 
 <!-- sase:links:start -->
@@ -64,9 +64,9 @@
 | related | file:explicit:a4c35a9f39b9398dbcf72f92 | attached via sase artifact create --bead |
 | related | file:explicit:a7aad6122b88c9990f221c94 | attached via sase artifact create --bead |
 
-_… and 34 more_
+_… and 35 more_
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -102,7 +102,7 @@ All24 generic parity shots now show legible rows/controls; all4 paste screenshot
 
 Independent checks: base6906848/current3e851f0 have identical album held-lock error already tracked by bob-cli-n0. Base unit9541/9542 + perf25/26; current unit9540/9542 + perf26/26. The other full-suite errors differ (base link-index16.9ms chunk; current frees-marks29.148ms CPU), and frees-marks passes17/17 on both trees in isolation, so no new timing follow-up is claimed as identical. Both bas
 
-… and 6069 more characters
+… and 9056 more characters
 
 ## Attachments
 
@@ -116,7 +116,7 @@ Independent checks: base6906848/current3e851f0 have identical album held-lock er
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.5/README.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
 
 ## Commits
 
@@ -139,6 +139,7 @@ Independent checks: base6906848/current3e851f0 have identical album held-lock er
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.6.1.5][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--2][1] | Review acceptance scope and prior evidence | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--3][1] | Recover assigned acceptance scope and previous evidence | 3 |
