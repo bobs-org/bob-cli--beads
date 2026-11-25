@@ -23,4 +23,4 @@ settle-twin: port `settle_note` to bob-ledger-tools, pinned byte for byte by cop
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8/README.md) | [bob-cli-q4.8](bob-cli-q4.8.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.8.md) | [bob-cli-q4.8](bob-cli-q4.8.md) | 0 |

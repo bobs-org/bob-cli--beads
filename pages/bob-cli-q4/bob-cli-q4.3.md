@@ -20,7 +20,7 @@ settle-core: extract reconcile's note-local subset (the local future-schedule Bl
 ## Dependencies
 
 - **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.6](bob-cli-q4.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.6](bob-cli-q4.6.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.7](bob-cli-q4.7.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.8](bob-cli-q4.8.md) ◐ · ⧖ 2026-11-25
 
@@ -35,3 +35,15 @@ settle-core: extract reconcile's note-local subset (the local future-schedule Bl
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9395683`](https://github.com/bobs-org/bob-cli/commit/9395683818ef4a11527fda82c5290e20ef6aebe6) | feat(task): add pure note settle helper | [bob-cli-q4.3](bob-cli-q4.3.md) | 2026-11-25 10:18:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.3--1][1] | Need the phase scope, design file, notes, and decisions before completing verification | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.3.md
+
+<!-- sase:referenced-by:end -->
