@@ -22,7 +22,7 @@ mirror-guard: fix bead bob-cli-py. Check the debounced dependency and mention mi
 ## Dependencies
 
 - **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.5](bob-cli-q4.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.5](bob-cli-q4.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
