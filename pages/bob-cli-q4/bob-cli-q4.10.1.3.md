@@ -31,3 +31,15 @@ cards: wire the remaining Task Card, schedule, priority, quick-roll, counted, li
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@ca07830`](https://github.com/bobs-org/bob-plugins/commit/ca07830a685418b05d9bf91964901095b61964ad) | feat(navigation): settle task card, schedule, priority, and quick-roll commits | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 2026-11-25 16:45:54 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.10.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md
+
+<!-- sase:referenced-by:end -->
