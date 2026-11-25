@@ -17,7 +17,7 @@ shared-place: introduce capture_language/place.rs with TaskDrawer, ProjectSectio
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ph.6.1.2](bob-cli-ph.6.1.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.6.1.2](bob-cli-ph.6.1.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

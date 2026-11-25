@@ -7,6 +7,16 @@
 **Created:** 2026-11-25 08:48:55 EST
 **Plan:** [202611/obsidian\_true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_true_case_drawers.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:e9988819b2a7e52753c34291 | attached via sase artifact create --bead |
+
+<!-- sase:links:end -->
+
 ## Description
 
 obsidian-acceptance: exercise the integrated feature in an isolated Obsidian vault, inspect and publish light/dark screenshots, update the behavior docs, and record verified deployment evidence.

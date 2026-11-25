@@ -13,7 +13,7 @@ place-titles: complete the shared create-title rule for quoted, glued, flag, and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.6.1.2](bob-cli-ph.6.1.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.6.1.2](bob-cli-ph.6.1.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.6.1.4](bob-cli-ph.6.1.4.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

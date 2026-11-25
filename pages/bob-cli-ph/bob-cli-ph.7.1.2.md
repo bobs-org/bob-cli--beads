@@ -29,15 +29,7 @@ drawer-rendering: render the approved tray and verbatim title using source-backe
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.2.md) | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 3 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@2796d63`](https://github.com/bobs-org/bob-plugins/commit/2796d63dc79b3c5e44d113a5b2aae4bbc2ee4ad8) | feat(drawers): add task drawer marks in Obsidian | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 2026-11-25 10:11:25 EST |
-| bob-plugins | [`bob-plugins@5ed3bd2`](https://github.com/bobs-org/bob-plugins/commit/5ed3bd22603800d8d2c73f4a2b0ddeb2b494206c) | fix(bob-ledger-tools): export task drawer helpers after initialization | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 2026-11-25 10:25:15 EST |
-| bob-plugins | [`bob-plugins@1753d73`](https://github.com/bobs-org/bob-plugins/commit/1753d730133fd125e4b32cd53bd8223efc4ff47b) | docs(bob-ledger-tools): list task drawer marks command | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 2026-11-25 10:33:52 EST |
+| [bbugyi200.apollo.bob-cli-ph.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.2.md) | [bob-cli-ph.7.1.2](bob-cli-ph.7.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -47,7 +39,9 @@ drawer-rendering: render the approved tray and verbatim title using source-backe
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.7.1.2--1][1] | Need the phase scope, decisions, and current status before completing its verification | 1 |
 | read-by | [agent:bob-cli-ph.7.1.2--2][1] | Confirm assigned scope and existing verification notes before continuing | 1 |
+| read-by | [agent:bob-cli-ph.7.1.3][2] | Check what drawer-rendering phase landed to build typing on top | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md
 
 <!-- sase:referenced-by:end -->
