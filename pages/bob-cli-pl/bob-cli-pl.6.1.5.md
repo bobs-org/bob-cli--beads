@@ -59,12 +59,12 @@
 | related | file:explicit:8e08cc4bfd0c453564c2812f | attached via sase artifact create --bead |
 | related | file:explicit:8f8cccda01e4ecab5e121689 | attached via sase artifact create --bead |
 | related | file:explicit:92040ed849846fdf0c78fcb1 | attached via sase artifact create --bead |
+| related | file:explicit:935580a3605b66b0a8062706 | attached via sase artifact create --bead |
 | related | file:explicit:9a122bd6dbc3cbe6b8dc0bf6 | attached via sase artifact create --bead |
 | related | file:explicit:a4c35a9f39b9398dbcf72f92 | attached via sase artifact create --bead |
 | related | file:explicit:a7aad6122b88c9990f221c94 | attached via sase artifact create --bead |
-| related | file:explicit:ae7eed0a50602d4baca2d591 | attached via sase artifact create --bead |
 
-_… and 32 more_
+_… and 34 more_
 
 _Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
@@ -102,7 +102,7 @@ All24 generic parity shots now show legible rows/controls; all4 paste screenshot
 
 Independent checks: base6906848/current3e851f0 have identical album held-lock error already tracked by bob-cli-n0. Base unit9541/9542 + perf25/26; current unit9540/9542 + perf26/26. The other full-suite errors differ (base link-index16.9ms chunk; current frees-marks29.148ms CPU), and frees-marks passes17/17 on both trees in isolation, so no new timing follow-up is claimed as identical. Both bas
 
-… and 1710 more characters
+… and 6069 more characters
 
 ## Attachments
 
@@ -116,7 +116,7 @@ Independent checks: base6906848/current3e851f0 have identical album held-lock er
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.6.1.5.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 12 |
+| [bbugyi200.apollo.bob-cli-pl.6.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.5/README.md) | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 10 |
 
 ## Commits
 
@@ -131,9 +131,7 @@ Independent checks: base6906848/current3e851f0 have identical album held-lock er
 | bob-plugins | [`bob-plugins@475527c`](https://github.com/bobs-org/bob-plugins/commit/475527caa1eee0469d7553de51b503a4e8237afb) | test(bob-ledger-tools): expand managed group before protected copy | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 12:14:58 EST |
 | bob-plugins | [`bob-plugins@689da09`](https://github.com/bobs-org/bob-plugins/commit/689da09262ecd1492cc1bc52e84cebad2fb79631) | test(settings): unblock Obsidian acceptance and cover setting writes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:10:32 EST |
 | bob-plugins | [`bob-plugins@fd2a290`](https://github.com/bobs-org/bob-plugins/commit/fd2a2907fdba71ee5389d73a330eef30897b3746) | test(settings): correct Obsidian fixtures and visible acceptance probes | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 13:43:55 EST |
-| bob-plugins | [`bob-plugins@3e851f0`](https://github.com/bobs-org/bob-plugins/commit/3e851f0686cbf853cfe2d192ab7b1456b1d4cf57) | fix(properties): keep settings values and paste controls visible | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:17:41 EST |
-| bob-plugins | [`bob-plugins@968c4db`](https://github.com/bobs-org/bob-plugins/commit/968c4dbf1468f7c3bbbf2414894cdaeb8eef3fe9) | fix(properties): keep settings values and paste controls visible | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:35:32 EST |
-| bob-plugins | [`bob-plugins@9ae7c44`](https://github.com/bobs-org/bob-plugins/commit/9ae7c4422b957420fff6af4179f1367dd540a89d) | fix(properties): verify capture warnings and wrap narrow headers | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 14:51:55 EST |
+| bob-plugins | [`bob-plugins@9d30502`](https://github.com/bobs-org/bob-plugins/commit/9d3050229114783c4b7647ad8a0e6fa5910d9e64) | fix(property-editor): pass settings acceptance in real Obsidian | [bob-cli-pl.6.1.5](bob-cli-pl.6.1.5.md) | 2026-11-25 17:09:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -143,7 +141,7 @@ Independent checks: base6906848/current3e851f0 have identical album held-lock er
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-pl.6.1.5--1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--2][1] | Review acceptance scope and prior evidence | 1 |
-| read-by | [agent:bob-cli-pl.6.1.5--3][1] | Need current phase scope and blockers before recording acceptance evidence | 1 |
+| read-by | [agent:bob-cli-pl.6.1.5--3][1] | Recover assigned acceptance scope and previous evidence | 3 |
 | read-by | [agent:bob-cli-pl.6.1.5--4][1] | Inspect assigned phase status, existing notes, and any remaining work before finishing acceptance | 1 |
 | read-by | [agent:bob-cli-pl.6.1.5--5][1] | Verify all failed acceptance artifacts are linked before rerunning | 2 |
 | read-by | [agent:bob-cli-pl.6.1.5--7][1] | Verify all failed settings acceptance evidence references are attached before fixing the harness | 1 |
