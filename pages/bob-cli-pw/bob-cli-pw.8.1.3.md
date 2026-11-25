@@ -14,7 +14,7 @@ meet-panel: integrate the portable session into a native Meeting Notes mode, Com
 ## Dependencies
 
 - **Depends on:** [bob-cli-pw.8.1.1](bob-cli-pw.8.1.1.md) ◐ · ⧖ 2026-11-24
-- **Depends on:** [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.8.1.2](bob-cli-pw.8.1.2.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
