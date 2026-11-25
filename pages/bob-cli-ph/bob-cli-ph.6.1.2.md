@@ -41,7 +41,9 @@ bold-drafts: replace ALL-CAPS authored container detection with whole-bold heade
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.6.1.2][1] | Need the phase scope, notes, design file, and epic decisions before completing assigned work | 5 |
+| read-by | [agent:bob-cli-ph.6.1.3][2] | Need 6.1.2 follow-up wording for docs-check overage | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.3/README.md
 
 <!-- sase:referenced-by:end -->
