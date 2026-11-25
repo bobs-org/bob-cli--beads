@@ -26,10 +26,11 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1ca74ec`](https://github.com/bobs-org/bob-cli/commit/1ca74ece68165cc6fc07af59fe4e2bedf7519f4f) | docs(bank): document evidence-gated Properties | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:24:50 EST |
+| bob-plugins | [`bob-plugins@b2e6ea1`](https://github.com/bobs-org/bob-plugins/commit/b2e6ea1f02e1510df1c8dece7e034c32adf2101e) | feat(property-card): gate Properties takeover on evidence | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:29:15 EST |
