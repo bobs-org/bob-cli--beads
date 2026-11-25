@@ -35,3 +35,15 @@ settings-entrypoints: register area/project in the existing registry, route card
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@876782f`](https://github.com/bobs-org/bob-plugins/commit/876782fed9878db3a1f3db5f0c33bb8ed4d6ab7d) | feat(props): route area/project settings entry points and project task handoffs | [bob-cli-pl.6.1.4](bob-cli-pl.6.1.4.md) | 2026-11-25 06:41:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.6.1.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.4/README.md
+
+<!-- sase:referenced-by:end -->
