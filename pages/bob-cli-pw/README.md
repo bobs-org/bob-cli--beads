@@ -62,7 +62,7 @@ flowchart TD
     n7["bob-cli-pw.5.1.1: Prepare meeting filings and render structured reports [closed]"]
     n8["bob-cli-pw.5.1.2: Ingest a meeting dossier with its event re-root in one commit [closed]"]
     n9["bob-cli-pw.5.1.3: Replace meeting notes while preserving recap ownership and task identity [closed]"]
-    n10["bob-cli-pw.5.1.4: Expose the complete ref meet CLI and document its contract [in_progress]"]
+    n10["bob-cli-pw.5.1.4: Expose the complete ref meet CLI and document its contract [closed]"]
     n11["bob-cli-pw.6: File the first meeting's notes [in_progress]"]
     n12["bob-cli-pw.7: Obsidian surfaces for meeting notes [in_progress]"]
     n13["bob-cli-pw.8: Bob Mac Capture meeting-notes mode and Meetings kind [in_progress]"]
@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pw.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.5.1.1.md) | [bob-cli-pw.5.1.1](bob-cli-pw.5.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.2/README.md) | [bob-cli-pw.5.1.2](bob-cli-pw.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.3/README.md) | [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pw.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.4/README.md) | [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.4/README.md) | [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pw.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.land/README.md) | [bob-cli-pw.5.1](bob-cli-pw.5.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.6/README.md) | [bob-cli-pw.6](bob-cli-pw.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pw.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.7/README.md) | [bob-cli-pw.7](bob-cli-pw.7.md) | 0 |
@@ -123,6 +123,7 @@ flowchart TD
 | bob-cli | [`15fd03b`](https://github.com/bobs-org/bob-cli/commit/15fd03b24c40308ed63bceeff26d4f65e2313c28) | feat(ref-meet): prepare meeting filings and reports | [bob-cli-pw.5.1.1](bob-cli-pw.5.1.1.md) | 2026-11-24 17:14:35 EST |
 | bob-cli | [`bf30944`](https://github.com/bobs-org/bob-cli/commit/bf309445934ef16924565c4f48134400c038b7c7) | feat(meet): ingest meeting dossier with event re-root in one commit | [bob-cli-pw.5.1.2](bob-cli-pw.5.1.2.md) | 2026-11-24 19:09:20 EST |
 | bob-cli | [`c5fa6da`](https://github.com/bobs-org/bob-cli/commit/c5fa6da65e33d16ac6591ec2ec32c0280a47bbdf) | feat(meet): overwrite filed notes while preserving recap and identity | [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) | 2026-11-24 20:14:27 EST |
+| bob-cli | [`e4c96b0`](https://github.com/bobs-org/bob-cli/commit/e4c96b055ba33cf57962e33fb501700c86c5f264) | feat(ref): add public bob ref meet leaf for filing meeting notes | [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) | 2026-11-24 22:18:33 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -20,7 +20,7 @@ replacement: wire meeting overwrite into the existing recapture/overwrite transa
 ## Dependencies
 
 - **Depends on:** [bob-cli-pw.5.1.2](bob-cli-pw.5.1.2.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pw.5.1.4](bob-cli-pw.5.1.4.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
@@ -33,3 +33,15 @@ replacement: wire meeting overwrite into the existing recapture/overwrite transa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`c5fa6da`](https://github.com/bobs-org/bob-cli/commit/c5fa6da65e33d16ac6591ec2ec32c0280a47bbdf) | feat(meet): overwrite filed notes while preserving recap and identity | [bob-cli-pw.5.1.3](bob-cli-pw.5.1.3.md) | 2026-11-24 20:14:27 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pw.5.1.3][1] | Need the phase scope, design file, notes, and current status before continuing | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->
