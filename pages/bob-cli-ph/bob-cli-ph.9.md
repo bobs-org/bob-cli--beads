@@ -14,7 +14,7 @@ vault-migration: confirm every host writes bold, inventory the legacy drawers, a
 ## Dependencies
 
 - **Blocks:** [bob-cli-ph.10](bob-cli-ph.10.md) ◐ · ⧖ 2026-11-22
-- **Depends on:** [bob-cli-ph.5](bob-cli-ph.5.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-ph.5](bob-cli-ph.5.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.6](bob-cli-ph.6.md) ◐ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.7](bob-cli-ph.7.md) ◐ · ⧖ 2026-11-22
 

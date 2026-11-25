@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ph](README.md) / bob-cli-ph.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5x.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5x.linker.w0.md) · **Assignee:** `bob-cli-ph.5` · **Size:** medium
-**Created:** 2026-11-22 17:36:48 EST
+**Created:** 2026-11-22 17:36:48 EST · **Closed:** 2026-11-25 09:52:42 EST
 **Plan:** [202611/true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md)
 
 ## Description
@@ -14,6 +14,8 @@ drawer-rename: `bob task rename-drawer` writes NEW verbatim, allows case-only re
 ## Notes
 
 [2026-11-25T14:26:18Z · bob-cli-ph.5] PROPOSED FOLLOW-UP: docs-check plugin page budgets — docs/reference/plugins/bob-navigation-hotkeys.md is 46 words over its 6000-word cap and docs/develop/plugins/plugin-apis.md warns at 9287/8000; both reproduce identically on clean HEAD.
+
+[2026-11-25T14:52:42Z · bob-cli-ph.5--1] Verified landed rename/inventory implementation; focused unit and CLI tests, docs generation, and monitored just check passed. Clean-base docs-check overages are recorded as a proposed follow-up; no epic symbols remain.
 
 ## Dependencies
 
