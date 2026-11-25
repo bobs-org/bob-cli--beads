@@ -46,7 +46,7 @@ Smoke: apollo lacks xvfb-run/Obsidian; ran on athena from a detached worktree at
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.1](bob-cli-ph.1.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-ph.3](bob-cli-ph.3.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.3](bob-cli-ph.3.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

@@ -13,7 +13,7 @@ bob-writers: every bob-cli writer creates `- **Title**` and `- **Notes**` header
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.3](bob-cli-ph.3.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-ph.3](bob-cli-ph.3.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.5](bob-cli-ph.5.md) ◐ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.6](bob-cli-ph.6.md) ◐ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.7](bob-cli-ph.7.md) ◐ · ⧖ 2026-11-22
@@ -23,3 +23,15 @@ bob-writers: every bob-cli writer creates `- **Title**` and `- **Notes**` header
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ph.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.4/README.md) | [bob-cli-ph.4](bob-cli-ph.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:g1][1] | Check whether phase is blocked on the release gate | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+
+<!-- sase:referenced-by:end -->
