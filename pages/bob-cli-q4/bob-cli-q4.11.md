@@ -37,3 +37,17 @@ link-settle: tier-1 settle on block-id-prompt's Ctrl+Shift+Enter target writes a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b68f447`](https://github.com/bobs-org/bob-plugins/commit/b68f447af4b870da8b130e007db34b24050c18fd) | feat(block-id-prompt): settle Ctrl+Shift+Enter target writes via taskSettle v1 | [bob-cli-q4.11](bob-cli-q4.11.md) | 2026-11-25 15:19:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.11--1][1] | Confirm closed status after recovery verification and final submit | 2 |
+| read-by | [agent:bob-cli-q4.9.1.1][2] | Need q4.11 scope to rebase settle-bridge over ledger-tools changes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md
+
+<!-- sase:referenced-by:end -->

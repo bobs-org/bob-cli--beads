@@ -37,7 +37,7 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 |---|---|---|---|---|---:|---:|
 | [bob-cli-q4.1](bob-cli-q4.1.md) | Hand-edit mirror never writes across notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.10](bob-cli-q4.10.md) | Navigation gestures settle both notes they write | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
-| [bob-cli-q4.11](bob-cli-q4.11.md) | Link and Pomodoro target writes settle their target notes | ✓ closed | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q4.11](bob-cli-q4.11.md) | Link and Pomodoro target writes settle their target notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.12](bob-cli-q4.12.md) | Ctrl+Shift+O opens a note where note\_home says | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.13](bob-cli-q4.13.md) | End-to-end settle acceptance and re-measure | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.2](bob-cli-q4.2.md) | o and O open real siblings after the whole subtree | ✓ closed | medium | 2026-11-25 | 1 | 1 |
@@ -80,7 +80,7 @@ flowchart TD
     n24["bob-cli-q4.9: Cycler gestures settle, including recurring spawns and cycling [in_progress]"]
     n25["bob-cli-q4.9.1: Settle cycler gestures without moving rapid-cycle targets [in_progress]"]
     n26["bob-cli-q4.9.1.1: Guarded cycler bridge and observable pending outcomes [closed]"]
-    n27["bob-cli-q4.9.1.2: Settle local and transcluded closes before walk continuation [in_progress]"]
+    n27["bob-cli-q4.9.1.2: Settle local and transcluded closes before walk continuation [closed]"]
     n28["bob-cli-q4.9.1.3: Settle promotion and committed open-line scaffolds [in_progress]"]
     n29["bob-cli-q4.9.1.4: Settle cycle bursts and verify the integrated gesture contract [in_progress]"]
     n0 --> n1
@@ -155,13 +155,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.1/README.md) | [bob-cli-q4.1](bob-cli-q4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.md) | [bob-cli-q4.10](bob-cli-q4.10.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md) | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.2/README.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md) | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.4/README.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.5/README.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.12/README.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md) | [bob-cli-q4.13](bob-cli-q4.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md) | [bob-cli-q4.2](bob-cli-q4.2.md) | 1 |
@@ -205,6 +205,8 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@c3b80bc`](https://github.com/bobs-org/bob-cli--plans/commit/c3b80bcdc5361045817367c81cecfc0e72320c35) | docs(plan): mark task\_settle\_twin done after provider closeout | [bob-cli-q4.8.1](bob-cli-q4.8.1.md) | 2026-11-25 14:23:01 EST |
 | bob-plugins | [`bob-plugins@f224bc7`](https://github.com/bobs-org/bob-plugins/commit/f224bc725d29b6402e8e537f9b69cc6c2dc61aa6) | feat(nav): add guarded taskSettle v1 consumer and command flush | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 2026-11-25 15:03:41 EST |
 | bob-plugins | [`bob-plugins@071e0e9`](https://github.com/bobs-org/bob-plugins/commit/071e0e9fa3bdbd0ec93fe938fef6b9f20ca3d7d9) | feat(task-status-cycler): add guarded taskSettle bridge and pending onSettled | [bob-cli-q4.9.1.1](bob-cli-q4.9.1.1.md) | 2026-11-25 15:11:35 EST |
+| bob-plugins | [`bob-plugins@b68f447`](https://github.com/bobs-org/bob-plugins/commit/b68f447af4b870da8b130e007db34b24050c18fd) | feat(block-id-prompt): settle Ctrl+Shift+Enter target writes via taskSettle v1 | [bob-cli-q4.11](bob-cli-q4.11.md) | 2026-11-25 15:19:16 EST |
+| bob-plugins | [`bob-plugins@9991e67`](https://github.com/bobs-org/bob-plugins/commit/9991e674d4dd95421afc8d2461dd0d5bc491b094) | feat(nav): settle lane and freshness answers atomically | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2026-11-25 15:50:18 EST |
 
 <!-- sase:referenced-by:start -->
 

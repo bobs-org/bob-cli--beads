@@ -21,7 +21,7 @@ settle-bridge: add a call-time consumer bridge and optional pending-result callb
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q4.9.1.2](bob-cli-q4.9.1.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.9.1.2](bob-cli-q4.9.1.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
@@ -34,3 +34,15 @@ settle-bridge: add a call-time consumer bridge and optional pending-result callb
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@071e0e9`](https://github.com/bobs-org/bob-plugins/commit/071e0e9fa3bdbd0ec93fe938fef6b9f20ca3d7d9) | feat(task-status-cycler): add guarded taskSettle bridge and pending onSettled | [bob-cli-q4.9.1.1](bob-cli-q4.9.1.1.md) | 2026-11-25 15:11:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.9.1.1][1] | Need notes, DECISIONS, and remaining description after compaction | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md
+
+<!-- sase:referenced-by:end -->

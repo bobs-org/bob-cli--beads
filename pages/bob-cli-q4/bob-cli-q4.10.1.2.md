@@ -20,4 +20,10 @@ answers: wire Alt+N, Alt+X, counted and linked variants, freshness keeps, Decay 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.2/README.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@9991e67`](https://github.com/bobs-org/bob-plugins/commit/9991e674d4dd95421afc8d2461dd0d5bc491b094) | feat(nav): settle lane and freshness answers atomically | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2026-11-25 15:50:18 EST |
