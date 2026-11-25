@@ -157,7 +157,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md) | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md) | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.5/README.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
@@ -213,6 +213,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ca07830`](https://github.com/bobs-org/bob-plugins/commit/ca07830a685418b05d9bf91964901095b61964ad) | feat(navigation): settle task card, schedule, priority, and quick-roll commits | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 2026-11-25 16:45:54 EST |
 | bob-plugins | [`bob-plugins@6d36434`](https://github.com/bobs-org/bob-plugins/commit/6d364347bcfcfcd7475e5e7a0a8684106cb28453) | feat(task-status-cycler): settle cycle bursts | [bob-cli-q4.9.1.4](bob-cli-q4.9.1.4.md) | 2026-11-25 17:09:24 EST |
 | bob-plugins | [`bob-plugins@0e8c70b`](https://github.com/bobs-org/bob-plugins/commit/0e8c70b7fbbf65c33e4810ced2fdf17e4d9f1219) | feat(navigation): settle move and split postimages | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 17:14:50 EST |
+| bob-plugins | [`bob-plugins@24dbb8a`](https://github.com/bobs-org/bob-plugins/commit/24dbb8a1e56b68701da356c5aac475e6132b0074) | test(navigation): respect live source path during split carry | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 17:24:16 EST |
 
 <!-- sase:referenced-by:start -->
 
