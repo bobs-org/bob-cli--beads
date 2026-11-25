@@ -21,7 +21,7 @@ settle-core: extract reconcile's note-local subset (the local future-schedule Bl
 
 - **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.6](bob-cli-q4.6.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.7](bob-cli-q4.7.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.7](bob-cli-q4.7.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.8](bob-cli-q4.8.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

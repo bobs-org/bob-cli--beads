@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_settle_twin.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_settle_twin.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-q4.8 with a Rust-parity pure JS settle transform, guarded edito
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.8.1.1][1] | need parent epic scope | 1 |
+| read-by | [agent:bob-cli-q4.8.1.2][2] | Need parent epic DECISIONS and design file | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.8.1.2/README.md
 
 <!-- sase:referenced-by:end -->

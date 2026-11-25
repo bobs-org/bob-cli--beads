@@ -24,20 +24,19 @@ layout-parity: fix bead bob-cli-pn so plain Task Split writes LINKED FROM in the
 - **Depends on:** [bob-cli-q4.1](bob-cli-q4.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.10](bob-cli-q4.10.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.7](bob-cli-q4.7.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.7](bob-cli-q4.7.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.5.md) | [bob-cli-q4.5](bob-cli-q4.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-q4.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.5.md) | [bob-cli-q4.5](bob-cli-q4.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`814b658`](https://github.com/bobs-org/bob-cli/commit/814b6583e63165a4f2419158af50d4774fc8b034) | fix(task-split): route plain-split back-link through managed-link zone | [bob-cli-q4.5](bob-cli-q4.5.md) | 2026-11-25 10:19:06 EST |
-| bob-plugins | [`bob-plugins@eac9d74`](https://github.com/bobs-org/bob-plugins/commit/eac9d7448d056e60af1e0f4224554c6ca1ed28d2) | fix(nav-split): mirror managed back-link and BLOCKS-after-Depends-On order | [bob-cli-q4.5](bob-cli-q4.5.md) | 2026-11-25 10:19:46 EST |
 
 <!-- sase:referenced-by:start -->
 
