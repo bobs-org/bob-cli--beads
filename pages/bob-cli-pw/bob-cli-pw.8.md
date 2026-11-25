@@ -13,7 +13,7 @@ mac-surfaces: bob-mac-capture adds a Meeting Notes mode (hotkey, menu item, and 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pw.5](bob-cli-pw.5.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.5](bob-cli-pw.5.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

@@ -13,7 +13,7 @@ obsidian-surfaces: bob-plugins adds a Command Mode FOR THIS NOTE row for the Eve
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pw.5](bob-cli-pw.5.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.5](bob-cli-pw.5.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

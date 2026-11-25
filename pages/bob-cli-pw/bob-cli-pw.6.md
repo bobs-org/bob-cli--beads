@@ -13,10 +13,10 @@ first-use: run the new command on the real notes file against the live vault, ve
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pw.5](bob-cli-pw.5.md) ◐ · ⧖ 2026-11-24
+- **Depends on:** [bob-cli-pw.5](bob-cli-pw.5.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pw.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pw.6/README.md) | [bob-cli-pw.6](bob-cli-pw.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pw.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pw.6.md) | [bob-cli-pw.6](bob-cli-pw.6.md) | 0 |

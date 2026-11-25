@@ -20,7 +20,7 @@ meeting-birth: intake and sync births for a meetings PDF whose marker carries `e
 ## Dependencies
 
 - **Depends on:** [bob-cli-pw.1](bob-cli-pw.1.md) ✓ · ⧖ 2026-11-24
-- **Blocks:** [bob-cli-pw.5](bob-cli-pw.5.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pw.5](bob-cli-pw.5.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 

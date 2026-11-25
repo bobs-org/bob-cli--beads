@@ -19,7 +19,7 @@ meeting-resolver: read-only meetings module that resolves EVENT tokens, scores a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-pw.5](bob-cli-pw.5.md) ◐ · ⧖ 2026-11-24
+- **Blocks:** [bob-cli-pw.5](bob-cli-pw.5.md) ✓ · ⧖ 2026-11-24
 
 ## Agents
 
