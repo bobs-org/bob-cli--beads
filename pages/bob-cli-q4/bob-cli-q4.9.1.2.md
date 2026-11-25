@@ -39,3 +39,15 @@ close-settle: integrate tier-1 settle into Ctrl+Enter, completeTaskAtCursor, and
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@77bb466`](https://github.com/bobs-org/bob-plugins/commit/77bb466ec78741f88b439edcb31751cf199745c4) | feat(task-status-cycler): settle local and transcluded closes before walk continuation | [bob-cli-q4.9.1.2](bob-cli-q4.9.1.2.md) | 2026-11-25 15:50:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.9.1.2][1] | Need design details notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.2/README.md
+
+<!-- sase:referenced-by:end -->

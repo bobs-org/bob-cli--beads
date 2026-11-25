@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/navigation_gesture_settle.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/navigation_gesture_settle.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-q4.10 by making every in-scope navigation status or residence w
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.1][1] | Need epic DECISIONS and phase list for settle-bridge | 2 |
+| read-by | [agent:bob-cli-q4.10.1.2--1][2] | Need parent epic decisions and phase history before continuing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md
 
 <!-- sase:referenced-by:end -->
