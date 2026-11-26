@@ -31,18 +31,6 @@ Complete bob-cli-q5.4 so Obsidian excludes snoozed tasks from review and dashboa
 
 [2026-11-26T17:12:58Z · bob-cli-q5.4.1.land] LAND TRIAGE (bob-cli-q5.4.1.land, 2026-11-26): (1) bob-cli-q5.4.1.1 #1 and bob-cli-q5.4.1.3 #1, frontmatter-takeover e2e self-test failure: DECLINED, no longer reproduces. Full npm test on the integrated tree (bob-plugins e36ddc68) passes 9902/9906 with 4 skipped and 0 failed; bob-cli-qi.3's 8e6a5a61 rewrote that harness. (2) bob-cli-q5.4.1.1 #3, bob-emoji tracked in vault Git: DUPLICATE, +1 recorded on existing bob-cli-cd (ready, now +3), still reproduces. (3) bob-cli-q5.4.1.2 #3, MEET-substring Event heuristic (snoozedIsEventTask): KEPT AS EPIC WORK, caused by this epic. The landing tale replaces it with the structural Rust event_task_at rule (canonical daily note plus ## Events section). (4) bob-cli-q5.4.1.2 #4, Today-only gesture predicates: task-status-cycler projectRecoveryTaskIsToday and the successor hasLiveLink isToday scope are KEPT AS EPIC WORK (SP14 parity flagged for later phases of this epic, never done). Nav 195-rotten-keep freshnessTargetIsToday is DECLINED: snoozed rows carry no review tier, so the rottenKeepIsDueRung gate already leaves their keeps uncounted. Nav navNoteScopeFlags never passing Today or snoozed membership predates this epic and is filed as bob-cli-ql (bug, small, ready). (5) Discovered: bob snooze wake deferred report omits documented fields. Caused by bob-cli-q5.1.1.3, so it was recorded as a DISCOVERED ISSUE note on active epic bob-cli-q5. Remaining epic work found by verification: the waker decoder rejects real CLI reports (destination.name null for an untyped wake into an unnamed Pomodoro, reproduced with bob 0.6.0 in an isolated vault; slim deferred envelope), plus missing phase-3 and phase-4 public-gesture regression tests. Planned as a landing tale.
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d7875aa`](https://github.com/bobs-org/bob-plugins/commit/d7875aac6d1844cdb60fdc35a25a0c2e2d6e6a65) | feat(snooze): land plugin plumbing behavior | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 2026-11-26 13:38:14 EST |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

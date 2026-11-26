@@ -13,7 +13,7 @@ notice-runtime: implement the Darwin observer, atomic notifier claim, persistent
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
