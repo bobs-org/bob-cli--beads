@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:0bc82d5d4b7f7164deb53e4c | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -62,7 +62,9 @@ review-exclusions: thread is_snoozed_today through freshness scan, evaluation, p
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.2.1.2--1][1] | Need the phase scope, design file, and prior verification notes | 1 |
+| read-by | [agent:bob-cli-q5.2.1.3][2] | Check prior phases implementation for shared reader | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.2.1.3/README.md
 
 <!-- sase:referenced-by:end -->

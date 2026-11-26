@@ -28,7 +28,7 @@ mutation: connect snooze add/drop to capture snapshots for existing and new task
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.3.1.1](bob-cli-q5.3.1.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q5.3.1.3](bob-cli-q5.3.1.3.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.3.1.3](bob-cli-q5.3.1.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

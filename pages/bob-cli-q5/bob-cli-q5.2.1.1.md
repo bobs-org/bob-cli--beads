@@ -37,8 +37,10 @@ reader-recovery: extract reusable snapshot-backed snoozed row resolution from th
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-q8.2][1] | Check existing tracking for the clean-base docs inventory drift reproduced during q8.2 verification | 1 |
+| read-by | [agent:bob-cli-q5.2.1.3][1] | Check prior phases implementation for shared reader | 1 |
+| read-by | [agent:bob-cli-q8.2][2] | Check existing tracking for the clean-base docs inventory drift reproduced during q8.2 verification | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q8.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.2.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q8.2/README.md
 
 <!-- sase:referenced-by:end -->
