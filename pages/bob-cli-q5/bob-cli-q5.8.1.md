@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_snooze_wake_notice.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_snooze_wake_notice.md
 
@@ -38,7 +38,9 @@ Complete bob-cli-q5.8 with one verified Mac wake HUD per owned batch, held durin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.8.1.2][1] | Need parent epic scope and plan path | 1 |
+| read-by | [agent:bob-cli-q5.8.1.4--1][2] | Need the epic decisions and phase requirements after the exact-SHA test failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.4.md
 
 <!-- sase:referenced-by:end -->
