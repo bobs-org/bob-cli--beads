@@ -20,13 +20,14 @@ notebook-card: paint the Notebook Card's identity, title adoption, summary or Ad
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-qm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.2.md) | [bob-cli-qm.2](bob-cli-qm.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-qm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.2.md) | [bob-cli-qm.2](bob-cli-qm.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5152f49`](https://github.com/bobs-org/bob-plugins/commit/5152f4936445123b0ab012746a63bbf01b9e9199) | feat(ledger-tools): implement notebook title card | [bob-cli-qm.2](bob-cli-qm.2.md) | 2026-11-26 13:44:08 EST |
+| bob-plugins | [`bob-plugins@d190ba2`](https://github.com/bobs-org/bob-plugins/commit/d190ba210989fe288b4b679d0ffce9f9a5ff89e4) | fix(ledger-tools): remove duplicate Notebook header path declaration | [bob-cli-qm.2](bob-cli-qm.2.md) | 2026-11-26 13:49:58 EST |
 
 <!-- sase:referenced-by:start -->
 

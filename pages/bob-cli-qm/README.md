@@ -30,7 +30,7 @@ Prose notes and notebooks open on beautiful, reliable title cards in the Propert
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-qm.1](bob-cli-qm.1.md) | Kit species, eligibility, focus-or-add, the preview gate, and scaffolding | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qm.2](bob-cli-qm.2.md) | Notebook Card shell with header absorption | ◐ in_progress | medium | 2026-11-26 | 1 | 1 |
+| [bob-cli-qm.2](bob-cli-qm.2.md) | Notebook Card shell with header absorption | ◐ in_progress | medium | 2026-11-26 | 1 | 2 |
 | [bob-cli-qm.3](bob-cli-qm.3.md) | Prose Card shell, local-first | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qm.4](bob-cli-qm.4.md) | Notebook Card report-backed readouts | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qm.5](bob-cli-qm.5.md) | Bob Prose outline seam and Prose Card measures | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
@@ -70,7 +70,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-qm.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.1/README.md) | [bob-cli-qm.1](bob-cli-qm.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-qm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.2.md) | [bob-cli-qm.2](bob-cli-qm.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-qm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.2.md) | [bob-cli-qm.2](bob-cli-qm.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-qm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.3.md) | [bob-cli-qm.3](bob-cli-qm.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-qm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.4/README.md) | [bob-cli-qm.4](bob-cli-qm.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-qm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.5/README.md) | [bob-cli-qm.5](bob-cli-qm.5.md) | 0 |
@@ -84,6 +84,7 @@ flowchart TD
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@deee0f2`](https://github.com/bobs-org/bob-plugins/commit/deee0f214d8997d8b1d24f5007a64001f4c3cbb2) | feat(note-cards): add notebook and prose species kit with focus-or-add | [bob-cli-qm.1](bob-cli-qm.1.md) | 2026-11-26 13:08:45 EST |
 | bob-plugins | [`bob-plugins@5152f49`](https://github.com/bobs-org/bob-plugins/commit/5152f4936445123b0ab012746a63bbf01b9e9199) | feat(ledger-tools): implement notebook title card | [bob-cli-qm.2](bob-cli-qm.2.md) | 2026-11-26 13:44:08 EST |
+| bob-plugins | [`bob-plugins@d190ba2`](https://github.com/bobs-org/bob-plugins/commit/d190ba210989fe288b4b679d0ffce9f9a5ff89e4) | fix(ledger-tools): remove duplicate Notebook header path declaration | [bob-cli-qm.2](bob-cli-qm.2.md) | 2026-11-26 13:49:58 EST |
 
 <!-- sase:referenced-by:start -->
 
