@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.4.md) | [bob-cli-q7.4](bob-cli-q7.4.md) | 3 |
 | [bbugyi200.athena.bob-cli-q7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.5.md) | [bob-cli-q7.5](bob-cli-q7.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-q7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.land/README.md) | [bob-cli-q7](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-q7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.land/README.md) | [bob-cli-q7](README.md) | 2 |
 
 ## Commits
 
@@ -95,6 +95,7 @@ flowchart TD
 | bob-cli | [`8ee8d03`](https://github.com/bobs-org/bob-cli/commit/8ee8d03ca7e50f33cdf07f7b1d408a399e4da4bc) | docs(capture): reconcile caret Go To contract and Mac links | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:38:51 EST |
 | bob-mac-capture | [`bob-mac-capture@b7a3b4e`](https://github.com/bobs-org/bob-mac-capture/commit/b7a3b4e001552278d61766ea827c82538a8a362b) | docs(capture): document caret Go To card and scoped browse | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:39:15 EST |
 | bob-cli | [`a1a09ea`](https://github.com/bobs-org/bob-cli/commit/a1a09eaafa248d4d5d9e2d9db2fbe1c34d8c041c) | docs(capture): retire phase-relative caret Go To comments | [bob-cli-q7](README.md) | 2026-11-26 04:02:41 EST |
+| bob-cli--plans | [`bob-cli--plans@3f7a050`](https://github.com/bobs-org/bob-cli--plans/commit/3f7a0500de70a10d4869b2acfac7dc7cffbbf3fd) | chore(plans): mark caret address Go To plan done | [bob-cli-q7](README.md) | 2026-11-26 04:03:06 EST |
 
 <!-- sase:referenced-by:start -->
 
