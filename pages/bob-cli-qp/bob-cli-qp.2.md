@@ -21,7 +21,7 @@ ref-kit: owns every shared-kit edit. Adds the ref species with the ribbon tile, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qp.4](bob-cli-qp.4.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qp.4](bob-cli-qp.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

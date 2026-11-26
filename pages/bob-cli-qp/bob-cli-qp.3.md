@@ -30,3 +30,15 @@ ref-service: one lazily subscribed, stale-while-revalidate `bob ref list -A -R a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6045168`](https://github.com/bobs-org/bob-plugins/commit/6045168fd586c71cb7cd98d94809cbabdb505838) | feat(ref-card): add shared report service | [bob-cli-qp.3](bob-cli-qp.3.md) | 2026-11-26 15:26:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qp.3][1] | Need the phase scope, design file, decisions, and prior notes before completing this reserved phase | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.3/README.md
+
+<!-- sase:referenced-by:end -->
