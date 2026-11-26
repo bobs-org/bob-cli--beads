@@ -36,8 +36,10 @@ cli-browse: add the additive block_id.goto rows to task_block_id completion for 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-q7.2][1] | Need phase scope | 2 |
+| read-by | [agent:bob-cli-ph.7.1.land--7][1] | Verify independent clean-baseline docs budget overage corroboration | 1 |
+| read-by | [agent:bob-cli-q7.2][2] | Need phase scope | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md
 
 <!-- sase:referenced-by:end -->

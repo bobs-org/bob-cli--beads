@@ -29,6 +29,8 @@ A capture draft that is exactly one bare `@route^block-id` token resolves read-o
 
 [2026-11-25T23:09:11Z · bob-cli-pl.6.1.land] DISCOVERED ISSUE: Landing bob-cli-pl.6.1 found bob-cli just docs-check failing at 9dd67c62 on two reference pages that phase bob-cli-q7.1 commit 4d930129 (feat(capture): treat whole-draft @route^id as read-only Go To) pushed over the 6000-word reference cap. Measured with tools/docs bob_docs.markdown.count_words per commit: docs/reference/capture-syntax.md d67a5b7b=5998 -> 4d930129=6058; docs/reference/json-outputs.md d67a5b7b=6000 -> 4d930129=6007. Earlier crossings by bob-cli-pl.6.1.1 (json-outputs) and bob-cli-ph.6.1.3 (capture-syntax) had already been trimmed back under the cap (28e23886, d67a5b7b) before 4d930129. No existing task tracks either page (searched capture-syntax / json-outputs across all task statuses plus the last-week sweep). The docs closeout (bob-cli-q7.6) should trim both pages under 6000 while preserving the Go To and props-contract rows.
 
+[2026-11-26T00:04:32Z · bob-cli-q5.1.1.land] DISCOVERED ISSUE (bob-cli-q5.1.1 snooze land triage, bob-cli master 6a3e5df6): (1) just lint / just check fail: clippy -D clippy::manual-contains rejects tests/cli/capture/complete_block_id.rs:292 `assert!(!ids.iter().any(|id| *id == "dup"), ...)` (help: `ids.contains(&"dup")`); the line came from d883e564 (SASE_BEAD bob-cli-q7.2) and the test "cli" target refuses to compile under clippy. (2) Building on note #1: d883e564 pushed docs/reference/capture-syntax.md further, 6058 -> 6086 (bob_docs count_words). (3) docs/reference/json-outputs.md is now 6032: the 6007 from 4d930129 plus a 25-word bob snooze index row from this snooze epic (6a3e5df6 added 37 words; the snooze lander trimmed the row to its minimum). q7.6's json-outputs trim must cover 32 words; reference other rows' prose was left alone.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -36,7 +38,7 @@ A capture draft that is exactly one bare `@route^block-id` token resolves read-o
 | [bob-cli-q7.1](bob-cli-q7.1.md) | bob-cli: claim, resolve, and refuse the bare caret address | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q7.2](bob-cli-q7.2.md) | bob-cli: Go rows for @route^ completion, mint-collision copy, and /route^id search | ✓ closed | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q7.3](bob-cli-q7.3.md) | bob-plugins: any-line block fallback in the Go To re-find ladder | ✓ closed | small | 2026-11-25 | 1 | 0 |
-| [bob-cli-q7.4](bob-cli-q7.4.md) | Mac: Go To destination card and Return dispatch | ◐ in_progress | medium | 2026-11-25 | 1 | 2 |
+| [bob-cli-q7.4](bob-cli-q7.4.md) | Mac: Go To destination card and Return dispatch | ◐ in_progress | medium | 2026-11-25 | 1 | 3 |
 | [bob-cli-q7.5](bob-cli-q7.5.md) | Mac: Go rows in the block-ID card | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q7.6](bob-cli-q7.6.md) | End-to-end verification and docs closeout | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
 
@@ -72,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.1.md) | [bob-cli-q7.1](bob-cli-q7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md) | [bob-cli-q7.2](bob-cli-q7.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-q7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.3/README.md) | [bob-cli-q7.3](bob-cli-q7.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-q7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.4.md) | [bob-cli-q7.4](bob-cli-q7.4.md) | 2 |
+| [bbugyi200.athena.bob-cli-q7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.4.md) | [bob-cli-q7.4](bob-cli-q7.4.md) | 3 |
 | [bbugyi200.athena.bob-cli-q7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.5/README.md) | [bob-cli-q7.5](bob-cli-q7.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.6/README.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.land/README.md) | [bob-cli-q7](README.md) | 0 |
@@ -84,6 +86,7 @@ flowchart TD
 | bob-cli | [`4d93012`](https://github.com/bobs-org/bob-cli/commit/4d93012907c8d8048e2a6498450f4a803763c66a) | feat(capture): treat whole-draft @route^id as read-only Go To | [bob-cli-q7.1](bob-cli-q7.1.md) | 2026-11-25 17:10:47 EST |
 | bob-mac-capture | [`bob-mac-capture@fc0d455`](https://github.com/bobs-org/bob-mac-capture/commit/fc0d45515c8d86a33ab8b4ca46452f837eb3c490) | feat(capture): add caret Go To destination dispatch | [bob-cli-q7.4](bob-cli-q7.4.md) | 2026-11-25 18:03:57 EST |
 | bob-mac-capture | [`bob-mac-capture@5d04d28`](https://github.com/bobs-org/bob-mac-capture/commit/5d04d286ffd485f2256bf7fc6dcb411a5dc2765e) | fix(ci): allow full Swift test suite to finish | [bob-cli-q7.4](bob-cli-q7.4.md) | 2026-11-25 18:35:40 EST |
+| bob-mac-capture | [`bob-mac-capture@1e85be2`](https://github.com/bobs-org/bob-mac-capture/commit/1e85be2600e29b48a3feb98bc34e1e9b0b00c0f8) | fix(capture): preserve draft when opening similar tasks | [bob-cli-q7.4](bob-cli-q7.4.md) | 2026-11-25 19:06:15 EST |
 
 <!-- sase:referenced-by:start -->
 
