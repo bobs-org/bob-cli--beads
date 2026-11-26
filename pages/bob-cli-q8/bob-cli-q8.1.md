@@ -43,7 +43,9 @@ tie-contract: write the plain-link/dependency contract and PT vectors in bob-cli
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q8.1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-q8.5][2] | check contract phase done | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.5/README.md
 
 <!-- sase:referenced-by:end -->
