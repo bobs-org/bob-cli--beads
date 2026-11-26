@@ -19,13 +19,19 @@ ref-props: scope the reference note kind to bob's library coverage, protect sync
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qp.6](bob-cli-qp.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qp.6](bob-cli-qp.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qp.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.1.md) | [bob-cli-qp.1](bob-cli-qp.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qp.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.1.md) | [bob-cli-qp.1](bob-cli-qp.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`0846b03`](https://github.com/bobs-org/bob-cli/commit/0846b0381e05d8abbb5a42669cbe5ca73be12056) | feat(props): add Reference contract and roles | [bob-cli-qp.1](bob-cli-qp.1.md) | 2026-11-26 16:10:25 EST |
 
 <!-- sase:referenced-by:start -->
 

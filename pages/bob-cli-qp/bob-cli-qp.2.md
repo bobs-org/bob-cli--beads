@@ -41,8 +41,10 @@ ref-kit: owns every shared-kit edit. Adds the ref species with the ribbon tile, 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qp.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-qi.land][1] | Decide whether syncing bob-ledger-tools would deploy an in-flight Ref Card phase | 1 |
+| read-by | [agent:bob-cli-qp.2][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.2/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qi.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.2/README.md
 
 <!-- sase:referenced-by:end -->

@@ -11,10 +11,14 @@
 
 ref-acceptance: after bob-cli-qm.6 closes, extend the takeover harness as a sibling runner. Prove takeover, single ownership, native restoration, passivity, data, and editor flows. Review the light, dark, narrow, wide, forced-colors, and grayscale screenshot matrix beside the other family cards.
 
+## Notes
+
+[2026-11-26T21:29:22Z · bob-cli-qq.1] COORDINATION: cabinets kit adds the 240w* cabinet-owned gate/model/state/provider/collector, plus role-aware fold changes in 240s and state binding in 240r; later cabinets phases add gate-guarded hunks in 240o, 248m, and styles.css. Rendering and behavior remain current while cabinetsPreview is absent. Please keep these guarded hunks through go-live cleanup. Cabinets go-live waits for bob-cli-qm.7 and bob-cli-qp.8.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-qp.5](bob-cli-qp.5.md) ✓ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qp.6](bob-cli-qp.6.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qp.6](bob-cli-qp.6.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qp.8](bob-cli-qp.8.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
