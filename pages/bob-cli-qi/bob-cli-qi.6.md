@@ -13,11 +13,25 @@ finish: add the unit proof that folds and refreshes never write the vault or spa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qi.4](bob-cli-qi.4.md) ◐ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qi.5](bob-cli-qi.5.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qi.4](bob-cli-qi.4.md) ✓ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qi.5](bob-cli-qi.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-qi.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.6/README.md) | [bob-cli-qi.6](bob-cli-qi.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.6k.cld][1] | Check qi.6 dependencies for card sequencing | 2 |
+| read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
+
+<!-- sase:referenced-by:end -->

@@ -19,8 +19,8 @@ cli-hub: drop NoteKind::Bank from the props settings contract (a ! commit), refu
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qi.4](bob-cli-qi.4.md) ◐ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qi.5](bob-cli-qi.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qi.4](bob-cli-qi.4.md) ✓ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qi.5](bob-cli-qi.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -33,3 +33,15 @@ cli-hub: drop NoteKind::Bank from the props settings contract (a ! commit), refu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`478d523`](https://github.com/bobs-org/bob-cli/commit/478d5233100d45ba27d1bf29530eb790a36a8837) | feat(bank,props,capture): enforce Area-only props and bank-holds-no-tasks | [bob-cli-qi.2](bob-cli-qi.2.md) | 2026-11-26 10:52:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qi.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.2/README.md
+
+<!-- sase:referenced-by:end -->

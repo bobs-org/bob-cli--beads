@@ -19,8 +19,8 @@ vault-hub: move subscriptions.md under cash and sync albums while bank.md is sti
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qi.4](bob-cli-qi.4.md) ◐ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qi.5](bob-cli-qi.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qi.4](bob-cli-qi.4.md) ✓ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qi.5](bob-cli-qi.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
