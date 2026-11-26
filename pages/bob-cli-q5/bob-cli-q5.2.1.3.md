@@ -23,7 +23,7 @@ plan-forecast: extend PlanReport and every report construction path with snoozed
 
 - **Depends on:** [bob-cli-q5.2.1.1](bob-cli-q5.2.1.1.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q5.2.1.2](bob-cli-q5.2.1.2.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q5.2.1.4](bob-cli-q5.2.1.4.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.2.1.4](bob-cli-q5.2.1.4.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

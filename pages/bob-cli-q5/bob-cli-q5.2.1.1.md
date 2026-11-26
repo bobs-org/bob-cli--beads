@@ -23,7 +23,7 @@ reader-recovery: extract reusable snapshot-backed snoozed row resolution from th
 
 - **Blocks:** [bob-cli-q5.2.1.2](bob-cli-q5.2.1.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.2.1.3](bob-cli-q5.2.1.3.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q5.2.1.4](bob-cli-q5.2.1.4.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.2.1.4](bob-cli-q5.2.1.4.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
