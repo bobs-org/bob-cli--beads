@@ -17,7 +17,7 @@
 | related | file:explicit:584357fd5217b2cf25553314 | attached via sase artifact create --bead |
 | related | file:explicit:8cb18931c93e107b0e3fe289 | attached via sase artifact create --bead |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -65,6 +65,7 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 | read-by | [agent:bob-cli-q6.4--4][2] | Review q6.4 scope, status, descendants, and recorded acceptance criteria | 1 |
 | read-by | [agent:bob-cli-q6.4--6][2] | Review assigned q6.4 acceptance scope and required close conditions | 1 |
 | read-by | [agent:bob-cli-q6.4--7][2] | Need q6.4 scope and close criteria before resolving acceptance entries | 1 |
+| read-by | [agent:bob-cli-q6.4--8][2] | Review q6.4 acceptance scope and prior phase evidence before classification | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md
