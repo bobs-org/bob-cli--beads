@@ -19,7 +19,7 @@ nav-tie-copy: cycle-locked rows hint the reversing chord. The Depends-on strip r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 4 |
+| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 5 |
 
 ## Commits
 
@@ -29,6 +29,7 @@ nav-tie-copy: cycle-locked rows hint the reversing chord. The Depends-on strip r
 | bob-plugins | [`bob-plugins@b4ab2cb`](https://github.com/bobs-org/bob-plugins/commit/b4ab2cbb16c2fe21004d8790367e69d38926705c) | feat(nav-hotkeys): complete dependency tie stage copy | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:28:17 EST |
 | bob-plugins | [`bob-plugins@561a9ea`](https://github.com/bobs-org/bob-plugins/commit/561a9ea737c283f9d5a551d40fb82e182145bfea) | fix(nav-hotkeys): report Pomodoro links removed by project release | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:48:17 EST |
 | bob-plugins | [`bob-plugins@2cad24b`](https://github.com/bobs-org/bob-plugins/commit/2cad24b79638b30c15335c0a8dcd9d640924eb1e) | test: stabilize open-line date fixture | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:06:17 EST |
+| bob-plugins | [`bob-plugins@b9b3cec`](https://github.com/bobs-org/bob-plugins/commit/b9b3cec922189b7bb068b2d4c5b072b9fb8d0500) | test(plugins): stabilize dependency stage test fixtures | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:50:31 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -37,6 +38,7 @@ nav-tie-copy: cycle-locked rows hint the reversing chord. The Depends-on strip r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q8.10.3--1][1] | Confirm phase scope, prior work, design file, and governing epic decisions before finishing verification | 1 |
+| read-by | [agent:bob-cli-q8.10.3--2][1] | Review assigned epic scope and verification/closure requirements | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md
 

@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 4 |
+| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 5 |
 | [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.land/README.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 2 |
@@ -135,6 +135,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@b4ab2cb`](https://github.com/bobs-org/bob-plugins/commit/b4ab2cbb16c2fe21004d8790367e69d38926705c) | feat(nav-hotkeys): complete dependency tie stage copy | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:28:17 EST |
 | bob-plugins | [`bob-plugins@561a9ea`](https://github.com/bobs-org/bob-plugins/commit/561a9ea737c283f9d5a551d40fb82e182145bfea) | fix(nav-hotkeys): report Pomodoro links removed by project release | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:48:17 EST |
 | bob-plugins | [`bob-plugins@2cad24b`](https://github.com/bobs-org/bob-plugins/commit/2cad24b79638b30c15335c0a8dcd9d640924eb1e) | test: stabilize open-line date fixture | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:06:17 EST |
+| bob-plugins | [`bob-plugins@b9b3cec`](https://github.com/bobs-org/bob-plugins/commit/b9b3cec922189b7bb068b2d4c5b072b9fb8d0500) | test(plugins): stabilize dependency stage test fixtures | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:50:31 EST |
 
 <!-- sase:referenced-by:start -->
 
