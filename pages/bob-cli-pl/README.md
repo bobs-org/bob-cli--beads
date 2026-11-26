@@ -69,6 +69,11 @@ flowchart TD
     n17["bob-cli-pl.7: Hue, default type, and clock-policy stages (bob-plugins) [closed]"]
     n18["bob-cli-pl.8: The Lives under stage with consequence preview and catalog refresh (bob-plugins) [closed]"]
     n19["bob-cli-pl.9: Hide native Properties on area/project notes and arbitrate bank.md (bob-plugins + memory) [in_progress]"]
+    n20["bob-cli-pl.9.1: Complete area and project Properties takeover [in_progress]"]
+    n21["bob-cli-pl.9.1.1: Gate home-card Properties ownership and route native entry points [closed]"]
+    n22["bob-cli-pl.9.1.2: Integrate the Area Card with the landed bank title and setup card [in_progress]"]
+    n23["bob-cli-pl.9.1.3: Verify home and bank takeover through production Obsidian adapters [in_progress]"]
+    n24["bob-cli-pl.9.1.4: Repeat retired-count cleanup and publish the verified card contract [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -88,6 +93,11 @@ flowchart TD
     n0 --> n17
     n0 --> n18
     n0 --> n19
+    n19 --> n20
+    n20 --> n21
+    n20 --> n22
+    n20 --> n23
+    n20 --> n24
     n1 -.-> n19
     n2 -.-> n3
     n3 -.-> n9
@@ -105,6 +115,9 @@ flowchart TD
     n15 -.-> n16
     n17 -.-> n19
     n18 -.-> n19
+    n21 -.-> n22
+    n22 -.-> n23
+    n23 -.-> n24
 ```
 
 ## Agents
@@ -129,7 +142,12 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.6.1.land/README.md) | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pl.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.7/README.md) | [bob-cli-pl.7](bob-cli-pl.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.8/README.md) | [bob-cli-pl.8](bob-cli-pl.8.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9/README.md) | [bob-cli-pl.9](bob-cli-pl.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.md) | [bob-cli-pl.9](bob-cli-pl.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.1/README.md) | [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2/README.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.3/README.md) | [bob-cli-pl.9.1.3](bob-cli-pl.9.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.4/README.md) | [bob-cli-pl.9.1.4](bob-cli-pl.9.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.land/README.md) | [bob-cli-pl.9.1](bob-cli-pl.9.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.land/README.md) | [bob-cli-pl](README.md) | 0 |
 
 ## Commits
@@ -167,6 +185,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@8779f61`](https://github.com/bobs-org/bob-cli--plans/commit/8779f61ddf1e903e808d0eddde833c920a8b4a59) | chore(plans): mark area\_project\_settings plan done after bob-cli-pl.6.1 landing | [bob-cli-pl.6.1](bob-cli-pl.6.1.md) | 2026-11-25 18:12:32 EST |
 | bob-plugins | [`bob-plugins@0d319a5`](https://github.com/bobs-org/bob-plugins/commit/0d319a535b5e59ff905153400165fdcbaaf9575e) | feat(property-editor): Lives under stage with consequence preview and catalog refresh | [bob-cli-pl.8](bob-cli-pl.8.md) | 2026-11-25 18:36:34 EST |
 | bob-plugins | [`bob-plugins@691182f`](https://github.com/bobs-org/bob-plugins/commit/691182f43befa4f2b0c980340e6f2dbd7796b0f3) | feat(property-editor): add hue type and clock policy stages | [bob-cli-pl.7](bob-cli-pl.7.md) | 2026-11-25 19:35:59 EST |
+| bob-plugins | [`bob-plugins@8698046`](https://github.com/bobs-org/bob-plugins/commit/8698046c10872ccde3e3a3c185e2447d3bcf24ed) | feat(ledger-tools): per-path props contract routing with home ownership and entry routing | [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) | 2026-11-25 20:19:22 EST |
 
 <!-- sase:referenced-by:start -->
 
