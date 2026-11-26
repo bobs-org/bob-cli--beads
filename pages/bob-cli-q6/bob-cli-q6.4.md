@@ -17,7 +17,7 @@
 | related | file:explicit:584357fd5217b2cf25553314 | attached via sase artifact create --bead |
 | related | file:explicit:8cb18931c93e107b0e3fe289 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -40,7 +40,7 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 5 |
+| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 6 |
 
 ## Commits
 
@@ -51,6 +51,7 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 | bob-plugins | [`bob-plugins@4c32842`](https://github.com/bobs-org/bob-plugins/commit/4c328428bcfbcde8943088347c04100cec78860b) | test(frontmatter): correct bank takeover matrix expectations | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:55:00 EST |
 | bob-plugins | [`bob-plugins@13b936e`](https://github.com/bobs-org/bob-plugins/commit/13b936ea96fd36fd01735243754aefe082867a57) | fix(e2e): use active note path in bank gate probe | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 19:29:09 EST |
 | bob-plugins | [`bob-plugins@996c718`](https://github.com/bobs-org/bob-plugins/commit/996c718f534801371e3601bac110a80917d3e268) | fix(bob-ledger-tools): restore bank ownership after eligibility changes | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 20:16:02 EST |
+| bob-plugins | [`bob-plugins@3f9b8af`](https://github.com/bobs-org/bob-plugins/commit/3f9b8af2786efa0584f9da192d3739b4428ad757) | fix(ledger-tools): reacquire bank ownership after title mount | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 20:42:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -61,6 +62,7 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 | read-by | [agent:bob-cli-ph.7.1.land--7][1] | Verify clean-baseline docs budget overages referenced by the docs gate | 1 |
 | read-by | [agent:bob-cli-q6.4--1][2] | Need the phase scope, design file, and prior verification notes before resolving the failed real Obsidian matrix | 1 |
 | read-by | [agent:bob-cli-q6.4--4][2] | Review q6.4 scope, status, descendants, and recorded acceptance criteria | 1 |
+| read-by | [agent:bob-cli-q6.4--6][2] | Review assigned q6.4 acceptance scope and required close conditions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md
