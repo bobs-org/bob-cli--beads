@@ -20,7 +20,13 @@ prose-card: paint the quiet title-page Prose Card from local data (folio initial
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-qm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.3.md) | [bob-cli-qm.3](bob-cli-qm.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-qm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.3.md) | [bob-cli-qm.3](bob-cli-qm.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3863bc4`](https://github.com/bobs-org/bob-plugins/commit/3863bc46007c6287ac8eebfda37d68c42be951d0) | feat(ledger-tools): restore Prose Card over landed notebook bundle | [bob-cli-qm.3](bob-cli-qm.3.md) | 2026-11-26 14:24:01 EST |
 
 <!-- sase:referenced-by:start -->
 

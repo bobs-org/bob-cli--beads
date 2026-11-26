@@ -43,6 +43,7 @@ notebook-card: paint the Notebook Card's identity, title adoption, summary or Ad
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qm.2--1][1] | Continue phase after monitored check; inspect scope, notes, and constraints | 1 |
+| read-by | [agent:bob-cli-qm.2--2][1] | Final scope and notes review before closing the Notebook Card phase | 3 |
 | read-by | [agent:research.6l.gem][2] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.2.md
