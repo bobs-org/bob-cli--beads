@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/better_o_gesture_settle.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md
 
@@ -64,7 +64,7 @@ flowchart TD
     n4["bob-cli-q4.10.1.1: Navigation settle adapter, command flush, and identity mapping [closed]"]
     n5["bob-cli-q4.10.1.2: Lane, cancel, freshness, and decay answers settle atomically [closed]"]
     n6["bob-cli-q4.10.1.3: Task, schedule, priority, and quick-roll commits settle [closed]"]
-    n7["bob-cli-q4.10.1.4: Task moves and splits settle every written note [in_progress]"]
+    n7["bob-cli-q4.10.1.4: Task moves and splits settle every written note [closed]"]
     n8["bob-cli-q4.10.1.5: Status-changing dependency and relation writes settle safely [in_progress]"]
     n9["bob-cli-q4.10.1.6: Morning-review acceptance, documentation, and deployment evidence [in_progress]"]
     n10["bob-cli-q4.11: Link and Pomodoro target writes settle their target notes [closed]"]
@@ -161,12 +161,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md) | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md) | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 8 |
-| [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.5/README.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 13 |
+| [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.12/README.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md) | [bob-cli-q4.13](bob-cli-q4.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md) | [bob-cli-q4.2](bob-cli-q4.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.3.md) | [bob-cli-q4.3](bob-cli-q4.3.md) | 1 |
@@ -221,14 +221,20 @@ flowchart TD
 | bob-plugins | [`bob-plugins@aecff7d`](https://github.com/bobs-org/bob-plugins/commit/aecff7d2463676b0232d901bd079bbcd2b92e175) | test(navigation): register open destination leaves in move fixtures | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 17:34:08 EST |
 | bob-plugins | [`bob-plugins@f6167d4`](https://github.com/bobs-org/bob-plugins/commit/f6167d4c5bd47da44a33d11a7967c6848c0a9571) | test(bob-ledger-tools): await mention jump completion | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 18:09:25 EST |
 | bob-plugins | [`bob-plugins@c665869`](https://github.com/bobs-org/bob-plugins/commit/c665869ec38b912f5ba7bb179003789fe96e7516) | fix(cycler): join gesture settles to undo history | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 18:26:44 EST |
+| bob-cli | [`05dd83c`](https://github.com/bobs-org/bob-cli/commit/05dd83cf9f93c07825a30dfe508e530bc36f9d81) | docs: repair documentation gate consistency | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 18:31:13 EST |
 | bob-plugins | [`bob-plugins@1c76c78`](https://github.com/bobs-org/bob-plugins/commit/1c76c782c8f48d8e1be7f66fe5dc74ca2a1bb0dc) | docs: trim plugin references below page budgets | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 18:31:56 EST |
 | bob-plugins | [`bob-plugins@95e6a55`](https://github.com/bobs-org/bob-plugins/commit/95e6a55bd89ea1bf01b09fc699ef8de3210d4589) | test(cycler): enter Vim normal mode in Obsidian settle harness | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 18:44:59 EST |
+| bob-cli | [`8850f2e`](https://github.com/bobs-org/bob-cli/commit/8850f2e639a862f5814eae348449ebd232053bb7) | docs(reference): satisfy word-budget lint | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 18:53:41 EST |
 | bob-plugins | [`bob-plugins@df44ab1`](https://github.com/bobs-org/bob-plugins/commit/df44ab12b1d4c50886a2014e21add82dc152ce88) | test(cycler): drive Vim escape through Obsidian handler | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 18:59:43 EST |
 | bob-plugins | [`bob-plugins@f9a9e16`](https://github.com/bobs-org/bob-plugins/commit/f9a9e167a8fee9cf1653532e98bedfbf5208b30c) | fix(ledger): annotate parent stage text role | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:02:52 EST |
 | bob-plugins | [`bob-plugins@79d71bf`](https://github.com/bobs-org/bob-plugins/commit/79d71bfd6bbd5ecc1c4919660b6ec92987f162bd) | docs(bob-navigation-hotkeys): meet docs budgets and mark literal input | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:17:39 EST |
 | bob-plugins | [`bob-plugins@e1ae072`](https://github.com/bobs-org/bob-plugins/commit/e1ae0729d7ec75c59b797eaa1e6cb82441eb3b4e) | test(cycler): fix real Obsidian settle harness | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 19:24:30 EST |
+| bob-cli | [`fc9c91c`](https://github.com/bobs-org/bob-cli/commit/fc9c91ca46026be17965509a4425273134b0eeea) | docs(memory): add planning-time decision roster policy | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:48:21 EST |
 | bob-plugins | [`bob-plugins@2ff8fdd`](https://github.com/bobs-org/bob-plugins/commit/2ff8fdd555c847175cf16768c21d1592bc74a433) | docs(navigation): fix published reference links | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:49:05 EST |
+| bob-cli | [`1c7a481`](https://github.com/bobs-org/bob-cli/commit/1c7a481c539a7677c8e2c9b04bfb554b18bd0ab5) | fix(docs): keep capture smoke query searchable | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:57:34 EST |
 | bob-cli--plans | [`bob-cli--plans@7773ea9`](https://github.com/bobs-org/bob-cli--plans/commit/7773ea9addc2f571124523019f9ba59922aaa21a) | docs(plan): mark cycler gesture settle done | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 20:15:22 EST |
+| bob-cli | [`926c925`](https://github.com/bobs-org/bob-cli/commit/926c92589bf68dc4df851e28a26999f67f2074cd) | docs(search): cover Go To capture token | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 20:15:53 EST |
+| bob-plugins | [`bob-plugins@dbebfbd`](https://github.com/bobs-org/bob-plugins/commit/dbebfbd4f3cf55459627224117c996c88a1c51ac) | feat(navigation): settle dependency and relation writes | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 20:51:30 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -240,6 +246,7 @@ flowchart TD
 | read-by | [agent:bob-cli-q4.2][2] | Need parent epic DECISIONS, phases, and overall design | 1 |
 | read-by | [agent:bob-cli-q4.7][3] | check epic children statuses | 1 |
 | read-by | [agent:bob-cli-q4.9.1.land--4][4] | Confirm parent epic open state and required closeout evidence | 2 |
+| read-by | [agent:bob-cli-q4.9.1.land--7][4] | Confirm q4 remains open | 2 |
 | read-by | [agent:bob-cli-q5.1.1.2][5] | Need notes on ref_library today and task_status_hooks grouping failures | 1 |
 | read-by | [agent:bob-cli-q5.1.1.4][6] | See if q4 tracks the capture CLI grouping failures | 1 |
 | read-by | [agent:bob-cli-q5.1.1.land][7] | Confirm the existing DISCOVERED ISSUE for the capture CLI failures cited by snooze phases | 1 |

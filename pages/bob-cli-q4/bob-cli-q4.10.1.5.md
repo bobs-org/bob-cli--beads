@@ -13,11 +13,17 @@ mirrors: audit and wire status-changing dependent and mirror writes, preserving 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.5/README.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@dbebfbd`](https://github.com/bobs-org/bob-plugins/commit/dbebfbd4f3cf55459627224117c996c88a1c51ac) | feat(navigation): settle dependency and relation writes | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 20:51:30 EST |

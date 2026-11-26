@@ -21,4 +21,4 @@ notes-key: after bob-cli-ph.7, `Ctrl+Shift+O` opens a note at the owner's note s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.12/README.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 0 |

@@ -47,7 +47,9 @@ close-settle: integrate tier-1 settle into Ctrl+Enter, completeTaskAtCursor, and
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.9.1.2][1] | Need design details notes | 2 |
+| read-by | [agent:bob-cli-q4.9.1.land--7][2] | Need phase two verification scope for the q4.9.1 close note | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.1.land.md
 
 <!-- sase:referenced-by:end -->

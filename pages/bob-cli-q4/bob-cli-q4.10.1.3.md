@@ -18,7 +18,7 @@ cards: wire the remaining Task Card, schedule, priority, quick-roll, counted, li
 ## Dependencies
 
 - **Depends on:** [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
