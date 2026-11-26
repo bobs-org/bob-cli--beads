@@ -21,4 +21,4 @@ mac-agenda: decode the additive snoozed/woke_at agenda fields, add a dim Later-t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7/README.md) | [bob-cli-q5.7](bob-cli-q5.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.md) | [bob-cli-q5.7](bob-cli-q5.7.md) | 0 |
