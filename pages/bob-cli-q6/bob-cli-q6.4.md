@@ -17,6 +17,8 @@
 | related | file:explicit:584357fd5217b2cf25553314 | attached via sase artifact create --bead |
 | related | file:explicit:8cb18931c93e107b0e3fe289 | attached via sase artifact create --bead |
 
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -38,7 +40,7 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 3 |
+| [bbugyi200.athena.bob-cli-q6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md) | [bob-cli-q6.4](bob-cli-q6.4.md) | 4 |
 
 ## Commits
 
@@ -47,3 +49,18 @@ bank-takeover: spike bank.md YAML parity in real Obsidian, add bank to the 240q 
 | bob-cli | [`1ca74ec`](https://github.com/bobs-org/bob-cli/commit/1ca74ece68165cc6fc07af59fe4e2bedf7519f4f) | docs(bank): document evidence-gated Properties | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:24:50 EST |
 | bob-plugins | [`bob-plugins@b2e6ea1`](https://github.com/bobs-org/bob-plugins/commit/b2e6ea1f02e1510df1c8dece7e034c32adf2101e) | feat(property-card): gate Properties takeover on evidence | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:29:15 EST |
 | bob-plugins | [`bob-plugins@4c32842`](https://github.com/bobs-org/bob-plugins/commit/4c328428bcfbcde8943088347c04100cec78860b) | test(frontmatter): correct bank takeover matrix expectations | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 18:55:00 EST |
+| bob-plugins | [`bob-plugins@13b936e`](https://github.com/bobs-org/bob-plugins/commit/13b936ea96fd36fd01735243754aefe082867a57) | fix(e2e): use active note path in bank gate probe | [bob-cli-q6.4](bob-cli-q6.4.md) | 2026-11-25 19:29:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ph.7.1.land--7][1] | Verify clean-baseline docs budget overages referenced by the docs gate | 1 |
+| read-by | [agent:bob-cli-q6.4--1][2] | Need the phase scope, design file, and prior verification notes before resolving the failed real Obsidian matrix | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q6.4.md
+
+<!-- sase:referenced-by:end -->
