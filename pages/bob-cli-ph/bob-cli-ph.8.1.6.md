@@ -21,6 +21,27 @@ mac-acceptance: verify the integrated feature on exact-SHA macOS CI, publish the
 
 [2026-11-26T08:20:54Z · bob-cli-ph.8.1.6--1] Acceptance docs landed (631a49d5 docs-only; Mac a2e79f65 committed unpushed). just check on clean tree fails in -p bob-obsidian lib (~25) + cli (55) drawer goldens caused by ph.10 9573ff86/46aba677, pre-existing vs 8.1.6 base (recorded as PROPOSED FOLLOW-UP); master CI runs 45758122303/45763997268/45755965376/45752393102 failure corroborate. epic-symbols clean. Mac push+screenshots recorded as PROPOSED FOLLOW-UP, push gated on green gates.
 
+[2026-11-26T11:36:53Z · bob-cli-ph.8.1.land--4] Mac drawer acceptance screenshots verified. Green exact-SHA gate: https://github.com/bobs-org/bob-mac-capture/actions/runs/45806522346 snapshot SHA 3635cbfe169a86820f970ef09615ae573159e7d2 (Lint/Build/Test 5297 tests 0 failures/Bundle/plist/launch-smoke/install all ok). Inspected all 16 drawer-headers PNGs (edge+real x 620/760 x light/dark/high-contrast): tray distinct from checkbox and requirement diamond; true-case verbatim semibold titles (Requirements, Perf Budget; legacy FUTURE WORK as-sent); empty Drafts muted; removed Old Drawer struck+dimmed; no ** on drawer rows; **Just bold** stays verbatim; requirement Scope-it keeps diamond; long title wraps cleanly. Registered as file:explicit artifacts (16 refs attached).
+
+## References
+
+- file:explicit:92ac260b4e11d2084e051d00
+- file:explicit:8cf8d08357d505985cc67004
+- file:explicit:5922d9f1d9d98925f294a512
+- file:explicit:57de71e8ea3f5dfdd5a934a5
+- file:explicit:ce0a9003fdbdfdde5cb94511
+- file:explicit:6d35dc2d9c381c63545fba03
+- file:explicit:44ec5c8cb0a0d2c38aa6a3de
+- file:explicit:719de2e5996765b69febd0f5
+- file:explicit:8264c29c8718f9462fc51b5e
+- file:explicit:15c959fa575be4f8bc1408f5
+- file:explicit:22075c1c60e8fbe071b26a35
+- file:explicit:08ba10fc00da9e997f951646
+- file:explicit:180759c7af703517f7b40435
+- file:explicit:59ba2549dd929ad4a04196da
+- file:explicit:8c8d339af7b68f9fa19bdf3b
+- file:explicit:0ba25b1607cc2ca3dde68e7a
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) ✓ · ⧖ 2026-11-25

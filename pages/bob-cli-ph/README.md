@@ -45,6 +45,14 @@ A task drawer is a `- **Title**` bullet whose title keeps its authored capitaliz
 
 [2026-11-26T09:51:21Z · bob-cli-q4.10.1.land] DISCOVERED ISSUE (bob-cli-q4.10.1 land, triage of bob-cli-q4.10.1.6 PROPOSED FOLLOW-UPs #3/#4). (1) Fresh reproduction of note #4/#5/#6 on clean bob-cli master ae78dbb2: full just check fails 98 tests (lib 43, CLI 55). 80 of them are drawer-cutover expectation drift, e.g. capture_complete::tests::drawers x23, capture::complete_drawers x10, capture::sections x6 (left 'Requirements' vs right 'REQUIREMENTS'), task_block_layout x3, task_drawer_rename, completion bash/vault/capture_text drawers, help_options::capture_drawers_help. The other 18 are the 17 q4 settle-drift nodes (on bob-cli-q4) and the wispr node (bob-cli-q9). (2) NEW: the ph.10 plugin reader retirement is committed but not deployed. bob-plugins fda0ef27/2ba3315d touch block-id-prompt, bob-ledger-tools and task-status-cycler, and on athena bob plugins list shows all three drifting from master 8645ed55. block-id-prompt 1.46.0 is clean-deployed from bdb85e34 (2026-11-25T21:24Z). bob-ledger-tools 1.166.4 is an uncommitted build from bob-cli_12 at dc6c76f (02:07Z), which also lacks the bob-cli-pl.9.1.2 bank fixes 06c87a06/8e401c6e/b185579f/5addf8ca/a0ebe63e. task-status-cycler 1.64.2 is an uncommitted build from bob-cli_19 at 2ff8fdd (02:03Z). The live vault therefore still runs pre-cutover drawer readers in those plugins. The unmodified full-vault post-sync smoke gate (bob-plugins --deployed-vault /home/bryan/bob) refuses before Electron startup naming exactly these three; see bob-cli-q4.10.1.6 notes #4/#7 and file:explicit:161491026097b312bac5b238. Remediation: deploy these plugins from clean master via bob plugins sync once the cutover is cleared for the vault, following the protected-sync procedure without -F. The nav lander deliberately did not deploy them. No standalone task filed.
 
+[2026-11-26T10:45:48Z · bob-cli-q5.3.1.land] DISCOVERED ISSUE: bob-cli-q5.3.1 landing triage corroborates drawer-cutover fixture drift from proposing beads bob-cli-q5.3.1.2 note #4 and bob-cli-q5.3.1.3 note #1. Their full checks found the same 98 names (43 lib/55 CLI) on phase and untouched bases 1c23bce7/ae78dbb2. This matches your notes #4/#5/#8: 80 drawer expectations, separate from 17 q4 settlement nodes and q9 WISPr. Reviewed ph.10 scope and source changes; no fresh full test run or standalone task claimed. Please resolve the drawer-owned nodes in this epic landing.
+
+[2026-11-26T11:01:22Z · bob-cli-q8.10.land] DISCOVERED ISSUE corroboration from q8.10 landing: unchanged bob-cli 292d60c0, sase tool run check 231f6b89bd79a9cbc17778a0ba1b3d92, has completed the lib and CLI targets with the same 97 baseline failures: 42 lib + 55 CLI. Of those, 80 are the drawer-cutover expectations already in ph notes #4-#9 and ph.10 #3/#5; 17 are the separately owned q4 settlement set. Examples: native::capture::block_diff::tests::annotate_drawer_lines_uses_after_snapshot_except_removed, capture_complete drawer menus, native::task_drawers/task_block_layout, CLI capture::complete_drawers and capture::sections. No Rust source/test edits in this turn. Searched task duplicates across all statuses, swept recent tasks, and inspected active epic scopes; no separate task filed because this active epic owns the cutover. The WISPr node passes on this run.
+
+[2026-11-26T11:07:12Z · bob-cli-q5.2.1.land] DISCOVERED ISSUE: bob-cli-q5.2.1 landing triage of proposing beads bob-cli-q5.2.1.2 note #5, .3 note #1, and .4 note #1. These independently report the same drawer-cutover failures already in ph notes #4-#10. Phase .2 compared all 98 names AND normalized diagnostics at bbcae8e0 versus untouched 1c23bce7 (43 lib/55 CLI); the draw
+
+… and 341 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -58,7 +66,7 @@ A task drawer is a `- **Title**` bullet whose title keeps its authored capitaliz
 | [bob-cli-ph.5](bob-cli-ph.5.md) | Drawer rename respells and inventories legacy drawers | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-ph.6](bob-cli-ph.6.md) | One place resolver and bold drawer drafts in capture | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-ph.7](bob-cli-ph.7.md) | Obsidian drawer rendering, typing, and bold writers | ✓ closed | large | 2026-11-22 | 1 | 0 |
-| [bob-cli-ph.8](bob-cli-ph.8.md) | Bob Mac Capture drawer rendering and typing | ◐ in_progress | large | 2026-11-22 | 1 | 3 |
+| [bob-cli-ph.8](bob-cli-ph.8.md) | Bob Mac Capture drawer rendering and typing | ✓ closed | large | 2026-11-22 | 1 | 3 |
 | [bob-cli-ph.9](bob-cli-ph.9.md) | Reviewed migration of legacy ALL-CAPS drawers | ✓ closed | small | 2026-11-22 | 1 | 0 |
 
 ## Lineage
@@ -86,8 +94,8 @@ flowchart TD
     n18["bob-cli-ph.7.1.2: Task drawer marks in Live Preview and reading view [closed]"]
     n19["bob-cli-ph.7.1.3: Drawer marker typing and Toggle Drawer [closed]"]
     n20["bob-cli-ph.7.1.4: Real Obsidian acceptance, screenshots, and documentation [closed]"]
-    n21["bob-cli-ph.8: Bob Mac Capture drawer rendering and typing [in_progress]"]
-    n22["bob-cli-ph.8.1: Finish Bob Mac Capture true-case drawers [in_progress]"]
+    n21["bob-cli-ph.8: Bob Mac Capture drawer rendering and typing [closed]"]
+    n22["bob-cli-ph.8.1: Finish Bob Mac Capture true-case drawers [closed]"]
     n23["bob-cli-ph.8.1.1: Repair the drawer annotation build and cover the landed decoding [closed]"]
     n24["bob-cli-ph.8.1.2: Tray and verbatim title on annotated preview drawer headers [closed]"]
     n25["bob-cli-ph.8.1.3: Semibold drawer titles and dimmed delimiters in the draft editor [closed]"]
@@ -189,7 +197,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.4.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.5.md) | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 4 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.9.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.land/README.md) | [bob-cli-ph](README.md) | 0 |
 
@@ -236,6 +244,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@403781d`](https://github.com/bobs-org/bob-mac-capture/commit/403781d2b3d2921584b677fae1e76b4c5bfd952b) | fix(mac-capture): land true-case drawer pipeline tests and reconcile docs | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 04:28:54 EST |
 | bob-mac-capture | [`bob-mac-capture@b38c4cc`](https://github.com/bobs-org/bob-mac-capture/commit/b38c4cc3ced036c644cc230158972b819ed3fcf3) | fix(mac-capture): isolate drawer newline undo and harden old-Bob tip race | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:05:39 EST |
 | bob-mac-capture | [`bob-mac-capture@ab98419`](https://github.com/bobs-org/bob-mac-capture/commit/ab9841959e3032d478aa5d2f2ff6163c1c6984a5) | fix(mac-capture): qualify self capture in old-Bob tip wait | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:22:59 EST |
+| bob-mac-capture | [`bob-mac-capture@5949d25`](https://github.com/bobs-org/bob-mac-capture/commit/5949d253f6a210f992096858e559e59c188682bd) | fix(mac-capture): isolate drawer title/newline undo with runloop yield | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 06:41:25 EST |
 
 <!-- sase:referenced-by:start -->
 
