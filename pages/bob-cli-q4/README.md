@@ -42,7 +42,7 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 | [bob-cli-q4.1](bob-cli-q4.1.md) | Hand-edit mirror never writes across notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.10](bob-cli-q4.10.md) | Navigation gestures settle both notes they write | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.11](bob-cli-q4.11.md) | Link and Pomodoro target writes settle their target notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q4.12](bob-cli-q4.12.md) | Ctrl+Shift+O opens a note where note\_home says | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q4.12](bob-cli-q4.12.md) | Ctrl+Shift+O opens a note where note\_home says | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.13](bob-cli-q4.13.md) | End-to-end settle acceptance and re-measure | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.2](bob-cli-q4.2.md) | o and O open real siblings after the whole subtree | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.3](bob-cli-q4.3.md) | One pure Rust settle\_note that reconcile composes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
@@ -68,7 +68,7 @@ flowchart TD
     n8["bob-cli-q4.10.1.5: Status-changing dependency and relation writes settle safely [in_progress]"]
     n9["bob-cli-q4.10.1.6: Morning-review acceptance, documentation, and deployment evidence [in_progress]"]
     n10["bob-cli-q4.11: Link and Pomodoro target writes settle their target notes [closed]"]
-    n11["bob-cli-q4.12: Ctrl+Shift+O opens a note where note_home says [in_progress]"]
+    n11["bob-cli-q4.12: Ctrl+Shift+O opens a note where note_home says [closed]"]
     n12["bob-cli-q4.13: End-to-end settle acceptance and re-measure [in_progress]"]
     n13["bob-cli-q4.2: o and O open real siblings after the whole subtree [closed]"]
     n14["bob-cli-q4.3: One pure Rust settle_note that reconcile composes [closed]"]
@@ -166,7 +166,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md) | [bob-cli-q4.13](bob-cli-q4.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md) | [bob-cli-q4.2](bob-cli-q4.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.3.md) | [bob-cli-q4.3](bob-cli-q4.3.md) | 1 |
@@ -235,6 +235,7 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@7773ea9`](https://github.com/bobs-org/bob-cli--plans/commit/7773ea9addc2f571124523019f9ba59922aaa21a) | docs(plan): mark cycler gesture settle done | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 20:15:22 EST |
 | bob-cli | [`926c925`](https://github.com/bobs-org/bob-cli/commit/926c92589bf68dc4df851e28a26999f67f2074cd) | docs(search): cover Go To capture token | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 20:15:53 EST |
 | bob-plugins | [`bob-plugins@dbebfbd`](https://github.com/bobs-org/bob-plugins/commit/dbebfbd4f3cf55459627224117c996c88a1c51ac) | feat(navigation): settle dependency and relation writes | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 20:51:30 EST |
+| bob-cli | [`ad6f751`](https://github.com/bobs-org/bob-cli/commit/ad6f751a1da9e3ce381d9aff87c753c4ff32fdeb) | feat(task-notes): honor requirement-aware note placement | [bob-cli-q4.12](bob-cli-q4.12.md) | 2026-11-25 21:07:24 EST |
 
 <!-- sase:referenced-by:start -->
 
