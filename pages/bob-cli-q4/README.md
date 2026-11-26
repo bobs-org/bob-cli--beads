@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/better_o_gesture_settle.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md
 
@@ -35,6 +35,10 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 
 [2026-11-26T00:04:26Z · bob-cli-q5.1.1.land] DISCOVERED ISSUE (fresh reproduction from the bob-cli-q5.1.1 snooze land triage of PROPOSED FOLLOW-UPs q5.1.1.2 #1, q5.1.1.4 #1, q5.1.1.5 #3): cargo test --test cli on bob-cli master 6a3e5df6 (plus snooze landing edits that touch only snooze add/docs) gives 4166 passed / 17 failed, exactly the settle-drift node set already recorded here: capture::inbox_route x2, capture::note_pull x3, capture::project_note x3, capture::project_note_offer x6, capture::task_theme_writes::new_named_task_reports_and_writes_the_resolved_theme_exception, ref_library::today::today_matches_unnamed_capture_and_named_capture_remembers_theme, task_status_hooks::sync::task_status_hooks_groups_area_project_tasks_after_final_statuses. completion::capture_text no longer fails after 2d2f200d. No snooze test fails.
 
+[2026-11-26T07:01:40Z · bob-cli-q8.land] DISCOVERED ISSUE (from bob-cli-q8 land; corroborates PROPOSED FOLLOW-UPs on bob-cli-q8.5 #2 and q8.6 #2): bob-plugins scripts/test-task-status-cycler-open-line.cjs fails 2 tests on 2026-11-26, 'Vim o/O apply as one replaceRange and undo restores the original' (:578) and 'empty-scaffold prune on insert-leave, blur, and editor reuse' (:593). Both expect a scaffold of '[created::2026-11-25]' while the cycler writes today's date. The tests pin a calendar date instead of injecting or deriving today. The file was last touched by q4.12 (7e1ab27a) and q4.9.1.3 (1c2534cc). Repro: cd bob-plugins && node --test scripts/test-task-status-cycler-open-line.cjs.
+
+[2026-11-26T09:00:56Z · bob-cli-q7.land] DISCOVERED ISSUE corroboration (bob-cli-q7 land, triage of bob-cli-q7.1 #3 and q7.2 #1): the same 17 settle-drift CLI nodes recorded in notes #1/#3/#4 (capture::inbox_route x2, note_pull x3, project_note x3, project_note_offer x6, task_theme_writes, ref_library::today, task_status_hooks grouping) still fail on bob-cli master 8ee8d03c in a full just check; the diffs remain the ## Tasks badge row / ### Next & In Progress grouping. No standalone task filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -42,7 +46,7 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 | [bob-cli-q4.1](bob-cli-q4.1.md) | Hand-edit mirror never writes across notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.10](bob-cli-q4.10.md) | Navigation gestures settle both notes they write | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.11](bob-cli-q4.11.md) | Link and Pomodoro target writes settle their target notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q4.12](bob-cli-q4.12.md) | Ctrl+Shift+O opens a note where note\_home says | ✓ closed | medium | 2026-11-25 | 1 | 1 |
+| [bob-cli-q4.12](bob-cli-q4.12.md) | Ctrl+Shift+O opens a note where note\_home says | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q4.13](bob-cli-q4.13.md) | End-to-end settle acceptance and re-measure | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.2](bob-cli-q4.2.md) | o and O open real siblings after the whole subtree | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.3](bob-cli-q4.3.md) | One pure Rust settle\_note that reconcile composes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
@@ -163,10 +167,10 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md) | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 13 |
 | [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 3 |
-| [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.6.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 1 |
+| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md) | [bob-cli-q4.13](bob-cli-q4.13.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md) | [bob-cli-q4.2](bob-cli-q4.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.3.md) | [bob-cli-q4.3](bob-cli-q4.3.md) | 1 |
@@ -235,9 +239,11 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@7773ea9`](https://github.com/bobs-org/bob-cli--plans/commit/7773ea9addc2f571124523019f9ba59922aaa21a) | docs(plan): mark cycler gesture settle done | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 20:15:22 EST |
 | bob-cli | [`926c925`](https://github.com/bobs-org/bob-cli/commit/926c92589bf68dc4df851e28a26999f67f2074cd) | docs(search): cover Go To capture token | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 20:15:53 EST |
 | bob-plugins | [`bob-plugins@dbebfbd`](https://github.com/bobs-org/bob-plugins/commit/dbebfbd4f3cf55459627224117c996c88a1c51ac) | feat(navigation): settle dependency and relation writes | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 20:51:30 EST |
+| bob-cli | [`ad6f751`](https://github.com/bobs-org/bob-cli/commit/ad6f751a1da9e3ce381d9aff87c753c4ff32fdeb) | feat(task-notes): honor requirement-aware note placement | [bob-cli-q4.12](bob-cli-q4.12.md) | 2026-11-25 21:07:24 EST |
 | bob-plugins | [`bob-plugins@7e1ab27`](https://github.com/bobs-org/bob-plugins/commit/7e1ab27a89c810c6e577276acd8450c91f29578c) | feat(task-status-cycler): open notes at task note homes | [bob-cli-q4.12](bob-cli-q4.12.md) | 2026-11-25 21:08:10 EST |
 | bob-plugins | [`bob-plugins@ec93b88`](https://github.com/bobs-org/bob-plugins/commit/ec93b88c88e724a805e81b7cf5c74705b9960a58) | test(navigation): cover settled dependency writers | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 21:16:25 EST |
 | bob-plugins | [`bob-plugins@5b324dd`](https://github.com/bobs-org/bob-plugins/commit/5b324dd32ffc1b1a27bd1a334a27cd554ec57bc2) | build(bob-ledger-tools): restore generated plugin bundle | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 21:37:57 EST |
+| bob-plugins | [`bob-plugins@8645ed5`](https://github.com/bobs-org/bob-plugins/commit/8645ed558ab50543ca9e6b84d2cfff38ff812772) | fix(navigation): retain settled review identity and verify morning-review writes | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 2026-11-26 04:21:45 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -253,6 +259,7 @@ flowchart TD
 | read-by | [agent:bob-cli-q5.1.1.2][5] | Need notes on ref_library today and task_status_hooks grouping failures | 1 |
 | read-by | [agent:bob-cli-q5.1.1.4][6] | See if q4 tracks the capture CLI grouping failures | 1 |
 | read-by | [agent:bob-cli-q5.1.1.land][7] | Confirm the existing DISCOVERED ISSUE for the capture CLI failures cited by snooze phases | 1 |
+| read-by | [agent:bob-cli-q5.2.1.2--1][8] | Check existing failure tracking against the monitored full-gate failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ph.6.1.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md
@@ -261,5 +268,6 @@ flowchart TD
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.4/README.md
 [7]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.1.2.md
 
 <!-- sase:referenced-by:end -->

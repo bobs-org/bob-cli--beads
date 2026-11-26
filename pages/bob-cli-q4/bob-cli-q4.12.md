@@ -25,12 +25,13 @@ notes-key: after bob-cli-ph.7, `Ctrl+Shift+O` opens a note at the owner's note s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 1 |
+| [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-cli | [`ad6f751`](https://github.com/bobs-org/bob-cli/commit/ad6f751a1da9e3ce381d9aff87c753c4ff32fdeb) | feat(task-notes): honor requirement-aware note placement | [bob-cli-q4.12](bob-cli-q4.12.md) | 2026-11-25 21:07:24 EST |
 | bob-plugins | [`bob-plugins@7e1ab27`](https://github.com/bobs-org/bob-plugins/commit/7e1ab27a89c810c6e577276acd8450c91f29578c) | feat(task-status-cycler): open notes at task note homes | [bob-cli-q4.12](bob-cli-q4.12.md) | 2026-11-25 21:08:10 EST |
 
 <!-- sase:referenced-by:start -->

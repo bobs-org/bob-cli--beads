@@ -45,6 +45,7 @@ mirrors: audit and wire status-changing dependent and mirror writes, preserving 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.5--1][1] | Need the phase scope, decisions, notes, and design file before finishing verification | 1 |
+| read-by | [agent:bob-cli-q4.10.1.5--3][1] | Record verified navigation plugin deployment provenance on the completed phase bead | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md
 
