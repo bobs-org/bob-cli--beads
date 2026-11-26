@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.4](bob-cli-q5.4.md) / bob-cli-q5.4.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.md) · **Assignee:** `bob-cli-q5.4.1.land`
-**Created:** 2026-11-26 07:52:01 EST
+**Created:** 2026-11-26 07:52:01 EST · **Closed:** 2026-11-26 15:12:04 EST
 **Plan:** [202611/snooze\_plugin\_plumbing.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_plugin_plumbing.md)
 
 <!-- sase:links:start -->
@@ -33,11 +33,20 @@ Complete bob-cli-q5.4 so Obsidian excludes snoozed tasks from review and dashboa
 
 [2026-11-26T19:52:53Z · bob-cli-q5.4.1.land] SECOND LAND REVIEW (bob-cli-q5.4.1.land, 2026-11-26): Follow-up triage. The child PROPOSED FOLLOW-UP entries (q5.4.1.1 #1/#3, q5.4.1.2 #3/#4, q5.4.1.3 #1) were all triaged in note #1 and the outcomes stand. (1) The frontmatter-takeover e2e self-test stays DECLINED: npm test on bob-plugins f6458cb0 passes 9969 with 4 skipped and 0 failed. (2) bob-emoji tracking stays a DUPLICATE of bob-cli-cd, which is still ready. (3) The MEET heuristic was fixed by landing tale d7875aac with structural Event detection. (4) Cycler SP14 was mostly fixed by d7875aac. Nav navNoteScopeFlags stays bob-cli-ql, which is still ready. The landing-tale agents (land--code, --1, --2) recorded no new proposals, and this review found no new distinct follow-ups. The land--1 monitor shell-quoting error was an agent command bug, not product work, so it was not filed. Remaining epic work: the main Ctrl+Enter successor recovery (137-plugin-successor-project.js planFirst -> planSuccessors) never passes isSnoozedToday. Reproduced with finalizeClosedTasks: a snoozed Blocked dependent still gets [unblocked:: today]. That is the first tale's SP14 requirement, unmet on the most common path. It is planned as tale plan sase_plan_snooze_plumbing_sp14_closeout, and that tale also performs this epic's and phase bob-cli-q5.4's closeout. Deploy blocker cleared: bob plugins sync --dry-run against origin/master f6458cb0 shows 0 to copy and 34 unchanged. Drift since e36ddc68 (notebook/prose/copy-card/bank/drawers; bob-cli 3659edc0/59037b23 wake-notice fields) has no snooze-contract impact on the plugins.
 
+[2026-11-26T20:12:04Z · bob-cli-q5.4.1.land] Closeout verified: all five child phases are closed. First land review verified phase integration, npm test 9,902 passed / 0 failed (4 skipped), and the live dash.md exclusions. Landing tale d7875aac added decoder support for destination.name null and slim deferred reports, structural Event detection, SP14 in references/project-resident/offer-close, and gesture plus Snoozed boundary regressions. Second land review found no snooze-contract impact from drift and npm test on f6458cb0 passed 9,969 / 0 failed (4 skipped). This tale threads isSnoozedToday through planFirst and adds snoozed, ordinary, and same-note public Done regressions. Gates: npm run build, focused suites 99/99, npm run validate (12/12 plugins), npm test exit 0 (full unit and perf suites), docs:check 447 passed / 1 expected skip. bob plugins sync with the opened linked checkout copied task-status-cycler/main.js; all other plugin rows unchanged, 33 rows unchanged total.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d7875aa`](https://github.com/bobs-org/bob-plugins/commit/d7875aac6d1844cdb60fdc35a25a0c2e2d6e6a65) | feat(snooze): land plugin plumbing behavior | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 2026-11-26 13:38:14 EST |
+| bob-plugins | [`bob-plugins@0bae838`](https://github.com/bobs-org/bob-plugins/commit/0bae8384b586811b8a5a34afd8f3e32f58df7442) | fix(task-status-cycler): preserve snooze during Done recovery | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 2026-11-26 15:14:58 EST |
 
 <!-- sase:referenced-by:start -->
 

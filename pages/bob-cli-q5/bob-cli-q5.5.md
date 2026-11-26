@@ -13,7 +13,7 @@ plugin-marks: the alarm-clock definition mark that replaces 🍅 while asleep (a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.4](bob-cli-q5.4.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.4](bob-cli-q5.4.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.6](bob-cli-q5.6.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
