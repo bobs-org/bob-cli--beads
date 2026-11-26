@@ -13,7 +13,7 @@ completion_docs: add event-first z: completion with literal replacements, docume
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.3.1.2](bob-cli-q5.3.1.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.3.1.2](bob-cli-q5.3.1.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

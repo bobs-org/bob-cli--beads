@@ -23,6 +23,10 @@
 
 Snoozed tasks survive reconciliation without propagation, stay out of review walks, and appear in plan forecasts and schema-1 agenda output while Today remains ledger-derived; verify and close the delegated bob-cli-q5.2 phase.
 
+## Notes
+
+[2026-11-26T09:01:01Z · bob-cli-q7.land] DISCOVERED ISSUE (bob-cli-q7 land): walks::snoozed_planned_today_vectors_agree_across_freshness_walks_and_plan fails deterministically on bob-cli master 8ee8d03c, both in full just check and alone (cargo test -p bob-obsidian --test cli -- walks::snoozed_planned_today_vectors..., 0.41s): tests/cli/walks.rs:746 SP4 expects state ready but the freshness row reports ignored (date 2026-11-17, jobs.md ^job, reason ready). The test arrived with b8678657 (SASE_BEAD bob-cli-q5.2.1.2), whose note #3 says full executable verification was still pending.
+
 ## Agents
 
 | Agent | Bead | Commits |

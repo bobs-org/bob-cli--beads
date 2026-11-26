@@ -23,7 +23,7 @@ grammar: add the shared terminal z:<when> intent, existing-task exception and sn
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.3.1.2](bob-cli-q5.3.1.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.3.1.2](bob-cli-q5.3.1.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
