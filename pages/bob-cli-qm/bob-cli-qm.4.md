@@ -20,7 +20,7 @@ notebook-readouts: add the note count, newest date, section chips that jump to t
 ## Dependencies
 
 - **Depends on:** [bob-cli-qm.2](bob-cli-qm.2.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qm.6](bob-cli-qm.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qm.6](bob-cli-qm.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

@@ -18,7 +18,7 @@ prose-card: paint the quiet title-page Prose Card from local data (folio initial
 ## Dependencies
 
 - **Depends on:** [bob-cli-qm.1](bob-cli-qm.1.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qm.5](bob-cli-qm.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qm.5](bob-cli-qm.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

@@ -19,7 +19,7 @@ go-live: after bob-cli-qi.6 and bob-cli-qj.4 close, delete the preview gate, ext
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qm.6](bob-cli-qm.6.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qm.6](bob-cli-qm.6.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.9](../bob-cli-qq/bob-cli-qq.9.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
