@@ -30,7 +30,7 @@ A task pair can hold a dependency or a plain (unlabelled) link, never both, in e
 | [bob-cli-q8.1](bob-cli-q8.1.md) | Contract, shared vectors, and the Rust tie helpers | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q8.2](bob-cli-q8.2.md) | Reconcile fold and merge pruning | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q8.3](bob-cli-q8.3.md) | Capture absorption, the plain-~ no-op, and the same-item error | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
-| [bob-cli-q8.4](bob-cli-q8.4.md) | capture-complete tie fields | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.4](bob-cli-q8.4.md) | capture-complete tie fields | ✓ closed | small | 2026-11-25 | 1 | 1 |
 | [bob-cli-q8.5](bob-cli-q8.5.md) | Nav tie planner, mirrored vectors, and absorption in the dependency writers | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q8.6](bob-cli-q8.6.md) | Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 | [bob-cli-q8.7](bob-cli-q8.7.md) | applyTieChange — release, reverse, and convert writes | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n1["bob-cli-q8.1: Contract, shared vectors, and the Rust tie helpers [closed]"]
     n2["bob-cli-q8.2: Reconcile fold and merge pruning [in_progress]"]
     n3["bob-cli-q8.3: Capture absorption, the plain-~ no-op, and the same-item error [in_progress]"]
-    n4["bob-cli-q8.4: capture-complete tie fields [in_progress]"]
+    n4["bob-cli-q8.4: capture-complete tie fields [closed]"]
     n5["bob-cli-q8.5: Nav tie planner, mirrored vectors, and absorption in the dependency writers [in_progress]"]
     n6["bob-cli-q8.6: Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip [in_progress]"]
     n7["bob-cli-q8.7: applyTieChange — release, reverse, and convert writes [in_progress]"]
@@ -79,7 +79,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-q8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md) | [bob-cli-q8.4](bob-cli-q8.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md) | [bob-cli-q8.4](bob-cli-q8.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.5/README.md) | [bob-cli-q8.5](bob-cli-q8.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.6/README.md) | [bob-cli-q8.6](bob-cli-q8.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.7/README.md) | [bob-cli-q8.7](bob-cli-q8.7.md) | 0 |
@@ -92,3 +92,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a1caeef`](https://github.com/bobs-org/bob-cli/commit/a1caeefabef111947a17247c0af512868ba2a08c) | feat(relations): plain-link/dependency tie contract, PT vectors, and Rust tie helpers | [bob-cli-q8.1](bob-cli-q8.1.md) | 2026-11-25 19:51:06 EST |
+| bob-cli | [`2880238`](https://github.com/bobs-org/bob-cli/commit/28802383d80b1665f59aa68b68406c25482adff8) | feat(capture-complete)!: report dependency tie on every candidate | [bob-cli-q8.4](bob-cli-q8.4.md) | 2026-11-25 20:35:44 EST |

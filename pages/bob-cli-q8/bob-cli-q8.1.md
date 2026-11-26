@@ -21,7 +21,7 @@ tie-contract: write the plain-link/dependency contract and PT vectors in bob-cli
 
 - **Blocks:** [bob-cli-q8.2](bob-cli-q8.2.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q8.3](bob-cli-q8.3.md) ◐ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q8.4](bob-cli-q8.4.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q8.4](bob-cli-q8.4.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q8.5](bob-cli-q8.5.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
@@ -35,3 +35,15 @@ tie-contract: write the plain-link/dependency contract and PT vectors in bob-cli
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`a1caeef`](https://github.com/bobs-org/bob-cli/commit/a1caeefabef111947a17247c0af512868ba2a08c) | feat(relations): plain-link/dependency tie contract, PT vectors, and Rust tie helpers | [bob-cli-q8.1](bob-cli-q8.1.md) | 2026-11-25 19:51:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q8.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md
+
+<!-- sase:referenced-by:end -->
