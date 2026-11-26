@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5](README.md) / bob-cli-q5.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1fx](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1fx.md) · **Assignee:** `bob-cli-q5.3` · **Size:** large
-**Created:** 2026-11-25 10:22:52 EST
+**Created:** 2026-11-25 10:22:52 EST · **Closed:** 2026-11-26 06:33:25 EST
 **Plan:** [202611/snoozed\_tasks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snoozed_tasks.md)
 
 ## Description
@@ -14,6 +14,8 @@ capture-z: the z:<when> token for new and existing-task captures, the existing-t
 ## Notes
 
 [2026-11-26T00:32:17Z · bob-cli-q5.3] PLANNING: Confirmed at 03ca3f7e that wake-engine core landed, but capture z: grammar, execution, spans, and completions remain absent; no earlier phase implementation notes were present. Prepared a validated three-phase child epic (grammar, atomic mutation, completion/docs) with its land agent responsible for verifying and closing this phase only. No product files changed. Current epic-symbol check reports no entries for bob-cli-q5.3.
+
+[2026-11-26T11:33:43Z · bob-cli-q5.3.1.land] Phase closeout verification (capture-z scope complete): z: token for new/existing captures with existing-task grammar exception, link-now carrying child notes with running-first placement, narrow @route:id! drop preserving lane, teaching refusals (past/next-day, duplicates, s:/$//=/!/named-session conflicts, Event/Blocked/done/non-task), event-end-led completions with deduplicated relative aliases, additive snooze spans, and docs/capture.md. Verified via child epic bob-cli-q5.3.1 closeout: numeric drop editor/strict agreement, completion alias merge, plan/walks/settle suites green, no new failures in scope. Outer epic bob-cli-q5 intentionally left open for its waiting land agent.
 
 ## Dependencies
 

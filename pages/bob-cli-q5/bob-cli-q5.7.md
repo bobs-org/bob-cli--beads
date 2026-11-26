@@ -14,7 +14,7 @@ mac-agenda: decode the additive snoozed/woke_at agenda fields, add a dim Later-t
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.2](bob-cli-q5.2.md) ◐ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-q5.3](bob-cli-q5.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.3](bob-cli-q5.3.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.8](bob-cli-q5.8.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

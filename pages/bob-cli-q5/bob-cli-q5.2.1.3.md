@@ -44,7 +44,9 @@ plan-forecast: extend PlanReport and every report construction path with snoozed
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.2.1.3][1] | Need full bead with notes | 3 |
+| read-by | [agent:bob-cli-q5.2.1.4][2] | Need its existing check-failure note to avoid duplicate follow-up reporting | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.2.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.2.1.4/README.md
 
 <!-- sase:referenced-by:end -->
