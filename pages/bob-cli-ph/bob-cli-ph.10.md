@@ -20,7 +20,7 @@ cutover: once no unreleased legacy drawer remains, remove ALL-CAPS recognition, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md) | [bob-cli-ph.10](bob-cli-ph.10.md) | 7 |
+| [bbugyi200.apollo.bob-cli-ph.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md) | [bob-cli-ph.10](bob-cli-ph.10.md) | 8 |
 
 ## Commits
 
@@ -33,6 +33,7 @@ cutover: once no unreleased legacy drawer remains, remove ALL-CAPS recognition, 
 | bob-cli | [`d820323`](https://github.com/bobs-org/bob-cli/commit/d8203235ac54ac416160d34f5e4080499315bbfe) | fix(capture): borrow parsed drawer kind in record fixture | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 22:51:25 EST |
 | bob-plugins | [`bob-plugins@4f55996`](https://github.com/bobs-org/bob-plugins/commit/4f5599677a44d4eb98fedef23fa96e193edd02f1) | test(drawers): fix uppercase subtree expectation | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 23:11:23 EST |
 | bob-cli | [`c3a9bdd`](https://github.com/bobs-org/bob-cli/commit/c3a9bdd9088399cf4da683b6a0cfccb515fcb68e) | test(drawers): migrate task-requirements fixture vectors to bold headers | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 23:54:14 EST |
+| bob-plugins | [`bob-plugins@2ba3315`](https://github.com/bobs-org/bob-plugins/commit/2ba3315d12b714469eeaa7747db0f054602a27ec) | test(drawers): align plugin fixtures with bold-only readers | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 23:55:37 EST |
 
 <!-- sase:referenced-by:start -->
 
