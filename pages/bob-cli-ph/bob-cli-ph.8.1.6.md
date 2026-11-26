@@ -13,7 +13,7 @@ mac-acceptance: verify the integrated feature on exact-SHA macOS CI, publish the
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) ◐ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) ◐ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) ◐ · ⧖ 2026-11-25

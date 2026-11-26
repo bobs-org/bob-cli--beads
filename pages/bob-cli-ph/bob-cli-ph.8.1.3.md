@@ -13,7 +13,7 @@ draft-styling: paint drawer_bullet titles semibold in the section family and dra
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ◐ · ⧖ 2026-11-25
 
