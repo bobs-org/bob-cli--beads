@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.7](bob-cli-q5.7.md) / bob-cli-q5.7.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.md) · **Assignee:** `bob-cli-q5.7.1.land`
-**Created:** 2026-11-26 07:49:18 EST
+**Created:** 2026-11-26 07:49:18 EST · **Closed:** 2026-11-26 12:44:22 EST
 **Plan:** [202611/mac\_snoozed\_agenda.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_snoozed_agenda.md)
 
 <!-- sase:links:start -->
@@ -33,11 +33,20 @@ Complete bob-cli-q5.7: show snoozed tasks separately in the Mac agenda, preserve
 
 [2026-11-26T16:27:23Z · bob-cli-q5.7.1.land--1] DISCOVERED FLAKE bob-cli-qk: MeetingNotesSessionTests.testOutOfOrderPreviewCannotReplaceNewEventSelection failed 1/2846 in full portable-check on 46c5202b, passed on isolated rerun; all snooze/scheduler/process-client tests green. Filed as flake, unrelated to this epic's scope.
 
+[2026-11-26T17:44:22Z · bob-cli-q5.7.1.land--4] Landing complete on Mac 46c5202bfeda51757088e645dd04dc21db1f53a6 == origin/master clean, bob-cli untouched/clean. Scope: additive snoozed/woke_at decoding, snooze-span tint, Later-today dim band after strip with first-fold persistent summary (alarm N later, next HH:MM), separate budget alarm N, 60-min fresh-woke accents, hidden-panel +5s non-cancelling snooze-wake lane with bounded 60s retries, day/clock/lifecycle invalidation. Repairs: wake-outcome provenance retained through callbacks (null stays retired, future stays scheduled), deferred/skipped treated as non-writing with preserved retry deadline, unsupported-command cache pinned to launching identity, folded summary renders SF Symbol alarm not literal text. Drift integrated: Mac aa233750/38dc0dee (drawer time-robustness), 6ea5b8f6; bob-cli 4dd787bc; no competing agenda/wake consumers. Verification: just portable-check 2846 tests 1 skip PASS; scratch Mac Scripts/bundle.sh + just typecheck-tests PASS; prior CI 45847440694 tree-equal b52b21db; authoritative precommit gate 9ntrn9ejrj7d exit 0 on snapshot 40f15ef41c85c63cd7eeb6c4b8e0bd8ceff252ac, run https://github.com/bobs-org/bob-mac-capture/actions/runs/45865004175 (lint/build/test/bundle/signature/launch/install all ok); prior gate necjhh3w9t2r exit 2 was gh rate-limit/auth infra, not a CI verdict. Follow-up: bob-cli-q5.7.1.2 note-1 place-menu 3-vs-4-weeks-ago DECLINED AS RESOLVED (fixed by aa233750/38dc0dee in green tree); flake bob-cli-qk MeetingNotesSessionTests out-of-order preview 1/2846 filed separately, rerun green. epic-symbols clean.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.land.md) | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.land.md) | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@46c5202`](https://github.com/bobs-org/bob-mac-capture/commit/46c5202bfeda51757088e645dd04dc21db1f53a6) | fix(capture): preserve wake outcome provenance and bounded retries, render folded alarm icon | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 2026-11-26 11:20:28 EST |
+| bob-cli--plans | [`bob-cli--plans@d928866`](https://github.com/bobs-org/bob-cli--plans/commit/d9288663bba8ea4a363cc8ae7f5078de5b7c38e0) | docs(plans): mark mac snoozed agenda done | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 2026-11-26 12:46:05 EST |
 
 <!-- sase:referenced-by:start -->
 

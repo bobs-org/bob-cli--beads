@@ -13,7 +13,7 @@ mac-wake-notice: the notifier claim file, snooze-woken receipt observer, pure pr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.7](bob-cli-q5.7.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.7](bob-cli-q5.7.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.9](bob-cli-q5.9.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

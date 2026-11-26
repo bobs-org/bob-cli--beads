@@ -21,7 +21,7 @@ planned-today: reconcile treats live rows as recovery-only reach and never touch
 
 - **Depends on:** [bob-cli-q5.1](bob-cli-q5.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.4](bob-cli-q5.4.md) ◐ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q5.7](bob-cli-q5.7.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.7](bob-cli-q5.7.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

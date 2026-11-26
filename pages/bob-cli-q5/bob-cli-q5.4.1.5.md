@@ -23,10 +23,16 @@ obsidian-waker: add the desktop-only single-flight minute trigger for bob snooze
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.5/README.md) | [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.5/README.md) | [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@e36ddc6`](https://github.com/bobs-org/bob-plugins/commit/e36ddc686f890c72291002cc6d51676148a5bb0b) | feat(ledger-tools): add desktop snooze wake trigger | [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) | 2026-11-26 11:56:54 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.4.1.5][1] | Need the phase scope, prior notes, and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.5/README.md
+
+<!-- sase:referenced-by:end -->
