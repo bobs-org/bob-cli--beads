@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-q8.10](bob-cli-q8.10.md) / bob-cli-q8.10.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-q8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md) · **Assignee:** `bob-cli-q8.10.3` · **Size:** medium
-**Created:** 2026-11-26 02:09:19 EST
+**Created:** 2026-11-26 02:09:19 EST · **Closed:** 2026-11-26 05:42:22 EST
 **Plan:** [202611/finish\_plain\_link\_ties.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_plain_link_ties.md)
 
 ## Description
 
 nav-tie-copy: cycle-locked rows hint the reversing chord. The Depends-on strip reads the owner's state and today link. Release strips gain the muted chord segment and the ^prj fan-out. Add the kept-relation notice. The Depends-on footer refreshes on selection move, chord hints skip guarded chords, dependency-stage pill tooltips name their key, and validation.md lists the tie suites.
+
+## Notes
+
+[2026-11-26T10:42:22Z · bob-cli-q8.10.3--7] Completed tie-navigation copy, focused coverage and docs. Verified Bob plugins npm test and npm run docs:check passed; primary just docs-check passed. bob plugins sync force-synced only bob-navigation-hotkeys to 2.107.11 with backup, then dry-run confirmed manifest.json, main.js, and styles.css unchanged. epic-symbols reported no remaining entries.
 
 ## Dependencies
 
@@ -39,6 +43,7 @@ nav-tie-copy: cycle-locked rows hint the reversing chord. The Depends-on strip r
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q8.10.3--1][1] | Confirm phase scope, prior work, design file, and governing epic decisions before finishing verification | 1 |
 | read-by | [agent:bob-cli-q8.10.3--2][1] | Review assigned epic scope and verification/closure requirements | 1 |
+| read-by | [agent:bob-cli-q8.10.3--3][1] | Review the assigned epic scope before applying the failing-check fixes and closure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md
 

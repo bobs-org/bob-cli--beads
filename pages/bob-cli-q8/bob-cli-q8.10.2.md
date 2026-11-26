@@ -21,7 +21,7 @@ nav-tie-writers: counted-session and counted-batch dependency adds absorb plain 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q8.10.3](bob-cli-q8.10.3.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q8.10.3](bob-cli-q8.10.3.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

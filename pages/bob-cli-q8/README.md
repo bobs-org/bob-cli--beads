@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-q8
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.6f.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.6f.linker.w0.md) · **Assignee:** `bob-cli-q8.land`
-**Created:** 2026-11-25 18:16:41 EST
+**Created:** 2026-11-25 18:16:41 EST · **Closed:** 2026-11-26 07:32:18 EST
 **Plan:** [202611/plain\_link\_dependency\_ties.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md)
 
 <!-- sase:links:start -->
@@ -31,6 +31,10 @@ A task pair can hold a dependency or a plain (unlabelled) link, never both, in e
 
 [2026-11-26T07:05:34Z · bob-cli-q8.land] LAND VERIFICATION (bob-cli-q8.land, turn 1). Read all 9 phase beads and notes. Audited the plan against code: bob-cli a1caeefa/28802383/5d088829/974129e5 (+ docs f6e333d5/944a375f/01dee47a/57adf617), bob-plugins 9ee48229/b26a38a7/6837edc9/d1a25d90, bob-mac-capture 797313af. Rust tie helpers, reconcile fold + absorbed_plain_links, merge pruning (MG21), capture absorption/subsumed ~/dependency_and_plain_link (LX17-LX25), capture-complete dependency_tie/plain_link, nav planner twins (PT22-PT39), visibility, applyTieChange, chords (⌃⇧L routed per ctrl_shift_l=yes), and the Mac decode/capsules/report rows are present; no decisions record was written, per memory_decision_record=no. Integration: no post-start commit conflicts with ties (drawer cutover, snooze z:, note placement, bank/takeover commits checked). Settle work dbebfbd4/ec93b88c needed q8 test-harness updates. Lander fixes in this turn: clippy dead code (PairTies/TieKind now test-only), question_mark lint in task_status_hooks/relations.rs, items_after_test_module in capture/relations.rs, the pre-existing q7.2 manual_contains lint, DW20-DW22 active-editor binding, the relation-stage-render expectation with tie decoration, the triplicated glossary:task-relation sentence collapsed to one (decision memory_glossary_relation) plus docs-gen, ST20 direction, stale §12/§22 'later phases' notes, and task-merge §11 convergence. Results: just lint ok; just docs-check ok; bob-plugins build:check and docs:check ok; tie suites green (plain-link-ties 22, tie-change-writer 10, tie-chords 14, dependencies-writer 29/29, relation-stage-render 6/6, relation-links-stage 78); bob plugins sync up to date. just check fails 97 non-q8 tests (DISCOVERED ISSUE on bob-cli-ph); no tie, relation, merge, reconcile, or capture-complete test fails. Remaining epic-caused gaps (counted absorption, batch ↵ refusal, chord block-ID prompts, two-undo same-note reversal, missing strip/hint/notice copy, stale Depends-on footer, PT12 CRLF and LR31/LR35 coverage) go to child epic plan finish_plain_link_ties. Declined at landing: unifying capture dependency_joins_pair with reconcile dependency_direction (separate engine graphs over the same identity keys); reverse-case absorbed-row naming (truthful, matches Mac); regenerating old Mac fixtures (no generators; deliberate old-Bob cases); tie index in 306 rather than 427/590; Mac fixture/CI steps verified by q8.9 notes (exact-SHA run 45749289760). sase bead epic-symbols bob-cli-q8: none.
 
+[2026-11-26T10:54:19Z · bob-cli-q8.10.land] CHILD LANDING UPDATE (q8.10): q8.10 remains open. Its three phases are closed and focused tests pass, but landing reproduced actual chord dispatch/prompt and same-note reversal side-effect gaps. The q8.10 LAND VERIFICATION note records exact source paths/evidence; a medium tale will repair them and finish q8.10 closeout, then re-audit all q8 descendants/notes/plan and post-child drift before closing q8 normally. No force closure or future-commit/CI dependency is appropriate.
+
+[2026-11-26T12:32:18Z · bob-cli-q8.10.land] LAND VERIFICATION (q8): Re-read the prior LAND TRIAGE and LAND VERIFICATION notes, every q8.1–q8.9 and q8.10 descendant and note, and both linked plans. All ten children are now closed; q8.10 completed the remaining dispatch, ID-prompt, atomic-reversal, counted-writer, and copy gaps. No epic-symbol entries remain, and no symvision recipe exists. Re-audited post-start CLI, plugin, and Mac drift: CLI f32e774c adds agenda/snooze work only; plugin commits 3af803f9/313a8cac update Bank and Area pane ownership only; the Mac commits after q8.9 address caret/drawer work. None adds a tie writer or conflicts with q8.9. q8.9 run 45749289760 on 797313af completed red on the already-owned drawer failures; current Mac master 5949d253 run 45812847406 is green after the drawer fix. Primary just docs-check passes. Current just check run 74f5bfe0905709a5e4d67f1fbf20b74a passes fmt and gated Clippy and fails only lib/CLI with 42/55 tests; the failed-test-name sets exactly match the previously triaged 231f6b89bd79a9cbc17778a0ba1b3d92 baseline. No tie test failed. Plugin npm test/build and focused tie suites pass; bob plugins sync deployed the navigation bundle and current Bank bundle without force and the post-sync dry-run is clean. The separate duplicate-frontmatter failure in bob-plugins docs:check is filed as ready task bob-cli-qf and is outside q8; all other follow-up dispositions from q8 remain tracked on ph, q4, q4.10.1, and qb. Reviewer decisions ctrl_shift_l=yes, memory_decision_record=no, and memory_glossary_relation=yes were honored; no unauthorized memory or release edits were made. The parent has no unclosed descendant or remaining q8 issue.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -43,18 +47,18 @@ A task pair can hold a dependency or a plain (unlabelled) link, never both, in e
 | [bob-cli-q8.6](bob-cli-q8.6.md) | Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q8.7](bob-cli-q8.7.md) | applyTieChange — release, reverse, and convert writes | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q8.8](bob-cli-q8.8.md) | The ⌃B / ⌃⇧B / ⌃L chords, ↵ conversions, and the armed release | ✓ closed | medium | 2026-11-25 | 1 | 2 |
-| [bob-cli-q8.9](bob-cli-q8.9.md) | Bob Mac Capture tie capsules and report rows | ✓ closed | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.9](bob-cli-q8.9.md) | Bob Mac Capture tie capsules and report rows | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-q8: One tie per task pair — dependencies absorb plain links [in_progress]"]
+    n0["bob-cli-q8: One tie per task pair — dependencies absorb plain links [closed]"]
     n1["bob-cli-q8.1: Contract, shared vectors, and the Rust tie helpers [closed]"]
-    n2["bob-cli-q8.10: Finish one-tie-per-pair — counted absorption, atomic reversal, chord prompts, and the tie copy [in_progress]"]
+    n2["bob-cli-q8.10: Finish one-tie-per-pair — counted absorption, atomic reversal, chord prompts, and the tie copy [closed]"]
     n3["bob-cli-q8.10.1: PT12 CRLF vectors and the missing LR31/LR35 reconcile cases [closed]"]
     n4["bob-cli-q8.10.2: Counted absorption, batch ↵ absorption, chord block-ID prompts, and one-undo reversal [closed]"]
-    n5["bob-cli-q8.10.3: Cycle hints, owner-true Depends-on strip, release-strip chord and ^prj segments, kept-relation notice, and live footers [in_progress]"]
+    n5["bob-cli-q8.10.3: Cycle hints, owner-true Depends-on strip, release-strip chord and ^prj segments, kept-relation notice, and live footers [closed]"]
     n6["bob-cli-q8.2: Reconcile fold and merge pruning [closed]"]
     n7["bob-cli-q8.3: Capture absorption, the plain-~ no-op, and the same-item error [closed]"]
     n8["bob-cli-q8.4: capture-complete tie fields [closed]"]
@@ -97,7 +101,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 5 |
-| [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.land/README.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.land.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md) | [bob-cli-q8.4](bob-cli-q8.4.md) | 1 |
@@ -105,7 +109,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-q8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.6.md) | [bob-cli-q8.6](bob-cli-q8.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.7/README.md) | [bob-cli-q8.7](bob-cli-q8.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md) | [bob-cli-q8.8](bob-cli-q8.8.md) | 2 |
-| [bbugyi200.apollo.bob-cli-q8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.9/README.md) | [bob-cli-q8.9](bob-cli-q8.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.9/README.md) | [bob-cli-q8.9](bob-cli-q8.9.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md) | [bob-cli-q8](README.md) | 2 |
 
 ## Commits
@@ -119,6 +123,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9ee4822`](https://github.com/bobs-org/bob-plugins/commit/9ee4822981650324ce391015bfc8fa2b6aa9bba8) | feat(nav): tie planner twins, planTieChange, and absorption in dependency writers | [bob-cli-q8.5](bob-cli-q8.5.md) | 2026-11-25 21:22:09 EST |
 | bob-cli | [`974129e`](https://github.com/bobs-org/bob-cli/commit/974129e55c0814d2822ab1a1b12bb278ca7f4d8e) | feat(capture): handle dependency and plain link ties | [bob-cli-q8.3](bob-cli-q8.3.md) | 2026-11-25 21:25:01 EST |
 | bob-plugins | [`bob-plugins@5067a37`](https://github.com/bobs-org/bob-plugins/commit/5067a37810610d7f53b8f4ba4f81067e964e2a93) | docs(plugins): update generated version metadata | [bob-cli-q8.3](bob-cli-q8.3.md) | 2026-11-25 21:25:54 EST |
+| bob-mac-capture | [`bob-mac-capture@797313a`](https://github.com/bobs-org/bob-mac-capture/commit/797313af29aea3378e83d2b56234200271e77702) | feat(mac-capture): decode tie fields and render tie capsules and report rows | [bob-cli-q8.9](bob-cli-q8.9.md) | 2026-11-25 22:29:54 EST |
 | bob-cli | [`944a375`](https://github.com/bobs-org/bob-cli/commit/944a375f1c0daef2781697c180b13753e9181028) | docs(nav): document task tie visibility | [bob-cli-q8.6](bob-cli-q8.6.md) | 2026-11-25 22:33:16 EST |
 | bob-plugins | [`bob-plugins@b26a38a`](https://github.com/bobs-org/bob-plugins/commit/b26a38a70dbf50f070f68258f6460370c6bd1a9b) | feat(nav): surface task tie relationships | [bob-cli-q8.6](bob-cli-q8.6.md) | 2026-11-25 22:34:04 EST |
 | bob-cli | [`01dee47`](https://github.com/bobs-org/bob-cli/commit/01dee47a01b6b24aa35175370d50bbe7b5fd779c) | docs(tasks): document tie conversion writes | [bob-cli-q8.7](bob-cli-q8.7.md) | 2026-11-25 23:33:24 EST |
@@ -136,6 +141,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@561a9ea`](https://github.com/bobs-org/bob-plugins/commit/561a9ea737c283f9d5a551d40fb82e182145bfea) | fix(nav-hotkeys): report Pomodoro links removed by project release | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:48:17 EST |
 | bob-plugins | [`bob-plugins@2cad24b`](https://github.com/bobs-org/bob-plugins/commit/2cad24b79638b30c15335c0a8dcd9d640924eb1e) | test: stabilize open-line date fixture | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:06:17 EST |
 | bob-plugins | [`bob-plugins@b9b3cec`](https://github.com/bobs-org/bob-plugins/commit/b9b3cec922189b7bb068b2d4c5b072b9fb8d0500) | test(plugins): stabilize dependency stage test fixtures | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:50:31 EST |
+| bob-cli | [`bab65e6`](https://github.com/bobs-org/bob-cli/commit/bab65e60b7aff27d0d783eb95fc407c8e1609c16) | docs(tasks): document tie reversal effects | [bob-cli-q8.10](bob-cli-q8.10.md) | 2026-11-26 07:36:25 EST |
 
 <!-- sase:referenced-by:start -->
 
