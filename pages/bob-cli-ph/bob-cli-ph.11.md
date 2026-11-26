@@ -13,7 +13,7 @@ memory: apply the accepted memory decisions with /sase_memory_write and regenera
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ph.10](bob-cli-ph.10.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [bob-cli-ph.10](bob-cli-ph.10.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.8](bob-cli-ph.8.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

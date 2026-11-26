@@ -21,7 +21,7 @@ star-expansion: a physical `*` asks capture-rewrite for expand_drawer_marker, ap
 
 - **Depends on:** [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

@@ -20,7 +20,7 @@ title-keys: at the end of a Bob-authorized drawer title, newline keys step past 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

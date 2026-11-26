@@ -19,7 +19,7 @@ annotation-build-repair: fix the CaptureDrawerSummary marker decode that broke M
 
 - **Blocks:** [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

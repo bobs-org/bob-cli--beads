@@ -24,7 +24,7 @@ preview-tray: BlockDiffCard renders a Bob-annotated drawer header as SF Symbol t
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
