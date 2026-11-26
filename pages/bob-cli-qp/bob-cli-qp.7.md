@@ -13,7 +13,7 @@ ref-acceptance: after bob-cli-qm.6 closes, extend the takeover harness as a sibl
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qp.5](bob-cli-qp.5.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qp.5](bob-cli-qp.5.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qp.6](bob-cli-qp.6.md) ◐ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qp.8](bob-cli-qp.8.md) ◐ · ⧖ 2026-11-26
 

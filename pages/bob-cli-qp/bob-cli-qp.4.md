@@ -20,14 +20,20 @@ ref-card: the pure identity model and the DOM. The host mounts behind the gate a
 ## Dependencies
 
 - **Depends on:** [bob-cli-qp.2](bob-cli-qp.2.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qp.5](bob-cli-qp.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qp.5](bob-cli-qp.5.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qp.6](bob-cli-qp.6.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.4/README.md) | [bob-cli-qp.4](bob-cli-qp.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.4/README.md) | [bob-cli-qp.4](bob-cli-qp.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@cb847f2`](https://github.com/bobs-org/bob-plugins/commit/cb847f20ad011cd6357d8aa1924dac3d53e8fafd) | feat(ref-card): implement local identity shell | [bob-cli-qp.4](bob-cli-qp.4.md) | 2026-11-26 15:46:38 EST |
 
 <!-- sase:referenced-by:start -->
 
