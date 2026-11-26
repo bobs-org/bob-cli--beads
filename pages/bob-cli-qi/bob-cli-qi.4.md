@@ -20,7 +20,7 @@
 | related | file:explicit:cdd6ba05e0b402a23c048298 | attached via sase artifact create --bead |
 | related | file:explicit:dce3a74989f86e48da93715d | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -72,9 +72,11 @@ takeover-proof: run the production-adapter matrix in isolated real Obsidian agai
 | read-by | [agent:research.6k.cld][1] | Check phase progress to plan parallel prose/notebook card work | 1 |
 | read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
 | read-by | [agent:research.6k.grk][3] | Need remaining takeover-proof work to judge whether new card species can land in parallel | 1 |
+| read-by | [agent:research.6l.gem][4] | Check live progress of active property-card and prose epics for parallelization analysis | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cld/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.grk/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->
