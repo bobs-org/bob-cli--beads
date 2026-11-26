@@ -11,6 +11,10 @@
 
 draft-styling: paint drawer_bullet titles semibold in the section family and drawer_marker delimiters in tertiary ink that returns to full ink at the caret, through a portable span helper the typing phases reuse.
 
+## Notes
+
+[2026-11-26T04:21:26Z · bob-cli-ph.8.1.3] Implemented Bob-span-driven draft styling: drawer titles use the section color and semibold monospaced font; delimiters use tertiary ink away from the caret and primary ink when touched; repaint clears inherited font attributes. Added a portable CaptureCore drawer span adapter for subsequent typing phases. Verified: Athena just portable-check passed (2,785 tests, 1 skipped); Mac scratch Scripts/bundle.sh and just typecheck-tests passed. Exact-SHA Scripts/macos-ci-check remains required before close.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) ✓ · ⧖ 2026-11-25
@@ -21,4 +25,10 @@ draft-styling: paint drawer_bullet titles semibold in the section family and dra
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.3/README.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.3.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@b422fbd`](https://github.com/bobs-org/bob-mac-capture/commit/b422fbdc84f520f0ea4d995e736c693def48b557) | feat(capture): style drawer titles and delimiters | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 2026-11-25 23:25:14 EST |

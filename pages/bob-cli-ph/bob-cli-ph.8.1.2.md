@@ -20,4 +20,10 @@ preview-tray: BlockDiffCard renders a Bob-annotated drawer header as SF Symbol t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.2.md) | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.2.md) | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@4d9e845`](https://github.com/bobs-org/bob-mac-capture/commit/4d9e845e5a76e20d8f3b34406c9b30feba12fbbf) | feat(mac-capture): tray and verbatim title on drawer preview headers | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-25 23:08:02 EST |
