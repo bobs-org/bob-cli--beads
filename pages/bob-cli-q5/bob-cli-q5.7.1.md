@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/mac_snoozed_agenda.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_snoozed_agenda.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Complete bob-cli-q5.7: show snoozed tasks separately in the Mac agenda, preserve
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q5.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.land/README.md) | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.7.1.1][1] | need parent epic scope and design | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->
