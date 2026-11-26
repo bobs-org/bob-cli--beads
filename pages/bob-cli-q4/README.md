@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/better_o_gesture_settle.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md
 
@@ -32,6 +32,8 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 [2026-11-25T18:13:50Z · bob-cli-ph.7.1.land] DISCOVERED ISSUE: Triage of bob-cli-ph.7.1.3 #2 and ph.7.1.4 #2 docs proposals: independent count_words at bob-plugins 8254caa4 finds navigation 6068/6000 vs 6046 at f2e8c62a^; the 22-word increment comes from eac9d744 (q4.5) managed-link split prose. plugin-apis is 9929/8000 advisory vs 9287 pre-epic; c9454208 (q4.8.1.3) adds the 642-word taskSettle API block. Existing hard-cap/headroom tasks jz/ob corroborated; q4 owns its increments and should trim them while preserving contract docs. Drawer acceptance conversion prose is net-zero.
 
 [2026-11-25T22:32:25Z · bob-cli-ph.6.1.land] DISCOVERED ISSUE (fresh reproduction for note #1; from bob-cli-ph.6.1 landing triage of PROPOSED FOLLOW-UPs bob-cli-ph.6.1.3 #1/#3, ph.6.1.4 #2, ph.6.1.5 #2): cargo test --test cli at bob-cli d67a5b7b fails exactly 17 settle-drift nodes: capture::inbox_route x2 (ir_dependency_touch_follows_its_routed_task, ir_routed_link_moves_with_repair_stamp_follow_and_open_notes), capture::note_pull x3 (np2_pick_all, np_move_groups, np16_inbox_choice), capture::project_note x3 (capture_move_landing_repairs..., capture_project_note_choice_answers..., capture_project_note_task_links_write_the_worked_example), capture::project_note_offer x6, capture::task_theme_writes::new_named_task_reports_and_writes_the_resolved_theme_exception, ref_library::today::today_matches_unnamed_capture_and_named_capture_remembers_theme, task_status_hooks::sync::task_status_hooks_groups_area_project_tasks_after_final_statuses. The same 17 fail identically at 08a708d3 (q4.7), before any ph.6.1 behavior change landed, and the diffs are the new ## Tasks badge row / ### Next & In Progress grouping (e.g. ref_library::today expects the settled chip row and group heading but the capture postimage lacks it, or vice versa). ph.6.1 is not causal; no standalone task filed.
+
+[2026-11-26T00:04:26Z · bob-cli-q5.1.1.land] DISCOVERED ISSUE (fresh reproduction from the bob-cli-q5.1.1 snooze land triage of PROPOSED FOLLOW-UPs q5.1.1.2 #1, q5.1.1.4 #1, q5.1.1.5 #3): cargo test --test cli on bob-cli master 6a3e5df6 (plus snooze landing edits that touch only snooze add/docs) gives 4166 passed / 17 failed, exactly the settle-drift node set already recorded here: capture::inbox_route x2, capture::note_pull x3, capture::project_note x3, capture::project_note_offer x6, capture::task_theme_writes::new_named_task_reports_and_writes_the_resolved_theme_exception, ref_library::today::today_matches_unnamed_capture_and_named_capture_remembers_theme, task_status_hooks::sync::task_status_hooks_groups_area_project_tasks_after_final_statuses. completion::capture_text no longer fails after 2d2f200d. No snooze test fails.
 
 ## Phases
 
@@ -159,7 +161,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.10.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md) | [bob-cli-q4.10.1.1](bob-cli-q4.10.1.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md) | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 8 |
+| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 9 |
 | [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.5/README.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
@@ -225,6 +227,7 @@ flowchart TD
 | bob-cli | [`8850f2e`](https://github.com/bobs-org/bob-cli/commit/8850f2e639a862f5814eae348449ebd232053bb7) | docs(reference): satisfy word-budget lint | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 18:53:41 EST |
 | bob-plugins | [`bob-plugins@df44ab1`](https://github.com/bobs-org/bob-plugins/commit/df44ab12b1d4c50886a2014e21add82dc152ce88) | test(cycler): drive Vim escape through Obsidian handler | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 18:59:43 EST |
 | bob-plugins | [`bob-plugins@f9a9e16`](https://github.com/bobs-org/bob-plugins/commit/f9a9e167a8fee9cf1653532e98bedfbf5208b30c) | fix(ledger): annotate parent stage text role | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:02:52 EST |
+| bob-plugins | [`bob-plugins@79d71bf`](https://github.com/bobs-org/bob-plugins/commit/79d71bfd6bbd5ecc1c4919660b6ec92987f162bd) | docs(bob-navigation-hotkeys): meet docs budgets and mark literal input | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:17:39 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -237,11 +240,13 @@ flowchart TD
 | read-by | [agent:bob-cli-q4.7][3] | check epic children statuses | 1 |
 | read-by | [agent:bob-cli-q5.1.1.2][4] | Need notes on ref_library today and task_status_hooks grouping failures | 1 |
 | read-by | [agent:bob-cli-q5.1.1.4][5] | See if q4 tracks the capture CLI grouping failures | 1 |
+| read-by | [agent:bob-cli-q5.1.1.land][6] | Confirm the existing DISCOVERED ISSUE for the capture CLI failures cited by snooze phases | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ph.6.1.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.7/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.4/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
 
 <!-- sase:referenced-by:end -->
