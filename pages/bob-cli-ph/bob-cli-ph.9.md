@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:1d4db13a0a6ed86a7c2d0374 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -48,8 +48,10 @@ vault-migration: confirm every host writes bold, inventory the legacy drawers, a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:g1][1] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.10][1] | Verify migration completion evidence and released legacy line set for cutover | 1 |
+| read-by | [agent:g1][2] | Check whether phase is blocked on the release gate | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->
