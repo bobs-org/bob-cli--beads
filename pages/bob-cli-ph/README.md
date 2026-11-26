@@ -35,6 +35,8 @@ A task drawer is a `- **Title**` bullet whose title keeps its authored capitaliz
 
 [2026-11-25T10:57:19Z · bryanbugyi34@gmail.com] This epic should not need to wait for a release. See the drawer_reader_gate_without_release.md file in the research sidecar repo for context.
 
+[2026-11-26T07:01:47Z · bob-cli-q8.land] DISCOVERED ISSUE (from bob-cli-q8 land): just check on bob-cli master 57adf617, plus q8 lander clippy-only fixes, reports 97 failing tests (lib 42, cli 55). The large majority still expect ALL-CAPS drawer recognition that bob-cli-ph.10 (9573ff86, 46aba677, 5d5509de, c3a9bdd9) retired. Examples: native::task_children::tests::classifies_managed_links_logs_drawers_and_nested_tasks (REQUIREMENTS -> Authored, not Drawer), native::gcal::description::bullets::tests::bullet_vectors ('- TBD' vs '- __TBD__'), native::gkeep::render (RECEIPT vs __RECEIPT__), native::gmail::body::inert whole_bold_and_legacy_list_items ('AGENDA'), task_drawer_rename::bare_run_is_a_dry_run_with_an_inventory, capture::complete_drawers::* (11), capture::multi_target::a_glued_drawer_suffix_stays_local_to_its_target, completion::bash::bash_keeps_spaces_in_one_argument ('drawer stays one escaped argument: []'), native::task_merge::tests::task_drawers_and_project_h2_drawers_resolve_for_merge, and native::capture_complete::tests::routes_tasks::three_component_marker_keeps_route_and_task_contexts. A separate trio fails on a project/area '## Tasks' summary line that tests don't expect (ref_library::today::today_matches_unnamed_capture_and_named_capture_remembers_theme, capture::task_theme_writes::new_named_task_reports_and_writes_the_resolved_theme_exception, task_status_hooks::sync::task_status_hooks_groups_area_project_tasks_after_final_statuses), probably not drawer-related. No q8 relation, tie, reconcile-fold, merge-prune, capture-relations, or capture-complete test fails. Repro: just check.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -82,7 +84,7 @@ flowchart TD
     n24["bob-cli-ph.8.1.2: Tray and verbatim title on annotated preview drawer headers [closed]"]
     n25["bob-cli-ph.8.1.3: Semibold drawer titles and dimmed delimiters in the draft editor [closed]"]
     n26["bob-cli-ph.8.1.4: Bob-driven star expansion and atomic Backspace [closed]"]
-    n27["bob-cli-ph.8.1.5: Drawer title newline and closing-star overtype [in_progress]"]
+    n27["bob-cli-ph.8.1.5: Drawer title newline and closing-star overtype [closed]"]
     n28["bob-cli-ph.8.1.6: Mac drawer acceptance, screenshots, and documentation [in_progress]"]
     n29["bob-cli-ph.9: Reviewed migration of legacy ALL-CAPS drawers [closed]"]
     n0 --> n1
@@ -178,7 +180,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.3.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.4.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.5.md) | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.6/README.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.land/README.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.9.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.land/README.md) | [bob-cli-ph](README.md) | 0 |
@@ -220,6 +222,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@5d50d5a`](https://github.com/bobs-org/bob-mac-capture/commit/5d50d5a6ddf46b4aa35efefbb83739734b6094f2) | fix(mac-capture): correct drawer CI assertions and delimiter full-ink color | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-26 00:20:27 EST |
 | bob-mac-capture | [`bob-mac-capture@c561b26`](https://github.com/bobs-org/bob-mac-capture/commit/c561b26a0a8d39de5996ec470c5eae3959d09937) | feat(mac-capture): drive drawer star expansion and atomic Backspace through capture-rewrite | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 2026-11-26 00:43:34 EST |
 | bob-mac-capture | [`bob-mac-capture@7d6e12a`](https://github.com/bobs-org/bob-mac-capture/commit/7d6e12a7397bbb270a616a06357c58dddaf832f8) | feat(capture): handle drawer title newline and star overtype | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 2026-11-26 01:51:48 EST |
+| bob-cli | [`631a49d`](https://github.com/bobs-org/bob-cli/commit/631a49d5d55f18ea6b343ce778f6148e457e1bf1) | docs(drawers): reconcile Mac Capture section with shipped true-case behavior | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:03:30 EST |
 
 <!-- sase:referenced-by:start -->
 
