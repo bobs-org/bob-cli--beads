@@ -32,13 +32,7 @@ planned-today: build snoozedCache and the public isSnoozedToday/isPlannedToday/s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.2/README.md) | [bob-cli-q5.4.1.2](bob-cli-q5.4.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@7d8a7d4`](https://github.com/bobs-org/bob-plugins/commit/7d8a7d4ac876740b45ee596e556f9d9519f489e1) | feat(snooze): add snoozed planned-today cache and exclusions | [bob-cli-q5.4.1.2](bob-cli-q5.4.1.2.md) | 2026-11-26 09:09:42 EST |
+| [bbugyi200.athena.bob-cli-q5.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.2/README.md) | [bob-cli-q5.4.1.2](bob-cli-q5.4.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
