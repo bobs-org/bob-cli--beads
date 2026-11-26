@@ -11,6 +11,10 @@
 
 planned-today: reconcile treats live rows as recovery-only reach and never touches them; freshness, ]s, and bob walks exclude snoozed tasks; bob plan gains the snoozed meter and forecast lint; capture-pomodoros --tasks gains additive snoozed rows and woke_at.
 
+## Notes
+
+[2026-11-26T00:32:42Z · bob-cli-q5.2] PLANNING: Checked clean baseline 03ca3f7e and the completed bob-cli-q5.1 handoff; core parser/classifier/writer APIs have landed, but none of this phase’s reader integrations are present and there were no prior phase implementation notes. Authored and validated a four-phase child epic: reader-recovery, review-exclusions, plan-forecast, agenda-provenance. Reconcile requires a separate direct snoozed recovery set because recent_activity_roots traverses dependencies; review must cover checklist and recurring overlays. Preserved all outer DECISIONS and agenda schema 1. The child epic land agent owns integrated verification and closure of bob-cli-q5.2 only. No product source, memory, or bead status changed. epic-symbols currently reports no entries for this phase.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.1](bob-cli-q5.1.md) ✓ · ⧖ 2026-11-25
@@ -21,7 +25,7 @@ planned-today: reconcile treats live rows as recovery-only reach and never touch
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.2/README.md) | [bob-cli-q5.2](bob-cli-q5.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.md) | [bob-cli-q5.2](bob-cli-q5.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

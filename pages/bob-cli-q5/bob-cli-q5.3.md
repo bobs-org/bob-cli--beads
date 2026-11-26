@@ -11,6 +11,10 @@
 
 capture-z: the z:<when> token for new and existing-task captures, the existing-task grammar exception, link-now and drop interplay with live rows, teaching refusals, completions led by today's event end times, a snooze span kind, and docs/capture.md.
 
+## Notes
+
+[2026-11-26T00:32:17Z · bob-cli-q5.3] PLANNING: Confirmed at 03ca3f7e that wake-engine core landed, but capture z: grammar, execution, spans, and completions remain absent; no earlier phase implementation notes were present. Prepared a validated three-phase child epic (grammar, atomic mutation, completion/docs) with its land agent responsible for verifying and closing this phase only. No product files changed. Current epic-symbol check reports no entries for bob-cli-q5.3.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.1](bob-cli-q5.1.md) ✓ · ⧖ 2026-11-25
@@ -21,7 +25,7 @@ capture-z: the z:<when> token for new and existing-task captures, the existing-t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.3/README.md) | [bob-cli-q5.3](bob-cli-q5.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.3.md) | [bob-cli-q5.3](bob-cli-q5.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
