@@ -32,4 +32,10 @@ mac-tie-capsules: decode the new capture and capture-complete fields, render the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-q8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.9/README.md) | [bob-cli-q8.9](bob-cli-q8.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.9/README.md) | [bob-cli-q8.9](bob-cli-q8.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@797313a`](https://github.com/bobs-org/bob-mac-capture/commit/797313af29aea3378e83d2b56234200271e77702) | feat(mac-capture): decode tie fields and render tie capsules and report rows | [bob-cli-q8.9](bob-cli-q8.9.md) | 2026-11-25 22:29:54 EST |

@@ -7,6 +7,20 @@
 **Created:** 2026-11-25 18:16:43 EST · **Closed:** 2026-11-26 00:47:10 EST
 **Plan:** [202611/plain\_link\_dependency\_ties.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-qb][1] | The Obsidian ⌃B/⌃⇧B/⌃L/⌃⇧L chord grammar and armed release this would mirror |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qb/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 nav-tie-keys: wire the Ctrl chords and ↵ conversions in all four stages with strict modifier helpers. A ↵ release takes two presses. Batches and counted sessions refuse conversions, and the label stage guards its plain row. Add the footers and docs, then deploy with bob plugins sync.
@@ -33,3 +47,15 @@ nav-tie-keys: wire the Ctrl chords and ↵ conversions in all four stages with s
 |---|---|---|---|---|
 | bob-cli | [`57adf61`](https://github.com/bobs-org/bob-cli/commit/57adf61701d1bb6baa1bf73fb0576249dbf4ac79) | docs(task-relation): plain-link exclusivity for dependency ties | [bob-cli-q8.8](bob-cli-q8.8.md) | 2026-11-26 00:48:33 EST |
 | bob-plugins | [`bob-plugins@d1a25d9`](https://github.com/bobs-org/bob-plugins/commit/d1a25d90b24beb28aeec84faa90f847417cc9669) | feat(nav-hotkeys): strict ctrl tie chords with two-press link confirm | [bob-cli-q8.8](bob-cli-q8.8.md) | 2026-11-26 00:49:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q8.8][1] | Verify phase scope before closing | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md
+
+<!-- sase:referenced-by:end -->
