@@ -70,6 +70,7 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 | read-by | [agent:bob-cli-ph.7.1.land--1][3] | Need parent phase status and coordination notes | 1 |
 | read-by | [agent:bob-cli-ph.7.1.land--2][3] | Review epic scope and closeout requirements for drawer landing repairs | 2 |
 | read-by | [agent:bob-cli-ph.7.1.land--3][3] | Need current drawer epic status and phase children for closeout | 1 |
+| read-by | [agent:bob-cli-ph.7.1.land--7][3] | Verify drawer epic bead status and scope before attaching evidence and closing | 3 |
 | read-by | [agent:bob-cli-pq.1][4] | sequencing check for glyph-contract | 2 |
 | read-by | [agent:bob-cli-pq.3][5] | Check prerequisite drawer implementation and remaining integration | 1 |
 | read-by | [agent:bob-cli-q4.2][6] | Need ph.7 status before leaving the open-lines coordination note | 1 |
