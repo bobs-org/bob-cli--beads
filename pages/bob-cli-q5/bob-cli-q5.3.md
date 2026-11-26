@@ -13,7 +13,7 @@ capture-z: the z:<when> token for new and existing-task captures, the existing-t
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.1](bob-cli-q5.1.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.1](bob-cli-q5.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.7](bob-cli-q5.7.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.9](bob-cli-q5.9.md) ◐ · ⧖ 2026-11-25
 
@@ -22,3 +22,15 @@ capture-z: the z:<when> token for new and existing-task captures, the existing-t
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q5.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.3/README.md) | [bob-cli-q5.3](bob-cli-q5.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.1.1.land][1] | Check whether outer snooze phases consume wake-engine APIs before integration edits | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
+
+<!-- sase:referenced-by:end -->

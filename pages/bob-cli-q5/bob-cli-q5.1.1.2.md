@@ -50,10 +50,12 @@ mutation-planners: implement pure add/drop/wake plans, identity-based subtree mo
 | read-by | [agent:bob-cli-q4.9.1.1][2] | Check whether just-check CLI grouping failures are already tracked | 1 |
 | read-by | [agent:bob-cli-q5.1.1.2][3] | Need DECISIONS, notes, and remaining work from earlier agents | 6 |
 | read-by | [agent:bob-cli-q5.1.1.4][4] | Cite existing follow-up notes for CLI grouping failures | 1 |
+| read-by | [agent:bob-cli-q5.1.1.land][5] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.4/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
 
 <!-- sase:referenced-by:end -->
