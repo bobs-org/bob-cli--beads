@@ -11,6 +11,14 @@
 
 mac-tie-capsules: decode the new capture and capture-complete fields, render the tie capsules, summaries, and report rows, refresh the fixtures and docs, and watch the exact-SHA macOS CI run to green.
 
+## Notes
+
+[2026-11-26T02:58:07Z · bob-cli-q8.9] PROPOSED FOLLOW-UP: bob-cli master has pre-existing docs generated drift (docs/reference/glossary.md missing the q8.3 task-relation sentence; plugin inventory stale for docs/bob-ledger-tools.md and docs/index.md), so mac-capture just docs-check fails its generated-drift stage on the clean base too; bob-docs lint passes with the q8.9 docs. Needs a bob-cli docs-gen + bob-plugins sync pass.
+
+[2026-11-26T02:58:23Z · bob-cli-q8.9] PROPOSED FOLLOW-UP: portable-check on athena shows 12 pre-existing drawer-casing failures (CapturePlaceMenuPresentationTests, CaptureSubBulletPresentationTests, CaptureModelTests.testCaptureSuccessDecodesDrawerObject) that reproduce identically on untouched origin/master; true-case drawer annotation vs test expectations.
+
+[2026-11-26T03:20:57Z · bob-cli-q8.9] PROPOSED FOLLOW-UP: macOS CI and portable-check show pre-existing drawer-casing failures (CapturePlaceMenuPresentationTests, CaptureSubBulletPresentationTests, CaptureModelTests.testCaptureSuccessDecodesDrawerObject) reproducing identically on untouched origin/master; tracked by epic bob-cli-ph.8.1 (true-case drawers), not this bead.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q8.3](bob-cli-q8.3.md) ✓ · ⧖ 2026-11-25
