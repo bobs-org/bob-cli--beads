@@ -32,3 +32,15 @@ home-ownership: extend the shared capability and mount coordinator for area/proj
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8698046`](https://github.com/bobs-org/bob-plugins/commit/8698046c10872ccde3e3a3c185e2447d3bcf24ed) | feat(ledger-tools): per-path props contract routing with home ownership and entry routing | [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) | 2026-11-25 20:19:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.9.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.1/README.md
+
+<!-- sase:referenced-by:end -->

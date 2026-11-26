@@ -34,8 +34,10 @@ takeover: own the frontmatter on eligible area/project notes behind props_contra
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:fx][1] | Map the pl epic dependency graph | 1 |
+| read-by | [agent:bob-cli-pl.9.1.1][1] | Check parent phase scope and decisions | 1 |
+| read-by | [agent:fx][2] | Map the pl epic dependency graph | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.fx/README.md
 
 <!-- sase:referenced-by:end -->

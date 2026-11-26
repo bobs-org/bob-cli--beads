@@ -11,6 +11,10 @@
 
 bank-arbitration: prove the bank anchor in real Obsidian, implement scope-local title/foot/frontmatter arbitration with the approved fallback ladder, and preserve the bank editor.
 
+## Notes
+
+[2026-11-26T02:35:19Z · bob-cli-pl.9.1.2--1] PROPOSED FOLLOW-UP: Confirmed the task-status-cycler date-boundary defect already proposed in bob-cli-pl.9.1.1 note #1 and bob-cli-pl.7 note #1: the two assertions in scripts/test-task-status-cycler-open-line.cjs expect created::2026-11-25 but produce 2026-11-26 on Nov 26; both fail identically on a clean HEAD archive. No matching task bead was found; stabilize the fixture date.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) ✓ · ⧖ 2026-11-25
@@ -20,4 +24,10 @@ bank-arbitration: prove the bank anchor in real Obsidian, implement scope-local 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2/README.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@06c87a0`](https://github.com/bobs-org/bob-plugins/commit/06c87a0682d66d903017d66be98c02cfb813f379) | fix(plugins): preserve takeover timeout evidence | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-25 22:23:59 EST |
