@@ -13,7 +13,7 @@ woken-pills: render same-note wake history before eligible open ledger links, wi
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

@@ -17,10 +17,28 @@ display-contract: publish docs/snooze-marks.md and machine-readable SM vectors i
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.1/README.md) | [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.1/README.md) | [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ba21e4c`](https://github.com/bobs-org/bob-cli/commit/ba21e4c2aec89204dd7d84cd28a5f17f75d8b081) | docs(snooze): publish snooze-marks display contract and SM-\* vectors | [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) | 2026-11-26 15:58:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.5.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->
