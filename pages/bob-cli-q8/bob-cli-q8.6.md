@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q8](README.md) / bob-cli-q8.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.6f.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.6f.linker.w0.md) · **Assignee:** `bob-cli-q8.6` · **Size:** medium
-**Created:** 2026-11-25 18:16:42 EST
+**Created:** 2026-11-25 18:16:42 EST · **Closed:** 2026-11-25 22:36:59 EST
 **Plan:** [202611/plain\_link\_dependency\_ties.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md)
 
 ## Description
@@ -17,10 +17,12 @@ nav-tie-visibility: all four stages show each row's tie in both directions in a 
 
 [2026-11-26T03:26:20Z · bob-cli-q8.6] PROPOSED FOLLOW-UP: Repair the stale date expectation in scripts/test-task-status-cycler-open-line.cjs; npm test on 2026-11-26 expected 2026-11-25 at line 598, while the date formatter bundle is unchanged from base.
 
+[2026-11-26T03:36:59Z · bob-cli-q8.6--1] Completed task tie visibility. Verified the plugin build and documentation checks, primary just docs-check, and focused relation-stage test (78/78); bob plugins sync completed with exit 0 and copied the updated plugin files into the vault. Clean-base full-suite failures remain recorded in the existing PROPOSED FOLLOW-UP notes.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q8.5](bob-cli-q8.5.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q8.7](bob-cli-q8.7.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q8.7](bob-cli-q8.7.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

@@ -24,7 +24,7 @@ nav-tie-planner: add the pure JS twins and planTieChange in bob-navigation-hotke
 ## Dependencies
 
 - **Depends on:** [bob-cli-q8.1](bob-cli-q8.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q8.6](bob-cli-q8.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q8.6](bob-cli-q8.6.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

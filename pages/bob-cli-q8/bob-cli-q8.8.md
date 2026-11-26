@@ -13,7 +13,7 @@ nav-tie-keys: wire the Ctrl chords and ↵ conversions in all four stages with s
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q8.7](bob-cli-q8.7.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q8.7](bob-cli-q8.7.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

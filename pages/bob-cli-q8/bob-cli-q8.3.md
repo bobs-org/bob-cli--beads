@@ -20,7 +20,7 @@ capture-writers: & and * absorb the pair's plain links in the same staged write.
 ## Dependencies
 
 - **Depends on:** [bob-cli-q8.1](bob-cli-q8.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q8.9](bob-cli-q8.9.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q8.9](bob-cli-q8.9.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

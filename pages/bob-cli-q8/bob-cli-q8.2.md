@@ -20,7 +20,7 @@ reconcile-fold: bob task reconcile drops plain LINKS entries on dependency-joine
 ## Dependencies
 
 - **Depends on:** [bob-cli-q8.1](bob-cli-q8.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q8.7](bob-cli-q8.7.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q8.7](bob-cli-q8.7.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
