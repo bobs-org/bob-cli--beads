@@ -19,6 +19,8 @@ review-exclusions: thread is_snoozed_today through freshness scan, evaluation, p
 
 [2026-11-26T08:36:36Z · bob-cli-q5.2.1.2] Verification update: just docs-check passed all implemented gates (lint, generated drift, strict build, URLs/links/tutorial and 447 documentation unit tests; 1 optional font-dependency test skipped). cargo check --tests passed; final formatting and diff checks pass. Full executable regression verification is being handed to a monitor, with implementation complete and only test/gate triage remaining. Baseline for clean-base comparisons is 1c23bce7. Do not infer the predecessor direct-recovery changes landed: the earlier proposed follow-up remains for the land agent; this phase owns the reader extraction and exclusions only.
 
+[2026-11-26T09:00:00Z · bob-cli-q5.2.1.2--1] Verification triage: implementation is committed as b8678657. Monitor 5rfve5sbzwpf passed freshness/snooze/task_complete/hooks unit tests and freshness CLI; just check passed format and Clippy but failed 43 lib tests and 56 CLI tests. The introduced SP vector assertion confused ignored-row reasons (ready/already_linked) with the CLI state ignored. Fixed SP4/SP5/SP9/SP15 fixtures to separate snooze_state and snooze_reason and added the reason assertion; all vector cases pass with the existing test binary after fixture correction. A fresh full gate plus clean-base 1c23bce7 lib/CLI comparison is next; no claim yet that the remaining 98 failures are unrelated. Existing leads are q9 (PDF kicker spacing), q4 (17 settle fixture failures), and ph.10/ph.8.1.6 (bold-only drawer fixture drift). No docs changed, so prior docs-check remains valid.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.2.1.1](bob-cli-q5.2.1.1.md) ✓ · ⧖ 2026-11-25
@@ -28,10 +30,11 @@ review-exclusions: thread is_snoozed_today through freshness scan, evaluation, p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.1.2.md) | [bob-cli-q5.2.1.2](bob-cli-q5.2.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.1.2.md) | [bob-cli-q5.2.1.2](bob-cli-q5.2.1.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`b867865`](https://github.com/bobs-org/bob-cli/commit/b8678657640747b58ab418ef2206c86786b240db) | feat(freshness): exclude planned-today tasks from review and walks | [bob-cli-q5.2.1.2](bob-cli-q5.2.1.2.md) | 2026-11-26 03:38:14 EST |
+| bob-cli | [`bbcae8e`](https://github.com/bobs-org/bob-cli/commit/bbcae8e03383b33cae1efc21856c00488fe68e16) | test(walks): distinguish ignored snooze states from reasons | [bob-cli-q5.2.1.2](bob-cli-q5.2.1.2.md) | 2026-11-26 04:01:22 EST |
