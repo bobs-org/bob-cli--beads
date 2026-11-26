@@ -144,7 +144,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.8/README.md) | [bob-cli-pl.8](bob-cli-pl.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.md) | [bob-cli-pl.9](bob-cli-pl.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.1/README.md) | [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.3/README.md) | [bob-cli-pl.9.1.3](bob-cli-pl.9.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.4/README.md) | [bob-cli-pl.9.1.4](bob-cli-pl.9.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.land/README.md) | [bob-cli-pl.9.1](bob-cli-pl.9.1.md) | 0 |
@@ -187,6 +187,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@691182f`](https://github.com/bobs-org/bob-plugins/commit/691182f43befa4f2b0c980340e6f2dbd7796b0f3) | feat(property-editor): add hue type and clock policy stages | [bob-cli-pl.7](bob-cli-pl.7.md) | 2026-11-25 19:35:59 EST |
 | bob-plugins | [`bob-plugins@8698046`](https://github.com/bobs-org/bob-plugins/commit/8698046c10872ccde3e3a3c185e2447d3bcf24ed) | feat(ledger-tools): per-path props contract routing with home ownership and entry routing | [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) | 2026-11-25 20:19:22 EST |
 | bob-plugins | [`bob-plugins@06c87a0`](https://github.com/bobs-org/bob-plugins/commit/06c87a0682d66d903017d66be98c02cfb813f379) | fix(plugins): preserve takeover timeout evidence | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-25 22:23:59 EST |
+| bob-plugins | [`bob-plugins@8e401c6`](https://github.com/bobs-org/bob-plugins/commit/8e401c6ed34d3bc8074be904cfb983fe5d28ec17) | fix(plugins): preserve bank setup alongside area ownership | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-25 23:27:08 EST |
 
 <!-- sase:referenced-by:start -->
 
