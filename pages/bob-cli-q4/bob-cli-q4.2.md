@@ -23,7 +23,7 @@ open-lines: `o`/`O` on task headlines open a fresh `#task [created::]` after the
 
 - **Blocks:** [bob-cli-q4.12](bob-cli-q4.12.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.9](bob-cli-q4.9.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.9](bob-cli-q4.9.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
