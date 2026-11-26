@@ -22,13 +22,19 @@ cli-browse: add the additive block_id.goto rows to task_block_id completion for 
 ## Dependencies
 
 - **Depends on:** [bob-cli-q7.1](bob-cli-q7.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q7.5](bob-cli-q7.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q7.5](bob-cli-q7.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md) | [bob-cli-q7.2](bob-cli-q7.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md) | [bob-cli-q7.2](bob-cli-q7.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`d883e56`](https://github.com/bobs-org/bob-cli/commit/d883e564ecac1aecc9c3b6d4a1c72517cae87379) | feat(capture): scoped browse block\_id.goto with archive rows, mint-collision hint, route^block-id search | [bob-cli-q7.2](bob-cli-q7.2.md) | 2026-11-25 18:16:48 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -37,9 +43,11 @@ cli-browse: add the additive block_id.goto rows to task_block_id completion for 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.7.1.land--7][1] | Verify independent clean-baseline docs budget overage corroboration | 1 |
-| read-by | [agent:bob-cli-q7.2][2] | Need phase scope | 2 |
+| read-by | [agent:bob-cli-q5.1.1.land][2] | Check whether the complete_block_id manual_contains lint break is tracked by its landing | 1 |
+| read-by | [agent:bob-cli-q7.2][3] | Need phase scope | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md
 
 <!-- sase:referenced-by:end -->

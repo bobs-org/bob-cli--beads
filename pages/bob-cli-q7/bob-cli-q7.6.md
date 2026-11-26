@@ -14,10 +14,22 @@ closeout: verify every acceptance case against the real vault read-only, confirm
 ## Dependencies
 
 - **Depends on:** [bob-cli-q7.3](bob-cli-q7.3.md) ✓ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-q7.5](bob-cli-q7.5.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q7.5](bob-cli-q7.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.6/README.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.1.1.land][1] | Check q7 closeout phase scope for docs budget and lint | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
+
+<!-- sase:referenced-by:end -->
