@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ph.7](bob-cli-ph.7.md) / bob-cli-ph.7.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-ph.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.md) · **Assignee:** `bob-cli-ph.7.1.land`
-**Created:** 2026-11-25 08:48:55 EST
+**Created:** 2026-11-25 08:48:55 EST · **Closed:** 2026-11-25 18:56:13 EST
 **Plan:** [202611/obsidian\_true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/obsidian_true_case_drawers.md)
 
 <!-- sase:links:start -->
@@ -39,6 +39,8 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 
 [2026-11-25T20:12:13Z · bob-cli-ph.7.1.land--2] PROPOSED FOLLOW-UP: just check on unchanged clean bob-cli base e532b11f911486e404fefeed3c7a7653dd7cbef7 passed clippy but failed tests in -p bob-obsidian --lib and --test cli. The same 3 library and 17 CLI failures are already triaged on bob-cli-q5.1.1.2 (notes #1, #2, and #5) and bob-cli-q4; bob-cli had no source changes in this run, so no new task bead is warranted.
 
+[2026-11-25T23:56:13Z · bob-cli-ph.7.1.land--7] Verified all four Obsidian drawer cases and inspected the four published screenshots; visual report is pass:true for source SHA ea3bc6a42500cb93ea77f69f4e50fbd7adf44261. Exact-SHA npm test rerun monitor 0vkpsfthmhye exited 0: 9685 main tests passed, 5 skipped, and performance tests passed 26/26. Build and validate exited 0. docs:check still reports only four clean-baseline word-budget errors; plugin-apis is warning-only, corroborated by bob-cli-q6.4 and bob-cli-q7.2. Published report and screenshot artifacts are attached. Deployed bob-ledger-tools from the exact revision with non-forcing sync; Apollo provenance stamp is clean and includes bob-task-drawer-render-v1. epic-symbols has no entries.
+
 ## References
 
 - file:explicit:7d1382945a7925b0c31918ec
@@ -51,12 +53,27 @@ Obsidian renders and types tray-marked true-case drawers, writes bold headers, a
 - file:explicit:c9eb02d67786acc3f37bc5d3
 - file:explicit:b4eb9c7bdacd8f1c4adca9fa
 - file:explicit:d3609bf8b5367af587438fe8
+- file:explicit:264a2179214d204058bfe90b
+- file:explicit:9305afba3e03592417e35d5c
+- file:explicit:b1271577a9fd765671e79e8e
+- file:explicit:4c03d1781aa3b399c23209ee
+- file:explicit:ec391b9d72e4e35769fde38f
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 5 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@6906848`](https://github.com/bobs-org/bob-plugins/commit/6906848059293c497d371d032c28555f10f7ab12) | fix(drawers): preserve title bytes and strengthen landing regressions | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 13:49:42 EST |
+| bob-plugins | [`bob-plugins@e5d3d6e`](https://github.com/bobs-org/bob-plugins/commit/e5d3d6e0df8551d668feba24fc9296388be58a80) | test(drawers): capture Obsidian visual diagnostics | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 14:08:42 EST |
+| bob-plugins | [`bob-plugins@9d2dbd2`](https://github.com/bobs-org/bob-plugins/commit/9d2dbd2cdc3e0e223b2365d6ca71cc243d1dd669) | fix(ledger-tools): repair task drawer landing visuals | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 15:17:05 EST |
+| bob-plugins | [`bob-plugins@4369a43`](https://github.com/bobs-org/bob-plugins/commit/4369a4360be4441977bcbf5a673cbbddbaf96f3e) | fix(drawers): shield completed drawer headers in reading view | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 17:33:56 EST |
+| bob-cli--plans | [`bob-cli--plans@c15fb27`](https://github.com/bobs-org/bob-cli--plans/commit/c15fb27b034f4413371b9deaed50ff4bae33f7bb) | docs(plan): mark true-case drawer epic complete | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 18:59:29 EST |
 
 <!-- sase:referenced-by:start -->
 

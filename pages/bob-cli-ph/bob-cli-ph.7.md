@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-ph](README.md) / bob-cli-ph.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5x.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5x.linker.w0.md) · **Assignee:** `bob-cli-ph.7` · **Size:** large
-**Created:** 2026-11-22 17:36:49 EST
+**Created:** 2026-11-22 17:36:49 EST · **Closed:** 2026-11-25 18:56:13 EST
 **Plan:** [202611/true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md)
 
 ## Description
@@ -21,6 +21,8 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 4. notes-key (bob-cli-q4.12, Ctrl+Shift+O) lands after ph.7 so it inherits drawer spelling from the shared helpers rather than hard-coding NOTES or **Notes** bytes.
 
 [2026-11-25T18:16:09Z · bob-cli-ph.7.1.land] Historical deployment source SHAs resolved by ph.7.1 land audit after finalizers: bob-plugins f2e8c62a29464701cb097233579c156964cb4996 implements bold-writes marker in task-status-cycler/navigation; 2796d63dc79b3c5e44d113a5b2aae4bbc2ee4ad8 plus export fix 5ed3bd22 implement ledger drawer-render marker; 8d3c555c61041065281b74259086b82633719c47 plus 8254caa48938b49b73cd4187c216406d1e3f5fea implement drawer-typing marker and Prec.highest. Phase acceptance reports prior non-forcing deploys and durable report e9988819 plus four screenshot refs already attached here. Not declaring rollout-ready: nested epic has confirmed title-whitespace, stale assertions and tray/strike/folded-count acceptance gaps. A single medium repair tale will update deploy evidence, close ph.7.1 and then only this phase; no future SHA/CI wait is required for that same-turn close.
+
+[2026-11-25T23:56:49Z · bob-cli-ph.7.1.land--7] Deployment verification: plugin id bob-ledger-tools at exact revision ea3bc6a42500cb93ea77f69f4e50fbd7adf44261, deployed to Apollo by bob plugins sync --repo ... --no-pull -p bob-ledger-tools. Apollo stamp reports dirty=clean and complete; deployed bundle contains bob-task-drawer-render-v1. Exact-SHA npm test rerun 0vkpsfthmhye passed (9685 main pass, 5 skipped, performance 26/26); build and validate passed. Docs:check's four word-budget errors are clean-baseline overages corroborated by bob-cli-q6.4 and bob-cli-q7.2; plugin-apis is warning-only. Report and all four screenshots are attached.
 
 ## References
 
@@ -39,6 +41,11 @@ obsidian-drawers: the drawer glyph and true-case title in Live Preview and readi
 - file:explicit:c9eb02d67786acc3f37bc5d3
 - file:explicit:b4eb9c7bdacd8f1c4adca9fa
 - file:explicit:d3609bf8b5367af587438fe8
+- file:explicit:264a2179214d204058bfe90b
+- file:explicit:9305afba3e03592417e35d5c
+- file:explicit:b1271577a9fd765671e79e8e
+- file:explicit:4c03d1781aa3b399c23209ee
+- file:explicit:ec391b9d72e4e35769fde38f
 
 ## Dependencies
 

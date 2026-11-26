@@ -38,7 +38,9 @@ shared-place: introduce capture_language/place.rs with TaskDrawer, ProjectSectio
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.6.1.1][1] | Need the phase scope, design file, notes, and epic DECISIONS | 5 |
+| read-by | [agent:bob-cli-ph.6.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.land/README.md
 
 <!-- sase:referenced-by:end -->

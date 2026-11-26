@@ -11,6 +11,12 @@
 
 mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims the delimiters, drives the `*` assist through capture-rewrite, and stops uppercasing drawer titles.
 
+## Notes
+
+[2026-11-25T23:37:48Z · bob-cli-ph.8] Planning only: verified prerequisite bob-cli-ph.6 is closed and its Rust drawer contracts are present. Mac fc0d4551 still needs preview drawer annotation plumbing, title/delimiter styling, physical-star and span-driven typing assists, and removal of drawer uppercasing in transfer/merge presentations. Existing menu and sub-bullet title preservation is retained. Authored a medium tale covering implementation, fixtures, docs, and exact-SHA macOS verification; strict validation passed with zero warnings. No product source changed and no implementation attempted in this planning turn. Submitting through sase plan propose; keep this phase assigned until implementation and verification finish.
+
+[2026-11-25T23:37:57Z · bob-cli-ph.8] PROPOSED FOLLOW-UP: Installed SASE lacks the documented on-demand roster selector — sase memory read roster:decisions -r ... exits with unknown memory web: roster on this host; sase memory read --help documents only flat/web/strand forms. Used sase memory web show decisions plus audited governing strand reads for this plan. Land agent should triage the runtime/instructions mismatch.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ◐ · ⧖ 2026-11-22
@@ -21,7 +27,7 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8/README.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
