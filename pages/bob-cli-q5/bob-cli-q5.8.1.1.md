@@ -19,10 +19,4 @@ notice-protocol: add the minimal additive bob-cli receipt and list fields needed
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.1.md) | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`3659edc`](https://github.com/bobs-org/bob-cli/commit/3659edc091409eed14ec8f0a316eedff400156bb) | feat(snooze): add wake notice ownership and eligibility fields | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 2026-11-26 13:18:07 EST |
+| [bbugyi200.athena.bob-cli-q5.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.1.md) | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 0 |

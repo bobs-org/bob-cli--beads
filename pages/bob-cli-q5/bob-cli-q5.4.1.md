@@ -35,7 +35,13 @@ Complete bob-cli-q5.4 so Obsidian excludes snoozed tasks from review and dashboa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d7875aa`](https://github.com/bobs-org/bob-plugins/commit/d7875aac6d1844cdb60fdc35a25a0c2e2d6e6a65) | feat(snooze): land plugin plumbing behavior | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 2026-11-26 13:38:14 EST |
 
 <!-- sase:referenced-by:start -->
 

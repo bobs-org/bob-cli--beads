@@ -189,12 +189,12 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q5.3.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.3.1.3.md) | [bob-cli-q5.3.1.3](bob-cli-q5.3.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.3.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.3.1.land.md) | [bob-cli-q5.3.1](bob-cli-q5.3.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.md) | [bob-cli-q5.4](bob-cli-q5.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.1.md) | [bob-cli-q5.4.1.1](bob-cli-q5.4.1.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.2/README.md) | [bob-cli-q5.4.1.2](bob-cli-q5.4.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.3/README.md) | [bob-cli-q5.4.1.3](bob-cli-q5.4.1.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.4.md) | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.5/README.md) | [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.4.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.1.md) | [bob-cli-q5.4.1.1](bob-cli-q5.4.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.4.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.2/README.md) | [bob-cli-q5.4.1.2](bob-cli-q5.4.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.4.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.3/README.md) | [bob-cli-q5.4.1.3](bob-cli-q5.4.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.4.md) | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 7 |
+| [bbugyi200.athena.bob-cli-q5.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.5/README.md) | [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5/README.md) | [bob-cli-q5.5](bob-cli-q5.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6/README.md) | [bob-cli-q5.6](bob-cli-q5.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.md) | [bob-cli-q5.7](bob-cli-q5.7.md) | 0 |
@@ -203,7 +203,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q5.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.3.md) | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.land.md) | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.md) | [bob-cli-q5.8](bob-cli-q5.8.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.1.md) | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.1.md) | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.2/README.md) | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.3/README.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.4/README.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 0 |
@@ -235,8 +235,19 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@4e1ba6a`](https://github.com/bobs-org/bob-cli--plans/commit/4e1ba6af01afcfed3456b0fd196e3bc12e6f45c1) | docs(plans): close capture snooze token and closeout tales | [bob-cli-q5.3.1](bob-cli-q5.3.1.md) | 2026-11-26 06:36:19 EST |
 | bob-cli | [`9778a94`](https://github.com/bobs-org/bob-cli/commit/9778a94d38d986ecb4562816d99d11aa0d3d7073) | feat(snooze): integrate recovery rows into today planning | [bob-cli-q5.2.1](bob-cli-q5.2.1.md) | 2026-11-26 07:44:10 EST |
 | bob-cli--plans | [`bob-cli--plans@bf9641d`](https://github.com/bobs-org/bob-cli--plans/commit/bf9641dd4ff16d757c4b67e1cd34e614c3b19c4d) | docs(plan): mark snoozed reader implementation complete | [bob-cli-q5.2.1](bob-cli-q5.2.1.md) | 2026-11-26 07:45:01 EST |
+| bob-plugins | [`bob-plugins@a14ccc4`](https://github.com/bobs-org/bob-plugins/commit/a14ccc4658e4ae0f005efae8a6a9f78dfe6e35c0) | feat(snooze): add shared JavaScript row and clock model | [bob-cli-q5.4.1.1](bob-cli-q5.4.1.1.md) | 2026-11-26 08:24:16 EST |
+| bob-plugins | [`bob-plugins@7d8a7d4`](https://github.com/bobs-org/bob-plugins/commit/7d8a7d4ac876740b45ee596e556f9d9519f489e1) | feat(snooze): add snoozed planned-today cache and exclusions | [bob-cli-q5.4.1.2](bob-cli-q5.4.1.2.md) | 2026-11-26 09:09:42 EST |
+| bob-plugins | [`bob-plugins@1770259`](https://github.com/bobs-org/bob-plugins/commit/1770259cf0b3088d640d44cf00d16027af23a7a2) | feat(navigation): compose Snoozed-row removal into deferred cleanup, Alt+N, and decay \| Snoozed-row explicit removal composes into planDeferredPomodoroLinkCleanup with distinct reporting; offset callers count both passes; Alt+N on a Snoozed row releases through the link transaction; Next-to-Ready decay folds the cleanup while WIP-to-Next preserves the snooze; 14 regression tests. \| SASE\_BEAD=\[bob-cli-q5.4.1.3\] | [bob-cli-q5.4.1.3](bob-cli-q5.4.1.3.md) | 2026-11-26 09:39:07 EST |
+| bob-plugins | [`bob-plugins@1a65c42`](https://github.com/bobs-org/bob-plugins/commit/1a65c421395564b0d668cf9edfe8cab2a5aecc97) | feat(snoozed): link active rows to Pomodoros and prune on Done | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 10:16:35 EST |
+| bob-plugins | [`bob-plugins@2744791`](https://github.com/bobs-org/bob-plugins/commit/274479191b06f18bb02aa1ad4494edba01e40577) | fix(snoozed-tasks): preserve note transfer during link-now | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 10:31:52 EST |
+| bob-plugins | [`bob-plugins@4e0a8fd`](https://github.com/bobs-org/bob-plugins/commit/4e0a8fd0e96453a6c92ca8293dfa0c964d1f6111) | fix(plugins): preserve notes when linking snoozed tasks | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 10:42:06 EST |
+| bob-plugins | [`bob-plugins@c534666`](https://github.com/bobs-org/bob-plugins/commit/c5346664d0584d8f93a5e36354a4992f41c8aa47) | fix(plugins): preserve link edits and repair full-test regressions | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 10:58:35 EST |
+| bob-plugins | [`bob-plugins@db4bfd7`](https://github.com/bobs-org/bob-plugins/commit/db4bfd7ba2c58c22314ca15f58270fb99b5ceb4e) | fix(bob-ledger-tools): regenerate stale generated bundle | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 11:06:03 EST |
+| bob-plugins | [`bob-plugins@86f5f34`](https://github.com/bobs-org/bob-plugins/commit/86f5f3409ff5594fe9da2830c69096a3e86531bb) | fix(ledger-tools): restore bank setup live preview fallback | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 11:15:52 EST |
+| bob-plugins | [`bob-plugins@0d82297`](https://github.com/bobs-org/bob-plugins/commit/0d822970ac67951dc6b65c8553b8edf5afe6779b) | fix(ledger-tools): restore Bank Setup live preview anchor | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 11:26:42 EST |
+| bob-plugins | [`bob-plugins@e36ddc6`](https://github.com/bobs-org/bob-plugins/commit/e36ddc686f890c72291002cc6d51676148a5bb0b) | feat(ledger-tools): add desktop snooze wake trigger | [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) | 2026-11-26 11:56:54 EST |
 | bob-cli--plans | [`bob-cli--plans@d928866`](https://github.com/bobs-org/bob-cli--plans/commit/d9288663bba8ea4a363cc8ae7f5078de5b7c38e0) | docs(plans): mark mac snoozed agenda done | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 2026-11-26 12:46:05 EST |
-| bob-cli | [`3659edc`](https://github.com/bobs-org/bob-cli/commit/3659edc091409eed14ec8f0a316eedff400156bb) | feat(snooze): add wake notice ownership and eligibility fields | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 2026-11-26 13:18:07 EST |
+| bob-plugins | [`bob-plugins@d7875aa`](https://github.com/bobs-org/bob-plugins/commit/d7875aac6d1844cdb60fdc35a25a0c2e2d6e6a65) | feat(snooze): land plugin plumbing behavior | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 2026-11-26 13:38:14 EST |
 
 <!-- sase:referenced-by:start -->
 
