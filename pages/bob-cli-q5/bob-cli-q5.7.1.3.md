@@ -13,7 +13,7 @@ snooze-waker: add the schema-checked non-cancelling Bob wake lane and app-owned 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
