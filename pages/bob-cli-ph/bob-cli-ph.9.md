@@ -2,10 +2,22 @@
 
 [Bead Pages](../README.md) / [bob-cli-ph](README.md) / bob-cli-ph.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.5x.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.5x.linker.w0.md) · **Assignee:** `bob-cli-ph.9` · **Size:** small
-**Created:** 2026-11-22 17:36:49 EST
+**Created:** 2026-11-22 17:36:49 EST · **Closed:** 2026-11-25 20:51:37 EST
 **Plan:** [202611/true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:1d4db13a0a6ed86a7c2d0374 | attached via sase artifact create --bead |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+<!-- sase:links:end -->
 
 ## Description
 
@@ -14,6 +26,8 @@ vault-migration: confirm every host writes bold, inventory the legacy drawers, a
 ## Notes
 
 [2026-11-26T00:11:25Z · bob-cli-ph.9] Migration prep done 2026-11-26 (apollo): writer gate passes behaviorally on all hosts (installed bob writes `- **Books to Read**` via throwaway-vault dry-run on athena/apollo/mac; all hosts pass bold-drawer-read probe; deployed plugin bundles identical on all hosts incl. bold-writes markers). Live inventory (installed bob 0.6.0, same as debug build): 10 legacy drawers (NOTES x6 in 5 notes, NOTES: x1, OPTIONS: x1, MOTIVATION x1, DONE x1), 0 duplicate identities, 1 empty bold drawer (done/sase_done.md:1420, keep), 1 trailing-colon lead (2026/20261113.md:31 **Note:**, keep as note). Census diff: plan said ~7; exact count is 10 (bob.md holds 2 NOTES; sase_art_links.md + sase_blog.md gained NOTES via bob-cli-on filing). Dry-runs clean, 0 merges: NOTES->Notes (5 notes; 9 excluded are ordinary ## NOTES headings, out of scope), NOTES:->Notes, OPTIONS:->Options, MOTIVATION->Motivation. DONE proposed for release (no bytes). Staging gate turn next for Bryan decisions.
+
+[2026-11-26T01:51:37Z · bob-cli-ph.9--1] Gate applied: 4 renames committed (8fb55784 NOTES->Notes, 82d2185f NOTES:->Notes, 9a0ee13b OPTIONS:->Options, dff55514 MOTIVATION->Motivation), DONE released in place. Verified: legacy inventory shows only DONE + 2 keeps (5885 notes, 0 dupes); all 4 rename dry-runs report 0 changes. Migration record artifact file:explicit:1d4db13a0a6ed86a7c2d0374 for bob-cli-ph.10. epic-symbols clean.
 
 ## Dependencies
 

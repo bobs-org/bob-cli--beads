@@ -21,6 +21,8 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 [2026-11-26T00:49:19Z · bob-cli-ph.8--2] PROPOSED FOLLOW-UP: primary just docs-check reports pre-existing word-budget overages docs/reference/capture-syntax.md (6086/6000) and docs/reference/json-outputs.md (6044/6000); reproduced with Mac changes stashed so unrelated to this phase. Primary just check also fails on clippy manual_contains in tests/cli/capture/complete_block_id.rs:292 (ids.iter().any vs contains), a file this phase does not touch (primary diff is docs-only). No new beads created.
 
+[2026-11-26T01:53:43Z · bob-cli-ph.8] Planning only (run 3): Mac master is RED since b45b1951 (CI run 45731912096): CaptureModels.swift:9857 CaptureDrawerSummary.init(from:) calls raw.map(CaptureDrawerMarker.init(wireValue:)) on a String, so the earlier landing was never compiled. Remaining scope (tray preview, draft span paint, star/Backspace/newline/overtype assists, tests, screenshots, exact-SHA CI) did not fit one agent, so authored a child epic: annotation-build-repair (small, no deps, urgent) -> preview-tray || draft-styling -> star-expansion -> title-keys -> mac-acceptance; land agent closes only bob-cli-ph.8. Embedded decision drawer_newline_keys because Mac plain Return captures (Shift/Option-Return and Ctrl-J are the newline keys). athena (Swift 6.0.3) and mac (CLT) were reachable at planning time. No product files changed this turn.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ◐ · ⧖ 2026-11-22
@@ -49,6 +51,7 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
 | read-by | [agent:bob-cli-ph.8--1][2] | Confirm assigned scope and final decisions before completing the phase | 1 |
+| read-by | [agent:bob-cli-ph.8--2][2] | Continue remaining Mac tray styling typing assists tests | 3 |
 | read-by | [agent:bob-cli-pq.1][3] | sequencing check for glyph-contract | 2 |
 | read-by | [agent:bob-cli-pq.3][4] | Check prerequisite Mac drawer implementation status | 1 |
 | read-by | [agent:g1][5] | Check whether phase is blocked on the release gate | 1 |

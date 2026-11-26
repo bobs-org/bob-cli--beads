@@ -49,7 +49,7 @@ A task drawer is a `- **Title**` bullet whose title keeps its authored capitaliz
 | [bob-cli-ph.6](bob-cli-ph.6.md) | One place resolver and bold drawer drafts in capture | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-ph.7](bob-cli-ph.7.md) | Obsidian drawer rendering, typing, and bold writers | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-ph.8](bob-cli-ph.8.md) | Bob Mac Capture drawer rendering and typing | ◐ in_progress | large | 2026-11-22 | 1 | 3 |
-| [bob-cli-ph.9](bob-cli-ph.9.md) | Reviewed migration of legacy ALL-CAPS drawers | ◐ in_progress | small | 2026-11-22 | 1 | 0 |
+| [bob-cli-ph.9](bob-cli-ph.9.md) | Reviewed migration of legacy ALL-CAPS drawers | ✓ closed | small | 2026-11-22 | 1 | 0 |
 
 ## Lineage
 
@@ -77,7 +77,14 @@ flowchart TD
     n19["bob-cli-ph.7.1.3: Drawer marker typing and Toggle Drawer [closed]"]
     n20["bob-cli-ph.7.1.4: Real Obsidian acceptance, screenshots, and documentation [closed]"]
     n21["bob-cli-ph.8: Bob Mac Capture drawer rendering and typing [in_progress]"]
-    n22["bob-cli-ph.9: Reviewed migration of legacy ALL-CAPS drawers [in_progress]"]
+    n22["bob-cli-ph.8.1: Finish Bob Mac Capture true-case drawers [in_progress]"]
+    n23["bob-cli-ph.8.1.1: Repair the drawer annotation build and cover the landed decoding [in_progress]"]
+    n24["bob-cli-ph.8.1.2: Tray and verbatim title on annotated preview drawer headers [in_progress]"]
+    n25["bob-cli-ph.8.1.3: Semibold drawer titles and dimmed delimiters in the draft editor [in_progress]"]
+    n26["bob-cli-ph.8.1.4: Bob-driven star expansion and atomic Backspace [in_progress]"]
+    n27["bob-cli-ph.8.1.5: Drawer title newline and closing-star overtype [in_progress]"]
+    n28["bob-cli-ph.8.1.6: Mac drawer acceptance, screenshots, and documentation [in_progress]"]
+    n29["bob-cli-ph.9: Reviewed migration of legacy ALL-CAPS drawers [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -99,7 +106,14 @@ flowchart TD
     n16 --> n19
     n16 --> n20
     n0 --> n21
-    n0 --> n22
+    n21 --> n22
+    n22 --> n23
+    n22 --> n24
+    n22 --> n25
+    n22 --> n26
+    n22 --> n27
+    n22 --> n28
+    n0 --> n29
     n1 -.-> n4
     n1 -.-> n5
     n2 -.-> n3
@@ -108,21 +122,30 @@ flowchart TD
     n6 -.-> n7
     n6 -.-> n8
     n6 -.-> n15
-    n7 -.-> n22
+    n7 -.-> n29
     n8 -.-> n21
-    n8 -.-> n22
+    n8 -.-> n29
     n10 -.-> n11
     n11 -.-> n12
     n12 -.-> n13
     n13 -.-> n14
-    n15 -.-> n22
+    n15 -.-> n29
     n17 -.-> n18
     n17 -.-> n20
     n18 -.-> n19
     n18 -.-> n20
     n19 -.-> n20
     n21 -.-> n3
-    n22 -.-> n2
+    n23 -.-> n24
+    n23 -.-> n25
+    n23 -.-> n28
+    n24 -.-> n28
+    n25 -.-> n26
+    n25 -.-> n28
+    n26 -.-> n27
+    n26 -.-> n28
+    n27 -.-> n28
+    n29 -.-> n2
 ```
 
 ## Agents
@@ -150,6 +173,13 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md) | [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.1.md) | [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.2/README.md) | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.3/README.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.4/README.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.5/README.md) | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.6/README.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.8.1.land/README.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.9.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.land/README.md) | [bob-cli-ph](README.md) | 0 |
 
@@ -176,6 +206,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@4eb9b2e`](https://github.com/bobs-org/bob-mac-capture/commit/4eb9b2e977dc8275a5849d5ac7f8bc8fabb617b2) | fix(mac): require grammar 30 for drawer fixtures | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:18:09 EST |
 | bob-cli | [`f4da72f`](https://github.com/bobs-org/bob-cli/commit/f4da72ff5dd08b9827eb8b13a9f2bce04c47d9f6) | docs(task-drawers): describe Mac thin-client drawer contract | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:51:53 EST |
 | bob-mac-capture | [`bob-mac-capture@b45b195`](https://github.com/bobs-org/bob-mac-capture/commit/b45b1951b0f983edc4d8e9deae5ad92e96bb00ab) | feat(mac): carry true-case drawer annotations from Bob | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:53:07 EST |
+| bob-mac-capture | [`bob-mac-capture@b0062be`](https://github.com/bobs-org/bob-mac-capture/commit/b0062be1749f388a849c5bf0251c7fb3f914bf94) | fix(mac-capture): decode drawer summary markers safely | [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) | 2026-11-25 21:11:04 EST |
 
 <!-- sase:referenced-by:start -->
 

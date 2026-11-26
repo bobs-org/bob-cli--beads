@@ -21,7 +21,7 @@ capture-drawers: one place resolver for drawers, project sections, and notebook 
 
 - **Depends on:** [bob-cli-ph.4](bob-cli-ph.4.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-ph.8](bob-cli-ph.8.md) ◐ · ⧖ 2026-11-22
-- **Blocks:** [bob-cli-ph.9](bob-cli-ph.9.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.9](bob-cli-ph.9.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
