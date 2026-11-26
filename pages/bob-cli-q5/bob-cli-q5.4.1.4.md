@@ -20,7 +20,7 @@ link-and-complete: integrate the shared model into block-id-prompt and task-stat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.4.md) | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 5 |
+| [bbugyi200.athena.bob-cli-q5.4.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.4.md) | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 6 |
 
 ## Commits
 
@@ -31,6 +31,7 @@ link-and-complete: integrate the shared model into block-id-prompt and task-stat
 | bob-plugins | [`bob-plugins@4e0a8fd`](https://github.com/bobs-org/bob-plugins/commit/4e0a8fd0e96453a6c92ca8293dfa0c964d1f6111) | fix(plugins): preserve notes when linking snoozed tasks | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 10:42:06 EST |
 | bob-plugins | [`bob-plugins@c534666`](https://github.com/bobs-org/bob-plugins/commit/c5346664d0584d8f93a5e36354a4992f41c8aa47) | fix(plugins): preserve link edits and repair full-test regressions | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 10:58:35 EST |
 | bob-plugins | [`bob-plugins@db4bfd7`](https://github.com/bobs-org/bob-plugins/commit/db4bfd7ba2c58c22314ca15f58270fb99b5ceb4e) | fix(bob-ledger-tools): regenerate stale generated bundle | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 11:06:03 EST |
+| bob-plugins | [`bob-plugins@86f5f34`](https://github.com/bobs-org/bob-plugins/commit/86f5f3409ff5594fe9da2830c69096a3e86531bb) | fix(ledger-tools): restore bank setup live preview fallback | [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) | 2026-11-26 11:15:52 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -40,6 +41,7 @@ link-and-complete: integrate the shared model into block-id-prompt and task-stat
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.4.1.4--1][1] | Need the phase scope, notes, design file, and governing decisions | 1 |
 | read-by | [agent:bob-cli-q5.4.1.4--2][1] | Review the assigned phase scope, verification gates, and close requirements | 1 |
+| read-by | [agent:bob-cli-q5.4.1.4--4][1] | Review assigned Snoozed phase scope before closure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.4.md
 
