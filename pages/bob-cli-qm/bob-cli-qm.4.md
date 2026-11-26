@@ -40,8 +40,10 @@ notebook-readouts: add the note count, newest date, section chips that jump to t
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.6l.gem][1] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
+| read-by | [agent:bob-cli-qm.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.6l.gem][2] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->

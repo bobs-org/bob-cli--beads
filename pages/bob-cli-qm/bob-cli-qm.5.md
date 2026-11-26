@@ -11,9 +11,13 @@
 
 prose-seam: after bob-cli-qj.3 closes, add a read-only versioned api.prose snapshot API to Bob Prose, then paint the card's measure row, outline, and findings from it.
 
+## Notes
+
+[2026-11-26T21:36:20Z · bob-cli-qm.5--1] PROPOSED FOLLOW-UP: Reconcile qj.3 close evidence — its resolution cites 9426ee8f for the Bob Prose rename, but the opened bob-plugins master has no such commit or rename; verify the source landed and rebase the accepted phase work as needed.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-qj.3](../bob-cli-qj/bob-cli-qj.3.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qj.3](../bob-cli-qj/bob-cli-qj.3.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qm.3](bob-cli-qm.3.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qm.6](bob-cli-qm.6.md) ◐ · ⧖ 2026-11-26
 
@@ -21,7 +25,13 @@ prose-seam: after bob-cli-qj.3 closes, add a read-only versioned api.prose snaps
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-qm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.5.md) | [bob-cli-qm.5](bob-cli-qm.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-qm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.5.md) | [bob-cli-qm.5](bob-cli-qm.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@3102408`](https://github.com/bobs-org/bob-plugins/commit/3102408596f263baa8f955c01093c5ab53135dbb) | feat(prose): expose read-only Bob prose card measures | [bob-cli-qm.5](bob-cli-qm.5.md) | 2026-11-26 16:37:52 EST |
 
 <!-- sase:referenced-by:start -->
 
