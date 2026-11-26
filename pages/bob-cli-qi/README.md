@@ -20,7 +20,7 @@
 | related | file:explicit:660cabc9cf32530dcf480887 | attached via sase artifact create --bead |
 | related | file:explicit:d254ed707483200bbaaca14f | attached via sase artifact create --bead |
 
-_Plus 15 automatic references — see [Referenced By](#referenced-by)._
+_Plus 16 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_hub_demotion.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qr/README.md
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qi.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.4.md) | [bob-cli-qi.4](bob-cli-qi.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-qi.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.5/README.md) | [bob-cli-qi.5](bob-cli-qi.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-qi.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.6.md) | [bob-cli-qi.6](bob-cli-qi.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.land/README.md) | [bob-cli-qi](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md) | [bob-cli-qi](README.md) | 3 |
 
 ## Commits
 
@@ -112,6 +112,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@17a0567`](https://github.com/bobs-org/bob-plugins/commit/17a0567013d75cecd1f8c9751993864151cf524e) | docs(props): document home-card ownership and passive rendering | [bob-cli-qi.6](bob-cli-qi.6.md) | 2026-11-26 14:21:42 EST |
 | bob-cli | [`33fe342`](https://github.com/bobs-org/bob-cli/commit/33fe3425b51207b39215bb2a8553224b3302bea7) | test(props): assert the bank hub update preview by its card-owned row | [bob-cli-qi](README.md) | 2026-11-26 16:21:07 EST |
 | bob-plugins | [`bob-plugins@feaa5b4`](https://github.com/bobs-org/bob-plugins/commit/feaa5b420047803fa03a9e82a523a5fc02a0cb39) | docs(ledger-tools): drop stale bank-hub props\_contract\_v1 claim in 240q | [bob-cli-qi](README.md) | 2026-11-26 16:21:34 EST |
+| bob-plugins | [`bob-plugins@319862a`](https://github.com/bobs-org/bob-plugins/commit/319862a7f4a8606c961302e2bb26d0e6b89b8332) | test: expand home-card takeover acceptance | [bob-cli-qi](README.md) | 2026-11-26 17:11:39 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -119,36 +120,38 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qj.2][1] | Need to decide whether the bank contract gate failure belongs to this active bank-hub epic | 2 |
-| read-by | [agent:research.6k.cdx][2] | Determine active epic contracts and overlaps for prose and notebook cards | 1 |
-| read-by | [agent:research.6k.cld][3] | Research prose/notebook property cards; must understand in-progress epic to plan parallel work | 1 |
-| read-by | [agent:research.6k.final][4] | Lead researcher verifying live epic phase status for the consolidated prose/notebook card sequencing recommendation | 1 |
-| read-by | [agent:research.6k.gem][5] | Inspect in-progress epic bob-cli-qi for parallel coordination analysis | 1 |
-| read-by | [agent:research.6k.grk][6] | Need qi epic scope and remaining phases to judge parallel implementation with prose/notebook cards | 1 |
-| read-by | [agent:research.6k.mus][7] | prose/notebook card research: check parallel epic scope | 1 |
-| read-by | [agent:research.6l.cld][8] | Check qi phase states (qi.4 gate) for ref card coordination | 1 |
-| read-by | [agent:research.6l.gem][9] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
-| read-by | [agent:research.6m.cdx][10] | Research independent cabinet implementation and overlap with active epics | 1 |
-| read-by | [agent:research.6m.cld][11] | Assess coordination with cabinets research | 1 |
-| read-by | [agent:research.6m.final][12] | Refresh epic phase snapshot for consolidated cabinets research | 2 |
-| read-by | [agent:research.6m.gem][13] | Understand active epic scope, files, and status for parallel cabinet implementation analysis | 1 |
-| read-by | [agent:research.6m.grk][14] | Need qi epic scope for cabinet coordination with bank hub and card family | 2 |
-| read-by | [agent:research.6m.mus][15] | Research cabinet design parallel coordination with in-progress epics | 1 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-qj.2][2] | Need to decide whether the bank contract gate failure belongs to this active bank-hub epic | 2 |
+| read-by | [agent:research.6k.cdx][3] | Determine active epic contracts and overlaps for prose and notebook cards | 1 |
+| read-by | [agent:research.6k.cld][4] | Research prose/notebook property cards; must understand in-progress epic to plan parallel work | 1 |
+| read-by | [agent:research.6k.final][5] | Lead researcher verifying live epic phase status for the consolidated prose/notebook card sequencing recommendation | 1 |
+| read-by | [agent:research.6k.gem][6] | Inspect in-progress epic bob-cli-qi for parallel coordination analysis | 1 |
+| read-by | [agent:research.6k.grk][7] | Need qi epic scope and remaining phases to judge parallel implementation with prose/notebook cards | 1 |
+| read-by | [agent:research.6k.mus][8] | prose/notebook card research: check parallel epic scope | 1 |
+| read-by | [agent:research.6l.cld][9] | Check qi phase states (qi.4 gate) for ref card coordination | 1 |
+| read-by | [agent:research.6l.gem][10] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
+| read-by | [agent:research.6m.cdx][11] | Research independent cabinet implementation and overlap with active epics | 1 |
+| read-by | [agent:research.6m.cld][12] | Assess coordination with cabinets research | 1 |
+| read-by | [agent:research.6m.final][13] | Refresh epic phase snapshot for consolidated cabinets research | 2 |
+| read-by | [agent:research.6m.gem][14] | Understand active epic scope, files, and status for parallel cabinet implementation analysis | 1 |
+| read-by | [agent:research.6m.grk][15] | Need qi epic scope for cabinet coordination with bank hub and card family | 2 |
+| read-by | [agent:research.6m.mus][16] | Research cabinet design parallel coordination with in-progress epics | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qj.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cdx/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.final/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.mus/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cld/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cdx/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cld/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.final/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.gem/README.md
-[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.grk/README.md
-[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qj.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cdx/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.final/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.mus/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cld/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cdx/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cld/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.final/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.gem/README.md
+[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.grk/README.md
+[16]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.mus/README.md
 
 <!-- sase:referenced-by:end -->

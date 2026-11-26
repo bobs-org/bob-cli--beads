@@ -18,7 +18,7 @@
 | related | file:explicit:59a92613628abb20d848ee54 | attached via sase artifact create --bead |
 | related | file:explicit:5a1b0a3002c2d3d991e08131 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -51,8 +51,10 @@ count-sweep: dry-run the landed retire-project-count-keys tool against the live 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.6k.gem][1] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
+| read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
 
 <!-- sase:referenced-by:end -->
