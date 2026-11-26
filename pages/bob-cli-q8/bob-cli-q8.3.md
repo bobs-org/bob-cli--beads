@@ -1,0 +1,23 @@
+# Bead: bob-cli-q8.3 — Capture absorption, the plain-~ no-op, and the same-item error
+
+[Bead Pages](../README.md) / [bob-cli-q8](README.md) / bob-cli-q8.3
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.6f.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.6f.linker.w0.md) · **Assignee:** `bob-cli-q8.3` · **Size:** medium
+**Created:** 2026-11-25 18:16:42 EST
+**Plan:** [202611/plain\_link\_dependency\_ties.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md)
+
+## Description
+
+capture-writers: & and * absorb the pair's plain links in the same staged write. A plain ~ / ~~ over a dependency becomes a reported no-op, and & plus a plain ~ to one target in a single item is a teaching error. Both report additive JSON and human output.
+
+## Dependencies
+
+- **Depends on:** [bob-cli-q8.1](bob-cli-q8.1.md) ✓ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q8.9](bob-cli-q8.9.md) ◐ · ⧖ 2026-11-25
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 0 |

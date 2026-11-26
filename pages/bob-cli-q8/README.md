@@ -1,0 +1,94 @@
+# Bead: bob-cli-q8 — One tie per task pair — dependencies absorb plain links
+
+[Bead Pages](../README.md) / bob-cli-q8
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.6f.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.6f.linker.w0.md) · **Assignee:** `bob-cli-q8.land`
+**Created:** 2026-11-25 18:16:41 EST
+**Plan:** [202611/plain\_link\_dependency\_ties.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/plain_link_dependency_ties.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md
+
+<!-- sase:links:end -->
+
+## Description
+
+A task pair can hold a dependency or a plain (unlabelled) link, never both, in either direction. Every Bob writer enforces it. Reconcile heals hand edits in the dependency's favour. The four Obsidian relationship stages show each pair's tie at a glance and convert it with Ctrl plus the Task Card key, and capture plus Bob Mac Capture explain the rule.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [bob-cli-q8.1](bob-cli-q8.1.md) | Contract, shared vectors, and the Rust tie helpers | ✓ closed | medium | 2026-11-25 | 1 | 1 |
+| [bob-cli-q8.2](bob-cli-q8.2.md) | Reconcile fold and merge pruning | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.3](bob-cli-q8.3.md) | Capture absorption, the plain-~ no-op, and the same-item error | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.4](bob-cli-q8.4.md) | capture-complete tie fields | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.5](bob-cli-q8.5.md) | Nav tie planner, mirrored vectors, and absorption in the dependency writers | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.6](bob-cli-q8.6.md) | Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.7](bob-cli-q8.7.md) | applyTieChange — release, reverse, and convert writes | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.8](bob-cli-q8.8.md) | The ⌃B / ⌃⇧B / ⌃L chords, ↵ conversions, and the armed release | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [bob-cli-q8.9](bob-cli-q8.9.md) | Bob Mac Capture tie capsules and report rows | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["bob-cli-q8: One tie per task pair — dependencies absorb plain links [in_progress]"]
+    n1["bob-cli-q8.1: Contract, shared vectors, and the Rust tie helpers [closed]"]
+    n2["bob-cli-q8.2: Reconcile fold and merge pruning [in_progress]"]
+    n3["bob-cli-q8.3: Capture absorption, the plain-~ no-op, and the same-item error [in_progress]"]
+    n4["bob-cli-q8.4: capture-complete tie fields [in_progress]"]
+    n5["bob-cli-q8.5: Nav tie planner, mirrored vectors, and absorption in the dependency writers [in_progress]"]
+    n6["bob-cli-q8.6: Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip [in_progress]"]
+    n7["bob-cli-q8.7: applyTieChange — release, reverse, and convert writes [in_progress]"]
+    n8["bob-cli-q8.8: The ⌃B / ⌃⇧B / ⌃L chords, ↵ conversions, and the armed release [in_progress]"]
+    n9["bob-cli-q8.9: Bob Mac Capture tie capsules and report rows [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n0 --> n8
+    n0 --> n9
+    n1 -.-> n2
+    n1 -.-> n3
+    n1 -.-> n4
+    n1 -.-> n5
+    n2 -.-> n7
+    n3 -.-> n9
+    n4 -.-> n9
+    n5 -.-> n6
+    n6 -.-> n7
+    n7 -.-> n8
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md) | [bob-cli-q8.4](bob-cli-q8.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.5/README.md) | [bob-cli-q8.5](bob-cli-q8.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.6/README.md) | [bob-cli-q8.6](bob-cli-q8.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.7/README.md) | [bob-cli-q8.7](bob-cli-q8.7.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md) | [bob-cli-q8.8](bob-cli-q8.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.9/README.md) | [bob-cli-q8.9](bob-cli-q8.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.land/README.md) | [bob-cli-q8](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`a1caeef`](https://github.com/bobs-org/bob-cli/commit/a1caeefabef111947a17247c0af512868ba2a08c) | feat(relations): plain-link/dependency tie contract, PT vectors, and Rust tie helpers | [bob-cli-q8.1](bob-cli-q8.1.md) | 2026-11-25 19:51:06 EST |
