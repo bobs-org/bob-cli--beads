@@ -7,6 +7,18 @@
 **Created:** 2026-11-25 20:55:59 EST
 **Plan:** [202611/finish\_mac\_true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_mac_true_case_drawers.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/finish_mac_true_case_drawers.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_mac_true_case_drawers.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Bob Mac Capture builds green again, draws Bob-annotated drawer headers as a tray plus the verbatim title, paints draft drawer titles and delimiters from Bob's spans, and types `*`, Backspace, newline, and overtype assists on Bob's authority, completing bob-cli-ph.8.
