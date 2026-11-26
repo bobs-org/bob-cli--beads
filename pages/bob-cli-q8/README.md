@@ -95,7 +95,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.3/README.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.land/README.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
@@ -128,6 +128,7 @@ flowchart TD
 | bob-cli | [`71f7b67`](https://github.com/bobs-org/bob-cli/commit/71f7b670f66116b5c7742358c4838624aab086e0) | fix(relations): clear tie lint gates, dedupe the plain-link glossary rule, and correct tie docs | [bob-cli-q8](README.md) | 2026-11-26 02:07:03 EST |
 | bob-plugins | [`bob-plugins@110b342`](https://github.com/bobs-org/bob-plugins/commit/110b3426999dd71ae9ee83dd4f199236d608daa7) | test(nav): bind the active editor in DW20-DW22 and expect tie-decorated Depends-on rows | [bob-cli-q8](README.md) | 2026-11-26 02:07:49 EST |
 | bob-cli | [`6e722fc`](https://github.com/bobs-org/bob-cli/commit/6e722fc6508f9bed5983917dc67416cfac404a60) | docs(task-dependencies): record tie-chord absorption, tie-change and reversal semantics | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2026-11-26 02:41:27 EST |
+| bob-plugins | [`bob-plugins@6fb169b`](https://github.com/bobs-org/bob-plugins/commit/6fb169bb8641603b19ab9cbc98cfefae2fdb3731) | feat(nav-hotkeys): counted and vault tie absorption, tie-change flow, dependency reversal | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2026-11-26 02:42:19 EST |
 
 <!-- sase:referenced-by:start -->
 
