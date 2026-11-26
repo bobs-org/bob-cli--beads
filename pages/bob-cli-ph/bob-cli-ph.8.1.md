@@ -33,7 +33,7 @@ Bob Mac Capture builds green again, draws Bob-annotated drawer headers as a tray
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 3 |
 
 ## Commits
 
@@ -41,6 +41,7 @@ Bob Mac Capture builds green again, draws Bob-annotated drawer headers as a tray
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@403781d`](https://github.com/bobs-org/bob-mac-capture/commit/403781d2b3d2921584b677fae1e76b4c5bfd952b) | fix(mac-capture): land true-case drawer pipeline tests and reconcile docs | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 04:28:54 EST |
 | bob-mac-capture | [`bob-mac-capture@b38c4cc`](https://github.com/bobs-org/bob-mac-capture/commit/b38c4cc3ced036c644cc230158972b819ed3fcf3) | fix(mac-capture): isolate drawer newline undo and harden old-Bob tip race | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:05:39 EST |
+| bob-mac-capture | [`bob-mac-capture@ab98419`](https://github.com/bobs-org/bob-mac-capture/commit/ab9841959e3032d478aa5d2f2ff6163c1c6984a5) | fix(mac-capture): qualify self capture in old-Bob tip wait | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:22:59 EST |
 
 <!-- sase:referenced-by:start -->
 
