@@ -19,7 +19,7 @@ kit: register the notebook and prose species, fix the known kit traps (silent cr
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qm.2](bob-cli-qm.2.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qm.2](bob-cli-qm.2.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qm.3](bob-cli-qm.3.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
