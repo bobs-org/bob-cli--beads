@@ -20,4 +20,10 @@ notice-runtime: implement the Darwin observer, atomic notifier claim, persistent
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.3/README.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@0b2fcd8`](https://github.com/bobs-org/bob-mac-capture/commit/0b2fcd8329857bce91cdeea5edab5ec5386574e1) | feat(snooze): observe receipts and hold notices until return | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2026-11-26 15:03:59 EST |
