@@ -11,6 +11,10 @@
 
 capture-writers: & and * absorb the pair's plain links in the same staged write. A plain ~ / ~~ over a dependency becomes a reported no-op, and & plus a plain ~ to one target in a single item is a teaching error. Both report additive JSON and human output.
 
+## Notes
+
+[2026-11-26T02:11:15Z · bob-cli-q8.3] PROPOSED FOLLOW-UP: Add or fix the docs search-smoke entry for "- #Section" under /reference/capture-syntax/#drawer-bullets; just docs-check fails identically on clean HEAD f4da72ff. No task bead tracks this exact query; bob-cli-fo covers four other capture-token queries and is closed. The earlier stale ignored mount collision is tracked by bob-cli-it and cleared after regenerating mount copies.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q8.1](bob-cli-q8.1.md) ✓ · ⧖ 2026-11-25

@@ -13,7 +13,7 @@ nav-tie-visibility: all four stages show each row's tie in both directions in a 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q8.5](bob-cli-q8.5.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q8.5](bob-cli-q8.5.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q8.7](bob-cli-q8.7.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

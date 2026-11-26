@@ -22,7 +22,7 @@ tie-contract: write the plain-link/dependency contract and PT vectors in bob-cli
 - **Blocks:** [bob-cli-q8.2](bob-cli-q8.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q8.3](bob-cli-q8.3.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q8.4](bob-cli-q8.4.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q8.5](bob-cli-q8.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q8.5](bob-cli-q8.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
