@@ -38,7 +38,7 @@ Complete bob-cli-q4.9 so closes, promotions, demotions, and committed scaffolds 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.1.land.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 3 |
+| [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.1.land.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 4 |
 
 ## Commits
 
@@ -47,6 +47,7 @@ Complete bob-cli-q4.9 so closes, promotions, demotions, and committed scaffolds 
 | bob-plugins | [`bob-plugins@c665869`](https://github.com/bobs-org/bob-plugins/commit/c665869ec38b912f5ba7bb179003789fe96e7516) | fix(cycler): join gesture settles to undo history | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 18:26:44 EST |
 | bob-plugins | [`bob-plugins@95e6a55`](https://github.com/bobs-org/bob-plugins/commit/95e6a55bd89ea1bf01b09fc699ef8de3210d4589) | test(cycler): enter Vim normal mode in Obsidian settle harness | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 18:44:59 EST |
 | bob-plugins | [`bob-plugins@df44ab1`](https://github.com/bobs-org/bob-plugins/commit/df44ab12b1d4c50886a2014e21add82dc152ce88) | test(cycler): drive Vim escape through Obsidian handler | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 18:59:43 EST |
+| bob-plugins | [`bob-plugins@e1ae072`](https://github.com/bobs-org/bob-plugins/commit/e1ae0729d7ec75c59b797eaa1e6cb82441eb3b4e) | test(cycler): fix real Obsidian settle harness | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 2026-11-25 19:24:30 EST |
 
 <!-- sase:referenced-by:start -->
 
