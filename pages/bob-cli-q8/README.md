@@ -52,7 +52,7 @@ flowchart TD
     n0["bob-cli-q8: One tie per task pair — dependencies absorb plain links [in_progress]"]
     n1["bob-cli-q8.1: Contract, shared vectors, and the Rust tie helpers [closed]"]
     n2["bob-cli-q8.10: Finish one-tie-per-pair — counted absorption, atomic reversal, chord prompts, and the tie copy [in_progress]"]
-    n3["bob-cli-q8.10.1: PT12 CRLF vectors and the missing LR31/LR35 reconcile cases [in_progress]"]
+    n3["bob-cli-q8.10.1: PT12 CRLF vectors and the missing LR31/LR35 reconcile cases [closed]"]
     n4["bob-cli-q8.10.2: Counted absorption, batch ↵ absorption, chord block-ID prompts, and one-undo reversal [closed]"]
     n5["bob-cli-q8.10.3: Cycle hints, owner-true Depends-on strip, release-strip chord and ^prj segments, kept-relation notice, and live footers [in_progress]"]
     n6["bob-cli-q8.2: Reconcile fold and merge pruning [closed]"]
@@ -94,8 +94,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2 |
+| [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.3/README.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.land/README.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
@@ -128,7 +128,7 @@ flowchart TD
 | bob-cli | [`71f7b67`](https://github.com/bobs-org/bob-cli/commit/71f7b670f66116b5c7742358c4838624aab086e0) | fix(relations): clear tie lint gates, dedupe the plain-link glossary rule, and correct tie docs | [bob-cli-q8](README.md) | 2026-11-26 02:07:03 EST |
 | bob-plugins | [`bob-plugins@110b342`](https://github.com/bobs-org/bob-plugins/commit/110b3426999dd71ae9ee83dd4f199236d608daa7) | test(nav): bind the active editor in DW20-DW22 and expect tie-decorated Depends-on rows | [bob-cli-q8](README.md) | 2026-11-26 02:07:49 EST |
 | bob-cli | [`6e722fc`](https://github.com/bobs-org/bob-cli/commit/6e722fc6508f9bed5983917dc67416cfac404a60) | docs(task-dependencies): record tie-chord absorption, tie-change and reversal semantics | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2026-11-26 02:41:27 EST |
-| bob-plugins | [`bob-plugins@6fb169b`](https://github.com/bobs-org/bob-plugins/commit/6fb169bb8641603b19ab9cbc98cfefae2fdb3731) | feat(nav-hotkeys): counted and vault tie absorption, tie-change flow, dependency reversal | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2026-11-26 02:42:19 EST |
+| bob-cli | [`1c23bce`](https://github.com/bobs-org/bob-cli/commit/1c23bce7a8a0024e7874f0955bee104f4207870c) | feat(ties): PT12 CRLF vectors, missing LR31 skips, whole-JSON LR35 | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2026-11-26 03:05:03 EST |
 
 <!-- sase:referenced-by:start -->
 
