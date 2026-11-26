@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-q7
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1g6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1g6.md) · **Assignee:** `bob-cli-q7.land`
-**Created:** 2026-11-25 15:25:24 EST
+**Created:** 2026-11-25 15:25:24 EST · **Closed:** 2026-11-26 04:01:24 EST
 **Plan:** [202611/caret\_address\_goto\_capture.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/caret_address_goto_capture.md)
 
 <!-- sase:links:start -->
@@ -31,6 +31,8 @@ A capture draft that is exactly one bare `@route^block-id` token resolves read-o
 
 [2026-11-26T00:04:32Z · bob-cli-q5.1.1.land] DISCOVERED ISSUE (bob-cli-q5.1.1 snooze land triage, bob-cli master 6a3e5df6): (1) just lint / just check fail: clippy -D clippy::manual-contains rejects tests/cli/capture/complete_block_id.rs:292 `assert!(!ids.iter().any(|id| *id == "dup"), ...)` (help: `ids.contains(&"dup")`); the line came from d883e564 (SASE_BEAD bob-cli-q7.2) and the test "cli" target refuses to compile under clippy. (2) Building on note #1: d883e564 pushed docs/reference/capture-syntax.md further, 6058 -> 6086 (bob_docs count_words). (3) docs/reference/json-outputs.md is now 6032: the 6007 from 4d930129 plus a 25-word bob snooze index row from this snooze epic (6a3e5df6 added 37 words; the snooze lander trimmed the row to its minimum). q7.6's json-outputs trim must cover 32 words; reference other rows' prose was left alone.
 
+[2026-11-26T09:01:24Z · bob-cli-q7.land] q7 land verification at bob-cli master 8ee8d03c. (1) Read all 6 closed phases and every note. Read the epic commits against the plan: 4d930129 (cli-goto), d883e564 (cli-browse), 8ee8d03c (closeout docs). Checked: the shared caret_address_token/caret_goto_token claim (one line, one token, route charset, block-ID bytes, no @); all five claim sites (editor_parse, the notebook classifier and strict claim, capture_task_wikilinks, the T5 refusal in item.rs beside the T3/T4 refusals, completion); EditorMode::TaskGoto; the read-only resolver (living note, then one archive-pair hop via done_tasks or the canonical path, duplicates fail closed, case/prefix/near suggestions then other_note); the additive goto/block_id.goto wire; the mint-collision clause; the route^block-id / index key. Linked repos: bob-plugins origin still has findAnyLineByBlockId / block-id-any (deployed e82bd932 per q7.6). bob-mac-capture carries fc0d4551 and e6b22ed2, and its caret Go To suites passed in the latest CI. That CI's 23 failures are all CaptureDrawerPipelineTests (drawer epic ph.8.1). Honored the decision caret_goto_decision_record=no: no memory edits. (2) Integration: reviewed the 34 later commits (true-case drawers ph, snooze q5, ties q8, settle q4, freshness). None conflicts with or duplicates the caret Go To. Lander edit: only refreshed stale phase-relative comments (completion.rs, tokens.rs, capture_block_ids.rs, capture_caret_goto.rs, capture_link_tasks.rs test). Epic-caused issues are resolved: the manual_contains clippy break (epic note #2) was fixed by 71f7b670. The docs word-cap overages (epic notes #1/#2) were fixed by 8850f2e6: capture-syntax 5983 and json-outputs 5972 words, Go To rows intact. just check: fmt and clippy pass, tests exit 101 with 44 lib / 56 CLI failures. No caret/goto/block_id node is among them. (3) Follow-up triage: docs budget (q7.1 #2, q7.2 #2, q7.3 #1, q7.4 #1) and generated drift (q7.5 #1) declined, already resolved on master (q7.6 full docs-check green, counts under cap). Clippy follow-ups (q7.5 #2/#3) declined, fixed by 71f7b670. Red-master follow-ups (q7.1 #3, q7.2 #1): +1 on bob-cli-q9 (wispr pdftotext, reproduced) and bob-cli-gz (september agenda flake, relayed from q7.2). Drawer-cutover drift noted as DISCOVERED ISSUE on bob-cli-ph. The 17 settle-drift nodes corroborated on bob-cli-q4. New deterministic SP4 walks failure from b8678657 noted on bob-cli-q5.2.1. No new task beads. epic-symbols: none. Manual Mac/Obsidian GUI checklist from q7.6 is still for Bryan.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -46,7 +48,7 @@ A capture draft that is exactly one bare `@route^block-id` token resolves read-o
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-q7: @route^id Go To: open a task by its exact address from Bob Capture [in_progress]"]
+    n0["bob-cli-q7: @route^id Go To: open a task by its exact address from Bob Capture [closed]"]
     n1["bob-cli-q7.1: bob-cli: claim, resolve, and refuse the bare caret address [closed]"]
     n2["bob-cli-q7.2: bob-cli: Go rows for @route^ completion, mint-collision copy, and /route^id search [closed]"]
     n3["bob-cli-q7.3: bob-plugins: any-line block fallback in the Go To re-find ladder [closed]"]
@@ -77,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.4.md) | [bob-cli-q7.4](bob-cli-q7.4.md) | 3 |
 | [bbugyi200.athena.bob-cli-q7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.5.md) | [bob-cli-q7.5](bob-cli-q7.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-q7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.land/README.md) | [bob-cli-q7](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-q7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.land/README.md) | [bob-cli-q7](README.md) | 1 |
 
 ## Commits
 
@@ -92,6 +94,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@e6b22ed`](https://github.com/bobs-org/bob-mac-capture/commit/e6b22ed2709713be4444c2667dea0c1dd8652b2d) | feat(mac): turn block-ID card into scoped Go To browse | [bob-cli-q7.5](bob-cli-q7.5.md) | 2026-11-25 22:39:06 EST |
 | bob-cli | [`8ee8d03`](https://github.com/bobs-org/bob-cli/commit/8ee8d03ca7e50f33cdf07f7b1d408a399e4da4bc) | docs(capture): reconcile caret Go To contract and Mac links | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:38:51 EST |
 | bob-mac-capture | [`bob-mac-capture@b7a3b4e`](https://github.com/bobs-org/bob-mac-capture/commit/b7a3b4e001552278d61766ea827c82538a8a362b) | docs(capture): document caret Go To card and scoped browse | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:39:15 EST |
+| bob-cli | [`a1a09ea`](https://github.com/bobs-org/bob-cli/commit/a1a09eaafa248d4d5d9e2d9db2fbe1c34d8c041c) | docs(capture): retire phase-relative caret Go To comments | [bob-cli-q7](README.md) | 2026-11-26 04:02:41 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -46,7 +46,9 @@ closeout: verify every acceptance case against the real vault read-only, confirm
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.1.1.land][1] | Check q7 closeout phase scope for docs budget and lint | 1 |
+| read-by | [agent:bob-cli-q7.6--1][2] | Need the phase scope and design file; review prior verification notes before final closure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md
 
 <!-- sase:referenced-by:end -->
