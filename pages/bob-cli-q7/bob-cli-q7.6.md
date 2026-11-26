@@ -30,13 +30,14 @@ closeout: verify every acceptance case against the real vault read-only, confirm
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`8ee8d03`](https://github.com/bobs-org/bob-cli/commit/8ee8d03ca7e50f33cdf07f7b1d408a399e4da4bc) | docs(capture): reconcile caret Go To contract and Mac links | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:38:51 EST |
+| bob-mac-capture | [`bob-mac-capture@b7a3b4e`](https://github.com/bobs-org/bob-mac-capture/commit/b7a3b4e001552278d61766ea827c82538a8a362b) | docs(capture): document caret Go To card and scoped browse | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:39:15 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -40,7 +40,7 @@ A capture draft that is exactly one bare `@route^block-id` token resolves read-o
 | [bob-cli-q7.3](bob-cli-q7.3.md) | bob-plugins: any-line block fallback in the Go To re-find ladder | ✓ closed | small | 2026-11-25 | 1 | 1 |
 | [bob-cli-q7.4](bob-cli-q7.4.md) | Mac: Go To destination card and Return dispatch | ✓ closed | medium | 2026-11-25 | 1 | 3 |
 | [bob-cli-q7.5](bob-cli-q7.5.md) | Mac: Go rows in the block-ID card | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q7.6](bob-cli-q7.6.md) | End-to-end verification and docs closeout | ✓ closed | small | 2026-11-25 | 1 | 1 |
+| [bob-cli-q7.6](bob-cli-q7.6.md) | End-to-end verification and docs closeout | ✓ closed | small | 2026-11-25 | 1 | 2 |
 
 ## Lineage
 
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.3/README.md) | [bob-cli-q7.3](bob-cli-q7.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.4.md) | [bob-cli-q7.4](bob-cli-q7.4.md) | 3 |
 | [bbugyi200.athena.bob-cli-q7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.5.md) | [bob-cli-q7.5](bob-cli-q7.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 1 |
+| [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 2 |
 | [bbugyi200.athena.bob-cli-q7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.land/README.md) | [bob-cli-q7](README.md) | 0 |
 
 ## Commits
@@ -91,6 +91,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@1e85be2`](https://github.com/bobs-org/bob-mac-capture/commit/1e85be2600e29b48a3feb98bc34e1e9b0b00c0f8) | fix(capture): preserve draft when opening similar tasks | [bob-cli-q7.4](bob-cli-q7.4.md) | 2026-11-25 19:06:15 EST |
 | bob-mac-capture | [`bob-mac-capture@e6b22ed`](https://github.com/bobs-org/bob-mac-capture/commit/e6b22ed2709713be4444c2667dea0c1dd8652b2d) | feat(mac): turn block-ID card into scoped Go To browse | [bob-cli-q7.5](bob-cli-q7.5.md) | 2026-11-25 22:39:06 EST |
 | bob-cli | [`8ee8d03`](https://github.com/bobs-org/bob-cli/commit/8ee8d03ca7e50f33cdf07f7b1d408a399e4da4bc) | docs(capture): reconcile caret Go To contract and Mac links | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:38:51 EST |
+| bob-mac-capture | [`bob-mac-capture@b7a3b4e`](https://github.com/bobs-org/bob-mac-capture/commit/b7a3b4e001552278d61766ea827c82538a8a362b) | docs(capture): document caret Go To card and scoped browse | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:39:15 EST |
 
 <!-- sase:referenced-by:start -->
 
