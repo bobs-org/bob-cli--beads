@@ -43,13 +43,14 @@ Close the gaps the bob-cli-q8 landing found. Every nav dependency writer, counte
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.land.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.land.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`bab65e6`](https://github.com/bobs-org/bob-cli/commit/bab65e60b7aff27d0d783eb95fc407c8e1609c16) | docs(tasks): document tie reversal effects | [bob-cli-q8.10](bob-cli-q8.10.md) | 2026-11-26 07:36:25 EST |
+| bob-plugins | [`bob-plugins@5afb13f`](https://github.com/bobs-org/bob-plugins/commit/5afb13f79aae8decf7abe15a801e1da3ec2b59dd) | fix(navigation): compose tie dispatch and reversal effects | [bob-cli-q8.10](bob-cli-q8.10.md) | 2026-11-26 07:38:08 EST |
 
 <!-- sase:referenced-by:start -->
 
