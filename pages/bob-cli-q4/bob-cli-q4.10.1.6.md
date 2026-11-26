@@ -16,7 +16,7 @@
 | related | file:explicit:161491026097b312bac5b238 | attached via sase artifact create --bead |
 | related | file:explicit:732e3f1aa832605d383ecc46 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -69,7 +69,9 @@ Final artifact file:explicit:732e3f1aa832605d383ecc46 contains the deployment su
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.6--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.6.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
 
 <!-- sase:referenced-by:end -->

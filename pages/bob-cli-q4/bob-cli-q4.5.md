@@ -23,7 +23,7 @@ layout-parity: fix bead bob-cli-pn so plain Task Split writes LINKED FROM in the
 
 - **Depends on:** [bob-cli-q4.1](bob-cli-q4.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.10](bob-cli-q4.10.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q4.7](bob-cli-q4.7.md) ✓ · ⧖ 2026-11-25
 
 ## Agents

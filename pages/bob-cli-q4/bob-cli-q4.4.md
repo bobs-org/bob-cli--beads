@@ -69,7 +69,7 @@ Replay error (run continued): fe37799c05d3 bob task reconcile exit 1: daily note
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

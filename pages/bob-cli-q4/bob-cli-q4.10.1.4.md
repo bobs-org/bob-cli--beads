@@ -54,7 +54,9 @@ relocation: settle move source/destination and Task Split same-note, cross-note,
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.4--1][1] | Need the phase scope, design, and recorded notes after monitored verification failed | 1 |
 | read-by | [agent:bob-cli-q4.10.1.4--c][1] | Review the assigned epic before recording its verification, deployment, and close results | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/navigation_gesture_settle.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/navigation_gesture_settle.md
 
@@ -76,10 +76,12 @@ FOLLOW-UP TRIAGE
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.1][1] | Need epic DECISIONS and phase list for settle-bridge | 2 |
 | read-by | [agent:bob-cli-q4.10.1.2--1][2] | Need parent epic decisions and phase history before continuing | 1 |
-| read-by | [agent:bob-cli-q8.land][3] | Lander q8: check whether settle epic already tracks plugin harness test failures | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][3] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-q8.land][4] | Lander q8: check whether settle epic already tracks plugin harness test failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q8.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q8.land/README.md
 
 <!-- sase:referenced-by:end -->

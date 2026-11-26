@@ -17,7 +17,7 @@ notes-key: after bob-cli-ph.7, `Ctrl+Shift+O` opens a note at the owner's note s
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.2](bob-cli-q4.2.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.9](bob-cli-q4.9.md) ✓ · ⧖ 2026-11-25
 

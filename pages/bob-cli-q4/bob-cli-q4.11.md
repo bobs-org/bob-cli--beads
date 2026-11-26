@@ -23,7 +23,7 @@ link-settle: tier-1 settle on block-id-prompt's Ctrl+Shift+Enter target writes a
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.8](bob-cli-q4.8.md) ✓ · ⧖ 2026-11-25
 
 ## Agents

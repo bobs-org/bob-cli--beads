@@ -47,8 +47,10 @@ mirrors: audit and wire status-changing dependent and mirror writes, preserving 
 | read-by | [agent:bob-cli-q4.10.1.5--1][1] | Need the phase scope, decisions, notes, and design file before finishing verification | 1 |
 | read-by | [agent:bob-cli-q4.10.1.5--3][1] | Record verified navigation plugin deployment provenance on the completed phase bead | 1 |
 | read-by | [agent:bob-cli-q4.10.1.6--1][2] | Recover final writer inventory and predecessor evidence | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.6.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
 
 <!-- sase:referenced-by:end -->

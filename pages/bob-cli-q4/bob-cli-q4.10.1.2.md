@@ -41,7 +41,9 @@ answers: wire Alt+N, Alt+X, counted and linked variants, freshness keeps, Decay 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.2--1][1] | Need phase scope, design, decisions, and prior work notes | 1 |
 | read-by | [agent:bob-cli-q4.10.1.2--2][1] | Review the active navigation gesture settlement phase, its remaining work, and notes before completion | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
 
 <!-- sase:referenced-by:end -->

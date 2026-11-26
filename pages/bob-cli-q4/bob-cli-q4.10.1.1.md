@@ -51,9 +51,11 @@ Verified: npm test (9572 pass / 4 skip / 0 fail + 26 perf); 22 new adapter/comma
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.1][1] | Need the phase scope and design file | 5 |
-| read-by | [agent:bob-cli-q4.9.1.1][2] | Need q4.10.1.1 scope because it currently holds the cycler vault deploy | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-q4.9.1.1][3] | Need q4.10.1.1 scope because it currently holds the cycler vault deploy | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.1/README.md
 
 <!-- sase:referenced-by:end -->

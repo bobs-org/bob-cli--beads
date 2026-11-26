@@ -23,7 +23,7 @@ command-settle: compose the settle helper into `bob task move`, `split`, `merge`
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.3](bob-cli-q4.3.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.5](bob-cli-q4.5.md) ✓ · ⧖ 2026-11-25
 

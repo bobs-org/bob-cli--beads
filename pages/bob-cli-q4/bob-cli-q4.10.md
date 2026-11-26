@@ -17,7 +17,7 @@ nav-settle: tier-1 settle on Alt+N, Alt+X, the Task, Decay, schedule, and priori
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.13](bob-cli-q4.13.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.5](bob-cli-q4.5.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q4.8](bob-cli-q4.8.md) ✓ · ⧖ 2026-11-25
 
@@ -26,3 +26,15 @@ nav-settle: tier-1 settle on Alt+N, Alt+X, the Task, Decay, schedule, and priori
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q4.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.md) | [bob-cli-q4.10](bob-cli-q4.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.10.1.land][1] | Need the parent link and phase scope to close it after this epic | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
+
+<!-- sase:referenced-by:end -->
