@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/ref_cards.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/ref_cards.md
 
 <!-- sase:links:end -->
@@ -29,7 +31,7 @@ Every library reference note opens on a calm, information-dense Ref Card in the 
 |---|---|---|---|---|---:|---:|
 | [bob-cli-qp.1](bob-cli-qp.1.md) | bob props reference roles and the Reference contract | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qp.2](bob-cli-qp.2.md) | Ref species kit, preview gate, vocabulary, and scaffolding | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qp.3](bob-cli-qp.3.md) | Shared ref-library report service | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [bob-cli-qp.3](bob-cli-qp.3.md) | Shared ref-library report service | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qp.4](bob-cli-qp.4.md) | Ref Card shell from local identity | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qp.5](bob-cli-qp.5.md) | Reading-state readouts from the shared snapshot | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qp.6](bob-cli-qp.6.md) | The Reference editor behind == | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
@@ -43,7 +45,7 @@ flowchart TD
     n0["bob-cli-qp: Ref Cards [in_progress]"]
     n1["bob-cli-qp.1: bob props reference roles and the Reference contract [in_progress]"]
     n2["bob-cli-qp.2: Ref species kit, preview gate, vocabulary, and scaffolding [closed]"]
-    n3["bob-cli-qp.3: Shared ref-library report service [in_progress]"]
+    n3["bob-cli-qp.3: Shared ref-library report service [closed]"]
     n4["bob-cli-qp.4: Ref Card shell from local identity [in_progress]"]
     n5["bob-cli-qp.5: Reading-state readouts from the shared snapshot [in_progress]"]
     n6["bob-cli-qp.6: The Reference editor behind == [in_progress]"]
@@ -73,7 +75,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qp.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.1/README.md) | [bob-cli-qp.1](bob-cli-qp.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qp.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.2/README.md) | [bob-cli-qp.2](bob-cli-qp.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.3/README.md) | [bob-cli-qp.3](bob-cli-qp.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qp.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.3/README.md) | [bob-cli-qp.3](bob-cli-qp.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qp.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.4/README.md) | [bob-cli-qp.4](bob-cli-qp.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.5/README.md) | [bob-cli-qp.5](bob-cli-qp.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.6/README.md) | [bob-cli-qp.6](bob-cli-qp.6.md) | 0 |
@@ -86,3 +88,26 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b021aff`](https://github.com/bobs-org/bob-plugins/commit/b021aff56b293e8da928dca440f99ae4b99ad1d6) | feat(ledger-tools): add Ref Card kit, preview gate, vocabulary, and scaffolding | [bob-cli-qp.2](bob-cli-qp.2.md) | 2026-11-26 14:53:45 EST |
+| bob-plugins | [`bob-plugins@6045168`](https://github.com/bobs-org/bob-plugins/commit/6045168fd586c71cb7cd98d94809cbabdb505838) | feat(ref-card): add shared report service | [bob-cli-qp.3](bob-cli-qp.3.md) | 2026-11-26 15:26:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qp.2][1] | Need epic scope for phase qp.2 | 1 |
+| read-by | [agent:research.6m.cdx][2] | Research independent cabinet implementation and overlap with active epics | 1 |
+| read-by | [agent:research.6m.cld][3] | Assess coordination with cabinets research | 1 |
+| read-by | [agent:research.6m.gem][4] | Understand active epic scope, files, and status for parallel cabinet implementation analysis | 1 |
+| read-by | [agent:research.6m.grk][5] | Cite sibling epic scope and out-of-scope catalog work before recommending a cabinets epic | 2 |
+| read-by | [agent:research.6m.mus][6] | Research cabinet design parallel coordination with in-progress epics | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.grk/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.mus/README.md
+
+<!-- sase:referenced-by:end -->

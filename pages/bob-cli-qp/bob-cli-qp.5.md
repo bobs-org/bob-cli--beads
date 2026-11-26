@@ -13,7 +13,7 @@ ref-readouts: subscribe cards to the shared snapshot. Patch the lane chip, Today
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qp.3](bob-cli-qp.3.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qp.3](bob-cli-qp.3.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qp.4](bob-cli-qp.4.md) ◐ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qp.7](bob-cli-qp.7.md) ◐ · ⧖ 2026-11-26
 
