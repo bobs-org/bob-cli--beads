@@ -13,7 +13,7 @@ bank-editor-routing: verify and repair nested Bank Setup, bare + Area Settings, 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-pl.9.1.2.1.4](bob-cli-pl.9.1.2.1.4.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

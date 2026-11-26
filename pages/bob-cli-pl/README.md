@@ -31,6 +31,8 @@ Every area and project note opens with a calm property card (an Area Card or a P
 
 [2026-11-24T12:26:31Z · ft--code] COORDINATION: Property Editor Live Preview Vim entry is now bare + (Shift+= included). =+ (pending = then +) falls through to Vim and does not open the editor. Phase bob-cli-pl.6 still says =+ in its title; treat that as the Property Editor, now opened with +. registerPropertyCardSecondKeyArm("+") is unchanged. Drawer toggle is bare -.
 
+[2026-11-26T09:51:26Z · bob-cli-q4.10.1.land] DISCOVERED ISSUE (bob-cli-q4.10.1 land, triage of bob-cli-q4.10.1.6 PROPOSED FOLLOW-UP #4): the bob-cli-pl.9.1.2 bank-arbitration fixes in bob-plugins (06c87a06, 8e401c6e, b185579f, 5addf8ca, a0ebe63e) are committed on master 8645ed55 but not deployed. On athena, bob plugins list shows bob-ledger-tools 1.166.4 drifting: it is an uncommitted build from workspace bob-cli_12 at dc6c76f, deployed 2026-11-26T02:07Z. The unmodified full-vault post-sync smoke gate refuses on this drift, together with block-id-prompt and task-status-cycler, which are owned by the bob-cli-ph.10 drawer cutover (recorded on bob-cli-ph). Remediation: bob plugins sync -p bob-ledger-tools from clean master once the work is cleared, without -F. No standalone task filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -73,8 +75,8 @@ flowchart TD
     n21["bob-cli-pl.9.1.1: Gate home-card Properties ownership and route native entry points [closed]"]
     n22["bob-cli-pl.9.1.2: Integrate the Area Card with the landed bank title and setup card [in_progress]"]
     n23["bob-cli-pl.9.1.2.1: Finish Bank and Area card arbitration from retained failures [in_progress]"]
-    n24["bob-cli-pl.9.1.2.1.1: Make Bank acceptance probes match the production contract [in_progress]"]
-    n25["bob-cli-pl.9.1.2.1.2: Repair pane-local title and Properties foot arbitration [in_progress]"]
+    n24["bob-cli-pl.9.1.2.1.1: Make Bank acceptance probes match the production contract [closed]"]
+    n25["bob-cli-pl.9.1.2.1.2: Repair pane-local title and Properties foot arbitration [closed]"]
     n26["bob-cli-pl.9.1.2.1.3: Complete Bank and Area editor gestures [in_progress]"]
     n27["bob-cli-pl.9.1.2.1.4: Retain real Bank acceptance and deploy the verified bundle [in_progress]"]
     n28["bob-cli-pl.9.1.3: Verify home and bank takeover through production Obsidian adapters [in_progress]"]
@@ -159,7 +161,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.1/README.md) | [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 5 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.1.md) | [bob-cli-pl.9.1.2.1.1](bob-cli-pl.9.1.2.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.2/README.md) | [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.2/README.md) | [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3/README.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.4/README.md) | [bob-cli-pl.9.1.2.1.4](bob-cli-pl.9.1.2.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.land/README.md) | [bob-cli-pl.9.1.2.1](bob-cli-pl.9.1.2.1.md) | 0 |
@@ -210,6 +212,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@5addf8c`](https://github.com/bobs-org/bob-plugins/commit/5addf8ca4b42208f7366757d449ad0d640d94ac7) | fix(plugins): refresh Bank arbitration after Area foot mounts | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-26 01:54:13 EST |
 | bob-plugins | [`bob-plugins@a0ebe63`](https://github.com/bobs-org/bob-plugins/commit/a0ebe63eca90f814a7503a87ee570836f9876716) | fix(plugins): preserve Area foot registration during Bank arbitration | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-26 02:53:44 EST |
 | bob-plugins | [`bob-plugins@072b009`](https://github.com/bobs-org/bob-plugins/commit/072b009e91820b51d1bbebb3ef0abe06e7f28d75) | test(acceptance): add Bank-only Obsidian acceptance profile | [bob-cli-pl.9.1.2.1.1](bob-cli-pl.9.1.2.1.1.md) | 2026-11-26 04:10:50 EST |
+| bob-plugins | [`bob-plugins@3af803f`](https://github.com/bobs-org/bob-plugins/commit/3af803f932ac3691efa66bd6654a20cbd8b3ea01) | fix(plugins): pane-local bank foot and frontmatter arbitration | [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) | 2026-11-26 05:55:46 EST |
 
 <!-- sase:referenced-by:start -->
 
