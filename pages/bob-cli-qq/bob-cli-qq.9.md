@@ -13,6 +13,8 @@ go-live: once the gating sibling go-lives have closed, delete the gate and updat
 
 ## Dependencies
 
+- **Depends on:** [bob-cli-qm.7](../bob-cli-qm/bob-cli-qm.7.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qp.8](../bob-cli-qp/bob-cli-qp.8.md) ◐ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qq.8](bob-cli-qq.8.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

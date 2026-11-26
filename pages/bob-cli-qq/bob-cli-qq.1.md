@@ -19,4 +19,4 @@ kit: add the cabinet-owned `cabinetsPreview` gate. Add the frozen kind table wit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.1/README.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.1.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 0 |

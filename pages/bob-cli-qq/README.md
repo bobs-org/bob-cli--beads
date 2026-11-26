@@ -16,8 +16,8 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-qq.1](bob-cli-qq.1.md) | Cabinet gate, model, session state, provider registry, and the view collector | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
-| [bob-cli-qq.2](bob-cli-qq.2.md) | Walker-footer overlay push/pop API | ◐ in_progress | small | 2026-11-26 | 1 | 1 |
-| [bob-cli-qq.3](bob-cli-qq.3.md) | Catalog recognition, ownership claims, render-time hiding, and the body renderer | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [bob-cli-qq.2](bob-cli-qq.2.md) | Walker-footer overlay push/pop API | ✓ closed | small | 2026-11-26 | 1 | 1 |
+| [bob-cli-qq.3](bob-cli-qq.3.md) | Catalog recognition, ownership claims, render-time hiding, and the body renderer | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.4](bob-cli-qq.4.md) | One cabinet chrome, delegation, the stack, and the CSS region | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qq.5](bob-cli-qq.5.md) | The \`\_\` dispatch and numbered cabinet pick | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qq.6](bob-cli-qq.6.md) | Areas, Projects, Notebooks, and Albums cabinets on area and project cards | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
@@ -31,8 +31,8 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 flowchart TD
     n0["bob-cli-qq: Property Card Cabinets [in_progress]"]
     n1["bob-cli-qq.1: Cabinet gate, model, session state, provider registry, and the view collector [in_progress]"]
-    n2["bob-cli-qq.2: Walker-footer overlay push/pop API [in_progress]"]
-    n3["bob-cli-qq.3: Catalog recognition, ownership claims, render-time hiding, and the body renderer [in_progress]"]
+    n2["bob-cli-qq.2: Walker-footer overlay push/pop API [closed]"]
+    n3["bob-cli-qq.3: Catalog recognition, ownership claims, render-time hiding, and the body renderer [closed]"]
     n4["bob-cli-qq.4: One cabinet chrome, delegation, the stack, and the CSS region [in_progress]"]
     n5["bob-cli-qq.5: The `_` dispatch and numbered cabinet pick [in_progress]"]
     n6["bob-cli-qq.6: Areas, Projects, Notebooks, and Albums cabinets on area and project cards [in_progress]"]
@@ -65,9 +65,9 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.1/README.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.2/README.md) | [bob-cli-qq.2](bob-cli-qq.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.1.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.2.md) | [bob-cli-qq.2](bob-cli-qq.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.4/README.md) | [bob-cli-qq.4](bob-cli-qq.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md) | [bob-cli-qq.5](bob-cli-qq.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.6/README.md) | [bob-cli-qq.6](bob-cli-qq.6.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@c0a5c4d`](https://github.com/bobs-org/bob-plugins/commit/c0a5c4dd4dfa21eebf778834c464ae8e58b9a47f) | feat(ledger): add walker-footer overlay API | [bob-cli-qq.2](bob-cli-qq.2.md) | 2026-11-26 16:21:24 EST |
+| bob-plugins | [`bob-plugins@1e29d7c`](https://github.com/bobs-org/bob-plugins/commit/1e29d7ce681c5e83db4cccdd028d292153957815) | feat(cabinets): add catalog absorption kit (bob-cli-qq.3) | [bob-cli-qq.3](bob-cli-qq.3.md) | 2026-11-26 16:40:14 EST |

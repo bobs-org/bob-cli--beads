@@ -13,7 +13,7 @@ records-cabinet: register the open-by-default Records provider for album cards. 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qq.3](bob-cli-qq.3.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qq.3](bob-cli-qq.3.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qq.4](bob-cli-qq.4.md) ◐ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.8](bob-cli-qq.8.md) ◐ · ⧖ 2026-11-26
 
