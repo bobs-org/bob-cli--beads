@@ -19,4 +19,4 @@ snooze-waker: add the schema-checked non-cancelling Bob wake lane and app-owned 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.3/README.md) | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.3.md) | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 0 |

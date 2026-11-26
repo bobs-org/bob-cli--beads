@@ -33,3 +33,15 @@ navigation-cleanup: compose active Snoozed-row removal into navigation cleanup a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1770259`](https://github.com/bobs-org/bob-plugins/commit/1770259cf0b3088d640d44cf00d16027af23a7a2) | feat(navigation): compose Snoozed-row removal into deferred cleanup, Alt+N, and decay \| Snoozed-row explicit removal composes into planDeferredPomodoroLinkCleanup with distinct reporting; offset callers count both passes; Alt+N on a Snoozed row releases through the link transaction; Next-to-Ready decay folds the cleanup while WIP-to-Next preserves the snooze; 14 regression tests. \| SASE\_BEAD=\[bob-cli-q5.4.1.3\] | [bob-cli-q5.4.1.3](bob-cli-q5.4.1.3.md) | 2026-11-26 09:39:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.4.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->
