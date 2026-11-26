@@ -17,8 +17,11 @@ go-live: after bob-cli-qi.6 and bob-cli-qj.4 close, delete the preview gate, ext
 
 [2026-11-26T21:29:16Z · bob-cli-qq.1] COORDINATION: cabinets kit adds the 240w* cabinet-owned gate/model/state/provider/collector, plus role-aware fold changes in 240s and state binding in 240r; later cabinets phases add gate-guarded hunks in 240o, 248m, and styles.css. Rendering and behavior remain current while cabinetsPreview is absent. Please keep these guarded hunks through go-live cleanup. Cabinets go-live waits for bob-cli-qm.7 and bob-cli-qp.8.
 
+[2026-11-26T23:17:20Z · bob-cli-qm.7] PROPOSED FOLLOW-UP: Add a quiet prose provenance crumb once qj.5 defines its fields — the Prose Card can show `↰ from <owner> § <heading>` without adding provenance before the extract/inline child epic settles the contract.
+
 ## Dependencies
 
+- **Depends on:** [bob-cli-qj.4](../bob-cli-qj/bob-cli-qj.4.md) ◐ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qm.6](bob-cli-qm.6.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.9](../bob-cli-qq/bob-cli-qq.9.md) ◐ · ⧖ 2026-11-26
 
@@ -26,7 +29,13 @@ go-live: after bob-cli-qi.6 and bob-cli-qj.4 close, delete the preview gate, ext
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.7/README.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 0 |
+| [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`ebc45fe`](https://github.com/bobs-org/bob-cli/commit/ebc45fece48aa486cdb59bfdbace11a3576a3ec3) | docs(cards): document Notebook and Prose cards | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-26 18:27:05 EST |
 
 <!-- sase:referenced-by:start -->
 

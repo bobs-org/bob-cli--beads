@@ -42,9 +42,11 @@ prose-seam: after bob-cli-qj.3 closes, add a read-only versioned api.prose snaps
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qm.5--1][1] | Resume phase after prerequisite closed; review scope, design file, notes, and epic decisions | 1 |
-| read-by | [agent:research.6l.gem][2] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
+| read-by | [agent:bob-cli-qm.6][2] | check how qm.5 verified qj.3 prerequisite and what bob-articles state it saw | 1 |
+| read-by | [agent:research.6l.gem][3] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.5.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->
