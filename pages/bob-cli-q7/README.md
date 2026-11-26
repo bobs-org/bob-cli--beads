@@ -37,10 +37,10 @@ A capture draft that is exactly one bare `@route^block-id` token resolves read-o
 |---|---|---|---|---|---:|---:|
 | [bob-cli-q7.1](bob-cli-q7.1.md) | bob-cli: claim, resolve, and refuse the bare caret address | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q7.2](bob-cli-q7.2.md) | bob-cli: Go rows for @route^ completion, mint-collision copy, and /route^id search | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q7.3](bob-cli-q7.3.md) | bob-plugins: any-line block fallback in the Go To re-find ladder | ✓ closed | small | 2026-11-25 | 1 | 0 |
+| [bob-cli-q7.3](bob-cli-q7.3.md) | bob-plugins: any-line block fallback in the Go To re-find ladder | ✓ closed | small | 2026-11-25 | 1 | 1 |
 | [bob-cli-q7.4](bob-cli-q7.4.md) | Mac: Go To destination card and Return dispatch | ✓ closed | medium | 2026-11-25 | 1 | 3 |
 | [bob-cli-q7.5](bob-cli-q7.5.md) | Mac: Go rows in the block-ID card | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q7.6](bob-cli-q7.6.md) | End-to-end verification and docs closeout | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
+| [bob-cli-q7.6](bob-cli-q7.6.md) | End-to-end verification and docs closeout | ✓ closed | small | 2026-11-25 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +52,7 @@ flowchart TD
     n3["bob-cli-q7.3: bob-plugins: any-line block fallback in the Go To re-find ladder [closed]"]
     n4["bob-cli-q7.4: Mac: Go To destination card and Return dispatch [closed]"]
     n5["bob-cli-q7.5: Mac: Go rows in the block-ID card [closed]"]
-    n6["bob-cli-q7.6: End-to-end verification and docs closeout [in_progress]"]
+    n6["bob-cli-q7.6: End-to-end verification and docs closeout [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -73,22 +73,24 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q7.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.1.md) | [bob-cli-q7.1](bob-cli-q7.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q7.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md) | [bob-cli-q7.2](bob-cli-q7.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-q7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.3/README.md) | [bob-cli-q7.3](bob-cli-q7.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.3/README.md) | [bob-cli-q7.3](bob-cli-q7.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.4.md) | [bob-cli-q7.4](bob-cli-q7.4.md) | 3 |
 | [bbugyi200.athena.bob-cli-q7.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.5.md) | [bob-cli-q7.5](bob-cli-q7.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.6/README.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q7.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.6.md) | [bob-cli-q7.6](bob-cli-q7.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-q7.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.land/README.md) | [bob-cli-q7](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@1e726f3`](https://github.com/bobs-org/bob-plugins/commit/1e726f3adb01911c95a859e0eeb6f8b303ae5c43) | feat(navigation): re-find unique non-task ^block in Go To URI | [bob-cli-q7.3](bob-cli-q7.3.md) | 2026-11-25 15:37:07 EST |
 | bob-cli | [`4d93012`](https://github.com/bobs-org/bob-cli/commit/4d93012907c8d8048e2a6498450f4a803763c66a) | feat(capture): treat whole-draft @route^id as read-only Go To | [bob-cli-q7.1](bob-cli-q7.1.md) | 2026-11-25 17:10:47 EST |
 | bob-mac-capture | [`bob-mac-capture@fc0d455`](https://github.com/bobs-org/bob-mac-capture/commit/fc0d45515c8d86a33ab8b4ca46452f837eb3c490) | feat(capture): add caret Go To destination dispatch | [bob-cli-q7.4](bob-cli-q7.4.md) | 2026-11-25 18:03:57 EST |
 | bob-cli | [`d883e56`](https://github.com/bobs-org/bob-cli/commit/d883e564ecac1aecc9c3b6d4a1c72517cae87379) | feat(capture): scoped browse block\_id.goto with archive rows, mint-collision hint, route^block-id search | [bob-cli-q7.2](bob-cli-q7.2.md) | 2026-11-25 18:16:48 EST |
 | bob-mac-capture | [`bob-mac-capture@5d04d28`](https://github.com/bobs-org/bob-mac-capture/commit/5d04d286ffd485f2256bf7fc6dcb411a5dc2765e) | fix(ci): allow full Swift test suite to finish | [bob-cli-q7.4](bob-cli-q7.4.md) | 2026-11-25 18:35:40 EST |
 | bob-mac-capture | [`bob-mac-capture@1e85be2`](https://github.com/bobs-org/bob-mac-capture/commit/1e85be2600e29b48a3feb98bc34e1e9b0b00c0f8) | fix(capture): preserve draft when opening similar tasks | [bob-cli-q7.4](bob-cli-q7.4.md) | 2026-11-25 19:06:15 EST |
 | bob-mac-capture | [`bob-mac-capture@e6b22ed`](https://github.com/bobs-org/bob-mac-capture/commit/e6b22ed2709713be4444c2667dea0c1dd8652b2d) | feat(mac): turn block-ID card into scoped Go To browse | [bob-cli-q7.5](bob-cli-q7.5.md) | 2026-11-25 22:39:06 EST |
+| bob-cli | [`8ee8d03`](https://github.com/bobs-org/bob-cli/commit/8ee8d03ca7e50f33cdf07f7b1d408a399e4da4bc) | docs(capture): reconcile caret Go To contract and Mac links | [bob-cli-q7.6](bob-cli-q7.6.md) | 2026-11-26 03:38:51 EST |
 
 <!-- sase:referenced-by:start -->
 

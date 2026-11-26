@@ -45,9 +45,13 @@ cli-browse: add the additive block_id.goto rows to task_block_id completion for 
 | read-by | [agent:bob-cli-ph.7.1.land--7][1] | Verify independent clean-baseline docs budget overage corroboration | 1 |
 | read-by | [agent:bob-cli-q5.1.1.land][2] | Check whether the complete_block_id manual_contains lint break is tracked by its landing | 1 |
 | read-by | [agent:bob-cli-q7.2][3] | Need phase scope | 2 |
+| read-by | [agent:bob-cli-q7.5--1][4] | Check pre-existing just check clippy entry cited by q7.5 follow-up | 1 |
+| read-by | [agent:bob-cli-q8.land][5] | Lander q8: confirm q8.1's claim that q7.2 notes track the two pre-existing lib failures | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-ph.7.1.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.5.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q8.land/README.md
 
 <!-- sase:referenced-by:end -->

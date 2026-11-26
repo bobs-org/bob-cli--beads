@@ -25,7 +25,7 @@ mac-browse: turn the goto-eligible block-ID card into a scoped Go To browse (sel
 
 - **Depends on:** [bob-cli-q7.2](bob-cli-q7.2.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q7.4](bob-cli-q7.4.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q7.6](bob-cli-q7.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q7.6](bob-cli-q7.6.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
@@ -38,3 +38,15 @@ mac-browse: turn the goto-eligible block-ID card into a scoped Go To browse (sel
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@e6b22ed`](https://github.com/bobs-org/bob-mac-capture/commit/e6b22ed2709713be4444c2667dea0c1dd8652b2d) | feat(mac): turn block-ID card into scoped Go To browse | [bob-cli-q7.5](bob-cli-q7.5.md) | 2026-11-25 22:39:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q7.5--1][1] | Check remaining work before close after failed verify gate | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q7.5.md
+
+<!-- sase:referenced-by:end -->

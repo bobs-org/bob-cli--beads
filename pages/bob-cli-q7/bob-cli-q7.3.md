@@ -19,13 +19,19 @@ plugin-refind: let bob-goto-task re-find a unique non-task line carrying ^block 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q7.6](bob-cli-q7.6.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q7.6](bob-cli-q7.6.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.3/README.md) | [bob-cli-q7.3](bob-cli-q7.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q7.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q7.3/README.md) | [bob-cli-q7.3](bob-cli-q7.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@1e726f3`](https://github.com/bobs-org/bob-plugins/commit/1e726f3adb01911c95a859e0eeb6f8b303ae5c43) | feat(navigation): re-find unique non-task ^block in Go To URI | [bob-cli-q7.3](bob-cli-q7.3.md) | 2026-11-25 15:37:07 EST |
 
 <!-- sase:referenced-by:start -->
 
