@@ -7,6 +7,18 @@
 **Created:** 2026-11-25 19:49:46 EST
 **Plan:** [202611/area\_project\_takeover.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/area_project_takeover.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:e85d653a52d90836c21d7b53 | attached via sase artifact create --bead |
+
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
+<!-- sase:links:end -->
+
 ## Description
 
 bank-arbitration: prove the bank anchor in real Obsidian, implement scope-local title/foot/frontmatter arbitration with the approved fallback ladder, and preserve the bank editor.
@@ -14,6 +26,8 @@ bank-arbitration: prove the bank anchor in real Obsidian, implement scope-local 
 ## Notes
 
 [2026-11-26T02:35:19Z · bob-cli-pl.9.1.2--1] PROPOSED FOLLOW-UP: Confirmed the task-status-cycler date-boundary defect already proposed in bob-cli-pl.9.1.1 note #1 and bob-cli-pl.7 note #1: the two assertions in scripts/test-task-status-cycler-open-line.cjs expect created::2026-11-25 but produce 2026-11-26 on Nov 26; both fail identically on a clean HEAD archive. No matching task bead was found; stabilize the fixture date.
+
+[2026-11-26T08:26:43Z · bob-cli-pl.9.1.2] RECOVERY PLAN: Audited landed plugin fixes through a0ebe63e (current plugin e82bd932; no later bank/home/editor/runner diff) and latest retained Athena run on CLI 926c9258. Real Obsidian result remains NO-GO: 38/64 passing, duplicate Bank/Area feet in both modes, nested editor timeout, second-pane Area loss, and a Bank wire-kind mismatch in the settings probe. Final passive/screenshot/console checks were unexecuted after a day screenshot timeout. Fresh focused host/frontmatter suites pass 48/48, so they do not establish real acceptance. Retained full raw report/matrix/logs/provenance, prior full-suite logs, checked transfer receipts, and the individually inspected failure PNG as file:explicit:e85d653a52d90836c21d7b53. Following the assigned-phase instruction for repeated unfinished work, authored a four-phase child epic for probe contracts, mount/foot lifecycle, editor routing, and scoped Bank acceptance/deployment; original phase remains in progress for its child land agent. No production source, memory, ancestors, or task beads changed; no epic-symbol leftovers.
 
 ## Dependencies
 
@@ -45,6 +59,7 @@ bank-arbitration: prove the bank anchor in real Obsidian, implement scope-local 
 | read-by | [agent:bob-cli-pl.9.1.2--4][1] | Review the approved bank area arbitration scope before deciding which Athena failures require source fixes | 1 |
 | read-by | [agent:bob-cli-pl.9.1.2--9][1] | Need assigned phase requirements before deciding whether Athena failures are source defects | 1 |
 | read-by | [agent:bob-cli-pl.9.1.2--c][1] | Verify the assigned phase scope, previous notes, and recorded follow-ups before completing acceptance and closure | 1 |
+| read-by | [agent:bob-cli-pl.9.1.2--e][1] | Verify assigned scope, required acceptance and deployment gates, phase status, and phase-only leftovers before closure decision | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.md
 

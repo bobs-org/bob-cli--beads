@@ -72,8 +72,13 @@ flowchart TD
     n20["bob-cli-pl.9.1: Complete area and project Properties takeover [in_progress]"]
     n21["bob-cli-pl.9.1.1: Gate home-card Properties ownership and route native entry points [closed]"]
     n22["bob-cli-pl.9.1.2: Integrate the Area Card with the landed bank title and setup card [in_progress]"]
-    n23["bob-cli-pl.9.1.3: Verify home and bank takeover through production Obsidian adapters [in_progress]"]
-    n24["bob-cli-pl.9.1.4: Repeat retired-count cleanup and publish the verified card contract [in_progress]"]
+    n23["bob-cli-pl.9.1.2.1: Finish Bank and Area card arbitration from retained failures [in_progress]"]
+    n24["bob-cli-pl.9.1.2.1.1: Make Bank acceptance probes match the production contract [in_progress]"]
+    n25["bob-cli-pl.9.1.2.1.2: Repair pane-local title and Properties foot arbitration [in_progress]"]
+    n26["bob-cli-pl.9.1.2.1.3: Complete Bank and Area editor gestures [in_progress]"]
+    n27["bob-cli-pl.9.1.2.1.4: Retain real Bank acceptance and deploy the verified bundle [in_progress]"]
+    n28["bob-cli-pl.9.1.3: Verify home and bank takeover through production Obsidian adapters [in_progress]"]
+    n29["bob-cli-pl.9.1.4: Repeat retired-count cleanup and publish the verified card contract [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -96,8 +101,13 @@ flowchart TD
     n19 --> n20
     n20 --> n21
     n20 --> n22
-    n20 --> n23
-    n20 --> n24
+    n22 --> n23
+    n23 --> n24
+    n23 --> n25
+    n23 --> n26
+    n23 --> n27
+    n20 --> n28
+    n20 --> n29
     n1 -.-> n19
     n2 -.-> n3
     n3 -.-> n9
@@ -116,8 +126,11 @@ flowchart TD
     n17 -.-> n19
     n18 -.-> n19
     n21 -.-> n22
-    n22 -.-> n23
-    n23 -.-> n24
+    n22 -.-> n28
+    n24 -.-> n25
+    n25 -.-> n26
+    n26 -.-> n27
+    n28 -.-> n29
 ```
 
 ## Agents
@@ -145,6 +158,11 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.md) | [bob-cli-pl.9](bob-cli-pl.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.1/README.md) | [bob-cli-pl.9.1.1](bob-cli-pl.9.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 5 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.1.md) | [bob-cli-pl.9.1.2.1.1](bob-cli-pl.9.1.2.1.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.2/README.md) | [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3/README.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.4/README.md) | [bob-cli-pl.9.1.2.1.4](bob-cli-pl.9.1.2.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.land/README.md) | [bob-cli-pl.9.1.2.1](bob-cli-pl.9.1.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.3/README.md) | [bob-cli-pl.9.1.3](bob-cli-pl.9.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.4/README.md) | [bob-cli-pl.9.1.4](bob-cli-pl.9.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.land/README.md) | [bob-cli-pl.9.1](bob-cli-pl.9.1.md) | 0 |
@@ -191,6 +209,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@b185579`](https://github.com/bobs-org/bob-plugins/commit/b185579f35970bceb102d301bdd11b269af54a3b) | fix(plugins): capture bank fallback adapter in widget | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-26 01:02:16 EST |
 | bob-plugins | [`bob-plugins@5addf8c`](https://github.com/bobs-org/bob-plugins/commit/5addf8ca4b42208f7366757d449ad0d640d94ac7) | fix(plugins): refresh Bank arbitration after Area foot mounts | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-26 01:54:13 EST |
 | bob-plugins | [`bob-plugins@a0ebe63`](https://github.com/bobs-org/bob-plugins/commit/a0ebe63eca90f814a7503a87ee570836f9876716) | fix(plugins): preserve Area foot registration during Bank arbitration | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-26 02:53:44 EST |
+| bob-plugins | [`bob-plugins@072b009`](https://github.com/bobs-org/bob-plugins/commit/072b009e91820b51d1bbebb3ef0abe06e7f28d75) | test(acceptance): add Bank-only Obsidian acceptance profile | [bob-cli-pl.9.1.2.1.1](bob-cli-pl.9.1.2.1.1.md) | 2026-11-26 04:10:50 EST |
 
 <!-- sase:referenced-by:start -->
 
