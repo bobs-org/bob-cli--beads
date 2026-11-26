@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/true_case_drawers.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-pp][2] | True-case drawers' Mac phase (ph.8) adds drawer rendering in the same editor; it deliberately never hides drawer markers to avoid the req caret defect |
 
-_Plus 13 automatic references — see [Referenced By](#referenced-by)._
+_Plus 14 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-pp/README.md
@@ -42,6 +42,8 @@ A task drawer is a `- **Title**` bullet whose title keeps its authored capitaliz
 [2026-11-26T09:01:44Z · bob-cli-ph.8.1.land] DISCOVERED ISSUE (corroboration, from bob-cli-ph.8.1.land, triaging bob-cli-ph.8.1.6 PROPOSED FOLLOW-UP #2): independent just check on bob-cli 1c23bce7 (apollo, 2026-11-26 ~08:45Z) again exits 101 in -p bob-obsidian --lib and --test cli (94 failing test names; capture::complete_drawers, native::capture_complete, task_drawer_rename, capture::sections, capture::project_note_offer, capture::drawer_bullets, ...), matching note #4 and bob-cli-ph.10 note #3. Master CI 45780195523 (1c23bce7) test (ubuntu-latest) also failed. No separate task created; this is cutover golden migration owned by this epic's landing.
 
 [2026-11-26T09:02:01Z · bob-cli-ph.8.1.land] DISCOVERED ISSUE (from bob-cli-ph.8.1.land): bob-mac-capture drawer preview fixtures still predate the ph.10 cutover. Tests/Fixtures/drawer-fixtures-README.md records the original drawer-*.json set from bob-cli 05dd83cf (grammar 31), including drawer-capture-legacy-existing.json and drawer-complete-* rows whose FUTURE WORK legacy drawer and REQUIREMENTS-style keys Bob no longer recognizes after 9573ff86/46aba677 (Bob now emits only bold|section; grammar 33). Only the star-expansion fixtures (drawer-parse-empty-skeleton-*, drawer-rewrite-*) come from 01dee47a (grammar 33). Mac tests still pass because decoding is additive, so nothing is red, but the fixtures no longer describe current Bob. Remediation: regenerate with Scripts/generate-drawer-fixtures.sh from a clean post-cutover bob-cli, keep legacy_caps coverage as inline decode payloads per plan:202611/finish_mac_true_case_drawers.md (Fixtures rule), update the README provenance, and watch exact-SHA macOS CI green. Related, not a duplicate: bob-cli-ge (grammar-gate floors). No separate task created; causally owned by this epic's cutover.
+
+[2026-11-26T09:51:21Z · bob-cli-q4.10.1.land] DISCOVERED ISSUE (bob-cli-q4.10.1 land, triage of bob-cli-q4.10.1.6 PROPOSED FOLLOW-UPs #3/#4). (1) Fresh reproduction of note #4/#5/#6 on clean bob-cli master ae78dbb2: full just check fails 98 tests (lib 43, CLI 55). 80 of them are drawer-cutover expectation drift, e.g. capture_complete::tests::drawers x23, capture::complete_drawers x10, capture::sections x6 (left 'Requirements' vs right 'REQUIREMENTS'), task_block_layout x3, task_drawer_rename, completion bash/vault/capture_text drawers, help_options::capture_drawers_help. The other 18 are the 17 q4 settle-drift nodes (on bob-cli-q4) and the wispr node (bob-cli-q9). (2) NEW: the ph.10 plugin reader retirement is committed but not deployed. bob-plugins fda0ef27/2ba3315d touch block-id-prompt, bob-ledger-tools and task-status-cycler, and on athena bob plugins list shows all three drifting from master 8645ed55. block-id-prompt 1.46.0 is clean-deployed from bdb85e34 (2026-11-25T21:24Z). bob-ledger-tools 1.166.4 is an uncommitted build from bob-cli_12 at dc6c76f (02:07Z), which also lacks the bob-cli-pl.9.1.2 bank fixes 06c87a06/8e401c6e/b185579f/5addf8ca/a0ebe63e. task-status-cycler 1.64.2 is an uncommitted build from bob-cli_19 at 2ff8fdd (02:03Z). The live vault therefore still runs pre-cutover drawer readers in those plugins. The unmodified full-vault post-sync smoke gate (bob-plugins --deployed-vault /home/bryan/bob) refuses before Electron startup naming exactly these three; see bob-cli-q4.10.1.6 notes #4/#7 and file:explicit:161491026097b312bac5b238. Remediation: deploy these plugins from clean master via bob plugins sync once the cutover is cleared for the vault, following the protected-sync procedure without -F. The nav lander deliberately did not deploy them. No standalone task filed.
 
 ## Phases
 
@@ -187,7 +189,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.4.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.5.md) | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.9.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.land/README.md) | [bob-cli-ph](README.md) | 0 |
 
@@ -232,6 +234,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@a2e79f6`](https://github.com/bobs-org/bob-mac-capture/commit/a2e79f65cbf56c09c3a6c734a902d23b477f44e0) | fix(mac-capture): bind drawer pipeline test models; document draft drawer paint | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:04:43 EST |
 | bob-cli | [`1d6df8d`](https://github.com/bobs-org/bob-cli/commit/1d6df8d1dbf6087210f6546c3b798edfaaa29ef5) | docs(drawers): clarify preview marker compatibility after cutover | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-26 03:56:51 EST |
 | bob-mac-capture | [`bob-mac-capture@403781d`](https://github.com/bobs-org/bob-mac-capture/commit/403781d2b3d2921584b677fae1e76b4c5bfd952b) | fix(mac-capture): land true-case drawer pipeline tests and reconcile docs | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 04:28:54 EST |
+| bob-mac-capture | [`bob-mac-capture@b38c4cc`](https://github.com/bobs-org/bob-mac-capture/commit/b38c4cc3ced036c644cc230158972b819ed3fcf3) | fix(mac-capture): isolate drawer newline undo and harden old-Bob tip race | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:05:39 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -246,12 +249,13 @@ flowchart TD
 | read-by | [agent:bob-cli-ph.7.1.land--3][5] | Confirm parent plan stays open during closeout | 1 |
 | read-by | [agent:bob-cli-ph.7.1.land--7][5] | Confirm the containing Obsidian phase epic remains open after drawer closeout | 1 |
 | read-by | [agent:bob-cli-pq.land][6] | Check drawer epic status for sequencing and taste pass ownership | 1 |
-| read-by | [agent:g1][7] | Research how to progress the epic without waiting for a release | 1 |
-| read-by | [agent:research.66.cdx][8] | Independent research into better-o and all-ops-reconcile-tasks; inspect referenced scope and completion | 1 |
-| read-by | [agent:research.66.cld][9] | Context for better-o / all-ops-reconcile research | 1 |
-| read-by | [agent:research.66.final][10] | Consolidating swarm research on better-o: verify drawer-epic phase states and the pn/po writer-gap beads the reports cite | 1 |
-| read-by | [agent:research.66.gem][11] | Referenced in ^better-o for ongoing drawer changes | 1 |
-| read-by | [agent:research.66.grk][12] | Need the true-case drawers epic that better-o says is still in progress | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][7] | Check whether the true-case drawer epic owns the 98 bob-cli just check failures proposed by q4.10.1.6 | 2 |
+| read-by | [agent:g1][8] | Research how to progress the epic without waiting for a release | 1 |
+| read-by | [agent:research.66.cdx][9] | Independent research into better-o and all-ops-reconcile-tasks; inspect referenced scope and completion | 1 |
+| read-by | [agent:research.66.cld][10] | Context for better-o / all-ops-reconcile research | 1 |
+| read-by | [agent:research.66.final][11] | Consolidating swarm research on better-o: verify drawer-epic phase states and the pn/po writer-gap beads the reports cite | 1 |
+| read-by | [agent:research.66.gem][12] | Referenced in ^better-o for ongoing drawer changes | 1 |
+| read-by | [agent:research.66.grk][13] | Need the true-case drawers epic that better-o says is still in progress | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md
@@ -259,11 +263,12 @@ flowchart TD
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.2/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md
 [6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.land/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cdx/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.final/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.gem/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.10.1.land/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cdx/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.final/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.gem/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
 
 <!-- sase:referenced-by:end -->
