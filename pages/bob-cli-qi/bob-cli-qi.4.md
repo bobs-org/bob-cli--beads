@@ -14,7 +14,7 @@ takeover-proof: run the production-adapter matrix in isolated real Obsidian agai
 ## Dependencies
 
 - **Depends on:** [bob-cli-qi.1](bob-cli-qi.1.md) ✓ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qi.2](bob-cli-qi.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qi.2](bob-cli-qi.2.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qi.3](bob-cli-qi.3.md) ◐ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qi.6](bob-cli-qi.6.md) ◐ · ⧖ 2026-11-26
 

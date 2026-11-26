@@ -11,6 +11,10 @@
 
 plugin-single-owner: delete 249db and every bank/area arbitration hook in bob-ledger-tools, restore the bank.md home-card exclusion, and gate bank on props_v1. Bank becomes a no-settings Property Editor kind whatever bob reports. Settle the 240r foot lifecycle by a species-agnostic test, convert the hybrid unit and e2e cases, fix the baseline harness blockers, then build, test, and sync.
 
+## Notes
+
+[2026-11-26T15:46:58Z · bob-cli-qi.3--1] PROPOSED FOLLOW-UP: Repair the block-id-prompt generated bundle/source mismatch — `npm test` on clean bob-plugins HEAD `4e0a8fd0e96453a6c92ca8293dfa0c964d1f6111` exits 1 before unit/perf tests because `node scripts/build-plugins.mjs --check` reports `plugins/block-id-prompt/main.js` stale; this plugin is outside the bank phase.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-qi.4](bob-cli-qi.4.md) ◐ · ⧖ 2026-11-26
@@ -20,10 +24,4 @@ plugin-single-owner: delete 249db and every bank/area arbitration hook in bob-le
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-qi.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.3.md) | [bob-cli-qi.3](bob-cli-qi.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@8e6a5a6`](https://github.com/bobs-org/bob-plugins/commit/8e6a5a61908bb5eac13584536fa6f564b7464617) | refactor(plugins): restore single-owner Bank Card | [bob-cli-qi.3](bob-cli-qi.3.md) | 2026-11-26 10:40:24 EST |
+| [bbugyi200.athena.bob-cli-qi.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.3.md) | [bob-cli-qi.3](bob-cli-qi.3.md) | 0 |
