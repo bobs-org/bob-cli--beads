@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-q4
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1fw](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1fw.md) · **Assignee:** `bob-cli-q4.land`
-**Created:** 2026-11-25 08:51:35 EST
+**Created:** 2026-11-25 08:51:35 EST · **Closed:** 2026-11-26 06:55:48 EST
 **Plan:** [202611/better\_o\_gesture\_settle.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md)
 
 <!-- sase:links:start -->
@@ -41,6 +41,24 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 
 [2026-11-26T09:50:58Z · bob-cli-q4.10.1.land] DISCOVERED ISSUE corroboration (bob-cli-q4.10.1 land, triage of bob-cli-q4.10.1.6 PROPOSED FOLLOW-UPs #2/#3): (a) Full just check on clean bob-cli master ae78dbb2 (2026-11-26) exits 101 with lib 8184 passed/43 failed and CLI 4177 passed/55 failed. The same 17 settle-drift CLI nodes recorded in notes #1/#3/#4/#6 still fail: capture::inbox_route x2, note_pull x3, project_note x3, project_note_offer x6, task_theme_writes::new_named_task_reports_and_writes_the_resolved_theme_exception, ref_library::today::today_matches_unnamed_capture_and_named_capture_remembers_theme, task_status_hooks::sync::task_status_hooks_groups_area_project_tasks_after_final_statuses. The nav child epic bob-cli-q4.10.1 changed no bob-cli Rust code (its bob-cli commits are docs-gate repairs only), so these stay with this epic's CLI writer phases. Of the remaining 81 failures, 80 are drawer-cutover drift owned by bob-cli-ph and 1 is wispr, tracked as bob-cli-q9. (b) Note #5's task-status-cycler open-line date failures are resolved: 2cad24b7 (bob-cli-q8.10.3) injects getCreatedDateString, and bob-plugins npm test at 8645ed55 passes 9817/0 fail/4 skip, perf 26/26. No standalone task filed.
 
+[2026-11-26T10:45:54Z · bob-cli-q5.3.1.land] DISCOVERED ISSUE: bob-cli-q5.3.1 landing triage corroborates your existing settlement fixture drift. Proposing bead q5.3.1.1 note #2 reports the 15 capture nodes (inbox_route x2, note_pull x3, project_note x3, project_note_offer x6, task_theme_writes x1) on an untouched base. q5.3.1.2 note #4 and q5.3.1.3 note #1 reproduce the 98-node full-suite set on bases 1c23bce7/ae78dbb2, including your 17 settlement nodes. Source 007ef5ed and q4.6 scope confirm ownership. No new standalone task or fresh lander full-check execution claimed.
+
+[2026-11-26T11:01:32Z · bob-cli-q8.10.land] DISCOVERED ISSUE corroboration from q8.10 landing: unchanged bob-cli 292d60c0, sase tool run check 231f6b89bd79a9cbc17778a0ba1b3d92, reproduces the same 17 settlement CLI failures from notes #1/#3/#4/#6-#8 (inbox_route x2, note_pull x3, project_note x3, project_note_offer x6, task_theme_writes x1, ref_library::today x1, task_status_hooks grouping x1). Reviewed q4.6 scope and prior causal evidence. The remaining 80 lib/CLI failures are ph drawer-cutover drift; no Rust source/test edits in this turn. No duplicate task filed after /sase_new_task search/recent-task sweep/active-epic review.
+
+[2026-11-26T11:02:47Z · bob-cli-q4.land] LAND TRIAGE (bob-cli-q4.land, 2026-11-26) of every PROPOSED FOLLOW-UP on q4.1-q4.13:
+- CREATED bob-cli-qc (bug, medium): q4.13 #1, bob task merge into a requirement-owning task files copied notes outside the Notes drawer (task_merge/containers.rs task_container ignores the req-aware note slot), so tidy plans a filing move. It predates this epic and is not a settle concern.
+- CREATED bob-cli-qd (feature, medium, snoozed 7d): q4.13 #2 plus the plan's land rule. Re-run scripts/dev/reconcile-drift after a week of post-deploy morning reviews against the q4.4 baseline.
+- CREATED bob-cli-qe (feature, large): decision wasm_spike=yes. Research spike on a WASM bob-core to retire the JS twins, citing the twin count and q4.5's BLOCKS-order divergence.
+- DECLINED q4.1 #1, q4.2 #2, q4.5 #1 (task_reqs layout.json and nav split NOTES vs **Notes** skew): fixed by the bob-cli-ph true-case cutover (c3a9bdd9 and the plugin vector migration). bob-plugins npm test passes 9817/0 at 8645ed55 (q4.10.1 land).
+- DECLINED q4.1 #2, q4.2 #1 (frees-marks 25ms flake): already tracked by bob-cli-io, and the q4.8.1 lander recorded it fixed.
+- DECLINED q4.3 #1, q4.5 #2 (17 xelatex preamble failures): tracked by bob-cli-pw and fixed by f47055da.
+- DECLINED q4.4 #2, q4.7 #3, q4.11 #2, plus epic note #2 (docs word budgets): fixed. bob-cli just docs-check passes at 292d60c0, both standalone and with BOB_DOCS_BOB_PLUGINS_DIR set to bob-plugins 4ae966f4 (lint gate passed). Headroom stays on bob-cli-jz / bob-cli-ob.
+- DECLINED q4.4 #3 (drift-meter replay error on a snapshot whose daily has no Pomodoros section): the meter records reconcile's refusal and continues, by design. Refusing a transient mid-creation daily snapshot (1 of 1801) is correct reconcile behavior, not a defect.
+- DECLINED q4.7 #2 (wispr_summary lib test): duplicate of bob-cli-q9.
+- q4.11 #4, q4.13 #3, and epic notes #1/#3/#4/#6/#7 (the 17 settle-drift CLI nodes): CAUSED BY THIS EPIC and kept as epic work. Reproduced at 292d60c0 (cargo test --test cli: 332 pass / 17 fail across exactly the recorded nodes). The cause is three gaps from q4.6/q4.7: (a) capture's settle_capture_notes remaps only the task tracker and parent_line, so inbox_route moved.line, routed_landings and open_notes, project_note.moved_tasks[].line, and project_note.successors[].line stay pre-settle (wrong Mac Open landings); (b) bob ref today's link_existing_task bypasses the capture settle choke point, so it no longer matches capture; (c) test expectations still pin unset
+
+… and 2558 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -63,7 +81,7 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-q4: Better o / Ctrl+Shift+O and gesture-settled task structure [in_progress]"]
+    n0["bob-cli-q4: Better o / Ctrl+Shift+O and gesture-settled task structure [closed]"]
     n1["bob-cli-q4.1: Hand-edit mirror never writes across notes [closed]"]
     n2["bob-cli-q4.10: Navigation gestures settle both notes they write [closed]"]
     n3["bob-cli-q4.10.1: Navigation gestures settle their written notes [closed]"]
@@ -191,7 +209,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md) | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.4/README.md) | [bob-cli-q4.9.1.4](bob-cli-q4.9.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.1.land.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 5 |
-| [bbugyi200.athena.bob-cli-q4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.land/README.md) | [bob-cli-q4](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.land.md) | [bob-cli-q4](README.md) | 1 |
 
 ## Commits
 
@@ -248,7 +266,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8645ed5`](https://github.com/bobs-org/bob-plugins/commit/8645ed558ab50543ca9e6b84d2cfff38ff812772) | fix(navigation): retain settled review identity and verify morning-review writes | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 2026-11-26 04:21:45 EST |
 | bob-cli--plans | [`bob-cli--plans@7b9d46e`](https://github.com/bobs-org/bob-cli--plans/commit/7b9d46eae424f1c2dc67d8fff1b60bf82a29162a) | chore(plans): mark navigation gesture settle epic done | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 2026-11-26 04:53:03 EST |
 
-… and 1 more commits
+… and 2 more commits
 
 <!-- sase:referenced-by:start -->
 

@@ -7,6 +7,20 @@
 **Created:** 2026-11-25 08:51:35 EST · **Closed:** 2026-11-25 12:54:15 EST
 **Plan:** [202611/better\_o\_gesture\_settle.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-qd][1] | Holds the 7-day reconcile-drift baseline table and JSON attachment to compare against |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qd/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 drift-meter: add `scripts/dev/reconcile-drift`, which replays vault commits through `bob task reconcile --dry-run -f json` with `BOB_NOW` pinned. It sorts the planned changes into churn categories, attributes them to gestures, and reports tidy debt. Record today's baseline on the phase bead.

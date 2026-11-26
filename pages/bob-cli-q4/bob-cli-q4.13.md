@@ -7,6 +7,20 @@
 **Created:** 2026-11-25 08:51:36 EST · **Closed:** 2026-11-26 05:38:16 EST
 **Plan:** [202611/better\_o\_gesture\_settle.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-qc][1] | The settle acceptance suite that found the merge tidy debt and covers only requirement-less merges |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qc/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 acceptance: a fixture-level end-to-end suite where every wired gesture and writer leaves reconcile with nothing note-local to plan and tidy at zero. It runs the drift meter over post-deploy vault history against the baseline and does a final docs sweep. With approval, it also writes the settle decisions record.
@@ -55,7 +69,9 @@ acceptance: a fixture-level end-to-end suite where every wired gesture and write
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q4.10.1.land][1] | Check whether the q4 acceptance phase owns deploying the drifted sibling plugins | 1 |
+| read-by | [agent:bob-cli-q4.13][2] | Need notes JSON | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md
 
 <!-- sase:referenced-by:end -->

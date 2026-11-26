@@ -7,6 +7,20 @@
 **Created:** 2026-11-25 08:51:35 EST · **Closed:** 2026-11-25 10:17:58 EST
 **Plan:** [202611/better\_o\_gesture\_settle.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/better_o_gesture_settle.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-qe][1] | Found and fixed the JS BLOCKS-before-Depends-On twin divergence cited as evidence |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qe/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 layout-parity: fix bead bob-cli-pn so plain Task Split writes LINKED FROM in the managed-link zone, update the SP vectors, and re-copy them into the nav split twin. Verify and fix the known JS BLOCKS-before-Depends-On insert-order divergence from contract §14.5.
