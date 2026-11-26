@@ -29,10 +29,4 @@ draft-styling: paint drawer_bullet titles semibold in the section family and dra
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.3.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@b422fbd`](https://github.com/bobs-org/bob-mac-capture/commit/b422fbdc84f520f0ea4d995e736c693def48b557) | feat(capture): style drawer titles and delimiters | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 2026-11-25 23:25:14 EST |
+| [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.3.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 0 |

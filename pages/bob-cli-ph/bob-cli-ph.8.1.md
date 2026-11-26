@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/finish_mac_true_case_drawers.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_mac_true_case_drawers.md
 
@@ -35,17 +35,7 @@ Bob Mac Capture builds green again, draws Bob-annotated drawer headers as a tray
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 5 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@403781d`](https://github.com/bobs-org/bob-mac-capture/commit/403781d2b3d2921584b677fae1e76b4c5bfd952b) | fix(mac-capture): land true-case drawer pipeline tests and reconcile docs | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 04:28:54 EST |
-| bob-mac-capture | [`bob-mac-capture@b38c4cc`](https://github.com/bobs-org/bob-mac-capture/commit/b38c4cc3ced036c644cc230158972b819ed3fcf3) | fix(mac-capture): isolate drawer newline undo and harden old-Bob tip race | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:05:39 EST |
-| bob-mac-capture | [`bob-mac-capture@ab98419`](https://github.com/bobs-org/bob-mac-capture/commit/ab9841959e3032d478aa5d2f2ff6163c1c6984a5) | fix(mac-capture): qualify self capture in old-Bob tip wait | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:22:59 EST |
-| bob-mac-capture | [`bob-mac-capture@5949d25`](https://github.com/bobs-org/bob-mac-capture/commit/5949d253f6a210f992096858e559e59c188682bd) | fix(mac-capture): isolate drawer title/newline undo with runloop yield | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 06:41:25 EST |
-| bob-cli--plans | [`bob-cli--plans@b1fb0bb`](https://github.com/bobs-org/bob-cli--plans/commit/b1fb0bb4e3532225ec53905e0420940ceb910711) | docs(plans): mark finish\_mac\_true\_case\_drawers done | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 06:42:51 EST |
+| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -56,6 +46,7 @@ Bob Mac Capture builds green again, draws Bob-annotated drawer headers as a tray
 | read-by | [agent:bob-cli-ph.10][1] | Identify existing evidence or task tracking for baseline drawer fixture failures | 1 |
 | read-by | [agent:bob-cli-ph.8.1.1--4][2] | Inspect the specified epic and its descendants before deciding whether closure is permitted | 1 |
 | read-by | [agent:bob-cli-ph.8.1.land--2][3] | drawer land gate retry follow-up: need bead state and plan refs | 1 |
+| read-by | [agent:bob-cli-ph.8.1.land--4][3] | Land tale: need phase bead status and scope for closures | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.1.md

@@ -30,12 +30,4 @@ preview-tray: BlockDiffCard renders a Bob-annotated drawer header as SF Symbol t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.2.md) | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 3 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@4d9e845`](https://github.com/bobs-org/bob-mac-capture/commit/4d9e845e5a76e20d8f3b34406c9b30feba12fbbf) | feat(mac-capture): tray and verbatim title on drawer preview headers | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-25 23:08:02 EST |
-| bob-mac-capture | [`bob-mac-capture@c2dd7fb`](https://github.com/bobs-org/bob-mac-capture/commit/c2dd7fbfdf85f6bf7679a38be318eb8d457fb41b) | fix(mac-capture): hoist throwing edgeRows out of the drawer render builder | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-25 23:30:44 EST |
-| bob-mac-capture | [`bob-mac-capture@5d50d5a`](https://github.com/bobs-org/bob-mac-capture/commit/5d50d5a6ddf46b4aa35efefbb83739734b6094f2) | fix(mac-capture): correct drawer CI assertions and delimiter full-ink color | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-26 00:20:27 EST |
+| [bbugyi200.apollo.bob-cli-ph.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.2.md) | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 0 |

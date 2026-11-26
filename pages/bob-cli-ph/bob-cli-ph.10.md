@@ -25,7 +25,7 @@ cutover: once no unreleased legacy drawer remains, remove ALL-CAPS recognition, 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.9](bob-cli-ph.9.md) ✓ · ⧖ 2026-11-22
 
 ## Agents

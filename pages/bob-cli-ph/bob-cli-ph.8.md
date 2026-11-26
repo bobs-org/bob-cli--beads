@@ -48,7 +48,7 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ✓ · ⧖ 2026-11-22
 - **Depends on:** [bob-cli-ph.6](bob-cli-ph.6.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [bob-cli-pq.5](../bob-cli-pq/bob-cli-pq.5.md) ✓ · ⧖ 2026-11-23
 
@@ -56,15 +56,13 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@4eb9b2e`](https://github.com/bobs-org/bob-mac-capture/commit/4eb9b2e977dc8275a5849d5ac7f8bc8fabb617b2) | fix(mac): require grammar 30 for drawer fixtures | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:18:09 EST |
 | bob-cli | [`f4da72f`](https://github.com/bobs-org/bob-cli/commit/f4da72ff5dd08b9827eb8b13a9f2bce04c47d9f6) | docs(task-drawers): describe Mac thin-client drawer contract | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:51:53 EST |
-| bob-mac-capture | [`bob-mac-capture@b45b195`](https://github.com/bobs-org/bob-mac-capture/commit/b45b1951b0f983edc4d8e9deae5ad92e96bb00ab) | feat(mac): carry true-case drawer annotations from Bob | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:53:07 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -75,14 +73,16 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
 | read-by | [agent:bob-cli-ph.8--1][2] | Confirm assigned scope and final decisions before completing the phase | 1 |
 | read-by | [agent:bob-cli-ph.8--2][2] | Continue remaining Mac tray styling typing assists tests | 3 |
-| read-by | [agent:bob-cli-pq.1][3] | sequencing check for glyph-contract | 2 |
-| read-by | [agent:bob-cli-pq.3][4] | Check prerequisite Mac drawer implementation status | 1 |
-| read-by | [agent:g1][5] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.8.1.land--4][3] | Confirm phase closure state after epic cascade close | 2 |
+| read-by | [agent:bob-cli-pq.1][4] | sequencing check for glyph-contract | 2 |
+| read-by | [agent:bob-cli-pq.3][5] | Check prerequisite Mac drawer implementation status | 1 |
+| read-by | [agent:g1][6] | Check whether phase is blocked on the release gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

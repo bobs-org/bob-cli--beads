@@ -59,14 +59,14 @@ A task drawer is a `- **Title**` bullet whose title keeps its authored capitaliz
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ph.1](bob-cli-ph.1.md) | Dual-read drawer recognizer, readers, and outside-text escape | ✓ closed | large | 2026-11-22 | 1 | 2 |
 | [bob-cli-ph.10](bob-cli-ph.10.md) | Retire ALL-CAPS drawer recognition | ✓ closed | medium | 2026-11-22 | 1 | 6 |
-| [bob-cli-ph.11](bob-cli-ph.11.md) | Memory records for true-case drawers | ◐ in_progress | small | 2026-11-22 | 1 | 0 |
+| [bob-cli-ph.11](bob-cli-ph.11.md) | Memory records for true-case drawers | ✓ closed | small | 2026-11-22 | 1 | 1 |
 | [bob-cli-ph.2](bob-cli-ph.2.md) | One plugin recognizer twin and dual-read plugin readers | ✓ closed | large | 2026-11-22 | 1 | 1 |
 | [bob-cli-ph.3](bob-cli-ph.3.md) | Every host reads bold drawers before any writer flips | ✓ closed | small | 2026-11-22 | 1 | 2 |
 | [bob-cli-ph.4](bob-cli-ph.4.md) | Every bob-cli writer emits bold drawer headers | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-ph.5](bob-cli-ph.5.md) | Drawer rename respells and inventories legacy drawers | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [bob-cli-ph.6](bob-cli-ph.6.md) | One place resolver and bold drawer drafts in capture | ✓ closed | large | 2026-11-22 | 1 | 0 |
 | [bob-cli-ph.7](bob-cli-ph.7.md) | Obsidian drawer rendering, typing, and bold writers | ✓ closed | large | 2026-11-22 | 1 | 0 |
-| [bob-cli-ph.8](bob-cli-ph.8.md) | Bob Mac Capture drawer rendering and typing | ✓ closed | large | 2026-11-22 | 1 | 3 |
+| [bob-cli-ph.8](bob-cli-ph.8.md) | Bob Mac Capture drawer rendering and typing | ✓ closed | large | 2026-11-22 | 1 | 1 |
 | [bob-cli-ph.9](bob-cli-ph.9.md) | Reviewed migration of legacy ALL-CAPS drawers | ✓ closed | small | 2026-11-22 | 1 | 0 |
 
 ## Lineage
@@ -76,7 +76,7 @@ flowchart TD
     n0["bob-cli-ph: True-case drawers: bold headers that keep their real names [in_progress]"]
     n1["bob-cli-ph.1: Dual-read drawer recognizer, readers, and outside-text escape [closed]"]
     n2["bob-cli-ph.10: Retire ALL-CAPS drawer recognition [closed]"]
-    n3["bob-cli-ph.11: Memory records for true-case drawers [in_progress]"]
+    n3["bob-cli-ph.11: Memory records for true-case drawers [closed]"]
     n4["bob-cli-ph.2: One plugin recognizer twin and dual-read plugin readers [closed]"]
     n5["bob-cli-ph.3: Every host reads bold drawers before any writer flips [closed]"]
     n6["bob-cli-ph.4: Every bob-cli writer emits bold drawer headers [closed]"]
@@ -172,7 +172,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ph.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.1.md) | [bob-cli-ph.1](bob-cli-ph.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.10](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.10/README.md) | [bob-cli-ph.10](bob-cli-ph.10.md) | 6 |
-| [bbugyi200.apollo.bob-cli-ph.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.11/README.md) | [bob-cli-ph.11](bob-cli-ph.11.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.11](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.11/README.md) | [bob-cli-ph.11](bob-cli-ph.11.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.2.md) | [bob-cli-ph.2](bob-cli-ph.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.3/README.md) | [bob-cli-ph.3](bob-cli-ph.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.4/README.md) | [bob-cli-ph.4](bob-cli-ph.4.md) | 1 |
@@ -190,14 +190,14 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.3/README.md) | [bob-cli-ph.7.1.3](bob-cli-ph.7.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.7.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md) | [bob-cli-ph.7.1.4](bob-cli-ph.7.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ph.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md) | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 3 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.1.md) | [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) | 3 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.2.md) | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 3 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.3.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.4.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.5.md) | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2 |
-| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 5 |
+| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.1.md) | [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.2.md) | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.3.md) | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.4.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.5.md) | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.9.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.land/README.md) | [bob-cli-ph](README.md) | 0 |
 
@@ -221,31 +221,15 @@ flowchart TD
 | bob-cli | [`2d2f200`](https://github.com/bobs-org/bob-cli/commit/2d2f200dfdbdce64c6ff685b0df5366e510e32f0) | feat(capture)!: land true-case drawers with one reserved-name rule | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2026-11-25 18:25:58 EST |
 | bob-cli--plans | [`bob-cli--plans@5d3da5e`](https://github.com/bobs-org/bob-cli--plans/commit/5d3da5e0e76637aea0e969935c58ed7da97e1192) | chore(plans): mark capture\_true\_case\_drawers done | [bob-cli-ph.6.1](bob-cli-ph.6.1.md) | 2026-11-25 18:27:16 EST |
 | bob-cli--plans | [`bob-cli--plans@c15fb27`](https://github.com/bobs-org/bob-cli--plans/commit/c15fb27b034f4413371b9deaed50ff4bae33f7bb) | docs(plan): mark true-case drawer epic complete | [bob-cli-ph.7.1](bob-cli-ph.7.1.md) | 2026-11-25 18:59:29 EST |
-| bob-mac-capture | [`bob-mac-capture@4eb9b2e`](https://github.com/bobs-org/bob-mac-capture/commit/4eb9b2e977dc8275a5849d5ac7f8bc8fabb617b2) | fix(mac): require grammar 30 for drawer fixtures | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:18:09 EST |
 | bob-cli | [`f4da72f`](https://github.com/bobs-org/bob-cli/commit/f4da72ff5dd08b9827eb8b13a9f2bce04c47d9f6) | docs(task-drawers): describe Mac thin-client drawer contract | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:51:53 EST |
-| bob-mac-capture | [`bob-mac-capture@b45b195`](https://github.com/bobs-org/bob-mac-capture/commit/b45b1951b0f983edc4d8e9deae5ad92e96bb00ab) | feat(mac): carry true-case drawer annotations from Bob | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:53:07 EST |
-| bob-mac-capture | [`bob-mac-capture@b0062be`](https://github.com/bobs-org/bob-mac-capture/commit/b0062be1749f388a849c5bf0251c7fb3f914bf94) | fix(mac-capture): decode drawer summary markers safely | [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) | 2026-11-25 21:11:04 EST |
-| bob-mac-capture | [`bob-mac-capture@5073564`](https://github.com/bobs-org/bob-mac-capture/commit/5073564e3ce639eca04bd05659b1a5e6fd04a0f8) | test(mac-capture): align drawer assertions with true-case output | [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) | 2026-11-25 21:37:30 EST |
 | bob-cli | [`9573ff8`](https://github.com/bobs-org/bob-cli/commit/9573ff869fbef177ff041e78bcf28ddac85a71be) | feat: retire all-caps task drawer recognition | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 21:51:35 EST |
 | bob-cli | [`46aba67`](https://github.com/bobs-org/bob-cli/commit/46aba67724194df951bf2c23132f15861d2351ec) | fix(drawers): restore rename flow and complete bold-only cutover verification | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 22:21:33 EST |
 | bob-cli | [`5d5509d`](https://github.com/bobs-org/bob-cli/commit/5d5509de4f27f4042eccf52b1c0f6171e43e88d9) | fix(capture): update drawer parser test fixtures | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 22:36:58 EST |
-| bob-mac-capture | [`bob-mac-capture@4c36dd0`](https://github.com/bobs-org/bob-mac-capture/commit/4c36dd027dd07baa29c09fd021a4ef1f50d9b935) | test(mac-capture): update drawer presentation fixtures | [bob-cli-ph.8.1.1](bob-cli-ph.8.1.1.md) | 2026-11-25 22:43:08 EST |
 | bob-cli | [`d820323`](https://github.com/bobs-org/bob-cli/commit/d8203235ac54ac416160d34f5e4080499315bbfe) | fix(capture): borrow parsed drawer kind in record fixture | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 22:51:25 EST |
-| bob-mac-capture | [`bob-mac-capture@4d9e845`](https://github.com/bobs-org/bob-mac-capture/commit/4d9e845e5a76e20d8f3b34406c9b30feba12fbbf) | feat(mac-capture): tray and verbatim title on drawer preview headers | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-25 23:08:02 EST |
-| bob-mac-capture | [`bob-mac-capture@b422fbd`](https://github.com/bobs-org/bob-mac-capture/commit/b422fbdc84f520f0ea4d995e736c693def48b557) | feat(capture): style drawer titles and delimiters | [bob-cli-ph.8.1.3](bob-cli-ph.8.1.3.md) | 2026-11-25 23:25:14 EST |
-| bob-mac-capture | [`bob-mac-capture@c2dd7fb`](https://github.com/bobs-org/bob-mac-capture/commit/c2dd7fbfdf85f6bf7679a38be318eb8d457fb41b) | fix(mac-capture): hoist throwing edgeRows out of the drawer render builder | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-25 23:30:44 EST |
 | bob-cli | [`c3a9bdd`](https://github.com/bobs-org/bob-cli/commit/c3a9bdd9088399cf4da683b6a0cfccb515fcb68e) | test(drawers): migrate task-requirements fixture vectors to bold headers | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 23:54:14 EST |
-| bob-mac-capture | [`bob-mac-capture@5d50d5a`](https://github.com/bobs-org/bob-mac-capture/commit/5d50d5a6ddf46b4aa35efefbb83739734b6094f2) | fix(mac-capture): correct drawer CI assertions and delimiter full-ink color | [bob-cli-ph.8.1.2](bob-cli-ph.8.1.2.md) | 2026-11-26 00:20:27 EST |
-| bob-mac-capture | [`bob-mac-capture@c561b26`](https://github.com/bobs-org/bob-mac-capture/commit/c561b26a0a8d39de5996ec470c5eae3959d09937) | feat(mac-capture): drive drawer star expansion and atomic Backspace through capture-rewrite | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 2026-11-26 00:43:34 EST |
-| bob-mac-capture | [`bob-mac-capture@7d6e12a`](https://github.com/bobs-org/bob-mac-capture/commit/7d6e12a7397bbb270a616a06357c58dddaf832f8) | feat(capture): handle drawer title newline and star overtype | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 2026-11-26 01:51:48 EST |
 | bob-cli | [`631a49d`](https://github.com/bobs-org/bob-cli/commit/631a49d5d55f18ea6b343ce778f6148e457e1bf1) | docs(drawers): reconcile Mac Capture section with shipped true-case behavior | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:03:30 EST |
-| bob-mac-capture | [`bob-mac-capture@a2e79f6`](https://github.com/bobs-org/bob-mac-capture/commit/a2e79f65cbf56c09c3a6c734a902d23b477f44e0) | fix(mac-capture): bind drawer pipeline test models; document draft drawer paint | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:04:43 EST |
 | bob-cli | [`1d6df8d`](https://github.com/bobs-org/bob-cli/commit/1d6df8d1dbf6087210f6546c3b798edfaaa29ef5) | docs(drawers): clarify preview marker compatibility after cutover | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-26 03:56:51 EST |
-| bob-mac-capture | [`bob-mac-capture@403781d`](https://github.com/bobs-org/bob-mac-capture/commit/403781d2b3d2921584b677fae1e76b4c5bfd952b) | fix(mac-capture): land true-case drawer pipeline tests and reconcile docs | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 04:28:54 EST |
-| bob-mac-capture | [`bob-mac-capture@b38c4cc`](https://github.com/bobs-org/bob-mac-capture/commit/b38c4cc3ced036c644cc230158972b819ed3fcf3) | fix(mac-capture): isolate drawer newline undo and harden old-Bob tip race | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:05:39 EST |
-| bob-mac-capture | [`bob-mac-capture@ab98419`](https://github.com/bobs-org/bob-mac-capture/commit/ab9841959e3032d478aa5d2f2ff6163c1c6984a5) | fix(mac-capture): qualify self capture in old-Bob tip wait | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 05:22:59 EST |
-| bob-mac-capture | [`bob-mac-capture@5949d25`](https://github.com/bobs-org/bob-mac-capture/commit/5949d253f6a210f992096858e559e59c188682bd) | fix(mac-capture): isolate drawer title/newline undo with runloop yield | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 06:41:25 EST |
-| bob-cli--plans | [`bob-cli--plans@b1fb0bb`](https://github.com/bobs-org/bob-cli--plans/commit/b1fb0bb4e3532225ec53905e0420940ceb910711) | docs(plans): mark finish\_mac\_true\_case\_drawers done | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 2026-11-26 06:42:51 EST |
+| bob-cli | [`4110c07`](https://github.com/bobs-org/bob-cli/commit/4110c07394dddca5ffb53b80057b2181f702ef46) | docs(memory): record true-case drawer policy | [bob-cli-ph.11](bob-cli-ph.11.md) | 2026-11-26 06:51:09 EST |
 
 <!-- sase:referenced-by:start -->
 
