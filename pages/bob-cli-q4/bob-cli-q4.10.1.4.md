@@ -20,7 +20,7 @@ relocation: settle move source/destination and Task Split same-note, cross-note,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 10 |
+| [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 11 |
 
 ## Commits
 
@@ -36,6 +36,7 @@ relocation: settle move source/destination and Task Split same-note, cross-note,
 | bob-plugins | [`bob-plugins@f9a9e16`](https://github.com/bobs-org/bob-plugins/commit/f9a9e167a8fee9cf1653532e98bedfbf5208b30c) | fix(ledger): annotate parent stage text role | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:02:52 EST |
 | bob-plugins | [`bob-plugins@79d71bf`](https://github.com/bobs-org/bob-plugins/commit/79d71bfd6bbd5ecc1c4919660b6ec92987f162bd) | docs(bob-navigation-hotkeys): meet docs budgets and mark literal input | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:17:39 EST |
 | bob-cli | [`fc9c91c`](https://github.com/bobs-org/bob-cli/commit/fc9c91ca46026be17965509a4425273134b0eeea) | docs(memory): add planning-time decision roster policy | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:48:21 EST |
+| bob-plugins | [`bob-plugins@2ff8fdd`](https://github.com/bobs-org/bob-plugins/commit/2ff8fdd555c847175cf16768c21d1592bc74a433) | docs(navigation): fix published reference links | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 2026-11-25 19:49:05 EST |
 
 <!-- sase:referenced-by:start -->
 
