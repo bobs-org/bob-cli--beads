@@ -37,7 +37,7 @@ count-sweep: dry-run the landed retire-project-count-keys tool against the live 
 - **Depends on:** [bob-cli-qi.1](bob-cli-qi.1.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qi.2](bob-cli-qi.2.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qi.3](bob-cli-qi.3.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qi.6](bob-cli-qi.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qi.6](bob-cli-qi.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
