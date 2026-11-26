@@ -162,7 +162,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-pl.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.md) | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 5 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.1.md) | [bob-cli-pl.9.1.2.1.1](bob-cli-pl.9.1.2.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.2/README.md) | [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3/README.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.4/README.md) | [bob-cli-pl.9.1.2.1.4](bob-cli-pl.9.1.2.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.land/README.md) | [bob-cli-pl.9.1.2.1](bob-cli-pl.9.1.2.1.md) | 0 |
 | [bbugyi200.apollo.bob-cli-pl.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.3/README.md) | [bob-cli-pl.9.1.3](bob-cli-pl.9.1.3.md) | 0 |
@@ -213,6 +213,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@a0ebe63`](https://github.com/bobs-org/bob-plugins/commit/a0ebe63eca90f814a7503a87ee570836f9876716) | fix(plugins): preserve Area foot registration during Bank arbitration | [bob-cli-pl.9.1.2](bob-cli-pl.9.1.2.md) | 2026-11-26 02:53:44 EST |
 | bob-plugins | [`bob-plugins@072b009`](https://github.com/bobs-org/bob-plugins/commit/072b009e91820b51d1bbebb3ef0abe06e7f28d75) | test(acceptance): add Bank-only Obsidian acceptance profile | [bob-cli-pl.9.1.2.1.1](bob-cli-pl.9.1.2.1.1.md) | 2026-11-26 04:10:50 EST |
 | bob-plugins | [`bob-plugins@3af803f`](https://github.com/bobs-org/bob-plugins/commit/3af803f932ac3691efa66bd6654a20cbd8b3ea01) | fix(plugins): pane-local bank foot and frontmatter arbitration | [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) | 2026-11-26 05:55:46 EST |
+| bob-plugins | [`bob-plugins@831ac79`](https://github.com/bobs-org/bob-plugins/commit/831ac794fe11d521dede8fbb24917920bb7fa3bf) | fix(ledger-tools): focus bank Area settings gestures | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 2026-11-26 06:42:25 EST |
 
 <!-- sase:referenced-by:start -->
 

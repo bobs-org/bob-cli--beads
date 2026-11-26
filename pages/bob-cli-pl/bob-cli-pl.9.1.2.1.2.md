@@ -33,3 +33,15 @@ bank-mount-lifecycle: fix the duplicate-foot and second-pane Area-loss failures 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@3af803f`](https://github.com/bobs-org/bob-plugins/commit/3af803f932ac3691efa66bd6654a20cbd8b3ea01) | fix(plugins): pane-local bank foot and frontmatter arbitration | [bob-cli-pl.9.1.2.1.2](bob-cli-pl.9.1.2.1.2.md) | 2026-11-26 05:55:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.9.1.2.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->

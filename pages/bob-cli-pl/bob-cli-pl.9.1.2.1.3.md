@@ -20,4 +20,10 @@ bank-editor-routing: verify and repair nested Bank Setup, bare + Area Settings, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3/README.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@831ac79`](https://github.com/bobs-org/bob-plugins/commit/831ac794fe11d521dede8fbb24917920bb7fa3bf) | fix(ledger-tools): focus bank Area settings gestures | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 2026-11-26 06:42:25 EST |

@@ -21,3 +21,15 @@ bank-proof-rollout: finish the scoped real-app matrix, classify regression failu
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-pl.9.1.2.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pl.9.1.2.1.4/README.md) | [bob-cli-pl.9.1.2.1.4](bob-cli-pl.9.1.2.1.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:1gb--2][1] | Check in-flight takeover acceptance scope before changing its shared Obsidian harness | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.1gb.md
+
+<!-- sase:referenced-by:end -->
