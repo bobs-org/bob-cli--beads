@@ -19,7 +19,7 @@ engine-rename: move the article engine module and its Rust identifiers to prose 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qj.2](bob-cli-qj.2.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qj.2](bob-cli-qj.2.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -39,12 +39,14 @@ engine-rename: move the article engine module and its Rust identifiers to prose 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.6k.cld][1] | Check phase progress to plan parallel prose/notebook card work | 1 |
-| read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
-| read-by | [agent:research.6k.grk][3] | Need whether qj.1 adds a prose NoteKind in props, which would affect prose-card classification | 1 |
+| read-by | [agent:bob-cli-qj.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.6k.cld][2] | Check phase progress to plan parallel prose/notebook card work | 1 |
+| read-by | [agent:research.6k.gem][3] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+| read-by | [agent:research.6k.grk][4] | Need whether qj.1 adds a prose NoteKind in props, which would affect prose-card classification | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.grk/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.grk/README.md
 
 <!-- sase:referenced-by:end -->

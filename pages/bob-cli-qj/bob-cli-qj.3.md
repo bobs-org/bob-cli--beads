@@ -13,7 +13,7 @@ prose-plugins: four plugins detect both spellings, display names and command tit
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qj.2](bob-cli-qj.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qj.2](bob-cli-qj.2.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qj.4](bob-cli-qj.4.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
@@ -31,9 +31,11 @@ prose-plugins: four plugins detect both spellings, display names and command tit
 | read-by | [agent:research.6k.cld][1] | Check qj.3 dependencies for prose card sequencing | 2 |
 | read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
 | read-by | [agent:research.6k.grk][3] | Need qj plugin rename phase files to judge overlap with prose/notebook cards | 1 |
+| read-by | [agent:research.6l.gem][4] | Check live progress of active property-card and prose epics for parallelization analysis | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.grk/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->

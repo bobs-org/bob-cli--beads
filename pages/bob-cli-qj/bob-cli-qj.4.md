@@ -13,7 +13,7 @@ prose-vault: pass the host-currency gate, retype the one live note and rename th
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qj.2](bob-cli-qj.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qj.2](bob-cli-qj.2.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qj.3](bob-cli-qj.3.md) ◐ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qj.5](bob-cli-qj.5.md) ◐ · ⧖ 2026-11-26
 
@@ -31,8 +31,10 @@ prose-vault: pass the host-currency gate, retype the one live note and rename th
 | --- | --- | --- | ---: |
 | read-by | [agent:research.6k.cld][1] | Check qj.4 dependencies | 1 |
 | read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+| read-by | [agent:research.6l.gem][3] | Check live progress of active property-card and prose epics for parallelization analysis | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->
