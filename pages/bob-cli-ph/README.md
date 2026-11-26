@@ -17,7 +17,7 @@
 | related | [bead:bob-cli-pp][2] | True-case drawers' Mac phase (ph.8) adds drawer rendering in the same editor; it deliberately never hides drawer markers to avoid the req caret defect |
 | related | file:explicit:dc76e318e355523f6fc8a927 | attached via sase artifact create --bead |
 
-_Plus 15 automatic references — see [Referenced By](#referenced-by)._
+_Plus 16 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-pp/README.md
@@ -200,7 +200,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 5 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.9.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md) | [bob-cli-ph](README.md) | 5 |
+| [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md) | [bob-cli-ph](README.md) | 6 |
 
 ## Commits
 
@@ -257,7 +257,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@7d6e12a`](https://github.com/bobs-org/bob-mac-capture/commit/7d6e12a7397bbb270a616a06357c58dddaf832f8) | feat(capture): handle drawer title newline and star overtype | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 2026-11-26 01:51:48 EST |
 | bob-cli | [`631a49d`](https://github.com/bobs-org/bob-cli/commit/631a49d5d55f18ea6b343ce778f6148e457e1bf1) | docs(drawers): reconcile Mac Capture section with shipped true-case behavior | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:03:30 EST |
 
-… and 13 more commits
+… and 14 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -272,6 +272,7 @@ flowchart TD
 | read-by | [agent:bob-cli-ph.7.1.land--3][5] | Confirm parent plan stays open during closeout | 1 |
 | read-by | [agent:bob-cli-ph.7.1.land--7][5] | Confirm the containing Obsidian phase epic remains open after drawer closeout | 1 |
 | read-by | [agent:bob-cli-ph.land][6] | Need the parent link | 2 |
+| read-by | [agent:bob-cli-ph.land--1][6] | check epic status for land continuation | 1 |
 | read-by | [agent:bob-cli-pq.land][7] | Check drawer epic status for sequencing and taste pass ownership | 1 |
 | read-by | [agent:bob-cli-q4.10.1.land][8] | Check whether the true-case drawer epic owns the 98 bob-cli just check failures proposed by q4.10.1.6 | 2 |
 | read-by | [agent:g1][9] | Research how to progress the epic without waiting for a release | 1 |
