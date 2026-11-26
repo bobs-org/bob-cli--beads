@@ -43,7 +43,9 @@ nav-tie-writer: one guarded writer runs any planned tie change. It writes the de
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q8.7][1] | Recheck the phase note and remaining scope before closure | 2 |
+| read-by | [agent:bob-cli-q8.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
 
 <!-- sase:referenced-by:end -->

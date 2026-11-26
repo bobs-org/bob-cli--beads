@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-qb][1] | The Obsidian ⌃B/⌃⇧B/⌃L/⌃⇧L chord grammar and armed release this would mirror |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qb/README.md
 
@@ -55,7 +55,9 @@ nav-tie-keys: wire the Ctrl chords and ↵ conversions in all four stages with s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q8.8][1] | Verify phase scope before closing | 3 |
+| read-by | [agent:bob-cli-q8.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
 
 <!-- sase:referenced-by:end -->

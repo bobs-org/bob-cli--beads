@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/plain_link_dependency_ties.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md
 
@@ -43,7 +43,7 @@ A task pair can hold a dependency or a plain (unlabelled) link, never both, in e
 | [bob-cli-q8.6](bob-cli-q8.6.md) | Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q8.7](bob-cli-q8.7.md) | applyTieChange — release, reverse, and convert writes | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q8.8](bob-cli-q8.8.md) | The ⌃B / ⌃⇧B / ⌃L chords, ↵ conversions, and the armed release | ✓ closed | medium | 2026-11-25 | 1 | 2 |
-| [bob-cli-q8.9](bob-cli-q8.9.md) | Bob Mac Capture tie capsules and report rows | ✓ closed | medium | 2026-11-25 | 1 | 1 |
+| [bob-cli-q8.9](bob-cli-q8.9.md) | Bob Mac Capture tie capsules and report rows | ✓ closed | medium | 2026-11-25 | 1 | 0 |
 
 ## Lineage
 
@@ -51,33 +51,42 @@ A task pair can hold a dependency or a plain (unlabelled) link, never both, in e
 flowchart TD
     n0["bob-cli-q8: One tie per task pair — dependencies absorb plain links [in_progress]"]
     n1["bob-cli-q8.1: Contract, shared vectors, and the Rust tie helpers [closed]"]
-    n2["bob-cli-q8.2: Reconcile fold and merge pruning [closed]"]
-    n3["bob-cli-q8.3: Capture absorption, the plain-~ no-op, and the same-item error [closed]"]
-    n4["bob-cli-q8.4: capture-complete tie fields [closed]"]
-    n5["bob-cli-q8.5: Nav tie planner, mirrored vectors, and absorption in the dependency writers [closed]"]
-    n6["bob-cli-q8.6: Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip [closed]"]
-    n7["bob-cli-q8.7: applyTieChange — release, reverse, and convert writes [closed]"]
-    n8["bob-cli-q8.8: The ⌃B / ⌃⇧B / ⌃L chords, ↵ conversions, and the armed release [closed]"]
-    n9["bob-cli-q8.9: Bob Mac Capture tie capsules and report rows [closed]"]
+    n2["bob-cli-q8.10: Finish one-tie-per-pair — counted absorption, atomic reversal, chord prompts, and the tie copy [in_progress]"]
+    n3["bob-cli-q8.10.1: PT12 CRLF vectors and the missing LR31/LR35 reconcile cases [in_progress]"]
+    n4["bob-cli-q8.10.2: Counted absorption, batch ↵ absorption, chord block-ID prompts, and one-undo reversal [closed]"]
+    n5["bob-cli-q8.10.3: Cycle hints, owner-true Depends-on strip, release-strip chord and ^prj segments, kept-relation notice, and live footers [in_progress]"]
+    n6["bob-cli-q8.2: Reconcile fold and merge pruning [closed]"]
+    n7["bob-cli-q8.3: Capture absorption, the plain-~ no-op, and the same-item error [closed]"]
+    n8["bob-cli-q8.4: capture-complete tie fields [closed]"]
+    n9["bob-cli-q8.5: Nav tie planner, mirrored vectors, and absorption in the dependency writers [closed]"]
+    n10["bob-cli-q8.6: Tie pills, the ⇄ badge, tie bands, subtitles, and the Depends-on consequence strip [closed]"]
+    n11["bob-cli-q8.7: applyTieChange — release, reverse, and convert writes [closed]"]
+    n12["bob-cli-q8.8: The ⌃B / ⌃⇧B / ⌃L chords, ↵ conversions, and the armed release [closed]"]
+    n13["bob-cli-q8.9: Bob Mac Capture tie capsules and report rows [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
     n0 --> n6
     n0 --> n7
     n0 --> n8
     n0 --> n9
-    n1 -.-> n2
-    n1 -.-> n3
-    n1 -.-> n4
-    n1 -.-> n5
-    n2 -.-> n7
-    n3 -.-> n9
-    n4 -.-> n9
-    n5 -.-> n6
-    n6 -.-> n7
-    n7 -.-> n8
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n1 -.-> n6
+    n1 -.-> n7
+    n1 -.-> n8
+    n1 -.-> n9
+    n4 -.-> n5
+    n6 -.-> n11
+    n7 -.-> n13
+    n8 -.-> n13
+    n9 -.-> n10
+    n10 -.-> n11
+    n11 -.-> n12
 ```
 
 ## Agents
@@ -85,6 +94,10 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.3/README.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.land/README.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md) | [bob-cli-q8.4](bob-cli-q8.4.md) | 1 |
@@ -92,8 +105,8 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-q8.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.6.md) | [bob-cli-q8.6](bob-cli-q8.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.7/README.md) | [bob-cli-q8.7](bob-cli-q8.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md) | [bob-cli-q8.8](bob-cli-q8.8.md) | 2 |
-| [bbugyi200.apollo.bob-cli-q8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.9/README.md) | [bob-cli-q8.9](bob-cli-q8.9.md) | 1 |
-| [bbugyi200.apollo.bob-cli-q8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.land/README.md) | [bob-cli-q8](README.md) | 2 |
+| [bbugyi200.apollo.bob-cli-q8.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.9/README.md) | [bob-cli-q8.9](bob-cli-q8.9.md) | 0 |
+| [bbugyi200.apollo.bob-cli-q8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md) | [bob-cli-q8](README.md) | 2 |
 
 ## Commits
 
@@ -106,7 +119,6 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9ee4822`](https://github.com/bobs-org/bob-plugins/commit/9ee4822981650324ce391015bfc8fa2b6aa9bba8) | feat(nav): tie planner twins, planTieChange, and absorption in dependency writers | [bob-cli-q8.5](bob-cli-q8.5.md) | 2026-11-25 21:22:09 EST |
 | bob-cli | [`974129e`](https://github.com/bobs-org/bob-cli/commit/974129e55c0814d2822ab1a1b12bb278ca7f4d8e) | feat(capture): handle dependency and plain link ties | [bob-cli-q8.3](bob-cli-q8.3.md) | 2026-11-25 21:25:01 EST |
 | bob-plugins | [`bob-plugins@5067a37`](https://github.com/bobs-org/bob-plugins/commit/5067a37810610d7f53b8f4ba4f81067e964e2a93) | docs(plugins): update generated version metadata | [bob-cli-q8.3](bob-cli-q8.3.md) | 2026-11-25 21:25:54 EST |
-| bob-mac-capture | [`bob-mac-capture@797313a`](https://github.com/bobs-org/bob-mac-capture/commit/797313af29aea3378e83d2b56234200271e77702) | feat(mac-capture): decode tie fields and render tie capsules and report rows | [bob-cli-q8.9](bob-cli-q8.9.md) | 2026-11-25 22:29:54 EST |
 | bob-cli | [`944a375`](https://github.com/bobs-org/bob-cli/commit/944a375f1c0daef2781697c180b13753e9181028) | docs(nav): document task tie visibility | [bob-cli-q8.6](bob-cli-q8.6.md) | 2026-11-25 22:33:16 EST |
 | bob-plugins | [`bob-plugins@b26a38a`](https://github.com/bobs-org/bob-plugins/commit/b26a38a70dbf50f070f68258f6460370c6bd1a9b) | feat(nav): surface task tie relationships | [bob-cli-q8.6](bob-cli-q8.6.md) | 2026-11-25 22:34:04 EST |
 | bob-cli | [`01dee47`](https://github.com/bobs-org/bob-cli/commit/01dee47a01b6b24aa35175370d50bbe7b5fd779c) | docs(tasks): document tie conversion writes | [bob-cli-q8.7](bob-cli-q8.7.md) | 2026-11-25 23:33:24 EST |
@@ -115,6 +127,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d1a25d9`](https://github.com/bobs-org/bob-plugins/commit/d1a25d90b24beb28aeec84faa90f847417cc9669) | feat(nav-hotkeys): strict ctrl tie chords with two-press link confirm | [bob-cli-q8.8](bob-cli-q8.8.md) | 2026-11-26 00:49:16 EST |
 | bob-cli | [`71f7b67`](https://github.com/bobs-org/bob-cli/commit/71f7b670f66116b5c7742358c4838624aab086e0) | fix(relations): clear tie lint gates, dedupe the plain-link glossary rule, and correct tie docs | [bob-cli-q8](README.md) | 2026-11-26 02:07:03 EST |
 | bob-plugins | [`bob-plugins@110b342`](https://github.com/bobs-org/bob-plugins/commit/110b3426999dd71ae9ee83dd4f199236d608daa7) | test(nav): bind the active editor in DW20-DW22 and expect tie-decorated Depends-on rows | [bob-cli-q8](README.md) | 2026-11-26 02:07:49 EST |
+| bob-cli | [`6e722fc`](https://github.com/bobs-org/bob-cli/commit/6e722fc6508f9bed5983917dc67416cfac404a60) | docs(task-dependencies): record tie-chord absorption, tie-change and reversal semantics | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2026-11-26 02:41:27 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -124,8 +137,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q8.4][1] | epic context | 1 |
 | read-by | [agent:bob-cli-q8.8][2] | Need epic scope for phase q8.8 | 1 |
+| read-by | [agent:bob-cli-q8.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
 
 <!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ capture-complete: relation candidates carry dependency_tie in both directions (a
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q8.2][1] | Check whether the later q8 phase already tracks the baseline docs inventory drift found during q8.2 verification | 1 |
 | read-by | [agent:bob-cli-q8.4][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-q8.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
 
 <!-- sase:referenced-by:end -->
