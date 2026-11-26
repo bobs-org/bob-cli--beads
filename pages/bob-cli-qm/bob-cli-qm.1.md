@@ -40,10 +40,18 @@ kit: register the notebook and prose species, fix the known kit traps (silent cr
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.6l.cdx][1] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
-| read-by | [agent:research.6l.gem][2] | Check live progress of active property-card and prose epics for parallelization analysis | 2 |
+| read-by | [agent:bob-cli-qm.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.6l.cdx][2] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
+| read-by | [agent:research.6l.cld][3] | Check kit phase progress/notes to plan ref card parallel coordination | 1 |
+| read-by | [agent:research.6l.final][4] | Lead ref-cards research consolidation: confirm the kit phase closed done (not canceled) and learn what landed, since all five sub-reports gated ref-shell work on it | 1 |
+| read-by | [agent:research.6l.gem][5] | Check live progress of active property-card and prose epics for parallelization analysis | 2 |
+| read-by | [agent:research.6l.grk][6] | Need kit/preview-gate phase details so ref cards can share those seams | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.final/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.grk/README.md
 
 <!-- sase:referenced-by:end -->

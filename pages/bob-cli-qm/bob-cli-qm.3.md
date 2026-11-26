@@ -20,7 +20,7 @@ prose-card: paint the quiet title-page Prose Card from local data (folio initial
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-qm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.3/README.md) | [bob-cli-qm.3](bob-cli-qm.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-qm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.3.md) | [bob-cli-qm.3](bob-cli-qm.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
