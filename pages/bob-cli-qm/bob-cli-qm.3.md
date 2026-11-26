@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [bob-cli-qm](README.md) / bob-cli-qm.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1gr](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1gr.md) · **Assignee:** `bob-cli-qm.3` · **Size:** medium
-**Created:** 2026-11-26 12:37:59 EST
+**Created:** 2026-11-26 12:37:59 EST · **Closed:** 2026-11-26 14:27:45 EST
 **Plan:** [202611/prose\_and\_notebook\_cards.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_and_notebook_cards.md)
 
 ## Description
 
 prose-card: paint the quiet title-page Prose Card from local data (folio initial tile, title, dek, crumbs, numbering chip, foot), owning only the inline title and coupling its typography to the Bob Prose look.
+
+## Notes
+
+[2026-11-26T19:27:45Z · bob-cli-qm.3--4] Verified deployment of bob-ledger-tools 1.168.0: npm run build passed after restoring the Prose Card work; npm test passed (exit 0); the second bob plugins sync reported up to date (0 copied, 0 skipped, 3 unchanged); bob plugins list shows bob-ledger-tools synced with 0 drift; sase bead epic-symbols bob-cli-qm.3 reported no --epic-symbol entries.
 
 ## Dependencies
 

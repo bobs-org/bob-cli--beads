@@ -31,8 +31,8 @@ Prose notes and notebooks open on beautiful, reliable title cards in the Propert
 |---|---|---|---|---|---:|---:|
 | [bob-cli-qm.1](bob-cli-qm.1.md) | Kit species, eligibility, focus-or-add, the preview gate, and scaffolding | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qm.2](bob-cli-qm.2.md) | Notebook Card shell with header absorption | ✓ closed | medium | 2026-11-26 | 1 | 3 |
-| [bob-cli-qm.3](bob-cli-qm.3.md) | Prose Card shell, local-first | ◐ in_progress | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qm.4](bob-cli-qm.4.md) | Notebook Card report-backed readouts | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [bob-cli-qm.3](bob-cli-qm.3.md) | Prose Card shell, local-first | ✓ closed | medium | 2026-11-26 | 1 | 1 |
+| [bob-cli-qm.4](bob-cli-qm.4.md) | Notebook Card report-backed readouts | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qm.5](bob-cli-qm.5.md) | Bob Prose outline seam and Prose Card measures | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qm.6](bob-cli-qm.6.md) | Real-Obsidian acceptance and screenshot review for both cards | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qm.7](bob-cli-qm.7.md) | Switch the cards on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
@@ -44,8 +44,8 @@ flowchart TD
     n0["bob-cli-qm: Prose and Notebook Cards [in_progress]"]
     n1["bob-cli-qm.1: Kit species, eligibility, focus-or-add, the preview gate, and scaffolding [closed]"]
     n2["bob-cli-qm.2: Notebook Card shell with header absorption [closed]"]
-    n3["bob-cli-qm.3: Prose Card shell, local-first [in_progress]"]
-    n4["bob-cli-qm.4: Notebook Card report-backed readouts [in_progress]"]
+    n3["bob-cli-qm.3: Prose Card shell, local-first [closed]"]
+    n4["bob-cli-qm.4: Notebook Card report-backed readouts [closed]"]
     n5["bob-cli-qm.5: Bob Prose outline seam and Prose Card measures [in_progress]"]
     n6["bob-cli-qm.6: Real-Obsidian acceptance and screenshot review for both cards [in_progress]"]
     n7["bob-cli-qm.7: Switch the cards on, docs, approved memory, and clean deploy [in_progress]"]
@@ -72,8 +72,8 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qm.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.1/README.md) | [bob-cli-qm.1](bob-cli-qm.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-qm.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.2.md) | [bob-cli-qm.2](bob-cli-qm.2.md) | 3 |
 | [bbugyi200.athena.bob-cli-qm.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.3.md) | [bob-cli-qm.3](bob-cli-qm.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-qm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.4/README.md) | [bob-cli-qm.4](bob-cli-qm.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-qm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.5/README.md) | [bob-cli-qm.5](bob-cli-qm.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-qm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.4/README.md) | [bob-cli-qm.4](bob-cli-qm.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-qm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.5.md) | [bob-cli-qm.5](bob-cli-qm.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-qm.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md) | [bob-cli-qm.6](bob-cli-qm.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.7/README.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-qm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.land/README.md) | [bob-cli-qm](README.md) | 0 |
@@ -87,6 +87,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d190ba2`](https://github.com/bobs-org/bob-plugins/commit/d190ba210989fe288b4b679d0ffce9f9a5ff89e4) | fix(ledger-tools): remove duplicate Notebook header path declaration | [bob-cli-qm.2](bob-cli-qm.2.md) | 2026-11-26 13:49:58 EST |
 | bob-plugins | [`bob-plugins@175515f`](https://github.com/bobs-org/bob-plugins/commit/175515f243e6ad0670c6d87e5fe8a7aa90314da7) | feat(ledger-tools): finish Notebook Card shell | [bob-cli-qm.2](bob-cli-qm.2.md) | 2026-11-26 14:14:20 EST |
 | bob-plugins | [`bob-plugins@3863bc4`](https://github.com/bobs-org/bob-plugins/commit/3863bc46007c6287ac8eebfda37d68c42be951d0) | feat(ledger-tools): restore Prose Card over landed notebook bundle | [bob-cli-qm.3](bob-cli-qm.3.md) | 2026-11-26 14:24:01 EST |
+| bob-plugins | [`bob-plugins@f6458cb`](https://github.com/bobs-org/bob-plugins/commit/f6458cb04930d45ce340e91828ce2dd52a23ba45) | feat(ledger-tools): add Notebook Card report-backed readouts | [bob-cli-qm.4](bob-cli-qm.4.md) | 2026-11-26 14:38:22 EST |
 
 <!-- sase:referenced-by:start -->
 

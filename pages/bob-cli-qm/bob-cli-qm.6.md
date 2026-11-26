@@ -13,7 +13,7 @@ acceptance: after bob-cli-qi.4 closes, run both cards with the preview gate on i
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qm.4](bob-cli-qm.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qm.4](bob-cli-qm.4.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qm.5](bob-cli-qm.5.md) ◐ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qm.7](bob-cli-qm.7.md) ◐ · ⧖ 2026-11-26
 

@@ -20,7 +20,7 @@ notebook-card: paint the Notebook Card's identity, title adoption, summary or Ad
 ## Dependencies
 
 - **Depends on:** [bob-cli-qm.1](bob-cli-qm.1.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qm.4](bob-cli-qm.4.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qm.4](bob-cli-qm.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
