@@ -38,8 +38,10 @@ memory: apply the accepted memory decisions with /sase_memory_write and regenera
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:g1][1] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.11][1] | Need the phase scope, design file, and earlier notes before continuing | 2 |
+| read-by | [agent:g1][2] | Check whether phase is blocked on the release gate | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.11/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

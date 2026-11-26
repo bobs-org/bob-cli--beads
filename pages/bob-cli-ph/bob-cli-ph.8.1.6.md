@@ -54,13 +54,14 @@ mac-acceptance: verify the integrated feature on exact-SHA macOS CI, publish the
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`631a49d`](https://github.com/bobs-org/bob-cli/commit/631a49d5d55f18ea6b343ce778f6148e457e1bf1) | docs(drawers): reconcile Mac Capture section with shipped true-case behavior | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:03:30 EST |
+| bob-mac-capture | [`bob-mac-capture@a2e79f6`](https://github.com/bobs-org/bob-mac-capture/commit/a2e79f65cbf56c09c3a6c734a902d23b477f44e0) | fix(mac-capture): bind drawer pipeline test models; document draft drawer paint | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:04:43 EST |
 
 <!-- sase:referenced-by:start -->
 

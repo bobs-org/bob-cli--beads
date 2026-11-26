@@ -7,6 +7,20 @@
 **Created:** 2026-11-22 17:36:48 EST · **Closed:** 2026-11-25 06:48:30 EST
 **Plan:** [202611/true\_case\_drawers.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-qg][1] | Proposing phase; built bob-host-currency probes because --version cannot show master builds |
+
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qg/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 reader-rollout: a host-currency script plus a gated check that bob on athena, apollo, and the Mac and the vault's deployed plugins all read bold drawers.

@@ -27,4 +27,10 @@ star-expansion: a physical `*` asks capture-rewrite for expand_drawer_marker, ap
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.4.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ph.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.4.md) | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@c561b26`](https://github.com/bobs-org/bob-mac-capture/commit/c561b26a0a8d39de5996ec470c5eae3959d09937) | feat(mac-capture): drive drawer star expansion and atomic Backspace through capture-rewrite | [bob-cli-ph.8.1.4](bob-cli-ph.8.1.4.md) | 2026-11-26 00:43:34 EST |
