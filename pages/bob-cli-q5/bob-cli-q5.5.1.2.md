@@ -22,7 +22,7 @@ definition-marks: implement alarm-clock definition marks, shared display helpers
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

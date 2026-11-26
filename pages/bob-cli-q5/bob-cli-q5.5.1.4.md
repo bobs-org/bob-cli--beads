@@ -13,7 +13,7 @@ snoozed-row-paint: paint active, due, blocked, ignored, and struck Snoozed rows 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

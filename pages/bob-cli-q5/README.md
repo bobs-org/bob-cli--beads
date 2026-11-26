@@ -81,7 +81,7 @@ flowchart TD
     n27["bob-cli-q5.5.1: Snooze display marks and plan chip [in_progress]"]
     n28["bob-cli-q5.5.1.1: Snooze display contract and canonical conformance vectors [closed]"]
     n29["bob-cli-q5.5.1.2: Snoozed task definition marks and refresh lifecycle [closed]"]
-    n30["bob-cli-q5.5.1.3: Woken Task Link pills with history navigation [in_progress]"]
+    n30["bob-cli-q5.5.1.3: Woken Task Link pills with history navigation [closed]"]
     n31["bob-cli-q5.5.1.4: Snoozed rows and heading summaries [in_progress]"]
     n32["bob-cli-q5.5.1.5: Separate snoozed meter and wake forecast in bob-plan [in_progress]"]
     n33["bob-cli-q5.5.1.6: Obsidian display acceptance and screenshot evidence [in_progress]"]
@@ -232,7 +232,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q5.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.1.md) | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.2/README.md) | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2 |
-| [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.4.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.4.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md) | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.land/README.md) | [bob-cli-q5.8.1](bob-cli-q5.8.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9/README.md) | [bob-cli-q5.9](bob-cli-q5.9.md) | 0 |
@@ -275,6 +275,7 @@ flowchart TD
 | bob-cli | [`ba21e4c`](https://github.com/bobs-org/bob-cli/commit/ba21e4c2aec89204dd7d84cd28a5f17f75d8b081) | docs(snooze): publish snooze-marks display contract and SM-\* vectors | [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) | 2026-11-26 15:58:49 EST |
 | bob-mac-capture | [`bob-mac-capture@5291cb0`](https://github.com/bobs-org/bob-mac-capture/commit/5291cb08ae5f87342e1e325b75c556671462c5cb) | fix(snooze): repair notice-runtime typecheck for Mac bundle | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2026-11-26 16:02:22 EST |
 | bob-mac-capture | [`bob-mac-capture@033b6f9`](https://github.com/bobs-org/bob-mac-capture/commit/033b6f9cf6ed87fa0a0c1c4acf7c3f2dd445f8c8) | feat(snooze): add interactive wake HUD | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 2026-11-26 16:45:19 EST |
+| bob-mac-capture | [`bob-mac-capture@ec0f899`](https://github.com/bobs-org/bob-mac-capture/commit/ec0f8997994c23fba7548512e34507f4c2aff62e) | fix(snooze): preserve the initial wake notice probe | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 2026-11-26 17:20:21 EST |
 
 <!-- sase:referenced-by:start -->
 
