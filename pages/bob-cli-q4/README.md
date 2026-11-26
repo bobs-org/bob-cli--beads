@@ -209,7 +209,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.3/README.md) | [bob-cli-q4.9.1.3](bob-cli-q4.9.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.9.1.4/README.md) | [bob-cli-q4.9.1.4](bob-cli-q4.9.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.9.1.land.md) | [bob-cli-q4.9.1](bob-cli-q4.9.1.md) | 5 |
-| [bbugyi200.athena.bob-cli-q4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.land.md) | [bob-cli-q4](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-q4.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.land.md) | [bob-cli-q4](README.md) | 2 |
 
 ## Commits
 
@@ -266,7 +266,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@8645ed5`](https://github.com/bobs-org/bob-plugins/commit/8645ed558ab50543ca9e6b84d2cfff38ff812772) | fix(navigation): retain settled review identity and verify morning-review writes | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 2026-11-26 04:21:45 EST |
 | bob-cli--plans | [`bob-cli--plans@7b9d46e`](https://github.com/bobs-org/bob-cli--plans/commit/7b9d46eae424f1c2dc67d8fff1b60bf82a29162a) | chore(plans): mark navigation gesture settle epic done | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 2026-11-26 04:53:03 EST |
 
-… and 2 more commits
+… and 3 more commits
 
 <!-- sase:referenced-by:start -->
 
