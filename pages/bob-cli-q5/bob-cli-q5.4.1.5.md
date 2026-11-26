@@ -13,7 +13,7 @@ obsidian-waker: add the desktop-only single-flight minute trigger for bob snooze
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.4.1.4](bob-cli-q5.4.1.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
