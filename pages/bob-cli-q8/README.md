@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/plain_link_dependency_ties.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/plain_link_dependency_ties.md
 
@@ -96,7 +96,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 3 |
+| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 4 |
 | [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.land/README.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 2 |
@@ -134,6 +134,7 @@ flowchart TD
 | bob-cli | [`8cb474b`](https://github.com/bobs-org/bob-cli/commit/8cb474ba818f1e214e38634dce63f8ffb120b11d) | docs(tasks): document navigation tie consequence copy | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:27:19 EST |
 | bob-plugins | [`bob-plugins@b4ab2cb`](https://github.com/bobs-org/bob-plugins/commit/b4ab2cbb16c2fe21004d8790367e69d38926705c) | feat(nav-hotkeys): complete dependency tie stage copy | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:28:17 EST |
 | bob-plugins | [`bob-plugins@561a9ea`](https://github.com/bobs-org/bob-plugins/commit/561a9ea737c283f9d5a551d40fb82e182145bfea) | fix(nav-hotkeys): report Pomodoro links removed by project release | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:48:17 EST |
+| bob-plugins | [`bob-plugins@2cad24b`](https://github.com/bobs-org/bob-plugins/commit/2cad24b79638b30c15335c0a8dcd9d640924eb1e) | test: stabilize open-line date fixture | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:06:17 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -141,12 +142,14 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-q8.4][1] | epic context | 1 |
-| read-by | [agent:bob-cli-q8.8][2] | Need epic scope for phase q8.8 | 1 |
-| read-by | [agent:bob-cli-q8.land][3] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-ph.10][1] | Identify existing evidence or task tracking for baseline drawer fixture failures | 1 |
+| read-by | [agent:bob-cli-q8.4][2] | epic context | 1 |
+| read-by | [agent:bob-cli-q8.8][3] | Need epic scope for phase q8.8 | 1 |
+| read-by | [agent:bob-cli-q8.land][4] | Need the epic scope, children, and linked plan file | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.8/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
 
 <!-- sase:referenced-by:end -->
