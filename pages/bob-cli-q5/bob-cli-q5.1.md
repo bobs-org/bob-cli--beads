@@ -34,8 +34,10 @@ wake-engine: the snooze module (row grammar, states, time grammar), the bob snoo
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.1.1.2][1] | Need the enclosing phase and final decisions | 1 |
 | read-by | [agent:bob-cli-q5.1.1.4][2] | Need the enclosing phase and final decisions | 1 |
+| read-by | [agent:bob-cli-q5.1.1.5][3] | Need enclosing phase decisions and scope | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.1.1.5/README.md
 
 <!-- sase:referenced-by:end -->
