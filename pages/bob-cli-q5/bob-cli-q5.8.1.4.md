@@ -20,4 +20,10 @@ notice-hud: extract shared non-activating glass-panel infrastructure without cha
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.4/README.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.4.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@033b6f9`](https://github.com/bobs-org/bob-mac-capture/commit/033b6f9cf6ed87fa0a0c1c4acf7c3f2dd445f8c8) | feat(snooze): add interactive wake HUD | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 2026-11-26 16:45:19 EST |
