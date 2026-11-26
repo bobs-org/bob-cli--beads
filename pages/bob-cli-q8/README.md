@@ -101,7 +101,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 5 |
-| [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.land.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 2 |
+| [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.land.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 3 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.4/README.md) | [bob-cli-q8.4](bob-cli-q8.4.md) | 1 |
@@ -143,6 +143,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@b9b3cec`](https://github.com/bobs-org/bob-plugins/commit/b9b3cec922189b7bb068b2d4c5b072b9fb8d0500) | test(plugins): stabilize dependency stage test fixtures | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 04:50:31 EST |
 | bob-cli | [`bab65e6`](https://github.com/bobs-org/bob-cli/commit/bab65e60b7aff27d0d783eb95fc407c8e1609c16) | docs(tasks): document tie reversal effects | [bob-cli-q8.10](bob-cli-q8.10.md) | 2026-11-26 07:36:25 EST |
 | bob-plugins | [`bob-plugins@5afb13f`](https://github.com/bobs-org/bob-plugins/commit/5afb13f79aae8decf7abe15a801e1da3ec2b59dd) | fix(navigation): compose tie dispatch and reversal effects | [bob-cli-q8.10](bob-cli-q8.10.md) | 2026-11-26 07:38:08 EST |
+| bob-cli--plans | [`bob-cli--plans@deb15ba`](https://github.com/bobs-org/bob-cli--plans/commit/deb15ba06e81963a4a86351e81265cf971ca292c) | docs(plans): mark tie plans complete | [bob-cli-q8.10](bob-cli-q8.10.md) | 2026-11-26 07:39:19 EST |
 
 <!-- sase:referenced-by:start -->
 
