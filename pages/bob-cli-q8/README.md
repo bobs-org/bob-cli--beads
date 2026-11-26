@@ -94,9 +94,9 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-q8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.1/README.md) | [bob-cli-q8.1](bob-cli-q8.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.2/README.md) | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2 |
-| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.10.3.md) | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2 |
 | [bbugyi200.apollo.bob-cli-q8.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.land/README.md) | [bob-cli-q8.10](bob-cli-q8.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-q8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.2/README.md) | [bob-cli-q8.2](bob-cli-q8.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-q8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.3/README.md) | [bob-cli-q8.3](bob-cli-q8.3.md) | 2 |
@@ -130,7 +130,9 @@ flowchart TD
 | bob-cli | [`6e722fc`](https://github.com/bobs-org/bob-cli/commit/6e722fc6508f9bed5983917dc67416cfac404a60) | docs(task-dependencies): record tie-chord absorption, tie-change and reversal semantics | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2026-11-26 02:41:27 EST |
 | bob-plugins | [`bob-plugins@6fb169b`](https://github.com/bobs-org/bob-plugins/commit/6fb169bb8641603b19ab9cbc98cfefae2fdb3731) | feat(nav-hotkeys): counted and vault tie absorption, tie-change flow, dependency reversal | [bob-cli-q8.10.2](bob-cli-q8.10.2.md) | 2026-11-26 02:42:19 EST |
 | bob-cli | [`1c23bce`](https://github.com/bobs-org/bob-cli/commit/1c23bce7a8a0024e7874f0955bee104f4207870c) | feat(ties): PT12 CRLF vectors, missing LR31 skips, whole-JSON LR35 | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2026-11-26 03:05:03 EST |
+| bob-plugins | [`bob-plugins@e82bd93`](https://github.com/bobs-org/bob-plugins/commit/e82bd9328781baae85122e337617c8a2e404216e) | feat(ties): mirror PT12b/PT12c vectors, CR-tolerant drop twin | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2026-11-26 03:05:56 EST |
 | bob-cli | [`8cb474b`](https://github.com/bobs-org/bob-cli/commit/8cb474ba818f1e214e38634dce63f8ffb120b11d) | docs(tasks): document navigation tie consequence copy | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:27:19 EST |
+| bob-plugins | [`bob-plugins@b4ab2cb`](https://github.com/bobs-org/bob-plugins/commit/b4ab2cbb16c2fe21004d8790367e69d38926705c) | feat(nav-hotkeys): complete dependency tie stage copy | [bob-cli-q8.10.3](bob-cli-q8.10.3.md) | 2026-11-26 03:28:17 EST |
 
 <!-- sase:referenced-by:start -->
 

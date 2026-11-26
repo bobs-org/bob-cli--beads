@@ -19,13 +19,14 @@ tie-vector-coverage: add the CRLF and no-final-newline PT12 cases to the shared 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-q8.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q8.10.1/README.md) | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1c23bce`](https://github.com/bobs-org/bob-cli/commit/1c23bce7a8a0024e7874f0955bee104f4207870c) | feat(ties): PT12 CRLF vectors, missing LR31 skips, whole-JSON LR35 | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2026-11-26 03:05:03 EST |
+| bob-plugins | [`bob-plugins@e82bd93`](https://github.com/bobs-org/bob-plugins/commit/e82bd9328781baae85122e337617c8a2e404216e) | feat(ties): mirror PT12b/PT12c vectors, CR-tolerant drop twin | [bob-cli-q8.10.1](bob-cli-q8.10.1.md) | 2026-11-26 03:05:56 EST |
 
 <!-- sase:referenced-by:start -->
 
