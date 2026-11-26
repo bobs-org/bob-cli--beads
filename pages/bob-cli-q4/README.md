@@ -39,12 +39,14 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 
 [2026-11-26T09:00:56Z · bob-cli-q7.land] DISCOVERED ISSUE corroboration (bob-cli-q7 land, triage of bob-cli-q7.1 #3 and q7.2 #1): the same 17 settle-drift CLI nodes recorded in notes #1/#3/#4 (capture::inbox_route x2, note_pull x3, project_note x3, project_note_offer x6, task_theme_writes, ref_library::today, task_status_hooks grouping) still fail on bob-cli master 8ee8d03c in a full just check; the diffs remain the ## Tasks badge row / ### Next & In Progress grouping. No standalone task filed.
 
+[2026-11-26T09:50:58Z · bob-cli-q4.10.1.land] DISCOVERED ISSUE corroboration (bob-cli-q4.10.1 land, triage of bob-cli-q4.10.1.6 PROPOSED FOLLOW-UPs #2/#3): (a) Full just check on clean bob-cli master ae78dbb2 (2026-11-26) exits 101 with lib 8184 passed/43 failed and CLI 4177 passed/55 failed. The same 17 settle-drift CLI nodes recorded in notes #1/#3/#4/#6 still fail: capture::inbox_route x2, note_pull x3, project_note x3, project_note_offer x6, task_theme_writes::new_named_task_reports_and_writes_the_resolved_theme_exception, ref_library::today::today_matches_unnamed_capture_and_named_capture_remembers_theme, task_status_hooks::sync::task_status_hooks_groups_area_project_tasks_after_final_statuses. The nav child epic bob-cli-q4.10.1 changed no bob-cli Rust code (its bob-cli commits are docs-gate repairs only), so these stay with this epic's CLI writer phases. Of the remaining 81 failures, 80 are drawer-cutover drift owned by bob-cli-ph and 1 is wispr, tracked as bob-cli-q9. (b) Note #5's task-status-cycler open-line date failures are resolved: 2cad24b7 (bob-cli-q8.10.3) injects getCreatedDateString, and bob-plugins npm test at 8645ed55 passes 9817/0 fail/4 skip, perf 26/26. No standalone task filed.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-q4.1](bob-cli-q4.1.md) | Hand-edit mirror never writes across notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [bob-cli-q4.10](bob-cli-q4.10.md) | Navigation gestures settle both notes they write | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
+| [bob-cli-q4.10](bob-cli-q4.10.md) | Navigation gestures settle both notes they write | ✓ closed | large | 2026-11-25 | 1 | 0 |
 | [bob-cli-q4.11](bob-cli-q4.11.md) | Link and Pomodoro target writes settle their target notes | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [bob-cli-q4.12](bob-cli-q4.12.md) | Ctrl+Shift+O opens a note where note\_home says | ✓ closed | medium | 2026-11-25 | 1 | 2 |
 | [bob-cli-q4.13](bob-cli-q4.13.md) | End-to-end settle acceptance and re-measure | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
@@ -63,14 +65,14 @@ Vim `o`, `O`, and `Ctrl+Shift+O` in Obsidian write into the right zone of a task
 flowchart TD
     n0["bob-cli-q4: Better o / Ctrl+Shift+O and gesture-settled task structure [in_progress]"]
     n1["bob-cli-q4.1: Hand-edit mirror never writes across notes [closed]"]
-    n2["bob-cli-q4.10: Navigation gestures settle both notes they write [in_progress]"]
-    n3["bob-cli-q4.10.1: Navigation gestures settle their written notes [in_progress]"]
+    n2["bob-cli-q4.10: Navigation gestures settle both notes they write [closed]"]
+    n3["bob-cli-q4.10.1: Navigation gestures settle their written notes [closed]"]
     n4["bob-cli-q4.10.1.1: Navigation settle adapter, command flush, and identity mapping [closed]"]
     n5["bob-cli-q4.10.1.2: Lane, cancel, freshness, and decay answers settle atomically [closed]"]
     n6["bob-cli-q4.10.1.3: Task, schedule, priority, and quick-roll commits settle [closed]"]
     n7["bob-cli-q4.10.1.4: Task moves and splits settle every written note [closed]"]
     n8["bob-cli-q4.10.1.5: Status-changing dependency and relation writes settle safely [closed]"]
-    n9["bob-cli-q4.10.1.6: Morning-review acceptance, documentation, and deployment evidence [in_progress]"]
+    n9["bob-cli-q4.10.1.6: Morning-review acceptance, documentation, and deployment evidence [closed]"]
     n10["bob-cli-q4.11: Link and Pomodoro target writes settle their target notes [closed]"]
     n11["bob-cli-q4.12: Ctrl+Shift+O opens a note where note_home says [closed]"]
     n12["bob-cli-q4.13: End-to-end settle acceptance and re-measure [in_progress]"]
@@ -168,7 +170,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 13 |
 | [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 3 |
 | [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.6.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.12](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.12.md) | [bob-cli-q4.12](bob-cli-q4.12.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.13](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.13/README.md) | [bob-cli-q4.13](bob-cli-q4.13.md) | 0 |
@@ -244,6 +246,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ec93b88`](https://github.com/bobs-org/bob-plugins/commit/ec93b88c88e724a805e81b7cf5c74705b9960a58) | test(navigation): cover settled dependency writers | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 21:16:25 EST |
 | bob-plugins | [`bob-plugins@5b324dd`](https://github.com/bobs-org/bob-plugins/commit/5b324dd32ffc1b1a27bd1a334a27cd554ec57bc2) | build(bob-ledger-tools): restore generated plugin bundle | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 21:37:57 EST |
 | bob-plugins | [`bob-plugins@8645ed5`](https://github.com/bobs-org/bob-plugins/commit/8645ed558ab50543ca9e6b84d2cfff38ff812772) | fix(navigation): retain settled review identity and verify morning-review writes | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 2026-11-26 04:21:45 EST |
+| bob-cli--plans | [`bob-cli--plans@7b9d46e`](https://github.com/bobs-org/bob-cli--plans/commit/7b9d46eae424f1c2dc67d8fff1b60bf82a29162a) | chore(plans): mark navigation gesture settle epic done | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 2026-11-26 04:53:03 EST |
 
 <!-- sase:referenced-by:start -->
 

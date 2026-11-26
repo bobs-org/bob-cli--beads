@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q4.10.1](bob-cli-q4.10.1.md) / bob-cli-q4.10.1.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q4.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.md) · **Assignee:** `bob-cli-q4.10.1.6` · **Size:** medium
-**Created:** 2026-11-25 14:29:10 EST
+**Created:** 2026-11-25 14:29:10 EST · **Closed:** 2026-11-26 04:29:22 EST
 **Plan:** [202611/navigation\_gesture\_settle.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/navigation_gesture_settle.md)
 
 <!-- sase:links:start -->
@@ -14,6 +14,9 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | related | file:explicit:161491026097b312bac5b238 | attached via sase artifact create --bead |
+| related | file:explicit:732e3f1aa832605d383ecc46 | attached via sase artifact create --bead |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -35,6 +38,14 @@ acceptance: exercise the integrated navigation writers with the real settle prov
 
 [2026-11-26T09:09:52Z · bob-cli-q4.10.1.6--1] Verification reviewed: source-fragment nav regression 3527/3527; monitored actual-bundle npm suite has 9833 passing, 2 reproduced clean-base date failures and 4 skips across 9839 tests. New public-route acceptance has 13 scenarios. Real Obsidian nav lane and annotated dependency commits both preserve child text, group immediately, keep stay cursor, and Undo once to original / Redo once to settled; provider promotion and close paths likewise one step; delayed scaffold remains its documented two steps with no separate settle Undo. Pending preimage refusal passes. Both repository docs-gen and docs-check pass (447 tests each, 1 expected font skip); CLI reference golden passes; generated docs diff reviewed (nav 2.107.11 and index, concise settle section, 5941 words). Rebuilt bundle build:check passed again after baseline stashes restored; diff --check clean. No epic-symbol entries. Evidence file:explicit:161491026097b312bac5b238. Deployment and isolated startup checks are the only remaining completion steps.
 
+[2026-11-26T09:29:22Z · bob-cli-q4.10.1.6--2] VERIFIED COMPLETE: Navigation source is committed at 8645ed558ab50543ca9e6b84d2cfff38ff812772 (fix(navigation): retain settled review identity and verify morning-review writes); bob-cli and bob-plugins working trees are clean. Only bob-navigation-hotkeys 2.107.11 was synchronized, without force. Deployment stamp is clean/synced on athena at 2026-11-26T09:24:09Z and names the same source SHA. Committed source, built files, deployed files, and tested snapshot agree by SHA256: manifest.json 7e5350d0dac7e774cef3b7bd9031fa828a10d47bd5c0c7f757e8f4e6aace7b54; main.js e7d76f1ec405c5dedffd9601d0f1fba99d5eccf39c9de9d459a59d2d369e97ce; styles.css 29177df65c1aacc7a0ab20ce51f21d7c4821d918a3c07bdb1fd6e6b688faaa33. Other plugin deployment records are unchanged.
+
+Final monitor waj617neh6gj / ToolRun d30aa131e3470cb5ac97fa46998e45aa completed with exit 0. build:check passed. Source-isolated Obsidian smoke passed (329 ms layout-ready, 61.9 MiB peak heap). Actual-deployed managed-plugin snapshot smoke passed (425 ms, 46.2 MiB). Both loaded all 12 plugins, opened daily/task editors in live/source modes, indexed the fixture relation, and reported zero exceptions, rejections, plugin load/console errors, crashes, early reads, or non-Markdown reads. The snapshot smoke scripts are byte-identical to the source scripts; its recorded sourceSha is enclosing CLI Git context, so the saved full managed-file hashes identify the tested deployed bytes.
+
+RETAINED LIMITATION: The unmodified source-checkout full-vault post-sync gate still exits 1 before Electron startup, naming exactly block-id-prompt, bob-ledger-tools, and task-status-cycler drift. This is the clean-e82bd932 baseline refusal already recorded in PROPOSED FOLLOW-UP and file:explicit:161491026097b312bac5b238. Supplementary snapshot compatibility is not a passing source rollout gate and does not cover the full third-party/settings combination. No other plugin was deployed and the gate was not weakened.
+
+Final artifact file:explicit:732e3f1aa832605d383ecc46 contains the deployment summary, raw smoke reports/logs, source/deployed/snapshot SHA256 evidence, before/after/final deployment records, and evidence assertions. Retain acceptance writer inventory and verification in notes 5-6: 13 real-provider public-route scenarios, 3527 navigation regressions, 9833 built-plugin passes / 2 clean-base date failures / 4 skips, both docs gates (447 passes each), CLI reference golden, and real Obsidian lane/dependency one-step Undo/Redo. The earlier clean-base CLI check has 98 failures already proposed as follow-up; no full gate was rerun merely for known failures. sase bead epic-symbols bob-cli-q4.10.1.6 reports no entries. Closing only this phase; ancestors remain open.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) ✓ · ⧖ 2026-11-25
@@ -50,3 +61,15 @@ acceptance: exercise the integrated navigation writers with the real settle prov
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@8645ed5`](https://github.com/bobs-org/bob-plugins/commit/8645ed558ab50543ca9e6b84d2cfff38ff812772) | fix(navigation): retain settled review identity and verify morning-review writes | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 2026-11-26 04:21:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q4.10.1.6--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.6.md
+
+<!-- sase:referenced-by:end -->
