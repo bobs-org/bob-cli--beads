@@ -41,9 +41,11 @@ drawer-rename: `bob task rename-drawer` writes NEW verbatim, allows case-only re
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.6.1.2][1] | Check existing tracking for the same docs budget failure | 1 |
-| read-by | [agent:g1][2] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:g1][3] | Check whether phase is blocked on the release gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

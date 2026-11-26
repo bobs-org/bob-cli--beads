@@ -49,7 +49,9 @@ drawer-contract: one recognizer that reads `- **Title**` and legacy ALL-CAPS dra
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.1--e][1] | Need current phase status, scope, and child state before recording successful verification and closing it | 1 |
+| read-by | [agent:bob-cli-ph.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
 
 <!-- sase:referenced-by:end -->

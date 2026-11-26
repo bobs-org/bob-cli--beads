@@ -36,9 +36,11 @@ capture-drawers: one place resolver for drawers, project sections, and notebook 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.6.1.land][1] | Confirm the parent phase close state after the child epic closed | 2 |
-| read-by | [agent:g1][2] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:g1][3] | Check whether phase is blocked on the release gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.land/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

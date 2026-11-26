@@ -17,7 +17,7 @@
 | related | [bead:bob-cli-pp][2] | True-case drawers' Mac phase (ph.8) adds drawer rendering in the same editor; it deliberately never hides drawer markers to avoid the req caret defect |
 | related | file:explicit:dc76e318e355523f6fc8a927 | attached via sase artifact create --bead |
 
-_Plus 14 automatic references — see [Referenced By](#referenced-by)._
+_Plus 15 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/true_case_drawers.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-pp/README.md
@@ -200,7 +200,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ph.8.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.6.md) | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ph.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md) | [bob-cli-ph.8.1](bob-cli-ph.8.1.md) | 5 |
 | [bbugyi200.apollo.bob-cli-ph.9](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.9.md) | [bob-cli-ph.9](bob-cli-ph.9.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.land/README.md) | [bob-cli-ph](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md) | [bob-cli-ph](README.md) | 2 |
 
 ## Commits
 
@@ -257,7 +257,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@7d6e12a`](https://github.com/bobs-org/bob-mac-capture/commit/7d6e12a7397bbb270a616a06357c58dddaf832f8) | feat(capture): handle drawer title newline and star overtype | [bob-cli-ph.8.1.5](bob-cli-ph.8.1.5.md) | 2026-11-26 01:51:48 EST |
 | bob-cli | [`631a49d`](https://github.com/bobs-org/bob-cli/commit/631a49d5d55f18ea6b343ce778f6148e457e1bf1) | docs(drawers): reconcile Mac Capture section with shipped true-case behavior | [bob-cli-ph.8.1.6](bob-cli-ph.8.1.6.md) | 2026-11-26 03:03:30 EST |
 
-… and 9 more commits
+… and 10 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -271,27 +271,29 @@ flowchart TD
 | read-by | [agent:bob-cli-ph.6.1.2][4] | Need ancestor epic decisions that govern the capture-drawer phase | 1 |
 | read-by | [agent:bob-cli-ph.7.1.land--3][5] | Confirm parent plan stays open during closeout | 1 |
 | read-by | [agent:bob-cli-ph.7.1.land--7][5] | Confirm the containing Obsidian phase epic remains open after drawer closeout | 1 |
-| read-by | [agent:bob-cli-pq.land][6] | Check drawer epic status for sequencing and taste pass ownership | 1 |
-| read-by | [agent:bob-cli-q4.10.1.land][7] | Check whether the true-case drawer epic owns the 98 bob-cli just check failures proposed by q4.10.1.6 | 2 |
-| read-by | [agent:g1][8] | Research how to progress the epic without waiting for a release | 1 |
-| read-by | [agent:research.66.cdx][9] | Independent research into better-o and all-ops-reconcile-tasks; inspect referenced scope and completion | 1 |
-| read-by | [agent:research.66.cld][10] | Context for better-o / all-ops-reconcile research | 1 |
-| read-by | [agent:research.66.final][11] | Consolidating swarm research on better-o: verify drawer-epic phase states and the pn/po writer-gap beads the reports cite | 1 |
-| read-by | [agent:research.66.gem][12] | Referenced in ^better-o for ongoing drawer changes | 1 |
-| read-by | [agent:research.66.grk][13] | Need the true-case drawers epic that better-o says is still in progress | 1 |
+| read-by | [agent:bob-cli-ph.land][6] | Need the parent link | 2 |
+| read-by | [agent:bob-cli-pq.land][7] | Check drawer epic status for sequencing and taste pass ownership | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][8] | Check whether the true-case drawer epic owns the 98 bob-cli just check failures proposed by q4.10.1.6 | 2 |
+| read-by | [agent:g1][9] | Research how to progress the epic without waiting for a release | 1 |
+| read-by | [agent:research.66.cdx][10] | Independent research into better-o and all-ops-reconcile-tasks; inspect referenced scope and completion | 1 |
+| read-by | [agent:research.66.cld][11] | Context for better-o / all-ops-reconcile research | 1 |
+| read-by | [agent:research.66.final][12] | Consolidating swarm research on better-o: verify drawer-epic phase states and the pn/po writer-gap beads the reports cite | 1 |
+| read-by | [agent:research.66.gem][13] | Referenced in ^better-o for ongoing drawer changes | 1 |
+| read-by | [agent:research.66.grk][14] | Need the true-case drawers epic that better-o says is still in progress | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.4/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.6.1.2/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.7.1.land.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.land/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.10.1.land/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cdx/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.final/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.gem/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.land/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.10.1.land/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cdx/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.cld/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.final/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.gem/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.66.grk/README.md
 
 <!-- sase:referenced-by:end -->

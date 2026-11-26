@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | [bead:bob-cli-qg][1] | Proposing phase; built bob-host-currency probes because --version cannot show master builds |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qg/README.md
 
@@ -91,11 +91,13 @@ The broader PROPOSED FOLLOW-UP/land-agent deadlock and permanent CI run-discover
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.3][1] | Need the phase scope and design file | 3 |
-| read-by | [agent:fy--5][2] | Inspect existing rollout evidence before final props unblock note | 1 |
-| read-by | [agent:g1][3] | Understand the release gate blocking the epic | 1 |
+| read-by | [agent:bob-cli-ph.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:fy--5][3] | Inspect existing rollout evidence before final props unblock note | 1 |
+| read-by | [agent:g1][4] | Understand the release gate blocking the epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.3.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.fy.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.fy.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

@@ -16,7 +16,7 @@
 | related | file:explicit:9b7661cdd94a50ca73e00777 | attached via sase artifact create --bead |
 | related | file:explicit:ea63e67c4a620dbad55354a6 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -70,7 +70,9 @@ Smoke: apollo lacks xvfb-run/Obsidian; ran on athena from a detached worktree at
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.2--1][1] | Record exact check outcomes and deployment evidence before closing this assigned phase | 1 |
+| read-by | [agent:bob-cli-ph.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
 
 <!-- sase:referenced-by:end -->

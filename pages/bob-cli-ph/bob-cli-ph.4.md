@@ -44,10 +44,12 @@ bob-writers: every bob-cli writer creates `- **Title**` and `- **Notes**` header
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.4][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-ph.7.1.4][2] | Need recorded clean-base docs word-budget follow-ups to reconfirm | 1 |
-| read-by | [agent:g1][3] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:g1][4] | Check whether phase is blocked on the release gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ph.7.1.4/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

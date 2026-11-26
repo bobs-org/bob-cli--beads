@@ -60,13 +60,15 @@ cutover: once no unreleased legacy drawer remains, remove ALL-CAPS recognition, 
 | read-by | [agent:bob-cli-ph.10--3][1] | Confirm phase scope and recorded work before repairing its verification failures | 1 |
 | read-by | [agent:bob-cli-ph.10--4][1] | Confirm the drawer retirement phase scope and current status | 1 |
 | read-by | [agent:bob-cli-ph.10--5][1] | Confirm phase scope and current status before repairing failed checks | 1 |
-| read-by | [agent:bob-cli-q4.10.1.land][2] | Check whether ph.10 deliberately withheld plugin deployment of retired drawer readers | 2 |
-| read-by | [agent:bob-cli-q8.land][3] | Lander q8: check whether the drawer cutover phase is still open and owns the 97 drawer test failures | 1 |
-| read-by | [agent:g1][4] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-q4.10.1.land][3] | Check whether ph.10 deliberately withheld plugin deployment of retired drawer readers | 2 |
+| read-by | [agent:bob-cli-q8.land][4] | Lander q8: check whether the drawer cutover phase is still open and owns the 97 drawer test failures | 1 |
+| read-by | [agent:g1][5] | Check whether phase is blocked on the release gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.10.1.land/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-q4.10.1.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-q8.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->

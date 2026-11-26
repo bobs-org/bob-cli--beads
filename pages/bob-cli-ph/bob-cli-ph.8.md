@@ -76,15 +76,17 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 | read-by | [agent:bob-cli-ph.8--1][2] | Confirm assigned scope and final decisions before completing the phase | 1 |
 | read-by | [agent:bob-cli-ph.8--2][2] | Continue remaining Mac tray styling typing assists tests | 3 |
 | read-by | [agent:bob-cli-ph.8.1.land--4][3] | Confirm phase closure state after epic cascade close | 2 |
-| read-by | [agent:bob-cli-pq.1][4] | sequencing check for glyph-contract | 2 |
-| read-by | [agent:bob-cli-pq.3][5] | Check prerequisite Mac drawer implementation status | 1 |
-| read-by | [agent:g1][6] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.land][4] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-pq.1][5] | sequencing check for glyph-contract | 2 |
+| read-by | [agent:bob-cli-pq.3][6] | Check prerequisite Mac drawer implementation status | 1 |
+| read-by | [agent:g1][7] | Check whether phase is blocked on the release gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.1.land.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->
