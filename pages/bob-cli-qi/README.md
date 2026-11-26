@@ -20,7 +20,7 @@
 | related | file:explicit:660cabc9cf32530dcf480887 | attached via sase artifact create --bead |
 | related | file:explicit:d254ed707483200bbaaca14f | attached via sase artifact create --bead |
 
-_Plus 16 automatic references — see [Referenced By](#referenced-by)._
+_Plus 17 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_hub_demotion.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qr/README.md
@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qi.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.4.md) | [bob-cli-qi.4](bob-cli-qi.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-qi.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.5/README.md) | [bob-cli-qi.5](bob-cli-qi.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-qi.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.6.md) | [bob-cli-qi.6](bob-cli-qi.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md) | [bob-cli-qi](README.md) | 3 |
+| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md) | [bob-cli-qi](README.md) | 4 |
 
 ## Commits
 
@@ -113,6 +113,7 @@ flowchart TD
 | bob-cli | [`33fe342`](https://github.com/bobs-org/bob-cli/commit/33fe3425b51207b39215bb2a8553224b3302bea7) | test(props): assert the bank hub update preview by its card-owned row | [bob-cli-qi](README.md) | 2026-11-26 16:21:07 EST |
 | bob-plugins | [`bob-plugins@feaa5b4`](https://github.com/bobs-org/bob-plugins/commit/feaa5b420047803fa03a9e82a523a5fc02a0cb39) | docs(ledger-tools): drop stale bank-hub props\_contract\_v1 claim in 240q | [bob-cli-qi](README.md) | 2026-11-26 16:21:34 EST |
 | bob-plugins | [`bob-plugins@319862a`](https://github.com/bobs-org/bob-plugins/commit/319862a7f4a8606c961302e2bb26d0e6b89b8332) | test: expand home-card takeover acceptance | [bob-cli-qi](README.md) | 2026-11-26 17:11:39 EST |
+| bob-plugins | [`bob-plugins@abfdb05`](https://github.com/bobs-org/bob-plugins/commit/abfdb0574055190600571515f809ac33900fc85a) | test(ledger-tools): expand home-card takeover acceptance | [bob-cli-qi](README.md) | 2026-11-26 18:06:00 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -121,6 +122,7 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qi.land][1] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-qi.land--2][1] | Review epic notes and land triage before completing its approved closeout | 1 |
 | read-by | [agent:bob-cli-qj.2][2] | Need to decide whether the bank contract gate failure belongs to this active bank-hub epic | 2 |
 | read-by | [agent:research.6k.cdx][3] | Determine active epic contracts and overlaps for prose and notebook cards | 1 |
 | read-by | [agent:research.6k.cld][4] | Research prose/notebook property cards; must understand in-progress epic to plan parallel work | 1 |
