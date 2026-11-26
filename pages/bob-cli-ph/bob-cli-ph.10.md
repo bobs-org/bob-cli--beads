@@ -20,13 +20,14 @@ cutover: once no unreleased legacy drawer remains, remove ALL-CAPS recognition, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md) | [bob-cli-ph.10](bob-cli-ph.10.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.10](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.10.md) | [bob-cli-ph.10](bob-cli-ph.10.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9573ff8`](https://github.com/bobs-org/bob-cli/commit/9573ff869fbef177ff041e78bcf28ddac85a71be) | feat: retire all-caps task drawer recognition | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 21:51:35 EST |
+| bob-plugins | [`bob-plugins@fda0ef2`](https://github.com/bobs-org/bob-plugins/commit/fda0ef27749b2b1feae59841ea1024911ff38bc1) | feat: retire all-caps plugin drawer readers | [bob-cli-ph.10](bob-cli-ph.10.md) | 2026-11-25 21:52:59 EST |
 
 <!-- sase:referenced-by:start -->
 
