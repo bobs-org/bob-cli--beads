@@ -34,7 +34,9 @@ capture-z: the z:<when> token for new and existing-task captures, the existing-t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.1.1.land][1] | Check whether outer snooze phases consume wake-engine APIs before integration edits | 1 |
+| read-by | [agent:bob-cli-q5.3.1.2][2] | Need original capture-z scope and final decisions | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.1.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

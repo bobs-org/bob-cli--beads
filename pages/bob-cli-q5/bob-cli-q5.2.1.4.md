@@ -14,7 +14,7 @@ agenda-provenance: add the schema-1 capture-pomodoros --tasks snoozed block and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.2.1.1](bob-cli-q5.2.1.1.md) ✓ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-q5.2.1.3](bob-cli-q5.2.1.3.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.2.1.3](bob-cli-q5.2.1.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

@@ -44,7 +44,9 @@ grammar: add the shared terminal z:<when> intent, existing-task exception and sn
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.3.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-q5.3.1.2][2] | Need grammar intent fields and execution guard handoff | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.3.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->
