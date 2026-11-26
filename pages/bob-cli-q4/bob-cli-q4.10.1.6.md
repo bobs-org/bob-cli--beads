@@ -13,7 +13,7 @@ acceptance: exercise the integrated navigation writers with the real settle prov
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

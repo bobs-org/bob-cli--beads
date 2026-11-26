@@ -20,7 +20,7 @@ relocation: settle move source/destination and Task Split same-note, cross-note,
 ## Dependencies
 
 - **Depends on:** [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

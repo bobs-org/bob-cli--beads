@@ -65,7 +65,7 @@ flowchart TD
     n5["bob-cli-q4.10.1.2: Lane, cancel, freshness, and decay answers settle atomically [closed]"]
     n6["bob-cli-q4.10.1.3: Task, schedule, priority, and quick-roll commits settle [closed]"]
     n7["bob-cli-q4.10.1.4: Task moves and splits settle every written note [closed]"]
-    n8["bob-cli-q4.10.1.5: Status-changing dependency and relation writes settle safely [in_progress]"]
+    n8["bob-cli-q4.10.1.5: Status-changing dependency and relation writes settle safely [closed]"]
     n9["bob-cli-q4.10.1.6: Morning-review acceptance, documentation, and deployment evidence [in_progress]"]
     n10["bob-cli-q4.11: Link and Pomodoro target writes settle their target notes [closed]"]
     n11["bob-cli-q4.12: Ctrl+Shift+O opens a note where note_home says [closed]"]
@@ -162,7 +162,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q4.10.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.2.md) | [bob-cli-q4.10.1.2](bob-cli-q4.10.1.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-q4.10.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.3/README.md) | [bob-cli-q4.10.1.3](bob-cli-q4.10.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q4.10.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.4.md) | [bob-cli-q4.10.1.4](bob-cli-q4.10.1.4.md) | 13 |
-| [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2 |
+| [bbugyi200.athena.bob-cli-q4.10.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.10.1.5.md) | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 3 |
 | [bbugyi200.athena.bob-cli-q4.10.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.6/README.md) | [bob-cli-q4.10.1.6](bob-cli-q4.10.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.10.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q4.10.1.land/README.md) | [bob-cli-q4.10.1](bob-cli-q4.10.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q4.11](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q4.11.md) | [bob-cli-q4.11](bob-cli-q4.11.md) | 1 |
@@ -237,6 +237,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@dbebfbd`](https://github.com/bobs-org/bob-plugins/commit/dbebfbd4f3cf55459627224117c996c88a1c51ac) | feat(navigation): settle dependency and relation writes | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 20:51:30 EST |
 | bob-plugins | [`bob-plugins@7e1ab27`](https://github.com/bobs-org/bob-plugins/commit/7e1ab27a89c810c6e577276acd8450c91f29578c) | feat(task-status-cycler): open notes at task note homes | [bob-cli-q4.12](bob-cli-q4.12.md) | 2026-11-25 21:08:10 EST |
 | bob-plugins | [`bob-plugins@ec93b88`](https://github.com/bobs-org/bob-plugins/commit/ec93b88c88e724a805e81b7cf5c74705b9960a58) | test(navigation): cover settled dependency writers | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 21:16:25 EST |
+| bob-plugins | [`bob-plugins@5b324dd`](https://github.com/bobs-org/bob-plugins/commit/5b324dd32ffc1b1a27bd1a334a27cd554ec57bc2) | build(bob-ledger-tools): restore generated plugin bundle | [bob-cli-q4.10.1.5](bob-cli-q4.10.1.5.md) | 2026-11-25 21:37:57 EST |
 
 <!-- sase:referenced-by:start -->
 
