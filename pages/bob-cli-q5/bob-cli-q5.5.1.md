@@ -7,6 +7,18 @@
 **Created:** 2026-11-26 15:37:08 EST
 **Plan:** [202611/snooze\_display\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_display_marks.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/snooze_display_marks.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_display_marks.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete bob-cli-q5.5 with live snoozed definition marks, woken-link pills, Snoozed row and heading paint, an independent plan chip, and verified light/dark Obsidian evidence without changing note bytes or Today semantics.

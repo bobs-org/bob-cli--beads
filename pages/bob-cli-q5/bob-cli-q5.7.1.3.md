@@ -23,7 +23,13 @@ snooze-waker: add the schema-checked non-cancelling Bob wake lane and app-owned 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.3.md) | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.3.md) | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@a4a7020`](https://github.com/bobs-org/bob-mac-capture/commit/a4a7020d9e22ed992ce04a9d198b14dcf87ba65e) | feat(capture): wake snoozed tasks while panel is hidden | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 2026-11-26 10:46:12 EST |
 
 <!-- sase:referenced-by:start -->
 

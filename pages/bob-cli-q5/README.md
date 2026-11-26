@@ -95,7 +95,7 @@ flowchart TD
     n41["bob-cli-q5.8.1: Presence-aware Mac snooze wake notices [in_progress]"]
     n42["bob-cli-q5.8.1.1: Make wake notification ownership and revalidation explicit [closed]"]
     n43["bob-cli-q5.8.1.2: Decode wake receipts and model notice delivery [closed]"]
-    n44["bob-cli-q5.8.1.3: Observe receipts and hold notices until return [in_progress]"]
+    n44["bob-cli-q5.8.1.3: Observe receipts and hold notices until return [closed]"]
     n45["bob-cli-q5.8.1.4: Present and act on the snoozed-task wake HUD [in_progress]"]
     n46["bob-cli-q5.8.1.5: Add the wake beacon, silent record, and settings [in_progress]"]
     n47["bob-cli-q5.9: Glossary, guide, decision record, and end-to-end verification [in_progress]"]
@@ -215,7 +215,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q5.4.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.4.1.5/README.md) | [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.4.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.land.md) | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.md) | [bob-cli-q5.5](bob-cli-q5.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.1/README.md) | [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.1/README.md) | [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.2/README.md) | [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.3/README.md) | [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.4/README.md) | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 0 |
@@ -224,14 +224,14 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.land/README.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6/README.md) | [bob-cli-q5.6](bob-cli-q5.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.md) | [bob-cli-q5.7](bob-cli-q5.7.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.1/README.md) | [bob-cli-q5.7.1.1](bob-cli-q5.7.1.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.2.md) | [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.3.md) | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.land.md) | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.1/README.md) | [bob-cli-q5.7.1.1](bob-cli-q5.7.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.2.md) | [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.7.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.3.md) | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.7.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.land.md) | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.md) | [bob-cli-q5.8](bob-cli-q5.8.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.1.md) | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 2 |
-| [bbugyi200.athena.bob-cli-q5.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.2/README.md) | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.2/README.md) | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.4/README.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md) | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.land/README.md) | [bob-cli-q5.8.1](bob-cli-q5.8.1.md) | 0 |
@@ -261,11 +261,18 @@ flowchart TD
 | bob-cli--plans | [`bob-cli--plans@4e1ba6a`](https://github.com/bobs-org/bob-cli--plans/commit/4e1ba6af01afcfed3456b0fd196e3bc12e6f45c1) | docs(plans): close capture snooze token and closeout tales | [bob-cli-q5.3.1](bob-cli-q5.3.1.md) | 2026-11-26 06:36:19 EST |
 | bob-cli | [`9778a94`](https://github.com/bobs-org/bob-cli/commit/9778a94d38d986ecb4562816d99d11aa0d3d7073) | feat(snooze): integrate recovery rows into today planning | [bob-cli-q5.2.1](bob-cli-q5.2.1.md) | 2026-11-26 07:44:10 EST |
 | bob-cli--plans | [`bob-cli--plans@bf9641d`](https://github.com/bobs-org/bob-cli--plans/commit/bf9641dd4ff16d757c4b67e1cd34e614c3b19c4d) | docs(plan): mark snoozed reader implementation complete | [bob-cli-q5.2.1](bob-cli-q5.2.1.md) | 2026-11-26 07:45:01 EST |
+| bob-mac-capture | [`bob-mac-capture@c4a3059`](https://github.com/bobs-org/bob-mac-capture/commit/c4a305917c12436fb7a0f44a062f48e592f53215) | feat(agenda): add snoozed-models block with wake provenance | [bob-cli-q5.7.1.1](bob-cli-q5.7.1.1.md) | 2026-11-26 08:19:02 EST |
+| bob-mac-capture | [`bob-mac-capture@e387187`](https://github.com/bobs-org/bob-mac-capture/commit/e387187f4c2904ec6732db88d8e53dd9987c3234) | feat(agenda): render and fold Later today with woken accents | [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) | 2026-11-26 08:52:36 EST |
+| bob-mac-capture | [`bob-mac-capture@e4a97f5`](https://github.com/bobs-org/bob-mac-capture/commit/e4a97f52bc84d3f6027bf0d505aa9d4598c87456) | fix(agenda): count snoozed gap and stabilize countdown for UTC | [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) | 2026-11-26 09:27:39 EST |
+| bob-mac-capture | [`bob-mac-capture@a4a7020`](https://github.com/bobs-org/bob-mac-capture/commit/a4a7020d9e22ed992ce04a9d198b14dcf87ba65e) | feat(capture): wake snoozed tasks while panel is hidden | [bob-cli-q5.7.1.3](bob-cli-q5.7.1.3.md) | 2026-11-26 10:46:12 EST |
+| bob-mac-capture | [`bob-mac-capture@46c5202`](https://github.com/bobs-org/bob-mac-capture/commit/46c5202bfeda51757088e645dd04dc21db1f53a6) | fix(capture): preserve wake outcome provenance and bounded retries, render folded alarm icon | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 2026-11-26 11:20:28 EST |
 | bob-cli--plans | [`bob-cli--plans@d928866`](https://github.com/bobs-org/bob-cli--plans/commit/d9288663bba8ea4a363cc8ae7f5078de5b7c38e0) | docs(plans): mark mac snoozed agenda done | [bob-cli-q5.7.1](bob-cli-q5.7.1.md) | 2026-11-26 12:46:05 EST |
 | bob-cli | [`3659edc`](https://github.com/bobs-org/bob-cli/commit/3659edc091409eed14ec8f0a316eedff400156bb) | feat(snooze): add wake notice ownership and eligibility fields | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 2026-11-26 13:18:07 EST |
 | bob-cli | [`59037b2`](https://github.com/bobs-org/bob-cli/commit/59037b2343f0b15cf7d98c5acdaf7223028e3d1c) | fix(snooze): correct test paths and anonymize vault example | [bob-cli-q5.8.1.1](bob-cli-q5.8.1.1.md) | 2026-11-26 14:06:20 EST |
+| bob-mac-capture | [`bob-mac-capture@08e7251`](https://github.com/bobs-org/bob-mac-capture/commit/08e72511fe0d2148c6f6a3862574e52bf19004e8) | feat(snooze): decode wake receipts and model notice delivery | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 2026-11-26 14:40:25 EST |
+| bob-mac-capture | [`bob-mac-capture@0b2fcd8`](https://github.com/bobs-org/bob-mac-capture/commit/0b2fcd8329857bce91cdeea5edab5ec5386574e1) | feat(snooze): observe receipts and hold notices until return | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2026-11-26 15:03:59 EST |
 | bob-cli--plans | [`bob-cli--plans@69ff419`](https://github.com/bobs-org/bob-cli--plans/commit/69ff419e5536eebe0ae2ec76a62674a43728ea02) | docs(plan): mark snooze plugin epic complete | [bob-cli-q5.4.1](bob-cli-q5.4.1.md) | 2026-11-26 15:17:25 EST |
-| bob-cli | [`ba21e4c`](https://github.com/bobs-org/bob-cli/commit/ba21e4c2aec89204dd7d84cd28a5f17f75d8b081) | docs(snooze): publish snooze-marks display contract and SM-\* vectors | [bob-cli-q5.5.1.1](bob-cli-q5.5.1.1.md) | 2026-11-26 15:58:49 EST |
+| bob-mac-capture | [`bob-mac-capture@5291cb0`](https://github.com/bobs-org/bob-mac-capture/commit/5291cb08ae5f87342e1e325b75c556671462c5cb) | fix(snooze): repair notice-runtime typecheck for Mac bundle | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2026-11-26 16:02:22 EST |
 
 <!-- sase:referenced-by:start -->
 
