@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.2](bob-cli-q5.2.md) / bob-cli-q5.2.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.md) · **Assignee:** `bob-cli-q5.2.1.land`
-**Created:** 2026-11-25 19:37:40 EST
+**Created:** 2026-11-25 19:37:40 EST · **Closed:** 2026-11-26 07:40:06 EST
 **Plan:** [202611/snoozed\_planned\_today.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snoozed_planned_today.md)
 
 <!-- sase:links:start -->
@@ -44,11 +44,36 @@ Confirmed gaps prevent closing: (A) .1 recovery never landed: sync computes snoo
 
 Reader extraction, planned-today review exclusions, separate forecast, agenda rows and wake history are present; Today stays ledger-derived, forecast nonbinding, schema 1 retained, Ready ignored, and no plugin/Mac/memory/release scope is claimed complete. Remaining repair also completes missing recovery tests/help and tests capture+reconcile integration. A single medium tale sase_plan_snoozed_reader_landing.md passed explain/edit/revalidate with zero warnings. Its final step closes this epic, marks plan:202611/snoozed_planned_today.md done, verifies/closes only parent phase bob-cli-q5.2, and leaves q5 to its lander. Both epic-symbols queries are empty; no symvision recipe exists at this baseline. No product code changed and no fresh full gate claimed; final just check/docs-check belongs to the repair's integrated tree. Complete follow-up triage is in the preceding note.
 
+[2026-11-26T12:40:06Z · bob-cli-q5.2.1.land] LAND COMPLETE
+
+Implemented the remaining planned-today recovery and landing work. Task reconciliation now gives direct Snoozed membership recovery rank and daily Next grace only, keeps blocking precedence, and does not make Snoozed tasks promotion roots or expand dependency reach. Snoozed-only hooks reports now publish the same forecast as bob plan. Shared list and wake membership now uses the dedicated Today Task Link extractor while retaining the broader identity map needed by writers. Wake strikes the authored Snoozed route even when the canonical same-note Pomodoro link differs.
+
+Added binary regressions for daily recovery, stronger recovery rank, project/inherited blockers, no prerequisite promotion, terminal/Event/ambiguous/history and duplicate-loser exclusions, dedicated-link membership variants, LF/CRLF byte preservation with second-run idempotence, and actual capture through reconcile, readers, wake, and repeat wake. The lifecycle fixture includes bold NOTES drawers. Updated hooks help and plan, dependency, and snooze contracts; regenerated the owned CLI reference.
+
+Verification on the integrated tree:
+- cargo test --test cli snoozed: 31 passed.
+- cargo test --test cli capture::pomodoros_agenda: 25 passed.
+- cargo test --test cli freshness::: 35 passed.
+- The dedicated membership, LF/CRLF reconcile, planned-today SP vector, and new ignored/Event/ambiguous/history recovery regressions passed.
+- task_status_hooks broad run passed 193 tests; its sole failure is the already tracked Alpha grouping test described below.
+- just docs-gen passed.
+- just docs-check passed all gates: 447 documentation tests passed, one optional font-generation test skipped.
+- git diff --check passed.
+- just check reached full tests after format and Clippy; it reports 43 library and 55 CLI failures, with other test binaries and doctests passing. This matches the existing 98-node clean-base comparison file:explicit:0bc82d5d4b7f7164deb53e4c and prior q5.2.1 notes. Independently reran two representative failures on the untouched starting commit f32e774c: the Alpha grouping assertion reports the same 2-open versus 1-open badge, and task_block_layout::zones_name_every_task_child_kind reports the same NOTES Authored versus Drawers classification. No changed or new diagnostics were found in the Snoozed tests.
+
+All four child scopes and notes were re-read and their requirements are covered. Follow-up dispositions remain as already recorded: plugin docs inventory and manual_contains are resolved; the missing predecessor recovery is completed here; the 98 clean-base failures remain routed to the existing q9, q4, ph, and q7 tracks; the earlier SP4 issue remains fixed in bbcae8e0. No new task bead was needed or created. No plugin, Mac, live-vault, memory, release, version, or CHANGELOG work is claimed. epic-symbols is empty.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.1.land.md) | [bob-cli-q5.2.1](bob-cli-q5.2.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.2.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.1.land.md) | [bob-cli-q5.2.1](bob-cli-q5.2.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`9778a94`](https://github.com/bobs-org/bob-cli/commit/9778a94d38d986ecb4562816d99d11aa0d3d7073) | feat(snooze): integrate recovery rows into today planning | [bob-cli-q5.2.1](bob-cli-q5.2.1.md) | 2026-11-26 07:44:10 EST |
 
 <!-- sase:referenced-by:start -->
 

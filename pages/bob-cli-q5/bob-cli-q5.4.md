@@ -13,7 +13,7 @@ plugin-plumbing: the ledger-tools JS mirror of the row grammar and live predicat
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.2](bob-cli-q5.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.2](bob-cli-q5.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.5](bob-cli-q5.5.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

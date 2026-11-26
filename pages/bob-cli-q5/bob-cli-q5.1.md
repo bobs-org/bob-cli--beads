@@ -27,7 +27,7 @@ wake-engine: the snooze module (row grammar, states, time grammar), the bob snoo
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.2](bob-cli-q5.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.2](bob-cli-q5.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.3](bob-cli-q5.3.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
