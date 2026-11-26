@@ -43,8 +43,10 @@ ref-card: the pure identity model and the DOM. The host mounts behind the gate a
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qp.4][1] | Check phase notes for prior implementation and recorded remaining work | 2 |
 | read-by | [agent:bob-cli-qp.5][2] | need prior phase work | 1 |
+| read-by | [agent:bob-cli-qp.6][3] | Check phase notes for prior implementation and recorded remaining work | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.6/README.md
 
 <!-- sase:referenced-by:end -->
