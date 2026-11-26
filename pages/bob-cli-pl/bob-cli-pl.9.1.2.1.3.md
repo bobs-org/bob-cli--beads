@@ -20,10 +20,23 @@ bank-editor-routing: verify and repair nested Bank Setup, bare + Area Settings, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-pl.9.1.2.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3.md) | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@831ac79`](https://github.com/bobs-org/bob-plugins/commit/831ac794fe11d521dede8fbb24917920bb7fa3bf) | fix(ledger-tools): focus bank Area settings gestures | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 2026-11-26 06:42:25 EST |
+| bob-plugins | [`bob-plugins@c45a92b`](https://github.com/bobs-org/bob-plugins/commit/c45a92b7dcb712ebf63610c53586447b9a8781cf) | fix(ledger-tools): split Bank routing helper and cover bare plus route | [bob-cli-pl.9.1.2.1.3](bob-cli-pl.9.1.2.1.3.md) | 2026-11-26 07:00:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-pl.9.1.2.1.3--1][1] | Need phase scope, design file, and earlier notes before continuing | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-pl.9.1.2.1.3.md
+
+<!-- sase:referenced-by:end -->
