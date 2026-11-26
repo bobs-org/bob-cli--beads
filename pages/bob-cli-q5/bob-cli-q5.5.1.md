@@ -1,0 +1,18 @@
+# Bead: bob-cli-q5.5.1 — Snooze display marks and plan chip
+
+[Bead Pages](../README.md) / [bob-cli-q5.5](bob-cli-q5.5.md) / bob-cli-q5.5.1
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.md) · **Assignee:** `bob-cli-q5.5.1.land`
+**Created:** 2026-11-26 15:37:08 EST
+**Plan:** [202611/snooze\_display\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_display_marks.md)
+
+## Description
+
+Complete bob-cli-q5.5 with live snoozed definition marks, woken-link pills, Snoozed row and heading paint, an independent plan chip, and verified light/dark Obsidian evidence without changing note bytes or Today semantics.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.land/README.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 0 |
