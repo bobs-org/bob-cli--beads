@@ -18,7 +18,7 @@ link-and-complete: integrate the shared model into block-id-prompt and task-stat
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.4.1.3](bob-cli-q5.4.1.3.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q5.4.1.5](bob-cli-q5.4.1.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -48,6 +48,7 @@ link-and-complete: integrate the shared model into block-id-prompt and task-stat
 | read-by | [agent:bob-cli-q5.4.1.4--2][1] | Review the assigned phase scope, verification gates, and close requirements | 1 |
 | read-by | [agent:bob-cli-q5.4.1.4--4][1] | Review assigned Snoozed phase scope before closure | 1 |
 | read-by | [agent:bob-cli-q5.4.1.4--5][1] | Need current phase scope and status before resolving epic symbols or closing it | 1 |
+| read-by | [agent:bob-cli-q5.4.1.4--6][1] | Confirm phase status and descendants before closing after verification gates | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.4.1.4.md
 
