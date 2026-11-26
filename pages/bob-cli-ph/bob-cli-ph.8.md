@@ -17,6 +17,10 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 [2026-11-25T23:37:57Z · bob-cli-ph.8] PROPOSED FOLLOW-UP: Installed SASE lacks the documented on-demand roster selector — sase memory read roster:decisions -r ... exits with unknown memory web: roster on this host; sase memory read --help documents only flat/web/strand forms. Used sase memory web show decisions plus audited governing strand reads for this plan. Land agent should triage the runtime/instructions mismatch.
 
+[2026-11-26T00:49:08Z · bob-cli-ph.8--2] Phase progress: regenerated true-case drawer fixtures from clean bob-cli 05dd83cf (bob 0.6.0, grammar 31) with BOB_BIN=target/debug/bob; fixed generate-drawer-fixtures.sh syntax (stray paren) and captured grammar_revision plus marker-aware self-checks; added CaptureDrawerAnnotation/marker models and plumbed optional drawer through CapturePomodoroBlockLine, CaptureBlockDiffRow, and task/pomodoro presentations; removed drawer .uppercased() in transfer/merge-in container labels; updated docs/task-drawers.md Mac section and Mac docs/protocol.md + capture-previews.md within word budgets. Gates: Mac check-scripts python tests pass (9 + 43 tests OK); primary just docs-check shows only the two pre-existing budget overages (capture-syntax 6086, json-outputs 6044) also present with Mac stashed; Mac docs now under budget after trimming. Remaining for a Mac-enabled host: BlockDiffCard tray branch, draft span styling, rewrite-driven star/Return/overtype/Backspace assists, portable + AppKit/SwiftUI regression tests, just portable-check, typecheck-tests, macos-ci-check exact-SHA run, then close.
+
+[2026-11-26T00:49:19Z · bob-cli-ph.8--2] PROPOSED FOLLOW-UP: primary just docs-check reports pre-existing word-budget overages docs/reference/capture-syntax.md (6086/6000) and docs/reference/json-outputs.md (6044/6000); reproduced with Mac changes stashed so unrelated to this phase. Primary just check also fails on clippy manual_contains in tests/cli/capture/complete_block_id.rs:292 (ids.iter().any vs contains), a file this phase does not touch (primary diff is docs-only). No new beads created.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-ph.11](bob-cli-ph.11.md) ◐ · ⧖ 2026-11-22
@@ -27,13 +31,14 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ph.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md) | [bob-cli-ph.8](bob-cli-ph.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@4eb9b2e`](https://github.com/bobs-org/bob-mac-capture/commit/4eb9b2e977dc8275a5849d5ac7f8bc8fabb617b2) | fix(mac): require grammar 30 for drawer fixtures | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:18:09 EST |
+| bob-cli | [`f4da72f`](https://github.com/bobs-org/bob-cli/commit/f4da72ff5dd08b9827eb8b13a9f2bce04c47d9f6) | docs(task-drawers): describe Mac thin-client drawer contract | [bob-cli-ph.8](bob-cli-ph.8.md) | 2026-11-25 19:51:53 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -42,13 +47,15 @@ mac-drawers: the Mac renders bob's drawer spans and preview annotations, dims th
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:1fk][1] | Research whether pq.3/pq.5 truly depend on bob-cli-ph | 1 |
-| read-by | [agent:bob-cli-pq.1][2] | sequencing check for glyph-contract | 2 |
-| read-by | [agent:bob-cli-pq.3][3] | Check prerequisite Mac drawer implementation status | 1 |
-| read-by | [agent:g1][4] | Check whether phase is blocked on the release gate | 1 |
+| read-by | [agent:bob-cli-ph.8--1][2] | Confirm assigned scope and final decisions before completing the phase | 1 |
+| read-by | [agent:bob-cli-pq.1][3] | sequencing check for glyph-contract | 2 |
+| read-by | [agent:bob-cli-pq.3][4] | Check prerequisite Mac drawer implementation status | 1 |
+| read-by | [agent:g1][5] | Check whether phase is blocked on the release gate | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.1fk/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ph.8.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.1/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-pq.3/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.g1/README.md
 
 <!-- sase:referenced-by:end -->
