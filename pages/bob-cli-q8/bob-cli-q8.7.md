@@ -13,7 +13,7 @@ nav-tie-writer: one guarded writer runs any planned tie change. It writes the de
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q8.2](bob-cli-q8.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q8.2](bob-cli-q8.2.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q8.6](bob-cli-q8.6.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q8.8](bob-cli-q8.8.md) ◐ · ⧖ 2026-11-25
 
