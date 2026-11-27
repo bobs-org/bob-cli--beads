@@ -13,7 +13,7 @@ e2e-scratch: stop the bob-plugins real-Obsidian e2e runners from leaking failure
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-r8.2](bob-cli-r8.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-r8.2](bob-cli-r8.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-r8.4](bob-cli-r8.4.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
