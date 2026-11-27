@@ -83,7 +83,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | [bbugyi200.athena.bob-cli-q5.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.4/README.md) | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.5.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6/README.md) | [bob-cli-q5.6](bob-cli-q5.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.md) | [bob-cli-q5.7](bob-cli-q5.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.1/README.md) | [bob-cli-q5.7.1.1](bob-cli-q5.7.1.1.md) | 0 |
@@ -152,6 +152,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | bob-plugins | [`bob-plugins@73d028e`](https://github.com/bobs-org/bob-plugins/commit/73d028e5f22141962c6968edc5108a6ebe37f304) | feat(snooze): add Obsidian visual-proof e2e and fix display integration defects | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 2026-11-26 21:32:16 EST |
 | bob-cli | [`dfb5e75`](https://github.com/bobs-org/bob-cli/commit/dfb5e7550051ce797bcb7d2de665900c0eaf2fde) | docs(snooze): describe the landed snooze-marks mirror and cross-link Today marks and plan | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 22:46:13 EST |
 | bob-cli | [`d9f5774`](https://github.com/bobs-org/bob-cli/commit/d9f57741c248db678bcf43b56eade3b16a2e88f4) | docs: describe snooze clock labels and glyph contract | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 23:11:29 EST |
+| bob-plugins | [`bob-plugins@24f3823`](https://github.com/bobs-org/bob-plugins/commit/24f38233d1cf1770697aa875c524728d25524ae7) | fix: render snooze clocks with state labels and masked glyphs | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 23:12:40 EST |
 
 <!-- sase:referenced-by:start -->
 
