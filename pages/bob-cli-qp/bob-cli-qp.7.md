@@ -17,7 +17,7 @@
 | related | file:explicit:65cd84a81d3610f4285ddd5c | attached via sase artifact create --bead |
 | related | file:explicit:71e7c7a55117ffd98b5fec4b | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -49,7 +49,7 @@ ref-acceptance: after bob-cli-qm.6 closes, extend the takeover harness as a sibl
 
 - **Depends on:** [bob-cli-qp.5](bob-cli-qp.5.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qp.6](bob-cli-qp.6.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qp.8](bob-cli-qp.8.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qp.8](bob-cli-qp.8.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -73,7 +73,9 @@ ref-acceptance: after bob-cli-qm.6 closes, extend the takeover harness as a sibl
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qp.7][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-qp.7--1][1] | Need exact remaining-work notes before rerunning acceptance | 4 |
+| read-by | [agent:bob-cli-qp.8][2] | Review acceptance evidence and close notes for go-live handoff | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.7.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.8.md
 
 <!-- sase:referenced-by:end -->
