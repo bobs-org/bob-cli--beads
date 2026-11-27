@@ -33,7 +33,14 @@ Complete bob-cli-q5.5 with live snoozed definition marks, woken-link pills, Snoo
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`dfb5e75`](https://github.com/bobs-org/bob-cli/commit/dfb5e7550051ce797bcb7d2de665900c0eaf2fde) | docs(snooze): describe the landed snooze-marks mirror and cross-link Today marks and plan | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 22:46:13 EST |
+| bob-cli | [`d9f5774`](https://github.com/bobs-org/bob-cli/commit/d9f57741c248db678bcf43b56eade3b16a2e88f4) | docs: describe snooze clock labels and glyph contract | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 23:11:29 EST |
 
 <!-- sase:referenced-by:start -->
 
