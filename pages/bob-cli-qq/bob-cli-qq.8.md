@@ -11,6 +11,10 @@
 
 acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate and every sibling species gate, and covers every species in Live Preview and Reading, the full keyboard matrix, fail-open contexts, and the passive spy. It also checks content parity and screenshots light/dark, narrow/wide, reduced-motion, and forced-colors before a GO/NO-GO.
 
+## Notes
+
+[2026-11-27T03:27:51Z · bob-cli-qq.8--1] PROPOSED FOLLOW-UP: Bring docs/reference/vault-format.md under the docs word limit — npm run docs:check reproduces the same 30-word overrun on the clean bob-cli base checkout, unrelated to Cabinets acceptance.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.5](bob-cli-qq.5.md) ✓ · ⧖ 2026-11-26
@@ -22,13 +26,14 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7e0ba56`](https://github.com/bobs-org/bob-plugins/commit/7e0ba5695e86ea88c4f103e682c38e342f43a701) | test(cabinets): add real Obsidian acceptance runner | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 22:14:41 EST |
+| bob-plugins | [`bob-plugins@18e6cb9`](https://github.com/bobs-org/bob-plugins/commit/18e6cb9980eb028d04f8841fea9f0cd2ac85d207) | test(cabinets): retain failed real-Obsidian acceptance evidence | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 22:48:25 EST |
 
 <!-- sase:referenced-by:start -->
 
