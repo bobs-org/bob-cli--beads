@@ -11,6 +11,10 @@
 
 plan-chip: add the independent snoozed chip beside TODAY, its section jump, and the effective-clock wake forecast without changing ledger budget status.
 
+## Notes
+
+[2026-11-27T00:02:24Z · bob-cli-q5.5.1.5] PROPOSED FOLLOW-UP: Restore docs:check headroom for docs/reference/vault-format.md — npm run docs:check in bob-plugins exits 1 at bob-cli base ebc45fec with 6030/6000 words on the unchanged CLI page. This reproduces the clean-base failure already noted by bob-cli-q5.5.1.4; historical tracker bob-cli-oc was closed after a prior trim, and no open vault-format task currently tracks this recurrence.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) ✓ · ⧖ 2026-11-26
@@ -20,4 +24,10 @@ plan-chip: add the independent snoozed chip beside TODAY, its section jump, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.5/README.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.5.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b7f17a5`](https://github.com/bobs-org/bob-plugins/commit/b7f17a51a58cdb44608df3fe48b689fba1005f87) | feat(snooze): add independent plan meter and wake forecast | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 2026-11-26 19:06:55 EST |

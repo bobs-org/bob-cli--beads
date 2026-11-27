@@ -219,7 +219,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q5.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.2/README.md) | [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.3/README.md) | [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.4/README.md) | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.5/README.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.5.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.land/README.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6/README.md) | [bob-cli-q5.6](bob-cli-q5.6.md) | 0 |
@@ -282,6 +282,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@27157a4`](https://github.com/bobs-org/bob-plugins/commit/27157a491ee99e42787aceb4fdeeee896ffee6f4) | feat(snooze): add alarm-clock definition marks and refresh lifecycle | [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) | 2026-11-26 16:22:06 EST |
 | bob-plugins | [`bob-plugins@7291726`](https://github.com/bobs-org/bob-plugins/commit/7291726060114bb5ba920b075b07789622e25a52) | feat(snooze): add woken task link pills | [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) | 2026-11-26 17:41:55 EST |
 | bob-plugins | [`bob-plugins@514f799`](https://github.com/bobs-org/bob-plugins/commit/514f7992af9ff5a6fa754a24d95687bcf4b144b2) | feat(snooze): paint Snoozed rows and heading summaries | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 2026-11-26 18:36:55 EST |
+| bob-plugins | [`bob-plugins@b7f17a5`](https://github.com/bobs-org/bob-plugins/commit/b7f17a51a58cdb44608df3fe48b689fba1005f87) | feat(snooze): add independent plan meter and wake forecast | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 2026-11-26 19:06:55 EST |
 
 <!-- sase:referenced-by:start -->
 

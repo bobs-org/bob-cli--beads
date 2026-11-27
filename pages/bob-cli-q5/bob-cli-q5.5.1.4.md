@@ -33,3 +33,15 @@ snoozed-row-paint: paint active, due, blocked, ignored, and struck Snoozed rows 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@514f799`](https://github.com/bobs-org/bob-plugins/commit/514f7992af9ff5a6fa754a24d95687bcf4b144b2) | feat(snooze): paint Snoozed rows and heading summaries | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 2026-11-26 18:36:55 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.5.1.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.4/README.md
+
+<!-- sase:referenced-by:end -->
