@@ -20,7 +20,7 @@ chrome: build the shared cabinet header and drawer. Delegate fold rows (Schema, 
 - **Depends on:** [bob-cli-qq.1](bob-cli-qq.1.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.5](bob-cli-qq.5.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.6](bob-cli-qq.6.md) ◐ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qq.7](bob-cli-qq.7.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qq.7](bob-cli-qq.7.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

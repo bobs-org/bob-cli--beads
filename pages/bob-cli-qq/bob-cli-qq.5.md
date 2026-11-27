@@ -32,3 +32,15 @@ keys: route `_` to the details fold (zero extras), a direct toggle (one), or an 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@5e2c0bd`](https://github.com/bobs-org/bob-plugins/commit/5e2c0bd54aaeb8c6fe4012f36277f0ace0fb0bde) | feat(cabinets): add numbered cabinet pick and \_ dispatch | [bob-cli-qq.5](bob-cli-qq.5.md) | 2026-11-26 20:54:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.5][1] | Need full phase scope, notes, and design links | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
+
+<!-- sase:referenced-by:end -->

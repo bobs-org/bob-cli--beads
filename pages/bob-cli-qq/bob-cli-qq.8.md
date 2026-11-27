@@ -15,7 +15,7 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 
 - **Depends on:** [bob-cli-qq.5](bob-cli-qq.5.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qq.6](bob-cli-qq.6.md) ◐ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qq.7](bob-cli-qq.7.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qq.7](bob-cli-qq.7.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.9](bob-cli-qq.9.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
