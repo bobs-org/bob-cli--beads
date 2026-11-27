@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qi.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.4.md) | [bob-cli-qi.4](bob-cli-qi.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-qi.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.5/README.md) | [bob-cli-qi.5](bob-cli-qi.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-qi.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.6.md) | [bob-cli-qi.6](bob-cli-qi.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.land/README.md) | [bob-cli-qi](README.md) | 14 |
+| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.land/README.md) | [bob-cli-qi](README.md) | 15 |
 
 ## Commits
 
@@ -129,6 +129,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9256060`](https://github.com/bobs-org/bob-plugins/commit/9256060952dd245ea72e703c56f150511cf5d150) | test(e2e): preserve failed takeover rerun evidence | [bob-cli-qi](README.md) | 2026-11-27 00:42:35 EST |
 | bob-plugins | [`bob-plugins@0ffb451`](https://github.com/bobs-org/bob-plugins/commit/0ffb4511ed1e77a4596f067d97a4d19330247835) | fix(ledger-tools): cancel pending Vim input when home-card navigation swallows a key | [bob-cli-qi](README.md) | 2026-11-27 06:11:30 EST |
 | bob-plugins | [`bob-plugins@994da28`](https://github.com/bobs-org/bob-plugins/commit/994da28e4690c4f188f9d416697854a12f3dac16) | docs(validation): state the real Area, inbox, and Project takeover matrix | [bob-cli-qi](README.md) | 2026-11-27 06:32:19 EST |
+| bob-cli--plans | [`bob-cli--plans@485ead7`](https://github.com/bobs-org/bob-cli--plans/commit/485ead7c44078b99f6124903b626f6807fc94313) | chore(plans): mark bob-cli-qi bank hub demotion and its takeover acceptance tale done | [bob-cli-qi](README.md) | 2026-11-27 06:32:43 EST |
 
 <!-- sase:referenced-by:start -->
 
