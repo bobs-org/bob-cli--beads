@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-qm](README.md) / bob-cli-qm.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1gr](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1gr.md) · **Assignee:** `bob-cli-qm.7` · **Size:** medium
-**Created:** 2026-11-26 12:38:00 EST
+**Created:** 2026-11-26 12:38:00 EST · **Closed:** 2026-11-27 07:13:54 EST
 **Plan:** [202611/prose\_and\_notebook\_cards.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_and_notebook_cards.md)
 
 ## Description
@@ -24,6 +24,14 @@ go-live: after bob-cli-qi.6 and bob-cli-qj.4 close, delete the preview gate, ext
 [2026-11-27T12:03:08Z · bob-cli-qm.7--1] PROPOSED FOLLOW-UP: athena /tmp tmpfs (32G) is 100% full of leftover agent acceptance fixtures (11x /tmp/bob-settings-acceptance-* at ~1G each, /tmp/bob-cli-{clean,dirty}-q5-build at 3.3G each, bob-bank-* e2e dirs), so scripts/obsidian-block-marks-e2e.cjs --self-test fails ENOSPC copying into its hardcoded /tmp/bm-e2e. Clean up the stale fixtures, and make the e2e runners honor TMPDIR and remove their scratch vaults.
 
 [2026-11-27T12:03:13Z · bob-cli-qm.7--1] PROPOSED FOLLOW-UP (for cabinets go-live bob-cli-qq.9): scripts/obsidian-cabinets-e2e.cjs GATE_DATA and its wrapper assertion scripts/test-obsidian-cabinets-e2e.cjs:73 still seed the deleted cardPreviewKinds key ["notebook","prose"]; it is now ignored, so drop it when the cabinets gate is removed.
+
+[2026-11-27T12:13:14Z · bob-cli-qm.7--2] RESOLVED (supersedes note #4): the three snooze test failures are fixed on bob-plugins master by 56baeb9f test(snooze): repair Snooze Card unit expectations and add Task Card z dispatch coverage (bob-cli-q5.6.1 land). Full npm test on 56baeb9f: 10263 pass / 1 fail / 4 skip; the lone failure is obsidian-block-marks-e2e --self-test ENOSPC on the full /tmp tmpfs (note #5 still stands; that runner ignores TMPDIR and writes to /tmp/bm-e2e). No follow-up bead needed for note #4.
+
+[2026-11-27T12:13:19Z · bob-cli-qm.7--2] PROPOSED FOLLOW-UP: bob plugins sync/list warn that the Bob vault Git index still tracks 4 files under .obsidian/plugins/bob-emoji/ (data.json, main.js, manifest.json, ...), reported as vault_ignore status=tracked in bob plugins list -f json. Pre-existing and unrelated to the cards. bob deliberately never runs git rm --cached because untracking on one host deletes the files on the others at their next pull, so Bryan needs to untrack them in a coordinated way and add .obsidian/plugins/bob-emoji/ to the vault .gitignore (see the obsidian reference memory runbooks). No open bead covers it.
+
+[2026-11-27T12:13:40Z · bob-cli-qm.7--2] GO-LIVE PROVENANCE. bob-cli master: ebc45fec (docs/prose.md, docs/notebooks.md, docs/reference/vault-format.md) and eef6cc07fe4225de1a27d052f3eee55e996b2a1a docs(memory): add Prose and Notebook Card glossary strands (glossary:prose-card + glossary:notebook-card added, glossary:property-card edited; sase memory init, just docs-gen, just docs-check PASS). bob-plugins: eca733c2 feat(cards): add Notebook and Prose property cards (preview gate + cardPreviewKinds removed, plugin docs); deployed SHA 56baeb9f44ca51df41a8a0fb00889c83d2510e28 (clean, equal to origin/master). Gates on 56baeb9f: npm run build:check PASS; npm test 10263 pass / 1 fail (block-marks e2e ENOSPC, note #5) / 4 skip; isolated pre-sync smoke PASS (layout-ready 440 ms, heap 56.1 MiB, 4/4 editor cases ok, 0 exceptions) report ~/.cache/sase/tmp/qm7-tmp/obsidian-smoke-presync2.json; bob plugins sync --no-pull without -F: 0 copied, 34 unchanged, no refusals (the snooze land had already deployed 56baeb9f); post-sync deployed-vault smoke against /home/bryan/bob PASS (layout-ready 355 ms, heap 67 MiB, 4/4 editor cases ok, 0 exceptions, deployed vault checked) report ~/.cache/sase/tmp/qm7-tmp/obsidian-smoke-postsync.json; bob plugins list -f json: ok=true count=12 synced=12 drift=0 not_installed=0. Deployed versions: bob-ledger-tools 1.172.4 (Prose + Notebook Cards), bob-articles 0.4.0, bob-navigation-hotkeys 2.107.13, task-status-cycler 1.64.2, block-id-prompt 1.46.0, bob-chips 0.16.0, bob-command-mode 0.6.0, bob-emoji 0.2.0, bob-mail 0.3.0, bob-project-tasks 1.2.0, bob-vim-surround 1.5.2, bob-vim-yank-flash 0.1.1. qm.6 acceptance evidence: file:explicit:a73e3835af9f399f7878ce73 (report), file:explicit:cdb2d6bb57b0cc11ff575034 (run log), file:explicit:42891323d222e348c4b1008b (18-shot tar).
+
+[2026-11-27T12:13:54Z · bob-cli-qm.7--2] Verified go-live: preview gate removed and both cards live on props_v1 alone; bob-cli docs (ebc45fec) and the three approved glossary edits (eef6cc07) on master; bob-plugins 56baeb9f build:check PASS, npm test 10263/1/4 (sole failure is the /tmp ENOSPC follow-up, unrelated to the cards), isolated and deployed-vault Obsidian smokes PASS, sync without -F applied cleanly, bob plugins list drift=0 across 12 plugins (bob-ledger-tools 1.172.4). No epic-symbol leftovers. Follow-ups recorded in notes #5, #6, and the bob-emoji vault-tracking note.
 
 ## Dependencies
 
@@ -52,17 +60,19 @@ go-live: after bob-cli-qi.6 and bob-cli-qj.4 close, delete the preview gate, ext
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qj.4][1] | Find what qm agents recorded about missing qj.3 plugin changes | 1 |
-| read-by | [agent:bob-cli-qm.7--1][2] | Need the phase scope, notes, and current design before resuming monitored work | 1 |
+| read-by | [agent:bob-cli-qm.7--1][2] | Need phase scope, design file, notes, and epic decisions for go-live | 2 |
 | read-by | [agent:bob-cli-qp.2][3] | Need coordination targets for ref-kit handoff | 1 |
 | read-by | [agent:bob-cli-qp.8][4] | Assess qm.7 remaining work to judge ref go-live gate | 4 |
-| read-by | [agent:research.6l.cdx][5] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
-| read-by | [agent:research.6l.gem][6] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
+| read-by | [agent:bob-cli-qp.8--1][5] | Confirm qm.7 closed done | 2 |
+| read-by | [agent:research.6l.cdx][6] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
+| read-by | [agent:research.6l.gem][7] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qj.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.2/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.8/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qp.8.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->
