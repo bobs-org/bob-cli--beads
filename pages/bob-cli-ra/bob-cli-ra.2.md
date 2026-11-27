@@ -24,4 +24,10 @@ nav: stop matching step links inside inline code, count authored step links only
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ra.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.2.md) | [bob-cli-ra.2](bob-cli-ra.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ra.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.2.md) | [bob-cli-ra.2](bob-cli-ra.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@5b34a69`](https://github.com/bobs-org/bob-plugins/commit/5b34a69caf800c6c8d8ab3f6ae202c570c0f1407) | feat(navigation): harden tree walk matching and footer copy | [bob-cli-ra.2](bob-cli-ra.2.md) | 2026-11-27 16:41:06 EST |
