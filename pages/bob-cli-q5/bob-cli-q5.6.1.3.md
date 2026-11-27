@@ -42,7 +42,9 @@ card: build the time picker, ranked suggestions, consequence footer, snoozed act
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.6.1.3][1] | Verify epic symbols before closing phase | 3 |
+| read-by | [agent:bob-cli-qi.land][2] | Check whether the snooze card phase that caused two nav-hotkeys npm failures is still active | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
 
 <!-- sase:referenced-by:end -->
