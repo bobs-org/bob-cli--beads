@@ -55,8 +55,8 @@ flowchart TD
     n1["bob-cli-qq.1: Cabinet gate, model, session state, provider registry, and the view collector [closed]"]
     n2["bob-cli-qq.10: Finish Property Card Cabinets — acceptance GO, go-live, and close bob-cli-qq [in_progress]"]
     n3["bob-cli-qq.10.1: Bring the Reading cabinet paint within the 2x inline budget [in_progress]"]
-    n4["bob-cli-qq.10.2: Fix the intermittent Reading card miss in the shared property-card host [in_progress]"]
-    n5["bob-cli-qq.10.3: Footer overlay narrow clipping, Areas title row, and runner console errors [in_progress]"]
+    n4["bob-cli-qq.10.2: Fix the intermittent Reading card miss in the shared property-card host [closed]"]
+    n5["bob-cli-qq.10.3: Footer overlay narrow clipping, Areas title row, and runner console errors [closed]"]
     n6["bob-cli-qq.10.4: Rerun real-Obsidian Cabinets acceptance to GO and close bob-cli-qq.8 [in_progress]"]
     n7["bob-cli-qq.10.5: Delete the cabinets gate, convert the tests, deploy, and smoke [in_progress]"]
     n8["bob-cli-qq.10.6: Cabinets docs in both repos, approved memory, and close bob-cli-qq.9 [in_progress]"]
@@ -107,8 +107,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.1.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.1/README.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qq.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md) | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.1.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md) | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.3.md) | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.10.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md) | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 0 |
@@ -144,6 +144,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c476086`](https://github.com/bobs-org/bob-plugins/commit/c476086a9a7135ad944993ed9ea0d715ec3fcddd) | fix(cabinets): repair acceptance fixtures and narrow bank layout | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 00:57:29 EST |
 | bob-plugins | [`bob-plugins@28e7573`](https://github.com/bobs-org/bob-plugins/commit/28e7573951895c58e1917815d96e08c646b873ae) | fix(cabinets): absorb every Live Preview catalog and keep cabinet bodies painted | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 08:08:11 EST |
 | bob-plugins | [`bob-plugins@b6ae31d`](https://github.com/bobs-org/bob-plugins/commit/b6ae31d8f5b89bc7898cefc79a0f21000c25dd87) | fix(cabinets): polish footer overlay and acceptance checks | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 2026-11-27 09:28:42 EST |
+| bob-plugins | [`bob-plugins@1c4266e`](https://github.com/bobs-org/bob-plugins/commit/1c4266ed9bf938e83719e47f93175e1d0a3e1eae) | fix(ledger-tools): recover Reading property cards after plugin reload | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 2026-11-27 10:27:41 EST |
 
 <!-- sase:referenced-by:start -->
 

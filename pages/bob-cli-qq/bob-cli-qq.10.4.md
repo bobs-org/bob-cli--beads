@@ -14,8 +14,8 @@ acceptance: run the full gate-open cabinets runner on athena twice, review every
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.10.1](bob-cli-qq.10.1.md) ◐ · ⧖ 2026-11-27
-- **Depends on:** [bob-cli-qq.10.2](bob-cli-qq.10.2.md) ◐ · ⧖ 2026-11-27
-- **Depends on:** [bob-cli-qq.10.3](bob-cli-qq.10.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qq.10.2](bob-cli-qq.10.2.md) ✓ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qq.10.3](bob-cli-qq.10.3.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
