@@ -51,14 +51,16 @@ finish: add the unit proof that folds and refreshes never write the vault or spa
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
 | read-by | [agent:bob-cli-qj.2][2] | Need the active phase scope to determine whether the bank props failure belongs in its discovery note | 1 |
-| read-by | [agent:research.6k.cld][3] | Check qi.6 dependencies for card sequencing | 2 |
-| read-by | [agent:research.6k.gem][4] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
-| read-by | [agent:research.6l.gem][5] | Check live progress of active property-card and prose epics for parallelization analysis | 1 |
+| read-by | [agent:bob-cli-qp.8][3] | Check qi.6 gate for qm.7 before ref go-live | 1 |
+| read-by | [agent:research.6k.cld][4] | Check qi.6 dependencies for card sequencing | 2 |
+| read-by | [agent:research.6k.gem][5] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+| read-by | [agent:research.6l.gem][6] | Check live progress of active property-card and prose epics for parallelization analysis | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qj.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.8/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6k.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->

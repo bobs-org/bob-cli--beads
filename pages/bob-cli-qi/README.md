@@ -99,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qi.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.4.md) | [bob-cli-qi.4](bob-cli-qi.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-qi.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.5/README.md) | [bob-cli-qi.5](bob-cli-qi.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-qi.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.6.md) | [bob-cli-qi.6](bob-cli-qi.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md) | [bob-cli-qi](README.md) | 11 |
+| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md) | [bob-cli-qi](README.md) | 12 |
 
 ## Commits
 
@@ -121,6 +121,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@ea54ab7`](https://github.com/bobs-org/bob-plugins/commit/ea54ab7947d8a8e5804b0f76c3099e14295d4b70) | fix(ledger-tools): repair home card navigation and takeover diagnostics | [bob-cli-qi](README.md) | 2026-11-26 22:36:47 EST |
 | bob-plugins | [`bob-plugins@29ae834`](https://github.com/bobs-org/bob-plugins/commit/29ae834012435a34d1bf88ef8fc52c3bc002dc1e) | test(acceptance): preserve takeover startup diagnostics | [bob-cli-qi](README.md) | 2026-11-26 23:14:14 EST |
 | bob-plugins | [`bob-plugins@94c4e3b`](https://github.com/bobs-org/bob-plugins/commit/94c4e3bfffacf0d5a4c7edc6edf71efa96792509) | test(acceptance): isolate takeover Electron temp and retain failed evidence | [bob-cli-qi](README.md) | 2026-11-27 00:27:12 EST |
+| bob-plugins | [`bob-plugins@9256060`](https://github.com/bobs-org/bob-plugins/commit/9256060952dd245ea72e703c56f150511cf5d150) | test(e2e): preserve failed takeover rerun evidence | [bob-cli-qi](README.md) | 2026-11-27 00:42:35 EST |
 
 <!-- sase:referenced-by:start -->
 
