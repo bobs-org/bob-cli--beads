@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/snoozed_tasks.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snoozed_tasks.md
 
@@ -84,7 +84,12 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.5.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 5 |
-| [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6/README.md) | [bob-cli-q5.6](bob-cli-q5.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.md) | [bob-cli-q5.6](bob-cli-q5.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md) | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md) | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md) | [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.4/README.md) | [bob-cli-q5.6.1.4](bob-cli-q5.6.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.land/README.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.md) | [bob-cli-q5.7](bob-cli-q5.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.1/README.md) | [bob-cli-q5.7.1.1](bob-cli-q5.7.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.2.md) | [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) | 0 |
@@ -96,13 +101,8 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.4.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md) | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.8.1.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.1.md) | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.8.1.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.2/README.md) | [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.4/README.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.8.1.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.5/README.md) | [bob-cli-q5.8.1.6.5](bob-cli-q5.8.1.6.5.md) | 0 |
 
-… and 4 more agents
+… and 9 more agents
 
 ## Commits
 
@@ -155,6 +155,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | bob-plugins | [`bob-plugins@24f3823`](https://github.com/bobs-org/bob-plugins/commit/24f38233d1cf1770697aa875c524728d25524ae7) | fix: render snooze clocks with state labels and masked glyphs | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 23:12:40 EST |
 | bob-plugins | [`bob-plugins@d23080a`](https://github.com/bobs-org/bob-plugins/commit/d23080a01f0acab0ac71207a5241328b05534c4b) | test(snooze): stabilize headless acceptance viewport | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-27 00:32:12 EST |
 | bob-cli--plans | [`bob-cli--plans@dbb59a2`](https://github.com/bobs-org/bob-cli--plans/commit/dbb59a2832260f1198fd2260d6646ef43ab7568b) | docs(plan): mark snooze display epic done | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-27 01:26:52 EST |
+| bob-cli | [`ee21fdf`](https://github.com/bobs-org/bob-cli/commit/ee21fdff6c84c1407a21ba6aa80f442b273a7941) | test(snooze): enable JS runner for snooze vectors | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:12:17 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -164,6 +165,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ph.land][1] | Check whether the snooze epic already tracks grammar-33 doc drift | 1 |
 | read-by | [agent:bob-cli-q5.5.1.land][2] | Need outer epic plan and phases context | 2 |
+| read-by | [agent:bob-cli-q5.5.1.land--a][2] | Confirm the outer snoozed-tasks epic remains open after q5.5 closeout | 4 |
 | read-by | [agent:bob-cli-q5.7.1.land--4][3] | confirm outer epic left open | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-ph.land/README.md

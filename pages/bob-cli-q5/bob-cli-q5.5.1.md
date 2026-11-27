@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/snooze_display_marks.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_display_marks.md
 
@@ -57,6 +57,7 @@ Complete bob-cli-q5.5 with live snoozed definition marks, woken-link pills, Snoo
 | read-by | [agent:bob-cli-q5.5.1.3][2] | Need governing decisions and prior phase notes for the woken-pills scope | 1 |
 | read-by | [agent:bob-cli-q5.5.1.land][3] | Need the epic scope, children, and linked plan file | 1 |
 | read-by | [agent:bob-cli-q5.5.1.land--5][3] | Verify phase completion and existing acceptance evidence before deciding closure | 1 |
+| read-by | [agent:bob-cli-q5.5.1.land--a][3] | Check whether the clock-render follow-up evidence has been recorded and whether it is resolved | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.3/README.md

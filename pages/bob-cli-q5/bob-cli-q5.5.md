@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:02441f8e4443975b75eab2cb | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -103,6 +103,7 @@ plugin-marks: the alarm-clock definition mark that replaces 🍅 while asleep (a
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.5.1.land][1] | Need the parent link phase scope and notes | 1 |
 | read-by | [agent:bob-cli-q5.5.1.land--5][1] | Verify full epic scope against plan and recorded phase evidence before deciding closure | 1 |
+| read-by | [agent:bob-cli-q5.5.1.land--a][1] | Need q5.5 scope, status, and evidence to determine whether it is fully complete | 5 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md
 
