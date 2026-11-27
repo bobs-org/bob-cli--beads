@@ -16,7 +16,7 @@
 | related | file:explicit:b43b18736a494f39c0fdc3fc | switch-on smoke evidence bundle (run-3 report, 67 PNGs, regression probe) |
 | related | file:explicit:c3a82701e970e5187726a714 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -39,7 +39,7 @@ switch-on: delete 240w and every gate branch, and drop the dead preview keys fro
 - **Depends on:** [bob-cli-qq.10.4](bob-cli-qq.10.4.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qq.10.6](bob-cli-qq.10.6.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-ra.2](../bob-cli-ra/bob-cli-ra.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-ra.4](../bob-cli-ra/bob-cli-ra.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-ra.4](../bob-cli-ra/bob-cli-ra.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -60,11 +60,13 @@ switch-on: delete 240w and every gate branch, and drop the dead preview keys fro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.10.5][1] | Confirm switch-on evidence artifacts are attached | 2 |
-| read-by | [agent:research.6o.final][2] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
-| read-by | [agent:research.6o.gem][3] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+| read-by | [agent:bob-cli-ra.4][2] | Phase cards gate: confirm qq.10.5 is CLOSED before editing card DOM | 1 |
+| read-by | [agent:research.6o.final][3] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
+| read-by | [agent:research.6o.gem][4] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.4/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
 
 <!-- sase:referenced-by:end -->

@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-r5][2] | Cabinets go-live (bob-cli-qq.9) still edits kit hunks near 240m/240q; land this after qq closes to avoid colliding |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-r5/README.md
@@ -32,6 +32,19 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 [2026-11-27T12:29:31Z · bob-cli-qm.land] DISCOVERED ISSUE (from the bob-cli-qm landing; proposed by bob-cli-qm.7--1 note #6): bob-cli-qm.7 (bob-plugins eca733c2) deleted the Notebook/Prose preview gate and its cardPreviewKinds key. The cabinets runner still seeds the dead key: bob-plugins scripts/obsidian-cabinets-e2e.cjs:20 GATE_DATA has cardPreviewKinds: ["notebook", "prose"], line 490 gateClosed has cardPreviewKinds: [], and the wrapper scripts/test-obsidian-cabinets-e2e.cjs:73 pins that seed with assert.match. ledger-tools ignores the key, so nothing breaks. Drop it from both objects and the wrapper assertion when bob-cli-qq.9 removes cabinetsPreview. Keep scripts/test-ledger-tools-cabinets-kit.cjs:102: it deliberately passes cardPreviewKinds as a foreign key to prove it never enables cabinets.
 
 [2026-11-27T13:16:39Z · bob-cli-qp.land] DISCOVERED ISSUE (from the bob-cli-qp landing; proposed by bob-cli-qp.7 note #3 plus lander integration review): (1) The cabinets runner counts only uncaught exceptions. bob-plugins scripts/obsidian-cabinets-e2e.cjs:700 records Runtime.exceptionThrown and gates no-runtime-exceptions at :1483, but it never subscribes to Runtime.consoleAPICalled. CodeMirror reports extension and keymap failures through console.error, which is how the 240wg atomicRanges TypeError ('.between is not a function', introduced by a4bd99f2) hit every Live Preview Vim/arrow motion in the deployed vault without ever failing a cabinets run. bob-cli-qp.7 repaired the facet (propertyCardCabinetAbsorbAtomicRangeSet, unit-covered in scripts/test-ledger-tools-cabinets-absorption.cjs since 2bd92b19). Mirror the Ref Card runner (scripts/obsidian-ref-card-acceptance-e2e.cjs:523 consoleErrors plus flows.cjs:602) so console.error during cursor motions fails acceptance. (2) bob-cli-qp.8 (4410a5bf) deleted the Ref Card gate, so refCardPreview is a dead key like cardPreviewKinds (note #1). The runner still seeds it at obsidian-cabinets-e2e.cjs:20 (GATE_DATA refCardPreview: true) and :780 (gateClosed refCardPreview: false), and scripts/test-obsidian-cabinets-e2e.cjs:77 pins it with assert.match. ledger-tools ignores it, so nothing breaks. Drop it together with cardPreviewKinds when bob-cli-qq.9 removes cabinetsPreview, and keep scripts/test-ledger-tools-cabinets-kit.cjs:102 as the foreign-key negative test. Left to qq because qq.8 and qq.9 own and are actively changing these files.
+
+[2026-11-27T23:18:24Z · bob-cli-qq.10.land] RESOLVED (bob-cli-qq.10 landing): note #1 and note #2 part 2 (dead cardPreviewKinds/refCardPreview runner keys): switch-on 64268af9 dropped them from the cabinets runner (no GATE_DATA/gateClosed remain), and scripts/test-obsidian-cabinets-e2e.cjs:83 now asserts they are retired. scripts/test-ledger-tools-cabinets-kit.cjs:100-106 keeps the stale-key negative test (cabinetsPreview/cardPreviewKinds/refCardPreview neither disable cabinets nor throw). Note #2 part 1 (console.error never counted): polish b6ae31d8 subscribes Runtime.consoleAPICalled (obsidian-cabinets-e2e.cjs:743), adds the mandatory no-console-errors check (:1603), and wraps Live Preview Vim/arrow motions in cursor-motions-no-console-errors (:1423). GO runs go-3/go-4 and switch-on smoke run-3 each recorded 0 console errors.
+
+[2026-11-27T23:22:26Z · bob-cli-qq.10.land] LANDING BLOCKER (bob-cli-qq.10.land, after closing child epic bob-cli-qq.10). bob-cli-qq stays OPEN and plan:202611/property_card_cabinets.md stays unfinished.
+
+RECHECKED AND OK: phases qq.1-qq.9 and child epic qq.10 are closed, and every "Epic acceptance (land agent)" bullet holds on bob-plugins master f35848b4. cabinetsPreview and all gate branches are gone. bob plugins sync -d shows 34 unchanged. GO is on qq.8 (file:explicit:36ae0363a0a42f0422dbe45c) and the smoke evidence on qq.9/qq.10.5 (file:explicit:b43b18736a494f39c0fdc3fc). 191/191 focused and passive suites pass, with zero writes/spawns. build:check and docs:check pass. No bob-cli code changed. epic-symbols for bob-cli-qq: none. Notes #1/#2 are resolved (note #3). qq.7 #3 (stray console.log) was removed by 64268af9.
+
+BLOCKER: the plan's own Design "Reveal and navigation" contract (line 499) and the acceptance matrix Absorption row (line 964) are not fully met or proven:
+1. `#Records` heading navigation never opens the Records cabinet. cabinetRecordsReveal (241tb:656) exists, but its only caller path, the document click handler propertyCardCabinetHostRevealNavigation (241al:540-580), resolves kinds from PROPERTY_CARD_HOST_CATALOG_HEADINGS (areas/projects/notebooks/albums) only. A `[[album#Records]]` link or an Outline-pane "Records" click on a closed Records cabinet falls through to native navigation onto the hidden H2.
+2. Outline-pane reveal is implemented for host kinds (241al:543,552) but has no unit test and no live runner check.
+3. Find's strict-inside reveal is unit-tested (test-ledger-tools-cabinets-absorption) but has no live runner check. The qq.3 note #2 PROPOSED FOLLOW-UP deferred live confirmation of heading-nav and Find reveal to qq.8. qq.8's GO runs only cover `[[cash#Projects]]` (fail-open-heading-navigation-reveals-cabinet), and the 10.4 review file:explicit:5bf65e106cb27f85a4297967 does not mention Find or the Outline pane.
+
+TO CLOSE: wire records into the heading-navigation reveal (link and Outline pane) and add unit cases for `#Records` and Outline-pane reveal. Add runner checks to scripts/obsidian-cabinets-e2e.cjs for Find strict-inside reveal, Outline-pane reveal, and `#Records` reveal. Bump/build/test/sync per bob-plugins AGENTS.md, run the runner once on athena, and retain the evidence. Then close bob-cli-qq and mark plan:202611/property_card_cabinets.md done. Related lander task bob-cli-rp (Ctrl+J/K onto absorbed H2s) is the same class of navigation gap, but it is separate work.
 
 ## Phases
 
@@ -53,7 +66,7 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 flowchart TD
     n0["bob-cli-qq: Property Card Cabinets [in_progress]"]
     n1["bob-cli-qq.1: Cabinet gate, model, session state, provider registry, and the view collector [closed]"]
-    n2["bob-cli-qq.10: Finish Property Card Cabinets — acceptance GO, go-live, and close bob-cli-qq [in_progress]"]
+    n2["bob-cli-qq.10: Finish Property Card Cabinets — acceptance GO, go-live, and close bob-cli-qq [closed]"]
     n3["bob-cli-qq.10.1: Bring the Reading cabinet paint within the 2x inline budget [closed]"]
     n4["bob-cli-qq.10.2: Fix the intermittent Reading card miss in the shared property-card host [closed]"]
     n5["bob-cli-qq.10.3: Footer overlay narrow clipping, Areas title row, and runner console errors [closed]"]
@@ -113,7 +126,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md) | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2 |
-| [bbugyi200.apollo.bob-cli-qq.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.land/README.md) | [bob-cli-qq.10](bob-cli-qq.10.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.land/README.md) | [bob-cli-qq.10](bob-cli-qq.10.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.2.md) | [bob-cli-qq.2](bob-cli-qq.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.4.md) | [bob-cli-qq.4](bob-cli-qq.4.md) | 1 |
@@ -151,6 +164,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@64268af`](https://github.com/bobs-org/bob-plugins/commit/64268af9b91195b065e69cedbfc67733d91b4222) | feat(cabinets)!: switch property-card cabinets on and delete the preview gate | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 2026-11-27 17:17:44 EST |
 | bob-cli | [`31fe163`](https://github.com/bobs-org/bob-cli/commit/31fe16372e608ae8813edee41b21a9dfdc266c96) | docs(memory): cabinets glossary, card strands, and absorb-at-render-time decision | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2026-11-27 17:45:53 EST |
 | bob-plugins | [`bob-plugins@f35848b`](https://github.com/bobs-org/bob-plugins/commit/f35848b4c1609395af69b15fad1762c3e0e3c25b) | docs(cabinets): add cabinets reference and update the family pages | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2026-11-27 17:47:04 EST |
+| bob-cli--plans | [`bob-cli--plans@9c7a669`](https://github.com/bobs-org/bob-cli--plans/commit/9c7a669a0b77cccca9f24aff033afa8aa4af4b34) | chore(plans): mark finish\_property\_card\_cabinets done after bob-cli-qq.10 landing | [bob-cli-qq.10](bob-cli-qq.10.md) | 2026-11-27 18:23:33 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -160,24 +174,26 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets already knows about the atomicRanges console-error gap and stale ref gate keys in its runner | 2 |
 | read-by | [agent:bob-cli-qq.10.2][2] | Need parent plan path and design contract for reading-miss | 1 |
-| read-by | [agent:bob-cli-qq.5][3] | Need epic scope for phase qq.5 | 1 |
-| read-by | [agent:bob-cli-qq.7][4] | need epic scope and sibling repo info | 2 |
-| read-by | [agent:bob-cli-qq.8--3][5] | Confirm the parent bead scope and preserve its status as requested | 1 |
-| read-by | [agent:research.6o.cdx][6] | Inspect the active epic for independent link-walk research | 1 |
-| read-by | [agent:research.6o.cld][7] | Need to know the in-progress epic to plan parallel link-walk work | 1 |
-| read-by | [agent:research.6o.gem][8] | Understand bob-cli-qq epic scope and phases for parallel planning | 1 |
-| read-by | [agent:research.6o.grk][9] | Need the in-progress cabinets epic scope for parallel-work coordination | 1 |
-| read-by | [agent:research.6o.mus][10] | Research link-walk extension: understand in-progress cabinets epic scope for parallel-work assessment | 1 |
+| read-by | [agent:bob-cli-qq.10.6][3] | need parent plan path for memory drafts | 1 |
+| read-by | [agent:bob-cli-qq.5][4] | Need epic scope for phase qq.5 | 1 |
+| read-by | [agent:bob-cli-qq.7][5] | need epic scope and sibling repo info | 2 |
+| read-by | [agent:bob-cli-qq.8--3][6] | Confirm the parent bead scope and preserve its status as requested | 1 |
+| read-by | [agent:research.6o.cdx][7] | Inspect the active epic for independent link-walk research | 1 |
+| read-by | [agent:research.6o.cld][8] | Need to know the in-progress epic to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.gem][9] | Understand bob-cli-qq epic scope and phases for parallel planning | 1 |
+| read-by | [agent:research.6o.grk][10] | Need the in-progress cabinets epic scope for parallel-work coordination | 1 |
+| read-by | [agent:research.6o.mus][11] | Research link-walk extension: understand in-progress cabinets epic scope for parallel-work assessment | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cdx/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.grk/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cdx/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.grk/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.mus/README.md
 
 <!-- sase:referenced-by:end -->

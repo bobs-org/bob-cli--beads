@@ -18,7 +18,7 @@
 | related | file:explicit:5bf65e106cb27f85a4297967 | GO acceptance review for the Cabinets acceptance phase |
 | related | file:explicit:c152d5bb0c1567dc6d249e66 | attached via sase artifact create --bead |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -81,20 +81,22 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 | read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets already knows about the atomicRanges console-error gap and stale ref gate keys in its runner | 1 |
 | read-by | [agent:bob-cli-qq.10.4][2] | Acceptance phase: need qq.8 notes, prior attempts, and follow-ups | 2 |
 | read-by | [agent:bob-cli-qq.10.5][3] | switch-on gate: confirm qq.8 closed on GO and qm.7/qp.8 closed | 1 |
-| read-by | [agent:bob-cli-qq.7][4] | list epic children statuses | 1 |
-| read-by | [agent:bob-cli-qq.8][5] | Check whether the attempts 18-29 evidence artifact attached | 2 |
-| read-by | [agent:bob-cli-qq.8--2][5] | Resume the requested real-Obsidian Cabinets acceptance and inspect current phase obligations | 1 |
-| read-by | [agent:bob-cli-qq.8--3][5] | Inspect the assigned Cabinets epic scope and its required closure workflow | 1 |
-| read-by | [agent:bob-cli-qq.8--7][5] | Check assigned epic phases and notes before completing the requested acceptance closeout | 1 |
-| read-by | [agent:research.6o.cld][6] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
-| read-by | [agent:research.6o.final][7] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
+| read-by | [agent:bob-cli-qq.10.6][4] | check acceptance bead status | 1 |
+| read-by | [agent:bob-cli-qq.7][5] | list epic children statuses | 1 |
+| read-by | [agent:bob-cli-qq.8][6] | Check whether the attempts 18-29 evidence artifact attached | 2 |
+| read-by | [agent:bob-cli-qq.8--2][6] | Resume the requested real-Obsidian Cabinets acceptance and inspect current phase obligations | 1 |
+| read-by | [agent:bob-cli-qq.8--3][6] | Inspect the assigned Cabinets epic scope and its required closure workflow | 1 |
+| read-by | [agent:bob-cli-qq.8--7][6] | Check assigned epic phases and notes before completing the requested acceptance closeout | 1 |
+| read-by | [agent:research.6o.cld][7] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.final][8] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
 
 <!-- sase:referenced-by:end -->

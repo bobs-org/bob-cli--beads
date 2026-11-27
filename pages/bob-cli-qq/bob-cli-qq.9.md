@@ -16,7 +16,7 @@
 | related | file:explicit:b43b18736a494f39c0fdc3fc | go-live post-switch smoke evidence from bob-cli-qq.10.5 |
 | related | file:explicit:c3a82701e970e5187726a714 | go-live post-switch smoke evidence from bob-cli-qq.10.5 |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -47,13 +47,15 @@ go-live: once the gating sibling go-lives have closed, delete the gate and updat
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets go-live is actively editing the cabinets e2e runner that still writes the removed refCardPreview gate key | 3 |
-| read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
-| read-by | [agent:research.6o.cld][3] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
-| read-by | [agent:research.6o.final][4] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
+| read-by | [agent:bob-cli-qq.10.6][2] | check go-live bead status before docs-memory close | 1 |
+| read-by | [agent:bob-cli-qq.7][3] | list epic children statuses | 1 |
+| read-by | [agent:research.6o.cld][4] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.final][5] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
 
 <!-- sase:referenced-by:end -->
