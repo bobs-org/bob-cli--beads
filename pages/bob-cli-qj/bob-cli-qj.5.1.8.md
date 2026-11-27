@@ -13,7 +13,7 @@ prose-catalog: only when prose_catalog is accepted, add a generated Prose catalo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

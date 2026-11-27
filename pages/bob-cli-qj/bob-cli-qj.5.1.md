@@ -31,6 +31,8 @@ One Obsidian gesture turns an authored section of an area, project, or prose not
 
 [2026-11-27T15:57:34Z · bob-cli-r7.2--1] DISCOVERED ISSUE: clippy_gate still red on master at question_mark section_model.rs:924 and items_after_test_module relocate.rs:813 (qj.5.1.2 / qj.5.1.3 leftovers). bob-cli-r7.2 recovery applied the mechanical repairs (let rest = ...?; helpers moved above mod tests) so just check can land unrelated docs-mount work. Please keep those two files in that shape.
 
+[2026-11-27T17:52:53Z · bob-cli-r7.land] DISCOVERED ISSUE (bob-cli-r7.land running just check on bob-cli master 7213dd89, athena): clippy now passes, but cargo test --lib fails 2 of 8270: native::catalog::tests::every_path_resolves_to_a_public_leaf panics at src/native/catalog/tests.rs:63 'excluded path ["prose", "extract"] is not a public leaf' and native::completion::kinds::tests::every_value_arg_has_a_decision panics at src/native/completion/kinds.rs:1352 'value-taking args without a kinds decision: ["prose extract:expect", "prose extract:line"]'. Both come from a558ce11 (bob-cli-qj.5.1.4): it adds a catalog EXCLUDED entry for the .hide(true) extract subcommand and two value args with no kinds decision. Impact: just check is red for every bob-cli agent until fixed. Fix: add kinds decisions for extract --expect/--line, and either un-hide extract or drop/adjust the EXCLUDED entry until it is public (inline will need the same).
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-qw](../bob-cli-qw/README.md) ◇ · ⧖ 2026-11-27
