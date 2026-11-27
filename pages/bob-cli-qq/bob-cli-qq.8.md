@@ -26,7 +26,7 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 6 |
+| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 7 |
 
 ## Commits
 
@@ -38,6 +38,7 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 | bob-plugins | [`bob-plugins@66667b1`](https://github.com/bobs-org/bob-plugins/commit/66667b1c224fd2403f0ac7ceb9d46850d091441e) | test(cabinets): preserve attempt 4 report and attempt 5 launcher | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 23:38:01 EST |
 | bob-plugins | [`bob-plugins@f279186`](https://github.com/bobs-org/bob-plugins/commit/f279186d37b5cad0054cec52bfb1e9b85d0e5f4e) | fix(cabinets): preserve Obsidian startup diagnostics | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 23:50:30 EST |
 | bob-plugins | [`bob-plugins@e9f0c07`](https://github.com/bobs-org/bob-plugins/commit/e9f0c0703a8b10576663374883e2bb4b0ad277c2) | fix(cabinets-e2e): isolate Xvfb temporary storage | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 00:16:24 EST |
+| bob-plugins | [`bob-plugins@c476086`](https://github.com/bobs-org/bob-plugins/commit/c476086a9a7135ad944993ed9ea0d715ec3fcddd) | fix(cabinets): repair acceptance fixtures and narrow bank layout | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 00:57:29 EST |
 
 <!-- sase:referenced-by:start -->
 
