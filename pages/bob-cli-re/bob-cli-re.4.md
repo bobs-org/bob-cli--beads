@@ -20,7 +20,7 @@ timed-entry-close: fix the x=build stale Pomodoro reference, preserve closed tim
 ## Dependencies
 
 - **Depends on:** [bob-cli-re.3](bob-cli-re.3.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-re.5](bob-cli-re.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-re.5](bob-cli-re.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ timed-entry-close: fix the x=build stale Pomodoro reference, preserve closed tim
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`f0ee435`](https://github.com/bobs-org/bob-cli/commit/f0ee43574e93287b89a1874415327c79d68df2a3) | fix(capture): pin Pomodoro Next refs after recording a timed entry | [bob-cli-re.4](bob-cli-re.4.md) | 2026-11-27 18:09:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-re.4][1] | Need full description, notes, design file, and DECISIONS | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.4/README.md
+
+<!-- sase:referenced-by:end -->

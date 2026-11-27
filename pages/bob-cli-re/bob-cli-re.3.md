@@ -41,7 +41,9 @@ idless-cancel: fix the capture -X stale task-block reference, verify JSON and wr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-re.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-re.4][2] | Need predecessor phase notes and how the similar stale-block-reference fix landed | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.4/README.md
 
 <!-- sase:referenced-by:end -->
