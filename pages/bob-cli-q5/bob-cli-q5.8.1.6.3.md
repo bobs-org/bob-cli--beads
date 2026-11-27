@@ -28,13 +28,21 @@ hud-repair: exclude the HUD from capture, render the TODAY link budget and woke 
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 3 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@6f959f2`](https://github.com/bobs-org/bob-mac-capture/commit/6f959f2d7a3447a69f72c2b7616561404d8fa32c) | fix(snooze): bring wake HUD up to delivery contract | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-26 23:20:17 EST |
+| bob-mac-capture | [`bob-mac-capture@d302e01`](https://github.com/bobs-org/bob-mac-capture/commit/d302e01fdd4b36e414bebc0f52da5122048e7b9b) | fix(snooze): repair macOS CI build for wake HUD delivery | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-27 00:22:08 EST |
+| bob-mac-capture | [`bob-mac-capture@586d9cc`](https://github.com/bobs-org/bob-mac-capture/commit/586d9ccbe16353ef6cdd16dadf5dbc7d9817eaf6) | fix(snooze): clear beacon on bob-confirmed day boundary in test | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-27 00:50:37 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.8.1.6](bob-cli-q5.8.1.6.md) / bob-cli-q5.8.1.6.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.land.md) · **Assignee:** `bob-cli-q5.8.1.6.4` · **Size:** medium
-**Created:** 2026-11-26 20:05:50 EST
+**Created:** 2026-11-26 20:05:50 EST · **Closed:** 2026-11-27 02:39:29 EST
 **Plan:** [202611/mac\_snooze\_wake\_notice\_repair.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_snooze_wake_notice_repair.md)
 
 ## Description
@@ -17,6 +17,8 @@ records-repair: keep the base status glyph template-tinted beside an amber alarm
 
 [2026-11-27T06:52:41Z · bob-cli-q5.8.1.6.4] PROPOSED FOLLOW-UP: Reconcile the baseline just docs-check failure at docs/reference/vault-format.md (6030/6000 words); this phase did not change that page and the existing task bob-cli-oc tracks the same overflow.
 
+[2026-11-27T07:39:29Z · bob-cli-q5.8.1.6.4--2] Verified exact-SHA macOS CI passed: run 45957005662, snapshot SHA e443aa407410a1cc27dc35ef106c517fdafe3c6f (macOS 26 SwiftPM: lint, build, test, bundle/signature, launch smoke, install/reinstall all passed). sase bead epic-symbols reported no --epic-symbol entries. Local Mac targets remain unverified; scratch compile was unavailable because SSH to Mac timed out. Existing docs and portable-check follow-ups remain recorded.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) ✓ · ⧖ 2026-11-26
@@ -26,7 +28,13 @@ records-repair: keep the base status glyph template-tinted beside an amber alarm
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.4.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.4.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@ba21318`](https://github.com/bobs-org/bob-mac-capture/commit/ba213181c3f974997f9839fcb77114cee3b495c4) | feat(capture): add snooze wake notices and status glyph | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 2026-11-27 02:42:33 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ notice-acceptance: with a compatible bob and the built app, run the six end-to-e
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
