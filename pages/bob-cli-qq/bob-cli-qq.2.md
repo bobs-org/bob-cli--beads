@@ -17,7 +17,7 @@ footer: add a LIFO overlay API on the ledger walker-footer status item. Live wal
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qq.5](bob-cli-qq.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qq.5](bob-cli-qq.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

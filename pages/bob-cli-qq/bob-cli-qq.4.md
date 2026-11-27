@@ -18,7 +18,7 @@ chrome: build the shared cabinet header and drawer. Delegate fold rows (Schema, 
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.1](bob-cli-qq.1.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qq.5](bob-cli-qq.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qq.5](bob-cli-qq.5.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.6](bob-cli-qq.6.md) ◐ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.7](bob-cli-qq.7.md) ◐ · ⧖ 2026-11-26
 
@@ -33,3 +33,15 @@ chrome: build the shared cabinet header and drawer. Delegate fold rows (Schema, 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@9527ee1`](https://github.com/bobs-org/bob-plugins/commit/9527ee14e2fa4193bdd3fbc9d85017094f39ef90) | feat(ledger-tools): add cabinet plugin features and refresh docs inventory | [bob-cli-qq.4](bob-cli-qq.4.md) | 2026-11-26 20:42:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.4--2][1] | Confirm the epic scope and current status before closing after verification | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.4.md
+
+<!-- sase:referenced-by:end -->
