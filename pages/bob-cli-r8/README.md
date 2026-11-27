@@ -28,7 +28,7 @@ The five open task beads that now cost agents the most time are fixed and closed
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-r8.1](bob-cli-r8.1.md) | Poseidon chezmoi isolation test matches the Mac cargo config | ✓ closed | small | 2026-11-27 | 1 | 0 |
-| [bob-cli-r8.2](bob-cli-r8.2.md) | Deploy guard runs the inclusion proof in both stamp arms | ✓ closed | medium | 2026-11-27 | 1 | 1 |
+| [bob-cli-r8.2](bob-cli-r8.2.md) | Deploy guard runs the inclusion proof in both stamp arms | ✓ closed | medium | 2026-11-27 | 1 | 2 |
 | [bob-cli-r8.3](bob-cli-r8.3.md) | Real-Obsidian e2e runners keep bounded failure scratch | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 | [bob-cli-r8.4](bob-cli-r8.4.md) | Stable task-wikilink cold-build 16 ms chunk measurement | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 
@@ -55,7 +55,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-r8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.1/README.md) | [bob-cli-r8.1](bob-cli-r8.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-r8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.2/README.md) | [bob-cli-r8.2](bob-cli-r8.2.md) | 1 |
+| [bbugyi200.athena.bob-cli-r8.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.2/README.md) | [bob-cli-r8.2](bob-cli-r8.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-r8.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.3/README.md) | [bob-cli-r8.3](bob-cli-r8.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-r8.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.4/README.md) | [bob-cli-r8.4](bob-cli-r8.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-r8.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.land/README.md) | [bob-cli-r8](README.md) | 0 |
@@ -65,3 +65,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dbdc7d2`](https://github.com/bobs-org/bob-cli/commit/dbdc7d24b28b2e72b2a3119155800738d4ad16ec) | feat(plugins): run deploy inclusion proof in both stamp arms | [bob-cli-r8.2](bob-cli-r8.2.md) | 2026-11-27 13:42:45 EST |
+| bob-plugins | [`bob-plugins@ce4cb69`](https://github.com/bobs-org/bob-plugins/commit/ce4cb692999ad7db70015af5baaa11e85a079da6) | docs(deployment): sync guard rule covers clean stamps and dirty incoming | [bob-cli-r8.2](bob-cli-r8.2.md) | 2026-11-27 13:43:11 EST |
