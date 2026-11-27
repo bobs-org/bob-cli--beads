@@ -22,7 +22,13 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.8/README.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@7e0ba56`](https://github.com/bobs-org/bob-plugins/commit/7e0ba5695e86ea88c4f103e682c38e342f43a701) | test(cabinets): add real Obsidian acceptance runner | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 22:14:41 EST |
 
 <!-- sase:referenced-by:start -->
 

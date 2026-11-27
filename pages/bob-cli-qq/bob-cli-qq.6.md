@@ -39,8 +39,10 @@ host-cabinets: register providers for the four owner catalogs. Each renders the 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qq.7][1] | list epic children statuses | 3 |
+| read-by | [agent:bob-cli-qq.6][1] | Need the phase scope, design file, decisions, and prior phase notes before completing assigned work | 2 |
+| read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 3 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.6/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 
 <!-- sase:referenced-by:end -->
