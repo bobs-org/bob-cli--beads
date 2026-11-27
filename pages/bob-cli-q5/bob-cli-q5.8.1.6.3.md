@@ -13,7 +13,7 @@ hud-repair: exclude the HUD from capture, render the TODAY link budget and woke 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

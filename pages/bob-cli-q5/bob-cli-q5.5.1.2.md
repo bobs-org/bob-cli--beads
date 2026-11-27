@@ -28,13 +28,7 @@ definition-marks: implement alarm-clock definition marks, shared display helpers
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.2/README.md) | [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@27157a4`](https://github.com/bobs-org/bob-plugins/commit/27157a491ee99e42787aceb4fdeeee896ffee6f4) | feat(snooze): add alarm-clock definition marks and refresh lifecycle | [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) | 2026-11-26 16:22:06 EST |
+| [bbugyi200.athena.bob-cli-q5.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.2/README.md) | [bob-cli-q5.5.1.2](bob-cli-q5.5.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -43,7 +37,9 @@ definition-marks: implement alarm-clock definition marks, shared display helpers
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.5.1.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-q5.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md
 
 <!-- sase:referenced-by:end -->

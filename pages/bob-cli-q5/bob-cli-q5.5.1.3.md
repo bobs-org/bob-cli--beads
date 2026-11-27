@@ -26,13 +26,7 @@ woken-pills: render same-note wake history before eligible open ledger links, wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.3/README.md) | [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@7291726`](https://github.com/bobs-org/bob-plugins/commit/7291726060114bb5ba920b075b07789622e25a52) | feat(snooze): add woken task link pills | [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) | 2026-11-26 17:41:55 EST |
+| [bbugyi200.athena.bob-cli-q5.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.3/README.md) | [bob-cli-q5.5.1.3](bob-cli-q5.5.1.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -41,7 +35,9 @@ woken-pills: render same-note wake history before eligible open ledger links, wi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.5.1.3][1] | Need the phase scope, notes, and design file before checking or continuing its work | 1 |
+| read-by | [agent:bob-cli-q5.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md
 
 <!-- sase:referenced-by:end -->
