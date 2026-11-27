@@ -20,7 +20,7 @@ frees-marks-budget: replace the single cold CPU sample in the bob-plugins frees-
 ## Dependencies
 
 - **Depends on:** [bob-cli-r7.2](bob-cli-r7.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-r7.4](bob-cli-r7.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-r7.4](bob-cli-r7.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
