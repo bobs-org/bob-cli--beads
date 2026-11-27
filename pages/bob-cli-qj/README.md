@@ -59,7 +59,7 @@ flowchart TD
     n7["bob-cli-qj.5.1.1: Trash files and recover interrupted vault rewrites [closed]"]
     n8["bob-cli-qj.5.1.2: Prose section selection and eligibility [closed]"]
     n9["bob-cli-qj.5.1.3: Relocate links around a moved section [closed]"]
-    n10["bob-cli-qj.5.1.4: bob prose extract planner and hidden CLI [in_progress]"]
+    n10["bob-cli-qj.5.1.4: bob prose extract planner and hidden CLI [closed]"]
     n11["bob-cli-qj.5.1.5: bob prose inline and the round-trip guarantee [in_progress]"]
     n12["bob-cli-qj.5.1.6: Contract docs, host probe, and vault-clone dogfood [in_progress]"]
     n13["bob-cli-qj.5.1.7: Bob Prose extract and inline gesture in Obsidian [in_progress]"]
@@ -106,7 +106,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.1/README.md) | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.2.md) | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.3/README.md) | [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.4/README.md) | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.4/README.md) | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.5/README.md) | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.6/README.md) | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.7/README.md) | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 0 |
@@ -124,6 +124,7 @@ flowchart TD
 | bob-cli | [`85d2fb3`](https://github.com/bobs-org/bob-cli/commit/85d2fb32b0f99a7555289c07b40f82c92807e28a) | feat(prose): add section selection and eligibility model | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 2026-11-27 08:00:59 EST |
 | bob-cli | [`4f55514`](https://github.com/bobs-org/bob-cli/commit/4f55514f9eefe091d57a17ac6a86b13a58883c45) | feat(vault-rewrite): crash-safe rewrite with trash, journal, and recovery | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 2026-11-27 09:13:08 EST |
 | bob-cli | [`9f461d5`](https://github.com/bobs-org/bob-cli/commit/9f461d52c51251f26e778c7eba6550cebc81a8df) | feat(prose): relocate links around extracted sections | [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) | 2026-11-27 09:31:41 EST |
+| bob-cli | [`a558ce1`](https://github.com/bobs-org/bob-cli/commit/a558ce11176fcb9d03e8a11be917f8d671810b32) | feat(prose): plan and write prose-section extraction | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 2026-11-27 11:18:45 EST |
 
 <!-- sase:referenced-by:start -->
 

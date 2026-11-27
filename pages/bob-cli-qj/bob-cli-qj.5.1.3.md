@@ -20,7 +20,7 @@ link-relocation: a relocation map and vault-wide rewriter that repairs links in 
 ## Dependencies
 
 - **Depends on:** [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ link-relocation: a relocation map and vault-wide rewriter that repairs links in 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9f461d5`](https://github.com/bobs-org/bob-cli/commit/9f461d52c51251f26e778c7eba6550cebc81a8df) | feat(prose): relocate links around extracted sections | [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) | 2026-11-27 09:31:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qj.5.1.3][1] | Need the phase scope, notes, and design file before implementation | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

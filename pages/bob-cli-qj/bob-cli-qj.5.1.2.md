@@ -24,7 +24,7 @@ section-model: a pure prose-module classifier that resolves --section and --line
 ## Dependencies
 
 - **Blocks:** [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

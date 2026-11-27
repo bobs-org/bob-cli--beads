@@ -13,7 +13,7 @@ inline: the inline planner and bob prose inline, both commands unhidden together
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) ◐ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) ◐ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qj.5.1.8](bob-cli-qj.5.1.8.md) ◐ · ⧖ 2026-11-27
