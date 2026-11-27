@@ -91,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-rc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.2/README.md) | [bob-cli-rc.2](bob-cli-rc.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-rc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.3/README.md) | [bob-cli-rc.3](bob-cli-rc.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-rc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.4/README.md) | [bob-cli-rc.4](bob-cli-rc.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-rc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rc.land.md) | [bob-cli-rc](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-rc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rc.land.md) | [bob-cli-rc](README.md) | 2 |
 
 ## Commits
 
@@ -103,6 +103,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@592c3c9`](https://github.com/bobs-org/bob-plugins/commit/592c3c9afbad50b95af1bda7029158da15923931) | feat(navigation): wire Section Map lifecycle, jump, and pinned peek | [bob-cli-rc.3](bob-cli-rc.3.md) | 2026-11-27 16:53:20 EST |
 | bob-plugins | [`bob-plugins@dca8452`](https://github.com/bobs-org/bob-plugins/commit/dca84529724c2fbbf8336a516e5e281fd1cfd286) | feat(navigation): prove the Section Map in real Obsidian and ship 2.107.17 | [bob-cli-rc.4](bob-cli-rc.4.md) | 2026-11-27 17:29:53 EST |
 | bob-plugins | [`bob-plugins@c15f9fa`](https://github.com/bobs-org/bob-plugins/commit/c15f9fa98de2d3c27dd96ecd206f58ec42b2ad3b) | feat(navigation): finish Section Map landing and ship 2.107.18 | [bob-cli-rc](README.md) | 2026-11-27 18:33:07 EST |
+| bob-cli--plans | [`bob-cli--plans@0cda587`](https://github.com/bobs-org/bob-cli--plans/commit/0cda5872828a954971fde17027b537d7f89c453a) | docs(plans): mark the Ctrl+J Section Map epic and landing tale done | [bob-cli-rc](README.md) | 2026-11-27 18:33:36 EST |
 
 <!-- sase:referenced-by:start -->
 
