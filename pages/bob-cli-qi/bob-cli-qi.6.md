@@ -49,7 +49,7 @@ finish: add the unit proof that folds and refreshes never write the vault or spa
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 3 |
 | read-by | [agent:bob-cli-qj.2][2] | Need the active phase scope to determine whether the bank props failure belongs in its discovery note | 1 |
 | read-by | [agent:bob-cli-qp.8][3] | Check qi.6 gate for qm.7 before ref go-live | 1 |
 | read-by | [agent:research.6k.cld][4] | Check qi.6 dependencies for card sequencing | 2 |

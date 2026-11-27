@@ -51,7 +51,7 @@ count-sweep: dry-run the landed retire-project-count-keys tool against the live 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 3 |
 | read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md

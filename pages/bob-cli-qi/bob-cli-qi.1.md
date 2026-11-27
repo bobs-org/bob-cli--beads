@@ -34,7 +34,7 @@ vault-hub: move subscriptions.md under cash and sync albums while bank.md is sti
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
 

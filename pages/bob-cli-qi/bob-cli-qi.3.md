@@ -42,7 +42,7 @@ plugin-single-owner: delete 249db and every bank/area arbitration hook in bob-le
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-qi
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1gn](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1gn.md) · **Assignee:** `bob-cli-qi.land`
-**Created:** 2026-11-26 10:06:12 EST
+**Created:** 2026-11-26 10:06:12 EST · **Closed:** 2026-11-27 06:31:16 EST
 **Plan:** [202611/bank\_hub\_demotion.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/bank_hub_demotion.md)
 
 <!-- sase:links:start -->
@@ -19,6 +19,7 @@
 | related | file:explicit:4be78da0fdc26952391a664f | attached via sase artifact create --bead |
 | related | file:explicit:660cabc9cf32530dcf480887 | attached via sase artifact create --bead |
 | related | file:explicit:d254ed707483200bbaaca14f | attached via sase artifact create --bead |
+| related | file:explicit:dc34d1462acc604726734526 | attached via sase artifact create --bead |
 
 _Plus 25 automatic references — see [Referenced By](#referenced-by)._
 
@@ -51,6 +52,10 @@ Note: 478d5233 is a CLI/JSON contract break without the required ! marker. Histo
 
 [2026-11-26T21:20:06Z · bob-cli-qi.land] LAND GAP (bob-cli-qi land agent): takeover-proof (qi.4) never produced real-Obsidian takeover evidence for area, sub-area, inbox, or active/terminal project, nor the area/inbox/project screenshots. scripts/obsidian-frontmatter-takeover-e2e.cjs has no such fixtures, and obsidian-home-cards-e2e.cjs expects native Properties visible and aborts before screenshots (bob-cli-qr). docs/develop/validation.md currently overclaims that coverage. Planned as tale plan sase_plan_bank_hub_home_takeover_acceptance.md (medium), which ends with this epic's closeout.
 
+[2026-11-27T11:30:58Z · bob-cli-qi.land] LAND TRIAGE 2 (bob-cli-qi land agent, final). The approved tale bank_hub_home_takeover_acceptance.md stalled at NO-GO 72/76 (home-card-gestures-live, disable-unload-restores, late-after-unload-native, no-console-exceptions) and its last agent ended without a response. Root causes, fixed in bob-plugins 0ffb4511: (1) epic-caused product defect from the tale's own dc8c4e40/dfec64c8/ea54ab79: home-card gg let the first g reach Vim and swallowed the second, leaving a pending g so the next key read as g<key> (== lost its first =; gg then u would start gu); the handler now cancels pending Vim input when it consumes a key (unit-tested). (2) harness: disable/enable used disablePlugin/enablePlugin, which never update the enabled set the dfec64c8 assertion reads; now disablePluginAndSave/enablePluginAndSave. (3) harness: the 319862a7 inbox-route stub had no manifest, so Obsidian's plugin settings rebuild threw on every toggle. Follow-ups: (a) npm test 2 failures (test-navigation-relation-links-stage #8, test-prose-field-roles on 744-snooze-card-modal.js:129) reproduce on clean ad38b38a: caused by active epic bob-cli-q5.6.1 (q5.6.1.3), recorded there as DISCOVERED ISSUE, no task. (b) full 32G /tmp tmpfs from failure-retained e2e scratch broke xvfb-run and stalled the earlier reruns: new task bob-cli-qt (bug, medium), linked to bob-cli-qr. (c) Earlier LAND TRIAGE outcomes stand; record-foot churn (qi.4#5) again did not reproduce (live-autosave and live-slow-reparse passed in both GO runs). (d) The duplicate npm timing task mentioned by earlier land prompts was not created. Moved this epic's own /tmp evidence (qi-land, bob-cli-qi4, already archived as artifacts) to /var/tmp/bob-cli-qi-tmp-archive to free tmpfs space; nothing else in /tmp was touched.
+
+[2026-11-27T11:31:16Z · bob-cli-qi.land] Verified complete and landed. Vault: bank.md is untyped, under cash, and taskless; subscriptions.md is under cash; bob bank check 0 errors/0 warnings; albums, areas, props clean; no bank row in bob areas list or capture-targets; bob props show bank.md reports note_kind bank with props_v1, no contract, card-owned bank (==); @bank captures refused with bank_holds_no_tasks plus preview diagnostic; note catalog checks bank before area. bob-cli: 478d5233, c89ba1d4, 33fe3425 (props for_kind is Area/Project/Reference only, re-checked against post-epic 0846b038 Reference contract; bank_hub_task/bank_hub_area_type warnings present; catalog order intact after the prose rename). bob-plugins: 8e6a5a61, 19e895f0, 17a05670, feaa5b42, the tale's 319862a7/abfdb057/dc8c4e40/dfec64c8/6849b5c2/ea54ab79 and evidence commits, plus land fix 0ffb4511 (cancel pending Vim input when home-card navigation swallows a key; takeover harness uses the Settings toggle path and a manifest-bearing inbox stub; plugin 1.172.3). Arbitration guard grep empty; bank.md stays excluded from home cards in all post-epic kits (prose, notebook, ref, cabinets). Real-Obsidian takeover (full profile, isolated vault, Obsidian 1.15.1, bob dc96ef4c): GO 76/76 twice at 0ffb4511 (38/38 Live Preview, 14/14 Reading, 24/24 shared, 78 screenshots, 0 console exceptions) vs NO-GO 72/76 on pre-fix master ad38b38a. Covers Area, sub-area, inbox, active and terminal Project, Bank, day/week/quarter/year/record/album; exclusions (untyped area.md/project.md, _templates/, done/, _conflicts/); props_v1-only fail-open (Area/Project native, Bank owned); gestures - _ == + and Esc/q/Ctrl+[ ladder; k/gg/Up land on body text; ^prj byte hash unchanged through selection and adjacent typing (IME not covered: CDP composition does not compose there). All 32 Area/inbox/Project PNGs reviewed PASS and byte-identical across runs. Evidence file:explicit:dc34d1462acc604726734526 (reports, logs, 156 shots, PNG verdicts, NO-GO baseline, Vim-state trace); earlier GO 63/63 runs file:explicit:660cabc9cf32530dcf480887 and file:explicit:d254ed707483200bbaaca14f. npm test 10216/10218 (2 failures pre-existing on clean ad38b38a, recorded on bob-cli-q5.6.1). docs/develop/validation.md rewritten to the true matrix; bob-plugins npm run docs:check and bob-cli just docs-gen/docs-check pass. bob plugins sync -p bob-ledger-tools without -F: 12/12 synced, 0 drift. Memory: glossary property-card, bank-card, area-card, project-card and decisions bank-hub-is-path-canonical-never-area present. Follow-ups: see LAND TRIAGE notes (bob-cli-qr, bob-cli-qt new, +1 bob-cli-q9, DISCOVERED ISSUE on bob-cli-q5.6.1). Release-note gap: 478d5233 is a CLI/JSON contract break without its ! marker; history not rewritten.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -66,7 +71,7 @@ Note: 478d5233 is a CLI/JSON contract break without the required ! marker. Histo
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-qi: Demote bank.md to a single-owner bank hub, then finish the card epics [in_progress]"]
+    n0["bob-cli-qi: Demote bank.md to a single-owner bank hub, then finish the card epics [closed]"]
     n1["bob-cli-qi.1: Reparent the subscriptions album and untype bank.md in the vault [closed]"]
     n2["bob-cli-qi.2: Remove the bank area contract from bob and guard the no-tasks hub [closed]"]
     n3["bob-cli-qi.3: Delete the bank/area arbitration and restore the single-owner Bank Card [closed]"]
@@ -99,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qi.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.4.md) | [bob-cli-qi.4](bob-cli-qi.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-qi.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.5/README.md) | [bob-cli-qi.5](bob-cli-qi.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-qi.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.6.md) | [bob-cli-qi.6](bob-cli-qi.6.md) | 2 |
-| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.land/README.md) | [bob-cli-qi](README.md) | 13 |
+| [bbugyi200.athena.bob-cli-qi.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qi.land/README.md) | [bob-cli-qi](README.md) | 14 |
 
 ## Commits
 
@@ -123,6 +128,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@94c4e3b`](https://github.com/bobs-org/bob-plugins/commit/94c4e3bfffacf0d5a4c7edc6edf71efa96792509) | test(acceptance): isolate takeover Electron temp and retain failed evidence | [bob-cli-qi](README.md) | 2026-11-27 00:27:12 EST |
 | bob-plugins | [`bob-plugins@9256060`](https://github.com/bobs-org/bob-plugins/commit/9256060952dd245ea72e703c56f150511cf5d150) | test(e2e): preserve failed takeover rerun evidence | [bob-cli-qi](README.md) | 2026-11-27 00:42:35 EST |
 | bob-plugins | [`bob-plugins@0ffb451`](https://github.com/bobs-org/bob-plugins/commit/0ffb4511ed1e77a4596f067d97a4d19330247835) | fix(ledger-tools): cancel pending Vim input when home-card navigation swallows a key | [bob-cli-qi](README.md) | 2026-11-27 06:11:30 EST |
+| bob-plugins | [`bob-plugins@994da28`](https://github.com/bobs-org/bob-plugins/commit/994da28e4690c4f188f9d416697854a12f3dac16) | docs(validation): state the real Area, inbox, and Project takeover matrix | [bob-cli-qi](README.md) | 2026-11-27 06:32:19 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -130,7 +136,7 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qi.land][1] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the epic scope, children, and linked plan file | 2 |
 | read-by | [agent:bob-cli-qi.land--2][1] | Review epic notes and land triage before completing its approved closeout | 1 |
 | read-by | [agent:bob-cli-qi.land--4][1] | Review the assigned takeover acceptance plan and epic closeout requirements | 1 |
 | read-by | [agent:bob-cli-qi.land--6][1] | Inspect the active Bank and home-card takeover epic and its approved completion criteria | 1 |

@@ -69,7 +69,7 @@ takeover-proof: run the production-adapter matrix in isolated real Obsidian agai
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
+| read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 3 |
 | read-by | [agent:bob-cli-qi.land--e][1] | Confirm takeover-proof phase status and its approved acceptance linkage before final closeout | 1 |
 | read-by | [agent:bob-cli-qi.land--j][1] | Need the acceptance phase state and original evidence before final closeout | 1 |
 | read-by | [agent:bob-cli-qi.land--p][1] | Need the acceptance tale phase scope and completion criteria before recording final evidence and closing it | 1 |
