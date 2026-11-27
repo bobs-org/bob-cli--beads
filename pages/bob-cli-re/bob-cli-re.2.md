@@ -22,7 +22,7 @@ executable-stubs: repair the Spotify and Gmail executable-stub races and close b
 ## Dependencies
 
 - **Depends on:** [bob-cli-re.1](bob-cli-re.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-re.3](bob-cli-re.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-re.3](bob-cli-re.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ executable-stubs: repair the Spotify and Gmail executable-stub races and close b
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`69f8aae`](https://github.com/bobs-org/bob-cli/commit/69f8aae63cdf25cf926461f0d96a1156de1997e5) | fix(tests): eliminate ETXTBSY races via child-cp executable stubs | [bob-cli-re.2](bob-cli-re.2.md) | 2026-11-27 16:56:03 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-re.2][1] | check phase notes for prior work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.2/README.md
+
+<!-- sase:referenced-by:end -->

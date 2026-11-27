@@ -13,7 +13,7 @@ timed-entry-close: fix the x=build stale Pomodoro reference, preserve closed tim
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-re.3](bob-cli-re.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-re.3](bob-cli-re.3.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-re.5](bob-cli-re.5.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
