@@ -33,3 +33,15 @@ e2e-scratch: stop the bob-plugins real-Obsidian e2e runners from leaking failure
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6827a27`](https://github.com/bobs-org/bob-plugins/commit/6827a275650185b1341c781fe6c2cfc5fa153873) | fix(test): bound retained Obsidian e2e scratch | [bob-cli-r8.3](bob-cli-r8.3.md) | 2026-11-27 14:39:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-r8.4][1] | Need sibling phase close-note style for bob-cli-r8.4 | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -23,7 +23,13 @@ chezmoi-isolation: update the chezmoi poseidon_chezmoi_isolation_test to the int
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-r8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.1/README.md) | [bob-cli-r8.1](bob-cli-r8.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-r8.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.1/README.md) | [bob-cli-r8.1](bob-cli-r8.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@662569a`](https://github.com/bbugyi200/dotfiles/commit/662569a34eb9209baa03e4cc50d32356ee2c7a08) | test(chezmoi): align poseidon isolation assertions | [bob-cli-r8.1](bob-cli-r8.1.md) | 2026-11-27 13:11:07 EST |
 
 <!-- sase:referenced-by:start -->
 

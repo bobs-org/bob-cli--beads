@@ -30,3 +30,15 @@ wikilink-cold-chunk: make the block-id-prompt task-wikilink cold-build 16 ms chu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@4eb201e`](https://github.com/bobs-org/bob-plugins/commit/4eb201ecf730dac950b9737d65ae61eb1eb22315) | test(block-id-prompt): stabilize wikilink cold-chunk 16ms gate | [bob-cli-r8.4](bob-cli-r8.4.md) | 2026-11-27 15:13:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-r8.4][1] | Need DECISIONS, design file, and notes | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.4/README.md
+
+<!-- sase:referenced-by:end -->
