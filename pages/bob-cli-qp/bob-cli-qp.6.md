@@ -21,7 +21,7 @@ ref-editor: `==` opens the shared Property Editor on bob's REFERENCE contract. I
 
 - **Depends on:** [bob-cli-qp.1](bob-cli-qp.1.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qp.4](bob-cli-qp.4.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qp.7](bob-cli-qp.7.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qp.7](bob-cli-qp.7.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

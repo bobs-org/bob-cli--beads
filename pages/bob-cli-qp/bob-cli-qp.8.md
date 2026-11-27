@@ -17,7 +17,7 @@ ref-go-live: after bob-cli-qm.7 closes, delete the ref preview gate, extend the 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qp.7](bob-cli-qp.7.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qp.7](bob-cli-qp.7.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.9](../bob-cli-qq/bob-cli-qq.9.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
