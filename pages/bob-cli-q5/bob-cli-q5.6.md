@@ -13,7 +13,7 @@ snooze-card: the Alt+Z command and Task Card z opening a Snooze Card with ranked
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.5](bob-cli-q5.5.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.5](bob-cli-q5.5.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.9](bob-cli-q5.9.md) ◐ · ⧖ 2026-11-25
 
 ## Agents

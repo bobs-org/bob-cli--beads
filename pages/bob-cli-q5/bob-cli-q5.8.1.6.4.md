@@ -21,3 +21,15 @@ records-repair: keep the base status glyph template-tinted beside an amber alarm
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.4/README.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.8.1.6.3--2][1] | Check record-lifecycle bead owns beacon expiry failure | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md
+
+<!-- sase:referenced-by:end -->

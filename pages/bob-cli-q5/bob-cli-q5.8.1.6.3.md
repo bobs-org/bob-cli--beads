@@ -23,6 +23,8 @@ hud-repair: exclude the HUD from capture, render the TODAY link budget and woke 
 
 [2026-11-27T05:45:38Z · bob-cli-q5.8.1.6.3--2] macOS gate rerun 45945499688 (snapshot 54883c671f2ec25d7fb7ff3f57e7b5d94c6d7f8f): Lint green, Build green, Test red with the single known testSixtyMinuteBeaconExpiryClears failure (SnoozeNoticeCoordinatorTests.swift:817-819). Same bob-day-authority mechanism as run 45943032492: effectiveToday stays pinned to fake-bob 2026-11-26 via lastListDate, so rolling clock.today to 2026-11-27 triggers no purge. Out of scope for hud-repair; owned by in-progress bob-cli-q5.8.1.6.4 (record lifecycle). No code changed this turn; bead stays closed.
 
+[2026-11-27T06:20:26Z · bob-cli-q5.8.1.6.3--3] macOS CI green: run 45948302176 on snapshot f39756294a4fe49d2aa8d02d26771e127edadc08 (base 586d9ccbe16353ef6cdd16dadf5dbc7d9817eaf6). Lint ok, Build ok, Test ok (testSixtyMinuteBeaconExpiryClears now passes with bob-confirmed day-boundary purge), Bundle ok, Verify plist and signature ok, Launch smoke test ok, Install and reinstall ok. Upload render fixtures ok; macos-ci-check output names no additional artifact filenames. https://github.com/bobs-org/bob-mac-capture/actions/runs/45948302176 -n
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) ✓ · ⧖ 2026-11-26
@@ -32,15 +34,7 @@ hud-repair: exclude the HUD from capture, render the TODAY link budget and woke 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 3 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@6f959f2`](https://github.com/bobs-org/bob-mac-capture/commit/6f959f2d7a3447a69f72c2b7616561404d8fa32c) | fix(snooze): bring wake HUD up to delivery contract | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-26 23:20:17 EST |
-| bob-mac-capture | [`bob-mac-capture@d302e01`](https://github.com/bobs-org/bob-mac-capture/commit/d302e01fdd4b36e414bebc0f52da5122048e7b9b) | fix(snooze): repair macOS CI build for wake HUD delivery | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-27 00:22:08 EST |
-| bob-mac-capture | [`bob-mac-capture@586d9cc`](https://github.com/bobs-org/bob-mac-capture/commit/586d9ccbe16353ef6cdd16dadf5dbc7d9817eaf6) | fix(snooze): clear beacon on bob-confirmed day boundary in test | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-27 00:50:37 EST |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -49,6 +43,7 @@ hud-repair: exclude the HUD from capture, render the TODAY link budget and woke 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.8.1.6.3--1][1] | Need full notes and design for remaining fix | 2 |
+| read-by | [agent:bob-cli-q5.8.1.6.3--2][1] | Check hud-repair bead status after macOS gate Test failure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md
 
