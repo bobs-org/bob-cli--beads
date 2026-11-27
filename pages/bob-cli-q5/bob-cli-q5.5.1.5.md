@@ -26,7 +26,13 @@ plan-chip: add the independent snoozed chip beside TODAY, its section jump, and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.5.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.5.md) | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b7f17a5`](https://github.com/bobs-org/bob-plugins/commit/b7f17a51a58cdb44608df3fe48b689fba1005f87) | feat(snooze): add independent plan meter and wake forecast | [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) | 2026-11-26 19:06:55 EST |
 
 <!-- sase:referenced-by:start -->
 
