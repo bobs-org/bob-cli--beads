@@ -13,7 +13,7 @@ acceptance: run the full gate-open cabinets runner on athena twice, review every
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qq.10.1](bob-cli-qq.10.1.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qq.10.1](bob-cli-qq.10.1.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-qq.10.2](bob-cli-qq.10.2.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-qq.10.3](bob-cli-qq.10.3.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ◐ · ⧖ 2026-11-27
@@ -23,3 +23,15 @@ acceptance: run the full gate-open cabinets runner on athena twice, review every
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.6o.gem][1] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+
+<!-- sase:referenced-by:end -->

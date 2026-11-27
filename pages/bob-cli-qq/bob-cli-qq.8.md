@@ -16,7 +16,7 @@
 | related | file:explicit:4e093423e907fab57e92e9db | attached via sase artifact create --bead |
 | related | file:explicit:c152d5bb0c1567dc6d249e66 | attached via sase artifact create --bead |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -76,9 +76,11 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 | read-by | [agent:bob-cli-qq.8--2][3] | Resume the requested real-Obsidian Cabinets acceptance and inspect current phase obligations | 1 |
 | read-by | [agent:bob-cli-qq.8--3][3] | Inspect the assigned Cabinets epic scope and its required closure workflow | 1 |
 | read-by | [agent:bob-cli-qq.8--7][3] | Check assigned epic phases and notes before completing the requested acceptance closeout | 1 |
+| read-by | [agent:research.6o.cld][4] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
 
 <!-- sase:referenced-by:end -->

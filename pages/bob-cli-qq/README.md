@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-r5][2] | Cabinets go-live (bob-cli-qq.9) still edits kit hunks near 240m/240q; land this after qq closes to avoid colliding |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-r5/README.md
@@ -54,7 +54,7 @@ flowchart TD
     n0["bob-cli-qq: Property Card Cabinets [in_progress]"]
     n1["bob-cli-qq.1: Cabinet gate, model, session state, provider registry, and the view collector [closed]"]
     n2["bob-cli-qq.10: Finish Property Card Cabinets — acceptance GO, go-live, and close bob-cli-qq [in_progress]"]
-    n3["bob-cli-qq.10.1: Bring the Reading cabinet paint within the 2x inline budget [in_progress]"]
+    n3["bob-cli-qq.10.1: Bring the Reading cabinet paint within the 2x inline budget [closed]"]
     n4["bob-cli-qq.10.2: Fix the intermittent Reading card miss in the shared property-card host [closed]"]
     n5["bob-cli-qq.10.3: Footer overlay narrow clipping, Areas title row, and runner console errors [closed]"]
     n6["bob-cli-qq.10.4: Rerun real-Obsidian Cabinets acceptance to GO and close bob-cli-qq.8 [in_progress]"]
@@ -107,7 +107,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.1.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.1.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.1/README.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2 |
 | [bbugyi200.apollo.bob-cli-qq.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md) | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.3.md) | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 0 |
@@ -146,6 +146,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@b6ae31d`](https://github.com/bobs-org/bob-plugins/commit/b6ae31d8f5b89bc7898cefc79a0f21000c25dd87) | fix(cabinets): polish footer overlay and acceptance checks | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 2026-11-27 09:28:42 EST |
 | bob-plugins | [`bob-plugins@1c4266e`](https://github.com/bobs-org/bob-plugins/commit/1c4266ed9bf938e83719e47f93175e1d0a3e1eae) | fix(ledger-tools): recover Reading property cards after plugin reload | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 2026-11-27 10:27:41 EST |
 | bob-plugins | [`bob-plugins@17a64fa`](https://github.com/bobs-org/bob-plugins/commit/17a64fabb6040db49d8fd77bec404d4f513913d7) | perf(ledger-tools): defer gate-open Reading inline paint for projects/records cabinets | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2026-11-27 10:53:10 EST |
+| bob-plugins | [`bob-plugins@cb31472`](https://github.com/bobs-org/bob-plugins/commit/cb314726d4b5badf36aa1afcc6ec75303a47fb05) | perf(ledger-tools): keep gate-open Reading cabinet paint within 2x inline | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2026-11-27 14:06:40 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -158,11 +159,21 @@ flowchart TD
 | read-by | [agent:bob-cli-qq.5][3] | Need epic scope for phase qq.5 | 1 |
 | read-by | [agent:bob-cli-qq.7][4] | need epic scope and sibling repo info | 2 |
 | read-by | [agent:bob-cli-qq.8--3][5] | Confirm the parent bead scope and preserve its status as requested | 1 |
+| read-by | [agent:research.6o.cdx][6] | Inspect the active epic for independent link-walk research | 1 |
+| read-by | [agent:research.6o.cld][7] | Need to know the in-progress epic to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.gem][8] | Understand bob-cli-qq epic scope and phases for parallel planning | 1 |
+| read-by | [agent:research.6o.grk][9] | Need the in-progress cabinets epic scope for parallel-work coordination | 1 |
+| read-by | [agent:research.6o.mus][10] | Research link-walk extension: understand in-progress cabinets epic scope for parallel-work assessment | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 [5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cdx/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.grk/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.mus/README.md
 
 <!-- sase:referenced-by:end -->

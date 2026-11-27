@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-qq.10](bob-cli-qq.10.md) / bob-cli-qq.10.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.g7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.g7.md) · **Assignee:** `bob-cli-qq.10.1` · **Size:** medium
-**Created:** 2026-11-27 09:12:20 EST
+**Created:** 2026-11-27 09:12:20 EST · **Closed:** 2026-11-27 13:52:13 EST
 **Plan:** [202611/finish\_property\_card\_cabinets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_property_card_cabinets.md)
 
 <!-- sase:links:start -->
@@ -18,8 +18,14 @@
 | related | file:explicit:3b27faf3543ebb5b750e685f | attached via sase artifact create --bead |
 | related | file:explicit:67468d1c95e9bee47da0e9c0 | attached via sase artifact create --bead |
 | related | file:explicit:6cc489fc30c1c542ac28b45f | attached via sase artifact create --bead |
+| related | file:explicit:99309d341ce63ec6d8668bdf | attached via sase artifact create --bead |
 | related | file:explicit:99cb2b63ed9f9cb99e085f58 | attached via sase artifact create --bead |
+| related | file:explicit:b003208183d954bfcc1f66ec | attached via sase artifact create --bead |
+| related | file:explicit:b29439ea2b9eecb93bc313ee | attached via sase artifact create --bead |
+| related | file:explicit:ccb420b8ac54123b122fc74e | attached via sase artifact create --bead |
 | related | file:explicit:d8f654f3081a6cedbf618286 | attached via sase artifact create --bead |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -76,6 +82,14 @@ still leaves today's painted catalog visible. No 240c surface/retry changes
 
 [2026-11-27T15:51:40Z · bob-cli-qq.10.1--1] PROPOSED FOLLOW-UP: test-snooze-model-vectors mutation vector fails on clean HEAD too (navigation runs all canonical snooze add and drop mutation vectors; expected body without trailing woke line, actual appends ~~1530~~ woke 15:32) — pre-existing, unrelated to perf scope. No tracking task bead found.
 
+[2026-11-27T18:50:23Z · bob-cli-qq.10.1] perf profile (CDP Profiler + performance.mark timelines inside the real runner, athena): the projects 50-74ms long task was NOT the Reading body render. A Reading leaf keeps its Live Preview editor loaded but hidden (.markdown-source-view display:none); on every open the hidden editor built the full card and rendered the Projects cabinet body through MarkdownRenderer (~40-45ms) before Obsidian rendered the preview. Other costs on the window: propertyCardCabinetHostDigest (paintKey) applied all four kinds and stable-stringified every full report ~16x per open; the earlier inline-paint deferral never applied because Obsidian post-processes Reading sections detached (el.closest fails), so the native callout was always painted and the Reading body re-rendered it (records ~16-20ms). Also found: the Records body never tagged its Reading absorption (claim ran while the card was detached and onOpen re-claimed with no scope), so album Reading showed the stored Records section twice (same on clean master).
+
+[2026-11-27T18:50:39Z · bob-cli-qq.10.1] perf fix (bob-ledger-tools 1.172.9, rebased on bob-plugins 4dd95d52): (1) 240wl deferWhileHidden: an opted-in provider body (host catalogs) in a hidden Live Preview editor builds only when IntersectionObserver sees its panel; records keeps its claim but defers the render the same way. (2) 241al digest memo keyed by source + per-kind report-state identity. (3) 240wd deferral eligibility answers detached sections through ctx.containerEl (embed/popover/card-body containers never defer) and only for area/project (projects) or album (records) frontmatter types; detached-at-fire sections get the bounded retries. (4) 240wj Reading bodies clone the unpainted native callout (Reading-only list chrome stripped) instead of a second MarkdownRenderer pass; painted/embed/mismatched/detached falls back to render. (5) Records Reading claim tags via the host Reading scope (album header threads readingScope) and onOpen keeps a live tagged Reading claim. New tests: scripts/test-ledger-tools-cabinets-reading-paint.cjs (12), cabinets-perf (11, ctx frontmatter added). Focused suites 133/133; npm test 10307/10313 with only test-snooze-model-vectors failing, which fails identically on clean 4dd95d52; build:check + docs inventory clean; bob plugins sync deployed 1.172.9.
+
+[2026-11-27T18:50:46Z · bob-cli-qq.10.1] perf evidence, unmodified runner on athena, 1.172.9: run1 album cab 117/inl 69 (1.70x) projects 107/62 (1.73x), no cabinet long tasks, 99 pass/1 fail; run2 album 109/65 (1.68x) projects 109/59 (1.85x), no cabinet long tasks, 99 pass/1 fail; 0 runtime exceptions, 0 console errors both runs. Both perf-* checks PASS in both runs. The one failure in each run is keys-reading-pick-overlay-lists-numbered-kinds, which also fails on the clean master 4dd95d52 control (that control also fails projects perf 143/68, 2.10x). Earlier runs of an intermediate build (before the records hidden-editor deferral) were noisier: one album 187/73 (two 50-90ms long tasks) and one projects 131/65 (2.02x). Evidence: run1 file:explicit:b29439ea2b9eecb93bc313ee, run2 file:explicit:6f2132b1212738d3a422cce
+
+… and 3025 more characters
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-qq.10.4](bob-cli-qq.10.4.md) ◐ · ⧖ 2026-11-27
@@ -84,10 +98,25 @@ still leaves today's painted catalog visible. No 240c surface/retry changes
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.1.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.1/README.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@17a64fa`](https://github.com/bobs-org/bob-plugins/commit/17a64fabb6040db49d8fd77bec404d4f513913d7) | perf(ledger-tools): defer gate-open Reading inline paint for projects/records cabinets | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2026-11-27 10:53:10 EST |
+| bob-plugins | [`bob-plugins@cb31472`](https://github.com/bobs-org/bob-plugins/commit/cb314726d4b5badf36aa1afcc6ec75303a47fb05) | perf(ledger-tools): keep gate-open Reading cabinet paint within 2x inline | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2026-11-27 14:06:40 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.10.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.6o.gem][2] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+
+<!-- sase:referenced-by:end -->

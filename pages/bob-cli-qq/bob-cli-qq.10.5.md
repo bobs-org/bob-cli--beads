@@ -21,3 +21,15 @@ switch-on: delete 240w and every gate branch, and drop the dead preview keys fro
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.10.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md) | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.6o.gem][1] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+
+<!-- sase:referenced-by:end -->

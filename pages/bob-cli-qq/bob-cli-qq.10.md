@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/finish_property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_property_card_cabinets.md
 
@@ -38,7 +38,13 @@ Cabinets pass real-Obsidian acceptance with a GO verdict: the Reading perf budge
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.10.2][1] | Need parent epic notes and whether reading-miss already started | 1 |
+| read-by | [agent:research.6o.cdx][2] | Identify active cabinet completion work and potential conflicts | 1 |
+| read-by | [agent:research.6o.cld][3] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.gem][4] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cdx/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
 
 <!-- sase:referenced-by:end -->

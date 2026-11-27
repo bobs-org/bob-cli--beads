@@ -31,8 +31,10 @@ go-live: once the gating sibling go-lives have closed, delete the gate and updat
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets go-live is actively editing the cabinets e2e runner that still writes the removed refCardPreview gate key | 3 |
 | read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
+| read-by | [agent:research.6o.cld][3] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
 
 <!-- sase:referenced-by:end -->
