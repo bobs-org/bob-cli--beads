@@ -14,7 +14,7 @@ host-cabinets: register providers for the four owner catalogs. Each renders the 
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.3](bob-cli-qq.3.md) ✓ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qq.4](bob-cli-qq.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qq.4](bob-cli-qq.4.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.8](bob-cli-qq.8.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

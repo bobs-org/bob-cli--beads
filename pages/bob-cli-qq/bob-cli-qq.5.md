@@ -14,7 +14,7 @@ keys: route `_` to the details fold (zero extras), a direct toggle (one), or an 
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.2](bob-cli-qq.2.md) ✓ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qq.4](bob-cli-qq.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qq.4](bob-cli-qq.4.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.8](bob-cli-qq.8.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

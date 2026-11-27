@@ -7,6 +7,18 @@
 **Created:** 2026-11-26 16:09:02 EST
 **Plan:** [202611/property\_card\_cabinets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Child areas, sub-projects, notebooks, albums, and album records open as collapsible cabinets at the bottom of their note's Property Card. Each cabinet shows exactly the data its H2 section showed. Album Schema and bank Setup move into the same chrome as a restyled Properties cabinet, and `_` becomes a numbered, cancel-safe cabinet pick. The stored catalogs stay bob-owned Markdown, and nothing in bob-cli, the release train, or Bob Mac Capture changes. The work lands dark beside bob-cli-qj, bob-cli-qm, and bob-cli-qp and switches on only after the sibling go-lives it would race.
@@ -15,10 +27,10 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-qq.1](bob-cli-qq.1.md) | Cabinet gate, model, session state, provider registry, and the view collector | ◐ in_progress | medium | 2026-11-26 | 1 | 1 |
+| [bob-cli-qq.1](bob-cli-qq.1.md) | Cabinet gate, model, session state, provider registry, and the view collector | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.2](bob-cli-qq.2.md) | Walker-footer overlay push/pop API | ✓ closed | small | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.3](bob-cli-qq.3.md) | Catalog recognition, ownership claims, render-time hiding, and the body renderer | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qq.4](bob-cli-qq.4.md) | One cabinet chrome, delegation, the stack, and the CSS region | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [bob-cli-qq.4](bob-cli-qq.4.md) | One cabinet chrome, delegation, the stack, and the CSS region | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.5](bob-cli-qq.5.md) | The \`\_\` dispatch and numbered cabinet pick | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qq.6](bob-cli-qq.6.md) | Areas, Projects, Notebooks, and Albums cabinets on area and project cards | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qq.7](bob-cli-qq.7.md) | The album Records cabinet | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
@@ -30,10 +42,10 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 ```mermaid
 flowchart TD
     n0["bob-cli-qq: Property Card Cabinets [in_progress]"]
-    n1["bob-cli-qq.1: Cabinet gate, model, session state, provider registry, and the view collector [in_progress]"]
+    n1["bob-cli-qq.1: Cabinet gate, model, session state, provider registry, and the view collector [closed]"]
     n2["bob-cli-qq.2: Walker-footer overlay push/pop API [closed]"]
     n3["bob-cli-qq.3: Catalog recognition, ownership claims, render-time hiding, and the body renderer [closed]"]
-    n4["bob-cli-qq.4: One cabinet chrome, delegation, the stack, and the CSS region [in_progress]"]
+    n4["bob-cli-qq.4: One cabinet chrome, delegation, the stack, and the CSS region [closed]"]
     n5["bob-cli-qq.5: The `_` dispatch and numbered cabinet pick [in_progress]"]
     n6["bob-cli-qq.6: Areas, Projects, Notebooks, and Albums cabinets on area and project cards [in_progress]"]
     n7["bob-cli-qq.7: The album Records cabinet [in_progress]"]
@@ -68,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.1.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.2.md) | [bob-cli-qq.2](bob-cli-qq.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.4/README.md) | [bob-cli-qq.4](bob-cli-qq.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.4.md) | [bob-cli-qq.4](bob-cli-qq.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md) | [bob-cli-qq.5](bob-cli-qq.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.6/README.md) | [bob-cli-qq.6](bob-cli-qq.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md) | [bob-cli-qq.7](bob-cli-qq.7.md) | 0 |
@@ -83,3 +95,4 @@ flowchart TD
 | bob-plugins | [`bob-plugins@c0a5c4d`](https://github.com/bobs-org/bob-plugins/commit/c0a5c4dd4dfa21eebf778834c464ae8e58b9a47f) | feat(ledger): add walker-footer overlay API | [bob-cli-qq.2](bob-cli-qq.2.md) | 2026-11-26 16:21:24 EST |
 | bob-plugins | [`bob-plugins@1e29d7c`](https://github.com/bobs-org/bob-plugins/commit/1e29d7ce681c5e83db4cccdd028d292153957815) | feat(cabinets): add catalog absorption kit (bob-cli-qq.3) | [bob-cli-qq.3](bob-cli-qq.3.md) | 2026-11-26 16:40:14 EST |
 | bob-plugins | [`bob-plugins@9c1123b`](https://github.com/bobs-org/bob-plugins/commit/9c1123bdf6c224d1e5cefa54ad5e5135070a907e) | feat(cabinets): add gated cabinet kit and view state | [bob-cli-qq.1](bob-cli-qq.1.md) | 2026-11-26 17:08:09 EST |
+| bob-plugins | [`bob-plugins@9527ee1`](https://github.com/bobs-org/bob-plugins/commit/9527ee14e2fa4193bdd3fbc9d85017094f39ef90) | feat(ledger-tools): add cabinet plugin features and refresh docs inventory | [bob-cli-qq.4](bob-cli-qq.4.md) | 2026-11-26 20:42:29 EST |
