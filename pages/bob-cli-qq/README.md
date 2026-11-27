@@ -25,6 +25,10 @@ _Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 Child areas, sub-projects, notebooks, albums, and album records open as collapsible cabinets at the bottom of their note's Property Card. Each cabinet shows exactly the data its H2 section showed. Album Schema and bank Setup move into the same chrome as a restyled Properties cabinet, and `_` becomes a numbered, cancel-safe cabinet pick. The stored catalogs stay bob-owned Markdown, and nothing in bob-cli, the release train, or Bob Mac Capture changes. The work lands dark beside bob-cli-qj, bob-cli-qm, and bob-cli-qp and switches on only after the sibling go-lives it would race.
 
+## Notes
+
+[2026-11-27T12:29:31Z · bob-cli-qm.land] DISCOVERED ISSUE (from the bob-cli-qm landing; proposed by bob-cli-qm.7--1 note #6): bob-cli-qm.7 (bob-plugins eca733c2) deleted the Notebook/Prose preview gate and its cardPreviewKinds key. The cabinets runner still seeds the dead key: bob-plugins scripts/obsidian-cabinets-e2e.cjs:20 GATE_DATA has cardPreviewKinds: ["notebook", "prose"], line 490 gateClosed has cardPreviewKinds: [], and the wrapper scripts/test-obsidian-cabinets-e2e.cjs:73 pins that seed with assert.match. ledger-tools ignores the key, so nothing breaks. Drop it from both objects and the wrapper assertion when bob-cli-qq.9 removes cabinetsPreview. Keep scripts/test-ledger-tools-cabinets-kit.cjs:102: it deliberately passes cardPreviewKinds as a foreign key to prove it never enables cabinets.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -36,7 +40,7 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 | [bob-cli-qq.5](bob-cli-qq.5.md) | The \`\_\` dispatch and numbered cabinet pick | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.6](bob-cli-qq.6.md) | Areas, Projects, Notebooks, and Albums cabinets on area and project cards | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.7](bob-cli-qq.7.md) | The album Records cabinet | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qq.8](bob-cli-qq.8.md) | Real-Obsidian acceptance and screenshot review with the gate open | ◐ in_progress | medium | 2026-11-26 | 1 | 7 |
+| [bob-cli-qq.8](bob-cli-qq.8.md) | Real-Obsidian acceptance and screenshot review with the gate open | ◐ in_progress | medium | 2026-11-26 | 1 | 8 |
 | [bob-cli-qq.9](bob-cli-qq.9.md) | Switch cabinets on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 
 ## Lineage
@@ -86,7 +90,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md) | [bob-cli-qq.5](bob-cli-qq.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.6/README.md) | [bob-cli-qq.6](bob-cli-qq.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md) | [bob-cli-qq.7](bob-cli-qq.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 7 |
+| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.8/README.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 8 |
 | [bbugyi200.apollo.bob-cli-qq.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.9/README.md) | [bob-cli-qq.9](bob-cli-qq.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.land/README.md) | [bob-cli-qq](README.md) | 0 |
 
@@ -108,6 +112,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@f279186`](https://github.com/bobs-org/bob-plugins/commit/f279186d37b5cad0054cec52bfb1e9b85d0e5f4e) | fix(cabinets): preserve Obsidian startup diagnostics | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 23:50:30 EST |
 | bob-plugins | [`bob-plugins@e9f0c07`](https://github.com/bobs-org/bob-plugins/commit/e9f0c0703a8b10576663374883e2bb4b0ad277c2) | fix(cabinets-e2e): isolate Xvfb temporary storage | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 00:16:24 EST |
 | bob-plugins | [`bob-plugins@c476086`](https://github.com/bobs-org/bob-plugins/commit/c476086a9a7135ad944993ed9ea0d715ec3fcddd) | fix(cabinets): repair acceptance fixtures and narrow bank layout | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 00:57:29 EST |
+| bob-plugins | [`bob-plugins@28e7573`](https://github.com/bobs-org/bob-plugins/commit/28e7573951895c58e1917815d96e08c646b873ae) | fix(cabinets): absorb every Live Preview catalog and keep cabinet bodies painted | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 08:08:11 EST |
 
 <!-- sase:referenced-by:start -->
 
