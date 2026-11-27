@@ -7,6 +7,20 @@
 **Created:** 2026-11-26 15:37:09 EST · **Closed:** 2026-11-26 22:08:57 EST
 **Plan:** [202611/snooze\_display\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_display_marks.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:bob-cli-qs][1] | Visual-proof phase whose e2e surfaced the defect |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-qs/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 visual-proof: verify the complete display in real Obsidian, capture light and dark states and accessibility evidence, fix display integration defects, and attach results for the land agent.
@@ -65,7 +79,13 @@ visual-proof: verify the complete display in real Obsidian, capture light and da
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@73d028e`](https://github.com/bobs-org/bob-plugins/commit/73d028e5f22141962c6968edc5108a6ebe37f304) | feat(snooze): add Obsidian visual-proof e2e and fix display integration defects | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 2026-11-26 21:32:16 EST |
 
 <!-- sase:referenced-by:start -->
 
