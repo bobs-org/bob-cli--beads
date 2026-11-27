@@ -85,7 +85,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md) | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 5 |
 | [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.md) | [bob-cli-q5.6](bob-cli-q5.6.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md) | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md) | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md) | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md) | [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.4/README.md) | [bob-cli-q5.6.1.4](bob-cli-q5.6.1.4.md) | 0 |
@@ -156,6 +156,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | bob-plugins | [`bob-plugins@d23080a`](https://github.com/bobs-org/bob-plugins/commit/d23080a01f0acab0ac71207a5241328b05534c4b) | test(snooze): stabilize headless acceptance viewport | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-27 00:32:12 EST |
 | bob-cli--plans | [`bob-cli--plans@dbb59a2`](https://github.com/bobs-org/bob-cli--plans/commit/dbb59a2832260f1198fd2260d6646ef43ab7568b) | docs(plan): mark snooze display epic done | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-27 01:26:52 EST |
 | bob-cli | [`ee21fdf`](https://github.com/bobs-org/bob-cli/commit/ee21fdff6c84c1407a21ba6aa80f442b273a7941) | test(snooze): enable JS runner for snooze vectors | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:12:17 EST |
+| bob-plugins | [`bob-plugins@143c9ca`](https://github.com/bobs-org/bob-plugins/commit/143c9ca3c65fd341f3f085fe24ca3f4f9574b9cc) | feat(snooze): add mutation planner and BIP adapter | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:13:26 EST |
 
 <!-- sase:referenced-by:start -->
 
