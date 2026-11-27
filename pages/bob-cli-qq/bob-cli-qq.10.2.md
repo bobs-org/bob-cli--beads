@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:7316b0d305d801541fead234 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -58,7 +58,9 @@ reading-miss: in the 240c host, resolve a Reading surface from the live preview 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.10.2][1] | Need the phase scope, notes, and design file before remaining verification | 5 |
+| read-by | [agent:bob-cli-qq.10.4][2] | Acceptance phase needs the landed repair commits and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md
 
 <!-- sase:referenced-by:end -->

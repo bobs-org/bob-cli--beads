@@ -7,6 +7,19 @@
 **Created:** 2026-11-26 16:09:03 EST
 **Plan:** [202611/property\_card\_cabinets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | file:explicit:b43b18736a494f39c0fdc3fc | go-live post-switch smoke evidence from bob-cli-qq.10.5 |
+| related | file:explicit:c3a82701e970e5187726a714 | go-live post-switch smoke evidence from bob-cli-qq.10.5 |
+
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
+<!-- sase:links:end -->
+
 ## Description
 
 go-live: once the gating sibling go-lives have closed, delete the gate and update the docs in both repos. Write the new cabinets reference page and the approved memory (glossary:cabinet and the selected card strands and record). Then run the family passive proof, `bob plugins sync`, and a post-switch smoke that includes the prose Outline cabinet.

@@ -13,7 +13,7 @@ docs-memory: add docs/cabinets.md and update the family pages, bringing bob-ledg
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-ra.6](../bob-cli-ra/bob-cli-ra.6.md) ◐ · ⧖ 2026-11-27
 
 ## Agents

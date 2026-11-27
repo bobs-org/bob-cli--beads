@@ -34,3 +34,15 @@ polish: make the armed footer overlay shed `esc` and truncate nouns at 420 px wi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@b6ae31d`](https://github.com/bobs-org/bob-plugins/commit/b6ae31d8f5b89bc7898cefc79a0f21000c25dd87) | fix(cabinets): polish footer overlay and acceptance checks | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 2026-11-27 09:28:42 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.10.4][1] | Acceptance phase needs the landed repair commits and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md
+
+<!-- sase:referenced-by:end -->

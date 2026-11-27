@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:5bf65e106cb27f85a4297967 | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -40,7 +40,7 @@ acceptance: run the full gate-open cabinets runner on athena twice, review every
 - **Depends on:** [bob-cli-qq.10.1](bob-cli-qq.10.1.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-qq.10.2](bob-cli-qq.10.2.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-qq.10.3](bob-cli-qq.10.3.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -60,10 +60,12 @@ acceptance: run the full gate-open cabinets runner on athena twice, review every
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.6o.final][1] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
-| read-by | [agent:research.6o.gem][2] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+| read-by | [agent:bob-cli-qq.10.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:research.6o.final][2] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
+| read-by | [agent:research.6o.gem][3] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
 
 <!-- sase:referenced-by:end -->
