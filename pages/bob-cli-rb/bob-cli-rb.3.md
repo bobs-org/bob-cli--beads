@@ -13,7 +13,7 @@ mac_lead_preview: decode `lead` tolerantly and show it as a calm `Fix…` hint a
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rb.2](bob-cli-rb.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-rb.2](bob-cli-rb.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-rb.4](bob-cli-rb.4.md) ◐ · ⧖ 2026-11-27
 
 ## Agents

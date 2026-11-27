@@ -19,7 +19,7 @@ lead_config: add the deploy-safe `capture.type_leads` loader with parser-probe v
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-rb.2](bob-cli-rb.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-rb.2](bob-cli-rb.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-rb.5](bob-cli-rb.5.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
@@ -33,3 +33,15 @@ lead_config: add the deploy-safe `capture.type_leads` loader with parser-probe v
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`421de94`](https://github.com/bobs-org/bob-cli/commit/421de94dc381f1947e24154d181ef44b6829c86c) | feat(types): add configurable capture type leads | [bob-cli-rb.1](bob-cli-rb.1.md) | 2026-11-27 15:51:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rb.1--2][1] | Verify the phase close and proposed baseline-follow-up note were recorded | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rb.1.md
+
+<!-- sase:referenced-by:end -->
