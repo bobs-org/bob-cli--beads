@@ -62,7 +62,7 @@ flowchart TD
     n10["bob-cli-qj.5.1.4: bob prose extract planner and hidden CLI [closed]"]
     n11["bob-cli-qj.5.1.5: bob prose inline and the round-trip guarantee [closed]"]
     n12["bob-cli-qj.5.1.6: Contract docs, host probe, and vault-clone dogfood [closed]"]
-    n13["bob-cli-qj.5.1.7: Bob Prose extract and inline gesture in Obsidian [in_progress]"]
+    n13["bob-cli-qj.5.1.7: Bob Prose extract and inline gesture in Obsidian [closed]"]
     n14["bob-cli-qj.5.1.8: Optional generated Prose catalog [closed]"]
     n0 --> n1
     n0 --> n2
@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qj.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.6/README.md) | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.7.md) | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.8/README.md) | [bob-cli-qj.5.1.8](bob-cli-qj.5.1.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.land/README.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.land/README.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.land.md) | [bob-cli-qj](README.md) | 1 |
 
 ## Commits
@@ -131,6 +131,7 @@ flowchart TD
 | bob-cli | [`d856be4`](https://github.com/bobs-org/bob-cli/commit/d856be45f37d9ca3b62cad77c426fd6247406e8b) | docs(prose): document extract and inline sections with JSON contract | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 2026-11-27 13:44:02 EST |
 | bob-plugins | [`bob-plugins@c2f7315`](https://github.com/bobs-org/bob-plugins/commit/c2f73154be826107b397ed7eeaa4348468dc8a02) | feat(prose): add section extraction and inline gestures | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 2026-11-27 14:12:12 EST |
 | bob-plugins | [`bob-plugins@07c4eeb`](https://github.com/bobs-org/bob-plugins/commit/07c4eeb4dc249e506efef49d3c88fa6c04c91720) | feat(bob-articles): ship prose section conversion gestures | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 2026-11-27 14:32:28 EST |
+| bob-cli | [`46885db`](https://github.com/bobs-org/bob-cli/commit/46885dbf65778dd67a4b4de84c1c7c8647e84374) | fix(prose): green the canonical gate for extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 15:48:12 EST |
 
 <!-- sase:referenced-by:start -->
 

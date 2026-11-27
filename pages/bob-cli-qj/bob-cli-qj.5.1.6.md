@@ -24,7 +24,7 @@ contract-docs: document the conversion contract in docs/prose.md and the referen
 ## Dependencies
 
 - **Depends on:** [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
