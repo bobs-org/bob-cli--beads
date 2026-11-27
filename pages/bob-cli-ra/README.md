@@ -16,6 +16,8 @@
 | implemented-by | [plan:202611/ctrl_jk_section_map.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | implemented-by | [plan:202611/tree_note_link_walks.md][2] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/ctrl_jk_section_map.md
 [2]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/tree_note_link_walks.md
 
@@ -31,7 +33,7 @@ On area, project, notebook, and prose notes, `[n` / `]n` step through the note's
 |---|---|---|---|---|---:|---:|
 | [bob-cli-ra.1](bob-cli-ra.1.md) | Sibling-ring engine and the tree route in api.navGroups | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-ra.2](bob-cli-ra.2.md) | Matcher hardening, key notices, and the links footer copy | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
-| [bob-cli-ra.3](bob-cli-ra.3.md) | Rail kit polish, the card-floor helper, and the tree rail adapter | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
+| [bob-cli-ra.3](bob-cli-ra.3.md) | Rail kit polish, the card-floor helper, and the tree rail adapter | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-ra.4](bob-cli-ra.4.md) | The rail on every tree card and the card-floor invariant | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 | [bob-cli-ra.5](bob-cli-ra.5.md) | Real-Obsidian link-walk acceptance with screenshot review | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 | [bob-cli-ra.6](bob-cli-ra.6.md) | Plugin docs, the link-walk glossary term, and approved memory | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
@@ -43,7 +45,7 @@ flowchart TD
     n0["bob-cli-ra: Tree-note link walks [in_progress]"]
     n1["bob-cli-ra.1: Sibling-ring engine and the tree route in api.navGroups [closed]"]
     n2["bob-cli-ra.2: Matcher hardening, key notices, and the links footer copy [in_progress]"]
-    n3["bob-cli-ra.3: Rail kit polish, the card-floor helper, and the tree rail adapter [in_progress]"]
+    n3["bob-cli-ra.3: Rail kit polish, the card-floor helper, and the tree rail adapter [closed]"]
     n4["bob-cli-ra.4: The rail on every tree card and the card-floor invariant [in_progress]"]
     n5["bob-cli-ra.5: Real-Obsidian link-walk acceptance with screenshot review [in_progress]"]
     n6["bob-cli-ra.6: Plugin docs, the link-walk glossary term, and approved memory [in_progress]"]
@@ -66,8 +68,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ra.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.1/README.md) | [bob-cli-ra.1](bob-cli-ra.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ra.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.2/README.md) | [bob-cli-ra.2](bob-cli-ra.2.md) | 0 |
-| [bbugyi200.apollo.bob-cli-ra.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.3/README.md) | [bob-cli-ra.3](bob-cli-ra.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ra.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.2.md) | [bob-cli-ra.2](bob-cli-ra.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ra.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.3/README.md) | [bob-cli-ra.3](bob-cli-ra.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ra.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.4/README.md) | [bob-cli-ra.4](bob-cli-ra.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ra.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.5/README.md) | [bob-cli-ra.5](bob-cli-ra.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ra.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md) | [bob-cli-ra.6](bob-cli-ra.6.md) | 0 |
@@ -78,3 +80,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@9317ce3`](https://github.com/bobs-org/bob-plugins/commit/9317ce32d3a9724c126062547504c6ea4ce91d0b) | feat(ledger-tools): add nav-groups sibling-ring tree route with lazy index | [bob-cli-ra.1](bob-cli-ra.1.md) | 2026-11-27 16:12:00 EST |
+| bob-plugins | [`bob-plugins@061c41b`](https://github.com/bobs-org/bob-plugins/commit/061c41b89e162a2aa4542471c6f789c2adee83f1) | feat(ledger-tools): add tree walk rail floor helper, model, and adapter | [bob-cli-ra.3](bob-cli-ra.3.md) | 2026-11-27 16:40:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ra.1][1] | Need epic scope | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.1/README.md
+
+<!-- sase:referenced-by:end -->

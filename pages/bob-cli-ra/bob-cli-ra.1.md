@@ -20,7 +20,7 @@ engine: add the cross-epic gate edges, then build the lazy, generation-stamped t
 ## Dependencies
 
 - **Blocks:** [bob-cli-ra.2](bob-cli-ra.2.md) ◐ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-ra.3](bob-cli-ra.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-ra.3](bob-cli-ra.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ engine: add the cross-epic gate edges, then build the lazy, generation-stamped t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@9317ce3`](https://github.com/bobs-org/bob-plugins/commit/9317ce32d3a9724c126062547504c6ea4ce91d0b) | feat(ledger-tools): add nav-groups sibling-ring tree route with lazy index | [bob-cli-ra.1](bob-cli-ra.1.md) | 2026-11-27 16:12:00 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ra.1][1] | Need phase scope | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.1/README.md
+
+<!-- sase:referenced-by:end -->

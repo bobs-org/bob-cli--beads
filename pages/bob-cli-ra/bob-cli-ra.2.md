@@ -11,6 +11,10 @@
 
 nav: stop matching step links inside inline code, count authored step links only on nav lines on tree routes, pass the tree fields through resolveNavLinks and walkMode.links, give `[n`/`]n`/`[N`/`]N` useful notices, and teach the `n` walker-footer panel parents, lanes, wraps, and singletons.
 
+## Notes
+
+[2026-11-27T21:32:44Z · bob-cli-ra.2] NAV API SHAPE: walkMode.links stays v7 and additively returns route, kind, lane, parent (navGroups step.parent), and stepNone; tree step overrides use nav lines while calendar/record retain body matching.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-ra.1](bob-cli-ra.1.md) ✓ · ⧖ 2026-11-27
@@ -20,4 +24,4 @@ nav: stop matching step links inside inline code, count authored step links only
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ra.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.2/README.md) | [bob-cli-ra.2](bob-cli-ra.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-ra.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.2.md) | [bob-cli-ra.2](bob-cli-ra.2.md) | 0 |

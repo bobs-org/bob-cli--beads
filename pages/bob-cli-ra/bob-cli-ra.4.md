@@ -15,7 +15,7 @@ cards: after bob-cli-qq.10.5 closes, mount the rail on area, project, notebook, 
 
 - **Depends on:** [bob-cli-qq.10.5](../bob-cli-qq/bob-cli-qq.10.5.md) ◐ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-ra.2](bob-cli-ra.2.md) ◐ · ⧖ 2026-11-27
-- **Depends on:** [bob-cli-ra.3](bob-cli-ra.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-ra.3](bob-cli-ra.3.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-ra.5](bob-cli-ra.5.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
@@ -23,3 +23,15 @@ cards: after bob-cli-qq.10.5 closes, mount the rail on area, project, notebook, 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-ra.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.4/README.md) | [bob-cli-ra.4](bob-cli-ra.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ra.1][1] | find cards bead for gate edge | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.1/README.md
+
+<!-- sase:referenced-by:end -->
