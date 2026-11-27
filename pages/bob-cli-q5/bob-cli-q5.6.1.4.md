@@ -35,7 +35,13 @@ acceptance: add and run isolated Obsidian acceptance for keyboard gestures, undo
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.4/README.md) | [bob-cli-q5.6.1.4](bob-cli-q5.6.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.4/README.md) | [bob-cli-q5.6.1.4](bob-cli-q5.6.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@c6a979e`](https://github.com/bobs-org/bob-plugins/commit/c6a979eb640ef5fd011088d89e7bffb1941936fd) | fix(snooze): complete Obsidian card acceptance | [bob-cli-q5.6.1.4](bob-cli-q5.6.1.4.md) | 2026-11-27 06:29:23 EST |
 
 <!-- sase:referenced-by:start -->
 
