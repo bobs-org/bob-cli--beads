@@ -29,6 +29,22 @@ plugin-marks: the alarm-clock definition mark that replaces 🍅 while asleep (a
 🔒 adcdae95f837d67cd7b6a33547702065d18d33b406c54ed0d456962fb91972c4
 🔒 51e7f3760684d79a3b934e42fc93e2c99cf802870afb18e03896b0aed4f63cc5
 
+[2026-11-27T05:43:36Z · bob-cli-q5.5.1.land--6] Final real-Obsidian snooze display acceptance: the sole failure is the documented, pre-existing Reading tomato regression; all other checks pass. Includes the complete report and all 12 screenshots from the 1280x800 headless-sized run (narrow case 480x800).
+
+🔒 report-headless-final.json
+🔒 e2e-snooze-marks-a11y.png
+🔒 e2e-snooze-marks-daily-dark.png
+🔒 e2e-snooze-marks-daily-light.png
+🔒 e2e-snooze-marks-hover.png
+🔒 e2e-snooze-marks-live-dark.png
+🔒 e2e-snooze-marks-live-light.png
+🔒 e2e-snooze-marks-narrow.png
+🔒 e2e-snooze-marks-plan.png
+🔒 e2e-snooze-marks-reading-dark.png
+🔒 e2e-snooze-marks-reading-light.png
+🔒 e2e-snooze-marks-rows-dark.png
+🔒 e2e-snooze-marks-rows.png
+
 ## Attachments
 
 - 🔒 103a892804b9c93815fc762f7eca8d50680466397282a29f42977ec759bc4fec · image/png · 1024×800 · 94.7363 KiB (private attachment)
@@ -42,6 +58,19 @@ plugin-marks: the alarm-clock definition mark that replaces 🍅 while asleep (a
 - 🔒 ae07e3df7c0e26c594fb8c2ab65b3d2edd749b016af6daa40af47ffb1fb181ae · image/png · 1024×800 · 59.2754 KiB (private attachment)
 - 🔒 b59fc694b3a655bcecdb6db731e4eb1babeef8536a0f4cde296671afde5699a0 · image/png · 1024×800 · 29.6484 KiB (private attachment)
 - 🔒 e03e8bbdf47eac2e48fe1cf25d0474f0249b24e1ca2b727cdb2827a801b2bb17 · image/png · 1024×800 · 59.3887 KiB (private attachment)
+- 🔒 e2e-snooze-marks-a11y.png · image/png · 1280×800 · 67.752 KiB (private attachment)
+- 🔒 e2e-snooze-marks-daily-dark.png · image/png · 1280×800 · 75.5137 KiB (private attachment)
+- 🔒 e2e-snooze-marks-daily-light.png · image/png · 1280×800 · 75.0068 KiB (private attachment)
+- 🔒 e2e-snooze-marks-hover.png · image/png · 1280×800 · 65.7471 KiB (private attachment)
+- 🔒 e2e-snooze-marks-live-dark.png · image/png · 1280×800 · 60.084 KiB (private attachment)
+- 🔒 e2e-snooze-marks-live-light.png · image/png · 1280×800 · 59.8477 KiB (private attachment)
+- 🔒 e2e-snooze-marks-narrow.png · image/png · 480×800 · 24.9619 KiB (private attachment)
+- 🔒 e2e-snooze-marks-plan.png · image/png · 1280×800 · 29.7861 KiB (private attachment)
+- 🔒 e2e-snooze-marks-reading-dark.png · image/png · 1280×800 · 95.0977 KiB (private attachment)
+- 🔒 e2e-snooze-marks-reading-light.png · image/png · 1280×800 · 94.3057 KiB (private attachment)
+- 🔒 e2e-snooze-marks-rows-dark.png · image/png · 1280×800 · 97.6855 KiB (private attachment)
+- 🔒 e2e-snooze-marks-rows.png · image/png · 1280×800 · 96.4971 KiB (private attachment)
+- 🔒 report-headless-final.json · application/json · 23.4287 KiB (private attachment)
 
 ## Dependencies
 
@@ -61,6 +90,7 @@ plugin-marks: the alarm-clock definition mark that replaces 🍅 while asleep (a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.5.1.land][1] | Need the parent link phase scope and notes | 1 |
+| read-by | [agent:bob-cli-q5.5.1.land--5][1] | Verify full epic scope against plan and recorded phase evidence before deciding closure | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md
 

@@ -24,7 +24,13 @@ notice-core: implement portable receipt, list, and add-response models, bounded 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.2/README.md) | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.2/README.md) | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@08e7251`](https://github.com/bobs-org/bob-mac-capture/commit/08e72511fe0d2148c6f6a3862574e52bf19004e8) | feat(snooze): decode wake receipts and model notice delivery | [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) | 2026-11-26 14:40:25 EST |
 
 <!-- sase:referenced-by:start -->
 
