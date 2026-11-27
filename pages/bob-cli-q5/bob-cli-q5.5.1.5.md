@@ -20,7 +20,7 @@ plan-chip: add the independent snoozed chip beside TODAY, its section jump, and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

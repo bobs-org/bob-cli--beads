@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.5.1](bob-cli-q5.5.1.md) / bob-cli-q5.5.1.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.md) · **Assignee:** `bob-cli-q5.5.1.6` · **Size:** medium
-**Created:** 2026-11-26 15:37:09 EST
+**Created:** 2026-11-26 15:37:09 EST · **Closed:** 2026-11-26 22:08:57 EST
 **Plan:** [202611/snooze\_display\_marks.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_display_marks.md)
 
 ## Description
@@ -40,6 +40,8 @@ visual-proof: verify the complete display in real Obsidian, capture light and da
 🔒 e2e-snooze-marks-reading-light.png
 
 [2026-11-27T02:28:43Z · bob-cli-q5.5.1.6] HANDOFF — visual proof verified, vault deploy still pending. VERIFIED: real-Obsidian e2e scripts/obsidian-snooze-marks-e2e.cjs passes 71/72 in an isolated scratch vault (xvfb + CDP, synthetic notes, stub wake command): definition clocks indigo/amber/muted with exact tooltips, fresh/settled woken pills with exact late/early tooltips and history-line navigation, all row paints + heading summary in Live Preview and Reading, plan chip amber with forecast, both toggles incl Today-toggle gating, plain/Mod clicks, plan-chip jump, retime/link-win/delete liveness without reopening, no renderer errors, no note writes, line-height/toggles/narrow/reduced-motion/forced-colors evidence. Unit: full test:unit 10127 pass 0 fail; validate 12/12; e2e self-test wrapper registered. FIXED (in this phase): (1) Today toggle never gated snooze clocks in Live Preview or Reading (SM-D15) — gate added in 277a/277b plus Today-refresh hook in 275, covered by a new unit test and the e2e; (2) runtime HHMM/time handoff dropped all non-ignored row chips and all live history chips — colon conversion + parsed wake-label lookup in 278a/278b/278c, covered by a new unit test and the e2e; (3) Reading row sweep missed wrapped .el-* blocks — document-order walk in 278b, proven by the e2e. ATTACHED: report.json + light/dark screenshots for Live Preview, Reading, rows, plan, hover, narrow, a11y. REMAINING: `bob plugins sync` from the linked bob-plugins checkout, then close this bead. BLOCKED: the vault holds an uncommitted ws-15 build (guard refuses without -F, which is forbidden); ws-15 land-pipeline workers are still running. When the vault frees: run `bob plugins sync` in the linked checkout (verify `npm run build` first if the tree moved), confirm `bob plugins sync` reports the copy, then `sase bead close bob-cli-q5.5.1.6 --note <verified scope>`.
+
+[2026-11-27T03:08:57Z · bob-cli-q5.5.1.6] Visual proof complete and deployed. Snooze display fixes + real-Obsidian e2e landed in bob-plugins 73d028e5 (71/72 e2e checks; the only failure, reading-tomato-regression, reproduces on the pristine base and is recorded as a PROPOSED FOLLOW-UP; light/dark/a11y screenshots + report.json attached in notes #3/#4). This run: npm run build:check clean on origin/master a4bd99f2; bob plugins sync copied bob-ledger-tools (no overwrite refusal), re-run reports 0 copied/34 unchanged, and vault .obsidian/plugins/bob-ledger-tools/main.js is byte-identical to the repo build. No epic-symbol leftovers.
 
 ## Attachments
 
