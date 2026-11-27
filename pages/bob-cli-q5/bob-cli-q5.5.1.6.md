@@ -13,7 +13,7 @@ visual-proof: verify the complete display in real Obsidian, capture light and da
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.5.1.5](bob-cli-q5.5.1.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

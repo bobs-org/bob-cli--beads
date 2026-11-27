@@ -18,13 +18,20 @@ notice-runtime: implement the Darwin observer, atomic notifier claim, persistent
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.8.1.2](bob-cli-q5.8.1.2.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@0b2fcd8`](https://github.com/bobs-org/bob-mac-capture/commit/0b2fcd8329857bce91cdeea5edab5ec5386574e1) | feat(snooze): observe receipts and hold notices until return | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2026-11-26 15:03:59 EST |
+| bob-mac-capture | [`bob-mac-capture@5291cb0`](https://github.com/bobs-org/bob-mac-capture/commit/5291cb08ae5f87342e1e325b75c556671462c5cb) | fix(snooze): repair notice-runtime typecheck for Mac bundle | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2026-11-26 16:02:22 EST |
 
 <!-- sase:referenced-by:start -->
 
