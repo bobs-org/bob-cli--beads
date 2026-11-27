@@ -22,7 +22,7 @@ model: refactor the section-header scanner into one walker that the keys and the
 ## Dependencies
 
 - **Blocks:** [bob-cli-rc.2](bob-cli-rc.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-rc.3](bob-cli-rc.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-rc.3](bob-cli-rc.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

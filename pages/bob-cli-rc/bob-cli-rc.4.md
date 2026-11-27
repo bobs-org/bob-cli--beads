@@ -13,7 +13,7 @@ ship: prove the map end to end in real Obsidian over CDP (both key routes, lifec
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rc.3](bob-cli-rc.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-rc.3](bob-cli-rc.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

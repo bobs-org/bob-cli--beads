@@ -20,7 +20,7 @@ card: build the pure DOM painter with keyed in-place reconciliation, the margin/
 ## Dependencies
 
 - **Depends on:** [bob-cli-rc.1](bob-cli-rc.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-rc.3](bob-cli-rc.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-rc.3](bob-cli-rc.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ card: build the pure DOM painter with keyed in-place reconciliation, the margin/
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@c3729cf`](https://github.com/bobs-org/bob-plugins/commit/c3729cf1c922035293769732fea81c2e970936f7) | feat(navigation): add Section Map card painter, placement, and styles | [bob-cli-rc.2](bob-cli-rc.2.md) | 2026-11-27 16:20:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rc.2][1] | full bead notes and remaining work | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.2/README.md
+
+<!-- sase:referenced-by:end -->

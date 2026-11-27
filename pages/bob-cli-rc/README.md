@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/ctrl_jk_section_map.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/ctrl_jk_section_map.md
 
 <!-- sase:links:end -->
@@ -29,7 +31,7 @@ Every successful Ctrl+J / Ctrl+K section jump in Obsidian briefly shows a passiv
 |---|---|---|---|---|---:|---:|
 | [bob-cli-rc.1](bob-cli-rc.1.md) | Shared heading scanner and Section Map model | ✓ closed | medium | 2026-11-27 | 1 | 2 |
 | [bob-cli-rc.2](bob-cli-rc.2.md) | Section Map card painter, placement, and styles | ✓ closed | medium | 2026-11-27 | 1 | 1 |
-| [bob-cli-rc.3](bob-cli-rc.3.md) | Jump integration, lifecycle controller, landing flash, and peek | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
+| [bob-cli-rc.3](bob-cli-rc.3.md) | Jump integration, lifecycle controller, landing flash, and peek | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-rc.4](bob-cli-rc.4.md) | Real-Obsidian acceptance, docs, and deploy | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 
 ## Lineage
@@ -39,7 +41,7 @@ flowchart TD
     n0["bob-cli-rc: Ctrl+J / Ctrl+K Section Map [in_progress]"]
     n1["bob-cli-rc.1: Shared heading scanner and Section Map model [closed]"]
     n2["bob-cli-rc.2: Section Map card painter, placement, and styles [closed]"]
-    n3["bob-cli-rc.3: Jump integration, lifecycle controller, landing flash, and peek [in_progress]"]
+    n3["bob-cli-rc.3: Jump integration, lifecycle controller, landing flash, and peek [closed]"]
     n4["bob-cli-rc.4: Real-Obsidian acceptance, docs, and deploy [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -57,7 +59,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-rc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rc.1.md) | [bob-cli-rc.1](bob-cli-rc.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-rc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.2/README.md) | [bob-cli-rc.2](bob-cli-rc.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-rc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.3/README.md) | [bob-cli-rc.3](bob-cli-rc.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-rc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.3/README.md) | [bob-cli-rc.3](bob-cli-rc.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-rc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.4/README.md) | [bob-cli-rc.4](bob-cli-rc.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-rc.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.land/README.md) | [bob-cli-rc](README.md) | 0 |
 
@@ -68,3 +70,16 @@ flowchart TD
 | bob-plugins | [`bob-plugins@44425a4`](https://github.com/bobs-org/bob-plugins/commit/44425a4929a93d170b1ed0845d7ded3b5ef9adf3) | feat(navigation): add shared Section Map model | [bob-cli-rc.1](bob-cli-rc.1.md) | 2026-11-27 15:24:25 EST |
 | bob-plugins | [`bob-plugins@d4edb02`](https://github.com/bobs-org/bob-plugins/commit/d4edb022697087d994ded538800a77a00063af2a) | fix(navigation): refresh the Section Map bundle for single-heading notes | [bob-cli-rc.1](bob-cli-rc.1.md) | 2026-11-27 15:45:38 EST |
 | bob-plugins | [`bob-plugins@c3729cf`](https://github.com/bobs-org/bob-plugins/commit/c3729cf1c922035293769732fea81c2e970936f7) | feat(navigation): add Section Map card painter, placement, and styles | [bob-cli-rc.2](bob-cli-rc.2.md) | 2026-11-27 16:20:19 EST |
+| bob-plugins | [`bob-plugins@592c3c9`](https://github.com/bobs-org/bob-plugins/commit/592c3c9afbad50b95af1bda7029158da15923931) | feat(navigation): wire Section Map lifecycle, jump, and pinned peek | [bob-cli-rc.3](bob-cli-rc.3.md) | 2026-11-27 16:53:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rc.2][1] | parent epic status and notes | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.2/README.md
+
+<!-- sase:referenced-by:end -->
