@@ -20,7 +20,7 @@ docs-mount-index: stop bob-docs calling an untracked, gitignored mount index.md 
 ## Dependencies
 
 - **Depends on:** [bob-cli-r7.1](bob-cli-r7.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-r7.3](bob-cli-r7.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-r7.3](bob-cli-r7.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ docs-mount-index: stop bob-docs calling an untracked, gitignored mount index.md 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`1878531`](https://github.com/bobs-org/bob-cli/commit/187853158344f2978486c3d0164b4fe6f7040fd1) | fix(docs): replace stale gitignored mount copies instead of treating them as authored | [bob-cli-r7.2](bob-cli-r7.2.md) | 2026-11-27 11:24:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-r7.2--2][1] | Inspect assigned bead status, notes, and close vs keep | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-r7.2.md
+
+<!-- sase:referenced-by:end -->

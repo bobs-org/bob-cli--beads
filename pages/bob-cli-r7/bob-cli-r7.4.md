@@ -13,7 +13,7 @@ plugin-docs-headroom: per docs_headroom, condense the bob-navigation-hotkeys and
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-r7.3](bob-cli-r7.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-r7.3](bob-cli-r7.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
