@@ -38,3 +38,15 @@ records-cabinet: register the open-by-default Records provider for album cards. 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6cb79d7`](https://github.com/bobs-org/bob-plugins/commit/6cb79d73bc0602ea6d5f8902783c16b7e1683912) | feat(cabinets): add the album Records cabinet | [bob-cli-qq.7](bob-cli-qq.7.md) | 2026-11-26 21:05:14 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.7][1] | Need full phase description | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+
+<!-- sase:referenced-by:end -->

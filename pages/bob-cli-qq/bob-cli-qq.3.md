@@ -21,7 +21,7 @@ absorption: spike Vim motion over hidden ranges in real Obsidian first. Then bui
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qq.6](bob-cli-qq.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qq.6](bob-cli-qq.6.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.7](bob-cli-qq.7.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
@@ -43,7 +43,9 @@ absorption: spike Vim motion over hidden ranges in real Obsidian first. Then bui
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.3][1] | Need the phase notes and design refs | 2 |
+| read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 
 <!-- sase:referenced-by:end -->

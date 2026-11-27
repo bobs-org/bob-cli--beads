@@ -19,7 +19,7 @@ chrome: build the shared cabinet header and drawer. Delegate fold rows (Schema, 
 
 - **Depends on:** [bob-cli-qq.1](bob-cli-qq.1.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.5](bob-cli-qq.5.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qq.6](bob-cli-qq.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qq.6](bob-cli-qq.6.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.7](bob-cli-qq.7.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
@@ -41,7 +41,9 @@ chrome: build the shared cabinet header and drawer. Delegate fold rows (Schema, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.4--2][1] | Confirm the epic scope and current status before closing after verification | 2 |
+| read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 
 <!-- sase:referenced-by:end -->

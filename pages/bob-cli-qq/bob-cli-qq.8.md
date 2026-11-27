@@ -14,7 +14,7 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.5](bob-cli-qq.5.md) ✓ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qq.6](bob-cli-qq.6.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qq.6](bob-cli-qq.6.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qq.7](bob-cli-qq.7.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qq.9](bob-cli-qq.9.md) ◐ · ⧖ 2026-11-26
 
@@ -23,3 +23,15 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.8/README.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.7][1] | list epic children statuses | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md
 
@@ -34,7 +34,7 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 | [bob-cli-qq.3](bob-cli-qq.3.md) | Catalog recognition, ownership claims, render-time hiding, and the body renderer | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.4](bob-cli-qq.4.md) | One cabinet chrome, delegation, the stack, and the CSS region | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.5](bob-cli-qq.5.md) | The \`\_\` dispatch and numbered cabinet pick | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qq.6](bob-cli-qq.6.md) | Areas, Projects, Notebooks, and Albums cabinets on area and project cards | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [bob-cli-qq.6](bob-cli-qq.6.md) | Areas, Projects, Notebooks, and Albums cabinets on area and project cards | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.7](bob-cli-qq.7.md) | The album Records cabinet | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.8](bob-cli-qq.8.md) | Real-Obsidian acceptance and screenshot review with the gate open | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [bob-cli-qq.9](bob-cli-qq.9.md) | Switch cabinets on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
@@ -49,7 +49,7 @@ flowchart TD
     n3["bob-cli-qq.3: Catalog recognition, ownership claims, render-time hiding, and the body renderer [closed]"]
     n4["bob-cli-qq.4: One cabinet chrome, delegation, the stack, and the CSS region [closed]"]
     n5["bob-cli-qq.5: The `_` dispatch and numbered cabinet pick [closed]"]
-    n6["bob-cli-qq.6: Areas, Projects, Notebooks, and Albums cabinets on area and project cards [in_progress]"]
+    n6["bob-cli-qq.6: Areas, Projects, Notebooks, and Albums cabinets on area and project cards [closed]"]
     n7["bob-cli-qq.7: The album Records cabinet [closed]"]
     n8["bob-cli-qq.8: Real-Obsidian acceptance and screenshot review with the gate open [in_progress]"]
     n9["bob-cli-qq.9: Switch cabinets on, docs, approved memory, and clean deploy [in_progress]"]
@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.4.md) | [bob-cli-qq.4](bob-cli-qq.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md) | [bob-cli-qq.5](bob-cli-qq.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.6/README.md) | [bob-cli-qq.6](bob-cli-qq.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.6/README.md) | [bob-cli-qq.6](bob-cli-qq.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md) | [bob-cli-qq.7](bob-cli-qq.7.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.8/README.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.9/README.md) | [bob-cli-qq.9](bob-cli-qq.9.md) | 0 |
@@ -100,6 +100,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@9527ee1`](https://github.com/bobs-org/bob-plugins/commit/9527ee14e2fa4193bdd3fbc9d85017094f39ef90) | feat(ledger-tools): add cabinet plugin features and refresh docs inventory | [bob-cli-qq.4](bob-cli-qq.4.md) | 2026-11-26 20:42:29 EST |
 | bob-plugins | [`bob-plugins@5e2c0bd`](https://github.com/bobs-org/bob-plugins/commit/5e2c0bd54aaeb8c6fe4012f36277f0ace0fb0bde) | feat(cabinets): add numbered cabinet pick and \_ dispatch | [bob-cli-qq.5](bob-cli-qq.5.md) | 2026-11-26 20:54:14 EST |
 | bob-plugins | [`bob-plugins@6cb79d7`](https://github.com/bobs-org/bob-plugins/commit/6cb79d73bc0602ea6d5f8902783c16b7e1683912) | feat(cabinets): add the album Records cabinet | [bob-cli-qq.7](bob-cli-qq.7.md) | 2026-11-26 21:05:14 EST |
+| bob-plugins | [`bob-plugins@a4bd99f`](https://github.com/bobs-org/bob-plugins/commit/a4bd99f27b1980539e7ebedf87e39c4897670f26) | feat(cabinets): add host catalog providers | [bob-cli-qq.6](bob-cli-qq.6.md) | 2026-11-26 21:46:47 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -108,7 +109,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.5][1] | Need epic scope for phase qq.5 | 1 |
+| read-by | [agent:bob-cli-qq.7][2] | need epic scope and sibling repo info | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 
 <!-- sase:referenced-by:end -->

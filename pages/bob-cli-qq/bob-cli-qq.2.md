@@ -38,7 +38,9 @@ footer: add a LIFO overlay API on the ledger walker-footer status item. Live wal
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.2][1] | Need phase scope, design file, decisions, and prior notes | 2 |
+| read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.2.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 
 <!-- sase:referenced-by:end -->
