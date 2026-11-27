@@ -23,6 +23,10 @@
 
 One Obsidian gesture turns an authored section of an area, project, or prose note into a prose note, and the same gesture folds it back. bob prose extract and bob prose inline own the conversion in Rust: previewed, preimage-guarded, all-or-nothing, link-repairing, crash-recoverable, and lossless on a round trip. Extraction records provenance that the later reversible-projects work can consume.
 
+## Notes
+
+[2026-11-27T13:18:36Z · bob-cli-qp.land] DISCOVERED ISSUE (found by the bob-cli-qp land agent running just check on bob-cli master 85d2fb32): clippy fails the canonical gate with 'error: this let...else may be rewritten with the ? operator' (clippy::question_mark, denied by clippy_gate) at src/native/prose/section_model.rs:922-928 (let Some(rest) = bullet.strip_prefix("- ").or_else(.."* ").or_else(.."+ ") else { return None; };). The file was added by 85d2fb32 (bob-cli-qj.5.1.2), which closed after only cargo test --lib native::prose::section_model::tests. Because the build of bob-obsidian (lib) stops there, just check runs no tests at all on master for every agent. Fix: let rest = bullet.strip_prefix("- ").or_else(...).or_else(...)?; then rerun just check. Log: ~/.cache/sase/tmp/qp-land/just-check.log on apollo.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-qw](../bob-cli-qw/README.md) ◇ · ⧖ 2026-11-27

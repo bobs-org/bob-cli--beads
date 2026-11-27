@@ -13,7 +13,7 @@ link-relocation: a relocation map and vault-wide rewriter that repairs links in 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
