@@ -30,13 +30,7 @@ extract: the extract planner, the ProseConversion v1 JSON types, the fingerprint
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.4/README.md) | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`a558ce1`](https://github.com/bobs-org/bob-cli/commit/a558ce11176fcb9d03e8a11be917f8d671810b32) | feat(prose): plan and write prose-section extraction | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 2026-11-27 11:18:45 EST |
+| [bbugyi200.apollo.bob-cli-qj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.4/README.md) | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

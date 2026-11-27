@@ -30,13 +30,7 @@ contract-docs: document the conversion contract in docs/prose.md and the referen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qj.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.6/README.md) | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`d856be4`](https://github.com/bobs-org/bob-cli/commit/d856be45f37d9ca3b62cad77c426fd6247406e8b) | docs(prose): document extract and inline sections with JSON contract | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 2026-11-27 13:44:02 EST |
+| [bbugyi200.apollo.bob-cli-qj.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.6/README.md) | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

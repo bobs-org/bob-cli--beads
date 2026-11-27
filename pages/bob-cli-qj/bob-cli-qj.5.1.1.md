@@ -27,13 +27,7 @@ txn-trash-recovery: vault_rewrite gains a guarded trash operation, no-replace cr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.1/README.md) | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`4f55514`](https://github.com/bobs-org/bob-cli/commit/4f55514f9eefe091d57a17ac6a86b13a58883c45) | feat(vault-rewrite): crash-safe rewrite with trash, journal, and recovery | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 2026-11-27 09:13:08 EST |
+| [bbugyi200.apollo.bob-cli-qj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.1/README.md) | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

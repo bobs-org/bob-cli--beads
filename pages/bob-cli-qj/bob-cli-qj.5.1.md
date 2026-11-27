@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/prose_section_extract_inline.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_section_extract_inline.md
 
@@ -51,16 +51,12 @@ Current gates: just check passed (ToolRun csbstnmqnpb4, exit 0): 13,399 Rust tes
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 5 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-cli | [`46885db`](https://github.com/bobs-org/bob-cli/commit/46885dbf65778dd67a4b4de84c1c7c8647e84374) | fix(prose): green the canonical gate for extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 15:48:12 EST |
-| bob-cli | [`3deb0bd`](https://github.com/bobs-org/bob-cli/commit/3deb0bd3adab6014338682e56675733325ba1c24) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:29:14 EST |
-| bob-cli | [`5b2c530`](https://github.com/bobs-org/bob-cli/commit/5b2c53068ad86a0d585593f9779044281242f387) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:45:36 EST |
-| bob-cli | [`7d48b7b`](https://github.com/bobs-org/bob-cli/commit/7d48b7b2490b1cfd4aeb2ba826c66c037c9db4f0) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 17:48:38 EST |
 | bob-cli--plans | [`bob-cli--plans@5dc9923`](https://github.com/bobs-org/bob-cli--plans/commit/5dc9923375e145dc05e37e27e08e3abe45ab9b6d) | docs(plan): mark prose section extraction done | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 18:29:19 EST |
 
 <!-- sase:referenced-by:start -->
@@ -72,6 +68,7 @@ Current gates: just check passed (ToolRun csbstnmqnpb4, exit 0): 13,399 Rust tes
 | read-by | [agent:bob-cli-qj.5.1.land][1] | Need the epic scope, children, and linked plan file | 1 |
 | read-by | [agent:bob-cli-qj.5.1.land--1][1] | Record current land bead status and plan context before finishing verification | 1 |
 | read-by | [agent:bob-cli-qj.5.1.land--2][1] | Verify the prose extraction phase bead and prepare its closure note | 1 |
+| read-by | [agent:bob-cli-qj.5.1.land--3][1] | Need assigned epic note and scope for closeout evidence | 3 |
 | read-by | [agent:bob-cli-r7.1][2] | check if clean-tree clippy gate failure is already tracked | 1 |
 | read-by | [agent:bob-cli-r7.land][3] | Check whether the in-progress prose epic owns the prose extract catalog/completion test failures found while landing bob-cli-r7 | 2 |
 | read-by | [agent:bob-cli-r8.land][4] | Verify ownership of landing check failures | 1 |

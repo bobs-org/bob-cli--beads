@@ -28,13 +28,7 @@ inline: the inline planner and bob prose inline, both commands unhidden together
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qj.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.5.md) | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`eff5d98`](https://github.com/bobs-org/bob-cli/commit/eff5d986678801e3466622aafa64e70c950f07a2) | feat(prose): inline prose notes and guarantee round trips | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 2026-11-27 12:57:43 EST |
+| [bbugyi200.apollo.bob-cli-qj.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.5.md) | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

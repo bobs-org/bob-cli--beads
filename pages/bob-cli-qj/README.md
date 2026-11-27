@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / bob-cli-qj
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.6i.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.6i.linker.w0.md) · **Assignee:** `bob-cli-qj.land`
-**Created:** 2026-11-26 10:56:26 EST
+**Created:** 2026-11-26 10:56:26 EST · **Closed:** 2026-11-27 18:37:35 EST
 **Plan:** [202611/prose\_note\_type.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_note_type.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/prose_note_type.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 15 automatic references — see [Referenced By](#referenced-by)._
+_Plus 16 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_note_type.md
 
@@ -35,6 +35,8 @@ INTEGRATION: I reviewed the 17 non-epic bob-cli commits since cf414ce1 (qm.7, qp
 
 FOLLOW-UPS: (1) qj.1 #1 and qj.2 #1 (baseline drawer/capture test failures, tracked as bob-cli-qo): declined as new work because they no longer reproduce on eef6cc07 (lib and cli suites fully green); I left a non-repro note on bob-cli-qo recommending it close. (2) qj.4 #2 (two bob-plugins unit failures from the q5.6.1 snooze work): declined because they were already fixed by the q5.6.1 landing 56baeb9f (bob-cli-qu closed superseded); both test files pass 81/0 on bob-plugins master 56baeb9f. (3) qj.4 #3 (guard closes against unpushed linked-repo commits): no duplicate and no causal active epic, so I created feature task bob-cli-qy (large, ready). epic-symbols: none. just symvision: no such recipe in this justfile.
 
+[2026-11-27T23:37:35Z · bob-cli-qj.land--1] Landing complete. Verification and integration are recorded in the earlier 'LANDING VERIFIED, CLOSE BLOCKED' note on this bead: all five phases checked against source, decisions, and tests; bob-plugins c41e07e9 re-landed the unpushed qj.3 work; two leftover 'Bob Articles' docs strings fixed; follow-ups triaged (bob-cli-qo noted as no longer reproducing, the q5.6.1 failures already fixed in 56baeb9f, bob-cli-qy created). The close was waiting only on nested epic bob-cli-qj.5.1 (prose-section extract/inline). It closed 2026-11-27T23:27:15Z with resolution done ('All eight phases are closed and the landing verification gates passed'), so the plan's Done-when item 'The prose-sections epic is proposed' holds and has gone further: that epic has landed. Post-child drift check: bob-cli eef6cc07..origin/master (27 commits) and bob-plugins 56baeb9f..origin/master. The new extract/inline/section-model code uses the shared frontmatter_is_prose check and writes type [[prose]]. The new bob-plugins gestures gate on articleHasArticleType, which uses ARTICLE_PROSE_TYPE_NAMES [prose, article]. The remaining 'article' strings in the diffs are the frozen ArticlePlan contract keys, the legacy-alias copy, or legacy test fixtures. No drift fixes were needed. sase bead epic-symbols bob-cli-qj: no entries. just symvision is unavailable because this justfile has no symvision recipe.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,7 +51,7 @@ FOLLOW-UPS: (1) qj.1 #1 and qj.2 #1 (baseline drawer/capture test failures, trac
 
 ```mermaid
 flowchart TD
-    n0["bob-cli-qj: Rename the article note type to prose [in_progress]"]
+    n0["bob-cli-qj: Rename the article note type to prose [closed]"]
     n1["bob-cli-qj.1: Rename the Rust article engine to prose [closed]"]
     n2["bob-cli-qj.2: bob prose with permanent legacy aliases [closed]"]
     n3["bob-cli-qj.3: Bob Prose in Obsidian [closed]"]
@@ -103,16 +105,16 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.3/README.md) | [bob-cli-qj.3](bob-cli-qj.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.4.md) | [bob-cli-qj.4](bob-cli-qj.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-qj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.md) | [bob-cli-qj.5](bob-cli-qj.5.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.1/README.md) | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.2.md) | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.3/README.md) | [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.4/README.md) | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.5.md) | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.6/README.md) | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.1/README.md) | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.2.md) | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.3/README.md) | [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.4/README.md) | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.5.md) | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.6/README.md) | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.7.md) | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.8/README.md) | [bob-cli-qj.5.1.8](bob-cli-qj.5.1.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 5 |
-| [bbugyi200.apollo.bob-cli-qj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.land.md) | [bob-cli-qj](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.land.md) | [bob-cli-qj](README.md) | 2 |
 
 ## Commits
 
@@ -122,20 +124,11 @@ flowchart TD
 | bob-cli | [`4168e20`](https://github.com/bobs-org/bob-cli/commit/4168e2013a35cf08e11858c2d66a61d60f5f8a8b) | feat(prose): make prose the canonical note type and CLI | [bob-cli-qj.2](bob-cli-qj.2.md) | 2026-11-26 14:48:41 EST |
 | bob-cli | [`16a2497`](https://github.com/bobs-org/bob-cli/commit/16a2497d0a73f8497220a656116eaf311c08d246) | docs(decisions): cite the prose-cli commit in prose-notes-are-owned-prose | [bob-cli-qj.4](bob-cli-qj.4.md) | 2026-11-27 06:34:53 EST |
 | bob-plugins | [`bob-plugins@c41e07e`](https://github.com/bobs-org/bob-plugins/commit/c41e07e9d6d66e06410af472df4117b0be6efc49) | feat(prose): Bob Prose in Obsidian with canonical bob prose calls | [bob-cli-qj.4](bob-cli-qj.4.md) | 2026-11-27 06:35:35 EST |
-| bob-cli | [`85d2fb3`](https://github.com/bobs-org/bob-cli/commit/85d2fb32b0f99a7555289c07b40f82c92807e28a) | feat(prose): add section selection and eligibility model | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 2026-11-27 08:00:59 EST |
 | bob-plugins | [`bob-plugins@e48f86b`](https://github.com/bobs-org/bob-plugins/commit/e48f86b6896d8802e0ba4fa6a4be72dbe5438223) | docs(prose): name Bob Prose in the plugin nav and the prose API section | [bob-cli-qj](README.md) | 2026-11-27 08:11:03 EST |
-| bob-cli | [`4f55514`](https://github.com/bobs-org/bob-cli/commit/4f55514f9eefe091d57a17ac6a86b13a58883c45) | feat(vault-rewrite): crash-safe rewrite with trash, journal, and recovery | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 2026-11-27 09:13:08 EST |
-| bob-cli | [`9f461d5`](https://github.com/bobs-org/bob-cli/commit/9f461d52c51251f26e778c7eba6550cebc81a8df) | feat(prose): relocate links around extracted sections | [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) | 2026-11-27 09:31:41 EST |
-| bob-cli | [`a558ce1`](https://github.com/bobs-org/bob-cli/commit/a558ce11176fcb9d03e8a11be917f8d671810b32) | feat(prose): plan and write prose-section extraction | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 2026-11-27 11:18:45 EST |
-| bob-cli | [`eff5d98`](https://github.com/bobs-org/bob-cli/commit/eff5d986678801e3466622aafa64e70c950f07a2) | feat(prose): inline prose notes and guarantee round trips | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 2026-11-27 12:57:43 EST |
-| bob-cli | [`d856be4`](https://github.com/bobs-org/bob-cli/commit/d856be45f37d9ca3b62cad77c426fd6247406e8b) | docs(prose): document extract and inline sections with JSON contract | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 2026-11-27 13:44:02 EST |
 | bob-plugins | [`bob-plugins@c2f7315`](https://github.com/bobs-org/bob-plugins/commit/c2f73154be826107b397ed7eeaa4348468dc8a02) | feat(prose): add section extraction and inline gestures | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 2026-11-27 14:12:12 EST |
 | bob-plugins | [`bob-plugins@07c4eeb`](https://github.com/bobs-org/bob-plugins/commit/07c4eeb4dc249e506efef49d3c88fa6c04c91720) | feat(bob-articles): ship prose section conversion gestures | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 2026-11-27 14:32:28 EST |
-| bob-cli | [`46885db`](https://github.com/bobs-org/bob-cli/commit/46885dbf65778dd67a4b4de84c1c7c8647e84374) | fix(prose): green the canonical gate for extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 15:48:12 EST |
-| bob-cli | [`3deb0bd`](https://github.com/bobs-org/bob-cli/commit/3deb0bd3adab6014338682e56675733325ba1c24) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:29:14 EST |
-| bob-cli | [`5b2c530`](https://github.com/bobs-org/bob-cli/commit/5b2c53068ad86a0d585593f9779044281242f387) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:45:36 EST |
-| bob-cli | [`7d48b7b`](https://github.com/bobs-org/bob-cli/commit/7d48b7b2490b1cfd4aeb2ba826c66c037c9db4f0) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 17:48:38 EST |
 | bob-cli--plans | [`bob-cli--plans@5dc9923`](https://github.com/bobs-org/bob-cli--plans/commit/5dc9923375e145dc05e37e27e08e3abe45ab9b6d) | docs(plan): mark prose section extraction done | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 18:29:19 EST |
+| bob-cli--plans | [`bob-cli--plans@6195938`](https://github.com/bobs-org/bob-cli--plans/commit/6195938ae2ea151016df4bc0e7e1d2bc486030a0) | docs(plans): mark prose\_note\_type done | [bob-cli-qj](README.md) | 2026-11-27 18:38:28 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -145,34 +138,36 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qj.1][1] | need epic scope | 1 |
 | read-by | [agent:bob-cli-qj.4][2] | Check epic notes for earlier prose-vault work or host gate results | 1 |
-| read-by | [agent:research.6k.cdx][3] | Determine active epic contracts and overlaps for prose and notebook cards | 1 |
-| read-by | [agent:research.6k.cld][4] | Research prose/notebook property cards; must understand in-progress epic to plan parallel work | 1 |
-| read-by | [agent:research.6k.final][5] | Lead researcher verifying live epic phase status for the consolidated prose/notebook card sequencing recommendation | 1 |
-| read-by | [agent:research.6k.gem][6] | Inspect in-progress epic bob-cli-qj for parallel coordination analysis | 1 |
-| read-by | [agent:research.6k.grk][7] | Need qj prose-rename epic scope to judge parallel implementation with prose/notebook cards | 1 |
-| read-by | [agent:research.6k.mus][8] | prose/notebook card research: check parallel epic scope | 1 |
-| read-by | [agent:research.6l.cld][9] | Check qj phase states for ref card coordination | 1 |
-| read-by | [agent:research.6m.cdx][10] | Research independent cabinet implementation and overlap with active epics | 1 |
-| read-by | [agent:research.6m.cld][11] | Assess coordination with cabinets research | 1 |
-| read-by | [agent:research.6m.final][12] | Refresh epic phase snapshot for consolidated cabinets research | 4 |
-| read-by | [agent:research.6m.gem][13] | Understand active epic scope, files, and status for parallel cabinet implementation analysis | 1 |
-| read-by | [agent:research.6m.grk][14] | Cite sibling epic scope and out-of-scope catalog work before recommending a cabinets epic | 2 |
-| read-by | [agent:research.6m.mus][15] | Research cabinet design parallel coordination with in-progress epics | 1 |
+| read-by | [agent:bob-cli-qj.5.1.land--3][3] | Read the epic parent and preserve its open state as explicitly instructed | 2 |
+| read-by | [agent:research.6k.cdx][4] | Determine active epic contracts and overlaps for prose and notebook cards | 1 |
+| read-by | [agent:research.6k.cld][5] | Research prose/notebook property cards; must understand in-progress epic to plan parallel work | 1 |
+| read-by | [agent:research.6k.final][6] | Lead researcher verifying live epic phase status for the consolidated prose/notebook card sequencing recommendation | 1 |
+| read-by | [agent:research.6k.gem][7] | Inspect in-progress epic bob-cli-qj for parallel coordination analysis | 1 |
+| read-by | [agent:research.6k.grk][8] | Need qj prose-rename epic scope to judge parallel implementation with prose/notebook cards | 1 |
+| read-by | [agent:research.6k.mus][9] | prose/notebook card research: check parallel epic scope | 1 |
+| read-by | [agent:research.6l.cld][10] | Check qj phase states for ref card coordination | 1 |
+| read-by | [agent:research.6m.cdx][11] | Research independent cabinet implementation and overlap with active epics | 1 |
+| read-by | [agent:research.6m.cld][12] | Assess coordination with cabinets research | 1 |
+| read-by | [agent:research.6m.final][13] | Refresh epic phase snapshot for consolidated cabinets research | 4 |
+| read-by | [agent:research.6m.gem][14] | Understand active epic scope, files, and status for parallel cabinet implementation analysis | 1 |
+| read-by | [agent:research.6m.grk][15] | Cite sibling epic scope and out-of-scope catalog work before recommending a cabinets epic | 2 |
+| read-by | [agent:research.6m.mus][16] | Research cabinet design parallel coordination with in-progress epics | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.4.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cdx/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.final/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.grk/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.mus/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6l.cld/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.cdx/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.cld/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.final/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.gem/README.md
-[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.grk/README.md
-[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.mus/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cdx/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.final/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.grk/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.mus/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6l.cld/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.cdx/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.cld/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.final/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.gem/README.md
+[15]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.grk/README.md
+[16]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6m.mus/README.md
 
 <!-- sase:referenced-by:end -->
