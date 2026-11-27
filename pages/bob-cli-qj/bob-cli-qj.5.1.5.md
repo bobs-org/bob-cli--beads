@@ -20,9 +20,9 @@ inline: the inline planner and bob prose inline, both commands unhidden together
 ## Dependencies
 
 - **Depends on:** [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) ◐ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-qj.5.1.8](bob-cli-qj.5.1.8.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qj.5.1.8](bob-cli-qj.5.1.8.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ inline: the inline planner and bob prose inline, both commands unhidden together
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`eff5d98`](https://github.com/bobs-org/bob-cli/commit/eff5d986678801e3466622aafa64e70c950f07a2) | feat(prose): inline prose notes and guarantee round trips | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 2026-11-27 12:57:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qj.5.1.5--1][1] | Need full phase notes and linked design to complete this assigned phase | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.5.md
+
+<!-- sase:referenced-by:end -->
