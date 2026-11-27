@@ -41,7 +41,9 @@ notice-hud: extract shared non-activating glass-panel infrastructure without cha
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.8.1.4--1][1] | Need phase scope, prior notes, and current bead state before fixing its failed verification | 2 |
+| read-by | [agent:bob-cli-q5.8.1.5][2] | Need sibling phase evidence pattern | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md
 
 <!-- sase:referenced-by:end -->

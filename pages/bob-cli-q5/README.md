@@ -47,144 +47,6 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | [bob-cli-q5.8](bob-cli-q5.8.md) | Presence-aware wake notice on the Mac | ◐ in_progress | large | 2026-11-25 | 1 | 0 |
 | [bob-cli-q5.9](bob-cli-q5.9.md) | Glossary, guide, decision record, and end-to-end verification | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
 
-## Lineage
-
-```mermaid
-flowchart TD
-    n0["bob-cli-q5: Snoozed Tasks: plan it for today, wake it at a time [in_progress]"]
-    n1["bob-cli-q5.1: bob snooze core, wake writer, and tick step [closed]"]
-    n2["bob-cli-q5.1.1: Snooze wake engine for bob-cli-q5.1 [closed]"]
-    n3["bob-cli-q5.1.1.1: Snooze row, clock, and resolved-state contracts [closed]"]
-    n4["bob-cli-q5.1.1.2: Pure add, drop, and never-running wake planners [closed]"]
-    n5["bob-cli-q5.1.1.3: Public snooze CLI and guarded write shell [closed]"]
-    n6["bob-cli-q5.1.1.4: Wake receipts, notification arbitration, and first tick step [closed]"]
-    n7["bob-cli-q5.1.1.5: Trailing-section writer audit and complete wake-engine verification [closed]"]
-    n8["bob-cli-q5.2: Snoozed rows in reconcile, walks, plan, and the agenda JSON [closed]"]
-    n9["bob-cli-q5.2.1: Snoozed reader integrations for bob-cli-q5.2 [closed]"]
-    n10["bob-cli-q5.2.1.1: Share snoozed reads and preserve recovery-only reach [closed]"]
-    n11["bob-cli-q5.2.1.2: Exclude planned-today tasks from freshness and walks [closed]"]
-    n12["bob-cli-q5.2.1.3: Report the snoozed meter and nonbinding wake forecast [closed]"]
-    n13["bob-cli-q5.2.1.4: Publish later-today agenda rows and wake provenance [closed]"]
-    n14["bob-cli-q5.3: Capture z:&lt;when&gt; snooze token [closed]"]
-    n15["bob-cli-q5.3.1: Capture snooze token and atomic row operations [closed]"]
-    n16["bob-cli-q5.3.1.1: Parse snooze intents and expose editor spans [closed]"]
-    n17["bob-cli-q5.3.1.2: Apply capture snooze operations atomically [closed]"]
-    n18["bob-cli-q5.3.1.3: Complete snooze times and publish the capture contract [closed]"]
-    n19["bob-cli-q5.4: Plugin snoozed index, exclusions, cleanup parity, and Obsidian waker [closed]"]
-    n20["bob-cli-q5.4.1: Snoozed task plugin plumbing [closed]"]
-    n21["bob-cli-q5.4.1.1: Shared JavaScript snooze row, clock, and cleanup model [closed]"]
-    n22["bob-cli-q5.4.1.2: Snoozed cache and planned-today exclusions [closed]"]
-    n23["bob-cli-q5.4.1.3: Navigation release, decay, and deferral cleanup [closed]"]
-    n24["bob-cli-q5.4.1.4: Link-now, unlink, and completion from snoozed contexts [closed]"]
-    n25["bob-cli-q5.4.1.5: Desktop minute waker and notification fallback [closed]"]
-    n26["bob-cli-q5.5: Clock marks, woken-link pills, Snoozed-row paint, and plan chip [in_progress]"]
-    n27["bob-cli-q5.5.1: Snooze display marks and plan chip [in_progress]"]
-    n28["bob-cli-q5.5.1.1: Snooze display contract and canonical conformance vectors [closed]"]
-    n29["bob-cli-q5.5.1.2: Snoozed task definition marks and refresh lifecycle [closed]"]
-    n30["bob-cli-q5.5.1.3: Woken Task Link pills with history navigation [closed]"]
-    n31["bob-cli-q5.5.1.4: Snoozed rows and heading summaries [closed]"]
-    n32["bob-cli-q5.5.1.5: Separate snoozed meter and wake forecast in bob-plan [closed]"]
-    n33["bob-cli-q5.5.1.6: Obsidian display acceptance and screenshot evidence [in_progress]"]
-    n34["bob-cli-q5.6: Alt+Z Snooze Card and Task Card z [in_progress]"]
-    n35["bob-cli-q5.7: Mac Later-today band, woken accents, and exact-minute waker [closed]"]
-    n36["bob-cli-q5.7.1: Mac snoozed agenda and always-on wake scheduler [closed]"]
-    n37["bob-cli-q5.7.1.1: Decode snoozed agenda facts and style the capture token [closed]"]
-    n38["bob-cli-q5.7.1.2: Render and fold Later today with woken accents [closed]"]
-    n39["bob-cli-q5.7.1.3: Wake snoozed tasks while the capture panel is hidden [closed]"]
-    n40["bob-cli-q5.8: Presence-aware wake notice on the Mac [in_progress]"]
-    n41["bob-cli-q5.8.1: Presence-aware Mac snooze wake notices [in_progress]"]
-    n42["bob-cli-q5.8.1.1: Make wake notification ownership and revalidation explicit [closed]"]
-    n43["bob-cli-q5.8.1.2: Decode wake receipts and model notice delivery [closed]"]
-    n44["bob-cli-q5.8.1.3: Observe receipts and hold notices until return [closed]"]
-    n45["bob-cli-q5.8.1.4: Present and act on the snoozed-task wake HUD [closed]"]
-    n46["bob-cli-q5.8.1.5: Add the wake beacon, silent record, and settings [closed]"]
-    n47["bob-cli-q5.9: Glossary, guide, decision record, and end-to-end verification [in_progress]"]
-    n0 --> n1
-    n1 --> n2
-    n2 --> n3
-    n2 --> n4
-    n2 --> n5
-    n2 --> n6
-    n2 --> n7
-    n0 --> n8
-    n8 --> n9
-    n9 --> n10
-    n9 --> n11
-    n9 --> n12
-    n9 --> n13
-    n0 --> n14
-    n14 --> n15
-    n15 --> n16
-    n15 --> n17
-    n15 --> n18
-    n0 --> n19
-    n19 --> n20
-    n20 --> n21
-    n20 --> n22
-    n20 --> n23
-    n20 --> n24
-    n20 --> n25
-    n0 --> n26
-    n26 --> n27
-    n27 --> n28
-    n27 --> n29
-    n27 --> n30
-    n27 --> n31
-    n27 --> n32
-    n27 --> n33
-    n0 --> n34
-    n0 --> n35
-    n35 --> n36
-    n36 --> n37
-    n36 --> n38
-    n36 --> n39
-    n0 --> n40
-    n40 --> n41
-    n41 --> n42
-    n41 --> n43
-    n41 --> n44
-    n41 --> n45
-    n41 --> n46
-    n0 --> n47
-    n1 -.-> n8
-    n1 -.-> n14
-    n3 -.-> n4
-    n4 -.-> n5
-    n5 -.-> n6
-    n6 -.-> n7
-    n8 -.-> n19
-    n8 -.-> n35
-    n10 -.-> n11
-    n10 -.-> n12
-    n10 -.-> n13
-    n11 -.-> n12
-    n12 -.-> n13
-    n14 -.-> n35
-    n14 -.-> n47
-    n16 -.-> n17
-    n17 -.-> n18
-    n19 -.-> n26
-    n21 -.-> n22
-    n22 -.-> n23
-    n23 -.-> n24
-    n24 -.-> n25
-    n26 -.-> n34
-    n28 -.-> n29
-    n29 -.-> n30
-    n30 -.-> n31
-    n31 -.-> n32
-    n32 -.-> n33
-    n34 -.-> n47
-    n35 -.-> n40
-    n37 -.-> n38
-    n38 -.-> n39
-    n40 -.-> n47
-    n42 -.-> n43
-    n43 -.-> n44
-    n44 -.-> n45
-    n45 -.-> n46
-```
-
 ## Agents
 
 | Agent | Bead | Commits |
@@ -234,9 +96,13 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-q5.8.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.3.md) | [bob-cli-q5.8.1.3](bob-cli-q5.8.1.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.8.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.4.md) | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 3 |
 | [bbugyi200.athena.bob-cli-q5.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md) | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-q5.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.land/README.md) | [bob-cli-q5.8.1](bob-cli-q5.8.1.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9/README.md) | [bob-cli-q5.9](bob-cli-q5.9.md) | 0 |
-| [bbugyi200.athena.bob-cli-q5.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.land/README.md) | [bob-cli-q5](README.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.1.md) | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.2/README.md) | [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.3/README.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.4/README.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.5/README.md) | [bob-cli-q5.8.1.6.5](bob-cli-q5.8.1.6.5.md) | 0 |
+
+… and 4 more agents
 
 ## Commits
 
@@ -278,6 +144,7 @@ flowchart TD
 | bob-mac-capture | [`bob-mac-capture@ec0f899`](https://github.com/bobs-org/bob-mac-capture/commit/ec0f8997994c23fba7548512e34507f4c2aff62e) | fix(snooze): preserve the initial wake notice probe | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 2026-11-26 17:20:21 EST |
 | bob-mac-capture | [`bob-mac-capture@cc14132`](https://github.com/bobs-org/bob-mac-capture/commit/cc14132518e917f86b6f1f4fd4e0f65cd25bb562) | fix(snooze): fetch after wake notice hold settles | [bob-cli-q5.8.1.4](bob-cli-q5.8.1.4.md) | 2026-11-26 18:33:44 EST |
 | bob-mac-capture | [`bob-mac-capture@d2e9ca4`](https://github.com/bobs-org/bob-mac-capture/commit/d2e9ca4ae3b7c80bc8e1f79ce59c53cef7da0fe2) | feat(snooze): add wake beacon, silent records, settings and diagnostics | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 2026-11-26 19:38:31 EST |
+| bob-mac-capture | [`bob-mac-capture@d2294ec`](https://github.com/bobs-org/bob-mac-capture/commit/d2294eca0e2e64c01e86cc44039b6ae3903e6540) | fix(snooze): verify wake notices against fresh state | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 2026-11-26 20:48:23 EST |
 
 <!-- sase:referenced-by:start -->
 

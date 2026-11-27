@@ -41,7 +41,9 @@ notice-protocol: add the minimal additive bob-cli receipt and list fields needed
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.8.1.1--2][1] | Need the assigned snooze phase scope and completion instruction | 1 |
+| read-by | [agent:bob-cli-q5.8.1.5][2] | Need sibling phase status to avoid duplication | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md
 
 <!-- sase:referenced-by:end -->
