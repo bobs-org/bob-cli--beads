@@ -15,7 +15,7 @@ extract: the extract planner, the ProseConversion v1 JSON types, the fingerprint
 
 - **Depends on:** [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) ✓ · ⧖ 2026-11-27
-- **Depends on:** [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
