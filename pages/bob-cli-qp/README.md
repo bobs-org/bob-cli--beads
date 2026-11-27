@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.6/README.md) | [bob-cli-qp.6](bob-cli-qp.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qp.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.7/README.md) | [bob-cli-qp.7](bob-cli-qp.7.md) | 3 |
 | [bbugyi200.apollo.bob-cli-qp.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.8.md) | [bob-cli-qp.8](bob-cli-qp.8.md) | 4 |
-| [bbugyi200.apollo.bob-cli-qp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md) | [bob-cli-qp](README.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md) | [bob-cli-qp](README.md) | 2 |
 
 ## Commits
 
@@ -115,6 +115,7 @@ flowchart TD
 | bob-cli | [`7666118`](https://github.com/bobs-org/bob-cli/commit/7666118c640875cdcbc380f0a9accb249e63abd8) | docs(ref): finish Ref Card go-live docs and property-card glossary | [bob-cli-qp.8](bob-cli-qp.8.md) | 2026-11-27 08:00:47 EST |
 | bob-plugins | [`bob-plugins@546ecfa`](https://github.com/bobs-org/bob-plugins/commit/546ecfa5c382bddeaaed1658cef24c61d9a0bd54) | docs(ref-card): document the live Ref Card across plugin docs | [bob-cli-qp.8](bob-cli-qp.8.md) | 2026-11-27 08:01:37 EST |
 | bob-cli | [`51a5091`](https://github.com/bobs-org/bob-cli/commit/51a509130b1ee3c2f28675c0065a9bc9004ac1e9) | docs(props)!: note the reference protected-keys contract break | [bob-cli-qp](README.md) | 2026-11-27 08:47:20 EST |
+| bob-cli--plans | [`bob-cli--plans@518da56`](https://github.com/bobs-org/bob-cli--plans/commit/518da56830521512ef6f80a70d96c1095e64ddd1) | chore(plans): mark Ref Cards plan done after bob-cli-qp landed | [bob-cli-qp](README.md) | 2026-11-27 08:48:09 EST |
 
 <!-- sase:referenced-by:start -->
 
