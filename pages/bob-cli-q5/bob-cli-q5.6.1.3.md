@@ -13,7 +13,7 @@ card: build the time picker, ranked suggestions, consequence footer, snoozed act
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-q5.6.1.4](bob-cli-q5.6.1.4.md) ◐ · ⧖ 2026-11-27
 
 ## Agents

@@ -25,13 +25,7 @@ notice-records: complete the status-item beacon and expiry, passive Notification
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md) | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@d2e9ca4`](https://github.com/bobs-org/bob-mac-capture/commit/d2e9ca4ae3b7c80bc8e1f79ce59c53cef7da0fe2) | feat(snooze): add wake beacon, silent records, settings and diagnostics | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 2026-11-26 19:38:31 EST |
+| [bbugyi200.athena.bob-cli-q5.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md) | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
