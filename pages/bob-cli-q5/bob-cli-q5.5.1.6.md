@@ -39,6 +39,8 @@ visual-proof: verify the complete display in real Obsidian, capture light and da
 🔒 e2e-snooze-marks-live-light.png
 🔒 e2e-snooze-marks-reading-light.png
 
+[2026-11-27T02:28:43Z · bob-cli-q5.5.1.6] HANDOFF — visual proof verified, vault deploy still pending. VERIFIED: real-Obsidian e2e scripts/obsidian-snooze-marks-e2e.cjs passes 71/72 in an isolated scratch vault (xvfb + CDP, synthetic notes, stub wake command): definition clocks indigo/amber/muted with exact tooltips, fresh/settled woken pills with exact late/early tooltips and history-line navigation, all row paints + heading summary in Live Preview and Reading, plan chip amber with forecast, both toggles incl Today-toggle gating, plain/Mod clicks, plan-chip jump, retime/link-win/delete liveness without reopening, no renderer errors, no note writes, line-height/toggles/narrow/reduced-motion/forced-colors evidence. Unit: full test:unit 10127 pass 0 fail; validate 12/12; e2e self-test wrapper registered. FIXED (in this phase): (1) Today toggle never gated snooze clocks in Live Preview or Reading (SM-D15) — gate added in 277a/277b plus Today-refresh hook in 275, covered by a new unit test and the e2e; (2) runtime HHMM/time handoff dropped all non-ignored row chips and all live history chips — colon conversion + parsed wake-label lookup in 278a/278b/278c, covered by a new unit test and the e2e; (3) Reading row sweep missed wrapped .el-* blocks — document-order walk in 278b, proven by the e2e. ATTACHED: report.json + light/dark screenshots for Live Preview, Reading, rows, plan, hover, narrow, a11y. REMAINING: `bob plugins sync` from the linked bob-plugins checkout, then close this bead. BLOCKED: the vault holds an uncommitted ws-15 build (guard refuses without -F, which is forbidden); ws-15 land-pipeline workers are still running. When the vault frees: run `bob plugins sync` in the linked checkout (verify `npm run build` first if the tree moved), confirm `bob plugins sync` reports the copy, then `sase bead close bob-cli-q5.5.1.6 --note <verified scope>`.
+
 ## Attachments
 
 - 🔒 e2e-snooze-marks-a11y.png · image/png · 1024×800 · 72.8066 KiB (private attachment)
@@ -61,4 +63,10 @@ visual-proof: verify the complete display in real Obsidian, capture light and da
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@73d028e`](https://github.com/bobs-org/bob-plugins/commit/73d028e5f22141962c6968edc5108a6ebe37f304) | feat(snooze): add Obsidian visual-proof e2e and fix display integration defects | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 2026-11-26 21:32:16 EST |

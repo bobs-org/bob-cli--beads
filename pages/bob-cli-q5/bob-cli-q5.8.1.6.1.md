@@ -19,11 +19,16 @@ runtime-verify: fix the StatusItemGlyph build break, make every accepted receipt
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.1.md) | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.1.md) | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@d2294ec`](https://github.com/bobs-org/bob-mac-capture/commit/d2294eca0e2e64c01e86cc44039b6ae3903e6540) | fix(snooze): verify wake notices against fresh state | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 2026-11-26 20:48:23 EST |
-| bob-mac-capture | [`bob-mac-capture@d479a51`](https://github.com/bobs-org/bob-mac-capture/commit/d479a515838ffefe5cda1f213e83ac08752f9ae8) | test(snooze): make XCTest captures explicit | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 2026-11-26 21:16:24 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.8.1.6.1--2][1] | Need phase scope and notes before finishing the assigned snooze wake repair | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.1.md
+
+<!-- sase:referenced-by:end -->
