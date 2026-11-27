@@ -33,3 +33,15 @@ frees-marks-budget: replace the single cold CPU sample in the bob-plugins frees-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@738ad52`](https://github.com/bobs-org/bob-plugins/commit/738ad5293c04856c69ff23ab919213197c11857a) | test(ledger-tools): stabilize frees-marks 25ms budget with warm best-of-7 CPU sampling | [bob-cli-r7.3](bob-cli-r7.3.md) | 2026-11-27 11:35:25 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-r7.3][1] | Confirm phase close landed | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r7.3/README.md
+
+<!-- sase:referenced-by:end -->

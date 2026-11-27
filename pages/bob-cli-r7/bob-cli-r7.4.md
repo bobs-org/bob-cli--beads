@@ -19,4 +19,10 @@ plugin-docs-headroom: per docs_headroom, condense the bob-navigation-hotkeys and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-r7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r7.4/README.md) | [bob-cli-r7.4](bob-cli-r7.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-r7.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-r7.4.md) | [bob-cli-r7.4](bob-cli-r7.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@7de181e`](https://github.com/bobs-org/bob-plugins/commit/7de181e4211c2255a3de9efcbe6bc8c5b76f259e) | docs: restore headroom in plugin references | [bob-cli-r7.4](bob-cli-r7.4.md) | 2026-11-27 12:00:12 EST |
