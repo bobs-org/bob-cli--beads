@@ -28,13 +28,7 @@ runtime: resolve supported cursor contexts, apply same-note and cross-note plans
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md) | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@6a61e16`](https://github.com/bobs-org/bob-plugins/commit/6a61e163c850a53a415ab75db374075814f7c327) | feat(snooze): add runtime target resolution and guarded commit controller | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 2026-11-27 02:47:51 EST |
+| [bbugyi200.athena.bob-cli-q5.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md) | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -44,8 +38,10 @@ runtime: resolve supported cursor contexts, apply same-note and cross-note plans
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.6.1.2][1] | Need the phase scope and notes | 2 |
 | read-by | [agent:bob-cli-q5.6.1.3][2] | Need runtime controller interface for card phase | 1 |
+| read-by | [agent:bob-cli-q5.6.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md
 
 <!-- sase:referenced-by:end -->

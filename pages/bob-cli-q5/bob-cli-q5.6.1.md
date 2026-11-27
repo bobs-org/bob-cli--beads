@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/snooze_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_card.md
 
@@ -35,13 +35,7 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.land/README.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@56baeb9`](https://github.com/bobs-org/bob-plugins/commit/56baeb9f44ca51df41a8a0fb00889c83d2510e28) | test(snooze): repair Snooze Card unit expectations and add Task Card z dispatch coverage | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 07:06:19 EST |
+| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -51,10 +45,12 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.6.1.1][1] | Need phase and parent epic plan details, decisions, and notes | 1 |
 | read-by | [agent:bob-cli-q5.6.1.3][2] | Need parent epic scope and prior phase interfaces | 1 |
-| read-by | [agent:bob-cli-qi.land][3] | Check whether the two nav-hotkeys npm failures are already recorded on the causing epic | 1 |
+| read-by | [agent:bob-cli-q5.6.1.land][3] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-qi.land][4] | Check whether the two nav-hotkeys npm failures are already recorded on the causing epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
 
 <!-- sase:referenced-by:end -->
