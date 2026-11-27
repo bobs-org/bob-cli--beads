@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/prose_and_notebook_cards.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 13 automatic references — see [Referenced By](#referenced-by)._
+_Plus 14 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_and_notebook_cards.md
 
@@ -24,6 +24,10 @@ _Plus 13 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Prose notes and notebooks open on beautiful, reliable title cards in the Property Card family. Native Properties hide under the family gate, and the cards paint rich derived data without spawning bob or writing the vault. The work is built beside bob-cli-qi and bob-cli-qj and touches them only at four explicit gates.
+
+## Notes
+
+[2026-11-27T01:00:14Z · bob-cli-q5.8.1.land] DISCOVERED ISSUE: ebc45fec (bob-cli-qm.7, docs(cards): document Notebook and Prose cards) pushed docs/reference/vault-format.md over the reference word budget. On bob-cli athena 2026-11-26, bob-docs lint passes with the file at ebc45fec~1 and fails at ebc45fec: 'docs/reference/vault-format.md:1: budget: over budget at 6030 words (cap 6000 for reference/)', so just docs-check is red for every bob-cli change. Reported as PROPOSED FOLLOW-UP by bob-cli-q5.8.1.5; tracked task bob-cli-oc reopened with a verified-after-close +1. Trim the page under 6000 words before landing bob-cli-qm.
 
 ## Phases
 
@@ -35,7 +39,7 @@ Prose notes and notebooks open on beautiful, reliable title cards in the Propert
 | [bob-cli-qm.4](bob-cli-qm.4.md) | Notebook Card report-backed readouts | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qm.5](bob-cli-qm.5.md) | Bob Prose outline seam and Prose Card measures | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qm.6](bob-cli-qm.6.md) | Real-Obsidian acceptance and screenshot review for both cards | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qm.7](bob-cli-qm.7.md) | Switch the cards on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 2 |
+| [bob-cli-qm.7](bob-cli-qm.7.md) | Switch the cards on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 3 |
 
 ## Lineage
 
@@ -75,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qm.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.4/README.md) | [bob-cli-qm.4](bob-cli-qm.4.md) | 1 |
 | [bbugyi200.athena.bob-cli-qm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.5.md) | [bob-cli-qm.5](bob-cli-qm.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-qm.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md) | [bob-cli-qm.6](bob-cli-qm.6.md) | 1 |
-| [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 2 |
+| [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 3 |
 | [bbugyi200.athena.bob-cli-qm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.land/README.md) | [bob-cli-qm](README.md) | 0 |
 
 ## Commits
@@ -92,6 +96,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@fb72a96`](https://github.com/bobs-org/bob-plugins/commit/fb72a96c6590061ac614e1a6d31f8391bfce9a42) | test(props): real-Obsidian acceptance for Notebook and Prose Cards | [bob-cli-qm.6](bob-cli-qm.6.md) | 2026-11-26 17:51:16 EST |
 | bob-cli | [`ebc45fe`](https://github.com/bobs-org/bob-cli/commit/ebc45fece48aa486cdb59bfdbace11a3576a3ec3) | docs(cards): document Notebook and Prose cards | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-26 18:27:05 EST |
 | bob-plugins | [`bob-plugins@eca733c`](https://github.com/bobs-org/bob-plugins/commit/eca733c23a43ffad6bc2ab4bd2f7ec76eb2023ee) | feat(cards): add Notebook and Prose property cards | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-26 19:28:12 EST |
+| bob-cli | [`eef6cc0`](https://github.com/bobs-org/bob-cli/commit/eef6cc07fe4225de1a27d052f3eee55e996b2a1a) | docs(memory): add Prose and Notebook Card glossary strands | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-27 07:05:01 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -99,32 +104,34 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qm.1][1] | Need parent epic scope and plan reference | 1 |
-| read-by | [agent:bob-cli-qm.6][2] | check epic status and remaining phases for qm.6 acceptance | 1 |
-| read-by | [agent:research.6l.cdx][3] | Evaluate parallel delivery boundaries for ref cards alongside notebook and prose cards | 1 |
-| read-by | [agent:research.6l.cld][4] | Understand the in-progress notebook/prose card epic to design ref cards in parallel | 1 |
-| read-by | [agent:research.6l.gem][5] | Inspect bob-cli-qm epic for notebook cards and prose cards context | 1 |
-| read-by | [agent:research.6l.grk][6] | Need the in-progress notebook/prose card epic for parallel-delivery design | 1 |
-| read-by | [agent:research.6l.mus][7] | Research ref cards design: need notebook/prose card epic context | 2 |
-| read-by | [agent:research.6m.cdx][8] | Research independent cabinet implementation and overlap with active epics | 1 |
-| read-by | [agent:research.6m.cld][9] | Assess coordination with cabinets research | 1 |
-| read-by | [agent:research.6m.final][10] | Refresh epic phase snapshot for consolidated cabinets research | 4 |
-| read-by | [agent:research.6m.gem][11] | Understand active epic scope, files, and status for parallel cabinet implementation analysis | 1 |
-| read-by | [agent:research.6m.grk][12] | Cite sibling epic scope and out-of-scope catalog work before recommending a cabinets epic | 2 |
-| read-by | [agent:research.6m.mus][13] | Research cabinet design parallel coordination with in-progress epics | 1 |
+| read-by | [agent:bob-cli-q5.5.1.land][1] | Check whether the vault-format budget overflow from qm.7 ebc45fec is already recorded on this active epic | 1 |
+| read-by | [agent:bob-cli-qm.1][2] | Need parent epic scope and plan reference | 1 |
+| read-by | [agent:bob-cli-qm.6][3] | check epic status and remaining phases for qm.6 acceptance | 1 |
+| read-by | [agent:research.6l.cdx][4] | Evaluate parallel delivery boundaries for ref cards alongside notebook and prose cards | 1 |
+| read-by | [agent:research.6l.cld][5] | Understand the in-progress notebook/prose card epic to design ref cards in parallel | 1 |
+| read-by | [agent:research.6l.gem][6] | Inspect bob-cli-qm epic for notebook cards and prose cards context | 1 |
+| read-by | [agent:research.6l.grk][7] | Need the in-progress notebook/prose card epic for parallel-delivery design | 1 |
+| read-by | [agent:research.6l.mus][8] | Research ref cards design: need notebook/prose card epic context | 2 |
+| read-by | [agent:research.6m.cdx][9] | Research independent cabinet implementation and overlap with active epics | 1 |
+| read-by | [agent:research.6m.cld][10] | Assess coordination with cabinets research | 1 |
+| read-by | [agent:research.6m.final][11] | Refresh epic phase snapshot for consolidated cabinets research | 4 |
+| read-by | [agent:research.6m.gem][12] | Understand active epic scope, files, and status for parallel cabinet implementation analysis | 1 |
+| read-by | [agent:research.6m.grk][13] | Cite sibling epic scope and out-of-scope catalog work before recommending a cabinets epic | 2 |
+| read-by | [agent:research.6m.mus][14] | Research cabinet design parallel coordination with in-progress epics | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cld/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.grk/README.md
-[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.mus/README.md
-[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cdx/README.md
-[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cld/README.md
-[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.final/README.md
-[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.gem/README.md
-[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.grk/README.md
-[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.mus/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cld/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.grk/README.md
+[8]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.mus/README.md
+[9]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cdx/README.md
+[10]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.cld/README.md
+[11]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.final/README.md
+[12]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.gem/README.md
+[13]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.grk/README.md
+[14]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6m.mus/README.md
 
 <!-- sase:referenced-by:end -->

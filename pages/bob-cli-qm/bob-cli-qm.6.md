@@ -17,7 +17,7 @@
 | related | file:explicit:a73e3835af9f399f7878ce73 | attached via sase artifact create --bead |
 | related | file:explicit:cdb2d6bb57b0cc11ff575034 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -59,14 +59,18 @@ acceptance: after bob-cli-qi.4 closes, run both cards with the preview gate on i
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qm.6][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:bob-cli-qp.2][2] | Need coordination targets for ref-kit handoff | 1 |
-| read-by | [agent:research.6l.cdx][3] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
-| read-by | [agent:research.6l.gem][4] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
+| read-by | [agent:bob-cli-qj.4][1] | Find what qm agents recorded about missing qj.3 plugin changes | 1 |
+| read-by | [agent:bob-cli-qm.6][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-qp.2][3] | Need coordination targets for ref-kit handoff | 1 |
+| read-by | [agent:bob-cli-qp.7][4] | Learn how the sibling acceptance ran native Obsidian successfully | 2 |
+| read-by | [agent:research.6l.cdx][5] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
+| read-by | [agent:research.6l.gem][6] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.2/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qj.4/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.2/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->
