@@ -21,7 +21,7 @@ prose-cli: one predicate reads both type spellings, writers emit [[prose]], bob 
 
 - **Depends on:** [bob-cli-qj.1](bob-cli-qj.1.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qj.3](bob-cli-qj.3.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qj.4](bob-cli-qj.4.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qj.4](bob-cli-qj.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -42,9 +42,11 @@ prose-cli: one predicate reads both type spellings, writers emit [[prose]], bob 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qj.2][1] | Need phase notes and design details to see whether earlier work left an explicit remainder | 3 |
-| read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+| read-by | [agent:bob-cli-qj.4][2] | Need prose-cli commit SHA and prose-plugins marker/commit for the prose-vault phase | 1 |
+| read-by | [agent:research.6k.gem][3] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.4.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
 
 <!-- sase:referenced-by:end -->

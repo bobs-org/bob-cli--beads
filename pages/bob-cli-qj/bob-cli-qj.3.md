@@ -20,7 +20,7 @@ prose-plugins: four plugins detect both spellings, display names and command tit
 ## Dependencies
 
 - **Depends on:** [bob-cli-qj.2](bob-cli-qj.2.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-qj.4](bob-cli-qj.4.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-qj.4](bob-cli-qj.4.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-qm.5](../bob-cli-qm/bob-cli-qm.5.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
@@ -35,18 +35,20 @@ prose-plugins: four plugins detect both spellings, display names and command tit
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qm.5--1][1] | Verify the prerequisite phase resolution before resuming bob-cli-qm.5 | 1 |
-| read-by | [agent:bob-cli-qm.6][2] | check whether qj.3 renamed article detection to prose and added toggle-section-numbers | 3 |
-| read-by | [agent:research.6k.cld][3] | Check qj.3 dependencies for prose card sequencing | 2 |
-| read-by | [agent:research.6k.gem][4] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
-| read-by | [agent:research.6k.grk][5] | Need qj plugin rename phase files to judge overlap with prose/notebook cards | 1 |
-| read-by | [agent:research.6l.gem][6] | Check live progress of active property-card and prose epics for parallelization analysis | 1 |
+| read-by | [agent:bob-cli-qj.4][1] | Need prose-cli commit SHA and prose-plugins marker/commit for the prose-vault phase | 1 |
+| read-by | [agent:bob-cli-qm.5--1][2] | Verify the prerequisite phase resolution before resuming bob-cli-qm.5 | 1 |
+| read-by | [agent:bob-cli-qm.6][3] | check whether qj.3 renamed article detection to prose and added toggle-section-numbers | 3 |
+| read-by | [agent:research.6k.cld][4] | Check qj.3 dependencies for prose card sequencing | 2 |
+| read-by | [agent:research.6k.gem][5] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+| read-by | [agent:research.6k.grk][6] | Need qj plugin rename phase files to judge overlap with prose/notebook cards | 1 |
+| read-by | [agent:research.6l.gem][7] | Check live progress of active property-card and prose epics for parallelization analysis | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qm.5.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qm.6/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
-[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.grk/README.md
-[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6l.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.4.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qm.5.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qm.6/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.grk/README.md
+[7]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->
