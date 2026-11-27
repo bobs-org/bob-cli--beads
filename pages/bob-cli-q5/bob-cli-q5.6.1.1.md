@@ -42,8 +42,10 @@ planner: build the pure navigation snooze mutation planner, the narrow BIP plann
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.6.1.1][1] | Need phase and parent epic plan details, decisions, and notes | 2 |
 | read-by | [agent:bob-cli-q5.6.1.2][2] | Need prior planner phase deliverable | 1 |
+| read-by | [agent:bob-cli-q5.6.1.3][3] | Need prior planner API for card phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -43,7 +43,9 @@ runtime: resolve supported cursor contexts, apply same-note and cross-note plans
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.6.1.2][1] | Need the phase scope and notes | 2 |
+| read-by | [agent:bob-cli-q5.6.1.3][2] | Need runtime controller interface for card phase | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/snooze_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_card.md
 
@@ -24,6 +24,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Snooze one task safely from Obsidian, retime or remove its row, and wake it through bob, with keyboard and undo behavior verified before closing bob-cli-q5.6.
+
+## Notes
+
+[2026-11-27T11:27:14Z · bob-cli-qi.land] DISCOVERED ISSUE (from the bob-cli-qi land agent): npm test on clean bob-plugins ad38b38a (this epic's bob-cli-q5.6.1.3 Alt+Z Snooze Card commit) fails 2 of 10218 tests, reproduced identically with and without the qi fix. (1) scripts/test-navigation-relation-links-stage.cjs test 8 'links-to row follows blocks with N, first label, cut target, and +K' (line 864): the Task Card row ids now include 'snooze' after 'schedule', which the expected list lacks. (2) scripts/test-prose-field-roles.cjs: plugins/bob-navigation-hotkeys/src/744-snooze-card-modal.js:129 text control needs a bob-text role within the previous 3 lines. Repro: cd bob-plugins && node --test scripts/test-navigation-relation-links-stage.cjs scripts/test-prose-field-roles.cjs. Decide whether the test expectations or the new snooze row/role give.
 
 ## Agents
 
@@ -38,7 +42,9 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.6.1.1][1] | Need phase and parent epic plan details, decisions, and notes | 1 |
+| read-by | [agent:bob-cli-q5.6.1.3][2] | Need parent epic scope and prior phase interfaces | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
 
 <!-- sase:referenced-by:end -->
