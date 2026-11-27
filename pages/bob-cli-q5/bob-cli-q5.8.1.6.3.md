@@ -20,4 +20,10 @@ hud-repair: exclude the HUD from capture, render the TODAY link budget and woke 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.3/README.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@6f959f2`](https://github.com/bobs-org/bob-mac-capture/commit/6f959f2d7a3447a69f72c2b7616561404d8fa32c) | fix(snooze): bring wake HUD up to delivery contract | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-26 23:20:17 EST |

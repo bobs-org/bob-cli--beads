@@ -24,7 +24,13 @@ runtime-facts: use bob's date/now and vault_root as the authorities, hold instea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.2/README.md) | [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.2/README.md) | [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@9f9157f`](https://github.com/bobs-org/bob-mac-capture/commit/9f9157f7dc527ff7dc8a9f7bfaf07308d69b4d72) | fix(snooze): take day, vault, presence, and meeting facts from their real owners | [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) | 2026-11-26 23:04:06 EST |
 
 <!-- sase:referenced-by:start -->
 
