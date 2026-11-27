@@ -19,7 +19,7 @@ wispr-kicker: make the wispr_summary lib test check the letter-spaced MEETING NO
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-r7.2](bob-cli-r7.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-r7.2](bob-cli-r7.2.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ wispr-kicker: make the wispr_summary lib test check the letter-spaced MEETING NO
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`2671238`](https://github.com/bobs-org/bob-cli/commit/26712382e5f1e6a38e9b819c0e4e1dc1470aa111) | fix(meetings): whitespace-insensitive WISPr dossier kicker assertion | [bob-cli-r7.1](bob-cli-r7.1.md) | 2026-11-27 10:34:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-r7.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r7.1/README.md
+
+<!-- sase:referenced-by:end -->
