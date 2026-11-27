@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-qq](README.md) / bob-cli-qq.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.6m.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.6m.linker.w0.md) · **Assignee:** `bob-cli-qq.8` · **Size:** medium
-**Created:** 2026-11-26 16:09:03 EST
+**Created:** 2026-11-26 16:09:03 EST · **Closed:** 2026-11-27 15:42:56 EST
 **Plan:** [202611/property\_card\_cabinets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md)
 
 <!-- sase:links:start -->
@@ -13,10 +13,12 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| related | file:explicit:36ae0363a0a42f0422dbe45c | GO acceptance evidence for the Cabinets acceptance phase |
 | related | file:explicit:4e093423e907fab57e92e9db | attached via sase artifact create --bead |
+| related | file:explicit:5bf65e106cb27f85a4297967 | GO acceptance review for the Cabinets acceptance phase |
 | related | file:explicit:c152d5bb0c1567dc6d249e66 | attached via sase artifact create --bead |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -37,6 +39,12 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 [2026-11-27T13:07:02Z · bob-cli-qq.8] PROPOSED FOLLOW-UP: The Areas cabinet body repeats the stored callout title row ("Areas 1 area" with its icon) directly under the header that already reads "Areas · 1 area"; the other host cabinets lift the title into the header. Drop or hide the callout title inside cabinet bodies (241al/241aj).
 
 [2026-11-27T13:23:36Z · 1gy--code] Cabinets acceptance evidence (from fix_bob_plugins_failing_tests plan, planner-established at bob-plugins 56baeb9f on athena; runner NOT re-run per plan out-of-scope): NO-GO, 63 pass and 11 fail. Failing checks: render-empty-album-reading, area-content-parity-gate-closed, the eight keys-* checks, and runner-error: Timed out waiting for embedded stored catalog. Phase-owned commit c476086a is also NO-GO on athena, 64 pass and 10 fail.
+
+[2026-11-27T20:42:31Z · bob-cli-qq.10.4] VERDICT: GO (via bob-cli-qq.10.4). Two full gate-open runs of scripts/obsidian-cabinets-e2e.cjs on athena (xvfb, scratch vault) against bob-plugins 4eb201ec + the bob-cli-qq.10.4 changes (bob-ledger-tools 1.172.11; main.js sha256 1e6da585..., styles.css 0da178e0..., runner b422a598...; landed by the bob-cli-qq.10.4 commit and deployed with bob plugins sync): go-3 103/103 and go-4 103/103 mandatory checks, 0 runtime exceptions, 0 console.error, 0 passive writes/spawns, scratch markdown unchanged. Perf (cabinet/inline median, Reading): album 108/71 ms (1.52x) and 99/100 ms (0.99x); 64-row Projects 94/66 ms (1.42x) and 108/60 ms (1.80x); largest cabinet long task 54 ms. All 116 PNGs reviewed (go-1/go-2 inspected directly; go-3/go-4 pixel-identical to reviewed go-1 captures except 4 inspected directly). Fixed in place: LP album duplicate Records section (241tb sweep), invisible armed footer overlay (122 fit, no size containment), overlay text spacing, and the runner fixture capability catalog that spawned bob __catalog on every leaf change. Evidence: file:explicit:36ae0363a0a42f0422dbe45c (reports, reviewed reports, shots, superseded runs, diagnostics), review file:explicit:5bf65e106cb27f85a4297967.
+
+[2026-11-27T20:42:40Z · bob-cli-qq.10.4] Follow-up status: #4 (footer overlay clipped at 420 px) and #5 (Areas cabinet body repeats its title row) were fixed by the polish commit b6ae31d8; bob-cli-qq.10.4 completed #4 after the polish container query made the overlay zero-width in the real status bar (now inside the window, esc shed, label and keycaps whole). #1 (vault-format.md over the docs word cap) no longer reproduces: bob-plugins npm run docs:check passes (exit 0).
+
+[2026-11-27T20:42:56Z · bob-cli-qq.10.4] GO: two athena runs of the full gate-open cabinets runner (go-3, go-4) each passed 103/103 mandatory checks with 0 exceptions, 0 console errors, 0 passive writes/spawns, both perf-* checks within 2x (max 1.80x), and all 116 captures reviewed. Evidence file:explicit:36ae0363a0a42f0422dbe45c, review file:explicit:5bf65e106cb27f85a4297967; source bob-plugins 4eb201ec + bob-cli-qq.10.4 (bob-ledger-tools 1.172.11).
 
 ## Dependencies
 
@@ -77,10 +85,12 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 | read-by | [agent:bob-cli-qq.8--3][3] | Inspect the assigned Cabinets epic scope and its required closure workflow | 1 |
 | read-by | [agent:bob-cli-qq.8--7][3] | Check assigned epic phases and notes before completing the requested acceptance closeout | 1 |
 | read-by | [agent:research.6o.cld][4] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.final][5] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
 
 <!-- sase:referenced-by:end -->

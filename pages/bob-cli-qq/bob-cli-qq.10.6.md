@@ -14,6 +14,7 @@ docs-memory: add docs/cabinets.md and update the family pages, bringing bob-ledg
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-ra.6](../bob-cli-ra/bob-cli-ra.6.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -27,8 +28,10 @@ docs-memory: add docs/cabinets.md and update the family pages, bringing bob-ledg
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.6o.gem][1] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+| read-by | [agent:research.6o.final][1] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
+| read-by | [agent:research.6o.gem][2] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
 
 <!-- sase:referenced-by:end -->

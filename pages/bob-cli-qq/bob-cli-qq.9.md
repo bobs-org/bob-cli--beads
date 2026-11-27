@@ -15,7 +15,7 @@ go-live: once the gating sibling go-lives have closed, delete the gate and updat
 
 - **Depends on:** [bob-cli-qm.7](../bob-cli-qm/bob-cli-qm.7.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [bob-cli-qp.8](../bob-cli-qp/bob-cli-qp.8.md) ✓ · ⧖ 2026-11-26
-- **Depends on:** [bob-cli-qq.8](bob-cli-qq.8.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-qq.8](bob-cli-qq.8.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -32,9 +32,11 @@ go-live: once the gating sibling go-lives have closed, delete the gate and updat
 | read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets go-live is actively editing the cabinets e2e runner that still writes the removed refCardPreview gate key | 3 |
 | read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
 | read-by | [agent:research.6o.cld][3] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.final][4] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
 
 <!-- sase:referenced-by:end -->

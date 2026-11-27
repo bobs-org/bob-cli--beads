@@ -37,7 +37,7 @@ reading-miss: in the 240c host, resolve a Reading surface from the live preview 
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qq.10.4](bob-cli-qq.10.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qq.10.4](bob-cli-qq.10.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

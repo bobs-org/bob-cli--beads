@@ -21,7 +21,7 @@ polish: make the armed footer overlay shed `esc` and truncate nouns at 420 px wi
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-qq.10.4](bob-cli-qq.10.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-qq.10.4](bob-cli-qq.10.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

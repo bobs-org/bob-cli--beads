@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/finish_property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_property_card_cabinets.md
 
@@ -37,14 +37,18 @@ Cabinets pass real-Obsidian acceptance with a GO verdict: the Reading perf budge
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qq.10.2][1] | Need parent epic notes and whether reading-miss already started | 1 |
-| read-by | [agent:research.6o.cdx][2] | Identify active cabinet completion work and potential conflicts | 1 |
-| read-by | [agent:research.6o.cld][3] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
-| read-by | [agent:research.6o.gem][4] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+| read-by | [agent:bob-cli-qq.10.1][1] | Check sibling phase status (reading-miss, polish, acceptance) before finishing perf | 1 |
+| read-by | [agent:bob-cli-qq.10.2][2] | Need parent epic notes and whether reading-miss already started | 1 |
+| read-by | [agent:research.6o.cdx][3] | Identify active cabinet completion work and potential conflicts | 1 |
+| read-by | [agent:research.6o.cld][4] | Need the in-progress cabinet epic children state to plan parallel link-walk work | 1 |
+| read-by | [agent:research.6o.final][5] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
+| read-by | [agent:research.6o.gem][6] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cdx/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cdx/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
+[6]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
 
 <!-- sase:referenced-by:end -->
