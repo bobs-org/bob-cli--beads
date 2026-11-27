@@ -29,13 +29,14 @@ go-live: after bob-cli-qi.6 and bob-cli-qj.4 close, delete the preview gate, ext
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 1 |
+| [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ebc45fe`](https://github.com/bobs-org/bob-cli/commit/ebc45fece48aa486cdb59bfdbace11a3576a3ec3) | docs(cards): document Notebook and Prose cards | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-26 18:27:05 EST |
+| bob-plugins | [`bob-plugins@eca733c`](https://github.com/bobs-org/bob-plugins/commit/eca733c23a43ffad6bc2ab4bd2f7ec76eb2023ee) | feat(cards): add Notebook and Prose property cards | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-26 19:28:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -43,12 +44,14 @@ go-live: after bob-cli-qi.6 and bob-cli-qj.4 close, delete the preview gate, ext
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qp.2][1] | Need coordination targets for ref-kit handoff | 1 |
-| read-by | [agent:research.6l.cdx][2] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
-| read-by | [agent:research.6l.gem][3] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
+| read-by | [agent:bob-cli-qm.7--1][1] | Need the phase scope, notes, and current design before resuming monitored work | 1 |
+| read-by | [agent:bob-cli-qp.2][2] | Need coordination targets for ref-kit handoff | 1 |
+| read-by | [agent:research.6l.cdx][3] | Verify current ownership and acceptance gates for independent ref card parallelization recommendation | 1 |
+| read-by | [agent:research.6l.gem][4] | Inspect bob-cli-qi and bob-cli-qm phase details for parallel coordination and card architecture | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.2/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qp.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.cdx/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.research.6l.gem/README.md
 
 <!-- sase:referenced-by:end -->
