@@ -36,7 +36,7 @@ Every library reference note opens on a calm, information-dense Ref Card in the 
 | [bob-cli-qp.5](bob-cli-qp.5.md) | Reading-state readouts from the shared snapshot | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qp.6](bob-cli-qp.6.md) | The Reference editor behind == | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qp.7](bob-cli-qp.7.md) | Real-Obsidian acceptance and screenshot review | ✓ closed | medium | 2026-11-26 | 1 | 3 |
-| [bob-cli-qp.8](bob-cli-qp.8.md) | Switch Ref Cards on, docs, approved memory, and clean deploy | ✓ closed | medium | 2026-11-26 | 1 | 3 |
+| [bob-cli-qp.8](bob-cli-qp.8.md) | Switch Ref Cards on, docs, approved memory, and clean deploy | ✓ closed | medium | 2026-11-26 | 1 | 4 |
 
 ## Lineage
 
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.5/README.md) | [bob-cli-qp.5](bob-cli-qp.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.6/README.md) | [bob-cli-qp.6](bob-cli-qp.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qp.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.7/README.md) | [bob-cli-qp.7](bob-cli-qp.7.md) | 3 |
-| [bbugyi200.apollo.bob-cli-qp.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.8.md) | [bob-cli-qp.8](bob-cli-qp.8.md) | 3 |
+| [bbugyi200.apollo.bob-cli-qp.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.8.md) | [bob-cli-qp.8](bob-cli-qp.8.md) | 4 |
 | [bbugyi200.apollo.bob-cli-qp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md) | [bob-cli-qp](README.md) | 0 |
 
 ## Commits
@@ -99,6 +99,7 @@ flowchart TD
 | bob-cli | [`0e32b95`](https://github.com/bobs-org/bob-cli/commit/0e32b956c2ed665a1043e965db1791a6f387fbef) | docs(ref): remove preview-gate docs and add ref-card glossary strand | [bob-cli-qp.8](bob-cli-qp.8.md) | 2026-11-27 00:35:37 EST |
 | bob-plugins | [`bob-plugins@4410a5b`](https://github.com/bobs-org/bob-plugins/commit/4410a5bf20505e468f3672a73b7eaece0c22a7c8) | feat(ref): remove ref-card preview gate and extend passive coverage | [bob-cli-qp.8](bob-cli-qp.8.md) | 2026-11-27 00:36:13 EST |
 | bob-cli | [`7666118`](https://github.com/bobs-org/bob-cli/commit/7666118c640875cdcbc380f0a9accb249e63abd8) | docs(ref): finish Ref Card go-live docs and property-card glossary | [bob-cli-qp.8](bob-cli-qp.8.md) | 2026-11-27 08:00:47 EST |
+| bob-plugins | [`bob-plugins@546ecfa`](https://github.com/bobs-org/bob-plugins/commit/546ecfa5c382bddeaaed1658cef24c61d9a0bd54) | docs(ref-card): document the live Ref Card across plugin docs | [bob-cli-qp.8](bob-cli-qp.8.md) | 2026-11-27 08:01:37 EST |
 
 <!-- sase:referenced-by:start -->
 
