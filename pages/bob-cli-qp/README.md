@@ -36,7 +36,7 @@ Every library reference note opens on a calm, information-dense Ref Card in the 
 | [bob-cli-qp.5](bob-cli-qp.5.md) | Reading-state readouts from the shared snapshot | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qp.6](bob-cli-qp.6.md) | The Reference editor behind == | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qp.7](bob-cli-qp.7.md) | Real-Obsidian acceptance and screenshot review | ✓ closed | medium | 2026-11-26 | 1 | 3 |
-| [bob-cli-qp.8](bob-cli-qp.8.md) | Switch Ref Cards on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [bob-cli-qp.8](bob-cli-qp.8.md) | Switch Ref Cards on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 1 |
 
 ## Lineage
 
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qp.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.5/README.md) | [bob-cli-qp.5](bob-cli-qp.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qp.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.6/README.md) | [bob-cli-qp.6](bob-cli-qp.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qp.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.7/README.md) | [bob-cli-qp.7](bob-cli-qp.7.md) | 3 |
-| [bbugyi200.apollo.bob-cli-qp.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.8/README.md) | [bob-cli-qp.8](bob-cli-qp.8.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qp.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.8/README.md) | [bob-cli-qp.8](bob-cli-qp.8.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qp.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md) | [bob-cli-qp](README.md) | 0 |
 
 ## Commits
@@ -96,6 +96,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@d32d7a9`](https://github.com/bobs-org/bob-plugins/commit/d32d7a9823b0fcdca753c8dce8f714c479a7c238) | test(ref-card): add native acceptance review harness | [bob-cli-qp.7](bob-cli-qp.7.md) | 2026-11-26 18:22:23 EST |
 | bob-plugins | [`bob-plugins@880ee82`](https://github.com/bobs-org/bob-plugins/commit/880ee823efd98f3f2507b2624de84a508ea24d10) | test(ref-card): capture native launch diagnostics | [bob-cli-qp.7](bob-cli-qp.7.md) | 2026-11-26 19:38:43 EST |
 | bob-plugins | [`bob-plugins@2bd92b1`](https://github.com/bobs-org/bob-plugins/commit/2bd92b19a42054ba6b11aba0c4a997d412b6ed48) | fix(ref-card): pass real-Obsidian acceptance and repair review defects | [bob-cli-qp.7](bob-cli-qp.7.md) | 2026-11-27 00:12:30 EST |
+| bob-cli | [`0e32b95`](https://github.com/bobs-org/bob-cli/commit/0e32b956c2ed665a1043e965db1791a6f387fbef) | docs(ref): remove preview-gate docs and add ref-card glossary strand | [bob-cli-qp.8](bob-cli-qp.8.md) | 2026-11-27 00:35:37 EST |
 
 <!-- sase:referenced-by:start -->
 
