@@ -13,7 +13,7 @@ acceptance: add and run isolated Obsidian acceptance for keyboard gestures, undo
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

@@ -22,7 +22,7 @@ runtime: resolve supported cursor contexts, apply same-note and cross-note plans
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ runtime: resolve supported cursor contexts, apply same-note and cross-note plans
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@6a61e16`](https://github.com/bobs-org/bob-plugins/commit/6a61e163c850a53a415ab75db374075814f7c327) | feat(snooze): add runtime target resolution and guarded commit controller | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 2026-11-27 02:47:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.6.1.2][1] | Need the phase scope and notes | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->
