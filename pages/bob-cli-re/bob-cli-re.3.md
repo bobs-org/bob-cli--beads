@@ -20,7 +20,7 @@ idless-cancel: fix the capture -X stale task-block reference, verify JSON and wr
 ## Dependencies
 
 - **Depends on:** [bob-cli-re.2](bob-cli-re.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-re.4](bob-cli-re.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-re.4](bob-cli-re.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -33,3 +33,15 @@ idless-cancel: fix the capture -X stale task-block reference, verify JSON and wr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`d117d28`](https://github.com/bobs-org/bob-cli/commit/d117d28838ac4b75e7a3bb7b1de45b6117e0d4da) | fix(capture): preserve ID-less task blocks across successor closes | [bob-cli-re.3](bob-cli-re.3.md) | 2026-11-27 17:33:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-re.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ spaced-order-code: extend the conservative bank-name cleaner and close bob-cli-q
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-re.4](bob-cli-re.4.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-re.4](bob-cli-re.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
