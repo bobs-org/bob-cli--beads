@@ -77,6 +77,7 @@ ref-go-live: after bob-cli-qm.7 closes, delete the ref preview gate, extend the 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qp.7][1] | See whether go-live already started and what it expects from acceptance | 1 |
 | read-by | [agent:bob-cli-qp.8][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-qp.8--1][2] | Need the phase scope, design file, notes, and epic decisions to finish ref go-live | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.7.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qp.8.md
