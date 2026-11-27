@@ -31,3 +31,15 @@ mac_lead_preview: decode `lead` tolerantly and show it as a calm `Fix…` hint a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-mac-capture | [`bob-mac-capture@1a5723d`](https://github.com/bobs-org/bob-mac-capture/commit/1a5723d2239eb2920483e9fa6770beacdd5911d4) | feat(capture): preview task type leads | [bob-cli-rb.3](bob-cli-rb.3.md) | 2026-11-27 17:38:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rb.3][1] | Need the phase scope, notes, and design file before completing assigned work | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.3/README.md
+
+<!-- sase:referenced-by:end -->
