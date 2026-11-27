@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-qq](README.md) / bob-cli-qq.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.6m.linker.w0](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.research.6m.linker.w0.md) · **Assignee:** `bob-cli-qq.9` · **Size:** medium
-**Created:** 2026-11-26 16:09:03 EST
+**Created:** 2026-11-26 16:09:03 EST · **Closed:** 2026-11-27 17:43:38 EST
 **Plan:** [202611/property\_card\_cabinets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md)
 
 <!-- sase:links:start -->
@@ -23,6 +23,10 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 go-live: once the gating sibling go-lives have closed, delete the gate and update the docs in both repos. Write the new cabinets reference page and the approved memory (glossary:cabinet and the selected card strands and record). Then run the family passive proof, `bob plugins sync`, and a post-switch smoke that includes the prose Outline cabinet.
+
+## Notes
+
+[2026-11-27T22:43:38Z · bob-cli-qq.10.6] docs-memory done: bob-plugins 680ee414 adds docs/cabinets.md, updates the family pages, and brings bob-ledger-tools.md under the 6000-word cap (5569); npm run docs:check green and bob plugins sync clean. Memory: glossary:cabinet added; glossary:property-card, area-card, project-card updated for cabinets and _; decisions:cabinets-absorb-catalogs-at-render-time added; sase memory init + just docs-gen + just docs-check green in bob-cli. Switch-on smoke evidence retained from 10.5 (file:explicit:b43a18736a494f39c0fdcfc, file:explicit:c3a82701e970e5187726a714); GO on bob-cli-qq.8 covers content parity. No bob-cli code changed.
 
 ## Dependencies
 

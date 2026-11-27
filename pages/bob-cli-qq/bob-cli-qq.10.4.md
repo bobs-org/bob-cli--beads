@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:5bf65e106cb27f85a4297967 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -61,11 +61,13 @@ acceptance: run the full gate-open cabinets runner on athena twice, review every
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.10.4][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:research.6o.final][2] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
-| read-by | [agent:research.6o.gem][3] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
+| read-by | [agent:bob-cli-qq.10.5][2] | See acceptance phase notes and evidence refs | 1 |
+| read-by | [agent:research.6o.final][3] | Consolidating link-walk research: need current cabinets finishing-phase status to sequence parallel work | 1 |
+| read-by | [agent:research.6o.gem][4] | Check remaining bob-cli-qq work and property-card kit seams for parallel execution analysis | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.final/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.gem/README.md
 
 <!-- sase:referenced-by:end -->

@@ -45,7 +45,7 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 | [bob-cli-qq.6](bob-cli-qq.6.md) | Areas, Projects, Notebooks, and Albums cabinets on area and project cards | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.7](bob-cli-qq.7.md) | The album Records cabinet | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.8](bob-cli-qq.8.md) | Real-Obsidian acceptance and screenshot review with the gate open | ✓ closed | medium | 2026-11-26 | 1 | 8 |
-| [bob-cli-qq.9](bob-cli-qq.9.md) | Switch cabinets on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [bob-cli-qq.9](bob-cli-qq.9.md) | Switch cabinets on, docs, approved memory, and clean deploy | ✓ closed | medium | 2026-11-26 | 1 | 0 |
 
 ## Lineage
 
@@ -59,7 +59,7 @@ flowchart TD
     n5["bob-cli-qq.10.3: Footer overlay narrow clipping, Areas title row, and runner console errors [closed]"]
     n6["bob-cli-qq.10.4: Rerun real-Obsidian Cabinets acceptance to GO and close bob-cli-qq.8 [closed]"]
     n7["bob-cli-qq.10.5: Delete the cabinets gate, convert the tests, deploy, and smoke [closed]"]
-    n8["bob-cli-qq.10.6: Cabinets docs in both repos, approved memory, and close bob-cli-qq.9 [in_progress]"]
+    n8["bob-cli-qq.10.6: Cabinets docs in both repos, approved memory, and close bob-cli-qq.9 [closed]"]
     n9["bob-cli-qq.2: Walker-footer overlay push/pop API [closed]"]
     n10["bob-cli-qq.3: Catalog recognition, ownership claims, render-time hiding, and the body renderer [closed]"]
     n11["bob-cli-qq.4: One cabinet chrome, delegation, the stack, and the CSS region [closed]"]
@@ -67,7 +67,7 @@ flowchart TD
     n13["bob-cli-qq.6: Areas, Projects, Notebooks, and Albums cabinets on area and project cards [closed]"]
     n14["bob-cli-qq.7: The album Records cabinet [closed]"]
     n15["bob-cli-qq.8: Real-Obsidian acceptance and screenshot review with the gate open [closed]"]
-    n16["bob-cli-qq.9: Switch cabinets on, docs, approved memory, and clean deploy [in_progress]"]
+    n16["bob-cli-qq.9: Switch cabinets on, docs, approved memory, and clean deploy [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qq.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.3.md) | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md) | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.land/README.md) | [bob-cli-qq.10](bob-cli-qq.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.2.md) | [bob-cli-qq.2](bob-cli-qq.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 1 |
@@ -149,6 +149,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@cb31472`](https://github.com/bobs-org/bob-plugins/commit/cb314726d4b5badf36aa1afcc6ec75303a47fb05) | perf(ledger-tools): keep gate-open Reading cabinet paint within 2x inline | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2026-11-27 14:06:40 EST |
 | bob-plugins | [`bob-plugins@3c3333b`](https://github.com/bobs-org/bob-plugins/commit/3c3333b00043b7f6fb0d49064abe5b1061707d7b) | fix(cabinets): bring real-Obsidian acceptance to GO | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 2026-11-27 15:47:38 EST |
 | bob-plugins | [`bob-plugins@64268af`](https://github.com/bobs-org/bob-plugins/commit/64268af9b91195b065e69cedbfc67733d91b4222) | feat(cabinets)!: switch property-card cabinets on and delete the preview gate | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 2026-11-27 17:17:44 EST |
+| bob-cli | [`31fe163`](https://github.com/bobs-org/bob-cli/commit/31fe16372e608ae8813edee41b21a9dfdc266c96) | docs(memory): cabinets glossary, card strands, and absorb-at-render-time decision | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2026-11-27 17:45:53 EST |
 
 <!-- sase:referenced-by:start -->
 
