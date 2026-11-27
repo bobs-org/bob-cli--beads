@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.6](bob-cli-q5.6.md) / bob-cli-q5.6.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.6](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.md) · **Assignee:** `bob-cli-q5.6.1.land`
-**Created:** 2026-11-27 01:34:15 EST
+**Created:** 2026-11-27 01:34:15 EST · **Closed:** 2026-11-27 09:16:00 EST
 **Plan:** [202611/snooze\_card.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_card.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/snooze_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_card.md
 
@@ -33,6 +33,10 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 
 [2026-11-27T13:47:34Z · bob-cli-q5.6.1.land--1] Passing Snooze Card acceptance report (56 assertions) and all inspected screenshots: 🔒 snooze-card-e2e.json 🔒 blocked-snoozed-light.png 🔒 forced-colors-snooze-card.png 🔒 invalid-time-light.png 🔒 ordinary-dark.png 🔒 ordinary-light.png 🔒 over-cap-footer-light.png 🔒 snoozed-dark.png 🔒 snoozed-light.png
 
+[2026-11-27T14:16:00Z · bob-cli-q5.6.1.land--3] Verified completion of the approved Snooze Card epic. Acceptance note #3 already contains snooze-card-e2e.json and all eight inspected screenshots (9 attachments total). Earlier land triage is preserved in note #2; it records the two navigation test fixes, the ENOSPC fixture +1, and resolved/declined triage.
+
+Fresh gates: bob-plugins npm run build:check passed (exit 0); npm run docs:inventory:check passed (exit 0); npm run docs:check failed (exit 1) because docs/reference/plugins/bob-ledger-tools.md is 6049 words against the 6000-word reference cap; bob-cli just check failed (exit 101) because Clippy denies clippy::question_mark at src/native/prose/section_model.rs:922. epic-symbols for bob-cli-q5.6.1 is empty. Earlier acceptance evidence remains: 43 focused tests, 26 performance checks, and 56 real-Obsidian assertions passed. The broad npm test had known /tmp ENOSPC fixture failures and two timing-sensitive performance-threshold failures.
+
 ## Attachments
 
 - 🔒 blocked-snoozed-light.png · image/png · 1440×1000 · 139.617 KiB (private attachment)
@@ -49,15 +53,14 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 3 |
+| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@56baeb9`](https://github.com/bobs-org/bob-plugins/commit/56baeb9f44ca51df41a8a0fb00889c83d2510e28) | test(snooze): repair Snooze Card unit expectations and add Task Card z dispatch coverage | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 07:06:19 EST |
 | bob-cli | [`064fc51`](https://github.com/bobs-org/bob-cli/commit/064fc51ef361bb0628aa2d9f16bb10f9ef74f7d9) | docs(snooze): document Snooze Card gestures and undo | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:57:14 EST |
-| bob-plugins | [`bob-plugins@99458bd`](https://github.com/bobs-org/bob-plugins/commit/99458bd94059558a225826c87a042b7d968b2ee5) | feat(snooze): complete card facts and acceptance fixes | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:58:24 EST |
+| bob-plugins | `bob-plugins@064fc51` | docs(snooze): document Snooze Card gestures and undo | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:57:14 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -68,6 +71,8 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 | read-by | [agent:bob-cli-q5.6.1.1][1] | Need phase and parent epic plan details, decisions, and notes | 1 |
 | read-by | [agent:bob-cli-q5.6.1.3][2] | Need parent epic scope and prior phase interfaces | 1 |
 | read-by | [agent:bob-cli-q5.6.1.land][3] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-q5.6.1.land--1][3] | Need approved Snooze Card task and phase closeout scope, dependencies, and earlier triage note | 2 |
+| read-by | [agent:bob-cli-q5.6.1.land--3][3] | Verify attached E2E and screenshots before Snooze Card closeout | 2 |
 | read-by | [agent:bob-cli-qi.land][4] | Check whether the two nav-hotkeys npm failures are already recorded on the causing epic | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md

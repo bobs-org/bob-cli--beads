@@ -42,9 +42,9 @@ Complete bob-cli-q5.5 with live snoozed definition marks, woken-link pills, Snoo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`dfb5e75`](https://github.com/bobs-org/bob-cli/commit/dfb5e7550051ce797bcb7d2de665900c0eaf2fde) | docs(snooze): describe the landed snooze-marks mirror and cross-link Today marks and plan | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 22:46:13 EST |
+| bob-plugins | `bob-plugins@dfb5e75` | docs(snooze): describe the landed snooze-marks mirror and cross-link Today marks and plan | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 22:46:13 EST |
 | bob-cli | [`d9f5774`](https://github.com/bobs-org/bob-cli/commit/d9f57741c248db678bcf43b56eade3b16a2e88f4) | docs: describe snooze clock labels and glyph contract | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 23:11:29 EST |
-| bob-plugins | [`bob-plugins@24f3823`](https://github.com/bobs-org/bob-plugins/commit/24f38233d1cf1770697aa875c524728d25524ae7) | fix: render snooze clocks with state labels and masked glyphs | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 23:12:40 EST |
-| bob-plugins | [`bob-plugins@d23080a`](https://github.com/bobs-org/bob-plugins/commit/d23080a01f0acab0ac71207a5241328b05534c4b) | test(snooze): stabilize headless acceptance viewport | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-27 00:32:12 EST |
+| bob-plugins | `bob-plugins@d9f5774` | docs: describe snooze clock labels and glyph contract | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 23:11:29 EST |
 | bob-cli--plans | [`bob-cli--plans@dbb59a2`](https://github.com/bobs-org/bob-cli--plans/commit/dbb59a2832260f1198fd2260d6646ef43ab7568b) | docs(plan): mark snooze display epic done | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-27 01:26:52 EST |
 
 <!-- sase:referenced-by:start -->

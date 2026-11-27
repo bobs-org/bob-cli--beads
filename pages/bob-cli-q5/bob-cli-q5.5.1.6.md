@@ -79,13 +79,7 @@ visual-proof: verify the complete display in real Obsidian, capture light and da
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@73d028e`](https://github.com/bobs-org/bob-plugins/commit/73d028e5f22141962c6968edc5108a6ebe37f304) | feat(snooze): add Obsidian visual-proof e2e and fix display integration defects | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 2026-11-26 21:32:16 EST |
+| [bbugyi200.athena.bob-cli-q5.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.6/README.md) | [bob-cli-q5.5.1.6](bob-cli-q5.5.1.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

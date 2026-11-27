@@ -28,7 +28,13 @@ records-repair: keep the base status glyph template-tinted beside an amber alarm
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.4.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.4.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@ba21318`](https://github.com/bobs-org/bob-mac-capture/commit/ba213181c3f974997f9839fcb77114cee3b495c4) | feat(capture): add snooze wake notices and status glyph | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 2026-11-27 02:42:33 EST |
 
 <!-- sase:referenced-by:start -->
 

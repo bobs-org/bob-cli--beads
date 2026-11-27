@@ -14,7 +14,7 @@ close-out: the Snoozed Task glossary strand and regenerated glossary page, the d
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.3](bob-cli-q5.3.md) ✓ · ⧖ 2026-11-25
-- **Depends on:** [bob-cli-q5.6](bob-cli-q5.6.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [bob-cli-q5.6](bob-cli-q5.6.md) ✓ · ⧖ 2026-11-25
 - **Depends on:** [bob-cli-q5.8](bob-cli-q5.8.md) ◐ · ⧖ 2026-11-25
 
 ## Agents
