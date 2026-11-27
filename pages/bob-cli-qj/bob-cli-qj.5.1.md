@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/prose_section_extract_inline.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_section_extract_inline.md
 
@@ -47,13 +47,14 @@ One Obsidian gesture turns an authored section of an area, project, or prose not
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.land/README.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`46885db`](https://github.com/bobs-org/bob-cli/commit/46885dbf65778dd67a4b4de84c1c7c8647e84374) | fix(prose): green the canonical gate for extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 15:48:12 EST |
+| bob-cli | [`3deb0bd`](https://github.com/bobs-org/bob-cli/commit/3deb0bd3adab6014338682e56675733325ba1c24) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:29:14 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -61,12 +62,14 @@ One Obsidian gesture turns an authored section of an area, project, or prose not
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-r7.1][1] | check if clean-tree clippy gate failure is already tracked | 1 |
-| read-by | [agent:bob-cli-r7.land][2] | Check whether the in-progress prose epic owns the prose extract catalog/completion test failures found while landing bob-cli-r7 | 2 |
-| read-by | [agent:bob-cli-r8.land][3] | Verify ownership of landing check failures | 1 |
+| read-by | [agent:bob-cli-qj.5.1.land][1] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:bob-cli-r7.1][2] | check if clean-tree clippy gate failure is already tracked | 1 |
+| read-by | [agent:bob-cli-r7.land][3] | Check whether the in-progress prose epic owns the prose extract catalog/completion test failures found while landing bob-cli-r7 | 2 |
+| read-by | [agent:bob-cli-r8.land][4] | Verify ownership of landing check failures | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-r7.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-r7.land/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-r8.land/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-r7.1/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-r7.land/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-r8.land/README.md
 
 <!-- sase:referenced-by:end -->

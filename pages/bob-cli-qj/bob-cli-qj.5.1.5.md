@@ -43,7 +43,9 @@ inline: the inline planner and bob prose inline, both commands unhidden together
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qj.5.1.5--1][1] | Need full phase notes and linked design to complete this assigned phase | 4 |
+| read-by | [agent:bob-cli-qj.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.5.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md
 
 <!-- sase:referenced-by:end -->

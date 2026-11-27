@@ -44,9 +44,11 @@ keymap: bob-articles gains extract, inline, and toggle commands with a preview m
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qj.5.1.7--1][1] | Need the phase scope, design file, notes, and epic symbols | 1 |
-| read-by | [agent:research.6o.cld][2] | Check whether the Bob Prose gesture phase edits the prose card host files | 2 |
+| read-by | [agent:bob-cli-qj.5.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:research.6o.cld][3] | Check whether the Bob Prose gesture phase edits the prose card host files | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.7.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6o.cld/README.md
 
 <!-- sase:referenced-by:end -->

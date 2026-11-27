@@ -44,8 +44,10 @@ section-model: a pure prose-module classifier that resolves --section and --line
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qp.land][1] | Check whether the prose section_model clippy question_mark failure is already known to its phase | 1 |
+| read-by | [agent:bob-cli-qj.5.1.land][1] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-qp.land][2] | Check whether the prose section_model clippy question_mark failure is already known to its phase | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
 
 <!-- sase:referenced-by:end -->

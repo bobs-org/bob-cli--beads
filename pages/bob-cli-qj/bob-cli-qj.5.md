@@ -31,8 +31,10 @@ prose-sections: author and propose the epic for bob prose extract/inline and its
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.6k.gem][1] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
+| read-by | [agent:bob-cli-qj.5.1.land][1] | Need the parent phase scope to tell the tale what to verify before closing it | 1 |
+| read-by | [agent:research.6k.gem][2] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.research.6k.gem/README.md
 
 <!-- sase:referenced-by:end -->
