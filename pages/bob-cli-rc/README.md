@@ -15,7 +15,7 @@ Every successful Ctrl+J / Ctrl+K section jump in Obsidian briefly shows a passiv
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-rc.1](bob-cli-rc.1.md) | Shared heading scanner and Section Map model | ◐ in_progress | medium | 2026-11-27 | 1 | 1 |
+| [bob-cli-rc.1](bob-cli-rc.1.md) | Shared heading scanner and Section Map model | ✓ closed | medium | 2026-11-27 | 1 | 2 |
 | [bob-cli-rc.2](bob-cli-rc.2.md) | Section Map card painter, placement, and styles | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 | [bob-cli-rc.3](bob-cli-rc.3.md) | Jump integration, lifecycle controller, landing flash, and peek | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 | [bob-cli-rc.4](bob-cli-rc.4.md) | Real-Obsidian acceptance, docs, and deploy | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
@@ -25,7 +25,7 @@ Every successful Ctrl+J / Ctrl+K section jump in Obsidian briefly shows a passiv
 ```mermaid
 flowchart TD
     n0["bob-cli-rc: Ctrl+J / Ctrl+K Section Map [in_progress]"]
-    n1["bob-cli-rc.1: Shared heading scanner and Section Map model [in_progress]"]
+    n1["bob-cli-rc.1: Shared heading scanner and Section Map model [closed]"]
     n2["bob-cli-rc.2: Section Map card painter, placement, and styles [in_progress]"]
     n3["bob-cli-rc.3: Jump integration, lifecycle controller, landing flash, and peek [in_progress]"]
     n4["bob-cli-rc.4: Real-Obsidian acceptance, docs, and deploy [in_progress]"]
@@ -43,7 +43,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-rc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rc.1.md) | [bob-cli-rc.1](bob-cli-rc.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-rc.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rc.1.md) | [bob-cli-rc.1](bob-cli-rc.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-rc.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.2/README.md) | [bob-cli-rc.2](bob-cli-rc.2.md) | 0 |
 | [bbugyi200.athena.bob-cli-rc.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.3/README.md) | [bob-cli-rc.3](bob-cli-rc.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-rc.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.4/README.md) | [bob-cli-rc.4](bob-cli-rc.4.md) | 0 |
@@ -54,3 +54,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@44425a4`](https://github.com/bobs-org/bob-plugins/commit/44425a4929a93d170b1ed0845d7ded3b5ef9adf3) | feat(navigation): add shared Section Map model | [bob-cli-rc.1](bob-cli-rc.1.md) | 2026-11-27 15:24:25 EST |
+| bob-plugins | [`bob-plugins@d4edb02`](https://github.com/bobs-org/bob-plugins/commit/d4edb022697087d994ded538800a77a00063af2a) | fix(navigation): refresh the Section Map bundle for single-heading notes | [bob-cli-rc.1](bob-cli-rc.1.md) | 2026-11-27 15:45:38 EST |

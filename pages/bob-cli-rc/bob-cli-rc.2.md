@@ -13,7 +13,7 @@ card: build the pure DOM painter with keyed in-place reconciliation, the margin/
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rc.1](bob-cli-rc.1.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-rc.1](bob-cli-rc.1.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-rc.3](bob-cli-rc.3.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
