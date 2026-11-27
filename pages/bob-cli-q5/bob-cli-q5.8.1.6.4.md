@@ -13,7 +13,7 @@ records-repair: keep the base status glyph template-tinted beside an amber alarm
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [bob-cli-q5.8.1.6.5](bob-cli-q5.8.1.6.5.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

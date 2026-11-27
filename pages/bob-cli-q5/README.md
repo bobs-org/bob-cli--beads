@@ -98,7 +98,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | [bbugyi200.athena.bob-cli-q5.8.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.5/README.md) | [bob-cli-q5.8.1.5](bob-cli-q5.8.1.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.8.1.6.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.1.md) | [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) | 4 |
 | [bbugyi200.athena.bob-cli-q5.8.1.6.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.2/README.md) | [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.3.md) | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.8.1.6.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.4/README.md) | [bob-cli-q5.8.1.6.4](bob-cli-q5.8.1.6.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.8.1.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.8.1.6.5/README.md) | [bob-cli-q5.8.1.6.5](bob-cli-q5.8.1.6.5.md) | 0 |
 
@@ -151,6 +151,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | bob-cli | [`dfb5e75`](https://github.com/bobs-org/bob-cli/commit/dfb5e7550051ce797bcb7d2de665900c0eaf2fde) | docs(snooze): describe the landed snooze-marks mirror and cross-link Today marks and plan | [bob-cli-q5.5.1](bob-cli-q5.5.1.md) | 2026-11-26 22:46:13 EST |
 | bob-mac-capture | [`bob-mac-capture@9f9157f`](https://github.com/bobs-org/bob-mac-capture/commit/9f9157f7dc527ff7dc8a9f7bfaf07308d69b4d72) | fix(snooze): take day, vault, presence, and meeting facts from their real owners | [bob-cli-q5.8.1.6.2](bob-cli-q5.8.1.6.2.md) | 2026-11-26 23:04:06 EST |
 | bob-mac-capture | [`bob-mac-capture@6f959f2`](https://github.com/bobs-org/bob-mac-capture/commit/6f959f2d7a3447a69f72c2b7616561404d8fa32c) | fix(snooze): bring wake HUD up to delivery contract | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-26 23:20:17 EST |
+| bob-mac-capture | [`bob-mac-capture@d302e01`](https://github.com/bobs-org/bob-mac-capture/commit/d302e01fdd4b36e414bebc0f52da5122048e7b9b) | fix(snooze): repair macOS CI build for wake HUD delivery | [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) | 2026-11-27 00:22:08 EST |
 
 <!-- sase:referenced-by:start -->
 

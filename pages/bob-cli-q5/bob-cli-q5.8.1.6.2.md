@@ -18,7 +18,7 @@ runtime-facts: use bob's date/now and vault_root as the authorities, hold instea
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.8.1.6.1](bob-cli-q5.8.1.6.1.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [bob-cli-q5.8.1.6.3](bob-cli-q5.8.1.6.3.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
