@@ -21,7 +21,7 @@ model: refactor the section-header scanner into one walker that the keys and the
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-rc.2](bob-cli-rc.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-rc.2](bob-cli-rc.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-rc.3](bob-cli-rc.3.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
@@ -36,3 +36,15 @@ model: refactor the section-header scanner into one walker that the keys and the
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@44425a4`](https://github.com/bobs-org/bob-plugins/commit/44425a4929a93d170b1ed0845d7ded3b5ef9adf3) | feat(navigation): add shared Section Map model | [bob-cli-rc.1](bob-cli-rc.1.md) | 2026-11-27 15:24:25 EST |
 | bob-plugins | [`bob-plugins@d4edb02`](https://github.com/bobs-org/bob-plugins/commit/d4edb022697087d994ded538800a77a00063af2a) | fix(navigation): refresh the Section Map bundle for single-heading notes | [bob-cli-rc.1](bob-cli-rc.1.md) | 2026-11-27 15:45:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rc.1--1][1] | Verify the two required follow-up notes before final closeout | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rc.1.md
+
+<!-- sase:referenced-by:end -->

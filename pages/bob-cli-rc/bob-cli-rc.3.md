@@ -14,7 +14,7 @@ wiring: move the section jump into a new fragment, fix the double scroll, add th
 ## Dependencies
 
 - **Depends on:** [bob-cli-rc.1](bob-cli-rc.1.md) ✓ · ⧖ 2026-11-27
-- **Depends on:** [bob-cli-rc.2](bob-cli-rc.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-rc.2](bob-cli-rc.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-rc.4](bob-cli-rc.4.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
