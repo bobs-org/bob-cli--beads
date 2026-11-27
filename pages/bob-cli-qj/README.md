@@ -25,6 +25,16 @@ _Plus 15 automatic references — see [Referenced By](#referenced-by)._
 
 The Bob note type for authored writing is named prose everywhere a person reads it: the type link, the bob prose CLI, Bob Prose in Obsidian, the docs, and the vault. Every legacy article note, bob articles call, plugin id, and JSON consumer keeps working unchanged, and prose-section extract/inline is planned on top of the rename.
 
+## Notes
+
+[2026-11-27T13:09:18Z · bob-cli-qj.land] LANDING VERIFIED, CLOSE BLOCKED (bob-cli-qj.land): sase bead close bob-cli-qj was refused because nested child epic bob-cli-qj.5.1 (prose-section extract/inline, proposed by phase qj.5 as planned) still has 9 open descendants. --force would cancel that active epic, so I did not use it. A monitor waits for qj.5.1 to close, then its follow-up closes this epic. Verification so far: Verified: all 5 phases closed and every phase note was addressed. Commits: bob-cli cf414ce1 (engine-rename: src/native/articles moved to src/native/prose, Rust identifiers renamed, wire field summary.articles kept), 4168e201 (prose-cli: one is_prose_type_name predicate accepts prose and legacy article; TYPE_LINE writes [[prose]]; prose added to the reserved record ids and the props built-in type list; bob prose canonical with a hidden articles alias; catalog row ids and the article-note slot kept; --section-numbers on|off; prose-type-read host probe; docs/prose.md plus redirects for articles.md and reference/cli/articles.md; vault-format Prose notes section), 16a2497d (decision evidence cites 4168e201). bob-plugins c41e07e9 (re-landed the lost qj.3 work: [[prose]] and [[article]] detection in bob-articles, command-mode, navigation-hotkeys, and ledger-tools; Bob Prose copy under unchanged ids; toggle-section-numbers; spawn argv prose; bob-prose-type-v1 marker in all 4 bundles). Vault ~/bob 335f401a6 and decc7fdfa: prose.md, prose.base, _templates/new_prose.md; sase_blog_contents is [[prose]] and still formatted; rg [[article]] outside .bob lists only AGENTS.md and prose.md. The host gate passed on athena, apollo, and the Mac (artifact file:explicit:c7e796fd6902bbaed0bde124). Decisions honored: type_name=prose, numbering_default=keep_on (no ! break), and only glossary:prose-note and decisions:prose-notes-are-owned-prose changed memory; the other memory diffs in 4168e201 are generated descriptors and indexes. ArticlePlan v1 changed only its display string (notice). The prose-sections child epic bob-cli-qj.5.1 is proposed and in progress, which meets the plan's Done-when.
+
+Checks on master eef6cc07: cargo test --lib 8245 passed, 0 failed; cargo test --test cli 4279 passed, 0 failed (focused prose/alias/sections/props/nightly 176 passed); just docs-check passed (448).
+
+INTEGRATION: I reviewed the 17 non-epic bob-cli commits since cf414ce1 (qm.7, qp, q5, qi, ph, capture). They already use prose or only use article in the web-article sense; no change needed. bob-plugins: the concurrent Prose Card (31024085, eca733c2), cabinets, and ref-card work already accept [[prose]] and [[article]]. Two stale display-name spots fixed in this landing: docs/nav.yml nav title "Bob Articles" -> "Bob Prose" (missed by the qj.3 rename) and docs/develop/plugin-apis.md "Bob Articles" -> "Bob Prose" (added concurrently by 31024085). bob-plugins npm run docs:gen and docs:check passed. bob plugins sync left all bundles unchanged; its refusals for bob-ledger-tools and bob-navigation-hotkeys concern another running agent's uncommitted deploy from bob-cli_12. My change touches no bundle, so nothing was forced.
+
+FOLLOW-UPS: (1) qj.1 #1 and qj.2 #1 (baseline drawer/capture test failures, tracked as bob-cli-qo): declined as new work because they no longer reproduce on eef6cc07 (lib and cli suites fully green); I left a non-repro note on bob-cli-qo recommending it close. (2) qj.4 #2 (two bob-plugins unit failures from the q5.6.1 snooze work): declined because they were already fixed by the q5.6.1 landing 56baeb9f (bob-cli-qu closed superseded); both test files pass 81/0 on bob-plugins master 56baeb9f. (3) qj.4 #3 (guard closes against unpushed linked-repo commits): no duplicate and no causal active epic, so I created feature task bob-cli-qy (large, ready). epic-symbols: none. just symvision: no such recipe in this justfile.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -32,7 +42,7 @@ The Bob note type for authored writing is named prose everywhere a person reads 
 | [bob-cli-qj.1](bob-cli-qj.1.md) | Rename the Rust article engine to prose | ✓ closed | small | 2026-11-26 | 1 | 1 |
 | [bob-cli-qj.2](bob-cli-qj.2.md) | bob prose with permanent legacy aliases | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qj.3](bob-cli-qj.3.md) | Bob Prose in Obsidian | ✓ closed | medium | 2026-11-26 | 1 | 0 |
-| [bob-cli-qj.4](bob-cli-qj.4.md) | Host gate, vault cutover, and canonical plugin calls | ✓ closed | small | 2026-11-26 | 1 | 1 |
+| [bob-cli-qj.4](bob-cli-qj.4.md) | Host gate, vault cutover, and canonical plugin calls | ✓ closed | small | 2026-11-26 | 1 | 2 |
 | [bob-cli-qj.5](bob-cli-qj.5.md) | Plan prose-section extract and inline | ✓ closed | xlarge | 2026-11-26 | 1 | 0 |
 
 ## Lineage
@@ -91,10 +101,10 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qj.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.1/README.md) | [bob-cli-qj.1](bob-cli-qj.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.2/README.md) | [bob-cli-qj.2](bob-cli-qj.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.3/README.md) | [bob-cli-qj.3](bob-cli-qj.3.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.4.md) | [bob-cli-qj.4](bob-cli-qj.4.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qj.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.4.md) | [bob-cli-qj.4](bob-cli-qj.4.md) | 2 |
 | [bbugyi200.apollo.bob-cli-qj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.md) | [bob-cli-qj.5](bob-cli-qj.5.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.1/README.md) | [bob-cli-qj.5.1.1](bob-cli-qj.5.1.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.2.md) | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.2.md) | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.3/README.md) | [bob-cli-qj.5.1.3](bob-cli-qj.5.1.3.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.4/README.md) | [bob-cli-qj.5.1.4](bob-cli-qj.5.1.4.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.5/README.md) | [bob-cli-qj.5.1.5](bob-cli-qj.5.1.5.md) | 0 |
@@ -102,7 +112,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qj.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.7/README.md) | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.8/README.md) | [bob-cli-qj.5.1.8](bob-cli-qj.5.1.8.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.land/README.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.land/README.md) | [bob-cli-qj](README.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.land.md) | [bob-cli-qj](README.md) | 1 |
 
 ## Commits
 
@@ -111,7 +121,8 @@ flowchart TD
 | bob-cli | [`cf414ce`](https://github.com/bobs-org/bob-cli/commit/cf414ce15c5489203abf81d308d9359d30214510) | refactor(prose): rename the article engine module to prose | [bob-cli-qj.1](bob-cli-qj.1.md) | 2026-11-26 12:15:08 EST |
 | bob-cli | [`4168e20`](https://github.com/bobs-org/bob-cli/commit/4168e2013a35cf08e11858c2d66a61d60f5f8a8b) | feat(prose): make prose the canonical note type and CLI | [bob-cli-qj.2](bob-cli-qj.2.md) | 2026-11-26 14:48:41 EST |
 | bob-cli | [`16a2497`](https://github.com/bobs-org/bob-cli/commit/16a2497d0a73f8497220a656116eaf311c08d246) | docs(decisions): cite the prose-cli commit in prose-notes-are-owned-prose | [bob-cli-qj.4](bob-cli-qj.4.md) | 2026-11-27 06:34:53 EST |
-| bob-cli | [`85d2fb3`](https://github.com/bobs-org/bob-cli/commit/85d2fb32b0f99a7555289c07b40f82c92807e28a) | feat(prose): add section selection and eligibility model | [bob-cli-qj.5.1.2](bob-cli-qj.5.1.2.md) | 2026-11-27 08:00:59 EST |
+| bob-plugins | [`bob-plugins@c41e07e`](https://github.com/bobs-org/bob-plugins/commit/c41e07e9d6d66e06410af472df4117b0be6efc49) | feat(prose): Bob Prose in Obsidian with canonical bob prose calls | [bob-cli-qj.4](bob-cli-qj.4.md) | 2026-11-27 06:35:35 EST |
+| bob-plugins | [`bob-plugins@e48f86b`](https://github.com/bobs-org/bob-plugins/commit/e48f86b6896d8802e0ba4fa6a4be72dbe5438223) | docs(prose): name Bob Prose in the plugin nav and the prose API section | [bob-cli-qj](README.md) | 2026-11-27 08:11:03 EST |
 
 <!-- sase:referenced-by:start -->
 
