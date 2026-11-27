@@ -13,7 +13,7 @@ wikilink-cold-chunk: make the block-id-prompt task-wikilink cold-build 16 ms chu
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-r8.3](bob-cli-r8.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-r8.3](bob-cli-r8.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

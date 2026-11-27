@@ -18,7 +18,7 @@ deploy-inclusion-proof: make evaluate_guard in src/native/plugins/deploy.rs try 
 ## Dependencies
 
 - **Depends on:** [bob-cli-r8.1](bob-cli-r8.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-r8.3](bob-cli-r8.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-r8.3](bob-cli-r8.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ deploy-inclusion-proof: make evaluate_guard in src/native/plugins/deploy.rs try 
 |---|---|---|---|---|
 | bob-cli | [`dbdc7d2`](https://github.com/bobs-org/bob-cli/commit/dbdc7d24b28b2e72b2a3119155800738d4ad16ec) | feat(plugins): run deploy inclusion proof in both stamp arms | [bob-cli-r8.2](bob-cli-r8.2.md) | 2026-11-27 13:42:45 EST |
 | bob-plugins | [`bob-plugins@ce4cb69`](https://github.com/bobs-org/bob-plugins/commit/ce4cb692999ad7db70015af5baaa11e85a079da6) | docs(deployment): sync guard rule covers clean stamps and dirty incoming | [bob-cli-r8.2](bob-cli-r8.2.md) | 2026-11-27 13:43:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-r8.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-r8.2/README.md
+
+<!-- sase:referenced-by:end -->
