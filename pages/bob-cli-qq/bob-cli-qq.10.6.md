@@ -26,13 +26,14 @@ docs-memory: add docs/cabinets.md and update the family pages, bringing bob-ledg
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`31fe163`](https://github.com/bobs-org/bob-cli/commit/31fe16372e608ae8813edee41b21a9dfdc266c96) | docs(memory): cabinets glossary, card strands, and absorb-at-render-time decision | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2026-11-27 17:45:53 EST |
+| bob-plugins | [`bob-plugins@f35848b`](https://github.com/bobs-org/bob-plugins/commit/f35848b4c1609395af69b15fad1762c3e0e3c25b) | docs(cabinets): add cabinets reference and update the family pages | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2026-11-27 17:47:04 EST |
 
 <!-- sase:referenced-by:start -->
 

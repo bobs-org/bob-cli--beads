@@ -112,7 +112,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qq.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.3.md) | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md) | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-qq.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.land/README.md) | [bob-cli-qq.10](bob-cli-qq.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.2.md) | [bob-cli-qq.2](bob-cli-qq.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 1 |
@@ -150,6 +150,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@3c3333b`](https://github.com/bobs-org/bob-plugins/commit/3c3333b00043b7f6fb0d49064abe5b1061707d7b) | fix(cabinets): bring real-Obsidian acceptance to GO | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 2026-11-27 15:47:38 EST |
 | bob-plugins | [`bob-plugins@64268af`](https://github.com/bobs-org/bob-plugins/commit/64268af9b91195b065e69cedbfc67733d91b4222) | feat(cabinets)!: switch property-card cabinets on and delete the preview gate | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 2026-11-27 17:17:44 EST |
 | bob-cli | [`31fe163`](https://github.com/bobs-org/bob-cli/commit/31fe16372e608ae8813edee41b21a9dfdc266c96) | docs(memory): cabinets glossary, card strands, and absorb-at-render-time decision | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2026-11-27 17:45:53 EST |
+| bob-plugins | [`bob-plugins@f35848b`](https://github.com/bobs-org/bob-plugins/commit/f35848b4c1609395af69b15fad1762c3e0e3c25b) | docs(cabinets): add cabinets reference and update the family pages | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 2026-11-27 17:47:04 EST |
 
 <!-- sase:referenced-by:start -->
 
