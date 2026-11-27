@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-qm.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.5.md) | [bob-cli-qm.5](bob-cli-qm.5.md) | 1 |
 | [bbugyi200.athena.bob-cli-qm.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-qm.6/README.md) | [bob-cli-qm.6](bob-cli-qm.6.md) | 1 |
 | [bbugyi200.athena.bob-cli-qm.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.7.md) | [bob-cli-qm.7](bob-cli-qm.7.md) | 3 |
-| [bbugyi200.athena.bob-cli-qm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.land.md) | [bob-cli-qm](README.md) | 1 |
+| [bbugyi200.athena.bob-cli-qm.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qm.land.md) | [bob-cli-qm](README.md) | 2 |
 
 ## Commits
 
@@ -129,6 +129,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@eca733c`](https://github.com/bobs-org/bob-plugins/commit/eca733c23a43ffad6bc2ab4bd2f7ec76eb2023ee) | feat(cards): add Notebook and Prose property cards | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-26 19:28:12 EST |
 | bob-cli | [`eef6cc0`](https://github.com/bobs-org/bob-cli/commit/eef6cc07fe4225de1a27d052f3eee55e996b2a1a) | docs(memory): add Prose and Notebook Card glossary strands | [bob-cli-qm.7](bob-cli-qm.7.md) | 2026-11-27 07:05:01 EST |
 | bob-plugins | [`bob-plugins@d971e4e`](https://github.com/bobs-org/bob-plugins/commit/d971e4e05e18c5cacf42fab2abc03e0050b4e7cd) | feat(ledger-tools): land prose and notebook cards acceptance | [bob-cli-qm](README.md) | 2026-11-27 08:13:41 EST |
+| bob-cli--plans | [`bob-cli--plans@b460063`](https://github.com/bobs-org/bob-cli--plans/commit/b460063f6930424a648a261fbed68f7f37dc724f) | docs(plans): mark prose\_and\_notebook\_cards done | [bob-cli-qm](README.md) | 2026-11-27 08:14:14 EST |
 
 <!-- sase:referenced-by:start -->
 
