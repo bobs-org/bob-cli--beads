@@ -22,7 +22,7 @@ rail: add the kit's card-floor helpers, step-item wrap and tooltip support, and 
 ## Dependencies
 
 - **Depends on:** [bob-cli-ra.1](bob-cli-ra.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-ra.4](bob-cli-ra.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-ra.4](bob-cli-ra.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -35,3 +35,15 @@ rail: add the kit's card-floor helpers, step-item wrap and tooltip support, and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@061c41b`](https://github.com/bobs-org/bob-plugins/commit/061c41b89e162a2aa4542471c6f789c2adee83f1) | feat(ledger-tools): add tree walk rail floor helper, model, and adapter | [bob-cli-ra.3](bob-cli-ra.3.md) | 2026-11-27 16:40:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ra.3][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.3/README.md
+
+<!-- sase:referenced-by:end -->

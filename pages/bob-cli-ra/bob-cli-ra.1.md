@@ -19,7 +19,7 @@ engine: add the cross-epic gate edges, then build the lazy, generation-stamped t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-ra.2](bob-cli-ra.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-ra.2](bob-cli-ra.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-ra.3](bob-cli-ra.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents

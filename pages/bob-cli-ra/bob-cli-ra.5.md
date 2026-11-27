@@ -13,7 +13,7 @@ acceptance: add a scratch-vault runner for all eight keys on all four types, che
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-ra.4](bob-cli-ra.4.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-ra.4](bob-cli-ra.4.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-ra.6](bob-cli-ra.6.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
