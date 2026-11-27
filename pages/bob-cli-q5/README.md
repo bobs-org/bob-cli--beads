@@ -89,7 +89,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | [bbugyi200.athena.bob-cli-q5.6.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md) | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-q5.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md) | [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) | 2 |
 | [bbugyi200.athena.bob-cli-q5.6.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.4/README.md) | [bob-cli-q5.6.1.4](bob-cli-q5.6.1.4.md) | 1 |
-| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 3 |
 | [bbugyi200.athena.bob-cli-q5.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.md) | [bob-cli-q5.7](bob-cli-q5.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.7.1.1/README.md) | [bob-cli-q5.7.1.1](bob-cli-q5.7.1.1.md) | 0 |
 | [bbugyi200.athena.bob-cli-q5.7.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.7.1.2.md) | [bob-cli-q5.7.1.2](bob-cli-q5.7.1.2.md) | 0 |
@@ -159,7 +159,7 @@ Bryan can snooze any open, non-Event task to a clock time today from its Task Li
 | bob-plugins | [`bob-plugins@143c9ca`](https://github.com/bobs-org/bob-plugins/commit/143c9ca3c65fd341f3f085fe24ca3f4f9574b9cc) | feat(snooze): add mutation planner and BIP adapter | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:13:26 EST |
 | bob-plugins | [`bob-plugins@6a61e16`](https://github.com/bobs-org/bob-plugins/commit/6a61e163c850a53a415ab75db374075814f7c327) | feat(snooze): add runtime target resolution and guarded commit controller | [bob-cli-q5.6.1.2](bob-cli-q5.6.1.2.md) | 2026-11-27 02:47:51 EST |
 
-… and 5 more commits
+… and 6 more commits
 
 <!-- sase:referenced-by:start -->
 

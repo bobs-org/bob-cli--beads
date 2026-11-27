@@ -49,7 +49,7 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 3 |
 
 ## Commits
 
@@ -57,6 +57,7 @@ Snooze one task safely from Obsidian, retime or remove its row, and wake it thro
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@56baeb9`](https://github.com/bobs-org/bob-plugins/commit/56baeb9f44ca51df41a8a0fb00889c83d2510e28) | test(snooze): repair Snooze Card unit expectations and add Task Card z dispatch coverage | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 07:06:19 EST |
 | bob-cli | [`064fc51`](https://github.com/bobs-org/bob-cli/commit/064fc51ef361bb0628aa2d9f16bb10f9ef74f7d9) | docs(snooze): document Snooze Card gestures and undo | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:57:14 EST |
+| bob-plugins | [`bob-plugins@99458bd`](https://github.com/bobs-org/bob-plugins/commit/99458bd94059558a225826c87a042b7d968b2ee5) | feat(snooze): complete card facts and acceptance fixes | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:58:24 EST |
 
 <!-- sase:referenced-by:start -->
 
