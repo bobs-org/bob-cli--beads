@@ -16,7 +16,7 @@
 | related | file:explicit:4e093423e907fab57e92e9db | attached via sase artifact create --bead |
 | related | file:explicit:c152d5bb0c1567dc6d249e66 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -35,6 +35,8 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 [2026-11-27T13:06:55Z · bob-cli-qq.8] PROPOSED FOLLOW-UP: Footer pick overlay clips at both ends at 420 px — the armed status-bar strip shows "abinets 1 Albums ..." and "- Properties ..." with the leading "Cabinets" and trailing "esc" cut; it should truncate one end with an ellipsis (see footer-*-narrow-armed shots in file:explicit:4e093423e907fab57e92e9db).
 
 [2026-11-27T13:07:02Z · bob-cli-qq.8] PROPOSED FOLLOW-UP: The Areas cabinet body repeats the stored callout title row ("Areas 1 area" with its icon) directly under the header that already reads "Areas · 1 area"; the other host cabinets lift the title into the header. Drop or hide the callout title inside cabinet bodies (241al/241aj).
+
+[2026-11-27T13:23:36Z · 1gy--code] Cabinets acceptance evidence (from fix_bob_plugins_failing_tests plan, planner-established at bob-plugins 56baeb9f on athena; runner NOT re-run per plan out-of-scope): NO-GO, 63 pass and 11 fail. Failing checks: render-empty-album-reading, area-content-parity-gate-closed, the eight keys-* checks, and runner-error: Timed out waiting for embedded stored catalog. Phase-owned commit c476086a is also NO-GO on athena, 64 pass and 10 fail.
 
 ## Dependencies
 
@@ -68,12 +70,15 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qq.7][1] | list epic children statuses | 1 |
-| read-by | [agent:bob-cli-qq.8--2][2] | Resume the requested real-Obsidian Cabinets acceptance and inspect current phase obligations | 1 |
-| read-by | [agent:bob-cli-qq.8--3][2] | Inspect the assigned Cabinets epic scope and its required closure workflow | 1 |
-| read-by | [agent:bob-cli-qq.8--7][2] | Check assigned epic phases and notes before completing the requested acceptance closeout | 1 |
+| read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets already knows about the atomicRanges console-error gap and stale ref gate keys in its runner | 1 |
+| read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
+| read-by | [agent:bob-cli-qq.8][3] | Check whether the attempts 18-29 evidence artifact attached | 2 |
+| read-by | [agent:bob-cli-qq.8--2][3] | Resume the requested real-Obsidian Cabinets acceptance and inspect current phase obligations | 1 |
+| read-by | [agent:bob-cli-qq.8--3][3] | Inspect the assigned Cabinets epic scope and its required closure workflow | 1 |
+| read-by | [agent:bob-cli-qq.8--7][3] | Check assigned epic phases and notes before completing the requested acceptance closeout | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
 
 <!-- sase:referenced-by:end -->

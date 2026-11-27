@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:bob-cli-r5][2] | Cabinets go-live (bob-cli-qq.9) still edits kit hunks near 240m/240q; land this after qq closes to avoid colliding |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md
+[2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-r5/README.md
 
 <!-- sase:links:end -->
 
@@ -28,6 +30,8 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 ## Notes
 
 [2026-11-27T12:29:31Z · bob-cli-qm.land] DISCOVERED ISSUE (from the bob-cli-qm landing; proposed by bob-cli-qm.7--1 note #6): bob-cli-qm.7 (bob-plugins eca733c2) deleted the Notebook/Prose preview gate and its cardPreviewKinds key. The cabinets runner still seeds the dead key: bob-plugins scripts/obsidian-cabinets-e2e.cjs:20 GATE_DATA has cardPreviewKinds: ["notebook", "prose"], line 490 gateClosed has cardPreviewKinds: [], and the wrapper scripts/test-obsidian-cabinets-e2e.cjs:73 pins that seed with assert.match. ledger-tools ignores the key, so nothing breaks. Drop it from both objects and the wrapper assertion when bob-cli-qq.9 removes cabinetsPreview. Keep scripts/test-ledger-tools-cabinets-kit.cjs:102: it deliberately passes cardPreviewKinds as a foreign key to prove it never enables cabinets.
+
+[2026-11-27T13:16:39Z · bob-cli-qp.land] DISCOVERED ISSUE (from the bob-cli-qp landing; proposed by bob-cli-qp.7 note #3 plus lander integration review): (1) The cabinets runner counts only uncaught exceptions. bob-plugins scripts/obsidian-cabinets-e2e.cjs:700 records Runtime.exceptionThrown and gates no-runtime-exceptions at :1483, but it never subscribes to Runtime.consoleAPICalled. CodeMirror reports extension and keymap failures through console.error, which is how the 240wg atomicRanges TypeError ('.between is not a function', introduced by a4bd99f2) hit every Live Preview Vim/arrow motion in the deployed vault without ever failing a cabinets run. bob-cli-qp.7 repaired the facet (propertyCardCabinetAbsorbAtomicRangeSet, unit-covered in scripts/test-ledger-tools-cabinets-absorption.cjs since 2bd92b19). Mirror the Ref Card runner (scripts/obsidian-ref-card-acceptance-e2e.cjs:523 consoleErrors plus flows.cjs:602) so console.error during cursor motions fails acceptance. (2) bob-cli-qp.8 (4410a5bf) deleted the Ref Card gate, so refCardPreview is a dead key like cardPreviewKinds (note #1). The runner still seeds it at obsidian-cabinets-e2e.cjs:20 (GATE_DATA refCardPreview: true) and :780 (gateClosed refCardPreview: false), and scripts/test-obsidian-cabinets-e2e.cjs:77 pins it with assert.match. ledger-tools ignores it, so nothing breaks. Drop it together with cardPreviewKinds when bob-cli-qq.9 removes cabinetsPreview, and keep scripts/test-ledger-tools-cabinets-kit.cjs:102 as the foreign-key negative test. Left to qq because qq.8 and qq.9 own and are actively changing these files.
 
 ## Phases
 
@@ -49,34 +53,53 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 flowchart TD
     n0["bob-cli-qq: Property Card Cabinets [in_progress]"]
     n1["bob-cli-qq.1: Cabinet gate, model, session state, provider registry, and the view collector [closed]"]
-    n2["bob-cli-qq.2: Walker-footer overlay push/pop API [closed]"]
-    n3["bob-cli-qq.3: Catalog recognition, ownership claims, render-time hiding, and the body renderer [closed]"]
-    n4["bob-cli-qq.4: One cabinet chrome, delegation, the stack, and the CSS region [closed]"]
-    n5["bob-cli-qq.5: The `_` dispatch and numbered cabinet pick [closed]"]
-    n6["bob-cli-qq.6: Areas, Projects, Notebooks, and Albums cabinets on area and project cards [closed]"]
-    n7["bob-cli-qq.7: The album Records cabinet [closed]"]
-    n8["bob-cli-qq.8: Real-Obsidian acceptance and screenshot review with the gate open [in_progress]"]
-    n9["bob-cli-qq.9: Switch cabinets on, docs, approved memory, and clean deploy [in_progress]"]
+    n2["bob-cli-qq.10: Finish Property Card Cabinets — acceptance GO, go-live, and close bob-cli-qq [in_progress]"]
+    n3["bob-cli-qq.10.1: Bring the Reading cabinet paint within the 2x inline budget [in_progress]"]
+    n4["bob-cli-qq.10.2: Fix the intermittent Reading card miss in the shared property-card host [in_progress]"]
+    n5["bob-cli-qq.10.3: Footer overlay narrow clipping, Areas title row, and runner console errors [in_progress]"]
+    n6["bob-cli-qq.10.4: Rerun real-Obsidian Cabinets acceptance to GO and close bob-cli-qq.8 [in_progress]"]
+    n7["bob-cli-qq.10.5: Delete the cabinets gate, convert the tests, deploy, and smoke [in_progress]"]
+    n8["bob-cli-qq.10.6: Cabinets docs in both repos, approved memory, and close bob-cli-qq.9 [in_progress]"]
+    n9["bob-cli-qq.2: Walker-footer overlay push/pop API [closed]"]
+    n10["bob-cli-qq.3: Catalog recognition, ownership claims, render-time hiding, and the body renderer [closed]"]
+    n11["bob-cli-qq.4: One cabinet chrome, delegation, the stack, and the CSS region [closed]"]
+    n12["bob-cli-qq.5: The `_` dispatch and numbered cabinet pick [closed]"]
+    n13["bob-cli-qq.6: Areas, Projects, Notebooks, and Albums cabinets on area and project cards [closed]"]
+    n14["bob-cli-qq.7: The album Records cabinet [closed]"]
+    n15["bob-cli-qq.8: Real-Obsidian acceptance and screenshot review with the gate open [in_progress]"]
+    n16["bob-cli-qq.9: Switch cabinets on, docs, approved memory, and clean deploy [in_progress]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
-    n0 --> n8
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
+    n2 --> n8
     n0 --> n9
-    n1 -.-> n4
-    n2 -.-> n5
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n0 --> n16
+    n1 -.-> n11
     n3 -.-> n6
-    n3 -.-> n7
-    n4 -.-> n5
     n4 -.-> n6
-    n4 -.-> n7
-    n5 -.-> n8
-    n6 -.-> n8
+    n5 -.-> n6
+    n6 -.-> n7
     n7 -.-> n8
-    n8 -.-> n9
+    n9 -.-> n12
+    n10 -.-> n13
+    n10 -.-> n14
+    n11 -.-> n12
+    n11 -.-> n13
+    n11 -.-> n14
+    n12 -.-> n15
+    n13 -.-> n15
+    n14 -.-> n15
+    n15 -.-> n16
 ```
 
 ## Agents
@@ -84,6 +107,13 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.1.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.1/README.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md) | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.3.md) | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 1 |
+| [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.5/README.md) | [bob-cli-qq.10.5](bob-cli-qq.10.5.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.land/README.md) | [bob-cli-qq.10](bob-cli-qq.10.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.2.md) | [bob-cli-qq.2](bob-cli-qq.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.3/README.md) | [bob-cli-qq.3](bob-cli-qq.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.4.md) | [bob-cli-qq.4](bob-cli-qq.4.md) | 1 |
@@ -113,6 +143,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@e9f0c07`](https://github.com/bobs-org/bob-plugins/commit/e9f0c0703a8b10576663374883e2bb4b0ad277c2) | fix(cabinets-e2e): isolate Xvfb temporary storage | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 00:16:24 EST |
 | bob-plugins | [`bob-plugins@c476086`](https://github.com/bobs-org/bob-plugins/commit/c476086a9a7135ad944993ed9ea0d715ec3fcddd) | fix(cabinets): repair acceptance fixtures and narrow bank layout | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 00:57:29 EST |
 | bob-plugins | [`bob-plugins@28e7573`](https://github.com/bobs-org/bob-plugins/commit/28e7573951895c58e1917815d96e08c646b873ae) | fix(cabinets): absorb every Live Preview catalog and keep cabinet bodies painted | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 08:08:11 EST |
+| bob-plugins | [`bob-plugins@b6ae31d`](https://github.com/bobs-org/bob-plugins/commit/b6ae31d8f5b89bc7898cefc79a0f21000c25dd87) | fix(cabinets): polish footer overlay and acceptance checks | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 2026-11-27 09:28:42 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -120,12 +151,14 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qq.5][1] | Need epic scope for phase qq.5 | 1 |
-| read-by | [agent:bob-cli-qq.7][2] | need epic scope and sibling repo info | 2 |
-| read-by | [agent:bob-cli-qq.8--3][3] | Confirm the parent bead scope and preserve its status as requested | 1 |
+| read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets already knows about the atomicRanges console-error gap and stale ref gate keys in its runner | 2 |
+| read-by | [agent:bob-cli-qq.5][2] | Need epic scope for phase qq.5 | 1 |
+| read-by | [agent:bob-cli-qq.7][3] | need epic scope and sibling repo info | 2 |
+| read-by | [agent:bob-cli-qq.8--3][4] | Confirm the parent bead scope and preserve its status as requested | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
 
 <!-- sase:referenced-by:end -->

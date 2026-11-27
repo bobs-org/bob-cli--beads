@@ -46,7 +46,9 @@ records-cabinet: register the open-by-default Records provider for album cards. 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.7][1] | Need full phase description | 5 |
+| read-by | [agent:bob-cli-qq.8][2] | Find the records-cabinet perf budget measured in phase 7 | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
 
 <!-- sase:referenced-by:end -->

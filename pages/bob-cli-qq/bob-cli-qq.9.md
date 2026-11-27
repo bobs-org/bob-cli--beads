@@ -29,8 +29,10 @@ go-live: once the gating sibling go-lives have closed, delete the gate and updat
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-qq.7][1] | list epic children statuses | 1 |
+| read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets go-live is actively editing the cabinets e2e runner that still writes the removed refCardPreview gate key | 3 |
+| read-by | [agent:bob-cli-qq.7][2] | list epic children statuses | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 
 <!-- sase:referenced-by:end -->

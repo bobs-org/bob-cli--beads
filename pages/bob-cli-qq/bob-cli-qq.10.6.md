@@ -1,0 +1,22 @@
+# Bead: bob-cli-qq.10.6 — Cabinets docs in both repos, approved memory, and close bob-cli-qq.9
+
+[Bead Pages](../README.md) / [bob-cli-qq.10](bob-cli-qq.10.md) / bob-cli-qq.10.6
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.g7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.g7.md) · **Assignee:** `bob-cli-qq.10.6` · **Size:** medium
+**Created:** 2026-11-27 09:12:20 EST
+**Plan:** [202611/finish\_property\_card\_cabinets.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_property_card_cabinets.md)
+
+## Description
+
+docs-memory: add docs/cabinets.md and update the family pages, bringing bob-ledger-tools.md under its word budget. Fix stale bob-cli docs, write the approved glossary and decision memory, regenerate and check the docs, sync, and close bob-cli-qq.9.
+
+## Dependencies
+
+- **Depends on:** [bob-cli-qq.10.5](bob-cli-qq.10.5.md) ◐ · ⧖ 2026-11-27
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.apollo.bob-cli-qq.10.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.6/README.md) | [bob-cli-qq.10.6](bob-cli-qq.10.6.md) | 0 |
