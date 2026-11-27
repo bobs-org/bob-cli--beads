@@ -13,7 +13,7 @@ mac_lead_accept: apply a lead-bearing accept as two native undo groups bound to 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rb.3](bob-cli-rb.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-rb.3](bob-cli-rb.3.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-rb.5](bob-cli-rb.5.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
