@@ -13,7 +13,7 @@ idless-cancel: fix the capture -X stale task-block reference, verify JSON and wr
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-re.2](bob-cli-re.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-re.2](bob-cli-re.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-re.4](bob-cli-re.4.md) ◐ · ⧖ 2026-11-27
 
 ## Agents

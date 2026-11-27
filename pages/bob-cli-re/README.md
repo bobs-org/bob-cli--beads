@@ -31,8 +31,8 @@ Close five verified task beads by repairing the clipboard CI signal harness, exe
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [bob-cli-re.1](bob-cli-re.1.md) | Make the clipboard SIGINT test independent of inherited signal disposition | ✓ closed | small | 2026-11-27 | 1 | 1 |
-| [bob-cli-re.2](bob-cli-re.2.md) | Adopt fork-safe writers for the remaining executable test stubs | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
+| [bob-cli-re.1](bob-cli-re.1.md) | Make the clipboard SIGINT test independent of inherited signal disposition | ✓ closed | small | 2026-11-27 | 1 | 0 |
+| [bob-cli-re.2](bob-cli-re.2.md) | Adopt fork-safe writers for the remaining executable test stubs | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-re.3](bob-cli-re.3.md) | Preserve task block identity when canceling an ID-less successor | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 | [bob-cli-re.4](bob-cli-re.4.md) | Preserve Pomodoro block references around an existing timed entry | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 | [bob-cli-re.5](bob-cli-re.5.md) | Clean spaced Amazon order codes without erasing sub-merchants | ◐ in_progress | small | 2026-11-27 | 1 | 0 |
@@ -43,7 +43,7 @@ Close five verified task beads by repairing the clipboard CI signal harness, exe
 flowchart TD
     n0["bob-cli-re: Task-bead burn-down 3: signal-safe CI, executable stubs, capture block identity, and merchant names [in_progress]"]
     n1["bob-cli-re.1: Make the clipboard SIGINT test independent of inherited signal disposition [closed]"]
-    n2["bob-cli-re.2: Adopt fork-safe writers for the remaining executable test stubs [in_progress]"]
+    n2["bob-cli-re.2: Adopt fork-safe writers for the remaining executable test stubs [closed]"]
     n3["bob-cli-re.3: Preserve task block identity when canceling an ID-less successor [in_progress]"]
     n4["bob-cli-re.4: Preserve Pomodoro block references around an existing timed entry [in_progress]"]
     n5["bob-cli-re.5: Clean spaced Amazon order codes without erasing sub-merchants [in_progress]"]
@@ -62,8 +62,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-re.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-re.1.md) | [bob-cli-re.1](bob-cli-re.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-re.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.2/README.md) | [bob-cli-re.2](bob-cli-re.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-re.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-re.1.md) | [bob-cli-re.1](bob-cli-re.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-re.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.2/README.md) | [bob-cli-re.2](bob-cli-re.2.md) | 1 |
 | [bbugyi200.athena.bob-cli-re.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.3/README.md) | [bob-cli-re.3](bob-cli-re.3.md) | 0 |
 | [bbugyi200.athena.bob-cli-re.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.4/README.md) | [bob-cli-re.4](bob-cli-re.4.md) | 0 |
 | [bbugyi200.athena.bob-cli-re.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.5/README.md) | [bob-cli-re.5](bob-cli-re.5.md) | 0 |
@@ -73,4 +73,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| chezmoi | [`chezmoi@378cb6c`](https://github.com/bbugyi200/dotfiles/commit/378cb6c9e56064a53d57a722d68c02a924b3e23b) | fix(tests): reset inherited SIGINT in clipboard test runner | [bob-cli-re.1](bob-cli-re.1.md) | 2026-11-27 15:53:47 EST |
+| bob-cli | [`69f8aae`](https://github.com/bobs-org/bob-cli/commit/69f8aae63cdf25cf926461f0d96a1156de1997e5) | fix(tests): eliminate ETXTBSY races via child-cp executable stubs | [bob-cli-re.2](bob-cli-re.2.md) | 2026-11-27 16:56:03 EST |

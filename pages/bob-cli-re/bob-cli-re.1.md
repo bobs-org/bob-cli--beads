@@ -17,16 +17,10 @@ clipboard-signal: fix the inherited-SIGINT test failure in chezmoi and close bob
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-re.2](bob-cli-re.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-re.2](bob-cli-re.2.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-re.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-re.1.md) | [bob-cli-re.1](bob-cli-re.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@378cb6c`](https://github.com/bbugyi200/dotfiles/commit/378cb6c9e56064a53d57a722d68c02a924b3e23b) | fix(tests): reset inherited SIGINT in clipboard test runner | [bob-cli-re.1](bob-cli-re.1.md) | 2026-11-27 15:53:47 EST |
+| [bbugyi200.athena.bob-cli-re.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-re.1.md) | [bob-cli-re.1](bob-cli-re.1.md) | 0 |
