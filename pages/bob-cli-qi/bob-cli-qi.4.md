@@ -20,7 +20,7 @@
 | related | file:explicit:cdd6ba05e0b402a23c048298 | attached via sase artifact create --bead |
 | related | file:explicit:dce3a74989f86e48da93715d | attached via sase artifact create --bead |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -70,6 +70,7 @@ takeover-proof: run the production-adapter matrix in isolated real Obsidian agai
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qi.land][1] | Need the child scope and notes | 2 |
+| read-by | [agent:bob-cli-qi.land--e][1] | Confirm takeover-proof phase status and its approved acceptance linkage before final closeout | 1 |
 | read-by | [agent:bob-cli-qm.6][2] | acceptance gate check for qm.6 | 2 |
 | read-by | [agent:research.6k.cld][3] | Check phase progress to plan parallel prose/notebook card work | 1 |
 | read-by | [agent:research.6k.gem][4] | Inspect in-progress phase details and progress notes of qi and qj epics | 1 |
