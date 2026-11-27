@@ -21,7 +21,7 @@ wiring: move the section jump into a new fragment, fix the double scroll, add th
 
 - **Depends on:** [bob-cli-rc.1](bob-cli-rc.1.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-rc.2](bob-cli-rc.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-rc.4](bob-cli-rc.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-rc.4](bob-cli-rc.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -34,3 +34,15 @@ wiring: move the section jump into a new fragment, fix the double scroll, add th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@592c3c9`](https://github.com/bobs-org/bob-plugins/commit/592c3c9afbad50b95af1bda7029158da15923931) | feat(navigation): wire Section Map lifecycle, jump, and pinned peek | [bob-cli-rc.3](bob-cli-rc.3.md) | 2026-11-27 16:53:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rc.3][1] | Need the phase scope, notes, design file, and DECISIONS before closing | 4 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.3/README.md
+
+<!-- sase:referenced-by:end -->
