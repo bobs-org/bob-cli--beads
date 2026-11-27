@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:7316b0d305d801541fead234 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -48,3 +50,15 @@ reading-miss: in the 240c host, resolve a Reading surface from the live preview 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1c4266e`](https://github.com/bobs-org/bob-plugins/commit/1c4266ed9bf938e83719e47f93175e1d0a3e1eae) | fix(ledger-tools): recover Reading property cards after plugin reload | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 2026-11-27 10:27:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.10.2][1] | Need the phase scope, notes, and design file before remaining verification | 5 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
+
+<!-- sase:referenced-by:end -->

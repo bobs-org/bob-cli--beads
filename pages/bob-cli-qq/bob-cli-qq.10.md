@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/finish_property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/finish_property_card_cabinets.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Cabinets pass real-Obsidian acceptance with a GO verdict: the Reading perf budge
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.10.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.land/README.md) | [bob-cli-qq.10](bob-cli-qq.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-qq.10.2][1] | Need parent epic notes and whether reading-miss already started | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
+
+<!-- sase:referenced-by:end -->

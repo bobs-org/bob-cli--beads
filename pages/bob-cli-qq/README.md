@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:bob-cli-r5][2] | Cabinets go-live (bob-cli-qq.9) still edits kit hunks near 240m/240q; land this after qq closes to avoid colliding |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md
 [2]: https://github.com/bobs-org/bob-cli--beads/blob/main/pages/bob-cli-r5/README.md
@@ -107,7 +107,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.bob-cli-qq.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.1.md) | [bob-cli-qq.1](bob-cli-qq.1.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.1.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 0 |
+| [bbugyi200.apollo.bob-cli-qq.10.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.1.md) | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md) | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.10.3.md) | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.10.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.4/README.md) | [bob-cli-qq.10.4](bob-cli-qq.10.4.md) | 0 |
@@ -145,6 +145,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@28e7573`](https://github.com/bobs-org/bob-plugins/commit/28e7573951895c58e1917815d96e08c646b873ae) | fix(cabinets): absorb every Live Preview catalog and keep cabinet bodies painted | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-27 08:08:11 EST |
 | bob-plugins | [`bob-plugins@b6ae31d`](https://github.com/bobs-org/bob-plugins/commit/b6ae31d8f5b89bc7898cefc79a0f21000c25dd87) | fix(cabinets): polish footer overlay and acceptance checks | [bob-cli-qq.10.3](bob-cli-qq.10.3.md) | 2026-11-27 09:28:42 EST |
 | bob-plugins | [`bob-plugins@1c4266e`](https://github.com/bobs-org/bob-plugins/commit/1c4266ed9bf938e83719e47f93175e1d0a3e1eae) | fix(ledger-tools): recover Reading property cards after plugin reload | [bob-cli-qq.10.2](bob-cli-qq.10.2.md) | 2026-11-27 10:27:41 EST |
+| bob-plugins | [`bob-plugins@17a64fa`](https://github.com/bobs-org/bob-plugins/commit/17a64fabb6040db49d8fd77bec404d4f513913d7) | perf(ledger-tools): defer gate-open Reading inline paint for projects/records cabinets | [bob-cli-qq.10.1](bob-cli-qq.10.1.md) | 2026-11-27 10:53:10 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -153,13 +154,15 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qp.land][1] | Check whether cabinets already knows about the atomicRanges console-error gap and stale ref gate keys in its runner | 2 |
-| read-by | [agent:bob-cli-qq.5][2] | Need epic scope for phase qq.5 | 1 |
-| read-by | [agent:bob-cli-qq.7][3] | need epic scope and sibling repo info | 2 |
-| read-by | [agent:bob-cli-qq.8--3][4] | Confirm the parent bead scope and preserve its status as requested | 1 |
+| read-by | [agent:bob-cli-qq.10.2][2] | Need parent plan path and design contract for reading-miss | 1 |
+| read-by | [agent:bob-cli-qq.5][3] | Need epic scope for phase qq.5 | 1 |
+| read-by | [agent:bob-cli-qq.7][4] | need epic scope and sibling repo info | 2 |
+| read-by | [agent:bob-cli-qq.8--3][5] | Confirm the parent bead scope and preserve its status as requested | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qp.land/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
-[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
-[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.10.2/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
+[4]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
 
 <!-- sase:referenced-by:end -->
