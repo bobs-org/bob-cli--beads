@@ -55,7 +55,7 @@ flowchart TD
     n3["bob-cli-qj.3: Bob Prose in Obsidian [closed]"]
     n4["bob-cli-qj.4: Host gate, vault cutover, and canonical plugin calls [closed]"]
     n5["bob-cli-qj.5: Plan prose-section extract and inline [closed]"]
-    n6["bob-cli-qj.5.1: Extract prose sections into prose notes and inline them back [in_progress]"]
+    n6["bob-cli-qj.5.1: Extract prose sections into prose notes and inline them back [closed]"]
     n7["bob-cli-qj.5.1.1: Trash files and recover interrupted vault rewrites [closed]"]
     n8["bob-cli-qj.5.1.2: Prose section selection and eligibility [closed]"]
     n9["bob-cli-qj.5.1.3: Relocate links around a moved section [closed]"]
@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qj.5.1.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.6/README.md) | [bob-cli-qj.5.1.6](bob-cli-qj.5.1.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.7](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.7.md) | [bob-cli-qj.5.1.7](bob-cli-qj.5.1.7.md) | 2 |
 | [bbugyi200.apollo.bob-cli-qj.5.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qj.5.1.8/README.md) | [bob-cli-qj.5.1.8](bob-cli-qj.5.1.8.md) | 0 |
-| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 4 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 5 |
 | [bbugyi200.apollo.bob-cli-qj.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.land.md) | [bob-cli-qj](README.md) | 1 |
 
 ## Commits
@@ -135,6 +135,7 @@ flowchart TD
 | bob-cli | [`3deb0bd`](https://github.com/bobs-org/bob-cli/commit/3deb0bd3adab6014338682e56675733325ba1c24) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:29:14 EST |
 | bob-cli | [`5b2c530`](https://github.com/bobs-org/bob-cli/commit/5b2c53068ad86a0d585593f9779044281242f387) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:45:36 EST |
 | bob-cli | [`7d48b7b`](https://github.com/bobs-org/bob-cli/commit/7d48b7b2490b1cfd4aeb2ba826c66c037c9db4f0) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 17:48:38 EST |
+| bob-cli--plans | [`bob-cli--plans@5dc9923`](https://github.com/bobs-org/bob-cli--plans/commit/5dc9923375e145dc05e37e27e08e3abe45ab9b6d) | docs(plan): mark prose section extraction done | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 18:29:19 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-qj.5](bob-cli-qj.5.md) / bob-cli-qj.5.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.bob-cli-qj.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.md) · **Assignee:** `bob-cli-qj.5.1.land`
-**Created:** 2026-11-27 07:18:27 EST
+**Created:** 2026-11-27 07:18:27 EST · **Closed:** 2026-11-27 18:27:15 EST
 **Plan:** [202611/prose\_section\_extract\_inline.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_section_extract_inline.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/prose_section_extract_inline.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/prose_section_extract_inline.md
 
@@ -39,6 +39,10 @@ One Obsidian gesture turns an authored section of an area, project, or prose not
 
 [2026-11-27T20:47:13Z · bob-cli-qj.5.1.land] LANDING VERIFICATION (bob-cli-qj.5.1.land): all 8 phases closed; bob-plugins c2f73154/07c4eeb4 on origin/master (commands, Ctrl+Shift+E new_chord, Command Mode rows, marker, tests, docs); vault_rewrite trash/journal/recovery with crash tests; section_model refusals with tests; docs/host probe present; prose_catalog=no and memory_prose_section=no honored; no post-start commit conflicts with or should reuse the epic. Integration fixes made this turn: clippy (inline.rs), completion kinds for extract --expect/--line and inline --expect, root-help fixtures; just check green, docs-gen no diff, docs-check pass. REMAINING EPIC WORK found and handed to a staged tale plan (sase_plan_land_prose_sections_relocation_and_tests.md): relocate.rs canonical_fragment picks the longest fragment (inline writes owner#T#S, so L1 fails for in-note links: [[#Detail]] -> [[#Topic#Detail]]), render_note_path turns vault-rooted path wikilinks into ../ relative links, extract has zero tests, inline lacks has-children/title-dropped/rollback/crash tests, the proptest masks wikilinks, and the cdx relocation matrix is missing. The tale ends with this epic's closeout.
 
+[2026-11-27T23:26:53Z · bob-cli-qj.5.1.land--3] LANDING VERIFICATION (2026-11-27). Prior land note #6 recorded all eight phases closed, plugin integration commits on origin/master, and green just check, docs-gen with no diff, and docs-check. This closeout verifies the remaining extract/inline link-form and shortest-fragment work plus the follow-up repairs: malformed YAML test fixtures, ambiguous duplicate-heading refusal, and byte-identity assertions limited to layout-clean inputs.
+
+Current gates: just check passed (ToolRun csbstnmqnpb4, exit 0): 13,399 Rust tests passed, 0 failed, 5 ignored across all test targets. just docs-gen passed (docs_reference 1/1); inventory reports 12 plugins and 176 registered commands; git diff --exit-code is clean. Plain just docs-check first resolved a stale plugin mount and reported the cabinets URL missing. Re-running the same recipe with BOB_DOCS_BOB_PLUGINS_DIR set to the opened bob-plugins checkout passed every implemented gate: lint, generated drift, strict Zensical, published URLs (266 pages, 1,004 mentions, 65 curated links), offline lychee (0 errors), edit links (256), search smoke (136), tutorial, CLI media, and docs tests (449 passed, 1 skipped because font dependencies are absent). sase bead epic-symbols bob-cli-qj.5.1 returned no --epic-symbol entries. just symvision is unavailable because this checkout has no symvision recipe; just --list confirms that, and the epic symbol whitelist is clean with no entries. Plan 202611/prose_section_extract_inline.md is marked done. Parent phase bob-cli-qj.5 remains closed; parent epic bob-cli-qj remains in progress and was not closed.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-qw](../bob-cli-qw/README.md) ◇ · ⧖ 2026-11-27
@@ -47,7 +51,7 @@ One Obsidian gesture turns an authored section of an area, project, or prose not
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 4 |
+| [bbugyi200.apollo.bob-cli-qj.5.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qj.5.1.land.md) | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 5 |
 
 ## Commits
 
@@ -57,6 +61,7 @@ One Obsidian gesture turns an authored section of an area, project, or prose not
 | bob-cli | [`3deb0bd`](https://github.com/bobs-org/bob-cli/commit/3deb0bd3adab6014338682e56675733325ba1c24) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:29:14 EST |
 | bob-cli | [`5b2c530`](https://github.com/bobs-org/bob-cli/commit/5b2c53068ad86a0d585593f9779044281242f387) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 16:45:36 EST |
 | bob-cli | [`7d48b7b`](https://github.com/bobs-org/bob-cli/commit/7d48b7b2490b1cfd4aeb2ba826c66c037c9db4f0) | fix(prose): keep link form and shortest fragments across extract and inline | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 17:48:38 EST |
+| bob-cli--plans | [`bob-cli--plans@5dc9923`](https://github.com/bobs-org/bob-cli--plans/commit/5dc9923375e145dc05e37e27e08e3abe45ab9b6d) | docs(plan): mark prose section extraction done | [bob-cli-qj.5.1](bob-cli-qj.5.1.md) | 2026-11-27 18:29:19 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -66,6 +71,7 @@ One Obsidian gesture turns an authored section of an area, project, or prose not
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qj.5.1.land][1] | Need the epic scope, children, and linked plan file | 1 |
 | read-by | [agent:bob-cli-qj.5.1.land--1][1] | Record current land bead status and plan context before finishing verification | 1 |
+| read-by | [agent:bob-cli-qj.5.1.land--2][1] | Verify the prose extraction phase bead and prepare its closure note | 1 |
 | read-by | [agent:bob-cli-r7.1][2] | check if clean-tree clippy gate failure is already tracked | 1 |
 | read-by | [agent:bob-cli-r7.land][3] | Check whether the in-progress prose epic owns the prose extract catalog/completion test failures found while landing bob-cli-r7 | 2 |
 | read-by | [agent:bob-cli-r8.land][4] | Verify ownership of landing check failures | 1 |
