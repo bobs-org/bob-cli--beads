@@ -26,7 +26,7 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 3 |
+| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 4 |
 
 ## Commits
 
@@ -35,6 +35,7 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 | bob-plugins | [`bob-plugins@7e0ba56`](https://github.com/bobs-org/bob-plugins/commit/7e0ba5695e86ea88c4f103e682c38e342f43a701) | test(cabinets): add real Obsidian acceptance runner | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 22:14:41 EST |
 | bob-plugins | [`bob-plugins@18e6cb9`](https://github.com/bobs-org/bob-plugins/commit/18e6cb9980eb028d04f8841fea9f0cd2ac85d207) | test(cabinets): retain failed real-Obsidian acceptance evidence | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 22:48:25 EST |
 | bob-plugins | [`bob-plugins@bd1af86`](https://github.com/bobs-org/bob-plugins/commit/bd1af8607014226cc86b75845c5739032295643a) | fix(cabinets): add report fixtures and record properties stack | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 23:24:11 EST |
+| bob-plugins | [`bob-plugins@66667b1`](https://github.com/bobs-org/bob-plugins/commit/66667b1c224fd2403f0ac7ceb9d46850d091441e) | test(cabinets): preserve attempt 4 report and attempt 5 launcher | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 23:38:01 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -44,6 +45,7 @@ acceptance: build a sibling scratch-vault e2e runner. It opens the cabinets gate
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.7][1] | list epic children statuses | 1 |
 | read-by | [agent:bob-cli-qq.8--2][2] | Resume the requested real-Obsidian Cabinets acceptance and inspect current phase obligations | 1 |
+| read-by | [agent:bob-cli-qq.8--3][2] | Inspect the assigned Cabinets epic scope and its required closure workflow | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md

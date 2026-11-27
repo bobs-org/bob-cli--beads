@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/property_card_cabinets.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/property_card_cabinets.md
 
@@ -36,7 +36,7 @@ Child areas, sub-projects, notebooks, albums, and album records open as collapsi
 | [bob-cli-qq.5](bob-cli-qq.5.md) | The \`\_\` dispatch and numbered cabinet pick | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.6](bob-cli-qq.6.md) | Areas, Projects, Notebooks, and Albums cabinets on area and project cards | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [bob-cli-qq.7](bob-cli-qq.7.md) | The album Records cabinet | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [bob-cli-qq.8](bob-cli-qq.8.md) | Real-Obsidian acceptance and screenshot review with the gate open | ◐ in_progress | medium | 2026-11-26 | 1 | 3 |
+| [bob-cli-qq.8](bob-cli-qq.8.md) | Real-Obsidian acceptance and screenshot review with the gate open | ◐ in_progress | medium | 2026-11-26 | 1 | 4 |
 | [bob-cli-qq.9](bob-cli-qq.9.md) | Switch cabinets on, docs, approved memory, and clean deploy | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 
 ## Lineage
@@ -86,7 +86,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-qq.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md) | [bob-cli-qq.5](bob-cli-qq.5.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.6/README.md) | [bob-cli-qq.6](bob-cli-qq.6.md) | 1 |
 | [bbugyi200.apollo.bob-cli-qq.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md) | [bob-cli-qq.7](bob-cli-qq.7.md) | 1 |
-| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 3 |
+| [bbugyi200.apollo.bob-cli-qq.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md) | [bob-cli-qq.8](bob-cli-qq.8.md) | 4 |
 | [bbugyi200.apollo.bob-cli-qq.9](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.9/README.md) | [bob-cli-qq.9](bob-cli-qq.9.md) | 0 |
 | [bbugyi200.apollo.bob-cli-qq.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.land/README.md) | [bob-cli-qq](README.md) | 0 |
 
@@ -104,6 +104,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7e0ba56`](https://github.com/bobs-org/bob-plugins/commit/7e0ba5695e86ea88c4f103e682c38e342f43a701) | test(cabinets): add real Obsidian acceptance runner | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 22:14:41 EST |
 | bob-plugins | [`bob-plugins@18e6cb9`](https://github.com/bobs-org/bob-plugins/commit/18e6cb9980eb028d04f8841fea9f0cd2ac85d207) | test(cabinets): retain failed real-Obsidian acceptance evidence | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 22:48:25 EST |
 | bob-plugins | [`bob-plugins@bd1af86`](https://github.com/bobs-org/bob-plugins/commit/bd1af8607014226cc86b75845c5739032295643a) | fix(cabinets): add report fixtures and record properties stack | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 23:24:11 EST |
+| bob-plugins | [`bob-plugins@66667b1`](https://github.com/bobs-org/bob-plugins/commit/66667b1c224fd2403f0ac7ceb9d46850d091441e) | test(cabinets): preserve attempt 4 report and attempt 5 launcher | [bob-cli-qq.8](bob-cli-qq.8.md) | 2026-11-26 23:38:01 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -113,8 +114,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-qq.5][1] | Need epic scope for phase qq.5 | 1 |
 | read-by | [agent:bob-cli-qq.7][2] | need epic scope and sibling repo info | 2 |
+| read-by | [agent:bob-cli-qq.8--3][3] | Confirm the parent bead scope and preserve its status as requested | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.5/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-qq.7/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-qq.8.md
 
 <!-- sase:referenced-by:end -->
