@@ -32,3 +32,15 @@ ship: prove the map end to end in real Obsidian over CDP (both key routes, lifec
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@dca8452`](https://github.com/bobs-org/bob-plugins/commit/dca84529724c2fbbf8336a516e5e281fd1cfd286) | feat(navigation): prove the Section Map in real Obsidian and ship 2.107.17 | [bob-cli-rc.4](bob-cli-rc.4.md) | 2026-11-27 17:29:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rc.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rc.4/README.md
+
+<!-- sase:referenced-by:end -->
