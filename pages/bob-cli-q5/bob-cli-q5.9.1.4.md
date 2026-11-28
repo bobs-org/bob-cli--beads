@@ -25,10 +25,16 @@ mac-probe: build a probe that only the acceptance bundle can enable and that rea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.9.1.4.md) | [bob-cli-q5.9.1.4](bob-cli-q5.9.1.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.9.1.4.md) | [bob-cli-q5.9.1.4](bob-cli-q5.9.1.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@8450659`](https://github.com/bobs-org/bob-mac-capture/commit/84506599514cff20f0351ae5d31b6f8938bea04b) | feat(mac-capture): add acceptance-only snooze wake probe | [bob-cli-q5.9.1.4](bob-cli-q5.9.1.4.md) | 2026-11-27 22:20:17 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.9.1.4--1][1] | Need the phase scope, notes, and close criteria after macos-ci-check passed | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.9.1.4.md
+
+<!-- sase:referenced-by:end -->

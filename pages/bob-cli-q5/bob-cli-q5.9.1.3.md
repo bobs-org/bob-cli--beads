@@ -38,13 +38,19 @@ Verified: npm run build; node --test test-navigation-snooze-mutation-planner + t
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.9.1.9](bob-cli-q5.9.1.9.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-q5.9.1.9](bob-cli-q5.9.1.9.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.3/README.md) | [bob-cli-q5.9.1.3](bob-cli-q5.9.1.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.3/README.md) | [bob-cli-q5.9.1.3](bob-cli-q5.9.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@b23ccae`](https://github.com/bobs-org/bob-plugins/commit/b23ccaee5d23a3a59eee037a96aaa67a31ce5164) | fix(snooze): replace struck Snoozed history on re-snooze in the Obsidian planner | [bob-cli-q5.9.1.3](bob-cli-q5.9.1.3.md) | 2026-11-27 21:22:49 EST |
 
 <!-- sase:referenced-by:start -->
 

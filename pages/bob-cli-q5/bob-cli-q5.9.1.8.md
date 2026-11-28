@@ -24,3 +24,15 @@ closeout-docs: add the approved Snoozed Task glossary strand and regenerate the 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-q5.9.1.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.9.1.8.md) | [bob-cli-q5.9.1.8](bob-cli-q5.9.1.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.9.1.8--2][1] | Need the assigned phase instructions and current state before completing the requested docs verification. | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.9.1.8.md
+
+<!-- sase:referenced-by:end -->
