@@ -11,9 +11,13 @@
 
 cli-cancel: split the cancel engine's log stamp from `[cancelled::]`, and stamp every Rust Cancel writer: relation cancel, merge, offer close, gcal, and requirement drop. Regenerate the canonical shared fixtures with a `stamp` input.
 
+## Notes
+
+[2026-11-28T14:37:04Z · bob-cli-rv.3] cli-cancel: stamp writers on relation cancel, merge, offer close, gcal, and drop_req; fixtures/docs/CLI tests updated; docs-check passed; no leftover --epic-symbol entries. Host just check closes this bead.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-rv.1](bob-cli-rv.1.md) ◐ · ⧖ 2026-11-28
+- **Depends on:** [bob-cli-rv.1](bob-cli-rv.1.md) ✓ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.6](bob-cli-rv.6.md) ◐ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.7](bob-cli-rv.7.md) ◐ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.8](bob-cli-rv.8.md) ◐ · ⧖ 2026-11-28
@@ -22,4 +26,4 @@ cli-cancel: split the cancel engine's log stamp from `[cancelled::]`, and stamp 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-rv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.3/README.md) | [bob-cli-rv.3](bob-cli-rv.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-rv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.3.md) | [bob-cli-rv.3](bob-cli-rv.3.md) | 0 |

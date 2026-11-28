@@ -13,7 +13,7 @@ mac: re-copy the regenerated req_close vectors, add tests that a minute Cancel `
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rv.1](bob-cli-rv.1.md) ◐ · ⧖ 2026-11-28
+- **Depends on:** [bob-cli-rv.1](bob-cli-rv.1.md) ✓ · ⧖ 2026-11-28
 - **Depends on:** [bob-cli-rv.3](bob-cli-rv.3.md) ◐ · ⧖ 2026-11-28
 
 ## Agents

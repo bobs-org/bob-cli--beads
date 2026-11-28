@@ -13,7 +13,7 @@ cli-schedule-reopen: stamp the capture `$<N>`, `bob task reroll`, and pull-forwa
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rv.1](bob-cli-rv.1.md) ◐ · ⧖ 2026-11-28
+- **Depends on:** [bob-cli-rv.1](bob-cli-rv.1.md) ✓ · ⧖ 2026-11-28
 - **Depends on:** [bob-cli-rv.2](bob-cli-rv.2.md) ✓ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.7](bob-cli-rv.7.md) ◐ · ⧖ 2026-11-28
 
