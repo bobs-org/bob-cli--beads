@@ -26,14 +26,13 @@ card: build the time picker, ranked suggestions, consequence footer, snoozed act
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md) | [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.6.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md) | [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`9412c59`](https://github.com/bobs-org/bob-cli/commit/9412c5999e1992d8443e0457a2720033d0e11c10) | docs(snooze): document the Obsidian Snooze Card gestures and undo semantics | [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) | 2026-11-27 03:15:50 EST |
-| bob-plugins | [`bob-plugins@ad38b38`](https://github.com/bobs-org/bob-plugins/commit/ad38b38aa727c0ff7f16c810924c5a0f3583b5cd) | feat(snooze): add the Alt+Z Snooze Card and Task Card z row | [bob-cli-q5.6.1.3](bob-cli-q5.6.1.3.md) | 2026-11-27 03:16:59 EST |
 
 <!-- sase:referenced-by:start -->
 

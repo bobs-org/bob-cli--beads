@@ -25,14 +25,13 @@ planner: build the pure navigation snooze mutation planner, the narrow BIP plann
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md) | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.6.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md) | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ee21fdf`](https://github.com/bobs-org/bob-cli/commit/ee21fdff6c84c1407a21ba6aa80f442b273a7941) | test(snooze): enable JS runner for snooze vectors | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:12:17 EST |
-| bob-plugins | [`bob-plugins@143c9ca`](https://github.com/bobs-org/bob-plugins/commit/143c9ca3c65fd341f3f085fe24ca3f4f9574b9cc) | feat(snooze): add mutation planner and BIP adapter | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:13:26 EST |
 
 <!-- sase:referenced-by:start -->
 

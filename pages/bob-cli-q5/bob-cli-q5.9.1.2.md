@@ -19,7 +19,7 @@ bob-fixes: give deferred snooze reports their documented envelope, describe rela
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.9.1.8](bob-cli-q5.9.1.8.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-q5.9.1.8](bob-cli-q5.9.1.8.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-q5.9.1.9](bob-cli-q5.9.1.9.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
@@ -33,3 +33,15 @@ bob-fixes: give deferred snooze reports their documented envelope, describe rela
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`684811a`](https://github.com/bobs-org/bob-cli/commit/684811a90676b601f8c90e83fab9facc60d3ca1b) | fix(snooze): per-verb deferred envelopes, rounding wording, grammar drift docs | [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) | 2026-11-27 21:45:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.9.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.2/README.md
+
+<!-- sase:referenced-by:end -->

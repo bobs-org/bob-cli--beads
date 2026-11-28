@@ -11,6 +11,10 @@
 
 mac-probe: build a probe that only the acceptance bundle can enable and that reads and drives the live wake HUD, beacon, and records. Add wake-ID and reason metadata to snooze signposts, the missing HUD tests, and harness subcommands, including the passive lock watcher.
 
+## Notes
+
+[2026-11-28T02:49:47Z · bob-cli-q5.9.1.4] Mac scratch bundle.sh --identity - and just typecheck-tests passed on mac after HUD AX walk compile fix (NSView/NSWindow/NSAccessibilityElement) and XCTest stub accuracy/throws typecheck fixes. Staging Scripts/macos-ci-check next.
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-q5.9.1.5](bob-cli-q5.9.1.5.md) ◐ · ⧖ 2026-11-27
@@ -19,4 +23,4 @@ mac-probe: build a probe that only the acceptance bundle can enable and that rea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.4/README.md) | [bob-cli-q5.9.1.4](bob-cli-q5.9.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.9.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.9.1.4.md) | [bob-cli-q5.9.1.4](bob-cli-q5.9.1.4.md) | 0 |
