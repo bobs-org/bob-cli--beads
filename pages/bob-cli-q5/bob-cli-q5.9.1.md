@@ -75,13 +75,14 @@ epic-symbols is empty for q5.9.1 and q5.9.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.land/README.md) | [bob-cli-q5.9.1](bob-cli-q5.9.1.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.9.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.land/README.md) | [bob-cli-q5.9.1](bob-cli-q5.9.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@1d5595b`](https://github.com/bobs-org/bob-plugins/commit/1d5595b734f2047f5b172fa51f0dde583e4bae0c) | fix(snooze): keep active Snoozed row notes when a retime consumes live-link notes | [bob-cli-q5.9.1](bob-cli-q5.9.1.md) | 2026-11-28 09:59:11 EST |
+| bob-cli--plans | [`bob-cli--plans@1f82f8a`](https://github.com/bobs-org/bob-cli--plans/commit/1f82f8a1852b90e38587f809abc0d8ae7caec87a) | chore(plans): mark finish\_snoozed\_tasks\_unattended done | [bob-cli-q5.9.1](bob-cli-q5.9.1.md) | 2026-11-28 10:00:37 EST |
 
 <!-- sase:referenced-by:start -->
 
