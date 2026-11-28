@@ -43,7 +43,9 @@ cards: after bob-cli-qq.10.5 closes, mount the rail on area, project, notebook, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ra.1][1] | find cards bead for gate edge | 1 |
+| read-by | [agent:bob-cli-ra.4][2] | Confirm close status after finalizer keep on linked repo | 4 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.1/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.4/README.md
 
 <!-- sase:referenced-by:end -->

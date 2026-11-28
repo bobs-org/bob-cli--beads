@@ -43,7 +43,9 @@ rail: add the kit's card-floor helpers, step-item wrap and tooltip support, and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ra.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:bob-cli-ra.4][2] | Need rail phase notes and landed helpers before mounting rails on cards | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.4/README.md
 
 <!-- sase:referenced-by:end -->
