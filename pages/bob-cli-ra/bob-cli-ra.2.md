@@ -42,7 +42,9 @@ nav: stop matching step links inside inline code, count authored step links only
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ra.3][1] | Need nav phase status for rail dependency | 1 |
+| read-by | [agent:bob-cli-ra.6][2] | Need nav-phase recorded walkMode/navGroups shape for docs | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md
 
 <!-- sase:referenced-by:end -->

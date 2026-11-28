@@ -42,9 +42,11 @@ docs: after bob-cli-qq.10.6 closes, document the tree route, the walk rules, and
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-ra.1][1] | find docs bead for gate edge | 1 |
-| read-by | [agent:g7.f1--code][2] | Check whether ra.6 is still open and whether we must wait | 1 |
+| read-by | [agent:bob-cli-ra.6][2] | Need notes and remaining work from any earlier agent | 3 |
+| read-by | [agent:g7.f1--code][3] | Check whether ra.6 is still open and whether we must wait | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.1/README.md
-[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.g7.f1.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.g7.f1.md
 
 <!-- sase:referenced-by:end -->
