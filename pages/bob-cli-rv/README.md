@@ -30,10 +30,10 @@ Every new Schedule, Rotten, Cancel, and Reopen Log entry, from every bob-cli and
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [bob-cli-rv.1](bob-cli-rv.1.md) | bob-cli readers, recall, and snapshot accept stamps | ✓ closed | medium | 2026-11-28 | 1 | 1 |
-| [bob-cli-rv.2](bob-cli-rv.2.md) | Plugin Rotten and Schedule readers and recall bands accept stamps | ✓ closed | medium | 2026-11-28 | 1 | 1 |
-| [bob-cli-rv.3](bob-cli-rv.3.md) | bob-cli Cancel Log writers stamp entries | ◐ in_progress | medium | 2026-11-28 | 1 | 0 |
+| [bob-cli-rv.2](bob-cli-rv.2.md) | Plugin Rotten and Schedule readers and recall bands accept stamps | ✓ closed | medium | 2026-11-28 | 1 | 0 |
+| [bob-cli-rv.3](bob-cli-rv.3.md) | bob-cli Cancel Log writers stamp entries | ◐ in_progress | medium | 2026-11-28 | 1 | 1 |
 | [bob-cli-rv.4](bob-cli-rv.4.md) | bob-cli Schedule and Reopen Log writers stamp entries | ◐ in_progress | medium | 2026-11-28 | 1 | 0 |
-| [bob-cli-rv.5](bob-cli-rv.5.md) | Navigation hotkeys stamp Rotten and Schedule entries | ◐ in_progress | medium | 2026-11-28 | 1 | 1 |
+| [bob-cli-rv.5](bob-cli-rv.5.md) | Navigation hotkeys stamp Rotten and Schedule entries | ◐ in_progress | medium | 2026-11-28 | 1 | 0 |
 | [bob-cli-rv.6](bob-cli-rv.6.md) | Navigation hotkeys stamp Cancel entries | ◐ in_progress | medium | 2026-11-28 | 1 | 0 |
 | [bob-cli-rv.7](bob-cli-rv.7.md) | Cycler and Block ID Prompt stamp their entries; requirement twins follow bob-cli | ◐ in_progress | medium | 2026-11-28 | 1 | 0 |
 | [bob-cli-rv.8](bob-cli-rv.8.md) | Bob Mac Capture re-syncs fixtures and pins minute recall ages | ◐ in_progress | small | 2026-11-28 | 1 | 0 |
@@ -82,10 +82,10 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.bob-cli-rv.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.1.md) | [bob-cli-rv.1](bob-cli-rv.1.md) | 1 |
-| [bbugyi200.athena.bob-cli-rv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.2/README.md) | [bob-cli-rv.2](bob-cli-rv.2.md) | 1 |
-| [bbugyi200.athena.bob-cli-rv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.3.md) | [bob-cli-rv.3](bob-cli-rv.3.md) | 0 |
+| [bbugyi200.athena.bob-cli-rv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.2/README.md) | [bob-cli-rv.2](bob-cli-rv.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-rv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.3.md) | [bob-cli-rv.3](bob-cli-rv.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-rv.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.4/README.md) | [bob-cli-rv.4](bob-cli-rv.4.md) | 0 |
-| [bbugyi200.athena.bob-cli-rv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.5.md) | [bob-cli-rv.5](bob-cli-rv.5.md) | 1 |
+| [bbugyi200.athena.bob-cli-rv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.5.md) | [bob-cli-rv.5](bob-cli-rv.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-rv.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.6/README.md) | [bob-cli-rv.6](bob-cli-rv.6.md) | 0 |
 | [bbugyi200.athena.bob-cli-rv.7](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.7/README.md) | [bob-cli-rv.7](bob-cli-rv.7.md) | 0 |
 | [bbugyi200.athena.bob-cli-rv.8](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.8/README.md) | [bob-cli-rv.8](bob-cli-rv.8.md) | 0 |
@@ -96,9 +96,8 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| bob-plugins | [`bob-plugins@d55ba76`](https://github.com/bobs-org/bob-plugins/commit/d55ba7601f39d3f6526a26ae42c59e6cbc306aa5) | feat(plugins): accept stamped Rotten and Schedule entries in readers and recall bands | [bob-cli-rv.2](bob-cli-rv.2.md) | 2026-11-28 08:49:58 EST |
 | bob-cli | [`08165ed`](https://github.com/bobs-org/bob-cli/commit/08165ed9cafa838a079eb5ca18acead319f9fcc8) | feat(logs)!: accept stamped task-log readers | [bob-cli-rv.1](bob-cli-rv.1.md) | 2026-11-28 08:51:29 EST |
-| bob-plugins | [`bob-plugins@9c4e777`](https://github.com/bobs-org/bob-plugins/commit/9c4e7775da5596a5fc04444138b4c14bb92ddb3f) | feat(navigation): stamp Rotten and Schedule logs | [bob-cli-rv.5](bob-cli-rv.5.md) | 2026-11-28 09:47:26 EST |
+| bob-cli | [`400a240`](https://github.com/bobs-org/bob-cli/commit/400a240259c4da26f31a0c6a7fa33c6bd130f356) | feat(cancel)!: stamp Cancel Log entries at the write minute | [bob-cli-rv.3](bob-cli-rv.3.md) | 2026-11-28 10:08:44 EST |
 
 <!-- sase:referenced-by:start -->
 

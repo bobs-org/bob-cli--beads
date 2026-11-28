@@ -21,10 +21,4 @@ nav-rotten-schedule: add the generic plugin stamp formatter. Stamp every bob-nav
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-rv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.5.md) | [bob-cli-rv.5](bob-cli-rv.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@9c4e777`](https://github.com/bobs-org/bob-plugins/commit/9c4e7775da5596a5fc04444138b4c14bb92ddb3f) | feat(navigation): stamp Rotten and Schedule logs | [bob-cli-rv.5](bob-cli-rv.5.md) | 2026-11-28 09:47:26 EST |
+| [bbugyi200.athena.bob-cli-rv.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.5.md) | [bob-cli-rv.5](bob-cli-rv.5.md) | 0 |
