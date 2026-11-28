@@ -36,7 +36,7 @@ On area, project, notebook, and prose notes, `[n` / `]n` step through the note's
 | [bob-cli-ra.3](bob-cli-ra.3.md) | Rail kit polish, the card-floor helper, and the tree rail adapter | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-ra.4](bob-cli-ra.4.md) | The rail on every tree card and the card-floor invariant | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-ra.5](bob-cli-ra.5.md) | Real-Obsidian link-walk acceptance with screenshot review | ✓ closed | medium | 2026-11-27 | 1 | 5 |
-| [bob-cli-ra.6](bob-cli-ra.6.md) | Plugin docs, the link-walk glossary term, and approved memory | ✓ closed | medium | 2026-11-27 | 1 | 1 |
+| [bob-cli-ra.6](bob-cli-ra.6.md) | Plugin docs, the link-walk glossary term, and approved memory | ✓ closed | medium | 2026-11-27 | 1 | 2 |
 
 ## Lineage
 
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ra.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.3/README.md) | [bob-cli-ra.3](bob-cli-ra.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ra.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.4/README.md) | [bob-cli-ra.4](bob-cli-ra.4.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ra.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.5/README.md) | [bob-cli-ra.5](bob-cli-ra.5.md) | 5 |
-| [bbugyi200.apollo.bob-cli-ra.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md) | [bob-cli-ra.6](bob-cli-ra.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ra.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md) | [bob-cli-ra.6](bob-cli-ra.6.md) | 2 |
 | [bbugyi200.apollo.bob-cli-ra.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.land/README.md) | [bob-cli-ra](README.md) | 0 |
 
 ## Commits
@@ -89,6 +89,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@145b4a3`](https://github.com/bobs-org/bob-plugins/commit/145b4a3d1ed88c1cabe78029ab9b6a08c3eff695) | test(acceptance): record stale rail notice evidence | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-27 20:10:16 EST |
 | bob-plugins | [`bob-plugins@d0ddd12`](https://github.com/bobs-org/bob-plugins/commit/d0ddd12c61c09a511d6eb32ea76a51361d6cc099) | fix(ledger-tools): name parents on narrow tree group arms and reach tree-walk acceptance GO | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-28 06:47:43 EST |
 | bob-cli | [`518b29f`](https://github.com/bobs-org/bob-cli/commit/518b29fe70ef3f93b47fb4d4a51e63fa86c5bbd2) | docs(memory): add link-walk glossary and sibling-ring decision | [bob-cli-ra.6](bob-cli-ra.6.md) | 2026-11-28 07:08:08 EST |
+| bob-plugins | [`bob-plugins@a6f7691`](https://github.com/bobs-org/bob-plugins/commit/a6f7691e0184b4b57dd0c0323a4a2902faf3c71d) | docs: document tree-note link walks and the card-floor rail | [bob-cli-ra.6](bob-cli-ra.6.md) | 2026-11-28 07:08:42 EST |
 
 <!-- sase:referenced-by:start -->
 

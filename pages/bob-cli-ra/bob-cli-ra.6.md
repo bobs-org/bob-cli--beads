@@ -26,13 +26,14 @@ docs: after bob-cli-qq.10.6 closes, document the tree route, the walk rules, and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ra.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md) | [bob-cli-ra.6](bob-cli-ra.6.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ra.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md) | [bob-cli-ra.6](bob-cli-ra.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`518b29f`](https://github.com/bobs-org/bob-cli/commit/518b29fe70ef3f93b47fb4d4a51e63fa86c5bbd2) | docs(memory): add link-walk glossary and sibling-ring decision | [bob-cli-ra.6](bob-cli-ra.6.md) | 2026-11-28 07:08:08 EST |
+| bob-plugins | [`bob-plugins@a6f7691`](https://github.com/bobs-org/bob-plugins/commit/a6f7691e0184b4b57dd0c0323a4a2902faf3c71d) | docs: document tree-note link walks and the card-floor rail | [bob-cli-ra.6](bob-cli-ra.6.md) | 2026-11-28 07:08:42 EST |
 
 <!-- sase:referenced-by:start -->
 
