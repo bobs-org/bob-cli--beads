@@ -26,13 +26,7 @@ bob-fixes: give deferred snooze reports their documented envelope, describe rela
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.2/README.md) | [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`684811a`](https://github.com/bobs-org/bob-cli/commit/684811a90676b601f8c90e83fab9facc60d3ca1b) | fix(snooze): per-verb deferred envelopes, rounding wording, grammar drift docs | [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) | 2026-11-27 21:45:57 EST |
+| [bbugyi200.athena.bob-cli-q5.9.1.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.2/README.md) | [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

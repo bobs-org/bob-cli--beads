@@ -14,7 +14,7 @@ mac-accept: rebuild the harness in place at the probe SHA. Run delivery, routing
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.9.1.1](bob-cli-q5.9.1.1.md) ✓ · ⧖ 2026-11-27
-- **Depends on:** [bob-cli-q5.9.1.4](bob-cli-q5.9.1.4.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-q5.9.1.4](bob-cli-q5.9.1.4.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [bob-cli-q5.9.1.6](bob-cli-q5.9.1.6.md) ◐ · ⧖ 2026-11-27
 
 ## Agents

@@ -13,8 +13,11 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| related | file:explicit:2cad5d83476cfe0462f4aac7 | attached via sase artifact create --bead |
+| related | file:explicit:341321c558dbc5d6e9b817a4 | attached via sase artifact create --bead |
 | related | file:explicit:837ae5c4646af6ac95e9bc57 | attached via sase artifact create --bead |
 | related | file:explicit:9ffe09238dc3bae2b590cfcf | attached via sase artifact create --bead |
+| related | file:explicit:c29798712024f8949b31bd43 | attached via sase artifact create --bead |
 | related | file:explicit:d3accb5b7ce1fe96ccd61d44 | attached via sase artifact create --bead |
 
 <!-- sase:links:end -->
