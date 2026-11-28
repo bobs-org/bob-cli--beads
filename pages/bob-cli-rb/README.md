@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/capture_type_leads.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/capture_type_leads.md
 
@@ -32,7 +32,7 @@ Accepting a configured task type from the Capture panel's `#` menu at the start 
 | [bob-cli-rb.1](bob-cli-rb.1.md) | bob-cli capture.type\_leads loader, bob types surfacing, rename guard | ✓ closed | medium | 2026-11-27 | 1 | 2 |
 | [bob-cli-rb.2](bob-cli-rb.2.md) | bob-cli task\_type candidates carry an optional lead | ✓ closed | medium | 2026-11-27 | 1 | 2 |
 | [bob-cli-rb.3](bob-cli-rb.3.md) | Mac decodes the lead and previews it in the Task type menu | ✓ closed | small | 2026-11-27 | 1 | 1 |
-| [bob-cli-rb.4](bob-cli-rb.4.md) | Mac inserts the lead undoably, peels it with one Backspace, skips it on ⌘↩ | ◐ in_progress | medium | 2026-11-27 | 1 | 1 |
+| [bob-cli-rb.4](bob-cli-rb.4.md) | Mac inserts the lead undoably, peels it with one Backspace, skips it on ⌘↩ | ◐ in_progress | medium | 2026-11-27 | 1 | 2 |
 | [bob-cli-rb.5](bob-cli-rb.5.md) | Enable the five leads in chezmoi and verify end to end | ◐ in_progress | small | 2026-11-27 | 1 | 0 |
 
 ## Lineage
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-rb.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rb.1.md) | [bob-cli-rb.1](bob-cli-rb.1.md) | 2 |
 | [bbugyi200.athena.bob-cli-rb.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.2/README.md) | [bob-cli-rb.2](bob-cli-rb.2.md) | 2 |
 | [bbugyi200.athena.bob-cli-rb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.3/README.md) | [bob-cli-rb.3](bob-cli-rb.3.md) | 1 |
-| [bbugyi200.athena.bob-cli-rb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rb.4.md) | [bob-cli-rb.4](bob-cli-rb.4.md) | 1 |
+| [bbugyi200.athena.bob-cli-rb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rb.4.md) | [bob-cli-rb.4](bob-cli-rb.4.md) | 2 |
 | [bbugyi200.athena.bob-cli-rb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.5/README.md) | [bob-cli-rb.5](bob-cli-rb.5.md) | 0 |
 | [bbugyi200.athena.bob-cli-rb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.land/README.md) | [bob-cli-rb](README.md) | 0 |
 
@@ -78,6 +78,7 @@ flowchart TD
 | bob-plugins | `bob-plugins@bd6a5fe` | feat(capture): task\_type lead completion with eligibility gates and parser probe | [bob-cli-rb.2](bob-cli-rb.2.md) | 2026-11-27 17:18:25 EST |
 | bob-mac-capture | [`bob-mac-capture@1a5723d`](https://github.com/bobs-org/bob-mac-capture/commit/1a5723d2239eb2920483e9fa6770beacdd5911d4) | feat(capture): preview task type leads | [bob-cli-rb.3](bob-cli-rb.3.md) | 2026-11-27 17:38:38 EST |
 | bob-mac-capture | [`bob-mac-capture@1e83e9c`](https://github.com/bobs-org/bob-mac-capture/commit/1e83e9ce1bc1482648ed761af26175880b3c52b6) | feat(capture): insert task type leads as two native undo groups | [bob-cli-rb.4](bob-cli-rb.4.md) | 2026-11-27 18:23:44 EST |
+| bob-mac-capture | [`bob-mac-capture@4192581`](https://github.com/bobs-org/bob-mac-capture/commit/4192581edaa73d079bf081a2d82c806b852cb3df) | feat(capture): insert task type leads as two native undo groups | [bob-cli-rb.4](bob-cli-rb.4.md) | 2026-11-27 19:01:25 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -86,7 +87,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-re.2][1] | Check whether this tracks the type_leads lib test failures | 1 |
+| read-by | [agent:bob-cli-re.land][2] | Confirm task status for epic landing | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-re.land/README.md
 
 <!-- sase:referenced-by:end -->
