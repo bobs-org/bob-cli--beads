@@ -25,4 +25,10 @@ cli-schedule-reopen: stamp the capture `$<N>`, `bob task reroll`, and pull-forwa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-rv.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.4/README.md) | [bob-cli-rv.4](bob-cli-rv.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-rv.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.4/README.md) | [bob-cli-rv.4](bob-cli-rv.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-cli | [`e1ecaaf`](https://github.com/bobs-org/bob-cli/commit/e1ecaafc8b5f30da94e17d6175393c2999dd66a8) | feat(capture)!: stamp Schedule and Reopen log entries with the run minute | [bob-cli-rv.4](bob-cli-rv.4.md) | 2026-11-28 10:44:32 EST |
