@@ -13,7 +13,7 @@ closeout-docs: add the approved Snoozed Task glossary strand and regenerate the 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

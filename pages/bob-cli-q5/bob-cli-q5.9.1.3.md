@@ -18,6 +18,8 @@
 | related | file:explicit:911c05c5ff222ecee2d83ad0 | attached via sase artifact create --bead |
 | related | file:explicit:a41139bbc36016e4710d695a | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -42,10 +44,16 @@ Verified: npm run build; node --test test-navigation-snooze-mutation-planner + t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.3/README.md) | [bob-cli-q5.9.1.3](bob-cli-q5.9.1.3.md) | 1 |
+| [bbugyi200.athena.bob-cli-q5.9.1.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.3/README.md) | [bob-cli-q5.9.1.3](bob-cli-q5.9.1.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-plugins | [`bob-plugins@b23ccae`](https://github.com/bobs-org/bob-plugins/commit/b23ccaee5d23a3a59eee037a96aaa67a31ce5164) | fix(snooze): replace struck Snoozed history on re-snooze in the Obsidian planner | [bob-cli-q5.9.1.3](bob-cli-q5.9.1.3.md) | 2026-11-27 21:22:49 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.9.1.3][1] | Need the phase scope, notes, design file, and epic DECISIONS | 2 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.3/README.md
+
+<!-- sase:referenced-by:end -->

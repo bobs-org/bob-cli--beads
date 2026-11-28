@@ -13,7 +13,7 @@ e2e: run every bob and Obsidian acceptance case against the current masters, on 
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-q5.9.1.2](bob-cli-q5.9.1.2.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-q5.9.1.3](bob-cli-q5.9.1.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
