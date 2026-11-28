@@ -20,10 +20,23 @@ acceptance: add a scratch-vault runner for all eight keys on all four types, che
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.bob-cli-ra.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.5.md) | [bob-cli-ra.5](bob-cli-ra.5.md) | 1 |
+| [bbugyi200.apollo.bob-cli-ra.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.5.md) | [bob-cli-ra.5](bob-cli-ra.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@7843342`](https://github.com/bobs-org/bob-plugins/commit/7843342216c269079fece729db68c33b175793e3) | test(acceptance): add real tree-walk Obsidian runner | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-27 19:04:46 EST |
+| bob-plugins | [`bob-plugins@d83ffbe`](https://github.com/bobs-org/bob-plugins/commit/d83ffbebad69e1ec9e5ce8d8661648fbcb5a696d) | fix(test): scope tree-walk long-task samples | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-27 19:32:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:g7.f1--code][1] | Check whether ra.5 closed and landed the tree-walk runner we just fetched | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.g7.f1.md
+
+<!-- sase:referenced-by:end -->
