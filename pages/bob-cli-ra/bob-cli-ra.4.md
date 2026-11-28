@@ -22,7 +22,7 @@ cards: after bob-cli-qq.10.5 closes, mount the rail on area, project, notebook, 
 - **Depends on:** [bob-cli-qq.10.5](../bob-cli-qq/bob-cli-qq.10.5.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-ra.2](bob-cli-ra.2.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [bob-cli-ra.3](bob-cli-ra.3.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-ra.5](bob-cli-ra.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-ra.5](bob-cli-ra.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

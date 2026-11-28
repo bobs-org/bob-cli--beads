@@ -14,7 +14,7 @@ docs: after bob-cli-qq.10.6 closes, document the tree route, the walk rules, and
 ## Dependencies
 
 - **Depends on:** [bob-cli-qq.10.6](../bob-cli-qq/bob-cli-qq.10.6.md) ✓ · ⧖ 2026-11-27
-- **Depends on:** [bob-cli-ra.5](bob-cli-ra.5.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-ra.5](bob-cli-ra.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
