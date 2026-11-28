@@ -13,7 +13,7 @@ cycler-bip: stamp task-status-cycler's unblock Schedule entry, its planCancel ca
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rv.3](bob-cli-rv.3.md) ◐ · ⧖ 2026-11-28
+- **Depends on:** [bob-cli-rv.3](bob-cli-rv.3.md) ✓ · ⧖ 2026-11-28
 - **Depends on:** [bob-cli-rv.4](bob-cli-rv.4.md) ◐ · ⧖ 2026-11-28
 - **Depends on:** [bob-cli-rv.6](bob-cli-rv.6.md) ◐ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.9](bob-cli-rv.9.md) ◐ · ⧖ 2026-11-28

@@ -17,10 +17,10 @@ cli-readers: add the shared Rust stamp formatter and parser. Teach `bob logs` (p
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-rv.3](bob-cli-rv.3.md) ◐ · ⧖ 2026-11-28
+- **Blocks:** [bob-cli-rv.3](bob-cli-rv.3.md) ✓ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.4](bob-cli-rv.4.md) ◐ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.5](bob-cli-rv.5.md) ◐ · ⧖ 2026-11-28
-- **Blocks:** [bob-cli-rv.8](bob-cli-rv.8.md) ◐ · ⧖ 2026-11-28
+- **Blocks:** [bob-cli-rv.8](bob-cli-rv.8.md) ✓ · ⧖ 2026-11-28
 
 ## Agents
 

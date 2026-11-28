@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-rv](README.md) / bob-cli-rv.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ho](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1ho.md) · **Assignee:** `bob-cli-rv.3` · **Size:** medium
-**Created:** 2026-11-28 08:22:27 EST
+**Created:** 2026-11-28 08:22:27 EST · **Closed:** 2026-11-28 10:09:09 EST
 **Plan:** [202611/task\_log\_datetime\_stamps.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/task_log_datetime_stamps.md)
 
 ## Description
@@ -15,12 +15,14 @@ cli-cancel: split the cancel engine's log stamp from `[cancelled::]`, and stamp 
 
 [2026-11-28T14:37:04Z · bob-cli-rv.3] cli-cancel: stamp writers on relation cancel, merge, offer close, gcal, and drop_req; fixtures/docs/CLI tests updated; docs-check passed; no leftover --epic-symbol entries. Host just check closes this bead.
 
+[2026-11-28T15:09:09Z · bob-cli-rv.3--1] Closed by explicit `sase stitch create -B close` after create_commit landed 400a2402 ("feat(cancel)!: stamp Cancel Log entries at the write minute"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open bob-cli-rv.3` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-rv.1](bob-cli-rv.1.md) ✓ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.6](bob-cli-rv.6.md) ◐ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.7](bob-cli-rv.7.md) ◐ · ⧖ 2026-11-28
-- **Blocks:** [bob-cli-rv.8](bob-cli-rv.8.md) ◐ · ⧖ 2026-11-28
+- **Blocks:** [bob-cli-rv.8](bob-cli-rv.8.md) ✓ · ⧖ 2026-11-28
 
 ## Agents
 
@@ -33,3 +35,15 @@ cli-cancel: split the cancel engine's log stamp from `[cancelled::]`, and stamp 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`400a240`](https://github.com/bobs-org/bob-cli/commit/400a240259c4da26f31a0c6a7fa33c6bd130f356) | feat(cancel)!: stamp Cancel Log entries at the write minute | [bob-cli-rv.3](bob-cli-rv.3.md) | 2026-11-28 10:08:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-rv.3--1][1] | Need the phase scope, notes, and remaining work after host completion failure | 1 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.3.md
+
+<!-- sase:referenced-by:end -->

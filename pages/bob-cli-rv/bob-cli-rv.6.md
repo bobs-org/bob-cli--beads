@@ -13,7 +13,7 @@ nav-cancel: split nav's cancel planners' stamp from `[cancelled::]`. Add an opti
 
 ## Dependencies
 
-- **Depends on:** [bob-cli-rv.3](bob-cli-rv.3.md) ◐ · ⧖ 2026-11-28
+- **Depends on:** [bob-cli-rv.3](bob-cli-rv.3.md) ✓ · ⧖ 2026-11-28
 - **Depends on:** [bob-cli-rv.5](bob-cli-rv.5.md) ◐ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.7](bob-cli-rv.7.md) ◐ · ⧖ 2026-11-28
 
