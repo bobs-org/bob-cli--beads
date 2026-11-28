@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.bob-cli-rb.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.3/README.md) | [bob-cli-rb.3](bob-cli-rb.3.md) | 1 |
 | [bbugyi200.athena.bob-cli-rb.4](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rb.4.md) | [bob-cli-rb.4](bob-cli-rb.4.md) | 4 |
 | [bbugyi200.athena.bob-cli-rb.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rb.5.md) | [bob-cli-rb.5](bob-cli-rb.5.md) | 1 |
-| [bbugyi200.athena.bob-cli-rb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.land/README.md) | [bob-cli-rb](README.md) | 2 |
+| [bbugyi200.athena.bob-cli-rb.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rb.land/README.md) | [bob-cli-rb](README.md) | 3 |
 
 ## Commits
 
@@ -88,6 +88,7 @@ flowchart TD
 | chezmoi | [`chezmoi@be8a467`](https://github.com/bbugyi200/dotfiles/commit/be8a467677057393a42bd39fa4bdabcf1f981201) | feat(bob): enable capture type leads for BUILD FIX PLAN READ WRITE | [bob-cli-rb.5](bob-cli-rb.5.md) | 2026-11-27 20:44:35 EST |
 | bob-cli | [`49d955e`](https://github.com/bobs-org/bob-cli/commit/49d955ef618bd06b7421ef3cb9627ca180ad1f86) | refactor(capture): gate type leads on new leading markers at the call site | [bob-cli-rb](README.md) | 2026-11-27 21:12:06 EST |
 | bob-plugins | `bob-plugins@49d955e` | refactor(capture): gate type leads on new leading markers at the call site | [bob-cli-rb](README.md) | 2026-11-27 21:12:06 EST |
+| bob-cli--plans | [`bob-cli--plans@b8b0386`](https://github.com/bobs-org/bob-cli--plans/commit/b8b038675b3207417d3f8b1b13044e97514fc25a) | docs(plans): mark capture\_type\_leads done after bob-cli-rb landed | [bob-cli-rb](README.md) | 2026-11-27 21:12:44 EST |
 
 <!-- sase:referenced-by:start -->
 
