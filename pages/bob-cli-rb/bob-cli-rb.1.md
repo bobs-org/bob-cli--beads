@@ -20,7 +20,7 @@ lead_config: add the deploy-safe `capture.type_leads` loader with parser-probe v
 ## Dependencies
 
 - **Blocks:** [bob-cli-rb.2](bob-cli-rb.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-rb.5](bob-cli-rb.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-rb.5](bob-cli-rb.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
