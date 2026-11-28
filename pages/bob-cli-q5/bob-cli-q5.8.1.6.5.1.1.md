@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.8.1.6.5.1](bob-cli-q5.8.1.6.5.1.md) / bob-cli-q5.8.1.6.5.1.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.8.1.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.md) · **Assignee:** `bob-cli-q5.8.1.6.5.1.1` · **Size:** medium
-**Created:** 2026-11-27 06:59:00 EST
+**Created:** 2026-11-27 06:59:00 EST · **Closed:** 2026-11-27 17:14:59 EST
 **Plan:** [202611/mac\_wake\_notice\_acceptance.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_wake_notice_acceptance.md)
 
 ## Description
@@ -47,6 +47,10 @@ harness: settle master exact-SHA CI for ba213181, then build a scratch Bob Mac C
 
 [2026-11-27T15:13:35Z · bob-cli-q5.8.1.6.5.1.1] NEXT ROUND (2026-11-27 ~10:13 EST): the SettingsScrollContainerTests fix lands on bob-mac-capture master at this turn end, and monitor m0brg8 watches that exact-SHA master CI. On green, the successor guards and re-adopts if needed, rebuilds the harness from the new SHA (down, git archive to /tmp/harness-src, up --sha), then asks Bryan one round: Enable Notifications + Send Test Notification in the Accept Settings, the Ctrl-Shift-Cmd-I production hotkey check, and the cause of the production reinstalls. Then it runs the smoke wake. The Mac was offline (SSH timeout) at ~10:10 EST; the last guard was ok:true at ~09:27 EST (prod 35292, scratch 14542).
 
+[2026-11-27T15:36:13Z · bob-cli-q5.8.1.6.5.1.1--1] CI 2026-11-27 ~10:35 EST: master 4053b19e (SettingsScrollContainerTests over-release fix) CI 46023087406 attempt 1 is RED, but not from the fix. All 7 SettingsScrollContainerTests tests pass, there is no crash, and the suite ran to the end (5539 tests, 5 failures across 2 tests). The two failures are known timing flakes: (1) CaptureRelatedLaneTests.testRapidEditsAreDebouncedAndTheSettingSuppressesTheLane got 2 capture-related calls, not 1 (lines 88/94), tracked by bob-cli-hu; (2) CaptureAliasTipPanelTests.testEditingTheSigilAfterItShowsClearsTheTipRow timed out waiting for the tip
+
+… and 51011 more characters
+
 ## Dependencies
 
 - **Blocks:** [bob-cli-q5.8.1.6.5.1.2](bob-cli-q5.8.1.6.5.1.2.md) ◐ · ⧖ 2026-11-27
@@ -55,14 +59,7 @@ harness: settle master exact-SHA CI for ba213181, then build a scratch Bob Mac C
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1.md) | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@2253dec`](https://github.com/bobs-org/bob-mac-capture/commit/2253dec0ae519fb9c0f358fcd4ada2781bbffec2) | feat(harness): add isolated Mac wake-notice acceptance script | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 2026-11-27 07:17:42 EST |
-| bob-mac-capture | [`bob-mac-capture@4053b19`](https://github.com/bobs-org/bob-mac-capture/commit/4053b19e09f9cf0f7f2a2a81095884a2342546a3) | fix(test): stop over-releasing extra windows in SettingsScrollContainerTests | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 2026-11-27 10:14:14 EST |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1.md) | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -70,8 +67,11 @@ harness: settle master exact-SHA CI for ba213181, then build a scratch Bob Mac C
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:bob-cli-q5.8.1.6.5.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:1h9--code][1] | Check harness phase ownership before touching harness | 2 |
+| read-by | [agent:bob-cli-q5.8.1.6.5.1.1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:bob-cli-q5.8.1.6.5.1.1--8][2] | Need phase scope, design, and latest notes to continue after Bryan's Held-reason answers | 1 |
 
-[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1.md
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.1h9.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1.md
 
 <!-- sase:referenced-by:end -->

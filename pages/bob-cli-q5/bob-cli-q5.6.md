@@ -57,7 +57,9 @@ Deploy: bob plugins sync --repo <bob-plugins checkout> --no-pull (no -F). 4 copi
 | read-by | [agent:bob-cli-q5.6.1.land][1] | Need the parent phase scope for the landing tale closeout | 1 |
 | read-by | [agent:bob-cli-q5.6.1.land--1][1] | Verify the newly attached acceptance evidence and closeout state | 2 |
 | read-by | [agent:bob-cli-q5.6.1.land--3][1] | Final status: verify phase is closed with complete fresh results and source/deployment record | 3 |
+| read-by | [agent:bob-cli-r7.land][2] | Check notes for resnooze vector failure | 3 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-r7.land.md
 
 <!-- sase:referenced-by:end -->

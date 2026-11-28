@@ -11,6 +11,10 @@
 
 meetings-actions: on the harness, run checks 3 and 4: running and overlapping meetings hold until their real end and filter tasks changed during the hold; Open and batch +15m work, partial and refused writes stay truthful, hover pauses the countdown, and focus stays in the original app.
 
+## Notes
+
+[2026-11-28T02:08:11Z · bob-cli-q5.9.1.1] BRYAN DIRECTIVE (2026-11-27): Do not ask Bryan to verify, observe, act, or answer further questions for the snooze acceptance or close-out. Replace human observation with the machine-evidence standard in plan:202611/finish_snoozed_tasks_unattended.md; record residuals where behavior cannot be proven. The nine-question round-2 gate d66607cd-82c3-48c3-ad38-3cf618c2e27f was canceled without a response by takeover phase bob-cli-q5.9.1.1.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.8.1.6.5.1.2](bob-cli-q5.8.1.6.5.1.2.md) ◐ · ⧖ 2026-11-27

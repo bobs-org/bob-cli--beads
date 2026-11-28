@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/snooze_card.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/bobs-org/bob-cli--plans/blob/main/202611/snooze_card.md
 
@@ -53,14 +53,15 @@ Fresh gates: bob-plugins npm run build:check passed (exit 0); npm run docs:inven
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2 |
+| [bbugyi200.athena.bob-cli-q5.6.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md) | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 3 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| bob-plugins | [`bob-plugins@56baeb9`](https://github.com/bobs-org/bob-plugins/commit/56baeb9f44ca51df41a8a0fb00889c83d2510e28) | test(snooze): repair Snooze Card unit expectations and add Task Card z dispatch coverage | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 07:06:19 EST |
 | bob-cli | [`064fc51`](https://github.com/bobs-org/bob-cli/commit/064fc51ef361bb0628aa2d9f16bb10f9ef74f7d9) | docs(snooze): document Snooze Card gestures and undo | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:57:14 EST |
-| bob-plugins | `bob-plugins@064fc51` | docs(snooze): document Snooze Card gestures and undo | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:57:14 EST |
+| bob-plugins | [`bob-plugins@99458bd`](https://github.com/bobs-org/bob-plugins/commit/99458bd94059558a225826c87a042b7d968b2ee5) | feat(snooze): complete card facts and acceptance fixes | [bob-cli-q5.6.1](bob-cli-q5.6.1.md) | 2026-11-27 08:58:24 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -74,10 +75,12 @@ Fresh gates: bob-plugins npm run build:check passed (exit 0); npm run docs:inven
 | read-by | [agent:bob-cli-q5.6.1.land--1][3] | Need approved Snooze Card task and phase closeout scope, dependencies, and earlier triage note | 2 |
 | read-by | [agent:bob-cli-q5.6.1.land--3][3] | Verify attached E2E and screenshots before Snooze Card closeout | 2 |
 | read-by | [agent:bob-cli-qi.land][4] | Check whether the two nav-hotkeys npm failures are already recorded on the causing epic | 1 |
+| read-by | [agent:bob-cli-r7.land][5] | Check whether the snooze epic already tracks the resnooze-replaces-history JS vector failure | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qi.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-r7.land.md
 
 <!-- sase:referenced-by:end -->

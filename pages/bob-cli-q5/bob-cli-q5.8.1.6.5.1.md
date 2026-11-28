@@ -31,6 +31,8 @@ Close bob-cli-q5.8.1.6.5 by running the six end-to-end wake-notice checks on the
 
 [2026-11-27T12:16:47Z · bob-cli-q5.8.1.6.5.1.1] Harness up+guard green 2026-11-27 ~07:20 EST. Scripts/snooze-accept.sh committed-branch per harness_home=commit (sha256 3c99d10f1786914b129639190bd9606d3f55dc6e3e2943d26c1f3a8451109884, wired into justfile docs-test bash -n; just check-scripts exit 0 on athena; shellcheck clean). Mac /tmp/harness-src = git-archive ba213181 + identical script bytes. up --sha ba213181: bundle built, ad-hoc signed, bundle ID org.bobs.bob-mac-capture.accept verified via PlistBuddy; accept domain seeded (bobDirectory=/tmp/bob-wake-accept/vault, all four hotkeys false); vault confirm: wake_notice_version 1 + realpath vault_root match. Scratch PID 28630 with XDG_STATE_HOME+BOB_DIR env verified via ps -E; claim app org.bobs.bob-mac-capture.accept pid 28630 live; signpost stream alive; guard ok:true. Production PID recorded 39430 (was 65214 at 07:04; changed independently, harness only reads it); production claim pid 39430 live; production domain has no bobDirectory. Harness left running for delivery. Next: Q1 permission+hotkey, then wake smoketest1 while Bryan active, then Q2 observations.
 
+[2026-11-28T02:08:21Z · bob-cli-q5.9.1.1] BRYAN DIRECTIVE (2026-11-27): Do not ask Bryan to verify, observe, act, or answer further questions for the snooze acceptance or close-out. Replace human observation with the machine-evidence standard in plan:202611/finish_snoozed_tasks_unattended.md; record residuals where behavior cannot be proven. The nine-question round-2 gate d66607cd-82c3-48c3-ad38-3cf618c2e27f was canceled without a response by takeover phase bob-cli-q5.9.1.1.
+
 ## Agents
 
 | Agent | Bead | Commits |

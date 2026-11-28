@@ -32,7 +32,7 @@ planner: build the pure navigation snooze mutation planner, the narrow BIP plann
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-cli | [`ee21fdf`](https://github.com/bobs-org/bob-cli/commit/ee21fdff6c84c1407a21ba6aa80f442b273a7941) | test(snooze): enable JS runner for snooze vectors | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:12:17 EST |
-| bob-plugins | `bob-plugins@ee21fdf` | test(snooze): enable JS runner for snooze vectors | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:12:17 EST |
+| bob-plugins | [`bob-plugins@143c9ca`](https://github.com/bobs-org/bob-plugins/commit/143c9ca3c65fd341f3f085fe24ca3f4f9574b9cc) | feat(snooze): add mutation planner and BIP adapter | [bob-cli-q5.6.1.1](bob-cli-q5.6.1.1.md) | 2026-11-27 02:13:26 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -44,10 +44,12 @@ planner: build the pure navigation snooze mutation planner, the narrow BIP plann
 | read-by | [agent:bob-cli-q5.6.1.2][2] | Need prior planner phase deliverable | 1 |
 | read-by | [agent:bob-cli-q5.6.1.3][3] | Need prior planner API for card phase | 1 |
 | read-by | [agent:bob-cli-q5.6.1.land][4] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-r7.land][5] | Check whether the snooze epic already tracks the resnooze-replaces-history JS vector failure | 2 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.1/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.2/README.md
 [3]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.6.1.3/README.md
 [4]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.6.1.land.md
+[5]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-r7.land.md
 
 <!-- sase:referenced-by:end -->

@@ -26,7 +26,13 @@ snoozed-row-paint: paint active, due, blocked, ignored, and struck Snoozed rows 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.4/README.md) | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.5.1.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.4/README.md) | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@514f799`](https://github.com/bobs-org/bob-plugins/commit/514f7992af9ff5a6fa754a24d95687bcf4b144b2) | feat(snooze): paint Snoozed rows and heading summaries | [bob-cli-q5.5.1.4](bob-cli-q5.5.1.4.md) | 2026-11-26 18:36:55 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -36,8 +42,10 @@ snoozed-row-paint: paint active, due, blocked, ignored, and struck Snoozed rows 
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.5.1.4][1] | Need the phase scope and design file | 2 |
 | read-by | [agent:bob-cli-q5.5.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:bob-cli-qj.5.1.7--1][3] | Check whether the clean-base snooze vector mismatch is already tracked | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.5.1.4/README.md
 [2]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.5.1.land.md
+[3]: https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-qj.5.1.7.md
 
 <!-- sase:referenced-by:end -->

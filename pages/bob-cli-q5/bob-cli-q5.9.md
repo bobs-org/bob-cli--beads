@@ -11,6 +11,10 @@
 
 close-out: the Snoozed Task glossary strand and regenerated glossary page, the decision record if approved, a how-to guide and concepts paragraph, and a live end-to-end run of every acceptance case across bob, Obsidian, and the Mac.
 
+## Notes
+
+[2026-11-28T02:08:47Z · bob-cli-q5.9.1.1] BRYAN DIRECTIVE (2026-11-27): Do not ask Bryan to verify, observe, act, or answer further questions for the snooze acceptance or close-out. Replace human observation with the machine-evidence standard in plan:202611/finish_snoozed_tasks_unattended.md; record residuals where behavior cannot be proven. The nine-question round-2 gate d66607cd-82c3-48c3-ad38-3cf618c2e27f was canceled without a response by takeover phase bob-cli-q5.9.1.1.
+
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.3](bob-cli-q5.3.md) ✓ · ⧖ 2026-11-25
