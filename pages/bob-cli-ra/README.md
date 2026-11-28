@@ -35,7 +35,7 @@ On area, project, notebook, and prose notes, `[n` / `]n` step through the note's
 | [bob-cli-ra.2](bob-cli-ra.2.md) | Matcher hardening, key notices, and the links footer copy | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-ra.3](bob-cli-ra.3.md) | Rail kit polish, the card-floor helper, and the tree rail adapter | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [bob-cli-ra.4](bob-cli-ra.4.md) | The rail on every tree card and the card-floor invariant | ✓ closed | medium | 2026-11-27 | 1 | 1 |
-| [bob-cli-ra.5](bob-cli-ra.5.md) | Real-Obsidian link-walk acceptance with screenshot review | ◐ in_progress | medium | 2026-11-27 | 1 | 3 |
+| [bob-cli-ra.5](bob-cli-ra.5.md) | Real-Obsidian link-walk acceptance with screenshot review | ◐ in_progress | medium | 2026-11-27 | 1 | 4 |
 | [bob-cli-ra.6](bob-cli-ra.6.md) | Plugin docs, the link-walk glossary term, and approved memory | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
 
 ## Lineage
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.apollo.bob-cli-ra.2](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.2.md) | [bob-cli-ra.2](bob-cli-ra.2.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ra.3](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.3/README.md) | [bob-cli-ra.3](bob-cli-ra.3.md) | 1 |
 | [bbugyi200.apollo.bob-cli-ra.4](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.4/README.md) | [bob-cli-ra.4](bob-cli-ra.4.md) | 1 |
-| [bbugyi200.apollo.bob-cli-ra.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.5.md) | [bob-cli-ra.5](bob-cli-ra.5.md) | 3 |
+| [bbugyi200.apollo.bob-cli-ra.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.apollo.bob-cli-ra.5.md) | [bob-cli-ra.5](bob-cli-ra.5.md) | 4 |
 | [bbugyi200.apollo.bob-cli-ra.6](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.6/README.md) | [bob-cli-ra.6](bob-cli-ra.6.md) | 0 |
 | [bbugyi200.apollo.bob-cli-ra.land](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.apollo.bob-cli-ra.land/README.md) | [bob-cli-ra](README.md) | 0 |
 
@@ -86,6 +86,7 @@ flowchart TD
 | bob-plugins | [`bob-plugins@7843342`](https://github.com/bobs-org/bob-plugins/commit/7843342216c269079fece729db68c33b175793e3) | test(acceptance): add real tree-walk Obsidian runner | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-27 19:04:46 EST |
 | bob-plugins | [`bob-plugins@d83ffbe`](https://github.com/bobs-org/bob-plugins/commit/d83ffbebad69e1ec9e5ce8d8661648fbcb5a696d) | fix(test): scope tree-walk long-task samples | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-27 19:32:23 EST |
 | bob-plugins | [`bob-plugins@1834c28`](https://github.com/bobs-org/bob-plugins/commit/1834c28322b0e7c7e687625b7e034254e52f49b1) | fix(acceptance): wait for stale link resolution | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-27 19:58:17 EST |
+| bob-plugins | [`bob-plugins@145b4a3`](https://github.com/bobs-org/bob-plugins/commit/145b4a3d1ed88c1cabe78029ab9b6a08c3eff695) | test(acceptance): record stale rail notice evidence | [bob-cli-ra.5](bob-cli-ra.5.md) | 2026-11-27 20:10:16 EST |
 
 <!-- sase:referenced-by:start -->
 
