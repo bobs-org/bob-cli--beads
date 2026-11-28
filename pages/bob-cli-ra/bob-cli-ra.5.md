@@ -20,7 +20,7 @@
 | related | file:explicit:a1ed81b79efe17d52d0bc55e | attached via sase artifact create --bead |
 | related | file:explicit:ced624aef339f4a3cd0c942c | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -49,7 +49,7 @@ PROPOSED FOLLOW-UP: Run the acceptance gates against the phase's intended source
 ## Dependencies
 
 - **Depends on:** [bob-cli-ra.4](bob-cli-ra.4.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-ra.6](bob-cli-ra.6.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-ra.6](bob-cli-ra.6.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -73,6 +73,7 @@ PROPOSED FOLLOW-UP: Run the acceptance gates against the phase's intended source
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-ra.5][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:bob-cli-ra.5--2][1] | Need current assigned epic scope, status, and notes before recording acceptance evidence | 1 |
 | read-by | [agent:bob-cli-ra.5--5][1] | Inspect requested acceptance-phase status and record evidence | 1 |
 | read-by | [agent:g7.f1--code][2] | Check whether ra.5 closed and landed the tree-walk runner we just fetched | 1 |
