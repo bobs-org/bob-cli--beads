@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project_id": "gh_bobs-org__bob-cli",
+  "epic_id": "bob-cli-q5",
+  "close_token": "bob-cli-q5.9:bob-cli-q5:000117:issue_closed:bob-cli-q5.9:ee09e0d508c44d7427f6af112a1b08a34e6e91557a5ce1d32c6c3e50e4c11a66",
+  "owner_machine": "athena",
+  "proc_id": "epic-recovery-aeffdbf721dae6cbc2f03966872300e75a2249a20281f22c4cb27d2e3cc567b6",
+  "request_fingerprint": "epic-recovery:aeffdbf721dae6cbc2f03966872300e75a2249a20281f22c4cb27d2e3cc567b6",
+  "activation_generation": 1,
+  "created_at": "2026-11-28T14:55:56Z"
+}
