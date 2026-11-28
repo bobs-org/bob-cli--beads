@@ -21,7 +21,7 @@ capture-z: the z:<when> token for new and existing-task captures, the existing-t
 
 - **Depends on:** [bob-cli-q5.1](bob-cli-q5.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.7](bob-cli-q5.7.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q5.9](bob-cli-q5.9.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.9](bob-cli-q5.9.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

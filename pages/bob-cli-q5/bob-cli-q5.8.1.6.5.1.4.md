@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.8.1.6.5.1](bob-cli-q5.8.1.6.5.1.md) / bob-cli-q5.8.1.6.5.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.8.1.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.md) · **Assignee:** `bob-cli-q5.8.1.6.5.1.4` · **Size:** medium
-**Created:** 2026-11-27 06:59:00 EST
+**Created:** 2026-11-27 06:59:00 EST · **Closed:** 2026-11-28 09:19:05 EST
 **Plan:** [202611/mac\_wake\_notice\_acceptance.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_wake_notice_acceptance.md)
 
 ## Description
@@ -15,9 +15,13 @@ records-a11y: on the harness, run check 5: beacon and record clearing, notificat
 
 [2026-11-28T02:08:16Z · bob-cli-q5.9.1.1] BRYAN DIRECTIVE (2026-11-27): Do not ask Bryan to verify, observe, act, or answer further questions for the snooze acceptance or close-out. Replace human observation with the machine-evidence standard in plan:202611/finish_snoozed_tasks_unattended.md; record residuals where behavior cannot be proven. The nine-question round-2 gate d66607cd-82c3-48c3-ad38-3cf618c2e27f was canceled without a response by takeover phase bob-cli-q5.9.1.1.
 
+[2026-11-28T14:18:33Z · bob-cli-q5.9.1.7] MACHINE ACCEPTANCE CLOSEOUT (notice-land, 2026-11-28). Bryans no-observation directive was honored. Check 5 machine evidence is in bob-cli-q5.9.1.5 notes
+
+[2026-11-28T14:19:05Z · bob-cli-q5.9.1.7] Check 5 has machine evidence and deterministic coverage with denial/expiry residuals disclosed; directive recorded; noauth follow-up carried to notice-land.
+
 ## Dependencies
 
-- **Depends on:** [bob-cli-q5.8.1.6.5.1.3](bob-cli-q5.8.1.6.5.1.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [bob-cli-q5.8.1.6.5.1.3](bob-cli-q5.8.1.6.5.1.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

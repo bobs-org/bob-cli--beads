@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.8](bob-cli-q5.8.md) / bob-cli-q5.8.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.md) · **Assignee:** `bob-cli-q5.8.1.land`
-**Created:** 2026-11-26 12:54:20 EST
+**Created:** 2026-11-26 12:54:20 EST · **Closed:** 2026-11-28 09:27:56 EST
 **Plan:** [202611/mac\_snooze\_wake\_notice.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_snooze_wake_notice.md)
 
 <!-- sase:links:start -->
@@ -33,11 +33,9 @@ Complete bob-cli-q5.8 with one verified Mac wake HUD per owned batch, held durin
 
 [2026-11-28T02:08:36Z · bob-cli-q5.9.1.1] BRYAN DIRECTIVE (2026-11-27): Do not ask Bryan to verify, observe, act, or answer further questions for the snooze acceptance or close-out. Replace human observation with the machine-evidence standard in plan:202611/finish_snoozed_tasks_unattended.md; record residuals where behavior cannot be proven. The nine-question round-2 gate d66607cd-82c3-48c3-ad38-3cf618c2e27f was canceled without a response by takeover phase bob-cli-q5.9.1.1.
 
-## Agents
+[2026-11-28T14:27:49Z · bob-cli-q5.9.1.7] Q5.8.1 LAND (notice-land, 2026-11-28). All five implementation phases and repair epic bob-cli-q5.8.1.6 are closed. The repair epic note records commits, exact-SHA CI, docs and shell-script gates, acceptance results, and carried follow-ups. Real-Mac acceptance checks 1–6 are evidenced in q5.9.1.5/q5.9.1.6 and consolidated under q5.8.1.6.5.1; the acceptance-only harness has been removed and production integrity is verified.
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.land](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.land.md) | [bob-cli-q5.8.1](bob-cli-q5.8.1.md) | 0 |
+[2026-11-28T14:27:56Z · bob-cli-q5.9.1.7] All implementation and repair phases closed; q5.8 acceptance evidence, CI/docs gates, teardown, and production check recorded.
 
 <!-- sase:referenced-by:start -->
 

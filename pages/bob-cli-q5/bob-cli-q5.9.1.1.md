@@ -23,7 +23,7 @@ takeover: stop the stale waiting agents and the pending nine-question round, rec
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.9.1.5](bob-cli-q5.9.1.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-q5.9.1.5](bob-cli-q5.9.1.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

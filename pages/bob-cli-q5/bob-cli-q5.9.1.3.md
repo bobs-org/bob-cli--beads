@@ -18,7 +18,7 @@
 | related | file:explicit:911c05c5ff222ecee2d83ad0 | attached via sase artifact create --bead |
 | related | file:explicit:a41139bbc36016e4710d695a | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -59,7 +59,9 @@ Verified: npm run build; node --test test-navigation-snooze-mutation-planner + t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.9.1.3][1] | Need the phase scope, notes, design file, and epic DECISIONS | 2 |
+| read-by | [agent:bob-cli-q5.9.1.9][2] | Need plugin-resnooze commits and master SHA that e2e must test | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.3/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.9/README.md
 
 <!-- sase:referenced-by:end -->

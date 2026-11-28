@@ -41,7 +41,9 @@ bob-fixes: give deferred snooze reports their documented envelope, describe rela
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:bob-cli-q5.9.1.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:bob-cli-q5.9.1.9][2] | Need bob-fixes commits and SHA that e2e must test | 1 |
 
 [1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.2/README.md
+[2]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.9/README.md
 
 <!-- sase:referenced-by:end -->

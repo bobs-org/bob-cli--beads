@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [bob-cli-q5.8.1.6.5.1](bob-cli-q5.8.1.6.5.1.md) / bob-cli-q5.8.1.6.5.1.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.bob-cli-q5.8.1.6.5](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.md) · **Assignee:** `bob-cli-q5.8.1.6.5.1.2` · **Size:** medium
-**Created:** 2026-11-27 06:59:00 EST
+**Created:** 2026-11-27 06:59:00 EST · **Closed:** 2026-11-28 09:18:50 EST
 **Plan:** [202611/mac\_wake\_notice\_acceptance.md](https://github.com/bobs-org/bob-cli--plans/blob/main/202611/mac_wake_notice_acceptance.md)
 
 ## Description
@@ -29,12 +29,12 @@ delivery: on the harness, run checks 1, 2, and 6 of plan:202611/mac_snooze_wake_
 
 [2026-11-28T00:48:32Z · bob-cli-q5.8.1.6.5.1.2--1] NEXT ROUND (staged ~19:50 EST): round 2 asks 9 questions: one per title (Check1 HUD once, Route stopped app, Route desktop, Route off, Route old bob, Route claim back), the menu-bar count after the first HUD, the number of "Bob Mac Capture Accep
 
-… and 2419 more characters
+… and 2800 more characters
 
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [bob-cli-q5.8.1.6.5.1.3](bob-cli-q5.8.1.6.5.1.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-q5.8.1.6.5.1.3](bob-cli-q5.8.1.6.5.1.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

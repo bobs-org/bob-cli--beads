@@ -53,13 +53,20 @@ harness: settle master exact-SHA CI for ba213181, then build a scratch Bob Mac C
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-q5.8.1.6.5.1.2](bob-cli-q5.8.1.6.5.1.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [bob-cli-q5.8.1.6.5.1.2](bob-cli-q5.8.1.6.5.1.2.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1.md) | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 0 |
+| [bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.8.1.6.5.1.1.md) | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 2 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-mac-capture | [`bob-mac-capture@2253dec`](https://github.com/bobs-org/bob-mac-capture/commit/2253dec0ae519fb9c0f358fcd4ada2781bbffec2) | feat(harness): add isolated Mac wake-notice acceptance script | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 2026-11-27 07:17:42 EST |
+| bob-mac-capture | [`bob-mac-capture@4053b19`](https://github.com/bobs-org/bob-mac-capture/commit/4053b19e09f9cf0f7f2a2a81095884a2342546a3) | fix(test): stop over-releasing extra windows in SettingsScrollContainerTests | [bob-cli-q5.8.1.6.5.1.1](bob-cli-q5.8.1.6.5.1.1.md) | 2026-11-27 10:14:14 EST |
 
 <!-- sase:referenced-by:start -->
 

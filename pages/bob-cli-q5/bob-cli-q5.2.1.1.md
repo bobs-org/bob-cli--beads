@@ -25,12 +25,6 @@ reader-recovery: extract reusable snapshot-backed snoozed row resolution from th
 - **Blocks:** [bob-cli-q5.2.1.3](bob-cli-q5.2.1.3.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [bob-cli-q5.2.1.4](bob-cli-q5.2.1.4.md) ✓ · ⧖ 2026-11-25
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.bob-cli-q5.2.1.1](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-q5.2.1.1.md) | [bob-cli-q5.2.1.1](bob-cli-q5.2.1.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

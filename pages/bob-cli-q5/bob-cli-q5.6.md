@@ -40,7 +40,7 @@ Deploy: bob plugins sync --repo <bob-plugins checkout> --no-pull (no -F). 4 copi
 ## Dependencies
 
 - **Depends on:** [bob-cli-q5.5](bob-cli-q5.5.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [bob-cli-q5.9](bob-cli-q5.9.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [bob-cli-q5.9](bob-cli-q5.9.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

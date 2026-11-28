@@ -27,6 +27,8 @@
 | related | file:explicit:d3accb5b7ce1fe96ccd61d44 | attached via sase artifact create --bead |
 | related | file:explicit:eacaa1dc057025c940b6a1df | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -75,3 +77,15 @@ e2e: run every bob and Obsidian acceptance case against the current masters, on 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | bob-plugins | [`bob-plugins@91db00d`](https://github.com/bobs-org/bob-plugins/commit/91db00d373c75a82b8c29e163a443afa3bff10be) | test(snooze): prove Linux case 8 waker spawn and Notice in marks e2e | [bob-cli-q5.9.1.9](bob-cli-q5.9.1.9.md) | 2026-11-27 22:30:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:bob-cli-q5.9.1.9][1] | Confirm phase closed before final declaration | 6 |
+
+[1]: https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-q5.9.1.9/README.md
+
+<!-- sase:referenced-by:end -->
