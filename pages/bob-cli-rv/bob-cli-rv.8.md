@@ -24,10 +24,4 @@ mac: re-copy the regenerated req_close vectors, add tests that a minute Cancel `
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-rv.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.8.md) | [bob-cli-rv.8](bob-cli-rv.8.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-mac-capture | [`bob-mac-capture@f2a2a81`](https://github.com/bobs-org/bob-mac-capture/commit/f2a2a810659ba7c91a3cf6ff2a66493081ab0b4e) | test(capture): pin minute Cancel recall ages and resync req\_close vectors | [bob-cli-rv.8](bob-cli-rv.8.md) | 2026-11-28 10:21:19 EST |
+| [bbugyi200.athena.bob-cli-rv.8](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.8.md) | [bob-cli-rv.8](bob-cli-rv.8.md) | 0 |

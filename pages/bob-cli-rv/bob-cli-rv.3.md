@@ -28,13 +28,7 @@ cli-cancel: split the cancel engine's log stamp from `[cancelled::]`, and stamp 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-rv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.3.md) | [bob-cli-rv.3](bob-cli-rv.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| bob-cli | [`400a240`](https://github.com/bobs-org/bob-cli/commit/400a240259c4da26f31a0c6a7fa33c6bd130f356) | feat(cancel)!: stamp Cancel Log entries at the write minute | [bob-cli-rv.3](bob-cli-rv.3.md) | 2026-11-28 10:08:44 EST |
+| [bbugyi200.athena.bob-cli-rv.3](https://github.com/bobs-org/bob-cli--agents/blob/main/sessions/bbugyi200.athena.bob-cli-rv.3.md) | [bob-cli-rv.3](bob-cli-rv.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

@@ -17,14 +17,20 @@ plugin-readers: make the nav and ledger-tools Rotten Log parsers, the nav Schedu
 
 ## Dependencies
 
-- **Blocks:** [bob-cli-rv.4](bob-cli-rv.4.md) ◐ · ⧖ 2026-11-28
+- **Blocks:** [bob-cli-rv.4](bob-cli-rv.4.md) ✓ · ⧖ 2026-11-28
 - **Blocks:** [bob-cli-rv.5](bob-cli-rv.5.md) ◐ · ⧖ 2026-11-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.bob-cli-rv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.2/README.md) | [bob-cli-rv.2](bob-cli-rv.2.md) | 0 |
+| [bbugyi200.athena.bob-cli-rv.2](https://github.com/bobs-org/bob-cli--agents/blob/main/agents/bbugyi200.athena.bob-cli-rv.2/README.md) | [bob-cli-rv.2](bob-cli-rv.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| bob-plugins | [`bob-plugins@d55ba76`](https://github.com/bobs-org/bob-plugins/commit/d55ba7601f39d3f6526a26ae42c59e6cbc306aa5) | feat(plugins): accept stamped Rotten and Schedule entries in readers and recall bands | [bob-cli-rv.2](bob-cli-rv.2.md) | 2026-11-28 08:49:58 EST |
 
 <!-- sase:referenced-by:start -->
 
